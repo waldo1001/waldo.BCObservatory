@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:11:24.186Z"
   flags: []
 generated:
-  at: "2026-10-18T00:53:28.996Z"
+  at: "2026-10-23T01:10:04.337Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -277,22 +277,22 @@ features:
     roadmap_ids:
       - "573342"
   - name: B2B Catalog Management
-    status: unclear
+    status: ga
     t: 706
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: B2B Modern Authorization
     status: unclear
     t: 838
     verified: false
     status_source: video
   - name: Company-Specific Catalogs
-    status: ga
+    status: unclear
     t: 877
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
   - name: Get Catalogs Action
     status: ga
     t: 968
@@ -313,12 +313,10 @@ features:
     verified: false
     status_source: video
   - name: B2B vs D2C Order Differentiation
-    status: ga
+    status: unclear
     t: 1098
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
   - name: Cancel Order Action
     status: unclear
     t: 1142
@@ -489,13 +487,13 @@ The main part is a demo of B2B with Business Central. It covers D2C customer and
 | B2B Company Synchronization | status not stated, demoed | [9:40](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=580s) |
 | Default Contact Permissions Configuration | status not stated, demoed | [9:40](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=580s) |
 | Automatic Catalog Creation for Companies | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [10:00](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=600s) |
-| B2B Catalog Management | status not stated, demoed | [11:46](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=706s) |
+| B2B Catalog Management | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [11:46](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=706s) |
 | B2B Modern Authorization | status not stated, demoed | [13:58](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=838s) |
-| Company-Specific Catalogs | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [14:37](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=877s) |
+| Company-Specific Catalogs | status not stated, demoed | [14:37](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=877s) |
 | Get Catalogs Action | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [16:08](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=968s) |
 | Catalog Price Synchronization | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [16:28](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=988s) |
 | B2B Checkout with Company Assignment | status not stated, demoed | [17:19](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1039s) |
-| B2B vs D2C Order Differentiation | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [18:18](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1098s) |
+| B2B vs D2C Order Differentiation | status not stated, demoed | [18:18](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1098s) |
 | Cancel Order Action | status not stated, demoed | [19:02](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1142s) |
 | Order Status Synchronization | status not stated, demoed | [19:22](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1162s) |
 | Order Editing with Refunds | status not stated, demoed | [20:23](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1223s) |

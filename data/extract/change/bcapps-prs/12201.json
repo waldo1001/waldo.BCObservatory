@@ -8,10 +8,10 @@
   ],
   "summary": "Fixed incorrect project ledger costs when non-deductible VAT is posted to foreign-currency projects by correctly mapping currency amounts in the VAT-to-job conversion process.",
   "key_points": [
-    "The code was mixing currency amounts between LCY and project currency in the CopyNonDedVATFromGenJnlLineToJobJnlLine function",
-    "LCY non-deductible VAT amounts now correctly apply to LCY costs",
-    "Project-currency VAT amounts now correctly apply to project-currency costs",
-    "Issue affected projects with non-deductible VAT and foreign currencies"
+    "CopyNonDedVATFromGenJnlLineToJobJnlLine had swapped currency paths: a project-currency amount went into LCY cost and an LCY amount into project cost",
+    "LCY unit and total costs now use the non-deductible VAT LCY amount",
+    "Project-currency unit and total costs now use the source VAT amount converted into the project currency",
+    "Tests updated in W1 and IT layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

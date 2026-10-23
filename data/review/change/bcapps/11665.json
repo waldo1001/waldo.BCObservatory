@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11665",
+  "input_hash": "787650ece5b99a3c66698156026e512ab7e767ce8d36a453352a724ef99e03c4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-23T01:11:43.893Z",
+  "issues": [
+    "Summary attributed the new subcontracting layout to the Subcontracting Transfer Shipment report (12154); actually 12154 loses its subcontracting content and the new layout extends standard report 5704 Transfer Shipment."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02327,
+    "changes_in_call": 6
+  }
+}

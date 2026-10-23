@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,7 +74,8 @@ links:
     - topic/dev-itpro/integration
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/demiliani-com/13541
   guidelines: []
   changes:
     - change/bcapps/12064
@@ -89,7 +90,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 8b44d3c4b42940a42001b1109b957abbe92c636ad9a0324c4e370e7b69a490f8
@@ -136,5 +137,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12064 Support SharePoint paths containing hash and percent characters](../../../changes/bcapps/12064.md) (code change): "SharePoint connector now supports file paths containing hash and percent characters"
 - [#8874 [Field Service Integration] Rounding error on Service Line quantity write-back for Item-type service lines with non-divisible durations](../../../changes/bcapps/8874.md) (code change): "Service line quantities synced from Field Service are now properly rounded"
+- [YAMPI (the Dynamics 365 Business Central Administration MCP Server): installing apps from Microsoft’s Marketplace.](../../../posts/demiliani-com/13541.md) (community post): "installing apps from Microsoft's Marketplace.. YAMPI version 1.2.1 adds the ability to install Marketplace apps"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

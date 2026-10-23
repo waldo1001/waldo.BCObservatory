@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:03:16.851Z"
+  at: "2026-10-23T01:04:01.231Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 754f8574727140a181502875ca43f37fac95b92ceab59038032b9718793ff7cc
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/Apps/W1/AgentDesignExperience/app/CustomAgent/Samples/ICustomAgentSample.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/AgentDesignExperience/app/CustomAgent/Samples/ICustomAgentSample.Interface.al
     title: src/Apps/W1/AgentDesignExperience/app/CustomAgent/Samples/ICustomAgentSample.Interface.al (releases/29.x)
     date: null
-    commit: e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc
+    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "ICustomAgentSample" in AgentDesignExperience (System.Agents.Designer.CustomAgent). 3 public procedures. Introduced in BC29, still in BC30.
 
-AgentDesignExperience · System.Agents.Designer.CustomAgent · BC29-30 · [source at e9be5bb8](https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/Apps/W1/AgentDesignExperience/app/CustomAgent/Samples/ICustomAgentSample.Interface.al) · facts from BC29
+AgentDesignExperience · System.Agents.Designer.CustomAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/AgentDesignExperience/app/CustomAgent/Samples/ICustomAgentSample.Interface.al) · facts from BC29
 
 ## Properties
 

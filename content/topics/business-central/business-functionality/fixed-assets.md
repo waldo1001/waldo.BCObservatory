@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -396,6 +396,7 @@ links:
   changes:
     - change/bcapps/10337
     - change/bcapps/10613
+    - change/bcapps/12160
     - change/bcapps/9662
     - change/bcapps/9687
 learn_toc_path:
@@ -522,6 +523,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10337 Let subscribers override the half-year new year date in SetHalfYearConventionMethod](../../../changes/bcapps/10337.md) (code change): "half-year depreciation calculations by adding a trailing var parameter"
 - [#10613 [Master] - Slice 640775: [Sustainability] Reverse Sustainability part when reverse in GL Entries](../../../changes/bcapps/10613.md) (code change): "the fixed asset's Acquisition Total CO2e nets to zero"
+- [#12160 Deliverable 617319: Move French accelerated depreciation to W1 base application](../../../changes/bcapps/12160.md) (code change): "French accelerated depreciation functionality is now part of the standard W1 base application"
 - [#9662 [Master]-Fixed Asset: Declining-Balance method - wrong calculation when running depreciation](../../../changes/bcapps/9662.md) (code change): "Fixed incorrect depreciation calculation when using the declining-balance method"
 - [#9687 [main] bug 642230 - Enhance FA General Report logic and add tests for Tax Deprec. Group and FA Posting Group handling](../../../changes/bcapps/9687.md) (code change): "Fixed a bug where the FA General Report procedures could clear the FA Posting Group"
 - [What's New: Create Multiple Fixed Assets (2025 release wave 2)](../../../videos/CkGTSItdTbs.md) (video): "Create multiple fixed assets from purchase order; Fixed asset global availability"

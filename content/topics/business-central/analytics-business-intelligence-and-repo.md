@@ -7,12 +7,12 @@ tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-23T01:12:42.283Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -970,7 +970,7 @@ narrative: generated
 
 > Analytics, business intelligence, and reporting in Business Central: financial reports, KPIs, Power BI, ad-hoc analysis, built-in reports, report development, and exporting data to external BI tools. It helps answer which reporting option fits a need and where to find setup or how-to guidance.
 
-Path: Analytics, business intelligence, and reporting · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
+Path: Analytics, business intelligence, and reporting · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -88,12 +88,14 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language
   localizations: []
-  videos: []
+  videos:
+    - video/qNHUj3ZEang
   posts:
     - post/aardvarklabs-blog/1826
     - post/aardvarklabs-blog/2953
     - post/demiliani-com/13588
     - post/demiliani-com/13640
+    - post/demiliani-com/14203
     - post/kauffmann-nl/8332
   guidelines: []
   changes:
@@ -117,8 +119,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 0
-  blog: 5
+  video: 1
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -160,6 +162,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "explains how to consume external APIs from within Business Central by making HTTP requests using the HttpClient"
 - [Dynamics 365 Business Central: new strict URI validation in AL Http Client](../../../../posts/demiliani-com/13588.md) (community post): "Cloud environments enforce this without bypass options"
 - [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "native SFTP Client codeunit for connecting to SFTP servers from AL code"
+- [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs"
 - [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released on GitHub"
+- [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../../videos/qNHUj3ZEang.md) (video): "Cookie Support in REST Client; Collectible Errors in REST Client"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

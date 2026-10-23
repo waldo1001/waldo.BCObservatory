@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:03:16.851Z"
+  at: "2026-10-23T01:04:01.231Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5681191146c3954ea498504a671faf60b119d6484347899fc6f527e9c32f36b0
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BCPremiumPartnerSandbox.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BCPremiumPartnerSandbox.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BCPremiumPartnerSandbox.Entitlement.al (releases/29.x)
     date: null
-    commit: e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc
+    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Entitlement "EA - Dynamics 365 BC Premium Partner Sandbox" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at e9be5bb8](https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BCPremiumPartnerSandbox.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BCPremiumPartnerSandbox.Entitlement.al) · facts from BC29
 
 ## Recent changes
 

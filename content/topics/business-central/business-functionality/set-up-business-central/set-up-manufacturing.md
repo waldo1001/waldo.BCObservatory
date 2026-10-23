@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -208,6 +208,7 @@ links:
     - change/bcapps/10899
     - change/bcapps/12098
     - change/bcapps/12370
+    - change/bcapps/12986
     - change/bcapps/9067
     - change/bcapps/9122
     - change/bcapps/9123
@@ -353,6 +354,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10899 [Extensibility Request] issue 30433: expose consolidated calendar entry before insert](../../../../changes/bcapps/10899.md) (code change): "new integration event exposes consolidated work center calendar entries and their source data"
 - [#12098 [29.X]-[Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing](../../../../changes/bcapps/12098.md) (code change): "carrying out planning worksheet action messages for production"
 - [#12370 Guard removed Manufacturing Setup fields with CLEANSCHEMA30 preprocessor](../../../../changes/bcapps/12370.md) (code change): "Manufacturing Setup fields marked as removed in version 30.0"
+- [#12986 Fix Work Center field persistence when auto-save is disabled](../../../../changes/bcapps/12986.md) (code change): "Validation of Subcontractor No. now saves the record before refreshing the page"
 - [#9067 Production Definition Wizard - Implementation](../../../../changes/bcapps/9067.md) (code change): "Production Definition Wizard is introduced as a guided multi-step interface for configuring Bill of Materials and Routing"
 - [#9122 Bug 641488: Add "Calendar Entries Available Until" FlowField to Work/Machine Center](../../../../changes/bcapps/9122.md) (code change): "new FlowField called Calendar Entries Available Until has been added to Work Center and Machine Center"
 - [#9123 Bug 641489: Show Next/Previous Operation No. on routing lines when Type = Parallel](../../../../changes/bcapps/9123.md) (code change): "Next Operation No. and Previous Operation No. fields on routing lines"

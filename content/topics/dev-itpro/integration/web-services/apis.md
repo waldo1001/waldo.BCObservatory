@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -339,6 +339,7 @@ links:
     - post/aardvarklabs-blog/3631
     - post/demiliani-com/11962
     - post/demiliani-com/12036
+    - post/demiliani-com/12975
     - post/gerardorenteria-blog/12682
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9
@@ -367,7 +368,7 @@ coverage:
   learn: 261
   code: 1
   video: 3
-  blog: 12
+  blog: 13
   guideline: 0
 bc_forms:
   - 812
@@ -427,6 +428,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Build an API page with System ID and ODataKeyFields to enable Power Automate to interact"
 - [Dynamics 365 Business Central: compressing API responses at max.](../../../../posts/demiliani-com/11962.md) (community post): "Business Central APIs compress responses with gzip by default, negotiated via Accept-Encoding"
 - [Why not start improving Business Central APIs definitions for supporting AI?](../../../../posts/demiliani-com/12036.md) (community post): "Business Central APIs lack AI-ready metadata that LLMs need to reliably call functions"
+- [My MCP server for Dynamics 365 Business Central Administration now supports handling PTEs.](../../../../posts/demiliani-com/12975.md) (community post): "MCP server for Dynamics 365 Business Central Administration"
 - [🤖 AboutText: Teaching AI to Understand Your APIs ✨](../../../../posts/gerardorenteria-blog/12682.md) (community post): "AboutText is a new property in BC 27.1 for APIV2 pages that describes API functionality"
 - [Why API Templates Don't Work on Business Central Custom API Pages](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d.md) (community post): "API templates in Business Central only work with specific standard API pages because custom API pages lack the ProcessNewRecordFromAPI"
 - [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) (community post): "The Sales Invoices API in Business Central aggregates posted and unposted invoices"

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,7 +81,8 @@ links:
   topics:
     - topic/dev-itpro/development/get-started
   localizations: []
-  videos: []
+  videos:
+    - video/9i6hVsw9x_U
   posts:
     - post/demiliani-com/12142
   guidelines: []
@@ -98,7 +99,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 0
+  video: 1
   blog: 1
   guideline: 0
 bc_forms: []
@@ -148,5 +149,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9407 Add Microsoft apps view to AppSource product list (Fix ADO #642217)](../../../../changes/bcapps/9407.md) (code change): "A new predefined view called "Microsoft apps" was added to the AppSource Product List page"
 - [#142 Add AL-focused AppSource validation guidance](../../../../changes/bcquality/142.md) (code change): "Six community AppSource knowledge articles with paired good and bad AL samples"
 - [Dynamics 365 Business Central: checking for breaking changes on obsoleted, internal and OnPrem objects.](../../../../posts/demiliani-com/12142.md) (community post): "AppSourceCop configuration settings validateObsoleteSymbols, validateInternalSymbols, validateOnPremSymbols"
+- [AppSource App Previews](../../../../videos/9i6hVsw9x_U.md) (video): "Preview Key for AppSource Apps; Preview Version Installation URL"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

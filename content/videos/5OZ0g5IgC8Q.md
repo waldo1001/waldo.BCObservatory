@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:43:57.899Z"
   flags: []
 generated:
-  at: "2026-10-19T01:09:02.086Z"
+  at: "2026-10-23T01:10:04.337Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -82,7 +82,6 @@ links:
   objects: []
   features:
     - feature/573340
-    - feature/573343
   topics: []
   localizations: []
   videos: []
@@ -157,12 +156,10 @@ features:
     roadmap_ids:
       - "573340"
   - name: Automatic Refund Document Creation
-    status: ga
+    status: unclear
     t: 597
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573343"
+    status_source: video
 objects_mentioned:
   - other Shopify shop card
   - other Tax match review window
@@ -237,7 +234,7 @@ The demo covers importing an order and seeing the AI-assigned tax area, the tax 
 | TaxMatch Configuration Settings | status not stated, demoed | [6:44](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=404s) |
 | Tax Rate Mismatch Detection and Resolution | status not stated, demoed | [10:44](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=644s) |
 | Shopify Order Number as Sales Document Number | generally available (roadmap [Control sales document creation for Shopify orders and returns](../features/573340.md)), demoed | [9:33](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=573s) |
-| Automatic Refund Document Creation | generally available (roadmap [Process Shopify order changes, exchanges, and refunds](../features/573343.md)), demoed | [9:57](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=597s) |
+| Automatic Refund Document Creation | status not stated, demoed | [9:57](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=597s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

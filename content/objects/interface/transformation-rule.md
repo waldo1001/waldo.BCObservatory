@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:03:16.851Z"
+  at: "2026-10-23T01:04:01.231Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 50ecb82b022c48501e82ce47079cc39d277f23f4371658526065a5370aea7e26
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/Layers/W1/BaseApp/System/DataExchange/Transformations/TransformationRule.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/System/DataExchange/Transformations/TransformationRule.Interface.al
     title: src/Layers/W1/BaseApp/System/DataExchange/Transformations/TransformationRule.Interface.al (releases/29.x)
     date: null
-    commit: e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc
+    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
     t: null
     quote: null
 links:
@@ -80,7 +80,7 @@ relations:
 
 > Interface "Transformation Rule" in Base Application (System.IO). 5 public procedures. Introduced in BC25, still in BC30.
 
-Base Application · System.IO · BC25-30 · [source at e9be5bb8](https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/Layers/W1/BaseApp/System/DataExchange/Transformations/TransformationRule.Interface.al) · facts from BC29
+Base Application · System.IO · BC25-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/System/DataExchange/Transformations/TransformationRule.Interface.al) · facts from BC29
 
 ## Procedures
 

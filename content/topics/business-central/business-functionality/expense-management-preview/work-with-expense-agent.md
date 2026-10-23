@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:24.998Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,6 +76,7 @@ links:
   videos:
     - video/Fz8NLByllRc
     - video/GwrMf1umTFg
+    - video/Hct_HE0KzEc
     - video/M0IzeLSn7qU
     - video/s3d9vW6tuT8
     - video/vyQnSxRGJDA
@@ -94,7 +95,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 5
+  video: 6
   blog: 0
   guideline: 0
 bc_forms: []
@@ -141,6 +142,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12763 [Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: "'IndirectInsert' permission on TableData 6913 'Expense Pmt Method" - 2610091420000495](../../../../changes/bcapps/12763.md) (code change): "Allows delegated admins to perform administrative operations on expense management"
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../../videos/Fz8NLByllRc.md) (video): "Automatic mileage rate calculation; Automatic expense report matching"
 - [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../../videos/GwrMf1umTFg.md) (video): "Project resource assignment on project card; Project task level resource assignment"
+- [Episode 516: Business Central Is Transforming Business Management: Insights from Mike Morton](../../../../videos/Hct_HE0KzEc.md) (video): "Expense Agent; Natural Language Invoice Processing; AI-Enhanced Payables Processing"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "expense agent; approval process; audit trail; ai policies"
 - [What's new in Expense Agent: Use Travel Request (2026 release wave 2)](../../../../videos/s3d9vW6tuT8.md) (video): "What's new in Expense Agent: Use Travel Request"
 - [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../../videos/vyQnSxRGJDA.md) (video): "Per Diem Allowance Calculation; Expense Agent Wizard Configuration"

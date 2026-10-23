@@ -6,13 +6,11 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "A behavioral issue with VAT product posting groups changed since Business Central 28.4 is fixed in the VAT Rate Change Conversion codeunit.",
+  "summary": "A one-line change in the VAT Rate Change Conversion codeunit fixes a behavior change, apparently around VAT product posting groups, observed since Business Central 28.4.",
   "key_points": [
-    "Fixes unexpected behavior change in VAT product posting group handling introduced in BC 28.4",
-    "Changes made to VAT Rate Change Conversion codeunit",
-    "Addresses regression reported in Bug 654960",
-    "Single-line modification to the codeunit",
-    "Related to continuous changes from another PR for 28.x compatibility"
+    "Single-line change in codeunit 550 VAT Rate Change Conversion",
+    "Addresses bug 654960 about behavior changed since BC 28.4",
+    "Follows up on PR 12551, which failed builds for 28.x"
   ],
   "change_kind": "fix",
   "behavior_change": true,

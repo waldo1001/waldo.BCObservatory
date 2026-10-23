@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:17.722Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -351,7 +351,6 @@ links:
   changes:
     - change/bcapps/10445
     - change/bcapps/10446
-    - change/bcapps/12767
     - change/bcapps/12857
     - change/bcapps/12967
 learn_toc_path:
@@ -450,7 +449,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10445 [Bug][Subscription Billing] Contract Renewal Quote total ignores the Billing Base Period and shows the base-period amount instead of the renewal-term amount](../../../../changes/bcapps/10445.md) (code change): "Contract Renewal Quote total ignores the Billing Base Period"
 - [#10446 [Bug][Subscription Billing] "Subscription Lines - Overdue" cue counts lines of contracts that already ended](../../../../changes/bcapps/10446.md) (code change): "Fixed the Overdue Subscription Lines cue and page to exclude subscription lines"
-- [#12767 [29x] Bug 654025 Billing Lines Not Rolled Back When Vendor Subscription Contract Invoice Creation Fails.](../../../../changes/bcapps/12767.md) (code change): "vendor subscription contract invoice creation fails, billing lines are now properly rolled back"
 - [#12857 [master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../changes/bcapps/12857.md) (code change): "Billing totals now filter by both Subscription Contract No. and Partner type"
 - [#12967 [29.x]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../changes/bcapps/12967.md) (code change): "Billing total calculations now filter by both subscription contract number and partner"
 - [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../../../../videos/5xeATIUFiGg.md) (video): "subscription billing; recurring invoicing; contract management; revenue deferrals"

@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/get-started
 type: topic
 title: Get started
-summary: "Get started with Business Central AL development: setting up Visual Studio Code and the AL Language extension, building a first extension, and using editor tools (code actions, navigation, Explorer, formatter, snippets, shortcuts). It also covers runtime packages, telemetry, XLIFF translations, help links, ALTool, and AppSource publishing and validation."
+summary: "Getting started with AL development for Business Central: setting up Visual Studio Code and a sandbox, using editor tools (code actions, navigation, Explorer, formatter, Outline), Designer, translations, telemetry, runtime packages, ALTool, and AppSource publishing and validation. It answers setup, tooling and first-extension questions."
 tier: official
 language: en
 system: development
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3000ca9de71ec79ef5bc617140e75ad9baccbda8d6ec9dbb22843a4160d1a2c6
+  input_hash: 2cec32a0e1238623c58b79e14cd691c53e847ede27b7f20bae8ab08433ddc81c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-actions
@@ -63,7 +63,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool
     title: ALTool Command-Line Reference for AL Development
-    date: "2026-09-03"
+    date: "2026-09-25"
     commit: null
     t: null
     quote: null
@@ -275,28 +275,28 @@ narrative: generated
 
 # Get started
 
-> Get started with Business Central AL development: setting up Visual Studio Code and the AL Language extension, building a first extension, and using editor tools (code actions, navigation, Explorer, formatter, snippets, shortcuts). It also covers runtime packages, telemetry, XLIFF translations, help links, ALTool, and AppSource publishing and validation.
+> Getting started with AL development for Business Central: setting up Visual Studio Code and a sandbox, using editor tools (code actions, navigation, Explorer, formatter, Outline), Designer, translations, telemetry, runtime packages, ALTool, and AppSource publishing and validation. It answers setup, tooling and first-extension questions.
 
 Path: [Development](../development.md) > Get started · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is the entry point for developers building extensions for Business Central. It starts with setting up a sandbox, installing Visual Studio Code and the AL Language extension, and creating a first project with the AL:Go! command. A sample walkthrough then builds tables, pages, extension objects, and install and upgrade code. A separate page explains differences from C/SIDE development in Dynamics NAV.
+This section is the entry point for AL developers. It starts with "Get started with AL", which covers the sandbox, Visual Studio Code, the AL Language extension, the AL:Go! command, and the launch.json and app.json settings. "Build your first sample extension" then walks through tables, pages, extension objects, and install and upgrade code. "Differences in the development environments" helps developers coming from C/SIDE in Dynamics NAV.
 
-Most other pages cover tooling in Visual Studio Code: AL code actions, code navigation, AL Explorer, AL Formatter, AL Home, the Outline View, snippets, keyboard shortcuts, and productivity tips. Designer lets you change page layouts in a sandbox without writing AL. Further pages cover shipping concerns: telemetry, XLIFF translations, context-sensitive Help links, and runtime packages for on-premises.
+Many pages describe editor features in Visual Studio Code: code actions, code navigation, AL Explorer, AL Formatter, AL Home, the Outline view, snippets, keyboard shortcuts, and productivity tips. Use Designer is the in-client alternative for changing page layouts without AL code. Other pages cover extension concerns: context-sensitive Help links, XLIFF translation files, telemetry, and runtime packages for on-premises.
 
-Three subtopics extend this: ALTool for command-line compile and packaging in CI/CD, Ready to Go for publishing to the Microsoft commercial marketplace, and Marketplace validation for AppSource submission checks. Start with Get started with AL, then the sample extension, then pick tooling and publishing pages as needed.
+Three subtopics extend this. ALTool covers command-line compiling, packaging, and testing for CI/CD. Ready to Go covers registering as a partner and publishing to the marketplace. Marketplace validation covers AppSource technical validation, telemetry on validation results, and marketing assets.
 
 ## Key points
 
-- Get started with AL: set up a sandbox, install VS Code and the AL Language extension, create a project with AL:Go!, configure launch.json and app.json, and deploy to Business Central.
-- The first sample extension builds table, page, and extension objects plus install and upgrade code, and uses Designer.
-- Editor tools include AL code actions (e.g. multiple if to case, spell check, make method local), Go To Definition navigation, AL Explorer, AL Formatter, Outline View, and AL Home.
-- Designer is an in-client tool in a sandbox for changing page layouts by drag-and-drop, without AL code.
-- Runtime packages for on-premises distribute only runtime artifacts, protecting source code and avoiding developer licenses on target servers; showMyCode and allowDebugging flags apply.
-- XLIFF translation uses the TranslationFile feature, GenerateCaptions, and namespace-aware IDs (runtime 18 noted for TranslationsWithNamespaces).
-- Telemetry can be added with custom signals sent to Application Insights for usage, error, and performance monitoring.
-- ALTool is the cross-platform command-line tool for compiling and packaging AL extensions in CI/CD; Ready to Go and Marketplace validation cover partner registration, object ranges, Partner Center, and AppSource technical validation.
+- Get started with AL covers sandbox setup, Visual Studio Code, the AL Language extension, the AL:Go! command, launch.json and app.json, and Copilot project templates.
+- The first sample extension walkthrough builds table, page, and extension objects plus install and upgrade code, and uses Designer.
+- Editor tooling includes code actions with configurable scope (instance, document, project, workspace), Go To Definition navigation, AL Explorer, AL Formatter, AL Home, and the Outline view.
+- Designer lets developers change page layouts by drag-and-drop in a sandbox without writing AL code.
+- XLIFF translation files support multiple languages, with namespace-aware IDs (TranslationsWithNamespaces, runtime 18).
+- Runtime packages for on-premises protect AL source code and avoid developer licenses on target servers; showMyCode and allowDebugging flags apply.
+- Custom telemetry signals can be sent to Application Insights to monitor usage, errors, and performance.
+- ALTool supports CI/CD compiling, packaging, and testing; Ready to Go and Marketplace validation cover partner registration, Partner Center submission, and AppSource validation.
 
 ## Subtopics
 

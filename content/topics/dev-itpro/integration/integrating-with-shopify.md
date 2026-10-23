@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:58.336Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,7 +86,8 @@ links:
     - video/h5PQI4I4b7c
     - video/inuqqx12yJ8
     - video/lClKXB8xXIE
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/11616
   guidelines: []
   changes:
     - change/bcapps/10034
@@ -141,7 +142,7 @@ coverage:
   learn: 4
   code: 16
   video: 12
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 30100
@@ -242,6 +243,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9320 [Shopify] Import HS code and country of origin from Shopify](../../../changes/bcapps/9320.md) (code change): "Shopify connector now imports harmonized system codes and country of origin"
 - [#9321 [Shopify] Add Unlisted product status](../../../changes/bcapps/9321.md) (code change): "Shopify Connector's product status enum now includes the Unlisted value"
 - [#9404 [Shopify] Fix Sync Prices using stale WorkDate from SingleInstance cache](../../../changes/bcapps/9404.md) (code change): "Fixed the Shopify product price calculator to rebuild its cached temporary sales header when the Work Date changes"
+- [What’s new and planned Business Central 2025 Wave 2 – v27🔔](../../../posts/gerardorenteria-blog/11616.md) (community post): "Shopify and Dynamics 365 Field Service integrations are strengthened"
 - [What's New: Shopify Connector B2B Functionality (2024 release wave 1)](../../../videos/3tmaVpPTQLw.md) (video): "Shopify Connector B2B Functionality; order editing; company synchronization"
 - [What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)](../../../videos/5Qfc7r618OM.md) (video): "Shopify connector; skipped records; export validation; integration troubleshooting"
 - [What's New: Product Information Management in Shopify Connector (2026 release wave 1)](../../../videos/6vHJQggN4F4.md) (video): "Item Variant Image Export to Shopify; Item Attributes for Shopify Options"

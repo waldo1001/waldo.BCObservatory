@@ -6,7 +6,7 @@
   "systems_joined": [
     "manufacturing"
   ],
-  "summary": "The Subcontracting Transfer Shipment report now displays subcontractor and manufacturing references through a new layout extension in the Subcontracting app, while the legacy IT report retains basic transfer shipment functionality without subcontracting dependencies.",
+  "summary": "The Subcontracting app now adds a report extension and selectable layout for standard Transfer Shipment report 5704 that prints the posted subcontractor, subcontract purchase order and production order references. Italian report 12154 stays for ordinary transfer shipments without subcontracting dependencies, keeping its old dataset columns as blank values.",
   "key_points": [
     "Report 12154 simplified to show ordinary transfer shipments without subcontracting fields",
     "New report extension for standard report 5704 with subcontractor, purchase order, and production order details",

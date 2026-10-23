@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/development-environment
 type: topic
 title: Development environment
-summary: Development environment for Business Central AL covers setting up VS Code, projects and workspaces, compiling, publishing, debugging, testing, sandboxes, app packaging and extra tools. It answers setup, configuration and workflow questions for AL developers.
+summary: The Development environment section covers setting up and using the AL development environment for Business Central in Visual Studio Code. It answers questions about configuration, projects and workspaces, compiling, publishing, debugging, testing, sandboxes, app packaging, and supporting tools.
 tier: official
 language: en
 system: administration
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f498a974625497428dc73d806247e3fd2cc8467d1f024e2c3ea5241d0383c6e7
+  input_hash: 0cc6ef18ccfd6473009bb028c37ce3e5617d72d5935d54680c3890aae49a4896
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-resources
@@ -266,7 +266,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging
     title: Snapshot debugging
-    date: "2026-08-03"
+    date: "2026-09-25"
     commit: null
     t: null
     quote: null
@@ -355,28 +355,24 @@ narrative: generated
 
 # Development environment
 
-> Development environment for Business Central AL covers setting up VS Code, projects and workspaces, compiling, publishing, debugging, testing, sandboxes, app packaging and extra tools. It answers setup, configuration and workflow questions for AL developers.
+> The Development environment section covers setting up and using the AL development environment for Business Central in Visual Studio Code. It answers questions about configuration, projects and workspaces, compiling, publishing, debugging, testing, sandboxes, app packaging, and supporting tools.
 
 Path: [Development](../development.md) > Development environment · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The development environment section gathers everything needed to build AL extensions for Business Central. It starts with configuring the VS Code AL Language extension, containers and GitHub Codespaces, then moves to projects and workspaces, where multi-root workspaces, per-folder settings and project references in app.json are handled.
-
-The day-to-day workflow is covered by pages on compiling, publishing and debugging, code analysis and testing. Sandboxes explain how online and container sandboxes differ and how to test under different user plans. Working with apps focuses on app.json identity, runtime version, packaged resources and dependencies. Other tools adds Page Inspection, Txt2Al and the table data viewer.
-
-Start with Configure the development environment to get a working setup, then use Configure projects and workspaces and Working with apps to structure your code. Go to Compile, publish, and debug and Testing once you have code to run.
+This section groups everything a developer needs to build AL extensions for Business Central. It starts with configuring the environment (VS Code AL Language extension settings, performance tuning, container and GitHub Codespaces setups, runtime targeting, resource exposure policy) and then moves to projects and workspaces, including multi-root workspaces and project references in app.json.
 
 ## Key points
 
-- Configure the development environment covers AL Language extension settings, performance tuning, container and GitHub Codespaces setups, runtime targeting and resource exposure policy.
+- Configure the environment: AL Language extension settings, performance tuning, container and GitHub Codespaces setups, runtime targeting, and resource exposure policy.
 - Projects and workspaces: multi-root workspaces, per-folder settings, and project references in app.json, including symbol resolution and recovery from publishing failures.
-- Compile, publish, and debug covers breakpoints, snapshot and attach debugging, the AL Profiler, RAD publishing, compilation scope, app package signing and Entra authentication for on-premises debugging.
-- Testing covers test codeunits, methods, test pages, handlers and test runners, running tests in VS Code, mocking HttpClient calls, performance testing and UI acceptance testing with page scripting.
-- Work in sandboxes explains online versus container sandboxes, running containers with Docker and BCContainerHelper, and testing under different user plans and entitlements.
-- Working with apps covers app identity in app.json, runtime version choice, packaged resources, data shipped with extensions, and library and dependency apps.
-- Other tools include Page Inspection, the Txt2Al tool for converting C/AL objects to AL (NAV 14 code), and the table data viewer for tenant tables.
-- Code analysis is a subtopic of nine pages in this section.
+- Compile, publish, and debug: breakpoints, snapshot and attach debugging, the AL Profiler, RAD publishing, compilation scope, app signing, and Entra authentication for on-premises debugging.
+- Testing: test codeunits, methods, test pages, handlers and test runners, running tests in VS Code, mocking HttpClient calls, performance testing, and UI acceptance testing with page scripting.
+- Sandboxes: online and container sandboxes differ; container environments use Docker and BCContainerHelper; extensions can be tested under different user plans and entitlements.
+- Working with apps: app identity in app.json, runtime version choice, packaged resources, data shipped with extensions, and library and dependency apps.
+- Other tools: Page Inspection, the Txt2Al tool for converting C/AL objects to AL (NAV 14 code), and the table data viewer for tenant tables.
+- A Code analysis subtopic with 9 pages is also part of this section.
 
 ## Subtopics
 

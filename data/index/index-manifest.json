@@ -1,48 +1,48 @@
 {
   "schema": "bcobs-index@1",
-  "pages": 29048,
+  "pages": 29104,
   "shards": [
     {
-      "file": "pages-hubs-ab24b0376f7d.json",
+      "file": "pages-hubs-58c1ce35d51e.json",
       "count": 931,
-      "sha256": "ab24b0376f7dc4e45760891b7e8278fb6d396e1e66d51e39384692c6a9979f0f",
+      "sha256": "58c1ce35d51e2b40c1af72b2f6ed1a929b17fb90ba1b14a0f030ca68a5200585",
       "kind": "hubs"
     },
     {
-      "file": "pages-media-bd47ae8dda06.json",
-      "count": 2451,
-      "sha256": "bd47ae8dda060a046b77bc14207fa3370a39ce461449e91e6b2d5f3cad5de9f6",
+      "file": "pages-media-2763a372625e.json",
+      "count": 2471,
+      "sha256": "2763a372625e00b0c7df28ab6a9528b86c036d823940d36a5ea3df7309251797",
       "kind": "media"
     },
     {
-      "file": "pages-objects-1-6ffb116f4b3f.json",
-      "count": 14418,
-      "sha256": "6ffb116f4b3f9b138803480fecc1ab566e947607a12babb4cb64b0fd2dc618fb",
+      "file": "pages-objects-1-439a2108324d.json",
+      "count": 14419,
+      "sha256": "439a2108324d7a3e6bfe5fb9154f298f749d1fdb6c38c5bca57db914558d239c",
       "kind": "objects"
     },
     {
-      "file": "pages-objects-2-7e122b61e7c8.json",
-      "count": 11248,
-      "sha256": "7e122b61e7c8f8afbc1c929dbf4838dac5dfc134df01b6c101b68a2c05bdbb67",
+      "file": "pages-objects-2-ca11fd2835dc.json",
+      "count": 11283,
+      "sha256": "ca11fd2835dc08829fa2dc9e59416f71cab76649273bddb481e7bd463d369809",
       "kind": "objects"
     }
   ],
   "learn": {
-    "file": "learn-fce2ad252843.json",
+    "file": "learn-4c04cc61f698.json",
     "count": 8054,
-    "sha256": "fce2ad2528432baa4e4519eb15d1be4414815e856e6bd5243cf698dc3361de37"
+    "sha256": "4c04cc61f6989ebc70ed21e14ff106ef1000447528a34da79e0e480b1cd5efd6"
   },
   "by_type": {
     "app": 96,
-    "change": 1207,
+    "change": 1226,
     "digest": 6,
     "feature": 104,
     "localization": 22,
-    "object": 25666,
+    "object": 25702,
     "post": 623,
     "release": 64,
     "source": 33,
     "topic": 606,
-    "video": 621
+    "video": 622
   }
 }

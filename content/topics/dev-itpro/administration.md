@@ -12,7 +12,7 @@ review:
   at: "2026-10-20T08:48:51.537Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -337,7 +337,8 @@ links:
     - topic/dev-itpro/administration/migrate-to-business-central-online
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/demiliani-com/12992
   guidelines: []
 learn_toc_path:
   - Administration
@@ -358,7 +359,7 @@ coverage:
   learn: 274
   code: 21
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 9
@@ -428,6 +429,12 @@ For operations, "Monitor and analyze telemetry" covers Application Insights, and
 ## More Learn pages
 
 - [Administration of Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-administration): Learn about how you as the internal administrator or as a reselling partner can manage online tenants of Dynamics 365 Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Welcome to the CCMS project.](../../posts/demiliani-com/12992.md) (community post): "CCMS (Cloud Customer Management System), a Business Central app for managing online customers at scale"
 
 ## Business Central pages and reports
 

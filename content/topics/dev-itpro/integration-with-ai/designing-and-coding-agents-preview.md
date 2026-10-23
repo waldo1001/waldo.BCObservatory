@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -211,6 +211,7 @@ links:
     - video/nbGw2g3KMXI
     - video/Vq9Nk6_uxmQ
     - video/WFAZLsUTk20
+    - video/WjF_sESaIPo
   posts:
     - post/aardvarklabs-blog/3348
     - post/bertverbeek-nl/1219
@@ -238,7 +239,7 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 8
+  video: 9
   blog: 6
   guideline: 0
 bc_forms: []
@@ -319,5 +320,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [20260713 - From Zero to Agent Building agents in Business Central](../../../videos/nbGw2g3KMXI.md) (video): "From Zero to Agent Building agents in Business Central"
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Building Agents in Business Central; custom agents; agent instructions; permissions"
 - [What's New: Business Central Agent Instruction History](../../../videos/WFAZLsUTk20.md) (video): "Agent Instruction History Autosave; Download Instructions; View Instruction History"
+- [Interfrucht GmbH](../../../videos/WjF_sESaIPo.md) (video): "Manifest Agent for Business Central; Automated purchase order creation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

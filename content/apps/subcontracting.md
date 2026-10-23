@@ -2,7 +2,7 @@
 id: app/subcontracting
 type: app
 title: Subcontracting
-summary: "Subcontracting (Microsoft.Manufacturing): 188 objects in BC29-30 (64 codeunits, 53 page extensions, 37 table extensions, 12 pages, 6 enums, ...); no Learn hub documents its objects yet."
+summary: "Subcontracting (Microsoft.Manufacturing): 190 objects in BC29-30 (65 codeunits, 53 page extensions, 37 table extensions, 12 pages, 6 enums, ...); no Learn hub documents its objects yet."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-23T01:07:59.356Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: df246d92bbba3e0eca493c338aeccedf96265a9e6ecbeb19b3957921a3dd590b
+  input_hash: dcc461eff2229090df99a48e83de4e9999c7e0f8c48dea98ad0b1a4c5e493754
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/Subcontracting/app
@@ -141,6 +141,7 @@ links:
     - object/report/20502
     - object/report/20504
     - object/report/20505
+    - object/reportextension/20500
     - object/codeunit/20500
     - object/codeunit/20501
     - object/codeunit/20502
@@ -150,6 +151,7 @@ links:
     - object/codeunit/20506
     - object/codeunit/20507
     - object/codeunit/20508
+    - object/codeunit/20509
     - object/codeunit/20511
     - object/codeunit/20512
     - object/codeunit/20513
@@ -234,9 +236,9 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 188
+  objects: 190
   by_type:
-    codeunit: 64
+    codeunit: 65
     pageextension: 53
     tableextension: 37
     page: 12
@@ -245,6 +247,7 @@ counts:
     report: 4
     permissionset: 3
     permissionsetextension: 3
+    reportextension: 1
     enumextension: 1
   hubs: 0
   videos: 0
@@ -253,13 +256,13 @@ counts:
 
 # Subcontracting
 
-> Subcontracting (Microsoft.Manufacturing): 188 objects in BC29-30 (64 codeunits, 53 page extensions, 37 table extensions, 12 pages, 6 enums, ...); no Learn hub documents its objects yet.
+> Subcontracting (Microsoft.Manufacturing): 190 objects in BC29-30 (65 codeunits, 53 page extensions, 37 table extensions, 12 pages, 6 enums, ...); no Learn hub documents its objects yet.
 
 First-party app · folder `src/Apps/W1/Subcontracting/app` · namespace `Microsoft.Manufacturing` · BC29-30 · system manufacturing · facts from the code pillar and the joins, nothing machine-written
 
 ## Objects
 
-188 objects, by type.
+190 objects, by type.
 
 ### Tables (5)
 
@@ -397,7 +400,13 @@ First-party app · folder `src/Apps/W1/Subcontracting/app` · namespace `Microso
 | 20504 | [Subc. Dispatching List](../objects/report/20504.md) | Subcontractor - Dispatch List |
 | 20505 | [Subc. Calculate Subcontracts](../objects/report/20505.md) | Calculate Subcontracts |
 
-### Codeunits (64)
+### Report extensions (1)
+
+| Id | Name | Caption |
+|---|---|---|
+| 20500 | [Subc. Transfer Shipment](../objects/reportextension/20500.md) |  |
+
+### Codeunits (65)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -410,6 +419,7 @@ First-party app · folder `src/Apps/W1/Subcontracting/app` · namespace `Microso
 | 20506 | [Subc. Notification Mgmt.](../objects/codeunit/20506.md) |  |
 | 20507 | [Subc. Transfer Header Ext.](../objects/codeunit/20507.md) |  |
 | 20508 | [Subc. Price Management](../objects/codeunit/20508.md) |  |
+| 20509 | [Subc. Transfer Shipment Data](../objects/codeunit/20509.md) |  |
 | 20511 | [Subc. Synchronize Management](../objects/codeunit/20511.md) |  |
 | 20512 | [Subc. Reporting Triggers Ext](../objects/codeunit/20512.md) |  |
 | 20513 | [Subc. Req.Line Extension](../objects/codeunit/20513.md) |  |

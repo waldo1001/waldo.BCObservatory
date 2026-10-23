@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/13174",
+  "input_hash": "e20cd065f07a6d0a15fd863ba5b93dfde70fe26a880ada36543c8b510209ecaf",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-23T01:11:43.893Z",
+  "issues": [
+    "Summary and key points match the description: upgrade procedure, tag, registration and GetPDFReaderServiceCode removed.",
+    "No behavior change for active flows is stated by the author."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02327,
+    "changes_in_call": 6
+  }
+}

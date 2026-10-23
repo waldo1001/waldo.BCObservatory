@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:15.176Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -172,6 +172,7 @@ links:
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/upgrade-data
   localizations: []
   videos:
+    - video/f_i4_BRz-oA
     - video/Gwgpj1U1wxI
   posts: []
   guidelines: []
@@ -190,7 +191,7 @@ children:
 coverage:
   learn: 20
   code: 0
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms: []
@@ -239,6 +240,7 @@ The page in this hub, Complete cloud migration, covers the final phase. Start wi
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Microsoft presents: Cloud Migration from any SQL](../../../../videos/f_i4_BRz-oA.md) (video): "Cloud Migration Management Page; Replication Progress Tracking"
 - [Introduction to Business Central Cloud Migration (2023)](../../../../videos/Gwgpj1U1wxI.md) (video): "cloud migration; azure data factory; sql to sql copy; integration runtime; data replication"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

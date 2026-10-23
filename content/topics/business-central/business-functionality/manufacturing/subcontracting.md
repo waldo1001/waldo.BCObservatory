@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:24.212Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -95,6 +95,7 @@ links:
     - change/bcapps/11320
     - change/bcapps/11368
     - change/bcapps/11644
+    - change/bcapps/11665
     - change/bcapps/11939
     - change/bcapps/11945
     - change/bcapps/12080
@@ -103,6 +104,7 @@ links:
     - change/bcapps/12459
     - change/bcapps/12584
     - change/bcapps/12669
+    - change/bcapps/12986
     - change/bcapps/8747
     - change/bcapps/8750
     - change/bcapps/8752
@@ -207,14 +209,16 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11320 [Master]-[Subcontracting] Purchase Return Order cannot be posted for subcontracting, while Corrective Credit Memo works well](../../../../changes/bcapps/11320.md) (code change): "Purchase Return Orders for subcontracting can now be posted correctly"
 - [#11368 [29.X]-[Subcontracting] Purchase Return Order cannot be posted for subcontracting, while Corrective Credit Memo works well](../../../../changes/bcapps/11368.md) (code change): "purchase return orders could not be posted for subcontracting operations"
 - [#11644 [Subcontracting] Bug 648937: Transfer WIP Item is lost when production orders are created from Planning Worksheet](../../../../changes/bcapps/11644.md) (code change): "Transfer WIP Item setting and transfer descriptions from routing lines"
+- [#11665 Bug 649580: [Subcontracting] Transfer Shipment report is missing subcontractor and manufacturing references](../../../../changes/bcapps/11665.md) (code change): "Subcontracting Transfer Shipment report now displays subcontractor and manufacturing references"
 - [#11939 Bug 650391: [Subcontracting] Show subcontracting transfer quantities](../../../../changes/bcapps/11939.md) (code change): "displays transfer quantity fields for subcontracting components"
 - [#11945 Bug 648959: [Subcontracting] Fix serial splitting for non-last subcontracting put-away lines](../../../../changes/bcapps/11945.md) (code change): "Fix serial splitting for non-last subcontracting put-away lines"
 - [#12080 Bug 649448: [Subcontracting] [IT] Fully received WIP purchase orders block Disable Legacy Subcontracting](../../../../changes/bcapps/12080.md) (code change): "Fully received WIP purchase orders block Disable Legacy Subcontracting"
 - [#12082 Bug 650429: [Repair Item] [Subcontracting] Show Document opens the wrong transfer order from Transfer Lines (Page 5749)](../../../../changes/bcapps/12082.md) (code change): "Show Document on the Transfer Lines page no longer opens the wrong transfer order for legacy subcontracting"
 - [#12143 Bug 649440: [Subcontracting] [IT] Disable Legacy Subcontracting leaves Component Supply Method empty after conversion](../../../../changes/bcapps/12143.md) (code change): "Italian subcontracting legacy migration now correctly maps the vendor's"
 - [#12459 [Master][All-E] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../../changes/bcapps/12459.md) (code change): "Subcontractor price now correctly incorporates operation run time for time-based"
-- [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../../changes/bcapps/12584.md) (code change): "Restores the ability to copy uninvoiced subcontracting receipts to separate purchase invoices"
+- [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../../changes/bcapps/12584.md) (code change): "Restore Get Receipt Lines for subcontracting receipts"
 - [#12669 [Main]Subcontracting Order Date does not account for lead time before the routing operation starts](../../../../changes/bcapps/12669.md) (code change): "Subcontracting order dates now correctly calculate backward from the routing operation start date"
+- [#12986 Fix Work Center field persistence when auto-save is disabled](../../../../changes/bcapps/12986.md) (code change): "Validating Subcontractor No. on the Work Center Card now saves pending changes"
 - [#8747 [Subcontracting] Disable "WIP Item Transfer" for Machine Center](../../../../changes/bcapps/8747.md) (code change): "Transfer WIP Item field on routing lines is now restricted"
 - [#8750 [Bug Fix] #638688: Suppress availability warning for Transfer WIP Item lines](../../../../changes/bcapps/8750.md) (code change): "WIP items are intermediate goods managed by subcontracting"
 - [#8752 [Bug Fix] #638531: Disable Open TO from PO actions on non-subcontracting lines](../../../../changes/bcapps/8752.md) (code change): "Open TO from PO actions on subcontracting purchase order lines"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:49.464Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -122,6 +122,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12322
+    - change/bcapps/13056
 learn_toc_path:
   - Business functionality
   - Quality management
@@ -189,6 +190,7 @@ Further pages cover what happens after an inspection. They describe scheduled in
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12322 [QM] Destination bin code is now visible and usable for the user](../../../changes/bcapps/12322.md) (code change): "destination bin code is now visible and usable for the user"
+- [#13056 [QM] Tracking specification quantity now is used properly](../../../changes/bcapps/13056.md) (code change): "Quality tracking specifications now correctly use the proper quantity values"
 - [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Business Central version 28 adds a native Quality Management module for inspecting goods"
 
 ## Business Central pages and reports

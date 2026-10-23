@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -96,6 +96,7 @@ links:
     - change/al-go/2330
     - change/al-go/2331
     - change/al-go/2342
+    - change/al-go/2402
     - change/bcapps/10086
     - change/bcapps/10516
     - change/bcapps/10559
@@ -163,6 +164,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2330 Emit valid SARIF URIs for AL code analysis paths containing spaces](../../../../changes/al-go/2330.md) (code change): "Emit valid SARIF URIs for AL code analysis paths containing spaces"
 - [#2331 Support trackALAlertsInGitHub for workspace compilation build path](../../../../changes/al-go/2331.md) (code change): "Support trackALAlertsInGitHub for workspace compilation build path"
 - [#2342 Fix incremental builds poisoning buildMode-specific artifacts (#2337)](../../../../changes/al-go/2342.md) (code change): "Prevents AL1153 compiler errors from runtime version mismatches"
+- [#2402 Move Copilot review engine into AL-Go](../../../../changes/al-go/2402.md) (code change): "Copilot code review engine moves from external hosting into AL-Go"
 - [#10086 Make AA0194 an error in the base ruleset](../../../../changes/bcapps/10086.md) (code change): "Make AA0194 an error in the base ruleset"
 - [#10516 Ruleset hardening: promote AL0468, AL0520, AL0589, AL0611, AL0749, AW0004 to Error](../../../../changes/bcapps/10516.md) (code change): "Six AL compiler rules are promoted from Warning to Error severity"
 - [#10559 Ruleset hardening: promote AL0659 and AL0685 to Error](../../../../changes/bcapps/10559.md) (code change): "Ruleset hardening: promote AL0659 and AL0685 to Error"

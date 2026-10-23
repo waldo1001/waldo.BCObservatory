@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/13056",
+  "input_hash": "3edc856535a4c8774098763ca0418d4c559878ef7dc7a63088ede9d5a27500e7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-23T01:11:44.824Z",
+  "issues": [
+    "Summary wording 'Quality tracking specifications' misstates the subject; the fix is about the tracking specification quantity used by Quality Management integration.",
+    "Key points speculate about 'calculations' and the warehouse change's purpose beyond what the files and description show.",
+    "Added tests cover receiving integration only."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020675,
+    "changes_in_call": 6
+  }
+}

@@ -6,13 +6,13 @@
   "systems_joined": [
     "copilot"
   ],
-  "summary": "Expense Agent now supports alternate approvers and delegated/substitute workflows. Users can designate alternate approvers for expense approvals and generate delegation reports.",
+  "summary": "Expense Agent adds alternate approvers (delegates and substitutes) for expense approvals. A new Expense Alternate Approver table, page and API are added, approval management is extended, and a new report lets approval requests be delegated.",
   "key_points": [
-    "New alternate approvers table and page for managing substitute approvers",
-    "Approval logic updated to route expense reports to alternate approvers when configured",
-    "New API endpoint for managing alternate approvers",
-    "Added delegation report for tracking approval substitutions",
-    "Expanded permission sets to support new expense agent functionality"
+    "New Expense Alternate Approver table and page to set up delegates or substitutes",
+    "Expense Report Approval Mgmt extended to handle alternate approvers",
+    "New API page for alternate approvers and extra fields on the Expense Reports API",
+    "New report to delegate expense approval requests",
+    "Expense User pages, setup pages and permission sets updated for the new objects"
   ],
   "change_kind": "feature",
   "behavior_change": true,

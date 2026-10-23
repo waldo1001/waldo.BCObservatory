@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:54:42.571Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-23T01:10:04.337Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -117,12 +117,10 @@ features:
     roadmap_ids:
       - "573342"
   - name: Shopify Orders Import
-    status: ga
+    status: unclear
     t: 74
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
   - name: Shopify Companies List
     status: ga
     t: 92
@@ -152,15 +150,19 @@ features:
     roadmap_ids:
       - "573342"
   - name: Push Business Central Customers to Shopify
-    status: unclear
+    status: ga
     t: 253
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: Automatic Catalog Creation for Locations
-    status: unclear
+    status: ga
     t: 360
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
 objects_mentioned:
   - page Shopify Companies
   - page Shopify Locations
@@ -223,13 +225,13 @@ The demo imports B2B orders from several locations, then shows the new Shopify C
 | Feature | Status | At |
 |---|---|---|
 | Shopify B2B Companies with Multiple Locations | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [0:06](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=6s) |
-| Shopify Orders Import | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [1:14](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=74s) |
+| Shopify Orders Import | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=74s) |
 | Shopify Companies List | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [1:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=92s) |
 | Shopify Locations List | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [1:59](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=119s) |
 | Location-to-Customer Mapping | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [2:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=152s) |
 | Order Synchronization with Location Mapping | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [3:05](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=185s) |
-| Push Business Central Customers to Shopify | status not stated, demoed | [4:13](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=253s) |
-| Automatic Catalog Creation for Locations | status not stated, demoed | [6:00](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=360s) |
+| Push Business Central Customers to Shopify | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [4:13](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=253s) |
+| Automatic Catalog Creation for Locations | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [6:00](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=360s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

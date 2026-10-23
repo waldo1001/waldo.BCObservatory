@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:35.729Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12541
 learn_toc_path:
   - Business functionality
   - Design details
@@ -89,5 +91,11 @@ There are no subtopics. Start with the availability page if you are investigatin
 
 - [Design details - Availability in the warehouse](https://learn.microsoft.com/dynamics365/business-central/design-details-availability-in-the-warehouse): Learn about the different factors that affect item availability in your warehouse.
 - [Design details - Creating warehouse entries](https://learn.microsoft.com/dynamics365/business-central/design-details-warehouse-entries): Learn how to allow concurrent numbering for warehouse register records and warehouse entries.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12541 Preserve transfer line UOM when toggling Direct Transfer](../../../../changes/bcapps/12541.md) (code change): "Warehouse protection is made explicit: mode changes are rejected only when matching warehouse lines exist"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

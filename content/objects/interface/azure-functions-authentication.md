@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:03:16.851Z"
+  at: "2026-10-23T01:04:01.231Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 506ebbbdab4f1ea0819cd0031f2bd8a6faf7a2178d4b5218ce8482c0b884ec6b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/System%20Application/App/Azure%20Function/AzureFunctionsAuthentication.interface.al
+    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/Azure%20Function/AzureFunctionsAuthentication.interface.al
     title: src/System Application/App/Azure Function/AzureFunctionsAuthentication.interface.al (releases/29.x)
     date: null
-    commit: e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc
+    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Azure Functions Authentication" in System Application (System.Azure.Functions). 1 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Azure.Functions · BC23-30 · [source at e9be5bb8](https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/System%20Application/App/Azure%20Function/AzureFunctionsAuthentication.interface.al) · facts from BC29
+System Application · System.Azure.Functions · BC23-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/Azure%20Function/AzureFunctionsAuthentication.interface.al) · facts from BC29
 
 ## Procedures
 

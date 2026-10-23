@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:10.187Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -365,7 +365,8 @@ links:
   localizations: []
   videos:
     - video/6NuJOL8DEqA
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/11616
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -381,7 +382,7 @@ coverage:
   learn: 50
   code: 53
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 5802
@@ -481,6 +482,7 @@ Start with "View Load on Work and Machine Centers" if you need to compare load w
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [What’s new and planned Business Central 2025 Wave 2 – v27🔔](../../../../posts/gerardorenteria-blog/11616.md) (community post): "Manufacturing gains focus on quality management and outsourcing, alongside sustainability"
 - [What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)](../../../../videos/6NuJOL8DEqA.md) (video): "manufacturing analytics; updated reports; work center load; expected capacity"
 
 ## Business Central pages and reports

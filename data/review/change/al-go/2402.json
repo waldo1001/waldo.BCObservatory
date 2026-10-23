@@ -1,0 +1,25 @@
+{
+  "item_id": "change/al-go-prs/2402",
+  "input_hash": "54ec21083d52ab8980ded9d6b527f95cce613c69fce130d59ec1cf91390fa27f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-23T01:11:29.140Z",
+  "issues": [
+    "The summary says the engine moves 'from external hosting', but nothing given says where it was hosted before. The title only says it moves into AL-Go.",
+    "The test key point says '414+ tests across PowerShell versions'. The description reports 414 passing under PowerShell 7, plus separate suites of 47 and 23 that also ran under Windows PowerShell 5, so the point is reworded.",
+    "The key point on the head SHA overstates the guarantee. The description says untrusted PR code is never used as workflow configuration or review infrastructure, so the point is reworded to match.",
+    "The change kind (feature) and the flags (behaviour change true, breaking false) are supported. There are no obsoletions."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.06362,
+    "changes_in_call": 1
+  }
+}

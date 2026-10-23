@@ -6,12 +6,11 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Quality tracking specifications now correctly use the proper quantity values during receiving and warehouse integration operations.",
+  "summary": "Quality Management now uses the tracking specification quantity properly in its receiving integration, with a related addition in the warehouse integration codeunit.",
   "key_points": [
-    "Fixed quantity handling in quality receiving integration logic",
-    "Added warehouse integration updates for proper quantity tracking",
-    "Added comprehensive test coverage for receiving integration scenarios",
-    "Corrects tracking specification quantity calculations"
+    "One-line correction in the Qlty. Receiving Integration codeunit",
+    "13 lines added to the Qlty. Warehouse Integration codeunit",
+    "New tests added for receiving integration scenarios"
   ],
   "change_kind": "fix",
   "behavior_change": true,

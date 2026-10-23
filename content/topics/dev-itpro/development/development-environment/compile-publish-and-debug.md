@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/development-environment/compile-publish-and-debug
 type: topic
 title: Compile, publish, and debug
-summary: Compiling, publishing, debugging and profiling AL extensions for Business Central in Visual Studio Code. It answers questions on breakpoints, snapshot and attach debugging, the AL Profiler, RAD publishing, compilation scope, app package signing, and Entra authentication for on-premises debugging.
+summary: Compiling, publishing, debugging and signing AL extensions for Business Central in Visual Studio Code. It answers questions about breakpoints, snapshot and attach debugging, the AL Profiler, RAD publishing, compilation scope, app signing, and Entra authentication for on-premises debugging.
 tier: official
 language: en
 system: administration
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0065b6b1de1472649c194fa35aa225a94c226988d233ff15742aaad721c1ae2b
+  input_hash: 191d5a53c4b7384075f0919361c48e5b75d9f89f147452bb07b77fd49ae07baa
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview
@@ -70,7 +70,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging
     title: Snapshot debugging
-    date: "2026-08-03"
+    date: "2026-09-25"
     commit: null
     t: null
     quote: null
@@ -148,28 +148,28 @@ narrative: generated
 
 # Compile, publish, and debug
 
-> Compiling, publishing, debugging and profiling AL extensions for Business Central in Visual Studio Code. It answers questions on breakpoints, snapshot and attach debugging, the AL Profiler, RAD publishing, compilation scope, app package signing, and Entra authentication for on-premises debugging.
+> Compiling, publishing, debugging and signing AL extensions for Business Central in Visual Studio Code. It answers questions about breakpoints, snapshot and attach debugging, the AL Profiler, RAD publishing, compilation scope, app signing, and Entra authentication for on-premises debugging.
 
 Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Compile, publish, and debug · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the developer inner loop for AL extensions: building and publishing, finding errors, and checking performance. Publishing topics include Rapid Application Development (RAD) with delta compilation for faster builds of large projects, and compilation scope, which sets the OnPrem or Cloud target level and decides which platform APIs and .NET types a project can use.
+This section covers the developer inner loop for AL extensions: building and publishing, finding errors, measuring performance, and preparing a package for distribution. Debugging pages cover standard VS Code debugging with breakpoints, conditional breakpoints, break on errors and record changes, plus attach and debug next for sessions you cannot start by publishing, such as web services, background sessions, agent sessions, and install or upgrade code.
 
-Debugging pages begin with the general Visual Studio Code debugging guide, then go deeper: conditional breakpoints, attach and debug next (no publish needed), debugging install and upgrade code, snapshot debugging of production sessions, and troubleshooting from the web client. The AL Profiler analyzes hot spots, and the Troubleshooting MCP Server for AL lets GitHub Copilot analyze errors, call stacks and variables during a session.
+Further pages cover snapshot debugging (record on the server, inspect offline, including through an AI agent via the MCP server), troubleshooting with GitHub Copilot, and opening VS Code directly from the web client. The AL Profiler analyzes performance hot spots. Rapid Application Development (RAD) publishing speeds up builds of large projects through delta compilation.
 
-Signing an app package and using Microsoft Entra authentication for on-premises and container setups are supporting topics. Start with "Debug AL Code in Visual Studio Code" for the basics, then pick the specialized page that matches your scenario.
+Other pages deal with compilation scope (OnPrem or Cloud target levels), signing app packages with Azure Key Vault or PFX files, and Microsoft Entra authentication for on-premises servers and containers. Start with "Debug AL Code in Visual Studio Code" for the basics, then pick the page for your scenario.
 
 ## Key points
 
-- The AL Profiler records execution in instrumentation or sampling mode, configured in launch.json, and shows call stacks, timings and SQL calls in Visual Studio Code.
-- Attach and debug next (2023 release wave 1) attaches to a running server without publishing, for web client, web service, background and agent sessions.
-- Snapshot debugging records production cloud sessions using snappoints and lets you debug offline in Visual Studio Code.
-- Conditional breakpoints pause only when an expression is true, supporting comparison and logical operators (version 26).
-- RAD publishing uses delta compilation to cut build and publish times for large AL projects.
-- Compilation scope is set by ExtensionAllowedTargetLevel at server level and the target property in the manifest (OnPrem or Cloud).
-- App packages can be signed with Azure Key Vault (certificates issued after June 1, 2023) or a PFX file using the dotnet sign tool; self-signed certificates are for local testing.
-- Install and upgrade codeunits can be debugged with attach sessions, and the web client can open Visual Studio Code for troubleshooting (2023 release wave 2).
+- AL Profiler records in instrumentation or sampling mode, configured in launch.json, and shows call stacks, timings, SQL calls, and CodeLens timings in VS Code.
+- Attach and debug next (2023 release wave 1) attaches to a running server without publishing first, using breakOnNext, sessionId and userId; it covers web clients, web services, background and agent sessions.
+- Conditional breakpoints pause only when an expression is true, supporting comparison and logical operators on simple and complex types (version 26).
+- Snapshot debugging records execution on the server and replays it offline in VS Code, with AI agent support through the MCP server.
+- Debug install and upgrade codeunits using attach debugging, with publish without building and system session debugging.
+- RAD publishing uses delta compilation, a .rad file and rad.json to shorten build and publish times for large projects.
+- Compilation scope is set through ExtensionAllowedTargetLevel on the server and the target property in the manifest (OnPrem or Cloud), which controls accessible APIs and .NET types.
+- App packages are signed with Azure Key Vault (certificates issued after June 1, 2023) or PFX files using the dotnet sign tool; self-signed certificates are for local testing only.
 
 ## Learn pages
 

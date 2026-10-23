@@ -4,13 +4,13 @@
   "title": "Move Copilot review engine into AL-Go",
   "repo": "microsoft/AL-Go",
   "systems_joined": [],
-  "summary": "The Copilot code review engine moves from external hosting into AL-Go with a two-workflow architecture. BCQuality provides AL expertise and review skills while AL-Go handles GitHub orchestration, execution, and artifact publication.",
+  "summary": "AL-Go gains a built-in Copilot pull request review. A new SetupBCQuality action installs and filters the BCQuality plugin, and a new ReviewAgent action runs the review and posts comments. Generated Per Tenant Extension and AppSource App templates get a two-workflow integration, configured through new BCQuality and CodeReviewAgent settings.",
   "key_points": [
-    "New ReviewAgent action performs code review in read-only mode with separate publish job for write permissions",
-    "New SetupBCQuality action installs and configures BCQuality plugin as the sole installation boundary",
-    "Generated Per Tenant Extension and AppSource App templates receive integrated CopilotPRReview workflows",
-    "Review generation binds to validated pull-request head SHA to prevent untrusted PR code execution",
-    "414+ tests validate review engine, metrics, action wrapper, and workflow orchestration across PowerShell versions"
+    "New ReviewAgent action runs in four phases (context, prepare, generate, post). Review generation is read-only, and a separate job with write permissions publishes the results.",
+    "New SetupBCQuality action is the only place BCQuality is installed. It filters the plugin by layers, skills and knowledge rules.",
+    "Per Tenant Extension and AppSource App templates get CopilotPRReview and CopilotPRReviewRunner workflows. The runner starts through workflow_run and reads trusted settings from the base repository.",
+    "New BCQuality and CodeReviewAgent settings split AL knowledge selection from review orchestration policy.",
+    "Review is bound to the validated PR head SHA, and untrusted PR code is never used as workflow configuration or review infrastructure."
   ],
   "change_kind": "feature",
   "behavior_change": true,

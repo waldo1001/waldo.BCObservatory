@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -47,10 +47,12 @@ links:
   videos:
     - video/6Zb7VAvLVm4
     - video/AMVAiPTfSrU
+    - video/GK6hM-nBYZk
     - video/uMKLsKfKPc0
     - video/V_ZyGeF5JXE
   posts:
     - post/aardvarklabs-blog/1818
+    - post/bertverbeek-nl/1196
     - post/bertverbeek-nl/1290
   guidelines: []
 learn_toc_path:
@@ -63,8 +65,8 @@ children: []
 coverage:
   learn: 2
   code: 3
-  video: 4
-  blog: 2
+  video: 5
+  blog: 3
   guideline: 0
 bc_forms:
   - 8350
@@ -108,9 +110,11 @@ The agent page explains how to create a Copilot Studio agent that connects throu
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Creating Low-Code AI Agents with Copilot Studio and Business Central](../../../../posts/aardvarklabs-blog/1818.md) (community post): "Copilot Studio enables low-code creation of AI agents that connect to Business Central"
+- [Data agent inside Fabric ask question on your Business Central Data](../../../../posts/bertverbeek-nl/1196.md) (community post): "agent can be added to Copilot Studio"
 - [Agents in Business Central – part 6 – The conclusion](../../../../posts/bertverbeek-nl/1290.md) (community post): "Agents created in Copilot Studio, covering deployment, licensing"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Copilot Studio Connector for Business Central; Copilot Studio Generative AI Mode"
 - [How 3 Partners are Building Powerful Agents for Business Central](../../../../videos/AMVAiPTfSrU.md) (video): "Copilot Studio agent creation"
+- [What's New: Business Central Integration with Microsoft Copilot Studio (2026 release wave 1)](../../../../videos/GK6hM-nBYZk.md) (video): "Copilot Studio Agent Building; MCP Server for Business Central; Business Central Power Platform Connector"
 - [Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat](../../../../videos/uMKLsKfKPc0.md) (video): "Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat"
 - [What's New: Business Central Integration with Power Platform](../../../../videos/V_ZyGeF5JXE.md) (video): "Copilot Studio Integration; Copilot in Power Automate"
 

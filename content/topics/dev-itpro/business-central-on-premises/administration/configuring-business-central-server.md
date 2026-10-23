@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:56.619Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,7 +43,8 @@ links:
   localizations: []
   videos:
     - video/KA1vHd1hITY
-  posts: []
+  posts:
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -56,7 +57,7 @@ coverage:
   learn: 2
   code: 0
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 562d262036f23f1c41c9fd17b1595b2f0acb2021cbd277e2e407bf0a38887b1e
@@ -97,6 +98,7 @@ Then use "Business Central Server instance settings" to look up individual setti
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [How to Install Microsoft Dynamics 365 Business Central 29 On-Premises](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f.md) (community post): "configuring SQL Server and server instance, setting service ports"
 - [How to Install Business Central 29 On-Premises \| Full Setup](../../../../videos/KA1vHd1hITY.md) (video): "Business Central 29 On-Premises Installation; Service Port Configuration; SQL Server instance configuration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:09.155Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -505,9 +505,11 @@ links:
     - change/bcapps/12552
     - change/bcapps/12554
     - change/bcapps/12806
+    - change/bcapps/12982
     - change/bcapps/8914
     - change/bcapps/9096
     - change/bcapps/9118
+    - change/bcapps/9143
     - change/bcapps/9222
     - change/bcapps/9224
     - change/bcapps/9374
@@ -769,9 +771,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code"
 - [#12554 [Main] - User encounters a "record is not open" error when attaching a document to a posted sales shipment in Dynamics 365 (Base Application v28)](../../../changes/bcapps/12554.md) (code change): "Document attachment uploads now work correctly for posted sales shipments and return receipts"
 - [#12806 [main] Closing the BC browser tab during quote-to-order reservation leaves a partial sales order and the source quote](../../../changes/bcapps/12806.md) (code change): "Converting a sales quote to an order now holds off reservation until all quote lines have been copied"
+- [#12982 [29x][All-e]Since Business Central 28.4, we have observed changed behaviour when the VAT Prod](../../../changes/bcapps/12982.md) (code change): "Fixes changed VAT behavior affecting Sales Lines since BC 28.4"
 - [#8914 [Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes](../../../changes/bcapps/8914.md) (code change): "Fixed an issue where editing a sales order line's description would unexpectedly change"
 - [#9096 Align Bill-to Name 2 editability with the other bill-to address fields on sales documents](../../../changes/bcapps/9096.md) (code change): "Bill-to Name 2 field on sales documents is now editable under the same conditions"
 - [#9118 Bugs/master GitHub event batch 1745](../../../changes/bcapps/9118.md) (code change): "Sales Line and Sales Shipment Line changed in W1 and many localization layers"
+- [#9143 Move French sales specifics to the new Sales FR first-party app](../../../changes/bcapps/9143.md) (code change): "French sales-specific functionality including SIREN No. fields and localized sales reports"
 - [#9222 [Main]- When issuing a prepayment invoice with an invoice discount applied, the prepayment amount does not take into account the total amount including tax.](../../../changes/bcapps/9222.md) (code change): "prepayment invoices with invoice discounts applied were not correctly including tax"
 - [#9224 [main] GitHub event batch 1746](../../../changes/bcapps/9224.md) (code change): "Copy Sales Document report changed in the W1 and APAC layers"
 - [#9374 [master] Contact No. Lookup on Sales Quote returns All Customers instead of related Contacts after Updating to v28.2 - regression.](../../../changes/bcapps/9374.md) (code change): "Contact lookup on Sales Quote documents now correctly filters to show only contacts"

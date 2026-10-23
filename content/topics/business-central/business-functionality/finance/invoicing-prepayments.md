@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:18.409Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,8 @@ links:
   topics:
     - topic/business-central/business-functionality/finance
   localizations: []
-  videos: []
+  videos:
+    - video/8VRtBLNAOiI
   posts: []
   guidelines: []
   changes:
@@ -86,7 +87,7 @@ children: []
 coverage:
   learn: 4
   code: 11
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -145,6 +146,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10944 [main] bug 643971 - Enhance vendor and customer checks in advance letters and update blocked status validation](../../../../changes/bcapps/10944.md) (code change): "Advance letter creation now validates blocked customer and vendor status"
 - [#9416 [ALAppExtensions #30313]codeunit 441 "Prepayment Mgt." OnBeforeReleaseSalesDocument](../../../../changes/bcapps/9416.md) (code change): "OnBeforeUpdatePendingPrepaymentSales and OnAfterUpdatePendingPrepaymentSales events"
 - [#9719 [main] bug 643971 - Implement checks for blocked customers and vendors in advance letters](../../../../changes/bcapps/9719.md) (code change): "validate that customers and vendors are not blocked or privacy-blocked, preventing creation and posting"
+- [Introducing: Self-Billing Invoices (2026 release wave 1)](../../../../videos/8VRtBLNAOiI.md) (video): "Self-Billing Invoices; Self-Billing Agreement Field on Vendor"
 
 ## Business Central pages and reports
 

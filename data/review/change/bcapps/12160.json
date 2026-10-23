@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/12160",
+  "input_hash": "b2f11686cb31f2bb53fe5eab1719192e779e8311f13ad259ecb93a3492c003a7",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-23T01:11:43.908Z",
+  "issues": [
+    "Summary and points track the description: move to W1, setup and accounts, entry linkage, feature-managed migration, report updates.",
+    "No obsoletions or breaking signals are given, so empty list and breaking false are acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034938,
+    "changes_in_call": 6
+  }
+}

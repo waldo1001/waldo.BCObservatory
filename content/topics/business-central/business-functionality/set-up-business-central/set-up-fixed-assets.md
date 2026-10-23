@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:03.141Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -101,6 +101,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12160
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -176,6 +178,12 @@ Insurance and maintenance pages are optional add-ons. Start with the overview pa
 - [Set Up FA User-Defined Depreciation Method](https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-user-defined-depreciation-method): Define an asset's depreciation in Business Central by selecting a user-defined depreciation method on the Fixed Asset Card page.
 - [Set up fixed assets](https://learn.microsoft.com/dynamics365/business-central/fa-setup): Learn about the sequence of tasks to set up fixed assets, such as machinery or buildings.
 - [Set Up General Fixed Assets (FA) Information](https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-general): Configure default G/L accounts, FA posting groups, allocation keys, journal templates and batches, and class and subclass codes before using fixed assets.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12160 Deliverable 617319: Move French accelerated depreciation to W1 base application](../../../../changes/bcapps/12160.md) (code change): "New depreciation book setup fields, posting accounts, and calculation logic added"
 
 ## Business Central pages and reports
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:03:16.851Z"
+  at: "2026-10-23T01:04:01.231Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2484f4e424c7554e9a54d4bc2165a54ed894f116a481df37662c96b183968851
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/System%20Application/App/ControlAddIns/src/SatisfactionSurvey.ControlAddin.al
+    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/ControlAddIns/src/SatisfactionSurvey.ControlAddin.al
     title: src/System Application/App/ControlAddIns/src/SatisfactionSurvey.ControlAddin.al (releases/29.x)
     date: null
-    commit: e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc
+    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
     t: null
     quote: null
 links:
@@ -80,7 +80,7 @@ relations:
 
 > Control add-in "SatisfactionSurvey" in System Application (System.Feedback). 11 public procedures. Introduced in BC24, still in BC30.
 
-System Application · System.Feedback · BC24-30 · [source at e9be5bb8](https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/System%20Application/App/ControlAddIns/src/SatisfactionSurvey.ControlAddin.al) · facts from BC29
+System Application · System.Feedback · BC24-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/ControlAddIns/src/SatisfactionSurvey.ControlAddin.al) · facts from BC29
 
 ## Procedures
 

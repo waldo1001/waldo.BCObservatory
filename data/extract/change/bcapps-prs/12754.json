@@ -8,9 +8,9 @@
   ],
   "summary": "The DTA Payment Journal report now correctly includes employee payments that were previously missing in outgoing payment reports for Swiss localizations.",
   "key_points": [
-    "Fixed a bug where employee payments were not appearing in the DTA Payment Journal report",
-    "Updated the report layout and filtering logic to ensure all payment types are properly included",
-    "Enhanced test coverage to verify employee payments display correctly"
+    "Fixes employee payments missing from the Swiss DTA Payment Journal report (3010545)",
+    "Report code and its RDLC layout were changed",
+    "CH DTA report tests updated"
   ],
   "change_kind": "fix",
   "behavior_change": true,

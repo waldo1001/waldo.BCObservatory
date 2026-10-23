@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:47:08.664Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-23T01:10:04.337Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -101,8 +101,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573255
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -190,12 +189,10 @@ features:
     verified: false
     status_source: video
   - name: Expense Agent policies
-    status: preview
+    status: announced
     t: 313
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "573255"
+    status_source: video
   - name: Enhanced approval workflows
     status: announced
     t: 388
@@ -277,10 +274,8 @@ The demo then follows an expense report: a user submits it in the web app, the a
 | Approver licensing requirement | status not stated, demoed | [4:23](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=263s) |  |
 | Resubmit after revision | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=287s) |  |
 | Reminders for unsubmitted reports | status not stated, demoed | [5:40](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=340s) |  |
-| Expense Agent policies | preview (roadmap [AI-Driven Approvals](../features/573255.md)) | [5:13](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=313s) | "There might be something coming soon about policies, so stay tuned for new Expense Agent changes" ([5:28](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=328s)) |
+| Expense Agent policies | announced | [5:13](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=313s) | "There might be something coming soon about policies, so stay tuned for new Expense Agent changes" ([5:28](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=328s)) |
 | Enhanced approval workflows | announced | [6:28](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=388s) | "we have some more improvements coming for the approvals in uh expense agent. So, stay tuned and um for the next wave of improvements" ([6:47](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=407s)) |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

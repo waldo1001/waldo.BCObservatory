@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.316Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,6 +72,7 @@ links:
   posts:
     - post/aardvarklabs-blog/3631
     - post/aardvarklabs-blog/3704
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
   guidelines: []
   changes:
     - change/bcapps/10010
@@ -86,7 +87,7 @@ coverage:
   learn: 5
   code: 0
   video: 3
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: d83985e3f53052e05e48c65c878b806990be809f7b8b581f42a7ef7809a3e59f
@@ -130,6 +131,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "allowing Power Platform and OData clients to discover and download"
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Use Power Automate to retrieve SFTP files and post them to Business Central via the API"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "Power Automate listens for the business event, retrieves the file and metadata from the staging table"
+- [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "Traditional point-to-point integrations are incompatible with agent-driven environments; decoupled, event-driven architecture is required"
 - [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../../videos/EVntnDFE1R4.md) (video): "power automate; power apps; dataverse; virtual tables; business events"
 - [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; Power Automate Templates for Business Central"
 - [What's New: Business Central Integration with Power Platform](../../../../videos/V_ZyGeF5JXE.md) (video): "Power Automate; approval workflows; connector actions; power platform"

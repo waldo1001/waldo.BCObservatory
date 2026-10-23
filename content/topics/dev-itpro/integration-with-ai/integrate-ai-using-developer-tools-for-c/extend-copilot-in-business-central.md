@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -146,6 +146,7 @@ links:
     - post/aardvarklabs-blog/2467
     - post/aardvarklabs-blog/2759
     - post/aardvarklabs-blog/2965
+    - post/demiliani-com/12927
     - post/olofsimren-com/3585
     - post/olofsimren-com/3630
   guidelines: []
@@ -164,7 +165,7 @@ coverage:
   learn: 15
   code: 0
   video: 6
-  blog: 6
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: 2ff560236f34656dcd4015f51cfddab4d5ae4484d1dfe47d2ddcd8d76f8788c0
@@ -213,6 +214,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Enhancing Business Central with Address Validation AI](../../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses"
 - [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../../posts/aardvarklabs-blog/2759.md) (community post): "use Copilot to automatically upgrade raw service technician notes into professional"
 - [Step-by-Step Guide to AI Campaigns in Business Central](../../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
+- [Dynamics 365 Business Central: prepare your extensions to support the Copilot Chat.](../../../../posts/demiliani-com/12927.md) (community post): "Extending Dynamics 365 Business Central with Copilot Chat support"
 - [Copilot Inventory Queries](../../../../posts/olofsimren-com/3585.md) (community post): "Built with the Copilot capability tools Microsoft provides for AL"
 - [Copilot in Planning Parameter Worksheet](../../../../posts/olofsimren-com/3630.md) (community post): "uses Copilot powered by Azure OpenAI to suggest inventory planning parameters"
 - [Business Central Under the Hood episode 1: Developing AI in Business Central](../../../../videos/jdevJbGgB-k.md) (video): "Business Central Under the Hood episode 1: Developing AI in Business Central"

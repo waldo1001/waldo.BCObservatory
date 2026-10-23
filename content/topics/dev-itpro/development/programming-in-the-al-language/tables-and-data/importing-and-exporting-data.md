@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,7 +73,8 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
-  videos: []
+  videos:
+    - video/vxZqz2LPJsE
   posts:
     - post/aardvarklabs-blog/2204
     - post/aardvarklabs-blog/2603
@@ -99,7 +100,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 0
+  video: 1
   blog: 6
   guideline: 0
 bc_forms: []
@@ -155,5 +156,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Importing XML into Business Central with AL](../../../../../posts/aardvarklabs-blog/2866.md) (community post): "demonstrates how to parse cXML (commerce eXtensible Markup Language) files in Business Central using AL code"
 - [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md) (community post): "how to export data from Business Central to CSV format"
 - [BC Friday Tips #82 Excel Buffer Character Limit](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-82-excel-buffer-character-limit--e27af9f4a3.md) (community post): "Excel Buffer in Business Central has a 250-character limit on field values."
+- [Introducing Magic Paste for Business Central](../../../../../videos/vxZqz2LPJsE.md) (video): "clipboard; paste functionality; field mapping; excel integration; master data"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

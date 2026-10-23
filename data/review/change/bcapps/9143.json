@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9143",
+  "input_hash": "fb10f9c7bc021e596e12610b385e96c25a7c71828cd85db2fd4452b9acf1cfdf",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-23T01:11:43.908Z",
+  "issues": [
+    "Obsoletions match the description: SIREN No. fields and GetSIRENNoWithCaption on Customer and Contact, gated by CLEAN28/CLEANSCHEMA28.",
+    "Pending obsoletions do not break existing extensions, so breaking false is fine; refactor with no behavior change is defensible given the feature-key controlled move."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034938,
+    "changes_in_call": 6
+  }
+}

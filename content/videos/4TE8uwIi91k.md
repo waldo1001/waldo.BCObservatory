@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:43:07.495Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-23T01:10:04.337Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -159,6 +159,7 @@ links:
   objects: []
   features:
     - feature/573254
+    - feature/573255
   topics: []
   localizations: []
   videos: []
@@ -230,7 +231,9 @@ features:
     status: preview
     t: 298
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573255"
   - name: Expense categorization and agent processing
     status: preview
     t: 204
@@ -313,7 +316,7 @@ It then shows offline mode, where receipts and expenses are added without a conn
 | Mileage expense creation on mobile | preview (roadmap [Add date ranges and vehicle types in your mileage calculation](../features/573254.md)), demoed | [2:13](https://www.youtube.com/watch?v=4TE8uwIi91k&t=133s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Offline mode for receipt handling | preview, demoed | [3:53](https://www.youtube.com/watch?v=4TE8uwIi91k&t=233s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Expense submission on mobile | preview, demoed | [4:30](https://www.youtube.com/watch?v=4TE8uwIi91k&t=270s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Expense approval on mobile | preview, demoed | [4:58](https://www.youtube.com/watch?v=4TE8uwIi91k&t=298s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Expense approval on mobile | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [4:58](https://www.youtube.com/watch?v=4TE8uwIi91k&t=298s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Expense categorization and agent processing | preview, demoed | [3:24](https://www.youtube.com/watch?v=4TE8uwIi91k&t=204s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:03:16.851Z"
+  at: "2026-10-23T01:04:01.231Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f44df8df2e5a7e782841d87f922fa7ce3242d05eee716d033a1b284b0d7b9d17
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Font/BarcodeFontEncoder2D.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Font/BarcodeFontEncoder2D.Interface.al
     title: src/System Application/App/Barcode/src/Barcode Provider 2D/Font/BarcodeFontEncoder2D.Interface.al (releases/29.x)
     date: null
-    commit: e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc
+    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Barcode Font Encoder 2D" in System Application (System.Text). 1 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Text · BC23-30 · [source at e9be5bb8](https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Font/BarcodeFontEncoder2D.Interface.al) · facts from BC29
+System Application · System.Text · BC23-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Font/BarcodeFontEncoder2D.Interface.al) · facts from BC29
 
 ## Procedures
 

@@ -1614,10 +1614,15 @@
       }
     },
     "topic/business-central/business-functionality/local-functionality/france/e-invoicing": {
-      "video/kAFdLxb2ghc@7d36cb926b90faad": {
+      "video/axQegcPweNY@984b2805008f4683": {
         "verdict": "drop",
-        "reason": "A general E-Documents framework video with only Danish and Belgian examples; nothing on French e-invoicing.",
-        "at": "2026-10-07T23:45:51.700Z"
+        "reason": "Covers the general E-Documents draft page and AI matching for purchase invoices, with nothing specific to France's local e-invoicing feature.",
+        "at": "2026-10-23T01:11:06.951Z"
+      },
+      "video/CCIGX86ljYQ@4f474e3960db5f0d": {
+        "verdict": "drop",
+        "reason": "Covers document preview in the general E-Documents feature, which is not part of France's local e-invoicing feature.",
+        "at": "2026-10-23T01:11:06.951Z"
       }
     },
     "topic/business-central/business-functionality/local-functionality/india/subcontracting": {
@@ -1930,48 +1935,58 @@
     "topic/business-central/business-functionality/purchasing": {
       "post/duiliotacconi-com/1667@446c0b74fa2f32e9": {
         "verdict": "drop",
-        "reason": "About posting line order, concurrency and deadlocks for extensions, a technical posting topic rather than purchasing functionality.",
-        "at": "2026-10-21T09:28:06.470Z"
+        "reason": "About posting concurrency and line-ordering for extension developers across sales and purchase posting, not a purchasing capability.",
+        "at": "2026-10-23T01:11:15.726Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190@94f01f2b71cb8616": {
         "verdict": "keep",
-        "reason": "Shows how to create purchase quotes for contacts and have the vendor created automatically, a core purchasing workflow.",
-        "at": "2026-10-21T09:28:06.470Z"
+        "reason": "Explains creating purchase quotes for contacts without vendor records, a purchasing feature.",
+        "at": "2026-10-23T01:11:15.726Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001@f966427736a10565": {
         "verdict": "keep",
-        "reason": "Covers creating purchase orders for drop shipments, which Purchasing documents.",
-        "at": "2026-10-21T09:28:06.470Z"
+        "reason": "Covers creating purchase orders for drop shipments, which the purchasing documentation covers.",
+        "at": "2026-10-23T01:11:15.726Z"
       },
       "post/thedynamicsexplorer-com/10122@34c0240bd9485c2b": {
         "verdict": "drop",
-        "reason": "Its subject is month-end accruals posted through a recurring general journal, a Finance period-close task; purchase lines are only the data source.",
-        "at": "2026-10-21T09:28:06.470Z"
+        "reason": "Subject is month-end accrual posting through a recurring general journal, a finance closing procedure.",
+        "at": "2026-10-23T01:11:15.726Z"
+      },
+      "post/thedynamicsexplorer-com/36954@9b76028ad250f3ed": {
+        "verdict": "keep",
+        "reason": "Demonstrates setting up recurring purchase lines that fill in purchase invoices automatically.",
+        "at": "2026-10-23T01:11:15.726Z"
       },
       "post/thedynamicsexplorer-com/7097@3df6003ae23267fc": {
-        "verdict": "drop",
-        "reason": "The recurring requisition worksheet is documented in the sibling Planning section.",
-        "at": "2026-10-21T09:28:06.470Z"
+        "verdict": "keep",
+        "reason": "Explains using the recurring requisition worksheet to generate recurring purchase orders.",
+        "at": "2026-10-23T01:11:15.726Z"
       },
       "video/8C9JmtHdExM@46e43ea3d9b7e3f3": {
         "verdict": "keep",
-        "reason": "Shows how to set up over-receipt codes and tolerances for receiving on purchase orders.",
-        "at": "2026-10-21T09:28:06.470Z"
+        "reason": "Demonstrates over-receipt codes and tolerances for receiving purchased items.",
+        "at": "2026-10-23T01:11:15.726Z"
       },
       "video/DJ3LPRxn27g@99f8cab7cfe33f09": {
         "verdict": "keep",
-        "reason": "Shows drop shipment improvements centred on how purchase documents are created and posted.",
-        "at": "2026-10-21T09:28:06.470Z"
+        "reason": "Shows drop shipment purchase order creation and receipt/invoice handling in purchasing.",
+        "at": "2026-10-23T01:11:15.726Z"
       },
       "video/DvZd6y69sWk@ad7c037df83061fe": {
         "verdict": "keep",
-        "reason": "Shows editing purchase order emails before sending them to suppliers, a purchasing document feature.",
-        "at": "2026-10-21T09:28:06.470Z"
+        "reason": "Shows editing purchase order emails before sending them to vendors.",
+        "at": "2026-10-23T01:11:15.726Z"
+      },
+      "video/kDiDMPEaU0E@bea1a337f970d1e9": {
+        "verdict": "keep",
+        "reason": "Demonstrates matching purchase invoices to order and receipt lines.",
+        "at": "2026-10-23T01:11:15.726Z"
       },
       "video/sqjb_gsXqM8@b1ef9ef0494bf80c": {
         "verdict": "drop",
-        "reason": "A broad supply chain release overview spanning many areas; purchasing items are mentioned only in passing.",
-        "at": "2026-10-21T09:28:06.470Z"
+        "reason": "Broad supply chain release overview touching many areas, with purchasing only one item among many.",
+        "at": "2026-10-23T01:11:15.726Z"
       }
     },
     "topic/business-central/business-functionality/purchasing/purchasing-analytics/legacy-reports-will-be-removed": {
@@ -3482,47 +3497,47 @@
       }
     },
     "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions": {
-      "post/bertverbeek-nl/1252@eaad122e5a0fba3e": {
+      "post/demiliani-com/13563@1f254779ff0397b6": {
         "verdict": "drop",
-        "reason": "About securing and limiting AI agents (role centers, AL page customization, agent permission intersection), a separate agent capability rather than granting user permissions.",
-        "at": "2026-10-08T06:28:29.876Z"
+        "reason": "About Copilot credit consumption and billing; permission sets are mentioned only in passing.",
+        "at": "2026-10-23T01:11:10.880Z"
       },
       "post/thedynamicsexplorer-com/37042@47166e5609dd093b": {
         "verdict": "keep",
-        "reason": "Explains how users get default permissions from their license and security groups, and how to change them in the License Configuration page, which this section documents.",
-        "at": "2026-10-08T06:28:29.876Z"
-      },
-      "post/thedynamicsexplorer-com/9364@9b68155fb6b79788": {
-        "verdict": "drop",
-        "reason": "Mainly about the free administrator license types; it mentions assigning permissions only as one thing those licenses allow.",
-        "at": "2026-10-08T06:28:29.876Z"
+        "reason": "Explains default user permissions from licenses and changing them in License Configuration, which is part of granting permissions.",
+        "at": "2026-10-23T01:11:10.880Z"
       },
       "video/asSSBl8Cj34@64c9c37acf9c9732": {
         "verdict": "keep",
-        "reason": "Demonstrates the Import permission sets action and the option to replace existing sets on import, which is part of managing permission sets.",
-        "at": "2026-10-08T06:28:29.876Z"
+        "reason": "Demonstrates importing permission sets with a replace option, part of managing the permission sets granted to users.",
+        "at": "2026-10-23T01:11:10.880Z"
       },
-      "video/DRUr4byy8xQ@9fb09ea435d6d4be": {
+      "video/YbuO1n_Lqj0@cf2ca9df9ccfa6a4": {
         "verdict": "drop",
-        "reason": "Covers agent-specific access control and profiles for the Sales Order Agent, not granting permissions to users.",
-        "at": "2026-10-08T06:28:29.876Z"
-      },
-      "video/w9c-j29nAFM@9a2b02f0c0710927": {
-        "verdict": "drop",
-        "reason": "A reskilling and talent program explainer that has nothing to do with permissions.",
-        "at": "2026-10-08T06:28:29.876Z"
+        "reason": "About broad IT audit reporting across approvals, the change log and APIs rather than granting user permissions.",
+        "at": "2026-10-23T01:11:10.880Z"
       }
     },
     "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-user-settings": {
       "post/gerardorenteria-blog/12464@0d63d8a41f3d5da2": {
         "verdict": "drop",
-        "reason": "Custom bookmark/navigation extension; only shares personalization vocabulary, not about managing user settings.",
-        "at": "2026-10-21T09:33:50.841Z"
+        "reason": "It's about a custom bookmark and navigation extension, not the user settings (role, language, region, company) that this section covers.",
+        "at": "2026-10-23T01:11:06.841Z"
+      },
+      "video/HSgTJbyi0a4@7ccdd22c021d909d": {
+        "verdict": "drop",
+        "reason": "It's about the human side of partner onboarding in general, not managing user settings.",
+        "at": "2026-10-23T01:11:06.841Z"
+      },
+      "video/KQRT25igPTk@df2730b4dc54a729": {
+        "verdict": "drop",
+        "reason": "It covers the welcome banner and onboarding checklists, a different capability from user settings.",
+        "at": "2026-10-23T01:11:06.841Z"
       },
       "video/OszitKuf8t0@7fd4f190a5a382ee": {
         "verdict": "keep",
-        "reason": "Shows administering allowed product languages, a language user setting this section covers.",
-        "at": "2026-10-21T09:33:50.841Z"
+        "reason": "It shows administrators limiting which product languages are available, which is a language user setting this section documents.",
+        "at": "2026-10-23T01:11:06.841Z"
       }
     },
     "topic/business-central/development-and-administration/customize-business-central": {
@@ -3719,9 +3734,24 @@
     },
     "topic/dev-itpro/administration": {
       "post/demiliani-com/12992@762ec0bee0e92be2": {
+        "verdict": "keep",
+        "reason": "CCMS is a tool for partners managing Business Central online customers at scale, and YAMPI handles tenant administration; both match the section's admin center and customer onboarding topics.",
+        "at": "2026-10-23T01:11:09.246Z"
+      },
+      "post/gerardorenteria-blog/12460@b8d3b7c437762b9f": {
         "verdict": "drop",
-        "reason": "The post promotes two community tools (the CCMS app and the YAMPI MCP server), not anything the Administration documentation covers.",
-        "at": "2026-10-21T09:36:02.938Z"
+        "reason": "It only lists on-premises cumulative update links, which none of this section's subtopics cover (they focus on online administration).",
+        "at": "2026-10-23T01:11:09.246Z"
+      },
+      "post/gerardorenteria-blog/12728@016092a0d19c8807": {
+        "verdict": "drop",
+        "reason": "It only lists on-premises cumulative update links, which none of this section's subtopics cover (they focus on online administration).",
+        "at": "2026-10-23T01:11:09.246Z"
+      },
+      "post/gerardorenteria-blog/13744@69438f440d962dbc": {
+        "verdict": "drop",
+        "reason": "It only lists on-premises cumulative update links, which none of this section's subtopics cover (they focus on online administration).",
+        "at": "2026-10-23T01:11:09.246Z"
       }
     },
     "topic/dev-itpro/administration/admin-center": {
@@ -4913,38 +4943,33 @@
     "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing": {
       "post/aardvarklabs-blog/3998@08248838286b825d": {
         "verdict": "keep",
-        "reason": "Shows how to deploy, install, monitor and uninstall extensions through the Administration API.",
-        "at": "2026-10-21T09:25:35.282Z"
+        "reason": "Walks through deploying and installing a .app with the Administration API, including sync mode, schedule and tracking progress.",
+        "at": "2026-10-23T01:11:12.027Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786@f32ea2d662c4d762": {
         "verdict": "keep",
-        "reason": "Covers installing PTEs in the admin center, including deployment schedule, sync mode and uninstall.",
-        "at": "2026-10-21T09:25:35.282Z"
+        "reason": "Covers installing PTEs from the admin center, including deployment schedule, sync mode and operation tracking.",
+        "at": "2026-10-23T01:11:12.027Z"
       },
-      "video/9i6hVsw9x_U@051f41422b15c282": {
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-61-check-appsource-app-update-history/@620bdba92f536dd1": {
         "verdict": "drop",
-        "reason": "About the AppSource preview-key and Partner Center workflow, which belongs to AppSource publishing rather than general deploying and installing.",
-        "at": "2026-10-21T09:25:35.282Z"
+        "reason": "Advice on judging an AppSource app's maintenance history before installing, not on how extensions are deployed or installed.",
+        "at": "2026-10-23T01:11:12.027Z"
       },
-      "video/f_i4_BRz-oA@03e878f5bef7cedd": {
-        "verdict": "drop",
-        "reason": "About cloud data migration, which the Migration sibling section and admin docs cover.",
-        "at": "2026-10-21T09:25:35.282Z"
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-85-schedule-pte-extension-updates/@7c75a9d4d16eb464": {
+        "verdict": "keep",
+        "reason": "Shows uploading a PTE and scheduling its deployment for the update window from the admin center, which is a deployment schedule option.",
+        "at": "2026-10-23T01:11:12.027Z"
       },
       "video/JKsLjwSh0SQ@dc4a5bde0f7fc02d": {
         "verdict": "keep",
-        "reason": "Explains the options for publishing dependencies when deploying extensions from VS Code.",
-        "at": "2026-10-21T09:25:35.282Z"
-      },
-      "video/px1MOyXfmnQ@e7adc62811e81694": {
-        "verdict": "drop",
-        "reason": "About configuring AL-Go for GitHub CI/CD workflows, not the extension deploy/install process this section documents.",
-        "at": "2026-10-21T09:25:35.282Z"
+        "reason": "Shows dependency publishing options and restoring the extension after a failed deployment when publishing from VS Code.",
+        "at": "2026-10-23T01:11:12.027Z"
       },
       "video/xr8C3c6WhOI@e9e8ed3d1b5f4c07": {
         "verdict": "drop",
-        "reason": "About AL-Go test automation and page scripting tests; deployment comes up only as a workflow setting.",
-        "at": "2026-10-21T09:25:35.282Z"
+        "reason": "Mainly about AL-Go test automation and page scripting tests; deploying test apps is a side detail that belongs under Testing.",
+        "at": "2026-10-23T01:11:12.027Z"
       }
     },
     "topic/dev-itpro/development/extension-lifecycle/deprecating-code": {
@@ -5165,43 +5190,28 @@
     "topic/dev-itpro/development/programming-in-the-al-language": {
       "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
         "verdict": "keep",
-        "reason": "Teaches AL programming techniques (line-by-line text parsing, field extraction, staging tables) used to import delimited files.",
-        "at": "2026-10-21T09:34:40.582Z"
+        "reason": "It's a hands-on AL coding guide: it parses delimited files, loads staging tables and creates sales orders, which is the kind of programming this section covers.",
+        "at": "2026-10-23T01:11:17.448Z"
       },
-      "post/aardvarklabs-blog/2678@fb232bd2607b5ad5": {
+      "post/aardvarklabs-blog/3032@eb6d53de9c04df57": {
         "verdict": "drop",
-        "reason": "Catalogues the procedures of the Type Helper system codeunit, which belongs to the sibling system and application reference documentation.",
-        "at": "2026-10-21T09:34:40.582Z"
+        "reason": "It's about using Microsoft 365 Copilot to analyse requirements documents, not about programming in AL.",
+        "at": "2026-10-23T01:11:17.448Z"
       },
-      "post/aardvarklabs-blog/2741@c11ef2902987d3a5": {
+      "video/a8W1x0xwkv4@6fc696eb5f59d4a6": {
         "verdict": "drop",
-        "reason": "Describes one application helper codeunit's procedures, which is reference material rather than AL language programming.",
-        "at": "2026-10-21T09:34:40.582Z"
-      },
-      "post/aardvarklabs-blog/2812@6c1bdad771c09995": {
-        "verdict": "drop",
-        "reason": "About the JSON Management codeunit 5459 from the base application, which is reference material rather than AL language programming.",
-        "at": "2026-10-21T09:34:40.582Z"
-      },
-      "video/D_Lur52IrIg@b595aae8c6547f54": {
-        "verdict": "drop",
-        "reason": "Broad release roundup that is mostly about tooling (AL MCP, language server, profiling), so it is too general for this section.",
-        "at": "2026-10-21T09:34:40.582Z"
-      },
-      "video/LaA6UNdkvso@28c2ceef365f173a": {
-        "verdict": "drop",
-        "reason": "Its subject is a diagram-rendering library and visualization, not an AL programming capability this section documents.",
-        "at": "2026-10-21T09:34:40.582Z"
+        "reason": "It's a novelty showcase about porting DOOM to Business Central, and its focus is the engine translation rather than teaching any AL programming topic.",
+        "at": "2026-10-23T01:11:17.448Z"
       },
       "video/lH2Z4xfdhmY@5fceed842247fca3": {
         "verdict": "keep",
-        "reason": "Covers developer-facing table and data features: the OptimizeForTextSearch property, the double-and filter operator in SetFilter, and full-text search indexing.",
-        "at": "2026-10-21T09:34:40.582Z"
+        "reason": "It shows developers the 'optimized for text search' table property and the double-and SetFilter operator, which fall under tables and data in AL.",
+        "at": "2026-10-23T01:11:17.448Z"
       },
       "video/QhHgkCe3kkk@0c07d5bb49e5b26b": {
         "verdict": "keep",
-        "reason": "Shows the AL get-resource functions and embedding resource files in apps, which is a program building block.",
-        "at": "2026-10-21T09:34:40.582Z"
+        "reason": "It demonstrates embedding resources in an app and reading them with the get resource function, which is an AL programming feature.",
+        "at": "2026-10-23T01:11:17.448Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services": {

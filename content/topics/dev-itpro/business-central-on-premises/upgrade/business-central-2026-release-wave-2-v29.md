@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:41.609Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -59,7 +59,8 @@ links:
   localizations: []
   videos:
     - video/Sh3ySQSTw-o
-  posts: []
+  posts:
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -72,7 +73,7 @@ coverage:
   learn: 4
   code: 0
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: bb19bc24266d3770671d62d35bcd52382bc7b9188b90751e4908b857e79e74cb
@@ -115,6 +116,7 @@ For the upgrade itself, use the upgrade guide if you are coming from version 25,
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [How to Install Microsoft Dynamics 365 Business Central 29 On-Premises](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f.md) (community post): "Business Central 29 (2026 release wave 2) on-premises in a test or demonstration"
 - [What's new: Server and Database (2026 release wave 2)](../../../../videos/Sh3ySQSTw-o.md) (video): "What's new: Server and Database (2026 release wave 2)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

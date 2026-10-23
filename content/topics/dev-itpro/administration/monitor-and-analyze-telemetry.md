@@ -7,12 +7,12 @@ tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-23T01:12:47.130Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -322,6 +322,7 @@ links:
     - video/sZ7wMU1Uxio
   posts:
     - post/demiliani-com/13369
+    - post/demiliani-com/14064
     - post/duiliotacconi-com/1501
     - post/waldo-be/317845
     - post/waldo-be/318423
@@ -340,7 +341,7 @@ coverage:
   learn: 70
   code: 0
   video: 4
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 6d811af42d6a134d1ed6be0e44736f3c1dff51ecfed1455cb2a4358c4de6d557
@@ -351,7 +352,7 @@ narrative: generated
 
 > Business Central telemetry sent to Azure Application Insights: how to turn it on, analyze it with KQL and Power BI, set alerts, control cost, and look up event IDs. It answers setup, analysis, alerting, cost and event reference questions.
 
-Path: [Administration](../administration.md) > Monitor and analyze telemetry · tier official · system platform · narrative **unreviewed** (model text not yet checked)
+Path: [Administration](../administration.md) > Monitor and analyze telemetry · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -394,6 +395,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10573 BC IQ - Adding data categorization](../../../changes/bcapps/10573.md) (code change): "Data categorization for BC IQ to codeunit 1751 Data Classification Eval"
 - [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../../posts/demiliani-com/13369.md) (community post): "Business Central now includes hardware and network telemetry parameters in page views"
+- [How can I move my Business Central-related Azure resources to a new Azure region?](../../../posts/demiliani-com/14064.md) (community post): "telemetry connection string and the Power Platform environment references"
 - [Client Crash? Check Error Dialog signal](../../../posts/duiliotacconi-com/1501.md) (community post): "Dashboard tiles built on RT0030 (by failure reason, details, stack trace and timeline) showed InvalidOperation errors"
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../posts/waldo-be/317845.md) (community post): "Dashboard visualization consolidates custom telemetry and daily telemetry data"
 - [BC Telemetry Buddy – 84 commits later..](../../../posts/waldo-be/318423.md) (community post): "production-ready tool for analyzing Business Central telemetry"

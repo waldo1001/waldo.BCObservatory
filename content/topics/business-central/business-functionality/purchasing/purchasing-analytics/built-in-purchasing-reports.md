@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:41.840Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -185,6 +185,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/11366
+    - change/bcapps/12607
     - change/bcapps/9549
 learn_toc_path:
   - Business functionality
@@ -270,6 +271,7 @@ This section is a set of reference pages, one for each built-in purchasing repor
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11366 Filter top customer and top vendor Excel reports on the posting group](../../../../../changes/bcapps/11366.md) (code change): "The Top Customer and Top Vendor Excel reports now correctly filter on posting group"
+- [#12607 [BE] Improve Purchase Ledger report performance](../../../../../changes/bcapps/12607.md) (code change): "Belgian Purchase Ledger report now uses a single left-joined query with temporary buffering"
 - [#9549 636017 Move Purchases report action tooltips to report objects](../../../../../changes/bcapps/9549.md) (code change): "Tooltips for 18 purchase-related reports are now defined on the report objects themselves"
 
 ## Business Central pages and reports

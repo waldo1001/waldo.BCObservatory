@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:58.086Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -411,9 +411,12 @@ links:
     - video/8C9JmtHdExM
     - video/DJ3LPRxn27g
     - video/DvZd6y69sWk
+    - video/kDiDMPEaU0E
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6099911235084496190--4c366f79d5
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
+    - post/thedynamicsexplorer-com/36954
+    - post/thedynamicsexplorer-com/7097
   guidelines: []
   changes:
     - change/bcapps/10290
@@ -430,6 +433,7 @@ links:
     - change/bcapps/12723
     - change/bcapps/12809
     - change/bcapps/12816
+    - change/bcapps/12931
     - change/bcapps/13075
     - change/bcapps/9044
     - change/bcapps/9084
@@ -456,8 +460,8 @@ children:
 coverage:
   learn: 62
   code: 82
-  video: 3
-  blog: 2
+  video: 4
+  blog: 4
   guideline: 0
 bc_forms:
   - 29
@@ -615,7 +619,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12723 [Master]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12723.md) (code change): "changing the Description on a purchase invoice line no longer resets its Quantity"
 - [#12809 Bugs/bug 654102 main]purch order vendor change automatically applied to next order](../../../changes/bcapps/12809.md) (code change): "vendor change on one order is no longer automatically applied to the next order"
 - [#12816 [29.x]- Project Planning Lines are created in reverse order when purchase line descriptions are copied](../../../changes/bcapps/12816.md) (code change): "Project planning lines now maintain the original purchase line sequence when Copy Line"
-- [#13075 [MAIN] [IN] Add extensibility events to support deferred TDS calculation on purchase documents](../../../changes/bcapps/13075.md) (code change): "extensibility events to support deferred TDS calculation on purchase documents"
+- [#12931 [29.x][Repair Item] Purchase Order vendor change is automatically applied to the next order after navigation](../../../changes/bcapps/12931.md) (code change): "Purchase Order vendor change is automatically applied to the next order"
+- [#13075 [MAIN] [IN] Add extensibility events to support deferred TDS calculation on purchase documents](../../../changes/bcapps/13075.md) (code change): "deferred TDS calculation on purchase documents"
 - [#9044 [Master] Contact email is no validated during creation purchase documents_New](../../../changes/bcapps/9044.md) (code change): "Contact email validation is restored during purchase document creation"
 - [#9084 Bug 640321: Blanket Purch. Order to Order drops extended text for later items](../../../changes/bcapps/9084.md) (code change): "Fixes a bug where extended text lines are dropped when converting blanket purchase orders"
 - [#9145 [E-Document] Show PDF preview factbox on purchase invoice pages](../../../changes/bcapps/9145.md) (code change): "PDF preview factbox is added to purchase invoice pages to display"
@@ -633,9 +638,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9985 [Master]-For an Item of 'Type' Service or Non-Inventory we allow you to increase the Quantity of the Corrective Credit Memo which then if posted updates the Purchase Order with a negative Received and Invoiced values](../../../changes/bcapps/9985.md) (code change): "Fixes corrective credit memos from posted purchase invoices with Service or Non-Inventory lines"
 - [Create Purchase Quotes for Contacts in Business Central](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6099911235084496190--4c366f79d5.md) (community post): "Creating purchase quotes in Business Central now allows selecting contacts"
 - [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (community post): "Create Purchase Orders action on sales orders eliminates the need to manually navigate"
+- [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../../../posts/thedynamicsexplorer-com/36954.md) (community post): "Recurring Purchase Lines automatically default General Ledger accounts and other details onto purchase invoices"
+- [Dynamics 365 Business Central – How to use the “Recurring Requisition Worksheet” for Recurring Purchase Orders](../../../posts/thedynamicsexplorer-com/7097.md) (community post): "Recurring Requisition Worksheet retains lines after generating purchase orders for reuse"
 - [Allow Over Receipts of Products](../../../videos/8C9JmtHdExM.md) (video): "Over receipt codes; Over receipt code tolerance percentages; Item-level over receipt codes"
 - [What's New: Drop Shipments (2026 release wave 1)](../../../videos/DJ3LPRxn27g.md) (video): "drop shipments; purchase order; flexible operation sequences; get order lines"
 - [What's Cooking in Business Central: Edit Purchase Order Emails before Sending them to your Supplier](../../../videos/DvZd6y69sWk.md) (video): "Edit purchase order emails before sending them to your Supplier"
+- [What's New: Matching Purchase Invoices to Order and Receipt Lines (2026 release wave 1)](../../../videos/kDiDMPEaU0E.md) (video): "Match invoice line to multiple order lines; Match invoice to partial"
 
 ## Business Central pages and reports
 

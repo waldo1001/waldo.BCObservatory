@@ -6,13 +6,13 @@
   "systems_joined": [
     "copilot"
   ],
-  "summary": "The Payables Agent now recognizes vendor credit notes from PDFs using EN 16931 document type codes and automatically creates purchase credit memos applied to the original invoice, eliminating manual data entry.",
+  "summary": "The Payables Agent now recognizes vendor credit notes in PDFs (EN 16931 type 381) and creates purchase credit memos instead of invoices. A credit memo is applied to the invoice printed on the document only when exactly one open posted invoice of the pay-to vendor matches; otherwise it stays unapplied with a warning.",
   "key_points": [
-    "Extracts EN 16931 document type code from PDFs to distinguish credit notes (381) from invoices",
-    "Automatically creates purchase credit memos instead of invoices when credit notes are detected",
-    "Applies credit memos to matching open invoices with warnings when exact matches cannot be found",
-    "Provides editable application field and read-only outcome field on draft to show what will happen",
-    "Normalizes sign variations in amounts and revalidates matches during finalization"
+    "Extraction returns the EN 16931 document type code and billing reference; code maps 381 to a credit memo, anything else to an invoice",
+    "Creates purchase credit memos with the same draft and task experience as invoices",
+    "Applies only to the stated invoice when exactly one open posted invoice of the pay-to vendor matches in an applicable currency; otherwise leaves it unapplied with a warning",
+    "Draft gets an editable Applies-to Vendor Inv. No. field and a read-only outcome field",
+    "Amount signs are normalised and the match is re-checked at finalization"
   ],
   "change_kind": "feature",
   "behavior_change": true,

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:59.700Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -187,7 +187,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9637 [Event Requests] Add integration events across base app and SMTP module](../../../../changes/bcapps/9637.md) (code change): "Ten partner event requests were implemented adding new integration events or extra parameters"
 - [#138 knowledge(style): event subscribers bind by parameter name, so a shorter list is not a mismatch](../../../../changes/bcquality/138.md) (code change): "AL binds event subscribers to publishers by parameter name, not by position"
 - [#152 knowledge(events): ChangeCompany leaves triggers and trigger-event subscribers running in the calling company](../../../../changes/bcquality/152.md) (code change): "ChangeCompany does not move trigger execution context to the target company"
-- [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../changes/bcquality/228.md) (code change): "isolated events isolation guarantees only hold outside write transactions"
+- [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../changes/bcquality/228.md) (code change): "Isolated events are only isolated outside a write transaction"
 - [Troubleshooting Series – Ep4 – Event Recorder](../../../../posts/waldo-be/318335.md) (community post): "Event Recorder captures events in order of execution with event type classification"
 - [Business Central Under the Hood episode 6: We Have Too Many Events!](../../../../videos/P-7dYVfB73E.md) (video): "Events; extensibility; componentization; code customization; extensions; cloud migration; event telemetry"
 

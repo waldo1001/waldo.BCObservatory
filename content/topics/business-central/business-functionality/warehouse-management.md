@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:25.040Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -270,11 +270,13 @@ links:
     - video/vnaySMIKnp8
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610
+    - post/vondervoort-be/67
   guidelines: []
   changes:
     - change/bcapps/10277
     - change/bcapps/11157
     - change/bcapps/12293
+    - change/bcapps/12541
     - change/bcapps/8905
     - change/bcapps/9224
     - change/bcapps/9333
@@ -291,7 +293,7 @@ coverage:
   learn: 26
   code: 52
   video: 3
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 15
@@ -392,10 +394,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10277 Slice 554749: Inventory put-away/pick support for subcontracting purchase lines and WIP item transfers](../../../changes/bcapps/10277.md) (code change): "Inventory put-away/pick support for subcontracting purchase lines and WIP"
 - [#11157 [main] Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line](../../../changes/bcapps/11157.md) (code change): "Posting inventory picks for non-ATO lines no longer fails due to pending warehouse"
 - [#12293 Remove CLEAN27 from Warehouse](../../../changes/bcapps/12293.md) (code change): "Removes code guarded by CLEAN27 from warehouse codeunits"
+- [#12541 Preserve transfer line UOM when toggling Direct Transfer](../../../changes/bcapps/12541.md) (code change): "Preserve transfer line UOM when toggling Direct Transfer"
 - [#8905 [Master] Different source reference on reservation entries created directly from Job Planning Line and via a warehouse pick.](../../../changes/bcapps/8905.md) (code change): "Reservation entries for project job planning lines now get the same source reference"
 - [#9224 [main] GitHub event batch 1746](../../../changes/bcapps/9224.md) (code change): "Whse.-Source - Create Document. The description does not say what each fix does"
 - [#9333 [Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders](../../../changes/bcapps/9333.md) (code change): "Warehouse management logic updated to enforce bin content block rules consistently"
 - [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610.md) (community post): "Direct transfers now support outbound warehouse handling at the source location"
+- [Dutch Dynamics Community Event 18 november 2025](../../../posts/vondervoort-be/67.md) (community post): "connecting Business Central to Dynamics 365 Supply Chain Management Warehouse Only Mode for advanced warehousing"
 - [What's New: Warehouse Management (2023 release wave 2)](../../../videos/8KMcu4B_eTk.md) (video): "put-away templates; bin policy; warehouse configuration; picking by ranking"
 - [What's New: Project Management Receive Project Items with Receipts or Put-Aways(2025 release wave 1)](../../../videos/sVlPlmok5U8.md) (video): "warehouse receipt; put-away; project purchases; warehouse processes"
 - [What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)](../../../videos/vnaySMIKnp8.md) (video): "Warehouse Putaway for Production Output; Automatic Putaway Document Generation"

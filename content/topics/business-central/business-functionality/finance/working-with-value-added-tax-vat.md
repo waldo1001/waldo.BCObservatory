@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:08.129Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -227,6 +227,9 @@ links:
     - change/bcapps/11736
     - change/bcapps/12119
     - change/bcapps/12141
+    - change/bcapps/12201
+    - change/bcapps/12982
+    - change/bcapps/13085
     - change/bcapps/9089
     - change/bcapps/9260
     - change/bcapps/9340
@@ -370,6 +373,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11736 [29.x][VIES Integration] Per-environment daily request rate-limit](../../../../changes/bcapps/11736.md) (code change): "VAT Registration Number lookups against the EU VIES service"
 - [#12119 Fixing an APAC-specific issue with applying a posted sales credit memo when using unrealized VAT (GST)](../../../../changes/bcapps/12119.md) (code change): "An infinite loop when applying a posted sales credit memo with unrealized VAT (GST)"
 - [#12141 [Master]-Incorrect project ledger costs when non-deductible VAT is posted to a foreign-currency project](../../../../changes/bcapps/12141.md) (code change): "Fixed incorrect project ledger costs when posting non-deductible VAT to a foreign-currency project"
+- [#12201 [29.X]- Incorrect project ledger costs when non-deductible VAT is posted to a foreign-currency project](../../../../changes/bcapps/12201.md) (code change): "non-deductible VAT is posted to foreign-currency projects"
+- [#12982 [29x][All-e]Since Business Central 28.4, we have observed changed behaviour when the VAT Prod](../../../../changes/bcapps/12982.md) (code change): "VAT Product Posting Group behavior was corrected in Sales Line handling"
+- [#13085 [Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.](../../../../changes/bcapps/13085.md) (code change): "VAT product posting group handling introduced in BC 28.4"
 - [#9089 Merge-ES-Excluded-from-Calculation-to-W1](../../../../changes/bcapps/9089.md) (code change): "ES Excluded from Calculation functionality is merged into W1"
 - [#9260 Bug 637507: [master] [Report 743 VAT Reconciliation Report] Incorrect VAT Base and Amount when using Non-Deductible VAT](../../../../changes/bcapps/9260.md) (code change): "VAT Reconciliation Report now includes a configurable option to report either the total VAT amount"
 - [#9340 [main][Gen. Jnl.-Post Line]` Add var NextVATEntryNo to OnAfterGLFinishPosting in Code](../../../../changes/bcapps/9340.md) (code change): "OnAfterGLFinishPosting now exposes NextVATEntryNo as a var parameter"

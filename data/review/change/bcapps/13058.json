@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/13058",
+  "input_hash": "7b5a6cb89176cae5b4928e032c7495e104820121548ebd62972e756deadebd5b",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-23T01:11:43.908Z",
+  "issues": [
+    "Rounding and currency code points follow from the title and itemization table changes.",
+    "'Accumulated' unrounded values is a minor inference; some tests were also added to the disabled tests list, not mentioned."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034938,
+    "changes_in_call": 6
+  }
+}

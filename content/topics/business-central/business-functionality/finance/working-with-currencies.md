@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:31.746Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,6 +61,7 @@ links:
     - change/bcapps/11727
     - change/bcapps/11848
     - change/bcapps/12198
+    - change/bcapps/12201
     - change/bcapps/12507
     - change/bcapps/9254
     - change/bcapps/9349
@@ -131,6 +132,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11727 Bug 650737: Description for new currencies should be aligned with existing full descriptions](../../../../changes/bcapps/11727.md) (code change): "Currency labels in demo data now include country names"
 - [#11848 [main] Report 11564, Foreign Currency Layout: foreign currency opening balance is not included](../../../../changes/bcapps/11848.md) (code change): "foreign currency opening balance is not included. Report 11564"
 - [#12198 [29.x]Source Currency Inconsistency for LCY Postings and cash posting on sales documents](../../../../changes/bcapps/12198.md) (code change): "Source Currency Inconsistency for LCY Postings and cash posting"
+- [#12201 [29.X]- Incorrect project ledger costs when non-deductible VAT is posted to a foreign-currency project](../../../../changes/bcapps/12201.md) (code change): "non-deductible VAT is posted to foreign-currency projects"
 - [#12507 [DK Nemhandel][Currency] Remove unsafe fixed response-size caps on scaling/customer-configured feeds](../../../../changes/bcapps/12507.md) (code change): "currency exchange rate downloads where legitimate responses grow"
 - [#9254 [Master] Exchange Rate Adjustment filter not working](../../../../changes/bcapps/9254.md) (code change): "Exchange Rate Adjustment filter not working. Codeunit 699"
 - [#9349 [master]-[ES][Cartera Bills] Applying a foreign-currency payment to a bill that leads to gain-loss entry cannot be reversed](../../../../changes/bcapps/9349.md) (code change): "Reversal of foreign-currency payments with gain-loss entries now works correctly"

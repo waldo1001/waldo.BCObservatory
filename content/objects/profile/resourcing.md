@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:03:16.851Z"
+  at: "2026-10-23T01:04:01.231Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4dd688497bcf97efef55506a605ae7cad3aff9b9050272e28a6e2b86d7a9ed5f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/Layers/W1/BaseApp/Projects/RoleCenters/Resourcing.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Projects/RoleCenters/Resourcing.Profile.al
     title: src/Layers/W1/BaseApp/Projects/RoleCenters/Resourcing.Profile.al (releases/29.x)
     date: null
-    commit: e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc
+    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "RESOURCING" in Base Application (Microsoft.Projects.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Projects.RoleCenters · captioned "Resource" · BC23-30 · [source at e9be5bb8](https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/Layers/W1/BaseApp/Projects/RoleCenters/Resourcing.Profile.al) · facts from BC29
+Base Application · Microsoft.Projects.RoleCenters · captioned "Resource" · BC23-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Projects/RoleCenters/Resourcing.Profile.al) · facts from BC29
 
 ## Properties
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T13:43:32.762Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -118,15 +118,19 @@ links:
     - video/rSGCNMIBcpc
     - video/tj1vvsmAMVs
     - video/vyQnSxRGJDA
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/11616
   guidelines: []
   changes:
     - change/bcapps/10631
     - change/bcapps/11740
+    - change/bcapps/11955
+    - change/bcapps/11997
     - change/bcapps/12514
     - change/bcapps/12599
     - change/bcapps/12763
     - change/bcapps/12810
+    - change/bcapps/13058
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -138,7 +142,7 @@ coverage:
   learn: 10
   code: 3
   video: 12
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 4400
@@ -192,10 +196,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "Expense Agent gains policy evaluation tables, pages, enums and APIs"
 - [#11740 Bug 636971: [Expense Agent] EA Scheduler Task table grows unbounded with no cleanup or UI visibility](../../../changes/bcapps/11740.md) (code change): "The Expense Agent now calls an existing cleanup function"
+- [#11955 Slice 626975: [Expense Agent] Alternate approvers - Delegated/Substitutes (November '26)](../../../changes/bcapps/11955.md) (code change): "Expense Agent now supports alternate approvers and delegated/substitute workflows"
+- [#11997 Clarify Expense Agent Entra app permission checks](../../../changes/bcapps/11997.md) (code change): "Permission checks for the Expense Agent Entra app have been reordered"
 - [#12514 Revert Expense API test re-enablement and consolidated fixes](../../../changes/bcapps/12514.md) (code change): "Fully reverts the earlier commit that re-enabled Expense API tests"
 - [#12599 [Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals](../../../changes/bcapps/12599.md) (code change): "Expense Agent now requires itemization when an enabled Expense Policy"
 - [#12763 [Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: "'IndirectInsert' permission on TableData 6913 'Expense Pmt Method" - 2610091420000495](../../../changes/bcapps/12763.md) (code change): "Expense Agent delegated admin partner entitlements are updated to grant"
 - [#12810 ExpenseAgent-CAUS-default-VAT-setup-fails](../../../changes/bcapps/12810.md) (code change): "Fixes the Expense Agent default VAT setup failing"
+- [#13058 Bug 656064: Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.](../../../changes/bcapps/13058.md) (code change): "Expense itemization records now store properly rounded currency amounts"
+- [What’s new and planned Business Central 2025 Wave 2 – v27🔔](../../../posts/gerardorenteria-blog/11616.md) (community post): "Copilot and autonomous agents target repetitive tasks, order processing and data entry"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "Expense agent; mobile app; receipt scanning; mileage tracking"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Expense agent; web app experience; receipt capture; receipt extraction; automatic categorization"
 - [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../videos/cVfZoDwKYpI.md) (video): "Expense Agent; Receipt Extraction via AI; Approval Workflow"

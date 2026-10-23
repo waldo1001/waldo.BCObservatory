@@ -2,7 +2,7 @@
 id: app/auditfileexport
 type: app
 title: AuditFileExport
-summary: "AuditFileExport (Microsoft.Finance): 48 objects in BC29-30 (12 pages, 10 tables, 8 codeunits, 6 enums, 6 permission set extensions, ...); documented by 4 Learn hubs; 2 videos."
+summary: "AuditFileExport (Microsoft.Finance): 50 objects in BC29-30 (12 pages, 10 tables, 9 codeunits, 6 enums, 6 permission set extensions, ...); documented by 4 Learn hubs; 2 videos."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-23T01:07:59.356Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 60d34bc7e1e5c748101b78e0ea44bd8c0ca00ad89e77fb60f8e7791dd7eae6bd
+  input_hash: 216d13404aa9d3b0178d84398000cb19c260b27bcd642868b73af7219c8b96c1
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/AuditFileExport/app
@@ -61,6 +61,7 @@ links:
     - object/codeunit/5265
     - object/codeunit/5266
     - object/codeunit/5267
+    - object/codeunit/5311
     - object/enum/5260
     - object/enum/5261
     - object/enum/5262
@@ -69,6 +70,7 @@ links:
     - object/enum/5265
     - object/interface/audit-file-export-data-check
     - object/interface/audit-file-export-data-handling
+    - object/interface/audit-file-export-page-visibility
     - object/permissionset/5260
     - object/permissionset/5261
     - object/permissionset/5262
@@ -96,15 +98,15 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 48
+  objects: 50
   by_type:
     page: 12
     table: 10
-    codeunit: 8
+    codeunit: 9
     enum: 6
     permissionsetextension: 6
+    interface: 3
     permissionset: 3
-    interface: 2
     report: 1
   hubs: 4
   videos: 2
@@ -113,7 +115,7 @@ counts:
 
 # AuditFileExport
 
-> AuditFileExport (Microsoft.Finance): 48 objects in BC29-30 (12 pages, 10 tables, 8 codeunits, 6 enums, 6 permission set extensions, ...); documented by 4 Learn hubs; 2 videos.
+> AuditFileExport (Microsoft.Finance): 50 objects in BC29-30 (12 pages, 10 tables, 9 codeunits, 6 enums, 6 permission set extensions, ...); documented by 4 Learn hubs; 2 videos.
 
 First-party app · folder `src/Apps/W1/AuditFileExport/app` · namespace `Microsoft.Finance` · BC29-30 · system finance · facts from the code pillar and the joins, nothing machine-written
 
@@ -128,7 +130,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-48 objects, by type.
+50 objects, by type.
 
 ### Tables (10)
 
@@ -168,7 +170,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |---|---|---|
 | 5260 | [Copy G/L Account Mapping](../objects/report/5260.md) |  |
 
-### Codeunits (8)
+### Codeunits (9)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -180,6 +182,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 5265 | [Audit Line Export Runner](../objects/codeunit/5265.md) |  |
 | 5266 | [Audit File Data Handling](../objects/codeunit/5266.md) |  |
 | 5267 | [Audit File Data Check](../objects/codeunit/5267.md) |  |
+| 5311 | [Audit File Page Visibility](../objects/codeunit/5311.md) |  |
 
 ### Enums (6)
 
@@ -192,12 +195,13 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 5264 | [Audit File Export Data Type](../objects/enum/5264.md) |  |
 | 5265 | [Audit File Export Data Class](../objects/enum/5265.md) |  |
 
-### Interfaces (2)
+### Interfaces (3)
 
 | Id | Name | Caption |
 |---|---|---|
 |  | [Audit File Export Data Check](../objects/interface/audit-file-export-data-check.md) |  |
 |  | [Audit File Export Data Handling](../objects/interface/audit-file-export-data-handling.md) |  |
+|  | [Audit File Export Page Visibility](../objects/interface/audit-file-export-page-visibility.md) |  |
 
 ### Permission sets (3)
 

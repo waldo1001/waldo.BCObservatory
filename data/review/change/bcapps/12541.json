@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12541",
+  "input_hash": "77140f3a4159d6b82c837cc3668c3922f6a8cb3e7514f63c93d2d84f893a1c3b",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-23T01:11:44.824Z",
+  "issues": [
+    "Summary and key points match the description: UOM preserved, reservation-safe ordering, explicit warehouse line protection, four localized tables plus one shared validator."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020675,
+    "changes_in_call": 6
+  }
+}

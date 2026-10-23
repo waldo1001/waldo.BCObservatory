@@ -47,189 +47,194 @@
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-upload-receipts.md@e41eefee0b0de9cb": {
         "verdict": "drop",
         "reason": "Describes general mileage expense creation with distance calculation, not date-range or vehicle-type rates.",
-        "at": "2026-10-19T01:08:40.010Z"
+        "at": "2026-10-23T01:09:41.693Z"
       },
-      "video/4TE8uwIi91k#3@e69594389ac0885f": {
+      "video/4TE8uwIi91k#3@ecf25bca64f64cda": {
         "verdict": "keep",
-        "reason": "Shows vehicle type selection during mileage expense creation, a step of this feature.",
-        "at": "2026-10-19T01:08:40.010Z"
+        "reason": "Shows choosing a vehicle type when creating a mileage expense, which is the step that selects the vehicle-specific rate.",
+        "at": "2026-10-23T01:09:41.693Z"
       },
       "video/cVfZoDwKYpI#2@40954147bb2a273b": {
         "verdict": "drop",
-        "reason": "General mileage calculation based on company configuration, with no mention of date ranges or vehicle types.",
-        "at": "2026-10-19T01:08:40.010Z"
+        "reason": "General description of mileage calculation from company configuration, with no date ranges or vehicle types.",
+        "at": "2026-10-23T01:09:41.693Z"
       },
       "video/cWVhWBMbXb4#0@f8b25f9a978c8f3f": {
         "verdict": "keep",
-        "reason": "Directly demonstrates date-range mileage rates with automatic transitions between periods.",
-        "at": "2026-10-19T01:08:40.010Z"
+        "reason": "Shows start and end dates for mileage rates, with automatic switching to the new rate when a period ends.",
+        "at": "2026-10-23T01:09:41.693Z"
       },
       "video/cWVhWBMbXb4#1@f8b25f9a978c8f3f": {
         "verdict": "keep",
-        "reason": "Directly demonstrates vehicle-type-specific mileage rates applied automatically.",
-        "at": "2026-10-19T01:08:40.010Z"
+        "reason": "Shows separate rates per vehicle type, applied automatically when the type is selected.",
+        "at": "2026-10-23T01:09:41.693Z"
       },
       "video/cWVhWBMbXb4#2@f8b25f9a978c8f3f": {
         "verdict": "keep",
-        "reason": "Shows the mileage rate setup table configured by date range and vehicle type.",
-        "at": "2026-10-19T01:08:40.010Z"
+        "reason": "Shows the new mileage rate setup table, keyed by date range and vehicle type.",
+        "at": "2026-10-23T01:09:41.693Z"
       },
       "video/Fz8NLByllRc#2@68365b817d416288": {
         "verdict": "drop",
-        "reason": "Older wave 1 capability that calculates mileage from distance and a single configured rate.",
-        "at": "2026-10-19T01:08:40.010Z"
+        "reason": "Covers the older wave 1 calculation from a single configured rate, not date- or vehicle-based rates.",
+        "at": "2026-10-23T01:09:41.693Z"
       },
       "video/Fz8NLByllRc#4@68365b817d416288": {
         "verdict": "drop",
-        "reason": "Older rate-per-unit and distance-unit configuration, not date ranges or vehicle types.",
-        "at": "2026-10-19T01:08:40.010Z"
+        "reason": "Covers the older setup of one rate per unit plus a distance unit, not date ranges or vehicle types.",
+        "at": "2026-10-23T01:09:41.693Z"
       },
       "video/P1V4jy08YM8#12@7dd50b439dc288fb": {
         "verdict": "drop",
-        "reason": "Older rate-per-unit mileage configuration, too general for this feature.",
-        "at": "2026-10-19T01:08:40.010Z"
+        "reason": "Covers the older rate-per-unit configuration only.",
+        "at": "2026-10-23T01:09:41.693Z"
       },
       "video/tj1vvsmAMVs#0@abe0f75bd308e7b6": {
         "verdict": "keep",
-        "reason": "Announces period-based mileage rates applied automatically based on expense date.",
-        "at": "2026-10-19T01:08:40.010Z"
+        "reason": "Announces period-based mileage rates that are applied automatically by expense date.",
+        "at": "2026-10-23T01:09:41.693Z"
       }
     },
     "573255": {
       "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-consumption-billing.md@4c5ec370e3e7a642": {
         "verdict": "drop",
-        "reason": "Covers consumption billing, not AI policy validation for approvals.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Covers billing for agents in general, not AI policy validation of approvals.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-approve-reports.md@43106f854db392e2": {
         "verdict": "keep",
-        "reason": "Describes approvers handling AI policy flags as advisory notices during review.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Describes approvers handling policy flags as advisory notices during review, which is the approver guidance this feature adds.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-overview.md@b48bb29cd244b8c1": {
         "verdict": "drop",
-        "reason": "General Expense Agent overview mentioning compliance checks without describing this feature.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "General overview of Expense Agent that only names compliance checks and approvals.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-policy-compliance.md@bd11d51815b556c3": {
         "verdict": "keep",
-        "reason": "Documents AI evaluation of natural-language policies that flags potential policy issues.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Explains AI evaluation of natural-language policies that flags potential policy issues.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-approve-reports.md@16d633d61a0413a1": {
         "verdict": "drop",
-        "reason": "Covers deterministic rule violations and VAT review, not AI natural-language policy guidance.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Covers rule violation detection and VAT review, not AI evaluation of natural-language policies.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-setup.md@e895847514061e02": {
         "verdict": "keep",
-        "reason": "Setup documentation includes the AI policy evaluation setting for approvals.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Setup page that includes the AI policy evaluation setting for this feature.",
+        "at": "2026-10-23T01:10:04.332Z"
+      },
+      "video/4TE8uwIi91k#6@ecf25bca64f64cda": {
+        "verdict": "keep",
+        "reason": "Shows approvers checking compliance issues and overriding policy flags before approving.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/ARKckFygbWQ#6@d447601d098b639d": {
         "verdict": "drop",
-        "reason": "Generic compliance check based on rules and settings, not specifically AI natural-language policy validation.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Wave 1 compliance check based on configured rules and settings, not natural-language policy evaluation.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/cVfZoDwKYpI#45@40954147bb2a273b": {
         "verdict": "drop",
-        "reason": "Describes hard numeric rules, the opposite of the natural-language policies this feature adds.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Describes hard numeric rules, which this feature goes beyond.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/cVfZoDwKYpI#46@40954147bb2a273b": {
         "verdict": "keep",
-        "reason": "Explains natural-language policies such as business class and hotel eligibility, which are central to this feature.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Shows natural-language policies such as when business class can be booked and hotel eligibility.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/cVfZoDwKYpI#9@40954147bb2a273b": {
         "verdict": "drop",
-        "reason": "Generic policy and rules engine mention, too broad to tell.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Too general a description of the policy and rules engine to tie to this feature.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/egE6UdOfar0#7@cf8ecc0d257ed94f": {
         "verdict": "keep",
-        "reason": "Announces a policy-based approval mechanism for complex conditions like business class and hotel ratings.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Announces the policy-based approval mechanism for complex conditions such as business class travel and hotel ratings.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/M0IzeLSn7qU#0@53122e7aa25b4586": {
         "verdict": "keep",
-        "reason": "Shows AI-driven approval policies flagging expenses for approvers without blocking approval.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Shows AI-driven approval policies that flag expenses for approvers without blocking approval.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/M0IzeLSn7qU#2@53122e7aa25b4586": {
         "verdict": "drop",
-        "reason": "Employee pre-submission check is a different behavior from post-submission approver guidance.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Employee check before submission is a different capability from validation after submission.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/o94V_lF8oNM#0@2581f7e2b25e19dc": {
         "verdict": "keep",
-        "reason": "Shows the toggle that enables AI analysis of free-text policies to help approvers.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Shows the toggle that turns on AI evaluation of free-text policies to help approvers.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/o94V_lF8oNM#1@2581f7e2b25e19dc": {
         "verdict": "drop",
-        "reason": "Pre-submission self-check by submitters, not the post-submission approval validation.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Evaluation before submission is a different capability from validation after submission.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/o94V_lF8oNM#2@2581f7e2b25e19dc": {
         "verdict": "keep",
-        "reason": "Shows the flagged-policy status indicator that requires approver attention.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Shows the flagged-policies status that draws the approver's attention to potential violations.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/o94V_lF8oNM#3@2581f7e2b25e19dc": {
         "verdict": "keep",
-        "reason": "Shows free-text policies being analyzed by AI against submitted expenses.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Shows free-text policies by category being evaluated by AI against submitted expenses.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/o94V_lF8oNM#4@2581f7e2b25e19dc": {
         "verdict": "drop",
-        "reason": "Submitter-initiated pre-submission check, a different behavior.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Button the submitter uses before submission, not validation after submission for approvers.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/pjML7lXSsd0#2@cbfd775d581beef3": {
         "verdict": "keep",
-        "reason": "Describes the agent checking expense reports against human-language policies in the approval workflow.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Describes the approval workflow checking compliance against human-language company policies.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/qZALauRY_So#0@54e3370314a5a696": {
         "verdict": "drop",
-        "reason": "General approval workflow without AI policy validation.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Describes the basic approval workflow and notifications without AI policy validation.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/qZALauRY_So#1@54e3370314a5a696": {
         "verdict": "drop",
-        "reason": "AI suggestions given before submission, not post-submission approver guidance.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Wave 1 AI suggestions given before submission, not policy validation after submission for approvers.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/qZALauRY_So#4@54e3370314a5a696": {
         "verdict": "drop",
-        "reason": "Approval notifications only, not AI policy validation.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Covers approval notifications only.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/qZALauRY_So#5@54e3370314a5a696": {
         "verdict": "drop",
-        "reason": "Reject and send-back flow only, not AI policy validation.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Covers rejecting or sending back reports only.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/qZALauRY_So#6@54e3370314a5a696": {
         "verdict": "drop",
-        "reason": "Approval registration and posting only, not AI policy validation.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Covers registering the approval and posting only.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/rSGCNMIBcpc#10@acd7266c1a97c588": {
-        "verdict": "keep",
-        "reason": "Previews the future capability to enforce company policies on expense reports.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "verdict": "drop",
+        "reason": "Too vague a mention of future policy enforcement to tie to this feature.",
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/tj1vvsmAMVs#5@abe0f75bd308e7b6": {
         "verdict": "keep",
         "reason": "Shows AI checking expenses against human-readable travel policies.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "at": "2026-10-23T01:10:04.332Z"
       },
       "video/tj1vvsmAMVs#6@abe0f75bd308e7b6": {
         "verdict": "keep",
-        "reason": "Shows non-compliant expenses being flagged to help approvers decide without hard blocking.",
-        "at": "2026-10-07T23:40:48.140Z"
+        "reason": "Shows flags for non-compliant expenses that help approvers decide without hard blocking.",
+        "at": "2026-10-23T01:10:04.332Z"
       }
     },
     "573259": {
@@ -1019,283 +1024,283 @@
     "573312": {
       "docs/learn-devitpro/dev-itpro/administration/scheduled-performance-profiler-overview.md@db4630f76e2a6891": {
         "verdict": "drop",
-        "reason": "Performance profiler page only mentions MCP integration in general.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Profiler page only mentions MCP server integration in general, not data query tools.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-server-trace.md@db7c98ddb611482d": {
         "verdict": "drop",
-        "reason": "Telemetry for MCP tool calls, not custom data queries.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Telemetry for MCP tool calls in general, not the data query capability.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/configure-mcp-server.md@cc63727d859c177e": {
         "verdict": "keep",
-        "reason": "Configuration page lists Data Query Tools as part of the MCP server features.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Configuration page documents Data Query Tools of the MCP server.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/mcp-overview.md@6ad7e44dc99c3d81": {
         "verdict": "keep",
-        "reason": "Overview lists Data Query Tools and querying data through the MCP server.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Overview page lists Data Query Tools and querying data through the MCP server.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md@26880425a8a6a893": {
         "verdict": "drop",
-        "reason": "AL development MCP server, a different product.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "AL MCP Server for development tools is a different product.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/0WAOtNaKjws#5@67b5dc3e3d4caebe": {
         "verdict": "drop",
         "reason": "MCP resources support is a different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/0WAOtNaKjws#6@67b5dc3e3d4caebe": {
         "verdict": "drop",
-        "reason": "Embedded resources for large data is a different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Embedded resources for large data sets is a different capability.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
-      "video/4HE3BBCcV84#0@0379d615b88b4044": {
+      "video/4HE3BBCcV84#0@3b42ae789814dfca": {
         "verdict": "drop",
-        "reason": "Exposes existing API queries, not custom queries without APIs.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "API query objects exposed in MCP is an earlier, API-based capability, not custom queries without APIs.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
-      "video/4HE3BBCcV84#2@0379d615b88b4044": {
+      "video/4HE3BBCcV84#2@3b42ae789814dfca": {
         "verdict": "drop",
-        "reason": "Configuring API query objects is an older, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Selecting API query objects in configuration is a different, API-based capability.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/AMVAiPTfSrU#1@fdf56a54062de31b": {
         "verdict": "drop",
-        "reason": "General MCP server mention.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "General MCP server mention only.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/B9VbZzC2p7E#0@1c7864b7a7ca9eb1": {
         "verdict": "drop",
-        "reason": "SQL generation in a spreadsheet app, not MCP data query tools.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Third-party spreadsheet agent generating SQL, not MCP data query tools.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/B9VbZzC2p7E#1@1c7864b7a7ca9eb1": {
         "verdict": "drop",
-        "reason": "Spreadsheet app agent, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Third-party spreadsheet app, not the MCP feature.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/C5cmG3sNjUg#0@61c5c136953fe58c": {
         "verdict": "drop",
-        "reason": "General MCP server API exposure.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Describes API exposure in general, not custom data queries.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/C5cmG3sNjUg#3@61c5c136953fe58c": {
         "verdict": "drop",
-        "reason": "Dynamic tool search is a different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Dynamic tool search for API pages is a different capability.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/EpDIrJE0HzA#1@56eadacabad2d7dd": {
         "verdict": "drop",
-        "reason": "General MCP introduction.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "General MCP server introduction.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/EpDIrJE0HzA#2@56eadacabad2d7dd": {
         "verdict": "drop",
-        "reason": "MCP configurations page, not data query tools.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "MCP configurations page in general, not data queries.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/GeT5E_f9A9Q#0@3b7c0adab89fa533": {
         "verdict": "drop",
-        "reason": "MCP configurations, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Configurations for API pages, not data query tools.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/GeT5E_f9A9Q#1@3b7c0adab89fa533": {
         "verdict": "drop",
-        "reason": "Dynamic tool mode, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Dynamic tool mode is a different capability.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/GeT5E_f9A9Q#2@3b7c0adab89fa533": {
         "verdict": "drop",
-        "reason": "Discover additional API pages, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Discovering additional API pages is a different capability.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/GeT5E_f9A9Q#3@3b7c0adab89fa533": {
         "verdict": "drop",
-        "reason": "Bound actions, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Bound actions are a different capability.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/GeT5E_f9A9Q#4@3b7c0adab89fa533": {
         "verdict": "drop",
-        "reason": "Read-only default, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Read-only default is a general configuration behavior.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/GeT5E_f9A9Q#5@3b7c0adab89fa533": {
         "verdict": "drop",
-        "reason": "Authentication model, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Authentication model is general.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/iViHfCgL2L8#0@cb3091d83a2a7160": {
         "verdict": "drop",
         "reason": "General MCP server introduction.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/LerAo-GGl8U#0@3cc73e55743376c5": {
         "verdict": "drop",
-        "reason": "Admin MCP server, different product.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Admin MCP server is a different product.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/LerAo-GGl8U#1@3cc73e55743376c5": {
         "verdict": "drop",
-        "reason": "MCP fundamentals, too general.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "General MCP fundamentals.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/LerAo-GGl8U#4@3cc73e55743376c5": {
         "verdict": "drop",
-        "reason": "Admin MCP setup, different product.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Admin MCP server setup, not data queries.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/LerAo-GGl8U#8@3cc73e55743376c5": {
         "verdict": "drop",
         "reason": "Admin MCP tool invocation, different product.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/LerAo-GGl8U#9@3cc73e55743376c5": {
         "verdict": "drop",
-        "reason": "Admin MCP connection, different product.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Admin MCP server connection, different product.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/mBU2Iu0urw8#18@bcc370cd29e8b52b": {
         "verdict": "drop",
-        "reason": "AL MCP server, different product.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "AL MCP server for development, different product.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/mBU2Iu0urw8#34@bcc370cd29e8b52b": {
         "verdict": "drop",
         "reason": "AL development MCP tools, different product.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/mBU2Iu0urw8#8@bcc370cd29e8b52b": {
         "verdict": "drop",
         "reason": "AL development MCP servers, different product.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/NE7NIjpkX3c#12@07dbc076d6b83beb": {
         "verdict": "drop",
         "reason": "Copilot extension tools in AL, not MCP data queries.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/NE7NIjpkX3c#13@07dbc076d6b83beb": {
         "verdict": "drop",
         "reason": "Function calling in AI toolkit, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/nPF84Ufkn4k#20@3d3617bb3a860456": {
         "verdict": "drop",
-        "reason": "MCP tools for agent runtime, too general.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "General MCP tools for agents, not data queries.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/q3xnjJD32kk#0@1c105f82f2b2e77f": {
         "verdict": "keep",
-        "reason": "Find tables tool is part of the new data query tool set.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Find tables tool is one of the new data query MCP tools.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/q3xnjJD32kk#1@1c105f82f2b2e77f": {
         "verdict": "keep",
-        "reason": "Table relations tool supports writing join queries in the data query feature.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Table relations tool supports defining join queries in the new feature.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/q3xnjJD32kk#2@1c105f82f2b2e77f": {
         "verdict": "keep",
-        "reason": "Table schema tool is part of the data query tool set.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Table schema tool is part of the new data query tool set.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/q3xnjJD32kk#3@1c105f82f2b2e77f": {
         "verdict": "keep",
-        "reason": "Data query tool lets agents write and execute AL queries.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Data query tool lets agents write and run queries, the core of the feature.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/q3xnjJD32kk#4@1c105f82f2b2e77f": {
         "verdict": "keep",
-        "reason": "Describes running queries through MCP tools without APIs.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Describes running queries through MCP tools without APIs, matching the feature.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/qs1cg-GoDeQ#0@a3902918f9454621": {
         "verdict": "keep",
-        "reason": "Find tables tool, part of the data tool feature set.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Find tables tool is part of the data tool feature set for MCP server.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/qs1cg-GoDeQ#1@a3902918f9454621": {
         "verdict": "keep",
-        "reason": "Table relations tool for building queries.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Table relations tool is part of the data query tool set.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/qs1cg-GoDeQ#2@a3902918f9454621": {
         "verdict": "keep",
-        "reason": "Table schema tool for understanding table structure when querying.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Table schema tool is part of the data query tool set.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/qs1cg-GoDeQ#3@a3902918f9454621": {
         "verdict": "keep",
-        "reason": "Data query tool runs AL queries without APIs.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Data query tool runs AL queries without APIs, the core of the feature.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/rm-FstU_I80#0@3006156ceea2c1cf": {
         "verdict": "drop",
         "reason": "General MCP server description.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/rm-FstU_I80#14@3006156ceea2c1cf": {
         "verdict": "drop",
-        "reason": "Search/describe/invoke dynamic tools, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Search/describe/invoke dynamic tools are a different capability.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/rm-FstU_I80#22@3006156ceea2c1cf": {
         "verdict": "drop",
-        "reason": "Exposing existing queries through configuration, not custom data query tools.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Exposing query objects through configuration is the API query capability, not custom data queries.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/rm-FstU_I80#6@3006156ceea2c1cf": {
         "verdict": "drop",
         "reason": "General MCP server description.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/rm-FstU_I80#9@3006156ceea2c1cf": {
         "verdict": "drop",
-        "reason": "Dynamic tool configuration, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Dynamic tool configuration is a different capability.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/U1dAdtUjidc#0@c4cb2f6c55e58ca1": {
         "verdict": "drop",
-        "reason": "Admin Center MCP server, different product.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Admin Center MCP server is a different product.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/U1dAdtUjidc#1@c4cb2f6c55e58ca1": {
         "verdict": "drop",
-        "reason": "Admin environment management, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Admin environment management, different product.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/U1dAdtUjidc#2@c4cb2f6c55e58ca1": {
         "verdict": "drop",
-        "reason": "Admin failed update analysis, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Admin failed update analysis, different product.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/U1dAdtUjidc#3@c4cb2f6c55e58ca1": {
         "verdict": "drop",
-        "reason": "Admin extension management, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Admin extension management, different product.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/U1dAdtUjidc#4@c4cb2f6c55e58ca1": {
         "verdict": "drop",
-        "reason": "Admin environment copy, different capability.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Admin environment copy, different product.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/UIL8ej7mSKQ#6@8e1e775d4fe8dd45": {
         "verdict": "drop",
-        "reason": "General MCP server announcement.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "General MCP server announcement from 2025 wave 2.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/x0XF0lBvgEE#2@8fb48cfb42691e7e": {
         "verdict": "keep",
-        "reason": "Announces the Run Data Queries with MCP Server feature by name.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Explicitly announces the Run Data Queries with MCP Server feature.",
+        "at": "2026-10-23T01:09:51.036Z"
       },
       "video/zei-IszvYNU#0@124c9200aa0e6061": {
         "verdict": "drop",
-        "reason": "Published APIs in MCP, not custom data queries.",
-        "at": "2026-10-22T01:09:20.604Z"
+        "reason": "Availability of published APIs is a different capability.",
+        "at": "2026-10-23T01:09:51.036Z"
       }
     },
     "573313": {
@@ -1560,68 +1565,68 @@
     "573320": {
       "docs/learn-smb-docs/business-central/ui-set-report-layout.md@8e38fd18092e9b50": {
         "verdict": "drop",
-        "reason": "General Learn page on layout selection with no mention of layout status or lifecycle control.",
-        "at": "2026-10-21T00:46:28.060Z"
+        "reason": "This is a general page on choosing layouts and says nothing about setting layout status or lifecycle.",
+        "at": "2026-10-23T01:09:38.810Z"
       },
-      "video/-vdhfNMNZQk#9@361e96bce5ccfd4e": {
+      "video/-vdhfNMNZQk#9@427bb8def36971bc": {
         "verdict": "keep",
-        "reason": "Shows setting status on layouts, including Microsoft-shipped ones, to hide them from users.",
-        "at": "2026-10-21T00:46:28.060Z"
+        "reason": "It shows layout status being set to hide layouts from users, Microsoft-shipped layouts included.",
+        "at": "2026-10-23T01:09:38.810Z"
       },
       "video/2N2NhNH7dsk#0@8571c2b3b9312117": {
         "verdict": "keep",
-        "reason": "Describes extending layout status to app-supplied and Microsoft-shipped layouts, which is exactly this feature.",
-        "at": "2026-10-21T00:46:28.060Z"
+        "reason": "It says status control now extends from user-defined layouts to app-supplied and Microsoft-shipped layouts, which is exactly this feature.",
+        "at": "2026-10-23T01:09:38.810Z"
       },
       "video/2N2NhNH7dsk#1@8571c2b3b9312117": {
         "verdict": "keep",
-        "reason": "Explains the lifecycle states and the layout status menu admins use to manage them.",
-        "at": "2026-10-21T00:46:28.060Z"
+        "reason": "It explains the lifecycle states and the layout status menu admins use to manage them.",
+        "at": "2026-10-23T01:09:38.810Z"
       },
       "video/2N2NhNH7dsk#2@8571c2b3b9312117": {
         "verdict": "keep",
-        "reason": "Explains how status controls which layouts users see on the request page, which is the feature's goal.",
-        "at": "2026-10-21T00:46:28.060Z"
+        "reason": "It shows the feature's visibility behavior: users see only approved layouts on the request page.",
+        "at": "2026-10-23T01:09:38.810Z"
       },
-      "video/2u5_F9Ztt7U#7@5f9d4c8c9a280fdc": {
+      "video/2u5_F9Ztt7U#7@c9efdae3c95a6468": {
         "verdict": "keep",
-        "reason": "Announces lifecycle control through status stages for any layout in the system.",
-        "at": "2026-10-21T00:46:28.060Z"
+        "reason": "It describes lifecycle control of any layout in the system through status stages.",
+        "at": "2026-10-23T01:09:38.810Z"
       },
       "video/G0avZpiDFtI#15@b32f59b2b9846b23": {
         "verdict": "drop",
-        "reason": "Covers new properties on the Report Layouts page, not layout status or lifecycle.",
-        "at": "2026-10-21T00:46:28.060Z"
+        "reason": "It covers other Report Layouts page properties, not layout status.",
+        "at": "2026-10-23T01:09:38.810Z"
       },
       "video/mS6NDhj20yI#4@edd68f0b11c4fbe8": {
         "verdict": "drop",
-        "reason": "Covers status only for user-defined layouts, the older capability this feature extends.",
-        "at": "2026-10-21T00:46:28.060Z"
+        "reason": "It covers the earlier capability for user-defined layouts only, not all layout types.",
+        "at": "2026-10-23T01:09:38.810Z"
       },
       "video/uxQRfChp96c#2@b0b04b276e2b0f13": {
         "verdict": "drop",
-        "reason": "Covers status for financial report definitions, not report layouts.",
-        "at": "2026-10-21T00:46:28.060Z"
+        "reason": "It is about status for financial report definitions, not report layouts.",
+        "at": "2026-10-23T01:09:38.810Z"
       },
       "video/VoiUhPb6HQ0#6@ca9cc9587a2b533e": {
         "verdict": "drop",
-        "reason": "About changing default layouts in a version upgrade, not status control.",
-        "at": "2026-10-21T00:46:28.060Z"
+        "reason": "It is about changing the default layout from RDLC to Excel, not status control.",
+        "at": "2026-10-23T01:09:38.810Z"
       },
       "video/W003w36Isto#1@7b857b1f6ab01bd6": {
         "verdict": "drop",
-        "reason": "About marking layouts obsolete in AL code, a different developer capability.",
-        "at": "2026-10-21T00:46:28.060Z"
+        "reason": "Marking layouts obsolete in AL is a different, developer-side capability.",
+        "at": "2026-10-23T01:09:38.810Z"
       },
       "video/W003w36Isto#2@7b857b1f6ab01bd6": {
         "verdict": "drop",
-        "reason": "About an Excel layout property, unrelated to layout status.",
-        "at": "2026-10-21T00:46:28.060Z"
+        "reason": "It is about Excel layout properties, which is unrelated to lifecycle status.",
+        "at": "2026-10-23T01:09:38.810Z"
       },
       "video/W003w36Isto#4@7b857b1f6ab01bd6": {
         "verdict": "drop",
-        "reason": "About a layout info action for troubleshooting, not lifecycle status.",
-        "at": "2026-10-21T00:46:28.060Z"
+        "reason": "It describes an action that shows layout info for troubleshooting, not status control.",
+        "at": "2026-10-23T01:09:38.810Z"
       }
     },
     "573321": {
@@ -2795,247 +2800,202 @@
       }
     },
     "573342": {
-      "video/3tmaVpPTQLw#10@50342de72600d0e4": {
+      "video/3tmaVpPTQLw#10@d022995f6fc78491": {
         "verdict": "drop",
         "reason": "Default contact permissions are not part of this feature.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "at": "2026-10-23T01:09:55.503Z"
       },
-      "video/3tmaVpPTQLw#11@50342de72600d0e4": {
+      "video/3tmaVpPTQLw#11@d022995f6fc78491": {
         "verdict": "keep",
-        "reason": "Shows the automatic catalog creation setting, now captioned Auto Create B2B Catalog.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Shows the automatic catalog creation setting, which this feature renames to Auto Create B2B Catalog.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
-      "video/3tmaVpPTQLw#12@50342de72600d0e4": {
+      "video/3tmaVpPTQLw#12@d022995f6fc78491": {
+        "verdict": "keep",
+        "reason": "Shows B2B company catalogs assigned to companies, which relates to the direct company catalogs in this feature.",
+        "at": "2026-10-23T01:09:55.503Z"
+      },
+      "video/3tmaVpPTQLw#15@d022995f6fc78491": {
+        "verdict": "keep",
+        "reason": "Demonstrates the Get Catalogs action, whose tooltip this feature updates.",
+        "at": "2026-10-23T01:09:55.503Z"
+      },
+      "video/3tmaVpPTQLw#16@d022995f6fc78491": {
+        "verdict": "keep",
+        "reason": "Demonstrates catalog price sync, the behavior this feature protects against conflicts.",
+        "at": "2026-10-23T01:09:55.503Z"
+      },
+      "video/3tmaVpPTQLw#7@d022995f6fc78491": {
         "verdict": "drop",
-        "reason": "General catalog management overview without the feature's specific behaviors.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Too general; it is only an overview of the B2B integration.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
-      "video/3tmaVpPTQLw#14@50342de72600d0e4": {
-        "verdict": "keep",
-        "reason": "Shows company-specific (direct company) catalogs with per-company pricing.",
-        "at": "2026-10-18T00:53:22.873Z"
-      },
-      "video/3tmaVpPTQLw#15@50342de72600d0e4": {
-        "verdict": "keep",
-        "reason": "Shows the Get Catalogs action that retrieves catalogs for synchronized companies.",
-        "at": "2026-10-18T00:53:22.873Z"
-      },
-      "video/3tmaVpPTQLw#16@50342de72600d0e4": {
-        "verdict": "keep",
-        "reason": "Shows catalog price synchronization, which is part of the feature.",
-        "at": "2026-10-18T00:53:22.873Z"
-      },
-      "video/3tmaVpPTQLw#18@50342de72600d0e4": {
-        "verdict": "keep",
-        "reason": "Shows B2B orders being assigned to the company entity, which is part of B2B order processing.",
-        "at": "2026-10-18T00:53:22.873Z"
-      },
-      "video/3tmaVpPTQLw#7@50342de72600d0e4": {
+      "video/3tmaVpPTQLw#9@d022995f6fc78491": {
         "verdict": "drop",
-        "reason": "Too general an overview of the B2B integration.",
-        "at": "2026-10-18T00:53:22.873Z"
-      },
-      "video/3tmaVpPTQLw#9@50342de72600d0e4": {
-        "verdict": "drop",
-        "reason": "Company export settings such as contact permissions are not described in the feature.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Covers company export settings such as contact permissions, not the capabilities this feature describes.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/AR2FiD64wbw#2@c14aae1bde6eeefb": {
         "verdict": "keep",
-        "reason": "Shows company catalog price synchronization.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Demonstrates company catalog price sync, which is part of this feature.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/BwBR8JwwQa4#4@061b5fafe60d172b": {
         "verdict": "keep",
-        "reason": "Shows catalog pricing configuration with a customer number for price calculation.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Shows automatic catalog creation with company pricing, which ties to the Auto Create B2B Catalog setting and catalog pricing.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/BwBR8JwwQa4#5@061b5fafe60d172b": {
         "verdict": "keep",
-        "reason": "Shows the tax ID mapping to registration number or VAT registration number.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Shows the tax ID mapping field that maps to Registration No. or VAT Registration No.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/gy_6QnFpiEw#0@07290ff94e639be5": {
         "verdict": "keep",
-        "reason": "Shows importing and linking market catalogs.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Demonstrates importing and linking market catalogs.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/gy_6QnFpiEw#1@07290ff94e639be5": {
         "verdict": "keep",
-        "reason": "Shows price synchronization for market catalogs.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Demonstrates market catalog price sync.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/gy_6QnFpiEw#2@07290ff94e639be5": {
         "verdict": "drop",
-        "reason": "Multi-currency support per market is a different capability.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Multi-currency market support is not described in this feature.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/gy_6QnFpiEw#3@07290ff94e639be5": {
         "verdict": "drop",
-        "reason": "Point-of-sale market definition is unrelated to this feature.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Point of sale market definition is a different capability.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/gy_6QnFpiEw#4@07290ff94e639be5": {
         "verdict": "keep",
-        "reason": "Shows B2B markets with company locations linked to catalogs.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Shows defining B2B markets with company locations so catalogs can be assigned to them.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/gy_6QnFpiEw#5@07290ff94e639be5": {
         "verdict": "keep",
-        "reason": "Shows the rename to B2B Catalogs, matching the clearer terminology.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Shows the page renamed to B2B Catalogs, matching this feature's terminology change.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/h5PQI4I4b7c#0@f91bd87b6f384c68": {
         "verdict": "drop",
         "reason": "Metafields are a different capability.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/h5PQI4I4b7c#1@f91bd87b6f384c68": {
         "verdict": "drop",
         "reason": "Metafield extensibility is a different capability.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/h5PQI4I4b7c#2@f91bd87b6f384c68": {
         "verdict": "drop",
-        "reason": "Metafield definitions on the company card are a different capability.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Metafield definitions are a different capability.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/NMO822Jf_4E#3@b3bde7f755db0b20": {
-        "verdict": "drop",
-        "reason": "A recap of earlier market price sync, not specific to B2B.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "verdict": "keep",
+        "reason": "Describes price sync for catalogs linked to markets.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/p-pwG6f5srY#3@b5af1cbd595abcd6": {
         "verdict": "keep",
-        "reason": "Shows linking customers to B2B catalogs for pricing configuration.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Shows linking customers to B2B catalogs for company-specific pricing, as with direct company catalogs.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/VjYMhjjc3uw#0@f13321b57a5c24c8": {
         "verdict": "keep",
-        "reason": "Shows importing B2B companies and their company locations.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Demonstrates importing B2B companies and their locations.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/VjYMhjjc3uw#1@f13321b57a5c24c8": {
-        "verdict": "keep",
-        "reason": "Shows orders from company locations being assigned to the right customers.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "verdict": "drop",
+        "reason": "Describes general order import; customer assignment by location is covered more specifically in l27.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/VjYMhjjc3uw#2@f13321b57a5c24c8": {
         "verdict": "keep",
-        "reason": "Shows the Shopify Companies list used for company synchronization.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Shows the Shopify Companies list, which this feature makes reachable from navigation.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/VjYMhjjc3uw#3@f13321b57a5c24c8": {
         "verdict": "keep",
-        "reason": "Shows company locations with customer mapping fields.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Shows the company locations list with customer mapping fields.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/VjYMhjjc3uw#4@f13321b57a5c24c8": {
         "verdict": "keep",
-        "reason": "Shows mapping company locations to customers in Business Central.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Demonstrates mapping company locations to sell-to and bill-to customers.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/VjYMhjjc3uw#5@f13321b57a5c24c8": {
         "verdict": "keep",
-        "reason": "Shows B2B orders resolving sell-to and bill-to customers from location mappings.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "reason": "Demonstrates B2B orders resolving customers from the company location.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/VjYMhjjc3uw#6@f13321b57a5c24c8": {
-        "verdict": "drop",
-        "reason": "Pushing Business Central customers to Shopify as companies is not described in the feature.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "verdict": "keep",
+        "reason": "Demonstrates exporting customers as companies with tax data, which is part of company sync.",
+        "at": "2026-10-23T01:09:55.503Z"
       },
       "video/VjYMhjjc3uw#7@f13321b57a5c24c8": {
-        "verdict": "drop",
-        "reason": "Per-location catalog creation during company export is not described in the feature.",
-        "at": "2026-10-18T00:53:22.873Z"
+        "verdict": "keep",
+        "reason": "Shows automatic B2B catalog creation for company locations.",
+        "at": "2026-10-23T01:09:55.503Z"
       }
     },
     "573343": {
       "docs/learn-smb-docs/business-central/shopify/synchronize-orders.md@6c63f51fe87f92a1": {
         "verdict": "drop",
-        "reason": "This is a general Learn overview of order sync and returns/refunds; nothing in it describes exchange items or moving negative lines.",
-        "at": "2026-10-18T00:53:01.022Z"
+        "reason": "This is a general Learn page on order sync that only mentions returns and refunds, not the exchange handling or Move Negative Lines.",
+        "at": "2026-10-23T01:09:36.686Z"
       },
-      "video/3tmaVpPTQLw#19@50342de72600d0e4": {
+      "video/3tmaVpPTQLw#19@d022995f6fc78491": {
         "verdict": "drop",
-        "reason": "The Cancel Order action is a different, older capability.",
-        "at": "2026-10-18T00:53:01.022Z"
+        "reason": "Cancelling orders is a different capability.",
+        "at": "2026-10-23T01:09:36.686Z"
       },
-      "video/3tmaVpPTQLw#20@50342de72600d0e4": {
+      "video/3tmaVpPTQLw#21@d022995f6fc78491": {
         "verdict": "drop",
-        "reason": "Syncing order status back to Shopify is unrelated to processing exchanges.",
-        "at": "2026-10-18T00:53:01.022Z"
+        "reason": "This is the older 2024 order-editing-with-refunds capability, not exchange item import or Move Negative Lines.",
+        "at": "2026-10-23T01:09:36.686Z"
       },
-      "video/3tmaVpPTQLw#21@50342de72600d0e4": {
+      "video/3tmaVpPTQLw#22@d022995f6fc78491": {
         "verdict": "drop",
-        "reason": "Order editing with refunds is the 2024 wave 1 capability, not the new exchange handling on credit memos or return orders.",
-        "at": "2026-10-18T00:53:01.022Z"
+        "reason": "It covers the older 2024 rule that only refunds with actual amounts create credit memos, not exchange processing.",
+        "at": "2026-10-23T01:09:36.686Z"
       },
-      "video/3tmaVpPTQLw#22@50342de72600d0e4": {
+      "video/3tmaVpPTQLw#26@d022995f6fc78491": {
         "verdict": "drop",
-        "reason": "Skipping zero-value refunds is an older credit memo behavior, not exchange processing.",
-        "at": "2026-10-18T00:53:01.022Z"
+        "reason": "It shows the older 2024 automatic credit memo creation for order edits, not the exchange or line-splitting behavior.",
+        "at": "2026-10-23T01:09:36.686Z"
       },
-      "video/3tmaVpPTQLw#23@50342de72600d0e4": {
+      "video/5OZ0g5IgC8Q#7@51cbd42bc99b8a7a": {
         "verdict": "drop",
-        "reason": "Detecting edits to orders that are already processed is an older 2024 capability.",
-        "at": "2026-10-18T00:53:01.022Z"
-      },
-      "video/3tmaVpPTQLw#24@50342de72600d0e4": {
-        "verdict": "drop",
-        "reason": "The Synchronize Order from Shopify action is an older capability, not exchange processing.",
-        "at": "2026-10-18T00:53:01.022Z"
-      },
-      "video/3tmaVpPTQLw#25@50342de72600d0e4": {
-        "verdict": "drop",
-        "reason": "Unlinking processed documents is a different, older action.",
-        "at": "2026-10-18T00:53:01.022Z"
-      },
-      "video/3tmaVpPTQLw#26@50342de72600d0e4": {
-        "verdict": "drop",
-        "reason": "Automatically creating credit memos for edit refunds is a 2024 capability and does not cover exchange items or Move Negative Lines.",
-        "at": "2026-10-18T00:53:01.022Z"
-      },
-      "video/3tmaVpPTQLw#27@50342de72600d0e4": {
-        "verdict": "drop",
-        "reason": "Handling edits and refunds on paid orders comes from the older 2024 release, not exchange line handling.",
-        "at": "2026-10-18T00:53:01.022Z"
-      },
-      "video/3tmaVpPTQLw#28@50342de72600d0e4": {
-        "verdict": "drop",
-        "reason": "Edit support for unpaid orders is unrelated to exchanges and refunds.",
-        "at": "2026-10-18T00:53:01.022Z"
-      },
-      "video/3tmaVpPTQLw#29@50342de72600d0e4": {
-        "verdict": "drop",
-        "reason": "Warnings about conflicting documents are an older 2024 capability.",
-        "at": "2026-10-18T00:53:01.022Z"
-      },
-      "video/5OZ0g5IgC8Q#7@934865212746c298": {
-        "verdict": "drop",
-        "reason": "This covers using tax matching on refund documents, not exchange processing.",
-        "at": "2026-10-18T00:53:01.022Z"
+        "reason": "It covers tax configuration on refund documents, which is a different capability.",
+        "at": "2026-10-23T01:09:36.686Z"
       },
       "video/NMO822Jf_4E#0@b3bde7f755db0b20": {
         "verdict": "drop",
-        "reason": "Presentment currency handling is a different feature.",
-        "at": "2026-10-18T00:53:01.022Z"
+        "reason": "Presentment currency handling is a different capability.",
+        "at": "2026-10-23T01:09:36.686Z"
       },
       "video/NMO822Jf_4E#1@b3bde7f755db0b20": {
         "verdict": "drop",
-        "reason": "The currency handling field is a different feature.",
-        "at": "2026-10-18T00:53:01.022Z"
+        "reason": "The currency handling field is a different capability.",
+        "at": "2026-10-23T01:09:36.686Z"
       },
       "video/NMO822Jf_4E#2@b3bde7f755db0b20": {
         "verdict": "drop",
-        "reason": "The processed currency field is a different feature.",
-        "at": "2026-10-18T00:53:01.022Z"
+        "reason": "The processed currency field is a different capability.",
+        "at": "2026-10-23T01:09:36.686Z"
       },
       "video/p-pwG6f5srY#7@b5af1cbd595abcd6": {
         "verdict": "drop",
-        "reason": "The return location priority setting is an older, different refund setting.",
-        "at": "2026-10-18T00:53:01.022Z"
+        "reason": "The return location priority setting is a different, older capability.",
+        "at": "2026-10-23T01:09:36.686Z"
       }
     },
     "573345": {
@@ -3895,223 +3855,223 @@
     "573362": {
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-models.md@39c8aa5ec60a9d1c": {
         "verdict": "drop",
-        "reason": "Covers AI model selection for agents, not the Copilot chat experience.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers AI model selection for agents, not the new Copilot chat experience.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "docs/learn-smb-docs/business-central/chat-with-copilot-faq.md@ea53010d5132c202": {
         "verdict": "keep",
-        "reason": "FAQ for the new Copilot experience that replaces Chat with Copilot in version 29.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "FAQ for the new Microsoft Copilot experience that replaces Chat with Copilot in version 29.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "docs/learn-smb-docs/business-central/chat-with-copilot.md@326bf5cab418d50d": {
         "verdict": "keep",
-        "reason": "Documents using the new Microsoft Copilot in Business Central from version 29.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Documents using the new Microsoft Copilot in Business Central, available from version 29.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "docs/learn-smb-docs/business-central/copilot-overview.md@fedfbbaaf6c0d675": {
         "verdict": "drop",
-        "reason": "General Copilot FAQ for version 26.3 covering the older Chat with Copilot.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "General Copilot FAQ for version 26.3 that refers to the older Chat with Copilot.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "docs/learn-smb-docs/business-central/microsoft-copilot-in-business-central-application-card.md@f8b20ca5607e0715": {
         "verdict": "keep",
-        "reason": "Application card describing Microsoft Copilot's capabilities in Business Central.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Application card describing Microsoft Copilot in Business Central, including how it combines with Microsoft Copilot capabilities.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "docs/learn-smb-docs/business-central/work-with-business-central-data-in-copilot.md@96b59c1e7cdf4a0f": {
         "verdict": "keep",
-        "reason": "Explains how the new Microsoft Copilot works with Business Central data.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Explains how Business Central data works in the new Microsoft Copilot experience.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
-      "video/06vgkq2EXmA#0@a07d478ca5f2f046": {
+      "video/06vgkq2EXmA#0@228b032c310e8ced": {
         "verdict": "drop",
         "reason": "Describes how the older Copilot Chat was built, not the new Microsoft Copilot experience.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "at": "2026-10-23T01:09:45.977Z"
       },
-      "video/2uXVammbab0#0@cdca656f4aa74e60": {
+      "video/2uXVammbab0#0@a8aa209cf166df1c": {
         "verdict": "drop",
         "reason": "Covers the older Chat with Copilot from 2025 release wave 1.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/fgWFOMPJd6U#0@9956b73e2102e19c": {
         "verdict": "drop",
-        "reason": "Covers Summarize with Copilot, a different feature.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Summarize with Copilot is a different feature.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/fgWFOMPJd6U#1@9956b73e2102e19c": {
         "verdict": "drop",
-        "reason": "Covers how the summarization pipeline works, a different feature.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers how the summarization pipeline works, which is a different feature.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/fgWFOMPJd6U#2@9956b73e2102e19c": {
         "verdict": "drop",
-        "reason": "Covers summarization data sources, a different feature.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers summarization data choices, which is a different feature.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/fgWFOMPJd6U#3@9956b73e2102e19c": {
         "verdict": "drop",
-        "reason": "Covers insight filtering for summarization, a different feature.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers role-based insights for summarization, which is a different feature.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/gvIGhtqADS0#0@38a00743bc2b7962": {
         "verdict": "drop",
-        "reason": "Older conversational chat from 2024 release wave 1.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers the older 2024 conversational chat.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/j5ULVClJaKU#0@d5925b2882c13f74": {
         "verdict": "drop",
-        "reason": "Older Chat with Copilot launched in version 24.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers the older Chat with Copilot launched in version 24.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/j5ULVClJaKU#1@d5925b2882c13f74": {
         "verdict": "drop",
-        "reason": "Record finding in the older Chat with Copilot.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers record finding in the older 2024 chat.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/j5ULVClJaKU#13@d5925b2882c13f74": {
         "verdict": "drop",
-        "reason": "Field help in the older Chat with Copilot.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers field help in the older 2024 chat.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/j5ULVClJaKU#2@d5925b2882c13f74": {
         "verdict": "drop",
-        "reason": "Follow-up questions in the older Chat with Copilot.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers follow-up questions in the older 2024 chat.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/j5ULVClJaKU#3@d5925b2882c13f74": {
         "verdict": "drop",
-        "reason": "Documentation search in the older Chat with Copilot.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers documentation search in the older 2024 chat.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/j5ULVClJaKU#4@d5925b2882c13f74": {
         "verdict": "drop",
-        "reason": "Custom object support in the older Chat with Copilot.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers custom object support in the older 2024 chat.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/j5ULVClJaKU#5@d5925b2882c13f74": {
         "verdict": "drop",
-        "reason": "Teams sharing in the older Chat with Copilot.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers sharing to Teams in the older 2024 chat.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/j5ULVClJaKU#8@d5925b2882c13f74": {
         "verdict": "drop",
-        "reason": "Responsible AI design of the older Chat with Copilot.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers responsible AI in the older 2024 chat.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/j5ULVClJaKU#9@d5925b2882c13f74": {
         "verdict": "drop",
-        "reason": "Permissions in the older Chat with Copilot.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Covers permissions in the older 2024 chat.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/lNASlydCidI#11@2bf1d4e3e7a2f18d": {
         "verdict": "drop",
-        "reason": "Regenerate action for prompt dialogs, not the chat experience.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Regenerate action for prompt dialogs is unrelated.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/lNASlydCidI#2@2bf1d4e3e7a2f18d": {
         "verdict": "drop",
-        "reason": "Prompt dialog page type for developers, a different capability.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Prompt dialog page type is a different capability.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/lNASlydCidI#27@2bf1d4e3e7a2f18d": {
         "verdict": "drop",
-        "reason": "Copilot on by default in 2023, too general and older.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "States that Copilot is on by default in 2023, which is general and older.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/lNASlydCidI#29@2bf1d4e3e7a2f18d": {
         "verdict": "drop",
-        "reason": "AI-generated content disclaimer on prompt dialogs, a different capability.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "AI-generated content disclaimer on prompt dialogs is unrelated.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/lNASlydCidI#5@2bf1d4e3e7a2f18d": {
         "verdict": "drop",
-        "reason": "Progress dialog for prompt dialogs, a different capability.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Progress dialog for generation is unrelated.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/lNASlydCidI#6@2bf1d4e3e7a2f18d": {
         "verdict": "drop",
-        "reason": "Draft project plan feature, a different capability.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Draft project plan is a different feature.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/mhfjycxWTyY#0@da8edbf1eb9d8f88": {
         "verdict": "keep",
-        "reason": "Announces the new modern Microsoft Copilot chat interface in Business Central.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Announces the new, modern, unified Copilot chat interface in Business Central.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/mhfjycxWTyY#1@da8edbf1eb9d8f88": {
         "verdict": "keep",
-        "reason": "Shows the new chat experience reasoning across Business Central data.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Shows Business Central data access in the new chat experience.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/mhfjycxWTyY#3@da8edbf1eb9d8f88": {
         "verdict": "keep",
         "reason": "Shows the admin setting to enable or disable the new Copilot chat.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/mhfjycxWTyY#5@da8edbf1eb9d8f88": {
         "verdict": "keep",
-        "reason": "Shows the natural-language interaction model of the new chat.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Shows the conversational interaction model of the new chat experience.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/mhfjycxWTyY#6@da8edbf1eb9d8f88": {
         "verdict": "keep",
-        "reason": "Shows agent store integration in the new chat experience.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Shows the new chat's agent store integration, which aligns Business Central with the Microsoft Copilot ecosystem.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/mhfjycxWTyY#8@da8edbf1eb9d8f88": {
         "verdict": "keep",
         "reason": "Demonstrates multi-step reasoning in the new chat experience.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/qP0id91bIlA#7@6e655948f1c4ce39": {
         "verdict": "drop",
-        "reason": "Prompt dialog page type, a different capability.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Prompt dialog page type is a different capability.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/TSLXzbeyE7Y#0@20aed415e3ba14fb": {
         "verdict": "keep",
-        "reason": "Introduces Microsoft Copilot Chat built into Business Central (2026 release wave 2).",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Introduces the new Microsoft Copilot Chat in Business Central.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/uMKLsKfKPc0#26@0e1cbcf3d034cb61": {
         "verdict": "keep",
         "reason": "Announces M365 Copilot chat coming to Business Central.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/V7NgFOIcGgM#0@1751aaef864985bd": {
         "verdict": "keep",
-        "reason": "Explains the new Microsoft Copilot Chat capability in 2026 release wave 2.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Explains the new Microsoft Copilot Chat capability in Business Central.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/WL3m2dffwU8#0@d1e013b1b03b4a50": {
         "verdict": "keep",
-        "reason": "Introduces the unified Microsoft Copilot Chat in Business Central.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Describes the unified Microsoft Copilot chat experience in Business Central.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/WL3m2dffwU8#2@d1e013b1b03b4a50": {
         "verdict": "keep",
         "reason": "Shows the new Copilot button that opens the updated experience.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/YX9UfUF0EsA#0@1a679c57d852b632": {
         "verdict": "keep",
-        "reason": "Describes M365 Copilot chat replacing the previous Business Central chat.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Shows M365 Copilot chat replacing the old Business Central chat with a unified platform.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/YX9UfUF0EsA#1@1a679c57d852b632": {
         "verdict": "keep",
         "reason": "Shows querying Business Central data in the new M365 Copilot chat.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/YX9UfUF0EsA#14@1a679c57d852b632": {
         "verdict": "keep",
-        "reason": "States the existing Copilot chat is being replaced by M365 Copilot.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Explains that M365 Copilot replaces the existing Copilot chat.",
+        "at": "2026-10-23T01:09:45.977Z"
       },
       "video/YX9UfUF0EsA#9@1a679c57d852b632": {
         "verdict": "keep",
-        "reason": "Shows page and record context awareness in the new Copilot chat.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "Shows the new chat understanding the current page and record.",
+        "at": "2026-10-23T01:09:45.977Z"
       }
     },
     "573363": {
@@ -4826,20 +4786,15 @@
       }
     },
     "576789": {
-      "video/2u5_F9Ztt7U#1@cb18c1c081cf9b21": {
-        "verdict": "drop",
-        "reason": "Describes file support via MCP resources, a different capability from exposing all Microsoft APIs and API queries as tools.",
-        "at": "2026-10-19T01:08:35.258Z"
-      },
-      "video/4HE3BBCcV84#0@0379d615b88b4044": {
+      "video/4HE3BBCcV84#0@3b42ae789814dfca": {
         "verdict": "keep",
-        "reason": "Directly announces support for API queries in the MCP server, a key part of this feature.",
-        "at": "2026-10-19T01:08:35.258Z"
+        "reason": "It announces API query support in the MCP server for external agents, which is one of this feature's key improvements.",
+        "at": "2026-10-23T01:09:41.691Z"
       },
-      "video/4HE3BBCcV84#2@0379d615b88b4044": {
+      "video/4HE3BBCcV84#2@3b42ae789814dfca": {
         "verdict": "keep",
-        "reason": "Demonstrates selecting query as object type in MCP configuration to access API queries, a step of this feature.",
-        "at": "2026-10-19T01:08:35.258Z"
+        "reason": "It shows the MCP configuration letting you pick query as the object type to reach analytics API queries, which is part of this feature.",
+        "at": "2026-10-23T01:09:41.691Z"
       }
     },
     "576802": {
@@ -4882,68 +4837,63 @@
     "576815": {
       "video/22duXC6j_No#0@1749378cf112edee": {
         "verdict": "drop",
-        "reason": "Covers the general update action in the all-apps view, not PTE upload or install.",
-        "at": "2026-10-22T01:09:05.955Z"
+        "reason": "General update action in the all-apps view; doesn't cover PTE upload, install or scheduling.",
+        "at": "2026-10-23T01:09:42.953Z"
       },
       "video/22duXC6j_No#1@1749378cf112edee": {
         "verdict": "drop",
-        "reason": "Covers dependency status for app updates, which is a different capability.",
-        "at": "2026-10-22T01:09:05.955Z"
+        "reason": "Dependency 'action required' status is general app update behavior, not this PTE feature.",
+        "at": "2026-10-23T01:09:42.953Z"
       },
       "video/22duXC6j_No#2@1749378cf112edee": {
-        "verdict": "keep",
-        "reason": "Shows scheduling installations for right now, the update window, or the next minor or major version, which matches the feature's scheduling.",
-        "at": "2026-10-22T01:09:05.955Z"
+        "verdict": "drop",
+        "reason": "General app install scheduling in a different video; nothing ties it to the new PTE capability.",
+        "at": "2026-10-23T01:09:42.953Z"
       },
       "video/22duXC6j_No#3@1749378cf112edee": {
-        "verdict": "keep",
-        "reason": "Shows installing apps directly from the admin center with timing options, which is part of the feature.",
-        "at": "2026-10-22T01:09:05.955Z"
+        "verdict": "drop",
+        "reason": "General app install from the admin center, likely older AppSource app installation, not PTE upload or install.",
+        "at": "2026-10-23T01:09:42.953Z"
       },
       "video/22duXC6j_No#4@1749378cf112edee": {
         "verdict": "drop",
-        "reason": "Only covers the general Operations page for monitoring, not PTE management itself.",
-        "at": "2026-10-22T01:09:05.955Z"
+        "reason": "Operations page for general app installs; not specific to the new PTE management capability.",
+        "at": "2026-10-23T01:09:42.953Z"
       },
       "video/22duXC6j_No#5@1749378cf112edee": {
         "verdict": "drop",
-        "reason": "Uninstalling extensions is an existing capability that the feature builds on, not what it adds.",
-        "at": "2026-10-22T01:09:05.955Z"
+        "reason": "Uninstalling extensions is an existing capability the feature names as already available.",
+        "at": "2026-10-23T01:09:42.953Z"
       },
-      "video/3Xus5tm2xKI#0@5b60f5a91387ba30": {
+      "video/3Xus5tm2xKI#0@a79e2ee18cfd6de3": {
         "verdict": "keep",
-        "reason": "Directly announces uploading, installing and updating PTEs in the admin center.",
-        "at": "2026-10-22T01:09:05.955Z"
+        "reason": "Directly announces PTE upload, install and update in the admin center.",
+        "at": "2026-10-23T01:09:42.953Z"
       },
-      "video/3Xus5tm2xKI#1@5b60f5a91387ba30": {
+      "video/3Xus5tm2xKI#1@a79e2ee18cfd6de3": {
         "verdict": "keep",
-        "reason": "Shows the choice between immediate and scheduled PTE installation.",
-        "at": "2026-10-22T01:09:05.955Z"
+        "reason": "Shows the immediate or scheduled PTE installation options the feature describes.",
+        "at": "2026-10-23T01:09:42.953Z"
       },
-      "video/3Xus5tm2xKI#2@5b60f5a91387ba30": {
-        "verdict": "drop",
-        "reason": "Filtering apps by type is a viewing convenience, not the upload, install or schedule capability.",
-        "at": "2026-10-22T01:09:05.955Z"
-      },
-      "video/3Xus5tm2xKI#3@5b60f5a91387ba30": {
+      "video/3Xus5tm2xKI#3@a79e2ee18cfd6de3": {
         "verdict": "keep",
-        "reason": "Shows several scheduled PTE versions at once, which matches viewing upcoming extension versions.",
-        "at": "2026-10-22T01:09:05.955Z"
+        "reason": "Shows scheduling several PTE versions at once, part of scheduled installs and upcoming versions.",
+        "at": "2026-10-23T01:09:42.953Z"
       },
-      "video/3Xus5tm2xKI#4@5b60f5a91387ba30": {
+      "video/3Xus5tm2xKI#4@a79e2ee18cfd6de3": {
         "verdict": "keep",
-        "reason": "Cancelling a scheduled PTE installation is part of managing scheduled installations.",
-        "at": "2026-10-22T01:09:05.955Z"
+        "reason": "Shows cancelling a scheduled PTE installation, part of managing PTE schedules.",
+        "at": "2026-10-23T01:09:42.953Z"
       },
-      "video/3Xus5tm2xKI#5@5b60f5a91387ba30": {
+      "video/3Xus5tm2xKI#5@a79e2ee18cfd6de3": {
         "verdict": "keep",
-        "reason": "Shows the PTE install and scheduling operations along with their deployment schedules, as part of the PTE lifecycle.",
-        "at": "2026-10-22T01:09:05.955Z"
+        "reason": "Shows the audit of PTE install, update and scheduling operations, part of PTE lifecycle management.",
+        "at": "2026-10-23T01:09:42.953Z"
       },
-      "video/3Xus5tm2xKI#6@5b60f5a91387ba30": {
+      "video/3Xus5tm2xKI#6@a79e2ee18cfd6de3": {
         "verdict": "keep",
-        "reason": "Explains simpler permissions for using the admin center API to automate PTE installation, which is the feature's API part.",
-        "at": "2026-10-22T01:09:05.955Z"
+        "reason": "Explains how server-to-server apps get permission to install PTEs through the admin center APIs, supporting the automation side.",
+        "at": "2026-10-23T01:09:42.953Z"
       }
     },
     "576832": {
@@ -4959,20 +4909,15 @@
       }
     },
     "576836": {
-      "video/3tmaVpPTQLw#7@50342de72600d0e4": {
+      "video/3tmaVpPTQLw#12@d022995f6fc78491": {
         "verdict": "drop",
-        "reason": "This is a general overview of the 2024 B2B integration and says nothing about B2B becoming available on more Shopify plans.",
-        "at": "2026-10-18T00:53:14.040Z"
+        "reason": "Describes the older 2024 B2B catalog management capability, not the change that makes B2B available on more Shopify plans.",
+        "at": "2026-10-23T01:09:43.970Z"
       },
-      "video/3tmaVpPTQLw#8@50342de72600d0e4": {
+      "video/3tmaVpPTQLw#9@d022995f6fc78491": {
         "verdict": "drop",
-        "reason": "It covers choosing which direct-to-consumer customers to export, which is a different capability.",
-        "at": "2026-10-18T00:53:14.040Z"
-      },
-      "video/3tmaVpPTQLw#9@50342de72600d0e4": {
-        "verdict": "drop",
-        "reason": "It describes the 2024 settings for exporting B2B companies, an older capability, and does not cover company sync on non-Plus plans.",
-        "at": "2026-10-18T00:53:14.040Z"
+        "reason": "Describes the older 2024 B2B company export settings, not the change that makes company sync work on Basic, Grow and Advanced plans.",
+        "at": "2026-10-23T01:09:43.970Z"
       }
     },
     "576839": {

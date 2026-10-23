@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:14.151Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,7 +51,8 @@ links:
   localizations: []
   videos:
     - video/LDRziYUdlAg
-  posts: []
+  posts:
+    - post/demiliani-com/13541
   guidelines: []
 learn_toc_path:
   - Development
@@ -64,7 +65,7 @@ coverage:
   learn: 3
   code: 0
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 65eebd9af81fd595dc18bdf793e4c9ef9821938e8715db9823a8cfbad8615fa7
@@ -106,6 +107,7 @@ Start with Inspecting pages or Viewing table data for day-to-day debugging. Use 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [YAMPI (the Dynamics 365 Business Central Administration MCP Server): installing apps from Microsoft’s Marketplace.](../../../../posts/demiliani-com/13541.md) (community post): "YAMPI is the author's Business Central administration MCP server, now at version 1.2.1"
 - [AL-Go for Github April Office Hour](../../../../videos/LDRziYUdlAg.md) (video): "AL-Go for Github April Office Hour"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

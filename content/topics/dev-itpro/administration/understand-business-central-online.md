@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -156,6 +156,7 @@ links:
   localizations: []
   videos:
     - video/9PWBpwv4LhQ
+    - video/n9HaH2dZUaU
   posts:
     - post/demiliani-com/12734
     - post/demiliani-com/15895
@@ -170,7 +171,7 @@ children:
 coverage:
   learn: 16
   code: 7
-  video: 1
+  video: 2
   blog: 2
   guideline: 0
 bc_forms:
@@ -234,6 +235,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: announcing Italy North availability.](../../../posts/demiliani-com/12734.md) (community post): "Italy North (Milan) hosting for Italian Business Central tenants starts with version 27.3"
 - [Dynamics 365 Business Central on Italy North Datacenter: here we are!](../../../posts/demiliani-com/15895.md) (community post): "Dynamics 365 Business Central is now available on the Italy North datacenter"
 - [What's New: Resource Governance for Business Central Online (2023 release wave 2)](../../../videos/9PWBpwv4LhQ.md) (video): "What's New: Resource Governance for Business Central Online"
+- [What's New: Cloud for Sovereignty (2026 release wave 1)](../../../videos/n9HaH2dZUaU.md) (video): "cloud sovereignty; data protection; access controls; encryption"
 
 ## Business Central pages and reports
 

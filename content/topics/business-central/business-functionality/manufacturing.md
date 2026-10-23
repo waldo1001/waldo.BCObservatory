@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:34.799Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -448,6 +448,7 @@ links:
     - change/bcapps/10423
     - change/bcapps/10546
     - change/bcapps/10879
+    - change/bcapps/11665
     - change/bcapps/12059
     - change/bcapps/12068
     - change/bcapps/12552
@@ -642,10 +643,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10423 Bug 620761: Move subconracting tests from base app to subcontracting app](../../../changes/bcapps/10423.md) (code change): "production-order requisition line descriptions are restored after vendor validation"
 - [#10546 [Main] Reopening and re-finishing production order reposts backward-flushed routing capacityupdate](../../../changes/bcapps/10546.md) (code change): "Reopening and re-finishing a production order no longer reposts backward-flushed"
 - [#10879 [Main]Reopening and re-finishing production order reposts backward-flushed routing capacityInitial commit](../../../changes/bcapps/10879.md) (code change): "Production order reopening and re-finishing now correctly handles backward-flushed routing capacity"
+- [#11665 Bug 649580: [Subcontracting] Transfer Shipment report is missing subcontractor and manufacturing references](../../../changes/bcapps/11665.md) (code change): "Report with subcontractor, purchase order, and production order details"
 - [#12059 [Master]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure.](../../../changes/bcapps/12059.md) (code change): "Reversing a production entry no longer fails when the production output"
 - [#12068 Bug 651757: [Repair Item] [Manufacturing] Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away](../../../changes/bcapps/12068.md) (code change): "Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away"
 - [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "sales order with a linked released production order caused repeated production order status warnings"
-- [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../changes/bcapps/12584.md) (code change): "Uninvoiced subcontracting receipts can now be included in Get Receipt Lines workflow"
+- [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../changes/bcapps/12584.md) (code change): "Posted, uninvoiced subcontracting receipts can again be pulled into a separate purchase invoice"
 - [#9075 Bug 598820: Item Availability by Event from Prod. Order ignores demand after Due Date](../../../changes/bcapps/9075.md) (code change): "Item Availability by Event from Prod. Order ignores demand after Due Date"
 - [#9087 Bug 641331: Copy Production Order Document lookup shows the current document](../../../changes/bcapps/9087.md) (code change): "Copy Production Order Document report now excludes the current production order from the document lookup"
 - [#9660 [Master]-Act Consumption Qty field in Component of a Firm Planned Order has amounts that point to a Released Production Order that has the same Document No if the component is the same](../../../changes/bcapps/9660.md) (code change): "Act. Consumption Qty shown for components of a firm planned production order"

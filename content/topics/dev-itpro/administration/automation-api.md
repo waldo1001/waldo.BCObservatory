@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1d6937bc7522f4fcd17782da067506160a0f9765f6b2c87c2ea479425c455483
@@ -323,7 +323,8 @@ links:
     - topic/dev-itpro/administration/automation-api/user-group-member
     - topic/dev-itpro/administration/automation-api/user-permission
   localizations: []
-  videos: []
+  videos:
+    - video/efoFM5uiCxg
   posts: []
   guidelines: []
 learn_toc_path:
@@ -352,7 +353,7 @@ children:
 coverage:
   learn: 55
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -390,5 +391,11 @@ Path: [Administration](../administration.md) > Automation API Â· tier official Â
 
 - [apicategoryroutes resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_apicategoryroutes): An apicategoryroutes object in Dynamics 365 Business Central.
 - [Introduction to automation APIs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis): Learn how automation APIs create companies, apply configuration packages, manage extensions, assign permissions, and inspect security settings.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Get Notified of Issues with Job Queues (2024 release wave 2)](../../../videos/efoFM5uiCxg.md) (video): "job queue notifications; background processing; business events"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

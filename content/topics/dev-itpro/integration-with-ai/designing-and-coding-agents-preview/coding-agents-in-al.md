@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,12 +93,14 @@ links:
     - video/EwN3xb2q7vE
     - video/jWqjDTbqjeE
     - video/MNwTt06ZxwY
+    - video/V4zCPAsYi_Y
   posts:
     - post/aardvarklabs-blog/3097
     - post/bertverbeek-nl/1219
     - post/bertverbeek-nl/1272
     - post/demiliani-com/12644
     - post/demiliani-com/13814
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
   guidelines: []
   changes:
     - change/bcapps/10007
@@ -196,8 +198,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 3
-  blog: 5
+  video: 4
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
@@ -334,8 +336,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "create, configure, and register agents programmatically in Business Central using AL code"
 - [Dynamics 365 Business Central: debugging agent sessions.](../../../../posts/demiliani-com/12644.md) (community post): "AL Language extension runtime 17.0 introduces debugging support for agent sessions in Business Central"
 - [Dynamics 365 Business Central: new model choice in Agent definition.](../../../../posts/demiliani-com/13814.md) (community post): "AL methods allowing administrators to select between available models"
+- [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "Partners need to develop AI competency through the AI Development Toolkit and Agent Building Sandbox"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit; Agent Type Definition; Agent Factory Interface"
 - [Introducing: Envision, Design and Code Business Central Agents](../../../../videos/jWqjDTbqjeE.md) (video): "Introducing: Envision, Design and Code Business Central Agents"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Building and shipping agents in Business Central; agent configuration; permissions"
+- [Getting Started With Agent Testing: Test Setup and Structuring (part 3)](../../../../videos/V4zCPAsYi_Y.md) (video): "AI Development Toolkit Evaluation app; AI Test Toolkits; LLM as judge for test validation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

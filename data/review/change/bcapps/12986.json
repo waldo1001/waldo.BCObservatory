@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12986",
+  "input_hash": "93e55166756bab605632e2757bf6c55c57debeae65b895908c2a5a95af80d637",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-23T01:11:43.908Z",
+  "issues": [
+    "Matches the description: page refresh now saves the record first, preserving pending values, with action enablement kept and UI tests added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034938,
+    "changes_in_call": 6
+  }
+}

@@ -1,26 +1,24 @@
 {
   "week": "2026-W43",
-  "input_hash": "b838073a15b5e3295b6037f64d68957c4b03cca55220f821c1294cfeca98a28b",
-  "text": "Most BCApps behaviour changes were fixes. #11998 checks that a General Posting Setup combination exists before journal invoices post, #12868 fixes a rounding variance in Adjust Cost, and #12149 makes issuing several reminders or finance charge memos with Print produce one PDF. #12552 stops repeated production order status warnings when validating No. on a sales order. In subscription billing, #12967 filters billing totals by partner so same-numbered customer and vendor contracts no longer mix, and #12767 rolls back billing lines when vendor invoice creation fails. Other fixes cover GB reverse charge sales posting (#12813), the Danish VAT period parser (#12943), Get Receipt Lines for subcontracting (#12584) and Shopify tax matches after a rate conflict (#12561). New behaviour includes credit memo recognition from PDFs in E-Documents (#12855), enforced itemization in Expense Agent (#12599) with an entitlement fix (#12763), a Czech Country/Region of Origin field (#12846), a French XML audit export on the Audit File Export framework (#9104) and Master Data Management cleanup on environment copy (#13005). #12186 merges consecutive ModifyAll calls, so where RunTrigger is passed OnModify runs once per row. #13075 adds TDS events for India and #12443 renumbers Spanish SII objects. AL-Go #2413 limits automatic Copilot review triggers to opted-in setups. The rest is BCQuality knowledge and skill work, including #246 and #155.",
-  "changes": 32,
+  "input_hash": "fc5ad12fa3561f176f221ce9e8db72c509dce22bfbbebf5fdf008fd589c0ced2",
+  "text": "The behaviour changes this week were mostly fixes in BCApps. VAT posting group handling that regressed since Business Central 28.4 is corrected in #13085 and #12982, and GB reverse charge sales posting is fixed in #12813. Posting now checks that a General Posting Setup combination exists (#11998), and Adjust Cost no longer creates extra rounding variance (#12868). Subscription billing got two fixes: #12967 for credit memos when customer and vendor contracts share a number, and #12767 for billing lines left behind after a failed vendor invoice. Smaller fixes cover transfer line units of measure with Direct Transfer (#12541), reminder printing (#12149), the Swiss DTA payment report (#12754) and the Danish VAT period parser (#12943). New behaviour includes credit memo recognition from PDFs in the Payables Agent (#12894) and E-Documents (#12855). The Expense Agent gained alternate approvers (#11955) and enforced itemization (#12599). French accelerated depreciation moved into W1 (#12160). Refactors include the Sales FR app (#9143) and ES SII renumbering (#12443). #13075 adds TDS events for India. In AL-Go, #2402 adds a built-in Copilot review. BCQuality received many new knowledge articles, among them #230 and #228.",
+  "changes": 51,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.03977,
-  "at": "2026-10-22T00:20:01.868Z",
+  "cost_usd": 0.056618,
+  "at": "2026-10-23T00:21:26.098Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-22T01:11:36.321Z",
-    "verdict": "fix",
+    "at": "2026-10-23T01:12:05.186Z",
+    "verdict": "approve",
     "issues": [
-      "#13005 (Master Data Management cleanup when an environment is copied) changes behaviour in BCApps but was left out, so the closing sentence wrongly suggests everything else was BCQuality work.",
-      "#12186 says OnModify runs once per row without saying when; per the summary this only applies where RunTrigger is passed.",
-      "The original paragraph ran to about 227 words, over the 220-word limit."
+      "Minor: #11998 is about posting invoices from journals (Gen. Jnl.-Check Line). 'Posting now checks' is a little broader than that, but it is not misleading.",
+      "Minor: some notable fixes are left out, such as #12931 (Purchase Order vendor change carrying over to the next order), #13058 (Expense itemization rounding) and #12561 (Shopify tax match after a rate conflict). Leaving them out is acceptable for a summary.",
+      "Every cited number is from this week, the descriptions match each pull request's summary, and the paragraph makes no claims about breaking changes. The source list flags none."
     ],
-    "input_hash": "b838073a15b5e3295b6037f64d68957c4b03cca55220f821c1294cfeca98a28b",
-    "cost_usd": 0.146836,
-    "applied": [
-      "text"
-    ],
+    "input_hash": "fc5ad12fa3561f176f221ce9e8db72c509dce22bfbbebf5fdf008fd589c0ced2",
+    "cost_usd": 0.12612800000000002,
+    "applied": [],
     "rejected_edits": []
   }
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:52.381Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-23T01:12:47.131Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,6 +77,7 @@ links:
     - change/bcapps/10072
     - change/bcapps/10873
     - change/bcapps/10924
+    - change/bcapps/12541
     - change/bcapps/9264
 learn_toc_path:
   - Business functionality
@@ -149,6 +150,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10072 [main] - Serial and Lot number mismatch when item is produced via Production Order and moved to inventory through an Internal Put-away](../../../../../changes/bcapps/10072.md) (code change): "Registering a warehouse put-away now checks each line"
 - [#10873 [Master]-The Available to Take logic is incorrect or inaccurate in the Pick Worksheet as it includes Ship and Receive bin inventory](../../../../../changes/bcapps/10873.md) (code change): "The Available to Take logic is incorrect or inaccurate in the Pick Worksheet"
 - [#10924 [main] Bug 648630 Movement Worksheet Creates Incorrect Warehouse Movement for FEFO Lot-Tracked Items](../../../../../changes/bcapps/10924.md) (code change): "Movement Worksheet Creates Incorrect Warehouse Movement for FEFO"
+- [#12541 Preserve transfer line UOM when toggling Direct Transfer](../../../../../changes/bcapps/12541.md) (code change): "UOM and converted quantity are retained during Direct Transfer toggle"
 - [#9264 [master] Bin Capacity Policy "Prohibit More Than Max. Cap." fails and allows more than the maximum Capacity, when you split lines on Inventory Movement](../../../../../changes/bcapps/9264.md) (code change): "Bin Capacity Policy 'Prohibit More Than Max. Cap.' was incorrectly allowing overflow"
 
 ## Business Central pages and reports

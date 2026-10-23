@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12201",
+  "input_hash": "e39ce988a1a08689282eb5c5d59e5501019f27a1c3a756f6297621d1fac11c40",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-23T01:11:44.824Z",
+  "issues": [
+    "Key point claimed project-currency VAT amounts are applied to project costs; the description says the source VAT amount is converted into project currency."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020675,
+    "changes_in_call": 6
+  }
+}
