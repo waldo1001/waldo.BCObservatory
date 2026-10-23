@@ -108,7 +108,7 @@
     "captions_retried": { "type": "integer" },
     "checkpoints": { "type": "integer" },
     "catch_up": { "type": "string", "description": "catch-up mode was on (no quotas, no caps) until this run date" },
-    "code": { "type": "object", "properties": { "version_diffs": { "type": "integer" }, "country_diffs": { "type": "integer" }, "timelines": { "type": "integer" }, "deprecations": { "type": "integer" }, "written": { "type": "integer" }, "docs_objects": { "type": "object" }, "pages": { "type": "object" }, "related": { "type": "object", "description": "D65: data/links/related.json" }, "crosslinks": { "type": "object", "description": "D106: data/links/crosslinks.json" }, "apps": { "type": "object", "description": "D65: content/apps/" }, "narratives": { "type": "object" }, "graph": { "type": "object", "description": "D67: the call graphs the code pillar's linked stage ran (data/code/graph/<major>/)", "required": ["runs"], "properties": { "runs": { "type": "array", "items": { "type": "object", "required": ["major", "written", "edges", "unresolved", "ms"], "properties": { "major": { "type": "string" }, "written": { "type": "boolean" }, "edges": { "type": "integer" }, "unresolved": { "type": "integer" }, "ms": { "type": "integer" }, "skipped": { "enum": ["commit_mismatch", "unchanged"] } } } } } } } },
+    "code": { "type": "object", "properties": { "version_diffs": { "type": "integer" }, "country_diffs": { "type": "integer" }, "timelines": { "type": "integer" }, "deprecations": { "type": "integer" }, "written": { "type": "integer" }, "docs_objects": { "type": "object" }, "pages": { "type": "object" }, "related": { "type": "object", "description": "D65: data/links/related.json" }, "crosslinks": { "type": "object", "description": "D106: data/links/crosslinks.json" }, "cautions": { "type": "object", "description": "D106: data/links/cautions.json (the relevance guard)" }, "apps": { "type": "object", "description": "D65: content/apps/" }, "narratives": { "type": "object" }, "graph": { "type": "object", "description": "D67: the call graphs the code pillar's linked stage ran (data/code/graph/<major>/)", "required": ["runs"], "properties": { "runs": { "type": "array", "items": { "type": "object", "required": ["major", "written", "edges", "unresolved", "ms"], "properties": { "major": { "type": "string" }, "written": { "type": "boolean" }, "edges": { "type": "integer" }, "unresolved": { "type": "integer" }, "ms": { "type": "integer" }, "skipped": { "enum": ["commit_mismatch", "unchanged"] } } } } } } } },
     "content": { "type": "object", "required": ["pages", "errors"], "properties": { "pages": { "type": "integer" }, "errors": { "type": "integer" } } },
     "roadmap_links": {
       "type": "object", "required": ["units", "stale", "calls", "matched", "rejected", "failed", "stopped"],
@@ -145,6 +145,10 @@
     "learn_facts": {
       "type": "object", "required": ["due", "pages", "calls", "facts", "dropped", "failed", "stopped"], "description": "D106: Learn key facts (data/extract/learn-facts/)",
       "properties": { "due": { "type": "integer" }, "pages": { "type": "integer" }, "calls": { "type": "integer" }, "facts": { "type": "integer" }, "dropped": { "type": "integer" }, "failed": { "type": "integer" }, "cost_usd": { "type": "number" }, "stopped": { "type": "string" } }
+    },
+    "cautions": {
+      "type": "object", "required": ["due", "posts", "calls", "cautions", "failed", "stopped"], "description": "D106: cautions in community posts (data/extract/cautions/)",
+      "properties": { "due": { "type": "integer" }, "posts": { "type": "integer" }, "calls": { "type": "integer" }, "cautions": { "type": "integer" }, "failed": { "type": "integer" }, "cost_usd": { "type": "number" }, "stopped": { "type": "string" } }
     },
     "topic_reviews": {
       "type": "object", "required": ["candidates", "calls", "reviewed", "kept", "dropped", "failed", "stopped"],

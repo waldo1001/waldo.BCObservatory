@@ -28,6 +28,7 @@ import { featureStatus, latestRoadmap } from "./feature.js";
 import { loadEmbedOverrides } from "../extract/preview-probe.js";
 import { loadObjectIndex, mentionSection, type ObjectIndex } from "../link/mentions.js";
 import { applyCrossLinks, crossLinkSection, crossLinksFor, type CrossLink } from "../link/crosslinks.js";
+import { cautionsFromDisclaimers } from "../link/cautions.js";
 import { reviewOf, reviewWords } from "../lib/review.js";
 import { llmsTitle } from "../lib/sections.js";
 
@@ -80,6 +81,7 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
     ...x.features.filter((f) => f.status_evidence_verified && f.status_evidence_quote).map((f) => ({ kind: "video", url: at(id, f.status_evidence_t!), title: `${f.name}: ${STATUS_LABEL[f.status]}`, date: item.published_at ?? null, commit: null, t: Math.floor(f.status_evidence_t!), quote: f.status_evidence_quote })),
     ...x.quotes.map((q) => ({ kind: "video", url: at(id, q.t), title: x.title, date: item.published_at ?? null, commit: null, t: Math.floor(q.t), quote: q.text })),
   ].slice(0, 30);
+  const cautions = cautionsFromDisclaimers(x.disclaimers).map(({ objects: _o, events: _e, versions, ...c }) => ({ ...c, t: Math.floor(c.t ?? 0), ...(versions.length ? { versions } : {}) }));
   const fm = {
     id: `video/${id}`, type: "video", title: item.title, summary: s.summary, tier: item.tier, language: item.language ?? "en",
     tags: x.topics, system: x.systems[0],
@@ -90,6 +92,8 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
     video_id: id, channel: item.source, source_name: source.name, url: item.url, published_at: item.published_at ?? null,
     duration_s: Math.round(x.duration_s), captions: item.tier === "official" ? "full" : "derived", audience: s.audience,
     chapters: x.chapters.map((c) => ({ t: Math.floor(c.t_start), title: c.title })),
+    // D106: the disclaimers as preview-disclaimer cautions (deterministic, no call)
+    ...(cautions.length ? { cautions } : {}),
     features: x.features.map((f, i) => ({
       name: f.name, status: statusOf(i), t: Math.floor(f.t_start), verified: f.status_evidence_verified,
       status_source: rm[i].status ? "roadmap" : "video", ...(rm[i].ids.length ? { roadmap_ids: rm[i].ids } : {}),

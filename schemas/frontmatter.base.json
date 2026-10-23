@@ -34,6 +34,19 @@
         }
       }
     },
+    "cautions": {
+      "type": "array", "maxItems": 8,
+      "description": "D106: warnings. On a post or video page: its own (verbatim quote under 25 words, the objects, events and versions it is about). On an object page: the cautions the relevance guard attached, each with the page it comes from and the scope it applies to",
+      "items": {
+        "type": "object", "required": ["kind", "quote"],
+        "properties": {
+          "kind": { "enum": ["warning", "gotcha", "breaking", "preview-disclaimer"] }, "quote": { "type": "string", "maxLength": 240 }, "t": { "type": "integer" },
+          "objects": { "type": "array", "items": { "type": "object", "required": ["type", "name"], "properties": { "type": { "type": "string" }, "name": { "type": "string" } } } },
+          "events": { "type": "array", "items": { "type": "string" } }, "versions": { "type": "array", "items": { "type": "string" } },
+          "from": { "type": "string" }, "title": { "type": "string" }, "scope": { "type": "string" }
+        }
+      }
+    },
     "links": {
       "type": "object",
       "properties": {
