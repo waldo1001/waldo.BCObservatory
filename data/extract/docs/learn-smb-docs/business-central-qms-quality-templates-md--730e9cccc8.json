@@ -2,37 +2,34 @@
   "item_id": "docs/learn-smb-docs/business-central/qms-quality-templates.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-quality-templates",
   "title": "Create quality inspection templates",
-  "blob": "0a06da4d52fa765c65d7f6c6893515fba10061fb",
-  "summary": "Quality inspection templates define the measurements and attributes collected during quality testing, including tests, pass/fail criteria, and sample sources.",
+  "blob": "61767c8be39e619cb8c6df490c620405bfbdf201",
+  "summary": "Quality inspection templates define measurements and attributes for quality testing, with support for various test types including decimal, integer, boolean, text, date, options, and table lookups. Templates serve as the foundation for creating quality tests and can be created from scratch or copied and modified.",
   "systems": [
-    "manufacturing",
-    "purchasing"
+    "manufacturing"
   ],
   "topics": [
-    "quality templates",
+    "quality inspection",
+    "templates",
     "quality tests",
-    "measurements",
     "pass/fail criteria",
-    "sample sizing"
+    "measurements",
+    "attributes"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "Quality Tests"
-    },
-    {
-      "type": "page",
-      "name": "Quality Inspection Templates"
+      "type": "table",
+      "name": "Quality Test Lookup Values"
     }
   ],
   "features": [
-    "Template code and description",
-    "Test value types",
-    "Allowable values",
+    "Template Code",
+    "Quality Tests",
+    "Pass/fail criteria",
+    "Sample Source",
+    "Test Value Type",
     "Result conditions",
-    "Sample source configuration",
-    "Copy template",
-    "Template-based inspection generation"
+    "Inspection Generation Rules",
+    "Copy Template"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005457,
-      "pages_in_call": 8
+      "cost_usd": 0.009553,
+      "pages_in_call": 1
     }
   ]
 }

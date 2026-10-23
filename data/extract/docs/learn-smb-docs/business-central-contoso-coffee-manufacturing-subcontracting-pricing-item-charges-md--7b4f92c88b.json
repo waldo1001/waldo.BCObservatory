@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges",
   "title": "Set up subcontracting prices and allocate item charges",
-  "blob": "216bdf5edbe72eb77a807cb534d3ee2338f9ef46",
-  "summary": "Set up subcontracting price lists and allocate extra costs like transport charges to production orders using item charges based on Contoso Coffee demo data.",
+  "blob": "f53fb4e637dfd81e6f7e20f0bab42000f2e4c65c",
+  "summary": "Set up subcontracting price lists with minimum order amounts and allocate item charges like transport costs to subcontracted manufacturing work using the Contoso Coffee demo data.",
   "systems": [
     "manufacturing",
     "purchasing",
@@ -11,19 +11,36 @@
   ],
   "topics": [
     "subcontracting",
-    "price lists",
+    "pricing",
     "item charges",
-    "cost allocation",
-    "production costing"
+    "production orders",
+    "purchase orders"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Subcontractor Prices"
+    },
+    {
+      "type": "page",
+      "name": "Released Production Orders"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Item Charge Assignment"
+    }
+  ],
   "features": [
-    "subcontracting prices",
-    "minimum amount",
-    "unit pricing",
-    "item charge assignment",
-    "cost tracking",
-    "purchase invoicing"
+    "subcontracting price lists",
+    "minimum order amounts",
+    "item charge allocation",
+    "production order costing",
+    "vendor pricing",
+    "routing integration"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +49,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006804,
-      "pages_in_call": 8
+      "cost_usd": 0.004937,
+      "pages_in_call": 1
     }
   ]
 }

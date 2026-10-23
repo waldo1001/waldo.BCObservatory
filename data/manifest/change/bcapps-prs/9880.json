@@ -6,10 +6,35 @@
   "title": "[Bug Fix] #620132: Prevent IRS 1099 data on vendor ledger entries of non-1099 vendors",
   "url": "https://github.com/microsoft/BCApps/pull/9880",
   "published_at": "2026-10-23T13:18:12Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T21:57:46.568Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T21:59:27.906Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T21:59:34.350Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004858
+    },
+    "linked": {
+      "at": "2026-10-23T21:59:34.575Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T21:59:34.584Z",
+      "path": "content/changes/bcapps/9880.md"
     }
   },
   "input_hash": "a899581a681479b1a500634968a50fb67466d40d:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug fix 620132 prevent irs 1099 data on vendor ledger entries of non 1099 vendors"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6e8e12d07882113e92e640b0ecc307815a7409fe102002662e867bab281fc779"
 }

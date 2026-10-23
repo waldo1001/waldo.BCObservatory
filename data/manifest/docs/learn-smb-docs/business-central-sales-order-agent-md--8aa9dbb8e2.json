@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent",
   "published_at": "2026-10-23T11:36:03.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.492Z",
-      "blob": "27cca88380835cce1075af4321c8966b8607aea2",
-      "words": 2744,
+      "at": "2026-10-23T21:59:02.113Z",
+      "blob": "a1ec8a85ff55f02b3496dd2cb3ce8a5cd5bfda55",
+      "words": 2888,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T13:11:10.468Z",
+      "at": "2026-10-23T21:59:13.799Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 11,
-      "cost_usd": 0.014314
+      "objects": 0,
+      "cost_usd": 0.012987
     },
     "summarized": {
-      "at": "2026-10-06T13:12:47.008Z",
+      "at": "2026-10-23T21:59:13.801Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:12:47.008Z",
+      "at": "2026-10-23T21:59:13.802Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:12:47.009Z",
+      "at": "2026-10-23T21:59:13.803Z",
       "page": false
     }
   },
@@ -61,11 +61,11 @@
     ],
     "keywords": [],
     "ai_usage": null,
-    "words": 2744,
+    "words": 2888,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "33c002ecd6258da8fcc5ab373f60ab524325c5f5e0a2bf5bc2d1749369f792f9"
+  "output_hash": "b7887923efe2312d24df113f35a56c2d5af12336e54517b1cd78a576c99885a9"
 }

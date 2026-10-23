@@ -2,34 +2,46 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-order-agent-setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-setup",
   "title": "Set up Sales Order Agent",
-  "blob": "24fc664d169f35f9961c1b7a45dc06e1be0722ee",
-  "summary": "Set up and configure the Sales Order Agent to automate processing of sales orders from customer email requests, including mailbox monitoring, document creation rules, and user access management.",
+  "blob": "eec52f88a909ff12200a8a6afb24c757ea90740f",
+  "summary": "Sales Order Agent setup explains how to activate and configure an AI agent that automates processing sales orders from customer email requests in Business Central. Use this page to enable the agent capability, configure email monitoring, set processing rules, manage user access, and handle permissions.",
   "systems": [
-    "sales",
     "copilot",
-    "administration"
+    "sales",
+    "integration"
   ],
   "topics": [
     "sales order agent",
     "email automation",
-    "agent configuration",
-    "copilot capabilities",
-    "sales automation",
-    "mailbox monitoring",
-    "quote processing"
+    "ai agents",
+    "copilot credits",
+    "configuration",
+    "agent tasks",
+    "permissions"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Configure the Copilot agent"
-    },
-    {
-      "type": "page",
-      "name": "Create Task"
-    },
-    {
-      "type": "page",
       "name": "Configure Sales Order Agent"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order Agent"
+    },
+    {
+      "type": "page",
+      "name": "Create task"
+    },
+    {
+      "type": "page",
+      "name": "Extension management"
+    },
+    {
+      "type": "page",
+      "name": "Copilot & agent capabilities"
+    },
+    {
+      "type": "page",
+      "name": "Agents"
     },
     {
       "type": "page",
@@ -41,26 +53,38 @@
     },
     {
       "type": "page",
-      "name": "Agents"
+      "name": "Profiles (Roles)"
+    },
+    {
+      "type": "page",
+      "name": "Permissions Overview"
     },
     {
       "type": "page",
       "name": "Select users that can manage or interact with the Agent"
+    },
+    {
+      "type": "page",
+      "name": "Agent User Settings"
+    },
+    {
+      "type": "page",
+      "name": "Tasks"
     }
   ],
   "features": [
-    "Sales Order Agent activation",
-    "Email mailbox monitoring",
-    "Sales quote creation and confirmation",
+    "Email monitoring",
+    "Sales quote creation",
     "Sales order conversion",
-    "Customer contact matching",
-    "Attachment analysis",
-    "Daily email limits",
+    "Customer confirmation workflow",
+    "Item availability checking",
+    "Capable-to-promise delivery dates",
+    "Email attachment analysis",
     "Custom email signatures",
+    "Daily email limits",
+    "Copilot Credits consumption",
     "User access management",
-    "Agent permission sets",
-    "Copilot Credit management",
-    "Agent language and region settings"
+    "Permission sets"
   ],
   "versions": [],
   "parts": 1,
@@ -69,7 +93,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.029111,
+      "cost_usd": 0.021037,
       "pages_in_call": 1
     }
   ]

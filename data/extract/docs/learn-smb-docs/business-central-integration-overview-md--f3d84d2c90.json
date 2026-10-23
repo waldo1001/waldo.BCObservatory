@@ -2,26 +2,32 @@
   "item_id": "docs/learn-smb-docs/business-central/integration-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/integration-overview",
   "title": "Integration overview for Business Central",
-  "blob": "5b3947c6acddf69ec680554cf81c8cdd265bd230",
-  "summary": "Integration overview for Business Central describes how the product integrates with Microsoft Office apps, Power Platform, Dataverse, Dynamics 365 Sales, Field Service, and Shopify.",
+  "blob": "75e0c7652348e2c332f18a6e7f75b84945ab594d",
+  "summary": "Integration overview for Business Central describes scenarios for integrating with Office apps, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, and Shopify to extend functionality and sync data across systems.",
   "systems": [
     "integration",
-    "administration"
+    "sales",
+    "finance"
   ],
   "topics": [
     "integration",
-    "microsoft 365",
+    "office 365",
     "power platform",
     "dataverse",
-    "dynamics 365"
+    "dynamics 365 sales",
+    "field service",
+    "shopify"
   ],
   "objects": [],
   "features": [
-    "Office integration",
-    "Power Platform",
-    "Dataverse synchronization",
-    "virtual tables",
-    "webhooks"
+    "Microsoft 365 integration (Excel, OneDrive, Outlook, Teams, Word)",
+    "Power Platform integration (Power Apps, Power Automate, Power BI, Power Pages)",
+    "Dataverse data synchronization",
+    "Dataverse virtual tables",
+    "Dataverse webhooks",
+    "Dynamics 365 Sales integration",
+    "Dynamics 365 Field Service integration",
+    "Shopify Connector"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004641,
-      "pages_in_call": 8
+      "cost_usd": 0.005324,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-setup",
   "published_at": "2026-10-23T11:36:03.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.485Z",
-      "blob": "24fc664d169f35f9961c1b7a45dc06e1be0722ee",
-      "words": 4779,
+      "at": "2026-10-23T21:59:00.760Z",
+      "blob": "eec52f88a909ff12200a8a6afb24c757ea90740f",
+      "words": 5116,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T13:11:10.468Z",
+      "at": "2026-10-23T21:59:15.504Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 7,
-      "cost_usd": 0.029111
+      "objects": 13,
+      "cost_usd": 0.021037
     },
     "summarized": {
-      "at": "2026-10-06T13:12:22.020Z",
+      "at": "2026-10-23T21:59:15.506Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:12:22.020Z",
+      "at": "2026-10-23T21:59:15.507Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:12:22.020Z",
+      "at": "2026-10-23T21:59:15.508Z",
       "page": false
     }
   },
@@ -61,11 +61,11 @@
     ],
     "keywords": [],
     "ai_usage": null,
-    "words": 4779,
+    "words": 5116,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f2caffbb3c6c2befbb8a8afbc82102b14ff02310759eb7563bb2bb707fd037a7"
+  "output_hash": "3f12c2bce7f9726897884e445e5eff57f5ae40c0ba59d04e043ef06f78af88c9"
 }

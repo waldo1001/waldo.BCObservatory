@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/integration-overview",
   "published_at": "2026-10-23T11:09:26.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:23.210Z",
-      "blob": "5b3947c6acddf69ec680554cf81c8cdd265bd230",
-      "words": 1139,
+      "at": "2026-10-23T21:59:34.336Z",
+      "blob": "75e0c7652348e2c332f18a6e7f75b84945ab594d",
+      "words": 1136,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T17:50:52.820Z",
+      "at": "2026-10-23T21:59:42.598Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004641
+      "cost_usd": 0.005324
     },
     "summarized": {
-      "at": "2026-10-06T17:50:54.504Z",
+      "at": "2026-10-23T21:59:42.599Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:50:54.504Z",
+      "at": "2026-10-23T21:59:42.600Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:50:54.505Z",
+      "at": "2026-10-23T21:59:42.601Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/integration-overview.md",
     "description": "Find links to information about the ways you can integrate Business Central to products and services.",
-    "ms_date": "2026-06-19",
+    "ms_date": "2026-09-22",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1139,
+    "words": 1136,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "648b39f16a018022f8972e2f9bd9393d9c4a95cf5be6f7e004684b3ba7888b4b"
+  "output_hash": "a494b048688ac0333841b6f6416f13a3fe0f6362e4aac5adaf63875a107c1208"
 }

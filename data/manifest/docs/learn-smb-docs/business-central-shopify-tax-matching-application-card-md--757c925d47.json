@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify-tax-matching-application-card",
   "published_at": "2026-10-23T11:09:26.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.504Z",
-      "blob": "b4290a1be970775f6beebf1834433ca44365fdae",
-      "words": 3136,
+      "at": "2026-10-23T21:59:35.214Z",
+      "blob": "5e2509467a36106538dcb19e690fa555c42fa96c",
+      "words": 3189,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:13:35.860Z",
+      "at": "2026-10-23T21:59:44.872Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.008252
+      "cost_usd": 0.014397
     },
     "summarized": {
-      "at": "2026-10-06T13:13:35.862Z",
+      "at": "2026-10-23T21:59:49.580Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:13:35.863Z",
+      "at": "2026-10-23T21:59:49.581Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:13:35.863Z",
+      "at": "2026-10-23T21:59:49.583Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/shopify-tax-matching-application-card.md",
     "description": "Learn how Shopify Tax Matching uses AI, how Microsoft evaluated the feature, its limitations, and how to use it responsibly.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-10-07",
     "ms_topic": "faq",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 3136,
+    "words": 3189,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "36a6031952b067236848871a26e385b14e71e6bba1b5b95eaccfdc2e34768c64"
+  "output_hash": "d9cac8b6b9206cdf6a6677720a97eb35b3610646cd19cdf39b04b9d8f0c4d144"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods",
   "published_at": "2026-10-23T11:27:03.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.326Z",
-      "blob": "14c1b37c6fc4d4c1dc3d21d00c04d15e5ab9c09a",
-      "words": 1155,
+      "at": "2026-10-23T21:59:20.442Z",
+      "blob": "dd4d0d66c589145016222f8f9b51f58171744cbb",
+      "words": 1187,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T14:22:28.306Z",
+      "at": "2026-10-23T21:59:32.554Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.006804
+      "objects": 5,
+      "cost_usd": 0.005623
     },
     "summarized": {
-      "at": "2026-10-06T14:22:28.310Z",
+      "at": "2026-10-23T21:59:32.556Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:22:28.311Z",
+      "at": "2026-10-23T21:59:32.557Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:22:28.311Z",
+      "at": "2026-10-23T21:59:32.558Z",
       "page": false
     }
   },
@@ -45,12 +45,12 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods.md",
     "description": "Walkthrough to learn how the three component supply methods work in subcontracting and how they affect planning in Business Central.",
-    "ms_date": "2026-08-13",
+    "ms_date": "2026-10-16",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1155,
+    "words": 1187,
     "identifiers": [
       "SCM1009",
       "BOM1101",
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e422ca051276693e76d359c9fa1b4191e1bf9ab6fc183554ef1b5a7cfc805a34"
+  "output_hash": "0aaa02ff4429101786d704d5ca7d0a478516d3f7b9a99033f8bb581dded2e201"
 }

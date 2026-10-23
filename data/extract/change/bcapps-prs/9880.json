@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9880",
+  "number": 9880,
+  "title": "[Bug Fix] #620132: Prevent IRS 1099 data on vendor ledger entries of non-1099 vendors",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Added validation to prevent IRS 1099 data from being entered on vendor ledger entries for vendors not set up for 1099 reporting. The validation checks that a vendor has an IRS 1099 Vendor Form Box Setup record for the selected reporting period before allowing IRS 1099 fields to be populated.",
+  "key_points": [
+    "Validates that vendors have 1099 setup before accepting 1099 reporting period, form number, or form box assignments",
+    "Clearing 1099 fields remains unconditionally allowed",
+    "Added CheckVendorSubjectFor1099Reporting method to verify vendor-period setup exists",
+    "Prevents data inconsistency where non-1099 vendors could receive 1099 information",
+    "Includes three new test cases covering validation and clearing scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004858,
+    "changes_in_call": 1
+  }
+}

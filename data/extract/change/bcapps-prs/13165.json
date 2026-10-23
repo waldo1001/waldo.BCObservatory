@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/13165",
+  "number": 13165,
+  "title": "[Master]-\"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify\" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Updated G/L Register table permissions to allow modifying entries with register number 0 when updating from the G/L Registers page.",
+  "key_points": [
+    "Modified table 45 G/L Register in multiple layers (W1, ES, APAC)",
+    "Addresses permission validation issue when updating historical entries",
+    "Fixes error preventing users from modifying G/L Register records with register number 0"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003043,
+    "changes_in_call": 1
+  }
+}

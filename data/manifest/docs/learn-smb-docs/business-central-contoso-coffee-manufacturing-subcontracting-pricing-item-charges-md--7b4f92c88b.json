@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges",
   "published_at": "2026-10-23T11:27:03.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.330Z",
-      "blob": "216bdf5edbe72eb77a807cb534d3ee2338f9ef46",
-      "words": 861,
+      "at": "2026-10-23T21:59:20.433Z",
+      "blob": "f53fb4e637dfd81e6f7e20f0bab42000f2e4c65c",
+      "words": 895,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T14:22:28.306Z",
+      "at": "2026-10-23T21:59:32.541Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.006804
+      "objects": 4,
+      "cost_usd": 0.004937
     },
     "summarized": {
-      "at": "2026-10-06T14:22:28.311Z",
+      "at": "2026-10-23T21:59:32.544Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:22:28.312Z",
+      "at": "2026-10-23T21:59:32.545Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:22:28.312Z",
+      "at": "2026-10-23T21:59:32.546Z",
       "page": false
     }
   },
@@ -45,12 +45,12 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges.md",
     "description": "Walkthrough to learn how to set up subcontracting price lists and allocate extra costs using item charges in Business Central.",
-    "ms_date": "2026-08-13",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 861,
+    "words": 895,
     "identifiers": [
       "SCM1009"
     ],
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5c0f6974ec96cd845d4ab07685bb37772972a117c001d56d67574dbe2495bc4f"
+  "output_hash": "99fdd9574650ae4a26fa1d4e510855f6e96cb54d7bcac2d3690cff1a97e375db"
 }
