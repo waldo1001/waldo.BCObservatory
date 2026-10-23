@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13106,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13106",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-22T09:24:42Z",
+  "merge_commit_sha": "0f05f694a94889bb20cc6fbb9ebf5846772a6553",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main]-Re-enable BC tests disabled due to BCApps submodule migration-ES",
+  "body_hash": "f1e60495efa200125a634fc43da99ca95a79b79196e00b6ca3a284a6e7bde8b3",
+  "fixes_issues": [],
+  "work_items": [
+    641038
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 12,
+    "deletions": 5,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

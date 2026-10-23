@@ -2,30 +2,23 @@
   "item_id": "docs/learn-smb-docs/business-central/shopify/synchronize-orders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-orders",
   "title": "Synchronize and fulfill sales orders",
-  "blob": "0d800e020aecfaa88d2bb689979c55643bbdb9e1",
-  "summary": "Configure and run Shopify order synchronization in Business Central, including currency handling, auto-creation of sales documents, returns and refunds processing, location and payment term mapping, and fulfillment. Synchronize sales shipments to Shopify, process returns and refunds, handle gift cards, export posted sales invoices, and manage tax calculations for Shopify orders including channel liable taxes.",
+  "blob": "44a702e1386a0b8b3b1dfda1c5ba427a44f2050f",
+  "summary": "Configure and synchronize Shopify sales orders with Business Central, including order import settings, location and payment mapping, shipment fulfillment, returns/refunds processing, and tax handling.",
   "systems": [
     "sales",
     "integration",
     "inventory"
   ],
   "topics": [
-    "shopify",
-    "orders",
-    "synchronization",
+    "shopify connector",
+    "order synchronization",
     "sales documents",
     "fulfillment",
-    "currency",
-    "returns",
-    "refunds",
-    "mapping",
-    "shopify connector"
+    "returns and refunds",
+    "tax matching",
+    "currency handling"
   ],
   "objects": [
-    {
-      "type": "table",
-      "name": "Shopify Orders to Import"
-    },
     {
       "type": "page",
       "name": "Shopify Shop Card"
@@ -40,11 +33,19 @@
     },
     {
       "type": "page",
-      "name": "Shopify Order"
+      "name": "Shopify Customers"
     },
     {
       "type": "page",
-      "name": "Shopify Customers"
+      "name": "Shopify Companies"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Staff Member Mapping"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Shipment Methods"
     },
     {
       "type": "page",
@@ -56,63 +57,7 @@
     },
     {
       "type": "page",
-      "name": "Shopify Shipment Methods"
-    },
-    {
-      "type": "page",
-      "name": "Shopify Staff Member Mapping"
-    },
-    {
-      "type": "page",
-      "name": "Shopify Company Location"
-    },
-    {
-      "type": "page",
-      "name": "Shopify Cancel Order"
-    },
-    {
-      "type": "report",
-      "name": "Sync orders from Shopify"
-    },
-    {
-      "type": "page",
-      "name": "Sync Shipments to Shopify"
-    },
-    {
-      "type": "page",
-      "name": "Shopify Sales Orders"
-    },
-    {
-      "type": "page",
-      "name": "Shopify Shop"
-    },
-    {
-      "type": "page",
       "name": "Posted Sales Shipment"
-    },
-    {
-      "type": "page",
-      "name": "Gift Cards"
-    },
-    {
-      "type": "page",
-      "name": "Shopify Customer Template"
-    },
-    {
-      "type": "page",
-      "name": "Shopify Companies"
-    },
-    {
-      "type": "page",
-      "name": "Completed Fulfillments"
-    },
-    {
-      "type": "page",
-      "name": "Fulfillment Orders"
-    },
-    {
-      "type": "page",
-      "name": "Tax Lines"
     },
     {
       "type": "page",
@@ -120,54 +65,48 @@
     },
     {
       "type": "page",
+      "name": "Shopify Order Tax Line"
+    },
+    {
+      "type": "table",
       "name": "Shopify Orders to Import"
     },
     {
-      "type": "page",
-      "name": "Customer Setup by Country/Region"
+      "type": "report",
+      "name": "Sync Orders from Shopify"
     },
     {
-      "type": "page",
-      "name": "Update Document"
+      "type": "report",
+      "name": "Sync Shipments to Shopify"
     },
     {
       "type": "report",
       "name": "Sync Posted Invoices to Shopify"
-    },
-    {
-      "type": "table",
-      "name": "Shpfy Gift Card"
     }
   ],
   "features": [
-    "currency handling (shop vs presentment)",
-    "auto sync orders",
-    "auto create sales documents",
-    "order filtering and import",
-    "return and refund processing",
-    "location mapping",
-    "shipment method mapping",
-    "payment terms mapping",
-    "staff-to-salesperson mapping",
-    "tax area prioritization",
-    "order archiving",
-    "shipping confirmation"
+    "Auto Sync Orders",
+    "Auto Create Sales Documents",
+    "Currency Handling",
+    "Shipment method mapping",
+    "Location mapping",
+    "Payment terms mapping",
+    "Staff-to-salesperson mapping",
+    "Returns and refunds processing",
+    "Shopify Tax Matching",
+    "Channel Liable Tax tracking",
+    "Gift card synchronization",
+    "Export posted sales invoices"
   ],
   "versions": [],
-  "parts": 2,
+  "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": false,
-      "cost_usd": 0.034686,
+      "cached": true,
+      "cost_usd": null,
       "pages_in_call": 1
-    },
-    {
-      "model": "claude-haiku-4-5-20251001",
-      "cached": false,
-      "cost_usd": 0.017337,
-      "pages_in_call": 2
     }
   ]
 }

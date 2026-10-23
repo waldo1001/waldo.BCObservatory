@@ -6,22 +6,22 @@
   "title": "microsoft/BCApps main (BC30)",
   "url": "https://github.com/microsoft/BCApps/tree/main",
   "published_at": null,
-  "state": "stale",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-19T00:23:01.003Z",
-      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+      "at": "2026-10-23T22:04:39.969Z",
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
       "branch": "main"
     },
     "extracted": {
-      "at": "2026-10-19T00:27:09.264Z",
-      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
-      "w1_objects": 9499,
-      "app_objects": 6933,
-      "files": 9599,
+      "at": "2026-10-23T22:12:16.826Z",
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+      "w1_objects": 9501,
+      "app_objects": 6942,
+      "files": 9601,
       "parse_errors": 0,
       "countries": {
         "at": {
@@ -35,7 +35,7 @@
           "absent": 0
         },
         "be": {
-          "added": 129,
+          "added": 131,
           "replaced": 80,
           "absent": 0
         },
@@ -50,7 +50,7 @@
           "absent": 0
         },
         "cz": {
-          "added": 1769,
+          "added": 1778,
           "replaced": 8,
           "absent": 0
         },
@@ -75,12 +75,12 @@
           "absent": 0
         },
         "fr": {
-          "added": 240,
-          "replaced": 71,
+          "added": 283,
+          "replaced": 70,
           "absent": 0
         },
         "gb": {
-          "added": 263,
+          "added": 264,
           "replaced": 55,
           "absent": 0
         },
@@ -96,7 +96,7 @@
         },
         "it": {
           "added": 353,
-          "replaced": 194,
+          "replaced": 195,
           "absent": 0
         },
         "mx": {
@@ -162,5 +162,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c0a608aca294359932be68a636e735580a228d7f7d422d40df54dfbc160bfbff"
+  "output_hash": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
 }

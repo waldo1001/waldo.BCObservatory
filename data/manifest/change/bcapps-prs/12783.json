@@ -6,10 +6,35 @@
   "title": " [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations",
   "url": "https://github.com/microsoft/BCApps/pull/12783",
   "published_at": "2026-10-23T08:20:37Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T21:57:46.568Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T22:04:37.706Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T22:04:45.829Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00361
+    },
+    "linked": {
+      "at": "2026-10-23T22:04:46.099Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "dc14cfd1217fbd3fa364b63565e752e5f0653955"
+    },
+    "published": {
+      "at": "2026-10-23T22:04:46.177Z",
+      "path": "content/changes/bcapps/12783.md"
     }
   },
   "input_hash": "696cbb4c48705e5ff9029de93666124994b5b4dd:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "29 x subcontractor price ignores run time when creating purchase cost for time based subcontracting operations"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "504f41958dd5e0f8033a736ed6e1e5e0c582acdfe3925721d824b02d9327da33"
 }

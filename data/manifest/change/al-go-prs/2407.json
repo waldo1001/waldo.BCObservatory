@@ -6,14 +6,39 @@
   "title": "Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency",
   "url": "https://github.com/microsoft/AL-Go/pull/2407",
   "published_at": "2026-10-22T09:20:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T22:05:18.342Z",
+      "change_class": "code",
+      "files": 27,
+      "al": 17,
+      "objects": 0,
+      "unjoined": 17
+    },
+    "extracted": {
+      "at": "2026-10-23T22:05:24.487Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005268
+    },
+    "linked": {
+      "at": "2026-10-23T22:05:24.488Z",
+      "objects": 0,
+      "unjoined": 17,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-23T22:05:24.497Z",
+      "path": "content/changes/al-go/2407.md"
     }
   },
   "input_hash": "cd94b78ed3f766d8ceb959f1d713cc06e120a036:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 2407,
@@ -27,6 +52,7 @@
     "community_contribution": false,
     "title_key": "enable al go for github on github enterprise cloud with data residency"
   },
-  "last_error": "github lane: fetched took longer than 120 s",
-  "retry_after": "2026-10-23T02:26:15.681Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b581fa66451f833922fa6be4d9810485ea7520f4c2018e789a098c92257a9117"
 }

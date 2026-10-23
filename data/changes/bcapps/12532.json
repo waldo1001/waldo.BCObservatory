@@ -1,0 +1,366 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12532,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12532",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-22T09:15:30Z",
+  "merge_commit_sha": "9f40655f161b2cf73694e2332daa42ebc5b417f0",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side",
+  "body_hash": "15873ffae6c02985ed18291d6027fe0d8c553a495cc8abb5af16a7bb3e8065ee",
+  "fixes_issues": [],
+  "work_items": [
+    651172
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 114,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/BE/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 172,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/History/PurchInvHeaderEdit.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/PurchInvHeaderEdit.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 27,
+    "additions": 1386,
+    "deletions": 33,
+    "al": 19
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/29",
+        "type": "page",
+        "id": 29,
+        "name": "Vendor Ledger Entries",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "page/29"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/113",
+        "type": "codeunit",
+        "id": 113,
+        "name": "Vend. Entry-Edit",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/113"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/29",
+        "type": "page",
+        "id": 29,
+        "name": "Vendor Ledger Entries",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/29"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/PurchInvHeaderEdit.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1405",
+        "type": "codeunit",
+        "id": 1405,
+        "name": "Purch. Inv. Header - Edit",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1405"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/113",
+        "type": "codeunit",
+        "id": 113,
+        "name": "Vend. Entry-Edit",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/113"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/29",
+        "type": "page",
+        "id": 29,
+        "name": "Vendor Ledger Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/29"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/History/PurchInvHeaderEdit.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Payables/VendEntryEdit.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

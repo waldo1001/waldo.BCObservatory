@@ -6,7 +6,7 @@
   "title": "[Main]-Re-enable BC tests disabled due to BCApps submodule migration-ES",
   "url": "https://github.com/microsoft/BCApps/pull/13106",
   "published_at": "2026-10-22T09:24:42Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
@@ -31,5 +31,7 @@
     "title_key": "re enable bc tests disabled due to bcapps submodule migration es"
   },
   "last_error": "fetch failed",
-  "retry_after": "2026-10-23T02:24:01.371Z"
+  "retry_after": null,
+  "skip": "non-code",
+  "skipped_at": "2026-10-23T22:04:52.293Z"
 }

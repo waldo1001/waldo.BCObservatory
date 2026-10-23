@@ -6,14 +6,39 @@
   "title": "[Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side",
   "url": "https://github.com/microsoft/BCApps/pull/12532",
   "published_at": "2026-10-22T09:15:30Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T22:05:35.866Z",
+      "change_class": "code",
+      "files": 27,
+      "al": 19,
+      "objects": 6,
+      "unjoined": 13
+    },
+    "extracted": {
+      "at": "2026-10-23T22:05:49.348Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004118
+    },
+    "linked": {
+      "at": "2026-10-23T22:05:49.593Z",
+      "objects": 6,
+      "unjoined": 13,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T22:05:49.604Z",
+      "path": "content/changes/bcapps/12532.md"
     }
   },
   "input_hash": "9f40655f161b2cf73694e2332daa42ebc5b417f0:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12532,
@@ -29,6 +54,7 @@
     "community_contribution": false,
     "title_key": "master dispute status code is not retained in some scenarios within the vendor purchase side but works well in customer sales side"
   },
-  "last_error": "github lane: fetched took longer than 120 s",
-  "retry_after": "2026-10-23T02:26:20.708Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c8b38af8298b453af9d7360aa3441713e672a99a793573eb25d73885d38d801e"
 }

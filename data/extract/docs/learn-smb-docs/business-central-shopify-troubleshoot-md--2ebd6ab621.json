@@ -2,30 +2,84 @@
   "item_id": "docs/learn-smb-docs/business-central/shopify/troubleshoot.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/troubleshoot",
   "title": "Troubleshooting the Shopify and Business Central synchronization",
-  "blob": "b4c7403bd4e7c0cf0deca84d042eaf0088389e32",
-  "summary": "Troubleshoot synchronization issues between Shopify and Business Central by running tasks in the foreground, reviewing logs, checking skipped records, and resetting sync dates.",
+  "blob": "66b724d747b30fb582d3d50f859aab89db079596",
+  "summary": "Troubleshooting guide for synchronizing data between Shopify and Business Central, covering logging, error handling, data export issues, access token management, and common error scenarios with resolution steps.",
   "systems": [
     "integration",
-    "sales",
-    "administration"
+    "sales"
   ],
   "topics": [
     "shopify connector",
+    "synchronization",
     "troubleshooting",
     "logging",
-    "data synchronization",
     "error handling",
-    "skipped records"
+    "data sync",
+    "access token"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shopify Shop Card"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Log Entries"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Log Entry"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Skipped Records"
+    },
+    {
+      "type": "page",
+      "name": "Data Capture List"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Products"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Orders"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Order"
+    },
+    {
+      "type": "page",
+      "name": "Extension Management"
+    },
+    {
+      "type": "page",
+      "name": "Extension Setting"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header Archive"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line Archive"
+    }
+  ],
   "features": [
-    "foreground task execution",
-    "logging modes",
-    "log entries",
-    "skipped records tracking",
-    "data retention policies",
-    "sync reset",
-    "access token management"
+    "Run Syncs in Background",
+    "Logging Mode",
+    "Request ID tracking",
+    "Log entry retention policy",
+    "Skipped Records tracking",
+    "Data Capture",
+    "Reset sync",
+    "Access token rotation",
+    "HTTPClient Requests",
+    "Refund Account mapping",
+    "Tip Account mapping",
+    "Sold Gift Card Account mapping"
   ],
   "versions": [],
   "parts": 1,
@@ -33,9 +87,9 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": false,
-      "cost_usd": 0.01081,
-      "pages_in_call": 5
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 1
     }
   ]
 }

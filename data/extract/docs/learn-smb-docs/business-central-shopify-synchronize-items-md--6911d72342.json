@@ -2,26 +2,26 @@
   "item_id": "docs/learn-smb-docs/business-central/shopify/synchronize-items.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-items",
   "title": "Synchronize items with Shopify",
-  "blob": "b7be656e5c87dc0f5940928da1efbbe9364dcced",
-  "summary": "Item synchronization between Business Central and Shopify, including configuration options for bidirectional sync, import/export settings, mapping strategies, and handling of product variants, images, and metadata.",
+  "blob": "69b15732d0b8b581e590f5d5214aff870477c80f",
+  "summary": "Item synchronization between Business Central and Shopify enables bidirectional data management of products, variants, pricing, inventory, and customs data. Configure sync direction, SKU mapping, auto-creation rules, and field synchronization to align product data across systems.",
   "systems": [
     "integration",
     "sales",
     "inventory"
   ],
   "topics": [
-    "shopify connector",
-    "item synchronization",
-    "product mapping",
-    "variants",
+    "shopify",
+    "product synchronization",
+    "item variants",
     "sku mapping",
-    "metafields",
-    "product collections"
+    "inventory management",
+    "order processing",
+    "data migration"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Shopify Shop"
+      "name": "Shopify Shop Card"
     },
     {
       "type": "page",
@@ -44,23 +44,27 @@
       "name": "Shopify Metafields"
     },
     {
-      "type": "page",
-      "name": "Item Card"
+      "type": "table",
+      "name": "Shopify Product"
+    },
+    {
+      "type": "table",
+      "name": "Shopify Variant"
     }
   ],
   "features": [
-    "item export to Shopify",
-    "item import from Shopify",
+    "Item synchronization direction (To Shopify / From Shopify)",
     "SKU mapping strategies",
-    "barcode mapping",
-    "variant handling",
-    "image synchronization",
-    "metafield support",
-    "product collections",
-    "translation sync",
-    "unit of measure as variant",
-    "inventory tracking",
-    "custom product status"
+    "Auto-create unknown items",
+    "Item template configuration",
+    "Product variant management",
+    "Extended text and marketing text sync",
+    "Item attributes sync",
+    "Customs data synchronization",
+    "Metafield import and export",
+    "Product collection assignment",
+    "Multi-language translations",
+    "Image synchronization"
   ],
   "versions": [],
   "parts": 1,
@@ -68,8 +72,8 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": false,
-      "cost_usd": 0.035295,
+      "cached": true,
+      "cost_usd": null,
       "pages_in_call": 1
     }
   ]

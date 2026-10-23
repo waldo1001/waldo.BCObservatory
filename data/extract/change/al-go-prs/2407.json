@@ -1,0 +1,31 @@
+{
+  "item_id": "change/al-go-prs/2407",
+  "number": 2407,
+  "title": "Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "AL-Go for GitHub now supports GitHub Enterprise Cloud with dynamic host resolution, automatically using the correct GitHub server and API URLs instead of hardcoded references to github.com.",
+  "key_points": [
+    "Scripts and workflows now use GITHUB_SERVER_URL and GITHUB_API_URL environment variables for all GitHub API calls",
+    "GH_HOST environment variable is set for gh CLI commands to target the correct host on GitHub Enterprise",
+    "New scenario guide documents how to use AL-Go for GitHub on GitHub Enterprise, including setup and best practices",
+    "Template repository download logic improved to construct API URLs correctly for both public GitHub and GitHub Enterprise",
+    "AL-Go for GitHub workflow explicitly verified to only run on github.com, preventing unsupported usage on GitHub Enterprise for the main repository"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005268,
+    "changes_in_call": 1
+  }
+}

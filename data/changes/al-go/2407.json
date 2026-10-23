@@ -1,0 +1,311 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2407,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2407",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-22T09:20:50Z",
+  "merge_commit_sha": "cd94b78ed3f766d8ceb959f1d713cc06e120a036",
+  "author": "freddydk",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency",
+  "body_hash": "d3f854fe4bd0970d596d4ea1238ec087a20a3ea14872c42596c2fb5e32a2a884",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": ".github/workflows/CI.yaml",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "Actions/AL-Go-Helper.ps1",
+      "status": "modified",
+      "additions": 49,
+      "deletions": 21,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/CheckForUpdates/CheckForUpdates.HelperFunctions.ps1",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/CheckForUpdates/CheckForUpdates.ps1",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/Deploy/Deploy.psm1",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/DetermineProjectsToBuild/DetermineProjectsToBuild.Action.ps1",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/DetermineProjectsToBuild/DetermineProjectsToBuild.psm1",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/DownloadProjectDependencies/DownloadProjectDependencies.psm1",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/GetArtifactsForDeployment/GetArtifactsForDeployment.ps1",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/GetArtifactsForDeployment/GetArtifactsForDeployment.psm1",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/Github-Helper.psm1",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 37,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/PullRequestStatusCheck/PullRequestStatusCheck.ps1",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/VerifyPRChanges/VerifyPRChanges.ps1",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/WorkflowPostProcess/WorkflowPostProcess.ps1",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Scenarios/UsingGitHubEnterprise.md",
+      "status": "added",
+      "additions": 60,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Templates/AppSource App/.AL-Go/localDevEnv.ps1",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Templates/AppSource App/.github/workflows/CreateRelease.yaml",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "Templates/Per Tenant Extension/.AL-Go/localDevEnv.ps1",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Templates/Per Tenant Extension/.github/workflows/CreateRelease.yaml",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "Tests/Deploy.Module.Test.ps1",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/DetermineProjectsToBuild.Test.ps1",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/DownloadProjectDependencies.Test.ps1",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/GitHub-Helper.Test.ps1",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/PullRequestStatusCheck.Test.ps1",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "e2eTests/e2eTestHelper.psm1",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 27,
+    "additions": 375,
+    "deletions": 110,
+    "al": 17
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/AL-Go-Helper.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/CheckForUpdates/CheckForUpdates.HelperFunctions.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/CheckForUpdates/CheckForUpdates.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/Deploy/Deploy.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/DetermineProjectsToBuild/DetermineProjectsToBuild.Action.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/DetermineProjectsToBuild/DetermineProjectsToBuild.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/DownloadProjectDependencies/DownloadProjectDependencies.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/GetArtifactsForDeployment/GetArtifactsForDeployment.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/GetArtifactsForDeployment/GetArtifactsForDeployment.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/Github-Helper.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/PullRequestStatusCheck/PullRequestStatusCheck.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/VerifyPRChanges/VerifyPRChanges.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/WorkflowPostProcess/WorkflowPostProcess.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Templates/AppSource App/.AL-Go/localDevEnv.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Templates/AppSource App/.github/workflows/CreateRelease.yaml",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Templates/Per Tenant Extension/.AL-Go/localDevEnv.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Templates/Per Tenant Extension/.github/workflows/CreateRelease.yaml",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}
