@@ -8,6 +8,7 @@ import { hostOf, ingestDiscovery } from "./discovery.js";
 import { ingestGitContent } from "./git-content.js";
 import { ingestGithubPrs } from "./github-prs.js";
 import { ingestMarketplace } from "./marketplace.js";
+import { ingestSupportUpdates } from "./support-updates.js";
 import { ingestRoadmap } from "./roadmap.js";
 import { newResult, PILLAR_OF, type IngestContext, type SourceResult } from "./types.js";
 import { ingestYoutube } from "./youtube.js";
@@ -16,6 +17,7 @@ const BY_KIND: Record<SourceKind, (s: SourceDef, ctx: IngestContext) => Promise<
   "docs-git": ingestGitContent, "guidelines-git": ingestGitContent, "code-git": ingestCode, youtube: ingestYoutube,
   blog: ingestBlog, "roadmap-api": ingestRoadmap, discovery: ingestDiscovery, "github-pr": ingestGithubPrs,
   vsmarketplace: ingestMarketplace,
+  "support-updates": ingestSupportUpdates,
 };
 
 export function knownHosts(sources: SourceDef[]): Set<string> {

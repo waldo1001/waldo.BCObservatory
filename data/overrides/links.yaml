@@ -80,3 +80,24 @@ links:
     label: possibly related
     why: both are about purchase invoice lines with Prices Including VAT; no source states that the change fixes the post's case
     evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  # Hotfix lists (D106 phase 4): the same behaviour as the post and the changes, no source states the link (questions 3, 4)
+  - from: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-prices-incl-vat-prod-posting-group--3b717ab825
+    to: hotfix/28.6#648146
+    label: possibly related
+    why: the hotfix restores the calculation of purchase invoice lines of type G/L Account; no source says it is the post's 28.2 case
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: change/bcapps/11208
+    to: hotfix/28.6#648146
+    label: possibly related
+    why: both are about purchase invoice lines of type G/L Account; the hotfix's ID is not the change's work item (649414)
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: change/bcapps/12982
+    to: hotfix/28.5#645085
+    label: relation unknown
+    why: both are about VAT Product Posting Group behaviour on sales lines since 28.4; nothing says what the regression is or that one fixes the other
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: change/bcapps/13085
+    to: hotfix/28.5#645085
+    label: relation unknown
+    why: both are about VAT Product Posting Group behaviour on sales lines since 28.4; nothing says what the regression is or that one fixes the other
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }

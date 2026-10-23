@@ -97,7 +97,8 @@ export function pageRecord(path: string, fm: Record<string, any>): PageRecord {
   // a real date only (published, GA): object and topic pages are regenerated nightly, which is not news; a weekly
   // digest is dated by the Monday of its week (D101)
   const date = fm.published_at ?? fm.ga_date ?? fm.merged_at
-    ?? (fm.type === "digest" && typeof fm.week === "string" ? weekStart(fm.week) ?? undefined : undefined);
+    ?? (fm.type === "digest" && typeof fm.week === "string" ? weekStart(fm.week) ?? undefined : undefined)
+    ?? (fm.type === "hotfix" && typeof fm.month === "string" ? `${fm.month}-01` : undefined);
   const r: PageRecord = {
     path, type: String(fm.type), title: String(fm.title ?? ""), summary: String(fm.summary ?? ""), tier: String(fm.tier ?? ""),
     ...(fm.system ? { system: fm.system } : {}), ...(date ? { date: String(date).slice(0, 10) } : {}),
@@ -150,6 +151,8 @@ export function pageRecord(path: string, fm: Record<string, any>): PageRecord {
   if (fm.type === "feature") { r.status = fm.status; if (fm.area) r.path_label = String(fm.area); }
   // an AL Language extension version (D85): pre-release until a stable upload exists, labelled with its wave
   if (fm.type === "release") { r.status = fm.prerelease ? "prerelease" : "released"; if (fm.wave) r.path_label = `${fm.wave}${fm.major ? ` (BC${fm.major})` : ""}`; }
+  // a hotfix list (D106): every entry's ID is a tag, so a search for "648146" finds its update; labelled with the major
+  if (fm.type === "hotfix") { r.tags = [...(Array.isArray(fm.entry_ids) ? fm.entry_ids.map(String) : []), "hotfix"]; r.path_label = `BC${fm.major} update`; }
   // a change page (D61): its repository source, and its kind as the status (feature, fix, breaking, ...)
   // D91: and what the changes list prints: branch, major, objects touched, the breaking and community flags
   if (fm.type === "change") Object.assign(r, { source: fm.source_id, status: fm.change_kind,

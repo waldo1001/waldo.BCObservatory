@@ -61,6 +61,18 @@ sources:
     license: Microsoft; changelog text stored verbatim with attribution (CONTENT-NOTICE.md)
     backfill: { all: true }
 
+  # ---------------------------------------------------------------- official: Microsoft Support hotfix lists (D106)
+  - id: ms-support-updates
+    kind: support-updates
+    name: Business Central update pages on Microsoft Support (2026 release wave 1)
+    url: https://support.microsoft.com/en-us/servicing/dynamics/business-central/released-updates-for-microsoft-dynamics-365-business-central-2026-release-wave-1
+    tier: official
+    full_text: false
+    fetch:
+      updates: ["28.4", "28.5", "28.6"]
+    license: Microsoft; per entry the ID, the functional area and the one-line wording, with attribution and a link (CONTENT-NOTICE.md)
+    backfill: { all: true }
+
   # ---------------------------------------------------------------- official: guidelines
   - id: bcquality
     kind: guidelines-git

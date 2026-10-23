@@ -1,0 +1,25 @@
+---
+import { getCollection } from "astro:content";
+import Page from "../../../layouts/Page.astro";
+import { siteLinks, wrapTables } from "../../../lib/links";
+import { trimBody } from "../../../lib/page";
+export async function getStaticPaths() {
+  return (await getCollection("hotfixes")).map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const fm = entry.data;
+const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `hotfixes/${entry.id}`));
+const fixes = Array.isArray(fm.links?.changes) ? fm.links.changes.length : 0;
+const stats = [
+  { n: `BC${fm.major}`, label: "Business Central" },
+  ...(fm.month ? [{ n: String(fm.month), label: "released" }] : []),
+  { n: fm.entry_count ?? 0, label: fm.entry_count === 1 ? "entry" : "entries" },
+  { n: fixes, label: fixes === 1 ? "code change" : "code changes" },
+];
+---
+<Page fm={fm} kind={`Hotfix list · Update ${fm.update}`} path={`hotfixes/${entry.id}`} section="hotfixes"
+  stats={stats}
+  context={{ label: "Microsoft Support", href: fm.url }}>
+  <div class="prose" set:html={wrapTables(html)} />
+</Page>
