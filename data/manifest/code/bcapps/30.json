@@ -6,7 +6,7 @@
   "title": "microsoft/BCApps main (BC30)",
   "url": "https://github.com/microsoft/BCApps/tree/main",
   "published_at": null,
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -137,19 +137,19 @@
       }
     },
     "linked": {
-      "at": "2026-10-19T01:02:39.064Z",
+      "at": "2026-10-23T23:18:55.059Z",
       "graph": {
         "major": "30",
         "written": true,
-        "edges": 15814,
-        "unresolved": 1109,
+        "edges": 15826,
+        "unresolved": 1110,
         "key": "1:8ee3d6ba8dd0:apps:7ef7110d",
-        "ms": 2129777
+        "ms": 2120190
       },
       "graph_key": "1:8ee3d6ba8dd0:apps:7ef7110d"
     },
     "published": {
-      "at": "2026-10-19T01:02:39.068Z"
+      "at": "2026-10-23T23:18:55.068Z"
     }
   },
   "input_hash": "15385dede95a4f9e7be01be47c684fc9d654a7ce:x4:cb1a23f6b",
@@ -162,5 +162,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+  "output_hash": "c0331f41885d5ffce30190e6c4a325494bf7cd03476841c6ba865948ad40f6b1"
 }
