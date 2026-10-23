@@ -35,7 +35,7 @@ import { dot, embed, parseModel, type StaticModel } from "./embed.js";
 import { countryBlock, memberAnswer, parseAnchor, replacedInLine, type DiffObject } from "./country.js";
 import { DEFAULT_BUDGET, anchorView, budgetOf, pageView, type ViewArgs } from "./sections.js";
 
-const VERSION = "0.8.0";
+const VERSION = "0.8.1";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 /** One answer's characters (D93): a longer page comes back compact; B is how the descriptions say it. */

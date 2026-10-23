@@ -1,6 +1,6 @@
 # BC Observatory plugin for Claude Code and GitHub Copilot CLI
 
-Plugin `bc-observatory` 0.4.1, with the `bc-observatory` MCP server 0.8.0. Install:
+Plugin `bc-observatory` 0.4.1, with the `bc-observatory` MCP server 0.8.1. Install:
 
 ```bash
 claude plugin marketplace add waldo1001/waldo.BCObservatory     # Claude Code, step 1: the marketplace
