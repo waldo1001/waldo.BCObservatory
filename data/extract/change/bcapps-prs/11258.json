@@ -1,0 +1,44 @@
+{
+  "item_id": "change/bcapps-prs/11258",
+  "number": 11258,
+  "title": "[GB] IdealPostcodes: fix provider selection and address retrieval through the Postcode Service Manager framework",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "The IdealPostcodes postcode provider now correctly registers with the Postcode Service Manager framework and retrieves addresses by caching search results and resolving unmapped IDs through the API's resolve endpoint instead of a non-existent fetch endpoint.",
+  "key_points": [
+    "Fixed provider key registration so the framework correctly recognizes configured IdealPostcodes service",
+    "Address retrieval now uses cached search results instead of making unnecessary API calls",
+    "Unknown address IDs are resolved through the correct resolve endpoint instead of a non-existent route",
+    "New address cache codeunit stores search results for the session to avoid duplicate lookups",
+    "Tests verify correct provider configuration, search result caching, and proper ID resolution"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [
+    {
+      "object": "IPC Management",
+      "member": "GetAddressDetails",
+      "replacement": null
+    },
+    {
+      "object": "IPC Management",
+      "member": "ParseAddressDetail",
+      "replacement": null
+    }
+  ],
+  "systems": [
+    "integration",
+    "localization"
+  ],
+  "quote": "A BC partner integrating with IdealPostcodes as a postcode provider through the Postcode Service Manager framework reported the lookup never becoming available.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004782,
+    "changes_in_call": 1
+  }
+}

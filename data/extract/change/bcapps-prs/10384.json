@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10384",
+  "number": 10384,
+  "title": "[Extensibility][SubscriptionBilling] Make procedures necessary for custom Usage Data Connector externally accessible",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Subscription Billing procedures for creating custom Usage Data Connectors are now externally accessible by removing internal keyword visibility modifiers.",
+  "key_points": [
+    "Six procedures in UsageDataBilling table made public for custom connector implementations",
+    "One procedure in CreateUsageDataBilling codeunit made public",
+    "Enables dependent apps to implement custom Usage Data Connector interface",
+    "No functional behavior changes to existing Subscription Billing operations",
+    "Low risk change affecting only extension points"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "All necessary procedures for creating billing data are internal and not accessible to a dependent app.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003676,
+    "changes_in_call": 1
+  }
+}

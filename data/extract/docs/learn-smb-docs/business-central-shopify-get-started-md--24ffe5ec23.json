@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/shopify/get-started.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/get-started",
-  "title": "Getting started with the connector for Shopify",
-  "blob": "216bff4dc656648e4716e205c7e413831a2f313b",
-  "summary": "Connect Shopify stores to Business Central and synchronize items, prices, inventory, customers, companies, and orders between the two systems using the Shopify Connector.",
+  "title": "Get started with the Shopify Connector",
+  "blob": "0f81827e34b33f1a3c71c29d2e49a5773088254e",
+  "summary": "Set up and connect Shopify online stores to Dynamics 365 Business Central, including prerequisites, installation, OAuth authentication, and testing strategies for synchronizing items, prices, inventory, customers, and orders.",
   "systems": [
     "integration",
     "sales",
@@ -11,34 +11,28 @@
   ],
   "topics": [
     "shopify connector",
-    "setup",
-    "integration",
-    "synchronization",
-    "e-commerce"
+    "e-commerce integration",
+    "oauth authentication",
+    "data synchronization",
+    "sandbox testing",
+    "permission sets",
+    "connection setup"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Shopify Shop"
-    },
-    {
-      "type": "page",
-      "name": "Shopify Shop Card"
-    },
-    {
-      "type": "page",
-      "name": "Add Item to Shopify"
     }
   ],
   "features": [
-    "Shopify connection",
-    "item synchronization",
-    "price synchronization",
-    "inventory synchronization",
-    "customer synchronization",
-    "order synchronization",
-    "access tokens",
-    "offline access tokens"
+    "Shopify Connector app",
+    "offline access tokens",
+    "auto create unknown items",
+    "auto create unknown customers",
+    "auto create sales documents",
+    "shopify can update items",
+    "shopify can update customers",
+    "allow data sync to shopify"
   ],
   "versions": [],
   "parts": 1,
@@ -47,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007092,
-      "pages_in_call": 7
+      "cost_usd": 0.009718,
+      "pages_in_call": 1
     }
   ]
 }

@@ -6,10 +6,35 @@
   "title": "[main] Bug 653921 Warehouse pick fails with \"Nothing to handle\" when an earlier unshipped pick uses a non-default shipment bin ",
   "url": "https://github.com/microsoft/BCApps/pull/12842",
   "published_at": "2026-10-23T10:50:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T21:57:46.568Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T21:59:55.962Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T22:00:01.913Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003642
+    },
+    "linked": {
+      "at": "2026-10-23T22:00:02.141Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T22:00:02.150Z",
+      "path": "content/changes/bcapps/12842.md"
     }
   },
   "input_hash": "e5ff3d87712a738a2872c684693cba3ad1320697:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 653921 warehouse pick fails with nothing to handle when an earlier unshipped pick uses a non default shipment bin"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "66435405b561a00d722cc5ffc0a2b68001698874a913a91fae741cbe19376159"
 }

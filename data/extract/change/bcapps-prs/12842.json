@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12842",
+  "number": 12842,
+  "title": "[main] Bug 653921 Warehouse pick fails with \"Nothing to handle\" when an earlier unshipped pick uses a non-default shipment bin ",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Warehouse pick validation now correctly recognizes picked quantities in non-default shipment bins at basic warehouse locations, preventing false \"Nothing to handle\" failures when an earlier pick remains unshipped.",
+  "key_points": [
+    "CalcQtyOnShipmentBins fallback logic added to find picked stock in non-default shipment bins",
+    "Addresses issue where picked quantities were incorrectly reset to zero, blocking subsequent picks",
+    "Uses existing CalcQtyOnBin helper to check non-default shipment bins while preserving item-tracking filters",
+    "Fix applies to basic warehouse locations where shipment bins lack explicit Ship bin type"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse"
+  ],
+  "quote": "Warehouse pick fails with \"Nothing to handle\" when an earlier unshipped pick uses a non-default shipment bin",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003642,
+    "changes_in_call": 1
+  }
+}

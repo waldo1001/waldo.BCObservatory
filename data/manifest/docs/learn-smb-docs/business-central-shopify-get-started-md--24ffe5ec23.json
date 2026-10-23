@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Getting started with the connector for Shopify",
+  "title": "Get started with the Shopify Connector",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/get-started",
   "published_at": "2026-10-23T11:09:26.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.283Z",
-      "blob": "216bff4dc656648e4716e205c7e413831a2f313b",
-      "words": 1219,
+      "at": "2026-10-23T21:59:51.719Z",
+      "blob": "0f81827e34b33f1a3c71c29d2e49a5773088254e",
+      "words": 1189,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T13:59:13.075Z",
+      "at": "2026-10-23T22:00:00.086Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.007092
+      "objects": 1,
+      "cost_usd": 0.009718
     },
     "summarized": {
-      "at": "2026-10-06T13:59:13.079Z",
+      "at": "2026-10-23T22:00:00.087Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:59:13.080Z",
+      "at": "2026-10-23T22:00:00.088Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:59:13.080Z",
+      "at": "2026-10-23T22:00:00.089Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/shopify/get-started.md",
-    "description": "First steps when configuring a connection between Business Central and Shopify.",
-    "ms_date": "2026-09-04",
+    "description": "Learn how to connect one or more Shopify online stores to Business Central, including prerequisites, installation options, and testing strategies.",
+    "ms_date": "2026-09-22",
     "ms_topic": "get-started",
     "search_form": [
       {
@@ -81,11 +81,11 @@
     ],
     "keywords": [],
     "ai_usage": null,
-    "words": 1219,
+    "words": 1189,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a4d03cb2519479da20afca7a2fa572d5a29691a62f58d914b32f0e0fbc1f326d"
+  "output_hash": "40813b64ac0370b38ee347a25208795822f06b5b22d38840ba3324297bf70995"
 }

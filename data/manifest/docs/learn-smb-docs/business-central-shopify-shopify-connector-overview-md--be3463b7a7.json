@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Shopify Connector Overview",
+  "title": "Shopify Connector overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-connector-overview",
   "published_at": "2026-10-23T11:09:26.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:20.191Z",
-      "blob": "53f3002d1c52a905c2fb82527886bf866bf764b2",
-      "words": 772,
+      "at": "2026-10-23T21:59:52.708Z",
+      "blob": "1e9777ca2a1b65f568fc424822376fa5d5dbc356",
+      "words": 769,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T14:22:14.512Z",
+      "at": "2026-10-23T22:00:01.902Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00753
+      "cost_usd": 0.004377
     },
     "summarized": {
-      "at": "2026-10-06T14:22:14.518Z",
+      "at": "2026-10-23T22:00:01.903Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:22:14.518Z",
+      "at": "2026-10-23T22:00:01.905Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:22:14.518Z",
+      "at": "2026-10-23T22:00:01.906Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/shopify/shopify-connector-overview.md",
-    "description": "Learn to use Shopify Connector to synchronize orders, stock, and customer information to fulfill orders faster, and better serve customers.",
-    "ms_date": "2025-10-20",
-    "ms_topic": "concept-article",
+    "description": "Learn how the Shopify Connector synchronizes products, inventory, customers, orders, and transactions between Shopify and Business Central.",
+    "ms_date": "2026-09-24",
+    "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 772,
+    "words": 769,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "992d9111b9dc89f57b687748369251ef7cef82c31aa0b996f0fd00058e9c3564"
+  "output_hash": "fa0052b7ac283c8b49e34685c0cf3d1b5cd947e9da0623b87ad71b0fbf833981"
 }

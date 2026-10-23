@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-customers",
   "published_at": "2026-10-23T11:09:26.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:20.196Z",
-      "blob": "23f6bd150280296b1a1f5a4b7de2e5e834e6a775",
-      "words": 3597,
+      "at": "2026-10-23T22:00:03.385Z",
+      "blob": "6bc3d4f78bc756c6199d8342deb44ea758b7068d",
+      "words": 3934,
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T14:22:14.513Z",
+      "at": "2026-10-23T22:00:24.026Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00753
+      "objects": 12,
+      "cost_usd": 0.018967
     },
     "summarized": {
-      "at": "2026-10-06T14:22:14.518Z",
+      "at": "2026-10-23T22:00:24.030Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:22:14.519Z",
+      "at": "2026-10-23T22:00:24.031Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:22:14.519Z",
+      "at": "2026-10-23T22:00:24.033Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/shopify/synchronize-customers.md",
     "description": "Import customers and companies from or export to Shopify.",
-    "ms_date": "2026-07-13",
+    "ms_date": "2026-10-14",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -76,11 +76,11 @@
     ],
     "keywords": [],
     "ai_usage": null,
-    "words": 3597,
+    "words": 3934,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dfc2f01239b5641eec17f64e8ea1fee4a49d65f2b0e010592a0a253e52d1cfec"
+  "output_hash": "1ed2af2a9be932d9ce5fa87031e65a9e8a5aa00bfb61a61bc11c5dc365ee30aa"
 }

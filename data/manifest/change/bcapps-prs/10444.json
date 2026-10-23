@@ -6,10 +6,35 @@
   "title": "[Bug][Subscription Billing] \"Cancellation Possible Until\" is rounded to the end of the month when the Notice Period is expressed in days",
   "url": "https://github.com/microsoft/BCApps/pull/10444",
   "published_at": "2026-10-23T11:02:11Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T21:57:46.568Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T21:59:52.717Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T21:59:59.473Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.005034
+    },
+    "linked": {
+      "at": "2026-10-23T21:59:59.768Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T21:59:59.783Z",
+      "path": "content/changes/bcapps/10444.md"
     }
   },
   "input_hash": "049372b00f600da4221af4407206475ba0392896:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "bug subscription billing cancellation possible until is rounded to the end of the month when the notice period is expressed in days"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9c88609400f55e6dbdb74d7aa4f650218db1e3b1fc3503fc60650f8924f14316"
 }

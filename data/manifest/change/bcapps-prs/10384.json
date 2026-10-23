@@ -6,10 +6,35 @@
   "title": "[Extensibility][SubscriptionBilling] Make procedures necessary for custom Usage Data Connector externally accessible",
   "url": "https://github.com/microsoft/BCApps/pull/10384",
   "published_at": "2026-10-23T10:41:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T21:57:46.568Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T22:00:09.617Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T22:00:23.713Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003676
+    },
+    "linked": {
+      "at": "2026-10-23T22:00:24.001Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T22:00:24.010Z",
+      "path": "content/changes/bcapps/10384.md"
     }
   },
   "input_hash": "0147af038d26a3539910974e5bf29c34958350c3:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "extensibility subscriptionbilling make procedures necessary for custom usage data connector externally accessible"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1e93a4ab7f4b6105dcce8cdd4f3b600f987304e147cecaa8cefc23f012b3b665"
 }

@@ -2,23 +2,28 @@
   "item_id": "docs/learn-smb-docs/business-central/shopify/synchronize-inventory.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-inventory",
   "title": "Synchronize inventory with Shopify",
-  "blob": "114d581ea4b3bfc4f1c297a5d6d53ea112c169ac",
-  "summary": "Configure inventory synchronization between Business Central and Shopify to send current stock levels and keep product availability accurate across sales channels.",
+  "blob": "0854a13d4a3159385482cc18516171e0ffe71a5d",
+  "summary": "Synchronize inventory with Shopify sends current stock levels from Business Central to Shopify to keep product availability accurate across sales channels. Configure inventory sync, run manual or scheduled syncs, and plan replenishment using requisition worksheets, purchase orders, transfer orders, and production output.",
   "systems": [
     "inventory",
     "integration"
   ],
   "topics": [
     "shopify",
-    "inventory sync",
-    "stock levels",
+    "inventory synchronization",
+    "stock calculation",
     "fulfillment",
-    "locations"
+    "locations",
+    "replenishment planning"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Shopify Shop"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Shop Card"
     },
     {
       "type": "page",
@@ -33,25 +38,24 @@
       "name": "Sync Stock to Shopify"
     },
     {
-      "type": "table",
-      "name": "Shopify Variants"
-    },
-    {
-      "type": "table",
-      "name": "Shopify Inventory"
+      "type": "page",
+      "name": "Shopify Log Entries"
     },
     {
       "type": "page",
-      "name": "Shopify Log Entries"
+      "name": "Shopify Log Entry"
     }
   ],
   "features": [
-    "Inventory tracking",
-    "Location filtering",
-    "Stock calculation methods",
-    "Fulfillment services",
-    "3PL support",
-    "Job queue scheduling"
+    "inventory tracking",
+    "stock calculation methods",
+    "location filter",
+    "default product location",
+    "variant ID filter",
+    "skip import stock",
+    "projected available balance",
+    "fulfillment services",
+    "replenishment planning"
   ],
   "versions": [],
   "parts": 1,
@@ -60,8 +64,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008701,
-      "pages_in_call": 8
+      "cost_usd": 0.013255,
+      "pages_in_call": 1
     }
   ]
 }

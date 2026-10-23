@@ -1,0 +1,93 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10384,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10384",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-23T10:41:50Z",
+  "merge_commit_sha": "0147af038d26a3539910974e5bf29c34958350c3",
+  "author": "caesarsit",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Extensibility][SubscriptionBilling] Make procedures necessary for custom Usage Data Connector externally accessible",
+  "body_hash": "3210bff275d984fc2c539a7f184926de0fe2951c5465b735b8c219f564514a40",
+  "fixes_issues": [
+    10019
+  ],
+  "work_items": [
+    656403
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/CreateUsageDataBilling.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Tables/UsageDataBilling.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 7,
+    "deletions": 7,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/CreateUsageDataBilling.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8023",
+        "type": "codeunit",
+        "id": 8023,
+        "name": "Create Usage Data Billing",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8023"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Tables/UsageDataBilling.Table.al",
+        "status": "modified",
+        "key": "table/8006",
+        "type": "table",
+        "id": 8006,
+        "name": "Usage Data Billing",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8006"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ],
+  "issues": [
+    {
+      "number": 10019,
+      "title": "[Extensibility Request][Subscription Billing] Make procedures required by custom Usage Data Connectors accessible",
+      "state": "closed"
+    }
+  ]
+}

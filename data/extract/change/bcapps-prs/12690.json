@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12690",
+  "number": 12690,
+  "title": "[Master]-You must assign a serial number for item xxx\" when trying to reverse Capacity Ledger Entry",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Manufacturing item journal posting no longer requires serial numbers for reversing capacity ledger entries with zero output, fixing an error when reversing capacity entries for serial-tracked items.",
+  "key_points": [
+    "Disabled item tracking for reversing capacity ledger entries that have zero output quantity",
+    "Allows reversals of capacity entries without requiring serial number assignment",
+    "Specifically targets lines where Rev. Capacity Ledger Entry No. is set and Output Quantity is 0"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "turn off item tracking for output lines that reverse a capacity entry (Rev. Capacity Ledger Entry No. <> 0) and have Output Quantity = 0",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003406,
+    "changes_in_call": 1
+  }
+}

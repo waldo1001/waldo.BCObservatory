@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10444",
+  "number": 10444,
+  "title": "[Bug][Subscription Billing] \"Cancellation Possible Until\" is rounded to the end of the month when the Notice Period is expressed in days",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed an issue where subscription line cancellation dates were incorrectly rounded to month-end when notice periods were expressed in days or weeks, potentially allowing cancellations outside agreed notice windows. Added logic to only apply month-end alignment for month-based formulas.",
+  "key_points": [
+    "Subscription cancellation dates no longer snap to month-end for day or week-based notice periods",
+    "Added DateFormulaManagement.IsMonthBasedDateFormula() to distinguish month-based from day/week-based formulas",
+    "Applied fix to three calculation methods: CalculateCancellationPossibleUntil, CalculateTermUntilFromCancellationPossibleUntil, and CalculateTermUntilUsingExtensionTerm",
+    "Composite formulas like <1Y+6M> are correctly identified as month-based, while formulas with day or week components are not",
+    "Added 10 test methods covering day, week, month, quarter, and composite formulas"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005034,
+    "changes_in_call": 1
+  }
+}

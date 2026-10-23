@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/background",
   "published_at": "2026-10-23T11:09:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:59:13.074Z",
+      "at": "2026-10-23T21:59:50.663Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 18,
-      "cost_usd": 0.007092
+      "objects": 14,
+      "cost_usd": 0.007131
     },
     "summarized": {
-      "at": "2026-10-06T13:59:13.079Z",
+      "at": "2026-10-23T21:59:50.665Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:59:13.079Z",
+      "at": "2026-10-23T21:59:50.666Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:59:13.079Z",
+      "at": "2026-10-23T21:59:50.667Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "15b2632fd52f9e4826465a4281b5a8c19c79c74b"
+  "output_hash": "a11b526e170865d8c5b9a5deb3ecd22efb59e5a5319240d7b7f41f436d11b2d0"
 }
