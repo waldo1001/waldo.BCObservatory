@@ -1,0 +1,586 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2402,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2402",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-20T12:51:31Z",
+  "merge_commit_sha": "91c34a43d7b315441d7299652128abf41491329a",
+  "author": "WaelAbuSeada",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Move Copilot review engine into AL-Go",
+  "body_hash": "4ae34acaa2fbebb324d5ac6edc33a3bf0a858d89392ef3b00ad0e00638016b57",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": ".github/dependabot.yml",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": ".github/workflows/CI.yaml",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "Actions/.Modules/ReadSettings.psm1",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/.Modules/settings.schema.json",
+      "status": "modified",
+      "additions": 122,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/AL-Go-Helper.ps1",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/CheckForUpdates/CheckForUpdates.HelperFunctions.ps1",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/ReviewAgent.ps1",
+      "status": "added",
+      "additions": 354,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/action.yaml",
+      "status": "added",
+      "additions": 134,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/schemas/review-run-diagnostics.schema.json",
+      "status": "added",
+      "additions": 182,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/scripts/Artifacts.ps1",
+      "status": "added",
+      "additions": 221,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/scripts/BCQualityContextAndMetrics.ps1",
+      "status": "added",
+      "additions": 562,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/scripts/CommentPublishing.ps1",
+      "status": "added",
+      "additions": 720,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/scripts/CopilotCli.ps1",
+      "status": "added",
+      "additions": 163,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/scripts/FindingDeduplication.ps1",
+      "status": "added",
+      "additions": 124,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/scripts/FindingPlacement.ps1",
+      "status": "added",
+      "additions": 303,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/scripts/Git.ps1",
+      "status": "added",
+      "additions": 383,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/scripts/GitHub.ps1",
+      "status": "added",
+      "additions": 133,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/scripts/Invoke-CopilotPRReview.ps1",
+      "status": "added",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/scripts/Invoke-CopilotPRReview.psm1",
+      "status": "added",
+      "additions": 699,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/scripts/LoggingAndValidation.ps1",
+      "status": "added",
+      "additions": 289,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/scripts/ReportParsing.ps1",
+      "status": "added",
+      "additions": 814,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReviewAgent/scripts/ReviewExecution.ps1",
+      "status": "added",
+      "additions": 1299,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/SetupBCQuality/README.md",
+      "status": "added",
+      "additions": 71,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/SetupBCQuality/SetupBCQuality.ps1",
+      "status": "added",
+      "additions": 276,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/SetupBCQuality/SetupBCQuality.psm1",
+      "status": "added",
+      "additions": 245,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/SetupBCQuality/action.yaml",
+      "status": "added",
+      "additions": 83,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/package-lock.json",
+      "status": "added",
+      "additions": 172,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/package.json",
+      "status": "added",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Scenarios/Agents/CopilotCodeReview.md",
+      "status": "added",
+      "additions": 67,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Scenarios/settings.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Templates/AppSource App/.github/workflows/CopilotPRReview.yaml",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Templates/AppSource App/.github/workflows/CopilotPRReviewRunner.yaml",
+      "status": "added",
+      "additions": 198,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Templates/Per Tenant Extension/.github/workflows/CopilotPRReview.yaml",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Templates/Per Tenant Extension/.github/workflows/CopilotPRReviewRunner.yaml",
+      "status": "added",
+      "additions": 198,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Tests/AL-Go-Helper.Test.ps1",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/CheckForUpdates.Action.Test.ps1",
+      "status": "modified",
+      "additions": 92,
+      "deletions": 8,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReadSettings.Test.ps1",
+      "status": "modified",
+      "additions": 107,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReviewAgent.Action.Test.ps1",
+      "status": "added",
+      "additions": 426,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReviewAgent/Invoke-CopilotPRReview.Metrics.Tests.ps1",
+      "status": "added",
+      "additions": 584,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReviewAgent/Invoke-CopilotPRReview.Tests.ps1",
+      "status": "added",
+      "additions": 3902,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReviewAgent/fixtures/findings-consumer/http-consumed-false-01.json",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReviewAgent/fixtures/findings-consumer/privacy-008.json",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReviewAgent/fixtures/findings-consumer/privacy-015-cumulative-lines.json",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReviewAgent/fixtures/findings-consumer/privacy-015-normalization.json",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReviewAgent/fixtures/findings-consumer/privacy-015.json",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReviewAgent/fixtures/findings-report-roles/README.md",
+      "status": "added",
+      "additions": 11,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Tests/ReviewAgent/fixtures/findings-report-roles/bcquality-findings-report.b74967bc.schema.json",
+      "status": "added",
+      "additions": 159,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReviewAgent/fixtures/findings-report-roles/leaf-completed.security-clean-02.al-error-handling-review.json",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReviewAgent/fixtures/findings-report-roles/leaf-not-applicable-root-fields.http-consumed-false-01.al-finance-review.json",
+      "status": "added",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReviewAgent/fixtures/findings-report-roles/leaf-not-applicable-root-fields.privacy-015-attempt2.al-finance-review.json",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReviewAgent/fixtures/findings-report-roles/leaf-not-applicable-root-fields.privacy-015.al-query-review.json",
+      "status": "added",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/SetupBCQuality.Action.Test.ps1",
+      "status": "added",
+      "additions": 404,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/TestActionsHelper.psm1",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 9,
+      "class": "other"
+    },
+    {
+      "path": "Tests/WorkflowSanitation/WorkflowFileContent.Test.ps1",
+      "status": "modified",
+      "additions": 115,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/WorkflowSanitation/WorkflowReferences.Test.ps1",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 6,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 57,
+    "additions": 14057,
+    "deletions": 30,
+    "al": 30
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/.Modules/ReadSettings.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/.Modules/settings.schema.json",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/AL-Go-Helper.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/CheckForUpdates/CheckForUpdates.HelperFunctions.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/ReviewAgent.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/action.yaml",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/schemas/review-run-diagnostics.schema.json",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/scripts/Artifacts.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/scripts/BCQualityContextAndMetrics.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/scripts/CommentPublishing.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/scripts/CopilotCli.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/scripts/FindingDeduplication.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/scripts/FindingPlacement.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/scripts/Git.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/scripts/GitHub.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/scripts/Invoke-CopilotPRReview.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/scripts/Invoke-CopilotPRReview.psm1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/scripts/LoggingAndValidation.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/scripts/ReportParsing.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReviewAgent/scripts/ReviewExecution.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/SetupBCQuality/README.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/SetupBCQuality/SetupBCQuality.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/SetupBCQuality/SetupBCQuality.psm1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/SetupBCQuality/action.yaml",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/package-lock.json",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/package.json",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Templates/AppSource App/.github/workflows/CopilotPRReview.yaml",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Templates/AppSource App/.github/workflows/CopilotPRReviewRunner.yaml",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Templates/Per Tenant Extension/.github/workflows/CopilotPRReview.yaml",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Templates/Per Tenant Extension/.github/workflows/CopilotPRReviewRunner.yaml",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

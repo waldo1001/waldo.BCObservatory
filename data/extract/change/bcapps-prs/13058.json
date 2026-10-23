@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13058",
+  "number": 13058,
+  "title": "Bug 656064: Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense itemization records now store properly rounded currency amounts and include the missing currency code to prevent rounding errors in expense calculations.",
+  "key_points": [
+    "Itemization table values are now properly rounded to match currency decimal places",
+    "Currency code field added to expense itemization records",
+    "Rounding logic applied when storing expense amounts in itemization table",
+    "Fixes calculation discrepancies caused by accumulated unrounded values",
+    "Test adjustments made to reflect rounding corrections"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Rounding of currency amounts",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003485,
+    "changes_in_call": 1
+  }
+}

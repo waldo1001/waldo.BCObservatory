@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/12160",
+  "number": 12160,
+  "title": "Deliverable 617319: Move French accelerated depreciation to W1 base application",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "fixed-assets",
+    "finance",
+    "platform",
+    "development"
+  ],
+  "summary": "French accelerated depreciation functionality is now part of the standard W1 base application, with migration support for existing French setups through feature management.",
+  "key_points": [
+    "Derogatory depreciation moved from French-specific localization to the core application",
+    "New depreciation book setup fields, posting accounts, and calculation logic added to all installations",
+    "Links created between regular and derogatory entries to maintain consistency during posting and reversals",
+    "Feature management controls migration of existing French depreciation books and historical data",
+    "Reports and layouts updated to display derogatory depreciation information"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "quote": "Moved derogatory depreciation from FR BaseApp to W1 BaseApp.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.015651,
+    "changes_in_call": 1
+  }
+}

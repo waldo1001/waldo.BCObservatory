@@ -1,0 +1,3569 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12160,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12160",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-20T13:15:39Z",
+  "merge_commit_sha": "1fe1391a78b110631f9a0e91900c2420d90eecb9",
+  "author": "AleksanderGladkov",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "Build: scripts & configs",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Deliverable 617319: Move French accelerated depreciation to W1 base application",
+  "body_hash": "df9db5dbfea744246a2c19c1fd16c917ac860b5adc8036c5c160bfae33908039",
+  "fixes_issues": [],
+  "work_items": [
+    617319
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "build/scripts/Miapp/.miappsnap/07813bff2d0e4ac9769c056429ce7e634fba3498.json",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "src/Apps/AT/ContosoCoffeeDemoDatasetAT/app/DemoData/Finance/1. Setup Data/CreateATGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/AT/ContosoCoffeeDemoDatasetAT/app/DemoData/FixedAsset/1. Setup Data/CreateFAPostingGrpAT.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/AU/ContosoCoffeeDemoDatasetAU/app/DemoData/Finance/1.Setup Data/CreateAUGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/AU/ContosoCoffeeDemoDatasetAU/app/DemoData/FixedAsset/1.Setup Data/CreateAUFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/BE/ContosoCoffeeDemoDatasetBE/app/DemoData/Finance/1. Setup Data/CreateGLAccountBE.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/BE/ContosoCoffeeDemoDatasetBE/app/DemoData/FixedAsset/1. Setup Data/CreateFAPostingGrpBE.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CH/ContosoCoffeeDemoDatasetCH/app/DemoData/Finance/1.Setup Data/CreateCHGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CH/ContosoCoffeeDemoDatasetCH/app/DemoData/FixedAsset/1.Setup Data/CreateCHFAPostingGrp.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/ContosoCoffeeDemoDatasetCZ/app/DemoData/Finance/1. Setup Data/CreateGLAccountCZ.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/ContosoCoffeeDemoDatasetCZ/app/DemoData/FixedAsset/1. Setup Data/CreateFAPostingGroupCZ.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/ContosoCoffeeDemoDatasetCZ/app/DemoTool/Contoso Helpers/ContosoFixedAssetCZ.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Codeunits/FADisposalHandlerCZF.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Reports/CalculateDepreciationCZF.Report.al",
+      "status": "modified",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Reports/FixedAssetProjValueCZF.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/ContosoCoffeeDemoDatasetDE/app/DemoData/Finance/1.Setup data/CreateDEGLAcc.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/ContosoCoffeeDemoDatasetDE/app/DemoData/FixedAsset/1. Setup Data/CreateDEFAPostingGrp.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/ContosoCoffeeDemoDatasetDK/app/DemoData/Finance/1.Setup Data/CreateGLAccDK.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/ContosoCoffeeDemoDatasetDK/app/DemoData/FixedAsset/1. SetupData/CreateFAPostingGrpDK.Codeunit.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/ES/ContosoCoffeeDemoDatasetES/app/DemoData/Finance/1.Setup Data/CreateESGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/ES/ContosoCoffeeDemoDatasetES/app/DemoData/FixedAsset/1.Setup Data/CreateESFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/ContosoCoffeeDemoDatasetFI/app/DemoData/Finance/2.Master Data/CreateFIGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/ContosoCoffeeDemoDatasetFI/app/DemoData/FixedAsset/1.Setup Data/CreateFAPostingGrpFI.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/ContosoCoffeeDemoDatasetFR/app/DemoData/FixedAsset/1. Setup Data/CreateFADepreciationBookFR.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/ContosoCoffeeDemoDatasetFR/app/DemoData/FixedAsset/1. Setup Data/CreateFAPostingGrpFR.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/FAReportsFR/app/src/Codeunits/FAReportsFR.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/FAReportsFR/app/src/Reports/FAProjValueDerogatoryFR.Report.al",
+      "status": "modified",
+      "additions": 54,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/FAReportsFR/test/src/Codeunits/ERMFADerogatoryDepreciation.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/FAReportsFR/test/src/Codeunits/ERMFixedAssetsLocal.Codeunit.al",
+      "status": "modified",
+      "additions": 92,
+      "deletions": 24,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/GB/ContosoCoffeeDemoDatasetGB/app/DemoData/Finance/1.Setup Data/CreateGBGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ContosoCoffeeDemoDatasetGB/app/DemoData/FixedAsset/1.Setup Data/CreateGBFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReportsGB/app/src/Reports/FAProjectedValueGB.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NL/ContosoCoffeeDemoDatasetNL/app/DemoData/CreateNLGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NL/ContosoCoffeeDemoDatasetNL/app/DemoData/FixedAsset/1.Setup Data/CreateFAPostingGrpNL.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/US/ContosoCoffeeDemoDatasetUS/app/DemoData/Finance/1.Setup Data/CreateUSGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/US/ContosoCoffeeDemoDatasetUS/app/DemoData/FixedAsset/1.Setup Data/CreateFAPostingGrpUS.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Finance/1.Setup data/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/FixedAsset/1.Setup Data/CreateFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/Contoso Helpers/ContosoFixedAsset.Codeunit.al",
+      "status": "modified",
+      "additions": 72,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/test/src/ContosoFixedAssetTests.Codeunit.al",
+      "status": "added",
+      "additions": 174,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AU/DemoTool/CreateFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CA/DemoTool/CreateFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CZ/.layer/excluded_view_files.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CZ/DemoTool/CreateFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/Fixed Asset/ERMDateCompressionFA.Codeunit.al",
+      "status": "modified",
+      "additions": 468,
+      "deletions": 28,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/Fixed Asset/ERMFixedAssetsReports.Codeunit.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 17,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+      "status": "modified",
+      "additions": 141,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/FixedAssets/Depreciation/FADepreciationBook.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/DemoTool/CreateFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DK/DemoTool/CreateFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Fixed Asset/ERMFixedAssetsGLJournal.Codeunit.al",
+      "status": "modified",
+      "additions": 306,
+      "deletions": 303,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FALedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+      "status": "modified",
+      "additions": 81,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FAPostingGroupCard.Page.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FAPostingGroups.Page.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/DemoTool/CreateFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FI/Tests/Fixed Asset/ERMFixedAssetsReports.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 20,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/AcceleratedDeprFeature.Codeunit.al",
+      "status": "added",
+      "additions": 175,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/CalculateAcqCostDepr.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/CalculateDepreciation.Report.al",
+      "status": "modified",
+      "additions": 87,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/CopyDepreciationBook.Report.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+      "status": "modified",
+      "additions": 165,
+      "deletions": 29,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+      "status": "modified",
+      "additions": 49,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/DerogLinkageCorrectiveRun.Codeunit.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/FADateType.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/FADepreciationBook.Table.al",
+      "status": "modified",
+      "additions": 62,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/FeatureAcceleratedDepr.EnumExt.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/UpgTagAcceleratedDepr.Codeunit.al",
+      "status": "added",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/UpgradeAcceleratedDepr.Codeunit.al",
+      "status": "added",
+      "additions": 73,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/UpgradeDerogatoryLinkage.Codeunit.al",
+      "status": "added",
+      "additions": 739,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/CalculateDisposal.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/CancelFAEntries.Report.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/CancelFALedgerEntries.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/CancelFALedgerEntries.Report.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FACheckConsistency.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAGetJournal.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAInsertGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAInsertLedgerEntry.Codeunit.al",
+      "status": "modified",
+      "additions": 480,
+      "deletions": 30,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 45,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 191,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FALedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 49,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAMatrixPostingType.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+      "status": "modified",
+      "additions": 162,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingGroupCard.Page.al",
+      "status": "modified",
+      "additions": 101,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingGroups.Page.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingType.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingTypesOvervMatrix.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAReclassJournal.Page.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAReclassJournalLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAReclassTransferLine.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FixedAssetStatistics.Page.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/IndexFixedAssets.Report.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Reports/FixedAssetBookValue01.Report.al",
+      "status": "modified",
+      "additions": 102,
+      "deletions": 29,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Reports/FixedAssetBookValue01.rdlc",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Reports/FixedAssetBookValue02.Report.al",
+      "status": "modified",
+      "additions": 83,
+      "deletions": 20,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Local/BankMgt/Payment/PaymentStep.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Local/BankMgt/Payment/PaymentStepActionType.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Local/FixedAssets/Reports/FAProjValueDerogatory.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/DemoTool/CreateDepreciationBook.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FR/DemoTool/CreateFADerogDeprBook.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FR/DemoTool/CreateFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Fixed Asset/ERMFRDerogatoryHistory.Codeunit.al",
+      "status": "added",
+      "additions": 587,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Fixed Asset/UTDerogatoryLinkageUpg.Codeunit.al",
+      "status": "added",
+      "additions": 4199,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Local/ERMFADerogatoryDepreciation.Codeunit.al",
+      "status": "modified",
+      "additions": 133,
+      "deletions": 134,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Local/ERMFRFeatureBugs.Codeunit.al",
+      "status": "modified",
+      "additions": 123,
+      "deletions": 96,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Local/ERMFixedAssetsLocal.Codeunit.al",
+      "status": "modified",
+      "additions": 388,
+      "deletions": 405,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Local/UTCODFADerogatoryDepr.Codeunit.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 70,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Local/UTREPFADerogatoryDepr.Codeunit.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 35,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Local/UTTABFADerogatoryDepr.Codeunit.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 49,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/CopyDepreciationBook.Report.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+      "status": "modified",
+      "additions": 141,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/DepreciationCalculation.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/FADepreciationBook.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/FixedAssets/FixedAsset/FAJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/FixedAssets/Reports/FixedAssetProjectedValue.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Local/FixedAsset/Depreciation/FAProjectedValue.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/DemoTool/CreateFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+      "status": "modified",
+      "additions": 141,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/Depreciation/CalculateDepreciation.Report.al",
+      "status": "modified",
+      "additions": 67,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+      "status": "modified",
+      "additions": 141,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/Depreciation/DepreciationCalculation.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 246,
+      "deletions": 51,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAReclassTransferLine.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/Reports/FixedAssetProjectedValue.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Fixed Asset/ERMFixedAssetsGLJournal.Codeunit.al",
+      "status": "modified",
+      "additions": 452,
+      "deletions": 308,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/FixedAssets/Reports/FixedAssetBookValue01.rdlc",
+      "status": "modified",
+      "additions": 2043,
+      "deletions": 269,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/FixedAssets/Reports/FixedAssetBookValue02.rdlc",
+      "status": "modified",
+      "additions": 4973,
+      "deletions": 2638,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NL/DemoTool/CreateFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NL/Tests/Fixed Asset/ERMDerogatoryDeclarationNL.Codeunit.al",
+      "status": "added",
+      "additions": 156,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/.layer/excluded_view_files.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/CalculateDepreciation.Report.al",
+      "status": "modified",
+      "additions": 65,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+      "status": "modified",
+      "additions": 135,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/DepreciationCalculation.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/FADepreciationBook.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/CalculateDisposal.Codeunit.al",
+      "status": "modified",
+      "additions": 45,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/CancelFALedgerEntries.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FACheckConsistency.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAGetGLAccountNo.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAGetJournal.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAInsertGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAInsertLedgerEntry.Codeunit.al",
+      "status": "modified",
+      "additions": 250,
+      "deletions": 33,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 268,
+      "deletions": 73,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAJournalLineFAPostingType.Enum.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FALedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FALedgerEntryFAPostingType.Enum.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+      "status": "modified",
+      "additions": 80,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAPostingGroupCard.Page.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAPostingGroups.Page.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAReclassJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAReclassJournalLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAReclassTransferLine.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/MakeFALedgerEntry.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/Maintenance/MaintenanceLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/Fixed Asset/ERMFixedAssetsGLJournal.Codeunit.al",
+      "status": "modified",
+      "additions": 504,
+      "deletions": 294,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/Fixed Asset/ERMFixedAssetsReports.Codeunit.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 17,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/US/DemoTool/CreateFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/CalculateAcqCostDepr.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/CalculateDepreciation.Report.al",
+      "status": "modified",
+      "additions": 66,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/CopyDepreciationBook.Report.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+      "status": "modified",
+      "additions": 141,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/DepreciationCalculation.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/FADateType.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/FADepreciationBook.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/CalculateDisposal.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/CancelFAEntries.Report.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/CancelFALedgerEntries.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/CancelFALedgerEntries.Report.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/CopyFAEntriestoGLBudget.Report.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/DateCompressFALedger.Report.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/DerogatoryPostingMgt.Codeunit.al",
+      "status": "added",
+      "additions": 311,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/DerogatoryPostingRole.Enum.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAAllocationType.Enum.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FACheckConsistency.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAGetGLAccountNo.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAGetJournal.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAInsertGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAInsertLedgerEntry.Codeunit.al",
+      "status": "modified",
+      "additions": 289,
+      "deletions": 33,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 246,
+      "deletions": 51,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJournalLineFAPostingType.Enum.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FALedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FALedgerEntryFAPostingType.Enum.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAMatrixPostingType.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+      "status": "modified",
+      "additions": 80,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingGroupAccountType.Enum.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingGroupCard.Page.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingGroups.Page.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingType.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingTypesOvervMatrix.Page.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAReclassJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAReclassJournalLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAReclassTransferLine.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FixedAssetStatistics.Page.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/GenJournalLineFAPostingType.Enum.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/IndexFixedAssets.Report.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/MakeFALedgerEntry.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Maintenance/DateCompressMaintLedger.Report.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Maintenance/MaintenanceLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Reports/FixedAssetBookValue01.Report.al",
+      "status": "modified",
+      "additions": 224,
+      "deletions": 40,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Reports/FixedAssetBookValue01.rdlc",
+      "status": "modified",
+      "additions": 2044,
+      "deletions": 270,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Reports/FixedAssetBookValue02.Report.al",
+      "status": "modified",
+      "additions": 284,
+      "deletions": 47,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Reports/FixedAssetBookValue02.rdlc",
+      "status": "modified",
+      "additions": 4973,
+      "deletions": 2638,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Reports/FixedAssetProjectedValue.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/CreateFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Fixed Asset/ERMDateCompressionFA.Codeunit.al",
+      "status": "modified",
+      "additions": 415,
+      "deletions": 27,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Fixed Asset/ERMDerogFeatureCleanup.Codeunit.al",
+      "status": "added",
+      "additions": 87,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Fixed Asset/ERMDerogatoryDeprPosting.Codeunit.al",
+      "status": "added",
+      "additions": 3235,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Fixed Asset/ERMFADerogatoryDepreciation.Codeunit.al",
+      "status": "added",
+      "additions": 1769,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Fixed Asset/ERMFRFeatureBugs.Codeunit.al",
+      "status": "added",
+      "additions": 374,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Fixed Asset/ERMFixedAssetsReports.Codeunit.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 17,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Fixed Asset/UTCODFADerogatoryDepr.Codeunit.al",
+      "status": "added",
+      "additions": 463,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Fixed Asset/UTREPFADerogatoryDepr.Codeunit.al",
+      "status": "added",
+      "additions": 242,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Fixed Asset/UTTABFADerogatoryDepr.Codeunit.al",
+      "status": "added",
+      "additions": 925,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/App/Upgrade Tags/src/UpgradeTag.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Upgrade Tags/src/UpgradeTagImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/Upgrade Tags/src/UpgradeTagTest.Codeunit.al",
+      "status": "modified",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 251,
+    "additions": 38461,
+    "deletions": 8406,
+    "al": 201
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Codeunits/FADisposalHandlerCZF.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31235",
+        "type": "codeunit",
+        "id": 31235,
+        "name": "FA Disposal Handler CZF",
+        "app": "FixedAssetLocalization",
+        "cc": "cz",
+        "page": "codeunit/31235-cz"
+      },
+      {
+        "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Reports/CalculateDepreciationCZF.Report.al",
+        "status": "modified",
+        "key": "report/31240",
+        "type": "report",
+        "id": 31240,
+        "name": "Calculate Depreciation CZF",
+        "app": "FixedAssetLocalization",
+        "cc": "cz",
+        "page": "report/31240-cz"
+      },
+      {
+        "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Reports/FixedAssetProjValueCZF.Report.al",
+        "status": "modified",
+        "key": "report/31248",
+        "type": "report",
+        "id": 31248,
+        "name": "Fixed Asset - Proj. Value CZF",
+        "app": "FixedAssetLocalization",
+        "cc": "cz",
+        "page": "report/31248-cz"
+      },
+      {
+        "path": "src/Apps/FR/FAReportsFR/app/src/Codeunits/FAReportsFR.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10803",
+        "type": "codeunit",
+        "id": 10803,
+        "name": "FA Reports FR",
+        "app": "FAReportsFR",
+        "cc": "fr",
+        "page": "codeunit/10803-fr"
+      },
+      {
+        "path": "src/Apps/FR/FAReportsFR/app/src/Reports/FAProjValueDerogatoryFR.Report.al",
+        "status": "modified",
+        "key": "report/10817",
+        "type": "report",
+        "id": 10817,
+        "name": "FA-Proj. Value (Derogatory) FR",
+        "app": "FAReportsFR",
+        "cc": "fr",
+        "page": "report/10817-fr"
+      },
+      {
+        "path": "src/Apps/GB/ReportsGB/app/src/Reports/FAProjectedValueGB.Report.al",
+        "status": "modified",
+        "key": "report/10605",
+        "type": "report",
+        "id": 10605,
+        "name": "FA - Projected Value GB",
+        "app": "ReportsGB",
+        "cc": "gb",
+        "page": "report/10605-gb"
+      },
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Finance/1.Setup data/CreateGLAccount.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5208",
+        "type": "codeunit",
+        "id": 5208,
+        "name": "Create G/L Account",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/5208"
+      },
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/FixedAsset/1.Setup Data/CreateFAPostingGroup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5115",
+        "type": "codeunit",
+        "id": 5115,
+        "name": "Create FA Posting Group",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/5115"
+      },
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/Contoso Helpers/ContosoFixedAsset.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4776",
+        "type": "codeunit",
+        "id": 4776,
+        "name": "Contoso Fixed Asset",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/4776"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+        "status": "modified",
+        "key": "table/5611",
+        "type": "table",
+        "id": 5611,
+        "name": "Depreciation Book",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/5611"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/FixedAssets/Depreciation/FADepreciationBook.Table.al",
+        "status": "modified",
+        "key": "table/5612",
+        "type": "table",
+        "id": 5612,
+        "name": "FA Depreciation Book",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/5612"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5626",
+        "type": "codeunit",
+        "id": 5626,
+        "name": "FA General Report",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "codeunit/5626"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FALedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/5601",
+        "type": "table",
+        "id": 5601,
+        "name": "FA Ledger Entry",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/5601"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+        "status": "modified",
+        "key": "table/5606",
+        "type": "table",
+        "id": 5606,
+        "name": "FA Posting Group",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/5606"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/CalculateAcqCostDepr.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5613",
+        "type": "codeunit",
+        "id": 5613,
+        "name": "Calculate Acq. Cost Depr.",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/5613"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/CalculateDepreciation.Report.al",
+        "status": "modified",
+        "key": "report/5692",
+        "type": "report",
+        "id": 5692,
+        "name": "Calculate Depreciation",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "report/5692"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+        "status": "modified",
+        "key": "table/5611",
+        "type": "table",
+        "id": 5611,
+        "name": "Depreciation Book",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/5611"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/FADepreciationBook.Table.al",
+        "status": "modified",
+        "key": "table/5612",
+        "type": "table",
+        "id": 5612,
+        "name": "FA Depreciation Book",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/5612"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/CalculateDisposal.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5605",
+        "type": "codeunit",
+        "id": 5605,
+        "name": "Calculate Disposal",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/5605"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5626",
+        "type": "codeunit",
+        "id": 5626,
+        "name": "FA General Report",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/5626"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAInsertGLAccount.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5601",
+        "type": "codeunit",
+        "id": 5601,
+        "name": "FA Insert G/L Account",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/5601"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAInsertLedgerEntry.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5600",
+        "type": "codeunit",
+        "id": 5600,
+        "name": "FA Insert Ledger Entry",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/5600"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5633",
+        "type": "codeunit",
+        "id": 5633,
+        "name": "FA Jnl.-Post Batch",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/5633"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5632",
+        "type": "codeunit",
+        "id": 5632,
+        "name": "FA Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/5632"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FALedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/5601",
+        "type": "table",
+        "id": 5601,
+        "name": "FA Ledger Entry",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/5601"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+        "status": "modified",
+        "key": "table/5606",
+        "type": "table",
+        "id": 5606,
+        "name": "FA Posting Group",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/5606"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAReclassJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/5624",
+        "type": "table",
+        "id": 5624,
+        "name": "FA Reclass. Journal Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/5624"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Reports/FixedAssetBookValue01.Report.al",
+        "status": "modified",
+        "key": "report/5605",
+        "type": "report",
+        "id": 5605,
+        "name": "Fixed Asset - Book Value 01",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "report/5605"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Reports/FixedAssetBookValue02.Report.al",
+        "status": "modified",
+        "key": "report/5606",
+        "type": "report",
+        "id": 5606,
+        "name": "Fixed Asset - Book Value 02",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "report/5606"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Local/BankMgt/Payment/PaymentStep.Table.al",
+        "status": "modified",
+        "key": "table/10862",
+        "type": "table",
+        "id": 10862,
+        "name": "Payment Step",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/10862-fr"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Local/BankMgt/Payment/PaymentStepActionType.Enum.al",
+        "status": "modified",
+        "key": "enum/10862",
+        "type": "enum",
+        "id": 10862,
+        "name": "Payment Step Action Type",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "enum/10862-fr"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Local/FixedAssets/Reports/FAProjValueDerogatory.Report.al",
+        "status": "modified",
+        "key": "report/10886",
+        "type": "report",
+        "id": 10886,
+        "name": "FA - Proj. Value (Derogatory)",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "report/10886-fr"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/DepreciationCalculation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5616",
+        "type": "codeunit",
+        "id": 5616,
+        "name": "Depreciation Calculation",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "codeunit/5616"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/FADepreciationBook.Table.al",
+        "status": "modified",
+        "key": "table/5612",
+        "type": "table",
+        "id": 5612,
+        "name": "FA Depreciation Book",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/5612"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Local/FixedAsset/Depreciation/FAProjectedValue.Report.al",
+        "status": "modified",
+        "key": "report/10560",
+        "type": "report",
+        "id": 10560,
+        "name": "FA - Projected Value",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "report/10560-gb"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+        "status": "modified",
+        "key": "table/5611",
+        "type": "table",
+        "id": 5611,
+        "name": "Depreciation Book",
+        "app": "Base Application",
+        "cc": "is",
+        "page": "table/5611"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/Depreciation/CalculateDepreciation.Report.al",
+        "status": "modified",
+        "key": "report/5692",
+        "type": "report",
+        "id": 5692,
+        "name": "Calculate Depreciation",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "report/5692"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5611",
+        "type": "codeunit",
+        "id": 5611,
+        "name": "Calculate Normal Depreciation",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/5611"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+        "status": "modified",
+        "key": "table/5611",
+        "type": "table",
+        "id": 5611,
+        "name": "Depreciation Book",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/5611"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5626",
+        "type": "codeunit",
+        "id": 5626,
+        "name": "FA General Report",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/5626"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5633",
+        "type": "codeunit",
+        "id": 5633,
+        "name": "FA Jnl.-Post Batch",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/5633"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/CalculateDepreciation.Report.al",
+        "status": "modified",
+        "key": "report/5692",
+        "type": "report",
+        "id": 5692,
+        "name": "Calculate Depreciation",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "report/5692"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5611",
+        "type": "codeunit",
+        "id": 5611,
+        "name": "Calculate Normal Depreciation",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5611"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+        "status": "modified",
+        "key": "table/5611",
+        "type": "table",
+        "id": 5611,
+        "name": "Depreciation Book",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5611"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/DepreciationCalculation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5616",
+        "type": "codeunit",
+        "id": 5616,
+        "name": "Depreciation Calculation",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5616"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/FADepreciationBook.Table.al",
+        "status": "modified",
+        "key": "table/5612",
+        "type": "table",
+        "id": 5612,
+        "name": "FA Depreciation Book",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5612"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/CalculateDisposal.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5605",
+        "type": "codeunit",
+        "id": 5605,
+        "name": "Calculate Disposal",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5605"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FACheckConsistency.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5606",
+        "type": "codeunit",
+        "id": 5606,
+        "name": "FA Check Consistency",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5606"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAGetJournal.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5639",
+        "type": "codeunit",
+        "id": 5639,
+        "name": "FA Get Journal",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5639"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAInsertGLAccount.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5601",
+        "type": "codeunit",
+        "id": 5601,
+        "name": "FA Insert G/L Account",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5601"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAInsertLedgerEntry.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5600",
+        "type": "codeunit",
+        "id": 5600,
+        "name": "FA Insert Ledger Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5600"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5631",
+        "type": "codeunit",
+        "id": 5631,
+        "name": "FA Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5631"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5632",
+        "type": "codeunit",
+        "id": 5632,
+        "name": "FA Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5632"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/5621",
+        "type": "table",
+        "id": 5621,
+        "name": "FA Journal Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5621"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAJournalLineFAPostingType.Enum.al",
+        "status": "modified",
+        "key": "enum/5602",
+        "type": "enum",
+        "id": 5602,
+        "name": "FA Journal Line FA Posting Type",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "enum/5602"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FALedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/5601",
+        "type": "table",
+        "id": 5601,
+        "name": "FA Ledger Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5601"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FALedgerEntryFAPostingType.Enum.al",
+        "status": "modified",
+        "key": "enum/5601",
+        "type": "enum",
+        "id": 5601,
+        "name": "FA Ledger Entry FA Posting Type",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "enum/5601"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+        "status": "modified",
+        "key": "table/5606",
+        "type": "table",
+        "id": 5606,
+        "name": "FA Posting Group",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5606"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAReclassJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/5624",
+        "type": "table",
+        "id": 5624,
+        "name": "FA Reclass. Journal Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5624"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAReclassTransferLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5642",
+        "type": "codeunit",
+        "id": 5642,
+        "name": "FA Reclass. Transfer Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5642"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/MakeFALedgerEntry.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5604",
+        "type": "codeunit",
+        "id": 5604,
+        "name": "Make FA Ledger Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5604"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/Maintenance/MaintenanceLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/5625",
+        "type": "table",
+        "id": 5625,
+        "name": "Maintenance Ledger Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5625"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/CalculateAcqCostDepr.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5613",
+        "type": "codeunit",
+        "id": 5613,
+        "name": "Calculate Acq. Cost Depr.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5613"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/CalculateDepreciation.Report.al",
+        "status": "modified",
+        "key": "report/5692",
+        "type": "report",
+        "id": 5692,
+        "name": "Calculate Depreciation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5692"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5611",
+        "type": "codeunit",
+        "id": 5611,
+        "name": "Calculate Normal Depreciation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5611"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/CopyDepreciationBook.Report.al",
+        "status": "modified",
+        "key": "report/5687",
+        "type": "report",
+        "id": 5687,
+        "name": "Copy Depreciation Book",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5687"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+        "status": "modified",
+        "key": "table/5611",
+        "type": "table",
+        "id": 5611,
+        "name": "Depreciation Book",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5611"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+        "status": "modified",
+        "key": "page/5610",
+        "type": "page",
+        "id": 5610,
+        "name": "Depreciation Book Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5610"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/DepreciationCalculation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5616",
+        "type": "codeunit",
+        "id": 5616,
+        "name": "Depreciation Calculation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5616"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/FADateType.Table.al",
+        "status": "modified",
+        "key": "table/5645",
+        "type": "table",
+        "id": 5645,
+        "name": "FA Date Type",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5645"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/FADepreciationBook.Table.al",
+        "status": "modified",
+        "key": "table/5612",
+        "type": "table",
+        "id": 5612,
+        "name": "FA Depreciation Book",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5612"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/CalculateDisposal.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5605",
+        "type": "codeunit",
+        "id": 5605,
+        "name": "Calculate Disposal",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5605"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/CancelFAEntries.Report.al",
+        "status": "modified",
+        "key": "report/5686",
+        "type": "report",
+        "id": 5686,
+        "name": "Cancel FA Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5686"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/CancelFALedgerEntries.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5624",
+        "type": "codeunit",
+        "id": 5624,
+        "name": "Cancel FA Ledger Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5624"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/CancelFALedgerEntries.Report.al",
+        "status": "modified",
+        "key": "report/5688",
+        "type": "report",
+        "id": 5688,
+        "name": "Cancel FA Ledger Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5688"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/CopyFAEntriestoGLBudget.Report.al",
+        "status": "modified",
+        "key": "report/5684",
+        "type": "report",
+        "id": 5684,
+        "name": "Copy FA Entries to G/L Budget",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5684"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/DateCompressFALedger.Report.al",
+        "status": "modified",
+        "key": "report/5696",
+        "type": "report",
+        "id": 5696,
+        "name": "Date Compress FA Ledger",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5696"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAAllocationType.Enum.al",
+        "status": "modified",
+        "key": "enum/5615",
+        "type": "enum",
+        "id": 5615,
+        "name": "FA Allocation Type",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/5615"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FACheckConsistency.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5606",
+        "type": "codeunit",
+        "id": 5606,
+        "name": "FA Check Consistency",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5606"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5626",
+        "type": "codeunit",
+        "id": 5626,
+        "name": "FA General Report",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5626"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAGetGLAccountNo.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5602",
+        "type": "codeunit",
+        "id": 5602,
+        "name": "FA Get G/L Account No.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5602"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAGetJournal.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5639",
+        "type": "codeunit",
+        "id": 5639,
+        "name": "FA Get Journal",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5639"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAInsertGLAccount.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5601",
+        "type": "codeunit",
+        "id": 5601,
+        "name": "FA Insert G/L Account",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5601"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAInsertLedgerEntry.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5600",
+        "type": "codeunit",
+        "id": 5600,
+        "name": "FA Insert Ledger Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5600"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5631",
+        "type": "codeunit",
+        "id": 5631,
+        "name": "FA Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5631"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5633",
+        "type": "codeunit",
+        "id": 5633,
+        "name": "FA Jnl.-Post Batch",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5633"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5632",
+        "type": "codeunit",
+        "id": 5632,
+        "name": "FA Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5632"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/5621",
+        "type": "table",
+        "id": 5621,
+        "name": "FA Journal Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5621"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJournalLineFAPostingType.Enum.al",
+        "status": "modified",
+        "key": "enum/5602",
+        "type": "enum",
+        "id": 5602,
+        "name": "FA Journal Line FA Posting Type",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/5602"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FALedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/5601",
+        "type": "table",
+        "id": 5601,
+        "name": "FA Ledger Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5601"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FALedgerEntryFAPostingType.Enum.al",
+        "status": "modified",
+        "key": "enum/5601",
+        "type": "enum",
+        "id": 5601,
+        "name": "FA Ledger Entry FA Posting Type",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/5601"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAMatrixPostingType.Table.al",
+        "status": "modified",
+        "key": "table/5647",
+        "type": "table",
+        "id": 5647,
+        "name": "FA Matrix Posting Type",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5647"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+        "status": "modified",
+        "key": "table/5606",
+        "type": "table",
+        "id": 5606,
+        "name": "FA Posting Group",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5606"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingGroupAccountType.Enum.al",
+        "status": "modified",
+        "key": "enum/5606",
+        "type": "enum",
+        "id": 5606,
+        "name": "FA Posting Group Account Type",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/5606"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingGroupCard.Page.al",
+        "status": "modified",
+        "key": "page/5612",
+        "type": "page",
+        "id": 5612,
+        "name": "FA Posting Group Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5612"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingGroups.Page.al",
+        "status": "modified",
+        "key": "page/5613",
+        "type": "page",
+        "id": 5613,
+        "name": "FA Posting Groups",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5613"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingType.Table.al",
+        "status": "modified",
+        "key": "table/5644",
+        "type": "table",
+        "id": 5644,
+        "name": "FA Posting Type",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5644"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingTypesOvervMatrix.Page.al",
+        "status": "modified",
+        "key": "page/9277",
+        "type": "page",
+        "id": 9277,
+        "name": "FA Posting Types Overv. Matrix",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9277"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAReclassJournal.Page.al",
+        "status": "modified",
+        "key": "page/5636",
+        "type": "page",
+        "id": 5636,
+        "name": "FA Reclass. Journal",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5636"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAReclassJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/5624",
+        "type": "table",
+        "id": 5624,
+        "name": "FA Reclass. Journal Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5624"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAReclassTransferLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5642",
+        "type": "codeunit",
+        "id": 5642,
+        "name": "FA Reclass. Transfer Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5642"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FixedAssetStatistics.Page.al",
+        "status": "modified",
+        "key": "page/5602",
+        "type": "page",
+        "id": 5602,
+        "name": "Fixed Asset Statistics",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5602"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/GenJournalLineFAPostingType.Enum.al",
+        "status": "modified",
+        "key": "enum/5603",
+        "type": "enum",
+        "id": 5603,
+        "name": "Gen. Journal Line FA Posting Type",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/5603"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/IndexFixedAssets.Report.al",
+        "status": "modified",
+        "key": "report/5690",
+        "type": "report",
+        "id": 5690,
+        "name": "Index Fixed Assets",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5690"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/MakeFALedgerEntry.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5604",
+        "type": "codeunit",
+        "id": 5604,
+        "name": "Make FA Ledger Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5604"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Maintenance/DateCompressMaintLedger.Report.al",
+        "status": "modified",
+        "key": "report/5698",
+        "type": "report",
+        "id": 5698,
+        "name": "Date Compress Maint. Ledger",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5698"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Maintenance/MaintenanceLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/5625",
+        "type": "table",
+        "id": 5625,
+        "name": "Maintenance Ledger Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5625"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Reports/FixedAssetBookValue01.Report.al",
+        "status": "modified",
+        "key": "report/5605",
+        "type": "report",
+        "id": 5605,
+        "name": "Fixed Asset - Book Value 01",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5605"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Reports/FixedAssetBookValue02.Report.al",
+        "status": "modified",
+        "key": "report/5606",
+        "type": "report",
+        "id": 5606,
+        "name": "Fixed Asset - Book Value 02",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5606"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Reports/FixedAssetProjectedValue.Report.al",
+        "status": "modified",
+        "key": "report/5607",
+        "type": "report",
+        "id": 5607,
+        "name": "Fixed Asset - Projected Value",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5607"
+      },
+      {
+        "path": "src/System Application/App/Upgrade Tags/src/UpgradeTag.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9999",
+        "type": "codeunit",
+        "id": 9999,
+        "name": "Upgrade Tag",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9999"
+      },
+      {
+        "path": "src/System Application/App/Upgrade Tags/src/UpgradeTagImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9996",
+        "type": "codeunit",
+        "id": 9996,
+        "name": "Upgrade Tag Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9996"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/AT/ContosoCoffeeDemoDatasetAT/app/DemoData/Finance/1. Setup Data/CreateATGLAccount.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/AT/ContosoCoffeeDemoDatasetAT/app/DemoData/FixedAsset/1. Setup Data/CreateFAPostingGrpAT.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/AU/ContosoCoffeeDemoDatasetAU/app/DemoData/Finance/1.Setup Data/CreateAUGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/AU/ContosoCoffeeDemoDatasetAU/app/DemoData/FixedAsset/1.Setup Data/CreateAUFAPostingGroup.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/BE/ContosoCoffeeDemoDatasetBE/app/DemoData/Finance/1. Setup Data/CreateGLAccountBE.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/BE/ContosoCoffeeDemoDatasetBE/app/DemoData/FixedAsset/1. Setup Data/CreateFAPostingGrpBE.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CH/ContosoCoffeeDemoDatasetCH/app/DemoData/Finance/1.Setup Data/CreateCHGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CH/ContosoCoffeeDemoDatasetCH/app/DemoData/FixedAsset/1.Setup Data/CreateCHFAPostingGrp.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/ContosoCoffeeDemoDatasetCZ/app/DemoData/Finance/1. Setup Data/CreateGLAccountCZ.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/ContosoCoffeeDemoDatasetCZ/app/DemoData/FixedAsset/1. Setup Data/CreateFAPostingGroupCZ.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/ContosoCoffeeDemoDatasetCZ/app/DemoTool/Contoso Helpers/ContosoFixedAssetCZ.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/ContosoCoffeeDemoDatasetDE/app/DemoData/Finance/1.Setup data/CreateDEGLAcc.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/ContosoCoffeeDemoDatasetDE/app/DemoData/FixedAsset/1. Setup Data/CreateDEFAPostingGrp.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DK/ContosoCoffeeDemoDatasetDK/app/DemoData/Finance/1.Setup Data/CreateGLAccDK.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DK/ContosoCoffeeDemoDatasetDK/app/DemoData/FixedAsset/1. SetupData/CreateFAPostingGrpDK.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/ES/ContosoCoffeeDemoDatasetES/app/DemoData/Finance/1.Setup Data/CreateESGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/ES/ContosoCoffeeDemoDatasetES/app/DemoData/FixedAsset/1.Setup Data/CreateESFAPostingGroup.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/ContosoCoffeeDemoDatasetFI/app/DemoData/Finance/2.Master Data/CreateFIGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/ContosoCoffeeDemoDatasetFI/app/DemoData/FixedAsset/1.Setup Data/CreateFAPostingGrpFI.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/ContosoCoffeeDemoDatasetFR/app/DemoData/FixedAsset/1. Setup Data/CreateFADepreciationBookFR.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/ContosoCoffeeDemoDatasetFR/app/DemoData/FixedAsset/1. Setup Data/CreateFAPostingGrpFR.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/ContosoCoffeeDemoDatasetGB/app/DemoData/Finance/1.Setup Data/CreateGBGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/ContosoCoffeeDemoDatasetGB/app/DemoData/FixedAsset/1.Setup Data/CreateGBFAPostingGroup.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NL/ContosoCoffeeDemoDatasetNL/app/DemoData/CreateNLGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NL/ContosoCoffeeDemoDatasetNL/app/DemoData/FixedAsset/1.Setup Data/CreateFAPostingGrpNL.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/US/ContosoCoffeeDemoDatasetUS/app/DemoData/Finance/1.Setup Data/CreateUSGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/US/ContosoCoffeeDemoDatasetUS/app/DemoData/FixedAsset/1.Setup Data/CreateFAPostingGrpUS.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FAPostingGroupCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FAPostingGroups.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/AcceleratedDeprFeature.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/CopyDepreciationBook.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/DerogLinkageCorrectiveRun.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/FADateType.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/FeatureAcceleratedDepr.EnumExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/UpgTagAcceleratedDepr.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/UpgradeAcceleratedDepr.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/UpgradeDerogatoryLinkage.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/CancelFAEntries.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/CancelFALedgerEntries.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/CancelFALedgerEntries.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FACheckConsistency.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAGetJournal.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAMatrixPostingType.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingGroupCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingGroups.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingType.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingTypesOvervMatrix.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAReclassJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAReclassTransferLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FixedAssetStatistics.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/IndexFixedAssets.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/CopyDepreciationBook.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/DepreciationBook.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/FixedAssets/FixedAsset/FAJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/FixedAssets/Reports/FixedAssetProjectedValue.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/Depreciation/DepreciationCalculation.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAReclassTransferLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/Reports/FixedAssetProjectedValue.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/CancelFALedgerEntries.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAGetGLAccountNo.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAPostingGroupCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAPostingGroups.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAReclassJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/DerogatoryPostingMgt.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/DerogatoryPostingRole.Enum.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "fixed-assets",
+    "finance",
+    "platform",
+    "development"
+  ],
+  "apps": [
+    "Base Application",
+    "ContosoCoffeeDemoDataset",
+    "FAReportsFR",
+    "FixedAssetLocalization",
+    "ReportsGB",
+    "System Application"
+  ]
+}

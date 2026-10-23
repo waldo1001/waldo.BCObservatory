@@ -6,14 +6,39 @@
   "title": "Move French sales specifics to the new Sales FR first-party app",
   "url": "https://github.com/microsoft/BCApps/pull/9143",
   "published_at": "2026-10-20T12:56:21Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:26:36.271Z",
+      "change_class": "code",
+      "files": 66,
+      "al": 39,
+      "objects": 8,
+      "unjoined": 31
+    },
+    "extracted": {
+      "at": "2026-10-23T00:26:42.289Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.011493
+    },
+    "linked": {
+      "at": "2026-10-23T00:26:42.591Z",
+      "objects": 8,
+      "unjoined": 31,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T00:26:42.603Z",
+      "path": "content/changes/bcapps/9143.md"
     }
   },
   "input_hash": "3528e25c6df5dad3c904ac6e738ab3ef39928284:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 9143,
@@ -30,6 +55,7 @@
     "community_contribution": false,
     "title_key": "move french sales specifics to the new sales fr first party app"
   },
-  "last_error": "github lane: fetched took longer than 120 s",
-  "retry_after": "2026-10-22T04:25:28.364Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2093a953b6dc27d362dda14d02616a34c960293be7fbb813685cfd25c016fc07"
 }

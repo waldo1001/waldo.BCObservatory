@@ -1,0 +1,55 @@
+{
+  "item_id": "change/bcapps-prs/9143",
+  "number": 9143,
+  "title": "Move French sales specifics to the new Sales FR first-party app",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "crm"
+  ],
+  "summary": "French sales-specific functionality including SIREN No. fields and localized sales reports have been extracted into a new first-party Sales FR app, decoupling these features from the FR BaseApp layer.",
+  "key_points": [
+    "New Sales FR first-party app created to host SIREN No. fields and French standard sales reports (Invoice, Credit Memo, Draft Invoice)",
+    "Moved functionality includes page and table extensions, install/upgrade codeunits, and feature key management",
+    "SIREN No. fields and GetSIRENNoWithCaption method obsoleted in FR BaseApp with CLEAN28/CLEANSCHEMA28 gates",
+    "FR BaseApp code cleaned to remove inlined French sales specifics now provided by the app",
+    "New app registered in build configuration files for independent versioning and deployment"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [
+    {
+      "object": "Customer",
+      "member": "SIREN No.",
+      "replacement": "Sales FR app"
+    },
+    {
+      "object": "Contact",
+      "member": "SIREN No.",
+      "replacement": "Sales FR app"
+    },
+    {
+      "object": "Customer",
+      "member": "GetSIRENNoWithCaption",
+      "replacement": "Sales FR app"
+    },
+    {
+      "object": "Contact",
+      "member": "GetSIRENNoWithCaption",
+      "replacement": "Sales FR app"
+    }
+  ],
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011493,
+    "changes_in_call": 1
+  }
+}

@@ -6,14 +6,39 @@
   "title": "Move Copilot review engine into AL-Go",
   "url": "https://github.com/microsoft/AL-Go/pull/2402",
   "published_at": "2026-10-20T12:51:31Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:26:37.552Z",
+      "change_class": "code",
+      "files": 57,
+      "al": 30,
+      "objects": 0,
+      "unjoined": 30
+    },
+    "extracted": {
+      "at": "2026-10-23T00:26:44.016Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.010029
+    },
+    "linked": {
+      "at": "2026-10-23T00:26:44.017Z",
+      "objects": 0,
+      "unjoined": 30,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-23T00:26:44.024Z",
+      "path": "content/changes/al-go/2402.md"
     }
   },
   "input_hash": "91c34a43d7b315441d7299652128abf41491329a:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 2402,
@@ -27,6 +52,7 @@
     "community_contribution": false,
     "title_key": "move copilot review engine into al go"
   },
-  "last_error": "github lane: fetched took longer than 120 s",
-  "retry_after": "2026-10-22T04:25:36.166Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ef489e7d5af14cc8fef0261293c167ad3e614638d788e3389bc56adaf16d35ac"
 }

@@ -6,14 +6,39 @@
   "title": "Deliverable 617319: Move French accelerated depreciation to W1 base application",
   "url": "https://github.com/microsoft/BCApps/pull/12160",
   "published_at": "2026-10-20T13:15:39Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:26:36.594Z",
+      "change_class": "code",
+      "files": 251,
+      "al": 201,
+      "objects": 125,
+      "unjoined": 76
+    },
+    "extracted": {
+      "at": "2026-10-23T00:26:41.851Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.015651
+    },
+    "linked": {
+      "at": "2026-10-23T00:26:42.161Z",
+      "objects": 125,
+      "unjoined": 76,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T00:26:42.218Z",
+      "path": "content/changes/bcapps/12160.md"
     }
   },
   "input_hash": "1fe1391a78b110631f9a0e91900c2420d90eecb9:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12160,
@@ -32,6 +57,7 @@
     "community_contribution": false,
     "title_key": "deliverable 617319 move french accelerated depreciation to w1 base application"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-10-22T04:23:36.158Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "34164dabf2027b3141382b13078b86020f13a044afe2021f496c1c834680d7bc"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12986",
+  "number": 12986,
+  "title": "Fix Work Center field persistence when auto-save is disabled",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "When auto-save is disabled, validating Subcontractor No. on the Work Center Card now saves pending changes before refreshing, preventing field values from being discarded.",
+  "key_points": [
+    "Validation of Subcontractor No. now saves the record before refreshing the page",
+    "Pending changes like Unit Cost Calculation are preserved instead of being lost",
+    "Subcontractor pricing actions remain immediately enabled or disabled based on field state",
+    "Added UI regression tests covering field persistence and action state behavior",
+    "Low-risk change with no schema or API modifications"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Change the refresh to save the record before updating the page.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003563,
+    "changes_in_call": 1
+  }
+}
