@@ -19,6 +19,7 @@ import { loadConfig } from "../lib/config.js";
 import { exists, listFiles, readJson, readText, removeIfExists, writeText } from "../lib/fsx.js";
 import { Manifest, type ManifestItem } from "../lib/manifest.js";
 import { objectSystem } from "../lib/systems.js";
+import { loadLearnFacts } from "../extract/learn-facts.js";
 import { sha256 } from "../lib/text.js";
 
 export const SHARD_BYTES = 8 * 1024 * 1024;
@@ -49,6 +50,8 @@ export interface IndexManifest {
   schema: "bcobs-index@1"; pages: number; shards: { file: string; count: number; sha256: string; kind: ShardKind }[];
   /** D94: the Learn articles, one shard of tuple rows (packages/search learnRecords reads it) */
   learn?: { file: string; count: number; sha256: string };
+  /** D106: key facts per Learn URL (extract/learn-facts.ts), `{schema, facts: {url: [[kind, text], ...]}}` */
+  learn_facts?: { file: string; count: number; sha256: string };
   by_type: Record<string, number>;
 }
 export const SHARD_KINDS: ShardKind[] = ["hubs", "media", "objects"];
@@ -280,15 +283,26 @@ export function renderSearchIndex(contentDir: string, dataDir: string): IndexMan
     if (!exists(p)) writeText(p, text);
     learn = { file, count: shard.rows.length, sha256: sha };
   }
+  // D106: Learn key facts, official only (Haiku's words about Learn pages, nothing else)
+  let learn_facts: IndexManifest["learn_facts"];
+  const facts = loadLearnFacts(dataDir);
+  if (facts.size) {
+    const body = Object.fromEntries([...facts].sort(([a], [b]) => a.localeCompare(b)).map(([u, fs]) => [u, fs.map((f) => [f.kind, f.text])]));
+    const text = `${JSON.stringify({ schema: "bcobs-learn-facts@1", facts: body })}\n`, sha = sha256(text), file = `learn-facts-${sha.slice(0, 12)}.json`;
+    const p = resolve(dir, file);
+    if (!exists(p)) writeText(p, text);
+    learn_facts = { file, count: facts.size, sha256: sha };
+  }
   // sweep: unlisted page shards, the old unhashed pages-<n>.json among them, and an older Learn shard
   for (const f of listFiles(dir, ".json")) {
     const name = f.slice(f.lastIndexOf("/") + 1);
     if (/^pages-.+\.json$/.test(name) && !shards.some((s) => s.file === name)) removeIfExists(f);
-    if (/^learn-.+\.json$/.test(name) && name !== learn?.file) removeIfExists(f);
+    if (/^learn-[0-9a-f]{12}\.json$/.test(name) && name !== learn?.file) removeIfExists(f);
+    if (/^learn-facts-.+\.json$/.test(name) && name !== learn_facts?.file) removeIfExists(f);
   }
   const by_type: Record<string, number> = {};
   for (const r of records) by_type[r.type] = (by_type[r.type] ?? 0) + 1;
-  const manifest: IndexManifest = { schema: "bcobs-index@1", pages: records.length, shards, ...(learn ? { learn } : {}), by_type };
+  const manifest: IndexManifest = { schema: "bcobs-index@1", pages: records.length, shards, ...(learn ? { learn } : {}), ...(learn_facts ? { learn_facts } : {}), by_type };
   const mp = resolve(dir, "index-manifest.json");
   const text = `${JSON.stringify(manifest, null, 2)}\n`;
   if (!exists(mp) || readText(mp) !== text) writeText(mp, text);

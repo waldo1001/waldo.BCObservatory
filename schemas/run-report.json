@@ -142,6 +142,10 @@
         "rejections": { "type": "array", "items": { "type": "string" } }, "stopped": { "type": "string" }
       }
     },
+    "learn_facts": {
+      "type": "object", "required": ["due", "pages", "calls", "facts", "dropped", "failed", "stopped"], "description": "D106: Learn key facts (data/extract/learn-facts/)",
+      "properties": { "due": { "type": "integer" }, "pages": { "type": "integer" }, "calls": { "type": "integer" }, "facts": { "type": "integer" }, "dropped": { "type": "integer" }, "failed": { "type": "integer" }, "cost_usd": { "type": "number" }, "stopped": { "type": "string" } }
+    },
     "topic_reviews": {
       "type": "object", "required": ["candidates", "calls", "reviewed", "kept", "dropped", "failed", "stopped"],
       "properties": {

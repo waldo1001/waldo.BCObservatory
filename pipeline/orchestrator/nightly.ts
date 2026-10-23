@@ -73,6 +73,7 @@ import { renderAppPages, type AppPagesRun } from "../render/app.js";
 import { refreshRelated, type RelatedRun } from "../link/related.js";
 import { refreshCrossLinks, type CrossLinksRun } from "../link/crosslinks.js";
 import { confirmLearnLinks, type LearnConfirmRun } from "../link/learn-confirm.js";
+import { refreshLearnFacts, type LearnFactsRun } from "../extract/learn-facts.js";
 import { refreshLocalizationNarratives, type LocalizationRun } from "../summarize/localization.js";
 import { reviewCoverage, type CoverageReviewRun } from "../review/coverage.js";
 import { buildTopicHubs, mirrorReader } from "../link/toc.js";
@@ -148,6 +149,7 @@ export interface RunReport {
   roadmap_links?: Omit<LinkRun, "errors"> & { pages: number; review?: Omit<CoverageReviewRun, "errors"> };
   topic_links?: Omit<TopicLinkRun, "errors">;
   learn_confirm?: Omit<LearnConfirmRun, "errors">;
+  learn_facts?: Omit<LearnFactsRun, "errors">;
   topic_reviews?: Omit<TopicReviewRun, "errors">;
   /** D77: Opus reviews of the localization and digest narratives (quota opus_reviews, shared with the hubs). */
   narrative_reviews?: { localization?: Omit<NarrativeReviewRun, "errors">; digest?: Omit<NarrativeReviewRun, "errors"> };
@@ -455,6 +457,19 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       // D85: a diff written by tonight's ingest reaches release pages published on earlier nights
       rerenderReleasePages(manifest, opts.dataDir, contentDirOf(opts), now);
       renderReleaseIndex(contentDirOf(opts), opts.dataDir);
+    });
+    // D106: Learn key facts for the scoped pages (config/learn-facts.json) before the hubs render them
+    report.learn_facts = await optionalPhase("learn-facts", async () => {
+      try {
+        const r = await refreshLearnFacts(manifest.list("docs"), { dataDir: opts.dataDir, mirrorsDir, quota: linking ? quotas.learn_facts ?? 0 : 0, deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()) });
+        errors.push(...r.errors);
+        log.info(`learn facts: ${r.facts} facts on ${r.pages} of ${r.due} due pages in ${r.calls} calls (${r.stopped})`);
+        const { errors: _e, ...rest } = r;
+        return rest;
+      } catch (e) {
+        errors.push(`learn facts: ${(e as Error).message.slice(0, 300)}`);
+        return undefined;
+      }
     });
     report.hubs = await optionalPhase("hubs", () => refreshTopics(deps.sources, manifest, mirrorsDir, opts, errors, {
       quota: execution.stop_reason === "done" ? quotas.hub_refresh ?? 0 : 0, deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()),
