@@ -6,10 +6,35 @@
   "title": "[29.x]-Bug 642602: Address AL1430 and remove exception from ruleset",
   "url": "https://github.com/microsoft/BCApps/pull/12442",
   "published_at": "2026-10-22T08:22:59Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:26:22.009Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T00:26:26.413Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.00322
+    },
+    "linked": {
+      "at": "2026-10-23T00:26:26.656Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "af1b860dae5aeeb1369d4ed450c2c980e372a161"
+    },
+    "published": {
+      "at": "2026-10-23T00:26:26.665Z",
+      "path": "content/changes/bcapps/12442.md"
     }
   },
   "input_hash": "b285fe74cedc477541177990eaafa960818e1977:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 642602 address al1430 and remove exception from ruleset"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "816251244ff75d0b50e4f4d0159759f8bae563440272e7034e9edafde0f26068"
 }

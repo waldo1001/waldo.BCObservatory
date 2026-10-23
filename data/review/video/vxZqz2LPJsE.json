@@ -1,0 +1,25 @@
+{
+  "video_id": "vxZqz2LPJsE",
+  "item_id": "video/yt-hougaard/vxZqz2LPJsE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary names the presenter 'Erik Hougaard', but the transcript only says 'I'm Eric' and never gives a surname. That is outside knowledge, so I removed it.",
+    "All five quotes are verbatim. The quote at 217.5 runs on into the segment at 231.6, which is allowed.",
+    "All features are marked 'unclear'. That is right, because the transcript never states a preview or GA status. It only says the app can be tried for free in a cloud sandbox.",
+    "The key points are supported by the transcript."
+  ],
+  "input_hash": "486ae6a5591dbafd2219fc3e846ba3dfa482a4ef3d3ba23ac5b2d4d4a85e5fc4",
+  "by": "opus",
+  "at": "2026-10-23T00:24:14.161Z",
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.06254
+  }
+}

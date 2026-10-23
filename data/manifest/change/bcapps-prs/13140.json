@@ -6,7 +6,7 @@
   "title": "[FR] Fix duplicate XML Audit File test codeunit ID",
   "url": "https://github.com/microsoft/BCApps/pull/13140",
   "published_at": "2026-10-22T11:04:26Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "fr fix duplicate xml audit file test codeunit id"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-23T00:22:46.287Z",
+  "retry_after": null
 }

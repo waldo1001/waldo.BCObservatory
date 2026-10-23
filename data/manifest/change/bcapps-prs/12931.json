@@ -6,10 +6,35 @@
   "title": "[29.x][Repair Item] Purchase Order vendor change is automatically applied to the next order after navigation",
   "url": "https://github.com/microsoft/BCApps/pull/12931",
   "published_at": "2026-10-22T03:25:33Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:26:23.769Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 11,
+      "objects": 3,
+      "unjoined": 8
+    },
+    "extracted": {
+      "at": "2026-10-23T00:26:28.969Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00345
+    },
+    "linked": {
+      "at": "2026-10-23T00:26:34.756Z",
+      "objects": 3,
+      "unjoined": 8,
+      "commit": "af1b860dae5aeeb1369d4ed450c2c980e372a161"
+    },
+    "published": {
+      "at": "2026-10-23T00:26:34.765Z",
+      "path": "content/changes/bcapps/12931.md"
     }
   },
   "input_hash": "988a091a0f6e4c6e391a6a11dd1973e3568c767a:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "repair item purchase order vendor change is automatically applied to the next order after navigation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "50b54d77b1851fe2b014bb62974f54e4c6ff35640e8226b579d9bc1d207a29ea"
 }

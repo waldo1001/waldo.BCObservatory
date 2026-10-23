@@ -1,0 +1,150 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13058,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13058",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-21T10:52:32Z",
+  "merge_commit_sha": "e36310c59cf287cf49c90f9e946a8879e88318fc",
+  "author": "BardurKnudsen",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bug 656064: Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.",
+  "body_hash": "535bb3b3b258be01cd9cb6f4dde92ffff1a8415154cfeebb591897f908ce3712",
+  "fixes_issues": [],
+  "work_items": [
+    656064
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/Expense.Page.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 23,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/ExpenseItemizations.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/Expenses.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseItemization.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/DisabledTests/Expense_Agent_Tests/Expense_Agent_Tests.DisabledTest.json",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 59,
+    "deletions": 32,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/Expense.Page.al",
+        "status": "modified",
+        "key": "page/6988",
+        "type": "page",
+        "id": 6988,
+        "name": "Expense",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6988"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/ExpenseItemizations.Page.al",
+        "status": "modified",
+        "key": "page/6975",
+        "type": "page",
+        "id": 6975,
+        "name": "Expense Itemizations",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6975"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/Expenses.Page.al",
+        "status": "modified",
+        "key": "page/6989",
+        "type": "page",
+        "id": 6989,
+        "name": "Expenses",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6989"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+        "status": "modified",
+        "key": "table/6900",
+        "type": "table",
+        "id": 6900,
+        "name": "Expense",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6900"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseItemization.Table.al",
+        "status": "modified",
+        "key": "table/6902",
+        "type": "table",
+        "id": 6902,
+        "name": "Expense Itemization",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6902"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

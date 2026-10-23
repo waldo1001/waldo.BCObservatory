@@ -6,7 +6,7 @@
   "title": "ClearGlobals improvement",
   "url": "https://github.com/microsoft/BCApps/pull/13138",
   "published_at": "2026-10-22T08:26:29Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "clearglobals improvement"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-23T00:26:22.020Z",
+  "retry_after": null
 }

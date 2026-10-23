@@ -1,0 +1,28 @@
+{
+  "video_id": "vxZqz2LPJsE",
+  "item_id": "video/yt-hougaard/vxZqz2LPJsE",
+  "summary": "Magic Paste is an app presented by Eric that lets users paste external data, such as Excel cells or dropped files, into Business Central pages. Columns are mapped to fields automatically by header name or manually, and default values can fill missing fields. Demos cover a general journal, a sales order with a saved mapping and the customer list. The app works in 80 places in standard Business Central and can be tried for free in a cloud sandbox.",
+  "overview": "Erik Hougaard introduces Magic Paste, an app that makes it easier to bring data from outside sources, such as Excel, into Business Central, and to copy data out of it. The video runs about six minutes.\n\nThe demos start with a general journal, where pasted columns are mapped to fields by header name. A sales order demo then shows copying lines, adjusting the mapping by hand and saving it for reuse. A customer list demo follows. The video ends with a feature summary and a note that the app can be tried for free in a cloud sandbox.",
+  "key_points": [
+    "Magic Paste pastes data from external sources into Business Central and works in 80 places in standard Business Central at present.",
+    "It can detect whether pasted data has a header row and map column names to Business Central fields by field name; the user can override this if there are no headers.",
+    "If column names do not match Business Central field names, the mapping may need manual adjustment, done through a search function and dialog.",
+    "Mappings can be saved under a name (the demo uses 'sales lines demo') and reused for data with the same structure.",
+    "Default values can be set for fields that are missing from the pasted data.",
+    "Files can be dropped onto the paste area as well as pasted from the clipboard.",
+    "The app can be tried for free in a cloud sandbox."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "945b7b9d963a492e4fb0c3698c1fc7779b0b2abb78f18fab98ed7fc3bc28cf79",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015726
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12931,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12931",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-22T03:25:33Z",
+  "merge_commit_sha": "988a091a0f6e4c6e391a6a11dd1973e3568c767a",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.x][Repair Item] Purchase Order vendor change is automatically applied to the next order after navigation",
+  "body_hash": "a529dc16195919d713ba143e795f36edf45f64aacc8dd0e59120bc46bac103f7",
+  "fixes_issues": [],
+  "work_items": [
+    654758
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Purchase/TestVendorLookup.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 12,
+    "additions": 55,
+    "deletions": 20,
+    "al": 11
+  },
+  "join": {
+    "major": "29",
+    "commit": "af1b860dae5aeeb1369d4ed450c2c980e372a161",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "key": "page/50",
+        "type": "page",
+        "id": 50,
+        "name": "Purchase Order",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/50"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "key": "page/50",
+        "type": "page",
+        "id": 50,
+        "name": "Purchase Order",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/50"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "key": "page/50",
+        "type": "page",
+        "id": 50,
+        "name": "Purchase Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/50"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

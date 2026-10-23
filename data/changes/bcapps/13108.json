@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13108,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13108",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-22T11:21:39Z",
+  "merge_commit_sha": "a4c77e1ba9d85da2f7348e7927f7a5caf53f95ca",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Main]-Fix and re-enable AssemblyCostReadjustmentPreservesUnitCostPrecision in NAV",
+  "body_hash": "9267834ea840438fc4775eae8eb47af745f3faba9e73876d3693c9822826a2dc",
+  "fixes_issues": [],
+  "work_items": [
+    654445
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

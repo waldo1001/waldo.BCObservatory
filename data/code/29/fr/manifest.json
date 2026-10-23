@@ -6,7 +6,7 @@
   "country": "fr",
   "layer": "overlay",
   "branch": "releases/29.x",
-  "commit": "e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc",
+  "commit": "af1b860dae5aeeb1369d4ed450c2c980e372a161",
   "build": "29.1.0.0",
   "apps": [
     "Base Application",
@@ -17,11 +17,13 @@
     "IntrastatFR",
     "Onprem Permissions FR",
     "PaymentManagementFR",
-    "ServiceDeclarationFR"
+    "SalesFR",
+    "ServiceDeclarationFR",
+    "XMLAuditFile"
   ],
-  "files": 392,
+  "files": 430,
   "parse_errors": 5,
-  "added": 245,
+  "added": 277,
   "replaced": 69,
   "absent": [],
   "chain": [
@@ -30,20 +32,20 @@
   ],
   "extractor": "4",
   "grammar": "4.4.1",
-  "objects": 314,
+  "objects": 346,
   "by_type": {
-    "codeunit": 54,
+    "codeunit": 65,
     "enum": 5,
-    "enumextension": 3,
+    "enumextension": 5,
     "page": 58,
-    "pageextension": 22,
-    "permissionset": 9,
+    "pageextension": 32,
+    "permissionset": 11,
     "permissionsetextension": 14,
     "report": 66,
     "reportextension": 4,
     "table": 64,
-    "tableextension": 10,
-    "xmlport": 5
+    "tableextension": 16,
+    "xmlport": 6
   },
   "shards": [
     "objects-codeunit-1.jsonl",

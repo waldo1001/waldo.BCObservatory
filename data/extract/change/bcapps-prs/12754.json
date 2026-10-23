@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12754",
+  "number": 12754,
+  "title": "[29.X]-Outgoing Payment Report Employee Payments Missing",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The DTA Payment Journal report now correctly includes employee payments that were previously missing in outgoing payment reports for Swiss localizations.",
+  "key_points": [
+    "Fixed a bug where employee payments were not appearing in the DTA Payment Journal report",
+    "Updated the report layout and filtering logic to ensure all payment types are properly included",
+    "Enhanced test coverage to verify employee payments display correctly"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003,
+    "changes_in_call": 1
+  }
+}

@@ -7,16 +7,85 @@
   "url": "https://www.youtube.com/watch?v=vxZqz2LPJsE",
   "published_at": "2026-10-21T22:19:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-22T11:31:20.884Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:23:06.263Z",
+      "captions": "auto:en-orig",
+      "duration_s": 376
+    },
+    "captioned": {
+      "at": "2026-10-23T00:23:13.880Z",
+      "path": "vault:captions/community/yt-hougaard/vxZqz2LPJsE.vtt",
+      "vtt_sha256": "6239974b966da1d1d34dcefa0404493a2277283ae0ab75afd5041ac5ff3be6bb",
+      "segments": 29,
+      "words": 905,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-23T00:23:42.015Z",
+      "path": "data/extract/video/vxZqz2LPJsE.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 6,
+      "quotes": 5,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.018449
+    },
+    "summarized": {
+      "at": "2026-10-23T00:24:01.351Z",
+      "path": "data/summary/video/vxZqz2LPJsE.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.015726
+    },
+    "linked": {
+      "at": "2026-10-23T00:24:01.352Z",
+      "systems": [
+        "development",
+        "platform"
+      ],
+      "topics": 8,
+      "objects_as_heard": 0
+    },
+    "reviewed": {
+      "at": "2026-10-23T00:24:14.171Z",
+      "path": "data/review/video/vxZqz2LPJsE.json",
+      "verdict": "fix",
+      "applied": 1,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.06254
+    },
+    "published": {
+      "at": "2026-10-23T00:24:14.371Z",
+      "path": "content/videos/vxZqz2LPJsE.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCcJCTa4PvbOQj50y_HJSxXw"
+    "channel_id": "UCcJCTa4PvbOQj50y_HJSxXw",
+    "duration_s": 376,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "548d5679586edf55c80887e632eae80e5502ad33a04ba7f17a94a1744bab99ae",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-23T00:24:14.161Z"
   }
 }

@@ -6,10 +6,35 @@
   "title": "[Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.",
   "url": "https://github.com/microsoft/BCApps/pull/13085",
   "published_at": "2026-10-22T09:21:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:24:17.253Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T00:24:22.908Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003225
+    },
+    "linked": {
+      "at": "2026-10-23T00:24:23.140Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T00:24:23.146Z",
+      "path": "content/changes/bcapps/13085.md"
     }
   },
   "input_hash": "5bddb123504d804ac903780f8a2a8bfb2918a5a1:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "since business central 28 4 we have observed changed behaviour when the vat prod"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8002accb7fb79061a9d14f94afb2a527d45adcb00e847c29cca90ac2f7d07f52"
 }

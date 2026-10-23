@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12442",
+  "number": 12442,
+  "title": "[29.x]-Bug 642602: Address AL1430 and remove exception from ruleset",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Removed redundant sorting on Purchase Receipt Line extension fields and the associated AL1430 ruleset exception by relying on existing DataItemLink constraints.",
+  "key_points": [
+    "Eliminated duplicate sort order on Prod. Order No. and Prod. Order Line No. fields",
+    "These fields were already fixed by DataItemLink, making the explicit sort redundant",
+    "Removed the temporary AL1430 ruleset exception that downgraded the error",
+    "No schema or table key changes needed"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization"
+  ],
+  "quote": "Removed the redundant sorting and its warning suppression, then removed the temporary AL1430 ruleset exception.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00322,
+    "changes_in_call": 1
+  }
+}

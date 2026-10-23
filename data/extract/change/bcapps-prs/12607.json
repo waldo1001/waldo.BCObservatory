@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12607",
+  "number": 12607,
+  "title": "[BE] Improve Purchase Ledger report performance",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "The Belgian Purchase Ledger report now uses a single left-joined query with temporary buffering instead of per-entry lookups to reduce database calls and improve performance.",
+  "key_points": [
+    "Replaces multiple per-entry VAT link queries and VAT Entry.Get calls with one left-joined query per journal template and period",
+    "Introduces an internal temporary buffer table and query to aggregate results",
+    "Filters on G/L entry dates rather than VAT entry dates to avoid filtering assumptions",
+    "Uses SetLoadFields and SetAutoCalcFields optimizations for supporting lookups",
+    "Maintains existing error handling and currency display behavior"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": "Reduce database overhead in the Belgian Purchase Ledger report (11301).",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004821,
+    "changes_in_call": 1
+  }
+}

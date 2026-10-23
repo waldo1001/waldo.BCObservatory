@@ -1,0 +1,96 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12607,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12607",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-22T12:16:17Z",
+  "merge_commit_sha": "41b7bbe136ba834af1210746a43a82c7edadf568",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[BE] Improve Purchase Ledger report performance",
+  "body_hash": "4061460e586d1f4a6dc51039d3a9dc482c663560c58fa628348753d78667ffbe",
+  "fixes_issues": [],
+  "work_items": [
+    649462
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchLedgerVATBuffer.Table.al",
+      "status": "added",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchLedgerVATDetail.Query.al",
+      "status": "added",
+      "additions": 56,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchaseLedger.Report.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/Tests/Local/LedgerReports.Codeunit.al",
+      "status": "modified",
+      "additions": 116,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 275,
+    "deletions": 3,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchaseLedger.Report.al",
+        "status": "modified",
+        "key": "report/11301",
+        "type": "report",
+        "id": 11301,
+        "name": "Purchase Ledger",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "report/11301-be"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchLedgerVATBuffer.Table.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchLedgerVATDetail.Query.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

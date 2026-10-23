@@ -6,10 +6,35 @@
   "title": "[QM] Tracking specification quantity now is used properly",
   "url": "https://github.com/microsoft/BCApps/pull/13056",
   "published_at": "2026-10-22T11:03:52Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:23:00.183Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T00:23:05.379Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002886
+    },
+    "linked": {
+      "at": "2026-10-23T00:23:05.595Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T00:23:05.604Z",
+      "path": "content/changes/bcapps/13056.md"
     }
   },
   "input_hash": "c256fd090920658b661e49a6a5b4f25b66c1d27a:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "qm tracking specification quantity now is used properly"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "03738e516a6c105f596f78ed55894c043faa42bc3135cbcd9a4042a2106d29c6"
 }

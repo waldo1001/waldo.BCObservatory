@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/12541",
+  "number": 12541,
+  "title": "Preserve transfer line UOM when toggling Direct Transfer",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "warehouse"
+  ],
+  "summary": "When toggling Direct Transfer on a transfer line with a non-base unit of measure, the selected UOM and its quantity conversion are now preserved instead of reverting to the item's base unit. The warehouse validator also explicitly rejects Direct Transfer changes when matching warehouse shipment, receipt, or activity lines exist.",
+  "key_points": [
+    "UOM and converted quantity are retained during Direct Transfer toggle instead of resetting to base unit",
+    "Reservation handling is improved by validating UOM before the first quantity validation to maintain conversion precision",
+    "Warehouse protection is made explicit: mode changes are rejected only when matching warehouse lines exist, not based on location requirements alone",
+    "Four localized Transfer Line tables and one shared warehouse validator were updated",
+    "Comprehensive regression tests cover UOM roundtrips, reservations, and warehouse scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "quote": "Preserve the selected transfer-line unit of measure and outbound reservations when Direct Transfer is toggled.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004481,
+    "changes_in_call": 1
+  }
+}

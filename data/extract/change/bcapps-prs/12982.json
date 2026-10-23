@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12982",
+  "number": 12982,
+  "title": "[29x][All-e]Since Business Central 28.4, we have observed changed behaviour when the VAT Prod",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "finance"
+  ],
+  "summary": "VAT Product Posting Group behavior was corrected in Sales Line handling across all regions to address a regression introduced in Business Central 28.4.",
+  "key_points": [
+    "Fixes changed VAT behavior affecting Sales Lines since BC 28.4",
+    "Updates Sales Line table across multiple regional layers (W1, BE, CH, ES, FI, GB, IT, NA, NO, RU, SE, APAC)",
+    "Includes VAT Rate Change Conversion codeunit updates",
+    "Adds test cases for prices including VAT in documents"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "quote": "Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007269,
+    "changes_in_call": 1
+  }
+}

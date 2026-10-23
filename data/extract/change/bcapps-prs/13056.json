@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13056",
+  "number": 13056,
+  "title": "[QM] Tracking specification quantity now is used properly",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Quality tracking specifications now correctly use the proper quantity values during receiving and warehouse integration operations.",
+  "key_points": [
+    "Fixed quantity handling in quality receiving integration logic",
+    "Added warehouse integration updates for proper quantity tracking",
+    "Added comprehensive test coverage for receiving integration scenarios",
+    "Corrects tracking specification quantity calculations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002886,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[BE] Improve Purchase Ledger report performance",
   "url": "https://github.com/microsoft/BCApps/pull/12607",
   "published_at": "2026-10-22T12:16:17Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:22:15.411Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 1,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-23T00:22:24.288Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.004821
+    },
+    "linked": {
+      "at": "2026-10-23T00:22:24.563Z",
+      "objects": 1,
+      "unjoined": 2,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T00:22:24.576Z",
+      "path": "content/changes/bcapps/12607.md"
     }
   },
   "input_hash": "41b7bbe136ba834af1210746a43a82c7edadf568:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "be improve purchase ledger report performance"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "21fa7d193258e6265056d1693684ad3ac696e79e46bff9493e9737e81b6c7762"
 }

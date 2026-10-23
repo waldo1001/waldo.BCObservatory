@@ -6,7 +6,7 @@
   "title": "[Main]-Fix and re-enable AssemblyCostReadjustmentPreservesUnitCostPrecision in NAV",
   "url": "https://github.com/microsoft/BCApps/pull/13108",
   "published_at": "2026-10-22T11:21:39Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix and re enable assemblycostreadjustmentpreservesunitcostprecision in nav"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-23T00:22:32.373Z",
+  "retry_after": null
 }

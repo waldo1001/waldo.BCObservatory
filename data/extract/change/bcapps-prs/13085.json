@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13085",
+  "number": 13085,
+  "title": "[Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "A behavioral issue with VAT product posting groups changed since Business Central 28.4 is fixed in the VAT Rate Change Conversion codeunit.",
+  "key_points": [
+    "Fixes unexpected behavior change in VAT product posting group handling introduced in BC 28.4",
+    "Changes made to VAT Rate Change Conversion codeunit",
+    "Addresses regression reported in Bug 654960",
+    "Single-line modification to the codeunit",
+    "Related to continuous changes from another PR for 28.x compatibility"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003225,
+    "changes_in_call": 1
+  }
+}

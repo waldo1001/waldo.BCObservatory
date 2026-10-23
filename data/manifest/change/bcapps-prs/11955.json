@@ -6,14 +6,39 @@
   "title": "Slice 626975: [Expense Agent] Alternate approvers - Delegated/Substitutes (November '26)",
   "url": "https://github.com/microsoft/BCApps/pull/11955",
   "published_at": "2026-10-21T14:45:05Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-22T00:20:01.868Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:26:23.407Z",
+      "change_class": "code",
+      "files": 25,
+      "al": 20,
+      "objects": 16,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-23T00:26:28.394Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004284
+    },
+    "linked": {
+      "at": "2026-10-23T00:26:28.671Z",
+      "objects": 16,
+      "unjoined": 4,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T00:26:28.685Z",
+      "path": "content/changes/bcapps/11955.md"
     }
   },
   "input_hash": "9a198c098f73f5221edb0282209f985bbf8271e7:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 11955,
@@ -30,6 +55,7 @@
     "community_contribution": false,
     "title_key": "slice 626975 expense agent alternate approvers delegated substitutes november 26"
   },
-  "last_error": "github lane: fetched took longer than 120 s",
-  "retry_after": "2026-10-22T02:22:36.118Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f4b11a0dad443e02591f37851a931530b2146abcc77671f9361634525718e85d"
 }

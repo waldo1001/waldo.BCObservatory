@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12931",
+  "number": 12931,
+  "title": "[29.x][Repair Item] Purchase Order vendor change is automatically applied to the next order after navigation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Purchase Order page no longer automatically applies vendor changes to the next order when navigating between orders.",
+  "key_points": [
+    "Fixed issue where vendor changes on one purchase order were unexpectedly applied to the next order",
+    "Vendor field behavior is now properly isolated to each order",
+    "Issue affected all localization versions of the Purchase Order page",
+    "Includes test coverage for vendor lookup and change behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "[29.x][ALL-E][Repair Item] Purchase Order vendor change is automatically applied to the next order after navigation",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00345,
+    "changes_in_call": 1
+  }
+}

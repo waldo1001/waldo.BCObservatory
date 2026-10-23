@@ -6,10 +6,35 @@
   "title": "Preserve transfer line UOM when toggling Direct Transfer",
   "url": "https://github.com/microsoft/BCApps/pull/12541",
   "published_at": "2026-10-22T09:50:26Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:23:27.699Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 5,
+      "objects": 4,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-23T00:23:42.035Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004481
+    },
+    "linked": {
+      "at": "2026-10-23T00:23:42.322Z",
+      "objects": 4,
+      "unjoined": 1,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T00:23:42.330Z",
+      "path": "content/changes/bcapps/12541.md"
     }
   },
   "input_hash": "3e94ea8c7700c542c2926ea2d8ca3ec51b2b0f56:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "preserve transfer line uom when toggling direct transfer"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1c1da2953b0ab4b66c5221e3ad9ffd7ababc7b7662300d90f87c8feffdec6821"
 }

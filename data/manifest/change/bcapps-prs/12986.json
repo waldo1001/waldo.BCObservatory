@@ -6,14 +6,39 @@
   "title": "Fix Work Center field persistence when auto-save is disabled",
   "url": "https://github.com/microsoft/BCApps/pull/12986",
   "published_at": "2026-10-21T12:34:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-22T00:20:01.868Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:26:24.702Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T00:26:35.017Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003563
+    },
+    "linked": {
+      "at": "2026-10-23T00:26:35.268Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T00:26:35.276Z",
+      "path": "content/changes/bcapps/12986.md"
     }
   },
   "input_hash": "1a1f9b0fe342c7127ceb8d7e06ecd0ad989d5a6a:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12986,
@@ -31,6 +56,7 @@
     "community_contribution": false,
     "title_key": "fix work center field persistence when auto save is disabled"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-10-22T02:22:30.495Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5735b681e921b46abdb0c4a4bea806a23d35732a6f9bdcbd4e4f53e3089ae32f"
 }

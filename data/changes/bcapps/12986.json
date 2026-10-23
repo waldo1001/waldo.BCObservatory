@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12986,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12986",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-21T12:34:14Z",
+  "merge_commit_sha": "1a1f9b0fe342c7127ceb8d7e06ecd0ad989d5a6a",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Fix Work Center field persistence when auto-save is disabled",
+  "body_hash": "5f7989cdfd660685c860b0f15dbd88e48dc5de94ae9dd55e10b92e762972fe3e",
+  "fixes_issues": [],
+  "work_items": [
+    651344
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcWorkCenterCard.PageExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcSubcontractingUITest.Codeunit.al",
+      "status": "modified",
+      "additions": 111,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 112,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcWorkCenterCard.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20506",
+        "type": "pageextension",
+        "id": 20506,
+        "name": "Subc. Work Center Card",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20506"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}

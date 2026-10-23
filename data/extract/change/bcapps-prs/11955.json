@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11955",
+  "number": 11955,
+  "title": "Slice 626975: [Expense Agent] Alternate approvers - Delegated/Substitutes (November '26)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense Agent now supports alternate approvers and delegated/substitute workflows. Users can designate alternate approvers for expense approvals and generate delegation reports.",
+  "key_points": [
+    "New alternate approvers table and page for managing substitute approvers",
+    "Approval logic updated to route expense reports to alternate approvers when configured",
+    "New API endpoint for managing alternate approvers",
+    "Added delegation report for tracking approval substitutions",
+    "Expanded permission sets to support new expense agent functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004284,
+    "changes_in_call": 1
+  }
+}

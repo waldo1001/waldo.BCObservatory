@@ -6,7 +6,7 @@
   "title": "ClearGlobals improvement - Re-enable SCM Order Planning - III tests ",
   "url": "https://github.com/microsoft/BCApps/pull/13135",
   "published_at": "2026-10-22T10:04:37Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "clearglobals improvement re enable scm order planning iii tests"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-23T00:23:19.053Z",
+  "retry_after": null
 }

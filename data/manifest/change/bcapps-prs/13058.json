@@ -6,14 +6,39 @@
   "title": "Bug 656064: Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.",
   "url": "https://github.com/microsoft/BCApps/pull/13058",
   "published_at": "2026-10-21T10:52:32Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-22T00:20:01.868Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:26:28.961Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T00:26:34.790Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003485
+    },
+    "linked": {
+      "at": "2026-10-23T00:26:35.007Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T00:26:35.013Z",
+      "path": "content/changes/bcapps/13058.md"
     }
   },
   "input_hash": "e36310c59cf287cf49c90f9e946a8879e88318fc:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13058,
@@ -30,6 +55,7 @@
     "community_contribution": false,
     "title_key": "bug 656064 expense agent itemization table holds unrounded values leading to rounding errors also missing currency code"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-10-22T02:23:28.358Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "90dcb5edbc5b8402bbf5eb387d7a6c728ee79c8948a182e86531a530d143d607"
 }

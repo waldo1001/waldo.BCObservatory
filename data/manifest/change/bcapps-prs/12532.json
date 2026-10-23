@@ -13,7 +13,7 @@
     }
   },
   "input_hash": "9f40655f161b2cf73694e2332daa42ebc5b417f0:c1",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "number": 12532,
@@ -28,5 +28,7 @@
     ],
     "community_contribution": false,
     "title_key": "master dispute status code is not retained in some scenarios within the vendor purchase side but works well in customer sales side"
-  }
+  },
+  "last_error": "github lane: fetched took longer than 120 s",
+  "retry_after": "2026-10-23T02:26:20.708Z"
 }

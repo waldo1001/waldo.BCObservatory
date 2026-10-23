@@ -1,0 +1,229 @@
+{
+  "video_id": "vxZqz2LPJsE",
+  "item_id": "video/yt-hougaard/vxZqz2LPJsE",
+  "title": "Introducing Magic Paste for Business Central",
+  "duration_s": 376,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "data import",
+    "clipboard",
+    "paste functionality",
+    "field mapping",
+    "excel integration",
+    "master data",
+    "journals",
+    "documents"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Magic Paste",
+      "t_start": 0,
+      "t_end": 29.4
+    },
+    {
+      "title": "General Journal Paste Demo - Data Preparation",
+      "t_start": 29.4,
+      "t_end": 71.6
+    },
+    {
+      "title": "General Journal Paste Demo - Field Mapping",
+      "t_start": 71.6,
+      "t_end": 127.6
+    },
+    {
+      "title": "Sales Order Demo - Copy and Paste",
+      "t_start": 127.6,
+      "t_end": 180.8
+    },
+    {
+      "title": "Sales Order Demo - Mapping and Saving",
+      "t_start": 180.8,
+      "t_end": 242.6
+    },
+    {
+      "title": "Customer List Demo",
+      "t_start": 242.6,
+      "t_end": 325.8
+    },
+    {
+      "title": "Features Summary and Availability",
+      "t_start": 325.8,
+      "t_end": 376
+    }
+  ],
+  "features": [
+    {
+      "name": "Magic Paste",
+      "description": "An app that allows you to paste data from external sources into Business Central with automatic or manual field mapping. Supports pasting into general journals, sales orders, customer lists, and other master tables and documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.7,
+      "t_end": 365.9,
+      "is_demoed": true,
+      "caveats": [
+        "Currently available in 80 different places in standard Business Central",
+        "Field mapping may need manual adjustment if column names do not match Business Central field names"
+      ],
+      "tags": [
+        "data import",
+        "paste",
+        "clipboard",
+        "field mapping",
+        "master data",
+        "documents"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automatic Column Header Detection",
+      "description": "Magic Paste can automatically detect whether pasted data has headers and map column names to Business Central fields based on field names.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 71.6,
+      "t_end": 114.1,
+      "is_demoed": true,
+      "caveats": [
+        "Column name matching depends on proper naming",
+        "User can override auto-detection if headers are not present"
+      ],
+      "tags": [
+        "field mapping",
+        "headers",
+        "automatic detection"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Manual Field Mapping",
+      "description": "Users can manually map pasted columns to Business Central fields using a search function and dialog interface.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 180.8,
+      "t_end": 217.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "field mapping",
+        "user control",
+        "search"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Save and Reuse Mappings",
+      "description": "Users can save field mappings for repeated paste operations and reuse them for identical data structures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 217.5,
+      "t_end": 231.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "field mapping",
+        "reusable",
+        "save"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "File Drop Support",
+      "description": "Users can drop files directly onto the paste area in addition to using clipboard paste operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 141,
+      "t_end": 156.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "file import",
+        "drag and drop"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Default Field Values",
+      "description": "Users can set default values for fields that are not present in the pasted data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 101.2,
+      "t_end": 114.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "field mapping",
+        "defaults"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 12.3,
+      "text": "pasting data from external sources into Business Central is complicated. And sometimes you have to paste copy stuff out of Business Central",
+      "why_it_matters": "Establishes the problem Magic Paste solves - the current complexity of data import operations.",
+      "check": "exact"
+    },
+    {
+      "t": 81.9,
+      "text": "you have a column called account number and we're going to put that into account number and you have a column called amount and",
+      "why_it_matters": "Demonstrates automatic field mapping based on matching column names with Business Central field names.",
+      "check": "exact"
+    },
+    {
+      "t": 217.5,
+      "text": "So I can also save the mapping and say sales lines demo. So I have that mapping again",
+      "why_it_matters": "Shows users can save and reuse field mappings for repeated paste operations with same data structure.",
+      "check": "exact"
+    },
+    {
+      "t": 353,
+      "text": "there are at present there are 80 different places in in in standard Business Central where you can you can paste into all your",
+      "why_it_matters": "Quantifies the breadth of Magic Paste support across standard Business Central objects.",
+      "check": "exact"
+    },
+    {
+      "t": 365.9,
+      "text": "you can try this out this app out for free in a cloud sandbox",
+      "why_it_matters": "Indicates the app is available for testing and confirms its current status as released.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018449
+    }
+  ]
+}
