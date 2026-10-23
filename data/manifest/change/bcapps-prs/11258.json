@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11258",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[GB] IdealPostcodes: fix provider selection and address retrieval through the Postcode Service Manager framework",
+  "url": "https://github.com/microsoft/BCApps/pull/11258",
+  "published_at": "2026-10-23T13:40:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T21:57:46.568Z"
+    }
+  },
+  "input_hash": "d10c3dbcfd206308639192fb51e888e811a00d52:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11258,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d10c3dbcfd206308639192fb51e888e811a00d52",
+    "author": "sergey-idealpostcodes",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "gb idealpostcodes fix provider selection and address retrieval through the postcode service manager framework"
+  }
+}

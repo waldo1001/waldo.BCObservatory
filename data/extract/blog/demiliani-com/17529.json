@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/demiliani-com/17529",
+  "url": "https://demiliani.com/2026/10/23/copilots-and-agents-for-dynamics-365-business-central-our-new-book-is-out/",
+  "title": "Copilots and agents for Dynamics 365 Business Central: our new book is out!",
+  "source": "demiliani-com",
+  "published_at": "2026-10-23T13:16:11.000Z",
+  "words": 712,
+  "summary": "A new book published on Packt teaches how to design, build, test and govern AI solutions for Dynamics 365 Business Central, covering copilots, agents, and various implementation approaches. The book follows a fictional company through practical scenarios using AL, Copilot Studio, Azure Logic Apps, MCP, and .NET frameworks.",
+  "key_points": [
+    "Business Central now includes built-in copilots and agents, with multiple ways to build custom AI solutions using different technologies.",
+    "The book addresses choosing the right approach and making AI solutions secure, testable, and affordable for production.",
+    "Chapters progress from LLM basics and Copilot Studio agents through AL copilots, testing strategies, built-in features, custom agent design, MCP integration, Azure Logic Apps workflows, and .NET development.",
+    "Readers learn through a hands-on narrative following Cronus Events company, seeing how AI solves realistic business problems."
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "copilots",
+    "agents",
+    "ai",
+    "al development",
+    "testing",
+    "governance",
+    "integration"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Payables Agent"
+    },
+    {
+      "type": "other",
+      "name": "Sales Order Agent"
+    },
+    {
+      "type": "other",
+      "name": "Copilot"
+    }
+  ],
+  "features": [
+    "Copilot Studio",
+    "AI Development Toolkit",
+    "Agent design and configuration",
+    "Structured output",
+    "Tool calling",
+    "MCP server integration",
+    "Azure Logic Apps Agent Loop",
+    "Microsoft Agent Framework"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The hard part is choosing the right approach and then making the solution secure, testable and affordable to run in production.",
+      "why_it_matters": "Identifies the core challenge for building production-ready AI solutions in Business Central beyond demos."
+    },
+    {
+      "text": "Systems that used to record transactions can now reason over data, take actions and automate whole processes.",
+      "why_it_matters": "Explains the fundamental shift in ERP capabilities that the book addresses."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006363,
+    "posts_in_call": 1
+  }
+}

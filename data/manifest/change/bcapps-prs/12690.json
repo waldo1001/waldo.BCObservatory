@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12690",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-You must assign a serial number for item xxx\" when trying to reverse Capacity Ledger Entry",
+  "url": "https://github.com/microsoft/BCApps/pull/12690",
+  "published_at": "2026-10-23T08:41:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T21:57:46.568Z"
+    }
+  },
+  "input_hash": "0f9dd6ac33e82c6f010a2c4bb22afb758a648cd5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12690,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0f9dd6ac33e82c6f010a2c4bb22afb758a648cd5",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master you must assign a serial number for item xxx when trying to reverse capacity ledger entry"
+  }
+}

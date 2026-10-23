@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12842",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Bug 653921 Warehouse pick fails with \"Nothing to handle\" when an earlier unshipped pick uses a non-default shipment bin ",
+  "url": "https://github.com/microsoft/BCApps/pull/12842",
+  "published_at": "2026-10-23T10:50:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T21:57:46.568Z"
+    }
+  },
+  "input_hash": "e5ff3d87712a738a2872c684693cba3ad1320697:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12842,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e5ff3d87712a738a2872c684693cba3ad1320697",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 653921 warehouse pick fails with nothing to handle when an earlier unshipped pick uses a non default shipment bin"
+  }
+}

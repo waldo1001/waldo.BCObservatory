@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/demiliani-com/17538",
+  "url": "https://demiliani.com/2026/10/23/dynamics-365-business-central-introducing-the-new-recent-record-virtual-table/",
+  "title": "Dynamics 365 Business Central: introducing the new “Recent Record” virtual table",
+  "source": "demiliani-com",
+  "published_at": "2026-10-23T15:24:24.000Z",
+  "words": 254,
+  "summary": "Business Central 2026 Wave 2 introduces a new Recent Record virtual table that tracks records recently accessed by the current user in the current company. The read-only table logs only UI interactions and stores references to original records with timestamps, allowing users to clear their access history.",
+  "key_points": [
+    "New virtual table in System.Environment namespace lists records most recently accessed by the current user within the current company",
+    "Table is read-only but records can be deleted to clear history; it tracks TableId, RecordSystemId, LastUsed timestamp, and Description",
+    "Only UI interactions are logged; records accessed through code execution (reports, actions) do not appear in this table",
+    "LastUsed date updates when the same record is accessed again within the same session"
+  ],
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "virtual table",
+    "recent record",
+    "user activity tracking",
+    "2026 wave 2"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Recent Record"
+    }
+  ],
+  "features": [
+    "Recent Record virtual table",
+    "user activity tracking",
+    "read-only access",
+    "history clearing",
+    "record timestamps"
+  ],
+  "versions": [
+    "2026 Wave 2",
+    "v29"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This table (defined in the System.Environment namespace) lists the records most recently accessed by the current user in the current company.",
+      "why_it_matters": "Clarifies the scope and location of the new virtual table for developers implementing user activity tracking."
+    },
+    {
+      "text": "Records on this table are not logged if a record is managed via code.",
+      "why_it_matters": "Important limitation to understand when using the table for user monitoring, as only UI interactions are captured."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004445,
+    "posts_in_call": 1
+  }
+}

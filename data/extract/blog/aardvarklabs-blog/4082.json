@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/aardvarklabs-blog/4082",
+  "url": "https://aardvarklabs.blog/2026/10/23/business-centrals-new-api-overview-a-modern-replacement-for-web-services/",
+  "title": "Business Central’s New API Overview: A Modern Replacement for Web Services",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-10-23T12:00:00.000Z",
+  "words": 453,
+  "summary": "Business Central's new API Overview page provides a modern, unified interface to discover all API pages in your environment, replacing the legacy Web Services page. It displays versioned APIs with publisher/group/version hierarchy and represents Microsoft's shift away from SOAP and legacy OData toward AL-defined APIs.",
+  "key_points": [
+    "API Overview is a system page that lists all API pages regardless of source with metadata including entity name, publisher, version, page ID, and OData URL",
+    "The page supports full API versioning and publisher/group/version hierarchy, unlike the Web Services page which had no versioning or grouping",
+    "SOAP endpoints are deprecated and OData is legacy; AL-defined APIs are the future direction Microsoft is moving toward",
+    "Provides better discoverability and onboarding for developers without requiring manual publishing or external documentation"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "api discovery",
+    "web services replacement",
+    "api versioning",
+    "al-defined apis",
+    "integration endpoints",
+    "modern api architecture"
+  ],
+  "objects": [],
+  "features": [
+    "API Overview page",
+    "API page enumeration",
+    "Publisher/Group/Version hierarchy",
+    "OData URL display",
+    "API versioning support",
+    "Enabled/Disabled state management"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With the introduction of the API Overview, Business Central finally provides a modern, unified way to see all API pages exposed in your environment.",
+      "why_it_matters": "This explains the core benefit of the new feature as a centralized discovery mechanism for all APIs in an environment."
+    },
+    {
+      "text": "SOAP is deprecated. OData is legacy. AL‑defined APIs are the future.",
+      "why_it_matters": "This clarifies Microsoft's strategic direction and why the shift away from Web Services to API Overview matters for developers."
+    },
+    {
+      "text": "The API Overview gives you a structured, modern look at your API surface.",
+      "why_it_matters": "This highlights the modernization aspect and how the page provides organized, authoritative information about available APIs."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005543,
+    "posts_in_call": 1
+  }
+}

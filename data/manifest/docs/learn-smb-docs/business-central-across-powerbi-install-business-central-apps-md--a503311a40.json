@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Install Power BI apps for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-install-business-central-apps",
-  "published_at": "2026-09-14T09:56:39.000Z",
+  "published_at": "2026-10-23T14:34:12.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,32 +13,32 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.855Z",
-      "blob": "b1b361d2c760e351b747188c46f1a44eb6c8918c",
-      "words": 2019,
+      "at": "2026-10-23T21:58:13.362Z",
+      "blob": "e53cf81a6aa469a6c6eb034758c0a6bb51eae6b5",
+      "words": 1962,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T14:21:14.005Z",
+      "at": "2026-10-23T21:58:27.299Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005502
+      "objects": 5,
+      "cost_usd": 0.013987
     },
     "summarized": {
-      "at": "2026-10-06T14:21:14.010Z",
+      "at": "2026-10-23T21:58:27.300Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:21:14.010Z",
+      "at": "2026-10-23T21:58:27.302Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:21:14.010Z",
+      "at": "2026-10-23T21:58:27.303Z",
       "page": false
     }
   },
-  "input_hash": "b1b361d2c760e351b747188c46f1a44eb6c8918c",
+  "input_hash": "e53cf81a6aa469a6c6eb034758c0a6bb51eae6b5",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -63,11 +63,11 @@
       "administration"
     ],
     "ai_usage": null,
-    "words": 2019,
+    "words": 1962,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "848325eed14bcb39b630567672aa9bacc46048aeda6ed7bcbd5689b68f757d5e"
+  "output_hash": "e29899c4186f7c620f726e5ed8f427f172f724eebb4ea97b612574f62e2f84b9"
 }

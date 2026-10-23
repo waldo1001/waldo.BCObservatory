@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9880",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug Fix] #620132: Prevent IRS 1099 data on vendor ledger entries of non-1099 vendors",
+  "url": "https://github.com/microsoft/BCApps/pull/9880",
+  "published_at": "2026-10-23T13:18:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T21:57:46.568Z"
+    }
+  },
+  "input_hash": "a899581a681479b1a500634968a50fb67466d40d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9880,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a899581a681479b1a500634968a50fb67466d40d",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug fix 620132 prevent irs 1099 data on vendor ledger entries of non 1099 vendors"
+  }
+}

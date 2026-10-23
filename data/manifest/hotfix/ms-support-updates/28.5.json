@@ -1,0 +1,36 @@
+{
+  "id": "hotfix/ms-support-updates/28.5",
+  "pillar": "hotfix",
+  "source": "ms-support-updates",
+  "tier": "official",
+  "title": "Update 28.5 for Business Central",
+  "url": "https://support.microsoft.com/en-us/servicing/dynamics/business-central/update/2026/09/update-28-5-for-microsoft-dynamics-365-business-central-2026-release-wave-1",
+  "published_at": "2026-09-01T00:00:00.000Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T21:57:46.568Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T21:58:23.267Z",
+      "from": "snapshot"
+    },
+    "published": {
+      "at": "2026-10-23T21:58:27.291Z",
+      "path": "content/hotfixes/28.5.md"
+    }
+  },
+  "input_hash": "e486a780c1d2c28286db7e999879e944259737b0fc7b7b4aaaf66fabae4afc14",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "update": "28.5",
+    "major": "28",
+    "kb": "5127206",
+    "entries": 152,
+    "application_build": "28.5.54151"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e486a780c1d2c28286db7e999879e944259737b0fc7b7b4aaaf66fabae4afc14"
+}

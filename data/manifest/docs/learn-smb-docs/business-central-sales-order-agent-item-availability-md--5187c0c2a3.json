@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Item availability in Sales Order Agent (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-item-availability",
-  "published_at": "2026-10-05T08:46:22.000Z",
+  "published_at": "2026-10-23T11:36:03.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,32 +13,32 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.467Z",
-      "blob": "84dafb3931811ca967f135d5bb298c20d3cd37a4",
-      "words": 1114,
+      "at": "2026-10-23T21:58:34.074Z",
+      "blob": "2c890e50a28e300df6ca15777c81eda0f34adede",
+      "words": 1250,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T13:11:10.467Z",
+      "at": "2026-10-23T21:58:46.548Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.01234
+      "objects": 4,
+      "cost_usd": 0.004686
     },
     "summarized": {
-      "at": "2026-10-06T13:11:50.972Z",
+      "at": "2026-10-23T21:58:46.551Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:11:50.972Z",
+      "at": "2026-10-23T21:58:46.552Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:11:50.972Z",
+      "at": "2026-10-23T21:58:46.553Z",
       "page": false
     }
   },
-  "input_hash": "84dafb3931811ca967f135d5bb298c20d3cd37a4",
+  "input_hash": "2c890e50a28e300df6ca15777c81eda0f34adede",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -61,7 +61,7 @@
     ],
     "keywords": [],
     "ai_usage": null,
-    "words": 1114,
+    "words": 1250,
     "identifiers": [
       "IsTemporary"
     ],
@@ -69,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b7e0d57ae361f850d4767c2c8c2d1f4a5312c4751eb04e5c033dc3d04c28675e"
+  "output_hash": "02048ea9d3a2fe0212cd19f8f90562348a14f1866270d1d71a3ac693f3a3382e"
 }

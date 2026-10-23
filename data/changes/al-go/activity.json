@@ -1,6 +1,19 @@
 {
   "open": [
     {
+      "number": 2343,
+      "title": "RunTests action",
+      "url": "https://github.com/microsoft/AL-Go/pull/2343",
+      "base": "main",
+      "major": null,
+      "author": "spetersenms",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-08-06T15:32:16Z",
+      "updated_at": "2026-10-23T14:48:20Z",
+      "community_contribution": false
+    },
+    {
       "number": 2273,
       "title": "Improve file handling in Update AL-Go System Files",
       "url": "https://github.com/microsoft/AL-Go/pull/2273",
@@ -11,32 +24,6 @@
       "draft": false,
       "created_at": "2026-06-03T15:24:31Z",
       "updated_at": "2026-10-22T14:02:37Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2343,
-      "title": "RunTests action",
-      "url": "https://github.com/microsoft/AL-Go/pull/2343",
-      "base": "main",
-      "major": null,
-      "author": "spetersenms",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-08-06T15:32:16Z",
-      "updated_at": "2026-10-22T13:15:45Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2293,
-      "title": "Add support for protectedSettings to override lower priority settings",
-      "url": "https://github.com/microsoft/AL-Go/pull/2293",
-      "base": "main",
-      "major": null,
-      "author": "ChrisBlankDe",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-06-26T13:50:28Z",
-      "updated_at": "2026-10-22T13:09:53Z",
       "community_contribution": false
     },
     {
@@ -223,6 +210,37 @@
     }
   ],
   "issues": [
+    {
+      "number": 2419,
+      "title": "[Bug]: CreateRelease fails with (500) in DetermineArtifactsForRelease: repo-wide artifacts listing times out, no retry",
+      "url": "https://github.com/microsoft/AL-Go/issues/2419",
+      "labels": [],
+      "author": "ivandjordjevic",
+      "created_at": "2026-10-23T15:51:26Z",
+      "comments": 0
+    },
+    {
+      "number": 2418,
+      "title": "[Bug] Published-only Microsoft dependency is installed after external apps requiring it, causing synchronization failure",
+      "url": "https://github.com/microsoft/AL-Go/issues/2418",
+      "labels": [
+        "bug"
+      ],
+      "author": "Duizy1971",
+      "created_at": "2026-10-23T14:04:34Z",
+      "comments": 0
+    },
+    {
+      "number": 2417,
+      "title": "[Bug]: \"\"build ('-1') must be a non-negative value\" after enabling workspace compilation",
+      "url": "https://github.com/microsoft/AL-Go/issues/2417",
+      "labels": [
+        "bug"
+      ],
+      "author": "Mkublbock",
+      "created_at": "2026-10-23T09:49:03Z",
+      "comments": 0
+    },
     {
       "number": 2416,
       "title": "[Bug]: PipelineCleanup of one build mode removes the container of another build mode of the same project (shared Docker host)",

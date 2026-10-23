@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13183,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13183",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-23T15:49:27Z",
+  "merge_commit_sha": "e0195c44baa432c9d9cb132fa086b1804c67aa97",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Service Order created from Service Contract does not populate header dimensions until Dimensions action is opened",
+  "body_hash": "78048f7f4912efcc9a11e56f449de2e86650da53c1f99a7039d6230c0f3b2f7f",
+  "fixes_issues": [],
+  "work_items": [
+    654757
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Contract/CreateContractServiceOrders.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Service/ServiceContracts.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 3,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 43,
+    "deletions": 8,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Contract/CreateContractServiceOrders.Report.al",
+        "status": "modified",
+        "key": "report/6036",
+        "type": "report",
+        "id": 6036,
+        "name": "Create Contract Service Orders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/6036"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "service"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

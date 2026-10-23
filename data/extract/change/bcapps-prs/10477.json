@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10477",
+  "number": 10477,
+  "title": "[Bug Fix] #249: Raise populated ErrorInfo for Subscription Billing failures",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Subscription Billing error handlers now raise the fully populated ErrorInfo object instead of plain-text errors, enabling interactive users to navigate to the offending record when document creation fails.",
+  "key_points": [
+    "Changed DisplayOrLogErrorFromBillingTemplate and DisplayOrLogErrorFromBillingLine to raise Error(ErrorTextInfo) instead of Error(ErrorText)",
+    "ErrorInfo objects are now fully populated with client error type, message, RecordId, SystemId, and TableId for navigation links",
+    "Interactive users can now navigate to the record causing the error instead of receiving a dead-end error message",
+    "Added regression test to verify ErrorInfo is raised correctly for billing failures",
+    "Automated billing continues to log errors without raising interactive errors"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004507,
+    "changes_in_call": 1
+  }
+}

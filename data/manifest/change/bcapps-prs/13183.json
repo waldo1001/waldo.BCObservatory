@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13183",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Service Order created from Service Contract does not populate header dimensions until Dimensions action is opened",
+  "url": "https://github.com/microsoft/BCApps/pull/13183",
+  "published_at": "2026-10-23T15:49:27Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T21:57:46.568Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T21:58:44.788Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T21:58:58.272Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003057
+    },
+    "linked": {
+      "at": "2026-10-23T21:58:58.564Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T21:58:58.574Z",
+      "path": "content/changes/bcapps/13183.md"
+    }
+  },
+  "input_hash": "e0195c44baa432c9d9cb132fa086b1804c67aa97:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13183,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e0195c44baa432c9d9cb132fa086b1804c67aa97",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master service order created from service contract does not populate header dimensions until dimensions action is opened"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0abf9d8066ae31b091ad16261eb659cf3ad3bdd678cb2777932bd790e7593c17"
+}

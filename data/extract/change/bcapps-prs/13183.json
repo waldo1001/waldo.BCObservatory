@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13183",
+  "number": 13183,
+  "title": "[Master]-Service Order created from Service Contract does not populate header dimensions until Dimensions action is opened",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "service"
+  ],
+  "summary": "Service orders created from service contracts now populate header dimensions automatically instead of requiring the Dimensions action to be opened first.",
+  "key_points": [
+    "Fixed a bug where header dimensions were not applied to newly created service orders from contracts",
+    "The issue affected the Create Contract Service Orders report",
+    "Dimensions are now populated immediately when service orders are generated",
+    "Test coverage was expanded to verify the dimension population behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "service"
+  ],
+  "quote": "Service Order created from Service Contract does not populate header dimensions until Dimensions action is opened",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003057,
+    "changes_in_call": 1
+  }
+}

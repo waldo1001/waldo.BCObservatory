@@ -1,0 +1,1078 @@
+{
+  "schema": "bcobs-hotfix@1",
+  "update": "28.5",
+  "major": "28",
+  "kb": "5127206",
+  "url": "https://support.microsoft.com/en-us/servicing/dynamics/business-central/update/2026/09/update-28-5-for-microsoft-dynamics-365-business-central-2026-release-wave-1",
+  "month": "2026-09",
+  "application_build": "28.5.54151",
+  "platform_build": "28.0.54016",
+  "title": "Update 28.5 for Microsoft Dynamics 365 Business Central 2026 Release Wave 1 (Application Build 28.5.54151, Platform Build 28.0.54016)",
+  "fetched_at": "2026-10-23T21:57:46.568Z",
+  "entries": [
+    {
+      "id": "641836",
+      "title": "Fix extension synchronization failing to validate moved tables when a company's SQL table name casing differs.",
+      "area": null,
+      "group": "platform",
+      "country": null
+    },
+    {
+      "id": "644977",
+      "title": "Fix company copy failures when cross-origin SIFT indexes exist on a table extension.",
+      "area": null,
+      "group": "platform",
+      "country": null
+    },
+    {
+      "id": "644930",
+      "title": "Prevent IncludedPermissions referencing a missing PermissionSet from crashing the session.",
+      "area": null,
+      "group": "platform",
+      "country": null
+    },
+    {
+      "id": "641662",
+      "title": "Fix the CDS \"New Integration Mappings\" wizard failing with AL0275 due to an ambiguous table reference when generating a runtime table extension for a table defined by two applications.",
+      "area": null,
+      "group": "platform",
+      "country": null
+    },
+    {
+      "id": "646409",
+      "title": "Sanitize Word documents for layouts and mail merge with respect to INCLUDE content controls.",
+      "area": null,
+      "group": "platform",
+      "country": null
+    },
+    {
+      "id": "642913",
+      "title": "Fix the host page header disappearing when expanding a single-control add-in FactBox.",
+      "area": null,
+      "group": "platform",
+      "country": null
+    },
+    {
+      "id": "647356",
+      "title": "Add per-tenant cache telemetry and fix performance counter registration.",
+      "area": null,
+      "group": "platform",
+      "country": null
+    },
+    {
+      "id": "647335",
+      "title": "Refactor MCP feature-gate checks to use an asynchronous, dependency-injection-based pattern with improved testability, and update the HTTP error response for disabled features.",
+      "area": null,
+      "group": "platform",
+      "country": null
+    },
+    {
+      "id": "647702",
+      "title": "Prevent Copilot from reporting errors as \"Intermittent errors\" when it cannot handle them.",
+      "area": null,
+      "group": "platform",
+      "country": null
+    },
+    {
+      "id": "646613",
+      "title": "Correct filter logic in the Remove Contacts report to prevent contacts with different contact numbers and company contact numbers from being silently excluded.",
+      "area": "Administration",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645079",
+      "title": "Add the missing parameter to an integration event to provide access to the calculated purchase line quantity.",
+      "area": "Extensibility Enhancement",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645086",
+      "title": "Add extensibility support by introducing an integration event in the OnPreReport trigger.",
+      "area": "Extensibility Enhancement",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645093",
+      "title": "Enhance extensibility by adding new integration events and updating existing event parameters in purchase price calculation logic.",
+      "area": "Extensibility Enhancement",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645095",
+      "title": "Add an integration event to enable extensibility in Production Order Routing Line table validation logic.",
+      "area": "Extensibility Enhancement",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645096",
+      "title": "Add an integration event to enable extensibility in the purchase posting process, allowing external code to intercept and handle job line preparation before invoice posting.",
+      "area": "Extensibility Enhancement",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645174",
+      "title": "Add extensibility support for custom archive job handling scenarios through a new integration event.",
+      "area": "Extensibility Enhancement",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645175",
+      "title": "Add an integration event to enable customization of the PrintOnlyIfSales skip logic in the Item Sales Statistics report.",
+      "area": "Extensibility Enhancement",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646532",
+      "title": "Add an integration event to enable extensibility in the item journal posting process for validation tracking.",
+      "area": "Extensibility Enhancement",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646614",
+      "title": "Add an integration event to enable external customization before an unsupported source error is raised in the purchase availability management process.",
+      "area": "Extensibility Enhancement",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "637412",
+      "title": "Improve Expense Agent feature telemetry by consolidating telemetry events and adding batch-level metrics.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "639678",
+      "title": "Improve performance when calculating the VAT advance return and VAT statement in the German environment.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "639904",
+      "title": "Ensure contact history logs reference the issued reminder number instead of the pre-assigned reminder number when using reminder automation.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "640599",
+      "title": "Prevent Preview Posting from creating gaps in Sustainability Ledger Entry numbers.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "640614",
+      "title": "Fix VAT rounding issues during deferral posting with non-deductible VAT.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "641041",
+      "title": "Correct the application of the \"Greater Than\" Withholding Tax Calculation Rule in Withholding Tax Posting Setup.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "641058",
+      "title": "Enforce formula input field editability based on the active Calculation Foundation in Sustainability Journal lines.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "641062",
+      "title": "Ensure purchase invoice deferrals correctly calculate and display \"Amount LCY\" for foreign currency transactions.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "641515",
+      "title": "Fix a regression in prepayment invoice amount calculation for sales orders with invoice discounts, prices including VAT, and negative non-inventory lines.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "642073",
+      "title": "Prevent payment discount tolerance from being doubled when posting vendor payments within the grace period.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "642146",
+      "title": "Resolve unbalanced General Ledger entries when multiple withholding tax rates are applied to a single purchase invoice.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "642309",
+      "title": "Optimize O(N²) contract-renewal detection in Sales-Post subscribers to reduce posting CPU overhead of approximately 28% per batch.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "642745",
+      "title": "Ensure changing the contact on a Customer Subscription Contract updates the contract email address.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "643257",
+      "title": "Correct rounding of source currency amounts in General Ledger Entries.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "643341",
+      "title": "Address multiple Sustainability feature issues related to carbon tracking, item charge emissions, and setup validation.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "643383",
+      "title": "Ensure payment references from Purchase Order prepayment invoices are correctly transferred to vendor ledger entries.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "643961",
+      "title": "Correct the depreciation basis for the Declining-Balance method by excluding depreciation posted before the depreciation starting date.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "643991",
+      "title": "Prevent duplicate Expense Agent creation and add translation support for agent identity strings.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "644097",
+      "title": "Support the GST portal's new HSN reporting requirements for GSTR-1 by enabling separate B2B and B2C HSN summaries.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "644102",
+      "title": "Resolve errors when posting receipts against subcontracting orders by improving item ledger entry filtering and application logic.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "644127",
+      "title": "Correct rounding precision for withholding tax amounts on foreign currency documents.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "644160",
+      "title": "Prevent modification errors when only extension fields are changed in reported or paid withholding tax entries.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "644731",
+      "title": "Ensure proper dimension mapping between IC dimension values and their corresponding IC dimensions during copy operations.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "644749",
+      "title": "Fix subscription item price updates for items with variants when the variants are not correctly recognized.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "644797",
+      "title": "Automatically populate the \"Intrastat Country/Region Code\" when an Intrastat line is added manually after specifying the \"Country/Region Code\".",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "644858",
+      "title": "Prevent IRS 1099 information from being specified on vendor ledger entries for vendors not configured for 1099 reporting.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "644917",
+      "title": "Suppress zero-value rows in the trial balance by period.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645007",
+      "title": "Ensure valid XRechnung XML generation when invoice discount percentages contain more than two decimal places.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645071",
+      "title": "Ensure standard-cost purchase receipts use standard cost instead of direct unit cost when cumulative expected-cost rounding is enabled.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645089",
+      "title": "Correct the running balance calculation in the Detail Trial Balance report when closing entries are excluded.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645149",
+      "title": "Prevent withholding tax entries from a previous posting preview from appearing on unrelated documents.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645183",
+      "title": "Fix rounding errors in prepayment amount deductions on sales and purchase orders with 100% prepayment.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645198",
+      "title": "Fix the Renewal Term field on the Create Contract Renewal Quote page to accept values such as 12M.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645231",
+      "title": "Resolve permission issues where Expense Agent event subscribers block Employee record updates for Microsoft Entra application users.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646074",
+      "title": "Ensure the Known Senders table is populated only when tasks originate from email sources.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646143",
+      "title": "Rename PBI embedded pages.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646262",
+      "title": "Add GTIN (Global Trade Item Number) with GS1 scheme 0160 to XRechnung and ZUGFeRD electronic document exports.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646379",
+      "title": "Fix the Close Income Statement report to consolidate blank-dimension closing entries when Additional Reporting Currency (ARC) is enabled.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646496",
+      "title": "Resolve permission issues related to E-Documents for France.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646606",
+      "title": "Support the International Standard Code \"1A\" as a valid mileage unit of measure for Austrian localization.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646646",
+      "title": "Ensure TDS amounts are calculated correctly when the initial TDS section is selected in Bank Payment Voucher and other journal pages.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646754",
+      "title": "Handle unknown persisted PEPPOL format values.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646788",
+      "title": "Correct page captions when viewing price lists from Customer and Vendor cards to display specific customer/vendor information instead of generic \"All Customers/All Vendors\" text.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646803",
+      "title": "Fix a regression introduced by the Apply-to-Oldest payment application optimization.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646805",
+      "title": "Fix payment and message handling in E-Documents.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646882",
+      "title": "Prevent write transactions from being started when checking whether a Payables Agent can be created during read-only operations.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647035",
+      "title": "Support deriving bank clearing numbers from domestic IBANs when the Clearing No. field is blank for Swiss SEPA credit transfer exports.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647047",
+      "title": "Prevent Catalog Price Sync (report 30116) from timing out after 12 hours for merchants with large numbers of B2B catalogs.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647050",
+      "title": "Ensure vendor Additional Currency (ACY) amounts are correctly calculated and posted to purchase invoice payable entries in APAC regions.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647305",
+      "title": "Fix Aged Accounts Receivable (Excel) and Aged Accounts Payable (Excel) reports ignoring selected parameters and producing incorrect output.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647308",
+      "title": "Add GLN (Global Location Number) information to XRechnung and ZUGFeRD electronic document exports for German e-invoicing.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647403",
+      "title": "Correct duplicate detection when moving expense report lines between reports.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647410",
+      "title": "Prevent the \"User Confirmed\" field from being incorrectly copied to the \"Canceled\" field when posting expense report lines.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647621",
+      "title": "Improve payment reconciliation journal performance.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647631",
+      "title": "Prevent Payment History export crashes caused by string length overflow when combining entries.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647632",
+      "title": "Improve performance.",
+      "area": "Finance",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "608151",
+      "title": "Prevent incorrect supply suggestions in the Order Planning Worksheet for items already received but not invoiced on Purchase Orders after date changes.",
+      "area": "Jobs",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "626712",
+      "title": "Prevent Job Planning Line inventory from becoming unavailable for reservation or picking due to existing reservations on another project.",
+      "area": "Jobs",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "636861",
+      "title": "Prevent negative Purchase Order received and invoiced quantities when increasing corrective credit memo quantities for Service and Non-Inventory items.",
+      "area": "Inventory",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "639932",
+      "title": "Fix the incorrect Requisition Worksheet batch displayed when approvers open records from different batches through \"Requests to Approve\".",
+      "area": "Inventory",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "641223",
+      "title": "Ensure automatic reservation is triggered when an item with \"Reserve = Always\" is selected through the Description lookup on sales order lines.",
+      "area": "Inventory",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "641715",
+      "title": "Fix the \"Item - ABC Analysis\" page failing in Swedish due to a format string placeholder error.",
+      "area": "Inventory",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "642758",
+      "title": "Fix Purchase Return Order posting failures for manually reserved lot-tracked items when exact cost reversing is enabled.",
+      "area": "Inventory",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645178",
+      "title": "Resolve UI ambiguity by renaming and conditionally hiding duplicate \"Export/Import Item Data\" actions when manufacturing functionality is enabled.",
+      "area": "Inventory",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646086",
+      "title": "Improve the user experience when adding Option-type attributes to item categories by validating blank values immediately and preventing invalid mappings from being saved.",
+      "area": "Inventory",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646367",
+      "title": "Resolve failures when undoing drop shipment receipts for Service and Non-Inventory items.",
+      "area": "Inventory",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646958",
+      "title": "Fix the Quality Test page becoming unresponsive when deleting a new test with a blank description.",
+      "area": "Inventory",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647067",
+      "title": "Fix Bin Replenishment with Pick by FEFO to prevent incorrect inventory movements and ensure movement worksheet lines are processed in basic warehouse locations.",
+      "area": "Inventory",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "635573",
+      "title": "Support URL-encoded company names in HTTP headers.",
+      "area": "Integration",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "642280",
+      "title": "Prevent mileage expenses from incorrectly triggering the \"Receipt No. Mandatory\" validation rule.",
+      "area": "Integration",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "644625",
+      "title": "Upgrade the API version from the retiring Computer Vision v1.0 Analyze API to v3.2 before the September 2026 retirement deadline.",
+      "area": "Integration",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "644822",
+      "title": "Prevent CRM bidirectional sync from incorrectly resetting fully invoiced, prepayment-based Released Sales Orders to Open status.",
+      "area": "Integration",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "644823",
+      "title": "Handle non-file attachments without the contentBytes property when retrieving emails through the Outlook REST API to prevent batch processing failures.",
+      "area": "Integration",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645099",
+      "title": "Add extensibility support to warehouse receipt line splitting logic through a new integration event.",
+      "area": "Integration",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646533",
+      "title": "Enable external extensibility by changing the integration event attribute from non-subscribable to subscribable.",
+      "area": "Integration",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646534",
+      "title": "Add an integration event to support extensibility in the Transfer Header table's TestTransferLine procedure.",
+      "area": "Integration",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "640354",
+      "title": "Fix low-level code calculation in manufacturing planning for multi-level Bills of Materials (BOMs) with Stockkeeping Units (SKUs).",
+      "area": "Manufacturing",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "641028",
+      "title": "Deprecate the \"Subcontractor - Dispatch List\" report in preparation for its replacement by a new page in the Subcontracting application.",
+      "area": "Manufacturing",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "641865",
+      "title": "Display the calendar horizon on work center and machine center pages to prevent runtime scheduling errors.",
+      "area": "Manufacturing",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "642441",
+      "title": "Resolve duplicate key errors when calculating low-level codes for items and stockkeeping units that share the same production BOM.",
+      "area": "Manufacturing",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "643358",
+      "title": "Resolve Reservation Entry errors when creating Purchase Orders from Sales Orders with item tracking.",
+      "area": "Manufacturing",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "644102",
+      "title": "Resolve errors when posting receipts against subcontracting orders by improving item ledger entry filtering and application logic.",
+      "area": "Manufacturing",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646188",
+      "title": "Re-enable AppSourceCop rules after Subcontracting object renumbering.",
+      "area": "Manufacturing",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646700",
+      "title": "Exclude the current production order from the Copy Document lookup, aligning behavior with Sales and Purchase copy document functionality.",
+      "area": "Manufacturing",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646701",
+      "title": "Fix Direct Transfer creation failures for subcontracting when locations require Pick/Shipment with Directed Put-away and Pick enabled.",
+      "area": "Manufacturing",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647381",
+      "title": "Resolve errors when attempting to undo a posted subcontracting purchase receipt in Business Central.",
+      "area": "Manufacturing",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "640619",
+      "title": "Resolve posting errors for foreign currency transactions with partial non-deductible VAT when source currency consistency checking is enabled.",
+      "area": "Purchase",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "642056",
+      "title": "Optimize performance by preventing unnecessary database lookups when posting credit memos with empty key fields.",
+      "area": "Purchase",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "642188",
+      "title": "Fix BCApps validation failures by refining VAT entry filtering logic in purchase-related test scenarios.",
+      "area": "Purchase",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "639566",
+      "title": "Fix Sales Order List filtering in the \"Delayed\" view to prevent out-of-scope orders from appearing when using bookmarked views.",
+      "area": "Sales",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "642160",
+      "title": "Prevent negative shipped and invoiced quantities from appearing on Sales Order lines after using Copy Document from a Sales Credit Memo.",
+      "area": "Sales",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "645085",
+      "title": "Fix a hidden breaking change and instability when inserting Sales Line and Purchase Line records.",
+      "area": "Sales",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646711",
+      "title": "Resolve contact mapping and email routing issues in the Sales Order Agent (SOA).",
+      "area": "Sales",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646721",
+      "title": "Prevent users from activating or reconfiguring the Sales Order Agent by entering page=4400 in the URL.",
+      "area": "Sales",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "646788",
+      "title": "Correct page captions when viewing price lists from Customer and Vendor cards to display specific customer/vendor information instead of generic \"All Customers/All Vendors\" text.",
+      "area": "Sales",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647057",
+      "title": "Resolve missing read permissions on the \"Agent Task Message\" table that cause the Sales Order Agent to pause when opening Contacts.",
+      "area": "Sales",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647336",
+      "title": "Fix handling of default extended text that is automatically inserted as note lines on sales quotes.",
+      "area": "Sales",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647412",
+      "title": "Ensure the Sales Order Agent requests user assistance for price calculation errors regardless of the \"Check Availability\" setting.",
+      "area": "Sales",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647417",
+      "title": "Improve documentation by clarifying tooltips for sales document flow settings on the SOA setup page.",
+      "area": "Sales",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647439",
+      "title": "Enable users to change manually selected contacts and choose from duplicate contacts in incoming email scenarios for the Sales Order Agent.",
+      "area": "Sales",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "647497",
+      "title": "Defer agent activation and email monitoring changes until after the user submits a task in the \"Try it out\" flow.",
+      "area": "Sales",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "640085",
+      "title": "Stabilize a flaky test by adjusting test data parameters to ensure consistent and reliable test execution.",
+      "area": "Warehouse",
+      "group": "application",
+      "country": null
+    },
+    {
+      "id": "642018",
+      "title": "Set the Employee Posting Group for the Austrian (AT) localization when creating new employees from templates.",
+      "area": "Finance",
+      "group": "local",
+      "country": "AT"
+    },
+    {
+      "id": "638969",
+      "title": "Resolve an incorrect validation error when exporting BAS Calculation Worksheets for consolidated companies in the Australian localization.",
+      "area": "Finance",
+      "group": "local",
+      "country": "AU"
+    },
+    {
+      "id": "643225",
+      "title": "Correct GST amount calculation on prepayment credit memos and sales order corrections in the New Zealand and Australian localizations.",
+      "area": "VAT/Sales Tax/Intrastat",
+      "group": "local",
+      "country": "AU"
+    },
+    {
+      "id": "644611",
+      "title": "Correct PEPPOL BIS 3.0 XML export for Belgian sales invoices with payment discounts to ensure the XML matches the invoice printout and passes validation.",
+      "area": "Finance",
+      "group": "local",
+      "country": "BE"
+    },
+    {
+      "id": "642513",
+      "title": "Prevent LCY-originated entries from being incorrectly included in foreign currency totals when G/L currency revaluation is enabled in the Swiss localization.",
+      "area": "Finance",
+      "group": "local",
+      "country": "CH"
+    },
+    {
+      "id": "640064",
+      "title": "Add support for integration events for CZ Advance Payment and CZ Cash Desk functionality.",
+      "area": "Finance",
+      "group": "local",
+      "country": "CZ"
+    },
+    {
+      "id": "644115",
+      "title": "Correct the UI ordering to ensure fiscal year actions follow a logical sequence in the Accountant CZ Role Center.",
+      "area": "Finance",
+      "group": "local",
+      "country": "CZ"
+    },
+    {
+      "id": "644247",
+      "title": "Correct the reverse charge limit check to use the VAT base amount after discounts instead of the gross amount before discounts.",
+      "area": "Finance",
+      "group": "local",
+      "country": "CZ"
+    },
+    {
+      "id": "646179",
+      "title": "Update VIES Declaration Type option captions and refactor validation logic to support extensibility in the Slovak localization.",
+      "area": "Finance",
+      "group": "local",
+      "country": "CZ"
+    },
+    {
+      "id": "631259",
+      "title": "Resolve errors when importing e-documents in ZUGFeRD and XRechnung formats in the German localization by preventing trigger execution during database insert and modify operations.",
+      "area": "Finance",
+      "group": "local",
+      "country": "DE"
+    },
+    {
+      "id": "639678",
+      "title": "Improve performance when calculating the VAT advance return and VAT statement in the German environment.",
+      "area": "Finance",
+      "group": "local",
+      "country": "DE"
+    },
+    {
+      "id": "644839",
+      "title": "Add the buyer order reference to ZUGFeRD electronic document exports.",
+      "area": "Finance",
+      "group": "local",
+      "country": "DE"
+    },
+    {
+      "id": "645198",
+      "title": "Fix the Renewal Term field on the Create Contract Renewal Quote page to accept values such as 12M.",
+      "area": "Finance",
+      "group": "local",
+      "country": "DE"
+    },
+    {
+      "id": "646093",
+      "title": "Ensure DateFormula fields in recurring journal lines export localized tokens (for example, German +1T/+1J) instead of invariant tokens (+1D/+1Y) when using \"Open in Excel\".",
+      "area": "Integration",
+      "group": "local",
+      "country": "DE"
+    },
+    {
+      "id": "639679",
+      "title": "Resolve foreign currency rounding mismatches in Expense Report posting that caused test failures in the Spanish localization.",
+      "area": "Finance",
+      "group": "local",
+      "country": "ES"
+    },
+    {
+      "id": "642045",
+      "title": "Fix service credit memo posting failures in the Spanish localization caused by incorrect settlement validation that ignores \"Applies-to Doc. No.\" and the customer application method.",
+      "area": "Finance",
+      "group": "local",
+      "country": "ES"
+    },
+    {
+      "id": "642375",
+      "title": "Ensure Bill Customer Ledger Entries use the alternative Customer Posting Group specified on sales documents instead of the customer's default posting group in the Spanish localization.",
+      "area": "Finance",
+      "group": "local",
+      "country": "ES"
+    },
+    {
+      "id": "643368",
+      "title": "Resolve unbalanced G/L entries when posting and applying a Sales Credit Memo against a redrawn or rejected bill in the Spanish localization.",
+      "area": "Finance",
+      "group": "local",
+      "country": "ES"
+    },
+    {
+      "id": "639574",
+      "title": "Ensure payment discount lines in the French Audit File (FEC) correctly populate the CompAuxNum and CompAuxLib columns with customer or vendor information.",
+      "area": "Finance",
+      "group": "local",
+      "country": "FR"
+    },
+    {
+      "id": "641872",
+      "title": "Prevent the SIREN field from being cleared on customer records when modifying common fields on linked contacts in the French localization.",
+      "area": "Marketing",
+      "group": "local",
+      "country": "FR"
+    },
+    {
+      "id": "645028",
+      "title": "Resolve text truncation issues that cause BC 28.3 to fail in French environments when processing blanket sales orders with allocation account line types.",
+      "area": "Sales",
+      "group": "local",
+      "country": "FR"
+    },
+    {
+      "id": "639906",
+      "title": "Restore missing header and footer information in the Issued Reminders (Report 117) for the United Kingdom localization.",
+      "area": "Finance",
+      "group": "local",
+      "country": "GB"
+    },
+    {
+      "id": "642173",
+      "title": "Restore missing header and footer information in issued reminders for the United Kingdom localization.",
+      "area": "Finance",
+      "group": "local",
+      "country": "GB"
+    },
+    {
+      "id": "645120",
+      "title": "Allow users to reopen quality inspections and modify the assigned User ID.",
+      "area": "Inventory",
+      "group": "local",
+      "country": "GB"
+    },
+    {
+      "id": "641670",
+      "title": "Add Withholding Tax fields to journal pages and validate required account fields in the Withholding Tax feature.",
+      "area": "Purchase",
+      "group": "local",
+      "country": "MY"
+    },
+    {
+      "id": "642609",
+      "title": "Correct depreciation calculation in the New Zealand localization to use the adjusted 80% asset base instead of the full asset value in BC 28.1.",
+      "area": "Finance",
+      "group": "local",
+      "country": "NZ"
+    },
+    {
+      "id": "623874",
+      "title": "Prevent 1099 adjustment amounts from being incorrectly copied when creating a new IRS reporting period from an existing period setup.",
+      "area": "Finance",
+      "group": "local",
+      "country": "US"
+    },
+    {
+      "id": "645165",
+      "title": "Correct the amount due calculation in the Remittance Advice report when using Suggest Vendor Payments with the \"Summarize Per Vendor\" option.",
+      "area": "Finance",
+      "group": "local",
+      "country": "US"
+    },
+    {
+      "id": "646172",
+      "title": "Prevent global dimension filters from being cleared when users select the Recalculate action on the Financial Report page.",
+      "area": "Finance",
+      "group": "local",
+      "country": "US"
+    },
+    {
+      "id": "646785",
+      "title": "Fix the Deferral Summary - G/L report to correctly filter totals by global dimensions.",
+      "area": "Finance",
+      "group": "local",
+      "country": "US"
+    },
+    {
+      "id": "641669",
+      "title": "Resolve the Codeunit 11489 binding failure that occurs when the codeunit has already been bound.",
+      "area": "Integration",
+      "group": "local",
+      "country": "US"
+    }
+  ]
+}

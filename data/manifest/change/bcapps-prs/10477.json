@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/10477",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug Fix] #249: Raise populated ErrorInfo for Subscription Billing failures",
+  "url": "https://github.com/microsoft/BCApps/pull/10477",
+  "published_at": "2026-10-23T16:12:18Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T21:57:46.568Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T21:58:15.022Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T21:58:27.311Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004507
+    },
+    "linked": {
+      "at": "2026-10-23T21:58:27.569Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T21:58:27.625Z",
+      "path": "content/changes/bcapps/10477.md"
+    }
+  },
+  "input_hash": "15385dede95a4f9e7be01be47c684fc9d654a7ce:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10477,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug fix 249 raise populated errorinfo for subscription billing failures"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2bc9a033e1f3077fa1886680bbddebbaef0f3a54688cf69067a810f6cabf003a"
+}

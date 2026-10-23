@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10444",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug][Subscription Billing] \"Cancellation Possible Until\" is rounded to the end of the month when the Notice Period is expressed in days",
+  "url": "https://github.com/microsoft/BCApps/pull/10444",
+  "published_at": "2026-10-23T11:02:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T21:57:46.568Z"
+    }
+  },
+  "input_hash": "049372b00f600da4221af4407206475ba0392896:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10444,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "049372b00f600da4221af4407206475ba0392896",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "bug subscription billing cancellation possible until is rounded to the end of the month when the notice period is expressed in days"
+  }
+}

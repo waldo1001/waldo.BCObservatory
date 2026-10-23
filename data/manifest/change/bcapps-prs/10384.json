@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10384",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility][SubscriptionBilling] Make procedures necessary for custom Usage Data Connector externally accessible",
+  "url": "https://github.com/microsoft/BCApps/pull/10384",
+  "published_at": "2026-10-23T10:41:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T21:57:46.568Z"
+    }
+  },
+  "input_hash": "0147af038d26a3539910974e5bf29c34958350c3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10384,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0147af038d26a3539910974e5bf29c34958350c3",
+    "author": "caesarsit",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "extensibility subscriptionbilling make procedures necessary for custom usage data connector externally accessible"
+  }
+}

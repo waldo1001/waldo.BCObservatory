@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "FAQ for Sales Order Agent",
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-sales-order-taker-agent",
-  "published_at": "2026-10-05T08:46:22.000Z",
+  "published_at": "2026-10-23T11:36:03.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,48 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.396Z",
-      "blob": "519193a9a2d749db3dcfa98b444f7d8326a313cf",
-      "words": 2135,
+      "at": "2026-10-23T21:58:13.385Z",
+      "blob": "a609cc7e09dc45c5be6c93e644dbaaa0d1fb0f88",
+      "words": 2266,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:07:09.756Z",
+      "at": "2026-10-23T21:58:22.196Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.010538
+      "cost_usd": 0.011074
     },
     "summarized": {
-      "at": "2026-10-06T13:08:40.396Z",
+      "at": "2026-10-23T21:58:22.198Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:08:40.397Z",
+      "at": "2026-10-23T21:58:22.199Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:08:40.397Z",
+      "at": "2026-10-23T21:58:22.200Z",
       "page": false
     }
   },
-  "input_hash": "519193a9a2d749db3dcfa98b444f7d8326a313cf",
+  "input_hash": "a609cc7e09dc45c5be6c93e644dbaaa0d1fb0f88",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/faqs-sales-order-taker-agent.md",
     "description": "This FAQ provides information about the AI technology used by Sales Order Agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-10-23",
     "ms_topic": "faq",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 2135,
+    "words": 2266,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2d353e1b709fd38578b6625a632e64d7d7c64fa9b280e7aa70b4513f732a10ce"
+  "output_hash": "5076a87542e9475b6d6c138f09b5cfb815a567d6b9042c764b4119eada041f71"
 }

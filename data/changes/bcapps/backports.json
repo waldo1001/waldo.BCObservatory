@@ -728,6 +728,15 @@
       "title_key": "fix contoso serial number series descriptions"
     }
   ],
+  "12472": [
+    {
+      "number": 12699,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-23T18:02:00Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12699",
+      "title_key": "expense agent default vat setup fails in localized companies"
+    }
+  ],
   "12545": [
     {
       "number": 12547,
@@ -764,6 +773,24 @@
       "title_key": "bug 656097 29 x icm 51000002255818 reverse charge vat sales posting still validates the legacy item flag when the new feature is enabled"
     }
   ],
+  "12855": [
+    {
+      "number": 13142,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-23T07:02:01Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13142",
+      "title_key": "e documents add support for credit memos recognised from the pdf and applied to the original invoice"
+    }
+  ],
+  "12894": [
+    {
+      "number": 13143,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-23T14:16:28Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13143",
+      "title_key": "payablesagent add support for credit memos recognised from the pdf and applied to the original invoice"
+    }
+  ],
   "12943": [
     {
       "number": 12944,
@@ -780,6 +807,15 @@
       "merged_at": "2026-10-19T16:45:19Z",
       "url": "https://github.com/microsoft/BCApps/pull/13002",
       "title_key": "fix self billing test fixture rollback"
+    }
+  ],
+  "13054": [
+    {
+      "number": 13168,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-23T13:48:02Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13168",
+      "title_key": "fr delocalize delayed vat and sepa payment slip integration"
     }
   ],
   "unmatched": [
