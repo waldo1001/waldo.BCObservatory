@@ -13,7 +13,7 @@
 import { join, relative, resolve } from "node:path";
 import matter from "gray-matter";
 import { stringify as toYaml } from "yaml";
-import { exists, listFiles, readJson, readText, removeIfExists, writeText } from "../lib/fsx.js";
+import { exists, readJsonOr, listFiles, readJson, readText, removeIfExists, writeText } from "../lib/fsx.js";
 import { fileKey, type ManifestItem } from "../lib/manifest.js";
 import { validateOrThrow } from "../lib/schema.js";
 import { sha256 } from "../lib/text.js";
@@ -26,7 +26,8 @@ import { PIPELINE_VERSION } from "../version.js";
 import { loadObjectIndex, mentionSection, type ObjectIndex } from "../link/mentions.js";
 import { reviewOf, reviewWords } from "../lib/review.js";
 import { llmsTitle } from "../lib/sections.js";
-import { applyCrossLinks, crossLinkSection, crossLinksFor, type CrossLink } from "../link/crosslinks.js";
+import { applyCrossLinks, crossLinkSection, crossLinksFor, listOnly, type CrossLink } from "../link/crosslinks.js";
+import { cautionsPath, type Caution, type CautionRecord } from "../extract/cautions.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 export const postPageKey = (item: Pick<ManifestItem, "id" | "source">) => `${item.source}/${fileKey(postKey(item))}`;
@@ -42,7 +43,7 @@ export const postMentions = (x: Pick<PostExtraction, "objects">, index: ObjectIn
  * `preview`: embeddability and the card fields (D60), from previewFor; absent when the post was never probed.
  * `index`: data/index/objects.json (link/mentions.ts), so the objects the post names link to their pages (D67).
  */
-export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock, index: ObjectIndex | null = null, xlinks: CrossLink[] = []): string {
+export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock, index: ObjectIndex | null = null, xlinks: CrossLink[] = [], cautions: Caution[] = []): string {
   const pk = postPageKey(item);
   const mentions = postMentions(x, index);
   const fm = {
@@ -57,6 +58,7 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
     post_id: postKey(item), source_id: item.source, source_name: src.name, url: item.url, published_at: item.published_at ?? null,
     author: src.author?.name ?? null, full_text: !!src.full_text, words: x.words, quotes: x.quotes,
     code_objects_mentioned: x.objects.map((o) => `${o.type} ${o.name}`), systems: x.systems, versions_mentioned: x.versions,
+    ...(cautions.length ? { cautions } : {}),
     ...(preview ? { preview } : {}),
   };
   validateOrThrow("frontmatter.post", fm, `post page ${pk}`);
@@ -70,6 +72,7 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
   if (x.quotes.length) lines.push("## Quotes", "", ...x.quotes.map((q) => `- "${q.text}" (${q.why_it_matters})`), "");
   lines.push(...mentions.lines);
   lines.push(...crossLinkSection(xlinks, "../../"));
+  if (cautions.length) lines.push("## Heads up", "", ...cautions.map((c) => `- ${c.kind}: "${c.quote}"${aboutOf(c)}`), "");
   if (x.versions.length || x.features.length) lines.push("## Context", "", ...(x.features.length ? [`- Features: ${x.features.join(", ")}`] : []), ...(x.versions.length ? [`- Versions: ${x.versions.join(", ")}`] : []), "");
   lines.push(`Source: ${src.name}, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.`, "");
   return `---\n${toYaml(fm, { lineWidth: 0, version: "1.1" })}---\n\n${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
@@ -80,14 +83,25 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
  * page repeats: the raw text is in the vault, so this runs wherever the vault is (the nightly), and is skipped when
  * it is not or when the source allows full text.
  */
-export function policyCheckedPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock, index: ObjectIndex | null = null, xlinks: CrossLink[] = []): string | null {
-  const page = renderPostPage(item, x, src, now, preview, index, xlinks);
+/** D106: the post's cautions (extract/cautions.ts), or none. */
+export const postCautions = (dataDir: string, item: Pick<ManifestItem, "id" | "source">): Caution[] => readJsonOr<Partial<CautionRecord>>(cautionsPath(dataDir, item), {}).cautions ?? [];
+/** ` (about Table 49 "x", BC 26)`: what a caution names, as the post wrote it. */
+const aboutOf = (c: Caution) => {
+  const what = [...c.objects.map((o) => `${o.type} ${o.name}`), ...c.events, ...c.versions.map((v) => `version ${v.replace(/^v(?=\d)/i, "")}`)];
+  return what.length ? ` (about ${what.join(", ")})` : "";
+};
+
+export function policyCheckedPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock, index: ObjectIndex | null = null, xlinks: CrossLink[] = [], cautions0: Caution[] = []): string | null {
+  let cautions = cautions0;
+  let page = renderPostPage(item, x, src, now, preview, index, xlinks, cautions);
   const rawPath = postRawPath(item);
   if (src.full_text || !exists(rawPath)) return page;
   const check = repeatChecker(readText(rawPath));
   if (!check(page)) return page;
+  // D106: cautions are quotes too; when the page repeats the post with them, it goes on without them
+  if (cautions.length) { cautions = []; page = renderPostPage(item, x, src, now, preview, index, xlinks, cautions); if (!check(page)) return page; }
   const s = scrubRepeats(x, check);
-  const again = renderPostPage(item, { ...s.value, trimmed_for_policy: s.trimmed }, src, now, preview, index, xlinks);
+  const again = renderPostPage(item, { ...s.value, trimmed_for_policy: s.trimmed }, src, now, preview, index, xlinks, cautions);
   return check(again) ? null : again;
 }
 
@@ -96,7 +110,7 @@ export function postPublished(sources: Map<string, PostSourceInfo>) {
     const p = postExtractionPath(ctx.dataDir, item);
     if (!exists(p)) throw new Error(`post extraction missing: ${p}`);
     const src = sources.get(item.source) ?? { name: item.source };
-    const page = policyCheckedPage(item, readJson<PostExtraction>(p), src, ctx.now(), previewFor(item, ctx.dataDir, src), loadObjectIndex(ctx.dataDir), crossLinksFor(ctx.dataDir, `post/${postPageKey(item)}`));
+    const page = policyCheckedPage(item, readJson<PostExtraction>(p), src, ctx.now(), previewFor(item, ctx.dataDir, src), loadObjectIndex(ctx.dataDir), crossLinksFor(ctx.dataDir, `post/${postPageKey(item)}`), postCautions(ctx.dataDir, item));
     const path = resolve(ctx.contentDir, "posts", `${postPageKey(item)}.md`);
     // like the extract-time guard (D51), the item is skipped, not failed: nothing to retry, the post simply cannot
     // be summarised without repeating itself. Any older page is removed, or check:leak would still find it.
@@ -149,7 +163,8 @@ export function pendingMentionPages(items: ManifestItem[], dataDir: string, cont
     const { data, content } = matter(readText(page));
     const xl = crossLinksFor(dataDir, `post/${postPageKey(item)}`);
     return JSON.stringify(applyCrossLinks({ objects: want.pageIds }, xl).objects) !== JSON.stringify((data as { links?: { objects?: string[] } }).links?.objects ?? [])
-      || JSON.stringify(xl) !== JSON.stringify((data as { links?: { related?: unknown[] } }).links?.related ?? [])
+      || JSON.stringify(xl.filter((r) => !listOnly(r))) !== JSON.stringify((data as { links?: { related?: unknown[] } }).links?.related ?? [])
+      || JSON.stringify(postCautions(dataDir, item)) !== JSON.stringify((data as { cautions?: unknown[] }).cautions ?? [])
       || !content.includes(want.lines.join("\n").trim());
   });
 }

@@ -5,8 +5,8 @@
   "type": "object",
   "required": ["id", "type", "title", "summary", "tier", "language", "review", "generated", "evidence", "links"],
   "properties": {
-    "id": { "type": "string", "pattern": "^(topic|feature|object|localization|source|video|post|digest|change|app|release)/[A-Za-z0-9_-][A-Za-z0-9/_.-]*$", "description": "<type>/<slug>; video ids keep the case-sensitive YouTube id" },
-    "type": { "enum": ["topic", "feature", "object", "localization", "source", "video", "post", "digest", "change", "app", "release"] },
+    "id": { "type": "string", "pattern": "^(topic|feature|object|localization|source|video|post|digest|change|app|release|hotfix)/[A-Za-z0-9_-][A-Za-z0-9/_.-]*$", "description": "<type>/<slug>; video ids keep the case-sensitive YouTube id" },
+    "type": { "enum": ["topic", "feature", "object", "localization", "source", "video", "post", "digest", "change", "app", "release", "hotfix"] },
     "title": { "type": "string", "minLength": 1 },
     "summary": { "type": "string", "minLength": 1, "maxLength": 600 },
     "tier": { "enum": ["official", "community", "mixed"] },
@@ -27,10 +27,23 @@
       "items": {
         "type": "object", "required": ["kind", "url"],
         "properties": {
-          "kind": { "enum": ["learn", "code", "video", "blog", "guideline", "roadmap", "marketplace"] },
+          "kind": { "enum": ["learn", "code", "video", "blog", "guideline", "roadmap", "marketplace", "support"] },
           "url": { "type": "string" }, "title": { "type": "string" }, "date": { "type": ["string", "null"] },
           "commit": { "type": ["string", "null"] }, "t": { "type": ["integer", "null"] },
           "quote": { "type": ["string", "null"], "maxLength": 240 }
+        }
+      }
+    },
+    "cautions": {
+      "type": "array", "maxItems": 8,
+      "description": "D106: warnings. On a post or video page: its own (verbatim quote under 25 words, the objects, events and versions it is about). On an object page: the cautions the relevance guard attached, each with the page it comes from and the scope it applies to",
+      "items": {
+        "type": "object", "required": ["kind", "quote"],
+        "properties": {
+          "kind": { "enum": ["warning", "gotcha", "breaking", "preview-disclaimer"] }, "quote": { "type": "string", "maxLength": 240 }, "t": { "type": "integer" },
+          "objects": { "type": "array", "items": { "type": "object", "required": ["type", "name"], "properties": { "type": { "type": "string" }, "name": { "type": "string" } } } },
+          "events": { "type": "array", "items": { "type": "string" } }, "versions": { "type": "array", "items": { "type": "string" } },
+          "from": { "type": "string" }, "title": { "type": "string" }, "scope": { "type": "string" }
         }
       }
     },

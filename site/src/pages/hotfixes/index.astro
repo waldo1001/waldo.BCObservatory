@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content";
+import List from "../../layouts/List.astro";
+import { countLabel, section } from "../../../../pipeline/lib/sections";
+const base = import.meta.env.BASE_URL;
+// newest update first, as content/hotfixes/llms.txt orders them
+const num = (u: string) => String(u).split(".").map(Number);
+const all = (await getCollection("hotfixes")).sort((a, b) => num(b.data.update)[0] - num(a.data.update)[0] || num(b.data.update)[1] - num(a.data.update)[1]);
+---
+<List section="hotfixes" title={`${section("hotfixes").name} · BC Observatory`} description="Microsoft's hotfix lists per Business Central update, from Microsoft Support.">
+  <p class="eyebrow">{section("hotfixes").name}</p>
+  <h1>{countLabel("hotfixes", all.length)}</h1>
+  <p class="lede">Microsoft's hotfix lists per Business Central update, from Microsoft Support: each entry's ID, area and one-line wording, linked to the code changes that carry the ID as a work item. Agents: <a href={`${base}hotfixes/llms.txt`}>llms.txt</a>.</p>
+  <table>
+    <thead><tr><th scope="col">Update</th><th scope="col">Released</th><th scope="col">Application build</th><th scope="col">Entries</th><th scope="col">Code changes</th></tr></thead>
+    <tbody>{all.map((h) => <tr><td><a href={`${base}hotfixes/${h.id}/`}>Update {h.data.update}</a></td><td>{h.data.month ?? ""}</td><td>{h.data.application_build ?? ""}</td><td>{h.data.entry_count}</td><td>{Array.isArray(h.data.links?.changes) ? h.data.links.changes.length : 0}</td></tr>)}</tbody>
+  </table>
+</List>

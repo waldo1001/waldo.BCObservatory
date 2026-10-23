@@ -28,6 +28,7 @@ import { gitPageFetched } from "../fetch/git-page.js";
 import { docsExtractedHandler, passThrough } from "../extract/docs.js";
 import { featurePublished } from "../render/feature.js";
 import { releasePublished } from "../render/release.js";
+import { hotfixPublished } from "../render/hotfix.js";
 import { linkedHandler, publishedHandler } from "../render/video.js";
 import { reviewedHandler } from "../review/video.js";
 import { summarizedHandler } from "../summarize/video.js";
@@ -56,6 +57,7 @@ export const STAGE_HANDLERS: StageHandlers = {
   code: { fetched: codeFetched(codeDeps), extracted: codeExtracted(codeDeps), linked: callGraphHandler({ cacheDir: CACHE_DIR }), published: passThrough({}) },
   roadmap: { fetched: passThrough({ from: "snapshot" }), linked: passThrough({}), published: featurePublished() },
   release: { fetched: passThrough({ from: "snapshot" }), published: releasePublished() },
+  hotfix: { fetched: passThrough({ from: "snapshot" }), published: hotfixPublished() },
   docs: {
     fetched: gitPageFetched(),
     extracted: docsExtractedHandler(),

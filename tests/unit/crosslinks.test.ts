@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
-  applyCrossLinks, buildCrossLinks, crossLinkSection, isCertain, MAX_NAMED_PER_LEARN, MAX_ROWS, MAX_SHARERS, serializeCrossLinks,
+  applyCrossLinks, buildCrossLinks, crossLinkSection, isCertain, MAX_DOCS_VIA, MAX_NAMED_PER_LEARN, MAX_ROWS, MAX_SHARERS, serializeCrossLinks,
   type CrossLinkInput,
 } from "../../pipeline/link/crosslinks.js";
 import { objectIndexFromRows } from "../../pipeline/link/mentions.js";
@@ -151,4 +151,10 @@ test("crosslinks: a Learn page naming more than MAX_NAMED_PER_LEARN objects is a
   const r = buildCrossLinks(fixture({ objects: idx, learn: [list], documented: new Map(), overrides: [] }));
   assert.equal(r.learn[list.url], undefined);
   assert.ok(Object.values(r.pages).every((rows) => rows.every((x) => x.to !== list.url)));
+});
+
+test("crosslinks: an object on more than MAX_DOCS_VIA Learn pages leads no change to them", () => {
+  const many = new Map([["object/table/36", Array.from({ length: MAX_DOCS_VIA + 1 }, (_, i) => ({ url: `https://learn.microsoft.com/p${i}`, title: `P${i}` }))]]);
+  const r = buildCrossLinks(fixture({ documented: many, learn: [], overrides: [] }));
+  assert.equal((r.pages["change/bcapps/2"] ?? []).filter((x) => x.to.startsWith("https:")).length, 0);
 });

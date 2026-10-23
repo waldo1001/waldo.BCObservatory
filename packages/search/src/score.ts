@@ -465,8 +465,48 @@ export function search(index: Index, q: ParsedQuery, opts: { limit?: number; kin
     // the exact band: a reference, or the record's own name equal to the query and not demoted as generic
     if (s > 0) hits.push({ r, s, why, band: s >= 900 || (why.includes("name") && !why.includes("demoted")) ? "exact" : "match" });
   }
+  learnTitleBand(index, q, hits, opts);
   hits.sort(opts.sort === "date" ? byDate : byRank);
   return opts.limit ? hits.slice(0, opts.limit) : hits;
+}
+
+/** Title words that never count for the Learn title band: function words. */
+const TITLE_STOP = new Set(["a", "an", "the", "of", "to", "in", "on", "and", "or", "for", "with", "your", "you", "how", "what", "is", "are", "by", "from", "about", "using", "use"]);
+/** A Learn title band hit scores this, plus one per query word its title meets: above any page matched by text alone. */
+export const LEARN_TITLE_SCORE = 30;
+const LEARN_ROWS = new WeakMap<Index, { n: number; rows: number[] }>();
+
+/**
+ * The Learn title band (D106): a Learn article whose title the query covers leads, even when the query adds words its
+ * page does not hold ("copy environment cleanup" finds "Copy an environment", which never says "cleanup"). Covered:
+ * every title word (function words out, at least two) meets a query term, and the title meets at least half of the
+ * query's terms. Such an article is added when the every-term rule left it out, and enters the exact band either way.
+ */
+function learnTitleBand(index: Index, q: ParsedQuery, hits: Hit[], opts: { kinds?: SearchRecord["kind"][]; filter?: (r: SearchRecord) => boolean }): void {
+  if (q.terms.length < 2 || q.ref || q.number !== null || q.kind || (opts.kinds && !opts.kinds.includes("page"))) return;
+  // records are only ever appended (prepare): the Learn rows hold while the count does
+  let cached = LEARN_ROWS.get(index);
+  if (!cached || cached.n !== index.records.length) {
+    const found: number[] = [];
+    index.records.forEach((r, i) => { if (r.type === "learn") found.push(i); });
+    cached = { n: index.records.length, rows: found };
+    LEARN_ROWS.set(index, cached);
+  }
+  const rows = cached.rows;
+  const ms = matchersOf(index, q);
+  const meets = (m: Matcher, t: string) => { const f = m.words.get(t); return !!f && f.how !== "fuzzy"; };
+  const byRecord = new Map(hits.map((h) => [h.r, h]));
+  for (const i of rows) {
+    const r = index.records[i];
+    if (opts.filter && !opts.filter(r)) continue;
+    const title = [...new Set(tokenize(r.title))].filter((t) => !TITLE_STOP.has(t));
+    if (title.length < 2 || !title.every((t) => ms.some((m) => meets(m, t)))) continue;
+    const met = ms.filter((m) => title.some((t) => meets(m, t))).length;
+    if (met * 2 < ms.length) continue;
+    const h = byRecord.get(r);
+    if (h) { h.s = Math.max(h.s, LEARN_TITLE_SCORE + met); h.band = "exact"; if (!h.why.includes("learn title")) h.why.push("learn title"); }
+    else hits.push({ r, s: LEARN_TITLE_SCORE + met, why: ["learn title"], band: "exact" });
+  }
 }
 
 /** How a symbol hit reads: `field 20 of Table 36 "Sales Header" · Date`, `event of Codeunit 80 "Sales-Post" · integration · 8 subscribers`. */
