@@ -200,7 +200,11 @@ export function communityRawExpected(dataDir: string, sources: SourceDef[]): str
 // Its test fixture is a verbatim copy of that changelog: issue 19 blocked three runs on a post quoting its release notes.
 // D94: the Learn shard is built from Learn alone (the docs manifest, the Learn extractions, the topic hubs' names); its
 // first derive failed on "AVS Error AVS0109" followed by Learn's own description, which a community post quotes
-const OFFICIAL_ONLY = [/^data\/code\//, /^content\/objects\//, /^data\/releases\//, /^content\/releases\//, /^tests\/fixtures\/al-changelog\.md$/, /^data\/index\/learn-[0-9a-f]{12}\.json$/];
+// D106: Learn key facts are model text about Learn pages only (the records and their index file)
+const OFFICIAL_ONLY = [/^data\/code\//, /^content\/objects\//, /^data\/releases\//, /^content\/releases\//, /^tests\/fixtures\/al-changelog\.md$/, /^data\/index\/learn-[0-9a-f]{12}\.json$/,
+  /^data\/extract\/learn-facts\//, /^data\/index\/learn-facts-[0-9a-f]{12}\.json$/,
+  // D106: Microsoft Support update pages: the snapshots, the pages and the test fixtures hold Microsoft's wording only
+  /^data\/hotfixes\//, /^content\/hotfixes\//, /^tests\/fixtures\/support-update/];
 export const officialOnlyOutput = (rel: string) => OFFICIAL_ONLY.some((re) => re.test(rel));
 
 /** Official text the repo holds: the newest roadmap snapshot and Learn's own page descriptions (manifest meta). */
