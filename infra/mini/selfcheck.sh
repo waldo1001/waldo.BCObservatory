@@ -13,7 +13,8 @@ check() { local name="$1"; shift; local out; if out="$("$@" 2>&1)"; then echo "o
 withenv() { ( set -a; . "$ENV_FILE"; set +a; [[ -z "${ANTHROPIC_API_KEY:-}" ]] || { echo "ANTHROPIC_API_KEY is set" >&2; exit 1; }; bash -c "$1" ); }
 
 check "user" bash -c '[[ "$(id -un)" == bcobs ]] && id -un'
-check "node" node -v
+# the engines floor in package.json: the Node security releases of 21 Oct 2026 (brotli, TLS hostname checks)
+check "node" node -e 'const [a,b,c]=process.versions.node.split(".").map(Number), ok=a===22?b>23||(b===23&&c>=4):a===24?b>22||(b===22&&c>=1):a>=26&&(a>26||b>12||(b===12&&c>=1)); console.log(process.version); if(!ok){console.log(`below the floor: brew upgrade node@22`); process.exit(1)}'
 check "claude version" bash -c "v=\$(claude --version | cut -d' ' -f1); [[ -z '$pin' || \$v == '$pin' ]] && echo \$v || { echo \"claude \$v, pinned $pin\"; exit 1; }"
 check "yt-dlp" yt-dlp --version
 check "deno" bash -c 'set -o pipefail; deno --version | head -1'

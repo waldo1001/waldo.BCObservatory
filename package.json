@@ -4,7 +4,7 @@
   "private": true,
   "description": "BC Observatory: an agent-first, cross-referenced knowledge base of Microsoft Dynamics 365 Business Central, woven from docs, code, guidelines, videos and blogs.",
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": { "node": "^22.23.4 || ^24.22.1 || >=26.12.1" },
   "workspaces": ["site", "packages/*"],
   "scripts": {
     "nightly": "NODE_OPTIONS=--max-old-space-size=8192 tsx pipeline/orchestrator/nightly.ts",
