@@ -20,6 +20,9 @@ one in either mode.
   then `npm run check:never-less` (0 of 6 hold before it), un-pend rows that hold, backfill learn-confirm, learn facts
   and cautions within their quotas, publish MCP 0.9.0 and plugin 0.5.0. Spec section 12 lists the deviations and the
   open never-less gap (Learn concept pages found only by meaning). Do not apply `spec-approved` to #26.
+- **Learn by meaning in brief, D107** (`docs/specs/learn-meaning-brief.md`, M45, issue #34). Status: built 2026-10-23 on
+  `build/layered-answers-p7`, stacked on #33; unreachable Learn URLs of the never-less check 11 -> 8 of 16. Ships with MCP
+  0.9.0. The rest is an owner decision (spec section 8).
 - **Observatory in Claude chat and Desktop, D105** (`docs/specs/mcp-in-claude-chat.md`, M43, issue #24). Status:
   proposed 2026-10-22, nothing implemented; the owner wants it specced, not built yet, and phase 2 waits for a host
   choice (spec section 4, host criteria). Start with phase 1 task 1 (the tests). Until it lands, claude.ai users who add
