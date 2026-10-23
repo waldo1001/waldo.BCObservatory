@@ -27,6 +27,7 @@ import { loadLinks, loadReview, roadmapByVideoFeature } from "../link/coverage.j
 import { featureStatus, latestRoadmap } from "./feature.js";
 import { loadEmbedOverrides } from "../extract/preview-probe.js";
 import { loadObjectIndex, mentionSection, type ObjectIndex } from "../link/mentions.js";
+import { applyCrossLinks, crossLinkSection, crossLinksFor, type CrossLink } from "../link/crosslinks.js";
 import { reviewOf, reviewWords } from "../lib/review.js";
 import { llmsTitle } from "../lib/sections.js";
 
@@ -65,7 +66,7 @@ export const COMMUNITY_QUOTES_MAX = 5;
  * `source.embed: false` (the channel's opt-out or data/overrides/embeds.yaml, D60) writes `embed: false`: no in-page player.
  * `index`: data/index/objects.json (link/mentions.ts), so the objects heard link to their pages (D67).
  */
-export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: VideoSummary, source: { name: string; embed?: boolean }, now: Date, roadmap: VideoRoadmap = NO_ROADMAP, index: ObjectIndex | null = null): string {
+export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: VideoSummary, source: { name: string; embed?: boolean }, now: Date, roadmap: VideoRoadmap = NO_ROADMAP, index: ObjectIndex | null = null, xlinks: CrossLink[] = []): string {
   const id = videoIdOf(item);
   const mentions = mentionSection(x0.objects, index, { up: "../", source: "As heard in the captions", suffix: (o) => ` at [${hms(o.t)}](${at(id, o.t)})` });
   const x = item.tier === "official" ? x0 : { ...x0, quotes: x0.quotes.slice(0, COMMUNITY_QUOTES_MAX) };
@@ -85,7 +86,7 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
     review,
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: { [EXTRACT_STAGE]: EXTRACT_V, [SUMMARY_STAGE]: SUMMARY_V }, input_hash: item.stages.captioned?.vtt_sha256 as string ?? null },
     evidence,
-    links: { learn: [], objects: mentions.pageIds, features: [...new Set(rm.flatMap((r) => r.ids))].sort().map((f) => `feature/${f}`), topics: [], localizations: [], videos: [], posts: [], guidelines: [] },
+    links: applyCrossLinks({ learn: [] as string[], objects: mentions.pageIds, features: [...new Set(rm.flatMap((r) => r.ids))].sort().map((f) => `feature/${f}`), topics: [], localizations: [], videos: [] as string[], posts: [] as string[], guidelines: [] }, xlinks),
     video_id: id, channel: item.source, source_name: source.name, url: item.url, published_at: item.published_at ?? null,
     duration_s: Math.round(x.duration_s), captions: item.tier === "official" ? "full" : "derived", audience: s.audience,
     chapters: x.chapters.map((c) => ({ t: Math.floor(c.t_start), title: c.title })),
@@ -131,6 +132,7 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
   lines.push(...mentions.lines);
   if (x.quotes.length) lines.push("## Quotes", "", ...x.quotes.map((q) => `- [${hms(q.t)}](${at(id, q.t)}) "${q.text}"`), "");
   if (x.disclaimers.length) lines.push("## Disclaimers in the video", "", ...x.disclaimers.map((d) => `- [${hms(d.t)}](${at(id, d.t)}) ${d.kind}: ${d.text}`), "");
+  lines.push(...crossLinkSection(xlinks, "../"));
   if (x.presenters.length) lines.push(`Presenters (as heard): ${x.presenters.map((p) => p.name).join(", ")}.`, "");
   return `---\n${toYaml(fm, { lineWidth: 0, version: "1.1" })}---\n\n${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
 }
@@ -146,7 +148,7 @@ export async function publishedHandler(item: ManifestItem, ctx: Pick<StageContex
   const off = src?.embed === false || loadEmbedOverrides(ctx.dataDir).videos.some((v) => v.id === id);
   const source = { name: src?.name ?? item.source, ...(off ? { embed: false } : {}) };
   const roadmap = { byFeature: roadmapByVideoFeature(loadLinks(ctx.dataDir), id, loadReview(ctx.dataDir)), entries: latestRoadmap(ctx.dataDir) };
-  const page = renderVideoPage(item, x, s, source, ctx.now(), roadmap, loadObjectIndex(ctx.dataDir));
+  const page = renderVideoPage(item, x, s, source, ctx.now(), roadmap, loadObjectIndex(ctx.dataDir), crossLinksFor(ctx.dataDir, `video/${id}`));
   const path = videoPagePath(ctx.contentDir, id);
   // regenerate only when the body or the facts changed, so a quiet night does not touch every page's generated.at
   const body = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");

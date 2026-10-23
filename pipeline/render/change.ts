@@ -23,12 +23,13 @@ import { loadSources } from "../lib/config.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { reviewOf, reviewWords } from "../lib/review.js";
 import { llmsTitle } from "../lib/sections.js";
+import { objectTitle } from "../lib/object-title.js";
+import { applyCrossLinks, crossLinkSection, crossLinksFor, type CrossLink } from "../link/crosslinks.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 const plural = (n: number, w: string) => `${n} ${w}${n === 1 ? "" : "s"}`;
 const stable = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");
-const TYPE_LABEL: Record<string, string> = { table: "Table", tableextension: "Table extension", page: "Page", pageextension: "Page extension", codeunit: "Codeunit", report: "Report", reportextension: "Report extension", query: "Query", xmlport: "XMLport", enum: "Enum", enumextension: "Enum extension", interface: "Interface", permissionset: "Permission set", permissionsetextension: "Permission set extension", profile: "Profile", controladdin: "Control add-in", entitlement: "Entitlement" };
-export const objectTitle = (o: { type: string; id: number | null; name: string }) => `${TYPE_LABEL[o.type] ?? o.type}${o.id !== null && o.id !== undefined ? ` ${o.id}` : ""} "${o.name}"`;
+export { objectTitle } from "../lib/object-title.js";
 
 export const changePageKey = (item: Pick<ManifestItem, "id" | "meta">) => `${repoSlug(changeRepo(item))}/${changeNumber(item)}`;
 export const changePagePath = (contentDir: string, pageKey: string) => resolve(contentDir, "changes", `${pageKey}.md`);
@@ -42,7 +43,7 @@ export function backportsFor(rec: Pick<ChangeRecord, "number" | "title">, all: R
     .sort((a, b) => a.merged_at.localeCompare(b.merged_at) || a.number - b.number);
 }
 
-export function renderChangePage(item: ManifestItem, rec: ChangeRecord, x: ChangeExtraction, backports: Backport[], contentDir: string, now: Date): string {
+export function renderChangePage(item: ManifestItem, rec: ChangeRecord, x: ChangeExtraction, backports: Backport[], contentDir: string, now: Date, xlinks: CrossLink[] = []): string {
   const pk = changePageKey(item);
   const hasPage = (p: string) => exists(resolve(contentDir, "objects", `${p}.md`));
   // one line per object, however many of its files changed (a table and its country copies)
@@ -60,7 +61,7 @@ export function renderChangePage(item: ManifestItem, rec: ChangeRecord, x: Chang
     review: { ...reviewOf(true, item.review), flags: item.flags ?? [] },
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: { "extract-change": x.prompt_version }, input_hash: rec.merge_commit_sha ?? null },
     evidence: [{ kind: "code", url: rec.url, title: `${rec.repo}#${rec.number}: ${rec.title}`, date: day, commit: rec.merge_commit_sha, t: null, quote: x.quote }],
-    links: { learn: [], objects: linked.map((o) => `object/${o.page}`), features: [], topics: [], localizations: [], videos: [], posts: [], guidelines: [], changes: [] },
+    links: applyCrossLinks({ learn: [] as string[], objects: linked.map((o) => `object/${o.page}`), features: [], topics: [], localizations: [], videos: [] as string[], posts: [] as string[], guidelines: [], changes: [] as string[] }, xlinks),
     number: rec.number, repo: rec.repo, source_id: rec.source, url: rec.url, kind: "pr", base_branch: rec.base, major: rec.major, merged_at: rec.merged_at,
     author: rec.author, author_type: rec.author_type, community_contribution: rec.community_contribution, labels: rec.labels,
     change_class: rec.change_class, change_kind: x.change_kind, behavior_change: x.behavior_change, breaking: x.breaking,
@@ -97,6 +98,7 @@ export function renderChangePage(item: ManifestItem, rec: ChangeRecord, x: Chang
     x.quote ? `- From the description: "${cell(x.quote)}"` : "",
   ].filter(Boolean);
   if (context.length) lines.push("## Context", "", ...context, "");
+  lines.push(...crossLinkSection(xlinks, "../../"));
   lines.push(`Source: metadata of a merged pull request in ${rec.repo} (${repoShort}): title, labels, changed paths and counts, with a summary in our words. No source text and no description beyond one short quote (D10, D61).`, "");
   return `---\n${toYaml(fm, { lineWidth: 0, version: "1.1" })}---\n\n${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
 }
@@ -107,7 +109,7 @@ export function writeChangePage(item: ManifestItem, ctx: Pick<StageContext, "dat
   const x = readChangeExtraction(ctx.dataDir, item);
   if (!rec || !x || rec.change_class !== "code") return null;
   const bps = backportsFor(rec, readJsonOr<Record<string, Backport[]>>(backportsPath(ctx.dataDir, rec.repo), {}));
-  const page = renderChangePage(item, rec, x, bps, ctx.contentDir, ctx.now());
+  const page = renderChangePage(item, rec, x, bps, ctx.contentDir, ctx.now(), crossLinksFor(ctx.dataDir, `change/${changePageKey(item)}`));
   const path = changePagePath(ctx.contentDir, changePageKey(item));
   const written = !exists(path) || stable(readText(path)) !== stable(page);
   if (written) writeText(path, page);

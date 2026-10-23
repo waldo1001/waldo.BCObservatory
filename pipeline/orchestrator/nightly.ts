@@ -71,6 +71,8 @@ import { refreshDocsObjects } from "../code/docs-objects.js";
 import { renderCodePages, type CodePagesRun } from "../render/object.js";
 import { renderAppPages, type AppPagesRun } from "../render/app.js";
 import { refreshRelated, type RelatedRun } from "../link/related.js";
+import { refreshCrossLinks, type CrossLinksRun } from "../link/crosslinks.js";
+import { confirmLearnLinks, type LearnConfirmRun } from "../link/learn-confirm.js";
 import { refreshLocalizationNarratives, type LocalizationRun } from "../summarize/localization.js";
 import { reviewCoverage, type CoverageReviewRun } from "../review/coverage.js";
 import { buildTopicHubs, mirrorReader } from "../link/toc.js";
@@ -145,12 +147,13 @@ export interface RunReport {
   execution?: ExecutionReport;
   roadmap_links?: Omit<LinkRun, "errors"> & { pages: number; review?: Omit<CoverageReviewRun, "errors"> };
   topic_links?: Omit<TopicLinkRun, "errors">;
+  learn_confirm?: Omit<LearnConfirmRun, "errors">;
   topic_reviews?: Omit<TopicReviewRun, "errors">;
   /** D77: Opus reviews of the localization and digest narratives (quota opus_reviews, shared with the hubs). */
   narrative_reviews?: { localization?: Omit<NarrativeReviewRun, "errors">; digest?: Omit<NarrativeReviewRun, "errors"> };
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
   /** Code diffs, timelines and deprecation radar recomputed from the snapshots (D26). */
-  code?: CodeDerivedRun & { docs_objects?: ReturnType<typeof refreshDocsObjects>; pages?: CodePagesRun; related?: RelatedRun; apps?: AppPagesRun; narratives?: Omit<LocalizationRun, "errors">; graph?: { runs: Omit<CallGraphRun, "key">[] } };
+  code?: CodeDerivedRun & { docs_objects?: ReturnType<typeof refreshDocsObjects>; pages?: CodePagesRun; related?: RelatedRun; crosslinks?: CrossLinksRun; apps?: AppPagesRun; narratives?: Omit<LocalizationRun, "errors">; graph?: { runs: Omit<CallGraphRun, "key">[] } };
   /** Run date up to which catch-up mode (no quotas, no caps) is on, when this run used it (D41). */
   catch_up?: string;
   /** Checkpoint commits made during stage execution (D26). */
@@ -340,6 +343,9 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
         const lr = await optionalPhase("localization-reviews", () => reviewLocalizationNarratives(opts.dataDir, manifest.list("docs"), { quota: left, deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()) }));
         if (lr) { const { errors: lErr, ...lRun } = lr; errors.push(...lErr); narrativeReviewsUsed += lRun.calls; report.narrative_reviews = { ...report.narrative_reviews, localization: lRun }; }
       }
+      // D106: cross-links before every page render that reads them (change, object, post and video pages)
+      report.code.crosslinks = await phase("crosslinks", () => refreshCrossLinks(opts.dataDir, contentDirOf(opts)));
+      if (report.code.crosslinks?.errors.length) errors.push(...report.code.crosslinks.errors);
       // change pages first (D61): the object pages read the reverse index they produce
       report.changes = await phase("changes-relink", () => {
         for (const [m, v] of Object.entries(loadConfig<VersionsConfig>("versions").majors)) if (v.snapshot_source === "bcapps") refreshFileIndex(opts.dataDir, m);
@@ -397,6 +403,22 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       quota: linking ? quotas.topic_links ?? 0 : 0, deadline: new Date(execution.deadline),
       clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
     }));
+    // D106: Learn links for code no Learn page names; the picks reach the pages with the next night's cross-links
+    report.learn_confirm = await optionalPhase("learn-confirm", async () => {
+      try {
+        const { run } = await confirmLearnLinks(opts.dataDir, contentDirOf(opts), {
+          quota: linking ? quotas.learn_confirm ?? 0 : 0, deadline: new Date(execution.deadline),
+          clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
+        });
+        errors.push(...run.errors);
+        log.info(`learn confirm: ${run.picks} picks for ${run.called} of ${run.stale} stale units in ${run.calls} calls (${run.stopped})`);
+        const { errors: _e, ...rest } = run;
+        return { ...rest, rejections: run.rejections.slice(0, 10) };
+      } catch (e) {
+        errors.push(`learn confirm: ${(e as Error).message.slice(0, 300)}`);
+        return undefined;
+      }
+    });
     // after the linking, so a link made this run can be reviewed in the same run rather than waiting a night
     report.topic_reviews = await optionalPhase("topic-reviews", () => refreshTopicReviews(opts, errors, {
       quota: linking ? quotas.topic_reviews ?? 0 : 0, deadline: new Date(execution.deadline),

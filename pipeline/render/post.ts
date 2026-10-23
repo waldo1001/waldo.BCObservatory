@@ -26,6 +26,7 @@ import { PIPELINE_VERSION } from "../version.js";
 import { loadObjectIndex, mentionSection, type ObjectIndex } from "../link/mentions.js";
 import { reviewOf, reviewWords } from "../lib/review.js";
 import { llmsTitle } from "../lib/sections.js";
+import { applyCrossLinks, crossLinkSection, crossLinksFor, type CrossLink } from "../link/crosslinks.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 export const postPageKey = (item: Pick<ManifestItem, "id" | "source">) => `${item.source}/${fileKey(postKey(item))}`;
@@ -41,7 +42,7 @@ export const postMentions = (x: Pick<PostExtraction, "objects">, index: ObjectIn
  * `preview`: embeddability and the card fields (D60), from previewFor; absent when the post was never probed.
  * `index`: data/index/objects.json (link/mentions.ts), so the objects the post names link to their pages (D67).
  */
-export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock, index: ObjectIndex | null = null): string {
+export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock, index: ObjectIndex | null = null, xlinks: CrossLink[] = []): string {
   const pk = postPageKey(item);
   const mentions = postMentions(x, index);
   const fm = {
@@ -52,7 +53,7 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: { [STAGE]: PROMPT_VERSION }, input_hash: item.stages.fetched?.output_hash as string ?? item.output_hash ?? null },
     evidence: [{ kind: "blog", url: item.url, title: item.title, date: item.published_at?.slice(0, 10) ?? null, commit: null, t: null, quote: null },
       ...x.quotes.map((q) => ({ kind: "blog", url: item.url, title: item.title, date: item.published_at?.slice(0, 10) ?? null, commit: null, t: null, quote: q.text }))],
-    links: { learn: [], objects: mentions.pageIds, features: [], topics: [], localizations: [], videos: [], posts: [], guidelines: [] },
+    links: applyCrossLinks({ learn: [] as string[], objects: mentions.pageIds, features: [], topics: [], localizations: [], videos: [] as string[], posts: [] as string[], guidelines: [] }, xlinks),
     post_id: postKey(item), source_id: item.source, source_name: src.name, url: item.url, published_at: item.published_at ?? null,
     author: src.author?.name ?? null, full_text: !!src.full_text, words: x.words, quotes: x.quotes,
     code_objects_mentioned: x.objects.map((o) => `${o.type} ${o.name}`), systems: x.systems, versions_mentioned: x.versions,
@@ -68,6 +69,7 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
   if (x.key_points.length) lines.push("## Key points", "", ...x.key_points.map((k) => `- ${k}`), "");
   if (x.quotes.length) lines.push("## Quotes", "", ...x.quotes.map((q) => `- "${q.text}" (${q.why_it_matters})`), "");
   lines.push(...mentions.lines);
+  lines.push(...crossLinkSection(xlinks, "../../"));
   if (x.versions.length || x.features.length) lines.push("## Context", "", ...(x.features.length ? [`- Features: ${x.features.join(", ")}`] : []), ...(x.versions.length ? [`- Versions: ${x.versions.join(", ")}`] : []), "");
   lines.push(`Source: ${src.name}, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.`, "");
   return `---\n${toYaml(fm, { lineWidth: 0, version: "1.1" })}---\n\n${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
@@ -78,14 +80,14 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
  * page repeats: the raw text is in the vault, so this runs wherever the vault is (the nightly), and is skipped when
  * it is not or when the source allows full text.
  */
-export function policyCheckedPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock, index: ObjectIndex | null = null): string | null {
-  const page = renderPostPage(item, x, src, now, preview, index);
+export function policyCheckedPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock, index: ObjectIndex | null = null, xlinks: CrossLink[] = []): string | null {
+  const page = renderPostPage(item, x, src, now, preview, index, xlinks);
   const rawPath = postRawPath(item);
   if (src.full_text || !exists(rawPath)) return page;
   const check = repeatChecker(readText(rawPath));
   if (!check(page)) return page;
   const s = scrubRepeats(x, check);
-  const again = renderPostPage(item, { ...s.value, trimmed_for_policy: s.trimmed }, src, now, preview, index);
+  const again = renderPostPage(item, { ...s.value, trimmed_for_policy: s.trimmed }, src, now, preview, index, xlinks);
   return check(again) ? null : again;
 }
 
@@ -94,7 +96,7 @@ export function postPublished(sources: Map<string, PostSourceInfo>) {
     const p = postExtractionPath(ctx.dataDir, item);
     if (!exists(p)) throw new Error(`post extraction missing: ${p}`);
     const src = sources.get(item.source) ?? { name: item.source };
-    const page = policyCheckedPage(item, readJson<PostExtraction>(p), src, ctx.now(), previewFor(item, ctx.dataDir, src), loadObjectIndex(ctx.dataDir));
+    const page = policyCheckedPage(item, readJson<PostExtraction>(p), src, ctx.now(), previewFor(item, ctx.dataDir, src), loadObjectIndex(ctx.dataDir), crossLinksFor(ctx.dataDir, `post/${postPageKey(item)}`));
     const path = resolve(ctx.contentDir, "posts", `${postPageKey(item)}.md`);
     // like the extract-time guard (D51), the item is skipped, not failed: nothing to retry, the post simply cannot
     // be summarised without repeating itself. Any older page is removed, or check:leak would still find it.
@@ -145,7 +147,9 @@ export function pendingMentionPages(items: ManifestItem[], dataDir: string, cont
     if (!item.stages.published || !exists(page) || !exists(xp)) return false;
     const want = postMentions(readJson<PostExtraction>(xp), index);
     const { data, content } = matter(readText(page));
-    return JSON.stringify(want.pageIds) !== JSON.stringify((data as { links?: { objects?: string[] } }).links?.objects ?? [])
+    const xl = crossLinksFor(dataDir, `post/${postPageKey(item)}`);
+    return JSON.stringify(applyCrossLinks({ objects: want.pageIds }, xl).objects) !== JSON.stringify((data as { links?: { objects?: string[] } }).links?.objects ?? [])
+      || JSON.stringify(xl) !== JSON.stringify((data as { links?: { related?: unknown[] } }).links?.related ?? [])
       || !content.includes(want.lines.join("\n").trim());
   });
 }

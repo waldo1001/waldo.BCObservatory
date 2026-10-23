@@ -41,7 +41,19 @@
         "features": { "type": "array", "items": { "type": "string" } }, "topics": { "type": "array", "items": { "type": "string" } },
         "localizations": { "type": "array", "items": { "type": "string" } }, "videos": { "type": "array", "items": { "type": "string" } },
         "posts": { "type": "array", "items": { "type": "string" } }, "guidelines": { "type": "array", "items": { "type": "string" } },
-        "changes": { "type": "array", "items": { "type": "string" }, "description": "D61: change pages (merged pull requests) that touched this page's object" }
+        "changes": { "type": "array", "items": { "type": "string" }, "description": "D61: change pages (merged pull requests) that touched this page's object" },
+        "related": {
+          "type": "array", "maxItems": 24,
+          "description": "D106: labelled cross-links. Certain rows (fixes, documents, names; by code or override) are also in the matching list; possibly related, relation unknown and every by: model row are only here",
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["to", "title", "label", "why", "by"],
+            "properties": {
+              "to": { "type": "string", "description": "a page id (optionally #anchor) or a Learn URL" }, "title": { "type": "string" },
+              "label": { "enum": ["fixes", "documents", "names", "possibly related", "relation unknown"] },
+              "why": { "type": "string" }, "by": { "enum": ["code", "override", "model"] }
+            }
+          }
+        }
       }
     }
   }
