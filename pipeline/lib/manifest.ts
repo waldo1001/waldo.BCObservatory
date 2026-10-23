@@ -11,7 +11,7 @@ import { MANIFEST_DIR } from "./paths.js";
 import { validateOrThrow } from "./schema.js";
 import { canonicalJson, shortHash, slugify, truncate } from "./text.js";
 
-export type Pillar = "docs" | "code" | "guidelines" | "video" | "blog" | "roadmap" | "change" | "release";
+export type Pillar = "docs" | "code" | "guidelines" | "video" | "blog" | "roadmap" | "change" | "release" | "hotfix";
 export type Stage = "discovered" | "fetched" | "captioned" | "extracted" | "summarized" | "linked" | "reviewed" | "published";
 export type State = Stage | "failed" | "skipped" | "stale";
 
@@ -54,6 +54,8 @@ export const FLOWS: Record<Pillar, Stage[]> = {
   change: ["discovered", "fetched", "extracted", "linked", "published"],
   // AL Language extension versions (D85): deterministic, the page comes from the newest snapshot
   release: ["discovered", "fetched", "published"],
+  // Microsoft Support update pages (D106): deterministic, the page comes from the update's snapshot
+  hotfix: ["discovered", "fetched", "published"],
 };
 export const REMOVED_UPSTREAM = "removed-upstream";
 const TERMINAL = new Set<State>(["published", "failed", "skipped"]);

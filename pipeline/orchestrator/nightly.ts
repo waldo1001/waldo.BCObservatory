@@ -76,6 +76,7 @@ import { confirmLearnLinks, type LearnConfirmRun } from "../link/learn-confirm.j
 import { refreshLearnFacts, type LearnFactsRun } from "../extract/learn-facts.js";
 import { refreshCautions, type CautionsRun } from "../extract/cautions.js";
 import { refreshCautionLinks, type CautionLinksRun } from "../link/cautions.js";
+import { renderHotfixIndex, rerenderHotfixPages } from "../render/hotfix.js";
 import { refreshLocalizationNarratives, type LocalizationRun } from "../summarize/localization.js";
 import { reviewCoverage, type CoverageReviewRun } from "../review/coverage.js";
 import { buildTopicHubs, mirrorReader } from "../link/toc.js";
@@ -475,6 +476,9 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       // D85: a diff written by tonight's ingest reaches release pages published on earlier nights
       rerenderReleasePages(manifest, opts.dataDir, contentDirOf(opts), now);
       renderReleaseIndex(contentDirOf(opts), opts.dataDir);
+      // D106: hotfix pages follow the change pages' work items, written earlier tonight
+      rerenderHotfixPages(manifest, opts.dataDir, contentDirOf(opts), now);
+      renderHotfixIndex(contentDirOf(opts), opts.dataDir);
     });
     // D106: Learn key facts for the scoped pages (config/learn-facts.json) before the hubs render them
     report.learn_facts = await optionalPhase("learn-facts", async () => {

@@ -29,6 +29,8 @@ export const MAX_LEARN_ROWS = 24;
 export const MAX_SHARERS = 20;
 /** Learn pages a change or a video/post reaches through the objects it touches or names. */
 export const MAX_VIA_OBJECTS = 2;
+/** Only an object with at most this many certain Learn pages leads a change or a video/post to them: Table 39 "Purchase Line" is on too many to say anything. */
+export const MAX_DOCS_VIA = 3;
 /** A Learn page naming more objects than this is a list ("Deleted objects in the Base App"): it documents none of them. */
 export const MAX_NAMED_PER_LEARN = 40;
 
@@ -52,7 +54,9 @@ export interface CrossLinkInput {
   eventOwners: Map<string, string | null>;
   /** Page id -> title, for every page a row can point at. */
   titles: Map<string, string>;
-  changes: { id: string; title: string; objects: string[] }[];
+  changes: { id: string; title: string; objects: string[]; work_items?: string[] }[];
+  /** Hotfix entries (render/hotfix.ts pages): a change carrying one's ID as a work item `fixes` it. */
+  hotfixes?: { update: string; id: string; title: string }[];
   media: { id: string; title: string; kind: "video" | "post"; objects: string[] }[];
   overrides: OverrideLink[];
   /** learn-confirm.ts picks per unit (an object or change page id). */
@@ -72,7 +76,8 @@ export function buildCrossLinks(inp: CrossLinkInput): CrossLinks {
     if (!had || strength(r) <= strength(had)) m.set(r.to, r);
     side.set(from, m);
   };
-  const add = (from: string, r: CrossLink) => (isUrl(from) ? put(learn, from, r) : put(pages, from, r));
+  // a row always belongs to a page: `hotfix/28.6#648146` is the entry's row on hotfix/28.6
+  const add = (from: string, r: CrossLink) => (isUrl(from) ? put(learn, from, r) : put(pages, from.split("#")[0], r));
 
   // 1. Learn names an object: its extraction's objects resolved exactly, or a D94 identifier that is an event with one owner
   const certainLearn = new Map<string, { url: string; title: string }[]>();
@@ -106,12 +111,22 @@ export function buildCrossLinks(inp: CrossLinkInput): CrossLinks {
   for (const ds of certainLearn.values()) for (const d of ds) docObjects.set(d.url, (docObjects.get(d.url) ?? 0) + 1);
   const viaObjects = (from: string, objs: string[], verb: string) => {
     const cands: { url: string; title: string; obj: string }[] = [];
-    for (const obj of objs) for (const d of certainLearn.get(obj) ?? []) if (!cands.some((c) => c.url === d.url)) cands.push({ ...d, obj });
+    for (const obj of objs) {
+      const ds = certainLearn.get(obj) ?? [];
+      if (ds.length > MAX_DOCS_VIA) continue;
+      for (const d of ds) if (!cands.some((c) => c.url === d.url)) cands.push({ ...d, obj });
+    }
     cands.sort((a, b) => (docObjects.get(a.url) ?? 0) - (docObjects.get(b.url) ?? 0) || a.url.localeCompare(b.url));
     for (const c of cands.slice(0, MAX_VIA_OBJECTS)) add(from, { to: c.url, title: c.title, label: "possibly related", why: `${verb} ${titleOf(c.obj)}`, by: "code" });
   };
   for (const c of inp.changes) viaObjects(c.id, c.objects, "touches");
   for (const m of inp.media) viaObjects(m.id, m.objects, "names");
+
+  // 2b. a change whose work item is a hotfix entry's ID fixes it (the hotfix page lists the reverse itself)
+  const entries = new Map<string, { update: string; id: string; title: string }[]>();
+  for (const h of inp.hotfixes ?? []) entries.set(h.id, [...(entries.get(h.id) ?? []), h]);
+  for (const c of inp.changes) for (const wi of c.work_items ?? []) for (const h of entries.get(String(wi)) ?? [])
+    add(c.id, { to: `hotfix/${h.update}#${h.id}`, title: `Update ${h.update}, ${h.id}: ${h.title}`, label: "fixes", why: `work item ${h.id}`, by: "code" });
 
   // 3. two videos or posts that name the same, not too common object
   const sharers = new Map<string, string[]>();
@@ -145,7 +160,7 @@ export function buildCrossLinks(inp: CrossLinkInput): CrossLinks {
 const LIST_OF: Record<string, string> = { object: "objects", change: "changes", video: "videos", post: "posts", topic: "topics", feature: "features" };
 
 /** A row that only joins a list: certain and made by code. Its label adds nothing to the list entry, so `related` leaves it out. */
-export const listOnly = (r: CrossLink) => isCertain(r) && r.by === "code";
+export const listOnly = (r: CrossLink) => isCertain(r) && r.by === "code" && (isUrl(r.to) || !!LIST_OF[r.to.split("/")[0]]);
 
 /** A page's `links` with its cross-links: certain rows added to their list; `related` holds the rest (hand-made, uncertain, model). */
 export function applyCrossLinks<L extends Record<string, unknown>>(links: L, rows: CrossLink[]): L & { related?: CrossLink[] } {
@@ -233,16 +248,19 @@ export function loadCrossLinkInput(dataDir: string, contentDir: string): CrossLi
   const titles = new Map<string, string>();
   for (const r of objects.refs.values()) titles.set(r.pageId, objectTitle(r));
   const pages = (section: string) => listFiles(resolve(contentDir, section), ".md").map((f) => frontmatterOf(readText(f))).filter((fm): fm is Record<string, any> => !!fm?.id);
-  const changes = pages("changes").filter((fm) => fm.type === "change").map((fm) => ({ id: String(fm.id), title: String(fm.title), objects: (fm.links?.objects ?? []).map(String) }));
+  const changes = pages("changes").filter((fm) => fm.type === "change").map((fm) => ({ id: String(fm.id), title: String(fm.title), objects: (fm.links?.objects ?? []).map(String), work_items: (fm.work_items ?? []).map(String) }));
+  const hotfixes = listFiles(resolve(dataDir, "hotfixes"), ".json").flatMap((f) => { const s = readJson<{ update: string; entries?: { id: string; title: string }[] }>(f); return (s.entries ?? []).map((e) => ({ update: s.update, id: e.id, title: e.title })); });
   const media = [...pages("videos"), ...pages("posts")].filter((fm) => fm.type === "video" || fm.type === "post")
     .map((fm) => ({ id: String(fm.id), title: String(fm.title), kind: fm.type as "video" | "post", objects: (fm.links?.objects ?? []).map(String) }));
   for (const p of [...changes, ...media]) titles.set(p.id, p.title);
   const learnUrls = new Set(learn.map((d) => d.url));
   const all = loadOverrideLinks(dataDir);
   const pageExists = (id: string) => exists(resolve(contentDir, pagePathOf(id)));
-  const errors = checkOverrideTargets(all, pageExists, learnUrls);
+  // a hotfix entry's page comes with the source's first ingest: until then its rows wait, without an error
+  const pending = (id: string) => id.startsWith("hotfix/") && !pageExists(id);
+  const errors = checkOverrideTargets(all.filter((o) => !pending(o.from) && !pending(o.to)), pageExists, learnUrls);
   const bad = new Set(errors.map((e) => e.replace(/^overrides\/links\.yaml: (\S+) .*$/, "$1")));
-  const overrides = all.filter((o) => !bad.has(o.from) && !bad.has(o.to));
+  const overrides = all.filter((o) => !bad.has(o.from) && !bad.has(o.to) && !pending(o.from) && !pending(o.to));
   for (const o of overrides) for (const id of [o.from, o.to]) if (!isUrl(id) && !titles.has(id)) {
     const fm = frontmatterOf(readText(resolve(contentDir, pagePathOf(id))));
     if (fm?.title) titles.set(id, String(fm.title));
@@ -251,7 +269,7 @@ export function loadCrossLinkInput(dataDir: string, contentDir: string): CrossLi
   const confirm = readJsonOr<{ units?: Record<string, { picks?: { url: string; reason: string }[] }> }>(resolve(dataDir, "links", "learn-confirm.json"), {});
   const model = Object.entries(confirm.units ?? {}).filter(([, u]) => u.picks?.length)
     .map(([unit, u]) => ({ unit, picks: u.picks!.filter((p) => learnUrls.has(p.url)) }));
-  return { learn, documented, objects, eventOwners, titles, changes, media, overrides, model, errors };
+  return { learn, documented, objects, eventOwners, titles, changes, hotfixes, media, overrides, model, errors };
 }
 
 export interface CrossLinksRun { pages: number; rows: number; certain: number; by: Record<By, number>; learn_pages: number; written: boolean; errors: string[] }

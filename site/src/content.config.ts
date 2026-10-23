@@ -53,9 +53,14 @@ const releases = defineCollection({
   loader: glob({ pattern: "*.md", base: "../content/releases", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
 });
 
+const hotfixes = defineCollection({
+  // ids are the update number: 28.6 (D106); the dot stays
+  loader: glob({ pattern: "*.md", base: "../content/hotfixes", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
+});
+
 // the owner's hand-written About text (D83): the one prose file that is not generated; it lives in site/, never in content/
 const about = defineCollection({
   loader: glob({ pattern: "about.md", base: "./src/about", generateId: () => "about" }),
 });
 
-export const collections = { videos, topics, features, objects, localizations, posts, digests, sources, changes, apps, releases, about };
+export const collections = { videos, topics, features, objects, localizations, posts, digests, sources, changes, apps, releases, hotfixes, about };

@@ -7,6 +7,9 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
 
 1. Start at `llms.txt` (root) or the section index `content/<section>/llms.txt`. Every page under `content/` is
    markdown with strict frontmatter (`schemas/frontmatter.*.json`): `id`, `type`, `tier`, `summary`, `evidence`, `links`.
+   `links.related` (D106) holds labelled cross-links: `fixes`, `documents` and `names` are stated by a source or a person;
+   `possibly related` and `relation unknown` are not, and neither is a row with `by: model`. `cautions` on posts, videos
+   and object pages are warnings scoped to the object and version they apply to.
 2. Trust tiers: `official` = Microsoft (Learn, BCApps, BCQuality, Microsoft's channel, the AL Language extension's
    marketplace changelog); `community` = everyone else;
    `mixed` = hub pages that merge both. Say which tier a claim comes from. `review.state` says what kind of text the
@@ -24,10 +27,12 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
    BC28-30), `localizations/`, `features/` (Microsoft 365 roadmap), `videos/`, `posts/` (community, derived),
    `sources/` (footprints), `digests/` (weekly, with the deprecation radar), `changes/<repo>/<n>` (merged pull
    requests of Microsoft's Business Central repositories, BCApps ones joined to the object pages they changed, D61),
-   `releases/al-<version>` (the AL Language extension's changelog, one page per version, D85). Lookups: `data/index/pages-*.json` +
+   `releases/al-<version>` (the AL Language extension's changelog, one page per version, D85), `hotfixes/<update>` (Microsoft
+   Support hotfix lists, one page per update, each entry anchored by its ID, D106). Lookups: `data/index/pages-*.json` +
    `index-manifest.json` (every page's metadata), `data/index/docs-objects.json` (Learn page <-> object by exact id),
    `data/code/drift.json`, `data/graph/` (the galaxy; `landed.json` also lists the week's code changes, D80). The MCP server (`packages/mcp`, `npx bc-observatory`) serves
-   exactly these: search, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback; search
+   exactly these: search, brief, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback; brief
+   answers in five layers (Learn with key facts, code, what changed, heads up, gaps), search groups its hits by layer (D106); search
    covers fields, events and procedures (`data/index/symbols-*.json`, D86) and ranks like the site's own search; sort: 'date' lists the matches newest first (D101); a page over 30,000 characters
    comes back compact, and `section`, `offset` and `limit` read one section (D93). Procedure
    bodies are not here by policy; object pages list calls and callers per object (`data/code/graph/<major>/`, D67); the

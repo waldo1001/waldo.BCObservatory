@@ -21,9 +21,11 @@ export interface ContentReport { pages: number; indexes: number; errors: string[
 const ID_LINKS = ["features", "topics", "videos", "posts", "localizations", "guidelines", "changes", "objects"] as const;
 const LINK_RE = /\[[^\]]*\]\(([^)\s]+)\)/g;
 
-/** `<type>/<path>` for content/<type>s/<path>.md; null outside a section folder. */
+/** A type's section folder: `<type>s`, except where English disagrees (D106: hotfix -> hotfixes). */
+export const sectionDir = (type: string) => (type === "hotfix" ? "hotfixes" : `${type}s`);
+/** `<type>/<path>` for content/<section>/<path>.md; null outside a section folder. */
 export function expectedId(contentDir: string, file: string, type: string): string | null {
-  const rel = relative(resolve(contentDir, `${type}s`), file).split(sep).join("/");
+  const rel = relative(resolve(contentDir, sectionDir(type)), file).split(sep).join("/");
   return rel.startsWith("..") ? null : `${type}/${rel.replace(/\.md$/, "")}`;
 }
 
@@ -95,7 +97,7 @@ export function validateContent(contentDir: string, now = new Date()): ContentRe
     try { r = validate(`frontmatter.${type}`, data); } catch { errors.push(`${rel(file)}: no schema for type ${type}`); continue; }
     if (!r.ok) errors.push(...r.errors.slice(0, 5).map((e) => `${rel(file)}: schema frontmatter.${type}: ${e}`));
     const want = expectedId(contentDir, file, type);
-    if (want === null) errors.push(`${rel(file)}: type ${type} page outside content/${type}s/`);
+    if (want === null) errors.push(`${rel(file)}: type ${type} page outside content/${sectionDir(type)}/`);
     else if (data.id !== want) errors.push(`${rel(file)}: id ${data.id} should be ${want}`);
     if (typeof data.id === "string") {
       if (ids.has(data.id)) errors.push(`${rel(file)}: id ${data.id} also used by ${ids.get(data.id)}`);

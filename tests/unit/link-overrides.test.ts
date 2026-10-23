@@ -5,6 +5,7 @@ import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { checkOverrideTargets, loadOverrideLinks, pagePathOf } from "../../pipeline/link/overrides.js";
 import { learnUrlsOf } from "../../pipeline/link/crosslinks.js";
+import { loadSources } from "../../pipeline/lib/config.js";
 
 const ROOT = resolve(import.meta.dirname, "../..");
 
@@ -47,7 +48,9 @@ test("overrides: a missing file is no links", () => {
 test("overrides: every seed in data/overrides/links.yaml names a committed page or a known Learn page", () => {
   const links = loadOverrideLinks(resolve(ROOT, "data"));
   assert.ok(links.length >= 10, "the spec's seeds are there");
-  const pageExists = (id: string) => existsSync(resolve(ROOT, "content", pagePathOf(id)));
+  // a hotfix entry's page comes with the first ingest of ms-support-updates: an update the source reads counts
+  const updates = new Set(loadSources().find((s) => s.id === "ms-support-updates")?.fetch?.updates ?? []);
+  const pageExists = (id: string) => existsSync(resolve(ROOT, "content", pagePathOf(id))) || (/^hotfix\/(\d+\.\d+)#\d+$/.test(id) && updates.has(id.slice(7).split("#")[0]));
   assert.deepEqual(checkOverrideTargets(links, pageExists, learnUrlsOf(resolve(ROOT, "data"))), []);
   const from = (id: string) => links.filter((l) => l.from === id).map((l) => l.to);
   assert.ok(from("object/codeunit/1886").some((u) => u.endsWith("/tenant-admin-center-environments-copy")));

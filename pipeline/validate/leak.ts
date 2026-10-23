@@ -202,7 +202,9 @@ export function communityRawExpected(dataDir: string, sources: SourceDef[]): str
 // first derive failed on "AVS Error AVS0109" followed by Learn's own description, which a community post quotes
 // D106: Learn key facts are model text about Learn pages only (the records and their index file)
 const OFFICIAL_ONLY = [/^data\/code\//, /^content\/objects\//, /^data\/releases\//, /^content\/releases\//, /^tests\/fixtures\/al-changelog\.md$/, /^data\/index\/learn-[0-9a-f]{12}\.json$/,
-  /^data\/extract\/learn-facts\//, /^data\/index\/learn-facts-[0-9a-f]{12}\.json$/];
+  /^data\/extract\/learn-facts\//, /^data\/index\/learn-facts-[0-9a-f]{12}\.json$/,
+  // D106: Microsoft Support update pages: the snapshots, the pages and the test fixtures hold Microsoft's wording only
+  /^data\/hotfixes\//, /^content\/hotfixes\//, /^tests\/fixtures\/support-update/];
 export const officialOnlyOutput = (rel: string) => OFFICIAL_ONLY.some((re) => re.test(rel));
 
 /** Official text the repo holds: the newest roadmap snapshot and Learn's own page descriptions (manifest meta). */
