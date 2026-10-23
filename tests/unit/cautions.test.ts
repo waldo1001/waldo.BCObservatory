@@ -63,6 +63,8 @@ test("cautions extraction: quotes must be verbatim and under 25 words; at most f
 test("video disclaimers become preview-disclaimer cautions without a model call", () => {
   const c = cautionsFromDisclaimers([{ t: 19, kind: "preview", text: "this is coming in public preview in version 29.x, likely 29.1" }, { t: 300, kind: "other", text: "x" }]);
   assert.deepEqual(c, [{ kind: "preview-disclaimer", quote: "this is coming in public preview in version 29.x, likely 29.1", t: 19, objects: [], events: [], versions: ["29"] }]);
+  const long = cautionsFromDisclaimers([{ t: 1, kind: "preview", text: "word ".repeat(80) }])[0].quote;
+  assert.ok(long.length <= 240 && long.endsWith("…"), "a long disclaimer is clipped for the frontmatter");
 });
 
 test("cautions stage: a record per post, newest first, within the quota; only verbatim quotes survive", async () => {
@@ -95,4 +97,20 @@ test("cautions on pages: a post's Heads up section, the object page's section wi
   assert.equal(v.ok, true, v.errors.join("; "));
   const lines = headsUpSection([{ from: "post/waldo-be/317951", title: "Obsoleted events in v26", kind: "breaking", quote: "I found 82 of such non-invoked events!", scope: 'Table 49 "Invoice Post. Buffer", Removed in 27.0' }], "../../").join("\n");
   assert.match(lines, /## Heads up \(community\)[\s\S]*- breaking: "I found 82 of such non-invoked events!" — \[Obsoleted events in v26\]\(\.\.\/\.\.\/posts\/waldo-be\/317951\.md\), applies to Table 49 "Invoice Post\. Buffer", Removed in 27\.0/);
+});
+
+test("a video with more than eight disclaimers still renders: its frontmatter keeps eight (the committed nbGw2g3KMXI has ten)", async () => {
+  const { renderVideoPage } = await import("../../pipeline/render/video.js");
+  const { summaryPath } = await import("../../pipeline/summarize/video.js");
+  const { validate } = await import("../../pipeline/lib/schema.js");
+  const { readJson } = await import("../../pipeline/lib/fsx.js");
+  const matter = (await import("gray-matter")).default;
+  const root = resolve(import.meta.dirname, "../..");
+  const x = readJson<any>(resolve(root, "data/extract/video/nbGw2g3KMXI.json"));
+  assert.ok(x.disclaimers.length > 8);
+  const item = readJson<any>(resolve(root, "data/manifest/video/yt-areopa/nbGw2g3KMXI.json"));
+  const fm = matter(renderVideoPage(item, x, readJson<any>(summaryPath(resolve(root, "data"), "nbGw2g3KMXI")), { name: "Areopa" }, new Date())).data;
+  assert.equal(fm.cautions.length, 8);
+  const v = validate("frontmatter.video", fm);
+  assert.equal(v.ok, true, v.errors.join("; "));
 });

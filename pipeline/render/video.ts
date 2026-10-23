@@ -81,7 +81,8 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
     ...x.features.filter((f) => f.status_evidence_verified && f.status_evidence_quote).map((f) => ({ kind: "video", url: at(id, f.status_evidence_t!), title: `${f.name}: ${STATUS_LABEL[f.status]}`, date: item.published_at ?? null, commit: null, t: Math.floor(f.status_evidence_t!), quote: f.status_evidence_quote })),
     ...x.quotes.map((q) => ({ kind: "video", url: at(id, q.t), title: x.title, date: item.published_at ?? null, commit: null, t: Math.floor(q.t), quote: q.text })),
   ].slice(0, 30);
-  const cautions = cautionsFromDisclaimers(x.disclaimers).map(({ objects: _o, events: _e, versions, ...c }) => ({ ...c, t: Math.floor(c.t ?? 0), ...(versions.length ? { versions } : {}) }));
+  // the schema keeps a page to 8 cautions (D106); the body lists every disclaimer
+  const cautions = cautionsFromDisclaimers(x.disclaimers).slice(0, 8).map(({ objects: _o, events: _e, versions, ...c }) => ({ ...c, t: Math.floor(c.t ?? 0), ...(versions.length ? { versions } : {}) }));
   const fm = {
     id: `video/${id}`, type: "video", title: item.title, summary: s.summary, tier: item.tier, language: item.language ?? "en",
     tags: x.topics, system: x.systems[0],

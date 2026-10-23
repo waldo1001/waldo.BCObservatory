@@ -75,10 +75,13 @@ export function attachCautions(items: CautionItem[], index: ObjectIndex, eventOw
   return out;
 }
 
+/** A caution's quote in frontmatter: at most QUOTE_MAX characters, cut at a word (a video's disclaimer can run long). */
+export const QUOTE_MAX = 240;
+export const clipQuote = (t: string) => { const s = t.replace(/\s+/g, " ").trim(); return s.length <= QUOTE_MAX ? s : `${s.slice(0, s.lastIndexOf(" ", QUOTE_MAX - 1))}…`; };
 const DISCLAIMER_KINDS = new Set(["preview", "subject-to-change", "not-in-this-release", "coming-later"]);
 /** A video's disclaimers (extract/video.ts, verbatim and timed) as preview-disclaimer cautions; `other` is left out. */
 export function cautionsFromDisclaimers(ds: { t: number; kind: string; text: string }[]): Caution[] {
-  return ds.filter((d) => DISCLAIMER_KINDS.has(d.kind)).map((d) => ({ kind: "preview-disclaimer" as const, quote: d.text, t: d.t, objects: [], events: [], versions: majorsOf([d.text]) }));
+  return ds.filter((d) => DISCLAIMER_KINDS.has(d.kind)).map((d) => ({ kind: "preview-disclaimer" as const, quote: clipQuote(d.text), t: d.t, objects: [], events: [], versions: majorsOf([d.text]) }));
 }
 
 /** The page a caution comes from as a certain cross-link row (it names this object), so it joins links.posts/videos. */
