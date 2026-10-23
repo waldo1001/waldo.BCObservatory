@@ -56,7 +56,7 @@ export const mediaPageRel = (x: Pick<TopicMedia, "key" | "kind">) => `${x.kind =
 export interface HubLayers { facts: Map<string, KeyFact[]>; links: Record<string, CrossLink[]> }
 const NO_LAYERS: HubLayers = { facts: new Map(), links: {} };
 /** Pages of ours listed under one Learn article ("In the observatory"). */
-export const MAX_HERE = 3;
+export const MAX_HERE = 6;
 
 export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, items: Map<string, ManifestItem>, now: Date, stored?: ReviewedNarrative, media: TopicMedia[] = [], code?: HubCode, layered: HubLayers = NO_LAYERS): string {
   const review = stored?.review && stored.review.input_hash === stored.input_hash ? stored.review : undefined;

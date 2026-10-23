@@ -10,7 +10,13 @@ claude mcp add bc-observatory -- npx -y bc-observatory@latest
 
 Or the Claude Code plugin (MCP server plus skills): `claude plugin marketplace add waldo1001/waldo.BCObservatory`. The server never fetches Learn pages (D01); the plugin also connects Microsoft's Learn MCP (`https://learn.microsoft.com/api/mcp`), and a Learn hit's url is read there with `microsoft_docs_fetch`.
 
-Tools: `search`, `ls`, `cat`, `get_object`, `diff_object`, `localization`, `whats_new`, `blog_footprint`, `feedback`.
+Tools: `search`, `brief`, `ls`, `cat`, `get_object`, `diff_object`, `localization`, `whats_new`, `blog_footprint`, `feedback`.
+
+`brief(query | path)` (D106) answers in five layers, each line with its tier and source: How it works (Learn articles
+with their key facts), In the code, Changed lately (code changes, AL releases, Microsoft hotfix lists), Heads up
+(warnings scoped to the object and version they apply to) and Gaps (every "possibly related" link, a change described by
+its title only); differing status statements stand side by side, never reconciled. `search` groups its hits by layer, and
+a Learn article whose title the query covers leads ("copy environment cleanup" finds "Copy an environment").
 
 The server downloads the site's search index (cached by hash in `~/.cache/bc-observatory/`, refreshed daily) and reads pages as
 markdown. `BC_OBSERVATORY_LOCAL=<checkout of waldo1001/waldo.BCObservatory>` reads everything from disk instead;
