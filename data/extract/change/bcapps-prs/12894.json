@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12894",
+  "number": 12894,
+  "title": "[PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Payables Agent now recognizes vendor credit notes from PDFs using EN 16931 document type codes and automatically creates purchase credit memos applied to the original invoice, eliminating manual data entry.",
+  "key_points": [
+    "Extracts EN 16931 document type code from PDFs to distinguish credit notes (381) from invoices",
+    "Automatically creates purchase credit memos instead of invoices when credit notes are detected",
+    "Applies credit memos to matching open invoices with warnings when exact matches cannot be found",
+    "Provides editable application field and read-only outcome field on draft to show what will happen",
+    "Normalizes sign variations in amounts and revalidates matches during finalization"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "recognise a vendor credit note and create a purchase credit memo applied to the original invoice",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004711,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13174",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Documents] Remove the PDF reader service credit memo upgrade",
+  "url": "https://github.com/microsoft/BCApps/pull/13174",
+  "published_at": "2026-10-22T23:10:59Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T00:21:26.098Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:21:49.754Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T00:21:55.192Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.003476
+    },
+    "linked": {
+      "at": "2026-10-23T00:21:55.458Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T00:21:55.526Z",
+      "path": "content/changes/bcapps/13174.md"
+    }
+  },
+  "input_hash": "05926fcaea878edd785da9b27d228932af789591:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13174,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "05926fcaea878edd785da9b27d228932af789591",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "e documents remove the pdf reader service credit memo upgrade"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eda5845015432c0fe24e800daaa0acd307db61cddbf940fa1ff4dfb08657f476"
+}

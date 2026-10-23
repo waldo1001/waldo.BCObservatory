@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13108",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Fix and re-enable AssemblyCostReadjustmentPreservesUnitCostPrecision in NAV",
+  "url": "https://github.com/microsoft/BCApps/pull/13108",
+  "published_at": "2026-10-22T11:21:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T00:21:26.098Z"
+    }
+  },
+  "input_hash": "a4c77e1ba9d85da2f7348e7927f7a5caf53f95ca:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13108,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a4c77e1ba9d85da2f7348e7927f7a5caf53f95ca",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix and re enable assemblycostreadjustmentpreservesunitcostprecision in nav"
+  }
+}

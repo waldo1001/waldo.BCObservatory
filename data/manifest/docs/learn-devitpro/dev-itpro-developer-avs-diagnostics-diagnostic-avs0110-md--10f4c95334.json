@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "AVS Error AVS0110",
+  "title": "AVS0110 Application Validation Warning",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/avs-diagnostics/diagnostic-avs0110",
-  "published_at": "2025-01-30T11:09:20.000Z",
+  "published_at": "2026-10-22T13:56:54.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,29 +13,29 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.406Z",
-      "blob": "abbc014c1711ba3859e93839c0b8f4a0035a60fc",
-      "words": 47,
+      "at": "2026-10-23T00:21:48.835Z",
+      "blob": "d7ecf579452883a24d9af4b9f9c64054628e1515",
+      "words": 48,
       "forms": 0
     }
   },
-  "input_hash": "abbc014c1711ba3859e93839c0b8f4a0035a60fc",
+  "input_hash": "d7ecf579452883a24d9af4b9f9c64054628e1515",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/avs-diagnostics/diagnostic-avs0110.md",
-    "description": "A {0} with ID {1} is found in both {2} and {3}. Object IDs must be unique per environment. Resolve the conflict in your extension by using a different ID and upload the extension again.",
-    "ms_date": "2025-01-30",
+    "description": "Learn why Application Validation Service warning AVS0110 reports a duplicate object ID and how to assign a unique ID before uploading again.",
+    "ms_date": "2026-10-05",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 47,
+    "words": 48,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "abbc014c1711ba3859e93839c0b8f4a0035a60fc"
+  "output_hash": "d7ecf579452883a24d9af4b9f9c64054628e1515"
 }

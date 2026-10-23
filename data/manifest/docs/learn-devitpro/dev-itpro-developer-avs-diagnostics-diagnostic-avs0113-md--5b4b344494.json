@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "AVS Error AVS0113",
+  "title": "AVS0113 Application Validation Warning",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/avs-diagnostics/diagnostic-avs0113",
-  "published_at": "2025-01-30T11:09:20.000Z",
+  "published_at": "2026-10-22T13:56:54.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,29 +13,29 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.419Z",
-      "blob": "692ddcc3b3eb5b1c190d556eeb46d097e180e626",
-      "words": 55,
+      "at": "2026-10-23T00:21:48.915Z",
+      "blob": "a7f004d5bdbef479bf7276f02109eff60710ec9e",
+      "words": 56,
       "forms": 0
     }
   },
-  "input_hash": "692ddcc3b3eb5b1c190d556eeb46d097e180e626",
+  "input_hash": "a7f004d5bdbef479bf7276f02109eff60710ec9e",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/avs-diagnostics/diagnostic-avs0113.md",
-    "description": "A {0} with name '{1}' in '{2}' is found in both {3} and {4}. {0} names must be unique within the base objects and their extension objects. Resolve the conflict in your extension by using a different name and upload the extension again.",
-    "ms_date": "2025-01-30",
+    "description": "Learn why Application Validation Service warning AVS0113 reports a duplicate name in a base object and extension object and how to resolve it.",
+    "ms_date": "2026-10-05",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 55,
+    "words": 56,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "692ddcc3b3eb5b1c190d556eeb46d097e180e626"
+  "output_hash": "a7f004d5bdbef479bf7276f02109eff60710ec9e"
 }

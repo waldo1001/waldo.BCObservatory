@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "AVS Error AVS0107",
+  "title": "AVS0107 Application Validation Error",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/avs-diagnostics/diagnostic-avs0107",
-  "published_at": "2025-01-30T11:09:20.000Z",
+  "published_at": "2026-10-22T13:56:54.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,29 +13,29 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.397Z",
-      "blob": "96e5d173caab852a3ee96e058c41880ed2ba8c0f",
-      "words": 72,
+      "at": "2026-10-23T00:21:48.781Z",
+      "blob": "70868af7abe641804e81e6c4d48e683ea00009f5",
+      "words": 77,
       "forms": 0
     }
   },
-  "input_hash": "96e5d173caab852a3ee96e058c41880ed2ba8c0f",
+  "input_hash": "70868af7abe641804e81e6c4d48e683ea00009f5",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/avs-diagnostics/diagnostic-avs0107.md",
-    "description": "The extension '{0}' by '{1}' (version '{2}') has already been uploaded to Business Central for the country/region '{3}' with different content. Remove this extension from your submission, use the same .app file as the one that has already been uploaded to Business Central, or increase the version in the app.json.",
-    "ms_date": "2025-01-30",
+    "description": "Learn why Application Validation Service diagnostic AVS0107 reports that an extension version has different content and how to resolve the conflict.",
+    "ms_date": "2026-10-05",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 72,
+    "words": 77,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "96e5d173caab852a3ee96e058c41880ed2ba8c0f"
+  "output_hash": "70868af7abe641804e81e6c4d48e683ea00009f5"
 }

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12931",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x][Repair Item] Purchase Order vendor change is automatically applied to the next order after navigation",
+  "url": "https://github.com/microsoft/BCApps/pull/12931",
+  "published_at": "2026-10-22T03:25:33Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T00:21:26.098Z"
+    }
+  },
+  "input_hash": "988a091a0f6e4c6e391a6a11dd1973e3568c767a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12931,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "988a091a0f6e4c6e391a6a11dd1973e3568c767a",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "repair item purchase order vendor change is automatically applied to the next order after navigation"
+  }
+}

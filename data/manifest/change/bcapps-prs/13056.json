@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13056",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[QM] Tracking specification quantity now is used properly",
+  "url": "https://github.com/microsoft/BCApps/pull/13056",
+  "published_at": "2026-10-22T11:03:52Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T00:21:26.098Z"
+    }
+  },
+  "input_hash": "c256fd090920658b661e49a6a5b4f25b66c1d27a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13056,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c256fd090920658b661e49a6a5b4f25b66c1d27a",
+    "author": "6CRIPT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "qm tracking specification quantity now is used properly"
+  }
+}

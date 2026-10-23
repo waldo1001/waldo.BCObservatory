@@ -2,57 +2,48 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-tool.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool",
   "title": "ALTool Command-Line Reference for AL Development",
-  "blob": "150b2e5fafb3676285b5c04c8c70a0a648cc7b35",
-  "summary": "ALTool is a command-line tool for compiling and packaging AL extensions for Business Central, with integration into CI/CD pipelines and support for workspace management, testing, call graph analysis, and LSP/MCP servers. ALTool command-line reference for performance profiling and snapshot debugging MCP proxies that connect AI agents to running Business Central environments for profiling slow sessions and capturing debugging snapshots.",
+  "blob": "611594ed6ed3cf79d7d315fa66e65371c84375e6",
+  "summary": "ALTool is a command-line tool for compiling, packaging, and testing AL extensions for Business Central with support for CI/CD integration, workspace management, call graph analysis, and AI agent integration via MCP servers.",
   "systems": [
     "development",
-    "integration",
-    "platform"
+    "platform",
+    "copilot"
   ],
   "topics": [
     "altool",
-    "compilation",
-    "ci/cd pipelines",
-    "al extensions",
-    "command-line",
+    "al compilation",
+    "ci/cd",
     "testing",
     "workspace management",
     "call graph",
     "mcp server",
-    "profiling"
+    "lsp server"
   ],
   "objects": [],
   "features": [
-    "Compilation",
+    "compilation",
+    "packaging",
     "CI/CD integration",
-    "Workspace commands",
-    "Test execution",
-    "Call graph analysis",
-    "Symbol-only package detection",
-    "AL LSP server",
+    "workspace commands",
+    "test execution",
+    "static call graph analysis",
     "ALMCP server",
-    "Performance profiling MCP proxy",
-    "Snapshot debugging MCP proxy",
-    "launchprofilingmcpproxy",
-    "launchsnapshotmcpproxy"
+    "AL LSP server",
+    "performance profiling MCP proxy",
+    "snapshot debugging MCP proxy",
+    "symbol package creation"
   ],
   "versions": [
     "2026 release wave 2"
   ],
-  "parts": 2,
+  "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.032417,
+      "cost_usd": 0.030086,
       "pages_in_call": 1
-    },
-    {
-      "model": "claude-haiku-4-5-20251001",
-      "cached": false,
-      "cost_usd": 0.008967,
-      "pages_in_call": 3
     }
   ]
 }

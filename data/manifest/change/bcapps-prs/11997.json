@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/11997",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Clarify Expense Agent Entra app permission checks",
+  "url": "https://github.com/microsoft/BCApps/pull/11997",
+  "published_at": "2026-10-22T18:37:24Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T00:21:26.098Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:21:57.318Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-23T00:22:05.091Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.003717
+    },
+    "linked": {
+      "at": "2026-10-23T00:22:05.321Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T00:22:05.332Z",
+      "path": "content/changes/bcapps/11997.md"
+    }
+  },
+  "input_hash": "b1c742427037e147c35391ba1282d0aa39dcd5b4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11997,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b1c742427037e147c35391ba1282d0aa39dcd5b4",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "clarify expense agent entra app permission checks"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2e71656bbb6fc00aec79236056c548604a167e578867ca8eebc51631cb8eafc2"
+}

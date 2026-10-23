@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11665",
+  "number": 11665,
+  "title": "Bug 649580: [Subcontracting] Transfer Shipment report is missing subcontractor and manufacturing references",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The Subcontracting Transfer Shipment report now displays subcontractor and manufacturing references through a new layout extension in the Subcontracting app, while the legacy IT report retains basic transfer shipment functionality without subcontracting dependencies.",
+  "key_points": [
+    "Report 12154 simplified to show ordinary transfer shipments without subcontracting fields",
+    "New report extension for standard report 5704 with subcontractor, purchase order, and production order details",
+    "Legacy report dataset columns preserved as blank compatibility values for existing consumers",
+    "Subcontracting reporting logic moved into the app to respect app boundaries",
+    "New and refactored tests added for both standard and subcontracting transfer shipment scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "warehouse"
+  ],
+  "quote": "Report 12154 remains available in the IT BaseApp for ordinary posted transfer shipments without depending on Subcontracting fields.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004513,
+    "changes_in_call": 1
+  }
+}

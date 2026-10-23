@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12754",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-Outgoing Payment Report Employee Payments Missing",
+  "url": "https://github.com/microsoft/BCApps/pull/12754",
+  "published_at": "2026-10-22T11:40:55Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T00:21:26.098Z"
+    }
+  },
+  "input_hash": "ca0792740e07c2d81cb4bb7a41863944f5e0063c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12754,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "ca0792740e07c2d81cb4bb7a41863944f5e0063c",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "outgoing payment report employee payments missing"
+  }
+}

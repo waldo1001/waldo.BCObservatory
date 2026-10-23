@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/11665",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 649580: [Subcontracting] Transfer Shipment report is missing subcontractor and manufacturing references",
+  "url": "https://github.com/microsoft/BCApps/pull/11665",
+  "published_at": "2026-10-22T13:15:49Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T00:21:26.098Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:21:57.616Z",
+      "change_class": "code",
+      "files": 15,
+      "al": 9,
+      "objects": 3,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-10-23T00:22:04.810Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004513
+    },
+    "linked": {
+      "at": "2026-10-23T00:22:05.077Z",
+      "objects": 3,
+      "unjoined": 6,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T00:22:05.086Z",
+      "path": "content/changes/bcapps/11665.md"
+    }
+  },
+  "input_hash": "fcc4b6872a7f7600afb182e74f7a44f64d3e8b4f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11665,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fcc4b6872a7f7600afb182e74f7a44f64d3e8b4f",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 649580 subcontracting transfer shipment report is missing subcontractor and manufacturing references"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c571bc410cc89afa497d3c734ea382770bb331e94b16050bec54984bcbb93f2a"
+}

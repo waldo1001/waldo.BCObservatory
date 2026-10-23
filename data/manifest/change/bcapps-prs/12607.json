@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12607",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[BE] Improve Purchase Ledger report performance",
+  "url": "https://github.com/microsoft/BCApps/pull/12607",
+  "published_at": "2026-10-22T12:16:17Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T00:21:26.098Z"
+    }
+  },
+  "input_hash": "41b7bbe136ba834af1210746a43a82c7edadf568:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12607,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "41b7bbe136ba834af1210746a43a82c7edadf568",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "be improve purchase ledger report performance"
+  }
+}

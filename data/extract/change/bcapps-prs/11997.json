@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11997",
+  "number": 11997,
+  "title": "Clarify Expense Agent Entra app permission checks",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Permission checks for the Expense Agent Entra app have been reordered to match the setup flow and documented to clarify why non-SUPER users need additional permissions beyond Expense Mgmt. Admin.",
+  "key_points": [
+    "Reordered authorization checks to follow the setup flow sequence",
+    "Added documentation explaining why non-SUPER users require SECURITY, Expense Agent, and Agent - Admin permissions",
+    "Preserved existing SUPER user bypass behavior",
+    "Authorization rule remains: SUPER or (Expense Mgmt. Admin and SECURITY and Expense Agent and Agent - Admin and Configure All Agents)",
+    "No changes to actual permission model or runtime behavior"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Reorder the Expense Agent Entra application authorization checks to follow the setup flow.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003717,
+    "changes_in_call": 1
+  }
+}

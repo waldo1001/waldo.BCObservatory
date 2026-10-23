@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "AVS Error AVS0103",
+  "title": "AVS0103 Application Validation Error",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/avs-diagnostics/diagnostic-avs0103",
-  "published_at": "2026-02-20T12:07:44.000Z",
+  "published_at": "2026-10-22T13:56:54.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,29 +13,29 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.051Z",
-      "blob": "17b25ff70b250569607e73611b894a1ffdea7fcf",
-      "words": 56,
+      "at": "2026-10-23T00:21:48.686Z",
+      "blob": "9b482dcabf0e7dd10d8f3e2845e7f7db409e2000",
+      "words": 87,
       "forms": 0
     }
   },
-  "input_hash": "17b25ff70b250569607e73611b894a1ffdea7fcf",
+  "input_hash": "9b482dcabf0e7dd10d8f3e2845e7f7db409e2000",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/avs-diagnostics/diagnostic-avs0103.md",
-    "description": "The extension with Id '{0}' appears multiple times in the submission, while all extensions submitted are expected to have a unique Id.",
-    "ms_date": "2025-01-30",
+    "description": "Learn why Application Validation Service diagnostic AVS0103 reports duplicate extension IDs and how to assign a unique app ID before resubmitting.",
+    "ms_date": "2026-10-05",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 56,
+    "words": 87,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "17b25ff70b250569607e73611b894a1ffdea7fcf"
+  "output_hash": "9b482dcabf0e7dd10d8f3e2845e7f7db409e2000"
 }

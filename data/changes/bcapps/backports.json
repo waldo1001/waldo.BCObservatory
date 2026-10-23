@@ -17,6 +17,15 @@
       "title_key": "bug 653563 29 x field service integration rounding error on service line quantity write back for item type service lines with non divisible durations"
     }
   ],
+  "9104": [
+    {
+      "number": 13079,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T13:16:49Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13079",
+      "title_key": "delocalize export g l entries to xml into audit file export framework"
+    }
+  ],
   "9277": [
     {
       "number": 11911,
@@ -132,6 +141,15 @@
       "merged_at": "2026-08-28T15:44:22Z",
       "url": "https://github.com/microsoft/BCApps/pull/10760",
       "title_key": "backport 10483 29 x enable it migration in production and preserve legacy subcontracting when install is declined"
+    }
+  ],
+  "10484": [
+    {
+      "number": 12798,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T18:27:55Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12798",
+      "title_key": "bug 654087 29 x w1 2026 bug bash ii irs 1099 orphan fields on purchase order cards"
     }
   ],
   "10495": [
@@ -404,6 +422,15 @@
       "title_key": "obsolete gpt 5 5 chat and add gpt 5 6 ceres deployments"
     }
   ],
+  "11380": [
+    {
+      "number": 12844,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T08:10:07Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12844",
+      "title_key": "honor explicit 0 discounts in sales and purchase price lists"
+    }
+  ],
   "11382": [
     {
       "number": 11528,
@@ -521,6 +548,15 @@
       "title_key": "29 x improvements to e documents po matching e2e findings"
     }
   ],
+  "11894": [
+    {
+      "number": 12768,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T20:29:13Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12768",
+      "title_key": "bug 651509 29 x icm 51000002083463 close income statement duplicates or omits mixed lcy usd amounts with balance closing with and without global dimensions"
+    }
+  ],
   "11897": [
     {
       "number": 12006,
@@ -602,6 +638,15 @@
       "title_key": "fix default bin assignment when creating purchase orders for drop shipments"
     }
   ],
+  "12137": [
+    {
+      "number": 13008,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T11:12:42Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13008",
+      "title_key": "bug fix 536 show all subcontracting return transfer orders"
+    }
+  ],
   "12148": [
     {
       "number": 12578,
@@ -674,6 +719,15 @@
       "title_key": "bug fix 443 clarify quality management quantity tooltips"
     }
   ],
+  "12446": [
+    {
+      "number": 13009,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T11:15:54Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13009",
+      "title_key": "fix contoso serial number series descriptions"
+    }
+  ],
   "12545": [
     {
       "number": 12547,
@@ -699,6 +753,24 @@
       "merged_at": "2026-10-21T08:29:17Z",
       "url": "https://github.com/microsoft/BCApps/pull/12899",
       "title_key": "bug 653927 29 x saf t no totaldebit and totalcredit differ from exported amounts after reversals"
+    }
+  ],
+  "12813": [
+    {
+      "number": 13073,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T14:59:08Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13073",
+      "title_key": "bug 656097 29 x icm 51000002255818 reverse charge vat sales posting still validates the legacy item flag when the new feature is enabled"
+    }
+  ],
+  "12943": [
+    {
+      "number": 12944,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T11:10:21Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12944",
+      "title_key": "dk vat return periods regression fix for frequency aware parsing"
     }
   ],
   "13001": [
@@ -1718,6 +1790,48 @@
       "merged_at": "2026-10-21T14:48:10Z",
       "url": "https://github.com/microsoft/BCApps/pull/12820",
       "title_key": "subcontracting order date does not account for lead time before the routing operation starts"
+    },
+    {
+      "number": 11956,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T08:18:26Z",
+      "url": "https://github.com/microsoft/BCApps/pull/11956",
+      "title_key": "all e payment orders posted in foreign currency usd do not populate source currency code and source currency amount in g l entries in the spanish version"
+    },
+    {
+      "number": 13067,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T08:52:09Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13067",
+      "title_key": "keep the draft unit of measure and variant code when creating the purchase line"
+    },
+    {
+      "number": 13070,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T08:53:22Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13070",
+      "title_key": "hide navigate and reverse transaction on sustainability posting preview"
+    },
+    {
+      "number": 12784,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T10:21:33Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12784",
+      "title_key": "incorrect calculation of remaining prod order comp"
+    },
+    {
+      "number": 12504,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T11:08:52Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12504",
+      "title_key": "bug 649580 add subcontracting transfer shipment layout"
+    },
+    {
+      "number": 13053,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-22T14:55:27Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13053",
+      "title_key": "move french sales specifics to the new sales fr first party app"
     }
   ]
 }

@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "AVS Error AVS0006",
+  "title": "AVS0006 Application Validation Error",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/avs-diagnostics/diagnostic-avs0006",
-  "published_at": "2025-01-30T11:09:20.000Z",
+  "published_at": "2026-10-22T13:56:54.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,20 +13,20 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.367Z",
-      "blob": "890f3045dc6eb5fb53f8f162fbdf9f4821e6c3a8",
+      "at": "2026-10-23T00:21:48.605Z",
+      "blob": "396b1ce6be5e04fa0d811b099ff550971185a2ca",
       "words": 66,
       "forms": 0
     }
   },
-  "input_hash": "890f3045dc6eb5fb53f8f162fbdf9f4821e6c3a8",
+  "input_hash": "396b1ce6be5e04fa0d811b099ff550971185a2ca",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/avs-diagnostics/diagnostic-avs0006.md",
-    "description": "The runtime version '{0}' is not supported for the release '{1}' because its latest supported runtime version is '{2}'.",
-    "ms_date": "2025-01-30",
+    "description": "Learn why Application Validation Service diagnostic AVS0006 reports an unsupported runtime version and how to target a supported version.",
+    "ms_date": "2026-10-05",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
@@ -37,5 +37,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "890f3045dc6eb5fb53f8f162fbdf9f4821e6c3a8"
+  "output_hash": "396b1ce6be5e04fa0d811b099ff550971185a2ca"
 }

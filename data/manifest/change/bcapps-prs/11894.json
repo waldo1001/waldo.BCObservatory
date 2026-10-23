@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11894",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix mixed-currency totals in Close Income Statement",
+  "url": "https://github.com/microsoft/BCApps/pull/11894",
+  "published_at": "2026-10-22T11:32:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T00:21:26.098Z"
+    }
+  },
+  "input_hash": "c7d51df077ccb347367b03404d4e924fd2b1f0f1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11894,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c7d51df077ccb347367b03404d4e924fd2b1f0f1",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix mixed currency totals in close income statement"
+  }
+}

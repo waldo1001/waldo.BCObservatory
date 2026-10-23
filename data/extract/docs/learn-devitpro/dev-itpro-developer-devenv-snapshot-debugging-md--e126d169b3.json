@@ -2,33 +2,36 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-snapshot-debugging.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging",
   "title": "Snapshot debugging",
-  "blob": "757b9f0614767b43edd0cf8325926efe639e719f",
-  "summary": "Snapshot debugging lets developers record AL code execution on production cloud servers and debug it offline in Visual Studio Code using snappoints, which log variable state without stopping execution. Use it to inspect production code behavior and variables for a specified user session.",
+  "blob": "cad32deccbc3d9a857e2a4310badf88915155e4b",
+  "summary": "Snapshot debugging allows recording AL code execution on a Business Central server and debugging the recorded snapshot offline in Visual Studio Code, including through an AI agent via the MCP server interface.",
   "systems": [
     "development",
     "platform"
   ],
   "topics": [
-    "debugging",
-    "production code",
-    "snappoints",
+    "snapshot debugging",
+    "visual studio code",
+    "al debugging",
+    "production debugging",
+    "mcp server",
     "offline debugging",
-    "al code"
+    "snappoints"
   ],
   "objects": [
     {
-      "type": "permissionset",
-      "name": "D365 Snapshot Debug"
+      "type": "codeunit",
+      "name": "Sales-Post"
     }
   ],
   "features": [
-    "Snappoint logging",
-    "Offline code inspection",
-    "Production environment debugging",
-    "User session recording",
-    "Built-in codeunit trigger debugging",
-    "Snapshot verbosity control",
-    "MCP server snapshot debugging"
+    "snapshot debugging",
+    "snappoints",
+    "offline inspection",
+    "AI agent snapshot debugging",
+    "MCP server integration",
+    "symbol downloading",
+    "execution context recording",
+    "snapshot file management"
   ],
   "versions": [
     "17.2",
@@ -40,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.012275,
-      "pages_in_call": 4
+      "cost_usd": 0.019231,
+      "pages_in_call": 1
     }
   ]
 }

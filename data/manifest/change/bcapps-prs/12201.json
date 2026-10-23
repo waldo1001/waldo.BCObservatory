@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12201",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]- Incorrect project ledger costs when non-deductible VAT is posted to a foreign-currency project",
+  "url": "https://github.com/microsoft/BCApps/pull/12201",
+  "published_at": "2026-10-22T10:41:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T00:21:26.098Z"
+    }
+  },
+  "input_hash": "4e62872568d0a1bf1f050445f3cac1f7586aa1a5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12201,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "4e62872568d0a1bf1f050445f3cac1f7586aa1a5",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "incorrect project ledger costs when non deductible vat is posted to a foreign currency project"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12894,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12894",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-22T22:32:21Z",
+  "merge_commit_sha": "6bd96fae96d11895971046d5fa2188cc683174be",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice",
+  "body_hash": "9f87936de791b13024e5d4596381a30cfaf641bddfa3dc74c42f2f1c5cc3db54",
+  "fixes_issues": [],
+  "work_items": [
+    650500
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/.resources/Prompts/PayablesAgent-AgentInstructions.md",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 12,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Integration/PAEvents.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Navigation/PAPurchaseCreditMemo.PageCust.al",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/PayablesAgent.Codeunit.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/PayablesAgentUpgrade.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/PermissionSets/PayablesAgRun.Permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraft.PageCust.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Profile/PayablesAgent.Profile.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Setup/PayablesAgentSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 5,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 161,
+    "deletions": 25,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Integration/PAEvents.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3316",
+        "type": "codeunit",
+        "id": 3316,
+        "name": "PA Events",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "codeunit/3316"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/PayablesAgent.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3303",
+        "type": "codeunit",
+        "id": 3303,
+        "name": "Payables Agent",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "codeunit/3303"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/PayablesAgentUpgrade.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3305",
+        "type": "codeunit",
+        "id": 3305,
+        "name": "Payables Agent Upgrade",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "codeunit/3305"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/PermissionSets/PayablesAgRun.Permissionset.al",
+        "status": "modified",
+        "key": "permissionset/3303",
+        "type": "permissionset",
+        "id": 3303,
+        "name": "Payables Ag. - Run",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "permissionset/3303"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraft.PageCust.al",
+        "status": "modified",
+        "key": "pagecustomization/pa e-doc. purchase draft",
+        "type": "pagecustomization",
+        "id": null,
+        "name": "PA E-Doc. Purchase Draft",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "pagecustomization/pa-e-doc-purchase-draft"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Profile/PayablesAgent.Profile.al",
+        "status": "modified",
+        "key": "profile/payables agent",
+        "type": "profile",
+        "id": null,
+        "name": "Payables Agent",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "profile/payables-agent"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Setup/PayablesAgentSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3307",
+        "type": "codeunit",
+        "id": 3307,
+        "name": "Payables Agent Setup",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "codeunit/3307"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Navigation/PAPurchaseCreditMemo.PageCust.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "PayablesAgent"
+  ]
+}

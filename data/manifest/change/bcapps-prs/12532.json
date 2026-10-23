@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12532",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side",
+  "url": "https://github.com/microsoft/BCApps/pull/12532",
+  "published_at": "2026-10-22T09:15:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T00:21:26.098Z"
+    }
+  },
+  "input_hash": "9f40655f161b2cf73694e2332daa42ebc5b417f0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12532,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9f40655f161b2cf73694e2332daa42ebc5b417f0",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master dispute status code is not retained in some scenarios within the vendor purchase side but works well in customer sales side"
+  }
+}

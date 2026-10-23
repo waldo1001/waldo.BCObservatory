@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/12894",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice",
+  "url": "https://github.com/microsoft/BCApps/pull/12894",
+  "published_at": "2026-10-22T22:32:21Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-23T00:21:26.098Z"
+    },
+    "fetched": {
+      "at": "2026-10-23T00:21:50.385Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 8,
+      "objects": 7,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-23T00:21:56.753Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004711
+    },
+    "linked": {
+      "at": "2026-10-23T00:21:57.064Z",
+      "objects": 7,
+      "unjoined": 1,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-23T00:21:57.075Z",
+      "path": "content/changes/bcapps/12894.md"
+    }
+  },
+  "input_hash": "6bd96fae96d11895971046d5fa2188cc683174be:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12894,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6bd96fae96d11895971046d5fa2188cc683174be",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "payablesagent add support for credit memos recognised from the pdf and applied to the original invoice"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dde52704497d88c9dd0dade7b4904e705c41c04a74c2da9a1529e9df4c341996"
+}

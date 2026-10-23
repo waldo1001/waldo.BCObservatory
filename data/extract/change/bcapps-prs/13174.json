@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13174",
+  "number": 13174,
+  "title": "[E-Documents] Remove the PDF reader service credit memo upgrade",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Removed an unused upgrade procedure and internal helper method for the PDF reader e-document service that was not referenced by any active workflow.",
+  "key_points": [
+    "Deletes UpgradePDFReaderServiceCreditMemo procedure and its upgrade tag registration",
+    "Removes GetPDFReaderServiceCode helper method that only the deleted upgrade used",
+    "The GetPDFReaderService method still adds credit memo support when creating the service",
+    "Affects only cleanup of obsolete upgrade code with no behavior change to active flows"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Only removes an upgrade step and an internal procedure used by it. No schema or behavior change for any active flow.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003476,
+    "changes_in_call": 1
+  }
+}

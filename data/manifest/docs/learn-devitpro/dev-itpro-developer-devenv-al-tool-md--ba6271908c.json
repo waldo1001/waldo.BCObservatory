@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "ALTool Command-Line Reference for AL Development",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool",
-  "published_at": "2026-10-01T12:54:17.000Z",
+  "published_at": "2026-10-22T09:23:01.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,44 +13,44 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:18.156Z",
-      "blob": "150b2e5fafb3676285b5c04c8c70a0a648cc7b35",
-      "words": 5762,
+      "at": "2026-10-23T00:21:48.927Z",
+      "blob": "611594ed6ed3cf79d7d315fa66e65371c84375e6",
+      "words": 5846,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:32:30.797Z",
+      "at": "2026-10-23T00:21:56.368Z",
       "prompt": "extract-docs@1",
-      "parts": 2,
+      "parts": 1,
       "objects": 0,
-      "cost_usd": 0.041384
+      "cost_usd": 0.030086
     },
     "summarized": {
-      "at": "2026-10-06T13:32:30.841Z",
+      "at": "2026-10-23T00:21:56.369Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:32:30.842Z",
+      "at": "2026-10-23T00:21:56.370Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:32:30.842Z",
+      "at": "2026-10-23T00:21:56.371Z",
       "page": false
     }
   },
-  "input_hash": "150b2e5fafb3676285b5c04c8c70a0a648cc7b35",
+  "input_hash": "611594ed6ed3cf79d7d315fa66e65371c84375e6",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-al-tool.md",
     "description": "Simplify AL extension development with ALTool. Validate code, package extensions, and integrate into CI/CD pipelines for seamless deployment.",
-    "ms_date": "2026-09-03",
+    "ms_date": "2026-09-25",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 5762,
+    "words": 5846,
     "identifiers": [
       "GetPackageManifest",
       "CreateSymbolPackage",
@@ -75,11 +75,13 @@
       "totalMemoryUsed",
       "totalObjectCount",
       "OnPrem",
-      "MicrosoftEntraID"
+      "MicrosoftEntraID",
+      "snapshotVerbosity",
+      "SnapPoint"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0978b56107052259f945f9dd3efebebe5a8de29d09f791563ba11807bbe942cd"
+  "output_hash": "ea5226db2cc18d0f45bb3db4992fdb69d1df8c58a892905e9adddcbccd7dcf34"
 }
