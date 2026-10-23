@@ -1,0 +1,114 @@
+# Hand-made cross-links (D106, schemas/overrides-links.json). `from` is a page id, `to` a page id or a Learn URL.
+# The pipeline writes both directions (pipeline/link/crosslinks.ts) and lets these win over generated links.
+# Labels: fixes | documents | names | possibly related | relation unknown. Every row says who checked it and when.
+links:
+  # Environment copy: the cleanup code and the Learn page that documents what a copy clears (spec 1.2)
+  - from: object/codeunit/1886
+    to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-copy
+    label: documents
+    why: the cleanup events this codeunit raises run when an environment is copied
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: object/codeunit/8912
+    to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-copy
+    label: documents
+    why: Microsoft's own subscribers to the environment cleanup events, which run when an environment is copied
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: change/bcapps/10207
+    to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-copy
+    label: documents
+    why: changes what is cleaned up when an environment is copied (Dataverse integration records)
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: change/bcapps/12152
+    to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-copy
+    label: documents
+    why: changes what is cleared when an environment is copied (the MCP environment description)
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: change/bcapps/13005
+    to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-copy
+    label: documents
+    why: changes what is cleaned up when an environment is copied (Master Data Management)
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: change/bcapps/13005
+    to: object/codeunit/1886
+    label: possibly related
+    why: touches Codeunit 7237, which subscribes to OnClearCompanyConfig (data/index/events.json, BC29)
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: post/gerardorenteria-blog/15213
+    to: object/codeunit/1886
+    label: names
+    why: builds an anonymize-and-log solution on the environment cleanup events
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: post/gerardorenteria-blog/15213
+    to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-copy
+    label: possibly related
+    why: cleans up copies of environments and companies
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  # Fabric launch video: the Learn setup page, the three permission sets, waldo's post on the same feature (spec 1.2)
+  - from: video/kOCiyVql0go
+    to: https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring
+    label: documents
+    why: the setup the video walks through in three steps
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: video/kOCiyVql0go
+    to: object/permissionset/48530
+    label: names
+    why: one of the Fabric permission sets the video shows at 9:11
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: video/kOCiyVql0go
+    to: object/permissionset/48531
+    label: names
+    why: one of the Fabric permission sets the video shows at 9:11
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: video/kOCiyVql0go
+    to: object/permissionset/48532
+    label: names
+    why: one of the Fabric permission sets the video shows at 9:11
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: video/kOCiyVql0go
+    to: post/waldo-be/318707
+    label: possibly related
+    why: both are about Business Central data mirroring to Microsoft Fabric
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  # Purchase lines, Prices Including VAT: the same behaviour, no source states the link (spec 1.2, question 3)
+  - from: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-prices-incl-vat-prod-posting-group--3b717ab825
+    to: change/bcapps/11208
+    label: possibly related
+    why: both are about purchase invoice lines with Prices Including VAT; no source states that the change fixes the post's case
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-prices-incl-vat-prod-posting-group--3b717ab825
+    to: change/bcapps/11436
+    label: possibly related
+    why: both are about purchase invoice lines with Prices Including VAT; no source states that the change fixes the post's case
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  # Hotfix lists (D106 phase 4): the same behaviour as the post and the changes, no source states the link (questions 3, 4)
+  - from: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-prices-incl-vat-prod-posting-group--3b717ab825
+    to: hotfix/28.6#648146
+    label: possibly related
+    why: the hotfix restores the calculation of purchase invoice lines of type G/L Account; no source says it is the post's 28.2 case
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: change/bcapps/11208
+    to: hotfix/28.6#648146
+    label: possibly related
+    why: both are about purchase invoice lines of type G/L Account; the hotfix's ID is not the change's work item (649414)
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: change/bcapps/12982
+    to: hotfix/28.5#645085
+    label: relation unknown
+    why: both are about VAT Product Posting Group behaviour on sales lines since 28.4; nothing says what the regression is or that one fixes the other
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: change/bcapps/13085
+    to: hotfix/28.5#645085
+    label: relation unknown
+    why: both are about VAT Product Posting Group behaviour on sales lines since 28.4; nothing says what the regression is or that one fixes the other
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  # Environment copy: the precautions list (setups disabled, data cleared) is on the environment types page (D107 never-less)
+  - from: object/codeunit/1886
+    to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-types
+    label: documents
+    why: lists what a copy disables and clears (job queue, agents, integration setups, webhooks), the cleanup these events carry out
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: object/codeunit/8912
+    to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-types
+    label: documents
+    why: lists the setups a copy disables and the data it clears, which Microsoft's cleanup subscribers carry out
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }

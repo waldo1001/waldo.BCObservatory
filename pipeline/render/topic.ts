@@ -22,6 +22,8 @@ import type { ReviewedNarrative } from "../review/hub.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { reviewOf, reviewWords } from "../lib/review.js";
 import { llmsTitle } from "../lib/sections.js";
+import { FACTS_ATTRIBUTION, factLines, loadLearnFacts, type KeyFact } from "../extract/learn-facts.js";
+import { crossLinkHref, isCertain, loadCrossLinks, type CrossLink } from "../link/crosslinks.js";
 
 const MAX_EVIDENCE = 40;
 export const topicRel = (id: string) => `${id.replace(/^topic\//, "")}.md`;
@@ -50,7 +52,13 @@ export interface TopicMedia { key: string; kind: "video" | "post" | "change"; ti
 /** The linked item's own page under content/: videos/<id>.md, posts/<source>/<id>.md, changes/<repo>/<n>.md. */
 export const mediaPageRel = (x: Pick<TopicMedia, "key" | "kind">) => `${x.kind === "video" ? "videos" : x.kind === "change" ? "changes" : "posts"}/${x.key.slice(x.key.indexOf("/") + 1)}.md`;
 
-export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, items: Map<string, ManifestItem>, now: Date, stored?: ReviewedNarrative, media: TopicMedia[] = [], code?: HubCode): string {
+/** D106: per Learn URL, its key facts (extract/learn-facts.ts) and the cross-links that point at it (link/crosslinks.ts). */
+export interface HubLayers { facts: Map<string, KeyFact[]>; links: Record<string, CrossLink[]> }
+const NO_LAYERS: HubLayers = { facts: new Map(), links: {} };
+/** Pages of ours listed under one Learn article ("In the observatory"). */
+export const MAX_HERE = 6;
+
+export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, items: Map<string, ManifestItem>, now: Date, stored?: ReviewedNarrative, media: TopicMedia[] = [], code?: HubCode, layered: HubLayers = NO_LAYERS): string {
   const review = stored?.review && stored.review.input_hash === stored.input_hash ? stored.review : undefined;
   // a narrative Opus rejected is not shown; the page says it was flagged
   const narrative = review?.state === "flagged" ? undefined : stored;
@@ -92,8 +100,18 @@ export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, item
   }
   if (own.length) {
     lines.push(hub.children.length ? "## More Learn pages" : "## Learn pages", "");
-    for (const m of own) lines.push(`- [${cell(m.title)}](${m.url})${m.meta?.description ? `: ${cell(learnText(String(m.meta.description), m.url))}` : ""}`);
+    const upTo = "../".repeat(topicRel(hub.id).split("/").length);
+    let withFacts = 0;
+    for (const m of own) {
+      lines.push(`- [${cell(m.title)}](${m.url})${m.meta?.description ? `: ${cell(learnText(String(m.meta.description), m.url))}` : ""}`);
+      // D106: the page's key facts in our words, then the pages of ours it names or that a human linked to it
+      const facts = layered.facts.get(m.url) ?? [];
+      if (facts.length) { withFacts++; lines.push(...factLines(facts)); }
+      const here = (layered.links[m.url] ?? []).filter(isCertain).slice(0, MAX_HERE);
+      if (here.length) lines.push(`  - In the observatory: ${here.map((r) => `[${cell(r.title)}](${crossLinkHref(r.to, upTo)})`).join(", ")}`);
+    }
     lines.push("");
+    if (withFacts) lines.push(FACTS_ATTRIBUTION, "");
   }
   if (media.length) {
     // page links relative to this topic page: content/topics/<rel> -> content/<videos|posts>/<id>.md
@@ -215,6 +233,7 @@ export function renderTopics(hubs: TopicHub[], items: ManifestItem[], dataDir: s
   // publish): the hub lists only pages that exist, the link stays in data/links/topics.json for when the page does
   const hasPage = (x: TopicMedia) => exists(resolve(contentDir, mediaPageRel(x)));
   const code = loadHubCode(dataDir, contentDir) ?? undefined;
+  const layered: HubLayers = { facts: loadLearnFacts(dataDir), links: loadCrossLinks(dataDir).learn };
   const dir = resolve(contentDir, "topics");
   const keep = new Set<string>();
   const stable = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");
@@ -222,7 +241,7 @@ export function renderTopics(hubs: TopicHub[], items: ManifestItem[], dataDir: s
     const rel = topicRel(h.id);
     keep.add(rel);
     const path = resolve(dir, rel);
-    const page = renderTopicPage(h, byId, byItem, now, narratives.get(h.id), (media.get(h.id) ?? []).filter(hasPage), code);
+    const page = renderTopicPage(h, byId, byItem, now, narratives.get(h.id), (media.get(h.id) ?? []).filter(hasPage), code, layered);
     if (!exists(path) || stable(readText(path)) !== stable(page)) writeText(path, page);
   }
   if (exists(dir)) {

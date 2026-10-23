@@ -30,6 +30,8 @@ import { nsSegments } from "../lib/treemap.js";
 import { LAYOUT, layoutGalaxy, type Plot } from "./galaxy-layout.js";
 import { mentionedObjects, objectByName } from "./mentions.js";
 import { loadRelated } from "./related.js";
+import { isCertain, loadCrossLinks } from "./crosslinks.js";
+import { isUrl } from "./overrides.js";
 
 export { objectSystem, LAYOUT };
 
@@ -463,7 +465,14 @@ export interface GraphRun { nodes: number; edges: number; summary_nodes: number;
 export interface GraphOptions { /** Run date (YYYY-MM-DD): the end of the "landed" week. */ today?: string; /** Relations major; default the first narrative major that has them. */ major?: string }
 
 export function renderGraph(contentDir: string, dataDir: string, siteBase = "", opts: GraphOptions = {}): GraphRun {
-  const g0 = buildGraph(contentDir, siteBase, loadRelated(dataDir).pages);
+  // D106: cross-links that are not certain are Related-like: a `relates` edge of the same weight; certain ones are in
+  // the pages' links already
+  const related: Record<string, { id: string }[]> = { ...loadRelated(dataDir).pages };
+  for (const [from, rows] of Object.entries(loadCrossLinks(dataDir).pages)) {
+    const extra = rows.filter((r) => !isCertain(r) && !isUrl(r.to)).map((r) => ({ id: r.to.split("#")[0] }));
+    if (extra.length) related[from] = [...(related[from] ?? []), ...extra];
+  }
+  const g0 = buildGraph(contentDir, siteBase, related);
   const keep = summaryNodes(g0);
   const code = loadCode(dataDir, opts.major);
   const g = layout(g0, keep, code, tocOrder(dataDir));

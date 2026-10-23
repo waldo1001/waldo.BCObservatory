@@ -5,7 +5,7 @@ description: Ground Microsoft Dynamics 365 Business Central answers in the three
 
 # Grounding Business Central answers: observatory, atlas and Learn
 
-Three servers are connected. They answer different questions; use the right one first.
+Three servers are connected. They answer different questions; use the right one first. For a question that wants the whole picture, `brief(query)` on the observatory gives the layers (Learn with key facts, code, changes, warnings, gaps) in one call; then go to the server each line points at.
 
 | Question | Server |
 |---|---|

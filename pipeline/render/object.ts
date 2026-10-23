@@ -36,6 +36,8 @@ import { changesByObjectPath, type ChangeRef } from "./change.js";
 import { loadLocalizationNarrative, PROMPT_VERSION as LOC_V, STAGE as LOC_STAGE, type LocalizationNarrative } from "../summarize/localization.js";
 import { reviewOf, reviewWords } from "../lib/review.js";
 import { llmsTitle } from "../lib/sections.js";
+import { applyCrossLinks, crossLinkSection, listOnly, loadCrossLinks, type CrossLinks } from "../link/crosslinks.js";
+import { cautionRows, headsUpSection, loadCautionLinks, type Attached } from "../link/cautions.js";
 
 const TYPE_LABEL: Record<string, string> = {
   table: "Table", tableextension: "Table extension", page: "Page", pageextension: "Page extension", codeunit: "Codeunit", report: "Report",
@@ -84,6 +86,10 @@ export interface ObjectWorld {
   changes?: Map<string, ChangeRef[]>;
   /** Field docs per major (data/code/field-docs/<major>.json, D65): the ToolTip of the page control bound to a field. */
   fieldDocs?: Map<string, FieldDocs>;
+  /** D106: labelled cross-links per page id (data/links/crosslinks.json). */
+  crossLinks?: CrossLinks;
+  /** D106: cautions the relevance guard attached, per page id (data/links/cautions.json). */
+  cautions?: Record<string, Attached[]>;
 }
 
 /** Everything the object pages need, read once. */
@@ -158,7 +164,7 @@ export function loadObjectWorld(dataDir: string, contentDir: string): ObjectWorl
   const changes = new Map<string, ChangeRef[]>(exists(cbo) ? Object.entries(readJson<Record<string, unknown>>(cbo)).filter(([k]) => k !== "schema") as [string, ChangeRef[]][] : []);
   const fieldDocs = new Map<string, FieldDocs>();
   for (const m of majors) { const fd = loadFieldDocs(dataDir, m); if (fd) fieldDocs.set(m, fd); }
-  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: loadDocsObjects(dataDir), topicsByUrl, relations, calls, countryOnly, changes, fieldDocs };
+  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: loadDocsObjects(dataDir), topicsByUrl, relations, calls, countryOnly, changes, fieldDocs, crossLinks: loadCrossLinks(dataDir), cautions: loadCautionLinks(dataDir) };
 }
 
 const REL_CAP = 50;
@@ -181,6 +187,8 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   const ownTopics = [...new Set(docs.flatMap((d) => w.topicsByUrl.get(d.url) ?? []))].sort();
   const countries = own ? [] : (w.replacedIn.get(key) ?? []).sort();
   const pageKey = own ? ownPageKey(o, own.cc) : objectPageKey(o);
+  const xlinks = w.crossLinks?.pages[`object/${pageKey}`] ?? [];
+  const heads = w.cautions?.[`object/${pageKey}`] ?? [];
   const changes = w.changes?.get(pageKey) ?? [];
   const title = own ? `${titleOf(o)} (${own.cc.toUpperCase()})` : titleOf(o);
   const events = o.procedures.filter((p) => p.event && p.event !== "subscriber");
@@ -231,16 +239,17 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
     tags: [o.type, ...(own ? [`${own.cc} layer`] : o.app ? [o.app.toLowerCase()] : [])],
     versions: { introduced: sinceOldest ? null : life.versions[0], last_changed: life.changed.at(-1) ?? null, deprecated: o.obsolete?.tag ?? null },
     review: reviewOf(false),
-    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${learnUrls}|${relSig}|${own?.cc ?? ""}${changes.length ? `|${changes.map((c) => `${c.page}:${c.title}`).join(",")}` : ""}${layoutSig ? `|layout:${layoutSig}` : ""}${fdUsed.some(Boolean) ? `|fd:${sha256(JSON.stringify(fdUsed))}` : ""}${callSig ? `|calls:${callSig}` : ""}`) },
+    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${learnUrls}|${relSig}|${xlinks.length ? `xl:${sha256(JSON.stringify(xlinks))}|` : ""}${heads.length ? `ca:${sha256(JSON.stringify(heads))}|` : ""}${own?.cc ?? ""}${changes.length ? `|${changes.map((c) => `${c.page}:${c.title}`).join(",")}` : ""}${layoutSig ? `|layout:${layoutSig}` : ""}${fdUsed.some(Boolean) ? `|fd:${sha256(JSON.stringify(fdUsed))}` : ""}${callSig ? `|calls:${callSig}` : ""}`) },
     evidence: [{ kind: "code", url: src, title: `${o.file} (${manifest.branch})`, date: null, commit: manifest.commit, t: null, quote: null }, ...docs.map((d) => ({ kind: "learn", url: d.url, title: d.title, date: null, commit: null, t: null, quote: null }))],
-    links: {
+    links: applyCrossLinks({
       learn: learnUrls, objects: own ? [] : w.basePage?.(o) ? [`object/${w.basePage(o)}`] : [], features: [], topics,
       localizations: own ? (hasLocalization(own.cc) ? [`localization/${own.cc}`] : []) : countries.filter(hasLocalization).map((cc) => `localization/${cc}`),
       videos: [], posts: [], guidelines: [], ...(changes.length ? { changes: changes.map((c) => `change/${c.page}`) } : {}),
-    },
+    }, [...xlinks, ...cautionRows(heads)]),
     object_type: o.type, object_id: o.id, name: o.name, ...(caption ? { caption } : {}), namespace: o.namespace, app: o.app, extends: o.extends,
     first_version: life.versions[0], last_version: life.versions.at(-1)!, present_in: life.versions, changed_in: life.changed, source_major: major,
     obsolete: o.obsolete, countries, ms_search_form_ids: docs.map((d) => d.id), ...(own ? { country: own.cc.toUpperCase() } : {}),
+    ...(heads.length ? { cautions: heads } : {}),
     counts: { fields: o.fields.length, procedures: o.procedures.length, events: events.length, subscribers: subs.length, ...(o.controls ? { controls: o.controls.length } : {}), ...(o.actions ? { actions: o.actions.length } : {}) },
     relations: {
       out: relOut.length, referenced_by: refs.length, pages: pagesOn.length, extended_by: extendedBy.length, event_subscribers: subCount,
@@ -305,7 +314,11 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   lines.push("## Across versions", "", `- Present in: ${versionRanges(life.versions)}`, `- Changed (declaration) in: ${life.changed.length ? versionRanges(life.changed) : "none"}`,
     ...(o.obsolete && o.obsolete.state !== "No" ? [`- Obsolete: ${o.obsolete.state}${o.obsolete.tag ? ` since ${o.obsolete.tag}` : ""}${o.obsolete.reason ? `, "${cell(o.obsolete.reason)}"` : ""}`] : []), "");
   if (countries.length) lines.push("## Countries that replace it", "", countries.map((cc) => (hasLocalization(cc) ? `[${cc.toUpperCase()}](../../localizations/${cc}.md)` : cc.toUpperCase())).join(", "), "");
-  if (docs.length) lines.push("## Documented on Microsoft Learn", "", ...docs.map((d) => `- [${cell(d.title)}](${d.url})`), "");
+  // D106: Learn pages that name this object (by code) join the list; the labelled rows get their own sections
+  const named = xlinks.filter((r) => listOnly(r) && /^https?:/.test(r.to));
+  if (docs.length || named.length) lines.push("## Documented on Microsoft Learn", "", ...docs.map((d) => `- [${cell(d.title)}](${d.url})`), ...named.map((r) => `- [${cell(r.title)}](${r.to}) (${r.why})`), "");
+  lines.push(...crossLinkSection(xlinks.filter((r) => !named.includes(r)), "../".repeat(pageKey.split("/").length)));
+  lines.push(...headsUpSection(heads, "../".repeat(pageKey.split("/").length)));
   if (deps.length) lines.push("## Deprecations", "", ...deps.map((d) => `- ${d.kind}${d.member ? ` ${cell(d.member)}` : ""}: ${d.state ?? "guarded"}${d.tag ? ` ${d.tag}` : ""}${d.clean.length ? ` (#if not ${d.clean.join(", ")})` : ""}${d.reason ? `, "${cell(d.reason)}"` : ""}`), "");
   lines.push("Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).", "");
   // the closing pointer (D75): what we hold is above; the atlas only for bodies and per-procedure edges

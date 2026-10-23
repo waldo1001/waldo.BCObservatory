@@ -7,7 +7,8 @@
  * BC_OBSERVATORY_LOCAL=<repo checkout> to read content/ and data/ from disk instead (offline, tests), or
  * BC_OBSERVATORY_SITE to point at another deployment.
  *
- * Tools: search, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback.
+ * Tools: search, brief, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback. brief (D106)
+ * answers in five layers (Learn, code, changes, heads up, gaps) from the keyword hits and the pages they lead to.
  * Long pages come back compact (sections.ts, D93): over BC_OBSERVATORY_MAX_CHARS (30,000; 0 = no limit), cat, get_object
  * and localization answer with the frontmatter, the section keys and the first rows; section, offset and limit read one.
  *
@@ -34,8 +35,9 @@ import {
 import { dot, embed, parseModel, type StaticModel } from "./embed.js";
 import { countryBlock, memberAnswer, parseAnchor, replacedInLine, type DiffObject } from "./country.js";
 import { DEFAULT_BUDGET, anchorView, budgetOf, pageView, type ViewArgs } from "./sections.js";
+import { brief } from "./brief.js";
 
-const VERSION = "0.8.1";
+const VERSION = "0.9.0";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 /** One answer's characters (D93): a longer page comes back compact; B is how the descriptions say it. */
@@ -45,7 +47,7 @@ const REPO = "https://github.com/waldo1001/waldo.BCObservatory";
 const DAY = 86_400_000;
 
 export type { PageRecord };
-interface IndexManifest { schema: string; pages: number; shards: { file: string; count: number; sha256: string; kind?: string }[]; learn?: { file: string; count: number; sha256: string } }
+interface IndexManifest { schema: string; pages: number; shards: { file: string; count: number; sha256: string; kind?: string }[]; learn?: { file: string; count: number; sha256: string }; learn_facts?: { file: string; count: number; sha256: string } }
 
 // ---------------------------------------------------------------------------------------------- data access
 
@@ -85,6 +87,19 @@ async function shard(file: string, sha: string): Promise<string> {
   if (!LOCAL) writeFileSync(cached, text);
   return text;
 }
+/** D106: the Learn key facts file the index manifest names, read on the first brief. */
+let learnFactsRef: IndexManifest["learn_facts"] | undefined;
+let learnFacts: { at: number; facts: Map<string, [string, string][]> } | null = null;
+async function loadLearnFacts(): Promise<Map<string, [string, string][]>> {
+  await loadIndex();
+  if (learnFacts && learnFacts.at === loadedAt) return learnFacts.facts;
+  let facts = new Map<string, [string, string][]>();
+  if (learnFactsRef) {
+    try { facts = new Map(Object.entries((JSON.parse(await shard(learnFactsRef.file, learnFactsRef.sha256)) as { facts: Record<string, [string, string][]> }).facts)); } catch { /* the brief goes on without facts */ }
+  }
+  learnFacts = { at: loadedAt, facts };
+  return facts;
+}
 /** The page shards, prepared for the shared scorer (D86); reloaded once a day. */
 async function loadIndex(): Promise<void> {
   if (index && Date.now() - loadedAt < DAY) return;
@@ -93,6 +108,7 @@ async function loadIndex(): Promise<void> {
   if (!LOCAL) mkdirSync(cacheDir, { recursive: true });
   for (const s of manifest.shards) all.push(...(JSON.parse(await shard(s.file, s.sha256)) as PageRecord[]));
   pages = all;
+  learnFactsRef = manifest.learn_facts;
   const idx = prepare(all.map(pageToRecord));
   // D94: the Learn articles, searchable but not pages here (ls, whats_new and the meaning ranking read `pages` only)
   if (manifest.learn) {
@@ -286,8 +302,116 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   if (byDay && mode === "semantic") note = ` (sort "date" orders the keyword matches; mode "semantic" ignored)`;
   const learnNote = shown.some((r) => r.type === "learn") ? "; a Learn article's url reads with the Learn MCP's microsoft_docs_fetch (the plugin connects it), else open it on learn.microsoft.com; cat(hub) reads its hub" : "";
   // an empty keyword list says so: the hits are by meaning only (D95)
-  if (mode === "hybrid" && !keyword.length && semantic.length) return `No keyword match for "${a.query}"; ${shown.length} pages by meaning only (read one with cat(path)${learnNote}):\n${shown.map((r) => hitLine(r, tag(uid(r)))).join("\n")}${hintText}`;
-  return `${shown.length} results, ${how}${note}${how === "keyword + meaning" ? ` (exact band: ${exactBand})` : ""} (read one with cat(path)${learnNote}):\n${shown.map((r) => hitLine(r, tag(uid(r)))).join("\n")}${hintText}`;
+  // D106: grouped by layer; a Learn article in the exact band (its title is covered by the query) leads
+  const learnFirst = hits.some((h) => h.band === "exact" && h.r.type === "learn" && shown.includes(h.r));
+  const body = groupLines(shown, (r) => hitLine(r, tag(uid(r))), learnFirst);
+  if (mode === "hybrid" && !keyword.length && semantic.length) return `No keyword match for "${a.query}"; ${shown.length} pages by meaning only (read one with cat(path)${learnNote}):\n${body}${hintText}`;
+  return `${shown.length} results, ${how}${note}${how === "keyword + meaning" ? ` (exact band: ${exactBand})` : ""} (read one with cat(path)${learnNote}):\n${body}${hintText}`;
+}
+
+/** D106: the search result's layer, the brief's order (Learn, code, changes, community and videos, other). */
+const LAYERS = ["Learn", "Code", "Code members", "Changes", "Community and videos", "Other"] as const;
+export function layerOf(r: SearchRecord): (typeof LAYERS)[number] {
+  // fields, events, procedures and values: their own group, after the objects (a generic word keeps them low, D95)
+  if (r.kind !== "page") return "Code members";
+  const t = r.type;
+  return t === "learn" ? "Learn" : t === "object" ? "Code" : t === "change" || t === "release" || t === "hotfix" ? "Changes" : t === "video" || t === "post" ? "Community and videos" : "Other";
+}
+/**
+ * Hits grouped by layer: groups in the order of their best hit, the lines inside unchanged. A Learn title the query
+ * covers puts Learn first. Fields, events, procedures and values lead only when one of them is the best hit; else they
+ * come last, so a generic word ("journal") keeps them below the pages, as the ranking does (D95).
+ */
+export function groupLines(shown: SearchRecord[], line: (r: SearchRecord) => string, learnFirst: boolean): string {
+  const groups = new Map<string, string[]>();
+  if (learnFirst) groups.set("Learn", []);
+  for (const r of shown) { const g = layerOf(r); groups.set(g, [...(groups.get(g) ?? []), line(r)]); }
+  const members = groups.get("Code members");
+  if (members && shown[0] && layerOf(shown[0]) !== "Code members") { groups.delete("Code members"); groups.set("Code members", members); }
+  return [...groups].filter(([, ls]) => ls.length).map(([g, ls]) => `## ${g}\n${ls.join("\n")}`).join("\n");
+}
+
+/** A country named in words: its Learn local functionality is then an answer, not noise. */
+const COUNTRY_WORD = /\b(belgi|netherland|dutch|german|france|french|spain|italy|austria|swiss|switzerland|denmark|norway|sweden|finland|iceland|czech|india|mexico|russia|australia|zealand|canada|united kingdom|uk)\w*/i;
+/** Words of a query that say something: lower-case, three letters or more, function words out, a plural folded. */
+const BRIEF_STOP = new Set(["the", "and", "for", "with", "from", "what", "which", "when", "how", "does", "are", "can", "this", "that", "into", "about", "business", "central", "lately", "changed", "change", "fix", "fixes"]);
+const wordsOf = (s: string) => [...new Set(s.toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length >= 3 && !BRIEF_STOP.has(w)).map((w) => (w.length > 4 && w.endsWith("s") ? w.slice(0, -1) : w)))];
+/** Learn articles whose title and summary hold at least a third of the query's words (two at least), most words first, title words counting double. */
+export function learnByWords(query: string, limit = 3): PageRecord[] {
+  const q = wordsOf(query);
+  if (q.length < 2 || !index) return [];
+  // a country's page waits unless the query names a country: "VAT ledgers in Russia" is no answer to a W1 question
+  const country = parseQuery(query, { countries: countriesOf(index) }).countries.length > 0 || COUNTRY_WORD.test(query);
+  const need = Math.max(2, Math.ceil(q.length / 3));
+  const scored: { r: PageRecord; n: number; s: number }[] = [];
+  for (const rec of index.records) {
+    if (rec.kind !== "page" || rec.type !== "learn" || !rec.page) continue;
+    const t = new Set(wordsOf(rec.page.title)), b = new Set(wordsOf(rec.page.summary ?? ""));
+    const hit = q.filter((w) => t.has(w) || b.has(w));
+    const local = /\/LocalFunctionality\//i.test(rec.page.path) && !country;
+    if (hit.length >= need) scored.push({ r: rec.page, n: hit.length - (local ? 10 : 0), s: hit.reduce((x, w) => x + (t.has(w) ? 2 : 1), 0) });
+  }
+  return scored.sort((a, b) => b.n - a.n || b.s - a.s || a.r.title.localeCompare(b.r.title)).slice(0, limit).map((x) => x.r);
+}
+
+/** D107: a Learn article is near a question by meaning at this cosine or more (potion-base-8M, measured 2026-10-23). */
+export const LEARN_MEANING_MIN = 0.45;
+/** Per query word the article's title, summary or identifiers hold: measured on the six D106 questions, it moves Fabric's setup page from 3rd to 2nd and "Set up value-added tax" to 2nd or 3rd. */
+export const LEARN_WORD_BONUS = 0.05;
+/** Country code -> its folder under Learn's LocalFunctionality/. */
+const LEARN_COUNTRY: Record<string, string> = { at: "Austria", au: "Australia", be: "Belgium", ca: "Canada", ch: "Switzerland", cz: "Czech", de: "Germany", dk: "Denmark", es: "Spain", fi: "Finland", fr: "France", gb: "UnitedKingdom", in: "India", is: "Iceland", it: "Italy", mx: "Mexico", nl: "Netherlands", no: "Norway", nz: "NewZealand", ru: "Russia", se: "Sweden", us: "UnitedStates" };
+let learnVecs: { at: number; rows: number[]; data: Float32Array } | null = null;
+/** One vector per Learn row (title, summary, documented identifiers), rebuilt when the index reloads. */
+function learnVectors(m: StaticModel): { rows: number[]; data: Float32Array } {
+  if (learnVecs && learnVecs.at === loadedAt) return learnVecs;
+  const rows: number[] = [];
+  index!.records.forEach((r, i) => { if (r.kind === "page" && r.type === "learn" && r.page) rows.push(i); });
+  const data = new Float32Array(rows.length * m.dims);
+  rows.forEach((i, k) => { const p = index!.records[i].page!; data.set(embed(m, [p.title, p.summary, ...(p.tags ?? [])].filter(Boolean).join(". ")), k * m.dims); });
+  learnVecs = { at: loadedAt, rows, data };
+  return learnVecs;
+}
+/**
+ * Learn articles nearest a query by meaning (cosine at LEARN_MEANING_MIN or more), then nudged by the query's words
+ * they hold. Generated report pages and other countries' local pages go down; the country the query names goes up.
+ * None without a model.
+ */
+export async function learnByMeaning(query: string, limit = 5): Promise<PageRecord[]> {
+  await loadIndex();
+  const m = await loadModel();
+  if (!m || !index) return [];
+  const v = embed(m, query);
+  if (!v.some((x) => x !== 0)) return [];
+  const { rows, data } = learnVectors(m);
+  const named = parseQuery(query, { countries: countriesOf(index) }).countries.map((c) => LEARN_COUNTRY[c]).filter(Boolean);
+  const anyCountry = named.length > 0 || COUNTRY_WORD.test(query);
+  const q = wordsOf(query);
+  const scored: { r: PageRecord; s: number }[] = [];
+  rows.forEach((i, k) => {
+    const cos = dot(v, data, k * m.dims);
+    if (cos < LEARN_MEANING_MIN) return;
+    const r = index!.records[i].page!;
+    const have = new Set(wordsOf(`${r.title} ${r.summary ?? ""} ${(r.tags ?? []).join(" ")}`));
+    let s = cos + LEARN_WORD_BONUS * q.filter((w) => have.has(w)).length;
+    if (/\/reports\/report-\d+/.test(r.path) && !/\breports?\b/i.test(query)) s -= 0.2;
+    const local = /\/LocalFunctionality\/([^/]+)\//i.exec(r.path)?.[1];
+    if (local) s += named.some((n) => n.toLowerCase() === local.toLowerCase()) ? 0.1 : anyCountry && !named.length ? 0 : -0.3;
+    scored.push({ r, s });
+  });
+  return scored.sort((a, b) => b.s - a.s || a.r.title.localeCompare(b.r.title)).slice(0, limit).map((x) => x.r);
+}
+
+export async function toolBrief(a: { query?: string; path?: string }): Promise<string> {
+  await loadIndex();
+  const byPath = new Map(pages.map((p) => [p.path, p]));
+  return brief(a, {
+    hits: (query) => rank(index!, parseQuery(query, { countries: countriesOf(index!) }), {}).slice(0, 60).map((h) => h.r),
+    record: (path) => byPath.get(path),
+    page: async (path) => { try { return await pageMarkdown(path); } catch { return null; } },
+    learnFacts: loadLearnFacts,
+    learnByWords: (query) => learnByWords(query),
+    learnByMeaning: (query) => learnByMeaning(query),
+  });
 }
 
 export async function toolLs(a: { path?: string }): Promise<string> {
@@ -438,9 +562,11 @@ export function createServer(): McpServer {
   const server = new McpServer({ name: "bc-observatory", version: VERSION }, {
     instructions: "BC Observatory: an agent-first knowledge base of Microsoft Dynamics 365 Business Central (Learn hubs, AL objects from the code for BC28-30, localizations, roadmap features, videos, community posts, code changes: merged pull requests of Microsoft's Business Central repositories, BCApps joined to the AL objects they changed, under changes/, and AL Language extension releases (the marketplace changelog, under releases/)). Every page carries a trust tier (official = Microsoft, community = everyone else) and a review state: say which tier a claim comes from. Never invent AL object ids or version numbers: look them up with get_object. Start with search(), read pages with cat(path), browse with ls(path). search() also finds Microsoft Learn articles by title, summary and the identifiers they document (type learn): those are not pages here: read their url with the Learn MCP's microsoft_docs_fetch (the plugin connects it), else open it on learn.microsoft.com.",
   });
-  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page and the fields, events, global procedures and enum values of AL objects. Takes names ('Sales Header'), references ('t36', 'cu 80'), bare ids ('36') and symbol prefixes ('event: OnAfterPost', 'proc: CopyToTempLines'); a kind: query with no hit names the nearest symbols; a symbol hit's path ends in its anchor (#event-<Name>, #field-<id>, #proc-<Name>, #value-<n>); cat(path) reads that member. Learn articles: type learn, a url not a path. Hybrid by default: exact matches on top, the rest fused with meaning; each hit says [keyword], [meaning] or [both]; mode 'keyword' or 'semantic' for one list. sort 'date': keyword matches newest first, undated last. Filters: type (topic, learn, app, feature, object, localization, video, post, change, source, digest, release), tier (official, community), system (finance, sales, ... or alias 'g/l'), country ('BE'), app, object_type, kind (page, field, event, proc, value).",
+  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page and the fields, events, global procedures and enum values of AL objects. Takes names ('Sales Header'), references ('t36', 'cu 80'), bare ids ('36') and symbol prefixes ('event: OnAfterPost', 'proc: CopyToTempLines'); a kind: query with no hit names the nearest symbols; a symbol hit's path ends in its anchor (#event-<Name>, #field-<id>, #proc-<Name>, #value-<n>); cat(path) reads that member. Learn articles: type learn, a url not a path. Hybrid by default: exact matches on top, the rest fused with meaning; each hit says [keyword], [meaning] or [both]; mode 'keyword' or 'semantic' for one list. sort 'date': keyword matches newest first, undated last. Filters: type (topic, learn, app, feature, object, localization, video, post, change, source, digest, release, hotfix); hits come grouped by layer, tier (official, community), system (finance, sales, ... or alias 'g/l'), country ('BE'), app, object_type, kind (page, field, event, proc, value).",
     inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), country: z.string().optional(), app: z.string().optional(), object_type: z.string().optional(), kind: z.enum(["page", "field", "event", "proc", "value"]).optional(), limit: z.number().int().min(1).max(50).optional(), mode: z.enum(["hybrid", "keyword", "semantic"]).optional(), sort: z.enum(["match", "date"]).optional() } },
   async (a) => text(await toolSearch(a)));
+  server.registerTool("brief", { title: "One answer in layers", description: "A question (query) or page (path) in five layers: Learn with key facts, the code, what changed lately, scoped warnings, gaps no source fills. Each line has its tier and source.",
+    inputSchema: { query: z.string().optional(), path: z.string().optional() } }, async (a) => text(await toolBrief(a)));
   server.registerTool("ls", { title: "List pages", description: "Browse the page tree, e.g. ls('objects/table') or ls('localizations'); empty path lists the sections.", inputSchema: { path: z.string().optional() } },
     async (a) => text(await toolLs(a)));
   server.registerTool("cat", { title: "Read a page", description: `A page's markdown by its path from search or ls: frontmatter with evidence and links, then the body. A page over ${B} characters comes back compact with its section keys; section (or 'frontmatter'), offset and limit read one part. A symbol path ('objects/codeunit/80#event-OnAfterPostSalesDoc') returns that member's row.`, inputSchema: { path: z.string(), ...VIEW } },
