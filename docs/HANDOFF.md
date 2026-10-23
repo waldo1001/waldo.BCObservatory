@@ -27,6 +27,14 @@ questions in its section 12).
 
 ## Where things stand
 
+**Shipped 2026-10-23 (security; no page or data changed, no derive):**
+- **Node floor for the 21 Oct 2026 Node security releases** (Brotli decoder OOB write CVE-2026-111497, reachable through
+  fetch's automatic `br` decompression in the nightly's blog fetches; TLS hostname bypass CVE-2026-105483/106069).
+  `engines` is `^22.23.4 || ^24.22.1 || >=26.12.1` in the root, `site` and `packages/mcp`; `.nvmrc` `v22.23.4`;
+  `setup-node` uses `check-latest` in pages, pr-validate and publish-mcp; `infra/mini/selfcheck.sh` fails below the
+  floor. The Mini's `node@22` is 22.23.4. MCP 0.8.1 (engines only, no code change) published with provenance by
+  `publish-mcp` run 39950185656; the plugin follows through `@latest`. Commits `8dbb3be8e6`, `4c2003621f`.
+
 **Shipped 2026-10-21 (code only; no page or data changed, no derive):**
 - **Plugin skills bcobs-\*, Copilot CLI install, D104** (`docs/specs/plugin-skill-prefix.md`, M42, issue #23). The
   plugin's four skills are `bcobs-lookup`, `bcobs-whats-new`, `bcobs-localization`, `bcobs-grounding` (plugin 0.4.0);
