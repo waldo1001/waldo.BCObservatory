@@ -4,16 +4,18 @@ import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { goldenRoot } from "../helpers/search-golden.js";
-import { neverLessProblems, neverLessRows } from "../helpers/never-less.js";
+import { learnCoverage, neverLessProblems, neverLessRows } from "../helpers/never-less.js";
 
 test("never-less fixture: six acceptance questions, each naming committed pages and Business Central Learn URLs", () => {
   const rows = neverLessRows();
   assert.equal(rows.length, 6);
   for (const r of rows) {
     assert.ok(r.learn_urls.length >= 2 && r.learn_urls.every((u) => u.startsWith("https://learn.microsoft.com/dynamics365/business-central/") && !u.includes("#")), r.id);
+    assert.ok(r.must_reach.length >= 1 && r.must_reach.every((u) => r.learn_urls.includes(u)), `${r.id}: must_reach is a choice among what Learn returned`);
     for (const p of r.must) if (!p.startsWith("hotfixes/")) assert.ok(existsSync(join(ROOT, "content", `${p}.md`)), `${r.id}: ${p} is a committed page`);
   }
-  assert.deepEqual(neverLessProblems(rows[0], `x ${rows[0].learn_urls.join(" ")} ${rows[0].must.join(" ")}`), []);
+  assert.deepEqual(neverLessProblems(rows[0], `x ${rows[0].must_reach.join(" ")} ${rows[0].must.join(" ")}`), [], "the gate is must_reach");
+  assert.equal(learnCoverage(rows[2], `x ${rows[2].must_reach.join(" ")}`).reached, rows[2].must_reach.length, "the rest of Learn's list is coverage");
   assert.ok(neverLessProblems(rows[4], "## Heads up\n- posts/waldo-be/317951\n## Gaps").some((p) => /must not be a heads up/.test(p)), "the v26 caution as a heads up for Sales-Post fails the row");
 });
 

@@ -72,6 +72,14 @@ The remaining 8 URLs rank between 12th and 250th by meaning with this model ("Ma
 and sandbox environments", the Belgium local-functionality hub). Reaching them needs either the D106 cross-links and key
 facts after the nightly, a stronger model, or relaxing the never-less rule to Learn's top results: an owner decision.
 
+Owner decision of 2026-10-23: the never-less gate is a curated `must_reach` list per question (the Learn pages that
+answer it, chosen among what Learn returned, confirmed in PR #35); Learn's full result list stays in the fixture as a
+coverage report, never a gate, since Learn's own ranking is noisy (its first hit for the purchase-line VAT question
+was "Managing VAT rate changes") and drifts. The environment-copy precautions list lives on "Production and sandbox
+environments", so `data/overrides/links.yaml` links Codeunits 1886 and 8912 to it ("documents"). On the committed tree
+with the model: 2 of 6 questions hold, must-reach misses 2 (environment-types until the nightly re-renders the
+codeunit pages; "Work with VAT" for the sales-line question), coverage 8 of 16.
+
 ## 9. Risks and open questions
 
 - Noise: a meaning hit can be off topic ("Quality management setup" for a Fabric setup question at cosine 0.62). It is
