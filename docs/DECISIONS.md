@@ -1174,3 +1174,27 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   `.claude-plugin/marketplace.json`). Measured: the unit tests of the spec's section 5 pass (658 of 659, 1 skipped);
   Copilot CLI 1.0.102 with `--plugin-dir` on the branch lists `bc-observatory` 0.4.0 and the four `bcobs-*` skills.
   The install from GitHub and the Claude Code update are operator steps. Spec: docs/specs/plugin-skill-prefix.md.
+- **D106 Layered answers: never less than Learn, only more (2026-10-23, M44).** An answer stacks five layers, each line
+  with its tier and source: how it works on Learn, the code, what changed lately, heads up, gaps. On six real questions
+  the observatory showed less than the Learn MCP: Learn reached objects only through `ms.search.form` (0 of 5,729
+  codeunits, 1,092 code changes, 622 videos and 623 posts had a Learn link), hubs held a title and a line per article,
+  community warnings were not tied to what they apply to, and Microsoft's hotfix lists were no source. Now:
+  (1) cross-links with a label from a closed set (`fixes`, `documents`, `names`, `possibly related`, `relation
+  unknown`) and who made them (`code`, `override`, `model`); certain ones join `links.<kind>`, the rest stay in
+  `links.related`; three sources in order: exact joins (Learn extraction objects and D94 event identifiers resolved
+  exactly, shared objects, work items), a quota-limited Haiku pick among IDF-overlap Learn candidates (always
+  `possibly related`), hand-checked rows in `data/overrides/links.yaml`, merged last; (2) Learn key facts, 3 to 8 per
+  page in our own words, for the administration and Fabric pages (`config/learn-facts.json`; its own stage, so hub
+  narratives do not go stale; D01 and D94 stand: no Learn body stored); (3) cautions on posts (Haiku, verbatim quotes)
+  and videos (their disclaimers), attached to an object page only by an exactly resolved object or an event it
+  publishes today, within its versions; (4) Microsoft Support update pages (28.4 to 28.6) as an official source, ID,
+  area and one-line wording per entry, one page per update; (5) the MCP's `brief(query | path)` and `search` grouped by
+  layer, with a Learn title band in the shared scorer; (6) a never-less check over six acceptance questions.
+  Owner decisions of 2026-10-23: the Haiku confirmation in the linker; hotfix entries keep their one-line wording;
+  search grouped by default; one PR per phase. Rejected: Learn body text in the index (D01, D94); title or keyword
+  matching for links; deterministic links plus overrides only (every codeunit no Learn page names stays unlinked); one
+  page per hotfix entry (bytes); opt-in grouping; cautions by topic overlap (waldo's v26 post would attach to every
+  posting codeunit; it attaches to Table 49 and not to Codeunit 80, whose own three obsolete events are other ones).
+  Measured: phase 1 adds 4.41 MB to the Pages tar (budget 5); `npm test` 710 of 711 pass, 1 skipped; on a locally
+  re-rendered tree the never-less check holds for 0 of 6 questions before the first nightly (key facts, hub lines and
+  hotfix pages come from it). Spec: docs/specs/layered-answers.md.

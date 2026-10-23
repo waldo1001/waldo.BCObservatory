@@ -144,7 +144,7 @@ test("MCP server over stdio: every tool answers from a local checkout", async ()
   const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: fixture() });
   try {
     const tools = (await client.listTools()).tools.map((t) => t.name).sort();
-    assert.deepEqual(tools, ["blog_footprint", "cat", "diff_object", "feedback", "get_object", "localization", "ls", "search", "whats_new"]);
+    assert.deepEqual(tools, ["blog_footprint", "brief", "cat", "diff_object", "feedback", "get_object", "localization", "ls", "search", "whats_new"]);
     assert.match(await call("search", { query: "customer" }), /Table 18 "Customer".*path=objects\/table\/18 \[keyword\]/);
     assert.match(await call("search", { query: "agent", tier: "community" }), /Designing agents/);
     assert.match(await call("ls", {}), /objects\/ \(7 pages\)/);
@@ -168,7 +168,10 @@ test("MCP server over stdio: every tool answers from a local checkout", async ()
     assert.match(await call("search", { query: "data query tools", type: "change", mode: "keyword" }), /#12207/, "by object name");
     assert.match(await call("blog_footprint", { source: "kauffmann-nl" }), /kauffmann-nl: 1 items[\s\S]*copilot 1/);
     const sub = await call("search", { query: "subscription", mode: "keyword" });
-    assert.match(sub.split("\n")[1], /^- Subscription billing \[topic/, "the reviewed 47-page hub first (D65)");
+    assert.match(sub.split("\n").find((l) => l.startsWith("- "))!, /^- Subscription billing \[topic/, "the reviewed 47-page hub first (D65)");
+    assert.match(sub, /^## Other$/m, "D106: results come grouped by layer");
+    const b = await call("brief", { query: "customer" });
+    assert.match(b, /^# Brief: customer\n[\s\S]*## How it works \(Learn\)[\s\S]*## In the code\n- Table 18 "Customer": [^\n]*\[official, objects\/table\/18\][\s\S]*## Changed lately[\s\S]*## Heads up[\s\S]*## Gaps/, "D106: five layers in order, every line with tier and source");
     assert.match(sub, /in: Business functionality › Sales\n  47 Learn pages · 27 objects · 2 videos · reviewed/, "where it sits and how big it is");
     assert.match(await call("search", { query: "subscriptions", type: "object", mode: "keyword" }), /Page 8059 "Service Objects" \(captioned "Subscriptions"\)/, "found by its caption");
     assert.match(await call("feedback", { path: "objects/table/18", message: "field 3 is wrong" }), /issues\/new\?title=Feedback/);
@@ -183,7 +186,7 @@ test("D93: tool descriptions teach call forms, not the scoring formula, and the 
     const tools = (await client.listTools()).tools;
     const total = tools.reduce((n, t) => n + (t.description ?? "").length, 0);
     for (const t of tools) assert.ok((t.description ?? "").length <= 1000, `${t.name}: ${(t.description ?? "").length} characters`);
-    assert.ok(total <= 3300, `the nine descriptions add up to ${total} characters`);
+    assert.ok(total <= 3600, `the ten descriptions add up to ${total} characters`); // D106: brief is the tenth
     const search = tools.find((t) => t.name === "search")!.description!;
     assert.ok(search.includes("'event: OnAfterPost'"), "the symbol prefixes stay");
     for (const v of ["topic", "app", "feature", "object", "localization", "video", "post", "change", "source", "digest", "release"]) assert.ok(search.includes(v), `type value ${v}`);
@@ -245,12 +248,12 @@ test("D86: references, filters, get_object by caption and country, hints", async
   try {
     const t = await call("search", { query: "t18" });
     assert.match(t.split("\n")[0], /^1 results, keyword \(read one with cat\(path\)\):$/, "no meaning list: no exact band in the header (D95)");
-    assert.match(t.split("\n")[1], /^- Table 18 "Customer"/);
-    assert.match((await call("search", { query: "cu 80" })).split("\n")[1], /Codeunit 80 "Sales-Post"/);
-    assert.match((await call("search", { query: "BE" })).split("\n")[1], /Belgium \(BE\)/);
-    assert.match((await call("search", { query: "table 11300" })).split("\n")[1], /VAT VIES Correction" \(BE\)/);
-    assert.match((await call("search", { query: "client", mode: "keyword" })).split("\n")[1], /Table 18 "Customer"/, "the synonym list, no model needed");
-    assert.match((await call("search", { query: "customer", system: "sales", type: "object" })).split("\n")[1], /Table 18 "Customer"/, "objects carry their system");
+    assert.match(t.split("\n").find((l) => l.startsWith("- "))!, /^- Table 18 "Customer"/);
+    assert.match((await call("search", { query: "cu 80" })).split("\n").find((l) => l.startsWith("- "))!, /Codeunit 80 "Sales-Post"/);
+    assert.match((await call("search", { query: "BE" })).split("\n").find((l) => l.startsWith("- "))!, /Belgium \(BE\)/);
+    assert.match((await call("search", { query: "table 11300" })).split("\n").find((l) => l.startsWith("- "))!, /VAT VIES Correction" \(BE\)/);
+    assert.match((await call("search", { query: "client", mode: "keyword" })).split("\n").find((l) => l.startsWith("- "))!, /Table 18 "Customer"/, "the synonym list, no model needed");
+    assert.match((await call("search", { query: "customer", system: "sales", type: "object" })).split("\n").find((l) => l.startsWith("- "))!, /Table 18 "Customer"/, "objects carry their system");
     assert.match(await call("search", { query: "customer", system: "g/l" }), /^No pages match/, "a system by its alias");
     assert.match(await call("search", { query: "vat", country: "be" }), /VAT VIES Correction/);
     assert.match(await call("search", { query: "subscription", app: "subscription billing", object_type: "page" }), /^1 results[\s\S]*Page 8059/);
@@ -277,13 +280,13 @@ test("search is hybrid with a model: exact band pinned, the rest fused with mean
   try {
     const hybrid = await call("search", { query: "client" });
     assert.match(hybrid, /keyword \+ meaning/);
-    assert.match(hybrid.split("\n")[1], /Table 18 "Customer".*\[both\]/, "the synonym and the meaning agree");
+    assert.match(hybrid.split("\n").find((l) => l.startsWith("- "))!, /Table 18 "Customer".*\[both\]/, "the synonym and the meaning agree");
     const buyer = await call("search", { query: "buyer" });
-    assert.match(buyer.split("\n")[1], /"Customer[^"]*".*\[meaning\]/, "a word no synonym knows: found by meaning only");
+    assert.match(buyer.split("\n").find((l) => l.startsWith("- "))!, /"Customer[^"]*".*\[meaning\]/, "a word no synonym knows: found by meaning only");
     assert.match(await call("search", { query: "buyer", mode: "keyword" }), /No pages match/, "keywords alone miss it");
     const pinned = await call("search", { query: "t18" });
     assert.match(pinned.split("\n")[0], /^1 results, keyword \(read one with cat\(path\)\):$/, "the toy model knows no 't18': the keyword list alone, so no exact band in the header (D95)");
-    assert.match(pinned.split("\n")[1], /Table 18 "Customer".*\[(keyword|both)\]/);
+    assert.match(pinned.split("\n").find((l) => l.startsWith("- "))!, /Table 18 "Customer".*\[(keyword|both)\]/);
     assert.match(hybrid.split("\n")[0], /^\d+ results, keyword \+ meaning \(exact band: \d+\) \(read one with cat\(path\)\):$/, "the exact band is named when the two lists meet");
     assert.match(buyer.split("\n")[0], /^No keyword match for "buyer"; \d+ pages by meaning only \(read one with cat\(path\)\):$/, "an empty keyword list says so (D95)");
     assert.doesNotMatch(buyer, /exact band/);
@@ -387,7 +390,7 @@ test("D95: a kind: query with no hit says what is not there and never pads with 
     assert.doesNotMatch(found, /\[meaning\]|\[both\]/);
     assert.match(await call("search", { query: "event: OnBeforeValidateWidgetCode", mode: "keyword" }), /^No event named /);
     const buyer = await call("search", { query: "buyer", limit: 3 });
-    assert.match(buyer, /^No keyword match for "buyer"; \d pages by meaning only \(read one with cat\(path\)\):\n- .*\[meaning\]/);
+    assert.match(buyer, /^No keyword match for "buyer"; \d pages by meaning only \(read one with cat\(path\)\):\n(?:## [^\n]+\n)?- .*\[meaning\]/);
     // a filter that leaves no hit although the name exists: no false "No event named", the filters are named
     assert.match(await call("search", { query: "event: OnAfterPostSalesDoc", object_type: "table" }), /^No event named "OnAfterPostSalesDoc" matches the filters \(object_type=table\); without them: 2 hits\.$/);
   } finally {
@@ -430,6 +433,32 @@ test("D95 review: filters never read as an absence, the kind parameter counts, s
     assert.match(await call("search", { query: "field: Posting Date Xy bc30" }), /^No field named "Posting Date Xy"\. Nearest fields: Posting Date /);
   } finally {
     await client.close();
+  }
+});
+
+test("D107: brief finds a Learn article by meaning when its words differ from the question; off without a model", async () => {
+  const root = fixture();
+  const base = "https://learn.microsoft.com/dynamics365/business-central/", vat = "finance-work-with-vat";
+  writeJson(join(root, "data/manifest/docs/learn-smb-docs/vat.json"), { id: `docs/learn-smb-docs/${vat}.md`, pillar: "docs", source: "learn-smb-docs", tier: "official", title: "How to work with VAT on sales and purchases",
+    url: `${base}${vat}`, state: "fetched", stages: { fetched: { at: "2026-10-01T00:00:00.000Z", blob: "b" } }, attempts: 0, meta: { description: "Calculate and correct VAT amounts on documents.", ms_date: "2026-10-05", identifiers: [] } });
+  renderSearchIndex(join(root, "content"), join(root, "data"));
+  const modelDir = mkdtempSync(join(tmpdir(), "bcobs-model-"));
+  const t = toyModel({ vat: [0, 0, 1], tax: [0, 0, 1], purchase: [0, 0, 1], customer: [1, 0, 0] });
+  writeText(join(modelDir, "tokenizer.json"), t.tokenizer);
+  writeFileSync(join(modelDir, "model.safetensors"), t.bytes);
+  writeJson(join(modelDir, "config.json"), t.config);
+  const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: root, BC_OBSERVATORY_MODEL_DIR: modelDir });
+  try {
+    const b = await call("brief", { query: "purchase tax" });
+    assert.match(b, new RegExp(`- How to work with VAT on sales and purchases \\[official, ${base}${vat}\\] \\(found by meaning\\)`));
+  } finally {
+    await client.close();
+  }
+  const off = await connect({ BC_OBSERVATORY_LOCAL: root, BC_OBSERVATORY_EMBEDDINGS: "0" });
+  try {
+    assert.doesNotMatch(await off.call("brief", { query: "purchase tax" }), /found by meaning/);
+  } finally {
+    await off.client.close();
   }
 });
 
@@ -485,7 +514,7 @@ test("D95 phase B: get_object prints what a country layer adds, cat answers for 
     assert.match(await call("cat", { path: "objects/table/18#field-424242" }), /^\(No row for #field-424242 on this page\.\)/, "no such member anywhere: as before");
     // search: one hit, its layer named
     const hit = await call("search", { query: "field: Enterprise No.", country: "BE" });
-    assert.match(hit, /^1 results, keyword[^\n]*\n- Enterprise No\. \(field 11310 of Table 18 "Customer", BE layer, Text\[50\]\) path=objects\/table\/18#field-11310 \[keyword\]\n  Specifies the enterprise number of the customer\.$/m);
+    assert.match(hit, /^1 results, keyword[^\n]*\n(?:## [^\n]+\n)?- Enterprise No\. \(field 11310 of Table 18 "Customer", BE layer, Text\[50\]\) path=objects\/table\/18#field-11310 \[keyword\]\n  Specifies the enterprise number of the customer\.$/m);
     assert.match(await call("search", { query: "Domiciliation No." }), /Domiciliation No\. \(field 2000020 of Table 18 "Customer", BE layer/);
     assert.match(await call("search", { query: "event: OnBeforeValidateEnterpriseNo" }), /event of Table 18 "Customer", BE layer, integration, 0 subscribers/);
     assert.match(await call("search", { query: "field: Enterprise No.", country: "NL" }), /^No field named|^No pages match/, "the filter by country hides it elsewhere");

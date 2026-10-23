@@ -37,14 +37,15 @@
       "properties": {
         "feed": { "type": "string", "format": "uri" }, "rest": { "type": "string", "format": "uri" }, "scrape": { "type": "string", "format": "uri" },
         "api": { "type": "string", "format": "uri" }, "product_filter": { "type": "string" }, "user_agent": { "enum": ["default", "browser"] },
-        "extension": { "type": "string", "pattern": "^[A-Za-z0-9_-]+\\.[A-Za-z0-9_-]+$", "description": "D85: the marketplace item name, <publisher>.<extension>" }
+        "extension": { "type": "string", "pattern": "^[A-Za-z0-9_-]+\\.[A-Za-z0-9_-]+$", "description": "D85: the marketplace item name, <publisher>.<extension>" },
+        "updates": { "type": "array", "items": { "type": "string", "pattern": "^\\d+\\.\\d+$" }, "description": "D106: the updates of a release-wave index to read (support-updates), e.g. 28.6" }
       }
     },
     "source": {
       "type": "object", "required": ["id", "kind", "name", "url"], "additionalProperties": false,
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$" },
-        "kind": { "enum": ["blog", "youtube", "docs-git", "code-git", "guidelines-git", "roadmap-api", "discovery", "github-pr", "vsmarketplace"] },
+        "kind": { "enum": ["blog", "youtube", "docs-git", "code-git", "guidelines-git", "roadmap-api", "discovery", "github-pr", "vsmarketplace", "support-updates"] },
         "name": { "type": "string", "minLength": 2 },
         "url": { "type": "string", "format": "uri" },
         "tier": { "$ref": "#/$defs/tier" },
@@ -67,7 +68,7 @@
       "allOf": [
         { "if": { "properties": { "kind": { "const": "youtube" } } }, "then": { "required": ["channel_id"] } },
         { "if": { "properties": { "kind": { "enum": ["docs-git", "code-git", "guidelines-git", "github-pr"] } } }, "then": { "required": ["repo"] } },
-        { "if": { "properties": { "kind": { "enum": ["blog", "discovery", "roadmap-api", "vsmarketplace"] } } }, "then": { "required": ["fetch"] } },
+        { "if": { "properties": { "kind": { "enum": ["blog", "discovery", "roadmap-api", "vsmarketplace", "support-updates"] } } }, "then": { "required": ["fetch"] } },
         { "if": { "properties": { "kind": { "const": "vsmarketplace" } } }, "then": { "properties": { "fetch": { "required": ["api", "extension"] } } } }
       ]
     }

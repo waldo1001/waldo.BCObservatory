@@ -3,7 +3,7 @@
  * page titles and h1 nouns, the home cards, About's counts, the root llms.txt and every section llms.txt read it.
  * No imports, so the site uses it at build time too (like systems.ts).
  */
-export type SectionId = "topics" | "objects" | "apps" | "localizations" | "features" | "changes" | "releases"
+export type SectionId = "topics" | "objects" | "apps" | "localizations" | "features" | "changes" | "releases" | "hotfixes"
   | "videos" | "posts" | "digests" | "sources" | "mcp" | "about" | "instruments";
 
 export interface Section {
@@ -48,6 +48,8 @@ export const SECTIONS: readonly Section[] = [
     blurb: "Microsoft's first-party apps with their objects, Learn hubs, videos and posts." },
   { id: "releases", path: "releases/", name: "AL extension releases", noun: ["AL Language extension version", "AL Language extension versions"],
     blurb: "Microsoft's changelog of the AL Language extension, one page per version, with what was added to it later." },
+  { id: "hotfixes", path: "hotfixes/", name: "Hotfix lists", noun: ["update", "updates"],
+    blurb: "Microsoft's hotfix lists per Business Central update, each entry linked to the code changes that carry its ID." },
   { id: "instruments", path: "#instruments", name: "Instruments" },
 ];
 

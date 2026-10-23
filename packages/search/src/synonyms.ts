@@ -27,6 +27,8 @@ export const SYNONYM_PAIRS: [string, string][] = [
   ["pmt", "payment"], ["rcpt", "receipt"], ["shpt", "shipment"], ["curr", "currency"], ["exch", "exchange"], ["gen", "general"],
   ["bus", "business"], ["prepmt", "prepayment"], ["req", "requisition"], ["mgt", "management"], ["mgmt", "management"],
   ["hdr", "header"], ["job", "project"], ["emp", "employee"], ["res", "resource"], ["pstd", "posted"],
+  // D106: "environment copy cleanup" meets pages that write "clean up"
+  ["cleanup", "clean up"],
 ];
 
 /**

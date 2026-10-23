@@ -47,6 +47,8 @@ function isOfficial(s: SourceDef): boolean {
     if (s.kind === "roadmap-api" && OFFICIAL_HOSTS.has(new URL(s.fetch?.api ?? s.url).host)) return true;
     if (s.kind === "vsmarketplace" && OFFICIAL_HOSTS.has(new URL(s.fetch?.api ?? s.url).host) && OFFICIAL_HOSTS.has(new URL(s.url).host)
       && OFFICIAL_PUBLISHERS.has((s.fetch?.extension ?? "").split(".")[0])) return true;
+    // D106: Microsoft Support's update pages
+    if (s.kind === "support-updates" && new URL(s.url).host === "support.microsoft.com") return true;
   } catch { /* fall through */ }
   return false;
 }

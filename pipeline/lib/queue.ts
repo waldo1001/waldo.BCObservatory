@@ -18,9 +18,9 @@ export interface Plan {
   quota_use: Record<string, { selected: number; available: number; limit: number | null }>;
 }
 
-const PILLAR_ORDER: Pillar[] = ["video", "docs", "blog", "change", "guidelines", "code", "roadmap", "release"];
+const PILLAR_ORDER: Pillar[] = ["video", "docs", "blog", "change", "guidelines", "code", "roadmap", "release", "hotfix"];
 const PILLAR_QUOTA: Record<Pillar, string | null> = {
-  video: "video_extract", docs: "docs", blog: "posts", guidelines: "guidelines", code: "code_jobs", roadmap: null, change: "changes", release: null,
+  video: "video_extract", docs: "docs", blog: "posts", guidelines: "guidelines", code: "code_jobs", roadmap: null, change: "changes", release: null, hotfix: null,
 };
 
 /** Which quota an item's next unit of work consumes; null = always runs (deterministic and cheap). */
