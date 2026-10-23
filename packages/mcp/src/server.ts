@@ -331,6 +331,8 @@ export function groupLines(shown: SearchRecord[], line: (r: SearchRecord) => str
   return [...groups].filter(([, ls]) => ls.length).map(([g, ls]) => `## ${g}\n${ls.join("\n")}`).join("\n");
 }
 
+/** A country named in words: its Learn local functionality is then an answer, not noise. */
+const COUNTRY_WORD = /\b(belgi|netherland|dutch|german|france|french|spain|italy|austria|swiss|switzerland|denmark|norway|sweden|finland|iceland|czech|india|mexico|russia|australia|zealand|canada|united kingdom|uk)\w*/i;
 /** Words of a query that say something: lower-case, three letters or more, function words out, a plural folded. */
 const BRIEF_STOP = new Set(["the", "and", "for", "with", "from", "what", "which", "when", "how", "does", "are", "can", "this", "that", "into", "about", "business", "central", "lately", "changed", "change", "fix", "fixes"]);
 const wordsOf = (s: string) => [...new Set(s.toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length >= 3 && !BRIEF_STOP.has(w)).map((w) => (w.length > 4 && w.endsWith("s") ? w.slice(0, -1) : w)))];
@@ -339,7 +341,7 @@ export function learnByWords(query: string, limit = 3): PageRecord[] {
   const q = wordsOf(query);
   if (q.length < 2 || !index) return [];
   // a country's page waits unless the query names a country: "VAT ledgers in Russia" is no answer to a W1 question
-  const country = parseQuery(query, { countries: countriesOf(index) }).countries.length > 0 || /\b(belgi|netherland|dutch|german|france|french|spain|italy|austria|swiss|switzerland|denmark|norway|sweden|finland|iceland|czech|india|mexico|russia|australia|zealand|canada|united kingdom|uk)\w*/i.test(query);
+  const country = parseQuery(query, { countries: countriesOf(index) }).countries.length > 0 || COUNTRY_WORD.test(query);
   const need = Math.max(2, Math.ceil(q.length / 3));
   const scored: { r: PageRecord; n: number; s: number }[] = [];
   for (const rec of index.records) {
@@ -352,6 +354,53 @@ export function learnByWords(query: string, limit = 3): PageRecord[] {
   return scored.sort((a, b) => b.n - a.n || b.s - a.s || a.r.title.localeCompare(b.r.title)).slice(0, limit).map((x) => x.r);
 }
 
+/** D107: a Learn article is near a question by meaning at this cosine or more (potion-base-8M, measured 2026-10-23). */
+export const LEARN_MEANING_MIN = 0.45;
+/** Per query word the article's title, summary or identifiers hold: measured on the six D106 questions, it moves Fabric's setup page from 3rd to 2nd and "Set up value-added tax" to 2nd or 3rd. */
+export const LEARN_WORD_BONUS = 0.05;
+/** Country code -> its folder under Learn's LocalFunctionality/. */
+const LEARN_COUNTRY: Record<string, string> = { at: "Austria", au: "Australia", be: "Belgium", ca: "Canada", ch: "Switzerland", cz: "Czech", de: "Germany", dk: "Denmark", es: "Spain", fi: "Finland", fr: "France", gb: "UnitedKingdom", in: "India", is: "Iceland", it: "Italy", mx: "Mexico", nl: "Netherlands", no: "Norway", nz: "NewZealand", ru: "Russia", se: "Sweden", us: "UnitedStates" };
+let learnVecs: { at: number; rows: number[]; data: Float32Array } | null = null;
+/** One vector per Learn row (title, summary, documented identifiers), rebuilt when the index reloads. */
+function learnVectors(m: StaticModel): { rows: number[]; data: Float32Array } {
+  if (learnVecs && learnVecs.at === loadedAt) return learnVecs;
+  const rows: number[] = [];
+  index!.records.forEach((r, i) => { if (r.kind === "page" && r.type === "learn" && r.page) rows.push(i); });
+  const data = new Float32Array(rows.length * m.dims);
+  rows.forEach((i, k) => { const p = index!.records[i].page!; data.set(embed(m, [p.title, p.summary, ...(p.tags ?? [])].filter(Boolean).join(". ")), k * m.dims); });
+  learnVecs = { at: loadedAt, rows, data };
+  return learnVecs;
+}
+/**
+ * Learn articles nearest a query by meaning (cosine at LEARN_MEANING_MIN or more), then nudged by the query's words
+ * they hold. Generated report pages and other countries' local pages go down; the country the query names goes up.
+ * None without a model.
+ */
+export async function learnByMeaning(query: string, limit = 5): Promise<PageRecord[]> {
+  await loadIndex();
+  const m = await loadModel();
+  if (!m || !index) return [];
+  const v = embed(m, query);
+  if (!v.some((x) => x !== 0)) return [];
+  const { rows, data } = learnVectors(m);
+  const named = parseQuery(query, { countries: countriesOf(index) }).countries.map((c) => LEARN_COUNTRY[c]).filter(Boolean);
+  const anyCountry = named.length > 0 || COUNTRY_WORD.test(query);
+  const q = wordsOf(query);
+  const scored: { r: PageRecord; s: number }[] = [];
+  rows.forEach((i, k) => {
+    const cos = dot(v, data, k * m.dims);
+    if (cos < LEARN_MEANING_MIN) return;
+    const r = index!.records[i].page!;
+    const have = new Set(wordsOf(`${r.title} ${r.summary ?? ""} ${(r.tags ?? []).join(" ")}`));
+    let s = cos + LEARN_WORD_BONUS * q.filter((w) => have.has(w)).length;
+    if (/\/reports\/report-\d+/.test(r.path) && !/\breports?\b/i.test(query)) s -= 0.2;
+    const local = /\/LocalFunctionality\/([^/]+)\//i.exec(r.path)?.[1];
+    if (local) s += named.some((n) => n.toLowerCase() === local.toLowerCase()) ? 0.1 : anyCountry && !named.length ? 0 : -0.3;
+    scored.push({ r, s });
+  });
+  return scored.sort((a, b) => b.s - a.s || a.r.title.localeCompare(b.r.title)).slice(0, limit).map((x) => x.r);
+}
+
 export async function toolBrief(a: { query?: string; path?: string }): Promise<string> {
   await loadIndex();
   const byPath = new Map(pages.map((p) => [p.path, p]));
@@ -361,6 +410,7 @@ export async function toolBrief(a: { query?: string; path?: string }): Promise<s
     page: async (path) => { try { return await pageMarkdown(path); } catch { return null; } },
     learnFacts: loadLearnFacts,
     learnByWords: (query) => learnByWords(query),
+    learnByMeaning: (query) => learnByMeaning(query),
   });
 }
 

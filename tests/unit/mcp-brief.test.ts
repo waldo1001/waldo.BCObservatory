@@ -57,3 +57,11 @@ test("brief: a path starts from that page; nothing found says so; links read as 
 test("brief: a linked title with brackets inside reads as a path", () => {
   assert.equal(plainLinks("- 2026-10-08 [#12195 [Fabric] Exclude tables](../../changes/bcapps/12195.md) (main)"), "- 2026-10-08 #12195 [Fabric] Exclude tables (changes/bcapps/12195) (main)");
 });
+
+test("brief: Learn articles found by meaning join the Learn layer, labelled so, after the keyword and word hits (D107)", async () => {
+  const VAT = "https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat";
+  const d = { ...deps([pages["changes/bcapps/12152"]]), learnByMeaning: async () => [learnRec(VAT, "How to work with VAT on sales and purchases")] };
+  const out = await brief({ query: "purchase tax on invoice lines" }, d);
+  assert.match(out, new RegExp(`- How to work with VAT on sales and purchases \\[official, ${VAT.replace(/[.?]/g, "\\$&")}\\] \\(found by meaning\\)`));
+  assert.doesNotMatch(await brief({ query: "purchase tax on invoice lines" }, deps([pages["changes/bcapps/12152"]])), /found by meaning/, "no model, no meaning line");
+});

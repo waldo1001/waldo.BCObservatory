@@ -4,13 +4,15 @@
  * tests/fixtures/never-less.json.
  *
  *   npm run check:never-less
+ *   BC_OBSERVATORY_MODEL_DIR=~/.cache/bc-observatory/models/potion-base-8M@<rev> npm run check:never-less   (with meaning, D107)
  */
 import { goldenRoot } from "../tests/helpers/search-golden.js";
 import { neverLessProblems, neverLessRows } from "../tests/helpers/never-less.js";
 
 const { root } = await goldenRoot();
 process.env.BC_OBSERVATORY_LOCAL = root;
-process.env.BC_OBSERVATORY_EMBEDDINGS = "0";
+// D107: the meaning step needs the model; give one with BC_OBSERVATORY_MODEL_DIR (else keyword and words only)
+if (!process.env.BC_OBSERVATORY_MODEL_DIR) process.env.BC_OBSERVATORY_EMBEDDINGS = "0";
 const { toolBrief } = await import("../packages/mcp/src/server.js");
 let held = 0;
 for (const row of neverLessRows()) {
