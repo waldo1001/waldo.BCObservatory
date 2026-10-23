@@ -1,0 +1,52 @@
+{
+  "$comment": "D106 never-less test (docs/specs/layered-answers.md 4.6). Per acceptance question: the Business Central Learn URLs the Learn MCP's microsoft_docs_search returned for it (anchors dropped; NAV, Power Platform and Finance and Operations pages left out), and the pages and labels the observatory's brief must show. pending: data the nightly writes (cross-links, key facts, hotfix pages, re-rendered pages) is not committed yet; npm run check:never-less says per row what holds, and a row is un-pended when it does.",
+  "captured": { "by": "microsoft-learn-mcp microsoft_docs_search", "at": "2026-10-23" },
+  "rows": [
+    { "id": "env-copy", "query": "environment copy cleanup",
+      "learn_urls": [
+        "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-copy",
+        "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-types"],
+      "must": ["objects/codeunit/1886", "objects/codeunit/8912", "changes/bcapps/10207", "changes/bcapps/12152", "changes/bcapps/13005", "posts/gerardorenteria-blog/15213"],
+      "labels": {}, "must_not": [],
+      "pending": "Codeunit 8912 and #12152 come through the hub's 'In the observatory' line and the cross-links of the first nightly; environment-types needs its key facts or a link" },
+    { "id": "fabric", "query": "Fabric mirroring setup permissions status",
+      "learn_urls": [
+        "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring",
+        "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
+        "https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export"],
+      "must": ["videos/kOCiyVql0go", "objects/permissionset/48530", "objects/permissionset/48531", "objects/permissionset/48532", "posts/waldo-be/318707"],
+      "labels": { "posts/waldo-be/318707": "possibly related" }, "must_not": [], "status_conflict": true,
+      "pending": "the video's links and the Fabric key facts (status) come with the first nightly" },
+    { "id": "vat-purchase", "query": "VAT Prod. Posting Group purchase lines Prices Including VAT",
+      "learn_urls": [
+        "https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat",
+        "https://learn.microsoft.com/dynamics365/business-central/finance-setup-vat",
+        "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-vat-rate-change-tool"],
+      "must": ["changes/bcapps/11208", "changes/bcapps/11436", "posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-prices-incl-vat-prod-posting-group--3b717ab825", "hotfixes/28.6#648146"],
+      "labels": { "hotfixes/28.6#648146": "possibly related" }, "must_not": [],
+      "pending": "the hotfix pages and the post's cross-links come with the first nightly" },
+    { "id": "vat-sales", "query": "VAT Prod. Posting Group sales lines 28.4",
+      "learn_urls": [
+        "https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat",
+        "https://learn.microsoft.com/dynamics365/business-central/finance-setup-vat",
+        "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-vat-rate-change-tool"],
+      "must": ["changes/bcapps/12982", "changes/bcapps/13085", "hotfixes/28.5#645085"],
+      "labels": { "hotfixes/28.5#645085": "relation unknown" }, "must_not": [],
+      "pending": "the hotfix pages come with the first nightly" },
+    { "id": "sales-post-events", "query": "Sales-Post events",
+      "learn_urls": [
+        "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-event-types",
+        "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/types-of-events-for-extensibility",
+        "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al"],
+      "must": ["objects/codeunit/80"],
+      "labels": {}, "must_not": ["posts/waldo-be/317951"],
+      "pending": "Codeunit 80's Learn names (types-of-events) come with the first nightly's object pages" },
+    { "id": "be-purchase-ledger", "query": "BE Purchase Ledger",
+      "learn_urls": [
+        "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-use-deferrals",
+        "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality"],
+      "must": ["objects/report/11301-be", "changes/bcapps/12607", "changes/bcapps/11149", "changes/bcapps/11161"],
+      "labels": {}, "must_not": [],
+      "pending": "the report's recent changes are on its page; the local-functionality hub page needs a link or the Learn search" }
+  ]
+}
