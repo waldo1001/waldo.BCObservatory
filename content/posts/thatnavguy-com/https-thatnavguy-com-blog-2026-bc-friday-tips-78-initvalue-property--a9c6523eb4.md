@@ -17,7 +17,7 @@ review:
   at: "2026-10-07T23:47:50.182Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -70,6 +70,12 @@ code_objects_mentioned: []
 systems:
   - development
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: You can't set InitValue on a standard field through a table extension.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -99,6 +105,10 @@ preview:
 
 - "It only kicks in when a new record is created, or via Init(), Clear(), or ClearAll(). It won't touch existing records." (Clarifies when InitValue applies and that it does not modify existing data)
 - "You can't set InitValue on a standard field through a table extension." (Important limitation when extending standard tables)
+
+## Heads up
+
+- gotcha: "You can't set InitValue on a standard field through a table extension."
 
 ## Context
 

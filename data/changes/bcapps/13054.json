@@ -1,0 +1,1181 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13054,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13054",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-23T07:48:40Z",
+  "merge_commit_sha": "4527a2a4a1d84936ee555a8ac36e11e2bafdd79d",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[FR] Delocalize delayed VAT and SEPA payment-slip integration",
+  "body_hash": "83e98651accb5e8bb30c35c9731685dee9dacf6bd4fa91c038ae93f1af780e65",
+  "fixes_issues": [],
+  "work_items": [
+    653673,
+    653675,
+    653676,
+    653677,
+    653678
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/FR/Onprem Permissions FR/app/Permissions/frpms.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/Permissions/Local.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/Permissions/LocalRead.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/Permissions/PaymentManagementFRFull.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/Permissions/PaymentManagementFRRM.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/Permissions/PaymentManagementFRRead.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/FeaturePaymentMgtFR.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/InstallPaymentManagementFR.Codeunit.al",
+      "status": "added",
+      "additions": 46,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/PaymentDataMigrationFR.Codeunit.al",
+      "status": "modified",
+      "additions": 134,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/PaymentManagementFR.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/PaymentMgtSubscribersFR.Codeunit.al",
+      "status": "modified",
+      "additions": 220,
+      "deletions": 19,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/UpgTagPaymentManagementFR.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/UpgradePaymentManagementFR.Codeunit.al",
+      "status": "modified",
+      "additions": 56,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/PageExtensions/CustomerCard.PageExt.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/PageExtensions/VendorCard.PageExt.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Pages/PaymentSlipFR.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Reports/SuggestCustPayments.Report.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Reports/SuggestVendPayments.Report.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/PayableVendorLedgEntryFR.TableExt.al",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/PaymentDirectDebitCollFR.TableExt.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/PaymentGenJournalLine.TableExt.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/PaymentPostedGenJnlLine.TableExt.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Tables/UnrealCVLedgBufferFR.Table.al",
+      "status": "added",
+      "additions": 82,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/test/src/NewObjectTests-Internal/CloudMigCountryTables.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/test/src/RegularTests/ERMPaymentManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/test/src/RegularTests/ERMPaymentManagementII.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/test/src/RegularTests/ERMSEPA.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/test/src/RegularTests/SEPA02DDFunctionalTest.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/test/src/RegularTests/SEPA03CTUnitTest.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/test/src/RegularTests/SEPA08DDFunctionalTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/test/src/RegularTests/UTREPPaymentManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/test/src/RegularTests/UTREPPaymentManagementII.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/test/src/RegularTests/UTTABPaymentManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 1508,
+      "deletions": 13,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Bank/DirectDebit/SEPADDExportFile.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Bank/DirectDebit/SEPADDCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Bank/DirectDebit/SEPADDExportFile.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/Tests/ERM/ERMTestSEPADD08.Codeunit.al",
+      "status": "modified",
+      "additions": 83,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Bank/DirectDebit/SEPADDExportFile.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Bank/DirectDebit/DirectDebitCollection.Table.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Bank/DirectDebit/DirectDebitCollectionEntry.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Bank/DirectDebit/SEPADDCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Bank/DirectDebit/SEPADDExportFile.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Bank/DirectDebit/SEPADDPrepareSource.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FeatureKeyManagement.Codeunit.al",
+      "status": "added",
+      "additions": 150,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 133,
+      "deletions": 29,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Local/BankMgt/Payment/PaymentManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Local/FinancialMgt/ReceivablesPayables/UnrealCVLedgEntryBuffer.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Permissions/local.permissionset.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Permissions/localread.permissionset.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Payables/PayableVendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Sales/Customer/CustomerCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Utilities/DataClassEvalDataCountry.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Local/SEPA02DDFunctionalTest.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Local/SEPA08DDFunctionalTest.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/Tests/NewObjectTests-Internal/CloudMigCountryTables.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Bank/DirectDebit/SEPADDCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Bank/DirectDebit/SEPADDExportFile.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM/ERMTestSEPADD08.Codeunit.al",
+      "status": "modified",
+      "additions": 83,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 21,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 27,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Bank/DirectDebit/SEPADDCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Bank/DirectDebit/SEPADDExportFile.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMTestSEPADD08.Codeunit.al",
+      "status": "modified",
+      "additions": 83,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 76,
+    "additions": 3453,
+    "deletions": 275,
+    "al": 60
+  },
+  "join": {
+    "major": "30",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "objects": [
+      {
+        "path": "src/Apps/FR/Onprem Permissions FR/app/Permissions/frpms.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/10800",
+        "type": "permissionset",
+        "id": 10800,
+        "name": "FR-PMS",
+        "app": "Onprem Permissions FR",
+        "cc": "fr",
+        "page": "permissionset/10800-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/Permissions/Local.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/10835",
+        "type": "permissionsetextension",
+        "id": 10835,
+        "name": "LOCAL",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "permissionsetextension/10835-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/Permissions/LocalRead.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/10836",
+        "type": "permissionsetextension",
+        "id": 10836,
+        "name": "LOCAL READ",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "permissionsetextension/10836-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/Permissions/PaymentManagementFRFull.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/10837",
+        "type": "permissionset",
+        "id": 10837,
+        "name": "Payment Management FR - Full",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "permissionset/10837-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/Permissions/PaymentManagementFRRM.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/10840",
+        "type": "permissionset",
+        "id": 10840,
+        "name": "Payment Management FR - RM",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "permissionset/10840-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/Permissions/PaymentManagementFRRead.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/10839",
+        "type": "permissionset",
+        "id": 10839,
+        "name": "Payment Management FR - Read",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "permissionset/10839-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/FeaturePaymentMgtFR.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10831",
+        "type": "codeunit",
+        "id": 10831,
+        "name": "Feature - PaymentMgt FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "codeunit/10831-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/InstallPaymentManagementFR.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/10845",
+        "type": "codeunit",
+        "id": 10845,
+        "name": "Install Payment Management FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "codeunit/10845-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/PaymentDataMigrationFR.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10844",
+        "type": "codeunit",
+        "id": 10844,
+        "name": "Payment Data Migration FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "codeunit/10844-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/PaymentManagementFR.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10837",
+        "type": "codeunit",
+        "id": 10837,
+        "name": "Payment Management FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "codeunit/10837-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/PaymentMgtSubscribersFR.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10838",
+        "type": "codeunit",
+        "id": 10838,
+        "name": "PaymentMgt Subscribers FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "codeunit/10838-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/UpgTagPaymentManagementFR.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10841",
+        "type": "codeunit",
+        "id": 10841,
+        "name": "Upg. Tag Payment Management FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "codeunit/10841-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/UpgradePaymentManagementFR.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10840",
+        "type": "codeunit",
+        "id": 10840,
+        "name": "Upgrade Payment Management FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "codeunit/10840-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/PageExtensions/CustomerCard.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10838",
+        "type": "pageextension",
+        "id": 10838,
+        "name": "Customer Card",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "pageextension/10838-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/PageExtensions/VendorCard.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10842",
+        "type": "pageextension",
+        "id": 10842,
+        "name": "Vendor Card",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "pageextension/10842-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Pages/PaymentSlipFR.Page.al",
+        "status": "modified",
+        "key": "page/10843",
+        "type": "page",
+        "id": 10843,
+        "name": "Payment Slip FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "page/10843-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Reports/SuggestCustPayments.Report.al",
+        "status": "modified",
+        "key": "report/10849",
+        "type": "report",
+        "id": 10849,
+        "name": "Suggest Cust. Payments",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "report/10849-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Reports/SuggestVendPayments.Report.al",
+        "status": "modified",
+        "key": "report/10850",
+        "type": "report",
+        "id": 10850,
+        "name": "Suggest Vend. Payments",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "report/10850-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/PayableVendorLedgEntryFR.TableExt.al",
+        "status": "added",
+        "key": "tableextension/10840",
+        "type": "tableextension",
+        "id": 10840,
+        "name": "Payable Vendor Ledg. Entry FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "tableextension/10840-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/PaymentDirectDebitCollFR.TableExt.al",
+        "status": "added",
+        "key": "tableextension/10839",
+        "type": "tableextension",
+        "id": 10839,
+        "name": "Payment Direct Debit Coll. FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "tableextension/10839-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/PaymentGenJournalLine.TableExt.al",
+        "status": "added",
+        "key": "tableextension/10837",
+        "type": "tableextension",
+        "id": 10837,
+        "name": "Payment Gen. Journal Line",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "tableextension/10837-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/PaymentPostedGenJnlLine.TableExt.al",
+        "status": "added",
+        "key": "tableextension/10838",
+        "type": "tableextension",
+        "id": 10838,
+        "name": "Payment Posted Gen. Jnl. Line",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "tableextension/10838-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Tables/UnrealCVLedgBufferFR.Table.al",
+        "status": "added",
+        "key": "table/10842",
+        "type": "table",
+        "id": 10842,
+        "name": "Unreal. CV Ledg. Buffer FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "table/10842-fr"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Bank/DirectDebit/SEPADDCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1233",
+        "type": "codeunit",
+        "id": 1233,
+        "name": "SEPA DD-Check Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/1233"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Bank/DirectDebit/DirectDebitCollection.Table.al",
+        "status": "modified",
+        "key": "table/1207",
+        "type": "table",
+        "id": 1207,
+        "name": "Direct Debit Collection",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/1207"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Bank/DirectDebit/SEPADDCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1233",
+        "type": "codeunit",
+        "id": 1233,
+        "name": "SEPA DD-Check Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/1233"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Bank/DirectDebit/SEPADDPrepareSource.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1232",
+        "type": "codeunit",
+        "id": 1232,
+        "name": "SEPA DD-Prepare Source",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/1232"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FeatureKeyManagement.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/265",
+        "type": "codeunit",
+        "id": 265,
+        "name": "Feature Key Management",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/265"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+        "status": "modified",
+        "key": "table/254",
+        "type": "table",
+        "id": 254,
+        "name": "VAT Entry",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/254"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Local/BankMgt/Payment/PaymentManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10860",
+        "type": "codeunit",
+        "id": 10860,
+        "name": "Payment Management",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/10860-fr"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Local/FinancialMgt/ReceivablesPayables/UnrealCVLedgEntryBuffer.Table.al",
+        "status": "modified",
+        "key": "table/10871",
+        "type": "table",
+        "id": 10871,
+        "name": "Unreal. CV Ledg. Entry Buffer",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/10871-fr"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Permissions/local.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/1001",
+        "type": "permissionset",
+        "id": 1001,
+        "name": "LOCAL",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "permissionset/1001"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Permissions/localread.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/1002",
+        "type": "permissionset",
+        "id": 1002,
+        "name": "LOCAL READ",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "permissionset/1002"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Payables/PayableVendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/317",
+        "type": "table",
+        "id": 317,
+        "name": "Payable Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/317"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Bank/DirectDebit/SEPADDCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1233",
+        "type": "codeunit",
+        "id": 1233,
+        "name": "SEPA DD-Check Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1233"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Bank/DirectDebit/SEPADDExportFile.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1230",
+        "type": "codeunit",
+        "id": 1230,
+        "name": "SEPA DD-Export File",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1230"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/12"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/BE/BaseApp/Bank/DirectDebit/SEPADDExportFile.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Bank/DirectDebit/SEPADDExportFile.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Bank/DirectDebit/SEPADDExportFile.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Bank/DirectDebit/DirectDebitCollectionEntry.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Bank/DirectDebit/SEPADDExportFile.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Sales/Customer/CustomerCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Utilities/DataClassEvalDataCountry.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Bank/DirectDebit/SEPADDCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Bank/DirectDebit/SEPADDExportFile.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance",
+    "administration",
+    "development",
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application",
+    "Onprem Permissions FR",
+    "PaymentManagementFR"
+  ]
+}

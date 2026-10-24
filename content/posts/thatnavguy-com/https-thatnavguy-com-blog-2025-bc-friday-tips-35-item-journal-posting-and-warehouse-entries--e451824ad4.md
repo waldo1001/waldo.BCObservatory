@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T02:00:42.586Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -92,6 +92,23 @@ systems:
   - warehouse
   - inventory
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: Posting with Codeunit 22 doesn't create warehouse entries. It won't even throw an error.
+    objects:
+      - type: codeunit
+        name: Item Jnl.-Post Line
+    events: []
+    versions: []
+  - kind: warning
+    quote: Always use Codeunit 23 "Item Jnl.-Post Batch" when warehouse entries are involved.
+    objects:
+      - type: codeunit
+        name: Item Jnl.-Post Line
+      - type: codeunit
+        name: Item Jnl.-Post Batch
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -136,6 +153,11 @@ No source states these links: they share an object, a model read them, or a pers
 - [Design details - Cost adjustment](https://learn.microsoft.com/dynamics365/business-central/design-details-cost-adjustment) — possibly related: names Codeunit 22 "Item Jnl.-Post Line"
 - [Design details - Item tracking posting structure](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure) — possibly related: names Codeunit 22 "Item Jnl.-Post Line"
 - [New Application Ideas of Dynamics 365 Business Central (2025 NOV)](../../posts/gerardorenteria-blog/13043.md) — possibly related: both name Codeunit 22 "Item Jnl.-Post Line"
+
+## Heads up
+
+- gotcha: "Posting with Codeunit 22 doesn't create warehouse entries. It won't even throw an error." (about codeunit Item Jnl.-Post Line)
+- warning: "Always use Codeunit 23 "Item Jnl.-Post Batch" when warehouse entries are involved." (about codeunit Item Jnl.-Post Line, codeunit Item Jnl.-Post Batch)
 
 ## Context
 

@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T02:01:14.122Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -63,6 +63,12 @@ code_objects_mentioned: []
 systems:
   - development
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: TestField offers a simple way to validate fields, but its usage should be reserved for situations where the context is clear to the user.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -92,6 +98,10 @@ preview:
 ## Quotes
 
 - "A poorly written error message does more than confuse - it damages trust." (Shows the broader business impact of error message quality on user trust and organizational efficiency)
+
+## Heads up
+
+- warning: "TestField offers a simple way to validate fields, but its usage should be reserved for situations where the context is clear to the user."
 
 ## Context
 

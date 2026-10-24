@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:47:50.247Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -78,6 +78,17 @@ versions_mentioned:
   - v2.0.1
   - v2.1.0
   - v2.1.1
+cautions:
+  - kind: gotcha
+    quote: A semicolon inside a string literal like 'Open; pending review' would truncate the property at the wrong point.
+    objects: []
+    events: []
+    versions: []
+  - kind: gotcha
+    quote: The regex parser had been mishandling CalcFormula filter conditions across the Base App the entire time.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -108,6 +119,11 @@ preview:
 
 - "v2 can run against real dependency code, which means it can do integration testing, not just unit testing against a mock." (This is the core architectural breakthrough that makes v2 practical for real-world extensions where mocking is insufficient)
 - "If your test exercises something out of the runner's scope, the test fails. It cannot quietly pass." (Fail-loud behavior prevents false confidence from tests that pass for the wrong reasons, which is a critical reliability improvement)
+
+## Heads up
+
+- gotcha: "A semicolon inside a string literal like 'Open; pending review' would truncate the property at the wrong point."
+- gotcha: "The regex parser had been mishandling CalcFormula filter conditions across the Base App the entire time."
 
 ## Context
 

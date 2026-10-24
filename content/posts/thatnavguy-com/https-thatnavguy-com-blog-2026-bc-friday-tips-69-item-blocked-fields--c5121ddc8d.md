@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:55:36.135Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -128,6 +128,21 @@ systems:
   - sales
   - purchasing
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: If your code only checks the Blocked field, your logic can break.
+    objects:
+      - type: table
+        name: Item
+    events: []
+    versions: []
+  - kind: warning
+    quote: You may allow actions that should be restricted, such as sales on items that are blocked for sales.
+    objects:
+      - type: table
+        name: Item
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -180,6 +195,11 @@ No source states these links: they share an object, a model read them, or a pers
 - [Use FlowFields directly inside your Spreadsheet inside Business Central (Advanced Spreadsheets)](../../videos/8D8IFkqeTLU.md) — possibly related: both name Table 27 "Item"
 - [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../../videos/YTA8c2XyTX4.md) — possibly related: both name Table 27 "Item"
 - [What's New: Shopify Connector (2024 release wave 2)](../../videos/p-pwG6f5srY.md) — possibly related: both name Table 27 "Item"
+
+## Heads up
+
+- gotcha: "If your code only checks the Blocked field, your logic can break." (about table Item)
+- warning: "You may allow actions that should be restricted, such as sales on items that are blocked for sales." (about table Item)
 
 ## Context
 

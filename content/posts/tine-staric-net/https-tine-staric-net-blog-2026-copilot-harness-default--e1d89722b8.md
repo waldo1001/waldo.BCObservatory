@@ -19,7 +19,7 @@ review:
   at: "2026-10-17T01:11:53.331Z"
   flags: []
 generated:
-  at: "2026-10-17T00:20:42.327Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -66,6 +66,22 @@ systems:
   - platform
 versions_mentioned:
   - VS Code 1.142
+cautions:
+  - kind: gotcha
+    quote: Prompt files become skills, and lose some of their powers. The agent, model and tools headers get dropped.
+    objects: []
+    events: []
+    versions: []
+  - kind: gotcha
+    quote: Migrating MCP servers installed from the registry stops their auto-updates.
+    objects: []
+    events: []
+    versions: []
+  - kind: warning
+    quote: If you had a prompt file that was supposed to be triggered automatically, that part is gone.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -87,6 +103,12 @@ preview:
 ## Quotes
 
 - "The agent experience shared consistently across GitHub Copilot products." (This quote explains the core benefit of the Copilot harness: unified behavior across multiple tools.)
+
+## Heads up
+
+- gotcha: "Prompt files become skills, and lose some of their powers. The agent, model and tools headers get dropped."
+- gotcha: "Migrating MCP servers installed from the registry stops their auto-updates."
+- warning: "If you had a prompt file that was supposed to be triggered automatically, that part is gone."
 
 ## Context
 

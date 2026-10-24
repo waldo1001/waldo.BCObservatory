@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:56:44.042Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -74,6 +74,22 @@ systems:
   - development
   - platform
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: Claude Code stores its authentication state in files under ~/.claude/ and in ~/.claude.json at the home root.
+    objects: []
+    events: []
+    versions: []
+  - kind: gotcha
+    quote: Because ~/.claude.json was outside the mount scope, Claude Code saw valid, unexpired credentials but still triggered the full onboarding wizard.
+    objects: []
+    events: []
+    versions: []
+  - kind: warning
+    quote: With bypass permissions enabled, Claude Code can run git push, create PRs, interact with the GitHub API — anything.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -104,6 +120,12 @@ preview:
 
 - "That level of autonomous handling still surprises me a bit. You don't get that with Copilot." (Demonstrates Claude Code's autonomous problem-solving capabilities beyond what traditional AI assistants offer, particularly in fixing deployment issues independently)
 - "A dev container is the right sandbox. If Claude Code decides to do something destructive, it destroys the container - not your machine." (Explains the security model that makes running Claude Code with bypassed permissions safe through containerization isolation)
+
+## Heads up
+
+- gotcha: "Claude Code stores its authentication state in files under ~/.claude/ and in ~/.claude.json at the home root."
+- gotcha: "Because ~/.claude.json was outside the mount scope, Claude Code saw valid, unexpired credentials but still triggered the full onboarding wizard."
+- warning: "With bypass permissions enabled, Claude Code can run git push, create PRs, interact with the GitHub API — anything."
 
 ## Context
 

@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T00:22:27.986Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7684ec7363ae609a692820b3b775b9930f65ea65b3e1b576ad9cfdd21147ef90
@@ -129,7 +129,7 @@ Items per quarter, oldest first:
 
 ## Most recent
 
-- ["Dev X used 2k tokens with Opus" is not telemetry](../posts/tine-staric-net/https-tine-staric-net-blog-2026-harness-telemetry--954ee179b7.md) (2026-10-18)
+- ["Dev X used 200k tokens with Opus" is not telemetry](../posts/tine-staric-net/https-tine-staric-net-blog-2026-harness-telemetry--954ee179b7.md) (2026-10-18)
 - [The Copilot harness is now VS Code's default](../posts/tine-staric-net/https-tine-staric-net-blog-2026-copilot-harness-default--e1d89722b8.md) (2026-10-16)
 - [Claude Code: Tiny Tips](../posts/tine-staric-net/https-tine-staric-net-blog-2026-claude-code-tiny-tips--0373e0f774.md) (2026-09-07)
 - [Context is a voting chamber](../posts/tine-staric-net/https-tine-staric-net-blog-2026-outvoted--d4665c695f.md) (2026-08-31)

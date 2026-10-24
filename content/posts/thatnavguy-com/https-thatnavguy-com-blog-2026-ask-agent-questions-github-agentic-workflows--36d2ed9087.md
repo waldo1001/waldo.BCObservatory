@@ -18,7 +18,7 @@ review:
   at: "2026-10-16T01:16:52.043Z"
   flags: []
 generated:
-  at: "2026-10-16T00:19:25.651Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -53,6 +53,17 @@ code_objects_mentioned: []
 systems:
   - development
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: The agent gets read access, and a controlled output step can publish one answer comment per run.
+    objects: []
+    events: []
+    versions: []
+  - kind: warning
+    quote: Check the cited code before making a business decision or changing the solution. Don't put passwords or sensitive customer details in your questions.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -78,6 +89,11 @@ preview:
 - Non-developers with repository read access can ask questions via /ask comments in GitHub issues without needing Visual Studio Code or local setup
 - The agent cites relevant file paths and line numbers but only has access to repository code, not live environments or customer data
 - Follow-up questions are supported by adding additional /ask comments with specific clarifications
+
+## Heads up
+
+- warning: "The agent gets read access, and a controlled output step can publish one answer comment per run."
+- warning: "Check the cited code before making a business decision or changing the solution. Don't put passwords or sensitive customer details in your questions."
 
 ## Context
 

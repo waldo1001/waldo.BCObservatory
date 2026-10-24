@@ -1,0 +1,101 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2293,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2293",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-23T14:39:57Z",
+  "merge_commit_sha": "fb27afbcab20378ab0ac0978e7efe4131bdc0962",
+  "author": "ChrisBlankDe",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add support for protectedSettings to override lower priority settings",
+  "body_hash": "35bbdf209a7478910d35d29ac5dbe6e540262a5f6a8d4bea8b4ec25a98512cd3",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/.Modules/ReadSettings.psm1",
+      "status": "modified",
+      "additions": 205,
+      "deletions": 33,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/.Modules/settings.schema.json",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/ReadSettings/ReadSettings.ps1",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Scenarios/settings.md",
+      "status": "modified",
+      "additions": 107,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "Tests/ReadSettings.Action.Test.ps1",
+      "status": "modified",
+      "additions": 210,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReadSettings.Test.ps1",
+      "status": "modified",
+      "additions": 985,
+      "deletions": 6,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 1578,
+    "deletions": 53,
+    "al": 3
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/.Modules/ReadSettings.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/.Modules/settings.schema.json",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/ReadSettings/ReadSettings.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

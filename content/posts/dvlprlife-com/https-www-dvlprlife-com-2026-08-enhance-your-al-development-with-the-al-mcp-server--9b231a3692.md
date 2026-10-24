@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:47:21.935Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -73,6 +73,12 @@ systems:
   - development
   - platform
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: If the altool command is not found when you launch the server, check your PATH first.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -103,6 +109,10 @@ preview:
 
 - "Once an agent can call these tools, it can verify its own work. It can compile, read the errors, fix them and try again." (This describes the core value: AI agents become autonomous developers that can self-correct instead of requiring human review between suggestions and compilation.)
 - "You stop being the middleman between Copilot and the compiler." (Summarizes the transformational benefit: developers are freed from manual compilation cycles and can focus on higher-level design decisions.)
+
+## Heads up
+
+- warning: "If the altool command is not found when you launch the server, check your PATH first."
 
 ## Context
 

@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:54:12.946Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -64,6 +64,12 @@ systems:
   - development
 versions_mentioned:
   - 0.1.6
+cautions:
+  - kind: gotcha
+    quote: "A handler no test uses is dead test code, and it accumulates: you delete the test, you leave the handler."
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -93,6 +99,10 @@ preview:
 ## Quotes
 
 - "A handler no test uses is dead test code, and it accumulates: you delete the test, you leave the handler." (Explains the core problem the handler lens solves - orphaned handler functions that persist after test deletion and clutter codebases)
+
+## Heads up
+
+- gotcha: "A handler no test uses is dead test code, and it accumulates: you delete the test, you leave the handler."
 
 ## Context
 

@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:59:23.060Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -65,6 +65,17 @@ systems:
   - administration
   - platform
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: large packages can slow down performance and even block other users while they're being processed
+    objects: []
+    events: []
+    versions: []
+  - kind: gotcha
+    quote: the record check applies to the whole package, even if you only want to apply one table
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -99,6 +110,11 @@ preview:
 As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - [codeunit 8611 "Config. Package Management"](../../objects/codeunit/8611.md)
+
+## Heads up
+
+- warning: "large packages can slow down performance and even block other users while they're being processed"
+- gotcha: "the record check applies to the whole package, even if you only want to apply one table"
 
 ## Context
 

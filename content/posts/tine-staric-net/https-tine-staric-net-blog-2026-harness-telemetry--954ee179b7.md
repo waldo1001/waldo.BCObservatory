@@ -1,7 +1,7 @@
 ---
 id: post/tine-staric-net/https-tine-staric-net-blog-2026-harness-telemetry--954ee179b7
 type: post
-title: '"Dev X used 2k tokens with Opus" is not telemetry'
+title: '"Dev X used 200k tokens with Opus" is not telemetry'
 summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
@@ -21,7 +21,7 @@ review:
   at: "2026-10-19T01:10:33.892Z"
   flags: []
 generated:
-  at: "2026-10-19T00:22:27.986Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -29,28 +29,28 @@ generated:
 evidence:
   - kind: blog
     url: https://tine.staric.net/blog/2026/harness-telemetry/
-    title: '"Dev X used 2k tokens with Opus" is not telemetry'
+    title: '"Dev X used 200k tokens with Opus" is not telemetry'
     date: "2026-10-18"
     commit: null
     t: null
     quote: null
   - kind: blog
     url: https://tine.staric.net/blog/2026/harness-telemetry/
-    title: '"Dev X used 2k tokens with Opus" is not telemetry'
+    title: '"Dev X used 200k tokens with Opus" is not telemetry'
     date: "2026-10-18"
     commit: null
     t: null
     quote: A setup that works out of the box beats one I maintain, so I threw the hook away.
   - kind: blog
     url: https://tine.staric.net/blog/2026/harness-telemetry/
-    title: '"Dev X used 2k tokens with Opus" is not telemetry'
+    title: '"Dev X used 200k tokens with Opus" is not telemetry'
     date: "2026-10-18"
     commit: null
     t: null
     quote: The list doesn't matter, the questions do.
   - kind: blog
     url: https://tine.staric.net/blog/2026/harness-telemetry/
-    title: '"Dev X used 2k tokens with Opus" is not telemetry'
+    title: '"Dev X used 200k tokens with Opus" is not telemetry'
     date: "2026-10-18"
     commit: null
     t: null
@@ -85,6 +85,17 @@ systems:
   - administration
   - integration
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: every client that receives the managed settings can see it
+    objects: []
+    events: []
+    versions: []
+  - kind: warning
+    quote: Pseudonymous is still personal data. Restrict access to the workspace, and say out loud what it's for
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -97,7 +108,7 @@ preview:
   probed_at: "2026-10-19T01:07:57.314Z"
 ---
 
-# "Dev X used 2k tokens with Opus" is not telemetry
+# "Dev X used 200k tokens with Opus" is not telemetry
 
 [Read the post](https://tine.staric.net/blog/2026/harness-telemetry/) · Tech Adventures in Business Central (Tine Staric) · 2026-10-18 · 1948 words · tier community · **flagged** (a review found a problem)
 
@@ -108,6 +119,11 @@ preview:
 - "A setup that works out of the box beats one I maintain, so I threw the hook away." (Demonstrates the decision to use OpenTelemetry standards over custom infrastructure, reducing operational burden.)
 - "The list doesn't matter, the questions do." (Emphasizes starting with business questions rather than collecting all available signals, focusing on meaningful insights.)
 - "Collect the minimum, and delete the rest before it's stored." (Core privacy principle showing how to handle sensitive data like prompts and user emails while maintaining useful analytics.)
+
+## Heads up
+
+- gotcha: "every client that receives the managed settings can see it"
+- warning: "Pseudonymous is still personal data. Restrict access to the workspace, and say out loud what it's for"
 
 ## Context
 

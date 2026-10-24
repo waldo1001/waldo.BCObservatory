@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:47:50.060Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -67,6 +67,12 @@ systems:
   - platform
 versions_mentioned:
   - BC 29
+cautions:
+  - kind: gotcha
+    quote: a cache I'd already built wasn't actually being used, because I'd never checked
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -95,6 +101,10 @@ preview:
 ## Quotes
 
 - "1,067 tests across 151 codeunits, all passing, in 69 seconds total." (Demonstrates real-world performance gains from persistent connections across test runs in production scenarios.)
+
+## Heads up
+
+- gotcha: "a cache I'd already built wasn't actually being used, because I'd never checked"
 
 ## Context
 

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:47:34.466Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -56,6 +56,13 @@ systems:
   - development
   - platform
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: today it can't ask for Validate() to run at all, only OnModify
+    objects: []
+    events:
+      - OnModify
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -81,6 +88,10 @@ preview:
 - Proposal: keep RunTrigger, but make true mean run the trigger only if something is registered, and otherwise fall back to the same bulk SQL operation used with false.
 - A separate gap: ModifyAll cannot request field Validate logic, so respecting validate subscribers forces a slow record-by-record loop.
 - Other systems differ: Rails, Django and Hibernate bypass callbacks on bulk paths, SQL Server, Oracle and PostgreSQL offer per-statement set-based triggers, and Salesforce Apex triggers always get batches of records.
+
+## Heads up
+
+- gotcha: "today it can't ask for Validate() to run at all, only OnModify" (about OnModify)
 
 ## Context
 

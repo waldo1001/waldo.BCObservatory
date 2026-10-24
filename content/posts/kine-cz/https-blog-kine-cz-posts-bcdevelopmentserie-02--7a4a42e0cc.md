@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:56:09.637Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -75,6 +75,12 @@ systems:
   - development
   - platform
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: Do not send customer data to AI - never paste real customer data, credentials, connection strings or license keys into AI chat.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -120,6 +126,10 @@ Not found in BC28-30: codeunit "50100", codeunit "50200".
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Swiss Value Added \[CH\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax) — possibly related: names Table 330 "Currency Exchange Rate"
+
+## Heads up
+
+- warning: "Do not send customer data to AI - never paste real customer data, credentials, connection strings or license keys into AI chat."
 
 ## Context
 

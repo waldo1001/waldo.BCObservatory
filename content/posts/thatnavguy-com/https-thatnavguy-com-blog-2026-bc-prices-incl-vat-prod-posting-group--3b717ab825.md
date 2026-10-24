@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:47:06.962Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -89,6 +89,27 @@ systems:
   - finance
 versions_mentioned:
   - "28.2"
+cautions:
+  - kind: breaking
+    quote: "from the affected build, the same change now gives: Total Incl. VAT: 86.96"
+    objects: []
+    events: []
+    versions:
+      - "28.2"
+  - kind: gotcha
+    quote: BC changed the condition for when it recalculates the direct unit cost to include G/L Account lines
+    objects:
+      - type: other
+        name: G/L Account lines
+    events: []
+    versions:
+      - "28.2"
+  - kind: warning
+    quote: it's worth to be cautious about this, especially if VAT product posting groups get changed after the line is entered
+    objects: []
+    events: []
+    versions:
+      - "28.2"
 preview:
   embeddable: true
   frame_url: null
@@ -126,6 +147,12 @@ No source states these links: they share an object, a model read them, or a pers
 - [#11208 \[Master\]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug 632380](../../changes/bcapps/11208.md) — possibly related: both are about purchase invoice lines with Prices Including VAT; no source states that the change fixes the post's case (checked by hand)
 - [#11436 \[29.X\]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug 632380](../../changes/bcapps/11436.md) — possibly related: both are about purchase invoice lines with Prices Including VAT; no source states that the change fixes the post's case (checked by hand)
 - [Update 28.6 for Business Central](../../hotfixes/28.6.md#648146) — possibly related: the hotfix restores the calculation of purchase invoice lines of type G/L Account; no source says it is the post's 28.2 case (checked by hand)
+
+## Heads up
+
+- breaking: "from the affected build, the same change now gives: Total Incl. VAT: 86.96" (about version 28.2)
+- gotcha: "BC changed the condition for when it recalculates the direct unit cost to include G/L Account lines" (about other G/L Account lines, version 28.2)
+- warning: "it's worth to be cautious about this, especially if VAT product posting groups get changed after the line is entered" (about version 28.2)
 
 ## Context
 

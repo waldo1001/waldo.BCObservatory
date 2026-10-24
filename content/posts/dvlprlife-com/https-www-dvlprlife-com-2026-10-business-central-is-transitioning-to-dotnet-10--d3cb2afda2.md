@@ -20,7 +20,7 @@ review:
   at: "2026-10-19T01:10:33.892Z"
   flags: []
 generated:
-  at: "2026-10-19T00:22:27.986Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -80,6 +80,39 @@ versions_mentioned:
   - "29"
   - .NET 8
   - .NET 10
+cautions:
+  - kind: gotcha
+    quote: it's no longer enough to know the major version since we are now on 27
+    objects: []
+    events: []
+    versions:
+      - "27"
+      - "28"
+      - "29"
+  - kind: warning
+    quote: If your development or testing involves .NET interop or custom .NET components, check your tooling and dependencies before updating
+    objects: []
+    events: []
+    versions:
+      - "27"
+      - "28"
+      - "29"
+  - kind: breaking
+    quote: the runtime change itself isn't the risk; version mismatch is
+    objects: []
+    events: []
+    versions:
+      - "27"
+      - "28"
+      - "29"
+  - kind: gotcha
+    quote: It's the stuff that quietly breaks a pipeline on a Tuesday morning when nobody changed anything, except the runtime did
+    objects: []
+    events: []
+    versions:
+      - "27"
+      - "28"
+      - "29"
 preview:
   embeddable: true
   frame_url: null
@@ -110,6 +143,13 @@ preview:
 
 - "The runtime change itself isn't the risk; version mismatch is." (Identifies the actual failure point in the transition - not the upgrade itself but tools and environments that diverge from the new runtime requirements)
 - "It's very unlikely; Microsoft says most customers won't need to change their applications just because the runtime has moved." (Reassures developers that code changes are not the default outcome, reducing upgrade anxiety for most extensions)
+
+## Heads up
+
+- gotcha: "it's no longer enough to know the major version since we are now on 27" (about version 27, version 28, version 29)
+- warning: "If your development or testing involves .NET interop or custom .NET components, check your tooling and dependencies before updating" (about version 27, version 28, version 29)
+- breaking: "the runtime change itself isn't the risk; version mismatch is" (about version 27, version 28, version 29)
+- gotcha: "It's the stuff that quietly breaks a pipeline on a Tuesday morning when nobody changed anything, except the runtime did" (about version 27, version 28, version 29)
 
 ## Context
 

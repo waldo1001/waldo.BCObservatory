@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:46:09.790Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -80,6 +80,15 @@ versions_mentioned:
   - 2026 Wave 2
   - 2025 Wave 2
   - 2025 Wave 1
+cautions:
+  - kind: warning
+    quote: Before applying the updates, you should confirm that your implementation is ready for the upgrade and ensure compatibility with your modifications.
+    objects: []
+    events: []
+    versions:
+      - "28"
+      - "27"
+      - "26"
 preview:
   embeddable: true
   frame_url: null
@@ -109,6 +118,10 @@ preview:
 
 - "All new customers signing up from today will be on this release." (Indicates when customers will start using the new 2026 Wave 2 version)
 - "Online customers will automatically be upgraded to version 29.0 over the coming days/weeks and should receive an email notification when upgraded." (Explains the auto-upgrade timeline and communication method for cloud customers)
+
+## Heads up
+
+- warning: "Before applying the updates, you should confirm that your implementation is ready for the upgrade and ensure compatibility with your modifications." (about version 28, version 27, version 26)
 
 ## Context
 

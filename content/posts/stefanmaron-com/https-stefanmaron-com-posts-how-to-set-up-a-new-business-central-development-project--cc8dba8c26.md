@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T02:00:57.623Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -57,6 +57,22 @@ systems:
   - development
 versions_mentioned:
   - June 2025
+cautions:
+  - kind: warning
+    quote: For PTEs don't start at 50000. The in client designer will create objects starting at 50000 which would fail.
+    objects: []
+    events: []
+    versions: []
+  - kind: gotcha
+    quote: Its important to have at least two levels of namespaces.
+    objects: []
+    events: []
+    versions: []
+  - kind: warning
+    quote: To make the AppSourceCop actually work, you need to have a AppSourceCop.json config file.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -82,6 +98,12 @@ preview:
 - Use PascalCase names with the registered affix as a suffix plus a short project code; namespaces with the affix as top level can remove the need for affixes in object names
 - Enable CodeCop, AppSourceCop, PerTenantExtensionCop, UICop and LinterCop, with an AppSourceCop.json per app and external rulesets to balance PTE and AppSource rules
 - Set up AL-Go early for build, test and deploy automation, including ruleset settings and scheduled test workflows
+
+## Heads up
+
+- warning: "For PTEs don't start at 50000. The in client designer will create objects starting at 50000 which would fail."
+- gotcha: "Its important to have at least two levels of namespaces."
+- warning: "To make the AppSourceCop actually work, you need to have a AppSourceCop.json config file."
 
 ## Context
 

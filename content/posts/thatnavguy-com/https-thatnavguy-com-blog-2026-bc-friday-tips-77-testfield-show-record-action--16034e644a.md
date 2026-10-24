@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:54:08.766Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -127,6 +127,14 @@ systems:
   - development
   - platform
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: But tables with compound primary keys, such as Sales Header, do not.
+    objects:
+      - type: table
+        name: Sales Header
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -178,6 +186,10 @@ No source states these links: they share an object, a model read them, or a pers
 - [Sorting by Type and Line No. in Sales and Purchase Postings](../../posts/duiliotacconi-com/1667.md) — possibly related: both name Table 36 "Sales Header"
 - [Types of events for extensibility](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/types-of-events-for-extensibility) — possibly related: names Table 36 "Sales Header"
 - [Understanding Business Central’s Format Address Codeunit](../../posts/aardvarklabs-blog/3928.md) — possibly related: both name Table 36 "Sales Header"
+
+## Heads up
+
+- gotcha: "But tables with compound primary keys, such as Sales Header, do not." (about table Sales Header)
 
 ## Context
 

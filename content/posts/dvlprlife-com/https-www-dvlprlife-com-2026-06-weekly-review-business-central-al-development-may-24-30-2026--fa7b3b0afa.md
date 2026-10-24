@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:54:57.106Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -93,6 +93,13 @@ versions_mentioned:
   - BC 28
   - BC 28.1
   - 2026 Wave 1
+cautions:
+  - kind: gotcha
+    quote: Database Start Time resets the DMV counters — so check it before drawing conclusions.
+    objects: []
+    events: []
+    versions:
+      - "28"
 preview:
   embeddable: true
   frame_url: null
@@ -139,6 +146,10 @@ No source states these links: they share an object, a model read them, or a pers
 
 - [Let It Snow: How To Use Themable Layouts in Business Central (2024)](../../videos/9ZmmQEpPyB4.md) — possibly related: both name Page 9660 "Report Layouts"
 - [New Features for Report Lifecycle Management in Business Central 28.1](../../posts/aardvarklabs-blog/3544.md) — possibly related: both name Page 9660 "Report Layouts"
+
+## Heads up
+
+- gotcha: "Database Start Time resets the DMV counters — so check it before drawing conclusions." (about version 28)
 
 ## Context
 

@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T01:55:26.425Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -78,6 +78,22 @@ versions_mentioned:
   - BC 26
   - BC 27
   - BC 28
+cautions:
+  - kind: gotcha
+    quote: When your code calls into the Base Application — TypeHelper, RestClient, anything in an .app file — AL Runner can't execute that code.
+    objects: []
+    events: []
+    versions: []
+  - kind: warning
+    quote: Commit() and Rollback() are no-ops
+    objects: []
+    events: []
+    versions: []
+  - kind: warning
+    quote: Code inside .app packages — stubs or --compile-dep required
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -108,6 +124,12 @@ preview:
 
 - "AL Runner drops that overhead entirely. Transpilation, in-memory compilation, and test execution all happen in seconds." (Demonstrates the core value: eliminating the 15-30 minute container startup time that slows down development cycles.)
 - "AL Runner is a pure CLI tool - cross-platform, no GUI, machine-readable output. That makes it a natural fit for coding agents." (Shows how the design intentionally supports AI agent integration for automated test-driven development workflows.)
+
+## Heads up
+
+- gotcha: "When your code calls into the Base Application — TypeHelper, RestClient, anything in an .app file — AL Runner can't execute that code."
+- warning: "Commit() and Rollback() are no-ops"
+- warning: "Code inside .app packages — stubs or --compile-dep required"
 
 ## Context
 

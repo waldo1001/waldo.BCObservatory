@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:59:59.823Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -73,6 +73,14 @@ systems:
   - integration
   - administration
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: This field is hidden and cannot be enabled through Personalize.
+    objects:
+      - type: table
+        name: Data Exchange Definition
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -110,6 +118,10 @@ As named in the post. A name that matches one object page by exact type and name
 - table "Data Exchange Definition"
 
 Not found in BC28-30: table "Data Exchange Definition".
+
+## Heads up
+
+- gotcha: "This field is hidden and cannot be enabled through Personalize." (about table Data Exchange Definition)
 
 ## Context
 

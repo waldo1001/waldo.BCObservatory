@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:47:00.607Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -75,6 +75,17 @@ systems:
   - platform
 versions_mentioned:
   - v2.11.0
+cautions:
+  - kind: gotcha
+    quote: A SingleInstance codeunit keeps its state across calls on real BC but loses it on Linux.
+    objects: []
+    events: []
+    versions: []
+  - kind: gotcha
+    quote: IsolatedStorage(Encrypted) silently does nothing under a Linux patch instead of encrypting.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -111,6 +122,11 @@ preview:
 As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "SymbolReference.json"
+
+## Heads up
+
+- gotcha: "A SingleInstance codeunit keeps its state across calls on real BC but loses it on Linux."
+- gotcha: "IsolatedStorage(Encrypted) silently does nothing under a Linux patch instead of encrypting."
 
 ## Context
 

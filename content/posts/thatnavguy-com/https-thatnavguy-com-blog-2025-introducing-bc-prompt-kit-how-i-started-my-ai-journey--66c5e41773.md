@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:58:16.448Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -73,6 +73,17 @@ code_objects_mentioned: []
 systems:
   - development
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: You still need to review everything. AI assists, you decide.
+    objects: []
+    events: []
+    versions: []
+  - kind: warning
+    quote: You own the code, even if AI generates it. Take full responsibility before releasing to production
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -102,6 +113,11 @@ preview:
 
 - "AI isn't magical or perfect, but it genuinely helps with the tedious parts of development." (This reframes AI as a practical tool for handling repetitive tasks rather than a replacement for developer judgment, which is crucial for professional adoption.)
 - "You own the code, even if AI generates it. Take full responsibility before releasing to production." (This establishes clear accountability for AI-generated code, which is essential for maintaining code quality and security in production systems.)
+
+## Heads up
+
+- warning: "You still need to review everything. AI assists, you decide."
+- warning: "You own the code, even if AI generates it. Take full responsibility before releasing to production"
 
 ## Context
 

@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:59:04.367Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -83,6 +83,12 @@ systems:
 versions_mentioned:
   - "27.0"
   - "27.1"
+cautions:
+  - kind: warning
+    quote: Branch history may be rewritten when late hotfixes are released by Microsoft.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -114,6 +120,10 @@ preview:
 - "Microsoft occasionally releases hotfix versions with version numbers lower than already-published versions." (This explains the core problem that necessitates the new late hotfix handling system)
 - "Git history now shows versions in proper semantic order. Repository size is reduced by avoiding massive diffs from out-of-order commits." (Demonstrates the key benefits of the implemented solution for repository maintainability and performance)
 - "Branch history may be rewritten when late hotfixes are released by Microsoft." (Critical warning for users about why they need to update their local clones using the provided scripts)
+
+## Heads up
+
+- warning: "Branch history may be rewritten when late hotfixes are released by Microsoft."
 
 ## Context
 

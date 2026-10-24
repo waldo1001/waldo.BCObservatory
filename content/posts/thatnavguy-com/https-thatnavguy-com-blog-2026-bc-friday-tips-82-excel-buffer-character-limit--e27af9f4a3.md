@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:46:22.313Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -73,6 +73,21 @@ systems:
   - development
   - reporting
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: If you try to write a longer value, Business Central throws an error instead of truncating it.
+    objects:
+      - type: other
+        name: Excel Buffer
+    events: []
+    versions: []
+  - kind: warning
+    quote: The procedure signature does not make the limitation obvious.
+    objects:
+      - type: other
+        name: Excel Buffer
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -109,6 +124,11 @@ preview:
 As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Excel Buffer"
+
+## Heads up
+
+- gotcha: "If you try to write a longer value, Business Central throws an error instead of truncating it." (about other Excel Buffer)
+- warning: "The procedure signature does not make the limitation obvious." (about other Excel Buffer)
 
 ## Context
 

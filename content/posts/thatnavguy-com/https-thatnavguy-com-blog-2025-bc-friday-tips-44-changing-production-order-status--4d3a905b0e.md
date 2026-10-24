@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:59:53.392Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -64,6 +64,15 @@ code_objects_mentioned:
 systems:
   - manufacturing
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: Extra logic on these triggers could cause errors or unexpected results.
+    objects: []
+    events:
+      - OnInsert
+      - OnModify
+      - OnDelete
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -98,6 +107,10 @@ preview:
 As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - [codeunit 5407 "Prod. Order Status Management"](../../objects/codeunit/5407.md)
+
+## Heads up
+
+- warning: "Extra logic on these triggers could cause errors or unexpected results." (about OnInsert, OnModify, OnDelete)
 
 ## Context
 

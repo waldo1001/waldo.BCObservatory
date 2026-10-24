@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:47:17.757Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -87,6 +87,21 @@ versions_mentioned:
   - v2.3.1
   - tree-sitter-al 4.0
   - AL Language v18
+cautions:
+  - kind: warning
+    quote: the new grammar restructured how DataItemLink gets parsed, dropping the wrapper my join-edge code was reading through, so joins silently stopped resolving
+    objects:
+      - type: other
+        name: tree-sitter-al
+    events: []
+    versions: []
+  - kind: breaking
+    quote: Anyone resolving fresh would have hit the same silent breakage with no error at all.
+    objects:
+      - type: other
+        name: tree-sitter-al
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -130,6 +145,11 @@ As named in the post. A name that matches one object page by exact type and name
 - other "vsc-lintercop"
 - other "ALCops"
 - other "BcContainerHelper"
+
+## Heads up
+
+- warning: "the new grammar restructured how DataItemLink gets parsed, dropping the wrapper my join-edge code was reading through, so joins silently stopped resolving" (about other tree-sitter-al)
+- breaking: "Anyone resolving fresh would have hit the same silent breakage with no error at all." (about other tree-sitter-al)
 
 ## Context
 

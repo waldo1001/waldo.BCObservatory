@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T01:56:04.075Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -132,6 +132,15 @@ systems:
   - platform
   - administration
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: OnAfterGetRecord fires for every record shown in a list, on a page showing 50 Items, this executes 50 database queries.
+    objects:
+      - type: page
+        name: page
+    events:
+      - OnAfterGetRecord
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -191,6 +200,10 @@ No source states these links: they share an object, a model read them, or a pers
 - [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../../videos/cZCSi6khZFo.md) — possibly related: both name Table 37 "Sales Line"
 - [New Application Ideas of Dynamics 365 Business Central (2026 AUG)](../../posts/gerardorenteria-blog/15390.md) — possibly related: both name Table 337 "Reservation Entry"
 - [Sorting by Type and Line No. in Sales and Purchase Postings](../../posts/duiliotacconi-com/1667.md) — possibly related: both name Table 37 "Sales Line"
+
+## Heads up
+
+- warning: "OnAfterGetRecord fires for every record shown in a list, on a page showing 50 Items, this executes 50 database queries." (about page page, OnAfterGetRecord)
 
 ## Context
 

@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:58:16.843Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -121,6 +121,27 @@ code_objects_mentioned:
 systems:
   - sales
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: not all fields in a Sales Order transfer to the Posted Sales Shipment or Posted Sales Invoice
+    objects:
+      - type: table
+        name: Sales Header
+      - type: table
+        name: Sales Line
+      - type: table
+        name: Sales Shipment Header
+      - type: table
+        name: Sales Invoice Header
+    events: []
+    versions: []
+  - kind: gotcha
+    quote: Copying from a Posted Sales Invoice can result in key fields being left blank
+    objects:
+      - type: table
+        name: Posted Sales Invoice
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -173,6 +194,11 @@ No source states these links: they share an object, a model read them, or a pers
 - [Business Central Development Serie - Part 2b: AI for BC Development — The Knowledge Gap That Ships to Production](../../posts/kine-cz/https-blog-kine-cz-posts-bcdevelopmentserie-02b--0078d7faba.md) — possibly related: both name Table 37 "Sales Line"
 - [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) — possibly related: both name Table 36 "Sales Header"
 - [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../posts/aardvarklabs-blog/1891.md) — possibly related: both name Table 37 "Sales Line"
+
+## Heads up
+
+- warning: "not all fields in a Sales Order transfer to the Posted Sales Shipment or Posted Sales Invoice" (about table Sales Header, table Sales Line, table Sales Shipment Header, table Sales Invoice Header)
+- gotcha: "Copying from a Posted Sales Invoice can result in key fields being left blank" (about table Posted Sales Invoice)
 
 ## Context
 

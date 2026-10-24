@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:47:50.060Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -60,6 +60,17 @@ versions_mentioned:
   - BC 28.1
   - BC 28.2
   - multiple major versions (10-11)
+cautions:
+  - kind: warning
+    quote: a restart bug once left search silently unavailable for about two days before anyone noticed
+    objects: []
+    events: []
+    versions: []
+  - kind: warning
+    quote: This is a young project, not a finished product, and I'd rather say that plainly than have you discover it through a failure.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -93,6 +104,11 @@ As named in the post. A name that matches one object page by exact type and name
 - table "SalesLine"
 
 Not found in BC28-30: codeunit "SalesLineReserve", table "SalesLine".
+
+## Heads up
+
+- warning: "a restart bug once left search silently unavailable for about two days before anyone noticed"
+- warning: "This is a young project, not a finished product, and I'd rather say that plainly than have you discover it through a failure."
 
 ## Context
 

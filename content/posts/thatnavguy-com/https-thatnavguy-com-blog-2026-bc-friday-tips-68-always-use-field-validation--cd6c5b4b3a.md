@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:55:47.370Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -83,6 +83,17 @@ systems:
   - integration
   - platform
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: If you bypass validation, you skip trigger logic. The field may look correct. But the related data is not.
+    objects: []
+    events: []
+    versions: []
+  - kind: warning
+    quote: It may assign values directly without validation. Trust, but verify.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -114,6 +125,11 @@ preview:
 - "If you bypass validation, you skip trigger logic." (Explains the core risk of skipping validation and how it breaks the extension architecture)
 - "Prevents silent data corruption. Respects integration with other apps." (Highlights the business impact and multi-app ecosystem considerations)
 - "It may assign values directly without validation. Trust, but verify." (Warns about AI-generated code risks, relevant for modern development practices)
+
+## Heads up
+
+- gotcha: "If you bypass validation, you skip trigger logic. The field may look correct. But the related data is not."
+- warning: "It may assign values directly without validation. Trust, but verify."
 
 ## Context
 

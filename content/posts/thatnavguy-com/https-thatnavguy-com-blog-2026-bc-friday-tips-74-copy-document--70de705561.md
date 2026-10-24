@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:54:36.372Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -127,6 +127,21 @@ systems:
   - sales
   - development
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: If users use Copy Document, your custom field will be copied too.
+    objects: []
+    events: []
+    versions: []
+  - kind: warning
+    quote: Should this value be copied? Should it be cleared? Should it be recalculated?
+    objects:
+      - type: table
+        name: Sales Header
+      - type: table
+        name: Sales Invoice Header
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -178,6 +193,11 @@ No source states these links: they share an object, a model read them, or a pers
 - [Smarter Keys, Better Performance: Exploring Business Central v29 Index Updates](../../posts/aardvarklabs-blog/4056.md) — possibly related: both name Table 36 "Sales Header"
 - [Sorting by Type and Line No. in Sales and Purchase Postings](../../posts/duiliotacconi-com/1667.md) — possibly related: both name Table 36 "Sales Header"
 - [Types of events for extensibility](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/types-of-events-for-extensibility) — possibly related: names Table 36 "Sales Header"
+
+## Heads up
+
+- gotcha: "If users use Copy Document, your custom field will be copied too."
+- warning: "Should this value be copied? Should it be cleared? Should it be recalculated?" (about table Sales Header, table Sales Invoice Header)
 
 ## Context
 

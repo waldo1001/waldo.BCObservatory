@@ -6,14 +6,22 @@
   "title": "[FR] Delocalize delayed VAT and SEPA payment-slip integration",
   "url": "https://github.com/microsoft/BCApps/pull/13054",
   "published_at": "2026-10-23T07:48:40Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-23T21:57:46.568Z"
+    },
+    "fetched": {
+      "at": "2026-10-24T01:02:57.747Z",
+      "change_class": "code",
+      "files": 76,
+      "al": 60,
+      "objects": 49,
+      "unjoined": 11
     }
   },
   "input_hash": "4527a2a4a1d84936ee555a8ac36e11e2bafdd79d:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13054,
@@ -29,6 +37,7 @@
     "community_contribution": false,
     "title_key": "fr delocalize delayed vat and sepa payment slip integration"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-24T00:04:46.180Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ddb4f0e3aeab23d4a33ec68cebabfba851c14131b86eb5a8dac6a0a45ee57c99"
 }

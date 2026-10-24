@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:47:50.436Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -66,6 +66,13 @@ versions_mentioned:
   - "2.3"
   - "28.1"
   - "27.5"
+cautions:
+  - kind: breaking
+    quote: compilation now fails when BC's compiler reports an error, even if at least one object in the bundle still emitted successfully.
+    objects: []
+    events: []
+    versions:
+      - 2.8.0
 preview:
   embeddable: true
   frame_url: null
@@ -100,6 +107,10 @@ As named in the post. A name that matches one object page by exact type and name
 - other "bcdb"
 - other "ALchemist"
 - other "LethAL"
+
+## Heads up
+
+- breaking: "compilation now fails when BC's compiler reports an error, even if at least one object in the bundle still emitted successfully." (about version 2.8.0)
 
 ## Context
 

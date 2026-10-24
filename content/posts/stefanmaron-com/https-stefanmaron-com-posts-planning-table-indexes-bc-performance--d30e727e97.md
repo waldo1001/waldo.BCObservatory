@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:59:53.591Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -75,6 +75,17 @@ systems:
 versions_mentioned:
   - v26.0
   - 2025 release wave 1
+cautions:
+  - kind: warning
+    quote: Every index you add slows down writes. Insert, update, delete — all of them have to maintain every index on the table.
+    objects: []
+    events: []
+    versions: []
+  - kind: gotcha
+    quote: Sometimes adding an index makes a query slower. Business Central adds a FAST 50 hint to every query it sends to SQL Server.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -105,6 +116,11 @@ preview:
 
 - "Every index you add slows down writes. Insert, update, delete - all of them have to maintain every index on the table." (This core tradeoff explains why indexes must be carefully justified; they solve read performance at the cost of write performance across all DML operations.)
 - "Reducing each to 1 SIFT view resolved the problem completely." (Demonstrates that multiple SIFT views cause real-world deadlock problems in production; shows the direct impact of configuration choices on system stability.)
+
+## Heads up
+
+- warning: "Every index you add slows down writes. Insert, update, delete — all of them have to maintain every index on the table."
+- gotcha: "Sometimes adding an index makes a query slower. Business Central adds a FAST 50 hint to every query it sends to SQL Server."
 
 ## Context
 

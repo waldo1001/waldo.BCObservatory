@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:55:36.115Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -63,6 +63,12 @@ code_objects_mentioned: []
 systems:
   - development
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: If you commit a symlink to git, it'll be broken on everyone else's machine unless they have the same folder structure.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -92,6 +98,10 @@ preview:
 ## Quotes
 
 - "Your config lives in one place. Every repo points to it. Update the source once, every project picks it up instantly." (Summarizes the key benefit of the solution - centralized configuration management that eliminates manual synchronization across projects)
+
+## Heads up
+
+- gotcha: "If you commit a symlink to git, it'll be broken on everyone else's machine unless they have the same folder structure."
 
 ## Context
 

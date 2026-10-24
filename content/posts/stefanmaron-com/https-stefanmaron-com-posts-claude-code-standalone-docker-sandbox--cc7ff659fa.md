@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T01:56:31.818Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -74,6 +74,12 @@ code_objects_mentioned: []
 systems:
   - development
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: Claude Code could still reconstruct the IPC bridge and escape.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -104,6 +110,10 @@ preview:
 
 - "The only real fix is to not use VS Code Dev Containers at all for the Claude session." (This identifies the fundamental architectural problem and the required solution, showing why dev containers cannot be used if true isolation is needed)
 - "The sandbox held because of the privilege model, not because Claude declined. That distinction matters when you're evaluating how much to trust the containment." (This clarifies that effective sandboxing requires layers of system-level protections rather than relying on the agent's judgment or cooperation)
+
+## Heads up
+
+- warning: "Claude Code could still reconstruct the IPC bridge and escape."
 
 ## Context
 

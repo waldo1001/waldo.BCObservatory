@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T02:00:07.614Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -80,6 +80,12 @@ code_objects_mentioned: []
 systems:
   - platform
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: If your code runs as part of a web service call or in the background, messages should not be shown to the user.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -110,6 +116,10 @@ preview:
 - "Without positive feedback, users often assume the worst. That is human nature." (Explains the psychological basis for why success messages are essential even when systems function correctly)
 - "Success messages are more than just a formality. They are a key part of building user trust and creating a seamless experience." (Emphasizes that success messages deserve the same attention as error handling in UX design)
 - "Use the GuiAllowed property to check whether the user interface is available before displaying any messages." (Provides technical guidance for preventing errors when messages are triggered in non-interactive contexts)
+
+## Heads up
+
+- gotcha: "If your code runs as part of a web service call or in the background, messages should not be shown to the user."
 
 ## Context
 

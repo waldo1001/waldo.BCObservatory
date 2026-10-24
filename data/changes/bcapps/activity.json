@@ -1,6 +1,147 @@
 {
   "open": [
     {
+      "number": 13203,
+      "title": "[main] Bug 656535 Additional Reporting Currency Difference After Closing Income Statement - related to 625803",
+      "url": "https://github.com/microsoft/BCApps/pull/13203",
+      "base": "main",
+      "major": "30",
+      "author": "MSNehaNawal",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-23T09:53:48Z",
+      "updated_at": "2026-10-24T01:00:51Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12516,
+      "title": "[master] Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
+      "url": "https://github.com/microsoft/BCApps/pull/12516",
+      "base": "main",
+      "major": "30",
+      "author": "neeleshsinghal",
+      "labels": [
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-10-07T23:22:16Z",
+      "updated_at": "2026-10-24T00:54:50Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12882,
+      "title": "[Master] - Bug 651169: [Expense Agent] Exchange rate date limitation",
+      "url": "https://github.com/microsoft/BCApps/pull/12882",
+      "base": "main",
+      "major": "30",
+      "author": "v-rohangarg20",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-15T08:02:53Z",
+      "updated_at": "2026-10-24T00:52:18Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13052,
+      "title": "[Shopify] Upgrade tax matching to GPT-5.6 Ceres",
+      "url": "https://github.com/microsoft/BCApps/pull/13052",
+      "base": "main",
+      "major": "30",
+      "author": "onbuyuka",
+      "labels": [
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-10-20T11:20:48Z",
+      "updated_at": "2026-10-24T00:50:52Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13055,
+      "title": " Pause the Sales Order Agent automatically in unattended companies",
+      "url": "https://github.com/microsoft/BCApps/pull/13055",
+      "base": "main",
+      "major": "30",
+      "author": "VolodySyn",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: SCM"
+      ],
+      "draft": true,
+      "created_at": "2026-10-20T13:09:56Z",
+      "updated_at": "2026-10-24T00:50:48Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13066,
+      "title": "Upgrade E-Documents models",
+      "url": "https://github.com/microsoft/BCApps/pull/13066",
+      "base": "main",
+      "major": "30",
+      "author": "Jose-agg",
+      "labels": [
+        "AL: Apps (W1)",
+        "Ownership: Needs Review",
+        "Team: Other"
+      ],
+      "draft": true,
+      "created_at": "2026-10-20T16:53:37Z",
+      "updated_at": "2026-10-24T00:50:35Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13159,
+      "title": "[29x] Bug 652332 Issuing multiple Reminders or Finance Charge Memos with Print, produces a PDF only for the last one- #12149",
+      "url": "https://github.com/microsoft/BCApps/pull/13159",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "MSNehaNawal",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-22T07:55:32Z",
+      "updated_at": "2026-10-24T00:49:04Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13213,
+      "title": "[29x] Bug 653921 Warehouse pick fails with \"Nothing to handle\" when an earlier unshipped pick uses a non-default shipment bin",
+      "url": "https://github.com/microsoft/BCApps/pull/13213",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "MSNehaNawal",
+      "labels": [
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-10-23T13:07:52Z",
+      "updated_at": "2026-10-24T00:47:52Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12453,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2776920",
+      "url": "https://github.com/microsoft/BCApps/pull/12453",
+      "base": "main",
+      "major": "30",
+      "author": "olprod",
+      "labels": [
+        "AL: Apps (W1)",
+        "Ownership: Needs Review",
+        "Team: Other"
+      ],
+      "draft": false,
+      "created_at": "2026-10-06T23:37:44Z",
+      "updated_at": "2026-10-23T23:37:22Z",
+      "community_contribution": false
+    },
+    {
       "number": 9296,
       "title": "Add test stability mode to the test tool",
       "url": "https://github.com/microsoft/BCApps/pull/9296",
@@ -299,21 +440,6 @@
       "community_contribution": false
     },
     {
-      "number": 13159,
-      "title": "[29x] Bug 652332 Issuing multiple Reminders or Finance Charge Memos with Print, produces a PDF only for the last one- #12149",
-      "url": "https://github.com/microsoft/BCApps/pull/13159",
-      "base": "releases/29.x",
-      "major": "29",
-      "author": "MSNehaNawal",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": true,
-      "created_at": "2026-10-22T07:55:32Z",
-      "updated_at": "2026-10-23T14:24:01Z",
-      "community_contribution": false
-    },
-    {
       "number": 13196,
       "title": "Enable AL-Go code review with Microsoft BCQuality",
       "url": "https://github.com/microsoft/BCApps/pull/13196",
@@ -399,21 +525,6 @@
       "created_at": "2026-10-23T13:11:58Z",
       "updated_at": "2026-10-23T13:16:29Z",
       "community_contribution": true
-    },
-    {
-      "number": 13213,
-      "title": "[29x] Bug 653921 Warehouse pick fails with \"Nothing to handle\" when an earlier unshipped pick uses a non-default shipment bin",
-      "url": "https://github.com/microsoft/BCApps/pull/13213",
-      "base": "releases/29.x",
-      "major": "29",
-      "author": "MSNehaNawal",
-      "labels": [
-        "Team: SCM"
-      ],
-      "draft": true,
-      "created_at": "2026-10-23T13:07:52Z",
-      "updated_at": "2026-10-23T13:09:30Z",
-      "community_contribution": false
     },
     {
       "number": 12474,
@@ -681,21 +792,6 @@
       "community_contribution": false
     },
     {
-      "number": 13203,
-      "title": "[main] Bug 656535 Additional Reporting Currency Difference After Closing Income Statement - related to 625803",
-      "url": "https://github.com/microsoft/BCApps/pull/13203",
-      "base": "main",
-      "major": "30",
-      "author": "MSNehaNawal",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": true,
-      "created_at": "2026-10-23T09:53:48Z",
-      "updated_at": "2026-10-23T10:09:21Z",
-      "community_contribution": false
-    },
-    {
       "number": 13198,
       "title": "Slice 617067-Expense Agent Splitting Expense Lines",
       "url": "https://github.com/microsoft/BCApps/pull/13198",
@@ -840,21 +936,6 @@
       "draft": false,
       "created_at": "2026-10-08T08:06:44Z",
       "updated_at": "2026-10-23T07:33:43Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12516,
-      "title": "[master] Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
-      "url": "https://github.com/microsoft/BCApps/pull/12516",
-      "base": "main",
-      "major": "30",
-      "author": "neeleshsinghal",
-      "labels": [
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-10-07T23:22:16Z",
-      "updated_at": "2026-10-23T07:23:20Z",
       "community_contribution": false
     },
     {
@@ -1034,23 +1115,6 @@
       "draft": false,
       "created_at": "2026-10-15T05:06:30Z",
       "updated_at": "2026-10-23T00:54:51Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12453,
-      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2775163",
-      "url": "https://github.com/microsoft/BCApps/pull/12453",
-      "base": "main",
-      "major": "30",
-      "author": "olprod",
-      "labels": [
-        "AL: Apps (W1)",
-        "Ownership: Needs Review",
-        "Team: Other"
-      ],
-      "draft": false,
-      "created_at": "2026-10-06T23:37:44Z",
-      "updated_at": "2026-10-22T23:39:45Z",
       "community_contribution": false
     },
     {
@@ -1541,99 +1605,6 @@
       "draft": false,
       "created_at": "2026-08-26T12:15:09Z",
       "updated_at": "2026-10-22T16:34:15Z",
-      "community_contribution": true
-    },
-    {
-      "number": 10557,
-      "title": "10275   subscription billing dimensions",
-      "url": "https://github.com/microsoft/BCApps/pull/10557",
-      "base": "main",
-      "major": "30",
-      "author": "stephanweidmann",
-      "labels": [
-        "ADO: Sync",
-        "AL: Apps (W1)",
-        "From Fork",
-        "Team: Finance",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-08-24T08:53:38Z",
-      "updated_at": "2026-10-22T16:34:13Z",
-      "community_contribution": true
-    },
-    {
-      "number": 10534,
-      "title": "[W1] Subscription Billing - Configurable Text for Billing Period",
-      "url": "https://github.com/microsoft/BCApps/pull/10534",
-      "base": "main",
-      "major": "30",
-      "author": "pri-kise",
-      "labels": [
-        "ADO: Sync",
-        "AL: Apps (W1)",
-        "From Fork",
-        "Team: Finance",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-08-22T10:15:16Z",
-      "updated_at": "2026-10-22T16:34:11Z",
-      "community_contribution": true
-    },
-    {
-      "number": 10305,
-      "title": "Truncate Shopify PO Number to External Document No. length",
-      "url": "https://github.com/microsoft/BCApps/pull/10305",
-      "base": "main",
-      "major": "30",
-      "author": "seanschade",
-      "labels": [
-        "AL: Apps (W1)",
-        "From Fork",
-        "Team: Integrations",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-08-17T13:04:22Z",
-      "updated_at": "2026-10-22T16:34:06Z",
-      "community_contribution": true
-    },
-    {
-      "number": 10153,
-      "title": "Add DriveId overloads for SharePoint Graph Client drive item operations",
-      "url": "https://github.com/microsoft/BCApps/pull/10153",
-      "base": "main",
-      "major": "30",
-      "author": "diederiklensink",
-      "labels": [
-        "ADO: Sync",
-        "AL: System Application",
-        "From Fork",
-        "Team: Integrations",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-08-11T14:46:51Z",
-      "updated_at": "2026-10-22T16:34:04Z",
-      "community_contribution": true
-    },
-    {
-      "number": 10076,
-      "title": "Pass HideDialog to Report Distribution Management when sending electronic documents by e-mail",
-      "url": "https://github.com/microsoft/BCApps/pull/10076",
-      "base": "main",
-      "major": "30",
-      "author": "pri-kise",
-      "labels": [
-        "ADO: Sync",
-        "From Fork",
-        "Team: Integrations",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-08-10T08:16:04Z",
-      "updated_at": "2026-10-22T16:34:02Z",
       "community_contribution": true
     },
     {

@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:56:34.347Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -92,6 +92,22 @@ systems:
   - development
   - administration
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: The session gets cancelled if the record changes or the page closes — so it is not suitable for list pages.
+    objects: []
+    events: []
+    versions: []
+  - kind: gotcha
+    quote: A stopped recurring job that nobody notices is a common and costly problem.
+    objects: []
+    events: []
+    versions: []
+  - kind: warning
+    quote: For scheduled tasks and Job Queue, the limit is 5 concurrent tasks per user.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -135,6 +151,12 @@ As named in the post. A name that matches one object page by exact type and name
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Use Retention Policies to Avoid Unnecessary Database Growth](../../videos/564XMP2IyLM.md) — possibly related: both name Table 474 "Job Queue Log Entry"
+
+## Heads up
+
+- warning: "The session gets cancelled if the record changes or the page closes — so it is not suitable for list pages."
+- gotcha: "A stopped recurring job that nobody notices is a common and costly problem."
+- warning: "For scheduled tasks and Job Queue, the limit is 5 concurrent tasks per user."
 
 ## Context
 

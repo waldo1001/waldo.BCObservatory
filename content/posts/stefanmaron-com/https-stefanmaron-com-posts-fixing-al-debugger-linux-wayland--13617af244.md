@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:58:32.040Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -67,6 +67,12 @@ versions_mentioned:
   - AL extension v16-v17
   - VS Code 1.104.1-1.105.1
   - .NET 8.0.20
+cautions:
+  - kind: gotcha
+    quote: The interactive login doesn't work from inside the container, so I had to disable it in my VS Code settings
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -96,6 +102,10 @@ preview:
 ## Quotes
 
 - "The AL Language Server uses socket-based IPC for communication between VS Code and the debugger." (Explains the root cause of why Call Stack and Variables panels stay empty on Wayland - the socket communication breaks due to Wayland's stricter event handling)
+
+## Heads up
+
+- gotcha: "The interactive login doesn't work from inside the container, so I had to disable it in my VS Code settings"
 
 ## Context
 

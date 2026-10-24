@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T01:56:40.475Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-24T01:02:25.817Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -79,6 +79,22 @@ versions_mentioned:
   - AL 17
   - v0.5
   - v0.1 alpha
+cautions:
+  - kind: breaking
+    quote: LinterCop and ALCops reuse the same diagnostic IDs, so running both at the same time will cause conflicts.
+    objects: []
+    events: []
+    versions: []
+  - kind: preview-disclaimer
+    quote: It's early — v0.1 alpha — but the idea is solid.
+    objects: []
+    events: []
+    versions: []
+  - kind: gotcha
+    quote: If you migrate from LinterCop and see new warnings on code you thought was clean, this is likely the reason.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
@@ -121,6 +137,12 @@ As named in the post. A name that matches one object page by exact type and name
 - other "TestAutomationCop"
 - other "TransferFieldsCollector"
 - other "ALCops.Mcp"
+
+## Heads up
+
+- breaking: "LinterCop and ALCops reuse the same diagnostic IDs, so running both at the same time will cause conflicts."
+- preview-disclaimer: "It's early — v0.1 alpha — but the idea is solid."
+- gotcha: "If you migrate from LinterCop and see new warnings on code you thought was clean, this is likely the reason."
 
 ## Context
 
