@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: cdf5fb84a7c90c918536acd4ff69cae78d04b487f3016d7416ce5e00763ac791
+  input_hash: 88291979512721a5b2be39274cb4e18bba0519d3d79c515a64b3afec245e42f0
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAAzureADApplicationApi.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAAzureADApplicationApi.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAAzureADApplicationApi.Entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,12 @@ links:
   guidelines: []
   changes:
     - change/bcapps/9988
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/embedapps/embed-app-application-access-management-api
+      title: Application Access Management API
+      label: possibly related
+      why: Application Access Management API for Expense Agent entitlements and access control.
+      by: model
 object_type: entitlement
 object_id: null
 name: EA - Azure AD Application API
@@ -77,7 +83,7 @@ relations:
 
 > Entitlement "EA - Azure AD Application API" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAAzureADApplicationApi.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAAzureADApplicationApi.Entitlement.al) · facts from BC29
 
 ## Recent changes
 
@@ -87,6 +93,12 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https:
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Application Access Management API](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/embedapps/embed-app-application-access-management-api) — possibly related: Application Access Management API for Expense Agent entitlements and access control. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 47323348f21613e20e0fc46ba74b936bd2a8b8d89c832d94da1399722a28aebd
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralDeviceEmbedded.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralDeviceEmbedded.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralDeviceEmbedded.Entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Entitlement "EA - Dynamics 365 Business Central Device - Embedded" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralDeviceEmbedded.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralDeviceEmbedded.Entitlement.al) · facts from BC29
 
 ## Recent changes
 

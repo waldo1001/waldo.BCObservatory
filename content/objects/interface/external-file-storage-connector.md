@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 26a618d48251a2163e209ebbd77c8d2a702bb35444f7da334d50a0a788f008a5
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/External%20File%20Storage/src/Connector/ExternalFileStorageConnector.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/System%20Application/App/External%20File%20Storage/src/Connector/ExternalFileStorageConnector.Interface.al
     title: src/System Application/App/External File Storage/src/Connector/ExternalFileStorageConnector.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -79,7 +79,7 @@ relations:
 
 > Interface "External File Storage Connector" in System Application (System.ExternalFileStorage). 17 public procedures. Introduced in BC26, still in BC30.
 
-System Application · System.ExternalFileStorage · BC26-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/External%20File%20Storage/src/Connector/ExternalFileStorageConnector.Interface.al) · facts from BC29
+System Application · System.ExternalFileStorage · BC26-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/System%20Application/App/External%20File%20Storage/src/Connector/ExternalFileStorageConnector.Interface.al) · facts from BC29
 
 ## Procedures
 

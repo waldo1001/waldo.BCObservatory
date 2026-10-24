@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3f6ffbaf7351542beca793c75c4c61d5fd74baebb0ca8efe36db755c2a10e0f3
+  input_hash: 12da2d85966f59135293b2f994493cba4d00a038487f62830e4342b27c84427e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLRemitAdviceInfoProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLRemitAdviceInfoProvider.Interface.al
     title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLRemitAdviceInfoProvider.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,12 @@ links:
   guidelines: []
   changes:
     - change/bcapps/9578
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-send-remittance-advice
+      title: Send Remittance Advice Extension | Microsoft Docs
+      label: possibly related
+      why: Documents remittance advice extension functionality for vendor notifications.
+      by: model
 object_type: interface
 object_id: null
 name: PEPPOL Remit. Advice Info Provider
@@ -78,7 +84,7 @@ relations:
 
 > Interface "PEPPOL Remit. Advice Info Provider" in PEPPOL (Microsoft.Peppol). 3 public procedures. Introduced in BC29, still in BC30.
 
-PEPPOL · Microsoft.Peppol · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLRemitAdviceInfoProvider.Interface.al) · facts from BC29
+PEPPOL · Microsoft.Peppol · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLRemitAdviceInfoProvider.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -94,6 +100,12 @@ PEPPOL · Microsoft.Peppol · BC29-30 · [source at af1b860d](https://github.com
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Send Remittance Advice Extension | Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-send-remittance-advice) — possibly related: Documents remittance advice extension functionality for vendor notifications. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

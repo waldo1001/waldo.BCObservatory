@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b3e2915981a2f22e1a13d542d596becd5b46898bb9272e251cbd11c8e1a78eb0
+  input_hash: 3f11a31e602e70d412385f02f264460b9ce78ac7fc4b72d4c901c3191a5e02c4
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAExpenseAgentApplication.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAExpenseAgentApplication.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAExpenseAgentApplication.Entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,17 @@ links:
   guidelines: []
   changes:
     - change/bcapps/9859
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
+      title: Expense Agent overview for Business Central
+      label: possibly related
+      why: Expense Agent overview documents the complete expense automation lifecycle this entitlement enables.
+      by: model
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-edit-expenses
+      title: Review and Edit Expenses in Expense Agent
+      label: possibly related
+      why: Review and edit page covers user tasks within the Expense Agent application.
+      by: model
 object_type: entitlement
 object_id: null
 name: EA - Expense Agent Application
@@ -77,7 +88,7 @@ relations:
 
 > Entitlement "EA - Expense Agent Application" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAExpenseAgentApplication.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAExpenseAgentApplication.Entitlement.al) · facts from BC29
 
 ## Recent changes
 
@@ -87,6 +98,13 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https:
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Expense Agent overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent) — possibly related: Expense Agent overview documents the complete expense automation lifecycle this entitlement enables. (model-linked)
+- [Review and Edit Expenses in Expense Agent](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-edit-expenses) — possibly related: Review and edit page covers user tasks within the Expense Agent application. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

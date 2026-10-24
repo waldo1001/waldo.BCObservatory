@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e1b017f33e186b6d043e6ddba0740d1592162ea2a2b244b0f91e617e0943e92a
+  input_hash: 544ec8fc1a8cb017464de5f78986ce2bac902f981d2a2a17ac3791731ca3587a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/WorldPayPaymentsStandard/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/WorldPayPaymentsStandard/app
     title: src/Apps/W1/WorldPayPaymentsStandard/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -71,4 +71,4 @@ First-party app · folder `src/Apps/W1/WorldPayPaymentsStandard/app` · BC29-30 
 | 1361 | [MS - WorldPay Std. Template](../objects/table/1361.md) | WorldPay Payments Standard Account Template |
 | 1367 | [MS - WorldPay Transaction](../objects/table/1367.md) |  |
 
-Source: [src/Apps/W1/WorldPayPaymentsStandard/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/WorldPayPaymentsStandard/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/WorldPayPaymentsStandard/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/WorldPayPaymentsStandard/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

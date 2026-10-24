@@ -2,7 +2,7 @@
 id: app/expenseagent
 type: app
 title: ExpenseAgent
-summary: "ExpenseAgent (Microsoft.ExpenseAgent): 382 objects in BC29-30 (150 pages, 68 codeunits, 55 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos."
+summary: "ExpenseAgent (Microsoft.ExpenseAgent): 386 objects in BC29-30 (152 pages, 68 codeunits, 56 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos."
 tier: official
 language: en
 tags:
@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:07:14.456Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 743390469c625ceb84595d5e9a1bd4c0eb067a28958919e749f9fa2b5a9a0981
+  input_hash: 25c0522d4ab5cf72546c15db8cbf607a5e2d6b9a9b9947dcbe63534e21f6ecda
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ExpenseAgent/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ExpenseAgent/app
     title: src/Apps/W1/ExpenseAgent/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -70,6 +70,7 @@ links:
     - object/table/6937
     - object/table/6938
     - object/table/6939
+    - object/table/6940
     - object/table/6942
     - object/table/6943
     - object/table/6950
@@ -229,7 +230,6 @@ links:
     - object/page/7102
     - object/page/7103
     - object/page/7104
-    - object/page/7105
   features: []
   topics:
     - topic/business-central/business-functionality/expense-management-preview/set-up-expense-management
@@ -254,11 +254,11 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 382
+  objects: 386
   by_type:
-    page: 150
+    page: 152
     codeunit: 68
-    table: 55
+    table: 56
     enum: 37
     entitlement: 25
     tableextension: 13
@@ -266,8 +266,8 @@ counts:
     pageextension: 7
     query: 6
     enumextension: 5
+    report: 4
     permissionsetextension: 4
-    report: 3
     profile: 1
   hubs: 6
   videos: 6
@@ -276,7 +276,7 @@ counts:
 
 # ExpenseAgent
 
-> ExpenseAgent (Microsoft.ExpenseAgent): 382 objects in BC29-30 (150 pages, 68 codeunits, 55 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos.
+> ExpenseAgent (Microsoft.ExpenseAgent): 386 objects in BC29-30 (152 pages, 68 codeunits, 56 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos.
 
 First-party app · folder `src/Apps/W1/ExpenseAgent/app` · namespace `Microsoft.ExpenseAgent` · BC29-30 · system copilot · facts from the code pillar and the joins, nothing machine-written
 
@@ -293,9 +293,9 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-382 objects, by type.
+386 objects, by type.
 
-### Tables (55)
+### Tables (56)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -339,6 +339,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6937 | [Expense Vendor](../objects/table/6937.md) |  |
 | 6938 | [Traveler](../objects/table/6938.md) |  |
 | 6939 | [Mileage Rate Setup](../objects/table/6939.md) |  |
+| 6940 | [Expense Alternate Approver](../objects/table/6940.md) |  |
 | 6942 | [EA Email Attachment](../objects/table/6942.md) |  |
 | 6943 | [Expense Agent Access Control](../objects/table/6943.md) |  |
 | 6950 | [EA KPI](../objects/table/6950.md) | Expense Agent |
@@ -373,7 +374,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 7109 | [Exp. Spend Req. Detail](../objects/tableextension/7109.md) |  |
 | 7110 | [Expense Employee](../objects/tableextension/7110.md) |  |
 
-### Pages (150)
+### Pages (152)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -527,6 +528,8 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 7135 | [Travel Request Details API](../objects/page/7135.md) |  |
 | 7136 | [Travel Request List](../objects/page/7136.md) | Travel Requests |
 | 7137 | [Travel Request Subform](../objects/page/7137.md) | Lines |
+| 7140 | [Expense Alternate Approvers](../objects/page/7140.md) |  |
+| 7147 | [Exp. Alternate Approvers API](../objects/page/7147.md) |  |
 
 ### Page extensions (7)
 
@@ -540,10 +543,11 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6977 | [Exp. Approval User Setup](../objects/pageextension/6977.md) |  |
 | 6995 | [EA Agent Card](../objects/pageextension/6995.md) |  |
 
-### Reports (3)
+### Reports (4)
 
 | Id | Name | Caption |
 |---|---|---|
+| 6900 | [Delegate Expense Approval Req](../objects/report/6900.md) | Delegate Expense Approval Request |
 | 6950 | [Expense Report Details](../objects/report/6950.md) |  |
 | 6951 | [Expense Report Cover Page](../objects/report/6951.md) |  |
 | 6952 | [Expense Report Summary Page](../objects/report/6952.md) |  |
@@ -753,4 +757,4 @@ Videos and posts that name this app's objects by exact type and name.
 - [Introducing: Expense Management (2026 release wave 1)](../videos/pjML7lXSsd0.md) (video, 2026-04-27): names Page 6996 "Expense Agent Setup"
 - [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../videos/qZALauRY_So.md) (video, 2026-04-27): names Page 6951 "Expense Users"
 
-Source: [src/Apps/W1/ExpenseAgent/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ExpenseAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ExpenseAgent/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ExpenseAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

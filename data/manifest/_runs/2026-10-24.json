@@ -1,7 +1,7 @@
 {
   "date": "2026-10-24",
-  "started_at": "2026-10-24T01:02:25.817Z",
-  "finished_at": "2026-10-24T01:07:52.525Z",
+  "started_at": "2026-10-24T01:14:13.756Z",
+  "finished_at": "2026-10-24T01:23:49.746Z",
   "status": "partial",
   "pipeline": "0.2.0",
   "runner": {
@@ -33,7 +33,7 @@
           "removed": 0
         },
         "note": "2161 pages at 6c6535ebc8e3",
-        "duration_ms": 11360
+        "duration_ms": 9888
       },
       {
         "id": "learn-devitpro",
@@ -47,21 +47,21 @@
           "removed": 0
         },
         "note": "5893 pages at fb2fdd5d8511",
-        "duration_ms": 21734
+        "duration_ms": 13145
       },
       {
         "id": "m365-roadmap",
         "kind": "roadmap-api",
         "ok": true,
         "counts": {
-          "new": 3,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 105,
+          "unchanged": 108,
           "removed": 0
         },
-        "note": "108 Business Central items of 2193; snapshot written (+3 -0 ~0)",
-        "duration_ms": 2284
+        "note": "108 Business Central items of 2193; snapshot unchanged",
+        "duration_ms": 575
       },
       {
         "id": "al-language-extension",
@@ -75,7 +75,7 @@
           "removed": 0
         },
         "note": "unchanged; latest 17.10.2902953 uploaded 2026-10-19",
-        "duration_ms": 602
+        "duration_ms": 897
       },
       {
         "id": "ms-support-updates",
@@ -89,7 +89,7 @@
           "removed": 0
         },
         "note": "3 updates: 28.6, 28.5, 28.4",
-        "duration_ms": 2442
+        "duration_ms": 1203
       },
       {
         "id": "bcquality",
@@ -103,7 +103,7 @@
           "removed": 0
         },
         "note": "458 pages at a4593a1b1585",
-        "duration_ms": 1180
+        "duration_ms": 1450
       },
       {
         "id": "alguidelines",
@@ -117,7 +117,7 @@
           "removed": 0
         },
         "note": "232 pages at 53923c5010f2",
-        "duration_ms": 837
+        "duration_ms": 1133
       },
       {
         "id": "bcapps",
@@ -131,7 +131,7 @@
           "removed": 0
         },
         "note": "3/3 branches",
-        "duration_ms": 863
+        "duration_ms": 1199
       },
       {
         "id": "bcapps-prs",
@@ -145,7 +145,7 @@
           "removed": 0
         },
         "note": "110 merged in main, releases/29.x; 25 bots, 32 backports skipped; cursor 2026-10-23",
-        "duration_ms": 7396
+        "duration_ms": 10782
       },
       {
         "id": "al-go-prs",
@@ -159,7 +159,7 @@
           "removed": 0
         },
         "note": "1 merged in main; 0 bots, 0 backports skipped; cursor 2026-10-23",
-        "duration_ms": 3467
+        "duration_ms": 3324
       },
       {
         "id": "bcquality-prs",
@@ -173,7 +173,7 @@
           "removed": 0
         },
         "note": "1 merged in main; 0 bots, 0 backports skipped; cursor 2026-10-20",
-        "duration_ms": 13949
+        "duration_ms": 6746
       },
       {
         "id": "sandbox-history",
@@ -181,13 +181,13 @@
         "ok": true,
         "counts": {
           "new": 0,
-          "changed": 1,
+          "changed": 2,
           "updated": 0,
-          "unchanged": 7,
+          "unchanged": 6,
           "removed": 0
         },
         "note": "8/8 branches",
-        "duration_ms": 10407
+        "duration_ms": 3397
       },
       {
         "id": "onprem-history",
@@ -201,7 +201,7 @@
           "removed": 0
         },
         "note": "2/2 branches",
-        "duration_ms": 10373
+        "duration_ms": 570
       },
       {
         "id": "yt-microsoft",
@@ -215,7 +215,7 @@
           "removed": 0
         },
         "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCLErzd6kpQ0DAJSGsGjtxbA",
-        "duration_ms": 125
+        "duration_ms": 124
       },
       {
         "id": "yt-hougaard",
@@ -229,7 +229,7 @@
           "removed": 0
         },
         "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcJCTa4PvbOQj50y_HJSxXw",
-        "duration_ms": 126
+        "duration_ms": 78
       },
       {
         "id": "yt-saurav",
@@ -243,7 +243,7 @@
           "removed": 0
         },
         "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC2SnEeamdCLN98MXFprKd_w",
-        "duration_ms": 112
+        "duration_ms": 24
       },
       {
         "id": "yt-areopa",
@@ -257,7 +257,7 @@
           "removed": 0
         },
         "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCWL0RbbT6ILzzCd6Ix7t0AQ",
-        "duration_ms": 98
+        "duration_ms": 27
       },
       {
         "id": "yt-mibuso",
@@ -270,8 +270,8 @@
           "unchanged": 0,
           "removed": 0
         },
-        "error": "HTTP 500 for https://www.youtube.com/feeds/videos.xml?channel_id=UCeFUrL4JZsOa39TQVmrw2ww",
-        "duration_ms": 89
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCeFUrL4JZsOa39TQVmrw2ww",
+        "duration_ms": 23
       },
       {
         "id": "yt-stefanmaron",
@@ -299,7 +299,7 @@
           "removed": 0
         },
         "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcjRDxd_tl4UckLy-30pt3g",
-        "duration_ms": 26
+        "duration_ms": 27
       },
       {
         "id": "yt-dynamicscorner",
@@ -313,7 +313,7 @@
           "removed": 0
         },
         "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCiC0ZMYcrfBCUIicN1DwbJQ",
-        "duration_ms": 81
+        "duration_ms": 22
       },
       {
         "id": "waldo-be",
@@ -327,7 +327,7 @@
           "removed": 0
         },
         "note": "17 posts via WordPress REST",
-        "duration_ms": 418
+        "duration_ms": 414
       },
       {
         "id": "stefanmaron-com",
@@ -341,7 +341,7 @@
           "removed": 0
         },
         "note": "28 posts via feed",
-        "duration_ms": 522
+        "duration_ms": 410
       },
       {
         "id": "kauffmann-nl",
@@ -355,7 +355,7 @@
           "removed": 0
         },
         "note": "3 posts via WordPress REST",
-        "duration_ms": 925
+        "duration_ms": 705
       },
       {
         "id": "demiliani-com",
@@ -369,7 +369,7 @@
           "removed": 0
         },
         "note": "91 posts via WordPress REST",
-        "duration_ms": 687
+        "duration_ms": 541
       },
       {
         "id": "freddysblog",
@@ -383,7 +383,7 @@
           "removed": 0
         },
         "note": "10 posts via feed",
-        "duration_ms": 444
+        "duration_ms": 266
       },
       {
         "id": "jpearson-blog",
@@ -397,7 +397,7 @@
           "removed": 0
         },
         "note": "8 posts via WordPress REST",
-        "duration_ms": 364
+        "duration_ms": 354
       },
       {
         "id": "katson-com",
@@ -411,7 +411,7 @@
           "removed": 0
         },
         "note": "5 posts via feed",
-        "duration_ms": 948
+        "duration_ms": 822
       },
       {
         "id": "sauravdhyani-com",
@@ -425,7 +425,7 @@
           "removed": 0
         },
         "note": "25 posts via feed",
-        "duration_ms": 547
+        "duration_ms": 300
       },
       {
         "id": "gerardorenteria-blog",
@@ -439,7 +439,7 @@
           "removed": 0
         },
         "note": "78 posts via WordPress REST",
-        "duration_ms": 625
+        "duration_ms": 402
       },
       {
         "id": "bertverbeek-nl",
@@ -453,7 +453,7 @@
           "removed": 0
         },
         "note": "13 posts via WordPress REST",
-        "duration_ms": 953
+        "duration_ms": 912
       },
       {
         "id": "kine-cz",
@@ -467,7 +467,7 @@
           "removed": 0
         },
         "note": "3 posts via feed",
-        "duration_ms": 276
+        "duration_ms": 240
       },
       {
         "id": "keytogoodcode-com",
@@ -496,7 +496,7 @@
           "removed": 0
         },
         "note": "12 posts via WordPress REST",
-        "duration_ms": 970
+        "duration_ms": 801
       },
       {
         "id": "mohana-blog",
@@ -510,7 +510,7 @@
           "removed": 0
         },
         "note": "25 posts via feed",
-        "duration_ms": 510
+        "duration_ms": 500
       },
       {
         "id": "duiliotacconi-com",
@@ -524,7 +524,7 @@
           "removed": 0
         },
         "note": "21 posts via WordPress REST",
-        "duration_ms": 308
+        "duration_ms": 336
       },
       {
         "id": "thinkaboutit-be",
@@ -538,7 +538,7 @@
           "removed": 0
         },
         "note": "62 posts via WordPress REST",
-        "duration_ms": 1289
+        "duration_ms": 249
       },
       {
         "id": "thatnavguy-com",
@@ -552,7 +552,7 @@
           "removed": 0
         },
         "note": "72 posts via feed",
-        "duration_ms": 466
+        "duration_ms": 220
       },
       {
         "id": "dvlprlife-com",
@@ -566,7 +566,7 @@
           "removed": 0
         },
         "note": "20 posts via feed",
-        "duration_ms": 477
+        "duration_ms": 314
       },
       {
         "id": "tine-staric-net",
@@ -580,7 +580,7 @@
           "removed": 0
         },
         "note": "9 posts via feed",
-        "duration_ms": 360
+        "duration_ms": 270
       },
       {
         "id": "aardvarklabs-blog",
@@ -594,7 +594,7 @@
           "removed": 0
         },
         "note": "83 posts via WordPress REST",
-        "duration_ms": 521
+        "duration_ms": 414
       },
       {
         "id": "vondervoort-be",
@@ -608,7 +608,7 @@
           "removed": 0
         },
         "error": "HTTP 403 for https://www.vondervoort.be/index.php/feed/",
-        "duration_ms": 251
+        "duration_ms": 182
       },
       {
         "id": "thedynamicsexplorer-com",
@@ -622,7 +622,7 @@
           "removed": 0
         },
         "note": "18 posts via WordPress REST",
-        "duration_ms": 338
+        "duration_ms": 323
       },
       {
         "id": "vld-bc-com",
@@ -713,17 +713,17 @@
           }
         ],
         "note": "50 digest entries, 10 unregistered hosts",
-        "duration_ms": 1731
+        "duration_ms": 1144
       }
     ],
     "totals": {
       "sources": 45,
       "failed": 9,
       "deferred": 2,
-      "new": 3,
-      "changed": 1,
+      "new": 0,
+      "changed": 2,
       "updated": 0,
-      "unchanged": 9586,
+      "unchanged": 9588,
       "removed": 0
     }
   },
@@ -754,23 +754,18 @@
       "post_reviews": 7,
       "change_reviews": 7
     },
-    "work": 6,
-    "executed": 6,
+    "work": 3,
+    "executed": 3,
     "skips": 0,
     "quota_use": {
-      "unlimited": {
-        "selected": 3,
-        "available": 3,
-        "limit": null
-      },
-      "change_fetch": {
+      "changes": {
         "selected": 2,
         "available": 2,
-        "limit": 60
+        "limit": 20
       },
       "code_jobs": {
         "selected": 1,
-        "available": 1,
+        "available": 2,
         "limit": 1
       }
     },
@@ -794,33 +789,48 @@
     "binding": "night",
     "exhausted": true
   },
-  "items_changed": 4,
+  "items_changed": 2,
   "errors": [
     "yt-microsoft: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCLErzd6kpQ0DAJSGsGjtxbA",
     "yt-hougaard: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcJCTa4PvbOQj50y_HJSxXw",
     "yt-saurav: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC2SnEeamdCLN98MXFprKd_w",
     "yt-areopa: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCWL0RbbT6ILzzCd6Ix7t0AQ",
-    "yt-mibuso: HTTP 500 for https://www.youtube.com/feeds/videos.xml?channel_id=UCeFUrL4JZsOa39TQVmrw2ww",
+    "yt-mibuso: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCeFUrL4JZsOa39TQVmrw2ww",
     "yt-stefanmaron: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC96RLsspoArRJu6dhwkOsWQ",
     "yt-bcmusings: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcjRDxd_tl4UckLy-30pt3g",
     "yt-dynamicscorner: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCiC0ZMYcrfBCUIicN1DwbJQ",
     "vondervoort-be: HTTP 403 for https://www.vondervoort.be/index.php/feed/",
-    "code derived: object page codeunit/7773 failed schema frontmatter.object:\n  - /cautions/0/t must be integer"
+    "content: changes/bcapps/10735.md: links.objects names object/pageextension/7000104-es, which has no page",
+    "content: changes/bcapps/10735.md: links.objects names object/pageextension/7000105-es, which has no page",
+    "content: changes/bcapps/10735.md: links.objects names object/pageextension/7000110-es, which has no page",
+    "content: changes/bcapps/10735.md: links.objects names object/pageextension/7000111-es, which has no page",
+    "content: changes/bcapps/10735.md: broken link ../../objects/pageextension/7000104-es.md",
+    "content: changes/bcapps/10735.md: broken link ../../objects/pageextension/7000105-es.md",
+    "content: changes/bcapps/10735.md: broken link ../../objects/pageextension/7000110-es.md",
+    "content: changes/bcapps/10735.md: broken link ../../objects/pageextension/7000111-es.md",
+    "content: changes/bcapps/12443.md: links.objects names object/tableextension/7000126-es, which has no page",
+    "content: changes/bcapps/12443.md: links.objects names object/pageextension/7000127-es, which has no page",
+    "content: changes/bcapps/12443.md: links.objects names object/tableextension/7000129-es, which has no page",
+    "content: changes/bcapps/12443.md: links.objects names object/pageextension/7000136-es, which has no page",
+    "content: changes/bcapps/12443.md: links.objects names object/tableextension/7000128-es, which has no page",
+    "content: changes/bcapps/12443.md: links.objects names object/pageextension/7000133-es, which has no page",
+    "content: changes/bcapps/12443.md: links.objects names object/pageextension/7000135-es, which has no page",
+    "content: changes/bcapps/12443.md: links.objects names object/pageextension/7000132-es, which has no page",
+    "content: changes/bcapps/12443.md: links.objects names object/pageextension/7000131-es, which has no page",
+    "content: changes/bcapps/12443.md: links.objects names object/pageextension/7000139-es, which has no page",
+    "content: changes/bcapps/12443.md: links.objects names object/tableextension/7000131-es, which has no page",
+    "content: changes/bcapps/12443.md: links.objects names object/pageextension/7000140-es, which has no page"
   ],
   "captions_retried": 0,
   "checkpoints": 0,
   "execution": {
     "stop_reason": "spend-cap",
     "deadline": "2026-10-24T04:35:00.000Z",
-    "items_touched": 6,
+    "items_touched": 3,
     "stages_run": {
-      "roadmap:fetched": 3,
-      "roadmap:linked": 3,
-      "roadmap:published": 3,
-      "change:fetched": 2,
       "code:fetched": 1
     },
-    "advanced": 12,
+    "advanced": 1,
     "skipped": 0,
     "failed_attempts": 0,
     "failed_final": 0,
@@ -828,9 +838,8 @@
     "held": 0,
     "parked": 0,
     "quota_charged": {
-      "change_fetch": 2,
-      "code_jobs": 1,
-      "changes": 1
+      "changes": 2,
+      "code_jobs": 1
     },
     "regards": [],
     "errors": [],
@@ -862,7 +871,7 @@
         "model": 4086
       },
       "learn_pages": 1747,
-      "written": true,
+      "written": false,
       "errors": []
     },
     "cautions": {
@@ -871,23 +880,49 @@
       "objects": 44,
       "attached": 61,
       "written": true
+    },
+    "pages": {
+      "objects": 25667,
+      "written": 23934,
+      "removed": 58,
+      "localizations": 22,
+      "own_objects": 9214
+    },
+    "related": {
+      "pages": 10172,
+      "rows": 33658,
+      "by_rank": {
+        "1": 983,
+        "2": 67,
+        "3": 20201,
+        "4": 1942,
+        "5": 3314,
+        "6": 7013,
+        "7": 138
+      },
+      "written": true
+    },
+    "apps": {
+      "apps": 96,
+      "written": 96,
+      "removed": 0
     }
   },
   "changes": {
-    "fetched": 2,
+    "fetched": 0,
     "skipped_non_code": 0,
     "held": 0,
     "pages": 1238,
     "relinked": 0,
-    "rerendered": 993,
-    "api_calls": 18,
+    "rerendered": 0,
+    "api_calls": 14,
     "narrated": 0
   },
   "previews": {
     "probed": 0,
     "refreshed": 0,
     "failed": 0,
-    "rerendered": 216,
+    "rerendered": 0,
     "flipped": [],
     "channels": 0
   },
@@ -1012,12 +1047,12 @@
     "filled": 0,
     "prefetched": 0,
     "missing": 0,
-    "ms": 948,
+    "ms": 879,
     "rule": 2
   },
   "content": {
-    "pages": 29126,
-    "errors": 0
+    "pages": 29091,
+    "errors": 134
   },
   "leak": {
     "vault": "scanned",

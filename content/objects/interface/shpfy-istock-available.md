@@ -18,20 +18,21 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ff37e52d130b4c6ca269888d50a72ba0b9f518f4cd40af7309c708cd549843c5
+  input_hash: e83c8cfe65413ab9cafefac73ae12ba2165aa5e30a2062c3f4749c1922db3dc0
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/Shopify/app/src/Inventory/Interface/ShpfyIStockAvailable.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/Shopify/app/src/Inventory/Interface/ShpfyIStockAvailable.Interface.al
     title: src/Apps/W1/Shopify/app/src/Inventory/Interface/ShpfyIStockAvailable.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
-  learn: []
+  learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify
   objects: []
   features: []
   topics: []
@@ -76,7 +77,7 @@ relations:
 
 > Interface "Shpfy IStock Available" in Shopify (Microsoft.Integration.Shopify). 1 public procedures. Introduced in BC29, still in BC30.
 
-Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/Shopify/app/src/Inventory/Interface/ShpfyIStockAvailable.Interface.al) · facts from BC29
+Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/Shopify/app/src/Inventory/Interface/ShpfyIStockAvailable.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -86,6 +87,10 @@ Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at af1b860d](http
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Documented on Microsoft Learn
+
+- [Extending Shopify](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify) (names this object)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 852382096aca9442aab246d6276d9f2b25a2d14cd921c4869ec6cfeab98e4ac7
+  input_hash: 99d190504790fb71c0f8522b4a90ab7af44433279b648945fc8a5750f827cf74
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PATextToAccountMapping.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PATextToAccountMapping.PageCust.al
     title: src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PATextToAccountMapping.PageCust.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,12 @@ links:
   guidelines: []
   changes:
     - change/bcapps/7546
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation
+      title: Setting up Text-to-Account mapping for recurring payments
+      label: possibly related
+      why: Documents Text-to-Account mapping for automatic posting during payment processing
+      by: model
 object_type: pagecustomization
 object_id: null
 name: PA Text-to-Account Mapping
@@ -77,7 +83,7 @@ relations:
 
 > Page customization "PA Text-to-Account Mapping" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
-PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PATextToAccountMapping.PageCust.al) · facts from BC29
+PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PATextToAccountMapping.PageCust.al) · facts from BC29
 
 ## Recent changes
 
@@ -87,6 +93,12 @@ PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at af1b860d
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Setting up Text-to-Account mapping for recurring payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation) — possibly related: Documents Text-to-Account mapping for automatic posting during payment processing (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

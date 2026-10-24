@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 010c381027486a20a2051b2b1c687ce4c2d6c65179d5e76e00fd385705be8f86
+  input_hash: f06da174b9bafc66c24ce8b4117e4d40814e16182fd574058dbb1e0eac78282c
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralTeamMember.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralTeamMember.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralTeamMember.Entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,17 @@ links:
   guidelines: []
   changes:
     - change/bcapps/9859
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
+      title: Expense Agent overview for Business Central
+      label: possibly related
+      why: Expense Agent overview explains the expense lifecycle Team Member users participate in.
+      by: model
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/licensing
+      title: Licensing in Business Central
+      label: possibly related
+      why: Licensing page documents Team Member plans and their entitlements in Business Central.
+      by: model
 object_type: entitlement
 object_id: null
 name: EA - Dynamics 365 Business Central Team Member
@@ -77,7 +88,7 @@ relations:
 
 > Entitlement "EA - Dynamics 365 Business Central Team Member" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralTeamMember.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralTeamMember.Entitlement.al) · facts from BC29
 
 ## Recent changes
 
@@ -87,6 +98,13 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https:
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Expense Agent overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent) — possibly related: Expense Agent overview explains the expense lifecycle Team Member users participate in. (model-linked)
+- [Licensing in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/licensing) — possibly related: Licensing page documents Team Member plans and their entitlements in Business Central. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ddc20ffb82a8bbf555dbba98fd45544ebb51140ff4d41076d0eed1f693d286cb
+  input_hash: 54fa6930fc2f97730b14f767986c9ba145734aef2b9236721accbea31d0af3c8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesQuoteSubform.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesQuoteSubform.PageCust.al
     title: src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesQuoteSubform.PageCust.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,12 @@ links:
   guidelines: []
   changes:
     - change/bcapps/9364
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/sales-order-agent
+      title: Sales Order Agent overview
+      label: possibly related
+      why: Describes Sales Order Agent automation of quote creation from customer emails
+      by: model
 object_type: pagecustomization
 object_id: null
 name: SOA Sales Quote Subform
@@ -77,7 +83,7 @@ relations:
 
 > Page customization "SOA Sales Quote Subform" in SalesOrderAgent (Microsoft.Agent.SalesOrderAgent). Introduced in BC29, still in BC30.
 
-SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesQuoteSubform.PageCust.al) · facts from BC29
+SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesQuoteSubform.PageCust.al) · facts from BC29
 
 ## Recent changes
 
@@ -87,6 +93,12 @@ SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · BC29-30 · [source at af1b
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Sales Order Agent overview](https://learn.microsoft.com/dynamics365/business-central/sales-order-agent) — possibly related: Describes Sales Order Agent automation of quote creation from customer emails (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

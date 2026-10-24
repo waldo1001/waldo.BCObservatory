@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a717e03cbc38104844ccf29f2695ca3fb4890b1f9feaa46dad4671919e684df9
+  input_hash: 9125dcde082462cc668948febf1ffb597688dd44f61c69cbd00d2556c2a4f851
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/APIV1/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/APIV1/app
     title: src/Apps/W1/APIV1/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -273,4 +273,4 @@ First-party app · folder `src/Apps/W1/APIV1/app` · namespace `Microsoft.API` �
 |  | [Internal Administrator APIV1](../objects/entitlement/internal-administrator-apiv1.md) |  |
 |  | [Internal BC Administrator APIV1](../objects/entitlement/internal-bc-administrator-apiv1.md) |  |
 
-Source: [src/Apps/W1/APIV1/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/APIV1/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/APIV1/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/APIV1/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

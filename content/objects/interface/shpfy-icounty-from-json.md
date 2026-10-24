@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0d4e1e96554b273c58801ae610b1a88bb1e9656e5150d09af1fff8ad2b63bd0d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICountyFromJson.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICountyFromJson.Interface.al
     title: src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICountyFromJson.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Shpfy ICounty From Json" in Shopify (Microsoft.Integration.Shopify). 1 public procedures. Introduced in BC29, still in BC30.
 
-Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICountyFromJson.Interface.al) · facts from BC29
+Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICountyFromJson.Interface.al) · facts from BC29
 
 ## Properties
 

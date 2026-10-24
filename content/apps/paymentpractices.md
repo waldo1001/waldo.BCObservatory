@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1967866b92aa0dbe712c488f010b9bb9ec0fb024b48e2648ac09f01a2a4395da
+  input_hash: 50f42da45bfe4ebbb7f523e100f5950c789e805c69e8a2d2ea9a4f831b574c09
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/PaymentPractices/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/PaymentPractices/app
     title: src/Apps/W1/PaymentPractices/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -208,4 +208,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 692 | [INTELLIGENT CLOUD - Paym. Prac.](../objects/permissionsetextension/692.md) |  |
 | 693 | [LOCAL - Paym. Prac.](../objects/permissionsetextension/693.md) |  |
 
-Source: [src/Apps/W1/PaymentPractices/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/PaymentPractices/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/PaymentPractices/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/PaymentPractices/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

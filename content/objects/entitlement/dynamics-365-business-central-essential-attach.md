@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 602c864a674723960ee6a12cad210ae28e1d93f9a41f5235f2af808597b1921a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralEssentialAttach.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralEssentialAttach.Entitlement.al
     title: src/System Application/App/Entitlements/Dynamics365BusinessCentralEssentialAttach.Entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Essential - Attach" in System Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-System Application · System.Security.AccessControl · BC23-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralEssentialAttach.Entitlement.al) · facts from BC29
+System Application · System.Security.AccessControl · BC23-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralEssentialAttach.Entitlement.al) · facts from BC29
 
 ## Across versions
 

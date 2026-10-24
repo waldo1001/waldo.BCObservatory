@@ -14,17 +14,17 @@ review:
   at: "2026-10-16T01:06:54.189Z"
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 47dbe019c0907107d733e44ce28717b5ce9f842d9b01355dd72e5e87fd21f5d8
+  input_hash: 44a5ca4e8c0f395fbcb9fe0384aa3656986a6e0e6d43ab49d4a51fdea130e7f8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-be
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -559,6 +559,6 @@ Objects: [codeunit/5760 "Whse.-Post Receipt"](../objects/codeunit/5760.md).
 ## Other versions
 
 - BC28: 184 objects differ from W1 (101 fields, 18 events added)
-- BC30: 209 objects differ from W1 (101 fields, 18 events added)
+- BC30: 211 objects differ from W1 (101 fields, 18 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

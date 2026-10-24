@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 32323a045bc1cf86bf55425b91bae416dc5e60ee54b1d4046b70ee1559f03df4
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365BusinessCentralEssentialAttachEmailLogging.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365BusinessCentralEssentialAttachEmailLogging.Entitlement.al
     title: src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365BusinessCentralEssentialAttachEmailLogging.Entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Essential - Attach Email Logging" in EmailLogging (Microsoft.CRM.EmailLoggin). Introduced in BC29, still in BC30.
 
-EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365BusinessCentralEssentialAttachEmailLogging.Entitlement.al) · facts from BC29
+EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365BusinessCentralEssentialAttachEmailLogging.Entitlement.al) · facts from BC29
 
 ## Across versions
 

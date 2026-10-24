@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 890952bad87ae8e5031a9a8800b2d64e6f230ecba4b04406bde68a6a14ca719a
+  input_hash: 0ddb824ca2888f416d18ff527fde337a8e914d38839020fb1f19eedb58e09377
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ExcelReports/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ExcelReports/app
     title: src/Apps/W1/ExcelReports/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -262,4 +262,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 4403 | [D365 FULL ACCESS - FE Reports](../objects/permissionsetextension/4403.md) |  |
 | 4404 | [D365 READ - FE Reports](../objects/permissionsetextension/4404.md) |  |
 
-Source: [src/Apps/W1/ExcelReports/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ExcelReports/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ExcelReports/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ExcelReports/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

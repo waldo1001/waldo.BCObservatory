@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d1b639389e082dfb9ea5f899ba2d9d7c70bb0eb35f3eef47a6b596170a09f0eb
+  input_hash: 4ede8f6f09792e2b89af20838e9efffe40649db35b8bca5d00cc024cb358ef95
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralBasicFinancials.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralBasicFinancials.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralBasicFinancials.Entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,17 @@ links:
   guidelines: []
   changes:
     - change/bcapps/9859
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
+      title: Expense Agent overview for Business Central
+      label: possibly related
+      why: Documents Expense Agent automated expense management functionality.
+      by: model
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page
+      title: Set Up Expense Agent in Business Central
+      label: possibly related
+      why: Documents Expense Agent setup and configuration for users.
+      by: model
 object_type: entitlement
 object_id: null
 name: EA - Dynamics 365 Business Central Basic Financials
@@ -77,7 +88,7 @@ relations:
 
 > Entitlement "EA - Dynamics 365 Business Central Basic Financials" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralBasicFinancials.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralBasicFinancials.Entitlement.al) · facts from BC29
 
 ## Recent changes
 
@@ -87,6 +98,13 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https:
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Expense Agent overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent) — possibly related: Documents Expense Agent automated expense management functionality. (model-linked)
+- [Set Up Expense Agent in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page) — possibly related: Documents Expense Agent setup and configuration for users. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

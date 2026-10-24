@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 76792241ae2097983a9a9f1f3c7aef954d9c15c847307cc834173c2f34474fcd
+  input_hash: 50b291c29a048e0d4ada2ee5004804e81ce7e4e71b76295a73d7a4ed1b1bcd14
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraftSubform.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraftSubform.PageCust.al
     title: src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraftSubform.PageCust.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,17 @@ links:
   guidelines: []
   changes:
     - change/bcapps/7546
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/match-purchase-invoice-drafts-to-orders
+      title: Match Purchase Invoice Drafts to Purchase Orders
+      label: possibly related
+      why: Documents the purchase invoice draft matching process this customization enables
+      by: model
+    - to: https://learn.microsoft.com/dynamics365/business-central/payables-agent
+      title: Payables Agent Overview in Business Central
+      label: possibly related
+      why: Documents Payables Agent workflow that creates invoice drafts from e-documents
+      by: model
 object_type: pagecustomization
 object_id: null
 name: PA EDoc Purchase Draft Subform
@@ -77,7 +88,7 @@ relations:
 
 > Page customization "PA EDoc Purchase Draft Subform" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
-PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraftSubform.PageCust.al) · facts from BC29
+PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraftSubform.PageCust.al) · facts from BC29
 
 ## Recent changes
 
@@ -87,6 +98,13 @@ PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at af1b860d
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Match Purchase Invoice Drafts to Purchase Orders](https://learn.microsoft.com/dynamics365/business-central/match-purchase-invoice-drafts-to-orders) — possibly related: Documents the purchase invoice draft matching process this customization enables (model-linked)
+- [Payables Agent Overview in Business Central](https://learn.microsoft.com/dynamics365/business-central/payables-agent) — possibly related: Documents Payables Agent workflow that creates invoice drafts from e-documents (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

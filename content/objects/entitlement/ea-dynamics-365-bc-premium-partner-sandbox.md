@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5681191146c3954ea498504a671faf60b119d6484347899fc6f527e9c32f36b0
+  input_hash: 08a1b22d58ff83b6240af3244ec2e2805d7b70550c4e0215a1d979baf909c5db
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BCPremiumPartnerSandbox.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BCPremiumPartnerSandbox.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BCPremiumPartnerSandbox.Entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,17 @@ links:
   guidelines: []
   changes:
     - change/bcapps/9859
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-types
+      title: Production and Sandbox Environments
+      label: possibly related
+      why: Documents partner sandbox environments with premium functionality.
+      by: model
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-sandbox-entitlements
+      title: Working with sandboxes and entitlements
+      label: possibly related
+      why: Documents sandbox setup with different license types for testing.
+      by: model
 object_type: entitlement
 object_id: null
 name: EA - Dynamics 365 BC Premium Partner Sandbox
@@ -77,7 +88,7 @@ relations:
 
 > Entitlement "EA - Dynamics 365 BC Premium Partner Sandbox" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BCPremiumPartnerSandbox.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BCPremiumPartnerSandbox.Entitlement.al) · facts from BC29
 
 ## Recent changes
 
@@ -87,6 +98,13 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https:
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Production and Sandbox Environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-types) — possibly related: Documents partner sandbox environments with premium functionality. (model-linked)
+- [Working with sandboxes and entitlements](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-sandbox-entitlements) — possibly related: Documents sandbox setup with different license types for testing. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

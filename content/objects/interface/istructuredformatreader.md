@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: acf962f022c0367a5d28ce7a29297cfa744bce820c44964a118eeeef89c4166f
+  input_hash: ae14403e83e6ee94a54d3d4fcce9e0cb9b7745e24194a2dc37804bc9a8ba33ab
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IStructuredFormatReader.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IStructuredFormatReader.Interface.al
     title: src/Apps/W1/EDocument/app/src/Processing/Interfaces/IStructuredFormatReader.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,12 @@ links:
   guidelines: []
   changes:
     - change/bcapps/8698
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments
+      title: Extending the e-documents functionality
+      label: possibly related
+      why: Documents interfaces for extending e-documents functionality including processing.
+      by: model
 object_type: interface
 object_id: null
 name: IStructuredFormatReader
@@ -78,7 +84,7 @@ relations:
 
 > Interface "IStructuredFormatReader" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 2 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IStructuredFormatReader.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IStructuredFormatReader.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -93,6 +99,12 @@ EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Extending the e-documents functionality](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) — possibly related: Documents interfaces for extending e-documents functionality including processing. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

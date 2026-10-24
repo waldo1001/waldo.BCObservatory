@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 71876a905816579f82c04f080075c56187434a58f693478508a2190536240c9c
+  input_hash: 915971181f9d8db662f2b9a443bea57d2725505dbf438ab946f4cefc94a46e61
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Integration/Dataverse/DataverseCloudEndpoints.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Integration/Dataverse/DataverseCloudEndpoints.Interface.al
     title: src/Layers/W1/BaseApp/Integration/Dataverse/DataverseCloudEndpoints.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -42,6 +42,12 @@ links:
   changes:
     - change/bcapps/11171
     - change/bcapps/9127
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration
+      title: Customizing an integration with Microsoft Dataverse
+      label: possibly related
+      why: Documents Dataverse integration for synchronizing data between Business Central and Dataverse.
+      by: model
 object_type: interface
 object_id: null
 name: Dataverse Cloud Endpoints
@@ -80,7 +86,7 @@ relations:
 
 > Interface "Dataverse Cloud Endpoints" in Base Application (Microsoft.Integration.Dataverse). 4 public procedures. Introduced in BC29, still in BC30, changed in BC30.
 
-Base Application · Microsoft.Integration.Dataverse · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Integration/Dataverse/DataverseCloudEndpoints.Interface.al) · facts from BC29
+Base Application · Microsoft.Integration.Dataverse · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Integration/Dataverse/DataverseCloudEndpoints.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -109,6 +115,12 @@ Base Application · Microsoft.Integration.Dataverse · BC29-30 · [source at af1
 
 - Present in: BC29-30
 - Changed (declaration) in: BC30
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Customizing an integration with Microsoft Dataverse](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration) — possibly related: Documents Dataverse integration for synchronizing data between Business Central and Dataverse. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

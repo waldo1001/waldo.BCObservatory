@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5ce51cfb6c64be49104b0dce51265496061c1fb2627416c4046de596f245196a
+  input_hash: 68e8be987c11cb20689f97f337983410e14baeced877f09bf8b2d2b435ceb096
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EAInternalAdministrator.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EAInternalAdministrator.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EAInternalAdministrator.Entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,17 @@ links:
   guidelines: []
   changes:
     - change/bcapps/9859
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview
+      title: Entitlements and permission sets overview
+      label: possibly related
+      why: Entitlements and permissions overview explains how administrator entitlements grant access rights.
+      by: model
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page
+      title: Set Up Expense Agent in Business Central
+      label: possibly related
+      why: Expense Agent setup guide documents administrator configuration tasks this role enables.
+      by: model
 object_type: entitlement
 object_id: null
 name: EA - Internal Administrator
@@ -77,7 +88,7 @@ relations:
 
 > Entitlement "EA - Internal Administrator" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EAInternalAdministrator.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EAInternalAdministrator.Entitlement.al) · facts from BC29
 
 ## Recent changes
 
@@ -87,6 +98,13 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https:
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Entitlements and permission sets overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview) — possibly related: Entitlements and permissions overview explains how administrator entitlements grant access rights. (model-linked)
+- [Set Up Expense Agent in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page) — possibly related: Expense Agent setup guide documents administrator configuration tasks this role enables. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

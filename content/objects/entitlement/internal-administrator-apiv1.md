@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 436820ede04494337b21837a9ae41f7d50ef71f6a7aca7594f5f7a3c1ddf777d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/APIV1/app/src/Entitlements/InternalAdministratorAPIV1.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/APIV1/app/src/Entitlements/InternalAdministratorAPIV1.Entitlement.al
     title: src/Apps/W1/APIV1/app/src/Entitlements/InternalAdministratorAPIV1.Entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Internal Administrator APIV1" in APIV1 (Microsoft.API.V1). Introduced in BC29, still in BC30.
 
-APIV1 · Microsoft.API.V1 · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/APIV1/app/src/Entitlements/InternalAdministratorAPIV1.Entitlement.al) · facts from BC29
+APIV1 · Microsoft.API.V1 · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/APIV1/app/src/Entitlements/InternalAdministratorAPIV1.Entitlement.al) · facts from BC29
 
 ## Across versions
 

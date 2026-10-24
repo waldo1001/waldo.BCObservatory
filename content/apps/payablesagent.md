@@ -2,7 +2,7 @@
 id: app/payablesagent
 type: app
 title: PayablesAgent
-summary: "PayablesAgent (Microsoft.Agent): 75 objects in BC29-30 (20 codeunits, 14 pages, 14 page customizations, 8 tables, 5 enums, ...); documented by 1 Learn hub."
+summary: "PayablesAgent (Microsoft.Agent): 76 objects in BC29-30 (20 codeunits, 15 page customizations, 14 pages, 8 tables, 5 enums, ...); documented by 1 Learn hub."
 tier: official
 language: en
 tags:
@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d4382a48f71011aac20df79c2c36908641a470eb5ecfd3dccc38201e5009e973
+  input_hash: 6c0ac275607cb01d598004f45c37c0b82c36c4fece6ab3d1164d97376a700eeb
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/PayablesAgent/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/PayablesAgent/app
     title: src/Apps/W1/PayablesAgent/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -101,6 +101,7 @@ links:
     - object/pagecustomization/pa-item-reference-entries
     - object/pagecustomization/pa-items
     - object/pagecustomization/pa-posted-purch-doc
+    - object/pagecustomization/pa-purchase-credit-memo
     - object/pagecustomization/pa-purchase-invoice
     - object/pagecustomization/pa-text-to-account-mapping
     - object/pagecustomization/pa-vendor-card
@@ -118,11 +119,11 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 75
+  objects: 76
   by_type:
     codeunit: 20
+    pagecustomization: 15
     page: 14
-    pagecustomization: 14
     table: 8
     enum: 5
     pageextension: 4
@@ -139,7 +140,7 @@ counts:
 
 # PayablesAgent
 
-> PayablesAgent (Microsoft.Agent): 75 objects in BC29-30 (20 codeunits, 14 pages, 14 page customizations, 8 tables, 5 enums, ...); documented by 1 Learn hub.
+> PayablesAgent (Microsoft.Agent): 76 objects in BC29-30 (20 codeunits, 15 page customizations, 14 pages, 8 tables, 5 enums, ...); documented by 1 Learn hub.
 
 First-party app · folder `src/Apps/W1/PayablesAgent/app` · namespace `Microsoft.Agent` · BC29-30 · system copilot · facts from the code pillar and the joins, nothing machine-written
 
@@ -151,7 +152,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-75 objects, by type.
+76 objects, by type.
 
 ### Tables (8)
 
@@ -269,7 +270,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |---|---|---|
 |  | [Payables Agent](../objects/profile/payables-agent.md) |  |
 
-### Page customizations (14)
+### Page customizations (15)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -283,9 +284,10 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |  | [PA Item Reference Entries](../objects/pagecustomization/pa-item-reference-entries.md) |  |
 |  | [PA Items](../objects/pagecustomization/pa-items.md) |  |
 |  | [PA Posted Purch. Doc.](../objects/pagecustomization/pa-posted-purch-doc.md) |  |
+|  | [PA Purchase Credit Memo](../objects/pagecustomization/pa-purchase-credit-memo.md) |  |
 |  | [PA Purchase Invoice](../objects/pagecustomization/pa-purchase-invoice.md) |  |
 |  | [PA Text-to-Account Mapping](../objects/pagecustomization/pa-text-to-account-mapping.md) |  |
 |  | [PA Vendor Card](../objects/pagecustomization/pa-vendor-card.md) |  |
 |  | [PA Vendors](../objects/pagecustomization/pa-vendors.md) |  |
 
-Source: [src/Apps/W1/PayablesAgent/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/PayablesAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/PayablesAgent/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/PayablesAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

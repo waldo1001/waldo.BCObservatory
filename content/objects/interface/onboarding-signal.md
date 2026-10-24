@@ -18,20 +18,21 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: cb1542daa0ca4f5d7c323dda79866488ec079b9d6b209d79f42253518fdd4a09
+  input_hash: d9bb3db8ca1e58b29bc76b431828598275e2f6fae5171c4c52daa724af12cda8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Modules/System/OnboardingSignal/OnboardingSignal.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Modules/System/OnboardingSignal/OnboardingSignal.Interface.al
     title: src/Layers/W1/BaseApp/Modules/System/OnboardingSignal/OnboardingSignal.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
-  learn: []
+  learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-telemetry
   objects: []
   features: []
   topics: []
@@ -82,7 +83,7 @@ relations:
 
 > Interface "Onboarding Signal" in Base Application (System.Feedback). 1 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · System.Feedback · BC23-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Modules/System/OnboardingSignal/OnboardingSignal.Interface.al) · facts from BC29
+Base Application · System.Feedback · BC23-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Modules/System/OnboardingSignal/OnboardingSignal.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -98,6 +99,10 @@ Base Application · System.Feedback · BC23-30 · [source at af1b860d](https://g
 
 - Present in: BC23-30
 - Changed (declaration) in: none
+
+## Documented on Microsoft Learn
+
+- [Measure onboarding progress using telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-telemetry) (names this object)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

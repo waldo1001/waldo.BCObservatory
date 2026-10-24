@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 528cfde05b7aec63b2f9e8f8187cdb285e13afb5c3fc138cb7b394b449d7b28f
+  input_hash: ffffd47953d44402bc2bef80adfc9c8c2f20e3e51efcddfb190afaa0d631f78b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EAMicrosoft365Teams.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EAMicrosoft365Teams.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EAMicrosoft365Teams.Entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,17 @@ links:
   guidelines: []
   changes:
     - change/bcapps/9859
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
+      title: Expense Agent overview for Business Central
+      label: possibly related
+      why: Expense Agent overview documents Teams users' access to expense submission and management.
+      by: model
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app
+      title: Use the Expense Agent Mobile App (preview)
+      label: possibly related
+      why: Mobile app documentation covers Teams users' expense capture and submission capabilities.
+      by: model
 object_type: entitlement
 object_id: null
 name: EA - Microsoft 365 Teams
@@ -77,7 +88,7 @@ relations:
 
 > Entitlement "EA - Microsoft 365 Teams" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EAMicrosoft365Teams.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EAMicrosoft365Teams.Entitlement.al) · facts from BC29
 
 ## Recent changes
 
@@ -87,6 +98,13 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https:
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Expense Agent overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent) — possibly related: Expense Agent overview documents Teams users' access to expense submission and management. (model-linked)
+- [Use the Expense Agent Mobile App (preview)](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app) — possibly related: Mobile app documentation covers Teams users' expense capture and submission capabilities. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

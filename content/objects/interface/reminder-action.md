@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6bdd7105e89b7434ca1eb09da0d5c629628d4b364d74b28ddf59eef9a4378e26
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Sales/Reminder/Automation/ReminderAction.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Sales/Reminder/Automation/ReminderAction.Interface.al
     title: src/Layers/W1/BaseApp/Sales/Reminder/Automation/ReminderAction.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Interface "Reminder Action" in Base Application (Microsoft.Sales.Reminder). 10 public procedures. Introduced in BC24, still in BC30.
 
-Base Application · Microsoft.Sales.Reminder · BC24-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Sales/Reminder/Automation/ReminderAction.Interface.al) · facts from BC29
+Base Application · Microsoft.Sales.Reminder · BC24-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Sales/Reminder/Automation/ReminderAction.Interface.al) · facts from BC29
 
 ## Procedures
 

@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d2f6fe3b49595e00e6dba9aaddae72c2ee580be3063c2b43c45ef86e7ca90987
+  input_hash: bd9ee27b2e74ed6c3afd959384ddd6859c00a0906ac489fe9d151dd65c9c8f40
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/SalesLinesSuggestions/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/SalesLinesSuggestions/app
     title: src/Apps/W1/SalesLinesSuggestions/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -189,4 +189,4 @@ First-party app · folder `src/Apps/W1/SalesLinesSuggestions/app` · namespace `
 |  | [File Handler](../objects/interface/file-handler.md) |  |
 |  | [SalesAzureOpenAITools](../objects/interface/salesazureopenaitools.md) |  |
 
-Source: [src/Apps/W1/SalesLinesSuggestions/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/SalesLinesSuggestions/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/SalesLinesSuggestions/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/SalesLinesSuggestions/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

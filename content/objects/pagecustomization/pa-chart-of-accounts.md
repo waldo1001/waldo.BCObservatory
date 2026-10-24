@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8c4e8ac7bcf55c06685c1cb9953c00286a6ea621da7c7d2e0bfab9e6230f9bec
+  input_hash: bf75a960d841e3af6d5270b75f5aed7521d7df2675267af73cb7fee558fd0d73
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAChartOfAccounts.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAChartOfAccounts.PageCust.al
     title: src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAChartOfAccounts.PageCust.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,12 @@ links:
   guidelines: []
   changes:
     - change/bcapps/7546
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-chart-of-accounts
+      title: Understanding the Chart of Accounts
+      label: possibly related
+      why: Page documents chart of accounts structure accessed via payables agent customization.
+      by: model
 object_type: pagecustomization
 object_id: null
 name: PA Chart of Accounts
@@ -77,7 +83,7 @@ relations:
 
 > Page customization "PA Chart of Accounts" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
-PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAChartOfAccounts.PageCust.al) · facts from BC29
+PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAChartOfAccounts.PageCust.al) · facts from BC29
 
 ## Recent changes
 
@@ -87,6 +93,12 @@ PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at af1b860d
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Understanding the Chart of Accounts](https://learn.microsoft.com/dynamics365/business-central/finance-chart-of-accounts) — possibly related: Page documents chart of accounts structure accessed via payables agent customization. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

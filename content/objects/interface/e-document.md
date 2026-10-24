@@ -18,20 +18,21 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e7282406a2f8a87e5e33760f4c3d86bf5902aec02125b12537937aa5b851543e
+  input_hash: 06d1ef2bd239dead50949e458b9e6b9e0dd4e240d1b3958819a5dd6acff9dbb5
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/EDocument/app/src/Document/Interfaces/EDocument.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/EDocument/app/src/Document/Interfaces/EDocument.Interface.al
     title: src/Apps/W1/EDocument/app/src/Document/Interfaces/EDocument.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
-  learn: []
+  learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments
   objects: []
   features: []
   topics: []
@@ -76,7 +77,7 @@ relations:
 
 > Interface "E-Document" in EDocument (Microsoft.eServices.EDocument). 5 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/EDocument/app/src/Document/Interfaces/EDocument.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/EDocument/app/src/Document/Interfaces/EDocument.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -90,6 +91,10 @@ EDocument · Microsoft.eServices.EDocument · BC29-30 · [source at af1b860d](ht
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Documented on Microsoft Learn
+
+- [Extending the e-documents functionality](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) (names this object)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

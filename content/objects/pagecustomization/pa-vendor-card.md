@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: feb19518c920070b7b2c5fc0f9b4bc5ae80585086b85965c9f8fcab9fc82d4ac
+  input_hash: e3b1a7b6712bf4c4f38050332b31bb850c22de17cb8e78631fcf47355644a969
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAVendorCard.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAVendorCard.PageCust.al
     title: src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAVendorCard.PageCust.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,12 @@ links:
   guidelines: []
   changes:
     - change/bcapps/9904
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/payables-agent
+      title: Payables Agent Overview in Business Central
+      label: possibly related
+      why: Documents how Payables Agent identifies and matches vendor information from invoices
+      by: model
 object_type: pagecustomization
 object_id: null
 name: PA Vendor Card
@@ -77,7 +83,7 @@ relations:
 
 > Page customization "PA Vendor Card" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
-PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAVendorCard.PageCust.al) · facts from BC29
+PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAVendorCard.PageCust.al) · facts from BC29
 
 ## Recent changes
 
@@ -87,6 +93,12 @@ PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at af1b860d
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Payables Agent Overview in Business Central](https://learn.microsoft.com/dynamics365/business-central/payables-agent) — possibly related: Documents how Payables Agent identifies and matches vendor information from invoices (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

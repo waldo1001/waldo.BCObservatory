@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a0a1eec20cdb04a5c05064a19ce2740078fa1a82f328b1a5fddab64ff22ad646
+  input_hash: 85c8b6d449c3c623d224e2bda92588dbdd4fc5ef74e5707d79efece7dc962df4
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/DynamicsGPHistorySmartLists/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/DynamicsGPHistorySmartLists/app
     title: src/Apps/W1/DynamicsGPHistorySmartLists/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -89,4 +89,4 @@ First-party app · folder `src/Apps/W1/DynamicsGPHistorySmartLists/app` · names
 | 3010 | [GPHistReceivingsLineItems](../objects/query/3010.md) | Dynamics GP Receivings Line Items |
 | 3011 | [GPHistInventoryTrx](../objects/query/3011.md) | Dynamics GP Inventory Transactions |
 
-Source: [src/Apps/W1/DynamicsGPHistorySmartLists/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/DynamicsGPHistorySmartLists/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/DynamicsGPHistorySmartLists/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/DynamicsGPHistorySmartLists/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

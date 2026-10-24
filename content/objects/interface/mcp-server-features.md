@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f280bd1179aef34df5a17b0dd1434374481dd02efa83bb3e76c9a23d01fa6433
+  input_hash: fec358a410031430618e7b1fa73870da7d6412704d8080df7673bccb99c6dff2
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al
     title: src/System Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,17 @@ links:
   guidelines: []
   changes:
     - change/bcapps/8085
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/mcp-overview
+      title: Business Central MCP Server Overview and Setup
+      label: possibly related
+      why: Documents MCP Server overview and setup for AI client integration.
+      by: model
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/configure-mcp-server
+      title: Configure Business Central MCP Server
+      label: possibly related
+      why: Documents configuring MCP Server features for AI agents to access Business Central.
+      by: model
 object_type: interface
 object_id: null
 name: MCP Server Features
@@ -78,7 +89,7 @@ relations:
 
 > Interface "MCP Server Features" in System Application (System.MCP). 7 public procedures. Introduced in BC29, still in BC30.
 
-System Application · System.MCP · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al) · facts from BC29
+System Application · System.MCP · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -111,6 +122,13 @@ System Application · System.MCP · BC29-30 · [source at af1b860d](https://gith
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Business Central MCP Server Overview and Setup](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/mcp-overview) — possibly related: Documents MCP Server overview and setup for AI client integration. (model-linked)
+- [Configure Business Central MCP Server](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/configure-mcp-server) — possibly related: Documents configuring MCP Server features for AI agents to access Business Central. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 18c71cf6dba198162b95f9cecb3d2eb5f02b9d66aa2df4c830e3a5b53c48332d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/SalesOrderAgent/app/src/Permissions/SalesOrderAgent.entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/SalesOrderAgent/app/src/Permissions/SalesOrderAgent.entitlement.al
     title: src/Apps/W1/SalesOrderAgent/app/src/Permissions/SalesOrderAgent.entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Sales Order Agent" in SalesOrderAgent (Microsoft.Agent.SalesOrderAgent). Introduced in BC29, still in BC30.
 
-SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/SalesOrderAgent/app/src/Permissions/SalesOrderAgent.entitlement.al) · facts from BC29
+SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/SalesOrderAgent/app/src/Permissions/SalesOrderAgent.entitlement.al) · facts from BC29
 
 ## Across versions
 

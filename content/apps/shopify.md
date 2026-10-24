@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:45:34.451Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4479aeeb7daa490cff8232e6758cbfc74c5368cb3bca7433a6378e08b9e8e0d9
+  input_hash: 53ec7eea470ef849a14d9a762069dfc9edbb3ebb0d79e770a4127c345bcd58d4
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/Shopify/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/Shopify/app
     title: src/Apps/W1/Shopify/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -871,4 +871,4 @@ Possibly related: these roadmap features have "Shopify" in their title. A name m
 - [Synchronize tariff numbers and origin values with Shopify](../features/573344.md) (ga, GA 2026-10)
 - [Sell to business customers on more Shopify plans with B2B company sync](../features/576836.md) (ga, GA 2026-07)
 
-Source: [src/Apps/W1/Shopify/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/Shopify/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Shopify/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/Shopify/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

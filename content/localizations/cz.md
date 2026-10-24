@@ -14,17 +14,17 @@ review:
   at: "2026-10-16T01:08:20.585Z"
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 0b22eec2acab074b559dd9869bd39ecb046b6f47f7a684e647a2f5da6085ad54
+  input_hash: cc0962704599a9b776b3e8c8954e6d92ec844c645c2c34236a385c2e553e9288
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-cz
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -2132,6 +2132,6 @@ Objects: [pageextension/31161 "Administrator Main RC CZL"](../objects/pageextens
 
 ## Other versions
 
-- BC30: 1777 objects differ from W1 (6 fields, 0 events added)
+- BC30: 1786 objects differ from W1 (6 fields, 0 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

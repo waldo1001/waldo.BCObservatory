@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3dd2ccd448dbc507364ef24b458101e4ae133321d280717477e0e91b5f8081a9
+  input_hash: 025760f6c7671d599cef70fc6005f467da74f2fb16b1927eb1920d043a5ba9e8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/APIReportsFinance/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/APIReportsFinance/app
     title: src/Apps/W1/APIReportsFinance/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -127,4 +127,4 @@ First-party app · folder `src/Apps/W1/APIReportsFinance/app` · namespace `Micr
 | 30304 | [D365 FULL ACCESS - Reports Finance](../objects/permissionsetextension/30304.md) |  |
 | 30305 | [D365 TEAM MEMBER - Reports Finance](../objects/permissionsetextension/30305.md) |  |
 
-Source: [src/Apps/W1/APIReportsFinance/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/APIReportsFinance/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/APIReportsFinance/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/APIReportsFinance/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

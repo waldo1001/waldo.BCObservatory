@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 83945d005b6aa57c97bf9e31638ba67d1ea8852c2745ff2059ba5592f801a9be
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgent.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgent.Profile.al
     title: src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgent.Profile.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "PURCHASING AGENT" in Base Application (Microsoft.Purchases.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Purchases.RoleCenters · captioned "Purchasing Agent" · BC23-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgent.Profile.al) · facts from BC29
+Base Application · Microsoft.Purchases.RoleCenters · captioned "Purchasing Agent" · BC23-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgent.Profile.al) · facts from BC29
 
 ## Properties
 

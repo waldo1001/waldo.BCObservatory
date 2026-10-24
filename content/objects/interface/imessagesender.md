@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6eb2a9a2ac6dc53755d4ca25b782f17a246782cc66ff5b28ec532d2233e36972
+  input_hash: a40a1edbcdd41559d47c0926fb78a295f8f87986d06a9b829e02bdce1e5e89b1
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IMessageSender.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IMessageSender.Interface.al
     title: src/Apps/W1/EDocument/app/src/Integration/Interfaces/IMessageSender.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -41,6 +41,12 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10437
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments
+      title: Extending the e-documents functionality
+      label: possibly related
+      why: Interface for extending e-documents with custom message senders for service communication.
+      by: model
 object_type: interface
 object_id: null
 name: IMessageSender
@@ -78,7 +84,7 @@ relations:
 
 > Interface "IMessageSender" in EDocument (Microsoft.eServices.EDocument.Integration.Interfaces). 1 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument.Integration.Interfaces · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IMessageSender.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Integration.Interfaces · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IMessageSender.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -92,6 +98,12 @@ EDocument · Microsoft.eServices.EDocument.Integration.Interfaces · BC29-30 · 
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Extending the e-documents functionality](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) — possibly related: Interface for extending e-documents with custom message senders for service communication. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

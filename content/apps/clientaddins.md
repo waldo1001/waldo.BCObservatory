@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4766f32c750d2fecd77538d4ac80fe186db0ae5815badc8f8edaa6ef036594ed
+  input_hash: debd7acb78d484de5d673a1d15fc98be3d13d5c25f591f88398c8ac7fc787e9b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ClientAddIns/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ClientAddIns/app
     title: src/Apps/W1/ClientAddIns/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -67,4 +67,4 @@ First-party app · folder `src/Apps/W1/ClientAddIns/app` · namespace `System.Se
 |---|---|---|
 |  | [OAuthAddIn](../objects/controladdin/oauthaddin.md) |  |
 
-Source: [src/Apps/W1/ClientAddIns/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ClientAddIns/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ClientAddIns/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ClientAddIns/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

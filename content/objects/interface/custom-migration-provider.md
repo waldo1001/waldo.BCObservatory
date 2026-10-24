@@ -18,20 +18,21 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d7d4b66d7c32d490856c645341ebabcf2555b3842fdcb9061bf8e62183029685
+  input_hash: 983387132d5743211a8c8e0c2834dee6b65dfd76af2420fe37c146f8e2a76db8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/Interfaces/CustomMigrationProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/Interfaces/CustomMigrationProvider.Interface.al
     title: src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/Interfaces/CustomMigrationProvider.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
-  learn: []
+  learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration
   objects: []
   features: []
   topics: []
@@ -76,7 +77,7 @@ relations:
 
 > Interface "Custom Migration Provider" in HybridBaseDeployment (Microsoft.DataMigration). 6 public procedures. Introduced in BC29, still in BC30.
 
-HybridBaseDeployment · Microsoft.DataMigration · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/Interfaces/CustomMigrationProvider.Interface.al) · facts from BC29
+HybridBaseDeployment · Microsoft.DataMigration · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/Interfaces/CustomMigrationProvider.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -91,6 +92,10 @@ HybridBaseDeployment · Microsoft.DataMigration · BC29-30 · [source at af1b860
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Documented on Microsoft Learn
+
+- [Custom migration from any SQL source](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration) (names this object)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

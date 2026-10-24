@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3f61e11d893b86de3bcc0dfdb1061c4e09231f03727af5772eb3969ed6874148
+  input_hash: 62c1af2029a759afa818001c58f49cae35758ca72daea5f9c414d27803ded445
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/SAF-T/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/SAF-T/app
     title: src/Apps/W1/SAF-T/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -233,4 +233,4 @@ First-party app · folder `src/Apps/W1/SAF-T/app` · namespace `Microsoft.Financ
 | 5284 | [INTELLIGENT CLOUD - SAF-T](../objects/permissionsetextension/5284.md) |  |
 | 5285 | [LOCAL - SAF-T](../objects/permissionsetextension/5285.md) |  |
 
-Source: [src/Apps/W1/SAF-T/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/SAF-T/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/SAF-T/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/SAF-T/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

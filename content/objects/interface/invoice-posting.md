@@ -18,20 +18,23 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: eab3ef54bd583661068eb994d890a2ba0f20ca818ab9bf9453c6795b606a6e70
+  input_hash: 2ca0147d5c0ad7ff58e2de9dc094ecad79809dbb49399f9b0973c9810391f6d3
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Finance/ReceivablesPayables/InvoicePosting.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Finance/ReceivablesPayables/InvoicePosting.Interface.al
     title: src/Layers/W1/BaseApp/Finance/ReceivablesPayables/InvoicePosting.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
-  learn: []
+  learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-invoice-posting-example
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-1
   objects: []
   features: []
   topics: []
@@ -82,7 +85,7 @@ relations:
 
 > Interface "Invoice Posting" in Base Application (Microsoft.Finance.ReceivablesPayables). 15 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Finance.ReceivablesPayables · BC23-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Finance/ReceivablesPayables/InvoicePosting.Interface.al) · facts from BC29
+Base Application · Microsoft.Finance.ReceivablesPayables · BC23-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Finance/ReceivablesPayables/InvoicePosting.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -116,6 +119,12 @@ Base Application · Microsoft.Finance.ReceivablesPayables · BC23-30 · [source 
 
 - Present in: BC23-30
 - Changed (declaration) in: none
+
+## Documented on Microsoft Learn
+
+- [Deprecated Features in the application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1) (names this object)
+- [Extending G/L entry aggregations when posting invoices](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-invoice-posting-example) (names this object)
+- [Update 24.1 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-1) (names this object)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

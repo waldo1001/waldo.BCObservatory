@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:45:34.451Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 833be2a2d8255a1e51d52d6feb23596e6443e800d73b67ab814f01044cb7f1e0
+  input_hash: 9fe807ef84c66f67626ae96dc26dca2a52b43b25ee9159e50ef4a672cefeee64
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/Subscription%20Billing/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/Subscription%20Billing/app
     title: src/Apps/W1/Subscription Billing/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -737,4 +737,4 @@ Videos and posts that name this app's objects by exact type and name.
 
 - [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../videos/5xeATIUFiGg.md) (video, 2026-10-19): names Table 8052 "Customer Subscription Contract"
 
-Source: [src/Apps/W1/Subscription Billing/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/Subscription%20Billing/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Subscription Billing/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/Subscription%20Billing/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

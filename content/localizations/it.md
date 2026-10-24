@@ -14,17 +14,17 @@ review:
   at: "2026-10-21T00:39:15.011Z"
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 57bc666c23d460fd0b5534ae212285371ec454c6c3522a482b6bc5b4591c0fb2
+  input_hash: d7b66e08553d652e3117102cb0ea63c6caf02fc1546c607f142884befc0b2cb6
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-it
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -1052,6 +1052,6 @@ Objects: [codeunit/1004 "Job Transfer Line"](../objects/codeunit/1004.md).
 
 ## Other versions
 
-- BC30: 547 objects differ from W1 (829 fields, 92 events added)
+- BC30: 548 objects differ from W1 (829 fields, 92 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

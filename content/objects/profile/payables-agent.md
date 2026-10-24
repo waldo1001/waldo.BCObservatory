@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 55a514924ce0383474a4c64b469841ab36d80b1c18e1235a41c7c2e8aa5d0faf
+  input_hash: b8c84c5a7d657799f7e9ea7c2722a7d6e29272ac5159ac7fff4f926bb45d1723
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PayablesAgent/app/Profile/PayablesAgent.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PayablesAgent/app/Profile/PayablesAgent.Profile.al
     title: src/Apps/W1/PayablesAgent/app/Profile/PayablesAgent.Profile.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -42,6 +42,12 @@ links:
   changes:
     - change/bcapps/12894
     - change/bcapps/7546
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup
+      title: Set Up Payables Agent in Business Central
+      label: possibly related
+      why: Documents Payables Agent setup and configuration in Business Central
+      by: model
 object_type: profile
 object_id: null
 name: Payables Agent
@@ -78,7 +84,7 @@ relations:
 
 > Profile "Payables Agent" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
-PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PayablesAgent/app/Profile/PayablesAgent.Profile.al) · facts from BC29
+PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PayablesAgent/app/Profile/PayablesAgent.Profile.al) · facts from BC29
 
 ## Properties
 
@@ -95,6 +101,12 @@ PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at af1b860d
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Set Up Payables Agent in Business Central](https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup) — possibly related: Documents Payables Agent setup and configuration in Business Central (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

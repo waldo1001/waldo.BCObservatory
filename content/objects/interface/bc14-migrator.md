@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a4f066da33ef0c0f8c83fc329ffdfa88308292c74f4dfafe07377ff0e34fe778
+  input_hash: aa19bbd6efcba74ddbee71b188b01dc4619233944bef62ae57cea9307788e300
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/HybridBC14/app/src/Migration/BC14Migrator.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/HybridBC14/app/src/Migration/BC14Migrator.Interface.al
     title: src/Apps/W1/HybridBC14/app/src/Migration/BC14Migrator.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -39,6 +39,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration
+      title: Custom migration from any SQL source
+      label: possibly related
+      why: Guides custom migrations from SQL sources using BC14 reimplementation tool.
+      by: model
 object_type: interface
 object_id: null
 name: BC14 Migrator
@@ -76,7 +82,7 @@ relations:
 
 > Interface "BC14 Migrator" in HybridBC14 (Microsoft.DataMigration.BC14Reimplementation). 5 public procedures. Introduced in BC29, still in BC30.
 
-HybridBC14 · Microsoft.DataMigration.BC14Reimplementation · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/HybridBC14/app/src/Migration/BC14Migrator.Interface.al) · facts from BC29
+HybridBC14 · Microsoft.DataMigration.BC14Reimplementation · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/HybridBC14/app/src/Migration/BC14Migrator.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -144,6 +150,12 @@ HybridBC14 · Microsoft.DataMigration.BC14Reimplementation · BC29-30 · [source
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Custom migration from any SQL source](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration) — possibly related: Guides custom migrations from SQL sources using BC14 reimplementation tool. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

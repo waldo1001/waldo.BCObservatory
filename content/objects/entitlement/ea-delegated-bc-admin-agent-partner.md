@@ -2,7 +2,7 @@
 id: object/entitlement/ea-delegated-bc-admin-agent-partner
 type: object
 title: Entitlement "EA - Delegated BC Admin agent - Partner"
-summary: Entitlement "EA - Delegated BC Admin agent - Partner" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
+summary: Entitlement "EA - Delegated BC Admin agent - Partner" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30, changed in BC30.
 tier: official
 language: en
 tags:
@@ -10,7 +10,7 @@ tags:
   - expenseagent
 versions:
   introduced: "29"
-  last_changed: null
+  last_changed: "30"
   deprecated: null
 review:
   state: derived
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b072d03a63b90aeefec65be4638643cbdc6233740e7f824f6283953f09814db2
+  input_hash: 5f0c5b55b63a193a6032bf20ade43451c1669518b893216eafac9ccc2aa0c8eb
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedBCAdminAgentPartner.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedBCAdminAgentPartner.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedBCAdminAgentPartner.Entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -42,6 +42,12 @@ links:
   changes:
     - change/bcapps/12763
     - change/bcapps/9859
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/delegated-admin
+      title: Delegated admin access to Business Central online
+      label: possibly related
+      why: Documents delegated admin access for reselling partners to manage Business Central environments.
+      by: model
 object_type: entitlement
 object_id: null
 name: EA - Delegated BC Admin agent - Partner
@@ -53,7 +59,8 @@ last_version: "30"
 present_in:
   - "29"
   - "30"
-changed_in: []
+changed_in:
+  - "30"
 source_major: "29"
 obsolete: null
 countries: []
@@ -76,9 +83,9 @@ relations:
 
 # Entitlement "EA - Delegated BC Admin agent - Partner"
 
-> Entitlement "EA - Delegated BC Admin agent - Partner" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
+> Entitlement "EA - Delegated BC Admin agent - Partner" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30, changed in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedBCAdminAgentPartner.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedBCAdminAgentPartner.Entitlement.al) · facts from BC29
 
 ## Recent changes
 
@@ -88,7 +95,13 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at af1b860d](https:
 ## Across versions
 
 - Present in: BC29-30
-- Changed (declaration) in: none
+- Changed (declaration) in: BC30
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Delegated admin access to Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/delegated-admin) — possibly related: Documents delegated admin access for reselling partners to manage Business Central environments. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

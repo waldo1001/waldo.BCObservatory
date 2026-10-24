@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3cfc029c3c9ecb2eb44fd4cc19b8e3f84a7e1275842efa06b47b3c88e0770c20
+  input_hash: bd0ea66c22c491ecc231615aed5491d8c952c30c54f774f29e1a6c29a0b9b2d2
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/AutomaticAccountCodes/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/AutomaticAccountCodes/app
     title: src/Apps/W1/AutomaticAccountCodes/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -206,4 +206,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 4856 | [D365 TEAM MEMBER - AAC](../objects/permissionsetextension/4856.md) |  |
 | 4857 | [INTELLIGENT CLOUD - AAC](../objects/permissionsetextension/4857.md) |  |
 
-Source: [src/Apps/W1/AutomaticAccountCodes/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/AutomaticAccountCodes/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/AutomaticAccountCodes/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/AutomaticAccountCodes/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

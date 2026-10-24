@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 499e97bb82789b385c4832ffc364da679be3787304688646deb006584e9aad6c
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseAttachmentProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseAttachmentProvider.Interface.al
     title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseAttachmentProvider.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "PEPPOL Purchase Attachment Provider" in PEPPOL (Microsoft.Peppol). 1 public procedures. Introduced in BC29, still in BC30.
 
-PEPPOL · Microsoft.Peppol · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseAttachmentProvider.Interface.al) · facts from BC29
+PEPPOL · Microsoft.Peppol · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseAttachmentProvider.Interface.al) · facts from BC29
 
 ## Procedures
 

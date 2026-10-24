@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1ddc3e4b83b43b1c2f365c2dd2035186d1cb0176bdb2e332dabd6602fa7d19a9
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/APIV1/app/src/Entitlements/AzureADApplicationApiAPIV1.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/APIV1/app/src/Entitlements/AzureADApplicationApiAPIV1.Entitlement.al
     title: src/Apps/W1/APIV1/app/src/Entitlements/AzureADApplicationApiAPIV1.Entitlement.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Azure AD Application Api APIV1" in APIV1 (Microsoft.API.V1). Introduced in BC29, still in BC30.
 
-APIV1 · Microsoft.API.V1 · BC29-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/APIV1/app/src/Entitlements/AzureADApplicationApiAPIV1.Entitlement.al) · facts from BC29
+APIV1 · Microsoft.API.V1 · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/APIV1/app/src/Entitlements/AzureADApplicationApiAPIV1.Entitlement.al) · facts from BC29
 
 ## Across versions
 

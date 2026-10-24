@@ -2,7 +2,7 @@
 id: object/interface/audit-file-export-page-visibility
 type: object
 title: Interface "Audit File Export Page Visibility"
-summary: Interface "Audit File Export Page Visibility" in AuditFileExport (Microsoft.Finance.AuditFileExport). 1 public procedures. Introduced in BC29, gone after BC29.
+summary: Interface "Audit File Export Page Visibility" in AuditFileExport (Microsoft.Finance.AuditFileExport). 1 public procedures. Introduced in BC29, still in BC30.
 tier: official
 language: en
 tags:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c1e154c86598c1f20e8183d8e694fb98ed8c7884d1ff0ad730a3ebd3a8860c0d
+  input_hash: 5d6a139ff50768d591f2845c38d071396f89084bf885cbddfcfff5d447749baf
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al
     title: src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -39,6 +39,19 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9104
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit
+      title: Export Data for a Digital Audit [DE]
+      label: possibly related
+      why: Documents audit file export interface for German digital audit compliance processes.
+      by: model
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-saft-audit-files-export
+      title: Export the SAF-T audit file format in Denmark
+      label: possibly related
+      why: Documents SAF-T audit file export interface for Danish tax authority compliance.
+      by: model
 object_type: interface
 object_id: null
 name: Audit File Export Page Visibility
@@ -46,9 +59,10 @@ namespace: Microsoft.Finance.AuditFileExport
 app: AuditFileExport
 extends: null
 first_version: "29"
-last_version: "29"
+last_version: "30"
 present_in:
   - "29"
+  - "30"
 changed_in: []
 source_major: "29"
 obsolete: null
@@ -73,9 +87,9 @@ relations:
 
 # Interface "Audit File Export Page Visibility"
 
-> Interface "Audit File Export Page Visibility" in AuditFileExport (Microsoft.Finance.AuditFileExport). 1 public procedures. Introduced in BC29, gone after BC29.
+> Interface "Audit File Export Page Visibility" in AuditFileExport (Microsoft.Finance.AuditFileExport). 1 public procedures. Introduced in BC29, still in BC30.
 
-AuditFileExport · Microsoft.Finance.AuditFileExport · BC29 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al) · facts from BC29
+AuditFileExport · Microsoft.Finance.AuditFileExport · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -87,10 +101,21 @@ AuditFileExport · Microsoft.Finance.AuditFileExport · BC29 · [source at af1b8
 - [Codeunit 5311 "Audit File Page Visibility"](../codeunit/5311.md)
 - [Enum 5262 "Audit File Export Format"](../enum/5262.md)
 
+## Recent changes
+
+- 2026-10-20 [#9104 Delocalize Export G/L Entries to XML into Audit File Export framework](../../changes/bcapps/9104.md) (main, BC30, feature, added)
+
 ## Across versions
 
-- Present in: BC29
+- Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Export Data for a Digital Audit \[DE\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit) — possibly related: Documents audit file export interface for German digital audit compliance processes. (model-linked)
+- [Export the SAF-T audit file format in Denmark](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-saft-audit-files-export) — possibly related: Documents SAF-T audit file export interface for Danish tax authority compliance. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

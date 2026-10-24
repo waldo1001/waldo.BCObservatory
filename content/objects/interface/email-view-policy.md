@@ -18,20 +18,21 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0989bc68b28c87ce82c5606b7b90a001bf62e4ec465bd85df07562134dc4e8a6
+  input_hash: 6466a01278c89d9f42f2b52b468abae5cef19e208b0d6ad3171c9c3a30e06cc1
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/Email/src/Email/View%20Policy/EmailViewPolicy.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/System%20Application/App/Email/src/Email/View%20Policy/EmailViewPolicy.Interface.al
     title: src/System Application/App/Email/src/Email/View Policy/EmailViewPolicy.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
-  learn: []
+  learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-email
   objects: []
   features: []
   topics: []
@@ -82,7 +83,7 @@ relations:
 
 > Interface "Email View Policy" in System Application (System.Email). 8 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Email · BC23-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/System%20Application/App/Email/src/Email/View%20Policy/EmailViewPolicy.Interface.al) · facts from BC29
+System Application · System.Email · BC23-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/System%20Application/App/Email/src/Email/View%20Policy/EmailViewPolicy.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -99,6 +100,10 @@ System Application · System.Email · BC23-30 · [source at af1b860d](https://gi
 
 - Present in: BC23-30
 - Changed (declaration) in: none
+
+## Documented on Microsoft Learn
+
+- [Extending Email](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-email) (names this object)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

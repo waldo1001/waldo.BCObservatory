@@ -18,20 +18,21 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8e112c5aa71f22db50eaff0e29df177cf027e420a6e1b2bd587cb227e073f29a
+  input_hash: 652e1edeceaf3bc4b4a87e971a86e46dbd67b2f07e41fb0e074bd66d239a88b0
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Pricing/Calculation/PriceCalculation.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Pricing/Calculation/PriceCalculation.Interface.al
     title: src/Layers/W1/BaseApp/Pricing/Calculation/PriceCalculation.Interface.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
-  learn: []
+  learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-best-price-calculations
   objects: []
   features: []
   topics: []
@@ -82,7 +83,7 @@ relations:
 
 > Interface "Price Calculation" in Base Application (Microsoft.Pricing.Calculation). 13 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Pricing.Calculation · BC23-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Pricing/Calculation/PriceCalculation.Interface.al) · facts from BC29
+Base Application · Microsoft.Pricing.Calculation · BC23-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Pricing/Calculation/PriceCalculation.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -111,6 +112,10 @@ Base Application · Microsoft.Pricing.Calculation · BC23-30 · [source at af1b8
 
 - Present in: BC23-30
 - Changed (declaration) in: none
+
+## Documented on Microsoft Learn
+
+- [Extending Price Calculations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-best-price-calculations) (names this object)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

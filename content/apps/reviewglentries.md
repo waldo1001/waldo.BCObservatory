@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-24T01:19:27.803Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 648a7b23831618ea6ab515e4964ede83a19a40d8f5b3f729af3a2eb33a0a5f36
+  input_hash: bcfa4068545081d94875c83192a873d1b4a67a6cfd725dd35119083452b34b3e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ReviewGLEntries/app
+    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ReviewGLEntries/app
     title: src/Apps/W1/ReviewGLEntries/app (main)
     date: null
-    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
+    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
     t: null
     quote: null
 links:
@@ -178,4 +178,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 22218 | [D365 BASIC - Review G/L Entries](../objects/permissionsetextension/22218.md) |  |
 | 22219 | [D365 BASIC ISV - Review G/L Entries](../objects/permissionsetextension/22219.md) |  |
 
-Source: [src/Apps/W1/ReviewGLEntries/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ReviewGLEntries/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ReviewGLEntries/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ReviewGLEntries/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

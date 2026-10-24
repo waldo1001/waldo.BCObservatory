@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:04:01.231Z"
+  at: "2026-10-24T01:15:39.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d37ede5afad78861a23f38138e699df57ffbf9b02250b49f00186f9cb128ac6d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Service/RoleCenters/OutboundTechnician.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Service/RoleCenters/OutboundTechnician.Profile.al
     title: src/Layers/W1/BaseApp/Service/RoleCenters/OutboundTechnician.Profile.al (releases/29.x)
     date: null
-    commit: af1b860dae5aeeb1369d4ed450c2c980e372a161
+    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "OUTBOUND TECHNICIAN" in Base Application (Microsoft.Service.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Service.RoleCenters · captioned "Outbound Technician - Customer Service" · BC23-30 · [source at af1b860d](https://github.com/microsoft/BCApps/blob/af1b860dae5aeeb1369d4ed450c2c980e372a161/src/Layers/W1/BaseApp/Service/RoleCenters/OutboundTechnician.Profile.al) · facts from BC29
+Base Application · Microsoft.Service.RoleCenters · captioned "Outbound Technician - Customer Service" · BC23-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Service/RoleCenters/OutboundTechnician.Profile.al) · facts from BC29
 
 ## Properties
 
