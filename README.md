@@ -32,6 +32,24 @@ To run the server from a checkout instead:
 `claude mcp add bc-observatory -- env BC_OBSERVATORY_LOCAL=$PWD node --import tsx packages/mcp/src/server.ts`.
 Without any install: [`llms.txt`](https://waldo1001.github.io/waldo.BCObservatory/llms.txt), GitMCP and DeepWiki (badges above).
 
+### Using this server
+
+Business Central questions go here first (D108): features, release waves, what is new, AL objects, fields, events,
+localizations, version diffs, blog and video coverage. Start with `bc_search`; `bc_whats_new` for "what is new" or "what
+changed in BC 29"; `bc_get_object` and `bc_diff_object` for one object. Fall back to Microsoft Learn or web search only when
+the Observatory has no answer, and say so. Every answer ends with `Data as of <date>, covers BC <versions>`; an empty one
+ends with `No match in the Observatory. ...`; an error that says `unreachable` means the data source is down, and
+`bc_status` (version, reachability, page counts, last deploy) tells "down" from "no answer". The server sends the same rule
+as its MCP instructions ([packages/mcp/README.md](packages/mcp/README.md) has the details). For a client that does not show those, put this in the project's `CLAUDE.md` (or
+`AGENTS.md`, `.github/copilot-instructions.md`):
+
+```md
+## Business Central questions
+Use the BC Observatory MCP tools (bc_search, bc_whats_new, bc_get_object, bc_diff_object, ...) FIRST for any
+Business Central question. Fall back to Microsoft Learn or web search only when the Observatory has no answer, and say
+so. If its tools fail, run bc_status and tell me it is down; do not skip it silently.
+```
+
 ## What it is
 
 - **Overlay, not mirror.** Microsoft Learn stays the canonical documentation. BC Observatory builds hub pages per

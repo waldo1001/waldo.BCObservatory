@@ -1198,3 +1198,25 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   Measured: phase 1 adds 4.41 MB to the Pages tar (budget 5); `npm test` 710 of 711 pass, 1 skipped; on a locally
   re-rendered tree the never-less check holds for 0 of 6 questions before the first nightly (key facts, hub lines and
   hotfix pages come from it). Spec: docs/specs/layered-answers.md.
+- **D108 The MCP routes Business Central questions to itself: bc_ tools, directive instructions, a data date, explicit
+  empty and down answers, bc_status.** In a real chat, "what do you know about the Fabric mirror in the latest BC
+  release?" never reached the observatory: its tools were deferred, the client finds deferred tools by keyword, and
+  `search`, `cat`, `ls` with descriptions that never say "Business Central" matched nothing. The data was fine
+  (`search("Fabric mirroring")` returned the four wave 2 posts and BCApps #12339 and #12195). Now: (1) every tool is
+  `bc_<name>` (`bc_search`, `bc_brief`, `bc_ls`, `bc_cat`, `bc_get_object`, `bc_diff_object`, `bc_localization`,
+  `bc_whats_new`, `bc_blog_footprint`, `bc_feedback`), renamed outright, no aliases (the owner: only this repository and
+  the iFacto playbook used them); (2) every title and description starts "Business Central" and carries the words people
+  type (release wave, BC 29, new feature, AL object, table, codeunit, event, diff between versions, localization), with
+  when to use, when not and what it returns; `bc_whats_new` and `bc_diff_object` carry literal trigger phrases; (3) the
+  server instructions are seven directive lines: use FIRST for any BC question, fall back to Learn or web search only when
+  this server has no answer and say so, the coverage from the same constants the answers use (`SNAPSHOT_MAJORS`,
+  `DIFF_RANGE`, pinned by a test to `config/versions.json` and `data/code/diffs/version/`), not the Learn release plan;
+  (4) every data answer ends with `Data as of <date>, covers BC 28, 29, 30 (30 is vNext) AL objects, version diffs BC 23 to
+  30.`, the date being the site's last deploy (the index manifest's Last-Modified, read once per index load; every
+  nightly deploys), else the newest nightly item (change, video, post, release, digest, hotfix) up to today; (5) an empty
+  answer ends with `No match in the Observatory. Try Microsoft Learn or web search, ...`; a data source that throws is an
+  MCP error that says `unreachable` (a missing page stays a not-found answer); (6) `bc_status` reads the two manifests and
+  the site's Last-Modified only, never throws, and tells "down" from "no answer". Prefix `bc_` over `bcobs_`: tools are
+  namespaced by server on every client, so D104's skill clash does not apply, and "bc" is the token people type; the
+  longest plugin tool name is 60 of 64 characters. The description budget of D93 moves from 3,600 to 5,200 characters
+  for eleven tools. Ships as MCP 0.10.0 and plugin 0.6.0, together with the unpublished 0.9.0 work (D106, D107).

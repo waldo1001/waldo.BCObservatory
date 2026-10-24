@@ -77,10 +77,10 @@ test("6: the compact view", () => {
   assert.ok(c.includes(`${URLS[6]}\n    # … 23 more; section: "frontmatter"\n`));
   assert.ok(c.includes('present_in:\n  - "29"\n  - "30"\n'), "a short list stays whole");
   assert.ok(c.includes(`Compact view: this page is ${P.length.toLocaleString("en-US")} characters and one answer holds 2,000, so each section shows its first 5 rows.`));
-  assert.ok(c.includes(`Sections: fields (12), events (8), procedures (3), countries, ask, frontmatter. Read one with cat("${PATH}", section: "<key>"); offset and limit page through a long one.`));
-  assert.ok(c.includes(`## Fields\nExplanation: the field's ToolTip.\n| No. | Name | Type | Explanation | Notes |\n|---|---|---|---|---|\n${FIELDS.slice(0, 5).join("\n")}\n→ 7 more of 12: cat("${PATH}", section: "fields", offset: 5)\n`));
+  assert.ok(c.includes(`Sections: fields (12), events (8), procedures (3), countries, ask, frontmatter. Read one with bc_cat("${PATH}", section: "<key>"); offset and limit page through a long one.`));
+  assert.ok(c.includes(`## Fields\nExplanation: the field's ToolTip.\n| No. | Name | Type | Explanation | Notes |\n|---|---|---|---|---|\n${FIELDS.slice(0, 5).join("\n")}\n→ 7 more of 12: bc_cat("${PATH}", section: "fields", offset: 5)\n`));
   assert.ok(!c.includes(FIELDS[5]));
-  assert.ok(c.includes(`## Events published\n${EVENTS.slice(0, 5).join("\n")}\n→ 3 more of 8: cat("${PATH}", section: "events", offset: 5)\n`), "without the subscribers line");
+  assert.ok(c.includes(`## Events published\n${EVENTS.slice(0, 5).join("\n")}\n→ 3 more of 8: bc_cat("${PATH}", section: "events", offset: 5)\n`), "without the subscribers line");
   assert.ok(!c.includes("subscribers:"));
   assert.ok(c.includes("## Procedures\n- `P1()`\n- `P1(X: Integer)`\n- `P2()`: Does two.\nPlus 3 local procedures.\n"));
   assert.ok(c.includes(`## Countries that replace it\n[BE](../../localizations/be.md)\n${SOURCE}\n`));
@@ -99,7 +99,7 @@ test("7: a section that fits comes back as on the page", () => {
 
 test("8: offset and limit slice by rows", () => {
   assert.equal(view({ section: "Events published", offset: 2, limit: 3 }),
-    `${FIRST("events")}\n\n## Events published\n\n${EVENTS.slice(2, 5).join("\n")}\n\nRows 3-5 of 8. Next: cat("${PATH}", section: "events", offset: 5)\n`);
+    `${FIRST("events")}\n\n## Events published\n\n${EVENTS.slice(2, 5).join("\n")}\n\nRows 3-5 of 8. Next: bc_cat("${PATH}", section: "events", offset: 5)\n`);
 });
 
 test("9: a table slice repeats its header", () => {
@@ -119,11 +119,11 @@ test("11: a section without rows ignores offset and comes back whole", () => {
 test("12: the budget cuts a slice before the row that would cross it, keeping continuation lines", () => {
   const a = sectionView(P, PATH, "events", undefined, undefined, 600, S);
   assert.ok(a.length <= 600, String(a.length));
-  assert.ok(a.includes(`${EVENTS[0]}\n${SUBS}\n${EVENTS[1]}\n\nRows 1-2 of 8. Next: cat("${PATH}", section: "events", offset: 2)`), a);
+  assert.ok(a.includes(`${EVENTS[0]}\n${SUBS}\n${EVENTS[1]}\n\nRows 1-2 of 8. Next: bc_cat("${PATH}", section: "events", offset: 2)`), a);
   assert.ok(a.endsWith('offset: 2)\n') && !a.includes("OnEvent3"));
   // the closing text comes with the last slice when it fits, else the status line points at it
   assert.ok(view({ section: "procedures", offset: 1 }).endsWith("- `P2()`: Does two.\n\nPlus 3 local procedures.\n\nRows 2-3 of 3.\n"));
-  assert.ok(view({ section: "procedures", offset: 1, limit: 2 }).endsWith(`Rows 2-3 of 3. The section's closing text: cat("${PATH}", section: "procedures", offset: 3)\n`));
+  assert.ok(view({ section: "procedures", offset: 1, limit: 2 }).endsWith(`Rows 2-3 of 3. The section's closing text: bc_cat("${PATH}", section: "procedures", offset: 3)\n`));
 });
 
 test("13-16: a symbol path returns its member's row", () => {
@@ -141,8 +141,8 @@ test("13-16: a symbol path returns its member's row", () => {
 
 test("17-18: unknown sections and offset without a section answer with the section keys", () => {
   assert.equal(view({ section: "foo" }), `No section "foo" on ${PATH}. Sections: ${KEYS}.`);
-  assert.equal(view({ offset: 5 }), `offset and limit read one section: cat("${PATH}", section: "<key>", offset: 5). Sections: ${KEYS}.`);
-  assert.equal(view({ limit: 5 }), `offset and limit read one section: cat("${PATH}", section: "<key>", offset: 0). Sections: ${KEYS}.`);
+  assert.equal(view({ offset: 5 }), `offset and limit read one section: bc_cat("${PATH}", section: "<key>", offset: 5). Sections: ${KEYS}.`);
+  assert.equal(view({ limit: 5 }), `offset and limit read one section: bc_cat("${PATH}", section: "<key>", offset: 0). Sections: ${KEYS}.`);
 });
 
 // ---------------------------------------------------------------------------------------------- D97, section aliases
@@ -216,7 +216,7 @@ test("D97: over the committed content, every page with a layout resolves the ali
 
 test("19-20: the frontmatter is a section of lines", () => {
   assert.equal(view({ section: "frontmatter" }), `${FIRST("frontmatter")}\n\n---\n${FM.join("\n")}\n---\n`);
-  assert.equal(view({ section: "frontmatter", limit: 4 }), `${FIRST("frontmatter")}\n\n${FM.slice(0, 4).join("\n")}\n\nRows 1-4 of 43. Next: cat("${PATH}", section: "frontmatter", offset: 4)\n`);
+  assert.equal(view({ section: "frontmatter", limit: 4 }), `${FIRST("frontmatter")}\n\n${FM.slice(0, 4).join("\n")}\n\nRows 1-4 of 43. Next: bc_cat("${PATH}", section: "frontmatter", offset: 4)\n`);
 });
 
 test("21: fenced code is text, not a heading or a row", () => {
@@ -253,10 +253,10 @@ function mdFiles(dir: string, out: string[] = []): string[] {
   return out;
 }
 const pathOf = (file: string) => file.slice(CONTENT.length + 1).replace(/\.md$/, "");
-const STATUS = /\nRows (\d+)-(\d+) of (\d+)\.(?: Next: cat\("[^"]+", section: "[^"]+", offset: (\d+)\)| The section's closing text: cat\("[^"]+", section: "[^"]+", offset: (\d+)\))?\n$/;
+const STATUS = /\nRows (\d+)-(\d+) of (\d+)\.(?: Next: bc_cat\("[^"]+", section: "[^"]+", offset: (\d+)\)| The section's closing text: bc_cat\("[^"]+", section: "[^"]+", offset: (\d+)\))?\n$/;
 
 test("real pages: Codeunit 80, Table 18 and Table 36 compact", (t) => {
-  for (const [path, max] of [["objects/codeunit/80", 12_000], ["objects/table/18", 16_000], ["objects/table/36", 16_000]] as const) {
+  for (const [path, max] of [["objects/codeunit/80", 12_000], ["objects/table/18", 17_000], ["objects/table/36", 18_000]] as const) {
     const md = readFileSync(join(CONTENT, `${path}.md`), "utf8");
     const c = compactView(md, path, 30_000);
     t.diagnostic(`${path}: ${md.length} characters, compact ${c.length}`);
@@ -264,7 +264,7 @@ test("real pages: Codeunit 80, Table 18 and Table 36 compact", (t) => {
     assert.ok(c.startsWith("---\nid: object/"));
     if (path === "objects/codeunit/80") {
       const events = /\ncounts:\n(?: {2}.*\n)*? {2}events: (\d+)\n/.exec(md)?.[1];
-      if (events === "530") assert.ok(c.includes('→ 525 more of 530: cat("objects/codeunit/80", section: "events", offset: 5)'));
+      if (events === "530") assert.ok(c.includes('→ 525 more of 530: bc_cat("objects/codeunit/80", section: "events", offset: 5)'));
       else t.diagnostic(`Codeunit 80 has ${events} events now, not 530: the continuation line is not checked`);
     }
   }

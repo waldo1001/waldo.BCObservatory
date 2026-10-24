@@ -18,11 +18,11 @@ one in either mode.
   branches `build/layered-answers` and `-p1` to `-p6`, one PR per phase (#27 docs, #28 cross-links, #29 key facts, #30
   cautions, then hotfix lists, brief and search, never-less); merge in order. Not done until the first nightly ran:
   then `npm run check:never-less` (0 of 6 hold before it), un-pend rows that hold, backfill learn-confirm, learn facts
-  and cautions within their quotas, publish MCP 0.9.0 and plugin 0.5.0. Spec section 12 lists the deviations and the
+  and cautions within their quotas, MCP 0.9.0 and plugin 0.5.0 were never published: they went out inside MCP 0.10.0 and plugin 0.6.0 (D108, 2026-10-24). Spec section 12 lists the deviations and the
   open never-less gap (Learn concept pages found only by meaning). Do not apply `spec-approved` to #26.
 - **Learn by meaning in brief, D107** (`docs/specs/learn-meaning-brief.md`, M45, issue #34). Status: built 2026-10-23 on
-  `build/layered-answers-p7`, stacked on #33; unreachable Learn URLs of the never-less check 11 -> 8 of 16. Ships with MCP
-  0.9.0. The rest is an owner decision (spec section 8).
+  `build/layered-answers-p7`, stacked on #33; unreachable Learn URLs of the never-less check 11 -> 8 of 16. Shipped in MCP
+  0.10.0 (D108). The rest is an owner decision (spec section 8).
 - **Observatory in Claude chat and Desktop, D105** (`docs/specs/mcp-in-claude-chat.md`, M43, issue #24). Status:
   proposed 2026-10-22, nothing implemented; the owner wants it specced, not built yet, and phase 2 waits for a host
   choice (spec section 4, host criteria). Start with phase 1 task 1 (the tests). Until it lands, claude.ai users who add
@@ -35,6 +35,14 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-24 (MCP 0.10.0, plugin 0.6.0; no page or data changed, no derive):**
+- **Business Central questions route to the MCP (D108, M46).** Tools are `bc_*`; titles and descriptions start "Business
+  Central" with trigger phrases; the server instructions say use it FIRST, when to fall back and the coverage; every
+  answer ends with its data date; empty answers end with `No match in the Observatory. ...`; a data source that does not
+  answer is an `unreachable` error; `bc_status` tells down from no answer. Both READMEs have "Using this server" and a
+  CLAUDE.md snippet. The iFacto playbook's PipelineAgent triage skill names the old tools: updated on its own branch.
+  A Claude Code session that started before the publish keeps its plugin MCP on the old version until restarted.
 
 **Shipped 2026-10-23 (security; no page or data changed, no derive):**
 - **Node floor for the 21 Oct 2026 Node security releases** (Brotli decoder OOB write CVE-2026-111497, reachable through

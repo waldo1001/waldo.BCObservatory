@@ -23,20 +23,22 @@ test("the golden queries on the MCP server, keyword and default mode (D86 5, tes
   const transport = new StdioClientTransport({ command: process.execPath, args: ["--import", "tsx", join(ROOT, "packages/mcp/src/server.ts")], env: { ...process.env, BC_OBSERVATORY_LOCAL: root } as Record<string, string>, cwd: ROOT });
   const client = new Client({ name: "golden", version: "0" });
   await client.connect(transport);
-  const call = async (name: string, args: Record<string, unknown>) => ((await client.callTool({ name, arguments: args })).content as { text: string }[])[0].text;
+  const raw = async (name: string, args: Record<string, unknown>) => ((await client.callTool({ name, arguments: args })).content as { text: string }[])[0].text;
+  // D108: every data answer ends with its data date; the D108 tests read it with raw, the rest read the answer above it
+  const call = async (name: string, args: Record<string, unknown>) => (await raw(name, args)).replace(/\n\nData as of [^\n]*$/, "");
   try {
     const failures: string[] = [];
     for (const row of goldenRows()) {
       if (row.pending) continue;
       for (const mode of ["keyword", "hybrid"]) {
-        const text = await call("search", { query: row.q, limit: 50, mode });
+        const text = await call("bc_search", { query: row.q, limit: 50, mode });
         // "bc30 sales": the first hit's page says it is present in that major
         let first: string | undefined;
-        if (row.major) { const id = /path=(\S+)/.exec(text)?.[1]; first = id ? await call("cat", { path: id }) : undefined; }
+        if (row.major) { const id = /path=(\S+)/.exec(text)?.[1]; first = id ? await call("bc_cat", { path: id }) : undefined; }
         const present = (id: string) => (row.major && first && new RegExp(`present_in:[\\s\\S]*?- "${row.major}"`).test(first) && id ? id : undefined);
         const hits = parseHits(text, present);
         // "Hint: ..." lines; a hit-less kind: query (D95) answers with its hint, "No event named ...", as the first line
-        const hints = [...text.matchAll(/^(?:Hint: |(?=No \w+ named ))(.*?)(?: \(search "(.*)"\)| \(cat\("(.*)"\)\))?$/gm)].map((m) => ({ text: m[1], ...(m[3] ? { path: m[3] } : {}) }));
+        const hints = [...text.matchAll(/^(?:Hint: |(?=No \w+ named ))(.*?)(?: \(bc_search "(.*)"\)| \(bc_cat\("(.*)"\)\))?$/gm)].map((m) => ({ text: m[1], ...(m[3] ? { path: m[3] } : {}) }));
         const err = checkRow(row, hits, hints);
         if (err) failures.push(`${row.q} (${mode}): ${err}`);
       }
@@ -44,31 +46,31 @@ test("the golden queries on the MCP server, keyword and default mode (D86 5, tes
     assert.deepEqual(failures, []);
     // a symbol hit names what it is and where, its path carries the anchor, the doc line follows (D86 2.3)
     if (symbols) {
-      const ev = await call("search", { query: "OnAfterPostSalesDoc", limit: 3 });
+      const ev = await call("bc_search", { query: "OnAfterPostSalesDoc", limit: 3 });
       assert.match(ev, /^- OnAfterPostSalesDoc \(event of Codeunit 80 "Sales-Post", integration, \d+ subscribers?\) path=objects\/codeunit\/80#event-OnAfterPostSalesDoc \[keyword\]\n  \S/m);
-      assert.match(ev.split("\n")[0], /^\d+ results, keyword \(read one with cat\(path\)[;)]/);
-      assert.match(await call("search", { query: "Posting Date", kind: "field", limit: 3 }), /^- Posting Date \(field \d+ of Table \d+ "[^"]+", Date\) path=objects\/table\/\d+#field-\d+/m);
-      assert.doesNotMatch(await call("search", { query: "Posting Date", kind: "page", limit: 10 }), /#field-/);
+      assert.match(ev.split("\n")[0], /^\d+ results, keyword \(read one with bc_cat\(path\)[;)]/);
+      assert.match(await call("bc_search", { query: "Posting Date", kind: "field", limit: 3 }), /^- Posting Date \(field \d+ of Table \d+ "[^"]+", Date\) path=objects\/table\/\d+#field-\d+/m);
+      assert.doesNotMatch(await call("bc_search", { query: "Posting Date", kind: "page", limit: 10 }), /#field-/);
     }
     // get_object resolves names, captions, country objects and references
-    assert.match(await call("get_object", { type: "table", idOrName: "Sales Header" }), /^---\nid: object\/table\/36\n/);
-    assert.match(await call("get_object", { type: "codeunit", idOrName: "Sales-Post" }), /^---\nid: object\/codeunit\/80\n/);
-    assert.match(await call("get_object", { type: "page", idOrName: "Customer Card" }), /^---\nid: object\/page\/21\n/);
-    assert.match(await call("get_object", { type: "page", idOrName: "Customers" }), /^---\nid: object\/page\/36954\n/, "a name before a caption (Page 22 is captioned Customers)");
-    assert.match(await call("get_object", { type: "page", idOrName: "subscriptions" }), /^---\nid: object\/page\/8059\n/, "by its caption");
-    assert.match(await call("get_object", { type: "table", idOrName: "VAT VIES Correction" }), /^---\nid: object\/table\/11300-be\n/);
-    assert.match(await call("get_object", { type: "table", idOrName: "11300", country: "BE" }), /^---\nid: object\/table\/11300-be\n/);
-    assert.match(await call("get_object", { type: "table", idOrName: "t36" }), /^---\nid: object\/table\/36\n/);
+    assert.match(await call("bc_get_object", { type: "table", idOrName: "Sales Header" }), /^---\nid: object\/table\/36\n/);
+    assert.match(await call("bc_get_object", { type: "codeunit", idOrName: "Sales-Post" }), /^---\nid: object\/codeunit\/80\n/);
+    assert.match(await call("bc_get_object", { type: "page", idOrName: "Customer Card" }), /^---\nid: object\/page\/21\n/);
+    assert.match(await call("bc_get_object", { type: "page", idOrName: "Customers" }), /^---\nid: object\/page\/36954\n/, "a name before a caption (Page 22 is captioned Customers)");
+    assert.match(await call("bc_get_object", { type: "page", idOrName: "subscriptions" }), /^---\nid: object\/page\/8059\n/, "by its caption");
+    assert.match(await call("bc_get_object", { type: "table", idOrName: "VAT VIES Correction" }), /^---\nid: object\/table\/11300-be\n/);
+    assert.match(await call("bc_get_object", { type: "table", idOrName: "11300", country: "BE" }), /^---\nid: object\/table\/11300-be\n/);
+    assert.match(await call("bc_get_object", { type: "table", idOrName: "t36" }), /^---\nid: object\/table\/36\n/);
     // long pages come back compact, a section in slices, a symbol path as its row (D93 test 6)
-    const salesPost = await call("get_object", { type: "codeunit", idOrName: "Sales-Post" });
+    const salesPost = await call("bc_get_object", { type: "codeunit", idOrName: "Sales-Post" });
     assert.ok(salesPost.includes("Compact view:") && salesPost.length < 30_000, String(salesPost.length));
-    const member = await call("cat", { path: "objects/codeunit/80#event-OnAfterPostSalesDoc" });
+    const member = await call("bc_cat", { path: "objects/codeunit/80#event-OnAfterPostSalesDoc" });
     assert.match(member, /^Codeunit 80 "Sales-Post", event OnAfterPostSalesDoc: /);
     assert.ok(member.length < 5_000, String(member.length));
-    assert.match(await call("get_object", { type: "table", idOrName: "36", section: "fields", offset: 5, limit: 3 }), /Rows 6-8 of \d+\. Next: cat\("objects\/table\/36", section: "fields", offset: 8\)\n$/, "a section answer ends with one newline");
-    assert.match((await call("search", { query: "customer", system: "sales", limit: 5 })).split("\n").find((l) => l.startsWith("- ")) ?? "", /Table 18 "Customer"/);
+    assert.match(await call("bc_get_object", { type: "table", idOrName: "36", section: "fields", offset: 5, limit: 3 }), /Rows 6-8 of \d+\. Next: bc_cat\("objects\/table\/36", section: "fields", offset: 8\)\n$/, "a section answer ends with one newline");
+    assert.match((await call("bc_search", { query: "customer", system: "sales", limit: 5 })).split("\n").find((l) => l.startsWith("- ")) ?? "", /Table 18 "Customer"/);
     const today = new Date().toISOString().slice(0, 10);
-    const news = await call("whats_new", { since: today, limit: 100 });
+    const news = await call("bc_whats_new", { since: today, limit: 100 });
     for (const d of news.matchAll(/, (\d{4}-\d{2}-\d{2})\] path=/g)) assert.ok(d[1] <= today, `${d[1]} is after today`);
   } finally {
     await client.close();
