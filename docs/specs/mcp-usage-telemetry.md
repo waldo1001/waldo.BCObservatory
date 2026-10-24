@@ -73,8 +73,11 @@ twin built by `site/src/lib/mcp.ts` (`:96-97`). Verbatim:
 > You can object at any time by turning it off: `BC_OBSERVATORY_TELEMETRY=0` or `DO_NOT_TRACK=1` in the server's
 > environment. It is also off in CI and when the server reads a local checkout (`BC_OBSERVATORY_LOCAL`).
 
-`site/src/lib/mcp.ts:97` drops "Nothing is sent anywhere: `feedback` only returns a link." and ends with "Apart from
-the usage counts below, nothing is sent anywhere: `feedback` only returns a link." The `bc_feedback` lines
+The same claim is made twice and both go: `site/src/lib/mcp.ts:97` drops "Nothing is sent anywhere: `feedback` only
+returns a link." and ends with "Apart from the usage counts below, nothing is sent anywhere: `feedback` only returns a
+link."; `site/src/pages/mcp/index.astro:67` drops "Nothing is sent anywhere: <code>feedback</code> only returns a link
+you open yourself." and ends with "Apart from the <a href="#privacy">usage counts</a>, nothing is sent anywhere:
+<code>feedback</code> only returns a link you open yourself." The `bc_feedback` lines
 (`server.ts:674`, `site/src/lib/mcp.ts:34`) stay: they are about that tool.
 
 ## 3. Decisions
@@ -254,7 +257,8 @@ All network goes through an injected `fetchImpl` that records calls; no test rea
     000000000000;IngestionEndpoint=https://example.test/` contains `https://example.test/`. Neither bundle imports
     `applicationinsights`.
 13. Site: the MCP page markdown (`site/src/lib/mcp.ts`) contains `## Privacy` and `BC_OBSERVATORY_TELEMETRY=0` and no
-    longer contains "Nothing is sent anywhere: `feedback`"; `packages/mcp/README.md` has the notice heading.
+    longer contains "Nothing is sent anywhere: `feedback`"; `site/src/pages/mcp/index.astro` contains `id="privacy"`
+    and no longer contains "Nothing is sent anywhere: <code>"; `packages/mcp/README.md` has the notice heading.
 
 ## 6. Tasks
 
@@ -279,7 +283,8 @@ One phase; it ships as one PR and one MCP release. No content is rewritten; the 
 1. `npm run typecheck` and `npx tsx --test tests/unit/mcp-telemetry.test.ts tests/unit/mcp.test.ts
    tests/unit/mcp-build.test.ts tests/unit/mcp-sections.test.ts` green; then `npm test`.
 2. Site build with Node 22 (`PATH=~/.nvm/versions/node/v22*/bin:$PATH npm run build --workspace=site`): the MCP page
-   and `mcp.md` show the privacy block; `grep -c "Nothing is sent anywhere: " site/dist/mcp.md` is 0.
+   and `mcp.md` show the privacy block; `grep -c "Nothing is sent anywhere: " site/dist/mcp.md site/dist/mcp/index.html`
+   is 0 for both.
 3. Local bundle with a fake string, against a local catcher: `AI_CONNECTION_STRING='InstrumentationKey=00000000-0000-
    0000-0000-000000000000;IngestionEndpoint=http://127.0.0.1:8787/' npx tsx packages/mcp/build.ts /tmp/obs.js`, run a
    one-line `node -e` HTTP server on 8787 that prints bodies, drive `/tmp/obs.js` over stdio with one `bc_search
@@ -348,7 +353,7 @@ Changed: `packages/mcp/src/server.ts`, `packages/mcp/build.ts`, `packages/mcp/pa
 - [ ] A local build without `AI_CONNECTION_STRING` sends nothing and prints no notice; with a fake string and a local
       catcher it sends one event per call and never the query text (section 7, check 3).
 - [ ] The privacy notice of section 2 is in `packages/mcp/README.md`, linked from `plugin/README.md`, and on the MCP
-      page (HTML and `mcp.md`) under `#privacy`; "Nothing is sent anywhere: `feedback`" is gone.
+      page (HTML and `mcp.md`) under `#privacy`; "Nothing is sent anywhere:" is gone from both.
 - [ ] `publish-mcp.yml` passes `AI_CONNECTION_STRING` to the build step only.
 - [ ] RUNBOOK has "Usage counts (D110)" with the KQL, the secret, rotation, the emergency off and the Buddy dashboard
       filter step.
