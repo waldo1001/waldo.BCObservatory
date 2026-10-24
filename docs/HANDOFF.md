@@ -36,6 +36,13 @@ questions in its section 12).
 
 ## Where things stand
 
+**Shipped 2026-10-24 (MCP 0.12.0, plugin 0.8.0; no page or data changed, no derive):**
+- **Usage counts know unique users and where they are (D111, M48).** The published MCP keeps a random install id in
+  `~/.cache/bc-observatory/install-id` and sends it as the user id; Application Insights now stores country and city.
+  The privacy notice on the MCP page and in both READMEs says so. Operator step: `gh workflow run publish-mcp.yml --ref
+  main` (D40), then check `user_Id`, `client_City` and `client_CountryOrRegion` on the first events (RUNBOOK "Usage counts
+  (D110)").
+
 **Shipped 2026-10-24 (MCP 0.11.0 published, plugin 0.7.0; no page or data changed, no derive):**
 - **The MCP counts its tool calls (D110, M47).** A published build sends one `Obs.ToolCall` event per tool call to
   the Observatory's own Application Insights resource: tool, outcome, duration, client name and version, server version, a

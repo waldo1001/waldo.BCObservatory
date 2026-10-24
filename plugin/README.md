@@ -1,6 +1,6 @@
 # BC Observatory plugin for Claude Code and GitHub Copilot CLI
 
-Plugin `bc-observatory` 0.7.0, with the `bc-observatory` MCP server 0.11.0. Install:
+Plugin `bc-observatory` 0.8.0, with the `bc-observatory` MCP server 0.12.0. Install:
 
 ```bash
 claude plugin marketplace add waldo1001/waldo.BCObservatory     # Claude Code, step 1: the marketplace
@@ -49,11 +49,12 @@ yourself needs changing.
 ## Privacy
 
 The `bc-observatory` server counts its tool calls (tool name, outcome, duration, client name and version, server
-version, a random per-process session id) in Azure Application Insights, West Europe, kept 90 days. It never sends your
-questions or any other argument, and nothing about your machine. Turn it off with `BC_OBSERVATORY_TELEMETRY=0` or
-`DO_NOT_TRACK=1` in the server's environment. The full notice (controller, legal basis, your rights):
-[packages/mcp/README.md](https://github.com/waldo1001/waldo.BCObservatory/tree/main/packages/mcp#privacy-and-usage-counts). The other two servers are run by
-their owners and follow their own terms.
+version, a random per-process session id and a random install id kept in `~/.cache/bc-observatory/install-id`) in
+Azure Application Insights, West Europe, kept 90 days; Application Insights adds the country and city of your IP
+address and does not store the address. It never sends your questions or any other argument, and nothing about your
+machine. Turn it off with `BC_OBSERVATORY_TELEMETRY=0` or `DO_NOT_TRACK=1` in the server's environment. The full notice
+(controller, legal basis, your rights): [packages/mcp/README.md](https://github.com/waldo1001/waldo.BCObservatory/tree/main/packages/mcp#privacy-and-usage-counts).
+The other two servers are run by their owners and follow their own terms.
 
 ## Using only parts of it
 

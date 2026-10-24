@@ -23,7 +23,7 @@
  * BC_OBSERVATORY_EMBEDDINGS=0 turns it off; BC_OBSERVATORY_MODEL_DIR uses a model on disk (offline, tests). Without a
  * model, search is keyword-only.
  */
-import { createHash } from "node:crypto";
+import { createHash, randomUUID } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, realpathSync, statSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
 import { join, resolve } from "node:path";
@@ -41,14 +41,28 @@ import { DEFAULT_BUDGET, anchorView, budgetOf, pageView, type ViewArgs } from ".
 import { brief } from "./brief.js";
 import { createTelemetry, type Client, type ToolCall } from "./telemetry.js";
 
-const VERSION = "0.11.0";
+const VERSION = "0.12.0";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 /** D110: the Application Insights connection string, set by esbuild define in publish-mcp; tsx runs have none. */
 declare const __BCOBS_AI__: string | undefined;
 let clientOf: () => Client = () => ({});
+const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+/** D111: a random install id in `<dir>/install-id`, created once and reused; undefined when the folder cannot be written. */
+export function installId(dir: string): string | undefined {
+  const file = join(dir, "install-id");
+  try {
+    const have = existsSync(file) ? readFileSync(file, "utf8").trim() : "";
+    if (UUID.test(have)) return have.toLowerCase();
+    const id = randomUUID();
+    mkdirSync(dir, { recursive: true });
+    writeFileSync(file, `${id}\n`);
+    return id;
+  } catch { return undefined; }
+}
 const telemetry = createTelemetry({ env: process.env, connection: typeof __BCOBS_AI__ === "string" ? __BCOBS_AI__ : undefined,
-  version: VERSION, getClient: () => clientOf() });
+  version: VERSION, getClient: () => clientOf(),
+  getInstallId: () => installId(join(process.env.XDG_CACHE_HOME ?? join(homedir(), ".cache"), "bc-observatory")) });
 /** One answer's characters (D93): a longer page comes back compact; B is how the descriptions say it. */
 const BUDGET = budgetOf(process.env.BC_OBSERVATORY_MAX_CHARS);
 const B = (Number.isFinite(BUDGET) ? BUDGET : DEFAULT_BUDGET).toLocaleString("en-US");

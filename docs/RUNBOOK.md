@@ -169,10 +169,10 @@ The published MCP sends one `Obs.ToolCall` event per tool call to the Observator
 - **Emergency off for everyone.** Remove the secret (`gh secret delete AI_CONNECTION_STRING -R waldo1001/waldo.BCObservatory`),
   bump the MCP version and publish: the new bundle carries `""`. Users on the old version keep sending until `@latest`
   refreshes their npx cache.
-- **After the first publish.** In the portal (Logs): `customEvents | where name == "Obs.ToolCall" | take 5`. Expect
-  `client_IP` `0.0.0.0`, `client_City` and `client_CountryOrRegion` empty, `cloud_RoleInstance` `obs`. A filled location
-  means the `ai.location.ip` tag did not stop geolocation: turn on the resource's IP and location masking or correct the
-  privacy notice before telling anyone (spec section 9, risk 3).
+- **After a publish.** In the portal (Logs): `customEvents | where name == "Obs.ToolCall" | take 5`. Since 0.12.0
+  (D111) expect `user_Id` a UUID, `client_City` and `client_CountryOrRegion` filled, `client_IP` `0.0.0.0` (masked by the
+  resource), `cloud_RoleInstance` `obs`. A real address in `client_IP` means IP masking was switched off on the resource:
+  turn it back on, the notice promises the address is not stored. 0.11.0 sends no user id and no location.
 
 ```kusto
 // calls and sessions per day
@@ -185,7 +185,15 @@ customEvents | where timestamp > ago(30d) and name == "Obs.ToolCall"
     p50ms = percentile(todouble(customMeasurements.ms), 50) by tool | order by calls desc
 // by client
 customEvents | where timestamp > ago(30d) and name == "Obs.ToolCall"
-| summarize sessions = dcount(session_Id) by client = tostring(customDimensions.client) | order by sessions desc
+| summarize users = dcount(user_Id), sessions = dcount(session_Id) by client = tostring(customDimensions.client) | order by users desc
+// unique users per day and per week (D111, 0.12.0 and later; the Usage > Users blade shows the same)
+customEvents | where timestamp > ago(30d) and name == "Obs.ToolCall" and isnotempty(user_Id)
+| summarize dailyUsers = dcount(user_Id) by bin(timestamp, 1d) | order by timestamp asc
+customEvents | where timestamp > ago(90d) and name == "Obs.ToolCall" and isnotempty(user_Id)
+| summarize weeklyUsers = dcount(user_Id) by startofweek(timestamp) | order by timestamp_startofweek asc
+// by country and city
+customEvents | where timestamp > ago(30d) and name == "Obs.ToolCall" and isnotempty(user_Id)
+| summarize users = dcount(user_Id), calls = count() by client_CountryOrRegion, client_City | order by users desc
 ```
 
 ## Recovery

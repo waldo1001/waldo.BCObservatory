@@ -26,21 +26,23 @@ as its MCP instructions. For a client that does not show those, put this in the 
 ```md
 ## Privacy and usage counts
 
-**Privacy and usage counts.** The `bc-observatory` server counts its own use so its author knows which tools people use.
-Each tool call sends one event to Azure Application Insights (West Europe): the tool name, whether it answered, found
-nothing or failed, how long it took, the server version, the name and version your MCP client reports (for example
-`claude-code 2.1.4`), and a random session id that exists only while the server runs and is never written to disk. It
-never sends your questions, paths, object ids or any other argument, and nothing about your machine: no hostname, user
-name, operating system or file path. Your IP address reaches Microsoft's ingestion endpoint, as with any HTTPS request;
-the server tells Application Insights not to derive a location from it, and Application Insights does not store it.
-Events are kept 90 days, then deleted.
+**Privacy and usage counts.** The `bc-observatory` server counts its own use so its author knows how many people use it
+and which tools. Each tool call sends one event to Azure Application Insights (West Europe): the tool name, whether it
+answered, found nothing or failed, how long it took, the server version, the name and version your MCP client reports
+(for example `claude-code 2.1.4`), a random session id that exists only while the server runs, and a random install id
+the server keeps in `~/.cache/bc-observatory/install-id` (or under `$XDG_CACHE_HOME`) so repeat use counts as one user.
+It never sends your questions, paths, object ids or any other argument, and nothing about your machine: no hostname,
+user name, operating system or file path. Your IP address reaches Microsoft's ingestion endpoint, as with any HTTPS
+request; Application Insights derives the country, region and city from it and does not store the address. Events are
+kept 90 days, then deleted.
 
 Controller: Eric Wauters (waldo), contact through [GitHub
-issues](https://github.com/waldo1001/waldo.BCObservatory/issues). Purpose: knowing which tools are used, to decide what
-to build next. Legal basis: legitimate interest (GDPR Art. 6(1)(f)). Processor: Microsoft (Azure, EU). No event can be
-tied to a person, so requests to see or erase "your" events cannot be matched (Art. 11). You can object at any time by
-turning it off: `BC_OBSERVATORY_TELEMETRY=0` or `DO_NOT_TRACK=1` in the server's environment. It is also off in CI and
-when the server reads a local checkout (`BC_OBSERVATORY_LOCAL`).
+issues](https://github.com/waldo1001/waldo.BCObservatory/issues). Purpose: knowing how many people use which tools, and
+from where, to decide what to build next. Legal basis: legitimate interest (GDPR Art. 6(1)(f)). Processor: Microsoft
+(Azure, EU). Events carry no name or address; the install id is the only link between them. To see or erase your events,
+send the content of your `install-id` file in an issue; to start over, delete the file. You can object at any time by
+turning it off: `BC_OBSERVATORY_TELEMETRY=0` or `DO_NOT_TRACK=1` in the server's environment; then no install id is
+created or sent. It is also off in CI and when the server reads a local checkout (`BC_OBSERVATORY_LOCAL`).
 
 ## Business Central questions
 Use the BC Observatory MCP tools (bc_search, bc_whats_new, bc_get_object, bc_diff_object, ...) FIRST for any

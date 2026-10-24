@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { mkdtempSync, readFileSync } from "node:fs";
+import { chmodSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { createTelemetry, envelope, parseConnection, telemetryEnabled, type ToolCall } from "../../packages/mcp/src/telemetry.js";
@@ -42,8 +42,8 @@ test("D110 test 2: telemetryEnabled honours every off switch", () => {
   assert.equal(telemetryEnabled({ BC_OBSERVATORY_TELEMETRY: "1" }, ""), false);
 });
 
-test("D110 test 3: the envelope is the record of spec 4.2, nothing more", () => {
-  const e = envelope({ tool: "bc_search", outcome: "ok", ms: 412 }, { iKey: IKEY, session: "5b0d1f7e-2c1a-4f53-9a0e-1d8f6f2b7c44", version: "0.11.0", client: { name: "claude-code", version: "2.1.4" }, now: new Date("2026-11-02T09:14:03.120Z") });
+test("D110 test 3, D111: the envelope carries the install id as user id and no location tag", () => {
+  const e = envelope({ tool: "bc_search", outcome: "ok", ms: 412 }, { iKey: IKEY, session: "5b0d1f7e-2c1a-4f53-9a0e-1d8f6f2b7c44", user: "0d2f6c1a-9b3e-4c7d-8e5f-1a2b3c4d5e6f", version: "0.11.0", client: { name: "claude-code", version: "2.1.4" }, now: new Date("2026-11-02T09:14:03.120Z") });
   assert.deepEqual(e, {
     name: "Microsoft.ApplicationInsights.Event",
     time: "2026-11-02T09:14:03.120Z",
@@ -52,14 +52,52 @@ test("D110 test 3: the envelope is the record of spec 4.2, nothing more", () => 
       "ai.cloud.role": "bc-observatory-mcp",
       "ai.cloud.roleInstance": "obs",
       "ai.session.id": "5b0d1f7e-2c1a-4f53-9a0e-1d8f6f2b7c44",
+      "ai.user.id": "0d2f6c1a-9b3e-4c7d-8e5f-1a2b3c4d5e6f",
       "ai.application.ver": "0.11.0",
-      "ai.location.ip": "0.0.0.0",
       "ai.internal.sdkVersion": "bc-observatory-mcp:0.11.0",
     },
     data: { baseType: "EventData", baseData: { ver: 2, name: "Obs.ToolCall",
       properties: { tool: "bc_search", outcome: "ok", client: "claude-code", clientVersion: "2.1.4", mcpVersion: "0.11.0" },
       measurements: { ms: 412 } } },
   });
+});
+
+test("D111: without an install id the envelope has no user tag", () => {
+  const e = envelope({ tool: "bc_ls", outcome: "ok", ms: 1 }, { iKey: IKEY, session: "s", version: "0.11.0", client: {}, now: new Date(0) }) as { tags: Record<string, string> };
+  assert.equal("ai.user.id" in e.tags, false);
+  assert.equal("ai.location.ip" in e.tags, false, "D111: Application Insights derives country and city");
+});
+
+test("D111: the install id is asked for only when telemetry is on, and travels with every event", () => {
+  let asked = 0;
+  const getInstallId = () => { asked++; return "0d2f6c1a-9b3e-4c7d-8e5f-1a2b3c4d5e6f"; };
+  createTelemetry({ env: { DO_NOT_TRACK: "1" }, connection: CS, version: "0.12.0", getClient: () => ({}), getInstallId });
+  createTelemetry({ env: {}, connection: undefined, version: "0.12.0", getClient: () => ({}), getInstallId });
+  assert.equal(asked, 0, "off: no file is read or written");
+  const r = recorder();
+  const t = createTelemetry({ env: {}, connection: CS, version: "0.12.0", getClient: () => ({}), getInstallId, fetchImpl: r.fetchImpl });
+  t.track({ tool: "bc_ls", outcome: "ok", ms: 1 });
+  t.track({ tool: "bc_cat", outcome: "ok", ms: 1 });
+  assert.equal(asked, 1, "read once per process");
+  for (const c of r.calls) assert.equal((c.body[0] as { tags: Record<string, string> }).tags["ai.user.id"], "0d2f6c1a-9b3e-4c7d-8e5f-1a2b3c4d5e6f");
+  const broken = createTelemetry({ env: {}, connection: CS, version: "0.12.0", getClient: () => ({}), getInstallId: () => { throw new Error("EACCES"); }, fetchImpl: r.fetchImpl });
+  assert.doesNotThrow(() => broken.track({ tool: "bc_ls", outcome: "ok", ms: 1 }));
+});
+
+test("D111: installId creates a UUID file once, reuses it, replaces junk, and gives up quietly", async () => {
+  const { installId } = await import("../../packages/mcp/src/server.js");
+  const dir = mkdtempSync(join(tmpdir(), "bcobs-install-"));
+  const first = installId(dir);
+  assert.match(first ?? "", /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/);
+  assert.equal(readFileSync(join(dir, "install-id"), "utf8").trim(), first);
+  assert.equal(installId(dir), first, "reused");
+  writeFileSync(join(dir, "install-id"), "not a uuid\n");
+  const second = installId(dir);
+  assert.notEqual(second, first);
+  assert.match(second ?? "", /^[0-9a-f-]{36}$/);
+  const locked = mkdtempSync(join(tmpdir(), "bcobs-install-ro-"));
+  chmodSync(locked, 0o500);
+  try { assert.equal(installId(join(locked, "sub")), undefined); } finally { chmodSync(locked, 0o700); }
 });
 
 test("D110 test 4: the client name and version are sanitised and cut to 40", () => {
@@ -143,7 +181,7 @@ test("D110 test 9: telemetry.ts reads nothing about the machine and never sends 
 test("D110 test 10: the stderr notice when on, null when off", () => {
   const r = recorder();
   assert.equal(on(r.fetchImpl).notice(SITE),
-    "bc-observatory: counts tool calls (tool name, outcome, duration, client name; never your questions or anything about this machine) in Azure Application Insights, West Europe, kept 90 days. Turn off: BC_OBSERVATORY_TELEMETRY=0 or DO_NOT_TRACK=1. https://waldo1001.github.io/waldo.BCObservatory/mcp/#privacy");
+    "bc-observatory: counts tool calls (tool name, outcome, duration, client name, a random install id from ~/.cache/bc-observatory/install-id, and the country and city of your IP address; never your questions or anything else about this machine) in Azure Application Insights, West Europe, kept 90 days. Turn off: BC_OBSERVATORY_TELEMETRY=0 or DO_NOT_TRACK=1. https://waldo1001.github.io/waldo.BCObservatory/mcp/#privacy");
   assert.equal(createTelemetry({ env: {}, connection: undefined, version: "0.11.0", getClient: () => ({}) }).notice(SITE), null);
 });
 
@@ -152,10 +190,15 @@ test("D110 test 13: the privacy notice is in the READMEs and on the MCP page, an
   const md = mcpMarkdown({ server: "9.9.9", plugin: "8.8.8" }, "https://github.com/o/r", "https://example.test/x/");
   assert.match(md, /^## Privacy$/m);
   assert.match(md, /BC_OBSERVATORY_TELEMETRY=0/);
+  assert.match(md, /install-id/, "D111: the notice names the install id");
+  assert.match(md, /country, region and city/, "D111: the notice names the location");
+  assert.doesNotMatch(md, /not to derive a location/);
   assert.doesNotMatch(md, /Nothing is sent anywhere: `feedback`/);
   const page = read("site/src/pages/mcp/index.astro");
   assert.match(page, /id="privacy"/);
   assert.doesNotMatch(page, /Nothing is sent anywhere: <code>/);
   assert.match(read("packages/mcp/README.md"), /^## Privacy and usage counts$/m);
   assert.match(read("plugin/README.md"), /BC_OBSERVATORY_TELEMETRY=0/);
+  assert.match(read("plugin/README.md"), /install id/);
+  for (const f of ["packages/mcp/README.md", "site/src/pages/mcp/index.astro"]) assert.match(read(f), /install-id/, f);
 });

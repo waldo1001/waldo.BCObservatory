@@ -1256,3 +1256,13 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   `DO_NOT_TRACK=1`. Rejected: a persisted install id (ePrivacy Art. 5(3) consent, so opt-in), the SDK (dependencies,
   host data), opt-in. Spec
   `docs/specs/mcp-usage-telemetry.md`. MCP 0.11.0, plugin 0.7.0.
+- **D111 Usage counts know unique users and where they are (2026-10-24, M48).** Amends D110 at the owner's request
+  ("Country and city", "I also want to be able to track unique users"). The server keeps a random install id in
+  `~/.cache/bc-observatory/install-id` (or under `$XDG_CACHE_HOME`), created on first use and only while counting is on,
+  and sends it as `ai.user.id`, so `user_Id` counts unique installs (the Usage > Users blade works). The `ai.location.ip`
+  `0.0.0.0` tag is gone: Application Insights derives country, region and city from the sender and, with IP masking on,
+  stores `client_IP` as `0.0.0.0`. The privacy notice (MCP README, plugin README, MCP page, stderr line) names both; a
+  user can send the file's content to see or erase their events, or delete it to start over. Owner's choice between an
+  opt-out install id (taken), an opt-in one, and a monthly-rotating one; the opt-out default carries the ePrivacy
+  Art. 5(3) risk D110 avoided (storing an identifier on the device), the same one BC Telemetry Buddy carries. MCP
+  0.12.0, plugin 0.8.0.

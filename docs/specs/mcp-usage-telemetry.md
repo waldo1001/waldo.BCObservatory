@@ -414,6 +414,12 @@ Observatory resource's connection string (endpoint `westeurope-5`) and no SDK. A
 West Europe and its `AppEvents` table keeps 90 days, as the notice says. Section 7, checks 4 and 6 passed; check 5
 (Buddy's dashboard) no longer applies.
 
+Amended by D111 (2026-10-24, owner's request): the server now keeps a random install id in
+`~/.cache/bc-observatory/install-id`, sent as `ai.user.id`, and no longer sends `ai.location.ip` `0.0.0.0`, so
+Application Insights stores country and city (`client_IP` stays masked). Sections 2, 3 (the "persisted installation ID"
+rejection and the per-process-only rule) and 4.2 describe 0.11.0; 0.12.0 differs as D111 says. Tests: the D111 cases in
+`tests/unit/mcp-telemetry.test.ts`.
+
 ## 13. Proposed edits to other files (applied 2026-10-24, see section 12)
 
 **`docs/DECISIONS.md`**, append:
