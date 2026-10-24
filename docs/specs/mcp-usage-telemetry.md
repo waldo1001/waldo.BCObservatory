@@ -1,12 +1,12 @@
 ---
 issue: 39
-status: draft
+status: implemented
 ---
 
 # The MCP counts its own use: one event per tool call to Application Insights, opt-out, GDPR-minimal
 
-Status: proposed, 2026-10-24. Decision: D110 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M47
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-24 (section 12 records what was built and where it differs). Decision: D110 (appended
+2026-10-24). Milestone: M47. Owner: waldo.
 Scope: the stdio MCP server `bc-observatory` (`packages/mcp`), its bundle step and publish workflow, the privacy text
 in its README, the plugin README and the MCP page of the site. Every claim below was verified against the tree at
 `fdbc6da8af` on 2026-10-24, and against `waldo.BCTelemetryBuddy` and `waldo.BCTelemetryBuddy.Usage` as checked out on
@@ -347,24 +347,59 @@ Changed: `packages/mcp/src/server.ts`, `packages/mcp/build.ts`, `packages/mcp/pa
 
 ## 11. Definition of Done
 
-- [ ] Tests 1-13 of section 5 exist and pass; `npm run typecheck` and `npm test` green.
-- [ ] `packages/mcp/src/telemetry.ts` has no dependency beyond `node:crypto` and global `fetch`; `packages/mcp/
+- [x] Tests 1-13 of section 5 exist and pass; `npm run typecheck` and `npm test` green.
+- [x] `packages/mcp/src/telemetry.ts` has no dependency beyond `node:crypto` and global `fetch`; `packages/mcp/
       package.json` dependencies unchanged apart from the version.
-- [ ] A local build without `AI_CONNECTION_STRING` sends nothing and prints no notice; with a fake string and a local
+- [x] A local build without `AI_CONNECTION_STRING` sends nothing and prints no notice; with a fake string and a local
       catcher it sends one event per call and never the query text (section 7, check 3).
-- [ ] The privacy notice of section 2 is in `packages/mcp/README.md`, linked from `plugin/README.md`, and on the MCP
+- [x] The privacy notice of section 2 is in `packages/mcp/README.md`, linked from `plugin/README.md`, and on the MCP
       page (HTML and `mcp.md`) under `#privacy`; "Nothing is sent anywhere:" is gone from both.
-- [ ] `publish-mcp.yml` passes `AI_CONNECTION_STRING` to the build step only.
-- [ ] RUNBOOK has "Usage counts (D110)" with the KQL, the secret, rotation, the emergency off and the Buddy dashboard
+- [x] `publish-mcp.yml` passes `AI_CONNECTION_STRING` to the build step only.
+- [x] RUNBOOK has "Usage counts (D110)" with the KQL, the secret, rotation, the emergency off and the Buddy dashboard
       filter step.
-- [ ] MCP 0.11.0 and plugin 0.7.0 in every place listed in task 7, and no other place holds 0.10.0 or 0.6.0.
-- [ ] D110 appended to docs/DECISIONS.md; PLAN M47 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+- [x] MCP 0.11.0 and plugin 0.7.0 in every place listed in task 7, and no other place holds 0.10.0 or 0.6.0.
+- [x] D110 appended to docs/DECISIONS.md; PLAN M47 marked shipped; HANDOFF entry moved from "Open specs" to "Where
       things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
       implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
       status lines into docs/built/mcp-usage-telemetry.md; the PR's review moves them in (sdd-build section 4,
       sdd-review section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-24)
+
+Built by hand in worktree `../waldo.BCObservatory-build-mcp-usage-telemetry` (branch `build/mcp-usage-telemetry`) from
+`3dd54b31fc`, at the owner's request ("build it here"). Rated `risky` (it touches `.github/workflows/publish-mcp.yml`); the
+owner's request was the go.
+
+Red: `tests/unit/mcp-telemetry.test.ts` failed with `ERR_MODULE_NOT_FOUND` for `packages/mcp/src/telemetry.js`, and
+test 12 failed because the bundle did not contain `https://example.test/`. Test 11 passed before the change too (there
+was no notice to print); it stays as the guard the spec asks for.
+
+Verified:
+- `npm run typecheck` clean; `npm test` 733 tests, 732 pass, 1 skipped, 0 fail; `npm run lint:workflows` 6 OK.
+- Site build (Node 24.22.1, `NODE_OPTIONS=--max-old-space-size=8192`; Node 26 ran out of memory, Pages uses Node 22):
+  29,141 pages; `site/dist/mcp.md` and `site/dist/mcp/index.html` each have the privacy block and 0 "Nothing is sent
+  anywhere: ".
+- Section 7, check 3, against the live site data: a bundle with a fake string pointing at a local catcher answered
+  `bc_search {query:"Sales Header"}` as before, sent one body to `/v2/track` (tool `bc_search`, outcome `ok`, client
+  `verify-client` `1.2.3`, `ai.location.ip` `0.0.0.0`, no query text) and printed the notice; with `DO_NOT_TRACK=1`
+  no body and no notice.
+- `git diff --stat origin/main -- content data`: empty, as the spec says.
+
+Deviations:
+- `package-lock.json` also carries the MCP workspace version; bumped to 0.11.0 with the rest (the spec's task 7 list
+  missed it).
+- `answer` gained a fourth parameter `track` (default: the module's telemetry) so test 7 injects a recorder, and is
+  exported. The spec left the injection open ("exported for the test, or via createServer").
+- `clientOf` is a module-level function that `createServer()` points at its `McpServer`, since the telemetry object is
+  created once at module level (spec 4.3) before any server exists.
+- The plugin README carries a short notice that links to the full one in `packages/mcp/README.md`, as section 2 says,
+  and adds that the other two servers follow their owners' terms.
+
+Not done here, operator steps (RUNBOOK "Usage counts (D110)", HANDOFF): set the secret `AI_CONNECTION_STRING`; add the
+`cloud_RoleName` filter to Buddy's dashboard queries; `gh workflow run publish-mcp.yml --ref main` (D40); section 7
+checks 4 to 6 on the real resource.
+
+## 13. Proposed edits to other files (applied 2026-10-24, see section 12)
 
 **`docs/DECISIONS.md`**, append:
 

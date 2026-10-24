@@ -39,10 +39,16 @@ import { dot, embed, parseModel, type StaticModel } from "./embed.js";
 import { countryBlock, memberAnswer, parseAnchor, replacedInLine, type DiffObject } from "./country.js";
 import { DEFAULT_BUDGET, anchorView, budgetOf, pageView, type ViewArgs } from "./sections.js";
 import { brief } from "./brief.js";
+import { createTelemetry, type Client, type ToolCall } from "./telemetry.js";
 
-const VERSION = "0.10.0";
+const VERSION = "0.11.0";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
+/** D110: the Application Insights connection string, set by esbuild define in publish-mcp; tsx runs have none. */
+declare const __BCOBS_AI__: string | undefined;
+let clientOf: () => Client = () => ({});
+const telemetry = createTelemetry({ env: process.env, connection: typeof __BCOBS_AI__ === "string" ? __BCOBS_AI__ : undefined,
+  version: VERSION, getClient: () => clientOf() });
 /** One answer's characters (D93): a longer page comes back compact; B is how the descriptions say it. */
 const BUDGET = budgetOf(process.env.BC_OBSERVATORY_MAX_CHARS);
 const B = (Number.isFinite(BUDGET) ? BUDGET : DEFAULT_BUDGET).toLocaleString("en-US");
@@ -615,19 +621,27 @@ export async function stamp(): Promise<string> {
 }
 /** A missing page is a not-found answer, not an outage: the local reader's error, or a 404 on a page's markdown twin. */
 const missingPage = (m: string) => /^no page at (.+)$/.exec(m)?.[1] ?? (/^HTTP 404 for (.+)\.md$/.exec(m)?.[1]?.replace(SITE, "") ?? null);
-/** D108: a tool's answer with its data date; a page that is not there says so; anything else that throws is "unreachable". */
-function answer<A>(fn: (a: A) => Promise<string> | string, stamped = true) {
+/**
+ * D108: a tool's answer with its data date; a page that is not there says so; anything else that throws is "unreachable".
+ * D110: each call is counted once by tool name and outcome (ok, nomatch, notfound, error); the arguments are never sent.
+ */
+export function answer<A>(tool: string, fn: (a: A) => Promise<string> | string, stamped = true, track: (c: ToolCall) => void = telemetry.track) {
   return async (a: A) => {
+    const t0 = performance.now();
+    const count = (outcome: ToolCall["outcome"]) => track({ tool, outcome, ms: performance.now() - t0 });
     try {
       const t = await fn(a);
       const s = stamped ? await stamp() : "";
+      count(t.includes(NO_MATCH) ? "nomatch" : "ok");
       return text(s ? `${t}\n\n${s}` : t);
     } catch (e) {
       const m = errorText(e), missing = missingPage(m);
       if (missing !== null) {
         const s = await stamp();
+        count("notfound");
         return text(`No page at ${missing}. bc_search finds the path.\n${NO_MATCH}${s ? `\n\n${s}` : ""}`);
       }
+      count("error");
       return { ...text(`BC Observatory unreachable (${m}). Tell the user the Observatory is down (bc_status checks it); then answer from Microsoft Learn or web search and say so. Never skip this silently.`), isError: true };
     }
   };
@@ -652,29 +666,30 @@ export const INSTRUCTIONS = [
 
 export function createServer(): McpServer {
   const server = new McpServer({ name: "bc-observatory", version: VERSION }, { instructions: INSTRUCTIONS });
+  clientOf = () => server.server.getClientVersion() ?? {};
   server.registerTool("bc_search", { title: "Business Central search", description: "Business Central search across the BC Observatory: features and release wave news (e.g. Fabric mirroring), AL objects (tables, pages, codeunits, reports, enums), fields, events, procedures, Learn articles, roadmap features, blog posts, videos and code changes. Use FIRST for any Business Central question; bc_cat reads a hit. Takes names ('Sales Header'), references ('t36', 'cu 80'), bare ids ('36') and symbol prefixes ('event: OnAfterPost', 'proc: CopyToTempLines'); a symbol hit's path ends in its anchor (#event-<Name>, #field-<id>, #proc-<Name>, #value-<n>). Learn hits carry a url, not a path. Hybrid (exact first, then by meaning); hits say [keyword], [meaning] or [both]. sort 'date': newest first. Filters: type (topic, learn, app, feature, object, localization, video, post, change, source, digest, release, hotfix), tier (official, community), system (finance, sales, ... or 'g/l'), country ('BE'), app, object_type, kind (page, field, event, proc, value). Returns hits grouped by layer.",
     inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), country: z.string().optional(), app: z.string().optional(), object_type: z.string().optional(), kind: z.enum(["page", "field", "event", "proc", "value"]).optional(), limit: z.number().int().min(1).max(50).optional(), mode: z.enum(["hybrid", "keyword", "semantic"]).optional(), sort: z.enum(["match", "date"]).optional() } },
-  answer(toolSearch));
+  answer("bc_search", toolSearch));
   server.registerTool("bc_brief", { title: "Business Central answer in layers", description: "Business Central answer in layers for one question (query) or page (path): Learn with key facts, the AL code, what changed lately, scoped warnings, and the gaps no source fills; each line with its tier and source. Use for 'how does X work in BC' when one call should give the whole picture. Not for a list of hits (bc_search).",
-    inputSchema: { query: z.string().optional(), path: z.string().optional() } }, answer(toolBrief));
+    inputSchema: { query: z.string().optional(), path: z.string().optional() } }, answer("bc_brief", toolBrief));
   server.registerTool("bc_ls", { title: "Business Central page tree", description: "Business Central Observatory page tree: bc_ls('objects/table'), bc_ls('localizations'); an empty path lists the sections. For browsing; bc_search finds faster.", inputSchema: { path: z.string().optional() } },
-    answer(toolLs));
+    answer("bc_ls", toolLs));
   server.registerTool("bc_cat", { title: "Business Central page", description: `Business Central page by its path from bc_search or bc_ls: frontmatter with evidence and links, then the body. A page over ${B} characters comes back compact with its section keys; section (or 'frontmatter'), offset and limit read one part. A symbol path ('objects/codeunit/80#event-OnAfterPostSalesDoc') returns that member's row.`, inputSchema: { path: z.string(), ...VIEW } },
-    answer(toolCat));
+    answer("bc_cat", toolCat));
   server.registerTool("bc_get_object", { title: "Business Central AL object", description: `Business Central AL object (table, page, codeunit, report, enum, query, xmlport, ...) of W1, a Microsoft first-party app or a country layer, by type and id, reference, name or caption: ('table', '18'), ('table', 't36'), ('table', '36-be'), ('codeunit', 'Sales-Post'), ('page', 'Customers'), or with country 'BE' (what that layer adds prints first). Returns its page: fields, keys, events, procedures, calls, obsolete state, the BC versions it exists in, countries, Learn pages. A page over ${B} characters comes back compact: pass section ('fields' on a table, 'controls' on a page, 'events', 'calls', ...) with offset and limit. To check an id and name, or that a field, event or procedure exists, bc_search('page 25', kind: 'page') or bc_search('event: <Name>') is cheaper. Changes between versions: bc_diff_object. counts.procedures counts every procedure; the summary's 'public procedures' excludes locals and events.`,
-    inputSchema: { type: z.string(), idOrName: z.string(), country: z.string().length(2).optional(), ...VIEW } }, answer(toolGetObject));
+    inputSchema: { type: z.string(), idOrName: z.string(), country: z.string().length(2).optional(), ...VIEW } }, answer("bc_get_object", toolGetObject));
   server.registerTool("bc_diff_object", { title: "Business Central diff between versions", description: `Business Central diff between versions of one W1 AL object (table, page, codeunit, ...): the fields, events, procedures, keys, properties and obsolete state that changed from one BC major to the next (consecutive majors, BC ${DIFF_RANGE[0]} to ${DIFF_RANGE[1]}). Use for questions such as: what changed in table 18 between BC 28 and BC 29. Pass type, id (the object number) and from, to as majors ('28', '29'). Returns the changed members as [from, to]; 'did not change' is an answer.`,
-    inputSchema: { type: z.string(), id: z.string(), from: z.string(), to: z.string() } }, answer(toolDiffObject));
+    inputSchema: { type: z.string(), id: z.string(), from: z.string(), to: z.string() } }, answer("bc_diff_object", toolDiffObject));
   server.registerTool("bc_localization", { title: "Business Central localization", description: `Business Central country localization (BE, NL, DE, FR, US, ...): what that country layer adds to or changes in W1 (objects, fields, events), with its Learn local functionality hub. Use for country-specific BC questions. Over ${B} characters it comes back compact; section, offset and limit read one section, as in bc_cat.`, inputSchema: { country: z.string().length(2), ...VIEW } },
-    answer(toolLocalization));
+    answer("bc_localization", toolLocalization));
   server.registerTool("bc_whats_new", { title: "Business Central what's new", description: "Business Central what's new: videos, community posts, Microsoft 365 roadmap features (new features by release wave), AL Language extension releases (type 'release'), weekly digests (type 'digest'), hotfix lists (type 'hotfix') and merged pull requests of BCApps, AL-Go and BCQuality (type 'change'), dated on or after since (YYYY-MM-DD) up to today, newest first. Use for questions such as: what is new in the latest BC release, what changed in BC 29, what is new in Business Central this week, new features in the 2026 release wave 2. One object's changes: bc_diff_object. A roadmap feature's date is its GA month: later ones are counted at the end and listed with include_future: true.",
-    inputSchema: { since: z.string(), type: z.string().optional(), limit: z.number().int().min(1).max(100).optional(), include_future: z.boolean().optional() } }, answer((a: Parameters<typeof toolWhatsNew>[0]) => toolWhatsNew(a)));
+    inputSchema: { since: z.string(), type: z.string().optional(), limit: z.number().int().min(1).max(100).optional(), include_future: z.boolean().optional() } }, answer("bc_whats_new", (a: Parameters<typeof toolWhatsNew>[0]) => toolWhatsNew(a)));
   server.registerTool("bc_blog_footprint", { title: "Business Central blog coverage", description: "Business Central blog or channel coverage: what one community source (id from sources.yaml, e.g. 'kauffmann-nl', 'yt-hougaard') writes about: its posts or videos and the BC systems they touch.",
-    inputSchema: { source: z.string() } }, answer(toolBlogFootprint));
+    inputSchema: { source: z.string() } }, answer("bc_blog_footprint", toolBlogFootprint));
   server.registerTool("bc_feedback", { title: "Business Central Observatory feedback", description: "Business Central Observatory feedback: a prefilled GitHub issue link to report a wrong fact, missing evidence or a broken link on a page. Nothing is sent by the agent.",
-    inputSchema: { path: z.string(), message: z.string() } }, answer(toolFeedback, false));
+    inputSchema: { path: z.string(), message: z.string() } }, answer("bc_feedback", toolFeedback, false));
   server.registerTool("bc_status", { title: "Business Central Observatory status", description: "Business Central Observatory status: server version, whether the data is reachable, page counts by type, the code index version and when the data was last deployed. Cheap. Use when a tool fails, to tell 'the Observatory is down' from 'it has no answer'.",
-    inputSchema: {} }, answer(toolStatus, false));
+    inputSchema: {} }, answer("bc_status", toolStatus, false));
   return server;
 }
 
@@ -685,4 +700,6 @@ function isMain(): boolean {
 }
 if (isMain()) {
   await createServer().connect(new StdioServerTransport());
+  const notice = telemetry.notice(SITE);
+  if (notice) process.stderr.write(`${notice}\n`);
 }

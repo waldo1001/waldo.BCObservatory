@@ -1242,3 +1242,17 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   removed object stays named on the change page, unlinked, and a derive on committed content heals pages a nightly left
   behind. Consequence: change pages render twice a night (about a second for some 1,240 pages); an object page a snapshot
   adds tonight is linked from the change pages tonight, its "Recent changes" section the next night.
+- **D110 The MCP counts its tool calls, GDPR-minimal (2026-10-24, M47).** The stdio server sends one `Obs.ToolCall`
+  event per tool call to the Application Insights resource BC Telemetry Buddy uses (West Europe, 90 days), with `fetch`
+  and no SDK (`packages/mcp/src/telemetry.ts`): tool, outcome (`ok`, `nomatch`, `notfound`, `error`), duration, MCP
+  version, client name and version from the handshake, and a random session id held in memory only. No argument, no
+  device data, `ai.location.ip` `0.0.0.0`, `cloud_RoleName` `bc-observatory-mcp`, `cloud_RoleInstance` the constant
+  `obs`. At most 1,000 events per process, 3 s timeout, no retry, never on the answer path. On in a published build; off
+  with `BC_OBSERVATORY_TELEMETRY=0`, `DO_NOT_TRACK=1`, `CI`, `BC_OBSERVATORY_LOCAL` or no connection string. The string
+  comes from the repository secret `AI_CONNECTION_STRING` through esbuild `define` in `publish-mcp`; source and repository
+  never hold it. A privacy notice (MCP README, plugin README, MCP page `#privacy`) names controller, purpose, basis
+  (legitimate interest, GDPR Art. 6(1)(f)), data, processor, retention and the off switch; one stderr line at startup
+  points to it. Verified end to end against a local catcher: one event per call, no query text, nothing with
+  `DO_NOT_TRACK=1`. Rejected: a persisted install id (ePrivacy Art. 5(3) consent, so opt-in), the SDK (dependencies,
+  host data), Buddy's event names (its dashboard reads them), a second resource, opt-in. Spec
+  `docs/specs/mcp-usage-telemetry.md`. MCP 0.11.0, plugin 0.7.0.

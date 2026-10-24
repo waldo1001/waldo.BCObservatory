@@ -23,10 +23,6 @@ one in either mode.
 - **Learn by meaning in brief, D107** (`docs/specs/learn-meaning-brief.md`, M45, issue #34). Status: built 2026-10-23 on
   `build/layered-answers-p7`, stacked on #33; unreachable Learn URLs of the never-less check 11 -> 8 of 16. Shipped in MCP
   0.10.0 (D108). The rest is an owner decision (spec section 8).
-- **MCP usage counts, D110** (`docs/specs/mcp-usage-telemetry.md`, M47, issue #39). Status: proposed 2026-10-24,
-  nothing implemented. Start with task 1 (the tests of section 5). Before the publish the owner sets the secret
-  `AI_CONNECTION_STRING` and filters `bc-observatory-mcp` out of the Buddy dashboard queries (spec section 7). Until it
-  lands nobody knows how often the MCP is used: npm downloads are the only signal.
 - **Observatory in Claude chat and Desktop, D105** (`docs/specs/mcp-in-claude-chat.md`, M43, issue #24). Status:
   proposed 2026-10-22, nothing implemented; the owner wants it specced, not built yet, and phase 2 waits for a host
   choice (spec section 4, host criteria). Start with phase 1 task 1 (the tests). Until it lands, claude.ai users who add
@@ -39,6 +35,16 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-24 (MCP 0.11.0, plugin 0.7.0, not yet published; no page or data changed, no derive):**
+- **The MCP counts its tool calls (D110, M47).** A published build sends one `Obs.ToolCall` event per tool call to
+  Buddy's Application Insights resource: tool, outcome, duration, client name and version, server version, a
+  per-process session id. No argument, no device data. Off with `BC_OBSERVATORY_TELEMETRY=0`, `DO_NOT_TRACK=1`, `CI` or
+  `BC_OBSERVATORY_LOCAL`. Privacy notice in both READMEs and on the MCP page (`#privacy`, live after the next Pages
+  deploy). Operator steps, in order (RUNBOOK "Usage counts (D110)"): 1. `gh secret set AI_CONNECTION_STRING -R
+  waldo1001/waldo.BCObservatory` with Buddy's value; 2. add `| where cloud_RoleName != "bc-observatory-mcp"` to the Buddy
+  dashboard's overview queries; 3. `gh workflow run publish-mcp.yml --ref main` (D40); 4. check the first events in the
+  portal (location empty, `cloud_RoleInstance` `obs`). Published without step 1, 0.11.0 sends nothing.
 
 **Shipped 2026-10-24 (MCP 0.10.0, plugin 0.6.0; no page or data changed, no derive):**
 - **Business Central questions route to the MCP (D108, M46).** Tools are `bc_*`; titles and descriptions start "Business

@@ -25,3 +25,18 @@ test("the MCP server bundles to one file with the shared scorer inside and no Mi
   assert.equal(pkg.dependencies.minisearch, undefined);
   assert.equal(JSON.parse(readFileSync(join(ROOT, "package.json"), "utf8")).dependencies.minisearch, undefined);
 });
+
+test("D110 test 12: the connection string is baked in only when AI_CONNECTION_STRING is set at build time", () => {
+  const dir = mkdtempSync(join(tmpdir(), "bcobs-mcp-build-ai-"));
+  const build = (out: string, env: NodeJS.ProcessEnv) => {
+    execFileSync(process.execPath, ["--import", "tsx", join(ROOT, "packages/mcp/build.ts"), out], { cwd: join(ROOT, "packages/mcp"), stdio: "pipe", env });
+    return readFileSync(out, "utf8");
+  };
+  const { AI_CONNECTION_STRING: _drop, ...clean } = process.env;
+  const plain = build(join(dir, "plain.js"), clean);
+  assert.doesNotMatch(plain, /__BCOBS_AI__/);
+  assert.doesNotMatch(plain, /InstrumentationKey=/);
+  const baked = build(join(dir, "baked.js"), { ...clean, AI_CONNECTION_STRING: "InstrumentationKey=00000000-0000-0000-0000-000000000000;IngestionEndpoint=https://example.test/" });
+  assert.match(baked, /https:\/\/example\.test\//);
+  for (const js of [plain, baked]) assert.doesNotMatch(js, /applicationinsights/);
+});

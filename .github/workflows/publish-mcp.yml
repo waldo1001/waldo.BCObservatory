@@ -31,6 +31,10 @@ jobs:
       - run: npm run typecheck
       - run: npx tsx --test tests/unit/mcp.test.ts tests/unit/mcp-sections.test.ts
       - run: npm run build --workspace=bc-observatory
+        env:
+          # D110: the Application Insights connection string baked into the bundle (shared with BC Telemetry Buddy);
+          # without the secret the bundle carries "" and sends nothing
+          AI_CONNECTION_STRING: ${{ secrets.AI_CONNECTION_STRING }}
       - name: Publish unless this version is already on npm
         run: |
           set -euo pipefail

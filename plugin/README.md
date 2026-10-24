@@ -1,6 +1,6 @@
 # BC Observatory plugin for Claude Code and GitHub Copilot CLI
 
-Plugin `bc-observatory` 0.6.0, with the `bc-observatory` MCP server 0.10.0. Install:
+Plugin `bc-observatory` 0.7.0, with the `bc-observatory` MCP server 0.11.0. Install:
 
 ```bash
 claude plugin marketplace add waldo1001/waldo.BCObservatory     # Claude Code, step 1: the marketplace
@@ -45,6 +45,15 @@ yourself needs changing.
 1. `bc-observatory` first, for identity and context: what it is, which id, fields, events, versions, countries, where it is documented.
 2. `bc-code-atlas` for what the observatory deliberately lacks: a procedure body and one procedure's calls and callers.
 3. `microsoft-learn` to read a Learn page the observatory points to (a how-to, setup, a concept) and for AL code samples; its search only when the observatory finds nothing.
+
+## Privacy
+
+The `bc-observatory` server counts its tool calls (tool name, outcome, duration, client name and version, server
+version, a random per-process session id) in Azure Application Insights, West Europe, kept 90 days. It never sends your
+questions or any other argument, and nothing about your machine. Turn it off with `BC_OBSERVATORY_TELEMETRY=0` or
+`DO_NOT_TRACK=1` in the server's environment. The full notice (controller, legal basis, your rights):
+[packages/mcp/README.md](https://github.com/waldo1001/waldo.BCObservatory/tree/main/packages/mcp#privacy-and-usage-counts). The other two servers are run by
+their owners and follow their own terms.
 
 ## Using only parts of it
 

@@ -628,3 +628,15 @@ test("INSTALL.md gives the commands, the marketplace, the connectors and the Des
   assert.ok(mcpMarkdown({ server: "1", plugin: "1" }, "https://github.com/o/r", "https://example.test/").includes(installGuide("https://github.com/o/r")), "the MCP twin links INSTALL.md");
   for (const p of ["plugin/.claude-plugin/plugin.json", ".claude-plugin/marketplace.json"]) assert.match(read(p), /Connectors tab.*INSTALL\.md/, `${p} tells claude.ai users about the Connectors tab`);
 });
+
+test("D110 test 11: a server reading a local checkout prints no telemetry notice", async () => {
+  const transport = new StdioClientTransport({ command: process.execPath, args: ["--import", "tsx", join(ROOT, "packages/mcp/src/server.ts")], env: { ...process.env, BC_OBSERVATORY_LOCAL: fixture() } as Record<string, string>, cwd: ROOT, stderr: "pipe" });
+  let err = "";
+  transport.stderr?.on("data", (d: Buffer) => { err += d.toString(); });
+  const client = new Client({ name: "smoke", version: "0" });
+  await client.connect(transport);
+  try {
+    await client.callTool({ name: "bc_search", arguments: { query: "customer" } });
+    assert.doesNotMatch(err, /counts tool calls/);
+  } finally { await client.close(); }
+});

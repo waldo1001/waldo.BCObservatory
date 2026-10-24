@@ -16,6 +16,8 @@ await build({
   // the dependencies by name and their subpaths (@modelcontextprotocol/sdk/server/mcp.js); never --packages=external,
   // which would leave the bare @bc-observatory/search import in the bundle
   external: Object.keys(pkg.dependencies).flatMap((d) => [d, `${d}/*`]), logLevel: "warning",
+  // D110: the Application Insights connection string, from the publish-mcp secret; empty (telemetry off) everywhere else
+  define: { __BCOBS_AI__: JSON.stringify(process.env.AI_CONNECTION_STRING ?? "") },
 });
 chmodSync(outfile, 0o755);
 console.log(`built ${outfile}`);
