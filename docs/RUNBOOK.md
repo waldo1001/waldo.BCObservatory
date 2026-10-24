@@ -159,6 +159,8 @@ The published MCP sends one `Obs.ToolCall` event per tool call to the Observator
   `define` in `packages/mcp/build.ts`). It holds the Observatory resource's connection string:
   `gh secret set AI_CONNECTION_STRING -R waldo1001/waldo.BCObservatory` (it prompts; never paste it in a chat or a file).
   Local builds, tests and `pr-validate` have no secret: their bundles send nothing.
+- **Daily cap.** The resource was created with a 100 GB per day cap; the connection string is public in the bundle,
+  so set it to about 1 GB (Usage and estimated costs > Daily cap). One event is under 1 KB.
 - **Region and retention.** The privacy notice and the stderr line say West Europe and 90 days
   (`packages/mcp/src/telemetry.ts`, both READMEs, `site/src/pages/mcp/index.astro`, `site/src/lib/mcp.ts`). They must
   match the resource; if they do not, change the text in all five places before publishing.

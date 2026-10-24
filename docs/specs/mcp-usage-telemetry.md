@@ -406,6 +406,14 @@ comment now say "the Observatory's own resource"; the Buddy dashboard filter (se
 the shared-secret and rotation steps no longer apply. The notice's "West Europe, kept 90 days" must be checked against
 the new resource before publishing (RUNBOOK "Usage counts (D110)").
 
+Verified after the publish (2026-10-24): `publish-mcp` run 40097305611 published 0.11.0; the npm tarball carries the
+Observatory resource's connection string (endpoint `westeurope-5`) and no SDK. A `bc_status` call through
+`npx -y bc-observatory@0.11.0` (client `release-check`) printed the notice and its event reached the resource at
+13:18:55 UTC; a direct POST of the same envelope got `itemsAccepted: 1`. In the portal: `client_IP` `0.0.0.0`,
+`cloud_RoleInstance` `obs`, and 0 events with a city, state or country, so risk 3 did not happen. The resource is in
+West Europe and its `AppEvents` table keeps 90 days, as the notice says. Section 7, checks 4 and 6 passed; check 5
+(Buddy's dashboard) no longer applies.
+
 ## 13. Proposed edits to other files (applied 2026-10-24, see section 12)
 
 **`docs/DECISIONS.md`**, append:
