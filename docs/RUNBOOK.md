@@ -170,7 +170,7 @@ The published MCP sends one `Obs.ToolCall` event per tool call to the Observator
   bump the MCP version and publish: the new bundle carries `""`. Users on the old version keep sending until `@latest`
   refreshes their npx cache.
 - **After a publish.** In the portal (Logs): `customEvents | where name == "Obs.ToolCall" | take 5`. Since 0.12.0
-  (D111) expect `user_Id` a UUID, `client_City` and `client_CountryOrRegion` filled, `client_IP` `0.0.0.0` (masked by the
+  (D111) expect `user_Id` a UUID, `client_City` and `client_CountryOrRegion` filled, `client_IP` `0.0.0.0`, or `::` for a client on IPv6 (both masked by the
   resource), `cloud_RoleInstance` `obs`. A real address in `client_IP` means IP masking was switched off on the resource:
   turn it back on, the notice promises the address is not stored. 0.11.0 sends no user id and no location.
 
