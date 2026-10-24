@@ -95,7 +95,7 @@ Changed: `packages/mcp/src/server.ts`, `packages/mcp/src/brief.ts`, `scripts/che
 
 - [x] Tests of section 5 pass; `npm test` green.
 - [x] Measured: 11 → 8 unreachable Learn URLs of 16.
-- [ ] D107 appended to docs/DECISIONS.md (done 2026-10-24); PLAN M45 marked shipped (done); HANDOFF move waits for the D106 nightly; HANDOFF entry moved from "Open specs" to "Where
+- [ ] D107 appended to docs/DECISIONS.md (done 2026-10-24); PLAN M45 marked shipped (done); HANDOFF entry (waits for the D106 nightly) moved from "Open specs" to "Where
       things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
       implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
       status lines into docs/built/learn-meaning-brief.md; the PR's review moves them in (sdd-build section 4,
