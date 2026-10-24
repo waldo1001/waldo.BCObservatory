@@ -15,8 +15,12 @@ a spec without `issue:` is invisible to it. Its go signal is the `spec-approved`
 only the owner applies (the HUD's Approve button does it). Writing a spec is the same work either way; the two modes
 differ only where this skill says so.
 
-**Which mode am I in?** `echo "${JARVIS_OPERATOR:-0}"`. `1` = operator mode: the League handed this session a checkout
-and an issue (`/sdd-draft`), it holds git, and there is no network credential. Anything else = a manual session.
+**Which mode am I in?** Operator mode when your task says so (the League's preamble names `JARVIS_OPERATOR=1`; its
+Bash refuses `$`, so do not echo the variable there). Otherwise `echo "${JARVIS_OPERATOR:-0}"`: `1` = operator mode.
+In operator mode the League handed this session a checkout and an issue (`/sdd-draft`), it holds git, there is no
+network credential, and `sdd-draft` section 0 lists the only tools you have: where it differs from this skill
+(numbers by Grep, PLAN and HANDOFF edits proposed in section 12 instead of applied, no commit), `sdd-draft` wins.
+Anything else = a manual session.
 
 ## 1. Where to work
 
@@ -152,6 +156,8 @@ matching; secrets only on the Mini.
 
 ## 7. Register it
 
+Operator mode: do not edit PLAN or HANDOFF; put the row and the entry below into section 12 (`sdd-draft` section 1).
+
 - `docs/PLAN.md` section 5: a milestone row `| **Mnn <short name>** | <deliverables> (\`docs/specs/<slug>.md\`, Dnn, proposed) | <effort> | <token risk> |`, before the `v0.2+` row.
 - `docs/HANDOFF.md`, section "Open specs, not yet implemented": one entry with the spec path, decision, milestone,
   `Status: proposed <date>, nothing implemented`, the issue as `issue #N`, where to start (the first task), and what
@@ -160,9 +166,8 @@ matching; secrets only on the Mini.
 
 ## 8. Commit and push
 
-Operator mode: commit on the branch you were given and stop. Never push, never open or merge a PR, never touch the
-default branch: the League holds git. Re-run the number command of section 5 right before the commit. The rest of this
-section is the manual session's.
+Operator mode: do not commit and do not push; the League commits your spec, pushes it and opens the PR. The rest of
+this section is the manual session's.
 
 Stage by name, never `git add -A`. Commit only the spec, PLAN and HANDOFF:
 
