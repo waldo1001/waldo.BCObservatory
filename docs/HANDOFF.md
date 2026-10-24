@@ -23,6 +23,10 @@ one in either mode.
 - **Learn by meaning in brief, D107** (`docs/specs/learn-meaning-brief.md`, M45, issue #34). Status: built 2026-10-23 on
   `build/layered-answers-p7`, stacked on #33; unreachable Learn URLs of the never-less check 11 -> 8 of 16. Shipped in MCP
   0.10.0 (D108). The rest is an owner decision (spec section 8).
+- **MCP usage counts, D110** (`docs/specs/mcp-usage-telemetry.md`, M47, issue #39). Status: proposed 2026-10-24,
+  nothing implemented. Start with task 1 (the tests of section 5). Before the publish the owner sets the secret
+  `AI_CONNECTION_STRING` and filters `bc-observatory-mcp` out of the Buddy dashboard queries (spec section 7). Until it
+  lands nobody knows how often the MCP is used: npm downloads are the only signal.
 - **Observatory in Claude chat and Desktop, D105** (`docs/specs/mcp-in-claude-chat.md`, M43, issue #24). Status:
   proposed 2026-10-22, nothing implemented; the owner wants it specced, not built yet, and phase 2 waits for a host
   choice (spec section 4, host criteria). Start with phase 1 task 1 (the tests). Until it lands, claude.ai users who add
