@@ -399,6 +399,13 @@ Not done here, operator steps (RUNBOOK "Usage counts (D110)", HANDOFF): set the 
 `cloud_RoleName` filter to Buddy's dashboard queries; `gh workflow run publish-mcp.yml --ref main` (D40); section 7
 checks 4 to 6 on the real resource.
 
+Correction (2026-10-24, after the build): the owner set up a dedicated Application Insights resource for the
+Observatory; the spec's "same resource as BC Telemetry Buddy" was a misreading. The code never named a resource (it uses
+whatever `AI_CONNECTION_STRING` holds), so nothing in it changed. RUNBOOK, DECISIONS, HANDOFF and the `publish-mcp`
+comment now say "the Observatory's own resource"; the Buddy dashboard filter (section 7, operator step 6; risk 2) and
+the shared-secret and rotation steps no longer apply. The notice's "West Europe, kept 90 days" must be checked against
+the new resource before publishing (RUNBOOK "Usage counts (D110)").
+
 ## 13. Proposed edits to other files (applied 2026-10-24, see section 12)
 
 **`docs/DECISIONS.md`**, append:

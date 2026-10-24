@@ -152,22 +152,21 @@ and the first Tab stop. Pass another build's `site/dist` as its argument for a b
 
 ## Usage counts (D110)
 
-The published MCP sends one `Obs.ToolCall` event per tool call to the Application Insights resource BC Telemetry Buddy
-uses (West Europe, 90 days retention), `cloud_RoleName` `bc-observatory-mcp`. Spec: `docs/specs/mcp-usage-telemetry.md`.
+The published MCP sends one `Obs.ToolCall` event per tool call to the Observatory's own Application Insights resource,
+`cloud_RoleName` `bc-observatory-mcp`, the way BC Telemetry Buddy counts its MCP. Spec: `docs/specs/mcp-usage-telemetry.md`.
 
 - **Secret.** `publish-mcp` bakes the repository secret `AI_CONNECTION_STRING` into the bundle at build time (esbuild
-  `define` in `packages/mcp/build.ts`). Set it once with the value of the same secret in waldo.BCTelemetryBuddy:
+  `define` in `packages/mcp/build.ts`). It holds the Observatory resource's connection string:
   `gh secret set AI_CONNECTION_STRING -R waldo1001/waldo.BCObservatory` (it prompts; never paste it in a chat or a file).
   Local builds, tests and `pr-validate` have no secret: their bundles send nothing.
-- **Rotation.** Buddy's procedure (`waldo.BCTelemetryBuddy`, `Instructions/2. Refactored/Telemetry-Design-and-Implementation.md`
-  section 1.2): new connection string in Azure, set it in both repositories, publish both
-  (`gh workflow run publish-mcp.yml --ref main` here, D40).
+- **Region and retention.** The privacy notice and the stderr line say West Europe and 90 days
+  (`packages/mcp/src/telemetry.ts`, both READMEs, `site/src/pages/mcp/index.astro`, `site/src/lib/mcp.ts`). They must
+  match the resource; if they do not, change the text in all five places before publishing.
+- **Rotation.** Regenerate the connection string in Azure, set the secret again, publish
+  (`gh workflow run publish-mcp.yml --ref main`, D40).
 - **Emergency off for everyone.** Remove the secret (`gh secret delete AI_CONNECTION_STRING -R waldo1001/waldo.BCObservatory`),
   bump the MCP version and publish: the new bundle carries `""`. Users on the old version keep sending until `@latest`
   refreshes their npx cache.
-- **Buddy's dashboard.** Its overview queries (`waldo.BCTelemetryBuddy.Usage/dashboard/sync/queries.ts`) count every
-  `customEvents` row and users as `dcount(cloud_RoleInstance)`. Before the first publish with the secret, add
-  `| where cloud_RoleName != "bc-observatory-mcp"` to each of them, or the Observatory's calls count as Buddy's.
 - **After the first publish.** In the portal (Logs): `customEvents | where name == "Obs.ToolCall" | take 5`. Expect
   `client_IP` `0.0.0.0`, `client_City` and `client_CountryOrRegion` empty, `cloud_RoleInstance` `obs`. A filled location
   means the `ai.location.ip` tag did not stop geolocation: turn on the resource's IP and location masking or correct the

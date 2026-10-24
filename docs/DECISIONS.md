@@ -1243,7 +1243,7 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   behind. Consequence: change pages render twice a night (about a second for some 1,240 pages); an object page a snapshot
   adds tonight is linked from the change pages tonight, its "Recent changes" section the next night.
 - **D110 The MCP counts its tool calls, GDPR-minimal (2026-10-24, M47).** The stdio server sends one `Obs.ToolCall`
-  event per tool call to the Application Insights resource BC Telemetry Buddy uses (West Europe, 90 days), with `fetch`
+  event per tool call to the Observatory's own Application Insights resource, the way BC Telemetry Buddy counts its MCP, with `fetch`
   and no SDK (`packages/mcp/src/telemetry.ts`): tool, outcome (`ok`, `nomatch`, `notfound`, `error`), duration, MCP
   version, client name and version from the handshake, and a random session id held in memory only. No argument, no
   device data, `ai.location.ip` `0.0.0.0`, `cloud_RoleName` `bc-observatory-mcp`, `cloud_RoleInstance` the constant
@@ -1254,5 +1254,5 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   (legitimate interest, GDPR Art. 6(1)(f)), data, processor, retention and the off switch; one stderr line at startup
   points to it. Verified end to end against a local catcher: one event per call, no query text, nothing with
   `DO_NOT_TRACK=1`. Rejected: a persisted install id (ePrivacy Art. 5(3) consent, so opt-in), the SDK (dependencies,
-  host data), Buddy's event names (its dashboard reads them), a second resource, opt-in. Spec
+  host data), opt-in. Spec
   `docs/specs/mcp-usage-telemetry.md`. MCP 0.11.0, plugin 0.7.0.

@@ -38,13 +38,14 @@ questions in its section 12).
 
 **Shipped 2026-10-24 (MCP 0.11.0, plugin 0.7.0, not yet published; no page or data changed, no derive):**
 - **The MCP counts its tool calls (D110, M47).** A published build sends one `Obs.ToolCall` event per tool call to
-  Buddy's Application Insights resource: tool, outcome, duration, client name and version, server version, a
+  the Observatory's own Application Insights resource: tool, outcome, duration, client name and version, server version, a
   per-process session id. No argument, no device data. Off with `BC_OBSERVATORY_TELEMETRY=0`, `DO_NOT_TRACK=1`, `CI` or
   `BC_OBSERVATORY_LOCAL`. Privacy notice in both READMEs and on the MCP page (`#privacy`, live after the next Pages
   deploy). Operator steps, in order (RUNBOOK "Usage counts (D110)"): 1. `gh secret set AI_CONNECTION_STRING -R
-  waldo1001/waldo.BCObservatory` with Buddy's value; 2. add `| where cloud_RoleName != "bc-observatory-mcp"` to the Buddy
-  dashboard's overview queries; 3. `gh workflow run publish-mcp.yml --ref main` (D40); 4. check the first events in the
-  portal (location empty, `cloud_RoleInstance` `obs`). Published without step 1, 0.11.0 sends nothing.
+  waldo1001/waldo.BCObservatory` with the Observatory resource's connection string (set 2026-10-24); 2. check that the
+  resource's region and retention match the notice (West Europe, 90 days) or correct the notice; 3. `gh workflow run
+  publish-mcp.yml --ref main` (D40); 4. check the first events in the portal (location empty, `cloud_RoleInstance`
+  `obs`). Published without step 1, 0.11.0 sends nothing.
 
 **Shipped 2026-10-24 (MCP 0.10.0, plugin 0.6.0; no page or data changed, no derive):**
 - **Business Central questions route to the MCP (D108, M46).** Tools are `bc_*`; titles and descriptions start "Business
