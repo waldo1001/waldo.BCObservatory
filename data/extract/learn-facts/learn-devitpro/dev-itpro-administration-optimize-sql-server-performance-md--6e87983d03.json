@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/optimize-sql-server-performance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance",
+  "title": "Optimizing SQL Server Performance with Business Central",
+  "blob": "165440fb57eeb82c71fbb3573834d16663768667",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "SQL optimization covers compatibility level, data access, table keys, bulk inserts, and query hints"
+    },
+    {
+      "kind": "fact",
+      "text": "Performance tuning options available for Azure SQL Database and Azure SQL Managed Instance"
+    },
+    {
+      "kind": "fact",
+      "text": "Read Scale-Out available for better performance in suitable deployments"
+    },
+    {
+      "kind": "fact",
+      "text": "Query Store and event log tools available for analyzing long-running SQL queries"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005294,
+      "pages_in_call": 10
+    }
+  ]
+}

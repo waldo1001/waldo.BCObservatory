@@ -1,0 +1,29 @@
+{
+  "item_id": "blog/demiliani-com/12623",
+  "page_id": "post/demiliani-com/12623",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "you need to always pass 1 to the ConvertToImage function as the page number to preview",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "PDF Document"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "27",
+        "2025 Wave 2"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00494,
+    "posts_in_call": 4
+  }
+}

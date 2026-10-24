@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-capacity.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity",
+  "title": "Managing Capacity",
+  "blob": "e3684a9cabecee32b2a5f5189c1caea0c291d68d",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "The Capacity page shows total database storage usage and details about storage used by every environment on the tenant."
+    },
+    {
+      "kind": "fact",
+      "text": "Premium and Essential subscriptions include one production environment and three sandbox environments at no extra charge."
+    },
+    {
+      "kind": "fact",
+      "text": "Each extra production environment purchased adds three more sandbox environments and increases shared storage capacity by 4 GB."
+    },
+    {
+      "kind": "fact",
+      "text": "Extra storage capacity per license: Premium 3 GB, Essential 2 GB, Device 1 GB, Partner Sandbox 5 GB."
+    },
+    {
+      "kind": "fact",
+      "text": "Exceeding storage quota does not interrupt existing environments but blocks creation or copying of new environments until quota is reduced or more capacity is purchased."
+    },
+    {
+      "kind": "limit",
+      "text": "Exceeding environment count limits also blocks creation or copying of environments until you reduce or purchase more capacity."
+    },
+    {
+      "kind": "fact",
+      "text": "Files and Blob data stored in the database, including Tenant Media and Tenant Media Thumbnails tables, count toward overall database storage capacity."
+    },
+    {
+      "kind": "fact",
+      "text": "Administrators can limit user access to specific environments by changing permissions or removing users' access."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00629,
+      "pages_in_call": 8
+    }
+  ]
+}

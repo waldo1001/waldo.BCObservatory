@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:52:00.017Z"
   flags: []
 generated:
-  at: "2026-10-21T00:46:46.250Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -168,7 +168,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573312
   topics: []
   localizations: []
   videos: []
@@ -214,6 +215,19 @@ chapters:
     title: Trigger performance optimization and hot path identification
   - t: 2143
     title: Performance tools and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: we actually want to do tri-state locking first but then we swapped it around and did read isolation first
+    t: 850
+  - kind: preview-disclaimer
+    quote: none of these are actually in code. This is idea level like this is one step before
+    t: 1539
+  - kind: preview-disclaimer
+    quote: we might experiment with it there first
+    t: 1730
+  - kind: preview-disclaimer
+    quote: this is not next release or the one after this is like
+    t: 1895
 features:
   - name: Data transfer
     status: unclear
@@ -266,10 +280,12 @@ features:
     verified: false
     status_source: video
   - name: AI-powered query generation via MCP server
-    status: unclear
+    status: ga
     t: 1680
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573312"
   - name: Bulk events for delete and modify
     status: unclear
     t: 1762
@@ -403,25 +419,25 @@ The episode goes through features that need code changes (data transfer, set loa
 
 ## Features
 
-Every feature below: status not stated.
+| Feature | Status | At |
+|---|---|---|
+| Data transfer | status not stated | [8:09](https://www.youtube.com/watch?v=1xdpUmeun-s&t=489s) |
+| Set load fields (partial records) | status not stated | [11:30](https://www.youtube.com/watch?v=1xdpUmeun-s&t=690s) |
+| Read isolation | status not stated | [13:58](https://www.youtube.com/watch?v=1xdpUmeun-s&t=838s) |
+| Tri-state locking | status not stated | [17:02](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1022s) |
+| Many table extensions to one optimization | status not stated | [19:26](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1166s) |
+| Lock table function behavior | status not stated | [20:55](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1255s) |
+| Set current key function behavior | status not stated | [22:01](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1321s) |
+| Temporary tables | status not stated | [24:06](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1446s) |
+| Dynamic queries at runtime | status not stated | [25:39](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1539s) |
+| Query builder pattern for queries | status not stated | [27:21](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1641s) |
+| AI-powered query generation via MCP server | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)) | [28:00](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1680s) |
+| Bulk events for delete and modify | status not stated | [29:22](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1762s) |
+| Move towards set-based operations | status not stated | [30:17](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1817s) |
+| Sampling profiler tool | status not stated | [34:42](https://www.youtube.com/watch?v=1xdpUmeun-s&t=2082s) |
+| Dictionary data type for optimization | status not stated | [35:15](https://www.youtube.com/watch?v=1xdpUmeun-s&t=2115s) |
 
-| Feature | At |
-|---|---|
-| Data transfer | [8:09](https://www.youtube.com/watch?v=1xdpUmeun-s&t=489s) |
-| Set load fields (partial records) | [11:30](https://www.youtube.com/watch?v=1xdpUmeun-s&t=690s) |
-| Read isolation | [13:58](https://www.youtube.com/watch?v=1xdpUmeun-s&t=838s) |
-| Tri-state locking | [17:02](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1022s) |
-| Many table extensions to one optimization | [19:26](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1166s) |
-| Lock table function behavior | [20:55](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1255s) |
-| Set current key function behavior | [22:01](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1321s) |
-| Temporary tables | [24:06](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1446s) |
-| Dynamic queries at runtime | [25:39](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1539s) |
-| Query builder pattern for queries | [27:21](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1641s) |
-| AI-powered query generation via MCP server | [28:00](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1680s) |
-| Bulk events for delete and modify | [29:22](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1762s) |
-| Move towards set-based operations | [30:17](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1817s) |
-| Sampling profiler tool | [34:42](https://www.youtube.com/watch?v=1xdpUmeun-s&t=2082s) |
-| Dictionary data type for optimization | [35:15](https://www.youtube.com/watch?v=1xdpUmeun-s&t=2115s) |
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

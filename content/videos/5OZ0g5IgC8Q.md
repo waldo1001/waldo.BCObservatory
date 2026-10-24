@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:43:57.899Z"
   flags: []
 generated:
-  at: "2026-10-23T01:10:04.337Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,7 @@ links:
   learn: []
   objects: []
   features:
-    - feature/573340
+    - feature/574128
   topics: []
   localizations: []
   videos: []
@@ -117,44 +117,59 @@ chapters:
     title: "Testing Error Scenarios: Tax Rate Mismatch Detection"
   - t: 795
     title: Resolving Rate Discrepancies and Final Remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: This session is about Shopify connector. About one specific capabilities
+    t: 6
+  - kind: preview-disclaimer
+    quote: It's only available in US, and it's a shipped as small Shopify extension, which is only available in the US, and it's not published on market source.
+    t: 379
 features:
   - name: Shopify Tax Matching AI Capability
-    status: unclear
+    status: preview
     t: 40
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574128"
   - name: Tax Area Code Auto-Population
-    status: unclear
+    status: preview
     t: 197
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574128"
   - name: Tax Match Review and Approval Window
-    status: unclear
+    status: preview
     t: 271
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574128"
   - name: TaxMatch Automatic Installation
     status: unclear
     t: 379
     verified: false
     status_source: video
   - name: TaxMatch Configuration Settings
-    status: unclear
+    status: preview
     t: 404
-    verified: false
-    status_source: video
-  - name: Tax Rate Mismatch Detection and Resolution
-    status: unclear
-    t: 644
-    verified: false
-    status_source: video
-  - name: Shopify Order Number as Sales Document Number
-    status: ga
-    t: 573
     verified: false
     status_source: roadmap
     roadmap_ids:
-      - "573340"
+      - "574128"
+  - name: Tax Rate Mismatch Detection and Resolution
+    status: preview
+    t: 644
+    verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "574128"
+  - name: Shopify Order Number as Sales Document Number
+    status: unclear
+    t: 573
+    verified: false
+    status_source: video
   - name: Automatic Refund Document Creation
     status: unclear
     t: 597
@@ -227,13 +242,13 @@ The demo covers importing an order and seeing the AI-assigned tax area, the tax 
 
 | Feature | Status | At |
 |---|---|---|
-| Shopify Tax Matching AI Capability | status not stated, demoed | [0:40](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=40s) |
-| Tax Area Code Auto-Population | status not stated, demoed | [3:17](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=197s) |
-| Tax Match Review and Approval Window | status not stated, demoed | [4:31](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=271s) |
+| Shopify Tax Matching AI Capability | preview (roadmap [[US] Match Shopify tax lines to tax jurisdictions](../features/574128.md)), demoed | [0:40](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=40s) |
+| Tax Area Code Auto-Population | preview (roadmap [[US] Match Shopify tax lines to tax jurisdictions](../features/574128.md)), demoed | [3:17](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=197s) |
+| Tax Match Review and Approval Window | preview (roadmap [[US] Match Shopify tax lines to tax jurisdictions](../features/574128.md)), demoed | [4:31](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=271s) |
 | TaxMatch Automatic Installation | status not stated, demoed | [6:19](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=379s) |
-| TaxMatch Configuration Settings | status not stated, demoed | [6:44](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=404s) |
-| Tax Rate Mismatch Detection and Resolution | status not stated, demoed | [10:44](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=644s) |
-| Shopify Order Number as Sales Document Number | generally available (roadmap [Control sales document creation for Shopify orders and returns](../features/573340.md)), demoed | [9:33](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=573s) |
+| TaxMatch Configuration Settings | preview (roadmap [[US] Match Shopify tax lines to tax jurisdictions](../features/574128.md)), demoed | [6:44](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=404s) |
+| Tax Rate Mismatch Detection and Resolution | preview (roadmap [[US] Match Shopify tax lines to tax jurisdictions](../features/574128.md)), demoed | [10:44](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=644s) |
+| Shopify Order Number as Sales Document Number | status not stated, demoed | [9:33](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=573s) |
 | Automatic Refund Document Creation | status not stated, demoed | [9:57](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=597s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:50.620Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -160,9 +160,13 @@ Start with the page that matches the task. For the asset lifecycle, read the bud
 ## Learn pages
 
 - [Dispose or retire FA](https://learn.microsoft.com/dynamics365/business-central/fa-how-dispose-retire): Post the disposal value when selling or retiring a fixed asset to calculate and record any gain or loss.
+  - In the observatory: [Page 5613 "FA Posting Groups"](../../../../../objects/page/5613.md)
 - [Insure fixed assets](https://learn.microsoft.com/dynamics365/business-central/fa-how-insure): Assign one or more fixed assets to an insurance policy by posting to the insurance coverage ledger using the Insurance Journal page.
+  - In the observatory: [Page 5602 "Fixed Asset Statistics"](../../../../../objects/page/5602.md)
 - [Maintain fixed assets](https://learn.microsoft.com/dynamics365/business-central/fa-how-maintain): Track and document repairs and maintenance for fixed assets to maintain their condition and value.
+  - In the observatory: [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md), [Page 5602 "Fixed Asset Statistics"](../../../../../objects/page/5602.md), [Page 5611 "Depreciation Book List"](../../../../../objects/page/5611.md), [Page 5612 "FA Posting Group Card"](../../../../../objects/page/5612.md), [Page 5619 "FA Depreciation Books"](../../../../../objects/page/5619.md), [Page 5641 "Maintenance Ledger Entries"](../../../../../objects/page/5641.md)
 - [Manage FA Budgets](https://learn.microsoft.com/dynamics365/business-central/fa-how-manage-budgets): Set up details for future investments, disposals, and depreciation of fixed assets to support budget planning and forecasting.
+  - In the observatory: [Page 5619 "FA Depreciation Books"](../../../../../objects/page/5619.md), [Report 5607 "Fixed Asset - Projected Value"](../../../../../objects/report/5607.md)
 - [Reclassify fixed assets](https://learn.microsoft.com/dynamics365/business-central/fa-how-trans-split-combine): Reclassify a fixed asset to move it to another department, split acquisition cost and depreciation among multiple assets, or combine assets into one.
 
 ## Business Central pages and reports

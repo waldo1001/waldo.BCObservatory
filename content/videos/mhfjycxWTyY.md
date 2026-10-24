@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:19:19.527Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -129,6 +129,22 @@ chapters:
     title: Live Demonstration of Chat Interface
   - t: 835
     title: Summary and Conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: new unified copilot chat experience for Dynamics 365 Business Central as a part of 2026 release wave 2 which is still in public preview
+    t: 38
+  - kind: preview-disclaimer
+    quote: Now there's very little information available as it's in preview
+    t: 211
+  - kind: preview-disclaimer
+    quote: this feature becomes available over the coming days or months as GA is announced
+    t: 376
+  - kind: preview-disclaimer
+    quote: as because this is pre-release functionality, Microsoft says that the documentation and feature detail are subject to change
+    t: 468
+  - kind: preview-disclaimer
+    quote: I think we are at very early stage with the co-pilot here but it's a preview feature
+    t: 614
 features:
   - name: Unified Copilot Chat Experience
     status: ga
@@ -145,17 +161,17 @@ features:
     roadmap_ids:
       - "573362"
   - name: Web Search Integration in Copilot Chat
-    status: preview
+    status: ga
     t: 211
     verified: true
-    status_source: video
-  - name: Copilot and Agent Capabilities Settings Page
-    status: ga
-    t: 365
-    verified: false
     status_source: roadmap
     roadmap_ids:
       - "573362"
+  - name: Copilot and Agent Capabilities Settings Page
+    status: unclear
+    t: 365
+    verified: false
+    status_source: video
   - name: Microsoft Copilot License Additional Benefits
     status: unclear
     t: 291
@@ -169,12 +185,10 @@ features:
     roadmap_ids:
       - "573362"
   - name: Agent Store Integration
-    status: ga
+    status: unclear
     t: 639
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573362"
+    status_source: video
   - name: Model Selection in Chat
     status: unclear
     t: 689
@@ -248,11 +262,11 @@ The presenter covers access and licensing, how administrators enable the feature
 |---|---|---|---|
 | Unified Copilot Chat Experience | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [0:01](https://www.youtube.com/watch?v=mhfjycxWTyY&t=1s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
 | Business Central Data Integration in Chat | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
-| Web Search Integration in Copilot Chat | preview | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
-| Copilot and Agent Capabilities Settings Page | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [6:05](https://www.youtube.com/watch?v=mhfjycxWTyY&t=365s) |  |
+| Web Search Integration in Copilot Chat | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)) | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
+| Copilot and Agent Capabilities Settings Page | status not stated, demoed | [6:05](https://www.youtube.com/watch?v=mhfjycxWTyY&t=365s) |  |
 | Microsoft Copilot License Additional Benefits | status not stated | [4:51](https://www.youtube.com/watch?v=mhfjycxWTyY&t=291s) |  |
 | Conversational Interaction Model | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [7:58](https://www.youtube.com/watch?v=mhfjycxWTyY&t=478s) |  |
-| Agent Store Integration | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [10:39](https://www.youtube.com/watch?v=mhfjycxWTyY&t=639s) |  |
+| Agent Store Integration | status not stated, demoed | [10:39](https://www.youtube.com/watch?v=mhfjycxWTyY&t=639s) |  |
 | Model Selection in Chat | status not stated, demoed | [11:29](https://www.youtube.com/watch?v=mhfjycxWTyY&t=689s) |  |
 | Multi-step Reasoning in Chat | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [12:09](https://www.youtube.com/watch?v=mhfjycxWTyY&t=729s) |  |
 

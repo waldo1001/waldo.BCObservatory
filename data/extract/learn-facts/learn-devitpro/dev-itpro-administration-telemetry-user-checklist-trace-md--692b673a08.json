@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-user-checklist-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-user-checklist-trace",
+  "title": "User Checklist Trace Telemetry | Microsoft Docs",
+  "blob": "5125c9a55274bbb3e59365308031002aa2fbb635",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "User checklist telemetry tracks state changes for onboarding checklists shown to users"
+    },
+    {
+      "kind": "fact",
+      "text": "Event AL0000EIQ fires when overall checklist status changes between states like Not Started or In progress"
+    },
+    {
+      "kind": "fact",
+      "text": "Event AL0000EIT fires when individual checklist item status changes"
+    },
+    {
+      "kind": "fact",
+      "text": "Event AL0000EIR fires when a checklist item status changes and guided experience item is found"
+    },
+    {
+      "kind": "fact",
+      "text": "Dimensions track old and new status values to monitor progression through checklist completion"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005231,
+      "pages_in_call": 10
+    }
+  ]
+}

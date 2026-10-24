@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-permission-changes-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace",
+  "title": "Analyzing Permission Changes Trace Telemetry",
+  "blob": "37b9999ff63fdc5301449de0573ec8a5edbfeb27",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Permission changes telemetry applies to Business Central 2020 release wave 2, version 17.2, and later."
+    },
+    {
+      "kind": "fact",
+      "text": "Tracks user-defined permission set creation, deletion, and system permission set links."
+    },
+    {
+      "kind": "fact",
+      "text": "Monitors assignment or removal of permission sets from users and user groups."
+    },
+    {
+      "kind": "fact",
+      "text": "Captures permission set changes made by apps or extensions during install or upgrade."
+    },
+    {
+      "kind": "fact",
+      "text": "Events AL0000E2A through AL0000E2F track specific permission set operations with details."
+    },
+    {
+      "kind": "fact",
+      "text": "LC0058 event identifies app or extension that changed permission set with ID, name, publisher."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005012,
+      "pages_in_call": 12
+    }
+  ]
+}

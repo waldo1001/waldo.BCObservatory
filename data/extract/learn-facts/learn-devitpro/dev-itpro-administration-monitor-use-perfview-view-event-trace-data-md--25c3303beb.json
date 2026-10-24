@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-use-perfview-view-event-trace-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-use-perfview-view-event-trace-data",
+  "title": "Use PerfView to View Event Trace Data",
+  "blob": "23ac97f9d28b28f727e9f262957eabc6d9a4f4e4",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "PerfView tool views Business Central Server event trace data stored in .etl files for performance analysis."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Download and install PerfView from github.com/microsoft/perfview before viewing event trace data."
+    },
+    {
+      "kind": "step",
+      "text": "Open PerfView and navigate to the .etl file using the left pane directory browser."
+    },
+    {
+      "kind": "step",
+      "text": "Double-click the .etl file to load it, then double-click Events to view trace contents."
+    },
+    {
+      "kind": "step",
+      "text": "Double-click individual trace events to view detailed information about each event."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00836,
+      "pages_in_call": 6
+    }
+  ]
+}

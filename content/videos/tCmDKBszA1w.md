@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:16:11.827Z"
   flags: []
 generated:
-  at: "2026-10-07T23:16:11.945Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -245,6 +245,28 @@ chapters:
     title: Roadmap, localization strategy and access points
   - t: 2138
     title: Closing remarks and additional resources
+cautions:
+  - kind: preview-disclaimer
+    quote: this road map is maybe not 100% accurate as governments are changing their enforcement date all the time
+    t: 234
+  - kind: preview-disclaimer
+    quote: we will soon provide additional e doent global app ready to connect with a third party services
+    t: 765
+  - kind: preview-disclaimer
+    quote: eventually maybe even new tables and Fields if necessary it depends from requirement local requirements
+    t: 804
+  - kind: preview-disclaimer
+    quote: from purchase side you can import um uh your electronic documents to purchase inv voice and purchase order but only if you want to create new purchase order not to update existing one
+    t: 1945
+  - kind: preview-disclaimer
+    quote: we will continue in next minimum two releases to deliver uh new features
+    t: 1996
+  - kind: preview-disclaimer
+    quote: third party access points app it will be already until the end of this year as a new app
+    t: 2017
+  - kind: preview-disclaimer
+    quote: updating existing purchase order that means in a case you already have created purchase order and now you will get purchase invoice for just part of this purchase order and to map it this is something what we are planning to deliver as a…
+    t: 2037
 features:
   - name: E-Document Core App
     status: unclear

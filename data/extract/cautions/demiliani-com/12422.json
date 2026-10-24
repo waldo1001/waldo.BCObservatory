@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/demiliani-com/12422",
+  "page_id": "post/demiliani-com/12422",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "Embedded resources on runtime packages are not supported in Dynamics 365 Business Central with version <= 26.2.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "26.2"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "NavApp.GetResource will fail and you have an error like the following",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "26.2"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002822,
+    "posts_in_call": 4
+  }
+}

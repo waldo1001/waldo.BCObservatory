@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/demiliani-com/13640",
+  "page_id": "post/demiliani-com/13640",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "You must always add the fingerprint of the server you want to connect to, before connecting.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "SFTP Client"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28",
+        "2026 Wave 1"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "The connection is stateful. That means, when you have created a connection, you should always use SFTPClient.Disconnect() when finished.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "SFTP Client"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28",
+        "2026 Wave 1"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "Microsoft decided today to not support this module again.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "SFTP Client"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28",
+        "2026 Wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004968,
+    "posts_in_call": 4
+  }
+}

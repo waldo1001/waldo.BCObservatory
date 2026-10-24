@@ -21,5 +21,16 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.010501
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:56:32.608Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview's advice that VAT registration numbers on customer and vendor cards matter for Intrastat is a mild inference: the Intrastat page summary covers formatting settings for customers and vendors but does not explicitly mention the cards. Acceptable, but it is a reasonable reading rather than a stated fact."
+    ],
+    "input_hash": "b3ea97c0c15e177c83a341f3bbc9fc9703ca8faece275e32f57c997bda0b58cb",
+    "cost_usd": 0.0310912
   }
 }

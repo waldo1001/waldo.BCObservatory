@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-field-monitoring-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace",
+  "title": "Analyzing Field Monitoring Telemetry",
+  "blob": "d57b2b5d7e9eaaeaf3f4f659aa28686afd2ecade",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Field monitoring logs when monitoring starts or stops, when fields are added or removed for monitoring, and when monitored field values change."
+    },
+    {
+      "kind": "status",
+      "text": "Field added or removed for monitoring feature introduced in version 18.0."
+    },
+    {
+      "kind": "fact",
+      "text": "Changes to Field Monitoring Setup table, Change Log Setup table, and User Contact Email field are always logged."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry events include sensitive field monitor status changes with eventId AL0000DD3."
+    },
+    {
+      "kind": "fact",
+      "text": "Monitored field value changes logged with eventId AL0000CTE, including field name, number, table name, and number."
+    },
+    {
+      "kind": "fact",
+      "text": "Field additions or removals logged with eventId AL0000EMW as of version 18.0."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012631,
+      "pages_in_call": 4
+    }
+  ]
+}

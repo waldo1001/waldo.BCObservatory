@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-gp-configure-companies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-configure-companies",
+  "title": "Configure Dynamics GP company migration",
+  "blob": "b5805f4981b9cfa66599910b14029e5260413cce",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Must complete cloud migration setup before configuring Dynamics GP company migration."
+    },
+    {
+      "kind": "step",
+      "text": "Set global dimensions by selecting two segments from GP to use as global dimensions; remaining segments auto-configure as shortcut dimensions."
+    },
+    {
+      "kind": "step",
+      "text": "Choose modules to migrate using module switches; disabling Payables automatically disables Open Purchase Orders."
+    },
+    {
+      "kind": "step",
+      "text": "Specify Oldest GL Year field to determine which years migrate; if empty, all years migrate."
+    },
+    {
+      "kind": "fact",
+      "text": "Master data only option allows migrating bank account information without bank transactions."
+    },
+    {
+      "kind": "limit",
+      "text": "Multiple dimensions from GP require manual per-company configuration if companies use different segment counts."
+    },
+    {
+      "kind": "fact",
+      "text": "Recurring sales and purchase lines auto-generate based on accounts assigned to customers, vendors, classes, or default posting setup."
+    },
+    {
+      "kind": "fact",
+      "text": "Classes migrate as posting groups with matching names for customers, vendors, and items."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007325,
+      "pages_in_call": 7
+    }
+  ]
+}

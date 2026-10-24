@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:11.040Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -280,8 +280,7 @@ links:
     - topic/dev-itpro/development/troubleshooting/troubleshooting-guides-tsgs
   localizations: []
   videos: []
-  posts:
-    - post/stefanmaron-com/https-stefanmaron-com-posts-fixing-al-debugger-linux-wayland--13617af244
+  posts: []
   guidelines: []
 learn_toc_path:
   - Development
@@ -297,7 +296,7 @@ coverage:
   learn: 31
   code: 32
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 119
@@ -342,25 +341,25 @@ narrative: generated
 
 > Troubleshooting for Business Central development covers tools and guides for gathering information, finding causes and fixing problems. It answers questions about client tools, AL debugging and profiling, telemetry setup and analysis, and guides for migration, report and web service failures.
 
-Path: [Development](../development.md) > Troubleshooting · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../development.md) > Troubleshooting · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
 This section collects the resources for diagnosing Business Central issues. The overview page introduces the approach: gather information, identify the cause, and apply a solution, using client tools, AL profiling, snapshot debugging and telemetry.
 
-The content is split into four subtopics. Troubleshooting in the client covers tools such as Page Inspector, error dialogs, database locks, missing indexes, Event Recorder, report data export and the Performance Profiler, plus personalization, permissions and on-premises mobile app issues. Troubleshooting in AL covers the AL Profiler, VS Code debugging, snapshot debugging, performance articles and printing problems. Troubleshooting with telemetry covers sending telemetry to Azure Application Insights, events, KQL and Power BI analysis, alerting and performance diagnosis. The troubleshooting guides (TSGs) give cause, telemetry to check and fix for specific failures.
+The content is split into four subtopics. Troubleshooting in the client covers tools such as Page Inspector, error dialogs, database locks and table information, missing indexes, event discovery, report data export and performance profiling, plus personalization, role customization, permissions and on-premises mobile app issues. Troubleshooting in AL covers the AL Profiler, VS Code debugging, snapshot debugging, Page Inspection, performance articles and printing problems. Troubleshooting with telemetry covers sending telemetry to Azure Application Insights, the available events, KQL and Power BI analysis, alerting and performance diagnosis. The troubleshooting guides (TSGs) give the cause, the telemetry to check and the fix for specific failures.
 
-Start with the overview to pick a tool. Use the client tools for quick inspection of a page or error, AL tools for slow or failing extension code, telemetry for issues across environments over time, and the TSGs when you have a known symptom such as a report error or web service failure.
+Start with the overview to pick a tool. Use the client tools to quickly inspect a page, error or lock, the AL tools for slow code or runtime errors in extensions, telemetry when you need to set up monitoring, analyze events, alert or diagnose performance, and the TSGs when you have a known symptom such as a cloud migration problem, a report error or a web service failure.
 
 ## Key points
 
-- The overview lists client tools: error dialog inspection, Page Inspector, Event Recorder, database locks, Performance Profiler and AL Profiler.
+- The overview page lists these troubleshooting tools: error dialog inspection, Page Inspector, Event Recorder, database locks, Performance Profiler and AL Profiler.
 - Client troubleshooting also covers finding missing indexes, exporting report data, personalization, role customization, permissions and on-premises mobile app issues.
-- AL troubleshooting covers the AL Profiler, VS Code debugging, snapshot debugging, Page Inspection and printing errors.
-- Telemetry troubleshooting requires turning on telemetry to Azure Application Insights, then analysis with KQL and Power BI.
-- Telemetry pages also cover alerting and using telemetry to diagnose performance problems.
+- AL troubleshooting covers the AL Profiler, VS Code debugging, snapshot debugging, Page Inspection, performance articles and printing errors.
+- The telemetry pages cover turning on telemetry to Azure Application Insights, the available telemetry events, and analysis with KQL and Power BI.
+- The telemetry pages also cover alerting and using telemetry to diagnose performance problems.
 - TSGs cover cloud migration problems, report errors and slow performance, and web service failures (OData, API, SOAP).
-- TSGs explain error causes, which telemetry to check, and the fixes.
+- TSGs explain the cause of an error, which telemetry to check, and the fix.
 
 ## Subtopics
 
@@ -372,12 +371,6 @@ Start with the overview to pick a tool. Use the client tools for quick inspectio
 ## More Learn pages
 
 - [Troubleshooting tools and guides overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-overview): An overview of tools and processes that help troubleshoot issues in Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Fixing AL Language Extension Debugger on Linux with Wayland/Hyprland](../../../posts/stefanmaron-com/https-stefanmaron-com-posts-fixing-al-debugger-linux-wayland--13617af244.md) (community post): "The AL Language Extension debugger fails on Linux with Wayland/Hyprland"
 
 ## Business Central pages and reports
 

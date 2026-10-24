@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:22.125Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,5 +90,6 @@ Start with the page for the client you target. The two use similar parameters, s
 
 - [Linking to the Dynamics 365 Business Central App](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-link-to-mobile-app): Learn how you can construct a URL for starting the Dynamics 365 Business Central app on a device, such as a phone or tablet. You can then distribute this URL by e-mail or from a Web page to the users.
 - [Web client URL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls): Learn about the URL for opening the Business Central web client.
+  - In the observatory: [Page 9305 "Sales Order List"](../../../../../objects/page/9305.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

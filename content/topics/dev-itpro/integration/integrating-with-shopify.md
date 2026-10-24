@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-shopify
 type: topic
 title: Integrating with Shopify
-summary: Shopify integration for Business Central through the Shopify Connector. It covers connecting stores, synchronizing items, prices, inventory, customers, companies and orders, technical details such as API versions and extensibility, and troubleshooting sync problems.
+summary: "Integrating with Shopify covers the Shopify Connector for Business Central: setup and OAuth connection, day-to-day synchronization of items, prices, inventory, customers and orders, technical FAQ on API versions and extensibility, and troubleshooting sync problems."
 tier: official
 language: en
 system: integration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:26:58.336Z"
+  at: "2026-10-24T00:56:29.802Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a73bbdbff0b4f31f1add6c66f16e419b04307066ea380b39f71344f1ebd14e77
+  input_hash: 862621d8ff589fa553d7adfdc5a19f4ad455adba869996edb99076171e6a70c8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-faq
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/get-started
-    title: Getting started with the connector for Shopify
-    date: "2026-09-04"
+    title: Get started with the Shopify Connector
+    date: "2026-09-22"
     commit: null
     t: null
     quote: null
@@ -42,7 +42,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/troubleshoot
     title: Troubleshooting the Shopify and Business Central synchronization
-    date: "2026-09-04"
+    date: "2026-10-14"
     commit: null
     t: null
     quote: null
@@ -86,8 +86,7 @@ links:
     - video/h5PQI4I4b7c
     - video/inuqqx12yJ8
     - video/lClKXB8xXIE
-  posts:
-    - post/gerardorenteria-blog/11616
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/10034
@@ -142,7 +141,7 @@ coverage:
   learn: 4
   code: 16
   video: 12
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 30100
@@ -167,35 +166,37 @@ narrative: generated
 
 # Integrating with Shopify
 
-> Shopify integration for Business Central through the Shopify Connector. It covers connecting stores, synchronizing items, prices, inventory, customers, companies and orders, technical details such as API versions and extensibility, and troubleshooting sync problems.
+> Integrating with Shopify covers the Shopify Connector for Business Central: setup and OAuth connection, day-to-day synchronization of items, prices, inventory, customers and orders, technical FAQ on API versions and extensibility, and troubleshooting sync problems.
 
 Path: [Integration](../integration.md) > Integrating with Shopify · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Shopify Connector links Shopify stores to Business Central and keeps items, prices, inventory, customers, companies and orders in sync between the two systems. The section has four pages and no subtopics.
+This section explains how to connect Shopify online stores to Business Central with the Shopify Connector app. It has four pages and no subtopics: a getting-started page, a setup and usage walkthrough, a technical FAQ, and a troubleshooting guide.
 
-Start with "Getting started with the connector for Shopify" for the overall picture and how to connect a store. Then use "Set up and use the Shopify Connector" for the walkthrough of product sync, customer management, order processing, B2B flows, price and discount configuration, and importing data from Shopify.
+Start with "Get started with the Shopify Connector" for prerequisites, installation, OAuth authentication and testing strategies. Then use "Set up and use the Shopify Connector" for product synchronization, inventory, prices, discounts, customer import, order processing and B2B flows.
 
-For developers and administrators, the technical FAQ covers product compatibility, the supported GraphQL Admin API versions, the extensibility model, and how quarterly API deprecations are handled in Business Central online. When sync does not behave as expected, the troubleshooting page explains how to run tasks in the foreground, read logs, check skipped records and reset sync dates.
+Use the technical FAQ for product compatibility, supported API versions, the extensibility model and how quarterly API deprecations are handled. Use the troubleshooting page when syncs fail or data is skipped.
 
 ## Key points
 
-- The connector synchronizes items, prices, inventory, customers, companies and orders between Shopify and Business Central.
-- The setup walkthrough covers product synchronization, inventory sync, customer import, order sync, price management, discount configuration and B2B flows.
-- The technical FAQ covers the GraphQL Admin API, API versioning and quarterly API deprecation management for Business Central online.
+- The connector is the Shopify Connector app, installed in Business Central and connected to Shopify stores via OAuth, using offline access tokens.
+- Setup options include auto create unknown items, auto create unknown customers, auto create sales documents, and whether Shopify can update items.
+- Synchronization covers items, prices, inventory, customers and orders, plus discount configuration and B2B flows.
+- The technical FAQ covers the GraphQL Admin API, API versioning and quarterly API deprecation management for Business Central online, with 2026 release wave 1 and wave 2 mentioned.
 - Extensibility uses integration events, public façade codeunits and extensible enums.
-- The FAQ mentions 2026 release wave 1 and 2026 release wave 2.
-- Troubleshooting starts with running tasks in the foreground and reviewing logging modes and log entries.
-- Skipped records can be tracked, and data retention policies apply to logs.
-- A sync reset (resetting sync dates) is available as a troubleshooting step.
+- Troubleshooting tools include Run Syncs in Background, Logging Mode, Request ID tracking, a log entry retention policy, Skipped Records tracking and Data Capture.
+- The troubleshooting page also covers access token management and common error scenarios with resolution steps.
 
 ## Learn pages
 
 - [FAQ for technical details](https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-faq): Implementation details related to the Shopify connector.
-- [Getting started with the connector for Shopify](https://learn.microsoft.com/dynamics365/business-central/shopify/get-started): First steps when configuring a connection between Business Central and Shopify.
+  - In the observatory: [Codeunit 30234 "Shpfy Product"](../../../objects/codeunit/30234.md), [Codeunit 30409 "Shpfy Orders"](../../../objects/codeunit/30409.md), [Codeunit 30418 "Shpfy Metafields"](../../../objects/codeunit/30418.md)
+- [Get started with the Shopify Connector](https://learn.microsoft.com/dynamics365/business-central/shopify/get-started): Learn how to connect one or more Shopify online stores to Business Central, including prerequisites, installation options, and testing strategies.
 - [Set up and use the Shopify Connector](https://learn.microsoft.com/dynamics365/business-central/shopify/walkthrough-setting-up-and-using-shopify): Various integration scenarios for demonstrating workflow between Shopify and Business Central
+  - In the observatory: [Page 36954 "Customers"](../../../objects/page/36954.md), [Page 42 "Sales Order"](../../../objects/page/42.md)
 - [Troubleshooting the Shopify and Business Central synchronization](https://learn.microsoft.com/dynamics365/business-central/shopify/troubleshoot): Learn what to do if something goes wrong when you synchronize data between Shopify and Business Central.
+  - In the observatory: [Page 2500 "Extension Management"](../../../objects/page/2500.md), [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md), [Table 5108 "Sales Line Archive"](../../../objects/table/5108.md)
 
 ## Videos, posts and code changes
 
@@ -243,7 +244,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9320 [Shopify] Import HS code and country of origin from Shopify](../../../changes/bcapps/9320.md) (code change): "Shopify connector now imports harmonized system codes and country of origin"
 - [#9321 [Shopify] Add Unlisted product status](../../../changes/bcapps/9321.md) (code change): "Shopify Connector's product status enum now includes the Unlisted value"
 - [#9404 [Shopify] Fix Sync Prices using stale WorkDate from SingleInstance cache](../../../changes/bcapps/9404.md) (code change): "Fixed the Shopify product price calculator to rebuild its cached temporary sales header when the Work Date changes"
-- [What’s new and planned Business Central 2025 Wave 2 – v27🔔](../../../posts/gerardorenteria-blog/11616.md) (community post): "Shopify and Dynamics 365 Field Service integrations are strengthened"
 - [What's New: Shopify Connector B2B Functionality (2024 release wave 1)](../../../videos/3tmaVpPTQLw.md) (video): "Shopify Connector B2B Functionality; order editing; company synchronization"
 - [What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)](../../../videos/5Qfc7r618OM.md) (video): "Shopify connector; skipped records; export validation; integration troubleshooting"
 - [What's New: Product Information Management in Shopify Connector (2026 release wave 1)](../../../videos/6vHJQggN4F4.md) (video): "Item Variant Image Export to Shopify; Item Attributes for Shopify Options"

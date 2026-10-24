@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/environment-company-limit.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-company-limit",
+  "title": "Operational challenges with many companies per environment",
+  "blob": "c417e8328f2aaa0989d73a69e6effbbd1543a8ba",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Since 2023 release wave 1, maximum company limit per environment is enforced to prevent operational challenges."
+    },
+    {
+      "kind": "limit",
+      "text": "Admin operations on environments are blocked if company count exceeds the defined maximum limit."
+    },
+    {
+      "kind": "fact",
+      "text": "Each environment shares one compute cluster and database, so resource management like throttling and load balancing occurs at environment level."
+    },
+    {
+      "kind": "fact",
+      "text": "Data exports use BACPAC format which cannot handle excessive database tables; each company has roughly 1800 tables."
+    },
+    {
+      "kind": "fact",
+      "text": "Service notifications, upgrades, user access configuration, and extension deployment apply to entire environment, not individual companies."
+    },
+    {
+      "kind": "fact",
+      "text": "Point-in-time restore (PITR) restores whole environment, not individual companies, increasing recovery time with many companies."
+    },
+    {
+      "kind": "fact",
+      "text": "Integrate Business Central with services like Dynamics 365 Sales and Dataverse becomes more complex with many companies."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00836,
+      "pages_in_call": 6
+    }
+  ]
+}

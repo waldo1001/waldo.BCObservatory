@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:51:27.035Z"
   flags: []
 generated:
-  at: "2026-10-07T22:51:27.079Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -141,6 +141,22 @@ chapters:
     title: Agent Use Cases and Scenarios
   - t: 1026
     title: Adoption Paths and Getting Started
+cautions:
+  - kind: preview-disclaimer
+    quote: we are now launching in preview the ability for you especially consultants, product owners, domain specialists and and even makers to design proof of concept business central agents
+    t: 561
+  - kind: preview-disclaimer
+    quote: this experience is an incline experience and it's supported in sandboxes
+    t: 629
+  - kind: preview-disclaimer
+    quote: In the preview, we support that you can deploy to sandboxes. Uh later you will of course be able to deploy uh these extensions to production environments
+    t: 794
+  - kind: preview-disclaimer
+    quote: we will also soon give you the means to actually go and evaluate the agents so that you can automate evaluating the results
+    t: 822
+  - kind: preview-disclaimer
+    quote: in the future even call BC agents uh via MCP from within copilot studio
+    t: 1059
 features:
   - name: Sales Order Agent
     status: unclear

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:24:55.310Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,5 +115,6 @@ Start with the deprecated features page to check whether a feature you rely on i
 
 - [Deleted objects in the Base App and first-party apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deleted-objects-25w1): Describes the objects that have been deleted in the W1 and country versions in 2025 release wave 1.
 - [Deprecated Features in the application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1): Describes the features that have been moved, removed, or replaced in the W1 version.
+  - In the observatory: [Codeunit 1799 "Import Config. Package File"](../../../objects/codeunit/1799.md), [Codeunit 1800 "Assisted Company Setup"](../../../objects/codeunit/1800.md), [Codeunit 1805 "Import Config. Package Files"](../../../objects/codeunit/1805.md), [Enum 9120 "Company Data Type (Internal)"](../../../objects/enum/9120.md), [Enum 9121 "Company Data Type (Production)"](../../../objects/enum/9121.md), [Enum 9122 "Company Data Type (Sandbox)"](../../../objects/enum/9122.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

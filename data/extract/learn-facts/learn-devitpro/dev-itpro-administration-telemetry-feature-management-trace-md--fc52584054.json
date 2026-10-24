@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-feature-management-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-feature-management-trace",
+  "title": "Feature management telemetry",
+  "blob": "344ace3bb044b5e6f5c2b6e6f2b6072a1658cccc",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Feature management telemetry introduced in Business Central 2023 release wave 1, version 22.0."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry logs when user changes feature state on Feature Management page."
+    },
+    {
+      "kind": "fact",
+      "text": "Feature switch telemetry captures feature name, description, new state, environment, and user who made change."
+    },
+    {
+      "kind": "fact",
+      "text": "New capabilities in major and minor updates can be enabled ahead of time on sandbox and production."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

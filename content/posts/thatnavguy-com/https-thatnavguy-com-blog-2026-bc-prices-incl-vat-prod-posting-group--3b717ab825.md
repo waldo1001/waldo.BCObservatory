@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:47:06.962Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -54,6 +54,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: change/bcapps/11208
+      title: "#11208 [Master]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug  632380"
+      label: possibly related
+      why: both are about purchase invoice lines with Prices Including VAT; no source states that the change fixes the post's case
+      by: override
+    - to: change/bcapps/11436
+      title: "#11436 [29.X]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug  632380"
+      label: possibly related
+      why: both are about purchase invoice lines with Prices Including VAT; no source states that the change fixes the post's case
+      by: override
+    - to: hotfix/28.6#648146
+      title: Update 28.6 for Business Central
+      label: possibly related
+      why: the hotfix restores the calculation of purchase invoice lines of type G/L Account; no source says it is the post's 28.2 case
+      by: override
 post_id: https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/
 source_id: thatnavguy-com
 source_name: That NAV Guy
@@ -102,6 +118,14 @@ preview:
 
 - "BC has always kept the Direct Unit Cost for G/L Account lines when you change the VAT Product Posting Group." (Explains the historical expected behavior that users relied on before v28.2)
 - "If you're on v28.2 and you use Prices Incl. VAT with G/L Account purchase lines, it's worth to be cautious about this." (Provides actionable guidance for users who may be affected by this regression)
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [#11208 \[Master\]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug 632380](../../changes/bcapps/11208.md) — possibly related: both are about purchase invoice lines with Prices Including VAT; no source states that the change fixes the post's case (checked by hand)
+- [#11436 \[29.X\]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug 632380](../../changes/bcapps/11436.md) — possibly related: both are about purchase invoice lines with Prices Including VAT; no source states that the change fixes the post's case (checked by hand)
+- [Update 28.6 for Business Central](../../hotfixes/28.6.md#648146) — possibly related: the hotfix restores the calculation of purchase invoice lines of type G/L Account; no source says it is the post's 28.2 case (checked by hand)
 
 ## Context
 

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:18:19.022Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,6 +73,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d
+      title: "BC Friday Tips #69 Item Blocked Fields"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
+      title: "BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/demiliani-com/11962
+      title: "Dynamics 365 Business Central: compressing API responses at max."
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: video/mHrY_OI0qNo
+      title: "Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: video/cZCSi6khZFo
+      title: "Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/aardvarklabs-blog/3118
+      title: Leveraging RecordRef and FieldRef for Dynamic Coding
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/duiliotacconi-com/2149
+      title: "Partial Record vs NST Caching : the strange case of Calculate Low Level Code"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/aardvarklabs-blog/2202
+      title: Step by Step Guide to Importing Excel Data into Business Central
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: video/YTA8c2XyTX4
+      title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: video/p-pwG6f5srY
+      title: "What's New: Shopify Connector (2024 release wave 2)"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
 video_id: 8D8IFkqeTLU
 channel: yt-hougaard
 source_name: Erik Hougaard
@@ -200,5 +251,20 @@ Not found in BC28-30: table "item table".
 - [1:48](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=108s) "You specify a start date or formula. Uh and then an interval and how many. So, in this case it says minus CY means"
 - [3:11](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=191s) "whenever you're working with references in in regions, it's always from from the first one. So, I'll I'll select that. So, we have now"
 - [4:09](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=249s) "are defined by question mark first. We can have a date, we can have a dimension, we can have a just a field"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [BC Friday Tips #69 Item Blocked Fields](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d.md) — possibly related: both name Table 27 "Item"
+- [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) — possibly related: both name Table 27 "Item"
+- [Dynamics 365 Business Central: compressing API responses at max.](../posts/demiliani-com/11962.md) — possibly related: both name Table 27 "Item"
+- [Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)](../videos/mHrY_OI0qNo.md) — possibly related: both name Table 27 "Item"
+- [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../videos/cZCSi6khZFo.md) — possibly related: both name Table 27 "Item"
+- [Leveraging RecordRef and FieldRef for Dynamic Coding](../posts/aardvarklabs-blog/3118.md) — possibly related: both name Table 27 "Item"
+- [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../posts/duiliotacconi-com/2149.md) — possibly related: both name Table 27 "Item"
+- [Step by Step Guide to Importing Excel Data into Business Central](../posts/aardvarklabs-blog/2202.md) — possibly related: both name Table 27 "Item"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../videos/YTA8c2XyTX4.md) — possibly related: both name Table 27 "Item"
+- [What's New: Shopify Connector (2024 release wave 2)](../videos/p-pwG6f5srY.md) — possibly related: both name Table 27 "Item"
 
 Presenters (as heard): Eric.

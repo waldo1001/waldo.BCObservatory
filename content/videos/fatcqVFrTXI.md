@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:07:27.213Z"
   flags: []
 generated:
-  at: "2026-10-07T23:07:27.251Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,6 +73,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/h6a8BVzvuZ4
+      title: "What's New: E-Documents and Clearance Model (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 43 "Sales Invoice"
+      by: code
+    - to: video/pE19K17wpgI
+      title: "What's New: Using Enforced Digital Vouchers (2023 release wave 2)"
+      label: possibly related
+      why: both name Page 253 "Sales Journal"
+      by: code
 video_id: fatcqVFrTXI
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -195,3 +206,10 @@ Not found in BC28-30: page "sales journals".
 - [2:47](https://www.youtube.com/watch?v=fatcqVFrTXI&t=167s) "From the top action menu, select post and then preview posting. If you want to verify the posting entries prior to the posting process."
 - [3:08](https://www.youtube.com/watch?v=fatcqVFrTXI&t=188s) "A credit memo can also be entered and applied to entries in sales journal by selecting the credit memo line type."
 - [3:36](https://www.youtube.com/watch?v=fatcqVFrTXI&t=216s) "You can see the fields available to select the applies to doc type and applies to doc number. This allows you to enter and"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [What's New: E-Documents and Clearance Model (2025 release wave 2)](../videos/h6a8BVzvuZ4.md) — possibly related: both name Page 43 "Sales Invoice"
+- [What's New: Using Enforced Digital Vouchers (2023 release wave 2)](../videos/pE19K17wpgI.md) — possibly related: both name Page 253 "Sales Journal"

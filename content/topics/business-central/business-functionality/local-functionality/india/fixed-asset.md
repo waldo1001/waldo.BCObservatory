@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:50.968Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,5 +92,6 @@ Start with the setup page to configure the depreciation book, accounting period 
 
 - [FA Depreciation Calculation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Depreciation): Learn how to calculate fixed asset depreciation, including FA block, additional depreciation, and multiple shift scenarios for India in Business Central.
 - [Setting up Fixed Asset for depreciation calculation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Overview): Describes the essential setup steps for calculating fixed asset depreciation.
+  - In the observatory: [Page 5615 "FA Classes"](../../../../../objects/page/5615.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

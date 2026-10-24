@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:58:32.371Z"
   flags: []
 generated:
-  at: "2026-10-07T22:58:32.422Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -139,6 +139,10 @@ chapters:
     title: Linking Business Central to Power Platform
   - t: 413
     title: Important Considerations and Best Practices
+cautions:
+  - kind: preview-disclaimer
+    quote: review the warning here which warns me that this will start encrypting the database right away which may take some time to complete so make sure that you apply this at a time that the environment can be down while it's being encrypted
+    t: 393
 features:
   - name: Customer-Managed Encryption Key (CMK)
     status: unclear

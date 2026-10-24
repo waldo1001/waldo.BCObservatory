@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:07:04.646Z"
   flags: []
 generated:
-  at: "2026-10-23T01:10:04.337Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -212,6 +212,10 @@ chapters:
     title: Using LLMs to Improve and Refine Prompts
   - t: 1391
     title: Getting Started with AI Development in Business Central
+cautions:
+  - kind: preview-disclaimer
+    quote: it's currently in a public preview um and um it's only available in US environments for now uh but we hope over the wave to roll it out to more regions
+    t: 171
 features:
   - name: Copilot Chat
     status: preview

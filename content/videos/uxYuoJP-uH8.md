@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:22:00.440Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -74,6 +74,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-application-areas
+      title: Extending Application Areas
+      label: possibly related
+      why: names Table 9178 "Application Area Setup"
+      by: code
 video_id: uxYuoJP-uH8
 channel: yt-bcmusings
 source_name: Business Central Musings
@@ -205,3 +211,9 @@ Not found in BC28-30: codeunit "installed".
 ## Disclaimers in the video
 
 - [0:14](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=14s) other: this is about uh extending application area in Business Central and this was something bumped into in MB800 exam
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Extending Application Areas](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-application-areas) — possibly related: names Table 9178 "Application Area Setup"

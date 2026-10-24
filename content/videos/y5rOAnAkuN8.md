@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:21:41.512Z"
   flags: []
 generated:
-  at: "2026-10-07T23:21:41.579Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,6 +121,19 @@ chapters:
     title: Firewall Rules and Security Hardening
   - t: 3920
     title: Iterative Problem-solving and Closing Remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: we cannot fully mitigate those uh vulnerabilities. Standalone Docker run modes eliminates the tech surface entirely
+    t: 198
+  - kind: preview-disclaimer
+    quote: there is a a voice command rolling out, but I don't seem to get any of the the preview things
+    t: 408
+  - kind: preview-disclaimer
+    quote: I will continue the the next stream to start to bake in my tuning
+    t: 3223
+  - kind: preview-disclaimer
+    quote: next time I will either, uh, go through issues that manage to breach out of this container or if if there are none
+    t: 3478
 features:
   - name: Claude Code Standalone Docker Container Approach
     status: unclear

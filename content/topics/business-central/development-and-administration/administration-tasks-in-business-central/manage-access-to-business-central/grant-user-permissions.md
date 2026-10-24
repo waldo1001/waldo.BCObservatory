@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:30.673Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -146,6 +146,7 @@ This section covers how administrators give users access in Business Central. It
 
 - [Create users according to licenses](https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions): Describes how to add users to Business Central online or on-premises based on licenses.
 - [Define granular permissions](https://learn.microsoft.com/dynamics365/business-central/ui-define-granular-permissions): This article describes how to define granular permissions and assign each user the permission sets that they need to do their jobs.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 9852 "Effective Permissions"](../../../../../objects/page/9852.md), [Page 9871 "Security Groups"](../../../../../objects/page/9871.md), [Table 9001 "User Group Member"](../../../../../objects/table/9001.md), [Table 9003 "User Group Permission Set"](../../../../../objects/table/9003.md)
 
 ## Videos, posts and code changes
 

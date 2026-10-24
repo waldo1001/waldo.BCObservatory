@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:22:33.824Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,6 +88,7 @@ The "Get ready for doing business" page covers the first setup tasks: assisted s
 ## Learn pages
 
 - [Get ready for doing business](https://learn.microsoft.com/dynamics365/business-central/ui-get-ready-business): Outlines the assisted setup guides, videos, help articles, and pages to use to get ready to do business in Business Central.
+  - In the observatory: [Page 1801 "Assisted Setup"](../../../objects/page/1801.md), [Page 9800 "Users"](../../../objects/page/9800.md)
 - [Sign up for a free trial](https://learn.microsoft.com/dynamics365/business-central/trial-signup): Learn how to quickly sign up for and start a free Dynamics 365 Business Central trial. Explore the app with tours and videos, and find more learning resources.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

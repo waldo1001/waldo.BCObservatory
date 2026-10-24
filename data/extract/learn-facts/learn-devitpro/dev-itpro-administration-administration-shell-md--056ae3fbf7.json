@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-shell.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-shell",
+  "title": "Business Central Administration Shell",
+  "blob": "3d7445355ff52d241d6e2e47fd1ab8b88e3f3d63",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Must be member of local administrator group on the computer to run Administration Shell."
+    },
+    {
+      "kind": "status",
+      "text": "PowerShell 7 is supported; Windows PowerShell 5 compatibility layer available in version 28 and earlier only."
+    },
+    {
+      "kind": "fact",
+      "text": "Three PowerShell modules available: Microsoft.BusinessCentral.Management for server instances, Microsoft.BusinessCentral.Apps.Management for extensions, NAVWebClientManagement for web instances."
+    },
+    {
+      "kind": "step",
+      "text": "Install Administration Shell via Business Central Setup wizard by choosing Install Demo or Server option from setup.exe."
+    },
+    {
+      "kind": "step",
+      "text": "Run shell from Start menu by searching, right-clicking, and selecting Run as administrator."
+    },
+    {
+      "kind": "step",
+      "text": "For remote administration, enable PowerShell Remoting on remote computer, then use Enter-PSSession to connect locally."
+    },
+    {
+      "kind": "limit",
+      "text": "PowerShell 7 based remoting not supported in version 28 due to known issue; must use Windows PowerShell 5."
+    },
+    {
+      "kind": "fact",
+      "text": "Get-Help cmdlet syntax changed in version 24; local help unavailable, use Get-Help with -online flag for online documentation."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013012,
+      "pages_in_call": 4
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/katson-com/4678",
+  "page_id": "post/katson-com/4678",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Very often, agents automatically add this parameter to limit results (e.g., to 50 items), which can cut off other items you need.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "breaking",
+      "quote": "Microsoft moved the BC MCP server from https://api.businesscentral.dynamics.com/v2.0/<env>/mcp to https://mcp.businesscentral.dynamics.com",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "you also need to clear the cached token so it acquires a new one for the updated MCP scope",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004604,
+    "posts_in_call": 4
+  }
+}

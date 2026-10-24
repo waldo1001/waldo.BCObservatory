@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:02:41.893Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,6 +73,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/aardvarklabs-blog/3544
+      title: New Features for Report Lifecycle Management in Business Central 28.1
+      label: possibly related
+      why: both name Page 9660 "Report Layouts"
+      by: code
+    - to: post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-24-30-2026--fa7b3b0afa
+      title: "Weekly Review: Business Central AL Development – May 24–30, 2026"
+      label: possibly related
+      why: both name Page 9660 "Report Layouts"
+      by: code
 video_id: 9ZmmQEpPyB4
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -203,3 +214,10 @@ Not found in BC28-30: report "Sales Quote".
 - [1:58](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=118s) "if you choose design and themes this layout is responsive to the different office themes so the look and feel the fonts the colors"
 - [2:39](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=159s) "the new abts font in office that also came is is available in business Central online as of December 2024"
 - [4:50](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=290s) "we can choose this as a default layout for December or January and then when we get to another season we can simply add"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [New Features for Report Lifecycle Management in Business Central 28.1](../posts/aardvarklabs-blog/3544.md) — possibly related: both name Page 9660 "Report Layouts"
+- [Weekly Review: Business Central AL Development – May 24–30, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-24-30-2026--fa7b3b0afa.md) — possibly related: both name Page 9660 "Report Layouts"

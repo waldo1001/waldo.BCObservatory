@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/delegated-admin.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/delegated-admin",
+  "title": "Delegated admin access to Business Central online",
+  "blob": "b691222bceae27cfb41139abbac58098ed7b8cf4",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Partners must set up employees in Partner Center and assign them to customer support relationships."
+    },
+    {
+      "kind": "fact",
+      "text": "Two relationship types: Reseller (for selling licenses) and GDAP (for delegated administration)."
+    },
+    {
+      "kind": "permission",
+      "text": "Recommended least-privileged role is Dynamics 365 Business Central Administrator for delegated admin access."
+    },
+    {
+      "kind": "limit",
+      "text": "Delegated admins cannot run scheduled job queue tasks, trigger web hooks, or use Invite External Accountant guide."
+    },
+    {
+      "kind": "fact",
+      "text": "Delegated admins can create and test job queue entries for licensed users to start, using Run Once (foreground) action."
+    },
+    {
+      "kind": "fact",
+      "text": "Internal admins can restrict delegated admin access per environment or allow only specific partner tenants."
+    },
+    {
+      "kind": "fact",
+      "text": "Partners lose data modification abilities if customer removes delegated permissions but retain subscription management."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006599,
+      "pages_in_call": 8
+    }
+  ]
+}

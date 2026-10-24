@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/report-performance-issue.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/report-performance-issue",
+  "title": "Report a performance issue",
+  "blob": "f92785e672025e0117db76dafcc5584582da509e",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Before creating support request for performance issues, use in-client Performance Profiler to self-diagnose."
+    },
+    {
+      "kind": "fact",
+      "text": "Provide information on what operations aren't performing well and when they occur with UTC timestamps."
+    },
+    {
+      "kind": "step",
+      "text": "Go to Help and Support page and note the time in UTC timezone."
+    },
+    {
+      "kind": "step",
+      "text": "Enable additional logging under Report a Problem."
+    },
+    {
+      "kind": "step",
+      "text": "Note Session ID, Microsoft Entra tenant ID, and Environment name."
+    },
+    {
+      "kind": "step",
+      "text": "Enable in-client Performance Profiler and reproduce the issue."
+    },
+    {
+      "kind": "step",
+      "text": "Download the profile file for the support request."
+    },
+    {
+      "kind": "fact",
+      "text": "When creating support request include time enabled, Session ID, tenant ID, environment name, and profile file."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:47:08.664Z"
   flags: []
 generated:
-  at: "2026-10-23T01:10:04.337Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -137,6 +137,13 @@ chapters:
     title: Reminders for unsubmitted reports
   - t: 407
     title: Future approval improvements teased
+cautions:
+  - kind: preview-disclaimer
+    quote: There might be something coming soon about policies
+    t: 313
+  - kind: preview-disclaimer
+    quote: we have some more improvements coming for the approvals in uh expense agent
+    t: 407
 features:
   - name: Default approver setup
     status: unclear

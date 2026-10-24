@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:42.119Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -64,6 +64,7 @@ links:
     - change/bcapps/10129
     - change/bcapps/10345
     - change/bcapps/10867
+    - change/bcapps/13183
 learn_toc_path:
   - Business functionality
   - Service management
@@ -111,6 +112,7 @@ Start with the overview page for the list of tasks. Then read the page on workin
 - [How to work with service contracts and service contract quotes \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-how-to-create-service-contracts-and-service-contract-quotes): Create service contracts manually or from service contract quotes. You can generate a contract directly from an approved quote.
 - [Multiple contracts \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-multiple-contracts): You may need to manage a service item under multiple service contracts based on your agreements with customers.
 - [Overview of tasks to fulfill service contracts](https://learn.microsoft.com/dynamics365/business-central/service-fulfill-service-contracts): Outlines tasks involved in fulfilling service contracts with your customers like setting up standard contractual agreements with customizable templates and more.
+  - In the observatory: [Page 6050 "Service Contract"](../../../../objects/page/6050.md), [Page 6053 "Service Contract Quote"](../../../../objects/page/6053.md)
 
 ## Videos, posts and code changes
 
@@ -119,5 +121,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10129 [Extensibility Request] issue 30342: allow skipping blocked item checks](../../../../changes/bcapps/10129.md) (code change): "ServContractManagement gets two separate IsHandled events"
 - [#10345 [Main][ALL-E]Issues with Service Contract Invoicing and Retrospective Billing--when the second unposted Service Invoice is deleted the values on the Service Contract are no longer reset--The "Invoiced to Date" field does not resetInitial commit](../../../../changes/bcapps/10345.md) (code change): "Invoiced to Date field on service contracts failed to reset"
 - [#10867 [29.x][ALL-E]Issues with Service Contract Invoicing and Retrospective Billing--when the second unposted Service Invoice is deleted the values on the Service Contract are no longer reset--The "Invoiced to Date" field does not resetInitial commit- #10345Initial commit](../../../../changes/bcapps/10867.md) (code change): "Fixed Service Contract invoicing to properly reset the Invoiced to Date field"
+- [#13183 [Master]-Service Order created from Service Contract does not populate header dimensions until Dimensions action is opened](../../../../changes/bcapps/13183.md) (code change): "Service orders created from service contracts now populate header dimensions automatically"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

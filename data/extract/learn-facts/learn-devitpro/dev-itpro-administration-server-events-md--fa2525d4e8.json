@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/server-events.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/server-events",
+  "title": "Microsoft Dynamics 365 Business Central Server Events",
+  "blob": "dea0b5d97c22812d786b6988644d2b3f43118efa",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Server events originate from BusinessCentralServer with unique IDs and task categories for filtering."
+    },
+    {
+      "kind": "fact",
+      "text": "Event 113: Object Change Listener monitoring SQL database for application object changes after connection."
+    },
+    {
+      "kind": "fact",
+      "text": "Event 200-202: Generic error, information, and warning IDs for various server instance issues."
+    },
+    {
+      "kind": "fact",
+      "text": "Event 205-210: Service listening port events for OData, SOAP, Windows client, and Management."
+    },
+    {
+      "kind": "fact",
+      "text": "Event 223-225: Service initialization, ready status, and shutdown lifecycle events."
+    },
+    {
+      "kind": "fact",
+      "text": "Event 226-230: Multitenant mounting and dismounting of NAV application and tenant databases."
+    },
+    {
+      "kind": "fact",
+      "text": "Event 700-706: Telemetry events with severity levels configured by Diagnostic Trace Level setting."
+    },
+    {
+      "kind": "fact",
+      "text": "Task categories classify events: 8 (connect), 11 (disconnect), 12 (messages), 13 (exceptions)."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006599,
+      "pages_in_call": 8
+    }
+  ]
+}

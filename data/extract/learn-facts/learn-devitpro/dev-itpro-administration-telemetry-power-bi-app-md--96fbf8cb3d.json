@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-power-bi-app.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app",
+  "title": "Analyze and monitor telemetry with Power BI",
+  "blob": "b101349c7505d521644d79083eafd060b61603aa",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Two free Power BI apps analyze telemetry: one for environment telemetry, one for app and extension telemetry."
+    },
+    {
+      "kind": "fact",
+      "text": "Usage report shows sessions, clients, user locations, page views, reports, features, integrations, and deprecated features."
+    },
+    {
+      "kind": "fact",
+      "text": "Error report displays user errors, integration errors, and system errors across environments or apps."
+    },
+    {
+      "kind": "fact",
+      "text": "Performance report tracks sessions, OnCompanyOpen timing, page views, reports, long-running queries, and task scheduler jobs."
+    },
+    {
+      "kind": "fact",
+      "text": "Administration report shows environment inventory, update planning, and changes to environments, companies, and extensions."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Power BI pro license required to use the apps."
+    },
+    {
+      "kind": "step",
+      "text": "Install app from Microsoft Marketplace using the provided link."
+    },
+    {
+      "kind": "step",
+      "text": "Get Application ID from Azure portal and connect to Application Insights resource in Power BI."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004442,
+      "pages_in_call": 13
+    }
+  ]
+}

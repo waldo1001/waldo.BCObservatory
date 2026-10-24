@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:54:31.611Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:31.647Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -111,6 +111,12 @@ chapters:
     title: Charts and Insights
   - t: 172
     title: Closing Remarks and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: this will be available for 27.1. So that means from November
+    t: 58
+    versions:
+      - "27"
 features:
   - name: Account Payable Role Center
     status: announced

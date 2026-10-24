@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:15:21.626Z"
   flags: []
 generated:
-  at: "2026-10-07T23:15:21.703Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -238,6 +238,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-capability-in-al
+      title: Build the Copilot capability in AL
+      label: possibly related
+      why: names Codeunit 7773 "Copilot Capability"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-define-register
+      title: Define and register an agent programmatically (preview)
+      label: possibly related
+      why: names Codeunit 7773 "Copilot Capability"
+      by: code
 video_id: lNASlydCidI
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -281,6 +292,22 @@ chapters:
     title: Data Governance, Responsible AI, and Safety Mechanisms
   - t: 2814
     title: Summary and Built-in Capabilities
+cautions:
+  - kind: preview-disclaimer
+    quote: you can get Hands-On right now if you're an Insider using Insider builds you already have access to the toolkit today
+    t: 352
+  - kind: preview-disclaimer
+    quote: we're using this is preview equals true property that's new specific for this page type
+    t: 689
+  - kind: preview-disclaimer
+    quote: we really want to empower you to start start small and grow from there and use the uh preview badge on this dialogue to really communicate to your customers that you're still in that stage
+    t: 710
+  - kind: preview-disclaimer
+    quote: two states uh whether your capability is in preview or it's generally available
+    t: 1462
+  - kind: preview-disclaimer
+    quote: we're actively working right now on how can we provide um additional safeties ourselves through the toolkit you'll hear about that more later
+    t: 2814
 features:
   - name: Co-pilot for Business Central
     status: unclear
@@ -706,5 +733,12 @@ Not found in BC28-30: page "prompt dialogue", enum "Copilot Capability Availabil
 - [36:21](https://www.youtube.com/watch?v=lNASlydCidI&t=2181s) other: this is only an example it does not Encompass like limitations Behavioral safeguards or examples of intended Behavior which you should do
 - [40:38](https://www.youtube.com/watch?v=lNASlydCidI&t=2438s) other: if a customer is in a geography in a region where they have Azure openi service deployed um then there is no additional setup that they need to do to start using co-pilot
 - [46:54](https://www.youtube.com/watch?v=lNASlydCidI&t=2814s) coming-later: we're actively working right now on how can we provide um additional safeties ourselves through the toolkit you'll hear about that more later
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Build the Copilot capability in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-capability-in-al) — possibly related: names Codeunit 7773 "Copilot Capability"
+- [Define and register an agent programmatically (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-define-register) — possibly related: names Codeunit 7773 "Copilot Capability"
 
 Presenters (as heard): Mike, Cody, Derek, Dave, Mike Bor Cardano, Cody Hoover.

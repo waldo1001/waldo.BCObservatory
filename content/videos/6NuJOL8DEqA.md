@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:00:56.685Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:56.723Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -124,6 +124,13 @@ chapters:
     title: Report Summary and Deprecations
   - t: 532
     title: Learning Resources and Conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: right now and when we record this that part we're still finishing up so that's why I'm I'm showing the raw pay powerbi um in this updated app
+    t: 450
+  - kind: preview-disclaimer
+    quote: we will also likely deprecate uh these two current utilization and historical utilization likely just hide them in in this version and then remove them in a later one
+    t: 471
 features:
   - name: Work Center Load Report
     status: unclear

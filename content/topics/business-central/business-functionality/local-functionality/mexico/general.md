@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:27.247Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -121,9 +121,11 @@ Start with the electronic accounting page if you need to report to the Mexican T
 ## Learn pages
 
 - [Electronic accounting regulations in Mexico](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-accounting-regulations): This article explains how Business Central can assist with compliance regarding electronic accounting requirements in Mexico.
+  - In the observatory: [Page 423 "Customer Bank Account Card"](../../../../../objects/page/423.md), [Page 425 "Vendor Bank Account Card"](../../../../../objects/page/425.md)
 - [How to create deposits [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-create-deposits): Make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the Mexican version.
 - [How to Print Troubleshooting Reports [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-print-troubleshooting-reports): Troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the Mexican version.
 - [Make payments with AMC banking (US) or SEPA credit transfer (EU)](https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer): Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
 
 ## Business Central pages and reports
 

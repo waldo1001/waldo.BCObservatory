@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:46.107Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -187,15 +187,25 @@ Start with the app overview page to see which reports exist. Then open the repor
 
 - [Power BI Projects app page (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-app): The Power BI Projects app contains reports for an organization's project reporting requirements.
 - [Power BI Projects app semantic model](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-app-semantic-model): Learn about the project tables and fields in the Power BI Projects app semantic model for Business Central reporting and analysis.
+  - In the observatory: [Table 15 "G/L Account"](../../../../../objects/table/15.md), [Table 156 "Resource"](../../../../../objects/table/156.md), [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 39 "Purchase Line"](../../../../../objects/table/39.md), [Table 5722 "Item Category"](../../../../../objects/table/5722.md)
 - [Project Invoiced Sales by Customer (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-customer): The Project Invoiced Sales by Customer report describes your sales activities based on each project for specific customers.
+  - In the observatory: [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 167 "Job"](../../../../../objects/table/167.md), [Table 169 "Job Ledger Entry"](../../../../../objects/table/169.md)
 - [Project Invoiced Sales by Type (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-type): The Project Invoiced Sales by Type report describes your sales activities based on each project and each type of sales line.
+  - In the observatory: [Table 167 "Job"](../../../../../objects/table/167.md), [Table 169 "Job Ledger Entry"](../../../../../objects/table/169.md)
 - [Project Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-overview): The Project Overview report highlights key high-level information about your organization's project activity.
+  - In the observatory: [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 167 "Job"](../../../../../objects/table/167.md), [Table 169 "Job Ledger Entry"](../../../../../objects/table/169.md)
 - [Project Performance to Budget (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-performance-to-budget): The Project Performance to Budget report helps you ensure your projects stay under budget.
+  - In the observatory: [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 167 "Job"](../../../../../objects/table/167.md), [Table 169 "Job Ledger Entry"](../../../../../objects/table/169.md)
 - [Project Profitability (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-profitability): The Project Profitability report highlights cost and pricing information for each project.
+  - In the observatory: [Table 1001 "Job Task"](../../../../../objects/table/1001.md), [Table 167 "Job"](../../../../../objects/table/167.md), [Table 169 "Job Ledger Entry"](../../../../../objects/table/169.md)
 - [Project Realization (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-realization): The Project Realization report showcases the completion for each project.
+  - In the observatory: [Table 167 "Job"](../../../../../objects/table/167.md)
 - [Project Tasks (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-tasks): The Project Tasks report breaks down each project and their tasks.
+  - In the observatory: [Table 1001 "Job Task"](../../../../../objects/table/1001.md), [Table 167 "Job"](../../../../../objects/table/167.md)
 - [Project Timeline (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-timeline): The Project Timeline monitors project timelines to ensure timely delivery, with insights into task durations, start and end dates, and critical paths.
+  - In the observatory: [Table 1001 "Job Task"](../../../../../objects/table/1001.md), [Table 167 "Job"](../../../../../objects/table/167.md)
 - [Projects KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-kpis): The Projects App KPIs provides a page to clearly identify all KPIs and Measures used in the Projects Report.
+  - In the observatory: [Table 1001 "Job Task"](../../../../../objects/table/1001.md), [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 167 "Job"](../../../../../objects/table/167.md), [Table 169 "Job Ledger Entry"](../../../../../objects/table/169.md), [Table 39 "Purchase Line"](../../../../../objects/table/39.md)
 
 ## Videos, posts and code changes
 

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/itpro-introduction-to-automation-apis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis",
+  "title": "Introduction to automation APIs",
+  "blob": "9e4b43742d1fd468b831c64610dfbf1e083a9a45",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Automation APIs enable company setup automation using delegated admin credentials or Business Central users with appropriate permissions."
+    },
+    {
+      "kind": "fact",
+      "text": "Create company via POST to automationCompany endpoint with name, displayName, businessProfileId parameters."
+    },
+    {
+      "kind": "step",
+      "text": "Upload RapidStart package by first creating configuration package with POST, then uploading file with PATCH to content endpoint."
+    },
+    {
+      "kind": "step",
+      "text": "Import RapidStart via POST Microsoft.NAV.import bound action, then apply via POST Microsoft.NAV.apply bound action."
+    },
+    {
+      "kind": "fact",
+      "text": "User groups deprecated in version 25 replaced by security groups for managing user permissions."
+    },
+    {
+      "kind": "fact",
+      "text": "Extensions installed via Microsoft.NAV.install bound action or unpublished via Microsoft.NAV.unpublish introduced in version 25.4."
+    },
+    {
+      "kind": "limit",
+      "text": "Per-tenant extension upload and install via Automation APIs supported only in SaaS, not on-premises."
+    },
+    {
+      "kind": "fact",
+      "text": "Features activated or deactivated through Microsoft.NAV.activate and Microsoft.NAV.deactivate bound actions on feature endpoint."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013012,
+      "pages_in_call": 4
+    }
+  ]
+}

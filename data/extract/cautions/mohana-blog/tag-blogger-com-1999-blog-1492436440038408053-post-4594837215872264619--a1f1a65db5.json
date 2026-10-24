@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619",
+  "page_id": "post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "A freshly created part cannot be assigned to anything yet.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29.0"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "A theme has to be a Word template, a .dotx file, not a .docx.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29.0"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "A Default layout is a complete document that already owns its own header, footer and styling.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29.0"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Open it in Word first and strip out the header, the footer and the hard-coded styling.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29.0"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005234,
+    "posts_in_call": 4
+  }
+}

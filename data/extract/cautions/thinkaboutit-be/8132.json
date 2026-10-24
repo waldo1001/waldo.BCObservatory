@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/thinkaboutit-be/8132",
+  "page_id": "post/thinkaboutit-be/8132",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "SetLoadFields has to run before you apply filters, not after.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "FindSet with the boolean set to true locks the table, and the old two parameter version people still copy from forum posts is obsolete.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "CodeCop rule AA0233 flags a FindFirst followed by Next inside a loop.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006919,
+    "posts_in_call": 4
+  }
+}

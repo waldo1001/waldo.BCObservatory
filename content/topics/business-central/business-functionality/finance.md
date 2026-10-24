@@ -12,7 +12,7 @@ review:
   at: "2026-10-20T08:48:51.538Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -1477,12 +1477,15 @@ Start with Financial management or Accounting and bookkeeping for orientation, t
 ## More Learn pages
 
 - [Accountant experiences in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-accounting): Learn about the Accountant Role Center and the Company Hub that support internal and external accountants in the client company.
+  - In the observatory: [Page 9800 "Users"](../../../objects/page/9800.md)
 - [Accounting and bookkeeping](https://learn.microsoft.com/dynamics365/business-central/learn-accounting-bookkeeping-guide): This article provides information that can help you use Microsoft Dynamics 365 Business Central to do accounting and bookkeeping for your company.
 - [Calculate withholding tax for vendors](https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax): This article describes how to calculate withholding tax for your vendors.
+  - In the observatory: [Page 26 "Vendor Card"](../../../objects/page/26.md)
 - [Financial management (contains video)](https://learn.microsoft.com/dynamics365/business-central/finance): Learn how Business Central supports your needs for financial management, accounting, auditing, and bookkeeping.
 - [Register excise tax](https://learn.microsoft.com/dynamics365/business-central/finance-register-excise-tax): Learn how to generate, register, and review excise tax journal entries for items and fixed assets in Dynamics 365 Business Central.
 - [Set up and post employee withholding tax](https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax-employees): Learn how to configure employee withholding tax, post supported employee journal transactions, and review the tax entries that posting creates.
 - [View withholding tax entries](https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax-entries): This article describes how to review and explore the general ledger entries for withholding tax.
+  - In the observatory: [Page 116 "G/L Registers"](../../../objects/page/116.md)
 
 ## Videos, posts and code changes
 

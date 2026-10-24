@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:29.432Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,8 +109,11 @@ Start with "Run and print reports in Business Central". It explains how to run, 
 ## Learn pages
 
 - [Manage Saved Settings for Reports and Batch Jobs](https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings): Describes hwo the admin can set up predefined options and filters for a report and share those settings with one or all users.
+  - In the observatory: [Page 1560 "Report Settings"](../../../../../objects/page/1560.md)
 - [Run and print reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-work-report): Learn how to add a report to the job queue and schedule it to run on a specific date and time.
+  - In the observatory: [Page 64 "Printer Selections"](../../../../../objects/page/64.md), [Page 672 "Job Queue Entries"](../../../../../objects/page/672.md), [Page 9652 "Report Layout Selection"](../../../../../objects/page/9652.md), [Page 9660 "Report Layouts"](../../../../../objects/page/9660.md)
 - [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
+  - In the observatory: [Page 2616 "Printer Management"](../../../../../objects/page/2616.md), [Page 64 "Printer Selections"](../../../../../objects/page/64.md)
 
 ## Business Central pages and reports
 

@@ -1,0 +1,38 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/37371",
+  "page_id": "post/thedynamicsexplorer-com/37371",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "The system doesn't update the standard cost of any Stock Keeping Units.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Stock Keeping Unit"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Existing on-hand inventory is not revalued when you change the Standard Cost on the Item Card.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Item"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003382,
+    "posts_in_call": 4
+  }
+}

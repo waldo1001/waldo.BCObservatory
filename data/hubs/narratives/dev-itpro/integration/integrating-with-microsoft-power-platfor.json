@@ -10,7 +10,7 @@
     "Power BI pages cover enabling the integration, building reports, embedding reports in pages, extracting data for ETL and improving dataset load performance.",
     "Copilot Studio pages cover configuring the Business Central MCP Server and building agents that connect through the connector or MCP server.",
     "Power Pages on virtual tables (preview) lets unlicensed external users reach Business Central online data via Dataverse virtual tables.",
-    "Power Pages supports anonymous and authenticated access, synthetic relations, lookup columns, basic forms and grid configuration, from 2023 release wave 2 (version 23.1)."
+    "Power Pages supports anonymous and authenticated access, synthetic relations, lookup columns, basic forms and grid configuration; list and subgrid editing is available from 2023 release wave 2 (version 23.1)."
   ],
   "members_used": 2,
   "subtopics_used": 4,
@@ -20,5 +20,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.013330999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:54:27.485Z",
+    "verdict": "fix",
+    "issues": [
+      "The seventh key point gives 2023 release wave 2 (version 23.1) as the starting point for every Power Pages feature. The source only says list and subgrid editing arrives from 2023 release wave 2. Anonymous and authenticated access, synthetic relations, lookup columns, basic forms and grid configuration are listed without any version.",
+      "Minor: the overview doesn't say Power Pages on virtual tables is in preview. The key points do, so it's acceptable."
+    ],
+    "input_hash": "1930f287536c3203cb3e37930d4c92d4f30f02429e1f77649a055bb18d9c468f",
+    "cost_usd": 0.0454432
   }
 }

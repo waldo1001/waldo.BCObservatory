@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:18.791Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -103,6 +103,7 @@ A third page explains how to set up a development sandbox with different user pl
 - [Running a container-based development environment](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-running-container-development): Overview of how to run a container-based development.
 - [Sandbox environments for Dynamics 365 Business Central development](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview): Overview of the differences between the offered sandbox environments for Dynamics 365 Business Central.
 - [Working with sandboxes and entitlements](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-sandbox-entitlements): Learn about development sandboxes and entitlements.
+  - In the observatory: [Page 1 "Company Information"](../../../../objects/page/1.md), [Table 9005 "User Plan"](../../../../objects/table/9005.md)
 
 ## Videos and posts
 

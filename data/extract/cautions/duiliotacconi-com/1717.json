@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/duiliotacconi-com/1717",
+  "page_id": "post/duiliotacconi-com/1717",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "I would use this feature VERY carefully or NOT USING IT AT ALL",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Database.LockTimeoutDuration"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003304,
+    "posts_in_call": 4
+  }
+}

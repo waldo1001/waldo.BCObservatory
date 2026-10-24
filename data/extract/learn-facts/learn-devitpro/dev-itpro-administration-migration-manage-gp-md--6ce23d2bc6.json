@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-manage-gp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-gp",
+  "title": "Managing Dynamics GP cloud migration",
+  "blob": "5faae8cfc505244462dcb8de7732578c0213ed9e",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Cloud Migration Management page is a hub for managing data migration and migration services in Business Central online."
+    },
+    {
+      "kind": "fact",
+      "text": "Migration Log shows status of all migration runs with timing and progress details."
+    },
+    {
+      "kind": "fact",
+      "text": "Fields and tiles above the log show number of successfully migrated tables and tables with warnings or errors."
+    },
+    {
+      "kind": "fact",
+      "text": "Tables with permissions from on-premises don't migrate because permissions work differently online."
+    },
+    {
+      "kind": "fact",
+      "text": "Run Migration Now starts migration manually; on subsequent runs only changes since the previous migration are moved."
+    },
+    {
+      "kind": "limit",
+      "text": "Migration tool cannot run if target environment is being upgraded; disable migration, upgrade, then set it up again."
+    },
+    {
+      "kind": "fact",
+      "text": "Reset Cloud Data clears all cloud tenant data to restart the migration process from the beginning."
+    },
+    {
+      "kind": "fact",
+      "text": "Both web client and cloud migration API offer options for managing migration setup and data movement."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

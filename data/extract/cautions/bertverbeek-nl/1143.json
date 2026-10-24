@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/bertverbeek-nl/1143",
+  "page_id": "post/bertverbeek-nl/1143",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "Please mention that this feature is still in preview in bc2adls but also in Microsoft Fabric!",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "If you do a reset of the table the number will also be reset!",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002689,
+    "posts_in_call": 4
+  }
+}

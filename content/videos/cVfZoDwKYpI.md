@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:16:41.310Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -92,6 +92,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report
+      title: Create and Submit Expense Reports
+      label: possibly related
+      why: names Page 6910 "Expense Report"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-post-reports
+      title: Post Expense Reports in Business Central
+      label: possibly related
+      why: names Page 6910 "Expense Report"
+      by: code
 video_id: cVfZoDwKYpI
 channel: yt-mibuso
 source_name: mibuso.com / BC TechDays
@@ -191,6 +202,31 @@ chapters:
     title: User Feedback Mechanisms at Expense Level
   - t: 4289
     title: Public Preview Status and Geographic Availability
+cautions:
+  - kind: preview-disclaimer
+    quote: It's still in preview will be for a little while
+    t: 46
+  - kind: preview-disclaimer
+    quote: We're even working on like truly policy validation from written policies. We're not quite there yet.
+    t: 1192
+  - kind: preview-disclaimer
+    quote: if you feel that this doesn't fit your need or maybe you want them configurable because now are hardcoded please ...
+    t: 2751
+  - kind: preview-disclaimer
+    quote: as we speak right now uh we are in public preview
+    t: 2937
+  - kind: preview-disclaimer
+    quote: there are few things that you still have to do manually. For example, setting the uh for example the mileage ...
+    t: 2953
+  - kind: preview-disclaimer
+    quote: this is our goal uh on our speedboard uh we want to do in in coming months
+    t: 2973
+  - kind: preview-disclaimer
+    quote: pretty soon we will also have the mobile client as well
+    t: 3113
+  - kind: preview-disclaimer
+    quote: we are working for the policies as well uh which will come uh pretty soon
+    t: 3781
 features:
   - name: Expense Agent
     status: preview
@@ -696,5 +732,12 @@ Not found in BC28-30: page "expense agent setup page", page "agent consumption p
 - [1:08:45](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=4125s) coming-later: pretty soon uh the expense users will also be able to attach a project from the web app as well. ...
 - [1:10:05](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=4205s) preview: this is a new and still in public preview
 - [1:12:00](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=4320s) coming-later: we are in US only. More regions will come next month
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Create and Submit Expense Reports](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report) — possibly related: names Page 6910 "Expense Report"
+- [Post Expense Reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-post-reports) — possibly related: names Page 6910 "Expense Report"
 
 Presenters (as heard): Christian, Casim, Michael, Cyprin, Claus, Cloudu, Sepan, Kasim.

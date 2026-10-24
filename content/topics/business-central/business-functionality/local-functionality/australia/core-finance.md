@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:16.908Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,7 +86,7 @@ narrative: generated
 
 > Core finance for the Australian version of Business Central covers distribution amounts, balance sheet and income statement reports, and business unit setup for Business Activity Statements (BAS). It answers questions on Australia-specific financial reporting and BAS group consolidation.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Core finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -110,6 +110,7 @@ The pages are independent tasks and have no subtopics. Start with the BAS busine
 - [Print balance sheet reports [AU]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-balance-sheet-reports): Use the Balance Sheet report to view the company's balance sheet in the Australian version.
 - [Print income statements [AU]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-income-statements): Learn how to view the company's annual income statement in the Australian version.
 - [Set Up Business Units for Business Activity Statements (AU)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements): Learn how to consolidate the financial statements of various companies into one financial statement.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md)
 
 ## Videos, posts and code changes
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:12.291Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -135,6 +135,7 @@ This section covers how project professionals analyze and monitor projects in Bu
 - [Monitor project progress and performance](https://learn.microsoft.com/dynamics365/business-central/projects-how-monitor-progress-performance): Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of projects while they're ongoing.
 - [Project Reports](https://learn.microsoft.com/dynamics365/business-central/project-reports): See which project reports are available in the standard version of Business Central so that you can keep track of your business.
 - [Record Consumption or Usage of Project Resources and Items](https://learn.microsoft.com/dynamics365/business-central/projects-how-record-job-usage): This article describes how to record the consumption or use of items or resources for projects in project management.
+  - In the observatory: [Page 5703 "Location Card"](../../../../objects/page/5703.md), [Page 5779 "Warehouse Pick"](../../../../objects/page/5779.md), [Page 7377 "Inventory Pick"](../../../../objects/page/7377.md), [Report 1002 "Post Inventory Cost to G/L"](../../../../objects/report/1002.md)
 
 ## Business Central pages and reports
 

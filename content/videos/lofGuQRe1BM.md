@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:03:46.836Z"
   flags: []
 generated:
-  at: "2026-10-07T23:03:46.884Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -126,6 +126,19 @@ chapters:
     title: Resources and HTTP Client Methods
   - t: 545
     title: Ternary Operator Introduction
+cautions:
+  - kind: preview-disclaimer
+    quote: there's a new page type called configuration dialogue it's part of our AI investment for now you cannot use it until we get this done
+    t: 68
+  - kind: preview-disclaimer
+    quote: the feature is under development and cannot be used
+    t: 88
+  - kind: preview-disclaimer
+    quote: not quite ready yet for consumption
+    t: 491
+  - kind: preview-disclaimer
+    quote: this one is not ready for use yet so more to come later
+    t: 511
 features:
   - name: Optimized for Text Search Property
     status: unclear

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:53:53.706Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -343,7 +343,7 @@ narrative: generated
 
 > Administration for Business Central on-premises covers the tools and setup tasks for running a deployment: Administration Shell and Administration Center, database authentication, encryption, session timeout, Entra ID registration, Key Vaults, Excel and Outlook add-ins, and Dynamics 365 Sales preparation. It answers how-to questions about configuring and connecting an on-premises environment.
 
-Path: [Business Central on-premises](../business-central-on-premises.md) > Administration · tier official · system administration · narrative **unreviewed** (model text not yet checked)
+Path: [Business Central on-premises](../business-central-on-premises.md) > Administration · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -353,7 +353,7 @@ Start with the Administration Shell or Administration Center to learn how instan
 
 ## Key points
 
-- Administration Shell offers PowerShell cmdlets for server instances, web server instances, databases, users and extensions, and supports PowerShell 7 (version 28, 2026 release wave 1).
+- Administration Shell offers PowerShell cmdlets for server instances, web server instances, databases, users and extensions, and supports PowerShell 7.
 - Administration Center is an MMC snap-in for creating server instances, managing tenants and connecting to remote servers.
 - Database authentication uses SQL Server authentication with an encryption key, for single-tenant and multitenant setups.
 - Each tenant supports one encryption key, managed by export, import and delete.
@@ -374,15 +374,87 @@ Start with the Administration Shell or Administration Center to learn how instan
 ## More Learn pages
 
 - [Business Central Administration Shell](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-shell): Read about the PowerShell cmdlets managing Business Central Server instances and extensions for on-premises deployments.
+  - Prerequisite: Must be member of local administrator group on the computer to run Administration Shell.
+  - Status: PowerShell 7 is supported; Windows PowerShell 5 compatibility layer available in version 28 and earlier only.
+  - Three PowerShell modules available: Microsoft.BusinessCentral.Management for server instances, Microsoft.BusinessCentral.Apps.Management for extensions, NAVWebClientManagement for web instances.
+  - Step: Install Administration Shell via Business Central Setup wizard by choosing Install Demo or Server option from setup.exe.
+  - Step: Run shell from Start menu by searching, right-clicking, and selecting Run as administrator.
+  - Step: For remote administration, enable PowerShell Remoting on remote computer, then use Enter-PSSession to connect locally.
+  - Limit: PowerShell 7 based remoting not supported in version 28 due to known issue; must use Windows PowerShell 5.
+  - Get-Help cmdlet syntax changed in version 24; local help unavailable, use Get-Help with -online flag for online documentation.
 - [Configure Business Central Database Authentication](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-sql-server-authentication): This article describes how to configure SQL Server authentication between the Dynamics Business Central instance and a database.
+  - Business Central supports Windows authentication and SQL Server authentication for database access.
+  - Windows authentication is configured by default on server instance and database.
+  - SQL Server authentication requires an encryption key to protect credentials.
+  - Step: Create encryption key using New-NAVEncryptionKey cmdlet in admin shell.
+  - Step: Import encryption key using Import-NAVEncryptionKey cmdlet on server instance and database.
+  - Step: Configure SQL Server instance to mixed authentication mode to support SQL authentication.
+  - Step: Create SQL login and map to database user with relevant privileges.
+  - Encryption key file is stored in ProgramData with filename serverinstance.key.
 - [Configure Session Timeout](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/understanding-session-timeouts): When you start a Business Central client, a connection is established, and a corresponding session is added to the Business Central Server.
+  - ClientServicesIdleClientTimeout on server controls inactive connection timeout; defaults to MaxValue (no limit).
+  - SessionTimeout on web server controls inactive session timeout; defaults to 20 minutes.
+  - Session closes based on whichever timeout setting has the shortest period between server and web server.
+  - Status: ClientServicesReconnectPeriod applies to Business Central 2022 version 20 and earlier only.
+  - In Business Central 2023 and later, sessions terminate instantly when client loses connection; reconnection isn't supported.
+  - Use Set-NAVServerConfiguration and Set-NAVWebServerInstanceConfiguration PowerShell commands to modify timeout settings.
+  - If active session exists during timeout, server aborts current call stack, rolls back uncommitted transactions, and closes session.
 - [Encrypting Data in Dynamics 365 for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data): Learn about data encryption and how to use it to add security in Dynamics 365 Business Central.
 - [Microsoft Dynamics 365 Business Central Administration Center Tool](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-tool): Read about the MMC snap-in for creating and managing Business Central Server instances for on-premises deployments.
+  - Business Central Administration Tool is an MMC snap-in for creating and managing server instances.
+  - Status: Generally available.
+  - Prerequisite: Only administrator group members on the computer can use the tool.
+  - Not supported for multi-user environments.
+  - Step: Install via setup by choosing Server Option or Administration Tool under custom options.
+  - Step: Run from Start menu or open MMC and add the Business Central snap-in.
+  - Left pane shows server computers and instances; center pane displays instance settings or status.
+  - Right pane shows available actions; Windows PowerShell History pane lists equivalent commands for tasks performed.
 - [Preparing for Dynamics 365 for Sales for Integration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration): Learn how to set up and configure Dynamics 365 Sales for integrating with Business Central.
+  - Prerequisite: Must have System Administrator security role or equivalent privileges in Dynamics 365 Sales to complete integration setup tasks.
+  - Step: Create non-interactive user account in Dynamics 365 Sales with privileges to write, read, modify, delete integrated entities data.
+  - Step: Install Business Central integration solution by copying DynamicsNAVIntegrationSolution zip file from CrmCustomization folder on installation media.
+  - Use DynamicsNAVIntegrationSolution_v8.zip for CRM version 8.x and earlier; use _v9.zip for version 9.0 and later.
+  - Step: Import solution zip in Dynamics 365 Sales to add Business Central Connection and Account Statistics entities and integration security roles.
+  - Permissions: Assign Business Central Integration Administrator role to connection user and Business Central Integration User role to users needing integration features.
+  - Do not use connection user account to manually modify integrated entity records in Dynamics 365 Sales as changes will be ignored by synchronization.
 - [Register Business Central On-Premises in Microsoft Entra ID](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/register-app-azure): Register Business Central on-premises in Microsoft Entra ID to integrate with online services like Power BI and Universal Print.
+  - Prerequisite: On-premises Business Central needs a Microsoft Entra tenant with at least one user to enable service integrations.
+  - Prerequisite: Web client and OData/SOAP endpoints must be secured with valid production certificates and exposed via HTTPS.
+  - Prerequisite: You need an Azure portal account with Application Developer role to register applications in Microsoft Entra ID.
+  - Step: Sign in to Microsoft Entra admin center and register a Business Central application specifying name, account types, and redirect URI.
+  - Step: Create a client secret for the registered application and copy the secret value immediately as it becomes inaccessible later.
+  - Step: Grant delegated permissions to access required service APIs like Power BI, Exchange, or SharePoint depending on your needs.
+  - Step: In Business Central, run Assisted Setup for Microsoft Entra accounts and enter the redirect URL, application ID, and client secret.
+  - Business Central online is automatically configured; manual Entra registration applies only to on-premises deployments.
 - [Set up the add-ins for Outlook in Business Central on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/Setting-up-Office-Add-Ins-Outlook-Inbox): Learn how to configure your Business Central on-premises solution so that users can work with Business Central data in Outlook.
+  - Status: Generally available for Business Central on-premises with Exchange Server or Exchange Online.
+  - Contact Insights add-in provides customer and vendor information in Outlook and enables sending business documents.
+  - Document View add-in provides direct link from email to actual business document in Business Central.
+  - Prerequisite: From February 1 2025, Exchange Online requires Outlook add-ins to use Nested App Authentication.
+  - Three deployment options available: Centralized Deployment, Automated Individual Deployment, Manual Individual Deployment.
+  - Limit: Add-in works with single Business Central environment; to use with different environment reinstall add-in there.
+  - Centralized Deployment can take up to 24 hours before users see add-in in Outlook app.
+  - In the observatory: [Page 6103 "E-Document Services"](../../../objects/page/6103.md), [Page 663 "Approval User Setup"](../../../objects/page/663.md)
 - [Setting up App Key Vaults for Business Central on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault-onprem): Describes how to set up App Key Vault with Business Central on-premises.
+  - Prerequisite: Azure subscription with Active Directory tenant required to set up key vaults for Business Central on-premises.
+  - Prerequisite: Security certificate required for registering application in Microsoft Entra ID; self-signed certificate acceptable for test environments.
+  - Step: Create one or more Azure Key Vaults and add secrets using Azure portal, Azure CLI, or other methods; extension can use one or two vaults.
+  - Step: Register Microsoft Entra application for reading key vault secrets with certificate and specify Accounts in this organizational directory only.
+  - Step: Grant key vault reader application permission to read secrets by adding Get secret permission or assigning Key Vault Secrets User role.
+  - Step: Configure Server instance with certificate store location, name, thumbprint, client ID, and publisher validation setting for key vault access.
+  - Enable Publisher Validation to block extensions from reading secrets from other publishers' key vaults; extensions need tenant ID from Publish-NAVApp.
+  - Permissions: Service account running Server instance must have permission to access certificate private key for successful key vault authentication.
 - [Setting up the Excel Add-In for Editing Data](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin): Learn about how to configure the Excel add-in so users can edit data in Excel and push back to Business Central.
+  - Prerequisite: Microsoft Entra ID must be configured for authentication of the server instance, clients, and users.
+  - Prerequisite: OData must be enabled and use Secure Sockets Layer (SSL) for authentication.
+  - Prerequisite: Web server must be configured to use SSL (https) for secure connections.
+  - Prerequisite: Client computers must have a supported version of Excel installed.
+  - Step: Expose the Business Central Web API in Microsoft Entra ID by setting the Application ID URI on the Expose API page.
+  - Step: Register a separate Microsoft Entra application for the Excel add-in and add optional claims for email and upn.
+  - Step: Configure the server instance by setting Excel add-in client ID, Web Client Base URL, OData Base URL, and enabling OData and API services.
+  - The add-in enables the Edit in Excel action on list pages, allowing users to push changed data back to Business Central, unlike the basic Open in Excel action.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Business Central pages and reports
 

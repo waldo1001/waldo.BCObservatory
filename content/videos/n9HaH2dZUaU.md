@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:49:57.804Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:57.843Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -124,6 +124,10 @@ chapters:
     title: Transparency Controls and Audit Features
   - t: 1067
     title: Conclusion and Next Steps
+cautions:
+  - kind: preview-disclaimer
+    quote: This happens through preview, uh but also functionality built into Business Central environments like change logs and field monitoring
+    t: 906
 features:
   - name: Role-Based Access Control (RBAC)
     status: unclear

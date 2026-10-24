@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/waldo-be/317845",
+  "page_id": "post/waldo-be/317845",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Sending telemetry with an app on AppSource that's not yours, is a risk: where do you send your Telemetry to??",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "I don't like the thought users being able to switch off Telemetry.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00362,
+    "posts_in_call": 4
+  }
+}

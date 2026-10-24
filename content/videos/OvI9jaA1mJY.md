@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:49:16.479Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:16.518Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,7 +73,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/576776
   topics: []
   localizations: []
   videos: []
@@ -102,6 +103,10 @@ chapters:
     title: Agent Discovery and Accessibility
   - t: 142
     title: Global Availability and Feedback
+cautions:
+  - kind: preview-disclaimer
+    quote: some of these features may not necessarily be part of the major release, but will be available in an upcoming minor release
+    t: 187
 features:
   - name: One-to-one invoice and purchase order line matching
     status: unclear
@@ -139,10 +144,12 @@ features:
     verified: false
     status_source: video
   - name: Single invoice processing without setup
-    status: unclear
+    status: ga
     t: 130
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576776"
   - name: Global availability and multi-language support
     status: ga
     t: 142
@@ -219,9 +226,11 @@ The video also covers the inbound e-documents list, which shows more information
 | Payables Agent free trial and credit-based pricing | status not stated | [1:14](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=74s) |  |
 | Analysis Assist for cost projection | status not stated | [1:40](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=100s) |  |
 | Agent discovery improvements | status not stated | [1:50](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=110s) |  |
-| Single invoice processing without setup | status not stated | [2:10](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=130s) |  |
+| Single invoice processing without setup | generally available (roadmap [Try Payables Agent for free without setting up email](../features/576776.md)) | [2:10](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=130s) |  |
 | Global availability and multi-language support | generally available | [2:22](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=142s) | "the Payables agent is now available in all the countries and regions where Business Central is available and is supported in all the languages" ([2:22](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=142s)) |
 | In-document feedback submission | status not stated | [2:42](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=162s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

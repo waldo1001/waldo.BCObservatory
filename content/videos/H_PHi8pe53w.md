@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:18:38.540Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,6 +121,12 @@ chapters:
     title: Key takeaways and current status
   - t: 943
     title: Closing remarks and call to action
+cautions:
+  - kind: preview-disclaimer
+    quote: Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior once the GA is announced.
+    t: 943
+    versions:
+      - "29"
 features:
   - name: Default implementation for AL interfaces
     status: ga

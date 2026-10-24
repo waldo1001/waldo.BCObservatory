@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:00:43.561Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -94,6 +94,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/vnaySMIKnp8
+      title: "What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 5510 "Production Journal"
+      by: code
 video_id: DHODFt_jVO4
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -241,3 +247,9 @@ Not found in BC28-30: page "stock keeping unit card", page "manufacturing setup 
 - [2:08](https://www.youtube.com/watch?v=DHODFt_jVO4&t=128s) "accurate and explainable costing is a key feature of business Central what can we do better in this release"
 - [2:08](https://www.youtube.com/watch?v=DHODFt_jVO4&t=128s) "you can also include non-inventory cost into the produ C cost calculation"
 - [3:26](https://www.youtube.com/watch?v=DHODFt_jVO4&t=206s) "where you can view consumption entries with non-inventory costs as well as the cost of finished items"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)](../videos/vnaySMIKnp8.md) — possibly related: both name Page 5510 "Production Journal"

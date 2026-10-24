@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:55:47.261Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:47.322Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -264,6 +264,13 @@ chapters:
     title: Threat Modeling, CISO Workshops, and Identity Management
   - t: 2261
     title: Phishing, AI in Security, Incident Response, and Recommendations
+cautions:
+  - kind: preview-disclaimer
+    quote: we maintained that even in the age of AI where there's enormous pressure to push out AI features
+    t: 1030
+  - kind: preview-disclaimer
+    quote: I've now got a a co-pilot threat modeler with me that's watching the transcript
+    t: 2446
 features:
   - name: Secure by Default Initiative
     status: unclear

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:13.238Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -141,13 +141,18 @@ Start with the general setup page, then the calculation page. Use the 194Q, thre
 ## Learn pages
 
 - [Payment of TDS to Government Authorities](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-TDS-Payment-to-Authority): Learn how to pay Tax Deducted at Source (TDS) to government authorities in Business Central.
+  - In the observatory: [Page 18550 "Bank Payment Voucher (IN)"](../../../../../objects/page/18550-in.md), [Page 256 "Payment Journal"](../../../../../objects/page/256.md), [Page 39 "General Journal"](../../../../../objects/page/39.md)
 - [Setting Up Tax Deducted at Source (TDS) on purchase of goods under Section 194Q](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-194Q-Section-Overview): Learn about the required setup steps for Tax Deducted at Source (TDS) under Section 194Q, in accordance with the Income Tax Act, 1961.
 - [Setting up Tax Deducted at Source, as per the provisions of the Income Tax Act, 1961](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Overview): Describes the basic setups that are required by the provisions of the Income Tax Act, 1961.
 - [TDS Adjustments](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Adjustment-Entries): Learn how to make corrections to TDS amounts, rates, or base amounts before payment to government authorities in Business Central.
+  - In the observatory: [Page 18747 "TDS Adjustment Journal (IN)"](../../../../../objects/page/18747-in.md)
 - [TDS calculation and transactions as per Section 194Q](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-194Q-Transactions): Explains how TDS is calculated and processed for transactions under Section 194Q.
+  - In the observatory: [Page 256 "Payment Journal"](../../../../../objects/page/256.md), [Page 39 "General Journal"](../../../../../objects/page/39.md), [Page 50 "Purchase Order"](../../../../../objects/page/50.md), [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md)
 - [TDS calculation considering Threshold limits](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Threshold): Explains how TDS is calculated when threshold limits are applied, including examples and GL entries.
 - [TDS calculation on Purchase and Payment Transactions](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Transactions): Learn how TDS is calculated on purchase and payment transactions in Business Central for India.
+  - In the observatory: [Page 254 "Purchase Journal"](../../../../../objects/page/254.md), [Page 39 "General Journal"](../../../../../objects/page/39.md), [Page 50 "Purchase Order"](../../../../../objects/page/50.md), [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md)
 - [TDS on Provisional Entries](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Provisional-Entries): Learn how TDS is applied to provisional entries in Business Central India.
+  - In the observatory: [Page 18769 "Provisional Entries (IN)"](../../../../../objects/page/18769-in.md), [Page 254 "Purchase Journal"](../../../../../objects/page/254.md)
 
 ## Videos, posts and code changes
 

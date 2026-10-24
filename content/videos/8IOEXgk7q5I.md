@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:00:59.981Z"
   flags: []
 generated:
-  at: "2026-10-07T23:01:00.030Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -110,6 +110,42 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/Fk6kWTe3f2Y
+      title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/thedynamicsexplorer-com/37371
+      title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/thinkaboutit-be/7537
+      title: "How Do I: Replace Reports with Analysis Mode in Business Central"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-how-to-remove-and-reapply-item-entries
+      title: Remove and reapply item entries
+      label: possibly related
+      why: names Page 506 "Item Application Entries"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-track-inventory-costs
+      title: Track item cost adjustments
+      label: possibly related
+      why: names Page 506 "Item Application Entries"
+      by: code
+    - to: post/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570
+      title: "Weekly Review: Business Central AL Development – June 28–July 4, 2026"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: video/Afv-r-eDt90
+      title: "What's New: Enhanced Analysis Mode (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
 video_id: 8IOEXgk7q5I
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -277,5 +313,17 @@ Not found in BC28-30: page "Inventory Cost Adjustment".
 - [4:48](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=288s) "Co adjustment can sometimes take longer time than expected and the reasons for that aren't always obvious the cost adjustment Tracer tool will help"
 - [5:08](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=308s) "while the course adjustment is in process it records events processed entries and the information about these entries"
 - [6:06](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=366s) "we introduced the inventory course adjustment tool a year ago and since then we have continued improving its perform performance and features"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [How Do I: Replace Reports with Analysis Mode in Business Central](../posts/thinkaboutit-be/7537.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Remove and reapply item entries](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-remove-and-reapply-item-entries) — possibly related: names Page 506 "Item Application Entries"
+- [Track item cost adjustments](https://learn.microsoft.com/dynamics365/business-central/finance-track-inventory-costs) — possibly related: names Page 506 "Item Application Entries"
+- [Weekly Review: Business Central AL Development – June 28–July 4, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [What's New: Enhanced Analysis Mode (2026 release wave 1)](../videos/Afv-r-eDt90.md) — possibly related: both name Page 38 "Item Ledger Entries"
 
 Presenters (as heard): Alexa Driansky.

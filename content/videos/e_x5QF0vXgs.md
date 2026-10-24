@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:46:54.021Z"
   flags: []
 generated:
-  at: "2026-10-07T22:46:54.061Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -196,6 +196,10 @@ chapters:
     title: Submitting expenses to reports
   - t: 325
     title: Release timeline and conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: you can expect this new preview mode very soon
+    t: 336
 features:
   - name: Expense Agent mobile app
     status: preview

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:54:51.977Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -62,6 +62,42 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44
+      title: Approval Workflows for Item Journals and Requisition Worksheets
+      label: possibly related
+      why: both name Page 1500 "Workflows"
+      by: code
+    - to: video/_ynMUzh956w
+      title: "Introducing: Sustainability in Business Central (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-journal
+      title: Record sustainability entries
+      label: possibly related
+      why: names Page 6219 "Sustainability Journal"
+      by: code
+    - to: video/UKVp28M5TtU
+      title: "What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: video/i-MTLNYwA9o
+      title: "What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: video/bHXEbtsx0JY
+      title: "What's New: Sustainability Copilot (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/sustainability-carbon-credit
+      title: Work with carbon credits
+      label: possibly related
+      why: names Page 6219 "Sustainability Journal"
+      by: code
 video_id: XYr0xwgpomA
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -176,5 +212,17 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [0:31](https://www.youtube.com/watch?v=XYr0xwgpomA&t=31s) "for bigger companies who need to report they would like to have this approval process to improve compliance and control"
 - [1:25](https://www.youtube.com/watch?v=XYr0xwgpomA&t=85s) "you can run from sustainability journal approval only for one batch. So not per line, only for whole batch"
 - [1:35](https://www.youtube.com/watch?v=XYr0xwgpomA&t=95s) "user can choose to send approval request or to cancel approval request"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Approval Workflows for Item Journals and Requisition Worksheets](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md) — possibly related: both name Page 1500 "Workflows"
+- [Introducing: Sustainability in Business Central (2024 release wave 1)](../videos/_ynMUzh956w.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [Record sustainability entries](https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-journal) — possibly related: names Page 6219 "Sustainability Journal"
+- [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../videos/UKVp28M5TtU.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)](../videos/i-MTLNYwA9o.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [What's New: Sustainability Copilot (2025 release wave 2)](../videos/bHXEbtsx0JY.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [Work with carbon credits](https://learn.microsoft.com/dynamics365/business-central/sustainability-carbon-credit) — possibly related: names Page 6219 "Sustainability Journal"
 
 Presenters (as heard): Alexander, Jacob Bang.

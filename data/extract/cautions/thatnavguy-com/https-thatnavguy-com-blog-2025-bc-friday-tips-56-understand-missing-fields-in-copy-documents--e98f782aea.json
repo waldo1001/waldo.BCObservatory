@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/",
+  "page_id": "post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "not all fields in a Sales Order transfer to the Posted Sales Shipment or Posted Sales Invoice",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Sales Header"
+        },
+        {
+          "type": "table",
+          "name": "Sales Line"
+        },
+        {
+          "type": "table",
+          "name": "Sales Shipment Header"
+        },
+        {
+          "type": "table",
+          "name": "Sales Invoice Header"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Copying from a Posted Sales Invoice can result in key fields being left blank",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Posted Sales Invoice"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004108,
+    "posts_in_call": 4
+  }
+}

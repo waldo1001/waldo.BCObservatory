@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6f1ff7c877e7bd9691609ba8eec02334298517a260fa2afd4b1b70fa14cd77a5
@@ -199,6 +199,7 @@ Path: [Deprecated features](../deprecated-features.md) > Local functionality · 
 - [Iceland Features that are Moved, Removed, or Replaced \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-is): We are constantly streamlining and adjusting our app in-step with market developments. Read about the features for Iceland that we have moved, removed, or replaced.
 - [Italian features that are moved, removed, or replaced \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-it): We're constantly streamlining and adjusting our app in-step with market developments. Read about the features for Italy that we have moved, removed, or replaced.
 - [Mexican features that are moved, removed, or replaced \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-mx): We're constantly streamlining and adjusting our app in-step with market developments. Read about the features for Mexico that we have moved, removed, or replaced.
+  - In the observatory: [Report 120 "Aged Accounts Receivable"](../../../objects/report/120.md), [Report 1316 "Standard Statement"](../../../objects/report/1316.md), [Report 153 "Customer Statement"](../../../objects/report/153.md), [Report 322 "Aged Accounts Payable"](../../../objects/report/322.md)
 - [Norwegian Features that are Moved, Removed, or Replaced \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-no): We are constantly streamlining and adjusting our app in-step with market developments. Read about the features for Norway that we have moved, removed, or replaced.
 - [Russian features that are moved, removed, or replaced](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-ru): We're constantly streamlining and adjusting our app in-step with market developments. Read about the features for Russia that we have moved, removed, or replaced.
 - [Swedish Features that are Moved, Removed, or Replaced \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-se): We are constantly streamlining and adjusting our app in-step with market developments. Read about the features for Sweden that we have moved, removed, or replaced.

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-data-replication-run.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run",
+  "title": "Run and manage data replication",
+  "blob": "3d274b99de8d052bac03247091f30661d1e52440",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Cloud migration setup must be completed before data replication can run"
+    },
+    {
+      "kind": "step",
+      "text": "Run diagnostics first to identify and fix issues before actual replication starts"
+    },
+    {
+      "kind": "step",
+      "text": "Open Cloud Migration Management page and select Run data replication to start migrating data"
+    },
+    {
+      "kind": "step",
+      "text": "Monitor progress by checking Migration Log list and status fields on Cloud Migration Management page"
+    },
+    {
+      "kind": "fact",
+      "text": "When data replication is stopped, any data already migrated remains in the online database"
+    },
+    {
+      "kind": "fact",
+      "text": "Generally only changed data since last replication is replicated on rerun"
+    },
+    {
+      "kind": "limit",
+      "text": "Data replication cannot stop mid-table, waits until current table completes"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005231,
+      "pages_in_call": 10
+    }
+  ]
+}

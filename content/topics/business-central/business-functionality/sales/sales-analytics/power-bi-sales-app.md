@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:39.116Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -325,6 +325,7 @@ Start with the Power BI Sales app page for the overall picture. Then open the re
 - [Opportunity Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview): The Opportunity Overview report provides a comprehensive view of sales opportunities, including the number of opportunities, estimated values, sales cycle, and a breakdown of potential value by location.
 - [Power BI Sales app](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app): The Power BI Sales app provides comprehensive sales analytics to stakeholders at all levels of your organization.
 - [Power BI Sales app semantic model](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model): Get an overview of all tables and fields in the Sales App Semantic Model.
+  - In the observatory: [Table 113 "Sales Invoice Line"](../../../../../objects/table/113.md), [Table 13 "Salesperson/Purchaser"](../../../../../objects/table/13.md), [Table 14 "Location"](../../../../../objects/table/14.md), [Table 15 "G/L Account"](../../../../../objects/table/15.md), [Table 156 "Resource"](../../../../../objects/table/156.md), [Table 167 "Job"](../../../../../objects/table/167.md)
 - [Return Order Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview): The Return Order Overview report tracks and analyzes return orders, providing insights into the financial effect on the organization.
 - [Sales by Customer (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-customer): The *Sales by Customer* report gives a clear picture of your organization's customers and their sales activities.
 - [Sales by Item (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-item): The Sales by Item report gives a clear picture of your organization's item sales.
@@ -336,6 +337,7 @@ Start with the Power BI Sales app page for the overall picture. Then open the re
 - [Sales Forecasting (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-forecasting): The Sales Forecasting report provides insights into your organization's sales trends and future sales performance.
 - [Sales KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-kpis): Get an overview of all the KPIs and measures in the semantic model for the Power BI Sales app.
 - [Sales Month-to-Date (MTD) (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-month-to-date): The *Month-to-Date (MTD)* report allows you to monitor the progress of their sales revenue for the current month
+  - In the observatory: [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 37 "Sales Line"](../../../../../objects/table/37.md), [Table 5802 "Value Entry"](../../../../../objects/table/5802.md)
 - [Sales Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-overview): The Sales Overview report provides a high-level summary of your organization's sales activities.
 - [Sales Period-Over-Period Growth (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-period-over-period-growth): The Period-Over-Period Growth report provides valuable insights into your organization's sales performance over time.
 - [Sales Quote Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-quote-overview): The Sales Quote Overview report provides detailed information on your organization's Sales Quote activities.

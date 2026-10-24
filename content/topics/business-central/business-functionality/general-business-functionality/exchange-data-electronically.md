@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:17:22.451Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -295,6 +295,7 @@ Start with the two introductory pages to understand the framework and definition
 ## More Learn pages
 
 - [About the Data Exchange Framework](https://learn.microsoft.com/dynamics365/business-central/across-about-the-data-exchange-framework): Learn how the Data Exchange Framework enables you to exchange business documents, such as invoices, with partners and authorities in Business Central.
+  - In the observatory: [Page 1207 "Direct Debit Collections"](../../../../objects/page/1207.md), [Page 1290 "Payment Reconciliation Journal"](../../../../objects/page/1290.md), [Page 190 "Incoming Documents"](../../../../objects/page/190.md), [Page 256 "Payment Journal"](../../../../objects/page/256.md), [Page 379 "Bank Acc. Reconciliation"](../../../../objects/page/379.md), [Page 9610 "XML Schema Viewer"](../../../../objects/page/9610.md)
 - [Electronic documents in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-data-exchange): Overview of using the Data Exchange Framework in Business Central to exchange business documents, including bank files and currency exchange rates.
 
 ## Business Central pages and reports

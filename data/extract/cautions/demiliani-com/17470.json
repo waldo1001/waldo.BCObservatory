@@ -1,0 +1,41 @@
+{
+  "item_id": "blog/demiliani-com/17470",
+  "page_id": "post/demiliani-com/17470",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "You must download a fresh license file to unlock the objects of the new version.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "If a key expires and is not replaced, the on-premises environment stops working.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Using it past expiry, even during the buffer period, is not allowed.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005234,
+    "posts_in_call": 4
+  }
+}

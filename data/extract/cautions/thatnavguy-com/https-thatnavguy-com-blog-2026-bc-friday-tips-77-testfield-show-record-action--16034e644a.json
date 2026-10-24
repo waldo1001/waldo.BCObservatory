@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-77-testfield-show-record-action/",
+  "page_id": "post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "But tables with compound primary keys, such as Sales Header, do not.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Sales Header"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003148,
+    "posts_in_call": 4
+  }
+}

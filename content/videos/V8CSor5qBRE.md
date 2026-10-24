@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:04:48.860Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:48.907Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -148,6 +148,13 @@ chapters:
     title: Theme documentation and small improvements
   - t: 1394
     title: Font support and alignment fixes
+cautions:
+  - kind: preview-disclaimer
+    quote: in my version it states preview in your version when you watch this recording there will be no preview it will just be the the the normal published version
+    t: 120
+  - kind: preview-disclaimer
+    quote: we'll make sure that these fonts are also available in the business Central service by October
+    t: 1463
 features:
   - name: Word Add-in for Document Reports
     status: unclear

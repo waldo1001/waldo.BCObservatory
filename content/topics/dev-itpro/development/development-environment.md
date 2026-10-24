@@ -2,17 +2,17 @@
 id: topic/dev-itpro/development/development-environment
 type: topic
 title: Development environment
-summary: The Development environment section covers setting up and using the AL development environment for Business Central in Visual Studio Code. It answers questions about configuration, projects and workspaces, compiling, publishing, debugging, testing, sandboxes, app packaging, and supporting tools.
+summary: The Development environment section covers setting up and using the AL development environment for Business Central in Visual Studio Code. It answers questions about environment configuration, projects and workspaces, code analysis, compiling, publishing, debugging, testing, sandboxes, app packaging with app.json, and supporting tools such as Page Inspection and Txt2Al.
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:53:46.729Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -355,13 +355,13 @@ narrative: generated
 
 # Development environment
 
-> The Development environment section covers setting up and using the AL development environment for Business Central in Visual Studio Code. It answers questions about configuration, projects and workspaces, compiling, publishing, debugging, testing, sandboxes, app packaging, and supporting tools.
+> The Development environment section covers setting up and using the AL development environment for Business Central in Visual Studio Code. It answers questions about environment configuration, projects and workspaces, code analysis, compiling, publishing, debugging, testing, sandboxes, app packaging with app.json, and supporting tools such as Page Inspection and Txt2Al.
 
-Path: [Development](../development.md) > Development environment · tier official · system administration · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../development.md) > Development environment · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section groups everything a developer needs to build AL extensions for Business Central. It starts with configuring the environment (VS Code AL Language extension settings, performance tuning, container and GitHub Codespaces setups, runtime targeting, resource exposure policy) and then moves to projects and workspaces, including multi-root workspaces and project references in app.json.
+This section groups the tasks involved in building AL extensions for Business Central in Visual Studio Code. It starts with configuring the environment: AL Language extension settings, performance tuning, container and GitHub Codespaces setups, runtime targeting, and resource exposure policy. Next come projects and workspaces, including multi-root workspaces and project references in app.json. It then covers code analysis; compiling, publishing, debugging and signing; and testing, from test codeunits through to UI acceptance testing with page scripting. The rest covers online and container sandboxes, app identity and packaging in app.json, and other tools: Page Inspection, Txt2Al, and the table data viewer.
 
 ## Key points
 

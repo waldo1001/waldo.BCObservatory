@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:52:07.303Z"
   flags: []
 generated:
-  at: "2026-10-07T22:52:07.339Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,6 +116,19 @@ chapters:
     title: Notification Bar and Feature Discovery
   - t: 105
     title: Important Considerations and Limitations
+cautions:
+  - kind: preview-disclaimer
+    quote: Make sure that you read the information in the message box and that you are aware of the preview terms
+    t: 43
+  - kind: preview-disclaimer
+    quote: We display this notification bar to remind you that this is an early access preview environment
+    t: 79
+  - kind: preview-disclaimer
+    quote: We are working on adding capabilities so that you can easily discover new features inside these environments
+    t: 90
+  - kind: preview-disclaimer
+    quote: these environments are not meant to be used for production uh because they may be deleted without notice
+    t: 105
 features:
   - name: Early Access Preview Sandbox Environments
     status: preview

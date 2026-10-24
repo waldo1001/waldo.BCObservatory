@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:28.193Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -468,19 +468,27 @@ Start with "Customizing Business Central online using apps" and "Install and uni
 - [Display actionable insights in Role Centers](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-essential-business-insights): Learn how the Essential Business Insights extension rotates a series of business insights on Role Centers.
 - [Ideal Postcodes extension [UK]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes): Retrieve addresses for entities like customers, vendors, employees, and banks in the United Kingdom from the Ideal Postcodes service.
 - [Importing Payroll or Salary Data Using the Ceridian Payroll Extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-ceridian-payroll): Use this extension to import payroll transactions from the Ceridian HR/Payroll (US) and Ceridian PowerPay (Canada) services.
+  - In the observatory: [Page 39 "General Journal"](../../../../objects/page/39.md)
 - [Install and uninstall apps](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-install-uninstall): Learn how you can install and uninstall apps and extensions in Business Central.
 - [Microsoft Pay Standard](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-microsoft-pay-payments): The Microsoft Pay extension adds a Microsoft Pay link to your sales documents so customers can easily pay using Microsoft Pay.
 - [Payment Reconciliation With the Envestnet Yodlee Bank Feeds Extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-yodlee-bank-feeds): Describes the Envestnet Yodlee Bank Feeds extension, which links to bank accounts so you can and quickly reconcile payments.
 - [Payments and Reconciliations (DK) Extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-payments-reconciliation-formats-dk): This extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
+  - In the observatory: [Page 256 "Payment Journal"](../../../../objects/page/256.md), [Page 35603 "Vendors (RU)"](../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../objects/page/35630-ru.md), [Page 9308 "Purchase Invoices"](../../../../objects/page/9308.md)
 - [Predict late payments for sales documents](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-late-payment-prediction): This article explains how to use our predictive model to predict whether a customer will pay an invoice on time.
+  - In the observatory: [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md)
 - [QuickBooks Data Migration Extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-quickbooks-data-migration): Describes how to use the extension to import customers, vendors, items, and accounts from QuickBooks Desktop to Business Central.
 - [QuickBooks Online Data Migration Extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-quickbooks-online-data-migration): Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Business Central.
 - [Send Remittance Advice Extension \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-send-remittance-advice): Describes the Send Remittance Advice extension, which allows emailing and resending remittance advice from the payment journal and vendor ledger entries.
 - [Set Up and Use the Service Declaration Extension](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-use-service-declaration): Learn how to set up and use Service Declaration (Intrastat for Services) features to report service trade with companies in other EU countries/regions.
+  - In the observatory: [Page 5011 "Service Transaction Types"](../../../../objects/page/5011.md), [Table 5024 "Service Declaration Line"](../../../../objects/table/5024.md)
 - [The Image Analyzer Extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-image-analyzer): This extension lets you analyze images of contact persons and items to find attributes, so you can quickly assign them in Business Central.
+  - In the observatory: [Page 2020 "Image Analysis Setup"](../../../../objects/page/2020.md)
 - [The VAT Group Management extension for the United Kingdom](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-vat-group): You can engage with other businesses to form a VAT group where all members report VAT in a single return.
+  - In the observatory: [Page 743 "VAT Report Setup"](../../../../objects/page/743.md)
 - [Using the AMC banking 365 fundamentals extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-amc-banking): Learn how to easily exchange data with your banks by transforming data into the format that they require.
+  - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../objects/page/35630-ru.md)
 - [Using the C5 data migration extension \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-c5-data-migration): Use this extension to migrate customers, vendors, items, and general ledger accounts from Microsoft Dynamics C5 2012 to Business Central.
+  - In the observatory: [Page 1799 "Data Migration Overview"](../../../../objects/page/1799.md)
 - [Using the Company Hub](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub): Provides information about the Company Hub extension that you can use to manage work across multiple companies in Business Central.
 - [Using the PayPal Payments Standard Extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-paypal-payments-standard): This article describes how to use the standard extension to enable customers to make payments with PayPal.
 - [Using the QuickBooks Payroll file import extension \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-quickbooks-payroll): This article describes how to use the extension to import salary and wage transactions from QuickBooks.

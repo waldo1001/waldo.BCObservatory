@@ -1,0 +1,34 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2722",
+  "page_id": "post/aardvarklabs-blog/2722",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "You can NOT use Truncate on: Tables with OnDelete triggers or event subscriptions",
+      "objects": [],
+      "events": [
+        "OnDelete"
+      ],
+      "versions": [
+        "27"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "truncate locks the entire table until it is done",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002992,
+    "posts_in_call": 4
+  }
+}

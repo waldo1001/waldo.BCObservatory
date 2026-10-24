@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:42.379Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -194,6 +194,7 @@ Start here if you rely on one of these reports and need to know what it covers, 
 - [Work Center List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000759): Get a list of work center setup in your company, which can help you manage and schedule production activities efficiently.
 - [Work Center Load (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000783): Analyze the load on a work center.
 - [Work Center Load/Bar (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000785): Get a list of work centers that are overloaded according to the plan.
+  - In the observatory: [Report 99000785 "Work Center Load/Bar"](../../../../../objects/report/99000785.md)
 
 ## Business Central pages and reports
 

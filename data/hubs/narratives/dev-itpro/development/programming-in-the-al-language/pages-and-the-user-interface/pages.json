@@ -21,5 +21,16 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.037778
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:54:02.327Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 1 lists a 'move' keyword. The page summary gives movefirst, movelast, moveafter and movebefore, and there is no plain 'move' keyword. This is a small wording issue, but writing out the four move variants would be more accurate."
+    ],
+    "input_hash": "0bb61d53330ff5eec559ab3cebe67c78294437f1213319bad056e1371a3cd28b",
+    "cost_usd": 0.0718872
   }
 }

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -335,11 +335,9 @@ links:
   posts:
     - post/aardvarklabs-blog/2017
     - post/aardvarklabs-blog/2565
-    - post/aardvarklabs-blog/2812
-    - post/aardvarklabs-blog/3631
+    - post/aardvarklabs-blog/4082
     - post/demiliani-com/11962
     - post/demiliani-com/12036
-    - post/demiliani-com/12975
     - post/gerardorenteria-blog/12682
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9
@@ -368,7 +366,7 @@ coverage:
   learn: 261
   code: 1
   video: 3
-  blog: 13
+  blog: 11
   guideline: 0
 bc_forms:
   - 812
@@ -394,10 +392,33 @@ Path: [Integration](../../integration.md) > [Web services](../web-services.md) >
 - [API endpoint structure](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-endpoint-structure): Discover the base URL pattern and environment details required to access Business Central API endpoints.
 - [API Overview Page in Business Central](https://learn.microsoft.com/dynamics365/business-central/api-overview): Learn how the API Overview page helps administrators discover available APIs, review endpoint metadata, and prepare integrations.
 - [Business Central Administration Center API](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api): Get introduced to the Business Central administration center API.
+  - Status: Service-to-service authentication using Client Credentials Flow is supported from version 20.0 onwards.
+  - Step: Register an application in your Microsoft Entra tenant with a unique name and select account type.
+  - Step: Create a client secret for the registered application with a specified duration.
+  - Step: Grant AdminCenter.ReadWrite.All permission to the registered application for the admin center API.
+  - Step: Go to the admin center and paste the application client ID in the Authorized Microsoft Entra apps page.
+  - Permissions: AdminCenter.ReadWrite.All permission required for admin center API calls; API.ReadWrite.All and Automation.ReadWrite.All also available.
+  - The admin center API is located at https://api.businesscentral.dynamics.com
 - [Cloud Migration API Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/cloud-migration-api-overview): Learn how to use Cloud Migration APIs to automate the cloud migration process end-to-end.
+  - Status: Cloud Migration APIs v1.0 provide end-to-end automation for cloud migration setup, data movement, and progress tracking.
+  - Step: First step: POST request to setupCloudMigration endpoint with productId, sqlServerType, and SqlConnectionString.
+  - Step: For on-premises SQL Server sources, install Microsoft Integration Runtime using the runtimeKey from setup response.
+  - Step: Complete setup by posting to setupCloudMigration completeSetup endpoint after runtime configuration.
+  - Step: Mark companies for replication by patching cloudMigrationCompanies with replicate true, then run createCompaniesMarkedForReplication.
+  - Step: Start data replication by posting to cloudMigrationStatus runReplication endpoint.
+  - Step: Trigger data upgrade by posting to cloudMigrationStatus runDataUpgrade endpoint.
+  - Step: Final step: disable replication by posting to cloudMigrationStatus disableReplication endpoint.
 - [Develop APIs with Pages and Queries](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api): Learn how to develop custom Business Central APIs with API pages and API queries, and find guidance for performance and troubleshooting.
 - [Get a List of Business Central Environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-get-environments): Describing how to get a list of Business Central environments when working with APIs.
 - [Introduction to automation APIs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis): Learn how automation APIs create companies, apply configuration packages, manage extensions, assign permissions, and inspect security settings.
+  - Automation APIs enable company setup automation using delegated admin credentials or Business Central users with appropriate permissions.
+  - Create company via POST to automationCompany endpoint with name, displayName, businessProfileId parameters.
+  - Step: Upload RapidStart package by first creating configuration package with POST, then uploading file with PATCH to content endpoint.
+  - Step: Import RapidStart via POST Microsoft.NAV.import bound action, then apply via POST Microsoft.NAV.apply bound action.
+  - User groups deprecated in version 25 replaced by security groups for managing user permissions.
+  - Extensions installed via Microsoft.NAV.install bound action or unpublished via Microsoft.NAV.unpublish introduced in version 25.4.
+  - Limit: Per-tenant extension upload and install via Automation APIs supported only in SaaS, not on-premises.
+  - Features activated or deactivated through Microsoft.NAV.activate and Microsoft.NAV.deactivate bound actions on feature endpoint.
 - [IRS 1099 APIs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-irs1099/irs1099-api): Learn how to use IRS1099 APIs related to local functionality in the United States version of Business Central.
 - [OData/API web service client performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/odata-client-performance): Learn about how to develop efficient and fast OData/API web service clients for Business Central.
 - [Report Inbox Companies API Reference](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reporting/report-inbox-companies-api): Learn how the report inbox companies API exposes company-level report inbox counts and the latest change time in Business Central.
@@ -410,6 +431,8 @@ Path: [Integration](../../integration.md) > [Web services](../web-services.md) >
 - [Transitioning from API v1.0 to API v2.0](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/transition-to-api-v2.0): Reference content for transitioning Dynamics 365 Business Central v1.0 API to v2.0.
 - [Troubleshooting REST API/OData calls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/dynamics-error-codes): Learn about how to troubleshoot Business Central web service errors of types REST API or OData.
 - [Using filters with API/OData calls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-filtering): Learn how to use filters with API calls to get targeted information in return.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos, posts and code changes
 
@@ -424,11 +447,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "Schema 2.0 (BC 24 default) uses strongly typed enums with member names in metadata"
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query objects configured as APIs in Business Central to expose data"
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "create custom Page or Query APIs, or copy Microsoft pages to custom objects"
-- [Advanced JSON Management for Business Central Developers](../../../../posts/aardvarklabs-blog/2812.md) (community post): "JSON Management provides a comprehensive toolset for reading, writing, and converting JSON"
-- [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Build an API page with System ID and ODataKeyFields to enable Power Automate to interact"
+- [Business Central’s New API Overview: A Modern Replacement for Web Services](../../../../posts/aardvarklabs-blog/4082.md) (community post): "API Overview page provides a modern, unified interface to discover all API pages"
 - [Dynamics 365 Business Central: compressing API responses at max.](../../../../posts/demiliani-com/11962.md) (community post): "Business Central APIs compress responses with gzip by default, negotiated via Accept-Encoding"
 - [Why not start improving Business Central APIs definitions for supporting AI?](../../../../posts/demiliani-com/12036.md) (community post): "Business Central APIs lack AI-ready metadata that LLMs need to reliably call functions"
-- [My MCP server for Dynamics 365 Business Central Administration now supports handling PTEs.](../../../../posts/demiliani-com/12975.md) (community post): "MCP server for Dynamics 365 Business Central Administration"
 - [🤖 AboutText: Teaching AI to Understand Your APIs ✨](../../../../posts/gerardorenteria-blog/12682.md) (community post): "AboutText is a new property in BC 27.1 for APIV2 pages that describes API functionality"
 - [Why API Templates Don't Work on Business Central Custom API Pages](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d.md) (community post): "API templates in Business Central only work with specific standard API pages because custom API pages lack the ProcessNewRecordFromAPI"
 - [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) (community post): "The Sales Invoices API in Business Central aggregates posted and unposted invoices"

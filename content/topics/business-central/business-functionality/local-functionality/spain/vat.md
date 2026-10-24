@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:44.882Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -210,18 +210,29 @@ Start with the VAT Reports page for an overview and with Equivalence Charges to 
 
 - [Create Report 340 [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-report-340): Learn how to create report 340 for the tax authorities in the Spanish version of Business Central.
 - [Create Report 349 [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-report-349): Learn how to use the Spanish version of Business Central to electronically submit the report 349 declaration to the tax authorities.
+  - In the observatory: [Page 10736 "Customer/Vendor Warnings 349 (ES)"](../../../../../objects/page/10736-es.md), [Report 10710 "Make 349 Declaration (ES)"](../../../../../objects/report/10710-es.md)
 - [Create Templates for Telematic VAT Statements in Text Format (ES)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format): Learn how to create templates for telematic VAT statements in text file format for electronic submission in the Spanish version of Business Central.
+  - In the observatory: [Page 10704 "Transference Format (ES)"](../../../../../objects/page/10704-es.md), [Page 317 "VAT Statement"](../../../../../objects/page/317.md)
 - [Create templates for telematic VAT statements in XML format (ES)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format): Learn how to create templates for telematic VAT statements in XML format in the Spanish version of Business Central to enable electronic submission.
+  - In the observatory: [Page 10710 "XML Transference Format (ES)"](../../../../../objects/page/10710-es.md), [Page 317 "VAT Statement"](../../../../../objects/page/317.md)
 - [Equivalence Charges (EC) [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/equivalence-charges-ec-): An Equivalence Charge (EC) is a tax used in retail sales and activities that don't follow VAT rules.
+  - In the observatory: [Report 10704 "Sales Invoice Book (ES)"](../../../../../objects/report/10704-es.md), [Report 10705 "Purchases Invoice Book (ES)"](../../../../../objects/report/10705-es.md), [Table 254 "VAT Entry"](../../../../../objects/table/254.md), [Table 37 "Sales Line"](../../../../../objects/table/37.md), [Table 39 "Purchase Line"](../../../../../objects/table/39.md), [Table 5108 "Sales Line Archive"](../../../../../objects/table/5108.md)
 - [How to create report 347 [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-report-347): Learn how to make a Report 347 declaration to the tax authorities providing the sales and purchase transactions from the previous fiscal period.
+  - In the observatory: [Report 10707 "Make 347 Declaration (ES)"](../../../../../objects/report/10707-es.md)
 - [How to Export VAT Statements in Text Format](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format): Export VAT statements in text format for electronic submission to tax authorities.
 - [How to export VAT statements in XML format](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format): Export VAT statements as XML files for electronic submission to the Spanish tax authorities.
+  - In the observatory: [Page 10710 "XML Transference Format (ES)"](../../../../../objects/page/10710-es.md), [Page 317 "VAT Statement"](../../../../../objects/page/317.md)
 - [Report 340 [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/report-340): Provides an overview of Report 340, detailing how it captures information on invoices and taxes issued or received by your company within a specific period.
+  - In the observatory: [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 23 "Vendor"](../../../../../objects/table/23.md), [Table 254 "VAT Entry"](../../../../../objects/table/254.md), [Table 79 "Company Information"](../../../../../objects/table/79.md)
 - [Report 347 [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/report-347): Report 347 is an annual report that companies in Spain must submit to tax authorities, detailing sales and purchases for a specified period.
 - [Report 349 [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/report-349): Learn how to use Business Central to prepare and submit Report 349, the periodic declaration of trade with other EU countries/regions required by Spanish tax authorities.
+  - In the observatory: [Page 10736 "Customer/Vendor Warnings 349 (ES)"](../../../../../objects/page/10736-es.md), [Table 254 "VAT Entry"](../../../../../objects/table/254.md)
 - [Set up 340 reports for small businesses [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses): Learn how to set up 340 reports for small businesses in Spain on cash basis, that is, Cash Accounting Criteria (CAC)
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
 - [Set up SII for VAT reporting [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/sii-setup): Set up and submit documents with SII in Business Central, and resolve incorrect or pending statuses from posted documents in Spain.
+  - In the observatory: [Page 10751 "SII Setup (ES)"](../../../../../objects/page/10751-es.md), [Page 10752 "SII History (ES)"](../../../../../objects/page/10752-es.md), [Page 36954 "Customers"](../../../../../objects/page/36954.md), [Report 20 "Calc. and Post VAT Settlement"](../../../../../objects/report/20.md)
 - [VAT Reports [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/vat-reports): Provides detailed information about VAT functionality for transactions involving goods and services in Spain, including imports.
+  - In the observatory: [Table 254 "VAT Entry"](../../../../../objects/table/254.md), [Table 257 "VAT Statement Name"](../../../../../objects/table/257.md)
 
 ## Videos, posts and code changes
 

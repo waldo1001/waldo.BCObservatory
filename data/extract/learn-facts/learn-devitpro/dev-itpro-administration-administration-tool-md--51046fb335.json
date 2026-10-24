@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-tool.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-tool",
+  "title": "Microsoft Dynamics 365 Business Central Administration Center Tool",
+  "blob": "a220a7820f068a8d69388d647f55a2b4db7d668c",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Business Central Administration Tool is an MMC snap-in for creating and managing server instances."
+    },
+    {
+      "kind": "status",
+      "text": "Generally available."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Only administrator group members on the computer can use the tool."
+    },
+    {
+      "kind": "fact",
+      "text": "Not supported for multi-user environments."
+    },
+    {
+      "kind": "step",
+      "text": "Install via setup by choosing Server Option or Administration Tool under custom options."
+    },
+    {
+      "kind": "step",
+      "text": "Run from Start menu or open MMC and add the Business Central snap-in."
+    },
+    {
+      "kind": "fact",
+      "text": "Left pane shows server computers and instances; center pane displays instance settings or status."
+    },
+    {
+      "kind": "fact",
+      "text": "Right pane shows available actions; Windows PowerShell History pane lists equivalent commands for tasks performed."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004442,
+      "pages_in_call": 13
+    }
+  ]
+}

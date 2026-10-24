@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:48:13.593Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,13 +116,23 @@ links:
   learn: []
   objects:
     - object/page/6997
-  features:
-    - feature/573255
+  features: []
   topics: []
   localizations: []
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report
+      title: Create and Submit Expense Reports
+      label: possibly related
+      why: names Page 6997 "Expense Reports"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview
+      title: Expense Management Overview in Business Central
+      label: possibly related
+      why: names Page 6997 "Expense Reports"
+      by: code
 video_id: egE6UdOfar0
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -156,6 +166,22 @@ chapters:
     title: Licensing model and user access
   - t: 865
     title: Summary and additional resources
+cautions:
+  - kind: preview-disclaimer
+    quote: this is something what we will have in our public preview
+    t: 177
+  - kind: preview-disclaimer
+    quote: we will continue to invest into this direction to make as more automation as possible. everything what we see this is possible to be done automatically with AI, this is subject of our investment
+    t: 230
+  - kind: preview-disclaimer
+    quote: for public preview and for 2026 wave release wave two, plus, so do not take a wrong my assumptions that this is not everything what will come very soon
+    t: 253
+  - kind: preview-disclaimer
+    quote: all these things should be delivered before GA. So, it was about functionalities we are covering
+    t: 281
+  - kind: preview-disclaimer
+    quote: policy in a process of implementation. And this is what will come on the end.
+    t: 767
 features:
   - name: Receipt scanning and attachment
     status: preview
@@ -193,12 +219,10 @@ features:
     verified: false
     status_source: video
   - name: Policy-based approval process
-    status: preview
+    status: unclear
     t: 718
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573255"
+    status_source: video
   - name: Shared mailbox expense submission
     status: unclear
     t: 382
@@ -322,7 +346,7 @@ The presenter separates compliance rules from policies. Rules are simple checks 
 | Per diem calculation | preview | [3:39](https://www.youtube.com/watch?v=egE6UdOfar0&t=219s) | "system will automatically calculate per diem and based on your location. So, all of these things are already planned for public preview." ([3:39](https://www.youtube.com/watch?v=egE6UdOfar0&t=219s)) |
 | Itemization | status not stated, demoed | [3:26](https://www.youtube.com/watch?v=egE6UdOfar0&t=206s) |  |
 | Compliance rule checking | status not stated, demoed | [11:05](https://www.youtube.com/watch?v=egE6UdOfar0&t=665s) |  |
-| Policy-based approval process | preview (roadmap [AI-Driven Approvals](../features/573255.md)) | [11:58](https://www.youtube.com/watch?v=egE6UdOfar0&t=718s) |  |
+| Policy-based approval process | status not stated | [11:58](https://www.youtube.com/watch?v=egE6UdOfar0&t=718s) |  |
 | Shared mailbox expense submission | status not stated, demoed | [6:22](https://www.youtube.com/watch?v=egE6UdOfar0&t=382s) |  |
 | Web app for expense management | status not stated, demoed | [5:36](https://www.youtube.com/watch?v=egE6UdOfar0&t=336s) |  |
 | Microsoft 365 Copilot Chat integration | status not stated | [5:36](https://www.youtube.com/watch?v=egE6UdOfar0&t=336s) |  |
@@ -332,8 +356,6 @@ The presenter separates compliance rules from policies. Rules are simple checks 
 | Copilot credits licensing for expense users | status not stated | [13:34](https://www.youtube.com/watch?v=egE6UdOfar0&t=814s) |  |
 | Team member license for expense management | status not stated | [13:44](https://www.youtube.com/watch?v=egE6UdOfar0&t=824s) |  |
 | Essential or Premium license for posting | status not stated | [14:25](https://www.youtube.com/watch?v=egE6UdOfar0&t=865s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 
@@ -362,5 +384,12 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [4:13](https://www.youtube.com/watch?v=egE6UdOfar0&t=253s) coming-later: for public preview and for 2026 wave release wave two, plus, so do not take a wrong my assumptions that this is not everything what will come very soon
 - [4:41](https://www.youtube.com/watch?v=egE6UdOfar0&t=281s) coming-later: all these things should be delivered before GA. So, it was about functionalities we are covering
 - [12:47](https://www.youtube.com/watch?v=egE6UdOfar0&t=767s) coming-later: policy in a process of implementation. And this is what will come on the end.
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Create and Submit Expense Reports](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report) — possibly related: names Page 6997 "Expense Reports"
+- [Expense Management Overview in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview) — possibly related: names Page 6997 "Expense Reports"
 
 Presenters (as heard): Alexander Totovic, Monica Ahuja.

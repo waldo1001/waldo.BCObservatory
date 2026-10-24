@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-clean-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data",
+  "title": "Clean data",
+  "blob": "b2c29dadb2871c1980f0b2e5ca3645997c314aab",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Code data type fields with lowercase characters and whitespace must be cleaned before cloud migration to prevent failures in the cloud."
+    },
+    {
+      "kind": "step",
+      "text": "Run Invoke-NAVSanitizeField PowerShell cmdlet from Business Central Administration Shell against the on-premises database to delete invalid characters."
+    },
+    {
+      "kind": "fact",
+      "text": "Cmdlet returns object containing number of rows modified, tables impacted, and potentially ignored records list."
+    },
+    {
+      "kind": "fact",
+      "text": "Company names with trailing spaces, leading spaces, or carriage return characters prevent those companies from being picked up for migration."
+    },
+    {
+      "kind": "step",
+      "text": "Use SQL query to identify corrupted company names instead of the sanitize field cmdlet, then manually correct them."
+    },
+    {
+      "kind": "fact",
+      "text": "Compress and archive out-of-date data using Data Archive extension page 9035 to improve migration performance."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007625,
+      "pages_in_call": 7
+    }
+  ]
+}

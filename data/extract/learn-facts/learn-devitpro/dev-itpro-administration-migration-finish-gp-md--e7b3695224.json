@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-finish-gp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-gp",
+  "title": "Complete cloud migration for Dynamics GP",
+  "blob": "4f0ecc6f7cf68d04d5a290de8370a64aa5c8ebde",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "step",
+      "text": "Validate migrated data by running validation tests from Cloud Migration Management page."
+    },
+    {
+      "kind": "step",
+      "text": "Disable cloud migration in Cloud Migration Setup once desired data migrated."
+    },
+    {
+      "kind": "fact",
+      "text": "Each migration run overwrites outstanding documents and changes made in target company."
+    },
+    {
+      "kind": "fact",
+      "text": "When cloud migration disabled, setup deleted but integration runtime remains."
+    },
+    {
+      "kind": "fact",
+      "text": "Integration runtime cloud registration auto-cleaned after couple weeks of non-use."
+    },
+    {
+      "kind": "step",
+      "text": "Set up user accounts in Microsoft 365 tenant with Business Central licenses."
+    },
+    {
+      "kind": "step",
+      "text": "Create Business Central user accounts associated with Microsoft 365 email addresses."
+    },
+    {
+      "kind": "step",
+      "text": "Assign proper permission sets to users in Business Central."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004442,
+      "pages_in_call": 13
+    }
+  ]
+}

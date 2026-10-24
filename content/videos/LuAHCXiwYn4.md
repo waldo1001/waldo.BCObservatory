@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:21:30.183Z"
   flags: []
 generated:
-  at: "2026-10-07T23:21:30.231Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -113,6 +113,13 @@ chapters:
     title: Rethinking AL development profile architecture and future work
   - t: 2378
     title: General readiness, issue reporting and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: building that is probably taking more will take more longer than I want to be on stream for
+    t: 2204
+  - kind: preview-disclaimer
+    quote: the base of of that uh container will not uh change anymore that much at least
+    t: 2402
 features:
   - name: Host folder mounting for cloud configuration
     status: unclear

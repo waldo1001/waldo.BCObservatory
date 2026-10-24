@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-long-running-sql-queries-event-log.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-long-running-sql-queries-event-log",
+  "title": "Monitoring Long Running SQL Queries to the Event Log",
+  "blob": "de533db668f84153098ca6c30bd0f06d37f78c15",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Long running SQL query threshold is controlled by SqlLongRunningThreshold setting with default value of 1000 milliseconds."
+    },
+    {
+      "kind": "fact",
+      "text": "Query running longer than threshold triggers message in event log and telemetry emission indicating action took longer than expected."
+    },
+    {
+      "kind": "step",
+      "text": "Change SqlLongRunningThreshold dynamically without restart using Set-NAVServerConfiguration with -ApplyTo Memory parameter."
+    },
+    {
+      "kind": "fact",
+      "text": "Query delay can result from database waiting for locks or missing indexes on operations."
+    },
+    {
+      "kind": "fact",
+      "text": "Monitor long running queries using Windows Event Log or Application Insights for telemetry analysis."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

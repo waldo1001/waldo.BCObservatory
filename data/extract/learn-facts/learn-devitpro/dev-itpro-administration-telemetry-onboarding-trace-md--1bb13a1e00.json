@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-onboarding-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-onboarding-trace",
+  "title": "Analyzing onboarding telemetry",
+  "blob": "d13bf56b0d4015df7e8c4b577178f8bf14ea4cdc",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Onboarding telemetry applies to Business Central 2023 release wave 1, update 22.1 and later"
+    },
+    {
+      "kind": "fact",
+      "text": "Gathers data about onboarding started and onboarding criteria completed by users"
+    },
+    {
+      "kind": "fact",
+      "text": "Onboarding Started event has ID AL0000EIW, fired when user initiates onboarding"
+    },
+    {
+      "kind": "fact",
+      "text": "Onboarding Criteria completed event has ID AL0000EIV, fired when user completes criteria"
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry includes country code, user role, admin status, evaluation company flag, and tenant license state"
+    },
+    {
+      "kind": "fact",
+      "text": "Environment details captured include name, type, and version in all onboarding events"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007985,
+      "pages_in_call": 7
+    }
+  ]
+}

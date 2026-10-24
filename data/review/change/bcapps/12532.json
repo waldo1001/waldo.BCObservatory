@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12532",
+  "input_hash": "f305ad2b4ff5092f92bafa016f8b56f79361b17e00acd90690297f09364fec9f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-24T00:37:49.985Z",
+  "issues": [
+    "The description is only a work item link, so the specific editing scenarios are inferred from file names and should be stated more cautiously.",
+    "The Purch. Inv. Header - Edit change appears only in the W1 and ES layers, and tests also cover BE and GB."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023113,
+    "changes_in_call": 6
+  }
+}

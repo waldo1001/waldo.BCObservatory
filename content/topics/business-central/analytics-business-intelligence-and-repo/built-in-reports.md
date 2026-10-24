@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.594Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -650,8 +650,17 @@ Start with Report overview to find the right area. Then open the matching subtop
 - [Notification Email report](https://learn.microsoft.com/dynamics365/business-central/reports/report-1320): Generate email content for Business Central notifications, including approval requests, overdue approvals, document details, and action links.
 - [Purchasing reports and analytical tasks](https://learn.microsoft.com/dynamics365/business-central/purchase-reports): Learn which purchase reports are available in the standard version of Business Central so that you can keep track of your business.
 - [Report Generation Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace): Learn about the report telemetry in Business Central.
+  - Report telemetry captures successful generation (RT0006), failures, cancellations (RT0007), and commits during cancellation (RT0011) with performance metrics.
+  - Total time minus server execution time equals rendering time. Rendering time is difference between generating dataset and applying layout.
+  - Limit: Business Central online cancels reports exceeding timeout threshold or max row limits; on-premises has no default limits but supports ReportTimeout and ReportMaxRows parameters.
+  - Dimensions include report ID, name, layout type (Rdlc, Word, Excel, Custom), document format, action (Print, Preview, Save, Schedule, Download), and reporting engine used.
+  - Theme layout and header/footer layout dimensions added in version 29.0 indicate layouts applied to report; values empty when not applied.
+  - Cancellation reasons include user request, timeout exceeded, maximum rows exceeded, or Word report rendering timeout.
+  - Limit: Event must log when report canceled with commit performed before cancellation, indicating potential data inconsistency if report not idempotent.
 - [Report overview](https://learn.microsoft.com/dynamics365/business-central/reports-available-reports): Explore reports across all functional areas of the standard version of Business Central.
 - [Sales report overview](https://learn.microsoft.com/dynamics365/business-central/sales-reports): See which sales reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Business Central pages and reports
 

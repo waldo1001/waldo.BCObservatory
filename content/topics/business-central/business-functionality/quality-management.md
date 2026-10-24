@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/quality-management
 type: topic
 title: Quality management
-summary: Quality management in Business Central is a Microsoft-published extension for automatic, manual, and scheduled quality inspections in purchasing, production, assembly, and warehouse processes. It answers questions about performing inspections, blocking lots, handling failed items, setup, and troubleshooting.
+summary: Quality management in Business Central is an extension for automatic, manual, and scheduled quality inspections in purchasing, production, assembly, and warehouse processes. It answers questions about running inspections, blocking lots, handling failed items, setup, and troubleshooting.
 tier: official
 language: en
 system: inventory
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:19:49.464Z"
+  at: "2026-10-24T00:55:07.777Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 18a8b0533e77fa9e185b2fa87a528b3a06b716b0080569094da61a1d2c9ea4ee
+  input_hash: 1a2b9bda8d979a57dcd8889545a46d2ec5e01a52b8627d5ad80590743052e7a1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/qms-lot-blocking-unblocking
@@ -35,7 +35,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/qms-quality-templates
     title: Create quality inspection templates
-    date: "2026-09-09"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -150,26 +150,26 @@ narrative: generated
 
 # Quality management
 
-> Quality management in Business Central is a Microsoft-published extension for automatic, manual, and scheduled quality inspections in purchasing, production, assembly, and warehouse processes. It answers questions about performing inspections, blocking lots, handling failed items, setup, and troubleshooting.
+> Quality management in Business Central is an extension for automatic, manual, and scheduled quality inspections in purchasing, production, assembly, and warehouse processes. It answers questions about running inspections, blocking lots, handling failed items, setup, and troubleshooting.
 
 Path: [Business functionality](../business-functionality.md) > Quality management · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Quality Management is an extension that creates quality inspections at key points in purchasing, production, assembly, and warehouse processes. Inspections can be created automatically, manually, or on a schedule, and they use templates to define the tests. Results can trigger actions such as blocking noncompliant lots and running workflows.
+Quality Management is a Microsoft-published extension. It creates inspections automatically at key points in purchasing, production, assembly, and warehouse processes. It can also create them manually or on a schedule. Templates define the inspections, and workflows can respond to the results.
 
-Start with the overview page to see what the extension does. The Set up quality management subtopic (base setup and permissions, inspection results, templates, generation rules, workflows) covers configuration. After setup, "Work with quality inspections" explains the daily tasks: assigning, entering test values, finishing, printing reports, and reinspecting.
+The pages follow the life of an inspection. The overview explains the extension. The setup subtopic covers prerequisites, permissions, inspection results, templates, generation rules, and workflows. Working with inspections covers assigning owners, entering test values, finishing, printing reports, and reinspecting. Scheduled inspections use job queue entries.
 
-Further pages cover what happens after an inspection. They describe scheduled inspections through job queue entries, blocking and unblocking lots, and processing items that failed. A troubleshooting page groups common issues by feature area.
+Once an inspection fails, one page covers blocking lots, serial numbers, and packages. Another covers moving, returning, removing, or reclassifying the items. A troubleshooting page groups common issues by feature area. Start with the overview, then the setup subtopic.
 
 ## Key points
 
-- The extension creates inspections automatically, manually, or on a schedule, and uses templates for inspections.
-- Working with inspections: assign owners, enter test values, calculate results, finish, print reports, and create reinspections.
+- Inspections can be created automatically, manually, or on a schedule, and use templates.
 - Scheduled inspections run at regular time intervals through job queue entries, for example for shelf life monitoring.
-- Lots, serial numbers, and packages can be blocked or unblocked by workflows or by inspection results, with document-specific restrictions for sales, transfers, and other transactions.
-- Failed items can be handled by blocking lots, moving to quarantine, creating transfer orders or purchase returns, making negative adjustments, or changing item tracking.
-- Setup covers base setup and permissions, inspection results, templates, generation rules, and workflows.
+- Inspections can be assigned to users, completed with test values, and result calculation, then printed as reports or repeated as reinspections.
+- Lots, serial numbers, and packages can be blocked or unblocked by workflows or by inspection results, with document-specific restrictions for sales and transfers.
+- Failed items can be moved to quarantine, put away internally, sent by transfer order, returned to the vendor by purchase return, removed by negative adjustment, or have item tracking changed.
+- The setup subtopic (5 pages) covers prerequisites, permissions, results, templates, generation rules, and workflows.
 - The troubleshooting page covers setup, generation rules, scheduled inspections, workflows, templates, warehouse receipt and production output inspections, manual creation, and lot blocking.
 
 ## Subtopics
@@ -179,18 +179,21 @@ Further pages cover what happens after an inspection. They describe scheduled in
 ## More Learn pages
 
 - [Block or unblock lots](https://learn.microsoft.com/dynamics365/business-central/qms-lot-blocking-unblocking): Learn how to block and unblock inventory lots using workflows and grade-specific controls to ensure quality compliance.
+  - In the observatory: [Page 1500 "Workflows"](../../../objects/page/1500.md), [Page 6504 "Serial No. Information Card"](../../../objects/page/6504.md), [Page 6505 "Lot No. Information Card"](../../../objects/page/6505.md), [Page 6508 "Lot No. Information List"](../../../objects/page/6508.md), [Page 6526 "Package No. Information Card"](../../../objects/page/6526.md)
 - [Create scheduled quality inspections](https://learn.microsoft.com/dynamics365/business-central/qms-scheduled-test-creation): Learn how to set up and use scheduled quality inspection tests to ensure proactive quality management through automated, time-based test creation.
 - [Process items that failed a quality inspection](https://learn.microsoft.com/dynamics365/business-central/qms-non-compliant-processing): Learn how to handle noncompliant items, including workflows, inventory movements, and actions for failed quality inspections.
 - [Quality management overview](https://learn.microsoft.com/dynamics365/business-central/qms-overview): Learn how to use quality management to ensure product quality through automated and manual inspections, lot results, and workflow integration.
 - [Troubleshoot quality management features](https://learn.microsoft.com/dynamics365/business-central/qms-troubleshooting): Learn how to troubleshoot common issues in quality management, from setup to workflows, and resolve problems with inspections, templates, and lot blocking.
+  - In the observatory: [Page 6505 "Lot No. Information Card"](../../../objects/page/6505.md)
 - [Work with quality inspections](https://learn.microsoft.com/dynamics365/business-central/qms-manual-test-creation): Learn how to create, assign, complete, print, reopen, and repeat quality inspections in Business Central.
+  - In the observatory: [Page 6510 "Item Tracking Lines"](../../../objects/page/6510.md)
 
 ## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12322 [QM] Destination bin code is now visible and usable for the user](../../../changes/bcapps/12322.md) (code change): "destination bin code is now visible and usable for the user"
-- [#13056 [QM] Tracking specification quantity now is used properly](../../../changes/bcapps/13056.md) (code change): "Quality tracking specifications now correctly use the proper quantity values"
+- [#13056 [QM] Tracking specification quantity now is used properly](../../../changes/bcapps/13056.md) (code change): "Quality Management now uses the tracking specification quantity properly in its receiving integration"
 - [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Business Central version 28 adds a native Quality Management module for inspecting goods"
 
 ## Business Central pages and reports

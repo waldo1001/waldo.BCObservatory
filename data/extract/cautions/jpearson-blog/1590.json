@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/jpearson-blog/1590",
+  "page_id": "post/jpearson-blog/1590",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "I've had a problem where the test run never ends…",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC28"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "I think this is a bug in the AL Language extension when attempting to run tests against a pre-BC28 container",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "pre-BC28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005183,
+    "posts_in_call": 4
+  }
+}

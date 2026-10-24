@@ -7,12 +7,12 @@ tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:40.139Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,7 +107,7 @@ narrative: generated
 
 > Czech local functionality for payables and receivables in Business Central: compensation of mutual receivables and payables, balance reconciliations, exchange rate adjustment, output document design, sales correcting documents, ARES contact updates, and hiding zero-quantity lines. It answers setup and usage questions for the Czech version.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Payables and Receivables · tier official · system sales · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Payables and Receivables · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -131,6 +131,7 @@ Start with the page that matches your task. For offsetting balances, read the Co
 ## Learn pages
 
 - [Compensation localization for the Czech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-compensations-localization-cz): Enables offsetting receivables and payables in Business Central for Czech companies, supporting mutual settlements between customers and vendors.
+  - In the observatory: [Page 25 "Customer Ledger Entries"](../../../../../objects/page/25.md)
 - [Czech Local Functionality - Customers/Vendors Reconciliations](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/customers-vendors-reconciliations): Learn about the Customers/Vendors Reconciliations local functionality available in the Czech version of Business Central.
 - [Czech local functionality - Exchange rates adjustment feature](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature): Companies in the Czech Republic request some improvements in the Exchange Rates Adjustment feature in the Czech version of Business Central.
 - [Czech Local Functionality - New design of output documents](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/new-design-of-output-documents): Learn about the new standardized design of output documents in the Czech version, including enhancements to meet Czech legislative requirements.

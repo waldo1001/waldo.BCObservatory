@@ -1,8 +1,8 @@
 {
   "hub_id": "topic/dev-itpro/development/development-environment",
   "input_hash": "0cc6ef18ccfd6473009bb028c37ce3e5617d72d5935d54680c3890aae49a4896",
-  "summary": "The Development environment section covers setting up and using the AL development environment for Business Central in Visual Studio Code. It answers questions about configuration, projects and workspaces, compiling, publishing, debugging, testing, sandboxes, app packaging, and supporting tools.",
-  "overview": "This section groups everything a developer needs to build AL extensions for Business Central. It starts with configuring the environment (VS Code AL Language extension settings, performance tuning, container and GitHub Codespaces setups, runtime targeting, resource exposure policy) and then moves to projects and workspaces, including multi-root workspaces and project references in app.json.",
+  "summary": "The Development environment section covers setting up and using the AL development environment for Business Central in Visual Studio Code. It answers questions about environment configuration, projects and workspaces, code analysis, compiling, publishing, debugging, testing, sandboxes, app packaging with app.json, and supporting tools such as Page Inspection and Txt2Al.",
+  "overview": "This section groups the tasks involved in building AL extensions for Business Central in Visual Studio Code. It starts with configuring the environment: AL Language extension settings, performance tuning, container and GitHub Codespaces setups, runtime targeting, and resource exposure policy. Next come projects and workspaces, including multi-root workspaces and project references in app.json. It then covers code analysis; compiling, publishing, debugging and signing; and testing, from test codeunits through to UI acceptance testing with page scripting. The rest covers online and container sandboxes, app identity and packaging in app.json, and other tools: Page Inspection, Txt2Al, and the table data viewer.",
   "key_points": [
     "Configure the environment: AL Language extension settings, performance tuning, container and GitHub Codespaces setups, runtime targeting, and resource exposure policy.",
     "Projects and workspaces: multi-root workspaces, per-folder settings, and project references in app.json, including symbol resolution and recovery from publishing failures.",
@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.012471
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:53:46.729Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview stops after configuration and projects/workspaces. It leaves out compile/publish/debug, testing, sandboxes, working with apps, other tools and code analysis, so it reads as unfinished.",
+      "The overview's phrase 'everything a developer needs' overstates what the section covers. Replaced it with a neutral description.",
+      "The summary lists the topics but leaves out code analysis, which is a 9-page subtopic. Added it."
+    ],
+    "input_hash": "0cc6ef18ccfd6473009bb028c37ce3e5617d72d5935d54680c3890aae49a4896",
+    "cost_usd": 0.0351552
   }
 }

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:22:37.806Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,6 +72,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8
+      title: How I Recreated the Extension Upload Experience in Business Central
+      label: possibly related
+      why: both name Page 2500 "Extension Management"
+      by: code
 video_id: 2vUCR16b85o
 channel: yt-bcmusings
 source_name: Business Central Musings
@@ -217,3 +223,9 @@ Not found in BC28-30: page "External File Accounts", page "Set Up External File 
 - [4:11](https://www.youtube.com/watch?v=2vUCR16b85o&t=251s) "The containers will be managed by the Azure blob service. Uh the fileshares will be managed by the file service uh extension"
 - [5:13](https://www.youtube.com/watch?v=2vUCR16b85o&t=313s) "they are connected to this demo BC 2025W1 um storage account. So I have two keys here"
 - [6:41](https://www.youtube.com/watch?v=2vUCR16b85o&t=401s) "you can click on set up external file account and you will be taken through a wizard"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [How I Recreated the Extension Upload Experience in Business Central](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8.md) — possibly related: both name Page 2500 "Extension Management"

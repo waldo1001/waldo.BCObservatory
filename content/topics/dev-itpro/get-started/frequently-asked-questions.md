@@ -6,12 +6,12 @@ summary: Frequently asked questions for Business Central cover building, testing
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:24.420Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,7 +120,7 @@ narrative: generated
 
 > Frequently asked questions for Business Central cover building, testing, submitting and updating Marketplace apps, library and dependency apps, AL development, migrating to Business Central online, and the Windows client discontinuation. Use it for short practical answers on these topics.
 
-Path: [Get started](../get-started.md) > Frequently asked questions · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [Get started](../get-started.md) > Frequently asked questions · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -146,11 +146,21 @@ For app publishing, a sensible order is: the AL development FAQ, the testing FAQ
 - [FAQ about Library & Dependency Apps in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-dependencies-libraries): Get answers to some of your questions about library apps and dependency apps in Dynamics 365 Business Central
 - [FAQ about managing and submitting your Business Central offer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-offer): Get answers to some of your questions about managing an offer in Partner Center when you build an app for Dynamics 365 Business Central
 - [FAQ about Migrating to Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/faq-migrate-data): Get answers to frequently asked questions about migrating to Business Central online from on-premises solutions, including supported versions and data limits.
+  - Prerequisite: On-premises solution must use SQL Server 2016 or later with database compatibility level 130 or higher.
+  - Data migrates using Azure Data Factory service with self-hosted integration runtime managing communication between cloud and on-premises SQL Server.
+  - Limit: No restrictions on data type; database storage limit applies; less than 30 GB per migration run recommended to avoid 80 GB threshold disabling admin tasks.
+  - SQL connection string is encrypted and passed to Azure Data Factory for use during data replication process.
+  - Only tables available in both on-premises and online migrate; customizations must be converted to extensions and installed in both systems.
+  - On-premises users are added to Intelligent Cloud user group; online environment is read-only during migration.
+  - Data replication is one way only from on-premises to Business Central online; must stop using on-premises after going live.
+  - Limit: On-premises users and permissions do not replicate; users must be manually added and permissions granted in cloud tenant.
 - [FAQ about Testing your Business Central App](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-test): Get answers to some of your questions about testing when you build an app for Dynamics 365 Business Central
 - [FAQ about Updating your Business Central App](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-update): Get answers to some of your questions about updating your app for Dynamics 365 Business Central
 - [FAQ about Windows Client and Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/faq-win-cli): Get answers to why the Windows client is no longer supported with Business Central.
 - [FAQ for Developing in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-faq): Overview of frequently asked questions for development using the AL language.
 - [Lifecycle of apps and extensions FAQ](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-update-app-life-cycle-faq): Overview of the frequently asked questions about updating an app on Marketplace.
 - [Marketing validation FAQ](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-marketing-validation-faq): The marketing validation FAQ for Business Central apps
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

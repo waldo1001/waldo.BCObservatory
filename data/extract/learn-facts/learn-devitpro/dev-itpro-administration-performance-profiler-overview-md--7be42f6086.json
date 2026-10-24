@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/performance-profiler-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview",
+  "title": "Performance Profiler overview",
+  "blob": "50e70c4e618a5143607928a6761b20bdeb7b9d73",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Performance Profiler records snapshots of business processes, monitoring all apps involved including Microsoft first-party and third-party apps."
+    },
+    {
+      "kind": "step",
+      "text": "To use Performance Profiler, open the page, click the icon to open it in a separate window, then start recording before performing the slow process."
+    },
+    {
+      "kind": "fact",
+      "text": "Active Apps chart shows which apps were running and their durations, with ability to aggregate by App Name or App Publisher."
+    },
+    {
+      "kind": "fact",
+      "text": "Technical information toggle enables Time Spent by Application Object and Call Tree FastTabs for detailed analysis of objects and methods."
+    },
+    {
+      "kind": "fact",
+      "text": "Time Spent column shows how long an object was active; Samples column shows profiler sampling frequency of the object."
+    },
+    {
+      "kind": "fact",
+      "text": "Self Time in Call Tree shows time spent in a method only; Total Time includes Self Time plus calls from the method."
+    },
+    {
+      "kind": "fact",
+      "text": "Recording can be shared, downloaded as .alcpuprofile file, or cleared to start over; existing profiles can be uploaded."
+    },
+    {
+      "kind": "fact",
+      "text": "In-client Performance Profiler is a simplified version of the AL Profiler used in Visual Studio Code for advanced analysis."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013255,
+      "pages_in_call": 4
+    }
+  ]
+}

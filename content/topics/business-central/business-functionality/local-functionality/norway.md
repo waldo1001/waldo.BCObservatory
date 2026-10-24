@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:27.637Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -433,6 +433,7 @@ One page sits directly in the hub: applying general ledger entries in closed per
 ## More Learn pages
 
 - [How to Apply General Ledger Entries in Closed Periods](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods): Learn to post entries after a closed posting period, even without performing any actual postings during that time.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../objects/page/118.md), [Page 119 "User Setup"](../../../../objects/page/119.md)
 - [Norway local functionality [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norway-local-functionality): These articles describe all the local functionality in the Norwegian version of Business Central.
 
 ## Business Central pages and reports

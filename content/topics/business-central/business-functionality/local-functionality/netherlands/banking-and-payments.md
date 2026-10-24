@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:15.891Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -195,19 +195,27 @@ Start with Dutch Electronic Banking and Telebanking for the overview, then the p
 ## Learn pages
 
 - [Activate SEPA payments in the Dutch version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments): To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO 20022 payment format, you must set up prerequisites for enabling SEPA payments.
+  - In the observatory: [Page 11000011 "Transaction Mode Card (NL)"](../../../../../objects/page/11000011-nl.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md)
 - [Docket Reports [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/docket-reports): The Dutch telebanking app lets you combine ledger entries for a customer or vendor into a single payment or collection order to the bank.
 - [Dutch Electronic Banking](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-electronic-banking): Learn how to create electronic payment files and direct debit files, and import electronic bank statements from supported bank software.
 - [How to Create and Export Payment History [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-and-export-payment-history): After creating and modifying your proposal as needed, you can move forward with processing it to create a payment history.
+  - In the observatory: [Page 11000000 "Telebank - Bank Overview (NL)"](../../../../../objects/page/11000000-nl.md), [Page 11000001 "Telebank Proposal (NL)"](../../../../../objects/page/11000001-nl.md), [Page 11000007 "Payment History List (NL)"](../../../../../objects/page/11000007-nl.md)
 - [How to Create Proposals](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-proposals): Generate proposals manually or automatically based on either vendor or customer ledger entries.
+  - In the observatory: [Page 11000000 "Telebank - Bank Overview (NL)"](../../../../../objects/page/11000000-nl.md), [Page 11000002 "Proposal Detail Line (NL)"](../../../../../objects/page/11000002-nl.md), [Page 423 "Customer Bank Account Card"](../../../../../objects/page/423.md), [Page 425 "Vendor Bank Account Card"](../../../../../objects/page/425.md)
 - [How to Enter and Post Cash and Bank or Giro Journals](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals): Learn how to use the cash and bank journals to record transactions affecting cash and bank accounts via Cash Book and Bank Book.
+  - In the observatory: [Page 11400 "Bank/Giro Journal (NL)"](../../../../../objects/page/11400-nl.md), [Page 11403 "Cash Journal (NL)"](../../../../../objects/page/11403-nl.md), [Page 20 "General Ledger Entries"](../../../../../objects/page/20.md)
 - [How to import and reconcile bank statements](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements): Banks offer electronic statements detailing all your financial transactions. These statements can be imported into the bank or giro journals.
+  - In the observatory: [Page 11400 "Bank/Giro Journal (NL)"](../../../../../objects/page/11400-nl.md), [Page 379 "Bank Acc. Reconciliation"](../../../../../objects/page/379.md)
 - [How to Print the Test Reports for Cash and Bank or Giro Journals](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals): Learn how to use the CBG Posting - Test report to review and edit statement lines, and preview the effects before posting cash, bank, or giro journals.
+  - In the observatory: [Page 11400 "Bank/Giro Journal (NL)"](../../../../../objects/page/11400-nl.md), [Page 11403 "Cash Journal (NL)"](../../../../../objects/page/11403-nl.md), [Page 250 "General Journal Template List"](../../../../../objects/page/250.md), [Report 11400 "CBG Posting - Test (NL)"](../../../../../objects/report/11400-nl.md)
 - [Payment scenarios](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenarios): Based on a sales or purchase invoice or credit memo, you can generate and export a proposal for processing by the bank.
 - [Scenario 1 Domestic payments (LCY to LCY) [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-): This article describes a scenario where you can use telebanking for trade with domestic and foreign customers and vendors.
+  - In the observatory: [Page 11000000 "Telebank - Bank Overview (NL)"](../../../../../objects/page/11000000-nl.md), [Page 11000016 "Import Protocol List (NL)"](../../../../../objects/page/11000016-nl.md)
 - [Scenario 2 foreign payment (FCY to FCY) [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-): This article describes a second scenario where you can use telebanking for trade with domestic and foreign customers and vendors.
 - [Scenario 3 - Foreign Payment (LCY to FCY) [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-): This article describes a third scenario where you can use telebanking for trade with domestic and foreign customers and vendors.
 - [Single EURO Payments Area (SEPA)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/single-euro-payments-area-sepa-): SEPA (Single Euro Payments Area) unifies payment methods across participating European countries/regions, simplifying international payments to be as straightforward as domestic ones.
 - [Submit Vendor Payments Electronically in SEPA ISO 20022 Format (NL)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format): In the Dutch version of Business Central, you can electronically create and submit vendor payments in the Single Euro Payments Area (SEPA) ISO 20022 format.
+  - In the observatory: [Page 11000001 "Telebank Proposal (NL)"](../../../../../objects/page/11000001-nl.md)
 - [Telebanking](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/telebanking): Telebanking allows you to electronically generate and exchange payments and collections with your bank based on sales and purchase transactions.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

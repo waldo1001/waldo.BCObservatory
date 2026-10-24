@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:10.440Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,6 +116,7 @@ Start with the overview to get the scope, then read the email page if intake is 
 ## Learn pages
 
 - [Expense Agent overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent): Learn how the Expense Agent automates expense processing, including receipt intake, data extraction, categorization, and expense report creation.
+  - In the observatory: [Table 5222 "Employee Ledger Entry"](../../../../objects/table/5222.md), [Table 5223 "Detailed Employee Ledger Entry"](../../../../objects/table/5223.md), [Table 6900 "Expense"](../../../../objects/table/6900.md), [Table 6912 "Expense Ledger Entry"](../../../../objects/table/6912.md)
 - [How the Expense Agent Processes Emails](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent): Learn how Expense Agent monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.
 - [Responsible AI FAQ for Expense Agent (preview)](https://learn.microsoft.com/dynamics365/business-central/expense-management/faqs-expense-agent): Learn how AI automates expenses processing in Business Central, including setup, capabilities, limitations, and responsible use.
 - [Understand Policy Compliance in Expense Agent](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance): Learn how Expense Agent applies real-time expense rules and uses AI to evaluate your organization's natural-language expense policies.

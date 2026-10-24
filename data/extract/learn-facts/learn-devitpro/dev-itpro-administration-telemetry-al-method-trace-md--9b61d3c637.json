@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-al-method-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-al-method-trace",
+  "title": "Analyzing Long Running AL Methods Telemetry",
+  "blob": "9dc39d0a8042905f2dcfcd62789aa433ce35f634",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "The server emits telemetry about execution time of long running AL methods, including database time and breakdown by event subscribers."
+    },
+    {
+      "kind": "status",
+      "text": "On-premises requires AL Function Timing and AL Function Logging Threshold settings configured; online has telemetry enabled case-by-case."
+    },
+    {
+      "kind": "fact",
+      "text": "The trace includes eventId RT0018 and dimensions like alMethod, alObjectId, alObjectName, alObjectType, clientType, and companyName."
+    },
+    {
+      "kind": "fact",
+      "text": "exclusiveTime dimension shows execution time without client callback suspension time, introduced in version 22.1 and backported to 21.6."
+    },
+    {
+      "kind": "fact",
+      "text": "sqlExecutes and sqlRowsRead dimensions show number of SQL statements and table rows read, introduced in version 22.0."
+    },
+    {
+      "kind": "fact",
+      "text": "extensionInfo dimension includes extension ID, name, version, publisher, subscriber count, and execution time in the call stack."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00629,
+      "pages_in_call": 8
+    }
+  ]
+}

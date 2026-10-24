@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-fabric.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-fabric",
+  "title": "Data Mirroring to Microsoft Fabric from Business Central",
+  "blob": "4ed1f9b7fe004b4c98cf2d4dd3f1bfa35c0c5e0c",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Production-ready preview planned to become available in October 2026. Delivery timing and functionality might change. Subject to supplemental terms of use."
+    },
+    {
+      "kind": "fact",
+      "text": "Data mirroring connects Business Central online to an open mirrored database in Fabric. You select companies and tables to synchronize into OneLake in Delta Parquet format."
+    },
+    {
+      "kind": "limit",
+      "text": "Up to 1,000 selected tables per tenant supported for synchronization."
+    },
+    {
+      "kind": "fact",
+      "text": "Supports multiple Business Central companies, initial snapshot and incremental synchronization, and a Microsoft configuration package with standard tables."
+    },
+    {
+      "kind": "fact",
+      "text": "Administrator tasks include creating open mirrored database in Fabric workspace, connecting Business Central, granting service principal access, selecting companies and tables, and monitoring runs."
+    },
+    {
+      "kind": "fact",
+      "text": "Microsoft plans to provide versions of standard Business Central Power BI apps using Fabric data, including single-company and multicompany versions."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006355,
+      "pages_in_call": 7
+    }
+  ]
+}

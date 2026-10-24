@@ -24,7 +24,7 @@ review:
   at: "2026-10-07T23:19:03.382Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -91,6 +91,27 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/manage-indexes
+      title: Manage database index usage
+      label: possibly related
+      why: names Page 8700 "Table Information"
+      by: code
+    - to: video/1x3QyBX3swg
+      title: "Microsoft presents: Index management"
+      label: possibly related
+      why: both name Page 8700 "Table Information"
+      by: code
+    - to: post/thinkaboutit-be/8077
+      title: "Quick Tip: Reading the Capacity Page in the Business Central Admin Center"
+      label: possibly related
+      why: both name Page 8700 "Table Information"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information
+      title: View table information
+      label: possibly related
+      why: names Page 8700 "Table Information"
+      by: code
 video_id: bVPFIhkvZEA
 channel: yt-saurav
 source_name: Saurav Dhyani
@@ -129,6 +150,10 @@ chapters:
     title: Key Takeaways and Feature Releases
   - t: 1194
     title: Closing Remarks and Summary
+cautions:
+  - kind: preview-disclaimer
+    quote: Get into your preview environment if you have and search for table information
+    t: 500
 features:
   - name: Turn SIFT indexes on or off from Business Central client
     status: ga
@@ -143,25 +168,31 @@ features:
     verified: true
     status_source: video
   - name: Index type classification
-    status: unclear
+    status: ga
     t: 639
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573316"
   - name: Company-level index control
-    status: unclear
+    status: ga
     t: 727
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573316"
   - name: Database index management at application level
     status: unclear
     t: 348
     verified: false
     status_source: video
   - name: Immediate index disable with deferred enable
-    status: unclear
+    status: ga
     t: 1008
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573316"
 objects_mentioned:
   - table GL Entry
   - page table information
@@ -228,10 +259,10 @@ It demos the Index Management page, which shows index type, whether an index is 
 |---|---|---|---|
 | Turn SIFT indexes on or off from Business Central client | generally available (roadmap [Administrators can turn SIFT indexes on/off](../features/573316.md)), demoed | [0:11](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=11s) | "So get into your preview environment if you have and search for table information." ([8:20](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=500s)) |
 | Index Management page | preview, demoed | [8:07](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=487s) | "So get into your preview environment if you have and search for table information." ([8:20](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=500s)) |
-| Index type classification | status not stated, demoed | [10:39](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=639s) |  |
-| Company-level index control | status not stated, demoed | [12:07](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=727s) |  |
+| Index type classification | generally available (roadmap [Administrators can turn SIFT indexes on/off](../features/573316.md)), demoed | [10:39](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=639s) |  |
+| Company-level index control | generally available (roadmap [Administrators can turn SIFT indexes on/off](../features/573316.md)), demoed | [12:07](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=727s) |  |
 | Database index management at application level | status not stated | [5:48](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=348s) |  |
-| Immediate index disable with deferred enable | status not stated, demoed | [16:48](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=1008s) |  |
+| Immediate index disable with deferred enable | generally available (roadmap [Administrators can turn SIFT indexes on/off](../features/573316.md)), demoed | [16:48](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=1008s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -256,5 +287,14 @@ Not found in BC28-30: table "GL Entry", page "index management page".
 ## Disclaimers in the video
 
 - [8:20](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=500s) preview: Get into your preview environment if you have and search for table information
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Manage database index usage](https://learn.microsoft.com/dynamics365/business-central/manage-indexes) — possibly related: names Page 8700 "Table Information"
+- [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Page 8700 "Table Information"
+- [Quick Tip: Reading the Capacity Page in the Business Central Admin Center](../posts/thinkaboutit-be/8077.md) — possibly related: both name Page 8700 "Table Information"
+- [View table information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information) — possibly related: names Page 8700 "Table Information"
 
 Presenters (as heard): Sav Dhani.

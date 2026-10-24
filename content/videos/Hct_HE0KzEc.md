@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:20:54.604Z"
   flags: []
 generated:
-  at: "2026-10-07T23:20:54.653Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -108,6 +108,13 @@ chapters:
     title: Headless ERP and the Shift from Data Entry to Value Creation
   - t: 802
     title: Closing Remarks and Contact Information
+cautions:
+  - kind: preview-disclaimer
+    quote: there is going to be a decent amount of transition of people spending less time in the depths of the app
+    t: 610
+  - kind: preview-disclaimer
+    quote: more and more of the interactions will be from the other tools people use whether that's Teams or Outlook or M365
+    t: 698
 features:
   - name: Expense Agent
     status: announced

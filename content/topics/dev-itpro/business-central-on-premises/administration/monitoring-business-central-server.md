@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:08.228Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -150,5 +150,13 @@ Start with the performance counters page for a quick view of instance health. Mo
 ## More Learn pages
 
 - [Microsoft Dynamics 365 Business Central Performance Counters](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/performance-counters): Describes the performance counters that are available for monitoring instances.
+  - Performance counters track client sessions, SQL connections, data caching, and scheduled tasks on Business Central server instances.
+  - Active session counters measure connections from clients, NAS, and web services; active child sessions are connections created by background tasks.
+  - SQL connection counters include mounted tenants, open connections, and throttled connections to SQL Server databases.
+  - Heartbeat time measures the duration of writes to system tables, indicating network latency between server and database.
+  - Caching counters track hit rates and total requests for calculated fields, commands, primary keys, and result sets.
+  - Task scheduler counters monitor running tasks, pending tasks, errors per second, and average task execution time in ticks.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

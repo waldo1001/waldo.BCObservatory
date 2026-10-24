@@ -2,17 +2,17 @@
 id: topic/business-central/business-functionality/local-functionality/austria/purchasing
 type: topic
 title: Purchasing
-summary: Purchasing in the Austrian version of Business Central covers delivery reminders for late vendor deliveries. It answers questions on setting up terms, levels, text and vendor codes, and on creating, generating, testing and issuing reminders.
+summary: Purchasing in the Austrian version of Business Central covers delivery reminders, which notify vendors of overdue deliveries and help track late supplier deliveries. It answers questions on setting up reminder terms, levels and text, assigning reminder codes to vendors, creating reminders manually or generating them, and printing test reports to review reminders before issuing them.
 tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:46.542Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,17 +112,17 @@ narrative: generated
 
 # Purchasing
 
-> Purchasing in the Austrian version of Business Central covers delivery reminders for late vendor deliveries. It answers questions on setting up terms, levels, text and vendor codes, and on creating, generating, testing and issuing reminders.
+> Purchasing in the Austrian version of Business Central covers delivery reminders, which notify vendors of overdue deliveries and help track late supplier deliveries. It answers questions on setting up reminder terms, levels and text, assigning reminder codes to vendors, creating reminders manually or generating them, and printing test reports to review reminders before issuing them.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > Purchasing · tier official · system purchasing · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > Purchasing · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Austrian purchasing section is about delivery reminders, which notify vendors of overdue deliveries and help track late supplier deliveries. The reminders use configurable terms, levels and text, and each vendor gets a delivery reminder code.
+The Austrian purchasing section is about delivery reminders. These are automated reminders that notify vendors of overdue deliveries and help track late supplier deliveries. The reminders use configurable terms, levels and text, and each vendor gets a delivery reminder code.
 
-The pages follow the working order. Start with the overview page, "Delivery reminders in the Austrian version", then "How to Set Up Delivery Reminders [AT]". Setup is detailed in "Delivery reminder terms, levels, and text [AT]" and "Assign Delivery Reminder Codes to Vendors [AT]".
+A practical reading order follows the work. Start with the overview page, "Delivery reminders in the Austrian version", then read "How to Set Up Delivery Reminders [AT]". The setup details are in "Delivery reminder terms, levels, and text [AT]" and "Assign Delivery Reminder Codes to Vendors [AT]".
 
-After setup, you can create reminders manually or generate them. You can also print test reports to preview, filter and modify reminders before you issue them.
+Once setup and vendor code assignment are done, you can create reminders manually or generate them. You can also print test reports to preview, filter and modify reminders before you issue them.
 
 ## Key points
 

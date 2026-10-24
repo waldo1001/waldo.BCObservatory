@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:54:28.419Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:28.460Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -115,6 +115,10 @@ chapters:
     title: Next steps and future evolution of the feature
   - t: 455
     title: Closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: we're looking forward to evolving this concept even further to provide much better support for our customers in the future
+    t: 455
 features:
   - name: Copilot Chat with app documentation
     status: unclear

@@ -21,5 +21,19 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.023671
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:54:28.780Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the suggested setup order in the overview (start with VAT date, periods and VAT posting setup, and treat reverse charge, non-deductible VAT, unreliable payer and Intrastat as optional) is the writer's own guidance. The page summaries don't state it, but it is reasonable and not misleading.",
+      "Minor: the overview opens with 'This section', which is close to the banned 'This hub' phrasing. Consider starting with the subject instead.",
+      "Minor: key point 8 says registered bank accounts are retrieved from the tax authority. The source says the feature retrieves reliability status from the tax authority and stores registered bank accounts, so the wording is close enough.",
+      "Minor: the key points leave out the VAT Control Report and functional currency, although the overview covers both."
+    ],
+    "input_hash": "5d5a4e318169ba928490238789db76b320675b6a0ff02d850aed92d804ce57c5",
+    "cost_usd": 0.05603519999999999
   }
 }

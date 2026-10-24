@@ -11,7 +11,7 @@ review:
   at: "2026-10-06T15:20:30.221Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -163,9 +163,12 @@ Mileage rates and per diem allowances are only needed if employees claim travel 
 - [Set Up Expense Agent in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page): Learn how to set up Expense Agent to automate expense tracking, processing, policy evaluation, and approval workflows in Business Central.
 - [Set Up Expense Categories, Rules, and Policies](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-categories-rules): Learn how to create expense categories, subcategories, groups, rules, and AI-evaluated policies that control employee expenses in Business Central.
 - [Set Up Expense Management in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-setup): Learn how to configure Expense Agent, policies, payment methods, posting groups, VAT reclaim, and approval workflows for expenses in Business Central.
+  - In the observatory: [Page 6930 "Expense Payment Methods"](../../../../objects/page/6930.md), [Page 6939 "Expense Approval Setup"](../../../../objects/page/6939.md), [Page 6946 "Expense Categories"](../../../../objects/page/6946.md)
 - [Set Up Expense Users and Teams](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams): Learn how to create expense users, link them to employees, and organize them into teams for expense management in Business Central.
+  - In the observatory: [Page 9807 "User Card"](../../../../objects/page/9807.md)
 - [Set Up Mileage Rates for Expense Management](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-mileage-rate-setup): Configure mileage reimbursement rates by vehicle type, currency, and date range so Business Central applies the correct rate automatically.
 - [Set Up Per Diem and Mileage Allowances](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage): Learn how to configure per diem rates, mileage reimbursement, partial day rules, and meal reductions for expense management in Business Central.
+  - In the observatory: [Page 6900 "Expense Management Rules"](../../../../objects/page/6900.md), [Page 6937 "Expense Locations"](../../../../objects/page/6937.md)
 
 ## Business Central pages and reports
 

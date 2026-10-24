@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/apply-company-configuration-packages.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/apply-company-configuration-packages",
+  "title": "Apply Company Configuration Packages",
+  "blob": "098afa7295760ab7f5954afdc7f05d5b0f6ac7b9",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Set up a company in a sandbox first so users can practice before using production."
+    },
+    {
+      "kind": "step",
+      "text": "Validate configuration questionnaire by checking that text strings are not in date fields and reviewing regional format consistency."
+    },
+    {
+      "kind": "step",
+      "text": "Import customer data from Excel or rapidstart file using Configuration Worksheet or Configuration Package page."
+    },
+    {
+      "kind": "limit",
+      "text": "Configuration packages are not for production companies already in use; use XMLport for large data imports in production instead."
+    },
+    {
+      "kind": "fact",
+      "text": "Mapping can be set for individual fields or derived from related table primary keys, with direct field mapping taking priority."
+    }
+  ],
+  "dropped": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003696,
+      "pages_in_call": 16
+    }
+  ]
+}

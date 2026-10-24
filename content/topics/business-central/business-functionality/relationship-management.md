@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:27.161Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -426,6 +426,7 @@ Two further subtopics round out the area. One covers using Dynamics 365 Sales wi
 
 - [Relationship management](https://learn.microsoft.com/dynamics365/business-central/marketing-relationship-management): Use relationship management features to streamline sales, access detailed contact and prospect information, and improve customer service efficiency.
 - [Set up marketing and contact management information](https://learn.microsoft.com/dynamics365/business-central/marketing-setup-marketing): Set up marketing and contact management to strengthen relationships with prospects and customers, and enhance the effectiveness of your campaigns and promotions.
+  - In the observatory: [Page 5050 "Contact Card"](../../../objects/page/5050.md), [Page 5076 "Interaction Log Entries"](../../../objects/page/5076.md), [Page 5094 "Marketing Setup"](../../../objects/page/5094.md)
 
 ## Business Central pages and reports
 

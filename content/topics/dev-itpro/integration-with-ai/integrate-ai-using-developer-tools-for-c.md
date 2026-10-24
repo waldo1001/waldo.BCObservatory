@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -211,9 +211,7 @@ links:
     - post/aardvarklabs-blog/1891
     - post/aardvarklabs-blog/2663
     - post/aardvarklabs-blog/2965
-    - post/gerardorenteria-blog/13993
     - post/thinkaboutit-be/8204
-    - post/tine-staric-net/https-tine-staric-net-blog-2026-copilot-harness-default--e1d89722b8
   guidelines: []
   changes:
     - change/al-go/2413
@@ -232,7 +230,7 @@ coverage:
   learn: 24
   code: 0
   video: 2
-  blog: 7
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -277,6 +275,7 @@ Start with "What are the developer tools for Copilot?" and "What is considered a
 - [Token counting in AI](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-system-app-token-counting): Learn how to count the number of tokens in your input before sending a request to Azure OpenAI
 - [Transparency Note Developer Tools for Copilot in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-dev-tools-for-copilot): Developer tools for Copilot in Business Central help you build safer, adaptable AI features. Learn how to use the toolkit and boost productivity.
 - [Use developer tools for Copilot in Business Central AI resources](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-resources): Learn how you can use the developer tools for Copilot in Business Central AI resources in your own Marketplace extensions to create Copilot experiences in Business Central
+  - In the observatory: [Codeunit 7770 "AOAI Operation Response"](../../../objects/codeunit/7770.md), [Enum 7773 "AOAI Model Type"](../../../objects/enum/7773.md)
 - [What are the developer tools for Copilot?](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/developer-tools-for-copilot-overview): Get an overview of the toolkit from Business Central for extending Copilot in your extensions.
 - [What is considered an extension to Copilot?](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-extend-copilot-overview): Learn whether your AI idea or feature is a match for Copilot in Business Central
 
@@ -293,9 +292,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../../posts/aardvarklabs-blog/1891.md) (community post): "This post demonstrates how to build a multi-step AI-assisted process in Business Central"
 - [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "Azure OpenAI in Business Central AL: Managed vs Unmanaged"
 - [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
-- [🧠 Agent Skills + MCPs: check your BC extension health in VS Code 🔍](../../../posts/gerardorenteria-blog/13993.md) (community post): "orchestrate external tools like YAMPI and BC Telemetry Buddy to analyze Business Central extension health"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "Developers can now build Copilot extensions using Microsoft-managed Azure OpenAI"
-- [The Copilot harness is now VS Code's default](../../../posts/tine-staric-net/https-tine-staric-net-blog-2026-copilot-harness-default--e1d89722b8.md) (community post): "The Copilot harness is now VS Code's default"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../../videos/7SSNcUMFtCw.md) (video): "Bring your own Azure OpenAI subscription; System prompts for AI safety"
 - [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../videos/lNASlydCidI.md) (video): "Generative AI Developer Toolkit; Prompt Dialogue Page Type; Sparkle Image Property"
 

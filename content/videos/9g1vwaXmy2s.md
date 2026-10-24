@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:52:17.570Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -138,6 +138,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/gerardorenteria-blog/14717
+      title: New Application Ideas of Dynamics 365 Business Central (2026 MAY)
+      label: possibly related
+      why: both name Page 680 "Report Inbox"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/ui-work-report-inbox
+      title: Share and Export Reports with the Report Inbox
+      label: possibly related
+      why: names Page 680 "Report Inbox"
+      by: code
 video_id: 9g1vwaXmy2s
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -162,6 +173,10 @@ chapters:
     title: Custom Filters and Report Options
   - t: 173
     title: Conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: when it releases in the near future
+    t: 187
 features:
   - name: Financial Report Scheduling
     status: announced
@@ -294,5 +309,12 @@ As heard in the captions. A name that matches one object page by exact type and 
 ## Disclaimers in the video
 
 - [3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s) coming-later: when it releases in the near future
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [New Application Ideas of Dynamics 365 Business Central (2026 MAY)](../posts/gerardorenteria-blog/14717.md) — possibly related: both name Page 680 "Report Inbox"
+- [Share and Export Reports with the Report Inbox](https://learn.microsoft.com/dynamics365/business-central/ui-work-report-inbox) — possibly related: names Page 680 "Report Inbox"
 
 Presenters (as heard): Eusen.

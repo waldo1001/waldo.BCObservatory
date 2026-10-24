@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:13.287Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,8 +42,7 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language
   localizations: []
   videos: []
-  posts:
-    - post/jpearson-blog/1601
+  posts: []
   guidelines: []
 learn_toc_path:
   - Development
@@ -56,7 +55,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 9976ea24e7f620532bad3b7fb91eba90502a577dc1e3ce920491d3dd5092710c
@@ -92,11 +91,5 @@ Start with whichever capability you need. The two pages are independent, and the
 
 - [Implementing Location in AL for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al): Learn how to implement location access in AL for Dynamics 365 Business Central. Enhance your app with GPS capabilities for better customer service.
 - [Implementing the Camera in AL for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al): Learn how to implement the camera capability on a Business Central page in AL, so users can take pictures and handle them directly from the same device.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Integration with Azure Static Web Apps from Business Central](../../../../posts/jpearson-blog/1601.md) (community post): "integrate an Azure Static Web App with Business Central by using the WebPageViewer control add-in"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:47:57.439Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:57.473Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -127,6 +127,10 @@ chapters:
     title: "Demo: Manual Grouping and Submission for Approval"
   - t: 527
     title: Future Roadmap and Related Sessions
+cautions:
+  - kind: preview-disclaimer
+    quote: the grouping um still something in progress. It's somewhat of a simple grouping
+    t: 472
 features:
   - name: Web App for Expense Agent
     status: unclear

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:12.562Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -286,7 +286,7 @@ narrative: generated
 
 > Germany local functionality in Business Central: VAT reporting and ELSTER submissions, EU Sales List, Intrastat, digital audit exports, German e-invoicing, delivery reminders, and the Vendor Payments List report. It answers setup, submission, export and compliance questions for German companies.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Germany · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Germany · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

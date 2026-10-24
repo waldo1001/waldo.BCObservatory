@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:21:08.662Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -156,6 +156,7 @@ The "Use approval workflows" subtopic (6 pages) covers day-to-day approval work.
 
 - [Use Power Automate flows in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-flow): Use Power Automate flows to create, edit, and manage business processes. Boost productivity with easy automation.
 - [Workflows in Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/across-workflow): Use built-in workflow capabilities to set up approval workflows to supplement automated workflows based on Power Automate.
+  - In the observatory: [Page 1505 "Workflow Templates"](../../../../objects/page/1505.md)
 
 ## Business Central pages and reports
 

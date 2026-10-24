@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/bertverbeek-nl/1272",
+  "page_id": "post/bertverbeek-nl/1272",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "You cannot implement this because it is internal.",
+      "objects": [
+        {
+          "type": "interface",
+          "name": "IAgentExperimental"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002754,
+    "posts_in_call": 4
+  }
+}

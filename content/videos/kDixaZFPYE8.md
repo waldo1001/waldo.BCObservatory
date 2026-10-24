@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:46:48.249Z"
   flags: []
 generated:
-  at: "2026-10-07T22:46:52.767Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -105,6 +105,13 @@ chapters:
     title: Spanish language demo - detailed categorization results
   - t: 244
     title: Recap and testing across global languages
+cautions:
+  - kind: preview-disclaimer
+    quote: more countries and languages to come in October
+    t: 31
+  - kind: preview-disclaimer
+    quote: more languages will come
+    t: 244
 features:
   - name: Expense Agent multilingual support
     status: unclear

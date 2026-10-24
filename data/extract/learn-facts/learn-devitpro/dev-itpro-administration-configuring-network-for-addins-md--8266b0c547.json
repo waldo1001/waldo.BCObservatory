@@ -1,0 +1,31 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/configuring-network-for-addins.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins",
+  "title": "Preparing your network for the Excel Add-In",
+  "blob": "c6b166902ee1a628ed9e6cef048154aefad07c9a",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Excel add-in requires network access to four Microsoft services for functioning and synchronizing data with Business Central."
+    },
+    {
+      "kind": "limit",
+      "text": "Network services must allow routing to az689774.vo.msecnd.net, dc.services.visualstudio.com, exceladdinprovider.smb.dynamics.com, and api.businesscentral.dynamics.com."
+    },
+    {
+      "kind": "fact",
+      "text": "Custom vertical solution environments use different API endpoints based on ApplicationName.api.bc.dynamics.com format, checkable in Business Central Administration Center."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

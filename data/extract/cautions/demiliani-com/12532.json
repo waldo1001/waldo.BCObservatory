@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/demiliani-com/12532",
+  "page_id": "post/demiliani-com/12532",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "On 30 September 2028, Microsoft will retire the Azure Functions Linux Consumption hosting plan.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "You need to have the Storage Blob Data Reader role assigned to your user (or you will spend hours on troubleshooting).",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "You aren't able to shift an existing Consumption plan app to the Flex Consumption plan.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004025,
+    "posts_in_call": 4
+  }
+}

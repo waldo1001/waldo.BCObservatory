@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:10:38.683Z"
   flags: []
 generated:
-  at: "2026-10-07T23:10:38.732Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -149,6 +149,19 @@ chapters:
     title: Power Apps, Dataverse Linking, and Power Pages
   - t: 1053
     title: Copilot Integration and Additional Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: there will be more of those coming later in the wave
+    t: 550
+  - kind: preview-disclaimer
+    quote: we have a plan to deprecate V2 actions fully in the next year
+    t: 828
+  - kind: preview-disclaimer
+    quote: we have plans of deprecating v1.0 apis
+    t: 910
+  - kind: preview-disclaimer
+    quote: that feature is coming as preview later in this wave
+    t: 1053
 features:
   - name: Single Entry Point for Power Automate Flows
     status: unclear

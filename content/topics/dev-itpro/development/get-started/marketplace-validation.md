@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:46.687Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,12 +81,12 @@ links:
   topics:
     - topic/dev-itpro/development/get-started
   localizations: []
-  videos:
-    - video/9i6hVsw9x_U
+  videos: []
   posts:
     - post/demiliani-com/12142
   guidelines: []
   changes:
+    - change/al-go/2402
     - change/bcapps/9407
     - change/bcquality/142
 learn_toc_path:
@@ -99,7 +99,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 1
+  video: 0
   blog: 1
   guideline: 0
 bc_forms: []
@@ -111,7 +111,7 @@ narrative: generated
 
 > Marketplace validation covers what partners need to do before and after submitting Business Central apps to AppSource: the technical validation checklist and FAQ, telemetry for validation results, and guidance on landing pages and videos. It answers questions on requirements, self-validation, diagnosing failed validation and marketing an app.
 
-Path: [Development](../../development.md) > [Get started](../get-started.md) > Marketplace validation · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../development.md) > [Get started](../get-started.md) > Marketplace validation · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -135,20 +135,33 @@ Two pages cover marketing: how to build an effective sales landing page and how 
 ## Learn pages
 
 - [Analyzing Marketplace app breaking changes validation telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-app-validation-trace): Learn about the telemetry for breaking changes validation of Marketplace apps in Business Central.
+  - Failed app validations emit telemetry traces to partner's Application Insights resource with failure reasons.
+  - Partners can monitor Marketplace apps and set up alerts for apps needing attention before next major version.
+  - Breaking changes validation is separate from Marketplace submission validation that occurs in Partner Center.
+  - Limit: AL compiler errors and AppSourceCop analyzer issues are reported as validation diagnostics during the process.
+  - Validation diagnostics can be information, warning, or error severity levels based on issue type.
 - [Analyzing Marketplace submission validation trace telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace): Learn about the telemetry for publishing apps to Marketplace from Partner Center.
+  - Status: Available from Business Central 2021 release wave 1, version 18.4 and later.
+  - Telemetry traces are emitted for validation process phases when app is submitted to Marketplace.
+  - Validation runs against each extension for each country and Business Central version specified.
+  - Each submission receives unique ID included in each trace allowing queries of all related traces.
+  - AL compiler and AppSourceCop code analyzer perform validation on extensions.
+  - Traces report diagnostics, validation phases, errors, and whether validation completed with or without failures.
 - [How to create an effective sales landing page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-how-to-create-sales-landing-page): Guideline on creating an effective Sales Landing page for your app
 - [How to make compelling videos](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-how-to-make-compelling-videos): How to make compelling videos to market your app
 - [Marketing Validation Checklist](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-checklist-marketing): The marketing checklist for validation of Business Central apps
 - [Technical validation checklist](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission): Describes the steps you must go through to successfully submit your app to Marketplace using AppSourceCop for Business Central.
 - [Technical validation FAQ](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-faq): Describes the most common questions when submitting your app to Marketplace for Business Central.
 
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
 ## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#2402 Move Copilot review engine into AL-Go](../../../../changes/al-go/2402.md) (code change): "ReviewAgent action runs in four phases"
 - [#9407 Add Microsoft apps view to AppSource product list (Fix ADO #642217)](../../../../changes/bcapps/9407.md) (code change): "A new predefined view called "Microsoft apps" was added to the AppSource Product List page"
 - [#142 Add AL-focused AppSource validation guidance](../../../../changes/bcquality/142.md) (code change): "Six community AppSource knowledge articles with paired good and bad AL samples"
 - [Dynamics 365 Business Central: checking for breaking changes on obsoleted, internal and OnPrem objects.](../../../../posts/demiliani-com/12142.md) (community post): "AppSourceCop configuration settings validateObsoleteSymbols, validateInternalSymbols, validateOnPremSymbols"
-- [AppSource App Previews](../../../../videos/9i6hVsw9x_U.md) (video): "Preview Key for AppSource Apps; Preview Version Installation URL"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:45:56.601Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -117,6 +117,17 @@ chapters:
     title: Resources and landing page
   - t: 304
     title: Closing
+cautions:
+  - kind: preview-disclaimer
+    quote: ability to bookmark an analysis tab. So, we have added these what's called so-called system fields, created by, created on, modified by, modified on. Um I think hm I actually quite a few years ago. They exist on all tables in Business…
+    t: 32
+    versions:
+      - "29"
+  - kind: preview-disclaimer
+    quote: coming in version 29.x, hopefully here in the one of the first minor versions, is ability to bookmark an analysis tab or analysis view.
+    t: 109
+    versions:
+      - "29"
 features:
   - name: System fields in analysis mode
     status: ga

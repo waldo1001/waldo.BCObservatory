@@ -12,7 +12,7 @@ review:
   at: "2026-10-23T01:12:46.996Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -397,7 +397,6 @@ links:
   videos:
     - video/mnxOSl1Y9PI
   posts:
-    - post/gerardorenteria-blog/13675
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d
   guidelines: []
   changes:
@@ -433,7 +432,7 @@ coverage:
   learn: 523
   code: 77
   video: 1
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 16
@@ -589,7 +588,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9650 [Master] -Revert Changes- 'Greater Than' Withholding Tax Calculation Rule is not applied correctly in Withholding Tax Posting Setup.](../../changes/bcapps/9650.md) (code change): "Reverts the earlier change from PR 9515 to how the 'Greater Than' withholding tax calculation"
 - [#9876 [Subscription Billing] Rename progress tracker](../../changes/bcapps/9876.md) (code change): "Codeunit 8035 renamed from 'Progress Tracker' to 'Sub. Billing Progress Tracker'"
 - [#87 Fix knowledge corpus integrity issues](../../changes/bcquality/87.md) (code change): "Dead knowledge and sample references in skill documentation were replaced with canonical current articles"
-- [📝 Adding Notes to Financial Report Lines 📊](../../posts/gerardorenteria-blog/13675.md) (community post): "AL extension adds line-level notes to financial reports; new fields added"
 - [BC Friday Tips #62 VS Code AL Themes](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d.md) (community post): "The AL Language extension in VS Code includes built-in themes called Business Central Light and Business Central Dark"
 - [What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)](../../videos/mnxOSl1Y9PI.md) (video): "Key Updates in our Learning Content documentation For Developers 2024 release wave 1"
 

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:00:39.829Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:39.901Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -132,6 +132,13 @@ chapters:
     title: Purchasing and Allocating Copilot Studio Capacity
   - t: 872
     title: Summary and Final Configuration Confirmation
+cautions:
+  - kind: preview-disclaimer
+    quote: by activating AI capabilities, you understand your organization may be built for its use in the future
+    t: 118
+  - kind: preview-disclaimer
+    quote: at this point of time the sales order agent is the only capability uh which is being u built for
+    t: 132
 features:
   - name: AI consumption billing for Business Central
     status: unclear

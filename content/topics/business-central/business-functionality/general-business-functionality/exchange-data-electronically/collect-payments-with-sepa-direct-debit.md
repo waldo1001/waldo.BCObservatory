@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:59.205Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -160,10 +160,15 @@ Start with the SEPA Direct Debit page for the end-to-end process. Then read Set 
 ## Learn pages
 
 - [SEPA Direct Debit in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit): With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.
+  - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 981 "Payment Registration"](../../../../../objects/page/981.md)
 - [Set up bank accounts](https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-accounts): Learn how bank accounts are used in Business Central, and how you can reconcile amounts with your bank.
+  - In the observatory: [Page 1290 "Payment Reconciliation Journal"](../../../../../objects/page/1290.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md)
 - [Set Up Yodlee Bank Feeds](https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-statement-service): You can convert payment information to any data format that your bank requires and enable the export or import of bank files.
+  - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md)
 - [Using the AMC banking 365 fundamentals extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-amc-banking): Learn how to easily exchange data with your banks by transforming data into the format that they require.
+  - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md)
 - [XML schemas to prepare data exchange definitions](https://learn.microsoft.com/dynamics365/business-central/across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions): Use XML schemas to set up the data exchange framework to define which data elements you want to exchange with.
+  - In the observatory: [Page 9610 "XML Schema Viewer"](../../../../../objects/page/9610.md)
 
 ## Business Central pages and reports
 

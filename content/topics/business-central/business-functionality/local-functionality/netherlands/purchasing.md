@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:00.460Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,6 +90,8 @@ Start with the amount check page to learn what is validated. Then use the editin
 ## Learn pages
 
 - [Check amounts on purchase invoices and credit memos](https://learn.microsoft.com/dynamics365/business-central/check-purchase-amounts): You can verify that the total amount on purchase invoices and credit memos equals the total amounts, including VAT, on the lines.
+  - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md)
 - [Edit Doc Amounts Purch Invoices Credit Memos](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos): In the Dutch version of Business Central, you can quickly edit amounts in purchase invoices and credit memos.
+  - In the observatory: [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md), [Page 52 "Purchase Credit Memo"](../../../../../objects/page/52.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

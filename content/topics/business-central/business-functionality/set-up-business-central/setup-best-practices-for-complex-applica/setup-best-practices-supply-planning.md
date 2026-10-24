@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:02.904Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -113,6 +113,7 @@ Start with the introductory page, then read the reordering policies page to choo
 
 - [Best practices for global planning setup](https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-global-planning-setup): The Planning FastTab in the Manufacturing Setup page contains several fields that define global rules for supply planning.
 - [Setup best practices - Planning parameters](https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-planning-parameters): This topic outlines best practices on how to set up selected planning parameter fields with the Planning FastTab on the item card.
+  - In the observatory: [Page 30 "Item Card"](../../../../../objects/page/30.md)
 - [Setup best practices - Reordering policies \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-reordering-policies): The Reordering Policy field on item cards offers four different planning methods that determine how the individual planning parameters interact.
 - [Setup Best Practices - Supply Planning](https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-supply-planning): When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.
 

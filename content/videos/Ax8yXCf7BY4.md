@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:12:40.997Z"
   flags: []
 generated:
-  at: "2026-10-07T23:12:41.033Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -171,6 +171,16 @@ chapters:
     title: Report Formatting Enhancements
   - t: 1191
     title: Report Formatting Summary and Closing Remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: forcing digital vouchers e documents and these features will not be show in this presentation
+    t: 100
+  - kind: preview-disclaimer
+    quote: you will not show NCT V improvements because this is something we already deliver in previous series
+    t: 121
+  - kind: preview-disclaimer
+    quote: the next one going to be Iceland the global plan is to be a little bit more aggressive on the on that way
+    t: 444
 features:
   - name: EU three-party trade app
     status: unclear

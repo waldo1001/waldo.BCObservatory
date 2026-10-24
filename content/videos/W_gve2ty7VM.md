@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:58:44.477Z"
   flags: []
 generated:
-  at: "2026-10-07T22:58:44.530Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -115,6 +115,13 @@ chapters:
     title: Embed Secrets in Install Apps
   - t: 606
     title: Multiple Branches Support and Demo
+cautions:
+  - kind: preview-disclaimer
+    quote: If you'll find like features described on top of version 6.4, they will not be included in version 6.4, meaning that you probably have to run preview or yeah or or or they are not even in preview yet
+    t: 83
+  - kind: preview-disclaimer
+    quote: There's one scenario that doesn't work. That's GitHub packages. So, uh, that's a feature that GitHub is is is missing
+    t: 363
 features:
   - name: Deprecations Website
     status: unclear

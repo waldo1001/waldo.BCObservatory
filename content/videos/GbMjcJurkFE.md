@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:05:27.197Z"
   flags: []
 generated:
-  at: "2026-10-07T23:05:27.254Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -152,6 +152,13 @@ chapters:
     title: "Tip 4: Start analysis from the chat pane"
   - t: 494
     title: Recap and call to action
+cautions:
+  - kind: preview-disclaimer
+    quote: analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2
+    t: 6
+  - kind: preview-disclaimer
+    quote: it may not perform as intended and results May Vary depending on your input and the context
+    t: 380
 features:
   - name: Analysis Assist
     status: preview

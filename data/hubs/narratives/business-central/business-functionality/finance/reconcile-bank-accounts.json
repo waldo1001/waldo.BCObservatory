@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.013771
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:55:44.293Z",
+    "verdict": "approve",
+    "issues": [
+      "The release waves (2022 release wave 1 for Bank Deposits; 2025 release wave 1 and wave 2 for Copilot) come from the pages' version tags. The narrative presents them as release information, which goes slightly beyond the tags but is acceptable.",
+      "The overview sends readers to 'Manage bank accounts' for overall concepts. That page's summary is mostly about reconciliation, so this framing is a bit loose but not wrong."
+    ],
+    "input_hash": "8916d0cbcc5640c64ffef6fd5d41d7cde8ee92128a9af36e3b18dda41f0d7110",
+    "cost_usd": 0.0328512
   }
 }

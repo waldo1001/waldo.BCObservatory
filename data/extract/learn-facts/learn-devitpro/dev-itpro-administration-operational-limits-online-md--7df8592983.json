@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/operational-limits-online.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/operational-limits-online",
+  "title": "Operation Limits in Dynamics 365 Business Central",
+  "blob": "60f32c796f2c932eba795bd4e7ec543454aa2696",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "limit",
+      "text": "Maximum file size for upload or download is 350 MB."
+    },
+    {
+      "kind": "limit",
+      "text": "Total compressed data size in an environment database is limited to 3 TB including keys, indexes, and BLOB data."
+    },
+    {
+      "kind": "limit",
+      "text": "Maximum number of companies per environment is 300."
+    },
+    {
+      "kind": "limit",
+      "text": "Maximum OData page size is 20,000 entities per request."
+    },
+    {
+      "kind": "limit",
+      "text": "Maximum SOAP message size is 65,536 KB."
+    },
+    {
+      "kind": "limit",
+      "text": "Background sessions default maximum wait time is 8 hours before processing."
+    },
+    {
+      "kind": "limit",
+      "text": "Maximum nested sessions depth is 14 before an excessive recursion error occurs."
+    },
+    {
+      "kind": "limit",
+      "text": "Report default maximum execution time is 6 hours; absolute maximum is 12 hours."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009138,
+      "pages_in_call": 4
+    }
+  ]
+}

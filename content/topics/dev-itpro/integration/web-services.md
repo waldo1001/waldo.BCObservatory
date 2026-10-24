@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:13:54.202Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -318,10 +318,10 @@ links:
     - topic/dev-itpro/integration/web-services/soap
   localizations: []
   videos:
-    - video/S5Xw-b8YF-c
     - video/sk5CaXnvvng
     - video/VpNQ-CYNrkM
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/4082
   guidelines: []
   changes:
     - change/bcapps/11096
@@ -346,8 +346,8 @@ children:
 coverage:
   learn: 294
   code: 1
-  video: 3
-  blog: 0
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 812
@@ -392,6 +392,7 @@ To start, read the publishing subtopic to expose an endpoint, then the security 
 
 - [Compare REST APIs, OData, and SOAP web services in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-services): Compare the features of REST APIs, SOAP, and OData web services and know how to create and maintain these services.
 - [Integration Management Refactoring Guidance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-integration-record-refactoring): This article offers guidance for refactoring the code in your Marketplace app or per-tenant extension to use system fields rather than integration records.
+  - In the observatory: [Codeunit 49 "GlobalTriggerManagement"](../../../objects/codeunit/49.md)
 - [Troubleshooting web service errors (OData, API, and SOAP)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-troubleshooting): Learn about how to troubleshoot Business Central web service errors (OData, API, and SOAP).
 - [Web Service Performance (OData, API, and SOAP)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-performance): Learn about how performance of Business Central web services (OData, API, and SOAP)
 - [Web Service Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-telemetry): Learn about how Business Central emits telemetry about web service requests
@@ -409,7 +410,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12326 Migrate Doc. Exchange and OCR service callers off Http Web Request Mgt.](../../../changes/bcapps/12326.md) (code change): "Document Exchange and OCR service codeunits migrate from DotNet"
 - [#9914 [APIV2] Return unapplied lines from the Vendor Payments API](../../../changes/bcapps/9914.md) (code change): "The Vendor Payments API now returns all payment lines in a batch, including unapplied payments"
 - [#100 Add P0 integration and control add-in runtime guidance](../../../changes/bcquality/100.md) (code change): "Guidance and AL samples for linking API parts on SystemId and setting Multiplicity."
-- [What's New: APIs in E-Documents (2025 release wave 2)](../../../videos/S5Xw-b8YF-c.md) (video): "E-Documents APIs; E-Document Business Events; Create E-Document"
+- [Business Central’s New API Overview: A Modern Replacement for Web Services](../../../posts/aardvarklabs-blog/4082.md) (community post): "replacing the legacy Web Services page. SOAP endpoints are deprecated"
 - [What's New: Server and Database - More Stable Web Services (2023 release wave 2)](../../../videos/sk5CaXnvvng.md) (video): "Web services; odata; http status codes; error handling"
 - [What's New: Web Services in Business Central (2024 release wave 1)](../../../videos/VpNQ-CYNrkM.md) (video): "Web Services in Business Central; OData; API performance; web service"
 

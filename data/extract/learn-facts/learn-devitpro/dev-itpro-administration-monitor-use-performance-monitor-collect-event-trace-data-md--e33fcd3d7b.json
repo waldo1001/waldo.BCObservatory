@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-use-performance-monitor-collect-event-trace-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-use-performance-monitor-collect-event-trace-data",
+  "title": "Use Performance Monitor to Collect Event Trace Data",
+  "blob": "db3f1d4dc0630eb6d5918a1e706a57e3a98fae9c",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "step",
+      "text": "Start Performance Monitor and create Data Collector Set under User-defined with event trace data type."
+    },
+    {
+      "kind": "step",
+      "text": "Add Microsoft-DynamicsNAV-Server provider to collect trace events in Data Collector Set wizard."
+    },
+    {
+      "kind": "step",
+      "text": "Filter specific trace events by keyword decimal value in Properties list and Manual field."
+    },
+    {
+      "kind": "fact",
+      "text": "Keyword values: service calls (4), AL functions (8), sum values for multiple events (e.g., 12 for both)."
+    },
+    {
+      "kind": "step",
+      "text": "Increase trace buffer settings to minimum 128 size, 50 minimum and maximum buffers to prevent dropped events."
+    },
+    {
+      "kind": "step",
+      "text": "Start Data Collector Set to begin recording and stop to end recording trace event data."
+    },
+    {
+      "kind": "fact",
+      "text": "Collected data stored in .etl file viewable with PerfView or other industry-standard tools."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006599,
+      "pages_in_call": 8
+    }
+  ]
+}

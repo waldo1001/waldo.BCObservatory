@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:09:08.180Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -117,6 +117,10 @@ chapters:
     title: Key Takeaways and Documentation Best Practices
   - t: 563
     title: Related Sessions and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: upcoming also Microsoft purview for audit uh purposes or audit functionality
+    t: 404
 features:
   - name: Integration Overview Documentation
     status: unclear

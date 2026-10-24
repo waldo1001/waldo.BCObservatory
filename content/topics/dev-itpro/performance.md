@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -81,7 +81,6 @@ links:
   localizations: []
   videos:
     - video/D7GxnNiGQ14
-    - video/G0avZpiDFtI
     - video/snVsG69X-kw
     - video/XcQFvNnKpxk
   posts:
@@ -105,7 +104,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 4
+  video: 3
   blog: 9
   guideline: 0
 bc_forms: []
@@ -122,6 +121,7 @@ Path: Performance · tier official · system platform · no narrative yet
 ## Learn pages
 
 - [How Application Configurations Affect Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-application): Learn how in-product configurations, such as extensions, background jobs, locking, and FlowFields, affect performance in Business Central.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../objects/page/118.md), [Page 2610 "Feature Management"](../../objects/page/2610.md), [Page 30 "Item Card"](../../objects/page/30.md), [Page 459 "Sales & Receivables Setup"](../../objects/page/459.md)
 - [How to work with a performance problem](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-work-perf-problem): Troubleshooting process that can help to guide you to find the root cause slow performance.
 - [Performance Articles for AL Developers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer): Learn how to write efficient AL code, pages, reports, and web services, and use tools like the AL Profiler to improve performance in Business Central.
 - [Performance in Business Central Online Environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-online): Learn how sandbox environment configuration, service scalability, and operational limits affect performance in Business Central online.
@@ -144,7 +144,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Planning Table Indexes for the Best Performance](../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "justify each index by confirming it's actually needed and used"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../posts/waldo-be/318212.md) (community post): "careful analysis using telemetry to track missing indexes over time"
 - [20260223 - If You Can’t Make It Fast, Make It Feel Fast](../../videos/D7GxnNiGQ14.md) (video): "If You Can't Make It Fast, Make It Feel Fast"
-- [What's New: Server and Database (2025 release wave 1)](../../videos/G0avZpiDFtI.md) (video): "Faster Copy Company; Database Missing Indexes Page Enhancements"
 - [Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?](../../videos/snVsG69X-kw.md) (video): "User scalability in Business Central cloud"
 - [What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)](../../videos/XcQFvNnKpxk.md) (video): "Performance Testing before Go-Live with Performance Toolkit"
 

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:16:21.596Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -112,6 +112,16 @@ chapters:
     title: Downloading Roadmap Data and MCP Integration
   - t: 720
     title: Summary and Conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: Microsoft stopped publishing release plan starting version 2026 release wave 2
+    t: 114
+  - kind: preview-disclaimer
+    quote: wave terminology will likely evolve and Microsoft will share more details as the plan gets finalized
+    t: 243
+  - kind: preview-disclaimer
+    quote: preview available will be on October 2026 typically with CU 0 or CU1
+    t: 468
 features:
   - name: AI at Work Roadmap
     status: unclear

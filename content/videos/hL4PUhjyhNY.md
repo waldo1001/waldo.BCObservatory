@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:58:39.091Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -126,6 +126,13 @@ chapters:
     title: PDF/A Format Support and Continuous Development
   - t: 407
     title: Closing Remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: Pint/Zed format will be mandatory from May (in Australia)
+    t: 302
+  - kind: preview-disclaimer
+    quote: we will continue to work in enabling PDFA formats in some other countries
+    t: 397
 features:
   - name: E-Documents Core App
     status: unclear

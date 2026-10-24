@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.623Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,6 @@ links:
   videos: []
   posts:
     - post/demiliani-com/12123
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2
   guidelines: []
   changes:
     - change/bcapps/11013
@@ -83,7 +82,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 16dba0894e31dd8da50949e6bdb1b79cc36fb092cdfcd340100f81445702d57a
@@ -128,6 +127,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11013 Remove 43 unused DotNet alias declarations](../../../../changes/bcapps/11013.md) (code change): "Remove 43 unused DotNet alias declarations from the DotNet Aliases"
 - [Dynamics 365 Business Central on-prem: be careful when referencing .NET assemblies across versions.](../../../../posts/demiliani-com/12123.md) (community post): "ensure assemblies are compiled for .NET Standard if targeting version 21 or later"
-- [Business Central Is Transitioning to .NET 10, and Here's What You Should Check](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2.md) (community post): "Business Central is transitioning from .NET 8 to .NET 10"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

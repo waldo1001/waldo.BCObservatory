@@ -368,14 +368,18 @@
     "change/al-go/2402": {
       "kind": "change",
       "key": "change/al-go/2402",
-      "hash": "bc86fade071bc2e654bd942700d7e1f1721ba06a25817113a38738d368949739",
+      "hash": "7eddd9a1a1d6b78aaf54ea7046415c8b621d1b6bd96b8b3c46bd6cb4b7377cd6",
       "title": "#2402 Move Copilot review engine into AL-Go",
       "source": "al-go-prs",
-      "at": "2026-10-23T01:10:34.026Z",
+      "at": "2026-10-24T00:07:08.701Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "Copilot code review engine moves from external hosting into AL-Go"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
+          "quote": "Copilot pull request review. A new SetupBCQuality"
+        },
+        {
+          "topic": "topic/dev-itpro/development/get-started/marketplace-validation",
+          "quote": "ReviewAgent action runs in four phases"
         }
       ]
     },
@@ -387,6 +391,20 @@
       "source": "al-go-prs",
       "at": "2026-10-17T01:11:05.747Z",
       "matches": []
+    },
+    "change/al-go/2407": {
+      "kind": "change",
+      "key": "change/al-go/2407",
+      "hash": "830d5f28b70cf6e0f7c8be3773d0658f92f0534ba849bbf8fa812edfc8f50e87",
+      "title": "#2407 Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency",
+      "source": "al-go-prs",
+      "at": "2026-10-24T00:07:09.817Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL-Go for GitHub now supports GitHub Enterprise Cloud with dynamic host resolution"
+        }
+      ]
     },
     "change/al-go/2413": {
       "kind": "change",
@@ -2553,6 +2571,20 @@
         }
       ]
     },
+    "change/bcapps/10384": {
+      "kind": "change",
+      "key": "change/bcapps/10384",
+      "hash": "b551c5517576349ece0cc4da7e86fed92086483dd583e00f04b9ff7710617cf0",
+      "title": "#10384 [Extensibility][SubscriptionBilling] Make procedures necessary for custom Usage Data Connector externally accessible",
+      "source": "bcapps-prs",
+      "at": "2026-10-24T00:07:08.130Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing",
+          "quote": "Subscription Billing procedures for creating custom Usage Data Connectors are now externally accessible"
+        }
+      ]
+    },
     "change/bcapps/10386": {
       "kind": "change",
       "key": "change/bcapps/10386",
@@ -2813,6 +2845,20 @@
         }
       ]
     },
+    "change/bcapps/10444": {
+      "kind": "change",
+      "key": "change/bcapps/10444",
+      "hash": "eeecb3b1f6d326956274af7eb6b071586f5707962063d9e02c3d13040ef5d2a3",
+      "title": "#10444 [Bug][Subscription Billing] \"Cancellation Possible Until\" is rounded to the end of the month when the Notice Period is expressed in days",
+      "source": "bcapps-prs",
+      "at": "2026-10-24T00:07:08.130Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing",
+          "quote": "subscription line cancellation dates were incorrectly rounded to month-end when notice periods were expressed in days"
+        }
+      ]
+    },
     "change/bcapps/10445": {
       "kind": "change",
       "key": "change/bcapps/10445",
@@ -2958,6 +3004,20 @@
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
           "quote": "Fixed Shopify exchange refund handling when the replacement item is more expensive"
+        }
+      ]
+    },
+    "change/bcapps/10477": {
+      "kind": "change",
+      "key": "change/bcapps/10477",
+      "hash": "a5603ee019f78454204e5418e41b1b558425134508740d5a4c706d01ba116444",
+      "title": "#10477 [Bug Fix] #249: Raise populated ErrorInfo for Subscription Billing failures",
+      "source": "bcapps-prs",
+      "at": "2026-10-24T00:07:08.130Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing",
+          "quote": "Subscription Billing error handlers now raise the fully populated ErrorInfo object instead of plain-text errors"
         }
       ]
     },
@@ -5557,6 +5617,15 @@
         }
       ]
     },
+    "change/bcapps/11258": {
+      "kind": "change",
+      "key": "change/bcapps/11258",
+      "hash": "96d5f0ff5b2d0c63f890f350995828180d150fc811cd53826a5c7d66711ef561",
+      "title": "#11258 [GB] IdealPostcodes: fix provider selection and address retrieval through the Postcode Service Manager framework",
+      "source": "bcapps-prs",
+      "at": "2026-10-24T00:07:09.817Z",
+      "matches": []
+    },
     "change/bcapps/11259": {
       "kind": "change",
       "key": "change/bcapps/11259",
@@ -6694,18 +6763,18 @@
     "change/bcapps/11665": {
       "kind": "change",
       "key": "change/bcapps/11665",
-      "hash": "b82e8fc619975bb76abc0555fe3ed0f952db06f40fa5b6819ad07edab4ed4116",
+      "hash": "b9324714686d4d147326391d37c54bf20b5304c1d6f044bf8dd47b6cfb0263e4",
       "title": "#11665 Bug 649580: [Subcontracting] Transfer Shipment report is missing subcontractor and manufacturing references",
       "source": "bcapps-prs",
-      "at": "2026-10-23T01:10:35.491Z",
+      "at": "2026-10-24T00:07:08.425Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
-          "quote": "Subcontracting Transfer Shipment report now displays subcontractor and manufacturing references"
+          "quote": "adds a report extension and selectable layout for standard Transfer Shipment report"
         },
         {
           "topic": "topic/business-central/business-functionality/manufacturing",
-          "quote": "Report with subcontractor, purchase order, and production order details"
+          "quote": "Subcontracting app now adds a report extension and selectable layout"
         }
       ]
     },
@@ -7449,14 +7518,18 @@
     "change/bcapps/11955": {
       "kind": "change",
       "key": "change/bcapps/11955",
-      "hash": "2bc67f9e56796b525f5acd602598e06345fb6e8fe2dc9ef32eb8e9637fbe9e29",
+      "hash": "82bc616153fbb2efafa9428c8e57036f1abb962a40bf3b741785d9320e48bdc0",
       "title": "#11955 Slice 626975: [Expense Agent] Alternate approvers - Delegated/Substitutes (November '26)",
       "source": "bcapps-prs",
-      "at": "2026-10-23T01:10:34.026Z",
+      "at": "2026-10-24T00:07:08.701Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Expense Agent now supports alternate approvers and delegated/substitute workflows"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Expense Agent adds alternate approvers for expense approvals"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
+          "quote": "Alternate approvers - Delegated/Substitutes"
         }
       ]
     },
@@ -8349,22 +8422,18 @@
     "change/bcapps/12201": {
       "kind": "change",
       "key": "change/bcapps/12201",
-      "hash": "8a690b55856003fb132ddf31c7af2e4cdc999093ee287d311c3611e7f2fa06b2",
+      "hash": "214b84db92629127866b379dd94b746bd3baec17ca5b3117cfbfa91c77a4633d",
       "title": "#12201 [29.X]- Incorrect project ledger costs when non-deductible VAT is posted to a foreign-currency project",
       "source": "bcapps-prs",
-      "at": "2026-10-23T01:10:39.721Z",
+      "at": "2026-10-24T00:07:08.959Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/accounting-for-costs",
           "quote": "Incorrect project ledger costs when non-deductible VAT is posted"
         },
         {
-          "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
-          "quote": "non-deductible VAT is posted to foreign-currency projects"
-        },
-        {
           "topic": "topic/business-central/business-functionality/finance/working-with-currencies",
-          "quote": "non-deductible VAT is posted to foreign-currency projects"
+          "quote": "non-deductible VAT is posted to a foreign-currency project"
         }
       ]
     },
@@ -9021,6 +9090,24 @@
         }
       ]
     },
+    "change/bcapps/12532": {
+      "kind": "change",
+      "key": "change/bcapps/12532",
+      "hash": "0bc7a4ec6fcaf4955fbb4e7d285c52bd9e4b6c85b53989b660c81e40d4cc784b",
+      "title": "#12532 [Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side",
+      "source": "bcapps-prs",
+      "at": "2026-10-24T00:07:13.095Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables",
+          "quote": "Dispute status is retained when users edit vendor ledger entries"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/purchasing",
+          "quote": "Dispute status is preserved when editing posted purchase invoice headers"
+        }
+      ]
+    },
     "change/bcapps/12538": {
       "kind": "change",
       "key": "change/bcapps/12538",
@@ -9364,6 +9451,24 @@
         }
       ]
     },
+    "change/bcapps/12690": {
+      "kind": "change",
+      "key": "change/bcapps/12690",
+      "hash": "8668274b7c2f11666abe5e2de47eb104a588d0f409fd9fea06fb5858161824ba",
+      "title": "#12690 [Master]-You must assign a serial number for item xxx\" when trying to reverse Capacity Ledger Entry",
+      "source": "bcapps-prs",
+      "at": "2026-10-24T00:07:14.183Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-item-tracking",
+          "quote": "Disabled item tracking for reversing capacity ledger entries that have zero output quantity"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-supply-planning",
+          "quote": "reversing capacity entries without requiring serial number assignment"
+        }
+      ]
+    },
     "change/bcapps/12694": {
       "kind": "change",
       "key": "change/bcapps/12694",
@@ -9395,14 +9500,14 @@
     "change/bcapps/12754": {
       "kind": "change",
       "key": "change/bcapps/12754",
-      "hash": "3b759305515aa9191896650a42f425caa60fa1b7e4df3ec7944a77171d500333",
+      "hash": "263ec1dee00c081854b668911bd7cfc16f5076e51c16076cd94035cade496d68",
       "title": "#12754 [29.X]-Outgoing Payment Report Employee Payments Missing",
       "source": "bcapps-prs",
-      "at": "2026-10-23T01:10:39.721Z",
+      "at": "2026-10-24T00:07:08.959Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/local-functionality/switzerland/core-finance",
-          "quote": "DTA Payment Journal report for Swiss localizations"
+          "quote": "employee payments missing from the Swiss DTA Payment Journal report"
         }
       ]
     },
@@ -9472,6 +9577,24 @@
         {
           "topic": "topic/business-central/business-functionality/sales/subscription-billing/contracts",
           "quote": "Billing lines are rolled back when vendor subscription contract invoice creation fails"
+        }
+      ]
+    },
+    "change/bcapps/12783": {
+      "kind": "change",
+      "key": "change/bcapps/12783",
+      "hash": "5d66382bf354f770eb7ff1c3ec0358f6527eabcbd452cbb8293ab499104b4e01",
+      "title": "#12783  [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations",
+      "source": "bcapps-prs",
+      "at": "2026-10-24T00:07:08.425Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
+          "quote": "Subcontractor price calculation for time-based operations now correctly multiplies"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing",
+          "quote": "purchase cost accuracy in manufacturing operations using subcontractors"
         }
       ]
     },
@@ -9559,6 +9682,20 @@
         }
       ]
     },
+    "change/bcapps/12842": {
+      "kind": "change",
+      "key": "change/bcapps/12842",
+      "hash": "b351556497a5a52722e030d99f56c21c51da25809251caed04fd71764c125ae4",
+      "title": "#12842 [main] Bug 653921 Warehouse pick fails with \"Nothing to handle\" when an earlier unshipped pick uses a non-default shipment bin ",
+      "source": "bcapps-prs",
+      "at": "2026-10-24T00:07:13.847Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes",
+          "quote": "Warehouse pick validation now correctly recognizes picked quantities in non-default shipment bins"
+        }
+      ]
+    },
     "change/bcapps/12846": {
       "kind": "change",
       "key": "change/bcapps/12846",
@@ -9625,14 +9762,18 @@
     "change/bcapps/12894": {
       "kind": "change",
       "key": "change/bcapps/12894",
-      "hash": "865acb20ae3e57b952f75555fd0a974c31edcbbe556b70df74f9c728d6323919",
+      "hash": "2df8a3f4d1588924c87c0cf0e039037e77ded459292a5e03073b0edae4ae951f",
       "title": "#12894 [PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice",
       "source": "bcapps-prs",
-      "at": "2026-10-23T01:10:34.026Z",
+      "at": "2026-10-24T00:07:08.701Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai",
-          "quote": "Payables Agent now recognizes vendor credit notes from PDFs using EN 16931"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Payables Agent now recognizes vendor credit notes in PDFs"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "creates purchase credit memos instead of invoices"
         }
       ]
     },
@@ -9758,14 +9899,18 @@
     "change/bcapps/13056": {
       "kind": "change",
       "key": "change/bcapps/13056",
-      "hash": "b3e580c5d422ca4fa6ebe1bd275df98f2e631fda026de4479ab88a1749a1fa13",
+      "hash": "ddc16649375fe3d32a3c07fcc88e4716ef08b5b94d27e51bea950867dc6090bb",
       "title": "#13056 [QM] Tracking specification quantity now is used properly",
       "source": "bcapps-prs",
-      "at": "2026-10-23T01:10:35.208Z",
+      "at": "2026-10-24T00:07:14.183Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/quality-management",
-          "quote": "Quality tracking specifications now correctly use the proper quantity values"
+          "quote": "Quality Management now uses the tracking specification quantity properly in its receiving integration"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-item-tracking",
+          "quote": "tracking specification quantity now is used properly"
         }
       ]
     },
@@ -9800,14 +9945,28 @@
     "change/bcapps/13085": {
       "kind": "change",
       "key": "change/bcapps/13085",
-      "hash": "a8c0d2df5b5e528b421d494c062828f1a6f027926df6cbaf2d7fa28357d4cfbf",
+      "hash": "d24e4bf0e686cad0833d8e7004742ec47135740f43f55fe143b50b5b60ded3ed",
       "title": "#13085 [Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.",
       "source": "bcapps-prs",
-      "at": "2026-10-23T01:10:39.721Z",
+      "at": "2026-10-24T00:07:08.959Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
-          "quote": "VAT product posting group handling introduced in BC 28.4"
+          "quote": "VAT Rate Change Conversion codeunit fixes a behavior change"
+        }
+      ]
+    },
+    "change/bcapps/13165": {
+      "kind": "change",
+      "key": "change/bcapps/13165",
+      "hash": "4dfdce437a02f28c4cf6443b8c21af55d7e38a896ab30660ba57b1f46aa2d7b5",
+      "title": "#13165 [Master]-\"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify\" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.",
+      "source": "bcapps-prs",
+      "at": "2026-10-24T00:07:08.959Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
+          "quote": "G/L Register table permissions to allow modifying entries"
         }
       ]
     },
@@ -9819,6 +9978,28 @@
       "source": "bcapps-prs",
       "at": "2026-10-23T01:10:42.232Z",
       "matches": []
+    },
+    "change/bcapps/13183": {
+      "kind": "change",
+      "key": "change/bcapps/13183",
+      "hash": "526c1661762a45e6db961499f3b3ece0429faaed0876e9e1b72052355beee9f7",
+      "title": "#13183 [Master]-Service Order created from Service Contract does not populate header dimensions until Dimensions action is opened",
+      "source": "bcapps-prs",
+      "at": "2026-10-24T00:07:15.075Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/service-management/fulfill-service-contracts",
+          "quote": "Service orders created from service contracts now populate header dimensions automatically"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/service-management/service-management-analytics/service-management-reports",
+          "quote": "The issue affected the Create Contract Service Orders report"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/service-management/deliver-service",
+          "quote": "Service orders are generated. Test coverage was expanded to verify the dimension population behavior"
+        }
+      ]
     },
     "change/bcapps/5833": {
       "kind": "change",
@@ -14705,6 +14886,20 @@
         }
       ]
     },
+    "change/bcapps/9880": {
+      "kind": "change",
+      "key": "change/bcapps/9880",
+      "hash": "22e1a7638eb1f3ac719c85eefc0f7af74d1ce3c19b6bb54759fe1ae8bac7452c",
+      "title": "#9880 [Bug Fix] #620132: Prevent IRS 1099 data on vendor ledger entries of non-1099 vendors",
+      "source": "bcapps-prs",
+      "at": "2026-10-24T00:07:08.959Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci",
+          "quote": "Prevent IRS 1099 data on vendor ledger entries of non-1099 vendors"
+        }
+      ]
+    },
     "change/bcapps/9886": {
       "kind": "change",
       "key": "change/bcapps/9886",
@@ -18143,6 +18338,28 @@
         ]
       }
     },
+    "post/aardvarklabs-blog/4082": {
+      "kind": "post",
+      "key": "post/aardvarklabs-blog/4082",
+      "hash": "822fda2edb8a8592379d7a06c177901e7ee123a18477a7070d2259f44c8ef777",
+      "title": "Business Central’s New API Overview: A Modern Replacement for Web Services",
+      "source": "aardvarklabs-blog",
+      "at": "2026-10-24T00:07:09.710Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "API Overview page provides a modern, unified interface to discover all API pages"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/web-services",
+          "quote": "replacing the legacy Web Services page. SOAP endpoints are deprecated"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-apis",
+          "quote": "AL-defined APIs are the future direction Microsoft is moving toward"
+        }
+      ]
+    },
     "post/bertverbeek-nl/1143": {
       "kind": "post",
       "key": "post/bertverbeek-nl/1143",
@@ -20028,6 +20245,42 @@
         {
           "topic": "topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis",
           "quote": "Organizations can fine-tune open-source LLMs locally using Business Central data"
+        }
+      ]
+    },
+    "post/demiliani-com/17529": {
+      "kind": "post",
+      "key": "post/demiliani-com/17529",
+      "hash": "da7c1dd0df64138f6750d315596936b8350860459f5659197a8ae05d8d3fa3fe",
+      "title": "Copilots and agents for Dynamics 365 Business Central: our new book is out!",
+      "source": "demiliani-com",
+      "at": "2026-10-24T00:07:08.701Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "how to design, build, test and govern AI solutions for Dynamics 365 Business Central"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "covering copilots, agents, and various implementation approaches"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "MCP, and .NET frameworks"
+        }
+      ]
+    },
+    "post/demiliani-com/17538": {
+      "kind": "post",
+      "key": "post/demiliani-com/17538",
+      "hash": "2364e51cca593b29f546240d954f2cb79dc24cace491357069177fa2a072e8fe",
+      "title": "Dynamics 365 Business Central: introducing the new “Recent Record” virtual table",
+      "source": "demiliani-com",
+      "at": "2026-10-24T00:07:09.817Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
+          "quote": "new Recent Record virtual table that tracks records recently accessed"
         }
       ]
     },
@@ -22292,20 +22545,29 @@
     "post/gerardorenteria-blog/15143": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/15143",
-      "hash": "4b0fc0ddcc2afa8646e6e79d8306b196e7c95bcc1e3f6d9e5dcb0e54bf33c217",
+      "hash": "9c16ab1b91a018b23460ac170ba1c1debae5da377326b9b51666b1d15fa79e73",
       "title": "🧩 Deriving dimensions in Business Central beyond Default Dimensions",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-08T01:51:23.335Z",
+      "at": "2026-10-24T00:07:20.105Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/extensibility/using-events",
+          "topic": "topic/dev-itpro/development/extensibility/extending-al-objects",
           "quote": "Hook into OnAfterGetRecDefaultDimIDProcedure to extend default dimensions without modifying standard code"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/events",
-          "quote": "The OnAfterGetRecDefaultDimIDProcedure integration event in the DimensionManagement codeunit fires after"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-24T00:07:00.898Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/extensibility/using-events",
+            "reason": "The post is about deriving dimensions; hooking into one particular integration event is the technique it uses, not an explanation of how events work."
+          },
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/events",
+            "reason": "The lesson is how to derive dimensions; hooking the integration event is the means, not the topic."
+          }
+        ]
+      }
     },
     "post/gerardorenteria-blog/15213": {
       "kind": "post",
@@ -23141,16 +23403,25 @@
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7429326284625186983": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7429326284625186983",
-      "hash": "b3f9608168b2cdf0358813b6f3363ef40be8d2a609fcb818e4017f9f00676b58",
+      "hash": "b26475ef6e557180c8876e71389e1c1bc069267e61fbc6d3ec7a56a63455209b",
       "title": "Testing Your MCP Connection with Real Business Central Questions and Best Practices (BLOG 4 OF 4)",
       "source": "mohana-blog",
-      "at": "2026-10-19T01:09:43.627Z",
+      "at": "2026-10-24T00:07:17.005Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/project-management",
-          "quote": "project budget analysis and inventory visualization"
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "Custom API pages are needed when standard BC APIs lack required data"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-24T00:07:00.898Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/business-functionality/project-management",
+            "reason": "The post is about testing an MCP and Claude connection, and project budget analysis is only a demo scenario."
+          }
+        ]
+      }
     },
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7706250162700204847": {
       "kind": "post",
@@ -23495,20 +23766,33 @@
     "post/olofsimren-com/3865": {
       "kind": "post",
       "key": "post/olofsimren-com/3865",
-      "hash": "c14d24a324d06bc109f73246e8af70a4cd1ef9e456f0d88d209acd07b0798f61",
+      "hash": "f008fe9eb81c022ce219d474e0d51411e632194f9fb446a87da99d176748b6b4",
       "title": "Business Central Case Study: How World Emblem Automated High-Volume Manufacturing Processes",
       "source": "olofsimren-com",
-      "at": "2026-10-21T00:47:16.870Z",
+      "at": "2026-10-24T00:07:16.263Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/manufacturing",
-          "quote": "high-volume embroidered garment manufacturer, used Business Central automation and configuration-driven customizations to scale operations"
+          "topic": "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-automate",
+          "quote": "automation and configuration-driven customizations to scale operations"
         },
         {
-          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing",
-          "quote": "Built configuration tables for business rules instead of hard-coded customizations"
+          "topic": "topic/dev-itpro/integration",
+          "quote": "Migrated freight calculation logic from external systems into Business Central"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-24T00:07:00.898Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/business-functionality/manufacturing",
+            "reason": "A case study on automation, warehouse routing and freight logic, not on manufacturing functionality."
+          },
+          {
+            "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing",
+            "reason": "A customer case study about automating warehouse routing, freight and business rules; it doesn't cover how to set up manufacturing."
+          }
+        ]
+      }
     },
     "post/olofsimren-com/3885": {
       "kind": "post",
@@ -25541,16 +25825,20 @@
     "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/",
-      "hash": "70c444318252b4d5e69a4d6aacf9e6d50462d68fda37a1f9922cbb9759484db6",
+      "hash": "168b51db33c5ce6f917e6504b030fc7f83d803ba922c0a7e57c07ad4182af894",
       "title": "BC Friday Tips #69 Item Blocked Fields",
       "source": "thatnavguy-com",
-      "at": "2026-10-07T16:27:07.889Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/business-functionality/inventory",
-          "quote": "Item table in Business Central has multiple blocked fields"
-        }
-      ]
+      "at": "2026-10-24T00:07:20.286Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-24T00:07:00.898Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/business-functionality/inventory",
+            "reason": "A developer tip on checking blocked fields in AL code; the subject is coding practice, not using inventory features."
+          }
+        ]
+      }
     },
     "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-70-email-scenario-attachment/": {
       "kind": "post",
@@ -32603,16 +32891,29 @@
     "video/HvgGcTnYo9g": {
       "kind": "video",
       "key": "video/HvgGcTnYo9g",
-      "hash": "f6fa2d454b52e19d16fe294cd606d0dd6568da59a65ebb35bc6bbc8f392a599e",
+      "hash": "24a3e9b4d8d7a50bb648f7b065d7e38a3ba7c325439c02ac76198b4595a782e5",
       "title": "Bartek Ingredients Inc.",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:43.331Z",
+      "at": "2026-10-24T00:07:16.263Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/manufacturing",
-          "quote": "Production order management; Power Apps integration for data entry; Production reporting"
+          "topic": "topic/business-central/business-functionality/manufacturing/manufacturing-analytics",
+          "quote": "Production reporting and analytics; Workflow automation for order processing"
+        },
+        {
+          "topic": "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-automate",
+          "quote": "Workflow automation for order processing; AI-assisted demand planning"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-24T00:07:00.898Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/business-functionality/manufacturing",
+            "reason": "A customer story too general to tie to specific manufacturing functionality documented here."
+          }
+        ]
+      }
     },
     "video/hX2zkeUvvdY": {
       "kind": "video",
@@ -35523,20 +35824,33 @@
     "video/QK-Qsh_6YL4": {
       "kind": "video",
       "key": "video/QK-Qsh_6YL4",
-      "hash": "a0ba15d73365da0ee374926656eb97de9878c48ca1d5ad49cfc4e050f168de2b",
+      "hash": "8ba69d9b3b8baddbb66112db0e4a3ec2143df734e22fe212ba1e5fc43674deb2",
       "title": "Copilot Completing Time Sheets by Pryme Global",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:43.627Z",
+      "at": "2026-10-24T00:07:17.005Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Copilot Completing Time Sheets by Pryme Global"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "Copilot Completing Time Sheets by Pryme Global. Topics: copilot; time sheets"
         },
         {
-          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-teams",
-          "quote": "Microsoft Graph integration for time sheet data"
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office",
+          "quote": "Microsoft Graph integration for time sheet data; Time sheet entry explanations"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-24T00:07:00.898Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
+            "reason": "A partner's Copilot feature for time sheets, which is a different capability."
+          },
+          {
+            "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-teams",
+            "reason": "About Copilot completing time sheets via Microsoft Graph; Teams calls are only one data source, not Teams integration."
+          }
+        ]
+      }
     },
     "video/qlFEdXPjX6A": {
       "kind": "video",
@@ -37796,20 +38110,29 @@
     "video/whtP2i7zeso": {
       "kind": "video",
       "key": "video/whtP2i7zeso",
-      "hash": "9b7344af4197737eaa9e2a02b4736bc9e2fcbfa25d285afa462acfc7cddf195f",
+      "hash": "cf7fdbe97e969b34e67834e2a0520b7919ecff50c980b38c1def22395028870e",
       "title": "What's New: Enhancements in Intrastat (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:43.890Z",
+      "at": "2026-10-24T00:07:21.391Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/finance/working-with-currencies",
-          "quote": "Enhancements in Intrastat (2025 release wave 1). Topics: intrastat; mandatory fields; vat numbers"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/finance/multi-site-and-international-organizatio/manage-intercompany-transactions",
-          "quote": "intercompany reporting. Shows: Mandatory fields for Intrastat"
+          "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
+          "quote": "regulatory compliance; document validation; document check fact box"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-24T00:07:00.898Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/business-functionality/finance/working-with-currencies",
+            "reason": "Intrastat reporting is regulatory and VAT-related, belongs with sibling sections, and isn't about currencies."
+          },
+          {
+            "topic": "topic/business-central/business-functionality/finance/multi-site-and-international-organizatio/manage-intercompany-transactions",
+            "reason": "About Intrastat reporting; intercompany only appears as a topic tag, not as the subject."
+          }
+        ]
+      }
     },
     "video/WI_3mjpQ2JU": {
       "kind": "video",
@@ -38941,16 +39264,20 @@
     "video/zy-Tg9bBtHc": {
       "kind": "video",
       "key": "video/zy-Tg9bBtHc",
-      "hash": "ea2305ea00c646fc5d1e5e8ebdcb729238f37cf450676eaf43705106d702c641",
+      "hash": "2997dc8d6c4acf1a2cfb40a4dc1b93da8a4157787bd43564ca5396db2a0bfd60",
       "title": "What's New: E-Documents and E-Shipments (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:43.890Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes",
-          "quote": "E-Shipments; E-Transfer Shipments; Sales Shipment E-Documents"
-        }
-      ]
+      "at": "2026-10-24T00:07:21.391Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-24T00:07:00.898Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes",
+            "reason": "Covers electronic documents for shipments (sending profiles, export, email), which E-Documents documents, not the outbound warehouse process."
+          }
+        ]
+      }
     }
   }
 }

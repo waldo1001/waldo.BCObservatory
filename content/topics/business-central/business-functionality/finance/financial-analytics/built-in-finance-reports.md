@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:23.519Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -647,6 +647,7 @@ Start with "Built-in finance reports in Business Central". It gives the overview
 ## Learn pages
 
 - [Accounts payables analytics](https://learn.microsoft.com/dynamics365/business-central/payables-reports): See which analytics options are available in Business Central so that you can keep track of your accounts payable.
+  - In the observatory: [Page 29 "Vendor Ledger Entries"](../../../../../objects/page/29.md), [Page 36994 "Aged Payables (Back Dating)"](../../../../../objects/page/36994.md), [Page 36996 "Detailed Vendor Ledger Entries"](../../../../../objects/page/36996.md)
 - [Accounts receivable analytics](https://learn.microsoft.com/dynamics365/business-central/receivables-reports): Explore the reports and analytics in the standard version of Business Central that can help you track your accounts receivable.
 - [Aged Accounts Payable (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-322): Analyze vendor balances at the end of each period. Use this report to monitor unpaid invoices and prioritize payments for overdue accounts.
 - [Aged Accounts Payables (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4403): Analyze vendor balances at the end of each period. Helps ensure the reliability of what you owe your vendors.
@@ -679,8 +680,10 @@ Start with "Built-in finance reports in Business Central". It gives the overview
 - [Customer - Top 10 list (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-111): Review customers with the most transactions within a selected period to identify sales trends and manage collectable debts.
 - [Customer - Top 10 List Excel (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4409): Review customers with the most transactions in a selected period directly in Excel. Identify sales trends and manage debt collections.
 - [Customer - Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-129): Analyze and reconcile your customer balances at the end of the period by viewing the opening balance, each transaction within the period, and the closing balance grouped by customer.
+  - In the observatory: [Report 10806 "Customer Detail Trial Balance (FR)"](../../../../../objects/report/10806-fr.md)
 - [Customer List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-101): Get an overview of basic information for your customers.
 - [Customer Statement (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1316): Send customers an overview of outstanding amounts, and also use as a payment reminder about overdue amounts.
+  - In the observatory: [Report 153 "Customer Statement"](../../../../../objects/report/153.md)
 - [Customer/Item Sales (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-113): Analyze your item sales per customer to understand sales trends, optimize inventory management, and improve marketing efforts. Assess the relationship between discounts, sales amounts, and the volume of item sales.
 - [Day Book Customer Ledger Entry (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-2501): Get a daily transaction overview for customer postings, similar in intent to a sales day book or a chronological audit-style listing of customer postings.
 - [Day Book VAT Entry (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-2500): Lists all VAT entries by document date in a register-style format. Use this report to review or audit tax postings across sales and purchase documents. Helpful for reconciliation and historical reference.
@@ -704,6 +707,7 @@ Start with "Built-in finance reports in Business Central". It gives the overview
 - [Receivables-Payables (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5): Displays a side-by-side comparison of customer and vendor balances versus G/L control accounts to confirm consistency and highlight reconciliation issues.
 - [Reconcile Cust. and Vend. Accs. (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-33): Understand the transactions for control general ledger accounts, and find discrepancies between your general ledger and customer and vendor ledgers.
 - [Reminder report](https://learn.microsoft.com/dynamics365/business-central/reports/report-117): Print or email issued reminders that show overdue customer invoices, interest, fees, and VAT so customers can settle outstanding balances.
+  - In the observatory: [Table 297 "Issued Reminder Header"](../../../../../objects/table/297.md), [Table 298 "Issued Reminder Line"](../../../../../objects/table/298.md)
 - [Retained Earnings Statement (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-156): Get an Retained Earnings Statement that shows an overview of retained earnings from the start of a period, net income, and distributions to shareholders.
 - [Sales Statistics (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-112): Analyze earnings from an individual customer or earnings trends.
 - [Statement of Cashflows (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-155): Get an Statement of Cashflows that shows an overview of operating activities, investment activities, and finance activities.

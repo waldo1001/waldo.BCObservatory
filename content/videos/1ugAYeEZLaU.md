@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:12:05.160Z"
   flags: []
 generated:
-  at: "2026-10-07T23:12:05.201Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,6 +65,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-51-dimension-no-in-dimension-value--f3607da2e9
+      title: "BC Friday Tips #51 Dimension No. in Dimension Value"
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/XN8a2zZe2a8
+      title: Become More Efficient With Background Posting
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/V2mfuDh8Kfk
+      title: Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/5zXQ_aIT03s
+      title: Control When People Can Post to the General Ledger
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: post/thedynamicsexplorer-com/10232
+      title: Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central
+      label: possibly related
+      why: both name Page 39 "General Journal"
+      by: code
+    - to: post/thedynamicsexplorer-com/37202
+      title: Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/kuKwjRyNcoE
+      title: Ensure Consistency in Journals With Journal Check
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/lcu53ikOk7s
+      title: Safeguard G/L Accounts From Deletion
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/yLKISB83KW8
+      title: Set Up Your Local Currency (2024)
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/fIOnGEARkKs
+      title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1"
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
 video_id: 1ugAYeEZLaU
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -171,3 +222,18 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [0:14](https://www.youtube.com/watch?v=1ugAYeEZLaU&t=14s) "You use a sign in front of the amount to determine if the amount is debit or credit depending on the scenario."
 - [1:00](https://www.youtube.com/watch?v=1ugAYeEZLaU&t=60s) "I'd like to work with the debit and credit fields, so I select debit and credit only."
 - [1:37](https://www.youtube.com/watch?v=1ugAYeEZLaU&t=97s) "When you change this setting, it applies company-wide and not only for the current user. It applies for all users."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [BC Friday Tips #51 Dimension No. in Dimension Value](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-51-dimension-no-in-dimension-value--f3607da2e9.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Become More Efficient With Background Posting](../videos/XN8a2zZe2a8.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)](../videos/V2mfuDh8Kfk.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Control When People Can Post to the General Ledger](../videos/5zXQ_aIT03s.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../posts/thedynamicsexplorer-com/10232.md) — possibly related: both name Page 39 "General Journal"
+- [Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?](../posts/thedynamicsexplorer-com/37202.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Ensure Consistency in Journals With Journal Check](../videos/kuKwjRyNcoE.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Safeguard G/L Accounts From Deletion](../videos/lcu53ikOk7s.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Set Up Your Local Currency (2024)](../videos/yLKISB83KW8.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../videos/fIOnGEARkKs.md) — possibly related: both name Page 118 "General Ledger Setup"

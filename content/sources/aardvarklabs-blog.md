@@ -2,7 +2,7 @@
 id: source/aardvarklabs-blog
 type: source
 title: Aardvark Labs
-summary: "Aardvark Labs (Marcel Chabot): 83 posts in the knowledge base, 2025-04-18 to 2026-10-16, mostly about development, integration, copilot."
+summary: "Aardvark Labs (Marcel Chabot): 84 posts in the knowledge base, 2025-04-18 to 2026-10-23, mostly about development, integration, copilot."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T00:20:42.327Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9c6707de9128ffc89d20e23661d6573ab1d27f9d3d07cf6e4a8d87ca736d47c6
+  input_hash: 3060e2aaab8e8004eb01d91ff192d0260b6c385bd554069d4d00cb97bc4b2419
 evidence:
   - kind: blog
     url: https://aardvarklabs.blog
@@ -116,6 +116,7 @@ links:
     - post/aardvarklabs-blog/3983
     - post/aardvarklabs-blog/4056
     - post/aardvarklabs-blog/4119
+    - post/aardvarklabs-blog/4082
   guidelines: []
 source_id: aardvarklabs-blog
 kind: blog
@@ -123,13 +124,13 @@ url: https://aardvarklabs.blog
 author: Marcel Chabot
 mvp: false
 full_text: false
-item_count: 83
+item_count: 84
 footprint:
   systems:
     - id: development
-      weight: 91
+      weight: 92
     - id: integration
-      weight: 43
+      weight: 45
     - id: copilot
       weight: 38
     - id: platform
@@ -137,7 +138,7 @@ footprint:
     - id: reporting
       weight: 15
     - id: administration
-      weight: 13
+      weight: 14
   topics:
     - id: al development
       weight: 20
@@ -186,12 +187,12 @@ footprint:
       weight: 2
   features: []
 first_item: "2025-04-18"
-last_item: "2026-10-16"
+last_item: "2026-10-23"
 ---
 
 # Aardvark Labs
 
-> Aardvark Labs (Marcel Chabot): 83 posts in the knowledge base, 2025-04-18 to 2026-10-16, mostly about development, integration, copilot.
+> Aardvark Labs (Marcel Chabot): 84 posts in the knowledge base, 2025-04-18 to 2026-10-23, mostly about development, integration, copilot.
 
 [https://aardvarklabs.blog](https://aardvarklabs.blog) · blog · tier community
 
@@ -199,12 +200,12 @@ last_item: "2026-10-16"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (91) | al development (20) | table Customer (7) |
-| integration (43) | copilot (10) | page Customer Card (5) |
+| development (92) | al development (20) | table Customer (7) |
+| integration (45) | copilot (10) | page Customer Card (5) |
 | copilot (38) | al code (8) | table Sales Header (5) |
 | platform (31) | api (6) | table Vendor (3) |
 | reporting (15) | json (6) | codeunit ARD_CashFlowAgentFactory (2) |
-| administration (13) | automation (5) | codeunit ARD_CashFlowAgentKPILogging (2) |
+| administration (14) | automation (5) | codeunit ARD_CashFlowAgentKPILogging (2) |
 |  | azure openai (5) | codeunit ARD_CashFlowAgentMetadata (2) |
 |  | security (5) | codeunit ARD_CashFlowAgentSetup (2) |
 |  | ai agents (4) | codeunit ARD_IsolatedStorageWrapper (2) |
@@ -222,10 +223,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: *************** 15
 - 2026-Q3: ************* 13
-- 2026-Q4: *** 3
+- 2026-Q4: **** 4
 
 ## Most recent
 
+- [Business Central’s New API Overview: A Modern Replacement for Web Services](../posts/aardvarklabs-blog/4082.md) (2026-10-23)
 - [Community, Connection, and Business Central Telemetry at Summit NA 2026](../posts/aardvarklabs-blog/4119.md) (2026-10-16)
 - [Smarter Keys, Better Performance: Exploring Business Central v29 Index Updates](../posts/aardvarklabs-blog/4056.md) (2026-10-09)
 - [Business Central v29: SQL Table Extensions Redesign Explained](../posts/aardvarklabs-blog/3983.md) (2026-10-02)
@@ -245,6 +247,5 @@ Items per quarter, oldest first:
 - [Step-by-Step Guide to Custom User Controls in Business Central](../posts/aardvarklabs-blog/3680.md) (2026-06-26)
 - [Using Power Automate for Business Central SFTP](../posts/aardvarklabs-blog/3631.md) (2026-06-19)
 - [Creating a Low-Cost RFID System with Business Central and Power Automate](../posts/aardvarklabs-blog/3579.md) (2026-06-12)
-- [Boost Business Central Development with Skills in Visual Studio Code](../posts/aardvarklabs-blog/3564.md) (2026-06-05)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

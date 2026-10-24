@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:18:16.058Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:16.125Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,7 +70,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573332
   topics: []
   localizations: []
   videos: []
@@ -112,6 +113,12 @@ chapters:
     title: Testing SQL limit and schema best practices
   - t: 1884
     title: Summary and conclusions
+cautions:
+  - kind: preview-disclaimer
+    quote: starting version 29, you'll have to keep that in mind of thinking about the data type that you're choosing
+    t: 1466
+    versions:
+      - "29"
 features:
   - name: Detect table approaching SQL column limit warning
     status: unclear
@@ -119,10 +126,12 @@ features:
     verified: false
     status_source: video
   - name: New table extension data model
-    status: unclear
+    status: ga
     t: 129
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573332"
   - name: 300 field warning threshold
     status: unclear
     t: 496
@@ -209,11 +218,13 @@ The presenter tests the new compiler warning for tables approaching the SQL colu
 | Feature | Status | At |
 |---|---|---|
 | Detect table approaching SQL column limit warning | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=78s) |
-| New table extension data model | status not stated | [2:09](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=129s) |
+| New table extension data model | generally available (roadmap [Faster data loading with improved data model for table extensions](../features/573332.md)) | [2:09](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=129s) |
 | 300 field warning threshold | status not stated, demoed | [8:16](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=496s) |
 | Platform system fields | status not stated, demoed | [9:42](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=582s) |
 | Record size byte limit | status not stated, demoed | [15:12](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=912s) |
 | Data type byte consumption | status not stated, demoed | [15:48](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=948s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

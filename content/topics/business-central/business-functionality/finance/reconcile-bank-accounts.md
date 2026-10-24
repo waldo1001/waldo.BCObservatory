@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:44.293Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -130,7 +130,7 @@ narrative: generated
 
 > Bank account reconciliation in Business Central: matching bank statement lines to ledger entries, applying payments to open invoices, using Copilot for matching, registering bank deposits, and transferring funds between bank accounts. It answers how-to questions on these tasks.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Reconcile bank accounts · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Reconcile bank accounts · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -154,10 +154,15 @@ Start with "Reconcile bank accounts" for the core matching process, or "Manage b
 ## Learn pages
 
 - [Create bank deposits](https://learn.microsoft.com/dynamics365/business-central/bank-create-bank-deposits): You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.
+  - In the observatory: [Page 101 "General Journal Templates"](../../../../objects/page/101.md), [Page 116 "G/L Registers"](../../../../objects/page/116.md), [Page 1692 "Bank Deposits"](../../../../objects/page/1692.md), [Page 232 "Apply Customer Entries"](../../../../objects/page/232.md), [Page 459 "Sales & Receivables Setup"](../../../../objects/page/459.md), [Page 543 "Default Dimension Priorities"](../../../../objects/page/543.md)
 - [Manage bank accounts](https://learn.microsoft.com/dynamics365/business-central/bank-manage-bank-accounts): You must regularly reconcile bank ledger entries with the related bank transactions in your bank accounts.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../objects/page/118.md), [Page 1290 "Payment Reconciliation Journal"](../../../../objects/page/1290.md), [Page 379 "Bank Acc. Reconciliation"](../../../../objects/page/379.md)
 - [Reconcile bank accounts](https://learn.microsoft.com/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately): Learn how to reconcile transactions in Business Central with transactions in statements from your bank.
+  - In the observatory: [Page 1290 "Payment Reconciliation Journal"](../../../../objects/page/1290.md), [Page 379 "Bank Acc. Reconciliation"](../../../../objects/page/379.md), [Page 389 "Bank Account Statement List"](../../../../objects/page/389.md), [Report 1407 "Bank Account Statement"](../../../../objects/report/1407.md)
 - [Reconcile bank accounts and apply payments](https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts): Outlines tasks to reconcile your bank, receivables, and payables accounts, post cash receipts or expenses, and apply payments automatically.
+  - In the observatory: [Page 1252 "Payment Application Rules"](../../../../objects/page/1252.md), [Page 379 "Bank Acc. Reconciliation"](../../../../objects/page/379.md)
 - [Reconcile bank accounts with Copilot (preview)](https://learn.microsoft.com/dynamics365/business-central/bank-reconciliation-with-copilot): Learn how to use Copilot to reconcile bank accounts in Business Central.
+  - In the observatory: [Page 1251 "Text-to-Account Mapping"](../../../../objects/page/1251.md), [Page 379 "Bank Acc. Reconciliation"](../../../../objects/page/379.md)
 - [Transfer bank funds](https://learn.microsoft.com/dynamics365/business-central/bank-how-transfer-bank-funds): You can transfer amounts from one bank account to another, including different currencies, by posting the transaction in the general journal.
 
 ## Videos, posts and code changes

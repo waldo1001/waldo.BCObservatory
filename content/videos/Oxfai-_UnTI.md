@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:59:26.242Z"
   flags: []
 generated:
-  at: "2026-10-07T22:59:26.287Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -122,6 +122,10 @@ chapters:
     title: Permissions and Access Control
   - t: 413
     title: Troubleshooting and FAQ Documentation
+cautions:
+  - kind: preview-disclaimer
+    quote: Business central in uh data in Microsoft purview is uh in currently in preview.
+    t: 236
 features:
   - name: Telemetry on Financial Report Usage and Lifecycle Changes
     status: unclear

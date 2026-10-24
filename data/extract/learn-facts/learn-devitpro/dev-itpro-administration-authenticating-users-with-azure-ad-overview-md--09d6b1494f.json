@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/authenticating-users-with-azure-ad-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-overview",
+  "title": "Authenticating Business Central Users with Microsoft Entra ID",
+  "blob": "dc0fbe6e4f8b19afba410f4b291159bdbfef0a51",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Microsoft Entra ID provides cloud-based identity and access for Business Central applications"
+    },
+    {
+      "kind": "fact",
+      "text": "Microsoft Entra authentication enables single sign-on integration with Excel, Outlook, Power BI, and Power Automate"
+    },
+    {
+      "kind": "status",
+      "text": "OpenID Connect supported from version 20; WS-Federation deprecated in favor of OpenID Connect"
+    },
+    {
+      "kind": "fact",
+      "text": "Version 19 and earlier support only WS-Federation authentication"
+    },
+    {
+      "kind": "step",
+      "text": "To switch version 20 or 21 from WS-Federation to OpenID Connect, enable ID tokens on registered application in Azure portal"
+    },
+    {
+      "kind": "step",
+      "text": "Configure server with ValidAudiences parameter and webserver with AadApplicationId and AadAuthorityUri parameters"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005294,
+      "pages_in_call": 10
+    }
+  ]
+}

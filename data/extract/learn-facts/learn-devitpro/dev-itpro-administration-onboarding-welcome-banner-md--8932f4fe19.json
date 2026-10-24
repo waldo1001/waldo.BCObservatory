@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/onboarding-welcome-banner.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-welcome-banner",
+  "title": "Onboard new users with the Welcome banner",
+  "blob": "5a193cb8d4ca809fa697d47b69f17d30e1b83219",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Welcome banner shown to users signing in to new company for first time with clear call to action"
+    },
+    {
+      "kind": "fact",
+      "text": "In CRONUS evaluation companies, banner highlights core capabilities to make prospects excited about subscribing"
+    },
+    {
+      "kind": "fact",
+      "text": "Business Manager Evaluation role receives banner in CRONUS; switching to Business Manager role hides banner"
+    },
+    {
+      "kind": "fact",
+      "text": "In My Company and non-evaluation companies, banner guides customer self-serve last-mile setup"
+    },
+    {
+      "kind": "fact",
+      "text": "Banner texts can be modified dynamically by subscribing to OnBeforeUpdateBannerLabels event"
+    },
+    {
+      "kind": "limit",
+      "text": "Business Manager Evaluation role experience may change across releases unlike code-related breaking changes"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007005,
+      "pages_in_call": 8
+    }
+  ]
+}

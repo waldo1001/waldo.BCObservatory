@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:17.993Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -264,22 +264,29 @@ The remaining pages each describe one report. They group into receivables and pa
 ## Learn pages
 
 - [Aged Payables (Back Dating)](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-aged-payables-back-dating): The Aged Payables (Back Dating) report provides an overview of outstanding vendor invoices categorized by payment terms and grouped into aging buckets.
+  - In the observatory: [Table 23 "Vendor"](../../../../../objects/table/23.md), [Table 25 "Vendor Ledger Entry"](../../../../../objects/table/25.md)
 - [Aged Receivables (Back Dating)](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-aged-receivables-back-dating): The Aged Receivables (Back Dating) report provides an overview of outstanding customer invoices categorized by payment terms and grouped into aging buckets.
+  - In the observatory: [Table 18 "Customer"](../../../../../objects/table/18.md)
 - [Average Collection Period](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-average-collection-period): The Average Collection Period report provides a snapshot of the average number of days that were required to collect account receivable payments.
 - [Balance Sheet by Month](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-balance-sheet): The Balance Sheet by Month report provides a month-to-month view of the balance at date for all balance sheet accounts.
+  - In the observatory: [Table 15 "G/L Account"](../../../../../objects/table/15.md), [Table 17 "G/L Entry"](../../../../../objects/table/17.md)
 - [Budget Comparison](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-budget-comparison): The Budget Comparison report provides a comparative analysis of G/L amounts to G/L budget amounts by month.
+  - In the observatory: [Table 15 "G/L Account"](../../../../../objects/table/15.md), [Table 17 "G/L Entry"](../../../../../objects/table/17.md), [Table 96 "G/L Budget Entry"](../../../../../objects/table/96.md)
 - [Detailed Customer Ledger Entries (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-detailed-customer-ledger-entries): The Detailed Customer Ledger Entries report provides a detailed view of individual transactions from the Detailed Customer Ledger, enhanced with information from customer ledger entries.
 - [Detailed Vendor Ledger Entries](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-detailed-vendor-ledger-entries): The Detailed Vendor Ledger Entries report provides a detailed view of individual transactions from the Detailed Vendor Ledger, enhanced with information from Vendor Ledger entries.
 - [EBITDA](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-ebitda): The EBITDA report provides an overview of your company's EBIT and EBITDA over time.
 - [Finance App KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-kpis): Get an overview of all the KPIs and measures in the semantic model for the Finance Power BI app.
+  - In the observatory: [Table 17 "G/L Entry"](../../../../../objects/table/17.md), [Table 25 "Vendor Ledger Entry"](../../../../../objects/table/25.md), [Table 570 "G/L Account Category"](../../../../../objects/table/570.md), [Table 96 "G/L Budget Entry"](../../../../../objects/table/96.md)
 - [Finance Power BI app](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app): The Power BI Finance app provides comprehensive finance analytics to stakeholders at all levels of organizations.
 - [Financial Overview](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-financial-overview): The Financial Overview report gives a clear picture of your organization's finance activities.
 - [General Ledger Entries](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-general-ledger-entries): The General Ledger Entries report provides a detailed view of individual transactions within the general ledger.
 - [Income Statement by Month](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-income-statement): The Income Statement by Month report provides a month-to-month view of the net change for all income statement accounts.
 - [Late Payments (Receivables)](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-late-payment-analysis-receivables): The Late Payments (Receivables) report provides insights into the behaviors of late paying customers.
+  - In the observatory: [Table 18 "Customer"](../../../../../objects/table/18.md)
 - [Liabilities](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-liabilities): The Liabilities report provides an overview of all liabilities broken down by current liabilities, payroll liabilities, and long-term liabilities.
 - [Liquidity](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-liquidity): The Liquidity report shows key liquidity metrics used to analyze an organization's ability to meet current liabilities.
 - [Power BI Finance app semantic model](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app-semantic-model): Learn about the finance tables and fields in the Power BI Finance app semantic model for Business Central reporting and analysis.
+  - In the observatory: [Table 112 "Sales Invoice Header"](../../../../../objects/table/112.md), [Table 122 "Purch. Inv. Header"](../../../../../objects/table/122.md), [Table 15 "G/L Account"](../../../../../objects/table/15.md), [Table 17 "G/L Entry"](../../../../../objects/table/17.md), [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 21 "Cust. Ledger Entry"](../../../../../objects/table/21.md)
 - [Profitability](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-profitability): The Profitability report shows gross and net profits over time.
 - [Set up the Finance Power BI app](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app-setup): Learn how to set up the Power BI Finance app
 

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:00:41.238Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:41.310Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -105,6 +105,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000780
+      title: Capacity Task list (report)
+      label: possibly related
+      why: names Report 99000780 "Capacity Task List"
+      by: code
+    - to: video/VoiUhPb6HQ0
+      title: "Manufacturing version 27: use Gitlens & Github BC code history to detect the code differences"
+      label: possibly related
+      why: both name Report 99000791 "Production Order Statistics"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000791
+      title: Production Order Statistics (report)
+      label: possibly related
+      why: names Report 99000791 "Production Order Statistics"
+      by: code
 video_id: 9X-IWRkI2GM
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -137,6 +153,18 @@ chapters:
     title: Manufacturing Analytics Landing Page
   - t: 821
     title: Closing and Data-Driven Manufacturing
+cautions:
+  - kind: preview-disclaimer
+    quote: hopefully version 26.2 two, you will be able to use updated reports for manufacturing
+    t: 230
+    versions:
+      - "26"
+  - kind: preview-disclaimer
+    quote: these 711 reports are going away in a and will will be removed in a later version
+    t: 658
+  - kind: preview-disclaimer
+    quote: in an like an upcoming release wave will update this documentation page of what um when the report will actually be removed
+    t: 740
 features:
   - name: Updated Manufacturing Reports
     status: unclear
@@ -285,3 +313,11 @@ Not found in BC28-30: report "Subcontractor Dispatch Lists", report "Bill of Mat
 - [3:50](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=230s) preview: hopefully version 26.2 two, you will be able to use updated reports for manufacturing
 - [10:58](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=658s) coming-later: these 711 reports are going away in a and will will be removed in a later version
 - [12:20](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=740s) subject-to-change: in an like an upcoming release wave will update this documentation page of what um when the report will actually be removed
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Capacity Task list (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000780) — possibly related: names Report 99000780 "Capacity Task List"
+- [Manufacturing version 27: use Gitlens & Github BC code history to detect the code differences](../videos/VoiUhPb6HQ0.md) — possibly related: both name Report 99000791 "Production Order Statistics"
+- [Production Order Statistics (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000791) — possibly related: names Report 99000791 "Production Order Statistics"

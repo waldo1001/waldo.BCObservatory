@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:53:40.268Z"
   flags: []
 generated:
-  at: "2026-10-07T22:53:40.309Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -124,6 +124,10 @@ chapters:
     title: Demo - correcting 1099 forms after IRS acceptance
   - t: 375
     title: Closing remarks and resources
+cautions:
+  - kind: preview-disclaimer
+    quote: the future for 1086 form, we will deprecate this functionality
+    t: 161
 features:
   - name: 1099 electronic filing to IRS
     status: unclear

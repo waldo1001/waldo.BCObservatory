@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:50.830Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,6 +99,8 @@ Start with the introduction, then pick the walkthrough that matches the scenario
 
 - [Introduction to Contoso Coffee service management](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/contoso-coffee-service-intro): This article introduces you to the Consoso Coffee demonstration data for service management.
 - [Walkthrough of service contracts for service items](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-contract-flow): This article guides you through some scenarios for service items and contracts.
+  - In the observatory: [Page 6000 "Dispatch Board"](../../../../../objects/page/6000.md), [Page 9318 "Service Orders"](../../../../../objects/page/9318.md), [Page 9319 "Service Invoices"](../../../../../objects/page/9319.md), [Page 9321 "Service Contracts"](../../../../../objects/page/9321.md)
 - [Walkthrough of service orders for service items](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-basic-flow-order): This article guides you through several core processes that involve service orders and items.
+  - In the observatory: [Page 5915 "Service Tasks"](../../../../../objects/page/5915.md), [Page 5920 "Service Document Log"](../../../../../objects/page/5920.md), [Page 5978 "Posted Service Invoice"](../../../../../objects/page/5978.md), [Page 9318 "Service Orders"](../../../../../objects/page/9318.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

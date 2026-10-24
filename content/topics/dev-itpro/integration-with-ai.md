@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:53:37.337Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -314,13 +314,11 @@ links:
   videos:
     - video/7SSNcUMFtCw
   posts:
+    - post/demiliani-com/12036
     - post/demiliani-com/13611
-    - post/demiliani-com/17508
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
   guidelines: []
   changes:
     - change/bcapps/10205
-    - change/bcapps/12894
 learn_toc_path:
   - Integration with AI
 toc_file: dev-itpro/TOC.md
@@ -334,7 +332,7 @@ coverage:
   learn: 56
   code: 3
   video: 1
-  blog: 3
+  blog: 2
   guideline: 0
 bc_forms:
   - 8350
@@ -348,7 +346,7 @@ narrative: generated
 
 > Integration with AI in Business Central covers how partners and developers build or connect AI: Copilot extensions in AL, machine learning APIs, Model Context Protocol servers, and custom agents (preview). It answers planning, setup, design and connection questions.
 
-Path: Integration with AI · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
+Path: Integration with AI · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -378,10 +376,8 @@ Start with the subtopic that matches your goal. For generative AI features in AL
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10205 Deprecate Text Completion API in AI SDK (work item 621038)](../../changes/bcapps/10205.md) (code change): "Text Completion API in the Azure OpenAI AI module is marked obsolete"
-- [#12894 [PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice](../../changes/bcapps/12894.md) (code change): "Payables Agent now recognizes vendor credit notes from PDFs using EN 16931"
+- [Why not start improving Business Central APIs definitions for supporting AI?](../../posts/demiliani-com/12036.md) (community post): "exposing API descriptions, field types, and OpenAPI specifications would help AI agents"
 - [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../posts/demiliani-com/13611.md) (community post): "Business Central's System.AI namespace currently wraps Chat Completions and provides guardrails"
-- [Me @ Directions EMEA 2026](../../posts/demiliani-com/17508.md) (community post): "fine-tuning open-source language models locally with Business Central data"
-- [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "ERP is shifting from recording transactions to enabling autonomous action through AI agents"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "ai resources; copilot; azure openai; content safety; data privacy"
 
 ## Business Central pages and reports

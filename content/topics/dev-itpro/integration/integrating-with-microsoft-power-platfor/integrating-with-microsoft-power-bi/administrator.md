@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:48.203Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,6 +91,7 @@ The architecture page explains how reports are created and viewed in Power BI De
 ## Learn pages
 
 - [Enabling Power BI integration with Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-setup): Learn how to set up the connection to Power BI. With Power BI reports, you can get insights, business intelligence, and key performance indicators from your data.
+  - In the observatory: [Page 810 "Web Services"](../../../../../objects/page/810.md)
 - [Power BI integration component and architecture overview for Business Central\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview): Learn about the different aspects of Power BI integration with Business Central.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

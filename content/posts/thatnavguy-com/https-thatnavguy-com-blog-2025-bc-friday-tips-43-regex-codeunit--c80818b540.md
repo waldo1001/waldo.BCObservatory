@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:59:45.957Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -55,6 +55,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-create-a-wrapper-module
+      title: Create a .NET Wrapper Module
+      label: possibly related
+      why: names Codeunit 3960 "Regex"
+      by: code
 post_id: https://thatnavguy.com/blog/2025/bc-friday-tips-43-regex-codeunit/
 source_id: thatnavguy-com
 source_name: That NAV Guy
@@ -107,6 +113,12 @@ preview:
 As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - [codeunit 3960 "Regex"](../../objects/codeunit/3960.md)
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Create a .NET Wrapper Module](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-create-a-wrapper-module) — possibly related: names Codeunit 3960 "Regex"
 
 ## Context
 

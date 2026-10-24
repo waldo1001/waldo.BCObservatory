@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:57.323Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,6 +90,15 @@ The second page shows how to set up multiple web server instances in IIS with Po
 ## Learn pages
 
 - [Configuring Business Central Web Server instances](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-web-server): Learn about the different configuration settings when you deploy the Business Central web server on-premises.
+  - Business Central web server instance requires IIS instance; created via setup or New-NAVWebServerInstance cmdlet.
+  - Web server configuration saved in navsettings.json file located at C:\inetpub\wwwroot\[WebServerInstanceName].
+  - Step: Modify navsettings.json directly in text editor or using Set-NAVWebServerInstanceConfiguration PowerShell cmdlet.
+  - ClientServicesCredentialType setting must match Server instance type: Windows, UserName, NavUserPassword, or AccessControlService.
+  - SessionTimeout default is 20 minutes; specifies idle time before page closes with expiration message.
+  - MaximumWebSocketsMessageSize default 300 MB limits single WebSocket message size to prevent denial-of-service.
+  - RequireSsl setting must be true if SSL enabled on web server to mark cookies as secure.
 - [Set Up Multiple Business Central Web Server Instances using PowerShell](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-multiple-web-server-instances): Learn how to use Windows PowerShell to set up more than one web server instance on Internet Information Service (IIS) for the Business Central web client.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

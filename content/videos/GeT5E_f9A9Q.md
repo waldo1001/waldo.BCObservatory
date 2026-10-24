@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:51:39.735Z"
   flags: []
 generated:
-  at: "2026-10-07T22:51:39.774Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -125,6 +125,16 @@ chapters:
     title: Call to action and next steps
   - t: 495
     title: Resources and community links
+cautions:
+  - kind: preview-disclaimer
+    quote: you must have enabled your MCP server in public preview
+    t: 35
+  - kind: preview-disclaimer
+    quote: the MCP server is currently in preview this is work in progress
+    t: 432
+  - kind: preview-disclaimer
+    quote: we have started with API pages and are going to expand from in there. So, look for more videos later
+    t: 453
 features:
   - name: MCP Server Configurations
     status: preview

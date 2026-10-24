@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:32.775Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -227,17 +227,25 @@ The report pages fall into groups. Overview and year-over-year reports give a hi
 - [Customer Deferrals (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-customer-deferrals): The Customer Deferrals report details deferred revenue by customer and schedule.
 - [Power BI Subscription Billing app](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-app): The Power BI Subscription app provides comprehensive subscription billing analytics to stakeholders at all levels of your organization.
 - [Power BI Subscription Billing app semantic model](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-semantic-model): Get an overview of all tables and fields in the Subscription Billing app semantic model.
+  - In the observatory: [Table 13 "Salesperson/Purchaser"](../../../../../objects/table/13.md), [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 23 "Vendor"](../../../../../objects/table/23.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 5722 "Item Category"](../../../../../objects/table/5722.md), [Table 8052 "Customer Subscription Contract"](../../../../../objects/table/8052.md)
 - [Revenue Analysis (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-analysis): The Revenue Analysis report provides a detailed analysis of your monthly recurring revenue, breaking it down into its key contributing components.
+  - In the observatory: [Table 13 "Salesperson/Purchaser"](../../../../../objects/table/13.md), [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 8052 "Customer Subscription Contract"](../../../../../objects/table/8052.md), [Table 8063 "Vendor Subscription Contract"](../../../../../objects/table/8063.md)
 - [Revenue by Customer (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-by-customer): The Revenue by Customer report shows how revenue is distributed across customers.
 - [Revenue by Item (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-by-item): The Revenue by Item report breaks down subscription revenue by item performance.
+  - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md)
 - [Revenue by Salesperson (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-by-salesperson): The Revenue by Salesperson report highlights subscription revenue performance by salesperson or account owner.
+  - In the observatory: [Table 13 "Salesperson/Purchaser"](../../../../../objects/table/13.md), [Table 18 "Customer"](../../../../../objects/table/18.md)
 - [Revenue Development (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-development): The Revenue Development report helps you track how and why subscription revenue evolves over time.
+  - In the observatory: [Table 8052 "Customer Subscription Contract"](../../../../../objects/table/8052.md)
 - [Revenue Year-Over-Year (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-year-over-year): The Revenue Year-Over-Year report provides insights on the development of your organization's monthly recurring subscription revenue over the past years.
 - [Sales and Cost Forecast (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-sales-cost-forecast): The Sales and Cost Forecast report projects future sales and costs for subscription billing.
+  - In the observatory: [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 8052 "Customer Subscription Contract"](../../../../../objects/table/8052.md)
 - [Set up the Subscription Billing Power BI app](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-app-setup): Learn how to set up the Subscription Billing Power BI app
+  - In the observatory: [Codeunit 8058 "Update Sub. Lines Term. Dates"](../../../../../objects/codeunit/8058.md)
 - [Subscription Billing KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-subscription-kpis): Get an overview of all the KPIs and measures in the semantic model for the Power BI Subscription Billing app.
 - [Subscription Billing Overview (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-overview): The Subscription Billing Overview report provides a high-level summary of your organization's subscription activities.
 - [Total Contract Value Analysis (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-total-contract-value-analysis): The Total Contract Value Analysis report provides a detailed analysis of your total contract value, breaking it down into its key contributing components.
+  - In the observatory: [Table 13 "Salesperson/Purchaser"](../../../../../objects/table/13.md), [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 8052 "Customer Subscription Contract"](../../../../../objects/table/8052.md), [Table 8063 "Vendor Subscription Contract"](../../../../../objects/table/8063.md)
 - [Total Contract Value Year-Over-Year (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-total-contract-value-year-over-year): The Total Contract Value Year-Over-Year report compares TCV trends across periods.
 - [Vendor Deferrals (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-vendor-deferrals): The Vendor Deferrals report outlines deferred costs and liabilities by vendor.
 

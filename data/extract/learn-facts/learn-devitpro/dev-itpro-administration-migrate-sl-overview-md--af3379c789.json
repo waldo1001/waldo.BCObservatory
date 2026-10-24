@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-sl-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-overview",
+  "title": "Dynamics SL migration to Business Central online End-to-end overview",
+  "blob": "c81ab07729cc7c06c809e5ea22c928cc618e16f2",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Cloud migration securely moves data from on-premises SQL Server to Business Central online using Azure Data Factory pipelines."
+    },
+    {
+      "kind": "fact",
+      "text": "Data migrated includes system setup, master data for accounts and items, open document amounts, account balances, and historical data."
+    },
+    {
+      "kind": "fact",
+      "text": "Data migrates table by table, with errors captured for failed tables; migration continues to next table."
+    },
+    {
+      "kind": "fact",
+      "text": "On-premises solution remains operative until migration completes; existing online data gets overwritten by on-premises data."
+    },
+    {
+      "kind": "fact",
+      "text": "Existing users without SUPER permissions are automatically assigned Intelligent Cloud permission set to restrict data entry during migration."
+    },
+    {
+      "kind": "limit",
+      "text": "Users assigned Intelligent Cloud permission set have read-only access; insert, modify, or delete permissions could negatively impact data."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "At least one user in each company must have SUPER permissions before configuring connection from on-premises to online."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005028,
+      "pages_in_call": 10
+    }
+  ]
+}

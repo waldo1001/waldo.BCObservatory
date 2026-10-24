@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:16:25.805Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -101,6 +101,17 @@ chapters:
     title: Practical challenges and limitations of the new approach
   - t: 694
     title: Conclusion and wrap-up
+cautions:
+  - kind: preview-disclaimer
+    quote: with BC, I can't even remember I think it was BC 24. Don't quote me on the number here
+    t: 201
+    versions:
+      - "24"
+  - kind: preview-disclaimer
+    quote: if we're not on runtime 18 and if you're not on a uh in reality platform 29 uh you're not getting this
+    t: 348
+    versions:
+      - "18"
 features:
   - name: Table extensions stored in single SQL table
     status: ga

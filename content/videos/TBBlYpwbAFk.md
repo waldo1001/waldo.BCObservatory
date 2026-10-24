@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:04:51.237Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,6 +121,10 @@ chapters:
     title: Impact on authentication and relationship with tenant-level access
   - t: 303
     title: Limitations and administrative access control restrictions
+cautions:
+  - kind: preview-disclaimer
+    quote: this is a feature that acts on top of the requirement of having the tenant level access consents set up properly so it does not replace the need for setting up the gup relationships for external partner tenants or setting up app…
+    t: 303
 features:
   - name: Partner access control by environment
     status: unclear

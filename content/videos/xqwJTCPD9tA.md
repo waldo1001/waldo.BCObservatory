@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:01.450Z"
   flags: []
 generated:
-  at: "2026-10-07T23:17:01.559Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -169,6 +169,19 @@ chapters:
     title: Network timeouts and performance considerations
   - t: 4920
     title: Message prioritization, retention policies, and open source
+cautions:
+  - kind: preview-disclaimer
+    quote: Business Events still in preview after a couple of years
+    t: 2282
+  - kind: preview-disclaimer
+    quote: I think we know the reason why it's still in preview. It's not instantaneously. There can be cases, which is ...
+    t: 2572
+  - kind: preview-disclaimer
+    quote: within like few weeks time the let me the knowledge that we created will be on the BC quality one
+    t: 4089
+  - kind: preview-disclaimer
+    quote: No, it's That's actually been stopped, the FTP client. So, there won't be a typical client in Business Central.
+    t: 4144
 features:
   - name: AI agents for integration design
     status: unclear

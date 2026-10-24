@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:12:37.245Z"
   flags: []
 generated:
-  at: "2026-10-07T23:12:37.286Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -163,6 +163,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/8C9JmtHdExM
+      title: Allow Over Receipts of Products
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: video/fpc_XlVEnWw
+      title: Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: post/aardvarklabs-blog/2936
+      title: Integrating Analysis Views in Business Central Extensions
+      label: possibly related
+      why: both name Page 143 "Posted Sales Invoices"
+      by: code
+    - to: post/aardvarklabs-blog/3680
+      title: Step-by-Step Guide to Custom User Controls in Business Central
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: post/aardvarklabs-blog/3348
+      title: Step-by-Step Guide to Secure Business Central Agent Implementations in AL
+      label: possibly related
+      why: both name Page 27 "Vendor List"
+      by: code
+    - to: video/WI_3mjpQ2JU
+      title: "What's New: Automated IRS1099 Reporting (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
 video_id: iHgaNJucyvI
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -205,6 +236,15 @@ chapters:
     title: Page customizations implementation and summary
   - t: 1671
     title: Related features and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: we are launching this capability in preview with update 23
+    t: 774
+    versions:
+      - "23"
+  - kind: preview-disclaimer
+    quote: also says in preview as I mentioned earlier
+    t: 826
 features:
   - name: Add existing table fields to pages
     status: preview
@@ -428,5 +468,16 @@ Not found in BC28-30: table "vendor table", permissionset "D365 Profile Manageme
 - [12:54](https://www.youtube.com/watch?v=iHgaNJucyvI&t=774s) preview: we are launching this capability in preview with update 23
 - [13:46](https://www.youtube.com/watch?v=iHgaNJucyvI&t=826s) preview: also says in preview as I mentioned earlier
 - [25:54](https://www.youtube.com/watch?v=iHgaNJucyvI&t=1554s) other: we actually renamed that session so it's not called what's new inh but what's new in developer tools
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Allow Over Receipts of Products](../videos/8C9JmtHdExM.md) — possibly related: both name Page 26 "Vendor Card"
+- [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../videos/fpc_XlVEnWw.md) — possibly related: both name Page 26 "Vendor Card"
+- [Integrating Analysis Views in Business Central Extensions](../posts/aardvarklabs-blog/2936.md) — possibly related: both name Page 143 "Posted Sales Invoices"
+- [Step-by-Step Guide to Custom User Controls in Business Central](../posts/aardvarklabs-blog/3680.md) — possibly related: both name Page 26 "Vendor Card"
+- [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../posts/aardvarklabs-blog/3348.md) — possibly related: both name Page 27 "Vendor List"
+- [What's New: Automated IRS1099 Reporting (2024 release wave 1)](../videos/WI_3mjpQ2JU.md) — possibly related: both name Page 26 "Vendor Card"
 
 Presenters (as heard): Peter, Mike.

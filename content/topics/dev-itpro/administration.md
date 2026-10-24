@@ -12,7 +12,7 @@ review:
   at: "2026-10-20T08:48:51.537Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -429,6 +429,16 @@ For operations, "Monitor and analyze telemetry" covers Application Insights, and
 ## More Learn pages
 
 - [Administration of Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-administration): Learn about how you as the internal administrator or as a reselling partner can manage online tenants of Dynamics 365 Business Central.
+  - Permissions: Internal administrators need Dynamics 365 Business Central Administrator role minimum for tenant administration.
+  - Permissions: Delegated administrators are partner company employees with GDAP relationship; Dynamics 365 Business Central Administrator role recommended.
+  - Internal administrators have read-only access to all Business Central areas even after subscription cancellation.
+  - Limit: Internal administrators need Business Central license to set up integrations or perform tasks beyond user management and data export.
+  - Permissions: License Administrator role required in Microsoft 365 admin center to manage subscription and assign licenses.
+  - Permissions: User Administrator role required in Microsoft 365 admin center to add or remove users from tenant.
+  - Partners can log in as delegated administrator to set up and troubleshoot customer environments.
+  - Switching partners requires removing reseller relationship, disabling delegated admin, clearing partner settings, and adding new partner.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 

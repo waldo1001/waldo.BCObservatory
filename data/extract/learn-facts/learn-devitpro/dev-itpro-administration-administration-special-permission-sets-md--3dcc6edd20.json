@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-special-permission-sets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-special-permission-sets",
+  "title": "Special permission sets",
+  "blob": "292738732ac1fbbe627bb9e36cd37df7e022aedb",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "SUPER permission set allows read, use, update, and delete of all data and application objects."
+    },
+    {
+      "kind": "fact",
+      "text": "Business Central requires at least one user assigned SUPER permission set in each database."
+    },
+    {
+      "kind": "fact",
+      "text": "First user created is automatically assigned SUPER permission set; cannot be modified."
+    },
+    {
+      "kind": "fact",
+      "text": "SUPER (DATA) permission set allows data operations but not system changes; for accounting managers."
+    },
+    {
+      "kind": "fact",
+      "text": "SECURITY permission set manages other permission sets; users can assign perms only matching their own."
+    },
+    {
+      "kind": "fact",
+      "text": "Intelligent Cloud permission set grants read access to all data during migration."
+    },
+    {
+      "kind": "fact",
+      "text": "LOGIN permission set grants minimum permissions needed to sign in without role center access."
+    },
+    {
+      "kind": "status",
+      "text": "USERGROUP permission set is deprecated in Business Central online; use SECURITY instead."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005028,
+      "pages_in_call": 10
+    }
+  ]
+}

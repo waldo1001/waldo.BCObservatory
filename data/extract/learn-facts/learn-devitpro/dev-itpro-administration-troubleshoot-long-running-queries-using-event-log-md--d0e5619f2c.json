@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/troubleshoot-long-running-queries-using-event-log.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-long-running-queries-using-event-log",
+  "title": "Using Event Log to Monitor Long Running SQL Queries",
+  "blob": "579eb4fd671d3a712c2538dc817b5948d190f863",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Event Viewer Application window displays SQL queries exceeding SqlLongRunningThreshold as warnings."
+    },
+    {
+      "kind": "fact",
+      "text": "Default SqlLongRunningThreshold is 1000 milliseconds for identifying slow queries."
+    },
+    {
+      "kind": "fact",
+      "text": "Long running queries with explicit AL code include AL call stack showing generated SQL."
+    },
+    {
+      "kind": "fact",
+      "text": "AL call stack identifies specific AL method and line causing slow query execution."
+    },
+    {
+      "kind": "limit",
+      "text": "Queries from triggers without code or GetPage calls do not include AL call stack."
+    },
+    {
+      "kind": "fact",
+      "text": "Threshold can be set to different value without restarting server instance."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005012,
+      "pages_in_call": 12
+    }
+  ]
+}

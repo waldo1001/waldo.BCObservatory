@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/bertverbeek-nl/1162",
+  "page_id": "post/bertverbeek-nl/1162",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If the amounts are not the same, you will be notified when posting the document",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Purchase Invoice"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "2025 release wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005304,
+    "posts_in_call": 4
+  }
+}

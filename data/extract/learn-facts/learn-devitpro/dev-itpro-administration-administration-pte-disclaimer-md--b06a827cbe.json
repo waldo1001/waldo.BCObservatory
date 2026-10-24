@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-pte-disclaimer.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-pte-disclaimer",
+  "title": "Per-tenant Extension (PTE) Disclaimer",
+  "blob": "dd25cce64546dfaa1e71cd3a2fb4313860ab07f1",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Per-tenant extension creator is responsible for licensing and subject to their own terms, conditions, and support."
+    },
+    {
+      "kind": "fact",
+      "text": "Extension publisher must maintain compatibility with new Business Central releases."
+    },
+    {
+      "kind": "limit",
+      "text": "Extension not compatible with new release within 90 days will be removed and tenant upgraded."
+    },
+    {
+      "kind": "fact",
+      "text": "Microsoft reserves right to inspect extension code for diagnostic and troubleshooting on security or technical issues."
+    },
+    {
+      "kind": "fact",
+      "text": "Microsoft may collect error messages, call stacks, object names, and method signatures during extension execution or compilation."
+    },
+    {
+      "kind": "fact",
+      "text": "Microsoft may collect and share extension names, versions, and dependencies with other developers."
+    },
+    {
+      "kind": "fact",
+      "text": "Collected data may be kept outside geographical boundaries and shared with partner telemetry or app insights."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

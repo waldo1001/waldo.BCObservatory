@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:34.022Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -155,7 +155,6 @@ links:
   videos: []
   posts:
     - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07
-    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-month-enum--b394762bca
   guidelines: []
   changes:
     - change/bcapps/10514
@@ -187,7 +186,7 @@ coverage:
   learn: 17
   code: 0
   video: 0
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: eaa6ed8c79aa4a9f6ef08300f6537b69d953326e78b7456545701d47f00a6f3d
@@ -198,7 +197,7 @@ narrative: generated
 
 > Best practices for developing Business Central extensions: AL code style and deprecation, restrictions to avoid, testing, performance, security, telemetry, connectivity app requirements, and user scenario documentation. It answers how to write, test, secure and submit extensions to Marketplace.
 
-Path: [Development](../../development.md) > [Rules, guidelines, and best practices](../rules-guidelines-and-best-practices.md) > Best practices · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../development.md) > [Rules, guidelines, and best practices](../rules-guidelines-and-best-practices.md) > Best practices · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -217,7 +216,7 @@ Start with AL code for conventions, then Testing and the scenario documentation 
 - Performance troubleshooting follows three steps: measure, locate the bottleneck, eliminate it. Guidance covers pages, web services, reports, AL code, data access and testing.
 - Security covers authentication, authorization, encryption, auditing and change logging, plus Azure Key Vaults for extension secrets.
 - Telemetry can be built into apps with custom signals for usage, errors and performance, sent to Application Insights or the Event Log.
-- Connectivity apps listed in Business Central online need 85% test coverage, sales volume thresholds, onboarding framework use and regulatory compliance such as PSD2 licensing (2022 release wave 2).
+- Connectivity apps listed in Business Central online need app compatibility, 85% test coverage, sales volume thresholds, onboarding framework use and regulatory compliance such as PSD2 licensing; the page references 2022 release wave 2.
 
 ## Subtopics
 
@@ -251,6 +250,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md) (code change): "Strengthen review contracts and add AL reliability guidance. Adds seven AL reliability rules"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Guidance added for event and interface compatibility patterns, covering enum unknown value handling"
 - [Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07.md) (community post): "Shortcuts in development create technical debt and upgrade problems tomorrow"
-- [BC Friday Tips #33 Month Enum](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-month-enum--b394762bca.md) (community post): "Developers can reuse these existing enums rather than creating custom ones"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

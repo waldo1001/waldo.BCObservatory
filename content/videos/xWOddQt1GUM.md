@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:21:04.330Z"
   flags: []
 generated:
-  at: "2026-10-07T23:21:04.424Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -143,6 +143,22 @@ chapters:
     title: "IDE and command-line agents: Cursor, VS Code, and practical MCP approach"
   - t: 3150
     title: AI development landscape, architecture knowledge, and BC developer skills
+cautions:
+  - kind: preview-disclaimer
+    quote: now you can build some agents in your sandboxes environments
+    t: 239
+  - kind: preview-disclaimer
+    quote: it's still in in the stage where it's evolving. And there's some challenges which we are uh right now trying to to solve
+    t: 276
+  - kind: preview-disclaimer
+    quote: I know that's due in May, so I'm I'm looking forward to seeing that
+    t: 316
+  - kind: preview-disclaimer
+    quote: Maybe give it a a few months. Yeah, it just it just very fresh techno Yeah. Business Central very fresh. ...
+    t: 402
+  - kind: preview-disclaimer
+    quote: Business Central MCP not for production use. Just do your daily work on some sandboxes or on some uh Docker environment.
+    t: 3079
 features:
   - name: Agent preview and agent playground
     status: preview

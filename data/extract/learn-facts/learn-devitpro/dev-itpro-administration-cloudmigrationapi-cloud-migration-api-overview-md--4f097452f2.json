@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/cloudmigrationapi/cloud-migration-api-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/cloud-migration-api-overview",
+  "title": "Cloud Migration API Overview",
+  "blob": "fe7e571a55dd3485ffdc0da75dd4e9d6138e951e",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Cloud Migration APIs v1.0 provide end-to-end automation for cloud migration setup, data movement, and progress tracking."
+    },
+    {
+      "kind": "step",
+      "text": "First step: POST request to setupCloudMigration endpoint with productId, sqlServerType, and SqlConnectionString."
+    },
+    {
+      "kind": "step",
+      "text": "For on-premises SQL Server sources, install Microsoft Integration Runtime using the runtimeKey from setup response."
+    },
+    {
+      "kind": "step",
+      "text": "Complete setup by posting to setupCloudMigration completeSetup endpoint after runtime configuration."
+    },
+    {
+      "kind": "step",
+      "text": "Mark companies for replication by patching cloudMigrationCompanies with replicate true, then run createCompaniesMarkedForReplication."
+    },
+    {
+      "kind": "step",
+      "text": "Start data replication by posting to cloudMigrationStatus runReplication endpoint."
+    },
+    {
+      "kind": "step",
+      "text": "Trigger data upgrade by posting to cloudMigrationStatus runDataUpgrade endpoint."
+    },
+    {
+      "kind": "step",
+      "text": "Final step: disable replication by posting to cloudMigrationStatus disableReplication endpoint."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00836,
+      "pages_in_call": 6
+    }
+  ]
+}

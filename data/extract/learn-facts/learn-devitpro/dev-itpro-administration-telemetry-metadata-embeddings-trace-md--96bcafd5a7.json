@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-metadata-embeddings-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-metadata-embeddings-trace",
+  "title": "Analyzing metadata embeddings telemetry",
+  "blob": "05930b7f4c61efd2666759ec1969881af8d61235",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Metadata embeddings telemetry tracks vector representations of extension metadata that power AI features like Copilot search."
+    },
+    {
+      "kind": "fact",
+      "text": "Event LC0059 indicates successful metadata embedding generation for an extension."
+    },
+    {
+      "kind": "fact",
+      "text": "Event LC0060 indicates metadata embedding generation failed for an extension."
+    },
+    {
+      "kind": "fact",
+      "text": "Event LC0061 indicates metadata embedding generation scheduled for an extension."
+    },
+    {
+      "kind": "fact",
+      "text": "Event LC0062 indicates metadata embedding generation started processing for an extension."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry captures extension ID and version for each embedding generation event to track lifecycle."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005472,
+      "pages_in_call": 10
+    }
+  ]
+}

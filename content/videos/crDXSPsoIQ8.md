@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:18:24.469Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,6 +72,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/Vq9Nk6_uxmQ
+      title: "Business Central Under the Hood episode 14: Building Agents in Business Central"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
+      title: Create Purchase Orders from Drop Shipments
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/tpAh4q3h8T8
+      title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/XhO4oFmoh1M
+      title: "Introducing: Sales Order Agent (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/qP0id91bIlA
+      title: "What's New: Designing Generative AI Experiences (2024 Release Wave 1)"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/DJ3LPRxn27g
+      title: "What's New: Drop Shipments (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
 video_id: crDXSPsoIQ8
 channel: yt-hougaard
 source_name: Erik Hougaard
@@ -196,5 +227,16 @@ Not found in BC28-30: page "Sales line".
 - [2:21](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=141s) "you type in the spreadsheet you work in spreadsheet, but everything behind the scene is always updated directly."
 - [2:34](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=154s) "work with configurations or just if there's something related complicated or or if you need to to work on"
 - [2:59](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=179s) "You can find links below on how to uh install this app in the in the cloud sandbox, free to try."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Business Central Under the Hood episode 14: Building Agents in Business Central](../videos/Vq9Nk6_uxmQ.md) — possibly related: both name Page 42 "Sales Order"
+- [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 42 "Sales Order"
+- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 42 "Sales Order"
+- [Introducing: Sales Order Agent (2025 release wave 1)](../videos/XhO4oFmoh1M.md) — possibly related: both name Page 42 "Sales Order"
+- [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../videos/qP0id91bIlA.md) — possibly related: both name Page 42 "Sales Order"
+- [What's New: Drop Shipments (2026 release wave 1)](../videos/DJ3LPRxn27g.md) — possibly related: both name Page 42 "Sales Order"
 
 Presenters (as heard): Eric.

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:54:50.807Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:50.845Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -104,6 +104,23 @@ chapters:
     title: "Coming Next: Tooltips and Project Sequoia"
   - t: 525
     title: Resources and Closing
+cautions:
+  - kind: preview-disclaimer
+    quote: in my word tab, I have a new uh business central preview
+    t: 131
+  - kind: preview-disclaimer
+    quote: We didn't get it in for the demo here for the recording, but hopefully we'll soon be able to have it in some update in version 27
+    t: 441
+    versions:
+      - "27"
+  - kind: preview-disclaimer
+    quote: this is not in in 27 but uh now we are starting to to get productivity into word addin
+    t: 483
+    versions:
+      - "27"
+  - kind: preview-disclaimer
+    quote: There will also be something we call project seoia. It's a code name for some very secret projects.
+    t: 503
 features:
   - name: Word Addin with Data Picker
     status: unclear

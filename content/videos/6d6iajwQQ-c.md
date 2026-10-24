@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:00:59.550Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -154,6 +154,42 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model
+      title: Power BI Sustainability app semantic model
+      label: possibly related
+      why: names Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/tzX0qB9tiBs
+      title: "What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 5832 "Capacity Ledger Entry"
+      by: code
+    - to: video/QdWPlIV3Avk
+      title: "What's new in SCM: Subcontracting (2026 release wave 2)"
+      label: possibly related
+      why: both name Table 5832 "Capacity Ledger Entry"
+      by: code
+    - to: video/qPInVj03wkY
+      title: "What's New in Sustainability: Reporting CSRD (2025 release wave 2)"
+      label: possibly related
+      why: both name Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/RaiQPiEdvbg
+      title: "What's New: Post Emissions with the General Journal (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/lqVWc-Yuots
+      title: "What's New: Sustainability (2026 release wave 1)"
+      label: possibly related
+      why: both name Table 6227 "Sustainability Value Entry"
+      by: code
+    - to: video/bnqxycPzbeI
+      title: "What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 6227 "Sustainability Value Entry"
+      by: code
 video_id: 6d6iajwQQ-c
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -184,6 +220,16 @@ chapters:
     title: Production Order Posting and Sustainability Entries
   - t: 642
     title: Finished Goods and Value Chain Completion
+cautions:
+  - kind: preview-disclaimer
+    quote: in this wave we do not have print out for that but you can find information about final um gas emissions related to items you want to sell
+    t: 107
+  - kind: preview-disclaimer
+    quote: currently we support only average method uh in this moment we will wait your feedback to see what you need so maybe we will extend in future but for now we didn't plan
+    t: 247
+  - kind: preview-disclaimer
+    quote: value chain completely functionality is in public preview in this moment as I mentioned for example we do not have it charge so some of features are still missing so our suggestion will be first tested in a send box before you start with…
+    t: 308
 features:
   - name: Sustainability Value Entries
     status: preview
@@ -337,3 +383,15 @@ Not found in BC28-30: table "Sustainability Journal", table "General Journal".
 - [1:47](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=107s) not-in-this-release: in this wave we do not have print out for that but you can find information about final um gas emissions related to items you want to sell
 - [4:07](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=247s) not-in-this-release: currently we support only average method uh in this moment we will wait your feedback to see what you need so maybe we will extend in future but for now we didn't plan
 - [5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s) preview: value chain completely functionality is in public preview in this moment as I mentioned for example we do not have it charge so some of features are still missing so our suggestion will be first tested in a send box before you start with production
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Power BI Sustainability app semantic model](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model) — possibly related: names Table 6216 "Sustainability Ledger Entry"
+- [What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)](../videos/tzX0qB9tiBs.md) — possibly related: both name Table 5832 "Capacity Ledger Entry"
+- [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Table 5832 "Capacity Ledger Entry"
+- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../videos/qPInVj03wkY.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
+- [What's New: Post Emissions with the General Journal (2025 release wave 1)](../videos/RaiQPiEdvbg.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
+- [What's New: Sustainability (2026 release wave 1)](../videos/lqVWc-Yuots.md) — possibly related: both name Table 6227 "Sustainability Value Entry"
+- [What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)](../videos/bnqxycPzbeI.md) — possibly related: both name Table 6227 "Sustainability Value Entry"

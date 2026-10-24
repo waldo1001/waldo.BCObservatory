@@ -1,0 +1,44 @@
+{
+  "item_id": "blog/demiliani-com/14031",
+  "page_id": "post/demiliani-com/14031",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Once the isolation level goes up, it stays that way for the whole transaction.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "11"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "For ReadCommitted, RepeatableRead, and UpdLock, every Get() is forced to round-trip to SQL Server.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "The NST record cache only serves Get() calls from cache when ReadIsolation is set to Default or ReadUncommitted.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Be carefult on this behavior and check your AL code… transaction isolation level setting is not just a \"write this and go\" sentence.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006731,
+    "posts_in_call": 4
+  }
+}

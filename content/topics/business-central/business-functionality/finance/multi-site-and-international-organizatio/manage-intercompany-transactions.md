@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:56.651Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -172,7 +172,7 @@ narrative: generated
 
 > Intercompany transactions in Business Central cover how companies with multiple legal entities set up partners, post documents and journals to each other, process the intercompany inbox and outbox, and allocate purchase costs. It answers setup, posting, and processing questions.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Multi-site and international organizations](../multi-site-and-international-organizatio.md) > Manage intercompany transactions · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Multi-site and international organizations](../multi-site-and-international-organizatio.md) > Manage intercompany transactions · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -194,10 +194,13 @@ Start with the setup page. It covers the synchronization partner, the shared int
 ## Learn pages
 
 - [Allocate Costs to Intercompany Partners\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/intercompany-allocate-costs): Learn how VAT settings for customers and vendors control whether, and how, VAT is calculated.
+  - In the observatory: [Page 50 "Purchase Order"](../../../../../objects/page/50.md), [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md), [Page 611 "IC Outbox Transactions"](../../../../../objects/page/611.md), [Page 653 "Intercompany Setup"](../../../../../objects/page/653.md)
 - [Manage intercompany transactions](https://learn.microsoft.com/dynamics365/business-central/intercompany-manage): With the Intercompany functionality, you can simplify business processes and transactions between companies within the same organization.
 - [Manage the Intercompany Inbox and Outbox](https://learn.microsoft.com/dynamics365/business-central/intercompany-how-manage-intercompany-inbox): Intercompany transactions you receive from your partners are listed in the intercompany inbox, where you process them manually or automatically.
 - [Post intercompany documents and journals](https://learn.microsoft.com/dynamics365/business-central/intercompany-how-work-documents-journals): This article explains how you use intercompany documents or journals to post transactions with your intercompany partners.
+  - In the observatory: [Page 48 "Sales Orders"](../../../../../objects/page/48.md)
 - [Set up intercompany transaction posting](https://learn.microsoft.com/dynamics365/business-central/intercompany-how-setup): Learn how to set up an intercompany partnership.
+  - In the observatory: [Page 101 "General Journal Templates"](../../../../../objects/page/101.md), [Page 17 "G/L Account Card"](../../../../../objects/page/17.md), [Page 21 "Customer Card"](../../../../../objects/page/21.md), [Page 26 "Vendor Card"](../../../../../objects/page/26.md)
 
 ## Videos and posts
 

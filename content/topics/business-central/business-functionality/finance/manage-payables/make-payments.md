@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:27.835Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -267,11 +267,15 @@ Start with the overview of tasks to manage payments to vendors, which links the 
 ## Learn pages
 
 - [Export positive pay files](https://learn.microsoft.com/dynamics365/business-central/finance-how-positive-pay): You can ensure your bank only clears validated checks and amounts by exporting a positive pay file that contains vendor and payment information.
+  - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md)
 - [How to use banking and payment formats in Business Central](https://learn.microsoft.com/dynamics365/business-central/banks-formats-faq): Learn how to find and use banking and payment formats that suit your needs and comply with your country and bank requirements in Business Central.
 - [Issue, print, cancel, and void checks](https://learn.microsoft.com/dynamics365/business-central/payables-how-work-checks): Describes how to issue checks using the payment journal, print checks, and void or view check ledger entries in Business Central.
+  - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 374 "Check Ledger Entries"](../../../../../objects/page/374.md), [Report 1406 "Bank Account - Check Details"](../../../../../objects/report/1406.md)
 - [Make payments with AMC banking (US) or SEPA credit transfer (EU)](https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer): Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
 - [Overview of tasks to manage payments to vendors](https://learn.microsoft.com/dynamics365/business-central/payables-make-payments): Outlines tasks to manage payments to vendors or creditors, including posting payment lines and getting an overview of the balance due.
 - [Record payments and refunds in payment journals](https://learn.microsoft.com/dynamics365/business-central/payables-how-post-payments-refunds): Read about how to record payments that you make to vendors, and refunds that you make to customers, on the Payment Journal page.
+  - In the observatory: [Page 232 "Apply Customer Entries"](../../../../../objects/page/232.md)
 - [Settle purchase invoices promptly](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-settle-purchase-invoices-promptly): If you need to pay the vendor by cash or check, you can have the necessary posting done when you post the invoice.
 - [Suggest vendor payments](https://learn.microsoft.com/dynamics365/business-central/payables-how-suggest-vendor-payments): Use the Suggest Vendor Payments batch job to create payment lines for your vendors based on due dates and payment discounts.
 - [Working with general journals to post directly to G/L](https://learn.microsoft.com/dynamics365/business-central/ui-work-general-journals): Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.

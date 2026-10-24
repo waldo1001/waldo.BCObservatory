@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:00.486Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,6 +100,7 @@ links:
     - change/bcapps/12124
     - change/bcapps/12188
     - change/bcapps/12464
+    - change/bcapps/12690
     - change/bcapps/12760
     - change/bcapps/9118
     - change/bcapps/9196
@@ -157,11 +158,17 @@ Start with the Supply Planning page and the central concepts page. Then read pla
 
 - [Design details - Balancing supply and demand](https://learn.microsoft.com/dynamics365/business-central/design-details-balancing-demand-and-supply): This article describes how to prioritized goals by balancing supply with demand.
 - [Design details - central concepts of the planning system](https://learn.microsoft.com/dynamics365/business-central/design-details-central-concepts-of-the-planning-system): Planning suggests actions for the user to take based on the demand/supply situation and the items' planning parameters.
+  - In the observatory: [Page 5430 "Planning Error Log"](../../../../objects/page/5430.md), [Page 5522 "Order Planning"](../../../../objects/page/5522.md), [Page 6512 "Item Tracking Code Card"](../../../../objects/page/6512.md), [Page 99000768 "Manufacturing Setup"](../../../../objects/page/99000768.md), [Page 99000852 "Planning Worksheet"](../../../../objects/page/99000852.md), [Page 99000855 "Untracked Planning Elements"](../../../../objects/page/99000855.md)
 - [Design details - Handling reordering policies](https://learn.microsoft.com/dynamics365/business-central/design-details-handling-reordering-policies): This article gives an overview of the reordering policies you can use in supply planning.
+  - In the observatory: [Page 1 "Company Information"](../../../../objects/page/1.md), [Page 30 "Item Card"](../../../../objects/page/30.md), [Page 5703 "Location Card"](../../../../objects/page/5703.md)
 - [Design details - Planning assignment table](https://learn.microsoft.com/dynamics365/business-central/design-details-planning-assignment-table): This topic provides insight into what happens when a change in the demand or supply patterns requires that you calculate how you plan for an item.
+  - In the observatory: [Table 99000850 "Planning Assignment"](../../../../objects/table/99000850.md)
 - [Design details - planning parameters](https://learn.microsoft.com/dynamics365/business-central/design-details-planning-parameters): This article describes the different planning parameters that you can use and how they affect the planning system.
+  - In the observatory: [Page 1 "Company Information"](../../../../objects/page/1.md), [Page 30 "Item Card"](../../../../objects/page/30.md), [Page 461 "Inventory Setup"](../../../../objects/page/461.md), [Page 5522 "Order Planning"](../../../../objects/page/5522.md), [Page 5703 "Location Card"](../../../../objects/page/5703.md), [Page 99000768 "Manufacturing Setup"](../../../../objects/page/99000768.md)
 - [Design details - reservation, order tracking, and action messaging \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/design-details-reservation-order-tracking-and-action-messaging): The reservation system is comprehensive and includes the interrelated and parallel features of Order Tracking and Action Messaging.
+  - In the observatory: [Page 497 "Reservation Entries"](../../../../objects/page/497.md), [Page 498 "Reservation"](../../../../objects/page/498.md), [Page 99000855 "Untracked Planning Elements"](../../../../objects/page/99000855.md), [Table 337 "Reservation Entry"](../../../../objects/table/337.md)
 - [Design Details - Supply Planning](https://learn.microsoft.com/dynamics365/business-central/design-details-supply-planning): This article describes the concepts and principles in the supply planning features in Business Central.
+  - In the observatory: [Table 99000850 "Planning Assignment"](../../../../objects/table/99000850.md)
 - [Design details - Transfers in planning](https://learn.microsoft.com/dynamics365/business-central/design-details-transfers-in-planning): Learn how to use transfer orders as a source of supply when planning inventory levels.
 
 ## Videos, posts and code changes
@@ -175,6 +182,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12124 Fix default bin assignment when creating purchase orders for drop shipments](../../../../changes/bcapps/12124.md) (code change): "Fixed default bin assignment for drop shipments when creating purchase orders"
 - [#12188 [Master]-Reserved quantities do not match the expected quantities after planning - regression due to correction](../../../../changes/bcapps/12188.md) (code change): "reserved quantities did not match the expected quantities after planning"
 - [#12464 [Master]-Order Planning Calculate Plan Stops on Blocked Item and Does Not Process Remaining Valid Demand.](../../../../changes/bcapps/12464.md) (code change): "Order Planning feature now correctly processes remaining valid demand"
+- [#12690 [Master]-You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](../../../../changes/bcapps/12690.md) (code change): "reversing capacity entries without requiring serial number assignment"
 - [#12760 [29.X]-Order Planning Calculate Plan Stops on Blocked Item and Does Not Process Remaining Valid Demand.](../../../../changes/bcapps/12760.md) (code change): "Order planning calculation no longer stops when it reaches a blocked item"
 - [#9118 Bugs/master GitHub event batch 1745](../../../../changes/bcapps/9118.md) (code change): "planning, availability check and item budget Excel reports"
 - [#9196 [Master] - What If Impact on Planning and Supply](../../../../changes/bcapps/9196.md) (code change): "supply what-if analysis to analyze the negative impact of supply changes on demand"

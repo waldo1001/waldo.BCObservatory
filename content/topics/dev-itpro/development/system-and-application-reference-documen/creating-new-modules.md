@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:23.589Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -123,7 +123,9 @@ Next, choose the task page. "Create a new module in the System Application" walk
 
 - [Change a module in the System Application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-change-a-module): Learn about steps and examples of how to change a module in the System Application.
 - [Create a .NET Wrapper Module](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-create-a-wrapper-module): This article provides a description of how to contribute a .NET wrapper module.
+  - In the observatory: [Codeunit 3960 "Regex"](../../../../objects/codeunit/3960.md), [Codeunit 3961 "Regex Impl."](../../../../objects/codeunit/3961.md), [Table 3965 "Matches"](../../../../objects/table/3965.md), [Table 3966 "Regex Options"](../../../../objects/table/3966.md)
 - [Create a new module in the System Application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-new-module): Learn how to create a new module in the System Application.
+  - In the observatory: [Codeunit 1483 "XmlWriter"](../../../../objects/codeunit/1483.md)
 - [Get started with modules](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-getting-started): Provides an overview of what you need to work with modules in the System Application.
 - [Module Architecture](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-blueprint): Learn about the internal components of modules in the System Application.
 - [Set up an environment for developing a module](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-set-up-an-environment): Learn how to set up the tools you need to build a module in the System Application.

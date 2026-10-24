@@ -1,0 +1,38 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-21/",
+  "page_id": "post/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-21--3d0dd8a51e",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "the new grammar restructured how DataItemLink gets parsed, dropping the wrapper my join-edge code was reading through, so joins silently stopped resolving",
+      "objects": [
+        {
+          "type": "other",
+          "name": "tree-sitter-al"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "breaking",
+      "quote": "Anyone resolving fresh would have hit the same silent breakage with no error at all.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "tree-sitter-al"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005963,
+    "posts_in_call": 4
+  }
+}

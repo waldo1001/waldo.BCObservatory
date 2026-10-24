@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:10:45.459Z"
   flags: []
 generated:
-  at: "2026-10-07T23:10:45.515Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -127,6 +127,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/thedynamicsexplorer-com/37371
+      title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
+      label: possibly related
+      why: both name Page 40 "Item Journal"
+      by: code
+    - to: video/KYsrBoHVA70
+      title: "What's New: Business Central Mobile Apps Featuring Brand New Barcode Scanning Capabilities (2023)"
+      label: possibly related
+      why: both name Page 6510 "Item Tracking Lines"
+      by: code
 video_id: W2yhU8eXT5w
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -167,6 +178,13 @@ chapters:
     title: Control add-in API architecture and security
   - t: 1577
     title: Resources, feedback, and conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: we were not able to make the capability available in the last release on SAS
+    t: 954
+  - kind: preview-disclaimer
+    quote: in the upcoming releases we are also going to be making other client and Sensibility methods such as the location provider to be available via the control addins
+    t: 1597
 features:
   - name: Worksheet pages on mobile phones
     status: unclear
@@ -371,5 +389,12 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:50](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=110s) other: we are um advising you to check how they look like and make sure that uh uh you have the desired user interface
 - [15:54](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=954s) not-in-this-release: we were not able to make the capability available in the last release on SAS
 - [26:37](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=1597s) coming-later: in the upcoming releases we are also going to be making other client and Sensibility methods such as the location provider to be available via the control addins
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 40 "Item Journal"
+- [What's New: Business Central Mobile Apps Featuring Brand New Barcode Scanning Capabilities (2023)](../videos/KYsrBoHVA70.md) — possibly related: both name Page 6510 "Item Tracking Lines"
 
 Presenters (as heard): Claudio, Chan, Claudia.

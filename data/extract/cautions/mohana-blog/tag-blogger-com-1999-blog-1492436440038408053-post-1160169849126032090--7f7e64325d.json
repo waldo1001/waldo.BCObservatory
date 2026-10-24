@@ -1,0 +1,49 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090",
+  "page_id": "post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "API templates can only be set up with the following API pages: contacts, countriesRegions, currencies, customers, employees, itemCategories, paymentMethods, paymentTerms, shipmentMethods, unitsOfMeasure, and vendors.",
+      "objects": [
+        {
+          "type": "page",
+          "name": "API Setup"
+        }
+      ],
+      "events": [
+        "OnInsertRecord"
+      ],
+      "versions": []
+    },
+    {
+      "kind": "breaking",
+      "quote": "Custom API pages and the Resource API page don't have this plumbing, so templates never apply.",
+      "objects": [
+        {
+          "type": "page",
+          "name": "Resource API"
+        }
+      ],
+      "events": [
+        "OnInsertRecord"
+      ],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "If you miss a field, the template will overwrite whatever the caller sent for that field.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005238,
+    "posts_in_call": 4
+  }
+}

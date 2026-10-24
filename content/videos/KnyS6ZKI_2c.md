@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:53:36.364Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -181,6 +181,19 @@ chapters:
     title: Server-Side Headless Script Replay
   - t: 853
     title: Summary and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: server-side headless script replay is still in preview
+    t: 763
+  - kind: preview-disclaimer
+    quote: server-side replay is on premise only or in containers only
+    t: 763
+  - kind: preview-disclaimer
+    quote: the page scripting feature is still in preview, but it is production quality
+    t: 877
+  - kind: preview-disclaimer
+    quote: creating documentation or training material including screenshots is not in our immediate backlog
+    t: 888
 features:
   - name: Steps Modification in Recording
     status: preview

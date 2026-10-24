@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/fixing-al-debugger-linux-wayland/",
+  "page_id": "post/stefanmaron-com/https-stefanmaron-com-posts-fixing-al-debugger-linux-wayland--13617af244",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "The interactive login doesn't work from inside the container, so I had to disable it in my VS Code settings",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003819,
+    "posts_in_call": 4
+  }
+}

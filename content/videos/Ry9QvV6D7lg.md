@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:12:06.414Z"
   flags: []
 generated:
-  at: "2026-10-07T23:12:06.468Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -127,6 +127,10 @@ chapters:
     title: Running Migration and Viewing Migrated Data
   - t: 699
     title: Data Validation Examples and Fiscal Period Migration
+cautions:
+  - kind: preview-disclaimer
+    quote: very soon you'll be able to pick if you don't want to bring over inactive items or discontinued items
+    t: 427
 features:
   - name: GP Configuration Page
     status: unclear

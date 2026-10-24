@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/online-store-with-shopify
 type: topic
 title: Online store with Shopify
-summary: "Online store with Shopify covers the Shopify Connector for Business Central: connecting a shop and synchronizing items, inventory, prices, customers, companies, orders, transactions and payouts. It answers setup, sync configuration, POS, tax matching, background jobs, troubleshooting, technical FAQ and support questions."
+summary: "Online store with Shopify covers the Shopify Connector for Business Central: setup, synchronization of items, prices, inventory, customers, orders, transactions and payouts, background jobs, tax matching, POS, troubleshooting, support and technical FAQ. It answers how-to, configuration and error-resolution questions."
 tier: official
 language: en
 system: integration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:17:53.440Z"
+  at: "2026-10-24T00:54:31.349Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4ec275c41cc21d1ec9a89eb232308454ddeb23254ca7607d4da90a61094f7a8b
+  input_hash: a77c231cf02b652405abd7a5b74041dab354d89e3793823ef03fa941799ace19
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-account
@@ -34,22 +34,22 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/get-started
-    title: Getting started with the connector for Shopify
-    date: "2026-09-04"
+    title: Get started with the Shopify Connector
+    date: "2026-09-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/background
     title: Run tasks in the background and recurrently
-    date: "2026-09-04"
+    date: "2026-10-05"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-tax-matching
     title: Set up and use Shopify Tax Matching
-    date: "2026-09-30"
+    date: "2026-10-07"
     commit: null
     t: null
     quote: null
@@ -62,8 +62,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-connector-overview
-    title: Shopify Connector Overview
-    date: "2025-10-20"
+    title: Shopify Connector overview
+    date: "2026-09-24"
     commit: null
     t: null
     quote: null
@@ -77,28 +77,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-orders
     title: Synchronize and fulfill sales orders
-    date: "2026-09-30"
+    date: "2026-10-14"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-customers
     title: Synchronize customers and companies
-    date: "2026-07-13"
+    date: "2026-10-14"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-inventory
     title: Synchronize inventory with Shopify
-    date: "2026-09-03"
+    date: "2026-10-14"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-items
     title: Synchronize items with Shopify
-    date: "2026-09-04"
+    date: "2026-10-16"
     commit: null
     t: null
     quote: null
@@ -119,7 +119,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/troubleshoot
     title: Troubleshooting the Shopify and Business Central synchronization
-    date: "2026-09-04"
+    date: "2026-10-14"
     commit: null
     t: null
     quote: null
@@ -286,28 +286,28 @@ narrative: generated
 
 # Online store with Shopify
 
-> Online store with Shopify covers the Shopify Connector for Business Central: connecting a shop and synchronizing items, inventory, prices, customers, companies, orders, transactions and payouts. It answers setup, sync configuration, POS, tax matching, background jobs, troubleshooting, technical FAQ and support questions.
+> Online store with Shopify covers the Shopify Connector for Business Central: setup, synchronization of items, prices, inventory, customers, orders, transactions and payouts, background jobs, tax matching, POS, troubleshooting, support and technical FAQ. It answers how-to, configuration and error-resolution questions.
 
 Path: [Business functionality](../business-functionality.md) > Online store with Shopify · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Shopify Connector provides bidirectional synchronization between Business Central and one or more Shopify stores, for both B2B and direct-to-consumer models. The area is organized by data type: items, inventory, prices, customers and companies, sales orders and fulfillment, and transactions and payouts. Each has its own page with configuration options.
+The Shopify Connector synchronizes products, inventory, customers, orders, fulfillments, transactions and payouts between one or more Shopify stores and Business Central, with data flowing in both directions. The section starts with an overview page and a getting-started subtopic that covers a Shopify test account, installing and connecting the connector, and testing the sync.
 
-Start with the Shopify Connector Overview, then the getting-started subtopic, which explains connecting a store and creating a Shopify test account. Next, use "Set up and use the Shopify Connector" as the walkthrough, and the per-data-type pages for detail.
+After that, one page covers each data area: items, prices, inventory, customers and companies (DTC and B2B), sales orders and fulfillment, and transactions and payouts. Further pages cover running syncs in the background on a schedule, AI-assisted Shopify Tax Matching for US orders, and Shopify POS. The general setup and use walkthrough ties these areas together.
 
-Operational pages cover running tasks in the background and recurrently with job queues, troubleshooting (foreground runs, logs, skipped records, sync reset), Shopify POS, and AI-assisted Shopify Tax Matching for Business Central US. The technical FAQ covers API versions and extensibility, and the support page lists support paths.
+For operations and support, use the troubleshooting page (logging, skipped records, access tokens), the technical FAQ (API versions, extensibility) and the support page. A sensible path is: overview, getting started, setup and use walkthrough, then the page for each sync area you need.
 
 ## Key points
 
-- Overview: multi-shop support and bidirectional sync of items, inventory, customers, orders and transactions, for B2B and DTC.
-- Getting started covers connecting a store, synchronizing core data, and creating a Shopify test account.
-- Item sync supports export and import, SKU and barcode mapping strategies, variants and images.
-- Price sync sends prices from Business Central, with multiple currencies, VAT, markets, B2B catalogs, and customer price and discount groups.
-- Order sync handles shop vs presentment currency, auto-creation of sales documents, returns and refunds, location mapping, gift cards, and shipment sync to Shopify.
-- Transactions and payouts pages cover Shopify Payments, payment method mapping and reconciliation with bank accounts.
-- Background tasks run through job queue entries, either manual or recurring, monitored from Shopify Activities in the Business Manager Role Center.
-- Troubleshooting uses foreground task execution, logs, skipped records tracking and sync date reset; the technical FAQ covers the GraphQL Admin API versioning and extensibility.
+- Getting started: set up a Shopify test account, install and connect the connector, then test sync of items, prices, inventory, customers and orders.
+- Item sync supports both directions (To Shopify / From Shopify), with SKU mapping, auto-creation of unknown items and item templates.
+- Price sync sends prices from Business Central to Shopify, including multiple currencies, VAT, markets, B2B catalogs and customer price groups.
+- Inventory sync sends stock levels to Shopify; options include stock calculation methods, location filter and default product location.
+- Customer and company sync supports DTC and B2B, with customer mapping type, auto-creation of unknown customers and templates.
+- Order sync covers import settings, location, shipment and payment terms mapping, fulfillment, returns/refunds and tax handling.
+- Background syncs use the Run Syncs in Background toggle and Job Queue Entries, with Skipped Records for monitoring.
+- Tax Matching uses AI to suggest tax jurisdictions for unmatched US order tax lines, configured per shop with review modes and a dedicated permission set.
 
 ## Subtopics
 
@@ -316,18 +316,24 @@ Operational pages cover running tasks in the background and recurrently with job
 ## More Learn pages
 
 - [FAQ for technical details](https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-faq): Implementation details related to the Shopify connector.
+  - In the observatory: [Codeunit 30234 "Shpfy Product"](../../../objects/codeunit/30234.md), [Codeunit 30409 "Shpfy Orders"](../../../objects/codeunit/30409.md), [Codeunit 30418 "Shpfy Metafields"](../../../objects/codeunit/30418.md)
 - [Run tasks in the background and recurrently](https://learn.microsoft.com/dynamics365/business-central/shopify/background): Configure synchronization of data between Business Central and Shopify in the background.
 - [Set up and use Shopify Tax Matching](https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-tax-matching): Learn how to set up Shopify Tax Matching, review suggested tax jurisdiction matches, and approve tax setup for imported orders.
 - [Set up and use the Shopify Connector](https://learn.microsoft.com/dynamics365/business-central/shopify/walkthrough-setting-up-and-using-shopify): Various integration scenarios for demonstrating workflow between Shopify and Business Central
-- [Shopify Connector Overview](https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-connector-overview): Learn to use Shopify Connector to synchronize orders, stock, and customer information to fulfill orders faster, and better serve customers.
+  - In the observatory: [Page 36954 "Customers"](../../../objects/page/36954.md), [Page 42 "Sales Order"](../../../objects/page/42.md)
+- [Shopify Connector overview](https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-connector-overview): Learn how the Shopify Connector synchronizes products, inventory, customers, orders, and transactions between Shopify and Business Central.
 - [Support for the Shopify Connector](https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-support): Support options related to the Shopify Connector.
 - [Synchronize and fulfill sales orders](https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-orders): Set up and run import and processing of sales orders from Shopify.
+  - In the observatory: [Page 130 "Posted Sales Shipment"](../../../objects/page/130.md)
 - [Synchronize customers and companies](https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-customers): Import customers and companies from or export to Shopify.
+  - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md)
 - [Synchronize inventory with Shopify](https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-inventory): Set up and run inventory synchronization between Business Central and Shopify, including location mapping and fulfillment strategies.
 - [Synchronize items with Shopify](https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-items): Set up and run synchronizations of items, products, images, and variants between Shopify and Business Central.
 - [Synchronize prices with Shopify](https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-prices): Set up and manage price synchronization between Business Central and Shopify, including B2B pricing, market-specific pricing, and how tax settings affect exported prices.
 - [Synchronize transactions and payouts](https://learn.microsoft.com/dynamics365/business-central/shopify/transactions-and-payouts): Set up and run import of transactions and payouts from Shopify.
+  - In the observatory: [Page 255 "Cash Receipt Journal"](../../../objects/page/255.md)
 - [Troubleshooting the Shopify and Business Central synchronization](https://learn.microsoft.com/dynamics365/business-central/shopify/troubleshoot): Learn what to do if something goes wrong when you synchronize data between Shopify and Business Central.
+  - In the observatory: [Page 2500 "Extension Management"](../../../objects/page/2500.md), [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md), [Table 5108 "Sales Line Archive"](../../../objects/table/5108.md)
 - [Working with Shopify POS](https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-pos): Special notes related to Shopify as a Sales Channel.
 
 ## Videos, posts and code changes

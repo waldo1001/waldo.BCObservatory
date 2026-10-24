@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.015313
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:55:40.139Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on ARES says the integration 'needs a service endpoint configured'. The source only lists 'service endpoint configuration' as a feature, so 'needs' goes slightly beyond what it says. Minor.",
+      "None of the key points covers the 'Hide lines with zero quantity' toggle for Czech sales and purchase document reports. The overview does mention it.",
+      "The exchange rate key points leave out the dimensions transfer methods feature. Minor."
+    ],
+    "input_hash": "969d6a45083e21161d529cd452a829f817ea0283b3fe9250beac6e7866cc6cfa",
+    "cost_usd": 0.0334712
   }
 }

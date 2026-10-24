@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/database-missing-indexes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-missing-indexes",
+  "title": "Missing indexes in Business Central databases",
+  "blob": "98cd81fe2249d2dcbc43865a48b73af52539b714",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available in 2025 release wave 1 version 26.0 and later"
+    },
+    {
+      "kind": "fact",
+      "text": "Database Missing Indexes page shows suggested index columns based on query patterns including equality, inequality, and include columns"
+    },
+    {
+      "kind": "fact",
+      "text": "Index suggestions tracked with seeks, scans, average total costs, average impact percentage, and estimated benefit calculations"
+    },
+    {
+      "kind": "fact",
+      "text": "Missing index data comes from SQL Server's sys.dm_db_missing_index_details Dynamic Management View"
+    },
+    {
+      "kind": "limit",
+      "text": "Index suggestions are advisory only, not mandatory; overuse can increase storage, slow updates, and be expensive"
+    },
+    {
+      "kind": "fact",
+      "text": "Administrators and developers can use missing index information to enhance application performance through tuning"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013325,
+      "pages_in_call": 3
+    }
+  ]
+}

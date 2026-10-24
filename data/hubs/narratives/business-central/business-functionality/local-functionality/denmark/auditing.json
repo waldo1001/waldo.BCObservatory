@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.010199
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:56:29.576Z",
+    "verdict": "approve",
+    "issues": [
+      "Summary says data is exported 'for authorities and auditors'; the sources only mention tax authority compliance, so 'auditors' is a slight extrapolation, acceptable for an Auditing hub.",
+      "The claim that the SAF-T export relies on GL mapping is supported by the standard chart of accounts page, not by the SAF-T page summary itself; still supported."
+    ],
+    "input_hash": "a36a846ffadeb681e5f49ac53dd703d66ad8d0939e1d07bc45632dc728491c2a",
+    "cost_usd": 0.029583200000000004
   }
 }

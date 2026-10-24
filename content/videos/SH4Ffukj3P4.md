@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:54:23.264Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:23.305Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -149,6 +149,13 @@ chapters:
     title: Tips and Best Practices for Using Autofill
   - t: 293
     title: Conclusion and Call to Action
+cautions:
+  - kind: preview-disclaimer
+    quote: go try out the public preview view of C-Pilot's autofill feature
+    t: 222
+  - kind: preview-disclaimer
+    quote: we're looking forward to adding support for many more languages later on in this wave
+    t: 236
 features:
   - name: Copilot Autofill with Web Search for Contact Details
     status: preview

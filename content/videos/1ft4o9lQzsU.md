@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:10.805Z"
   flags: []
 generated:
-  at: "2026-10-07T23:22:10.883Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -130,6 +130,13 @@ chapters:
     title: Four-step process and key takeaways
   - t: 2810
     title: Call to action, implementation strategy, resources, and closing
+cautions:
+  - kind: preview-disclaimer
+    quote: I haven't necessarily dove into too much. I can definitely though look into that and and share like on LinkedIn ...
+    t: 2435
+  - kind: preview-disclaimer
+    quote: I don't necessarily know that there's a way to secure it.
+    t: 2475
 features:
   - name: Excel report layouts
     status: unclear

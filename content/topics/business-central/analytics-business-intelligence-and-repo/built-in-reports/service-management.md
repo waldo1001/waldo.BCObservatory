@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:07.738Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,6 +99,8 @@ Start with the allocation page if you need to schedule technicians. Start with s
 
 - [How to allocate resources \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-how-to-allocate-resources): Adjust the annual amount on a service contract or contract quote to ensure the correct amount is invoiced each year.
 - [Service posting](https://learn.microsoft.com/dynamics365/business-central/service-service-posting): Service posting enables efficient processing of service documents and helps maintain a strong customer service policy.
+  - In the observatory: [Page 5905 "Service Lines"](../../../../objects/page/5905.md), [Page 5972 "Posted Service Credit Memo"](../../../../objects/page/5972.md), [Page 5975 "Posted Service Shipment"](../../../../objects/page/5975.md), [Page 5978 "Posted Service Invoice"](../../../../objects/page/5978.md)
 - [Service statistics](https://learn.microsoft.com/dynamics365/business-central/service-service-statistics): Get a quick overview of the contents and statistics of service documents such as orders, quotes, invoices, credit memos, service lines, and more.
+  - In the observatory: [Page 5914 "Service Order Statistics"](../../../../objects/page/5914.md), [Page 5982 "Service Item Statistics"](../../../../objects/page/5982.md), [Page 5983 "Service Item Trendscape"](../../../../objects/page/5983.md), [Page 6032 "Service Shipment Statistics"](../../../../objects/page/6032.md), [Page 6033 "Service Invoice Statistics"](../../../../objects/page/6033.md), [Page 6034 "Service Credit Memo Statistics"](../../../../objects/page/6034.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

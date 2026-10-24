@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-nav-customization-playbook.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-nav-customization-playbook",
+  "title": "Customization Migration Guide - Dynamics NAV to Business Central Online",
+  "blob": "849576ce5f8319e9399d8fed793aa58f480ff0b7",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "All C/AL code customizations must be converted to AL extensions before migration."
+    },
+    {
+      "kind": "limit",
+      "text": "Data from tables with code customizations cannot be carried forward unless handled by extensions on both systems."
+    },
+    {
+      "kind": "limit",
+      "text": "Breaking schema changes like removing or renaming fields prevent extension synchronization."
+    },
+    {
+      "kind": "step",
+      "text": "Export C/AL objects using Export-NAVApplicationObject with ExportToNewSyntax flag."
+    },
+    {
+      "kind": "step",
+      "text": "Use Txt2Al conversion tool from version 14 to generate initial AL files."
+    },
+    {
+      "kind": "fact",
+      "text": ".NET add-ins not available in online; use control add-ins, Azure Functions, or external APIs instead."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005651,
+      "pages_in_call": 10
+    }
+  ]
+}

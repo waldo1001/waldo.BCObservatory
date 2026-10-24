@@ -585,7 +585,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
     "objects": [
       {
         "path": "src/Apps/CZ/IntrastatCZ/app/permissions/IntrastatCZObjects.PermissionSetExt.al",
@@ -608,6 +608,105 @@
         "app": "IntrastatCZ",
         "cc": "cz",
         "page": "codeunit/31302-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/ItemCardOriginCZ.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/31159",
+        "type": "codeunit",
+        "id": 31159,
+        "name": "Item Card Origin CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "codeunit/31159-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/ItemEntryOriginCZ.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/31163",
+        "type": "codeunit",
+        "id": 31163,
+        "name": "Item Entry Origin CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "codeunit/31163-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/JobEntryOriginCZ.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/31164",
+        "type": "codeunit",
+        "id": 31164,
+        "name": "Job Entry Origin CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "codeunit/31164-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/NoPostedOriginCZ.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/31165",
+        "type": "codeunit",
+        "id": 31165,
+        "name": "No Posted Origin CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "codeunit/31165-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/PostedEntriesOriginCZ.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/31160",
+        "type": "codeunit",
+        "id": 31160,
+        "name": "Posted Entries Origin CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "codeunit/31160-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Enums/GetCountryRegOfOriginCZ.Enum.al",
+        "status": "added",
+        "key": "enum/31302",
+        "type": "enum",
+        "id": 31302,
+        "name": "Get Country/Reg. of Origin CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "enum/31302-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Enums/IntrastatPostedSourceCZ.Enum.al",
+        "status": "added",
+        "key": "enum/31303",
+        "type": "enum",
+        "id": 31303,
+        "name": "Intrastat Posted Source CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "enum/31303-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatOriginModeCZ.Interface.al",
+        "status": "added",
+        "key": "interface/intrastat origin mode cz",
+        "type": "interface",
+        "id": null,
+        "name": "Intrastat Origin Mode CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "interface/intrastat-origin-mode-cz-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatPostedOriginCZ.Interface.al",
+        "status": "added",
+        "key": "interface/intrastat posted origin cz",
+        "type": "interface",
+        "id": null,
+        "name": "Intrastat Posted Origin CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "interface/intrastat-posted-origin-cz-cz"
       },
       {
         "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/BlanketPurchOrdSubformCZ.PageExt.al",
@@ -1281,53 +1380,7 @@
         "page": "tableextension/31322-cz"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/ItemCardOriginCZ.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/ItemEntryOriginCZ.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/JobEntryOriginCZ.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/NoPostedOriginCZ.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/PostedEntriesOriginCZ.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/src/Enums/GetCountryRegOfOriginCZ.Enum.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/src/Enums/IntrastatPostedSourceCZ.Enum.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatOriginModeCZ.Interface.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatPostedOriginCZ.Interface.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "inventory",

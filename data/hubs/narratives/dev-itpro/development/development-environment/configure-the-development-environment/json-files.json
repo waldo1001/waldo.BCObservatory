@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.013968000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:56:28.632Z",
+    "verdict": "approve",
+    "issues": [
+      "Directory.app.props.json is described as letting 'several apps share' values ('shared across apps'). The source only says it defines reusable variables and properties for AL apps with single-point edits. This is a mild inference, not a contradiction.",
+      "The '(2025 release wave 2)' label on the Directory.app.props.json key point comes from the page's versions list. The narrative correctly does not call it an introduction date.",
+      "The last key point (version ranges for app.json and launch.json) is accurate but of little use to agents."
+    ],
+    "input_hash": "692ffe22b4aaa5740721c1b0f2d0d14c4951cc355515a0a029a3c1eb62b53a1b",
+    "cost_usd": 0.032319200000000006
   }
 }

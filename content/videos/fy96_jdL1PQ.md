@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:20:07.413Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -71,13 +71,58 @@ links:
   learn: []
   objects:
     - object/table/32
-  features:
-    - feature/573329
+  features: []
   topics: []
   localizations: []
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
+      title: BC 29 lets a single index span base table and table extension fields
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/qABlX4AL3GM
+      title: "Business Central 29.0: Major Change to Table Extensions & SQL."
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/Fk6kWTe3f2Y
+      title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/thedynamicsexplorer-com/10326
+      title: Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/duiliotacconi-com/1457
+      title: "Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/f_i4_BRz-oA
+      title: "Microsoft presents: Cloud Migration from any SQL"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/1x3QyBX3swg
+      title: "Microsoft presents: Index management"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/tzX0qB9tiBs
+      title: "What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/QdWPlIV3Avk
+      title: "What's new in SCM: Subcontracting (2026 release wave 2)"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
 video_id: fy96_jdL1PQ
 channel: yt-dynamicscorner
 source_name: Dynamics Corner podcast
@@ -141,6 +186,24 @@ chapters:
     title: Out-of-box report layouts and US check formatting
   - t: 3043
     title: Preparing for RDLC retirement and future outlook
+cautions:
+  - kind: preview-disclaimer
+    quote: develop analysis views or or modes that you can uh include in extensions that you develop which is almost like ...
+    t: 1723
+  - kind: preview-disclaimer
+    quote: RDLC has no official support since 2016 and is being phased out
+    t: 2737
+  - kind: preview-disclaimer
+    quote: Word addin will get more functionality including conditional visibility and conditional formatting
+    t: 2830
+  - kind: preview-disclaimer
+    quote: RDLC will be obsoleted at some point
+    t: 2881
+  - kind: preview-disclaimer
+    quote: Out-of-box reports in version 27-28 are being moved to Word and Excel layouts instead of RDLC
+    t: 2905
+    versions:
+      - "27"
 features:
   - name: Multiple report layouts
     status: unclear
@@ -223,12 +286,10 @@ features:
     verified: false
     status_source: video
   - name: Word Central addin for report layouts
-    status: ga
+    status: unclear
     t: 2817
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573329"
+    status_source: video
   - name: RDLC phase-out for standard reports
     status: unclear
     t: 2881
@@ -329,10 +390,8 @@ The second half covers reporting. It begins with choosing a tool from the requir
 | Report Object with Multiple Layouts | status not stated | [29:03](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1743s) |
 | Word report layouts | status not stated | [46:38](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2798s) |
 | Excel report layouts | status not stated | [44:22](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2662s) |
-| Word Central addin for report layouts | generally available (roadmap [Use conditional visibility in the updated Word add-in](../features/573329.md)) | [46:57](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2817s) |
+| Word Central addin for report layouts | status not stated | [46:57](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2817s) |
 | RDLC phase-out for standard reports | status not stated | [48:01](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2881s) |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 
@@ -362,5 +421,19 @@ Not found in BC28-30: report "RDLC reports".
 - [47:10](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2830s) coming-later: Word addin will get more functionality including conditional visibility and conditional formatting
 - [48:01](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2881s) coming-later: RDLC will be obsoleted at some point
 - [48:25](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2905s) coming-later: Out-of-box reports in version 27-28 are being moved to Word and Excel layouts instead of RDLC
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Business Central 29.0: Major Change to Table Extensions & SQL.](../videos/qABlX4AL3GM.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Microsoft presents: Cloud Migration from any SQL](../videos/f_i4_BRz-oA.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)](../videos/tzX0qB9tiBs.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Table 32 "Item Ledger Entry"
 
 Presenters (as heard): Chris, Brad, Steven Henders, Stephen, Bernie, Steven.

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-center-api-mcp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api-mcp",
+  "title": "Business Central Administration Center API MCP Server (preview)",
+  "blob": "5e8c35f51fe672bbdc3f2ce0312b4cc83fb6b254",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Business Central Admin Center API MCP server is in public preview."
+    },
+    {
+      "kind": "fact",
+      "text": "MCP server located at https://mcp.businesscentral.dynamics.com/admin/v1 exposes admin APIs in standardized way."
+    },
+    {
+      "kind": "fact",
+      "text": "AI agents can discover available admin operations and propose follow-up actions while keeping users in control."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Connect to MCP server in Visual Studio Code, Copilot Studio, or other tools supporting MCP."
+    },
+    {
+      "kind": "limit",
+      "text": "Six endpoints are excluded during preview: Set security group, Clear security group, Delete environment, Rename environment, Link Power Platform environment, Unlink Power Platform environment."
+    },
+    {
+      "kind": "fact",
+      "text": "Sample MCP Proxy on GitHub demonstrates multi-tenant administration but is not supported for production use."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008771,
+      "pages_in_call": 4
+    }
+  ]
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:54.665Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -332,6 +332,7 @@ Insurance reports show policies, coverage, over- or under-insured status and uni
 - [Maintenance - Analysis (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5630): Review your maintenance expenses for fixed assets for different time periods broken down by maintenance types or other categories, such as fixed asset class.
 - [Maintenance - Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5634): Get detailed information about the maintenance ledger entries for your fixed assets.
 - [Maintenance - Next Service (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5635): Get an overview of when service and repairs are planned for your fixed assets.
+  - In the observatory: [Page 5600 "Fixed Asset Card"](../../../../../objects/page/5600.md)
 
 ## Videos and posts
 

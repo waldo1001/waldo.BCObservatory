@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-data-replication.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication",
+  "title": "Data replication overview",
+  "blob": "023afd7e60da7f613f413abee7751f3ca43c1cee",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Data replication copies on-premises data to Business Central online as part of cloud migration."
+    },
+    {
+      "kind": "fact",
+      "text": "Large tables use flow with compression to Azure BLOB storage then decompression to online database."
+    },
+    {
+      "kind": "fact",
+      "text": "Smaller tables are optimized by serializing, compressing, and merging into single table before storage."
+    },
+    {
+      "kind": "fact",
+      "text": "When replication completes, you initialize non-initialized companies to ensure accessibility."
+    },
+    {
+      "kind": "fact",
+      "text": "First replication is full; subsequent runs replicate only changed data using SQL change tracking."
+    },
+    {
+      "kind": "limit",
+      "text": "If change tracking retention expires, full replication of affected tables occurs again."
+    },
+    {
+      "kind": "fact",
+      "text": "Migration log displays replication results after process completes."
+    }
+  ],
+  "dropped": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005499,
+      "pages_in_call": 11
+    }
+  ]
+}

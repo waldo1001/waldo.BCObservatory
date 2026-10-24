@@ -8,11 +8,11 @@
   ],
   "summary": "Subcontractor price calculation for time-based operations now correctly multiplies the unit cost by the operation's run time factor when creating purchase requisitions and orders.",
   "key_points": [
-    "Time-based operation cost factor was being ignored in subcontractor price calculations",
-    "Added shared calculation that multiplies subcontractor price by operation time and rounds to configured precision",
-    "Fix applied consistently to requisition lines, carried-out purchases, repricing, and direct purchase line creation",
-    "Comprehensive test coverage for all pricing scenarios in time-based subcontracting",
-    "Affects purchase cost accuracy in manufacturing operations using subcontractors"
+    "Subcontractor price for Time-based operations ignored the routing line's operation time factor",
+    "New shared calculation multiplies the subcontractor price by the operation time factor and rounds to the unit-amount precision",
+    "Applied to requisition worksheet lines, carried-out purchase lines, automatic repricing and directly created purchase lines",
+    "Automated test added covering those pricing scenarios",
+    "Fixes an incorrect Direct Unit Cost on subcontracting purchase and requisition lines"
   ],
   "change_kind": "fix",
   "behavior_change": true,

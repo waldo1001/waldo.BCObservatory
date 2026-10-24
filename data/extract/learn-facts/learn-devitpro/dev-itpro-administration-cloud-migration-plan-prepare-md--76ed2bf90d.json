@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-plan-prepare.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare",
+  "title": "Prepare and plan for cloud migration from Business Central on-premises",
+  "blob": "b0f4c2fe8450ab3010fc2bc440cc4ce67f1f6c8c",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Assess current state by reviewing version, database size, customization inventory, largest tables, and compliance requirements."
+    },
+    {
+      "kind": "fact",
+      "text": "On-premises data in extension tables migrates only if extension is installed online and ReplicateData property is true."
+    },
+    {
+      "kind": "fact",
+      "text": "Compressed data size in cloud may differ from on-premises size due to SQL Server data compression feature."
+    },
+    {
+      "kind": "step",
+      "text": "Archive obsolete history, shrink oversized log tables, and validate schema changes before migration."
+    },
+    {
+      "kind": "fact",
+      "text": "Per-database tables migrate regardless of company selection; plan batches for multi-company migration early."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Use sandbox environment for dry runs and validation; do not set up migration for production already in use."
+    },
+    {
+      "kind": "step",
+      "text": "Enable change tracking on on-premises database for expected days between backups; minimum three days enforced."
+    },
+    {
+      "kind": "fact",
+      "text": "Create full backup of on-premises database; differential or partial backups not supported as they lack Change Tracking data."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005472,
+      "pages_in_call": 10
+    }
+  ]
+}

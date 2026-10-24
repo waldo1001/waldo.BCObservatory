@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -595,21 +595,35 @@ Start with "Managing inventory" for the overall picture, then "Create item cards
 - [Add marketing text to items](https://learn.microsoft.com/dynamics365/business-central/item-marketing-text): Write marketing text for items in Business Central.
 - [Count and adjust inventory](https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-inventory-with-documents): Describes how to count physical inventory and use inventory documents to adjust on-hand inventory.
 - [Count, adjust, and reclassify inventory](https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-adjust-reclassify): Learn how to do physical counting and make adjustments and reclassifications.
+  - In the observatory: [Page 392 "Phys. Inventory Journal"](../../../objects/page/392.md), [Page 5875 "Physical Inventory Order"](../../../objects/page/5875.md)
 - [Create and manage catalog items](https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-nonstock-items): Learn how to sell items that you don't keep in your list of items.
+  - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md), [Page 5725 "Catalog Item Card"](../../../objects/page/5725.md), [Page 5732 "Catalog Item Setup"](../../../objects/page/5732.md)
 - [Create item cards for goods or services](https://learn.microsoft.com/dynamics365/business-central/inventory-how-register-new-items): You create item cards for services that you sell as hours and for physical products. Examples include assembly items and finished goods that you sell from your inventory.
+  - In the observatory: [Page 114 "Item Vendor Catalog"](../../../objects/page/114.md), [Page 540 "Default Dimensions"](../../../objects/page/540.md), [Page 5847 "Average Cost Calc. Overview"](../../../objects/page/5847.md), [Page 7002 "Sales Prices"](../../../objects/page/7002.md)
 - [Get an availability overview](https://learn.microsoft.com/dynamics365/business-central/inventory-how-availability-overview): You can get information about the availability of items or stock across locations, per sales or purchase events, by time period, and more.
 - [How to block items or item variants from sales, purchasing, and production](https://learn.microsoft.com/dynamics365/business-central/inventory-how-block-items): You can block items and item variants from being entered on lines in sales or purchase documents, and from being posted in a transaction.
+  - In the observatory: [Page 5401 "Item Variants"](../../../objects/page/5401.md)
 - [How to reserve items](https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-reserve-items): Learn about reserving items for sales orders, purchase orders, and production orders.
+  - In the observatory: [Page 305 "Reservation Worksheet"](../../../objects/page/305.md), [Page 48 "Sales Orders"](../../../objects/page/48.md), [Page 497 "Reservation Entries"](../../../objects/page/497.md), [Page 498 "Reservation"](../../../objects/page/498.md), [Page 6507 "Item Tracking List"](../../../objects/page/6507.md), [Page 99000829 "Firm Planned Prod. Order"](../../../objects/page/99000829.md)
 - [How to work with responsibility centers](https://learn.microsoft.com/dynamics365/business-central/inventory-responsibility-centers): Responsibility center as administrative centers help companies set up user-specific views of sales and purchase documents related exclusively to each center.
+  - In the observatory: [Page 1 "Company Information"](../../../objects/page/1.md), [Page 119 "User Setup"](../../../objects/page/119.md)
 - [Manage product variants](https://learn.microsoft.com/dynamics365/business-central/inventory-item-variants): Learn how you can record products that are almost identical but vary in color, size, or material as item variants.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../objects/page/461.md), [Page 5405 "Item Variant Card"](../../../objects/page/5405.md)
 - [Managing inventory](https://learn.microsoft.com/dynamics365/business-central/inventory-manage-inventory): This article describes how to manage the physical products you trade in by creating an inventory item card.
+  - In the observatory: [Page 5875 "Physical Inventory Order"](../../../objects/page/5875.md)
 - [Organize items in categories](https://learn.microsoft.com/dynamics365/business-central/inventory-how-categorize-items): To help you search for and find items, you can assign item attributes and organize items in categories.
 - [Set up item attributes and assign them to items](https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-item-attributes): Describes how to set up item attribute values, for example, that can be used as search words, and assign them to items and item categories.
+  - In the observatory: [Page 5730 "Item Categories"](../../../objects/page/5730.md), [Page 7500 "Item Attributes"](../../../objects/page/7500.md), [Page 7501 "Item Attribute Values"](../../../objects/page/7501.md), [Page 7506 "Filter Items by Attribute"](../../../objects/page/7506.md)
 - [Set up item tracking with serial, lot, and package numbers](https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-item-tracking): Set up item tracking with serial numbers, lot numbers, and package numbers
+  - In the observatory: [Page 30 "Item Card"](../../../objects/page/30.md), [Page 6502 "Item Tracking Codes"](../../../objects/page/6502.md), [Page 6512 "Item Tracking Code Card"](../../../objects/page/6512.md)
 - [Trace item-tracked items](https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-trace-item-tracked-items): You can see where an item-tracked item was used, including how and when it was received, produced, or returned with Item Tracing and Find Entries features.
+  - In the observatory: [Page 6520 "Item Tracing"](../../../objects/page/6520.md)
 - [Track items with serial, lot, and package numbers](https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-item-tracking): You can add serial numbers, lot numbers, and package numbers to outbound or inbound document. The posted item tracking entries display on their item ledger entries.
+  - In the observatory: [Page 6504 "Serial No. Information Card"](../../../objects/page/6504.md), [Page 6508 "Lot No. Information List"](../../../objects/page/6508.md), [Page 6509 "Serial No. Information List"](../../../objects/page/6509.md), [Page 6510 "Item Tracking Lines"](../../../objects/page/6510.md)
 - [Transfer items between locations](https://learn.microsoft.com/dynamics365/business-central/inventory-how-transfer-between-locations): Learn how to transfer items, inventory, or stock between locations by using transfer orders or the item reclassification journal.
+  - In the observatory: [Page 5740 "Transfer Order"](../../../objects/page/5740.md), [Page 5742 "Transfer Orders"](../../../objects/page/5742.md), [Page 5743 "Posted Transfer Shipment"](../../../objects/page/5743.md), [Page 672 "Job Queue Entries"](../../../objects/page/672.md), [Page 709 "Error Message Register"](../../../objects/page/709.md), [Report 5707 "Batch Post Transfer Orders"](../../../objects/report/5707.md)
 - [Use item references](https://learn.microsoft.com/dynamics365/business-central/inventory-how-use-item-cross-refs): Set up references between the descriptions, unit of measures, and variants that you and your vendor or customer use for an item.
+  - In the observatory: [Page 56 "Purchase Orders"](../../../objects/page/56.md), [Page 5737 "Item Reference Entries"](../../../objects/page/5737.md)
 - [Work with bills of material](https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-BOMs): You create an assembly BOM or production BOM to specify the components or resources required to put together the item that the BOM represents.
 
 ## Videos, posts and code changes

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-appsource-submission-validation-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace",
+  "title": "Analyzing Marketplace submission validation trace telemetry",
+  "blob": "98e53909765bb2f71d92b7925ad69a1cd1016ab3",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Available from Business Central 2021 release wave 1, version 18.4 and later."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry traces are emitted for validation process phases when app is submitted to Marketplace."
+    },
+    {
+      "kind": "fact",
+      "text": "Validation runs against each extension for each country and Business Central version specified."
+    },
+    {
+      "kind": "fact",
+      "text": "Each submission receives unique ID included in each trace allowing queries of all related traces."
+    },
+    {
+      "kind": "fact",
+      "text": "AL compiler and AppSourceCop code analyzer perform validation on extensions."
+    },
+    {
+      "kind": "fact",
+      "text": "Traces report diagnostics, validation phases, errors, and whether validation completed with or without failures."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003696,
+      "pages_in_call": 16
+    }
+  ]
+}

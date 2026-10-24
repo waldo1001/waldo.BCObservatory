@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:05:23.046Z"
   flags: []
 generated:
-  at: "2026-10-07T23:05:23.100Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -129,6 +129,27 @@ chapters:
     title: Roadmap and Future Enhancements
   - t: 858
     title: Open Source and Closing Remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: later on in one of the next miners uh we will provide more demo data so it's easier to demonstrate all the capabilities that powerbi is offering
+    t: 60
+  - kind: preview-disclaimer
+    quote: later on you'll be able to select specific visuals
+    t: 101
+  - kind: preview-disclaimer
+    quote: in one of the coming releases minor releases hopefully the second one we will add demo data
+    t: 783
+  - kind: preview-disclaimer
+    quote: we will extend the set of apps we have the seven apps we have with an app for subscription billing so that will powerbi will be embedded as reporting there too and we will also get one for sustainability we'll get one for fixed assets
+    t: 824
+  - kind: preview-disclaimer
+    quote: from the next release which means uh release 26 which is April uh we will open source the report files
+    t: 858
+    versions:
+      - "26"
+  - kind: preview-disclaimer
+    quote: in this release because we're still making a few changes um to the uh apps we um we keep it to ourselves
+    t: 858
 features:
   - name: Power BI Embedded Reports
     status: unclear

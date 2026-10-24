@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:58:10.793Z"
   flags: []
 generated:
-  at: "2026-10-07T22:58:10.842Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -174,6 +174,15 @@ chapters:
     title: Fixed Assets and Sustainability Reports
   - t: 720
     title: Legacy Report Deprecation and Manufacturing Analytics
+cautions:
+  - kind: preview-disclaimer
+    quote: it will come in version 26.1
+    t: 515
+    versions:
+      - "26"
+  - kind: preview-disclaimer
+    quote: they will be removed from the product
+    t: 780
 features:
   - name: Excel Reports for Finance (Generally Available)
     status: ga

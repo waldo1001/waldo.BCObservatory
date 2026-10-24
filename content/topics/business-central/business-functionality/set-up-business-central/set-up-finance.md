@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:46.770Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -466,31 +466,49 @@ Start with "Set up financial processes" to find the right task. Then open the ar
 ## Learn pages
 
 - [Apply Entries in Different Currencies](https://learn.microsoft.com/dynamics365/business-central/finance-how-enable-application-ledger-entries-different-currencies): You can apply ledger entries in multiple currencies, for example, if you sell in one currency and receive payment in another.
+  - In the observatory: [Page 110 "Customer Posting Groups"](../../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../../objects/page/111.md), [Page 459 "Sales & Receivables Setup"](../../../../objects/page/459.md)
 - [Automate reminders in collections](https://learn.microsoft.com/dynamics365/business-central/finance-automate-reminders): Save time in collections by automating the processes of creating, issuing, and sending reminders to customers.
+  - In the observatory: [Page 672 "Job Queue Entries"](../../../../objects/page/672.md), [Page 6760 "Send Reminders Setup"](../../../../objects/page/6760.md), [Page 6761 "Issue Reminders Setup"](../../../../objects/page/6761.md)
 - [Build financial reports using financial data and account categories](https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule): Describes how to use financial reports to create various views and reports for analyzing financial performance data.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../objects/page/118.md), [Page 8391 "Financial Report Categories"](../../../../objects/page/8391.md)
 - [Payment tolerance and payment discount tolerance](https://learn.microsoft.com/dynamics365/business-central/finance-payment-tolerance-and-payment-discount-tolerance): This article explains how to set up payment tolerance to close an invoice when the payment doesn't fully cover the invoice amount.
+  - In the observatory: [Page 110 "Customer Posting Groups"](../../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../../objects/page/111.md)
 - [Posting group setup](https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups): Learn how to use posting groups to save time and avoid mistakes when you post transactions.
+  - In the observatory: [Page 110 "Customer Posting Groups"](../../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../../objects/page/111.md), [Page 112 "Inventory Posting Groups"](../../../../objects/page/112.md), [Page 314 "General Posting Setup"](../../../../objects/page/314.md), [Page 373 "Bank Account Posting Groups"](../../../../objects/page/373.md), [Page 5233 "Human Resources Setup"](../../../../objects/page/5233.md)
 - [Set up additional currencies](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-additional-currencies): Your general ledger is set up to use your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned.
+  - In the observatory: [Page 472 "VAT Posting Setup"](../../../../objects/page/472.md)
 - [Set Up Cash Customers](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-cash-customers): This topic describes the steps required to set up the invoice with a customer number for customers who pay in cash.
 - [Set Up Codes for Audit Trails](https://learn.microsoft.com/dynamics365/business-central/finance-setup-trail-codes): Learn about the tasks to set up source codes and reason codes that you can use to track audit trails.
+  - In the observatory: [Page 101 "General Journal Templates"](../../../../objects/page/101.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md)
 - [Set up excise tax](https://learn.microsoft.com/dynamics365/business-central/finance-set-up-excise-tax): Learn how to set up excise tax types, assign one or more excise taxes to items, configure fixed assets, and prepare excise journals.
 - [Set Up Finance Charge Terms](https://learn.microsoft.com/dynamics365/business-central/finance-setup-finance-charges): Learn how to set up Business Central so that you can inform customers of added charges by sending finance charge memos.
+  - In the observatory: [Table 301 "Finance Charge Text"](../../../../objects/table/301.md)
 - [Set up financial processes](https://learn.microsoft.com/dynamics365/business-central/finance-setup-finance): Learn about the tasks required to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
+  - In the observatory: [Page 17 "G/L Account Card"](../../../../objects/page/17.md), [Page 790 "G/L Account Categories"](../../../../objects/page/790.md)
 - [Set up Intrastat reporting](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-report-intrastat): This article explains how to set up Intrastat reporting features to report trade with companies in other EU countries/regions.
+  - In the observatory: [Page 10 "Countries/Regions"](../../../../objects/page/10.md), [Page 35603 "Vendors (RU)"](../../../../objects/page/35603-ru.md), [Page 36954 "Customers"](../../../../objects/page/36954.md), [Page 4814 "Intrastat Report Checklist"](../../../../objects/page/4814.md), [Page 5404 "Item Units of Measure"](../../../../objects/page/5404.md), [Page 6504 "Serial No. Information Card"](../../../../objects/page/6504.md)
 - [Set up invoice rounding](https://learn.microsoft.com/dynamics365/business-central/finance-set-up-invoice-rounding): If you need to round invoice amounts when you create invoices, you can use the automatic rounding function explained here.
 - [Set Up Multiple Interest Rates for Delayed Payment](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-multiple-interest-rates): This topic tells you how to calculate finance charges with multiple interest rates for a specific period.
 - [Set up or change the chart of accounts](https://learn.microsoft.com/dynamics365/business-central/finance-setup-chart-accounts): Learn about setting up your chart of accounts (COA) with the ledger accounts that store your financial data.
 - [Set up payment methods](https://learn.microsoft.com/dynamics365/business-central/finance-payment-methods): You use payment methods, for example, check, bank transfer, cash, or PayPal, to define how sales and purchase invoices are paid.
+  - In the observatory: [Table 289 "Payment Method"](../../../../objects/table/289.md)
 - [Set up payment terms](https://learn.microsoft.com/dynamics365/business-central/finance-payment-terms): Use payment terms to manage due dates and payment discounts.
+  - In the observatory: [Table 3 "Payment Terms"](../../../../objects/table/3.md)
 - [Set Up Reminder Terms and Levels](https://learn.microsoft.com/dynamics365/business-central/finance-setup-reminders): Set up Business Central so you can send reminders about payments due and add charges, or fees because of the delay.
+  - In the observatory: [Page 433 "Reminder Text"](../../../../objects/page/433.md), [Page 838 "Reminder Terms Setup"](../../../../objects/page/838.md), [Page 9660 "Report Layouts"](../../../../objects/page/9660.md)
 - [Set up unrealized value added tax](https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat): If you're using cash-based accounting, you can specify how to handle unrealized VAT for sales and purchases.
 - [Set up value-added tax](https://learn.microsoft.com/dynamics365/business-central/finance-setup-vat): Make sure that you correctly calculate, post, and report on VAT for sales and purchases. We recommend that you use the assisted setup guide to set up VAT.
+  - In the observatory: [Page 119 "User Setup"](../../../../objects/page/119.md), [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 187 "VAT Setup"](../../../../objects/page/187.md)
 - [Set up withholding tax](https://learn.microsoft.com/dynamics365/business-central/finance-set-up-withholding-tax): Learn how to configure Business Central so that you can record withholding taxes.
 - [Setting up cash flow analysis](https://learn.microsoft.com/dynamics365/business-central/finance-setup-cash-flow-analyses): Use Accountant Role Center charts to analyze the flow of money in your business, including expenses and income, liquidity, and cash receipts minus cash payments.
+  - In the observatory: [Page 108 "Financial Reports"](../../../../objects/page/108.md), [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md), [Page 29 "Vendor Ledger Entries"](../../../../objects/page/29.md), [Page 9027 "Accountant Role Center"](../../../../objects/page/9027.md)
 - [Update currency exchange rates](https://learn.microsoft.com/dynamics365/business-central/finance-how-update-currencies): Learn how to use Business Central to adjust exchange rates for amounts in different currencies.
+  - In the observatory: [Page 483 "Currency Exchange Rates"](../../../../objects/page/483.md)
 - [Use Allocation Keys in General Journals](https://learn.microsoft.com/dynamics365/business-central/ui-how-use-allocation-keys-general-journals): You can allocate an entry in a general journal to several different accounts when you post the journal.
+  - In the observatory: [Page 251 "General Journal Batches"](../../../../objects/page/251.md)
 - [Validate VAT Registration Numbers](https://learn.microsoft.com/dynamics365/business-central/finance-how-validate-vat-registration-number): Let Business Central validate VAT registration numbers for your contacts, customers, and vendors, based on EU VIES VAT Number Validation service.
 - [Working with accounting periods and fiscal years](https://learn.microsoft.com/dynamics365/business-central/finance-accounting-periods-and-fiscal-years): Learn how to work with accounting periods to define when your company reports financial performance.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../objects/page/118.md), [Page 119 "User Setup"](../../../../objects/page/119.md)
 
 ## Videos, posts and code changes
 

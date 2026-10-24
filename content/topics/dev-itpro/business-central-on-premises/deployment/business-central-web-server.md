@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:22:23.174Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,10 +127,24 @@ Start with "Deploy the Web Server Components" for the overview of network topolo
 
 - [Configure Web Client Delegation](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-delegation-web-server): The client device, Web Client, and Server are on separate computers. Web Client performs actions on behalf of client device called impersonation process.
 - [Configuring Business Central Web Server instances](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-web-server): Learn about the different configuration settings when you deploy the Business Central web server on-premises.
+  - Business Central web server instance requires IIS instance; created via setup or New-NAVWebServerInstance cmdlet.
+  - Web server configuration saved in navsettings.json file located at C:\inetpub\wwwroot\[WebServerInstanceName].
+  - Step: Modify navsettings.json directly in text editor or using Set-NAVWebServerInstanceConfiguration PowerShell cmdlet.
+  - ClientServicesCredentialType setting must match Server instance type: Windows, UserName, NavUserPassword, or AccessControlService.
+  - SessionTimeout default is 20 minutes; specifies idle time before page closes with expiration message.
+  - MaximumWebSocketsMessageSize default 300 MB limits single WebSocket message size to prevent denial-of-service.
+  - RequireSsl setting must be true if SSL enabled on web server to mark cookies as secure.
 - [Configuring Internet Information Services for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-iis): Learn to configuration of Internet Information Service that is required for running the web client.
 - [Configuring SSL to Secure the Web Client Connection](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection): Learn how to secure data that is transmitted over the internet by enabling Secure Sockets Layer on the connection to Web Client.
 - [Deploy the Web Server Components](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/web-server-overview): Understand the network architecture, users, security, deployment phases for installing and configuring the Business Central Web Server Components.
 - [Set Up Multiple Business Central Web Server Instances using PowerShell](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-multiple-web-server-instances): Learn how to use Windows PowerShell to set up more than one web server instance on Internet Information Service (IIS) for the Business Central web client.
 - [Web Client Configuration for Tenants](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-web-server-to-accept-host-names-for-tenants): To deploy the Dynamics NAV Web Client in a multitenant development architecture, URLs must specify the tenant ID to access a specific tenant.
+  - Prerequisite: Microsoft URL Rewrite module must be installed in IIS on the web server computer.
+  - Step: Open the web.config file located in the physical path of the web application.
+  - Step: Delete comment tags around the rewrite element in system.webServer if present.
+  - Step: Change enabled attribute from false to true in the Hostname rule element.
+  - Web server can then accept URLs containing host names to identify tenants in multitenant deployment.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

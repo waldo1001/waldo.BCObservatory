@@ -1,0 +1,38 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/",
+  "page_id": "post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If your code only checks the Blocked field, your logic can break.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Item"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "You may allow actions that should be restricted, such as sales on items that are blocked for sales.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Item"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005449,
+    "posts_in_call": 4
+  }
+}

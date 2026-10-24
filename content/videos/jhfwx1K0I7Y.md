@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:15:10.742Z"
   flags: []
 generated:
-  at: "2026-10-07T23:15:10.776Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -163,6 +163,22 @@ chapters:
     title: Summary and Developer Tools
   - t: 1233
     title: Closing and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: this is now available in public preview with 2023 release Wave 2
+    t: 158
+  - kind: preview-disclaimer
+    quote: this feature is available uh in public preview while we assess feedback from our community
+    t: 812
+  - kind: preview-disclaimer
+    quote: this will be delivered in a minor update for Wave 2 now keep in mind that minor updates span from November until March 2024
+    t: 832
+  - kind: preview-disclaimer
+    quote: bank account reconciliation assistance is only available for business Central online what we often refer to as SAS
+    t: 852
+  - kind: preview-disclaimer
+    quote: while in preview co-pilot performs better in English language uh with English Bank transactions and in fact uh suggestions might not perform as well in other languages
+    t: 872
 features:
   - name: Bank Account Reconciliation Assistance with Copilot
     status: preview

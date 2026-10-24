@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/",
+  "page_id": "post/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "For PTEs don't start at 50000. The in client designer will create objects starting at 50000 which would fail.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Its important to have at least two levels of namespaces.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "To make the AppSourceCop actually work, you need to have a AppSourceCop.json config file.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005947,
+    "posts_in_call": 4
+  }
+}

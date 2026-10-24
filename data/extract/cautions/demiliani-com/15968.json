@@ -1,0 +1,29 @@
+{
+  "item_id": "blog/demiliani-com/15968",
+  "page_id": "post/demiliani-com/15968",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Queries in AL ignore CurrentTransactionType. If you have been steering isolation for record reads with that call, do not assume it reaches your queries.",
+      "objects": [
+        {
+          "type": "query",
+          "name": "AL query"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "29",
+        "2026 Wave 2"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004371,
+    "posts_in_call": 4
+  }
+}

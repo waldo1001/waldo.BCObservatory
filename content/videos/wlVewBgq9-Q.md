@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:56:31.363Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -86,6 +86,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/projects-manage-projects
+      title: Project management
+      label: possibly related
+      why: names Page 8904 "Project Manager Role Center"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/projects-setup-projects
+      title: Set Up Resources, Time Sheets, and Projects
+      label: possibly related
+      why: names Page 8904 "Project Manager Role Center"
+      by: code
 video_id: wlVewBgq9-Q
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -276,3 +287,10 @@ Not found in BC28-30: page "project card", page "project planning lines", page "
 - [1:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=72s) "The cost and price amounts come from the resource or item assigned."
 - [1:39](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=99s) "We should choose a project posting group. We can choose these per project or in the project setup window."
 - [1:49](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=109s) "When we set up other similar projects, we can save time by copying tasks."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Project management](https://learn.microsoft.com/dynamics365/business-central/projects-manage-projects) — possibly related: names Page 8904 "Project Manager Role Center"
+- [Set Up Resources, Time Sheets, and Projects](https://learn.microsoft.com/dynamics365/business-central/projects-setup-projects) — possibly related: names Page 8904 "Project Manager Role Center"

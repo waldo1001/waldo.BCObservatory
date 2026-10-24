@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:47:32.774Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:32.815Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -131,6 +131,28 @@ chapters:
     title: "Future plans: LLM judge and Visual Studio Code integration"
   - t: 359
     title: Call to action and feedback request
+cautions:
+  - kind: preview-disclaimer
+    quote: Currently it's only possible to run these tests in the sandboxes. Unfortunately, it's not possible to run them on prem
+    t: 258
+  - kind: preview-disclaimer
+    quote: sales return agent sample is not on BCT yet; available on request
+    t: 313
+  - kind: preview-disclaimer
+    quote: planning to introduce LLM as a judge for test validation
+    t: 329
+  - kind: preview-disclaimer
+    quote: looking into enabling running these tests from the visual studio code
+    t: 349
+  - kind: preview-disclaimer
+    quote: want to ship more samples
+    t: 359
+  - kind: preview-disclaimer
+    quote: making this fully possible for the agents to implement
+    t: 374
+  - kind: preview-disclaimer
+    quote: Keep in mind this is the first version. We are really looking forward to your feedback
+    t: 389
 features:
   - name: AI Development Toolkit Evaluation app
     status: unclear

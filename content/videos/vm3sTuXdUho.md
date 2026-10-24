@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:54:46.500Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -109,6 +109,10 @@ chapters:
     title: Custom templates support and limitations
   - t: 427
     title: Resources and conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: For now nonaoggo files and custom templates are not updated when running update AOG system files. We have actually already received feedback so we might be changing this in the future.
+    t: 427
 features:
   - name: Custom templates for AL-Go
     status: unclear

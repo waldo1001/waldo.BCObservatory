@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:53.992Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -201,6 +201,7 @@ Start with Query Overview, then read Data Item Links and Filtering in Query obje
 - [Data Item Links](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-links-joins): Using queries, retrieve records from one or more tables and combine the records into rows in a single dataset.
 - [Filtering in Query objects](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-filters): Specify filters in a query to restrict the data in the resulting dataset. A filter applies conditions on fields in a table associated with the query.
 - [Query object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object): Description of the AL query object.
+  - In the observatory: [Query 100 "Top Customer Overview"](../../../../../objects/query/100.md)
 - [Query Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-overview): Description of the query object.
 - [Retrieving Date Data in Queries](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-retrieve-date-data): Learn how to retrieve year, month, or day from date fields in query results. Discover setup steps, examples, and best practices.
 - [Using Queries Instead of Record Variables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-using-instead-record-variables)

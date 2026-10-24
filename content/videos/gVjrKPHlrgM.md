@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:53:20.126Z"
   flags: []
 generated:
-  at: "2026-10-07T22:53:20.152Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -113,6 +113,10 @@ chapters:
     title: ZUGFeRD Setup Requirements and Email Integration
   - t: 396
     title: Closing Remarks and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: It will be available for 27 version. So that means from this uh 25 release wave two
+    t: 396
 features:
   - name: ZUGFeRD Format Support
     status: unclear

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:05:41.460Z"
   flags: []
 generated:
-  at: "2026-10-07T23:05:41.498Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -120,6 +120,13 @@ chapters:
     title: Managed DevOps Solutions and Future Support
   - t: 267
     title: Call to Action and Summary
+cautions:
+  - kind: preview-disclaimer
+    quote: enhancement to the page scripting tool that we launched in the previous release as a preview
+    t: 6
+  - kind: preview-disclaimer
+    quote: support for the BC replay page scripting replayer will come out soon in those different solutions
+    t: 256
 features:
   - name: Page Scripting Tool
     status: preview

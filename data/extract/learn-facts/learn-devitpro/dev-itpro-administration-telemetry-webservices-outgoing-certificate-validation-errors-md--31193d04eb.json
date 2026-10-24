@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-outgoing-certificate-validation-errors.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-certificate-validation-errors",
+  "title": "Server certificate validation errors for outgoing web service requests",
+  "blob": "a9ca0e304f6cc081a4d3ccfffd749bd92407de02",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Server certificate validation error telemetry captures SSL/TLS certificate failures when making outgoing web service requests using the AL HTTPClient module."
+    },
+    {
+      "kind": "fact",
+      "text": "Event ID is RT0052, introduced in version 26.0, and logs details about endpoint, certificate chain, issuer name and subject field."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry includes the AL object making the request, HTTP method used and the specific failure reason explaining why the certificate did not validate."
+    },
+    {
+      "kind": "fact",
+      "text": "Certificate validation error events capture extension information including app ID, publisher, name and version alongside environment and company details."
+    },
+    {
+      "kind": "fact",
+      "text": "The failureReason dimension indicates why validation failed, helping developers contact endpoint owners to fix certificate issues."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00945,
+      "pages_in_call": 6
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-prerequisites.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites",
+  "title": "Cloud migration prerequisites for Business Central",
+  "blob": "b61ad74da9b74c47c130ee7f033a067e7ea41861",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Destination online environment must have Business Central online tenant with at least one user having SUPER permissions in target company."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Install latest versions of Intelligent Cloud Base and Business Central Intelligent Cloud apps in online environment before migration."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Source on-premises must run Business Central version 25.0 or later; earlier versions require upgrade before cloud migration."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Database must use SQL Server 2016 SP1 or later with compatibility level 130 or higher and TCP/IP enabled."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "SQL Server authentication login must have sysadmin role at server level and db_owner role at database level."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Self-hosted integration runtime machine needs sufficient resources matching requirements in Azure Data Factory documentation."
+    },
+    {
+      "kind": "fact",
+      "text": "Users without SUPER permissions are reassigned to intelligent cloud user group with read-only access during migration."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007287,
+      "pages_in_call": 6
+    }
+  ]
+}

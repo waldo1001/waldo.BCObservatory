@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-sl-configure-companies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-configure-companies",
+  "title": "Configure Dynamics SL company migration",
+  "blob": "acb5865e182690c594b9b605d289a0a8da129609",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Run cloud migration setup before configuring company migration."
+    },
+    {
+      "kind": "fact",
+      "text": "SL Company Migration Configuration page opens automatically after Cloud Migration Setup."
+    },
+    {
+      "kind": "step",
+      "text": "Configure migration globally or per company using Modules, Master Data Only, and other sections."
+    },
+    {
+      "kind": "step",
+      "text": "Set Oldest GL Year to specify how far back to migrate GL account summary transactions."
+    },
+    {
+      "kind": "step",
+      "text": "Set Oldest Snapshot Year to specify earliest year for historical transaction migration."
+    },
+    {
+      "kind": "fact",
+      "text": "Inactive records and discontinued items not migrated by default unless enabled."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005651,
+      "pages_in_call": 10
+    }
+  ]
+}

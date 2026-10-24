@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:56.635Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,7 +100,7 @@ narrative: generated
 
 > Updating and hotfixing covers how Business Central apps and extensions are updated, upgraded and hotfixed through their lifecycle. It answers questions about submitting new versions to Marketplace, version numbering, hotfix validation, breaking changes, and writing upgrade code.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Updating and hotfixing · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Updating and hotfixing · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -113,13 +113,13 @@ For the technical side, the Upgrading Extensions page explains how to write upgr
 ## Key points
 
 - The lifecycle page covers service updates, app updates, bug fixes, critical bugs, breaking changes and extension data retention.
-- Partners are responsible for maintaining their apps; Microsoft runs compatibility testing.
-- The FAQs cover app version numbering, Partner Center submission, the validation process and update cadence.
-- Force updates during major releases and automatic app updates are covered in the FAQs.
+- Partners are responsible for maintaining their apps; the lifecycle page also explains Microsoft's compatibility testing process.
+- The FAQs cover app version numbering, Partner Center submission, the validation process, update cadence and library app dependencies.
+- Force updates during major releases, automatic app updates, upgrade codeunits, code signing and technical validation are covered in the FAQs.
 - Hotfixing a Marketplace app means submitting a non-latest version, which brings validation release ranges and breaking change detection.
-- Hotfix validation uses AppSourceCop and has restrictions on public APIs and obsolete pending items.
+- The hotfix page covers AppSourceCop validation, public API restrictions and obsolete pending items.
 - Upgrade code uses the OnCheckPreconditions, OnUpgrade and OnValidate triggers.
-- Upgrade execution can be controlled by version data or upgrade tags, and the upgrade page lists 2021 release wave 1.
+- Upgrade execution can be controlled by version data or upgrade tags, and the upgrade page also covers running data migration.
 
 ## Learn pages
 
@@ -129,6 +129,7 @@ For the technical side, the Upgrading Extensions page explains how to write upgr
 - [Lifecycle of apps and extensions FAQ](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-update-app-life-cycle-faq): Overview of the frequently asked questions about updating an app on Marketplace.
 - [Update Lifecycle for Tenant Customizations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle): Overview of the process of ensuring extension compatibility with update versions
 - [Upgrading Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrading-extensions): Describes how to add code to upgrade data in a new extension version.
+  - In the observatory: [Codeunit 9999 "Upgrade Tag"](../../../../objects/codeunit/9999.md), [Table 9999 "Upgrade Tags"](../../../../objects/table/9999.md)
 
 ## Videos, posts and code changes
 

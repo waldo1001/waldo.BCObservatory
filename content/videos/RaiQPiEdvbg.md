@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:59:02.659Z"
   flags: []
 generated:
-  at: "2026-10-07T22:59:02.773Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,6 +81,42 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/thedynamicsexplorer-com/10232
+      title: Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central
+      label: possibly related
+      why: both name Page 39 "General Journal"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model
+      title: Power BI Sustainability app semantic model
+      label: possibly related
+      why: names Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/qPInVj03wkY
+      title: "What's New in Sustainability: Reporting CSRD (2025 release wave 2)"
+      label: possibly related
+      why: both name Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/HI7VcPzR2OE
+      title: "What's New: Financial Management - Overview (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 39 "General Journal"
+      by: code
+    - to: video/6d6iajwQQ-c
+      title: "What's New: Value Chain Automation with Production Orders (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/bnqxycPzbeI
+      title: "What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/1ugAYeEZLaU
+      title: Working with Amount Fields
+      label: possibly related
+      why: both name Page 39 "General Journal"
+      by: code
 video_id: RaiQPiEdvbg
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -224,5 +260,17 @@ Not found in BC28-30: page "Posted General Journals".
 - [2:44](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=164s) "if you want to post sustainability values in general journals, you must use one of these document types, invoice or create memo and blank"
 - [3:27](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=207s) "you can post carbon, you can post methan and nitrogen dioxide uh here as well. So you can post these three different emissions"
 - [3:44](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=224s) "if you do not have amount for posting to uh general ledger entries, you cannot post only emissions. If you have only emissions without"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../posts/thedynamicsexplorer-com/10232.md) — possibly related: both name Page 39 "General Journal"
+- [Power BI Sustainability app semantic model](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model) — possibly related: names Table 6216 "Sustainability Ledger Entry"
+- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../videos/qPInVj03wkY.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
+- [What's New: Financial Management - Overview (2024 release wave 1)](../videos/HI7VcPzR2OE.md) — possibly related: both name Page 39 "General Journal"
+- [What's New: Value Chain Automation with Production Orders (2025 release wave 1)](../videos/6d6iajwQQ-c.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
+- [What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)](../videos/bnqxycPzbeI.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
+- [Working with Amount Fields](../videos/1ugAYeEZLaU.md) — possibly related: both name Page 39 "General Journal"
 
 Presenters (as heard): Alexander, Mita.

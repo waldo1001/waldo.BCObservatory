@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -205,6 +205,7 @@ links:
     - change/bcapps/10334
     - change/bcapps/11324
     - change/bcapps/11998
+    - change/bcapps/13165
     - change/bcapps/9071
     - change/bcapps/9339
     - change/bcapps/9343
@@ -323,10 +324,15 @@ Two pages describe allocation. One covers allocating to multiple G/L accounts wi
 - [Overview of tasks to allocate costs and income](https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income): Outlines the tasks to allocate an entry in a recurring general journal to several different accounts when you post the journal.
 - [Record expenses or income directly in G/L](https://learn.microsoft.com/dynamics365/business-central/finance-how-post-transactions-directly): You can create transactions on the General Journal page for business activities that don't involve a document.
 - [Revalue general ledger account balances](https://learn.microsoft.com/dynamics365/business-central/finance-revalue-account-balances): Learn how to revalue general ledger account balances before you produce your financial statements.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 17 "G/L Account Card"](../../../../objects/page/17.md)
 - [Review general ledger accounts](https://learn.microsoft.com/dynamics365/business-central/finance-review-accounts): You can track your progress when you review amounts in general ledger accounts.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 17 "G/L Account Card"](../../../../objects/page/17.md)
 - [Understand the general ledger and Chart of Accounts](https://learn.microsoft.com/dynamics365/business-central/finance-general-ledger): This article describes the general ledger, chart of accounts, and account categories.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../objects/page/16.md)
 - [Understanding the Chart of Accounts](https://learn.microsoft.com/dynamics365/business-central/finance-chart-of-accounts): Describes the chart of accounts, how to set it up, and how to use it.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 17 "G/L Account Card"](../../../../objects/page/17.md)
 - [Undo a posting using a reversing entry](https://learn.microsoft.com/dynamics365/business-central/finance-how-reverse-journal-posting): If you find a mistake in a posted general journal, you can use the Reverse Transaction action to undo the posting with a correct audit trail.
+  - In the observatory: [Page 145 "Posted Purchase Receipts"](../../../../objects/page/145.md), [Page 183 "Reverse Transaction Entries"](../../../../objects/page/183.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md), [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md), [Page 6652 "Posted Return Shipments"](../../../../objects/page/6652.md)
 
 ## Videos, posts and code changes
 
@@ -337,6 +343,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10334 Add integration event OnAfterGetRecordOnAfterConfirmAndModify in the General Posting Setup dataitem OnAfterGetRecord trigger after Modify.](../../../../changes/bcapps/10334.md) (code change): "integration event OnAfterGetRecordOnAfterConfirmAndModify in the General Posting Setup"
 - [#11324 [main] Bug 649837 Export to Excel All exported rows if Show Currency is enabled in General Ledger Setup.](../../../../changes/bcapps/11324.md) (code change): "exporting to Excel applied a selected currency to all exported rows when Show Currency was enabled"
 - [#11998 [main] It should not be possible to post invoices with a non-existing Posting Setup combination because it creates trouble with Adjust for Payment Discount.](../../../../changes/bcapps/11998.md) (code change): "validates that a General Posting Setup combination exists before posting journal invoices"
+- [#13165 [Master]-"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.](../../../../changes/bcapps/13165.md) (code change): "G/L Register table permissions to allow modifying entries"
 - [#9071 Merged from [28.x]The transaction cannot be completed because it will cause inconsistencies in the G/L Entry table"](../../../../changes/bcapps/9071.md) (code change): "inconsistencies in the G/L Entry table in codeunit Gen. Jnl.-Post Line"
 - [#9339 [master][Gen. Jnl.-Post Line]` Add var NextEntryNo, var NextVATEntryNo, and var NextTransactionNo to OnAfterInitGLRegister in StartPosting](../../../../changes/bcapps/9339.md) (code change): "OnAfterInitGLRegister in StartPosting gains var NextEntryNo, NextVATEntryNo"
 - [#9343 [master][Event Request] Request at table 98 "General Ledger Setup",](../../../../changes/bcapps/9343.md) (code change): "New events were added to table 98 General Ledger Setup"

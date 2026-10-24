@@ -24,7 +24,7 @@ review:
   at: "2026-10-07T23:00:02.289Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:02.328Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -84,6 +84,32 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/olofsimren-com/3779
+      title: Approval Workflows in Planning Worksheet
+      label: possibly related
+      why: both name Page 99000852 "Planning Worksheet"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
+      title: Create Purchase Orders from Drop Shipments
+      label: possibly related
+      why: both name Page 99000852 "Planning Worksheet"
+      by: code
+    - to: video/tzX0qB9tiBs
+      title: "What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 99000768 "Manufacturing Setup"
+      by: code
+    - to: video/QdWPlIV3Avk
+      title: "What's new in SCM: Subcontracting (2026 release wave 2)"
+      label: possibly related
+      why: both name Page 99000768 "Manufacturing Setup"
+      by: code
+    - to: video/DJ3LPRxn27g
+      title: "What's New: Drop Shipments (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 99000852 "Planning Worksheet"
+      by: code
 video_id: SdQVQLNXVS0
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -252,3 +278,13 @@ Not found in BC28-30: page "manufacturing setup page", table "item card".
 - [1:21](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=81s) "Attachments are now included in headers and production order lines automatically populated with information about items, bills of material, and routing."
 - [2:00](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=120s) "Routing link code can also be updated within routings affecting the start date for connected components."
 - [2:13](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=133s) "Consumption and output journals now feature tracking and lines like the item journal."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Approval Workflows in Planning Worksheet](../posts/olofsimren-com/3779.md) — possibly related: both name Page 99000852 "Planning Worksheet"
+- [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 99000852 "Planning Worksheet"
+- [What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)](../videos/tzX0qB9tiBs.md) — possibly related: both name Page 99000768 "Manufacturing Setup"
+- [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Page 99000768 "Manufacturing Setup"
+- [What's New: Drop Shipments (2026 release wave 1)](../videos/DJ3LPRxn27g.md) — possibly related: both name Page 99000852 "Planning Worksheet"

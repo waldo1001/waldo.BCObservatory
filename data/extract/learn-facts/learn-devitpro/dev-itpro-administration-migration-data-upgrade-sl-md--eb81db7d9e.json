@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-data-upgrade-sl.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade-sl",
+  "title": "Upgrade data for Dynamics SL cloud migration",
+  "blob": "ae33327ec54d93067f57790f52d7741d3269da7a",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Data replication must complete for companies being migrated before running data upgrade."
+    },
+    {
+      "kind": "step",
+      "text": "Ask active Business Central users to finish tasks and sign out before starting data upgrade."
+    },
+    {
+      "kind": "fact",
+      "text": "When data upgrade starts, all client connections are terminated and cannot reconnect until upgrade completes."
+    },
+    {
+      "kind": "step",
+      "text": "Open Cloud Migration Management page and select Run data upgrade to schedule upgrade process."
+    },
+    {
+      "kind": "fact",
+      "text": "Data upgrade transforms Dynamics SL tables into Business Central tables."
+    },
+    {
+      "kind": "fact",
+      "text": "Hotfixes and scheduled tasks cannot run during data upgrade to prevent database locks and errors."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005028,
+      "pages_in_call": 10
+    }
+  ]
+}

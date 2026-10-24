@@ -2,20 +2,20 @@
 id: topic/business-central/get-started/learn
 type: topic
 title: Learn
-summary: "The Learn section of Business Central getting-started content covers hands-on learning material: process walkthroughs in the CRONUS demo company, Contoso Coffee demo data scenarios, user resources, and a video library. It answers where to learn and practice the product."
+summary: "The Learn section of Business Central gathers learning material: step-by-step business process walkthroughs in the CRONUS demo company, Contoso Coffee demo data scenarios, user resource links, and a video library. It answers where to find training, demo data, community and support resources."
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:15:56.746Z"
+  at: "2026-10-24T00:53:57.516Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4a4f893baf714559665bfcb675bc946fcce271952540967db7ea5af0fe41e6f7
+  input_hash: d2ff1beb5f88b576f43dc4b0f5a2957cadd1e411d9a6db51f34ba2fc605a426d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/walkthrough-business-process-walkthroughs
@@ -153,7 +153,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-process-subcontracting-operation
     title: Set up and process a subcontracting operation
-    date: "2026-08-13"
+    date: "2026-10-16"
     commit: null
     t: null
     quote: null
@@ -188,14 +188,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges
     title: Set up subcontracting prices and allocate item charges
-    date: "2026-08-13"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods
     title: Use different component supply methods in subcontracting
-    date: "2026-08-13"
+    date: "2026-10-16"
     commit: null
     t: null
     quote: null
@@ -378,26 +378,26 @@ narrative: generated
 
 # Learn
 
-> The Learn section of Business Central getting-started content covers hands-on learning material: process walkthroughs in the CRONUS demo company, Contoso Coffee demo data scenarios, user resources, and a video library. It answers where to learn and practice the product.
+> The Learn section of Business Central gathers learning material: step-by-step business process walkthroughs in the CRONUS demo company, Contoso Coffee demo data scenarios, user resource links, and a video library. It answers where to find training, demo data, community and support resources.
 
 Path: [Get started](../get-started.md) > Learn · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects learning material for people new to Business Central. Two subtopics provide hands-on practice: step-by-step business process walkthroughs that use the CRONUS demonstration company, and Contoso Coffee demo data, a fictitious company dataset for trying out scenarios.
+The Learn section is for people who want to learn Business Central by doing or watching. It has two hands-on subtopics: business process walkthroughs that use the CRONUS demonstration company, and Contoso Coffee demo data, a fictitious company dataset used for scenario-based learning.
 
-Two standalone pages point to further help. Resources for users links to documentation, community forums, release plans, apps, mobile access and support materials. The video library links to introduction videos, product videos reached from Role Centers, and the Business Central YouTube channel.
+Two standalone pages complete the section. "Resources for users" links to documentation, community forums, release plans, apps, mobile access, reporting guides and Power Platform integration. "Visit our video library" points to introduction videos, product videos reached from Role Centers, and the Business Central YouTube channel.
 
-Start with the video library or Resources for users for orientation. Then use the walkthroughs for common finance, sales, purchasing and warehouse tasks, or Contoso Coffee for manufacturing, warehousing, service and quality management scenarios.
+Start with the resources page for orientation. Then pick a walkthrough for a specific process, such as sales campaigns, prepayments or warehouse picking. Use the Contoso Coffee pages when you need to set up demo data for manufacturing, warehousing, service or quality management scenarios.
 
 ## Key points
 
-- Business process walkthroughs (9 pages) are step-by-step scenarios in the CRONUS demonstration company.
-- Walkthrough topics include sales campaigns, prepayments, purchase approvals, projects and WIP, warehouse picking, cash flow forecasts, and the Shopify Connector.
-- Contoso Coffee demo data (23 pages) is a fictitious company dataset for learning the product.
-- Contoso Coffee scenarios cover manufacturing, warehousing, service and quality management.
-- Resources for users links to documentation, community, release plans, Marketplace apps, mobile app access, reporting guides and Power Platform integration.
-- The video library offers introduction videos, how-to videos, a Product Videos tile in Role Centers, and the YouTube channel.
+- Business process walkthroughs (9 pages) use the CRONUS demonstration company.
+- Walkthrough topics: sales campaigns, prepayments, purchase approvals, projects and WIP, warehouse picking, cash flow forecasts, and the Shopify Connector.
+- Contoso Coffee demo data (23 pages) is a fictitious company dataset for learning.
+- Contoso Coffee scenarios cover manufacturing, warehousing, service and quality management, plus setting up the demo data.
+- Resources for users links to documentation, community forums, release plans, Marketplace apps, the mobile app, reporting guides and Power Platform integration.
+- The video library offers introduction videos, how-to videos, a Product Videos tile in Role Centers, and the Business Central YouTube channel.
 
 ## Subtopics
 

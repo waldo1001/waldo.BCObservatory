@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:04:33.008Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:33.046Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -95,6 +95,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/inventory-how-register-new-items
+      title: Create item cards for goods or services
+      label: possibly related
+      why: names Page 5720 "Item Substitutions"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/inventory-item-variants
+      title: Manage product variants
+      label: possibly related
+      why: names Page 5720 "Item Substitutions"
+      by: code
 video_id: bCIcq1zESKk
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -124,6 +135,10 @@ chapters:
     title: Related features and sessions
   - t: 680
     title: Copilot availability, deployment, and safety standards
+cautions:
+  - kind: preview-disclaimer
+    quote: due to very strict and diligent process of verifying feature against reliable AI standards, we had to postpone one piece of this functionality for the future
+    t: 295
 features:
   - name: Item substitution with Copilot
     status: unclear
@@ -257,5 +272,12 @@ Not found in BC28-30: page "Copilot and AI capabilities".
 - [4:55](https://www.youtube.com/watch?v=bCIcq1zESKk&t=295s) coming-later: due to very strict and diligent process of verifying feature against reliable AI standards, we had to postpone one piece of this functionality for the future
 - [9:39](https://www.youtube.com/watch?v=bCIcq1zESKk&t=579s) other: we tested it in English only. It should work on all other languages, but just to mention that we did testing only in English
 - [11:30](https://www.youtube.com/watch?v=bCIcq1zESKk&t=690s) other: Copilot features are only available in our cloud version of Business Central, while on-premise on-prem versions are unfortunately without Copilot functionalities
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Create item cards for goods or services](https://learn.microsoft.com/dynamics365/business-central/inventory-how-register-new-items) — possibly related: names Page 5720 "Item Substitutions"
+- [Manage product variants](https://learn.microsoft.com/dynamics365/business-central/inventory-item-variants) — possibly related: names Page 5720 "Item Substitutions"
 
 Presenters (as heard): Predrag Maricic, Volodymyr Synchuk.

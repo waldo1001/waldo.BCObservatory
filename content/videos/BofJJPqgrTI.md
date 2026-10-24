@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:11:10.008Z"
   flags: []
 generated:
-  at: "2026-10-07T23:11:10.047Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -198,6 +198,16 @@ chapters:
     title: Learning Resources, BI Triangle Framework, and Best Practices
   - t: 1403
     title: Related Sessions and Community Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: this is the first time we we we talk about it in the launch event
+    t: 423
+  - kind: preview-disclaimer
+    quote: they are in preview for because we still need to maybe tweak a few things
+    t: 612
+  - kind: preview-disclaimer
+    quote: Excel co-pilot it's is still in in preview in Excel
+    t: 946
 features:
   - name: Translatable Excel Layouts
     status: unclear

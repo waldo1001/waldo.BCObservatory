@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:21:54.732Z"
   flags: []
 generated:
-  at: "2026-10-07T23:21:54.822Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -162,6 +162,31 @@ chapters:
     title: Design rationale for conversion warnings
   - t: 4426
     title: Session closing and audience engagement
+cautions:
+  - kind: preview-disclaimer
+    quote: It's on my backlog to to develop in test automation cop rules
+    t: 1040
+  - kind: preview-disclaimer
+    quote: There isn't a rule currently today that will help you get a warning or a diagnostic for test dialogue validation
+    t: 1094
+  - kind: preview-disclaimer
+    quote: I released it this week maybe should be some bugs I didn't uh find as of today
+    t: 1817
+  - kind: preview-disclaimer
+    quote: so jumping today is is uh could be of course but is is quite uh could be quite an an ...
+    t: 1837
+  - kind: preview-disclaimer
+    quote: that's yeah still the subject for for testing and probably improvement
+    t: 2089
+  - kind: preview-disclaimer
+    quote: this is brand new. We just delivered it a few days ago. So um it's also in an early stage
+    t: 2192
+  - kind: preview-disclaimer
+    quote: MCP server is currently at 0.1 alpha
+    t: 2381
+  - kind: preview-disclaimer
+    quote: Version 1.0 expected in next couple weeks after fine tuning
+    t: 2401
 features:
   - name: ALCops
     status: unclear

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-finish-sl.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-sl",
+  "title": "Complete cloud migration for Dynamics SL",
+  "blob": "d82eb8f9fb1f8cacf4fcac4e7d70cf104b889264",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "step",
+      "text": "Disable cloud migration by opening Cloud Migration Management page and selecting Complete Cloud."
+    },
+    {
+      "kind": "fact",
+      "text": "Disabling cloud migration deletes environment setup but integration runtime remains."
+    },
+    {
+      "kind": "fact",
+      "text": "Integration runtime cloud registration automatically cleans up if unused for couple of weeks."
+    },
+    {
+      "kind": "step",
+      "text": "Create accounts in Microsoft 365 tenant with Business Central license for each on-premises user."
+    },
+    {
+      "kind": "step",
+      "text": "Create Business Central accounts linked to Microsoft 365 email and assign proper permissions."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005028,
+      "pages_in_call": 10
+    }
+  ]
+}

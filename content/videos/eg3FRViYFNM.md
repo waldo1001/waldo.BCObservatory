@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:12:39.542Z"
   flags: []
 generated:
-  at: "2026-10-07T23:12:39.593Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -222,6 +222,23 @@ chapters:
     title: Analysis Tabs Now Generally Available
   - t: 1754
     title: Additional Resources and Mobile Productivity
+cautions:
+  - kind: preview-disclaimer
+    quote: Legacy list views will go away in update 24, which is approximately April 2024
+    t: 698
+    versions:
+      - "24"
+  - kind: preview-disclaimer
+    quote: Automatic field value saving will be automatically enabled for everyone in update 24, which is roughly April 2024
+    t: 718
+    versions:
+      - "24"
+  - kind: preview-disclaimer
+    quote: with update 2 3 we're also introducing the ability to add existing table fields to your pages
+    t: 1643
+  - kind: preview-disclaimer
+    quote: last wave we also introduced analysis tabs uh this was released in preview
+    t: 1714
 features:
   - name: Show Details in Lookup Dialogues
     status: unclear

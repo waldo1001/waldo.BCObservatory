@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-server-events-with-powershell.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events-with-powershell",
+  "title": "Monitoring Business Central Server Events with PowerShell",
+  "blob": "3c5477a59d387cb99a91cbb64471f2ab9d71369a",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Get-WinEvent PowerShell cmdlet retrieves server events and trace events from event logs and trace files."
+    },
+    {
+      "kind": "fact",
+      "text": "Events visible in Event Viewer under Applications and Services Logs, Microsoft, DynamicsNAV, Common, Admin."
+    },
+    {
+      "kind": "step",
+      "text": "Enable Debug logs by running wevtutil commands to set Microsoft-DynamicsNAV-Server and Common Debug logs."
+    },
+    {
+      "kind": "fact",
+      "text": "FilterXpath parameter allows filtering events by level, tenant ID, and server instance name."
+    },
+    {
+      "kind": "step",
+      "text": "Create PowerShell scripts to extract trace events and analyze execution times by comparing timestamps."
+    },
+    {
+      "kind": "fact",
+      "text": "Debug logs are disabled by default; Admin and Operational logs enable automatically."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006599,
+      "pages_in_call": 8
+    }
+  ]
+}

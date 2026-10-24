@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:15.866Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,7 +93,7 @@ narrative: generated
 
 > Azure Key Vault for Business Central extension secrets: how to set up app key vaults for online and on-premises, how to read secrets from AL code, and how to monitor retrieval with telemetry. It answers setup, permission, coding and troubleshooting questions.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Handling security](../handling-security.md) > Using Azure Key Vault for app secrets · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Handling security](../handling-security.md) > Using Azure Key Vault for app secrets · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -117,10 +117,35 @@ Developers then use "Use Key Vault Secrets in Business Central Extensions" to co
 ## Learn pages
 
 - [App Key Vault Secret Trace Telemetry \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace): Learn about app key vault secret trace telemetry in Business Central
+  - App key vault telemetry gathers information about Azure Key Vault secret acquisition by extensions at runtime across initialization and retrieval stages.
+  - Initialization stage verifies app key vault provider configuration via TryInitializeFromCurrentApp method and fails if extension lacks key vault specification or credentials are incorrect.
+  - Retrieval stage attempts secret retrieval via GetSecret method call and fails if secret name is invalid, key vault doesn't exist, or application lacks read permissions.
+  - Status: EventId RT0014 indicates successful key vault initialization with severity level 1; RT0015 indicates initialization failure with severity level 3.
+  - Status: EventId RT0016 indicates successful secret retrieval with severity level 1; RT0017 indicates retrieval failure with severity level 3.
+  - Telemetry custom dimensions include extension ID, name, publisher, version, key vault URIs, client type, AL object details, and component version.
 - [Azure Key Vaults with Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview): Learn how Business Central extensions use Azure Key Vault to securely retrieve secrets in online and on-premises environments.
 - [Set up app key vaults for Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault): Learn how to set up Azure key vaults for Business Central online extensions. Follow step-by-step instructions to securely manage secrets for your Marketplace apps.
+  - Limit: App key vaults only supported with Marketplace apps on Business Central online, not with per-tenant extensions or dev extensions.
+  - Extensions can use up to two key vaults for storing secrets needed in Azure.
+  - Step: Create Azure key vault and add secrets through Azure portal, Azure CLI, or other methods.
+  - Step: Provision Dynamics 365 Business Central ISV key vault Reader application in Microsoft Entra tenant using Microsoft Graph PowerShell SDK modules.
+  - Step: Grant key vault reader application permission to read secrets using Access policies or Azure Role-Based Access Control.
+  - Step: Create AllowedBusinessCentralAppIds secret in key vault containing app IDs separated by comma or semicolon.
+  - Key vault URLs in app.json must belong to same Microsoft Entra tenant as the key vault itself.
+  - Limit: Link between Marketplace app and key vault registered on submission and cannot be removed as breaking change; access cannot be deregistered once established.
 - [Setting up App Key Vaults for Business Central on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault-onprem): Describes how to set up App Key Vault with Business Central on-premises.
+  - Prerequisite: Azure subscription with Active Directory tenant required to set up key vaults for Business Central on-premises.
+  - Prerequisite: Security certificate required for registering application in Microsoft Entra ID; self-signed certificate acceptable for test environments.
+  - Step: Create one or more Azure Key Vaults and add secrets using Azure portal, Azure CLI, or other methods; extension can use one or two vaults.
+  - Step: Register Microsoft Entra application for reading key vault secrets with certificate and specify Accounts in this organizational directory only.
+  - Step: Grant key vault reader application permission to read secrets by adding Get secret permission or assigning Key Vault Secrets User role.
+  - Step: Configure Server instance with certificate store location, name, thumbprint, client ID, and publisher validation setting for key vault access.
+  - Enable Publisher Validation to block extensions from reading secrets from other publishers' key vaults; extensions need tenant ID from Publish-NAVApp.
+  - Permissions: Service account running Server instance must have permission to access certificate private key for successful key vault authentication.
 - [Use Key Vault Secrets in Business Central Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault): Learn how to configure Azure Key Vault in an extension, retrieve secrets securely with SecretText, and monitor key vault operations.
+  - In the observatory: [Codeunit 3800 "App Key Vault Secret Provider"](../../../../../objects/codeunit/3800.md)
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos, posts and code changes
 

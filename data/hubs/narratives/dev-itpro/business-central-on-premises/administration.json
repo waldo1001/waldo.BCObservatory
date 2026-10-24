@@ -4,7 +4,7 @@
   "summary": "Administration for Business Central on-premises covers the tools and setup tasks for running a deployment: Administration Shell and Administration Center, database authentication, encryption, session timeout, Entra ID registration, Key Vaults, Excel and Outlook add-ins, and Dynamics 365 Sales preparation. It answers how-to questions about configuring and connecting an on-premises environment.",
   "overview": "This section is for administrators of on-premises Business Central. It combines the management tools (the Administration Shell with PowerShell cmdlets, and the Administration Center snap-in) with setup articles for security, sessions and integrations.\nSubtopics split the work by layer: user authentication, server instance settings, web server settings on IIS, the SQL database, server monitoring, and database performance analysis. Pages in this section itself cover cross-cutting tasks such as database authentication, encryption keys, session timeout, and registering the deployment in Microsoft Entra ID.\nStart with the Administration Shell or Administration Center to learn how instances are managed. Then follow the layer subtopics for configuration. Do the Entra ID registration before setting up Power BI, Universal Print, the Excel add-in or the Outlook add-ins, since these rely on it.",
   "key_points": [
-    "Administration Shell offers PowerShell cmdlets for server instances, web server instances, databases, users and extensions, and supports PowerShell 7 (version 28, 2026 release wave 1).",
+    "Administration Shell offers PowerShell cmdlets for server instances, web server instances, databases, users and extensions, and supports PowerShell 7.",
     "Administration Center is an MMC snap-in for creating server instances, managing tenants and connecting to remote servers.",
     "Database authentication uses SQL Server authentication with an encryption key, for single-tenant and multitenant setups.",
     "Each tenant supports one encryption key, managed by export, import and delete.",
@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.024328000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:53:53.706Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 1 ties PowerShell 7 support to 'version 28, 2026 release wave 1'. The page lists those versions and lists PowerShell 7 support as a feature, but nothing says PowerShell 7 support arrived in that version. I removed the version attribution.",
+      "Minor: the overview says the Entra ID registration must come before the Outlook add-ins. The Entra registration page names Excel/Outlook add-ins as dependent services, so the order is supported, but loosely.",
+      "Minor: Dynamics 365 Sales integration prep is in the summary but has no key point. That's acceptable, so I didn't add one."
+    ],
+    "input_hash": "b43aee094fd23f136848c9dbdb53e2c65329f0ce885e1bd3c09d6319ee4ad39f",
+    "cost_usd": 0.056435200000000005
   }
 }

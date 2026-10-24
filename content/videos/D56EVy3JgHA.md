@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:00:05.382Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:05.426Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -138,6 +138,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
+      title: Create Purchase Orders from Drop Shipments
+      label: possibly related
+      why: both name Page 50 "Purchase Order"
+      by: code
+    - to: post/thedynamicsexplorer-com/9815
+      title: Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order
+      label: possibly related
+      why: both name Page 50 "Purchase Order"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/electronic-reporting-france
+      title: Use the E-Document Format for E-Reporting [FR]
+      label: possibly related
+      why: names Page 6122 "E-Documents"
+      by: code
+    - to: video/QdWPlIV3Avk
+      title: "What's new in SCM: Subcontracting (2026 release wave 2)"
+      label: possibly related
+      why: both name Page 50 "Purchase Order"
+      by: code
+    - to: video/qP0id91bIlA
+      title: "What's New: Designing Generative AI Experiences (2024 Release Wave 1)"
+      label: possibly related
+      why: both name Page 50 "Purchase Order"
+      by: code
+    - to: video/DJ3LPRxn27g
+      title: "What's New: Drop Shipments (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 50 "Purchase Order"
+      by: code
 video_id: D56EVy3JgHA
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -164,6 +195,13 @@ chapters:
     title: "Demo: Creating Purchase Order Lines from Invoice"
   - t: 682
     title: Summary and Public Preview Status
+cautions:
+  - kind: preview-disclaimer
+    quote: this is what we try to to improve based on your feedback on your usage of this copilot. Idea is to continue improvements in next waves before we finally enable this as a general ability
+    t: 723
+  - kind: preview-disclaimer
+    quote: currently this is still a public preview because we want to improve in a few more places
+    t: 740
 features:
   - name: Support for All Entry Types
     status: preview
@@ -306,5 +344,16 @@ Not found in BC28-30: page "matching page".
 
 - [12:03](https://www.youtube.com/watch?v=D56EVy3JgHA&t=723s) coming-later: this is what we try to to improve based on your feedback on your usage of this copilot. Idea is to continue improvements in next waves before we finally enable this as a general ability
 - [12:20](https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s) preview: currently this is still a public preview because we want to improve in a few more places
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 50 "Purchase Order"
+- [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../posts/thedynamicsexplorer-com/9815.md) — possibly related: both name Page 50 "Purchase Order"
+- [Use the E-Document Format for E-Reporting \[FR\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/electronic-reporting-france) — possibly related: names Page 6122 "E-Documents"
+- [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Page 50 "Purchase Order"
+- [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../videos/qP0id91bIlA.md) — possibly related: both name Page 50 "Purchase Order"
+- [What's New: Drop Shipments (2026 release wave 1)](../videos/DJ3LPRxn27g.md) — possibly related: both name Page 50 "Purchase Order"
 
 Presenters (as heard): Alexander, Andre.

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-error-method-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-method-trace",
+  "title": "Error method trace telemetry",
+  "blob": "98802b8ce52de5ae6753f7c959a20475cfe48b4f",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Error method telemetry emitted when Error method called, displays dialog to user"
+    },
+    {
+      "kind": "fact",
+      "text": "Event ID RT0030 signals error dialog displayed with failure reason Dialog"
+    },
+    {
+      "kind": "fact",
+      "text": "Error message shown only if Label or TextConst data type, otherwise generic message shown"
+    },
+    {
+      "kind": "fact",
+      "text": "Messages with customer data not shown as precaution, SystemMetadata classified data only emitted"
+    },
+    {
+      "kind": "fact",
+      "text": "Severity level 3 indicates error dialog event with stack trace and AL object details recorded"
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry includes AL stack trace, object ID, object type, client type, and company name"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007985,
+      "pages_in_call": 7
+    }
+  ]
+}

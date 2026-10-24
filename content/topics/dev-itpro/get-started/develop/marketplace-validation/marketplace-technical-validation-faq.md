@@ -6,12 +6,12 @@ summary: Marketplace technical validation FAQ collects answers for partners subm
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:21.167Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -130,7 +130,7 @@ narrative: generated
 
 > Marketplace technical validation FAQ collects answers for partners submitting Business Central apps to the Marketplace. It covers the validation process, app identity, previews, offers, code-signing, affixes and ID ranges, Application Insights, and support channels.
 
-Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Marketplace validation](../marketplace-validation.md) > Marketplace technical validation FAQ · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Marketplace validation](../marketplace-validation.md) > Marketplace technical validation FAQ · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

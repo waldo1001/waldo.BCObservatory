@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:22:33.250Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,6 +89,16 @@ Start with "Resources for help and support" to see what users can reach on their
 ## Learn pages
 
 - [Managing technical support](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/manage-technical-support): Learn about how to support your Business Central users, both online and on-premises, as the internal or delegated administrator.
+  - Internal administrator can find technical information in Help and Support page
+  - Delegated administrator needs Admin agent or Helpdesk agent setup with delegation privileges
+  - Permissions: Delegated admin must have delegation privileges in Partner Center and customer's Business Central
+  - Internal admin cannot contact Microsoft directly, must contact partner for escalation
+  - Help and Support page shows support contact details if partner provided them
+  - Last known error accessible via Help and Support for application errors, not platform errors
+  - Delegated admin must remove support contact details, notification recipients, and Application Insights key when ending customer relationship
+  - In the observatory: [Page 9511 "Database Locks"](../../../objects/page/9511.md)
 - [Resources for help and support](https://learn.microsoft.com/dynamics365/business-central/product-help-and-support): Learn how to get help and support for Business Central. Including chat with Copilot, in-product tips, Help pane, Help & Support page, product documentation, and community forums.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-23T01:12:47.130Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -322,8 +322,8 @@ links:
     - video/sZ7wMU1Uxio
   posts:
     - post/demiliani-com/13369
-    - post/demiliani-com/14064
     - post/duiliotacconi-com/1501
+    - post/duiliotacconi-com/1537
     - post/waldo-be/317845
     - post/waldo-be/318423
     - post/waldo-be/318571
@@ -380,14 +380,76 @@ For event lookups, the Available Telemetry and Event IDs pages list events by gr
 ## More Learn pages
 
 - [Alert on Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert): Learn how to alert on Business Central telemetry.
+  - Set up alerts on telemetry to notify when significant events occur in your environment.
+  - Use Power BI Metrics for no-code alerting on telemetry data.
+  - Use Application Insights, Azure Logic Apps, or Power Automate for advanced alerting.
+  - KQL queries define alerting conditions; set recurrence to match query lookback period.
+  - Step: In Azure portal, go to Application Insights resource and select Alerts.
+  - Step: Add custom log search condition with KQL query for alerting rule.
+  - Sample alerting queries are available in Business Central BCTech GitHub repository.
+  - Logic Apps and Power Automate need API Connection authentication using Application ID and API Key.
 - [Analyze and monitor telemetry with KQL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql): Learn how to query Business Central telemetry with KQL.
+  - Business Central telemetry is stored in Azure Application Insights in traces and pageViews tables
+  - Kusto Query Language (KQL) is used to query telemetry data in Application Insights
+  - From Log Analytics, traces map to AppTraces table and pageViews map to AppPageViews table
+  - All telemetry events have timestamp in UTC timezone that can be converted to local timezone
+  - Session ID in version 24 and later allows tracking all events within a single user session
+  - KQL queries can find start time of events like reports or long-running operations using execution time
 - [Analyze and monitor telemetry with Power BI](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app): Learn how to install, configure, and use the Power BI app on Business Central telemetry data.
+  - Two free Power BI apps analyze telemetry: one for environment telemetry, one for app and extension telemetry.
+  - Usage report shows sessions, clients, user locations, page views, reports, features, integrations, and deprecated features.
+  - Error report displays user errors, integration errors, and system errors across environments or apps.
+  - Performance report tracks sessions, OnCompanyOpen timing, page views, reports, long-running queries, and task scheduler jobs.
+  - Administration report shows environment inventory, update planning, and changes to environments, companies, and extensions.
+  - Prerequisite: Power BI pro license required to use the apps.
+  - Step: Install app from Microsoft Marketplace using the provided link.
+  - Step: Get Application ID from Azure portal and connect to Application Insights resource in Power BI.
 - [Available Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry): Get an overview of available telemetry in Business Central
+  - Business Central telemetry is organized by areas and by event IDs in Application Insights.
+  - Event IDs include application events, client events, lifecycle events, and runtime events.
 - [Controlling Telemetry Cost](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-control-cost): Learn how to control the cost of Business Central provides telemetry.
+  - Set daily cap on telemetry data ingestion and alerts when cap is reached to control costs.
+  - First 5 GB monthly is free; 160 MB daily cap allows 5000 to 80000 events daily depending on event size.
+  - Typical telemetry event consumes 2-10 KB; maximum event size is 32 KB.
+  - Current pay-as-you-go price is 2.76 USD per GB; example customers spend 7.3 to 178 USD per month.
+  - Data Collection Rules filter telemetry at ingestion to reduce costs and improve query performance.
+  - AppInsights resource must be Workspace-based to use Data Collection Rules with Log Analytics backend.
+  - Business Central logs to AppTraces and AppPageViews tables; filter these with KQL queries on workspace.
+  - Reduce retention cost using default retention periods of 30 to 730 days or purge data with user-defined filters.
 - [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Learn how Business Central provides telemetry for each environment, both for online and on-premises environments.
+  - Telemetry can be enabled at environment level or per-extension level to collect operational data in Azure Application Insights.
+  - With Business Central 2020 release wave 2 and later, publishers can set Application Insights connection strings in app.json manifest files.
+  - Telemetry data is stored in Application Insights Logs tables called traces and pageViews for analysis via Kusto query language.
+  - Both online and on-premises Business Central instances can emit telemetry to Azure Application Insights.
+  - Free Power BI apps analyze Business Central telemetry; one app covers environments while another covers apps and extensions.
+  - Permissions: AL developers can create custom telemetry messages using Feature Telemetry codeunit or LogMessage method from Session class.
+  - In the observatory: [Codeunit 8703 "Feature Telemetry"](../../../objects/codeunit/8703.md)
 - [Telemetry Event IDs in Application Insights \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-event-ids): Learn about the event IDs of Business Central events emitted to Azure Application Insights.
+  - Status: Generally available, reference page for telemetry event IDs
+  - AL event IDs emitted by application code receive AL prefix when sent to Application Insights
+  - Events are grouped by administrative purpose: application, client, lifecycle, and runtime categories
+  - AL events originate from Session.LogMessage, Telemetry codeunit, or Feature Telemetry codeunit
+  - Event dimensions names are prefixed with 'al' when converted to Application Insights format
+  - Business Central applications repository contains source code for finding AL event origins
 - [Telemetry FAQ (Frequently Asked Questions)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-faq): See frequently asked questions we get on telemetry in Business Central
+  - Business Central service does not emit personal or customer data to Application Insights
+  - Telemetry emits only service runtime data, tenant identifiers, configuration data, and usage data
+  - Each custom dimension in events has 8,000 character limit; overflow keys are named with _1 and _2 suffixes
+  - Separate environment telemetry from app telemetry into different Application Insights resources for better management
+  - Limit: Application Insights instrumentation was not backported to versions earlier than 15.0
+  - Azure workspace default retention policy can be set to 30, 31, 60, 90, 120, 180, 270, 365, 550, or 730 days
+  - Permissions: Grant read-only access by assigning Reader role in Access Control (IAM) page and optionally on Resource Group
 - [Turn sending telemetry to application insights on or off](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights): Learn how you can get richer telemetry by connecting your Business Central with Application Insights for telemetry.
+  - Status: Generally available for Business Central online and on-premises
+  - Prerequisite: Microsoft Azure subscription and Application Insights resource are required to send telemetry
+  - Prerequisite: For version 17 and earlier, copy the Instrumentation Key; for later versions, copy the Connection String from Azure portal
+  - Connection string has maximum length of 2,048 characters
+  - Limit: Instrumentation key support ends 31 March 2025; transition to connection strings required by that date
+  - Step: For online environments, enable telemetry from admin center by selecting Environments, defining Application Insights Key, and saving to trigger environment restart
+  - Step: For on-premises single-tenant, use Set-NAVServerConfiguration cmdlet to set Application Insights Connection String or Instrumentation Key
+  - Step: For on-premises multitenant, use Mount-NAVTenant cmdlet with ApplicationInsightsConnectionString or ApplicationInsightsKey parameters when mounting tenants
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos, posts and code changes
 
@@ -395,8 +457,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10573 BC IQ - Adding data categorization](../../../changes/bcapps/10573.md) (code change): "Data categorization for BC IQ to codeunit 1751 Data Classification Eval"
 - [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../../posts/demiliani-com/13369.md) (community post): "Business Central now includes hardware and network telemetry parameters in page views"
-- [How can I move my Business Central-related Azure resources to a new Azure region?](../../../posts/demiliani-com/14064.md) (community post): "telemetry connection string and the Power Platform environment references"
 - [Client Crash? Check Error Dialog signal](../../../posts/duiliotacconi-com/1501.md) (community post): "Dashboard tiles built on RT0030 (by failure reason, details, stack trace and timeline) showed InvalidOperation errors"
+- [How to choose the best Update Window in Dynamics 365 Business Central Online](../../../posts/duiliotacconi-com/1537.md) (community post): "KQL telemetry queries that count platform hotfix deployments by local hour"
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../posts/waldo-be/317845.md) (community post): "Dashboard visualization consolidates custom telemetry and daily telemetry data"
 - [BC Telemetry Buddy – 84 commits later..](../../../posts/waldo-be/318423.md) (community post): "production-ready tool for analyzing Business Central telemetry"
 - [I built the tool .. but forgot the skill..](../../../posts/waldo-be/318571.md) (community post): "BC Telemetry Buddy amplifies the quality of the input, so vague questions get vague but confident answers"

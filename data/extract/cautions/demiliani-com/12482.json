@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/demiliani-com/12482",
+  "page_id": "post/demiliani-com/12482",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "They cannot be updated to another version.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "They will be automatically deleted a month after the preview period ends (without notifications)",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.001584,
+    "posts_in_call": 4
+  }
+}

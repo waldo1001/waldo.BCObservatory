@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:45:56.649Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -134,6 +134,10 @@ chapters:
     title: Data sets and documentation
   - t: 630
     title: Closing and resources
+cautions:
+  - kind: preview-disclaimer
+    quote: later on you will actually be able to set boolean expression based on the data in the data set
+    t: 376
 features:
   - name: Company information dataset
     status: ga

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:11.748Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,7 +116,9 @@ Start with the overview page to see which features exist, then go to the page th
 - [Fixed assets in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-assets): Learn about enhanced fixed asset management features available for Russia.
 - [Gratuitous receipts in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Gratuitous-receipt-of-fixed-assets): Russian localization features support the processing of gratuitous receipt of fixed assets.
 - [Releasing, tracking, and writing off fixed assets in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets): Use the fixed asset acts features in Business Central to release, track, and write off your organization's fixed assets.
+  - In the observatory: [Page 12470 "FA Writeoff Act (RU)"](../../../../../objects/page/12470-ru.md), [Page 12474 "FA Release Act (RU)"](../../../../../objects/page/12474-ru.md), [Page 12478 "FA Movement Act (RU)"](../../../../../objects/page/12478-ru.md), [Page 279 "Source Code Setup"](../../../../../objects/page/279.md), [Page 5607 "Fixed Asset Setup"](../../../../../objects/page/5607.md)
 - [Selling fixed assets in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Sale-of-fixed-assets): Learn how to manage the sale or transfer of fixed assets in Russia, including local regulatory enhancements.
 - [Viewing posted entries on fixed asset charges in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge): Learn how to view posted entries for fixed asset charges using Russian localization features in Business Central.
+  - In the observatory: [Page 5604 "FA Ledger Entries"](../../../../../objects/page/5604.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

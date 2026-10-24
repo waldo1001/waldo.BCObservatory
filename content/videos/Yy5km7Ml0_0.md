@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:01:36.097Z"
   flags: []
 generated:
-  at: "2026-10-07T23:01:36.157Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -241,6 +241,13 @@ chapters:
     title: Developer Environment and Deployment Support
   - t: 1759
     title: Engineering Systems Advice and Future Development Direction
+cautions:
+  - kind: preview-disclaimer
+    quote: we don't use this anymore no unfortunately not no we don't
+    t: 1289
+  - kind: preview-disclaimer
+    quote: gradually moving them out of our internal asro devop solution slowly it takes time - migration still in progress
+    t: 1880
 features:
   - name: Git Migration from Source Depot
     status: unclear

@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/bertverbeek-nl/1237",
+  "page_id": "post/bertverbeek-nl/1237",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "If the agent cannot find for example an item, record, or required field, it should not guess.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004687,
+    "posts_in_call": 4
+  }
+}

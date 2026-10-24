@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-46-warning-on-importing-or-applying-a-large-configuration-package/",
+  "page_id": "post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-46-warning-on-importing-or-applying-a-large-configurat--7ea3f992ed",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "large packages can slow down performance and even block other users while they're being processed",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "the record check applies to the whole package, even if you only want to apply one table",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003751,
+    "posts_in_call": 4
+  }
+}

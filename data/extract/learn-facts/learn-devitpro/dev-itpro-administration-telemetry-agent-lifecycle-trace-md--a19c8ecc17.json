@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-agent-lifecycle-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-agent-lifecycle-trace",
+  "title": "Analyze Agent Lifecycle Telemetry",
+  "blob": "588aefaafb409f57657f350e1664980c7490774f",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available from 2026 release wave 1, version 28.0"
+    },
+    {
+      "kind": "fact",
+      "text": "Agent lifecycle telemetry tracks creation, configuration changes, and task assignments for AI agents"
+    },
+    {
+      "kind": "fact",
+      "text": "Agent created event records agent display name, user, state, instructions hash, and model details"
+    },
+    {
+      "kind": "fact",
+      "text": "Agent configuration changed event includes previous and current values for modified fields like state and model"
+    },
+    {
+      "kind": "fact",
+      "text": "Agent task created event records task ID, owning agent, and model source indicating where model was defined"
+    },
+    {
+      "kind": "fact",
+      "text": "Severity level is Warning when model is obsolete or retired, Informational when available or preview"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008532,
+      "pages_in_call": 5
+    }
+  ]
+}

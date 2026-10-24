@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/gerardorenteria-blog/10701",
+  "page_id": "post/gerardorenteria-blog/10701",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "This will cause an error if the table is different",
+      "objects": [
+        {
+          "type": "other",
+          "name": "RecordRef"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "15.0"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "The feature is limited to OnPrem instances only.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "15.0"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "From runtime version 16.0, this will turn into the error AL0855.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "ChartPart"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "16.0"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Added warning AL0864 when having controls of ChartPart type, since they are not supported by the web client.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "ChartPart"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "15.0"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007047,
+    "posts_in_call": 4
+  }
+}

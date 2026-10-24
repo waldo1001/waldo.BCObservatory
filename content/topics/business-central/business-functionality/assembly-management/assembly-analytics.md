@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:22.627Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -206,9 +206,11 @@ Start with "Assembly Reports and Analytics in Business Central" for the overview
 - [About the BOM - Sub-Assemblies (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-811): Get an overview of the components in a subassembly bill of materials, for both assembly and production.
 - [Assembly BOM - End Items (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-812): Get a list of items or bill of materials (BOMs) that are not components of any other BOMs.
 - [Assembly BOMs (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-801): Get an overview of Assembly Bill of Materials (BOMs), including BOMs that are part of the main BOM.
+  - In the observatory: [Table 90 "BOM Component"](../../../../objects/table/90.md)
 - [Assembly Reports and Analytics in Business Central](https://learn.microsoft.com/dynamics365/business-central/assembly-reports): See which assembly reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 - [BOM - Raw Materials (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-810): Get an overview about the needed components for an items bill of material (BOM), both for assembly and for production.
 - [BOM Cost Share Distribution (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5872): This report helps you decide whether to change component suppliers, or replace internal resources with outsourced labor (or vice versa). It also helps you review and modify an item's bill of materials.
+  - In the observatory: [Page 5872 "BOM Cost Shares"](../../../../objects/page/5872.md)
 - [Item - Able to Make (Time) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5871): Check whether you can fulfill a sales order for an item by a specified date. Look at its current availability in combination with quantities that its components can supply if someone starts an assembly order.
 - [Where-used list (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-809): Get a list of the bill of materials (BOMs) that the selected items are components of. Use the report in case you must change a component in a BOM. For example, if your vendor can no longer deliver a specific item that you used for your assembly/production.
 

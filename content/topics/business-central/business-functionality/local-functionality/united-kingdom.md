@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:47.961Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -215,6 +215,7 @@ The section's own pages also include a fixed assets article on straight-line dep
 ## More Learn pages
 
 - [Straight-Line Depreciation of Fixed Assets in the UK](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets): Define 13 accounting periods to calculate straight-line depreciation in the UK version. Calculate daily depreciation and distribute it across these periods appropriately.
+  - In the observatory: [Report 10560 "FA - Projected Value (GB)"](../../../../objects/report/10560-gb.md)
 - [United Kingdom local functionality [GB]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality): This article gives you an overview of local functionality in the United Kingdom version of Business Central.
 
 ## Videos, posts and code changes

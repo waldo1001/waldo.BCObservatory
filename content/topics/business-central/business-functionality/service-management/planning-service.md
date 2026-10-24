@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:51.104Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,8 +105,11 @@ Start with the "Planning service processes" page for the overview. Then go to "S
 ## Learn pages
 
 - [Allocation status and repair status \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-allocation-status-and-repair-status): Learn about the relationship between the repair status of service items and the allocation status of the allocation entries for them.
+  - In the observatory: [Page 5906 "Service Item Worksheet"](../../../../objects/page/5906.md), [Page 5915 "Service Tasks"](../../../../objects/page/5915.md), [Page 6005 "Resource Allocations"](../../../../objects/page/6005.md)
 - [Planning service processes](https://learn.microsoft.com/dynamics365/business-central/service-plan-service): Learn how to configure rules and values to establish your organization's service policies and processes.
 - [Service order status and repair status](https://learn.microsoft.com/dynamics365/business-central/service-service-order-status-and-repair-status): The service order status shows the overall repair status of all service items included in the order.
+  - In the observatory: [Page 5900 "Service Order"](../../../../objects/page/5900.md)
 - [Service price management](https://learn.microsoft.com/dynamics365/business-central/service-service-price-management): Service price management lets you set up service price groups, service pricing, service pricing adjustment and more.
+  - In the observatory: [Page 5988 "Service Items"](../../../../objects/page/5988.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

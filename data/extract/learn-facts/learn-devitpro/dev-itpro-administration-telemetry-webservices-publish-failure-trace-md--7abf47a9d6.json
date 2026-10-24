@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-publish-failure-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-publish-failure-trace",
+  "title": "Web Service Publish Failure Trace",
+  "blob": "0e552116b6687945f4087dfa9d96129bf4fb49d9",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Web service publish failure telemetry captures errors when web services fail to publish or function due to metadata creation issues."
+    },
+    {
+      "kind": "fact",
+      "text": "Event RT0033 indicates missing subpage names; event RT0034 indicates missing control element names in pages."
+    },
+    {
+      "kind": "fact",
+      "text": "Event RT0035 reports skipped web service records; event RT0036 reports table field name errors with captions."
+    },
+    {
+      "kind": "fact",
+      "text": "Event RT0038 warns of multiple navigation property options for table relations; event RT0039 reports skipped entities with error details."
+    },
+    {
+      "kind": "limit",
+      "text": "Web service publish failures result in pages or records being skipped entirely, preventing their use via web services."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007625,
+      "pages_in_call": 7
+    }
+  ]
+}

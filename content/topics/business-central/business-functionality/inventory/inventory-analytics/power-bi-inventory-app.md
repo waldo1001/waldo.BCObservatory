@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:42.869Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -248,6 +248,7 @@ Start with the app page to see the full set of reports, then the Inventory Overv
 - [Inventory Power BI App Page (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app): The Inventory Power BI contains different reports for an organizations inventory reporting needs
 - [Item Availability (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-item-availability): The Item Availability report gives an overview of the availability of each item.
 - [Power BI Inventory app semantic model](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app-semantic-model): Learn how the Power BI Inventory app semantic model organizes inventory, supply, demand, warehouse, and item dimension data from Business Central.
+  - In the observatory: [Table 14 "Location"](../../../../../objects/table/14.md), [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 23 "Vendor"](../../../../../objects/table/23.md), [Table 246 "Requisition Line"](../../../../../objects/table/246.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 32 "Item Ledger Entry"](../../../../../objects/table/32.md)
 - [Purchase and Sales Quantity (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-purchase-and-sales-qty): The Purchase and Sales Quantity report shows purchase and sales quantities for an organization.
 - [Scheduled Receipt (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-scheduled-receipt): The Scheduled Receipt report lets you view inbound inventory per document type.
 

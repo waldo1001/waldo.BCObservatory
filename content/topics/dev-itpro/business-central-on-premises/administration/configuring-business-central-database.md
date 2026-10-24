@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:19.662Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -128,11 +128,33 @@ A good starting point is the installation considerations page, then the compatib
 ## Learn pages
 
 - [Configuring a Database for Read Scale-Out](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-configuration): Get tips for how to make your on-premises database ready for read scale-out.
+  - Status: Read scale-out is automatically enabled on Business Central Online databases.
+  - Prerequisite: On-premises Business Central must determine if database supports read scale-out before enabling.
+  - Step: For Azure SQL Database, check performance tier for read scale-out support and enable if available.
+  - Step: For SQL Server, configure read-only routing for Always On availability group.
+  - Step: Enable SQL read-only replica support on the Server instance.
 - [Installation considerations for Microsoft SQL Server and Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/installation-considerations-for-microsoft-sql-server): Learn about the requirements for installing and configuring Microsoft SQL Server to work with Business Central.
 - [Manage database index usage](https://learn.microsoft.com/dynamics365/business-central/manage-indexes): Learn how to manage database indexes in Business Central to optimize performance, reduce storage costs, and improve write operations with enhanced tools.
 - [Optimizing SQL Server Performance with Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance): Describes how to optimize performance when accessing data from the SQL Server database.
+  - SQL optimization covers compatibility level, data access, table keys, bulk inserts, and query hints
+  - Performance tuning options available for Azure SQL Database and Azure SQL Managed Instance
+  - Read Scale-Out available for better performance in suitable deployments
+  - Query Store and event log tools available for analyzing long-running SQL queries
 - [Setting SQL Compatibility Level to Optimize Database Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-set-compatibility-level): Enable query optimizer features in a database by setting the compatibility level
+  - Database running on Azure SQL Database or SQL Server 2016 and later should have compatibility level set to match database server.
+  - Setting compatibility level equips database with latest optimization features; demo databases default to SQL Server 2014 compatibility.
+  - Step: Change compatibility level using SQL Server Management Studio by opening database properties Options page or running ALTER DATABASE statement.
+  - Compatibility level 140 sets database compatible with SQL Server 2017; level 130 with SQL Server 2016 and Azure SQL Database.
+  - Limit: Azure SQL Database compatibility level is subject to change; refer to Azure documentation for latest supported level.
 - [Using Table Partitioning and Data Compression](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/using-sql-partitioning-and-compression): Learn how to use table partitioning and data compression to improve data access performance in Business Central online.
+  - Table partitioning divides large tables across filegroups for faster maintenance, improved queries, and better performance via partition elimination.
+  - Prerequisite: Partitioning field must be included in the table's primary key in AL code; partitioning is configured in SQL Server after table publication.
+  - Limit: Primary key fields cannot be added after an extension publishes to production; partitioning is limited to new extensions or existing ones with partitioning fields already in primary keys.
+  - Compression reduces table size and improves I/O-intensive workload performance; CompressionType property lets you set Row, Page, or Unspecified compression.
+  - In Business Central online, tables are compressed using Page compression by default.
+  - Partitioning and compression can be combined for flexible data archiving on historical partitions without CPU overhead on active parts.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 

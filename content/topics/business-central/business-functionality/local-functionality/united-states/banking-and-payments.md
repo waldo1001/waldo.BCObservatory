@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:44.116Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -130,7 +130,9 @@ This section collects three pages on banking tasks under the United States local
 
 - [Create deposits [US]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-create-deposits): You can make deposits to maintain a transaction record. This record contains information that can be applied to outstanding invoices and credit memos in the US version.
 - [Make payments with AMC banking (US) or SEPA credit transfer (EU)](https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer): Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
 - [Reconciling Bank Accounts [US]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts): This article describes how to reconcile bank account ledger entries with bank statements in the North American version.
+  - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md)
 
 ## Business Central pages and reports
 

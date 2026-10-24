@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-extension-lifecycle-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-lifecycle-trace",
+  "title": "Extension Lifecycle Trace Telemetry | Microsoft Docs",
+  "blob": "5905aabf5f74765f56101a335277cdbb6fc6a914",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available from Business Central 2020 release wave 1, version 16.3. Extension-level support from 2020 release wave 2, version 17.1."
+    },
+    {
+      "kind": "fact",
+      "text": "Gathers telemetry data on extension operations: compiling, synchronizing, publishing, installing, updating, uninstalling, and unpublishing."
+    },
+    {
+      "kind": "fact",
+      "text": "Failed operations include a trace log entry with the reason for failure."
+    },
+    {
+      "kind": "fact",
+      "text": "Traces are recorded for operations initiated from Extension Management page, Manage Apps page, App Management API, PowerShell cmdlets, and Business Central control plane."
+    },
+    {
+      "kind": "fact",
+      "text": "Environment/server traces cover extensions published to tenant scope only, excluding Microsoft extensions and Marketplace extensions."
+    },
+    {
+      "kind": "fact",
+      "text": "Tenant traces record synchronizing, installing, updating, and uninstalling extensions on a tenant."
+    },
+    {
+      "kind": "fact",
+      "text": "Control plane traces monitor installation or update operations by the Business Central control plane service and help identify the origin or cause of operations."
+    },
+    {
+      "kind": "limit",
+      "text": "Custom dimensions may not be available if operations fail before information is retrieved, such as extension ID and version in failed uninstall operations."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.044898,
+      "pages_in_call": 1
+    }
+  ]
+}

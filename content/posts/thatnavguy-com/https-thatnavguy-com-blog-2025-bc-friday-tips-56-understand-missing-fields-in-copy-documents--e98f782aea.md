@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:58:16.843Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -51,6 +51,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/gerardorenteria-blog/15143
+      title: 🧩 Deriving dimensions in Business Central beyond Default Dimensions
+      label: possibly related
+      why: both name Table 36 "Sales Header"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory
+      title: Ad-hoc analysis of inventory data
+      label: possibly related
+      why: names Table 110 "Sales Shipment Header"
+      by: code
+    - to: post/aardvarklabs-blog/3837
+      title: Background Page Tasks in Business Central Explained
+      label: possibly related
+      why: both name Table 36 "Sales Header"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
+      title: BC 29 lets a single index span base table and table extension fields
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561
+      title: "BC Friday Tips #74 Copy Document and Custom Field"
+      label: possibly related
+      why: both name Table 36 "Sales Header"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a
+      title: "BC Friday Tips #77 TestField Show Record Action"
+      label: possibly related
+      why: both name Table 36 "Sales Header"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
+      title: "BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?"
+      label: possibly related
+      why: both name Table 37 "Sales Line"
+      by: code
+    - to: post/kine-cz/https-blog-kine-cz-posts-bcdevelopmentserie-02b--0078d7faba
+      title: "Business Central Development Serie - Part 2b: AI for BC Development — The Knowledge Gap That Ships to Production"
+      label: possibly related
+      why: both name Table 37 "Sales Line"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9
+      title: "D365 Business Central: How to Fix Missing Sales Invoices in the API"
+      label: possibly related
+      why: both name Table 36 "Sales Header"
+      by: code
+    - to: post/aardvarklabs-blog/1891
+      title: Implementing a Multi-Step Process for AI Recommendations in Business Central
+      label: possibly related
+      why: both name Table 37 "Sales Line"
+      by: code
 post_id: https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/
 source_id: thatnavguy-com
 source_name: That NAV Guy
@@ -107,6 +158,21 @@ As named in the post. A name that matches one object page by exact type and name
 - [table 37 "Sales Line"](../../objects/table/37.md)
 - [table 110 "Sales Shipment Header"](../../objects/table/110.md)
 - [table 112 "Sales Invoice Header"](../../objects/table/112.md)
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [🧩 Deriving dimensions in Business Central beyond Default Dimensions](../../posts/gerardorenteria-blog/15143.md) — possibly related: both name Table 36 "Sales Header"
+- [Ad-hoc analysis of inventory data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory) — possibly related: names Table 110 "Sales Shipment Header"
+- [Background Page Tasks in Business Central Explained](../../posts/aardvarklabs-blog/3837.md) — possibly related: both name Table 36 "Sales Header"
+- [BC 29 lets a single index span base table and table extension fields](../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [BC Friday Tips #74 Copy Document and Custom Field](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) — possibly related: both name Table 36 "Sales Header"
+- [BC Friday Tips #77 TestField Show Record Action](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a.md) — possibly related: both name Table 36 "Sales Header"
+- [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) — possibly related: both name Table 37 "Sales Line"
+- [Business Central Development Serie - Part 2b: AI for BC Development — The Knowledge Gap That Ships to Production](../../posts/kine-cz/https-blog-kine-cz-posts-bcdevelopmentserie-02b--0078d7faba.md) — possibly related: both name Table 37 "Sales Line"
+- [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) — possibly related: both name Table 36 "Sales Header"
+- [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../posts/aardvarklabs-blog/1891.md) — possibly related: both name Table 37 "Sales Line"
 
 ## Context
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:12.483Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -104,6 +104,7 @@ links:
     - change/bcapps/11238
     - change/bcapps/11511
     - change/bcapps/11669
+    - change/bcapps/12842
     - change/bcapps/9297
     - change/bcapps/9333
     - change/bcapps/9451
@@ -167,12 +168,19 @@ Start with the outbound process overview to choose a method. Then go to the page
 ## Learn pages
 
 - [Cross-Dock Items](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-cross-dock-items): Learn how to receive and ship items without putting them in storage.
+  - In the observatory: [Page 5700 "Stockkeeping Unit Card"](../../../../objects/page/5700.md), [Page 5783 "Cross-Dock Opportunities"](../../../../objects/page/5783.md)
 - [Find Your Warehouse Assignments](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-find-your-warehouse-assignments): This topic explains how to find the warehouse assignments assigned to you on the Item Card page when instructions have been created for you.
+  - In the observatory: [Page 7315 "Warehouse Movement"](../../../../objects/page/7315.md), [Page 9312 "Warehouse Put-aways"](../../../../objects/page/9312.md), [Page 9313 "Warehouse Picks"](../../../../objects/page/9313.md)
 - [How to pick items with inventory picks](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks): Learn how to use inventory picks to record and post picking and shipping info for source documents.
+  - In the observatory: [Page 48 "Sales Orders"](../../../../objects/page/48.md), [Page 7374 "Bin Contents"](../../../../objects/page/7374.md), [Page 7377 "Inventory Pick"](../../../../objects/page/7377.md), [Page 905 "Assembly Setup"](../../../../objects/page/905.md)
 - [Outbound warehouse process overview](https://learn.microsoft.com/dynamics365/business-central/design-details-outbound-warehouse-flow): This article describes the outbound warehouse workflow.
+  - In the observatory: [Page 5779 "Warehouse Pick"](../../../../objects/page/5779.md), [Page 7335 "Warehouse Shipment"](../../../../objects/page/7335.md), [Page 7345 "Pick Worksheet"](../../../../objects/page/7345.md), [Page 7377 "Inventory Pick"](../../../../objects/page/7377.md)
 - [Pick items for warehouse shipment](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-items-for-warehouse-shipment): Learn about using warehouse pick documents to create and process pick information prior to posting a warehouse shipment.
+  - In the observatory: [Page 7335 "Warehouse Shipment"](../../../../objects/page/7335.md), [Page 7345 "Pick Worksheet"](../../../../objects/page/7345.md), [Page 9313 "Warehouse Picks"](../../../../objects/page/9313.md)
 - [Picking and Shipping in Basic Warehouse Configurations](https://learn.microsoft.com/dynamics365/business-central/walkthrough-picking-and-shipping-in-basic-warehousing): This article describes various levels of complexity in picking and shipping processes.
+  - In the observatory: [Page 48 "Sales Orders"](../../../../objects/page/48.md), [Page 7328 "Warehouse Employees"](../../../../objects/page/7328.md), [Page 7377 "Inventory Pick"](../../../../objects/page/7377.md)
 - [Ship items](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-ship-items): This article describes how to ship items from your warehouse.
+  - In the observatory: [Page 5703 "Location Card"](../../../../objects/page/5703.md), [Page 5784 "Filters to Get Source Docs."](../../../../objects/page/5784.md), [Page 7345 "Pick Worksheet"](../../../../objects/page/7345.md)
 
 ## Videos, posts and code changes
 
@@ -184,6 +192,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11238 [29.X]- The Available to Take logic is incorrect or inaccurate in the Pick Worksheet as it includes Ship and Receive bin inventory](../../../../changes/bcapps/11238.md) (code change): "Available to Take logic in the Pick Worksheet was inflated"
 - [#11511 [29.x]Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line](../../../../changes/bcapps/11511.md) (code change): "posting an inventory pick for a non-ATO sales line could fail when an unrelated ATO line"
 - [#11669 Fix reserved-lot re-picking after warehouse reclassification](../../../../changes/bcapps/11669.md) (code change): "A sales line can now re-pick its reserved lot after"
+- [#12842 [main] Bug 653921 Warehouse pick fails with "Nothing to handle" when an earlier unshipped pick uses a non-default shipment bin](../../../../changes/bcapps/12842.md) (code change): "Warehouse pick validation now correctly recognizes picked quantities in non-default shipment bins"
 - [#9297 [Main]- Error The Bin Content does not exist.Not able to post an Inventory Pick for Assemble to Order](../../../../changes/bcapps/9297.md) (code change): "Fixed a bug preventing posting of inventory picks for assemble-to-order items"
 - [#9333 [Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders](../../../../changes/bcapps/9333.md) (code change): "Bin content blocks are now checked during sales order posting to restrict movements"
 - [#9451 [Extensibility Request] issue 30292: add temporary Warehouse Activity Line parameter to OnBeforeCreateWhseActivHeader](../../../../changes/bcapps/9451.md) (code change): "allowing subscribers to inspect pick lines before a warehouse activity header is created"

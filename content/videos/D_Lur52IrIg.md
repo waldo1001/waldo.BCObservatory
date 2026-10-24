@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:43:35.087Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -219,10 +219,10 @@ links:
     - feature/573338
     - feature/573339
     - feature/573346
-    - feature/573348
     - feature/573352
     - feature/573359
     - feature/573360
+    - feature/573361
   topics: []
   localizations: []
   videos: []
@@ -269,6 +269,16 @@ chapters:
     title: Test handlers and static call graph analysis
   - t: 1677
     title: Production debugging with agents and MCP proxies
+cautions:
+  - kind: preview-disclaimer
+    quote: we're going to have a full session on this. And we'll add the link in the description.
+    t: 1587
+  - kind: preview-disclaimer
+    quote: Take a look at the video that Peter mentioned because there's a lot more to this graph tool than I can cover here.
+    t: 1771
+  - kind: preview-disclaimer
+    quote: we will have a recorded session on this to go through details in the capabilities and again we will link this in the description
+    t: 1875
 features:
   - name: AL MCP (AL Management Control Platform)
     status: ga
@@ -278,7 +288,6 @@ features:
     roadmap_ids:
       - "573339"
       - "573346"
-      - "573348"
   - name: AL language server with project awareness
     status: ga
     t: 74
@@ -287,15 +296,19 @@ features:
     roadmap_ids:
       - "573338"
   - name: Symbol search with environment source parameter
-    status: unclear
+    status: ga
     t: 220
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573339"
   - name: Get next object ID tool in AL MCP
-    status: unclear
+    status: ga
     t: 302
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573346"
   - name: Interface default implementations
     status: ga
     t: 458
@@ -354,10 +367,12 @@ features:
     roadmap_ids:
       - "573333"
   - name: Test handler interface for lifecycle hooks
-    status: unclear
+    status: ga
     t: 1409
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573333"
   - name: Static call graph analysis
     status: ga
     t: 1547
@@ -371,17 +386,21 @@ features:
     verified: false
     status_source: roadmap
     roadmap_ids:
-      - "573335"
+      - "573361"
   - name: Launch profiling MCP proxy
-    status: unclear
+    status: ga
     t: 1875
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573335"
   - name: Launch snapshot MCP proxy
-    status: unclear
+    status: ga
     t: 1964
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573361"
   - name: Isolated storage explicit read isolation level
     status: unclear
     t: 1072
@@ -518,10 +537,10 @@ It then covers language and compiler changes: default implementations on interfa
 
 | Feature | Status | At |
 |---|---|---|
-| AL MCP (AL Management Control Platform) | generally available (roadmap [Discover objects in connected Business Central environments](../features/573339.md), [Let agents allocate free AL object IDs](../features/573346.md), [Configure AL MCP workspaces dynamically](../features/573348.md)), demoed | [0:43](https://www.youtube.com/watch?v=D_Lur52IrIg&t=43s) |
+| AL MCP (AL Management Control Platform) | generally available (roadmap [Discover objects in connected Business Central environments](../features/573339.md), [Let agents allocate free AL object IDs](../features/573346.md)), demoed | [0:43](https://www.youtube.com/watch?v=D_Lur52IrIg&t=43s) |
 | AL language server with project awareness | generally available (roadmap [Use AL language intelligence from AI agents and other editors](../features/573338.md)), demoed | [1:14](https://www.youtube.com/watch?v=D_Lur52IrIg&t=74s) |
-| Symbol search with environment source parameter | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=220s) |
-| Get next object ID tool in AL MCP | status not stated, demoed | [5:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=302s) |
+| Symbol search with environment source parameter | generally available (roadmap [Discover objects in connected Business Central environments](../features/573339.md)), demoed | [3:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=220s) |
+| Get next object ID tool in AL MCP | generally available (roadmap [Let agents allocate free AL object IDs](../features/573346.md)), demoed | [5:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=302s) |
 | Interface default implementations | generally available (roadmap [Evolve AL interfaces with default implementations](../features/573352.md)), demoed | [7:38](https://www.youtube.com/watch?v=D_Lur52IrIg&t=458s) |
 | Public resource folders | status not stated, demoed | [9:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=587s) |
 | Big integer field type migration | status not stated, demoed | [13:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=820s) |
@@ -531,11 +550,11 @@ It then covers language and compiler changes: default implementations on interfa
 | Audit name fields as system fields | status not stated, demoed | [19:10](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1150s) |
 | Record.IsDirty() method | generally available (roadmap [Check records for uncommitted changes](../features/573360.md)), demoed | [20:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1202s) |
 | Data-driven testing framework | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [20:32](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1232s) |
-| Test handler interface for lifecycle hooks | status not stated, demoed | [23:29](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1409s) |
+| Test handler interface for lifecycle hooks | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [23:29](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1409s) |
 | Static call graph analysis | generally available (roadmap [Audit AL app accessibility and debugging boundaries](../features/573336.md)), demoed | [25:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1547s) |
-| Agent-assisted production investigation | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md)) | [30:27](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1827s) |
-| Launch profiling MCP proxy | status not stated, demoed | [31:15](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1875s) |
-| Launch snapshot MCP proxy | status not stated, demoed | [32:44](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1964s) |
+| Agent-assisted production investigation | generally available (roadmap [Debug recorded Business Central failures with an AI agent](../features/573361.md)) | [30:27](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1827s) |
+| Launch profiling MCP proxy | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md)), demoed | [31:15](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1875s) |
+| Launch snapshot MCP proxy | generally available (roadmap [Debug recorded Business Central failures with an AI agent](../features/573361.md)), demoed | [32:44](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1964s) |
 | Isolated storage explicit read isolation level | status not stated | [17:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1072s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

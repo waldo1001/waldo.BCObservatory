@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/demiliani-com/17492",
+  "page_id": "post/demiliani-com/17492",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Allowing a tag means trusting the service as a whole, not just your own instance of it.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "A tag typically covers a wide set of IP prefixes and can include traffic from many Microsoft-owned service instances.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003995,
+    "posts_in_call": 4
+  }
+}

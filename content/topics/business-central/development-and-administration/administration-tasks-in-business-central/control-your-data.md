@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:33.423Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -181,10 +181,13 @@ Start with Auditing changes or Classifying data sensitivity for compliance needs
 - [Auditing changes](https://learn.microsoft.com/dynamics365/business-central/across-log-changes): Track changes to data in selected tables and monitor user activities with change logs and activity logs in Business Central.
 - [Classifying data sensitivity](https://learn.microsoft.com/dynamics365/business-central/admin-classifying-data-sensitivity): You must specify which type of data you store about people so that you can respond to data subject requests.
 - [Clean up data with retention policies](https://learn.microsoft.com/dynamics365/business-central/admin-data-retention-policies): You can specify how often you want to delete certain types of data.
+  - In the observatory: [Codeunit 3905 "Reten. Pol. Allowed Tables"](../../../../objects/codeunit/3905.md)
 - [Manage data encryption \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/admin-manage-data-encryption): You can encrypt data on the Business Central server by generating new or importing existing encryption keys that you enable on the server.
 - [Manage storage by deleting documents or compressing data](https://learn.microsoft.com/dynamics365/business-central/admin-manage-documents): Learn how to deal with accumulating historic documents (and reduce the amount of data stored in a database) by deleting or compressing them.
+  - In the observatory: [Codeunit 9040 "Date Compression"](../../../../objects/codeunit/9040.md)
 - [Responding to requests about users' personal data](https://learn.microsoft.com/dynamics365/business-central/admin-responding-to-requests-about-personal-data): This article explains how to respond to requests about personal data.
 - [The Data Archive Extension](https://learn.microsoft.com/dynamics365/business-central/admin-archive-data): Archiving data creates a low-cost backup of your records.
+  - In the observatory: [Page 2500 "Extension Management"](../../../../objects/page/2500.md)
 - [View Database Locks](https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks): Learn how you can view information about customer database locks right from the client interface in Business Central.
 
 ## Videos, posts and code changes

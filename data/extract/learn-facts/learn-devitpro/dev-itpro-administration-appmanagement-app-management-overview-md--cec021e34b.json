@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/appmanagement/app-management-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appmanagement/app-management-overview",
+  "title": "App Management for ISVs",
+  "blob": "ae3a9e89c7ae8b6107a554def66e77fcc617aef7",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "App Management API enables ISVs to deliver functionality as marketplace apps with version management and deployment."
+    },
+    {
+      "kind": "fact",
+      "text": "API supports major, minor, and hotfix updates uploaded to App Repository for customer installation."
+    },
+    {
+      "kind": "fact",
+      "text": "ISVs can retrieve customer environments with installed apps and schedule automatic hotfix deployments."
+    },
+    {
+      "kind": "fact",
+      "text": "API supports CI/CD and DevOps practices including AL-Go for GitHub automation."
+    },
+    {
+      "kind": "status",
+      "text": "Direct API access currently available for Embed apps only, not Add-on or Connect apps."
+    },
+    {
+      "kind": "limit",
+      "text": "Add-on and Connect apps managed via Partner Center for version uploads and validation."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012631,
+      "pages_in_call": 4
+    }
+  ]
+}

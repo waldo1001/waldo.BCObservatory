@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/setup-app-key-vault.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault",
+  "title": "Set up app key vaults for Business Central online",
+  "blob": "6f96bb78830a33fe5ef253a4ff1ab435f3ca92ac",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "limit",
+      "text": "App key vaults only supported with Marketplace apps on Business Central online, not with per-tenant extensions or dev extensions."
+    },
+    {
+      "kind": "fact",
+      "text": "Extensions can use up to two key vaults for storing secrets needed in Azure."
+    },
+    {
+      "kind": "step",
+      "text": "Create Azure key vault and add secrets through Azure portal, Azure CLI, or other methods."
+    },
+    {
+      "kind": "step",
+      "text": "Provision Dynamics 365 Business Central ISV key vault Reader application in Microsoft Entra tenant using Microsoft Graph PowerShell SDK modules."
+    },
+    {
+      "kind": "step",
+      "text": "Grant key vault reader application permission to read secrets using Access policies or Azure Role-Based Access Control."
+    },
+    {
+      "kind": "step",
+      "text": "Create AllowedBusinessCentralAppIds secret in key vault containing app IDs separated by comma or semicolon."
+    },
+    {
+      "kind": "fact",
+      "text": "Key vault URLs in app.json must belong to same Microsoft Entra tenant as the key vault itself."
+    },
+    {
+      "kind": "limit",
+      "text": "Link between Marketplace app and key vault registered on submission and cannot be removed as breaking change; access cannot be deregistered once established."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010097,
+      "pages_in_call": 3
+    }
+  ]
+}

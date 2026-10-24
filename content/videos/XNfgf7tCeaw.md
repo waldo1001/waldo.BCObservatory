@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:08:13.934Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -114,6 +114,10 @@ chapters:
     title: Partner-driven experience and personalization
   - t: 221
     title: Embedded buying and go-live process
+cautions:
+  - kind: preview-disclaimer
+    quote: this is relatively new but there's a way to create a digital experience
+    t: 101
 features:
   - name: Prospect profiling on partner website
     status: unclear

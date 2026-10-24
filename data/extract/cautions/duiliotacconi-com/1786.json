@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/duiliotacconi-com/1786",
+  "page_id": "post/duiliotacconi-com/1786",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "sequential GUIDs are very similar (but not the same) between each other",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2025 Wave 2"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "do not take duration numbers as written in the stone",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2025 Wave 2"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004787,
+    "posts_in_call": 4
+  }
+}

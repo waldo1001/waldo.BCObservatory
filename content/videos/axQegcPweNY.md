@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:52:47.834Z"
   flags: []
 generated:
-  at: "2026-10-07T22:52:47.872Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -115,6 +115,19 @@ chapters:
     title: AI fallback and finalization workflow
   - t: 539
     title: Status, preview information and resources
+cautions:
+  - kind: preview-disclaimer
+    quote: This functionality will be in a public preview.
+    t: 539
+  - kind: preview-disclaimer
+    quote: It will not be in October. So it will come after that in one of minors.
+    t: 551
+  - kind: preview-disclaimer
+    quote: You can track on a release plan exact information and it will be in the public preview.
+    t: 551
+  - kind: preview-disclaimer
+    quote: Please for the beginning try this in the sandbox.
+    t: 563
 features:
   - name: Draft page for electronic invoices
     status: preview

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/server-trace-events.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/server-trace-events",
+  "title": "Microsoft Dynamics 365 Business Central Server Trace Events",
+  "blob": "67a0a9170e98198fd9d63acd148ac9bcd873111d",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Two event trace providers publish trace events: Microsoft-DynamicsNAV-Server and Microsoft-DynamicsNAV-Common, which is for telemetry only."
+    },
+    {
+      "kind": "fact",
+      "text": "SQL trace events track SQL statements from the server instance against the database on SQL Server, including session ID, tenant ID, user, and statement."
+    },
+    {
+      "kind": "fact",
+      "text": "Service call trace events track when clients run Business Central objects: Queries, Reports, and XMLports."
+    },
+    {
+      "kind": "fact",
+      "text": "AL function tracing tracks execution of AL functions and statements on the server, but only root-level functions are traced by default unless full tracing is configured."
+    },
+    {
+      "kind": "limit",
+      "text": "Full AL function tracing must be configured separately; statements and nested AL functions are not traced by default."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry trace events provide data about application operations and usage, including both system and custom events sent via SENDTRACETAG."
+    },
+    {
+      "kind": "fact",
+      "text": "Some trace events have separate start and stop operations to measure duration; monitoring tools like PerfView automatically calculate duration."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013255,
+      "pages_in_call": 4
+    }
+  ]
+}

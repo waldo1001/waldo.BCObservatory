@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:02:58.584Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:58.633Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -123,6 +123,10 @@ chapters:
     title: ERP integration and posting
   - t: 1049
     title: Summary and resources
+cautions:
+  - kind: preview-disclaimer
+    quote: the next B we'll introduce water and waste management features offering smbs even much more sustainability tools
+    t: 123
 features:
   - name: Sustainability Role Center
     status: unclear

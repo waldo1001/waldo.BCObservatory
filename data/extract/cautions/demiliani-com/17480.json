@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/demiliani-com/17480",
+  "page_id": "post/demiliani-com/17480",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "After that date there are no more servicing updates, no security fixes and no technical support for either version.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "With only .NET 10 installed, a .NET 8 app fails to start.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Forcing the server to roll forward is not a supported configuration, and the runtime is only one part of the story.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004173,
+    "posts_in_call": 4
+  }
+}

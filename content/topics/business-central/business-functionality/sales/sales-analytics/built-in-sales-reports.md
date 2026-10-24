@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:17.483Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -368,18 +368,21 @@ This section documents the standard sales reports in Business Central. They fall
 - [Aged Accounts Receivable (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4402): Analyze customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.
 - [Contract Sales Order Conf. report](https://learn.microsoft.com/dynamics365/business-central/reports/report-8010): Add subscription billing details, such as service commitment lines and per-period totals, to the standard sales order confirmation.
 - [Contract Standard Sales Inv. report](https://learn.microsoft.com/dynamics365/business-central/reports/report-8008): Print or export a standard sales invoice that also lists the subscription billing details behind each contract-related invoice line.
+  - In the observatory: [Report 1306 "Standard Sales - Invoice"](../../../../../objects/report/1306.md)
 - [Contract Standard Sales Quote report](https://learn.microsoft.com/dynamics365/business-central/reports/report-8011): Add subscription billing details to the standard sales quote so customers see recurring service commitments alongside one-time item charges.
 - [Customer - Balance to date (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-121): Get a detailed balance for selected customers at the close of an accounting period or fiscal year, for example.
 - [Customer - Order Detail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-108): Analyze outstanding sales orders to understand your expected sales volume grouped by customer. To highlight overdue back orders, compare overall outstanding shipments with the planned shipment dates.
 - [Customer - Order Summary (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-107): See outstanding sales order amounts by customer, grouped into 30-day shipment periods, to gauge expected sales volume.
 - [Customer - Top 10 List Excel (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4409): Review customers with the most transactions in a selected period directly in Excel. Identify sales trends and manage debt collections.
 - [Customer - Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-129): Analyze and reconcile your customer balances at the end of the period by viewing the opening balance, each transaction within the period, and the closing balance grouped by customer.
+  - In the observatory: [Report 10806 "Customer Detail Trial Balance (FR)"](../../../../../objects/report/10806-fr.md)
 - [Customer/Item Sales (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-113): Analyze your item sales per customer to understand sales trends, optimize inventory management, and improve marketing efforts. Assess the relationship between discounts, sales amounts, and the volume of item sales.
 - [Day Book Customer Ledger Entry (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-2501): Get a daily transaction overview for customer postings, similar in intent to a sales day book or a chronological audit-style listing of customer postings.
 - [Inventory Order Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-708): Analyze outstanding sales orders to understand your expected sales volume for items. To highlight any overdue back orders, compare your overall outstanding shipments with the planned shipment date.
 - [Inventory Picking List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-813): View which sales orders are covered when collecting items from inventory.
 - [Inventory Sales Back Orders (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-718): Get an overview of sales orders that can't be fulfilled because of out-of-stock items.
 - [Posted Sales Crd Memo with QR report](https://learn.microsoft.com/dynamics365/business-central/reports/report-6168): Add a QR code and e-document layout support to the Standard Sales - Credit Memo report for posted sales credit memos sent to customers.
+  - In the observatory: [Report 1307 "Standard Sales - Credit Memo"](../../../../../objects/report/1307.md)
 - [Posted Sales Invoice with QR report](https://learn.microsoft.com/dynamics365/business-central/reports/report-6166): Add a payment QR code to the posted sales invoice layout so customers can pay directly from the printed or PDF document.
 - [Sales report overview](https://learn.microsoft.com/dynamics365/business-central/sales-reports): See which sales reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 - [Salesperson - Commission (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-115): Analyze the commissions by salesperson. Review the customer, document, sales amounts and profit amounts provided by a salesperson's contributions.
@@ -393,7 +396,9 @@ This section documents the standard sales reports in Business Central. They fall
 - [Standard Sales Invoice report](https://learn.microsoft.com/dynamics365/business-central/reports/report-1306): Print or email a posted sales invoice that shows customer and company details, item lines, VAT breakdown, and payment amounts.
 - [Standard Sales Pro Forma Invoice report](https://learn.microsoft.com/dynamics365/business-central/reports/report-1302): Print a pro forma invoice for a sales order to give customers cost and customs details before the actual invoice is issued.
 - [Sust. Standard Sales Invoice report](https://learn.microsoft.com/dynamics365/business-central/reports/report-6299): Add CO2e emissions data and a sustainability disclaimer to the standard sales invoice so customers see the environmental impact of what they purchased.
+  - In the observatory: [Report 1306 "Standard Sales - Invoice"](../../../../../objects/report/1306.md)
 - [Sust. Standard Sales Quote report](https://learn.microsoft.com/dynamics365/business-central/reports/report-6298): Add CO2e emissions data to the standard sales quote so customers see per-unit and total carbon impact alongside pricing.
+  - In the observatory: [Report 1304 "Standard Sales - Quote"](../../../../../objects/report/1304.md)
 
 ## Videos, posts and code changes
 

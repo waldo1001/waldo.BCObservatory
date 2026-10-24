@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:48:01.997Z"
   flags: []
 generated:
-  at: "2026-10-07T22:48:02.043Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -88,6 +88,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions
+      title: Manage Travel Requests in Business Central
+      label: possibly related
+      why: names Page 6951 "Expense Users"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams
+      title: Set Up Expense Users and Teams
+      label: possibly related
+      why: names Page 6951 "Expense Users"
+      by: code
 video_id: qZALauRY_So
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -114,6 +125,10 @@ chapters:
     title: Licensing Requirements
   - t: 628
     title: Closing Remarks and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: The UI is not fully final so we might tweak a few things around
+    t: 503
 features:
   - name: Approvals for the Expense Agent
     status: unclear
@@ -239,5 +254,12 @@ As heard in the captions. A name that matches one object page by exact type and 
 ## Disclaimers in the video
 
 - [8:23](https://www.youtube.com/watch?v=qZALauRY_So&t=503s) subject-to-change: The UI is not fully final so we might tweak a few things around
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Manage Travel Requests in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions) — possibly related: names Page 6951 "Expense Users"
+- [Set Up Expense Users and Teams](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams) — possibly related: names Page 6951 "Expense Users"
 
 Presenters (as heard): Blazej Kotelko, Enrico Csimitan.

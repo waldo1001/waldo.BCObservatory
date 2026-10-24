@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:10.908Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -160,9 +160,11 @@ Start with "Upgrading to On-Premises v.14" to pick your path. Then read "Upgrade
 - [Single-Tenant Full Upgrade Quick Reference](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/singletenant-upgrade-checklist): Get an overview of the steps required to upgrade from one version of Business Central on-premises to the next.
 - [Technical Upgrade Quick Reference](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/technical-upgrade-checklist)
 - [Transitioning from Codeunit 1 to System Codeunits](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/transition-from-codeunit1): Learn how to convert your custom code as part of the upgrade to version 14 of Business Central.
+  - In the observatory: [Codeunit 40 "LogInManagement"](../../../../../objects/codeunit/40.md), [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md), [Codeunit 49 "GlobalTriggerManagement"](../../../../../objects/codeunit/49.md), [Codeunit 9015 "Application System Constants"](../../../../../objects/codeunit/9015.md)
 - [Upgrade Application Code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrading-the-Application-Code): The article explains how to upgrade the application code to version 14 and how to merge code from different versions of the application.
 - [Upgrade Considerations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations): This article provides tips and considerations to prepare a solution when you are planning to upgrade Microsoft Dynamics 365 Business Central.
 - [Upgrading the Data to in Single-Tenant Deployment](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrading-the-Data): This article describes the tasks required for upgrade the data to version 14 when you have a single-tenant deployment.
+  - In the observatory: [Page 9802 "Permission Sets"](../../../../../objects/page/9802.md), [Page 9820 "Control Add-ins"](../../../../../objects/page/9820.md)
 - [Upgrading to On-Premises v.14](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-to-business-central-on-premises): Gives an overview of the different upgrade paths to On-Premises Spring 2019 from older versions.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

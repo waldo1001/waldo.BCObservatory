@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:13.086Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,6 +107,7 @@ Start with "Building an Advanced Sample Extension" to get the sample in place, t
 
 - [Building an Advanced Sample Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-advanced-example): Includes code for an advanced example extension using Business Central and AL in Visual Studio Code.
 - [Test the advanced sample extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-advanced-example-test): Includes test code for the advanced example extension.
+  - In the observatory: [Page 21 "Customer Card"](../../../../../objects/page/21.md), [Page 22 "Customer List"](../../../../../objects/page/22.md), [Table 18 "Customer"](../../../../../objects/table/18.md)
 - [Testing your extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-testingyourextension): Describing the steps you must go through to successfully submit your app to Marketplace.
 
 ## Videos, posts and code changes

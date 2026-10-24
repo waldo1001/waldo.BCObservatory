@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:42:52.132Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,6 +116,13 @@ chapters:
     title: New UX for MCP configurations and server features
   - t: 434
     title: Security toggle and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: If you have data questions that will kind of result in a query that is not supported in the query or even optimal then of course that will not work.
+    t: 336
+  - kind: preview-disclaimer
+    quote: there are also limitations in queries in business central on how much data can be returned and for how long the query can run
+    t: 348
 features:
   - name: Find tables tool
     status: ga
@@ -146,10 +153,12 @@ features:
     roadmap_ids:
       - "573312"
   - name: Generic data analysis for agents
-    status: unclear
+    status: ga
     t: 104
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573312"
   - name: Server features configuration UI
     status: unclear
     t: 364
@@ -227,7 +236,7 @@ The demo has an agent work through customer data in about 30 steps and 2 minutes
 | Table relations tool | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
 | Table schema tool | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
 | Data query tool | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
-| Generic data analysis for agents | status not stated, demoed | [1:44](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=104s) |
+| Generic data analysis for agents | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [1:44](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=104s) |
 | Server features configuration UI | status not stated, demoed | [6:04](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=364s) |
 | MCP server security toggle | status not stated | [7:14](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=434s) |
 

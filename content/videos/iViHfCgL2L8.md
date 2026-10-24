@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:51:36.002Z"
   flags: []
 generated:
-  at: "2026-10-07T22:51:36.039Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -140,6 +140,21 @@ chapters:
     title: Multi-Product Scenarios and Call to Action
   - t: 576
     title: Resources and Next Steps
+cautions:
+  - kind: preview-disclaimer
+    quote: In October we announced the public preview for Business Central MCP server here in version 27.1.
+    t: 217
+    versions:
+      - "27"
+  - kind: preview-disclaimer
+    quote: Right now this is a preview feature. So we always have this feature management switch.
+    t: 409
+  - kind: preview-disclaimer
+    quote: This is likely going to change once we go into general availability.
+    t: 409
+  - kind: preview-disclaimer
+    quote: This is a teaser for the next video where you will learn everything you need uh to know to set up that.
+    t: 481
 features:
   - name: MCP Server for Business Central
     status: preview

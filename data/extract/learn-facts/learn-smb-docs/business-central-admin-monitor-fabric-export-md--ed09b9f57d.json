@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export",
+  "title": "Monitor and Troubleshoot Microsoft Fabric Synchronization",
+  "blob": "135fc8961295f40cc096e1c886157844d79a438d",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Production-ready preview planned to become available in October 2026. Delivery timing and functionality might change. Subject to supplemental terms of use."
+    },
+    {
+      "kind": "step",
+      "text": "Open Microsoft Fabric Mirroring Setup page, select Monitoring, then Fabric Synchronization Overview to review run type, state, times, and error messages."
+    },
+    {
+      "kind": "step",
+      "text": "From Fabric Synchronization Overview, select a run and then select Details to review table-level results for that synchronization run."
+    },
+    {
+      "kind": "fact",
+      "text": "Fabric Synchronization Details page shows company, table name, Fabric entity name, run type, record counts, watermarks, and error state for each company and table."
+    },
+    {
+      "kind": "fact",
+      "text": "Monitoring data is available from Business Central pages, APIs, or logging tables in Fabric with default logging namespace BusinessCentral_log."
+    },
+    {
+      "kind": "fact",
+      "text": "Microsoft Fabric Mirroring app provides APIs for synchronization overview and details. Same operational data synchronizes to logging namespace in Fabric."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006355,
+      "pages_in_call": 7
+    }
+  ]
+}

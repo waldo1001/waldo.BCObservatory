@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:48.170Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,6 +81,7 @@ links:
     - change/bcapps/9356
     - change/bcapps/9674
     - change/bcapps/9789
+    - change/bcapps/9880
 learn_toc_path:
   - Business functionality
   - Finance
@@ -131,10 +132,15 @@ The pages follow the workflow. Start with "Reconcile bank accounts and apply pay
 ## Learn pages
 
 - [Reconcile bank accounts and apply payments](https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts): Outlines tasks to reconcile your bank, receivables, and payables accounts, post cash receipts or expenses, and apply payments automatically.
+  - In the observatory: [Page 1252 "Payment Application Rules"](../../../../../objects/page/1252.md), [Page 379 "Bank Acc. Reconciliation"](../../../../../objects/page/379.md)
 - [Reconcile payments using automatic application](https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-auto-application): Describes how to reconcile payments using automatic application to apply payments or cash receipts to related open entries.
+  - In the observatory: [Page 1282 "Payment Bank Account List"](../../../../../objects/page/1282.md), [Page 1292 "Payment Application"](../../../../../objects/page/1292.md), [Page 1298 "Bank Statement Filter"](../../../../../objects/page/1298.md)
 - [Review and apply payments manually after automatic application](https://learn.microsoft.com/dynamics365/business-central/receivables-how-review-apply-payments-auto-application): After payments are applied automatically, you can review all the entries for a payment and manually reapply those that were applied incorrectly.
+  - In the observatory: [Page 1253 "Payment Application Settings"](../../../../../objects/page/1253.md), [Page 1292 "Payment Application"](../../../../../objects/page/1292.md)
 - [Setting up Text-to-Account mapping for recurring payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation): Link text on payments with specific accounts, so that payments are posted to the accounts when you post the payment reconciliation journal.
+  - In the observatory: [Page 1251 "Text-to-Account Mapping"](../../../../../objects/page/1251.md)
 - [Using the transfer difference to account feature to reconcile payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-cannot-apply-auto): Describes how to process payments that can't be applied to a document, for example, when an exchange rate causes amounts to differ.
+  - In the observatory: [Page 1297 "Transfer Difference to Account"](../../../../../objects/page/1297.md)
 
 ## Videos, posts and code changes
 
@@ -146,6 +152,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9356 [Main]-Payment XML file generated from EB Payment Journal upon selecting "FCY Symbol" includes currency text](../../../../../changes/bcapps/9356.md) (code change): "Payment XML files exported from EB Payment Journal now correctly exclude currency text"
 - [#9674 Fix missing table permissions on Stale Check action in Check Management Subscriber](../../../../../changes/bcapps/9674.md) (code change): "Stale Check action was failing due to missing Modify permissions"
 - [#9789 [Main]-Payment discount tolerance is doubled when posting a vendor payment](../../../../../changes/bcapps/9789.md) (code change): "payment discount tolerance was calculated twice for vendor payments"
+- [#9880 [Bug Fix] #620132: Prevent IRS 1099 data on vendor ledger entries of non-1099 vendors](../../../../../changes/bcapps/9880.md) (code change): "Prevent IRS 1099 data on vendor ledger entries of non-1099 vendors"
 
 ## Business Central pages and reports
 

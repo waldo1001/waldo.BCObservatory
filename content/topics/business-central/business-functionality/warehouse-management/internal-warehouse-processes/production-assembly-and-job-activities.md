@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:05.521Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,8 +107,12 @@ The pick pages cover component flushing and over-picking. The put-away page cove
 ## Learn pages
 
 - [Design details - flows for production, assembly, and projects](https://learn.microsoft.com/dynamics365/business-central/design-details-internal-warehouse-flows): Learn about the flow between bins for picking components and putting away end items for assembly, production, or project orders.
+  - In the observatory: [Page 5510 "Production Journal"](../../../../../objects/page/5510.md), [Page 5703 "Location Card"](../../../../../objects/page/5703.md), [Page 5779 "Warehouse Pick"](../../../../../objects/page/5779.md), [Page 7315 "Warehouse Movement"](../../../../../objects/page/7315.md), [Page 7345 "Pick Worksheet"](../../../../../objects/page/7345.md), [Page 7351 "Movement Worksheet"](../../../../../objects/page/7351.md)
 - [Pick for internal operations in advanced warehouse configurations](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing): If your locations use picking and shipping, pick components for production, assembly, and project activities on the Warehouse Pick page.
+  - In the observatory: [Page 5510 "Production Journal"](../../../../../objects/page/5510.md), [Page 5703 "Location Card"](../../../../../objects/page/5703.md), [Page 7345 "Pick Worksheet"](../../../../../objects/page/7345.md), [Page 900 "Assembly Order"](../../../../../objects/page/900.md), [Page 99000823 "Output Journal"](../../../../../objects/page/99000823.md), [Page 99000846 "Consumption Journal"](../../../../../objects/page/99000846.md)
 - [Pick or move items for production, assembly, or projects in basic warehouse configurations](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-for-production): When your warehouse location requires that you process picks but not shipments, use the Inventory Pick page to record that components were picked.
+  - In the observatory: [Page 5510 "Production Journal"](../../../../../objects/page/5510.md), [Page 5703 "Location Card"](../../../../../objects/page/5703.md), [Page 7377 "Inventory Pick"](../../../../../objects/page/7377.md), [Page 7382 "Inventory Movement"](../../../../../objects/page/7382.md), [Page 900 "Assembly Order"](../../../../../objects/page/900.md), [Page 99000823 "Output Journal"](../../../../../objects/page/99000823.md)
 - [Put away production output](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-put-away-production-output): This article describes how to put away your production output.
+  - In the observatory: [Page 7375 "Inventory Put-away"](../../../../../objects/page/7375.md), [Page 99000831 "Released Production Order"](../../../../../objects/page/99000831.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

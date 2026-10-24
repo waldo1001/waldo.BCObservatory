@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:45:10.502Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -83,7 +83,9 @@ links:
   objects: []
   features:
     - feature/573374
+    - feature/573375
     - feature/573376
+    - feature/573377
     - feature/573378
     - feature/573379
   topics: []
@@ -138,6 +140,7 @@ features:
     verified: false
     status_source: roadmap
     roadmap_ids:
+      - "573375"
       - "573378"
   - name: Scope three tracking by item tracking level
     status: ga
@@ -164,10 +167,12 @@ features:
     verified: false
     status_source: video
   - name: Fixed asset emissions in journals
-    status: unclear
+    status: ga
     t: 268
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573377"
   - name: UDR certificate capture
     status: unclear
     t: 122
@@ -242,12 +247,12 @@ It then covers reversing sustainability ledger entries and the fixed asset chang
 |---|---|---|
 | Formulas in purchase order and purchase invoice | generally available (roadmap [Use formulas to calculate emissions in purchase documents](../features/573374.md)), demoed | [0:06](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=6s) |
 | Improved sustainability entry discovery | status not stated | [0:23](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=23s) |
-| Value chain emissions in item journals | generally available (roadmap [Track your carbon footprint with item journals and item reclassification journals](../features/573378.md)), demoed | [0:44](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=44s) |
+| Value chain emissions in item journals | generally available (roadmap [Estimate your carbon footprint in Service Management](../features/573375.md), [Track your carbon footprint with item journals and item reclassification journals](../features/573378.md)), demoed | [0:44](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=44s) |
 | Scope three tracking by item tracking level | generally available (roadmap [Use specific method for carbon footprint calculation when enabling item tracking](../features/573379.md)), demoed | [0:59](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=59s) |
 | ESG report layout with lot details | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=74s) |
 | Sustainability ledger entry reversal | generally available (roadmap [Reverse Sustainability Ledger entries transaction](../features/573376.md)), demoed | [1:24](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=84s) |
 | Collect from GL with posting memory | status not stated, demoed | [1:48](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=108s) |
-| Fixed asset emissions in journals | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=268s) |
+| Fixed asset emissions in journals | generally available (roadmap [Track your carbon footprint for fixed assets](../features/573377.md)), demoed | [4:28](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=268s) |
 | UDR certificate capture | status not stated | [2:02](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=122s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

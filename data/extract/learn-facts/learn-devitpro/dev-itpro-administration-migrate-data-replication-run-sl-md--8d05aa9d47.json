@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-data-replication-run-SL.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run-SL",
+  "title": "Run and manage data replication for Dynamics SL cloud migration",
+  "blob": "f047f32e9c3f275bdf29e4425cf299230d393d02",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Cloud migration setup must be completed before running data replication"
+    },
+    {
+      "kind": "step",
+      "text": "Open Cloud Migration Management page and select Run data replication to start migrating data"
+    },
+    {
+      "kind": "step",
+      "text": "Monitor progress by checking Migration Log and status fields on Cloud Migration Management page"
+    },
+    {
+      "kind": "fact",
+      "text": "When data replication is stopped, any already migrated data remains in online database"
+    },
+    {
+      "kind": "fact",
+      "text": "Generally only data changed since last replication is replicated on subsequent runs"
+    },
+    {
+      "kind": "limit",
+      "text": "Data replication cannot stop during table migration, waits until current table completes"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005231,
+      "pages_in_call": 10
+    }
+  ]
+}

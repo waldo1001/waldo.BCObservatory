@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:35.052Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,7 +94,27 @@ Start with the Performance Profiler overview to learn the basic recording and an
 ## Learn pages
 
 - [Performance Profiler overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview): Describes how to use the Performance Profiler page in Business Central to troubleshoot slow processes.
+  - Performance Profiler records snapshots of business processes, monitoring all apps involved including Microsoft first-party and third-party apps.
+  - Step: To use Performance Profiler, open the page, click the icon to open it in a separate window, then start recording before performing the slow process.
+  - Active Apps chart shows which apps were running and their durations, with ability to aggregate by App Name or App Publisher.
+  - Technical information toggle enables Time Spent by Application Object and Call Tree FastTabs for detailed analysis of objects and methods.
+  - Time Spent column shows how long an object was active; Samples column shows profiler sampling frequency of the object.
+  - Self Time in Call Tree shows time spent in a method only; Total Time includes Self Time plus calls from the method.
+  - Recording can be shared, downloaded as .alcpuprofile file, or cleared to start over; existing profiles can be uploaded.
+  - In-client Performance Profiler is a simplified version of the AL Profiler used in Visual Studio Code for advanced analysis.
+  - In the observatory: [Page 24 "Performance Profiler"](../../../../../objects/page/24.md)
 - [Scheduled performance profiler overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/scheduled-performance-profiler-overview): Describes how to use the Profiler Schedules page in Business Central to troubleshoot slow processes across time.
+  - Status: Performance Profiling MCP proxy available in preview with runtime 18 and version 29
+  - Records snapshots of processes during defined time slots to diagnose performance issues
+  - Supports recording of browser activities, background tasks with job queues, and web service calls
+  - Prerequisite: Administrator users can create schedules for themselves and others; other users only for themselves
+  - Limit: Maximum schedule duration is one week and maximum retention after completion is one week
+  - Limit: Debugger cannot attach to a session while profiling schedule is enabled
+  - Sampling profiler takes samples at evenly spaced intervals; short-lived code may not be captured
+  - Permissions: Agent-based profiling requires D365 ATTACH DEBUG permission set for profiling another user's session
+  - In the observatory: [Page 24 "Performance Profiler"](../../../../../objects/page/24.md)
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:28:06.778Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,6 +98,7 @@ Start with the page for your affected feature, check the release wave or version
 
 - [Deprecated bank reconciliation and deposits features in the North American version](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-na-bank-rec): If you're using the deprecated Bank Reconciliation Worksheet and Deposits features in the US, CA, and MX versions, this article can help you understand what to do after you upgrade to 2023 release wave 2.
 - [Migrate from User Groups to Permission Sets or Security Groups](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-user-groups): This article describes why we've deprecated user groups, and provides developers with examples of how they can uptake the change in their extensions.
+  - In the observatory: [Table 9000 "User Group"](../../../../objects/table/9000.md), [Table 9001 "User Group Member"](../../../../objects/table/9001.md), [Table 9002 "User Group Access Control"](../../../../objects/table/9002.md), [Table 9003 "User Group Permission Set"](../../../../objects/table/9003.md), [Table 9007 "User Group Plan"](../../../../objects/table/9007.md)
 - [Migrating to modern list views](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy): Explains how to move from legacy views to modern list views in Business Central.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

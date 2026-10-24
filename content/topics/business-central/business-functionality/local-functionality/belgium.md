@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:06.850Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -319,15 +319,15 @@ narrative: generated
 
 > Belgium local functionality in Business Central covers VAT and Intrastat, banking and payments (CODA, SEPA, domiciliation), core finance features, and general accounting settings for the Belgian version. It answers setup and how-to questions for Belgium-specific regulatory requirements.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Belgium · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Belgium · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Belgium section describes the features added to Business Central to meet Belgian regulatory and accounting needs. The landing page gives the overall picture: Belgian VAT, non-deductible VAT, CODA bank statements, electronic banking, SEPA payments, direct debit domiciliation, and PEPPOL electronic invoicing. It mentions the 2027 release wave 1.
+The Belgium section describes the features added to Business Central to meet Belgian regulatory and accounting needs. The landing page gives the overall picture: Belgian VAT, non-deductible VAT, CODA bank statements, electronic banking, SEPA payments, direct debit domiciliation, and PEPPOL electronic invoicing. The page is tagged with 2027 release wave 1.
 
 The detail is split into four subtopics. VAT (10 pages) covers declarations, annual listings, VIES and EC sales reports, manual corrections and Intrastat. Banking and payments (14 pages) is the largest group and covers electronic payments, export protocols, payment journals, CODA import and domiciliation. Core finance (3 pages) and General (5 pages) cover smaller local features and configuration settings.
 
-Start with the landing page for orientation. Then go to the subtopic that matches your task: VAT for reporting, Banking and payments for bank files and payment runs, and General for setup such as enterprise numbers, posting period limits and mandatory journal templates.
+Start with the landing page for orientation. Then go to the subtopic that matches your task: VAT for reporting, Banking and payments for bank files and payment runs, Core finance for applying GL entries, bank transaction journals and ACCON Plus export, and General for setup such as enterprise numbers, posting period limits and mandatory journal templates.
 
 ## Key points
 
@@ -337,7 +337,7 @@ Start with the landing page for orientation. Then go to the subtopic that matche
 - CODA bank statements can be imported and posted; direct debit uses domiciliation.
 - Core finance: apply and unapply GL entries, create financial journals for bank transactions, and export GL balances to ACCON Plus.
 - General settings: deferrals in ledger reports, enterprise and branch numbers, posting period limits, work date as posting date, mandatory journal templates.
-- The landing page also mentions electronic invoicing via PEPPOL and refers to 2027 release wave 1.
+- The landing page also covers electronic invoicing via PEPPOL and is tagged with 2027 release wave 1.
 
 ## Subtopics
 

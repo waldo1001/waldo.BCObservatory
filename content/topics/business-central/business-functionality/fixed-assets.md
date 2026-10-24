@@ -7,12 +7,12 @@ tier: official
 language: en
 system: fixed-assets
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:53:48.992Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -482,7 +482,7 @@ narrative: generated
 
 > Fixed assets in Business Central covers the asset lifecycle: setup, acquisition, depreciation and amortization, revaluation, maintenance, insurance and disposal. It answers questions about depreciation methods, posting through journals and batch jobs, and troubleshooting FA ledger entry rounding. A subtopic covers analytics and reports.
 
-Path: [Business functionality](../business-functionality.md) > Fixed assets · tier official · system fixed-assets · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../business-functionality.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -510,11 +510,16 @@ Start with "Manage fixed assets" for the overview, then "Set up fixed assets". F
 ## More Learn pages
 
 - [Acquire fixed assets](https://learn.microsoft.com/dynamics365/business-central/fa-how-acquire): Set up fixed assets, assign depreciation books, and record acquisition costs in Business Central.
+  - In the observatory: [Page 5601 "Fixed Asset List"](../../../objects/page/5601.md), [Page 5604 "FA Ledger Entries"](../../../objects/page/5604.md), [Page 5607 "Fixed Asset Setup"](../../../objects/page/5607.md), [Page 5658 "Main Asset Components"](../../../objects/page/5658.md)
 - [Depreciate or amortize FA](https://learn.microsoft.com/dynamics365/business-central/fa-how-depreciate-amortize): Specify how to write down, depreciate, or amortize each fixed asset, such as machinery and equipment, throughout its useful life.
+  - In the observatory: [Codeunit 5610 "Calculate Depreciation"](../../../objects/codeunit/5610.md), [Codeunit 5624 "Cancel FA Ledger Entries"](../../../objects/codeunit/5624.md), [Page 5600 "Fixed Asset Card"](../../../objects/page/5600.md), [Page 5613 "FA Posting Groups"](../../../objects/page/5613.md), [Page 5628 "Fixed Asset G/L Journal"](../../../objects/page/5628.md)
 - [Depreciation methods for fixed assets](https://learn.microsoft.com/dynamics365/business-central/fa-depreciation-methods): Learn about the different built-in methods to depreciate or write-down fixed assets.
+  - In the observatory: [Page 5619 "FA Depreciation Books"](../../../objects/page/5619.md)
 - [Manage fixed assets](https://learn.microsoft.com/dynamics365/business-central/fa-manage): Learn about the fixed assets functionality and get an overview of how to work with and manage your fixed assets.
 - [Revalue Fixed Assets](https://learn.microsoft.com/dynamics365/business-central/fa-how-revalue): Learn how to adjust the value of fixed assets, recording new amounts as a write-down or appreciation, and post other acquisition costs.
+  - In the observatory: [Page 5609 "FA Journal Setup"](../../../objects/page/5609.md), [Page 5612 "FA Posting Group Card"](../../../objects/page/5612.md), [Report 5690 "Index Fixed Assets"](../../../objects/report/5690.md)
 - [Set up fixed assets](https://learn.microsoft.com/dynamics365/business-central/fa-setup): Learn about the sequence of tasks to set up fixed assets, such as machinery or buildings.
+  - In the observatory: [Page 5610 "Depreciation Book Card"](../../../objects/page/5610.md)
 - [The Troubleshooting FA Ledger Entries Extension](https://learn.microsoft.com/dynamics365/business-central/fa-troubleshooting-fa-ledger-entries): Use the FA Ledger Entries extension to round fixed-asset ledger amounts to whole numbers for easier reconciliation and reporting.
 
 ## Videos, posts and code changes

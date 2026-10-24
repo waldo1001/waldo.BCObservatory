@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/demiliani-com/14222",
+  "page_id": "post/demiliani-com/14222",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "altool (the tool BcContainerHelper uses to inspect .app files) now needs .NET 10 to run.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006309,
+    "posts_in_call": 4
+  }
+}

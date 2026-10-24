@@ -7,12 +7,12 @@ tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:53.587Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/demiliani-com/13541
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270
   guidelines: []
   changes:
     - change/bcapps/12064
@@ -101,7 +101,7 @@ narrative: generated
 
 > Connect apps covers building point-to-point integrations between Business Central and partner solutions through REST APIs. It answers questions on developing API pages and queries, authentication (OAuth 2.0, service-to-service), OData filters, batch requests and request headers.
 
-Path: [Integration](../integration.md) > Connect apps · tier official · system integration · narrative **unreviewed** (model text not yet checked)
+Path: [Integration](../integration.md) > Connect apps · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -130,6 +130,16 @@ The remaining pages support day-to-day API use: filter expressions in OData call
 - [Tips for working with the APIs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips): Provides some tips about working with Business Central API.
 - [Using filters with API/OData calls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-filtering): Learn how to use filters with API calls to get targeted information in return.
 - [Using Service to Service Authentication](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/automation-apis-using-s2s-authentication): Service-to-service authentication enables external services to connect as an application, without impersonating normal users.
+  - Status: S2S authentication generally available for Business Central automation APIs online version 17.0 and on-premises versions 18.11 and 19.5 and later.
+  - Status: S2S authentication generally available for Business Central APIs v1.0 and v2.0 online version 18.3 and on-premises versions 18.11 and 19.5 and later.
+  - Service-to-service authentication uses OAuth 2.0 Client Credentials flow for integrations running without user interaction; supports scheduled tasks on version 21.2 and later.
+  - Step: Register Microsoft Entra application with unique name, specify supported account types, optionally add redirect URI for OAuthLanding.htm file.
+  - Step: Create client secret for registered application by selecting Certificates and secrets, New client secret, adding description, selecting duration, selecting Add.
+  - Step: Grant API.ReadWrite.All and Automation.ReadWrite.All permissions to Dynamics 365 Business Central API via API permissions, Add a permission, Microsoft APIs.
+  - Step: Set up Microsoft Entra application in Business Central by searching Microsoft Entra applications, selecting New, entering Client ID, Description, setting State to Enabled, assigning permissions.
+  - Limit: Applications cannot be assigned SUPER permission set; use least-privilege principle and assign only required permissions for integration.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos, posts and code changes
 
@@ -137,6 +147,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12064 Support SharePoint paths containing hash and percent characters](../../../changes/bcapps/12064.md) (code change): "SharePoint connector now supports file paths containing hash and percent characters"
 - [#8874 [Field Service Integration] Rounding error on Service Line quantity write-back for Item-type service lines with non-divisible durations](../../../changes/bcapps/8874.md) (code change): "Service line quantities synced from Field Service are now properly rounded"
-- [YAMPI (the Dynamics 365 Business Central Administration MCP Server): installing apps from Microsoft’s Marketplace.](../../../posts/demiliani-com/13541.md) (community post): "installing apps from Microsoft's Marketplace.. YAMPI version 1.2.1 adds the ability to install Marketplace apps"
+- [Building BcMCPProxy.exe and Connecting to Claude Desktop (BLOG 3 OF 4)](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270.md) (community post): "This enables Claude to interact with BC through the MCP protocol"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-create-data-collector-set-from-template.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-create-data-collector-set-from-template",
+  "title": "Create Data Collector Set Using Template",
+  "blob": "e065cdb701acc0e77a2e97820c85240f254dcfbf",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Business Central data collector set template is an XML file named DataCollectorSet.xml installed with Server in the Service folder."
+    },
+    {
+      "kind": "step",
+      "text": "Create new Data Collector Set from template by opening Performance Monitor, expanding Data Collector Sets, and selecting User-defined."
+    },
+    {
+      "kind": "step",
+      "text": "Browse to DataCollectorSet.xml template location, typically in the Service folder, and follow wizard instructions to complete setup."
+    },
+    {
+      "kind": "fact",
+      "text": "Data collected by collector set is stored in log file viewable in Performance Monitor."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

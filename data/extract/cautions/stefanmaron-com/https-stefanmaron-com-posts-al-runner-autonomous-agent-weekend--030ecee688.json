@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/al-runner-autonomous-agent-weekend/",
+  "page_id": "post/stefanmaron-com/https-stefanmaron-com-posts-al-runner-autonomous-agent-weekend--030ecee688",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "A SingleInstance codeunit keeps its state across calls on real BC but loses it on Linux.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "IsolatedStorage(Encrypted) silently does nothing under a Linux patch instead of encrypting.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003888,
+    "posts_in_call": 4
+  }
+}

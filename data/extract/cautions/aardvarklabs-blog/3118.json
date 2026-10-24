@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3118",
+  "page_id": "post/aardvarklabs-blog/3118",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "What if Microsoft refactors the Amount field to something other than field Id 60?",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "What if they move a table? We are at risk that Microsoft or an ISV changes their extension and breaks our references.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004586,
+    "posts_in_call": 4
+  }
+}

@@ -20,5 +20,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.012807
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:54:07.416Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the landing page lists sales among the French features, but there is no sales subtopic. The overview mentions sales correctly and the summary leaves it out, which is acceptable.",
+      "Minor: the landing page gives no details of what the 2026 release wave 2 extensions-based transition involves, so readers get no further guidance on it. The narrative correctly does not elaborate."
+    ],
+    "input_hash": "0f0ababd40d44bcbbe8b48a1a61c9c02f828296c4f75badcf91aabef30251d32",
+    "cost_usd": 0.039311200000000004
   }
 }

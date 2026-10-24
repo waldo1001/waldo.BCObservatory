@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:19:38.493Z"
   flags: []
 generated:
-  at: "2026-10-07T23:19:38.565Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -85,7 +85,8 @@ links:
   learn: []
   objects:
     - object/table/18
-  features: []
+  features:
+    - feature/576789
   topics: []
   localizations: []
   videos: []
@@ -139,6 +140,30 @@ chapters:
     title: Business Central admin MCP and future roadmap
   - t: 3233
     title: Q&A and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: I suppose in a couple of versions or minor versions, probably you can use the resources because the team is working in use this resources, but for now we only can use tools
+    t: 860
+  - kind: preview-disclaimer
+    quote: The MCP server standard uh is in public preview from 27.1
+    t: 1190
+    versions:
+      - "27"
+  - kind: preview-disclaimer
+    quote: Experimental. If you want to use the MCP server with cloud up to you, but it's experimental
+    t: 1209
+  - kind: preview-disclaimer
+    quote: it's not it's still maturing. Um it's not something very um tested
+    t: 2473
+  - kind: preview-disclaimer
+    quote: it's not uh working uh for now it's not working um perfectly
+    t: 2713
+  - kind: preview-disclaimer
+    quote: this is the experimental solution, right? This Remember, this is the experimental. It's not supported by Microsoft.
+    t: 2881
+  - kind: preview-disclaimer
+    quote: new tool selections from uh, from Copilot Studio is not public. It's not uh in all the environments
+    t: 3221
 features:
   - name: Business Central MCP Server
     status: unclear
@@ -251,10 +276,12 @@ features:
     verified: false
     status_source: video
   - name: Query exposure in MCP
-    status: unclear
+    status: ga
     t: 2702
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576789"
   - name: Page and API selection for exposure
     status: unclear
     t: 2738
@@ -372,12 +399,14 @@ The presenter demos adding the Business Central MCP server in Copilot Studio by 
 | Validate feature for API exposure | status not stated | [42:12](https://www.youtube.com/watch?v=rm-FstU_I80&t=2532s) |  |
 | Connection string configuration | status not stated, demoed | [42:49](https://www.youtube.com/watch?v=rm-FstU_I80&t=2569s) |  |
 | MCP integration with VS Code | status not stated, demoed | [43:16](https://www.youtube.com/watch?v=rm-FstU_I80&t=2596s) |  |
-| Query exposure in MCP | status not stated | [45:02](https://www.youtube.com/watch?v=rm-FstU_I80&t=2702s) |  |
+| Query exposure in MCP | generally available (roadmap [Unlock more Business Central data with MCP server enhancements](../features/576789.md)) | [45:02](https://www.youtube.com/watch?v=rm-FstU_I80&t=2702s) |  |
 | Page and API selection for exposure | status not stated | [45:38](https://www.youtube.com/watch?v=rm-FstU_I80&t=2738s) |  |
 | Configuration export and import | status not stated, demoed | [46:40](https://www.youtube.com/watch?v=rm-FstU_I80&t=2800s) |  |
 | Copilot Studio tool selections | status not stated | [53:15](https://www.youtube.com/watch?v=rm-FstU_I80&t=3195s) |  |
 | Power BI integration with MCP agents | status not stated | [55:38](https://www.youtube.com/watch?v=rm-FstU_I80&t=3338s) |  |
 | Custom APIs for custom fields | status not stated | [56:02](https://www.youtube.com/watch?v=rm-FstU_I80&t=3362s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

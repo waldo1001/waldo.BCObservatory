@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:07:57.030Z"
   flags: []
 generated:
-  at: "2026-10-07T23:07:57.097Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -280,6 +280,16 @@ chapters:
     title: Call to action, implementation guidance, and best practices
   - t: 2858
     title: Partner community, testing resources, and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: potential experiences in the product where that skew which is made available in the one catalog is now also been made available within the product
+    t: 353
+  - kind: preview-disclaimer
+    quote: support different pricing models like not only the per user model which is uh available today but also that we have a per site uh license like a onetime fee
+    t: 2697
+  - kind: preview-disclaimer
+    quote: we are influencing all the teams at this moment in time we don't really have set dates for when that's going to be
+    t: 2717
 features:
   - name: Direct transact capability on appsource
     status: unclear

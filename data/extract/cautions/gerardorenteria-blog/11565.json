@@ -1,0 +1,38 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11565",
+  "page_id": "post/gerardorenteria-blog/11565",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "This will cause an error if the table is different",
+      "objects": [
+        {
+          "type": "other",
+          "name": "RecordRef"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "15.2",
+        "15.0"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "This will become an error from Business Central 2026 Wave 2",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "15.1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00574,
+    "posts_in_call": 4
+  }
+}

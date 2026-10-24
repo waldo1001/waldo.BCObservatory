@@ -1,0 +1,33 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3761",
+  "page_id": "post/aardvarklabs-blog/3761",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Indexing improves data retrieval at the cost of data writes.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Over indexing the GL Entry table can make reporting much faster, but processes like payroll may take longer.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "GL Entry"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005377,
+    "posts_in_call": 4
+  }
+}

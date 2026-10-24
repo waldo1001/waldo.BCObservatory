@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:20:02.610Z"
   flags: []
 generated:
-  at: "2026-10-07T23:20:02.687Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -130,6 +130,10 @@ chapters:
     title: AI code generation improvements and automating requirements gathering
   - t: 3524
     title: Final discussion and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: future agentic scenarios future it could be very near future where AI helps execute repeatable business tasks
+    t: 2441
 features:
   - name: Accelerated requirements gathering with AI
     status: unclear

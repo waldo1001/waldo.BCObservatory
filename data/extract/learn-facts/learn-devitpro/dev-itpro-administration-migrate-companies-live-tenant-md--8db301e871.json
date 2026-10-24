@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-companies-live-tenant.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant",
+  "title": "Migrating Business Central companies into live tenants",
+  "blob": "8face050fc6e46598f7daffeaa4f80f81f18c2c1",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Migrating companies into live tenants after going live is not officially supported and carries risk of data loss."
+    },
+    {
+      "kind": "fact",
+      "text": "By default, cloud migration replaces permission sets with Intelligent Cloud permissions except for SUPER users."
+    },
+    {
+      "kind": "limit",
+      "text": "Per-database table data in online tenant is at risk of being replaced by on-premises data."
+    },
+    {
+      "kind": "limit",
+      "text": "Exclude all per-database tables except Tenant Media before replication to minimize data loss risk."
+    },
+    {
+      "kind": "fact",
+      "text": "Upgrade tags must not be replaced; contact support immediately if they are."
+    },
+    {
+      "kind": "fact",
+      "text": "Avoid running upgrade twice and monitor for business hours conflicts with large upgrades."
+    },
+    {
+      "kind": "fact",
+      "text": "Reconfigure Dataverse mapping and API integrations after migration."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004442,
+      "pages_in_call": 13
+    }
+  ]
+}

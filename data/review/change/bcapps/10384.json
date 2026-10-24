@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10384",
+  "input_hash": "e66b87ccf74112dc42e0f923721e5a1ec97908a290099d11f87208519ee681f4",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-24T00:37:49.985Z",
+  "issues": [
+    "Six table procedures and one codeunit procedure are now accessible, which matches the description. Calling this a feature with no behaviour change is reasonable for an extensibility change."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023113,
+    "changes_in_call": 6
+  }
+}

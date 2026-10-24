@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:12.298Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -275,13 +275,17 @@ Two reference pages sit behind the reports. The semantic model page describes th
 ## Learn pages
 
 - [Actual vs. Budget (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget): The Actual vs. Budget report provides a clear overview of your organization's purchase performance by comparing actual purchase amount and quantity with the budget figures.
+  - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md), [Table 5722 "Item Category"](../../../../../objects/table/5722.md), [Table 5802 "Value Entry"](../../../../../objects/table/5802.md), [Table 7134 "Item Budget Entry"](../../../../../objects/table/7134.md)
 - [Daily Purchases (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-daily-purchases): The Daily Purchases report provides a comprehensive overview of your organization's purchase activities on specific days.
+  - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md)
 - [Key Purchase Influencers (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-key-purchase-influencers): Identify and analyze factors that influence purchasing performance. Explore the most impactful variables and trends based on purchase data.
+  - In the observatory: [Table 13 "Salesperson/Purchaser"](../../../../../objects/table/13.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 39 "Purchase Line"](../../../../../objects/table/39.md), [Table 5802 "Value Entry"](../../../../../objects/table/5802.md)
 - [Moving Annual Total (MAT) (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-moving-annual-total): The Moving Annual Total (MAT) report calculates a total of purchase over the last 12 months.
 - [Moving Averages (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-moving-averages): The Moving Averages report provides a comprehensive overview of your organization's average purchase over a 30-day period.
 - [Period-Over-Period (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-period-over-period): The Period-Over-Period report provides valuable insights into your organization's purchasing performance over time
 - [Power BI Purchase app](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app): The Power BI Purchases app provides comprehensive analytics on purchases to stakeholders at all levels of your organization.
 - [Power BI Purchases app semantic model](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app-semantic-model): Learn about the fact and dimension tables and visible fields in the Power BI Purchases app semantic model for Business Central reports.
+  - In the observatory: [Table 122 "Purch. Inv. Header"](../../../../../objects/table/122.md), [Table 123 "Purch. Inv. Line"](../../../../../objects/table/123.md), [Table 124 "Purch. Cr. Memo Hdr."](../../../../../objects/table/124.md), [Table 125 "Purch. Cr. Memo Line"](../../../../../objects/table/125.md), [Table 13 "Salesperson/Purchaser"](../../../../../objects/table/13.md), [Table 14 "Location"](../../../../../objects/table/14.md)
 - [Purchase Forecasting (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchase-forecasting): The Purchase Forecasting report predicts future purchasing trends to anticipate supply chain requirements.
 - [Purchase Quote Overview (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchase-quote-overview): The Purchase Quote Overview report gives a clear picture of your organization's purchase quotes.
 - [Purchases by Item (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-item): The Purchases by Item report gives a clear picture of your organization's item purchases.
@@ -290,6 +294,7 @@ Two reference pages sit behind the reports. The semantic model page describes th
 - [Purchases by Vendor (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-vendor): The Purchases by Vendor report provides an overview of purchasing activities by vendor.
 - [Purchases Decomposition (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-decomposition): The Purchases Decomposition report provides a comprehensive breakdown of your total purchase amount by item categories, vendors, fiscal periods, and document types.
 - [Purchases KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-kpis): Get an overview of all the KPIs and measures in the semantic model for the Purchases Power BI app.
+  - In the observatory: [Table 39 "Purchase Line"](../../../../../objects/table/39.md), [Table 5802 "Value Entry"](../../../../../objects/table/5802.md), [Table 7134 "Item Budget Entry"](../../../../../objects/table/7134.md)
 - [Purchases Overview (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-overview): The Purchases Overview report gives a clear picture of your organization's purchasing activities.
 - [Purchases Return Overview (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchase-return-overview): The Purchase Return Overview report gives a clear picture of your organization's purchase returns.
 - [Vendor Quality Analysis (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-vendor-quality-analysis): The Vendor Quality Analysis report provides insights into your organization's vendor performance and quality metrics.

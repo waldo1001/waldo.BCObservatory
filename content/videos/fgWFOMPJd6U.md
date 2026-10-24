@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:52:16.435Z"
   flags: []
 generated:
-  at: "2026-10-07T22:52:16.488Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -227,6 +227,24 @@ chapters:
     title: Small language models and extensibility
   - t: 1780
     title: Guidance for Partners, Developers and Customers
+cautions:
+  - kind: preview-disclaimer
+    quote: we also want to stabilize uh more and more with the current version and and then in future we do have plans of increasing both the tracks the user context track but also the data context
+    t: 814
+  - kind: preview-disclaimer
+    quote: We could easily think of uh you know integrating with external data be it um data from LinkedIn or any other external sources
+    t: 827
+  - kind: preview-disclaimer
+    quote: we're working um uh on doing what we call experimentation. I don't want to tell much about it because that's that could be a subject an entire an entire episode
+    t: 1417
+  - kind: preview-disclaimer
+    quote: Some of the prompts, for example, the scoring part could be probably better done with uh other models than 41 mini uh because they might have better reasoning capabilities and we are still figuring out
+    t: 1590
+    versions:
+      - "41"
+  - kind: preview-disclaimer
+    quote: Right now it is not directly extensible from AL in the sense that uh they they cannot provide for example more data sources or they cannot override the text that they see in the summary in one way or another yet but we are working on it.
+    t: 1697
 features:
   - name: Summarize with Copilot
     status: unclear

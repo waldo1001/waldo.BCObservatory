@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -177,6 +177,13 @@ Path: [Administration](../../administration.md) > [Admin center](../admin-center
 ## Learn pages
 
 - [Business Central Admin Center API - App Management](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_app_management): Manage Business Central apps with the admin center API. Discover how to install, uninstall, update, and schedule PTEs, plus track operations and available updates.
+  - Status: Global app installation available from API version 2.6; PTE upload from version 2.29
+  - API endpoints manage install, uninstall, update, and cancel operations for apps on environments
+  - Prerequisite: acceptIsvEula property must be set to true in request body to proceed with app installation
+  - Step: For PTEs, upload .app file via multipart form and specify deploymentSchedule as Immediate or UpdateWindow
+  - Limit: PTE .app package cannot exceed 50MB size and must have .app file extension
+  - Uninstalling PTE does not remove scheduled versions; use removeScheduledPteVersion endpoint separately
+  - Dependencies can be automatically installed or updated to latest compatible version if requested
 - [Business Central Admin Center API - Authorized Microsoft Entra Apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_authorizedaadapps): Learn about the Business Central administration center API for authorizing Microsoft Entra apps.
 - [Business Central Admin Center API - Available Applications](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_available_applications): Learn about the Business Central administration center API for getting information about the applications.
 - [Business Central Admin Center API - Environment Database Export](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_environment_database_export): Learn how to export an environment database using the Business Central Admin Center API. Discover permissions, metrics, and error handling for seamless exports.
@@ -190,7 +197,22 @@ Path: [Administration](../../administration.md) > [Admin center](../admin-center
 - [Business Central Admin Center API - Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_telemetry): Explore the Business Central Admin Center API for telemetry logging, including top-level AL events and error tracking for tenant environments.
 - [Business Central Admin Center API - Transfer environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_environmenttransfer): Learn about the Business Central administration center API for transferring environments between Microsoft Entra tenants.
 - [Business Central Administration Center API](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api): Get introduced to the Business Central administration center API.
+  - Status: Service-to-service authentication using Client Credentials Flow is supported from version 20.0 onwards.
+  - Step: Register an application in your Microsoft Entra tenant with a unique name and select account type.
+  - Step: Create a client secret for the registered application with a specified duration.
+  - Step: Grant AdminCenter.ReadWrite.All permission to the registered application for the admin center API.
+  - Step: Go to the admin center and paste the application client ID in the Authorized Microsoft Entra apps page.
+  - Permissions: AdminCenter.ReadWrite.All permission required for admin center API calls; API.ReadWrite.All and Automation.ReadWrite.All also available.
+  - The admin center API is located at https://api.businesscentral.dynamics.com
 - [Business Central Administration Center API MCP Server (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api-mcp): Get introduced to the Business Central Admin Center API MCP Server
+  - Status: Business Central Admin Center API MCP server is in public preview.
+  - MCP server located at https://mcp.businesscentral.dynamics.com/admin/v1 exposes admin APIs in standardized way.
+  - AI agents can discover available admin operations and propose follow-up actions while keeping users in control.
+  - Prerequisite: Connect to MCP server in Visual Studio Code, Copilot Studio, or other tools supporting MCP.
+  - Limit: Six endpoints are excluded during preview: Set security group, Clear security group, Delete environment, Rename environment, Link Power Platform environment, Unlink Power Platform environment.
+  - Sample MCP Proxy on GitHub demonstrates multi-tenant administration but is not supported for production use.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 

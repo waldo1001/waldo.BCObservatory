@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/thinkaboutit-be/7930",
+  "page_id": "post/thinkaboutit-be/7930",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Environments already upgraded before the pause was called are not rolled back.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "If you leave the update date at whatever Microsoft proposes by default, your environments will often land in the first wave.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "The Admin Center banner is passive. You only see it if you happen to log in.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "If no recipient is configured, that warning goes nowhere.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003382,
+    "posts_in_call": 4
+  }
+}

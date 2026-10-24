@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T22:54:34.539Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -88,6 +88,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/8C9JmtHdExM
+      title: Allow Over Receipts of Products
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
+      title: Define Item Attributes for Item Variants
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/tpAh4q3h8T8
+      title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/thedynamicsexplorer-com/37371
+      title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/X3xygXmgRqU
+      title: How to Set Up Locations in Business Central (2025)
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/_ynMUzh956w
+      title: "Introducing: Sustainability in Business Central (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 6221 "Sustainability Setup"
+      by: code
+    - to: post/gerardorenteria-blog/11203
+      title: New Application Ideas of Dynamics 365 Business Central (2025 MAY)
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-journal
+      title: Record sustainability entries
+      label: possibly related
+      why: names Page 6219 "Sustainability Journal"
+      by: code
+    - to: video/vnaySMIKnp8
+      title: "What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/qPInVj03wkY
+      title: "What's New in Sustainability: Reporting CSRD (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6221 "Sustainability Setup"
+      by: code
 video_id: UKVp28M5TtU
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -232,3 +283,18 @@ Not found in BC28-30: page "Purchase Document".
 - [2:04](https://www.youtube.com/watch?v=UKVp28M5TtU&t=124s) "we will have a changes in all your pages. So all your page will show different uh captions for emissions"
 - [2:36](https://www.youtube.com/watch?v=UKVp28M5TtU&t=156s) "everywhere you will see new caption and you need to enter only carbon equivalents for these gases"
 - [4:00](https://www.youtube.com/watch?v=UKVp28M5TtU&t=240s) "all of them will be set up as a one because this is default value"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Allow Over Receipts of Products](../videos/8C9JmtHdExM.md) — possibly related: both name Page 30 "Item Card"
+- [Define Item Attributes for Item Variants](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) — possibly related: both name Page 30 "Item Card"
+- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 30 "Item Card"
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 30 "Item Card"
+- [How to Set Up Locations in Business Central (2025)](../videos/X3xygXmgRqU.md) — possibly related: both name Page 30 "Item Card"
+- [Introducing: Sustainability in Business Central (2024 release wave 1)](../videos/_ynMUzh956w.md) — possibly related: both name Page 6221 "Sustainability Setup"
+- [New Application Ideas of Dynamics 365 Business Central (2025 MAY)](../posts/gerardorenteria-blog/11203.md) — possibly related: both name Page 30 "Item Card"
+- [Record sustainability entries](https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-journal) — possibly related: names Page 6219 "Sustainability Journal"
+- [What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)](../videos/vnaySMIKnp8.md) — possibly related: both name Page 30 "Item Card"
+- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../videos/qPInVj03wkY.md) — possibly related: both name Page 6221 "Sustainability Setup"

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:55.264Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -166,11 +166,11 @@ narrative: generated
 
 > Czech Core Finance covers Czech-specific general ledger and accounting features in Business Central: posting group controls, corrections (Red Storno), statutory statements, year closing, multi-circuit accounting, exchange rates, dimensions, and company information. It answers setup and usage questions for Czech compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Core Finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Core Finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects the Czech localization pages for core finance. They cover rules that Czech accounting legislation requires: corrections posting, multi-circuit accounting, statutory Balance Sheet and Income Statement reports, accounting output documents, internal financial documents, and year closing.
+This section collects the Czech localization pages for core finance. Several cover rules from Czech accounting legislation: corrections posting (Red Storno), statutory Balance Sheet and Income Statement reports, accounting output documents, internal financial documents, and year closing. Other pages cover multi-circuit accounting, posting group checks and alternative employee posting groups, WIP extended posting, financial report extensions, G/L entry application, exchange rate updates from the Czech National Bank, automatic dimensions, and statutory company information.
 
 ## Key points
 
@@ -186,17 +186,24 @@ This section collects the Czech localization pages for core finance. They cover 
 ## Learn pages
 
 - [Alternative posting groups for Employees in the Czech Version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/use-alternative-posting-groups-employees): Learn how to set up and use alternative posting groups for employees in the Czech version of Business Central to manage payables and receivables effectively.
+  - In the observatory: [Page 5200 "Employee Card"](../../../../../objects/page/5200.md), [Page 5224 "Employee Posting Groups"](../../../../../objects/page/5224.md), [Page 5233 "Human Resources Setup"](../../../../../objects/page/5233.md)
 - [Check posting group change in Customer, Vendor, Item, Bank Account [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/check-of-posting-group-changing): Learn how the Czech version of Business Central checks for changes to posting groups on customer, vendor, item, and bank account cards, ensuring compliance with local requirements.
 - [Czech Local Functionality - Accounting output documents](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/accounting-output-documents): Learn about accounting output documents available in the Czech version of Business Central, including local reporting features and compliance requirements.
 - [Czech local functionality - Corrections posting](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-corrections-posting): The corrections posting function is used to force corrective posting.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 39 "General Journal"](../../../../../objects/page/39.md), [Page 5629 "Fixed Asset Journal"](../../../../../objects/page/5629.md)
 - [Czech local functionality - Financial report feature](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-accounting-schedule-feature): Enhancements to financial reports in the Czech version, including shared expressions, result saving, formula drill-down, and expanded data sources.
 - [Czech local functionality - Internal financial documents](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/internal-financial-documents): Learn about Internal Financial Documents in the Czech version of Business Central, enabling compliant printing of General Ledger operation documents.
 - [Czech local functionality - Statutory company information [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/statutory-company-information): The Statutory company information feature enables users to define company officials and assign them roles for inclusion in internal and external documents.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md)
 - [Czech Local Functionality - Statutory Statements [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/statutory-statements): Generate statutory financial reports, including Balance Sheet and Income Statement, for Czech legal compliance.
+  - In the observatory: [Table 84 "Acc. Schedule Name"](../../../../../objects/table/84.md), [Table 85 "Acc. Schedule Line"](../../../../../objects/table/85.md)
 - [Czech local functionality - WIP extended posting](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/wip-extended-posting): Learn about the WIP Extended Posting local functionality available in the Czech version of Business Central.
+  - In the observatory: [Page 5826 "Inventory Posting Setup"](../../../../../objects/page/5826.md)
 - [Exchange Rate Update [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/exchange-rate-update): Learn how to use local functionality to automatically update currency exchange rates through an exchange rate service.
 - [General Ledger Entries Application [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/general-ledger-entries-application): The Czech version of General ledger entries application enables companies to manage temporary and transfer accounts in the general ledger for improved tracking and processing of pending amounts.
+  - In the observatory: [Page 20 "General Ledger Entries"](../../../../../objects/page/20.md), [Table 17 "G/L Entry"](../../../../../objects/table/17.md)
 - [Set up automatic creation and update of dimensions [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions): Learn how to automatically create and update dimensions and dimension values for master records in the Czech version of Business Central.
+  - In the observatory: [Page 536 "Dimensions"](../../../../../objects/page/536.md)
 - [Use multi-circuit accounting [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-multi-circuit-accounting): Learn how to use multi-circuit accounting with the G/L Account Group field to separate financial, internal, and off-balance postings in the Czech version.
 - [Year closing operations in the Czech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/year-close-operations): Learn how to run the Close Income Statement, Close Balance Sheet, and Open Balance Sheet reports to meet Czech year-end accounting requirements.
 

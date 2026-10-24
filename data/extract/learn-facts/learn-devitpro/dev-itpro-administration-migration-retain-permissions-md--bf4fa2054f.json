@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-retain-permissions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions",
+  "title": "Retain permissions",
+  "blob": "dc7e149679b16aeb6a956b3252ff5745950c0d76",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "By default cloud migration removes all permission sets from existing online users except SUPER users."
+    },
+    {
+      "kind": "fact",
+      "text": "Removed permissions are replaced with Intelligent Cloud permission set to prevent non-SUPER users from modifying data."
+    },
+    {
+      "kind": "step",
+      "text": "Sign in to Business Central online and open Cloud Migration Management page."
+    },
+    {
+      "kind": "step",
+      "text": "Select Show the rest, More options, Actions, then Enable/Disable Removing Permissions from Users."
+    },
+    {
+      "kind": "step",
+      "text": "Create custom per-tenant extension with OnBeforeResetUsersToIntelligentCloudPermissions event handler to keep permissions."
+    },
+    {
+      "kind": "fact",
+      "text": "Users can keep original permissions to continue working during data replication or for service-to-service apps."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

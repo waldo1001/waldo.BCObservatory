@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:55:13.786Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -96,6 +96,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97
+      title: How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.
+      label: possibly related
+      why: both name Page 130 "Posted Sales Shipment"
+      by: code
+    - to: post/aardvarklabs-blog/3928
+      title: Understanding Business Central’s Format Address Codeunit
+      label: possibly related
+      why: both name Table 14 "Location"
+      by: code
+    - to: video/8KMcu4B_eTk
+      title: "What's New: Warehouse Management (2023 release wave 2)"
+      label: possibly related
+      why: both name Table 14 "Location"
+      by: code
 video_id: zy-Tg9bBtHc
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -121,6 +137,16 @@ chapters:
     title: Post and Send Workflow Integration
   - t: 566
     title: Closing Remarks and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: I try to to avoid assumptions maybe it will be mandatory maybe it will not but minimum uh this is something what will allow actually require from authorities to receive digital versions
+    t: 105
+  - kind: preview-disclaimer
+    quote: if it's already exist we will enable it and if it become mandatory we will localize
+    t: 116
+  - kind: preview-disclaimer
+    quote: Currently in the system we do not have some specific uh file uh for specific localization. This is just example you can use in demos. But as soon as we start localization of that, we will localize basin on specific countries.
+    t: 207
 features:
   - name: E-Shipments
     status: unclear
@@ -255,5 +281,13 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:45](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=105s) subject-to-change: I try to to avoid assumptions maybe it will be mandatory maybe it will not but minimum uh this is something what will allow actually require from authorities to receive digital versions
 - [1:56](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=116s) coming-later: if it's already exist we will enable it and if it become mandatory we will localize
 - [3:27](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=207s) preview: Currently in the system we do not have some specific uh file uh for specific localization. This is just example you can use in demos. But as soon as we start localization of that, we will localize basin on specific countries.
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97.md) — possibly related: both name Page 130 "Posted Sales Shipment"
+- [Understanding Business Central’s Format Address Codeunit](../posts/aardvarklabs-blog/3928.md) — possibly related: both name Table 14 "Location"
+- [What's New: Warehouse Management (2023 release wave 2)](../videos/8KMcu4B_eTk.md) — possibly related: both name Table 14 "Location"
 
 Presenters (as heard): Alexander Toto, Manus.

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:11:09.251Z"
   flags: []
 generated:
-  at: "2026-10-07T23:11:09.301Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -189,6 +189,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/j5ULVClJaKU
+      title: "Introducing: Chat with Copilot ( 2024 release wave 1)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/gBB0elWQWM8
+      title: Warn Salespeople That a Product Will Soon be Out of Stock
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/6sH2u4jt-ow
+      title: "What's Cooking in Business Central: Storing Document Attachments outside the Database"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/6SyNNeHQDUo
+      title: "What's New: Co-Development Initiative (2024 release wave 2)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/Afv-r-eDt90
+      title: "What's New: Enhanced Analysis Mode (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/MKuOgMWXJ_8
+      title: "What's New: Sales Validation Sample Agent for Business Central"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
 video_id: B8cWQGwajwQ
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -229,6 +260,28 @@ chapters:
     title: Best Practices and Preview Status
   - t: 1871
     title: Known Issues, Limitations, and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: we released this tool as a preview in 2024 release way one
+    t: 104
+  - kind: preview-disclaimer
+    quote: we will warn if you're trying to play scripts recorded scripts in a production environment
+    t: 156
+  - kind: preview-disclaimer
+    quote: there are a couple of scenarios powerful scenarios that we currently only support in yaml so you have to go to edit them in the yaml H they are supported when you then play them in the client but there isn't a uh page in uh s page is…
+    t: 1502
+  - kind: preview-disclaimer
+    quote: the tool is in preview now um please give us feedback
+    t: 1790
+  - kind: preview-disclaimer
+    quote: there isn't a lot of support for during recording to to change the steps
+    t: 1810
+  - kind: preview-disclaimer
+    quote: you can only build Suites in yaml not in the client
+    t: 1830
+  - kind: preview-disclaimer
+    quote: we're working on but uh we and um it's not yet supported to run that you can only run them in the client at this point
+    t: 1851
 features:
   - name: Page Scripting Tool
     status: preview
@@ -485,5 +538,16 @@ Not found in BC28-30: page "Page Inspector", page "Customer", page "Page Scripti
 - [30:10](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1810s) not-in-this-release: there isn't a lot of support for during recording to to change the steps
 - [30:30](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1830s) not-in-this-release: you can only build Suites in yaml not in the client
 - [30:51](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1851s) coming-later: we're working on but uh we and um it's not yet supported to run that you can only run them in the client at this point
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Introducing: Chat with Copilot ( 2024 release wave 1)](../videos/j5ULVClJaKU.md) — possibly related: both name Page 48 "Sales Orders"
+- [Warn Salespeople That a Product Will Soon be Out of Stock](../videos/gBB0elWQWM8.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's Cooking in Business Central: Storing Document Attachments outside the Database](../videos/6sH2u4jt-ow.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's New: Co-Development Initiative (2024 release wave 2)](../videos/6SyNNeHQDUo.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's New: Enhanced Analysis Mode (2026 release wave 1)](../videos/Afv-r-eDt90.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's New: Sales Validation Sample Agent for Business Central](../videos/MKuOgMWXJ_8.md) — possibly related: both name Page 48 "Sales Orders"
 
 Presenters (as heard): H Peter Boring.

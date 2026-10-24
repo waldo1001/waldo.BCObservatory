@@ -17,7 +17,7 @@ review:
   at: "2026-10-07T23:02:10.947Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -62,6 +62,32 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257
+      title: Analysis Mode killed half the Excel exports on your client's shared drive
+      label: possibly related
+      why: both name Page 25 "Customer Ledger Entries"
+      by: code
+    - to: post/thedynamicsexplorer-com/36744
+      title: "Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central"
+      label: possibly related
+      why: both name Page 25 "Customer Ledger Entries"
+      by: code
+    - to: post/thinkaboutit-be/7503
+      title: "How Do I: Analyze List Pages and Data Using Analysis Mode in Business Central"
+      label: possibly related
+      why: both name Page 25 "Customer Ledger Entries"
+      by: code
+    - to: post/thinkaboutit-be/7537
+      title: "How Do I: Replace Reports with Analysis Mode in Business Central"
+      label: possibly related
+      why: both name Page 25 "Customer Ledger Entries"
+      by: code
+    - to: video/Afv-r-eDt90
+      title: "What's New: Enhanced Analysis Mode (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 25 "Customer Ledger Entries"
+      by: code
 video_id: N7RE_UVeH1c
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -80,6 +106,10 @@ chapters:
     title: Excel Export Methods - Right-Click and Menu Approaches
   - t: 60
     title: Improved File Naming for Excel Exports
+cautions:
+  - kind: preview-disclaimer
+    quote: they're actually a bit old because they were backported to the current version but they are also available in the 2025 release Wave 1
+    t: 5
 features:
   - name: Excel Export via Right-Click
     status: unclear
@@ -169,3 +199,13 @@ Not found in BC28-30: page "data analysis".
 ## Disclaimers in the video
 
 - [0:05](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=5s) preview: they're actually a bit old because they were backported to the current version but they are also available in the 2025 release Wave 1
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Analysis Mode killed half the Excel exports on your client's shared drive](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md) — possibly related: both name Page 25 "Customer Ledger Entries"
+- [Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central](../posts/thedynamicsexplorer-com/36744.md) — possibly related: both name Page 25 "Customer Ledger Entries"
+- [How Do I: Analyze List Pages and Data Using Analysis Mode in Business Central](../posts/thinkaboutit-be/7503.md) — possibly related: both name Page 25 "Customer Ledger Entries"
+- [How Do I: Replace Reports with Analysis Mode in Business Central](../posts/thinkaboutit-be/7537.md) — possibly related: both name Page 25 "Customer Ledger Entries"
+- [What's New: Enhanced Analysis Mode (2026 release wave 1)](../videos/Afv-r-eDt90.md) — possibly related: both name Page 25 "Customer Ledger Entries"

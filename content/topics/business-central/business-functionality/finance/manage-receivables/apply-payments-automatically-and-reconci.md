@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:54.616Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -141,11 +141,17 @@ Start with "Reconcile bank accounts and apply payments" for the overview, then "
 ## Learn pages
 
 - [Reconcile bank accounts and apply payments](https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts): Outlines tasks to reconcile your bank, receivables, and payables accounts, post cash receipts or expenses, and apply payments automatically.
+  - In the observatory: [Page 1252 "Payment Application Rules"](../../../../../objects/page/1252.md), [Page 379 "Bank Acc. Reconciliation"](../../../../../objects/page/379.md)
 - [Reconcile payments using automatic application](https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-auto-application): Describes how to reconcile payments using automatic application to apply payments or cash receipts to related open entries.
+  - In the observatory: [Page 1282 "Payment Bank Account List"](../../../../../objects/page/1282.md), [Page 1292 "Payment Application"](../../../../../objects/page/1292.md), [Page 1298 "Bank Statement Filter"](../../../../../objects/page/1298.md)
 - [Review and apply payments manually after automatic application](https://learn.microsoft.com/dynamics365/business-central/receivables-how-review-apply-payments-auto-application): After payments are applied automatically, you can review all the entries for a payment and manually reapply those that were applied incorrectly.
+  - In the observatory: [Page 1253 "Payment Application Settings"](../../../../../objects/page/1253.md), [Page 1292 "Payment Application"](../../../../../objects/page/1292.md)
 - [Rules for automatic application of payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-set-up-payment-application-rules): Read about how to set Up Rules for the Automatic Application of Payments on the Payment Application Rules page.
+  - In the observatory: [Page 1252 "Payment Application Rules"](../../../../../objects/page/1252.md)
 - [Setting up Text-to-Account mapping for recurring payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation): Link text on payments with specific accounts, so that payments are posted to the accounts when you post the payment reconciliation journal.
+  - In the observatory: [Page 1251 "Text-to-Account Mapping"](../../../../../objects/page/1251.md)
 - [Using the transfer difference to account feature to reconcile payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-cannot-apply-auto): Describes how to process payments that can't be applied to a document, for example, when an exchange rate causes amounts to differ.
+  - In the observatory: [Page 1297 "Transfer Difference to Account"](../../../../../objects/page/1297.md)
 
 ## Videos, posts and code changes
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:39.599Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -385,6 +385,7 @@ Start with the supported upgrade paths page to see whether your source version c
 ## More Learn pages
 
 - [Some Known Issues in Business Central On-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/known-issues): Provides an overview of the known issues that can affect Business Central installation or upgrade.
+  - In the observatory: [Table 6121 "E-Document"](../../../objects/table/6121.md), [Table 8003 "Price Update Template"](../../../objects/table/8003.md)
 - [Supported upgrade paths to Business Central on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-paths): Provides an overview of the different upgrade paths for Business Central on-premises across versions.
 - [Upgrading to Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-to-business-central): Learn how to upgrade to Dynamics 365 Business Central with this comprehensive guide. Covers online and on-premises deployment options.
 

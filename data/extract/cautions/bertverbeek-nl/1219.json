@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/bertverbeek-nl/1219",
+  "page_id": "post/bertverbeek-nl/1219",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "Currently this feature is in Public Preview!",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27.4"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "You need to take care if it is a reply on an already task that exists or he has to create a new task.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27.4"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003342,
+    "posts_in_call": 4
+  }
+}

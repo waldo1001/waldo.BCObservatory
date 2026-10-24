@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:34.995Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,7 +96,10 @@ For year-end work, start with the fiscal year closing page. It walks through clo
 ## Learn pages
 
 - [How to Close a Fiscal Year](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-close-a-fiscal-year): Learn to close a fiscal year, create a closing entry with the Close Income Statement option, and post it.
+  - In the observatory: [Page 100 "Accounting Periods"](../../../../../objects/page/100.md)
 - [How to Define Debit and Credit Amounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts): In the Italian version of Business Central, the Debit Amount and Credit Amount fields are included in multiple journals and tables.
+  - In the observatory: [Page 39 "General Journal"](../../../../../objects/page/39.md), [Table 21 "Cust. Ledger Entry"](../../../../../objects/table/21.md), [Table 25 "Vendor Ledger Entry"](../../../../../objects/table/25.md)
 - [Reversing Journal Entries [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/reversing-journal-entries): Reversing Journal Entries feature introduces controls on the Reverse Transaction Entries page to ensure compliance with Italian legal requirements.
+  - In the observatory: [Page 183 "Reverse Transaction Entries"](../../../../../objects/page/183.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

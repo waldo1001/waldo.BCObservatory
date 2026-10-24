@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:10:47.726Z"
   flags: []
 generated:
-  at: "2026-10-07T23:10:47.779Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -89,6 +89,47 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/olofsimren-com/3853
+      title: Allow Posting Date Formula
+      label: possibly related
+      why: both name Table 98 "General Ledger Setup"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8913658799123411419--5a782b6899
+      title: "Allow Posting From/To DateFormula: No More Monthly Date Updates from Business Central v28"
+      label: possibly related
+      why: both name Table 98 "General Ledger Setup"
+      by: code
+    - to: post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26
+      title: Automating Posting Periods in Business Central with Date Formulas
+      label: possibly related
+      why: both name Table 98 "General Ledger Setup"
+      by: code
+    - to: video/VIda0Ok1SSQ
+      title: Control Deferral Posting
+      label: possibly related
+      why: both name Table 98 "General Ledger Setup"
+      by: code
+    - to: post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9
+      title: How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.
+      label: possibly related
+      why: both name Table 98 "General Ledger Setup"
+      by: code
+    - to: post/aardvarklabs-blog/3928
+      title: Understanding Business Central’s Format Address Codeunit
+      label: possibly related
+      why: both name Table 98 "General Ledger Setup"
+      by: code
+    - to: post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165
+      title: "Weekly Review: Business Central AL Development – May 31–June 6, 2026"
+      label: possibly related
+      why: both name Table 98 "General Ledger Setup"
+      by: code
+    - to: video/kJfGIKor3VA
+      title: What's New:Drill-Back and Dynamic Dimension Name Support in Power BI Apps for Business Central(2025)
+      label: possibly related
+      why: both name Table 98 "General Ledger Setup"
+      by: code
 video_id: OLN-2Ec2GMM
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -119,6 +160,19 @@ chapters:
     title: Summary and takeaways
   - t: 902
     title: Related sessions and resources
+cautions:
+  - kind: preview-disclaimer
+    quote: new method which for now is mar for on premises
+    t: 185
+  - kind: preview-disclaimer
+    quote: that's science fiction not coming in this release wave
+    t: 348
+  - kind: preview-disclaimer
+    quote: I'm afraid it didn't make it for this release but um it will go out with a later um compiler update
+    t: 389
+  - kind: preview-disclaimer
+    quote: will deprecate Parell five within the next years
+    t: 802
 features:
   - name: Number sequence next/current/exist methods performance
     status: unclear
@@ -287,5 +341,18 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [5:48](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=348s) not-in-this-release: that's science fiction not coming in this release wave
 - [6:29](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=389s) coming-later: I'm afraid it didn't make it for this release but um it will go out with a later um compiler update
 - [13:22](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=802s) coming-later: will deprecate Parell five within the next years
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Allow Posting Date Formula](../posts/olofsimren-com/3853.md) — possibly related: both name Table 98 "General Ledger Setup"
+- [Allow Posting From/To DateFormula: No More Monthly Date Updates from Business Central v28](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8913658799123411419--5a782b6899.md) — possibly related: both name Table 98 "General Ledger Setup"
+- [Automating Posting Periods in Business Central with Date Formulas](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26.md) — possibly related: both name Table 98 "General Ledger Setup"
+- [Control Deferral Posting](../videos/VIda0Ok1SSQ.md) — possibly related: both name Table 98 "General Ledger Setup"
+- [How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9.md) — possibly related: both name Table 98 "General Ledger Setup"
+- [Understanding Business Central’s Format Address Codeunit](../posts/aardvarklabs-blog/3928.md) — possibly related: both name Table 98 "General Ledger Setup"
+- [Weekly Review: Business Central AL Development – May 31–June 6, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165.md) — possibly related: both name Table 98 "General Ledger Setup"
+- [What's New:Drill-Back and Dynamic Dimension Name Support in Power BI Apps for Business Central(2025)](../videos/kJfGIKor3VA.md) — possibly related: both name Table 98 "General Ledger Setup"
 
 Presenters (as heard): Kenny Pidan, Yan M Peterson.

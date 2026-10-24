@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:08.129Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -227,7 +227,6 @@ links:
     - change/bcapps/11736
     - change/bcapps/12119
     - change/bcapps/12141
-    - change/bcapps/12201
     - change/bcapps/12982
     - change/bcapps/13085
     - change/bcapps/9089
@@ -343,11 +342,15 @@ This section covers the full VAT workflow in Business Central. It starts with VA
 
 - [Built-in VAT reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-vat-reports): Explore the built-in VAT reports in the standard version of Business Central.
 - [EU third-party purchase transactions](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-eu3party-trade-purchase): This article explains how to set up and use European Union (EU) third-party purchase transactions.
+  - In the observatory: [Page 9308 "Purchase Invoices"](../../../../objects/page/9308.md)
 - [How to convert service contracts](https://learn.microsoft.com/dynamics365/business-central/service-how-to-convert-service-contracts): Learn how to manually convert service contracts that include VAT amounts using various alternative methods.
 - [How to work with VAT on sales and purchases](https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat): This article describes the various ways of working with VAT both manually and with automatic setup, to help you meet country/region specific regulations.
+  - In the observatory: [Page 101 "General Journal Templates"](../../../../objects/page/101.md), [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 314 "General Posting Setup"](../../../../objects/page/314.md), [Page 315 "VAT Entries"](../../../../objects/page/315.md), [Page 780 "Certificates of Supply"](../../../../objects/page/780.md)
 - [Managing VAT rate changes](https://learn.microsoft.com/dynamics365/business-central/finance-how-use-vat-rate-change-tool): Learn how to use the VAT Rate Change tool to change VAT rates based on local legislation.
 - [Multiple VAT registration numbers](https://learn.microsoft.com/dynamics365/business-central/finance-how-use-multiple-vat-registrations): Learn about the functionality for multiple (alternative) value-added tax (VAT) registration numbers.
+  - In the observatory: [Page 187 "VAT Setup"](../../../../objects/page/187.md)
 - [Submit VAT reports to tax authorities](https://learn.microsoft.com/dynamics365/business-central/finance-how-report-vat): Learn how to prepare reports that list VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.
+  - In the observatory: [Report 130 "EC Sales List"](../../../../objects/report/130.md)
 - [Use non-deductible VAT](https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat): This article explains how to use and report non-deductible VAT.
 - [Validate VAT Registration Numbers](https://learn.microsoft.com/dynamics365/business-central/finance-how-validate-vat-registration-number): Let Business Central validate VAT registration numbers for your contacts, customers, and vendors, based on EU VIES VAT Number Validation service.
 - [Value Added Tax management overview](https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat): Learn how to manage Value Added Tax (VAT) with the listed information and resources.
@@ -373,9 +376,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11736 [29.x][VIES Integration] Per-environment daily request rate-limit](../../../../changes/bcapps/11736.md) (code change): "VAT Registration Number lookups against the EU VIES service"
 - [#12119 Fixing an APAC-specific issue with applying a posted sales credit memo when using unrealized VAT (GST)](../../../../changes/bcapps/12119.md) (code change): "An infinite loop when applying a posted sales credit memo with unrealized VAT (GST)"
 - [#12141 [Master]-Incorrect project ledger costs when non-deductible VAT is posted to a foreign-currency project](../../../../changes/bcapps/12141.md) (code change): "Fixed incorrect project ledger costs when posting non-deductible VAT to a foreign-currency project"
-- [#12201 [29.X]- Incorrect project ledger costs when non-deductible VAT is posted to a foreign-currency project](../../../../changes/bcapps/12201.md) (code change): "non-deductible VAT is posted to foreign-currency projects"
 - [#12982 [29x][All-e]Since Business Central 28.4, we have observed changed behaviour when the VAT Prod](../../../../changes/bcapps/12982.md) (code change): "VAT Product Posting Group behavior was corrected in Sales Line handling"
-- [#13085 [Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.](../../../../changes/bcapps/13085.md) (code change): "VAT product posting group handling introduced in BC 28.4"
+- [#13085 [Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.](../../../../changes/bcapps/13085.md) (code change): "VAT Rate Change Conversion codeunit fixes a behavior change"
 - [#9089 Merge-ES-Excluded-from-Calculation-to-W1](../../../../changes/bcapps/9089.md) (code change): "ES Excluded from Calculation functionality is merged into W1"
 - [#9260 Bug 637507: [master] [Report 743 VAT Reconciliation Report] Incorrect VAT Base and Amount when using Non-Deductible VAT](../../../../changes/bcapps/9260.md) (code change): "VAT Reconciliation Report now includes a configurable option to report either the total VAT amount"
 - [#9340 [main][Gen. Jnl.-Post Line]` Add var NextVATEntryNo to OnAfterGLFinishPosting in Code](../../../../changes/bcapps/9340.md) (code change): "OnAfterGLFinishPosting now exposes NextVATEntryNo as a var parameter"

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:07.416Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -312,7 +312,7 @@ narrative: generated
 
 > France local functionality in Business Central covers VAT audit export and DEB, payment slips, e-invoicing and E-Reporting, core finance and fiscal closing, and accelerated depreciation for fixed assets. It answers setup and how-to questions for the French version.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > France · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > France · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

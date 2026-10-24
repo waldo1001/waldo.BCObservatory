@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:47:27.388Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:27.436Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -169,6 +169,13 @@ chapters:
     title: Downloaded logs and LLM judge analysis
   - t: 1510
     title: Library agent customization and public methods
+cautions:
+  - kind: preview-disclaimer
+    quote: it's not possible to check on the message if the message of the intervention request as as you expecting it. But we are planning that.
+    t: 648
+  - kind: preview-disclaimer
+    quote: this fact box was not visible. We have added it recently
+    t: 1431
 features:
   - name: Agent task flow mapping
     status: unclear

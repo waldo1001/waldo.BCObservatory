@@ -2,17 +2,17 @@
 id: topic/business-central/business-functionality/local-functionality/france/vat
 type: topic
 title: VAT
-summary: "French VAT localization in Business Central: exporting general ledger entries for tax audits (FEC format or XML) and setting up the Declaration of Trade in Goods (DEB). It answers questions on audit file export and DEB reporting requirements."
+summary: French VAT in Business Central covers three tasks. You can export general ledger entries in the FEC audit file format for French corporate tax and VAT audits. You can export G/L entries to an XML file for external archiving. You can also set up reporting for the Declaration of Trade in Goods (DEB). Use it for questions about audit file export, archiving G/L entries and DEB setup requirements.
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:40.130Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,9 +73,9 @@ narrative: generated
 
 # VAT
 
-> French VAT localization in Business Central: exporting general ledger entries for tax audits (FEC format or XML) and setting up the Declaration of Trade in Goods (DEB). It answers questions on audit file export and DEB reporting requirements.
+> French VAT in Business Central covers three tasks. You can export general ledger entries in the FEC audit file format for French corporate tax and VAT audits. You can export G/L entries to an XML file for external archiving. You can also set up reporting for the Declaration of Trade in Goods (DEB). Use it for questions about audit file export, archiving G/L entries and DEB setup requirements.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > VAT · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -87,8 +87,8 @@ Start with the FEC export page if you face a tax audit, with the XML page if you
 
 ## Key points
 
-- The FEC audit file export is the format for French corporate tax and VAT audits.
-- FEC export can include opening balances, with an opening balance calculation and Detailed Balance on G/L Accounts.
+- The FEC audit file export is required for French corporate tax and VAT compliance.
+- FEC export can optionally include opening balances. The page also mentions opening balance calculation and Detailed Balance on G/L Accounts.
 - FEC export filters by date range and writes to a file.
 - The XML export archives posted G/L Entry records for a chosen period and supports fiscal year closing.
 - DEB setup involves CISD setup, Registration No., VAT Registration No. and Statistics Period.
@@ -98,7 +98,10 @@ Start with the FEC export page if you face a tax audit, with the XML page if you
 ## Learn pages
 
 - [Export General Ledger Entries Tax Audits [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits): Learn how to export general ledger entries to a text file for a tax audit.
+  - In the observatory: [Page 17 "G/L Account Card"](../../../../../objects/page/17.md), [Page 5266 "Audit File Export Documents"](../../../../../objects/page/5266.md)
 - [Export general ledger entries to an XML file](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file): Learn how to export financial transactions for a particular period to an XML file for external archiving.
+  - In the observatory: [Table 17 "G/L Entry"](../../../../../objects/table/17.md)
 - [Requirements for Reporting Declaration of Trade in Goods [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods): Learn about the required fields and steps for reporting the Declaration of Trade in Goods (DEB) in the French version of Business Central.
+  - In the observatory: [Page 4810 "Intrastat Report Setup"](../../../../../objects/page/4810.md), [Page 4811 "Intrastat Report List"](../../../../../objects/page/4811.md), [Page 4812 "Intrastat Report"](../../../../../objects/page/4812.md), [Table 4812 "Intrastat Report Line"](../../../../../objects/table/4812.md), [Table 79 "Company Information"](../../../../../objects/table/79.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

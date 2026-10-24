@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/connect-server-to-database.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/connect-server-to-database",
+  "title": "Server Instance Database Connection",
+  "blob": "8de158b5dad9ed6905f1b972c09633fa3309a9b3",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "step",
+      "text": "Open administration tool and navigate to server instance to edit database connection settings"
+    },
+    {
+      "kind": "step",
+      "text": "Update database server, database name, and database instance fields to point to converted database"
+    },
+    {
+      "kind": "fact",
+      "text": "Increase SQL command timeout for large databases to avoid timeouts during schema synchronization"
+    },
+    {
+      "kind": "fact",
+      "text": "Default SQL command timeout is 30 minutes"
+    },
+    {
+      "kind": "step",
+      "text": "Restart server instance after database connection change takes effect"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005294,
+      "pages_in_call": 10
+    }
+  ]
+}

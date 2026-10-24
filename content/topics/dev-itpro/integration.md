@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration
 type: topic
 title: Integration
-summary: Integration in Business Central covers how to connect it to external systems and Microsoft services. It includes web services (OData, SOAP, API), Dataverse, Dynamics 365 Sales and Field Service, Power Platform, Microsoft 365 apps, Azure, infrastructure services and Shopify. It answers questions on choosing an approach, setup, authentication and troubleshooting.
+summary: "Integration in Business Central covers how to connect it to external systems and Microsoft services: web services (OData, SOAP, API), Dataverse, Power Platform, Microsoft 365, Azure, Shopify, Dynamics 365 Sales and Field Service. It answers questions on choosing an integration approach, setup, authentication, synchronization and troubleshooting."
 tier: official
 language: en
 system: integration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-19T01:12:09.437Z"
+  at: "2026-10-24T00:53:26.619Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1ff8a77a9b21332d9081c42fe8717fee97314d5812e10e8580e8ecff3010f69f
+  input_hash: 8b62bf62c08e80de3b7c7303d57a0450bf94a85cdeefab5fc6da6a2ed3c2e960
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/
@@ -475,28 +475,28 @@ narrative: generated
 
 # Integration
 
-> Integration in Business Central covers how to connect it to external systems and Microsoft services. It includes web services (OData, SOAP, API), Dataverse, Dynamics 365 Sales and Field Service, Power Platform, Microsoft 365 apps, Azure, infrastructure services and Shopify. It answers questions on choosing an approach, setup, authentication and troubleshooting.
+> Integration in Business Central covers how to connect it to external systems and Microsoft services: web services (OData, SOAP, API), Dataverse, Power Platform, Microsoft 365, Azure, Shopify, Dynamics 365 Sales and Field Service. It answers questions on choosing an integration approach, setup, authentication, synchronization and troubleshooting.
 
 Path: Integration · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Integration is the section for connecting Business Central to other systems. It starts with an overview page that describes the architectural patterns: REST APIs, SOAP and OData web services, the HttpClient data type, Office apps, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, Shopify, Azure services and Copilot extensions.
+Integration is the entry point for connecting Business Central to other systems. The overview page describes the architectural patterns: REST APIs, SOAP web services, OData, the HttpClient data type, Office apps, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, Shopify, Azure services and Copilot extensions. Start there to pick an approach.
 
-Two pages sit directly in the section: one on integrating with Dynamics 365 Sales through Dataverse (connection settings, security roles, unit group mapping, table sync, record coupling, sales order processing, item availability) and one on Dynamics 365 Field Service (work order sync with project journals, resource scheduling, invoicing, from 2021 release wave 2).
+Two product integrations are covered directly on this section's own pages. Dynamics 365 Sales integrates through Dataverse, with bidirectional sync, record coupling, unit group mapping, sales order processing and item availability. Dynamics 365 Field Service integration syncs work orders with project journals and supports resource scheduling and item availability tracking.
 
-Subtopics go deeper by target. Web services is by far the largest (294 pages) and covers publishing, securing, monitoring and tuning endpoints. Connect apps covers building REST integrations with partners. Other subtopics cover events and webhooks, Microsoft 365 and Office, Dataverse, Power Platform, Azure, infrastructure services and Shopify. Start with the overview page, then go to the subtopic for your target system.
+The subtopics go deeper. Web services is by far the largest (294 pages) and covers endpoints, publishing, security, telemetry and troubleshooting. Connect apps covers REST integrations with partner solutions. Other subtopics cover events and webhooks, Office and Microsoft 365, Dataverse, Power Platform, Azure services, infrastructure services (Entra ID, Universal Print) and the Shopify connector.
 
 ## Key points
 
-- The overview page compares integration approaches: REST API, SOAP, OData, HttpClient, Office, Power Platform, Dataverse, Sales, Field Service, Shopify, Azure and Copilot extensions.
-- Web services (294 pages) cover OData, SOAP and API endpoints: publishing, authentication, telemetry, performance, error diagnosis and refactoring legacy integration records.
-- Connect apps explains building API pages and queries, OAuth 2.0 and service-to-service authentication, OData filters, batch requests and request headers.
-- Dynamics 365 Sales integration runs through Dataverse with bidirectional sync, record coupling, unit group mapping, security roles and sales order integration.
-- Dynamics 365 Field Service integration syncs work orders with project journals and supports resource scheduling and item availability tracking (2021 release wave 2).
-- Events integration offers business events (preview) via Dataverse and Power Automate, plus webhooks that push notifications when entities change.
-- Dataverse integration covers both data synchronization and data virtualization with virtual tables; Power Platform pages cover Power Apps, Power Automate, Power BI, Power Pages and Copilot Studio.
-- Azure, infrastructure and Shopify subtopics cover Key Vault secrets and telemetry, Entra ID, MFA, service tags, Universal Print, and the Shopify Connector sync of items, prices, inventory, customers and orders.
+- The overview page lists the integration patterns: REST API, SOAP, OData, HttpClient, Dataverse, Office apps, Power Platform, Shopify, Azure and Copilot extensions.
+- Dynamics 365 Sales integration runs through Dataverse and covers connection settings, security roles, unit group mapping, table sync and record coupling.
+- Dynamics 365 Field Service integration (2021 release wave 2) syncs work orders with project journals and supports resource scheduling and service order status management.
+- Web services (OData, SOAP, API) is the largest subtopic and covers publishing, authentication, telemetry, performance and error diagnosis.
+- Connect apps covers API pages and queries, OAuth 2.0 and service-to-service authentication, OData filters and batch requests.
+- Business events (preview) and webhooks support event-based integration with external systems.
+- Dataverse integration covers sync and data virtualization with virtual tables; Power Platform covers Power Apps, Power Automate, Power BI, Power Pages and Copilot Studio.
+- Shopify Connector syncs items, prices, inventory, customers and orders, and Azure integration includes Key Vault secrets and telemetry for Azure Function calls.
 
 ## Subtopics
 
@@ -514,6 +514,7 @@ Subtopics go deeper by target. Web services is by far the largest (294 pages) an
 
 - [Integrate with Microsoft Dynamics 365 Field Service](https://learn.microsoft.com/dynamics365/business-central/admin-integrate-field-service): Integrate Business Central with Field Service.
 - [Integrating with Dynamics 365 Sales](https://learn.microsoft.com/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration): Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales.
+  - In the observatory: [Page 9349 "Sales Order Archives"](../../objects/page/9349.md), [Table 112 "Sales Invoice Header"](../../objects/table/112.md), [Table 113 "Sales Invoice Line"](../../objects/table/113.md), [Table 156 "Resource"](../../objects/table/156.md), [Table 204 "Unit of Measure"](../../objects/table/204.md), [Table 27 "Item"](../../objects/table/27.md)
 - [Integration overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-overview): Find links to information about the ways you can integrate Business Central to products and services.
 
 ## Videos, posts and code changes

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:13:43.986Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -113,6 +113,10 @@ chapters:
     title: Upcoming Changes and Delta Link Deprecation
   - t: 727
     title: Summary and Related Sessions
+cautions:
+  - kind: preview-disclaimer
+    quote: Delta links support will be removed in 2024 Wave 1
+    t: 671
 features:
   - name: Editable Property Support in OData for Edit in Excel
     status: unclear

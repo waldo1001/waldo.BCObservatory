@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:53.718Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,10 +62,8 @@ links:
   localizations: []
   videos:
     - video/1ft4o9lQzsU
-    - video/1QuV_vkbNVU
     - video/6zj34hjbpGU
-  posts:
-    - post/aardvarklabs-blog/1824
+  posts: []
   guidelines: []
 learn_toc_path:
   - Integration
@@ -77,8 +75,8 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 3
-  blog: 1
+  video: 2
+  blog: 0
   guideline: 0
 bc_forms:
   - 1480
@@ -118,14 +116,13 @@ Start with the viewing and editing page if you are a user. Administrators should
 - [Use Excel to import data](https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages): Use the default configuration package to add customer data in Excel and import the data back into Business Central.
 - [Viewing and editing in Excel from Business Central](https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel): Learn how to open pages in Microsoft Excel from Business Central for better data analysis.
 - [Working with Excel layouts](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and modify report layouts that are built using Excel.
+  - In the observatory: [Page 9660 "Report Layouts"](../../../../objects/page/9660.md)
 
 ## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Step-by-Step Guide to Excel Reporting in Business Central](../../../../posts/aardvarklabs-blog/1824.md) (community post): "uploading the customized layout back to Business Central"
 - [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "OneDrive integration for Excel reports; Office 365 collaboration for Excel reports"
-- [Introducing Spreadsheets for Business Central](../../../../videos/1QuV_vkbNVU.md) (video): "Spreadsheets for Business Central; Regions; Virtual Fields; Page Regions"
 - [How Business Central Integrates with Microsoft Excel (2025)](../../../../videos/6zj34hjbpGU.md) (video): "Export data to Excel; Open or Edit in Excel option; Pivot table creation"
 
 ## Business Central pages and reports

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:11:18.899Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -131,6 +131,13 @@ chapters:
     title: "Demo Setup: Business Central Companies and Dataverse Configuration"
   - t: 875
     title: "Live Demo: Multi-Access Scenarios and Portal-Specific Company Targeting"
+cautions:
+  - kind: preview-disclaimer
+    quote: Power pages on Virtual tables has been in public review since last uh 23rd Wave 2
+    t: 14
+  - kind: preview-disclaimer
+    quote: this is a very um a short cat um um that will be published in the in our documentation after the business Central launch
+    t: 550
 features:
   - name: Multi-company support through Dataverse shared execution variable
     status: unclear

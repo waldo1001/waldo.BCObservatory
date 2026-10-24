@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/setup-app-key-vault-onprem.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault-onprem",
+  "title": "Setting up App Key Vaults for Business Central on-premises",
+  "blob": "f7d65079d56ed6b67739a9de531e6814b41a047f",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Azure subscription with Active Directory tenant required to set up key vaults for Business Central on-premises."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Security certificate required for registering application in Microsoft Entra ID; self-signed certificate acceptable for test environments."
+    },
+    {
+      "kind": "step",
+      "text": "Create one or more Azure Key Vaults and add secrets using Azure portal, Azure CLI, or other methods; extension can use one or two vaults."
+    },
+    {
+      "kind": "step",
+      "text": "Register Microsoft Entra application for reading key vault secrets with certificate and specify Accounts in this organizational directory only."
+    },
+    {
+      "kind": "step",
+      "text": "Grant key vault reader application permission to read secrets by adding Get secret permission or assigning Key Vault Secrets User role."
+    },
+    {
+      "kind": "step",
+      "text": "Configure Server instance with certificate store location, name, thumbprint, client ID, and publisher validation setting for key vault access."
+    },
+    {
+      "kind": "fact",
+      "text": "Enable Publisher Validation to block extensions from reading secrets from other publishers' key vaults; extensions need tenant ID from Publish-NAVApp."
+    },
+    {
+      "kind": "permission",
+      "text": "Service account running Server instance must have permission to access certificate private key for successful key vault authentication."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:01:29.527Z"
   flags: []
 generated:
-  at: "2026-10-07T23:01:29.569Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -102,6 +102,10 @@ chapters:
     title: Telemetry Events for Financial Reporting
   - t: 220
     title: Summary of Telemetry Capabilities
+cautions:
+  - kind: preview-disclaimer
+    quote: now here in version 2025 release wave one
+    t: 220
 features:
   - name: Financial Report Creation Telemetry
     status: unclear

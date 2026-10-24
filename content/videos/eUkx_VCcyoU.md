@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:58:25.360Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -126,6 +126,10 @@ chapters:
     title: Role Explorer Inheritance and Teaching Tips
   - t: 801
     title: Testing Enhancements and HTTP Client Handling
+cautions:
+  - kind: preview-disclaimer
+    quote: there are a few limitations that we are still working on but go ahead and try it out to see if it fits your needs
+    t: 285
 features:
   - name: Move To and Move From Properties
     status: unclear

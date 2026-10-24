@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-task-scheduler-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-task-scheduler-trace",
+  "title": "Analyzing Task Scheduler Telemetry",
+  "blob": "70db5ee3ac5763b2d2bb19e21bc24500998df88a",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Each scheduled task assigned unique identifier for tracing its execution flow"
+    },
+    {
+      "kind": "fact",
+      "text": "Task created event ID LC0040 fired when TaskScheduler.CreateTask called in AL code"
+    },
+    {
+      "kind": "fact",
+      "text": "Task ready event ID LC0041, task removed event ID LC0042, completion event ID LC0043"
+    },
+    {
+      "kind": "fact",
+      "text": "Task canceled event ID LC0044 when main or failure codeunit execution canceled"
+    },
+    {
+      "kind": "fact",
+      "text": "Task failed event ID LC0045 when execution fails due to exception thrown by AL runtime"
+    },
+    {
+      "kind": "limit",
+      "text": "Default task timeout 12 hours for online, specified by server setting for on-premises"
+    },
+    {
+      "kind": "fact",
+      "text": "Task timeout changed event ID LC0057 if defined timeout exceeds maximum allowed by server"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007985,
+      "pages_in_call": 7
+    }
+  ]
+}

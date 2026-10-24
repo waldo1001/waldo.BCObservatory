@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:25:04.817Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -125,9 +125,32 @@ The pages fit together along the sales path. Start with the reseller guide for p
 
 - [Customizing Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview): Read about the different ways of customizing Business Central to improve access to functionality and features you need most as suits your daily work.
 - [Get started as a reseller of Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/get-started-online): Learn about how to get started as a reselling partner of Dynamics 365 Business Central online, how to become a partner, and how to onboard customers.
+  - Prerequisite: Resellers must have a Microsoft Partner ID and enroll in the Cloud Solution Provider program to sell Business Central online.
+  - Resellers access Microsoft go-to-market benefits, marketing assets, and branding resources through Partner Network.
+  - Resellers can create trial environments from content at cdx.transform.microsoft.com for demonstration purposes.
+  - Both internal admins and delegated admins can assign licenses to users in Microsoft 365 admin center to move from trial to paid subscription.
+  - Permissions: Resellers serve as administrators of customer tenants and are the first line of support for triaging and resolving issues.
+  - In online model, resellers order through indirect provider portals and manage customers in Partner Center; no license file generation needed.
+  - CSP program region availability restricts resellers to selling offers within their company's geographic region.
 - [Onboarding experiences](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-experiences): As a partner, you can get your customers up to speed in a hurry with the right onboarding story. Learn about checklists and teaching tips in the onboarding framework.
+  - Onboarding framework provides consistent experience for introducing users to the product itself across all users
+  - Framework includes four components: welcome banner, checklist, teaching tips and tours, and signup context parameter
+  - Welcome banner helps new users by presenting consistent onboarding without blocking product exploration
+  - Teaching tips and tours educate users about pages and concepts in a sequential manner
+  - Signup context enables partners to create customer-centric onboarding by passing profile information to Business Central
 - [Selling Business Central apps through Marketplace](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-sell-apps-appsource): Learn how to enable transactability in Marketplace and through CSP for Business Central apps.
 - [Set Up Company Configuration Packages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages): Streamline your implementation process by turning a set of company types you use with most customers into company configuration packages available for reuse.
+  - Configuration packages contain setup data for a company that can be reused when creating new companies.
+  - Limit: Tables with posted entries like customer, vendor, and item ledger entries cannot be imported into configuration packages.
+  - Permissions: Export requires Direct Read permissions; import requires Direct Insert and Direct Modify permissions for all included tables.
+  - Limit: Both databases must have the same schema with identical table structure, primary keys, and field data types for successful import.
+  - Limit: Special characters like percent, ampersand, and angle brackets in field names can cause XML processor to remove them and create duplicate names.
+  - BLOB fields use base64 encoding by default; manual conversion required before export if using different encoding.
+  - Configuration questionnaires gather setup information from customers by converting setup table fields into formatted questions.
+  - Configuration templates provide default settings for master data import like customers, vendors, contacts, or items.
+  - In the observatory: [Page 8611 "Config. Question Area"](../../../objects/page/8611.md), [Page 8624 "Config. Package Fields"](../../../objects/page/8624.md)
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Business Central pages and reports
 

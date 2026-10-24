@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/preview-environments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/preview-environments",
+  "title": "Prepare for Major Updates with Preview Environments",
+  "blob": "d01c10e597f1ab25ddd86595cdf26180fce4cddd",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Preview environments are sandbox environments created on or updated to a preview version of Business Central."
+    },
+    {
+      "kind": "status",
+      "text": "Public preview runs in March and September before major updates, with environments deleted 30 days after GA."
+    },
+    {
+      "kind": "status",
+      "text": "Early access preview coincides with update period; only Partner Sandbox license tenants can participate."
+    },
+    {
+      "kind": "limit",
+      "text": "Early access preview environments auto-update every Sunday to latest build; failed updates result in auto-deletion."
+    },
+    {
+      "kind": "fact",
+      "text": "During early access preview, environments can only transfer to another tenant with Partner Sandbox license."
+    },
+    {
+      "kind": "limit",
+      "text": "Preview environments cannot be updated to a different version; data must be exported before preview period ends."
+    },
+    {
+      "kind": "fact",
+      "text": "Sandbox copies of production enable testing new functionality with existing data, setup, and customizations."
+    },
+    {
+      "kind": "fact",
+      "text": "Testing extensions in preview sandbox verifies compatibility and functionality before major version release."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007325,
+      "pages_in_call": 7
+    }
+  ]
+}

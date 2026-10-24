@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:05.185Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -141,6 +141,28 @@ chapters:
     title: Copilot Licensing and Advanced Capabilities
   - t: 2225
     title: Q and A Session
+cautions:
+  - kind: preview-disclaimer
+    quote: Microsoft 365 Copilot uh is also coming to Business Central, and then we'll have a we'll have a session tomorrow about it
+    t: 628
+  - kind: preview-disclaimer
+    quote: as also shown as a as a sneak peek, when you test your agents
+    t: 1044
+  - kind: preview-disclaimer
+    quote: a new Copilot Studio experience uh has been has been released that you can you can preview and use.
+    t: 1840
+  - kind: preview-disclaimer
+    quote: M365 Copilot chat coming to Business Central. We are working in a way that it comes with the agents
+    t: 1851
+  - kind: preview-disclaimer
+    quote: soon you'll be able to um customize some of the parts.
+    t: 1906
+  - kind: preview-disclaimer
+    quote: we have some plans to also have you know, Agent Runtime available in conversational experience. But for now, if you ...
+    t: 2004
+  - kind: preview-disclaimer
+    quote: integrating the Copilot chat within Business Central is that the uh MCS agents that users have access to can be uh interacted with there
+    t: 2460
 features:
   - name: Copilot Studio Platform
     status: unclear

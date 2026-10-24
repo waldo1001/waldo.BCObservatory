@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/",
+  "page_id": "post/kine-cz/https-blog-kine-cz-posts-bcdevelopmentserie-02b--0078d7faba",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "OnAfterGetRecord fires for every record shown in a list, on a page showing 50 Items, this executes 50 database queries.",
+      "objects": [
+        {
+          "type": "page",
+          "name": "page"
+        }
+      ],
+      "events": [
+        "OnAfterGetRecord"
+      ],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005706,
+    "posts_in_call": 4
+  }
+}

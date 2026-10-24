@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:50.803Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,11 +99,9 @@ links:
   localizations: []
   videos:
     - video/1x3QyBX3swg
-    - video/IAacWsvav1E
   posts:
     - post/aardvarklabs-blog/3761
-    - post/aardvarklabs-blog/4056
-    - post/duiliotacconi-com/1983
+    - post/demiliani-com/12836
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
     - post/waldo-be/318212
@@ -121,8 +119,8 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 2
-  blog: 6
+  video: 1
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 35d16713950930e7d6df2a51e27b0d618b69b36f632ac1361932d9d0e629cddb
@@ -168,12 +166,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#226 Performance knowledge: justify low-selectivity fields in key columns](../../../../../changes/bcquality/226.md) (code change): "low-selectivity fields in table keys requiring evidence such as filtered reads"
 - [Optimizing Business Central Indexes for Performance with Copilot](../../../../../posts/aardvarklabs-blog/3761.md) (community post): "generate AL tableextension index recommendations"
-- [Smarter Keys, Better Performance: Exploring Business Central v29 Index Updates](../../../../../posts/aardvarklabs-blog/4056.md) (community post): "administrators to manage indexes and SIFT keys directly through the Index Management page"
-- [Dynamics 365 Business Central 2026 Wave 1. What’s New in Performance.](../../../../../posts/duiliotacconi-com/1983.md) (community post): "Removing unused indexes can speed up writes, and enabling needed ones can speed up reads"
+- [Dynamics 365 Business Central: use sequential GUIDs when possible.](../../../../../posts/demiliani-com/12836.md) (community post): "Sequential GUIDs insert data in order, keeping related records clustered"
 - [BC 29 lets a single index span base table and table extension fields](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) (community post): "Business Central 29 allows table extension keys to span both base table and extension fields in a single index"
 - [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "Clustered indexes define physical row ordering and are used by Get()"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../../../../posts/waldo-be/318212.md) (community post): "Indexes can only be added by development, through an AppSource app"
 - [Microsoft presents: Index management](../../../../../videos/1x3QyBX3swg.md) (video): "index management; sql server indexes; storage optimization; index usage statistics"
-- [What's New: Enhanced Index Management (2026 release wave 1)](../../../../../videos/IAacWsvav1E.md) (video): "Enhanced Index Management database performance storage optimization index lifecycle"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

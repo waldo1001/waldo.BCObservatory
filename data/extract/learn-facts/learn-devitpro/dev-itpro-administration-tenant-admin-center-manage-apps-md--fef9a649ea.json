@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-apps.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-apps",
+  "title": "Managing Apps",
+  "blob": "c36d8b683b2befe92f7a74c6a9bf25890ae38b6f",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "A Business Central environment is built as a collection of apps including Microsoft and non-Microsoft apps from Marketplace."
+    },
+    {
+      "kind": "fact",
+      "text": "Apps can be installed as Global App, Per-Tenant Extension, or DEV extension."
+    },
+    {
+      "kind": "fact",
+      "text": "The Manage Apps page in the admin center supports viewing, uploading, installing, updating, and uninstalling apps depending on app type."
+    },
+    {
+      "kind": "limit",
+      "text": "You cannot install new global apps from the Admin Center; install them from marketplace.microsoft.com instead."
+    },
+    {
+      "kind": "fact",
+      "text": "Global app updates from Marketplace are applied immediately by default; schedule them during the next update window to minimize user disruption."
+    },
+    {
+      "kind": "fact",
+      "text": "Per-Tenant Extension installations can be scheduled immediately, during the next update window, or during the next minor or major update."
+    },
+    {
+      "kind": "fact",
+      "text": "Uninstalling an app can optionally delete application data in fields and tables; data recovery requires point-in-time restore."
+    },
+    {
+      "kind": "fact",
+      "text": "Preview versions of Marketplace apps can only be installed on sandbox environments using a PreviewKey URL parameter from the publisher."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009138,
+      "pages_in_call": 4
+    }
+  ]
+}

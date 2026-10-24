@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:15:26.284Z"
   flags: []
 generated:
-  at: "2026-10-07T23:15:26.326Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -287,6 +287,19 @@ chapters:
     title: Upgrade Failure Recovery and Data Transfer
   - t: 2580
     title: API Automation and Performance Improvements
+cautions:
+  - kind: preview-disclaimer
+    quote: we are going to support this part as long as we technically can
+    t: 271
+  - kind: preview-disclaimer
+    quote: we have a prototype that we are currently testing so we believe that during the cloud migration we will be able to split the main table with table extensions into main table and table extension without the need for you to write any code…
+    t: 513
+  - kind: preview-disclaimer
+    quote: we are just rolling this one out we are still supporting the old upgrade flow
+    t: 2191
+  - kind: preview-disclaimer
+    quote: currently it's marked as Target on Prem
+    t: 2580
 features:
   - name: Cloud Migration Tooling
     status: unclear

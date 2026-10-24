@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:51.814Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,6 +82,7 @@ links:
     - video/EpDIrJE0HzA
     - video/GeT5E_f9A9Q
     - video/iViHfCgL2L8
+    - video/LerAo-GGl8U
     - video/q3xnjJD32kk
     - video/qs1cg-GoDeQ
     - video/rm-FstU_I80
@@ -103,7 +104,7 @@ children: []
 coverage:
   learn: 6
   code: 3
-  video: 9
+  video: 10
   blog: 6
   guideline: 0
 bc_forms:
@@ -118,7 +119,7 @@ narrative: generated
 
 > Model Context Protocol (MCP) integration for Business Central: the Business Central MCP Server, its configuration, connecting it to hosts such as VS Code, Copilot Studio, GitHub Copilot CLI, Claude and ChatGPT, and the AL MCP Server for AL development tools. It answers setup, connection and tool-access questions.
 
-Path: [Integration with AI](../integration-with-ai.md) > Integrate with Model Context Protocol · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
+Path: [Integration with AI](../integration-with-ai.md) > Integrate with Model Context Protocol · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -163,6 +164,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Build an Agent in Microsoft Copilot Studio for Business Central (2025)](../../../videos/EpDIrJE0HzA.md) (video): "Build an Agent in Microsoft Copilot Studio for Business Central"
 - [Introducing MCP Server Configurations for Business Central (Part 2)](../../../videos/GeT5E_f9A9Q.md) (video): "Introducing MCP Server Configurations for Business Central"
 - [Introducing MCP Server for Business Central (Part 1)](../../../videos/iViHfCgL2L8.md) (video): "Introducing MCP Server for Business Central"
+- [Microsoft presents: Next level administration skills with the admin MCP server and agents](../../../videos/LerAo-GGl8U.md) (video): "admin MCP server and agents. Topics: mcp server; admin center api"
 - [What's new: MCP Server (2026 release wave 2)](../../../videos/q3xnjJD32kk.md) (video): "MCP Server; query tools; data analysis; agent capabilities"
 - [What's new: MCP Server (2026 release wave 2)](../../../videos/qs1cg-GoDeQ.md) (video): "MCP Server; data tools; query tool; agents; copilot studio"
 - [20260831 - Business Central MCP Server, standard and custom](../../../videos/rm-FstU_I80.md) (video): "Business Central MCP Server; Model Context Protocol; copilot studio integration"

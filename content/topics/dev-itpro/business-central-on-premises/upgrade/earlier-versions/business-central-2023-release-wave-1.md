@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:36.641Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -196,7 +196,9 @@ Supporting pages cover moving tables and fields between extensions (up or down t
 
 - [Business Central Upgrade Compatibility Matrix](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility): Provides an overview of the Business Central versions and their compatibility
 - [Code Conversion from C/AL to AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/devenv-code-conversion): Description of the conversion process from C/AL to AL.
+  - In the observatory: [Codeunit 150 "System Initialization"](../../../../../objects/codeunit/150.md)
 - [General Information and Considerations When Upgrading to Business Central 2023 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-considerations-v22): This article provides tips and considerations to prepare a solution when you're planning to upgrade to Business Central 2023 release wave 1.
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md)
 - [Install a version 22 update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v22): This article describes the tasks required for getting the monthly version 22 update applied to your Dynamics 365 Business Central on-premises.
 - [Migrating Tables and Fields Between Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-table-fields): Explains how to migrate tables and fields from one extension to another.
 - [Moving Tables and Fields to Extensions Down the Dependency Graph](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-table-fields-down): Explains how to move tables and fields from an extension to another extension that is down the dependency graph.
@@ -205,9 +207,11 @@ Supporting pages cover moving tables and fields between extensions (up or down t
 - [Technical Upgrade to Version 22](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v22): Describes how to do a technical upgrade from Business Central V19, V20, V21 to V22
 - [Upgrade to Business Central 2023 Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v22): Provides an overview of Business Central 2023 Release Wave 1 upgrade
 - [Upgrading Customized C/AL Application to Microsoft Base Application for version 22](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v22): Describes how to do an upgrade from a customized Business Central 14 to Microsoft Base Application for version 22.
+  - In the observatory: [Table 1670 "Option Lookup Buffer"](../../../../../objects/table/1670.md), [Table 265 "Document Entry"](../../../../../objects/table/265.md), [Table 338 "Entry Summary"](../../../../../objects/table/338.md), [Table 7330 "Bin Content Buffer"](../../../../../objects/table/7330.md)
 - [Upgrading Microsoft System and Base Application to Version 22](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v22): Describes how to upgrade an unmodified Business Central versions 15, 16, 17, 18, 19, or 20 to version 22
 - [Upgrading Permission Sets and Permissions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-permissions): Describes how to upgrade permissions and permission sets
 - [Upgrading Reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-reports): Describes how to upgrade reports
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md)
 - [Upgrading Unmodified C/AL Application to Version 22](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v14-v22): Describes how to upgrade an unmodified Business Central 14 application to version 22
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

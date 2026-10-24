@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:27:02.608Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -124,6 +124,7 @@ A fourth page documents the events Business Central emits automatically to Micro
 - [Auditing events in Microsoft Purview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/auditing/audit-events-in-purview): Discover how Business Central automatically emits Create, Update, and Delete events to Microsoft Purview auditing solutions.
 - [Business Central Auditing Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/auditing/auditing-overview): Learn about Business Central auditing for reviewing permissions, tracking data changes, and analyzing change logs, plus related data classification guidance.
 - [Security auditing in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-auditing): Learn about the built-in capabilities in Business Central that let you track and audit usage of your Business Central.
+  - In the observatory: [Page 595 "Change Log Entries"](../../../objects/page/595.md), [Table 402 "Change Log Setup"](../../../objects/table/402.md), [Table 404 "Change Log Setup (Field)"](../../../objects/table/404.md)
 
 ## Business Central pages and reports
 

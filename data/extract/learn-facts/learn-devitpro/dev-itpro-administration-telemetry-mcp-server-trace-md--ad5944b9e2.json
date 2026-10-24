@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-server-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-server-trace",
+  "title": "Analyze MCP Server Tool Calls Telemetry",
+  "blob": "bb483b3d427c3fb638cf81cebd978f19995ca6da",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available from version 28.0, Business Central 2026 release wave 1 and later"
+    },
+    {
+      "kind": "fact",
+      "text": "MCP Server telemetry tracks tool calls made through Model Context Protocol configurations"
+    },
+    {
+      "kind": "fact",
+      "text": "Event RT0054 fires when an MCP Server tool is called from Business Central"
+    },
+    {
+      "kind": "fact",
+      "text": "Custom dimensions include configuration name, tool name, client name, and execution time"
+    },
+    {
+      "kind": "fact",
+      "text": "Tool invocation results are Success or Failure, with failure reasons captured when applicable"
+    },
+    {
+      "kind": "fact",
+      "text": "KQL queries can analyze tool usage frequency, success rates, and troubleshoot failures"
+    },
+    {
+      "kind": "prerequisite",
+      "text": "MCP Server must be configured in Business Central before telemetry is generated"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005231,
+      "pages_in_call": 10
+    }
+  ]
+}

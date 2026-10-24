@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-administration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-administration",
+  "title": "Administration of Business Central Online",
+  "blob": "a0555b3772936f295d3066930a673aba83078b42",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "permission",
+      "text": "Internal administrators need Dynamics 365 Business Central Administrator role minimum for tenant administration."
+    },
+    {
+      "kind": "permission",
+      "text": "Delegated administrators are partner company employees with GDAP relationship; Dynamics 365 Business Central Administrator role recommended."
+    },
+    {
+      "kind": "fact",
+      "text": "Internal administrators have read-only access to all Business Central areas even after subscription cancellation."
+    },
+    {
+      "kind": "limit",
+      "text": "Internal administrators need Business Central license to set up integrations or perform tasks beyond user management and data export."
+    },
+    {
+      "kind": "permission",
+      "text": "License Administrator role required in Microsoft 365 admin center to manage subscription and assign licenses."
+    },
+    {
+      "kind": "permission",
+      "text": "User Administrator role required in Microsoft 365 admin center to add or remove users from tenant."
+    },
+    {
+      "kind": "fact",
+      "text": "Partners can log in as delegated administrator to set up and troubleshoot customer environments."
+    },
+    {
+      "kind": "fact",
+      "text": "Switching partners requires removing reseller relationship, disabling delegated admin, clearing partner settings, and adding new partner."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007325,
+      "pages_in_call": 7
+    }
+  ]
+}

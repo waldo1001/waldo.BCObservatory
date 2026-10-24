@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:43:48.340Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -164,11 +164,63 @@ links:
   features:
     - feature/573345
     - feature/573355
+    - feature/576872
   topics: []
   localizations: []
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
+      title: BC 29 lets a single index span base table and table extension fields
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/qABlX4AL3GM
+      title: "Business Central 29.0: Major Change to Table Extensions & SQL."
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
+      title: Create Purchase Orders from Drop Shipments
+      label: possibly related
+      why: both name Page 50 "Purchase Order"
+      by: code
+    - to: video/Fk6kWTe3f2Y
+      title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/thedynamicsexplorer-com/9815
+      title: Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
+    - to: post/thedynamicsexplorer-com/36954
+      title: Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
+    - to: post/thedynamicsexplorer-com/10326
+      title: Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/duiliotacconi-com/1457
+      title: "Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/fy96_jdL1PQ
+      title: "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/X3xygXmgRqU
+      title: How to Set Up Locations in Business Central (2025)
+      label: possibly related
+      why: both name Page 5740 "Transfer Order"
+      by: code
 video_id: QdWPlIV3Avk
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -207,12 +259,21 @@ chapters:
     title: Warehouse handling with directed put-away
   - t: 1493
     title: Basic warehouse location with put-away and serial number handling
+cautions:
+  - kind: preview-disclaimer
+    quote: we are silently released it in minor update three, but in this time we did not pre-install it on new environments, neither on upgraded ones
+    t: 8
+  - kind: preview-disclaimer
+    quote: available on App Store, available for installation, but not forced. We gathered feedback and now we are kind of reintroducing it in a different level
+    t: 24
 features:
   - name: Subcontracting extension
     status: ga
     t: 8
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576872"
   - name: Component supply method
     status: unclear
     t: 224
@@ -234,15 +295,19 @@ features:
     verified: false
     status_source: video
   - name: Create subcontracting order from routing
-    status: unclear
+    status: ga
     t: 506
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576872"
   - name: Subcontracting purchase order structure
-    status: unclear
+    status: ga
     t: 516
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573345"
   - name: Create production order info line setting
     status: unclear
     t: 605
@@ -273,20 +338,26 @@ features:
     verified: false
     status_source: video
   - name: Subcontracting comment in routing
-    status: unclear
+    status: ga
     t: 756
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573345"
   - name: Work in progress item in routing
-    status: unclear
+    status: ga
     t: 812
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576872"
   - name: Transfer order to subcontractor
-    status: unclear
+    status: ga
     t: 853
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576872"
   - name: Work-in-progress ledger entries
     status: unclear
     t: 905
@@ -436,21 +507,21 @@ The demo follows one process: set the component supply method on the bill of mat
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Subcontracting extension | generally available, demoed | [0:08](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=8s) | "we are silently released it in minor update three, but in this time we did not pre-install it on new environments" ([0:08](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=8s)) |
+| Subcontracting extension | generally available (roadmap [Use subcontracting capabilities in production processes](../features/576872.md)), demoed | [0:08](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=8s) | "we are silently released it in minor update three, but in this time we did not pre-install it on new environments" ([0:08](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=8s)) |
 | Component supply method | status not stated, demoed | [3:44](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=224s) |  |
 | Vendor location tracking | status not stated, demoed | [6:51](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=411s) |  |
 | Warehouse integration for subcontracting | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=90s) |  |
 | Subcontracting routing link and operations | status not stated, demoed | [7:38](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=458s) |  |
-| Create subcontracting order from routing | status not stated, demoed | [8:26](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=506s) |  |
-| Subcontracting purchase order structure | status not stated, demoed | [8:36](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=516s) |  |
+| Create subcontracting order from routing | generally available (roadmap [Use subcontracting capabilities in production processes](../features/576872.md)), demoed | [8:26](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=506s) |  |
+| Subcontracting purchase order structure | generally available (roadmap [Carry subcontracting instructions into purchase orders](../features/573345.md)), demoed | [8:36](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=516s) |  |
 | Create production order info line setting | status not stated, demoed | [10:05](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=605s) |  |
 | Subcontracting component transfer lead time | status not stated | [10:34](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=634s) |  |
 | Subcontracting comments and instructions | generally available (roadmap [Carry subcontracting instructions into purchase orders](../features/573345.md)), demoed | [10:48](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=648s) |  |
 | Line attachments for subcontracting instructions | generally available (roadmap [Carry subcontracting instructions into purchase orders](../features/573345.md)), demoed | [11:12](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=672s) |  |
 | Subcontracting details fact box | status not stated, demoed | [12:06](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=726s) |  |
-| Subcontracting comment in routing | status not stated, demoed | [12:36](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=756s) |  |
-| Work in progress item in routing | status not stated, demoed | [13:32](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=812s) |  |
-| Transfer order to subcontractor | status not stated, demoed | [14:13](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=853s) |  |
+| Subcontracting comment in routing | generally available (roadmap [Carry subcontracting instructions into purchase orders](../features/573345.md)), demoed | [12:36](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=756s) |  |
+| Work in progress item in routing | generally available (roadmap [Use subcontracting capabilities in production processes](../features/576872.md)), demoed | [13:32](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=812s) |  |
+| Transfer order to subcontractor | generally available (roadmap [Use subcontracting capabilities in production processes](../features/576872.md)), demoed | [14:13](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=853s) |  |
 | Work-in-progress ledger entries | status not stated, demoed | [15:05](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=905s) |  |
 | Item charge assignment to purchase receipts | status not stated, demoed | [17:18](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1038s) |  |
 | Closest-match pricing for subcontracting | status not stated, demoed | [20:10](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1210s) |  |
@@ -507,3 +578,18 @@ More than one object has this name, so none is linked: page "Subcontracting Orde
 
 - [0:08](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=8s) preview: we are silently released it in minor update three, but in this time we did not pre-install it on new environments, neither on upgraded ones
 - [0:24](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=24s) subject-to-change: available on App Store, available for installation, but not forced. We gathered feedback and now we are kind of reintroducing it in a different level
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Business Central 29.0: Major Change to Table Extensions & SQL.](../videos/qABlX4AL3GM.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 50 "Purchase Order"
+- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../posts/thedynamicsexplorer-com/9815.md) — possibly related: both name Page 51 "Purchase Invoice"
+- [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../posts/thedynamicsexplorer-com/36954.md) — possibly related: both name Page 51 "Purchase Invoice"
+- [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../videos/fy96_jdL1PQ.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [How to Set Up Locations in Business Central (2025)](../videos/X3xygXmgRqU.md) — possibly related: both name Page 5740 "Transfer Order"

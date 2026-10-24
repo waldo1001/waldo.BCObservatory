@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:12:58.524Z"
   flags: []
 generated:
-  at: "2026-10-07T23:12:58.575Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -194,6 +194,25 @@ chapters:
     title: Preview practicalities and gradual rollout
   - t: 1487
     title: Feedback channels and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: we are planning to introduce this concept of quotas in the next uh uh few seme from now
+    t: 151
+  - kind: preview-disclaimer
+    quote: the ETA for this um uh new user base limit will be throughout this uh next quarter
+    t: 784
+  - kind: preview-disclaimer
+    quote: dynamic resource-based limit this is not published but this is something that we use underneath our service
+    t: 804
+  - kind: preview-disclaimer
+    quote: allow buying access consumption this should be um estimated happening in the next two or three semester from now
+    t: 920
+  - kind: preview-disclaimer
+    quote: in the future you can expect the introduction of the execution time limit
+    t: 1366
+  - kind: preview-disclaimer
+    quote: expect expect it to change a lot sub it's subject to change
+    t: 1406
 features:
   - name: Entitlement quotas
     status: announced

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:56.338Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,6 +89,7 @@ The second page covers special data output and reports for the tax authorities. 
 ## Learn pages
 
 - [Print VAT Summary Information on Document [IS]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents): If VAT is calculated, VAT summary information is typically printed on the sales and purchase documents.
+  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../../../objects/page/143.md)
 - [Special data output and reports for the tax authorities in Iceland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority): In Iceland, it's a legal requirement to send a data file in a specific format to the tax authorities.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

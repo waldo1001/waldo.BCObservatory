@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/configure-server-instance-archived.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-server-instance-archived",
+  "title": "Configuring Business Central Server for outdated versions",
+  "blob": "c0446c075ceca7ec7d3fe8593570fd9df58241fa",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Page applies to version 20 (2022 release wave 1) and earlier, which are no longer supported."
+    },
+    {
+      "kind": "fact",
+      "text": "Server configuration is stored in a CustomSettings.config file located at [installation path]\\Service by default."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Each server instance has its own CustomSettings.config file."
+    },
+    {
+      "kind": "step",
+      "text": "Configure the server during setup by selecting Demo, Server, Developer option or customizing the Customize Server component."
+    },
+    {
+      "kind": "step",
+      "text": "Modify settings after installation using the admin tool, Set-NAVServerConfiguration PowerShell cmdlet, or by directly editing CustomSettings.config with a text editor."
+    },
+    {
+      "kind": "fact",
+      "text": "Some settings are dynamically updatable, meaning the server does not require restart after modification through the PowerShell cmdlet."
+    },
+    {
+      "kind": "limit",
+      "text": "Direct editing of CustomSettings.config is not recommended because typing errors may prevent the server instance from starting."
+    },
+    {
+      "kind": "fact",
+      "text": "Management services provide PowerShell commands like Invoke-NAVCodeunit with configurable idle timeout and TCP port."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.045511,
+      "pages_in_call": 1
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00836,
+      "pages_in_call": 6
+    }
+  ]
+}

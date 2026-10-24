@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:35.268Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -267,9 +267,11 @@ Start with the overview page to find the report you need. Then open its page to 
 - [Opportunity - List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5061): Get a list of all your opportunities, including information about the sales cycle of the opportunity and related contacts and campaigns.
 - [Questionnaire - Handouts (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5066): Print handouts for a profile questionnaire.
 - [Questionnaire - Test (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5067): Show test reports of your profile questionnaires.
+  - In the observatory: [Page 5110 "Profile Questionnaire Setup"](../../../../objects/page/5110.md)
 - [Relationship management reports](https://learn.microsoft.com/dynamics365/business-central/marketing-reports): Discover built-in reports that can help you monitor and manage your relationship management activities.
 - [Sales Cycle - Analysis (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5062): Get an overview about your sales cycles.
 - [Salesperson - Opportunities (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5058): Review which salespeople handle which opportunities.
+  - In the observatory: [Report 5058 "Salesperson - Opportunities"](../../../../objects/report/5058.md)
 - [Segment - Contacts (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5063): Review the distribution of contacts across segments.
 - [Segment - Cover Sheet (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5064): Get or print cover sheets for your segments.
 - [Segment - Labels (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5065): Print labels with the names and addresses of contacts for your segments.

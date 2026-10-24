@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:56:46.089Z"
   flags: []
 generated:
-  at: "2026-10-07T22:56:46.145Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -309,6 +309,31 @@ chapters:
     title: Management Transition and Team Structure
   - t: 2758
     title: Closing Remarks and Logistics
+cautions:
+  - kind: preview-disclaimer
+    quote: If you're on preview, you might already see it. Otherwise, you'll have to wait for the 7.2
+    t: 118
+  - kind: preview-disclaimer
+    quote: Right now it's in preview. Uh I don't know if we have any. We'll ship 7.2 soon.
+    t: 247
+  - kind: preview-disclaimer
+    quote: It's deprecated in about two years time I believe is scheduled. um and and it is being replaced by a new module.
+    t: 549
+  - kind: preview-disclaimer
+    quote: We're unable to run page scripting tests on SAS environments due to the 2FA or MFA requirement but it is being worked on. Whether it's going to be next month or months after that, I don't know. But soon as possible.
+    t: 788
+  - kind: preview-disclaimer
+    quote: Whether it's going to be next month or months after that, I don't know. But soon as possible.
+    t: 803
+  - kind: preview-disclaimer
+    quote: we haven't built support for that into a go yet. That's something that needs to be investigated
+    t: 1422
+  - kind: preview-disclaimer
+    quote: there is a co-pilot uh code review, but it's not very good at AL yet
+    t: 1487
+  - kind: preview-disclaimer
+    quote: never never got to that it's part of the backlog
+    t: 1558
 features:
   - name: Input Validation for Workflows
     status: preview

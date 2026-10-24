@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tools-monitor-performance-counters-and-events.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tools-monitor-performance-counters-and-events",
+  "title": "Tools for Monitoring Performance Counters and Events",
+  "blob": "8c8887e1ac1fe2a412db0e155f5b78924d9ad023",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Windows Performance Monitor collects and views performance data from counters and trace events."
+    },
+    {
+      "kind": "fact",
+      "text": "Windows Event Viewer collects and views server events from Applications and Services Logs."
+    },
+    {
+      "kind": "fact",
+      "text": "Logman tool creates and manages event trace sessions and performance logs from command prompt."
+    },
+    {
+      "kind": "fact",
+      "text": "PowerShell Get-WinEvent cmdlet views server instance events recorded in Windows Event Logs."
+    },
+    {
+      "kind": "fact",
+      "text": "PerfView focuses on Event Tracing for Windows information for performance issue isolation."
+    },
+    {
+      "kind": "fact",
+      "text": "Microsoft TraceEvent Library provides classes for controlling providers and parsing ETW events."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005012,
+      "pages_in_call": 12
+    }
+  ]
+}

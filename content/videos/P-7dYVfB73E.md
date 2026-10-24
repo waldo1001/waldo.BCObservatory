@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:03:23.160Z"
   flags: []
 generated:
-  at: "2026-10-07T23:03:23.228Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -252,6 +252,22 @@ chapters:
     title: Code Organization, Namespaces, and Breaking Changes Strategy
   - t: 2277
     title: Technical Debt Removal, Schema Cleanup, and Future Componentization
+cautions:
+  - kind: preview-disclaimer
+    quote: we could choose to remove those um so we can tell Partners R we are going to remove some events you know it's coming
+    t: 886
+  - kind: preview-disclaimer
+    quote: work there would be so that maybe if let's assume that's our next step right so what so you would be the work would be pulling everything that has to do with Dimensions
+    t: 1740
+  - kind: preview-disclaimer
+    quote: we're still looking into how we can make that non-breaking and again this is all good
+    t: 1959
+  - kind: preview-disclaimer
+    quote: we're not there yet so we could have their own HR module for example
+    t: 2540
+  - kind: preview-disclaimer
+    quote: maybe there's a future where we could um not install all these modules uh more lean apps
+    t: 2615
 features:
   - name: Integration Events
     status: unclear

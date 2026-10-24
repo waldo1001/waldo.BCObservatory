@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:51.387Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,6 +86,23 @@ This section sits under Migrate from Dynamics GP in the Business Central online 
 ## Learn pages
 
 - [Cloud Migration Prerequisites for Dynamics GP](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-gp): This article outlines requirements on the Dynamics GP on-premises and online environments for cloud migration.
+  - Prerequisite: Destination requires Business Central online tenant with at least one SUPER user.
+  - Prerequisite: Install Intelligent Cloud Base, Dynamics GP Intelligent Cloud, and history SmartLists apps.
+  - Limit: GP migration currently supported only in US, Canada, UK, and Australia markets.
+  - Prerequisite: Source requires Dynamics GP 2015 or later on SQL Server 2016 SP1 or later.
+  - Prerequisite: SQL database compatibility level must be 130 or higher with TCP/IP enabled.
+  - Prerequisite: SQL authentication login needs sysadmin role at server level and db_owner role at database level.
+  - Self-hosted integration runtime machine must meet Azure Data Factory prerequisites.
 - [Prepare and plan for cloud migration from Dynamics GP](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare-gp): This article provides recommendations to help you define your cloud migration strategy and get environments and users ready for Dynamics GP cloud migration.
+  - Migration assessment tool at bcmigrationassessments.com provides insight on readiness and detects potential issues.
+  - Data migration is determined per company; choose which companies to migrate to save time and resources.
+  - For large migrations, run from a backup of on-premises database to improve speed and minimize downtime.
+  - Step: Create full backup of on-premises production database.
+  - Step: Complete cloud migration setup including company selection.
+  - Step: Run replication and address any issues that arise.
+  - Step: Stop on-premises usage before final backup of production database.
+  - Step: Run Data Upgrade on cloud environment.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

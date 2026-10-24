@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/performance-counters.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/performance-counters",
+  "title": "Microsoft Dynamics 365 Business Central Performance Counters",
+  "blob": "1d2b748e9204dc219cb00c47d20fdbe8cddd179c",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Performance counters track client sessions, SQL connections, data caching, and scheduled tasks on Business Central server instances."
+    },
+    {
+      "kind": "fact",
+      "text": "Active session counters measure connections from clients, NAS, and web services; active child sessions are connections created by background tasks."
+    },
+    {
+      "kind": "fact",
+      "text": "SQL connection counters include mounted tenants, open connections, and throttled connections to SQL Server databases."
+    },
+    {
+      "kind": "fact",
+      "text": "Heartbeat time measures the duration of writes to system tables, indicating network latency between server and database."
+    },
+    {
+      "kind": "fact",
+      "text": "Caching counters track hit rates and total requests for calculated fields, commands, primary keys, and result sets."
+    },
+    {
+      "kind": "fact",
+      "text": "Task scheduler counters monitor running tasks, pending tasks, errors per second, and average task execution time in ticks."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004442,
+      "pages_in_call": 13
+    }
+  ]
+}

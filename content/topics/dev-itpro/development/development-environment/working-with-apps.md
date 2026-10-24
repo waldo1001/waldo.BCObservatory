@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:19.921Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,7 +90,7 @@ narrative: generated
 
 > Working with apps covers how to build and manage AL extensions in Business Central: app identity in app.json, runtime version choice, packaged resources, data shipped with extensions, and library and dependency apps. It answers setup and configuration questions about app.json and extension packaging.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Working with apps · tier official · system administration · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Working with apps · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -104,7 +104,7 @@ Start with "Understand App Identity for AL Apps" to learn when and how identity 
 - The runtime version is set in app.json (for example "runtime": "18.0"); an extension can be published to servers with an equal or later runtime version.
 - Resources are packaged with resourceFolders and publicResourceFolders in app.json (runtime version 18.0); public resources can be read by other extensions.
 - Resource limits are 16 MB per file, 128 MB per folder and 256 files.
-- Extensions can ship permission sets, web services, table data and custom report layouts, imported on installation with NavApp.LoadPackageData.
+- Extensions can ship exported permission sets, web services, table data and custom report layouts to be imported during installation; the page also covers the NavApp.LoadPackageData procedure.
 - Library apps hold shared code for multiple Marketplace apps and are installed automatically as dependencies.
 - The library app FAQ covers version control, library app validation and technical validation.
 

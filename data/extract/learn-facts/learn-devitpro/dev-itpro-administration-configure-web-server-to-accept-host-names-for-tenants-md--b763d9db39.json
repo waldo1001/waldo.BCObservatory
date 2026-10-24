@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/configure-web-server-to-accept-host-names-for-tenants.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-web-server-to-accept-host-names-for-tenants",
+  "title": "Web Client Configuration for Tenants",
+  "blob": "e6e800f556645b30ea62238dfce859a7f5d2f103",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Microsoft URL Rewrite module must be installed in IIS on the web server computer."
+    },
+    {
+      "kind": "step",
+      "text": "Open the web.config file located in the physical path of the web application."
+    },
+    {
+      "kind": "step",
+      "text": "Delete comment tags around the rewrite element in system.webServer if present."
+    },
+    {
+      "kind": "step",
+      "text": "Change enabled attribute from false to true in the Hostname rule element."
+    },
+    {
+      "kind": "fact",
+      "text": "Web server can then accept URLs containing host names to identify tenants in multitenant deployment."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003696,
+      "pages_in_call": 16
+    }
+  ]
+}

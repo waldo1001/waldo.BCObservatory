@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/register-app-azure.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/register-app-azure",
+  "title": "Register Business Central On-Premises in Microsoft Entra ID",
+  "blob": "e189ec6489c3440aa9c838c97bff337b13f5bf49",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "On-premises Business Central needs a Microsoft Entra tenant with at least one user to enable service integrations."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Web client and OData/SOAP endpoints must be secured with valid production certificates and exposed via HTTPS."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "You need an Azure portal account with Application Developer role to register applications in Microsoft Entra ID."
+    },
+    {
+      "kind": "step",
+      "text": "Sign in to Microsoft Entra admin center and register a Business Central application specifying name, account types, and redirect URI."
+    },
+    {
+      "kind": "step",
+      "text": "Create a client secret for the registered application and copy the secret value immediately as it becomes inaccessible later."
+    },
+    {
+      "kind": "step",
+      "text": "Grant delegated permissions to access required service APIs like Power BI, Exchange, or SharePoint depending on your needs."
+    },
+    {
+      "kind": "step",
+      "text": "In Business Central, run Assisted Setup for Microsoft Entra accounts and enter the redirect URL, application ID, and client secret."
+    },
+    {
+      "kind": "fact",
+      "text": "Business Central online is automatically configured; manual Entra registration applies only to on-premises deployments."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007287,
+      "pages_in_call": 6
+    }
+  ]
+}

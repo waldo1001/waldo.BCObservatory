@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-plan-prepare-gp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare-gp",
+  "title": "Prepare and plan for cloud migration from Dynamics GP",
+  "blob": "001f3e2a290b41c3d30e583071952c67fa5b8af6",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Migration assessment tool at bcmigrationassessments.com provides insight on readiness and detects potential issues."
+    },
+    {
+      "kind": "fact",
+      "text": "Data migration is determined per company; choose which companies to migrate to save time and resources."
+    },
+    {
+      "kind": "fact",
+      "text": "For large migrations, run from a backup of on-premises database to improve speed and minimize downtime."
+    },
+    {
+      "kind": "step",
+      "text": "Create full backup of on-premises production database."
+    },
+    {
+      "kind": "step",
+      "text": "Complete cloud migration setup including company selection."
+    },
+    {
+      "kind": "step",
+      "text": "Run replication and address any issues that arise."
+    },
+    {
+      "kind": "step",
+      "text": "Stop on-premises usage before final backup of production database."
+    },
+    {
+      "kind": "step",
+      "text": "Run Data Upgrade on cloud environment."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

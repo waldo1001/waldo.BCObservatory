@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.017315
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:54:38.985Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the GDAP key point presents the Dynamics 365 Business Central Administrator role as the role partners use. The source only lists the role as a feature and mentions least-privileged role recommendations. The wording is acceptable but slightly stronger than the source.",
+      "Minor: the Technical support overview page (contact management, break-fix, performance, data corruption, escalation) appears in the summary and overview but has no key point.",
+      "Minor: the overview's advice on where customers and partners should start is editorial guidance, not a sourced claim. It is reasonable and harmless."
+    ],
+    "input_hash": "af87f9aaebe9d51d6fd7611e5d21de937fa3861cc08d85f6527dd560e9cf6832",
+    "cost_usd": 0.042475200000000005
   }
 }

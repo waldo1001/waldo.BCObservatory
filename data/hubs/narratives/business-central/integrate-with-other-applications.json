@@ -1,37 +1,37 @@
 {
   "hub_id": "topic/business-central/integrate-with-other-applications",
-  "input_hash": "6faca24de93d10ac7ac5e8e4e6f85668eb064729470eac07f8cb4348dae6da45",
-  "summary": "Integration of Business Central with other applications: Microsoft Office and 365, Power Platform, Dataverse, Dynamics 365 Sales, Field Service and Shopify. It answers questions about which integration to use, how data is synchronized, and where to find setup details.",
-  "overview": "This section covers how Business Central connects to other products. An integration overview page lists the main options: Office apps, Power Platform, Dataverse synchronization, virtual tables, webhooks, Dynamics 365 Sales, Field Service and Shopify. Start there to pick the right path.\n\nThree pages sit directly in the section: the integration overview, Integrating with Dynamics 365 Sales (through Dataverse), and the Shopify Connector Overview. Subtopics go deeper on Microsoft Office apps and Microsoft 365, Microsoft Power Platform, Microsoft Dataverse, and Dynamics 365 Field Service.\n\nThe Sales integration runs through Dataverse. The Dataverse subtopic covers connecting, user accounts, ownership models, table and field mappings, synchronization and sync error troubleshooting for syncing with other Dynamics 365 apps, so it is useful context alongside the Sales page. For Field Service, use its own subtopic, which covers the Project-only and Project and Service integration types.",
+  "input_hash": "e4f2d17bfa453d195de6cf147c124ae48a79198e1d70aa5d05ad4f554868c866",
+  "summary": "Integration of Business Central with other applications: Microsoft 365, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, and Shopify. It answers questions about which integration fits a scenario, how to set it up, and how data is synchronized.",
+  "overview": "This section describes how Business Central connects to other applications to extend its functionality and sync data across systems. The integration overview page lists the scenarios: Office apps and Microsoft 365, Power Platform, Dataverse (data synchronization, virtual tables, webhooks), Dynamics 365 Sales and Field Service, and Shopify.\n\nSubtopics cover the main areas. Microsoft 365 covers Excel, OneDrive, Outlook, Teams and Word. Power Platform covers the Business Central connector, Power Apps, Power Automate, Power BI and Power Pages. The Dataverse subtopic covers connection, user accounts, mappings, synchronization, Power Automate flows and error troubleshooting. Field Service covers work orders and related processes.\n\nOwn pages cover Dynamics 365 Sales integration, which runs through Dataverse, and the Shopify Connector for syncing store data. Start with the integration overview to pick a scenario. For Sales, set up the Dataverse connection first.",
   "key_points": [
-    "The integration overview names Office, Power Platform, Dataverse, Dynamics 365 Sales, Field Service and Shopify as integration targets, plus virtual tables and webhooks.",
-    "Dynamics 365 Sales integration runs through Dataverse: connection settings, security roles, unit group mapping, table synchronization and record coupling are configured. It supports sales order processing and item availability.",
-    "Shopify Connector synchronizes items, inventory, customers, orders and transactions in both directions, supports multiple shops, and fits B2B and DTC models.",
-    "Shopify order import from sales channels and fulfillment tracking are covered.",
-    "Office and Microsoft 365 subtopic (24 pages) covers Excel, OneDrive, Outlook, Teams and Word.",
-    "Power Platform subtopic (15 pages) covers the Business Central connector, Power Apps, Power Automate, Power BI and Power Pages on Dataverse virtual tables.",
-    "Dataverse subtopic (11 pages) covers user accounts, ownership models, table and field mappings, manual and scheduled sync, flows and sync error troubleshooting.",
-    "Field Service subtopic (2 pages) covers work orders, consumption posting, inventory availability, resource bookings and invoices, with Project-only and Project and Service integration types."
+    "The overview page lists integration scenarios: Microsoft 365, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, and Shopify.",
+    "Microsoft 365 integration covers Excel, OneDrive, Outlook, Teams and Word, including data exchange, file sharing, email and contacts, and document layouts.",
+    "Power Platform integration covers the Business Central connector, Power Apps, Power Automate, Power BI, and Power Pages on Dataverse virtual tables.",
+    "Dataverse setup includes connecting, user accounts, ownership models, table and field mappings, manual and scheduled sync, and sync error troubleshooting.",
+    "Dynamics 365 Sales integration goes through Dataverse and covers bidirectional sync, sales order processing, item availability, unit group mapping and record coupling.",
+    "Configuring Sales integration involves connection settings, security roles, unit group mapping and table synchronization.",
+    "Field Service integration offers Project-only and Project and Service types, syncing work orders with project journals, project tasks or service orders.",
+    "The Shopify Connector syncs products, inventory, customers, orders, fulfillments, transactions and payouts, and supports multiple stores."
   ],
   "members_used": 3,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-10-07T13:37:02.468Z",
+  "at": "2026-10-24T00:53:07.801Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014829
+    "cost_usd": 0.015483
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T13:37:17.677Z",
+    "at": "2026-10-24T00:53:43.546Z",
     "verdict": "fix",
     "issues": [
-      "Overview paragraph 3 says Field Service runs on Dataverse and tells readers to read the Dataverse pages first for Field Service. The summaries don't support this. They only say Sales integrates through Dataverse and that the Dataverse subtopic covers syncing with other Dynamics 365 apps. Field Service is never described as Dataverse-based. The paragraph is rewritten to stick to what the sources say.",
-      "Minor: 'Dataverse is the base for several integrations' is stronger than the sources support. It is replaced with the supported wording."
+      "Overview says to set up the Dataverse connection first for Field Service. The Field Service summary never mentions Dataverse; only the Sales page says it runs through Dataverse. Changed the advice to cover Sales only.",
+      "Small point: the Dataverse key point leaves out Power Automate flows, which the Dataverse subtopic summary lists. The key point is still accurate."
     ],
-    "input_hash": "6faca24de93d10ac7ac5e8e4e6f85668eb064729470eac07f8cb4348dae6da45",
-    "cost_usd": 0.051796
+    "input_hash": "e4f2d17bfa453d195de6cf147c124ae48a79198e1d70aa5d05ad4f554868c866",
+    "cost_usd": 0.0377512
   }
 }

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:43.589Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > Views in Business Central AL development: how list page views define alternative filtering, sorting and layout, how to package analysis views in extensions, and how to migrate legacy Role Center views to modern list views. Answers questions about defining views on pages, page extensions and page customizations.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Views · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Views · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:15.477Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,10 +115,13 @@ The other pages cover reporting and invoicing data. "Corrective invoices [ES]" d
 ## Learn pages
 
 - [Calculating Due Dates [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/calculating-due-dates): Learn how to submit an annual report of purchases and sales for payments that were made before or after the due date.
+  - In the observatory: [Report 10747 "Customer - Overdue Payments (ES)"](../../../../../objects/report/10747-es.md), [Report 10748 "Vendor - Overdue Payments (ES)"](../../../../../objects/report/10748-es.md)
 - [Corrective invoices [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/corrective-invoices): Learn how to use corrective invoices in Business Central to address errors or disputes affecting VAT amounts or fiscal data.
 - [How to Enter NACE Codes [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-enter-nace-codes): Learn how to enter the Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes using the Spanish version of Business Central.
 - [How to Set Limits for Due Dates](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-limits-for-due-dates): Learn how to set maximum limits on the number of days allowed between delivery and payment by configuring payment terms in Business Central.
+  - In the observatory: [Page 4 "Payment Terms"](../../../../../objects/page/4.md)
 - [How to Set Up Operation Codes](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-operation-codes): You can add any number of operation codes to the table, except for the system-created codes C, D, and I, which are already available in Business Central.
+  - In the observatory: [Page 10745 "Operation Codes (ES)"](../../../../../objects/page/10745-es.md)
 
 ## Business Central pages and reports
 

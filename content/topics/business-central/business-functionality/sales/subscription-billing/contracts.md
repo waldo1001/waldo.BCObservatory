@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:37.954Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -181,13 +181,16 @@ Other pages cover lifecycle tasks: renewing contracts through sales quotes and o
 
 - [Cancel planned subscription lines](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/service-commitment-cancellation): You can cancel planned subscription lines in subscription billing.
 - [Customer subscription contracts](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/customer-contracts): You can use customer subscription contracts in subscription billing.
+  - In the observatory: [Page 21 "Customer Card"](../../../../../objects/page/21.md), [Page 26 "Vendor Card"](../../../../../objects/page/26.md), [Page 36954 "Customers"](../../../../../objects/page/36954.md), [Page 5050 "Contact Card"](../../../../../objects/page/5050.md), [Page 8002 "Extend Contract"](../../../../../objects/page/8002.md), [Page 8067 "Recurring Billing"](../../../../../objects/page/8067.md)
 - [Managing contracts, subscriptions, and subscription lines](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/contracts-services-mgmt): You can manage subscription contracts in subscription billing.
 - [Planned subscription lines in subscriptions](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/so-service-commitments): You can use planned subscription lines with subscriptions in subscription billing.
 - [Subscription contract deferrals](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/contract-deferrals): You can use contract deferrals in subscription billing.
 - [Subscription contract renewal](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/contract-renewal): You can renew contracts in subscription billing.
 - [Subscriptions](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/service-objects): You can use subscriptions in subscription billing.
 - [Update prices](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/price-update): You can update prices in subscription billing.
+  - In the observatory: [Page 7016 "Sales Price List"](../../../../../objects/page/7016.md), [Page 8026 "Price Update Templates"](../../../../../objects/page/8026.md)
 - [Vendor subscription contracts](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/vendor-contracts): You can use vendor subscription contracts in subscription billing.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md)
 
 ## Videos, posts and code changes
 

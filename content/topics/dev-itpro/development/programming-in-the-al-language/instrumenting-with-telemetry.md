@@ -7,12 +7,12 @@ tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:39.284Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,7 +127,7 @@ narrative: generated
 
 > Instrumenting AL extensions with telemetry in Business Central: setting up extension telemetry, emitting custom events to Application Insights or the Event Log, logging feature telemetry, and reading the platform's built-in telemetry events. It answers how-to and which-method questions for developers.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Instrumenting with telemetry · tier official · system platform · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Instrumenting with telemetry · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -139,10 +139,10 @@ Start with the overview page, then the setup page. Use the custom events or feat
 
 ## Key points
 
-- Extension telemetry setup: set applicationInsightsConnectionString in app.json (applicationInsightsKey is also listed); runtime 7.2 is mentioned.
+- Extension telemetry setup: set applicationInsightsConnectionString in app.json. The applicationInsightsKey property is also listed. The setup page lists runtime 7.2 as a version reference.
 - Custom Application Insights events use LogMessage, with a dictionary or dimension overloads for custom dimensions, TelemetryScope control, and DataClassification filtering.
-- Event Log telemetry uses SENDTRACETAG, which is obsolete (2020 release wave 2, v17). It supports event categories, verbosity levels, and Event Viewer.
-- Feature telemetry uses the FeatureTelemetry codeunit: LogUsage, LogError, and LogUptake.
+- Event Log telemetry uses the obsolete SENDTRACETAG method, with event categories, verbosity levels, TraceLevel configuration, and Event Viewer. The page lists 2020 release wave 2 (v17) as a version reference.
+- Feature telemetry uses the FeatureTelemetry codeunit from the Telemetry AL module: LogUsage, LogError, and LogUptake.
 - Uptake states for feature telemetry are Discovered, Set up, Used, and Undiscovered.
 - Feature telemetry supports a Telemetry Logger interface, custom dimensions, and comparing features across metrics.
 - The platform emits its own telemetry for page interactions, REST API calls, report rendering, error dialogs, and resource consumption.
@@ -159,7 +159,16 @@ Start with the overview page, then the setup page. Use the custom events or feat
 - [Developing telemetry into your Business Central application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry): This article describes how to add code to application objects that enables you to gather telemetry.
 - [Extension Telemetry Data in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions-data): Learn which Business Central events can reach an extension's Application Insights resource and how to identify signals that support extension telemetry.
 - [Feature telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-feature-telemetry): Learn about the telemetry that you can emit from features in Business Central.
+  - Feature Telemetry module simplifies app health monitoring and tracks feature uptake using three event types: LogUsage for successful feature use, LogError for explicit errors, and LogUptake for…
+  - Prerequisite: Must implement Telemetry Logger interface in an extension codeunit and register it via OnRegisterTelemetryLogger event subscriber, one per app publisher.
+  - LogUptake tracks four uptake states: Undiscovered, Discovered (page opens), Set up (user configures), and Used (user attempts feature). Calling with Undiscovered resets uptake state.
+  - Limit: LogUptake may make database transactions and requires PerformWriteTransactionsInASeparateSession set to true when called from try function.
+  - Custom dimensions include extension info, user role, environment type, client type, and for errors: stack trace and error text describing the issue.
+  - If no telemetry logger registered for publisher, server logs event AL0000G7K to environment telemetry indicating app sending data without registered logger.
+  - In the observatory: [Codeunit 8703 "Feature Telemetry"](../../../../objects/codeunit/8703.md), [Codeunit 8708 "Telemetry Loggers"](../../../../objects/codeunit/8708.md)
 - [Set Up Extension Telemetry in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions): Configure a Business Central extension to send telemetry to Azure Application Insights, monitor deployed apps, and add feature or custom telemetry events.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos, posts and code changes
 

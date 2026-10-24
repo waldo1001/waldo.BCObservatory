@@ -2,12 +2,12 @@
   "inputs": [
     7,
     [
-      "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+      "15385dede95a4f9e7be01be47c684fc9d654a7ce",
       "4",
-      9499,
-      "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+      9501,
+      "15385dede95a4f9e7be01be47c684fc9d654a7ce",
       "4",
-      6933
+      6942
     ]
   ],
   "schema": "al-relations@1",
@@ -18909,6 +18909,16 @@
       "k": "source_table"
     },
     {
+      "s": "page/7140",
+      "t": "table/6940",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7147",
+      "t": "table/6940",
+      "k": "source_table"
+    },
+    {
       "s": "page/7150",
       "t": "table/7152",
       "k": "source_table"
@@ -30091,6 +30101,11 @@
     {
       "s": "permissionsetextension/99000779",
       "t": "permissionset/2529",
+      "k": "extends"
+    },
+    {
+      "s": "reportextension/20500",
+      "t": "report/5704",
       "k": "extends"
     },
     {
@@ -72636,6 +72651,12 @@
       "s": "table/5601",
       "t": "table/5601",
       "k": "table_relation",
+      "via": "Derogatory Source Entry No."
+    },
+    {
+      "s": "table/5601",
+      "t": "table/5601",
+      "k": "table_relation",
       "via": "Reversed by Entry No."
     },
     {
@@ -72916,6 +72937,30 @@
       "s": "table/5606",
       "t": "table/15",
       "k": "table_relation",
+      "via": "Derog. Bal. Account (Decrease)"
+    },
+    {
+      "s": "table/5606",
+      "t": "table/15",
+      "k": "table_relation",
+      "via": "Derogatory Acc."
+    },
+    {
+      "s": "table/5606",
+      "t": "table/15",
+      "k": "table_relation",
+      "via": "Derogatory Account (Decrease)"
+    },
+    {
+      "s": "table/5606",
+      "t": "table/15",
+      "k": "table_relation",
+      "via": "Derogatory Expense Acc."
+    },
+    {
+      "s": "table/5606",
+      "t": "table/15",
+      "k": "table_relation",
       "via": "Gains Acc. on Disposal"
     },
     {
@@ -73024,6 +73069,12 @@
       "s": "table/5606",
       "t": "table/5615",
       "k": "calc_formula",
+      "via": "Allocated Derogatory Pct."
+    },
+    {
+      "s": "table/5606",
+      "t": "table/5615",
+      "k": "calc_formula",
       "via": "Allocated Gain %"
     },
     {
@@ -73126,6 +73177,18 @@
       "k": "lookup_page"
     },
     {
+      "s": "table/5611",
+      "t": "table/5611",
+      "k": "calc_formula",
+      "via": "Derogatory Book Code"
+    },
+    {
+      "s": "table/5611",
+      "t": "table/5611",
+      "k": "table_relation",
+      "via": "Derogatory Calc."
+    },
+    {
       "s": "table/5612",
       "t": "table/5600",
       "k": "table_relation",
@@ -73190,6 +73253,12 @@
       "t": "table/5601",
       "k": "calc_formula",
       "via": "Depreciation"
+    },
+    {
+      "s": "table/5612",
+      "t": "table/5601",
+      "k": "calc_formula",
+      "via": "Derogatory Amount"
     },
     {
       "s": "table/5612",
@@ -73767,6 +73836,12 @@
       "t": "table/5611",
       "k": "table_relation",
       "via": "Depreciation Book Code"
+    },
+    {
+      "s": "table/5625",
+      "t": "table/5625",
+      "k": "table_relation",
+      "via": "Derogatory Source Entry No."
     },
     {
       "s": "table/5625",
@@ -93900,6 +93975,12 @@
     },
     {
       "s": "table/6902",
+      "t": "table/4",
+      "k": "table_relation",
+      "via": "Currency Code"
+    },
+    {
+      "s": "table/6902",
       "t": "table/6921",
       "k": "table_relation",
       "via": "Expense Category Code"
@@ -94084,6 +94165,12 @@
       "s": "table/6906",
       "t": "table/6923",
       "k": "calc_formula",
+      "via": "Alternate Approver Name"
+    },
+    {
+      "s": "table/6906",
+      "t": "table/6923",
+      "k": "calc_formula",
       "via": "Approved/Rejected Exp.UserName"
     },
     {
@@ -94097,6 +94184,12 @@
       "t": "table/6923",
       "k": "calc_formula",
       "via": "Interim Approver Name"
+    },
+    {
+      "s": "table/6906",
+      "t": "table/6923",
+      "k": "table_relation",
+      "via": "Alternate Approver No."
     },
     {
       "s": "table/6906",
@@ -94133,6 +94226,18 @@
       "t": "table/6923",
       "k": "table_relation",
       "via": "Pending Approval By"
+    },
+    {
+      "s": "table/6906",
+      "t": "table/6923",
+      "k": "table_relation",
+      "via": "Primary Final Approver No."
+    },
+    {
+      "s": "table/6906",
+      "t": "table/6923",
+      "k": "table_relation",
+      "via": "Primary Interim Approver No."
     },
     {
       "s": "table/6906",
@@ -95317,6 +95422,28 @@
       "t": "table/7108",
       "k": "table_relation",
       "via": "Vehicle Type"
+    },
+    {
+      "s": "table/6940",
+      "t": "page/7140",
+      "k": "drilldown_page"
+    },
+    {
+      "s": "table/6940",
+      "t": "page/7140",
+      "k": "lookup_page"
+    },
+    {
+      "s": "table/6940",
+      "t": "table/6923",
+      "k": "table_relation",
+      "via": "Alternate Approver No."
+    },
+    {
+      "s": "table/6940",
+      "t": "table/6923",
+      "k": "table_relation",
+      "via": "Primary Approver No."
     },
     {
       "s": "table/6943",
@@ -119432,6 +119559,11 @@
         "obsolete": null,
         "subs": []
       },
+      "OnBeforeUpdatePurchaseInvoiceHeader": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnBeforeVendLedgEntryModify": {
         "kind": "integration",
         "obsolete": null,
@@ -121701,6 +121833,11 @@
         "obsolete": null,
         "subs": []
       },
+      "OnCustUnrealizedVATOnBeforeGetUnrealizedVATPart": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnCustUnrealizedVATOnBeforeInitGLEntryVAT": {
         "kind": "integration",
         "obsolete": null,
@@ -122742,6 +122879,11 @@
         "subs": []
       },
       "OnVendPostApplyVendLedgEntryOnBeforeRunCheck": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnVendUnrealizedVATOnAfterCalcPaidAmount": {
         "kind": "integration",
         "obsolete": null,
         "subs": []
@@ -124805,7 +124947,13 @@
       "OnBeforeCreateCopyDocument": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20535",
+            "proc": "BlockSeparateSubcontractingInvoiceCopy",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnBeforePurchaseHeaderInsert": {
         "kind": "integration",
@@ -124835,7 +124983,13 @@
       "OnBeforeTestIfInvoiceIsPaid": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20535",
+            "proc": "BlockSeparateSubcontractingInvoiceReversalBeforeLineValidation",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnBeforeTestInventoryPostingSetup": {
         "kind": "integration",
@@ -130589,6 +130743,11 @@
             "s": "codeunit/6619",
             "proc": "ClearFSConnectionOnEnvironmentCopy",
             "app": "FieldServiceIntegration"
+          },
+          {
+            "s": "codeunit/7237",
+            "proc": "ClearCrossEnvSecretOnEnvironmentCopy",
+            "app": "MasterDataManagement"
           },
           {
             "s": "codeunit/8912",
@@ -150308,6 +150467,11 @@
         "kind": "integration",
         "obsolete": null,
         "subs": []
+      },
+      "OnBeforeIndentGLAccounts": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
       }
     },
     "codeunit/5260": {
@@ -162047,6 +162211,11 @@
         "obsolete": null,
         "subs": []
       },
+      "OnCodeOnBeforeMakeInventoryAdjustment": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnUpdateOrderLineOnBeforeUpdatePurchLine": {
         "kind": "integration",
         "obsolete": null,
@@ -172256,7 +172425,13 @@
       "OnBeforeCopyHandledItemTrkgToPurchLine": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20535",
+            "proc": "SkipPhysicalTrackingForNonLastSubcontractingReceipt",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnBeforeCopyItemLedgEntryTrkgToPurchLn": {
         "kind": "integration",
@@ -185476,13 +185651,7 @@
       "OnAfterPurchRcptLineSetFilters": {
         "kind": "integration",
         "obsolete": null,
-        "subs": [
-          {
-            "s": "codeunit/20535",
-            "proc": "ExcludeSubcontractingLinesOnAfterPurchRcptLineSetFilters",
-            "app": "Subcontracting"
-          }
-        ]
+        "subs": []
       },
       "OnBeforeCalcUpdatePrepmtAmtToDeductRounding": {
         "kind": "integration",
@@ -185557,13 +185726,7 @@
       "OnCreateInvLinesOnBeforeInsertLineIteration": {
         "kind": "integration",
         "obsolete": null,
-        "subs": [
-          {
-            "s": "codeunit/20535",
-            "proc": "BlockSubcontractingLinesOnCreateInvLinesOnBeforeInsertLineIteration",
-            "app": "Subcontracting"
-          }
-        ]
+        "subs": []
       },
       "OnInsertInvoiceLineFromRcptLineOnBeforeCalcUpdatePrepmtAmt": {
         "kind": "integration",
@@ -207444,6 +207607,11 @@
         "obsolete": null,
         "subs": []
       },
+      "OnAfterUpdateRemQtyToPutAwayBaseFromProdOrderLine": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnBeforeAssignQtyToPutAwayForBinMandatory": {
         "kind": "integration",
         "obsolete": null,
@@ -218229,6 +218397,17 @@
       }
     },
     "page/6181": {
+      "OnAfterValidateEvent(Applies-to Vendor Inv. No.)": {
+        "kind": "trigger_event",
+        "obsolete": null,
+        "subs": [
+          {
+            "s": "codeunit/6103",
+            "proc": "OnAfterValidateDraftPageAppliesToVendorInvNo",
+            "app": "EDocument"
+          }
+        ]
+      },
       "OnAfterValidateEvent(Invoice Discount)": {
         "kind": "trigger_event",
         "obsolete": null,
@@ -232597,7 +232776,13 @@
       "OnBeforeInsertInvLineFromRcptLine": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20535",
+            "proc": "BlockTrackedSubcontractingReceiptLine",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnBeforeInsertInvLineFromRcptLineBeforeInsertTextLine": {
         "kind": "integration",
@@ -282711,7 +282896,7 @@
     }
   },
   "dead_events": {
-    "count": 22523
+    "count": 22527
   },
   "unresolved": [
     {
@@ -292942,18 +293127,18 @@
   "stats": {
     "runs_on": 739,
     "unresolved_unknown": 1495,
-    "extends": 1829,
-    "source_table": 3623,
+    "extends": 1830,
+    "source_table": 3625,
     "card_page": 318,
-    "lookup_page": 821,
-    "table_relation": 10184,
-    "calc_formula": 2533,
-    "drilldown_page": 518,
+    "lookup_page": 822,
+    "table_relation": 10197,
+    "calc_formula": 2537,
+    "drilldown_page": 519,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5192,
-    "edges": 20565,
-    "published_events": 26107,
-    "dead_events": 22523
+    "subscribes": 5196,
+    "edges": 20587,
+    "published_events": 26114,
+    "dead_events": 22527
   }
 }

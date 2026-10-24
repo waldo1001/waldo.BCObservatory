@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.885Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -137,5 +137,6 @@ Calculation pages explain how TCS applies to sales invoices, orders, returns and
 - [TCS calculation and transactions as per Section 206C(1H)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-206C-1H-Transactions): Learn how to calculate and process TCS transactions in compliance with Section 206C(1H) in Business Central for India.
 - [TCS calculation considering threshold limits](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Threshold): Explains how TCS is calculated in relation to threshold limits.
 - [TCS calculation on Sales and Receipt Transactions](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Transactions): Explains how TCS is calculated on sales and receipt transactions in Business Central India, including examples and journal entries.
+  - In the observatory: [Page 18553 "Bank Receipt Voucher (IN)"](../../../../../objects/page/18553-in.md), [Page 18555 "Cash Receipt Voucher (IN)"](../../../../../objects/page/18555-in.md), [Page 253 "Sales Journal"](../../../../../objects/page/253.md), [Page 39 "General Journal"](../../../../../objects/page/39.md), [Page 42 "Sales Order"](../../../../../objects/page/42.md), [Page 43 "Sales Invoice"](../../../../../objects/page/43.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

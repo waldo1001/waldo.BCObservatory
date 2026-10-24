@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:41.609Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,10 +57,9 @@ links:
   topics:
     - topic/dev-itpro/business-central-on-premises/upgrade
   localizations: []
-  videos:
-    - video/Sh3ySQSTw-o
+  videos: []
   posts:
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -72,7 +71,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 1
+  video: 0
   blog: 1
   guideline: 0
 bc_forms: []
@@ -116,7 +115,6 @@ For the upgrade itself, use the upgrade guide if you are coming from version 25,
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [How to Install Microsoft Dynamics 365 Business Central 29 On-Premises](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f.md) (community post): "Business Central 29 (2026 release wave 2) on-premises in a test or demonstration"
-- [What's new: Server and Database (2026 release wave 2)](../../../../videos/Sh3ySQSTw-o.md) (video): "What's new: Server and Database (2026 release wave 2)"
+- [October 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be.md) (community post): "Business Central 2026 Wave 2 release with version 29.0 for online customers"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

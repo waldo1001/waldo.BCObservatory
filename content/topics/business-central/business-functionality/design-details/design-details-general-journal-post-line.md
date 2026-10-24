@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:25:13.574Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,7 +106,9 @@ Start with the General Journal Post Line Overview for the big picture and recent
 
 - [Design details - General journal post line](https://learn.microsoft.com/dynamics365/business-central/design-details-general-journal-post-line): This article provides insight into the concepts and principles that are used to redesign the general journal posting line feature in Business Central.
 - [Design details - Posting engine structure](https://learn.microsoft.com/dynamics365/business-central/design-details-posting-engine-structure): The posting interface uses posting engine functions to prepare and insert general ledger entry and VAT entry records.
+  - In the observatory: [Table 17 "G/L Entry"](../../../../objects/table/17.md), [Table 254 "VAT Entry"](../../../../objects/table/254.md)
 - [Design details - Posting interface structure](https://learn.microsoft.com/dynamics365/business-central/design-details-posting-interface-structure): This article provides an overview of the global procedures and design details in the posting interface structure.
 - [General Journal Post Line Overview](https://learn.microsoft.com/dynamics365/business-central/design-details-general-journal-post-line-overview): This topic introduces changes to Codeunit 12, Gen. Jnl.-Post Line, and is the only place to insert general ledger, VAT, and customer and vendor ledger entries.
+  - In the observatory: [Codeunit 12 "Gen. Jnl.-Post Line"](../../../../objects/codeunit/12.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

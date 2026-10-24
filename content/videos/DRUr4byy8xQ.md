@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:55:05.015Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -87,6 +87,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/kauffmann-nl/8436
+      title: Designing Agents for Business Central
+      label: possibly related
+      why: both name Page 4315 "Agent Card"
+      by: code
+    - to: video/XhO4oFmoh1M
+      title: "Introducing: Sales Order Agent (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 4315 "Agent Card"
+      by: code
 video_id: DRUr4byy8xQ
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -230,3 +241,10 @@ As heard in the captions. A name that matches one object page by exact type and 
 ## Disclaimers in the video
 
 - [1:37](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=97s) other: Your version of Business Central may include additional app source apps or customizations that extend the process orchestrated by the agent.
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Designing Agents for Business Central](../posts/kauffmann-nl/8436.md) — possibly related: both name Page 4315 "Agent Card"
+- [Introducing: Sales Order Agent (2025 release wave 1)](../videos/XhO4oFmoh1M.md) — possibly related: both name Page 4315 "Agent Card"

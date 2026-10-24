@@ -12,7 +12,7 @@ review:
   at: "2026-10-22T01:12:33.100Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -479,8 +479,7 @@ links:
     - topic/business-central/development-and-administration/synchronize-master-data-across-companies
     - topic/business-central/development-and-administration/migrate-to-business-central-online
   localizations: []
-  videos:
-    - video/bvGdaxC3sq8
+  videos: []
   posts: []
   guidelines: []
   changes:
@@ -498,7 +497,7 @@ children:
 coverage:
   learn: 77
   code: 165
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -767,11 +766,22 @@ Subtopics cover synchronizing master data across companies with Master Data Mana
 ## More Learn pages
 
 - [Administration of Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-administration): Learn about how you as the internal administrator or as a reselling partner can manage online tenants of Dynamics 365 Business Central.
+  - Permissions: Internal administrators need Dynamics 365 Business Central Administrator role minimum for tenant administration.
+  - Permissions: Delegated administrators are partner company employees with GDAP relationship; Dynamics 365 Business Central Administrator role recommended.
+  - Internal administrators have read-only access to all Business Central areas even after subscription cancellation.
+  - Limit: Internal administrators need Business Central license to set up integrations or perform tasks beyond user management and data export.
+  - Permissions: License Administrator role required in Microsoft 365 admin center to manage subscription and assign licenses.
+  - Permissions: User Administrator role required in Microsoft 365 admin center to add or remove users from tenant.
+  - Partners can log in as delegated administrator to set up and troubleshoot customer environments.
+  - Switching partners requires removing reseller relationship, disabling delegated admin, clearing partner settings, and adding new partner.
 - [Configure Copilot and agent capabilities](https://learn.microsoft.com/dynamics365/business-central/enable-ai): Learn how to control Copilot and agent features in Business Central, including deactivation, user access, and data governance controls.
 - [Deprecated Features in the application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1): Describes the features that have been moved, removed, or replaced in the W1 version.
+  - In the observatory: [Codeunit 1799 "Import Config. Package File"](../../objects/codeunit/1799.md), [Codeunit 1800 "Assisted Company Setup"](../../objects/codeunit/1800.md), [Codeunit 1805 "Import Config. Package Files"](../../objects/codeunit/1805.md), [Enum 9120 "Company Data Type (Internal)"](../../objects/enum/9120.md), [Enum 9121 "Company Data Type (Production)"](../../objects/enum/9121.md), [Enum 9122 "Company Data Type (Sandbox)"](../../objects/enum/9122.md)
 - [Developing extensions in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview): Overview of the development experience for building extensions using the AL language.
 - [Development and administration for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/): Learn how to extend, manage, and customize Dynamics 365 Business Central.
 - [Performance Overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-overview): Learn different ways to improve the performance of Business Central as a functional consultant, a developer, or an administrator.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos, posts and code changes
 
@@ -779,7 +789,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#9281 Add read isolation support to Isolated Storage Management](../../changes/bcapps/9281.md) (code change): "Isolated Storage Management codeunit now provides Get method overloads"
 - [#9291 Add [NonDebuggable] to Cryptography Management encrypt/decrypt procedures](../../changes/bcapps/9291.md) (code change): "Cryptography Management system application now marks all encryption and decryption procedures"
-- [Introducing: Contoso Demo Tool (2023 release wave 2)](../../videos/bvGdaxC3sq8.md) (video): "demo data; contoso; demo modules; rapid start package"
 
 ## Business Central pages and reports
 

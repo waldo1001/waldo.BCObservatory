@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:03.176Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -95,7 +95,25 @@ Start with the pages on long-running queries. One explains how to set the SqlLon
 ## Learn pages
 
 - [Monitoring Long Running SQL Queries to the Event Log](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-long-running-sql-queries-event-log): This topic provides an overview on how to monitor long running SQL queries in the event log starting with NAV 2017.
+  - Long running SQL query threshold is controlled by SqlLongRunningThreshold setting with default value of 1000 milliseconds.
+  - Query running longer than threshold triggers message in event log and telemetry emission indicating action took longer than expected.
+  - Step: Change SqlLongRunningThreshold dynamically without restart using Set-NAVServerConfiguration with -ApplyTo Memory parameter.
+  - Query delay can result from database waiting for locks or missing indexes on operations.
+  - Monitor long running queries using Windows Event Log or Application Insights for telemetry analysis.
 - [Troubleshooting: Using Query Store to Monitor Query Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-query-performance-using-query-store): Use SQL Server Query Store to troubleshoot query performance. SQL Server Query Store feature provides insight on database query plan choice and performance.
+  - SQL Server Query Store captures history of queries, plans, and runtime statistics.
+  - Status: Query Store available in SQL Server 2016 and later and Azure SQL Database.
+  - Tracks executions, average execution time, physical IO reads, and row counts per query.
+  - Helps identify performance differences caused by query plan changes over time.
+  - Simplifies troubleshooting by providing history of queries executed on database.
 - [Using Event Log to Monitor Long Running SQL Queries](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-long-running-queries-using-event-log): Shows how to monitor long running SQL queries in Event Viewer. Use the information determine SQL queries that are good candidates for optimization.
+  - Event Viewer Application window displays SQL queries exceeding SqlLongRunningThreshold as warnings.
+  - Default SqlLongRunningThreshold is 1000 milliseconds for identifying slow queries.
+  - Long running queries with explicit AL code include AL call stack showing generated SQL.
+  - AL call stack identifies specific AL method and line causing slow query execution.
+  - Limit: Queries from triggers without code or GetPage calls do not include AL call stack.
+  - Threshold can be set to different value without restarting server instance.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

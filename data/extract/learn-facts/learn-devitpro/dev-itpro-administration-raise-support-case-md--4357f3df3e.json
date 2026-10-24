@@ -1,0 +1,31 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/raise-support-case.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/raise-support-case",
+  "title": "Escalate support issues to Microsoft",
+  "blob": "d3164a7d2b18f44f0d6a08f75ecd1f2ab1e3b698",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Delegated admin can submit support request to Microsoft using Partner Center or admin center."
+    },
+    {
+      "kind": "limit",
+      "text": "Internal administrator cannot contact Microsoft directly for support."
+    },
+    {
+      "kind": "fact",
+      "text": "Internal admin must contact their partner to escalate support beyond troubleshooting in admin center."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003696,
+      "pages_in_call": 16
+    }
+  ]
+}

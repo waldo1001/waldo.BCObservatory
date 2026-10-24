@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:07:21.463Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -93,6 +93,27 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/8C9JmtHdExM
+      title: Allow Over Receipts of Products
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: post/aardvarklabs-blog/3680
+      title: Step-by-Step Guide to Custom User Controls in Business Central
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: video/iHgaNJucyvI
+      title: "What's new: Add existing table fields to pages (2023 release wave 2)"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: video/WI_3mjpQ2JU
+      title: "What's New: Automated IRS1099 Reporting (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
 video_id: fpc_XlVEnWw
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -241,3 +262,12 @@ Not found in BC28-30: page "payment journals".
 - [2:42](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=162s) "We will then choose to summarize per vendor to create one payment per vendor."
 - [2:42](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=162s) "I'm also going to type in that we want to pay $20,000 towards our vendor invoices for the month."
 - [2:54](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=174s) "Through vendor priority and suggested payments, Business Central helps streamline paying your most strategic vendors and gives you better control of your cash flow."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Allow Over Receipts of Products](../videos/8C9JmtHdExM.md) — possibly related: both name Page 26 "Vendor Card"
+- [Step-by-Step Guide to Custom User Controls in Business Central](../posts/aardvarklabs-blog/3680.md) — possibly related: both name Page 26 "Vendor Card"
+- [What's new: Add existing table fields to pages (2023 release wave 2)](../videos/iHgaNJucyvI.md) — possibly related: both name Page 26 "Vendor Card"
+- [What's New: Automated IRS1099 Reporting (2024 release wave 1)](../videos/WI_3mjpQ2JU.md) — possibly related: both name Page 26 "Vendor Card"

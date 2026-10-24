@@ -1,0 +1,33 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/37144",
+  "page_id": "post/thedynamicsexplorer-com/37144",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Only the Posting No. Series can be filled in on recurring journals",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "The document number on the lines wouldn't then be carried through to the General Ledger Entries",
+      "objects": [
+        {
+          "type": "table",
+          "name": "General Ledger Entries"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003807,
+    "posts_in_call": 4
+  }
+}

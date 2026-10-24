@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-gp-validation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-validation",
+  "title": "Migration validation overview",
+  "blob": "184e870b22ca084fd56253e300b15cf21bda7c76",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Migration validation feature compares source Dynamics GP data with migrated data in Business Central"
+    },
+    {
+      "kind": "fact",
+      "text": "Validation can run automatically after migration or be triggered manually from Cloud Migration Management page"
+    },
+    {
+      "kind": "fact",
+      "text": "Validation results show count of failed records per test and drill-down details for investigation"
+    },
+    {
+      "kind": "fact",
+      "text": "You can exclude specific validation tests from future runs by marking them as Ignore"
+    },
+    {
+      "kind": "limit",
+      "text": "Only validates entities relevant to Dynamics GP migration, not all Business Central data"
+    }
+  ],
+  "dropped": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005231,
+      "pages_in_call": 10
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951",
+  "page_id": "post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "There is still a limit of 40 keys per table. That limit predates this change and has not moved.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Every index costs writes. An index that makes one list fast makes every insert and modify on that table slower.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006309,
+    "posts_in_call": 4
+  }
+}

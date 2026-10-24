@@ -1,0 +1,37 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/",
+  "page_id": "post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If users use Copy Document, your custom field will be copied too.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Should this value be copied? Should it be cleared? Should it be recalculated?",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Sales Header"
+        },
+        {
+          "type": "table",
+          "name": "Sales Invoice Header"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003232,
+    "posts_in_call": 4
+  }
+}

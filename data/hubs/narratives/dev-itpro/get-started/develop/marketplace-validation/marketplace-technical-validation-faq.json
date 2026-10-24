@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.020052
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:55:21.167Z",
+    "verdict": "approve",
+    "issues": [
+      "The App Previews key point puts '(2023 release wave 2)' right after the upgrade and public release interaction, which suggests the version applies to that behaviour. The source only lists it as a version for the page. The point also leaves out Azure Application Insights tracking.",
+      "The Develop and Maintain Marketplace Apps FAQ (dependency range conflicts, license validation, Docker and online sandbox environments) is in the overview but has no key point.",
+      "Calling the Technical validation FAQ an 'entry point' goes slightly beyond its summary but is a reasonable reading."
+    ],
+    "input_hash": "5e1a299697ab71a591e6a61625a3842fb8ed0a07b8845cc1888236d1959752ba",
+    "cost_usd": 0.044835200000000006
   }
 }

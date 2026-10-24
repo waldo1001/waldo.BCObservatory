@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:13:56.435Z"
   flags: []
 generated:
-  at: "2026-10-07T23:13:56.495Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -162,6 +162,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/fIOnGEARkKs
+      title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1"
+      label: possibly related
+      why: both name Table 4 "Currency"
+      by: code
 video_id: a1LQ3-SCtPE
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -202,6 +208,22 @@ chapters:
     title: Locking Model Implementation and Additional Performance Improvements
   - t: 1543
     title: Upcoming Changes and Recommendations
+cautions:
+  - kind: preview-disclaimer
+    quote: on premises since we are changing the data model there is quite a bit of data writing going on during upgrade so when you upgrade an un premise installation you should probably expect that to take a little longer
+    t: 596
+  - kind: preview-disclaimer
+    quote: we have added this as a feature management switch so you can enable it uh and it should be noticed of course things will still work functionally
+    t: 1320
+  - kind: preview-disclaimer
+    quote: you might get the another user has modified this in case you have certain code paths we have not seen issues with this in our base app but we cannot rule out
+    t: 1361
+  - kind: preview-disclaimer
+    quote: there are also a few changes that are upcoming in 2024 release way one the server settings for Force order and loop joints will be removed
+    t: 1543
+  - kind: preview-disclaimer
+    quote: also for on premises you might run with the ability to write to the app database we will remove that um possibility from the next release
+    t: 1564
 features:
   - name: New companion table schema for table extensions
     status: unclear
@@ -437,5 +459,11 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [22:41](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1361s) subject-to-change: you might get the another user has modified this in case you have certain code paths we have not seen issues with this in our base app but we cannot rule out
 - [25:43](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1543s) coming-later: there are also a few changes that are upcoming in 2024 release way one the server settings for Force order and loop joints will be removed
 - [26:04](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1564s) coming-later: also for on premises you might run with the ability to write to the app database we will remove that um possibility from the next release
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../videos/fIOnGEARkKs.md) — possibly related: both name Table 4 "Currency"
 
 Presenters (as heard): Yen, Kenny.

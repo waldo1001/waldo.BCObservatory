@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/set-up-standard-company-configuration-packages.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages",
+  "title": "Set Up Company Configuration Packages",
+  "blob": "4f9285b746fbadeacaa4215ec4ae29afecccd7e7",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Configuration packages contain setup data for a company that can be reused when creating new companies."
+    },
+    {
+      "kind": "limit",
+      "text": "Tables with posted entries like customer, vendor, and item ledger entries cannot be imported into configuration packages."
+    },
+    {
+      "kind": "permission",
+      "text": "Export requires Direct Read permissions; import requires Direct Insert and Direct Modify permissions for all included tables."
+    },
+    {
+      "kind": "limit",
+      "text": "Both databases must have the same schema with identical table structure, primary keys, and field data types for successful import."
+    },
+    {
+      "kind": "limit",
+      "text": "Special characters like percent, ampersand, and angle brackets in field names can cause XML processor to remove them and create duplicate names."
+    },
+    {
+      "kind": "fact",
+      "text": "BLOB fields use base64 encoding by default; manual conversion required before export if using different encoding."
+    },
+    {
+      "kind": "fact",
+      "text": "Configuration questionnaires gather setup information from customers by converting setup table fields into formatted questions."
+    },
+    {
+      "kind": "fact",
+      "text": "Configuration templates provide default settings for master data import like customers, vendors, contacts, or items."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007325,
+      "pages_in_call": 7
+    }
+  ]
+}

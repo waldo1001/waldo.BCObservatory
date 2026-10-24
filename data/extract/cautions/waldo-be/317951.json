@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/waldo-be/317951",
+  "page_id": "post/waldo-be/317951",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Make sure when your customers go to v26, that you're not subscribing to the non-invoked events.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "26"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004932,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup-gp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-gp",
+  "title": "Run cloud migration setup for Dynamics GP migration",
+  "blob": "3b3907dc52a1797465e2eab86497549e750d891e",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Any delegated administrator running cloud migration setup must receive approval from a licensed SUPER user with Essentials or Premium license."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "User running setup must be signed in as administrator of both Microsoft Entra tenant and Business Central online."
+    },
+    {
+      "kind": "step",
+      "text": "Sign in to Microsoft 365 tenant and Business Central online."
+    },
+    {
+      "kind": "step",
+      "text": "Open Cloud Migration Setup assisted setup and accept the warning and privacy notice."
+    },
+    {
+      "kind": "step",
+      "text": "Select Product matching the on-premises version being migrated."
+    },
+    {
+      "kind": "step",
+      "text": "Fill in SQL database connection details and integration runtime information."
+    },
+    {
+      "kind": "step",
+      "text": "Select one or more companies to migrate or enable All Companies."
+    },
+    {
+      "kind": "step",
+      "text": "On GP Company Migration Configuration page select companies and enable Automatic Validation if desired."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "item_id": "blog/duiliotacconi-com/2149",
+  "page_id": "post/duiliotacconi-com/2149",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "When using partial records, the caching mechanism is somewhat… hardly invoked (or not working at all).",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27",
+        "28"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "SetLoadFields do its job: it gets just 10 column out of 14 BUT it does NOT trigger NST to cache values in this scenario.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Low-Level Code Calculator"
+        },
+        {
+          "type": "report",
+          "name": "Calculate Low Level Code"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "27",
+        "28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006309,
+    "posts_in_call": 4
+  }
+}

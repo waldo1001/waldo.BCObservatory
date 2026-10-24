@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/demo-environment.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment",
+  "title": "Prepare demonstration environments for Business Central",
+  "blob": "7102b567b99b9a4c6891b5ac3b8dc69a1fa1c9f9",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "MDX approach provides full tenant control and works best for repeatable partner-controlled demos lasting 90 days or one year."
+    },
+    {
+      "kind": "fact",
+      "text": "Prospect trial approach enables quick evaluation in prospect's own organization and can convert to paid subscription."
+    },
+    {
+      "kind": "fact",
+      "text": "Sandbox approach provides unlimited duration and full tenant control for tailored or side-by-side demo scenarios."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "MDX approach requires Partner Center enrollment; prospect trial requires prospect email account; sandbox requires existing Business Central tenant."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005472,
+      "pages_in_call": 10
+    }
+  ]
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:15.604Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,8 +41,7 @@ links:
   topics:
     - topic/dev-itpro/development/get-started
   localizations: []
-  videos:
-    - video/88s0QjsaCUQ
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -55,7 +54,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -90,11 +89,5 @@ Start with "The SMB opportunity for app publishers" if you need to decide whethe
 
 - [Get started building apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/get-started): Learn how you can get started building apps for Dynamics 365 Business Central in six easy steps.
 - [The SMB opportunity for app publishers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher): Learn about the business opportunity we see for software companies in the SMB space if you build your solution on Dynamics 365 Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Understanding the Sign Up Context and Using it for Profiling Customers](../../../../videos/88s0QjsaCUQ.md) (video): "app provisioning; uri encoding; json parameters; end user license agreement; country code validation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

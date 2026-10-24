@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:08:40.242Z"
   flags: []
 generated:
-  at: "2026-10-07T23:08:40.295Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -206,6 +206,16 @@ chapters:
     title: Related Copilot Features and Release Scope
   - t: 1262
     title: Resources, Community Engagement, Feedback and Closing Remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: e invoice matching with co-pilot is in public preview that me this is still not General available
+    t: 58
+  - kind: preview-disclaimer
+    quote: it will be available in all regions globally except Canada because of some regulatory um issues
+    t: 78
+  - kind: preview-disclaimer
+    quote: currently this is available in all type of uh English languages it can be tried you can try using in other languages but officially this is uh something what we support we support officially English language
+    t: 88
 features:
   - name: E-Invoice Matching with Copilot
     status: preview

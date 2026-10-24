@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-retain-permissions-SL.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions-SL",
+  "title": "Retain permissions during Dynamics SL cloud migration",
+  "blob": "5ffb13cebf7fc0f43289ff57e4fe3033075d4258",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "By default, cloud migration removes permission sets from existing online users except SUPER users and reassigns to Intelligent Cloud."
+    },
+    {
+      "kind": "fact",
+      "text": "Users can keep original permissions during migration using Cloud Migration Management page action or custom extension."
+    },
+    {
+      "kind": "step",
+      "text": "To retain permissions, open Cloud Migration Management page and select Actions then Enable/Disable Removing Permissions from Users."
+    },
+    {
+      "kind": "fact",
+      "text": "Alternative method uses custom extension with event subscriber to prevent permission reset during migration."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005028,
+      "pages_in_call": 10
+    }
+  ]
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:06.484Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -212,9 +212,12 @@ Start with the Table object and Page object pages for the basics. Then read the 
 - [Permission set object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-object): Describes the permission set object, which sets permissions on objects in AL for Business Central.
 - [Profile object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-profile-object): Description of the profile object, which allows you to build an individual experience for each user profile.
 - [Query object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object): Description of the AL query object.
+  - In the observatory: [Query 100 "Top Customer Overview"](../../../../objects/query/100.md)
 - [Report object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object): The report object in AL for Business Central allows to create a new report.
 - [Table extension object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object): This article describes the table extension object in AL for Business Central.
+  - In the observatory: [Table 18 "Customer"](../../../../objects/table/18.md)
 - [Table keys](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-keys): Learn about table keys in AL, including primary and secondary keys, and how to define keys in table objects and table extension objects.
+  - In the observatory: [Table 18 "Customer"](../../../../objects/table/18.md)
 - [Table object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object): This article describes the structure, object limits, and extensibility of the table object in AL for Business Central.
 - [XMLport object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object): XMLport objects are used to export and import data between an external source and Business Central.
 

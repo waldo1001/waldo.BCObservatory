@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:30.865Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -145,6 +145,7 @@ Start with the Async processing overview, which sets out the operational limits 
 
 - [Async processing Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview): Overview on the different ways an AL developer can do asynchronous (async) processing.
 - [Job queue](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-job-queue): Learn about how the job queue works
+  - In the observatory: [Codeunit 448 "Job Queue Dispatcher"](../../../../objects/codeunit/448.md), [Codeunit 450 "Job Queue Error Handler"](../../../../objects/codeunit/450.md), [Table 472 "Job Queue Entry"](../../../../objects/table/472.md)
 - [Page Background Tasks](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-background-tasks): Explains how to create page background tasks in Business Central.
 - [Task scheduler](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler): Learn about scheduled tasks and how the task scheduler works.
 

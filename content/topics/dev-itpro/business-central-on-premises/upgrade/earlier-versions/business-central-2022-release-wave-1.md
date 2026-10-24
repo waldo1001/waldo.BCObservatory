@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:23.584Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -195,6 +195,7 @@ Supporting pages cover changes that affect the upgrade: permission sets as AL ob
 
 - [Business Central Upgrade Compatibility Matrix](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility): Provides an overview of the Business Central versions and their compatibility
 - [Code Conversion from C/AL to AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/devenv-code-conversion): Description of the conversion process from C/AL to AL.
+  - In the observatory: [Codeunit 150 "System Initialization"](../../../../../objects/codeunit/150.md)
 - [India Data migration Toolkit Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/india-data-migration-toolkit-overview): Specifies India Data Migration Toolkit Overview
 - [Install a version 20 update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v20): This article describes the tasks required for getting the monthly version 20 update applied to your Dynamics 365 Business Central on-premises.
 - [Migrating Tables and Fields Between Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-table-fields): Explains how to migrate tables and fields from one extension to another.
@@ -206,6 +207,7 @@ Supporting pages cover changes that affect the upgrade: permission sets as AL ob
 - [Upgrading customized C/AL application to Microsoft Base Application for version 20](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v20): Describes how to do an upgrade from a customized Business Central 14 to Microsoft Base Application for version 20.
 - [Upgrading Permission Sets and Permissions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-permissions): Describes how to upgrade permissions and permission sets
 - [Upgrading Reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-reports): Describes how to upgrade reports
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md)
 - [Upgrading unmodified C/AL application to version 20](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v14-v20): Describes how to upgrade an unmodified Business Central 14 application to version 20
 - [Upgrading Version 15, 16, 17, or 18 Base Application to Version 20](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v20): Describes how to upgrade an unmodified Business Central 17, 18, or 19 to version 20
 

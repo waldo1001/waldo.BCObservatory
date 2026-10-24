@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:08:00.907Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -100,6 +100,10 @@ chapters:
     title: First and Second Step Configuration
   - t: 78
     title: Closing and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: it's a clip from a launch event video for 2023 release Wave 2 but it's equally relevant today
+    t: 0
 features:
   - name: Spotlight Tour Element
     status: unclear

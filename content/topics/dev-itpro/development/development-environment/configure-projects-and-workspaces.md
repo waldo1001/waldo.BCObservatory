@@ -7,12 +7,12 @@ tier: official
 language: en
 system: projects
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:57:09.084Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Configuring AL projects and workspaces in Visual Studio Code for Business Central development. It answers questions about multi-root workspaces, per-folder settings, and project references in app.json, including symbol resolution, publishing, and recovery from publishing failures.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure projects and workspaces · tier official · system projects · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure projects and workspaces · tier official · system projects · narrative reviewed (checked by Opus)
 
 ## Overview
 

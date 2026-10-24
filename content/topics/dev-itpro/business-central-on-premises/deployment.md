@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:20:48.575Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -386,9 +386,19 @@ Start with Plan for Deployment, then pick a layout in Deployment topologies and 
 - [Features not implemented in on-premises deployments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises): Some features work differently or not at all, depending on whether your Business Central solution is in the cloud or on-premises.
 - [Install Business Central Using Setup](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/install-using-setup): Install Business Central using Setup to quickly deploy production, demo, or development environments. Follow step-by-step guidance.
 - [Manage Application and Tenant Databases in a Multitenant Deployment](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/multitenant-setup-guide): Learn about the tasks for managing application and tenant databases for a multitenant deployment
+  - Application database stores application and system information required by all tenants in a multitenant deployment.
+  - Step: Create application database using New-NAVApplicationDatabase cmdlet or export application objects from existing database.
+  - Step: Enable Multitenant setting and configure database connection settings on server instance.
+  - Step: Publish system symbols and extensions before mounting tenants.
+  - Step: Create empty database in SQL Server with desired collation.
+  - Step: Mount database as tenant and synchronize with application database.
+  - Step: Synchronize and install extensions for each tenant.
+  - Tenant database stores customer data accessible from the application.
 - [Plan for Deployment](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/plan-for-deployment): Get an overview of things you should consider and decide on before deploying
 - [Provisioning the Dynamics 365 Business Central Server Service Account](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/provision-server-account): The service account is used by Business Central clients to log on to the server instance.
 - [Software lifecycle policy and on-premises updates](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/terms/lifecycle-policy-on-premises): Learn about the lifecycle and product life of Dynamics 365 Business Central versions for on-premises deployments.
 - [Using Security Certificates with Business Central on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/implement-security-certificates-production-environment): Learn how to use security certificates to help secure connections with Business Central.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

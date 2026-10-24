@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:15.277Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,10 @@ Start with the value entries page for the rule. Go to the error page if the job 
 ## Learn pages
 
 - [Error message "Posting Date is not within your range of allowed posting dates"](https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-adjustment-value-entry-allowed-posting-dates): Resolve the error behind the message "Posting date is not within your range of allowed posting dates" when running the Adjust Cost - Item Entries batch job.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 119 "User Setup"](../../../../../objects/page/119.md)
 - [Posting date on adjustment value entry compared to the source entry](https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-adjustment-value-entry-source-entry): Learn about scenario "Posting Date on Adjustment Value Entry versus Posting Date on entry causing the adjustment such as Revaluation or Item charge" when running the Adjust Cost - Item Entries batch job identifies.
+  - In the observatory: [Report 795 "Adjust Cost - Item Entries"](../../../../../objects/report/795.md)
 - [Posting date on value entries](https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-adjustment-value-entry-posting-date): Learn how the Adjust Cost - Item Entries batch job identifies and assigns a posting date to the value entries that the batch job is about to create.
+  - In the observatory: [Report 795 "Adjust Cost - Item Entries"](../../../../../objects/report/795.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

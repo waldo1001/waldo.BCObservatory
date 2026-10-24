@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/demo-environment-extend-enhancements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-extend-enhancements",
+  "title": "Add enhancements to Business Central demo environments",
+  "blob": "696b7c5c7aa97097a4b507326c5f649822c5f1ae",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Contoso Coffee Demo Data app adds demo data to showcase advanced manufacturing and supply chain features."
+    },
+    {
+      "kind": "fact",
+      "text": "Connectivity apps let you demonstrate integrations and connected scenarios between Business Central and other apps."
+    },
+    {
+      "kind": "step",
+      "text": "Sign up for Dynamics 365 Sales Professional trial using your Microsoft demo account admin credentials."
+    },
+    {
+      "kind": "step",
+      "text": "In Power Platform admin center, install Field Service app to Sales trial environment from Marketplace."
+    },
+    {
+      "kind": "step",
+      "text": "Open Assisted Setup in Business Central and select setup for Dataverse connection first."
+    },
+    {
+      "kind": "step",
+      "text": "Complete Sales integration setup before Field Service setup, as Field Service setup depends on it."
+    },
+    {
+      "kind": "fact",
+      "text": "After setup, Business Central, Sales, and Field Service share data through Dataverse for end-to-end scenarios."
+    },
+    {
+      "kind": "fact",
+      "text": "Convert trial environments to sandbox environments to reset data and demo different Dynamics 365 app combinations."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005472,
+      "pages_in_call": 10
+    }
+  ]
+}

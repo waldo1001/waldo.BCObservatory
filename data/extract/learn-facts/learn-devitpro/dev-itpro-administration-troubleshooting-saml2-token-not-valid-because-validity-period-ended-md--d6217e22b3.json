@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/Troubleshooting-saml2-token-not-valid-because-validity-period-ended.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/Troubleshooting-saml2-token-not-valid-because-validity-period-ended",
+  "title": "The SAML2 token is not valid because its validity period has ended.",
+  "blob": "202e127feccc4f6a166fb794ec59d38ad65fcbb7",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "SAML2 token errors occur when the security token lifetime from Microsoft Entra ID has exceeded its default limit of 1 hour."
+    },
+    {
+      "kind": "fact",
+      "text": "Users experience a connection lost error message when the SAML2 token validity period ends."
+    },
+    {
+      "kind": "fact",
+      "text": "The server includes a configuration setting called ExtendedSecurityTokenLifetime that adds time to the security token lifetime."
+    },
+    {
+      "kind": "step",
+      "text": "To resolve token expiration issues, increase the ExtendedSecurityTokenLifetime setting on the Business Central server."
+    },
+    {
+      "kind": "fact",
+      "text": "The Windows client times out after 9 or more hours of continuous connection, causing an ID4148 error that cannot be changed."
+    },
+    {
+      "kind": "step",
+      "text": "Resolve Windows client timeout by closing and reopening the client application."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005038,
+      "pages_in_call": 3
+    }
+  ]
+}

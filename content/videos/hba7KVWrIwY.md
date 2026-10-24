@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:04:15.568Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:15.608Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -127,6 +127,25 @@ chapters:
     title: "Demo: Receiving and Processing Documents"
   - t: 840
     title: Conclusion and Call to Action
+cautions:
+  - kind: preview-disclaimer
+    quote: new default end points they will not be available immediately from this major release so first will come with 25.1 and others will be deliver in this period
+    t: 225
+    versions:
+      - "25"
+  - kind: preview-disclaimer
+    quote: majority of these connectors are uh made in collaboration with these partners and we are making a review of code so code quality must be the same as Microsoft is delivering so this is why it cannot be delivered immediately but you can…
+    t: 266
+  - kind: preview-disclaimer
+    quote: we decided to postpone because we got some better idea how we can improve this API so we wanted to take some additional time so the most probably 25.3 we will deliver e documents API
+    t: 387
+    versions:
+      - "25"
+  - kind: preview-disclaimer
+    quote: from December this year until the April 25th we will um deliver this format to be more accurate uh in December we will deliver ex and in Germany and fatura a in Spain
+    t: 440
+    versions:
+      - "25"
 features:
   - name: New E-Document Connectors
     status: unclear

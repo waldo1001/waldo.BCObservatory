@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:26:17.872Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,9 +107,13 @@ Start with the introduction to see which location fits your scenario, then open 
 ## Learn pages
 
 - [Introduction to Contoso Coffee](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro): Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the warehousing capabilities in Business Central.
+  - In the observatory: [Page 5194 "Contoso Demo Tool"](../../../../../objects/page/5194.md)
 - [Receiving, Puting-away, Picking and Shipping in Basic Warehouse Configuration](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick): In Business Central, the inbound and outbound processes can be performed in different ways depending on the warehouse complexity level.
+  - In the observatory: [Page 36957 "Locations"](../../../../../objects/page/36957.md), [Page 48 "Sales Orders"](../../../../../objects/page/48.md), [Page 56 "Purchase Orders"](../../../../../objects/page/56.md), [Page 7328 "Warehouse Employees"](../../../../../objects/page/7328.md), [Page 7390 "Posted Invt. Put-away"](../../../../../objects/page/7390.md), [Page 7392 "Posted Invt. Pick"](../../../../../objects/page/7392.md)
 - [Receiving, puting-away, picking, and shipping in a mixed warehouse configuration](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship): In Business Central, the inbound and outbound processes can be done in different ways depending on the warehouse complexity level.
+  - In the observatory: [Page 36957 "Locations"](../../../../../objects/page/36957.md), [Page 48 "Sales Orders"](../../../../../objects/page/48.md), [Page 56 "Purchase Orders"](../../../../../objects/page/56.md), [Page 7328 "Warehouse Employees"](../../../../../objects/page/7328.md), [Page 7332 "Warehouse Receipts"](../../../../../objects/page/7332.md), [Page 9313 "Warehouse Picks"](../../../../../objects/page/9313.md)
 - [Receiving, putting-away, moving, picking and shipping in advanced warehouse configuration](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-directed-flow): Inbound and outbound processes can be performed in different ways depending on the warehouse complexity level.
+  - In the observatory: [Page 48 "Sales Orders"](../../../../../objects/page/48.md), [Page 56 "Purchase Orders"](../../../../../objects/page/56.md), [Page 5768 "Warehouse Receipt"](../../../../../objects/page/5768.md), [Page 5770 "Warehouse Put-away"](../../../../../objects/page/5770.md), [Page 7335 "Warehouse Shipment"](../../../../../objects/page/7335.md), [Page 7374 "Bin Contents"](../../../../../objects/page/7374.md)
 
 ## Business Central pages and reports
 

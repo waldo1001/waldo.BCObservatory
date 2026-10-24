@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:37.921Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -128,6 +128,7 @@ Start with the overview, then read Evaluation and Datasets for the framework and
 - [Evaluation](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-testtool): Learn how to use Evaluation to test Copilot features and agents in AL.
 - [Test the Copilot Capability in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot): Explore testing strategies for Copilot features in AL. Ensure AI-generated outputs are accurate, safe, and user-friendly.
 - [Write agent tests](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-agent-tests): Learn how to write AL tests for Business Central agents using the Library - Agent helpers to verify end-to-end agent behavior.
+  - In the observatory: [Codeunit 4315 "Agent Task Builder"](../../../../../objects/codeunit/4315.md), [Codeunit 4316 "Agent Task Message Builder"](../../../../../objects/codeunit/4316.md)
 - [Write AI tests](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-ai-tests): Learn how to write AL tests for Copilot features using datasets, assertions, and external evaluation.
 
 ## Videos and posts

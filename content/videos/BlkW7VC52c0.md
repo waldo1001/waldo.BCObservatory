@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:22:28.202Z"
   flags: []
 generated:
-  at: "2026-10-07T23:22:28.248Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,6 +80,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/admin-sync-master-data
+      title: Manage master data synchronization
+      label: possibly related
+      why: names Page 7230 "Master Data Management Setup"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/admin-set-up-data-sync
+      title: Set up companies to synchronize master data
+      label: possibly related
+      why: names Page 7230 "Master Data Management Setup"
+      by: code
 video_id: BlkW7VC52c0
 channel: yt-bcmusings
 source_name: Business Central Musings
@@ -207,5 +218,12 @@ Not found in BC28-30: table "test", table "table 5100", page "configuration work
 ## Disclaimers in the video
 
 - [0:34](https://www.youtube.com/watch?v=BlkW7VC52c0&t=34s) other: what we have right now available in Business Central in 2025 in October 2025
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Manage master data synchronization](https://learn.microsoft.com/dynamics365/business-central/admin-sync-master-data) — possibly related: names Page 7230 "Master Data Management Setup"
+- [Set up companies to synchronize master data](https://learn.microsoft.com/dynamics365/business-central/admin-set-up-data-sync) — possibly related: names Page 7230 "Master Data Management Setup"
 
 Presenters (as heard): Business Central Musings host.

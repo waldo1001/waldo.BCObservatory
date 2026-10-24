@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/demiliani-com/13290",
+  "page_id": "post/demiliani-com/13290",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "Result: FUNCTION2 deployed correctly and working, but FUNCTION1 was destroyed!",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Concurrent deployments can overwrite each other's packages",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "one app successfully acquiring it while the other fails (first come first served).",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005183,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-82-excel-buffer-character-limit/",
+  "page_id": "post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-82-excel-buffer-character-limit--e27af9f4a3",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If you try to write a longer value, Business Central throws an error instead of truncating it.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Excel Buffer"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "The procedure signature does not make the limitation obvious.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Excel Buffer"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004371,
+    "posts_in_call": 4
+  }
+}

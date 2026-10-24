@@ -1791,7 +1791,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
     "objects": [
       {
         "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Codeunits/FADisposalHandlerCZF.Codeunit.al",
@@ -2036,6 +2036,17 @@
         "page": "codeunit/12"
       },
       {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/AcceleratedDeprFeature.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5866",
+        "type": "codeunit",
+        "id": 5866,
+        "name": "Accelerated Depr. Feature",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/5866-fr"
+      },
+      {
         "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/CalculateAcqCostDepr.Codeunit.al",
         "status": "modified",
         "key": "codeunit/5613",
@@ -2069,6 +2080,28 @@
         "page": "table/5611"
       },
       {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
+        "status": "modified",
+        "key": "page/5610",
+        "type": "page",
+        "id": 5610,
+        "name": "Depreciation Book Card",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "page/5610"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/DerogLinkageCorrectiveRun.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5872",
+        "type": "codeunit",
+        "id": 5872,
+        "name": "Derog. Linkage Corrective Run",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/5872-fr"
+      },
+      {
         "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/FADepreciationBook.Table.al",
         "status": "modified",
         "key": "table/5612",
@@ -2078,6 +2111,39 @@
         "app": "Base Application",
         "cc": "fr",
         "page": "table/5612"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/FeatureAcceleratedDepr.EnumExt.al",
+        "status": "added",
+        "key": "enumextension/5869",
+        "type": "enumextension",
+        "id": 5869,
+        "name": "Feature - Accelerated Depr.",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "enumextension/5869-fr"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/UpgTagAcceleratedDepr.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5867",
+        "type": "codeunit",
+        "id": 5867,
+        "name": "Upg. Tag Accelerated Depr.",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/5867-fr"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/UpgradeDerogatoryLinkage.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5871",
+        "type": "codeunit",
+        "id": 5871,
+        "name": "Upgrade Derogatory Linkage",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/5871-fr"
       },
       {
         "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/CalculateDisposal.Codeunit.al",
@@ -2100,17 +2166,6 @@
         "app": "Base Application",
         "cc": "fr",
         "page": "codeunit/5626"
-      },
-      {
-        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAInsertGLAccount.Codeunit.al",
-        "status": "modified",
-        "key": "codeunit/5601",
-        "type": "codeunit",
-        "id": 5601,
-        "name": "FA Insert G/L Account",
-        "app": "Base Application",
-        "cc": "fr",
-        "page": "codeunit/5601"
       },
       {
         "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAInsertLedgerEntry.Codeunit.al",
@@ -2168,6 +2223,28 @@
         "page": "table/5606"
       },
       {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingGroupCard.Page.al",
+        "status": "modified",
+        "key": "page/5612",
+        "type": "page",
+        "id": 5612,
+        "name": "FA Posting Group Card",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "page/5612"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingGroups.Page.al",
+        "status": "modified",
+        "key": "page/5613",
+        "type": "page",
+        "id": 5613,
+        "name": "FA Posting Groups",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "page/5613"
+      },
+      {
         "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAReclassJournalLine.Table.al",
         "status": "modified",
         "key": "table/5624",
@@ -2177,6 +2254,17 @@
         "app": "Base Application",
         "cc": "fr",
         "page": "table/5624"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FixedAssetStatistics.Page.al",
+        "status": "modified",
+        "key": "page/5602",
+        "type": "page",
+        "id": 5602,
+        "name": "Fixed Asset Statistics",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "page/5602"
       },
       {
         "path": "src/Layers/FR/BaseApp/FixedAssets/Reports/FixedAssetBookValue01.Report.al",
@@ -2342,6 +2430,17 @@
         "app": "Base Application",
         "cc": "it",
         "page": "codeunit/5633"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5632",
+        "type": "codeunit",
+        "id": 5632,
+        "name": "FA Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/5632"
       },
       {
         "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
@@ -2782,6 +2881,28 @@
         "app": "Base Application",
         "cc": "w1",
         "page": "report/5696"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/DerogatoryPostingMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5869",
+        "type": "codeunit",
+        "id": 5869,
+        "name": "Derogatory Posting Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5869"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/DerogatoryPostingRole.Enum.al",
+        "status": "added",
+        "key": "enum/5869",
+        "type": "enum",
+        "id": 5869,
+        "name": "Derogatory Posting Role",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/5869"
       },
       {
         "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAAllocationType.Enum.al",
@@ -3321,11 +3442,6 @@
         "reason": "not-in-snapshot"
       },
       {
-        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/AcceleratedDeprFeature.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
         "status": "modified",
         "reason": "not-in-snapshot"
@@ -3336,37 +3452,12 @@
         "reason": "not-in-snapshot"
       },
       {
-        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/DepreciationBookCard.Page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/DerogLinkageCorrectiveRun.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/FADateType.Table.al",
         "status": "modified",
         "reason": "not-in-snapshot"
       },
       {
-        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/FeatureAcceleratedDepr.EnumExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/UpgTagAcceleratedDepr.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/UpgradeAcceleratedDepr.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/UpgradeDerogatoryLinkage.Codeunit.al",
         "status": "added",
         "reason": "not-in-snapshot"
       },
@@ -3396,22 +3487,17 @@
         "reason": "not-in-snapshot"
       },
       {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAInsertGLAccount.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
         "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAJnlCheckLine.Codeunit.al",
         "status": "modified",
         "reason": "not-in-snapshot"
       },
       {
         "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAMatrixPostingType.Table.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingGroupCard.Page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingGroups.Page.al",
         "status": "modified",
         "reason": "not-in-snapshot"
       },
@@ -3432,11 +3518,6 @@
       },
       {
         "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAReclassTransferLine.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FixedAssetStatistics.Page.al",
         "status": "modified",
         "reason": "not-in-snapshot"
       },
@@ -3496,11 +3577,6 @@
         "reason": "not-in-snapshot"
       },
       {
-        "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAJnlPostLine.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAReclassTransferLine.Codeunit.al",
         "status": "modified",
         "reason": "not-in-snapshot"
@@ -3538,16 +3614,6 @@
       {
         "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAReclassJournal.Page.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/DerogatoryPostingMgt.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/DerogatoryPostingRole.Enum.al",
-        "status": "added",
         "reason": "not-in-snapshot"
       }
     ]

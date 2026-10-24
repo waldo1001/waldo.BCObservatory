@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:49:20.509Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -76,6 +76,7 @@ links:
   features:
     - feature/573363
     - feature/573364
+    - feature/573369
   topics: []
   localizations: []
   videos: []
@@ -104,6 +105,10 @@ chapters:
     title: Cancel all agent tasks action
   - t: 325
     title: Feedback experience improvements
+cautions:
+  - kind: preview-disclaimer
+    quote: we are actually also working on some changes related to this task pane and we'll be adding more actions
+    t: 312
 features:
   - name: Updated Business Central icon
     status: unclear
@@ -140,10 +145,12 @@ features:
     roadmap_ids:
       - "573364"
   - name: Review bar for agent changes
-    status: unclear
+    status: ga
     t: 161
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573369"
   - name: Cancel all agent tasks action
     status: unclear
     t: 278
@@ -216,7 +223,7 @@ The video demos the agent task pane, the system columns, the review bar and the 
 | Payables agent | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |
 | Custom agents capability | status not stated | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |
 | Created/updated by system columns | generally available (roadmap [Show avatars for record creators and modifiers in list](../features/573364.md)), demoed | [1:58](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=118s) |
-| Review bar for agent changes | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=161s) |
+| Review bar for agent changes | generally available (roadmap [Agent actions review notifications on lists](../features/573369.md)), demoed | [2:41](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=161s) |
 | Cancel all agent tasks action | status not stated | [4:38](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=278s) |
 | Enhanced feedback experience | status not stated | [5:25](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=325s) |
 

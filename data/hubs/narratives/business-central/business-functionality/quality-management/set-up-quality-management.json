@@ -1,36 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/quality-management/set-up-quality-management",
-  "input_hash": "0f21eed4c2e16526a2446f81fdf6422db5be8c130c297e2efd20ff948c66bb4d",
-  "summary": "Setting up quality management in Business Central covers base setup and permissions, inspection results, inspection templates, generation rules, and workflows. It answers questions about configuring how quality inspections are created, evaluated, and acted on.",
-  "overview": "This section describes the configuration needed before quality inspections can run. It starts with the general setup page, which covers prerequisites, permission sets, base data, assisted setup, and settings for inspection creation, search criteria, workflows, and item tracking.\n\nThe remaining pages build the pieces of the inspection process. Inspection results define the possible outcomes, such as Pass, Fail, and In Progress. Inspection templates define the tests, allowable values, pass/fail conditions, and sample sources. Generation rules link templates to business transactions so inspections are created automatically. Workflows then react to inspection events, for example by blocking a lot or moving inventory.\n\nStart with the setup and configuration page, then configure results and templates, and finish with generation rules and workflows, which depend on them.",
+  "input_hash": "3fcf857418cb59b6a05cde773abd5ae8ddc7d00fb13abf8b3ddd2a298408d21f",
+  "summary": "Quality management setup in Business Central covers prerequisites, permissions, inspection results, templates, generation rules, and workflows. It answers questions about how to configure the module and automate inspections and responses to their outcomes.",
+  "overview": "This section describes the configuration steps for quality management. The setup and configuration page covers prerequisites, permission sets, base data, assisted setup, and settings for inspection creation, search criteria, workflows, and item tracking. Start there.\n\nAfter the base setup, define the building blocks. Inspection results (such as Pass, Fail, and In Progress) set the possible outcomes, including visibility, categories, and lot blocking behavior. Inspection templates define the measurements and attributes to test, and the test value types they use.\n\nThen connect these pieces to business activity. Generation rules decide when inspections are created automatically, for example on purchase receipts, production output, or warehouse movements. Workflows react to inspection events, such as blocking lots, moving inventory, or posting negative adjustments for nonconforming items.",
   "key_points": [
-    "The setup page covers prerequisites, permission sets, base data, assisted setup, and settings for inspection creation, search criteria, item tracking, and picture handling.",
-    "Setup also includes a certificate of analysis contact and generation rule trigger defaults.",
-    "Inspection results such as Pass, Fail, and In Progress can be extended with custom results, with settings for visibility, categories, evaluation sequence, and lot blocking.",
-    "Inspection templates hold the template code, description, test value types, allowable values, result conditions, and sample source configuration. A template can be copied.",
-    "Generation rules automatically create inspections from transactions such as purchase receipts, production output, and warehouse movements.",
-    "Generation rules use sort order, template-to-source mapping, condition, item, and attribute filters, and an activation trigger.",
-    "Workflows can block and unblock lots, move inventory, post negative adjustments, and create reinspections based on result code conditions."
+    "Start with the setup and configuration page: prerequisites, permission sets, base data, and assisted setup.",
+    "Setup settings include inspection creation options, search criteria, certificate of analysis contact, picture handling, and generation rule trigger defaults.",
+    "Inspection results such as Pass, Fail, and In Progress can be customized, with result visibility, categories, evaluation sequence, and lot blocking conditions.",
+    "Inspection templates define tests with value types: decimal, integer, boolean, text, date, options, and table lookups.",
+    "Templates can be created from scratch or copied and modified; they include pass/fail criteria and result conditions.",
+    "Generation rules map templates to sources, with sort order, condition, item, and attribute filters, and an activation trigger.",
+    "Workflows can block or unblock lots, create inventory movements, post negative adjustments, and create reinspections based on result code conditions."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:07:47.248Z",
+  "at": "2026-10-24T00:52:43.076Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011983
+    "cost_usd": 0.012083
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:24:26.153Z",
+    "at": "2026-10-24T00:56:07.373Z",
     "verdict": "approve",
     "issues": [
-      "The suggested order (generation rules and workflows last because they depend on results and templates) is the writer's inference, not something the pages say. It's reasonable because generation rules map templates to sources and workflows use result code conditions.",
-      "The workflows key point says 'post negative adjustments'. The page summary only says 'negative adjustments', so the word 'post' is a small inference."
+      "Minor: the workflows key point ties reinspection creation to result code conditions. The source lists these as separate features, so the link is inferred, but it is reasonable.",
+      "Minor: the setup order (base setup, then results and templates, then generation rules and workflows) is the narrative's own framing. The page summaries don't state it, but it doesn't contradict them."
     ],
-    "input_hash": "0f21eed4c2e16526a2446f81fdf6422db5be8c130c297e2efd20ff948c66bb4d",
-    "cost_usd": 0.039063200000000006
+    "input_hash": "3fcf857418cb59b6a05cde773abd5ae8ddc7d00fb13abf8b3ddd2a298408d21f",
+    "cost_usd": 0.0268872
   }
 }

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/use-event-viewer-collect-view-trace-events.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/use-event-viewer-collect-view-trace-events",
+  "title": "Enable Business Central debug logs in Event Viewer",
+  "blob": "6266b345a428741a68493653116d730d188c2b02",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Server events are collected in Debug logs under Applications and Services Logs for DynamicsNAV Server and Common."
+    },
+    {
+      "kind": "fact",
+      "text": "Debug logs are disabled by default and may be hidden in Event Viewer."
+    },
+    {
+      "kind": "step",
+      "text": "Open Event Viewer on the computer running the server."
+    },
+    {
+      "kind": "step",
+      "text": "Navigate to Applications and Services Logs > Microsoft > DynamicsNAV > Server or Common."
+    },
+    {
+      "kind": "step",
+      "text": "Show Analytic and Debug Logs from the View menu if Debug log is not visible."
+    },
+    {
+      "kind": "step",
+      "text": "Select Debug log and choose Enable Log from the Actions menu."
+    },
+    {
+      "kind": "fact",
+      "text": "Default log size is 1028 KB; increase if needed based on event volume."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004442,
+      "pages_in_call": 13
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/outlook-addins.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/outlook-addins",
+  "title": "Get the Outlook add-ins for the business inbox",
+  "blob": "adca8528f8db5e15dc6ceee5dc7ed114123f0aef",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Contact Insight add-in provides information from Business Central about contacts in Outlook emails and calendar appointments."
+    },
+    {
+      "kind": "fact",
+      "text": "Add-in enables users to create and send Business Central documents like sales quotes and invoices to contacts from Outlook."
+    },
+    {
+      "kind": "fact",
+      "text": "Document Links add-in provides direct link from email to actual business document in Business Central."
+    },
+    {
+      "kind": "fact",
+      "text": "For online, admin configures Microsoft 365 tenant using centralized deployment or automatic deployment."
+    },
+    {
+      "kind": "fact",
+      "text": "For on-premises, configure server instance then deploy add-ins from Business Central client and Microsoft 365 admin center."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003696,
+      "pages_in_call": 16
+    }
+  ]
+}

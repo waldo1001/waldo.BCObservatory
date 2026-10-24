@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-report-layout-lifecycle-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-report-layout-lifecycle-trace",
+  "title": "Analyzing report layout lifecycle telemetry",
+  "blob": "51f4ad9264dfe5b7f85fb5193c7690bfbbfa6490",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Telemetry captures user actions on report layouts: adding, changing default, editing properties, exporting, deleting, and replacing layouts."
+    },
+    {
+      "kind": "fact",
+      "text": "Layout format types tracked are RDLC, Word, Excel, and Custom (shown as External in client UI)."
+    },
+    {
+      "kind": "fact",
+      "text": "Each user action generates a unique event ID: New (AL0000N0E), SetDefault (AL0000N0D), Edit (AL0000N0H), Export (AL0000N0I), Delete (AL0000N0F), Replace (AL0000N0G)."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry dimensions include tenant ID, environment name and type, company, report ID, and user ID."
+    },
+    {
+      "kind": "fact",
+      "text": "Edit action telemetry records old and new layout names and descriptions for property changes."
+    },
+    {
+      "kind": "fact",
+      "text": "KQL sample code provided for querying layout events with filtering by timestamp, environment, and action type."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006599,
+      "pages_in_call": 8
+    }
+  ]
+}

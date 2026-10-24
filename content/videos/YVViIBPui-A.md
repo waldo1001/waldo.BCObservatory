@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:05:18.898Z"
   flags: []
 generated:
-  at: "2026-10-07T23:05:18.942Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -113,6 +113,13 @@ chapters:
     title: Financial Reporting Templates and Documentation
   - t: 253
     title: Summary and Closing
+cautions:
+  - kind: preview-disclaimer
+    quote: that will be in the next minor and sometime soon
+    t: 86
+  - kind: preview-disclaimer
+    quote: we will also do automated billing
+    t: 106
 features:
   - name: Subscription Billing Module
     status: unclear

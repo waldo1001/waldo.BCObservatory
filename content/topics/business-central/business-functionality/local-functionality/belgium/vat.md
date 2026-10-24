@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:10.145Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -139,7 +139,7 @@ narrative: generated
 
 > Belgian VAT and Intrastat functionality in Business Central covers VAT declarations, annual listings, VIES and EC sales reports, non-deductible VAT, manual VAT corrections, and Intrastat setup, verification and export. It answers setup and reporting questions for the Belgian version.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > VAT · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -165,13 +165,19 @@ Start with Belgian VAT or Belgian Intrastat Reporting for the overview, then use
 - [Belgian Intrastat Reporting](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-intrastat-reporting): Companies in the European Union (EU) must report trade within the EU via Intrastat reporting or VAT Information Exchange System.
 - [Belgian VAT](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-vat): Belgian enhancements of the VAT reporting feature enable you to easily print VAT transaction details.
 - [Export intrastat third-party declarations [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations): In Belgium, an external person or company must fill out the Intrastat declaration.
+  - In the observatory: [Page 4811 "Intrastat Report List"](../../../../../objects/page/4811.md), [Page 4812 "Intrastat Report"](../../../../../objects/page/4812.md)
 - [How to Make Manual Corrections to VAT [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat): You can make corrections to posted VAT entries without posting the correction into the VAT or general ledger entries.
+  - In the observatory: [Page 11303 "Manual VAT Correction List (BE)"](../../../../../objects/page/11303-be.md), [Page 474 "VAT Statement Preview"](../../../../../objects/page/474.md), [Report 11311 "VAT Statement Summary (BE)"](../../../../../objects/report/11311-be.md), [Report 12 "VAT Statement"](../../../../../objects/report/12.md)
 - [How to print periodic VAT reports [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-periodic-vat-reports): The VAT reporting feature lets you print VAT transaction details. You must send three VAT reports to the Belgian tax authorities.
 - [How to Set Up Intrastat Establishment Numbers [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers): Learn how to set up the Intrastat establishment number, a company identification number used in the Intrastat declaration.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md)
 - [How to set up Non-Deductible VAT [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat): Learn how to calculate VAT amounts for specific expense types that can be partially declared as VAT.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md), [Page 17 "G/L Account Card"](../../../../../objects/page/17.md)
 - [Set Up Belgian Tariff Numbers [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers): Learn how to set up eight-digit Belgian tariff numbers for compliance with customs and tax regulations.
 - [Set up declaration types [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-declaration-types): Learn how to set up simplified and extended declaration types in the Belgian version of Business Central.
+  - In the observatory: [Table 98 "General Ledger Setup"](../../../../../objects/table/98.md)
 - [Verify the Intrastat Report Before Export [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report): Learn how to verify the Belgian Intrastat report with the Checklist Report action before you export and submit your monthly declaration.
+  - In the observatory: [Page 4811 "Intrastat Report List"](../../../../../objects/page/4811.md), [Page 4812 "Intrastat Report"](../../../../../objects/page/4812.md)
 
 ## Business Central pages and reports
 

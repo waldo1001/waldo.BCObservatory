@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/financereportsapi/api/dynamics_subscriptions_delete.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/api/dynamics_subscriptions_delete",
+  "title": "Delete subscriptions (Beta)",
+  "blob": "d7f5011a918da5ec87866fa3072c149f1d49ff2d",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Delete subscriptions API is in Beta status for removing subscriptions from Business Central."
+    },
+    {
+      "kind": "fact",
+      "text": "DELETE request requires Authorization bearer token and If-Match header with current eTag."
+    },
+    {
+      "kind": "fact",
+      "text": "Successful deletion returns 204 No Content response code with no response body."
+    },
+    {
+      "kind": "limit",
+      "text": "If-Match header is required; deletion fails if provided eTag does not match current subscription tag."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00836,
+      "pages_in_call": 6
+    }
+  ]
+}

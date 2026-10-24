@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/17529",
+  "input_hash": "13368a513762e38ddd47297108f1278cb432f891a66448013116c8f5f315d5b4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-24T00:37:27.449Z",
+  "issues": [
+    "The object entry other Copilot is a broad product term, not a named object; dropped.",
+    "Summary, key points and quotes are supported by the post."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027701,
+    "posts_in_call": 3
+  }
+}

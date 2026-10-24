@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:08:19.821Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -78,6 +78,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/205F8ljmInU
+      title: "What's New: The Danish Bookkeeping Act (2023 release wave 2)"
+      label: possibly related
+      why: both name Page 1 "Company Information"
+      by: code
 video_id: q7ZokiKuhcw
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -185,3 +191,9 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [0:52](https://www.youtube.com/watch?v=q7ZokiKuhcw&t=52s) "round company badges signify produ C environments Square company badges signify sandbox environments"
 - [1:12](https://www.youtube.com/watch?v=q7ZokiKuhcw&t=72s) "you can determine how the company badge you look in terms of should it be a custom one what is the style and"
 - [1:32](https://www.youtube.com/watch?v=q7ZokiKuhcw&t=92s) "you can enter up to six characters in the company badge"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [What's New: The Danish Bookkeeping Act (2023 release wave 2)](../videos/205F8ljmInU.md) — possibly related: both name Page 1 "Company Information"

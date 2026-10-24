@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-database-locks-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-locks-trace",
+  "title": "Database Lock Timeout Trace Telemetry | Microsoft Docs",
+  "blob": "647e072197a589cbcf1549e0c9aafb3345434aae",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Database lock timeout telemetry introduced in Business Central 2020 release wave 1, version 16.0."
+    },
+    {
+      "kind": "fact",
+      "text": "Two event types emitted: Database lock timed out event and one or more Database lock snapshot events."
+    },
+    {
+      "kind": "fact",
+      "text": "Lock timeout triggers snapshot events providing details about SQL sessions holding locks at timeout time."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "On-premises environments must enable EnableLockTimeoutMonitoring setting; off by default."
+    },
+    {
+      "kind": "fact",
+      "text": "RT0012 event includes AL object, stack trace, client type, extension, SQL session details."
+    },
+    {
+      "kind": "fact",
+      "text": "RT0027 parent event introduced in 2024 release wave 2 groups related lock snapshot entries."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry captures victim session, not sessions holding locks; use joins to correlate data."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005012,
+      "pages_in_call": 12
+    }
+  ]
+}

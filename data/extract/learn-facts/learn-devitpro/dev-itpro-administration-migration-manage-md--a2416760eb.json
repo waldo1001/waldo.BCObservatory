@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-manage.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage",
+  "title": "Managing cloud migration",
+  "blob": "2e657795608b4615d25fe58a921aa55c3bdbdb69",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Cloud Migration Management page in the web client serves as the central hub for configuring and tracking data migration runs and services."
+    },
+    {
+      "kind": "fact",
+      "text": "Data replication can be rerun after initial migration, moving only changes since the last run using change tracking."
+    },
+    {
+      "kind": "fact",
+      "text": "User mapping renames the Name field on the User Card to match on-premises user names; perform this only once per migration."
+    },
+    {
+      "kind": "step",
+      "text": "Create diagnostic run to test data replication without migrating data, allowing issues to be identified and fixed first."
+    },
+    {
+      "kind": "step",
+      "text": "Reset cloud data clears all cloud tenant data and enables restarting the entire migration from the beginning."
+    },
+    {
+      "kind": "limit",
+      "text": "Cloud migration cannot run if the target environment is undergoing upgrade; must disable it, upgrade, then reconfigure."
+    },
+    {
+      "kind": "fact",
+      "text": "Setup checklist displays recommended steps to prepare tables not migrated for use as the primary system going live."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007625,
+      "pages_in_call": 7
+    }
+  ]
+}

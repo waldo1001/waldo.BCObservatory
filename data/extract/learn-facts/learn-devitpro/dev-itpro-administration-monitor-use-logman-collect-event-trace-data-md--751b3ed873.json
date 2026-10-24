@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-use-logman-collect-event-trace-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-use-logman-collect-event-trace-data",
+  "title": "Use Logman to Collect Event Trace Data",
+  "blob": "fa0731193485b756cb61a297f00da5a98780cbd6",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Logman collects trace event data from Microsoft-DynamicsNAV-Server and Microsoft-DynamicsNAV-Common providers."
+    },
+    {
+      "kind": "fact",
+      "text": "Server provider traces SQL, AL function, and session call events; Common provider traces telemetry events."
+    },
+    {
+      "kind": "step",
+      "text": "Create trace data collector with logman create trace command specifying provider and output .etl file."
+    },
+    {
+      "kind": "step",
+      "text": "Start trace session with logman start command and stop with logman stop command."
+    },
+    {
+      "kind": "fact",
+      "text": "Collected data stored in event trace log (.etl) file for analysis with industry-standard tools."
+    },
+    {
+      "kind": "fact",
+      "text": "Tracerpt command converts .etl files to dump, summary, and report files in XML format."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006599,
+      "pages_in_call": 8
+    }
+  ]
+}

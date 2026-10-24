@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:03:51.096Z"
   flags: []
 generated:
-  at: "2026-10-07T23:03:51.160Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -249,6 +249,28 @@ chapters:
     title: Container Helper deprecation, DevOps strategy and Managed DevOps solutions
   - t: 1950
     title: Page scripting tests, Template customization, Runtime packages and future investments
+cautions:
+  - kind: preview-disclaimer
+    quote: Performance tests has been in preview for some time.
+    t: 45
+  - kind: preview-disclaimer
+    quote: Deliver to GitHub packages has been as a proof of concept prototype in AL Go for quite some time uh and and that still works as earlier.
+    t: 825
+  - kind: preview-disclaimer
+    quote: As future investments, we will also be able to publish runtime packages to NuGet
+    t: 883
+  - kind: preview-disclaimer
+    quote: we're also working on having all first-party apps, meaning all Microsoft apps, available in NuGet packages as well as the app source symbols.
+    t: 896
+  - kind: preview-disclaimer
+    quote: This piece does not yet uh support federated credentials.
+    t: 1200
+  - kind: preview-disclaimer
+    quote: What I say now, there's no timeline, there's no promises. It might I actually some of them I'm pretty sure they'll be there, but I'm no timeline.
+    t: 1939
+  - kind: preview-disclaimer
+    quote: We'll make AL Go for GitHub independent of BC Container Helper over the next 2 to 3 years.
+    t: 2129
 features:
   - name: GitHub actions referenced by commit SHA
     status: unclear

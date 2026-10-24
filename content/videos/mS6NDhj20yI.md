@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:48:47.573Z"
   flags: []
 generated:
-  at: "2026-10-07T22:48:47.615Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -88,7 +88,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/576792
   topics: []
   localizations: []
   videos: []
@@ -124,6 +125,18 @@ chapters:
     title: Documentation and resources
   - t: 841
     title: General resources and closing
+cautions:
+  - kind: preview-disclaimer
+    quote: in preview we are releasing a new action
+    t: 243
+  - kind: preview-disclaimer
+    quote: that will not be in the list in this release wave
+    t: 485
+  - kind: preview-disclaimer
+    quote: This is coming in 28.x
+    t: 674
+    versions:
+      - "28"
 features:
   - name: Enhanced data picker UX
     status: unclear
@@ -166,10 +179,12 @@ features:
     verified: true
     status_source: video
   - name: 36 new document type APIs
-    status: unclear
+    status: ga
     t: 711
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576792"
 objects_mentioned: []
 quotes:
   - t: 45
@@ -238,7 +253,9 @@ It then covers layout management and multi-language support. User-defined layout
 | Company-level default language for documents | status not stated, demoed | [8:17](https://www.youtube.com/watch?v=mS6NDhj20yI&t=497s) |  |
 | Refactored tooltips on table level | status not stated | [10:44](https://www.youtube.com/watch?v=mS6NDhj20yI&t=644s) |  |
 | Modernized report selection pages | announced, demoed | [11:04](https://www.youtube.com/watch?v=mS6NDhj20yI&t=664s) | "As part of this, we also modernized the report selection pages in the application. This is coming in 28.x." ([11:14](https://www.youtube.com/watch?v=mS6NDhj20yI&t=674s)) |
-| 36 new document type APIs | status not stated | [11:51](https://www.youtube.com/watch?v=mS6NDhj20yI&t=711s) |  |
+| 36 new document type APIs | generally available (roadmap [Use new APIs for getting the PDF of a document report](../features/576792.md)) | [11:51](https://www.youtube.com/watch?v=mS6NDhj20yI&t=711s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/configure-sql-server-authentication.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-sql-server-authentication",
+  "title": "Configure Business Central Database Authentication",
+  "blob": "fec2cf3ccd1365b65f02ab6215b9f930d988e5be",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Business Central supports Windows authentication and SQL Server authentication for database access."
+    },
+    {
+      "kind": "fact",
+      "text": "Windows authentication is configured by default on server instance and database."
+    },
+    {
+      "kind": "fact",
+      "text": "SQL Server authentication requires an encryption key to protect credentials."
+    },
+    {
+      "kind": "step",
+      "text": "Create encryption key using New-NAVEncryptionKey cmdlet in admin shell."
+    },
+    {
+      "kind": "step",
+      "text": "Import encryption key using Import-NAVEncryptionKey cmdlet on server instance and database."
+    },
+    {
+      "kind": "step",
+      "text": "Configure SQL Server instance to mixed authentication mode to support SQL authentication."
+    },
+    {
+      "kind": "step",
+      "text": "Create SQL login and map to database user with relevant privileges."
+    },
+    {
+      "kind": "fact",
+      "text": "Encryption key file is stored in ProgramData with filename serverinstance.key."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005499,
+      "pages_in_call": 11
+    }
+  ]
+}

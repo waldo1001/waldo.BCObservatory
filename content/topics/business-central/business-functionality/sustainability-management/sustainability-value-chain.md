@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T14:23:56.689Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -271,12 +271,19 @@ The process pages follow a similar pattern. You record emissions on documents or
 - [Sustainability value chain in assembly orders](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-assembly): Learn how to work with assembly orders related to the sustainability value chain process.
 - [Sustainability value chain in item journals](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-item-journals): Learn how item journals and item reclassification journals affect sustainability value chain entries and item emissions.
 - [Sustainability value chain in production](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-mfg): Learn how to work with production orders related to the sustainability value chain process, but also with other elements related to manufacturing.
+  - In the observatory: [Page 30 "Item Card"](../../../../objects/page/30.md), [Page 6221 "Sustainability Setup"](../../../../objects/page/6221.md), [Page 6245 "Emission Fees"](../../../../objects/page/6245.md), [Page 6248 "Sustainability Value Entries"](../../../../objects/page/6248.md)
 - [Sustainability value chain in purchasing](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-purchase): Learn about understanding how value chain process starts with the purchase process.
+  - In the observatory: [Page 138 "Posted Purchase Invoice"](../../../../objects/page/138.md), [Page 140 "Posted Purchase Credit Memo"](../../../../objects/page/140.md), [Page 30 "Item Card"](../../../../objects/page/30.md), [Page 6221 "Sustainability Setup"](../../../../objects/page/6221.md)
 - [Sustainability value chain in sales](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-sales): Learn about working with items and their embedded carbon footprints during the sales process.
+  - In the observatory: [Page 30 "Item Card"](../../../../objects/page/30.md), [Page 41 "Sales Quote"](../../../../objects/page/41.md)
 - [Sustainability value chain in Service Management](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-service): Learn how sustainability value chain tracking calculates and posts CO2e for Service Management documents.
+  - In the observatory: [Page 6221 "Sustainability Setup"](../../../../objects/page/6221.md), [Page 6248 "Sustainability Value Entries"](../../../../objects/page/6248.md), [Page 9317 "Service Quotes"](../../../../objects/page/9317.md), [Page 9318 "Service Orders"](../../../../objects/page/9318.md), [Page 9319 "Service Invoices"](../../../../objects/page/9319.md), [Page 9320 "Service Credit Memos"](../../../../objects/page/9320.md)
 - [Sustainability value chain in transfers](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-transfer): Learn how to work with transfer orders and their effect on the sustainability value chain process.
+  - In the observatory: [Page 5743 "Posted Transfer Shipment"](../../../../objects/page/5743.md), [Page 6221 "Sustainability Setup"](../../../../objects/page/6221.md)
 - [Sustainability value chain overview](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-overview): Learn about the sustainability value chain features by using the provided information and resources.
+  - In the observatory: [Page 6335 "Sustainability Value Entry"](../../../../objects/page/6335.md)
 - [Sustainability value chain setup](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-setup): Learn how to enable the sustainability value chain.
+  - In the observatory: [Page 17 "G/L Account Card"](../../../../objects/page/17.md), [Page 30 "Item Card"](../../../../objects/page/30.md), [Page 5600 "Fixed Asset Card"](../../../../objects/page/5600.md), [Page 76 "Resource Card"](../../../../objects/page/76.md)
 - [Track Fixed Asset Emissions in the Value Chain](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-fixed-assets): Learn how to track CO2e emissions when you acquire, reclassify, sell, or dispose of fixed assets in Business Central.
 
 ## Videos, posts and code changes

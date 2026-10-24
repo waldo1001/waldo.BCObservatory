@@ -2,16 +2,16 @@
   "hub_id": "topic/business-central/business-functionality/local-functionality/france/e-invoicing",
   "input_hash": "5969bb5e91f97d5c927c3a246196289296d18348bb0408c79e152aadf1382dd0",
   "summary": "E-invoicing for France in Business Central covers electronic invoicing with UBL 2.1 and Factur-X, and E-Reporting for transactions outside mandatory B2B e-invoicing. It answers questions about formats, incoming invoice import, and submitting transactions to the tax authority via partner platforms.",
-  "overview": "This section covers the French local functionality for meeting the electronic invoicing reform. It has two pages, both based on the E-Reporting FR extension and the e-document framework.\n\nThe first page explains how to enable electronic invoicing with UBL 2.1 and Factur-X for B2B transactions, including PEPPOL BIS 3.0 support, import of incoming invoices, and French business rule validation. The second page explains the E-Reporting FR e-document format, used for transactions outside the mandatory B2B e-invoicing scope, such as B2C, cross-border, exports and intra-community sales.\n\nStart with the UBL 2.1 and Factur-X page if you need to send or receive B2B invoices. Move to the E-Reporting page if you must report other transactions to the tax authority through a partner-dissemination platform such as Pagero or Avalara.",
+  "overview": "This section covers the French local functionality for meeting the electronic invoicing reform. It has two pages.\\n\\nThe first page explains how to enable electronic invoicing with UBL 2.1 and Factur-X for B2B transactions using the E-Reporting FR extension. It covers PEPPOL BIS 3.0 support, import of incoming Factur-X and PEPPOL BIS 3.0 invoices, and validation against French business rules. The second page explains the E-Reporting FR e-document format. It is used for transactions outside the mandatory B2B e-invoicing scope, such as B2C, cross-border, exports and intra-community sales.\\n\\nStart with the UBL 2.1 and Factur-X page if you need to send or receive B2B invoices. Move to the E-Reporting page if you must report other transactions to the tax authority through a partner-dissemination platform such as Pagero or Avalara.",
   "key_points": [
     "Electronic invoicing for France is enabled through the E-Reporting FR extension.",
-    "Supported outgoing formats include UBL 2.1 and Factur-X PDF/A-3 hybrid invoices, plus PEPPOL BIS 3.0.",
+    "Supported formats include UBL 2.1 invoice generation, PEPPOL BIS 3.0, and Factur-X PDF/A-3 hybrid invoices.",
     "Incoming Factur-X and PEPPOL BIS 3.0 invoices can be imported.",
-    "French business rules are validated for e-invoices.",
-    "E-Reporting FR e-document format covers B2C, cross-border, exports and intra-community transactions.",
-    "E-reporting data is submitted via partner-dissemination platforms such as Pagero or Avalara.",
-    "E-reporting generates an XML payload and tracks Service Status and E-Reporting Acceptance Date.",
-    "Both batch and individual submission workflows are supported, with an E-Reporting Transaction Type."
+    "E-invoices are validated against French business rules.",
+    "The E-Reporting FR e-document format covers B2C, cross-border, export and intra-community transactions.",
+    "E-reporting data is submitted to the tax authority through partner-dissemination platforms such as Pagero or Avalara.",
+    "E-reporting generates an XML payload and tracks the Service Status and E-Reporting Acceptance Date.",
+    "Both batch and individual submission workflows are supported, and an E-Reporting Transaction Type is available."
   ],
   "members_used": 2,
   "subtopics_used": 0,
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.011014999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:57:04.924Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview says both pages are based on the E-Reporting FR extension and the e-document framework. The summaries only tie the first page to the E-Reporting FR extension, and only the second page to an e-document format. The sentence was reworded to describe each page as its summary does.",
+      "Key point 2 calls PEPPOL BIS 3.0 an 'outgoing format'. The source only says 'PEPPOL BIS 3.0 support', so the wording was made neutral."
+    ],
+    "input_hash": "5969bb5e91f97d5c927c3a246196289296d18348bb0408c79e152aadf1382dd0",
+    "cost_usd": 0.043587200000000006
   }
 }

@@ -2,7 +2,7 @@
   "hub_id": "topic/business-central/business-functionality/local-functionality/belgium/core-finance",
   "input_hash": "6ae51220c150480e4f430165a38b8d3434e813818c1cf413dbcb99c718eb1311",
   "summary": "Core finance for the Belgian version of Business Central covers three local features: applying and unapplying general ledger entries, creating financial journals for bank transactions, and exporting GL balances to ACCON Plus. It answers questions about Belgium-specific finance tasks.",
-  "overview": "This section holds Belgium-specific core finance pages for Business Central. It has no subtopics, so all content sits in three standalone pages, each describing one local feature.\n\nThe pages cover separate tasks. One explains how to apply and unapply general ledger entries to match and reconcile them. One explains how to create financial journals to register bank account transactions, with automatic balance checks. One explains the Link to Accon report, which exports GL account balances to a file for ACCON Plus.\n\nStart with the page that matches your task. For bank reconciliation work, read the financial journals page. For year-end reporting with ACCON Plus, read the export page.",
+  "overview": "This section holds Belgium-specific core finance pages for Business Central. It has no subtopics, so all content sits in three standalone pages, each describing one local feature.\n\nThe pages cover separate tasks. One explains how to apply and unapply general ledger entries to match and reconcile them. One explains how to create financial journals to register bank account transactions, with automatic balance checks. One explains the Link to Accon report, which exports GL account balances to a file for ACCON Plus.\n\nStart with the page that matches your task. To match or reverse the matching of GL entries, read the apply and unapply page. To register bank account transactions, read the financial journals page. To produce annual income statements in ACCON Plus, read the export page.",
   "key_points": [
     "Apply and Unapply General Ledger Entries [BE] covers matching and reconciling GL entries, and reversing that matching.",
     "Financial journals [BE] use a financial journal type to register bank account transactions.",
@@ -10,8 +10,7 @@
     "The difference between the balances is calculated automatically.",
     "The Link to Accon report exports general ledger account balances to a file.",
     "The exported file is imported into ACCON Plus to generate annual income statements.",
-    "The export has a Show Amounts in Add. Reporting Currency option.",
-    "The section has no subtopics, only three pages."
+    "The export has a Show Amounts in Add. Reporting Currency option."
   ],
   "members_used": 3,
   "subtopics_used": 0,
@@ -21,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009159
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:56:29.056Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview sends 'bank reconciliation work' to the financial journals page. The source says that page covers registering bank account transactions with automatic balance checks, not reconciliation. Reconciliation is only mentioned for the GL apply/unapply page. Reworded to match the source.",
+      "The key point 'The section has no subtopics, only three pages' is structural filler with no value to an agent. Removed it.",
+      "The summary's last sentence is generic but accurate. Left unchanged."
+    ],
+    "input_hash": "6ae51220c150480e4f430165a38b8d3434e813818c1cf413dbcb99c718eb1311",
+    "cost_usd": 0.032539200000000004
   }
 }

@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/thinkaboutit-be/8185",
+  "page_id": "post/thinkaboutit-be/8185",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "A model trained before a given BC version shipped will write code with full confidence, using an older version of the standard application.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Whenever you write AL code against a standard Business Central object, treat the model's first answer as a guess, not a fact.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004371,
+    "posts_in_call": 4
+  }
+}

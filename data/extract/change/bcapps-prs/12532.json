@@ -6,13 +6,13 @@
   "systems_joined": [
     "purchasing"
   ],
-  "summary": "Dispute status values are now preserved when editing vendor ledger entries and posted purchase invoices, aligning behavior between vendor and customer sides.",
+  "summary": "Fixes cases where the Dispute Status code was not kept on the vendor/purchase side, while the customer/sales side already worked. The changes touch Vend. Entry-Edit, Purch. Inv. Header - Edit and the Vendor Ledger Entries page across W1 and several country layers.",
   "key_points": [
-    "Dispute status is retained when users edit vendor ledger entries",
-    "Dispute status is preserved when editing posted purchase invoice headers",
-    "Behavior now matches the customer/sales side functionality",
-    "Tests added across multiple localization layers to verify the fix",
-    "Changes applied to base application and region-specific layers"
+    "Dispute Status is now retained in scenarios on the vendor side where it was lost",
+    "Vend. Entry-Edit updated in W1 and several country layers",
+    "Purch. Inv. Header - Edit adjusted in W1 and ES, with a one-line change to the Vendor Ledger Entries page",
+    "Brings vendor behaviour in line with the customer/sales side",
+    "Edit Posted Documents tests added across multiple layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

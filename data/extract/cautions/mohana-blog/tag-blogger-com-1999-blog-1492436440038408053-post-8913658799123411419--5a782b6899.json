@@ -1,0 +1,33 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8913658799123411419",
+  "page_id": "post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8913658799123411419--5a782b6899",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "You can use either the static Date fields or the new DateFormula fields, but not both at the same time.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "General Ledger Setup"
+        },
+        {
+          "type": "table",
+          "name": "User Setup"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC28",
+        "2026 Release Wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006827,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments",
+  "title": "Managing Production and Sandbox Environments",
+  "blob": "dc8779287cd71cf01455847158cfd548bcc7642a",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Business Central environments can link to Power Platform environments of the same type for inherited settings"
+    },
+    {
+      "kind": "limit",
+      "text": "Cannot delete a Business Central environment if linked to a Power Platform environment"
+    },
+    {
+      "kind": "fact",
+      "text": "Copy and Restore operations do not link the target environment to Power Platform as part of the operation"
+    },
+    {
+      "kind": "permission",
+      "text": "Internal admin with access to the admin center and permissions to update Power Platform environment properties required"
+    },
+    {
+      "kind": "fact",
+      "text": "Only Power Platform environments in Ready state, matching environment type, and not already linked are available for linking"
+    },
+    {
+      "kind": "fact",
+      "text": "Unlinking disables inherited settings but preserves existing integrations like Power Automate flows"
+    },
+    {
+      "kind": "fact",
+      "text": "Default update window excludes 8 PM to 6 AM local time; can be changed after environment creation"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008532,
+      "pages_in_call": 5
+    }
+  ]
+}

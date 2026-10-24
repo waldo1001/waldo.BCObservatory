@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:20.499Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -184,7 +184,8 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/handling-security/permission-sets-and-entitlements-overvie
     - topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets
   localizations: []
-  videos: []
+  videos:
+    - video/tDcT_51ktqo
   posts:
     - post/aardvarklabs-blog/2640
     - post/demiliani-com/11796
@@ -214,7 +215,7 @@ children:
 coverage:
   learn: 22
   code: 0
-  video: 0
+  video: 1
   blog: 3
   guideline: 0
 bc_forms: []
@@ -226,7 +227,7 @@ narrative: generated
 
 > Security topics for AL developers building Business Central apps: security best practices, permission sets and entitlements, Azure Key Vault app secrets, Isolated Storage, and the SecretText data type. It answers questions on authentication, authorization, and protecting secrets and credentials in extensions.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Handling security · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Handling security · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -240,11 +241,11 @@ Two further pages cover handling sensitive values in code. Isolated Storage keep
 
 - The security guide describes a layered model and covers user session and web service authentication, entitlements and permission sets.
 - Permission sets and entitlements are defined as AL objects. They can be composed and extended, and they can be exported to XML.
-- Inherent permissions and object permissions can be set, and legacy permissions can be upgraded.
-- Permission telemetry can be analyzed.
-- Azure Key Vault holds extension secrets, with setup for online and on-premises, reading secrets from AL, and telemetry on retrieval.
+- You can set inherent permissions and object permissions, upgrade from legacy permissions, and analyze permission telemetry.
+- Azure Key Vault holds extension secrets. The pages cover setup for online and on-premises, reading secrets from AL, and telemetry on retrieval.
 - Isolated Storage offers Set, Get, Contains, Delete and SetEncrypted methods, used with the DataScope option type, to keep data private to an extension.
-- The SecretText data type limits assignments to debuggable types and works with HttpClient and SecretStrSubstNo. The Unwrap method and the NonDebuggable attribute are also part of this protection.
+- The SecretText data type stops credentials from being exposed during debugging by limiting assignments to debuggable types. It works with HttpClient and SecretStrSubstNo.
+- The SecretText page also covers the Unwrap method and the NonDebuggable attribute.
 
 ## Subtopics
 
@@ -275,5 +276,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Securing Sensitive Data in Business Central AL using SecretText](../../../../posts/aardvarklabs-blog/2640.md) (community post): "SecretText protects sensitive values like API keys and authentication credentials"
 - [Dynamics 365 Business Central: using secrets in JsonObjects.](../../../../posts/demiliani-com/11796.md) (community post): "Handling secrets securely in JSON objects"
 - [BC Friday Tips #37 Inherent Permissions](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-37-inherent-permissions--d71a425273.md) (community post): "Inherent Permissions in AL allow developers to grant temporary access"
+- [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../videos/tDcT_51ktqo.md) (video): "Error Info Permission Checking; Permissions Work with Security Groups"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

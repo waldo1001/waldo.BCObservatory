@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:48.019Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,6 +140,7 @@ For testing, you can open the tablet or phone client directly in a browser with 
 ## Learn pages
 
 - [Barcode scanning in mobile app](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-mobile-app-barcode-scanning): Learn how to add bar code scanning capability to the Business Central mobile app.
+  - In the observatory: [Enum 8761 "BarcodeFailure"](../../../../../objects/enum/8761.md)
 - [Deciding on Your Tablet and Phone Strategy](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deciding-on-tablet-and-phone-strategy): Compare the options for delivering a Business Central mobile experience, including extending the tablet and phone clients, Power Apps, and connected apps.
 - [Designing for Different Screen Sizes on Tablet and Phone](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-different-screen-sizes-tablet-and-phone): Optimize your Business Central app design for various screen sizes. Learn best practices for tablet and phone clients, and how to test using a browser.
 - [Develop a Sales Rep Role Center for the Tablet Client](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walkthrough-developing-sales-rep-rolecenter-business-central-tablet-client): Create a Role Center for the Business Central Tablet client for a sales representative.

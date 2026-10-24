@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:11.221Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,10 +120,32 @@ Start with creating the databases, then configure authentication. Read the SQL S
 ## Learn pages
 
 - [Configure Business Central Database Authentication](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-sql-server-authentication): This article describes how to configure SQL Server authentication between the Dynamics Business Central instance and a database.
+  - Business Central supports Windows authentication and SQL Server authentication for database access.
+  - Windows authentication is configured by default on server instance and database.
+  - SQL Server authentication requires an encryption key to protect credentials.
+  - Step: Create encryption key using New-NAVEncryptionKey cmdlet in admin shell.
+  - Step: Import encryption key using Import-NAVEncryptionKey cmdlet on server instance and database.
+  - Step: Configure SQL Server instance to mixed authentication mode to support SQL authentication.
+  - Step: Create SQL login and map to database user with relevant privileges.
+  - Encryption key file is stored in ProgramData with filename serverinstance.key.
 - [Creating and altering Business Central databases](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/devenv-create-databases): Create a new database by using the New-NAVDatabase cmdlet in the Administration Shell.
 - [Installation considerations for Microsoft SQL Server and Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/installation-considerations-for-microsoft-sql-server): Learn about the requirements for installing and configuring Microsoft SQL Server to work with Business Central.
 - [Keeping Database Size Under the Limit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-reduce-data): Learn about the best ways to reduce data stored in Business Central databases.
+  - Reducing database size prevents reaching size limits in Business Central online, improves runtime performance, and simplifies backup and restore processes.
+  - Step: Delete unused companies such as test or demo companies to reduce stored data.
+  - Step: Delete historical documents no longer needed like invoiced purchase orders.
+  - Step: Set up retention policies to automatically delete outdated data in log and archived record tables.
+  - Business Central online automatically enables page-level data compression on tables unless CompressionType property is set to None.
+  - Step: Enable data compression on tables using CompressionType property or Start-NAVDatabaseCompression cmdlet for on-premises 2020 release wave 1 and later.
 - [Running a Business Central Database to Azure SQL Database](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/deploy-database-azure-sql-database): Learn how to deploy a Business Central database to Azure SQL Database
 - [Troubleshooting: SQL Server Connection Problems](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshooting-sql-server-connection-problems): Learn how to configure and troubleshoot SQL Server connections to Business Central.
+  - The Business Central server requires Named Pipes and TCP/IP protocols to be enabled in SQL Server Configuration Manager for proper database connectivity.
+  - Step: In SQL Server Configuration Manager, expand the SQL Server Network Configuration node and select Protocols for MSSQLSERVER to verify or enable Named Pipes and TCP/IP.
+  - Step: If a protocol is disabled, right-click it and select Enable, then restart the Business Central server.
+  - Windows Firewall must explicitly allow the SQL Server executable file sqlservr.exe as an exception to permit connections.
+  - Step: In Windows Firewall exceptions, add the SQL Server executable at C:\Program Files\Microsoft SQL Server\MSSQL*\MSSQL\Binn\sqlservr.exe.
+  - When using a named database instance with the server and SQL Server on separate computers, the SQL Browser Service must be running on the SQL Server.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

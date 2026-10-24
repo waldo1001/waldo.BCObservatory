@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/test-environment.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/test-environment",
+  "title": "Preparing test environments of Business Central",
+  "blob": "8e0396a33ab28cd070300995b0043dfe9fecd165",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Partners can create test environments for testing or pre-sales demonstrations."
+    },
+    {
+      "kind": "fact",
+      "text": "Test environments based on free 30-day trials require CSP access in Partner Center."
+    },
+    {
+      "kind": "step",
+      "text": "In Partner Center, create new test customer with test domain like contoso.onmicrosoft.com."
+    },
+    {
+      "kind": "step",
+      "text": "Subscribe to Dynamics 365 Business Central Premium Trial providing 25 licenses for 30 days."
+    },
+    {
+      "kind": "step",
+      "text": "Create test user and assign 1 Premium license; may take 10 minutes for licenses to display."
+    },
+    {
+      "kind": "fact",
+      "text": "Environment created automatically when first logging in with user credentials to Business Central."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005012,
+      "pages_in_call": 12
+    }
+  ]
+}

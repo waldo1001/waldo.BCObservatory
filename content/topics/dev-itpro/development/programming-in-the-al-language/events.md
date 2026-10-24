@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:59.700Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -170,15 +170,20 @@ Further pages cover finding events to subscribe to with the Event Recorder, and 
 
 - [Deprecate external business events](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecate-external-business-events): Learn how to deprecate external business events in AL for Business Central.
 - [Event example](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-example): This article shows a simple example of how to use events in Business Central.
+  - In the observatory: [Page 21 "Customer Card"](../../../../objects/page/21.md)
 - [Event types](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-event-types): Business Central supports different types of events including BusinessEvent, IntegrationEvent, Global, and trigger events.
+  - In the observatory: [Codeunit 40 "LogInManagement"](../../../../objects/codeunit/40.md), [Codeunit 42 "Caption Class"](../../../../objects/codeunit/42.md), [Codeunit 44 "ReportManagement"](../../../../objects/codeunit/44.md), [Codeunit 49 "GlobalTriggerManagement"](../../../../objects/codeunit/49.md)
 - [Events discoverability](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-discoverability): Using the Event Recorder, you can record the events that are published and raised while performing the actions of your scenario.
+  - In the observatory: [Page 9845 "Event Recorder"](../../../../objects/page/9845.md)
 - [Events in Microsoft Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al): Events are a programming concept that can ease application upgrade and limit the code modifications in customized applications during platform changes.
 - [Isolated events in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-isolated): Describes how isolated events work in Business Central.
 - [Notifications](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-notifications-developing): Learn how to use notifications in the development environment to send nonintrusive information to the user interface in Business Central.
 - [Publishing Events](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-publishing-events): This article describes how to create an event publisher method to publish business and integration events.
 - [Raising Events](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-raising-events): This article describes how to modify the application to raise an event in Dynamics 365 Business Central.
+  - In the observatory: [Codeunit 741 "VAT Report Release/Reopen"](../../../../objects/codeunit/741.md)
 - [Subscribing to events](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-subscribing-to-events): Designing event subscribers in AL for Business Central.
 - [Walkthrough: Implementing New Workflow Events and Responses](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walkthrough-workflow-events-responses): Learn how you can extend the native workflows by adding workflow events and responses in code to support additional business scenarios.
+  - In the observatory: [Codeunit 1501 "Workflow Management"](../../../../objects/codeunit/1501.md), [Codeunit 1502 "Workflow Setup"](../../../../objects/codeunit/1502.md), [Codeunit 1520 "Workflow Event Handling"](../../../../objects/codeunit/1520.md), [Codeunit 1521 "Workflow Response Handling"](../../../../objects/codeunit/1521.md), [Page 1501 "Workflow"](../../../../objects/page/1501.md), [Page 1523 "Workflow Response Options"](../../../../objects/page/1523.md)
 
 ## Videos, posts and code changes
 

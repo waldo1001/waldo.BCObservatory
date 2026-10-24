@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:04:38.972Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -114,6 +114,16 @@ chapters:
     title: Roadmap and Extensibility
   - t: 393
     title: Summary and Call to Action
+cautions:
+  - kind: preview-disclaimer
+    quote: variance analysis as well soon interesting features will come
+    t: 238
+  - kind: preview-disclaimer
+    quote: there's a lot more to come here this is only the beginning
+    t: 319
+  - kind: preview-disclaimer
+    quote: the ability to manage your accounts receivables from within teams if you go to the road map right now and look at what's planned for copal the finance there are some really interesting things coming
+    t: 336
 features:
   - name: Copilot for Finance
     status: unclear

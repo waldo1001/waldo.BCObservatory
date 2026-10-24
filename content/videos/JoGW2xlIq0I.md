@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:00:19.236Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:19.284Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -119,6 +119,19 @@ chapters:
     title: Assembly Order with Items and Resources
   - t: 523
     title: Assembly Item Emissions and Carbon Equivalent Per Unit
+cautions:
+  - kind: preview-disclaimer
+    quote: item charge cannot be applied in this wave. This is something what we are planning for the future
+    t: 75
+  - kind: preview-disclaimer
+    quote: In this way, we do not support uh different printouts. We have this information on post sales invoice document. But if you want to to print them, you need to add them manually to your printouts. In the future, we will see based on your…
+    t: 106
+  - kind: preview-disclaimer
+    quote: this completed functionality about value chain is in this moment in public review
+    t: 240
+  - kind: preview-disclaimer
+    quote: You will get this warning message that our suggestion will be first try this functionality in your sandbox and after you confirm everything work based on your expectation you can switch to production environment
+    t: 251
 features:
   - name: Sustainability Value Entry
     status: unclear

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:48:50.890Z"
   flags: []
 generated:
-  at: "2026-10-07T22:48:50.931Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -125,6 +125,10 @@ chapters:
     title: Agentic Development Results
   - t: 404
     title: Related Resources and Conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: we currently do not have any support for running AI or data-driven test suites
+    t: 337
 features:
   - name: Run tests in Visual Studio Code
     status: unclear

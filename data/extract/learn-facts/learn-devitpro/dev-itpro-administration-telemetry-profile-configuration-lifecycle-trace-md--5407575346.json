@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-profile-configuration-lifecycle-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-profile-configuration-lifecycle-trace",
+  "title": "Analyzing profile configuration lifecycle telemetry",
+  "blob": "49d288da2c794db4e88fa9e533f4f1e0778624aa",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Profile configuration lifecycle telemetry applies to Business Central 2022 release wave 2, version 21.0 and later"
+    },
+    {
+      "kind": "fact",
+      "text": "Tracks profile operations: import, export, create, copy, and remove from web client"
+    },
+    {
+      "kind": "fact",
+      "text": "Profile import succeeded event ID LC0046, failed event ID LC0047"
+    },
+    {
+      "kind": "fact",
+      "text": "Profile export succeeded event ID LC0048, failed event ID LC0049"
+    },
+    {
+      "kind": "fact",
+      "text": "Profile copy succeeded event ID LC0050, failed event ID LC0051"
+    },
+    {
+      "kind": "fact",
+      "text": "Profile create, remove, and customization operations tracked with LC0052 through LC0055 event IDs"
+    },
+    {
+      "kind": "fact",
+      "text": "Profile app ID empty or all-zeros indicates profile from web client, not extension"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007985,
+      "pages_in_call": 7
+    }
+  ]
+}

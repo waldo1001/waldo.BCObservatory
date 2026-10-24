@@ -494,8 +494,195 @@
   },
   "join": {
     "major": "30",
-    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
     "objects": [
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/Codeunits/FeatureSalesFR.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/10812",
+        "type": "codeunit",
+        "id": 10812,
+        "name": "Feature - Sales FR",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "codeunit/10812-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/Codeunits/SalesFR.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/10815",
+        "type": "codeunit",
+        "id": 10815,
+        "name": "Sales FR",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "codeunit/10815-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/Codeunits/SalesFRHelperProcedures.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/10807",
+        "type": "codeunit",
+        "id": 10807,
+        "name": "Sales FR Helper Procedures",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "codeunit/10807-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/Codeunits/UpgTagSalesFR.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/10810",
+        "type": "codeunit",
+        "id": 10810,
+        "name": "Upg. Tag Sales FR",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "codeunit/10810-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/EnumExtensions/FeatureSalesFR.EnumExt.al",
+        "status": "added",
+        "key": "enumextension/10800",
+        "type": "enumextension",
+        "id": 10800,
+        "name": "Feature - Sales FR",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "enumextension/10800-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/ContactCard.PageExt.al",
+        "status": "added",
+        "key": "pageextension/10812",
+        "type": "pageextension",
+        "id": 10812,
+        "name": "Contact Card",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "pageextension/10812-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/CustomerCard.PageExt.al",
+        "status": "added",
+        "key": "pageextension/10806",
+        "type": "pageextension",
+        "id": 10806,
+        "name": "Customer Card",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "pageextension/10806-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/PostedSalesCreditMemo.PageExt.al",
+        "status": "added",
+        "key": "pageextension/10807",
+        "type": "pageextension",
+        "id": 10807,
+        "name": "Posted Sales Credit Memo",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "pageextension/10807-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/PostedSalesInvoice.PageExt.al",
+        "status": "added",
+        "key": "pageextension/10808",
+        "type": "pageextension",
+        "id": 10808,
+        "name": "Posted Sales Invoice",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "pageextension/10808-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/SalesCreditMemo.PageExt.al",
+        "status": "added",
+        "key": "pageextension/10809",
+        "type": "pageextension",
+        "id": 10809,
+        "name": "Sales Credit Memo",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "pageextension/10809-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/SalesInvoice.PageExt.al",
+        "status": "added",
+        "key": "pageextension/10810",
+        "type": "pageextension",
+        "id": 10810,
+        "name": "Sales Invoice",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "pageextension/10810-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/SalesOrder.PageExt.al",
+        "status": "added",
+        "key": "pageextension/10811",
+        "type": "pageextension",
+        "id": 10811,
+        "name": "Sales Order",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "pageextension/10811-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/TableExtensions/Contact.TableExt.al",
+        "status": "added",
+        "key": "tableextension/10805",
+        "type": "tableextension",
+        "id": 10805,
+        "name": "Contact",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "tableextension/10805-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/TableExtensions/Customer.TableExt.al",
+        "status": "added",
+        "key": "tableextension/10800",
+        "type": "tableextension",
+        "id": 10800,
+        "name": "Customer",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "tableextension/10800-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/TableExtensions/SalesCrMemoHeader.TableExt.al",
+        "status": "added",
+        "key": "tableextension/10802",
+        "type": "tableextension",
+        "id": 10802,
+        "name": "Sales Cr.Memo Header",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "tableextension/10802-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/TableExtensions/SalesHeader.TableExt.al",
+        "status": "added",
+        "key": "tableextension/10801",
+        "type": "tableextension",
+        "id": 10801,
+        "name": "Sales Header",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "tableextension/10801-fr"
+      },
+      {
+        "path": "src/Apps/FR/SalesFR/app/src/TableExtensions/SalesInvoiceHeader.TableExt.al",
+        "status": "added",
+        "key": "tableextension/10804",
+        "type": "tableextension",
+        "id": 10804,
+        "name": "Sales Invoice Header",
+        "app": "SalesFR",
+        "cc": "fr",
+        "page": "tableextension/10804-fr"
+      },
       {
         "path": "src/Layers/FR/BaseApp/CRM/Contact/Contact.Table.al",
         "status": "modified",
@@ -583,26 +770,22 @@
         "app": "Base Application",
         "cc": "fr",
         "page": "report/1306"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/System/FeatureKey/SalesFRFeatureMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/10821",
+        "type": "codeunit",
+        "id": 10821,
+        "name": "Sales FR Feature Mgt.",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/10821-fr"
       }
     ],
     "unjoined": [
       {
-        "path": "src/Apps/FR/SalesFR/app/src/Codeunits/FeatureSalesFR.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Apps/FR/SalesFR/app/src/Codeunits/InstallSalesFR.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/Codeunits/SalesFR.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/Codeunits/SalesFRHelperProcedures.Codeunit.al",
         "status": "added",
         "reason": "not-in-snapshot"
       },
@@ -612,52 +795,7 @@
         "reason": "not-in-snapshot"
       },
       {
-        "path": "src/Apps/FR/SalesFR/app/src/Codeunits/UpgTagSalesFR.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Apps/FR/SalesFR/app/src/Codeunits/UpgradeSalesFR.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/EnumExtensions/FeatureSalesFR.EnumExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/ContactCard.PageExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/CustomerCard.PageExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/PostedSalesCreditMemo.PageExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/PostedSalesInvoice.PageExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/SalesCreditMemo.PageExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/SalesInvoice.PageExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/PageExtensions/SalesOrder.PageExt.al",
         "status": "added",
         "reason": "not-in-snapshot"
       },
@@ -673,31 +811,6 @@
       },
       {
         "path": "src/Apps/FR/SalesFR/app/src/ReportExtensions/StdSalesDraftInvFRExt.ReportExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/TableExtensions/Contact.TableExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/TableExtensions/Customer.TableExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/TableExtensions/SalesCrMemoHeader.TableExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/TableExtensions/SalesHeader.TableExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/SalesFR/app/src/TableExtensions/SalesInvoiceHeader.TableExt.al",
         "status": "added",
         "reason": "not-in-snapshot"
       },
@@ -735,19 +848,16 @@
         "path": "src/Layers/FR/BaseApp/Sales/History/PostedSalesInvoice.Page.al",
         "status": "modified",
         "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Layers/FR/BaseApp/System/FeatureKey/SalesFRFeatureMgt.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
       }
     ]
   },
   "systems": [
     "sales",
+    "administration",
     "crm"
   ],
   "apps": [
-    "Base Application"
+    "Base Application",
+    "SalesFR"
   ]
 }

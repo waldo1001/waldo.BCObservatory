@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:24:38.557Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,6 +115,7 @@ The pages are independent, so start with the app that matches your task. For bul
 - [Save Business Contacts to Microsoft Outlook](https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook): Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.
 - [Sharing Business Central records in Microsoft Teams](https://learn.microsoft.com/dynamics365/business-central/across-working-with-teams): Learn how to use the Business Central app for Microsoft Teams.
 - [Using Word templates for bulk communications](https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge): Word templates can make it easy to bulk create documents that are personalized for specific entities.
+  - In the observatory: [Page 9989 "Word Templates"](../../../../objects/page/9989.md)
 - [Viewing and editing in Excel from Business Central](https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel): Learn how to open pages in Microsoft Excel from Business Central for better data analysis.
 
 ## Business Central pages and reports

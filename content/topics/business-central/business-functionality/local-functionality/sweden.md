@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:53.826Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -133,6 +133,7 @@ Start with the Sweden Local Functionality page for the overall picture. Then go 
 ## More Learn pages
 
 - [EU Third-Party Purchase Transactions [SE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions): This article explains how to set up EU Third-Party Purchase Transactions with the Swedish version of Business Central.
+  - In the observatory: [Page 9308 "Purchase Invoices"](../../../../objects/page/9308.md)
 - [Sweden Local Functionality [SE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/sweden-local-functionality): The links in this article describe the different local functionality in the Swedish version of Business Central.
 
 ## Videos, posts and code changes

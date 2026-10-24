@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-company-lifecycle-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-company-lifecycle-trace",
+  "title": "Company lifecycle trace | Microsoft Docs",
+  "blob": "c7611dd6b358e313298bb2f27b9651bdab0f30ae",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Company lifecycle telemetry introduced in Business Central 2020 release wave 1, version 16.1"
+    },
+    {
+      "kind": "fact",
+      "text": "Gathers data about success or failure of company operations: creating, copying, and deleting companies"
+    },
+    {
+      "kind": "fact",
+      "text": "Failed operations produce trace log entries that include failure reason"
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry signals include company name, user ID, client type, environment details, and execution times"
+    },
+    {
+      "kind": "fact",
+      "text": "Dimension result values are Success or Failure depending on operation outcome"
+    },
+    {
+      "kind": "fact",
+      "text": "SQL execution metrics recorded include statement count, rows read, and server execution time"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007985,
+      "pages_in_call": 7
+    }
+  ]
+}

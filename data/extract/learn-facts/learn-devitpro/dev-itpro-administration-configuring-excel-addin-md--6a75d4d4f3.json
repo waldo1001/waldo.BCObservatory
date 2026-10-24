@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/configuring-excel-addin.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin",
+  "title": "Setting up the Excel Add-In for Editing Data",
+  "blob": "d01722eee649f6b1452ec364ee8bf5f312e70bf1",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Microsoft Entra ID must be configured for authentication of the server instance, clients, and users."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "OData must be enabled and use Secure Sockets Layer (SSL) for authentication."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Web server must be configured to use SSL (https) for secure connections."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Client computers must have a supported version of Excel installed."
+    },
+    {
+      "kind": "step",
+      "text": "Expose the Business Central Web API in Microsoft Entra ID by setting the Application ID URI on the Expose API page."
+    },
+    {
+      "kind": "step",
+      "text": "Register a separate Microsoft Entra application for the Excel add-in and add optional claims for email and upn."
+    },
+    {
+      "kind": "step",
+      "text": "Configure the server instance by setting Excel add-in client ID, Web Client Base URL, OData Base URL, and enabling OData and API services."
+    },
+    {
+      "kind": "fact",
+      "text": "The add-in enables the Edit in Excel action on list pages, allowing users to push changed data back to Business Central, unlike the basic Open in Excel action."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013255,
+      "pages_in_call": 4
+    }
+  ]
+}

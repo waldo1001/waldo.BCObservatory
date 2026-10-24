@@ -24,7 +24,7 @@ review:
   flags:
     - quote-check
 generated:
-  at: "2026-10-07T23:41:05.192Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -108,6 +108,15 @@ chapters:
     title: Architecture and extensibility
   - t: 998
     title: Summary and call to action
+cautions:
+  - kind: preview-disclaimer
+    quote: it can be applied to customers for vendors for company as well but we had to start from somewhere so we couldn't deliver everything in one hit
+    t: 66
+  - kind: preview-disclaimer
+    quote: this is available in a public preview and it will be available for 25.0 version
+    t: 1019
+    versions:
+      - "25"
 features:
   - name: Multiple VAT numbers for customers
     status: preview

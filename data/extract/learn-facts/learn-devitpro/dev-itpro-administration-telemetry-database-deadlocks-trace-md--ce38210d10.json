@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-database-deadlocks-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-deadlocks-trace",
+  "title": "Database Deadlock Lock Trace Telemetry",
+  "blob": "35289b7fe1825c099769a093f4a6754674110a45",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Telemetry emitted when deadlock occurs and terminates one session (victim), blocking users from completing tasks."
+    },
+    {
+      "kind": "fact",
+      "text": "Provides benefits including awareness of deadlocks, identification of victim process, and data for monitoring."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "On-premises deployments must enable EnableDeadlockMonitoring setting on server instance."
+    },
+    {
+      "kind": "fact",
+      "text": "Event RT0028 includes dimensions like AL object, client type, extension, SQL session ID."
+    },
+    {
+      "kind": "fact",
+      "text": "Complements other monitoring features like SQL database deadlock monitoring and database lock trace telemetry."
+    }
+  ],
+  "dropped": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005012,
+      "pages_in_call": 12
+    }
+  ]
+}

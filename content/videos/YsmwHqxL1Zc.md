@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:58:57.204Z"
   flags: []
 generated:
-  at: "2026-10-07T22:58:57.243Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,6 +121,19 @@ chapters:
     title: Building blocks and public preview timeline
   - t: 276
     title: Roadmap and future capabilities
+cautions:
+  - kind: preview-disclaimer
+    quote: this page is in early stages right now so this is where the bulk of our development is at the moment
+    t: 243
+  - kind: preview-disclaimer
+    quote: we aim for this agent to be available for public preview somewhere in the second half of 2025
+    t: 276
+  - kind: preview-disclaimer
+    quote: we also know it cannot stop there we need to have a good story for supporting other e doents like the E invoices
+    t: 296
+  - kind: preview-disclaimer
+    quote: we also definitely want to support purchase order matching so you get an invoice in and you map it to purchase orders and do that three-way matching
+    t: 316
 features:
   - name: Payables Agent
     status: preview

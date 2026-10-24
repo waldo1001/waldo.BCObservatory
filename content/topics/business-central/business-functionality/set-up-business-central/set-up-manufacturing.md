@@ -7,12 +7,12 @@ tier: official
 language: en
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:57.224Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -306,7 +306,7 @@ narrative: generated
 
 > Setting up manufacturing in Business Central covers the master data and settings needed before production planning and execution: work centers, routings, production BOMs, shop calendars, flushing, lot sizes, subcontracting and production families. It answers how-to and configuration questions about each of these.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up manufacturing · tier official · system manufacturing · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up manufacturing · tier official · system manufacturing · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -321,7 +321,7 @@ Start with "Configure manufacturing processes" for the overall sequence. Then se
 - The manufacturing setup page holds parameters such as normal work hours, preset output quantity, consumption calculation, capacity unit of measure and cost calculation.
 - Production BOMs support status and certification, versioning, scrap percentages, routing link codes, phantom BOMs and calculation formulas.
 - Routings can be serial or parallel and use routing links, send-ahead quantity, scrap factor and fixed scrap quantity.
-- Flushing methods include manual, forward, back and Pick + Forward, applied by operation or to the entire order.
+- Flushing methods include manual, forward, back and Pick + Forward; forward and back flushing can be applied by operation or to the entire order.
 - Shop calendars are built from work shifts, working days and holidays, then calculated for work centers and machine centers.
 - Work centers and machine centers carry direct unit cost, indirect cost and overhead rate, and can be grouped and set as capacity-constrained resources.
 - Subcontracting needs a location code on the vendor card, transfer routes (including in-transit and direct transfer), and subcontractor prices by vendor, work center or standard task with quantity breaks and date ranges.
@@ -331,17 +331,27 @@ Start with "Configure manufacturing processes" for the overall sequence. Then se
 
 - [Configure manufacturing processes](https://learn.microsoft.com/dynamics365/business-central/production-configure-production-processes): To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.
 - [Create production BOMs](https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-production-boms): Learn how to create a production bill of material (BOM), new versions of a production BOM, and how to use the quantity calculation formula.
+  - In the observatory: [Page 5841 "Standard Cost Worksheet"](../../../../objects/page/5841.md)
 - [Create routings](https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-routings): This article gives an overview of the different ways to create routings including prerequisites required and how to create routing links.
+  - In the observatory: [Page 5510 "Production Journal"](../../../../objects/page/5510.md), [Page 5841 "Standard Cost Worksheet"](../../../../objects/page/5841.md), [Page 99000786 "Production BOM"](../../../../objects/page/99000786.md), [Page 99000818 "Prod. Order Components"](../../../../objects/page/99000818.md)
 - [Flush components according to operation output](https://learn.microsoft.com/dynamics365/business-central/production-how-to-flush-components-according-to-operation-output): This article describes how to flush components according to operation output and other flushing methods involved.
+  - In the observatory: [Page 2610 "Feature Management"](../../../../objects/page/2610.md), [Page 5703 "Location Card"](../../../../objects/page/5703.md), [Page 99000786 "Production BOM"](../../../../objects/page/99000786.md)
 - [Handling Lot Sizes](https://learn.microsoft.com/dynamics365/business-central/production-handling-lot-sizes): This topic describes different ways to handle lot sizes.
+  - In the observatory: [Page 99000768 "Manufacturing Setup"](../../../../objects/page/99000768.md)
 - [Set up locations for subcontracting](https://learn.microsoft.com/dynamics365/business-central/subcontract-location-management): Learn how to configure subcontracting locations on vendor cards and set up transfer routes between your warehouse and subcontractor locations.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../objects/page/35603-ru.md), [Page 461 "Inventory Setup"](../../../../objects/page/461.md), [Page 5747 "Transfer Routes"](../../../../objects/page/5747.md)
 - [Set Up Shop Calendars](https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-work-center-calendars): Learn how to define shifts, working time, holidays, and absences for accurate production capacity calculations and resource load.
+  - In the observatory: [Page 99000760 "Machine Center Card"](../../../../objects/page/99000760.md)
 - [Set Up Standard Tasks for Operations](https://learn.microsoft.com/dynamics365/business-central/production-how-set-up-standard-routing-lines): Learn about how to set up standard tasks and add standard tasks to operations to simplify the maintenance of routings.
 - [Set up subcontracting](https://learn.microsoft.com/dynamics365/business-central/subcontract-setup): Learn how to connect outsourced production operations with vendors, work centers, comments, components, purchasing, locations, transfers, and costs.
 - [Set up subcontractor prices](https://learn.microsoft.com/dynamics365/business-central/subcontract-prices): Learn how to set up and maintain subcontractor prices for work centers, including copying prices between vendors and filtering options.
+  - In the observatory: [Page 20500 "Subcontractor Prices"](../../../../objects/page/20500.md), [Page 26 "Vendor Card"](../../../../objects/page/26.md), [Page 30 "Item Card"](../../../../objects/page/30.md), [Page 99000754 "Work Center Card"](../../../../objects/page/99000754.md), [Page 99000765 "Routing Lines"](../../../../objects/page/99000765.md)
 - [Set up work centers and machine centers](https://learn.microsoft.com/dynamics365/business-central/production-how-to-set-up-work-and-machine-centers): Learn how to set up work and machine centers to represent production resources, capacity, efficiency, calendars, and costs.
+  - In the observatory: [Page 99000866 "Capacity Constrained Resources"](../../../../objects/page/99000866.md), [Page 99000887 "Work Center Load"](../../../../objects/page/99000887.md)
 - [Use the manufacturing batch units of measure](https://learn.microsoft.com/dynamics365/business-central/production-how-to-use-the-manufacturing-batch-unit-of-measure): Learn how to calculate production components when an item is stocked in one unit of measure but produced in another.
+  - In the observatory: [Page 5404 "Item Units of Measure"](../../../../objects/page/5404.md)
 - [Work with Production Families in Manufacturing](https://learn.microsoft.com/dynamics365/business-central/production-how-work-family): Learn how to group items that share a manufacturing process so you can produce them together and reduce material scrap and repeated setup work.
+  - In the observatory: [Page 9325 "Firm Planned Prod. Orders"](../../../../objects/page/9325.md)
 
 ## Videos, posts and code changes
 

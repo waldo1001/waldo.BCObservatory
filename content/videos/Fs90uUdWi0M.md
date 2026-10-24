@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:52:57.535Z"
   flags: []
 generated:
-  at: "2026-10-07T22:52:57.570Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -147,6 +147,13 @@ chapters:
     title: Finance reporting documentation and analytics landing page
   - t: 1103
     title: Resources and community engagement
+cautions:
+  - kind: preview-disclaimer
+    quote: RDLC is the one that will be deprecated of these layouts
+    t: 869
+  - kind: preview-disclaimer
+    quote: RDLC is the one that will be deprecated of these layouts
+    t: 869
 features:
   - name: Dynamic date headers in financial reporting
     status: unclear

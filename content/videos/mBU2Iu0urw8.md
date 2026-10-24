@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:16:50.281Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -129,6 +129,19 @@ chapters:
     title: Performance Management and Pull Request Review Workflow
   - t: 2680
     title: Closing Remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: you can also specify the pre-release flag so that you get access to the latest uh bits that we're shipping
+    t: 917
+  - kind: preview-disclaimer
+    quote: I'm going to skip the planning mode completely. It was shown in the keynote very fast.
+    t: 1949
+  - kind: preview-disclaimer
+    quote: We are not doing this right away. We don't have a workflow for this one but we have it in mind
+    t: 2568
+  - kind: preview-disclaimer
+    quote: we need probably to add like another loop to make sure that agent can help with the failures in the gates
+    t: 2679
 features:
   - name: Agent Mode
     status: unclear

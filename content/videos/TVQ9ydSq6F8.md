@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:02:29.636Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:29.664Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -93,6 +93,10 @@ chapters:
     title: Resource Limitations and Scope
   - t: 308
     title: Resource Limits and Summary
+cautions:
+  - kind: preview-disclaimer
+    quote: we may change this as we collect uh data on usage just to optimize our system but this is what the limits are for now
+    t: 348
 features:
   - name: Resources in AL Extensions
     status: unclear

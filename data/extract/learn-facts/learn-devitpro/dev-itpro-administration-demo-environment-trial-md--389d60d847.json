@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/demo-environment-trial.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-trial",
+  "title": "Use trial and sandbox demo environments",
+  "blob": "d96aac08e6ae074d4547ccfe6aa2ba7200e2057b",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Prospect trial option lets you add Business Central trial directly to prospect's organization for evaluation."
+    },
+    {
+      "kind": "limit",
+      "text": "Prospect trial lasts up to 60 days; if extended once and still uncertain, prospect must contact partner."
+    },
+    {
+      "kind": "fact",
+      "text": "Sandbox environments are ideal for demos when you already have a Business Central tenant and want isolated scenarios."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "For sandbox demos, you must already have an existing Business Central tenant."
+    },
+    {
+      "kind": "limit",
+      "text": "Sandbox environments have limited functionality and performance compared to production environments."
+    },
+    {
+      "kind": "fact",
+      "text": "Partners can request dedicated partner sandbox licenses starting February 2022 to set up more sandbox environments."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005472,
+      "pages_in_call": 10
+    }
+  ]
+}

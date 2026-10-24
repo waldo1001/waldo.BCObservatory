@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration",
+  "title": "Preparing for Dynamics 365 for Sales for Integration",
+  "blob": "20c5beed03e1af64fa7aced05760f30522d84901",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Must have System Administrator security role or equivalent privileges in Dynamics 365 Sales to complete integration setup tasks."
+    },
+    {
+      "kind": "step",
+      "text": "Create non-interactive user account in Dynamics 365 Sales with privileges to write, read, modify, delete integrated entities data."
+    },
+    {
+      "kind": "step",
+      "text": "Install Business Central integration solution by copying DynamicsNAVIntegrationSolution zip file from CrmCustomization folder on installation media."
+    },
+    {
+      "kind": "fact",
+      "text": "Use DynamicsNAVIntegrationSolution_v8.zip for CRM version 8.x and earlier; use _v9.zip for version 9.0 and later."
+    },
+    {
+      "kind": "step",
+      "text": "Import solution zip in Dynamics 365 Sales to add Business Central Connection and Account Statistics entities and integration security roles."
+    },
+    {
+      "kind": "permission",
+      "text": "Assign Business Central Integration Administrator role to connection user and Business Central Integration User role to users needing integration features."
+    },
+    {
+      "kind": "fact",
+      "text": "Do not use connection user account to manually modify integrated entity records in Dynamics 365 Sales as changes will be ignored by synchronization."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

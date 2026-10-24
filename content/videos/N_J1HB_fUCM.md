@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:43:53.469Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -127,6 +127,7 @@ links:
     - feature/573306
     - feature/573307
     - feature/573308
+    - feature/576832
   topics: []
   localizations: []
   videos: []
@@ -161,6 +162,22 @@ chapters:
     title: Withholding taxes for employees
   - t: 449
     title: Localization updates
+cautions:
+  - kind: preview-disclaimer
+    quote: This is something what is coming in November minor, two new features.
+    t: 104
+  - kind: preview-disclaimer
+    quote: only an overview, cross environment master data management, I will not go deep. As I said, we have deep dive session about that
+    t: 315
+  - kind: preview-disclaimer
+    quote: Because it will be mandatory from the beginning of next year.
+    t: 475
+  - kind: preview-disclaimer
+    quote: in November, December, we will deliver two more features
+    t: 540
+  - kind: preview-disclaimer
+    quote: this is maybe not everything what we deliver in finance
+    t: 551
 features:
   - name: Multiple excise taxes per item
     status: preview
@@ -217,7 +234,9 @@ features:
     status: ga
     t: 497
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576832"
   - name: Payment terms expansion for Australia and Great Britain
     status: unclear
     t: 497
@@ -317,7 +336,7 @@ The video also covers self-billing (vendor-specific number series and PEPPOL for
 | Self-billing PEPPOL format support | status not stated | [4:52](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=292s) |  |
 | Cross environment master data management | status not stated | [5:15](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=315s) |  |
 | Withholding tax for employees | preview (roadmap [Use withholding taxes (WHT) with employee transactions](../features/573308.md)) | [6:15](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=375s) |  |
-| Invoicing for France GA | generally available | [8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s) | "we introduce invoicing for France. It will be in GA as well" ([8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s)) |
+| Invoicing for France GA | generally available (roadmap [Enable electronic invoicing in France](../features/576832.md)) | [8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s) | "we introduce invoicing for France. It will be in GA as well" ([8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s)) |
 | Payment terms expansion for Australia and Great Britain | status not stated | [8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s) |  |
 | Intrastat reporting for Germany | status not stated | [8:31](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=511s) |  |
 | Fully structured address for QR invoicing in Switzerland | status not stated | [8:31](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=511s) |  |

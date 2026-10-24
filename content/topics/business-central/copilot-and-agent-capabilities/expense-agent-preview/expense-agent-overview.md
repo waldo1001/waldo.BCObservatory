@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:05.364Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,7 +69,9 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/11955
     - change/bcapps/12472
+    - change/bcapps/12894
     - change/bcapps/9910
 learn_toc_path:
   - Copilot and agent capabilities
@@ -120,6 +122,7 @@ Start with an overview page for scope. Read the email page if receipts arrive by
 ## Learn pages
 
 - [Expense Agent overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent): Learn how the Expense Agent automates expense processing, including receipt intake, data extraction, categorization, and expense report creation.
+  - In the observatory: [Table 5222 "Employee Ledger Entry"](../../../../objects/table/5222.md), [Table 5223 "Detailed Employee Ledger Entry"](../../../../objects/table/5223.md), [Table 6900 "Expense"](../../../../objects/table/6900.md), [Table 6912 "Expense Ledger Entry"](../../../../objects/table/6912.md)
 - [Expense Agent Overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview): Learn about Expense Agent, an AI-powered tool that helps employees capture receipts, track expenses, and submit expense reports in Business Central.
 - [How the Expense Agent Processes Emails](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent): Learn how Expense Agent monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.
 - [Understand Policy Compliance in Expense Agent](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance): Learn how Expense Agent applies real-time expense rules and uses AI to evaluate your organization's natural-language expense policies.
@@ -128,7 +131,9 @@ Start with an overview page for scope. Read the email page if receipts arrive by
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11955 Slice 626975: [Expense Agent] Alternate approvers - Delegated/Substitutes (November '26)](../../../../changes/bcapps/11955.md) (code change): "Expense Agent adds alternate approvers for expense approvals"
 - [#12472 Expense Agent Default VAT Setup fails in localized companies](../../../../changes/bcapps/12472.md) (code change): "Fixes VAT setup initialization for Expense Agent in localized environments"
+- [#12894 [PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice](../../../../changes/bcapps/12894.md) (code change): "Payables Agent now recognizes vendor credit notes in PDFs"
 - [#9910 [SOA] Move attachment processing to direct model reading](../../../../changes/bcapps/9910.md) (code change): "Sales Order Agent now processes PDF and image attachments directly with GPT-4.1 mini"
 - [Expense Agent: Feedback (2026 release wave 1)](../../../../videos/6rm45dSB6xg.md) (video): "Expense Agent; Feedback; user experience; issue reporting"
 - [Expense Agent: Mobile Experience (2026 release wave 1)](../../../../videos/e_x5QF0vXgs.md) (video): "Expense Agent mobile app; Receipt capture with native OS detection; AI extraction of expense details"

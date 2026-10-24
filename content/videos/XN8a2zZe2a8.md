@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:12:12.101Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,6 +72,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-51-dimension-no-in-dimension-value--f3607da2e9
+      title: "BC Friday Tips #51 Dimension No. in Dimension Value"
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/V2mfuDh8Kfk
+      title: Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/5zXQ_aIT03s
+      title: Control When People Can Post to the General Ledger
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: post/thedynamicsexplorer-com/37202
+      title: Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/kuKwjRyNcoE
+      title: Ensure Consistency in Journals With Journal Check
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/lcu53ikOk7s
+      title: Safeguard G/L Accounts From Deletion
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/yLKISB83KW8
+      title: Set Up Your Local Currency (2024)
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/NYG4pOtW-Xw
+      title: What's New in Sustainability (2024 release wave 2)
+      label: possibly related
+      why: both name Page 56 "Purchase Orders"
+      by: code
+    - to: video/fIOnGEARkKs
+      title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1"
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/uxQRfChp96c
+      title: "What's New: Enhanced Financial Reporting (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
 video_id: XN8a2zZe2a8
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -210,3 +261,18 @@ Not found in BC28-30: page "sales and receivable setup", page "purchase and paya
 ## Disclaimers in the video
 
 - [1:50](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=110s) other: This will open the document in OneDrive if you have cloud files enabled for your Business Central
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [BC Friday Tips #51 Dimension No. in Dimension Value](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-51-dimension-no-in-dimension-value--f3607da2e9.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)](../videos/V2mfuDh8Kfk.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Control When People Can Post to the General Ledger](../videos/5zXQ_aIT03s.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?](../posts/thedynamicsexplorer-com/37202.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Ensure Consistency in Journals With Journal Check](../videos/kuKwjRyNcoE.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Safeguard G/L Accounts From Deletion](../videos/lcu53ikOk7s.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Set Up Your Local Currency (2024)](../videos/yLKISB83KW8.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [What's New in Sustainability (2024 release wave 2)](../videos/NYG4pOtW-Xw.md) — possibly related: both name Page 56 "Purchase Orders"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../videos/fIOnGEARkKs.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [What's New: Enhanced Financial Reporting (2026 release wave 1)](../videos/uxQRfChp96c.md) — possibly related: both name Page 118 "General Ledger Setup"

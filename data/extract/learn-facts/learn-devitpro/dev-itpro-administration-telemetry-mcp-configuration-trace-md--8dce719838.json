@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-configuration-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-configuration-trace",
+  "title": "Analyze MCP configuration telemetry",
+  "blob": "46eedd0411be5e1df19a33c15e5848e607fc8c9e",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available from Business Central 2026 release wave 1, version 28.0 and later."
+    },
+    {
+      "kind": "fact",
+      "text": "MCP configuration telemetry tracks creation, modification, deletion, and default designation."
+    },
+    {
+      "kind": "fact",
+      "text": "Event AL0000R0Q: MCP configuration created with settings like active, dynamic tool mode."
+    },
+    {
+      "kind": "fact",
+      "text": "Event AL0000QE9: MCP configuration modified; records old and new values for changed settings."
+    },
+    {
+      "kind": "fact",
+      "text": "Event AL0000QEB: MCP configuration deleted."
+    },
+    {
+      "kind": "fact",
+      "text": "Event AL0000R0R: MCP configuration designated as default."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005651,
+      "pages_in_call": 10
+    }
+  ]
+}

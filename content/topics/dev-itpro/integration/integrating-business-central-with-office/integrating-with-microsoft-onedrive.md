@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:45.644Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,6 +93,7 @@ Start with the integration overview to understand the user features and setup. M
 
 - [Business Central and OneDrive for Business Integration](https://learn.microsoft.com/dynamics365/business-central/across-onedrive-overview): Learn how to use OneDrive for Business to store, manage, and share files—such as reports and attachments—in Business Central. Also covers scenarios where OneDrive may be spelled as "One Drive."
 - [Extending Document Sharing and OneDrive for Business](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-document-sharing-onedrive): Learn how the document sharing capability is used with OneDrive for Business, and how you can extend it.
+  - In the observatory: [Codeunit 9510 "Document Service Management"](../../../../objects/codeunit/9510.md), [Codeunit 9560 "Document Sharing"](../../../../objects/codeunit/9560.md), [Table 9560 "Document Sharing"](../../../../objects/table/9560.md)
 
 ## Videos, posts and code changes
 

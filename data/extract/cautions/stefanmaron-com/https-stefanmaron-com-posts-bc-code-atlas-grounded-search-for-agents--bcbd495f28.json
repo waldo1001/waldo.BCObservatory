@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/",
+  "page_id": "post/stefanmaron-com/https-stefanmaron-com-posts-bc-code-atlas-grounded-search-for-agents--bcbd495f28",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "a restart bug once left search silently unavailable for about two days before anyone noticed",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "This is a young project, not a finished product, and I'd rather say that plainly than have you discover it through a failure.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006987,
+    "posts_in_call": 4
+  }
+}

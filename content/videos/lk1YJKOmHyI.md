@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:04:00.534Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:00.567Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -99,6 +99,10 @@ chapters:
     title: Event categories and default enablement
   - t: 168
     title: Data retention and advanced access methods
+cautions:
+  - kind: preview-disclaimer
+    quote: this is only the beginning of auditing business Central events in prview and we'd really like to hear your ideas on what else you would want to see
+    t: 188
 features:
   - name: Auditing Business Central events in Purview
     status: unclear

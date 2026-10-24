@@ -6,12 +6,12 @@ summary: Security for Business Central covers online security practices (MFA, en
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:36.582Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -205,7 +205,7 @@ narrative: generated
 
 > Security for Business Central covers online security practices (MFA, encryption, conditional access, audit), persona-based guidance, record-level security filters, network restriction with service tags, and a security FAQ. Subtopics cover application security (users, licenses, permission sets) and on-premises hardening.
 
-Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Security · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Security · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -240,6 +240,7 @@ Guidance is also organized by audience. The persona guide targets partners, admi
 - [Security Tips for Business Users](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-users): Learn essential security tips for business users to protect devices and data in Business Central. Discover best practices for safe browsing, MFA, and more.
 - [Use Azure security service tags](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-service-tags): List of Azure service tags for Dynamics 365 Business Central
 - [Using Security Filters](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/Security-Filters): Learn how you can configure security filters at different levels in your Business Central solution so that you can limit access to data.
+  - In the observatory: [Page 9802 "Permission Sets"](../../../objects/page/9802.md), [Page 9805 "Table Filter"](../../../objects/page/9805.md)
 
 ## Business Central pages and reports
 

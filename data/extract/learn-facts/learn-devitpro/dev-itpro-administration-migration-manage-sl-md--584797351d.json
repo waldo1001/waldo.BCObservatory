@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-manage-sl.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-sl",
+  "title": "Managing Dynamics SL cloud migration",
+  "blob": "76c8a7d0cd45cec98850db6710ac6b1a5bd7ad78",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Cloud Migration Management page provides central hub for managing migration with status tracking and error details."
+    },
+    {
+      "kind": "fact",
+      "text": "Migration Log shows status of all runs including time and progress; tiles display migrated table counts."
+    },
+    {
+      "kind": "fact",
+      "text": "Configure SL Migration action sets up migration settings for migrating company data from Dynamics SL."
+    },
+    {
+      "kind": "fact",
+      "text": "Run data replication starts migration manually; subsequent runs migrate only changes since previous run using change tracking."
+    },
+    {
+      "kind": "fact",
+      "text": "Complete migration action completes cloud migration setup from menu options."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005028,
+      "pages_in_call": 10
+    }
+  ]
+}

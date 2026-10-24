@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.018224999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:55:21.197Z",
+    "verdict": "approve",
+    "issues": [
+      "The Tips page's version (2020 release wave 2, version 17.1) is tied to Data-Access-Intent ReadOnly specifically. The source lists that version for the page as a whole, so the link is an inference. It's plausible and can stay.",
+      "The 2022 release wave 1 version on the Connect apps page is left out. Nothing is wrong because of this."
+    ],
+    "input_hash": "da1ae0cf81442acea3766ed49f1ee11c16b68ba0f51d4dbf75a87b35956e8eb6",
+    "cost_usd": 0.0496472
   }
 }

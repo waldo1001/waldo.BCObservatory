@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:06.979Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -393,8 +393,10 @@ Start with the overview page, then go to the page for the report you need. For e
 ## Learn pages
 
 - [Inventory - Availability Plan Excel (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-719): Get an overview of specific items and stock-keeping units, and their availability - all in Excel.
+  - In the observatory: [Report 707 "Inventory - Availability Plan"](../../../../../objects/report/707.md)
 - [Inventory - Transaction Detail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-704): Review all inventory movements for the selected items for a selected period. Audit historical inventory movements, such as sales, purchases, and stock transfers to determine the basis of a quantity that's currently in inventory.
 - [Inventory and Warehouse Reports and Analytics](https://learn.microsoft.com/dynamics365/business-central/inventory-WMS-reports): Explore the inventory and warehouse reports and analytics that are available in the standard version of Business Central.
+  - In the observatory: [Page 30 "Item Card"](../../../../../objects/page/30.md), [Page 5735 "Item Reference List"](../../../../../objects/page/5735.md), [Page 5737 "Item Reference Entries"](../../../../../objects/page/5737.md), [Page 6504 "Serial No. Information Card"](../../../../../objects/page/6504.md), [Page 6505 "Lot No. Information Card"](../../../../../objects/page/6505.md), [Page 6508 "Lot No. Information List"](../../../../../objects/page/6508.md)
 - [Inventory Availability (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-705): Review the current and future availability of items or SKUs. The report helps you identify potential shortages or surpluses by considering inventory, supply, and demand.
 - [Inventory Cost and price list (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-716): Analyze and manage your inventory costs and pricing strategies.
 - [Inventory Customer Sales (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-713): Analyze your customer sales per item to understand sales trends, optimize inventory management, and improve marketing efforts. Assess the relationship between discounts, sales amounts, and volume of item sales.

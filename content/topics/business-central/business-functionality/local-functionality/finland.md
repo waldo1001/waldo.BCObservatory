@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:59.471Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -151,7 +151,7 @@ narrative: generated
 
 > Finland local functionality in Business Central covers VAT and EU trade reporting, Finnish electronic banking and payment files, and core finance features such as automatic account posting and depreciation differences. It answers setup and how-to questions for Finnish regulatory needs.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Finland · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Finland · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:14.133Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,17 +119,21 @@ The remaining pages cover setup and VAT: How to Adjust Exchange Rates describes 
 ## Learn pages
 
 - [G/L balance [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance): Learn how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.
+  - In the observatory: [Page 11500 "G/L Acc. Provisional Balance (CH)"](../../../../../objects/page/11500-ch.md)
 - [How to Adjust Exchange Rates [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates): Learn how to use the official VAT currency conversion rates set by the Federal Tax Administration for taxable sales in foreign currencies.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 483 "Currency Exchange Rates"](../../../../../objects/page/483.md)
 - [Print General Ledger Setup Information [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information): Run the G/L Setup Information report in Business Central to review and verify the master data you configured before starting daily operations.
 - [Swiss General Ledger Accounts [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts): This article explains enhancements to the Swiss General Ledger Accounts and General Journals.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md), [Table 32 "Item Ledger Entry"](../../../../../objects/table/32.md)
 - [View temporary balances in GL journals [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals): Learn how to view temporary balances in general ledger journals that show the impact of a new transaction on general ledger account balances.
+  - In the observatory: [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
 
 ## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10041 [Master]-]G/L Account Sheet with Foreign Currency report (11564) includes LCY-originated entries after enabling G/L currency revaluation feature resulting in mixed-currency totals in the Swiss version. - Copy](../../../../../changes/bcapps/10041.md) (code change): "G/L Account Sheet with Foreign Currency report in Swiss version now correctly excludes local currency entries"
-- [#12754 [29.X]-Outgoing Payment Report Employee Payments Missing](../../../../../changes/bcapps/12754.md) (code change): "DTA Payment Journal report for Swiss localizations"
+- [#12754 [29.X]-Outgoing Payment Report Employee Payments Missing](../../../../../changes/bcapps/12754.md) (code change): "employee payments missing from the Swiss DTA Payment Journal report"
 
 ## Business Central pages and reports
 

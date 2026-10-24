@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:45.528Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,7 +99,9 @@ Start with the coupling page, since the other scenarios depend on records being 
 ## Learn pages
 
 - [Coupling and synchronizing](https://learn.microsoft.com/dynamics365/business-central/admin-how-to-couple-and-synchronize-records-manually): Synchronizing an integration table mapping enables data syncing in all records in a table in Business Central and Sales tables that are coupled.
+  - In the observatory: [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 5050 "Contact Card"](../../../../objects/page/5050.md)
 - [Manage customers using Dynamics 365 Sales](https://learn.microsoft.com/dynamics365/business-central/marketing-integrate-dynamicscrm): Learn how to use Dynamics 365 Sales from inside Business Central with seamless integration and synchronization in the lead-to-cash process.
+  - In the observatory: [Page 132 "Posted Sales Invoice"](../../../../objects/page/132.md), [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 7016 "Sales Price List"](../../../../objects/page/7016.md)
 - [View the Status of Synchronization Jobs](https://learn.microsoft.com/dynamics365/business-central/admin-how-to-view-synchronization-status): Use the Coupled Data Synchronization Errors page to view the status of synchronization jobs that have been run for coupled records in integrations.
 
 ## Business Central pages and reports

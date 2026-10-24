@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:00:19.486Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:19.546Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -122,6 +122,26 @@ chapters:
     title: Web Services Stack Hardening
   - t: 601
     title: Reporting Stack and Developer Features
+cautions:
+  - kind: preview-disclaimer
+    quote: for now you need to enable this with a feature management key calculate only visible flow fields and then later we will make this the default value.
+    t: 129
+  - kind: preview-disclaimer
+    quote: In version 26, you can disable this hardening behavior. So, so that in case you have endpoints that needs to be fixed, uh you can you can disable a feature management.
+    t: 407
+    versions:
+      - "26"
+  - kind: preview-disclaimer
+    quote: in the next version in October 2025 this validation will be enforced and uh you can no longer disable this hardening in feature management.
+    t: 421
+  - kind: preview-disclaimer
+    quote: note that in a later release wave this blocking will be enforced.
+    t: 508
+  - kind: preview-disclaimer
+    quote: we are also introducing font validation in version 26. it will just be for RDL layouts. In a later minor update, uh we will also add this for Word and Excel.
+    t: 881
+    versions:
+      - "26"
 features:
   - name: Net Formats for Numbers
     status: unclear

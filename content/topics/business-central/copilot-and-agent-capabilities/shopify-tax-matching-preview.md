@@ -2,33 +2,33 @@
 id: topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview
 type: topic
 title: Shopify tax matching (preview)
-summary: Shopify tax matching (preview) covers an AI-powered feature in Business Central US that maps tax information from Shopify orders to Tax Jurisdictions. It answers questions about what the feature does, how to enable and configure it per shop, and how to review, approve, undo and handle rate conflicts.
+summary: Shopify Tax Matching (preview) is a generative AI feature that maps free-text Shopify tax descriptions on imported US orders to Business Central tax jurisdictions. The section answers questions about setup per shop, review modes, approval of matches, and the feature's capabilities, limits and responsible AI considerations.
 tier: official
 language: en
 system: integration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:22:17.119Z"
+  at: "2026-10-24T00:57:02.098Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: acca85ac191cb985c08b020747648cb83552d45d7c1d56424675288c25f4168c
+  input_hash: 7231766487e9a4db69a718a969429a9cd12541426e9b42887f568d15d55714ad
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify-tax-matching-application-card
     title: Application card for Shopify Tax Matching
-    date: "2026-10-02"
+    date: "2026-10-07"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-tax-matching
     title: Set up and use Shopify Tax Matching
-    date: "2026-09-30"
+    date: "2026-10-07"
     commit: null
     t: null
     quote: null
@@ -70,28 +70,27 @@ narrative: generated
 
 # Shopify tax matching (preview)
 
-> Shopify tax matching (preview) covers an AI-powered feature in Business Central US that maps tax information from Shopify orders to Tax Jurisdictions. It answers questions about what the feature does, how to enable and configure it per shop, and how to review, approve, undo and handle rate conflicts.
+> Shopify Tax Matching (preview) is a generative AI feature that maps free-text Shopify tax descriptions on imported US orders to Business Central tax jurisdictions. The section answers questions about setup per shop, review modes, approval of matches, and the feature's capabilities, limits and responsible AI considerations.
 
 Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Shopify tax matching (preview) · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Shopify Tax Matching is a preview feature for Business Central US. It reads tax information on Shopify orders and suggests Tax Jurisdictions, using tax line titles, rates and limited location data. This helps build the structured tax setup that Business Central needs.
+Shopify Tax Matching helps online organizations in the US when imported Shopify orders contain tax lines that do not match a Business Central tax jurisdiction. The feature suggests a jurisdiction for each unmatched tax line, and users review and approve the matches before sales documents are created.
 
-The section has two pages. The application card describes what the feature does: validated suggestions, tax setup assistance, rate-conflict detection, and review and approval with configurable human review. The setup page covers the practical steps: enabling and configuring tax matching for each Shopify shop, reviewing suggestions, approving matches and managing rate conflicts.
+The section has two pages. "Set up and use Shopify Tax Matching" is the practical guide: it covers per-shop setup, the review mode, and approving matches. "Application card for Shopify Tax Matching" describes what the feature does, its limitations, safety controls and responsible AI considerations.
 
-Start with the application card to understand the scope and the role of human review. Then use the setup page to configure a shop.
+Start with the setup page if you want to turn the feature on. Read the application card first if you need to judge how the AI behaves and what oversight it expects.
 
 ## Key points
 
-- The feature is AI-powered and applies to Business Central US.
-- It suggests Tax Jurisdictions from Shopify tax line titles, rates and limited location data.
-- Suggestions are validated, and rate conflicts are detected.
-- Tax matching is enabled and configured per Shopify shop, with the Tax Matching Agent Enabled setting.
-- Auto Create Tax Jurisdictions and Auto Create Tax Areas control whether setup records are created automatically.
-- Tax Area Naming Pattern sets how created Tax Areas are named.
-- Tax Match Review Mode sets how much human review is required.
-- Approved matches can be reversed with Undo Approval.
+- The feature is in preview and targets US-based online organizations.
+- It maps free-text Shopify tax descriptions to Business Central tax jurisdictions for unmatched tax lines on imported orders.
+- Setup is done per shop. Settings include Tax Matching Agent Enabled, Auto Create Tax Jurisdictions, Auto Create Tax Areas, Tax Area Naming Pattern and Tax Match Review Mode.
+- A Shopify Tax Matching Agent permission set exists for the feature.
+- Matches are approved before sales documents are created.
+- The application card lists validated suggestions, rate-conflict detection, confidence level indicators, and review and approval as safety-related capabilities.
+- The feature also assists with tax setup, as described in the application card.
 
 ## Learn pages
 

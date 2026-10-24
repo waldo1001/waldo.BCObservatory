@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/outlook-addins-setup-naa-modification.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/outlook-addins-setup-naa-modification",
+  "title": "Modifying Outlook add-in setup for Nested App Authentication (NAA).",
+  "blob": "d6150a015dc7637d35fc2a931044d5de510c907f",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Upgrade Business Central to version 25.3, 24.9, or 23.15 depending on current version"
+    },
+    {
+      "kind": "step",
+      "text": "Expose API of registered app in Microsoft Entra ID used for authenticating users with Business Central"
+    },
+    {
+      "kind": "step",
+      "text": "Create new app registration specifically for connecting Outlook with Business Central"
+    },
+    {
+      "kind": "step",
+      "text": "Configure Business Central web server instance to work with Exchange Online"
+    },
+    {
+      "kind": "fact",
+      "text": "Legacy Exchange Online tokens are deprecated and turned off starting February 2025"
+    }
+  ],
+  "dropped": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007005,
+      "pages_in_call": 8
+    }
+  ]
+}

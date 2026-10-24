@@ -1,11 +1,11 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/france/vat",
   "input_hash": "5338fbe75b078d8642c09646460e675b9040b17e150705c9c40d65e1161503b7",
-  "summary": "French VAT localization in Business Central: exporting general ledger entries for tax audits (FEC format or XML) and setting up the Declaration of Trade in Goods (DEB). It answers questions on audit file export and DEB reporting requirements.",
+  "summary": "French VAT in Business Central covers three tasks. You can export general ledger entries in the FEC audit file format for French corporate tax and VAT audits. You can export G/L entries to an XML file for external archiving. You can also set up reporting for the Declaration of Trade in Goods (DEB). Use it for questions about audit file export, archiving G/L entries and DEB setup requirements.",
   "overview": "This section covers three French compliance tasks. Two concern exporting general ledger entries: one produces the FEC audit file used for French corporate tax and VAT audits, and the other writes G/L entries to an XML file for external archiving. Both filter by date range.\n\nThe third page explains how to prepare Business Central for the Declaration of Trade in Goods (DEB). It lists the required setup fields, obligation levels, transaction specification filters and validation steps.\n\nStart with the FEC export page if you face a tax audit, with the XML page if you need to archive entries, and with the DEB requirements page before reporting trade in goods.",
   "key_points": [
-    "The FEC audit file export is the format for French corporate tax and VAT audits.",
-    "FEC export can include opening balances, with an opening balance calculation and Detailed Balance on G/L Accounts.",
+    "The FEC audit file export is required for French corporate tax and VAT compliance.",
+    "FEC export can optionally include opening balances. The page also mentions opening balance calculation and Detailed Balance on G/L Accounts.",
     "FEC export filters by date range and writes to a file.",
     "The XML export archives posted G/L Entry records for a chosen period and supports fiscal year closing.",
     "DEB setup involves CISD setup, Registration No., VAT Registration No. and Statistics Period.",
@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.012476000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:56:40.130Z",
+    "verdict": "fix",
+    "issues": [
+      "The summary says both FEC and XML exports are for tax audits. The sources say only the FEC export is for French tax audits; the XML export is for external archiving. I corrected the summary.",
+      "Key point 2 lists Detailed Balance on G/L Accounts as part of FEC export. The source names it as a feature without saying how it relates, so I reworded the point to stick to what is listed.",
+      "The overview and the other key points match the page summaries."
+    ],
+    "input_hash": "5338fbe75b078d8642c09646460e675b9040b17e150705c9c40d65e1161503b7",
+    "cost_usd": 0.0299552
   }
 }

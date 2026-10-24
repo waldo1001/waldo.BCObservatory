@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:48.293Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,15 +78,15 @@ narrative: generated
 
 > Austria general functionality in Business Central covers audit-related tools: exporting GL and VAT entries for auditing with the Audit Files Export extension, and printing general ledger setup information in the Austrian version. It answers questions about audit data exports and verifying setup for compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > General · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section groups two audit-focused pages for the Austrian version of Business Central. One describes exporting data for auditors, the other describes a report that prints the general ledger setup for checking.
+This section groups two audit-related pages under the Austria local functionality section of Business Central. One describes exporting data for auditors. The other describes a report in the Austrian version that prints the general ledger setup so you can check it.
 
-The export page explains the Audit Files Export extension, which exports GL and VAT entries in formats such as SIE, FEC, and SAF-T, with GL account mapping. The setup page covers the G/L Setup Information report, which prints master data, posting groups, VAT setup, and source codes so you can verify configuration.
+The export page explains the Audit Files Export extension, which exports GL and VAT entries in formats such as SIE, FEC, and SAF-T. It also covers GL account mapping, data quality checks, parallel processing, and zip export. The setup page covers the G/L Setup Information report, which prints general ledger master data, posting groups, VAT setup, and source codes for verification and audit compliance.
 
-Start with the setup report to check that the configuration is correct. Then use the export page to prepare the audit-ready data files.
+Use the setup report page when you need to review or verify general ledger configuration. Use the export page when you need to produce audit data files from GL and VAT entries.
 
 ## Key points
 

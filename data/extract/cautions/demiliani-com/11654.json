@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/demiliani-com/11654",
+  "page_id": "post/demiliani-com/11654",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "With version 26, the possibility to expose a Microsoft page as SOAP endpoint will be disabled by default.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "26",
+        "2025 Wave 1"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "In Dynamics 365 Business Central version 29 the possibility to expose a Microsoft page as SOAP endpoint will be removed forever.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "You will also start receiving a warning if you expose a Microsoft UI page as an OData endpoint via the web service page.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "26",
+        "2025 Wave 1"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "Starting from Dynamics 365 Business Central version 30, this will be no longer possible.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "30"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003463,
+    "posts_in_call": 2
+  }
+}

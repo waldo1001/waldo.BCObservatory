@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:12:08.911Z"
   flags: []
 generated:
-  at: "2026-10-07T23:12:08.965Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -205,6 +205,10 @@ chapters:
     title: Jailbreaking prevention, meta-prompting, and AI toolkit
   - t: 1502
     title: Azure OpenAI Studio and prompt development tools
+cautions:
+  - kind: preview-disclaimer
+    quote: we don't talk about it yet we don't really talk about it yet right but but I I hope we will be able to productize this somewhat soon
+    t: 173
 features:
   - name: Marketing text generation
     status: ga

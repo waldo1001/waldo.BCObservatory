@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:14:11.197Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:11.242Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -125,6 +125,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-how-to-export-audit-files
+      title: Export data for auditing
+      label: possibly related
+      why: names Page 5260 "G/L Account Mapping"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa
+      title: Standard chart of accounts in Denmark
+      label: possibly related
+      why: names Page 5260 "G/L Account Mapping"
+      by: code
+    - to: video/q7ZokiKuhcw
+      title: Use Company Badges to Identify the Company
+      label: possibly related
+      why: both name Page 1 "Company Information"
+      by: code
 video_id: 205F8ljmInU
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -158,6 +174,16 @@ chapters:
     title: Data Retention and GDPR Compliance
   - t: 1045
     title: Summary and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: all new plan features are part of 2023 release wave two but they will not all of them will be available in October they will be finishing next minors and ready for the beginning uh new calendar year
+    t: 353
+  - kind: preview-disclaimer
+    quote: this app is still work in progress and it will be finished soon so it will be ready for the beginning of usage of new BKP G and certification process
+    t: 893
+  - kind: preview-disclaimer
+    quote: this solution will be automatically set up and this is still work in progress uh we are we are finishing the these procedures but it will be on a time as I said for certification
+    t: 1027
 features:
   - name: Mandatory Digital Vouchers
     status: announced
@@ -296,5 +322,13 @@ Not found in BC28-30: page "VAT Posting Setup for SAF-T", page "Audit Document".
 - [5:53](https://www.youtube.com/watch?v=205F8ljmInU&t=353s) coming-later: all new plan features are part of 2023 release wave two but they will not all of them will be available in October they will be finishing next minors and ready for the beginning uh new calendar year
 - [14:53](https://www.youtube.com/watch?v=205F8ljmInU&t=893s) preview: this app is still work in progress and it will be finished soon so it will be ready for the beginning of usage of new BKP G and certification process
 - [17:07](https://www.youtube.com/watch?v=205F8ljmInU&t=1027s) preview: this solution will be automatically set up and this is still work in progress uh we are we are finishing the these procedures but it will be on a time as I said for certification
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Export data for auditing](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-export-audit-files) — possibly related: names Page 5260 "G/L Account Mapping"
+- [Standard chart of accounts in Denmark](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa) — possibly related: names Page 5260 "G/L Account Mapping"
+- [Use Company Badges to Identify the Company](../videos/q7ZokiKuhcw.md) — possibly related: both name Page 1 "Company Information"
 
 Presenters (as heard): Alexander, Sasha.

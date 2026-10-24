@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:43:05.096Z"
   flags: []
 generated:
-  at: "2026-10-22T01:09:20.607Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -126,6 +126,12 @@ chapters:
     title: Hotfix installation guidance and best practices
   - t: 791
     title: Dev extensions persistence on sandbox environments
+cautions:
+  - kind: preview-disclaimer
+    quote: PTE management in the extension management pages in an environment and in the automation API uh will be deprecated as of version 30.0 which is scheduled to be released in April 2027
+    t: 522
+    versions:
+      - "30"
 features:
   - name: PTE upload, install, and update in admin center
     status: ga

@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/thinkaboutit-be/8037",
+  "page_id": "post/thinkaboutit-be/8037",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Set it too high and you unknowingly require a platform version your customer has not reached yet.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Assuming a higher runtime number means more compatible. It means the opposite: it raises your minimum required platform version.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003389,
+    "posts_in_call": 4
+  }
+}

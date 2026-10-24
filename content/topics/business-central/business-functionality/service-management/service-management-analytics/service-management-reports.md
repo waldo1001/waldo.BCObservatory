@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:51.300Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -359,6 +359,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13183
 learn_toc_path:
   - Business functionality
   - Service management
@@ -474,6 +476,12 @@ This section lists the individual reports used to analyze and document service m
 - [Service Profit (Service Items) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5938): Get an overview on profit for service items.
 - [Service Quote (document report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5902): Generate a service quote document that you can send to your customer.
 - [Service Tasks (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5904): Get an overview of service tasks.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#13183 [Master]-Service Order created from Service Contract does not populate header dimensions until Dimensions action is opened](../../../../../changes/bcapps/13183.md) (code change): "The issue affected the Create Contract Service Orders report"
 
 ## Business Central pages and reports
 

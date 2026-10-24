@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:58.854Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Danish banking and payments functionality in Business Central: the Payments and Reconciliations (DK) extension with its supported bank file formats, and the FIK transaction text values in the payment reconciliation journal. It answers questions on Danish payment export, bank reconciliation, and FIK matching results.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Banking & payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -90,6 +90,8 @@ Start with the extension page to understand the formats and setup. Then use the 
 ## Learn pages
 
 - [FIK details in the payment reconciliation journal](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal): The Transaction Text field shows information about the automatic application of payments using the Danish FIK standard.
+  - In the observatory: [Page 1290 "Payment Reconciliation Journal"](../../../../../objects/page/1290.md)
 - [Payments and Reconciliations (DK) Extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-payments-reconciliation-formats-dk): This extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
+  - In the observatory: [Page 256 "Payment Journal"](../../../../../objects/page/256.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

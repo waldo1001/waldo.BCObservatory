@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:53:56.836Z"
   flags: []
 generated:
-  at: "2026-10-07T22:53:56.880Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,6 +81,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/gerardorenteria-blog/11565
+      title: AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257
+      title: Analysis Mode killed half the Excel exports on your client's shared drive
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: post/aardvarklabs-blog/2565
+      title: "Business Central 2027 release wave 1: Preparing for OData Endpoint Removal"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/sIWz2yPqLpo
+      title: "Business Central BC29: Control Global Symbol Versions"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/_JkZCp64jNw
+      title: Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/demiliani-com/12439
+      title: "Dynamics 365 Business Central: controlling the Summary system part."
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/thedynamicsexplorer-com/8821
+      title: Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: post/thedynamicsexplorer-com/36822
+      title: Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: post/aardvarklabs-blog/1756
+      title: Effortless Layout Editing in Business Central
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/mZNfMPpxovE
+      title: Historical Snapshot (2024)
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
 video_id: q0TxpWfm9rc
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -236,5 +287,20 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [4:31](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=271s) "from this release onwards, we are also introducing and developer way for configuring whether they want the summarization uh on a certain page uh"
 - [4:56](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=296s) "it is already available for all business central online countries and regions. And it's also available for all type of environments in all languages"
 - [5:12](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=312s) "Now it's with support of 20 languages and it works with all all card and document pages."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../posts/gerardorenteria-blog/11565.md) — possibly related: both name Page 21 "Customer Card"
+- [Analysis Mode killed half the Excel exports on your client's shared drive](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../posts/aardvarklabs-blog/2565.md) — possibly related: both name Page 21 "Customer Card"
+- [Business Central BC29: Control Global Symbol Versions](../videos/sIWz2yPqLpo.md) — possibly related: both name Page 21 "Customer Card"
+- [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../videos/_JkZCp64jNw.md) — possibly related: both name Page 21 "Customer Card"
+- [Dynamics 365 Business Central: controlling the Summary system part.](../posts/demiliani-com/12439.md) — possibly related: both name Page 21 "Customer Card"
+- [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../posts/thedynamicsexplorer-com/8821.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Effortless Layout Editing in Business Central](../posts/aardvarklabs-blog/1756.md) — possibly related: both name Page 21 "Customer Card"
+- [Historical Snapshot (2024)](../videos/mZNfMPpxovE.md) — possibly related: both name Page 16 "Chart of Accounts"
 
 Presenters (as heard): Monica Aja.

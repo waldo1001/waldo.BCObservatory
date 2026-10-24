@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/claude-code-dev-container-al/",
+  "page_id": "post/stefanmaron-com/https-stefanmaron-com-posts-claude-code-dev-container-al--96fc93c109",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Claude Code stores its authentication state in files under ~/.claude/ and in ~/.claude.json at the home root.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Because ~/.claude.json was outside the mount scope, Claude Code saw valid, unexpired credentials but still triggered the full onboarding wizard.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "With bypass permissions enabled, Claude Code can run git push, create PRs, interact with the GitHub API — anything.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004687,
+    "posts_in_call": 4
+  }
+}

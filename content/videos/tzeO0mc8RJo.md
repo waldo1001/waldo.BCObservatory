@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:08:47.126Z"
   flags: []
 generated:
-  at: "2026-10-07T23:08:47.176Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -236,6 +236,25 @@ chapters:
     title: Demo of AppSource apps experience
   - t: 2000
     title: Additional developer tools and resources
+cautions:
+  - kind: preview-disclaimer
+    quote: the functionality is currently limited to a select set of applications but we intend to open up for everyone to use this in the future
+    t: 860
+  - kind: preview-disclaimer
+    quote: The functionality is currently limited to a select set of applications but we intend to open up for everyone to use this in the future
+    t: 881
+  - kind: preview-disclaimer
+    quote: we support sandbox environments um I think I made a said production just before to test it out but we actually only support uh production uh for now
+    t: 1083
+  - kind: preview-disclaimer
+    quote: the preview support is uh something that we actually uh shipped in the 203 release or 20 2023 release wave uh 2 uh minor um so we kind of you know backported it
+    t: 1100
+  - kind: preview-disclaimer
+    quote: this embedded appsource experience has been deprecated by the appsource team from uh basically now April 2024
+    t: 1724
+  - kind: preview-disclaimer
+    quote: this is something that we release as a preview in 2024 release way 1
+    t: 2051
 features:
   - name: Object extensions in same application
     status: unclear

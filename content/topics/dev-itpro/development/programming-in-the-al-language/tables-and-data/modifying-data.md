@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:52.535Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,7 +100,6 @@ links:
   videos: []
   posts:
     - post/demiliani-com/12267
-    - post/duiliotacconi-com/1717
     - post/duiliotacconi-com/1850
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a
   guidelines: []
@@ -129,7 +128,7 @@ coverage:
   learn: 9
   code: 0
   video: 0
-  blog: 4
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 1242a3f477119c1dd5c8b2c5e078f53fa12519072c5f7804aaef3189aae77595
@@ -170,6 +169,7 @@ Start with the Insert, Modify and Delete methods page for the basics. Then go to
 - [Integer virtual table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-integer-virtual-table): The integer virtual table in AL for Dynamics 365 Business Central
 - [Synchronizing extension test data](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-retaining-data-after-publishing): Retaining table data after publishing an extension
 - [Temporary tables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-temporary-tables): Learn about temporary tables in AL for Business Central.
+  - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md), [Table 49 "Invoice Post. Buffer"](../../../../../objects/table/49.md)
 - [Virtual tables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-virtual-tables): Virtual tables are system tables in AL for Dynamics 365 Business Central
 - [Working With Media on Records](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-working-with-media-on-records): Learn how to upload media, such as an image, to the database for displaying with records in the client.
 
@@ -190,7 +190,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#133 Add TransferFields SkipFieldsNotMatchingType guidance](../../../../../changes/bcquality/133.md) (code change): "TransferFields only errors on type mismatches within the same extension"
 - [#209 3 AL/BC patterns: Insert/Delete trigger defaults on master data and declined Confirm in OnValidate](../../../../../changes/bcquality/209.md) (code change): "Record.Insert() and Delete() skip OnInsert and OnDelete by default"
 - [Dynamics 365 Business Central: finally we’ll have TRUNCATE table in SaaS.](../../../../../posts/demiliani-com/12267.md) (community post): "Rec.Truncate AL method to enable efficient bulk deletion of table rows"
-- [LockTimeoutDuration in AL](../../../../../posts/duiliotacconi-com/1717.md) (community post): "AL code can call Database.LockTimeoutDuration to raise or lower the lock timeout"
 - [Rec.Truncate in AL](../../../../../posts/duiliotacconi-com/1850.md) (community post): "Rec.Truncate is a new AL method based on SQL Server TRUNCATE"
 - [BC Friday Tips #68 Always Use Field Validation](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a.md) (community post): "Field validation in Business Central extensions ensures all business logic runs"
 

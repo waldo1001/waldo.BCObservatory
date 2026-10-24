@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:09.180Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -179,13 +179,20 @@ Start with the overview, then set up a data exchange definition and a supplier b
 ## Learn pages
 
 - [Data exchange definitions](https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/dataexchangedefinitions): You can use data exchange definitions in usage-based billing.
+  - In the observatory: [Codeunit 8030 "Generic Import Mappings"](../../../../../objects/codeunit/8030.md), [Table 8018 "Usage Data Generic Import"](../../../../../objects/table/8018.md)
 - [Extend contract](https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/extend-contract): You can extend contracts in usage-based billing.
+  - In the observatory: [Page 8002 "Extend Contract"](../../../../../objects/page/8002.md)
 - [Import data in usage-based billing](https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/imports-processing): You can import and process data in usage-based billing.
+  - In the observatory: [Page 8096 "Usage Data Billing Metadata"](../../../../../objects/page/8096.md)
 - [Link supplier subscriptions with subscriptions](https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/connect-subscription-service-object): You can link supplier subscriptions with subscriptions in usage-based billing.
+  - In the observatory: [Page 8038 "Usage Data Generic Import"](../../../../../objects/page/8038.md)
 - [Overview of usage-based billing](https://learn.microsoft.com/dynamics365/business-central/UBB/welcome): Get an overview of the features for usage-based billing.
+  - In the observatory: [Page 8067 "Recurring Billing"](../../../../../objects/page/8067.md)
 - [Rebilling usage data](https://learn.microsoft.com/dynamics365/business-central/UBB/processing-usage-data/rebilling): Business Central automatically rebills usage data that arrives for an already-invoiced period.
+  - In the observatory: [Page 8035 "Usage Data Billings"](../../../../../objects/page/8035.md)
 - [Subscription lines in usage billing](https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/service-commitments): You can use subscription lines in usage-based billing.
 - [Usage data supplier references](https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/references): You can use references in usage-based billing.
+  - In the observatory: [Page 30 "Item Card"](../../../../../objects/page/30.md), [Page 8037 "Usage Data Customers"](../../../../../objects/page/8037.md)
 - [Usage data suppliers](https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/suppliers): You can use suppliers in usage-based billing.
 - [Usage-based billing customers and subscriptions](https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/customers-subscriptions): You can use customer subscriptions in usage-based billing.
 

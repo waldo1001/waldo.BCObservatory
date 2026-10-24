@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T22:55:01.510Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:01.549Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -85,6 +85,12 @@ chapters:
     title: Analytics Module in Action
   - t: 72
     title: Release Timeline
+cautions:
+  - kind: preview-disclaimer
+    quote: This should land in Business Central in 27.1ish
+    t: 87
+    versions:
+      - "27"
 features:
   - name: Analytics module in Contoso demo tool
     status: unclear

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:09:05.749Z"
   flags: []
 generated:
-  at: "2026-10-07T23:09:05.803Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -217,7 +217,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/577820
   topics: []
   localizations: []
   videos: []
@@ -264,6 +265,37 @@ chapters:
     title: Roadmap and Timeline for AI Resources
   - t: 1675
     title: Developer Toolkit, Data Privacy and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: these methods do not include our um provided system meta prompt um but that will be coming
+    t: 517
+  - kind: preview-disclaimer
+    quote: private preview will happen pretty soon after the business centrer launch event
+    t: 1573
+  - kind: preview-disclaimer
+    quote: the ETA for priate review is pretty soon so this 24x release so either 24.0 in April or 24.1 in May
+    t: 1593
+    versions:
+      - "24"
+  - kind: preview-disclaimer
+    quote: the ETA for priate review is pretty soon so this 24x release so either 24.0 in April or 24.1 in May
+    t: 1613
+    versions:
+      - "24"
+  - kind: preview-disclaimer
+    quote: public preview we will introduce a new process to satisfy responsible AI requirement
+    t: 1634
+  - kind: preview-disclaimer
+    quote: General availability ETA still to be determined or TBD depending on the preview feedbacks and result
+    t: 1655
+  - kind: preview-disclaimer
+    quote: the ETF for public preview will be the next release around 25th uh 25x version
+    t: 1655
+    versions:
+      - "25"
+  - kind: preview-disclaimer
+    quote: some of these cap abilities are considered previous specifications on Asia and AI side and in the toolkit we will not support any preview specification um at all
+    t: 1757
 features:
   - name: Instructional Text in Prompt Dialog
     status: unclear
@@ -329,7 +361,9 @@ features:
     status: preview
     t: 1254
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: AI Credit Resource Governance
     status: unclear
     t: 1451
@@ -526,7 +560,7 @@ The second half covers keeping up with model versions using version-agnostic str
 | Tool Choice Specific Function Mode | status not stated | [16:55](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1015s) |  |
 | Model Version Management | status not stated, demoed | [18:16](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1096s) |  |
 | Version Agnostic Model Strings | status not stated, demoed | [18:36](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1116s) |  |
-| Managed and Shared AI Resources | preview | [20:54](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1254s) | "private preview will happen pretty soon after the business centrer launch event" ([26:13](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1573s)) |
+| Managed and Shared AI Resources | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [20:54](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1254s) | "private preview will happen pretty soon after the business centrer launch event" ([26:13](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1573s)) |
 | AI Credit Resource Governance | status not stated | [24:11](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1451s) |  |
 | Operational Limits for Fair Use | status not stated | [24:51](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1491s) |  |
 | AI Quota Entitlements | status not stated | [25:12](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1512s) |  |
@@ -539,6 +573,8 @@ The second half covers keeping up with model versions using version-agnostic str
 | GPT-3.5 Turbo model recommendation | status not stated | [31:30](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1890s) |  |
 | AL toolkit open source on GitHub | status not stated | [33:47](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=2027s) |  |
 | Data privacy and AI model training | status not stated | [34:07](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=2047s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

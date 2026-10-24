@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:09:02.505Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -111,6 +111,10 @@ chapters:
     title: Selecting and reusing previous exchange rates
   - t: 495
     title: Results and future improvements
+cautions:
+  - kind: preview-disclaimer
+    quote: We will make a few more improvements over the next one or two releases to make it an even smoother process, giving you more overview.
+    t: 534
 features:
   - name: Consolidation status list
     status: unclear

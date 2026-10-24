@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:27.163Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,7 +204,7 @@ narrative: generated
 
 > Multi-site and international organizations in Business Central: how a hub-and-spoke company structure is supported through financial consolidation and intercompany transactions. It answers questions about combining subsidiary ledger data and handling transactions between legal entities.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Multi-site and international organizations · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Multi-site and international organizations · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

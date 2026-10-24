@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:17.645Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,6 +89,8 @@ Start with the overview page to understand the two events, then follow the creat
 ## Learn pages
 
 - [Creating a Printer Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-create-printer-extension): Describes how to create an extension that sets up cloud printers.
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../objects/codeunit/44.md), [Codeunit 9520 "Mail Management"](../../../../objects/codeunit/9520.md)
 - [Developing printer extensions in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing): Dynamics 365 Business Central supports printing reports to cloud-based printers.
+  - In the observatory: [Page 64 "Printer Selections"](../../../../objects/page/64.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

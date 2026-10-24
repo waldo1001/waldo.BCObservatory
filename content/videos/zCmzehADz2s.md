@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:57:35.671Z"
   flags: []
 generated:
-  at: "2026-10-07T22:57:35.709Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -175,6 +175,12 @@ chapters:
     title: Revenue reports by item, customer, and sales staff
   - t: 420
     title: Revenue forecast report and conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: Note that this will be not released in April, but in 26.1. So, you have to wait an extra month for this.
+    t: 19
+    versions:
+      - "26"
 features:
   - name: Power BI app for subscription billing
     status: announced

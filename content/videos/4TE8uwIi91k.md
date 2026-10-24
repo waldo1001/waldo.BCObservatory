@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:43:07.495Z"
   flags: []
 generated:
-  at: "2026-10-23T01:10:04.337Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -157,9 +157,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573254
-    - feature/573255
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -194,6 +192,13 @@ chapters:
     title: Summary of mobile app feature parity with web app
   - t: 359
     title: Availability and preview status of the mobile app
+cautions:
+  - kind: preview-disclaimer
+    quote: it's still in preview
+    t: 359
+  - kind: preview-disclaimer
+    quote: the app is still in beta, which means you will get to accept some beta conditions and beta program
+    t: 381
 features:
   - name: Receipt scanning with auto capture
     status: preview
@@ -214,9 +219,7 @@ features:
     status: preview
     t: 133
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "573254"
+    status_source: video
   - name: Offline mode for receipt handling
     status: preview
     t: 233
@@ -231,9 +234,7 @@ features:
     status: preview
     t: 298
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "573255"
+    status_source: video
   - name: Expense categorization and agent processing
     status: preview
     t: 204
@@ -308,18 +309,18 @@ It then shows offline mode, where receipts and expenses are added without a conn
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Receipt scanning with auto capture | preview, demoed | [0:51](https://www.youtube.com/watch?v=4TE8uwIi91k&t=51s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Bulk receipt upload | preview, demoed | [1:06](https://www.youtube.com/watch?v=4TE8uwIi91k&t=66s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Gallery share functionality for receipts | preview, demoed | [1:44](https://www.youtube.com/watch?v=4TE8uwIi91k&t=104s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Mileage expense creation on mobile | preview (roadmap [Add date ranges and vehicle types in your mileage calculation](../features/573254.md)), demoed | [2:13](https://www.youtube.com/watch?v=4TE8uwIi91k&t=133s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Offline mode for receipt handling | preview, demoed | [3:53](https://www.youtube.com/watch?v=4TE8uwIi91k&t=233s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Expense submission on mobile | preview, demoed | [4:30](https://www.youtube.com/watch?v=4TE8uwIi91k&t=270s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Expense approval on mobile | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [4:58](https://www.youtube.com/watch?v=4TE8uwIi91k&t=298s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Expense categorization and agent processing | preview, demoed | [3:24](https://www.youtube.com/watch?v=4TE8uwIi91k&t=204s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+Every feature below: preview, demoed.
 
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
+| Feature | At | Evidence |
+|---|---|---|
+| Receipt scanning with auto capture | [0:51](https://www.youtube.com/watch?v=4TE8uwIi91k&t=51s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Bulk receipt upload | [1:06](https://www.youtube.com/watch?v=4TE8uwIi91k&t=66s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Gallery share functionality for receipts | [1:44](https://www.youtube.com/watch?v=4TE8uwIi91k&t=104s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Mileage expense creation on mobile | [2:13](https://www.youtube.com/watch?v=4TE8uwIi91k&t=133s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Offline mode for receipt handling | [3:53](https://www.youtube.com/watch?v=4TE8uwIi91k&t=233s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Expense submission on mobile | [4:30](https://www.youtube.com/watch?v=4TE8uwIi91k&t=270s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Expense approval on mobile | [4:58](https://www.youtube.com/watch?v=4TE8uwIi91k&t=298s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Expense categorization and agent processing | [3:24](https://www.youtube.com/watch?v=4TE8uwIi91k&t=204s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 
 ## Quotes
 

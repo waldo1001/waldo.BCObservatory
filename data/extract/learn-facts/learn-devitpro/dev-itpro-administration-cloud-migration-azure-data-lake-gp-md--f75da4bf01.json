@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-azure-data-lake-gp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-azure-data-lake-gp",
+  "title": "Move Dynamics GP database to Azure Data Lake",
+  "blob": "d3024e936d70e248448833ecb574c204c4c98529",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Can create copy of Dynamics GP database in Azure Data Lake for future reference after migration."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Azure Data Lake Gen2 storage account with access to storage account name and key."
+    },
+    {
+      "kind": "step",
+      "text": "Open Cloud Migration Management page and select Azure Data Lake action."
+    },
+    {
+      "kind": "step",
+      "text": "Complete Azure Data Lake Migration Setup guided wizard."
+    },
+    {
+      "kind": "fact",
+      "text": "Database folder in Azure Data Lake is always named gp-database; can rename after migration."
+    },
+    {
+      "kind": "fact",
+      "text": "Subfolders follow Dynamics GP series folder naming conventions; unmapped files go to 3rd Party folder."
+    },
+    {
+      "kind": "fact",
+      "text": "Must delete gp-database folder and contents before running wizard again."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004442,
+      "pages_in_call": 13
+    }
+  ]
+}

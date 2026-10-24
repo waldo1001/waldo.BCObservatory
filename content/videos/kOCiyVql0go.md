@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:44:21.436Z"
   flags: []
 generated:
-  at: "2026-10-07T22:44:21.479Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -128,14 +128,45 @@ evidence:
     t: 427
     quote: We lock or we write two types of logs in Business Central for for this export or synchronization. An overview and details
 links:
-  learn: []
-  objects: []
-  features: []
+  learn:
+    - https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring
+  objects:
+    - object/permissionset/48530
+    - object/permissionset/48531
+    - object/permissionset/48532
+  features:
+    - feature/574126
   topics: []
   localizations: []
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: object/permissionset/48530
+      title: Permission set 48530 "Fabric Exp Admin"
+      label: names
+      why: one of the Fabric permission sets the video shows at 9:11
+      by: override
+    - to: object/permissionset/48531
+      title: Permission set 48531 "Fabric Exp Read"
+      label: names
+      why: one of the Fabric permission sets the video shows at 9:11
+      by: override
+    - to: object/permissionset/48532
+      title: Permission set 48532 "Fabric Exp Activate"
+      label: names
+      why: one of the Fabric permission sets the video shows at 9:11
+      by: override
+    - to: https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring
+      title: Set up Business Central data mirroring to Microsoft Fabric
+      label: documents
+      why: the setup the video walks through in three steps
+      by: override
+    - to: post/waldo-be/318707
+      title: "Business Central data in Fabric: the way it should be"
+      label: possibly related
+      why: both are about Business Central data mirroring to Microsoft Fabric
+      by: override
 video_id: kOCiyVql0go
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -165,42 +196,65 @@ chapters:
     title: Monitoring from Fabric and permission sets
   - t: 564
     title: Resources and closing
+cautions:
+  - kind: preview-disclaimer
+    quote: coming in public preview in version 29.x, likely 9 29.1
+    t: 19
+    versions:
+      - "29"
+  - kind: preview-disclaimer
+    quote: In two versions, they will be available uh soon either as code samples or on AppSource
+    t: 333
 features:
   - name: Business Central Fabric mirroring
-    status: preview
+    status: announced
     t: 7
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574126"
   - name: Microsoft Fabric integration app
-    status: preview
+    status: announced
     t: 132
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574126"
   - name: Mirror database in OneLake
-    status: preview
+    status: announced
     t: 265
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574126"
   - name: Multi-company Power BI apps
     status: announced
     t: 315
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574126"
   - name: Synchronization overview and details logs
-    status: preview
+    status: announced
     t: 427
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574126"
   - name: Fabric integration APIs
-    status: preview
+    status: announced
     t: 499
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574126"
   - name: Fabric integration permission sets
-    status: preview
+    status: announced
     t: 539
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574126"
 objects_mentioned: []
 quotes:
   - t: 19
@@ -263,13 +317,15 @@ It also covers Power BI apps converted to run on the Fabric backend, with single
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Business Central Fabric mirroring | preview, demoed | [0:07](https://www.youtube.com/watch?v=kOCiyVql0go&t=7s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
-| Microsoft Fabric integration app | preview, demoed | [2:12](https://www.youtube.com/watch?v=kOCiyVql0go&t=132s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
-| Mirror database in OneLake | preview, demoed | [4:25](https://www.youtube.com/watch?v=kOCiyVql0go&t=265s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
-| Multi-company Power BI apps | announced, demoed | [5:15](https://www.youtube.com/watch?v=kOCiyVql0go&t=315s) | "In two versions, they will be available uh soon either as code samples or on AppSource" ([5:33](https://www.youtube.com/watch?v=kOCiyVql0go&t=333s)) |
-| Synchronization overview and details logs | preview, demoed | [7:07](https://www.youtube.com/watch?v=kOCiyVql0go&t=427s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
-| Fabric integration APIs | preview, demoed | [8:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=499s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
-| Fabric integration permission sets | preview | [8:59](https://www.youtube.com/watch?v=kOCiyVql0go&t=539s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
+| Business Central Fabric mirroring | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [0:07](https://www.youtube.com/watch?v=kOCiyVql0go&t=7s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
+| Microsoft Fabric integration app | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [2:12](https://www.youtube.com/watch?v=kOCiyVql0go&t=132s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
+| Mirror database in OneLake | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [4:25](https://www.youtube.com/watch?v=kOCiyVql0go&t=265s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
+| Multi-company Power BI apps | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [5:15](https://www.youtube.com/watch?v=kOCiyVql0go&t=315s) | "In two versions, they will be available uh soon either as code samples or on AppSource" ([5:33](https://www.youtube.com/watch?v=kOCiyVql0go&t=333s)) |
+| Synchronization overview and details logs | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [7:07](https://www.youtube.com/watch?v=kOCiyVql0go&t=427s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
+| Fabric integration APIs | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [8:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=499s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
+| Fabric integration permission sets | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)) | [8:59](https://www.youtube.com/watch?v=kOCiyVql0go&t=539s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 
@@ -285,3 +341,16 @@ It also covers Power BI apps converted to run on the Fabric backend, with single
 
 - [0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s) preview: coming in public preview in version 29.x, likely 9 29.1
 - [5:33](https://www.youtube.com/watch?v=kOCiyVql0go&t=333s) coming-later: In two versions, they will be available uh soon either as code samples or on AppSource
+
+## Linked pages
+
+- [Permission set 48530 "Fabric Exp Admin"](../objects/permissionset/48530.md) — names: one of the Fabric permission sets the video shows at 9:11 (checked by hand)
+- [Permission set 48531 "Fabric Exp Read"](../objects/permissionset/48531.md) — names: one of the Fabric permission sets the video shows at 9:11 (checked by hand)
+- [Permission set 48532 "Fabric Exp Activate"](../objects/permissionset/48532.md) — names: one of the Fabric permission sets the video shows at 9:11 (checked by hand)
+- [Set up Business Central data mirroring to Microsoft Fabric](https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring) — documents: the setup the video walks through in three steps (checked by hand)
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Business Central data in Fabric: the way it should be](../posts/waldo-be/318707.md) — possibly related: both are about Business Central data mirroring to Microsoft Fabric (checked by hand)

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:46.314Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -214,6 +214,7 @@ Supporting pages handle specific work: C/AL to AL conversion with Txt2Al, moving
 
 - [Business Central Upgrade Compatibility Matrix](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility): Provides an overview of the Business Central versions and their compatibility
 - [Code Conversion from C/AL to AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/devenv-code-conversion): Description of the conversion process from C/AL to AL.
+  - In the observatory: [Codeunit 150 "System Initialization"](../../../../../objects/codeunit/150.md)
 - [General Information and Considerations When Upgrading to Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-considerations-v23): This article provides tips and considerations to prepare a solution when you're planning to upgrade to Business Central 2023 release wave 2 and later.
 - [India Data migration Toolkit Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/india-data-migration-toolkit-overview): Specifies India Data Migration Toolkit Overview
 - [Install a version 23 update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v23): This article describes the tasks required for getting the monthly version 23 update applied to your Dynamics 365 Business Central on-premises.
@@ -225,9 +226,11 @@ Supporting pages handle specific work: C/AL to AL conversion with Txt2Al, moving
 - [Technical Upgrade to Version 23](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v23): Describes how to do a technical upgrade from Business Central V19, V20, V21, V22 to V23
 - [Upgrade to Business Central 2023 Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v23): Provides an overview of Business Central 2023 Release Wave 2 upgrade.
 - [Upgrading Customized C/AL Application to Microsoft Base Application for version 23](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v23): Describes how to do an upgrade from a customized Business Central 14 to Microsoft Base Application for version 23.
+  - In the observatory: [Table 1670 "Option Lookup Buffer"](../../../../../objects/table/1670.md), [Table 265 "Document Entry"](../../../../../objects/table/265.md), [Table 338 "Entry Summary"](../../../../../objects/table/338.md), [Table 7330 "Bin Content Buffer"](../../../../../objects/table/7330.md)
 - [Upgrading Microsoft System and Base Application to Version 23](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v23): Describes how to upgrade an unmodified Business Central versions 15 through 22 to version 23
 - [Upgrading Permission Sets and Permissions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-permissions): Describes how to upgrade permissions and permission sets
 - [Upgrading Reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-reports): Describes how to upgrade reports
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md)
 - [Upgrading Unmodified C/AL Application to version 23](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v14-v23): Describes how to upgrade an unmodified Business Central 14 application to version 23
 
 ## Videos and posts

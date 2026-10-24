@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:12.958Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,19 +58,13 @@ links:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
   videos:
-    - video/06vgkq2EXmA
-    - video/2uXVammbab0
-    - video/gvIGhtqADS0
-    - video/j5ULVClJaKU
     - video/mhfjycxWTyY
-    - video/oFG9gBkd2NU
     - video/TSLXzbeyE7Y
     - video/V7NgFOIcGgM
     - video/WL3m2dffwU8
     - video/YX9UfUF0EsA
   posts:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442
-    - post/vondervoort-be/84
   guidelines: []
   changes:
     - change/bcapps/11204
@@ -84,8 +78,8 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 10
-  blog: 2
+  video: 5
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 2062629c7a6a6ebd37a1793d9251eb5c396f63abc802c925e789a385ca6b189a
@@ -131,13 +125,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11204 Chat v2 privacy notice behavior changed to not auto agree for Eval companies](../../../changes/bcapps/11204.md) (code change): "Copilot chat privacy notice now requires explicit agreement for evaluation companies"
 - [#9206 Added new privacy policy for BizChat depending on Microsoft Copilot 365 with EEA environments behavior changes](../../../changes/bcapps/9206.md) (code change): "New privacy policy for Microsoft Copilot in Chat V2 with EEA-specific behavior changes"
 - [Microsoft Copilot in Business Central: What the New Unified Chat Experience Means](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442.md) (community post): "unified Copilot-style chat that reasons over Business Central data"
-- [Dutch Dynamics Community Event 10 February 2026](../../../posts/vondervoort-be/84.md) (community post): "using Copilot for AI pair programming in AL development"
-- [Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central](../../../videos/06vgkq2EXmA.md) (video): "How we built Copilot Chat in Business Central"
-- [What's New: Chat with Copilot (2025 release wave 1)](../../../videos/2uXVammbab0.md) (video): "Chat with Copilot; natural language queries; record filtering"
-- [Conversational Chat using Copilot in Dynamics 365 Business Central ( 2024 release wave 1)](../../../videos/gvIGhtqADS0.md) (video): "Conversational Chat using Copilot in Dynamics 365 Business Central"
-- [Introducing: Chat with Copilot ( 2024 release wave 1)](../../../videos/j5ULVClJaKU.md) (video): "Chat with Copilot; Record finding capability; Conversational query refinement"
 - [Business Central Gets a New Microsoft Copilot Chat Experience](../../../videos/mhfjycxWTyY.md) (video): "Business Central Gets a New Microsoft Copilot Chat Experience; unified experience; conversational ai"
-- [What's New: Enhancements to Chat with Copilot (2025 release wave 2)](../../../videos/oFG9gBkd2NU.md) (video): "Copilot Chat with Third-Party Documentation; Bing Search Integration"
 - [What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/TSLXzbeyE7Y.md) (video): "Microsoft Copilot Chat in Business Central; sales tax configuration assistance; Copilot recommendations"
 - [What's new: Demystifying the New Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/V7NgFOIcGgM.md) (video): "Microsoft Copilot Chat in Business Central; Agentic Loop; Intent Detection; Citations"
 - [Introducing: New Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/WL3m2dffwU8.md) (video): "Unified Microsoft Copilot Chat; Multi-turn Copilot conversation"

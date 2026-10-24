@@ -6,12 +6,12 @@ summary: Develop covers how partners and developers build, customize, publish, m
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:53:55.414Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -315,7 +315,7 @@ narrative: generated
 
 > Develop covers how partners and developers build, customize, publish, maintain and retire Business Central apps and extensions. It answers questions about getting started as a publisher, app lifecycle, marketplace submission and validation, localization, embed apps, and Microsoft versus partner responsibilities.
 
-Path: [Get started](../get-started.md) > Develop · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [Get started](../get-started.md) > Develop · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -344,6 +344,10 @@ After release, the lifecycle and maintenance pages explain service updates, brea
 ## More Learn pages
 
 - [Add your App to Marketplace](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appsource): Read about how to get your app added to the Microsoft marketplace, Marketplace.
+  - Marketplace is where partners provide marketing details about apps such as descriptions and whitepapers.
+  - Limit: Embed app solutions are not uploaded to Marketplace; they upload to Lifecycle Services instead.
+  - Prerequisite: Once app is in Marketplace, next submissions cannot have breaking changes without obsoleting AL objects first.
+  - Limit: Breaking changes on tables or table extensions are not allowed for published apps.
 - [Components and capabilities](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/app-components): Discover Dynamics 365 Business Central App Components & Deployment Steps - Microsoft's Base Application, Platform Updates, & Ecosystem Integrations.
 - [Customizing Tenants](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants): Read about how to build fully custom functionality or adapt what is already available out-of-the box.
 - [Development of a Localization Solution](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization): Comply with regulatory requirements in Dynamics 365 Business Central.
@@ -354,5 +358,7 @@ After release, the lifecycle and maintenance pages explain service updates, brea
 - [Microsoft's responsibilities for apps on Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/microsoft-responsibilities): Learn about what Microsoft does for your apps and your customers.
 - [The SMB opportunity for app publishers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher): Learn about the business opportunity we see for software companies in the SMB space if you build your solution on Dynamics 365 Business Central.
 - [Update Lifecycle for Tenant Customizations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle): Overview of the process of ensuring extension compatibility with update versions
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

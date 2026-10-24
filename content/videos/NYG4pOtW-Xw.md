@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:05:44.132Z"
   flags: []
 generated:
-  at: "2026-10-07T23:05:44.187Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -211,6 +211,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/XN8a2zZe2a8
+      title: Become More Efficient With Background Posting
+      label: possibly related
+      why: both name Page 56 "Purchase Orders"
+      by: code
 video_id: NYG4pOtW-Xw
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -245,6 +251,20 @@ chapters:
     title: Certificates for Items and Vendors
   - t: 1241
     title: Release Timeline and Cloud Sustainability Integration
+cautions:
+  - kind: preview-disclaimer
+    quote: will come in 25.1 we will update demo data tool so now you have all demo data for previous features but for all these nice great new features updated demo tool will come in November
+    t: 331
+    versions:
+      - "25"
+  - kind: preview-disclaimer
+    quote: if you look in a preview posting this is regular document but you have sustainability Ledger entries
+    t: 827
+  - kind: preview-disclaimer
+    quote: all all of them except demo data will come with a major version 25 uh demo data will come with the next minor 25 5.1
+    t: 1322
+    versions:
+      - "25"
 features:
   - name: Sustainability Manager Role Center
     status: preview
@@ -485,5 +505,11 @@ Not found in BC28-30: table "Sustainability Scorecards", table "Sustainability G
 - [13:47](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=827s) preview: if you look in a preview posting this is regular document but you have sustainability Ledger entries
 - [21:01](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1261s) other: this is not that we have this functionality embedded in a busy Center yes we already started previous fa now we uh en Reach This functionality we will continue with investment in sustainability features
 - [22:02](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s) subject-to-change: all all of them except demo data will come with a major version 25 uh demo data will come with the next minor 25 5.1
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Become More Efficient With Background Posting](../videos/XN8a2zZe2a8.md) — possibly related: both name Page 56 "Purchase Orders"
 
 Presenters (as heard): Alexander Toic, Unknown speaker.

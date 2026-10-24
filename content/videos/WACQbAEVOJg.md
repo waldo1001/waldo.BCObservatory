@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:45:29.976Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,6 +121,10 @@ chapters:
     title: Inventory put-away and pick for direct transfers
   - t: 896
     title: "Quality inspection enhancements: user roles and workflow automation"
+cautions:
+  - kind: preview-disclaimer
+    quote: majority of subcontracting was added in minor release, but we added something in this release as well
+    t: 17
 features:
   - name: Subcontracting comments and attachments on purchase lines
     status: ga

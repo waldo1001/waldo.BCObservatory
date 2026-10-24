@@ -2,12 +2,12 @@
   "inputs": [
     7,
     [
-      "af1b860dae5aeeb1369d4ed450c2c980e372a161",
+      "dc14cfd1217fbd3fa364b63565e752e5f0653955",
       "4",
       9472,
-      "af1b860dae5aeeb1369d4ed450c2c980e372a161",
+      "dc14cfd1217fbd3fa364b63565e752e5f0653955",
       "4",
-      6904
+      6905
     ]
   ],
   "schema": "al-relations@1",
@@ -121598,6 +121598,11 @@
         "obsolete": null,
         "subs": []
       },
+      "OnCustUnrealizedVATOnBeforeGetUnrealizedVATPart": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnCustUnrealizedVATOnBeforeInitGLEntryVAT": {
         "kind": "integration",
         "obsolete": null,
@@ -122639,6 +122644,11 @@
         "subs": []
       },
       "OnVendPostApplyVendLedgEntryOnBeforeRunCheck": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnVendUnrealizedVATOnAfterCalcPaidAmount": {
         "kind": "integration",
         "obsolete": null,
         "subs": []
@@ -218987,6 +218997,17 @@
       }
     },
     "page/6181": {
+      "OnAfterValidateEvent(Applies-to Vendor Inv. No.)": {
+        "kind": "trigger_event",
+        "obsolete": null,
+        "subs": [
+          {
+            "s": "codeunit/6103",
+            "proc": "OnAfterValidateDraftPageAppliesToVendorInvNo",
+            "app": "EDocument"
+          }
+        ]
+      },
       "OnAfterValidateEvent(Invoice Discount)": {
         "kind": "trigger_event",
         "obsolete": null,
@@ -283430,7 +283451,7 @@
     }
   },
   "dead_events": {
-    "count": 22496
+    "count": 22498
   },
   "unresolved": [
     {
@@ -293520,9 +293541,9 @@
     "drilldown_page": 517,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5171,
+    "subscribes": 5172,
     "edges": 20545,
-    "published_events": 26299,
-    "dead_events": 22496
+    "published_events": 26302,
+    "dead_events": 22498
   }
 }

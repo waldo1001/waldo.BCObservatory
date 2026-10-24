@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:19:33.145Z"
   flags: []
 generated:
-  at: "2026-10-07T23:19:33.192Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -105,6 +105,10 @@ chapters:
     title: Developer Implementation Guide
   - t: 476
     title: Summary and Recommendations
+cautions:
+  - kind: preview-disclaimer
+    quote: it's not yet added on the incoming documents, but I'm pretty sure sooner than later, it'll also be available there
+    t: 332
 features:
   - name: Image Preview in Web Client
     status: ga

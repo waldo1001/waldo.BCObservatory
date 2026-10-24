@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:18.682Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -377,9 +377,42 @@ Supporting pages include custom migration from any SQL source (no-code mappings,
 ## More Learn pages
 
 - [Custom migration from any SQL source](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration): Learn how to set up and run custom migrations from any SQL-based source to Business Central online, including no-code options and custom migration apps.
+  - No-code custom migration lets you select specific tables to copy from SQL source without writing code.
+  - Replication mapping type copies data during data replication runs; Setup mapping type copies data during assisted setup before companies are created.
+  - Prerequisite: Source database must contain company table with Name and Display Name fields as primary key and nvarchar(250) respectively.
+  - Limit: System tables inaccessible by AL code cannot be migrated by any migration tool.
+  - Custom migration apps extend Intelligent Cloud Base app and implement Custom Migration Provider and Custom Migration Table Mapping interfaces.
+  - Table mappings define source SQL table, destination SQL table, company name, and whether to preserve existing cloud data.
+  - Business Central 14 reimplementation is an extensible reference app showing patterns for buffer tables, phased execution, and error handling.
+  - BC14 reimplementation lets you disable standard modules for G/L, Receivables, Payables, and Inventory to migrate only custom tables.
+  - In the observatory: [Enum 4010 "Custom Migration Provider"](../../../objects/enum/4010.md), [Interface "Custom Migration Provider"](../../../objects/interface/custom-migration-provider.md), [Interface "Custom Migration Table Mapping"](../../../objects/interface/custom-migration-table-mapping.md), [Table 40033 "Migration Setup Table Mapping"](../../../objects/table/40033.md), [Table 40034 "Replication Table Mapping"](../../../objects/table/40034.md)
 - [FAQ about Migrating to Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/faq-migrate-data): Get answers to frequently asked questions about migrating to Business Central online from on-premises solutions, including supported versions and data limits.
+  - Prerequisite: On-premises solution must use SQL Server 2016 or later with database compatibility level 130 or higher.
+  - Data migrates using Azure Data Factory service with self-hosted integration runtime managing communication between cloud and on-premises SQL Server.
+  - Limit: No restrictions on data type; database storage limit applies; less than 30 GB per migration run recommended to avoid 80 GB threshold disabling admin tasks.
+  - SQL connection string is encrypted and passed to Azure Data Factory for use during data replication process.
+  - Only tables available in both on-premises and online migrate; customizations must be converted to extensions and installed in both systems.
+  - On-premises users are added to Intelligent Cloud user group; online environment is read-only during migration.
+  - Data replication is one way only from on-premises to Business Central online; must stop using on-premises after going live.
+  - Limit: On-premises users and permissions do not replicate; users must be manually added and permissions granted in cloud tenant.
 - [Migrate on-premises data to Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data): Learn to set up cloud data migration to Business Central online from supported Dynamics versions and Business Central on-premises, managed by Azure Data Factory.
+  - Status: Generally available.
+  - Customers from non-SQL sources can use configuration packages to migrate to on-premises first, then to online.
+  - QuickBooks customers can use Microsoft apps to migrate directly to Business Central online.
+  - Migration paths exist for Business Central, Dynamics GP, Dynamics SL, and Dynamics NAV.
+  - Business Central 14 reimplementation tool migrates only master data, opening balances, and setup.
+  - Custom migration from any SQL source is supported.
 - [Troubleshooting Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting): Learn how to troubleshoot problems that you might experience with the cloud migration to Business Central online from on-premises.
+  - SQL Server compatibility level must be 130 or higher; query sys.databases or run ALTER DATABASE command to set it correctly.
+  - Change tracking must be enabled on database; run ALTER DATABASE command to enable with 3-day retention and auto-cleanup.
+  - Prerequisite: Cloud migration requires users to have Business Central license and SUPER permission set to run setup and migration tasks.
+  - Integration Runtime must be version 5 if machine has .NET Framework Runtime 4.7.2; otherwise use version 4.
+  - When reusing Integration Runtime for multiple migrations, enter its name in Data Migration Setup instead of leaving field blank.
+  - Limit: Cannot migrate multiple on-premises databases to same online environment or same database to multiple environments simultaneously.
+  - Check applicationVersion field in $ndo$tenantdatabaseproperty table; if blank or outdated, migration cannot run.
+  - Step: After migration completes, run Repair Companion Table Records action on Cloud Migration Management page if data is missing.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 

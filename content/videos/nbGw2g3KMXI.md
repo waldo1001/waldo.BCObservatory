@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:19:30.893Z"
   flags: []
 generated:
-  at: "2026-10-07T23:19:30.978Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -102,6 +102,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/bertverbeek-nl/1219
+      title: Agents in Business Central – part 1 – the architecture
+      label: possibly related
+      why: both name Codeunit 4316 "Agent Task Message Builder"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-attachments
+      title: Attachment capabilities and limitations (preview)
+      label: possibly related
+      why: names Codeunit 4316 "Agent Task Message Builder"
+      by: code
+    - to: video/Fk6kWTe3f2Y
+      title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: video/YX9UfUF0EsA
+      title: "Microsoft presents: Introducing M365 Copilot Chat in Business Central"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: video/6vHJQggN4F4
+      title: "What's New: Product Information Management in Shopify Connector (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-agent-tests
+      title: Write agent tests
+      label: possibly related
+      why: names Codeunit 4316 "Agent Task Message Builder"
+      by: code
 video_id: nbGw2g3KMXI
 channel: yt-areopa
 source_name: Areopa webinars
@@ -142,6 +173,33 @@ chapters:
     title: Agent configuration, KPI tracking, and AL development
   - t: 2763
     title: "Q&A: Sandbox, attachments, multi-agent, and security"
+cautions:
+  - kind: preview-disclaimer
+    quote: it cannot be implemented inside the production uh the minimum version is 27.4
+    t: 374
+    versions:
+      - "27"
+  - kind: preview-disclaimer
+    quote: it's currently is just for prototyping because it's only working in in sandbox
+    t: 438
+  - kind: preview-disclaimer
+    quote: please be aware it's uh currently possible inside production because it's still in preview
+    t: 478
+  - kind: preview-disclaimer
+    quote: Agent Factory codeunit and Agent Beta Data interface - part of agent development framework
+    t: 2298
+  - kind: preview-disclaimer
+    quote: Configuration Dialogue page type is a new page type for agent setup
+    t: 2361
+  - kind: preview-disclaimer
+    quote: later on the road map there will be also that copilot agents can interact with AL agents
+    t: 2611
+  - kind: preview-disclaimer
+    quote: it is prototyping only. It's working only on an sandbox for it
+    t: 2631
+  - kind: preview-disclaimer
+    quote: agents are only available on sandbox environments at the moment
+    t: 2700
 features:
   - name: Sales order agent
     status: unclear
@@ -537,5 +595,16 @@ Not found in BC28-30: interface "Agent Beta Data", page "Configuration Dialogue"
 - [45:00](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2700s) not-in-this-release: agents are only available on sandbox environments at the moment
 - [45:23](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2723s) preview: It is still on on on preview. They are really testing right now
 - [45:23](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2723s) coming-later: there is no end date from or there's sorry no date from when it will be available for uh production environments
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Agents in Business Central – part 1 – the architecture](../posts/bertverbeek-nl/1219.md) — possibly related: both name Codeunit 4316 "Agent Task Message Builder"
+- [Attachment capabilities and limitations (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-attachments) — possibly related: names Codeunit 4316 "Agent Task Message Builder"
+- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Page 31 "Item List"
+- [Microsoft presents: Introducing M365 Copilot Chat in Business Central](../videos/YX9UfUF0EsA.md) — possibly related: both name Page 31 "Item List"
+- [What's New: Product Information Management in Shopify Connector (2026 release wave 1)](../videos/6vHJQggN4F4.md) — possibly related: both name Page 31 "Item List"
+- [Write agent tests](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-agent-tests) — possibly related: names Codeunit 4316 "Agent Task Message Builder"
 
 Presenters (as heard): Tobias Fencler, Bat Fabake.

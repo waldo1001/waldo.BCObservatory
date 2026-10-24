@@ -20,5 +20,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.015355
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:55:18.690Z",
+    "verdict": "approve",
+    "issues": [
+      "The version notes in two key points, '(2026 release wave 1, version 28.0)' on the container setup and '(2021 release wave 2)' on resourceExposurePolicy, come from the pages' version lists. They could be misread as the releases that introduced these features. Saying they mark which release the docs apply to, or dropping them, would be clearer.",
+      "The overview's suggested reading order is the writer's own guidance, not taken from the inputs, but it is reasonable and makes no factual claims."
+    ],
+    "input_hash": "6401e98a17e0dd98e1b79d9036a76d73f33b88a612063e7a1819b1e59555b35f",
+    "cost_usd": 0.040755200000000005
   }
 }

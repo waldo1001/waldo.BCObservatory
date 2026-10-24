@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:32.007Z"
   flags: []
 generated:
-  at: "2026-10-07T23:17:32.074Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -149,6 +149,25 @@ chapters:
     title: Q&A - Extension limitations and API coverage
   - t: 2656
     title: Q&A - On-premises support and environment provisioning
+cautions:
+  - kind: preview-disclaimer
+    quote: that we enabled for our partners by providing some samples on our open-source BC Tech repository on GitHub
+    t: 62
+  - kind: preview-disclaimer
+    quote: this is a public preview and um we are hoping to open up more more APIs and more scenarios going forward
+    t: 318
+  - kind: preview-disclaimer
+    quote: This is a security measure for our public preview.
+    t: 799
+  - kind: preview-disclaimer
+    quote: you can even use them S2S authentication if you have the application and you uh, change this sample a little ...
+    t: 2443
+  - kind: preview-disclaimer
+    quote: this is a a public preview. It's version one.
+    t: 2474
+  - kind: preview-disclaimer
+    quote: we would like to add it to admin API. So, it most likely will appear in in the future.
+    t: 2633
 features:
   - name: Admin MCP Server for Business Central
     status: preview

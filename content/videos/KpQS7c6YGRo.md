@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:14:56.739Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:56.782Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -127,6 +127,19 @@ chapters:
     title: Setup instructions and configuration requirements
   - t: 744
     title: Summary, developer resources, and call to action
+cautions:
+  - kind: preview-disclaimer
+    quote: throughout the preview of marketing Tech suggestions we've received some incredibly encouraging and positive feedback
+    t: 40
+  - kind: preview-disclaimer
+    quote: coming from preview straight away you'll see that this uh there's no reference to preview text anymore in the fact box
+    t: 184
+  - kind: preview-disclaimer
+    quote: we're already hard at work with verifying the next batch of languages which we will announce later on for this particular feature
+    t: 530
+  - kind: preview-disclaimer
+    quote: hopefully this additional setup step uh will will go away in the future
+    t: 724
 features:
   - name: Marketing Text Suggestions
     status: ga

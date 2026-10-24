@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-api-metadata-validation-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-api-metadata-validation-trace",
+  "title": "Analyze API metadata validation telemetry",
+  "blob": "2f4f2531c9e875f5ab13f67b2ee701be2b52ba75",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available from Business Central 2024 release wave 2 and later."
+    },
+    {
+      "kind": "fact",
+      "text": "API metadata validation telemetry identifies configuration issues preventing API pages from exposing correctly."
+    },
+    {
+      "kind": "fact",
+      "text": "Event RT0048: Two or more API pages use same API path, creating conflict."
+    },
+    {
+      "kind": "fact",
+      "text": "Event RT0037: API page has invalid configuration preventing exposure."
+    },
+    {
+      "kind": "fact",
+      "text": "Event RT00049: API pages have circular references through navigation properties."
+    },
+    {
+      "kind": "fact",
+      "text": "Event RT0050: API page defines invalid root entity."
+    },
+    {
+      "kind": "fact",
+      "text": "Event RT0051: API page has conflicting navigation properties with same name but different targets."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005651,
+      "pages_in_call": 10
+    }
+  ]
+}

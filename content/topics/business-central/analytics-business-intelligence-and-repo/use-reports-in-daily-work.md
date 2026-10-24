@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:01.578Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -158,10 +158,14 @@ Start with the landing page, then go to "Run and print reports" for the basic wo
 - [Analyzing report data with Excel and XML](https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel): Learn how to use Excel and XML to analyze a report dataset.
 - [Bookmark link to page or report on role center](https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks): Using the bookmark icon, you can add an action that opens a page or report from the navigation menu of your role center.
 - [Manage Saved Settings for Reports and Batch Jobs](https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings): Describes hwo the admin can set up predefined options and filters for a report and share those settings with one or all users.
+  - In the observatory: [Page 1560 "Report Settings"](../../../objects/page/1560.md)
 - [Run and print reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-work-report): Learn how to add a report to the job queue and schedule it to run on a specific date and time.
+  - In the observatory: [Page 64 "Printer Selections"](../../../objects/page/64.md), [Page 672 "Job Queue Entries"](../../../objects/page/672.md), [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md), [Page 9660 "Report Layouts"](../../../objects/page/9660.md)
 - [Set the Layout Used by a Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-set-report-layout): Learn how to select the default report layout for each company, temporarily use another layout, and distinguish layout selection from reusable branding.
 - [Share and Export Reports with the Report Inbox](https://learn.microsoft.com/dynamics365/business-central/ui-work-report-inbox): Learn how to use the Report Inbox page to download, share, export, and delete reports in Business Central.
+  - In the observatory: [Page 672 "Job Queue Entries"](../../../objects/page/672.md)
 - [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
+  - In the observatory: [Page 2616 "Printer Management"](../../../objects/page/2616.md), [Page 64 "Printer Selections"](../../../objects/page/64.md)
 - [Use reports in your daily work](https://learn.microsoft.com/dynamics365/business-central/reports-use-reports): Provides an overview of the reporting features in Business Central.
 
 ## Videos and posts

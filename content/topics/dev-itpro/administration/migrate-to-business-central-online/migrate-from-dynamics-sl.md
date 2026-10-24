@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:06.493Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -184,7 +184,22 @@ The section's own pages cover the last two steps. One runs the data upgrade, whi
 ## More Learn pages
 
 - [Complete cloud migration for Dynamics SL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-sl): Learn how to complete the data migration from Dynamics SL to Business Central online.
+  - Step: Disable cloud migration by opening Cloud Migration Management page and selecting Complete Cloud.
+  - Disabling cloud migration deletes environment setup but integration runtime remains.
+  - Integration runtime cloud registration automatically cleans up if unused for couple of weeks.
+  - Step: Create accounts in Microsoft 365 tenant with Business Central license for each on-premises user.
+  - Step: Create Business Central accounts linked to Microsoft 365 email and assign proper permissions.
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../objects/page/40063.md), [Page 4020 "Post Migration Checklist"](../../../../objects/page/4020.md)
 - [Upgrade data for Dynamics SL cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade-sl): Discover the process for running the data upgrade as part of Dynamics SL cloud migration.
+  - Prerequisite: Data replication must complete for companies being migrated before running data upgrade.
+  - Step: Ask active Business Central users to finish tasks and sign out before starting data upgrade.
+  - When data upgrade starts, all client connections are terminated and cannot reconnect until upgrade completes.
+  - Step: Open Cloud Migration Management page and select Run data upgrade to schedule upgrade process.
+  - Data upgrade transforms Dynamics SL tables into Business Central tables.
+  - Hotfixes and scheduled tasks cannot run during data upgrade to prevent database locks and errors.
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../objects/page/40063.md)
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Business Central pages and reports
 

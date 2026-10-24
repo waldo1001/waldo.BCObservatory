@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 513f0bca39532a99a376d3fb037c6fc87fc8e0d20e384e7122c05713be3e9a6f
@@ -98,6 +98,7 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 - [OutStream data type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/outstream/outstream-data-type): Is a generic stream object that you can use to write to files and BLOBs.
 - [System.CopyStream(OutStream, InStream [, Integer]) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-copystream-method): Copies the information that is contained in an InStream to an OutStream.
 - [Using streams in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-streams-overview): Introducing how to work with streams in Business Central AL code.
+  - In the observatory: [Codeunit 4100 "Temp Blob"](../../../../../objects/codeunit/4100.md), [Codeunit 4110 "Base64 Convert"](../../../../../objects/codeunit/4110.md)
 - [Write, WriteText, Read, and ReadText Method Behavior](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-write-read-methods-line-break-behavior): Write, WriteText, Read, and ReadText Method Behavior for Line Endings and Zero Terminators.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

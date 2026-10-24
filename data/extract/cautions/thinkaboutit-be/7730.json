@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/thinkaboutit-be/7730",
+  "page_id": "post/thinkaboutit-be/7730",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "Review extensions that subscribe to the drop shipment posting events removed in this release",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Codeunit 90"
+        }
+      ],
+      "events": [
+        "OnCheckAssocOrderLinesOnBeforeCheckOrderLine",
+        "OnBeforeCheckAssociatedSalesOrderLine"
+      ],
+      "versions": [
+        "28",
+        "2026 release wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005262,
+    "posts_in_call": 4
+  }
+}

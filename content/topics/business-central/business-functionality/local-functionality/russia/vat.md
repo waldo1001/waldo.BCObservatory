@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:22.536Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,8 +111,10 @@ The VAT section for Russia covers the local VAT processes a Russian company runs
 
 - [Upload books of purchases and sales in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration): Russian enhancements include books of purchases and sales VAT in XML format.
 - [VAT by customer prepayment in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/VAT-by-Customer-prepayments): Learn how to report VAT on customer prepayments in Russia, including setup and processing steps in Business Central.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 25 "Customer Ledger Entries"](../../../../../objects/page/25.md), [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
 - [VAT reinstatement in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/VAT-reinstatement): Learn how to manage VAT reinstatement in Business Central for Russian localizations, including setup and processing steps.
 - [VAT settlement in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Settlement-VAT): Learn about VAT settlement in Russia, including setup, manual settlement, and VAT allocation features in Business Central.
 - [Vendor tax agent scheme in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Vendor-Tax-Agent-scheme): Learn about vendor tax agent schemes in Russia, including enhancements for VAT processing and payment workflows.
+  - In the observatory: [Page 14925 "VAT Settlement Worksheet (RU)"](../../../../../objects/page/14925-ru.md), [Page 256 "Payment Journal"](../../../../../objects/page/256.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

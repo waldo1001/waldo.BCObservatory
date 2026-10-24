@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:21:45.136Z"
   flags: []
 generated:
-  at: "2026-10-07T23:21:45.190Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -94,6 +94,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/nbGw2g3KMXI
+      title: 20260713 - From Zero to Agent Building agents in Business Central
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
+      title: BC 29 lets a single index span base table and table extension fields
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/qABlX4AL3GM
+      title: "Business Central 29.0: Major Change to Table Extensions & SQL."
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/thedynamicsexplorer-com/10326
+      title: Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/thedynamicsexplorer-com/37371
+      title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/duiliotacconi-com/1457
+      title: "Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/fy96_jdL1PQ
+      title: "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/thinkaboutit-be/7537
+      title: "How Do I: Replace Reports with Analysis Mode in Business Central"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: video/f_i4_BRz-oA
+      title: "Microsoft presents: Cloud Migration from any SQL"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/1x3QyBX3swg
+      title: "Microsoft presents: Index management"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
 video_id: Fk6kWTe3f2Y
 channel: yt-bcmusings
 source_name: Business Central Musings
@@ -130,6 +181,12 @@ chapters:
     title: Manual configuration and JSON file naming
   - t: 1577
     title: Related content and learning resources
+cautions:
+  - kind: preview-disclaimer
+    quote: you can see here that we have version 28 preview here
+    t: 266
+    versions:
+      - "28"
 features:
   - name: Analysis views packaged in AL extensions
     status: preview
@@ -303,5 +360,20 @@ Not found in BC28-30: page "my sales analysis page", query "Fixed Assets Query",
 
 - [4:26](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=266s) preview: you can see here that we have version 28 preview here
 - [14:55](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=895s) other: Cannot publish it because this is used in multiple apps
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [20260713 - From Zero to Agent Building agents in Business Central](../videos/nbGw2g3KMXI.md) — possibly related: both name Page 31 "Item List"
+- [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Business Central 29.0: Major Change to Table Extensions & SQL.](../videos/qABlX4AL3GM.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../videos/fy96_jdL1PQ.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [How Do I: Replace Reports with Analysis Mode in Business Central](../posts/thinkaboutit-be/7537.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Microsoft presents: Cloud Migration from any SQL](../videos/f_i4_BRz-oA.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 32 "Item Ledger Entry"
 
 Presenters (as heard): Marcel Chabot, E.S. Verland.

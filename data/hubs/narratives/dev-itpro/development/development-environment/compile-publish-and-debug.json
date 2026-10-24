@@ -5,7 +5,7 @@
   "overview": "This section covers the developer inner loop for AL extensions: building and publishing, finding errors, measuring performance, and preparing a package for distribution. Debugging pages cover standard VS Code debugging with breakpoints, conditional breakpoints, break on errors and record changes, plus attach and debug next for sessions you cannot start by publishing, such as web services, background sessions, agent sessions, and install or upgrade code.\n\nFurther pages cover snapshot debugging (record on the server, inspect offline, including through an AI agent via the MCP server), troubleshooting with GitHub Copilot, and opening VS Code directly from the web client. The AL Profiler analyzes performance hot spots. Rapid Application Development (RAD) publishing speeds up builds of large projects through delta compilation.\n\nOther pages deal with compilation scope (OnPrem or Cloud target levels), signing app packages with Azure Key Vault or PFX files, and Microsoft Entra authentication for on-premises servers and containers. Start with \"Debug AL Code in Visual Studio Code\" for the basics, then pick the page for your scenario.",
   "key_points": [
     "AL Profiler records in instrumentation or sampling mode, configured in launch.json, and shows call stacks, timings, SQL calls, and CodeLens timings in VS Code.",
-    "Attach and debug next (2023 release wave 1) attaches to a running server without publishing first, using breakOnNext, sessionId and userId; it covers web clients, web services, background and agent sessions.",
+    "Attach and debug next attaches to a running server without publishing first, using breakOnNext, sessionId and userId; it covers web clients, web services, background and agent sessions.",
     "Conditional breakpoints pause only when an expression is true, supporting comparison and logical operators on simple and complex types (version 26).",
     "Snapshot debugging records execution on the server and replays it offline in VS Code, with AI agent support through the MCP server.",
     "Debug install and upgrade codeunits using attach debugging, with publish without building and system session debugging.",
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.023116
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:55:07.389Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point on attach and debug next presents '2023 release wave 1' as the feature's release. The page summary only lists it as a version reference and does not say the feature arrived then. I removed the label.",
+      "Minor: the 'version 26' on conditional breakpoints comes from page metadata only. It is kept because the page lists it."
+    ],
+    "input_hash": "191d5a53c4b7384075f0919361c48e5b75d9f89f147452bb07b77fd49ae07baa",
+    "cost_usd": 0.05782720000000001
   }
 }

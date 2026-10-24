@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/database-read-scale-out-configuration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-configuration",
+  "title": "Configuring a Database for Read Scale-Out",
+  "blob": "e2f7561d4fa31d538805092c3b96a858f78fa432",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Read scale-out is automatically enabled on Business Central Online databases."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "On-premises Business Central must determine if database supports read scale-out before enabling."
+    },
+    {
+      "kind": "step",
+      "text": "For Azure SQL Database, check performance tier for read scale-out support and enable if available."
+    },
+    {
+      "kind": "step",
+      "text": "For SQL Server, configure read-only routing for Always On availability group."
+    },
+    {
+      "kind": "step",
+      "text": "Enable SQL read-only replica support on the Server instance."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:45:28.210Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -109,6 +109,13 @@ chapters:
     title: Sales invoice certification display
   - t: 212
     title: Current capabilities, limitations and roadmap
+cautions:
+  - kind: preview-disclaimer
+    quote: We don't have the integration with Traces. So the DDS numbers you will need to type in manually
+    t: 223
+  - kind: preview-disclaimer
+    quote: same for the geolocation. But, we are continue to work on that functionality
+    t: 236
 features:
   - name: EUDR item marking on item card
     status: unclear

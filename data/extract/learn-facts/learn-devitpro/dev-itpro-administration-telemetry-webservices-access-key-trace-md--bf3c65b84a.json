@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-access-key-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-access-key-trace",
+  "title": "Analyzing Web Service Access Key Telemetry | Microsoft Docs",
+  "blob": "02dcc65190ff49d0ff2f7803349f0c3b53f824a8",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Web service access key telemetry applies to Business Central 2020 release wave 2, version 17.3, and later."
+    },
+    {
+      "kind": "fact",
+      "text": "Emits telemetry on success or failure of authenticating web service access keys."
+    },
+    {
+      "kind": "fact",
+      "text": "RT0020 event emitted for successful authentication with endpoint, extension, object details."
+    },
+    {
+      "kind": "fact",
+      "text": "RT0021 event emitted for failed authentication including failure reason and exception details."
+    },
+    {
+      "kind": "fact",
+      "text": "Helps monitor web service access key usage for deprecation preparation."
+    },
+    {
+      "kind": "limit",
+      "text": "Endpoint redacts private and sensitive information; exception messages may omit sensitive data."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005012,
+      "pages_in_call": 12
+    }
+  ]
+}

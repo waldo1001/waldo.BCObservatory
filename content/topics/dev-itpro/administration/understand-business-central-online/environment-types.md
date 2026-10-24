@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:21.770Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -137,8 +137,32 @@ The Demo environments subtopic goes further on demos. It compares an MDX demo en
 ## More Learn pages
 
 - [Prepare for Major Updates with Preview Environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/preview-environments): Learn how to use preview sandboxes to help prepare for the next major update of Business Central online.
+  - Preview environments are sandbox environments created on or updated to a preview version of Business Central.
+  - Status: Public preview runs in March and September before major updates, with environments deleted 30 days after GA.
+  - Status: Early access preview coincides with update period; only Partner Sandbox license tenants can participate.
+  - Limit: Early access preview environments auto-update every Sunday to latest build; failed updates result in auto-deletion.
+  - During early access preview, environments can only transfer to another tenant with Partner Sandbox license.
+  - Limit: Preview environments cannot be updated to a different version; data must be exported before preview period ends.
+  - Sandbox copies of production enable testing new functionality with existing data, setup, and customizations.
+  - Testing extensions in preview sandbox verifies compatibility and functionality before major version release.
 - [Preparing test environments of Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/test-environment): Get an overview of your options for deploying test environments for Dynamics 365 Business Central for performance testing.
+  - Partners can create test environments for testing or pre-sales demonstrations.
+  - Test environments based on free 30-day trials require CSP access in Partner Center.
+  - Step: In Partner Center, create new test customer with test domain like contoso.onmicrosoft.com.
+  - Step: Subscribe to Dynamics 365 Business Central Premium Trial providing 25 licenses for 30 days.
+  - Step: Create test user and assign 1 Premium license; may take 10 minutes for licenses to display.
+  - Environment created automatically when first logging in with user credentials to Business Central.
 - [Production and Sandbox Environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-types): Learn about the differences between production and sandbox environments for Dynamics 365 Business Central.
+  - Production environments managed via admin center or Administration Center API.
+  - Partner Sandbox license available to partners with valid MPN ID for nonproduction scenarios.
+  - Limit: Partner Sandbox license strictly for partner nonproduction use; cannot be used for customers or production.
+  - Five Partner Sandbox licenses grant one production plus three sandbox environments with 105 GB storage.
+  - Each five additional Partner Sandbox licenses add three sandbox environments and 25 GB storage.
+  - Partner Sandbox licenses available via experience.dynamics.com; payment by credit card or invoice for over 500 dollars.
+  - Sandbox environments can have production data copied in for testing and demonstration purposes.
+  - In the observatory: [Codeunit 1886 "Environment Cleanup"](../../../../objects/codeunit/1886.md), [Codeunit 8912 "Environment Cleanup Subs"](../../../../objects/codeunit/8912.md)
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Business Central pages and reports
 

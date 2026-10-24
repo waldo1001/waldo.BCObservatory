@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/automation-apis-using-s2s-authentication.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/automation-apis-using-s2s-authentication",
+  "title": "Using Service to Service Authentication",
+  "blob": "c80632ab2fa780549463d32c49c22a32d9fb0cda",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "S2S authentication generally available for Business Central automation APIs online version 17.0 and on-premises versions 18.11 and 19.5 and later."
+    },
+    {
+      "kind": "status",
+      "text": "S2S authentication generally available for Business Central APIs v1.0 and v2.0 online version 18.3 and on-premises versions 18.11 and 19.5 and later."
+    },
+    {
+      "kind": "fact",
+      "text": "Service-to-service authentication uses OAuth 2.0 Client Credentials flow for integrations running without user interaction; supports scheduled tasks on version 21.2 and later."
+    },
+    {
+      "kind": "step",
+      "text": "Register Microsoft Entra application with unique name, specify supported account types, optionally add redirect URI for OAuthLanding.htm file."
+    },
+    {
+      "kind": "step",
+      "text": "Create client secret for registered application by selecting Certificates and secrets, New client secret, adding description, selecting duration, selecting Add."
+    },
+    {
+      "kind": "step",
+      "text": "Grant API.ReadWrite.All and Automation.ReadWrite.All permissions to Dynamics 365 Business Central API via API permissions, Add a permission, Microsoft APIs."
+    },
+    {
+      "kind": "step",
+      "text": "Set up Microsoft Entra application in Business Central by searching Microsoft Entra applications, selecting New, entering Client ID, Description, setting State to Enabled, assigning permissions."
+    },
+    {
+      "kind": "limit",
+      "text": "Applications cannot be assigned SUPER permission set; use least-privilege principle and assign only required permissions for integration."
+    }
+  ],
+  "dropped": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008208,
+      "pages_in_call": 6
+    }
+  ]
+}

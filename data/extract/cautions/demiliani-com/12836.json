@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/demiliani-com/12836",
+  "page_id": "post/demiliani-com/12836",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "In AL language, the method Guid.CreateGuid() creates new unique non-sequential GUIDs, which are not optimized for SQL indexing (create fragmentations).",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "The cost of writing GUID primary keys in a database containing 1,000,000 records is 10x the cost of writing INT primary keys.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "The main trade-off is that sequential GUIDs are predictable, which could be a security concern if you expose them publicly.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005997,
+    "posts_in_call": 4
+  }
+}

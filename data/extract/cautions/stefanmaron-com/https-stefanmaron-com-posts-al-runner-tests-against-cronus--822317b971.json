@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/al-runner-tests-against-cronus/",
+  "page_id": "post/stefanmaron-com/https-stefanmaron-com-posts-al-runner-tests-against-cronus--822317b971",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "compilation now fails when BC's compiler reports an error, even if at least one object in the bundle still emitted successfully.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2.8.0"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00403,
+    "posts_in_call": 4
+  }
+}

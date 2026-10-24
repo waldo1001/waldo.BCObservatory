@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:12:06.022Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -64,6 +64,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/B8cWQGwajwQ
+      title: "In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/j5ULVClJaKU
+      title: "Introducing: Chat with Copilot ( 2024 release wave 1)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/6sH2u4jt-ow
+      title: "What's Cooking in Business Central: Storing Document Attachments outside the Database"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/6SyNNeHQDUo
+      title: "What's New: Co-Development Initiative (2024 release wave 2)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/Afv-r-eDt90
+      title: "What's New: Enhanced Analysis Mode (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/MKuOgMWXJ_8
+      title: "What's New: Sales Validation Sample Agent for Business Central"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
 video_id: gBB0elWQWM8
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -171,3 +202,14 @@ Not found in BC28-30: page "Sales and Receivables Setup".
 - [0:36](https://www.youtube.com/watch?v=gBB0elWQWM8&t=36s) "by default, Business Central will display a message that it warns users about the would-be negative inventory level when registering the sales line"
 - [1:20](https://www.youtube.com/watch?v=gBB0elWQWM8&t=80s) "the quantity I enter here, even if the order is not posted yet, it will have an effect on the demand of this product"
 - [2:00](https://www.youtube.com/watch?v=gBB0elWQWM8&t=120s) "stock out warning. This is the field that determines whether or not I see that warning when I try to enter and quantity on"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)](../videos/B8cWQGwajwQ.md) — possibly related: both name Page 48 "Sales Orders"
+- [Introducing: Chat with Copilot ( 2024 release wave 1)](../videos/j5ULVClJaKU.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's Cooking in Business Central: Storing Document Attachments outside the Database](../videos/6sH2u4jt-ow.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's New: Co-Development Initiative (2024 release wave 2)](../videos/6SyNNeHQDUo.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's New: Enhanced Analysis Mode (2026 release wave 1)](../videos/Afv-r-eDt90.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's New: Sales Validation Sample Agent for Business Central](../videos/MKuOgMWXJ_8.md) — possibly related: both name Page 48 "Sales Orders"

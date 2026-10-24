@@ -1,38 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/quality-management",
-  "input_hash": "18a8b0533e77fa9e185b2fa87a528b3a06b716b0080569094da61a1d2c9ea4ee",
-  "summary": "Quality management in Business Central is a Microsoft-published extension for automatic, manual, and scheduled quality inspections in purchasing, production, assembly, and warehouse processes. It answers questions about performing inspections, blocking lots, handling failed items, setup, and troubleshooting.",
-  "overview": "Quality Management is an extension that creates quality inspections at key points in purchasing, production, assembly, and warehouse processes. Inspections can be created automatically, manually, or on a schedule, and they use templates to define the tests. Results can trigger actions such as blocking noncompliant lots and running workflows.\n\nStart with the overview page to see what the extension does. The Set up quality management subtopic (base setup and permissions, inspection results, templates, generation rules, workflows) covers configuration. After setup, \"Work with quality inspections\" explains the daily tasks: assigning, entering test values, finishing, printing reports, and reinspecting.\n\nFurther pages cover what happens after an inspection. They describe scheduled inspections through job queue entries, blocking and unblocking lots, and processing items that failed. A troubleshooting page groups common issues by feature area.",
+  "input_hash": "1a2b9bda8d979a57dcd8889545a46d2ec5e01a52b8627d5ad80590743052e7a1",
+  "summary": "Quality management in Business Central is an extension for automatic, manual, and scheduled quality inspections in purchasing, production, assembly, and warehouse processes. It answers questions about running inspections, blocking lots, handling failed items, setup, and troubleshooting.",
+  "overview": "Quality Management is a Microsoft-published extension. It creates inspections automatically at key points in purchasing, production, assembly, and warehouse processes. It can also create them manually or on a schedule. Templates define the inspections, and workflows can respond to the results.\n\nThe pages follow the life of an inspection. The overview explains the extension. The setup subtopic covers prerequisites, permissions, inspection results, templates, generation rules, and workflows. Working with inspections covers assigning owners, entering test values, finishing, printing reports, and reinspecting. Scheduled inspections use job queue entries.\n\nOnce an inspection fails, one page covers blocking lots, serial numbers, and packages. Another covers moving, returning, removing, or reclassifying the items. A troubleshooting page groups common issues by feature area. Start with the overview, then the setup subtopic.",
   "key_points": [
-    "The extension creates inspections automatically, manually, or on a schedule, and uses templates for inspections.",
-    "Working with inspections: assign owners, enter test values, calculate results, finish, print reports, and create reinspections.",
+    "Inspections can be created automatically, manually, or on a schedule, and use templates.",
     "Scheduled inspections run at regular time intervals through job queue entries, for example for shelf life monitoring.",
-    "Lots, serial numbers, and packages can be blocked or unblocked by workflows or by inspection results, with document-specific restrictions for sales, transfers, and other transactions.",
-    "Failed items can be handled by blocking lots, moving to quarantine, creating transfer orders or purchase returns, making negative adjustments, or changing item tracking.",
-    "Setup covers base setup and permissions, inspection results, templates, generation rules, and workflows.",
+    "Inspections can be assigned to users, completed with test values, and result calculation, then printed as reports or repeated as reinspections.",
+    "Lots, serial numbers, and packages can be blocked or unblocked by workflows or by inspection results, with document-specific restrictions for sales and transfers.",
+    "Failed items can be moved to quarantine, put away internally, sent by transfer order, returned to the vendor by purchase return, removed by negative adjustment, or have item tracking changed.",
+    "The setup subtopic (5 pages) covers prerequisites, permissions, results, templates, generation rules, and workflows.",
     "The troubleshooting page covers setup, generation rules, scheduled inspections, workflows, templates, warehouse receipt and production output inspections, manual creation, and lot blocking."
   ],
   "members_used": 6,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-10-07T02:12:12.427Z",
+  "at": "2026-10-24T00:52:52.642Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.013717
+    "cost_usd": 0.013739000000000001
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:19:49.464Z",
+    "at": "2026-10-24T00:55:07.777Z",
     "verdict": "approve",
     "issues": [
-      "Overview sentence 'Results can trigger actions such as blocking noncompliant lots and running workflows' slightly overstates the sources: they list workflow integration and say lots can be blocked via workflows or based on inspection results, not that results start workflows. Safer wording: 'Lots can be blocked through workflows or based on inspection results.'",
-      "'Templates to define the tests' is a mild inference; sources only say inspections use templates or are created from them.",
-      "'Daily tasks' for the work-with-inspections page is an unsourced but harmless characterization.",
-      "Troubleshooting key point omits the general 'inspections' area and shortens 'test generation rules' to 'generation rules'; not incorrect."
+      "Key point 3 is awkwardly worded ('completed with test values, and result calculation'). Something like 'test values are entered, results are calculated, and the inspection is finished' would read better.",
+      "The overview puts lot blocking under 'Once an inspection fails'. The source page also covers blocking through workflows and based on inspection results in general, not only failures. Key point 4 describes this correctly.",
+      "'Returned to the vendor by purchase return' goes slightly beyond the source, which only says 'purchase returns'. It is a reasonable inference.",
+      "The troubleshooting key point leaves out the general 'inspections' area listed in the source. The other areas match."
     ],
-    "input_hash": "18a8b0533e77fa9e185b2fa87a528b3a06b716b0080569094da61a1d2c9ea4ee",
-    "cost_usd": 0.0446792
+    "input_hash": "1a2b9bda8d979a57dcd8889545a46d2ec5e01a52b8627d5ad80590743052e7a1",
+    "cost_usd": 0.04011920000000001
   }
 }

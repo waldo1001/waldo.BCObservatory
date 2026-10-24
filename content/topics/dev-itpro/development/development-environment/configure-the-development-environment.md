@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:18.690Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -128,7 +128,7 @@ narrative: generated
 
 > Configuring the AL development environment for Business Central: VS Code AL Language extension settings, performance tuning, container and GitHub Codespaces setups, runtime targeting, and resource exposure policy. It answers questions about setting up and tuning a dev environment and about the JSON configuration files used in AL projects.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure the development environment · tier official · system administration · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure the development environment · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

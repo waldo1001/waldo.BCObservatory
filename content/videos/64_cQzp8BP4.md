@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:01:02.372Z"
   flags: []
 generated:
-  at: "2026-10-07T23:01:02.416Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -110,6 +110,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/thedynamicsexplorer-com/10326
+      title: Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge
+      label: possibly related
+      why: both name Table 5802 "Value Entry"
+      by: code
+    - to: video/1x3QyBX3swg
+      title: "Microsoft presents: Index management"
+      label: possibly related
+      why: both name Table 5802 "Value Entry"
+      by: code
+    - to: video/pEXl-POet_4
+      title: "What's New: Project and Service Management (2024 release wave 1)"
+      label: possibly related
+      why: both name Table 5802 "Value Entry"
+      by: code
 video_id: 64_cQzp8BP4
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -134,6 +150,10 @@ chapters:
     title: Developer guidance and event handling for custom entries
   - t: 595
     title: Performance benchmarks and real-world benefits
+cautions:
+  - kind: preview-disclaimer
+    quote: we will set it on by default in three releases
+    t: 91
 features:
   - name: Enable multiple users to post item ledger entries and value entries at the same time
     status: unclear
@@ -276,5 +296,13 @@ Not found in BC28-30: table "item ledger", table "project ledger", table "job le
 - [1:31](https://www.youtube.com/watch?v=64_cQzp8BP4&t=91s) other: It's off by default
 - [1:31](https://www.youtube.com/watch?v=64_cQzp8BP4&t=91s) coming-later: we will set it on by default in three releases
 - [1:42](https://www.youtube.com/watch?v=64_cQzp8BP4&t=102s) other: there's no upgrade. there's no no penalty to go back and forth to try it out
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 5802 "Value Entry"
+- [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 5802 "Value Entry"
+- [What's New: Project and Service Management (2024 release wave 1)](../videos/pEXl-POet_4.md) — possibly related: both name Table 5802 "Value Entry"
 
 Presenters (as heard): Bardock Nuden.

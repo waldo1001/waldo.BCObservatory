@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:25.920Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -152,6 +152,7 @@ Start with the assembly BOM page if you need to set up or maintain the structure
 
 - [Assembly Reports and Analytics in Business Central](https://learn.microsoft.com/dynamics365/business-central/assembly-reports): See which assembly reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 - [Work with assembly BOMs](https://learn.microsoft.com/dynamics365/business-central/assembly-how-work-assembly-boms): You create an assembly BOM to specify the components required to put together the item that the BOM represents.
+  - In the observatory: [Page 5841 "Standard Cost Worksheet"](../../../../objects/page/5841.md)
 
 ## Business Central pages and reports
 

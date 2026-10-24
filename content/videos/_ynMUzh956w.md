@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:09:58.664Z"
   flags: []
 generated:
-  at: "2026-10-07T23:09:58.711Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -151,6 +151,47 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/sustainability-reports
+      title: Sustainability reports and analytics
+      label: possibly related
+      why: names Report 6212 "Total Emissions"
+      by: code
+    - to: video/UKVp28M5TtU
+      title: "What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6221 "Sustainability Setup"
+      by: code
+    - to: video/qPInVj03wkY
+      title: "What's New in Sustainability: Reporting CSRD (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6221 "Sustainability Setup"
+      by: code
+    - to: video/XYr0xwgpomA
+      title: "What's New in Sustainability: Sustainability Journals Approval (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: video/i-MTLNYwA9o
+      title: "What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: video/Sc8eGyMkBTA
+      title: "What's New in Sustainability: Value Chain in Projects (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6221 "Sustainability Setup"
+      by: code
+    - to: video/bHXEbtsx0JY
+      title: "What's New: Sustainability Copilot (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/sustainability-carbon-credit
+      title: Work with carbon credits
+      label: possibly related
+      why: names Page 6219 "Sustainability Journal"
+      by: code
 video_id: _ynMUzh956w
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -190,6 +231,16 @@ chapters:
     title: Journal Posting and Ledger Entries
   - t: 1429
     title: Report Viewing, Analysis, and Wrap-up
+cautions:
+  - kind: preview-disclaimer
+    quote: we are focused in our first waves to record and report. It doesn't mean maybe we will not extend in some moment to maybe to even reducing with some ideas, with some recommendations, maybe
+    t: 521
+  - kind: preview-disclaimer
+    quote: we will add some uh regulatory reports as well. What we will have more on the top of that, it will come probably in next one or two minors, we will enable all these entities through APIs
+    t: 752
+  - kind: preview-disclaimer
+    quote: regulatory reports are still not here. This is something what will come in the future.
+    t: 1120
 features:
   - name: Sustainability journal
     status: unclear
@@ -391,5 +442,18 @@ Not found in BC28-30: table "Chart of sustainability accounts", table "Sustainab
 - [14:17](https://www.youtube.com/watch?v=_ynMUzh956w&t=857s) other: this is not some regulation based. This is just demo. Just for demo purpose.
 - [18:40](https://www.youtube.com/watch?v=_ynMUzh956w&t=1120s) not-in-this-release: regulatory reports are still not here. This is something what will come in the future.
 - [25:00](https://www.youtube.com/watch?v=_ynMUzh956w&t=1500s) other: Our functionality is still not everything what we will deliver. So, this is multi-wave investment.
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Sustainability reports and analytics](https://learn.microsoft.com/dynamics365/business-central/sustainability-reports) — possibly related: names Report 6212 "Total Emissions"
+- [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../videos/UKVp28M5TtU.md) — possibly related: both name Page 6221 "Sustainability Setup"
+- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../videos/qPInVj03wkY.md) — possibly related: both name Page 6221 "Sustainability Setup"
+- [What's New in Sustainability: Sustainability Journals Approval (2025 release wave 2)](../videos/XYr0xwgpomA.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)](../videos/i-MTLNYwA9o.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [What's New in Sustainability: Value Chain in Projects (2025 release wave 2)](../videos/Sc8eGyMkBTA.md) — possibly related: both name Page 6221 "Sustainability Setup"
+- [What's New: Sustainability Copilot (2025 release wave 2)](../videos/bHXEbtsx0JY.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [Work with carbon credits](https://learn.microsoft.com/dynamics365/business-central/sustainability-carbon-credit) — possibly related: names Page 6219 "Sustainability Journal"
 
 Presenters (as heard): Volodymyr Synchuk, Aleksandar Totovic, Alexander, Vladimir.

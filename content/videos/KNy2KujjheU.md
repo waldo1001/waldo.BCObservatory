@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:43:23.148Z"
   flags: []
 generated:
-  at: "2026-10-07T22:43:23.183Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -104,6 +104,12 @@ chapters:
     title: "Demo: operations page tracking"
   - t: 183
     title: Breaking changes and migration guidance
+cautions:
+  - kind: preview-disclaimer
+    quote: expert history endpoint is deprecated. It keeps working on API versions 2.29 and earlier, but it is not carried forward to newer versions.
+    t: 195
+    versions:
+      - "29"
 features:
   - name: Database export reliability improvements
     status: unclear

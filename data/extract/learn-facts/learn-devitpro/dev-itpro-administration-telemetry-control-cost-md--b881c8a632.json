@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-control-cost.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-control-cost",
+  "title": "Controlling Telemetry Cost",
+  "blob": "16077e330f84ff0f3ea7bf8d72a2f6e6afdfceaa",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Set daily cap on telemetry data ingestion and alerts when cap is reached to control costs."
+    },
+    {
+      "kind": "fact",
+      "text": "First 5 GB monthly is free; 160 MB daily cap allows 5000 to 80000 events daily depending on event size."
+    },
+    {
+      "kind": "fact",
+      "text": "Typical telemetry event consumes 2-10 KB; maximum event size is 32 KB."
+    },
+    {
+      "kind": "fact",
+      "text": "Current pay-as-you-go price is 2.76 USD per GB; example customers spend 7.3 to 178 USD per month."
+    },
+    {
+      "kind": "fact",
+      "text": "Data Collection Rules filter telemetry at ingestion to reduce costs and improve query performance."
+    },
+    {
+      "kind": "fact",
+      "text": "AppInsights resource must be Workspace-based to use Data Collection Rules with Log Analytics backend."
+    },
+    {
+      "kind": "fact",
+      "text": "Business Central logs to AppTraces and AppPageViews tables; filter these with KQL queries on workspace."
+    },
+    {
+      "kind": "fact",
+      "text": "Reduce retention cost using default retention periods of 30 to 730 days or purge data with user-defined filters."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007119,
+      "pages_in_call": 7
+    }
+  ]
+}

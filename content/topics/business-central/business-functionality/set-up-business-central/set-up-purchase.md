@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:20:14.674Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -220,13 +220,17 @@ Further pages cover pricing and control. They explain recording special purchase
 
 - [Assign a priority level to a vendor](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-prioritize-vendors): Assign priority numbers to vendors or suppliers in Business Central to streamline payment suggestions and manage payables efficiently.
 - [Define an invoice posting policy for users](https://learn.microsoft.com/dynamics365/business-central/admin-setup-invoice-posting-policy): Use invoice posting policies to control whether a user can post sales and purchase invoices.
+  - In the observatory: [Page 119 "User Setup"](../../../../objects/page/119.md)
 - [Overview of tasks to set up purchasing](https://learn.microsoft.com/dynamics365/business-central/purchasing-setup-purchasing): Describes the tasks to define your company's procurement policies and set up your purchasing processes.
 - [Record special purchase prices and discounts](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-record-purchase-price-discount-payment-agreements): Set up and manage special purchase prices and discounts for vendors, and automatically apply them to purchase documents.
 - [Register a new vendor](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-register-new-vendors): Learn how to register vendors, save vendor cards as templates, and set up vendor-specific number series for self-billed purchase invoices.
 - [Set up prices and discounts](https://learn.microsoft.com/dynamics365/business-central/across-prices-and-discounts): Describes how to define standard and special price and discount agreements for sales and purchases.
 - [Set up purchasers and assign purchasers to vendors](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-setup-purchasers): Organize purchasers or purchasing agents in your company to enable efficient tracking and statistical analysis.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../objects/page/35603-ru.md)
 - [Set up validation of purchase amounts](https://learn.microsoft.com/dynamics365/business-central/how-to-set-up-validation-of-purchase-amounts): You can validate the total amount on purchase invoices and credit memos before you post the documents.
+  - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../../objects/page/460.md), [Page 51 "Purchase Invoice"](../../../../objects/page/51.md), [Page 52 "Purchase Credit Memo"](../../../../objects/page/52.md)
 - [Set up vendor bank accounts](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-set-up-vendors-bank-accounts): Learn how to associate bank accounts to vendors, including contact information, SWIFT, and IBAN codes.
+  - In the observatory: [Page 426 "Vendor Bank Account List"](../../../../objects/page/426.md)
 - [Updating document dates with posting dates](https://learn.microsoft.com/dynamics365/business-central/across-link-doc-dates-to-posting-dates): Learn how to make sure that document dates on sales and purchase documents match their posting dates.
 
 ## Business Central pages and reports

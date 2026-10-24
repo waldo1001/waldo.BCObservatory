@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:14:50.780Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:50.817Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -96,6 +96,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/fatcqVFrTXI
+      title: Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central
+      label: possibly related
+      why: both name Page 253 "Sales Journal"
+      by: code
 video_id: pE19K17wpgI
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -263,5 +269,11 @@ Not found in BC28-30: report "Sales invoice document", page "incoming document f
 
 - [4:12](https://www.youtube.com/watch?v=pE19K17wpgI&t=252s) other: this idea came uh from Danish authori requirements with their new bookkeeping act but this is um this this feature can be used in other countries as well
 - [5:54](https://www.youtube.com/watch?v=pE19K17wpgI&t=354s) other: in Denmark where users cannot disable enforcing mandatory vouchers in purchase and sales transactions from January next next year
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central](../videos/fatcqVFrTXI.md) — possibly related: both name Page 253 "Sales Journal"
 
 Presenters (as heard): Alexandra, Arthur.

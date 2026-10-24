@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:57:46.346Z"
   flags: []
 generated:
-  at: "2026-10-07T22:57:46.382Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -108,6 +108,12 @@ chapters:
     title: Demo completion and additional improvements
   - t: 287
     title: Technical improvements and closing
+cautions:
+  - kind: preview-disclaimer
+    quote: some other technical improvements will come related to interstat uh probably 26.12
+    t: 287
+    versions:
+      - "26"
 features:
   - name: Mandatory fields for Intrastat documents
     status: unclear

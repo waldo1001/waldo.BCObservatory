@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/thinkaboutit-be/7750",
+  "page_id": "post/thinkaboutit-be/7750",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "The data picker task pane, which makes inserting fields significantly easier, requires version 27 (2025 release wave 2) or later.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Word Add-in for Business Central"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00466,
+    "posts_in_call": 4
+  }
+}

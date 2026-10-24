@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:20:16.843Z"
   flags: []
 generated:
-  at: "2026-10-07T23:20:16.915Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -138,6 +138,10 @@ chapters:
     title: Real unit tests and bug discovery in refactoring
   - t: 3166
     title: Closing remarks and webinar information
+cautions:
+  - kind: preview-disclaimer
+    quote: pump instructions are big a and a models are nondeterministic
+    t: 2274
 features:
   - name: AI code generation for legacy AL refactoring
     status: unclear

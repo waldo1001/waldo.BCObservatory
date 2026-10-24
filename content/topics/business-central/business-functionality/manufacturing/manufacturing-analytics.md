@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:10.187Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -365,8 +365,7 @@ links:
   localizations: []
   videos:
     - video/6NuJOL8DEqA
-  posts:
-    - post/gerardorenteria-blog/11616
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -382,7 +381,7 @@ coverage:
   learn: 50
   code: 53
   video: 1
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 5802
@@ -477,12 +476,12 @@ Start with "View Load on Work and Machine Centers" if you need to compare load w
 
 - [Manufacturing analytics](https://learn.microsoft.com/dynamics365/business-central/manufacturing-analytics-overview): Business Central has features that can help you gather, analyze, and share data from your manufacturing processes for business intelligence and decision-making in your organization.
 - [View Load on Work and Machine Centers](https://learn.microsoft.com/dynamics365/business-central/production-how-to-view-the-load-on-work-centers): Learn how to compare resource load and capacity, identify bottlenecks, use finite scheduling, and review the Work Center Task List.
+  - In the observatory: [Page 9291 "Work Center Calendar Matrix"](../../../../objects/page/9291.md)
 
 ## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What’s new and planned Business Central 2025 Wave 2 – v27🔔](../../../../posts/gerardorenteria-blog/11616.md) (community post): "Manufacturing gains focus on quality management and outsourcing, alongside sustainability"
 - [What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)](../../../../videos/6NuJOL8DEqA.md) (video): "manufacturing analytics; updated reports; work center load; expected capacity"
 
 ## Business Central pages and reports

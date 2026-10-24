@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:58:52.633Z"
   flags: []
 generated:
-  at: "2026-10-07T22:58:52.674Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -107,6 +107,12 @@ chapters:
     title: Word layout example and rendering
   - t: 672
     title: Developer documentation for obsoleting reports
+cautions:
+  - kind: preview-disclaimer
+    quote: For now for the 26.0 the first major release is only RDL layout that will be validated in a next minor. Uh we will also add validation for word and excel.
+    t: 357
+    versions:
+      - "26"
 features:
   - name: Override Excel multiple data sheets property at layout level
     status: unclear

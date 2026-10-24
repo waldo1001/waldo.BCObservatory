@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:55.174Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -462,6 +462,7 @@ Start with "Analytics in purchasing" to choose an approach. Use Data Analysis fo
 ## More Learn pages
 
 - [Ad-hoc analyses in purchasing](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing): Learn how to use the data analysis mode to analyze data in purchasing.
+  - In the observatory: [Page 146 "Posted Purchase Invoices"](../../../../objects/page/146.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md), [Page 56 "Purchase Orders"](../../../../objects/page/56.md)
 - [Analytics in purchasing](https://learn.microsoft.com/dynamics365/business-central/purchasing-analytics-overview): Learn how to use Business Central's analytics features to monitor purchasing KPIs, perform ad-hoc analysis, and create financial reports.
 
 ## Business Central pages and reports

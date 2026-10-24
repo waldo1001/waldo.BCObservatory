@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:00:12.679Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:12.722Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -107,6 +107,17 @@ chapters:
     title: Configuring E-Document Services
   - t: 328
     title: Summary and Next Steps
+cautions:
+  - kind: preview-disclaimer
+    quote: from April release they will be in public preview for 1 month and from 26.1 they will be in general availability
+    t: 65
+    versions:
+      - "26"
+  - kind: preview-disclaimer
+    quote: probably 26.2 we will have continue connector
+    t: 79
+    versions:
+      - "26"
 features:
   - name: Logic E-Document Connector
     status: preview

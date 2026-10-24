@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:13:39.079Z"
   flags: []
 generated:
-  at: "2026-10-07T23:13:39.118Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -177,6 +177,10 @@ chapters:
     title: Role Center Shipment Status and Error Resolution Workflow
   - t: 1310
     title: Summary, API Versioning, and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: full support for business central fulfillment service already before this release in one of the minor updates
+    t: 471
 features:
   - name: Enhanced Shopify Log Entries View
     status: unclear

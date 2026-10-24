@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/aardvarklabs-blog/1609",
+  "page_id": "post/aardvarklabs-blog/1609",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "NEVER SHARE THE API KEY!",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Note, that even as I write this, things are changing. Steps 1 and 2 may become unnecessary.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007047,
+    "posts_in_call": 4
+  }
+}

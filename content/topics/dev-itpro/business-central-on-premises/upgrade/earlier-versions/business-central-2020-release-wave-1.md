@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:20.856Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -178,6 +178,7 @@ Customized solutions need extra pages. These cover Txt2Al code conversion, the D
 
 - [Business Central Upgrade Compatibility Matrix](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility): Provides an overview of the Business Central versions and their compatibility
 - [Code Conversion from C/AL to AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/devenv-code-conversion): Description of the conversion process from C/AL to AL.
+  - In the observatory: [Codeunit 150 "System Initialization"](../../../../../objects/codeunit/150.md)
 - [DestinationAppsForMigration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-destinationappsformigration): Learn how to use the DestinationAppsForMigration setting in Business Central Server for upgrading from C/AL to AL extensions. Detailed guide and FAQs included.
 - [Install a version 16 update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v16): This article describes the tasks required for getting the monthly version 16 update applied to your Dynamics 365 Business Central on-premises.
 - [Migrating Tables and Fields Between Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-table-fields): Explains how to migrate tables and fields from one extension to another.

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-gp-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-overview",
+  "title": "Migrate on-premises GP data to Business Central online overview",
+  "blob": "4eb73bd943db53e85a18714cccf5d95ce08091b2",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Cloud migration uses Azure Data Factory to securely replicate data from on-premises SQL Server to Business Central online"
+    },
+    {
+      "kind": "fact",
+      "text": "Migrated data includes system setup, master data, transactional data, classes, vendor 1099, and historical data"
+    },
+    {
+      "kind": "fact",
+      "text": "Data migration is table-by-table with success and failure tracking; migration continues even if a table fails"
+    },
+    {
+      "kind": "fact",
+      "text": "On-premises solution remains operative environment until cloud migration is completed"
+    },
+    {
+      "kind": "fact",
+      "text": "Users without SUPER permissions are automatically assigned Intelligent Cloud permission set during migration"
+    },
+    {
+      "kind": "fact",
+      "text": "Data entry in online tenant during migration is limited to data not included in migration from on-premises"
+    },
+    {
+      "kind": "limit",
+      "text": "Cannot install or uninstall extensions during migration without disabling cloud migration first"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005231,
+      "pages_in_call": 10
+    }
+  ]
+}

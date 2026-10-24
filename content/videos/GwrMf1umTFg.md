@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:43:18.606Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -110,6 +110,27 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/Fz8NLByllRc
+      title: "Expense Agent: Mileage Allowances (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 6996 "Expense Agent Setup"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent
+      title: How the Expense Agent Processes Emails
+      label: possibly related
+      why: names Page 6996 "Expense Agent Setup"
+      by: code
+    - to: video/pjML7lXSsd0
+      title: "Introducing: Expense Management (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 6996 "Expense Agent Setup"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage
+      title: Set Up Per Diem and Mileage Allowances
+      label: possibly related
+      why: names Page 6996 "Expense Agent Setup"
+      by: code
 video_id: GwrMf1umTFg
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -292,3 +313,12 @@ Not found in BC28-30: page "project card", table "project ledger entries".
 - [4:12](https://www.youtube.com/watch?v=GwrMf1umTFg&t=252s) "I'm assigned only to one project. So, I can choose this one"
 - [5:16](https://www.youtube.com/watch?v=GwrMf1umTFg&t=316s) "In a show billable information, you can find project I assign and project task. So, everything is here."
 - [5:53](https://www.youtube.com/watch?v=GwrMf1umTFg&t=353s) "So this is now empty, but that means you you are not selected only for one because system will inherit your setup from project"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Expense Agent: Mileage Allowances (2026 release wave 1)](../videos/Fz8NLByllRc.md) — possibly related: both name Page 6996 "Expense Agent Setup"
+- [How the Expense Agent Processes Emails](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent) — possibly related: names Page 6996 "Expense Agent Setup"
+- [Introducing: Expense Management (2026 release wave 1)](../videos/pjML7lXSsd0.md) — possibly related: both name Page 6996 "Expense Agent Setup"
+- [Set Up Per Diem and Mileage Allowances](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage) — possibly related: names Page 6996 "Expense Agent Setup"

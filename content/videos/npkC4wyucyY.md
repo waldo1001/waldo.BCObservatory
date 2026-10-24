@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:44:51.176Z"
   flags: []
 generated:
-  at: "2026-10-07T22:44:51.212Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -117,6 +117,10 @@ chapters:
     title: Code review methodology and results
   - t: 774
     title: How to use BC-Bench for your own AL apps
+cautions:
+  - kind: preview-disclaimer
+    quote: At the time of the recording of this session we are still working hard on the results for code review so please check back on our GitHub repository if you're curious
+    t: 774
 features:
   - name: Bug fixing category
     status: unclear

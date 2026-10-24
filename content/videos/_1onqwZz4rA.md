@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:52:39.252Z"
   flags: []
 generated:
-  at: "2026-10-07T22:52:39.294Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -112,6 +112,10 @@ chapters:
     title: Analytics Data as Optional Component
   - t: 275
     title: Partner Resources and Community Engagement
+cautions:
+  - kind: preview-disclaimer
+    quote: we will continue that investments in the next release wave both like more types of demo data and more types of entities
+    t: 136
 features:
   - name: Enhanced Demo Data Tool for Analytics
     status: unclear

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -91,7 +91,6 @@ links:
   videos:
     - video/qNHUj3ZEang
   posts:
-    - post/aardvarklabs-blog/1826
     - post/aardvarklabs-blog/2953
     - post/demiliani-com/13588
     - post/demiliani-com/13640
@@ -120,7 +119,7 @@ coverage:
   learn: 8
   code: 0
   video: 1
-  blog: 6
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -136,13 +135,28 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 ## Learn pages
 
 - [Azure Function Integration Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace): Learn about telemetry on Azure Function integrations with Business Central
+  - Azure Function integration telemetry tracks calls from Business Central to Azure Functions.
+  - Request succeeded event has eventId AL0000I74 with HTTP status code.
+  - Request failed event has eventId AL0000I7P and includes status code and function host URL.
+  - Authorization failed event has eventId AL0000I75 with error text explaining failure reason.
+  - Common dimensions include function host URL, tenant ID, environment name, and company name.
+  - Sample KQL queries help analyze and alert on Azure Function integration failures.
 - [Call external services with the HttpClient data type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-httpclient): Learn about how to call external services using the HttpClient datatype.
 - [HttpClient data type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-data-type): Provides a data type for sending HTTP requests and receiving HTTP responses from a resource identified by a URI.
 - [HttpClientHandler attribute](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/attributes/devenv-httpclienthandler-attribute): Specifies that the method is an HttpClientHandler method, which catches and handles HTTP requests in test executions.
 - [Mock outbound HttpClient web service calls during testing](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-httpclient-mock-outbound-calls): Learn about how to test HttpClient web calls to external services without invoking the live/actual/remote service.
 - [Outgoing Web Service Request Trace](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-trace): Learn about the outgoing web service request telemetry in Business Central
+  - Outgoing web service telemetry (RT0019) tracks HTTPClient calls made by AL code to external services, including endpoint, method, status code.
+  - Dimensions record timeout set by NavHttpClientMaxTimeout server setting or TimeOut method call, with method call taking precedence over server setting.
+  - Limit: httpReturnCode dimension deprecated in version 17.2; use httpStatusCode instead for http status codes returned from requests.
+  - httpRequestError dimension (added version 29.0) distinguishes failure types: name resolution, connection failures, certificate validation, timeout.
+  - Event includes extension ID, name, publisher, version; object ID, name, type making request; server execution time and total time for request completion.
+  - Stack trace dimension (added version 20.1) and client type (added version 21.3) help trace external service calls to AL code locations.
+  - HTTP headers captured in telemetry; sample KQL extracts Authorization header from parsed httpHeaders JSON to analyze authentication methods used.
 - [Supported cipher suites](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-supported-cipher-suites): Lists the cipher suites that are supported for external APIs called from Business Central.
 - [Troubleshooting web service errors (OData, API, and SOAP)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-troubleshooting): Learn about how to troubleshoot Business Central web service errors (OData, API, and SOAP).
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos, posts and code changes
 
@@ -158,7 +172,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#8499 Adding `IsVerifiedDomain` to the `AzureADTenant` module](../../../../changes/bcapps/8499.md) (code change): "checks whether a domain is among the tenant's verified domains"
 - [#9744 [Email - Outlook REST API] Skip attachments without contentBytes in RetrieveEmails](../../../../changes/bcapps/9744.md) (code change): "Attachments without contentBytes (item and reference attachments) are now skipped"
 - [#9748 Image Analyzer: use Computer Vision v3.2 instead of retiring v1.0](../../../../changes/bcapps/9748.md) (code change): "The Image Analyzer app switches from the retiring Computer Vision v1.0 to v3.2 API"
-- [How to Work with JSON in Business Central’s AL Code](../../../../posts/aardvarklabs-blog/1826.md) (community post): "JSON structures and using JsonObject, JsonArray to parse incoming"
 - [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "explains how to consume external APIs from within Business Central by making HTTP requests using the HttpClient"
 - [Dynamics 365 Business Central: new strict URI validation in AL Http Client](../../../../posts/demiliani-com/13588.md) (community post): "Cloud environments enforce this without bypass options"
 - [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "native SFTP Client codeunit for connecting to SFTP servers from AL code"

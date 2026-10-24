@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:44:59.549Z"
   flags: []
 generated:
-  at: "2026-10-07T22:44:59.583Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -115,6 +115,10 @@ chapters:
     title: Foreign currency budgeting for volatile markets
   - t: 388
     title: Summary and key takeaways
+cautions:
+  - kind: preview-disclaimer
+    quote: The exact same thing will be available in the expense agent web app and in the expense agent phone app. It's just not ready at this point when we're recording these videos.
+    t: 74
 features:
   - name: Travel Request
     status: unclear

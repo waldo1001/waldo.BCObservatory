@@ -20,5 +20,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.016818
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:54:42.712Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview's advice to check the standard chart of accounts and GL account mapping before audit exports is an inference, though a reasonable one since the Auditing summary says the chart of accounts is needed for GL account mapping.",
+      "Minor: the '2026 release wave 2' tag comes from the landing page's versions metadata rather than a feature; calling it a tag is accurate."
+    ],
+    "input_hash": "fdde939fd476f2cfa8bae483c742e42c789cc9cdff66c8d0ab85d782bb46e062",
+    "cost_usd": 0.035259200000000004
   }
 }

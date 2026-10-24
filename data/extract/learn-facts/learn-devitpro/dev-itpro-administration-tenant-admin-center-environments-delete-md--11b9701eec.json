@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-delete.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-delete",
+  "title": "Delete and recover environments",
+  "blob": "4c8360c9affbc0127156b04f98237015cd564e91",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Deleted environments enter a retention period lasting 14 days called soft delete before permanent hard delete."
+    },
+    {
+      "kind": "fact",
+      "text": "During the 14-day retention period, you can fully recover the environment and all its data."
+    },
+    {
+      "kind": "fact",
+      "text": "Environments with Creating Failed or Removing Failed status are permanently deleted immediately without retention."
+    },
+    {
+      "kind": "fact",
+      "text": "Soft-deleted environments are automatically renamed with a date-time suffix format yyMMddHHmmssff to avoid naming conflicts."
+    },
+    {
+      "kind": "fact",
+      "text": "Soft-deleted environments do not receive updates but remain in the update schedule until permanently deleted."
+    },
+    {
+      "kind": "fact",
+      "text": "When recovering an environment, pending updates scheduled during deletion are applied unless you reschedule them."
+    },
+    {
+      "kind": "fact",
+      "text": "You can recover a production environment exceeding quota by one extra environment; return within quota within 30 days."
+    },
+    {
+      "kind": "limit",
+      "text": "Environments linked to Power Platform cannot be deleted without unlinking first."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00629,
+      "pages_in_call": 8
+    }
+  ]
+}

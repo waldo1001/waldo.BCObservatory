@@ -1,0 +1,46 @@
+{
+  "item_id": "blog/thinkaboutit-be/8062",
+  "page_id": "post/thinkaboutit-be/8062",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Some environments on version 28.0 or later may process Copilot and agent requests in a different Azure geography.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28.0"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "A silent client crash tied to a missing SQL join on table extensions during CopyFilters.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "table extensions"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28.4"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Implicit app dependencies binding to the highest published version instead of the control plane manifest.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28.4"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006568,
+    "posts_in_call": 4
+  }
+}

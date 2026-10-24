@@ -137,7 +137,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
     "objects": [
       {
         "path": "src/Apps/W1/Subcontracting/App/src/Permissions/SubcontractObjs.PermissionSet.al",
@@ -162,6 +162,28 @@
         "page": "report/20501"
       },
       {
+        "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcTransferShipment.ReportExt.al",
+        "status": "added",
+        "key": "reportextension/20500",
+        "type": "reportextension",
+        "id": 20500,
+        "name": "Subc. Transfer Shipment",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "reportextension/20500"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcTransferShipmentData.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/20509",
+        "type": "codeunit",
+        "id": 20509,
+        "name": "Subc. Transfer Shipment Data",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20509"
+      },
+      {
         "path": "src/Layers/IT/BaseApp/Local/Manufacturing/Document/SubcontractTransferShipment.Report.al",
         "status": "modified",
         "key": "report/12154",
@@ -174,16 +196,6 @@
       }
     ],
     "unjoined": [
-      {
-        "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcTransferShipment.ReportExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcTransferShipmentData.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
       {
         "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ManufacturingManagerRC.Page.al",
         "status": "modified",

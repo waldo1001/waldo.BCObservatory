@@ -1,0 +1,46 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/",
+  "page_id": "post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-prices-incl-vat-prod-posting-group--3b717ab825",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "from the affected build, the same change now gives: Total Incl. VAT: 86.96",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28.2"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "BC changed the condition for when it recalculates the direct unit cost to include G/L Account lines",
+      "objects": [
+        {
+          "type": "other",
+          "name": "G/L Account lines"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28.2"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "it's worth to be cautious about this, especially if VAT product posting groups get changed after the line is entered",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28.2"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005527,
+    "posts_in_call": 4
+  }
+}

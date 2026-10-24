@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.016295
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:53:55.872Z",
+    "verdict": "approve",
+    "issues": [
+      "The '(2023 release wave 2)' tag on the scope-moving key point comes from the page's version metadata, but the summaries don't say what the release wave means for that page. Agents could read it as the version that introduced the feature. Leaving it in is acceptable.",
+      "Translation (XLIFF files, layered translation sources by language priority and app dependencies) is listed in the overview but has no key point of its own. This is a small gap in coverage."
+    ],
+    "input_hash": "c32bd0c0438802fb741d6955bdcad624fe5f3295403a8e3d0f845bf6685d3ff4",
+    "cost_usd": 0.0350592
   }
 }

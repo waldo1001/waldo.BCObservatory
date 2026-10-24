@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:57:49.760Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -90,6 +90,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
+      title: BC 29 lets a single index span base table and table extension fields
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/qABlX4AL3GM
+      title: "Business Central 29.0: Major Change to Table Extensions & SQL."
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/Fk6kWTe3f2Y
+      title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/thedynamicsexplorer-com/10326
+      title: Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/duiliotacconi-com/1457
+      title: "Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/fy96_jdL1PQ
+      title: "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/f_i4_BRz-oA
+      title: "Microsoft presents: Cloud Migration from any SQL"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/1x3QyBX3swg
+      title: "Microsoft presents: Index management"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/SdQVQLNXVS0
+      title: "What's New in Manufacturing: Order Processing (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 99000768 "Manufacturing Setup"
+      by: code
+    - to: video/QdWPlIV3Avk
+      title: "What's new in SCM: Subcontracting (2026 release wave 2)"
+      label: possibly related
+      why: both name Table 5832 "Capacity Ledger Entry"
+      by: code
 video_id: tzX0qB9tiBs
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -227,3 +278,18 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [2:42](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=162s) "navigate to the purchase order and open the receipt select both lines linked to the production order and choose undo"
 - [3:33](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=213s) "enable the ability to finish production orders without output in the manufacturing setup page"
 - [4:00](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=240s) "the accumulated amounts from the work in progress account have been transferred to the inventory adjustment account"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Business Central 29.0: Major Change to Table Extensions & SQL.](../videos/qABlX4AL3GM.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../videos/fy96_jdL1PQ.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Microsoft presents: Cloud Migration from any SQL](../videos/f_i4_BRz-oA.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [What's New in Manufacturing: Order Processing (2025 release wave 1)](../videos/SdQVQLNXVS0.md) — possibly related: both name Page 99000768 "Manufacturing Setup"
+- [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Table 5832 "Capacity Ledger Entry"

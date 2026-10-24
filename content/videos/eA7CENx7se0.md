@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:03:25.870Z"
   flags: []
 generated:
-  at: "2026-10-07T23:03:25.916Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -154,6 +154,16 @@ chapters:
     title: Multi-Turn Testing for Conversational Scenarios
   - t: 1412
     title: Best Practices and Future Roadmap
+cautions:
+  - kind: preview-disclaimer
+    quote: we are introducing the Copilot Test Toolkit in preview
+    t: 506
+  - kind: preview-disclaimer
+    quote: It's subject to separate billing, but you can learn more about that at aka.ms/azureaistudio.
+    t: 1178
+  - kind: preview-disclaimer
+    quote: We aim to improve the tool to enable the test automation and make it even smoother for you to test your Copilot features with less effort.
+    t: 1542
 features:
   - name: Copilot Test Toolkit
     status: preview

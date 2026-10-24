@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:44:51.120Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -118,6 +118,16 @@ chapters:
     title: Approver workflow and policy override requirements
   - t: 522
     title: Policy check optimization and conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: pricing regarding copilot credits for this feature - check documentation for updates
+    t: 35
+  - kind: preview-disclaimer
+    quote: Enhanced receipt itemization is a new feature that is going to come soon
+    t: 361
+  - kind: preview-disclaimer
+    quote: Mandatory policy override reason specification is upcoming and will be required for approvers
+    t: 502
 features:
   - name: Evaluate compliance with AI
     status: preview

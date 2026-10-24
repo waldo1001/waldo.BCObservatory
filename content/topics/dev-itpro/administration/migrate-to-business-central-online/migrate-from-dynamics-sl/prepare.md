@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:49.261Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,6 +91,22 @@ Then read the planning page. It covers the Migration Assessment Tool, Analysis T
 ## Learn pages
 
 - [Cloud Migration Prerequisites for Dynamics SL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-sl): Learn about the requirements for cloud migration in Dynamics SL on-premises and online.
+  - Prerequisite: Destination must have Business Central online tenant with at least one SUPER permission user
+  - Prerequisite: Must install Intelligent Cloud Base, Dynamics SL Intelligent Cloud, and related apps with latest updates
+  - Permissions: User performing migration needs SUPER permissions and Microsoft admin center admin role, or delegated admin with permission grant
+  - Prerequisite: Source database must be Dynamics SL 2015 or later on SQL Server 2016 SP1 or later with compatibility level 130 or higher
+  - Prerequisite: SQL Server must have TCP/IP enabled and configured for SQL Server authentication with sysadmin and db_owner roles
+  - Prerequisite: Self-hosted integration runtime machine required for on-premises local databases
+  - Limit: Migration currently only supported for United States, Canada, United Kingdom, and Australia markets
 - [Prepare and plan for cloud migration from Dynamics SL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare-sl): Learn how to define your cloud migration strategy and prepare environments and users for Dynamics SL cloud migration.
+  - Step: Run Migration Assessment Tool to assess readiness and identify potential issues before migration
+  - Step: Determine which companies to migrate upfront to save time and resources
+  - Migration can run from live production database or from backup; backup approach improves speed and minimizes downtime
+  - Full database backup is required; differential or partial backups cannot be used due to Change Tracking requirements
+  - Schedule migration to avoid conflicts with scheduled updates to Business Central online
+  - Prerequisite: Analysis and Repair tools must be downloaded from GitHub and run before migration setup
+  - Limit: Do not update on-premises environment or reschedule cloud updates during migration period
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

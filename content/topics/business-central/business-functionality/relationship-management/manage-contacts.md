@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:04.955Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -130,10 +130,14 @@ The pages fit together as a workflow. Start with "Create and manage company cont
 
 - [Create and manage company contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-contacts): Record every external person or organization you interact with—such as prospects, customers, vendors, and consultants—as contacts to track relationship details and communications.
 - [Create business contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-companies): Outlines the tasks needed to create contacts and define your business relationships on the Contact Card.
+  - In the observatory: [Page 5050 "Contact Card"](../../../../objects/page/5050.md), [Page 5060 "Business Relations"](../../../../objects/page/5060.md), [Page 5094 "Marketing Setup"](../../../../objects/page/5094.md)
 - [Merge duplicate customer or vendor records](https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records): Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.
+  - In the observatory: [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 702 "Merge Duplicate"](../../../../objects/page/702.md), [Page 704 "Merge Duplicate Conflicts"](../../../../objects/page/704.md)
 - [Save Business Contacts to Microsoft Outlook](https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook): Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.
 - [Set up information for contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-setup-contacts): Outlines the tasks to specify information and codes, for example, about industry groups and business relationships, before you set up contacts.
+  - In the observatory: [Page 5050 "Contact Card"](../../../../objects/page/5050.md), [Page 5057 "Contact Alt. Address List"](../../../../objects/page/5057.md), [Page 5061 "Contact Business Relations"](../../../../objects/page/5061.md), [Page 5064 "Contact Mailing Groups"](../../../../objects/page/5064.md), [Page 5067 "Contact Industry Groups"](../../../../objects/page/5067.md), [Page 5070 "Contact Web Sources"](../../../../objects/page/5070.md)
 - [Use profiles to classify contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire): Learn how to set up profile questionnaires to help classify your business contacts' profiles.
+  - In the observatory: [Page 5050 "Contact Card"](../../../../objects/page/5050.md), [Page 5112 "Profile Question Details"](../../../../objects/page/5112.md), [Page 5172 "Answer Points"](../../../../objects/page/5172.md)
 
 ## Videos, posts and code changes
 

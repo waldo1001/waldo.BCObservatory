@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:14:11.893Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:11.936Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -245,6 +245,17 @@ chapters:
     title: Connectors report and application areas usage analysis
   - t: 2054
     title: Telemetry setup, configuration, and implementation checklist
+cautions:
+  - kind: preview-disclaimer
+    quote: statistical accounts this is a new feature by the way coming in version 22 2.0 in the finance
+    t: 1099
+    versions:
+      - "22"
+  - kind: preview-disclaimer
+    quote: we are releasing version 22 here in April 2023
+    t: 2134
+    versions:
+      - "22"
 features:
   - name: Business Central Telemetry
     status: unclear

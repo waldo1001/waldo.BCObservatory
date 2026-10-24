@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:15:04.573Z"
   flags: []
 generated:
-  at: "2026-10-07T23:15:04.636Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -203,6 +203,47 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257
+      title: Analysis Mode killed half the Excel exports on your client's shared drive
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: post/thedynamicsexplorer-com/8821
+      title: Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: post/thedynamicsexplorer-com/36822
+      title: Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: video/mZNfMPpxovE
+      title: Historical Snapshot (2024)
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: video/q0TxpWfm9rc
+      title: "What's New: Enhancements to Copilot Summaries (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: video/u1oO9MEg9kc
+      title: "What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: video/HI7VcPzR2OE
+      title: "What's New: Financial Management - Overview (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: video/hcu7T3qLdDA
+      title: "What's New: The Danish Bookkeeping Act (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
 video_id: hSJW3LiOBxg
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -251,6 +292,15 @@ chapters:
     title: Analytics Solutions - Power BI, Queries, and Excel Data Sets
   - t: 2050
     title: Resources for Ongoing Engagement and Feedback
+cautions:
+  - kind: preview-disclaimer
+    quote: a new feature that is even not yet in the release notes
+    t: 60
+  - kind: preview-disclaimer
+    quote: in 23 um version 23.1 it will also show up in uh in help me in in sorry in tell me help and in report Explorer
+    t: 1618
+    versions:
+      - "23"
 features:
   - name: Open reports in expanded mode
     status: unclear
@@ -532,5 +582,18 @@ Not found in BC28-30: table "PowerBI Display Element", query "item hero query", 
 
 - [1:00](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=60s) preview: a new feature that is even not yet in the release notes
 - [26:58](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1618s) subject-to-change: in 23 um version 23.1 it will also show up in uh in help me in in sorry in tell me help and in report Explorer
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Analysis Mode killed half the Excel exports on your client's shared drive](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../posts/thedynamicsexplorer-com/8821.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Historical Snapshot (2024)](../videos/mZNfMPpxovE.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [What's New: Enhancements to Copilot Summaries (2025 release wave 2)](../videos/q0TxpWfm9rc.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)](../videos/u1oO9MEg9kc.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [What's New: Financial Management - Overview (2024 release wave 1)](../videos/HI7VcPzR2OE.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../videos/hcu7T3qLdDA.md) — possibly related: both name Page 16 "Chart of Accounts"
 
 Presenters (as heard): Kenny Ponan, Riku, Ken, Ero, Enrio.

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:48:33.123Z"
   flags: []
 generated:
-  at: "2026-10-07T22:48:33.160Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -259,6 +259,19 @@ chapters:
     title: MCP Tool Integration and Cross-Task Memory
   - t: 2280
     title: Future Improvements and Impact on Partners
+cautions:
+  - kind: preview-disclaimer
+    quote: we might have a combination eventually, you know, where every once in a while we reason, um, and then we continue with a smaller model, and then we reason again.
+    t: 1544
+  - kind: preview-disclaimer
+    quote: the ability to give the agent some tools like as as an agent developer, for example, using MCP
+    t: 2080
+  - kind: preview-disclaimer
+    quote: the mechanism for when to remember, whether it will ultimately be that you have a checkbox and say remember this when you're providing the feedback or we just decide for for ourselves like some other systems sometimes do, we it's it's…
+    t: 2204
+  - kind: preview-disclaimer
+    quote: the agent being able to consult some knowledge base like Microsoft Learn. Yeah, outside BC.
+    t: 2231
 features:
   - name: Agent Runtime
     status: unclear

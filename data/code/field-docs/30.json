@@ -3,21 +3,21 @@
     7,
     [
       1,
-      "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+      "15385dede95a4f9e7be01be47c684fc9d654a7ce",
       "4",
-      "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+      "15385dede95a4f9e7be01be47c684fc9d654a7ce",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "30",
   "stats": {
-    "tooltips": 18981,
-    "bound": 12905,
-    "unparsed": 2989,
-    "unmatched": 3087,
-    "tables": 1084,
-    "fields": 9074
+    "tooltips": 18988,
+    "bound": 12909,
+    "unparsed": 2990,
+    "unmatched": 3089,
+    "tables": 1085,
+    "fields": 9077
   },
   "tables": {
     "table/4": {
@@ -24367,7 +24367,7 @@
         "control": "Vendor GLN"
       },
       "Vendor Invoice No.": {
-        "tooltip": "Specifies the external invoice number that the document applies to.",
+        "tooltip": "Specifies the vendor's invoice number that the document applies to, as stated on the document.",
         "page": "page/6182",
         "control": "Vendor Invoice No."
       },
@@ -29482,7 +29482,7 @@
         "control": "Credit Card Feed No."
       },
       "Currency Code": {
-        "tooltip": "Specifies the value of the Currency Code field.",
+        "tooltip": "Specifies the Currency of the Amount.",
         "page": "page/6988",
         "control": "Currency Code"
       },
@@ -29582,7 +29582,7 @@
         "control": "No."
       },
       "Non-Refundable Amount": {
-        "tooltip": "Specifies the reduction to the reimbursable amount. Available when Refundable is on and the category does not require itemization.",
+        "tooltip": "Specifies the reduction to the reimbursable amount. Available when Refundable is on and itemization is not required or is enforced by policy.",
         "page": "page/6988",
         "control": "Non-Refundable Amount"
       },
@@ -31598,6 +31598,23 @@
         "tooltip": "Specifies the Business Central vendor number linked to this expense vendor after matching or approval.",
         "page": "page/7088",
         "control": "Vendor No."
+      }
+    },
+    "table/6940": {
+      "Alternate Approver No.": {
+        "tooltip": "Specifies the approver who acts on behalf of the primary approver.",
+        "page": "page/7140",
+        "control": "Alternate Approver No."
+      },
+      "Effective End Date": {
+        "tooltip": "Specifies the last date on which the alternate can approve. Leave blank for ongoing coverage.",
+        "page": "page/7140",
+        "control": "Effective End Date"
+      },
+      "Effective Start Date": {
+        "tooltip": "Specifies the first date on which the alternate can approve.",
+        "page": "page/7140",
+        "control": "Effective Start Date"
       }
     },
     "table/6943": {

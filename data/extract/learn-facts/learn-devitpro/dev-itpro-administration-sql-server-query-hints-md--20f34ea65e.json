@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/sql-server-query-hints.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/sql-server-query-hints",
+  "title": "Configuring Query Hints for Optimizing SQL Server Performance",
+  "blob": "afa133d9980b81ec6edcfbe23f7ea4e8426fb7bb",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Query hints are strategies to override SQL Server execution plans when the query optimizer may make suboptimal choices."
+    },
+    {
+      "kind": "fact",
+      "text": "FORCE ORDER hint preserves join order indicated in query syntax and is disabled by default."
+    },
+    {
+      "kind": "fact",
+      "text": "LOOP JOIN hint enforces loop join operations for all joins in a query and is disabled by default."
+    },
+    {
+      "kind": "fact",
+      "text": "OPTIMIZE FOR UNKNOWN uses statistical data instead of initial values for local variables and parameters and is disabled by default."
+    },
+    {
+      "kind": "fact",
+      "text": "Do not change query hint settings from defaults unless certain the change improves your specific scenario."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004442,
+      "pages_in_call": 13
+    }
+  ]
+}

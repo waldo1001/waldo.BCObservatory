@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:13.743Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,8 +112,10 @@ Start with the page on creating and modifying custom layouts for the basic conce
 
 - [(Obsolete) Create and modify custom report layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout): Learn how to create customized layouts to personalize the appearance of a report when viewed, printed, or saved.
 - [(Obsolete) Import and Export Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout): You can import and export an existing custom report layout as a file to and from a location on your computer and network.
+  - In the observatory: [Page 9660 "Report Layouts"](../../../../../objects/page/9660.md)
 - [(Obsolete) Set the Layout Used by a Report](https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report): You can use different layouts for a report, and switch between layouts to change how a report looks.
 - [(Obsolete) Update Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts): Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
+  - In the observatory: [Page 9656 "Report Layout Update Log"](../../../../../objects/page/9656.md)
 
 ## Business Central pages and reports
 

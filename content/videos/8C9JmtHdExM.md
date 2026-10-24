@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:08:26.640Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -66,6 +66,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/fpc_XlVEnWw
+      title: Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
+      title: Define Item Attributes for Item Variants
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/tpAh4q3h8T8
+      title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/thedynamicsexplorer-com/37371
+      title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/X3xygXmgRqU
+      title: How to Set Up Locations in Business Central (2025)
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/gerardorenteria-blog/11203
+      title: New Application Ideas of Dynamics 365 Business Central (2025 MAY)
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/aardvarklabs-blog/3680
+      title: Step-by-Step Guide to Custom User Controls in Business Central
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: video/vnaySMIKnp8
+      title: "What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/UKVp28M5TtU
+      title: "What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/iHgaNJucyvI
+      title: "What's new: Add existing table fields to pages (2023 release wave 2)"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
 video_id: 8C9JmtHdExM
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -193,3 +244,18 @@ Not found in BC28-30: page "over receipt codes".
 - [0:47](https://www.youtube.com/watch?v=8C9JmtHdExM&t=47s) "The most restrictive setting wins. So, if you have a setting that allows for 10% on the item and 20% over receipt on the"
 - [1:12](https://www.youtube.com/watch?v=8C9JmtHdExM&t=72s) "I can now set a general over receipt code for any product from a specific vendor because I know that a specific vendor is"
 - [2:23](https://www.youtube.com/watch?v=8C9JmtHdExM&t=143s) "you haven't set anything up on products or vendors, you will always be able to over receive 10%."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../videos/fpc_XlVEnWw.md) — possibly related: both name Page 26 "Vendor Card"
+- [Define Item Attributes for Item Variants](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) — possibly related: both name Page 30 "Item Card"
+- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 30 "Item Card"
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 30 "Item Card"
+- [How to Set Up Locations in Business Central (2025)](../videos/X3xygXmgRqU.md) — possibly related: both name Page 30 "Item Card"
+- [New Application Ideas of Dynamics 365 Business Central (2025 MAY)](../posts/gerardorenteria-blog/11203.md) — possibly related: both name Page 30 "Item Card"
+- [Step-by-Step Guide to Custom User Controls in Business Central](../posts/aardvarklabs-blog/3680.md) — possibly related: both name Page 26 "Vendor Card"
+- [What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)](../videos/vnaySMIKnp8.md) — possibly related: both name Page 30 "Item Card"
+- [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../videos/UKVp28M5TtU.md) — possibly related: both name Page 30 "Item Card"
+- [What's new: Add existing table fields to pages (2023 release wave 2)](../videos/iHgaNJucyvI.md) — possibly related: both name Page 26 "Vendor Card"

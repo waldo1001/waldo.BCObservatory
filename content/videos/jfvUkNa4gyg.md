@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:15.378Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,8 +70,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573351
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -116,6 +115,19 @@ chapters:
     title: AI development workflow testing approach and benefits of agent architecture
   - t: 2537
     title: AI agents versus manual coding and stream wrap-up
+cautions:
+  - kind: preview-disclaimer
+    quote: I still I'm still working on that. It's it's not really following those. And it also assumes that warnings and ...
+    t: 1091
+  - kind: preview-disclaimer
+    quote: There's still AL code in there. So my instructions still need refinement.
+    t: 1752
+  - kind: preview-disclaimer
+    quote: I've not yet investigated um how how to make it uh control itself more
+    t: 2354
+  - kind: preview-disclaimer
+    quote: this is not yet live this app this is for a customer as I said and um this is still ...
+    t: 2372
 features:
   - name: Cloud Code
     status: unclear
@@ -193,12 +205,10 @@ features:
     verified: false
     status_source: video
   - name: AL compiler JSON output
-    status: ga
+    status: unclear
     t: 2115
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573351"
+    status_source: video
   - name: Interface parameters with dependency injection
     status: unclear
     t: 2197
@@ -320,7 +330,7 @@ In a real customer project session, he had the agents analyze existing code for 
 | Iterative refactoring with context preservation | status not stated, demoed | [24:48](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1488s) |
 | Solution planning agent | status not stated, demoed | [27:34](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1654s) |
 | Multi-phase developer agent | status not stated, demoed | [29:47](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1787s) |
-| AL compiler JSON output | generally available (roadmap [Track AL compiler diagnostics in automated builds](../features/573351.md)), demoed | [35:15](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2115s) |
+| AL compiler JSON output | status not stated, demoed | [35:15](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2115s) |
 | Interface parameters with dependency injection | status not stated, demoed | [36:37](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2197s) |
 | Unpolluted context with agent architecture | status not stated, demoed | [40:16](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2416s) |
 | Cloud Profiles for AI Agent Configuration | status not stated | [39:01](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2341s) |
@@ -328,8 +338,6 @@ In a real customer project session, he had the agents analyze existing code for 
 | Agent File-Based Output Strategy | status not stated, demoed | [41:24](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2484s) |
 | Extended Agent Session Runtime | status not stated, demoed | [41:05](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2465s) |
 | Agent-Driven Development Orchestration | status not stated, demoed | [42:37](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2557s) |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

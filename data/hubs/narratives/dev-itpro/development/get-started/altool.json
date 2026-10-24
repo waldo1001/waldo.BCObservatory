@@ -11,7 +11,7 @@
     "Workspace commands help manage AL workspaces.",
     "Test execution is available through ALTool.",
     "Static call graph analysis is supported.",
-    "AI agent integration is available via MCP servers (2026 release wave 2)."
+    "AI agent integration is available via MCP servers."
   ],
   "members_used": 2,
   "subtopics_used": 0,
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.011744000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:57:09.736Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 8 ties '2026 release wave 2' specifically to MCP server integration. The source only says the reference page lists that version, not that the MCP feature belongs to it. I removed the version from that point; the overview already states it correctly at page level.",
+      "Minor: the overview calls ALTool itself cross-platform, but the source says this about the package's utilities. This is close enough, so I left it."
+    ],
+    "input_hash": "c762b952aa1fc7a656745af0c228091478b5515ec91e825184cea1517ee3e6d4",
+    "cost_usd": 0.0258792
   }
 }

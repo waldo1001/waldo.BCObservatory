@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview",
+  "title": "Monitoring and Analyzing Telemetry",
+  "blob": "6281096014f0669bcee7f855d732d3a1e8b79758",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Telemetry can be enabled at environment level or per-extension level to collect operational data in Azure Application Insights."
+    },
+    {
+      "kind": "fact",
+      "text": "With Business Central 2020 release wave 2 and later, publishers can set Application Insights connection strings in app.json manifest files."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry data is stored in Application Insights Logs tables called traces and pageViews for analysis via Kusto query language."
+    },
+    {
+      "kind": "fact",
+      "text": "Both online and on-premises Business Central instances can emit telemetry to Azure Application Insights."
+    },
+    {
+      "kind": "fact",
+      "text": "Free Power BI apps analyze Business Central telemetry; one app covers environments while another covers apps and extensions."
+    },
+    {
+      "kind": "permission",
+      "text": "AL developers can create custom telemetry messages using Feature Telemetry codeunit or LogMessage method from Session class."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007287,
+      "pages_in_call": 6
+    }
+  ]
+}

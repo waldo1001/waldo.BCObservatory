@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:39.861Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,6 +109,7 @@ Start with "Sales with subscription lines" to understand the main flow. Then rea
 ## Learn pages
 
 - [Credit memos and cancellation](https://learn.microsoft.com/dynamics365/business-central/SRB/sales/credit-memo-cancellation): You can use credit memos in subscription billing.
+  - In the observatory: [Page 8067 "Recurring Billing"](../../../../../objects/page/8067.md)
 - [Manage subscriptions in foreign currencies](https://learn.microsoft.com/dynamics365/business-central/SRB/sales/dealing-with-currencies): You can use foreign currencies in subscription billing.
 - [Sales price calculation](https://learn.microsoft.com/dynamics365/business-central/SRB/sales/price-calculation): You can use sales price calculation in subscription billing.
 - [Sales with subscription lines](https://learn.microsoft.com/dynamics365/business-central/SRB/sales/sales-service-commitments): You can use sales with subscription lines in subscription billing.

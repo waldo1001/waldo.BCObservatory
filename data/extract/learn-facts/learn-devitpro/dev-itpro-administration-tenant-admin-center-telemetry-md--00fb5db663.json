@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-telemetry.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry",
+  "title": "Environment Telemetry",
+  "blob": "d323eea6fe08db956e80c6c6733f9ac7ce276790",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Admin center provides telemetry for tenant environments enabling troubleshooting and support."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry tab shows top-level AL events and errors from telemetry stack."
+    },
+    {
+      "kind": "step",
+      "text": "Filter telemetry by selecting base point-in-time, time range, message type, and environment."
+    },
+    {
+      "kind": "fact",
+      "text": "Helps identify underlying problems such as simultaneous data modification by multiple users."
+    },
+    {
+      "kind": "fact",
+      "text": "Enable richer telemetry by sending data to Microsoft Azure Application Insights."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005012,
+      "pages_in_call": 12
+    }
+  ]
+}

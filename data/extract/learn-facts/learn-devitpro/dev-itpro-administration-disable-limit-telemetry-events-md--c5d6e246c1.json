@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/disable-limit-telemetry-events.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/disable-limit-telemetry-events",
+  "title": "Turn Off or Limit Telemetry Trace Events",
+  "blob": "6006d2bf452720210a17b9d8c6fc6ee866d94de4",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Diagnostic Trace Level setting controls lowest severity of telemetry events emitted by Business Central server."
+    },
+    {
+      "kind": "fact",
+      "text": "Custom telemetry events have IDs 700-712, separate from external proxy logging controlled by ExternalTraceLevel."
+    },
+    {
+      "kind": "step",
+      "text": "Configure Diagnostic Trace Level via Microsoft Dynamics 365 Administration tool under General settings."
+    },
+    {
+      "kind": "step",
+      "text": "Set trace level to Critical, Error, Warning, Normal (Information), Verbose, or Off."
+    },
+    {
+      "kind": "step",
+      "text": "Restart server instance for configuration changes to take effect."
+    },
+    {
+      "kind": "step",
+      "text": "Use Set-NAVServerConfiguration PowerShell cmdlet as alternative to admin tool for configuration."
+    },
+    {
+      "kind": "fact",
+      "text": "SENDTRACETAG method in code generates custom telemetry events that can be filtered or suppressed."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006599,
+      "pages_in_call": 8
+    }
+  ]
+}

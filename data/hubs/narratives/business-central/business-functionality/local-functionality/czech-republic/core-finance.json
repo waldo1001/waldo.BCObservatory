@@ -2,7 +2,7 @@
   "hub_id": "topic/business-central/business-functionality/local-functionality/czech-republic/core-finance",
   "input_hash": "6bfd408106b1623a1f3ec9f9b713df03255bb57f3802fb4d161bfd2d4153b1a3",
   "summary": "Czech Core Finance covers Czech-specific general ledger and accounting features in Business Central: posting group controls, corrections (Red Storno), statutory statements, year closing, multi-circuit accounting, exchange rates, dimensions, and company information. It answers setup and usage questions for Czech compliance.",
-  "overview": "This section collects the Czech localization pages for core finance. They cover rules that Czech accounting legislation requires: corrections posting, multi-circuit accounting, statutory Balance Sheet and Income Statement reports, accounting output documents, internal financial documents, and year closing.",
+  "overview": "This section collects the Czech localization pages for core finance. Several cover rules from Czech accounting legislation: corrections posting (Red Storno), statutory Balance Sheet and Income Statement reports, accounting output documents, internal financial documents, and year closing. Other pages cover multi-circuit accounting, posting group checks and alternative employee posting groups, WIP extended posting, financial report extensions, G/L entry application, exchange rate updates from the Czech National Bank, automatic dimensions, and statutory company information.",
   "key_points": [
     "Corrections posting (Red Storno) is set up with the Check Posting Debit/Credit toggle and applied through the Correction field in journals.",
     "Multi-circuit accounting posts across Financial, Internal, and Off-Balance circuits. Areas are set with the G/L Account Group field, and the G/L Account Group Posting Check report verifies existing postings.",
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.018537
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:54:55.264Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview presents multi-circuit accounting as required by Czech accounting legislation; the multi-circuit page summary does not say this. Legislation is only tied to corrections posting, statutory statements, accounting output documents, internal financial documents and year closing.",
+      "Minor: the overview and key points leave out WIP extended posting and the financial report feature extensions. This is acceptable but noted."
+    ],
+    "input_hash": "6bfd408106b1623a1f3ec9f9b713df03255bb57f3802fb4d161bfd2d4153b1a3",
+    "cost_usd": 0.0509632
   }
 }

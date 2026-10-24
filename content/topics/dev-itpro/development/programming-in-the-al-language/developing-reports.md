@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.945Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -430,18 +430,31 @@ For running reports in production, the telemetry, performance and troubleshootin
 
 - [Obsoleting reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-obsoletion): Learn how to obsolete Business Central reports.
 - [Report dataset](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset): The dataset determines the data extracted to print or display the information from the database.
+  - In the observatory: [Table 18 "Customer"](../../../../objects/table/18.md), [Table 21 "Cust. Ledger Entry"](../../../../objects/table/21.md)
 - [Report Design Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-design-overview): Design a report by defining the dataset and designing the layout. Report object is composed of dataset, layout, request page, properties, triggers and code.
 - [Report Extension Example](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-ext-example): Reports are used to print or display information from a database.
 - [Report extension object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-ext-object): The report extension object in AL for Business Central allows you to create an extension of an existing report.
+  - In the observatory: [Report 111 "Customer - Top 10 List"](../../../../objects/report/111.md)
 - [Report Generation Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace): Learn about the report telemetry in Business Central.
+  - Report telemetry captures successful generation (RT0006), failures, cancellations (RT0007), and commits during cancellation (RT0011) with performance metrics.
+  - Total time minus server execution time equals rendering time. Rendering time is difference between generating dataset and applying layout.
+  - Limit: Business Central online cancels reports exceeding timeout threshold or max row limits; on-premises has no default limits but supports ReportTimeout and ReportMaxRows parameters.
+  - Dimensions include report ID, name, layout type (Rdlc, Word, Excel, Custom), document format, action (Print, Preview, Save, Schedule, Download), and reporting engine used.
+  - Theme layout and header/footer layout dimensions added in version 29.0 indicate layouts applied to report; values empty when not applied.
+  - Cancellation reasons include user request, timeout exceeded, maximum rows exceeded, or Word report rendering timeout.
+  - Limit: Event must log when report canceled with commit performed before cancellation, indicating potential data inconsistency if report not idempotent.
 - [Report object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object): The report object in AL for Business Central allows to create a new report.
 - [Report performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-performance): Provides information for developers to help improve performance for Business Central reports.
 - [Reports overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports): Use reports to display information from database to structure and summarize information and print documents, such as invoices.
 - [Substituting Reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-substituting-reports): Learn how to substitute one report for another in Business Central by handling the OnAfterSubstituteReport event, and how report extensions compare.
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../objects/codeunit/44.md)
 - [Test reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-reports): How to validate if a report produces correct data
 - [Troubleshooting reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshooting): Learn about how to troubleshoot Business Central reports
 - [Using request pages with reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-request-pages-for-reports): Introducing how to work with request pages with Business Central reports.
 - [Walkthrough - Designing a report from multiple tables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walktrough-designing-reports-multiple-tables): This walkthrough shows you how to design a report from multiple tables.
+  - In the observatory: [Table 18 "Customer"](../../../../objects/table/18.md), [Table 21 "Cust. Ledger Entry"](../../../../objects/table/21.md), [Table 36 "Sales Header"](../../../../objects/table/36.md)
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos, posts and code changes
 

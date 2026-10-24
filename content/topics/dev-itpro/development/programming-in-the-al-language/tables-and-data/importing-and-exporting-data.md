@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,8 +73,7 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
-  videos:
-    - video/vxZqz2LPJsE
+  videos: []
   posts:
     - post/aardvarklabs-blog/2204
     - post/aardvarklabs-blog/2603
@@ -100,7 +99,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 1
+  video: 0
   blog: 6
   guideline: 0
 bc_forms: []
@@ -136,6 +135,7 @@ For Excel, "Exporting data to Excel using ExcelBuffer" shows how to create a wor
 
 - [Defining an XMLport Schema in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-schema): An XMLport schema determines which data is exported from or imported to Dynamics 365 Business Central database tables and the format and structure of the files used.
 - [Exporting data to Excel using ExcelBuffer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-excel-buffer): Learn about the ExcelBuffer functionality and how to use it to copy data from AL to Excel.
+  - In the observatory: [Table 370 "Excel Buffer"](../../../../../objects/table/370.md)
 - [Use Namespaces with XMLports in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-namespaces-with-xmlports): Learn how to declare namespaces on an XMLport in Business Central and apply namespace prefixes to text, table, and field elements in the XML schema.
 - [Using request pages with XMLports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-request-pages): Introducing how to work with request pages for Business Central XMLports.
 - [XMLport object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object): XMLport objects are used to export and import data between an external source and Business Central.
@@ -156,6 +156,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Importing XML into Business Central with AL](../../../../../posts/aardvarklabs-blog/2866.md) (community post): "demonstrates how to parse cXML (commerce eXtensible Markup Language) files in Business Central using AL code"
 - [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md) (community post): "how to export data from Business Central to CSV format"
 - [BC Friday Tips #82 Excel Buffer Character Limit](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-82-excel-buffer-character-limit--e27af9f4a3.md) (community post): "Excel Buffer in Business Central has a 250-character limit on field values."
-- [Introducing Magic Paste for Business Central](../../../../../videos/vxZqz2LPJsE.md) (video): "clipboard; paste functionality; field mapping; excel integration; master data"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

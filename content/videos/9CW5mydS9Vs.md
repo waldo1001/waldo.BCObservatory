@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:30.871Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -120,6 +120,22 @@ chapters:
     title: Test selection, coverage, inner loop optimization, and dependencies
   - t: 2264
     title: MCP server, test explorer, token consumption, and model optimization
+cautions:
+  - kind: preview-disclaimer
+    quote: there is another version that is more interactive and there's a version that we tested in the BC bench
+    t: 727
+  - kind: preview-disclaimer
+    quote: native support for datadriven tests is not part of the the product yet but you might be able to find it in a pre-release
+    t: 1506
+  - kind: preview-disclaimer
+    quote: This is what we have planned um for the pipeline for coming release
+    t: 1686
+  - kind: preview-disclaimer
+    quote: we're looking forward to that inner loop optimization for us as developers
+    t: 1964
+  - kind: preview-disclaimer
+    quote: from now until we fix that or get that problem solved, uh you need to use the the classic test ...
+    t: 2554
 features:
   - name: Test Explorer support
     status: unclear
@@ -174,10 +190,12 @@ features:
     roadmap_ids:
       - "573333"
   - name: Custom context interface for data-driven tests
-    status: announced
+    status: ga
     t: 1591
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573333"
   - name: Agent-assisted test writing and review
     status: unclear
     t: 1713
@@ -311,7 +329,7 @@ The second half covers AI. It shows an agent that writes tests interactively in 
 | Copilot feature testing framework | status not stated, demoed | [20:35](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1235s) |  |
 | Agentic test simulation and step verification | status not stated, demoed | [23:31](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1411s) |  |
 | Native data-driven test support | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [25:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1506s) |  |
-| Custom context interface for data-driven tests | announced, demoed | [26:31](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1591s) | "This is what we have planned um for the pipeline for coming release" ([28:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1686s)) |
+| Custom context interface for data-driven tests | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [26:31](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1591s) | "This is what we have planned um for the pipeline for coming release" ([28:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1686s)) |
 | Agent-assisted test writing and review | status not stated | [28:33](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1713s) |  |
 | Performance test suite for long-running tests | status not stated | [29:18](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1758s) |  |
 | Test type filtering with subtype and transaction filters | status not stated | [31:33](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1893s) |  |

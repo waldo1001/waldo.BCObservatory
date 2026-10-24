@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-data-upgrade.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade",
+  "title": "Run data upgrade",
+  "blob": "055584d51a462fc4c47d7af9ca3ff8f58fe8663f",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Data replication must complete before running data upgrade."
+    },
+    {
+      "kind": "fact",
+      "text": "Data upgrade runs logic to upgrade platform-related data when migrating from earlier versions."
+    },
+    {
+      "kind": "step",
+      "text": "Open Cloud Migration Management page and select Run data upgrade."
+    },
+    {
+      "kind": "fact",
+      "text": "All client connections are terminated during data upgrade; no reconnection until it completes."
+    },
+    {
+      "kind": "fact",
+      "text": "Successful upgrade shows Complete status and environment becomes active again for client access."
+    },
+    {
+      "kind": "fact",
+      "text": "Failed upgrade triggers automatic point-in-time restore to revert environment state."
+    },
+    {
+      "kind": "limit",
+      "text": "Long-running upgrades on Business Central on-premises can be accelerated by skipping API data upgrade."
+    },
+    {
+      "kind": "fact",
+      "text": "You can cancel running data upgrade from admin center; restore process may take over one hour."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005499,
+      "pages_in_call": 11
+    }
+  ]
+}

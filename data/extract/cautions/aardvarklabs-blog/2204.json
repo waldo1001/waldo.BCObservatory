@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2204",
+  "page_id": "post/aardvarklabs-blog/2204",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Texts that get saved to a database have a size limit of 2048.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "We are more likely limited by the size of an InStream which is 1,000,000 bytes.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005623,
+    "posts_in_call": 4
+  }
+}

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:09:46.433Z"
   flags: []
 generated:
-  at: "2026-10-07T23:09:46.479Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -162,6 +162,13 @@ chapters:
     title: Key takeaways and user recommendations
   - t: 981
     title: Additional resources and closing
+cautions:
+  - kind: preview-disclaimer
+    quote: they are marked with preview for now because we might have some design changes we want to do but they're fully functional
+    t: 78
+  - kind: preview-disclaimer
+    quote: right now in preview as of April or March 2024
+    t: 720
 features:
   - name: Trial balance Excel report
     status: preview

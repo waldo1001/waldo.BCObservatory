@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:25.430Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,9 +112,37 @@ A further page covers enhancements to demo environments, such as adding Contoso 
 ## Learn pages
 
 - [Add enhancements to Business Central demo environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-extend-enhancements): Enhance your demo environments with Contoso Coffee data, connectivity apps, Dynamics 365 Sales integration, and Field Service capabilities.
+  - Contoso Coffee Demo Data app adds demo data to showcase advanced manufacturing and supply chain features.
+  - Connectivity apps let you demonstrate integrations and connected scenarios between Business Central and other apps.
+  - Step: Sign up for Dynamics 365 Sales Professional trial using your Microsoft demo account admin credentials.
+  - Step: In Power Platform admin center, install Field Service app to Sales trial environment from Marketplace.
+  - Step: Open Assisted Setup in Business Central and select setup for Dataverse connection first.
+  - Step: Complete Sales integration setup before Field Service setup, as Field Service setup depends on it.
+  - After setup, Business Central, Sales, and Field Service share data through Dataverse for end-to-end scenarios.
+  - Convert trial environments to sandbox environments to reset data and demo different Dynamics 365 app combinations.
 - [Prepare demonstration environments for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment): Learn about options for setting up Dynamics 365 Business Central online demo environments that help turn prospects into customers.
+  - MDX approach provides full tenant control and works best for repeatable partner-controlled demos lasting 90 days or one year.
+  - Prospect trial approach enables quick evaluation in prospect's own organization and can convert to paid subscription.
+  - Sandbox approach provides unlimited duration and full tenant control for tailored or side-by-side demo scenarios.
+  - Prerequisite: MDX approach requires Partner Center enrollment; prospect trial requires prospect email account; sandbox requires existing Business Central tenant.
 - [Set up Microsoft 365 and Business Central demo environments with MDX](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-mdx): Create and configure Business Central demonstration environments with Microsoft demo experience (MDX) for presales.
+  - Prerequisite: You must be enrolled in Microsoft Partner Center to use MDX for creating demo environments.
+  - MDX lets partners create repeatable demos in independent Azure tenants that you fully control.
+  - Limit: MDX environments expire after 90 days or one year depending on tenant type; data is lost if prospect uses them for business.
+  - Demonstration company in MDX can be used indefinitely if accessed couple of times per week until tenant expires.
+  - Trial experience in actual Business Central expires after 30 days and can be extended or replaced with new environment.
+  - Limit: MDX account has access to limited number of 90-day and one-year tenants at any time; limits on daily and monthly creation.
+  - Step: Enable Premium user experience in Company Information page and add data for evaluation scenarios.
+  - Use Microsoft Edge profiles to switch between demo and partner accounts without private browsing for better performance.
 - [Use trial and sandbox demo environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-trial): Add Business Central trials to prospect organizations or set up sandbox-based demo environments for advanced scenarios.
+  - Prospect trial option lets you add Business Central trial directly to prospect's organization for evaluation.
+  - Limit: Prospect trial lasts up to 60 days; if extended once and still uncertain, prospect must contact partner.
+  - Sandbox environments are ideal for demos when you already have a Business Central tenant and want isolated scenarios.
+  - Prerequisite: For sandbox demos, you must already have an existing Business Central tenant.
+  - Limit: Sandbox environments have limited functionality and performance compared to production environments.
+  - Partners can request dedicated partner sandbox licenses starting February 2022 to set up more sandbox environments.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Business Central pages and reports
 

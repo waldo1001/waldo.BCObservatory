@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:47.961Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,7 @@ narrative: generated
 
 > General Canada local functionality in Business Central: GIFI codes for reporting financial information to the Canada Revenue Agency, and printing troubleshooting reports in the Canadian version. It answers questions on GIFI setup, linking to G/L accounts, and exporting balances for tax filing.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > General · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -90,6 +90,7 @@ The second page is a short pointer on how to print troubleshooting reports in th
 ## Learn pages
 
 - [GIFI Codes in Canada](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/work-gifi-codes): In Canada, you can set up General Index of Financial Information (GIFI) codes and assign them to posting accounts.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md)
 - [How to print troubleshooting reports [CA]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-print-troubleshooting-reports): Several troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the Canadian version.
 
 ## Business Central pages and reports

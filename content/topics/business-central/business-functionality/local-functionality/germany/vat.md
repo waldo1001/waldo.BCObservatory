@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:42.877Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,7 +108,7 @@ narrative: generated
 
 > German VAT functionality in Business Central: setting up and creating VAT reports, sales VAT advance notifications for ELSTER, VAT-VIES declarations for the EU Sales List, Intrastat setup, and correcting submitted reports. It answers setup, submission and correction questions for German tax authorities.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > VAT · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -132,11 +132,17 @@ For day-to-day work, use "How to Create VAT Reports [DE]" and "How to Declare VA
 ## Learn pages
 
 - [Correct VAT Reports [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-correct-vat-reports): Learn how to submit a corrected sales VAT advance notification or a corrected VAT-VIES declaration in the German version.
+  - In the observatory: [Page 11016 "Sales VAT Adv. Notif. Card (DE)"](../../../../../objects/page/11016-de.md)
 - [How to Create VAT Reports [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-create-vat-reports): Learn how to create and submit sales VAT advance notifications and VAT-VIES declarations in the German version.
+  - In the observatory: [Page 11016 "Sales VAT Adv. Notif. Card (DE)"](../../../../../objects/page/11016-de.md)
 - [How to Declare VAT-VIES Tax [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-declare-vat-vies-tax): Learn to create the VAT-VIES report for submitting sales transaction details with other EU countries or regions.
+  - In the observatory: [Table 254 "VAT Entry"](../../../../../objects/table/254.md)
 - [How to Set Up Reports for VAT and Intrastat](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat): Learn how to specify the reports used to create documents for submission to authorities, such as the VAT statement and the Intrastat form.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 4810 "Intrastat Report Setup"](../../../../../objects/page/4810.md)
 - [How to Set Up VAT Reports [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-vat-reports): Learn how to set up VAT statements, company information, and tax office data before you declare VAT-VIES tax or sales VAT advance notifications in the German version.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 11019 "Electronic VAT Decl. Setup (DE)"](../../../../../objects/page/11019-de.md), [Page 317 "VAT Statement"](../../../../../objects/page/317.md), [Page 320 "VAT Statement Names"](../../../../../objects/page/320.md)
 - [VAT Reporting in the German version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/vat-reporting): You can report VAT electronically to the tax authorities in the German version.
+  - In the observatory: [Table 256 "VAT Statement Line"](../../../../../objects/table/256.md)
 
 ## Videos, posts and code changes
 

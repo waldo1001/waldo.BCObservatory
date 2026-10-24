@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/demiliani-com/12123",
+  "page_id": "post/demiliani-com/12123",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "From Business Central version 21, all add-ins installed in the service tier must be compiled with .NET Standard.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "21"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003752,
+    "posts_in_call": 4
+  }
+}

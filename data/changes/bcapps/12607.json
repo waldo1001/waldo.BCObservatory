@@ -60,8 +60,30 @@
   },
   "join": {
     "major": "30",
-    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
     "objects": [
+      {
+        "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchLedgerVATBuffer.Table.al",
+        "status": "added",
+        "key": "table/11302",
+        "type": "table",
+        "id": 11302,
+        "name": "Purch. Ledger VAT Buffer",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/11302-be"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchLedgerVATDetail.Query.al",
+        "status": "added",
+        "key": "query/11302",
+        "type": "query",
+        "id": 11302,
+        "name": "Purch. Ledger VAT Detail",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "query/11302-be"
+      },
       {
         "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchaseLedger.Report.al",
         "status": "modified",
@@ -74,18 +96,7 @@
         "page": "report/11301-be"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchLedgerVATBuffer.Table.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchLedgerVATDetail.Query.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "purchasing"

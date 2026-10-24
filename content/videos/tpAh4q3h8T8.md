@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:14:07.737Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:07.786Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -113,6 +113,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/8C9JmtHdExM
+      title: Allow Over Receipts of Products
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/Vq9Nk6_uxmQ
+      title: "Business Central Under the Hood episode 14: Building Agents in Business Central"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
+      title: Create Purchase Orders from Drop Shipments
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
+      title: Define Item Attributes for Item Variants
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/thedynamicsexplorer-com/37371
+      title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/crDXSPsoIQ8
+      title: Edit Sales Orders in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/X3xygXmgRqU
+      title: How to Set Up Locations in Business Central (2025)
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/XhO4oFmoh1M
+      title: "Introducing: Sales Order Agent (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/gerardorenteria-blog/11203
+      title: New Application Ideas of Dynamics 365 Business Central (2025 MAY)
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/vnaySMIKnp8
+      title: "What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
 video_id: tpAh4q3h8T8
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -147,6 +198,10 @@ chapters:
     title: Deploying customizations across environments
   - t: 1300
     title: AL-GO and GitHub integration for production deployment
+cautions:
+  - kind: preview-disclaimer
+    quote: all you need to do is to go to the BCT Tech and there very nice samples available
+    t: 837
 features:
   - name: Attached debugger from client
     status: unclear
@@ -308,5 +363,20 @@ Not found in BC28-30: page "page inspector", page "Profiles".
 ## Disclaimers in the video
 
 - [13:57](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=837s) subject-to-change: all you need to do is to go to the BCT Tech and there very nice samples available
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Allow Over Receipts of Products](../videos/8C9JmtHdExM.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central Under the Hood episode 14: Building Agents in Business Central](../videos/Vq9Nk6_uxmQ.md) — possibly related: both name Page 42 "Sales Order"
+- [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 42 "Sales Order"
+- [Define Item Attributes for Item Variants](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) — possibly related: both name Page 30 "Item Card"
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 30 "Item Card"
+- [Edit Sales Orders in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)](../videos/crDXSPsoIQ8.md) — possibly related: both name Page 42 "Sales Order"
+- [How to Set Up Locations in Business Central (2025)](../videos/X3xygXmgRqU.md) — possibly related: both name Page 30 "Item Card"
+- [Introducing: Sales Order Agent (2025 release wave 1)](../videos/XhO4oFmoh1M.md) — possibly related: both name Page 42 "Sales Order"
+- [New Application Ideas of Dynamics 365 Business Central (2025 MAY)](../posts/gerardorenteria-blog/11203.md) — possibly related: both name Page 30 "Item Card"
+- [What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)](../videos/vnaySMIKnp8.md) — possibly related: both name Page 30 "Item Card"
 
 Presenters (as heard): Dimitri, Ida, Kenny, Mike Morton, Andre.

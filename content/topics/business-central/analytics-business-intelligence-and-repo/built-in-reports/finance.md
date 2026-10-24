@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:50.212Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -283,8 +283,10 @@ For custom reporting, the page on building financial reports explains how to ana
 ## Learn pages
 
 - [Accounts payables analytics](https://learn.microsoft.com/dynamics365/business-central/payables-reports): See which analytics options are available in Business Central so that you can keep track of your accounts payable.
+  - In the observatory: [Page 29 "Vendor Ledger Entries"](../../../../objects/page/29.md), [Page 36994 "Aged Payables (Back Dating)"](../../../../objects/page/36994.md), [Page 36996 "Detailed Vendor Ledger Entries"](../../../../objects/page/36996.md)
 - [Accounts receivable analytics](https://learn.microsoft.com/dynamics365/business-central/receivables-reports): Explore the reports and analytics in the standard version of Business Central that can help you track your accounts receivable.
 - [Build financial reports using financial data and account categories](https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule): Describes how to use financial reports to create various views and reports for analyzing financial performance data.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../objects/page/118.md), [Page 8391 "Financial Report Categories"](../../../../objects/page/8391.md)
 - [Built-in finance reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-reports): Explore the built-in financial reports in the standard version of Business Central.
 - [Sustainability reports and analytics](https://learn.microsoft.com/dynamics365/business-central/sustainability-reports): Explore the sustainability reports and analytics in the standard version of Business Central.
 

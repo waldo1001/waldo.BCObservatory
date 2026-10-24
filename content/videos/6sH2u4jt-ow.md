@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:51:53.237Z"
   flags: []
 generated:
-  at: "2026-10-07T22:51:53.284Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -74,6 +74,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/B8cWQGwajwQ
+      title: "In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/j5ULVClJaKU
+      title: "Introducing: Chat with Copilot ( 2024 release wave 1)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/gBB0elWQWM8
+      title: Warn Salespeople That a Product Will Soon be Out of Stock
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/6SyNNeHQDUo
+      title: "What's New: Co-Development Initiative (2024 release wave 2)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/Afv-r-eDt90
+      title: "What's New: Enhanced Analysis Mode (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/MKuOgMWXJ_8
+      title: "What's New: Sales Validation Sample Agent for Business Central"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
 video_id: 6sH2u4jt-ow
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -231,3 +262,14 @@ Not found in BC28-30: page "External File Accounts", page "File Scenarios", page
 
 - [0:45](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=45s) other: you are using this feature as it is and on your own risk because once the files are offloaded it is your responsibility to make proper backups and maintain those files
 - [1:05](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=65s) other: If files get deleted on external storage they will also not be available anymore for business central environment
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)](../videos/B8cWQGwajwQ.md) — possibly related: both name Page 48 "Sales Orders"
+- [Introducing: Chat with Copilot ( 2024 release wave 1)](../videos/j5ULVClJaKU.md) — possibly related: both name Page 48 "Sales Orders"
+- [Warn Salespeople That a Product Will Soon be Out of Stock](../videos/gBB0elWQWM8.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's New: Co-Development Initiative (2024 release wave 2)](../videos/6SyNNeHQDUo.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's New: Enhanced Analysis Mode (2026 release wave 1)](../videos/Afv-r-eDt90.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's New: Sales Validation Sample Agent for Business Central](../videos/MKuOgMWXJ_8.md) — possibly related: both name Page 48 "Sales Orders"

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:15.959Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -139,7 +139,7 @@ narrative: generated
 
 > Canada local functionality in Business Central covers Canadian tax (GST/HST, sales tax, use and purchase tax, unrealized sales tax), banking and payments (deposits, vendor payment export), and GIFI codes for Canada Revenue Agency reporting. It answers setup and reporting questions for the Canadian version.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Canada · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Canada · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

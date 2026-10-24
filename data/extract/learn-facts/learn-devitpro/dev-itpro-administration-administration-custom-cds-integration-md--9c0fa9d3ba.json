@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-custom-cds-integration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration",
+  "title": "Customizing an integration with Microsoft Dataverse",
+  "blob": "162a6471bfa1ed72b6c64226c69af51cc30fa33a",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Microsoft Dataverse must include the Worker table from the Talent Core HR solution."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Business Central sandbox environment with CRONUS demo data and working Dataverse integration enabled."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Visual Studio Code with AL Language extension installed for developing extensions."
+    },
+    {
+      "kind": "step",
+      "text": "Create an integration table in Business Central using the AL Table Proxy Generator tool to map a Dataverse table to a Business Central record type."
+    },
+    {
+      "kind": "step",
+      "text": "Create a page using the integration table as data source to display Dataverse data in Business Central."
+    },
+    {
+      "kind": "step",
+      "text": "Subscribe to OnGetCDSTableNo event in CRM Setup Defaults codeunit to enable coupling between Business Central and Dataverse records."
+    },
+    {
+      "kind": "step",
+      "text": "Create integration table mappings linking Business Central tables to integration tables, then add integration field mappings for specific fields."
+    },
+    {
+      "kind": "fact",
+      "text": "Custom uncoupling can be enabled by specifying an uncoupling codeunit in integration table mapping to run custom logic before or after removing couplings."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013255,
+      "pages_in_call": 4
+    }
+  ]
+}

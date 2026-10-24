@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:51.589Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,6 +110,7 @@ Start with Designing Profiles for the overall picture, including role centers, p
 - [Page customization object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-customization-object): The page customization object in Business Central allows you to add changes to the layout and actions on page that are accessible for a profile.
 - [Profile object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-profile-object): Description of the profile object, which allows you to build an individual experience for each user profile.
 - [Using the client to create profiles](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client): Gives an overview of how to create profiles by using the client together with Visual Studio Code.
+  - In the observatory: [Page 22 "Customer List"](../../../../../objects/page/22.md), [Page 9022 "Business Manager Role Center"](../../../../../objects/page/9022.md)
 
 ## Videos, posts and code changes
 

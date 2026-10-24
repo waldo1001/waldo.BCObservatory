@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/thinkaboutit-be/7443",
+  "page_id": "post/thinkaboutit-be/7443",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "The moment you create a new company that is not a Cronus demo company, the Business Central trial starts.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "If a Business Central trial environment is created but no one signs in at all for 45 days, Microsoft may automatically remove the environment.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Using a personal Microsoft account or an email address from an existing tenant often leads to inconsistent results.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Business Central is not available in every country, and not every country supports Microsoft provided localizations.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005805,
+    "posts_in_call": 4
+  }
+}

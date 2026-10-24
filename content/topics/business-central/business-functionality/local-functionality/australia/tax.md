@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:09.263Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -167,7 +167,7 @@ narrative: generated
 
 > Australian tax functionality in Business Central: withholding tax (WHT) setup and settlement, GST posting, GST on prepayments, settlement reports, and VAT settlement exchange rate adjustment. It answers setup and processing questions for Australian localization.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Tax · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Tax · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -196,7 +196,9 @@ Start with the Australian Tax overview, which introduces WHT setup, vendor ABN c
 - [Set up goods and services tax posting [AU]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting): Learn how to apply goods and services tax (GST) to goods and services for the Australian Taxation Office (ATO).
 - [Set up revenue types for withholding tax [AU]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax): Revenue types serve to categorize withholding tax (WHT) entries and are utilized for WHT certificates in the Australian version.
 - [Set Up Vendors Without ABN for Calculating WHT](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax): In Business Central, Withholding Tax (WHT) is calculated for local vendors without an Australian Business Number (ABN), as required by tax law.
+  - In the observatory: [Page 26 "Vendor Card"](../../../../../objects/page/26.md)
 - [Set Up Withholding Tax [AU]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-withholding-tax): Learn how a company sets up withholding tax (WHT) for vendor payments on the General Ledger Setup page.
+  - In the observatory: [Table 98 "General Ledger Setup"](../../../../../objects/table/98.md)
 - [Withholding Tax in the Australian version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/withholding-tax): In the Australian version, Withholding Tax (WHT) is tax withheld by a company when making a payment to a vendor.
 
 ## Business Central pages and reports

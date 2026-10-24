@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T02:00:48.630Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -65,6 +65,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/gerardorenteria-blog/15143
+      title: 🧩 Deriving dimensions in Business Central beyond Default Dimensions
+      label: possibly related
+      why: both name Table 36 "Sales Header"
+      by: code
+    - to: post/aardvarklabs-blog/3837
+      title: Background Page Tasks in Business Central Explained
+      label: possibly related
+      why: both name Table 36 "Sales Header"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
+      title: BC 29 lets a single index span base table and table extension fields
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea
+      title: "BC Friday Tips #56 Understand Missing Fields in Copy Documents"
+      label: possibly related
+      why: both name Table 36 "Sales Header"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561
+      title: "BC Friday Tips #74 Copy Document and Custom Field"
+      label: possibly related
+      why: both name Table 36 "Sales Header"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a
+      title: "BC Friday Tips #77 TestField Show Record Action"
+      label: possibly related
+      why: both name Table 36 "Sales Header"
+      by: code
+    - to: post/aardvarklabs-blog/3118
+      title: Leveraging RecordRef and FieldRef for Dynamic Coding
+      label: possibly related
+      why: both name Table 36 "Sales Header"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade
+      title: Skip API data upgrade in cloud migration
+      label: possibly related
+      why: names Page 9994 "API Data Upgrade List"
+      by: code
+    - to: post/aardvarklabs-blog/4056
+      title: "Smarter Keys, Better Performance: Exploring Business Central v29 Index Updates"
+      label: possibly related
+      why: both name Table 36 "Sales Header"
+      by: code
+    - to: post/duiliotacconi-com/1667
+      title: Sorting by Type and Line No. in Sales and Purchase Postings
+      label: possibly related
+      why: both name Table 36 "Sales Header"
+      by: code
 post_id: https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/
 source_id: thatnavguy-com
 source_name: That NAV Guy
@@ -129,6 +180,21 @@ As named in the post. A name that matches one object page by exact type and name
 - [table 36 "Sales Header"](../../objects/table/36.md)
 - [table 112 "Sales Invoice Header"](../../objects/table/112.md)
 - [page 9994 "API Data Upgrade List"](../../objects/page/9994.md)
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [🧩 Deriving dimensions in Business Central beyond Default Dimensions](../../posts/gerardorenteria-blog/15143.md) — possibly related: both name Table 36 "Sales Header"
+- [Background Page Tasks in Business Central Explained](../../posts/aardvarklabs-blog/3837.md) — possibly related: both name Table 36 "Sales Header"
+- [BC 29 lets a single index span base table and table extension fields](../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) — possibly related: both name Table 36 "Sales Header"
+- [BC Friday Tips #74 Copy Document and Custom Field](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) — possibly related: both name Table 36 "Sales Header"
+- [BC Friday Tips #77 TestField Show Record Action](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a.md) — possibly related: both name Table 36 "Sales Header"
+- [Leveraging RecordRef and FieldRef for Dynamic Coding](../../posts/aardvarklabs-blog/3118.md) — possibly related: both name Table 36 "Sales Header"
+- [Skip API data upgrade in cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade) — possibly related: names Page 9994 "API Data Upgrade List"
+- [Smarter Keys, Better Performance: Exploring Business Central v29 Index Updates](../../posts/aardvarklabs-blog/4056.md) — possibly related: both name Table 36 "Sales Header"
+- [Sorting by Type and Line No. in Sales and Purchase Postings](../../posts/duiliotacconi-com/1667.md) — possibly related: both name Table 36 "Sales Header"
 
 ## Context
 

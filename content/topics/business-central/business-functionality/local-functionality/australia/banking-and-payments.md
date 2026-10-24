@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:04.733Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,7 +96,7 @@ narrative: generated
 
 > Banking and payments functionality in the Australian version of Business Central. It covers bank cash flow comparison, check installments, Electronic Funds Transfer (EFT) for vendor payments, bank account reconciliation reports and deposit slip reports.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Banking & payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

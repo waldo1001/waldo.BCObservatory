@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:49:33.012Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:33.058Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -104,6 +104,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/GEuUFcgFZF0
+      title: Manufacturing Foundations BOM (2026)
+      label: possibly related
+      why: both name Table 5405 "Production Order"
+      by: code
+    - to: video/zt9_HEmPKNg
+      title: Manufacturing Foundations Capacities (2026)
+      label: possibly related
+      why: both name Table 5405 "Production Order"
+      by: code
 video_id: sqjb_gsXqM8
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -136,6 +147,13 @@ chapters:
     title: Subcontracting Capabilities
   - t: 1007
     title: Closing Remarks and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: It will be uh become available later in the season
+    t: 861
+  - kind: preview-disclaimer
+    quote: you need to wait for it and more details will follow as soon as we are close to the release
+    t: 993
 features:
   - name: Quality Management Extension
     status: unclear
@@ -327,5 +345,12 @@ Not found in BC28-30: table "Production BOM", table "Production Order Component"
 
 - [14:21](https://www.youtube.com/watch?v=sqjb_gsXqM8&t=861s) coming-later: It will be uh become available later in the season
 - [16:33](https://www.youtube.com/watch?v=sqjb_gsXqM8&t=993s) coming-later: you need to wait for it and more details will follow as soon as we are close to the release
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Manufacturing Foundations BOM (2026)](../videos/GEuUFcgFZF0.md) — possibly related: both name Table 5405 "Production Order"
+- [Manufacturing Foundations Capacities (2026)](../videos/zt9_HEmPKNg.md) — possibly related: both name Table 5405 "Production Order"
 
 Presenters (as heard): Unknown speaker.

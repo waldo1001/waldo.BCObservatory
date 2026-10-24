@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:55.273Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,18 @@ Start with the overview to learn the concepts, then read the licensing page to s
 
 - [Entitlements and permission sets overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview): Learn about the different built-in methods to control which users can do what so that you can design the Business Central permission sets more precisely.
 - [Licensing in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/licensing): Provides an overview of the licensing in Business Central
+  - In the observatory: [Page 9852 "Effective Permissions"](../../../objects/page/9852.md), [Table 9007 "User Group Plan"](../../../objects/table/9007.md)
 - [Special permission sets](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-special-permission-sets): Learn about built-in permissions sets that carry special meaning in Business Central.
+  - SUPER permission set allows read, use, update, and delete of all data and application objects.
+  - Business Central requires at least one user assigned SUPER permission set in each database.
+  - First user created is automatically assigned SUPER permission set; cannot be modified.
+  - SUPER (DATA) permission set allows data operations but not system changes; for accounting managers.
+  - SECURITY permission set manages other permission sets; users can assign perms only matching their own.
+  - Intelligent Cloud permission set grants read access to all data during migration.
+  - LOGIN permission set grants minimum permissions needed to sign in without role center access.
+  - Status: USERGROUP permission set is deprecated in Business Central online; use SECURITY instead.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 

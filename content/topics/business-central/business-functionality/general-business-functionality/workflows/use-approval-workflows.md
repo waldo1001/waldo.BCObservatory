@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:53.100Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -143,10 +143,14 @@ Start with "Using approval workflows" for the concepts, then go to "Approve or r
 ## Learn pages
 
 - [Approve or reject documents in workflows](https://learn.microsoft.com/dynamics365/business-central/across-how-use-approval-workflows): Request, reject, or delegate an approval of, for example, a purchase or sales document, as part of a workflow.
+  - In the observatory: [Page 1501 "Workflow"](../../../../../objects/page/1501.md), [Page 663 "Approval User Setup"](../../../../../objects/page/663.md)
 - [How to delete approval workflows](https://learn.microsoft.com/dynamics365/business-central/across-how-to-delete-workflows): You can delete a workflow if it's no longer needed and all its step instances have a **Completed** status.
+  - In the observatory: [Page 1501 "Workflow"](../../../../../objects/page/1501.md)
 - [How to enable approval workflows](https://learn.microsoft.com/dynamics365/business-central/across-how-to-enable-workflows): After creating a workflow and confirming it is ready, you must enable it to begin using the workflow.
+  - In the observatory: [Page 1501 "Workflow"](../../../../../objects/page/1501.md)
 - [How to restrict and allow usage of a record](https://learn.microsoft.com/dynamics365/business-central/across-how-to-restrict-and-allow-usage-of-a-record): Learn how to use workflow responses to restrict or allow the usage of a record in Business Central.
 - [How to view archived workflow step instances](https://learn.microsoft.com/dynamics365/business-central/across-how-to-view-archived-workflow-step-instances): Completed workflow step instances are stored on the Archived Workflow Step Instances page. Each step includes a workflow event and a workflow response.
+  - In the observatory: [Page 1501 "Workflow"](../../../../../objects/page/1501.md)
 - [Using approval workflows](https://learn.microsoft.com/dynamics365/business-central/across-use-workflows): Set up and use workflows to connect business-process tasks such as automatic posting or requesting and granting approval for new records.
 
 ## Videos and posts

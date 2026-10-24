@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13165",
+  "input_hash": "1c31fbc413bf8c3e292db84e289aac95832ca481258d79eab3b2de41146a5375",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-24T00:37:49.439Z",
+  "issues": [
+    "Page misstates the affected records: the permission error is on Modify of G/L Entry (table 17) for old entries with G/L Register No. = 0, not on G/L Register records with register number 0.",
+    "Exact code change is not described, so avoid claiming specifics."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023831,
+    "changes_in_call": 6
+  }
+}

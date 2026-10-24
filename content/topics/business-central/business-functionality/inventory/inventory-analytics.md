@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:49.998Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -482,7 +482,9 @@ Start with the Inventory analytics introduction to see which tools help differen
 ## More Learn pages
 
 - [Ad-hoc analysis of inventory data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory): Learn how to use the data analysis mode to analyze inventory data.
+  - In the observatory: [Table 110 "Sales Shipment Header"](../../../../objects/table/110.md), [Table 112 "Sales Invoice Header"](../../../../objects/table/112.md), [Table 122 "Purch. Inv. Header"](../../../../objects/table/122.md), [Table 32 "Item Ledger Entry"](../../../../objects/table/32.md)
 - [Inventory analytics](https://learn.microsoft.com/dynamics365/business-central/inventory-analytics-overview): Business Central has features that can help you gather, analyze, and share data from your inventory for business intelligence and decision-making in your organization.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 38 "Item Ledger Entries"](../../../../objects/page/38.md)
 
 ## Videos and posts
 

@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/demiliani-com/11796",
+  "page_id": "post/demiliani-com/11796",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "you cannot pass a SecretText data type to a JsonObject",
+      "objects": [
+        {
+          "type": "other",
+          "name": "JsonObject"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "26.0"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002493,
+    "posts_in_call": 4
+  }
+}

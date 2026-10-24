@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-error-message-voting-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-message-voting-trace",
+  "title": "Analyzing Error Message Vote Telemetry | Microsoft Docs",
+  "blob": "a413d9fc3f33d329798789f685b0920eab9c9f16",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Available from Business Central 2022 release wave 1."
+    },
+    {
+      "kind": "fact",
+      "text": "Error messages include a yes or no question asking whether the message was helpful."
+    },
+    {
+      "kind": "fact",
+      "text": "User feedback on error messages is recorded in Application Insights for all errors from Error method calls."
+    },
+    {
+      "kind": "fact",
+      "text": "Trace records whether user voted yes or no, the error message text, and the regional language version shown."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003696,
+      "pages_in_call": 16
+    }
+  ]
+}

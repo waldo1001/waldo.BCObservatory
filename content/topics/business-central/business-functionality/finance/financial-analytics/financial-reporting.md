@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:20.300Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -309,25 +309,44 @@ Financial reporting lets you build reports from the general ledger using row def
 ## Learn pages
 
 - [Analyze data by dimensions](https://learn.microsoft.com/dynamics365/business-central/bi-how-analyze-data-dimension): This article describes how you can analyze business data by dimensions to gain greater insight into your business.
+  - In the observatory: [Page 554 "Analysis by Dimensions"](../../../../../objects/page/554.md)
 - [Analyze data for some or all values of a dimension](https://learn.microsoft.com/dynamics365/business-central/bi-analyze-data-dimension-perspective): Learn how to set up dimension perspectives that let you analyze data for all dimension values in one financial report.
 - [Analyzing financial report lifecycle trace telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace): Learn about the telemetry for financial report lifecycle telemetry in Azure Application Insights.
+  - Telemetry tracks 18 lifecycle operations on financial reporting definitions including creation, modification, copying, export, import and deletion of row, column and report definitions.
+  - Each operation type has a unique event ID: row definition created (AL0000O81), modified (AL0000O82), deleted (AL0000O84), column definition created (AL0000O85), modified (AL0000O86), deleted…
+  - Copy operations generate event IDs AL0000OKV for row definitions, AL0000OKW for column definitions, and AL0000OKX for report definitions.
+  - Import and export operations share event IDs: AL0000ONP for row definitions, AL0000ONQ for column definitions, AL0000ONR for report definitions.
+  - All telemetry events include user ID, tenant ID, environment name, environment type and company name dimensions to identify who performed the operation and where.
+  - Telemetry captures the specific code of the definition being operated on through alRowDefinitionCode, alColumnDefinitionCode or alReportDefinitionCode custom dimensions.
 - [Analyzing financial report usage trace telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace): Learn about the telemetry for financial report usage telemetry in Azure Application Insights.
+  - Financial report usage telemetry tracks when users run reports on-screen and from the request page, capturing who ran the report and which definitions were used.
+  - On-screen report execution has event ID AL0000OKU while request page execution has event ID AL0000O76.
+  - All usage events include report, row and column definition codes plus user ID, tenant ID, environment name, environment type and company name.
+  - Usage telemetry enables analysis of which report definitions, row definitions and column definitions are being used in the system.
 - [Auditing and financial reporting](https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-auditing): Learn how to track the changes people make to your financial reports.
 - [Build financial reports using financial data and account categories](https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule): Describes how to use financial reports to create various views and reports for analyzing financial performance data.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 8391 "Financial Report Categories"](../../../../../objects/page/8391.md)
 - [Column definitions in Financial Reporting](https://learn.microsoft.com/dynamics365/business-central/bi-column-definitions): Describes how column definitions in financial reporting work.
 - [Create custom financial reports](https://learn.microsoft.com/dynamics365/business-central/bi-examples-custom-financial-reports): Learn how to create your own trial balance, balance sheet, and income statement reports.
 - [Design your own financial reports](https://learn.microsoft.com/dynamics365/business-central/bi-design-financial-reports): Learn how to structure and design custom financial reports.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md)
 - [Financial Reporting FAQ](https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-faq): FAQ for the Financial Reporting feature in Business Central.
 - [Integrate financial reports with Excel](https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-integrate-financial-reports-with-excel): Describes how to use financial reporting together with Excel.
 - [Make cash flow forecasts using financial reports](https://learn.microsoft.com/dynamics365/business-central/walkthrough-making-cash-flow-forecasts-by-using-account-schedules): This walkthrough describes how you can use financial reports to make cash flow forecasts in Business Central.
 - [Organize report data using account categories](https://learn.microsoft.com/dynamics365/business-central/bi-account-categories): Learn how to categorize general ledger accounts for reporting purposes.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 17 "G/L Account Card"](../../../../../objects/page/17.md)
 - [Primary capabilities of financial reporting](https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-capabilities): This article provides an overview of what you can do with financial reporting.
 - [Report selection for finance reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-report-selection): Describes how to setup which financial report definitions should be used for the core finance reports such as Balance Sheet, Income Statement, and Retained Earnings.
 - [Row definitions in Financial Reporting](https://learn.microsoft.com/dynamics365/business-central/bi-row-definitions): Describes how row definitions in financial reporting work.
 - [Set Up and Publish KPI Web Services Based on Financial Reports](https://learn.microsoft.com/dynamics365/business-central/bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules): This article describes how to show the financial-report KPI data based on specific financial reports.
 - [Troubleshoot Financial Reporting](https://learn.microsoft.com/dynamics365/business-central/bi-troubleshoot-financial-reports): Describes how to troubleshoot some typical issues in financial reporting.
+  - In the observatory: [Page 20 "General Ledger Entries"](../../../../../objects/page/20.md)
 - [Use Statistical Accounts to Analyze Non-Transactional Data](https://learn.microsoft.com/dynamics365/business-central/bi-use-statistical-accounts): Describes how to use statistical accounts as another source of data for your analyses.
+  - In the observatory: [Page 108 "Financial Reports"](../../../../../objects/page/108.md)
 - [View a financial report](https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-view-a-report): Describes how to view a financial report on-screen, as a PDF, or in Excel.
+  - In the observatory: [Page 108 "Financial Reports"](../../../../../objects/page/108.md), [Page 8371 "Financial Report Packages"](../../../../../objects/page/8371.md)
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL",
+  "title": "Troubleshooting: Long Running SQL Queries Involving FlowFields",
+  "blob": "f6f76fffca3b0f5c9fbac49ef00be381949c76c0",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "SmartSQL optimization performs all FlowField calculations on a page using a single SQL query, reducing network roundtrips to the database."
+    },
+    {
+      "kind": "fact",
+      "text": "SmartSQL adds an OUTER APPLY clause to the SQL statement for each FlowField in the table."
+    },
+    {
+      "kind": "step",
+      "text": "To isolate FlowField query performance issues, run the Business Central administration tool and select the Disable SmartSQL checkbox in the Database section."
+    },
+    {
+      "kind": "fact",
+      "text": "When SmartSQL is disabled, each FlowField calculation is performed as a separate SQL statement instead of being combined."
+    },
+    {
+      "kind": "step",
+      "text": "After identifying a slow FlowField subquery, create an index or enable the MaintainSIFTIndex property of the key to improve performance."
+    },
+    {
+      "kind": "limit",
+      "text": "SmartSQL queries are not cached, which can amplify performance issues and disabling it does not require page customization or field visibility changes."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005038,
+      "pages_in_call": 3
+    }
+  ]
+}

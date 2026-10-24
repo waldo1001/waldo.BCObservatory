@@ -24,7 +24,7 @@ review:
   at: "2026-10-07T23:04:07.824Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -103,6 +103,42 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/service-allocation-status-and-repair-status
+      title: Allocation status and repair status | Microsoft Docs
+      label: possibly related
+      why: names Page 5906 "Service Item Worksheet"
+      by: code
+    - to: post/thedynamicsexplorer-com/10326
+      title: Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge
+      label: possibly related
+      why: both name Table 5802 "Value Entry"
+      by: code
+    - to: video/1x3QyBX3swg
+      title: "Microsoft presents: Index management"
+      label: possibly related
+      why: both name Table 5802 "Value Entry"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/service-fulfill-service-contracts
+      title: Overview of tasks to fulfill service contracts
+      label: possibly related
+      why: names Page 6053 "Service Contract Quote"
+      by: code
+    - to: video/QfOgUCXg94o
+      title: "What's New: Concurrency in Warehousing (2024 release wave 1)"
+      label: possibly related
+      why: both name Table 7312 "Warehouse Entry"
+      by: code
+    - to: video/64_cQzp8BP4
+      title: "What's New: Concurrent Inventory Posting (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 5802 "Value Entry"
+      by: code
+    - to: video/N8Unj6WLB6U
+      title: "What's New: Service Management (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 5964 "Service Quote"
+      by: code
 video_id: pEXl-POet_4
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -135,6 +171,16 @@ chapters:
     title: Service contract filing and retention policies
   - t: 1093
     title: Summary and conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: developers who are using Insider build all already noticed some rare architecture happening in the internals of service management where we are transforming it to behave like IV solution
+    t: 27
+  - kind: preview-disclaimer
+    quote: we have one limitation still pending we will talk about it in uh later stage today the next one is extended text
+    t: 302
+  - kind: preview-disclaimer
+    quote: we do not support Warehouse receipt scenarios for projects it means if you are using white location with directed pick and putaway you cannot post purchase via wherehouse receipt and expect it to be immediate ly consumed not yet at least
+    t: 572
 features:
   - name: Directed put-away and pick for project locations
     status: unclear
@@ -329,3 +375,15 @@ Not found in BC28-30: page "project list", page "project assembly orders", page 
 - [0:27](https://www.youtube.com/watch?v=pEXl-POet_4&t=27s) preview: developers who are using Insider build all already noticed some rare architecture happening in the internals of service management where we are transforming it to behave like IV solution
 - [5:02](https://www.youtube.com/watch?v=pEXl-POet_4&t=302s) subject-to-change: we have one limitation still pending we will talk about it in uh later stage today the next one is extended text
 - [9:32](https://www.youtube.com/watch?v=pEXl-POet_4&t=572s) subject-to-change: we do not support Warehouse receipt scenarios for projects it means if you are using white location with directed pick and putaway you cannot post purchase via wherehouse receipt and expect it to be immediate ly consumed not yet at least
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Allocation status and repair status | Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-allocation-status-and-repair-status) — possibly related: names Page 5906 "Service Item Worksheet"
+- [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 5802 "Value Entry"
+- [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 5802 "Value Entry"
+- [Overview of tasks to fulfill service contracts](https://learn.microsoft.com/dynamics365/business-central/service-fulfill-service-contracts) — possibly related: names Page 6053 "Service Contract Quote"
+- [What's New: Concurrency in Warehousing (2024 release wave 1)](../videos/QfOgUCXg94o.md) — possibly related: both name Table 7312 "Warehouse Entry"
+- [What's New: Concurrent Inventory Posting (2025 release wave 1)](../videos/64_cQzp8BP4.md) — possibly related: both name Table 5802 "Value Entry"
+- [What's New: Service Management (2024 release wave 1)](../videos/N8Unj6WLB6U.md) — possibly related: both name Page 5964 "Service Quote"

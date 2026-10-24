@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:07.955Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -87,6 +87,8 @@ This section covers two areas of Business Central that are specific to the Swiss
 ## Learn pages
 
 - [How to import Swiss post codes [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes): Learn how to import the latest Swiss post code file to update the Post Code table and define post codes for customers or vendors efficiently.
+  - In the observatory: [Page 367 "Post Codes"](../../../../../objects/page/367.md), [Table 225 "Post Code"](../../../../../objects/table/225.md)
 - [Swiss Purchase Documents and Sales Documents](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents): This article describes enhancements made to the Swiss version of Business Central including special Swiss purchase document and sales document features.
+  - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md), [Table 17 "G/L Entry"](../../../../../objects/table/17.md), [Table 21 "Cust. Ledger Entry"](../../../../../objects/table/21.md), [Table 25 "Vendor Ledger Entry"](../../../../../objects/table/25.md), [Table 37 "Sales Line"](../../../../../objects/table/37.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

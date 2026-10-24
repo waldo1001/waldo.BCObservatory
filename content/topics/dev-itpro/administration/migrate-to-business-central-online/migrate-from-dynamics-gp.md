@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:24.317Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -200,7 +200,26 @@ Replicate data explains how to run and manage replication from the Cloud Migrati
 ## More Learn pages
 
 - [Complete cloud migration for Dynamics GP](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-gp): This article describes the task you do to complete the data migration from Dynamics GP to online.
+  - Step: Validate migrated data by running validation tests from Cloud Migration Management page.
+  - Step: Disable cloud migration in Cloud Migration Setup once desired data migrated.
+  - Each migration run overwrites outstanding documents and changes made in target company.
+  - When cloud migration disabled, setup deleted but integration runtime remains.
+  - Integration runtime cloud registration auto-cleaned after couple weeks of non-use.
+  - Step: Set up user accounts in Microsoft 365 tenant with Business Central licenses.
+  - Step: Create Business Central user accounts associated with Microsoft 365 email addresses.
+  - Step: Assign proper permission sets to users in Business Central.
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../objects/page/40063.md), [Page 4020 "Post Migration Checklist"](../../../../objects/page/4020.md)
 - [Upgrade data for Dynamics GP cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade-gp): This article explains the process for running the data upgrade as part of Dynamics GP cloud migration.
+  - Prerequisite: Data replication must be completed before running data upgrade.
+  - Data upgrade transforms Dynamics GP tables into Business Central tables.
+  - All client connections are terminated during data upgrade; reconnection not possible until upgrade completes.
+  - Hotfixes cannot be applied and scheduled tasks cannot run during upgrade.
+  - Step: Inform active Business Central users to sign out before starting upgrade.
+  - Step: Open Cloud Migration Management and select Run data upgrade.
+  - Check Migration Errors FactBox if upgrade fails to view detailed error information.
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../objects/page/40063.md)
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 

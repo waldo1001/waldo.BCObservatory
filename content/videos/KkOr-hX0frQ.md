@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:19:03.314Z"
   flags: []
 generated:
-  at: "2026-10-07T23:19:03.367Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -114,6 +114,27 @@ chapters:
     title: Common Mistakes and Frequently Asked Questions
   - t: 1328
     title: Summary and Recommendations
+cautions:
+  - kind: preview-disclaimer
+    quote: this is a big change. I'm going to take a good amount of time for it
+    t: 13
+  - kind: preview-disclaimer
+    quote: as per the documentation the code cop is only available for app source app
+    t: 552
+  - kind: preview-disclaimer
+    quote: there is a table relation to an integer with a big integer. So there should be a warning and I'm ...
+    t: 634
+  - kind: preview-disclaimer
+    quote: hopefully when the version 29GA is announced next month this will be this will be fixed
+    t: 966
+    versions:
+      - "29"
+  - kind: preview-disclaimer
+    quote: I'm pretty sure not in the I haven't seen it in the preview release but hopefully in some cumulative update Microsoft may change
+    t: 1037
+  - kind: preview-disclaimer
+    quote: As the GA will announce, I'm hoping the compiler warnings will be there
+    t: 1120
 features:
   - name: Big Integer Field Migration
     status: unclear

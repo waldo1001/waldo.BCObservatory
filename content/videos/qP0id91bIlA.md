@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:09:05.651Z"
   flags: []
 generated:
-  at: "2026-10-07T23:09:05.695Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -183,6 +183,52 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/Vq9Nk6_uxmQ
+      title: "Business Central Under the Hood episode 14: Building Agents in Business Central"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
+      title: Create Purchase Orders from Drop Shipments
+      label: possibly related
+      why: both name Page 50 "Purchase Order"
+      by: code
+    - to: video/tpAh4q3h8T8
+      title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/thedynamicsexplorer-com/9815
+      title: Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order
+      label: possibly related
+      why: both name Page 50 "Purchase Order"
+      by: code
+    - to: video/crDXSPsoIQ8
+      title: Edit Sales Orders in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/XhO4oFmoh1M
+      title: "Introducing: Sales Order Agent (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/QdWPlIV3Avk
+      title: "What's new in SCM: Subcontracting (2026 release wave 2)"
+      label: possibly related
+      why: both name Page 50 "Purchase Order"
+      by: code
+    - to: video/DJ3LPRxn27g
+      title: "What's New: Drop Shipments (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 50 "Purchase Order"
+      by: code
+    - to: video/D56EVy3JgHA
+      title: "What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 50 "Purchase Order"
+      by: code
 video_id: qP0id91bIlA
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -224,6 +270,10 @@ chapters:
     title: Copilot menu, floating overlay, and dialogue integration
   - t: 1970
     title: Getting started, best practices, and session conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: currently there is no uh partner extensibility for the chat in uh business Central
+    t: 1277
 features:
   - name: Suggest sales lines with Copilot
     status: unclear
@@ -512,5 +562,19 @@ Not found in BC28-30: page "prompt dialog".
 - [21:17](https://www.youtube.com/watch?v=qP0id91bIlA&t=1277s) not-in-this-release: currently there is no uh partner extensibility for the chat in uh business Central
 - [32:16](https://www.youtube.com/watch?v=qP0id91bIlA&t=1936s) other: we don't have any co-pilot menu on the entity page yet so cards and documents don't have that capability that lists have yet
 - [34:48](https://www.youtube.com/watch?v=qP0id91bIlA&t=2088s) other: right now we only support English language so make sure that English is selected as your language
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Business Central Under the Hood episode 14: Building Agents in Business Central](../videos/Vq9Nk6_uxmQ.md) — possibly related: both name Page 42 "Sales Order"
+- [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 50 "Purchase Order"
+- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../posts/thedynamicsexplorer-com/9815.md) — possibly related: both name Page 50 "Purchase Order"
+- [Edit Sales Orders in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)](../videos/crDXSPsoIQ8.md) — possibly related: both name Page 42 "Sales Order"
+- [Introducing: Sales Order Agent (2025 release wave 1)](../videos/XhO4oFmoh1M.md) — possibly related: both name Page 42 "Sales Order"
+- [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Page 50 "Purchase Order"
+- [What's New: Drop Shipments (2026 release wave 1)](../videos/DJ3LPRxn27g.md) — possibly related: both name Page 50 "Purchase Order"
+- [What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)](../videos/D56EVy3JgHA.md) — possibly related: both name Page 50 "Purchase Order"
 
 Presenters (as heard): Yovinda, Soren Alexanderson, Cern, Yakob, Soren.

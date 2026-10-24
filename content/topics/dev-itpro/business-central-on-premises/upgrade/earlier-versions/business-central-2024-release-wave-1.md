@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:53.308Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -189,6 +189,7 @@ Start with the general information page and the compatibility matrix to confirm 
 
 - [Business Central Upgrade Compatibility Matrix](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility): Provides an overview of the Business Central versions and their compatibility
 - [Code Conversion from C/AL to AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/devenv-code-conversion): Description of the conversion process from C/AL to AL.
+  - In the observatory: [Codeunit 150 "System Initialization"](../../../../../objects/codeunit/150.md)
 - [General Information and Considerations When Upgrading to Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-considerations-v23): This article provides tips and considerations to prepare a solution when you're planning to upgrade to Business Central 2023 release wave 2 and later.
 - [India Data migration Toolkit Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/india-data-migration-toolkit-overview): Specifies India Data Migration Toolkit Overview
 - [Install a version 24 update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v24): This article describes the tasks required for getting the monthly version 24 update applied to your Dynamics 365 Business Central on-premises.
@@ -196,6 +197,7 @@ Start with the general information page and the compatibility matrix to confirm 
 - [Moving Tables and Fields to Extensions Down the Dependency Graph](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-table-fields-down): Explains how to move tables and fields from an extension to another extension that is down the dependency graph.
 - [Moving Tables and Fields to Extensions Up the Dependency Graph](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-table-fields-up): Explains how to move tables and fields from an extension to another extension that is up the dependency graph
 - [Upgrade reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-reports-v24-later): Describes how to upgrade reports in Business Central.
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md), [Codeunit 9651 "Document Report Mgt."](../../../../../objects/codeunit/9651.md), [Page 9652 "Report Layout Selection"](../../../../../objects/page/9652.md)
 - [Upgrade to Business Central 2024 Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v24): Provides an overview of Business Central 2024 Release Wave 2 upgrade.
 - [Upgrading Customized C/AL Application to Microsoft Base Application for version 24](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v24): Describes how to do an upgrade from a customized Business Central 14 to Microsoft Base Application for version 24.
 - [Upgrading Microsoft System and Base Application to Version 24](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v24): Describes how to upgrade an unmodified Business Central versions 14 through 23 to version 24

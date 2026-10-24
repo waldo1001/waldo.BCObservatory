@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:54:31.773Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -177,6 +177,10 @@ chapters:
     title: Investigating failed shipments and document updates
   - t: 1352
     title: Shopify activities and final recommendations
+cautions:
+  - kind: preview-disclaimer
+    quote: this is a new feature which probably not will not be seen by many customers but only by consultant
+    t: 1102
 features:
   - name: Sync in foreground mode
     status: unclear

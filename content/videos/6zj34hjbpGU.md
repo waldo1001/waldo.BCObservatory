@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:56:32.778Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,6 +81,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/gerardorenteria-blog/12961
+      title: 🕐 Remember When Lists Could Sort By Any Key? 🔄
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/gerardorenteria-blog/11565
+      title: AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/KmuTVkodRXM
+      title: All new goodies about AL Namespace in BC 2025 wave 2
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/aardvarklabs-blog/2565
+      title: "Business Central 2027 release wave 1: Preparing for OData Endpoint Removal"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/sIWz2yPqLpo
+      title: "Business Central BC29: Control Global Symbol Versions"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/_JkZCp64jNw
+      title: Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/H7R_m8Ue38g
+      title: "Business Central v29: System Audit Fields Now Available in Analysis Mode"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/demiliani-com/12439
+      title: "Dynamics 365 Business Central: controlling the Summary system part."
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/thedynamicsexplorer-com/36822
+      title: Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/thedynamicsexplorer-com/36744
+      title: "Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
 video_id: 6zj34hjbpGU
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -226,3 +277,18 @@ Not found in BC28-30: table "Customer Ledger Entries".
 - [1:30](https://www.youtube.com/watch?v=6zj34hjbpGU&t=90s) "Analyzing the data in Excel enables powerful reporting abilities, all of which can be refreshed through the data connection"
 - [1:53](https://www.youtube.com/watch?v=6zj34hjbpGU&t=113s) "This could take a while if you had to update the field one by one on each customer card. With edit in Excel, we"
 - [2:04](https://www.youtube.com/watch?v=6zj34hjbpGU&t=124s) "When Excel opens, the Excel addin pane displays. Here we can refresh, filter, and publish our data"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [🕐 Remember When Lists Could Sort By Any Key? 🔄](../posts/gerardorenteria-blog/12961.md) — possibly related: both name Page 22 "Customer List"
+- [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../posts/gerardorenteria-blog/11565.md) — possibly related: both name Page 21 "Customer Card"
+- [All new goodies about AL Namespace in BC 2025 wave 2](../videos/KmuTVkodRXM.md) — possibly related: both name Page 22 "Customer List"
+- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../posts/aardvarklabs-blog/2565.md) — possibly related: both name Page 21 "Customer Card"
+- [Business Central BC29: Control Global Symbol Versions](../videos/sIWz2yPqLpo.md) — possibly related: both name Page 21 "Customer Card"
+- [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../videos/_JkZCp64jNw.md) — possibly related: both name Page 21 "Customer Card"
+- [Business Central v29: System Audit Fields Now Available in Analysis Mode](../videos/H7R_m8Ue38g.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics 365 Business Central: controlling the Summary system part.](../posts/demiliani-com/12439.md) — possibly related: both name Page 21 "Customer Card"
+- [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central](../posts/thedynamicsexplorer-com/36744.md) — possibly related: both name Page 22 "Customer List"

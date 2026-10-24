@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.012887
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:54:48.439Z",
+    "verdict": "approve",
+    "issues": [
+      "The SAF-T claim says 'planned for 2026 release wave 2', which matches the landing page summary. That wave began around October 2026, so the wording may be out of date. Check it against the source when the page is next refreshed.",
+      "Intrastat Reporting appears in the overview but not in the summary or key points. That's minor and acceptable."
+    ],
+    "input_hash": "bf00894adbc350caddffc62ad08c9e8d6f69b4f4795c5cfac2b933aa34d59107",
+    "cost_usd": 0.025119199999999998
   }
 }

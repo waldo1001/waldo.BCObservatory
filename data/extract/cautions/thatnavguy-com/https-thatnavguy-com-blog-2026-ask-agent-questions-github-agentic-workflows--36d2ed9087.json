@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/ask-agent-questions-github-agentic-workflows/",
+  "page_id": "post/thatnavguy-com/https-thatnavguy-com-blog-2026-ask-agent-questions-github-agentic-workflows--36d2ed9087",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "The agent gets read access, and a controlled output step can publish one answer comment per run.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Check the cited code before making a business decision or changing the solution. Don't put passwords or sensitive customer details in your questions.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003582,
+    "posts_in_call": 4
+  }
+}

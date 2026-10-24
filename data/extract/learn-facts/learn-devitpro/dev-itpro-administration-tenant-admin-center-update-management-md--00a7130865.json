@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-update-management.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management",
+  "title": "Managing Updates in the Admin Center",
+  "blob": "8622a416781d06eb8cdf9032c16690a13fc82d98",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Update window is the hours during the day when environment updates can occur within specified time zone."
+    },
+    {
+      "kind": "limit",
+      "text": "Update must complete before update window ends or it cancels and reschedules seven days later."
+    },
+    {
+      "kind": "fact",
+      "text": "Default update window is between 8 PM and 6 AM local time for environment country; minimum six hours required."
+    },
+    {
+      "kind": "step",
+      "text": "Schedule update by opening environment details, selecting Modify for Next Update, choosing target version, and picking date."
+    },
+    {
+      "kind": "limit",
+      "text": "Can only update to versions higher than current version within current or next major version."
+    },
+    {
+      "kind": "fact",
+      "text": "During update, all users and sign-in attempts blocked with maintenance message."
+    },
+    {
+      "kind": "limit",
+      "text": "Cannot cancel updates on environments in Enforced Update Period for source version."
+    },
+    {
+      "kind": "fact",
+      "text": "Notification recipients receive email when new version available and when update scheduled, except for preview versions."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007325,
+      "pages_in_call": 7
+    }
+  ]
+}

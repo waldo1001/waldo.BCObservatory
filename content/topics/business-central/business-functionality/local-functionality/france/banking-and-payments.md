@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:32.291Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -135,7 +135,7 @@ narrative: generated
 
 > Banking and payments in the French localization of Business Central: payment management with payment slips, payment classes, statuses, steps and addresses. It answers how to set up, create, export, post and archive payment slips, and how to move setup between companies.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > Banking & payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -157,13 +157,20 @@ Start with the Payment Management [FR] overview page, then set up payment classe
 ## Learn pages
 
 - [Archive Payment Slips [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-archive-payment-slips): Learn how to separate a payment slip from the active payment slips by archiving it in the French version of Business Central.
+  - In the observatory: [Page 10865 "Payment Status (FR)"](../../../../../objects/page/10865-fr.md), [Page 10868 "Payment Slip (FR)"](../../../../../objects/page/10868-fr.md)
 - [Create Payment Slips [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-create-payment-slips): Learn how to create payment slips to manage vendor and customer payments in the French version of Business Central.
+  - In the observatory: [Page 10860 "Payment Class List (FR)"](../../../../../objects/page/10860-fr.md), [Page 371 "Bank Account List"](../../../../../objects/page/371.md), [Page 426 "Vendor Bank Account List"](../../../../../objects/page/426.md)
 - [Export or Import Payment Management Setup Parameters](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters): Learn how to export or import payment management setup parameters to an external disk, enabling their reuse for another company with similar requirements.
+  - In the observatory: [Page 10864 "Payment Class (FR)"](../../../../../objects/page/10864-fr.md)
 - [How to Export Payments](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-payments): Use the Payment Management module to export your payments electronically via a text file or XMLport.
+  - In the observatory: [Page 10864 "Payment Class (FR)"](../../../../../objects/page/10864-fr.md), [Page 10867 "Payment Step Card (FR)"](../../../../../objects/page/10867-fr.md)
 - [How to Post Payment Slips [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-post-payment-slips): Learn the steps to post payment slips to complete payment transactions and create the associated financial data.
+  - In the observatory: [Page 10868 "Payment Slip (FR)"](../../../../../objects/page/10868-fr.md)
 - [Payment Management [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/payment-management): Learn how to use the payment management function to manage bills of exchange, electronic payments, and vendor payments in the French version of Business Central.
+  - In the observatory: [Table 10863 "Payment Step Ledger (FR)"](../../../../../objects/table/10863-fr.md)
 - [Set Up Payment Addresses [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-addresses): Learn how to configure payment addresses for vendors and customers to streamline settlement processes.
 - [Set Up Payment Classes [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes): Learn how to configure payment classes, payment steps, statuses, and ledger information to manage operation types, such as bills of exchange, electronic payments, or checks.
+  - In the observatory: [Page 10865 "Payment Status (FR)"](../../../../../objects/page/10865-fr.md), [Page 10867 "Payment Step Card (FR)"](../../../../../objects/page/10867-fr.md), [Page 10874 "Payment Step Ledger (FR)"](../../../../../objects/page/10874-fr.md)
 
 ## Videos, posts and code changes
 

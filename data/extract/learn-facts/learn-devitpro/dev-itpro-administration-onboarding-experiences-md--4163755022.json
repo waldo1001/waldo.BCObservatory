@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/onboarding-experiences.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-experiences",
+  "title": "Onboarding experiences",
+  "blob": "d9939d6873006f5e4cd9e7a15fa9048cadcc3998",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Onboarding framework provides consistent experience for introducing users to the product itself across all users"
+    },
+    {
+      "kind": "fact",
+      "text": "Framework includes four components: welcome banner, checklist, teaching tips and tours, and signup context parameter"
+    },
+    {
+      "kind": "fact",
+      "text": "Welcome banner helps new users by presenting consistent onboarding without blocking product exploration"
+    },
+    {
+      "kind": "fact",
+      "text": "Teaching tips and tours educate users about pages and concepts in a sequential manner"
+    },
+    {
+      "kind": "fact",
+      "text": "Signup context enables partners to create customer-centric onboarding by passing profile information to Business Central"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007005,
+      "pages_in_call": 8
+    }
+  ]
+}

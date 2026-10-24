@@ -1,0 +1,31 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-verbose-logging-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-verbose-logging-trace",
+  "title": "Analyzing Verbose Enable and Disable Telemetry | Microsoft Docs",
+  "blob": "4d0f19801194a9486a786369c38070b182607695",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Trace recorded when additional logging is turned on from Help and Support page in the client."
+    },
+    {
+      "kind": "fact",
+      "text": "Trace recorded when additional logging is turned off because user closed browser or signed out."
+    },
+    {
+      "kind": "fact",
+      "text": "Verbose logging enables additional telemetry for troubleshooting during a session."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003696,
+      "pages_in_call": 16
+    }
+  ]
+}

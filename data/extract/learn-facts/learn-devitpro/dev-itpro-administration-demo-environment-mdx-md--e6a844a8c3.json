@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/demo-environment-mdx.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-mdx",
+  "title": "Set up Microsoft 365 and Business Central demo environments with MDX",
+  "blob": "8251f6ec5ac37aab419041db99bc70d6a1a12ddf",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "You must be enrolled in Microsoft Partner Center to use MDX for creating demo environments."
+    },
+    {
+      "kind": "fact",
+      "text": "MDX lets partners create repeatable demos in independent Azure tenants that you fully control."
+    },
+    {
+      "kind": "limit",
+      "text": "MDX environments expire after 90 days or one year depending on tenant type; data is lost if prospect uses them for business."
+    },
+    {
+      "kind": "fact",
+      "text": "Demonstration company in MDX can be used indefinitely if accessed couple of times per week until tenant expires."
+    },
+    {
+      "kind": "fact",
+      "text": "Trial experience in actual Business Central expires after 30 days and can be extended or replaced with new environment."
+    },
+    {
+      "kind": "limit",
+      "text": "MDX account has access to limited number of 90-day and one-year tenants at any time; limits on daily and monthly creation."
+    },
+    {
+      "kind": "step",
+      "text": "Enable Premium user experience in Company Information page and add data for evaluation scenarios."
+    },
+    {
+      "kind": "fact",
+      "text": "Use Microsoft Edge profiles to switch between demo and partner accounts without private browsing for better performance."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005472,
+      "pages_in_call": 10
+    }
+  ]
+}

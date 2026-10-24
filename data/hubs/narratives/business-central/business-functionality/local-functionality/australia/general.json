@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.012643000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:56:03.746Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point that starts 'Adjustment fields include the Adjustment Details FastTab...' calls a FastTab a field. A FastTab is a section of fields, so the wording could be tighter, but nothing in it is incorrect.",
+      "Minor: the ABN entry page says the local tax office provides the validation. The key point says only 'format validation', which is supported but drops that detail."
+    ],
+    "input_hash": "8cc33138a6f7ce8f0e2edfda3bfdf1682c4e171da6aa486fc21438f5747d8d09",
+    "cost_usd": 0.0322552
   }
 }

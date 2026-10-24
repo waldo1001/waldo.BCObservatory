@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.056251
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:53:39.989Z",
+    "verdict": "approve",
+    "issues": [
+      "Calling retention policies and feature management 'audit-oriented' goes a little beyond the sources. Retention policy telemetry logs setup, enabling, applying and deleting expired records. Feature management telemetry tracks when admins turn features on or off. Neither page says it is for auditing.",
+      "The overview opens with 'This section is a catalog'. The rules allow this, but starting with the subject would be better.",
+      "The narrative leaves out many smaller areas, such as report generation, page views, email, the Excel-free financial report areas, onboarding and checklists. This is fine for a summary, but an agent will not learn about those areas from the key points alone."
+    ],
+    "input_hash": "a9c6494ee38833d40908ef7062e91cc05a58432f16f4dcfab86169e227f0879b",
+    "cost_usd": 0.12639519999999999
   }
 }

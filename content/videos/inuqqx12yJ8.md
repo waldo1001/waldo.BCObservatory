@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:53:15.727Z"
   flags: []
 generated:
-  at: "2026-10-07T22:53:15.768Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,6 +121,10 @@ chapters:
     title: "Demo: Salesperson mapping from POS to Business Central"
   - t: 453
     title: Pricing and future capabilities
+cautions:
+  - kind: preview-disclaimer
+    quote: about this one in the next video
+    t: 502
 features:
   - name: Shopify POS integration with Business Central
     status: unclear

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:55:08.140Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:08.179Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -125,6 +125,16 @@ chapters:
     title: MCP server for Business Central
   - t: 182
     title: Conclusion and call to action
+cautions:
+  - kind: preview-disclaimer
+    quote: It's currently in public preview across four English-speaking countries
+    t: 140
+  - kind: preview-disclaimer
+    quote: general availability coming soon
+    t: 140
+  - kind: preview-disclaimer
+    quote: we're introducing the public preview of MCP server for Business Central
+    t: 152
 features:
   - name: Sales order agent automatic email processing
     status: unclear

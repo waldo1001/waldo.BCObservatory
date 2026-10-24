@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/tine-staric-net/https://tine.staric.net/blog/2026/harness-telemetry/",
+  "page_id": "post/tine-staric-net/https-tine-staric-net-blog-2026-harness-telemetry--954ee179b7",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "every client that receives the managed settings can see it",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Pseudonymous is still personal data. Restrict access to the workspace, and say out loud what it's for",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005507,
+    "posts_in_call": 4
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:50.033Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -160,10 +160,14 @@ Start with "Set up value-added tax" and "Posting group setup" for the core confi
 ## Learn pages
 
 - [Posting group setup](https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups): Learn how to use posting groups to save time and avoid mistakes when you post transactions.
+  - In the observatory: [Page 110 "Customer Posting Groups"](../../../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../../../objects/page/111.md), [Page 112 "Inventory Posting Groups"](../../../../../objects/page/112.md), [Page 314 "General Posting Setup"](../../../../../objects/page/314.md), [Page 373 "Bank Account Posting Groups"](../../../../../objects/page/373.md), [Page 5233 "Human Resources Setup"](../../../../../objects/page/5233.md)
 - [Set up a VAT statement](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement): This article tells you how to set Up a VAT Statement Template and VAT Statement Names to meet changing tax authority requirements.
+  - In the observatory: [Report 11 "G/L - VAT Reconciliation"](../../../../../objects/report/11.md)
 - [Set up nondeductible VAT](https://learn.microsoft.com/dynamics365/business-central/finance-setup-nondeductible-vat): This article explains how to configure nondeductible VAT in Microsoft Dynamics 365 Business Central.
+  - In the observatory: [Table 189 "VAT Setup"](../../../../../objects/table/189.md), [Table 325 "VAT Posting Setup"](../../../../../objects/table/325.md)
 - [Set up unrealized value added tax](https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat): If you're using cash-based accounting, you can specify how to handle unrealized VAT for sales and purchases.
 - [Set up value-added tax](https://learn.microsoft.com/dynamics365/business-central/finance-setup-vat): Make sure that you correctly calculate, post, and report on VAT for sales and purchases. We recommend that you use the assisted setup guide to set up VAT.
+  - In the observatory: [Page 119 "User Setup"](../../../../../objects/page/119.md), [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md), [Page 187 "VAT Setup"](../../../../../objects/page/187.md)
 
 ## Videos, posts and code changes
 

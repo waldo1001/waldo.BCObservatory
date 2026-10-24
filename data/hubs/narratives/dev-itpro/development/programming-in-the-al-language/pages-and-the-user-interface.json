@@ -10,8 +10,8 @@
     "Views define alternative filtering, sorting and layout for list pages, and legacy Role Center views can be migrated to modern list views.",
     "Profiles define user roles through profile objects, profile extensions, and page customization objects.",
     "Deep links are URLs that open pages, reports or tables using parameters such as company, page, mode, profile, filter and bookmark, plus the ms-businesscentral URI scheme for the mobile app.",
-    "Page Inspection in the web client shows page structure, source table fields, extensions and filters without reading code (2023 release wave 2).",
-    "The Control Add-in Style Guide gives CSS colors, typography, chart colors and design principles for add-ins that blend into the client."
+    "Mobile app development covers strategy choices, screen size design, page limitations, role centers, barcode scanning, and browser-based testing for tablet and phone.",
+    "Page Inspection in the web client shows page structure, source table fields, extensions and filters without reading code, and the Control Add-in Style Guide gives CSS colors, typography, chart colors and design principles for add-ins that blend into the client."
   ],
   "members_used": 4,
   "subtopics_used": 7,
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.016193
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:53:34.693Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point on Page Inspection adds '(2023 release wave 2)'. The source lists this version on the page but does not say the feature was introduced in or depends on that wave, so it was removed.",
+      "Key points left out the 'Developing for the Business Central mobile app' subtopic (8 pages). It was added, and the Page Inspection and Control Add-in Style Guide points were merged to stay within 8 key points."
+    ],
+    "input_hash": "dc174c17b403f782918c401e4559b74f208188c779b53111b56cbb7e2ad634ed",
+    "cost_usd": 0.061024
   }
 }

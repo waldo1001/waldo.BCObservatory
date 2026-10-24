@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:18:12.449Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:12.542Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -76,6 +76,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/across-setup-auditing
+      title: Audit changes to your setup
+      label: possibly related
+      why: names Table 3 "Payment Terms"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-payment-terms
+      title: Set up payment terms
+      label: possibly related
+      why: names Table 3 "Payment Terms"
+      by: code
+    - to: video/fIOnGEARkKs
+      title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1"
+      label: possibly related
+      why: both name Table 3 "Payment Terms"
+      by: code
 video_id: 1QuV_vkbNVU
 channel: yt-hougaard
 source_name: Erik Hougaard
@@ -251,5 +267,13 @@ Not found in BC28-30: table "Posted Sales Headers", table "Ledger Entries".
 - [1:30](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=90s) "I operate this exactly like you I would type this exactly the same way as I would do it in Excel"
 - [3:31](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=211s) "A region is where we connect Business Central directly into the into the spreadsheet"
 - [7:42](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=462s) "Very important. So, you can configure whether a user have permissions to to use the right back functionality or not"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Audit changes to your setup](https://learn.microsoft.com/dynamics365/business-central/across-setup-auditing) — possibly related: names Table 3 "Payment Terms"
+- [Set up payment terms](https://learn.microsoft.com/dynamics365/business-central/finance-payment-terms) — possibly related: names Table 3 "Payment Terms"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../videos/fIOnGEARkKs.md) — possibly related: both name Table 3 "Payment Terms"
 
 Presenters (as heard): Eric.

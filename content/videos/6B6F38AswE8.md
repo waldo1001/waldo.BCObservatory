@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:01:05.629Z"
   flags: []
 generated:
-  at: "2026-10-07T23:01:05.667Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -125,6 +125,13 @@ chapters:
     title: Testing on Online Environments
   - t: 322
     title: Moving Away from BC Container Helper
+cautions:
+  - kind: preview-disclaimer
+    quote: I expect this one to to make it in in probably April or May
+    t: 225
+  - kind: preview-disclaimer
+    quote: there's a long way probably two three years before we we're going to get through with all of these things
+    t: 383
 features:
   - name: Indirect Templates and Customizations
     status: unclear

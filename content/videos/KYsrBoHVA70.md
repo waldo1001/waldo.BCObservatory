@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:14:51.555Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:51.583Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -150,6 +150,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/W2yhU8eXT5w
+      title: "What's new: Business Central Mobile App and Barcode Scanning (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 6510 "Item Tracking Lines"
+      by: code
 video_id: KYsrBoHVA70
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -189,6 +195,12 @@ chapters:
     title: AL code for barcode scanner provider
   - t: 1250
     title: Summary and closing
+cautions:
+  - kind: preview-disclaimer
+    quote: coming in version 23.1 so not right now in October but a little bit later in November time frame
+    t: 207
+    versions:
+      - "23"
 features:
   - name: Tell me on mobile
     status: unclear
@@ -422,5 +434,11 @@ Not found in BC28-30: page "serial number information card", page "warehouse wor
 - [3:27](https://www.youtube.com/watch?v=KYsrBoHVA70&t=207s) coming-later: coming in version 23.1 so not right now in October but a little bit later in November time frame
 - [19:14](https://www.youtube.com/watch?v=KYsrBoHVA70&t=1154s) other: only send the information to the topmost page that is the current page that the user sees
 - [21:10](https://www.youtube.com/watch?v=KYsrBoHVA70&t=1270s) other: this is only supported in the latest version of the mobile app that is version 4.0 and also is only supported in the new business Central release wave two
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [What's new: Business Central Mobile App and Barcode Scanning (2024 release wave 1)](../videos/W2yhU8eXT5w.md) — possibly related: both name Page 6510 "Item Tracking Lines"
 
 Presenters (as heard): Baj Koto, Kim, Gloria, Claus, Kasim, Aim.

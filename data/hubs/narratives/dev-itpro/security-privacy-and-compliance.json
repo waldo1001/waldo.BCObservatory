@@ -20,5 +20,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.011621
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:54:14.614Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the Auditing key point says 'administrative events sent to Microsoft Purview', which joins two separate parts of the subtopic summary ('events sent to Microsoft Purview' and 'which administrative events are logged'). It's a reasonable reading.",
+      "Minor: Azure Front Door in the Privacy FAQ key point comes from the page's feature tags only, not its summary. It's still supported."
+    ],
+    "input_hash": "5a97dd450d2bed4cca098dbc97530c50ba50b40b790f777bd9468519de6b64d2",
+    "cost_usd": 0.0294072
   }
 }

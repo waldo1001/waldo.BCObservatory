@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/onboarding-telemetry.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-telemetry",
+  "title": "Measure onboarding progress using telemetry",
+  "blob": "0a86d8b8998992387b8f7824ae45dfeb5baff0ce",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Five automatic signals emitted when onboarding progresses: started, sales, purchases, customer payments, vendor payments"
+    },
+    {
+      "kind": "fact",
+      "text": "Sales invoice signal emitted when five posted sales invoices exist; purchase signal when five posted purchase invoices"
+    },
+    {
+      "kind": "fact",
+      "text": "Payment signals emitted when five posted customer or vendor payments recorded in respective ledger entries"
+    },
+    {
+      "kind": "fact",
+      "text": "Daily routine checks criteria for business processes and emits signal once per process when conditions met"
+    },
+    {
+      "kind": "fact",
+      "text": "Partners can extend onboarding signals by implementing Onboarding Signal interface in custom codeunit"
+    },
+    {
+      "kind": "fact",
+      "text": "Event IDs 0000EIW used for onboarding started and 0000EIV used for onboarding signals"
+    },
+    {
+      "kind": "limit",
+      "text": "Onboarding criteria not applied to evaluation companies and sandboxes"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007005,
+      "pages_in_call": 8
+    }
+  ]
+}

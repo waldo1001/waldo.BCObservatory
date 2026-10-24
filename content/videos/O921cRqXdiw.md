@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:15:29.697Z"
   flags: []
 generated:
-  at: "2026-10-07T23:15:29.766Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -255,6 +255,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/Gwgpj1U1wxI
+      title: Introduction to Business Central Cloud Migration (2023)
+      label: possibly related
+      why: both name Table 405 "Change Log Entry"
+      by: code
+    - to: video/1x3QyBX3swg
+      title: "Microsoft presents: Index management"
+      label: possibly related
+      why: both name Table 405 "Change Log Entry"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/post-india-upgrade-tables
+      title: Publish, Synchronize and Install the ‘IndiaUpgradeTables’ extension
+      label: possibly related
+      why: names Table 9650 "Custom Report Layout"
+      by: code
 video_id: O921cRqXdiw
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -296,6 +312,31 @@ chapters:
     title: Data Exploration, Completion Actions, and Table Sanitization
   - t: 1493
     title: Customized Fields to Table Extensions Migration
+cautions:
+  - kind: preview-disclaimer
+    quote: we do not have the warning system in place yet
+    t: 1216
+  - kind: preview-disclaimer
+    quote: we are planning to introduce name spaces and the goal of the development team is to eliminate prefixes and suffixes in all of the objects
+    t: 1641
+  - kind: preview-disclaimer
+    quote: we will need to stop this upgrade but this is in approximately two years
+    t: 2265
+  - kind: preview-disclaimer
+    quote: we are looking into this we have not started the implementation of this feature yet however the current thinking is
+    t: 2339
+  - kind: preview-disclaimer
+    quote: we have not started the implementation of this feature yet however the current thinking is that it is going to work like this
+    t: 2380
+  - kind: preview-disclaimer
+    quote: we have not started the implementation of this feature yet however the current thinking is that it is going to work like this
+    t: 2380
+  - kind: preview-disclaimer
+    quote: this thing that you have just seen is our current thinking and these are the things that we are planning to do with the current knowledge
+    t: 2601
+  - kind: preview-disclaimer
+    quote: this current schedule that you have seen it can change and in case of any changes we are also going to announce it to you
+    t: 2642
 features:
   - name: Replication Pipeline Metadata Table Handling
     status: unclear
@@ -736,5 +777,13 @@ Not found in BC28-30: table "G entry", table "upgrade TXS", codeunit "4001".
 - [39:40](https://www.youtube.com/watch?v=O921cRqXdiw&t=2380s) coming-later: we have not started the implementation of this feature yet however the current thinking is that it is going to work like this
 - [43:21](https://www.youtube.com/watch?v=O921cRqXdiw&t=2601s) subject-to-change: this thing that you have just seen is our current thinking and these are the things that we are planning to do with the current knowledge
 - [44:02](https://www.youtube.com/watch?v=O921cRqXdiw&t=2642s) subject-to-change: this current schedule that you have seen it can change and in case of any changes we are also going to announce it to you
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Introduction to Business Central Cloud Migration (2023)](../videos/Gwgpj1U1wxI.md) — possibly related: both name Table 405 "Change Log Entry"
+- [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 405 "Change Log Entry"
+- [Publish, Synchronize and Install the ‘IndiaUpgradeTables’ extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/post-india-upgrade-tables) — possibly related: names Table 9650 "Custom Report Layout"
 
 Presenters (as heard): Nicola, Julia.

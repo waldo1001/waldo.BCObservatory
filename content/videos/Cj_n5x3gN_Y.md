@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:50:39.630Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -83,12 +83,24 @@ links:
   learn: []
   objects:
     - object/page/7414
-  features: []
+  features:
+    - feature/576844
   topics: []
   localizations: []
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-register-excise-tax
+      title: Register excise tax
+      label: possibly related
+      why: names Page 7414 "Excise Tax Types"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-set-up-excise-tax
+      title: Set up excise tax
+      label: possibly related
+      why: names Page 7414 "Excise Tax Types"
+      by: code
 video_id: Cj_n5x3gN_Y
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -121,22 +133,32 @@ chapters:
     title: Demo - multiple excise types and transaction logs
   - t: 908
     title: Reporting plans and session conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: plan is to continue invest into this direction and this functionality, so we will see what will be next delivered
+    t: 924
 features:
   - name: Excise taxes framework
-    status: unclear
+    status: ga
     t: 6
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576844"
   - name: Excise journal with multiple calculation models
-    status: unclear
+    status: ga
     t: 88
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576844"
   - name: Tax bases configuration
-    status: unclear
+    status: ga
     t: 186
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576844"
   - name: Entry permissions and source types
     status: unclear
     t: 256
@@ -148,15 +170,19 @@ features:
     verified: false
     status_source: video
   - name: Excise quantity configuration on items
-    status: unclear
+    status: ga
     t: 469
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576844"
   - name: Excise journal calculation workflow
-    status: unclear
+    status: ga
     t: 369
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576844"
   - name: Excise transaction logs
     status: unclear
     t: 170
@@ -239,20 +265,20 @@ Demos show item configuration with excise quantity, tax type and entry permissio
 
 ## Features
 
-Every feature below: status not stated, demoed.
+| Feature | Status | At |
+|---|---|---|
+| Excise taxes framework | generally available (roadmap [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [0:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=6s) |
+| Excise journal with multiple calculation models | generally available (roadmap [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [1:28](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=88s) |
+| Tax bases configuration | generally available (roadmap [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [3:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=186s) |
+| Entry permissions and source types | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=256s) |
+| Excise duty rates on items and fixed assets | status not stated, demoed | [5:17](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=317s) |
+| Excise quantity configuration on items | generally available (roadmap [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [7:49](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=469s) |
+| Excise journal calculation workflow | generally available (roadmap [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [6:09](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=369s) |
+| Excise transaction logs | status not stated, demoed | [2:50](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=170s) |
+| Parallel CBAM and EPR with excise taxes | status not stated, demoed | [8:51](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=531s) |
+| Dynamic reporting captions for excise types | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=232s) |
 
-| Feature | At |
-|---|---|
-| Excise taxes framework | [0:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=6s) |
-| Excise journal with multiple calculation models | [1:28](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=88s) |
-| Tax bases configuration | [3:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=186s) |
-| Entry permissions and source types | [4:16](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=256s) |
-| Excise duty rates on items and fixed assets | [5:17](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=317s) |
-| Excise quantity configuration on items | [7:49](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=469s) |
-| Excise journal calculation workflow | [6:09](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=369s) |
-| Excise transaction logs | [2:50](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=170s) |
-| Parallel CBAM and EPR with excise taxes | [8:51](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=531s) |
-| Dynamic reporting captions for excise types | [3:52](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=232s) |
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 
@@ -279,5 +305,12 @@ Not found in BC28-30: page "excise journal", table "excise transaction logs", pa
 ## Disclaimers in the video
 
 - [15:24](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=924s) coming-later: plan is to continue invest into this direction and this functionality, so we will see what will be next delivered
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Register excise tax](https://learn.microsoft.com/dynamics365/business-central/finance-register-excise-tax) — possibly related: names Page 7414 "Excise Tax Types"
+- [Set up excise tax](https://learn.microsoft.com/dynamics365/business-central/finance-set-up-excise-tax) — possibly related: names Page 7414 "Excise Tax Types"
 
 Presenters (as heard): Aleksandar Totovic.

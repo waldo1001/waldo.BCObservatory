@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:16.803Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -193,9 +193,12 @@ This section groups the analysis tools that come with Business Central finance. 
 ## Learn pages
 
 - [Analyze Actual Amounts Versus Budgeted Amounts](https://learn.microsoft.com/dynamics365/business-central/bi-how-analyze-actual-versus-budget): This article describes how to analyze actual amounts versus budgeted amounts as a means of gathering, analyzing, and sharing your company data.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md)
 - [Analyze cash flows](https://learn.microsoft.com/dynamics365/business-central/finance-analyze-cash-flow): Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze the past and future flow of money in and out of your company.
 - [Payment practices report](https://learn.microsoft.com/dynamics365/business-central/ui-payment-practices): Learn how to easily create the Payment Practices report for vendors and customers.
+  - In the observatory: [Page 532 "Company Sizes"](../../../../../objects/page/532.md)
 - [Understand the general ledger and Chart of Accounts](https://learn.microsoft.com/dynamics365/business-central/finance-general-ledger): This article describes the general ledger, chart of accounts, and account categories.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md)
 
 ## Videos, posts and code changes
 

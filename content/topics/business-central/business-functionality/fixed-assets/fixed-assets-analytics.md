@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:53.640Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -421,6 +421,7 @@ Start with the Fixed assets analytics overview to pick an approach. Use ad-hoc a
 
 - [Ad-hoc analysis of fixed assets data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa): Learn how to use the data analysis mode to analyze fixed assets data.
 - [Fixed assets analytics](https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview): Learn how to gather, analyze, and share data about fixed assets for business intelligence.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md)
 
 ## Business Central pages and reports
 

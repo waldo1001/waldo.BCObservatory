@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-database-wait-statistics-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-wait-statistics-trace",
+  "title": "Analyzing Database Wait Statistics Telemetry",
+  "blob": "c627b9d6d93e6481a70eeb387601980c4e6ace2f",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Available from Business Central 2022 release wave 1, version 20.0 and later."
+    },
+    {
+      "kind": "fact",
+      "text": "Snapshot is taken when user selects Emit Telemetry icon on Database Wait Statistics view in the client."
+    },
+    {
+      "kind": "fact",
+      "text": "Trace records maximum wait time, signal wait time, total wait time, and count of waiting tasks per wait category."
+    },
+    {
+      "kind": "fact",
+      "text": "Traces include database start date, when database was started, and which type of wait a query experiences."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003696,
+      "pages_in_call": 16
+    }
+  ]
+}

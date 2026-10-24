@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:06.802Z"
   flags: []
 generated:
-  at: "2026-10-07T23:17:06.919Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -152,6 +152,31 @@ chapters:
     title: Azure DevOps vs GitHub and container performance considerations
   - t: 2454
     title: PowerShell migration and local development vision
+cautions:
+  - kind: preview-disclaimer
+    quote: Container helper is being deprecated
+    t: 45
+  - kind: preview-disclaimer
+    quote: Container Helper will go out of support on October 1st, 2027
+    t: 350
+  - kind: preview-disclaimer
+    quote: Unfortunately there were some complications that came in the way, but we're still on track to make it by June for moving Business Central application to BC apps
+    t: 634
+  - kind: preview-disclaimer
+    quote: Code coverage is coming soon to AL-Go, along with automatic reruns on flaky tests, improved incremental builds, and turn-based testing
+    t: 831
+  - kind: preview-disclaimer
+    quote: PR reviewer agent is currently in testing and dogfooding phase, will ship as opt-in once mature
+    t: 854
+  - kind: preview-disclaimer
+    quote: A year ago when we announced the deprecation of easy container helper
+    t: 909
+  - kind: preview-disclaimer
+    quote: BC Container Helper will be supported until October 2027
+    t: 1117
+  - kind: preview-disclaimer
+    quote: Hopefully by end of 2026, we're going to have a new module, BC CH 2.0 something, whatever
+    t: 1261
 features:
   - name: Container Helper
     status: unclear

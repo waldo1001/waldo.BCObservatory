@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/bertverbeek-nl/1209",
+  "page_id": "post/bertverbeek-nl/1209",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "After installation, you must manually configure the following fields in the ADLSE Setup",
+      "objects": [
+        {
+          "type": "table",
+          "name": "ADLSE Setup"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004521,
+    "posts_in_call": 4
+  }
+}

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:54:01.669Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:01.714Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -189,6 +189,19 @@ chapters:
     title: "Feature availability: cloud vs on-premises"
   - t: 1181
     title: Closing resources and community channels
+cautions:
+  - kind: preview-disclaimer
+    quote: preview semantic similarity search and application metadata
+    t: 547
+  - kind: preview-disclaimer
+    quote: do expect that results can change. We will adjust the algorithm for how we treat similarity based on measurements of what works best in production
+    t: 831
+  - kind: preview-disclaimer
+    quote: do expect that results can change. We will adjust the algorithm for how we treat similarity based on measurements of what works best in production.
+    t: 846
+  - kind: preview-disclaimer
+    quote: all the functionality we talk about apply both to on premises and the cloud that does not apply to the semantic search
+    t: 1103
 features:
   - name: Sequential GUID AL method
     status: unclear

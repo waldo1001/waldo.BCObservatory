@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/demiliani-com/12439",
+  "page_id": "post/demiliani-com/12439",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "in Dynamics 365 Business Central version 26 this Summary system part cannot be controlled",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Summary system part"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "26"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "You can only have one Summary system part per page",
+      "objects": [
+        {
+          "type": "page",
+          "name": "page"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "you cannot add a Summary part to a List page. You will receive a strange error message",
+      "objects": [
+        {
+          "type": "page",
+          "name": "List page"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003329,
+    "posts_in_call": 4
+  }
+}

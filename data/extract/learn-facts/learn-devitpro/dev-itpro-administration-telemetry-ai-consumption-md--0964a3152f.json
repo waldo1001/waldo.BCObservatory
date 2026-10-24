@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-ai-consumption.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-ai-consumption",
+  "title": "Analyzing AI Consumption Trace Telemetry",
+  "blob": "1010b161eed0438932cde87b2c862beeeb62c95b",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "AI consumption trace telemetry records when Copilot Credits are consumed by features subject to consumption-based billing."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry captures action type, agent task ID, company name, and exact credit count for each consumption event."
+    },
+    {
+      "kind": "fact",
+      "text": "Extension telemetry reports only consumption associated with agents published to environment as part of the app."
+    },
+    {
+      "kind": "fact",
+      "text": "Event ID RT0055 marks AI consumption recorded; telemetry schema version is 0.2."
+    },
+    {
+      "kind": "fact",
+      "text": "KQL code allows analysis of consumed Copilot Credits by timestamp, environment, feature name, and credit count."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005472,
+      "pages_in_call": 10
+    }
+  ]
+}

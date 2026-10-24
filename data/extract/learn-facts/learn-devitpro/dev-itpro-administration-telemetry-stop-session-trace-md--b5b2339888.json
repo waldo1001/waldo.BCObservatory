@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-stop-session-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-stop-session-trace",
+  "title": "Analyzing Stopped Session Telemetry",
+  "blob": "4be759c3b43bd1f6d311cc03e81eeb7e39147908",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "A trace is recorded when a session stops via the StopSession method from AL or from the admin center."
+    },
+    {
+      "kind": "fact",
+      "text": "The trace records the ID of the session that was stopped and the ID of the session that initiated the stop."
+    },
+    {
+      "kind": "fact",
+      "text": "Custom dimensions include whether the stopped session was running as an administrator and the client type that made the stop call."
+    },
+    {
+      "kind": "fact",
+      "text": "ManagementClient client type indicates the session was stopped from the Business Central admin center."
+    },
+    {
+      "kind": "fact",
+      "text": "Stack trace, AL object ID, object name, and object type are not shown for sessions canceled from the admin center."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003696,
+      "pages_in_call": 16
+    }
+  ]
+}

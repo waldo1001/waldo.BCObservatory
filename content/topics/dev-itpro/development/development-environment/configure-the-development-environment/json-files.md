@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:28.632Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > JSON files for AL development in Business Central: app.json, launch.json, Directory.app.props.json and migration.json. It answers questions about configuring extension projects, debugging and publishing settings, shared properties across apps, and migrating data between extensions.
 
-Path: [Development](../../../development.md) > [Development environment](../../development-environment.md) > [Configure the development environment](../configure-the-development-environment.md) > JSON files · tier official · system administration · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../../development.md) > [Development environment](../../development-environment.md) > [Configure the development environment](../configure-the-development-environment.md) > JSON files · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

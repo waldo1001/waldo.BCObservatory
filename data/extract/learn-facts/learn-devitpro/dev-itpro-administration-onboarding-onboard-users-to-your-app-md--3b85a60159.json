@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/onboarding-onboard-users-to-your-app.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-onboard-users-to-your-app",
+  "title": "Onboard users to your app",
+  "blob": "1c023907b6aac982b483a8263b16175dfca9e24a",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Apps should use guided experience components to help users set up app functionality smoothly and frictionlessly"
+    },
+    {
+      "kind": "fact",
+      "text": "Setup objects are registered as guided experience items by calling relevant functions in guided experience codeunit"
+    },
+    {
+      "kind": "fact",
+      "text": "Only one primary setup object allowed per app; multiple setup objects can exist but only one designated as primary"
+    },
+    {
+      "kind": "fact",
+      "text": "Just-in-time setup defers some configuration to when user needs specific app actions instead of doing all upfront"
+    },
+    {
+      "kind": "fact",
+      "text": "App installation wizard automatically provisions marketplace apps and offers option to run primary setup"
+    },
+    {
+      "kind": "fact",
+      "text": "Teaching tips educate users about key concepts and actions to ensure good first-run experience with app"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007005,
+      "pages_in_call": 8
+    }
+  ]
+}

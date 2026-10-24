@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-custom-migration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration",
+  "title": "Custom migration from any SQL source",
+  "blob": "ab432a0068769017c709377cf60fe6a0e37c23f4",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "No-code custom migration lets you select specific tables to copy from SQL source without writing code."
+    },
+    {
+      "kind": "fact",
+      "text": "Replication mapping type copies data during data replication runs; Setup mapping type copies data during assisted setup before companies are created."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Source database must contain company table with Name and Display Name fields as primary key and nvarchar(250) respectively."
+    },
+    {
+      "kind": "limit",
+      "text": "System tables inaccessible by AL code cannot be migrated by any migration tool."
+    },
+    {
+      "kind": "fact",
+      "text": "Custom migration apps extend Intelligent Cloud Base app and implement Custom Migration Provider and Custom Migration Table Mapping interfaces."
+    },
+    {
+      "kind": "fact",
+      "text": "Table mappings define source SQL table, destination SQL table, company name, and whether to preserve existing cloud data."
+    },
+    {
+      "kind": "fact",
+      "text": "Business Central 14 reimplementation is an extensible reference app showing patterns for buffer tables, phased execution, and error handling."
+    },
+    {
+      "kind": "fact",
+      "text": "BC14 reimplementation lets you disable standard modules for G/L, Receivables, Payables, and Inventory to migrate only custom tables."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005472,
+      "pages_in_call": 10
+    }
+  ]
+}

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:05:07.908Z"
   flags: []
 generated:
-  at: "2026-10-07T23:05:07.965Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -97,6 +97,13 @@ chapters:
     title: Limitations and constraints
   - t: 338
     title: Summary and conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: you can't use it not right now at least so why do we even talk about it well you're going to see some uptake of this feature fairly soon
+    t: 6
+  - kind: preview-disclaimer
+    quote: you're going to see the code maybe in BC apps and other places so this is important that you know what it's all about
+    t: 27
 features:
   - name: Embedding resources in applications
     status: unclear

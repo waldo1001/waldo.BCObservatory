@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-business-events-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-business-events-trace",
+  "title": "Analyze business events telemetry",
+  "blob": "b21428cc9825bd390489d442a14ac15ef897028c",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available from Business Central 2023 release wave 2 and later."
+    },
+    {
+      "kind": "fact",
+      "text": "Business events telemetry tracks lifecycle and execution of business event subscriptions."
+    },
+    {
+      "kind": "fact",
+      "text": "Events RT0040-RT0044: Track subscription creation, deletion, modification, enable, disable."
+    },
+    {
+      "kind": "fact",
+      "text": "Events RT0045-RT0047: Track successful trigger, failed trigger, failed notification sending."
+    },
+    {
+      "kind": "fact",
+      "text": "Business events enable external systems to receive notifications when specific actions occur."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005651,
+      "pages_in_call": 10
+    }
+  ]
+}

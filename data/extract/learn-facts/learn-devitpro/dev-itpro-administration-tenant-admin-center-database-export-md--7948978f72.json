@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-database-export.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export",
+  "title": "Exporting Databases in the Admin Center",
+  "blob": "a2e8f15277028b1a9b3867a886612a0e1513529e",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Exports Business Central online database as BACPAC files to Azure storage container"
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Customer must have paid Business Central subscription to request database export"
+    },
+    {
+      "kind": "permission",
+      "text": "D365 BACKUP/RESTORE permission set must be assigned in the environment to export"
+    },
+    {
+      "kind": "limit",
+      "text": "Maximum 10 database exports allowed per month per environment"
+    },
+    {
+      "kind": "limit",
+      "text": "Only Standard general-purpose v2 Azure storage accounts supported, not Premium or V1"
+    },
+    {
+      "kind": "prerequisite",
+      "text": "SAS signature requires minimum 72-hour expiration window from export initiation"
+    },
+    {
+      "kind": "fact",
+      "text": "BACPAC files exported from customer-managed encrypted environments use storage account encryption"
+    },
+    {
+      "kind": "limit",
+      "text": "Microsoft does not support creating working on-premises environment from downloaded BACPAC"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011363,
+      "pages_in_call": 4
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-table-index-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-table-index-trace",
+  "title": "Analyze table index trace telemetry",
+  "blob": "70a0622912586590f634376e08be414a4dbc3310",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available from Business Central 2021 release wave 1, version 18.0 and later."
+    },
+    {
+      "kind": "fact",
+      "text": "Table index trace logs when extension installs or upgrades and adds, modifies, or removes indexes on base table."
+    },
+    {
+      "kind": "fact",
+      "text": "Event LC0024 fires when index enabled, LC0025 when disabled. Both record key name, fields, MaintainSIFTIndex, MaintainSQLIndex properties."
+    },
+    {
+      "kind": "fact",
+      "text": "Index enabled at runtime (LC0063) and disabled at runtime (LC0064) events track dynamic index management via Index Management API."
+    },
+    {
+      "kind": "limit",
+      "text": "Sync table column count exceeded (LC0065) warns when table exceeds recommended 256 SQL columns limit during extension sync."
+    },
+    {
+      "kind": "fact",
+      "text": "Runtime index events include isALDefined flag, keySqlIndexFields, and keySumIndexFields dimensions; AL-defined keys show all dimensions, runtime-disabled keys may omit some."
+    },
+    {
+      "kind": "status",
+      "text": "Runtime index events LC0063 and LC0064 and column count event LC0065 available from version 28.0 (2026 release wave 1)."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010146,
+      "pages_in_call": 5
+    }
+  ]
+}

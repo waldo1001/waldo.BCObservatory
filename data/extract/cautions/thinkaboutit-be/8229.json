@@ -1,0 +1,30 @@
+{
+  "item_id": "blog/thinkaboutit-be/8229",
+  "page_id": "post/thinkaboutit-be/8229",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "It's planned for public preview in Business Central 29.x, likely 29.1.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29.x"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "So it's too early to redesign a production analytics platform around it.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003975,
+    "posts_in_call": 4
+  }
+}

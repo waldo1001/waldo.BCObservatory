@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:26.116Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,8 +105,11 @@ The post code pages fit together as one overview and two how-to pages. Start wit
 ## Learn pages
 
 - [CMR Notes [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/cmr-notes): Process claims with complete CMR note information easily. Use the Dutch feature to follow the CMR Convention with standard CMR notes.
+  - In the observatory: [Report 11401 "CMR - Sales Shipment (NL)"](../../../../../objects/report/11401-nl.md), [Report 11402 "CMR - Transfer Shipment (NL)"](../../../../../objects/report/11402-nl.md)
 - [Dutch Post Codes](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-post-codes): Subscribe to receive post codes and updates for your business. These updates are useful for marketing and relationship management activities.
 - [How to import post code updates [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-code-updates): Import the post code file to update the relevant data in the Post Code Range table.
+  - In the observatory: [Table 11406 "Post Code Range (NL)"](../../../../../objects/table/11406-nl.md)
 - [How to Import Post Codes [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-codes): Import a file with post codes for marketing and relationship management activities, which is saved in the Post Code Range table.
+  - In the observatory: [Table 11406 "Post Code Range (NL)"](../../../../../objects/table/11406-nl.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

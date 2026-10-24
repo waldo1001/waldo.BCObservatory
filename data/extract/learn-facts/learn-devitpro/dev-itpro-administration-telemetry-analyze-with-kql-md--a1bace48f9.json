@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-analyze-with-kql.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql",
+  "title": "Analyze and monitor telemetry with KQL",
+  "blob": "34988f0b0a2f1d5f630dda8f3acdbad0922ee590",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Business Central telemetry is stored in Azure Application Insights in traces and pageViews tables"
+    },
+    {
+      "kind": "fact",
+      "text": "Kusto Query Language (KQL) is used to query telemetry data in Application Insights"
+    },
+    {
+      "kind": "fact",
+      "text": "From Log Analytics, traces map to AppTraces table and pageViews map to AppPageViews table"
+    },
+    {
+      "kind": "fact",
+      "text": "All telemetry events have timestamp in UTC timezone that can be converted to local timezone"
+    },
+    {
+      "kind": "fact",
+      "text": "Session ID in version 24 and later allows tracking all events within a single user session"
+    },
+    {
+      "kind": "fact",
+      "text": "KQL queries can find start time of events like reports or long-running operations using execution time"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005231,
+      "pages_in_call": 10
+    }
+  ]
+}

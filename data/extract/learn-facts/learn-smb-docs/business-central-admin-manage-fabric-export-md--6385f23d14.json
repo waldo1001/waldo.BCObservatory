@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
+  "title": "Manage Business Central Synchronization with Microsoft Fabric",
+  "blob": "2673389d57f5ac4c3fa9776132e0b21aaf432ae4",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Production-ready preview planned to become available in October 2026. Delivery timing and functionality might change. Subject to supplemental terms of use."
+    },
+    {
+      "kind": "permission",
+      "text": "MS Fabric Mirroring - Admin permission set: set up connection, select companies and tables, manage packages, control synchronization, and view monitoring."
+    },
+    {
+      "kind": "permission",
+      "text": "MS Fabric Mirroring - Activate permission set: activate, deactivate, and reapply configuration packages."
+    },
+    {
+      "kind": "permission",
+      "text": "MS Fabric Mirroring - Read permission set: view synchronization overview and detail information."
+    },
+    {
+      "kind": "step",
+      "text": "Open Microsoft Fabric Mirroring Setup page, select Configuration, then Companies, then Add company, and select a company to synchronize."
+    },
+    {
+      "kind": "step",
+      "text": "Open Microsoft Fabric Mirroring Setup page, select Configuration, then Tables, select Add table, and select one or more Business Central tables. Up to 1,000 tables allowed."
+    },
+    {
+      "kind": "fact",
+      "text": "Configuration packages provide curated table sets. MS-STD package contains 256 standard Business Central tables for analytics. Activate, deactivate, or reapply packages from Import/Export…"
+    },
+    {
+      "kind": "limit",
+      "text": "Activating or reapplying a package cannot increase total selection beyond 1,000-table limit."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006355,
+      "pages_in_call": 7
+    }
+  ]
+}

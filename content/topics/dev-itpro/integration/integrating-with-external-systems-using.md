@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,6 +109,7 @@ Start with the business events page if you want to trigger Power Automate flows 
 
 - [Business events on Business Central (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/business-events-overview): Business events provide our partners and customers a mechanism for notifying and triggering their external systems when actions are done on Business Central
 - [Working with webhooks](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions): Overview of how to manage subscriptions to Dynamics 365 Business Central.
+  - In the observatory: [Codeunit 6153 "API Webhook Notification Mgt."](../../../objects/codeunit/6153.md), [Codeunit 6154 "API Webhook Notification Send"](../../../objects/codeunit/6154.md)
 
 ## Videos, posts and code changes
 

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:58:00.382Z"
   flags: []
 generated:
-  at: "2026-10-07T22:58:00.423Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -186,6 +186,13 @@ chapters:
     title: Pre-submission best practices and local validation setup
   - t: 1225
     title: Performance characteristics of moves and summary
+cautions:
+  - kind: preview-disclaimer
+    quote: Per tenant extensions are not supported for this
+    t: 119
+  - kind: preview-disclaimer
+    quote: consider first submitting the source and destination in preview
+    t: 1178
 features:
   - name: Move Tables and Fields Between Extensions
     status: unclear

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:55.605Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,32 @@ The third page covers a separate option for version 14 on-premises: the reimplem
 ## Learn pages
 
 - [Business Central 14 Reimplementation tool for cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-bc14-reimplementation): Learn about the Business Central 14 reimplementation tool that migrates only essential data from Business Central 14 on-premises to Business Central online.
+  - Business Central 14 Reimplementation tool migrates only essential business data for clean start without legacy customizations.
+  - Status: Reimplementation approach available for Business Central version 14; standard full migration tools available for other versions.
+  - Limit: Business Central 14 reimplementation tool only supports version 14; for other versions use standard cloud migration.
+  - Migrates master data, transactional data, opening balances, and setup data; legacy C/AL customizations not migrated by default.
+  - Limit: Arbitrary ledger history beyond defined subset not migrated by default; extension data not included without customization.
+  - Tool includes more than 40 migrators for modular business data transfer; more migrators expected over time.
+  - Step: Follow standard cloud migration setup process; on Product page select Business Central 14 Reimplementation.
+  - Tool is open source and extensible; partners can add migration modules for ISV solutions and customize data transformation.
 - [Business Central on-premises to online migration overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises): This article provides an overview of how the migration works from Business Central on-premises and the necessary tasks for completing the migration.
+  - Status: Generally available.
+  - Cloud migration transfers business data from on-premises SQL Server or Azure SQL to Business Central online using Azure Data Factory.
+  - Integration Runtime connects the on-premises database directly to Azure Data Factory; self-hosted runtime used for SQL Server, Azure Integration Runtime for Azure SQL.
+  - Limit: System tables, users, permissions, and record links are not migrated.
+  - Online data is compressed using SQL Server compression, so data size may differ from on-premises size.
+  - After cloud migration setup, online tenant is read-only; non-SUPER users get Intelligent Cloud permission set automatically.
+  - Step: Phase 1: Verify prerequisites, review data quality, and optimize performance.
+  - Step: Phase 2: Run Set up Cloud Migration assisted setup to establish connection and pipeline.
 - [Managing cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage): Describes the Cloud Migration Management page in Business Central.
+  - Cloud Migration Management page in the web client serves as the central hub for configuring and tracking data migration runs and services.
+  - Data replication can be rerun after initial migration, moving only changes since the last run using change tracking.
+  - User mapping renames the Name field on the User Card to match on-premises user names; perform this only once per migration.
+  - Step: Create diagnostic run to test data replication without migrating data, allowing issues to be identified and fixed first.
+  - Step: Reset cloud data clears all cloud tenant data and enables restarting the entire migration from the beginning.
+  - Limit: Cloud migration cannot run if the target environment is undergoing upgrade; must disable it, upgrade, then reconfigure.
+  - Setup checklist displays recommended steps to prepare tables not migrated for use as the primary system going live.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

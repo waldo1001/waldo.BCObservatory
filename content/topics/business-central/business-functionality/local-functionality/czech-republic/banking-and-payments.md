@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:53.966Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,7 +69,7 @@ narrative: generated
 
 > Czech banking and payments localization in Business Central: the Banking Documents extension for payment orders and bank statements, and the Cash Desk extension for cash receipts, withdrawals, reconciliation and inventory. It answers questions about what each extension does and which features it offers.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Banking and Payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Banking and Payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -91,6 +91,7 @@ The two pages are independent and have no subtopics. Start with the Banking Docu
 ## Learn pages
 
 - [Banking Documents Localization for Czech (Extension)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz): Learn about the features and functionality of the Banking Documents Localization extension for the Czech Republic in Business Central.
+  - In the observatory: [Page 370 "Bank Account Card"](../../../../../objects/page/370.md)
 - [Cash Desk Localization for Czech (Extension)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz): Provides features for cash register operations in compliance with Czech legislation and best practices for Microsoft Dynamics 365 Business Central.
 
 ## Videos, posts and code changes

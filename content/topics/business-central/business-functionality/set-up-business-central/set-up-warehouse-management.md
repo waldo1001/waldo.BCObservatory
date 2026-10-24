@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:16.682Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -285,14 +285,23 @@ Start with "Manage warehouse activities" for the overview and "Configure warehou
 - [Configure warehouse processes](https://learn.microsoft.com/dynamics365/business-central/warehouse-setup-warehouse): A company's distribution strategy is reflected in the configuration of its warehouse processes, for example the warehouse locations.
 - [Convert Existing Locations to Warehouse Locations](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-convert-existing-locations-to-warehouse-locations): You can enable an existing inventory location to use zones and bins and to operate as a warehouse location.
 - [Create Bin Contents](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-bin-contents): After you have set up your bins, you can specify the items that you want to store in them, and set up rules that control how often bins are refilled.
+  - In the observatory: [Page 36957 "Locations"](../../../../objects/page/36957.md), [Page 7371 "Bin Content Creation Worksheet"](../../../../objects/page/7371.md)
 - [Create bins](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-create-individual-bins): Generate groups of similar bins in the bin creation worksheet, create bins individually on the location card, or automatically on the Bin Creation Worksheet.
+  - In the observatory: [Page 36957 "Locations"](../../../../objects/page/36957.md), [Page 7302 "Bins"](../../../../objects/page/7302.md)
 - [How to enable picking by FEFO](https://learn.microsoft.com/dynamics365/business-central/warehouse-picking-by-fefo): First-Expired-First-Out (FEFO) is a sorting method that ensures that items with the earliest expiration dates are picked first.
+  - In the observatory: [Page 5779 "Warehouse Pick"](../../../../objects/page/5779.md), [Page 7351 "Movement Worksheet"](../../../../objects/page/7351.md), [Page 7377 "Inventory Pick"](../../../../objects/page/7377.md), [Page 7382 "Inventory Movement"](../../../../objects/page/7382.md)
 - [How to Set Up Locations to Use Bins](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-locations-to-use-bins): Bins represent the basic warehouse structure and are used to make suggestions about the placement of items.
+  - In the observatory: [Page 8882 "Email Outbox"](../../../../objects/page/8882.md)
 - [Manage warehouse activities](https://learn.microsoft.com/dynamics365/business-central/design-details-warehouse-management): In addition to receipts and shipments, Business Central supports a series of internal warehouse activities.
+  - In the observatory: [Page 5703 "Location Card"](../../../../objects/page/5703.md), [Page 5768 "Warehouse Receipt"](../../../../objects/page/5768.md), [Page 5770 "Warehouse Put-away"](../../../../objects/page/5770.md), [Page 7315 "Warehouse Movement"](../../../../objects/page/7315.md), [Page 7335 "Warehouse Shipment"](../../../../objects/page/7335.md), [Page 7345 "Pick Worksheet"](../../../../objects/page/7345.md)
 - [Restructure Warehouses](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-restructure-warehouses): Learn how to restructure your warehouse with new bin codes and new bin characteristics to achieve or maintain a more efficient operation.
+  - In the observatory: [Page 36957 "Locations"](../../../../objects/page/36957.md), [Page 7302 "Bins"](../../../../objects/page/7302.md)
 - [Set up basic warehouses with operations areas](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-basic-warehouses-with-operations-areas): Set up warehouse operations areas and use inventory movements, picks, and put-aways to move goods between them.
+  - In the observatory: [Page 2610 "Feature Management"](../../../../objects/page/2610.md), [Page 498 "Reservation"](../../../../objects/page/498.md), [Page 5703 "Location Card"](../../../../objects/page/5703.md), [Page 7302 "Bins"](../../../../objects/page/7302.md), [Page 7375 "Inventory Put-away"](../../../../objects/page/7375.md), [Page 7377 "Inventory Pick"](../../../../objects/page/7377.md)
 - [Set Up Bin Types](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-bin-types): Assign types and basic flow activities to bins and, in doing so, define the way the bins are used for particular warehouse activities.
+  - In the observatory: [Page 7306 "Bin Types"](../../../../objects/page/7306.md)
 - [Set Up Directed Put-away and Pick](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-items-for-directed-put-away-and-pick): Directed put-away and pick gives you functionality for running your warehouse efficiently.
+  - In the observatory: [Page 36957 "Locations"](../../../../objects/page/36957.md), [Page 5404 "Item Units of Measure"](../../../../objects/page/5404.md), [Page 7300 "Zones"](../../../../objects/page/7300.md), [Page 7374 "Bin Contents"](../../../../objects/page/7374.md)
 - [Set Up Put-away Templates](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-put-away-templates): Use Put-away templates to have the most appropriate bins for your items suggested to you at any given time.
 - [Set Up Warehouse Employees](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-warehouse-employees): Each user who performs warehouse activities must be set up as a warehouse employee assigned to one default location and potentially more non-default locations.
 

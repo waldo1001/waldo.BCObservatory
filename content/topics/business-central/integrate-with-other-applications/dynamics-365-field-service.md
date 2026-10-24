@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:40.869Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,6 +93,7 @@ Read the introductory page first to see what the integration does. Then read the
 
 - [Integrate with Microsoft Dynamics 365 Field Service](https://learn.microsoft.com/dynamics365/business-central/admin-integrate-field-service): Integrate Business Central with Field Service.
 - [Use your integration with Field Service](https://learn.microsoft.com/dynamics365/business-central/admin-use-field-service-integration): This article describes how to benefit from an integration with Microsoft Dynamics 365 Field Service.
+  - In the observatory: [Page 36957 "Locations"](../../../objects/page/36957.md), [Page 5703 "Location Card"](../../../objects/page/5703.md), [Page 9318 "Service Orders"](../../../objects/page/9318.md)
 
 ## Videos and posts
 

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:12:44.798Z"
   flags: []
 generated:
-  at: "2026-10-07T23:12:44.883Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -255,6 +255,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/gerardorenteria-blog/12961
+      title: 🕐 Remember When Lists Could Sort By Any Key? 🔄
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/gerardorenteria-blog/11565
+      title: AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/KmuTVkodRXM
+      title: All new goodies about AL Namespace in BC 2025 wave 2
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/aardvarklabs-blog/2565
+      title: "Business Central 2027 release wave 1: Preparing for OData Endpoint Removal"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/sIWz2yPqLpo
+      title: "Business Central BC29: Control Global Symbol Versions"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/_JkZCp64jNw
+      title: Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/H7R_m8Ue38g
+      title: "Business Central v29: System Audit Fields Now Available in Analysis Mode"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/aardvarklabs-blog/1816
+      title: Creating Data Driven Text with AI in Business Central
+      label: possibly related
+      why: both name Codeunit 457 "Environment Information"
+      by: code
+    - to: post/demiliani-com/12439
+      title: "Dynamics 365 Business Central: controlling the Summary system part."
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/thedynamicsexplorer-com/36822
+      title: Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
 video_id: TY82NR2hGEg
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -307,6 +358,31 @@ chapters:
     title: AL Go configuration, GitHub Copilot Chat, and AI assistance
   - t: 3896
     title: AppSource transactability and developer resources
+cautions:
+  - kind: preview-disclaimer
+    quote: One thing we introduced with the preview functionality is the ability to install the AL language extension on Linux.
+    t: 116
+  - kind: preview-disclaimer
+    quote: I need to change the the sandbox here to my preview sandbox, we're still in preview.
+    t: 222
+  - kind: preview-disclaimer
+    quote: Another thing we added as a preview is syntax highlighting for DevOps.
+    t: 271
+  - kind: preview-disclaimer
+    quote: We still have a fixes. Um we would like to lift some of the restrictions and for instance, one of those we are looking at is new name spaced object can have names without a fixes.
+    t: 811
+  - kind: preview-disclaimer
+    quote: new name spaced object can have names without a fixes. Which will take a little bit longer is member of on objects
+    t: 822
+  - kind: preview-disclaimer
+    quote: But it may take a while
+    t: 844
+  - kind: preview-disclaimer
+    quote: We're starting slowly, but we plan to do it for all our apps
+    t: 1283
+  - kind: preview-disclaimer
+    quote: AL Explorer was added in the previous release
+    t: 2025
 features:
   - name: AL language extension pre-release versions
     status: unclear
@@ -860,5 +936,20 @@ Not found in BC28-30: codeunit "Bing Maps GeoCode", table "GL entry", codeunit "
 - [1:03:04](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3784s) preview: remember to uh review the generated content, especially for AL, because the training material is based on open-source uh code, and for AL, that's fairly limited.
 - [1:05:37](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3937s) preview: That is as I'm talking now in public preview, but on October 9th, that will actually go into GA.
 - [1:05:47](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3947s) preview: CSP support is actually built but we're in the in the middle of a private preview with select partners on this
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [🕐 Remember When Lists Could Sort By Any Key? 🔄](../posts/gerardorenteria-blog/12961.md) — possibly related: both name Page 22 "Customer List"
+- [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../posts/gerardorenteria-blog/11565.md) — possibly related: both name Page 21 "Customer Card"
+- [All new goodies about AL Namespace in BC 2025 wave 2](../videos/KmuTVkodRXM.md) — possibly related: both name Page 22 "Customer List"
+- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../posts/aardvarklabs-blog/2565.md) — possibly related: both name Page 21 "Customer Card"
+- [Business Central BC29: Control Global Symbol Versions](../videos/sIWz2yPqLpo.md) — possibly related: both name Page 21 "Customer Card"
+- [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../videos/_JkZCp64jNw.md) — possibly related: both name Page 21 "Customer Card"
+- [Business Central v29: System Audit Fields Now Available in Analysis Mode](../videos/H7R_m8Ue38g.md) — possibly related: both name Page 22 "Customer List"
+- [Creating Data Driven Text with AI in Business Central](../posts/aardvarklabs-blog/1816.md) — possibly related: both name Codeunit 457 "Environment Information"
+- [Dynamics 365 Business Central: controlling the Summary system part.](../posts/demiliani-com/12439.md) — possibly related: both name Page 21 "Customer Card"
+- [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 22 "Customer List"
 
 Presenters (as heard): Peter Borring, Stephen Balslev, Espen Kristoffersen, Freddy Christensen, Asbjørn, Peter, Stefan, Esben, Kurt.

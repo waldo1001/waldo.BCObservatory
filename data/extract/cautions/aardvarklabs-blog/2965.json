@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2965",
+  "page_id": "post/aardvarklabs-blog/2965",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "if the prompt isn't carefully created it may go out and search the internet for more data, and I don't want that.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005059,
+    "posts_in_call": 4
+  }
+}

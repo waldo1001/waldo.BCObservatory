@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:41.499Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,7 +94,26 @@ Start with "Run data upgrade" to understand the full flow. Read the skip API pag
 ## Learn pages
 
 - [Run data upgrade](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade): This article explains the process for running the data upgrade as part of cloud migration.
+  - Prerequisite: Data replication must complete before running data upgrade.
+  - Data upgrade runs logic to upgrade platform-related data when migrating from earlier versions.
+  - Step: Open Cloud Migration Management page and select Run data upgrade.
+  - All client connections are terminated during data upgrade; no reconnection until it completes.
+  - Successful upgrade shows Complete status and environment becomes active again for client access.
+  - Failed upgrade triggers automatic point-in-time restore to revert environment state.
+  - Limit: Long-running upgrades on Business Central on-premises can be accelerated by skipping API data upgrade.
+  - You can cancel running data upgrade from admin center; restore process may take over one hour.
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
 - [Skip API data upgrade in cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade): This article explains things you can skip the API data upgrade during cloud migration and complete it after going live
+  - Long-running API data upgrades during cloud migration can be skipped per company and resumed after going live.
+  - Prerequisite: Cloud migration setup and data replication must be completed before skipping API data upgrade.
+  - Step: Sign in to Business Central online and search for Cloud Migration Management page.
+  - Step: Select Manage API Upgrade action to open the API upgrade overview page.
+  - Step: Select company name, then select Disable API Data Upgrades on the API Data Upgrade List page.
+  - SQL queries can disable API data upgrade for single company or all companies at once.
+  - After going live, run the API data upgrade separately by following the Run API data upgrade process.
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md), [Page 9994 "API Data Upgrade List"](../../../../../objects/page/9994.md)
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos, posts and code changes
 

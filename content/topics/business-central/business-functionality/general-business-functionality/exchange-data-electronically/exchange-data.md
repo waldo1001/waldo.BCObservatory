@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:19:58.610Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -203,13 +203,19 @@ Start with "Exchanging data" for the overview, then "Define how data is exchange
 
 - [Define how data is exchanged electronically](https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-data-exchange-definitions): Define how Business Central exchange data with external files like electronic documents, bank data, item catalogs and more.
 - [Exchanging data](https://learn.microsoft.com/dynamics365/business-central/across-exchange-data): Exchange electronic business documents, for example bank files, between Business Central and external parties.
+  - In the observatory: [Page 1290 "Payment Reconciliation Journal"](../../../../../objects/page/1290.md), [Page 256 "Payment Journal"](../../../../../objects/page/256.md), [Page 379 "Bank Acc. Reconciliation"](../../../../../objects/page/379.md), [Page 5 "Currencies"](../../../../../objects/page/5.md)
 - [Field mapping for exporting bank payment files \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service): Exporting payment files with the AMC Banking 365 Fundamentals extension exposes your data to the service provider.
+  - In the observatory: [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 23 "Vendor"](../../../../../objects/table/23.md), [Table 25 "Vendor Ledger Entry"](../../../../../objects/table/25.md), [Table 270 "Bank Account"](../../../../../objects/table/270.md), [Table 287 "Customer Bank Account"](../../../../../objects/table/287.md), [Table 288 "Vendor Bank Account"](../../../../../objects/table/288.md)
 - [Field mapping when importing SEPA CAMT files \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-importing-sepa-camt-files): Import bank statement files in the regional SEPA (Single Euro Payments Area) format for European markets.
+  - In the observatory: [Page 1290 "Payment Reconciliation Journal"](../../../../../objects/page/1290.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md), [Table 273 "Bank Acc. Reconciliation"](../../../../../objects/table/273.md), [Table 274 "Bank Acc. Reconciliation Line"](../../../../../objects/table/274.md)
 - [Make payments with AMC banking (US) or SEPA credit transfer (EU)](https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer): Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
 - [Receive and convert electronic documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents): Learn how to receive and convert electronic documents in Business Central, either directly from trading partners or through an OCR service.
 - [Send Electronic Documents](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-send-electronic-documents): Learn how to use Business Central to send electric invoices and credit memos in the PEPPOL format.
 - [SEPA Direct Debit in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit): With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.
+  - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 981 "Payment Registration"](../../../../../objects/page/981.md)
 - [Set Up Yodlee Bank Feeds](https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-statement-service): You can convert payment information to any data format that your bank requires and enable the export or import of bank files.
+  - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md)
 - [Use OCR to turn PDF into e-invoices](https://learn.microsoft.com/dynamics365/business-central/across-how-use-ocr-pdf-images-files): Describes how you can use an OCR service to convert incoming PDF or image files to electronic documents.
 
 ## Business Central pages and reports

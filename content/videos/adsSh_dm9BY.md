@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:02:31.409Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,6 +116,10 @@ chapters:
     title: Negative amount formatting for accountants
   - t: 226
     title: Export and formatting options summary
+cautions:
+  - kind: preview-disclaimer
+    quote: we have a few things coming up in the 2025 release
+    t: 7
 features:
   - name: Internal description field
     status: announced

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-consumption-billing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing",
+  "title": "Manage consumption-based billing",
+  "blob": "16909e739b1cdecd5eb956658e1b0418fcd37482",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Billable agent capabilities include Expense Agent (preview), Payables Agent, Sales Order Agent, and AI development toolkit (preview) design and coding."
+    },
+    {
+      "kind": "fact",
+      "text": "Copilot Credits are the billing units for consumption-based AI interactions and tasks in agents, with cost varying by agent type and features used."
+    },
+    {
+      "kind": "fact",
+      "text": "Expense Agent charges 50 Copilot Credits per uploaded receipt regardless of resulting expense line count."
+    },
+    {
+      "kind": "fact",
+      "text": "Sales Order Agent typical process costs 14 Copilot Credits base (analyze email, check availability, create quote/order, generate response) plus optional charges for attachments."
+    },
+    {
+      "kind": "fact",
+      "text": "Payables Agent charges 50 Copilot Credits per invoice processing plus 5 per invoice line for extraction and intelligent matching."
+    },
+    {
+      "kind": "fact",
+      "text": "Two billing models available: prepaid capacity purchased through Microsoft 365 or Partner Center, or pay-as-you-go linked to Azure subscription."
+    },
+    {
+      "kind": "fact",
+      "text": "Prepaid capacity automatically consumed from default Power Platform environment; admins can allocate portions to specific environments through Power Platform admin center."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "For pay-as-you-go, link Business Central environment to Power Platform environment configured with Azure subscription."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010097,
+      "pages_in_call": 3
+    }
+  ]
+}

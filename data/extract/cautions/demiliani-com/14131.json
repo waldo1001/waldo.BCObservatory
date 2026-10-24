@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/demiliani-com/14131",
+  "page_id": "post/demiliani-com/14131",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "support for Rosetta 2 is planned to be mostly discontinued by late 2027",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "In a near future (1 year) Rosetta will be gone and your AL extension will not work on future macOS versions.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004417,
+    "posts_in_call": 4
+  }
+}

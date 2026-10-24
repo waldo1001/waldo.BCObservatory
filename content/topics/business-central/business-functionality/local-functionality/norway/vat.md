@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:10.804Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -173,11 +173,17 @@ Start with the VAT codes page if you are setting up VAT or using single-code jou
 
 - [Calculate proportional VAT [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-calculate-proportional-vat): Learn how to calculate VAT using proportional VAT for both deductible and non-deductible items in the Norwegian version of Business Central.
 - [Norwegian VAT Codes](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-codes): Learn how to set up VAT processing information in the Norwegian version of Business Central by using standard Norwegian VAT codes.
+  - In the observatory: [Table 325 "VAT Posting Setup"](../../../../../objects/table/325.md)
 - [Norwegian VAT reporting [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-reporting): Use Norwegian-specific features in Business Central to calculate and report VAT returns electronically to the Norwegian tax authorities.
+  - In the observatory: [Page 1140 "OAuth 2.0 Setup"](../../../../../objects/page/1140.md), [Page 1801 "Assisted Setup"](../../../../../objects/page/1801.md), [Report 20 "Calc. and Post VAT Settlement"](../../../../../objects/report/20.md)
 - [Print a VAT reconciliation report [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report): Learn to print the VAT Reconciliation report to view the reconciliation settlement for base and VAT amounts in general ledger accounts.
+  - In the observatory: [Report 10630 "VAT Reconciliation (NO)"](../../../../../objects/report/10630-no.md)
 - [Proportional VAT [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/proportional-vat): Norwegian features enable calculation of VAT when both deductible and non-deductible VATs apply.
+  - In the observatory: [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
 - [Setup and generate SAF-T files](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no): Use the SAF-T extension to set up and generate SAF-T files for the Norwegian authorities in Business Central.
+  - In the observatory: [Page 10670 "SAF-T Mapping Setup Card (NO)"](../../../../../objects/page/10670-no.md), [Page 10678 "SAF-T VAT Posting Setup (NO)"](../../../../../objects/page/10678-no.md), [Page 10686 "SAF-T Exports (NO)"](../../../../../objects/page/10686-no.md), [Page 10690 "SAF-T Setup (NO)"](../../../../../objects/page/10690-no.md)
 - [Use One VAT Code in Journals [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals): Learn how to use one VAT code in journals within the Norwegian version of Business Central to simplify VAT posting.
+  - In the observatory: [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
 
 ## Videos, posts and code changes
 

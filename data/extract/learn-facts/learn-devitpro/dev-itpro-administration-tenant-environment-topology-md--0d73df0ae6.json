@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-environment-topology.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology",
+  "title": "Understanding the infrastructure of Business Central online",
+  "blob": "1ce0172ef6c35917cec39fb76a3cbbf56eeb2b5b",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Business Central is available in a limited number of markets; check Country/regional availability and supported languages documentation."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Users must have a work or school account tied to a Microsoft Entra tenant to use Business Central online."
+    },
+    {
+      "kind": "fact",
+      "text": "Each Microsoft Entra tenant automatically receives some environments, each tied to a specific country and localization."
+    },
+    {
+      "kind": "fact",
+      "text": "Environments can contain multiple companies representing legal entities or business units with separate accounting requirements."
+    },
+    {
+      "kind": "fact",
+      "text": "All licensed users in a Microsoft Entra tenant can access all companies in each environment of that tenant."
+    },
+    {
+      "kind": "fact",
+      "text": "Users from one Microsoft Entra tenant cannot access environments belonging to another Microsoft Entra tenant."
+    },
+    {
+      "kind": "fact",
+      "text": "Admins can transfer environments between Microsoft Entra tenants if organizational structure changes over time."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007287,
+      "pages_in_call": 6
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-enable-application-insights.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights",
+  "title": "Turn sending telemetry to application insights on or off",
+  "blob": "2e81baa1728b3b750d1b355bcf9a61e4dcb928be",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available for Business Central online and on-premises"
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Microsoft Azure subscription and Application Insights resource are required to send telemetry"
+    },
+    {
+      "kind": "prerequisite",
+      "text": "For version 17 and earlier, copy the Instrumentation Key; for later versions, copy the Connection String from Azure portal"
+    },
+    {
+      "kind": "fact",
+      "text": "Connection string has maximum length of 2,048 characters"
+    },
+    {
+      "kind": "limit",
+      "text": "Instrumentation key support ends 31 March 2025; transition to connection strings required by that date"
+    },
+    {
+      "kind": "step",
+      "text": "For online environments, enable telemetry from admin center by selecting Environments, defining Application Insights Key, and saving to trigger environment restart"
+    },
+    {
+      "kind": "step",
+      "text": "For on-premises single-tenant, use Set-NAVServerConfiguration cmdlet to set Application Insights Connection String or Instrumentation Key"
+    },
+    {
+      "kind": "step",
+      "text": "For on-premises multitenant, use Mount-NAVTenant cmdlet with ApplicationInsightsConnectionString or ApplicationInsightsKey parameters when mounting tenants"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007431,
+      "pages_in_call": 3
+    }
+  ]
+}

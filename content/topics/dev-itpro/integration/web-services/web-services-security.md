@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.200Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,8 +81,7 @@ links:
   topics:
     - topic/dev-itpro/integration/web-services
   localizations: []
-  videos:
-    - video/2u5_F9Ztt7U
+  videos: []
   posts: []
   guidelines: []
   changes:
@@ -100,7 +99,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -138,8 +137,18 @@ Detailed pages follow for each option. The OAuth page covers OAuth 2.0 concepts,
 - [Using OAuth to authenticate Business Central Web Services](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/authenticate-web-services-using-oauth): Learn how to set up OAuth for Business Central web services, including OData and SOAP, and secure your integrations.
 - [Using Security Certificates with Business Central on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/implement-security-certificates-production-environment): Learn how to use security certificates to help secure connections with Business Central.
 - [Using Service to Service Authentication](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/automation-apis-using-s2s-authentication): Service-to-service authentication enables external services to connect as an application, without impersonating normal users.
+  - Status: S2S authentication generally available for Business Central automation APIs online version 17.0 and on-premises versions 18.11 and 19.5 and later.
+  - Status: S2S authentication generally available for Business Central APIs v1.0 and v2.0 online version 18.3 and on-premises versions 18.11 and 19.5 and later.
+  - Service-to-service authentication uses OAuth 2.0 Client Credentials flow for integrations running without user interaction; supports scheduled tasks on version 21.2 and later.
+  - Step: Register Microsoft Entra application with unique name, specify supported account types, optionally add redirect URI for OAuthLanding.htm file.
+  - Step: Create client secret for registered application by selecting Certificates and secrets, New client secret, adding description, selecting duration, selecting Add.
+  - Step: Grant API.ReadWrite.All and Automation.ReadWrite.All permissions to Dynamics 365 Business Central API via API permissions, Add a permission, Microsoft APIs.
+  - Step: Set up Microsoft Entra application in Business Central by searching Microsoft Entra applications, selecting New, entering Client ID, Description, setting State to Enabled, assigning permissions.
+  - Limit: Applications cannot be assigned SUPER permission set; use least-privilege principle and assign only required permissions for integration.
 - [Walkthrough: Creating a console application that use OAuth to Authenticate Business Central Web Services (OData and SOAP)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/walkthrough-authenticate-web-services-using-oauth): Learn how to use OAuth to authenticate Business Central web services (OData and SOAP) through a step-by-step guide
 - [Web service security](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-security): Get the list of recommendations for how to secure web services in your Business Central solution.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos, posts and code changes
 
@@ -149,6 +158,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11967 Block Edit in Excel for pages based on the User table](../../../../changes/bcapps/11967.md) (code change): "prevent authentication corruption when users are edited via Excel"
 - [#12133 Block file scheme in Web Request Helper](../../../../changes/bcapps/12133.md) (code change): "prevent unauthorized local file access through crafted URLs"
 - [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "preventing unintended transmission of Business Central service account credentials"
-- [What's New: Server and Database (2026 release wave 1)](../../../../videos/2u5_F9Ztt7U.md) (video): "Hardened URI Validation in HTTP Client; Intra Security Groups for On-Premises Auth"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-long-running-sql-query-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-long-running-sql-query-trace",
+  "title": "Analyzing Long Running Operation (SQL Query) Telemetry",
+  "blob": "feddb1b1220f3796f7112a7aa456cd5e8c743042",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "SQL queries taking over 750 milliseconds are automatically sent to Azure Application Insights for analysis."
+    },
+    {
+      "kind": "fact",
+      "text": "Additional logging can be enabled from the Help & Support page to capture all SQL queries for short periods."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "For Business Central online, additional logging requires version 17.4 or later."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "For Business Central on-premises, additional logging requires version 18.6 or later."
+    },
+    {
+      "kind": "fact",
+      "text": "AL Stack Trace in CustomDimensions shows which AL objects and code executed the slow SQL query."
+    },
+    {
+      "kind": "fact",
+      "text": "The event severity level for long running queries is always 2, indicating a warning."
+    },
+    {
+      "kind": "limit",
+      "text": "SQL statement values exceeding 8192 characters are truncated while preserving the most relevant information."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008771,
+      "pages_in_call": 4
+    }
+  ]
+}

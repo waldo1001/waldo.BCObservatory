@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:16.844Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,6 +94,7 @@ Both pages mark the feature as preview. The reconcile page mentions 2025 release
 
 - [FAQ for bank account reconciliation assist with Copilot (preview)](https://learn.microsoft.com/dynamics365/business-central/faqs-bank-reconciliation): This FAQ provides information about the AI technology used for reconciling bank accounts and statements in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 - [Reconcile bank accounts with Copilot (preview)](https://learn.microsoft.com/dynamics365/business-central/bank-reconciliation-with-copilot): Learn how to use Copilot to reconcile bank accounts in Business Central.
+  - In the observatory: [Page 1251 "Text-to-Account Mapping"](../../../objects/page/1251.md), [Page 379 "Bank Acc. Reconciliation"](../../../objects/page/379.md)
 
 ## Videos, posts and code changes
 

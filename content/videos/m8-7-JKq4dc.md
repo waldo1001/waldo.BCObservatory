@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:50:28.544Z"
   flags: []
 generated:
-  at: "2026-10-07T23:41:05.192Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -281,6 +281,16 @@ chapters:
     title: Item Tracking, Quantity Selection, and Workflow Configuration
   - t: 2570
     title: Quality Management Integration and Summary
+cautions:
+  - kind: preview-disclaimer
+    quote: We are in the progress of changing layout. So, when you will see this video, I would expect you to see a very different layout.
+    t: 575
+  - kind: preview-disclaimer
+    quote: Quality management will be preinstalled, but only for new environments in the 2026 wave one release.
+    t: 2143
+  - kind: preview-disclaimer
+    quote: sample quantity which is right now hiding is also available
+    t: 2386
 features:
   - name: Quality Management Extension
     status: unclear

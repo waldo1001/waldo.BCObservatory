@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:50:53.502Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:53.570Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -203,7 +203,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/576841
+    - feature/576864
   topics: []
   localizations: []
   videos: []
@@ -242,6 +244,27 @@ chapters:
     title: General Business Central Resources for Partners
   - t: 1190
     title: Community Engagement and Learning Channels
+cautions:
+  - kind: preview-disclaimer
+    quote: So here in 28.x so this is not for the April release hopefully in one of the m like miners 28.1 28.2
+    t: 224
+    versions:
+      - "28"
+  - kind: preview-disclaimer
+    quote: you will in 28.x X when this is surfacing
+    t: 385
+    versions:
+      - "28"
+  - kind: preview-disclaimer
+    quote: This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this.
+    t: 523
+    versions:
+      - "28"
+  - kind: preview-disclaimer
+    quote: similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs
+    t: 883
+    versions:
+      - "28"
 features:
   - name: Permission Overview page
     status: unclear
@@ -289,50 +312,68 @@ features:
     verified: true
     status_source: video
   - name: Permission Sets API
-    status: announced
+    status: ga
     t: 796
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576841"
   - name: Expanded Permission Sets API
-    status: announced
+    status: ga
     t: 832
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576841"
   - name: Security Groups API
-    status: announced
+    status: ga
     t: 832
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576841"
   - name: User Permission API
-    status: announced
+    status: ga
     t: 853
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576841"
   - name: Access Control API
-    status: announced
+    status: ga
     t: 853
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576841"
   - name: Workflows API
-    status: announced
+    status: ga
     t: 883
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576864"
   - name: Workflow Steps API
-    status: announced
+    status: ga
     t: 897
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576864"
   - name: Workflow Response Option API
-    status: announced
+    status: ga
     t: 915
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576864"
   - name: Approval Entries API
-    status: announced
+    status: ga
     t: 977
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576864"
   - name: Updated Security Guide
     status: unclear
     t: 988
@@ -426,16 +467,18 @@ It also shows analysis tabs on Change Log Entries and the Users list, new last l
 | Users list last login date and inactive days | announced, demoed | [8:54](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=534s) | "This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this." ([8:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=523s)) |
 | Users list fact box enhancements | announced, demoed | [9:33](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=573s) | "This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this." ([8:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=523s)) |
 | User Detail View improvements | announced, demoed | [10:17](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=617s) | "This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this." ([8:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=523s)) |
-| Permission Sets API | announced | [13:16](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=796s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
-| Expanded Permission Sets API | announced | [13:52](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=832s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
-| Security Groups API | announced | [13:52](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=832s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
-| User Permission API | announced | [14:13](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=853s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
-| Access Control API | announced | [14:13](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=853s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
-| Workflows API | announced | [14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
-| Workflow Steps API | announced | [14:57](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=897s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
-| Workflow Response Option API | announced | [15:15](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=915s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
-| Approval Entries API | announced | [16:17](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=977s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Permission Sets API | generally available (roadmap [Use new APIs for analyzing permissions for auditors and IT staff](../features/576841.md)) | [13:16](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=796s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Expanded Permission Sets API | generally available (roadmap [Use new APIs for analyzing permissions for auditors and IT staff](../features/576841.md)) | [13:52](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=832s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Security Groups API | generally available (roadmap [Use new APIs for analyzing permissions for auditors and IT staff](../features/576841.md)) | [13:52](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=832s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| User Permission API | generally available (roadmap [Use new APIs for analyzing permissions for auditors and IT staff](../features/576841.md)) | [14:13](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=853s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Access Control API | generally available (roadmap [Use new APIs for analyzing permissions for auditors and IT staff](../features/576841.md)) | [14:13](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=853s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Workflows API | generally available (roadmap [Use new APIs for analyzing approval workflows for auditors and IT staff](../features/576864.md)) | [14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Workflow Steps API | generally available (roadmap [Use new APIs for analyzing approval workflows for auditors and IT staff](../features/576864.md)) | [14:57](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=897s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Workflow Response Option API | generally available (roadmap [Use new APIs for analyzing approval workflows for auditors and IT staff](../features/576864.md)) | [15:15](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=915s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Approval Entries API | generally available (roadmap [Use new APIs for analyzing approval workflows for auditors and IT staff](../features/576864.md)) | [16:17](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=977s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
 | Updated Security Guide | status not stated | [16:28](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=988s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

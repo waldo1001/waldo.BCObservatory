@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/demiliani-com/13588",
+  "page_id": "post/demiliani-com/13588",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "Starting with Business Central v28, outgoing HTTP calls made through the AL HttpClient are subject to hardened URI validation.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "AL HttpClient"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28",
+        "26",
+        "27"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "The system will now actively block HTTP requests to non-routable (internal) network addresses by default.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "AL HttpClient"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28",
+        "26",
+        "27"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "For organizations using Business Central online, there is no way to bypass this security restriction.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00466,
+    "posts_in_call": 4
+  }
+}

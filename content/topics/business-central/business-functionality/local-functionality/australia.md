@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:17.439Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -284,7 +284,7 @@ narrative: generated
 
 > Australia local functionality in Business Central: tax (WHT, GST), banking and payments (EFT, reconciliation), core finance (BAS, financial reports), general features (ABN, DPID/AMAS, Payment Times Reporting) and e-invoicing in Peppol PINT A-NZ format. It answers setup and usage questions for Australian regulatory needs.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Australia · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Australia · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -292,7 +292,7 @@ This section covers features specific to Australian deployments of Business Cent
 
 The subtopics split by area. Tax covers withholding tax setup and settlement, GST posting, GST on prepayments, settlement reports and VAT settlement exchange rate adjustment. Banking and payments covers EFT for vendor payments, check installments, bank cash flow comparison, and bank reconciliation and deposit slip reports. Core finance covers distribution amounts, balance sheet and income statement reports, and business unit setup for BAS. General covers DPID and AMAS addressing, ABN and adjustment notes, cost plus percentage pricing, and Payment Times Reporting.
 
-The e-invoicing page explains how to use the E-Documents framework with the Peppol PINT A-NZ format, including service integration and e-invoice setup for sales and purchasing. Start with the overview page, then go to the subtopic that matches your requirement, usually Tax or General for first-time setup.
+The e-invoicing page explains how to use the E-Documents framework with the Peppol PINT A-NZ format, including service integration and e-invoice setup for sales and purchasing. Start with the overview page, then go to the subtopic that matches your requirement.
 
 ## Key points
 
@@ -314,6 +314,7 @@ The e-invoicing page explains how to use the E-Documents framework with the Pepp
 
 - [Australia local functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/australia-local-functionality): The following articles describe the local functionality in the Australian version of Business Central.
 - [Electronic invoicing in Australia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-au-einvoice): This article explains how to work with the Australian localization of the E-Document framework.
+  - In the observatory: [Page 6103 "E-Document Services"](../../../../objects/page/6103.md)
 
 ## Business Central pages and reports
 

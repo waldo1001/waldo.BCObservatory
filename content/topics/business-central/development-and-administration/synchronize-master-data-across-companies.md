@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:57:03.756Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,7 +79,7 @@ narrative: generated
 
 > Master data synchronization across companies in Business Central: setting up Master Data Management to pull customers, vendors, and items from a source company into subsidiaries, and managing and troubleshooting the synchronization afterward. It answers setup, coupling, filtering, and job queue questions.
 
-Path: [Development and administration](../development-and-administration.md) > Synchronize master data across companies · tier official · system administration · narrative **unreviewed** (model text not yet checked)
+Path: [Development and administration](../development-and-administration.md) > Synchronize master data across companies · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -93,7 +93,7 @@ Start with the setup page to configure the source and subsidiary companies, then
 
 - Synchronization is uni-directional, from a source company to subsidiary companies, using a pull model.
 - It applies to nontransactional master data such as customers, vendors, and items.
-- Match-based coupling works with a priority order, and new records can be created when no match is found.
+- Match-based coupling uses a priority order, and the setup supports creating new records as part of matching.
 - Tables can be filtered by criteria to limit which records synchronize.
 - Job queue entries are scheduled automatically and run the synchronization.
 - Synchronization setup can be imported and exported.

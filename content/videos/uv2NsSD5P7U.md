@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:03:53.816Z"
   flags: []
 generated:
-  at: "2026-10-07T23:03:53.861Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -138,6 +138,23 @@ chapters:
     title: General availability and API changes
   - t: 520
     title: Best practices and recommendations
+cautions:
+  - kind: preview-disclaimer
+    quote: the public review is starting in October 2024 when we ship version 25 and it only applies to Microsoft localized environments
+    t: 371
+    versions:
+      - "25"
+  - kind: preview-disclaimer
+    quote: what is not possible during the public preview is to change the target version so after you update to 25.0 let's say you want to get to 25.3 but you don't necessarily want to update to 25.1 or 25.2 you still have to go through those…
+    t: 409
+    versions:
+      - "25"
+  - kind: preview-disclaimer
+    quote: General availability is going to follow towards the end of this release wave
+    t: 451
+  - kind: preview-disclaimer
+    quote: those changes are coming in March um and also from that date on it'll be possible to create versions or create environments on any supported version
+    t: 480
 features:
   - name: 5-month update period for major releases
     status: unclear

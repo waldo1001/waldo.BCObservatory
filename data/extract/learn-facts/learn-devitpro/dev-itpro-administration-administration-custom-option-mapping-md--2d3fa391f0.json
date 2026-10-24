@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-custom-option-mapping.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping",
+  "title": "Customizing option mappings with Microsoft Dataverse",
+  "blob": "251a02d347692511f49319e046e0fa0ce2a193b3",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Dataverse integration must be enabled with default synchronization setup and working connection."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Feature switch Map to option sets in Dataverse without code must be enabled."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "CRONUS International Ltd. demonstration data and sandbox environment required."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Visual Studio Code with AL Language extension for development."
+    },
+    {
+      "kind": "step",
+      "text": "Create temporary integration table in Business Central based on Dataverse option set schema."
+    },
+    {
+      "kind": "step",
+      "text": "Create list page using temporary table as data source and call Load procedure."
+    },
+    {
+      "kind": "step",
+      "text": "Subscribe to integration events in codeunits to enable coupling, synchronization, and field mapping."
+    },
+    {
+      "kind": "step",
+      "text": "Create integration table and field mappings to sync Dataverse options with Business Central records."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012631,
+      "pages_in_call": 4
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/duiliotacconi-com/1457",
+  "page_id": "post/duiliotacconi-com/1457",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "When you upgrade and enable the new inventory posting engine, you must test the concurrency A LOT.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "26"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "When you choose to calculate only visible FlowFields, you must be sure that there are no visible columns or variables depending on invisible FlowFields.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "26"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004932,
+    "posts_in_call": 4
+  }
+}

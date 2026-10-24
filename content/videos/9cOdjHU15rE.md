@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:55:51.543Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:51.587Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -120,6 +120,10 @@ chapters:
     title: AI Industry Maturity and Future UX Evolution
   - t: 779
     title: Career Preparation and Call to Action
+cautions:
+  - kind: preview-disclaimer
+    quote: the UX will be adjusted based on the interaction that you're having. So, uploading an item will be a different experience than showing someone an item. One might start a gallery, one might start at upload.
+    t: 741
 features:
   - name: BC Copilot for item description generation
     status: unclear

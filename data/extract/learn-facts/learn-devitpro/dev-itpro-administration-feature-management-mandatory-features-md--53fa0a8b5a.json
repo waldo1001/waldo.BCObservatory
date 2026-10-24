@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/feature-management-mandatory-features.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management-mandatory-features",
+  "title": "Optional Features Now Mandatory",
+  "blob": "6eb7ebb8192dc24c158dbaa1806c7944f3eaf640",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available from 2026 release wave 2, version 29"
+    },
+    {
+      "kind": "fact",
+      "text": "Optional features become mandatory after a period shown in the Feature Management page's 'Automatically enabled from' field"
+    },
+    {
+      "kind": "fact",
+      "text": "Mandatory features are removed from Feature Management and cannot be disabled once they become mandatory"
+    },
+    {
+      "kind": "limit",
+      "text": "Advanced Tell Me moved from mandatory in version 29 to version 30; semantic similarity search moved from version 29 to version 30"
+    },
+    {
+      "kind": "fact",
+      "text": "New features can be added disabled by default or enabled by default depending on the release"
+    },
+    {
+      "kind": "limit",
+      "text": "Multiple posting features moved from mandatory in version 29 to mandatory in version 30 or 31"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008532,
+      "pages_in_call": 5
+    }
+  ]
+}

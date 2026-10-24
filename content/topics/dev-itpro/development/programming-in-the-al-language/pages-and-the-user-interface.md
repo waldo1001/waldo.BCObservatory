@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:53:34.693Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -318,7 +318,6 @@ links:
   localizations: []
   videos:
     - video/2Zz55J8rt8I
-    - video/ugHFHtSxTlw
   posts:
     - post/demiliani-com/12498
     - post/demiliani-com/12623
@@ -349,7 +348,7 @@ children:
 coverage:
   learn: 69
   code: 0
-  video: 2
+  video: 1
   blog: 4
   guideline: 0
 bc_forms: []
@@ -361,7 +360,7 @@ narrative: generated
 
 > Pages and the user interface covers how to design and build the Business Central UI in AL: pages, role centers, actions, views, profiles, deep links, and mobile app development. It answers questions on layout, role-based customization, page inspection, and control add-in styling.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Pages and the user interface · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Pages and the user interface · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -379,8 +378,8 @@ Start with "Designing the User Interface" for an overview of page types, role ce
 - Views define alternative filtering, sorting and layout for list pages, and legacy Role Center views can be migrated to modern list views.
 - Profiles define user roles through profile objects, profile extensions, and page customization objects.
 - Deep links are URLs that open pages, reports or tables using parameters such as company, page, mode, profile, filter and bookmark, plus the ms-businesscentral URI scheme for the mobile app.
-- Page Inspection in the web client shows page structure, source table fields, extensions and filters without reading code (2023 release wave 2).
-- The Control Add-in Style Guide gives CSS colors, typography, chart colors and design principles for add-ins that blend into the client.
+- Mobile app development covers strategy choices, screen size design, page limitations, role centers, barcode scanning, and browser-based testing for tablet and phone.
+- Page Inspection in the web client shows page structure, source table fields, extensions and filters without reading code, and the Control Add-in Style Guide gives CSS colors, typography, chart colors and design principles for add-ins that blend into the client.
 
 ## Subtopics
 
@@ -414,6 +413,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [🕐 Remember When Lists Could Sort By Any Key? 🔄](../../../../posts/gerardorenteria-blog/12961.md) (community post): "a solution to sort Business Central list pages by any predefined table key"
 - [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee.md) (community post): "ToolTip and ToolTipML properties directly on page objects"
 - [Use Teaching Tips to Educate and Guide Users](../../../../videos/2Zz55J8rt8I.md) (video): "Teaching Tips; Tours with Teaching Tips"
-- [Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code](../../../../videos/ugHFHtSxTlw.md) (video): "Designing Business Central's UI, From Concept To Code"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

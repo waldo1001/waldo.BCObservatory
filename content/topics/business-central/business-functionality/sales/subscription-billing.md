@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:17.722Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -349,8 +349,11 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/10384
+    - change/bcapps/10444
     - change/bcapps/10445
     - change/bcapps/10446
+    - change/bcapps/10477
     - change/bcapps/12857
     - change/bcapps/12967
 learn_toc_path:
@@ -437,8 +440,10 @@ Start with the welcome page, then Contracts, then Recurring billing. Move to Bil
 ## More Learn pages
 
 - [Billing automation](https://learn.microsoft.com/dynamics365/business-central/SRB/billing-automation): Automate recurring billing up to a configured degree.
+  - In the observatory: [Page 119 "User Setup"](../../../../objects/page/119.md)
 - [Examples for subscription billing](https://learn.microsoft.com/dynamics365/business-central/SRB/examples): The examples in this article describe some typical use cases that subscription billing features support.
 - [Posting documents](https://learn.microsoft.com/dynamics365/business-central/SRB/posting-documents): Learn about posted documents in subscription billing.
+  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../../objects/page/143.md), [Page 144 "Posted Sales Credit Memos"](../../../../objects/page/144.md), [Page 146 "Posted Purchase Invoices"](../../../../objects/page/146.md), [Page 147 "Posted Purchase Credit Memos"](../../../../objects/page/147.md), [Page 9302 "Sales Credit Memos"](../../../../objects/page/9302.md), [Page 9308 "Purchase Invoices"](../../../../objects/page/9308.md)
 - [Purchasing in subscription billing](https://learn.microsoft.com/dynamics365/business-central/SRB/purchases): Learn about purchasing in subscription billing.
 - [Recurring billing](https://learn.microsoft.com/dynamics365/business-central/SRB/recurring-billing): You can use recurring billing in subscription billing.
 - [Welcome to subscription billing](https://learn.microsoft.com/dynamics365/business-central/SRB/welcome): Get an overview of the features available for subscription billing.
@@ -447,8 +452,11 @@ Start with the welcome page, then Contracts, then Recurring billing. Move to Bil
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10384 [Extensibility][SubscriptionBilling] Make procedures necessary for custom Usage Data Connector externally accessible](../../../../changes/bcapps/10384.md) (code change): "Subscription Billing procedures for creating custom Usage Data Connectors are now externally accessible"
+- [#10444 [Bug][Subscription Billing] "Cancellation Possible Until" is rounded to the end of the month when the Notice Period is expressed in days](../../../../changes/bcapps/10444.md) (code change): "subscription line cancellation dates were incorrectly rounded to month-end when notice periods were expressed in days"
 - [#10445 [Bug][Subscription Billing] Contract Renewal Quote total ignores the Billing Base Period and shows the base-period amount instead of the renewal-term amount](../../../../changes/bcapps/10445.md) (code change): "Contract Renewal Quote total ignores the Billing Base Period"
 - [#10446 [Bug][Subscription Billing] "Subscription Lines - Overdue" cue counts lines of contracts that already ended](../../../../changes/bcapps/10446.md) (code change): "Fixed the Overdue Subscription Lines cue and page to exclude subscription lines"
+- [#10477 [Bug Fix] #249: Raise populated ErrorInfo for Subscription Billing failures](../../../../changes/bcapps/10477.md) (code change): "Subscription Billing error handlers now raise the fully populated ErrorInfo object instead of plain-text errors"
 - [#12857 [master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../changes/bcapps/12857.md) (code change): "Billing totals now filter by both Subscription Contract No. and Partner type"
 - [#12967 [29.x]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../changes/bcapps/12967.md) (code change): "Billing total calculations now filter by both subscription contract number and partner"
 - [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../../../../videos/5xeATIUFiGg.md) (video): "subscription billing; recurring invoicing; contract management; revenue deferrals"

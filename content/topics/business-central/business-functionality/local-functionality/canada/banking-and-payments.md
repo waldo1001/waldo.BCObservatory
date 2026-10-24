@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:49.059Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -85,7 +85,7 @@ narrative: generated
 
 > Banking and payments for the Canadian version of Business Central: how to create deposits, and how to pay vendors by exporting payment data in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension. Answers questions about deposit setup and electronic vendor payment export.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Banking & payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -109,6 +109,7 @@ Start with the deposits page if you manage Canadian bank deposits. Start with th
 
 - [How to create deposits [CA]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-create-deposits): Make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the Canadian version.
 - [Make payments with AMC banking (US) or SEPA credit transfer (EU)](https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer): Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
 
 ## Business Central pages and reports
 

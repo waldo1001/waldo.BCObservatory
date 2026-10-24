@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-database-deadlocks.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-database-deadlocks",
+  "title": "Monitoring SQL Database Deadlocks",
+  "blob": "3ad5e036475ebd4e92e4e27c9e087cc535e08a84",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Deadlock logging records deadlock events in Windows Event Log with AL code information and SQL Server deadlock report details."
+    },
+    {
+      "kind": "fact",
+      "text": "Deadlock occurs when two or more transactions block each other from continuing by holding locked database resources."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Service account login requires View database state permission at database level and Alter any event session and View server state at instance level."
+    },
+    {
+      "kind": "fact",
+      "text": "By default SQL Server uses ring_buffer target storing up to 5MB; event_file target provides greater storage for high volume situations."
+    },
+    {
+      "kind": "step",
+      "text": "Enable deadlock logging on Server instance using Administration Tool or Set-NAVServerConfiguration cmdlet with EnableDeadlockMonitoring parameter."
+    },
+    {
+      "kind": "fact",
+      "text": "Deadlock events are recorded as warnings with event ID 705 and task category 33 in Server Admin channel log."
+    },
+    {
+      "kind": "fact",
+      "text": "AL ObjectType, ObjectNumber, and ScopeName attributes may be empty if deadlock occurred on different Server instance."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

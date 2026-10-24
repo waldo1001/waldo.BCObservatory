@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/create-data-collector-performance-counters.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/create-data-collector-performance-counters",
+  "title": "Create Data Collector for Performance Counters",
+  "blob": "f86aa2439f7176780126c9c176bc175a8b59e1df",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "step",
+      "text": "Start Performance Monitor on server computer and create new user-defined Data Collector Set"
+    },
+    {
+      "kind": "step",
+      "text": "Select performance counter type and add Business Central counters from available list"
+    },
+    {
+      "kind": "step",
+      "text": "Choose all instances or specific server instances for which to collect data"
+    },
+    {
+      "kind": "step",
+      "text": "Set root directory location for storing collected performance data log file"
+    },
+    {
+      "kind": "fact",
+      "text": "Data Collector Set appears under Data Collector Sets > User Defined after creation"
+    },
+    {
+      "kind": "step",
+      "text": "Start or stop data collection by right-clicking Data Collector Set in navigation pane"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005294,
+      "pages_in_call": 10
+    }
+  ]
+}

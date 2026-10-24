@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:35.324Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -162,13 +162,21 @@ Supporting pages cover cross-docking, which moves items through cross-dock bins 
 ## Learn pages
 
 - [Cross-Dock Items](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-cross-dock-items): Learn how to receive and ship items without putting them in storage.
+  - In the observatory: [Page 5700 "Stockkeeping Unit Card"](../../../../objects/page/5700.md), [Page 5783 "Cross-Dock Opportunities"](../../../../objects/page/5783.md)
 - [Design Details - Inbound Warehouse Flow](https://learn.microsoft.com/dynamics365/business-central/design-details-inbound-warehouse-flow): Learn how to receive items at your warehouse, and register and match them to inbound source documents.
+  - In the observatory: [Page 5703 "Location Card"](../../../../objects/page/5703.md), [Page 5768 "Warehouse Receipt"](../../../../objects/page/5768.md), [Page 5770 "Warehouse Put-away"](../../../../objects/page/5770.md), [Page 7352 "Put-away Worksheet"](../../../../objects/page/7352.md), [Page 7375 "Inventory Put-away"](../../../../objects/page/7375.md)
 - [Find Your Warehouse Assignments](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-find-your-warehouse-assignments): This topic explains how to find the warehouse assignments assigned to you on the Item Card page when instructions have been created for you.
+  - In the observatory: [Page 7315 "Warehouse Movement"](../../../../objects/page/7315.md), [Page 9312 "Warehouse Put-aways"](../../../../objects/page/9312.md), [Page 9313 "Warehouse Picks"](../../../../objects/page/9313.md)
 - [How to Put Items Away with Inventory Put-aways](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways): Learn how to use inventory put-away documents to record and post put-away and receipt information.
+  - In the observatory: [Page 7375 "Inventory Put-away"](../../../../objects/page/7375.md)
 - [How to put items away with warehouse put-aways](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-put-items-away-with-warehouse-put-aways): Learn about the different ways to use warehouse put-aways to put away received items.
+  - In the observatory: [Page 7352 "Put-away Worksheet"](../../../../objects/page/7352.md), [Page 9312 "Warehouse Put-aways"](../../../../objects/page/9312.md)
 - [Receive items](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-receive-items): This article is an overview of the different ways to receive items at a warehouse with a warehouse receipt.
+  - In the observatory: [Page 5703 "Location Card"](../../../../objects/page/5703.md)
 - [Receiving and Putting Away in Advanced Warehousing](https://learn.microsoft.com/dynamics365/business-central/walkthrough-receiving-and-putting-away-in-advanced-warehousing): The inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
+  - In the observatory: [Page 36957 "Locations"](../../../../objects/page/36957.md), [Page 56 "Purchase Orders"](../../../../objects/page/56.md), [Page 5770 "Warehouse Put-away"](../../../../objects/page/5770.md), [Page 5784 "Filters to Get Source Docs."](../../../../objects/page/5784.md), [Page 7332 "Warehouse Receipts"](../../../../objects/page/7332.md)
 - [Walkthrough - Receive and put away in basic warehouse configurations](https://learn.microsoft.com/dynamics365/business-central/walkthrough-receiving-and-putting-away-in-basic-warehousing): Learn about the different ways to handle inbound processes for receiving and putting away.
+  - In the observatory: [Page 36957 "Locations"](../../../../objects/page/36957.md), [Page 56 "Purchase Orders"](../../../../objects/page/56.md), [Page 7302 "Bins"](../../../../objects/page/7302.md), [Page 7304 "Bin Content"](../../../../objects/page/7304.md), [Page 9315 "Inventory Put-aways"](../../../../objects/page/9315.md)
 
 ## Videos, posts and code changes
 

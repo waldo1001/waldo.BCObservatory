@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/set-up-performance-counters-performance-monitor.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/set-up-performance-counters-performance-monitor",
+  "title": "Set up performance counters in Windows Performance Monitor",
+  "blob": "814e4d8cc8155ae1d5666187420ed54e24c444ae",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "step",
+      "text": "Start Windows Performance Monitor and expand Monitoring Tools to choose Performance Monitor."
+    },
+    {
+      "kind": "step",
+      "text": "In toolbar choose Add button to open Add Counters window."
+    },
+    {
+      "kind": "step",
+      "text": "Select computer running Business Central Server from drop-down list."
+    },
+    {
+      "kind": "step",
+      "text": "Expand Business Central in Available counters and select one or more counters."
+    },
+    {
+      "kind": "step",
+      "text": "Select one or more Server instances from Instances list."
+    },
+    {
+      "kind": "step",
+      "text": "Choose Add then OK to display counter data in Performance Monitor."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

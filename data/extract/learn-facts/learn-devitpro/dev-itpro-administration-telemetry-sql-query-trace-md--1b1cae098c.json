@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-sql-query-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-sql-query-trace",
+  "title": "Analyze SQL query trace telemetry",
+  "blob": "65e4513ea38b44f6ca7e9f71a21370a1c25f2fb8",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available from Business Central 2024 release wave 2 and later."
+    },
+    {
+      "kind": "fact",
+      "text": "SQL query trace provides verbose logging of all SQL queries when verbose logging enabled."
+    },
+    {
+      "kind": "limit",
+      "text": "RT0009 differs from long-running SQL query telemetry; captures all queries versus only those exceeding threshold."
+    },
+    {
+      "kind": "fact",
+      "text": "Verbose logging enabled from Help & Support page or Business Central admin center."
+    },
+    {
+      "kind": "fact",
+      "text": "Event RT0009: SQL statement executed with custom dimensions capturing object info and execution time."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005651,
+      "pages_in_call": 10
+    }
+  ]
+}

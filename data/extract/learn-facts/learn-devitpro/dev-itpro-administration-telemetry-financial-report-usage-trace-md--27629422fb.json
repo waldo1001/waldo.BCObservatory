@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-financial-report-usage-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace",
+  "title": "Analyzing financial report usage trace telemetry",
+  "blob": "5831639d0a8046101e4bfe4e5dd19f079c756fdf",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Financial report usage telemetry tracks when users run reports on-screen and from the request page, capturing who ran the report and which definitions were used."
+    },
+    {
+      "kind": "fact",
+      "text": "On-screen report execution has event ID AL0000OKU while request page execution has event ID AL0000O76."
+    },
+    {
+      "kind": "fact",
+      "text": "All usage events include report, row and column definition codes plus user ID, tenant ID, environment name, environment type and company name."
+    },
+    {
+      "kind": "fact",
+      "text": "Usage telemetry enables analysis of which report definitions, row definitions and column definitions are being used in the system."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00945,
+      "pages_in_call": 6
+    }
+  ]
+}

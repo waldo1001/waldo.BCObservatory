@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:45:50.070Z"
   flags: []
 generated:
-  at: "2026-10-07T22:45:50.102Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -89,6 +89,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/zt9_HEmPKNg
+      title: Manufacturing Foundations Capacities (2026)
+      label: possibly related
+      why: both name Table 5405 "Production Order"
+      by: code
+    - to: video/sqjb_gsXqM8
+      title: "What's New: Supply Chain Management - overview (2026 release wave 1)"
+      label: possibly related
+      why: both name Table 5405 "Production Order"
+      by: code
 video_id: GEuUFcgFZF0
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -272,3 +283,10 @@ Not found in BC28-30: table "Item Card".
 - [2:51](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=171s) "For more complex modifications, you can define new versions and their starting date, so that production will pick the correct production BOM."
 - [3:45](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=225s) "Once those fields are defined, we can refresh the production order to automatically populate the order lines with components and routings."
 - [4:30](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=270s) "An accurate bill of material definition improves cost visibility and gives you better control over costs and product changes as your business evolves."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Manufacturing Foundations Capacities (2026)](../videos/zt9_HEmPKNg.md) — possibly related: both name Table 5405 "Production Order"
+- [What's New: Supply Chain Management - overview (2026 release wave 1)](../videos/sqjb_gsXqM8.md) — possibly related: both name Table 5405 "Production Order"

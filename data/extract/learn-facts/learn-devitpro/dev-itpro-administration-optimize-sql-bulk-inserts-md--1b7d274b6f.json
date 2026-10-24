@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/optimize-sql-bulk-inserts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-bulk-inserts",
+  "title": "Bulk Inserts",
+  "blob": "0366163433f5ca8f7cc97944d85a40261f60e395",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Business Central automatically buffers inserts to send them to SQL Server at one time, reducing server calls and improving performance."
+    },
+    {
+      "kind": "fact",
+      "text": "Bulk inserts improve scalability by delaying actual insert until last moment, reducing table lock time especially for SIFT indexes."
+    },
+    {
+      "kind": "fact",
+      "text": "Records are sent to SQL Server when COMMIT is called, MODIFY or DELETE is called, or FIND or CALC methods are called."
+    },
+    {
+      "kind": "limit",
+      "text": "Bulk inserts are not used if code uses return value from INSERT call or if table contains BLOB fields or AutoIncrement properties."
+    },
+    {
+      "kind": "step",
+      "text": "Disable bulk inserts by setting BufferedInsertEnabled parameter to FALSE in CustomSettings.config file for troubleshooting."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

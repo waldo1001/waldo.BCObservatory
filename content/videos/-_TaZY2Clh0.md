@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:50.387Z"
   flags: []
 generated:
-  at: "2026-10-07T23:17:50.473Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -142,6 +142,17 @@ chapters:
     title: Caching, scale-out scenarios, and session identification
   - t: 5461
     title: Avoiding excessive commits and optimistic locking approaches
+cautions:
+  - kind: preview-disclaimer
+    quote: in BC28 that they changed it on one place uh by not using that anymore if not insert
+    t: 5251
+    versions:
+      - "28"
+  - kind: preview-disclaimer
+    quote: from version 25 or 26 it will be recommitted in older previous versions will be uh for update update lock. ...
+    t: 5727
+    versions:
+      - "25"
 features:
   - name: Lock timeout settings
     status: unclear

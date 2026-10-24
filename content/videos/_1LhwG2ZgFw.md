@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:04:36.876Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -111,6 +111,10 @@ chapters:
     title: CSV Parsing, Suggestions and Caching
   - t: 766
     title: Conclusion and Feedback
+cautions:
+  - kind: preview-disclaimer
+    quote: in the future we hope we'll have support for other file types as but for now it's only CSV
+    t: 472
 features:
   - name: Improved keyword extraction for product search
     status: unclear

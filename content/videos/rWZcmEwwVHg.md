@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:03:42.945Z"
   flags: []
 generated:
-  at: "2026-10-07T23:03:42.984Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,6 +116,18 @@ chapters:
     title: Column Resizing and Page Layout Controls
   - t: 371
     title: Drag-and-Drop File Attachments
+cautions:
+  - kind: preview-disclaimer
+    quote: this feature is coming in waves uh it will be delivered starting from October and it will show up for multiple tables in business Central starting from the main data like items and customers and sales orders and then uh being available…
+    t: 234
+  - kind: preview-disclaimer
+    quote: this feature is coming in 25.1 so you will expect that uh release a little bit uh later than than just uh at the beginning of October
+    t: 350
+    versions:
+      - "25"
+  - kind: preview-disclaimer
+    quote: the Legacy document attachments part of the factbox is now getting obsoleted so it's perfectly fine to go to a personalization settings and once your users get used to the the new document attachments you can hide uh the old one
+    t: 592
 features:
   - name: Access Keys for Additional Languages
     status: unclear

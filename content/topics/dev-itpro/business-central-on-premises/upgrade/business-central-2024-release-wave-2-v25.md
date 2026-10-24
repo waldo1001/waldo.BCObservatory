@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:46.099Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,8 +88,7 @@ links:
     - topic/dev-itpro/business-central-on-premises/upgrade/business-central-2024-release-wave-2-v25/upgrade-application-and-data
   localizations: []
   videos: []
-  posts:
-    - post/gerardorenteria-blog/10921
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -103,7 +102,7 @@ coverage:
   learn: 8
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: d0afa03f42cfe1c8a88b9d1c99b55f1825ab3abee5c7029d5d0ae8e1c268f1d9
@@ -143,13 +142,8 @@ The subtopic "Upgrade application and data" holds the step-by-step paths for unm
 - [General Information and Considerations When Upgrading to Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-considerations-v23): This article provides tips and considerations to prepare a solution when you're planning to upgrade to Business Central 2023 release wave 2 and later.
 - [Install a version 25 update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v25): This article describes the tasks required for getting the monthly version 25 update applied to your Dynamics 365 Business Central on-premises.
 - [Upgrade reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-reports-v24-later): Describes how to upgrade reports in Business Central.
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../objects/codeunit/44.md), [Codeunit 9651 "Document Report Mgt."](../../../../objects/codeunit/9651.md), [Page 9652 "Report Layout Selection"](../../../../objects/page/9652.md)
 - [Upgrading Permission Sets and Permissions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-permissions): Describes how to upgrade permissions and permission sets
 - [Upgrading to Dynamics 365 Business Central 2024 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v25): Provides an overview of Business Central 2024 Release Wave 2 upgrade process.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [(2025 MAY) Cumulative Updates for Business Central](../../../../posts/gerardorenteria-blog/10921.md) (community post): "Cumulative updates for Business Central replace previously released updates across multiple versions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

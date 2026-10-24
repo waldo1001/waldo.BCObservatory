@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-optimize-replication.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication",
+  "title": "Optimizing cloud migration performance",
+  "blob": "87159fe082ddcc444e51b13eda238ea1eb5e6cae",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Deploy source database to Azure SQL Database instead of on-premises SQL Server for faster data replication and easier self-hosted integration runtime setup."
+    },
+    {
+      "kind": "step",
+      "text": "Monitor CPU and memory utilization in Azure portal using Metrics for SQL Database; upscale if high consumption occurs."
+    },
+    {
+      "kind": "fact",
+      "text": "Cloud migration is optimized for batches of up to 250 companies; reduce companies in batch if database has hundreds."
+    },
+    {
+      "kind": "step",
+      "text": "Update statistics and reorganize indexes on source database tables using sp_updatestats and index rebuild procedures."
+    },
+    {
+      "kind": "step",
+      "text": "Skip API data upgrade on company basis during migration, then run it after going live if extended upgrade time occurs."
+    },
+    {
+      "kind": "limit",
+      "text": "Large data sets in companies should be broken into separate migration runs; each large company may need individual handling."
+    },
+    {
+      "kind": "fact",
+      "text": "Use Cloud Migration APIs for moving many companies; find samples in BC Tech GitHub repository for automation."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007625,
+      "pages_in_call": 7
+    }
+  ]
+}

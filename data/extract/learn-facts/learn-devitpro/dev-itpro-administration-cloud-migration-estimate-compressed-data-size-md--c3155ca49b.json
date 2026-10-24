@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-estimate-compressed-data-size.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-estimate-compressed-data-size",
+  "title": "Estimating the data size in your Business Central online tenant",
+  "blob": "036881b4a9670d3d8521e660afee1ec22c80f753",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Online data is compressed using SQL Server page compression; on-premises size does not match migrated size."
+    },
+    {
+      "kind": "fact",
+      "text": "All online tables use CompressionType set to Page."
+    },
+    {
+      "kind": "fact",
+      "text": "Stored procedure estimate_page_compressed_table_sizes calculates compressed size of all or selected tables."
+    },
+    {
+      "kind": "fact",
+      "text": "Stored procedure fails if table columns contain ampersand character; query identifies such tables to exclude."
+    },
+    {
+      "kind": "step",
+      "text": "Create and run provided stored procedure with optional filters for specific tables or exclusions."
+    },
+    {
+      "kind": "step",
+      "text": "Execute procedure against tenant database to get compression savings estimates."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007119,
+      "pages_in_call": 7
+    }
+  ]
+}

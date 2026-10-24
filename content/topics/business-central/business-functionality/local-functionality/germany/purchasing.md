@@ -7,12 +7,12 @@ tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:32.620Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,7 +127,7 @@ narrative: generated
 
 > Purchasing for the German version of Business Central covers delivery reminders, which notify vendors about overdue deliveries. It answers questions about setting up reminder terms, levels, text and vendor codes, and about generating, creating, reviewing and issuing reminders.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Purchasing · tier official · system purchasing · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Purchasing · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -135,15 +135,15 @@ This section holds the German local functionality for purchasing, and all its pa
 
 Start with Set Up Delivery Reminders [DE]. It covers the terms, levels, text and vendor codes. Two pages go deeper on this: Set Up Delivery Reminder Terms, Levels, and Text [DE], and Assign delivery reminder codes to vendors [DE].
 
-After setup, you can generate reminders with How to Generate Delivery Reminders [DE], or create them by hand with How to Create Delivery Reminders Manually [DE]. Before issuing, you can print a test report to review and change reminders. The last step is described in Issue delivery reminders in the German version.
+After setup, you can generate reminders with How to Generate Delivery Reminders [DE], or create them by hand with How to Create Delivery Reminders Manually [DE]. Before issuing, you can review and change reminders by printing a test report, as described in Print test reports for delivery reminders [DE]. The last step is described in Issue delivery reminders in the German version.
 
 ## Key points
 
 - Delivery reminders remind vendors of late or overdue deliveries in the German version of Business Central.
 - Setup covers delivery reminder terms, levels, text and codes.
 - Delivery reminder codes must be assigned to vendors to enable the functionality for their purchases.
-- Reminders can be generated in bulk or created manually outside the automated process.
-- A test report can be printed to preview and review reminders before they are issued.
+- Reminders can be generated through the automated process or created manually outside it.
+- A test report can be printed to preview, review and modify reminders before they are issued.
 - Issuing delivery reminders is the final step and notifies the vendor.
 - The Delivery Reminders [DE] overview page is the best entry point for the full process.
 

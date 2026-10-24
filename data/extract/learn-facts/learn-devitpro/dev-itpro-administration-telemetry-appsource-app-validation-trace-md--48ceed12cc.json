@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-appsource-app-validation-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-app-validation-trace",
+  "title": "Analyzing Marketplace app breaking changes validation telemetry",
+  "blob": "5b3976815c483a5fab8191a5feb4f5c529d7e852",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Failed app validations emit telemetry traces to partner's Application Insights resource with failure reasons."
+    },
+    {
+      "kind": "fact",
+      "text": "Partners can monitor Marketplace apps and set up alerts for apps needing attention before next major version."
+    },
+    {
+      "kind": "fact",
+      "text": "Breaking changes validation is separate from Marketplace submission validation that occurs in Partner Center."
+    },
+    {
+      "kind": "limit",
+      "text": "AL compiler errors and AppSourceCop analyzer issues are reported as validation diagnostics during the process."
+    },
+    {
+      "kind": "fact",
+      "text": "Validation diagnostics can be information, warning, or error severity levels based on issue type."
+    }
+  ],
+  "dropped": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008771,
+      "pages_in_call": 4
+    }
+  ]
+}

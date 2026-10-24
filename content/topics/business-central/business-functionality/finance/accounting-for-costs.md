@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:27.418Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -234,11 +234,15 @@ The pages follow the working order. Start with the overview, "About cost account
 - [Accounting for costs overview](https://learn.microsoft.com/dynamics365/business-central/finance-manage-cost-accounting): Cost accounting helps you understand the costs of running a business. This article provides links to other articles with more information.
 - [Built-in cost accounting reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports): Explore the built-in cost accounting reports in the standard version of Business Central.
 - [Creating cost budgets](https://learn.microsoft.com/dynamics365/business-central/finance-create-cost-budgets): This article provides an overview of where to create and analyze cost budgets. Budgeting in cost accounting resembles budgeting in the general ledger.
+  - In the observatory: [Page 1105 "Cost Allocation"](../../../../objects/page/1105.md), [Report 1134 "Copy Cost Budget"](../../../../objects/report/1134.md)
 - [Defining and allocating costs](https://learn.microsoft.com/dynamics365/business-central/finance-define-and-allocate-costs): Cost allocations move costs and revenues between cost types, cost centers, and cost objects. You can define as many allocations as you need.
 - [Delete cost budget entries](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-delete-cost-budget-entries): You use the Delete Cost Budget Entries batch job to cancel cost budget entries from the cost budget register.
+  - In the observatory: [Page 1121 "Cost Budget Registers"](../../../../objects/page/1121.md)
 - [Set up cost accounting](https://learn.microsoft.com/dynamics365/business-central/finance-set-up-cost-accounting): Before you start working with cost accounting, you must setup. Each cost entry must have a cost type assigned and a cost center code or a cost object assigned.
+  - In the observatory: [Page 1101 "Cost Type Card"](../../../../objects/page/1101.md), [Page 1111 "Cost Center Card"](../../../../objects/page/1111.md), [Page 1123 "Chart of Cost Objects"](../../../../objects/page/1123.md)
 - [Terminology in cost accounting](https://learn.microsoft.com/dynamics365/business-central/finance-terminology-in-cost-accounting): This article defines the key terms that are used in cost accounting, such as allocation key and allocation source.
 - [Transferring and posting cost entries](https://learn.microsoft.com/dynamics365/business-central/finance-transfer-and-post-cost-entries): Before you define cost allocations, you must understand the various sources that cost entries come from.
+  - In the observatory: [Codeunit 1105 "Transfer GL Entries to CA"](../../../../objects/codeunit/1105.md), [Page 1101 "Cost Type Card"](../../../../objects/page/1101.md), [Page 17 "G/L Account Card"](../../../../objects/page/17.md), [Table 1104 "Cost Entry"](../../../../objects/table/1104.md), [Table 1105 "Cost Register"](../../../../objects/table/1105.md), [Table 17 "G/L Entry"](../../../../objects/table/17.md)
 
 ## Videos, posts and code changes
 

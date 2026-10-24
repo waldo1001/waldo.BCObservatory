@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/demiliani-com/14064",
+  "page_id": "post/demiliani-com/14064",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Transferring existing Application Insights resources between regions isn't supported, and you can't migrate historical data to a new region.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Application Insights"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "It's not possible to switch the region of Azure OpenAI or move Azure OpenAI to another region with one click.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Azure OpenAI"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "You cannot self-serve migrate a Power Platform environment across regions. This requires a Geo-to-Geo Migration request through Microsoft Support.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Power Platform environment"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006568,
+    "posts_in_call": 4
+  }
+}

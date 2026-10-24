@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:21:48.530Z"
   flags: []
 generated:
-  at: "2026-10-07T23:21:48.595Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -132,6 +132,10 @@ chapters:
     title: Q&A on Session Limits and Job Queue Best Practices
   - t: 3227
     title: Closing Remarks and Next Steps
+cautions:
+  - kind: preview-disclaimer
+    quote: most recent information is that we have five background sessions actively running per user and we can cue up to ...
+    t: 3052
 features:
   - name: Page Background Tasks
     status: unclear

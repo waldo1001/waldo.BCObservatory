@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:46.510Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -150,13 +150,17 @@ Start with the CCC setup pages, then the bank account page for electronic paymen
 
 - [Bank Accounts for Electronic Payments [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments): Learn how to use Business Central to set up bank accounts and vendor bank accounts to make electronic payments.
 - [Electronic payments – AEB N34.1 - [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/electronic-payments-aeb-n341): Learn how to use electronic payments to pay vendors by exporting payments in the standard AEB N34.1 file format used by banks in Spain.
+  - In the observatory: [Report 7000060 "PO - Export N34.1 (ES)"](../../../../../objects/report/7000060-es.md)
 - [How to enter CCC codes [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-enter-ccc-codes): Learn how to enter the Código Cuenta Cliente (CCC) unique bank account identification code using the Spanish version of Business Central.
 - [How to Export Electronic Payments [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-electronic-payments): In Business Central, you can export payment journal entries to files using four different payment standards, each supported by specific pages.
+  - In the observatory: [Page 256 "Payment Journal"](../../../../../objects/page/256.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md), [Page 7000050 "Payment Orders (ES)"](../../../../../objects/page/7000050-es.md), [Report 7000060 "PO - Export N34.1 (ES)"](../../../../../objects/report/7000060-es.md), [Report 7000090 "Payment order - Export N34 (ES)"](../../../../../objects/report/7000090-es.md)
 - [How to Set Up Payment Days and Non-Payment Periods](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods): Learn how to set up payment days and non-payment periods to accurately calculate due dates for sales and purchase documents in Business Central.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 10700 "Payment Days (ES)"](../../../../../objects/page/10700-es.md), [Page 10701 "Non-Payment Periods (ES)"](../../../../../objects/page/10701-es.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 36954 "Customers"](../../../../../objects/page/36954.md)
 - [How to Void Electronic Payments](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-void-electronic-payments): In Business Central, you can void an exported payment file, which deletes the entire payment journal associated with that file.
 - [Pay vendors using electronic payments [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments): Learn how to pay vendors electronically by exporting payment files and sending them to your bank for processing.
 - [Payments in Cash](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/payments-in-cash): Spanish companies must submit an annual summary for each customer if cash payments exceed EUR 6,000.00.
 - [Set up bank CCC codes [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes): The Código Cuenta Cliente (CCC) is a unique account code assigned by Spanish banks to customer accounts, appearing on documents, such as checks and statements.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md), [Page 423 "Customer Bank Account Card"](../../../../../objects/page/423.md), [Page 425 "Vendor Bank Account Card"](../../../../../objects/page/425.md)
 
 ## Videos, posts and code changes
 

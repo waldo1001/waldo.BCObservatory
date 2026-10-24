@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:13:11.239Z"
   flags: []
 generated:
-  at: "2026-10-07T23:13:11.284Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -194,6 +194,15 @@ chapters:
     title: Documentation and Resources
   - t: 1234
     title: Action Items and Closing Remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: right now we have 22 scenarios available scenarios available on GitHub and hopefully many more to come
+    t: 772
+    versions:
+      - "22"
+  - kind: preview-disclaimer
+    quote: especially once we have or you have proper automation
+    t: 1031
 features:
   - name: Business Central Performance Toolkit (BCPT)
     status: unclear

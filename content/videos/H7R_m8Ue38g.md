@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:19:10.183Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -74,6 +74,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/gerardorenteria-blog/12961
+      title: 🕐 Remember When Lists Could Sort By Any Key? 🔄
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: video/KmuTVkodRXM
+      title: All new goodies about AL Namespace in BC 2025 wave 2
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/thedynamicsexplorer-com/36822
+      title: Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/thedynamicsexplorer-com/36744
+      title: "Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: video/mZNfMPpxovE
+      title: Historical Snapshot (2024)
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: video/6zj34hjbpGU
+      title: How Business Central Integrates with Microsoft Excel (2025)
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: video/B8PLDeZ73Y4
+      title: Snapshot Debugging vs AL Profiler in Business Central — When to Use Each
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/aardvarklabs-blog/2523
+      title: Step-by-Step Guide to Page Customizations for Business Central in AL
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/aardvarklabs-blog/3348
+      title: Step-by-Step Guide to Secure Business Central Agent Implementations in AL
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: video/TY82NR2hGEg
+      title: "What's New: Business Central Developer Tools (2023 release wave 2)"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
 video_id: H7R_m8Ue38g
 channel: yt-saurav
 source_name: Saurav Dhyani
@@ -104,10 +155,12 @@ chapters:
     title: Conclusion and call to engagement
 features:
   - name: System audit fields as flow fields
-    status: unclear
+    status: ga
     t: 312
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573322"
   - name: Audit fields in profile customization
     status: ga
     t: 423
@@ -179,7 +232,7 @@ The video explains why system audit fields matter for tracking who created or ch
 
 | Feature | Status | At |
 |---|---|---|
-| System audit fields as flow fields | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=312s) |
+| System audit fields as flow fields | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [5:12](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=312s) |
 | Audit fields in profile customization | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [7:03](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=423s) |
 | Audit fields in analysis mode | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [11:16](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=676s) |
 
@@ -207,5 +260,20 @@ Not found in BC28-30: page "customer", page "profiles".
 
 - [0:44](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=44s) other: Now, when you think it from a developer perspective, there might be a little gap which I would like to ...
 - [6:06](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=366s) other: But now, how you access these? Because still today, they're not available on the client. Uh you can't just go ...
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [🕐 Remember When Lists Could Sort By Any Key? 🔄](../posts/gerardorenteria-blog/12961.md) — possibly related: both name Page 22 "Customer List"
+- [All new goodies about AL Namespace in BC 2025 wave 2](../videos/KmuTVkodRXM.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central](../posts/thedynamicsexplorer-com/36744.md) — possibly related: both name Page 22 "Customer List"
+- [Historical Snapshot (2024)](../videos/mZNfMPpxovE.md) — possibly related: both name Page 22 "Customer List"
+- [How Business Central Integrates with Microsoft Excel (2025)](../videos/6zj34hjbpGU.md) — possibly related: both name Page 22 "Customer List"
+- [Snapshot Debugging vs AL Profiler in Business Central — When to Use Each](../videos/B8PLDeZ73Y4.md) — possibly related: both name Page 22 "Customer List"
+- [Step-by-Step Guide to Page Customizations for Business Central in AL](../posts/aardvarklabs-blog/2523.md) — possibly related: both name Page 22 "Customer List"
+- [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../posts/aardvarklabs-blog/3348.md) — possibly related: both name Page 22 "Customer List"
+- [What's New: Business Central Developer Tools (2023 release wave 2)](../videos/TY82NR2hGEg.md) — possibly related: both name Page 22 "Customer List"
 
 Presenters (as heard): Arto Dyani.

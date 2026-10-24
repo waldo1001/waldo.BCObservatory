@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:56:09.637Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -50,6 +50,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax
+      title: Swiss Value Added [CH]
+      label: possibly related
+      why: names Table 330 "Currency Exchange Rate"
+      by: code
 post_id: https://blog.kine.cz/posts/bcdevelopmentserie-02/
 source_id: kine-cz
 source_name: Kine's info
@@ -108,6 +114,12 @@ As named in the post. A name that matches one object page by exact type and name
 - [table 330 "Currency Exchange Rate"](../../objects/table/330.md)
 
 Not found in BC28-30: codeunit "50100", codeunit "50200".
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Swiss Value Added \[CH\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax) — possibly related: names Table 330 "Currency Exchange Rate"
 
 ## Context
 

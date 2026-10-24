@@ -1,23 +1,23 @@
 {
   "week": "2026-W43",
-  "input_hash": "fc5ad12fa3561f176f221ce9e8db72c509dce22bfbbebf5fdf008fd589c0ced2",
-  "text": "The behaviour changes this week were mostly fixes in BCApps. VAT posting group handling that regressed since Business Central 28.4 is corrected in #13085 and #12982, and GB reverse charge sales posting is fixed in #12813. Posting now checks that a General Posting Setup combination exists (#11998), and Adjust Cost no longer creates extra rounding variance (#12868). Subscription billing got two fixes: #12967 for credit memos when customer and vendor contracts share a number, and #12767 for billing lines left behind after a failed vendor invoice. Smaller fixes cover transfer line units of measure with Direct Transfer (#12541), reminder printing (#12149), the Swiss DTA payment report (#12754) and the Danish VAT period parser (#12943). New behaviour includes credit memo recognition from PDFs in the Payables Agent (#12894) and E-Documents (#12855). The Expense Agent gained alternate approvers (#11955) and enforced itemization (#12599). French accelerated depreciation moved into W1 (#12160). Refactors include the Sales FR app (#9143) and ES SII renumbering (#12443). #13075 adds TDS events for India. In AL-Go, #2402 adds a built-in Copilot review. BCQuality received many new knowledge articles, among them #230 and #228.",
-  "changes": 51,
+  "input_hash": "10f20c804daedb88e64d079876389e5456cb9565ea3b839c7799adb70815b8e2",
+  "text": "Most of the week's behaviour changes were fixes in BCApps. VAT and posting fixes include #13085 and #12982 for the VAT product posting group regression seen since 28.4, #12813 for GB reverse charge sales posting, #11998 for a missing General Posting Setup check, and #12201 for non-deductible VAT on foreign-currency projects. Cost and inventory fixes cover #12868 (Adjust Cost rounding variance), #12690 (serial number error when reversing capacity entries) and #12842 (false \"Nothing to handle\" on warehouse picks). Subscription Billing got #10444, #12967, #12767 and #10477, and Subcontracting got #12783, #11665, #12584 and #12986. New features include credit memo recognition from PDFs in the Payables Agent (#12894) and E-Documents (#12855), Expense Agent alternate approvers (#11955) and enforced itemization (#12599), and French accelerated depreciation moving into the W1 base application (#12160). #9104 moves the XML G/L export onto the Audit File Export framework. AL-Go added GitHub Enterprise Cloud data residency support (#2407) and a built-in Copilot review (#2402). Extensibility changes are #10384 and #13075. #12443 renumbers ES SII objects, and #9143 moves French sales specifics into a new Sales FR app. BCQuality added many knowledge articles.",
+  "changes": 63,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.056618,
-  "at": "2026-10-23T00:21:26.098Z",
+  "cost_usd": 0.068956,
+  "at": "2026-10-23T22:03:43.080Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-23T01:12:05.186Z",
+    "at": "2026-10-24T00:38:17.607Z",
     "verdict": "approve",
     "issues": [
-      "Minor: #11998 is about posting invoices from journals (Gen. Jnl.-Check Line). 'Posting now checks' is a little broader than that, but it is not misleading.",
-      "Minor: some notable fixes are left out, such as #12931 (Purchase Order vendor change carrying over to the next order), #13058 (Expense itemization rounding) and #12561 (Shopify tax match after a rate conflict). Leaving them out is acceptable for a summary.",
-      "Every cited number is from this week, the descriptions match each pull request's summary, and the paragraph makes no claims about breaking changes. The source list flags none."
+      "Subscription Billing (#10444, #12967, #12767, #10477), Subcontracting (#12783, #11665, #12584, #12986) and extensibility (#10384, #13075) pull requests are listed as bare numbers with no description, which makes them less useful to the reader.",
+      "AL-Go #2413 (automatic Copilot review triggers only run when opted in) goes with #2402 but is not mentioned.",
+      "Several notable behaviour fixes are left out, such as #12149 (only one PDF when printing several reminders), #12943 (DK VAT return periods) and #12561 (Shopify tax rate conflict). This is optional."
     ],
-    "input_hash": "fc5ad12fa3561f176f221ce9e8db72c509dce22bfbbebf5fdf008fd589c0ced2",
-    "cost_usd": 0.12612800000000002,
+    "input_hash": "10f20c804daedb88e64d079876389e5456cb9565ea3b839c7799adb70815b8e2",
+    "cost_usd": 0.170844,
     "applied": [],
     "rejected_edits": []
   }

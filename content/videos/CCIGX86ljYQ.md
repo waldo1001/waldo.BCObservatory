@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:00:35.604Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:35.648Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -89,6 +89,32 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/thedynamicsexplorer-com/9815
+      title: Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
+    - to: post/thedynamicsexplorer-com/36954
+      title: Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
+    - to: video/QdWPlIV3Avk
+      title: "What's new in SCM: Subcontracting (2026 release wave 2)"
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
+    - to: video/lcy36b9GS38
+      title: "What's New in Sustainability: Value Chain with Item Charges (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
+    - to: video/DJ3LPRxn27g
+      title: "What's New: Drop Shipments (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
 video_id: CCIGX86ljYQ
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -245,5 +271,15 @@ Not found in BC28-30: page "e documents", page "e document card page".
 - [2:37](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=157s) "small feature but extremely important because now you can preview before processing and posting in a business central uh upcoming uh documents."
 - [4:46](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=286s) "you can transfer XML to readable to human readable uh information and plus we have this embedded PDF"
 - [5:35](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=335s) "we have six different sessions related to e documents. So please watch another session to understand what is improved in this area."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../posts/thedynamicsexplorer-com/9815.md) — possibly related: both name Page 51 "Purchase Invoice"
+- [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../posts/thedynamicsexplorer-com/36954.md) — possibly related: both name Page 51 "Purchase Invoice"
+- [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Page 51 "Purchase Invoice"
+- [What's New in Sustainability: Value Chain with Item Charges (2025 release wave 2)](../videos/lcy36b9GS38.md) — possibly related: both name Page 51 "Purchase Invoice"
+- [What's New: Drop Shipments (2026 release wave 1)](../videos/DJ3LPRxn27g.md) — possibly related: both name Page 51 "Purchase Invoice"
 
 Presenters (as heard): Alexander, Magnus.

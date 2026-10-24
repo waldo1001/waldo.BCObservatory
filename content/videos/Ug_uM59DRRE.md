@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:18:49.369Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:49.444Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -77,6 +77,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/compliance-denmark
+      title: Compliance with the bookkeeping act in Denmark
+      label: possibly related
+      why: names Table 270 "Bank Account"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service
+      title: Field mapping for exporting bank payment files | Microsoft Docs
+      label: possibly related
+      why: names Table 270 "Bank Account"
+      by: code
+    - to: video/hcu7T3qLdDA
+      title: "What's New: The Danish Bookkeeping Act (2024 release wave 1)"
+      label: possibly related
+      why: both name Table 270 "Bank Account"
+      by: code
 video_id: Ug_uM59DRRE
 channel: yt-areopa
 source_name: Areopa webinars
@@ -302,5 +318,13 @@ Not found in BC28-30: interface "controls demo data module", codeunit "Contoso b
 - [17:05](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=1025s) other: The demo data generator is an open source tool
 - [41:46](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=2506s) other: I don't know of anything any fancy new uh news that Microsoft is planning for the Contoso coffee framework
 - [42:25](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=2545s) other: in the German uh demo data sets, there are some some things that are not really up to best practice
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Compliance with the bookkeeping act in Denmark](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/compliance-denmark) — possibly related: names Table 270 "Bank Account"
+- [Field mapping for exporting bank payment files | Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service) — possibly related: names Table 270 "Bank Account"
+- [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../videos/hcu7T3qLdDA.md) — possibly related: both name Table 270 "Bank Account"
 
 Presenters (as heard): Simon Fischer, Simon, Natalie Kavak, Fencer.

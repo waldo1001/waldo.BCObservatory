@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:18.409Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,8 +68,7 @@ links:
   topics:
     - topic/business-central/business-functionality/finance
   localizations: []
-  videos:
-    - video/8VRtBLNAOiI
+  videos: []
   posts: []
   guidelines: []
   changes:
@@ -87,7 +86,7 @@ children: []
 coverage:
   learn: 4
   code: 11
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -135,8 +134,10 @@ Start with "Set up prepayments" if prepayments are not yet configured. If they a
 
 - [Correct prepayments](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-correct-prepayments): You can make a correction to an order after you have posted a prepayment invoice for the order and add new lines to an order after issuing a prepayment.
 - [Create prepayment invoices](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-create-prepayment-invoices): Handle situations where you or your vendor require prepayment. Use the default percentages for each sales or purchase line or adjust the amount as necessary.
+  - In the observatory: [Page 402 "Sales Order Statistics"](../../../../objects/page/402.md)
 - [Invoice prepayments](https://learn.microsoft.com/dynamics365/business-central/finance-invoice-prepayments): Learn how to use prepayments to invoice and collect deposits from customers and remit deposits to vendors in Business Central.
 - [Set up prepayments](https://learn.microsoft.com/dynamics365/business-central/finance-set-up-prepayments): Learn how to configure Business Central so that you can use prepayments to invoice and collect deposits from customers and remit deposits to vendors.
+  - In the observatory: [Page 36954 "Customers"](../../../../objects/page/36954.md), [Page 672 "Job Queue Entries"](../../../../objects/page/672.md)
 
 ## Videos, posts and code changes
 
@@ -146,7 +147,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10944 [main] bug 643971 - Enhance vendor and customer checks in advance letters and update blocked status validation](../../../../changes/bcapps/10944.md) (code change): "Advance letter creation now validates blocked customer and vendor status"
 - [#9416 [ALAppExtensions #30313]codeunit 441 "Prepayment Mgt." OnBeforeReleaseSalesDocument](../../../../changes/bcapps/9416.md) (code change): "OnBeforeUpdatePendingPrepaymentSales and OnAfterUpdatePendingPrepaymentSales events"
 - [#9719 [main] bug 643971 - Implement checks for blocked customers and vendors in advance letters](../../../../changes/bcapps/9719.md) (code change): "validate that customers and vendors are not blocked or privacy-blocked, preventing creation and posting"
-- [Introducing: Self-Billing Invoices (2026 release wave 1)](../../../../videos/8VRtBLNAOiI.md) (video): "Self-Billing Invoices; Self-Billing Agreement Field on Vendor"
 
 ## Business Central pages and reports
 

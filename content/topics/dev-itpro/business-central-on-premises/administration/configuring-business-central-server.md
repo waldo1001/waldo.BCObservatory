@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:56.619Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,8 +43,7 @@ links:
   localizations: []
   videos:
     - video/KA1vHd1hITY
-  posts:
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -57,7 +56,7 @@ coverage:
   learn: 2
   code: 0
   video: 1
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 562d262036f23f1c41c9fd17b1595b2f0acb2021cbd277e2e407bf0a38887b1e
@@ -92,13 +91,29 @@ Then use "Business Central Server instance settings" to look up individual setti
 ## Learn pages
 
 - [Business Central Server instance settings](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/server-instance-settings): Configure Business Central Server instance settings for security, extensions, APIs, and performance. Find keys fast and apply changes with PowerShell.
+  - Configure server instance topology, database connection, service defaults, sessions, browsing behavior, security, certificates, OAuth, file uploads, data sharing, HTTP calls, extension deployment…
+  - ClientBuildRestriction controls whether clients with different build versions can connect: AlwaysConnect, WarnClient, or DoNotAllow. Default is WarnClient.
+  - Multitenant setting enables the server instance to work in multitenant environments where tenant databases mount on it.
+  - Session Event table retains interactive sessions for 90 days by default and non-interactive sessions for 5 days, with purges occurring at least once daily.
+  - ClientServicesCredentialType sets authentication to Windows, Username, NavUserPassword, AccessControlService, or None. Default is Windows.
+  - File upload restrictions: ClientServicesProhibitedFileTypes defaults to blocking executable, script, and system files; ClientServicesAllowedFileTypes can whitelist specific types.
+  - OData requests default to 20,000 entities per page with 8-minute timeout; API and OData throttling limits per tenant and user prevent 429 errors.
+  - Extension publishing requires DeveloperServicesEnabled; extensions target OnPrem or Cloud levels; RequiredExtensions cannot be uninstalled via UI.
 - [Configure Business Central Server](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-server-instance): Configure and modify settings in the Setup or Installed Business Central Server using PowerShell Cmdlets.
+  - Status: Available from Business Central 2022 release wave 2 (version 21) and later
+  - Configuration is stored in CustomSettings.config file located at the service directory
+  - Step: Use Set-NAVServerConfiguration cmdlet to change settings with ServerInstance, KeyName, and KeyValue parameters
+  - Step: Restart the server instance using Services console or Restart-NAVServerInstance cmdlet for changes to take effect
+  - Dynamically updatable settings can use ApplyTo parameter with options: ConfigFile, Memory, or All
+  - Changes applied to Memory take effect immediately without restart but revert on server restart
+  - Limit: Direct editing of CustomSettings.config is not recommended due to risk of typing errors
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [How to Install Microsoft Dynamics 365 Business Central 29 On-Premises](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f.md) (community post): "configuring SQL Server and server instance, setting service ports"
 - [How to Install Business Central 29 On-Premises \| Full Setup](../../../../videos/KA1vHd1hITY.md) (video): "Business Central 29 On-Premises Installation; Service Port Configuration; SQL Server instance configuration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

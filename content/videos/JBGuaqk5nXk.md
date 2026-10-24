@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:59:33.110Z"
   flags: []
 generated:
-  at: "2026-10-07T22:59:33.162Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -169,6 +169,16 @@ chapters:
     title: Handling warnings and improving descriptions with regeneration
   - t: 926
     title: Availability, language support and future roadmap
+cautions:
+  - kind: preview-disclaimer
+    quote: in this first release it will be delivered as a public preview
+    t: 947
+  - kind: preview-disclaimer
+    quote: in this moment we have officially support only for English language
+    t: 964
+  - kind: preview-disclaimer
+    quote: we want to continue uh investment in this copilot in next wave or waves depends uh how it's going
+    t: 979
 features:
   - name: Calculate CO2 copilot action
     status: preview

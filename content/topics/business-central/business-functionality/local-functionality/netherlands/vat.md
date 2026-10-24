@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:30.259Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,8 +106,11 @@ Start with "Electronic VAT and ICP Declarations [NL]" if you are preparing to fi
 ## Learn pages
 
 - [Create an Audit File for Tax Authority [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority): Learn how to create an audit file for the tax authority with the Dutch version of Business Central.
+  - In the observatory: [Report 11412 "Tax Authority - Audit File (NL)"](../../../../../objects/report/11412-nl.md)
 - [Electronic VAT and ICP Declarations [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations): Learn how to set up electronic VAT and ICP declarations in the Dutch Version.
+  - In the observatory: [Page 11410 "Elec. Tax Declaration Setup (NL)"](../../../../../objects/page/11410-nl.md)
 - [How to Set Up VAT Categories](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-vat-categories): Learn how to set up VAT category codes for all XML elements required in the electronic VAT declaration.
 - [Submit electronic VAT & ICP declarations [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations): With the eXtensible Business Reporting Language (XBRL) reporter, you can submit the ICP declaration or the VAT declaration in the required XML format.
+  - In the observatory: [Page 11411 "Elec. Tax Declaration Card (NL)"](../../../../../objects/page/11411-nl.md), [Page 11412 "Elec. Tax Declaration List (NL)"](../../../../../objects/page/11412-nl.md), [Page 11416 "Elec. Tax Decl. Response Msgs. (NL)"](../../../../../objects/page/11416-nl.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

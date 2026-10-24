@@ -1,0 +1,31 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-server-using-performance-counters.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-using-performance-counters",
+  "title": "Monitoring Business Central server using performance counters",
+  "blob": "3032fb8408b3c4e4b454eb4e94111f0e1f8646c0",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Performance counters measure server operating efficiency and help identify performance conditions"
+    },
+    {
+      "kind": "fact",
+      "text": "Monitoring tools like Windows Performance Monitor collect Business Central performance counter data"
+    },
+    {
+      "kind": "fact",
+      "text": "Performance counter data identifies conditions affecting server performance for optimization"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005294,
+      "pages_in_call": 10
+    }
+  ]
+}

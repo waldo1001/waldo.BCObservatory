@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:41.011Z"
   flags: []
 generated:
-  at: "2026-10-07T23:22:41.076Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -77,7 +77,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/576872
+    - feature/577820
   topics: []
   localizations: []
   videos: []
@@ -122,6 +124,21 @@ chapters:
     title: Subcontracting and Logistics in Production
   - t: 1873
     title: Sustainability and UI Enhancements
+cautions:
+  - kind: preview-disclaimer
+    quote: the BC27 uh Business Central version 27 preview
+    t: 154
+    versions:
+      - "27"
+  - kind: preview-disclaimer
+    quote: advance. Tell me more. Tell me preview
+    t: 418
+  - kind: preview-disclaimer
+    quote: That seems to be in 2026, January 2026.
+    t: 587
+  - kind: preview-disclaimer
+    quote: It's in November 2025. So maybe that's why we can't find it.
+    t: 1355
 features:
   - name: Enhanced sales order agent
     status: unclear
@@ -174,15 +191,19 @@ features:
     verified: false
     status_source: video
   - name: Copilot billing type configuration
-    status: unclear
+    status: preview
     t: 735
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Azure resources for Copilot extensions
-    status: unclear
+    status: preview
     t: 811
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Enhanced analysis assist with Copilot
     status: unclear
     t: 844
@@ -314,10 +335,12 @@ features:
     verified: false
     status_source: video
   - name: Subcontracting capabilities in production
-    status: unclear
+    status: ga
     t: 1798
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576872"
   - name: Resizable copilot help panes
     status: unclear
     t: 1903
@@ -399,8 +422,8 @@ The rest covers 20-language chat support, localization items, AL and page script
 | Payables agent confidence level prioritization | status not stated | [10:10](https://www.youtube.com/watch?v=H5EuObmeF4o&t=610s) |  |
 | Copilot emissions suggestions in sustainability | status not stated | [10:27](https://www.youtube.com/watch?v=H5EuObmeF4o&t=627s) |  |
 | Summarize with Copilot enhancements | status not stated | [11:00](https://www.youtube.com/watch?v=H5EuObmeF4o&t=660s) |  |
-| Copilot billing type configuration | status not stated, demoed | [12:15](https://www.youtube.com/watch?v=H5EuObmeF4o&t=735s) |  |
-| Azure resources for Copilot extensions | status not stated, demoed | [13:31](https://www.youtube.com/watch?v=H5EuObmeF4o&t=811s) |  |
+| Copilot billing type configuration | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)), demoed | [12:15](https://www.youtube.com/watch?v=H5EuObmeF4o&t=735s) |  |
+| Azure resources for Copilot extensions | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)), demoed | [13:31](https://www.youtube.com/watch?v=H5EuObmeF4o&t=811s) |  |
 | Enhanced analysis assist with Copilot | status not stated, demoed | [14:04](https://www.youtube.com/watch?v=H5EuObmeF4o&t=844s) |  |
 | Enhanced chat with Copilot - 20 languages | status not stated | [15:06](https://www.youtube.com/watch?v=H5EuObmeF4o&t=906s) |  |
 | Payables agent in more countries | status not stated | [15:40](https://www.youtube.com/watch?v=H5EuObmeF4o&t=940s) |  |
@@ -427,8 +450,10 @@ The rest covers 20-language chat support, localization items, AL and page script
 | Configure default consumption calculation | status not stated | [27:46](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1666s) |  |
 | Quality management extension | status not stated | [28:23](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1703s) |  |
 | Concurrent inventory posting with line sorting | status not stated | [29:13](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1753s) |  |
-| Subcontracting capabilities in production | status not stated | [29:58](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1798s) |  |
+| Subcontracting capabilities in production | generally available (roadmap [Use subcontracting capabilities in production processes](../features/576872.md)) | [29:58](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1798s) |  |
 | Resizable copilot help panes | status not stated | [31:43](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1903s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

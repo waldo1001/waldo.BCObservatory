@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:56:55.282Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -55,6 +55,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens
+      title: Create Custom Filter Tokens in Business Central
+      label: possibly related
+      why: names Codeunit 41 "Filter Tokens"
+      by: code
 post_id: https://thatnavguy.com/blog/2026/bc-friday-tips-64-filter-tokens-codeunit/
 source_id: thatnavguy-com
 source_name: That NAV Guy
@@ -108,6 +114,12 @@ preview:
 As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - [codeunit 41 "Filter Tokens"](../../objects/codeunit/41.md)
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Create Custom Filter Tokens in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens) — possibly related: names Codeunit 41 "Filter Tokens"
 
 ## Context
 

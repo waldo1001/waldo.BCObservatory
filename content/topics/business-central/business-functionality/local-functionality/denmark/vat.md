@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:32.608Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -80,7 +80,7 @@ narrative: generated
 
 > Danish VAT functionality in Business Central: printing the VAT Reconciliation Report, formatting VAT registration numbers for Intrastat, and VAT-VIES reporting with the EC Sales List. It answers questions about reconciling VAT settlements and reporting EU trade in Denmark.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > VAT · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -102,8 +102,11 @@ The pages are independent, so start with the one that matches your task. For EU 
 ## Learn pages
 
 - [How to print VAT reconciliation reports [DK]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports): In Business Central, the VAT Reconciliation report displays a list of general ledger accounts with their corresponding base amounts and VAT amounts.
+  - In the observatory: [Report 10630 "VAT Reconciliation (NO)"](../../../../../objects/report/10630-no.md)
 - [VAT Registration No. for Intrastat [DK]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/vat-registration-no-intrastat): Learn how to set up a VAT registration number as specified by the Danish Intrastat requirements.
+  - In the observatory: [Page 4810 "Intrastat Report Setup"](../../../../../objects/page/4810.md)
 - [VAT-VIES Reporting [DK]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/vat-vies-reporting): You can create the required VAT declarations for trade of goods or services file in the Danish version by using the EC Sales List report.
+  - In the observatory: [Report 130 "EC Sales List"](../../../../../objects/report/130.md)
 
 ## Videos, posts and code changes
 

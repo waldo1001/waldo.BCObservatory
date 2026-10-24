@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:22.256Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,9 +109,40 @@ Start with the end-to-end overview to understand the sequence. Then read the dat
 ## Learn pages
 
 - [Compare Work in Dynamics GP to Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp-videos): Get some tips and tricks for how to do things in Business Central online that you currently do in Dynamics GP.
+  - Video series compares work processes between Dynamics GP and Business Central to help users transition.
+  - Videos cover topics including receivables and payables transactions, vendor payments, cash receipts, dimensions, and journal entries.
+  - Videos explain differences and similarities in setting up segments, dimension templates, classes, trial balances, and posting accounts.
 - [Managing Dynamics GP cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-gp): Describes the Cloud Migration Management page in Business Central for migrating from Dynamics GP.
+  - Cloud Migration Management page is a hub for managing data migration and migration services in Business Central online.
+  - Migration Log shows status of all migration runs with timing and progress details.
+  - Fields and tiles above the log show number of successfully migrated tables and tables with warnings or errors.
+  - Tables with permissions from on-premises don't migrate because permissions work differently online.
+  - Run Migration Now starts migration manually; on subsequent runs only changes since the previous migration are moved.
+  - Limit: Migration tool cannot run if target environment is being upgraded; disable migration, upgrade, then set it up again.
+  - Reset Cloud Data clears all cloud tenant data to restart the migration process from the beginning.
+  - Both web client and cloud migration API offer options for managing migration setup and data movement.
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
 - [Migrate Dynamics GP data to the cloud](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp): Learn how to migrate to the cloud from Dynamics GP using an assisted setup guide in Business Central online. Move historical data to Azure Data Lake.
+  - Fiscal periods from Dynamics GP migrate to Business Central as accounting periods, with historical years becoming open and requiring closure.
+  - Chart of Accounts account numbers map from the main segment; remaining segments become dimensions, with up to eight shortcut dimensions supported.
+  - Customer addresses migrate as shipping addresses; vendor addresses migrate with Remit To as primary and others as order addresses.
+  - Outstanding transactions migrate with remaining balance amounts, not original invoice amounts.
+  - Unit of Measure Schedules from GP don't have direct equivalents; Business Central supports alternate units of measure per item instead.
+  - Unreconciled bank transactions migrate; undeposited receipts do not migrate and must be deposited in GP before migration.
+  - Historical snapshot data stores in extension tables including GL, Receivables, Payables, Sales, Purchase, and Inventory transaction records.
+  - 1099 vendor information and box amounts migrate if selected, with the earliest supported year being 2024.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Table 40900 "Hist. G/L Account"](../../../../../objects/table/40900.md), [Table 40901 "Hist. Gen. Journal Line"](../../../../../objects/table/40901.md), [Table 40902 "Hist. Sales Trx. Header"](../../../../../objects/table/40902.md), [Table 40903 "Hist. Sales Trx. Line"](../../../../../objects/table/40903.md), [Table 40904 "Hist. Receivables Document"](../../../../../objects/table/40904.md)
 - [Migrate on-premises GP data to Business Central online overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-overview): This article provides an overview of how the migration works and the necessary tasks for completing the migration from Dynamics GP on-premises.
+  - Cloud migration uses Azure Data Factory to securely replicate data from on-premises SQL Server to Business Central online
+  - Migrated data includes system setup, master data, transactional data, classes, vendor 1099, and historical data
+  - Data migration is table-by-table with success and failure tracking; migration continues even if a table fails
+  - On-premises solution remains operative environment until cloud migration is completed
+  - Users without SUPER permissions are automatically assigned Intelligent Cloud permission set during migration
+  - Data entry in online tenant during migration is limited to data not included in migration from on-premises
+  - Limit: Cannot install or uninstall extensions during migration without disabling cloud migration first
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Business Central pages and reports
 

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-center-api_app_management.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_app_management",
+  "title": "Business Central Admin Center API - App Management",
+  "blob": "0d876b200a7a3c0717eb5b00ba5c1a7c13af8891",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Global app installation available from API version 2.6; PTE upload from version 2.29"
+    },
+    {
+      "kind": "fact",
+      "text": "API endpoints manage install, uninstall, update, and cancel operations for apps on environments"
+    },
+    {
+      "kind": "prerequisite",
+      "text": "acceptIsvEula property must be set to true in request body to proceed with app installation"
+    },
+    {
+      "kind": "step",
+      "text": "For PTEs, upload .app file via multipart form and specify deploymentSchedule as Immediate or UpdateWindow"
+    },
+    {
+      "kind": "limit",
+      "text": "PTE .app package cannot exceed 50MB size and must have .app file extension"
+    },
+    {
+      "kind": "fact",
+      "text": "Uninstalling PTE does not remove scheduled versions; use removeScheduledPteVersion endpoint separately"
+    },
+    {
+      "kind": "fact",
+      "text": "Dependencies can be automatically installed or updated to latest compatible version if requested"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011363,
+      "pages_in_call": 4
+    }
+  ]
+}

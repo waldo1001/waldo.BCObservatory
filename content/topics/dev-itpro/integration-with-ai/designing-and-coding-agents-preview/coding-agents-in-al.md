@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,7 +100,6 @@ links:
     - post/bertverbeek-nl/1272
     - post/demiliani-com/12644
     - post/demiliani-com/13814
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
   guidelines: []
   changes:
     - change/bcapps/10007
@@ -199,7 +198,7 @@ coverage:
   learn: 8
   code: 0
   video: 4
-  blog: 6
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
@@ -236,11 +235,17 @@ If you already prototyped an agent in the design experience, use the convert pag
 - [AI Models for Agents (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-models): Learn about AI model availability, lifecycle, and how to select models for agents in Dynamics 365 Business Central.
 - [Coding agents in AL (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-overview): Learn about the development tools for building AI agents in Dynamics 365 Business Central.
 - [Configure agents programmatically (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-configuration): Learn how to configure agent instances, manage lifecycle settings, and update agent instructions programmatically in Dynamics 365 Business Central.
+  - In the observatory: [Codeunit 4321 "Agent"](../../../../objects/codeunit/4321.md)
 - [Convert an agent to AL code (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-convert-agent): Learn how to convert an agent created in Business Central to an agent defined in AL code for distribution in an AL application.
+  - In the observatory: [Codeunit 4321 "Agent"](../../../../objects/codeunit/4321.md)
 - [Create agent setup pages (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-setup-page): Learn how to create setup pages for agents in Dynamics 365 Business Central using the ConfigurationDialog page type.
+  - In the observatory: [Codeunit 4321 "Agent"](../../../../objects/codeunit/4321.md), [Codeunit 4324 "Agent Setup"](../../../../objects/codeunit/4324.md), [Page 4310 "Agent Setup Part"](../../../../objects/page/4310.md), [Table 4310 "Agent Setup Buffer"](../../../../objects/table/4310.md)
 - [Define and register an agent programmatically (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-define-register): Learn how to define and register AI agents programmatically in Dynamics 365 Business Central using the AI development toolkit.
+  - In the observatory: [Codeunit 4307 "Agent Message"](../../../../objects/codeunit/4307.md), [Codeunit 4317 "Agent System Permissions"](../../../../objects/codeunit/4317.md), [Codeunit 7773 "Copilot Capability"](../../../../objects/codeunit/7773.md), [Enum 7774 "Copilot Availability"](../../../../objects/enum/7774.md), [Enum 7786 "Copilot Billing Type"](../../../../objects/enum/7786.md), [Page 4308 "Agent Task Message Card"](../../../../objects/page/4308.md)
 - [Managing agent tasks programmatically (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-tasks): Learn how to create and manage agent tasks, work with agent sessions, and handle cross-agent operations in Dynamics 365 Business Central.
+  - In the observatory: [Codeunit 4303 "Agent Task"](../../../../objects/codeunit/4303.md), [Codeunit 4312 "Agent Session"](../../../../objects/codeunit/4312.md), [Codeunit 4315 "Agent Task Builder"](../../../../objects/codeunit/4315.md), [Codeunit 4316 "Agent Task Message Builder"](../../../../objects/codeunit/4316.md)
 - [The ConfigurationDialog Page Type (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-type-configuration-dialog): Learn how to use the `ConfigurationDialog` page type to create focused configuration dialogs for managing agent settings in Dynamics 365 Business Central.
+  - In the observatory: [Page 4310 "Agent Setup Part"](../../../../objects/page/4310.md)
 
 ## Videos, posts and code changes
 
@@ -336,7 +341,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "create, configure, and register agents programmatically in Business Central using AL code"
 - [Dynamics 365 Business Central: debugging agent sessions.](../../../../posts/demiliani-com/12644.md) (community post): "AL Language extension runtime 17.0 introduces debugging support for agent sessions in Business Central"
 - [Dynamics 365 Business Central: new model choice in Agent definition.](../../../../posts/demiliani-com/13814.md) (community post): "AL methods allowing administrators to select between available models"
-- [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "Partners need to develop AI competency through the AI Development Toolkit and Agent Building Sandbox"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit; Agent Type Definition; Agent Factory Interface"
 - [Introducing: Envision, Design and Code Business Central Agents](../../../../videos/jWqjDTbqjeE.md) (video): "Introducing: Envision, Design and Code Business Central Agents"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Building and shipping agents in Business Central; agent configuration; permissions"

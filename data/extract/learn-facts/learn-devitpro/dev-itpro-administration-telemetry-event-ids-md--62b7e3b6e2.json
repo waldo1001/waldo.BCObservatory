@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-event-ids.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-event-ids",
+  "title": "Telemetry Event IDs in Application Insights | Microsoft Docs",
+  "blob": "ffaa5e90b0b1c770e4ab704adf16169c279f6178",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available, reference page for telemetry event IDs"
+    },
+    {
+      "kind": "fact",
+      "text": "AL event IDs emitted by application code receive AL prefix when sent to Application Insights"
+    },
+    {
+      "kind": "fact",
+      "text": "Events are grouped by administrative purpose: application, client, lifecycle, and runtime categories"
+    },
+    {
+      "kind": "fact",
+      "text": "AL events originate from Session.LogMessage, Telemetry codeunit, or Feature Telemetry codeunit"
+    },
+    {
+      "kind": "fact",
+      "text": "Event dimensions names are prefixed with 'al' when converted to Application Insights format"
+    },
+    {
+      "kind": "fact",
+      "text": "Business Central applications repository contains source code for finding AL event origins"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008532,
+      "pages_in_call": 5
+    }
+  ]
+}

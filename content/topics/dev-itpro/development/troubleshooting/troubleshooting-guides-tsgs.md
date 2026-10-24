@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:53.471Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,6 +109,16 @@ A subtopic, Troubleshoot web services, has two pages on OData, API and SOAP call
 ## More Learn pages
 
 - [Troubleshooting Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting): Learn how to troubleshoot problems that you might experience with the cloud migration to Business Central online from on-premises.
+  - SQL Server compatibility level must be 130 or higher; query sys.databases or run ALTER DATABASE command to set it correctly.
+  - Change tracking must be enabled on database; run ALTER DATABASE command to enable with 3-day retention and auto-cleanup.
+  - Prerequisite: Cloud migration requires users to have Business Central license and SUPER permission set to run setup and migration tasks.
+  - Integration Runtime must be version 5 if machine has .NET Framework Runtime 4.7.2; otherwise use version 4.
+  - When reusing Integration Runtime for multiple migrations, enter its name in Data Migration Setup instead of leaving field blank.
+  - Limit: Cannot migrate multiple on-premises databases to same online environment or same database to multiple environments simultaneously.
+  - Check applicationVersion field in $ndo$tenantdatabaseproperty table; if blank or outdated, migration cannot run.
+  - Step: After migration completes, run Repair Companion Table Records action on Cloud Migration Management page if data is missing.
 - [Troubleshooting reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshooting): Learn about how to troubleshoot Business Central reports
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

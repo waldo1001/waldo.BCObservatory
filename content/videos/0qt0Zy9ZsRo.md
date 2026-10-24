@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:06:05.447Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:05.487Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -118,6 +118,10 @@ chapters:
     title: Analyzing Captured Profiles and Recommendations
   - t: 643
     title: Related Features and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: this release introduces schedule profiles
+    t: 262
 features:
   - name: In-Client Performance Profiler
     status: unclear

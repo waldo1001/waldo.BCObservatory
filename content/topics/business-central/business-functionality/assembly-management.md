@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:11.266Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -295,16 +295,24 @@ For corrections and accounting, see "Undo Assembly Posting" and "Design details 
 ## More Learn pages
 
 - [Assemble Items](https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-assemble-items): Learn about assemble-to-order and assemble-to-stock processes in Business Central.
+  - In the observatory: [Page 908 "Assembly Availability"](../../../objects/page/908.md)
 - [Assembly Management](https://learn.microsoft.com/dynamics365/business-central/assembly-assemble-items): Learn how to supply products to customers by combining components in simple processes without using manufacturing features.
 - [Create Blanket Assembly Orders](https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-create-blanket-assembly-orders): Create blanket sales orders for customized assembly items before periodically making the actual sales orders according to the blanket order agreement.
+  - In the observatory: [Page 9303 "Blanket Sales Orders"](../../../objects/page/9303.md)
 - [Design details - Assembly order posting](https://learn.microsoft.com/dynamics365/business-central/design-details-assembly-order-posting): Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption/output.
+  - In the observatory: [Table 32 "Item Ledger Entry"](../../../objects/table/32.md), [Table 5802 "Value Entry"](../../../objects/table/5802.md), [Table 5832 "Capacity Ledger Entry"](../../../objects/table/5832.md)
 - [Quote an Assemble-to-Order Sale](https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-quote-an-assemble-to-order-sale): You can use assembly management to customize an assembly item to a customer's request during the sales process.
+  - In the observatory: [Page 41 "Sales Quote"](../../../objects/page/41.md)
 - [Sell Assemble-to-Order Items and Inventory Items Together](https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together): If a part of an assemble-to-stock item isn't available, you can create an assembly order for the remaining quantity.
 - [Sell Inventory Items in Assemble-to-Order Flows](https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-sell-inventory-items-in-assemble-to-order-flows): Assemble-to-order items are assembled for sales orders through an assembly order.
+  - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md), [Page 498 "Reservation"](../../../objects/page/498.md)
 - [Sell Items Assembled to Order](https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-sell-items-assembled-to-order): Learn how to sell an item that is assembled to order.
+  - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md)
 - [Understanding Assemble to Order and Assemble to Stock](https://learn.microsoft.com/dynamics365/business-central/assembly-assemble-to-order-or-assemble-to-stock): Learn about assembling items for sales orders or to keep in stock for future sales.
+  - In the observatory: [Page 30 "Item Card"](../../../objects/page/30.md)
 - [Undo Assembly Posting](https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-undo-assembly-posting): Learn how correct mistakes in a posted assembly order.
 - [Work with assembly BOMs](https://learn.microsoft.com/dynamics365/business-central/assembly-how-work-assembly-boms): You create an assembly BOM to specify the components required to put together the item that the BOM represents.
+  - In the observatory: [Page 5841 "Standard Cost Worksheet"](../../../objects/page/5841.md)
 
 ## Videos and posts
 

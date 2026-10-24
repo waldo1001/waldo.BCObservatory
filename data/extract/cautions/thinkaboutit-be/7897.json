@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/thinkaboutit-be/7897",
+  "page_id": "post/thinkaboutit-be/7897",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "An environment that was already upgraded before the pause was called does not get rolled back. It stays on the new version.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Microsoft checks extension compatibility before every major update and sends a warning email if issues are detected.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "If you select today's date but the update window has already passed, the update starts the following day within the next window.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "If an extension remains incompatible past the 90-day grace period, Microsoft updates the environment and uninstalls the extension.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003734,
+    "posts_in_call": 4
+  }
+}

@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:56:34.347Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -64,6 +64,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/564XMP2IyLM
+      title: Use Retention Policies to Avoid Unnecessary Database Growth
+      label: possibly related
+      why: both name Table 474 "Job Queue Log Entry"
+      by: code
 post_id: https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/
 source_id: stefanmaron-com
 source_name: Stefan Maron
@@ -123,6 +129,12 @@ preview:
 As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - [table 474 "Job Queue Log Entry"](../../objects/table/474.md)
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Use Retention Policies to Avoid Unnecessary Database Growth](../../videos/564XMP2IyLM.md) — possibly related: both name Table 474 "Job Queue Log Entry"
 
 ## Context
 

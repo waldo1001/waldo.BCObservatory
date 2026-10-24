@@ -1,0 +1,44 @@
+{
+  "item_id": "blog/thinkaboutit-be/7920",
+  "page_id": "post/thinkaboutit-be/7920",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "The Expense Agent uses Anthropic models. You must explicitly enable Anthropic as an AI subprocessor.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28.1",
+        "BC 2026 Release Wave 1"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Processing is billed on a consumption basis: 50 Copilot Credits per receipt, covering the full cycle.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28.1",
+        "BC 2026 Release Wave 1"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "The public preview is English only and limited to the US. Australia, New Zealand, and the UK are added in July 2026.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28.1",
+        "BC 2026 Release Wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003734,
+    "posts_in_call": 4
+  }
+}

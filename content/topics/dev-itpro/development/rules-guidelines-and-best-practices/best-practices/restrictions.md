@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:14.707Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,6 +99,8 @@ Start with the page that matches your problem: web service UI errors, sign-in fa
 
 - [Be careful about UI for web services](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-webservices): Describes restrictions on UI for web services.
 - [Moving from OnCompanyOpen](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-oncompanyopencompleted): Explains why you should use OnAfterLogin instead of OnCompanyOpen.
+  - In the observatory: [Codeunit 150 "System Initialization"](../../../../../objects/codeunit/150.md)
 - [Replacing OnBeforeCompanyOpen and OnAfterCompanyOpen](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-onbeforecompanyopen): Describes how to replace OnBeforeCompanyOpen and OnAfterCompanyOpen events.
+  - In the observatory: [Codeunit 455 "Job Queue User Handler"](../../../../../objects/codeunit/455.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

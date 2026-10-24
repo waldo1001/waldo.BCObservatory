@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:21:05.810Z"
   flags: []
 generated:
-  at: "2026-10-07T23:21:05.882Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -164,6 +164,28 @@ chapters:
     title: Linux Business Central container project and GitHub
   - t: 4605
     title: Closing remarks and presenter contact information
+cautions:
+  - kind: preview-disclaimer
+    quote: working on that and the review basically is a a a sum of all of that basically every everything gets ...
+    t: 823
+  - kind: preview-disclaimer
+    quote: Memory feature existence and function discussed as unclear and not fully understood
+    t: 1500
+  - kind: preview-disclaimer
+    quote: I'm I'm in the middle of reworking it again. Also for the stream approach with the containers and everything
+    t: 1717
+  - kind: preview-disclaimer
+    quote: it's almost working, but pretty fragile if I may say so
+    t: 3044
+  - kind: preview-disclaimer
+    quote: Now I'm still working on making this a little bit more stable
+    t: 3205
+  - kind: preview-disclaimer
+    quote: I'm still working on making this a little bit more stable, but I have like automated tests where like 270 ...
+    t: 3205
+  - kind: preview-disclaimer
+    quote: It's already public if you want to have a look on my on my GitHub profile. should be the top ...
+    t: 4468
 features:
   - name: Code review service
     status: unclear

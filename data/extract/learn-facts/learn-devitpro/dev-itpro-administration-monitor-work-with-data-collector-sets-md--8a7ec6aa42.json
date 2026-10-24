@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-work-with-data-collector-sets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-work-with-data-collector-sets",
+  "title": "Working with Data Collector sets",
+  "blob": "d969026c911de625dffdb8b5ded46353c920128f",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Data Collector Set organizes data collection points like performance counters and event trace data into single collection."
+    },
+    {
+      "kind": "fact",
+      "text": "Data Collector Sets enable scheduling data collection for later analysis and reports."
+    },
+    {
+      "kind": "fact",
+      "text": "Performance counter data is stored in log files viewable in Windows Performance Monitor."
+    },
+    {
+      "kind": "fact",
+      "text": "Can create custom Data Collection Set or use the template included with Business Central."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.011687
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:53:37.337Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview says MCP lets external hosts reach Business Central \"data and tools\". The source mentions setup, connection and tool access, so \"data\" goes slightly beyond it, though it's a reasonable reading.",
+      "The overview calls machine learning tasks \"classic\" prediction or time series tasks. The source doesn't use that word, but it does no harm.",
+      "The overview opens with \"This section groups\". That is close to the banned \"This hub\" phrasing but is acceptable."
+    ],
+    "input_hash": "5fd896f81755e0ef7c3f3d5eee94736e7393df8698b57485e604a3d7f83b5c2d",
+    "cost_usd": 0.0252912
   }
 }

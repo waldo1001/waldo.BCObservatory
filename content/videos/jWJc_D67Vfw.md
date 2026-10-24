@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:20:39.334Z"
   flags: []
 generated:
-  at: "2026-10-07T23:20:39.417Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -127,6 +127,10 @@ chapters:
     title: Q&A - tools and deep learning approaches
   - t: 2765
     title: Wrap-up and personal stories
+cautions:
+  - kind: preview-disclaimer
+    quote: Claude Code came out as a research preview
+    t: 1353
 features:
   - name: AI as development partner
     status: unclear

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:06:01.677Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:01.718Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -117,6 +117,13 @@ chapters:
     title: Learning Resources and Documentation
   - t: 710
     title: New Demo Data Sets for Financial Analytics
+cautions:
+  - kind: preview-disclaimer
+    quote: hopefully soon in the second minor uh in this release we will have new data to better demonstrate some of these new reporting capabilities
+    t: 51
+  - kind: preview-disclaimer
+    quote: for the second minor in this release we're going to provide three new demo datas sets
+    t: 730
 features:
   - name: Power BI Finance App
     status: unclear

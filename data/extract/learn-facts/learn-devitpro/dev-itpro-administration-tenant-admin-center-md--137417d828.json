@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center",
+  "title": "Business Central Administration Center",
+  "blob": "4c18100ca316bc7a42cd25db986bf432ac48ad48",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "The admin center provides a portal for administrators to view and work with production and sandbox environments on the tenant."
+    },
+    {
+      "kind": "permission",
+      "text": "Dynamics 365 Administrator and Dynamics 365 Business Central Administrator roles authorize access to the admin center."
+    },
+    {
+      "kind": "fact",
+      "text": "Internal admins with Dynamics 365 Business Central Administrator role can access the admin center from Business Central or via direct URL."
+    },
+    {
+      "kind": "fact",
+      "text": "Partner organizations must set up a GDAP relationship with required roles to access customer admin centers."
+    },
+    {
+      "kind": "fact",
+      "text": "Delegated administrators do not need a license assigned or be a guest user to access customer admin centers."
+    },
+    {
+      "kind": "fact",
+      "text": "Support contact details, notification recipients, Application Insights keys, and authorized Microsoft Entra apps should be removed when switching partners."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00629,
+      "pages_in_call": 8
+    }
+  ]
+}

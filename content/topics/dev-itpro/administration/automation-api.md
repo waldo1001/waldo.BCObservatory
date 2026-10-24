@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1d6937bc7522f4fcd17782da067506160a0f9765f6b2c87c2ea479425c455483
@@ -323,8 +323,7 @@ links:
     - topic/dev-itpro/administration/automation-api/user-group-member
     - topic/dev-itpro/administration/automation-api/user-permission
   localizations: []
-  videos:
-    - video/efoFM5uiCxg
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -353,7 +352,7 @@ children:
 coverage:
   learn: 55
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -391,11 +390,15 @@ Path: [Administration](../administration.md) > Automation API Â· tier official Â
 
 - [apicategoryroutes resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_apicategoryroutes): An apicategoryroutes object in Dynamics 365 Business Central.
 - [Introduction to automation APIs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis): Learn how automation APIs create companies, apply configuration packages, manage extensions, assign permissions, and inspect security settings.
+  - Automation APIs enable company setup automation using delegated admin credentials or Business Central users with appropriate permissions.
+  - Create company via POST to automationCompany endpoint with name, displayName, businessProfileId parameters.
+  - Step: Upload RapidStart package by first creating configuration package with POST, then uploading file with PATCH to content endpoint.
+  - Step: Import RapidStart via POST Microsoft.NAV.import bound action, then apply via POST Microsoft.NAV.apply bound action.
+  - User groups deprecated in version 25 replaced by security groups for managing user permissions.
+  - Extensions installed via Microsoft.NAV.install bound action or unpublished via Microsoft.NAV.unpublish introduced in version 25.4.
+  - Limit: Per-tenant extension upload and install via Automation APIs supported only in SaaS, not on-premises.
+  - Features activated or deactivated through Microsoft.NAV.activate and Microsoft.NAV.deactivate bound actions on feature endpoint.
 
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [What's New: Get Notified of Issues with Job Queues (2024 release wave 2)](../../../videos/efoFM5uiCxg.md) (video): "job queue notifications; background processing; business events"
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

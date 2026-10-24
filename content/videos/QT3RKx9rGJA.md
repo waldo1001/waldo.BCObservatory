@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:02:23.430Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:23.494Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -317,6 +317,31 @@ chapters:
     title: Local Development Environment with Multiple Projects
   - t: 3614
     title: Licensing Requirements for AppSource Development
+cautions:
+  - kind: preview-disclaimer
+    quote: right now you cannot do a sketch on that... there is a mechanism to do that by creating a small yo file... I'll create document for how to do that as well
+    t: 781
+  - kind: preview-disclaimer
+    quote: there is an PR called incremental builds that one will only build the the apps that are changed
+    t: 869
+  - kind: preview-disclaimer
+    quote: incremental builds PR expected to get in preview within the next few weeks
+    t: 926
+  - kind: preview-disclaimer
+    quote: results viewer for Alo for GitHub is being worked on
+    t: 1159
+  - kind: preview-disclaimer
+    quote: working on figuring out if we can run page scripting tasks as part of deployment
+    t: 1180
+  - kind: preview-disclaimer
+    quote: I'll expect the results viewer to be done before we ship version seven in April
+    t: 1201
+  - kind: preview-disclaimer
+    quote: page scripting test and QA requires investigation due to MFA compatibility issues
+    t: 1222
+  - kind: preview-disclaimer
+    quote: publishing to NuGet feed model being talked about maybe a year or two from now
+    t: 1543
 features:
   - name: Conditional Settings on Build Mode
     status: ga

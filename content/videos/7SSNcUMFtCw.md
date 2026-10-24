@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:56:08.282Z"
   flags: []
 generated:
-  at: "2026-10-07T22:56:08.326Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -162,12 +162,29 @@ links:
   learn: []
   objects:
     - object/codeunit/457
-  features: []
+  features:
+    - feature/577820
   topics: []
   localizations: []
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/aardvarklabs-blog/1816
+      title: Creating Data Driven Text with AI in Business Central
+      label: possibly related
+      why: both name Codeunit 457 "Environment Information"
+      by: code
+    - to: post/aardvarklabs-blog/2816
+      title: "Understanding AL Development: Environmental Information Code Unit"
+      label: possibly related
+      why: both name Codeunit 457 "Environment Information"
+      by: code
+    - to: video/TY82NR2hGEg
+      title: "What's New: Business Central Developer Tools (2023 release wave 2)"
+      label: possibly related
+      why: both name Codeunit 457 "Environment Information"
+      by: code
 video_id: 7SSNcUMFtCw
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -205,27 +222,57 @@ chapters:
     title: Responsible AI and Billing Differences
   - t: 1264
     title: Resources and Closing
+cautions:
+  - kind: preview-disclaimer
+    quote: moving BC or Business Central AI resources from private preview, that means by invitation only, uh to a public preview available for all of you
+    t: 39
+  - kind: preview-disclaimer
+    quote: partners still need to use their own subscription when they are prototyping, developing and testing and troubleshooting in non-production
+    t: 112
+  - kind: preview-disclaimer
+    quote: we have uh in the plans to have some even better protection
+    t: 367
+  - kind: preview-disclaimer
+    quote: data source capabilities that Azure OpenAI exposes from our toolkit. That is currently not possible
+    t: 812
+  - kind: preview-disclaimer
+    quote: we can expose non open AI models in our toolkit for example deepseek or other models that have come out recently. And the answer is we don't support that currently
+    t: 852
+  - kind: preview-disclaimer
+    quote: the details of that uh is not ready at the time of this recording. Um but keep an eye out for details after launch to learn more about how the billing works.
+    t: 1039
+  - kind: preview-disclaimer
+    quote: we have plans in probably next release uh in a you know half a year to a year's time frame to provide some semantic search capabilities
+    t: 1136
 features:
   - name: Business Central AI Resources
     status: preview
     t: 6
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Consumption-based billing for AI resource use
-    status: announced
+    status: preview
     t: 56
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Content safety with blocking policy
-    status: unclear
+    status: preview
     t: 314
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Set managed resource authorization function
-    status: unclear
+    status: preview
     t: 489
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Bring your own Azure OpenAI subscription
     status: unclear
     t: 83
@@ -242,10 +289,12 @@ features:
     verified: false
     status_source: video
   - name: System prompts for AI safety
-    status: unclear
+    status: preview
     t: 702
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Model deprecation notifications via telemetry
     status: unclear
     t: 749
@@ -267,10 +316,12 @@ features:
     verified: false
     status_source: video
   - name: AI Resources model availability
-    status: unclear
+    status: preview
     t: 1111
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Embeddings support
     status: announced
     t: 1136
@@ -368,20 +419,22 @@ It then covers how developers use them. The set managed resource authorization f
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Business Central AI Resources | preview | [0:06](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=6s) | "we're moving BC or Business Central AI resources from private preview, that means by invitation only, uh to a public preview" ([0:39](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=39s)) |
-| Consumption-based billing for AI resource use | announced | [0:56](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=56s) | "So this will be a consumptionbased uh approach where the customers will build directly from Microsoft." ([17:06](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1026s)) |
-| Content safety with blocking policy | status not stated | [5:14](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=314s) |  |
-| Set managed resource authorization function | status not stated, demoed | [8:09](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=489s) |  |
+| Business Central AI Resources | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [0:06](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=6s) | "we're moving BC or Business Central AI resources from private preview, that means by invitation only, uh to a public preview" ([0:39](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=39s)) |
+| Consumption-based billing for AI resource use | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [0:56](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=56s) | "So this will be a consumptionbased uh approach where the customers will build directly from Microsoft." ([17:06](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1026s)) |
+| Content safety with blocking policy | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [5:14](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=314s) |  |
+| Set managed resource authorization function | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)), demoed | [8:09](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=489s) |  |
 | Bring your own Azure OpenAI subscription | status not stated, demoed | [1:23](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=83s) |  |
 | Conditional code pattern for development and production | status not stated, demoed | [10:01](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=601s) |  |
 | Data residency control for AI calls | status not stated | [11:10](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=670s) |  |
-| System prompts for AI safety | status not stated | [11:42](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=702s) |  |
+| System prompts for AI safety | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [11:42](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=702s) |  |
 | Model deprecation notifications via telemetry | status not stated | [12:29](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=749s) |  |
 | Azure OpenAI Deployments code unit | status not stated | [9:18](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=558s) |  |
 | Data source capabilities in AI Resources | status not stated | [13:32](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=812s) |  |
 | Non-OpenAI models support | status not stated | [14:00](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=840s) |  |
-| AI Resources model availability | status not stated | [18:31](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1111s) |  |
+| AI Resources model availability | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [18:31](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1111s) |  |
 | Embeddings support | announced | [18:56](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1136s) | "we do not support uh embeddings although we have plans in probably next release uh in a you know half a year to a" ([18:56](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1136s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 
@@ -419,5 +472,13 @@ Not found in BC28-30: codeunit "Azure AOI deployments".
 - [14:12](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=852s) not-in-this-release: we can expose non open AI models in our toolkit for example deepseek or other models that have come out recently. And the answer is we don't support that currently
 - [17:19](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1039s) subject-to-change: the details of that uh is not ready at the time of this recording. Um but keep an eye out for details after launch to learn more about how the billing works.
 - [18:56](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1136s) coming-later: we have plans in probably next release uh in a you know half a year to a year's time frame to provide some semantic search capabilities
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Creating Data Driven Text with AI in Business Central](../posts/aardvarklabs-blog/1816.md) — possibly related: both name Codeunit 457 "Environment Information"
+- [Understanding AL Development: Environmental Information Code Unit](../posts/aardvarklabs-blog/2816.md) — possibly related: both name Codeunit 457 "Environment Information"
+- [What's New: Business Central Developer Tools (2023 release wave 2)](../videos/TY82NR2hGEg.md) — possibly related: both name Codeunit 457 "Environment Information"
 
 Presenters (as heard): Peter Bo, Enrico Chibitan.

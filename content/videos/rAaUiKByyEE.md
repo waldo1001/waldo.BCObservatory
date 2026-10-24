@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:54:07.198Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:07.243Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,6 +121,15 @@ chapters:
     title: In-client help and documentation improvements
   - t: 696
     title: Resources and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: this only works in the version 27 in the one we release here in October. Doesn't work for sales for the sales app for previous versions
+    t: 415
+    versions:
+      - "27"
+  - kind: preview-disclaimer
+    quote: These four reports are no longer needed. They are covered in other places of the product either with data analysis and or with a PowerBI app for sales.
+    t: 668
 features:
   - name: Updated PowerBI app for sales
     status: unclear

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-prerequisites-gp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-gp",
+  "title": "Cloud Migration Prerequisites for Dynamics GP",
+  "blob": "c305dc595549b2ed469806bd520f85541c873308",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Destination requires Business Central online tenant with at least one SUPER user."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Install Intelligent Cloud Base, Dynamics GP Intelligent Cloud, and history SmartLists apps."
+    },
+    {
+      "kind": "limit",
+      "text": "GP migration currently supported only in US, Canada, UK, and Australia markets."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Source requires Dynamics GP 2015 or later on SQL Server 2016 SP1 or later."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "SQL database compatibility level must be 130 or higher with TCP/IP enabled."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "SQL authentication login needs sysadmin role at server level and db_owner role at database level."
+    },
+    {
+      "kind": "fact",
+      "text": "Self-hosted integration runtime machine must meet Azure Data Factory prerequisites."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004442,
+      "pages_in_call": 13
+    }
+  ]
+}

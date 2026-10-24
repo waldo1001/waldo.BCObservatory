@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:54:52.063Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:52.140Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -138,6 +138,31 @@ chapters:
     title: Long-term Vision and Future Capabilities
   - t: 850
     title: Closing and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: the payables agent is in preview
+    t: 98
+  - kind: preview-disclaimer
+    quote: the agent is in preview in four countries United States, United Kingdom, Australia and New Zealand
+    t: 112
+  - kind: preview-disclaimer
+    quote: all of this content has been AI generated. So a human needs to review as there can be errors.
+    t: 272
+  - kind: preview-disclaimer
+    quote: There might still be some language and geographical restrictions even if we go general availability
+    t: 625
+  - kind: preview-disclaimer
+    quote: we want to improve the matching of vendors
+    t: 640
+  - kind: preview-disclaimer
+    quote: we want to be able to source any invoice whether it's an electronic invoice like the e invoices
+    t: 692
+  - kind: preview-disclaimer
+    quote: we want to help with identifying fraudulent invoices in different anti-fraud scenarios
+    t: 706
+  - kind: preview-disclaimer
+    quote: we also want to handle approvals basically we want you to be able to approve an invoice from from anywhere
+    t: 819
 features:
   - name: AI-powered invoice processing
     status: preview

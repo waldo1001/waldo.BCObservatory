@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:21:05.900Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -119,6 +119,10 @@ chapters:
     title: Content Bloat and the Rise of Short-Form Media
   - t: 1886
     title: AI-Generated Clips and Content Generation Tools
+cautions:
+  - kind: preview-disclaimer
+    quote: Gemini does not do video right now but will eventually have avatar capability
+    t: 2078
 features:
   - name: AI Agent for Content Summarization
     status: unclear

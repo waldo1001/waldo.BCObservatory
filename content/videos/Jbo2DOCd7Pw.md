@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:00:19.800Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:19.852Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -103,6 +103,10 @@ chapters:
     title: "Demo: Work Order Management in Field Service"
   - t: 343
     title: Resources and Conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: You might have seen videos talking about both of those integrations released last year information circulating on social media. Uh and um this is all now finally coming to you in 25 uh wave 1.
+    t: 105
 features:
   - name: Field Service Integration for Projects
     status: ga

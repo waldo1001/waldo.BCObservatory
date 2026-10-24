@@ -25,7 +25,7 @@ review:
   at: "2026-10-15T00:26:06.486Z"
   flags: []
 generated:
-  at: "2026-10-15T00:26:06.559Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -112,6 +112,10 @@ chapters:
     title: System and Software Requirements for BC29
   - t: 1812
     title: Developer Machine, Mobile App, and Installation Verification
+cautions:
+  - kind: preview-disclaimer
+    quote: this number may vary based on different localization that are available for business central onprem for watch and 2026 release wave 2
+    t: 1192
 features:
   - name: Business Central 29 On-Premises Installation
     status: unclear

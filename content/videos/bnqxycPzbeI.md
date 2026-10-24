@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:58:14.287Z"
   flags: []
 generated:
-  at: "2026-10-07T22:58:14.329Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -111,6 +111,32 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model
+      title: Power BI Sustainability app semantic model
+      label: possibly related
+      why: names Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/qPInVj03wkY
+      title: "What's New in Sustainability: Reporting CSRD (2025 release wave 2)"
+      label: possibly related
+      why: both name Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/RaiQPiEdvbg
+      title: "What's New: Post Emissions with the General Journal (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/lqVWc-Yuots
+      title: "What's New: Sustainability (2026 release wave 1)"
+      label: possibly related
+      why: both name Table 6227 "Sustainability Value Entry"
+      by: code
+    - to: video/6d6iajwQQ-c
+      title: "What's New: Value Chain Automation with Production Orders (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 6227 "Sustainability Value Entry"
+      by: code
 video_id: bnqxycPzbeI
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -143,6 +169,25 @@ chapters:
     title: Transfer Order Emissions Entry and Posting
   - t: 538
     title: Sustainability Value Entry Results and Item Card Updates
+cautions:
+  - kind: preview-disclaimer
+    quote: value chain is in this moment public review.
+    t: 93
+  - kind: preview-disclaimer
+    quote: This is something what will come next wave. So this is the completed functionality value chain is in this moment public review. item charge
+    t: 93
+  - kind: preview-disclaimer
+    quote: In this moment we do not have print print out for sales invoice
+    t: 130
+  - kind: preview-disclaimer
+    quote: when you post you will not get uh emissions information in both of posted documents in posted transfer uh shipment receipt.
+    t: 217
+  - kind: preview-disclaimer
+    quote: in this moment in this way we are limited only on average method in the future we will see on your feedback if you want to extend to different method
+    t: 248
+  - kind: preview-disclaimer
+    quote: this is in public preview. So our suggestion will be first try it test it in your sandbox environment.
+    t: 274
 features:
   - name: Sustainability Value Entries
     status: unclear
@@ -292,3 +337,13 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [3:37](https://www.youtube.com/watch?v=bnqxycPzbeI&t=217s) not-in-this-release: when you post you will not get uh emissions information in both of posted documents in posted transfer uh shipment receipt.
 - [4:08](https://www.youtube.com/watch?v=bnqxycPzbeI&t=248s) preview: in this moment in this way we are limited only on average method in the future we will see on your feedback if you want to extend to different method
 - [4:34](https://www.youtube.com/watch?v=bnqxycPzbeI&t=274s) preview: this is in public preview. So our suggestion will be first try it test it in your sandbox environment.
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Power BI Sustainability app semantic model](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model) — possibly related: names Table 6216 "Sustainability Ledger Entry"
+- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../videos/qPInVj03wkY.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
+- [What's New: Post Emissions with the General Journal (2025 release wave 1)](../videos/RaiQPiEdvbg.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
+- [What's New: Sustainability (2026 release wave 1)](../videos/lqVWc-Yuots.md) — possibly related: both name Table 6227 "Sustainability Value Entry"
+- [What's New: Value Chain Automation with Production Orders (2025 release wave 1)](../videos/6d6iajwQQ-c.md) — possibly related: both name Table 6227 "Sustainability Value Entry"

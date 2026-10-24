@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup",
+  "title": "Run Cloud Migration Setup",
+  "blob": "4c6a15e1a1017e1af4c7e63adb24e9273d39bed2",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Cloud Migration Setup guided wizard configures components for migrating data from on-premises to Business Central online."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "User running setup must have Microsoft 365 tenant admin and Business Central admin rights."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Delegated administrators need approval from licensed user with SUPER permissions."
+    },
+    {
+      "kind": "step",
+      "text": "Review cloud migration prerequisites and create table mappings if needed."
+    },
+    {
+      "kind": "step",
+      "text": "Sign into Microsoft 365 tenant and Business Central online environment."
+    },
+    {
+      "kind": "step",
+      "text": "Open Cloud Migration Setup and accept warnings, then select product version."
+    },
+    {
+      "kind": "step",
+      "text": "Define SQL database connection and integration runtime settings."
+    },
+    {
+      "kind": "step",
+      "text": "Select companies to migrate or choose all companies."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004442,
+      "pages_in_call": 13
+    }
+  ]
+}

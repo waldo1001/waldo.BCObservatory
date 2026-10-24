@@ -2,13 +2,13 @@
   "hub_id": "topic/business-central/business-functionality/local-functionality/germany/purchasing",
   "input_hash": "1b04f0099c3807434b6f74f4c1768b9bb8aff32bf3e8e9ff82b4103bca666a48",
   "summary": "Purchasing for the German version of Business Central covers delivery reminders, which notify vendors about overdue deliveries. It answers questions about setting up reminder terms, levels, text and vendor codes, and about generating, creating, reviewing and issuing reminders.",
-  "overview": "This section holds the German local functionality for purchasing, and all its pages deal with delivery reminders. A delivery reminder is used to remind a vendor that a delivery is late. The overview page, Delivery Reminders [DE], lists the whole process in order: setup, generation or manual creation, and issuing.\n\nStart with Set Up Delivery Reminders [DE]. It covers the terms, levels, text and vendor codes. Two pages go deeper on this: Set Up Delivery Reminder Terms, Levels, and Text [DE], and Assign delivery reminder codes to vendors [DE].\n\nAfter setup, you can generate reminders with How to Generate Delivery Reminders [DE], or create them by hand with How to Create Delivery Reminders Manually [DE]. Before issuing, you can print a test report to review and change reminders. The last step is described in Issue delivery reminders in the German version.",
+  "overview": "This section holds the German local functionality for purchasing, and all its pages deal with delivery reminders. A delivery reminder is used to remind a vendor that a delivery is late. The overview page, Delivery Reminders [DE], lists the whole process in order: setup, generation or manual creation, and issuing.\n\nStart with Set Up Delivery Reminders [DE]. It covers the terms, levels, text and vendor codes. Two pages go deeper on this: Set Up Delivery Reminder Terms, Levels, and Text [DE], and Assign delivery reminder codes to vendors [DE].\n\nAfter setup, you can generate reminders with How to Generate Delivery Reminders [DE], or create them by hand with How to Create Delivery Reminders Manually [DE]. Before issuing, you can review and change reminders by printing a test report, as described in Print test reports for delivery reminders [DE]. The last step is described in Issue delivery reminders in the German version.",
   "key_points": [
     "Delivery reminders remind vendors of late or overdue deliveries in the German version of Business Central.",
     "Setup covers delivery reminder terms, levels, text and codes.",
     "Delivery reminder codes must be assigned to vendors to enable the functionality for their purchases.",
-    "Reminders can be generated in bulk or created manually outside the automated process.",
-    "A test report can be printed to preview and review reminders before they are issued.",
+    "Reminders can be generated through the automated process or created manually outside it.",
+    "A test report can be printed to preview, review and modify reminders before they are issued.",
     "Issuing delivery reminders is the final step and notifies the vendor.",
     "The Delivery Reminders [DE] overview page is the best entry point for the full process."
   ],
@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.012511000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:55:32.620Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point says reminders can be generated 'in bulk'. The page summaries describe generation only as the automated process and never mention bulk or batch generation. Reworded.",
+      "The overview mentions printing a test report but leaves out the title of the page that covers it, Print test reports for delivery reminders [DE]. Added the title so agents can find the page.",
+      "Everything else matches the page summaries: setup of terms, levels, text and vendor codes, generation, manual creation, the test report review before issuing, and issuing to notify vendors."
+    ],
+    "input_hash": "1b04f0099c3807434b6f74f4c1768b9bb8aff32bf3e8e9ff82b4103bca666a48",
+    "cost_usd": 0.0393232
   }
 }

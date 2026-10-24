@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:28.884Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -136,12 +136,16 @@ Start with the object type you want to change. Page extension, table extension a
 ## Learn pages
 
 - [Event types](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-event-types): Business Central supports different types of events including BusinessEvent, IntegrationEvent, Global, and trigger events.
+  - In the observatory: [Codeunit 40 "LogInManagement"](../../../../objects/codeunit/40.md), [Codeunit 42 "Caption Class"](../../../../objects/codeunit/42.md), [Codeunit 44 "ReportManagement"](../../../../objects/codeunit/44.md), [Codeunit 49 "GlobalTriggerManagement"](../../../../objects/codeunit/49.md)
 - [Extending Application Areas](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-application-areas): Learn about extending application areas in Business Central.
+  - In the observatory: [Table 9178 "Application Area Setup"](../../../../objects/table/9178.md)
 - [Extensible Enums](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums): Overview of the enumeration type and the concept of extending them.
 - [Page extension object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object): Extend page objects with page extension objects in AL for Business Central.
 - [Permission Set Extension Object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-ext-object): Description of the permission set extension object in AL for Business Central.
 - [Report extension object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-ext-object): The report extension object in AL for Business Central allows you to create an extension of an existing report.
+  - In the observatory: [Report 111 "Customer - Top 10 List"](../../../../objects/report/111.md)
 - [Table extension object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object): This article describes the table extension object in AL for Business Central.
+  - In the observatory: [Table 18 "Customer"](../../../../objects/table/18.md)
 
 ## Videos, posts and code changes
 

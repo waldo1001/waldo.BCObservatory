@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/10/business-central-is-transitioning-to-dotnet-10/",
+  "page_id": "post/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "it's no longer enough to know the major version since we are now on 27",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27",
+        "28",
+        "29"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "If your development or testing involves .NET interop or custom .NET components, check your tooling and dependencies before updating",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27",
+        "28",
+        "29"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "the runtime change itself isn't the risk; version mismatch is",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27",
+        "28",
+        "29"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "It's the stuff that quietly breaks a pipeline on a Tuesday morning when nobody changed anything, except the runtime did",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27",
+        "28",
+        "29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005507,
+    "posts_in_call": 4
+  }
+}

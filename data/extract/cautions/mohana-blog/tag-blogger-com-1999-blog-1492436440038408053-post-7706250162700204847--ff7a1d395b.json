@@ -1,0 +1,37 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7706250162700204847",
+  "page_id": "post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "There is no supported route that takes a NAV database straight into Business Central online.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "breaking",
+      "quote": "Starting with 2025 release wave 1 (v26), direct upgrade from version 14 to the latest release stopped being supported.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "26"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Code does not replicate. Tables and fields exist in the cloud only because an extension in that tenant declares them.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005394,
+    "posts_in_call": 4
+  }
+}

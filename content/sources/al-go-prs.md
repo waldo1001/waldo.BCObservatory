@@ -2,7 +2,7 @@
 id: source/al-go-prs
 type: source
 title: microsoft/AL-Go pull requests
-summary: "microsoft/AL-Go pull requests: 32 code changes in the knowledge base, 2026-07-10 to 2026-10-20, mostly about platform, development, copilot."
+summary: "microsoft/AL-Go pull requests: 33 code changes in the knowledge base, 2026-07-10 to 2026-10-22, mostly about platform, development, copilot."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T00:21:26.098Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 83e399eddeb949caf1427108c2f55deba6ee8e23eaa89cf2a491377f3887a412
+  input_hash: 0b80dcb7423111b22c9d3c1b77bce160f2d967c71b5ad4a81873e79046e778fe
 evidence:
   - kind: code
     url: https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged
@@ -67,30 +67,31 @@ links:
     - change/al-go/2403
     - change/al-go/2402
     - change/al-go/2413
+    - change/al-go/2407
 source_id: al-go-prs
 kind: github-pr
 url: https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 32
+item_count: 33
 footprint:
   systems:
     - id: platform
-      weight: 46
+      weight: 48
     - id: development
-      weight: 30
+      weight: 31
     - id: copilot
       weight: 4
     - id: integration
       weight: 2
   topics:
     - id: main
-      weight: 32
+      weight: 33
     - id: fix
       weight: 22
     - id: feature
-      weight: 8
+      weight: 9
     - id: other
       weight: 1
     - id: refactor
@@ -98,12 +99,12 @@ footprint:
   objects: []
   features: []
 first_item: "2026-07-10"
-last_item: "2026-10-20"
+last_item: "2026-10-22"
 ---
 
 # microsoft/AL-Go pull requests
 
-> microsoft/AL-Go pull requests: 32 code changes in the knowledge base, 2026-07-10 to 2026-10-20, mostly about platform, development, copilot.
+> microsoft/AL-Go pull requests: 33 code changes in the knowledge base, 2026-07-10 to 2026-10-22, mostly about platform, development, copilot.
 
 [https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -111,9 +112,9 @@ last_item: "2026-10-20"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| platform (46) | main (32) |  |
-| development (30) | fix (22) |  |
-| copilot (4) | feature (8) |  |
+| platform (48) | main (33) |  |
+| development (31) | fix (22) |  |
+| copilot (4) | feature (9) |  |
 | integration (2) | other (1) |  |
 |  | refactor (1) |  |
 
@@ -122,10 +123,11 @@ last_item: "2026-10-20"
 Items per quarter, oldest first:
 
 - 2026-Q3: ************************** 26
-- 2026-Q4: ****** 6
+- 2026-Q4: ******* 7
 
 ## Most recent
 
+- [#2407 Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency](../changes/al-go/2407.md) (2026-10-22)
 - [#2413 Only enable automatic Copilot review triggers when opted in](../changes/al-go/2413.md) (2026-10-20)
 - [#2402 Move Copilot review engine into AL-Go](../changes/al-go/2402.md) (2026-10-20)
 - [#2403 Fix dependency filenames containing commas](../changes/al-go/2403.md) (2026-10-14)
@@ -145,6 +147,5 @@ Items per quarter, oldest first:
 - [#2331 Support trackALAlertsInGitHub for workspace compilation build path](../changes/al-go/2331.md) (2026-08-13)
 - [#2321 fix: error on delivery of multiple release artifacts of same project](../changes/al-go/2321.md) (2026-08-07)
 - [#2342 Fix incremental builds poisoning buildMode-specific artifacts (#2337)](../changes/al-go/2342.md) (2026-08-07)
-- [#2334 Handle app names with underscores correctly for reference documentation](../changes/al-go/2334.md) (2026-07-31)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/database-reduce-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-reduce-data",
+  "title": "Keeping Database Size Under the Limit",
+  "blob": "e6690b88fbff8f7419ca7d4d273b66f6c0034472",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Reducing database size prevents reaching size limits in Business Central online, improves runtime performance, and simplifies backup and restore processes."
+    },
+    {
+      "kind": "step",
+      "text": "Delete unused companies such as test or demo companies to reduce stored data."
+    },
+    {
+      "kind": "step",
+      "text": "Delete historical documents no longer needed like invoiced purchase orders."
+    },
+    {
+      "kind": "step",
+      "text": "Set up retention policies to automatically delete outdated data in log and archived record tables."
+    },
+    {
+      "kind": "fact",
+      "text": "Business Central online automatically enables page-level data compression on tables unless CompressionType property is set to None."
+    },
+    {
+      "kind": "step",
+      "text": "Enable data compression on tables using CompressionType property or Start-NAVDatabaseCompression cmdlet for on-premises 2020 release wave 1 and later."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "blog/demiliani-com/13961",
+  "page_id": "post/demiliani-com/13961",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "WaitForAllToFinish can occupy a session for up to 3600 seconds, doing nothing but sleeping and polling.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Parallel Session Management"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "You will never see this codeunit exposed for SaaS as is.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Parallel Session Management"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004298,
+    "posts_in_call": 4
+  }
+}

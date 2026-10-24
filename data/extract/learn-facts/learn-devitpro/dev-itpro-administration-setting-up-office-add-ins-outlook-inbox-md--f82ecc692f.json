@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/Setting-up-Office-Add-Ins-Outlook-Inbox.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/Setting-up-Office-Add-Ins-Outlook-Inbox",
+  "title": "Set up the add-ins for Outlook in Business Central on-premises",
+  "blob": "297a20988ca859aac4a059a9a723f495155425a8",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available for Business Central on-premises with Exchange Server or Exchange Online."
+    },
+    {
+      "kind": "fact",
+      "text": "Contact Insights add-in provides customer and vendor information in Outlook and enables sending business documents."
+    },
+    {
+      "kind": "fact",
+      "text": "Document View add-in provides direct link from email to actual business document in Business Central."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "From February 1 2025, Exchange Online requires Outlook add-ins to use Nested App Authentication."
+    },
+    {
+      "kind": "fact",
+      "text": "Three deployment options available: Centralized Deployment, Automated Individual Deployment, Manual Individual Deployment."
+    },
+    {
+      "kind": "limit",
+      "text": "Add-in works with single Business Central environment; to use with different environment reinstall add-in there."
+    },
+    {
+      "kind": "fact",
+      "text": "Centralized Deployment can take up to 24 hours before users see add-in in Outlook app."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008771,
+      "pages_in_call": 4
+    }
+  ]
+}

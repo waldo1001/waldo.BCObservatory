@@ -334,7 +334,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
     "objects": [
       {
         "path": "src/Apps/FR/FECAuditFile/app/src/AuditFileExportFormatFEC.EnumExt.al",
@@ -357,6 +357,160 @@
         "app": "FECAuditFile",
         "cc": "fr",
         "page": "pageextension/10826-fr"
+      },
+      {
+        "path": "src/Apps/FR/FECAuditFile/app/src/PageVisibilityFEC.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/10879",
+        "type": "codeunit",
+        "id": 10879,
+        "name": "Page Visibility FEC",
+        "app": "FECAuditFile",
+        "cc": "fr",
+        "page": "codeunit/10879-fr"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/AuditFileExportFormatXML.EnumExt.al",
+        "status": "added",
+        "key": "enumextension/10803",
+        "type": "enumextension",
+        "id": 10803,
+        "name": "Audit File Export Format XML",
+        "app": "XMLAuditFile",
+        "cc": "fr",
+        "page": "enumextension/10803-fr"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/DataCheckXML.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/10805",
+        "type": "codeunit",
+        "id": 10805,
+        "name": "Data Check XML",
+        "app": "XMLAuditFile",
+        "cc": "fr",
+        "page": "codeunit/10805-fr"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/DataHandlingXML.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/10806",
+        "type": "codeunit",
+        "id": 10806,
+        "name": "Data Handling XML",
+        "app": "XMLAuditFile",
+        "cc": "fr",
+        "page": "codeunit/10806-fr"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/ExportEngine/AuditExportDocCardXML.PageExt.al",
+        "status": "added",
+        "key": "pageextension/10803",
+        "type": "pageextension",
+        "id": 10803,
+        "name": "Audit Export Doc. Card XML",
+        "app": "XMLAuditFile",
+        "cc": "fr",
+        "page": "pageextension/10803-fr"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/ExportEngine/AuditFileExportHeaderXML.TableExt.al",
+        "status": "added",
+        "key": "tableextension/10803",
+        "type": "tableextension",
+        "id": 10803,
+        "name": "Audit File Export Header XML",
+        "app": "XMLAuditFile",
+        "cc": "fr",
+        "page": "tableextension/10803-fr"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/ExportEngine/GenerateFileXML.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/10811",
+        "type": "codeunit",
+        "id": 10811,
+        "name": "Generate File XML",
+        "app": "XMLAuditFile",
+        "cc": "fr",
+        "page": "codeunit/10811-fr"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/ExportGLEntriesFR.XmlPort.al",
+        "status": "added",
+        "key": "xmlport/10803",
+        "type": "xmlport",
+        "id": 10803,
+        "name": "Export G/L Entries FR",
+        "app": "XMLAuditFile",
+        "cc": "fr",
+        "page": "xmlport/10803-fr"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/PageVisibilityXML.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/10813",
+        "type": "codeunit",
+        "id": 10813,
+        "name": "Page Visibility XML",
+        "app": "XMLAuditFile",
+        "cc": "fr",
+        "page": "codeunit/10813-fr"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/Permissions/XMLAuditExport.PermissionSet.al",
+        "status": "added",
+        "key": "permissionset/10808",
+        "type": "permissionset",
+        "id": 10808,
+        "name": "XML Audit - Export",
+        "app": "XMLAuditFile",
+        "cc": "fr",
+        "page": "permissionset/10808-fr"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/Permissions/XMLObjects.PermissionSet.al",
+        "status": "added",
+        "key": "permissionset/10807",
+        "type": "permissionset",
+        "id": 10807,
+        "name": "XML - Objects",
+        "app": "XMLAuditFile",
+        "cc": "fr",
+        "page": "permissionset/10807-fr"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/Setup/AuditExportFormatSetupXML.PageExt.al",
+        "status": "added",
+        "key": "pageextension/10804",
+        "type": "pageextension",
+        "id": 10804,
+        "name": "Audit Export Format Setup XML",
+        "app": "XMLAuditFile",
+        "cc": "fr",
+        "page": "pageextension/10804-fr"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/Setup/AuditFileExportSetupXML.PageExt.al",
+        "status": "added",
+        "key": "pageextension/10805",
+        "type": "pageextension",
+        "id": 10805,
+        "name": "Audit File Export Setup XML",
+        "app": "XMLAuditFile",
+        "cc": "fr",
+        "page": "pageextension/10805-fr"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/Setup/InstallXML.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/10804",
+        "type": "codeunit",
+        "id": 10804,
+        "name": "Install XML",
+        "app": "XMLAuditFile",
+        "cc": "fr",
+        "page": "codeunit/10804-fr"
       },
       {
         "path": "src/Apps/SE/SIE/app/src/AuditFileExportFormatSIE.EnumExt.al",
@@ -401,6 +555,28 @@
         "app": "AuditFileExport",
         "cc": "w1",
         "page": "enum/5262"
+      },
+      {
+        "path": "src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al",
+        "status": "added",
+        "key": "interface/audit file export page visibility",
+        "type": "interface",
+        "id": null,
+        "name": "Audit File Export Page Visibility",
+        "app": "AuditFileExport",
+        "cc": "w1",
+        "page": "interface/audit-file-export-page-visibility"
+      },
+      {
+        "path": "src/Apps/W1/AuditFileExport/app/src/AuditFilePageVisibility.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5311",
+        "type": "codeunit",
+        "id": 5311,
+        "name": "Audit File Page Visibility",
+        "app": "AuditFileExport",
+        "cc": "w1",
+        "page": "codeunit/5311"
       },
       {
         "path": "src/Apps/W1/AuditFileExport/app/src/ExportEngine/AuditFileExportDocCard.Page.al",
@@ -471,86 +647,6 @@
     ],
     "unjoined": [
       {
-        "path": "src/Apps/FR/FECAuditFile/app/src/PageVisibilityFEC.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/XMLAuditFile/app/src/AuditFileExportFormatXML.EnumExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/XMLAuditFile/app/src/DataCheckXML.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/XMLAuditFile/app/src/DataHandlingXML.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/XMLAuditFile/app/src/ExportEngine/AuditExportDocCardXML.PageExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/XMLAuditFile/app/src/ExportEngine/AuditFileExportHeaderXML.TableExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/XMLAuditFile/app/src/ExportEngine/GenerateFileXML.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/XMLAuditFile/app/src/ExportGLEntriesFR.XmlPort.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/XMLAuditFile/app/src/PageVisibilityXML.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/XMLAuditFile/app/src/Permissions/XMLAuditExport.PermissionSet.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/XMLAuditFile/app/src/Permissions/XMLObjects.PermissionSet.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/XMLAuditFile/app/src/Setup/AuditExportFormatSetupXML.PageExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/XMLAuditFile/app/src/Setup/AuditFileExportSetupXML.PageExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/XMLAuditFile/app/src/Setup/InstallXML.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/W1/AuditFileExport/app/src/AuditFilePageVisibility.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
         "status": "modified",
         "reason": "not-in-snapshot"
@@ -565,6 +661,7 @@
     "Base Application",
     "FECAuditFile",
     "SAF-T",
-    "SIE"
+    "SIE",
+    "XMLAuditFile"
   ]
 }

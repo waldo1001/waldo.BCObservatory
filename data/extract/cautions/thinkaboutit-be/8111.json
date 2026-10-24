@@ -1,0 +1,41 @@
+{
+  "item_id": "blog/thinkaboutit-be/8111",
+  "page_id": "post/thinkaboutit-be/8111",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "29.0 is a preview version, not a supported target.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29.0"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Any sandbox still running on the preview version gets deleted automatically 30 days after general availability.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29.0"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "There is no path from a preview environment to a different version.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29.0"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003731,
+    "posts_in_call": 4
+  }
+}

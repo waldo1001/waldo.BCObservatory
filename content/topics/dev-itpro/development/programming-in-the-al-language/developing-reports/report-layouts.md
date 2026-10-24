@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -208,7 +208,6 @@ links:
   localizations: []
   videos:
     - video/1ft4o9lQzsU
-    - video/2u5_F9Ztt7U
     - video/9ZmmQEpPyB4
     - video/V8CSor5qBRE
     - video/W003w36Isto
@@ -240,7 +239,7 @@ children: []
 coverage:
   learn: 22
   code: 5
-  video: 5
+  video: 4
   blog: 13
   guideline: 0
 bc_forms:
@@ -282,25 +281,34 @@ For administration, one page covers setting the layout a report uses, per compan
 
 - [(Obsolete) Create and modify custom report layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout): Learn how to create customized layouts to personalize the appearance of a report when viewed, printed, or saved.
 - [(Obsolete) Import and Export Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout): You can import and export an existing custom report layout as a file to and from a location on your computer and network.
+  - In the observatory: [Page 9660 "Report Layouts"](../../../../../objects/page/9660.md)
 - [(Obsolete) Set the Layout Used by a Report](https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report): You can use different layouts for a report, and switch between layouts to change how a report looks.
 - [(Obsolete) Update Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts): Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
+  - In the observatory: [Page 9656 "Report Layout Update Log"](../../../../../objects/page/9656.md)
 - [Adding barcodes to reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-add-barcodes): Learn how you can add barcodes to a report.
+  - In the observatory: [Codeunit 9215 "IDAutomation 1D Provider"](../../../../../objects/codeunit/9215.md), [Codeunit 9221 "IDAutomation 2D Provider"](../../../../../objects/codeunit/9221.md)
 - [Assign document layouts to customers or vendors](https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts): Use document layouts to control the appearance and format of documents such as invoices and orders that you send to customers and vendors.
+  - In the observatory: [Page 26 "Vendor Card"](../../../../../objects/page/26.md)
 - [Available fonts](https://learn.microsoft.com/dynamics365/business-central/ui-fonts): Learn about the preinstalled fonts that you can use for your externally facing reports.
 - [Barcode Fonts with Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts): Describes the barcode fonts available with Business Central Online.
 - [Creating a Word layout report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-report-layout): Learn how to create a report that uses a Word layout.
+  - In the observatory: [Report 1306 "Standard Sales - Invoice"](../../../../../objects/report/1306.md)
 - [Creating an Excel layout report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout): Learn how to create an Excel layout report.
+  - In the observatory: [Report 5050 "Contact - List"](../../../../../objects/report/5050.md)
 - [Creating an RDL layout report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout): Describes the steps involved in creating a report that uses an RDL layout.
 - [Defining multiple report layouts](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-multiple-report-layouts): Learn how to define multiple layouts for one report in AL code.
 - [Design Word Layouts with the Business Central Add-in](https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in): Learn how to use the Business Central Word add-in to add report fields, create repeating tables, add layout comments, and hide empty content.
 - [Developing a Custom Report Render](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render): Describe the custom report render logic and how to implement it in AL code.
+  - In the observatory: [Codeunit 4100 "Temp Blob"](../../../../../objects/codeunit/4100.md), [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md), [Codeunit 9651 "Document Report Mgt."](../../../../../objects/codeunit/9651.md)
 - [Get started creating report layouts](https://learn.microsoft.com/dynamics365/business-central/ui-get-started-layouts): Learn how to create and customize report layouts in Dynamics 365 Business Central.
 - [Map Data Fields in Word Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout): Learn how to use the XML Mapping Pane in Word to manually map Business Central report data, labels, images, and repeating rows to content controls.
 - [Report and document layouts overview](https://learn.microsoft.com/dynamics365/business-central/ui-manage-report-layouts): Use report layouts to customize documents, for example, to personalize the font, logo, or page settings of PDF files you send to customers.
 - [Set the Layout Used by a Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-set-report-layout): Learn how to select the default report layout for each company, temporarily use another layout, and distinguish layout selection from reusable branding.
 - [Setting up Hyperlinks in Word Report Layouts](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-hyperlinks-in-word-report-layouts): Learn how to create links from text and pictures fields in Word report layouts
 - [Tips for Using Word to Author Your Report Layout](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-word-to-author-your-report-layout): Learn tips and techniques for authoring Word report layouts in Business Central, including sections, tables, conditional formatting, and more.
+  - In the observatory: [Codeunit 5080 "Image Handler Management"](../../../../../objects/codeunit/5080.md)
 - [Working with Excel layouts](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and modify report layouts that are built using Excel.
+  - In the observatory: [Page 9660 "Report Layouts"](../../../../../objects/page/9660.md)
 - [Working with RDLC Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-rdlc-report-layouts): Get an introduction to RDLC report layouts.
 
 ## Videos, posts and code changes
@@ -322,7 +330,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How Do I: Use the Word Add-in for Business Central Report Layouts](../../../../../posts/thinkaboutit-be/7750.md) (community post): "The Dynamics 365 Business Central Word add-in is a free Microsoft Word extension that simplifies designing Word layouts"
 - [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../../../../../posts/thinkaboutit-be/8096.md) (community post): "Word add-in data picker provides a cleaner alternative by inserting mapped fields directly"
 - [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../../videos/1ft4o9lQzsU.md) (video): "Excel report layouts; Power Query integration for refreshable reports"
-- [What's New: Server and Database (2026 release wave 1)](../../../../../videos/2u5_F9Ztt7U.md) (video): "Word Add-in for Document Reports Enhancement; Layout Lifecycle Control for Report Layouts"
 - [Let It Snow: How To Use Themable Layouts in Business Central (2024)](../../../../../videos/9ZmmQEpPyB4.md) (video): "Themeable layouts; Abts font in Office; Word layout watermark support"
 - [What’s New: Enhanced Document Reporting Features (For Developers) (2024 release wave 2)](../../../../../videos/V8CSor5qBRE.md) (video): "word layout engine; document reports; word add-in; layout controls"
 - [What's New: Reporting (For Developers) (2025 release wave 1)](../../../../../videos/W003w36Isto.md) (video): "Override Excel multiple data sheets property at layout level"

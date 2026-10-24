@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:55.177Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -114,6 +114,7 @@ Admins planning a rollout should start with the deployment page, then the optimi
 - [Get the Business Central Add-in for Outlook](https://learn.microsoft.com/dynamics365/business-central/admin-outlook): Learn how to install the Business Central add-in for Outlook for your organization or for your own use.
 - [Optimize Outlook for your Business Inbox](https://learn.microsoft.com/dynamics365/business-central/admin-outlook-optimize): Learn about things you can do to improve experience with the Business Inbox in Microsoft Outlook.
 - [Using Business Central with Outlook](https://learn.microsoft.com/dynamics365/business-central/work-outlook-addin): This service has deep integration with Microsoft 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
+  - In the observatory: [Page 190 "Incoming Documents"](../../../../../objects/page/190.md)
 - [Using Business Central without Outlook](https://learn.microsoft.com/dynamics365/business-central/admin-no-outlook): If you don't have Outlook, you can't use Business Central as your business inbox in Outlook, but you can work in a browser or on your mobile device.
 
 ## Videos, posts and code changes

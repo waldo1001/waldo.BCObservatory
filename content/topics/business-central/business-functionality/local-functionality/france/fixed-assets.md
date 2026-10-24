@@ -7,12 +7,12 @@ tier: official
 language: en
 system: fixed-assets
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:39.730Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,7 +81,7 @@ narrative: generated
 
 > French fixed assets functionality in Business Central, focused on accelerated depreciation. It answers questions about setting up accounting and tax depreciation books, derogatory posting, and running the Calculate Depreciation batch job for French tax requirements.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > Fixed assets · tier official · system fixed-assets · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -106,7 +106,9 @@ Start with the overview page to understand the derogatory approach. Then complet
 
 - [Accelerated Depreciation [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/accelerated-depreciation): Learn how to use the accelerated depreciation method to post the extra tax amounts if they meet specified criteria in the French version.
 - [How to Calculate Accelerated Depreciation [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-calculate-accelerated-depreciation): In Business Central, you calculate periodic depreciation for fixed assets by using the Calculate Depreciation batch job.
+  - In the observatory: [Report 5692 "Calculate Depreciation"](../../../../../objects/report/5692.md)
 - [Set Up Accelerated Depreciation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-accelerated-depreciation): Set up depreciation books for fixed assets to use accelerated depreciation calculations in Business Central.
+  - In the observatory: [Page 5600 "Fixed Asset Card"](../../../../../objects/page/5600.md), [Page 5612 "FA Posting Group Card"](../../../../../objects/page/5612.md), [Table 5601 "FA Ledger Entry"](../../../../../objects/table/5601.md)
 
 ## Business Central pages and reports
 

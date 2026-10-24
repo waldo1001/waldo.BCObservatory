@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:46:16.266Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,6 +121,10 @@ chapters:
     title: Posting the production journal and finishing the order
   - t: 256
     title: Production order lifecycle and future topics
+cautions:
+  - kind: preview-disclaimer
+    quote: that will come at a later video. Next time, we will dig deeper into the flushing methods, the backbone of costing in manufacturing.
+    t: 267
 features:
   - name: Production order statuses
     status: unclear

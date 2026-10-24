@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-extension-update-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-update-trace",
+  "title": "Extension Update Trace Telemetry | Microsoft Docs",
+  "blob": "7f22208631103e3d8274d742e48410409f2ce58a",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Exception telemetry introduced in Business Central 2020 release wave 1, version 16.2; upgrade tag telemetry in 2021 wave 1."
+    },
+    {
+      "kind": "fact",
+      "text": "Tracks extension upgrade failures from exceptions in upgrade codeunits."
+    },
+    {
+      "kind": "fact",
+      "text": "Monitors HasUpgradeTag and SetUpgradeTag method calls from System Application codeunit 9999."
+    },
+    {
+      "kind": "fact",
+      "text": "RT0010 event emitted on upgrade failure with codeunit ID, stack trace, extension name, version."
+    },
+    {
+      "kind": "limit",
+      "text": "Exception messages containing non-SystemMetadata classifications are not shown to protect customer data."
+    },
+    {
+      "kind": "fact",
+      "text": "AL0000EJ9 event for HasUpgradeTag calls includes upgrade tag value and execution context."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005012,
+      "pages_in_call": 12
+    }
+  ]
+}

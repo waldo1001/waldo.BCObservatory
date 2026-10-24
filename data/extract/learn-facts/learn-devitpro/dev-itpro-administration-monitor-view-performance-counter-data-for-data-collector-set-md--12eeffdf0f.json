@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-view-performance-counter-data-for-data-collector-set.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-view-performance-counter-data-for-data-collector-set",
+  "title": "View performance counter data for a Data Collector Set",
+  "blob": "0d0af309ba6061d5a3c1dc3227371268672bbcf2",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Data Collector Set logs are stored as .blg files in Windows Performance Monitor."
+    },
+    {
+      "kind": "step",
+      "text": "Start Windows Performance Monitor by searching for perfmon."
+    },
+    {
+      "kind": "step",
+      "text": "In navigation pane expand Monitoring Tools and choose Performance Monitor."
+    },
+    {
+      "kind": "step",
+      "text": "In toolbar choose View Log Data button to open Performance Monitor Properties."
+    },
+    {
+      "kind": "step",
+      "text": "Select Log files and choose Add to browse for the log file to view."
+    },
+    {
+      "kind": "step",
+      "text": "Choose Open then OK to display the log data."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/thinkaboutit-be/7061",
+  "page_id": "post/thinkaboutit-be/7061",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "you can no longer expose Microsoft-authored pages as OData endpoints",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "30",
+        "2027 Release Wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.001515,
+    "posts_in_call": 4
+  }
+}

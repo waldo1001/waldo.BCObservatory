@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-permission-error-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace",
+  "title": "Analyzing Permission Error Trace Telemetry",
+  "blob": "a66c7da4f5f70839b98e59a8f92703268c61b252",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Permission error telemetry signals when users get permission-related error dialogs."
+    },
+    {
+      "kind": "fact",
+      "text": "Permission Error Shown event has eventId RT0031 at severity level 1."
+    },
+    {
+      "kind": "fact",
+      "text": "Data includes object ID, name, type, and permission area that caused the error."
+    },
+    {
+      "kind": "fact",
+      "text": "permissionType dimension shows missing permission: Delete, Execute, Insert, Modify, or Read."
+    },
+    {
+      "kind": "fact",
+      "text": "permissionArea dimension indicates System, Entitlement, Company, or Object scope."
+    },
+    {
+      "kind": "fact",
+      "text": "Stack trace and error message help identify where permission check failed in code."
+    },
+    {
+      "kind": "fact",
+      "text": "Sample KQL code helps analyze which permission errors users encounter frequently."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005499,
+      "pages_in_call": 11
+    }
+  ]
+}

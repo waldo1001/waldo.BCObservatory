@@ -2,20 +2,20 @@
 id: topic/business-central/get-started/learn/contoso-coffee-demo-data
 type: topic
 title: Contoso Coffee demo data
-summary: Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management scenarios, and answers questions about how to set up and walk through each with sample data.
+summary: Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management walkthroughs, and answers questions about setting up the demo data and following each scenario.
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:16:45.373Z"
+  at: "2026-10-24T00:54:17.129Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 04f94e5e0692c513531d206bc0f57257bc253b9459748f0546c8f11c74d5bf4e
+  input_hash: 1e69c0b614f5aab2112b6ebf519e3915cec60b5f78ef401d4c5e76fe25bad3eb
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing
@@ -118,7 +118,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-process-subcontracting-operation
     title: Set up and process a subcontracting operation
-    date: "2026-08-13"
+    date: "2026-10-16"
     commit: null
     t: null
     quote: null
@@ -139,14 +139,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges
     title: Set up subcontracting prices and allocate item charges
-    date: "2026-08-13"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods
     title: Use different component supply methods in subcontracting
-    date: "2026-08-13"
+    date: "2026-10-16"
     commit: null
     t: null
     quote: null
@@ -233,28 +233,26 @@ narrative: generated
 
 # Contoso Coffee demo data
 
-> Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management scenarios, and answers questions about how to set up and walk through each with sample data.
+> Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management walkthroughs, and answers questions about setting up the demo data and following each scenario.
 
 Path: [Get started](../../get-started.md) > [Learn](../learn.md) > Contoso Coffee demo data · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Contoso Coffee demo data gives a fictitious company with sample data for trying out Business Central capabilities. The introduction page describes the data and the modules it covers: manufacturing, warehousing, service and common, plus configuration and demo data setup.
+Contoso Coffee demo data gives practitioners a sample company to try Business Central capabilities without using real data. The introduction page explains the demo data and its setup, and lists the modules it covers: manufacturing, warehousing, service and common data, plus configuration.
 
-Four subtopics hold the walkthroughs. Manufacturing has 11 pages, Warehousing 4, Service 3 and Quality management 4. Each one combines sample data with scenarios you can follow step by step.
+Each subtopic is a set of guided walkthroughs for one area. Manufacturing covers BOMs, routings, capacity, flushing, planning, variants, subcontracting and production orders. Warehousing uses three locations to show basic, mixed and advanced setups. Service covers sample resources, skills, service items and loaner items, with walkthroughs for service orders and contracts. Quality management covers installing its demo data and three inspection scenarios.
 
-Start with the introduction page to understand the data and how it is set up. Then pick the subtopic that matches the area you want to learn.
+Start with the introduction page to set up the demo data, then pick the subtopic that matches the area you want to learn.
 
 ## Key points
 
-- The introduction page describes the fictitious Contoso Coffee company data and covers demo data setup, configuration and the common module.
-- Manufacturing walkthroughs cover production BOMs, routings, capacity, flushing, planning, variants and subcontracting.
-- Warehousing uses three locations that show basic, mixed and advanced configurations.
-- Warehousing scenarios cover receiving, put-away, picking, moving and shipping in each setup.
-- Service data includes sample resources, skills, service items and loaner items.
-- Service walkthroughs cover service orders and service contracts for service items.
-- Quality management includes installing the demo data and three inspection scenarios.
-- The quality scenarios are automatic from production output, automatic from a warehouse receipt with reinspection, and manual from purchase item tracking.
+- The introduction page describes Contoso Coffee as fictitious company data for learning Business Central, covering manufacturing, warehousing, service and common modules.
+- Manufacturing (11 pages): BOMs, routings, capacity, flushing, planning, variants, subcontracting and processing production orders.
+- Warehousing (4 pages): three locations show basic, mixed and advanced configurations for receiving, put-away, picking, moving and shipping.
+- Service (3 pages): sample resources, skills, service items and loaner items, with walkthroughs for service orders and service contracts.
+- Quality management (4 pages): installing the demo data and three inspection scenarios.
+- Quality scenarios: automatic inspection from production output, automatic from a warehouse receipt with reinspection, and manual from purchase item tracking.
 
 ## Subtopics
 

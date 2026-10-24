@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:20:55.378Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -479,15 +479,29 @@ Start with Working with Business Central and Finding Pages with Tell Me for gene
 - [Intelligent insights and cloud migration (on-premises only)](https://learn.microsoft.com/dynamics365/business-central/about-intelligent-cloud): In Business Central online, you have access to other online services, and you can get intelligent insights that are based on Azure AI, for example. Read on if you're considering to migrate from on-premises to the cloud.
 - [Manage Notifications in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-smart-notifications): You can receive notifications that inform you about status changes or events, for example, an overdue balance or low inventory.
 - [Multilanguage and localization](https://learn.microsoft.com/dynamics365/business-central/about-locale-language): Learn how language and region influence your experience in Business Central. Change the language of the user interface in My Settings.
+  - In the observatory: [Page 10 "Countries/Regions"](../../../objects/page/10.md), [Page 118 "General Ledger Setup"](../../../objects/page/118.md)
 - [Performance Profiler overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview): Describes how to use the Performance Profiler page in Business Central to troubleshoot slow processes.
+  - Performance Profiler records snapshots of business processes, monitoring all apps involved including Microsoft first-party and third-party apps.
+  - Step: To use Performance Profiler, open the page, click the icon to open it in a separate window, then start recording before performing the slow process.
+  - Active Apps chart shows which apps were running and their durations, with ability to aggregate by App Name or App Publisher.
+  - Technical information toggle enables Time Spent by Application Object and Call Tree FastTabs for detailed analysis of objects and methods.
+  - Time Spent column shows how long an object was active; Samples column shows profiler sampling frequency of the object.
+  - Self Time in Call Tree shows time spent in a method only; Total Time includes Self Time plus calls from the method.
+  - Recording can be shared, downloaded as .alcpuprofile file, or cleared to start over; existing profiles can be uploaded.
+  - In-client Performance Profiler is a simplified version of the AL Profiler used in Visual Studio Code for advanced analysis.
+  - In the observatory: [Page 24 "Performance Profiler"](../../../objects/page/24.md)
 - [Performance Tips for Business Users](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-users): Learn tips for choosing a browser and network connection, and for working faster and more efficiently in Business Central.
 - [Search for Specific Data](https://learn.microsoft.com/dynamics365/business-central/ui-search-data): You can use search when you want to find a specific record.
 - [Sort, search, and filter data in lists, reports, or XMLports](https://learn.microsoft.com/dynamics365/business-central/ui-enter-criteria-filters): Learn to work efficiently in lists by searching across your data, sorting columns, and refining results using filter symbols and keyboard shortcuts.
+  - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md)
 - [Switching to Another Company or Environment](https://learn.microsoft.com/dynamics365/business-central/ui-organization-switch): If you do work for multiple organizations, you can quickly switch between the environments and companies.
 - [Troubleshooting - Accessing camera and location](https://learn.microsoft.com/dynamics365/business-central/ui-troubleshooting-camera-location): This article describes how to troubleshoot access to camera and location information in Business Central.
 - [Use Microsoft Copilot in Business Central (preview)](https://learn.microsoft.com/dynamics365/business-central/chat-with-copilot): Learn how to use Microsoft Copilot to find data and get help in Business Central.
 - [Warnings and error messages](https://learn.microsoft.com/dynamics365/business-central/product-error-messages): Learn how you can troubleshoot and find solutions to error messages when you work in Business Central.
+  - In the observatory: [Page 709 "Error Message Register"](../../../objects/page/709.md)
 - [Working with Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-work-product): Describes how to interact with data in Business Central.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Business Central pages and reports
 

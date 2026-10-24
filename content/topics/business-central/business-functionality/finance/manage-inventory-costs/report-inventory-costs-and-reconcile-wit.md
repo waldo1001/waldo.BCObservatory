@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:49.452Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,8 +120,11 @@ To start, read "Reconcile inventory costs with the general ledger" for the core 
 
 - [Manually adjust the costs of items](https://learn.microsoft.com/dynamics365/business-central/inventory-how-adjust-item-costs): You can adjust the inventory valuation of an item using the FIFO or Average costing methods when the costs of products change.
 - [Reconcile inventory costs with the general ledger](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger): At the end of accounting periods a sequence of cost control and auditing tasks must be performed to report a correct and balanced inventory value.
+  - In the observatory: [Page 5845 "Inventory - G/L Reconciliation"](../../../../../objects/page/5845.md), [Report 1003 "Post Invt. Cost to G/L - Test"](../../../../../objects/report/1003.md), [Report 5801 "Invt. Valuation - Cost Spec."](../../../../../objects/report/5801.md), [Report 5802 "Inventory Valuation - WIP"](../../../../../objects/report/5802.md), [Report 5848 "Cost Shares Breakdown"](../../../../../objects/report/5848.md)
 - [Restrict backdated cost postings](https://learn.microsoft.com/dynamics365/business-central/finance-restrict-backdated-cost-postings): Set a date floor on the Inventory Setup page so that user postings can no longer write cost into closed periods.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../../../objects/page/461.md)
 - [Schedule jobs for adjusting & reconciling inventory cost](https://learn.microsoft.com/dynamics365/business-central/finance-adjust-reconcile-inventory-cost-job-queue): Learn how you can use the job queue to move the tasks for adjusting inventory cost or reconciling it with the general ledger to the background. For example, if your company runs many tasks or processes many transactions.
+  - In the observatory: [Codeunit 2846 "Post Inventory Cost to G/L"](../../../../../objects/codeunit/2846.md), [Report 795 "Adjust Cost - Item Entries"](../../../../../objects/report/795.md)
 - [Work with inventory periods](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-work-with-inventory-periods): You can control the timeframe in which people can post changes to inventory by defining inventory periods.
 
 ## Business Central pages and reports

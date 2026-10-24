@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:48:27.770Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -226,6 +226,31 @@ chapters:
     title: BC-Bench results, model ranking, and consistency with SWE Bench
   - t: 1748
     title: AL versus Python parity, public release plans, and partner dataset roadmap
+cautions:
+  - kind: preview-disclaimer
+    quote: So one day hopefully we'll make it public
+    t: 411
+  - kind: preview-disclaimer
+    quote: We did see an increase on the average accuracy or what we call resolution rate but not conclusively
+    t: 881
+  - kind: preview-disclaimer
+    quote: hopefully we have much more work as a software engineer. We want to bring test generation
+    t: 1214
+  - kind: preview-disclaimer
+    quote: we also want to build a a category called code review
+    t: 1226
+  - kind: preview-disclaimer
+    quote: the next on the list is to run tests uh, through the MCP server
+    t: 1260
+  - kind: preview-disclaimer
+    quote: we also have code refactoring on the agenda and potentially feature addition
+    t: 1509
+  - kind: preview-disclaimer
+    quote: that's a bit uh, probably in the future. We haven't really thought about that yet
+    t: 1579
+  - kind: preview-disclaimer
+    quote: agents looking at pages is more in the future
+    t: 1607
 features:
   - name: BC Bench
     status: unclear

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:18:14.341Z"
   flags: []
 generated:
-  at: "2026-10-22T01:09:20.607Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -101,6 +101,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
+      title: BC 29 lets a single index span base table and table extension fields
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/qABlX4AL3GM
+      title: "Business Central 29.0: Major Change to Table Extensions & SQL."
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/bVPFIhkvZEA
+      title: "Business Central: Turn SIFT Indexes on or Off"
+      label: possibly related
+      why: both name Page 8700 "Table Information"
+      by: code
+    - to: video/Fk6kWTe3f2Y
+      title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/thedynamicsexplorer-com/10326
+      title: Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge
+      label: possibly related
+      why: both name Table 5802 "Value Entry"
+      by: code
+    - to: post/duiliotacconi-com/1457
+      title: "Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/fy96_jdL1PQ
+      title: "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/Gwgpj1U1wxI
+      title: Introduction to Business Central Cloud Migration (2023)
+      label: possibly related
+      why: both name Table 405 "Change Log Entry"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/manage-indexes
+      title: Manage database index usage
+      label: possibly related
+      why: names Page 8700 "Table Information"
+      by: code
+    - to: video/f_i4_BRz-oA
+      title: "Microsoft presents: Cloud Migration from any SQL"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
 video_id: 1x3QyBX3swg
 channel: yt-mibuso
 source_name: mibuso.com / BC TechDays
@@ -141,6 +192,31 @@ chapters:
     title: Maintenance Windows, SIFT Indexes, and Include Columns
   - t: 2334
     title: On-Premises Scope and Future API Expansion
+cautions:
+  - kind: preview-disclaimer
+    quote: sift indices for example and the reason why I don't talk about them here is because in the first version ...
+    t: 110
+  - kind: preview-disclaimer
+    quote: non AL defined index or it will be called something different maybe when you see it
+    t: 199
+  - kind: preview-disclaimer
+    quote: when you enable an index, it doesn't happen immediately. It happens overnight, except if you are on my magical machine here, which is a local development
+    t: 292
+  - kind: preview-disclaimer
+    quote: will you be covering what we plan to add later or Ah. No, no, no. Maybe a little later
+    t: 1003
+  - kind: preview-disclaimer
+    quote: Right now, unfortunately, the method is on prem only, scope on prem. But that is something we are thinking very much about changing
+    t: 1218
+  - kind: preview-disclaimer
+    quote: we're a little chicken. Because we'll we just want to make to experiment with it in our own app first ...
+    t: 1228
+  - kind: preview-disclaimer
+    quote: if you take the early access preview build now, this is possible. No, actually this is not possible yet because ...
+    t: 1779
+  - kind: preview-disclaimer
+    quote: we actually have it out in the early access preview now. We're merging back the extension fields into the base table
+    t: 1802
 features:
   - name: Index Management Page
     status: unclear
@@ -403,5 +479,20 @@ Not found in BC28-30: table "GL Entry", table "Change Log", table "DAMS re-index
 - [32:13](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1933s) preview: When so, this is available in early access preview, we'll also be spinning preview clusters later when we get closer to the release
 - [38:33](https://www.youtube.com/watch?v=1x3QyBX3swg&t=2313s) coming-later: the full management of sift indexes we plan to add that to the index management later
 - [39:47](https://www.youtube.com/watch?v=1x3QyBX3swg&t=2387s) coming-later: the plan is of course to enable some of these moving forward
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Business Central 29.0: Major Change to Table Extensions & SQL.](../videos/qABlX4AL3GM.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Business Central: Turn SIFT Indexes on or Off](../videos/bVPFIhkvZEA.md) — possibly related: both name Page 8700 "Table Information"
+- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 5802 "Value Entry"
+- [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../videos/fy96_jdL1PQ.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Introduction to Business Central Cloud Migration (2023)](../videos/Gwgpj1U1wxI.md) — possibly related: both name Table 405 "Change Log Entry"
+- [Manage database index usage](https://learn.microsoft.com/dynamics365/business-central/manage-indexes) — possibly related: names Page 8700 "Table Information"
+- [Microsoft presents: Cloud Migration from any SQL](../videos/f_i4_BRz-oA.md) — possibly related: both name Table 32 "Item Ledger Entry"
 
 Presenters (as heard): Mads Gram, Preetham, Jens, Giulio, Jesper, Stefan.

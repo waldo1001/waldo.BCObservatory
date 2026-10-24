@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:34.712Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -147,6 +147,7 @@ For everyday use, one page explains the Business Central apps in Power BI for CR
 - [Connect to Power BI from Business Central on-premises\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/across-working-with-business-central-in-powerbi): Get insight, business intelligence, and KPIs from your Business Central data on-premises using Power BI.
 - [Display custom Power BI reports](https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox): Use the Power BI FactBox to display interactive Power BI reports and gain deeper insights into data on key list pages.
 - [Enabling Power BI integration with Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-setup): Learn how to set up the connection to Power BI. With Power BI reports, you can get insights, business intelligence, and key performance indicators from your data.
+  - In the observatory: [Page 810 "Web Services"](../../../../objects/page/810.md)
 - [Introduction to Business Central and Power BI](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi): Get an overview of using Power BI to get insights from your Business Central data.
 - [Power BI integration component and architecture overview for Business Central\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview): Learn about the different aspects of Power BI integration with Business Central.
 - [Use the Business Central apps in Power BI](https://learn.microsoft.com/dynamics365/business-central/across-powerbi-business-central-apps): Easily gain insights, business intelligence, and KPIs from your Business Central data using the Business Central apps for Power BI.

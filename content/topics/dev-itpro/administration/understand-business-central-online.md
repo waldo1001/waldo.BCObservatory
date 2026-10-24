@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:38.985Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -191,7 +191,7 @@ narrative: generated
 
 > Business Central online fundamentals: infrastructure (tenants, environments, companies), environment types, update cycles, version numbers, operation limits, country and language availability, trials and subscriptions, and partner topics such as reselling, delegated admin and support. It answers what the service is, how it is organized, and what limits and processes apply.
 
-Path: [Administration](../administration.md) > Understand Business Central online · tier official · system administration · narrative **unreviewed** (model text not yet checked)
+Path: [Administration](../administration.md) > Understand Business Central online · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -220,13 +220,67 @@ The remaining pages target partners and new customers: Trials and subscriptions,
 
 - [Country/Regional Availability and Supported Languages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations): Learn where Business Central is available, which languages are supported, and how partners deliver localized solutions through Microsoft commercial marketplace.
 - [Delegated admin access to Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/delegated-admin): Learn how to help customers easily manage their Business Central online and get the technical support they need as their reselling partner.
+  - Prerequisite: Partners must set up employees in Partner Center and assign them to customer support relationships.
+  - Two relationship types: Reseller (for selling licenses) and GDAP (for delegated administration).
+  - Permissions: Recommended least-privileged role is Dynamics 365 Business Central Administrator for delegated admin access.
+  - Limit: Delegated admins cannot run scheduled job queue tasks, trigger web hooks, or use Invite External Accountant guide.
+  - Delegated admins can create and test job queue entries for licensed users to start, using Run Once (foreground) action.
+  - Internal admins can restrict delegated admin access per environment or allow only specific partner tenants.
+  - Partners lose data modification abilities if customer removes delegated permissions but retain subscription management.
 - [Get started as a reseller of Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/get-started-online): Learn about how to get started as a reselling partner of Dynamics 365 Business Central online, how to become a partner, and how to onboard customers.
+  - Prerequisite: Resellers must have a Microsoft Partner ID and enroll in the Cloud Solution Provider program to sell Business Central online.
+  - Resellers access Microsoft go-to-market benefits, marketing assets, and branding resources through Partner Network.
+  - Resellers can create trial environments from content at cdx.transform.microsoft.com for demonstration purposes.
+  - Both internal admins and delegated admins can assign licenses to users in Microsoft 365 admin center to move from trial to paid subscription.
+  - Permissions: Resellers serve as administrators of customer tenants and are the first line of support for triaging and resolving issues.
+  - In online model, resellers order through indirect provider portals and manage customers in Partner Center; no license file generation needed.
+  - CSP program region availability restricts resellers to selling offers within their company's geographic region.
 - [Operation Limits in Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/operational-limits-online): Learn about constraints on what you can do in Business Central online that is different from what you can do with on-premises deployments.
+  - Limit: Maximum file size for upload or download is 350 MB.
+  - Limit: Total compressed data size in an environment database is limited to 3 TB including keys, indexes, and BLOB data.
+  - Limit: Maximum number of companies per environment is 300.
+  - Limit: Maximum OData page size is 20,000 entities per request.
+  - Limit: Maximum SOAP message size is 65,536 KB.
+  - Limit: Background sessions default maximum wait time is 8 hours before processing.
+  - Limit: Maximum nested sessions depth is 14 before an excessive recursion error occurs.
+  - Limit: Report default maximum execution time is 6 hours; absolute maximum is 12 hours.
 - [Technical support overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/technical-support): Learn about how to support your Business Central customers, online and on-premises, troubleshoot issues, and when to escalate problems to Microsoft.
 - [Trials and subscriptions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/trials-subscriptions): Learn how it works with trials and subscriptions for Business Central online, and how the admin can cancel subscriptions.
+  - Organizations can sign up for a free Business Central trial to explore the experience.
+  - A 30-day trial is available without sample data, allowing users to add their own business data for evaluation.
+  - Users can extend the trial period if 30 days are not enough to decide on a subscription.
+  - Viral trials do not expire unless the prospect switches to the 30-day trial, provided users access Business Central frequently.
+  - If an organization stops using Business Central, the administrator must remove the subscription in the Microsoft 365 admin center.
+  - All customers, including trial organizations, can use sandbox environments for practicing without affecting production.
+  - Limit: Strongly not recommended to use a free trial to run your business; contact a reselling partner to migrate data.
+  - In the observatory: [Page 357 "Companies"](../../../objects/page/357.md)
 - [Understanding the infrastructure of Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology): Learn how environments in Business Central online reflect the Microsoft Entra tenant with an example of environments and companies across two countries/regions.
+  - Business Central is available in a limited number of markets; check Country/regional availability and supported languages documentation.
+  - Prerequisite: Users must have a work or school account tied to a Microsoft Entra tenant to use Business Central online.
+  - Each Microsoft Entra tenant automatically receives some environments, each tied to a specific country and localization.
+  - Environments can contain multiple companies representing legal entities or business units with separate accounting requirements.
+  - All licensed users in a Microsoft Entra tenant can access all companies in each environment of that tenant.
+  - Users from one Microsoft Entra tenant cannot access environments belonging to another Microsoft Entra tenant.
+  - Admins can transfer environments between Microsoft Entra tenants if organizational structure changes over time.
 - [Update cycles](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline): Learn about the timeline of Business Central online update rollouts. Prepare for both major updates and minor updates with minimal disruption in productivity.
+  - Status: Generally available. Two major releases occur every April and October.
+  - Preview period starts one month before major release, typically March and September. Partner Sandbox tenants access early access preview alongside the entire update period.
+  - Update period begins when major version is generally available, around first workday of April and October. New environments created on new major version.
+  - Update period lasts five calendar months, ending early September for April releases and early March for October releases. Administrators can reschedule updates within this period.
+  - Grace period lasts one month following the update period. During grace period, admins cannot reschedule updates to later dates, only to earlier dates or different major versions.
+  - Enforced update period begins when grace period ends. Extensions causing update failures may be automatically uninstalled so updates succeed.
+  - Limit: Cannot restore an environment to a version in its Grace or Enforced update period after updating to a later version succeeds.
+  - Minor updates release monthly except April and October, containing critical improvements and regulatory updates. Generally available at start of each calendar month.
 - [Version Numbers in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/version-numbers): Learn how to read version numbers in Business Central and how to understand them when you troubleshoot issues.
+  - Version format is major.minor.build.revision, example 27.1.23456.0 for application version.
+  - Major version 28 represents 2026 release wave 1 April 2026 and forward.
+  - Major version 27 represents 2025 release wave 2 October 2025 and forward.
+  - Major version 26 represents 2025 release wave 1 April 2025 and forward.
+  - Minor number indicates monthly update; build is five digit number; revision stays 0 unless hotfix applied.
+  - Online admin center uses only major.minor version for managing environment updates, not full build numbers.
+  - Version numbers identify both cloud and on-premises deployments including Docker container versions.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 

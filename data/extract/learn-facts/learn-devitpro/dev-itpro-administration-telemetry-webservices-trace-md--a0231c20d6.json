@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-trace",
+  "title": "Web Service Request Trace",
+  "blob": "67b4bd02b1085d7775e0589cba7eb8dda10100b9",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Web services telemetry (event ID RT0008) gathers data on incoming SOAP, OData and REST API requests including endpoint, execution time, SQL performance and HTTP status."
+    },
+    {
+      "kind": "status",
+      "text": "User_Id dimension added in version 24.2 (Business Central 2024 release wave 1)."
+    },
+    {
+      "kind": "fact",
+      "text": "Custom dimensions identify the AL object and extension running behind the endpoint plus the caller's HTTP method, headers and authorization type."
+    },
+    {
+      "kind": "fact",
+      "text": "Performance data includes serverExecutionTime, requestQueueTime and totalTime, and SQL metrics showing statements executed and rows read."
+    },
+    {
+      "kind": "fact",
+      "text": "Deprecated endpoint called event (ID RT0053, version 26.0+) tracks SOAP calls to Microsoft pages no longer exposed as web service endpoints."
+    },
+    {
+      "kind": "fact",
+      "text": "Error analysis uses httpStatusCode and failureReason dimensions to troubleshoot unsuccessful calls and identify misconfigurations."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry omits sensitive HTTP headers but includes Accept, User-Agent, Content-Type, OData-Version, Prefer and authorization type in logs."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00945,
+      "pages_in_call": 6
+    }
+  ]
+}

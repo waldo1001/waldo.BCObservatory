@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:25:18.512Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,8 +105,12 @@ The PEPPOL page applies to the period before 2023 release wave 2, so check it ag
 ## Learn pages
 
 - [How to set up a document exchange service \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-a-document-exchange-service): Use an external service provider to securely exchange electronic documents with your trading partners.
+  - In the observatory: [Page 1275 "Doc. Exch. Service Setup"](../../../../../objects/page/1275.md)
 - [How to set up electronic document sending and receiving \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-electronic-document-sending-and-receiving): Send and receive business documents electronically, providing an alternative to emailing file attachments.
+  - In the observatory: [Page 190 "Incoming Documents"](../../../../../objects/page/190.md)
 - [Set up data exchange to send and receive files](https://learn.microsoft.com/dynamics365/business-central/across-set-up-data-exchange): Set up the data exchange framework to send, receive, import, and export electronic documents and bank files in Business Central.
+  - In the observatory: [Page 5 "Currencies"](../../../../../objects/page/5.md)
 - [Set Up incoming documents](https://learn.microsoft.com/dynamics365/business-central/across-how-setup-income-documents): Set up the Incoming Documents feature to create electronic documents, manage OCR tasks, import invoices, and convert image files.
+  - In the observatory: [Page 1270 "OCR Service Setup"](../../../../../objects/page/1270.md), [Page 191 "Incoming Documents Setup"](../../../../../objects/page/191.md), [Page 663 "Approval User Setup"](../../../../../objects/page/663.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

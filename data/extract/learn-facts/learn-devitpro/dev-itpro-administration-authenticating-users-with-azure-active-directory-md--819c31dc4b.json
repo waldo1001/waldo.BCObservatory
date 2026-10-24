@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/authenticating-users-with-azure-active-directory.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory",
+  "title": "User Authentication with Microsoft Entra ID for Single Sign-on",
+  "blob": "d7f29cff88b53cf4ffead1c7d9163fc3bc4f5297",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "WS-Federation support deprecated; removed in 2023 release wave 1 (version 22) and later"
+    },
+    {
+      "kind": "status",
+      "text": "OpenID Connect introduced in 2022 release wave 1 (version 20); recommended replacement"
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Security certificates required on server and client computers to secure connections"
+    },
+    {
+      "kind": "step",
+      "text": "Create or obtain Microsoft Entra tenant for managing user accounts and app registration"
+    },
+    {
+      "kind": "step",
+      "text": "Register Business Central application in Microsoft Entra tenant with redirect URI and application ID"
+    },
+    {
+      "kind": "step",
+      "text": "Associate each Business Central user with their Microsoft Entra user principal name as authentication email"
+    },
+    {
+      "kind": "step",
+      "text": "Configure server instance with WS-Federation login endpoint and metadata location parameters"
+    },
+    {
+      "kind": "limit",
+      "text": "WS-Federation no longer supported in version 22 and later; must migrate to OpenID Connect"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005294,
+      "pages_in_call": 10
+    }
+  ]
+}

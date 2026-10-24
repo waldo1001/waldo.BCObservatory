@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:01:15.115Z"
   flags: []
 generated:
-  at: "2026-10-22T01:09:20.607Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -89,6 +89,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/zt9_HEmPKNg
+      title: Manufacturing Foundations Capacities (2026)
+      label: possibly related
+      why: both name Table 99000758 "Machine Center"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app-semantic-model
+      title: Power BI Manufacturing app semantic model
+      label: possibly related
+      why: names Table 99000758 "Machine Center"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap
+      title: Production Scrap (Power BI report)
+      label: possibly related
+      why: names Table 99000758 "Machine Center"
+      by: code
 video_id: 2_yYu3RgYwo
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -119,6 +135,13 @@ chapters:
     title: GL account emissions and availability on other documents
   - t: 427
     title: Session conclusion and sustainability resources
+cautions:
+  - kind: preview-disclaimer
+    quote: Item charge is not enabled yet in this moment. It will be part of next wave
+    t: 134
+  - kind: preview-disclaimer
+    quote: completely uh functionality about value chain is currently public preview
+    t: 134
 features:
   - name: Default sustainability account on GL account
     status: unclear
@@ -263,5 +286,13 @@ Not found in BC28-30: table "item card", table "resource card", table "GL accoun
 
 - [2:14](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=134s) coming-later: Item charge is not enabled yet in this moment. It will be part of next wave
 - [2:14](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=134s) preview: completely uh functionality about value chain is currently public preview
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Manufacturing Foundations Capacities (2026)](../videos/zt9_HEmPKNg.md) — possibly related: both name Table 99000758 "Machine Center"
+- [Power BI Manufacturing app semantic model](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app-semantic-model) — possibly related: names Table 99000758 "Machine Center"
+- [Production Scrap (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap) — possibly related: names Table 99000758 "Machine Center"
 
 Presenters (as heard): Alexander, Melissa.

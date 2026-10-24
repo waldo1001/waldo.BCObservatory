@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:38.014Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,7 @@ narrative: generated
 
 > Finland VAT localization in Business Central: printing Finnish Intrastat reports, printing VAT information on sales invoices, and the VAT-VIES declaration with the EC sales list. It answers questions about Finnish VAT and EU trade reporting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > VAT · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -99,6 +99,7 @@ Start with the page that matches your reporting duty: Intrastat for goods moveme
 
 - [How to Print Finnish Intrastat Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports): This article explains how to print Finnish Intrastat Reports to report the movement of goods to the Intrastat authorities.
 - [How to print VAT information on invoices [FI]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-vat-information-on-invoices): This article explains how you can use posting groups to print VAT information for each item on the sales invoice.
+  - In the observatory: [Page 471 "VAT Product Posting Groups"](../../../../../objects/page/471.md)
 - [VAT-VIES declaration in Finland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/vat-vies-declaration-in-finland): Finnish enhancements allow you to comply with regulations for VAT and European Union (EU) sales reporting.
 
 ## Videos, posts and code changes

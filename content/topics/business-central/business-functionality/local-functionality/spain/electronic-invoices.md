@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:51.771Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -184,10 +184,13 @@ The Cartera pages describe handling of bills of exchange and promissory notes. A
 
 - [Cartera Module](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/cartera-module): Learn how to use the Cartera module to manage customer and vendor payments with documents such as bills of exchange and promissory notes.
 - [Enable embedded VERIFACTU mode [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/enable-real-time-invoice-reporting): Enable real-time invoice reporting to AEAT with Verifactu in Business Central, ensuring QR code, hash chaining, and digital signature compliance.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 143 "Posted Sales Invoices"](../../../../../objects/page/143.md), [Page 1500 "Workflows"](../../../../../objects/page/1500.md), [Page 306 "Report Selection - Sales"](../../../../../objects/page/306.md), [Page 359 "Document Sending Profiles"](../../../../../objects/page/359.md), [Page 367 "Post Codes"](../../../../../objects/page/367.md)
 - [Payments Cartera Module](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/payments-cartera-module): Manage payables documents from generated from purchase invoices or the Cartera Journal using the Payments Cartera module.
 - [Receivables Cartera module [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/receivables-cartera-module): Use the Receivables Cartera module to manage bills generated from sales invoices, including grouping, collection, and factoring, through the Cartera Journal.
+  - In the observatory: [Page 7000036 "Cartera Journal (ES)"](../../../../../objects/page/7000036-es.md)
 - [SII Invoice Types in Sales and Purchase Documents](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents): Learn how Business Central supports SII and the different invoice and credit memo types used in the Spanish version.
 - [VERIFACTU with external service integration [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/verifactu-setup): Learn how to set up and use VERI*FACTU in the Spanish version of Business Central.
+  - In the observatory: [Page 10751 "SII Setup (ES)"](../../../../../objects/page/10751-es.md), [Page 6103 "E-Document Services"](../../../../../objects/page/6103.md)
 
 ## Videos, posts and code changes
 

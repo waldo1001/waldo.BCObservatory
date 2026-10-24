@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:29.578Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,10 +119,14 @@ Day-to-day work is described in the pages on creating and processing opportuniti
 ## Learn pages
 
 - [Create Sales Opportunities](https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-opportunities): Learn how to create opportunities from a salesperson or a contact in Business Central.
+  - In the observatory: [Page 5123 "Opportunity List"](../../../../objects/page/5123.md)
 - [Manage sales opportunities and leads](https://learn.microsoft.com/dynamics365/business-central/marketing-manage-sales-opportunities): Explains how to capture and manage incoming leads and sales opportunities in Business Central, assign them to salespeople, and track expected value and likelihood of conversion.
 - [Process sales opportunities in sales cycles](https://learn.microsoft.com/dynamics365/business-central/marketing-processing-sales-opportunities): Learn how move opportunities through different stages in the sales process.
+  - In the observatory: [Page 41 "Sales Quote"](../../../../objects/page/41.md), [Page 5123 "Opportunity List"](../../../../objects/page/5123.md), [Page 5128 "Close Opportunity"](../../../../objects/page/5128.md), [Page 5129 "Update Opportunity"](../../../../objects/page/5129.md), [Page 5131 "Opportunities"](../../../../objects/page/5131.md)
 - [Set up email logging](https://learn.microsoft.com/dynamics365/business-central/marketing-set-up-email-logging): Learn how to turn email interactions between salespeople and customers into real sales opportunities.
+  - In the observatory: [Page 5094 "Marketing Setup"](../../../../objects/page/5094.md)
 - [Set up opportunity sales cycles and cycle stages](https://learn.microsoft.com/dynamics365/business-central/marketing-how-setup-opportunity-sales-cycles-stages): Describes how to define sales stages, from initial contact to closing, to create a sales cycle and assign it to opportunities in Business Central.
+  - In the observatory: [Page 5096 "Task List"](../../../../objects/page/5096.md), [Page 5119 "Sales Cycles"](../../../../objects/page/5119.md), [Page 5121 "Sales Cycle Stages"](../../../../objects/page/5121.md), [Page 5131 "Opportunities"](../../../../objects/page/5131.md)
 
 ## Business Central pages and reports
 

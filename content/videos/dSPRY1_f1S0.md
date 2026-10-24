@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:01:52.246Z"
   flags: []
 generated:
-  at: "2026-10-07T23:01:52.305Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -295,6 +295,31 @@ chapters:
     title: Testing performance and compiler optimization insights
   - t: 3280
     title: Closing remarks and next office hour schedule
+cautions:
+  - kind: preview-disclaimer
+    quote: everything that you'll see here is in preview um so we'll go through what's new and then open up for discussion
+    t: 81
+  - kind: preview-disclaimer
+    quote: version 6.3 is the latest version that has shipped and everything that is on top of that is right now in preview
+    t: 127
+  - kind: preview-disclaimer
+    quote: GitHub packages is something that GitHub is missing so you still need to create a fine grain token for that
+    t: 391
+  - kind: preview-disclaimer
+    quote: create release doesn't work uh I do have a fix that I need to test whether that's that's a fix for that but right now it does not work
+    t: 411
+  - kind: preview-disclaimer
+    quote: we are not at this point in time ready to like run AI tests uh on like cicd or automated
+    t: 948
+  - kind: preview-disclaimer
+    quote: they do expect in um I don't know exactly it's probably not going to be uh before April 1st but it's probably going to be for October um that they have a new version of the test libraries
+    t: 1043
+  - kind: preview-disclaimer
+    quote: changes to in effect after April 1st is the clean mode pre-processor symbols
+    t: 1112
+  - kind: preview-disclaimer
+    quote: that's going to be in effect uh after October 1st is the setting called Always build all projects
+    t: 1133
 features:
   - name: GitHub app authentication
     status: preview

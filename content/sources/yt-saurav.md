@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T00:20:09.603Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c31bd4902dc051674dea968fa6271db804810d7d8f6c8ed767e01e886e0a8497
@@ -131,6 +131,8 @@ footprint:
     - id: other ModuleInfo
       weight: 1
   features:
+    - id: feature/573332
+      weight: 2
     - id: feature/573304
       weight: 1
     - id: feature/573312
@@ -142,8 +144,6 @@ footprint:
     - id: feature/573316
       weight: 1
     - id: feature/573322
-      weight: 1
-    - id: feature/573332
       weight: 1
     - id: feature/573352
       weight: 1
@@ -187,6 +187,7 @@ Items per quarter, oldest first:
 
 ## Roadmap features it demonstrates
 
+- [Faster data loading with improved data model for table extensions](../features/573332.md): Service and platform, generally available, GA 2026-10, 2 videos
 - [Access application links through ModuleInfo](../features/573354.md): Development, generally available, GA 2026-10, 1 video
 - [Actions on reports and pages can now inherit tooltips](../features/573313.md): Development, generally available, GA 2026-10, 1 video
 - [Administrators can turn SIFT indexes on/off](../features/573316.md): Governance and administration, generally available, GA 2026-10, 1 video
@@ -194,7 +195,6 @@ Items per quarter, oldest first:
 - [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md): Development, generally available, GA 2026-10, 1 video
 - [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 1 video
 - [Evolve AL interfaces with default implementations](../features/573352.md): Development, generally available, GA 2026-10, 1 video
-- [Faster data loading with improved data model for table extensions](../features/573332.md): Service and platform, generally available, GA 2026-10, 1 video
 - [Restrict global symbol resolution to a minor version](../features/573357.md): Development, generally available, GA 2026-10, 1 video
 - [Run data queries with MCP Server](../features/573312.md): Copilot and agents, generally available, GA 2026-10, 1 video
 - [Show recently searched in Tell Me](../features/573371.md): User experiences, generally available, GA 2026-10, 1 video

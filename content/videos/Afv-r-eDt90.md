@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:49:16.532Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:16.580Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -91,6 +91,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257
+      title: Analysis Mode killed half the Excel exports on your client's shared drive
+      label: possibly related
+      why: both name Page 25 "Customer Ledger Entries"
+      by: code
+    - to: video/Fk6kWTe3f2Y
+      title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/thedynamicsexplorer-com/37371
+      title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/thedynamicsexplorer-com/36744
+      title: "Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central"
+      label: possibly related
+      why: both name Page 25 "Customer Ledger Entries"
+      by: code
+    - to: post/thinkaboutit-be/7503
+      title: "How Do I: Analyze List Pages and Data Using Analysis Mode in Business Central"
+      label: possibly related
+      why: both name Page 25 "Customer Ledger Entries"
+      by: code
+    - to: post/thinkaboutit-be/7537
+      title: "How Do I: Replace Reports with Analysis Mode in Business Central"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: video/B8cWQGwajwQ
+      title: "In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/j5ULVClJaKU
+      title: "Introducing: Chat with Copilot ( 2024 release wave 1)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/gBB0elWQWM8
+      title: Warn Salespeople That a Product Will Soon be Out of Stock
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: post/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570
+      title: "Weekly Review: Business Central AL Development – June 28–July 4, 2026"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
 video_id: Afv-r-eDt90
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -118,6 +169,12 @@ chapters:
     title: Partner Resources and Communities
   - t: 738
     title: YouTube Channel and Content Organization
+cautions:
+  - kind: preview-disclaimer
+    quote: These are coming in 28.x
+    t: 470
+    versions:
+      - "28"
 features:
   - name: Support for analysis views in AL
     status: unclear
@@ -253,5 +310,20 @@ Not found in BC28-30: page "user lists", page "GL register", page "fixed asset l
 ## Disclaimers in the video
 
 - [7:50](https://www.youtube.com/watch?v=Afv-r-eDt90&t=470s) coming-later: These are coming in 28.x
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Analysis Mode killed half the Excel exports on your client's shared drive](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md) — possibly related: both name Page 25 "Customer Ledger Entries"
+- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central](../posts/thedynamicsexplorer-com/36744.md) — possibly related: both name Page 25 "Customer Ledger Entries"
+- [How Do I: Analyze List Pages and Data Using Analysis Mode in Business Central](../posts/thinkaboutit-be/7503.md) — possibly related: both name Page 25 "Customer Ledger Entries"
+- [How Do I: Replace Reports with Analysis Mode in Business Central](../posts/thinkaboutit-be/7537.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)](../videos/B8cWQGwajwQ.md) — possibly related: both name Page 48 "Sales Orders"
+- [Introducing: Chat with Copilot ( 2024 release wave 1)](../videos/j5ULVClJaKU.md) — possibly related: both name Page 48 "Sales Orders"
+- [Warn Salespeople That a Product Will Soon be Out of Stock](../videos/gBB0elWQWM8.md) — possibly related: both name Page 48 "Sales Orders"
+- [Weekly Review: Business Central AL Development – June 28–July 4, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570.md) — possibly related: both name Page 38 "Item Ledger Entries"
 
 Presenters (as heard): Kenny Pontepedra, Blanca.

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:57:58.829Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -105,6 +105,10 @@ chapters:
     title: Pull Request Artifact Deployment
   - t: 365
     title: Pull Request Deployment Demo and Artifact Expiration
+cautions:
+  - kind: preview-disclaimer
+    quote: later on we want to investigate how we can do this automatically in such a way that every time you push a new change to a PR then those changes will automatically flow into your online environment
+    t: 345
 features:
   - name: Dependency Install Mode
     status: unclear

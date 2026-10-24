@@ -1,38 +1,36 @@
 {
   "hub_id": "topic/dev-itpro/integration/integrating-with-shopify",
-  "input_hash": "a73bbdbff0b4f31f1add6c66f16e419b04307066ea380b39f71344f1ebd14e77",
-  "summary": "Shopify integration for Business Central through the Shopify Connector. It covers connecting stores, synchronizing items, prices, inventory, customers, companies and orders, technical details such as API versions and extensibility, and troubleshooting sync problems.",
-  "overview": "The Shopify Connector links Shopify stores to Business Central and keeps items, prices, inventory, customers, companies and orders in sync between the two systems. The section has four pages and no subtopics.\n\nStart with \"Getting started with the connector for Shopify\" for the overall picture and how to connect a store. Then use \"Set up and use the Shopify Connector\" for the walkthrough of product sync, customer management, order processing, B2B flows, price and discount configuration, and importing data from Shopify.\n\nFor developers and administrators, the technical FAQ covers product compatibility, the supported GraphQL Admin API versions, the extensibility model, and how quarterly API deprecations are handled in Business Central online. When sync does not behave as expected, the troubleshooting page explains how to run tasks in the foreground, read logs, check skipped records and reset sync dates.",
+  "input_hash": "862621d8ff589fa553d7adfdc5a19f4ad455adba869996edb99076171e6a70c8",
+  "summary": "Integrating with Shopify covers the Shopify Connector for Business Central: setup and OAuth connection, day-to-day synchronization of items, prices, inventory, customers and orders, technical FAQ on API versions and extensibility, and troubleshooting sync problems.",
+  "overview": "This section explains how to connect Shopify online stores to Business Central with the Shopify Connector app. It has four pages and no subtopics: a getting-started page, a setup and usage walkthrough, a technical FAQ, and a troubleshooting guide.\n\nStart with \"Get started with the Shopify Connector\" for prerequisites, installation, OAuth authentication and testing strategies. Then use \"Set up and use the Shopify Connector\" for product synchronization, inventory, prices, discounts, customer import, order processing and B2B flows.\n\nUse the technical FAQ for product compatibility, supported API versions, the extensibility model and how quarterly API deprecations are handled. Use the troubleshooting page when syncs fail or data is skipped.",
   "key_points": [
-    "The connector synchronizes items, prices, inventory, customers, companies and orders between Shopify and Business Central.",
-    "The setup walkthrough covers product synchronization, inventory sync, customer import, order sync, price management, discount configuration and B2B flows.",
-    "The technical FAQ covers the GraphQL Admin API, API versioning and quarterly API deprecation management for Business Central online.",
+    "The connector is the Shopify Connector app, installed in Business Central and connected to Shopify stores via OAuth, using offline access tokens.",
+    "Setup options include auto create unknown items, auto create unknown customers, auto create sales documents, and whether Shopify can update items.",
+    "Synchronization covers items, prices, inventory, customers and orders, plus discount configuration and B2B flows.",
+    "The technical FAQ covers the GraphQL Admin API, API versioning and quarterly API deprecation management for Business Central online, with 2026 release wave 1 and wave 2 mentioned.",
     "Extensibility uses integration events, public façade codeunits and extensible enums.",
-    "The FAQ mentions 2026 release wave 1 and 2026 release wave 2.",
-    "Troubleshooting starts with running tasks in the foreground and reviewing logging modes and log entries.",
-    "Skipped records can be tracked, and data retention policies apply to logs.",
-    "A sync reset (resetting sync dates) is available as a troubleshooting step."
+    "Troubleshooting tools include Run Syncs in Background, Logging Mode, Request ID tracking, a log entry retention policy, Skipped Records tracking and Data Capture.",
+    "The troubleshooting page also covers access token management and common error scenarios with resolution steps."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:12:30.192Z",
+  "at": "2026-10-24T00:52:59.087Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011484999999999999
+    "cost_usd": 0.011785
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:26:58.336Z",
+    "at": "2026-10-24T00:56:29.802Z",
     "verdict": "approve",
     "issues": [
-      "The key point about 2026 release wave 1 and wave 2 is supported, but it says little. It doesn't explain what those versions mean for the connector, so it could be dropped or rewritten if a page summary gives more detail.",
-      "'Data retention policies apply to logs' is a small inference. The troubleshooting page lists data retention policies as a feature, but its summary doesn't say they apply to logs specifically.",
-      "'Supported GraphQL Admin API versions' joins two separate facts from the FAQ page: it uses the GraphQL Admin API, and it covers supported API versions. The wording is reasonable, but the summary never says 'GraphQL Admin API versions' outright."
+      "Key point on the technical FAQ says 2026 release wave 1 and wave 2 are 'mentioned' without saying how they relate. This is vague but accurate, since the source gives no more detail.",
+      "The setup options (auto create unknown items/customers/sales documents, Shopify can update items) come from the getting-started page's features. Calling them general setup options is acceptable."
     ],
-    "input_hash": "a73bbdbff0b4f31f1add6c66f16e419b04307066ea380b39f71344f1ebd14e77",
-    "cost_usd": 0.0285192
+    "input_hash": "862621d8ff589fa553d7adfdc5a19f4ad455adba869996edb99076171e6a70c8",
+    "cost_usd": 0.03737120000000001
   }
 }

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-overview",
+  "title": "Cloud migration setup overview",
+  "blob": "01c3350ea847f7b2b100576684fd3260458063f7",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Cloud migration setup establishes connection and pipeline between on-premises and online databases without migrating data."
+    },
+    {
+      "kind": "step",
+      "text": "Run Cloud Migration Setup and specify SQL database connection and integration runtime."
+    },
+    {
+      "kind": "step",
+      "text": "Integration runtime registers with Azure Data Factory using authentication key exchange."
+    },
+    {
+      "kind": "step",
+      "text": "Preparation pipeline checks compatibility between source and destination databases and creates stored procedures."
+    },
+    {
+      "kind": "step",
+      "text": "Replication pipeline is created and remains idle until data migration is initiated."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005028,
+      "pages_in_call": 10
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/optimize-sql-al-Database-methods-and-performance-on-server.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-al-Database-methods-and-performance-on-server",
+  "title": "AL database methods and performance on SQL Server",
+  "blob": "e0814d94f15e4bf6c1834fa90a86294d3c47a898",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Record.Get is optimized for retrieving a single record based on primary key values."
+    },
+    {
+      "kind": "fact",
+      "text": "Record.Find('-') and Record.Find('+') use self-tuning TOP X calls and are best for reading when you might not need all records."
+    },
+    {
+      "kind": "fact",
+      "text": "Record.FindSet is optimized for reading the complete set of records in specified filters and ranges."
+    },
+    {
+      "kind": "fact",
+      "text": "Each CalcFields or CalcSums call requires a separate SQL statement unless the result is cached from a recent identical calculation."
+    },
+    {
+      "kind": "fact",
+      "text": "SetAutoCalcFields method optimizes performance by calculating FlowFields during record retrieval instead of in separate calls."
+    },
+    {
+      "kind": "fact",
+      "text": "Using FindSet with var parameter and direct Modify or Delete avoids extra SQL statements compared to copying records."
+    },
+    {
+      "kind": "fact",
+      "text": "ModifyAll and DeleteAll revert to individual SQL calls if triggers, event subscribers, security filtering, Media fields, or companion tables exist."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009138,
+      "pages_in_call": 4
+    }
+  ]
+}

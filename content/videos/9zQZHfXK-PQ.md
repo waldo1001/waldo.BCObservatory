@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:26.725Z"
   flags: []
 generated:
-  at: "2026-10-07T23:17:26.811Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -173,6 +173,10 @@ chapters:
     title: Branch deletion strategy, commit history tracking, and closing remarks
   - t: 4902
     title: Discussion on prototypes vs documentation and proof of concepts
+cautions:
+  - kind: preview-disclaimer
+    quote: a live demo no video. So let's see if everything works well.
+    t: 173
 features:
   - name: Docs-to-code development methodology
     status: unclear

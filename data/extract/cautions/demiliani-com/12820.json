@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/demiliani-com/12820",
+  "page_id": "post/demiliani-com/12820",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "index build might take longer because of the additional I/O required for going to tempdb",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "SQL Server 2025"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002899,
+    "posts_in_call": 4
+  }
+}

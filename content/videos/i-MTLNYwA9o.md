@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:53:17.883Z"
   flags: []
 generated:
-  at: "2026-10-07T22:53:17.926Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,6 +81,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/_ynMUzh956w
+      title: "Introducing: Sustainability in Business Central (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-journal
+      title: Record sustainability entries
+      label: possibly related
+      why: names Page 6219 "Sustainability Journal"
+      by: code
+    - to: video/UKVp28M5TtU
+      title: "What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6220 "Sustainability Ledger Entries"
+      by: code
+    - to: video/XYr0xwgpomA
+      title: "What's New in Sustainability: Sustainability Journals Approval (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: video/bHXEbtsx0JY
+      title: "What's New: Sustainability Copilot (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/sustainability-carbon-credit
+      title: Work with carbon credits
+      label: possibly related
+      why: names Page 6219 "Sustainability Journal"
+      by: code
 video_id: i-MTLNYwA9o
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -105,6 +136,10 @@ chapters:
     title: "Live Demo: Setting Up and Posting Energy Data"
   - t: 375
     title: Resources and Closing
+cautions:
+  - kind: preview-disclaimer
+    quote: Business Central launch edition 2025 release wave 2
+    t: 5
 features:
   - name: Energy Consumption Tracking
     status: unclear
@@ -223,5 +258,16 @@ Not found in BC28-30: table "Sustainability Account Subcategory", page "Sustaina
 ## Disclaimers in the video
 
 - [0:05](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=5s) subject-to-change: Business Central launch edition 2025 release wave 2
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Introducing: Sustainability in Business Central (2024 release wave 1)](../videos/_ynMUzh956w.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [Record sustainability entries](https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-journal) — possibly related: names Page 6219 "Sustainability Journal"
+- [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../videos/UKVp28M5TtU.md) — possibly related: both name Page 6220 "Sustainability Ledger Entries"
+- [What's New in Sustainability: Sustainability Journals Approval (2025 release wave 2)](../videos/XYr0xwgpomA.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [What's New: Sustainability Copilot (2025 release wave 2)](../videos/bHXEbtsx0JY.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [Work with carbon credits](https://learn.microsoft.com/dynamics365/business-central/sustainability-carbon-credit) — possibly related: names Page 6219 "Sustainability Journal"
 
 Presenters (as heard): Alexander, Jacob Pang.

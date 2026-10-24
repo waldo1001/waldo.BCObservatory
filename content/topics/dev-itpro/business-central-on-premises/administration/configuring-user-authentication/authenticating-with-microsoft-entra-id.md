@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:08.949Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,31 @@ Start with the overview page to choose a protocol for your version. Then follow 
 ## Learn pages
 
 - [Authenticating Business Central Users with Microsoft Entra ID](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-overview): Get an overview about using Microsoft Entra authentication in Business Central.
+  - Microsoft Entra ID provides cloud-based identity and access for Business Central applications
+  - Microsoft Entra authentication enables single sign-on integration with Excel, Outlook, Power BI, and Power Automate
+  - Status: OpenID Connect supported from version 20; WS-Federation deprecated in favor of OpenID Connect
+  - Version 19 and earlier support only WS-Federation authentication
+  - Step: To switch version 20 or 21 from WS-Federation to OpenID Connect, enable ID tokens on registered application in Azure portal
+  - Step: Configure server with ValidAudiences parameter and webserver with AadApplicationId and AadAuthorityUri parameters
 - [Configure Microsoft Entra authentication with OpenID Connect](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-openid-connect): Learn how to authentication Business Central users by using Microsoft Entra ID with OpenID Connect.
+  - Prerequisite: Obtain and set up security certificates on Business Central deployment for secure WAN connections
+  - Step: Create Microsoft Entra tenant by signing up for Microsoft 365 plan or Azure subscription
+  - Step: Register Business Central application in Microsoft Entra tenant specifying name, account types, and redirect URI
+  - Step: Set ID tokens for implicit grant and hybrid flows in application authentication settings
+  - Step: Associate each Microsoft Entra user accessing Business Central with account having authentication email
+  - Step: Configure server instance credential type to AccessControlService and set Microsoft Entra settings
+  - Step: Configure web server components with AAD application ID and authority URI
+  - For multitenant deployments using different Azure tenants, register app on one tenant and make it multitenant
 - [User Authentication with Microsoft Entra ID for Single Sign-on](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory): Associate an existing Microsoft account with user account to achieve single sign-on between the Web client and Microsoft 365.
+  - Status: WS-Federation support deprecated; removed in 2023 release wave 1 (version 22) and later
+  - Status: OpenID Connect introduced in 2022 release wave 1 (version 20); recommended replacement
+  - Prerequisite: Security certificates required on server and client computers to secure connections
+  - Step: Create or obtain Microsoft Entra tenant for managing user accounts and app registration
+  - Step: Register Business Central application in Microsoft Entra tenant with redirect URI and application ID
+  - Step: Associate each Business Central user with their Microsoft Entra user principal name as authentication email
+  - Step: Configure server instance with WS-Federation login endpoint and metadata location parameters
+  - Limit: WS-Federation no longer supported in version 22 and later; must migrate to OpenID Connect
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

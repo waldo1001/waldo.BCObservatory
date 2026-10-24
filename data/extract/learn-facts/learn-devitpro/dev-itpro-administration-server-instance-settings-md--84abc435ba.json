@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/server-instance-settings.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/server-instance-settings",
+  "title": "Business Central Server instance settings",
+  "blob": "323703d3976042cde69c844b11dc6e863e1a1e58",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Configure server instance topology, database connection, service defaults, sessions, browsing behavior, security, certificates, OAuth, file uploads, data sharing, HTTP calls, extension deployment…"
+    },
+    {
+      "kind": "fact",
+      "text": "ClientBuildRestriction controls whether clients with different build versions can connect: AlwaysConnect, WarnClient, or DoNotAllow. Default is WarnClient."
+    },
+    {
+      "kind": "fact",
+      "text": "Multitenant setting enables the server instance to work in multitenant environments where tenant databases mount on it."
+    },
+    {
+      "kind": "fact",
+      "text": "Session Event table retains interactive sessions for 90 days by default and non-interactive sessions for 5 days, with purges occurring at least once daily."
+    },
+    {
+      "kind": "fact",
+      "text": "ClientServicesCredentialType sets authentication to Windows, Username, NavUserPassword, AccessControlService, or None. Default is Windows."
+    },
+    {
+      "kind": "fact",
+      "text": "File upload restrictions: ClientServicesProhibitedFileTypes defaults to blocking executable, script, and system files; ClientServicesAllowedFileTypes can whitelist specific types."
+    },
+    {
+      "kind": "fact",
+      "text": "OData requests default to 20,000 entities per page with 8-minute timeout; API and OData throttling limits per tenant and user prevent 429 errors."
+    },
+    {
+      "kind": "fact",
+      "text": "Extension publishing requires DeveloperServicesEnabled; extensions target OnPrem or Cloud levels; RequiredExtensions cannot be uninstalled via UI."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.042355,
+      "pages_in_call": 1
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013012,
+      "pages_in_call": 4
+    }
+  ]
+}

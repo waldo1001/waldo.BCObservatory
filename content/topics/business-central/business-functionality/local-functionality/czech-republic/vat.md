@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:28.780Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -186,7 +186,7 @@ narrative: generated
 
 > Czech VAT local functionality in Business Central: VAT date, exchange rate, reverse charge, non-deductible VAT, VAT statements, control report, VAT returns, VIES, Intrastat, unreliable payer and functional currency. It answers setup and reporting questions for Czech legal compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > VAT · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -210,21 +210,28 @@ A sensible order is to start with VAT date, periods and VAT posting setup, then 
 ## Learn pages
 
 - [Czech local functionality - Reverse charge in setup and posting](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge): Learn how to set up and post reverse charge transactions in the Czech version of Business Central, including configuration of tax liability regimes and VAT reporting.
+  - In the observatory: [Page 310 "Tariff Numbers"](../../../../../objects/page/310.md), [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
 - [Czech local functionality - Setup VAT date](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-date): Learn how to set up and use the VAT Date feature in the Czech version of Business Central, including configuration steps and VAT reporting options.
 - [Czech Local Functionality - Supplementary VAT Statement](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/supplementary-vat-statement): This feature enables calculation and printing of VAT statements for multiple VAT statements that are posted and submitted within a single VAT period.
 - [Czech local functionality - Unreliable payer [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/unreliable-payer): Learn how the Czech Unreliable Payer feature uses the Czech tax authority's web service to obtain published information and indicate the payer status on vendor cards and purchase documents.
 - [Czech local functionality - VAT exchange rate](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-exchange-rate): Enables users to specify VAT Currency Code and VAT Exchange Rate in documents for the Czech version of Business Central.
 - [Czech local functionality - VAT reports for Czech](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-reports-cz): Provides VAT reports to meet Czech legislative and local reporting requirements.
 - [Czech local functionality - VAT statement](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-statement): Describes enhancements available in the Czech VAT Statement report.
+  - In the observatory: [Report 12 "VAT Statement"](../../../../../objects/report/12.md)
 - [Czech local functionality - Vies](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vies-cz): The VIES report is used for sales declaration to tax authorities in EU (European Union) countries/regions.
+  - In the observatory: [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
 - [Czech Local Functionality - Vies - CZ export](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-vies-cz-export): Enables exporting the VIES VAT report to an XML file formatted for submission to the Czech financial administration.
 - [Czech Local Functionality VAT correction in Local Currency](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency): Learn how to use the VAT correction in local currency feature in the Czech version of Business Central.
+  - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md), [Table 325 "VAT Posting Setup"](../../../../../objects/table/325.md)
 - [Functional Currency in the Czech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/functional-currency): Learn about functional currency, its legal basis in Czechia, and how it's supported in Business Central for accounting and VAT reporting.
 - [Intrastat Localization for Czech (Extension)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz): Companies in the European Union (EU) must report trade of goods with other EU countries or regions using Intrastat reporting or the VAT Information Exchange System (VIES).
 - [Non-deductible VAT](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/non-deductible-VAT): Learn about the features for using non-deductible VAT in the Czech version, including the setup, posting principles, and reporting requirements.
+  - In the observatory: [Page 187 "VAT Setup"](../../../../../objects/page/187.md), [Page 279 "Source Code Setup"](../../../../../objects/page/279.md), [Page 471 "VAT Product Posting Groups"](../../../../../objects/page/471.md), [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
 - [VAT Control Report [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-control-report): Companies registered for VAT in the Czech Republic with a CZ VAT ID are required to submit the VAT Control Report.
 - [VAT Return Periods in the Czech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-return-periods): Learn about VAT return periods in Czechia, and how they're used in Business Central for VAT reporting.
+  - In the observatory: [Table 737 "VAT Return Period"](../../../../../objects/table/737.md)
 - [VAT returns in the Czech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-return-cz): Learn how to use the features to submit a VAT return and comply with regulations in the Czech version.
+  - In the observatory: [Page 474 "VAT Statement Preview"](../../../../../objects/page/474.md), [Page 743 "VAT Report Setup"](../../../../../objects/page/743.md)
 
 ## Videos, posts and code changes
 

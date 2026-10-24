@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-permission-dependency-cycle-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace",
+  "title": "Analyzing permission dependency cycle trace telemetry",
+  "blob": "6ec27a94c1b464a5ebeb49354d2c626a864977af",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Permission dependency cycle occurs when permission set depends on itself directly or indirectly"
+    },
+    {
+      "kind": "fact",
+      "text": "Dependency cycle discovered event has ID RT0032 with severity level 3"
+    },
+    {
+      "kind": "fact",
+      "text": "Cycle error message shows circular reference path, for example [XX]->[YY]->[XX]"
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry includes AL object ID and type if error relates to specific object"
+    },
+    {
+      "kind": "fact",
+      "text": "Permission area values recorded are System, Entitlement, Company, or Object"
+    },
+    {
+      "kind": "fact",
+      "text": "Permission type values include Delete, Execute, Insert, Modify, Read, or Undefined"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007985,
+      "pages_in_call": 7
+    }
+  ]
+}

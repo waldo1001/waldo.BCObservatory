@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:48:37.225Z"
   flags: []
 generated:
-  at: "2026-10-07T22:48:37.270Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -205,6 +205,42 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
+      title: Create Purchase Orders from Drop Shipments
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/tpAh4q3h8T8
+      title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/crDXSPsoIQ8
+      title: Edit Sales Orders in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/XhO4oFmoh1M
+      title: "Introducing: Sales Order Agent (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/MNwTt06ZxwY
+      title: "Microsoft presents: Building and shipping agents in Business Central"
+      label: possibly related
+      why: both name Page 4316 "Agent List"
+      by: code
+    - to: video/qP0id91bIlA
+      title: "What's New: Designing Generative AI Experiences (2024 Release Wave 1)"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/DJ3LPRxn27g
+      title: "What's New: Drop Shipments (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
 video_id: Vq9Nk6_uxmQ
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -258,6 +294,25 @@ chapters:
     title: Low-Frequency Agentic Scenarios and Cost
   - t: 2084
     title: SDK, Future Development and Closing
+cautions:
+  - kind: preview-disclaimer
+    quote: we are also considering to enable this thing through the UI. And possibly also to have some agentic help to help you to generate these pages
+    t: 810
+  - kind: preview-disclaimer
+    quote: we are also considering to enable this thing through the UI. And possibly also to have some agentic help to help you to generate these pages
+    t: 821
+  - kind: preview-disclaimer
+    quote: we are also have started working on changing the way how we are writing instructions permissions and how we are handling permissions in the product. We are moving more to these indirect inherited permissions
+    t: 1374
+  - kind: preview-disclaimer
+    quote: We are working to ship more samples. And one of the samples that I'm looking at at the moment is writing these sales return agent
+    t: 1722
+  - kind: preview-disclaimer
+    quote: We are also releasing the SDK and the SDK will allow partners to build and ship their own agents.
+    t: 2097
+  - kind: preview-disclaimer
+    quote: giving you the ability to test your agents which we will be releasing quite soon
+    t: 2112
 features:
   - name: Custom Agents
     status: unclear
@@ -598,5 +653,17 @@ Not found in BC28-30: page "role center", page "items page".
 - [34:57](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=2097s) coming-later: We are also releasing the SDK and the SDK will allow partners to build and ship their own agents.
 - [35:12](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=2112s) coming-later: giving you the ability to test your agents which we will be releasing quite soon
 - [35:54](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=2154s) other: we have a lot of items on the backlog and we are really looking forward for your feedback what to prioritize
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 42 "Sales Order"
+- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 42 "Sales Order"
+- [Edit Sales Orders in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)](../videos/crDXSPsoIQ8.md) — possibly related: both name Page 42 "Sales Order"
+- [Introducing: Sales Order Agent (2025 release wave 1)](../videos/XhO4oFmoh1M.md) — possibly related: both name Page 42 "Sales Order"
+- [Microsoft presents: Building and shipping agents in Business Central](../videos/MNwTt06ZxwY.md) — possibly related: both name Page 4316 "Agent List"
+- [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../videos/qP0id91bIlA.md) — possibly related: both name Page 42 "Sales Order"
+- [What's New: Drop Shipments (2026 release wave 1)](../videos/DJ3LPRxn27g.md) — possibly related: both name Page 42 "Sales Order"
 
 Presenters (as heard): Vincent, Nikolai.

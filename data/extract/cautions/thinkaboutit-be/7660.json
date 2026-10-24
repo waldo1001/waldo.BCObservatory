@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/thinkaboutit-be/7660",
+  "page_id": "post/thinkaboutit-be/7660",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Always verify error handling, authentication, and timeout behavior manually. Copilot's suggestions rarely cover these fully out of the box.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Copilot produced a structurally correct refactoring with a small but real error in the details.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006827,
+    "posts_in_call": 4
+  }
+}

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:01:11.551Z"
   flags: []
 generated:
-  at: "2026-10-07T23:01:11.597Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -110,6 +110,10 @@ chapters:
     title: Historical data and advanced capabilities
   - t: 302
     title: Future steps and availability
+cautions:
+  - kind: preview-disclaimer
+    quote: eventually we want to move all of this code into BC apps and make it fully open source
+    t: 221
 features:
   - name: Modular demo data architecture
     status: unclear

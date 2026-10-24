@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:01.195Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,7 +99,30 @@ Start with the overview to understand the components, then run the setup guide, 
 ## Learn pages
 
 - [Cloud migration setup overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-overview): Learn what happens when you set up cloud migration from on-premises to Business Central online, including the data pipeline and connection process.
+  - Cloud migration setup establishes connection and pipeline between on-premises and online databases without migrating data.
+  - Step: Run Cloud Migration Setup and specify SQL database connection and integration runtime.
+  - Step: Integration runtime registers with Azure Data Factory using authentication key exchange.
+  - Step: Preparation pipeline checks compatibility between source and destination databases and creates stored procedures.
+  - Step: Replication pipeline is created and remains idle until data migration is initiated.
 - [Configure Dynamics SL company migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-configure-companies): Learn how to use the Business Central cloud migration tools to specify the Dynamics SL company data for migrating to Business Central on-premises.
+  - Status: Generally available.
+  - Prerequisite: Run cloud migration setup before configuring company migration.
+  - SL Company Migration Configuration page opens automatically after Cloud Migration Setup.
+  - Step: Configure migration globally or per company using Modules, Master Data Only, and other sections.
+  - Step: Set Oldest GL Year to specify how far back to migrate GL account summary transactions.
+  - Step: Set Oldest Snapshot Year to specify earliest year for historical transaction migration.
+  - Inactive records and discontinued items not migrated by default unless enabled.
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
 - [Run cloud migration setup for Dynamics SL migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-sl): Learn how to run Cloud Migration Setup to configure the components and connection to migrate from a Dynamics SL on-premises to Business Central online.
+  - Prerequisite: Delegated administrators must get approval from licensed user with Essentials or Premium license and SUPER permissions.
+  - Step: Sign in to Microsoft 365 tenant and Business Central online as administrator.
+  - Step: Open Assisted Setup and select Set up Cloud Migration to run setup guide.
+  - Step: Specify SQL database connection details and integration runtime on Define SQL database connection page.
+  - Step: Select companies to migrate from list or switch on All Companies option.
+  - Step: Complete setup on SL Company Migration Configuration page and select Finish.
+  - Cloud migration setup can be rerun to add tenants to existing integration runtime service.
+  - Limit: Online tenant storage capacity default is 80 GB plus allowances per licensed user.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

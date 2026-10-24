@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-reports-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace",
+  "title": "Report Generation Telemetry",
+  "blob": "06aa50695ebf1d718e6a37799050044fe995f957",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Report telemetry captures successful generation (RT0006), failures, cancellations (RT0007), and commits during cancellation (RT0011) with performance metrics."
+    },
+    {
+      "kind": "fact",
+      "text": "Total time minus server execution time equals rendering time. Rendering time is difference between generating dataset and applying layout."
+    },
+    {
+      "kind": "limit",
+      "text": "Business Central online cancels reports exceeding timeout threshold or max row limits; on-premises has no default limits but supports ReportTimeout and ReportMaxRows parameters."
+    },
+    {
+      "kind": "fact",
+      "text": "Dimensions include report ID, name, layout type (Rdlc, Word, Excel, Custom), document format, action (Print, Preview, Save, Schedule, Download), and reporting engine used."
+    },
+    {
+      "kind": "fact",
+      "text": "Theme layout and header/footer layout dimensions added in version 29.0 indicate layouts applied to report; values empty when not applied."
+    },
+    {
+      "kind": "fact",
+      "text": "Cancellation reasons include user request, timeout exceeded, maximum rows exceeded, or Word report rendering timeout."
+    },
+    {
+      "kind": "limit",
+      "text": "Event must log when report canceled with commit performed before cancellation, indicating potential data inconsistency if report not idempotent."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010146,
+      "pages_in_call": 5
+    }
+  ]
+}

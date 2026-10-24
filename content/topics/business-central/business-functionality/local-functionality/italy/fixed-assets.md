@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:08.293Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,9 +115,13 @@ Start with the overview page, then set up the alternate depreciation methods. Pr
 ## Learn pages
 
 - [compressed depreciation of fixed assets [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets): You can compress fixed asset depreciation into subclasses and choose to display only the total sum by subclass.
+  - In the observatory: [Page 5610 "Depreciation Book Card"](../../../../../objects/page/5610.md), [Page 5611 "Depreciation Book List"](../../../../../objects/page/5611.md)
 - [How to Create Multiple Fixed Asset Cards [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards): Learn how to automatically create multiple fixed asset cards during purchase invoice posting in Business Central.
+  - In the observatory: [Page 5600 "Fixed Asset Card"](../../../../../objects/page/5600.md), [Page 5601 "Fixed Asset List"](../../../../../objects/page/5601.md)
 - [How to Print Depreciation Book Reports [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-depreciation-book-reports): Learn how to print the Depreciation Book report, after configuring depreciation methods and entering fixed assets.
+  - In the observatory: [Report 12119 "Depreciation Book (IT)"](../../../../../objects/report/12119-it.md)
 - [How to set up alternate depreciation methods](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods): Learn how to set up alternate depreciation methods, such as anticipated, accelerated, and reduced depreciation.
+  - In the observatory: [Page 5663 "Depreciation Table List"](../../../../../objects/page/5663.md)
 - [Italian fixed assets](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-fixed-assets): Learn about the features available for managing fixed assets in Italy, including depreciation methods and automated processes in Business Central.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

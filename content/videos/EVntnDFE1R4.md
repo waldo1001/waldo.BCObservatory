@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:12:58.282Z"
   flags: []
 generated:
-  at: "2026-10-07T23:12:58.328Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -205,6 +205,25 @@ chapters:
     title: "Power BI: Embed experience and scorecard support"
   - t: 1314
     title: Summary and support resources for Power Platform integration
+cautions:
+  - kind: preview-disclaimer
+    quote: if you're creating a new uh environment in business Central or a Sandbox environment with preview version of business Central 2023 wave two this is enabled by default
+    t: 261
+  - kind: preview-disclaimer
+    quote: the concept of business events is is new in business Central and it's still in preview
+    t: 715
+  - kind: preview-disclaimer
+    quote: from December this year all of those V2 actions will be hidden
+    t: 1007
+  - kind: preview-disclaimer
+    quote: this technology virtual tables for business Central uh is going to be generally available later this year
+    t: 1165
+  - kind: preview-disclaimer
+    quote: in later in this year we will um deliver a preview version of our integration
+    t: 1182
+  - kind: preview-disclaimer
+    quote: this will be a a preview optin experience at the beginning
+    t: 1222
 features:
   - name: Approval Workflow Templates in Power Automate
     status: unclear

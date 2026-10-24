@@ -1,0 +1,37 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2936",
+  "page_id": "post/aardvarklabs-blog/2936",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "the feature is pending release in Wave 1 2026, so some things may have changed in the user interface between now and release.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "Wave 1 2026"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Analysis Views imported as a part of an extension cannot be edited.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "There is an option to hide a locked analysis view. But at the time of writing, I can't find the unhide button.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005474,
+    "posts_in_call": 4
+  }
+}

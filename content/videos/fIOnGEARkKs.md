@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:15:37.246Z"
   flags: []
 generated:
-  at: "2026-10-07T23:15:37.296Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -109,6 +109,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-51-dimension-no-in-dimension-value--f3607da2e9
+      title: "BC Friday Tips #51 Dimension No. in Dimension Value"
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/XN8a2zZe2a8
+      title: Become More Efficient With Background Posting
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/V2mfuDh8Kfk
+      title: Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/5zXQ_aIT03s
+      title: Control When People Can Post to the General Ledger
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: post/thedynamicsexplorer-com/37202
+      title: Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/kuKwjRyNcoE
+      title: Ensure Consistency in Journals With Journal Check
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers
+      title: Enterprise Numbers and Branch Numbers [BE]
+      label: possibly related
+      why: names Table 5050 "Contact"
+      by: code
+    - to: post/aardvarklabs-blog/2866
+      title: Importing XML into Business Central with AL
+      label: possibly related
+      why: both name Table 23 "Vendor"
+      by: code
+    - to: video/1QuV_vkbNVU
+      title: Introducing Spreadsheets for Business Central
+      label: possibly related
+      why: both name Table 3 "Payment Terms"
+      by: code
+    - to: video/lcu53ikOk7s
+      title: Safeguard G/L Accounts From Deletion
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
 video_id: fIOnGEARkKs
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -315,5 +366,20 @@ Not found in BC28-30: table "account", table "sales quotes", page "integration f
 
 - [0:38](https://www.youtube.com/watch?v=fIOnGEARkKs&t=38s) other: some improvements have been introduced in July as part of the minor updates for 2023 release Wave 1
 - [7:32](https://www.youtube.com/watch?v=fIOnGEARkKs&t=452s) other: The default settings for the event-based synchronization stay unchanged to avoid disrupting uh existing Integrations
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [BC Friday Tips #51 Dimension No. in Dimension Value](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-51-dimension-no-in-dimension-value--f3607da2e9.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Become More Efficient With Background Posting](../videos/XN8a2zZe2a8.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)](../videos/V2mfuDh8Kfk.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Control When People Can Post to the General Ledger](../videos/5zXQ_aIT03s.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?](../posts/thedynamicsexplorer-com/37202.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Ensure Consistency in Journals With Journal Check](../videos/kuKwjRyNcoE.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Enterprise Numbers and Branch Numbers \[BE\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers) — possibly related: names Table 5050 "Contact"
+- [Importing XML into Business Central with AL](../posts/aardvarklabs-blog/2866.md) — possibly related: both name Table 23 "Vendor"
+- [Introducing Spreadsheets for Business Central](../videos/1QuV_vkbNVU.md) — possibly related: both name Table 3 "Payment Terms"
+- [Safeguard G/L Accounts From Deletion](../videos/lcu53ikOk7s.md) — possibly related: both name Page 118 "General Ledger Setup"
 
 Presenters (as heard): Ian ktic, Sandy.

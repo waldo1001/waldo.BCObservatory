@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/configure-web-server.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-web-server",
+  "title": "Configuring Business Central Web Server instances",
+  "blob": "1b2eab15c7537cfc84da3029551d324cf7b9ae81",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Business Central web server instance requires IIS instance; created via setup or New-NAVWebServerInstance cmdlet."
+    },
+    {
+      "kind": "fact",
+      "text": "Web server configuration saved in navsettings.json file located at C:\\inetpub\\wwwroot\\[WebServerInstanceName]."
+    },
+    {
+      "kind": "step",
+      "text": "Modify navsettings.json directly in text editor or using Set-NAVWebServerInstanceConfiguration PowerShell cmdlet."
+    },
+    {
+      "kind": "fact",
+      "text": "ClientServicesCredentialType setting must match Server instance type: Windows, UserName, NavUserPassword, or AccessControlService."
+    },
+    {
+      "kind": "fact",
+      "text": "SessionTimeout default is 20 minutes; specifies idle time before page closes with expiration message."
+    },
+    {
+      "kind": "fact",
+      "text": "MaximumWebSocketsMessageSize default 300 MB limits single WebSocket message size to prevent denial-of-service."
+    },
+    {
+      "kind": "fact",
+      "text": "RequireSsl setting must be true if SSL enabled on web server to mark cookies as secure."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005028,
+      "pages_in_call": 10
+    }
+  ]
+}

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:49:09.066Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:09.104Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -96,6 +96,27 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/nbGw2g3KMXI
+      title: 20260713 - From Zero to Agent Building agents in Business Central
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: video/Fk6kWTe3f2Y
+      title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: video/YX9UfUF0EsA
+      title: "Microsoft presents: Introducing M365 Copilot Chat in Business Central"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-item-attributes
+      title: Set up item attributes and assign them to items
+      label: possibly related
+      why: names Page 7500 "Item Attributes"
+      by: code
 video_id: 6vHJQggN4F4
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -264,3 +285,12 @@ Not found in BC28-30: page "Shopify shops", page "Shopify shop card", page "list
 ## Disclaimers in the video
 
 - [1:49](https://www.youtube.com/watch?v=6vHJQggN4F4&t=109s) other: It's only visible if you have Shopify uh connector installed with uh uh some stores connected. You need to enable connector
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [20260713 - From Zero to Agent Building agents in Business Central](../videos/nbGw2g3KMXI.md) — possibly related: both name Page 31 "Item List"
+- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Page 31 "Item List"
+- [Microsoft presents: Introducing M365 Copilot Chat in Business Central](../videos/YX9UfUF0EsA.md) — possibly related: both name Page 31 "Item List"
+- [Set up item attributes and assign them to items](https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-item-attributes) — possibly related: names Page 7500 "Item Attributes"

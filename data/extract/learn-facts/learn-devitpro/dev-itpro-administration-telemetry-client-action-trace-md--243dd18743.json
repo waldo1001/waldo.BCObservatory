@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-client-action-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-action-trace",
+  "title": "Analyzing client action telemetry",
+  "blob": "a14a5253e8af46e896c1fbed907a7ea38649cd67",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Introduced in Business Central 2023 release wave 1, version 22.0."
+    },
+    {
+      "kind": "fact",
+      "text": "Client action telemetry tracks actions users select on pages in the Business Central client."
+    },
+    {
+      "kind": "fact",
+      "text": "Data includes action type, page details, user environment info, and application version."
+    },
+    {
+      "kind": "fact",
+      "text": "Action invoked event has eventId CL0003 and shows which UI action was triggered."
+    },
+    {
+      "kind": "fact",
+      "text": "Use telemetry to gather statistics about how users interact with client features."
+    },
+    {
+      "kind": "fact",
+      "text": "clientAction dimension specifies the type of action, such as UI.AnalysisMode.Disabled."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005499,
+      "pages_in_call": 11
+    }
+  ]
+}

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:46:54.077Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -106,12 +106,10 @@ chapters:
     title: Manual project assignment fallback in Business Central
 features:
   - name: Project and task visibility in Expense Agent web app
-    status: preview
+    status: unclear
     t: 17
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573259"
+    status_source: video
   - name: Submitter project assignment capability
     status: unclear
     t: 81
@@ -193,7 +191,7 @@ A submitter then picks the project and project task in the categorization tab of
 
 | Feature | Status | At |
 |---|---|---|
-| Project and task visibility in Expense Agent web app | preview (roadmap [Use assigned projects only in the web app](../features/573259.md)), demoed | [0:17](https://www.youtube.com/watch?v=NI6WYze-JSU&t=17s) |
+| Project and task visibility in Expense Agent web app | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=NI6WYze-JSU&t=17s) |
 | Submitter project assignment capability | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=NI6WYze-JSU&t=81s) |
 | Project tracking configuration in Expense Agent setup | preview (roadmap [Use assigned projects only in the web app](../features/573259.md)), demoed | [1:44](https://www.youtube.com/watch?v=NI6WYze-JSU&t=104s) |
 | Expense user to resource linkage | preview (roadmap [Use assigned projects only in the web app](../features/573259.md)), demoed | [1:59](https://www.youtube.com/watch?v=NI6WYze-JSU&t=119s) |

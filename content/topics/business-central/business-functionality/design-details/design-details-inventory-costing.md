@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:53.515Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -268,24 +268,37 @@ Start with "Design details - Inventory costing" for the overview, then "Costing 
 ## More Learn pages
 
 - [Design details - Assembly order posting](https://learn.microsoft.com/dynamics365/business-central/design-details-assembly-order-posting): Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption/output.
+  - In the observatory: [Table 32 "Item Ledger Entry"](../../../../objects/table/32.md), [Table 5802 "Value Entry"](../../../../objects/table/5802.md), [Table 5832 "Capacity Ledger Entry"](../../../../objects/table/5832.md)
 - [Design details - Average cost](https://learn.microsoft.com/dynamics365/business-central/design-details-average-cost): The average cost of an item is calculated with a periodic weighted average.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../../objects/page/461.md), [Table 5802 "Value Entry"](../../../../objects/table/5802.md), [Table 5804 "Avg. Cost Adjmt. Entry Point"](../../../../objects/table/5804.md)
 - [Design details - Changing costing methods for items](https://learn.microsoft.com/dynamics365/business-central/design-details-changing-costing-methods): Learn how to assign a different costing method to an item although you have already used the item in transactions.
+  - In the observatory: [Page 30 "Item Card"](../../../../objects/page/30.md), [Page 461 "Inventory Setup"](../../../../objects/page/461.md), [Page 5841 "Standard Cost Worksheet"](../../../../objects/page/5841.md)
 - [Design details - Cost adjustment](https://learn.microsoft.com/dynamics365/business-central/design-details-cost-adjustment): Cost adjustment forwards cost changes from cost sources to cost recipients according to an item’s costing method, to provide correct inventory valuation.
+  - In the observatory: [Codeunit 22 "Item Jnl.-Post Line"](../../../../objects/codeunit/22.md), [Page 118 "General Ledger Setup"](../../../../objects/page/118.md), [Page 461 "Inventory Setup"](../../../../objects/page/461.md), [Table 339 "Item Application Entry"](../../../../objects/table/339.md), [Table 5804 "Avg. Cost Adjmt. Entry Point"](../../../../objects/table/5804.md)
 - [Design details - Cost components](https://learn.microsoft.com/dynamics365/business-central/design-details-cost-components): Cost components are different types of costs that make up the value of an inventory increase or decrease.
 - [Design details - Costing methods](https://learn.microsoft.com/dynamics365/business-central/design-details-costing-methods): This topic describes how the costing method affects how actual and budgeted values are capitalized and used in the cost calculation.
+  - In the observatory: [Page 5700 "Stockkeeping Unit Card"](../../../../objects/page/5700.md), [Page 99000768 "Manufacturing Setup"](../../../../objects/page/99000768.md)
 - [Design details - Expected cost posting](https://learn.microsoft.com/dynamics365/business-central/design-details-expected-cost-posting): Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.
+  - In the observatory: [Page 314 "General Posting Setup"](../../../../objects/page/314.md), [Page 461 "Inventory Setup"](../../../../objects/page/461.md), [Page 5826 "Inventory Posting Setup"](../../../../objects/page/5826.md)
 - [Design details - Inventory costing](https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-costing): This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in Business Central.
 - [Design details - Inventory periods](https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-periods): Inventory Periods helps avoid problems with balances and stock valuations by opening or closing inventory periods to limit posting in a set period of time.
 - [Design details - Inventory posting](https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-posting): Each inventory transaction, such as a purchase receipt or a sales shipment, posts two entries of different types.
+  - In the observatory: [Table 32 "Item Ledger Entry"](../../../../objects/table/32.md), [Table 339 "Item Application Entry"](../../../../objects/table/339.md), [Table 5802 "Value Entry"](../../../../objects/table/5802.md)
 - [Design details - Inventory valuation](https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-valuation): Inventory valuation is the determination of the cost of an inventory item.
+  - In the observatory: [Report 5802 "Inventory Valuation - WIP"](../../../../objects/report/5802.md)
 - [Design details - Item application](https://learn.microsoft.com/dynamics365/business-central/design-details-item-application): This article describes where inventory quantity and value are recorded when you post an inventory transaction.
+  - In the observatory: [Table 32 "Item Ledger Entry"](../../../../objects/table/32.md), [Table 339 "Item Application Entry"](../../../../objects/table/339.md)
 - [Design details - Production order posting](https://learn.microsoft.com/dynamics365/business-central/design-details-production-order-posting): Similar to assembly order posting, the consumed components and the used machine time convert and output as the produced item when you finish the production order.
 - [Design details - Reconciliation with the general ledger](https://learn.microsoft.com/dynamics365/business-central/design-details-reconciliation-with-the-general-ledger): This article describes reconciliation with the general ledger when you post inventory transactions, such as sales shipments, production output, or negative adjustments.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../../objects/page/461.md)
 - [Design details - Revaluation](https://learn.microsoft.com/dynamics365/business-central/design-details-revaluation): You can revalue the inventory based on the valuation base that most accurately reflects the inventory value.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../../objects/page/461.md)
 - [Design Details - Rounding](https://learn.microsoft.com/dynamics365/business-central/design-details-rounding): Rounding residuals can occur when you value the cost of an inventory decrease measured in a different quantity than the corresponding inventory increase.
 - [Design details accounts in the general ledger](https://learn.microsoft.com/dynamics365/business-central/design-details-accounts-in-the-general-ledger): To reconcile inventory and capacity ledger entries with the general ledger, the related value entries post to different accounts in the general ledger.
+  - In the observatory: [Page 314 "General Posting Setup"](../../../../objects/page/314.md), [Page 5826 "Inventory Posting Setup"](../../../../objects/page/5826.md), [Table 5802 "Value Entry"](../../../../objects/table/5802.md)
 - [Design details variance](https://learn.microsoft.com/dynamics365/business-central/design-details-variance): Variance is the difference between the actual cost and the standard cost.
 - [Inventory zero open item ledger entries](https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-zero-level-open-item-ledger-entries): This article addresses an issue where the inventory level is zero although open item ledger entries exist.
+  - In the observatory: [Table 32 "Item Ledger Entry"](../../../../objects/table/32.md), [Table 339 "Item Application Entry"](../../../../objects/table/339.md)
 
 ## Videos, posts and code changes
 

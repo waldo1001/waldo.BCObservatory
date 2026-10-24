@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:52.381Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -141,7 +141,9 @@ Start with the Move Items overview to see which approach matches your configurat
 - [Move Items](https://learn.microsoft.com/dynamics365/business-central/warehouse-move-items): Learn about moving items between bins in your warehouse.
 - [Move items in warehouses that use directed put-away and pick](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-move-items-in-advanced-warehousing): This article explains how to move items in locations that use directed put-away and pick.
 - [Move Items Unplanned in Basic Warehouse Configurations](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-move-items-ad-hoc-in-basic-warehousing): This article explains unplanned internal movements between bins without a demand from a source document.
+  - In the observatory: [Page 7305 "Bin Contents List"](../../../../../objects/page/7305.md)
 - [Transfer items between locations](https://learn.microsoft.com/dynamics365/business-central/inventory-how-transfer-between-locations): Learn how to transfer items, inventory, or stock between locations by using transfer orders or the item reclassification journal.
+  - In the observatory: [Page 5740 "Transfer Order"](../../../../../objects/page/5740.md), [Page 5742 "Transfer Orders"](../../../../../objects/page/5742.md), [Page 5743 "Posted Transfer Shipment"](../../../../../objects/page/5743.md), [Page 672 "Job Queue Entries"](../../../../../objects/page/672.md), [Page 709 "Error Message Register"](../../../../../objects/page/709.md), [Report 5707 "Batch Post Transfer Orders"](../../../../../objects/report/5707.md)
 
 ## Videos, posts and code changes
 

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/troubleshooting-sql-server-connection-problems.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshooting-sql-server-connection-problems",
+  "title": "Troubleshooting: SQL Server Connection Problems",
+  "blob": "c170bf4677e572d307a0ecc77ca83622a610b19a",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "The Business Central server requires Named Pipes and TCP/IP protocols to be enabled in SQL Server Configuration Manager for proper database connectivity."
+    },
+    {
+      "kind": "step",
+      "text": "In SQL Server Configuration Manager, expand the SQL Server Network Configuration node and select Protocols for MSSQLSERVER to verify or enable Named Pipes and TCP/IP."
+    },
+    {
+      "kind": "step",
+      "text": "If a protocol is disabled, right-click it and select Enable, then restart the Business Central server."
+    },
+    {
+      "kind": "fact",
+      "text": "Windows Firewall must explicitly allow the SQL Server executable file sqlservr.exe as an exception to permit connections."
+    },
+    {
+      "kind": "step",
+      "text": "In Windows Firewall exceptions, add the SQL Server executable at C:\\Program Files\\Microsoft SQL Server\\MSSQL*\\MSSQL\\Binn\\sqlservr.exe."
+    },
+    {
+      "kind": "fact",
+      "text": "When using a named database instance with the server and SQL Server on separate computers, the SQL Browser Service must be running on the SQL Server."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005038,
+      "pages_in_call": 3
+    }
+  ]
+}

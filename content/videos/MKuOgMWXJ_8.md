@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:51:08.493Z"
   flags: []
 generated:
-  at: "2026-10-07T22:51:08.526Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -87,6 +87,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/B8cWQGwajwQ
+      title: "In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/j5ULVClJaKU
+      title: "Introducing: Chat with Copilot ( 2024 release wave 1)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/gBB0elWQWM8
+      title: Warn Salespeople That a Product Will Soon be Out of Stock
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/6sH2u4jt-ow
+      title: "What's Cooking in Business Central: Storing Document Attachments outside the Database"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/6SyNNeHQDUo
+      title: "What's New: Co-Development Initiative (2024 release wave 2)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
+    - to: video/Afv-r-eDt90
+      title: "What's New: Enhanced Analysis Mode (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
 video_id: MKuOgMWXJ_8
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -112,6 +143,10 @@ chapters:
     title: Agent execution, order processing and results review
   - t: 248
     title: Cost tracking and conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: We are planning to build more and they will appear in this list here
+    t: 37
 features:
   - name: Sales Validation Agent
     status: unclear
@@ -244,5 +279,16 @@ As heard in the captions. A name that matches one object page by exact type and 
 ## Disclaimers in the video
 
 - [0:37](https://www.youtube.com/watch?v=MKuOgMWXJ_8&t=37s) coming-later: We are planning to build more and they will appear in this list here
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)](../videos/B8cWQGwajwQ.md) — possibly related: both name Page 48 "Sales Orders"
+- [Introducing: Chat with Copilot ( 2024 release wave 1)](../videos/j5ULVClJaKU.md) — possibly related: both name Page 48 "Sales Orders"
+- [Warn Salespeople That a Product Will Soon be Out of Stock](../videos/gBB0elWQWM8.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's Cooking in Business Central: Storing Document Attachments outside the Database](../videos/6sH2u4jt-ow.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's New: Co-Development Initiative (2024 release wave 2)](../videos/6SyNNeHQDUo.md) — possibly related: both name Page 48 "Sales Orders"
+- [What's New: Enhanced Analysis Mode (2026 release wave 1)](../videos/Afv-r-eDt90.md) — possibly related: both name Page 48 "Sales Orders"
 
 Presenters (as heard): Nicola.

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:53:18.619Z"
   flags: []
 generated:
-  at: "2026-10-07T22:53:18.665Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -102,6 +102,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/fatcqVFrTXI
+      title: Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central
+      label: possibly related
+      why: both name Page 43 "Sales Invoice"
+      by: code
+    - to: video/HjsOuhThGKk
+      title: "What's New: Summarize with Copilot (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 132 "Posted Sales Invoice"
+      by: code
 video_id: h6a8BVzvuZ4
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -133,6 +144,19 @@ chapters:
     title: Framework approach and localization strategy
   - t: 605
     title: Summary and resources
+cautions:
+  - kind: preview-disclaimer
+    quote: framework not by default localized, localizations must be built separately
+    t: 76
+  - kind: preview-disclaimer
+    quote: receiver validation not yet supported, planned for future delivery
+    t: 203
+  - kind: preview-disclaimer
+    quote: will continue to build localization on top of e documents framework with clearance model for missing countries
+    t: 556
+  - kind: preview-disclaimer
+    quote: planning how to migrate Indian and Mexican e-invoicing to new e documents format and verifact 2 in Spain
+    t: 576
 features:
   - name: Clearance model for e-documents
     status: unclear
@@ -272,5 +296,12 @@ Not found in BC28-30: page "e document service page", page "e document page".
 - [8:37](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=517s) other: clearance service does not exist in business central and must be built by partners
 - [9:16](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=556s) coming-later: will continue to build localization on top of e documents framework with clearance model for missing countries
 - [9:36](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=576s) coming-later: planning how to migrate Indian and Mexican e-invoicing to new e documents format and verifact 2 in Spain
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central](../videos/fatcqVFrTXI.md) — possibly related: both name Page 43 "Sales Invoice"
+- [What's New: Summarize with Copilot (2025 release wave 1)](../videos/HjsOuhThGKk.md) — possibly related: both name Page 132 "Posted Sales Invoice"
 
 Presenters (as heard): Alexander, Benji.

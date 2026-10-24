@@ -1,8 +1,8 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/austria/purchasing",
   "input_hash": "b20b5414b991d9fbbb3ddd86b16fb54f16e8fbacbbbc46c2793f949e5b284c79",
-  "summary": "Purchasing in the Austrian version of Business Central covers delivery reminders for late vendor deliveries. It answers questions on setting up terms, levels, text and vendor codes, and on creating, generating, testing and issuing reminders.",
-  "overview": "The Austrian purchasing section is about delivery reminders, which notify vendors of overdue deliveries and help track late supplier deliveries. The reminders use configurable terms, levels and text, and each vendor gets a delivery reminder code.\n\nThe pages follow the working order. Start with the overview page, \"Delivery reminders in the Austrian version\", then \"How to Set Up Delivery Reminders [AT]\". Setup is detailed in \"Delivery reminder terms, levels, and text [AT]\" and \"Assign Delivery Reminder Codes to Vendors [AT]\".\n\nAfter setup, you can create reminders manually or generate them. You can also print test reports to preview, filter and modify reminders before you issue them.",
+  "summary": "Purchasing in the Austrian version of Business Central covers delivery reminders, which notify vendors of overdue deliveries and help track late supplier deliveries. It answers questions on setting up reminder terms, levels and text, assigning reminder codes to vendors, creating reminders manually or generating them, and printing test reports to review reminders before issuing them.",
+  "overview": "The Austrian purchasing section is about delivery reminders. These are automated reminders that notify vendors of overdue deliveries and help track late supplier deliveries. The reminders use configurable terms, levels and text, and each vendor gets a delivery reminder code.\n\nA practical reading order follows the work. Start with the overview page, \"Delivery reminders in the Austrian version\", then read \"How to Set Up Delivery Reminders [AT]\". The setup details are in \"Delivery reminder terms, levels, and text [AT]\" and \"Assign Delivery Reminder Codes to Vendors [AT]\".\n\nOnce setup and vendor code assignment are done, you can create reminders manually or generate them. You can also print test reports to preview, filter and modify reminders before you issue them.",
   "key_points": [
     "Delivery reminders notify vendors of overdue deliveries in the Austrian version.",
     "Setup covers delivery reminder terms, levels and text, which define the structure and messaging of notifications.",
@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.011342999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:55:46.542Z",
+    "verdict": "fix",
+    "issues": [
+      "The summary says the hub answers questions on issuing reminders. No page covers issuing. The test report page only says you review reminders before issuing them. I reworded it so issuing is mentioned only as the step that follows the test report.",
+      "The overview says 'The pages follow the working order', which presents the Learn page order as fact, and the inputs don't support that. I rewrote it as a suggested reading order.",
+      "Small gap: the overview page describes the reminders as automated, and the narrative left that out. I added it to the overview."
+    ],
+    "input_hash": "b20b5414b991d9fbbb3ddd86b16fb54f16e8fbacbbbc46c2793f949e5b284c79",
+    "cost_usd": 0.0622716
   }
 }

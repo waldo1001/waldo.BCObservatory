@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:16.249Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,8 +50,7 @@ links:
     - topic/dev-itpro/integration-with-ai
   localizations: []
   videos: []
-  posts:
-    - post/demiliani-com/17508
+  posts: []
   guidelines: []
 learn_toc_path:
   - Integration with AI
@@ -63,7 +62,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 526ef40bcb5e1ec3825b5eee62b5680bbfdb87b9d278df849362f73bb48cda45
@@ -95,13 +94,9 @@ The three pages fit together as two API overviews plus a transparency note. Star
 ## Learn pages
 
 - [Forecasting API overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ml-forecasting-api-overview): Integrate with the Azure Machine Learning web service through the forecasting API in Business Central.
+  - In the observatory: [Codeunit 2000 "Time Series Management"](../../../objects/codeunit/2000.md)
 - [Prediction API overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ml-prediction-api-overview): Integrate with the Azure Machine Learning web service through the prediction API in Business Central.
+  - In the observatory: [Codeunit 2003 "ML Prediction Management"](../../../objects/codeunit/2003.md)
 - [Transparency Note Machine Learning APIs for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ml-transparency-note): Understand how our AI technology works with regards to Machine Learning APIs, the choices system owners can make that influence system performance and behavior, and the importance of thinking about the whole system, including the technology, the people, and the environment
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Me @ Directions EMEA 2026](../../../posts/demiliani-com/17508.md) (community post): "Organizations can fine-tune open-source LLMs locally using Business Central data"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

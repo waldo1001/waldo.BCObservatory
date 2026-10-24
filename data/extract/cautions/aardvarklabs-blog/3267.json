@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3267",
+  "page_id": "post/aardvarklabs-blog/3267",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Changing a data type is not supported. Therefore, we can't just go into our source code and swap it out.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC 2025 and earlier"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003734,
+    "posts_in_call": 4
+  }
+}

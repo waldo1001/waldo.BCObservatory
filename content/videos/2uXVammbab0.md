@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:01:17.492Z"
   flags: []
 generated:
-  at: "2026-10-20T08:46:34.155Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -109,6 +109,12 @@ chapters:
     title: Analysis tabs and contextual page assistance
   - t: 706
     title: Prompt guide and documentation search
+cautions:
+  - kind: preview-disclaimer
+    quote: This is a permission that was introduced with update 26.
+    t: 415
+    versions:
+      - "26"
 features:
   - name: Chat with Copilot
     status: unclear

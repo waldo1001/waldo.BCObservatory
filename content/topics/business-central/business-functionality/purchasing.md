@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:58.086Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -430,6 +430,7 @@ links:
     - change/bcapps/11339
     - change/bcapps/11367
     - change/bcapps/12003
+    - change/bcapps/12532
     - change/bcapps/12723
     - change/bcapps/12809
     - change/bcapps/12816
@@ -583,23 +584,34 @@ Start with the overview page, then go to "Record purchases with purchase invoice
 
 - [Amend or cancel unpaid purchase invoices](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-correct-cancel-unpaid-purchase-invoices): Explains how to correct, cancel, or undo a posted purchase invoice and automatically create a purchase credit memo.
 - [Calculate dates for purchases](https://learn.microsoft.com/dynamics365/business-central/purchasing-date-calculation-for-purchases): Learn how to calculate purchase dates to optimize inventory planning and streamline procurement processes.
+  - In the observatory: [Page 26 "Vendor Card"](../../../objects/page/26.md), [Page 30 "Item Card"](../../../objects/page/30.md), [Page 5700 "Stockkeeping Unit Card"](../../../objects/page/5700.md)
 - [Check amounts on purchase invoices and credit memos](https://learn.microsoft.com/dynamics365/business-central/check-purchase-amounts): You can verify that the total amount on purchase invoices and credit memos equals the total amounts, including VAT, on the lines.
+  - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../objects/page/460.md)
 - [Combine Receipts or PO Lines on a Single Invoice](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-combine-receipts): Use the Combine Receipts function to invoice multiple purchase receipts from the same vendor on a single purchase invoice.
 - [Create a purchase quote to request an offer](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-request-quotes): Describes how to create a sales offer or a request for quote (RFQ) document to record your offer to a customer to sell products under certain terms.
 - [Enter external document numbers](https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers): Enter external document numbers for customers and vendors in sales and purchase orders, invoices, and credit memos. Use these numbers to easily find posted sales and purchase lines.
 - [External document numbers on purchase documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-ext-doc-no): Learn how to record vendor-assigned document numbers using the External Document Number or Your Reference fields, and understand the differences between these options.
 - [Match Purchase Invoice Drafts to Purchase Orders](https://learn.microsoft.com/dynamics365/business-central/match-purchase-invoice-drafts-to-orders): Learn how to match incoming purchase invoice draft lines to purchase orders and receipts, review warnings, and prepare invoices for posting.
+  - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../objects/page/460.md)
 - [Merge duplicate customer or vendor records](https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records): Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.
+  - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 702 "Merge Duplicate"](../../../objects/page/702.md), [Page 704 "Merge Duplicate Conflicts"](../../../objects/page/704.md)
 - [Overview of tasks to manage to purchase](https://learn.microsoft.com/dynamics365/business-central/purchasing-manage-purchasing): Outlines tasks to manage your purchasing or procurement processes, including how purchase invoices and purchase orders work.
 - [Payment practices report](https://learn.microsoft.com/dynamics365/business-central/ui-payment-practices): Learn how to easily create the Payment Practices report for vendors and customers.
+  - In the observatory: [Page 532 "Company Sizes"](../../../objects/page/532.md)
 - [Process returns or cancellations](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-process-purchase-returns-cancellations): Explains how to create and post a purchase credit memo when you want to return items to a vendor or cancel purchased services.
+  - In the observatory: [Page 146 "Posted Purchase Invoices"](../../../objects/page/146.md), [Page 233 "Apply Vendor Entries"](../../../objects/page/233.md), [Page 5855 "Posted Purchase Document Lines"](../../../objects/page/5855.md)
 - [Purchase items for a sale](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-purchase-products-sale): Create a purchase invoice for a vendor or supplier directly from a sales invoice to buy products needed for a sale.
+  - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md)
 - [Receive and convert electronic documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents): Learn how to receive and convert electronic documents in Business Central, either directly from trading partners or through an OCR service.
 - [Record purchases with purchase invoices](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-record-purchases): Describes how to purchase inventory, noninventory items, or resources by creating and posting purchase invoices or orders.
+  - In the observatory: [Page 8510 "Over-Receipt Codes"](../../../objects/page/8510.md)
 - [Save Business Contacts to Microsoft Outlook](https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook): Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.
 - [Set up and use a purchase approval workflow](https://learn.microsoft.com/dynamics365/business-central/walkthrough-setting-up-and-using-a-purchase-approval-workflow): This walkthrough takes you through all the stages involved in setting up and using a purchase approval workflow in Business Central.
+  - In the observatory: [Page 1500 "Workflows"](../../../objects/page/1500.md), [Page 1501 "Workflow"](../../../objects/page/1501.md), [Page 1505 "Workflow Templates"](../../../objects/page/1505.md), [Page 1512 "Notification Setup"](../../../objects/page/1512.md), [Page 1513 "Notification Schedule"](../../../objects/page/1513.md), [Page 56 "Purchase Orders"](../../../objects/page/56.md)
 - [Standard recurring purchase lines](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-work-recurring-purchase-lines): Set up frequently used purchase lines to insert them on purchase documents and quickly fill the lines with standard information.
+  - In the observatory: [Page 9308 "Purchase Invoices"](../../../objects/page/9308.md)
 - [Work with blanket sales orders or purchase orders](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-blanket-sales-orders): Use blanket orders when a customer agrees to buy large quantities that you deliver in small shipments over a period of time.
+  - In the observatory: [Page 516 "Sales Lines"](../../../objects/page/516.md)
 
 ## Videos, posts and code changes
 
@@ -616,6 +628,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11339 Prevent order matching for invoice lines created by Get Receipt Lines](../../../changes/bcapps/11339.md) (code change): "Matched order line functionality now rejects invoice lines created through Get Receipt"
 - [#11367 [29.X][Repair Item][SaaS][Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location](../../../changes/bcapps/11367.md) (code change): "Undo Shipment fails with blank Bin Code at bin-mandatory location"
 - [#12003 [Main]- Project Planning Lines are created in reverse order when purchase line descriptions are copied](../../../changes/bcapps/12003.md) (code change): "Project Planning Lines are created in reverse order when posting purchase invoices"
+- [#12532 [Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../changes/bcapps/12532.md) (code change): "Dispute status is preserved when editing posted purchase invoice headers"
 - [#12723 [Master]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12723.md) (code change): "changing the Description on a purchase invoice line no longer resets its Quantity"
 - [#12809 Bugs/bug 654102 main]purch order vendor change automatically applied to next order](../../../changes/bcapps/12809.md) (code change): "vendor change on one order is no longer automatically applied to the next order"
 - [#12816 [29.x]- Project Planning Lines are created in reverse order when purchase line descriptions are copied](../../../changes/bcapps/12816.md) (code change): "Project planning lines now maintain the original purchase line sequence when Copy Line"

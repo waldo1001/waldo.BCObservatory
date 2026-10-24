@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:19.132Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -118,6 +118,7 @@ Start with "Manage human resources" for the overall picture: employee records, e
 ## Learn pages
 
 - [Manage Employee Absence](https://learn.microsoft.com/dynamics365/business-central/hr-how-manage-absence): Describes how to record employees' absence and analyze absence statistics using the Absence Registration and Employee Absences pages.
+  - In the observatory: [Page 5225 "Absence Overview by Periods"](../../../objects/page/5225.md), [Page 5226 "Empl. Absences by Categories"](../../../objects/page/5226.md), [Page 5231 "Absence Overview by Categories"](../../../objects/page/5231.md), [Page 9269 "Empl. Absences by Cat. Matrix"](../../../objects/page/9269.md)
 - [Manage human resources](https://learn.microsoft.com/dynamics365/business-central/hr-manage-human-resources): Register and manage employee records, maintain employment details, and track and analyze absences.
 - [Register Employees and Modify Information](https://learn.microsoft.com/dynamics365/business-central/hr-how-register-employees): Describes how to use the Human Resources functionality to register new personnel or edit employee information for existing staff.
 

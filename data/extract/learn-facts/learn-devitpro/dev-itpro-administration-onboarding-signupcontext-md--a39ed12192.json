@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/onboarding-signupcontext.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-signupcontext",
+  "title": "Create customer-centric onboarding experiences with the SignupContext parameter.",
+  "blob": "f713a88808ac0a180919e13dd4592e8e29989e8c",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "SignupContext parameter enables partners to create unmanaged trials without manual steps for all customers"
+    },
+    {
+      "kind": "fact",
+      "text": "Parameter passes prospect information from partner website to Business Central to tailor evaluation experience"
+    },
+    {
+      "kind": "fact",
+      "text": "Required keys are name identifying partner, appid for app to install, countrycode matching prospect tenant, eulaaccept set true"
+    },
+    {
+      "kind": "fact",
+      "text": "SignupContext is double-encoded before passing through sign-up process for proper URL redirect handling"
+    },
+    {
+      "kind": "fact",
+      "text": "When provisioned, trial environment installs app specified by appid if eulaaccept is true and countries match"
+    },
+    {
+      "kind": "fact",
+      "text": "Partner app must subscribe to OnSetSignupContext event to read values and set signup context enum field"
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Partners must present EULA to users on their website and receive consent before setting eulaaccept to true"
+    },
+    {
+      "kind": "limit",
+      "text": "SignupContext not intended for test-driving apps; only for evaluation and onboarding to become paying customers"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007005,
+      "pages_in_call": 8
+    }
+  ]
+}

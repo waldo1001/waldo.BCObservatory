@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-44-changing-production-order-status/",
+  "page_id": "post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-44-changing-production-order-status--4d3a905b0e",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Extra logic on these triggers could cause errors or unexpected results.",
+      "objects": [],
+      "events": [
+        "OnInsert",
+        "OnModify",
+        "OnDelete"
+      ],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003235,
+    "posts_in_call": 4
+  }
+}

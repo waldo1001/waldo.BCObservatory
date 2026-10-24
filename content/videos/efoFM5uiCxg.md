@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:04:28.416Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:28.458Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -118,6 +118,10 @@ chapters:
     title: External Notifications with Business Events and Power Automate
   - t: 812
     title: Demonstration and New APIs
+cautions:
+  - kind: preview-disclaimer
+    quote: this part of the feature is uh currently in preview mainly because the business events are uh still in preview
+    t: 208
 features:
   - name: Job Queue Notifications
     status: unclear

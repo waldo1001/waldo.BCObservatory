@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:10:15.804Z"
   flags: []
 generated:
-  at: "2026-10-07T23:10:15.837Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -207,6 +207,20 @@ chapters:
     title: API Usage Patterns, Batch Processing Simplification, and Code Examples
   - t: 1935
     title: Copilot Support, Componentization, and Closing Remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: old Legacy code has been obsoleted with version 24 and will be removed with version 27
+    t: 1593
+    versions:
+      - "24"
+  - kind: preview-disclaimer
+    quote: the old Legacy code has been obsoleted with version 24 and will be removed with version 27
+    t: 1593
+    versions:
+      - "24"
+  - kind: preview-disclaimer
+    quote: we didn't get around to do the co-pilot support quite yet
+    t: 1957
 features:
   - name: Business Foundation
     status: unclear

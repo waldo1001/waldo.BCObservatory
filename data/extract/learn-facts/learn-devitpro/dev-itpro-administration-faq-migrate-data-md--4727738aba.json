@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/faq-migrate-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/faq-migrate-data",
+  "title": "FAQ about Migrating to Business Central Online",
+  "blob": "f4a5f68b135246cf6e321af2ddafe888f5e0e65f",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "On-premises solution must use SQL Server 2016 or later with database compatibility level 130 or higher."
+    },
+    {
+      "kind": "fact",
+      "text": "Data migrates using Azure Data Factory service with self-hosted integration runtime managing communication between cloud and on-premises SQL Server."
+    },
+    {
+      "kind": "limit",
+      "text": "No restrictions on data type; database storage limit applies; less than 30 GB per migration run recommended to avoid 80 GB threshold disabling admin tasks."
+    },
+    {
+      "kind": "fact",
+      "text": "SQL connection string is encrypted and passed to Azure Data Factory for use during data replication process."
+    },
+    {
+      "kind": "fact",
+      "text": "Only tables available in both on-premises and online migrate; customizations must be converted to extensions and installed in both systems."
+    },
+    {
+      "kind": "fact",
+      "text": "On-premises users are added to Intelligent Cloud user group; online environment is read-only during migration."
+    },
+    {
+      "kind": "fact",
+      "text": "Data replication is one way only from on-premises to Business Central online; must stop using on-premises after going live."
+    },
+    {
+      "kind": "limit",
+      "text": "On-premises users and permissions do not replicate; users must be manually added and permissions granted in cloud tenant."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005472,
+      "pages_in_call": 10
+    }
+  ]
+}

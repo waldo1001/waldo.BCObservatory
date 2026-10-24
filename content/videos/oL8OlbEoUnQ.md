@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:49:54.978Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:55.038Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -105,7 +105,8 @@ links:
   objects:
     - object/page/37202
     - object/enum/37200
-  features: []
+  features:
+    - feature/576813
   topics: []
   localizations: []
   videos: []
@@ -137,6 +138,16 @@ chapters:
     title: Demonstration of linking inbound e-documents
   - t: 722
     title: Conclusion and resources
+cautions:
+  - kind: preview-disclaimer
+    quote: this is a public preview but this is completed. This is a public preview only because this is not enforced to be used yet
+    t: 181
+  - kind: preview-disclaimer
+    quote: work in progress French electronic invoicing. This is something what we are working on
+    t: 219
+  - kind: preview-disclaimer
+    quote: we're going to the plan is to obsolete the code and remove it from base app so it only lives in the first party app and at some point later on
+    t: 483
 features:
   - name: PEPPOL moved to first-party app
     status: unclear
@@ -159,10 +170,12 @@ features:
     verified: false
     status_source: video
   - name: Payment with e-documents
-    status: unclear
+    status: ga
     t: 168
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576813"
   - name: Verify tool in Spain
     status: preview
     t: 181
@@ -270,7 +283,7 @@ It also shows linking an inbound e-document to a purchase invoice that already e
 | Link inbound e-documents to purchase invoices | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=47s) |  |
 | Default e-document type on vendor templates | status not stated | [2:19](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=139s) |  |
 | Service participant linked to company information | status not stated | [2:33](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=153s) |  |
-| Payment with e-documents | status not stated | [2:48](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=168s) |  |
+| Payment with e-documents | generally available (roadmap [Use payments with the E-Document framework](../features/576813.md)) | [2:48](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=168s) |  |
 | Verify tool in Spain | preview | [3:01](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=181s) | "Now this is a public preview but this is completed. This is a public preview only because this is not enforced to be used" ([3:01](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=181s)) |
 | E-invoicing in Denmark with carbon footprint | status not stated | [3:18](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=198s) |  |
 | French electronic invoicing | announced | [3:39](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=219s) | "And work in progress French electronic invoicing. This is something what we are working on." ([3:39](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=219s)) |
@@ -278,6 +291,8 @@ It also shows linking an inbound e-document to a purchase invoice that already e
 | PEPPOL validation interface | status not stated, demoed | [6:06](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=366s) |  |
 | PEPPOL 3.0 setup page | status not stated, demoed | [7:17](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=437s) |  |
 | Electronic document formats phasing out | status not stated | [8:03](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=483s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/demiliani-com/12186",
+  "page_id": "post/demiliani-com/12186",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Auto-updates (by Microsoft) of the Model Router may change the underlying models, potentially affecting performance or costs.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Starting August 1, 2025 the model router usage will be charged as well.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "It seems that the AL Copilot SDK is not able to use the Model Router endpoint.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002868,
+    "posts_in_call": 4
+  }
+}

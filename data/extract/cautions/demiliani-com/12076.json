@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/demiliani-com/12076",
+  "page_id": "post/demiliani-com/12076",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "This first public preview is available in US and UK localizations and it will be extended to other localizations later on.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Remember that after the preview phase the agents will not be free but they will have a cost per message consumed",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "26.3"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003021,
+    "posts_in_call": 4
+  }
+}

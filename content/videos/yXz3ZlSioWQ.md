@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:57:04.819Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -94,6 +94,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/reports/report-5603
+      title: Fixed Asset Register (report)
+      label: possibly related
+      why: names Report 5603 "Fixed Asset Register"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/fa-reports
+      title: Fixed assets reports
+      label: possibly related
+      why: names Report 5603 "Fixed Asset Register"
+      by: code
 video_id: yXz3ZlSioWQ
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -122,6 +133,13 @@ chapters:
     title: Teaching Tips and Help Pane Integration
   - t: 441
     title: "Summary: Integrated Report Discovery Across Channels"
+cautions:
+  - kind: preview-disclaimer
+    quote: as a new thing here in wave one
+    t: 112
+  - kind: preview-disclaimer
+    quote: a new thing here in the in the business Central as in in wave one is that this opens up in a new window
+    t: 171
 features:
   - name: Report Explorer
     status: unclear
@@ -262,3 +280,10 @@ Not found in BC28-30: report "Fixed Asset Posting Group Net Change", report "Cus
 
 - [1:52](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=112s) preview: as a new thing here in wave one
 - [2:51](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=171s) preview: a new thing here in the in the business Central as in in wave one is that this opens up in a new window
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Fixed Asset Register (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5603) — possibly related: names Report 5603 "Fixed Asset Register"
+- [Fixed assets reports](https://learn.microsoft.com/dynamics365/business-central/fa-reports) — possibly related: names Report 5603 "Fixed Asset Register"

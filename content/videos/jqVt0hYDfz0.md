@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:51:27.824Z"
   flags: []
 generated:
-  at: "2026-10-07T22:51:27.857Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,6 +116,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/YX9UfUF0EsA
+      title: "Microsoft presents: Introducing M365 Copilot Chat in Business Central"
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
+    - to: video/Rh1AFX9A1x4
+      title: "What's New: Data Analysis (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
+    - to: video/fJGY6d-2lO8
+      title: "What's New: Enhanced Sales Analytics (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
 video_id: jqVt0hYDfz0
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -143,6 +159,10 @@ chapters:
     title: Duplicating, Hiding and Managing Analysis Views
   - t: 388
     title: Conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: new feature that is coming up with the next release
+    t: 5
 features:
   - name: Analysis Views Export to AL Extensions
     status: announced
@@ -276,5 +296,13 @@ As heard in the captions. A name that matches one object page by exact type and 
 ## Disclaimers in the video
 
 - [0:05](https://www.youtube.com/watch?v=jqVt0hYDfz0&t=5s) coming-later: new feature that is coming up with the next release
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Microsoft presents: Introducing M365 Copilot Chat in Business Central](../videos/YX9UfUF0EsA.md) — possibly related: both name Page 9305 "Sales Order List"
+- [What's New: Data Analysis (2025 release wave 1)](../videos/Rh1AFX9A1x4.md) — possibly related: both name Page 9305 "Sales Order List"
+- [What's New: Enhanced Sales Analytics (2026 release wave 1)](../videos/fJGY6d-2lO8.md) — possibly related: both name Page 9305 "Sales Order List"
 
 Presenters (as heard): Unknown Presenter.

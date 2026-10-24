@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:15:09.791Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -377,6 +377,7 @@ Start with the index page to find the area, then go to the matching subtopic. In
 
 - [Application design details](https://learn.microsoft.com/dynamics365/business-central/design-details-application-design): This content contains detailed technical information about complex application features in Business Central.
 - [Design details - Non-deductible VAT](https://learn.microsoft.com/dynamics365/business-central/design-details-nondeductible-vat): This article provides information about non-deductible value-added tax (VAT) that's payable by a purchaser, but that isn't deductible from the purchaser's own VAT liability.
+  - In the observatory: [Page 187 "VAT Setup"](../../../objects/page/187.md), [Page 472 "VAT Posting Setup"](../../../objects/page/472.md)
 
 ## Business Central pages and reports
 

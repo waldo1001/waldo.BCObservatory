@@ -1,0 +1,38 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2724",
+  "page_id": "post/aardvarklabs-blog/2724",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "If you expose it to the MCP server it is available to the world!",
+      "objects": [
+        {
+          "type": "other",
+          "name": "MCP Server"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "We have exposed sensitive information about our clients to an outside source.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Business Central 2.0 API for Customers"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004211,
+    "posts_in_call": 4
+  }
+}

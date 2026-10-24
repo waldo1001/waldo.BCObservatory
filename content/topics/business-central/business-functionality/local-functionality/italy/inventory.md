@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:54.210Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -85,6 +85,8 @@ This section covers two setup tasks for the Italian version of Business Central 
 ## Learn pages
 
 - [How to Set Up Fiscal Inventory Valuation [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation): Learn how to set up fiscal inventory valuation for item costing in the Italian version of Business Central using the Item Costing Setup feature.
+  - In the observatory: [Page 12137 "Item Costing Setup (IT)"](../../../../../objects/page/12137-it.md), [Page 31 "Item List"](../../../../../objects/page/31.md)
 - [How to set up initial item costs [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-initial-item-costs): Learn how to set up initial item costs using the Before Start Item Cost page in the Italian version of Business Central.
+  - In the observatory: [Page 12117 "Before Start Item Cost (IT)"](../../../../../objects/page/12117-it.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

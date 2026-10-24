@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:13.090Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -145,11 +145,13 @@ A sensible order is general setup first, then contract types, packages and lines
 ## Learn pages
 
 - [General setup](https://learn.microsoft.com/dynamics365/business-central/SRB/setup/general): There are a few general things to set up for subscription billing.
+  - In the observatory: [Page 314 "General Posting Setup"](../../../../../objects/page/314.md)
 - [Import subscription contracts and contract lines](https://learn.microsoft.com/dynamics365/business-central/SRB/setup/import): You can use import contracts and contract lines in subscription billing.
 - [Job queue](https://learn.microsoft.com/dynamics365/business-central/SRB/setup/job-queue): You can use job queue entries in subscription billing.
 - [Permissions in subscription billing](https://learn.microsoft.com/dynamics365/business-central/SRB/setup/permissions): Learn about the permission settings for subscription billing.
 - [Subscription contract types](https://learn.microsoft.com/dynamics365/business-central/SRB/setup/contract-types): You can use different types of contracts in subscription billing.
 - [Subscription lines for items](https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/items): You can use subscription lines for items in subscription billing.
+  - In the observatory: [Page 30 "Item Card"](../../../../../objects/page/30.md)
 - [Subscription packages and subscription lines](https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/service-commitments): You can use subscription lines in subscription billing.
 
 ## Videos and posts

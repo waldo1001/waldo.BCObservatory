@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/thinkaboutit-be/7683",
+  "page_id": "post/thinkaboutit-be/7683",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "SOAP is deprecated and no longer available in Business Central SaaS",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Integer fields use integer division; remainder is discarded, not rounded",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005262,
+    "posts_in_call": 4
+  }
+}

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:58.161Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -149,7 +149,7 @@ narrative: generated
 
 > Czech local inventory functionality in Business Central: inventory movement templates, physical inventory handling, posting groups, rounding and reconciliation accounts, SKU templates, and legally compliant inventory documents. It answers setup and posting questions for Czech companies.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Inventory · tier official · system inventory · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Inventory · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -174,16 +174,23 @@ A good starting point is Inventory Movement Templates, since the physical invent
 
 - [Additional Fields on Item Ledger Entries and Value Entries [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-add-fields-item-entries): Learn about the additional fields available on item ledger entries and value entries in the Czech version of Business Central.
 - [Check of output in inventory – time sequence [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/check-output-inventory-time-sequence): Learn about the local functionality for checking the time sequence of inventory outputs in the Czech version of Business Central.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../../../objects/page/461.md)
 - [Czech local functionality - Advances features of physical inventory](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/advanced-features-physical-inventory): Companies must differentiate the posting of inventory movements for the same goods, which requires line-break of physical inventory journal lines.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../../../objects/page/461.md)
 - [Czech local functionality - G/L reconciliation enhancements](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements): According to Czech-specific requirements, the Inventory – G/L Reconciliation matrix form must take into account the Czech-specific inventory posting accounts.
 - [Czech local functionality - Gen.Prod.Posting Group from SKU](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku): Learn about the General Product Posting Group functionality from SKU in the Czech version of Business Central.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../../../objects/page/461.md), [Page 5700 "Stockkeeping Unit Card"](../../../../../objects/page/5700.md)
 - [Czech local functionality - inventory counting documents](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-counting-documents): Learn about inventory counting documents feature in the Czech version of Business Central.
 - [Czech Local Functionality - Inventory Movement Templates](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/inventory-movement-templates): Learn about Inventory Movement Templates in the Czech version of Business Central, including how to define custom templates for posting inventory movements.
 - [Czech local functionality - Inventory operations document](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-operations-document): Use the Inventory Movement Report to print documents from inventory journals and use the Posted Inventory Document Report to print documents for posted inventory operations.
 - [Czech local functionality - Posting groups in transfer orders](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders): The Transfer Orders feature includes fields for specifying General Business Posting Groups for both shipping and receiving postings.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../../../objects/page/461.md)
 - [Czech local templates for inventory operations – Stock keeping unit templates](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/stockkeeping-unit-templates): Learn how to use Stock keeping Unit Templates in the Czech version of Business Central to streamline inventory operations.
+  - In the observatory: [Report 5706 "Create Stockkeeping Unit"](../../../../../objects/report/5706.md)
 - [Rounding account in inventory [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-round-account-in-inventory): Use the Rounding Account in Inventory feature to post all rounded costs to a separate General Ledger Account rather than the Inventory Adjustment Account.
+  - In the observatory: [Page 314 "General Posting Setup"](../../../../../objects/page/314.md), [Table 5802 "Value Entry"](../../../../../objects/table/5802.md)
 - [Skip update SKU when posting](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting): Learn about the Skip Update SKU on Posting functionality, including its purpose and usage.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../../../objects/page/461.md), [Page 5700 "Stockkeeping Unit Card"](../../../../../objects/page/5700.md)
 
 ## Videos, posts and code changes
 

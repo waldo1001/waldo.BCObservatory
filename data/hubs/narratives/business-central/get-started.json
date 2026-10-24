@@ -1,37 +1,38 @@
 {
   "hub_id": "topic/business-central/get-started",
-  "input_hash": "c4aaab54ff5ad78c6eba41d939e46732159cbf52488f51b5891ddf642473768a",
-  "summary": "The Get started section of Business Central covers trials, first setup, learning resources, everyday use, troubleshooting and support. It answers questions about what the product supports, how to try or buy it, how to learn it, and how end users work in it day to day.",
-  "overview": "Get started is the entry point for new Business Central users. Its own page gives an overview of supported business functionality: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.\n\nThe subtopics follow a path. Try and Buy cover signing up for a trial, extending it, first setup tasks, assisted setup, company information, users, permissions and converting to a subscription. Quick starts give beginner guides for first-time setup and basic tasks. Learn offers demo-company walkthroughs (CRONUS, Contoso Coffee) and a video library for practice.\n\nOnce the system is running, Get productive in Business Central is the largest group, with how-to pages for end users on navigation, filtering, personalization, reports and Copilot. Troubleshooting and FAQs and Help and Support cover common questions and where to get help. Start with the functionality overview, then Try or Quick starts.",
+  "input_hash": "ced3044ed389b960168f2446078fddd0bcf2a05575858f2e797a6725ca65eef6",
+  "summary": "Get started with Business Central covers the entry points for new users: trials, buying, quick starts, learning material, everyday productivity, troubleshooting and support. It answers questions about which business functions are supported, how to sign up and set up, and where to find help.",
+  "overview": "This section is the starting point for Business Central. Its own page gives an overview of supported business functionality: finance and payments, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.\n\nThe subtopics follow a typical path. Try and Buy cover signing up for a trial, extending it, first setup tasks, converting to a subscription and fixing sign-up errors. Quick starts give beginner guides for company information, chart of accounts, bank accounts, sales, procurement, reports and business intelligence. Learn collects walkthroughs in the CRONUS demo company, Contoso Coffee scenarios and a video library.\n\nOnce running, Get productive in Business Central (the largest subtopic) answers end-user how-to questions on navigation, search, filtering, personalization, reports, Microsoft 365 apps, accessibility and Copilot. Troubleshooting and FAQs and Help and Support cover system requirements, Teams app questions, in-product help and contacting support. New users should begin with the functionality overview, then Try or Buy, then Quick starts.",
   "key_points": [
-    "The overview page lists supported areas: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.",
-    "Try covers trial sign-up, extending a trial, first setup tasks, converting to a subscription and fixing sign-up errors.",
-    "Buy covers the free trial paths by country, assisted setup guides, company information, user creation, permissions and role-specific home pages.",
-    "Quick starts (7 pages) cover company information, chart of accounts, bank accounts, sales, procurement, reports and business intelligence.",
-    "Learn (34 pages) offers CRONUS demo company walkthroughs, Contoso Coffee scenarios, user resources and a video library.",
-    "Get productive (55 pages) covers Tell Me, Role Explorer, filtering, notifications, user settings, document layouts, Microsoft 365 apps, accessibility, performance and Copilot.",
+    "The functionality overview lists finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.",
+    "Try covers signing up for a trial, extending it, first setup tasks, converting to a subscription and sign-up error fixes.",
+    "Buy covers the free trial path by country and initial setup: assisted setup guides, company information, user creation, permissions and role-specific home pages.",
+    "Quick starts are beginner guides for company info, chart of accounts, bank accounts, sales, procurement, reports and business intelligence.",
+    "Learn offers CRONUS demo company walkthroughs, Contoso Coffee demo scenarios, user resource links and a video library.",
+    "Get productive (55 pages) covers Tell Me, Role Explorer, filtering, notifications, user settings, document layouts, sharing, accessibility, performance and Copilot.",
     "Troubleshooting and FAQs covers Tell Me search, the Copilot experience, minimum system requirements and the Teams app.",
     "Help and Support covers Chat with Copilot, the Help pane, the Help & Support page, telemetry and contacting support."
   ],
   "members_used": 1,
   "subtopics_used": 7,
   "prompt_version": 1,
-  "at": "2026-10-07T05:20:24.872Z",
+  "at": "2026-10-24T00:53:08.433Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014321
+    "cost_usd": 0.014817000000000002
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T05:20:44.207Z",
+    "at": "2026-10-24T00:53:32.479Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the Quick starts key point leaves out 'documents output', which the source pairs with reports. This is acceptable shortening.",
-      "Minor: the Help and Support key point leaves out that the section also covers how administrators manage technical support. Telemetry and contacting support are listed correctly."
+      "The reading order in the overview's last sentence (functionality overview, then Try or Buy, then Quick starts) is the writer's own suggestion. The summaries don't state it, but it fits the subtopic structure and is harmless.",
+      "The overview combines Try and Buy into one sentence that lists Try-specific items (extending the trial, converting to a subscription, fixing sign-up errors). Buy only covers signing up and initial setup. The key points describe the two sections separately and correctly, so the blur is minor.",
+      "The overview opens with 'This section is the starting point'. That is close to the banned 'This hub' wording, though it isn't the exact phrase."
     ],
-    "input_hash": "c4aaab54ff5ad78c6eba41d939e46732159cbf52488f51b5891ddf642473768a",
-    "cost_usd": 0.0341992
+    "input_hash": "ced3044ed389b960168f2446078fddd0bcf2a05575858f2e797a6725ca65eef6",
+    "cost_usd": 0.041508
   }
 }

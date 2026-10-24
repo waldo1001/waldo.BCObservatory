@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:49:05.377Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:05.417Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/576881
   topics: []
   localizations: []
   videos: []
@@ -112,17 +113,28 @@ chapters:
     title: "Demo: Purchase Order and System Overview"
   - t: 410
     title: Electronic Invoicing Roadmap and Closing
+cautions:
+  - kind: preview-disclaimer
+    quote: we do not have covered electronic invoicing basing on self-billing invoice
+    t: 410
+  - kind: preview-disclaimer
+    quote: this is something what we plan to deliver uh next release
+    t: 427
 features:
   - name: Self-Billing Invoices
-    status: unclear
+    status: ga
     t: 7
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576881"
   - name: Self-Billing Agreement Field on Vendor Card
-    status: unclear
+    status: ga
     t: 127
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576881"
   - name: Posted Self-Billing Invoice Number Series
     status: unclear
     t: 144
@@ -196,11 +208,13 @@ The video walks through setup and then demos it: the vendor card, a purchase inv
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Self-Billing Invoices | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=7s) |  |
-| Self-Billing Agreement Field on Vendor Card | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=127s) |  |
+| Self-Billing Invoices | generally available (roadmap [Use self-billed invoices](../features/576881.md)), demoed | [0:07](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=7s) |  |
+| Self-Billing Agreement Field on Vendor Card | generally available (roadmap [Use self-billed invoices](../features/576881.md)), demoed | [2:07](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=127s) |  |
 | Posted Self-Billing Invoice Number Series | status not stated, demoed | [2:24](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=144s) |  |
 | Self-Billing Invoice Report Selection | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=186s) |  |
 | Electronic Invoicing for Self-Billing | announced | [6:50](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=410s) | "this is something what we plan to deliver uh next release because first we want to get the feedback" ([7:07](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=427s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-table-mapping.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-table-mapping",
+  "title": "Define migration table mappings",
+  "blob": "d004a596001ad42bd42a2720e459c63f222283ea",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Table mapping lets you rename tables during cloud migration or move fields to a different table or extension."
+    },
+    {
+      "kind": "limit",
+      "text": "Multiple source tables cannot map to the same destination table; each target table needs one on-premises source."
+    },
+    {
+      "kind": "step",
+      "text": "Sign in to Business Central online, search for Cloud Migration Management, and select Manage Custom Tables."
+    },
+    {
+      "kind": "step",
+      "text": "Set Target Type, Extension Names, and Table Name to specify the target table."
+    },
+    {
+      "kind": "step",
+      "text": "Enter the Source Table Name as it appears in SQL, such as with company name and extension ID."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Keys in the on-premises and online tables must match for table renaming."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "The online target table must have ReplicateData property set to true."
+    },
+    {
+      "kind": "fact",
+      "text": "You can use Import and Export actions to manage table mapping definitions."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005499,
+      "pages_in_call": 11
+    }
+  ]
+}

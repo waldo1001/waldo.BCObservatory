@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:21:39.768Z"
   flags: []
 generated:
-  at: "2026-10-07T23:21:39.818Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,6 +116,10 @@ chapters:
     title: Course configuration and JSON structure
   - t: 1375
     title: Starting the course, requirements, and conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: which is going to in the future. Uh it's not part of this course as of yet
+    t: 206
 features:
   - name: Learn AL with Claude course
     status: unclear

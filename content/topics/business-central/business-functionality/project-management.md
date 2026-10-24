@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:19.424Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -499,14 +499,19 @@ Start with the overview page "Project management", then "Create a project card f
 ## More Learn pages
 
 - [Assemble to Project](https://learn.microsoft.com/dynamics365/business-central/projects-assemble-to-project): Learn how to use assemble-to-order for project.
+  - In the observatory: [Page 914 "Assemble-to-Order Lines"](../../../objects/page/914.md)
 - [Create a project card for a project and specify tasks](https://learn.microsoft.com/dynamics365/business-central/projects-how-create-jobs): For a new project, you create a project card that contains project tasks and planning lines, to help you manage progress and budgets.
 - [Create a project sales invoice to invoice a project](https://learn.microsoft.com/dynamics365/business-central/projects-how-invoice-jobs): Describes how to invoice customers for project expenses as a project progresses and costs accumulate.
+  - In the observatory: [Page 43 "Sales Invoice"](../../../objects/page/43.md), [Page 44 "Sales Credit Memo"](../../../objects/page/44.md)
 - [Manage project supplies](https://learn.microsoft.com/dynamics365/business-central/projects-how-manage-project-supplies): Describes the different ways to manage the supply and purchase of material and services for projects.
+  - In the observatory: [Page 50 "Purchase Order"](../../../objects/page/50.md), [Page 518 "Purchase Lines"](../../../objects/page/518.md), [Page 7332 "Warehouse Receipts"](../../../objects/page/7332.md), [Page 9315 "Inventory Put-aways"](../../../objects/page/9315.md)
 - [Project management](https://learn.microsoft.com/dynamics365/business-central/projects-manage-projects): This article outlines how to use resources, time sheets, and projects.
 - [Record and adjust resource usage and prices](https://learn.microsoft.com/dynamics365/business-central/projects-how-use-resources): Describes how you can record the resource usage or consumption associated with a project, to keep track and manage costs, prices, and work types.
 - [Record Consumption or Usage of Project Resources and Items](https://learn.microsoft.com/dynamics365/business-central/projects-how-record-job-usage): This article describes how to record the consumption or use of items or resources for projects in project management.
+  - In the observatory: [Page 5703 "Location Card"](../../../objects/page/5703.md), [Page 5779 "Warehouse Pick"](../../../objects/page/5779.md), [Page 7377 "Inventory Pick"](../../../objects/page/7377.md), [Report 1002 "Post Inventory Cost to G/L"](../../../objects/report/1002.md)
 - [Set Up and Manage a Budget for a Project](https://learn.microsoft.com/dynamics365/business-central/projects-how-manage-budgets): Describes how to plan resources and forecast and control the costs of a project by setting up a budget for each project.
 - [Use time sheets](https://learn.microsoft.com/dynamics365/business-central/projects-how-use-time-sheets): Learn how to create, submit, approve, and post time sheets for resources, projects, and services.
+  - In the observatory: [Page 208 "Work Types"](../../../objects/page/208.md), [Page 462 "Resources Setup"](../../../objects/page/462.md), [Page 76 "Resource Card"](../../../objects/page/76.md)
 - [WIP methods for calculating and recording project progress](https://learn.microsoft.com/dynamics365/business-central/projects-understanding-wip): Describes the different work in process (WIP) methods you can use to post, monitor, and calculate financial information for projects that are in progress.
 
 ## Videos, posts and code changes

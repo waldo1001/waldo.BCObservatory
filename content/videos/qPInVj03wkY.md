@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:53:59.505Z"
   flags: []
 generated:
-  at: "2026-10-07T22:53:59.550Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -90,6 +90,42 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/_ynMUzh956w
+      title: "Introducing: Sustainability in Business Central (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 6221 "Sustainability Setup"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model
+      title: Power BI Sustainability app semantic model
+      label: possibly related
+      why: names Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/UKVp28M5TtU
+      title: "What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6221 "Sustainability Setup"
+      by: code
+    - to: video/Sc8eGyMkBTA
+      title: "What's New in Sustainability: Value Chain in Projects (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6221 "Sustainability Setup"
+      by: code
+    - to: video/RaiQPiEdvbg
+      title: "What's New: Post Emissions with the General Journal (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/6d6iajwQQ-c
+      title: "What's New: Value Chain Automation with Production Orders (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/bnqxycPzbeI
+      title: "What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 6216 "Sustainability Ledger Entry"
+      by: code
 video_id: qPInVj03wkY
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -120,6 +156,10 @@ chapters:
     title: "Demo: Calculation, Posting and Data Sync"
   - t: 940
     title: Export and Conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: Of course these standards are subject of changes
+    t: 188
 features:
   - name: ESG Aggregation Reporting Tool
     status: unclear
@@ -278,5 +318,17 @@ Not found in BC28-30: table "ESG Reporting Name", page "ESG Aggregation Reportin
 
 - [3:08](https://www.youtube.com/watch?v=qPInVj03wkY&t=188s) subject-to-change: Of course these standards are subject of changes
 - [4:59](https://www.youtube.com/watch?v=qPInVj03wkY&t=299s) other: Please be careful with that. You really need to understand what you're doing
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Introducing: Sustainability in Business Central (2024 release wave 1)](../videos/_ynMUzh956w.md) — possibly related: both name Page 6221 "Sustainability Setup"
+- [Power BI Sustainability app semantic model](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model) — possibly related: names Table 6216 "Sustainability Ledger Entry"
+- [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../videos/UKVp28M5TtU.md) — possibly related: both name Page 6221 "Sustainability Setup"
+- [What's New in Sustainability: Value Chain in Projects (2025 release wave 2)](../videos/Sc8eGyMkBTA.md) — possibly related: both name Page 6221 "Sustainability Setup"
+- [What's New: Post Emissions with the General Journal (2025 release wave 1)](../videos/RaiQPiEdvbg.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
+- [What's New: Value Chain Automation with Production Orders (2025 release wave 1)](../videos/6d6iajwQQ-c.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
+- [What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)](../videos/bnqxycPzbeI.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
 
 Presenters (as heard): Alexander Toto.

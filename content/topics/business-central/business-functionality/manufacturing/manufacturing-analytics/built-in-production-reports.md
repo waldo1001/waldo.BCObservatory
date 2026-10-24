@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:53.323Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -249,6 +249,7 @@ Start with Production Reports and Analytics for the overall picture, then open t
 ## Learn pages
 
 - [BOM Cost Share Distribution (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5872): This report helps you decide whether to change component suppliers, or replace internal resources with outsourced labor (or vice versa). It also helps you review and modify an item's bill of materials.
+  - In the observatory: [Page 5872 "BOM Cost Shares"](../../../../../objects/page/5872.md)
 - [Capacity Task list (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000780): Analyze the capacity of work centers or machine centers.
 - [Item - Able to Make (Time) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5871): Check whether you can fulfill a sales order for an item by a specified date. Look at its current availability in combination with quantities that its components can supply if someone starts an assembly order.
 - [Output Item Label report](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000769): Print barcode and QR code labels for manufacturing output items, including item details and serial, lot, or package tracking numbers.

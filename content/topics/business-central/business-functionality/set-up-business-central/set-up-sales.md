@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:57.847Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -355,17 +355,25 @@ Start with the overview of tasks, then follow the page for the area you need. Th
 ## More Learn pages
 
 - [Define an invoice posting policy for users](https://learn.microsoft.com/dynamics365/business-central/admin-setup-invoice-posting-policy): Use invoice posting policies to control whether a user can post sales and purchase invoices.
+  - In the observatory: [Page 119 "User Setup"](../../../../objects/page/119.md)
 - [Display a stockout warning](https://learn.microsoft.com/dynamics365/business-central/sales-setup-show-stockout-warning): Learn how to control whether a warning displays when an order quantity exceeds inventory levels for an item.
+  - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../../objects/page/459.md)
 - [Enable customer payments with payment services](https://learn.microsoft.com/dynamics365/business-central/sales-how-enable-payment-service-extensions): Make it easier for customers to pay their invoices by enabling customer payments through payment services.
+  - In the observatory: [Page 1060 "Payment Services"](../../../../objects/page/1060.md)
 - [How to Set Up Shipping Agents](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-set-up-shipping-agents): Learn how to set up a code for each of your shipping agents and enter descriptive information about each of them and the services they provide.
+  - In the observatory: [Page 428 "Shipping Agents"](../../../../objects/page/428.md), [Page 5790 "Shipping Agent Services"](../../../../objects/page/5790.md)
 - [Overview of tasks to configure sales processes](https://learn.microsoft.com/dynamics365/business-central/sales-setup-sales): Overview of tasks required to set up rules and values that define your sales policies and processes including general set-up and finance related sales set-up.
 - [Record special sales prices and discounts](https://learn.microsoft.com/dynamics365/business-central/sales-how-record-sales-price-discount-payment-agreements): Describes how to define pricing and discount agreements for sales documents.
 - [Register new customers by creating a Customer Card](https://learn.microsoft.com/dynamics365/business-central/sales-how-register-new-customers): Describes how to create a customer card to register information about each new customer or client you sell to.
+  - In the observatory: [Page 300 "Ship-to Address"](../../../../objects/page/300.md)
 - [Send documents and emails](https://learn.microsoft.com/dynamics365/business-central/ui-how-send-documents-email): You can define content to insert into the body of an email message, for example, a PayPal link. You can also attach documents to email messages.
 - [Set Up a Salesperson \| Microsoft Docs'](https://learn.microsoft.com/dynamics365/business-central/sales-how-setup-salespeople): You can set up a identifier for each of your salespeople, so you can track an individual's performance or assign a salesperson to a contact.
 - [Set up customer discount groups](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-set-up-customer-discount-groups): Learn how to set up customer discount groups and create sales line discounts for those groups.
+  - In the observatory: [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 512 "Customer Disc. Groups"](../../../../objects/page/512.md), [Page 7004 "Sales Line Discounts"](../../../../objects/page/7004.md)
 - [Set Up Customer Price Groups](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-set-up-customer-price-groups): Learn how to set up customer price groups and create sales prices for those groups.
+  - In the observatory: [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 7 "Customer Price Groups"](../../../../objects/page/7.md), [Page 7002 "Sales Prices"](../../../../objects/page/7002.md)
 - [Set Up Preferred Methods of Sending Sales Documents \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/sales-how-setup-document-send-profiles): Describes how to set up each customer's preferred method of sending sales documents, for example, email, PDF, electronic document, and so on.
+  - In the observatory: [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 359 "Document Sending Profiles"](../../../../objects/page/359.md)
 - [Set up prices and discounts](https://learn.microsoft.com/dynamics365/business-central/across-prices-and-discounts): Describes how to define standard and special price and discount agreements for sales and purchases.
 - [Set Up Shipment Methods](https://learn.microsoft.com/dynamics365/business-central/sales-how-set-up-shipment-methods): You can set up a code for each of your offered shipment methods, and enter information about them.
 - [Updating document dates with posting dates](https://learn.microsoft.com/dynamics365/business-central/across-link-doc-dates-to-posting-dates): Learn how to make sure that document dates on sales and purchase documents match their posting dates.

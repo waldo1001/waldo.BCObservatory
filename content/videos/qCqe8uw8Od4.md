@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:49:33.807Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:33.854Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -103,6 +103,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-install-business-central-apps
+      title: Install Power BI apps for Business Central
+      label: possibly related
+      why: names Page 7160 "ABC Analysis Setup"
+      by: code
+    - to: post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38
+      title: "Weekly Review: Business Central AL Development – June 7–13, 2026"
+      label: possibly related
+      why: both name Page 7160 "ABC Analysis Setup"
+      by: code
 video_id: qCqe8uw8Od4
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -128,6 +139,17 @@ chapters:
     title: Resources and Related Topics
   - t: 538
     title: General Business Central Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: inventory reports do not have subsections or subtotals in 28.0
+    t: 399
+    versions:
+      - "28"
+  - kind: preview-disclaimer
+    quote: for version 28 hopefully .1 we are adding subtotals to all the new reports
+    t: 434
+    versions:
+      - "28"
 features:
   - name: ABC Analysis in Power BI
     status: unclear
@@ -269,3 +291,10 @@ Not found in BC28-30: table "Item Ledger Entries".
 
 - [6:39](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=399s) not-in-this-release: inventory reports do not have subsections or subtotals in 28.0
 - [7:14](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=434s) coming-later: for version 28 hopefully .1 we are adding subtotals to all the new reports
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Install Power BI apps for Business Central](https://learn.microsoft.com/dynamics365/business-central/across-powerbi-install-business-central-apps) — possibly related: names Page 7160 "ABC Analysis Setup"
+- [Weekly Review: Business Central AL Development – June 7–13, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38.md) — possibly related: both name Page 7160 "ABC Analysis Setup"

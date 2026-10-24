@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/olofsimren-com/3545",
+  "page_id": "post/olofsimren-com/3545",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If you try to reopen a production order a second time you get an error message.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "You also cannot reopen a Finished Production Order that has no output posted against it.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002868,
+    "posts_in_call": 4
+  }
+}

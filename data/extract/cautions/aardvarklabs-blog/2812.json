@@ -1,0 +1,38 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2812",
+  "page_id": "post/aardvarklabs-blog/2812",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "This codeunit includes several On-Prem-only procedures. If you're working in a SaaS environment, not all methods will be available.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "JSON Management"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Specify that you want to avoid any procedures flagged as OnPrem to ensure your code remains cloud-safe.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "JSON Management"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005652,
+    "posts_in_call": 4
+  }
+}

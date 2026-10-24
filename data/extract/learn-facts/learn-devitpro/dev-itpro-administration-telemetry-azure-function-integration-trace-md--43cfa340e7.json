@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-azure-function-integration-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace",
+  "title": "Azure Function Integration Telemetry",
+  "blob": "afa4704b220de0c844e42d0644e627cd4d700e51",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Azure Function integration telemetry tracks calls from Business Central to Azure Functions."
+    },
+    {
+      "kind": "fact",
+      "text": "Request succeeded event has eventId AL0000I74 with HTTP status code."
+    },
+    {
+      "kind": "fact",
+      "text": "Request failed event has eventId AL0000I7P and includes status code and function host URL."
+    },
+    {
+      "kind": "fact",
+      "text": "Authorization failed event has eventId AL0000I75 with error text explaining failure reason."
+    },
+    {
+      "kind": "fact",
+      "text": "Common dimensions include function host URL, tenant ID, environment name, and company name."
+    },
+    {
+      "kind": "fact",
+      "text": "Sample KQL queries help analyze and alert on Azure Function integration failures."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005499,
+      "pages_in_call": 11
+    }
+  ]
+}

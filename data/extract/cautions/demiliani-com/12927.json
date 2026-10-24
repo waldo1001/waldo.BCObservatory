@@ -1,0 +1,41 @@
+{
+  "item_id": "blog/demiliani-com/12927",
+  "page_id": "post/demiliani-com/12927",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Be aware that the url you place in this tag must be publicly accessible and indexed by Bing Search",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "URLs will be truncated to 2 path-level deeps",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "if you have help = https://www.yoursite.com/en-us/docs the Copilot Chat will NOT index the following paths",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004091,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/thinkaboutit-be/7496",
+  "page_id": "post/thinkaboutit-be/7496",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "test preview features carefully in a sandbox environment before enabling them in production",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27.3"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003762,
+    "posts_in_call": 4
+  }
+}

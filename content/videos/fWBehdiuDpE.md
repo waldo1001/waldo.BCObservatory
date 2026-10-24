@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:18:39.635Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -97,6 +97,12 @@ chapters:
     title: Using developer comments for context-aware translations
   - t: 742
     title: Conclusion and call to action
+cautions:
+  - kind: preview-disclaimer
+    quote: I was working on a version that would just translate 10 uh 15 uh translations in in parallel, but uh ...
+    t: 674
+    versions:
+      - "10"
 features:
   - name: LLM-based app translation using Claude
     status: unclear

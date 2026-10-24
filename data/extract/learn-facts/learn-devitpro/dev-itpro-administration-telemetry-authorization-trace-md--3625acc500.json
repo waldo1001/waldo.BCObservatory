@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-authorization-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-authorization-trace",
+  "title": "Authorization Trace | Microsoft Docs",
+  "blob": "b5ee5e8b791584b67042866eee7e0bdb0e3eae3e",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Authorization telemetry shows user sign-in success or failure with reasons for failures."
+    },
+    {
+      "kind": "fact",
+      "text": "Two stages of sign-in emit telemetry: pre-open company and during company open."
+    },
+    {
+      "kind": "fact",
+      "text": "Pre-open stage verifies user account is enabled and has correct entitlements; not emitted on-premises."
+    },
+    {
+      "kind": "fact",
+      "text": "Open company stage indicates whether company opened after CompanyOpen trigger runs."
+    },
+    {
+      "kind": "fact",
+      "text": "Authorization Succeeded event has eventId RT0003 pre-open and RT0004 during company open."
+    },
+    {
+      "kind": "fact",
+      "text": "Authorization Failed event has eventId RT0001 pre-open and RT0002 during company open."
+    },
+    {
+      "kind": "fact",
+      "text": "userType dimension shows Delegated_admin, Internal_Admin, or Normal user classification."
+    },
+    {
+      "kind": "fact",
+      "text": "Common failure reasons include disabled accounts, missing entitlements, and expired licenses."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005499,
+      "pages_in_call": 11
+    }
+  ]
+}

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 01907d05d59c07b0c7c47d78e0af9b157d9cafeed447f76cfa64b3bce7ef312c
@@ -98,5 +98,16 @@ Path: [Business Central on-premises](../../business-central-on-premises.md) > [A
 
 - [Authentication and credential types](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/users-credential-types): This article explains how the credential authorization mechanism works for users of Business Central and how to configure credential types for on-premises.
 - [User Authentication with NavUserPassword](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-navuserpassword): Learn how to set up NAVUserPassword for authenticating users.
+  - Status: NavUserPassword is generally available as an authentication method
+  - NavUserPassword is authentication handled by server using usernames and passwords configured within Business Central only
+  - Prerequisite: Security certificates are required to secure client connections over wide area networks for NavUserPassword
+  - Prerequisite: Production environments require certificate from certification authority; test environments can use self-signed certificates
+  - Step: Set up your user account with password by opening Users page, selecting your account, and entering password under Business Central Password Authentication
+  - Step: Configure server by setting ClientServicesCredentialType to NavUserPassword using Set-NAVServerConfiguration cmdlet or Administration Tool, then restart server instance
+  - Step: Configure web server by opening navsettings.json and setting ClientServicesCredentialType key value to NavUserPassword, then save file
+  - Web service accounts can optionally be set up using Access Key for SOAP and OData Web Service Authentication
+  - In the observatory: [Page 9800 "Users"](../../../../objects/page/9800.md)
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

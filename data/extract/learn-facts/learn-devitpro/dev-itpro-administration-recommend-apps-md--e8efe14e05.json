@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/recommend-apps.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/recommend-apps",
+  "title": "Recommend Apps",
+  "blob": "aa6eef4f277046127f36756b4f04bc8cadaafb03",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Recommended Apps extension is per-tenant extension that curates list of apps for specific customers or business types."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Only apps available on Marketplace can be added to the recommended collection."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Update app.json file with dependency on Recommended Apps per-tenant extension."
+    },
+    {
+      "kind": "fact",
+      "text": "Use Recommended Apps codeunit methods to insert, get, update, delete apps and refresh app logos."
+    },
+    {
+      "kind": "step",
+      "text": "Deploy collection to customer tenants to display Recommended Apps page with install links."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003696,
+      "pages_in_call": 16
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-troubleshooting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting",
+  "title": "Troubleshooting Cloud Migration",
+  "blob": "cc9f266b5fd24df4da9395d3cc617d05a922085c",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "SQL Server compatibility level must be 130 or higher; query sys.databases or run ALTER DATABASE command to set it correctly."
+    },
+    {
+      "kind": "fact",
+      "text": "Change tracking must be enabled on database; run ALTER DATABASE command to enable with 3-day retention and auto-cleanup."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Cloud migration requires users to have Business Central license and SUPER permission set to run setup and migration tasks."
+    },
+    {
+      "kind": "fact",
+      "text": "Integration Runtime must be version 5 if machine has .NET Framework Runtime 4.7.2; otherwise use version 4."
+    },
+    {
+      "kind": "fact",
+      "text": "When reusing Integration Runtime for multiple migrations, enter its name in Data Migration Setup instead of leaving field blank."
+    },
+    {
+      "kind": "limit",
+      "text": "Cannot migrate multiple on-premises databases to same online environment or same database to multiple environments simultaneously."
+    },
+    {
+      "kind": "fact",
+      "text": "Check applicationVersion field in $ndo$tenantdatabaseproperty table; if blank or outdated, migration cannot run."
+    },
+    {
+      "kind": "step",
+      "text": "After migration completes, run Repair Companion Table Records action on Cloud Migration Management page if data is missing."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007287,
+      "pages_in_call": 6
+    }
+  ]
+}

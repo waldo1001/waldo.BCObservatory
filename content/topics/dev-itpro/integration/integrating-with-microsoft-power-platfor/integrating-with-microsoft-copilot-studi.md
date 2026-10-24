@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:57:10.968Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,6 @@ links:
     - video/V_ZyGeF5JXE
   posts:
     - post/aardvarklabs-blog/1818
-    - post/bertverbeek-nl/1196
     - post/bertverbeek-nl/1290
   guidelines: []
 learn_toc_path:
@@ -66,7 +65,7 @@ coverage:
   learn: 2
   code: 3
   video: 5
-  blog: 3
+  blog: 2
   guideline: 0
 bc_forms:
   - 8350
@@ -80,7 +79,7 @@ narrative: generated
 
 > Integrating Business Central with Microsoft Copilot Studio covers configuring the Business Central MCP Server and building Copilot Studio agents that connect to Business Central. It answers questions about which APIs and operations agents can use, and how to connect via the connector or MCP server.
 
-Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Copilot Studio · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
+Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Copilot Studio · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -110,7 +109,6 @@ The agent page explains how to create a Copilot Studio agent that connects throu
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Creating Low-Code AI Agents with Copilot Studio and Business Central](../../../../posts/aardvarklabs-blog/1818.md) (community post): "Copilot Studio enables low-code creation of AI agents that connect to Business Central"
-- [Data agent inside Fabric ask question on your Business Central Data](../../../../posts/bertverbeek-nl/1196.md) (community post): "agent can be added to Copilot Studio"
 - [Agents in Business Central – part 6 – The conclusion](../../../../posts/bertverbeek-nl/1290.md) (community post): "Agents created in Copilot Studio, covering deployment, licensing"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Copilot Studio Connector for Business Central; Copilot Studio Generative AI Mode"
 - [How 3 Partners are Building Powerful Agents for Business Central](../../../../videos/AMVAiPTfSrU.md) (video): "Copilot Studio agent creation"

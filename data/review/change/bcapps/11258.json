@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11258",
+  "input_hash": "2f03e448e6b40b41e11aac88c8638d5ff13412159abe9716c12c35a1bc6d47c9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-24T00:37:49.439Z",
+  "issues": [
+    "GetAddressDetails and ParseAddressDetail were removed as dead code, not obsoleted; dropped both obsoletion entries.",
+    "Rest of the page matches the description."
+  ],
+  "applied": [
+    "dropped 2 obsoletion(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023831,
+    "changes_in_call": 6
+  }
+}

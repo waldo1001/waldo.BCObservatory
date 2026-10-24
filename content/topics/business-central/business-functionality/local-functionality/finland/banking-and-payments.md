@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:05.956Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,7 +97,7 @@ narrative: generated
 
 > Finnish banking and payments in Business Central: electronic banking with bank reference files, domestic (LM03) and foreign (LUM2) payments, SEPA credit transfer export, payment file generation, and the payment discount disregard setting. It answers setup and how-to questions for importing customer payments and exporting vendor payments in Finland.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Banking & payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -120,10 +120,13 @@ Two pages cover narrower topics. "SEPA credit transfer payments (FI)" describes 
 ## Learn pages
 
 - [Electronic banking in Finland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/electronic-banking-in-finland): The electronic banking feature allows processing domestic and foreign payments. Set up bank reference files first to export or import electronic payments.
+  - In the observatory: [Page 32000006 "Bank Payments to send (FI)"](../../../../../objects/page/32000006-fi.md), [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md)
 - [Generate Payment Files (FI)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-generate-payment-files): Before making electronic payments to vendors, you must create a payment file for either domestic or international payments.
 - [How to Disregard Payment Discounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-disregard-payment-discounts): Use the disregard payment discount at full payment feature to accept payments when certain conditions are true.
 - [SEPA credit transfer payments (FI)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/sepa-credit-transfer-payments): Finnish enhancements allow you to create Single Euro Payments Area (SEPA) credit transfer files to send vendor payments to banks.
+  - In the observatory: [Codeunit 13413 "Exp. SEPA CT pain.001.001.09 (FI)"](../../../../../objects/codeunit/13413-fi.md), [Report 13413 "Exp. SEPA CT pain.001.001.09 (FI)"](../../../../../objects/report/13413-fi.md)
 - [Set Up Bank Reference Files (FI)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-bank-reference-files): In the Finnish version, set up bank reference files to define how to import or export payment data for electronic transactions.
+  - In the observatory: [Page 32000000 "Bank Reference File Setup (FI)"](../../../../../objects/page/32000000-fi.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md)
 
 ## Business Central pages and reports
 

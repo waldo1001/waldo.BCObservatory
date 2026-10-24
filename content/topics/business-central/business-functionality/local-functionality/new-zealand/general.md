@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:32.677Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -103,8 +103,11 @@ The four pages are independent and short. Start with the IRD number pages if you
 ## Learn pages
 
 - [Addresses in New Zealand](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/addresses): Learn how to use the address bar coding system, where each address is assigned a unique Delivery Point Identifier (DPID) to improve postal efficiency.
+  - In the observatory: [Table 225 "Post Code"](../../../../../objects/table/225.md)
 - [Determine Sales Price by Cost Plus Percentage (NZ)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-determine-sales-price-by-cost-plus-percentage): Learn how to use the cost plus percentage function to set a sales price based on the cost of an item.
 - [Enter Inland revenue department numbers](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-enter-new-zealand-business-numbers): Learn how to enter an Inland Revenue Department Number (IRD) on specific pages in the New Zealand version of Business Central.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 26 "Vendor Card"](../../../../../objects/page/26.md)
 - [Inland Revenue Department Numbers and Adjustment Notes](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/new-zealand-business-numbers-and-adjustment-notes): Learn about IRD numbers and adjustment notes and how they're supported in the New Zealand version of Business Central.
+  - In the observatory: [Table 225 "Post Code"](../../../../../objects/table/225.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

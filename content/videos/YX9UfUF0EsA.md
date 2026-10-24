@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:12.529Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -107,6 +107,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/nbGw2g3KMXI
+      title: 20260713 - From Zero to Agent Building agents in Business Central
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: video/Fk6kWTe3f2Y
+      title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: video/jqVt0hYDfz0
+      title: "What's Cooking in Business Central: Delivering Analysis Views in AL Extensions"
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
+    - to: video/Rh1AFX9A1x4
+      title: "What's New: Data Analysis (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
+    - to: video/fJGY6d-2lO8
+      title: "What's New: Enhanced Sales Analytics (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
+    - to: video/6vHJQggN4F4
+      title: "What's New: Product Information Management in Shopify Connector (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
 video_id: YX9UfUF0EsA
 channel: yt-mibuso
 source_name: mibuso.com / BC TechDays
@@ -149,6 +180,33 @@ chapters:
     title: Preview access, version compatibility, and extensibility
   - t: 2453
     title: External access, troubleshooting, and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: This time in my uh special special next version environment just for uh for this demo, for the conference.
+    t: 436
+  - kind: preview-disclaimer
+    quote: At the moment, this is all like the BC integration is limited to when you use Copilot inside Business Central.
+    t: 845
+  - kind: preview-disclaimer
+    quote: for now, we're trying to just keep the experience into Business Central, make sure that it's solid so that in ...
+    t: 868
+  - kind: preview-disclaimer
+    quote: we are trying to bring one other part of this whole suite, which is your Microsoft Copilot Studio agents.
+    t: 883
+  - kind: preview-disclaimer
+    quote: you know, like it's in a limited capacity for now. You need to be in Business Central to use the Business Central tools.
+    t: 960
+  - kind: preview-disclaimer
+    quote: we are investigating whether we can give you limited access to this so you can operate on only the BC ...
+    t: 1691
+  - kind: preview-disclaimer
+    quote: any things that are coming down the line uh are kind of like still TBD
+    t: 1961
+  - kind: preview-disclaimer
+    quote: we're planning a public release for BC 29
+    t: 2169
+    versions:
+      - "29"
 features:
   - name: M365 Copilot chat in Business Central
     status: ga
@@ -158,12 +216,10 @@ features:
     roadmap_ids:
       - "573362"
   - name: Business Central data access from chat
-    status: ga
+    status: unclear
     t: 470
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573362"
+    status_source: video
   - name: Chat history persistence across Microsoft 365
     status: unclear
     t: 635
@@ -200,12 +256,10 @@ features:
     verified: false
     status_source: video
   - name: Page and record context in Copilot chat
-    status: ga
+    status: unclear
     t: 1069
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573362"
+    status_source: video
   - name: Message attachments in M365 Copilot
     status: unclear
     t: 1118
@@ -227,12 +281,10 @@ features:
     verified: false
     status_source: video
   - name: M365 Copilot replaces Copilot chat in BC
-    status: ga
+    status: unclear
     t: 908
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573362"
+    status_source: video
   - name: Cross-product capability within M365 Copilot
     status: unclear
     t: 816
@@ -403,7 +455,7 @@ The session also covers the tools and agentic loop behind multi-step queries, pe
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | M365 Copilot chat in Business Central | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [7:05](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=425s) | "we are actually already in a a limited private preview for MVPs." ([35:41](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2141s)) |
-| Business Central data access from chat | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [7:50](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=470s) |  |
+| Business Central data access from chat | status not stated, demoed | [7:50](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=470s) |  |
 | Chat history persistence across Microsoft 365 | status not stated, demoed | [10:35](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=635s) |  |
 | Export copilot analysis to Word | status not stated, demoed | [11:29](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=689s) |  |
 | Enhanced record summarization | status not stated, demoed | [3:43](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=223s) |  |
@@ -411,12 +463,12 @@ The session also covers the tools and agentic loop behind multi-step queries, pe
 | LLM-powered bank reconciliation | status not stated | [3:02](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=182s) |  |
 | LLM-powered auto-fill | status not stated | [3:17](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=197s) |  |
 | Sales order agent | status not stated | [4:24](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=264s) |  |
-| Page and record context in Copilot chat | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [17:49](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1069s) |  |
+| Page and record context in Copilot chat | status not stated, demoed | [17:49](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1069s) |  |
 | Message attachments in M365 Copilot | status not stated, demoed | [18:38](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1118s) |  |
 | Agentic loop for multi-step queries | status not stated, demoed | [19:06](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1146s) |  |
 | Business Central tools suite for Copilot | status not stated | [19:19](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1159s) |  |
 | Rich content delivery in Copilot responses | status not stated, demoed | [19:52](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1192s) |  |
-| M365 Copilot replaces Copilot chat in BC | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [15:08](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=908s) |  |
+| M365 Copilot replaces Copilot chat in BC | status not stated, demoed | [15:08](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=908s) |  |
 | Cross-product capability within M365 Copilot | status not stated, demoed | [13:36](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=816s) |  |
 | Copilot license requirement for M365 Copilot in BC | status not stated | [27:43](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1663s) |  |
 | Limited BC-only access investigation | status not stated | [28:11](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1691s) |  |
@@ -480,5 +532,16 @@ Not found in BC28-30: page "customer", page "Copilot and agent capabilities page
 - [40:00](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2400s) subject-to-change: the full details are TBD
 - [40:00](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2400s) coming-later: the full details are TBD
 - [43:00](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2580s) preview: do try to get access to private preview, and then try it out
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [20260713 - From Zero to Agent Building agents in Business Central](../videos/nbGw2g3KMXI.md) — possibly related: both name Page 31 "Item List"
+- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Page 31 "Item List"
+- [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../videos/jqVt0hYDfz0.md) — possibly related: both name Page 9305 "Sales Order List"
+- [What's New: Data Analysis (2025 release wave 1)](../videos/Rh1AFX9A1x4.md) — possibly related: both name Page 9305 "Sales Order List"
+- [What's New: Enhanced Sales Analytics (2026 release wave 1)](../videos/fJGY6d-2lO8.md) — possibly related: both name Page 9305 "Sales Order List"
+- [What's New: Product Information Management in Shopify Connector (2026 release wave 1)](../videos/6vHJQggN4F4.md) — possibly related: both name Page 31 "Item List"
 
 Presenters (as heard): Anson, Yulia, Elia, Erdem, Julia, Poaje, Luke.

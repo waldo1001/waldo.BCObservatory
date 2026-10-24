@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:02:07.643Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -105,6 +105,10 @@ chapters:
     title: Demonstration of File Storage in Action
   - t: 248
     title: Future Plans and Closing Remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: we will be looking into uptaking some of these capabilities in business Central in the upcoming waves
+    t: 248
 features:
   - name: External File Storage System Application Module
     status: unclear

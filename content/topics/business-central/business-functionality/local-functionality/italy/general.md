@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:37.467Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,6 +109,7 @@ The Italian Subcontracting page describes outsourcing component production throu
 ## Learn pages
 
 - [How to set up company information](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-company-information): Learn how to set up required company details on the Company Information page to ensure fiscal documents include complete and accurate information.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md)
 - [Italian Subcontracting](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-subcontracting): Master Production Scheduling (MPS) and Material Requirements Planning (MRP) enable contractors to efficiently manage outsourced and subcontracted components.
 - [Set Up Journal Templates and Batches (IT)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches): Learn how the Italian version of Business Central helps EU companies meet the requirement to submit Intrastat reports to the customs office.
 

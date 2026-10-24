@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:34.661Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,6 +107,8 @@ links:
     - change/bcapps/10716
     - change/bcapps/10934
     - change/bcapps/12542
+    - change/bcapps/12690
+    - change/bcapps/13056
     - change/bcapps/9465
     - change/bcapps/9466
     - change/bcapps/9651
@@ -159,14 +161,22 @@ Start with "Design details - Item tracking" for the scope and links, then read "
 ## Learn pages
 
 - [Design details - Active versus historic item tracking entries](https://learn.microsoft.com/dynamics365/business-central/design-details-active-versus-historic-item-tracking-entries): When parts of a document line quantity are posted, only that quantity is transferred to the item ledger entries and its item tracking numbers.
+  - In the observatory: [Page 6510 "Item Tracking Lines"](../../../../objects/page/6510.md), [Table 336 "Tracking Specification"](../../../../objects/table/336.md), [Table 337 "Reservation Entry"](../../../../objects/table/337.md)
 - [Design details - Item tracking](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking): The item tracking system provides easy handling of serial and lot numbers, which may be needed for meeting legal requirements or assist with warranty handling.
 - [Design details - Item tracking and planning](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-and-planning): Because they are stored in the reservation system, item tracking numbers are fully coordinated with order tracking records.
+  - In the observatory: [Table 337 "Reservation Entry"](../../../../objects/table/337.md)
 - [Design details - Item tracking and reservations](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-and-reservations): This topic talks about item tracking and reservations, and describes the concepts behind the two options.
+  - In the observatory: [Page 498 "Reservation"](../../../../objects/page/498.md), [Page 6510 "Item Tracking Lines"](../../../../objects/page/6510.md)
 - [Design details - Item tracking availability](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-availability): The Item Tracking Lines and Item Tracking Summary pages provide dynamic availability information for serial or lot numbers, increasing transparency for users.
+  - In the observatory: [Page 6500 "Item Tracking Summary"](../../../../objects/page/6500.md), [Page 6510 "Item Tracking Lines"](../../../../objects/page/6510.md), [Table 32 "Item Ledger Entry"](../../../../objects/table/32.md), [Table 337 "Reservation Entry"](../../../../objects/table/337.md)
 - [Design details - Item tracking design](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-design): This article describes the design behind item tracking in Business Central as it matures through product versions.
+  - In the observatory: [Table 336 "Tracking Specification"](../../../../objects/table/336.md), [Table 337 "Reservation Entry"](../../../../objects/table/337.md)
 - [Design details - Item tracking in the warehouse](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-in-the-warehouse): Inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers.
+  - In the observatory: [Page 498 "Reservation"](../../../../objects/page/498.md), [Page 6510 "Item Tracking Lines"](../../../../objects/page/6510.md)
 - [Design details - Item Tracking Lines page](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-lines-window): Read about how to manage the flow of serial and lot numbers in your inventory using the Item Tracking Lines page.
+  - In the observatory: [Page 6510 "Item Tracking Lines"](../../../../objects/page/6510.md), [Table 32 "Item Ledger Entry"](../../../../objects/table/32.md), [Table 336 "Tracking Specification"](../../../../objects/table/336.md), [Table 337 "Reservation Entry"](../../../../objects/table/337.md)
 - [Design details - Item tracking posting structure](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure): Learn how to use item ledger entries as the primary carrier of item tracking numbers in the Item Tracking Posting Structure.
+  - In the observatory: [Codeunit 22 "Item Jnl.-Post Line"](../../../../objects/codeunit/22.md), [Codeunit 80 "Sales-Post"](../../../../objects/codeunit/80.md), [Table 336 "Tracking Specification"](../../../../objects/table/336.md), [Table 337 "Reservation Entry"](../../../../objects/table/337.md), [Table 6507 "Item Entry Relation"](../../../../objects/table/6507.md), [Table 6508 "Value Entry Relation"](../../../../objects/table/6508.md)
 
 ## Videos, posts and code changes
 
@@ -178,6 +188,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10716 [Main] [ALL-E] "Item tracking is defined for item 1000 in the Requisition Line. You must delete the existing item tracking before modifying or deleting the Requisition line" err when creating a Purchase Order from a Sales Order including DROP Shipment Bug 643358](../../../../changes/bcapps/10716.md) (code change): "Fixes the item tracking error raised for the requisition line"
 - [#10934 [29.x][REPAIR] [ALL-E] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order level](../../../../changes/bcapps/10934.md) (code change): "Changes how Item Tracking Data Collection validates assigned lot numbers"
 - [#12542 [Main]Incorrect Calculation of Remaining Prod. Order Comp.](../../../../changes/bcapps/12542.md) (code change): "Incorrect calculation of remaining production order component quantities"
+- [#12690 [Master]-You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](../../../../changes/bcapps/12690.md) (code change): "Disabled item tracking for reversing capacity ledger entries that have zero output quantity"
+- [#13056 [QM] Tracking specification quantity now is used properly](../../../../changes/bcapps/13056.md) (code change): "tracking specification quantity now is used properly"
 - [#9465 [Extensibility Request] issue 30350: add OnBeforeTestFirstApplyItemLedgerEntryTracking event](../../../../changes/bcapps/9465.md) (code change): "A new integration event OnBeforeTestFirstApplyItemLedgerEntryTracking was added to codeunit 22 so extensions can validate item tracking"
 - [#9466 [Extensibility Request] issue 30351: extend OnCheckExpirationDateOnBeforeAssignExpirationDate event](../../../../changes/bcapps/9466.md) (code change): "extend OnCheckExpirationDateOnBeforeAssignExpirationDate event"
 - [#9651 [Extensibility Request] issue 30352: add SkipNewExpirationDateCheck to OnCheckExpirationDateOnAfterCalcSumLot](../../../../changes/bcapps/9651.md) (code change): "add SkipNewExpirationDateCheck to OnCheckExpirationDateOnAfterCalcSumLot"

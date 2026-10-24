@@ -22,7 +22,7 @@ review:
   at: "2026-10-15T00:21:33.506Z"
   flags: []
 generated:
-  at: "2026-10-16T01:15:16.406Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -107,35 +107,31 @@ chapters:
     title: New MCP configuration UX
   - t: 435
     title: Security features and closing
+cautions:
+  - kind: preview-disclaimer
+    quote: it's a additional MCP server from Microsoft and you're free to use it, but at the same time we have seen that newer models are actually pretty good at writing AL query. So, they don't really end up using it as much
+    t: 229
 features:
   - name: Find tables tool
-    status: ga
+    status: unclear
     t: 74
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573312"
+    status_source: video
   - name: Table relations tool
-    status: ga
+    status: unclear
     t: 74
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573312"
+    status_source: video
   - name: Table schema tool
-    status: ga
+    status: unclear
     t: 74
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573312"
+    status_source: video
   - name: Data query tool
-    status: ga
+    status: unclear
     t: 74
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573312"
+    status_source: video
   - name: MCP query data access without APIs
     status: ga
     t: 50
@@ -214,10 +210,10 @@ The video also explains limits of the query approach and shows the new MCP confi
 
 | Feature | Status | At |
 |---|---|---|
-| Find tables tool | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [1:14](https://www.youtube.com/watch?v=q3xnjJD32kk&t=74s) |
-| Table relations tool | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [1:14](https://www.youtube.com/watch?v=q3xnjJD32kk&t=74s) |
-| Table schema tool | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [1:14](https://www.youtube.com/watch?v=q3xnjJD32kk&t=74s) |
-| Data query tool | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [1:14](https://www.youtube.com/watch?v=q3xnjJD32kk&t=74s) |
+| Find tables tool | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=q3xnjJD32kk&t=74s) |
+| Table relations tool | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=q3xnjJD32kk&t=74s) |
+| Table schema tool | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=q3xnjJD32kk&t=74s) |
+| Data query tool | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=q3xnjJD32kk&t=74s) |
 | MCP query data access without APIs | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [0:50](https://www.youtube.com/watch?v=q3xnjJD32kk&t=50s) |
 | MCP configuration UX improvements | status not stated | [6:16](https://www.youtube.com/watch?v=q3xnjJD32kk&t=376s) |
 | MCP server security toggle | status not stated | [7:15](https://www.youtube.com/watch?v=q3xnjJD32kk&t=435s) |

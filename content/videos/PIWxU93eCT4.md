@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:02:32.194Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:32.232Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -103,6 +103,10 @@ chapters:
     title: Editing prices in Excel and syncing changes
   - t: 151
     title: Feature origin and open source contribution
+cautions:
+  - kind: preview-disclaimer
+    quote: will ship with businessle 2025 Wave 1
+    t: 56
 features:
   - name: Edit sales price list in Excel
     status: announced

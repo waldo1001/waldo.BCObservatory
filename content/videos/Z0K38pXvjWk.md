@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:18:55.004Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -114,7 +114,9 @@ features:
     status: ga
     t: 20
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573313"
   - name: Action tooltip inheritance
     status: ga
     t: 33
@@ -123,10 +125,12 @@ features:
     roadmap_ids:
       - "573313"
   - name: Page-level tooltip consistency
-    status: unclear
+    status: ga
     t: 324
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573313"
   - name: AI agent tooltip support
     status: unclear
     t: 407
@@ -194,9 +198,9 @@ It also covers defining tooltips on table fields so pages inherit them, which re
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| ToolTip property on page objects | generally available | [0:20](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=20s) | "Tool tip and or tool tip ML are now available directly on business central page object." ([8:55](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=535s)) |
+| ToolTip property on page objects | generally available (roadmap [Actions on reports and pages can now inherit tooltips](../features/573313.md)) | [0:20](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=20s) | "Tool tip and or tool tip ML are now available directly on business central page object." ([8:55](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=535s)) |
 | Action tooltip inheritance | generally available (roadmap [Actions on reports and pages can now inherit tooltips](../features/573313.md)), demoed | [0:33](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=33s) |  |
-| Page-level tooltip consistency | status not stated, demoed | [5:24](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=324s) |  |
+| Page-level tooltip consistency | generally available (roadmap [Actions on reports and pages can now inherit tooltips](../features/573313.md)), demoed | [5:24](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=324s) |  |
 | AI agent tooltip support | status not stated | [6:47](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=407s) |  |
 | Table-level tooltip inheritance | status not stated | [3:57](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=237s) |  |
 

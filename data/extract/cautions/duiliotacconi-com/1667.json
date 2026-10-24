@@ -1,0 +1,34 @@
+{
+  "item_id": "blog/duiliotacconi-com/1667",
+  "page_id": "post/duiliotacconi-com/1667",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "already existing Per Tenant Extensions (PTE) that are relying on the old \"Line No.\" order",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27",
+        "2025 Release Wave 2"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "I strongly suggest enabling the Feature Management flag in advance and widely test all your postings routines",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27",
+        "2025 Release Wave 2"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002992,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-faq.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-faq",
+  "title": "Telemetry FAQ (Frequently Asked Questions)",
+  "blob": "47658d2dabb8ea5dff8b9119bb6e383a3220d512",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Business Central service does not emit personal or customer data to Application Insights"
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry emits only service runtime data, tenant identifiers, configuration data, and usage data"
+    },
+    {
+      "kind": "fact",
+      "text": "Each custom dimension in events has 8,000 character limit; overflow keys are named with _1 and _2 suffixes"
+    },
+    {
+      "kind": "fact",
+      "text": "Separate environment telemetry from app telemetry into different Application Insights resources for better management"
+    },
+    {
+      "kind": "limit",
+      "text": "Application Insights instrumentation was not backported to versions earlier than 15.0"
+    },
+    {
+      "kind": "fact",
+      "text": "Azure workspace default retention policy can be set to 30, 31, 60, 90, 120, 180, 270, 365, 550, or 730 days"
+    },
+    {
+      "kind": "permission",
+      "text": "Grant read-only access by assigning Reader role in Access Control (IAM) page and optionally on Resource Group"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007431,
+      "pages_in_call": 3
+    }
+  ]
+}

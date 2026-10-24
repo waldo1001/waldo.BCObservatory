@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:59:56.243Z"
   flags: []
 generated:
-  at: "2026-10-07T22:59:56.292Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -143,6 +143,10 @@ chapters:
     title: Key benefits and improvements
   - t: 761
     title: Migration path and next steps
+cautions:
+  - kind: preview-disclaimer
+    quote: old interfaces are deprecated and will be removed in three waves. So that is 2026 wave 2
+    t: 761
 features:
   - name: I document sender interface
     status: unclear

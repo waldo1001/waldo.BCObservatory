@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:54:32.258Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -50,6 +50,32 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/Fk6kWTe3f2Y
+      title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/thedynamicsexplorer-com/37371
+      title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/thinkaboutit-be/7537
+      title: "How Do I: Replace Reports with Analysis Mode in Business Central"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: video/8IOEXgk7q5I
+      title: "What's New: Cost Adjustment (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: video/Afv-r-eDt90
+      title: "What's New: Enhanced Analysis Mode (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
 post_id: https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/
 source_id: dvlprlife-com
 source_name: DvlprLife
@@ -106,6 +132,16 @@ As named in the post. A name that matches one object page by exact type and name
 - [page 38 "Item Ledger Entries"](../../objects/page/38.md)
 
 Not found in BC28-30: page "9110".
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../../videos/Fk6kWTe3f2Y.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [How Do I: Replace Reports with Analysis Mode in Business Central](../../posts/thinkaboutit-be/7537.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [What's New: Cost Adjustment (2025 release wave 1)](../../videos/8IOEXgk7q5I.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [What's New: Enhanced Analysis Mode (2026 release wave 1)](../../videos/Afv-r-eDt90.md) — possibly related: both name Page 38 "Item Ledger Entries"
 
 ## Context
 

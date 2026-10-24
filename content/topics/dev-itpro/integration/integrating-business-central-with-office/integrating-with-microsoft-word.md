@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:40.461Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,5 +88,6 @@ The two pages are independent. Start with "Map Data Fields in Word Layouts" if y
 
 - [Map Data Fields in Word Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout): Learn how to use the XML Mapping Pane in Word to manually map Business Central report data, labels, images, and repeating rows to content controls.
 - [Using Word templates for bulk communications](https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge): Word templates can make it easy to bulk create documents that are personalized for specific entities.
+  - In the observatory: [Page 9989 "Word Templates"](../../../../objects/page/9989.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

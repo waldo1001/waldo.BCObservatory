@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-finish.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish",
+  "title": "Complete cloud migration",
+  "blob": "0eef3b1ce6ac0c4396133f565d617c80950717c1",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Final cloud migration phase handles record links and notes migration, disables cloud migration, runs API data upgrade, sets up users, maps user accounts, and reconfigures integrations."
+    },
+    {
+      "kind": "step",
+      "text": "Migrate record links and notes from buffer table to actual table via Migrate Record Links and Notes action on Cloud Migration Management page."
+    },
+    {
+      "kind": "step",
+      "text": "Disable cloud migration by selecting Complete Cloud, reading checklist information, toggling acknowledgment switch, then selecting Disable Cloud Migration and confirming."
+    },
+    {
+      "kind": "step",
+      "text": "Run API data upgrade by opening Cloud Migration Management, selecting Manage API Upgrade, choosing company, scheduling job queue entry for entities reset."
+    },
+    {
+      "kind": "fact",
+      "text": "Integration runtime remains installed after disabling cloud migration; cloud registration auto-cleans after 2 weeks of non-use if not used again."
+    },
+    {
+      "kind": "limit",
+      "text": "User accounts and permissions from Business Central on-premises are not migrated; each on-premises user requires new Microsoft 365 account with Business Central license."
+    },
+    {
+      "kind": "fact",
+      "text": "External integrations and services must be updated to reflect new environment URL and Microsoft Entra Tenant ID after migration."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "User mappings can only execute once per environment and should be run as final step; test in sandbox before applying to production."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008208,
+      "pages_in_call": 6
+    }
+  ]
+}

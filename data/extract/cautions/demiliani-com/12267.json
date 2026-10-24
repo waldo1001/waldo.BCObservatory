@@ -1,0 +1,34 @@
+{
+  "item_id": "blog/demiliani-com/12267",
+  "page_id": "post/demiliani-com/12267",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Only use filters when you're deleting significant numbers of rows (using filters for smaller deletions creates unnecessary overhead, so it's not recommended).",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "The method doesn't support tables with OnDelete triggers or event subscriptions (in this case a runtime error occurs).",
+      "objects": [],
+      "events": [
+        "OnDelete"
+      ],
+      "versions": [
+        "27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.001515,
+    "posts_in_call": 4
+  }
+}

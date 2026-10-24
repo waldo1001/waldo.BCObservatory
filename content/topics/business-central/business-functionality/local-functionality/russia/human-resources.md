@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:19.662Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -129,6 +129,7 @@ Start with the overview page to see which areas are covered. Then go to the proc
 - [Absence registration in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Absence-registration): Enhanced absence registration features tailored to meet Russian local requirements.
 - [Dismissal in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Dismissal): Russian localization includes features for managing employee dismissals.
 - [Establishment of charges and deductions in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee): Russian localization provides tools for managing employee charges and deductions in Business Central.
+  - In the observatory: [Page 5200 "Employee Card"](../../../../../objects/page/5200.md), [Page 5237 "Employee Ledger Entries"](../../../../../objects/page/5237.md)
 - [Forming and changing staff in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement): Learn how to form and update staff lists and arrangements in Business Central for Russia.
 - [Human resources in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Human-Resources): The Russian version includes enhancements for managing human resources.
 - [Payroll in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Payroll): Russian localization offers payroll management with salary calculation, deductions, tax processing, and compliance with local regulations.

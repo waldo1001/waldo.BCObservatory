@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:02:03.312Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:03.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -247,6 +247,16 @@ chapters:
     title: Advice for Partners on Small Language Models
   - t: 1755
     title: Speed Advantages and Best Practices for Fine-tuning
+cautions:
+  - kind: preview-disclaimer
+    quote: it's a feature which is in preview
+    t: 1173
+  - kind: preview-disclaimer
+    quote: these are preliminary uh results um so I think in order to fully you know bake this and and and ship it we we need to train this dt4 mini on more data
+    t: 1553
+  - kind: preview-disclaimer
+    quote: there's a risk that because we have these data so it's you know we have toys and and and so the toys have certain names and that's the items we have and the customers have certain names so there's a risk that because we have been training…
+    t: 1573
 features:
   - name: Small Language Models
     status: unclear

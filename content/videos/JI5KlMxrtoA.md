@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:20:39.087Z"
   flags: []
 generated:
-  at: "2026-10-07T23:20:39.152Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -142,6 +142,22 @@ chapters:
     title: Manual Code Review and Quality Assessment Reports
   - t: 4256
     title: Closing Remarks and Audience Engagement
+cautions:
+  - kind: preview-disclaimer
+    quote: this rule is also under review. I think I will update this and remove this because it doesn't make that much sense.
+    t: 818
+  - kind: preview-disclaimer
+    quote: That's why this rule is uh also under review. I think I will update this and remove this because it ...
+    t: 873
+  - kind: preview-disclaimer
+    quote: telemetry here needs an update because I've uh I've changed the rule a little bit recently
+    t: 1281
+  - kind: preview-disclaimer
+    quote: Once we would get an event like this, I would probably add this uh this coverage to this rule
+    t: 1452
+  - kind: preview-disclaimer
+    quote: This is a living project. Um the automatic review obviously doesn't surface what are false positives
+    t: 3894
 features:
   - name: ISO 5055 Review Standard Integration
     status: unclear

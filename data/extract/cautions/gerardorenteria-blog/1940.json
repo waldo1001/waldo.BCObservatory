@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/gerardorenteria-blog/1940",
+  "page_id": "post/gerardorenteria-blog/1940",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Disable PSSessions for BC v27 and v28 containers by default due to known PS7 remote session issue.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC v27",
+        "BC v28"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "SymbolsOnly flag is no longer supported in BC27.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "Issue 4186 Backup-BcContainerDatabases fails on BC29 multitenant containers.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006919,
+    "posts_in_call": 4
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:27.211Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -124,11 +124,29 @@ Start with "Get, Find, and Next methods" for the basics, then read "AL database 
 ## Learn pages
 
 - [AL database methods and performance on SQL Server](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-al-Database-methods-and-performance-on-server): Read about the relationship between basic database methods in AL and SQL statements in Business Central.
+  - Record.Get is optimized for retrieving a single record based on primary key values.
+  - Record.Find('-') and Record.Find('+') use self-tuning TOP X calls and are best for reading when you might not need all records.
+  - Record.FindSet is optimized for reading the complete set of records in specified filters and ranges.
+  - Each CalcFields or CalcSums call requires a separate SQL statement unless the result is cached from a recent identical calculation.
+  - SetAutoCalcFields method optimizes performance by calculating FlowFields during record retrieval instead of in separate calls.
+  - Using FindSet with var parameter and direct Modify or Delete avoids extra SQL statements compared to copying records.
+  - ModifyAll and DeleteAll revert to individual SQL calls if triggers, event subscribers, security filtering, Media fields, or companion tables exist.
 - [FAQ for Partial Records](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-partial-records-faq): Answers some of the most typical questions about the partial records capability in Business Central
 - [Get, Find, and Next methods](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-get-find-and-next-methods): Learn about the Get, Find, and Next methods for searching records in Business Central.
+  - In the observatory: [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 37 "Sales Line"](../../../../../objects/table/37.md)
 - [Record instance isolation level](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-read-isolation): Learn how to set the isolation levels used when querying the Business Central database.
 - [Using partial records](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-partial-records): Describes the partial records capability in Business Central.
+  - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md)
 - [Using Read Scale-Out for Better Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview): Learn how to use read scale-out in Business Central to improve performance
+  - Read scale-out isolates analytical read-only workloads from business process read-write transactions to prevent performance degradation.
+  - Read scale-out uses a read-only replica of the database instead of the primary read-write database for reports, queries, and API pages.
+  - Status: In Business Central Online, read scale-out is readily available and automatically enabled on databases.
+  - Developers can set default database access intent on reports and query objects using the DataAccessIntent property.
+  - Read-only intent can be enabled on OData GET requests by configuring the Enable Read-Only Intent on GET Requests server setting.
+  - Limit: Read scale-out cannot be enabled on sandbox environments; read-only objects only access the primary database.
+  - Limit: Using read scale-out may introduce a slight delay when reading data due to replication lag from primary to secondary replicas.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos, posts and code changes
 

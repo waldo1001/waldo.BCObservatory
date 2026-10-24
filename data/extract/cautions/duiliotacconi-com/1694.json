@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/duiliotacconi-com/1694",
+  "page_id": "post/duiliotacconi-com/1694",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "SQL Statement collection in AL profiles is enabled only when tracing in sampling mode and not in instrumentation mode.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002845,
+    "posts_in_call": 4
+  }
+}

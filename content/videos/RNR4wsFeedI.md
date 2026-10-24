@@ -24,7 +24,7 @@ review:
   at: "2026-10-07T23:10:47.909Z"
   flags: []
 generated:
-  at: "2026-10-07T23:10:47.954Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -129,6 +129,10 @@ chapters:
     title: Live demo of UX improvements
   - t: 768
     title: Conclusion and additional resources
+cautions:
+  - kind: preview-disclaimer
+    quote: multiple um file uploads that is actually coming in one of the upcoming uh minor releases
+    t: 486
 features:
   - name: Worksheet access on mobile client
     status: unclear

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring",
+  "title": "Set up Business Central data mirroring to Microsoft Fabric",
+  "blob": "3cad987b6bf7639053ba2a65ca50199970541372",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Production-ready preview planned to become available in October 2026. Delivery timing and functionality might change. Subject to supplemental terms of use."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Business Central 2026 release wave 2, version 29.0 or later required."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Microsoft Fabric Mirroring extension must be installed from Microsoft Marketplace."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Data encryption must be enabled. Business Central stores the app client secret in encrypted isolated storage."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "User must have MS Fabric Mirroring - Admin permission set or equivalent permissions to set up mirroring."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Dedicated app registration in Microsoft Entra ID required. Must provide application client ID, client secret, and service-principal object ID during setup."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Access to active Microsoft Fabric capacity required. User must be Member or Admin of Fabric workspace to add mirroring service principal."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Fabric workspace must be in same Microsoft Entra tenant as Business Central environment."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006355,
+      "pages_in_call": 7
+    }
+  ]
+}

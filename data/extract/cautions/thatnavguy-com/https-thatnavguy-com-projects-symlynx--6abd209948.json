@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/projects/symlynx/",
+  "page_id": "post/thatnavguy-com/https-thatnavguy-com-projects-symlynx--6abd209948",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If you commit a symlink to git, it'll be broken on everyone else's machine unless they have the same folder structure.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.001443,
+    "posts_in_call": 4
+  }
+}

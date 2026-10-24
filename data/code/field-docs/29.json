@@ -3,19 +3,19 @@
     7,
     [
       1,
-      "af1b860dae5aeeb1369d4ed450c2c980e372a161",
+      "dc14cfd1217fbd3fa364b63565e752e5f0653955",
       "4",
-      "af1b860dae5aeeb1369d4ed450c2c980e372a161",
+      "dc14cfd1217fbd3fa364b63565e752e5f0653955",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "29",
   "stats": {
-    "tooltips": 18818,
+    "tooltips": 18820,
     "bound": 12761,
-    "unparsed": 2989,
-    "unmatched": 3068,
+    "unparsed": 2990,
+    "unmatched": 3069,
     "tables": 1081,
     "fields": 8961
   },
@@ -24090,7 +24090,7 @@
         "control": "Vendor GLN"
       },
       "Vendor Invoice No.": {
-        "tooltip": "Specifies the vendor's original invoice number that this credit memo references.",
+        "tooltip": "Specifies the vendor's invoice number that the document applies to, as stated on the document.",
         "page": "page/6182",
         "control": "Vendor Invoice No."
       },

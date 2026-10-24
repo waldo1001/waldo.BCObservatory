@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:57:41.510Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -84,6 +84,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/8C9JmtHdExM
+      title: Allow Over Receipts of Products
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
+      title: Define Item Attributes for Item Variants
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610
+      title: Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2
+      label: possibly related
+      why: both name Page 5703 "Location Card"
+      by: code
+    - to: video/tpAh4q3h8T8
+      title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/thedynamicsexplorer-com/37371
+      title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/X3xygXmgRqU
+      title: How to Set Up Locations in Business Central (2025)
+      label: possibly related
+      why: both name Page 5703 "Location Card"
+      by: code
+    - to: post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3
+      title: How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)
+      label: possibly related
+      why: both name Page 5703 "Location Card"
+      by: code
+    - to: post/gerardorenteria-blog/11203
+      title: New Application Ideas of Dynamics 365 Business Central (2025 MAY)
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: video/DHODFt_jVO4
+      title: "What's New in Manufacturing: Costing (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 5510 "Production Journal"
+      by: code
+    - to: video/UKVp28M5TtU
+      title: "What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
 video_id: vnaySMIKnp8
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -104,6 +155,10 @@ chapters:
     title: New Flushing Methods and Over-picking
   - t: 210
     title: "Demo: Flushing and Consumption Management"
+cautions:
+  - kind: preview-disclaimer
+    quote: activate the capability in feature management
+    t: 210
 features:
   - name: Warehouse Putaway for Production Output
     status: unclear
@@ -235,5 +290,20 @@ Not found in BC28-30: page "Putaway Worksheet", page "Production Order", page "W
 ## Disclaimers in the video
 
 - [3:30](https://www.youtube.com/watch?v=vnaySMIKnp8&t=210s) preview: activate the capability in feature management
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Allow Over Receipts of Products](../videos/8C9JmtHdExM.md) — possibly related: both name Page 30 "Item Card"
+- [Define Item Attributes for Item Variants](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) — possibly related: both name Page 30 "Item Card"
+- [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610.md) — possibly related: both name Page 5703 "Location Card"
+- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 30 "Item Card"
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 30 "Item Card"
+- [How to Set Up Locations in Business Central (2025)](../videos/X3xygXmgRqU.md) — possibly related: both name Page 5703 "Location Card"
+- [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3.md) — possibly related: both name Page 5703 "Location Card"
+- [New Application Ideas of Dynamics 365 Business Central (2025 MAY)](../posts/gerardorenteria-blog/11203.md) — possibly related: both name Page 30 "Item Card"
+- [What's New in Manufacturing: Costing (2025 release wave 1)](../videos/DHODFt_jVO4.md) — possibly related: both name Page 5510 "Production Journal"
+- [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../videos/UKVp28M5TtU.md) — possibly related: both name Page 30 "Item Card"
 
 Presenters (as heard): Unknown Presenter.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:22.706Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -143,10 +143,15 @@ For payroll, the Payroll Data Definitions page describes the extension, and the 
 - [How to Create Recurring Orders [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-recurring-orders): Learn how to create recurring orders by using the options available on the Create Recurring Orders page.
 - [How to import payroll transactions [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payroll-transactions): Learn how to import payroll transactions into a general journal in Business Central using the Norwegian payroll solution, Huldt & Lillevik Lønn - Visma.
 - [How to Set Up Document Printing](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-document-printing): Learn how to print sales reports with giro specifications using various paper types and trays.
+  - In the observatory: [Page 64 "Printer Selections"](../../../../../objects/page/64.md)
 - [How to set up KID numbers on sales documents](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents): Learn how to set up KID (Kunde ID), a customer identification number used as a payment reference to ensure accurate payment posting by vendors.
+  - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md)
 - [How to Set Up Recurring Groups](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-groups): Learn how to use the Recurring Group Code field on the Blanket Sales Order page to define date formulas for creating sales orders based on date intervals.
+  - In the observatory: [Page 507 "Blanket Sales Order"](../../../../../objects/page/507.md)
 - [How to Set Up Recurring Orders](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-orders): Learn how to set up recurring orders by adding a recurring group to a blanket sales order.
+  - In the observatory: [Page 9303 "Blanket Sales Orders"](../../../../../objects/page/9303.md)
 - [Payroll Data Definitions [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-payroll-data-definitions-no): Learn how the Payroll Data Definitions extension simplifies data exchange with payroll service providers in Norway.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md)
 - [Recurring orders](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/recurring-orders): Create blanket order templates with recurring orders to create sales orders at defined date intervals.
 
 ## Business Central pages and reports

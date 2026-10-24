@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:09.155Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -719,29 +719,45 @@ The Sales section describes the day-to-day sales workflow. You register customer
 ## More Learn pages
 
 - [Calculate order promising dates](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-calculate-order-promising-dates): The order promising function is a tool for calculating the earliest possible date that an item is available for shipment or delivery.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../objects/page/461.md), [Page 5703 "Location Card"](../../../objects/page/5703.md), [Page 99000958 "Order Promising Setup"](../../../objects/page/99000958.md), [Page 99000959 "Order Promising Lines"](../../../objects/page/99000959.md)
 - [Correct or cancel a posted sales invoice](https://learn.microsoft.com/dynamics365/business-central/sales-how-correct-cancel-sales-invoice): This article describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo.
+  - In the observatory: [Page 132 "Posted Sales Invoice"](../../../objects/page/132.md), [Page 143 "Posted Sales Invoices"](../../../objects/page/143.md)
 - [Create a customer sales order and sell products](https://learn.microsoft.com/dynamics365/business-central/sales-how-sell-products): Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.
 - [Delivery date calculation for sales](https://learn.microsoft.com/dynamics365/business-central/sales-date-calculation-for-sales): The application automatically calculates the date on which you must order an item to have it in inventory on a certain date and available for picking.
 - [Enter external document numbers](https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers): Enter external document numbers for customers and vendors in sales and purchase orders, invoices, and credit memos. Use these numbers to easily find posted sales and purchase lines.
 - [How to combine shipments on a single invoice](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-combine-shipments-on-a-single-invoice): Use the Combine Shipments feature to invoice multiple posted shipments for the same customer and currency on a single sales or service invoice.
 - [How to Create special orders](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-special-orders): Learn how to create a special order for a specific catalog item to be shipped to a specific customer.
+  - In the observatory: [Page 42 "Sales Order"](../../../objects/page/42.md)
 - [Invoice sales](https://learn.microsoft.com/dynamics365/business-central/sales-how-invoice-sales): Learn how to create a sales invoice or sales order to record a sale to a customer.
+  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../objects/page/143.md)
 - [Make drop shipments](https://learn.microsoft.com/dynamics365/business-central/sales-how-drop-shipment): Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
+  - In the observatory: [Page 42 "Sales Order"](../../../objects/page/42.md), [Page 45 "Sales List"](../../../objects/page/45.md), [Page 5522 "Order Planning"](../../../objects/page/5522.md)
 - [Make sales quotes](https://learn.microsoft.com/dynamics365/business-central/sales-how-make-offers): Read about how to create a sales offer to a customer or prospect to sell products.
 - [Merge duplicate customer or vendor records](https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records): Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.
+  - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 702 "Merge Duplicate"](../../../objects/page/702.md), [Page 704 "Merge Duplicate Conflicts"](../../../objects/page/704.md)
 - [Overview of tasks to manage sales](https://learn.microsoft.com/dynamics365/business-central/sales-manage-sales): Read all about how to use Business Central's services to manage your customers' sales activities with sales invoices, orders, quotes, and more.
 - [Posting sales documents](https://learn.microsoft.com/dynamics365/business-central/ui-post-sales): Learn about the different posting functions to post sales documents, and how you can update posted documents.
+  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../objects/page/143.md), [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 38 "Item Ledger Entries"](../../../objects/page/38.md), [Page 6660 "Posted Return Receipt"](../../../objects/page/6660.md), [Page 6662 "Posted Return Receipts"](../../../objects/page/6662.md), [Table 110 "Sales Shipment Header"](../../../objects/table/110.md)
 - [Print inventory picking list from sales order](https://learn.microsoft.com/dynamics365/business-central/sales-how-print-picking-list): You can print an inventory picking list directly from a sales order, sales, invoice, and other outbound sales documents.
+  - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md)
 - [Process partial shipments](https://learn.microsoft.com/dynamics365/business-central/sales-how-send-partial-shipments): Sales orders' shipments can be processed in Business Central with partial shipments using the Shipping Advice and Qty. to Ship fields.
+  - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md)
 - [Process sales return orders](https://learn.microsoft.com/dynamics365/business-central/sales-how-process-sales-returns-orders): Describes how to create a sales return order to process a return, cancellation, or reimbursement for items or services you have been received payment for.
+  - In the observatory: [Page 5850 "Posted Sales Document Lines"](../../../objects/page/5850.md)
 - [Process sales returns or cancellations](https://learn.microsoft.com/dynamics365/business-central/sales-how-process-sales-returns-cancellations): Describes how to create a sales credit memo to process a return, cancellation, or reimbursement for items or services you received payment for.
+  - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 232 "Apply Customer Entries"](../../../objects/page/232.md), [Page 459 "Sales & Receivables Setup"](../../../objects/page/459.md)
 - [Register new customers by creating a Customer Card](https://learn.microsoft.com/dynamics365/business-central/sales-how-register-new-customers): Describes how to create a customer card to register information about each new customer or client you sell to.
+  - In the observatory: [Page 300 "Ship-to Address"](../../../objects/page/300.md)
 - [Save Business Contacts to Microsoft Outlook](https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook): Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.
 - [Set up and invoicing sales prepayments](https://learn.microsoft.com/dynamics365/business-central/walkthrough-setting-up-and-invoicing-sales-prepayments): Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing.
 - [Standard recurring sales lines](https://learn.microsoft.com/dynamics365/business-central/sales-how-work-standard-lines): Set up frequently used sales lines to insert them on sales documents and quickly fill the lines with standard information.
+  - In the observatory: [Page 36954 "Customers"](../../../objects/page/36954.md)
 - [Track packages](https://learn.microsoft.com/dynamics365/business-central/sales-how-track-packages): Use the shipping agents tracking service on the Internet to track parcels and follow the progress of a delivery.
+  - In the observatory: [Page 130 "Posted Sales Shipment"](../../../objects/page/130.md), [Page 132 "Posted Sales Invoice"](../../../objects/page/132.md), [Page 134 "Posted Sales Credit Memo"](../../../objects/page/134.md), [Page 6660 "Posted Return Receipt"](../../../objects/page/6660.md)
 - [Walkthrough conducting a sales campaign](https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign): This walkthrough gives a detailed overview of all the tasks involved in conducting a sales campaign in Business Central.
+  - In the observatory: [Page 5075 "Interaction Templates"](../../../objects/page/5075.md), [Page 5139 "Logged Segments"](../../../objects/page/5139.md), [Page 5142 "Save Segment Criteria"](../../../objects/page/5142.md), [Page 5155 "Segment Interaction Languages"](../../../objects/page/5155.md)
 - [Work with blanket sales orders or purchase orders](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-blanket-sales-orders): Use blanket orders when a customer agrees to buy large quantities that you deliver in small shipments over a period of time.
+  - In the observatory: [Page 516 "Sales Lines"](../../../objects/page/516.md)
 - [Work with recurring revenue](https://learn.microsoft.com/dynamics365/business-central/finance-recurring-invoicing): Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue.
 
 ## Videos, posts and code changes

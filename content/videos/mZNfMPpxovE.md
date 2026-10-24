@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:03:13.733Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -87,6 +87,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/gerardorenteria-blog/12961
+      title: 🕐 Remember When Lists Could Sort By Any Key? 🔄
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: video/KmuTVkodRXM
+      title: All new goodies about AL Namespace in BC 2025 wave 2
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257
+      title: Analysis Mode killed half the Excel exports on your client's shared drive
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: video/H7R_m8Ue38g
+      title: "Business Central v29: System Audit Fields Now Available in Analysis Mode"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/thedynamicsexplorer-com/8821
+      title: Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: post/thedynamicsexplorer-com/36822
+      title: Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/thedynamicsexplorer-com/36744
+      title: "Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: video/6zj34hjbpGU
+      title: How Business Central Integrates with Microsoft Excel (2025)
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: video/B8PLDeZ73Y4
+      title: Snapshot Debugging vs AL Profiler in Business Central — When to Use Each
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/aardvarklabs-blog/2523
+      title: Step-by-Step Guide to Page Customizations for Business Central in AL
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
 video_id: mZNfMPpxovE
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -262,3 +313,18 @@ Not found in BC28-30: page "GP Company Migration Configuration page", page "Clou
 - [2:16](https://www.youtube.com/watch?v=mZNfMPpxovE&t=136s) "this information comes from the GP 20,000 and 30,000 tables so that is the detailed tables in GP for both your open and history"
 - [2:36](https://www.youtube.com/watch?v=mZNfMPpxovE&t=156s) "like any list page in business Central you can export this information out to excel you can also filter on it and search for"
 - [2:56](https://www.youtube.com/watch?v=mZNfMPpxovE&t=176s) "if the transaction came from a subledger you can drill back on that journal entry number to see that subledger transactions"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [🕐 Remember When Lists Could Sort By Any Key? 🔄](../posts/gerardorenteria-blog/12961.md) — possibly related: both name Page 22 "Customer List"
+- [All new goodies about AL Namespace in BC 2025 wave 2](../videos/KmuTVkodRXM.md) — possibly related: both name Page 22 "Customer List"
+- [Analysis Mode killed half the Excel exports on your client's shared drive](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Business Central v29: System Audit Fields Now Available in Analysis Mode](../videos/H7R_m8Ue38g.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../posts/thedynamicsexplorer-com/8821.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central](../posts/thedynamicsexplorer-com/36744.md) — possibly related: both name Page 22 "Customer List"
+- [How Business Central Integrates with Microsoft Excel (2025)](../videos/6zj34hjbpGU.md) — possibly related: both name Page 22 "Customer List"
+- [Snapshot Debugging vs AL Profiler in Business Central — When to Use Each](../videos/B8PLDeZ73Y4.md) — possibly related: both name Page 22 "Customer List"
+- [Step-by-Step Guide to Page Customizations for Business Central in AL](../posts/aardvarklabs-blog/2523.md) — possibly related: both name Page 22 "Customer List"

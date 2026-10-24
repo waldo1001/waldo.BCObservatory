@@ -1,0 +1,48 @@
+{
+  "item_id": "blog/thinkaboutit-be/7266",
+  "page_id": "post/thinkaboutit-be/7266",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "However since our environment was upgraded to version 27, for some of these reports we not get this error",
+      "objects": [
+        {
+          "type": "report",
+          "name": "1304 Sales Quote"
+        },
+        {
+          "type": "report",
+          "name": "1306 Sales Invoice"
+        },
+        {
+          "type": "report",
+          "name": "1307 Sales Credit Memo"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Also notice that this property can not be set in a Report Extension object",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Report Extension"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004451,
+    "posts_in_call": 4
+  }
+}

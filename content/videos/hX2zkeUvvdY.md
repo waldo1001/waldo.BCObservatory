@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:58:01.371Z"
   flags: []
 generated:
-  at: "2026-10-07T22:58:01.433Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -123,6 +123,15 @@ chapters:
     title: Social Analysis and ESG Reporting
   - t: 350
     title: Future Plans and Expansion
+cautions:
+  - kind: preview-disclaimer
+    quote: sustainability app is coming with 26.1
+    t: 17
+    versions:
+      - "26"
+  - kind: preview-disclaimer
+    quote: we are planning to expand this uh this report in the future
+    t: 350
 features:
   - name: Realized Emissions vs Target Report
     status: unclear

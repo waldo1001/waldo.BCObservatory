@@ -77,8 +77,19 @@
   },
   "join": {
     "major": "30",
-    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
     "objects": [
+      {
+        "path": "src/Apps/GB/IdealPostcodes/app/src/IPCAddressCache.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/9405",
+        "type": "codeunit",
+        "id": 9405,
+        "name": "IPC Address Cache",
+        "app": "IdealPostcodes",
+        "cc": "gb",
+        "page": "codeunit/9405-gb"
+      },
       {
         "path": "src/Apps/GB/IdealPostcodes/app/src/IPCManagement.Codeunit.al",
         "status": "modified",
@@ -102,13 +113,7 @@
         "page": "codeunit/9403-gb"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/GB/IdealPostcodes/app/src/IPCAddressCache.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "platform"

@@ -8,7 +8,7 @@
     "The runtime version is set in app.json (for example \"runtime\": \"18.0\"); an extension can be published to servers with an equal or later runtime version.",
     "Resources are packaged with resourceFolders and publicResourceFolders in app.json (runtime version 18.0); public resources can be read by other extensions.",
     "Resource limits are 16 MB per file, 128 MB per folder and 256 files.",
-    "Extensions can ship permission sets, web services, table data and custom report layouts, imported on installation with NavApp.LoadPackageData.",
+    "Extensions can ship exported permission sets, web services, table data and custom report layouts to be imported during installation; the page also covers the NavApp.LoadPackageData procedure.",
     "Library apps hold shared code for multiple Marketplace apps and are installed automatically as dependencies.",
     "The library app FAQ covers version control, library app validation and technical validation."
   ],
@@ -20,5 +20,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.011711
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:56:19.921Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point on extension data says everything is 'imported on installation with NavApp.LoadPackageData'. The source summaries list import during installation and the NavApp.LoadPackageData procedure separately. They never say that procedure is how every data type gets imported. I reworded the point so it doesn't connect the two that way.",
+      "Minor: the app identity key point says there is guidance on when each setting can change, including scope. The source covers when and how to change app ID, version, name and publisher. Scope appears only as 'scope management'. I left this point as written."
+    ],
+    "input_hash": "1f1337b7147c35e1c454d6ab47186009542abca5da75c5082bf0f7dbe7784d38",
+    "cost_usd": 0.0431232
   }
 }

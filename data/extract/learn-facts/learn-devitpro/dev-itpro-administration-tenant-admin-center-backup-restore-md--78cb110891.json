@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-backup-restore.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore",
+  "title": "Restoring an environment in the admin center",
+  "blob": "06160bc2417e190ddefe70530967f5be50759e17",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "permission",
+      "text": "Delegated administrators and organization administrators with D365 BACKUP/RESTORE permission set assigned in the environment can restore."
+    },
+    {
+      "kind": "limit",
+      "text": "Only paid subscribers can restore environments. Maximum 10 restores per calendar month per environment and restore only to 28 days prior."
+    },
+    {
+      "kind": "limit",
+      "text": "Restored environment must stay within same Azure region and localization as original. Production restores to Production or Sandbox; Sandbox restores only to Sandbox."
+    },
+    {
+      "kind": "fact",
+      "text": "Restoration restores environment to the major/minor version it was on at restore point. Cannot restore to versions in grace or enforced update periods."
+    },
+    {
+      "kind": "limit",
+      "text": "Development extensions from Visual Studio Code are removed during sandbox restoration. Per-tenant extensions depending on them are also unavailable."
+    },
+    {
+      "kind": "fact",
+      "text": "Marketplace and Business Central apps automatically receive latest available hotfixes even if the hotfix post-dates the restore point."
+    },
+    {
+      "kind": "limit",
+      "text": "Microsoft Entra app registrations, status and permissions restore to their restore-point state. Previously authorized apps are not restored."
+    },
+    {
+      "kind": "limit",
+      "text": "Update window and Application Insights connection string from source environment at restore start time are retained on target, not restored to historical values."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00945,
+      "pages_in_call": 6
+    }
+  ]
+}

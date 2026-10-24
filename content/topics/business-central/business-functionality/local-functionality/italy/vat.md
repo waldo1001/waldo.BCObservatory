@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:30.197Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -160,13 +160,20 @@ This section covers the Italian localization of VAT. A general page on Italian V
 ## Learn pages
 
 - [Create Electronic VAT Transactions Report [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-electronic-vat-transactions-reports): Create a report of VAT-inclusive transactions exceeding the current threshold by the specified date.
+  - In the observatory: [Page 740 "VAT Report"](../../../../../objects/page/740.md)
 - [How to correct VAT transactions reports [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-correct-vat-transactions-reports): Learn how to correct and resubmit electronic VAT transaction reports in Business Central for Italy.
 - [How to export VAT transactions reports [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-export-vat-transactions-reports): Learn how to release, export, and submit VAT Transactions reports to the authorities.
+  - In the observatory: [Page 743 "VAT Report Setup"](../../../../../objects/page/743.md)
 - [How to Submit VAT Statements [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-submit-vat-statements): Learn how to review, print, submit VAT statements, and settle and post VAT transactions in the Italian version of Business Central.
+  - In the observatory: [Page 317 "VAT Statement"](../../../../../objects/page/317.md), [Report 20 "Calc. and Post VAT Settlement"](../../../../../objects/report/20.md)
 - [Italian VAT](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-vat): In the Italian version, companies can deduct VAT on goods or services purchased if they're used to generate business income.
+  - In the observatory: [Page 740 "VAT Report"](../../../../../objects/page/740.md)
 - [Prepare for VAT transactions reports [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports): Learn how to prepare and submit periodic VAT Transactions reports to the Italian tax authorities, including setup steps and required information.
+  - In the observatory: [Page 36954 "Customers"](../../../../../objects/page/36954.md), [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
 - [Print and reprint G-L books VAT registers [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers): Submit two fiscal reports—the G/L Book - Print report and the VAT Register - Print report—that list all posted ledger entries, as required by tax authorities.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Report 12120 "VAT Register - Print (IT)"](../../../../../objects/report/12120-it.md), [Report 12121 "G/L Book - Print (IT)"](../../../../../objects/report/12121-it.md)
 - [Set up and Print Intrastat Reports for Italy](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy): Learn how to set up and print monthly or quarterly Intrastat reports, and submit them to authorities in the Italian version of Business Central.
+  - In the observatory: [Page 4812 "Intrastat Report"](../../../../../objects/page/4812.md)
 
 ## Business Central pages and reports
 

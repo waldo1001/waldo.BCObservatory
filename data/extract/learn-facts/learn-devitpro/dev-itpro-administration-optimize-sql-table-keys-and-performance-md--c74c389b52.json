@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/optimize-sql-table-keys-and-performance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-table-keys-and-performance",
+  "title": "Table Keys and Performance",
+  "blob": "4d9c996d096b568d08ee25b0c57affc81c5bf536",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Time to complete loop through record subset depends on subset size; inefficient retrieval causes performance degradation."
+    },
+    {
+      "kind": "fact",
+      "text": "Define keys supporting code execution; specify correct keys to retrieve subset efficiently on SQL Server."
+    },
+    {
+      "kind": "fact",
+      "text": "SQL Server chooses index based on statistical distribution of column values and calculation of retrieval cost across different indexes."
+    },
+    {
+      "kind": "fact",
+      "text": "Column selectivity determines SQL Server index choice; low selectivity columns have few unique values, high selectivity have many."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

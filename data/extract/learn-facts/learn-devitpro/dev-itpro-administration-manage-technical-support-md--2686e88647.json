@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/manage-technical-support.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/manage-technical-support",
+  "title": "Managing technical support",
+  "blob": "561fb5e1ed295f8f3a0b0ccb38b019b26bd50c50",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Internal administrator can find technical information in Help and Support page"
+    },
+    {
+      "kind": "fact",
+      "text": "Delegated administrator needs Admin agent or Helpdesk agent setup with delegation privileges"
+    },
+    {
+      "kind": "permission",
+      "text": "Delegated admin must have delegation privileges in Partner Center and customer's Business Central"
+    },
+    {
+      "kind": "fact",
+      "text": "Internal admin cannot contact Microsoft directly, must contact partner for escalation"
+    },
+    {
+      "kind": "fact",
+      "text": "Help and Support page shows support contact details if partner provided them"
+    },
+    {
+      "kind": "fact",
+      "text": "Last known error accessible via Help and Support for application errors, not platform errors"
+    },
+    {
+      "kind": "fact",
+      "text": "Delegated admin must remove support contact details, notification recipients, and Application Insights key when ending customer relationship"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007985,
+      "pages_in_call": 7
+    }
+  ]
+}

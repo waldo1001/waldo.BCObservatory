@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-center-api_ telemetry.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_ telemetry",
+  "title": "Business Central Admin Center API",
+  "blob": "0767a5ee7fb15071ff6bed477c8c398ee2895902",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Business Central Admin Center API telemetry endpoint returns AL events and errors for troubleshooting tenant environments."
+    },
+    {
+      "kind": "fact",
+      "text": "GET telemetry endpoint requires start and end datetime parameters to return manageable data sets."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry response includes query columns with name, ordinal index, dataType, and expectations flags."
+    },
+    {
+      "kind": "limit",
+      "text": "Query parameters require valid applicationFamily and environmentName; invalid log category returns invalidInput error."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00836,
+      "pages_in_call": 6
+    }
+  ]
+}

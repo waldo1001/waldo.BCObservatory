@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:08:21.271Z"
   flags: []
 generated:
-  at: "2026-10-07T23:08:21.318Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -141,6 +141,10 @@ chapters:
     title: Technical implementation and event subscriptions
   - t: 792
     title: Best practices and recommendations for onboarding
+cautions:
+  - kind: preview-disclaimer
+    quote: So, we also added new things in this release. So, if I start now, and this is actually is a report that I'm starting.
+    t: 475
 features:
   - name: Customer questionnaire on website
     status: unclear

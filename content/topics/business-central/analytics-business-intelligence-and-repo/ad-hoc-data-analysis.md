@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:53.461Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -197,6 +197,7 @@ Start with the overview page, then read the page on sorting, searching and filte
 - [Analyzing report data with Excel and XML](https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel): Learn how to use Excel and XML to analyze a report dataset.
 - [Save and personalize List Views](https://learn.microsoft.com/dynamics365/business-central/ui-views): Learn how to create your own views for filtered lists and how to save, rename, and manage those views.
 - [Sort, search, and filter data in lists, reports, or XMLports](https://learn.microsoft.com/dynamics365/business-central/ui-enter-criteria-filters): Learn to work efficiently in lists by searching across your data, sorting columns, and refining results using filter symbols and keyboard shortcuts.
+  - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md)
 - [Viewing and editing in Excel from Business Central](https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel): Learn how to open pages in Microsoft Excel from Business Central for better data analysis.
 
 ## Videos and posts

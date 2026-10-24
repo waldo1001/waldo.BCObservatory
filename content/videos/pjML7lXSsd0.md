@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:48:09.176Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -162,6 +162,27 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/Fz8NLByllRc
+      title: "Expense Agent: Mileage Allowances (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 6996 "Expense Agent Setup"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent
+      title: How the Expense Agent Processes Emails
+      label: possibly related
+      why: names Page 6996 "Expense Agent Setup"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage
+      title: Set Up Per Diem and Mileage Allowances
+      label: possibly related
+      why: names Page 6996 "Expense Agent Setup"
+      by: code
+    - to: video/GwrMf1umTFg
+      title: "What's new in Expense Agent: Project Handling (2026 release wave 2)"
+      label: possibly related
+      why: both name Page 6996 "Expense Agent Setup"
+      by: code
 video_id: pjML7lXSsd0
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -198,6 +219,13 @@ chapters:
     title: Expense reports, reimbursement logic, rule violations, and workflow comparison
   - t: 1953
     title: Related sessions and resources
+cautions:
+  - kind: preview-disclaimer
+    quote: agent is not enabled in all regions currently
+    t: 70
+  - kind: preview-disclaimer
+    quote: credit card provider connection is not in public preview but will be available
+    t: 221
 features:
   - name: Expense agent with AI-driven categorization
     status: unclear
@@ -543,5 +571,14 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [3:41](https://www.youtube.com/watch?v=pjML7lXSsd0&t=221s) not-in-this-release: credit card provider connection is not in public preview but will be available
 - [21:18](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1278s) other: expenses are not possible to be used if you are using Business Central outside of agent
 - [21:32](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1292s) other: you need to have team member license to open it
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Expense Agent: Mileage Allowances (2026 release wave 1)](../videos/Fz8NLByllRc.md) — possibly related: both name Page 6996 "Expense Agent Setup"
+- [How the Expense Agent Processes Emails](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent) — possibly related: names Page 6996 "Expense Agent Setup"
+- [Set Up Per Diem and Mileage Allowances](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage) — possibly related: names Page 6996 "Expense Agent Setup"
+- [What's new in Expense Agent: Project Handling (2026 release wave 2)](../videos/GwrMf1umTFg.md) — possibly related: both name Page 6996 "Expense Agent Setup"
 
 Presenters (as heard): Isaac Sattelmeier.

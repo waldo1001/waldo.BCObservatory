@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-nav.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-nav",
+  "title": "Migrate Dynamics NAV to Business Central online",
+  "blob": "1d504bc44da560ef908596e1138ddd3059224f5f",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "First upgrade from Dynamics NAV to Business Central version 14 on-premises."
+    },
+    {
+      "kind": "limit",
+      "text": "Data from tables with code customizations cannot be carried forward unless converted to AL extensions."
+    },
+    {
+      "kind": "fact",
+      "text": "Full migration path requires converting C/AL customizations to AL extensions and upgrading to latest version."
+    },
+    {
+      "kind": "fact",
+      "text": "Reimplementation path migrates only essential business data without extension conversion beyond version 14."
+    },
+    {
+      "kind": "fact",
+      "text": "Business Central online tenant and appropriate licenses required before beginning migration."
+    },
+    {
+      "kind": "step",
+      "text": "Phase 1: Assess current state, plan scope, validate prerequisites, clean data."
+    },
+    {
+      "kind": "step",
+      "text": "Phase 2: Upgrade Dynamics NAV to supported Business Central on-premises version."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005651,
+      "pages_in_call": 10
+    }
+  ]
+}

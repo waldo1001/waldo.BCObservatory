@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/olofsimren-com/3630",
+  "page_id": "post/olofsimren-com/3630",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "It does sometimes suggest one set of parameters and provides a reasoning/explanation that also includes other values",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "if you have thousands of items, it will take a while",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006456,
+    "posts_in_call": 4
+  }
+}

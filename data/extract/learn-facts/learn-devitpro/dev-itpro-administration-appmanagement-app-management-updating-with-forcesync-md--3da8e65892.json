@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/appmanagement/app-management-updating-with-forcesync.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appmanagement/app-management-updating-with-forcesync",
+  "title": "Updating an App Version by Using ForceSync",
+  "blob": "81b2793d051f05d6ea0fd0ef2791163146d413be",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "ForceSync is available for side-by-side upgrades through Microsoft Lifecycle Services."
+    },
+    {
+      "kind": "fact",
+      "text": "ForceSync applies breaking changes forcefully to the database schema, typically deleting data in objects with new schema."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Test the ForceSync upgrade on both on-premises and online sandbox environments before production use."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Export a BACPAC of the production environment from the Business Central admin center before upgrading with ForceSync."
+    },
+    {
+      "kind": "step",
+      "text": "Upload a new app version using the App Management API."
+    },
+    {
+      "kind": "step",
+      "text": "Create a new deployment in Microsoft Lifecycle Services to use the new app version."
+    },
+    {
+      "kind": "step",
+      "text": "Issue a PATCH request using Windows PowerShell to set the syncMode property to ForceSync on the app version."
+    },
+    {
+      "kind": "step",
+      "text": "Upgrade the environment in LCS from the old version to the new version to apply ForceSync."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006691,
+      "pages_in_call": 2
+    }
+  ]
+}

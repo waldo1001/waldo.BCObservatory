@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:01:58.052Z"
   flags: []
 generated:
-  at: "2026-10-07T23:01:58.090Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -112,6 +112,12 @@ chapters:
     title: Collectible Errors and Error Collection Pattern
   - t: 333
     title: REST Client Exception Enum and Try-Catch Pattern
+cautions:
+  - kind: preview-disclaimer
+    quote: will be released with version 26 of business Central
+    t: 6
+    versions:
+      - "26"
 features:
   - name: Cookie Support in REST Client
     status: announced

@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/demiliani-com/13563",
+  "page_id": "post/demiliani-com/13563",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "The AGENT – ADMIN permission set is not enough to view Copilot credits usage (remember this!).",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Copilot credits consumed by Business Central environments that don't have AI billing setup will be reported against the Power Platform default environment.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003656,
+    "posts_in_call": 4
+  }
+}

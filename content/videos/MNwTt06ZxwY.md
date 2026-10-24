@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:44.510Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -86,6 +86,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/bertverbeek-nl/1272
+      title: Agents in Business Central – part 5 – Creating agent from code
+      label: possibly related
+      why: both name Codeunit 4321 "Agent"
+      by: code
+    - to: video/Vq9Nk6_uxmQ
+      title: "Business Central Under the Hood episode 14: Building Agents in Business Central"
+      label: possibly related
+      why: both name Page 4316 "Agent List"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-configuration
+      title: Configure agents programmatically (preview)
+      label: possibly related
+      why: names Codeunit 4321 "Agent"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-convert-agent
+      title: Convert an agent to AL code (preview)
+      label: possibly related
+      why: names Codeunit 4321 "Agent"
+      by: code
+    - to: post/demiliani-com/13814
+      title: "Dynamics 365 Business Central: new model choice in Agent definition."
+      label: possibly related
+      why: both name Codeunit 4321 "Agent"
+      by: code
+    - to: post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165
+      title: "Weekly Review: Business Central AL Development – May 31–June 6, 2026"
+      label: possibly related
+      why: both name Codeunit 4321 "Agent"
+      by: code
 video_id: MNwTt06ZxwY
 channel: yt-mibuso
 source_name: mibuso.com / BC TechDays
@@ -127,6 +158,16 @@ chapters:
     title: Evolving agents for production complexity and user intervention
   - t: 1614
     title: AI evaluation tools, testing, and quality tracking
+cautions:
+  - kind: preview-disclaimer
+    quote: I expect that when we validate more and more models, we will increase the availability here
+    t: 382
+  - kind: preview-disclaimer
+    quote: This is a feature that's coming up. Actually, Quintin here worked on it, and he's a he's ready to release ...
+    t: 1430
+  - kind: preview-disclaimer
+    quote: this is available in sandbox only since this is a testing tool, but you'd be running this before going to production
+    t: 1673
 features:
   - name: Agent creation and configuration
     status: unclear
@@ -489,5 +530,16 @@ Not found in BC28-30: enum "agent metadata provider", interface "factory", inter
 - [6:22](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=382s) subject-to-change: I expect that when we validate more and more models, we will increase the availability here
 - [23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s) coming-later: This is a feature that's coming up. Actually, Quintin here worked on it, and he's a he's ready to release ...
 - [27:53](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1673s) preview: this is available in sandbox only since this is a testing tool, but you'd be running this before going to production
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Agents in Business Central – part 5 – Creating agent from code](../posts/bertverbeek-nl/1272.md) — possibly related: both name Codeunit 4321 "Agent"
+- [Business Central Under the Hood episode 14: Building Agents in Business Central](../videos/Vq9Nk6_uxmQ.md) — possibly related: both name Page 4316 "Agent List"
+- [Configure agents programmatically (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-configuration) — possibly related: names Codeunit 4321 "Agent"
+- [Convert an agent to AL code (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-convert-agent) — possibly related: names Codeunit 4321 "Agent"
+- [Dynamics 365 Business Central: new model choice in Agent definition.](../posts/demiliani-com/13814.md) — possibly related: both name Codeunit 4321 "Agent"
+- [Weekly Review: Business Central AL Development – May 31–June 6, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165.md) — possibly related: both name Codeunit 4321 "Agent"
 
 Presenters (as heard): Blazhe, Stefan, Quintin.

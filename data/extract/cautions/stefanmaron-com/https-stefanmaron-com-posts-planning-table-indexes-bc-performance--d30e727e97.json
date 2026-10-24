@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/",
+  "page_id": "post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Every index you add slows down writes. Insert, update, delete — all of them have to maintain every index on the table.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Sometimes adding an index makes a query slower. Business Central adds a FAST 50 hint to every query it sends to SQL Server.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006628,
+    "posts_in_call": 4
+  }
+}

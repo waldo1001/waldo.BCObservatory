@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:52:27.281Z"
   flags: []
 generated:
-  at: "2026-10-07T22:52:27.321Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -127,6 +127,16 @@ chapters:
     title: Additional UI improvements
   - t: 269
     title: Conclusion and next steps
+cautions:
+  - kind: preview-disclaimer
+    quote: This feature is in preview. So you need to enable that in feature management.
+    t: 88
+  - kind: preview-disclaimer
+    quote: You will see this feature showing up in different areas of Business Central in the coming uh releases.
+    t: 254
+  - kind: preview-disclaimer
+    quote: This feature is also in preview. So you have to enable that in feature management.
+    t: 269
 features:
   - name: Factbox resize behavior
     status: unclear

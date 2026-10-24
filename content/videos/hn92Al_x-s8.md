@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:04:22.913Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:22.954Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -107,6 +107,10 @@ chapters:
     title: Lifecycle Telemetry for Report Layouts
   - t: 513
     title: Additional Reporting Improvements
+cautions:
+  - kind: preview-disclaimer
+    quote: we're going to deprecate report. word layout rdlc layout and Excel layout
+    t: 578
 features:
   - name: Export Report Schema for Word
     status: unclear

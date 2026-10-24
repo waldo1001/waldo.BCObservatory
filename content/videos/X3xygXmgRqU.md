@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:56:28.112Z"
   flags: []
 generated:
-  at: "2026-10-07T22:56:28.154Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -90,6 +90,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/gerardorenteria-blog/11565
+      title: AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/8C9JmtHdExM
+      title: Allow Over Receipts of Products
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/aardvarklabs-blog/2565
+      title: "Business Central 2027 release wave 1: Preparing for OData Endpoint Removal"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/sIWz2yPqLpo
+      title: "Business Central BC29: Control Global Symbol Versions"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/_JkZCp64jNw
+      title: Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
+      title: Define Item Attributes for Item Variants
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610
+      title: Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2
+      label: possibly related
+      why: both name Page 5703 "Location Card"
+      by: code
+    - to: video/tpAh4q3h8T8
+      title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/thedynamicsexplorer-com/37371
+      title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/demiliani-com/12439
+      title: "Dynamics 365 Business Central: controlling the Summary system part."
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
 video_id: X3xygXmgRqU
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -270,3 +321,18 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:38](https://www.youtube.com/watch?v=X3xygXmgRqU&t=98s) "If we move the items all at once, we can just choose the direct transfer check box on the transfer order."
 - [1:50](https://www.youtube.com/watch?v=X3xygXmgRqU&t=110s) "To avoid selecting the intransit code every time, we can set up transfer routes where the location is already chosen."
 - [2:02](https://www.youtube.com/watch?v=X3xygXmgRqU&t=122s) "Business Central can let us know when we're selling an item that is out of stock at a specific location."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../posts/gerardorenteria-blog/11565.md) — possibly related: both name Page 21 "Customer Card"
+- [Allow Over Receipts of Products](../videos/8C9JmtHdExM.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../posts/aardvarklabs-blog/2565.md) — possibly related: both name Page 21 "Customer Card"
+- [Business Central BC29: Control Global Symbol Versions](../videos/sIWz2yPqLpo.md) — possibly related: both name Page 21 "Customer Card"
+- [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../videos/_JkZCp64jNw.md) — possibly related: both name Page 21 "Customer Card"
+- [Define Item Attributes for Item Variants](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) — possibly related: both name Page 30 "Item Card"
+- [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610.md) — possibly related: both name Page 5703 "Location Card"
+- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 30 "Item Card"
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 30 "Item Card"
+- [Dynamics 365 Business Central: controlling the Summary system part.](../posts/demiliani-com/12439.md) — possibly related: both name Page 21 "Customer Card"

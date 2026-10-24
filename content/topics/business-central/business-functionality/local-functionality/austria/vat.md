@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:45.774Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,7 +70,7 @@ narrative: generated
 
 > Austrian VAT functionality in Business Central: how to create a VAT statement (XML and FDF files for the tax authority, including the reduced 4.9% rate) and which Austrian VAT reports exist, including VAT-VIES Declaration XML. Answers questions on Austrian VAT reporting formats and submission.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > VAT · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -92,7 +92,9 @@ Start with the reporting overview to see which report and format you need, then 
 ## Learn pages
 
 - [How to Create a VAT Statement](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-create-a-vat-statement): You can submit a periodic report of VAT transactions. The VAT statement is submitted as an FDF file that corresponds with an editable PDF file from the tax authorities.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md)
 - [VAT reporting in the Austrian version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/vat-reporting): You can report VAT electronically to the tax authorities in the Austrian version.
+  - In the observatory: [Table 254 "VAT Entry"](../../../../../objects/table/254.md), [Table 256 "VAT Statement Line"](../../../../../objects/table/256.md)
 
 ## Videos, posts and code changes
 

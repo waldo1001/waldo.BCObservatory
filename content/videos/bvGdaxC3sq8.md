@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:13:09.280Z"
   flags: []
 generated:
-  at: "2026-10-07T23:13:09.317Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -132,6 +132,18 @@ chapters:
     title: Future Plans for Contoso Demo Tool
   - t: 697
     title: Open Source and Feedback
+cautions:
+  - kind: preview-disclaimer
+    quote: the new Contoso demo tool will be available from 23.0
+    t: 406
+    versions:
+      - "23"
+  - kind: preview-disclaimer
+    quote: we want to move toward on-demand demo data creation
+    t: 635
+  - kind: preview-disclaimer
+    quote: you can basically when you create a new company, you can choose a set of modules
+    t: 664
 features:
   - name: Contoso Coffee Demo Data
     status: ga

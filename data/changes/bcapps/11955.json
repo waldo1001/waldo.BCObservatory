@@ -207,8 +207,19 @@
   },
   "join": {
     "major": "30",
-    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
     "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpAlternateApproversAPI.Page.al",
+        "status": "added",
+        "key": "page/7147",
+        "type": "page",
+        "id": 7147,
+        "name": "Exp. Alternate Approvers API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7147"
+      },
       {
         "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportsAPI.Page.al",
         "status": "modified",
@@ -241,6 +252,39 @@
         "app": "ExpenseAgent",
         "cc": "w1",
         "page": "codeunit/6901"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Pages/ExpenseAlternateApprovers.Page.al",
+        "status": "added",
+        "key": "page/7140",
+        "type": "page",
+        "id": 7140,
+        "name": "Expense Alternate Approvers",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7140"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Tables/ExpenseAlternateApprover.Table.al",
+        "status": "added",
+        "key": "table/6940",
+        "type": "table",
+        "id": 6940,
+        "name": "Expense Alternate Approver",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6940"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Reports/DelegateExpenseApprovalReq.Report.al",
+        "status": "added",
+        "key": "report/6900",
+        "type": "report",
+        "id": 6900,
+        "name": "Delegate Expense Approval Req",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "report/6900"
       },
       {
         "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
@@ -386,28 +430,7 @@
         "page": "table/6930"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpAlternateApproversAPI.Page.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Pages/ExpenseAlternateApprovers.Page.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Tables/ExpenseAlternateApprover.Table.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Reports/DelegateExpenseApprovalReq.Report.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "copilot"

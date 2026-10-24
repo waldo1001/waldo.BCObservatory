@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:09.741Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -142,10 +142,15 @@ Start with the overview, then do the electronic invoicing setup and the PAC setu
 ## Learn pages
 
 - [Carta de Porte packing slips and transfer orders [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders): Business Central supports CFDI, allowing the printing of packing slips and transfer orders with the necessary digital signature to meet Carta de Porte requirements.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 36957 "Locations"](../../../../../objects/page/36957.md)
 - [Electronic invoicing - Mexico](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-invoicing): Learn how Business Central supports CFDI so that you can export sales and service invoices and credit memos as electronic documents with the required digital signature.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 21 "Customer Card"](../../../../../objects/page/21.md), [Page 5703 "Location Card"](../../../../../objects/page/5703.md)
 - [Generate electronic invoices [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices): After a sales invoice is posted in the Mexican version, an electronic invoice must be generated and sent to the customer.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 209 "Units of Measure"](../../../../../objects/page/209.md)
 - [Set Up Electronic Invoicing [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing): To send electronic documents in Mexico, it's necessary to set up Business Central to include the required identification numbers for CFDI.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 10 "Countries/Regions"](../../../../../objects/page/10.md), [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 209 "Units of Measure"](../../../../../objects/page/209.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 36954 "Customers"](../../../../../objects/page/36954.md)
 - [Set Up PAC Web Services](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services): To send electronic invoices and credit memos in Mexico, you need to specify at least one provider for the required electronic stamp.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md)
 
 ## Videos, posts and code changes
 

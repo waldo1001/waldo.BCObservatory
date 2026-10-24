@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:16:39.395Z"
   flags: []
 generated:
-  at: "2026-10-07T23:16:39.474Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -95,6 +95,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
+      title: BC 29 lets a single index span base table and table extension fields
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/qABlX4AL3GM
+      title: "Business Central 29.0: Major Change to Table Extensions & SQL."
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration
+      title: Custom migration from any SQL source
+      label: possibly related
+      why: names Interface "Custom Migration Provider"
+      by: code
+    - to: video/Fk6kWTe3f2Y
+      title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/thedynamicsexplorer-com/10326
+      title: Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/duiliotacconi-com/1457
+      title: "Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/fy96_jdL1PQ
+      title: "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/Gwgpj1U1wxI
+      title: Introduction to Business Central Cloud Migration (2023)
+      label: possibly related
+      why: both name Page 40063 "Cloud Migration Management"
+      by: code
+    - to: video/1x3QyBX3swg
+      title: "Microsoft presents: Index management"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: video/tzX0qB9tiBs
+      title: "What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
 video_id: f_i4_BRz-oA
 channel: yt-mibuso
 source_name: mibuso.com / BC TechDays
@@ -144,6 +195,22 @@ chapters:
     title: Multi-Company Migration and Permission Sets
   - t: 2748
     title: Field Mapping and Data Transformation
+cautions:
+  - kind: preview-disclaimer
+    quote: all of these parts that I have highlighted in red, they're going to be out of support. So, we will ...
+    t: 131
+  - kind: preview-disclaimer
+    quote: it will be released in preview
+    t: 1269
+  - kind: preview-disclaimer
+    quote: you are always welcome to give us your feedback. It's really important
+    t: 1269
+  - kind: preview-disclaimer
+    quote: the future investments in this area depends on the usage. If we do not get the feedback and the usage, we are not going to be able to do any additional developments
+    t: 2332
+  - kind: preview-disclaimer
+    quote: There are some other things on the backlog. If we do not get the feedback and the usage, we are ...
+    t: 2344
 features:
   - name: BC 14 Re-implementation Tool
     status: preview
@@ -506,5 +573,20 @@ Not found in BC28-30: codeunit "BC 14 Company Upgrade Task", enum "BC 14 Setup M
 - [42:50](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=2570s) other: For this kind of data you're going to face issues because this is a bit extreme - 700 GB in 24 hours.
 - [44:17](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=2657s) other: The migration of companies into a live system is bringing risk. It's still not advised.
 - [44:28](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=2668s) other: We cannot support it to be with high level of safety like 98 99% of the safety out of the box.
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Business Central 29.0: Major Change to Table Extensions & SQL.](../videos/qABlX4AL3GM.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Custom migration from any SQL source](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration) — possibly related: names Interface "Custom Migration Provider"
+- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../videos/fy96_jdL1PQ.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Introduction to Business Central Cloud Migration (2023)](../videos/Gwgpj1U1wxI.md) — possibly related: both name Page 40063 "Cloud Migration Management"
+- [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)](../videos/tzX0qB9tiBs.md) — possibly related: both name Table 32 "Item Ledger Entry"
 
 Presenters (as heard): Nikola, Wenjie, Benji, Venkat, Vinod.

@@ -6,11 +6,11 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Updated G/L Register table permissions to allow modifying entries with register number 0 when updating from the G/L Registers page.",
+  "summary": "Fixes a license permission error on modifying G/L Entry (table 17) that appeared when running Update Registers from the G/L Registers page for old entries whose G/L Register No. is 0. The fix is in table 45 G/L Register in the W1, ES and APAC layers.",
   "key_points": [
-    "Modified table 45 G/L Register in multiple layers (W1, ES, APAC)",
-    "Addresses permission validation issue when updating historical entries",
-    "Fixes error preventing users from modifying G/L Register records with register number 0"
+    "Update Registers on the G/L Registers page no longer fails with a missing Modify permission on G/L Entry",
+    "Affects old G/L entries that have G/L Register No. = 0",
+    "Same small change applied to table 45 G/L Register in the W1, ES and APAC layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

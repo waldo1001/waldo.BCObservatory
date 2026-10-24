@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:29.576Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -85,7 +85,7 @@ narrative: generated
 
 > Auditing for the Danish localization of Business Central covers exporting accounting data for authorities and auditors. It answers questions about Regnskab Basis CSV export, SAF-T export and import, and the Danish standard chart of accounts needed for GL account mapping.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Auditing · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Auditing · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -109,8 +109,10 @@ Start with the standard chart of accounts page to set up the mapping. Then use t
 ## Learn pages
 
 - [Export accounting data to Regnskab Basis in Denmark](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-regnskabbasis-export): This article describes how to upload a comma-separated values (CSV) file that contains accounting data to Regnskab Basis in Denmark.
+  - In the observatory: [Page 13687 "RB Accounting File (DK)"](../../../../../objects/page/13687-dk.md)
 - [Export the SAF-T audit file format in Denmark](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-saft-audit-files-export): This article explains how to export all required data according to the SAF-T format in Denmark.
 - [Standard chart of accounts in Denmark](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa): This article explains how to set up a standard chart of accounts in Denmark.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md)
 
 ## Business Central pages and reports
 

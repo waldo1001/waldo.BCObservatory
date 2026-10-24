@@ -1,0 +1,38 @@
+{
+  "item_id": "blog/waldo-be/318707",
+  "page_id": "post/waldo-be/318707",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "Coming in public preview in 29.x (Kennie says \"likely 29.1\").",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29.x",
+        "29.1"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "You pick tables and companies, not fields .. everything in the table gets replicated.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Fabric's \"extended\" mirroring capabilities, like Delta Change Data Feed and views, ARE billed.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004197,
+    "posts_in_call": 4
+  }
+}

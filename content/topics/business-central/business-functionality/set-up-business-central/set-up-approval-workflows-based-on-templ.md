@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:42.286Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -156,13 +156,21 @@ Start with "Set up approval workflows" for the overall picture. Then read "How t
 ## Learn pages
 
 - [Create approval workflows to connect tasks](https://learn.microsoft.com/dynamics365/business-central/across-how-to-create-workflows): Learn how to create workflows that connect tasks performed by different people in business processes.
+  - In the observatory: [Page 1501 "Workflow"](../../../../objects/page/1501.md), [Page 1520 "Workflow Events"](../../../../objects/page/1520.md), [Page 1521 "Workflow Responses"](../../../../objects/page/1521.md)
 - [How to create workflows from workflow templates](https://learn.microsoft.com/dynamics365/business-central/across-how-to-create-workflows-from-workflow-templates): Create new approval workflows quickly by using workflow templates as a starting point.
+  - In the observatory: [Page 1500 "Workflows"](../../../../objects/page/1500.md), [Page 1505 "Workflow Templates"](../../../../objects/page/1505.md)
 - [How to export and import approval workflows](https://learn.microsoft.com/dynamics365/business-central/across-how-to-export-and-import-workflows): Export and import workflows to easily transfer them between Business Central databases and streamline the creation of new workflows.
+  - In the observatory: [Page 1501 "Workflow"](../../../../objects/page/1501.md)
 - [How to set up workflow users](https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-workflow-users): Set up users who participate in workflows before creating workflow processes.
+  - In the observatory: [Page 119 "User Setup"](../../../../objects/page/119.md), [Page 663 "Approval User Setup"](../../../../objects/page/663.md)
 - [Set up and use a purchase approval workflow](https://learn.microsoft.com/dynamics365/business-central/walkthrough-setting-up-and-using-a-purchase-approval-workflow): This walkthrough takes you through all the stages involved in setting up and using a purchase approval workflow in Business Central.
+  - In the observatory: [Page 1500 "Workflows"](../../../../objects/page/1500.md), [Page 1501 "Workflow"](../../../../objects/page/1501.md), [Page 1505 "Workflow Templates"](../../../../objects/page/1505.md), [Page 1512 "Notification Setup"](../../../../objects/page/1512.md), [Page 1513 "Notification Schedule"](../../../../objects/page/1513.md), [Page 56 "Purchase Orders"](../../../../objects/page/56.md)
 - [Set up approval users](https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-approval-users): Set up users for approval workflows by assigning approvers, setting amount limits, and defining substitutes.
+  - In the observatory: [Page 1531 "Workflow User Group"](../../../../objects/page/1531.md)
 - [Set up approval workflows](https://learn.microsoft.com/dynamics365/business-central/across-set-up-workflows): Set up workflows, workflow users, and approval users to connect business-process system tasks performed by these different users.
+  - In the observatory: [Page 1501 "Workflow"](../../../../objects/page/1501.md)
 - [Setting up approval workflow notifications](https://learn.microsoft.com/dynamics365/business-central/across-setting-up-workflow-notifications): Learn how to set up workflow notifications to alert a user to an event that they must react to.
+  - In the observatory: [Page 1513 "Notification Schedule"](../../../../objects/page/1513.md), [Page 1521 "Workflow Responses"](../../../../objects/page/1521.md), [Page 663 "Approval User Setup"](../../../../objects/page/663.md), [Report 1320 "Notification Email"](../../../../objects/report/1320.md)
 - [Specify when and how to receive workflow notifications](https://learn.microsoft.com/dynamics365/business-central/across-how-to-specify-when-and-how-to-receive-notifications): Set up how and when approval users receive workflow notifications, including choosing email or note delivery and scheduling frequency.
 
 ## Videos and posts

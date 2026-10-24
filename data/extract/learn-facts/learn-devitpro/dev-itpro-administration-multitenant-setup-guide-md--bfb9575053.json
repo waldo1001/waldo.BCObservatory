@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/multitenant-setup-guide.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/multitenant-setup-guide",
+  "title": "Manage Application and Tenant Databases in a Multitenant Deployment",
+  "blob": "a78dead317cdde7161f5aea48e7defc5a9373204",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Application database stores application and system information required by all tenants in a multitenant deployment."
+    },
+    {
+      "kind": "step",
+      "text": "Create application database using New-NAVApplicationDatabase cmdlet or export application objects from existing database."
+    },
+    {
+      "kind": "step",
+      "text": "Enable Multitenant setting and configure database connection settings on server instance."
+    },
+    {
+      "kind": "step",
+      "text": "Publish system symbols and extensions before mounting tenants."
+    },
+    {
+      "kind": "step",
+      "text": "Create empty database in SQL Server with desired collation."
+    },
+    {
+      "kind": "step",
+      "text": "Mount database as tenant and synchronize with application database."
+    },
+    {
+      "kind": "step",
+      "text": "Synchronize and install extensions for each tenant."
+    },
+    {
+      "kind": "fact",
+      "text": "Tenant database stores customer data accessible from the application."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004442,
+      "pages_in_call": 13
+    }
+  ]
+}

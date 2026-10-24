@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-35-item-journal-posting-and-warehouse-entries/",
+  "page_id": "post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-35-item-journal-posting-and-warehouse-entries--e451824ad4",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Posting with Codeunit 22 doesn't create warehouse entries. It won't even throw an error.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Item Jnl.-Post Line"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Always use Codeunit 23 \"Item Jnl.-Post Batch\" when warehouse entries are involved.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Item Jnl.-Post Line"
+        },
+        {
+          "type": "codeunit",
+          "name": "Item Jnl.-Post Batch"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004294,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/thinkaboutit-be/7284",
+  "page_id": "post/thinkaboutit-be/7284",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "Preview support for MCP agent integration",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27.1"
+      ]
+    },
+    {
+      "kind": "preview-disclaimer",
+      "quote": "Preview of the ForNAV Peppol connector",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27.1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003304,
+    "posts_in_call": 4
+  }
+}

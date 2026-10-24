@@ -7,12 +7,12 @@ tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:27.485Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -218,7 +218,7 @@ narrative: generated
 
 > Integration of Business Central with Microsoft Power Platform: Power Apps, Power Automate, Power BI, Power Pages on virtual tables, and Copilot Studio. It answers questions on connectors, setup, building apps, flows and reports, external access, and connecting agents.
 
-Path: [Integration](../integration.md) > Integrating with Microsoft Power Platform · tier official · system platform · narrative **unreviewed** (model text not yet checked)
+Path: [Integration](../integration.md) > Integrating with Microsoft Power Platform · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -236,7 +236,7 @@ Start with the overview page, then go to the subtopic for the product you need. 
 - Power BI pages cover enabling the integration, building reports, embedding reports in pages, extracting data for ETL and improving dataset load performance.
 - Copilot Studio pages cover configuring the Business Central MCP Server and building agents that connect through the connector or MCP server.
 - Power Pages on virtual tables (preview) lets unlicensed external users reach Business Central online data via Dataverse virtual tables.
-- Power Pages supports anonymous and authenticated access, synthetic relations, lookup columns, basic forms and grid configuration, from 2023 release wave 2 (version 23.1).
+- Power Pages supports anonymous and authenticated access, synthetic relations, lookup columns, basic forms and grid configuration; list and subgrid editing is available from 2023 release wave 2 (version 23.1).
 
 ## Subtopics
 

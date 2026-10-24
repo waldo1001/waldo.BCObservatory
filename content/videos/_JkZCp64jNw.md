@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:57:33.406Z"
   flags: []
 generated:
-  at: "2026-10-07T22:57:33.459Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -252,6 +252,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/gerardorenteria-blog/11565
+      title: AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/aardvarklabs-blog/2565
+      title: "Business Central 2027 release wave 1: Preparing for OData Endpoint Removal"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/sIWz2yPqLpo
+      title: "Business Central BC29: Control Global Symbol Versions"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/demiliani-com/12439
+      title: "Dynamics 365 Business Central: controlling the Summary system part."
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/aardvarklabs-blog/1756
+      title: Effortless Layout Editing in Business Central
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/6zj34hjbpGU
+      title: How Business Central Integrates with Microsoft Excel (2025)
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: video/X3xygXmgRqU
+      title: How to Set Up Locations in Business Central (2025)
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/aardvarklabs-blog/1609
+      title: "Integrating AI in Business Central: A Step-by-Step Guide"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/aardvarklabs-blog/3255
+      title: Navigating Namespace Changes in Business Central 28
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4
+      title: "Record.IsDirty in Business Central 29: a worked example"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
 video_id: _JkZCp64jNw
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -330,6 +381,22 @@ chapters:
     title: AL-Go for GitHub and DevOps Pipeline Enhancements
   - t: 3109
     title: Release Summary and Security Investment
+cautions:
+  - kind: preview-disclaimer
+    quote: available for you to try in the priv in the public preview
+    t: 505
+  - kind: preview-disclaimer
+    quote: agent billing capability while in private preview
+    t: 664
+  - kind: preview-disclaimer
+    quote: coming in business central it's in private preview
+    t: 898
+  - kind: preview-disclaimer
+    quote: Later this year, you're going to see a public preview
+    t: 934
+  - kind: preview-disclaimer
+    quote: soon coming. It's coming in one of the minor releases
+    t: 1565
 features:
   - name: Sales Order Agent
     status: preview
@@ -885,5 +952,20 @@ Not found in BC28-30: page "purchase document draft page", page "analysis views"
 - [15:34](https://www.youtube.com/watch?v=_JkZCp64jNw&t=934s) coming-later: Later this year, you're going to see a public preview
 - [26:05](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1565s) coming-later: soon coming. It's coming in one of the minor releases
 - [47:53](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2873s) other: the team asked me to put all of the asterises around the 324% percentages. it differs from data to data, from database to database
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../posts/gerardorenteria-blog/11565.md) — possibly related: both name Page 21 "Customer Card"
+- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../posts/aardvarklabs-blog/2565.md) — possibly related: both name Page 21 "Customer Card"
+- [Business Central BC29: Control Global Symbol Versions](../videos/sIWz2yPqLpo.md) — possibly related: both name Page 21 "Customer Card"
+- [Dynamics 365 Business Central: controlling the Summary system part.](../posts/demiliani-com/12439.md) — possibly related: both name Page 21 "Customer Card"
+- [Effortless Layout Editing in Business Central](../posts/aardvarklabs-blog/1756.md) — possibly related: both name Page 21 "Customer Card"
+- [How Business Central Integrates with Microsoft Excel (2025)](../videos/6zj34hjbpGU.md) — possibly related: both name Page 21 "Customer Card"
+- [How to Set Up Locations in Business Central (2025)](../videos/X3xygXmgRqU.md) — possibly related: both name Page 21 "Customer Card"
+- [Integrating AI in Business Central: A Step-by-Step Guide](../posts/aardvarklabs-blog/1609.md) — possibly related: both name Page 21 "Customer Card"
+- [Navigating Namespace Changes in Business Central 28](../posts/aardvarklabs-blog/3255.md) — possibly related: both name Page 21 "Customer Card"
+- [Record.IsDirty in Business Central 29: a worked example](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4.md) — possibly related: both name Page 21 "Customer Card"
 
 Presenters (as heard): Maya, Yanik, Yanik Ba, Dmitri Shadv, Christina, Demetri, Stan, Yanni, Dimitri.

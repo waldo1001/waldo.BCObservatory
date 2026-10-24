@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:48:38.678Z"
   flags: []
 generated:
-  at: "2026-10-07T22:48:38.712Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -112,6 +112,16 @@ chapters:
     title: Resources and Related Sessions
   - t: 644
     title: Partner and Customer Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: This only for now works for demo companies. Later, we hope to it make this same setup experience easy in production environments.
+    t: 105
+  - kind: preview-disclaimer
+    quote: is not currently part of it, uh but that is something we are uh that you would have to configure in your workspace.
+    t: 240
+  - kind: preview-disclaimer
+    quote: if you want to have it recurringly scheduled, you will have to do it at least for this release in uh So, for example, I can show it here uh in my workspace.
+    t: 261
 features:
   - name: Five Clicks to Power BI Demo
     status: unclear

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:07.048Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -95,7 +95,7 @@ narrative: generated
 
 > Electronic invoicing for Denmark in Business Central using the OIOUBL format. It answers questions about what OIOUBL is, how to set up the extension, customers and profiles, and how to create and export OIOUBL XML documents for the Danish public sector.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Electronic invoicing · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Electronic invoicing · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -116,10 +116,14 @@ The pages follow the order of the work. Start with the overview and the extensio
 ## Learn pages
 
 - [Create Electronic Documents in an OIOUBL format](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl): When selling goods or services to a customer in the Danish public sector, it's mandatory to submit documents electronically.
+  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../../../objects/page/143.md), [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md)
 - [How to Set Up Customers for OIOUBL \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl): To generate Offentlig Information Online UBL (OIOUBL) documents for public sector customers, it's necessary to include OIOUBL information for the relevant customers.
+  - In the observatory: [Page 36954 "Customers"](../../../../../objects/page/36954.md)
 - [OIOUBL Electronic Invoicing Overview \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview): Learn how Business Central assists you in meeting the requirement to send sales documents electronically to the Danish public sector in the OIOUBL format.
+  - In the observatory: [Page 21 "Customer Card"](../../../../../objects/page/21.md), [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md)
 - [OIOUBL Extension for Electronic Invoicing](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-oioubl): The OIOUBL extension simplifies the process of sending sales documents electronically to customers in the Danish public sector using the OIOUBL format.
 - [Set Up the OIOUBL Extension for Electronic Invoicing \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl): Prepare to submit sales documents in the Offentlig Information Online - Universal Business Language (OIOUBL) format by following the steps outlined in this article.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 1875 "Manual Setup"](../../../../../objects/page/1875.md), [Page 36954 "Customers"](../../../../../objects/page/36954.md), [Page 4 "Payment Terms"](../../../../../objects/page/4.md), [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md), [Page 5800 "Item Charges"](../../../../../objects/page/5800.md)
 
 ## Videos and posts
 

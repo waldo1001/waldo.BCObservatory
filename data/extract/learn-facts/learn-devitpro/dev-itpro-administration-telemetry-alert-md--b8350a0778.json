@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-alert.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert",
+  "title": "Alert on Telemetry",
+  "blob": "cfe58fd1562cfc41d3ef72b595ecf5ad9b2222ee",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Set up alerts on telemetry to notify when significant events occur in your environment."
+    },
+    {
+      "kind": "fact",
+      "text": "Use Power BI Metrics for no-code alerting on telemetry data."
+    },
+    {
+      "kind": "fact",
+      "text": "Use Application Insights, Azure Logic Apps, or Power Automate for advanced alerting."
+    },
+    {
+      "kind": "fact",
+      "text": "KQL queries define alerting conditions; set recurrence to match query lookback period."
+    },
+    {
+      "kind": "step",
+      "text": "In Azure portal, go to Application Insights resource and select Alerts."
+    },
+    {
+      "kind": "step",
+      "text": "Add custom log search condition with KQL query for alerting rule."
+    },
+    {
+      "kind": "fact",
+      "text": "Sample alerting queries are available in Business Central BCTech GitHub repository."
+    },
+    {
+      "kind": "fact",
+      "text": "Logic Apps and Power Automate need API Connection authentication using Application ID and API Key."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005499,
+      "pages_in_call": 11
+    }
+  ]
+}

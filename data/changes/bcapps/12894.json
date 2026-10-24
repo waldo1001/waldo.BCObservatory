@@ -95,7 +95,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
     "objects": [
       {
         "path": "src/Apps/W1/PayablesAgent/app/Integration/PAEvents.Codeunit.al",
@@ -107,6 +107,17 @@
         "app": "PayablesAgent",
         "cc": "w1",
         "page": "codeunit/3316"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Navigation/PAPurchaseCreditMemo.PageCust.al",
+        "status": "added",
+        "key": "pagecustomization/pa purchase credit memo",
+        "type": "pagecustomization",
+        "id": null,
+        "name": "PA Purchase Credit Memo",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "pagecustomization/pa-purchase-credit-memo"
       },
       {
         "path": "src/Apps/W1/PayablesAgent/app/PayablesAgent.Codeunit.al",
@@ -175,13 +186,7 @@
         "page": "codeunit/3307"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/W1/PayablesAgent/app/Navigation/PAPurchaseCreditMemo.PageCust.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "copilot"

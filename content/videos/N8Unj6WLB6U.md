@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:11:01.701Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -108,6 +108,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/service-fulfill-service-contracts
+      title: Overview of tasks to fulfill service contracts
+      label: possibly related
+      why: names Page 6050 "Service Contract"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/service-service-price-management
+      title: Service price management
+      label: possibly related
+      why: names Page 5988 "Service Items"
+      by: code
+    - to: video/pEXl-POet_4
+      title: "What's New: Project and Service Management (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 5964 "Service Quote"
+      by: code
 video_id: N8Unj6WLB6U
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -305,5 +321,13 @@ Not found in BC28-30: page "Service Item".
 - [12:55](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=775s) "you can only delete starting from the end because we already have invoice for this Delta"
 - [13:43](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=823s) "this uh this gives you some capability on to review documents and redo if something needs to be redone that is like one of"
 - [13:43](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=823s) "redo if something needs to be redone that is like one of the most voted product suggestions so we implemented it"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Overview of tasks to fulfill service contracts](https://learn.microsoft.com/dynamics365/business-central/service-fulfill-service-contracts) — possibly related: names Page 6050 "Service Contract"
+- [Service price management](https://learn.microsoft.com/dynamics365/business-central/service-service-price-management) — possibly related: names Page 5988 "Service Items"
+- [What's New: Project and Service Management (2024 release wave 1)](../videos/pEXl-POet_4.md) — possibly related: both name Page 5964 "Service Quote"
 
 Presenters (as heard): Andre PCO.

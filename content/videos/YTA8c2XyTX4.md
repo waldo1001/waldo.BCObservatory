@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:15:23.211Z"
   flags: []
 generated:
-  at: "2026-10-07T23:15:23.256Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -192,6 +192,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d
+      title: "BC Friday Tips #69 Item Blocked Fields"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
+      title: "BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/finance-sales-invoice-specifics
+      title: Deliver sales invoices with French specifics
+      label: possibly related
+      why: names Table 5050 "Contact"
+      by: code
+    - to: post/demiliani-com/11962
+      title: "Dynamics 365 Business Central: compressing API responses at max."
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers
+      title: Enterprise Numbers and Branch Numbers [BE]
+      label: possibly related
+      why: names Table 5050 "Contact"
+      by: code
+    - to: post/aardvarklabs-blog/2866
+      title: Importing XML into Business Central with AL
+      label: possibly related
+      why: both name Table 23 "Vendor"
+      by: code
+    - to: video/mHrY_OI0qNo
+      title: "Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: video/cZCSi6khZFo
+      title: "Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/aardvarklabs-blog/3118
+      title: Leveraging RecordRef and FieldRef for Dynamic Coding
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/duiliotacconi-com/2149
+      title: "Partial Record vs NST Caching : the strange case of Calculate Low Level Code"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
 video_id: YTA8c2XyTX4
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -231,6 +282,19 @@ chapters:
     title: Synthetic Relations and Power Automate Integration
   - t: 1579
     title: Business Events Versioning, Troubleshooting, and Telemetry
+cautions:
+  - kind: preview-disclaimer
+    quote: the preview of Po Pages support that allow access to busy data from unlicensed user
+    t: 408
+  - kind: preview-disclaimer
+    quote: business event is still in preview and we are targeting a g a in the um in the release after this one
+    t: 489
+  - kind: preview-disclaimer
+    quote: this is just for a demo purposes in the real practicality you probably should provide a very very narrow uh written and right access
+    t: 1173
+  - kind: preview-disclaimer
+    quote: UI page that you can actually correlate this um uh external subscription with the activity lock in one U nice UI page uh that's coming in this November
+    t: 1830
 features:
   - name: Virtual Tables General Availability
     status: ga
@@ -502,5 +566,20 @@ Not found in BC28-30: table "account table", table "items table", table "contact
 - [19:33](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1173s) subject-to-change: this is just for a demo purposes in the real practicality you probably should provide a very very narrow uh written and right access
 - [20:34](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1234s) other: by default none of this uh app user has any permission set so by default it's not enable
 - [30:30](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1830s) coming-later: UI page that you can actually correlate this um uh external subscription with the activity lock in one U nice UI page uh that's coming in this November
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [BC Friday Tips #69 Item Blocked Fields](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d.md) — possibly related: both name Table 27 "Item"
+- [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) — possibly related: both name Table 27 "Item"
+- [Deliver sales invoices with French specifics](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/finance-sales-invoice-specifics) — possibly related: names Table 5050 "Contact"
+- [Dynamics 365 Business Central: compressing API responses at max.](../posts/demiliani-com/11962.md) — possibly related: both name Table 27 "Item"
+- [Enterprise Numbers and Branch Numbers \[BE\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers) — possibly related: names Table 5050 "Contact"
+- [Importing XML into Business Central with AL](../posts/aardvarklabs-blog/2866.md) — possibly related: both name Table 23 "Vendor"
+- [Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)](../videos/mHrY_OI0qNo.md) — possibly related: both name Table 27 "Item"
+- [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../videos/cZCSi6khZFo.md) — possibly related: both name Table 27 "Item"
+- [Leveraging RecordRef and FieldRef for Dynamic Coding](../posts/aardvarklabs-blog/3118.md) — possibly related: both name Table 27 "Item"
+- [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../posts/duiliotacconi-com/2149.md) — possibly related: both name Table 27 "Item"
 
 Presenters (as heard): Sandy vinaro, Ivan kage.

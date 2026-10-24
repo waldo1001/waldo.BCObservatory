@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:10:16.959Z"
   flags: []
 generated:
-  at: "2026-10-07T23:10:17.002Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -97,6 +97,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257
+      title: Analysis Mode killed half the Excel exports on your client's shared drive
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: post/thedynamicsexplorer-com/10232
+      title: Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central
+      label: possibly related
+      why: both name Page 39 "General Journal"
+      by: code
+    - to: post/thedynamicsexplorer-com/8821
+      title: Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: post/thedynamicsexplorer-com/36822
+      title: Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: video/mZNfMPpxovE
+      title: Historical Snapshot (2024)
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: video/q0TxpWfm9rc
+      title: "What's New: Enhancements to Copilot Summaries (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: video/u1oO9MEg9kc
+      title: "What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: video/RaiQPiEdvbg
+      title: "What's New: Post Emissions with the General Journal (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 39 "General Journal"
+      by: code
+    - to: video/hSJW3LiOBxg
+      title: "What's New: Power BI and Reporting for Developers (2023 release wave 2)"
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: video/hcu7T3qLdDA
+      title: "What's New: The Danish Bookkeeping Act (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
 video_id: HI7VcPzR2OE
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -125,6 +176,10 @@ chapters:
     title: Employee Ledger Currency Support
   - t: 675
     title: Conclusion and Call to Action
+cautions:
+  - kind: preview-disclaimer
+    quote: they are suffixed with a preview tag because we expect to make changes to them and small improvements
+    t: 202
 features:
   - name: GL Revaluation and Currency Code on GL Entries
     status: unclear
@@ -261,5 +316,20 @@ Not found in BC28-30: table "GL Account Card", table "GL Account", page "Recurri
 ## Disclaimers in the video
 
 - [3:22](https://www.youtube.com/watch?v=HI7VcPzR2OE&t=202s) preview: they are suffixed with a preview tag because we expect to make changes to them and small improvements
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Analysis Mode killed half the Excel exports on your client's shared drive](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../posts/thedynamicsexplorer-com/10232.md) — possibly related: both name Page 39 "General Journal"
+- [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../posts/thedynamicsexplorer-com/8821.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Historical Snapshot (2024)](../videos/mZNfMPpxovE.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [What's New: Enhancements to Copilot Summaries (2025 release wave 2)](../videos/q0TxpWfm9rc.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)](../videos/u1oO9MEg9kc.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [What's New: Post Emissions with the General Journal (2025 release wave 1)](../videos/RaiQPiEdvbg.md) — possibly related: both name Page 39 "General Journal"
+- [What's New: Power BI and Reporting for Developers (2023 release wave 2)](../videos/hSJW3LiOBxg.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../videos/hcu7T3qLdDA.md) — possibly related: both name Page 16 "Chart of Accounts"
 
 Presenters (as heard): Brian Neilson.

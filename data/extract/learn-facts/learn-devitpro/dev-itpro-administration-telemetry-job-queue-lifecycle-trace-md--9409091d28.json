@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-job-queue-lifecycle-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace",
+  "title": "Analyzing Job Queue Lifecycle Trace Telemetry",
+  "blob": "41bf01f70f7798cdf1e2a395c31a222706ea983b",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available from version 17.2 in 2020 release wave 2."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry captures job queue entry lifecycle events including enqueued, started, finished, failed, and cancelled states."
+    },
+    {
+      "kind": "fact",
+      "text": "Common dimensions tracked include job queue ID, object type and ID, recurring status, execution time in milliseconds, and stack traces."
+    },
+    {
+      "kind": "fact",
+      "text": "Failed entries after max retry attempts trigger event AL0000JRG and enter Error state, requiring manual intervention."
+    },
+    {
+      "kind": "fact",
+      "text": "Event AL0000HE7 indicates a single job queue entry error; event AL0000JRG indicates it failed after all retry attempts."
+    },
+    {
+      "kind": "limit",
+      "text": "Job queue object name and description dimensions added in later versions 22.0 and 22.2 respectively, not in initial release."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007625,
+      "pages_in_call": 7
+    }
+  ]
+}

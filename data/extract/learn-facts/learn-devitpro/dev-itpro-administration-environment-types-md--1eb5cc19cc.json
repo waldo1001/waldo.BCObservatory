@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/environment-types.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-types",
+  "title": "Production and Sandbox Environments",
+  "blob": "28228614ff69781a4dabf447b041c76c853196c3",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Production environments managed via admin center or Administration Center API."
+    },
+    {
+      "kind": "fact",
+      "text": "Partner Sandbox license available to partners with valid MPN ID for nonproduction scenarios."
+    },
+    {
+      "kind": "limit",
+      "text": "Partner Sandbox license strictly for partner nonproduction use; cannot be used for customers or production."
+    },
+    {
+      "kind": "fact",
+      "text": "Five Partner Sandbox licenses grant one production plus three sandbox environments with 105 GB storage."
+    },
+    {
+      "kind": "fact",
+      "text": "Each five additional Partner Sandbox licenses add three sandbox environments and 25 GB storage."
+    },
+    {
+      "kind": "fact",
+      "text": "Partner Sandbox licenses available via experience.dynamics.com; payment by credit card or invoice for over 500 dollars."
+    },
+    {
+      "kind": "fact",
+      "text": "Sandbox environments can have production data copied in for testing and demonstration purposes."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005028,
+      "pages_in_call": 10
+    }
+  ]
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:50.629Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,6 +116,7 @@ The subtopic on migrating tables and fields describes using migration.json to mo
 ## More Learn pages
 
 - [Code Conversion from C/AL to AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/devenv-code-conversion): Description of the conversion process from C/AL to AL.
+  - In the observatory: [Codeunit 150 "System Initialization"](../../../../objects/codeunit/150.md)
 
 ## Business Central pages and reports
 

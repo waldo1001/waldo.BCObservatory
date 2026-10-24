@@ -1,0 +1,19 @@
+{
+  "item_id": "change/al-go-prs/2407",
+  "input_hash": "94e896869f54d9ea955c8b37e7429e93c053c43f625945864a90c36f4072121d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-24T00:37:49.985Z",
+  "issues": [
+    "The summary and key points match the description: dynamic server and API URLs, GH_HOST for gh CLI, the new GHE scenario guide, template download logic, and a CI check that the AL-Go repo itself runs only on github.com."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023113,
+    "changes_in_call": 6
+  }
+}

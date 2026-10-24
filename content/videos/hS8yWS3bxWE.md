@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:58:35.182Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -105,6 +105,10 @@ chapters:
     title: Server-side Certificate Validation Telemetry
   - t: 451
     title: Deprecated SOAP Protocol Detection Telemetry
+cautions:
+  - kind: preview-disclaimer
+    quote: these soap web services on UI PES by Microsoft this has been deprecated and therefore this will be kind of stop working in a in a later release
+    t: 451
 features:
   - name: Financial Reporting Usage Telemetry
     status: unclear

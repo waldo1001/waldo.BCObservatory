@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:09:49.041Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,6 +121,10 @@ chapters:
     title: Reminder Terms Configuration and Customer Communication Setup
   - t: 767
     title: Summary and Future Improvements
+cautions:
+  - kind: preview-disclaimer
+    quote: in the coming releases we'll we'll do a few more improvements uh some better overviews and some more kpis
+    t: 787
 features:
   - name: Account Receivables Administrator Role Center
     status: unclear

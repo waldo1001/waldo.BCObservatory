@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-performance-toolkit-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-performance-toolkit-trace",
+  "title": "Analyzing Performance Toolkit Telemetry",
+  "blob": "5bd4a72d8ea49fbd2408989bdc1b4f533c2fbb41",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available for analyzing Performance Toolkit telemetry."
+    },
+    {
+      "kind": "fact",
+      "text": "Performance Toolkit helps test performance of customized Business Central solutions across multiple users."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry is logged when BCPT header changes status to Started, Completed, or Cancelled, and when scenarios finish."
+    },
+    {
+      "kind": "fact",
+      "text": "BCPT run started event includes session count, test company name, run type, and version number."
+    },
+    {
+      "kind": "fact",
+      "text": "BCPT scenario finished event includes duration in milliseconds, SQL statement count, and operation status."
+    },
+    {
+      "kind": "fact",
+      "text": "Common dimensions include tenant ID, environment name, environment type, and extension details."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005499,
+      "pages_in_call": 11
+    }
+  ]
+}

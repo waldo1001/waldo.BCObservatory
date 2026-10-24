@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-server-events-windows-event-log.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events-windows-event-log",
+  "title": "Monitoring Business Central Server Events in Event Viewer",
+  "blob": "9884e5c8937429e3892410141f02a258e065195c",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Server events are recorded in Event Viewer under Applications and Services Logs in Microsoft > DynamicsNAV folder."
+    },
+    {
+      "kind": "fact",
+      "text": "Admin log contains events for end users and IT administrators indicating problems that need action, such as tenant database failing to mount."
+    },
+    {
+      "kind": "fact",
+      "text": "Operational log provides information about server operations including ordinary events that do not require action but help diagnose problems."
+    },
+    {
+      "kind": "fact",
+      "text": "Debug log contains SQL tracing, service calls, and AL function call trace events. This log is hidden and disabled by default."
+    },
+    {
+      "kind": "fact",
+      "text": "Common folder telemetry events with IDs 700-707 are emitted from the application using SENDTRACETAG method calls."
+    },
+    {
+      "kind": "fact",
+      "text": "Application log is a secondary log containing the same admin and operational events as the DynamicsNAV Server channel."
+    },
+    {
+      "kind": "fact",
+      "text": "Event Viewer filtering can display only events meeting specific criteria such as a particular server instance, tenant, or time period."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006691,
+      "pages_in_call": 2
+    }
+  ]
+}

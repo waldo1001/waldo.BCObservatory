@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:32.523Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -224,7 +224,9 @@ To start, pick the page that matches the task. For quick exploration, use ad-hoc
 
 - [Ad-hoc analysis of sustainability data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sustainability): Learn how to use the data analysis mode to analyze sustainability data.
 - [Handle External ESG reporting](https://learn.microsoft.com/dynamics365/business-central/sustainability-esg-reporting): Learn how to set up, run and export External ESG reports.
+  - In the observatory: [Page 6221 "Sustainability Setup"](../../../../objects/page/6221.md)
 - [Sustainability financial reporting](https://learn.microsoft.com/dynamics365/business-central/sustainability-fin-reporting): Describes how to use financial reports to create various views and reports for analyzing sustainability performance data.
+  - In the observatory: [Page 6245 "Emission Fees"](../../../../objects/page/6245.md)
 - [Sustainability reports and analytics](https://learn.microsoft.com/dynamics365/business-central/sustainability-reports): Explore the sustainability reports and analytics in the standard version of Business Central.
 
 ## Videos, posts and code changes

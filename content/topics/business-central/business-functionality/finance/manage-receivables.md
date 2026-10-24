@@ -7,12 +7,12 @@ tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:28.910Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -347,7 +347,7 @@ narrative: generated
 
 > Receivables management in Business Central: applying customer payments, reconciling bank accounts, collecting overdue balances, setting payment tolerances, blocking customers, and analyzing or predicting late payments. It answers how-to and setup questions for the order-to-cash side of finance.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage receivables · tier official · system sales · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage receivables · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -376,17 +376,27 @@ For follow-up and insight, use "Collect outstanding balances" and "Send Reminder
 
 - [Accounts receivable analytics](https://learn.microsoft.com/dynamics365/business-central/receivables-reports): Explore the reports and analytics in the standard version of Business Central that can help you track your accounts receivable.
 - [Apply payments to unpaid sales documents](https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-customer-payments-list-unpaid-sales-documents): You apply amounts paid by customers to related sales documents and post the payment to update the customer, general ledger, and bank ledger entries.
+  - In the observatory: [Page 39 "General Journal"](../../../../objects/page/39.md), [Page 982 "Payment Registration Setup"](../../../../objects/page/982.md), [Page 983 "Payment Registration Details"](../../../../objects/page/983.md), [Page 985 "Document Search"](../../../../objects/page/985.md), [Page 986 "Document Search Result"](../../../../objects/page/986.md)
 - [Collect outstanding balances](https://learn.microsoft.com/dynamics365/business-central/receivables-collect-outstanding-balances): Learn how to remind your customers of outstanding payments. Send a customer statement, issue a reminder, or send a finance charge memo.
+  - In the observatory: [Page 444 "Reminder/Fin. Charge Entries"](../../../../objects/page/444.md)
 - [Consolidate Balances for a Company that is a Customer and a Vendor](https://learn.microsoft.com/dynamics365/business-central/finance-consolidate-customer-vendor-balances): Describes how to consolidate balances for a customer that is also a vendor.
+  - In the observatory: [Page 256 "Payment Journal"](../../../../objects/page/256.md), [Page 26 "Vendor Card"](../../../../objects/page/26.md), [Page 5094 "Marketing Setup"](../../../../objects/page/5094.md)
 - [How to block sales to customers](https://learn.microsoft.com/dynamics365/business-central/receivables-how-block-customers): If needed, you can block a customer from being included on sales documents and other sales transactions.
+  - In the observatory: [Page 36954 "Customers"](../../../../objects/page/36954.md)
 - [Overview of tasks to manage receivables](https://learn.microsoft.com/dynamics365/business-central/receivables-manage-receivables): This article outlines tasks to manage receivables and apply payments to customer or vendor ledger entries.
+  - In the observatory: [Page 1252 "Payment Application Rules"](../../../../objects/page/1252.md), [Page 1290 "Payment Reconciliation Journal"](../../../../objects/page/1290.md), [Page 255 "Cash Receipt Journal"](../../../../objects/page/255.md), [Page 981 "Payment Registration"](../../../../objects/page/981.md)
 - [Payment tolerance and payment discount tolerance](https://learn.microsoft.com/dynamics365/business-central/finance-payment-tolerance-and-payment-discount-tolerance): This article explains how to set up payment tolerance to close an invoice when the payment doesn't fully cover the invoice amount.
+  - In the observatory: [Page 110 "Customer Posting Groups"](../../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../../objects/page/111.md)
 - [Predict late payments for sales documents](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-late-payment-prediction): This article explains how to use our predictive model to predict whether a customer will pay an invoice on time.
+  - In the observatory: [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md)
 - [Reconcile customer payments with the cash receipt journal or from customer ledger entries](https://learn.microsoft.com/dynamics365/business-central/receivables-how-apply-sales-transactions-manually): Apply customer cash receipts or refunds to one or more open customer ledger entries.
+  - In the observatory: [Page 1690 "Bank Deposit"](../../../../objects/page/1690.md), [Page 232 "Apply Customer Entries"](../../../../objects/page/232.md), [Page 36954 "Customers"](../../../../objects/page/36954.md), [Page 483 "Currency Exchange Rates"](../../../../objects/page/483.md), [Page 5 "Currencies"](../../../../objects/page/5.md), [Page 9302 "Sales Credit Memos"](../../../../objects/page/9302.md)
 - [Sales tax in the default version](https://learn.microsoft.com/dynamics365/business-central/sales-tax-concept): Learn about how the base version of Business Central supports sales tax, and get a description of the basic concept.
 - [Send Reminders of Outstanding Balances](https://learn.microsoft.com/dynamics365/business-central/receivables-send-reminders): Learn how to issue a reminder to a customer about an overdue payment.
 - [SEPA Direct Debit in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit): With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.
+  - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../objects/page/35630-ru.md), [Page 981 "Payment Registration"](../../../../objects/page/981.md)
 - [Work with Intrastat reporting](https://learn.microsoft.com/dynamics365/business-central/finance-how-report-intrastat): Learn how to report trade with companies in other EU countries/regions using the Intrastat system.
+  - In the observatory: [Page 4812 "Intrastat Report"](../../../../objects/page/4812.md)
 
 ## Videos, posts and code changes
 

@@ -10,7 +10,7 @@
     "The change log and audit trails support monitoring of sensitive fields.",
     "Azure Key Vaults give extensions centralized, secure storage for secrets used in authenticated web service calls.",
     "App key vault setup is described separately for online and on-premises deployments.",
-    "Extensions retrieve secrets from the key vault instead of holding them themselves.",
+    "Extensions can retrieve secrets from the key vault in both online and on-premises deployments.",
     "App key vault telemetry supports security monitoring."
   ],
   "members_used": 2,
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.012588
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:57:10.067Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 'Extensions retrieve secrets from the key vault instead of holding them themselves' adds a contrast the sources don't make. The sources only say extensions can retrieve secrets from the key vault in online and on-premises deployments. I rewrote the point to match.",
+      "Smaller inference: the narrative ties the change log and audit trails to sensitive field monitoring, and ties app key vault telemetry to security monitoring. The source lists these as separate features. Both links are reasonable, so I kept them."
+    ],
+    "input_hash": "a084af5db39daa956fbc9ffad105a0a0fef39fb7285f6e0f2218755c630ae72d",
+    "cost_usd": 0.028147200000000004
   }
 }

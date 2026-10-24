@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:10:21.755Z"
   flags: []
 generated:
-  at: "2026-10-07T23:10:21.802Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -200,6 +200,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/gerardorenteria-blog/15143
+      title: 🧩 Deriving dimensions in Business Central beyond Default Dimensions
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257
+      title: Analysis Mode killed half the Excel exports on your client's shared drive
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
+      title: BC 29 lets a single index span base table and table extension fields
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-29-gaps-in-customer-ledger-entries--5c5eaffeee
+      title: "BC Friday Tips #29 Gaps in Customer Ledger Entries"
+      label: possibly related
+      why: both name Table 25 "Vendor Ledger Entry"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea
+      title: "BC Friday Tips #56 Understand Missing Fields in Copy Documents"
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561
+      title: "BC Friday Tips #74 Copy Document and Custom Field"
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9
+      title: "D365 Business Central: How to Fix Missing Sales Invoices in the API"
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: video/Ug_uM59DRRE
+      title: Demo or Disaster? How to build better Business Central demos?
+      label: possibly related
+      why: both name Table 270 "Bank Account"
+      by: code
+    - to: post/thedynamicsexplorer-com/8821
+      title: Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: post/thedynamicsexplorer-com/36822
+      title: Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
 video_id: hcu7T3qLdDA
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -251,6 +302,25 @@ chapters:
     title: Name Handle Registration and Compliance Guidance
   - t: 2365
     title: Community Engagement and Q&A Session
+cautions:
+  - kind: preview-disclaimer
+    quote: on print solution we didn't certify on print solution currently this is not possible because of some um physical limitation
+    t: 190
+  - kind: preview-disclaimer
+    quote: all your feedback um we first need to filter it because we are enforced by the law we must be compliant by the law and if there is some space we can make more um better options
+    t: 302
+  - kind: preview-disclaimer
+    quote: documentation maybe is not um fully uh uh changed it will be updated in the next few days
+    t: 1123
+  - kind: preview-disclaimer
+    quote: currently this is still voluntary until July 1st from July 1st it will be enforced
+    t: 1400
+  - kind: preview-disclaimer
+    quote: it is applicable only for cloud this does not exist in a on Prem solution
+    t: 1775
+  - kind: preview-disclaimer
+    quote: we have independent session about e documents and we have one really great automation great example of using co-pilot
+    t: 2304
 features:
   - name: SAF-T (Standard Audit File - Tax) Export
     status: unclear
@@ -603,5 +673,20 @@ Not found in BC28-30: page "SAF-T Setup Guide", page "Audit File Expert document
 - [23:20](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1400s) coming-later: currently this is still voluntary until July 1st from July 1st it will be enforced
 - [29:35](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1775s) not-in-this-release: it is applicable only for cloud this does not exist in a on Prem solution
 - [38:24](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2304s) preview: we have independent session about e documents and we have one really great automation great example of using co-pilot
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [🧩 Deriving dimensions in Business Central beyond Default Dimensions](../posts/gerardorenteria-blog/15143.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [Analysis Mode killed half the Excel exports on your client's shared drive](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [BC Friday Tips #29 Gaps in Customer Ledger Entries](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-29-gaps-in-customer-ledger-entries--5c5eaffeee.md) — possibly related: both name Table 25 "Vendor Ledger Entry"
+- [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [BC Friday Tips #74 Copy Document and Custom Field](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [D365 Business Central: How to Fix Missing Sales Invoices in the API](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [Demo or Disaster? How to build better Business Central demos?](../videos/Ug_uM59DRRE.md) — possibly related: both name Table 270 "Bank Account"
+- [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../posts/thedynamicsexplorer-com/8821.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 16 "Chart of Accounts"
 
 Presenters (as heard): Tomas (To), Arthur, Alexander.

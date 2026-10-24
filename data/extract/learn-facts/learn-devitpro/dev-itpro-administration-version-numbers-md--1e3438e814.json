@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/version-numbers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/version-numbers",
+  "title": "Version Numbers in Business Central",
+  "blob": "b947b519231aa5a4bfad89c6ef977324c02e28e4",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Version format is major.minor.build.revision, example 27.1.23456.0 for application version."
+    },
+    {
+      "kind": "fact",
+      "text": "Major version 28 represents 2026 release wave 1 April 2026 and forward."
+    },
+    {
+      "kind": "fact",
+      "text": "Major version 27 represents 2025 release wave 2 October 2025 and forward."
+    },
+    {
+      "kind": "fact",
+      "text": "Major version 26 represents 2025 release wave 1 April 2025 and forward."
+    },
+    {
+      "kind": "fact",
+      "text": "Minor number indicates monthly update; build is five digit number; revision stays 0 unless hotfix applied."
+    },
+    {
+      "kind": "fact",
+      "text": "Online admin center uses only major.minor version for managing environment updates, not full build numbers."
+    },
+    {
+      "kind": "fact",
+      "text": "Version numbers identify both cloud and on-premises deployments including Docker container versions."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013012,
+      "pages_in_call": 4
+    }
+  ]
+}

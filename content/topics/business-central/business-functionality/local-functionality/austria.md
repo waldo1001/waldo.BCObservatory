@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:48.439Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -170,7 +170,7 @@ narrative: generated
 
 > Austria local functionality in Business Central: VAT statements and VAT reporting (XML and FDF, VAT-VIES), the Vendor Payments List report, delivery reminders for late vendor deliveries, and audit tools such as GL and VAT entry export and general ledger setup printing. It answers questions on Austrian tax reporting formats, reminders and audit data.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Austria · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Austria · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

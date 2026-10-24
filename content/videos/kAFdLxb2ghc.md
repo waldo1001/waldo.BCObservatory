@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:09:54.528Z"
   flags: []
 generated:
-  at: "2026-10-07T23:09:54.597Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -245,6 +245,25 @@ chapters:
     title: Manual Matching Workflow and Purchase Order Updates
   - t: 1608
     title: Framework Extensibility, Closing and Communication
+cautions:
+  - kind: preview-disclaimer
+    quote: currently we are supporting only one access point but we are planning to add more access points there
+    t: 458
+  - kind: preview-disclaimer
+    quote: we are planning additional localizations I cannot say exactly when uh it depends of enforcement from country to country but minimum what we are planning in next two week um we have uh planed German localization Spanish localization and…
+    t: 559
+  - kind: preview-disclaimer
+    quote: we already have um from previous um uh times we have some Legacy e documents in voice hisory documents in Italy and Mexico so we are planning in following period to upgrade Italian and Mexican functionality
+    t: 591
+  - kind: preview-disclaimer
+    quote: if you're interested in the new copilot stuff we're doing I think personally it's very cool I would definitely recommend you to watch another session we have called e invoicing with co-pilot
+    t: 1358
+  - kind: preview-disclaimer
+    quote: introducing to e invoicing matching with co-pilot great session uh this part about matching what magot is playing but this time with copilot fully automated
+    t: 2043
+  - kind: preview-disclaimer
+    quote: we updated um uh new session with Danish bookkeeping Act features because there are some new things in the meantime happened from uh previous pre previous uh wave
+    t: 2064
 features:
   - name: E-documents core app
     status: unclear

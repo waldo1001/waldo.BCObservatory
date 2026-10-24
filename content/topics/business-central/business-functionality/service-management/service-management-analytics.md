@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:32.951Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -418,6 +418,7 @@ Start with Service statistics for an on-screen view of how service operations ar
 ## More Learn pages
 
 - [Service statistics](https://learn.microsoft.com/dynamics365/business-central/service-service-statistics): Get a quick overview of the contents and statistics of service documents such as orders, quotes, invoices, credit memos, service lines, and more.
+  - In the observatory: [Page 5914 "Service Order Statistics"](../../../../objects/page/5914.md), [Page 5982 "Service Item Statistics"](../../../../objects/page/5982.md), [Page 5983 "Service Item Trendscape"](../../../../objects/page/5983.md), [Page 6032 "Service Shipment Statistics"](../../../../objects/page/6032.md), [Page 6033 "Service Invoice Statistics"](../../../../objects/page/6033.md), [Page 6034 "Service Credit Memo Statistics"](../../../../objects/page/6034.md)
 
 ## Business Central pages and reports
 

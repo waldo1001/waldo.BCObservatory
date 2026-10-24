@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:52.700Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -261,6 +261,7 @@ Start with the overview page to find your area. For tax setup go to Tax. For ele
 ## More Learn pages
 
 - [Electronic invoicing in New Zealand](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-nz-einvoice): Learn how to work with the New Zealand localization of the E-Document framework.
+  - In the observatory: [Page 6103 "E-Document Services"](../../../../objects/page/6103.md)
 - [New Zealand local functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/new-zealand-local-functionality): These articles describe the local functionality in the New Zealand version of Business Central.
 
 ## Business Central pages and reports

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:20:10.018Z"
   flags: []
 generated:
-  at: "2026-10-07T23:20:10.094Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -122,6 +122,13 @@ chapters:
     title: Cultural change and customer conversion strategy
   - t: 2867
     title: Customer adoption resistance and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: I didn't edit this presentation for today, because I just wanted it in its raw form. But maybe this wouldn't ...
+    t: 1118
+  - kind: preview-disclaimer
+    quote: I think this is, for me, the hardest thing to explain. I understand what I mean when I say this, ...
+    t: 1658
 features:
   - name: Extensions concept
     status: unclear

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:34.969Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -95,7 +95,9 @@ The three pages follow the order of work. Start with the setup page, which cover
 ## Learn pages
 
 - [Setting up TDS by Customer as per the Income Tax Act, 1961 provisions](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-for-Customer-Overview): Describes the basic setups required according to the Income Tax Act, 1961.
+  - In the observatory: [Page 18543 "Assessee Codes (IN)"](../../../../../objects/page/18543-in.md), [Page 18544 "Concessional Codes (IN)"](../../../../../objects/page/18544-in.md), [Page 18693 "TDS Posting Setup (IN)"](../../../../../objects/page/18693-in.md), [Page 18695 "TDS Sections (IN)"](../../../../../objects/page/18695-in.md), [Page 20246 "Tax Acc. Period Setup"](../../../../../objects/page/20246.md), [Page 20249 "Tax Type"](../../../../../objects/page/20249.md)
 - [TDS calculation for Customer](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Calculation-for-Customer): Describes the process for calculating and tracking TDS on customer transactions.
+  - In the observatory: [Page 18553 "Bank Receipt Voucher (IN)"](../../../../../objects/page/18553-in.md), [Page 18555 "Cash Receipt Voucher (IN)"](../../../../../objects/page/18555-in.md), [Page 255 "Cash Receipt Journal"](../../../../../objects/page/255.md), [Page 39 "General Journal"](../../../../../objects/page/39.md), [Page 43 "Sales Invoice"](../../../../../objects/page/43.md)
 - [TDS Certificate Tracking](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Certificate-Update): Provides guidance on tracking and updating TDS certificates for customer transactions.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

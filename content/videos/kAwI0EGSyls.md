@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:10:03.179Z"
   flags: []
 generated:
-  at: "2026-10-07T23:10:03.224Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -137,6 +137,16 @@ chapters:
     title: Customer managed encryption keys
   - t: 992
     title: Auditing and Microsoft Purview integration
+cautions:
+  - kind: preview-disclaimer
+    quote: new auditing capabilities that we are going to ship soon in perview
+    t: 87
+  - kind: preview-disclaimer
+    quote: customer managed encryption Keys all customer data that is stored in business Central is encrypted addressed with a strong Microsoft managed encryption key by default so Microsoft stores and manages the database encryption key for all your…
+    t: 930
+  - kind: preview-disclaimer
+    quote: in this initial release we will deliver the capability to audit create update and delete events in business Central that require administrator privileges
+    t: 1023
 features:
   - name: Environment transfer between tenants
     status: unclear

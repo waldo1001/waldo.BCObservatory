@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.01525
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:55:56.651Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 6 says the posting page 'lists 2022 release wave 1' without saying what the version refers to. That is accurate, but readers could take it to mean bank-to-bank or automatic received transactions arrived in that release, and the summaries don't say that.",
+      "Key point 5 says partner codes 'identify the partner on transactions'. This is a small inference from the feature name 'Intercompany partner code'. It's reasonable but not stated in the summaries.",
+      "The hub has no subtopics. The narrative correctly covers only the five pages that belong to this hub."
+    ],
+    "input_hash": "c70da29037d2be8ac330aef2461cc25a691b6b8ff5b2bf381912ae6825fe3338",
+    "cost_usd": 0.0339792
   }
 }

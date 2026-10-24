@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:04:48.632Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:48.677Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -144,6 +144,16 @@ chapters:
     title: Work Order Completion and Invoicing
   - t: 1108
     title: Bidirectional Synchronization Summary
+cautions:
+  - kind: preview-disclaimer
+    quote: this is a feature that is becoming available in a first update or a November update of 2024 release wave one
+    t: 83
+  - kind: preview-disclaimer
+    quote: inventory availability by location in order to do that you will also need to have the virtual tables uh enabled
+    t: 221
+  - kind: preview-disclaimer
+    quote: this feature is going to get going to become available with update one of 2024 release wave 2 meaning November update
+    t: 1237
 features:
   - name: Field Service Integration to Service Management
     status: unclear

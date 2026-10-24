@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:22:13.761Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -132,11 +132,22 @@ Start with "Sign up for a free trial". Use the Trial FAQ for quick answers, and 
 
 - [Extend your trial version of Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-extend-trial): If you need more time to decide whether to subscribe to Dynamics 365 Business Central, you can extend your trial version once. Learn about your options.
 - [Get ready for doing business](https://learn.microsoft.com/dynamics365/business-central/ui-get-ready-business): Outlines the assisted setup guides, videos, help articles, and pages to use to get ready to do business in Business Central.
+  - In the observatory: [Page 1801 "Assisted Setup"](../../../objects/page/1801.md), [Page 9800 "Users"](../../../objects/page/9800.md)
 - [Sign up for a free trial](https://learn.microsoft.com/dynamics365/business-central/trial-signup): Learn how to quickly sign up for and start a free Dynamics 365 Business Central trial. Explore the app with tours and videos, and find more learning resources.
 - [Trial FAQ](https://learn.microsoft.com/dynamics365/business-central/trial-faq): Solutions to common questions related to Dynamics 365 Business Central trial setup and management. Learn how to resolve platform and app-specific issues.
 - [Trials and subscriptions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/trials-subscriptions): Learn how it works with trials and subscriptions for Business Central online, and how the admin can cancel subscriptions.
+  - Organizations can sign up for a free Business Central trial to explore the experience.
+  - A 30-day trial is available without sample data, allowing users to add their own business data for evaluation.
+  - Users can extend the trial period if 30 days are not enough to decide on a subscription.
+  - Viral trials do not expire unless the prospect switches to the 30-day trial, provided users access Business Central frequently.
+  - If an organization stops using Business Central, the administrator must remove the subscription in the Microsoft 365 admin center.
+  - All customers, including trial organizations, can use sandbox environments for practicing without affecting production.
+  - Limit: Strongly not recommended to use a free trial to run your business; contact a reselling partner to migrate data.
+  - In the observatory: [Page 357 "Companies"](../../../objects/page/357.md)
 - [Troubleshoot Issues with Self-Service Sign-Up \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/ui-troubleshoot-self-signup): Learn about the most common reasons why you may not be able to complete the signup to Business Central, and ways to work around them.
 - [Unsubscribe or Remove Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-cancel): Learn how to remove or delete your Business Central experience if you have a trial subscription, or if you have a paid subscription.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Business Central pages and reports
 

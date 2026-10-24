@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:11:35.295Z"
   flags: []
 generated:
-  at: "2026-10-07T23:11:35.349Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -205,6 +205,22 @@ chapters:
     title: Visual Studio Code designers and AL Explorer
   - t: 1553
     title: Compiler API exposure and getting started
+cautions:
+  - kind: preview-disclaimer
+    quote: early previews of it. And we did that for a couple of years, and the initial one was only we could create simple code units, simple tables, pages.
+    t: 363
+  - kind: preview-disclaimer
+    quote: That's still a prototype
+    t: 1540
+  - kind: preview-disclaimer
+    quote: It's still the prototype label
+    t: 1553
+  - kind: preview-disclaimer
+    quote: It's envisioned as a service we haven't officially opened up for. New for for external use means that we haven't documented it
+    t: 1588
+  - kind: preview-disclaimer
+    quote: We reserve ourselves the right to change it at any time
+    t: 1611
 features:
   - name: AL compiler
     status: unclear

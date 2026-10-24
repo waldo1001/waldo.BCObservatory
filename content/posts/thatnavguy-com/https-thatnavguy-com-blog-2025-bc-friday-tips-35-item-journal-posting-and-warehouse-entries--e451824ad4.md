@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T02:00:42.586Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -56,6 +56,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/design-details-cost-adjustment
+      title: Design details - Cost adjustment
+      label: possibly related
+      why: names Codeunit 22 "Item Jnl.-Post Line"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure
+      title: Design details - Item tracking posting structure
+      label: possibly related
+      why: names Codeunit 22 "Item Jnl.-Post Line"
+      by: code
+    - to: post/gerardorenteria-blog/13043
+      title: New Application Ideas of Dynamics 365 Business Central (2025 NOV)
+      label: possibly related
+      why: both name Codeunit 22 "Item Jnl.-Post Line"
+      by: code
 post_id: https://thatnavguy.com/blog/2025/bc-friday-tips-35-item-journal-posting-and-warehouse-entries/
 source_id: thatnavguy-com
 source_name: That NAV Guy
@@ -112,6 +128,14 @@ As named in the post. A name that matches one object page by exact type and name
 
 - [codeunit 22 "Item Jnl.-Post Line"](../../objects/codeunit/22.md)
 - [codeunit 23 "Item Jnl.-Post Batch"](../../objects/codeunit/23.md)
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Design details - Cost adjustment](https://learn.microsoft.com/dynamics365/business-central/design-details-cost-adjustment) — possibly related: names Codeunit 22 "Item Jnl.-Post Line"
+- [Design details - Item tracking posting structure](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure) — possibly related: names Codeunit 22 "Item Jnl.-Post Line"
+- [New Application Ideas of Dynamics 365 Business Central (2025 NOV)](../../posts/gerardorenteria-blog/13043.md) — possibly related: both name Codeunit 22 "Item Jnl.-Post Line"
 
 ## Context
 

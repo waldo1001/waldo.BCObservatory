@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:47.377Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -503,10 +503,14 @@ Start with the overview, then follow setup and the chart of sustainability accou
 - [Set up sustainability features](https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-setup): Learn how to configure the Sustainability module to track and report your greenhouse gas emissions and carbon fees.
 - [Sustainability API](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api): Learn how to use APIs related to the sustainability features.
 - [Sustainability certificates](https://learn.microsoft.com/dynamics365/business-central/sustainability-certificates): Learn how to set up and use sustainability certificates.
+  - In the observatory: [Page 30 "Item Card"](../../../objects/page/30.md), [Page 35603 "Vendors (RU)"](../../../objects/page/35603-ru.md), [Page 6239 "Sustainability Certificates"](../../../objects/page/6239.md), [Page 6241 "Sust. Certificate Standards"](../../../objects/page/6241.md), [Page 6242 "Sust. Certificate Areas"](../../../objects/page/6242.md)
 - [Sustainability management overview](https://learn.microsoft.com/dynamics365/business-central/finance-manage-sustainability): Learn about the sustainability management feature by using the provided information and resources.
 - [Sustainability scorecards and goals](https://learn.microsoft.com/dynamics365/business-central/sustainability-scorecards-goals): Learn how to set up and use sustainability scorecards and goals.
+  - In the observatory: [Page 6232 "Sustainability Scorecards"](../../../objects/page/6232.md)
 - [Use CBAM and EPR calculations](https://learn.microsoft.com/dynamics365/business-central/sustainability-cbam-epr-calculations): Learn how to calculate carbon-related costs based on the origin of your products and carbon pricing rules in the European Union.
+  - In the observatory: [Page 30 "Item Card"](../../../objects/page/30.md), [Page 43 "Sales Invoice"](../../../objects/page/43.md), [Page 51 "Purchase Invoice"](../../../objects/page/51.md)
 - [Work with carbon credits](https://learn.microsoft.com/dynamics365/business-central/sustainability-carbon-credit): Learn how to set up and purchase carbon credit.
+  - In the observatory: [Page 6219 "Sustainability Journal"](../../../objects/page/6219.md)
 
 ## Videos, posts and code changes
 

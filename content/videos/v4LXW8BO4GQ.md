@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:17:55.255Z"
   flags: []
 generated:
-  at: "2026-10-07T23:17:55.365Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -94,6 +94,10 @@ chapters:
     title: Formatting and Combining Multiple Reports
   - t: 156
     title: Live Data Updates and Distribution Options
+cautions:
+  - kind: preview-disclaimer
+    quote: in the in preview mode
+    t: 136
 features:
   - name: Open Financial Reports as Spreadsheet
     status: unclear

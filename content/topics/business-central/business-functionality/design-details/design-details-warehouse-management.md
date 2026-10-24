@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:35.729Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,6 +90,7 @@ There are no subtopics. Start with the availability page if you are investigatin
 ## Learn pages
 
 - [Design details - Availability in the warehouse](https://learn.microsoft.com/dynamics365/business-central/design-details-availability-in-the-warehouse): Learn about the different factors that affect item availability in your warehouse.
+  - In the observatory: [Page 498 "Reservation"](../../../../objects/page/498.md), [Page 7345 "Pick Worksheet"](../../../../objects/page/7345.md)
 - [Design details - Creating warehouse entries](https://learn.microsoft.com/dynamics365/business-central/design-details-warehouse-entries): Learn how to allow concurrent numbering for warehouse register records and warehouse entries.
 
 ## Videos, posts and code changes

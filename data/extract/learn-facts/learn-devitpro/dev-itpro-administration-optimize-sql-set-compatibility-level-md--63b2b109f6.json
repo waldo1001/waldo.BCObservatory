@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/optimize-sql-set-compatibility-level.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-set-compatibility-level",
+  "title": "Setting SQL Compatibility Level to Optimize Database Performance",
+  "blob": "2b637556fb5aaa8fb9e8f2a3dd5475ac4faf5795",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Database running on Azure SQL Database or SQL Server 2016 and later should have compatibility level set to match database server."
+    },
+    {
+      "kind": "fact",
+      "text": "Setting compatibility level equips database with latest optimization features; demo databases default to SQL Server 2014 compatibility."
+    },
+    {
+      "kind": "step",
+      "text": "Change compatibility level using SQL Server Management Studio by opening database properties Options page or running ALTER DATABASE statement."
+    },
+    {
+      "kind": "fact",
+      "text": "Compatibility level 140 sets database compatible with SQL Server 2017; level 130 with SQL Server 2016 and Azure SQL Database."
+    },
+    {
+      "kind": "limit",
+      "text": "Azure SQL Database compatibility level is subject to change; refer to Azure documentation for latest supported level."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

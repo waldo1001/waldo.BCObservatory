@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:57:17.465Z"
   flags: []
 generated:
-  at: "2026-10-07T22:57:17.530Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -315,6 +315,31 @@ chapters:
     title: Create release action workflow issue
   - t: 3009
     title: GitHub discussions and community engagement
+cautions:
+  - kind: preview-disclaimer
+    quote: will also be included in version seven of Elgo for GitHub
+    t: 119
+  - kind: preview-disclaimer
+    quote: the ability to to to set BC container settings uh from settings variables and publish to environment from a pull request. So those things are in preview right now
+    t: 144
+  - kind: preview-disclaimer
+    quote: we are missing a few features uh for that and and that is on our schedule to finalize the new get uh features in in the upcoming release meaning over the next half year
+    t: 816
+  - kind: preview-disclaimer
+    quote: We know that we still need to generate more documentation and I have promised to get started on that
+    t: 1039
+  - kind: preview-disclaimer
+    quote: we should look into getting that uh added to the publish to environment so that it it automatically unpublishes the old app
+    t: 1302
+  - kind: preview-disclaimer
+    quote: we might make a change to actually only do a full build on config changes or settings changes if some of these settings changes actually have any impact on the apps generated
+    t: 1642
+  - kind: preview-disclaimer
+    quote: you want to be able to control it a little bit uh further and that would be something we had to yeah take as an as an idea if you can again create a GitHub issue with this one and and we can put into our backlog
+    t: 2060
+  - kind: preview-disclaimer
+    quote: it is not something we will chain um automatically. It's something I mean the deployment to prod is is I guess something
+    t: 2135
 features:
   - name: Update AL-Go system files on multiple branches
     status: unclear

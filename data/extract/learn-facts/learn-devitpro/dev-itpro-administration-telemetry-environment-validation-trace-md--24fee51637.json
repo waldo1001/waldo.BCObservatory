@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-environment-validation-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-environment-validation-trace",
+  "title": "Analyzing environment validation telemetry",
+  "blob": "e0cc7a3bb0479a2690f0d207b309e98536eac31c",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Environment validation started September 2023 to proactively check readiness for next major version."
+    },
+    {
+      "kind": "fact",
+      "text": "Non-compatible partner apps can block major version upgrades if they cannot compile on new version."
+    },
+    {
+      "kind": "fact",
+      "text": "Service regularly validates all extensions; failures trigger email to administrator."
+    },
+    {
+      "kind": "fact",
+      "text": "Environment validation started event (LC0220) begins validation against target build version."
+    },
+    {
+      "kind": "fact",
+      "text": "Extension validation events (LC0224-LC0226) track each extension compilation against next major version."
+    },
+    {
+      "kind": "fact",
+      "text": "Environment validation diagnostic reported (LC0221) indicates warnings or errors at environment level."
+    },
+    {
+      "kind": "fact",
+      "text": "Environment validation completed successfully (LC0222) or with failures (LC0223) indicate overall readiness."
+    },
+    {
+      "kind": "fact",
+      "text": "Sample KQL queries help analyze validation failures and set up alerts before major version updates."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007119,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -17,18 +17,7 @@
   "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
-  "obsoletions": [
-    {
-      "object": "IPC Management",
-      "member": "GetAddressDetails",
-      "replacement": null
-    },
-    {
-      "object": "IPC Management",
-      "member": "ParseAddressDetail",
-      "replacement": null
-    }
-  ],
+  "obsoletions": [],
   "systems": [
     "integration",
     "localization"

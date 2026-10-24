@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:42.213Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -208,14 +208,20 @@ Start with Basic Tax Setup and Sales tax for general tax configuration. For 1099
 
 - [Basic Tax Setup in the US Version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/us-tax-setup): Learn how to set basic tax data and apply default accounts for posting calculated tax information.
 - [Introduction to the IRS 1099 tax forms [US]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/introduction-to-the-irs-forms): Discover the purposes and methods for using IRS 1099 Tax Forms in the US.
+  - In the observatory: [Page 2610 "Feature Management"](../../../../../objects/page/2610.md)
 - [Regulatory 1099 format changes and details](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/tax-1099-changes): Learn about the changes applied to the IRS 1099 tax form regarding the required codes for payments to vendors.
 - [Report and submit the IRS 1099 form [US]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-report): Learn how to submit and report the 1099 tax form in the United States version.
+  - In the observatory: [Page 10036 "IRS 1099 Form Documents (US)"](../../../../../objects/page/10036-us.md), [Page 8887 "Email Accounts"](../../../../../objects/page/8887.md)
 - [Sales tax in the US Version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/us-sales-tax): Understand the setup of sales tax, including how tax groups, tax areas (such as states, counties, cities, and localities), tax jurisdictions, and tax details work.
 - [Set up and use the IRS 1096 form [US]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1096-form): Learn how to set up the 1096 tax form boxes so that you can submit the required reports.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 2610 "Feature Management"](../../../../../objects/page/2610.md), [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md)
 - [Set up and use the IRS 1099 form [US]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form): Learn how to set up the 1099 tax form boxes so that you can submit the required reports.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md)
 - [Set up IRS 1099 forms](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24): Learn how to set up the 1099 tax forms so that you can calculate and submit the required reports.
+  - In the observatory: [Page 10030 "IRS Forms Setup (US)"](../../../../../objects/page/10030-us.md), [Page 10031 "IRS Reporting Periods (US)"](../../../../../objects/page/10031-us.md), [Page 10033 "IRS 1099 Forms (US)"](../../../../../objects/page/10033-us.md), [Page 10034 "IRS 1099 Form Boxes (US)"](../../../../../objects/page/10034-us.md), [Page 10035 "IRS 1099 Vendor Form Box Setup (US)"](../../../../../objects/page/10035-us.md), [Page 10036 "IRS 1099 Form Documents (US)"](../../../../../objects/page/10036-us.md)
 - [Set Up Use Tax and Purchase Tax [US]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax): This article explains how sales tax includes taxes that companies pay for using items in the US version.
 - [Track data and use the IRS 1099 form](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-use): Learn how to post documents to calculate information for your 1099 tax forms.
+  - In the observatory: [Page 10031 "IRS Reporting Periods (US)"](../../../../../objects/page/10031-us.md), [Page 10035 "IRS 1099 Vendor Form Box Setup (US)"](../../../../../objects/page/10035-us.md), [Page 10036 "IRS 1099 Form Documents (US)"](../../../../../objects/page/10036-us.md), [Page 10072 "IRS 1099 Vendor Overview (US)"](../../../../../objects/page/10072-us.md), [Page 26 "Vendor Card"](../../../../../objects/page/26.md), [Page 27 "Vendor List"](../../../../../objects/page/27.md)
 - [Unrealized sales tax and sales payment discounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts): You can use the General Ledger Setup page to set up unrealized sales tax in the US version.
 
 ## Videos, posts and code changes

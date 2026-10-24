@@ -20,5 +20,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009550999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:56:16.908Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview calls the balance sheet and income statement pages 'statutory-style reports'. This is a light reading of 'compliance and reporting' and 'legal auditing requirement', and it is acceptable.",
+      "The distribution amounts key point only repeats the page title. Its source summary gives no more detail, so the point is accurate but adds little."
+    ],
+    "input_hash": "539151739f38e50b09ee7d7dba9a9d805a80c5387999bc2b6a4ccf8fdf04a1b0",
+    "cost_usd": 0.0289192
   }
 }

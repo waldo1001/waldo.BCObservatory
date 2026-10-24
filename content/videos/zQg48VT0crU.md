@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:19:38.338Z"
   flags: []
 generated:
-  at: "2026-10-07T23:19:38.471Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,6 +116,33 @@ chapters:
     title: Rethinking software development value and problem-solving paradigm
   - t: 2042
     title: Gotchas in AI-assisted AL development and shift to test verification
+cautions:
+  - kind: preview-disclaimer
+    quote: depending on how soul or the next opening eye model if they are going to have safeguards due it's going ...
+    t: 420
+  - kind: preview-disclaimer
+    quote: it could be like uh depending on how soul or the next opening eye model if they are going to have safeguards
+    t: 482
+  - kind: preview-disclaimer
+    quote: that's also a new feature I don't how many knows about in claw code you can set an advis advisory model
+    t: 1325
+  - kind: preview-disclaimer
+    quote: there was a bug in cloud code that fixed that now uh there was actually an an optin. They by ...
+    t: 1407
+  - kind: preview-disclaimer
+    quote: I'm going to add a lot of local models both uh open models hosted and like open router but also ...
+    t: 2873
+  - kind: preview-disclaimer
+    quote: I haven't tested it yet in in real A programming. It's only been in small tests here and there. nothing concrete yet
+    t: 2941
+  - kind: preview-disclaimer
+    quote: my prediction for 2027 will be you'll see a lot of these local models getting or these open source local ...
+    t: 3151
+  - kind: preview-disclaimer
+    quote: they pushed it out till July 12th
+    t: 3317
+    versions:
+      - "12"
 features:
   - name: Central gauge benchmarking tool
     status: unclear

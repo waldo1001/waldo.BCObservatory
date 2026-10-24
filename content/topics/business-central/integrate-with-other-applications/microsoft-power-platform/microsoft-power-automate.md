@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:54.276Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,6 +100,7 @@ Start with the overview to understand the flow types, then read the usage page b
 
 - [Power Automate Integration Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview): This article provides an overview of how Power Automate and Business Central integrate.
 - [Troubleshoot your automated workflows](https://learn.microsoft.com/dynamics365/business-central/across-flow-troubleshoot): Learn how to troubleshoot the connection between Business Central and Power Automate when you build an automated workflow.
+  - In the observatory: [Page 6403 "Sales Document Line Entity"](../../../../objects/page/6403.md), [Page 6405 "Purchase Document Line Entity"](../../../../objects/page/6405.md), [Page 810 "Web Services"](../../../../objects/page/810.md)
 - [Use Power Automate flows in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-flow): Use Power Automate flows to create, edit, and manage business processes. Boost productivity with easy automation.
 
 ## Business Central pages and reports

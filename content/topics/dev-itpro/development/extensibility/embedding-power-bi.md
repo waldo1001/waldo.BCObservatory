@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:04.556Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,6 +96,7 @@ Start with the introduction to understand what is available and who manages it. 
 ## Learn pages
 
 - [Embed Power BI reports in pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts): Explains how to display Power BI reports on pages in Business Central
+  - In the observatory: [Page 6323 "Power BI Element Card"](../../../../objects/page/6323.md), [Page 6324 "Power BI Element Addin Host"](../../../../objects/page/6324.md), [Page 6325 "Power BI Embedded Report Part"](../../../../objects/page/6325.md), [Page 6327 "Power BI Embed Setup Wizard"](../../../../objects/page/6327.md), [Table 6312 "Power BI Displayed Element"](../../../../objects/table/6312.md), [Table 6314 "Power BI Context Settings"](../../../../objects/table/6314.md)
 - [Introduction to Business Central and Power BI](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi): Get an overview of using Power BI to get insights from your Business Central data.
 
 ## Videos and posts

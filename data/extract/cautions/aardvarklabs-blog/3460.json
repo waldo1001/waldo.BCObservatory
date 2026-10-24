@@ -1,0 +1,37 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3460",
+  "page_id": "post/aardvarklabs-blog/3460",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "Due to security concerns, Microsoft has decided to remove the native FTP interface from Business Central.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "SFTP Client"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "connecting to SFTP will need to be done via alternatives such as Azure Functions again.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004971,
+    "posts_in_call": 4
+  }
+}

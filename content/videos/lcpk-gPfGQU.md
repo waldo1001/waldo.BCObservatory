@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:53:43.848Z"
   flags: []
 generated:
-  at: "2026-10-07T22:53:43.889Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -118,6 +118,13 @@ chapters:
     title: Configuration Sources and Calculation Options
   - t: 245
     title: Resources and Closing Remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: this edition will deliver this as a framework. So we will not cover specific excise tax calculations
+    t: 17
+  - kind: preview-disclaimer
+    quote: we can promise we will enable some additional option for excise taxes in a future releases
+    t: 245
 features:
   - name: Excise Tax Framework
     status: unclear

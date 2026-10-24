@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:13:02.073Z"
   flags: []
 generated:
-  at: "2026-10-07T23:13:02.109Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -152,6 +152,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/aardvarklabs-blog/3928
+      title: Understanding Business Central’s Format Address Codeunit
+      label: possibly related
+      why: both name Table 14 "Location"
+      by: code
+    - to: video/zy-Tg9bBtHc
+      title: "What's New: E-Documents and E-Shipments (2025 release wave 2)"
+      label: possibly related
+      why: both name Table 14 "Location"
+      by: code
 video_id: 8KMcu4B_eTk
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -419,5 +430,12 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [20:32](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1232s) "we still can benefit from advanced capabilities like put away templates, picking by ranking, and also allow or do not allow creation of lines"
 - [20:55](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1255s) "we have an ability to receive more than ordered, also using inventory put away together with direct update of purchase document or workhouse receipt"
 - [21:18](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1278s) "you need to spend dramatically less time analyzing the nothing to handle situation because you can get more insights from the special troubleshooting window"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Understanding Business Central’s Format Address Codeunit](../posts/aardvarklabs-blog/3928.md) — possibly related: both name Table 14 "Location"
+- [What's New: E-Documents and E-Shipments (2025 release wave 2)](../videos/zy-Tg9bBtHc.md) — possibly related: both name Table 14 "Location"
 
 Presenters (as heard): Andrei Panko.

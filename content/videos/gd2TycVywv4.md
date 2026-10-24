@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:21:22.673Z"
   flags: []
 generated:
-  at: "2026-10-07T23:21:22.724Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -134,6 +134,28 @@ chapters:
     title: Career progression for developers in the AI era
   - t: 3610
     title: Closing remarks and session conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: For now, it's optional
+    t: 782
+  - kind: preview-disclaimer
+    quote: there's an upcoming session in June that will be very much around this
+    t: 1243
+  - kind: preview-disclaimer
+    quote: the agent didn't understand BC well enough to do those things correctly
+    t: 1955
+  - kind: preview-disclaimer
+    quote: there are other places and models where you can get up to a million, but context window isn't everything
+    t: 2225
+  - kind: preview-disclaimer
+    quote: You should be able to get to a point by maybe end of summer where you can try out at ...
+    t: 3103
+  - kind: preview-disclaimer
+    quote: one of my projects for this quarter two in the months ahead April through June is looking at what can ...
+    t: 3457
+  - kind: preview-disclaimer
+    quote: There may be some updates to AL guidelines coming in the upcoming years upcoming weeks rather to help with providing some additional skills
+    t: 3488
 features:
   - name: Agentic development training program
     status: unclear

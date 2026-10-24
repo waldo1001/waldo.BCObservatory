@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bb34e4723016ad8debfad69923dff7d2444dd37b33e5a7ee31f52384cc9967c3
@@ -341,6 +341,10 @@ Path: [Integration](../../../integration.md) > [Web services](../../web-services
 - [customer resource type (Beta)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/resources/dynamics_customer): A customer object in Dynamics 365 Business Central (Beta).
 - [customerLedgerEntry resource type (Beta)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/resources/dynamics_customerledgerentry): A customer ledger entry object in Dynamics 365 Business Central (Beta).
 - [Delete subscriptions (Beta)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/api/dynamics_subscriptions_delete): Deletes a subscriptions object in Dynamics 365 Business Central (Beta).
+  - Status: Delete subscriptions API is in Beta status for removing subscriptions from Business Central.
+  - DELETE request requires Authorization bearer token and If-Match header with current eTag.
+  - Successful deletion returns 204 No Content response code with no response body.
+  - Limit: If-Match header is required; deletion fails if provided eTag does not match current subscription tag.
 - [detailedCustomerLedgerEntry resource type (Beta)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/resources/dynamics_detailedcustomerledgerentry): A detailed customer ledger entry object in Dynamics 365 Business Central (Beta).
 - [detailedVendorLedgerEntry resource type (Beta)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/resources/dynamics_detailedvendorledgerentry): A detailed vendor ledger entry object in Dynamics 365 Business Central (Beta).
 - [dimensionSetEntry resource type (Beta)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/resources/dynamics_dimensionsetentry): A dimension set entry object in Dynamics 365 Business Central (Beta).
@@ -369,5 +373,7 @@ Path: [Integration](../../../integration.md) > [Web services](../../web-services
 - [Update subscriptions (Beta)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/api/dynamics_subscriptions_update): Updates a subscriptions object in Dynamics 365 Business Central (Beta).
 - [vendor resource type (Beta)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/resources/dynamics_vendor): A vendor object in Dynamics 365 Business Central (Beta).
 - [vendorLedgerEntry resource type (Beta)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/resources/dynamics_vendorledgerentry): A vendor ledger entry object in Dynamics 365 Business Central (Beta).
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

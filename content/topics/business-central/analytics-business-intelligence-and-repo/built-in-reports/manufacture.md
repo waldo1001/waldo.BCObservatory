@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:03.681Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -149,8 +149,10 @@ Start with Production Reports and Analytics for an overview of the Report Explor
 ## Learn pages
 
 - [Post capacities](https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-capacities): Learn how to record time used by work and machine centers for maintenance or other activities outside production orders.
+  - In the observatory: [Page 99000754 "Work Center Card"](../../../../objects/page/99000754.md), [Page 99000760 "Machine Center Card"](../../../../objects/page/99000760.md)
 - [Production Reports and Analytics](https://learn.microsoft.com/dynamics365/business-central/production-reports): See which production reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 - [View Load on Work and Machine Centers](https://learn.microsoft.com/dynamics365/business-central/production-how-to-view-the-load-on-work-centers): Learn how to compare resource load and capacity, identify bottlenecks, use finite scheduling, and review the Work Center Task List.
+  - In the observatory: [Page 9291 "Work Center Calendar Matrix"](../../../../objects/page/9291.md)
 
 ## Business Central pages and reports
 

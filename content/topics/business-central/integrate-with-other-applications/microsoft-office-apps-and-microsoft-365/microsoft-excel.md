@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:23.617Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,9 +111,20 @@ The pages are independent tasks. Start with "Viewing and editing in Excel from B
 ## Learn pages
 
 - [Setting up the Excel Add-In for Editing Data](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin): Learn about how to configure the Excel add-in so users can edit data in Excel and push back to Business Central.
+  - Prerequisite: Microsoft Entra ID must be configured for authentication of the server instance, clients, and users.
+  - Prerequisite: OData must be enabled and use Secure Sockets Layer (SSL) for authentication.
+  - Prerequisite: Web server must be configured to use SSL (https) for secure connections.
+  - Prerequisite: Client computers must have a supported version of Excel installed.
+  - Step: Expose the Business Central Web API in Microsoft Entra ID by setting the Application ID URI on the Expose API page.
+  - Step: Register a separate Microsoft Entra application for the Excel add-in and add optional claims for email and upn.
+  - Step: Configure the server instance by setting Excel add-in client ID, Web Client Base URL, OData Base URL, and enabling OData and API services.
+  - The add-in enables the Edit in Excel action on list pages, allowing users to push changed data back to Business Central, unlike the basic Open in Excel action.
 - [Use Excel to import data](https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages): Use the default configuration package to add customer data in Excel and import the data back into Business Central.
 - [Viewing and editing in Excel from Business Central](https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel): Learn how to open pages in Microsoft Excel from Business Central for better data analysis.
 - [Working with Excel layouts](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and modify report layouts that are built using Excel.
+  - In the observatory: [Page 9660 "Report Layouts"](../../../../objects/page/9660.md)
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 

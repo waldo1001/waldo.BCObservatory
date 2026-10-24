@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:50:51.605Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:51.648Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -117,6 +117,15 @@ chapters:
     title: No-Code SQL Migration from Any Source
   - t: 453
     title: Demo and Conclusion of No-Code Migration
+cautions:
+  - kind: preview-disclaimer
+    quote: We intend to make this tool open source
+    t: 364
+  - kind: preview-disclaimer
+    quote: it's still work in progress. We're expecting to ship it in one of the first minor updates of version 28
+    t: 393
+    versions:
+      - "28"
 features:
   - name: Custom Migration Tooling Platform
     status: unclear

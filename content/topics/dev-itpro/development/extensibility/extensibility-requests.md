@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:53.709Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,6 +119,7 @@ Start with "Create an extensibility request" and "Types of events for extensibil
 - [Create an extensibility request](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/create-extensibility-request): When you find something that you'd like Microsoft to extend, you can ask us to do just that. This article explains how.
 - [Minimum requirements for new IsHandled events](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-use-ishandled-min-req): Provides the minimum information that must accompany a request for adding a new IsHandled event.
 - [Types of events for extensibility](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/types-of-events-for-extensibility): This article describes various types of events for extensibility.
+  - In the observatory: [Codeunit 12 "Gen. Jnl.-Post Line"](../../../../objects/codeunit/12.md), [Codeunit 1248 "Process Bank Acc. Rec Lines"](../../../../objects/codeunit/1248.md), [Codeunit 1535 "Approvals Mgmt."](../../../../objects/codeunit/1535.md), [Codeunit 370 "Bank Acc. Reconciliation Post"](../../../../objects/codeunit/370.md), [Codeunit 5056 "CustCont-Update"](../../../../objects/codeunit/5056.md), [Codeunit 5600 "FA Insert Ledger Entry"](../../../../objects/codeunit/5600.md)
 - [Using the IsHandled pattern](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-use-ishandled-pattern): This article describes how, and when, to use the popular IsHandled pattern for events.
 
 ## Videos, posts and code changes

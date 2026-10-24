@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-app-resource-exposure-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-app-resource-exposure-trace",
+  "title": "Analyze app resource exposure policy telemetry",
+  "blob": "db1ab7addf2dd6c5108e06be10b4c5ed7aebe712",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available from Business Central 2024 release wave 2 and later."
+    },
+    {
+      "kind": "fact",
+      "text": "Resource exposure policy telemetry tracks failures parsing or applying policy overrides."
+    },
+    {
+      "kind": "fact",
+      "text": "Event RT0022: Failure parsing resource exposure policy overrides defined in extension."
+    },
+    {
+      "kind": "fact",
+      "text": "Resource exposure policies control which resources in extension other extensions can access."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005651,
+      "pages_in_call": 10
+    }
+  ]
+}

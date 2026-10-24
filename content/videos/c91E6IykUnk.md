@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:20:19.238Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -130,6 +130,22 @@ chapters:
     title: Cognitive effects of AI reliance and future of programming languages
   - t: 3091
     title: Closing remarks and presenter contact information
+cautions:
+  - kind: preview-disclaimer
+    quote: I'm really wondering how will it be accepted and how will it work out at the end you know in the wild when it's released in the wild
+    t: 419
+  - kind: preview-disclaimer
+    quote: that area in which AI help to create new layouts is not yet fully covered in AI workflow yet. But I think that might also change
+    t: 1763
+  - kind: preview-disclaimer
+    quote: the workflow is not 100% covered yet because I think the AL development is already covered. And this area is not yet covered.
+    t: 1804
+  - kind: preview-disclaimer
+    quote: The mapping in word layout I haven't succeeded yet. we're not made the complete journey yet.
+    t: 2009
+  - kind: preview-disclaimer
+    quote: set that up next week um is is my plan. Uh cuz I'm going to bring back an initiative
+    t: 2440
 features:
   - name: Expense management agent
     status: unclear

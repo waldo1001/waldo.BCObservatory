@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:38.364Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,6 +89,7 @@ Start with the page on creating tabs if you want to automate tab deployment to c
 ## Learn pages
 
 - [Add and remove recommended content for Business Central tabs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tab-content): Learn how to add or remove pages listed as recommended content in the Business Central tab configuration window.
+  - In the observatory: [Codeunit 2915 "Page Action Provider"](../../../../../objects/codeunit/2915.md)
 - [Create Business Central tabs for Teams](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs): Learn how to use the Graph API to programmatically add a Business Central tab in a Teams channel or chaT.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

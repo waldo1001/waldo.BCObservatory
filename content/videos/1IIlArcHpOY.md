@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:51:21.282Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -187,6 +187,10 @@ chapters:
     title: Advanced tools and page-specific instructions
   - t: 1384
     title: Best practices and optimization guidance
+cautions:
+  - kind: preview-disclaimer
+    quote: currently within the current platform it is not possible that this happens automatically. You would need to use the SDK if you want to actually send the email
+    t: 804
 features:
   - name: Agent Instructions Framework
     status: unclear

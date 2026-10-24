@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:54:15.395Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:15.430Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,6 +72,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/_ynMUzh956w
+      title: "Introducing: Sustainability in Business Central (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 6221 "Sustainability Setup"
+      by: code
+    - to: video/UKVp28M5TtU
+      title: "What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6221 "Sustainability Setup"
+      by: code
+    - to: video/qPInVj03wkY
+      title: "What's New in Sustainability: Reporting CSRD (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6221 "Sustainability Setup"
+      by: code
 video_id: Sc8eGyMkBTA
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -220,5 +236,13 @@ Not found in BC28-30: page "Items", page "Resources", page "Project Journals", p
 - [1:51](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=111s) "It is important to remember it doesn't work with all gases only with the carbon equivalent."
 - [2:04](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=124s) "So you can post emissions using project journal or purchase invoice. When you post purchase invoice for project you know you will get two"
 - [2:16](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=136s) "It will be once when you uh finish where information will be exposed on a project statistic."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Introducing: Sustainability in Business Central (2024 release wave 1)](../videos/_ynMUzh956w.md) — possibly related: both name Page 6221 "Sustainability Setup"
+- [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../videos/UKVp28M5TtU.md) — possibly related: both name Page 6221 "Sustainability Setup"
+- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../videos/qPInVj03wkY.md) — possibly related: both name Page 6221 "Sustainability Setup"
 
 Presenters (as heard): Alexander Toto, Jacob Bang.

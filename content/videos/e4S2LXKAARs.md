@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:15.776Z"
   flags: []
 generated:
-  at: "2026-10-07T23:22:15.830Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -108,6 +108,16 @@ chapters:
     title: Challenges of manual test plan creation
   - t: 1293
     title: Introduction to AI-assisted test plan generation and structured prompts
+cautions:
+  - kind: preview-disclaimer
+    quote: the technology has evolved a lot in the last six months, let alone the full year. So for today, I'm ...
+    t: 1456
+  - kind: preview-disclaimer
+    quote: how can I then centrally update these uh these prompt files within the user directory
+    t: 3478
+  - kind: preview-disclaimer
+    quote: what if we create a VS code extension that's going to do do just that
+    t: 3495
 features:
   - name: AI-assisted test plan generation
     status: unclear

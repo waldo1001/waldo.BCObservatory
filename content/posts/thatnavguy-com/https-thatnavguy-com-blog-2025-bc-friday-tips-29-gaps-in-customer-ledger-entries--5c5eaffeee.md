@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T02:01:14.577Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -55,6 +55,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/hcu7T3qLdDA
+      title: "What's New: The Danish Bookkeeping Act (2024 release wave 1)"
+      label: possibly related
+      why: both name Table 25 "Vendor Ledger Entry"
+      by: code
 post_id: https://thatnavguy.com/blog/2025/bc-friday-tips-29-gaps-in-customer-ledger-entries/
 source_id: thatnavguy-com
 source_name: That NAV Guy
@@ -114,6 +120,12 @@ As named in the post. A name that matches one object page by exact type and name
 - table "General Ledger Entry"
 
 Not found in BC28-30: table "Customer Ledger Entry", table "General Ledger Entry".
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../../videos/hcu7T3qLdDA.md) — possibly related: both name Table 25 "Vendor Ledger Entry"
 
 ## Context
 

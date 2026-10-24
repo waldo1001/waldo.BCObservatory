@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:18:30.020Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:30.061Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -99,6 +99,10 @@ chapters:
     title: Adding Dimension Details to Budgets
   - t: 515
     title: Access Control and AppSource Availability
+cautions:
+  - kind: preview-disclaimer
+    quote: Free to try in the sandbox
+    t: 14
 features:
   - name: Budget regions in spreadsheets
     status: unclear

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:48:19.491Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -90,6 +90,10 @@ chapters:
     title: Manual control and approval workflow
   - t: 69
     title: Call to action and next steps
+cautions:
+  - kind: preview-disclaimer
+    quote: the tedious task for handling vendor invoice processing end-to-end is soon a thing of the past
+    t: 11
 features:
   - name: Payables agent
     status: unclear

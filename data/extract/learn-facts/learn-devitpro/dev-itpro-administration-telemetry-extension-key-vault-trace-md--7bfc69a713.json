@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-extension-key-vault-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace",
+  "title": "App Key Vault Secret Trace Telemetry | Microsoft Docs",
+  "blob": "80027fb972984a397823565193a7ff7a97c6172a",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "App key vault telemetry gathers information about Azure Key Vault secret acquisition by extensions at runtime across initialization and retrieval stages."
+    },
+    {
+      "kind": "fact",
+      "text": "Initialization stage verifies app key vault provider configuration via TryInitializeFromCurrentApp method and fails if extension lacks key vault specification or credentials are incorrect."
+    },
+    {
+      "kind": "fact",
+      "text": "Retrieval stage attempts secret retrieval via GetSecret method call and fails if secret name is invalid, key vault doesn't exist, or application lacks read permissions."
+    },
+    {
+      "kind": "status",
+      "text": "EventId RT0014 indicates successful key vault initialization with severity level 1; RT0015 indicates initialization failure with severity level 3."
+    },
+    {
+      "kind": "status",
+      "text": "EventId RT0016 indicates successful secret retrieval with severity level 1; RT0017 indicates retrieval failure with severity level 3."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry custom dimensions include extension ID, name, publisher, version, key vault URIs, client type, AL object details, and component version."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008208,
+      "pages_in_call": 6
+    }
+  ]
+}

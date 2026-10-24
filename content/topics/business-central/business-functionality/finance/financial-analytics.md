@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:11.860Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -747,7 +747,9 @@ Start with the Financial analytics overview page to compare the options. Then go
 ## More Learn pages
 
 - [Ad-hoc analysis of finance data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance): Learn how to use the data analysis mode to analyze finance data.
+  - In the observatory: [Page 116 "G/L Registers"](../../../../objects/page/116.md), [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md), [Page 29 "Vendor Ledger Entries"](../../../../objects/page/29.md)
 - [Consolidate data from multiple companies](https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting): This article explains how you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company.
+  - In the observatory: [Report 91 "Export Consolidation"](../../../../objects/report/91.md)
 - [Financial analytics](https://learn.microsoft.com/dynamics365/business-central/bi): Business Central helps you gather, analyze, and share company data for business intelligence.
 
 ## Videos, posts and code changes

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-bc14-reimplementation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-bc14-reimplementation",
+  "title": "Business Central 14 Reimplementation tool for cloud migration",
+  "blob": "db99008154b8bb4cf526fce533b3fcc7d88bd2d1",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Business Central 14 Reimplementation tool migrates only essential business data for clean start without legacy customizations."
+    },
+    {
+      "kind": "status",
+      "text": "Reimplementation approach available for Business Central version 14; standard full migration tools available for other versions."
+    },
+    {
+      "kind": "limit",
+      "text": "Business Central 14 reimplementation tool only supports version 14; for other versions use standard cloud migration."
+    },
+    {
+      "kind": "fact",
+      "text": "Migrates master data, transactional data, opening balances, and setup data; legacy C/AL customizations not migrated by default."
+    },
+    {
+      "kind": "limit",
+      "text": "Arbitrary ledger history beyond defined subset not migrated by default; extension data not included without customization."
+    },
+    {
+      "kind": "fact",
+      "text": "Tool includes more than 40 migrators for modular business data transfer; more migrators expected over time."
+    },
+    {
+      "kind": "step",
+      "text": "Follow standard cloud migration setup process; on Product page select Business Central 14 Reimplementation."
+    },
+    {
+      "kind": "fact",
+      "text": "Tool is open source and extensible; partners can add migration modules for ISV solutions and customize data transformation."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005472,
+      "pages_in_call": 10
+    }
+  ]
+}

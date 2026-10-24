@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:12:52.482Z"
   flags: []
 generated:
-  at: "2026-10-07T23:12:52.519Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -87,6 +87,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/service-deliver-service
+      title: Overview of tasks to deliver service | Microsoft Docs
+      label: possibly related
+      why: names Page 6000 "Dispatch Board"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-contract-flow
+      title: Walkthrough of service contracts for service items
+      label: possibly related
+      why: names Page 6000 "Dispatch Board"
+      by: code
 video_id: 7v0jxCl_WR8
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -307,5 +318,12 @@ Not found in BC28-30: page "Contoso", page "service task", page "item worksheet"
 - [7:54](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=474s) "We will run create service orders from the contract task, which are valid in this month"
 - [10:25](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=625s) "this model is very extensible. So you can just go and add your vertical functionality if needed and reuse existing ones."
 - [10:25](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=625s) "So sooner or later, like everything will be there. Not only for SaaS, but for on-prem as well."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Overview of tasks to deliver service | Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-deliver-service) — possibly related: names Page 6000 "Dispatch Board"
+- [Walkthrough of service contracts for service items](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-contract-flow) — possibly related: names Page 6000 "Dispatch Board"
 
 Presenters (as heard): Andrei Panko.

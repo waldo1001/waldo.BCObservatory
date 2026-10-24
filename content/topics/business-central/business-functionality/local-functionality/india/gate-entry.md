@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:33.927Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,7 +96,10 @@ Start with the setup page, which describes the requirements for inventory and po
 ## Learn pages
 
 - [Gate Entry Inward Transactions](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-Inward_Transactions): Gate Entry Inward Transactions.
+  - In the observatory: [Page 18605 "Inward Gate Entry (IN)"](../../../../../objects/page/18605-in.md), [Page 18606 "Inward Gate Entry List (IN)"](../../../../../objects/page/18606-in.md), [Page 18614 "Posted Inward Gate Entry (IN)"](../../../../../objects/page/18614-in.md), [Page 44 "Sales Credit Memo"](../../../../../objects/page/44.md), [Page 50 "Purchase Order"](../../../../../objects/page/50.md), [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md)
 - [Gate Entry Outward Transactions](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-Outward_Transactions): Learn how to create and manage outward gate entries for tracking the exit of goods from your organization in Business Central (India localization).
+  - In the observatory: [Page 130 "Posted Sales Shipment"](../../../../../objects/page/130.md), [Page 18610 "Outward Gate Entry List (IN)"](../../../../../objects/page/18610-in.md), [Page 18617 "Posted Outward Gate Entry (IN)"](../../../../../objects/page/18617-in.md), [Page 5743 "Posted Transfer Shipment"](../../../../../objects/page/5743.md), [Page 6650 "Posted Return Shipment"](../../../../../objects/page/6650.md)
 - [Setting up Gate Entry tracking](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-001-Basic-Setup): Specifies basic setups required to keep track of entrance and exit of materials or other entities, to and from the organization’s premises.
+  - In the observatory: [Page 18559 "Posting No. Series Setup (IN)"](../../../../../objects/page/18559-in.md), [Page 461 "Inventory Setup"](../../../../../objects/page/461.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

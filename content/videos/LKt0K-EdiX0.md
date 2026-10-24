@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:50:32.608Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -89,6 +89,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-calculate-accelerated-depreciation
+      title: How to Calculate Accelerated Depreciation [FR]
+      label: possibly related
+      why: names Report 5692 "Calculate Depreciation"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-depreciation
+      title: Set Up FA Depreciation
+      label: possibly related
+      why: names Report 5692 "Calculate Depreciation"
+      by: code
 video_id: LKt0K-EdiX0
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -226,5 +237,12 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [3:10](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=190s) "you can opt in to use it or not on each fixed asset depreciation book. It is entirely driven by the by the depreciation"
 - [4:22](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=262s) "These are typically communicated to the accountant by the government. They are defined in the law. And this is the maximum percentage you can"
 - [7:15](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=435s) "you get an extra journal line and that is the bonus depreciation. That is 20% of the 8,000 which was acquisition cost"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [How to Calculate Accelerated Depreciation \[FR\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-calculate-accelerated-depreciation) — possibly related: names Report 5692 "Calculate Depreciation"
+- [Set Up FA Depreciation](https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-depreciation) — possibly related: names Report 5692 "Calculate Depreciation"
 
 Presenters (as heard): Alexander Totovic, George.

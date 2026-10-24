@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:04:15.767Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:15.812Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -184,6 +184,17 @@ chapters:
     title: "Usage-Based Billing: Data Import and Invoice Creation"
   - t: 1301
     title: Usage Data Mapping and Contract Workflows
+cautions:
+  - kind: preview-disclaimer
+    quote: later on in the minor release I think it's 25.2 we will have a popi app which means we will have embedded reporting for the subscription billing module
+    t: 181
+    versions:
+      - "25"
+  - kind: preview-disclaimer
+    quote: in the 25.2 minor we will provide Excel reports and powerbi embed app
+    t: 1106
+    versions:
+      - "25"
 features:
   - name: Subscription and Recurring Billing Module
     status: unclear

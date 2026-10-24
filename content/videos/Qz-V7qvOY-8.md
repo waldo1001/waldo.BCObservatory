@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:59:01.818Z"
   flags: []
 generated:
-  at: "2026-10-07T22:59:01.863Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -143,6 +143,13 @@ chapters:
     title: "Demo: Embedding PDF in XML Export"
   - t: 780
     title: Closing and Call to Action
+cautions:
+  - kind: preview-disclaimer
+    quote: this is still work in progress we have this in the preview
+    t: 350
+  - kind: preview-disclaimer
+    quote: some of these features will be available in April some of them will be available in May or June
+    t: 410
 features:
   - name: Delete incorrect E-documents
     status: unclear

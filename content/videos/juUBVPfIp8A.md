@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:49:50.869Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:50.911Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -147,7 +147,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/577820
   topics: []
   localizations: []
   videos: []
@@ -187,6 +188,19 @@ chapters:
     title: Summary of AI Development Toolkit updates
   - t: 1130
     title: Resources and Community Engagement
+cautions:
+  - kind: preview-disclaimer
+    quote: The agent development capability has been in public preview since the beginning of February.
+    t: 55
+  - kind: preview-disclaimer
+    quote: agent evaluation support is still in the early stages
+    t: 922
+  - kind: preview-disclaimer
+    quote: agent library coming giving you even more capabilities to test agents
+    t: 947
+  - kind: preview-disclaimer
+    quote: agents that we just introduced in public preview
+    t: 1032
 features:
   - name: AI Development Toolkit renamed
     status: unclear
@@ -199,10 +213,12 @@ features:
     verified: true
     status_source: video
   - name: BC AI Resources authentication simplified
-    status: unclear
+    status: preview
     t: 168
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Content filtering policies
     status: unclear
     t: 269
@@ -339,7 +355,7 @@ The video walks through authentication changes for BC AI Resources, content filt
 |---|---|---|---|
 | AI Development Toolkit renamed | status not stated | [0:06](https://www.youtube.com/watch?v=juUBVPfIp8A&t=6s) |  |
 | Agent development and design | preview | [0:44](https://www.youtube.com/watch?v=juUBVPfIp8A&t=44s) | "The latter has actually been in public preview since the beginning of February." ([0:55](https://www.youtube.com/watch?v=juUBVPfIp8A&t=55s)) |
-| BC AI Resources authentication simplified | status not stated | [2:48](https://www.youtube.com/watch?v=juUBVPfIp8A&t=168s) |  |
+| BC AI Resources authentication simplified | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [2:48](https://www.youtube.com/watch?v=juUBVPfIp8A&t=168s) |  |
 | Content filtering policies | status not stated, demoed | [4:29](https://www.youtube.com/watch?v=juUBVPfIp8A&t=269s) |  |
 | Azure Open AI policy parameters codeunit | status not stated, demoed | [6:52](https://www.youtube.com/watch?v=juUBVPfIp8A&t=412s) |  |
 | Prompt injection protection | status not stated, demoed | [7:15](https://www.youtube.com/watch?v=juUBVPfIp8A&t=435s) |  |
@@ -349,6 +365,8 @@ The video walks through authentication changes for BC AI Resources, content filt
 | Copilot credit insights in evaluations | status not stated, demoed | [14:24](https://www.youtube.com/watch?v=juUBVPfIp8A&t=864s) |  |
 | Agent evaluation support | status not stated, demoed | [15:22](https://www.youtube.com/watch?v=juUBVPfIp8A&t=922s) |  |
 | Agent library | announced | [15:47](https://www.youtube.com/watch?v=juUBVPfIp8A&t=947s) | "very soon we'll have an agent library coming giving you even more capabilities to test agents" ([15:47](https://www.youtube.com/watch?v=juUBVPfIp8A&t=947s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

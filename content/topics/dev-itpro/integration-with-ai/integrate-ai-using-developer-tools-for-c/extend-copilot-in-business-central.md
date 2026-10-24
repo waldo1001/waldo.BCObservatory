@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -135,6 +135,7 @@ links:
     - topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/test-copilot-capability-in-al
   localizations: []
   videos:
+    - video/06vgkq2EXmA
     - video/jdevJbGgB-k
     - video/lNASlydCidI
     - video/NE7NIjpkX3c
@@ -146,11 +147,10 @@ links:
     - post/aardvarklabs-blog/2467
     - post/aardvarklabs-blog/2759
     - post/aardvarklabs-blog/2965
-    - post/demiliani-com/12927
     - post/olofsimren-com/3585
-    - post/olofsimren-com/3630
   guidelines: []
   changes:
+    - change/al-go/2402
     - change/bcquality/229
 learn_toc_path:
   - Integration with AI
@@ -164,8 +164,8 @@ children:
 coverage:
   learn: 15
   code: 0
-  video: 6
-  blog: 7
+  video: 7
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 2ff560236f34656dcd4015f51cfddab4d5ae4484d1dfe47d2ddcd8d76f8788c0
@@ -203,20 +203,21 @@ Start with the introduction, then build the capability, then design the dialog, 
 ## More Learn pages
 
 - [Build the Copilot capability in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-capability-in-al): Integrate with Azure OpenAI Service through the AI module of Business Central.
+  - In the observatory: [Codeunit 7761 "AOAI Chat Completion Params"](../../../../objects/codeunit/7761.md), [Codeunit 7763 "AOAI Chat Messages"](../../../../objects/codeunit/7763.md), [Codeunit 7765 "AOAI Text Completion Params"](../../../../objects/codeunit/7765.md), [Codeunit 7770 "AOAI Operation Response"](../../../../objects/codeunit/7770.md), [Codeunit 7771 "Azure OpenAI"](../../../../objects/codeunit/7771.md), [Codeunit 7773 "Copilot Capability"](../../../../objects/codeunit/7773.md)
 - [Introduction to developing generative AI experiences for your extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-experience-overview): Learn essential tasks for building Copilot extensions in Business Central. Discover key components like prompt dialog pages and Azure OpenAI integration.
 
 ## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#2402 Move Copilot review engine into AL-Go](../../../../changes/al-go/2402.md) (code change): "Copilot pull request review. A new SetupBCQuality"
 - [#229 Knowledge: Community Copilot domain (System.AI features) and review skill](../../../../changes/bcquality/229.md) (code change): "covering System.AI module best practices like capability registration"
 - [Creating Data Driven Text with AI in Business Central](../../../../posts/aardvarklabs-blog/1816.md) (community post): "generates personalized reminder text for overdue customer balances"
 - [Enhancing Business Central with Address Validation AI](../../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses"
 - [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../../posts/aardvarklabs-blog/2759.md) (community post): "use Copilot to automatically upgrade raw service technician notes into professional"
 - [Step-by-Step Guide to AI Campaigns in Business Central](../../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
-- [Dynamics 365 Business Central: prepare your extensions to support the Copilot Chat.](../../../../posts/demiliani-com/12927.md) (community post): "Extending Dynamics 365 Business Central with Copilot Chat support"
 - [Copilot Inventory Queries](../../../../posts/olofsimren-com/3585.md) (community post): "Built with the Copilot capability tools Microsoft provides for AL"
-- [Copilot in Planning Parameter Worksheet](../../../../posts/olofsimren-com/3630.md) (community post): "uses Copilot powered by Azure OpenAI to suggest inventory planning parameters"
+- [Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central](../../../../videos/06vgkq2EXmA.md) (video): "Prompt Engineering with Test-Driven Development; Azure AI Studio Integration"
 - [Business Central Under the Hood episode 1: Developing AI in Business Central](../../../../videos/jdevJbGgB-k.md) (video): "Business Central Under the Hood episode 1: Developing AI in Business Central"
 - [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../../videos/lNASlydCidI.md) (video): "Copilot for Business Central; System Actions for Generate; AI Module for Copilot Generation"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../../videos/NE7NIjpkX3c.md) (video): "Copilot Extension Cloud Deployment; Shared Infrastructure for Copilot"

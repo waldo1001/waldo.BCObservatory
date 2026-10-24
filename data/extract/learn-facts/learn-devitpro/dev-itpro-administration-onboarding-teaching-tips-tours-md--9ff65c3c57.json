@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/onboarding-teaching-tips-tours.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-teaching-tips-tours",
+  "title": "Teaching tips and in-app tours for onboarding users",
+  "blob": "45101aee0f0bdeb9e569ddfbc50e4bdbb957e8b4",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Teaching tips are defined using AboutTitle and AboutText AL properties at page level or control level"
+    },
+    {
+      "kind": "fact",
+      "text": "Page teaching tip answers what page is about and what user can do, titles typically use plural form for lists"
+    },
+    {
+      "kind": "fact",
+      "text": "Tours are sequential teaching tips guiding users around page and showing where to find things"
+    },
+    {
+      "kind": "fact",
+      "text": "Control teaching tips point to input fields or actions, explaining meaning or timing rather than instructing steps"
+    },
+    {
+      "kind": "fact",
+      "text": "Teaching tips support rich text formatting including bold for page names and keyboard shortcuts"
+    },
+    {
+      "kind": "fact",
+      "text": "FactBox teaching tips supported on all page types in factboxes; hosting page must have page teaching tip"
+    },
+    {
+      "kind": "fact",
+      "text": "Report request pages can have teaching tips using AboutTitle and AboutText properties"
+    },
+    {
+      "kind": "limit",
+      "text": "Cannot add teaching tips to actions or control add-ins in factboxes"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007005,
+      "pages_in_call": 8
+    }
+  ]
+}

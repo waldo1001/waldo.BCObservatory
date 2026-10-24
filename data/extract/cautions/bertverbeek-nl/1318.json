@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/bertverbeek-nl/1318",
+  "page_id": "post/bertverbeek-nl/1318",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Be aware that the Business central environment and Fabric Workspace must be in the same tenant.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "bc2adls will be in maintenance mode. No new features but only maintenance for a couple of BC releases on appsource (until bc30 or bc31).",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29",
+        "30",
+        "31"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004197,
+    "posts_in_call": 4
+  }
+}

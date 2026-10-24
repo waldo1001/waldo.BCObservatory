@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/onboarding-checklist.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-checklist",
+  "title": "Get Users Started with the Checklist",
+  "blob": "072686eb18d96b8ec0ab8fc27536f0a884fd8e0e",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Checklist serves as onboarding platform where users access tasks by hitting Get started on Home page, revealing guided activities at their own pace."
+    },
+    {
+      "kind": "fact",
+      "text": "Checklist content comprises setup tasks and learning material with progress indication that changes title and status to nudge users toward completion."
+    },
+    {
+      "kind": "fact",
+      "text": "Checklist tasks point to pages, objects or external URLs in Business Central, enabling context-aware learning and gradual product exploration."
+    },
+    {
+      "kind": "fact",
+      "text": "Checklist items reference Guided Experience Item records with types: Assisted Setup, Manual Setup, Learn, Tour, Spotlight Tour, Video, Application Feature."
+    },
+    {
+      "kind": "fact",
+      "text": "Use Guided Experience codeunit facade functions to insert records: InsertManualSetup, InsertAssistedSetup, InsertLearnLink, InsertTour, InsertSpotlightTour, InsertVideo, InsertApplicationFeature."
+    },
+    {
+      "kind": "fact",
+      "text": "Spotlight tours suppress other teaching tips and shine bright spotlight on core capabilities like Open in Excel or Share to Teams in sales scenarios."
+    },
+    {
+      "kind": "fact",
+      "text": "Video type enables users to watch custom URL videos within Business Central window for feature explanation or training purposes."
+    },
+    {
+      "kind": "fact",
+      "text": "Best practice: keep list to six items or less to avoid scrollbar, keep titles and descriptions short and include task benefits in descriptions."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00945,
+      "pages_in_call": 6
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/",
+  "page_id": "post/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "The session gets cancelled if the record changes or the page closes — so it is not suitable for list pages.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "A stopped recurring job that nobody notices is a common and costly problem.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "For scheduled tasks and Job Queue, the limit is 5 concurrent tasks per user.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005064,
+    "posts_in_call": 4
+  }
+}

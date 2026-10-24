@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:18:47.888Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -201,6 +201,7 @@ For design work, separate pages cover Word layouts (the Business Central add-in 
 ## More Learn pages
 
 - [Assign document layouts to customers or vendors](https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts): Use document layouts to control the appearance and format of documents such as invoices and orders that you send to customers and vendors.
+  - In the observatory: [Page 26 "Vendor Card"](../../../../objects/page/26.md)
 - [Available fonts](https://learn.microsoft.com/dynamics365/business-central/ui-fonts): Learn about the preinstalled fonts that you can use for your externally facing reports.
 - [Design Word Layouts with the Business Central Add-in](https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in): Learn how to use the Business Central Word add-in to add report fields, create repeating tables, add layout comments, and hide empty content.
 - [Get started creating report layouts](https://learn.microsoft.com/dynamics365/business-central/ui-get-started-layouts): Learn how to create and customize report layouts in Dynamics 365 Business Central.
@@ -209,6 +210,7 @@ For design work, separate pages cover Word layouts (the Business Central add-in 
 - [Set the Layout Used by a Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-set-report-layout): Learn how to select the default report layout for each company, temporarily use another layout, and distinguish layout selection from reusable branding.
 - [Set Up Report Themes and Header/Footer Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-set-up-report-themes-header-footer-layouts): Learn how to manage reusable report themes and header/footer layouts, approve them, and assign defaults across reports and companies in Business Central.
 - [Working with Excel layouts](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and modify report layouts that are built using Excel.
+  - In the observatory: [Page 9660 "Report Layouts"](../../../../objects/page/9660.md)
 - [Working with RDLC Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-rdlc-report-layouts): Get an introduction to RDLC report layouts.
 
 ## Business Central pages and reports

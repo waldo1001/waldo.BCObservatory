@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:25.523Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,9 +112,13 @@ The pages cover the full flow. Start with the pages on creating and managing int
 ## Learn pages
 
 - [Attachments for interactions](https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-attachments): Learn how to attach files, such as Word documents, to add details about an interaction.
+  - In the observatory: [Page 5076 "Interaction Log Entries"](../../../../objects/page/5076.md)
 - [Create and Manage Interactions with Contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-interactions-overview): Learn how to manage and record interactions with your contacts in Business Central to improve sales and marketing efforts.
 - [Create interactions on contacts and segments](https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-interactions): Learn how to create interactions in Business Central for communication that you have with your contacts and segments.
+  - In the observatory: [Page 5082 "Postponed Interactions"](../../../../objects/page/5082.md)
 - [Manage interactions with your contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-interactions): Learn how to record and manage all types of interactions with your contacts—such as emails, phone calls, meetings, and letters.
+  - In the observatory: [Page 5075 "Interaction Templates"](../../../../objects/page/5075.md), [Page 5076 "Interaction Log Entries"](../../../../objects/page/5076.md)
 - [Set up automatic recording of interactions](https://learn.microsoft.com/dynamics365/business-central/marketing-auto-record-interactions): Automatically record interactions with customers and contacts, including sales, purchase, and service documents, emails, and phone calls.
+  - In the observatory: [Page 5186 "Interaction Template Setup"](../../../../objects/page/5186.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

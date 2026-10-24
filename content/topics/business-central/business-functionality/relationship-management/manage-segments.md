@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:39.128Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,7 +111,9 @@ Start with "Create Segments" for how a segment is made and numbered with a numbe
 
 - [Add contacts to segments](https://learn.microsoft.com/dynamics365/business-central/marketing-add-contact-segment): Add contacts to a segment after creating it to target specific customers or clients as part of a marketing campaign.
 - [Create Segments](https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-segment): Describes how to create a segment for a group of contacts, for example, to target several contacts with a direct mail.
+  - In the observatory: [Page 5094 "Marketing Setup"](../../../../objects/page/5094.md)
 - [Keep track of segments and related interactions](https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-segments): Learn about creating segments to define groups of contacts and specifying interactions for segments.
+  - In the observatory: [Page 5091 "Segment"](../../../../objects/page/5091.md), [Page 5139 "Logged Segments"](../../../../objects/page/5139.md)
 - [Manage segments and select contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-segments): Learn how to create and manage segments by selecting groups of contacts based on specific criteria, enabling you to effectively target these segments in future campaigns.
 
 ## Videos, posts and code changes

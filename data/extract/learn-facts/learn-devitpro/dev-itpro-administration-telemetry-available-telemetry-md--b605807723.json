@@ -1,0 +1,27 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-available-telemetry.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry",
+  "title": "Available Telemetry",
+  "blob": "bfd83648841c65e75d7be648a717409d4f5b5c8d",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Business Central telemetry is organized by areas and by event IDs in Application Insights."
+    },
+    {
+      "kind": "fact",
+      "text": "Event IDs include application events, client events, lifecycle events, and runtime events."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003696,
+      "pages_in_call": 16
+    }
+  ]
+}

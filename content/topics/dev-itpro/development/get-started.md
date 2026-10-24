@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:05.799Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -277,7 +277,7 @@ narrative: generated
 
 > Getting started with AL development for Business Central: setting up Visual Studio Code and a sandbox, using editor tools (code actions, navigation, Explorer, formatter, Outline), Designer, translations, telemetry, runtime packages, ALTool, and AppSource publishing and validation. It answers setup, tooling and first-extension questions.
 
-Path: [Development](../development.md) > Get started · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../development.md) > Get started · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

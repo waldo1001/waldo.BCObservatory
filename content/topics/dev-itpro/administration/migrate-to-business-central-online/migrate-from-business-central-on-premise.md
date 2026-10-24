@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:15.176Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -235,6 +235,16 @@ The page in this hub, Complete cloud migration, covers the final phase. Start wi
 ## More Learn pages
 
 - [Complete cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish): This article describes the task you do to complete the data migration from on-premises to online.
+  - Final cloud migration phase handles record links and notes migration, disables cloud migration, runs API data upgrade, sets up users, maps user accounts, and reconfigures integrations.
+  - Step: Migrate record links and notes from buffer table to actual table via Migrate Record Links and Notes action on Cloud Migration Management page.
+  - Step: Disable cloud migration by selecting Complete Cloud, reading checklist information, toggling acknowledgment switch, then selecting Disable Cloud Migration and confirming.
+  - Step: Run API data upgrade by opening Cloud Migration Management, selecting Manage API Upgrade, choosing company, scheduling job queue entry for entities reset.
+  - Integration runtime remains installed after disabling cloud migration; cloud registration auto-cleans after 2 weeks of non-use if not used again.
+  - Limit: User accounts and permissions from Business Central on-premises are not migrated; each on-premises user requires new Microsoft 365 account with Business Central license.
+  - External integrations and services must be updated to reflect new environment URL and Microsoft Entra Tenant ID after migration.
+  - Prerequisite: User mappings can only execute once per environment and should be run as final step; test in sandbox before applying to production.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 

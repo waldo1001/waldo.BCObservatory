@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:34.650Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -185,17 +185,26 @@ This section covers the electronic payment methods in the Swiss version of Busin
 ## Learn pages
 
 - [Close an LSV Collection [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-close-an-lsv-collection): Learn how to close Lastschrift Verfahren (LSV+) collections to write LSV files to bank for payment collection.
+  - In the observatory: [Report 3010833 "LSV Close Collection (CH)"](../../../../../objects/report/3010833-ch.md), [Table 21 "Cust. Ledger Entry"](../../../../../objects/table/21.md), [Table 3010832 "LSV Journal (CH)"](../../../../../objects/table/3010832-ch.md)
 - [Export Payments Using LSV [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-export-payments-using-lsv): Learn how to export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection.
+  - In the observatory: [Page 3010832 "LSV Journal List (CH)"](../../../../../objects/page/3010832-ch.md), [Report 3010834 "Write LSV File (CH)"](../../../../../objects/report/3010834-ch.md)
 - [How to Post LSV+ payments](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-post-lsv-payments): Learn how to post payments after you receive Lastschrift Verfahren (LSV+) payment advice from the bank.
+  - In the observatory: [Page 3010832 "LSV Journal List (CH)"](../../../../../objects/page/3010832-ch.md)
 - [How to print ESR invoices [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-esr-invoices): Learn how to print an Einzahlungsschein mit Referenznummer (ESR) payment slip invoices and coupons.
+  - In the observatory: [Report 3010532 "Sales Invoice ESR (CH)"](../../../../../objects/report/3010532-ch.md), [Table 78 "Printer Selection"](../../../../../objects/table/78.md)
 - [Import ESR Payments [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-esr-payments): Learn how to electronically import ESR files from your bank, which include details about paid invoices. You can also receive this file by mail.
+  - In the observatory: [Table 3010531 "ESR Setup (CH)"](../../../../../objects/table/3010531-ch.md)
 - [Import Swiss Bank Clearing Numbers [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers): Learn how to import Swiss Bank Clearing Numbers using the Swiss version of Business Central.
+  - In the observatory: [Page 11501 "Bank Directory (CH)"](../../../../../objects/page/11501-ch.md), [Table 287 "Customer Bank Account"](../../../../../objects/table/287.md), [Table 288 "Vendor Bank Account"](../../../../../objects/table/288.md)
 - [Print Vendor Payments List Reports [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports): Learn how to generate the Vendor Payments List report, which provides a detailed overview of payments for each vendor, sorted either chronologically or by vendor grouping.
 - [Process an LSV collection [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-process-an-lsv-collection): Learn how to create and process payments using LSV journals for Lastschrift Verfahren (LSV+) customers in the Swiss version of Business Central.
+  - In the observatory: [Page 3010832 "LSV Journal List (CH)"](../../../../../objects/page/3010832-ch.md), [Page 3010834 "LSV Journal (CH)"](../../../../../objects/page/3010834-ch.md), [Table 3010832 "LSV Journal (CH)"](../../../../../objects/table/3010832-ch.md), [Table 3010834 "LSV Journal Line (CH)"](../../../../../objects/table/3010834-ch.md)
 - [QR-Bill Management [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/ui-extensions-qr-bill-management): Learn how the QR-Bill Management extension in Business Central simplifies the process of generating, sending, and importing QR-bills for streamlined payment management in Switzerland.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 190 "Incoming Documents"](../../../../../objects/page/190.md), [Page 29 "Vendor Ledger Entries"](../../../../../objects/page/29.md), [Page 306 "Report Selection - Sales"](../../../../../objects/page/306.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md)
 - [Swiss Electronic Payments](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments): Learn about electronic payment methods, ESR, LSV+, and SEPA credit transfers.
 - [Swiss Electronic Payments Using ESR [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr): Learn about the different tasks you can accomplish with the Einzahlungsschein mit Referenznummer (ESR) electronic payment method debtor service.
 - [Swiss electronic payments using LSV+ [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-): Learn about the LSV+, or direct debit, which is an electronic payment method that permits companies to retrieve payments directly from their customers' bank accounts.
+  - In the observatory: [Page 3010831 "LSV Setup (CH)"](../../../../../objects/page/3010831-ch.md)
 
 ## Business Central pages and reports
 

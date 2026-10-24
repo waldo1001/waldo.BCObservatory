@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:57:24.228Z"
   flags: []
 generated:
-  at: "2026-10-07T22:57:24.289Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -247,6 +247,25 @@ chapters:
     title: Branch strategies and pull request workflow practices
   - t: 1720
     title: Azure DevOps support, Copilot assistance and office hours wrap-up
+cautions:
+  - kind: preview-disclaimer
+    quote: page scripting visualizer uh in preview. Right now
+    t: 26
+  - kind: preview-disclaimer
+    quote: all BC container helper versions before version 6.1 might not work after May 1st due to security related work
+    t: 91
+  - kind: preview-disclaimer
+    quote: entire Nougat story should be finalized before October 1st is the goal
+    t: 165
+  - kind: preview-disclaimer
+    quote: BC container helper slated for retirement in the next two three years
+    t: 797
+  - kind: preview-disclaimer
+    quote: code coverage is also something that that we we I hope we'll be be able to do
+    t: 1395
+  - kind: preview-disclaimer
+    quote: next month where the office hour will be a morning one
+    t: 2050
 features:
   - name: Page scripting visualizer
     status: preview

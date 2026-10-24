@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:08:22.985Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,6 +70,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-51-dimension-no-in-dimension-value--f3607da2e9
+      title: "BC Friday Tips #51 Dimension No. in Dimension Value"
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/XN8a2zZe2a8
+      title: Become More Efficient With Background Posting
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/V2mfuDh8Kfk
+      title: Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/5zXQ_aIT03s
+      title: Control When People Can Post to the General Ledger
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: post/thedynamicsexplorer-com/37202
+      title: Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/lcu53ikOk7s
+      title: Safeguard G/L Accounts From Deletion
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/yLKISB83KW8
+      title: Set Up Your Local Currency (2024)
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/fIOnGEARkKs
+      title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1"
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/uxQRfChp96c
+      title: "What's New: Enhanced Financial Reporting (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: video/MWXwtRr6-Wk
+      title: "What's New: VAT Date in Business Central (2023 release wave 2)"
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
 video_id: kuKwjRyNcoE
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -182,3 +233,18 @@ Not found in BC28-30: page "General Journals", table "General Journal Line".
 - [0:30](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=30s) "use the normal preview posting or the test report actions to see if the data consistency of my journal is okay"
 - [1:02](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=62s) "a new fact box is now visible on the right side of the page called Journal check here it shows that there's an issue"
 - [1:17](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=77s) "it also shows Once you have focused on a specific line if there is any issue with that line"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [BC Friday Tips #51 Dimension No. in Dimension Value](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-51-dimension-no-in-dimension-value--f3607da2e9.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Become More Efficient With Background Posting](../videos/XN8a2zZe2a8.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)](../videos/V2mfuDh8Kfk.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Control When People Can Post to the General Ledger](../videos/5zXQ_aIT03s.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?](../posts/thedynamicsexplorer-com/37202.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Safeguard G/L Accounts From Deletion](../videos/lcu53ikOk7s.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Set Up Your Local Currency (2024)](../videos/yLKISB83KW8.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../videos/fIOnGEARkKs.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [What's New: Enhanced Financial Reporting (2026 release wave 1)](../videos/uxQRfChp96c.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [What's New: VAT Date in Business Central (2023 release wave 2)](../videos/MWXwtRr6-Wk.md) — possibly related: both name Page 118 "General Ledger Setup"

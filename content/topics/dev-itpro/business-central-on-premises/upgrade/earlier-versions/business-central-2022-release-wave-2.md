@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:44.262Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -209,6 +209,7 @@ This section collects the pages for upgrading to Business Central 2022 release w
 
 - [Business Central Upgrade Compatibility Matrix](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility): Provides an overview of the Business Central versions and their compatibility
 - [Code Conversion from C/AL to AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/devenv-code-conversion): Description of the conversion process from C/AL to AL.
+  - In the observatory: [Codeunit 150 "System Initialization"](../../../../../objects/codeunit/150.md)
 - [General Information and Considerations When Upgrading to Business Central 2022 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-considerations-v21): This article provides tips and considerations to prepare a solution when you're planning to upgrade to Business Central 2022 release wave 2.
 - [India Data migration Toolkit Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/india-data-migration-toolkit-overview): Specifies India Data Migration Toolkit Overview
 - [Install a version 21 update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v21): This article describes the tasks required for getting the monthly version 21 update applied to your Dynamics 365 Business Central on-premises.
@@ -220,9 +221,11 @@ This section collects the pages for upgrading to Business Central 2022 release w
 - [Technical Upgrade to Version 21](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v21): Describes how to do a technical upgrade from Business Central V18, V19, V20 to V21
 - [Upgrade to Business Central 2022 Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v21): Provides an overview of Business Central 2022 release wave 2 upgrade
 - [Upgrading Customized C/AL Application to Microsoft Base Application for version 21](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v21): Describes how to do an upgrade from a customized Business Central 14 to Microsoft Base Application for version 21.
+  - In the observatory: [Table 1670 "Option Lookup Buffer"](../../../../../objects/table/1670.md), [Table 265 "Document Entry"](../../../../../objects/table/265.md), [Table 338 "Entry Summary"](../../../../../objects/table/338.md), [Table 7330 "Bin Content Buffer"](../../../../../objects/table/7330.md)
 - [Upgrading Microsoft System and Base Application to Version 21](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v21): Describes how to upgrade an unmodified Business Central versions 15, 16, 17, 18, 19, or 20 to version 21
 - [Upgrading Permission Sets and Permissions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-permissions): Describes how to upgrade permissions and permission sets
 - [Upgrading Reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-reports): Describes how to upgrade reports
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md)
 - [Upgrading Unmodified C/AL Application to Version 21](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v14-v21): Describes how to upgrade an unmodified Business Central 14 application to version 21
 
 ## Business Central pages and reports

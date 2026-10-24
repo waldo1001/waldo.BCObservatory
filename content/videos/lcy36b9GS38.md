@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:53:46.954Z"
   flags: []
 generated:
-  at: "2026-10-07T22:53:46.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,6 +73,32 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/thedynamicsexplorer-com/9815
+      title: Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
+    - to: post/thedynamicsexplorer-com/36954
+      title: Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
+    - to: video/QdWPlIV3Avk
+      title: "What's new in SCM: Subcontracting (2026 release wave 2)"
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
+    - to: video/CCIGX86ljYQ
+      title: "What's New: Document Preview in E-Documents (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
+    - to: video/DJ3LPRxn27g
+      title: "What's New: Drop Shipments (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
 video_id: lcy36b9GS38
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -197,5 +223,15 @@ Not found in BC28-30: page "Item Charge", page "Item Charge Assignment".
 - [2:20](https://www.youtube.com/watch?v=lcy36b9GS38&t=140s) "I already mentioned it works only as a carbon footprint. So that means with a carbon 2 equivalent carbon dioxide equivalent only."
 - [3:04](https://www.youtube.com/watch?v=lcy36b9GS38&t=184s) "So you can use equally by amount by weight or volume all types are covered absolutely the same."
 - [3:18](https://www.youtube.com/watch?v=lcy36b9GS38&t=198s) "You just need to enable in a sustainability setup or procurement tab. You need to enable uh item charge and you need to enable"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../posts/thedynamicsexplorer-com/9815.md) — possibly related: both name Page 51 "Purchase Invoice"
+- [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../posts/thedynamicsexplorer-com/36954.md) — possibly related: both name Page 51 "Purchase Invoice"
+- [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Page 51 "Purchase Invoice"
+- [What's New: Document Preview in E-Documents (2025 release wave 1)](../videos/CCIGX86ljYQ.md) — possibly related: both name Page 51 "Purchase Invoice"
+- [What's New: Drop Shipments (2026 release wave 1)](../videos/DJ3LPRxn27g.md) — possibly related: both name Page 51 "Purchase Invoice"
 
 Presenters (as heard): Alexander Toto, Jacob Bang.

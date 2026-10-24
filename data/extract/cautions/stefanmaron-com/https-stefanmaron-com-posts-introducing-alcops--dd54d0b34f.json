@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/",
+  "page_id": "post/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "LinterCop and ALCops reuse the same diagnostic IDs, so running both at the same time will cause conflicts.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "preview-disclaimer",
+      "quote": "It's early — v0.1 alpha — but the idea is solid.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "If you migrate from LinterCop and see new warnings on code you thought was clean, this is likely the reason.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005238,
+    "posts_in_call": 4
+  }
+}

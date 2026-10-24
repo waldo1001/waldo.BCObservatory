@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:26.819Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -539,6 +539,7 @@ Start with "Administrative tasks in Business Central" for an overview, then go t
 - [Configure API Templates](https://learn.microsoft.com/dynamics365/business-central/admin-configuring-api-template): Describing the steps you must go through to configure API templates for Dynamics 365 Business Central.
 - [Configure text search language for multilingual environments](https://learn.microsoft.com/dynamics365/business-central/admin-optimize-text-search-language): Learn how to optimize modern search performance by configuring the text search language for your Business Central environment.
 - [Create new companies using an assisted setup guide](https://learn.microsoft.com/dynamics365/business-central/about-new-company): It's easy to create a new, blank company in Business Central. An assisted setup guide helps you through the steps, and you can import your business data.
+  - In the observatory: [Page 357 "Companies"](../../../objects/page/357.md)
 - [Enabling upcoming features ahead of time](https://learn.microsoft.com/dynamics365/business-central/admin-feature-management): Learn how to enable select, optional features before they become mandatory.
 - [Expose objects as web services](https://learn.microsoft.com/dynamics365/business-central/across-how-publish-web-service): Publish objects as web services to make them immediately available for your Business Central solution.
 - [Extend your trial version of Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-extend-trial): If you need more time to decide whether to subscribe to Dynamics 365 Business Central, you can extend your trial version once. Learn about your options.
@@ -548,7 +549,9 @@ Start with "Administrative tasks in Business Central" for an overview, then go t
 - [Privacy Notices Status in Business Central](https://learn.microsoft.com/dynamics365/business-central/privacy-notices-status): An overview of the Privacy Notices Status page in Business Central
 - [Sandbox environments](https://learn.microsoft.com/dynamics365/business-central/admin-sandbox-environments): Learn about how a dedicated environment can help you safely explore, learn, demo, develop, troubleshoot, and test Business Central.
 - [Schedule jobs to run automatically](https://learn.microsoft.com/dynamics365/business-central/admin-job-queues-schedule-tasks): Learn how to use job queue entries to run reports and codeunits.
+  - In the observatory: [Page 1518 "My Notifications"](../../../objects/page/1518.md), [Page 3845 "Scheduled Tasks"](../../../objects/page/3845.md)
 - [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
+  - In the observatory: [Page 2616 "Printer Management"](../../../objects/page/2616.md), [Page 64 "Printer Selections"](../../../objects/page/64.md)
 - [Specify available languages in your environment](https://learn.microsoft.com/dynamics365/business-central/admin-allowed-languages): Learn how to build a list of the languages that are available in your Business Central environment.
 - [View table information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information): Learn how you can view information about the database tables in Business Central.
 

@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T22:43:27.853Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -94,6 +94,7 @@ links:
   objects: []
   features:
     - feature/573255
+    - feature/573260
   topics: []
   localizations: []
   videos: []
@@ -129,6 +130,24 @@ chapters:
     title: Alternate and delegated approvers
   - t: 622
     title: Travel request approval and closing
+cautions:
+  - kind: preview-disclaimer
+    quote: from next minor from November in some situations, you need more approvers
+    t: 415
+  - kind: preview-disclaimer
+    quote: coming from uh November 29.1. Better messaging during approval process
+    t: 468
+    versions:
+      - "29"
+  - kind: preview-disclaimer
+    quote: from uh November uh minor, you will be able to set up approver with a uh with a maximum approval amount
+    t: 502
+  - kind: preview-disclaimer
+    quote: this is again based on feedback, and we will have two options
+    t: 543
+  - kind: preview-disclaimer
+    quote: We have separate session about travel request, so you can go there and see what is about
+    t: 622
 features:
   - name: AI-driven approval policies
     status: preview
@@ -148,10 +167,12 @@ features:
     verified: false
     status_source: video
   - name: Interim approvers
-    status: unclear
+    status: announced
     t: 405
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573260"
   - name: Better approval messaging
     status: announced
     t: 468
@@ -243,7 +264,7 @@ The second half covers features described as coming in the November release (29.
 | AI-driven approval policies | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [0:53](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=53s) |  |
 | Enhanced approval history and audit trail | status not stated, demoed | [3:24](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=204s) |  |
 | Employee manual compliance checks | status not stated | [2:47](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=167s) |  |
-| Interim approvers | status not stated | [6:45](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=405s) |  |
+| Interim approvers | announced (roadmap [Add an interim approver when you submit an expense report](../features/573260.md)) | [6:45](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=405s) |  |
 | Better approval messaging | announced | [7:48](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=468s) | "some other approvals again uh coming from uh November 29.1. Better messaging during approval process." ([7:48](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=468s)) |
 | Approval limits | announced | [8:12](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=492s) | "from uh November uh minor, you will be able to set up approver with a uh with a maximum approval amount, for example, $2,000" ([8:22](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=502s)) |
 | Ad hoc alternate approvers | status not stated | [9:03](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=543s) |  |

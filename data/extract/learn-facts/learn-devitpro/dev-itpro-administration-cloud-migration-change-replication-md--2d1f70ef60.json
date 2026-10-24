@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-change-replication.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-change-replication",
+  "title": "Change the way data is replicated to Business Central online",
+  "blob": "3657c20b06320ee42b0bf0dfdc06dba02dceade6",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Change how data is replicated feature allows including or excluding tables and choosing whether to replace or update only missing records."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Cloud migration setup must be completed before changing replication settings."
+    },
+    {
+      "kind": "limit",
+      "text": "Do not modify Permissions-related tables because on-premises and online permissions are incompatible."
+    },
+    {
+      "kind": "fact",
+      "text": "Losing permissions access may require deleting and recreating environment or using point-in-time restore."
+    },
+    {
+      "kind": "step",
+      "text": "Open Cloud Migration Management page, select Show the rest, More options, Actions, then Change how the data is replicated."
+    },
+    {
+      "kind": "fact",
+      "text": "Replicate data checkbox includes or excludes table from migration; Preserve the cloud data checkbox controls whether existing online records are kept."
+    },
+    {
+      "kind": "fact",
+      "text": "View changed records action shows tables not using default settings; Reset to default action reverts custom settings."
+    },
+    {
+      "kind": "fact",
+      "text": "Show history action displays all changes made to replication settings."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007119,
+      "pages_in_call": 7
+    }
+  ]
+}

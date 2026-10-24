@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:50:13.585Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -113,11 +113,23 @@ links:
     - object/table/6227
   features:
     - feature/573379
+    - feature/576874
   topics: []
   localizations: []
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/6d6iajwQQ-c
+      title: "What's New: Value Chain Automation with Production Orders (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 6227 "Sustainability Value Entry"
+      by: code
+    - to: video/bnqxycPzbeI
+      title: "What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 6227 "Sustainability Value Entry"
+      by: code
 video_id: lqVWc-Yuots
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -150,27 +162,45 @@ chapters:
     title: Demo of item card carbon tracking and product classification
   - t: 627
     title: Closing and resources
+cautions:
+  - kind: preview-disclaimer
+    quote: This is now in a public preview.
+    t: 358
+  - kind: preview-disclaimer
+    quote: this is currently in a public preview
+    t: 395
+  - kind: preview-disclaimer
+    quote: If you want to check specific method, please do it in a sandbox because this is a public preview.
+    t: 627
 features:
   - name: Posted ESG reporting lines API
-    status: unclear
+    status: ga
     t: 45
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576874"
   - name: Sustainability value entry API
-    status: unclear
+    status: ga
     t: 114
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576874"
   - name: Sustainability purchase line API
-    status: unclear
+    status: ga
     t: 140
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576874"
   - name: Sustainability goals API
-    status: unclear
+    status: ga
     t: 178
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576874"
   - name: ESG sales invoice layouts
     status: unclear
     t: 193
@@ -273,10 +303,10 @@ It then covers product classification on the item card with UNSPSC support, and 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Posted ESG reporting lines API | status not stated | [0:45](https://www.youtube.com/watch?v=lqVWc-Yuots&t=45s) |  |
-| Sustainability value entry API | status not stated | [1:54](https://www.youtube.com/watch?v=lqVWc-Yuots&t=114s) |  |
-| Sustainability purchase line API | status not stated | [2:20](https://www.youtube.com/watch?v=lqVWc-Yuots&t=140s) |  |
-| Sustainability goals API | status not stated | [2:58](https://www.youtube.com/watch?v=lqVWc-Yuots&t=178s) |  |
+| Posted ESG reporting lines API | generally available (roadmap [Use new APIs in Sustainability for better integration](../features/576874.md)) | [0:45](https://www.youtube.com/watch?v=lqVWc-Yuots&t=45s) |  |
+| Sustainability value entry API | generally available (roadmap [Use new APIs in Sustainability for better integration](../features/576874.md)) | [1:54](https://www.youtube.com/watch?v=lqVWc-Yuots&t=114s) |  |
+| Sustainability purchase line API | generally available (roadmap [Use new APIs in Sustainability for better integration](../features/576874.md)) | [2:20](https://www.youtube.com/watch?v=lqVWc-Yuots&t=140s) |  |
+| Sustainability goals API | generally available (roadmap [Use new APIs in Sustainability for better integration](../features/576874.md)) | [2:58](https://www.youtube.com/watch?v=lqVWc-Yuots&t=178s) |  |
 | ESG sales invoice layouts | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=lqVWc-Yuots&t=193s) |  |
 | ESG sales quote layouts | status not stated, demoed | [3:43](https://www.youtube.com/watch?v=lqVWc-Yuots&t=223s) |  |
 | Product classification item card field | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=lqVWc-Yuots&t=256s) |  |
@@ -312,5 +342,12 @@ Not found in BC28-30: table "Sustainability purchase line", table "Product class
 - [5:58](https://www.youtube.com/watch?v=lqVWc-Yuots&t=358s) preview: This is now in a public preview.
 - [6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s) preview: this is currently in a public preview
 - [10:27](https://www.youtube.com/watch?v=lqVWc-Yuots&t=627s) preview: If you want to check specific method, please do it in a sandbox because this is a public preview.
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [What's New: Value Chain Automation with Production Orders (2025 release wave 1)](../videos/6d6iajwQQ-c.md) — possibly related: both name Table 6227 "Sustainability Value Entry"
+- [What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)](../videos/bnqxycPzbeI.md) — possibly related: both name Table 6227 "Sustainability Value Entry"
 
 Presenters (as heard): Aleksandar Totovic.

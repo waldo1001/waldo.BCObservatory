@@ -6,12 +6,12 @@ summary: "Marketplace validation covers what partners need to publish Business C
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:47.434Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -161,7 +161,7 @@ narrative: generated
 
 > Marketplace validation covers what partners need to publish Business Central apps on the Microsoft marketplace: the technical validation checklist, marketing validation rules, and guidance on landing pages and videos. It answers questions about submission requirements, self-validation, listing content and branding.
 
-Path: [Get started](../../get-started.md) > [Develop](../develop.md) > Marketplace validation · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [Get started](../../get-started.md) > [Develop](../develop.md) > Marketplace validation · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

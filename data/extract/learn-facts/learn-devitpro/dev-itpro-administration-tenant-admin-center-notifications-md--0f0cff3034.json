@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-notifications.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-notifications",
+  "title": "Manage Tenant-Specific Notifications",
+  "blob": "a601574ef6d6680d4ec3b69bd77025df5f8d3982",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Notification recipients receive email when major updates are available, updates succeed or fail, and extensions require compatibility changes."
+    },
+    {
+      "kind": "fact",
+      "text": "Notifications are sent to all email addresses listed in the Notification recipients list of the admin center."
+    },
+    {
+      "kind": "limit",
+      "text": "Up to 100 notification recipients can be added; use a distribution list to support more recipients."
+    },
+    {
+      "kind": "fact",
+      "text": "Most environment lifecycle events posted to email are also posted to Microsoft 365 Message Center."
+    },
+    {
+      "kind": "fact",
+      "text": "If an incompatible app is not uninstalled after 4-5 months of notifications, Microsoft force-uninstalls the app without deleting data."
+    },
+    {
+      "kind": "fact",
+      "text": "Trial prospects must sign up for notifications to receive alerts about trial expiration and environment status."
+    }
+  ],
+  "dropped": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00629,
+      "pages_in_call": 8
+    }
+  ]
+}

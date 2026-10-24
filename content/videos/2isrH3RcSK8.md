@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:03:35.392Z"
   flags: []
 generated:
-  at: "2026-10-23T01:10:04.337Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -224,9 +224,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573329
-    - feature/573384
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -278,6 +276,22 @@ chapters:
     title: Page Scripting and DevOps Enhancements
   - t: 2218
     title: Closing Remarks and Q&A
+cautions:
+  - kind: preview-disclaimer
+    quote: search it's in preview uh right now in this month it will come out uh in next month
+    t: 877
+  - kind: preview-disclaimer
+    quote: this capability is coming out in preview
+    t: 1079
+  - kind: preview-disclaimer
+    quote: we still encourage many of you to and all of you to keep latest to make sure that your Solutions are easily updatable
+    t: 1119
+  - kind: preview-disclaimer
+    quote: please take a look at the preview which we published at aka.ms BC ups
+    t: 1803
+  - kind: preview-disclaimer
+    quote: we are gradually coming to the place where we would like to expand this private preview into the public preview so there will definitely be a further announcements on this topic
+    t: 1884
 features:
   - name: Copilot enabled by default
     status: unclear
@@ -375,12 +389,10 @@ features:
     verified: false
     status_source: video
   - name: Word reporting conditional formatting
-    status: ga
+    status: unclear
     t: 937
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573329"
+    status_source: video
   - name: Community contributions
     status: unclear
     t: 978
@@ -492,12 +504,10 @@ features:
     verified: false
     status_source: video
   - name: Page scripting in pipelines
-    status: ga
+    status: unclear
     t: 2176
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573384"
+    status_source: video
 objects_mentioned:
   - other Analysis View
   - other Customer page
@@ -642,7 +652,7 @@ It then covers Power Automate, modern search in preview, column resizing and acc
 | Keyboard access keys in multiple languages | status not stated | [14:17](https://www.youtube.com/watch?v=2isrH3RcSK8&t=857s) |  |
 | Modern search in preview | preview | [14:37](https://www.youtube.com/watch?v=2isrH3RcSK8&t=877s) | "it's in preview uh right now in this month it will come out uh in next month" ([14:37](https://www.youtube.com/watch?v=2isrH3RcSK8&t=877s)) |
 | Column resizing without personalization | status not stated | [15:17](https://www.youtube.com/watch?v=2isrH3RcSK8&t=917s) |  |
-| Word reporting conditional formatting | generally available (roadmap [Use conditional visibility in the updated Word add-in](../features/573329.md)) | [15:37](https://www.youtube.com/watch?v=2isrH3RcSK8&t=937s) |  |
+| Word reporting conditional formatting | status not stated | [15:37](https://www.youtube.com/watch?v=2isrH3RcSK8&t=937s) |  |
 | Community contributions | status not stated | [16:18](https://www.youtube.com/watch?v=2isrH3RcSK8&t=978s) |  |
 | Flexible update management | preview | [17:59](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1079s) | "this capability is coming out in preview and what is it this is ability for the administrators to postpone the updates" ([17:59](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1079s)) |
 | Partner access assignment to specific environments | status not stated | [19:40](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1180s) |  |
@@ -665,9 +675,7 @@ It then covers Power Automate, modern search in preview, column resizing and acc
 | Modern search performance improvement | status not stated | [33:39](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2019s) |  |
 | Job queue priority and execution order | status not stated | [34:20](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2060s) |  |
 | Warehouse ledger entry posting pattern refactor | status not stated | [35:00](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2100s) |  |
-| Page scripting in pipelines | generally available (roadmap [Page Scripting enters General Availability](../features/573384.md)) | [36:16](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2176s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
+| Page scripting in pipelines | status not stated | [36:16](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2176s) |  |
 
 ## AL objects mentioned
 

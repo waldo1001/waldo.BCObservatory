@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:26.790Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -129,9 +129,13 @@ Start with the overview page on vendor payments and customer bills to see the fo
 ## Learn pages
 
 - [Automatic Payments and Automatic Bills [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills): Learn how to set up automatic payments and bills in the Italian version of Business Central.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 12184 "Bill (IT)"](../../../../../objects/page/12184-it.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md), [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md)
 - [Issue Vendor Payments and Customer Bills (IT)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills): The vendor and customer bill pay feature supports SEPA-based formats in addition to Italian file formats.
+  - In the observatory: [Page 12185 "Vendor Bill Card (IT)"](../../../../../objects/page/12185-it.md), [Page 12190 "Vendor Bill List Sent Card (IT)"](../../../../../objects/page/12190-it.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md), [Page 426 "Vendor Bank Account List"](../../../../../objects/page/426.md)
 - [Set Up Payment Terms (IT)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-payment-terms): In Business Central for Italy, you can define payment terms that allow payments in one or multiple installments, specifying details for each installment as needed.
+  - In the observatory: [Page 12170 "Payment Terms Lines (IT)"](../../../../../objects/page/12170-it.md), [Page 4 "Payment Terms"](../../../../../objects/page/4.md)
 - [Vendor Payments Customer Bills Overview [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview): Manage automatic customer bills and vendor payments in the Italian version of Business Central.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md)
 
 ## Business Central pages and reports
 

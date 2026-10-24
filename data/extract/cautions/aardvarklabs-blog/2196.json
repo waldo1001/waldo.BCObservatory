@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2196",
+  "page_id": "post/aardvarklabs-blog/2196",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "You can't test the reports in Word; they must be uploaded to Business Central.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Don't overwrite a perfectly good working report with an untested version.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004408,
+    "posts_in_call": 4
+  }
+}

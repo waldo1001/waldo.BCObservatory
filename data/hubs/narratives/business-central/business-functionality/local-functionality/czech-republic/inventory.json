@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.018111000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:54:58.161Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview says several posting setups 'rely on templates'. The page summaries only directly support this for physical inventory; for transfer orders the link is through Gen. Bus. Posting Groups. The wording is close enough to keep.",
+      "Minor: no key point covers the G/L reconciliation enhancements (inventory rounding account and intermediate WIP account). The overview does mention them."
+    ],
+    "input_hash": "37480cdc21d0d32bce737532a40f13c2b13572639dc3049f287a0a21f19783d1",
+    "cost_usd": 0.0429112
   }
 }

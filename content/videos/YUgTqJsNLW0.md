@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:20:56.575Z"
   flags: []
 generated:
-  at: "2026-10-07T23:20:56.610Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -71,6 +71,10 @@ chapters:
     title: Experience with conversational AI agents
   - t: 18
     title: Future vision for Business Central agents
+cautions:
+  - kind: preview-disclaimer
+    quote: eventually, I would think that Business Central would have that down the road
+    t: 18
 features:
   - name: Business manager agent with conversational interface
     status: unclear

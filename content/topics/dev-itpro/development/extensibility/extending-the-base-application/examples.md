@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:44.651Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -185,17 +185,29 @@ Start with the page that matches your area. Some pages center on implementing in
 ## Learn pages
 
 - [Extend Pages Based on the Date Virtual Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-pages-based-on-date-virtual-table): Learn how to extend Business Central pages that previously used the Date virtual table, by extending the buffer table and subscribing to the OnAfterCalcLine event.
+  - In the observatory: [Page 416 "G/L Account Balance Lines"](../../../../../objects/page/416.md), [Table 926 "G/L Acc. Balance Buffer"](../../../../../objects/table/926.md)
 - [Extending currency exchange rate adjustments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-exchange-rates): Explore opportunities to add capabilities to exchange rate adjustments.
+  - In the observatory: [Report 596 "Exch. Rate Adjustment"](../../../../../objects/report/596.md)
 - [Extending Customer, Vendor, and Item Templates](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-templates): How you extend templates in Dynamics 365 Business Central.
+  - In the observatory: [Codeunit 1381 "Customer Templ. Mgt."](../../../../../objects/codeunit/1381.md), [Page 1382 "Customer Templ. Card"](../../../../../objects/page/1382.md), [Table 1381 "Customer Templ."](../../../../../objects/table/1381.md)
 - [Extending Document Sharing and OneDrive for Business](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-document-sharing-onedrive): Learn how the document sharing capability is used with OneDrive for Business, and how you can extend it.
+  - In the observatory: [Codeunit 9510 "Document Service Management"](../../../../../objects/codeunit/9510.md), [Codeunit 9560 "Document Sharing"](../../../../../objects/codeunit/9560.md), [Table 9560 "Document Sharing"](../../../../../objects/table/9560.md)
 - [Extending Email](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-email): Learn how to extend the email capabilities in Business Central.
+  - In the observatory: [Codeunit 8893 "Email Scenario"](../../../../../objects/codeunit/8893.md), [Codeunit 8945 "Email Address Lookup"](../../../../../objects/codeunit/8945.md), [Enum 8890 "Email Scenario"](../../../../../objects/enum/8890.md), [Enum 8930 "Email View Policy"](../../../../../objects/enum/8930.md), [Enum 8945 "Email Address Entity"](../../../../../objects/enum/8945.md), [Interface "Email Connector"](../../../../../objects/interface/email-connector.md)
 - [Extending error messages with recommendations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-errors-recommendations): Overview of how you can extend the error messages with recommendations framework to reduce friction for users of Business Central.
+  - In the observatory: [Codeunit 28 "Error Message Management"](../../../../../objects/codeunit/28.md), [Codeunit 7900 "ErrorMessagesActionHandler"](../../../../../objects/codeunit/7900.md), [Codeunit 7901 "Execute Error Action"](../../../../../objects/codeunit/7901.md), [Enum 7901 "Error Msg. Fix Implementation"](../../../../../objects/enum/7901.md), [Interface "ErrorMessageFix"](../../../../../objects/interface/errormessagefix.md), [Page 700 "Error Messages"](../../../../../objects/page/700.md)
 - [Extending G/L entry aggregations when posting invoices](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-invoice-posting-example): Explore an example of how to extend the posting process for sales, purchase, and service documents.
+  - In the observatory: [Codeunit 815 "Sales Post Invoice"](../../../../../objects/codeunit/815.md), [Enum 815 "Sales Invoice Posting"](../../../../../objects/enum/815.md), [Enum 816 "Purchase Invoice Posting"](../../../../../objects/enum/816.md), [Enum 817 "Service Invoice Posting"](../../../../../objects/enum/817.md), [Interface "Invoice Posting"](../../../../../objects/interface/invoice-posting.md), [Table 55 "Invoice Posting Buffer"](../../../../../objects/table/55.md)
 - [Extending Item Charges Distribution Methods](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-item-charges): How you extend item charges in Dynamics 365 Business Central.
+  - In the observatory: [Codeunit 5805 "Item Charge Assgnt. (Purch.)"](../../../../../objects/codeunit/5805.md), [Codeunit 5807 "Item Charge Assgnt. (Sales)"](../../../../../objects/codeunit/5807.md), [Table 39 "Purchase Line"](../../../../../objects/table/39.md), [Table 5805 "Item Charge Assignment (Purch)"](../../../../../objects/table/5805.md)
 - [Extending Price Calculations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-best-price-calculations): How you extend the price calculations in Dynamics 365 Business Central.
+  - In the observatory: [Enum 7000 "Price Calculation Method"](../../../../../objects/enum/7000.md), [Enum 7004 "Price Asset Type"](../../../../../objects/enum/7004.md), [Enum 7009 "Price Type"](../../../../../objects/enum/7009.md), [Enum 7011 "Price Calculation Handler"](../../../../../objects/enum/7011.md), [Interface "Line With Price"](../../../../../objects/interface/line-with-price.md), [Interface "Price Calculation"](../../../../../objects/interface/price-calculation.md)
 - [Extending Shopify](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify): Discover extensibility options for the Shopify Connector, including event subscriptions, API interactions, and co-development contributions.
+  - In the observatory: [Codeunit 30115 "Shpfy Customer Events"](../../../../../objects/codeunit/30115.md), [Codeunit 30162 "Shpfy Order Events"](../../../../../objects/codeunit/30162.md), [Codeunit 30177 "Shpfy Product Events"](../../../../../objects/codeunit/30177.md), [Codeunit 30199 "Shpfy Authentication Mgt."](../../../../../objects/codeunit/30199.md), [Enum 30135 "Shpfy Stock Calculation"](../../../../../objects/enum/30135.md), [Interface "Shpfy IStock Available"](../../../../../objects/interface/shpfy-istock-available.md)
 - [Extending the Data Archive extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-data-archive-extension): Overview and examples of how to enable your app to archive data.
+  - In the observatory: [Codeunit 600 "Data Archive"](../../../../../objects/codeunit/600.md)
 - [Extending the e-documents functionality](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments): Learn how to extend e-documents functionality with specific requirements.
+  - In the observatory: [Codeunit 6109 "E-Document Import Helper"](../../../../../objects/codeunit/6109.md), [Codeunit 6115 "E-Document Error Helper"](../../../../../objects/codeunit/6115.md), [Codeunit 6148 "E-Document Helper"](../../../../../objects/codeunit/6148.md), [Enum 6101 "E-Document Format"](../../../../../objects/enum/6101.md), [Enum 6121 "E-Document Type"](../../../../../objects/enum/6121.md), [Enum 6128 "E-Document Processing Phase"](../../../../../objects/enum/6128.md)
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:38.666Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -210,14 +210,23 @@ Supporting pages explain behavior that affects results. "Planning With or Withou
 ## Learn pages
 
 - [About planning functionality](https://learn.microsoft.com/dynamics365/business-central/production-about-planning-functionality): Learn how planning uses demand and supply data to suggest how to balance supply to meet demand.
+  - In the observatory: [Page 5522 "Order Planning"](../../../objects/page/5522.md), [Page 99000852 "Planning Worksheet"](../../../objects/page/99000852.md)
 - [Create a demand forecast](https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-a-forecast): Learn about the demand forecasting features, and how you can create sales and production forecasts.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../objects/page/461.md)
 - [Create Production Orders from Sales Orders](https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-production-orders-from-sales-orders): Learn different ways to create production orders for produced items directly from sales orders.
+  - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md)
 - [Plan for New Demand Order by Order](https://learn.microsoft.com/dynamics365/business-central/production-how-to-plan-for-new-demand): This planning task can be performed on the Order Planning page, which displays all new demand along with availability information and suggestions for supply, including item substitution.
+  - In the observatory: [Page 9324 "Planned Production Orders"](../../../objects/page/9324.md), [Page 99000852 "Planning Worksheet"](../../../objects/page/99000852.md)
 - [Planning With or Without Locations](https://learn.microsoft.com/dynamics365/business-central/production-planning-with-without-locations): In this topic learn about production and manufacturing, including supply planning, in Business Central.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../objects/page/461.md), [Page 99000768 "Manufacturing Setup"](../../../objects/page/99000768.md)
 - [Replan or refresh production orders directly](https://learn.microsoft.com/dynamics365/business-central/production-how-to-replan-refresh-production-orders): This article outlines the procedures for how to replan production orders and refresh production orders directly.
+  - In the observatory: [Page 9325 "Firm Planned Prod. Orders"](../../../objects/page/9325.md), [Page 99000768 "Manufacturing Setup"](../../../objects/page/99000768.md)
 - [Run Full Planning, MPS, or MRP](https://learn.microsoft.com/dynamics365/business-central/production-how-to-run-mps-and-mrp): The planning system can calculate either Master Production Schedule (MPS) or Material Requirements Planning (MRP) on request, or both at the same time.
+  - In the observatory: [Page 5430 "Planning Error Log"](../../../objects/page/5430.md), [Page 99000768 "Manufacturing Setup"](../../../objects/page/99000768.md), [Page 99000822 "Order Tracking"](../../../objects/page/99000822.md)
 - [Supply Planning](https://learn.microsoft.com/dynamics365/business-central/production-planning): Prepare a detailed executable plan and the final-assembly production schedule for sales and production demand.
+  - In the observatory: [Page 5522 "Order Planning"](../../../objects/page/5522.md), [Page 99000852 "Planning Worksheet"](../../../objects/page/99000852.md)
 - [Track Relations Between Demand and Supply](https://learn.microsoft.com/dynamics365/business-central/production-how-track-demand-supply): This topic explains the different ways to track relations between demand and supply such as tracking linked items and dealing with untracked planing elements.
+  - In the observatory: [Page 5522 "Order Planning"](../../../objects/page/5522.md), [Page 99000829 "Firm Planned Prod. Order"](../../../objects/page/99000829.md), [Page 99000852 "Planning Worksheet"](../../../objects/page/99000852.md)
 
 ## Videos, posts and code changes
 

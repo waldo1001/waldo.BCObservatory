@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:18:40.749Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:40.807Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -103,6 +103,20 @@ chapters:
     title: Upgrade in Progress and Data Considerations
   - t: 675
     title: Summary and Call to Action
+cautions:
+  - kind: preview-disclaimer
+    quote: Microsoft deletes those environment 30 days after the version becomes generally available.
+    t: 495
+    versions:
+      - "30"
+  - kind: preview-disclaimer
+    quote: This environment will only be available 30 days after the GA.
+    t: 521
+    versions:
+      - "30"
+  - kind: preview-disclaimer
+    quote: Don't treat this as a permanent sandbox it is just temporarily for testing.
+    t: 551
 features:
   - name: Update existing sandbox to preview version
     status: unclear

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:29.221Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,10 +110,8 @@ links:
     - topic/dev-itpro/development
   localizations: []
   videos:
-    - video/6dEZQlmBlyI
     - video/jqVt0hYDfz0
-  posts:
-    - post/bertverbeek-nl/1143
+  posts: []
   guidelines: []
 learn_toc_path:
   - Development
@@ -124,8 +122,8 @@ children: []
 coverage:
   learn: 7
   code: 28
-  video: 2
-  blog: 1
+  video: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 16
@@ -190,17 +188,18 @@ For Excel reporting, "Working with Excel layouts" covers creating, configuring a
 - [Analyze list page and query data using data analysis](https://learn.microsoft.com/dynamics365/business-central/analysis-mode): Learn how to use the analysis mode in Business Central to analyze data.
 - [Analyzing, pivoting, and sharing data in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reporting-options-overview): Introducing the options you have for creating Business Central reports that analyze, pivot, and share data.
 - [Creating an Excel layout report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout): Learn how to create an Excel layout report.
+  - In the observatory: [Report 5050 "Contact - List"](../../../objects/report/5050.md)
 - [Embed Power BI reports in pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts): Explains how to display Power BI reports on pages in Business Central
+  - In the observatory: [Page 6323 "Power BI Element Card"](../../../objects/page/6323.md), [Page 6324 "Power BI Element Addin Host"](../../../objects/page/6324.md), [Page 6325 "Power BI Embedded Report Part"](../../../objects/page/6325.md), [Page 6327 "Power BI Embed Setup Wizard"](../../../objects/page/6327.md), [Table 6312 "Power BI Displayed Element"](../../../objects/table/6312.md), [Table 6314 "Power BI Context Settings"](../../../objects/table/6314.md)
 - [Introduction to Business Central and Power BI](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi): Get an overview of using Power BI to get insights from your Business Central data.
 - [Query Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-overview): Description of the query object.
 - [Working with Excel layouts](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and modify report layouts that are built using Excel.
+  - In the observatory: [Page 9660 "Report Layouts"](../../../objects/page/9660.md)
 
 ## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [[Preview] bc2adls and Fabric Open Mirroring](../../../posts/bertverbeek-nl/1143.md) (community post): "bc2adls release 26.32 adds preview support for Microsoft Fabric Open Mirroring"
-- [Use Data from a Report inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../../../videos/6dEZQlmBlyI.md) (video): "Report Region in Advanced Spreadsheets; Query Region; Chart Creation"
 - [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../../../videos/jqVt0hYDfz0.md) (video): "Delivering Analysis Views in AL Extensions. Topics: analysis views; al extensions"
 
 ## Business Central pages and reports

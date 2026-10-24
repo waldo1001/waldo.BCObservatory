@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/",
+  "page_id": "post/stefanmaron-com/https-stefanmaron-com-posts-modify-deserves-the-same-rule-as-validate--71cb43acff",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "today it can't ask for Validate() to run at all, only OnModify",
+      "objects": [],
+      "events": [
+        "OnModify"
+      ],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004417,
+    "posts_in_call": 4
+  }
+}

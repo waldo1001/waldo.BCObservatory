@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-open-in-excel-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-open-in-excel-trace",
+  "title": "Analyze Open in Excel telemetry",
+  "blob": "331a591f319696cf931eabb9eb7722ff7a9de504",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available in Business Central 2026 release wave 2 and later."
+    },
+    {
+      "kind": "fact",
+      "text": "Open in Excel telemetry captures when users export data from Business Central using Open in Excel action."
+    },
+    {
+      "kind": "fact",
+      "text": "Event RT0056 records page ID, name, object type, extension details, client type, company name, and environment information."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry includes stack trace, extension publisher, version info, and component version to help identify which extension initiated the Excel export."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010146,
+      "pages_in_call": 5
+    }
+  ]
+}

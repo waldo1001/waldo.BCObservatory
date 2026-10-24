@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:34.744Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,8 +111,11 @@ For reporting, start with "Create and print a Swiss VAT statement [CH]". It desc
 ## Learn pages
 
 - [Create and print a Swiss VAT statement [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement): Learn the steps to create and print a Swiss VAT Statement using details configured on the VAT Posting Setup page.
+  - In the observatory: [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md), [Report 26100 "Swiss VAT Statement (CH)"](../../../../../objects/report/26100-ch.md)
 - [How to Print Swiss VAT Statements (older version)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-): Learn how to print the Swiss VAT statement to use it for quarterly tax reporting.
+  - In the observatory: [Report 26100 "Swiss VAT Statement (CH)"](../../../../../objects/report/26100-ch.md)
 - [Swiss Value Added [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax): This article explains several enhancements that have been made to the Swiss VAT reporting features.
+  - In the observatory: [Table 254 "VAT Entry"](../../../../../objects/table/254.md), [Table 325 "VAT Posting Setup"](../../../../../objects/table/325.md), [Table 330 "Currency Exchange Rate"](../../../../../objects/table/330.md), [Table 98 "General Ledger Setup"](../../../../../objects/table/98.md)
 - [VAT rates for Switzerland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/vat-rates-for-switzerland): Learn how to manage VAT rate changes using the VAT rate change tool.
 
 ## Videos, posts and code changes

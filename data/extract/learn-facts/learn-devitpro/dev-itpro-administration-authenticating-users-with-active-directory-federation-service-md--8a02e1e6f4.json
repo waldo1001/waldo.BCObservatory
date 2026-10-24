@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/authenticating-users-with-active-directory-federation-service.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-active-directory-federation-service",
+  "title": "Authenticating Users with Active Directory Federation Services",
+  "blob": "cdf98910bf819fe3c24273dca51ae9f808beaf8f",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Active Directory Federation Services must be installed and accessible via public URL from the server running Business Central Server."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Business Central deployment requires Server, Web server configured with SSL, and optionally Windows client and admin tools."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Deployment must be configured with security certificates to secure remote connections."
+    },
+    {
+      "kind": "step",
+      "text": "Create a Relying Party Trust in AD FS for Web or Windows client separately, specifying the client URL and a unique trust identifier."
+    },
+    {
+      "kind": "step",
+      "text": "Set up claim rules in AD FS for either SAML tokens with name and objectidentifier claims, or JWT tokens with equivalent custom rules."
+    },
+    {
+      "kind": "step",
+      "text": "Configure Server credential type to NavUserPassword or AccessControlService, set federation metadata location, and configure login endpoints for each client type."
+    },
+    {
+      "kind": "step",
+      "text": "Map Business Central users to AD FS accounts by setting Authentication Email field to user's UPN, starting in Inactive status until first sign-in."
+    },
+    {
+      "kind": "fact",
+      "text": "Web server must be reconfigured to use AccessControlService credential type in navsettings.json file, picked up automatically by IIS."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

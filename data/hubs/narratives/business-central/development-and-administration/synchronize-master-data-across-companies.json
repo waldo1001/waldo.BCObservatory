@@ -6,7 +6,7 @@
   "key_points": [
     "Synchronization is uni-directional, from a source company to subsidiary companies, using a pull model.",
     "It applies to nontransactional master data such as customers, vendors, and items.",
-    "Match-based coupling works with a priority order, and new records can be created when no match is found.",
+    "Match-based coupling uses a priority order, and the setup supports creating new records as part of matching.",
     "Tables can be filtered by criteria to limit which records synchronize.",
     "Job queue entries are scheduled automatically and run the synchronization.",
     "Synchronization setup can be imported and exported.",
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009538999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:57:03.756Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 3 says new records are created 'when no match is found'. The source only lists 'Create new records on match', so that condition goes beyond what the source says. I reworded it to match the source.",
+      "Not an error: the setup page notes version 19.1, and the narrative doesn't mention it. Leaving it out is fine."
+    ],
+    "input_hash": "868476d9b00bab8801a5d675bfc93575df3282028180338ec2fda673300c4db5",
+    "cost_usd": 0.0288432
   }
 }

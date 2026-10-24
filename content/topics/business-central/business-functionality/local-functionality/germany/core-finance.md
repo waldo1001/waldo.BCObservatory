@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:55:33.161Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -124,7 +124,7 @@ narrative: generated
 
 > Germany core finance functionality in Business Central: digital audit exports (GoBD/GDPdU), electronic invoicing (XRechnung, Peppol BIS 3, ZUGFeRD), and Intrastat reporting for German authorities. It answers setup, export and filter questions for these compliance tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Core finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -149,12 +149,17 @@ Two other topics sit apart from the audit pages. The e-invoicing page covers XRe
 
 - [Digital audits (GoBD/GDPdU)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/process-for-digital-audits): Export data according to the digital audit process (GoBD/GDPdU) based on German tax law.
 - [Electronic invoicing in Germany](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/germany-einvoicing): Learn how to set up and work with the German localization of the E-Document framework.
+  - In the observatory: [Page 6103 "E-Document Services"](../../../../../objects/page/6103.md)
 - [Export and Print Intrastat Reports (DE)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports): Learn how to verify, export, and submit Intrastat reports for Germany, including the IDEV and eSTATISTIK.CORE submission channels.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 4810 "Intrastat Report Setup"](../../../../../objects/page/4810.md), [Page 4811 "Intrastat Report List"](../../../../../objects/page/4811.md), [Page 4812 "Intrastat Report"](../../../../../objects/page/4812.md)
 - [Export Data for a Digital Audit [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit): Financial and tax data can be exported in compliance with the digital audits process (GoBD/GDPdU), which adheres to German tax law.
 - [Exporting data for a digital audit [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit): Export business data for auditing purposes following the digital audit process (GoBD/GDPdU) as per German tax regulations.
+  - In the observatory: [Table 15 "G/L Account"](../../../../../objects/table/15.md), [Table 17 "G/L Entry"](../../../../../objects/table/17.md), [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 23 "Vendor"](../../../../../objects/table/23.md)
 - [GoBD filter examples [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/gdpdu-filter-examples): Learn how to use filter types when you set up your GoBD exports.
+  - In the observatory: [Table 17 "G/L Entry"](../../../../../objects/table/17.md), [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 21 "Cust. Ledger Entry"](../../../../../objects/table/21.md)
 - [How to upgrade a .DTD definition file [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file): Validate a .dtd file after importing it to resolve upgrade issues in the German version.
 - [Set Up Data Exports for a Digital Audit [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits): Set up data export record sources to export data for a digital audit according to GDPdU requirements.
+  - In the observatory: [Table 15 "G/L Account"](../../../../../objects/table/15.md), [Table 17 "G/L Entry"](../../../../../objects/table/17.md), [Table 5600 "Fixed Asset"](../../../../../objects/table/5600.md)
 
 ## Business Central pages and reports
 

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-sessions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions",
+  "title": "Managing Sessions in the Admin Center",
+  "blob": "a53bd897ee90438dde405fb2b9de93a58a7c526b",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Manage Sessions page allows viewing information about active sessions and canceling selected sessions."
+    },
+    {
+      "kind": "fact",
+      "text": "Canceling a session sometimes is the only way to unblock a customer when a long-running report locks data."
+    },
+    {
+      "kind": "step",
+      "text": "To cancel session, select it from the list and choose Cancel selected sessions."
+    },
+    {
+      "kind": "step",
+      "text": "To restart environment, go to Manage Sessions page and choose Restart Environment action."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "All users must be signed out of all companies before restarting an environment."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003696,
+      "pages_in_call": 16
+    }
+  ]
+}

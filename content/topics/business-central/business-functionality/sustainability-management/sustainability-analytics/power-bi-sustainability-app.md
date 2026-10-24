@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:09.813Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -189,6 +189,7 @@ For the data side, the semantic model page describes the fact and dimension tabl
 - [Emissions by Category and Scope](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-emissions-by-category-and-scope): The Emission by Scope report organizes emission types based on the account category and scope to show how they're tracking.
 - [Journey to Net Zero Carbon](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-journey-to-net-zero-carbon): The Journey to Net Zero highlights the journey to net zero within an organization.
 - [Power BI Sustainability app semantic model](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model): Learn how tables and fields in the Power BI Sustainability app semantic model map to Business Central data for emissions and workforce analysis.
+  - In the observatory: [Table 5200 "Employee"](../../../../../objects/table/5200.md), [Table 5203 "Employee Qualification"](../../../../../objects/table/5203.md), [Table 5207 "Employee Absence"](../../../../../objects/table/5207.md), [Table 5222 "Employee Ledger Entry"](../../../../../objects/table/5222.md), [Table 5714 "Responsibility Center"](../../../../../objects/table/5714.md), [Table 6210 "Sustainability Account"](../../../../../objects/table/6210.md)
 - [Realized Emissions vs Baseline](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-baseline): The Realized Emissions by Baseline report breaks down your carbon emissions and allows for comparison against a defined baseline period. Track your progress against the baseline and monitor trends against a previous period.
 - [Realized Emissions vs Target](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-target): The Realized Emissions by Target report breaks down your carbon emissions and allows for comparison against the target. This allows you to effectively monitor planned progress and drive continuous improvement to sustainability goals.
 - [Social Analysis](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-social-analysis): The Social Analysis report displays employee details as part of Social reporting for ESG.

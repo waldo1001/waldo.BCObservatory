@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:45.452Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,6 +99,8 @@ Start with "Count and adjust inventory" for the document-based process, or "Coun
 
 - [Count and adjust inventory](https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-inventory-with-documents): Describes how to count physical inventory and use inventory documents to adjust on-hand inventory.
 - [Count, adjust, and reclassify inventory](https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-adjust-reclassify): Learn how to do physical counting and make adjustments and reclassifications.
+  - In the observatory: [Page 392 "Phys. Inventory Journal"](../../../../../objects/page/392.md), [Page 5875 "Physical Inventory Order"](../../../../../objects/page/5875.md)
 - [Design Details - Integration with Inventory](https://learn.microsoft.com/dynamics365/business-central/design-details-integration-with-inventory): The Warehouse Management and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.
+  - In the observatory: [Page 392 "Phys. Inventory Journal"](../../../../../objects/page/392.md), [Page 40 "Item Journal"](../../../../../objects/page/40.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

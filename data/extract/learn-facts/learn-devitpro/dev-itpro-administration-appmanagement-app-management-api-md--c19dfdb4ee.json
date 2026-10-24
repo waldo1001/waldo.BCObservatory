@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/appmanagement/app-management-api.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appmanagement/app-management-api",
+  "title": "App Management API",
+  "blob": "9adefe11e5ceaa05e7b59e5d716a3d2567f01a54",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "App Management API is a REST-based service for ISVs at endpoint https://apps.businesscentral.dynamics.com."
+    },
+    {
+      "kind": "fact",
+      "text": "App entity contains ID, publisher name, publisher Entra tenant ID, contact email, and storage location."
+    },
+    {
+      "kind": "fact",
+      "text": "Version entity includes app ID, availability status, build and version numbers, dependencies, and upload timestamp."
+    },
+    {
+      "kind": "fact",
+      "text": "Version availability can be Preview, Available, or Deprecated."
+    },
+    {
+      "kind": "fact",
+      "text": "Environment hotfix operations allow pushing updates to fix critical issues only when major and minor versions unchanged."
+    },
+    {
+      "kind": "fact",
+      "text": "Hotfixes cannot be applied to preview availability versions without changing availability or uninstalling first."
+    },
+    {
+      "kind": "limit",
+      "text": "Principal roles are Owner, Contributor, or Reader with different permission levels."
+    },
+    {
+      "kind": "limit",
+      "text": "Only Owner principals can add, update, or remove other principals."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012631,
+      "pages_in_call": 4
+    }
+  ]
+}

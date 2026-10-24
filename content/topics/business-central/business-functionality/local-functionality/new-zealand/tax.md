@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:18.205Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -156,6 +156,7 @@ For WHT, start with the conceptual page on withholding tax in the New Zealand ve
 - [Print Goods and Service Tax Settlement Reports (NZ)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports): Learn how to prepare and submit a periodic goods and services tax (GST) settlement in the New Zealand version of Business Central.
 - [Set Up Goods and Service Tax Posting [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-goods-and-service-tax-posting): Learn how to set up posting for goods and services tax (GST) in the New Zealand version of Business Central.
 - [Set up vendors without IRD for calculating withholding tax (NZ)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax): Learn how to set up vendors without IRD numbers to calculate withholding tax, ensuring compliance with New Zealand tax regulations for local vendors.
+  - In the observatory: [Page 26 "Vendor Card"](../../../../../objects/page/26.md)
 - [Set up withholding tax [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-withholding-tax): Learn how to set up product posting groups and business posting groups for Withholding tax (WHT) in the New Zealand version of Business Central.
 - [Withholding Tax in the New Zealand version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/withholding-tax): Learn about withholding tax (WHT) scenarios in New Zealand and how to manage them effectively.
 

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/get-started-online.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/get-started-online",
+  "title": "Get started as a reseller of Business Central Online",
+  "blob": "91897d9184e2f211c51ebe56ec12debffd6e1dc1",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Resellers must have a Microsoft Partner ID and enroll in the Cloud Solution Provider program to sell Business Central online."
+    },
+    {
+      "kind": "fact",
+      "text": "Resellers access Microsoft go-to-market benefits, marketing assets, and branding resources through Partner Network."
+    },
+    {
+      "kind": "fact",
+      "text": "Resellers can create trial environments from content at cdx.transform.microsoft.com for demonstration purposes."
+    },
+    {
+      "kind": "fact",
+      "text": "Both internal admins and delegated admins can assign licenses to users in Microsoft 365 admin center to move from trial to paid subscription."
+    },
+    {
+      "kind": "permission",
+      "text": "Resellers serve as administrators of customer tenants and are the first line of support for triaging and resolving issues."
+    },
+    {
+      "kind": "fact",
+      "text": "In online model, resellers order through indirect provider portals and manage customers in Partner Center; no license file generation needed."
+    },
+    {
+      "kind": "fact",
+      "text": "CSP program region availability restricts resellers to selling offers within their company's geographic region."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007287,
+      "pages_in_call": 6
+    }
+  ]
+}

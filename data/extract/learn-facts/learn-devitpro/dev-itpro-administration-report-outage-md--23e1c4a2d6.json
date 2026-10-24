@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/report-outage.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/report-outage",
+  "title": "Report Customer Outages",
+  "blob": "e9af37fa451ad50947233d9282094bc46e155156",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Report Production Outage action creates a support ticket for Microsoft when users cannot sign in to production environments."
+    },
+    {
+      "kind": "step",
+      "text": "Select the relevant environment in admin center and choose Support > Report Production Outage."
+    },
+    {
+      "kind": "step",
+      "text": "Choose outage type: Unable to sign in (all users) or Can't access API/Web Service."
+    },
+    {
+      "kind": "step",
+      "text": "Provide your name, email, phone number, and details about the outage including browsers, errors, and correlation IDs."
+    },
+    {
+      "kind": "step",
+      "text": "Add the date and time when the outage began and provide consent before reporting."
+    },
+    {
+      "kind": "limit",
+      "text": "Report Production Outage option is not available for sandbox environments."
+    },
+    {
+      "kind": "fact",
+      "text": "After reporting, view the support ticket ID in the dialog and track progress via the Reported Outages page."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00629,
+      "pages_in_call": 8
+    }
+  ]
+}

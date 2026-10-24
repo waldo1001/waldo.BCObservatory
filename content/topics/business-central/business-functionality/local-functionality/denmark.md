@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:42.712Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -180,7 +180,7 @@ narrative: generated
 
 > Denmark local functionality in Business Central covers Danish compliance: auditing and SAF-T export, VAT reporting, banking and payments with FIK, OIOUBL electronic invoicing, and payroll data definitions. It answers questions about setting up and using these Danish-specific features.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Denmark · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Denmark · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

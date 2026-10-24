@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:18:17.573Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -66,6 +66,42 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/gerardorenteria-blog/15143
+      title: 🧩 Deriving dimensions in Business Central beyond Default Dimensions
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
+      title: BC 29 lets a single index span base table and table extension fields
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea
+      title: "BC Friday Tips #56 Understand Missing Fields in Copy Documents"
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561
+      title: "BC Friday Tips #74 Copy Document and Custom Field"
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9
+      title: "D365 Business Central: How to Fix Missing Sales Invoices in the API"
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/aardvarklabs-blog/3118
+      title: Leveraging RecordRef and FieldRef for Dynamic Coding
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: video/hcu7T3qLdDA
+      title: "What's New: The Danish Bookkeeping Act (2024 release wave 1)"
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
 video_id: B9VbZzC2p7E
 channel: yt-hougaard
 source_name: Erik Hougaard
@@ -184,5 +220,17 @@ Not found in BC28-30: table "ledger entries", table "customer ledger entries".
 - [0:53](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=53s) "So, we want to take the posted sales invoices then we're going to join it with the customer and the ledger entries that goes"
 - [0:53](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=53s) "Um so, the agent have the tools to manipulate everything in the spreadsheet and the agent has tools to look at fields and tables"
 - [2:08](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=128s) "You can try this yourself. Um the app is free to use in the cloud sandbox."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [🧩 Deriving dimensions in Business Central beyond Default Dimensions](../posts/gerardorenteria-blog/15143.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [BC Friday Tips #74 Copy Document and Custom Field](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [D365 Business Central: How to Fix Missing Sales Invoices in the API](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [Leveraging RecordRef and FieldRef for Dynamic Coding](../posts/aardvarklabs-blog/3118.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../videos/hcu7T3qLdDA.md) — possibly related: both name Table 112 "Sales Invoice Header"
 
 Presenters (as heard): Eric.

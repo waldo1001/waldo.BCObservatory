@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:12.042Z"
   flags: []
 generated:
-  at: "2026-10-07T23:22:12.125Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -138,6 +138,28 @@ chapters:
     title: GitHub authentication and Anthropic dev container discovery
   - t: 4809
     title: Anthropic dev container design and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: It's not done yet. I still work on this
+    t: 1482
+  - kind: preview-disclaimer
+    quote: if we would mount a separate separate uh cloud folder dedicated to AL development and maybe even ship one with the dev container
+    t: 2256
+  - kind: preview-disclaimer
+    quote: Would it be possible to have to like let or initiate authentication inside the dev container and then have it persist
+    t: 2286
+  - kind: preview-disclaimer
+    quote: user level instructions basically that are AL specific... in the future of the
+    t: 2431
+  - kind: preview-disclaimer
+    quote: cloud AL specific directory will be the next thing
+    t: 3835
+  - kind: preview-disclaimer
+    quote: this is probably going to be part one from at least a two-part series
+    t: 4836
+  - kind: preview-disclaimer
+    quote: I will build this live on stream, so what I did now, I will continue
+    t: 4851
 features:
   - name: Dev container script for AL development
     status: unclear

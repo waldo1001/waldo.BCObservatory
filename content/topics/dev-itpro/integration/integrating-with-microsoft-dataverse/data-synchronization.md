@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.961Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -138,8 +138,7 @@ links:
   localizations: []
   videos:
     - video/-q8Gm7u7R2A
-  posts:
-    - post/bertverbeek-nl/1196
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/12261
@@ -155,7 +154,7 @@ coverage:
   learn: 15
   code: 1
   video: 1
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 7214
@@ -195,16 +194,35 @@ Start with the "Integrate with Microsoft Dataverse via data sync" page for the b
 ## More Learn pages
 
 - [Customizing an integration with Microsoft Dataverse](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration): Learn how to integrate your extension with Microsoft Dataverse. This walkthrough takes you through each step.
+  - Prerequisite: Microsoft Dataverse must include the Worker table from the Talent Core HR solution.
+  - Prerequisite: Business Central sandbox environment with CRONUS demo data and working Dataverse integration enabled.
+  - Prerequisite: Visual Studio Code with AL Language extension installed for developing extensions.
+  - Step: Create an integration table in Business Central using the AL Table Proxy Generator tool to map a Dataverse table to a Business Central record type.
+  - Step: Create a page using the integration table as data source to display Dataverse data in Business Central.
+  - Step: Subscribe to OnGetCDSTableNo event in CRM Setup Defaults codeunit to enable coupling between Business Central and Dataverse records.
+  - Step: Create integration table mappings linking Business Central tables to integration tables, then add integration field mappings for specific fields.
+  - Custom uncoupling can be enabled by specifying an uncoupling codeunit in integration table mapping to run custom logic before or after removing couplings.
+  - In the observatory: [Codeunit 5330 "CRM Integration Management"](../../../../objects/codeunit/5330.md), [Codeunit 5331 "CRM Coupling Management"](../../../../objects/codeunit/5331.md), [Codeunit 5332 "Lookup CRM Tables"](../../../../objects/codeunit/5332.md), [Codeunit 5334 "CRM Setup Defaults"](../../../../objects/codeunit/5334.md), [Codeunit 5336 "Integration Record Synch."](../../../../objects/codeunit/5336.md), [Codeunit 5341 "CRM Int. Table. Subscriber"](../../../../objects/codeunit/5341.md)
 - [Customizing option mappings with Microsoft Dataverse](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping): Learn how to customize option mappings in an integration with Microsoft Dataverse.
+  - Prerequisite: Dataverse integration must be enabled with default synchronization setup and working connection.
+  - Prerequisite: Feature switch Map to option sets in Dataverse without code must be enabled.
+  - Prerequisite: CRONUS International Ltd. demonstration data and sandbox environment required.
+  - Prerequisite: Visual Studio Code with AL Language extension for development.
+  - Step: Create temporary integration table in Business Central based on Dataverse option set schema.
+  - Step: Create list page using temporary table as data source and call Load procedure.
+  - Step: Subscribe to integration events in codeunits to enable coupling, synchronization, and field mapping.
+  - Step: Create integration table and field mappings to sync Dataverse options with Business Central records.
+  - In the observatory: [Codeunit 5330 "CRM Integration Management"](../../../../objects/codeunit/5330.md), [Codeunit 5332 "Lookup CRM Tables"](../../../../objects/codeunit/5332.md), [Codeunit 5334 "CRM Setup Defaults"](../../../../objects/codeunit/5334.md), [Codeunit 5340 "CRM Integration Table Synch."](../../../../objects/codeunit/5340.md), [Codeunit 5342 "CRM Synch. Helper"](../../../../objects/codeunit/5342.md), [Codeunit 5364 "Int. Option Synch. Invoke"](../../../../objects/codeunit/5364.md)
 - [Generate AL Proxy Tables for Dataverse](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-table-proxy-generator): Use the AL Table Proxy Generator to create Business Central integration tables from Microsoft Dataverse tables and their relationships.
 - [Integrate with Microsoft Dataverse via data sync](https://learn.microsoft.com/dynamics365/business-central/admin-common-data-service): Introduction to how to integrate and use Microsoft Dataverse and its components to connect to other Dynamics 365 applications.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12261 Stop repeated rescheduling of Dataverse synch jobs on bulk changes](../../../../changes/bcapps/12261.md) (code change): "Dataverse synchronization job reschedule logic now checks both"
-- [Data agent inside Fabric ask question on your Business Central Data](../../../../posts/bertverbeek-nl/1196.md) (community post): "Fabric Data Agents answer natural language questions on Business Central data"
 - [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../../videos/-q8Gm7u7R2A.md) (video): "Data synchronization; field mappings; table mappings"
 
 ## Business Central pages and reports

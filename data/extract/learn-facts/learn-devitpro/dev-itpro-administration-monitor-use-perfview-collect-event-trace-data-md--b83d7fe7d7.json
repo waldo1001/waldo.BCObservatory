@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-use-perfview-collect-event-trace-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-use-perfview-collect-event-trace-data",
+  "title": "Use PerfView to Collect Event Trace Data",
+  "blob": "19d59402ab8f0db5726ac66cce98f08f0087b718",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "step",
+      "text": "Download and install PerfView from Microsoft link to collect server event trace data."
+    },
+    {
+      "kind": "step",
+      "text": "Open PerfView, select Collect menu, set data file path with .etl extension, enable Advanced options."
+    },
+    {
+      "kind": "step",
+      "text": "Type Microsoft-DynamicsNAV-Server in Additional providers field to collect trace events."
+    },
+    {
+      "kind": "fact",
+      "text": "Filter specific trace events using hexadecimal keyword values: service calls (0x4), AL functions (0x8)."
+    },
+    {
+      "kind": "step",
+      "text": "Combine keyword values by addition: 0x4 and 0x8 yields 0xC for both event types."
+    },
+    {
+      "kind": "step",
+      "text": "Start Collection to begin recording and Stop Collection to end recording trace data."
+    },
+    {
+      "kind": "step",
+      "text": "View .etl file by double-clicking file, then Events to display traces, double-click trace for details."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006599,
+      "pages_in_call": 8
+    }
+  ]
+}

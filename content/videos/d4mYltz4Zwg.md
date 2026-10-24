@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:50:29.384Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:29.438Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -124,6 +124,22 @@ chapters:
     title: Limitations, availability and localization
   - t: 770
     title: Resources and closing
+cautions:
+  - kind: preview-disclaimer
+    quote: currently with this functionality we are covering withholding taxes related to vendors and purchase process. Employees and customers not included
+    t: 31
+  - kind: preview-disclaimer
+    quote: currently we do not cover other options. So no employee not customers only purchase process
+    t: 656
+  - kind: preview-disclaimer
+    quote: This everywhere is except these four countries. Australia, New Zealand, India and Italy
+    t: 668
+  - kind: preview-disclaimer
+    quote: in next release we will enable through feature management upgrade process for Australia and New Zealand
+    t: 712
+  - kind: preview-disclaimer
+    quote: In Italy we have completely different withholding tax. So it will be subject of research. And the same for India
+    t: 755
 features:
   - name: Withholding Tax for Vendors and Purchase Process
     status: unclear

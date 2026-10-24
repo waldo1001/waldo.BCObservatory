@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:25.371Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -162,7 +162,6 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/aardvarklabs-blog/3706
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-08-quick-tips-find-a-field-on-a-business-central-page--b11b83b725
   guidelines: []
   changes:
@@ -179,7 +178,7 @@ coverage:
   learn: 13
   code: 32
   video: 0
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 119
@@ -250,21 +249,31 @@ This section collects tools and pages that help developers, administrators, and 
 - [Analyzing report data with Excel and XML](https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel): Learn how to use Excel and XML to analyze a report dataset.
 - [Customizing Pages for Roles](https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage): Learn how to customize the user interface for a profile (role) so that all users assigned that role see a customized workspace.
 - [Define granular permissions](https://learn.microsoft.com/dynamics365/business-central/ui-define-granular-permissions): This article describes how to define granular permissions and assign each user the permission sets that they need to do their jobs.
+  - In the observatory: [Page 1 "Company Information"](../../../../objects/page/1.md), [Page 9852 "Effective Permissions"](../../../../objects/page/9852.md), [Page 9871 "Security Groups"](../../../../objects/page/9871.md), [Table 9001 "User Group Member"](../../../../objects/table/9001.md), [Table 9003 "User Group Permission Set"](../../../../objects/table/9003.md)
 - [Events discoverability](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-discoverability): Using the Event Recorder, you can record the events that are published and raised while performing the actions of your scenario.
+  - In the observatory: [Page 9845 "Event Recorder"](../../../../objects/page/9845.md)
 - [Inspecting pages in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-inspect-page): Use page inspection feature to view page design and data source details. Ideal for troubleshooting and understanding data in Business Central.
 - [Missing indexes in Business Central databases](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-missing-indexes): Learn about missing indexes and the database missing indexes page.
+  - Status: Generally available in 2025 release wave 1 version 26.0 and later
+  - Database Missing Indexes page shows suggested index columns based on query patterns including equality, inequality, and include columns
+  - Index suggestions tracked with seeks, scans, average total costs, average impact percentage, and estimated benefit calculations
+  - Missing index data comes from SQL Server's sys.dm_db_missing_index_details Dynamic Management View
+  - Limit: Index suggestions are advisory only, not mandatory; overuse can increase storage, slow updates, and be expensive
+  - Administrators and developers can use missing index information to enhance application performance through tuning
+  - In the observatory: [Page 9521 "Database Missing Indexes"](../../../../objects/page/9521.md)
 - [Personalize your workspace](https://learn.microsoft.com/dynamics365/business-central/ui-personalization-user): Learn how to customize the user interface and personalize your workspace to suit your way of working and personal preferences in Business Central.
 - [Troubleshooting the Business Central Mobile App On-Premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app): Find help for resolving problems with the Business Central web, tablet, and phone clients when you run Business Central on-premises.
 - [Understanding the error dialog](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-dialog): Understand the different parts the error dialog to be able to help mitigate issues for users
 - [View Database Locks](https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks): Learn how you can view information about customer database locks right from the client interface in Business Central.
 - [View table information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information): Learn how you can view information about the database tables in Business Central.
 
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
 ## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10335 Unblock bc login due to pp failures](../../../../changes/bcapps/10335.md) (code change): "Prevents sign-in blocking when linked Power Platform environment lookup fails"
-- [Troubleshooting AL Extension in VS Code: Phantom Errors](../../../../posts/aardvarklabs-blog/3706.md) (community post): "Troubleshooting AL Extension in VS Code: Phantom Errors"
 - [Quick Tips: Find a Field on a Business Central Page](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-quick-tips-find-a-field-on-a-business-central-page--b11b83b725.md) (community post): "Page Inspection is a built-in tool in Business Central that helps you quickly find"
 
 ## Business Central pages and reports

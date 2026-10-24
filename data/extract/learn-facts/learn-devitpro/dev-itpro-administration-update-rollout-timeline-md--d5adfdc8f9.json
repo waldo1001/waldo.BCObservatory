@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/update-rollout-timeline.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline",
+  "title": "Update cycles",
+  "blob": "eb38dbfcde6d075627e2950bcb60cf79810a4ec5",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available. Two major releases occur every April and October."
+    },
+    {
+      "kind": "fact",
+      "text": "Preview period starts one month before major release, typically March and September. Partner Sandbox tenants access early access preview alongside the entire update period."
+    },
+    {
+      "kind": "fact",
+      "text": "Update period begins when major version is generally available, around first workday of April and October. New environments created on new major version."
+    },
+    {
+      "kind": "fact",
+      "text": "Update period lasts five calendar months, ending early September for April releases and early March for October releases. Administrators can reschedule updates within this period."
+    },
+    {
+      "kind": "fact",
+      "text": "Grace period lasts one month following the update period. During grace period, admins cannot reschedule updates to later dates, only to earlier dates or different major versions."
+    },
+    {
+      "kind": "fact",
+      "text": "Enforced update period begins when grace period ends. Extensions causing update failures may be automatically uninstalled so updates succeed."
+    },
+    {
+      "kind": "limit",
+      "text": "Cannot restore an environment to a version in its Grace or Enforced update period after updating to a later version succeeds."
+    },
+    {
+      "kind": "fact",
+      "text": "Minor updates release monthly except April and October, containing critical improvements and regulatory updates. Generally available at start of each calendar month."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006355,
+      "pages_in_call": 7
+    }
+  ]
+}

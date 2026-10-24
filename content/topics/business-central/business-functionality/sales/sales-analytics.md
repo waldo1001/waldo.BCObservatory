@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:39.920Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -506,8 +506,11 @@ Subtopics go deeper. The Power BI Sales app describes its reports, semantic mode
 ## More Learn pages
 
 - [Ad-hoc analysis of sales data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales): Learn how to use the data analysis mode to analyze sales data.
+  - In the observatory: [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md), [Page 48 "Sales Orders"](../../../../objects/page/48.md)
 - [Create analysis reports](https://learn.microsoft.com/dynamics365/business-central/bi-how-create-analysis-views-reports): Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.
+  - In the observatory: [Page 7114 "Analysis Columns"](../../../../objects/page/7114.md), [Page 7117 "Sales Analysis Report"](../../../../objects/page/7117.md)
 - [Sales analytics](https://learn.microsoft.com/dynamics365/business-central/sales-analytics-overview): Business Central offers features that can help you gather, analyze, and share valuable sales data for business intelligence and decision-making in the sales organization.
+  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../../objects/page/143.md), [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 48 "Sales Orders"](../../../../objects/page/48.md), [Page 6633 "Sales Return Orders"](../../../../objects/page/6633.md)
 
 ## Videos and posts
 

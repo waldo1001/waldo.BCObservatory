@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:57:42.118Z"
   flags: []
 generated:
-  at: "2026-10-07T22:57:42.160Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -90,6 +90,10 @@ chapters:
     title: Test Apps Deployment Demo
   - t: 315
     title: Custom Deployment Scripts and Conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: number two is automatically running tests for this presentation we have implemented the first version
+    t: 195
 features:
   - name: Page Scripting Tests in AL-Go Workflow
     status: unclear

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-retention-policy-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace",
+  "title": "Analyzing retention policy trace telemetry",
+  "blob": "a4869163e9c26670cc82e811b7c61b0fc8b9c4a7",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Retention policy telemetry available from Business Central 2020 release wave 2, update 17.1 and later."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry logs when table is added to allowed tables, error occurs, policy is enabled, or data is deleted."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry also logs first policy enabled and last policy removed on a company."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Retention policies must be set up on tables with log entries and archived records to gather telemetry."
+    },
+    {
+      "kind": "fact",
+      "text": "Retention Policy Log Entry logged shows operation details such as setup, retention period, and apply actions."
+    },
+    {
+      "kind": "fact",
+      "text": "Records Deleted Using Retention Policy tracks number of records deleted and whether run was manual or automatic."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

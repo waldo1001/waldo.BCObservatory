@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3697577773817687094",
+  "page_id": "post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "any dependent code that assigns the field back into an Integer, Option, or Enum variable risks overflow or narrowing",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29",
+        "18.0"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Do not suppress narrowing warnings without understanding the runtime overflow risk",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "A BigInteger value assigned to an Integer can overflow silently or throw a runtime error",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Using a BigInteger field in a WHERE clause that compares against an Integer field or value can produce unexpected results",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00636,
+    "posts_in_call": 4
+  }
+}

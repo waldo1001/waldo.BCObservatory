@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:00.498Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -196,6 +196,7 @@ Start with the metadata and JSON pages to learn the URI patterns. Then read the 
 - [How to: Use OData to Return-Obtain an AtomPub Document](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/return-obtain-an-atompub-document): Learn how OData V3 clients can use Atom Publishing Protocol documents to interact with Business Central data
 - [Known OData Limitations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/odata-known-limitations): Learn about known limitations with Business Central OData.
 - [OData Web Services Data Modification](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-odata-to-modify-data): Write to the database using an OData web service that exposes a writable page and implement it in on Microsoft SharePoint Online.
+  - In the observatory: [Table 18 "Customer"](../../../../objects/table/18.md)
 - [OData/API web service client performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/odata-client-performance): Learn about how to develop efficient and fast OData/API web service clients for Business Central.
 - [Troubleshooting REST API/OData calls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/dynamics-error-codes): Learn about how to troubleshoot Business Central web service errors of types REST API or OData.
 - [Use OData to Return and Obtain a Service Metadata Document](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/return-obtain-service-metadata-edmx-document): Using OData to return and obtain a Service Metadata (EDMX) Document.

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:18.230Z"
   flags: []
 generated:
-  at: "2026-10-07T23:22:18.275Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -78,6 +78,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000791
+      title: Production Order Statistics (report)
+      label: possibly related
+      why: names Report 99000791 "Production Order Statistics"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000753
+      title: Quantity Explosion of BOM (report)
+      label: possibly related
+      why: names Report 99000753 "Quantity Explosion of BOM"
+      by: code
+    - to: video/9X-IWRkI2GM
+      title: "What's New: Manufacturing Analytics (New and Updated Reports) (2025 release wave 1)"
+      label: possibly related
+      why: both name Report 99000791 "Production Order Statistics"
+      by: code
 video_id: VoiUhPb6HQ0
 channel: yt-bcmusings
 source_name: Business Central Musings
@@ -275,5 +291,13 @@ Not found in BC28-30: report "Production Order Work in Progress", report "Produc
 ## Disclaimers in the video
 
 - [14:38](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=878s) other: It's possible that you might see the RDLC layout if your installation of Business Central is not clean.
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Production Order Statistics (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000791) — possibly related: names Report 99000791 "Production Order Statistics"
+- [Quantity Explosion of BOM (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000753) — possibly related: names Report 99000753 "Quantity Explosion of BOM"
+- [What's New: Manufacturing Analytics (New and Updated Reports) (2025 release wave 1)](../videos/9X-IWRkI2GM.md) — possibly related: both name Report 99000791 "Production Order Statistics"
 
 Presenters (as heard): Kenny Pontopidan, Stefan Maron, Kenny.

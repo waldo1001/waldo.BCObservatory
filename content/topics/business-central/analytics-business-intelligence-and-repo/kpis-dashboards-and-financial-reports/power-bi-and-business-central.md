@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:12.507Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -64,7 +64,6 @@ links:
     - video/fy96_jdL1PQ
     - video/hSJW3LiOBxg
   posts:
-    - post/thinkaboutit-be/7226
     - post/thinkaboutit-be/7753
   guidelines: []
 learn_toc_path:
@@ -78,7 +77,7 @@ coverage:
   learn: 4
   code: 2
   video: 3
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 6316
@@ -122,7 +121,6 @@ Start with the introduction for the overall picture. Then go to the reports page
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [How to Install and Configure Power BI Monitor for Business Central](../../../../posts/thinkaboutit-be/7226.md) (community post): "Power BI Monitor extension enables Business Central users to manage Power BI resources directly through Business Central"
 - [Which Power BI License Do You Need for Business Central?](../../../../posts/thinkaboutit-be/7753.md) (community post): "Power BI Pro is required for any practical use of Power BI with Business Central"
 - [What's New: Enhanced Power BI and Excel with Business Central (2026 release wave 1)](../../../../videos/DVgclv3alZU.md) (video): "Excel as Client for Power BI Semantic Models; Agentic Excel Capabilities"
 - [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../../videos/fy96_jdL1PQ.md) (video): "PowerBI integration and reporting; PowerBI Data Modeling; PowerBI Dashboards"

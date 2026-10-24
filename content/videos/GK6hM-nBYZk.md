@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:49:23.955Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:23.992Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -106,6 +106,10 @@ chapters:
     title: "Demo: Laptop Agent in Microsoft 365 Copilot Chat"
   - t: 468
     title: Licensing and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: we added to Business Central in a previous wave as preview
+    t: 177
 features:
   - name: Copilot Studio Agent Building
     status: unclear

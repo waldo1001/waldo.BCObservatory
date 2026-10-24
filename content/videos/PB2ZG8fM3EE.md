@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:59:17.470Z"
   flags: []
 generated:
-  at: "2026-10-07T22:59:17.509Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -97,6 +97,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits
+      title: Set Up Data Exports for a Digital Audit [DE]
+      label: possibly related
+      why: names Table 5600 "Fixed Asset"
+      by: code
+    - to: video/hcu7T3qLdDA
+      title: "What's New: The Danish Bookkeeping Act (2024 release wave 1)"
+      label: possibly related
+      why: both name Table 5600 "Fixed Asset"
+      by: code
 video_id: PB2ZG8fM3EE
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -128,6 +139,10 @@ chapters:
     title: Feature availability and extensibility
   - t: 536
     title: Call to action and closing
+cautions:
+  - kind: preview-disclaimer
+    quote: the ability to search the web will be available later during the wave
+    t: 503
 features:
   - name: Copilot autofill for card and document pages
     status: unclear
@@ -275,5 +290,12 @@ As heard in the captions. A name that matches one object page by exact type and 
 ## Disclaimers in the video
 
 - [8:23](https://www.youtube.com/watch?v=PB2ZG8fM3EE&t=503s) subject-to-change: the ability to search the web will be available later during the wave
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Set Up Data Exports for a Digital Audit \[DE\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits) — possibly related: names Table 5600 "Fixed Asset"
+- [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../videos/hcu7T3qLdDA.md) — possibly related: both name Table 5600 "Fixed Asset"
 
 Presenters (as heard): Mike.

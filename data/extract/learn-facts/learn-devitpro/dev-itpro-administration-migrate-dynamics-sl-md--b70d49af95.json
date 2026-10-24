@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-dynamics-sl.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl",
+  "title": "Dynamics SL Data Migrated to Business Central Online",
+  "blob": "d08f6525793f8d1c883faa819a39bd54c7c77b6c",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Dynamics SL fiscal periods migrate as Business Central accounting periods; historical years come over as open and must be manually closed."
+    },
+    {
+      "kind": "fact",
+      "text": "Dynamics SL subaccount segments map to Business Central dimensions; main segment defines Global Dimension 1, second segment defines Global Dimension 2, additional segments become shortcut dimensions…"
+    },
+    {
+      "kind": "fact",
+      "text": "Customer and vendor master records migrate with Receivables and Payables outstanding transactions at remaining balance amounts; inactive customers and vendors can be excluded."
+    },
+    {
+      "kind": "fact",
+      "text": "Inventory items migrate with cost valuation method, location information, quantity on hand, and serial or lot tracking information from Dynamics SL."
+    },
+    {
+      "kind": "fact",
+      "text": "Historical snapshot data from GL, Receivables, Payables, Sales Orders, Purchase Orders, and Inventory transactions migrates to extension tables for Power BI and Power Apps reporting."
+    },
+    {
+      "kind": "fact",
+      "text": "Project Controller master data including Projects, Tasks, and Resources migrate if in Active, Plan, or On Hold status based on configuration settings."
+    }
+  ],
+  "dropped": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008208,
+      "pages_in_call": 6
+    }
+  ]
+}

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:51.387Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,7 +70,7 @@ narrative: generated
 
 > Advance Payments for the Czech version of Business Central covers the extension that handles sales and purchase advances, and how to set it up. It answers questions about advance invoices, VAT documents, and the setup of templates, accounts and reports.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Advance Payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Advance Payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -95,6 +95,7 @@ Start with the extension overview to see what is supported. Then use the setup p
 
 - [Advance Payments Localization for Czech (Extension)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz): Learn about the Advance Payments Localization extension, including its features for managing advance invoices, payments, and VAT compliance.
 - [Set up advance payments in the Czech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-setup-advance-payments): Learn how to set up advance payments in the Czech version of Business Central.
+  - In the observatory: [Table 325 "VAT Posting Setup"](../../../../../objects/table/325.md)
 
 ## Videos, posts and code changes
 

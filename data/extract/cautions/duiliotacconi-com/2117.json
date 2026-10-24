@@ -1,0 +1,47 @@
+{
+  "item_id": "blog/duiliotacconi-com/2117",
+  "page_id": "post/duiliotacconi-com/2117",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "you must refactor your code and use these new methods and overload like",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Base64 Convert"
+        },
+        {
+          "type": "codeunit",
+          "name": "Base64 Convert Impl."
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28",
+        "27.5"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "warning for excessive string length dimensions (when strings are bigger than 10MB)",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Base64 Convert Impl."
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003382,
+    "posts_in_call": 4
+  }
+}

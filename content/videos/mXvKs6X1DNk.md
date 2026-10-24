@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:44:40.311Z"
   flags: []
 generated:
-  at: "2026-10-07T22:44:40.347Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -91,6 +91,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/aardvarklabs-blog/2866
+      title: Importing XML into Business Central with AL
+      label: possibly related
+      why: both name Table 23 "Vendor"
+      by: code
+    - to: post/aardvarklabs-blog/3348
+      title: Step-by-Step Guide to Secure Business Central Agent Implementations in AL
+      label: possibly related
+      why: both name Table 23 "Vendor"
+      by: code
+    - to: post/aardvarklabs-blog/3928
+      title: Understanding Business Central’s Format Address Codeunit
+      label: possibly related
+      why: both name Table 23 "Vendor"
+      by: code
+    - to: video/fIOnGEARkKs
+      title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1"
+      label: possibly related
+      why: both name Table 23 "Vendor"
+      by: code
+    - to: video/YTA8c2XyTX4
+      title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2"
+      label: possibly related
+      why: both name Table 23 "Vendor"
+      by: code
+    - to: video/hcu7T3qLdDA
+      title: "What's New: The Danish Bookkeeping Act (2024 release wave 1)"
+      label: possibly related
+      why: both name Table 23 "Vendor"
+      by: code
 video_id: mXvKs6X1DNk
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -120,6 +151,10 @@ chapters:
     title: Demo - initial synchronization
   - t: 457
     title: Demo - change propagation and monitoring
+cautions:
+  - kind: preview-disclaimer
+    quote: pictures, uh should be up to 512 KB each, no more. So, as you already understand, all the environments should be in the same tenant
+    t: 163
 features:
   - name: Cross-environment Master Data Synchronization
     status: unclear
@@ -270,5 +305,16 @@ As heard in the captions. A name that matches one object page by exact type and 
 ## Disclaimers in the video
 
 - [2:43](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=163s) subject-to-change: pictures, uh should be up to 512 KB each, no more. So, as you already understand, all the environments should be in the same tenant
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Importing XML into Business Central with AL](../posts/aardvarklabs-blog/2866.md) — possibly related: both name Table 23 "Vendor"
+- [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../posts/aardvarklabs-blog/3348.md) — possibly related: both name Table 23 "Vendor"
+- [Understanding Business Central’s Format Address Codeunit](../posts/aardvarklabs-blog/3928.md) — possibly related: both name Table 23 "Vendor"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../videos/fIOnGEARkKs.md) — possibly related: both name Table 23 "Vendor"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../videos/YTA8c2XyTX4.md) — possibly related: both name Table 23 "Vendor"
+- [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../videos/hcu7T3qLdDA.md) — possibly related: both name Table 23 "Vendor"
 
 Presenters (as heard): Ksenia, George.

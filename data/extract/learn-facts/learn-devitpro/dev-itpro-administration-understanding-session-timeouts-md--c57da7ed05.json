@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/understanding-session-timeouts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/understanding-session-timeouts",
+  "title": "Configure Session Timeout",
+  "blob": "93e4a3dd1456d66e2b666355b13ba4f84ea01f58",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "ClientServicesIdleClientTimeout on server controls inactive connection timeout; defaults to MaxValue (no limit)."
+    },
+    {
+      "kind": "fact",
+      "text": "SessionTimeout on web server controls inactive session timeout; defaults to 20 minutes."
+    },
+    {
+      "kind": "fact",
+      "text": "Session closes based on whichever timeout setting has the shortest period between server and web server."
+    },
+    {
+      "kind": "status",
+      "text": "ClientServicesReconnectPeriod applies to Business Central 2022 version 20 and earlier only."
+    },
+    {
+      "kind": "fact",
+      "text": "In Business Central 2023 and later, sessions terminate instantly when client loses connection; reconnection isn't supported."
+    },
+    {
+      "kind": "fact",
+      "text": "Use Set-NAVServerConfiguration and Set-NAVWebServerInstanceConfiguration PowerShell commands to modify timeout settings."
+    },
+    {
+      "kind": "fact",
+      "text": "If active session exists during timeout, server aborts current call stack, rolls back uncommitted transactions, and closes session."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007325,
+      "pages_in_call": 7
+    }
+  ]
+}

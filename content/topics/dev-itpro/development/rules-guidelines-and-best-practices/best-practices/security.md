@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:57:10.067Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,7 +74,7 @@ narrative: generated
 
 > Security best practices for Business Central development: the layered security model (authentication, authorization, encryption, auditing, change logging) and the use of Azure Key Vaults to store extension secrets. Answers questions about protecting installations and handling secrets in online and on-premises deployments.
 
-Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Security · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Security · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -92,7 +92,7 @@ Start with the layered security model page for the overall picture. Then read th
 - The change log and audit trails support monitoring of sensitive fields.
 - Azure Key Vaults give extensions centralized, secure storage for secrets used in authenticated web service calls.
 - App key vault setup is described separately for online and on-premises deployments.
-- Extensions retrieve secrets from the key vault instead of holding them themselves.
+- Extensions can retrieve secrets from the key vault in both online and on-premises deployments.
 - App key vault telemetry supports security monitoring.
 
 ## Learn pages

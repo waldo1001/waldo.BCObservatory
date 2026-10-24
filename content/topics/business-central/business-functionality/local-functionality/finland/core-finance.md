@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:35.662Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,7 +81,7 @@ narrative: generated
 
 > Finnish core finance localization in Business Central: automatic account codes, automatic account posting groups, and posting of depreciation differences. It answers questions about setting up posting groups and meeting the Finnish tax requirement for depreciation differences.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Core finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

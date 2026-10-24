@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:10:50.862Z"
   flags: []
 generated:
-  at: "2026-10-07T23:10:50.909Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -205,6 +205,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/8C9JmtHdExM
+      title: Allow Over Receipts of Products
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: video/fpc_XlVEnWw
+      title: Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24
+      title: Set up IRS 1099 forms
+      label: possibly related
+      why: names Page 10031 "IRS Reporting Periods (US)"
+      by: code
+    - to: post/aardvarklabs-blog/3680
+      title: Step-by-Step Guide to Custom User Controls in Business Central
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-use
+      title: Track data and use the IRS 1099 form
+      label: possibly related
+      why: names Page 10031 "IRS Reporting Periods (US)"
+      by: code
+    - to: video/iHgaNJucyvI
+      title: "What's new: Add existing table fields to pages (2023 release wave 2)"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
 video_id: WI_3mjpQ2JU
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -266,6 +297,22 @@ chapters:
     title: IRS Setup Design and Future Considerations
   - t: 2411
     title: Community Resources and Closing Remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: this black box connection with IRS through Iris uh portal will come in next few minors uh now I cannot promise exactly uh date because we are waiting some confirmation from IRS
+    t: 817
+  - kind: preview-disclaimer
+    quote: we are waiting some confirmation from IRS as soon as we get we will finish this part
+    t: 837
+  - kind: preview-disclaimer
+    quote: the submission of the 109 report we want to send this electronically uh this is part is not implemented yet and that will be available in the one of the next releases
+    t: 2031
+  - kind: preview-disclaimer
+    quote: this part will be changed instead of Markus submitted action in the future releases you will have the action that is called just submit and the data will be sent electronically to ARs
+    t: 2051
+  - kind: preview-disclaimer
+    quote: we were thinking uh maybe in the future we will introduce more IRS uh things now this is not promising do not understand me wrongly
+    t: 2371
 features:
   - name: Redesigned 1099 App
     status: unclear
@@ -678,5 +725,16 @@ Not found in BC28-30: table "1089 Setup", table "IRS Setup", page "1089 Layout S
 - [34:11](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2051s) coming-later: this part will be changed instead of Markus submitted action in the future releases you will have the action that is called just submit and the data will be sent electronically to ARs
 - [39:31](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2371s) other: we were thinking uh maybe in the future we will introduce more IRS uh things now this is not promising do not understand me wrongly
 - [39:31](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2371s) not-in-this-release: we were thinking uh maybe in the future we will introduce more IRS uh things now this is not promising do not understand me wrongly
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Allow Over Receipts of Products](../videos/8C9JmtHdExM.md) — possibly related: both name Page 26 "Vendor Card"
+- [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../videos/fpc_XlVEnWw.md) — possibly related: both name Page 26 "Vendor Card"
+- [Set up IRS 1099 forms](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24) — possibly related: names Page 10031 "IRS Reporting Periods (US)"
+- [Step-by-Step Guide to Custom User Controls in Business Central](../posts/aardvarklabs-blog/3680.md) — possibly related: both name Page 26 "Vendor Card"
+- [Track data and use the IRS 1099 form](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-use) — possibly related: names Page 10031 "IRS Reporting Periods (US)"
+- [What's new: Add existing table fields to pages (2023 release wave 2)](../videos/iHgaNJucyvI.md) — possibly related: both name Page 26 "Vendor Card"
 
 Presenters (as heard): Alexander Toic, Arthur Vel, Alexander, Arthur.

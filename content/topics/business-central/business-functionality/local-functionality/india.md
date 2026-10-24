@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:15.599Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -388,8 +388,11 @@ The section's own pages cover four areas. They are an overview of India local fu
 ## More Learn pages
 
 - [Audit trail and edit logs for accounting software in India](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software): This article provides information about the new Indian tax and companies legislation guidelines for accounting software.
+  - In the observatory: [Page 595 "Change Log Entries"](../../../../objects/page/595.md)
 - [Charge assignment functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/charge-assignment-functionality): Discover the enhanced charge group assignment functionality in Business Central India localization. Simplify charge distribution for purchase orders efficiently.
+  - In the observatory: [Page 18507 "Charge Group Card (IN)"](../../../../objects/page/18507-in.md)
 - [India Local Functionality \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-local-functionality): Provides information about local functionality available for India.
 - [Setting up and how to stale check](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Stale-Check): Describes the setup steps and process for handling stale checks in Business Central for India.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../objects/page/118.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

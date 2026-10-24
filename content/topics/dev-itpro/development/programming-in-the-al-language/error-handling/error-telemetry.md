@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:48.243Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,8 +106,34 @@ Start with the Error method trace page for the general error signal, then the pe
 ## Learn pages
 
 - [Analyzing Error Message Vote Telemetry \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-message-voting-trace): Learn about error message vote telemetry in Business Central
+  - Status: Available from Business Central 2022 release wave 1.
+  - Error messages include a yes or no question asking whether the message was helpful.
+  - User feedback on error messages is recorded in Application Insights for all errors from Error method calls.
+  - Trace records whether user voted yes or no, the error message text, and the regional language version shown.
 - [Analyzing Permission Error Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace): Learn about the permission error telemetry in Business Central
+  - Permission error telemetry signals when users get permission-related error dialogs.
+  - Permission Error Shown event has eventId RT0031 at severity level 1.
+  - Data includes object ID, name, type, and permission area that caused the error.
+  - permissionType dimension shows missing permission: Delete, Execute, Insert, Modify, or Read.
+  - permissionArea dimension indicates System, Entitlement, Company, or Object scope.
+  - Stack trace and error message help identify where permission check failed in code.
+  - Sample KQL code helps analyze which permission errors users encounter frequently.
 - [Error method trace telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-method-trace): Learn about the Error method telemetry in Business Central
+  - Error method telemetry emitted when Error method called, displays dialog to user
+  - Event ID RT0030 signals error dialog displayed with failure reason Dialog
+  - Error message shown only if Label or TextConst data type, otherwise generic message shown
+  - Messages with customer data not shown as precaution, SystemMetadata classified data only emitted
+  - Severity level 3 indicates error dialog event with stack trace and AL object details recorded
+  - Telemetry includes AL stack trace, object ID, object type, client type, and company name
 - [Feature telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-feature-telemetry): Learn about the telemetry that you can emit from features in Business Central.
+  - Feature Telemetry module simplifies app health monitoring and tracks feature uptake using three event types: LogUsage for successful feature use, LogError for explicit errors, and LogUptake for…
+  - Prerequisite: Must implement Telemetry Logger interface in an extension codeunit and register it via OnRegisterTelemetryLogger event subscriber, one per app publisher.
+  - LogUptake tracks four uptake states: Undiscovered, Discovered (page opens), Set up (user configures), and Used (user attempts feature). Calling with Undiscovered resets uptake state.
+  - Limit: LogUptake may make database transactions and requires PerformWriteTransactionsInASeparateSession set to true when called from try function.
+  - Custom dimensions include extension info, user role, environment type, client type, and for errors: stack trace and error text describing the issue.
+  - If no telemetry logger registered for publisher, server logs event AL0000G7K to environment telemetry indicating app sending data without registered logger.
+  - In the observatory: [Codeunit 8703 "Feature Telemetry"](../../../../../objects/codeunit/8703.md), [Codeunit 8708 "Telemetry Loggers"](../../../../../objects/codeunit/8708.md)
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

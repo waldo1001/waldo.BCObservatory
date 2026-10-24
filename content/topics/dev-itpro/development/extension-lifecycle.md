@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:53:55.872Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -284,7 +284,6 @@ links:
   posts:
     - post/demiliani-com/12116
     - post/demiliani-com/12422
-    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7
   guidelines: []
   changes:
     - change/bcapps/10675
@@ -309,7 +308,7 @@ coverage:
   learn: 35
   code: 0
   video: 0
-  blog: 3
+  blog: 2
   guideline: 0
 bc_forms:
   - 149000
@@ -329,7 +328,7 @@ narrative: generated
 
 > Extension lifecycle in Business Central covers the phases of an extension from development to deprovisioning, extension types and scopes, and moving apps between scopes. It answers questions about testing, deploying, updating, translating, migrating data and deprecating code in AL extensions.
 
-Path: [Development](../development.md) > Extension lifecycle · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../development.md) > Extension lifecycle · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -377,7 +376,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#93 Fix lifecycle compatibility guidance](../../../changes/bcquality/93.md) (code change): "Knowledge articles and samples on error handling, events, interfaces, upgrade, testing, web services"
 - [Dynamics 365 Business Central: automatic PTE unpublishing after update.](../../../posts/demiliani-com/12116.md) (community post): "automatically unpublishes PTE versions that are no longer installed"
 - [Dynamics 365 Business Central on-premises: accessing embedded in-app resources from runtime packages.](../../../posts/demiliani-com/12422.md) (community post): "Extensions can declare resource folders using the resourceFolders property"
-- [BC Friday Tips #61 Check AppSource App Update History](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7.md) (community post): "Apps that are not maintained may also miss newer AL features"
 
 ## Business Central pages and reports
 

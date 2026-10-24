@@ -2,26 +2,26 @@
 id: topic/business-central/copilot-and-agent-capabilities/sales-order-agent
 type: topic
 title: Sales Order Agent
-summary: "Sales Order Agent is an AI agent in Business Central that captures sales orders from customer emails: it identifies customers and items, checks availability, prepares quotes and converts them to orders. These pages answer questions about what it does, how to set it up, how to use it day to day, and common FAQs."
+summary: Sales Order Agent is an AI agent in Business Central that turns customer emails into sales quotes and orders. This section answers questions about what the agent does, how to set it up, how to run and review its work, and common questions about its behavior.
 tier: official
 language: en
 system: sales
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:26:04.783Z"
+  at: "2026-10-24T00:56:29.120Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 34dc56b6c2c43084e758deff34bb6defacc2c7ceaeadb0a5ae9f7cd38f4a27c9
+  input_hash: f58bee08279fe3e75631dd796b1b6f88b28c2d4d123adc88c6375f48563c70ad
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/faqs-sales-order-taker-agent
     title: FAQ for Sales Order Agent
-    date: "2026-10-02"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -97,28 +97,27 @@ narrative: generated
 
 # Sales Order Agent
 
-> Sales Order Agent is an AI agent in Business Central that captures sales orders from customer emails: it identifies customers and items, checks availability, prepares quotes and converts them to orders. These pages answer questions about what it does, how to set it up, how to use it day to day, and common FAQs.
+> Sales Order Agent is an AI agent in Business Central that turns customer emails into sales quotes and orders. This section answers questions about what the agent does, how to set it up, how to run and review its work, and common questions about its behavior.
 
 Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Sales Order Agent · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Sales Order Agent automates sales order capture. It monitors a mailbox, analyzes incoming emails and attachments, identifies the contact and customer, matches items, checks inventory availability, and creates sales quotes and orders. When details are missing it continues the conversation with the customer by email over multiple turns.
+Sales Order Agent monitors email for customer requests, identifies the customer and contact, finds items and variants, checks inventory and availability, and creates sales quotes or orders. It can hold multi-turn email conversations when it needs more information, and it can calculate delivery dates using capable-to-promise.
 
-The section has four pages and no subtopics. The overview explains the capabilities, including item search, availability checking and capable-to-promise calculation. The setup page covers activating the agent, mailbox monitoring, document creation rules and user access. The process page describes the daily workflow, where users review emails, confirm quotes, check availability and help when the agent is blocked. The FAQ covers configuration, task execution, the email dispatcher, access and permissions, transparency and change control, and customer identification.
+The section has four pages. The overview explains the capabilities. The setup page covers enabling the agent, configuring email monitoring, setting processing rules, managing user access, and handling permissions. The processing page describes how the agent handles customer email inquiries: it verifies customers, checks item availability, creates sales quotes, and prepares email responses. Users still need to step in for reviews and confirmations. That page also covers the task timeline and Review mode. The FAQ covers the email dispatcher, customer identification, notifications, and approval workflows.
 
-Start with the overview to understand the scope, then follow the setup page to activate and configure the agent. Use the process page when you are working with agent tasks, and the FAQ for specific questions on permissions, control and customer identification.
+Start with the overview to understand the scope, then follow the setup page to enable the agent. Use the processing page for daily work and the FAQ for specific behavior questions.
 
 ## Key points
 
-- The agent monitors a mailbox, categorizes emails and analyzes attachments to find sales requests.
-- It identifies contacts and customers automatically and searches and matches items from the email content.
-- It checks inventory availability and supports capable-to-promise calculation.
-- When information is missing, it holds multi-turn email conversations with the customer and generates email drafts.
-- It creates sales quotes, and can convert them to sales orders based on the document creation rules set up for it.
-- Users stay in control: they review emails, confirm quotes and step in when the agent needs unblocking, with a task timeline to track what happened.
-- Setup covers activation, mailbox monitoring, quote creation and confirmation rules, sales order conversion, customer contact matching and user access management.
-- The FAQ covers the email dispatcher, access and permissions, and transparency and change control.
+- The agent analyzes customer emails, locates the customer and contact, and checks item availability.
+- It creates sales quotes and can convert them to sales orders, with a customer confirmation workflow.
+- It supports item search with variant matching and capable-to-promise delivery date calculation.
+- It can hold multi-turn email conversations when information is missing.
+- Setup covers enabling the agent, email monitoring, processing rules, user access, and permissions.
+- Users must still step in for reviews and confirmations. The processing page also covers the task timeline and Review mode.
+- The FAQ covers the email dispatcher, customer identification by email, user notifications, and approval workflows.
 
 ## Learn pages
 
@@ -126,6 +125,7 @@ Start with the overview to understand the scope, then follow the setup page to a
 - [Process sales quotes and orders with Sales Order Agent](https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-process): Learn how to use the Sales Order Agent to process sales quotes and orders from customer email requests.
 - [Sales Order Agent overview](https://learn.microsoft.com/dynamics365/business-central/sales-order-agent): Learn about the sales order Copilot agent in Business Central.
 - [Set up Sales Order Agent](https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-setup): Set up Sales Order Agent in Business Central to process sales orders from customer emails. Learn how to activate and configure the agent.
+  - In the observatory: [Page 2500 "Extension Management"](../../../objects/page/2500.md), [Page 4317 "Agent User Settings"](../../../objects/page/4317.md), [Page 5097 "Create Task"](../../../objects/page/5097.md), [Page 5099 "Tasks"](../../../objects/page/5099.md), [Page 9883 "Permissions Overview"](../../../objects/page/9883.md)
 
 ## Videos, posts and code changes
 

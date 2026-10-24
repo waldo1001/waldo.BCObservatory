@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:41.709Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,6 +106,7 @@ links:
     - change/bcapps/10424
     - change/bcapps/11114
     - change/bcapps/11798
+    - change/bcapps/13183
     - change/bcapps/8878
     - change/bcapps/9344
     - change/bcapps/9778
@@ -153,14 +154,21 @@ Start with the overview page, which lists the tasks in order. Then use the how-t
 ## Learn pages
 
 - [Create invoices or credit memos for services](https://learn.microsoft.com/dynamics365/business-central/service-how-create-invoices): Learn how to create invoices and credit memos for your services.
+  - In the observatory: [Page 5919 "Service Mgt. Setup"](../../../../objects/page/5919.md), [Page 6050 "Service Contract"](../../../../objects/page/6050.md), [Page 9318 "Service Orders"](../../../../objects/page/9318.md), [Page 9319 "Service Invoices"](../../../../objects/page/9319.md), [Page 9320 "Service Credit Memos"](../../../../objects/page/9320.md)
 - [How to allocate resources \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-how-to-allocate-resources): Adjust the annual amount on a service contract or contract quote to ensure the correct amount is invoiced each year.
 - [How to create service orders](https://learn.microsoft.com/dynamics365/business-central/service-how-to-create-service-orders): Learn the different tasks involved in creating service orders in Business Central such as creating a new service order or orders based on a service contract.
+  - In the observatory: [Page 498 "Reservation"](../../../../objects/page/498.md), [Page 5830 "Demand Overview"](../../../../objects/page/5830.md), [Page 5900 "Service Order"](../../../../objects/page/5900.md), [Page 5905 "Service Lines"](../../../../objects/page/5905.md), [Page 5959 "Standard Serv. Item Gr. Codes"](../../../../objects/page/5959.md), [Page 5977 "Posted Service Invoices"](../../../../objects/page/5977.md)
 - [How to create service quotes](https://learn.microsoft.com/dynamics365/business-central/service-how-to-create-service-quotes): Learn how to use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.
 - [How to lend service items as substitutes \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-how-to-lend-receive-loaners): Lend customers loaner items to temporarily substitute service items received for servicing.
+  - In the observatory: [Page 5922 "Loaner Card"](../../../../objects/page/5922.md), [Page 5975 "Posted Service Shipment"](../../../../objects/page/5975.md), [Page 9318 "Service Orders"](../../../../objects/page/9318.md)
 - [How to post service orders](https://learn.microsoft.com/dynamics365/business-central/service-how-to-post-service-orders): After creating and updating a service order with all required details, you can proceed to post it.
+  - In the observatory: [Page 5905 "Service Lines"](../../../../objects/page/5905.md), [Page 5974 "Posted Service Shipments"](../../../../objects/page/5974.md), [Page 9318 "Service Orders"](../../../../objects/page/9318.md), [Page 9320 "Service Credit Memos"](../../../../objects/page/9320.md)
 - [How to work on service tasks](https://learn.microsoft.com/dynamics365/business-central/service-how-to-work-on-service-tasks): Manage service tasks in Business Central. Track orders, register spare parts, and maintain inventory from the centralized Service Tasks page.
+  - In the observatory: [Page 5905 "Service Lines"](../../../../objects/page/5905.md), [Page 5906 "Service Item Worksheet"](../../../../objects/page/5906.md), [Page 5915 "Service Tasks"](../../../../objects/page/5915.md), [Page 9318 "Service Orders"](../../../../objects/page/9318.md)
 - [Overview of tasks to deliver service \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-deliver-service): Provides an overview of essential tasks to ensure high-quality service delivery and fulfillment of customer agreements.
+  - In the observatory: [Page 5915 "Service Tasks"](../../../../objects/page/5915.md), [Page 6000 "Dispatch Board"](../../../../objects/page/6000.md)
 - [Service posting](https://learn.microsoft.com/dynamics365/business-central/service-service-posting): Service posting enables efficient processing of service documents and helps maintain a strong customer service policy.
+  - In the observatory: [Page 5905 "Service Lines"](../../../../objects/page/5905.md), [Page 5972 "Posted Service Credit Memo"](../../../../objects/page/5972.md), [Page 5975 "Posted Service Shipment"](../../../../objects/page/5975.md), [Page 5978 "Posted Service Invoice"](../../../../objects/page/5978.md)
 
 ## Videos, posts and code changes
 
@@ -171,6 +179,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10424 [Extensibility Request] issue 30421: allow custom travel cost lookup](../../../../changes/bcapps/10424.md) (code change): "A handled event is added to the travel cost lookup process in service order management"
 - [#11114 [Master][ALL-E] Document Type is Quote in Document Attachment table (1173) after posting a Sales Invoice with attachments.](../../../../changes/bcapps/11114.md) (code change): "Document Type is now correctly set to Invoice or Credit Memo when attachments are transferred"
 - [#11798 [main] Bug 650733 External Doc No. now mandatory on Service Invoice](../../../../changes/bcapps/11798.md) (code change): "posting a service invoice wrongly required an External"
+- [#13183 [Master]-Service Order created from Service Contract does not populate header dimensions until Dimensions action is opened](../../../../changes/bcapps/13183.md) (code change): "Service orders are generated. Test coverage was expanded to verify the dimension population behavior"
 - [#8878 [Master]- Service Item does not populate Ship-to Country/Region Code when Ship-to Code is blank](../../../../changes/bcapps/8878.md) (code change): "Service Item Card now fills in the Ship-to Country"
 - [#9344 [master]- Posting service order without External document no. will copy the 'Service Order No.' to GL entries](../../../../changes/bcapps/9344.md) (code change): "Posting service order without External document no. will copy the 'Service Order No.' to GL entries"
 - [#9778 [Extensibility Request] issue 30362: add OnPostDocumentLinesOnBeforeInsertPostedHeaders event to Service-Post](../../../../changes/bcapps/9778.md) (code change): "A new integration event OnPostDocumentLinesOnBeforeInsertPostedHeaders enables extensions to control which posted service document is created"

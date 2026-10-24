@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:54:57.106Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -57,6 +57,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/9ZmmQEpPyB4
+      title: "Let It Snow: How To Use Themable Layouts in Business Central (2024)"
+      label: possibly related
+      why: both name Page 9660 "Report Layouts"
+      by: code
+    - to: post/aardvarklabs-blog/3544
+      title: New Features for Report Lifecycle Management in Business Central 28.1
+      label: possibly related
+      why: both name Page 9660 "Report Layouts"
+      by: code
 post_id: https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/
 source_id: dvlprlife-com
 source_name: DvlprLife
@@ -121,6 +132,13 @@ As named in the post. A name that matches one object page by exact type and name
 - [page 9660 "Report Layouts"](../../objects/page/9660.md)
 
 Not found in BC28-30: page "Index Management".
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Let It Snow: How To Use Themable Layouts in Business Central (2024)](../../videos/9ZmmQEpPyB4.md) — possibly related: both name Page 9660 "Report Layouts"
+- [New Features for Report Lifecycle Management in Business Central 28.1](../../posts/aardvarklabs-blog/3544.md) — possibly related: both name Page 9660 "Report Layouts"
 
 ## Context
 

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:11:38.258Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -112,6 +112,10 @@ chapters:
     title: Workflow automation and time efficiency
   - t: 122
     title: Future plans with AI-assisted demand planning
+cautions:
+  - kind: preview-disclaimer
+    quote: as we move into more automated planning and bringing in AI assisted demand planning
+    t: 122
 features:
   - name: Production order management
     status: unclear

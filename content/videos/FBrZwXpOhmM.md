@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:55:30.237Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -92,6 +92,10 @@ chapters:
     title: Reasoning Display for All Agent Suggestions
   - t: 92
     title: Building User Trust Through Transparency
+cautions:
+  - kind: preview-disclaimer
+    quote: we're cooking up to assist users working with agents and AI. First, for the payable agent in the 2025 wave 2 major release and potentially for other features down the road
+    t: 5
 features:
   - name: Agent Reasoning Display
     status: unclear

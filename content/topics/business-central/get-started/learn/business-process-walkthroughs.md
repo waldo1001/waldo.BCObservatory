@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:20:47.065Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -189,12 +189,16 @@ Start with the introductory page to find the scenario closest to your task, then
 - [Business Process Walkthroughs](https://learn.microsoft.com/dynamics365/business-central/walkthrough-business-process-walkthroughs): This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS demonstration company.
 - [Make cash flow forecasts using financial reports](https://learn.microsoft.com/dynamics365/business-central/walkthrough-making-cash-flow-forecasts-by-using-account-schedules): This walkthrough describes how you can use financial reports to make cash flow forecasts in Business Central.
 - [Picking and Shipping in Basic Warehouse Configurations](https://learn.microsoft.com/dynamics365/business-central/walkthrough-picking-and-shipping-in-basic-warehousing): This article describes various levels of complexity in picking and shipping processes.
+  - In the observatory: [Page 48 "Sales Orders"](../../../../objects/page/48.md), [Page 7328 "Warehouse Employees"](../../../../objects/page/7328.md), [Page 7377 "Inventory Pick"](../../../../objects/page/7377.md)
 - [Set up and invoicing sales prepayments](https://learn.microsoft.com/dynamics365/business-central/walkthrough-setting-up-and-invoicing-sales-prepayments): Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing.
 - [Set up and use a purchase approval workflow](https://learn.microsoft.com/dynamics365/business-central/walkthrough-setting-up-and-using-a-purchase-approval-workflow): This walkthrough takes you through all the stages involved in setting up and using a purchase approval workflow in Business Central.
+  - In the observatory: [Page 1500 "Workflows"](../../../../objects/page/1500.md), [Page 1501 "Workflow"](../../../../objects/page/1501.md), [Page 1505 "Workflow Templates"](../../../../objects/page/1505.md), [Page 1512 "Notification Setup"](../../../../objects/page/1512.md), [Page 1513 "Notification Schedule"](../../../../objects/page/1513.md), [Page 56 "Purchase Orders"](../../../../objects/page/56.md)
 - [Set up and use the Shopify Connector](https://learn.microsoft.com/dynamics365/business-central/shopify/walkthrough-setting-up-and-using-shopify): Various integration scenarios for demonstrating workflow between Shopify and Business Central
+  - In the observatory: [Page 36954 "Customers"](../../../../objects/page/36954.md), [Page 42 "Sales Order"](../../../../objects/page/42.md)
 - [Walkthrough - Calculating work in process for a project](https://learn.microsoft.com/dynamics365/business-central/walkthrough-calculating-work-in-process-for-a-job): Learn how to track consumption of employee hours, machine hours, inventory items, and other types of usage as a project progresses.
 - [Walkthrough - Managing projects](https://learn.microsoft.com/dynamics365/business-central/walkthrough-managing-projects-with-jobs): This walkthrough introduces you to the project management features the let you schedule the use of your company's resources.
 - [Walkthrough conducting a sales campaign](https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign): This walkthrough gives a detailed overview of all the tasks involved in conducting a sales campaign in Business Central.
+  - In the observatory: [Page 5075 "Interaction Templates"](../../../../objects/page/5075.md), [Page 5139 "Logged Segments"](../../../../objects/page/5139.md), [Page 5142 "Save Segment Criteria"](../../../../objects/page/5142.md), [Page 5155 "Segment Interaction Languages"](../../../../objects/page/5155.md)
 
 ## Business Central pages and reports
 

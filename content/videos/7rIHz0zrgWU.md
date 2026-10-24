@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:16:07.027Z"
   flags: []
 generated:
-  at: "2026-10-07T23:16:07.075Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -185,6 +185,24 @@ chapters:
     title: KQL walkthrough examples and alerting strategies
   - t: 1283
     title: Implementation roadmap, data-driven decision making, and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: new data that is coming soon in wave in 20 version 23 or later
+    t: 39
+  - kind: preview-disclaimer
+    quote: these are Telemetry things that is likely to come within the next few months
+    t: 875
+  - kind: preview-disclaimer
+    quote: pended extensions validation signal - likely to come within the next few months
+    t: 932
+  - kind: preview-disclaimer
+    quote: pended extensions on environment against next major - service not on premises
+    t: 973
+  - kind: preview-disclaimer
+    quote: business events will have coverage with Telemetry for version 23
+    t: 1009
+    versions:
+      - "23"
 features:
   - name: AI assisted performance analysis
     status: unclear

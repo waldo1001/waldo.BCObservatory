@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:01.586Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,6 +89,8 @@ Then read "Print an Inventory Picking List from a Sales Order in Switzerland" if
 ## Learn pages
 
 - [Print an Inventory Picking List from a Sales Order in Switzerland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order): Learn how to print an inventory picking list directly from a sales order in the Swiss version of Business Central.
+  - In the observatory: [Page 48 "Sales Orders"](../../../../../objects/page/48.md)
 - [Swiss inventory management [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-inventory-management): This article describes Swiss enhancements to special inventory management features in Business Central.
+  - In the observatory: [Page 5708 "Get Shipment Lines"](../../../../../objects/page/5708.md), [Table 32 "Item Ledger Entry"](../../../../../objects/table/32.md), [Table 37 "Sales Line"](../../../../../objects/table/37.md), [Table 83 "Item Journal Line"](../../../../../objects/table/83.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

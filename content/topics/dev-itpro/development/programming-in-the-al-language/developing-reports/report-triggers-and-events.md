@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:38.147Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -132,11 +132,17 @@ Start with the event that matches your scenario. For a printer extension, read O
 ## Learn pages
 
 - [OnAfterDocumentPrintReady Event](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onafterdocumentprintready-event): Describe the OnAfterDocumentPrintReady Event in Business Central.
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md)
 - [OnAfterDocumentReady Event](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onafterdocumentready-event): Describe the OnAfterDocumentReady Event in Business Central.
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md)
 - [OnAfterIntermediateDocumentReady Event](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onafterintermediatedocumentready-event): Describe the OnAfterIntermediateDocumentReady Event in Business Central.
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md)
 - [OnAfterSetupPrinters Event](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onaftersetupprinters-event): Describe the OnAfterSetupPrinters Event in Business Central.
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md), [Page 64 "Printer Selections"](../../../../../objects/page/64.md)
 - [OnCustomDocumentMergerEx event](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-oncustomdocumentmergerex-event): Describe the OnCustomDocumentMergerEx Event in Business Central.
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md)
 - [OnGetFilename Event](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-ongetfilename-event): Learn about the OnGetFilename event in Business Central.
+  - In the observatory: [Codeunit 44 "ReportManagement"](../../../../../objects/codeunit/44.md)
 - [Report Triggers and Runtime Operations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-triggers): Report triggers in AL for Business Central.
 
 ## Videos, posts and code changes

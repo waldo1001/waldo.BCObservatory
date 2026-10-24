@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:08:23.699Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -114,6 +114,10 @@ chapters:
     title: Learning while doing in the product
   - t: 231
     title: Summary and scaling through automation
+cautions:
+  - kind: preview-disclaimer
+    quote: it's a clip from a launch event video for 2023 release Wave 2 but it's equally relevant today
+    t: 0
 features:
   - name: Customer self-service onboarding
     status: unclear

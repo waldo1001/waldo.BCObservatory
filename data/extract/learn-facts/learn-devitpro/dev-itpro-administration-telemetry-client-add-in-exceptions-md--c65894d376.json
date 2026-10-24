@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-client-add-in-exceptions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-add-in-exceptions",
+  "title": "Analyzing client control add-in exception telemetry",
+  "blob": "dddaeb96e3ce99c664c2da723d4a2aec10759930",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Client control add-in exceptions are logged to Application Insights exceptions table, not traces table"
+    },
+    {
+      "kind": "fact",
+      "text": "Exception telemetry event ID is CL0005 and includes control add-in name, page object details, app information"
+    },
+    {
+      "kind": "fact",
+      "text": "Error details include problem ID, type, assembly, method, outer and innermost error information on call stack"
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry captures environment context including tenant, company, client type, host type, and device screen resolution"
+    },
+    {
+      "kind": "fact",
+      "text": "Built-in Application Insights Failures page can be used for troubleshooting control add-in exceptions"
+    },
+    {
+      "kind": "fact",
+      "text": "User ID and problemId field enable exception grouping and user impact analysis"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013325,
+      "pages_in_call": 3
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/demiliani-com/13155",
+  "page_id": "post/demiliani-com/13155",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "With multiple function apps all competing for connections to the same account, you can encounter connection timeout issues.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "A function app with heavy I/O activity to its own containers can degrade performance for other function apps' metadata operations.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004521,
+    "posts_in_call": 4
+  }
+}

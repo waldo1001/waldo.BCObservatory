@@ -1,0 +1,27 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/report-cancellation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/report-cancellation",
+  "title": "Report cancellation",
+  "blob": "cde348ba7fbf072080908ed9d121d98f674d2434",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Server evaluates report cancellation status every five seconds rather than immediately, so reports within five-second interval may complete."
+    },
+    {
+      "kind": "limit",
+      "text": "Report rendering is not included in evaluate cancellation process and cannot be canceled."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:50:13.697Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:13.740Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,6 +121,15 @@ chapters:
     title: Resources and Related Sessions
   - t: 360
     title: General Business Central Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: we have put these new uh the new tuned reports under a feature management flag for now. In case something uh you you you find that they're not showing the right numbers, we try to test as much as we can
+    t: 123
+  - kind: preview-disclaimer
+    quote: They are shipped in 20 eight {dot} X, so they're not in the April release yet, but they will come very soon
+    t: 177
+    versions:
+      - "20"
 features:
   - name: Deferral Reports with Subtotals
     status: ga

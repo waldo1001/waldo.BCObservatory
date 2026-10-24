@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:25:55.708Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,8 +115,10 @@ Printing in Business Central can go through Universal Print cloud printers, emai
 
 - [Printer setup and management overview](https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-overview): Learn about the different printer options in Business Central.
 - [Set Up Email Printers](https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-email): How-to description
+  - In the observatory: [Page 2616 "Printer Management"](../../../../objects/page/2616.md), [Page 2650 "Email Printer Settings"](../../../../objects/page/2650.md)
 - [Set Up Universal Print Printers](https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-universal-print): Learn how you can use Universal Print to provide cloud printing in Business Central.
 - [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
+  - In the observatory: [Page 2616 "Printer Management"](../../../../objects/page/2616.md), [Page 64 "Printer Selections"](../../../../objects/page/64.md)
 
 ## Business Central pages and reports
 

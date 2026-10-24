@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/demiliani-com/13840",
+  "page_id": "post/demiliani-com/13840",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "VNet integration for outbound traffic is not available in Azure Logic Apps Consumption.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "The Logic Apps outbound subnet must not be used by any other resource that requires delegation.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "After this change, any call to the Azure OpenAI API from outside the VNet will be immediately rejected.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Managed (shared) connectors run in the multi-tenant infrastructure and do not route through VNet integration.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0073,
+    "posts_in_call": 4
+  }
+}

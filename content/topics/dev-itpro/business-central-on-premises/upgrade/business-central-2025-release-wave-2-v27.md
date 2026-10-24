@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:34.651Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,6 +110,7 @@ The technical steps are similar in both procedures: database conversion, extensi
 - [Considerations before upgrading to Business Central version 26 and later](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-considerations-v26): This article provides tips and considerations to prepare a solution when you're planning to upgrade to Business Central 2025 release wave 1 and later.
 - [Install a Business Central 2025 release Wave 2 (version 27) Update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v27): This article describes the tasks required for getting the monthly version 27 update applied to your Dynamics 365 Business Central on-premises.
 - [Upgrading Microsoft System and Base Application to Version 27](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v27): Describes how to upgrade an unmodified Business Central version 15 through 25 to version 27
+  - In the observatory: [Page 9802 "Permission Sets"](../../../../objects/page/9802.md)
 - [Upgrading to Dynamics 365 Business Central 2025 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v27): Provides an overview of Business Central 2025 release wave 2 upgrade process.
 
 ## Videos and posts

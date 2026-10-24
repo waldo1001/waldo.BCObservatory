@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:50:24.129Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:24.187Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -234,6 +234,13 @@ chapters:
     title: AL MCP server for agents outside VS Code
   - t: 1571
     title: AI-powered troubleshooting and debugging
+cautions:
+  - kind: preview-disclaimer
+    quote: AL MCP is only available on the pre-release version at the point of recording
+    t: 1424
+  - kind: preview-disclaimer
+    quote: try out the pre-release for any upcoming changes and addition to the developer experience
+    t: 2068
 features:
   - name: Multiple token selection in JSON
     status: unclear

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/optimize-sql-query-objects-and-performance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-query-objects-and-performance",
+  "title": "Query Objects and Performance",
+  "blob": "e6a94e0d166956204945481c043bb17cf8db1a75",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Query is an object used to specify set of data to read from Business Central database, supporting single or multiple tables with joins and totaling."
+    },
+    {
+      "kind": "fact",
+      "text": "Sub-query is automatically added to SQL statement for each FlowField in query to retrieve all data in one request."
+    },
+    {
+      "kind": "limit",
+      "text": "FlowFields cannot be used on virtual tables in queries because they cannot be automatically converted to SQL statements."
+    },
+    {
+      "kind": "fact",
+      "text": "Covering index contains all output fields required by operation and greatly improves performance by retrieving only index data."
+    },
+    {
+      "kind": "fact",
+      "text": "SIFT index supports queries with aggregated columns using Sum, Count, or Average methods when totals are part of key fields."
+    },
+    {
+      "kind": "fact",
+      "text": "Query result sets are not guaranteed to be dynamic, unlike record result sets which are always dynamic."
+    },
+    {
+      "kind": "fact",
+      "text": "SQL Server query optimizer can be overridden with query hints to enforce specific execution plans for SELECT, INSERT, UPDATE, DELETE statements."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004158,
+      "pages_in_call": 16
+    }
+  ]
+}

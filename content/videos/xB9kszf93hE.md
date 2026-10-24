@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:47:38.435Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -111,6 +111,10 @@ chapters:
     title: Using LLMs to judge outputs
   - t: 273
     title: Advanced benchmarking scenarios
+cautions:
+  - kind: preview-disclaimer
+    quote: But we're not really going to cover that today. The main focus is on the on the second part.
+    t: 300
 features:
   - name: AI evaluations framework
     status: unclear

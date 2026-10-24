@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:49:30.530Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:30.564Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -114,6 +114,10 @@ chapters:
     title: Fulfillment and API Changes
   - t: 578
     title: Shopify API Updates and Conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: for upgraded stores you will need to uh change this setting uh manually
+    t: 409
 features:
   - name: Item variant images and attributes support
     status: unclear

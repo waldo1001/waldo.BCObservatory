@@ -1,0 +1,44 @@
+{
+  "item_id": "blog/katson-com/5026",
+  "page_id": "post/katson-com/5026",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "But would same config work in Claude Desktop? No.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2025 release wave 2"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Claude Code config ≠ Claude Desktop config. type: http + oauth gets silently skipped by the desktop app.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Old mcp-remote breaks on Entra's PKCE metadata. Always npm install -g mcp-remote@latest.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "The callback path is /oauth/callback, and the port must be pinned.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005377,
+    "posts_in_call": 4
+  }
+}

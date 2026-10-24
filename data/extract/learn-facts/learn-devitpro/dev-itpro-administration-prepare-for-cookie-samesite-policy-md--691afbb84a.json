@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/prepare-for-cookie-samesite-policy.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/prepare-for-cookie-samesite-policy",
+  "title": "Cookie samesite policy",
+  "blob": "6540233f2a90b4ea2cceebec9242b929f5cc2b55",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Browser cookie policy changes affect federated authentication and cross-domain hosting scenarios."
+    },
+    {
+      "kind": "fact",
+      "text": "Changes impact Outlook add-in, SharePoint app hosting, Microsoft Entra authentication, and iframe embedding."
+    },
+    {
+      "kind": "fact",
+      "text": "Google Chrome 80 and Microsoft Edge implement SameSite cookie attribute changes starting early 2020."
+    },
+    {
+      "kind": "fact",
+      "text": "Cookies default to SameSite=Lax and insecure SameSite=None cookies are rejected."
+    },
+    {
+      "kind": "fact",
+      "text": "Minimum recommended updates include Dynamics NAV 2015 CU 61, 2016 CU 49, 2017 CU 36, 2018 CU 23, and Business Central updates."
+    },
+    {
+      "kind": "fact",
+      "text": "In web farm deployments add SameSite attribute to session affinity cookie with rewrite rules."
+    },
+    {
+      "kind": "fact",
+      "text": "Test using Chrome 80 Beta or by enabling SameSite flags in older Chrome versions at chrome://flags."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

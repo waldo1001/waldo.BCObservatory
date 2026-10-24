@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:13:53.105Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -86,6 +86,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a
+      title: If You Can't Make It Fast, Make It Feel Fast
+      label: possibly related
+      why: both name Table 474 "Job Queue Log Entry"
+      by: code
 video_id: 564XMP2IyLM
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -210,3 +216,9 @@ Not found in BC28-30: table "job CU log entry".
 - [1:03](https://www.youtube.com/watch?v=564XMP2IyLM&t=63s) "I want to keep failed job queue log entries for 5 days I want to allow people some reaction time so that they can"
 - [1:23](https://www.youtube.com/watch?v=564XMP2IyLM&t=83s) "I can enable this retention policy and this will now continuously make sure that data in the job key log entry is deleted after"
 - [1:44](https://www.youtube.com/watch?v=564XMP2IyLM&t=104s) "save your database cost and do a good thing for performance use for policies"
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [If You Can't Make It Fast, Make It Feel Fast](../posts/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a.md) — possibly related: both name Table 474 "Job Queue Log Entry"

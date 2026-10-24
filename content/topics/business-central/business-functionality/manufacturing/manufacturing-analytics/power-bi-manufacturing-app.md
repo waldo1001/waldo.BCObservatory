@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:13.898Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -287,24 +287,37 @@ For building or checking measures, use the semantic model page, which describes 
 - [Allocated Hours](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-allocated-hours): The Allocated Hours report provides an overview of the allocated time, in hours, for each work center.
 - [Average Production Times](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-average-production-times): The Average Production Times report shows the detailed average production times for each item.
 - [Capacity Variance](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-capacity-variance): The Capacity Variance report shows the variance between expected and actual capacity costs on a monthly basis.
+  - In the observatory: [Table 5405 "Production Order"](../../../../../objects/table/5405.md), [Table 5832 "Capacity Ledger Entry"](../../../../../objects/table/5832.md)
 - [Consumption Variance (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-consumption-variance): The Consumption Variance report highlights the variance between expected and actual consumption costs on a monthly basis.
+  - In the observatory: [Table 32 "Item Ledger Entry"](../../../../../objects/table/32.md), [Table 5405 "Production Order"](../../../../../objects/table/5405.md)
 - [Current Utilization](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-current-utilization): The Current Utilization report provides insights into the manufacturing capacity use and helps with capacity planning.
+  - In the observatory: [Table 5832 "Capacity Ledger Entry"](../../../../../objects/table/5832.md), [Table 99000757 "Calendar Entry"](../../../../../objects/table/99000757.md)
 - [Expected Capacity Need (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-expected-capacity-need): The Expected Capacity Need report provides insights into the capacity you expect to require for each work center.
+  - In the observatory: [Table 5405 "Production Order"](../../../../../objects/table/5405.md), [Table 5832 "Capacity Ledger Entry"](../../../../../objects/table/5832.md)
 - [Finished Production Order Breakdown (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-finished-production-order-breakdown): The Finished Production Order Breakdown report provides insights into the expected quantity versus the finished quantity of production orders.
+  - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md), [Table 5405 "Production Order"](../../../../../objects/table/5405.md)
 - [Historical Utilization](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-historical-utilization): The Historical Utilization report provides insights into the historical utilization of manufacturing resources and machinery equipment over time.
+  - In the observatory: [Table 5832 "Capacity Ledger Entry"](../../../../../objects/table/5832.md), [Table 99000757 "Calendar Entry"](../../../../../objects/table/99000757.md)
 - [Machine Center Load](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-load): The Machine Center Load report shows the load and the allocated capacity of each machine center.
 - [Machine Center Statistics](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-statistics): The Machine Center Statistics report shows key performance indicators for each machine center.
 - [Manufacturing KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-kpis): Get an overview of all the KPIs and measures in the semantic model for the Manufacturing Power BI app.
+  - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md), [Table 32 "Item Ledger Entry"](../../../../../objects/table/32.md), [Table 5405 "Production Order"](../../../../../objects/table/5405.md), [Table 5406 "Prod. Order Line"](../../../../../objects/table/5406.md), [Table 5802 "Value Entry"](../../../../../objects/table/5802.md), [Table 5832 "Capacity Ledger Entry"](../../../../../objects/table/5832.md)
 - [Power BI Manufacturing app](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app): The Power BI Manufacturing app provides insights into your manufacturing activities.
 - [Power BI Manufacturing app semantic model](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app-semantic-model): Get an overview of the Power BI Manufacturing app semantic model, including its business fact and dimension tables and visible fields.
+  - In the observatory: [Table 14 "Location"](../../../../../objects/table/14.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 32 "Item Ledger Entry"](../../../../../objects/table/32.md), [Table 5405 "Production Order"](../../../../../objects/table/5405.md), [Table 5406 "Prod. Order Line"](../../../../../objects/table/5406.md), [Table 5407 "Prod. Order Component"](../../../../../objects/table/5407.md)
 - [Prod. Order List](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-list): Learn about how to benefit from using the Prod. Order List report.
 - [Prod.Order Routing Gantt](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-routing-gantt): Learn how to benefit from using the Prod. Order Routing Gantt report.
 - [Production Order Overview](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-order-overview): The Production Order Overview report provides a high-level summary of your organization's production order activities.
+  - In the observatory: [Table 32 "Item Ledger Entry"](../../../../../objects/table/32.md), [Table 5405 "Production Order"](../../../../../objects/table/5405.md), [Table 5802 "Value Entry"](../../../../../objects/table/5802.md), [Table 5832 "Capacity Ledger Entry"](../../../../../objects/table/5832.md)
 - [Production Order WIP](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-wip): Learn how to benefit from using the Production Order WIP report.
+  - In the observatory: [Table 5405 "Production Order"](../../../../../objects/table/5405.md), [Table 5802 "Value Entry"](../../../../../objects/table/5802.md)
 - [Production Scrap (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap): The Production Scrap report shows the quantity of capacity scrap each month, with a breakdown by code, location, and item category.
+  - In the observatory: [Table 5405 "Production Order"](../../../../../objects/table/5405.md), [Table 5832 "Capacity Ledger Entry"](../../../../../objects/table/5832.md), [Table 99000754 "Work Center"](../../../../../objects/table/99000754.md), [Table 99000758 "Machine Center"](../../../../../objects/table/99000758.md)
 - [Released Production Orders](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-released-production-orders): The Released Production Orders report shows information about all released production orders, including expected versus finished quantities and the variance.
+  - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md), [Table 5405 "Production Order"](../../../../../objects/table/5405.md)
 - [Work Center Load](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-work-center-load): The Work Center Load report shows the load and the allocated capacity of each work center.
 - [Work Center Statistics](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-work-center-statistics): The Work Center Statistics report shows key performance indicators for each work center.
+  - In the observatory: [Table 5832 "Capacity Ledger Entry"](../../../../../objects/table/5832.md), [Table 99000754 "Work Center"](../../../../../objects/table/99000754.md), [Table 99000757 "Calendar Entry"](../../../../../objects/table/99000757.md)
 
 ## Videos and posts
 

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:29.056Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,7 @@ narrative: generated
 
 > Core finance for the Belgian version of Business Central covers three local features: applying and unapplying general ledger entries, creating financial journals for bank transactions, and exporting GL balances to ACCON Plus. It answers questions about Belgium-specific finance tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > Core finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -92,7 +92,7 @@ This section holds Belgium-specific core finance pages for Business Central. It 
 
 The pages cover separate tasks. One explains how to apply and unapply general ledger entries to match and reconcile them. One explains how to create financial journals to register bank account transactions, with automatic balance checks. One explains the Link to Accon report, which exports GL account balances to a file for ACCON Plus.
 
-Start with the page that matches your task. For bank reconciliation work, read the financial journals page. For year-end reporting with ACCON Plus, read the export page.
+Start with the page that matches your task. To match or reverse the matching of GL entries, read the apply and unapply page. To register bank account transactions, read the financial journals page. To produce annual income statements in ACCON Plus, read the export page.
 
 ## Key points
 
@@ -103,13 +103,13 @@ Start with the page that matches your task. For bank reconciliation work, read t
 - The Link to Accon report exports general ledger account balances to a file.
 - The exported file is imported into ACCON Plus to generate annual income statements.
 - The export has a Show Amounts in Add. Reporting Currency option.
-- The section has no subtopics, only three pages.
 
 ## Learn pages
 
 - [Apply and Unapply General Ledger Entries [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries): Learn about the deprecated feature for applying and unapplying general ledger entries in the Belgian version of Business Central, and the replacement feature for reviewing account balances.
 - [Create Financial Journals [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-create-financial-journals): Learn how to use the Journal Templates to create financial journals in the Belgian version of Business Central.
 - [Export to Accon [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-to-accon): Learn how to export the link to the Accon report. This link lets you create a file that can be imported into ACCON Plus for generating an annual income statement.
+  - In the observatory: [Report 11313 "Link to Accon (BE)"](../../../../../objects/report/11313-be.md)
 
 ## Business Central pages and reports
 

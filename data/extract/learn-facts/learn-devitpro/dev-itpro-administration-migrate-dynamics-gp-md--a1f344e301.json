@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-dynamics-gp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp",
+  "title": "Migrate Dynamics GP data to the cloud",
+  "blob": "e7d544bd83bf02032b738f43c7f7576a07d323d4",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Fiscal periods from Dynamics GP migrate to Business Central as accounting periods, with historical years becoming open and requiring closure."
+    },
+    {
+      "kind": "fact",
+      "text": "Chart of Accounts account numbers map from the main segment; remaining segments become dimensions, with up to eight shortcut dimensions supported."
+    },
+    {
+      "kind": "fact",
+      "text": "Customer addresses migrate as shipping addresses; vendor addresses migrate with Remit To as primary and others as order addresses."
+    },
+    {
+      "kind": "fact",
+      "text": "Outstanding transactions migrate with remaining balance amounts, not original invoice amounts."
+    },
+    {
+      "kind": "fact",
+      "text": "Unit of Measure Schedules from GP don't have direct equivalents; Business Central supports alternate units of measure per item instead."
+    },
+    {
+      "kind": "fact",
+      "text": "Unreconciled bank transactions migrate; undeposited receipts do not migrate and must be deposited in GP before migration."
+    },
+    {
+      "kind": "fact",
+      "text": "Historical snapshot data stores in extension tables including GL, Receivables, Payables, Sales, Purchase, and Inventory transaction records."
+    },
+    {
+      "kind": "fact",
+      "text": "1099 vendor information and box amounts migrate if selected, with the earliest supported year being 2024."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007325,
+      "pages_in_call": 7
+    }
+  ]
+}

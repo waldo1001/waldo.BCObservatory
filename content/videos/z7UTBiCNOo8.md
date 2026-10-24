@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:01:52.509Z"
   flags: []
 generated:
-  at: "2026-10-07T23:01:52.552Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -128,6 +128,13 @@ chapters:
     title: Exploring Finance Reports in Documentation
   - t: 384
     title: Alternative Analysis Tools and Resources
+cautions:
+  - kind: preview-disclaimer
+    quote: they are marked here with a preview
+    t: 39
+  - kind: preview-disclaimer
+    quote: for the generally available version we'll likely put these slices to the right
+    t: 193
 features:
   - name: Excel Layouts for Built-in Reports
     status: announced

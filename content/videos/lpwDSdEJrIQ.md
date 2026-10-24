@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:03:24.702Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -240,6 +240,18 @@ chapters:
     title: Semaphore locking in sales order posting
   - t: 1397
     title: Parallel execution, concurrent operations, and diagnostics tools
+cautions:
+  - kind: preview-disclaimer
+    quote: read isolation feature maybe not a game changer but at least it will help with concurrency
+    t: 1594
+  - kind: preview-disclaimer
+    quote: very on a very short time frame we uh we are going to try to solve the issue of Page search by introducing the SQL s full text indexing meaning that hopefully from pc25
+    t: 2145
+    versions:
+      - "25"
+  - kind: preview-disclaimer
+    quote: on a longer Horizon we think the concurrence and parall ation is the big thing to do
+    t: 2186
 features:
   - name: Performance Toolkit
     status: unclear

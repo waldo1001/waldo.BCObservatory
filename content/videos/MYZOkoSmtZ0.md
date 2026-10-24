@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:14:24.929Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -85,6 +85,10 @@ chapters:
     title: Selecting Resource Mode and Workspace
   - t: 116
     title: Deployment and Readiness
+cautions:
+  - kind: preview-disclaimer
+    quote: the classic is a deprecated mode
+    t: 82
 features:
   - name: Application Insights for Business Central Telemetry
     status: unclear

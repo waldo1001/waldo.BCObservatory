@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:58.372Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,7 +89,9 @@ Start with "Set Up Withholding Tax (IT)". It covers withholding tax codes, vendo
 ## Learn pages
 
 - [Print withholding tax reports (IT)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-withholding-tax-reports): Learn how to print the Withholding Taxes report for Italy, showing all withholding taxes payable to the government.
+  - In the observatory: [Report 12101 "Withholding Taxes (IT)"](../../../../../objects/report/12101-it.md)
 - [Set Up Withholding Tax (IT)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/set-up-withholding-tax): Learn how to set up withholding tax in the Italian version of Business Central, ensuring compliance for third-party services and vendor purchases.
+  - In the observatory: [Page 12133 "Withh. Taxes-Contribution Card (IT)"](../../../../../objects/page/12133-it.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md)
 
 ## Business Central pages and reports
 

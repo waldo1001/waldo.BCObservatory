@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector
 type: topic
 title: Get started with the Shopify connector
-summary: The Shopify connector getting-started section explains how to connect a Shopify store to Business Central and synchronize items, prices, inventory, customers, companies and orders. It also covers creating a Shopify test account. It answers first-setup and test-environment questions.
+summary: "Getting started with the Shopify connector for Business Central: setting up a Shopify test account, installing and connecting the connector, and testing the sync of items, prices, inventory, customers, and orders. It answers questions about prerequisites, authentication, and test setup."
 tier: official
 language: en
 system: integration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:22:07.016Z"
+  at: "2026-10-24T00:56:59.535Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 93979d630fd742982e5019a7687985874b47d52ac7487dcb649a8323bb3ff955
+  input_hash: bf811fdea6b163205367687f7aa10ac001f200d6ef0ff62e8be8fde1f2587baa
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-account
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/get-started
-    title: Getting started with the connector for Shopify
-    date: "2026-09-04"
+    title: Get started with the Shopify Connector
+    date: "2026-09-22"
     commit: null
     t: null
     quote: null
@@ -84,29 +84,35 @@ narrative: generated
 
 # Get started with the Shopify connector
 
-> The Shopify connector getting-started section explains how to connect a Shopify store to Business Central and synchronize items, prices, inventory, customers, companies and orders. It also covers creating a Shopify test account. It answers first-setup and test-environment questions.
+> Getting started with the Shopify connector for Business Central: setting up a Shopify test account, installing and connecting the connector, and testing the sync of items, prices, inventory, customers, and orders. It answers questions about prerequisites, authentication, and test setup.
 
 Path: [Business functionality](../../business-functionality.md) > [Online store with Shopify](../online-store-with-shopify.md) > Get started with the Shopify connector · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section is the entry point for the Shopify connector in Business Central. It has two pages and no subtopics. One page introduces the connector and what it synchronizes. The other explains how to create a Shopify account to test it.
+This section covers the first steps for connecting a Shopify online store to Business Central. It has two pages and no subtopics.
 
-Start with "Getting started with the connector for Shopify" to learn how to connect a store and which data flows between Shopify and Business Central: items, prices, inventory, customers, companies and orders. Then use "Create and set up a Shopify account" if you need a store to try it on. That page covers a trial setup for end-users and a development store for partners.
+"Get started with the Shopify Connector" is the main page. It covers prerequisites, installing the Shopify Connector app, OAuth authentication, and testing strategies for synchronizing items, prices, inventory, customers, and orders. It also covers settings such as automatically creating unknown items, unknown customers, and sales documents, and whether Shopify can update items.
+
+"Create and set up a Shopify account" supports testing. It describes creating a trial account for end-users or a development store for partners. It also covers choosing a plan, configuring customer accounts, and activating test payments.
+
+Start with the account page if you have no Shopify store to test with. Otherwise start with the main connector page.
 
 ## Key points
 
-- The Shopify Connector connects Shopify stores to Business Central.
-- Synchronization covers items, prices, inventory, customers, companies and orders.
-- The account page covers creating a Shopify account for testing the connector.
-- End-users use a trial setup. Partners use development stores.
-- Account setup includes plan selection and customer account configuration.
-- Test payments are activated for testing, using either Bogus Gateway or Shopify Payments.
+- The Shopify Connector app is installed in Business Central and connects to the store using OAuth authentication.
+- The connector synchronizes items, prices, inventory, customers, and orders.
+- Offline access tokens are part of the authentication setup.
+- Options include auto create unknown items, auto create unknown customers, and auto create sales documents.
+- A 'Shopify can update items' option controls whether Shopify changes items.
+- End-users can test with a Shopify trial account. Partners can use a development store.
+- Test account setup covers plan selection, customer account configuration, and test payment activation.
+- Test payments can use the Bogus Gateway or Shopify Payments.
 
 ## Learn pages
 
 - [Create and set up a Shopify account](https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-account): Learn how to get a Shopify account so you can demonstrate the workflow for integrating Shopify and Business Central.
-- [Getting started with the connector for Shopify](https://learn.microsoft.com/dynamics365/business-central/shopify/get-started): First steps when configuring a connection between Business Central and Shopify.
+- [Get started with the Shopify Connector](https://learn.microsoft.com/dynamics365/business-central/shopify/get-started): Learn how to connect one or more Shopify online stores to Business Central, including prerequisites, installation options, and testing strategies.
 
 ## Videos, posts and code changes
 

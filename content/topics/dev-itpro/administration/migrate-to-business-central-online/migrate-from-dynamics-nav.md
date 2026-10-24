@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:51.564Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,7 +91,24 @@ The customization guide covers the code side. It explains the C/AL to AL convers
 ## Learn pages
 
 - [Customization Migration Guide - Dynamics NAV to Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-nav-customization-playbook): Learn how to convert C/AL customizations to AL extensions when migrating from Dynamics NAV to Business Central online.
+  - Status: Generally available.
+  - Prerequisite: All C/AL code customizations must be converted to AL extensions before migration.
+  - Limit: Data from tables with code customizations cannot be carried forward unless handled by extensions on both systems.
+  - Limit: Breaking schema changes like removing or renaming fields prevent extension synchronization.
+  - Step: Export C/AL objects using Export-NAVApplicationObject with ExportToNewSyntax flag.
+  - Step: Use Txt2Al conversion tool from version 14 to generate initial AL files.
+  - .NET add-ins not available in online; use control add-ins, Azure Functions, or external APIs instead.
 - [Migrate Dynamics NAV to Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-nav): Learn how to migrate from Dynamics NAV on-premises to Business Central online, including supported upgrade paths and key considerations.
+  - Status: Generally available.
+  - Prerequisite: First upgrade from Dynamics NAV to Business Central version 14 on-premises.
+  - Limit: Data from tables with code customizations cannot be carried forward unless converted to AL extensions.
+  - Full migration path requires converting C/AL customizations to AL extensions and upgrading to latest version.
+  - Reimplementation path migrates only essential business data without extension conversion beyond version 14.
+  - Business Central online tenant and appropriate licenses required before beginning migration.
+  - Step: Phase 1: Assess current state, plan scope, validate prerequisites, clean data.
+  - Step: Phase 2: Upgrade Dynamics NAV to supported Business Central on-premises version.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 

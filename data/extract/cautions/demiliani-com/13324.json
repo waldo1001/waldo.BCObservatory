@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/demiliani-com/13324",
+  "page_id": "post/demiliani-com/13324",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "You will start receiving HTTP 429 (Too Many Requests) responses from storage.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005183,
+    "posts_in_call": 4
+  }
+}

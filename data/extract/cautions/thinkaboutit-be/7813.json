@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/thinkaboutit-be/7813",
+  "page_id": "post/thinkaboutit-be/7813",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "The table builder is shipping as a preview feature.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC28"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "This applies only to user-defined layouts, not to layouts deployed by apps or extensions.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004968,
+    "posts_in_call": 4
+  }
+}

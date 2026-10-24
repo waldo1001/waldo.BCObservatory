@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:52:52.507Z"
   flags: []
 generated:
-  at: "2026-10-07T22:52:52.545Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -82,6 +82,37 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/_ynMUzh956w
+      title: "Introducing: Sustainability in Business Central (2024 release wave 1)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-journal
+      title: Record sustainability entries
+      label: possibly related
+      why: names Page 6219 "Sustainability Journal"
+      by: code
+    - to: video/UKVp28M5TtU
+      title: "What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: video/XYr0xwgpomA
+      title: "What's New in Sustainability: Sustainability Journals Approval (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: video/i-MTLNYwA9o
+      title: "What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)"
+      label: possibly related
+      why: both name Page 6219 "Sustainability Journal"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/sustainability-carbon-credit
+      title: Work with carbon credits
+      label: possibly related
+      why: names Page 6219 "Sustainability Journal"
+      by: code
 video_id: bHXEbtsx0JY
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -228,5 +259,16 @@ As heard in the captions. A name that matches one object page by exact type and 
 ## Disclaimers in the video
 
 - [0:05](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=5s) other: 2025 release wave 2
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Introducing: Sustainability in Business Central (2024 release wave 1)](../videos/_ynMUzh956w.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [Record sustainability entries](https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-journal) — possibly related: names Page 6219 "Sustainability Journal"
+- [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../videos/UKVp28M5TtU.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [What's New in Sustainability: Sustainability Journals Approval (2025 release wave 2)](../videos/XYr0xwgpomA.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)](../videos/i-MTLNYwA9o.md) — possibly related: both name Page 6219 "Sustainability Journal"
+- [Work with carbon credits](https://learn.microsoft.com/dynamics365/business-central/sustainability-carbon-credit) — possibly related: names Page 6219 "Sustainability Journal"
 
 Presenters (as heard): Alexander, Arthur, Tensel.

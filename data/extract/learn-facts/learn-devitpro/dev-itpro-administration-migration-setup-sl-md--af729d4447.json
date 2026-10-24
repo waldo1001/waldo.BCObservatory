@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup-sl.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-sl",
+  "title": "Run cloud migration setup for Dynamics SL migration",
+  "blob": "9c0050cb88ae16d89f6d49f70aca1a4a049b9104",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Delegated administrators must get approval from licensed user with Essentials or Premium license and SUPER permissions."
+    },
+    {
+      "kind": "step",
+      "text": "Sign in to Microsoft 365 tenant and Business Central online as administrator."
+    },
+    {
+      "kind": "step",
+      "text": "Open Assisted Setup and select Set up Cloud Migration to run setup guide."
+    },
+    {
+      "kind": "step",
+      "text": "Specify SQL database connection details and integration runtime on Define SQL database connection page."
+    },
+    {
+      "kind": "step",
+      "text": "Select companies to migrate from list or switch on All Companies option."
+    },
+    {
+      "kind": "step",
+      "text": "Complete setup on SL Company Migration Configuration page and select Finish."
+    },
+    {
+      "kind": "fact",
+      "text": "Cloud migration setup can be rerun to add tenants to existing integration runtime service."
+    },
+    {
+      "kind": "limit",
+      "text": "Online tenant storage capacity default is 80 GB plus allowances per licensed user."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005028,
+      "pages_in_call": 10
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/authenticating-users-with-azure-ad-openid-connect.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-openid-connect",
+  "title": "Configure Microsoft Entra authentication with OpenID Connect",
+  "blob": "725f6bf617401791abe8fc6cc2a1e2673a192a13",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Obtain and set up security certificates on Business Central deployment for secure WAN connections"
+    },
+    {
+      "kind": "step",
+      "text": "Create Microsoft Entra tenant by signing up for Microsoft 365 plan or Azure subscription"
+    },
+    {
+      "kind": "step",
+      "text": "Register Business Central application in Microsoft Entra tenant specifying name, account types, and redirect URI"
+    },
+    {
+      "kind": "step",
+      "text": "Set ID tokens for implicit grant and hybrid flows in application authentication settings"
+    },
+    {
+      "kind": "step",
+      "text": "Associate each Microsoft Entra user accessing Business Central with account having authentication email"
+    },
+    {
+      "kind": "step",
+      "text": "Configure server instance credential type to AccessControlService and set Microsoft Entra settings"
+    },
+    {
+      "kind": "step",
+      "text": "Configure web server components with AAD application ID and authority URI"
+    },
+    {
+      "kind": "fact",
+      "text": "For multitenant deployments using different Azure tenants, register app on one tenant and make it multitenant"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007005,
+      "pages_in_call": 8
+    }
+  ]
+}

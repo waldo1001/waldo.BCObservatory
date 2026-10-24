@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:23.185Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > German local functionality in Business Central: currency exchange rate adjustment under BilMoG, EU Sales List submission to BZSt via ELMA5, registration numbers on sales and purchase reports, and the G/L Setup Information report. It answers setup and compliance questions for German companies.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > General · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

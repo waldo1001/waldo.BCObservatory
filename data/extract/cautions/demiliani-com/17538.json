@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/demiliani-com/17538",
+  "page_id": "post/demiliani-com/17538",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Records on this table are not logged if a record is managed via code.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Recent Record"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002595,
+    "posts_in_call": 4
+  }
+}

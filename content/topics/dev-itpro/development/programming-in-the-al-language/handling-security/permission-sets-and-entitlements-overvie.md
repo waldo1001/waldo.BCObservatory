@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:55.702Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -193,8 +193,27 @@ Three telemetry pages cover auditing and troubleshooting: permission changes, pe
 
 - [(automation API) Get permissionSet](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_permissionset_get): Gets a permission set object in Dynamics 365 Business Central.
 - [Analyzing Permission Changes Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace): Learn about the telemetry for permission changes made in Business Central
+  - Status: Permission changes telemetry applies to Business Central 2020 release wave 2, version 17.2, and later.
+  - Tracks user-defined permission set creation, deletion, and system permission set links.
+  - Monitors assignment or removal of permission sets from users and user groups.
+  - Captures permission set changes made by apps or extensions during install or upgrade.
+  - Events AL0000E2A through AL0000E2F track specific permission set operations with details.
+  - LC0058 event identifies app or extension that changed permission set with ID, name, publisher.
 - [Analyzing permission dependency cycle trace telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace): Learn about the permission dependency cycle trace telemetry in Business Central
+  - Permission dependency cycle occurs when permission set depends on itself directly or indirectly
+  - Dependency cycle discovered event has ID RT0032 with severity level 3
+  - Cycle error message shows circular reference path, for example [XX]->[YY]->[XX]
+  - Telemetry includes AL object ID and type if error relates to specific object
+  - Permission area values recorded are System, Entitlement, Company, or Object
+  - Permission type values include Delete, Execute, Insert, Modify, Read, or Undefined
 - [Analyzing Permission Error Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace): Learn about the permission error telemetry in Business Central
+  - Permission error telemetry signals when users get permission-related error dialogs.
+  - Permission Error Shown event has eventId RT0031 at severity level 1.
+  - Data includes object ID, name, type, and permission area that caused the error.
+  - permissionType dimension shows missing permission: Delete, Execute, Insert, Modify, or Read.
+  - permissionArea dimension indicates System, Entitlement, Company, or Object scope.
+  - Stack trace and error message help identify where permission check failed in code.
+  - Sample KQL code helps analyze which permission errors users encounter frequently.
 - [Composing Permission Sets from Other Permission Sets](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing): Learn how to create a permission set from one or more existing permission sets in AL code for Business Central.
 - [Entitlement object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-entitlement-object): Discover how to define and use entitlement objects in AL for Business Central.
 - [Entitlements and permission sets overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview): Learn about the different built-in methods to control which users can do what so that you can design the Business Central permission sets more precisely.
@@ -205,6 +224,8 @@ Three telemetry pages cover auditing and troubleshooting: permission changes, pe
 - [Permissions on Objects](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissions-on-database-objects): This article provides an overview of permissions on objects in Business Central.
 - [permissionSet resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_permissionset): A permission set object in Dynamics 365 Business Central.
 - [Upgrading Permission Sets and Permissions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-permissions): Describes how to upgrade permissions and permission sets
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos, posts and code changes
 

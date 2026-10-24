@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:28.677Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,7 +116,9 @@ The pages are independent of each other. Start with the topic that matches your 
 - [Deleting posted invoices and credit memos [IS]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos): In Iceland, in accordance with legislation, you can't delete posted sales and purchase invoices and credit memos.
 - [Export data for auditing](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-export-audit-files): This article explains how to set up different export formats and then use them, based on auditor or authority requirements.
 - [Map IRS numbers to chart of accounts [IS]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts): This article explains how to map predefined Internal Revenue Service (IRS) account codes to general ledger accounts.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md)
 - [Registration numbers in the Icelandic localization](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/use-registration-no): This article provides instructions about how to use registration numbers in the Icelandic localization.
+  - In the observatory: [Table 1226 "Payment Export Data"](../../../../../objects/table/1226.md)
 
 ## Business Central pages and reports
 

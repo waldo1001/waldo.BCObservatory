@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:50:22.575Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:22.620Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -95,6 +95,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/YX9UfUF0EsA
+      title: "Microsoft presents: Introducing M365 Copilot Chat in Business Central"
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
+    - to: video/jqVt0hYDfz0
+      title: "What's Cooking in Business Central: Delivering Analysis Views in AL Extensions"
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
+    - to: video/Rh1AFX9A1x4
+      title: "What's New: Data Analysis (2025 release wave 1)"
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
 video_id: fJGY6d-2lO8
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -122,6 +138,12 @@ chapters:
     title: Related Sessions and Conclusion
   - t: 363
     title: Business Central Resources and Community
+cautions:
+  - kind: preview-disclaimer
+    quote: They are coming in 28.x so not in the April release
+    t: 257
+    versions:
+      - "28"
 features:
   - name: Customer Retention Overview and History Reports
     status: unclear
@@ -241,3 +263,11 @@ Not found in BC28-30: report "Customer Retention Overview", report "ABC Analysis
 ## Disclaimers in the video
 
 - [4:17](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=257s) not-in-this-release: They are coming in 28.x so not in the April release
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Microsoft presents: Introducing M365 Copilot Chat in Business Central](../videos/YX9UfUF0EsA.md) — possibly related: both name Page 9305 "Sales Order List"
+- [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../videos/jqVt0hYDfz0.md) — possibly related: both name Page 9305 "Sales Order List"
+- [What's New: Data Analysis (2025 release wave 1)](../videos/Rh1AFX9A1x4.md) — possibly related: both name Page 9305 "Sales Order List"

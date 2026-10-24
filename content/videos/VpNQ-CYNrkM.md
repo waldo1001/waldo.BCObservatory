@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:10:17.247Z"
   flags: []
 generated:
-  at: "2026-10-07T23:10:17.311Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -126,6 +126,18 @@ chapters:
     title: Breaking Changes and Deprecations
   - t: 742
     title: Call to Action and Related Sessions
+cautions:
+  - kind: preview-disclaimer
+    quote: Direct support for patch in HTTP client expected in a minor release after this wave
+    t: 168
+  - kind: preview-disclaimer
+    quote: API version 1 will be removed in version 26 or later
+    t: 664
+    versions:
+      - "26"
+  - kind: preview-disclaimer
+    quote: SOAP web services on Microsoft pages will be removed in a later release
+    t: 678
 features:
   - name: Cookie Support in HTTP Client
     status: unclear

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:53:13.583Z"
   flags: []
 generated:
-  at: "2026-10-18T00:53:28.996Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,8 +79,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573342
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -114,19 +113,15 @@ chapters:
     title: B2B Catalogs and Currency Code Field
 features:
   - name: Market Catalog Import
-    status: ga
+    status: unclear
     t: 325
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
   - name: Price Synchronization for Markets
-    status: ga
+    status: unclear
     t: 381
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
   - name: Multi-currency Market Support
     status: unclear
     t: 337
@@ -138,19 +133,15 @@ features:
     verified: false
     status_source: video
   - name: B2B Catalog Company Locations
-    status: ga
+    status: unclear
     t: 477
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
   - name: B2B Catalogs with Currency Code
-    status: ga
+    status: unclear
     t: 562
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
 objects_mentioned:
   - page market catalog
   - page B2B catalogs
@@ -211,16 +202,16 @@ The demo covers the new Market Catalog page and getting market catalogs from Sho
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Market Catalog Import | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [5:25](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=325s) |
-| Price Synchronization for Markets | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [6:21](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=381s) |
-| Multi-currency Market Support | status not stated, demoed | [5:37](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=337s) |
-| Point of Sale Market Definition | status not stated, demoed | [7:25](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=445s) |
-| B2B Catalog Company Locations | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [7:57](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=477s) |
-| B2B Catalogs with Currency Code | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [9:22](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=562s) |
+Every feature below: status not stated, demoed.
 
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
+| Feature | At |
+|---|---|
+| Market Catalog Import | [5:25](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=325s) |
+| Price Synchronization for Markets | [6:21](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=381s) |
+| Multi-currency Market Support | [5:37](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=337s) |
+| Point of Sale Market Definition | [7:25](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=445s) |
+| B2B Catalog Company Locations | [7:57](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=477s) |
+| B2B Catalogs with Currency Code | [9:22](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=562s) |
 
 ## AL objects mentioned
 

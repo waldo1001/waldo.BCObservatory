@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/olofsimren-com/3779",
+  "page_id": "post/olofsimren-com/3779",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "You can't insert, modify, or delete requisition or planning lines while an approval request is active.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Requisition Worksheet"
+        },
+        {
+          "type": "other",
+          "name": "Planning Worksheet"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC28",
+        "2026 release wave 1"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "This is batch-level, not line-level. You can't approve some lines in a batch and reject others.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Requisition Worksheet Batch"
+        },
+        {
+          "type": "other",
+          "name": "Planning Worksheet Batch"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC28",
+        "2026 release wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004298,
+    "posts_in_call": 4
+  }
+}

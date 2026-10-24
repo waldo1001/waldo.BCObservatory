@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/appsource.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appsource",
+  "title": "Add your App to Marketplace",
+  "blob": "d16eedf0f468d004e436dacd27dd2d3bd8a193cd",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Marketplace is where partners provide marketing details about apps such as descriptions and whitepapers."
+    },
+    {
+      "kind": "limit",
+      "text": "Embed app solutions are not uploaded to Marketplace; they upload to Lifecycle Services instead."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Once app is in Marketplace, next submissions cannot have breaking changes without obsoleting AL objects first."
+    },
+    {
+      "kind": "limit",
+      "text": "Breaking changes on tables or table extensions are not allowed for published apps."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003696,
+      "pages_in_call": 16
+    }
+  ]
+}

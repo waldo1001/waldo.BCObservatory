@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2603",
+  "page_id": "post/aardvarklabs-blog/2603",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If the file is corrupted and there is no first header line, then things all fall apart.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "the lines are grouped by their External Document Number. If the list was unordered, then we would need to perform additional validations.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00448,
+    "posts_in_call": 4
+  }
+}

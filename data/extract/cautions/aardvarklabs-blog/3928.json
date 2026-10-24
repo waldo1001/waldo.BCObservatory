@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3928",
+  "page_id": "post/aardvarklabs-blog/3928",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If you are not going to use the IsHandled flag and perform the address array population yourself, don't do anything with the array.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Format Address"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003961,
+    "posts_in_call": 4
+  }
+}

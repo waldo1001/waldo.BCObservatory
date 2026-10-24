@@ -18,7 +18,7 @@ review:
   at: "2026-10-16T01:16:52.043Z"
   flags: []
 generated:
-  at: "2026-10-16T00:19:25.651Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -49,6 +49,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea
+      title: "BC Friday Tips #56 Understand Missing Fields in Copy Documents"
+      label: possibly related
+      why: both name Table 37 "Sales Line"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d
+      title: "BC Friday Tips #69 Item Blocked Fields"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/kine-cz/https-blog-kine-cz-posts-bcdevelopmentserie-02b--0078d7faba
+      title: "Business Central Development Serie - Part 2b: AI for BC Development — The Knowledge Gap That Ships to Production"
+      label: possibly related
+      why: both name Table 37 "Sales Line"
+      by: code
+    - to: post/demiliani-com/11962
+      title: "Dynamics 365 Business Central: compressing API responses at max."
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/aardvarklabs-blog/1891
+      title: Implementing a Multi-Step Process for AI Recommendations in Business Central
+      label: possibly related
+      why: both name Table 37 "Sales Line"
+      by: code
+    - to: post/duiliotacconi-com/2001
+      title: Index Management with Dynamics 365 Business Central 2026 Wave 1
+      label: possibly related
+      why: both name Table 37 "Sales Line"
+      by: code
+    - to: video/mHrY_OI0qNo
+      title: "Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: video/cZCSi6khZFo
+      title: "Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)"
+      label: possibly related
+      why: both name Table 37 "Sales Line"
+      by: code
+    - to: post/aardvarklabs-blog/3118
+      title: Leveraging RecordRef and FieldRef for Dynamic Coding
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/duiliotacconi-com/2149
+      title: "Partial Record vs NST Caching : the strange case of Calculate Low Level Code"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
 post_id: https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/
 source_id: thatnavguy-com
 source_name: That NAV Guy
@@ -101,6 +152,21 @@ As named in the post. A name that matches one object page by exact type and name
 
 - [table 27 "Item"](../../objects/table/27.md)
 - [table 37 "Sales Line"](../../objects/table/37.md)
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) — possibly related: both name Table 37 "Sales Line"
+- [BC Friday Tips #69 Item Blocked Fields](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d.md) — possibly related: both name Table 27 "Item"
+- [Business Central Development Serie - Part 2b: AI for BC Development — The Knowledge Gap That Ships to Production](../../posts/kine-cz/https-blog-kine-cz-posts-bcdevelopmentserie-02b--0078d7faba.md) — possibly related: both name Table 37 "Sales Line"
+- [Dynamics 365 Business Central: compressing API responses at max.](../../posts/demiliani-com/11962.md) — possibly related: both name Table 27 "Item"
+- [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../posts/aardvarklabs-blog/1891.md) — possibly related: both name Table 37 "Sales Line"
+- [Index Management with Dynamics 365 Business Central 2026 Wave 1](../../posts/duiliotacconi-com/2001.md) — possibly related: both name Table 37 "Sales Line"
+- [Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)](../../videos/mHrY_OI0qNo.md) — possibly related: both name Table 27 "Item"
+- [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../../videos/cZCSi6khZFo.md) — possibly related: both name Table 37 "Sales Line"
+- [Leveraging RecordRef and FieldRef for Dynamic Coding](../../posts/aardvarklabs-blog/3118.md) — possibly related: both name Table 27 "Item"
+- [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../../posts/duiliotacconi-com/2149.md) — possibly related: both name Table 27 "Item"
 
 ## Context
 

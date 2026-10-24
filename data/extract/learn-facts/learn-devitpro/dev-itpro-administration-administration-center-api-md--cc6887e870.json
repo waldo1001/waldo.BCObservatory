@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-center-api.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api",
+  "title": "Business Central Administration Center API",
+  "blob": "278d3c7de391152d403cdf4f8336f4f6a94b8ef5",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Service-to-service authentication using Client Credentials Flow is supported from version 20.0 onwards."
+    },
+    {
+      "kind": "step",
+      "text": "Register an application in your Microsoft Entra tenant with a unique name and select account type."
+    },
+    {
+      "kind": "step",
+      "text": "Create a client secret for the registered application with a specified duration."
+    },
+    {
+      "kind": "step",
+      "text": "Grant AdminCenter.ReadWrite.All permission to the registered application for the admin center API."
+    },
+    {
+      "kind": "step",
+      "text": "Go to the admin center and paste the application client ID in the Authorized Microsoft Entra apps page."
+    },
+    {
+      "kind": "permission",
+      "text": "AdminCenter.ReadWrite.All permission required for admin center API calls; API.ReadWrite.All and Automation.ReadWrite.All also available."
+    },
+    {
+      "kind": "fact",
+      "text": "The admin center API is located at https://api.businesscentral.dynamics.com"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00629,
+      "pages_in_call": 8
+    }
+  ]
+}

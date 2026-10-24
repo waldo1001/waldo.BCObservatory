@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:22.231Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -130,10 +130,15 @@ The pages are independent task guides. Start with Making Tax Digital - Submittin
 ## Learn pages
 
 - [Change VAT Setup in Journals](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals): Add VAT setup information to journal lines if necessary. If items are entered without VAT, there's no need to manually remove VAT setup information.
+  - In the observatory: [Page 251 "General Journal Batches"](../../../../../objects/page/251.md)
 - [Making Tax Digital - Submitting VAT Returns](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return): Business Central includes features to manage your VAT and comply with Making Tax Digital. This article describes how to set up and use these features.
+  - In the observatory: [Page 1279 "Service Connections"](../../../../../objects/page/1279.md)
 - [Print VAT Audit Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports): Learn how Business Central supports the British requirements for VAT audits.
+  - In the observatory: [Report 10512 "VAT Audit (GB)"](../../../../../objects/report/10512-gb.md)
 - [Print VAT Reports [GB]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-reports): This article explains the various VAT reports and provides guidance on how to print each of them.
+  - In the observatory: [Report 2500 "Day Book VAT Entry"](../../../../../objects/report/2500.md), [Report 2501 "Day Book Cust. Ledger Entry"](../../../../../objects/report/2501.md), [Report 2502 "Day Book Vendor Ledger Entry"](../../../../../objects/report/2502.md)
 - [Set Up Reverse Charges on VAT [UK]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat): Learn how you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC).
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 30 "Item Card"](../../../../../objects/page/30.md), [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md), [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md), [Page 470 "VAT Business Posting Groups"](../../../../../objects/page/470.md), [Report 10529 "Reverse Charge Sales List (GB)"](../../../../../objects/report/10529-gb.md)
 
 ## Videos, posts and code changes
 

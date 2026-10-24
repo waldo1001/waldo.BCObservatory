@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/scheduled-performance-profiler-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/scheduled-performance-profiler-overview",
+  "title": "Scheduled performance profiler overview",
+  "blob": "846da6c131b1b484575464e40daaee85348d22c3",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Performance Profiling MCP proxy available in preview with runtime 18 and version 29"
+    },
+    {
+      "kind": "fact",
+      "text": "Records snapshots of processes during defined time slots to diagnose performance issues"
+    },
+    {
+      "kind": "fact",
+      "text": "Supports recording of browser activities, background tasks with job queues, and web service calls"
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Administrator users can create schedules for themselves and others; other users only for themselves"
+    },
+    {
+      "kind": "limit",
+      "text": "Maximum schedule duration is one week and maximum retention after completion is one week"
+    },
+    {
+      "kind": "limit",
+      "text": "Debugger cannot attach to a session while profiling schedule is enabled"
+    },
+    {
+      "kind": "fact",
+      "text": "Sampling profiler takes samples at evenly spaced intervals; short-lived code may not be captured"
+    },
+    {
+      "kind": "permission",
+      "text": "Agent-based profiling requires D365 ATTACH DEBUG permission set for profiling another user's session"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011363,
+      "pages_in_call": 4
+    }
+  ]
+}

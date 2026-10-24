@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:56:56.709Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,7 +69,7 @@ narrative: generated
 
 > General Czech local functionality in Business Central covers extended user control (assigning employees to users and restricting access to cash desks, bank accounts, journals, dimensions, locations and posting periods) and modern search on lists. It answers questions about Czech-specific access setup and list searching.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > General · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -89,6 +89,7 @@ Start with the extended user control page if you are configuring permissions for
 ## Learn pages
 
 - [Czech local functionality - General function](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/general): Learn about the enhanced user setup features and general functionality available in the Czech local version of Business Central.
+  - In the observatory: [Page 119 "User Setup"](../../../../../objects/page/119.md)
 - [Use modern search in the Czech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/use-modern-search-cz): This feature enables fast, precise data access with modern search in the Czech localization. Switch between legacy and optimized full-text search for better user satisfaction and productivity.
 
 ## Videos, posts and code changes

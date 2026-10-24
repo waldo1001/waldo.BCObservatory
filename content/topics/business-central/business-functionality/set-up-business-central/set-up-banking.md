@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:23:09.100Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -167,10 +167,14 @@ Start with "Set Up Banking" and "Set up bank accounts" for the basics. Then pick
 
 - [How to use banking and payment formats in Business Central](https://learn.microsoft.com/dynamics365/business-central/banks-formats-faq): Learn how to find and use banking and payment formats that suit your needs and comply with your country and bank requirements in Business Central.
 - [Set up bank accounts](https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-accounts): Learn how bank accounts are used in Business Central, and how you can reconcile amounts with your bank.
+  - In the observatory: [Page 1290 "Payment Reconciliation Journal"](../../../../objects/page/1290.md), [Page 35630 "Bank Accounts (RU)"](../../../../objects/page/35630-ru.md)
 - [Set Up Banking](https://learn.microsoft.com/dynamics365/business-central/bank-setup-banking): You use bank account cards to keep track of your bank accounts and set up bank feeds, such as Yodlee, to exchange data.
 - [Set Up Yodlee Bank Feeds](https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-statement-service): You can convert payment information to any data format that your bank requires and enable the export or import of bank files.
+  - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../objects/page/35630-ru.md), [Page 370 "Bank Account Card"](../../../../objects/page/370.md)
 - [Specify the Layout of a Check](https://learn.microsoft.com/dynamics365/business-central/finance-how-define-check-layouts): You can design and print your checks in different formats to conform with standards set by your local authorities.
+  - In the observatory: [Page 385 "Report Selection - Bank Acc."](../../../../objects/page/385.md), [Report 1401 "Check"](../../../../objects/report/1401.md)
 - [Using the AMC banking 365 fundamentals extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-amc-banking): Learn how to easily exchange data with your banks by transforming data into the format that they require.
+  - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../objects/page/35630-ru.md)
 
 ## Business Central pages and reports
 

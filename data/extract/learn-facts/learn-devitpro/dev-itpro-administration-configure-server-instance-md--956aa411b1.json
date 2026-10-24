@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/configure-server-instance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-server-instance",
+  "title": "Configure Business Central Server",
+  "blob": "9332bb481c053dc3a279480beb2db72b57c64aaf",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Available from Business Central 2022 release wave 2 (version 21) and later"
+    },
+    {
+      "kind": "fact",
+      "text": "Configuration is stored in CustomSettings.config file located at the service directory"
+    },
+    {
+      "kind": "step",
+      "text": "Use Set-NAVServerConfiguration cmdlet to change settings with ServerInstance, KeyName, and KeyValue parameters"
+    },
+    {
+      "kind": "step",
+      "text": "Restart the server instance using Services console or Restart-NAVServerInstance cmdlet for changes to take effect"
+    },
+    {
+      "kind": "fact",
+      "text": "Dynamically updatable settings can use ApplyTo parameter with options: ConfigFile, Memory, or All"
+    },
+    {
+      "kind": "fact",
+      "text": "Changes applied to Memory take effect immediately without restart but revert on server restart"
+    },
+    {
+      "kind": "limit",
+      "text": "Direct editing of CustomSettings.config is not recommended due to risk of typing errors"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011363,
+      "pages_in_call": 4
+    }
+  ]
+}

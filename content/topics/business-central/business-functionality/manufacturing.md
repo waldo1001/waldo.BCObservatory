@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:34.799Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -453,6 +453,7 @@ links:
     - change/bcapps/12068
     - change/bcapps/12552
     - change/bcapps/12584
+    - change/bcapps/12783
     - change/bcapps/9075
     - change/bcapps/9087
     - change/bcapps/9660
@@ -624,14 +625,22 @@ Two subtopics go deeper. Subcontracting covers delegating operations to vendors.
 
 - [About finished production order costs](https://learn.microsoft.com/dynamics365/business-central/finance-about-finished-production-order-costs): Learn how finished production orders reconcile material, capacity, subcontracting, overhead, work-in-process, inventory, and variances.
 - [About production orders](https://learn.microsoft.com/dynamics365/business-central/production-about-production-orders): Learn about production orders, and how to use them to manage the conversion of purchased materials into manufactured items.
+  - In the observatory: [Page 5510 "Production Journal"](../../../objects/page/5510.md), [Page 9327 "Finished Production Orders"](../../../objects/page/9327.md), [Page 99000817 "Prod. Order Routing"](../../../objects/page/99000817.md), [Page 99000818 "Prod. Order Components"](../../../objects/page/99000818.md), [Page 99000823 "Output Journal"](../../../objects/page/99000823.md), [Page 99000846 "Consumption Journal"](../../../objects/page/99000846.md)
 - [Batch post consumption](https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-consumption): Learn how to manually record component usage for one or more production order lines and reduce the related inventory quantities.
+  - In the observatory: [Page 99000768 "Manufacturing Setup"](../../../objects/page/99000768.md)
 - [Batch post production output and run times](https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-output-quantity): Learn how to post completed quantities, scrap, setup time, and run time for one or more released production orders.
+  - In the observatory: [Page 5510 "Production Journal"](../../../objects/page/5510.md), [Page 99000779 "Stop Codes"](../../../objects/page/99000779.md), [Page 99000780 "Scrap Codes"](../../../objects/page/99000780.md)
 - [Create production orders](https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-production-orders): Learn how to manually create a firm planned production order that brings together items, quantities, dates, components, operations, and capacity.
+  - In the observatory: [Page 9323 "Simulated Production Orders"](../../../objects/page/9323.md), [Page 9324 "Planned Production Orders"](../../../objects/page/9324.md), [Page 9326 "Released Production Orders"](../../../objects/page/9326.md)
 - [Manufacturing overview](https://learn.microsoft.com/dynamics365/business-central/production-manage-manufacturing): Explore manufacturing capabilities for planning, capacity, production, costing, quality management, subcontracting, and analytics.
+  - In the observatory: [Page 5510 "Production Journal"](../../../objects/page/5510.md)
 - [Post capacities](https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-capacities): Learn how to record time used by work and machine centers for maintenance or other activities outside production orders.
+  - In the observatory: [Page 99000754 "Work Center Card"](../../../objects/page/99000754.md), [Page 99000760 "Machine Center Card"](../../../objects/page/99000760.md)
 - [Post scrap manually](https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-scrap): Learn how to record scrap quantities and reason codes by production operation without increasing finished output.
 - [Register consumption output for a production order](https://learn.microsoft.com/dynamics365/business-central/production-how-to-register-consumption-and-output): Learn how to record component consumption, finished quantities, scrap, and operation time together for a released production order.
+  - In the observatory: [Table 5407 "Prod. Order Component"](../../../objects/table/5407.md)
 - [Reverse and correct production order transactions](https://learn.microsoft.com/dynamics365/business-central/production-cancel-production-orders-that-have-consumption): Learn how to reverse consumption, output, or capacity transactions on production orders, finish orders without output, and reopen finished orders.
+  - In the observatory: [Page 136 "Posted Purchase Receipt"](../../../objects/page/136.md), [Page 314 "General Posting Setup"](../../../objects/page/314.md), [Page 38 "Item Ledger Entries"](../../../objects/page/38.md), [Page 5832 "Capacity Ledger Entries"](../../../objects/page/5832.md), [Page 9327 "Finished Production Orders"](../../../objects/page/9327.md), [Page 99000823 "Output Journal"](../../../objects/page/99000823.md)
 
 ## Videos, posts and code changes
 
@@ -643,11 +652,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10423 Bug 620761: Move subconracting tests from base app to subcontracting app](../../../changes/bcapps/10423.md) (code change): "production-order requisition line descriptions are restored after vendor validation"
 - [#10546 [Main] Reopening and re-finishing production order reposts backward-flushed routing capacityupdate](../../../changes/bcapps/10546.md) (code change): "Reopening and re-finishing a production order no longer reposts backward-flushed"
 - [#10879 [Main]Reopening and re-finishing production order reposts backward-flushed routing capacityInitial commit](../../../changes/bcapps/10879.md) (code change): "Production order reopening and re-finishing now correctly handles backward-flushed routing capacity"
-- [#11665 Bug 649580: [Subcontracting] Transfer Shipment report is missing subcontractor and manufacturing references](../../../changes/bcapps/11665.md) (code change): "Report with subcontractor, purchase order, and production order details"
+- [#11665 Bug 649580: [Subcontracting] Transfer Shipment report is missing subcontractor and manufacturing references](../../../changes/bcapps/11665.md) (code change): "Subcontracting app now adds a report extension and selectable layout"
 - [#12059 [Master]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure.](../../../changes/bcapps/12059.md) (code change): "Reversing a production entry no longer fails when the production output"
 - [#12068 Bug 651757: [Repair Item] [Manufacturing] Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away](../../../changes/bcapps/12068.md) (code change): "Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away"
 - [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "sales order with a linked released production order caused repeated production order status warnings"
 - [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../changes/bcapps/12584.md) (code change): "Posted, uninvoiced subcontracting receipts can again be pulled into a separate purchase invoice"
+- [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../changes/bcapps/12783.md) (code change): "purchase cost accuracy in manufacturing operations using subcontractors"
 - [#9075 Bug 598820: Item Availability by Event from Prod. Order ignores demand after Due Date](../../../changes/bcapps/9075.md) (code change): "Item Availability by Event from Prod. Order ignores demand after Due Date"
 - [#9087 Bug 641331: Copy Production Order Document lookup shows the current document](../../../changes/bcapps/9087.md) (code change): "Copy Production Order Document report now excludes the current production order from the document lookup"
 - [#9660 [Master]-Act Consumption Qty field in Component of a Firm Planned Order has amounts that point to a Released Production Order that has the same Document No if the component is the same](../../../changes/bcapps/9660.md) (code change): "Act. Consumption Qty shown for components of a firm planned production order"

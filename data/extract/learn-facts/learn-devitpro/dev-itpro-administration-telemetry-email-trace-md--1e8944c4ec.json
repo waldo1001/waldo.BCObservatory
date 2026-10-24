@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-email-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace",
+  "title": "Analyze email trace telemetry",
+  "blob": "59f14a7af695451520523c6a9b6d54d853fead89",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Email telemetry available from Business Central 2020 release wave 2, update 17.2 and later."
+    },
+    {
+      "kind": "fact",
+      "text": "Email telemetry collects data on successful sends and failed send attempts."
+    },
+    {
+      "kind": "status",
+      "text": "SMTP authentication and connection telemetry added from 2023 release wave 1, update 23.2 and later."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Email must be set up before email telemetry data can be collected."
+    },
+    {
+      "kind": "fact",
+      "text": "Failed emails are viewable in Email Outbox page in Business Central client."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry captures email provider connector used such as Current User, Microsoft 365, SMTP, or custom connectors."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

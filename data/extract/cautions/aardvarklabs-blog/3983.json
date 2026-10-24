@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3983",
+  "page_id": "post/aardvarklabs-blog/3983",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "SQL Server enforces a maximum of 1024 columns per table.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "If the limit is exceeded, the system will produce an error indicating that the table cannot be created.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004243,
+    "posts_in_call": 4
+  }
+}

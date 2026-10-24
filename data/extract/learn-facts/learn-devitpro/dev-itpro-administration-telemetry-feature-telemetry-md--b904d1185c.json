@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-feature-telemetry.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-feature-telemetry",
+  "title": "Feature telemetry",
+  "blob": "b30281d6242a128e0a881c6dd0c33cccd7fe2192",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Feature Telemetry module simplifies app health monitoring and tracks feature uptake using three event types: LogUsage for successful feature use, LogError for explicit errors, and LogUptake for…"
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Must implement Telemetry Logger interface in an extension codeunit and register it via OnRegisterTelemetryLogger event subscriber, one per app publisher."
+    },
+    {
+      "kind": "fact",
+      "text": "LogUptake tracks four uptake states: Undiscovered, Discovered (page opens), Set up (user configures), and Used (user attempts feature). Calling with Undiscovered resets uptake state."
+    },
+    {
+      "kind": "limit",
+      "text": "LogUptake may make database transactions and requires PerformWriteTransactionsInASeparateSession set to true when called from try function."
+    },
+    {
+      "kind": "fact",
+      "text": "Custom dimensions include extension info, user role, environment type, client type, and for errors: stack trace and error text describing the issue."
+    },
+    {
+      "kind": "fact",
+      "text": "If no telemetry logger registered for publisher, server logs event AL0000G7K to environment telemetry indicating app sending data without registered logger."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010146,
+      "pages_in_call": 5
+    }
+  ]
+}

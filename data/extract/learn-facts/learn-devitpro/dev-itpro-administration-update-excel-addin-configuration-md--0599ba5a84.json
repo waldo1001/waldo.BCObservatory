@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/update-excel-addin-configuration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration",
+  "title": "Update the Excel add-in configuration",
+  "blob": "68e17b26e5cfad05e86c75707345301e68291fc9",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Excel add-in update rolled out starting July 2022 to secure connection between add-in and Business Central."
+    },
+    {
+      "kind": "fact",
+      "text": "Update affects on-premises, hosted, and private cloud deployments; Business Central online customers not affected."
+    },
+    {
+      "kind": "fact",
+      "text": "After update users cannot sign in to add-in if redirect URI is not changed in Microsoft Entra app registration."
+    },
+    {
+      "kind": "step",
+      "text": "Sign in to Azure portal and go to Microsoft Entra ID App Registrations."
+    },
+    {
+      "kind": "step",
+      "text": "Select the Excel add-in app registration and go to Manifest."
+    },
+    {
+      "kind": "step",
+      "text": "Change redirect URI type from Web to Spa in the manifest."
+    },
+    {
+      "kind": "fact",
+      "text": "Changes can be made at any time; existing add-in works with the new configuration."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003948,
+      "pages_in_call": 15
+    }
+  ]
+}

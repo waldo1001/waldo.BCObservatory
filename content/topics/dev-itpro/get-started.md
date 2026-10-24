@@ -6,12 +6,12 @@ summary: Get started for Business Central is an entry section for partners and d
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:53:35.767Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -383,7 +383,7 @@ narrative: generated
 
 > Get started for Business Central is an entry section for partners and developers. It covers orientation material, app development and publishing, selling and reselling, short FAQ answers, and help and support. Use it to find where to begin and which subtopic answers a question.
 
-Path: Get started · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: Get started · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

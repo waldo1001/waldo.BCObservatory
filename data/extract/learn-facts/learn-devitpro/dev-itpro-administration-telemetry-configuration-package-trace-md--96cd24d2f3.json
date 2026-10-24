@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-configuration-package-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace",
+  "title": "Analyze Configuration Package Telemetry",
+  "blob": "548b18242d4c6beb76476cc75409748c1cff2024",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available from 2020 release wave 2, version 17.2"
+    },
+    {
+      "kind": "fact",
+      "text": "Configuration package telemetry tracks export, import, apply, and delete operations"
+    },
+    {
+      "kind": "fact",
+      "text": "Export events record package system ID and execution time in milliseconds"
+    },
+    {
+      "kind": "fact",
+      "text": "Import events record file size in bytes and execution time for the import operation"
+    },
+    {
+      "kind": "fact",
+      "text": "Apply events record error count, field count, and record count included in the package"
+    },
+    {
+      "kind": "fact",
+      "text": "Execution ID correlates start and completion events for the same operation"
+    },
+    {
+      "kind": "fact",
+      "text": "Common dimensions include tenant ID, company name, environment type, and telemetry schema version"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008532,
+      "pages_in_call": 5
+    }
+  ]
+}

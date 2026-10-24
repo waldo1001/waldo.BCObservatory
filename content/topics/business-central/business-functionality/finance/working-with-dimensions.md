@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:20.637Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -207,7 +207,9 @@ Start with the page on working with dimensions to set up the basics. Move to the
 
 - [Import payroll transactions](https://learn.microsoft.com/dynamics365/business-central/finance-how-import-payroll-transactions): To manage salary, you import and post financial transactions from your payroll provider to the general ledger, using a payroll extension such as Ceridian.
 - [Troubleshoot and correct dimensions](https://learn.microsoft.com/dynamics365/business-central/finance-troubleshooting-correcting-dimensions): Learn how to troubleshoot typical dimension errors, and how to correct dimensions after they're used on posted transactions.
+  - In the observatory: [Page 20 "General Ledger Entries"](../../../../objects/page/20.md), [Page 537 "Dimension Values"](../../../../objects/page/537.md)
 - [Work with dimensions to track and analyze data](https://learn.microsoft.com/dynamics365/business-central/finance-dimensions): Use dimensions to categorize entries, such as by department or project, so you can more easily track and analyze data to help you make good business decisions.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 42 "Sales Order"](../../../../objects/page/42.md)
 
 ## Videos, posts and code changes
 

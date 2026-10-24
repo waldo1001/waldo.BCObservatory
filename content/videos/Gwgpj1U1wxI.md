@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:15:51.320Z"
   flags: []
 generated:
-  at: "2026-10-07T23:15:51.380Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -254,6 +254,27 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/f_i4_BRz-oA
+      title: "Microsoft presents: Cloud Migration from any SQL"
+      label: possibly related
+      why: both name Page 40063 "Cloud Migration Management"
+      by: code
+    - to: video/1x3QyBX3swg
+      title: "Microsoft presents: Index management"
+      label: possibly related
+      why: both name Table 405 "Change Log Entry"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrading-extensions
+      title: Upgrading Extensions
+      label: possibly related
+      why: names Table 9999 "Upgrade Tags"
+      by: code
+    - to: video/O921cRqXdiw
+      title: "What's New: Cloud Migration and Upgrade (2023)"
+      label: possibly related
+      why: both name Table 405 "Change Log Entry"
+      by: code
 video_id: Gwgpj1U1wxI
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -307,6 +328,24 @@ chapters:
     title: Troubleshooting and Telemetry Monitoring
   - t: 3479
     title: Power BI Reporting and Testing Recommendations
+cautions:
+  - kind: preview-disclaimer
+    quote: we are stopping the direct upgrade and Cloud migration path from Dynamics business Central 14 in approximately year and a half from now so in April 2025 together with version 26
+    t: 829
+    versions:
+      - "14"
+  - kind: preview-disclaimer
+    quote: Details about selective table inclusion will be elaborated more into more specific details in what's new in Cloud migration session
+    t: 2166
+  - kind: preview-disclaimer
+    quote: we will cover about in what's new then the next thing that you can do is that you can complete the cloud migration
+    t: 2738
+  - kind: preview-disclaimer
+    quote: we are going to be talking about it more in the what's new session
+    t: 3144
+  - kind: preview-disclaimer
+    quote: we do not officially support it and we strongly advise against it
+    t: 3263
 features:
   - name: Cloud Migration Tooling
     status: unclear
@@ -881,5 +920,14 @@ Not found in BC28-30: page "Data Administration page", codeunit "401 hybrid clou
 - [54:23](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3263s) not-in-this-release: we do not officially support it and we strongly advise against it
 - [54:43](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3283s) other: you're doing it on your own risk
 - [55:03](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3303s) other: we will write the dedicated documentation topic that it will explain to you how you can do this safely
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Microsoft presents: Cloud Migration from any SQL](../videos/f_i4_BRz-oA.md) — possibly related: both name Page 40063 "Cloud Migration Management"
+- [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 405 "Change Log Entry"
+- [Upgrading Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrading-extensions) — possibly related: names Table 9999 "Upgrade Tags"
+- [What's New: Cloud Migration and Upgrade (2023)](../videos/O921cRqXdiw.md) — possibly related: both name Table 405 "Change Log Entry"
 
 Presenters (as heard): Nicola, Ricardo, Nicolas.

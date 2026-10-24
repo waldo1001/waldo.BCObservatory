@@ -1,0 +1,31 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-server.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server",
+  "title": "Monitoring Business Central Server",
+  "blob": "5b106fb288d524597dbde5857ab8b0ed89e35c2c",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Features available for monitoring and troubleshooting Business Central server instances"
+    },
+    {
+      "kind": "fact",
+      "text": "Monitoring covers performance counters, server events, database deadlocks, and query performance"
+    },
+    {
+      "kind": "fact",
+      "text": "Tools available for monitoring include Performance Monitor, PerfView, Event Viewer, and PowerShell"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005294,
+      "pages_in_call": 10
+    }
+  ]
+}

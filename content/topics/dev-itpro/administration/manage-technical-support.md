@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:41.849Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,9 +112,37 @@ When a problem needs Microsoft, use "Escalate support issues to Microsoft" for s
 ## Learn pages
 
 - [Escalate support issues to Microsoft](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/raise-support-case): Learn about how to escalate technical support cases on behalf of your Business Central online customers as the delegated administrator.
+  - Delegated admin can submit support request to Microsoft using Partner Center or admin center.
+  - Limit: Internal administrator cannot contact Microsoft directly for support.
+  - Internal admin must contact their partner to escalate support beyond troubleshooting in admin center.
 - [Managing technical support](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/manage-technical-support): Learn about how to support your Business Central users, both online and on-premises, as the internal or delegated administrator.
+  - Internal administrator can find technical information in Help and Support page
+  - Delegated administrator needs Admin agent or Helpdesk agent setup with delegation privileges
+  - Permissions: Delegated admin must have delegation privileges in Partner Center and customer's Business Central
+  - Internal admin cannot contact Microsoft directly, must contact partner for escalation
+  - Help and Support page shows support contact details if partner provided them
+  - Last known error accessible via Help and Support for application errors, not platform errors
+  - Delegated admin must remove support contact details, notification recipients, and Application Insights key when ending customer relationship
+  - In the observatory: [Page 9511 "Database Locks"](../../../objects/page/9511.md)
 - [Report a performance issue](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/report-performance-issue): Learn about how to report a performance issue on behalf of your Business Central online customers as the delegated administrator.
+  - Before creating support request for performance issues, use in-client Performance Profiler to self-diagnose.
+  - Provide information on what operations aren't performing well and when they occur with UTC timestamps.
+  - Step: Go to Help and Support page and note the time in UTC timezone.
+  - Step: Enable additional logging under Report a Problem.
+  - Step: Note Session ID, Microsoft Entra tenant ID, and Environment name.
+  - Step: Enable in-client Performance Profiler and reproduce the issue.
+  - Step: Download the profile file for the support request.
+  - When creating support request include time enabled, Session ID, tenant ID, environment name, and profile file.
 - [Report Customer Outages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/report-outage): Learn about how to report a suspected service outage on behalf of your Business Central online customers as the delegated administrator.
+  - Report Production Outage action creates a support ticket for Microsoft when users cannot sign in to production environments.
+  - Step: Select the relevant environment in admin center and choose Support > Report Production Outage.
+  - Step: Choose outage type: Unable to sign in (all users) or Can't access API/Web Service.
+  - Step: Provide your name, email, phone number, and details about the outage including browsers, errors, and correlation IDs.
+  - Step: Add the date and time when the outage began and provide consent before reporting.
+  - Limit: Report Production Outage option is not available for sandbox environments.
+  - After reporting, view the support ticket ID in the dialog and track progress via the Reported Outages page.
 - [Troubleshooting tools and guides overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-overview): An overview of tools and processes that help troubleshoot issues in Business Central.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -6,11 +6,11 @@
   "key_points": [
     "The security guide describes a layered model and covers user session and web service authentication, entitlements and permission sets.",
     "Permission sets and entitlements are defined as AL objects. They can be composed and extended, and they can be exported to XML.",
-    "Inherent permissions and object permissions can be set, and legacy permissions can be upgraded.",
-    "Permission telemetry can be analyzed.",
-    "Azure Key Vault holds extension secrets, with setup for online and on-premises, reading secrets from AL, and telemetry on retrieval.",
+    "You can set inherent permissions and object permissions, upgrade from legacy permissions, and analyze permission telemetry.",
+    "Azure Key Vault holds extension secrets. The pages cover setup for online and on-premises, reading secrets from AL, and telemetry on retrieval.",
     "Isolated Storage offers Set, Get, Contains, Delete and SetEncrypted methods, used with the DataScope option type, to keep data private to an extension.",
-    "The SecretText data type limits assignments to debuggable types and works with HttpClient and SecretStrSubstNo. The Unwrap method and the NonDebuggable attribute are also part of this protection."
+    "The SecretText data type stops credentials from being exposed during debugging by limiting assignments to debuggable types. It works with HttpClient and SecretStrSubstNo.",
+    "The SecretText page also covers the Unwrap method and the NonDebuggable attribute."
   ],
   "members_used": 3,
   "subtopics_used": 2,
@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.012042999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:54:20.499Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 7 says the Unwrap method is 'part of this protection'. The source only lists Unwrap as a feature on the SecretText page, and Unwrap returns the plain value, so calling it protection is misleading. Reworded to say the page also covers Unwrap and the NonDebuggable attribute.",
+      "Key point 4 ('Permission telemetry can be analyzed') is very thin, so it was merged into the point about inherent and object permissions.",
+      "Small: 'That page is the best place to start' in the overview is an editorial judgement. It is harmless, so it was kept."
+    ],
+    "input_hash": "9d0c44a7c80afd1b957c284250469e52269896ef98915e228a576318a74f7e8a",
+    "cost_usd": 0.0388432
   }
 }

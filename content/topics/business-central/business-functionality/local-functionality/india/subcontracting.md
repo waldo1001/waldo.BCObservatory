@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:24.463Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,9 +107,13 @@ The pages follow the process in order. Start with Setting Up Subcontracting (loc
 ## Learn pages
 
 - [Create GST Liability](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Create-GST-Liability): Learn how to create GST liability for subcontracting vendors in Business Central when materials aren't returned within the specified period.
+  - In the observatory: [Page 18467 "Create GST Liability (IN)"](../../../../../objects/page/18467-in.md)
 - [Setting Up Subcontracting](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-001-Basic-Setup): Learn how to set up subcontracting in Business Central for India.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 279 "Source Code Setup"](../../../../../objects/page/279.md), [Page 36957 "Locations"](../../../../../objects/page/36957.md), [Page 461 "Inventory Setup"](../../../../../objects/page/461.md), [Page 99000766 "Routing"](../../../../../objects/page/99000766.md)
 - [Sub Contracting Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports): Learn about the available subcontracting reports in Business Central for India.
+  - In the observatory: [Report 18467 "Delivery Challan (IN)"](../../../../../objects/report/18467-in.md), [Report 18468 "Stock Register for Job Work (IN)"](../../../../../objects/report/18468-in.md)
 - [Sub-Contracting Order Creation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Transactions): Learn how to create and manage subcontracting orders in Business Central for India.
+  - In the observatory: [Page 18481 "Order Subcon Details Receipt (IN)"](../../../../../objects/page/18481-in.md), [Page 99000886 "Subcontracting Worksheet"](../../../../../objects/page/99000886.md)
 
 ## Videos, posts and code changes
 

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:47:18.883Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:18.919Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,6 +116,10 @@ chapters:
     title: Processing Real Customer Email
   - t: 333
     title: Final Review and Send
+cautions:
+  - kind: preview-disclaimer
+    quote: You can see the tried out section, which allows you to create a task without even connecting to the inbox to the real inbox
+    t: 26
 features:
   - name: Sales Order Agent
     status: unclear

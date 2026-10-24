@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:56:14.385Z"
   flags: []
 generated:
-  at: "2026-10-07T22:56:14.426Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -133,6 +133,19 @@ chapters:
     title: Version Deprecation Announcement
   - t: 464
     title: Q&A and Closing
+cautions:
+  - kind: preview-disclaimer
+    quote: they're all in preview. Uh so yeah, not available in 7.2. Uh but they will be available in 7.3 when we release that.
+    t: 82
+  - kind: preview-disclaimer
+    quote: we don't really make any we can't really make any promises that we won't change the name of one of our jobs or something like that
+    t: 387
+  - kind: preview-disclaimer
+    quote: we may make changes to our YAML files that will break some of your customizations that you build on top of it
+    t: 399
+  - kind: preview-disclaimer
+    quote: if you are running an ALGO version lower than 5.0, then please upgrade because this will break very soon
+    t: 440
 features:
   - name: AL-Go Version 7.2
     status: unclear

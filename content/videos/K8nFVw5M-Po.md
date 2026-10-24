@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:55:27.162Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:27.215Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -185,6 +185,19 @@ chapters:
     title: Production code quality, debugging, and compiler enhancements
   - t: 1553
     title: Model Context Protocol, configuration, and future of vibe coding
+cautions:
+  - kind: preview-disclaimer
+    quote: I like the GT5 preview right now uh because that's one of the newest models
+    t: 166
+  - kind: preview-disclaimer
+    quote: We need to give the agent more tools compile is one of them We also are thinking maybe we should add the ability to publish
+    t: 1508
+  - kind: preview-disclaimer
+    quote: we are thinking about adding even more like the one we have for business central is more about getting access to the customer data right but we need to add an MCP server that gives you access to the the environment metadata
+    t: 1698
+  - kind: preview-disclaimer
+    quote: we want to broaden that out so you can actually develop even more with this metadata MCP server
+    t: 1719
 features:
   - name: Vibe Coding with Agent Mode
     status: unclear

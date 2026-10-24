@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:39.260Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,9 +111,12 @@ For reporting, read the Financial Reports overview first. It explains the Financ
 ## Learn pages
 
 - [Currency information in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Currency-information-Import-currency-rates): Russian localization provides features for importing currency rates in Business Central.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md)
 - [Financial Reports Overview in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/account-schedules-overview): Learn about enhanced financial reporting features and customization options available for Russia in Business Central.
 - [General ledger correspondence in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/general-ledger-correspondence): Russian functionality includes enhancements for general ledger correspondence.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 12401 "G/L Correspondence Entries (RU)"](../../../../../objects/page/12401-ru.md), [Report 12432 "G/L Corresp. Journal Order (RU)"](../../../../../objects/report/12432-ru.md), [Report 12435 "G/L Corresp Entries Analysis (RU)"](../../../../../objects/report/12435-ru.md)
 - [Working with Financial Reports in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/How-to-Work-with-Account-Schedules): Provides information about enhanced financial reporting features available for Russia.
+  - In the observatory: [Page 108 "Financial Reports"](../../../../../objects/page/108.md), [Page 489 "Column Layout"](../../../../../objects/page/489.md), [Page 790 "G/L Account Categories"](../../../../../objects/page/790.md)
 
 ## Videos, posts and code changes
 

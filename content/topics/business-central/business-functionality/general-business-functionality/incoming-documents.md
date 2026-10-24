@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:21:55.918Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -128,10 +128,15 @@ The pages follow the workflow. Start with "Set Up incoming documents" for journa
 ## Learn pages
 
 - [Create incoming document records](https://learn.microsoft.com/dynamics365/business-central/across-how-create-income-document-records): Use different functions on the Incoming Documents page to review expense receipts, manage OCR tasks, convert incoming document files and attach external files.
+  - In the observatory: [Page 190 "Incoming Documents"](../../../../objects/page/190.md)
 - [Create incoming document records from docs](https://learn.microsoft.com/dynamics365/business-central/across-how-connect-disconnect-income-document-records): Attach external business documents to related incoming document records for easy storage and management.
+  - In the observatory: [Page 146 "Posted Purchase Invoices"](../../../../objects/page/146.md), [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 190 "Incoming Documents"](../../../../objects/page/190.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md), [Page 29 "Vendor Ledger Entries"](../../../../objects/page/29.md), [Page 9308 "Purchase Invoices"](../../../../objects/page/9308.md)
 - [Define Which incoming docs to see](https://learn.microsoft.com/dynamics365/business-central/across-how-manage-many-income-document-records): Adjust the default view of incoming documents, such as e-invoices, to improve your overview of processed and unprocessed records.
+  - In the observatory: [Page 190 "Incoming Documents"](../../../../objects/page/190.md)
 - [Find posted documents without incoming documents](https://learn.microsoft.com/dynamics365/business-central/across-how-find-posted-documents-without-income-document-records): Search for general ledger entries of posted purchase and sales documents that lack associated incoming electronic documents, such as imported invoices.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 190 "Incoming Documents"](../../../../objects/page/190.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md)
 - [Set Up incoming documents](https://learn.microsoft.com/dynamics365/business-central/across-how-setup-income-documents): Set up the Incoming Documents feature to create electronic documents, manage OCR tasks, import invoices, and convert image files.
+  - In the observatory: [Page 1270 "OCR Service Setup"](../../../../objects/page/1270.md), [Page 191 "Incoming Documents Setup"](../../../../objects/page/191.md), [Page 663 "Approval User Setup"](../../../../objects/page/663.md)
 - [Use OCR to turn PDF into e-invoices](https://learn.microsoft.com/dynamics365/business-central/across-how-use-ocr-pdf-images-files): Describes how you can use an OCR service to convert incoming PDF or image files to electronic documents.
 - [Work with incoming documents](https://learn.microsoft.com/dynamics365/business-central/across-income-documents): Manage incoming external business documents, such as payment receipts or PDFs, manage OCR tasks, and convert files to electronic documents and records.
 

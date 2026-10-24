@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:27:11.038Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,7 +96,9 @@ Start with the overview for the concept. Then read the table structure page to s
 ## Learn pages
 
 - [Design details - Searching for dimension combinations](https://learn.microsoft.com/dynamics365/business-central/design-details-searching-for-dimension-combinations): When you close a page after you edit a set of dimensions, Business Central evaluates whether the edited set of dimensions exists. If the set does not exist, a new set is created and the dimension combination ID is returned.
+  - In the observatory: [Table 349 "Dimension Value"](../../../../objects/table/349.md), [Table 481 "Dimension Set Tree Node"](../../../../objects/table/481.md)
 - [Design details - Table structure](https://learn.microsoft.com/dynamics365/business-central/design-details-table-structure): To understand how the dimension entry storing and posting is redesigned, it's important to understand the table structure.
+  - In the observatory: [Table 481 "Dimension Set Tree Node"](../../../../objects/table/481.md), [Table 482 "Reclas. Dimension Set Buffer"](../../../../objects/table/482.md)
 - [Dimension Set Entries Overview](https://learn.microsoft.com/dynamics365/business-central/design-details-dimension-set-entries-overview): This article gives you an overview of how dimension set entries are stored as dimension set entries and how they are posted.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

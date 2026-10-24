@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:04.115Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -124,10 +124,14 @@ Start with the landing page for the scope of the app, then open the report page 
 ## Learn pages
 
 - [Inventory Valuation by Item (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-item): The Inventory Valuation by Item report shows item values on an item by item basis.
+  - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md)
 - [Inventory Valuation by Location (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-location): The Inventory Valuation by Location report shows the item values on a location by location basis.
+  - In the observatory: [Table 14 "Location"](../../../../../objects/table/14.md)
 - [Inventory Valuation KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-kpis): The Inventory Valuation App KPIs provides a page to clearly identify all KPIs and Measures used in the Inventory Valuation Report.
+  - In the observatory: [Table 5802 "Value Entry"](../../../../../objects/table/5802.md)
 - [Inventory valuation landing page (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app): The Inventory Landing Page gives an overview of how the Inventory Report works.
 - [Inventory Valuation Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview): The Inventory Valuation Overview report shows item values on a location by location basis.
+  - In the observatory: [Table 14 "Location"](../../../../../objects/table/14.md)
 
 ## Videos, posts and code changes
 

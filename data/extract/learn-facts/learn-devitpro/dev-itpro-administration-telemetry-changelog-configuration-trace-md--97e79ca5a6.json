@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-changelog-configuration-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-changelog-configuration-trace",
+  "title": "Analyzing Changelog Configuration Changes Telemetry",
+  "blob": "b143f85a58dc7597fef60d7110c15459034581a4",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Introduced in Business Central 2023 release wave 2, version 23.0."
+    },
+    {
+      "kind": "fact",
+      "text": "Changelog feature tracks direct user modifications to database; specify tables and fields to log."
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry logged when field added (AL0000LA2), logging changed (AL0000LA1), or removed from changelog (AL0000LA3)."
+    },
+    {
+      "kind": "fact",
+      "text": "Field added event tracks table ID, table name, field ID, field name, and insertion/modification/deletion logging."
+    },
+    {
+      "kind": "fact",
+      "text": "Field logging changed event includes before and after states for insertion, modification, deletion flags."
+    },
+    {
+      "kind": "fact",
+      "text": "Field removed event tracks table and field information when tracking ends."
+    },
+    {
+      "kind": "fact",
+      "text": "Sample KQL queries analyze changelog configuration changes and enable alerting."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007119,
+      "pages_in_call": 7
+    }
+  ]
+}

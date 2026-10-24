@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:44.974Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -212,14 +212,19 @@ Location-related pages cover locations with bins, zones and transfer routes, sto
 ## Learn pages
 
 - [Create item cards for goods or services](https://learn.microsoft.com/dynamics365/business-central/inventory-how-register-new-items): You create item cards for services that you sell as hours and for physical products. Examples include assembly items and finished goods that you sell from your inventory.
+  - In the observatory: [Page 114 "Item Vendor Catalog"](../../../../objects/page/114.md), [Page 540 "Default Dimensions"](../../../../objects/page/540.md), [Page 5847 "Average Cost Calc. Overview"](../../../../objects/page/5847.md), [Page 7002 "Sales Prices"](../../../../objects/page/7002.md)
 - [How to Copy Existing Items to New Items](https://learn.microsoft.com/dynamics365/business-central/inventory-how-copy-items): When you add a new item, to save time, you can use the Copy Item function to copy an existing item to use as a template for a new item.
 - [How to set up stockkeeping units](https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-set-up-stockkeeping-units): Use stockkeeping units to record information about your items for a specific location or a specific variant.
+  - In the observatory: [Page 30 "Item Card"](../../../../objects/page/30.md), [Report 5706 "Create Stockkeeping Unit"](../../../../objects/report/5706.md)
 - [How to work with responsibility centers](https://learn.microsoft.com/dynamics365/business-central/inventory-responsibility-centers): Responsibility center as administrative centers help companies set up user-specific views of sales and purchase documents related exclusively to each center.
+  - In the observatory: [Page 1 "Company Information"](../../../../objects/page/1.md), [Page 119 "User Setup"](../../../../objects/page/119.md)
 - [Import Multiple Item Pictures](https://learn.microsoft.com/dynamics365/business-central/inventory-how-import-item-pictures): To import multiple item pictures give picture files names corresponding to item numbers, compress them to a ZIP file, and use the Import Item Pictures page.
 - [Organize items in categories](https://learn.microsoft.com/dynamics365/business-central/inventory-how-categorize-items): To help you search for and find items, you can assign item attributes and organize items in categories.
 - [Set up general inventory information](https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-general): Describes how to define the general inventory setup so that you can manage your warehouse and stock.
+  - In the observatory: [Page 2610 "Feature Management"](../../../../objects/page/2610.md)
 - [Set up item units of measure](https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-units-of-measure): You can set up multiple units of measure for items.
 - [Set up locations](https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-locations): If you buy, store, or sell items in more than one place, you can set up each place as a location.
+  - In the observatory: [Page 5703 "Location Card"](../../../../objects/page/5703.md), [Page 5747 "Transfer Routes"](../../../../objects/page/5747.md), [Page 9285 "Transfer Routes Matrix"](../../../../objects/page/9285.md)
 - [Setting up inventory](https://learn.microsoft.com/dynamics365/business-central/inventory-setup-inventory): Describes how to set up your stock and inventory processes, including transfer routes and locations, such as warehouses.
 - [Understand item types](https://learn.microsoft.com/dynamics365/business-central/inventory-about-item-types): Learn about the types of items you can manage in inventory.
 

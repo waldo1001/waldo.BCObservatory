@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -211,13 +211,11 @@ links:
     - video/nbGw2g3KMXI
     - video/Vq9Nk6_uxmQ
     - video/WFAZLsUTk20
-    - video/WjF_sESaIPo
   posts:
     - post/aardvarklabs-blog/3348
     - post/bertverbeek-nl/1219
     - post/bertverbeek-nl/1237
     - post/bertverbeek-nl/1290
-    - post/demiliani-com/17508
     - post/kauffmann-nl/8436
   guidelines: []
   changes:
@@ -226,6 +224,7 @@ links:
     - change/bcapps/10461
     - change/bcapps/11040
     - change/bcapps/12817
+    - change/bcapps/12894
     - change/bcapps/8967
     - change/bcquality/137
     - change/bcquality/231
@@ -239,8 +238,8 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 9
-  blog: 6
+  video: 8
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
@@ -279,12 +278,14 @@ For developers, "Integrate with the Tasks AL API" shows how to detect agent sess
 ## More Learn pages
 
 - [Attachment capabilities and limitations (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-attachments): Learn about the capabilities and limitations when working with attachments in agent tasks within the AI development toolkit in Business Central. Understand supported file types, size limits, and best practices for document processing.
+  - In the observatory: [Codeunit 4100 "Temp Blob"](../../../objects/codeunit/4100.md), [Codeunit 4315 "Agent Task Builder"](../../../objects/codeunit/4315.md), [Codeunit 4316 "Agent Task Message Builder"](../../../objects/codeunit/4316.md)
 - [Best practices for designing an agent (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-best-practices): Explore how to design, test, and refine agents using the AI development toolkit. Follow these best practices to optimize your prototypes.
 - [Create a Sales Validation Agent](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-sales-validation): Learn how to create and use a Sales Validation Agent in the agent design experience to automate sales order validation tasks in Business Central.
 - [Create and activate an agent (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-agent-create): Learn how to create and activate an agent in Business Central to automate tasks, integrate AI, and enhance your workflows.
 - [Designing and coding agents (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-overview): Discover the AI Development Toolkit for testing AI capabilities in Business Central by building agents. Prototype, validate, and refine AI-powered solutions.
 - [Export and Import an agent configuration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-export-import): Learn how to export and import agent configurations in the agent design experience to streamline your development process.
 - [Frequently asked questions (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-faq): Get answers to common questions about designing agents in Business Central, including integration, AI development toolkit access, scheduling, instructions, and capabilities.
+  - In the observatory: [Codeunit 4315 "Agent Task Builder"](../../../objects/codeunit/4315.md)
 - [Instruction keywords for an agent (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-instruction-keywords): Learn about the instruction keywords you can use to guide the behavior of your agent in Business Central.
 - [Integrate with the Tasks AL API (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-tasks-api): Learn how to integrate custom agents with common scenarios using the Tasks AL API in Dynamics 365 Business Central.
 - [Iterate and manage an agent (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-iterate): Learn how to iterate and manage an agent designed in Business Central. Discover tools, logs, and customization options to optimize agent behavior.
@@ -303,6 +304,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10461 [SOA] Uptake Agent Task Message Failed status for outbound replies](../../../changes/bcapps/10461.md) (code change): "Sales Order Agent now marks outbound replies as Failed"
 - [#11040 [Agent Archiving] Payables and Expense agent implementation for IAgentArchiving](../../../changes/bcapps/11040.md) (code change): "Payables and Expense agents now implement the IAgentArchiving interface"
 - [#12817 [SOA] Use company display name in default email signature](../../../changes/bcapps/12817.md) (code change): "Sales Order Agent now uses company display name instead of internal company identifier"
+- [#12894 [PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice](../../../changes/bcapps/12894.md) (code change): "creates purchase credit memos instead of invoices"
 - [#8967 Ability to archive agents](../../../changes/bcapps/8967.md) (code change): "Agents can now be archived by admins from the Agent List and Card"
 - [#137 Add community guidance and review support for Business Central agents](../../../changes/bcquality/137.md) (code change): "Business Central agent developers gain 20 community-authored guidance rules"
 - [#231 al-agents-review: derive the target BC version from app.json](../../../changes/bcquality/231.md) (code change): "al-agents-review skill now derives the target Business Central version"
@@ -310,7 +312,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 1 – the architecture](../../../posts/bertverbeek-nl/1219.md) (community post): "Agents in Business Central 27.4 allow you to create"
 - [Agents in Business Central – part 2 – the prompt](../../../posts/bertverbeek-nl/1237.md) (community post): "Building effective agents in Business Central requires well-structured prompts"
 - [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "Agents in Business Central with those created in Copilot"
-- [Me @ Directions EMEA 2026](../../../posts/demiliani-com/17508.md) (community post): "monitoring and governing multiple types of AI agents running within Business Central"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Agent Design Experience in Business Central v27.4 is a sandbox tool for designing, testing, and refining agent instructions"
 - [What's New: Exporting and Importing Agent in Business Central](../../../videos/3UcLmXqyl44.md) (video): "agent export; agent import; agent definition; xml; agent backup"
 - [Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)](../../../videos/aNRzlbxVPWE.md) (video): "How to Write Agent Evals in AL; agent testing; evals; yaml-driven tests"
@@ -320,6 +321,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [20260713 - From Zero to Agent Building agents in Business Central](../../../videos/nbGw2g3KMXI.md) (video): "From Zero to Agent Building agents in Business Central"
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Building Agents in Business Central; custom agents; agent instructions; permissions"
 - [What's New: Business Central Agent Instruction History](../../../videos/WFAZLsUTk20.md) (video): "Agent Instruction History Autosave; Download Instructions; View Instruction History"
-- [Interfrucht GmbH](../../../videos/WjF_sESaIPo.md) (video): "Manifest Agent for Business Central; Automated purchase order creation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

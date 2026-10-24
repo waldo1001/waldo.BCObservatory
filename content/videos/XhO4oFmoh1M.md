@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:58:57.126Z"
   flags: []
 generated:
-  at: "2026-10-07T22:58:57.179Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -144,6 +144,47 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/Vq9Nk6_uxmQ
+      title: "Business Central Under the Hood episode 14: Building Agents in Business Central"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
+      title: Create Purchase Orders from Drop Shipments
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/kauffmann-nl/8436
+      title: Designing Agents for Business Central
+      label: possibly related
+      why: both name Page 4315 "Agent Card"
+      by: code
+    - to: video/tpAh4q3h8T8
+      title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/crDXSPsoIQ8
+      title: Edit Sales Orders in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/DRUr4byy8xQ
+      title: "Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)"
+      label: possibly related
+      why: both name Page 4315 "Agent Card"
+      by: code
+    - to: video/qP0id91bIlA
+      title: "What's New: Designing Generative AI Experiences (2024 Release Wave 1)"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/DJ3LPRxn27g
+      title: "What's New: Drop Shipments (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
 video_id: XhO4oFmoh1M
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -185,6 +226,10 @@ chapters:
     title: Permission Sets and Profile Configuration
   - t: 1534
     title: Conclusion and Next Steps
+cautions:
+  - kind: preview-disclaimer
+    quote: the sales or agent only works with registered contacts and customers inside of business Central at least at this point of time who knows what the future will
+    t: 489
 features:
   - name: Sales Order Agent
     status: unclear
@@ -399,5 +444,18 @@ Not found in BC28-30: page "Roll Center".
 ## Disclaimers in the video
 
 - [8:09](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=489s) subject-to-change: the sales or agent only works with registered contacts and customers inside of business Central at least at this point of time who knows what the future will
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Business Central Under the Hood episode 14: Building Agents in Business Central](../videos/Vq9Nk6_uxmQ.md) — possibly related: both name Page 42 "Sales Order"
+- [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 42 "Sales Order"
+- [Designing Agents for Business Central](../posts/kauffmann-nl/8436.md) — possibly related: both name Page 4315 "Agent Card"
+- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 42 "Sales Order"
+- [Edit Sales Orders in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)](../videos/crDXSPsoIQ8.md) — possibly related: both name Page 42 "Sales Order"
+- [Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)](../videos/DRUr4byy8xQ.md) — possibly related: both name Page 4315 "Agent Card"
+- [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../videos/qP0id91bIlA.md) — possibly related: both name Page 42 "Sales Order"
+- [What's New: Drop Shipments (2026 release wave 1)](../videos/DJ3LPRxn27g.md) — possibly related: both name Page 42 "Sales Order"
 
 Presenters (as heard): Yen, Helen.

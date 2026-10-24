@@ -25,7 +25,7 @@ review:
   at: "2026-10-20T08:21:38.080Z"
   flags: []
 generated:
-  at: "2026-10-20T08:21:38.562Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -132,6 +132,13 @@ chapters:
     title: Subscription billing workflow scenarios and summary
   - t: 3307
     title: Webinar closing and next steps
+cautions:
+  - kind: preview-disclaimer
+    quote: first public preview we received the app which was called uh subscription billing and the revenue expenses recognition
+    t: 544
+  - kind: preview-disclaimer
+    quote: Currently there is nothing in the in the pre-release plans. So probably the functionality will stay as it is for a while
+    t: 627
 features:
   - name: Subscription Billing
     status: ga

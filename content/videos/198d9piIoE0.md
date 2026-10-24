@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:16:05.433Z"
   flags: []
 generated:
-  at: "2026-10-07T23:16:05.476Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -97,6 +97,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/projects-how-create-jobs
+      title: Create a project card for a project and specify tasks
+      label: possibly related
+      why: names Page 88 "Job Card"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-reserve-items
+      title: How to reserve items
+      label: possibly related
+      why: names Page 305 "Reservation Worksheet"
+      by: code
 video_id: 198d9piIoE0
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -129,6 +140,10 @@ chapters:
     title: Automation and Background Processing
   - t: 974
     title: Resources and Community Engagement
+cautions:
+  - kind: preview-disclaimer
+    quote: we plan to add more allocation policies beyond the two currently available
+    t: 434
 features:
   - name: Reserved from Stock Indicator
     status: unclear
@@ -287,5 +302,12 @@ As heard in the captions. A name that matches one object page by exact type and 
 ## Disclaimers in the video
 
 - [7:14](https://www.youtube.com/watch?v=198d9piIoE0&t=434s) coming-later: we plan to add more allocation policies beyond the two currently available
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Create a project card for a project and specify tasks](https://learn.microsoft.com/dynamics365/business-central/projects-how-create-jobs) — possibly related: names Page 88 "Job Card"
+- [How to reserve items](https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-reserve-items) — possibly related: names Page 305 "Reservation Worksheet"
 
 Presenters (as heard): Andre Pano.

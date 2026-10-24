@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:52:32.933Z"
   flags: []
 generated:
-  at: "2026-10-07T22:52:32.966Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -109,6 +109,16 @@ chapters:
     title: Best Practices and Important Tips
   - t: 212
     title: Resources and Closing
+cautions:
+  - kind: preview-disclaimer
+    quote: since this is a preview, um please um be aware that some functionality uh might be changing
+    t: 165
+  - kind: preview-disclaimer
+    quote: We will try and upgrade your preview uh sandbox if possible. Um, and be aware that after our preview ends, uh, your sandbox, uh, will be cleaned up, uh, with the normal grace period.
+    t: 182
+  - kind: preview-disclaimer
+    quote: do not use it for live operations
+    t: 196
 features:
   - name: Copy Production Data to Sandbox and Upgrade to Preview
     status: unclear

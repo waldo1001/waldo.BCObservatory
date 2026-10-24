@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:53:38.809Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -358,7 +358,7 @@ narrative: generated
 
 > Czech Republic local functionality in Business Central: the Core and Advanced Localization Pack extensions, fixed asset localization, manufacturing exact cost reversal, and subtopics for finance, VAT, banking, advance payments, payables and receivables, inventory and general access. It answers setup and compliance questions for Czech accounting and tax rules.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Czech Republic · tier official · system localization · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Czech Republic · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -396,6 +396,7 @@ Subtopics go deeper by area: Core Finance, VAT, Banking and Payments, Advance Pa
 - [Czech Local Functionality [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/czech-local-functionality): Learn about the local functionality and features available in the Czech version of Business Central.
 - [Fixed asset localization for Czech (Extension)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz): Enhance Business Central in the Czech Republic with localized Fixed Asset features.
 - [Mandatory returning of exact costs in manufacturing [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing): Describes the local functionality for enforcing the return of exact manufacturing costs in the Czech version of Business Central.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../../objects/page/461.md), [Page 99000768 "Manufacturing Setup"](../../../../objects/page/99000768.md)
 
 ## Videos, posts and code changes
 

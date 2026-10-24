@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:59:25.993Z"
   flags: []
 generated:
-  at: "2026-10-07T22:59:26.044Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -189,6 +189,10 @@ chapters:
     title: Optimal Tool Quantity and Best Practices
   - t: 1584
     title: Recommendations for Copilot Extension Development
+cautions:
+  - kind: preview-disclaimer
+    quote: Deep Seek R1 reasoning Model and other reasoning models we need capacity before we can give you access to those models
+    t: 219
 features:
   - name: Copilot Extension Cloud Deployment
     status: unclear

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:21.330Z"
   flags: []
 generated:
-  at: "2026-10-07T23:17:21.405Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -123,6 +123,19 @@ chapters:
     title: Self-improvement pipeline and BC-Bench roadmap
   - t: 1920
     title: "Q&A: Source code, data collection, costs, and GitHub models"
+cautions:
+  - kind: preview-disclaimer
+    quote: there's a GPT-6 Codex. Well, there will be, but I don't know when it will be released.
+    t: 193
+  - kind: preview-disclaimer
+    quote: we are going to refresh the data set with more issues for for the bug-fixing benchmarking from uh BC apps
+    t: 1753
+  - kind: preview-disclaimer
+    quote: we are actually considering that on the leaderboard you saw that we demoed that we can potentially have a partner ...
+    t: 1902
+  - kind: preview-disclaimer
+    quote: we're moving more and more things on on GitHub. So, I think these will be available soon
+    t: 2061
 features:
   - name: BC-Bench benchmarking framework
     status: unclear

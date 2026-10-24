@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:33.535Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -232,14 +232,22 @@ Start with "Managing inventory costs" and "About unit cost calculation" to learn
 ## More Learn pages
 
 - [About calculating standard cost](https://learn.microsoft.com/dynamics365/business-central/finance-about-calculating-standard-cost): A standard cost system determines inventory unit cost based on reasonable historical or expected cost.
+  - In the observatory: [Page 30 "Item Card"](../../../../objects/page/30.md), [Page 314 "General Posting Setup"](../../../../objects/page/314.md), [Page 5700 "Stockkeeping Unit Card"](../../../../objects/page/5700.md), [Page 5803 "Revaluation Journal"](../../../../objects/page/5803.md), [Page 5872 "BOM Cost Shares"](../../../../objects/page/5872.md), [Page 99000768 "Manufacturing Setup"](../../../../objects/page/99000768.md)
 - [About unit cost calculation](https://learn.microsoft.com/dynamics365/business-central/finance-about-calculating-unit-cost): Learn how the costing method and other factors influence the Unit Cost field on items.
+  - In the observatory: [Page 30 "Item Card"](../../../../objects/page/30.md)
 - [Close item ledger entries that came from using fixed application](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal): Learn how you can create a fixed application between an inbound transaction and the original outbound transaction in the item journal.
+  - In the observatory: [Page 521 "Application Worksheet"](../../../../objects/page/521.md)
 - [Create new value entries for items in the inventory\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/inventory-how-revalue-inventory): Describes how to appreciate or depreciate the value entries of one or more items in inventory by posting their current, calculated value.
+  - In the observatory: [Page 5803 "Revaluation Journal"](../../../../objects/page/5803.md)
 - [Design details - Inventory costing](https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-costing): This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in Business Central.
 - [Managing inventory costs](https://learn.microsoft.com/dynamics365/business-central/finance-manage-inventory-costs): Cost management is concerned with recording and reporting business operating costs and includes the reporting of manufacturing costs and inventory costs.
+  - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../../objects/page/459.md), [Page 460 "Purchases & Payables Setup"](../../../../objects/page/460.md), [Page 461 "Inventory Setup"](../../../../objects/page/461.md)
 - [Remove and reapply item entries](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-remove-and-reapply-item-entries): You can view and manually change certain item application entries that are created automatically during inventory transactions.
+  - In the observatory: [Page 522 "View Applied Entries"](../../../../objects/page/522.md)
 - [Track item cost adjustments](https://learn.microsoft.com/dynamics365/business-central/finance-track-inventory-costs): Learn how tracking adjustments to item costs can help you keep your item cost data accurate.
+  - In the observatory: [Page 461 "Inventory Setup"](../../../../objects/page/461.md), [Page 506 "Item Application Entries"](../../../../objects/page/506.md), [Page 5842 "Cost Adjmt. Action Messages"](../../../../objects/page/5842.md), [Report 795 "Adjust Cost - Item Entries"](../../../../objects/report/795.md)
 - [Use item charges to account for extra trade costs](https://learn.microsoft.com/dynamics365/business-central/payables-how-assign-item-charges): Use item charges to assign costs such as freight, insurance, and duties to purchases (landed cost), or non-inventoriable costs on sales shipments.
+  - In the observatory: [Page 9308 "Purchase Invoices"](../../../../objects/page/9308.md), [Report 5806 "Item Charges - Specification"](../../../../objects/report/5806.md), [Report 5848 "Cost Shares Breakdown"](../../../../objects/report/5848.md)
 
 ## Videos, posts and code changes
 

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data",
+  "title": "Migrate on-premises data to Business Central online",
+  "blob": "186f6e7c8d173400e30a0d2f83a4cb12ff70049f",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available."
+    },
+    {
+      "kind": "fact",
+      "text": "Customers from non-SQL sources can use configuration packages to migrate to on-premises first, then to online."
+    },
+    {
+      "kind": "fact",
+      "text": "QuickBooks customers can use Microsoft apps to migrate directly to Business Central online."
+    },
+    {
+      "kind": "fact",
+      "text": "Migration paths exist for Business Central, Dynamics GP, Dynamics SL, and Dynamics NAV."
+    },
+    {
+      "kind": "fact",
+      "text": "Business Central 14 reimplementation tool migrates only master data, opening balances, and setup."
+    },
+    {
+      "kind": "fact",
+      "text": "Custom migration from any SQL source is supported."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005651,
+      "pages_in_call": 10
+    }
+  ]
+}

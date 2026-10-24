@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:49:00.408Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:00.449Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -137,6 +137,13 @@ chapters:
     title: Limitations and Future Improvements
   - t: 590
     title: Closing Remarks and Community Engagement
+cautions:
+  - kind: preview-disclaimer
+    quote: For now, this is in public preview. So, we're still actively working on this and we have some ideas on how to improve it in the future.
+    t: 550
+  - kind: preview-disclaimer
+    quote: During the public preview, there's a few API endpoints that that are available in the Admin Center API but that are not known to the MCP server.
+    t: 564
 features:
   - name: Admin Center MCP Server
     status: preview

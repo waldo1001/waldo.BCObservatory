@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:54:42.571Z"
   flags: []
 generated:
-  at: "2026-10-23T01:10:04.337Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -75,8 +75,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573342
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -110,59 +109,45 @@ chapters:
     title: Summary and Closing
 features:
   - name: Shopify B2B Companies with Multiple Locations
-    status: ga
+    status: unclear
     t: 6
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
   - name: Shopify Orders Import
     status: unclear
     t: 74
     verified: false
     status_source: video
   - name: Shopify Companies List
-    status: ga
+    status: unclear
     t: 92
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
   - name: Shopify Locations List
-    status: ga
+    status: unclear
     t: 119
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
   - name: Location-to-Customer Mapping
-    status: ga
+    status: unclear
     t: 152
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
   - name: Order Synchronization with Location Mapping
-    status: ga
+    status: unclear
     t: 185
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
   - name: Push Business Central Customers to Shopify
-    status: ga
+    status: unclear
     t: 253
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
   - name: Automatic Catalog Creation for Locations
-    status: ga
+    status: unclear
     t: 360
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573342"
+    status_source: video
 objects_mentioned:
   - page Shopify Companies
   - page Shopify Locations
@@ -222,18 +207,18 @@ The demo imports B2B orders from several locations, then shows the new Shopify C
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Shopify B2B Companies with Multiple Locations | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [0:06](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=6s) |
-| Shopify Orders Import | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=74s) |
-| Shopify Companies List | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [1:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=92s) |
-| Shopify Locations List | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [1:59](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=119s) |
-| Location-to-Customer Mapping | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [2:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=152s) |
-| Order Synchronization with Location Mapping | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [3:05](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=185s) |
-| Push Business Central Customers to Shopify | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [4:13](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=253s) |
-| Automatic Catalog Creation for Locations | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [6:00](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=360s) |
+Every feature below: status not stated, demoed.
 
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
+| Feature | At |
+|---|---|
+| Shopify B2B Companies with Multiple Locations | [0:06](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=6s) |
+| Shopify Orders Import | [1:14](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=74s) |
+| Shopify Companies List | [1:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=92s) |
+| Shopify Locations List | [1:59](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=119s) |
+| Location-to-Customer Mapping | [2:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=152s) |
+| Order Synchronization with Location Mapping | [3:05](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=185s) |
+| Push Business Central Customers to Shopify | [4:13](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=253s) |
+| Automatic Catalog Creation for Locations | [6:00](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=360s) |
 
 ## AL objects mentioned
 

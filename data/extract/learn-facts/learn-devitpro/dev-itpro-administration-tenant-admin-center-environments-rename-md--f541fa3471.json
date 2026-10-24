@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-rename.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-rename",
+  "title": "Rename Environments in the Admin Center",
+  "blob": "989007ed865fd2e129352cc9a91f8bff7e41fe8b",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Environment name is part of URL and changing it restarts the environment."
+    },
+    {
+      "kind": "step",
+      "text": "Select Environments, choose environment to rename, select Rename option."
+    },
+    {
+      "kind": "step",
+      "text": "Enter new name on Rename environment page and select Rename button."
+    },
+    {
+      "kind": "fact",
+      "text": "Environment state changes to Preparing/Rename Scheduled then back to Active when complete."
+    },
+    {
+      "kind": "fact",
+      "text": "Old environment name is no longer accessible; new name available immediately."
+    },
+    {
+      "kind": "limit",
+      "text": "Renaming affects web client URL, deep links, integrations, mobile apps, Power BI, Excel add-ins."
+    },
+    {
+      "kind": "limit",
+      "text": "Browser cache, CI/CD pipelines, launch.json files, and external integrations require manual updates."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005012,
+      "pages_in_call": 12
+    }
+  ]
+}

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:15:50.406Z"
   flags: []
 generated:
-  at: "2026-10-07T23:15:50.448Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -226,6 +226,10 @@ chapters:
     title: Building onboarding apps, signup context and implementation
   - t: 2168
     title: Telemetry, application insights and resources
+cautions:
+  - kind: preview-disclaimer
+    quote: the new thing here is you see the teating tip popping up for the request page for the report request page
+    t: 1113
 features:
   - name: Questionnaire-driven trial personalization
     status: unclear

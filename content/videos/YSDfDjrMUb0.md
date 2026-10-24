@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:46:16.312Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -140,7 +140,12 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573340
+    - feature/573342
+    - feature/573343
+    - feature/573344
+    - feature/576836
   topics: []
   localizations: []
   videos: []
@@ -184,12 +189,21 @@ chapters:
     title: Return orders, exchange processing, and negative line handling
   - t: 1218
     title: Tax details, area code mapping, and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: You cannot find them in the AppSource because we are using different way to distribute it.
+    t: 828
+  - kind: preview-disclaimer
+    quote: This is a pre-release version in the reality this fact box will be down
+    t: 1243
 features:
   - name: Tariff code synchronization
-    status: unclear
+    status: ga
     t: 66
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573344"
   - name: Find mapping by barcode
     status: unclear
     t: 125
@@ -211,45 +225,60 @@ features:
     verified: false
     status_source: video
   - name: B2B company synchronization
-    status: unclear
+    status: ga
     t: 399
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
+      - "576836"
   - name: Market-based catalogs
-    status: unclear
+    status: ga
     t: 467
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: Company location tax registration import
-    status: unclear
+    status: ga
     t: 751
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: Shopify Connector localization extensions - Belgium and US
     status: unclear
     t: 804
     verified: false
     status_source: video
   - name: Shopify order number in sales documents
-    status: unclear
+    status: ga
     t: 880
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573340"
   - name: Contact numbers on sales orders
-    status: unclear
+    status: ga
     t: 948
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573340"
   - name: Multi-line order handling and returns
-    status: unclear
+    status: ga
     t: 1028
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573343"
   - name: Return order processing from Shopify refunds
-    status: unclear
+    status: ga
     t: 1091
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573343"
   - name: Move negative lines in return orders
     status: unclear
     t: 1138
@@ -354,26 +383,26 @@ It then covers B2B company synchronization and catalogs (with a recommendation f
 
 ## Features
 
-Every feature below: status not stated, demoed.
+| Feature | Status | At |
+|---|---|---|
+| Tariff code synchronization | generally available (roadmap [Synchronize tariff numbers and origin values with Shopify](../features/573344.md)), demoed | [1:06](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=66s) |
+| Find mapping by barcode | status not stated, demoed | [2:05](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=125s) |
+| Unlisted product status | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=177s) |
+| Skipped records tracking | status not stated, demoed | [3:57](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=237s) |
+| Provide feedback mechanism | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=312s) |
+| B2B company synchronization | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md), [Sell to business customers on more Shopify plans with B2B company sync](../features/576836.md)), demoed | [6:39](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=399s) |
+| Market-based catalogs | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [7:47](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=467s) |
+| Company location tax registration import | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [12:31](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=751s) |
+| Shopify Connector localization extensions - Belgium and US | status not stated, demoed | [13:24](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=804s) |
+| Shopify order number in sales documents | generally available (roadmap [Control sales document creation for Shopify orders and returns](../features/573340.md)), demoed | [14:40](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=880s) |
+| Contact numbers on sales orders | generally available (roadmap [Control sales document creation for Shopify orders and returns](../features/573340.md)), demoed | [15:48](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=948s) |
+| Multi-line order handling and returns | generally available (roadmap [Process Shopify order changes, exchanges, and refunds](../features/573343.md)), demoed | [17:08](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1028s) |
+| Return order processing from Shopify refunds | generally available (roadmap [Process Shopify order changes, exchanges, and refunds](../features/573343.md)), demoed | [18:11](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1091s) |
+| Move negative lines in return orders | status not stated, demoed | [18:58](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1138s) |
+| Tax details on Shopify refunds and orders | status not stated, demoed | [20:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1218s) |
+| Tax area code and tax liable mapping override | status not stated, demoed | [21:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1278s) |
 
-| Feature | At |
-|---|---|
-| Tariff code synchronization | [1:06](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=66s) |
-| Find mapping by barcode | [2:05](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=125s) |
-| Unlisted product status | [2:57](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=177s) |
-| Skipped records tracking | [3:57](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=237s) |
-| Provide feedback mechanism | [5:12](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=312s) |
-| B2B company synchronization | [6:39](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=399s) |
-| Market-based catalogs | [7:47](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=467s) |
-| Company location tax registration import | [12:31](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=751s) |
-| Shopify Connector localization extensions - Belgium and US | [13:24](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=804s) |
-| Shopify order number in sales documents | [14:40](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=880s) |
-| Contact numbers on sales orders | [15:48](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=948s) |
-| Multi-line order handling and returns | [17:08](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1028s) |
-| Return order processing from Shopify refunds | [18:11](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1091s) |
-| Move negative lines in return orders | [18:58](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1138s) |
-| Tax details on Shopify refunds and orders | [20:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1218s) |
-| Tax area code and tax liable mapping override | [21:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1278s) |
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

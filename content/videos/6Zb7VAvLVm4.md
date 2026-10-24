@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:03:33.322Z"
   flags: []
 generated:
-  at: "2026-10-07T23:03:33.370Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -153,6 +153,21 @@ chapters:
     title: Power BI AL Code and Developer Experience
   - t: 801
     title: Power BI Multilanguage Support and Connector Improvements
+cautions:
+  - kind: preview-disclaimer
+    quote: a set of power automate templates that will be available for you later
+    t: 171
+  - kind: preview-disclaimer
+    quote: this feature is still not ready will be coming later this wave
+    t: 228
+  - kind: preview-disclaimer
+    quote: new apps in preview which contain a lot more than 60 actually different report pages
+    t: 583
+    versions:
+      - "60"
+  - kind: preview-disclaimer
+    quote: not all of the labels are translated we are still working on this so that's why it's upcoming for a minor release
+    t: 741
 features:
   - name: Linked Environment Support
     status: unclear

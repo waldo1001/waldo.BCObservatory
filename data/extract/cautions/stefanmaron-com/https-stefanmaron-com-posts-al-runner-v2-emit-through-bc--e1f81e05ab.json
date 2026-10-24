@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/al-runner-v2-emit-through-bc/",
+  "page_id": "post/stefanmaron-com/https-stefanmaron-com-posts-al-runner-v2-emit-through-bc--e1f81e05ab",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "A semicolon inside a string literal like 'Open; pending review' would truncate the property at the wrong point.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "The regex parser had been mishandling CalcFormula filter conditions across the Base App the entire time.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006568,
+    "posts_in_call": 4
+  }
+}

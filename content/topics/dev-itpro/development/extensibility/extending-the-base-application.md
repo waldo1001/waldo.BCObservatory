@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8c438475be31a82b5ecc70dd46ca9a719ca65424fa05e1169543a2730c6789d0
@@ -183,6 +183,7 @@ Path: [Development](../../development.md) > [Extensibility](../extensibility.md)
 ## More Learn pages
 
 - [Extending Application Areas](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-application-areas): Learn about extending application areas in Business Central.
+  - In the observatory: [Table 9178 "Application Area Setup"](../../../../objects/table/9178.md)
 - [Publishing a code-customized Base Application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-publish-code-customization): Description of the process of publishing a code customization for Dynamics 365 Business Central on-prem.
 - [The Microsoft_Application.app File](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-app-file): Learn how the Application app groups Business Central solution dependencies and how to reference it from extensions or a code-customized base application.
 

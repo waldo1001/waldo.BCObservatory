@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:02:29.384Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:29.432Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -154,6 +154,10 @@ chapters:
     title: Triangle Case Study - Measurable Impact
   - t: 871
     title: Resources and Conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: the upskill program is new and the one that we're still working on
+    t: 195
 features:
   - name: ReSKILL Program
     status: unclear

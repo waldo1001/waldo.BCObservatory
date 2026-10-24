@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T01:54:52.447Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-23T22:03:43.080Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -58,6 +58,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-install-business-central-apps
+      title: Install Power BI apps for Business Central
+      label: possibly related
+      why: names Page 7160 "ABC Analysis Setup"
+      by: code
+    - to: video/qCqe8uw8Od4
+      title: "What's New: Enhanced Inventory Analytics (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 7160 "ABC Analysis Setup"
+      by: code
 post_id: https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-7-13-2026/
 source_id: dvlprlife-com
 source_name: DvlprLife
@@ -120,6 +131,13 @@ As named in the post. A name that matches one object page by exact type and name
 - [page 7160 "ABC Analysis Setup"](../../objects/page/7160.md)
 
 Not found in BC28-30: report "Item – ABC Analysis".
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Install Power BI apps for Business Central](https://learn.microsoft.com/dynamics365/business-central/across-powerbi-install-business-central-apps) — possibly related: names Page 7160 "ABC Analysis Setup"
+- [What's New: Enhanced Inventory Analytics (2026 release wave 1)](../../videos/qCqe8uw8Od4.md) — possibly related: both name Page 7160 "ABC Analysis Setup"
 
 ## Context
 

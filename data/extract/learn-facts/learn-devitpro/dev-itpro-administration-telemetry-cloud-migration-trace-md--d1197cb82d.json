@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-cloud-migration-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-cloud-migration-trace",
+  "title": "Analyzing Cloud migration trace telemetry",
+  "blob": "be221f3dba03c0b050a6bb9374a1eef2f7a5aca6",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "status",
+      "text": "Generally available from version 22.1 in 2023 release wave 1."
+    },
+    {
+      "kind": "fact",
+      "text": "Cloud migration telemetry tracks replication runs, setup, and data upgrade success or failure with reasons captured in trace logs."
+    },
+    {
+      "kind": "fact",
+      "text": "Replication run events include started (AL0000K0J), completed (AL0000K0H), and completed with failed tables (AL0000K0I)."
+    },
+    {
+      "kind": "fact",
+      "text": "Data upgrade events track when scheduled (AL0000K0K), started (LC0175), completed successfully (LC0176), or failed (LC0177) on an environment."
+    },
+    {
+      "kind": "fact",
+      "text": "Recovery from failed upgrade has completion event LC0178 or failure event LC0179, both including total operation time."
+    },
+    {
+      "kind": "fact",
+      "text": "Companion table repair scheduled (AL0000FXC), started (AL0000FJ1), and completed successfully (AL0000FJ4) are tracked separately."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007625,
+      "pages_in_call": 7
+    }
+  ]
+}

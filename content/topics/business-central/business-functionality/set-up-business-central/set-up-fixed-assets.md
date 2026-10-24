@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:03.141Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -173,11 +173,17 @@ Insurance and maintenance pages are optional add-ons. Start with the overview pa
 ## Learn pages
 
 - [Set Up FA Depreciation](https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-depreciation): Choose from multiple depreciation methods in Business Central, and configure each asset's depreciation method on the Fixed Asset Card page.
+  - In the observatory: [Page 5600 "Fixed Asset Card"](../../../../objects/page/5600.md), [Page 5608 "FA Posting Type Setup"](../../../../objects/page/5608.md), [Page 5610 "Depreciation Book Card"](../../../../objects/page/5610.md), [Report 5689 "Create FA Depreciation Books"](../../../../objects/report/5689.md), [Report 5692 "Calculate Depreciation"](../../../../objects/report/5692.md)
 - [Set Up FA Insurance](https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-insurance): Configure insurance cards and policy details to manage fixed-asset insurance coverage.
+  - In the observatory: [Page 5652 "Insurance Journal Templates"](../../../../objects/page/5652.md), [Page 5655 "Insurance Journal Batches"](../../../../objects/page/5655.md)
 - [Set Up FA Maintenance](https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-maintenance): Specify general maintenance information, maintenance codes for types of work, and a maintenance-expense posting account to manage fixed asset repairs and service.
+  - In the observatory: [Page 5613 "FA Posting Groups"](../../../../objects/page/5613.md)
 - [Set Up FA User-Defined Depreciation Method](https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-user-defined-depreciation-method): Define an asset's depreciation in Business Central by selecting a user-defined depreciation method on the Fixed Asset Card page.
+  - In the observatory: [Page 5619 "FA Depreciation Books"](../../../../objects/page/5619.md), [Page 5659 "Depreciation Table Card"](../../../../objects/page/5659.md), [Page 5663 "Depreciation Table List"](../../../../objects/page/5663.md)
 - [Set up fixed assets](https://learn.microsoft.com/dynamics365/business-central/fa-setup): Learn about the sequence of tasks to set up fixed assets, such as machinery or buildings.
+  - In the observatory: [Page 5610 "Depreciation Book Card"](../../../../objects/page/5610.md)
 - [Set Up General Fixed Assets (FA) Information](https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-general): Configure default G/L accounts, FA posting groups, allocation keys, journal templates and batches, and class and subclass codes before using fixed assets.
+  - In the observatory: [Page 5636 "FA Reclass. Journal"](../../../../objects/page/5636.md), [Page 5637 "FA Reclass. Journal Templates"](../../../../objects/page/5637.md), [Page 5640 "FA Reclass. Journal Batches"](../../../../objects/page/5640.md)
 
 ## Videos, posts and code changes
 

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:53:46.170Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -350,7 +350,7 @@ narrative: generated
 
 > The AL programming language section covers language fundamentals for Business Central extensions: statements, methods, types, labels, access modifiers, error handling, and XML comments. Subtopics cover variables and operators, object types, preprocessor directives, and code analysis. It answers questions about syntax, object behavior, and AL coding conventions.
 
-Path: [Development](../development.md) > The AL programming language · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../development.md) > The AL programming language · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

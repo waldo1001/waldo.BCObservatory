@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.963Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -122,10 +122,23 @@ Start with Designing Role Centers for the concepts, then read the simple AL code
 ## Learn pages
 
 - [Add Menus to Role Center Navigation](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane): Learn how to add pages, reports, and actions to Role Center navigation menus, navigation bars, and action areas in Business Central.
+  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../../../objects/page/143.md), [Page 25 "Customer Ledger Entries"](../../../../../objects/page/25.md), [Page 253 "Sales Journal"](../../../../../objects/page/253.md), [Page 424 "Customer Bank Account List"](../../../../../objects/page/424.md), [Page 5119 "Sales Cycles"](../../../../../objects/page/5119.md), [Page 6402 "Sales Document Entity"](../../../../../objects/page/6402.md)
 - [Create a Role Center headline](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-create-role-center-headline): You can provide information and insights as headlines on Role Centers.
 - [Creating and Customizing Cues](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-cues-action-tiles): Get an overview of cues and action tiles and the tasks involved in customizing them on Role Centers.
+  - In the observatory: [Page 43 "Sales Invoice"](../../../../../objects/page/43.md)
 - [Designing Role Centers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-role-centers): Learn how to create user-focused home pages called role centers that boost productivity and streamline navigation.
 - [Get Users Started with the Checklist](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-checklist): Learn how to customize the checklist that users can launch from the Welcome banner.
+  - Checklist serves as onboarding platform where users access tasks by hitting Get started on Home page, revealing guided activities at their own pace.
+  - Checklist content comprises setup tasks and learning material with progress indication that changes title and status to nudge users toward completion.
+  - Checklist tasks point to pages, objects or external URLs in Business Central, enabling context-aware learning and gradual product exploration.
+  - Checklist items reference Guided Experience Item records with types: Assisted Setup, Manual Setup, Learn, Tour, Spotlight Tour, Video, Application Feature.
+  - Use Guided Experience codeunit facade functions to insert records: InsertManualSetup, InsertAssistedSetup, InsertLearnLink, InsertTour, InsertSpotlightTour, InsertVideo, InsertApplicationFeature.
+  - Spotlight tours suppress other teaching tips and shine bright spotlight on core capabilities like Open in Excel or Share to Teams in sales scenarios.
+  - Video type enables users to watch custom URL videos within Business Central window for feature explanation or training purposes.
+  - Best practice: keep list to six items or less to avoid scrollbar, keep titles and descriptions short and include task benefits in descriptions.
+  - In the observatory: [Table 1990 "Guided Experience Item"](../../../../../objects/table/1990.md), [Table 1991 "Checklist Item"](../../../../../objects/table/1991.md), [Table 1992 "Checklist Item Role"](../../../../../objects/table/1992.md), [Table 1993 "Checklist Item User"](../../../../../objects/table/1993.md)
 - [Simple Role Center Code Example in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-simple-role-center-example): Learn from a complete AL code example that builds a simple Role Center page and a profile that assigns the Role Center to users in Business Central.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

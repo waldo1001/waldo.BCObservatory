@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:57:09.736Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,6 +50,7 @@ links:
     - change/al-go/2327
     - change/al-go/2367
     - change/al-go/2382
+    - change/al-go/2407
 learn_toc_path:
   - Development
   - Get started
@@ -72,7 +73,7 @@ narrative: generated
 
 > ALTool is the command-line tool for compiling, packaging, and testing AL extensions for Business Central. This section answers questions about the AL Development Tools package, what ALTool can do, and how to use it in CI/CD pipelines.
 
-Path: [Development](../../development.md) > [Get started](../get-started.md) > ALTool · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../development.md) > [Get started](../get-started.md) > ALTool · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -91,7 +92,7 @@ Start with the package page to see how to get the tools, then use the command-li
 - Workspace commands help manage AL workspaces.
 - Test execution is available through ALTool.
 - Static call graph analysis is supported.
-- AI agent integration is available via MCP servers (2026 release wave 2).
+- AI agent integration is available via MCP servers.
 
 ## Learn pages
 
@@ -106,6 +107,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2327 Add doNotPerformUpgrade setting and enhance upgrade warning messages](../../../../changes/al-go/2327.md) (code change): "AL-Go pipeline now supports skipping the upgrade phase"
 - [#2367 Enhance NuGet feed selection to support pre-release packages](../../../../changes/al-go/2367.md) (code change): "AL-Go now supports pre-release NuGet packages by adding"
 - [#2382 Fix dependency artifact pattern for branch names with glob-special characters](../../../../changes/al-go/2382.md) (code change): "Fixed a bug where dependency artifact downloads failed silently"
+- [#2407 Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency](../../../../changes/al-go/2407.md) (code change): "AL-Go for GitHub now supports GitHub Enterprise Cloud with dynamic host resolution"
 - [Enhance Your AL Development with the AL MCP Server](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-enhance-your-al-development-with-the-al-mcp-server--9b231a3692.md) (community post): "The AL MCP server ships with the AL development tools and gives AI agents tools"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

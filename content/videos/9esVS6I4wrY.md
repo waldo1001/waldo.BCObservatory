@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:55:37.216Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -105,6 +105,12 @@ chapters:
     title: Verifying setup and monitoring consumption
   - t: 162
     title: Tracking costs and setting budgets
+cautions:
+  - kind: preview-disclaimer
+    quote: Consumption data may take up to 24 hours for this data to propagate to these pages
+    t: 162
+    versions:
+      - "24"
 features:
   - name: Pay-as-you-go billing for agents
     status: unclear

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:59:47.261Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,6 +72,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app
+      title: Finance Power BI app
+      label: possibly related
+      why: names Page 37059 "Finance Report"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app-setup
+      title: Set up the Finance Power BI app
+      label: possibly related
+      why: names Page 37059 "Finance Report"
+      by: code
 video_id: RU3D3RMAvVI
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -95,6 +106,18 @@ chapters:
     title: "Developer Demo: Migrating to User Control Host"
   - t: 417
     title: Live Demo and Conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: Business Central in the preview version 26
+    t: 134
+    versions:
+      - "26"
+  - kind: preview-disclaimer
+    quote: We have more improvements planned for this page type
+    t: 260
+  - kind: preview-disclaimer
+    quote: actions are not supported in a user control host. That's because the whole space of the page is taken by the user control itself rather than by the actions. But of course if you think we should support them in the future
+    t: 380
 features:
   - name: Improved Power BI Embed User Interface
     status: unclear
@@ -201,5 +224,12 @@ Not found in BC28-30: page "User Control Host Demo".
 - [2:14](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=134s) preview: Business Central in the preview version 26
 - [4:20](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=260s) coming-later: We have more improvements planned for this page type
 - [6:20](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=380s) subject-to-change: actions are not supported in a user control host. That's because the whole space of the page is taken by the user control itself rather than by the actions. But of course if you think we should support them in the future
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Finance Power BI app](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app) — possibly related: names Page 37059 "Finance Report"
+- [Set up the Finance Power BI app](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app-setup) — possibly related: names Page 37059 "Finance Report"
 
 Presenters (as heard): Niko Chimitan.

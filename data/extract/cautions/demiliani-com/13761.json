@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/demiliani-com/13761",
+  "page_id": "post/demiliani-com/13761",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "A compromised extension is just a Node.js process running inside a trusted application, with the same access rights as the developer.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "VS Code extensions run with full IDE privileges (they're not sandboxed).",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005004,
+    "posts_in_call": 4
+  }
+}

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:04:48.929Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:48.988Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -143,6 +143,13 @@ chapters:
     title: Regional data handling and permissions
   - t: 520
     title: Security, privacy and data protection
+cautions:
+  - kind: preview-disclaimer
+    quote: some features in preview as well and these are clearly labeled as production ready previews
+    t: 140
+  - kind: preview-disclaimer
+    quote: when you do that with an unsupported language um it may not perform as expected and quality may vary
+    t: 281
 features:
   - name: Copilot for Business Central
     status: unclear

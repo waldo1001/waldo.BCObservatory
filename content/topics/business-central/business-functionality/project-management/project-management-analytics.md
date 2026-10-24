@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:58.855Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -378,6 +378,7 @@ The page on monitoring project progress and performance covers the WIP feature, 
 ## More Learn pages
 
 - [Ad-hoc analysis of projects data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-projects): Learn how to use the data analysis mode to analyze projects data.
+  - In the observatory: [Page 5604 "FA Ledger Entries"](../../../../objects/page/5604.md)
 - [Monitor project progress and performance](https://learn.microsoft.com/dynamics365/business-central/projects-how-monitor-progress-performance): Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of projects while they're ongoing.
 - [Project analytics](https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview): Business Central has features that can help you gather, analyze, and share data from your projects for business intelligence and decision-making in your organization.
 

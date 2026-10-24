@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:22:11.597Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -135,12 +135,16 @@ A sensible order is to begin with Company Information, then Financial Informatio
 ## Learn pages
 
 - [Basic reports and documents output quick start](https://learn.microsoft.com/dynamics365/business-central/quick-start-reports-and-documents): Business Central offers built-in templates for reports and documents, with many customization options to adapt them to your company's needs.
+  - In the observatory: [Page 1 "Company Information"](../../../objects/page/1.md), [Page 9660 "Report Layouts"](../../../objects/page/9660.md)
 - [Business Central quick starts](https://learn.microsoft.com/dynamics365/business-central/quick-start-business-central): Get up and running with Business Central with quick start articles and tips that help you fill in the first critical fields.
 - [Business intelligence quick start](https://learn.microsoft.com/dynamics365/business-central/quick-start-business-intelligence): Learn how Business Central helps you transform company data into actionable insights using business intelligence reports and dashboards.
 - [Company Information Quick Start](https://learn.microsoft.com/dynamics365/business-central/quick-start-company-information): Learn how to fill in the first critical fields about your company in Business Central by reading this Quick Start article.
 - [Financial Information Quick Start](https://learn.microsoft.com/dynamics365/business-central/quick-start-financial-information): Get your company ready for business by setting up the financial information in Business Central.
+  - In the observatory: [Page 17 "G/L Account Card"](../../../objects/page/17.md), [Page 35630 "Bank Accounts (RU)"](../../../objects/page/35630-ru.md), [Page 370 "Bank Account Card"](../../../objects/page/370.md), [Page 634 "Chart of Accounts Overview"](../../../objects/page/634.md)
 - [Procurement Quick Start](https://learn.microsoft.com/dynamics365/business-central/quick-start-procurement): Learn how to fill in the first critical fields about vendors in Business Central so that you can start purchasing products and services.
+  - In the observatory: [Page 9308 "Purchase Invoices"](../../../objects/page/9308.md)
 - [Sales Quick Start](https://learn.microsoft.com/dynamics365/business-central/quick-start-sell-products-and-services): Learn how to fill in the first critical fields about products and customers in Business Central so that you can start your sales processes.
+  - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md)
 
 ## Business Central pages and reports
 

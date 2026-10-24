@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:53:33.573Z"
   flags: []
 generated:
-  at: "2026-10-07T22:53:33.618Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -99,6 +99,12 @@ chapters:
     title: Updated and new reports released in version 27.0
   - t: 421
     title: Resources and learning materials
+cautions:
+  - kind: preview-disclaimer
+    quote: They were supposed to ship in 26.2 uh for some reasons I don't have to talk about here. We needed to postpone that until version 27.0.
+    t: 391
+    versions:
+      - "26"
 features:
   - name: PowerBI app for manufacturing
     status: unclear

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:13:45.300Z"
   flags: []
 generated:
-  at: "2026-10-07T23:13:45.361Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -249,6 +249,22 @@ chapters:
     title: BCPT test result viewer
   - t: 2190
     title: Customizing AL Go for GitHub with templates
+cautions:
+  - kind: preview-disclaimer
+    quote: If you are running the preview version, that would the template URL would be github.com microsoft AL Go PTE at preview
+    t: 465
+  - kind: preview-disclaimer
+    quote: At some point in time, in a future version of AL Go for GitHub, these things will be set behind the scenes
+    t: 1470
+  - kind: preview-disclaimer
+    quote: there's no promises, no dates... we might still like pull the plug and say we're not going to ship this at all
+    t: 2040
+  - kind: preview-disclaimer
+    quote: it's a feature that that we might add soon
+    t: 2101
+  - kind: preview-disclaimer
+    quote: there actually is a PR open now, and whether we're going to merge it or or include this functionality, I don't know
+    t: 2248
 features:
   - name: AL Go for GitHub DevOps solution
     status: unclear

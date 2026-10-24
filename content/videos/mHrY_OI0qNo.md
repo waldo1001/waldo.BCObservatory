@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:08:44.703Z"
   flags: []
 generated:
-  at: "2026-10-07T23:08:44.761Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -189,6 +189,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d
+      title: "BC Friday Tips #69 Item Blocked Fields"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
+      title: "BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/demiliani-com/11962
+      title: "Dynamics 365 Business Central: compressing API responses at max."
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: video/cZCSi6khZFo
+      title: "Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/aardvarklabs-blog/3118
+      title: Leveraging RecordRef and FieldRef for Dynamic Coding
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/duiliotacconi-com/2149
+      title: "Partial Record vs NST Caching : the strange case of Calculate Low Level Code"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/aardvarklabs-blog/2202
+      title: Step by Step Guide to Importing Excel Data into Business Central
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: video/8D8IFkqeTLU
+      title: Use FlowFields directly inside your Spreadsheet inside Business Central  (Advanced Spreadsheets)
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: video/YTA8c2XyTX4
+      title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: video/p-pwG6f5srY
+      title: "What's New: Shopify Connector (2024 release wave 2)"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
 video_id: mHrY_OI0qNo
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -230,6 +281,19 @@ chapters:
     title: Feedback Collection and Other Copilot Capabilities
   - t: 1330
     title: Closing Remarks and Call to Action
+cautions:
+  - kind: preview-disclaimer
+    quote: the public preview of analysis assist
+    t: 139
+  - kind: preview-disclaimer
+    quote: co-pilot at this stage in preview will only work with fields that are shown on the page
+    t: 901
+  - kind: preview-disclaimer
+    quote: it's also being rolled out for uh all environment localizations with the exception of Canada for regulatory reasons
+    t: 982
+  - kind: preview-disclaimer
+    quote: it's also available in preview in English language only
+    t: 982
 features:
   - name: Analysis Assist
     status: preview
@@ -439,5 +503,20 @@ Not found in BC28-30: table "Customer Ledger".
 - [15:01](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=901s) preview: co-pilot at this stage in preview will only work with fields that are shown on the page
 - [16:22](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=982s) not-in-this-release: it's also being rolled out for uh all environment localizations with the exception of Canada for regulatory reasons
 - [16:22](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=982s) preview: it's also available in preview in English language only
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [BC Friday Tips #69 Item Blocked Fields](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d.md) — possibly related: both name Table 27 "Item"
+- [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) — possibly related: both name Table 27 "Item"
+- [Dynamics 365 Business Central: compressing API responses at max.](../posts/demiliani-com/11962.md) — possibly related: both name Table 27 "Item"
+- [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../videos/cZCSi6khZFo.md) — possibly related: both name Table 27 "Item"
+- [Leveraging RecordRef and FieldRef for Dynamic Coding](../posts/aardvarklabs-blog/3118.md) — possibly related: both name Table 27 "Item"
+- [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../posts/duiliotacconi-com/2149.md) — possibly related: both name Table 27 "Item"
+- [Step by Step Guide to Importing Excel Data into Business Central](../posts/aardvarklabs-blog/2202.md) — possibly related: both name Table 27 "Item"
+- [Use FlowFields directly inside your Spreadsheet inside Business Central (Advanced Spreadsheets)](../videos/8D8IFkqeTLU.md) — possibly related: both name Table 27 "Item"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../videos/YTA8c2XyTX4.md) — possibly related: both name Table 27 "Item"
+- [What's New: Shopify Connector (2024 release wave 2)](../videos/p-pwG6f5srY.md) — possibly related: both name Table 27 "Item"
 
 Presenters (as heard): Mike Borj Cardon, Thomas Jensen, Kenny Paban.

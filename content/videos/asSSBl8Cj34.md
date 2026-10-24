@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:55:36.604Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:36.643Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -107,6 +107,10 @@ chapters:
     title: New replace functionality demonstrated
   - t: 154
     title: Summary and benefits
+cautions:
+  - kind: preview-disclaimer
+    quote: what's coming in the 2025 wave 2 release
+    t: 5
 features:
   - name: Replace permission sets upon import
     status: announced

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.960Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -177,8 +177,7 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/language-elements
   localizations: []
-  videos:
-    - video/tzeO0mc8RJo
+  videos: []
   posts: []
   guidelines: []
   changes:
@@ -194,7 +193,7 @@ children: []
 coverage:
   learn: 19
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -238,9 +237,12 @@ This section is the reference for AL object types. Most pages cover one object: 
 - [Profile extension object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-profile-ext-object): Description of the profile extension object, which allows you to modify an individual experience for each user profile.
 - [Profile object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-profile-object): Description of the profile object, which allows you to build an individual experience for each user profile.
 - [Query object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object): Description of the AL query object.
+  - In the observatory: [Query 100 "Top Customer Overview"](../../../../../objects/query/100.md)
 - [Report object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object): The report object in AL for Business Central allows to create a new report.
 - [Table extension object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object): This article describes the table extension object in AL for Business Central.
+  - In the observatory: [Table 18 "Customer"](../../../../../objects/table/18.md)
 - [Table keys](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-keys): Learn about table keys in AL, including primary and secondary keys, and how to define keys in table objects and table extension objects.
+  - In the observatory: [Table 18 "Customer"](../../../../../objects/table/18.md)
 - [Table object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object): This article describes the structure, object limits, and extensibility of the table object in AL for Business Central.
 - [Test Codeunits and Test Methods in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-codeunits-and-test-methods): Learn how to create test codeunits and test methods in AL, set the SubType property to Test, and use the different test method attributes in Business Central.
 - [XMLport object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object): XMLport objects are used to export and import data between an external source and Business Central.
@@ -250,6 +252,5 @@ This section is the reference for AL object types. Most pages cover one object: 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#186 Add Query filter semantics guidance](../../../../../changes/bcquality/186.md) (code change): "DataItemTableFilter remains active when runtime filters target the same field"
-- [What's New: Developer Tools (2024 release wave 1)](../../../../../videos/tzeO0mc8RJo.md) (video): "Tooltips on tables; Instructional text on fields"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

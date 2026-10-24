@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:09.606Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,8 +109,10 @@ Start with the overview page, then follow the setup page to configure the enviro
 ## Learn pages
 
 - [Access with Microsoft 365 Licenses FAQ](https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq): Get answers to common questions about accessing Business Central with Microsoft 365 licenses.
+  - In the observatory: [Page 9800 "Users"](../../../../../objects/page/9800.md)
 - [Business Central Access with Microsoft 365 Licenses](https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license): Discover how users can view Business Central data in Microsoft Teams with only a Microsoft 365 license. Learn setup steps and requirements.
 - [Set Up Access with Microsoft 365 Licenses](https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-setup): A guide to how administrators can configure access to Business Central with Microsoft 365 licenses.
+  - In the observatory: [Page 1801 "Assisted Setup"](../../../../../objects/page/1801.md), [Page 9800 "Users"](../../../../../objects/page/9800.md)
 - [User Access Flow for Microsoft 365 Licenses](https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-flow): Get an overview of what happens when a user accesses Business Central data using their Microsoft 365 license for the first time.
 
 ## Business Central pages and reports

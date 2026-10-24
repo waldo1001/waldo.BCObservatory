@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:52.101Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -147,6 +147,7 @@ Start with the page on resources, time sheets, and projects for an overview of t
 - [Set up projects, prices, and project posting groups](https://learn.microsoft.com/dynamics365/business-central/projects-how-setup-jobs): Describes how to set up general information about projects.
 - [Set Up Resources, Time Sheets, and Projects](https://learn.microsoft.com/dynamics365/business-central/projects-setup-projects): This topic outlines how to set up resources, time sheets, to manage projects and their budgets.
 - [Set up time sheets and their approval](https://learn.microsoft.com/dynamics365/business-central/projects-how-setup-time-sheets): Learn how to use time sheets to track time for projects and resources.
+  - In the observatory: [Page 119 "User Setup"](../../../../objects/page/119.md), [Page 1801 "Assisted Setup"](../../../../objects/page/1801.md)
 
 ## Videos, posts and code changes
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:09.235Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,7 +92,9 @@ Start with the check page if you need to print checks from a payment journal. Us
 ## Learn pages
 
 - [Print Checks for APACS](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs): The APACS specification sets the standard layout for fields on checks in the UK. The Check report uses the APACS specification.
+  - In the observatory: [Report 1401 "Check"](../../../../../objects/report/1401.md)
 - [Print Remittance Advice [GB]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice): You can print remittance advice both before posting a payment journal and subsequent to posting a payment.
+  - In the observatory: [Report 399 "Remittance Advice - Journal"](../../../../../objects/report/399.md)
 
 ## Business Central pages and reports
 

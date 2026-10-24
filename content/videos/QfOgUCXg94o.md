@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:05:07.368Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -96,6 +96,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app-semantic-model
+      title: Power BI Inventory app semantic model
+      label: possibly related
+      why: names Table 7312 "Warehouse Entry"
+      by: code
+    - to: video/pEXl-POet_4
+      title: "What's New: Project and Service Management (2024 release wave 1)"
+      label: possibly related
+      why: both name Table 7312 "Warehouse Entry"
+      by: code
 video_id: QfOgUCXg94o
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -120,6 +131,12 @@ chapters:
     title: Drill down filtering and event hooks
   - t: 263
     title: Feature key and implementation considerations
+cautions:
+  - kind: preview-disclaimer
+    quote: in bc25 we will allow multiple users at the same time to post
+    t: 89
+    versions:
+      - "25"
 features:
   - name: Concurrent warehouse entry posting
     status: unclear
@@ -248,5 +265,12 @@ As heard in the captions. A name that matches one object page by exact type and 
 ## Disclaimers in the video
 
 - [1:29](https://www.youtube.com/watch?v=QfOgUCXg94o&t=89s) coming-later: in bc25 we will allow multiple users at the same time to post
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Power BI Inventory app semantic model](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app-semantic-model) — possibly related: names Table 7312 "Warehouse Entry"
+- [What's New: Project and Service Management (2024 release wave 1)](../videos/pEXl-POet_4.md) — possibly related: both name Table 7312 "Warehouse Entry"
 
 Presenters (as heard): B Knutsen.

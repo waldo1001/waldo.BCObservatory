@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.020315
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:54:28.910Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview says the overview page 'compares' the three payment tools; the source only says to use one of them. 'Lists' or 'names' would be more exact. Minor.",
+      "The last key point puts SEPA, Intrastat and sales tax into one bullet. It is accurate but would read more clearly split up. Minor."
+    ],
+    "input_hash": "852912af360a402f9461bcf050768c73d336958c653afedb183decceb61b8654",
+    "cost_usd": 0.051939200000000005
   }
 }

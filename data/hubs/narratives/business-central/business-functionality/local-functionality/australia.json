@@ -2,7 +2,7 @@
   "hub_id": "topic/business-central/business-functionality/local-functionality/australia",
   "input_hash": "98058b443e1c68f2e5cac406712a3a22c16e50684bfbf854e9d2495e39b75af9",
   "summary": "Australia local functionality in Business Central: tax (WHT, GST), banking and payments (EFT, reconciliation), core finance (BAS, financial reports), general features (ABN, DPID/AMAS, Payment Times Reporting) and e-invoicing in Peppol PINT A-NZ format. It answers setup and usage questions for Australian regulatory needs.",
-  "overview": "This section covers features specific to Australian deployments of Business Central. The overview page lists the main areas: tax, e-invoicing, banking and payments, core finance, and general features. It references 2027 release wave 1.\n\nThe subtopics split by area. Tax covers withholding tax setup and settlement, GST posting, GST on prepayments, settlement reports and VAT settlement exchange rate adjustment. Banking and payments covers EFT for vendor payments, check installments, bank cash flow comparison, and bank reconciliation and deposit slip reports. Core finance covers distribution amounts, balance sheet and income statement reports, and business unit setup for BAS. General covers DPID and AMAS addressing, ABN and adjustment notes, cost plus percentage pricing, and Payment Times Reporting.\n\nThe e-invoicing page explains how to use the E-Documents framework with the Peppol PINT A-NZ format, including service integration and e-invoice setup for sales and purchasing. Start with the overview page, then go to the subtopic that matches your requirement, usually Tax or General for first-time setup.",
+  "overview": "This section covers features specific to Australian deployments of Business Central. The overview page lists the main areas: tax, e-invoicing, banking and payments, core finance, and general features. It references 2027 release wave 1.\n\nThe subtopics split by area. Tax covers withholding tax setup and settlement, GST posting, GST on prepayments, settlement reports and VAT settlement exchange rate adjustment. Banking and payments covers EFT for vendor payments, check installments, bank cash flow comparison, and bank reconciliation and deposit slip reports. Core finance covers distribution amounts, balance sheet and income statement reports, and business unit setup for BAS. General covers DPID and AMAS addressing, ABN and adjustment notes, cost plus percentage pricing, and Payment Times Reporting.\n\nThe e-invoicing page explains how to use the E-Documents framework with the Peppol PINT A-NZ format, including service integration and e-invoice setup for sales and purchasing. Start with the overview page, then go to the subtopic that matches your requirement.",
   "key_points": [
     "Tax: withholding tax (WHT) setup and settlement, GST posting, GST on prepayments, settlement reports, and VAT settlement exchange rate adjustment.",
     "E-invoicing uses the E-Documents framework with the Peppol PINT A-NZ format, including service integration and e-invoice setup.",
@@ -19,5 +19,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.013405
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-24T00:54:17.439Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview's advice to start with 'usually Tax or General for first-time setup' isn't in the summaries. I removed it and kept the neutral reading order.",
+      "The key point about 2027 release wave 1 is supported by the overview page's version metadata but tells an agent little. I kept it as written.",
+      "Everything else matches the subtopic and page summaries: WHT, GST, EFT, BAS, DPID/AMAS, ABN, Payment Times Reporting and Peppol PINT A-NZ through the E-Documents framework."
+    ],
+    "input_hash": "98058b443e1c68f2e5cac406712a3a22c16e50684bfbf854e9d2495e39b75af9",
+    "cost_usd": 0.0391272
   }
 }

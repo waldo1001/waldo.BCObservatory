@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:28.766Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,6 +100,7 @@ Start with the user settings page for per-user preferences. Move to the users an
 
 - [Manage user settings and preferences as the administrator](https://learn.microsoft.com/dynamics365/business-central/admin-manage-user-settings-preferences): Manage user settings and preferences in Dynamics 365 Business Central.
 - [Manage users and roles](https://learn.microsoft.com/dynamics365/business-central/admin-users-profiles-roles): Learn how to manage user profiles in Business Central.
+  - In the observatory: [Page 9200 "Personalized Pages"](../../../../objects/page/9200.md), [Page 9204 "User Settings"](../../../../objects/page/9204.md)
 
 ## Videos, posts and code changes
 

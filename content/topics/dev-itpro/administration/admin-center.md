@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-24T00:54:05.688Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -307,7 +307,7 @@ narrative: generated
 
 > The Business Central administration center covers how tenant administrators manage online environments: create, copy, rename, restore, delete, transfer and export them, and control updates, apps, access, capacity, telemetry, notifications and billing. It answers how-to and limit questions for these tasks. A subtopic covers the Admin Center API.
 
-Path: [Administration](../administration.md) > Admin center · tier official · system administration · narrative **unreviewed** (model text not yet checked)
+Path: [Administration](../administration.md) > Admin center · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -335,21 +335,139 @@ Monitoring and cost pages cover environment telemetry with Application Insights,
 ## More Learn pages
 
 - [Business Central Administration Center](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center): Learn about how a VAR or an internal administrator can set update windows and other admin tasks using the admin center.
+  - The admin center provides a portal for administrators to view and work with production and sandbox environments on the tenant.
+  - Permissions: Dynamics 365 Administrator and Dynamics 365 Business Central Administrator roles authorize access to the admin center.
+  - Internal admins with Dynamics 365 Business Central Administrator role can access the admin center from Business Central or via direct URL.
+  - Partner organizations must set up a GDAP relationship with required roles to access customer admin centers.
+  - Delegated administrators do not need a license assigned or be a guest user to access customer admin centers.
+  - Support contact details, notification recipients, Application Insights keys, and authorized Microsoft Entra apps should be removed when switching partners.
 - [Copy an environment](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-copy): Learn how to create an environment that is a copy of a production or sandbox environment.
+  - Create environment copy with all per-tenant and Marketplace extensions installed in original environment.
+  - Copied environment runs on same application version as original environment.
+  - Limit: Linked Power Platform environment is not copied; new environment will not be linked.
+  - Step: In Admin Center select Environments then choose the environment to copy.
+  - Step: On Environment Details page choose Copy action.
+  - Step: In Copy environment pane specify environment type and name for new environment.
+  - Step: Choose Create action to start the copy process.
+  - Limit: Sandbox environments with Preview Marketplace apps cannot be copied to Production; update or uninstall Preview apps first.
+  - In the observatory: [#10207 [Dataverse] Use Truncate for CRM Integration Record cleanup during environment copy](../../../changes/bcapps/10207.md), [#12152 [MCP] Clear environment description after environment copy](../../../changes/bcapps/12152.md), [#13005 [Master Data Management] Cleanup when copying environment](../../../changes/bcapps/13005.md), [Codeunit 1886 "Environment Cleanup"](../../../objects/codeunit/1886.md), [Codeunit 8912 "Environment Cleanup Subs"](../../../objects/codeunit/8912.md)
 - [Delete and recover environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-delete): Learn how to delete and recover deleted environments using the Business Central admin center.
+  - Deleted environments enter a retention period lasting 14 days called soft delete before permanent hard delete.
+  - During the 14-day retention period, you can fully recover the environment and all its data.
+  - Environments with Creating Failed or Removing Failed status are permanently deleted immediately without retention.
+  - Soft-deleted environments are automatically renamed with a date-time suffix format yyMMddHHmmssff to avoid naming conflicts.
+  - Soft-deleted environments do not receive updates but remain in the update schedule until permanently deleted.
+  - When recovering an environment, pending updates scheduled during deletion are applied unless you reschedule them.
+  - You can recover a production environment exceeding quota by one extra environment; return within quota within 30 days.
+  - Limit: Environments linked to Power Platform cannot be deleted without unlinking first.
 - [Environment Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry): Learn how the Business Central admin center provides telemetry for each environment.
+  - Admin center provides telemetry for tenant environments enabling troubleshooting and support.
+  - Telemetry tab shows top-level AL events and errors from telemetry stack.
+  - Step: Filter telemetry by selecting base point-in-time, time range, message type, and environment.
+  - Helps identify underlying problems such as simultaneous data modification by multiple users.
+  - Enable richer telemetry by sending data to Microsoft Azure Application Insights.
 - [Exporting Databases in the Admin Center](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export): Learn how to export production environment data as BACPAC files to Azure storage. Start your export today.
+  - Exports Business Central online database as BACPAC files to Azure storage container
+  - Prerequisite: Customer must have paid Business Central subscription to request database export
+  - Permissions: D365 BACKUP/RESTORE permission set must be assigned in the environment to export
+  - Limit: Maximum 10 database exports allowed per month per environment
+  - Limit: Only Standard general-purpose v2 Azure storage accounts supported, not Premium or V1
+  - Prerequisite: SAS signature requires minimum 72-hour expiration window from export initiation
+  - BACPAC files exported from customer-managed encrypted environments use storage account encryption
+  - Limit: Microsoft does not support creating working on-premises environment from downloaded BACPAC
 - [Manage Access to Environment](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access): This article describes features in the admin center that help controlling user access to environments.
+  - Assign Microsoft Entra group to environment to restrict access to group members; direct and indirect members can sign in, but not group members cannot.
+  - Permissions: Internal administrators can freely sign in to all environments regardless of assigned security group; delegated admin access is controlled by Partner access setting.
+  - Step: To assign security group, select environment on Environments page, then select Define or Modify under Security Group, search for and select group, select Save.
+  - Essentials users can only open companies with User Experience set to Essentials; Premium users can open any company but cannot use Premium-only features in Essentials companies.
+  - Limit: Up to 10 Microsoft Entra tenants can be allowlisted per environment for delegated administrator and multitenant application access.
+  - Partner access settings are preserved during environment copy, restore, and transfer operations; post-transfer, settings should be updated if destination tenant has different partners.
+  - Step: To manage partner access, select environment, select Modify for Partner access, toggle Allow partner access switch, control access to all or specific partner tenants, select Save.
 - [Manage consumption-based billing](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing): Learn about managing consumption-based billing for Business Central.
+  - Billable agent capabilities include Expense Agent (preview), Payables Agent, Sales Order Agent, and AI development toolkit (preview) design and coding.
+  - Copilot Credits are the billing units for consumption-based AI interactions and tasks in agents, with cost varying by agent type and features used.
+  - Expense Agent charges 50 Copilot Credits per uploaded receipt regardless of resulting expense line count.
+  - Sales Order Agent typical process costs 14 Copilot Credits base (analyze email, check availability, create quote/order, generate response) plus optional charges for attachments.
+  - Payables Agent charges 50 Copilot Credits per invoice processing plus 5 per invoice line for extraction and intelligent matching.
+  - Two billing models available: prepaid capacity purchased through Microsoft 365 or Partner Center, or pay-as-you-go linked to Azure subscription.
+  - Prepaid capacity automatically consumed from default Power Platform environment; admins can allocate portions to specific environments through Power Platform admin center.
+  - Prerequisite: For pay-as-you-go, link Business Central environment to Power Platform environment configured with Azure subscription.
 - [Manage Tenant-Specific Notifications](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-notifications): Learn about how an internal admin and a delegated admin can get notified of changes for Business Central tenants.
+  - Notification recipients receive email when major updates are available, updates succeed or fail, and extensions require compatibility changes.
+  - Notifications are sent to all email addresses listed in the Notification recipients list of the admin center.
+  - Limit: Up to 100 notification recipients can be added; use a distribution list to support more recipients.
+  - Most environment lifecycle events posted to email are also posted to Microsoft 365 Message Center.
+  - If an incompatible app is not uninstalled after 4-5 months of notifications, Microsoft force-uninstalls the app without deleting data.
+  - Trial prospects must sign up for notifications to receive alerts about trial expiration and environment status.
 - [Managing Apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-apps): Discover how to use the Business Central administration center to manage apps, update environments, and ensure compatibility with the latest features.
+  - A Business Central environment is built as a collection of apps including Microsoft and non-Microsoft apps from Marketplace.
+  - Apps can be installed as Global App, Per-Tenant Extension, or DEV extension.
+  - The Manage Apps page in the admin center supports viewing, uploading, installing, updating, and uninstalling apps depending on app type.
+  - Limit: You cannot install new global apps from the Admin Center; install them from marketplace.microsoft.com instead.
+  - Global app updates from Marketplace are applied immediately by default; schedule them during the next update window to minimize user disruption.
+  - Per-Tenant Extension installations can be scheduled immediately, during the next update window, or during the next minor or major update.
+  - Uninstalling an app can optionally delete application data in fields and tables; data recovery requires point-in-time restore.
+  - Preview versions of Marketplace apps can only be installed on sandbox environments using a PreviewKey URL parameter from the publisher.
 - [Managing Capacity](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity): Learn how to monitor and optimize storage, manage environments, and stay within your quota using the administration center.
+  - The Capacity page shows total database storage usage and details about storage used by every environment on the tenant.
+  - Premium and Essential subscriptions include one production environment and three sandbox environments at no extra charge.
+  - Each extra production environment purchased adds three more sandbox environments and increases shared storage capacity by 4 GB.
+  - Extra storage capacity per license: Premium 3 GB, Essential 2 GB, Device 1 GB, Partner Sandbox 5 GB.
+  - Exceeding storage quota does not interrupt existing environments but blocks creation or copying of new environments until quota is reduced or more capacity is purchased.
+  - Limit: Exceeding environment count limits also blocks creation or copying of environments until you reduce or purchase more capacity.
+  - Files and Blob data stored in the database, including Tenant Media and Tenant Media Thumbnails tables, count toward overall database storage capacity.
+  - Administrators can limit user access to specific environments by changing permissions or removing users' access.
 - [Managing Production and Sandbox Environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments): Learn how to use Business Central admin center to manage tenant environments, both sandbox and production.
+  - Business Central environments can link to Power Platform environments of the same type for inherited settings
+  - Limit: Cannot delete a Business Central environment if linked to a Power Platform environment
+  - Copy and Restore operations do not link the target environment to Power Platform as part of the operation
+  - Permissions: Internal admin with access to the admin center and permissions to update Power Platform environment properties required
+  - Only Power Platform environments in Ready state, matching environment type, and not already linked are available for linking
+  - Unlinking disables inherited settings but preserves existing integrations like Power Automate flows
+  - Default update window excludes 8 PM to 6 AM local time; can be changed after environment creation
 - [Managing Sessions in the Admin Center](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions): Use the Business Central administration center to manage sessions in your tenant environments.
+  - Manage Sessions page allows viewing information about active sessions and canceling selected sessions.
+  - Canceling a session sometimes is the only way to unblock a customer when a long-running report locks data.
+  - Step: To cancel session, select it from the list and choose Cancel selected sessions.
+  - Step: To restart environment, go to Manage Sessions page and choose Restart Environment action.
+  - Prerequisite: All users must be signed out of all companies before restarting an environment.
 - [Managing Updates in the Admin Center](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management): Use the Business Central administration center to manage environment updates, including setting update windows and update dates.
+  - Update window is the hours during the day when environment updates can occur within specified time zone.
+  - Limit: Update must complete before update window ends or it cancels and reschedules seven days later.
+  - Default update window is between 8 PM and 6 AM local time for environment country; minimum six hours required.
+  - Step: Schedule update by opening environment details, selecting Modify for Next Update, choosing target version, and picking date.
+  - Limit: Can only update to versions higher than current version within current or next major version.
+  - During update, all users and sign-in attempts blocked with maintenance message.
+  - Limit: Cannot cancel updates on environments in Enforced Update Period for source version.
+  - Notification recipients receive email when new version available and when update scheduled, except for preview versions.
 - [Rename Environments in the Admin Center](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-rename): Use the Business Central administration center to rename environments.
+  - Environment name is part of URL and changing it restarts the environment.
+  - Step: Select Environments, choose environment to rename, select Rename option.
+  - Step: Enter new name on Rename environment page and select Rename button.
+  - Environment state changes to Preparing/Rename Scheduled then back to Active when complete.
+  - Old environment name is no longer accessible; new name available immediately.
+  - Limit: Renaming affects web client URL, deep links, integrations, mobile apps, Power BI, Excel add-ins.
+  - Limit: Browser cache, CI/CD pipelines, launch.json files, and external integrations require manual updates.
 - [Restoring an environment in the admin center](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore): Use the Business Central administration center to restore backups of environments.
+  - Permissions: Delegated administrators and organization administrators with D365 BACKUP/RESTORE permission set assigned in the environment can restore.
+  - Limit: Only paid subscribers can restore environments. Maximum 10 restores per calendar month per environment and restore only to 28 days prior.
+  - Limit: Restored environment must stay within same Azure region and localization as original. Production restores to Production or Sandbox; Sandbox restores only to Sandbox.
+  - Restoration restores environment to the major/minor version it was on at restore point. Cannot restore to versions in grace or enforced update periods.
+  - Limit: Development extensions from Visual Studio Code are removed during sandbox restoration. Per-tenant extensions depending on them are also unavailable.
+  - Marketplace and Business Central apps automatically receive latest available hotfixes even if the hotfix post-dates the restore point.
+  - Limit: Microsoft Entra app registrations, status and permissions restore to their restore-point state. Previously authorized apps are not restored.
+  - Limit: Update window and Application Insights connection string from source environment at restore start time are retained on target, not restored to historical values.
 - [Transfer Environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-move): You can transfer a Business Central environment to another Microsoft Entra tenant. Start in the Business Central admin center.
+  - Environments move between Microsoft Entra tenants during business consolidations, acquisitions, mergers, or partner demo transfers to customer tenants.
+  - Step: Source tenant internal admin initiates transfer in Business Central admin center by selecting environments, specifying destination tenant ID and transfer date/time.
+  - Step: Destination tenant internal admin accepts transfer within 8 hours via Receive Environments, optionally renaming environments to avoid duplicates.
+  - Permissions: Only internal administrators can execute environment transfer operations; delegated admins cannot use this feature.
+  - All source tenant users are disconnected when transfer starts and post-transfer setup is required before environment use, typically requiring up to 30 minutes downtime.
+  - Limit: Users added to environment in source tenant are not migrated; they must be recreated in destination tenant and user personalizations are lost.
+  - Limit: Environments linked to Power Platform cannot be transferred; must unlink Business Central environment from Power Platform first.
+  - Transfer requests remain valid 2 weeks if accepted within 8 hours of creation; requests not accepted within 8 hours get status Skipped.
+
+Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
 ## Videos and posts
 

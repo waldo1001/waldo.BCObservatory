@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:25.418Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,11 +110,9 @@ links:
     - video/mS6NDhj20yI
     - video/vLcb31rfZ48
     - video/XLUAuUWtJDw
-    - video/z7UTBiCNOo8
   posts:
     - post/aardvarklabs-blog/2271
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
-    - post/thinkaboutit-be/7920
     - post/thinkaboutit-be/8096
     - post/thinkaboutit-be/8250
   guidelines: []
@@ -128,8 +126,8 @@ children: []
 coverage:
   learn: 9
   code: 6
-  video: 7
-  blog: 5
+  video: 6
+  blog: 4
   guideline: 0
 bc_forms:
   - 9650
@@ -177,6 +175,7 @@ Two pages cover applying layouts: one on setting the default layout per company 
 - [Set the Layout Used by a Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-set-report-layout): Learn how to select the default report layout for each company, temporarily use another layout, and distinguish layout selection from reusable branding.
 - [Set Up Report Themes and Header/Footer Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-set-up-report-themes-header-footer-layouts): Learn how to manage reusable report themes and header/footer layouts, approve them, and assign defaults across reports and companies in Business Central.
 - [Working with Excel layouts](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and modify report layouts that are built using Excel.
+  - In the observatory: [Page 9660 "Report Layouts"](../../../../objects/page/9660.md)
 - [Working with RDLC Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-rdlc-report-layouts): Get an introduction to RDLC report layouts.
 
 ## Videos and posts
@@ -185,7 +184,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Understanding RDLC Reports in Business Central](../../../../posts/aardvarklabs-blog/2271.md) (community post): "RDLC reports use Report Definition Language Client to create self-hosted pixel-perfect printed reports"
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "Composite layouts in Business Central 29.0: branding is split into three separate parts"
-- [Quick Tip: What’s in Business Central Update 28.1](../../../../posts/thinkaboutit-be/7920.md) (community post): "Report layout administrators can assign statuses (Draft, Pending Approval, Approved, Retired) to control which layouts users see"
 - [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../../../../posts/thinkaboutit-be/8096.md) (community post): "New fields inserted via the XML Mapping pane stopped mapping correctly in August 2026"
 - [Business Central 29: Introducing Composite Document Layouts](../../../../posts/thinkaboutit-be/8250.md) (community post): "Composite Document Layouts, a modular approach to Word document layouts"
 - [Introducing: Composite Document Layouts (2026 release wave 2)](../../../../videos/-vdhfNMNZQk.md) (video): "Composite layouts for documents; Body layout; Theme application"
@@ -194,7 +192,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Enhanced Document Reporting (2026 release wave 1)](../../../../videos/mS6NDhj20yI.md) (video): "Enhanced data picker UX; Insert table action; Layout lifecycle and status management"
 - [What's New: Document Reporting (2025 release wave 2)](../../../../videos/vLcb31rfZ48.md) (video): "word layouts; data picker; document reporting; word addin"
 - [What's new in Document Reporting: Word add-in (2026 release wave 2)](../../../../videos/XLUAuUWtJDw.md) (video): "Word add-in; document reporting; data picker; company information"
-- [What's Cooking in Business Central: Excel Reports that Become Generally Available](../../../../videos/z7UTBiCNOo8.md) (video): "Excel Layouts for Built-in Reports; Report Customization in Excel"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:05.029Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -187,9 +187,13 @@ Day-to-day use is split into sales and purchase pages. Sales covers creating and
 - [Connect e-documents to Microsoft 365 applications](https://learn.microsoft.com/dynamics365/business-central/finance-connect-edocuments-microsoft365): Learn how to integrate e-documents with Microsoft 365 applications.
 - [E-documents overview](https://learn.microsoft.com/dynamics365/business-central/finance-edocuments-overview): Learn about e-documents in Business Central and how they streamline business transactions with automated document management and local compliance features.
 - [Extending the e-documents functionality](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments): Learn how to extend e-documents functionality with specific requirements.
+  - In the observatory: [Codeunit 6109 "E-Document Import Helper"](../../../../objects/codeunit/6109.md), [Codeunit 6115 "E-Document Error Helper"](../../../../objects/codeunit/6115.md), [Codeunit 6148 "E-Document Helper"](../../../../objects/codeunit/6148.md), [Enum 6101 "E-Document Format"](../../../../objects/enum/6101.md), [Enum 6121 "E-Document Type"](../../../../objects/enum/6121.md), [Enum 6128 "E-Document Processing Phase"](../../../../objects/enum/6128.md)
 - [Set Up E-documents](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-edocuments): Learn how to set up e-documents in Business Central with step-by-step configuration of services, formats, workflows, and document sending profiles.
+  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../../objects/page/143.md), [Page 1500 "Workflows"](../../../../objects/page/1500.md), [Page 1505 "Workflow Templates"](../../../../objects/page/1505.md), [Page 5194 "Contoso Demo Tool"](../../../../objects/page/5194.md)
 - [Set up the E-Documents connector with external endpoints](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-edocuments-external): This article explains how to set up E-Documents functionality when connected to external endpoints.
+  - In the observatory: [Page 1 "Company Information"](../../../../objects/page/1.md), [Page 36954 "Customers"](../../../../objects/page/36954.md)
 - [Use e-documents in sales](https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments): Learn how to use e-documents functionality that is related to sales.
+  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../../objects/page/143.md), [Page 6125 "E-Document Logs"](../../../../objects/page/6125.md), [Page 6135 "E-Document Service Status"](../../../../objects/page/6135.md)
 - [Use E-Documents in the purchase process](https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments-purchase): Learn how to set up vendors and handle purchase invoices, orders, and credit memos using e-documents in Dynamics 365 Business Central.
 
 ## Videos, posts and code changes

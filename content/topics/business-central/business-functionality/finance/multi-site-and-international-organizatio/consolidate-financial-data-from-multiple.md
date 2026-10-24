@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:33.097Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,7 +105,9 @@ Start with the overview page to understand the scenario and its capabilities. Th
 ## Learn pages
 
 - [Consolidate data from multiple companies](https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting): This article explains how you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company.
+  - In the observatory: [Report 91 "Export Consolidation"](../../../../../objects/report/91.md)
 - [Set up company consolidation](https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting-setup): Learn how you can configure how data from different companies in Business Central is reported into a consolidation company.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md)
 
 ## Videos and posts
 

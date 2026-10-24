@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:16:14.636Z"
   flags: []
 generated:
-  at: "2026-10-07T23:16:14.677Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -224,6 +224,18 @@ chapters:
     title: Additional resources and learning paths
   - t: 1693
     title: Community engagement and closing remarks
+cautions:
+  - kind: preview-disclaimer
+    quote: this was in public preview in 2023 release wave one
+    t: 363
+  - kind: preview-disclaimer
+    quote: a few features came in a bit late in our release so they are likely available in version 23.1
+    t: 960
+    versions:
+      - "23"
+  - kind: preview-disclaimer
+    quote: these only work in the in 2023 release Wave 2
+    t: 1172
 features:
   - name: Analyze data on list pages
     status: ga

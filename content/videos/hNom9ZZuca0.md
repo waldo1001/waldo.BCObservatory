@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:44:14.554Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -127,6 +127,10 @@ chapters:
     title: Test Handler Properties and Patterns
   - t: 545
     title: Use Cases and Conclusion
+cautions:
+  - kind: preview-disclaimer
+    quote: AI test toolkit is not yet using these new capabilities which means that you are not able to run these from Visual Studio Code. Um but that's just a matter of time. we are planning on migrating them to this new system.
+    t: 236
 features:
   - name: Data-driven Testing in AL
     status: ga

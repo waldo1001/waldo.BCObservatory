@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:16:30.793Z"
   flags: []
 generated:
-  at: "2026-10-07T23:16:30.834Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,6 +116,22 @@ chapters:
     title: Production and Sandbox Upgrade Strategy
   - t: 593
     title: Summary and Upgrade Best Practices
+cautions:
+  - kind: preview-disclaimer
+    quote: You'll still see preview and you will still see some instances of 28, but sooner than later, 28 will go ...
+    t: 193
+    versions:
+      - "28"
+  - kind: preview-disclaimer
+    quote: this is the right time to kind of create and hold an environment on 28 because as these options will ...
+    t: 220
+    versions:
+      - "28"
+  - kind: preview-disclaimer
+    quote: now this becomes the time when you start getting emails from Microsoft if your extension is not compatible with version 29
+    t: 311
+    versions:
+      - "29"
 features:
   - name: Version 29.0 General Availability
     status: ga

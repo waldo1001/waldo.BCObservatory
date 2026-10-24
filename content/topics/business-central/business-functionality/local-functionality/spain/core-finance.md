@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:21.075Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,12 +140,19 @@ Start with the Transaction numbers page, which explains how sequential numbers g
 ## Learn pages
 
 - [How to Export Financial Reports to ASC Format](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format): Export financial report data to a digital file format approved by Spanish tax authorities for specific annual reports.
+  - In the observatory: [Page 108 "Financial Reports"](../../../../../objects/page/108.md)
 - [How to Ignore Discounts in General Ledger Accounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts): Learn how to set up general ledger accounts in Business Central for Spain to exclude payment and invoice discounts.
+  - In the observatory: [Page 17 "G/L Account Card"](../../../../../objects/page/17.md)
 - [How to Indent and Validate Chart of Accounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts): Learn how to indent and validate the chart of accounts on the G/L Account Card page.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md), [Page 17 "G/L Account Card"](../../../../../objects/page/17.md)
 - [How to Post and Print All Transactions for a Period](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period): Businesses are required to provide annual reports to tax authorities, grouping their transaction entries by transaction numbers.
+  - In the observatory: [Page 116 "G/L Registers"](../../../../../objects/page/116.md), [Page 39 "General Journal"](../../../../../objects/page/39.md)
 - [How to print account book reports [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-account-book-reports): Learn how to print the Official Account Book report and the Official Account Summarize Book report with the Spanish version of Business Central.
+  - In the observatory: [Report 10706 "Account - Official Acc. Book (ES)"](../../../../../objects/report/10706-es.md), [Report 10716 "Official Acc.Summarized Book (ES)"](../../../../../objects/report/10716-es.md)
 - [How to Print Sales and Purchase Invoice Books](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books): The Sales Invoice Book report and Purchases Invoice Book report allow you to check all of the sales and purchase documents created for a specific period.
+  - In the observatory: [Report 10704 "Sales Invoice Book (ES)"](../../../../../objects/report/10704-es.md), [Report 10705 "Purchases Invoice Book (ES)"](../../../../../objects/report/10705-es.md)
 - [How to Set Up and Close Income Statement Balances](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances): Use income statement balancing accounts to efficiently track and balance multiple accounts simultaneously.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md), [Page 17 "G/L Account Card"](../../../../../objects/page/17.md), [Report 94 "Close Income Statement"](../../../../../objects/report/94.md)
 - [Transaction numbers](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/transaction-numbers): Use transaction numbers to group and balance entries that share the same document number and date.
 
 ## Videos, posts and code changes

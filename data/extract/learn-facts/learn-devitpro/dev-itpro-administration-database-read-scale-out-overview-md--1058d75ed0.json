@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/database-read-scale-out-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview",
+  "title": "Using Read Scale-Out for Better Performance",
+  "blob": "76f43641335820851052a615b80ea18f7ba55183",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Read scale-out isolates analytical read-only workloads from business process read-write transactions to prevent performance degradation."
+    },
+    {
+      "kind": "fact",
+      "text": "Read scale-out uses a read-only replica of the database instead of the primary read-write database for reports, queries, and API pages."
+    },
+    {
+      "kind": "status",
+      "text": "In Business Central Online, read scale-out is readily available and automatically enabled on databases."
+    },
+    {
+      "kind": "fact",
+      "text": "Developers can set default database access intent on reports and query objects using the DataAccessIntent property."
+    },
+    {
+      "kind": "fact",
+      "text": "Read-only intent can be enabled on OData GET requests by configuring the Enable Read-Only Intent on GET Requests server setting."
+    },
+    {
+      "kind": "limit",
+      "text": "Read scale-out cannot be enabled on sandbox environments; read-only objects only access the primary database."
+    },
+    {
+      "kind": "limit",
+      "text": "Using read scale-out may introduce a slight delay when reading data due to replication lag from primary to secondary replicas."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009138,
+      "pages_in_call": 4
+    }
+  ]
+}

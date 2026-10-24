@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-outgoing-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-trace",
+  "title": "Outgoing Web Service Request Trace",
+  "blob": "7eb20be20427c97acac06bcdb5a6a213b20fc77c",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Outgoing web service telemetry (RT0019) tracks HTTPClient calls made by AL code to external services, including endpoint, method, status code."
+    },
+    {
+      "kind": "fact",
+      "text": "Dimensions record timeout set by NavHttpClientMaxTimeout server setting or TimeOut method call, with method call taking precedence over server setting."
+    },
+    {
+      "kind": "limit",
+      "text": "httpReturnCode dimension deprecated in version 17.2; use httpStatusCode instead for http status codes returned from requests."
+    },
+    {
+      "kind": "fact",
+      "text": "httpRequestError dimension (added version 29.0) distinguishes failure types: name resolution, connection failures, certificate validation, timeout."
+    },
+    {
+      "kind": "fact",
+      "text": "Event includes extension ID, name, publisher, version; object ID, name, type making request; server execution time and total time for request completion."
+    },
+    {
+      "kind": "fact",
+      "text": "Stack trace dimension (added version 20.1) and client type (added version 21.3) help trace external service calls to AL code locations."
+    },
+    {
+      "kind": "fact",
+      "text": "HTTP headers captured in telemetry; sample KQL extracts Authorization header from parsed httpHeaders JSON to analyze authentication methods used."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010146,
+      "pages_in_call": 5
+    }
+  ]
+}

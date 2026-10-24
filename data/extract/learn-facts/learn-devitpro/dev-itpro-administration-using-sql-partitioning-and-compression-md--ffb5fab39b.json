@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/using-sql-partitioning-and-compression.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/using-sql-partitioning-and-compression",
+  "title": "Using Table Partitioning and Data Compression",
+  "blob": "82bbf38a299fba75c15fccb287365ef3427b0a66",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "fact",
+      "text": "Table partitioning divides large tables across filegroups for faster maintenance, improved queries, and better performance via partition elimination."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Partitioning field must be included in the table's primary key in AL code; partitioning is configured in SQL Server after table publication."
+    },
+    {
+      "kind": "limit",
+      "text": "Primary key fields cannot be added after an extension publishes to production; partitioning is limited to new extensions or existing ones with partitioning fields already in primary keys."
+    },
+    {
+      "kind": "fact",
+      "text": "Compression reduces table size and improves I/O-intensive workload performance; CompressionType property lets you set Row, Page, or Unspecified compression."
+    },
+    {
+      "kind": "fact",
+      "text": "In Business Central online, tables are compressed using Page compression by default."
+    },
+    {
+      "kind": "fact",
+      "text": "Partitioning and compression can be combined for flexible data archiving on historical partitions without CPU overhead on active parts."
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007625,
+      "pages_in_call": 7
+    }
+  ]
+}

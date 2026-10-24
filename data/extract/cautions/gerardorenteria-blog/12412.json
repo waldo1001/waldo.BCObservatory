@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12412",
+  "page_id": "post/gerardorenteria-blog/12412",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "automatically recording each navigation adds additional time, although without much impact on performance",
+      "objects": [],
+      "events": [
+        "OnOpenPageEvent",
+        "OnAfterGetCurrRecordEvent"
+      ],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003081,
+    "posts_in_call": 4
+  }
+}

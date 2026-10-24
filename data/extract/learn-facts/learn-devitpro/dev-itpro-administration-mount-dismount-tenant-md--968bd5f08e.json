@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/mount-dismount-tenant.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/mount-dismount-tenant",
+  "title": "Mount or Dismount a Tenant on a Business Central Server Instance",
+  "blob": "04f67fb433f2bd550dd97ce7335887ed24fd76b4",
+  "rule": 1,
+  "prompt_version": 1,
+  "facts": [
+    {
+      "kind": "prerequisite",
+      "text": "Server instance must be configured for multitenancy to mount and dismount tenants"
+    },
+    {
+      "kind": "step",
+      "text": "Open administration tool and verify server instance is running before mounting tenant"
+    },
+    {
+      "kind": "step",
+      "text": "Expand server instance item in left pane and select Tenants"
+    },
+    {
+      "kind": "step",
+      "text": "Choose Mount Tenant in Actions pane and fill parameters including database details"
+    },
+    {
+      "kind": "step",
+      "text": "Dismount tenant by right-clicking tenant entry and selecting Dismount Tenant"
+    },
+    {
+      "kind": "fact",
+      "text": "Mount-NAVTenant cmdlet can mount tenant without running server instance"
+    },
+    {
+      "kind": "fact",
+      "text": "Encryption keys automatically applied when specifying SQL Server authentication credentials"
+    }
+  ],
+  "dropped": 0,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005294,
+      "pages_in_call": 10
+    }
+  ]
+}

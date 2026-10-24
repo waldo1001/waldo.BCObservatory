@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:46:19.685Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -100,6 +100,32 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/GEuUFcgFZF0
+      title: Manufacturing Foundations BOM (2026)
+      label: possibly related
+      why: both name Table 5405 "Production Order"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app-semantic-model
+      title: Power BI Manufacturing app semantic model
+      label: possibly related
+      why: names Table 99000758 "Machine Center"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap
+      title: Production Scrap (Power BI report)
+      label: possibly related
+      why: names Table 99000758 "Machine Center"
+      by: code
+    - to: video/2_yYu3RgYwo
+      title: "What's New: Default Sustainability Information (2025 release wave 1)"
+      label: possibly related
+      why: both name Table 99000758 "Machine Center"
+      by: code
+    - to: video/sqjb_gsXqM8
+      title: "What's New: Supply Chain Management - overview (2026 release wave 1)"
+      label: possibly related
+      why: both name Table 5405 "Production Order"
+      by: code
 video_id: zt9_HEmPKNg
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -284,5 +310,15 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [4:24](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=264s) "Each working day has now a total capacity of 960 minutes, but effectively only 768 minutes per day"
 - [4:55](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=295s) "Once we click refresh production order, the system calculates when production must start and finish."
 - [5:19](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=319s) "Business Central uses calendar entries for scheduling your production against your capacities."
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Manufacturing Foundations BOM (2026)](../videos/GEuUFcgFZF0.md) — possibly related: both name Table 5405 "Production Order"
+- [Power BI Manufacturing app semantic model](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app-semantic-model) — possibly related: names Table 99000758 "Machine Center"
+- [Production Scrap (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap) — possibly related: names Table 99000758 "Machine Center"
+- [What's New: Default Sustainability Information (2025 release wave 1)](../videos/2_yYu3RgYwo.md) — possibly related: both name Table 99000758 "Machine Center"
+- [What's New: Supply Chain Management - overview (2026 release wave 1)](../videos/sqjb_gsXqM8.md) — possibly related: both name Table 5405 "Production Order"
 
 Presenters (as heard): Unknown narrator.

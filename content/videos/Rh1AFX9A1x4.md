@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:59:01.473Z"
   flags: []
 generated:
-  at: "2026-10-07T22:59:01.524Z"
+  at: "2026-10-24T00:06:36.600Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -95,6 +95,22 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/YX9UfUF0EsA
+      title: "Microsoft presents: Introducing M365 Copilot Chat in Business Central"
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
+    - to: video/jqVt0hYDfz0
+      title: "What's Cooking in Business Central: Delivering Analysis Views in AL Extensions"
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
+    - to: video/fJGY6d-2lO8
+      title: "What's New: Enhanced Sales Analytics (2026 release wave 1)"
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
 video_id: Rh1AFX9A1x4
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -122,6 +138,18 @@ chapters:
     title: "Developer feature: AL get URL method for analysis mode"
   - t: 713
     title: Conclusion and next steps
+cautions:
+  - kind: preview-disclaimer
+    quote: this is coming this release but it's also coming in a minor so you will have to wait a bit more so it's estimated at 26.2 or earlier
+    t: 101
+    versions:
+      - "26"
+  - kind: preview-disclaimer
+    quote: we'll get a a short disclaimer when I add fields for the first time just to make the user aware that um calculated fields are going to be removed and there's also some limitations with opening Excel regarding the number of rows
+    t: 248
+  - kind: preview-disclaimer
+    quote: do note that this feature is planned to be available after General availability of the release so right now we are looking at likely the minor update
+    t: 733
 features:
   - name: Add columns from related tables in analysis mode
     status: announced
@@ -240,5 +268,13 @@ Not found in BC28-30: page "Sales line", table "Sales head".
 - [4:08](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=248s) subject-to-change: we'll get a a short disclaimer when I add fields for the first time just to make the user aware that um calculated fields are going to be removed and there's also some limitations with opening Excel regarding the number of rows
 - [8:00](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=480s) other: the only limitations that we have with this redit H fields are that copilot assist is not just supported on them and also that calculated fields are not supported therefore they will be ignored
 - [12:13](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=733s) coming-later: do note that this feature is planned to be available after General availability of the release so right now we are looking at likely the minor update
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Microsoft presents: Introducing M365 Copilot Chat in Business Central](../videos/YX9UfUF0EsA.md) — possibly related: both name Page 9305 "Sales Order List"
+- [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../videos/jqVt0hYDfz0.md) — possibly related: both name Page 9305 "Sales Order List"
+- [What's New: Enhanced Sales Analytics (2026 release wave 1)](../videos/fJGY6d-2lO8.md) — possibly related: both name Page 9305 "Sales Order List"
 
 Presenters (as heard): Peter, Blan.

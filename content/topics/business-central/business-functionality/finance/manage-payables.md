@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:34.968Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-24T00:57:10.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -318,6 +318,7 @@ links:
     - change/bcapps/10368
     - change/bcapps/10611
     - change/bcapps/11095
+    - change/bcapps/12532
     - change/bcapps/9133
     - change/bcapps/9182
 learn_toc_path:
@@ -484,16 +485,26 @@ The section also includes pages on customer-side topics: collecting balances wit
 ## More Learn pages
 
 - [Accounts payables analytics](https://learn.microsoft.com/dynamics365/business-central/payables-reports): See which analytics options are available in Business Central so that you can keep track of your accounts payable.
+  - In the observatory: [Page 29 "Vendor Ledger Entries"](../../../../objects/page/29.md), [Page 36994 "Aged Payables (Back Dating)"](../../../../objects/page/36994.md), [Page 36996 "Detailed Vendor Ledger Entries"](../../../../objects/page/36996.md)
 - [Block vendors](https://learn.microsoft.com/dynamics365/business-central/payables-how-block-vendors): Read about how to block vendors from being included in any transactions, or just how to block new payments to them.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../objects/page/35603-ru.md)
 - [Collect outstanding balances](https://learn.microsoft.com/dynamics365/business-central/receivables-collect-outstanding-balances): Learn how to remind your customers of outstanding payments. Send a customer statement, issue a reminder, or send a finance charge memo.
+  - In the observatory: [Page 444 "Reminder/Fin. Charge Entries"](../../../../objects/page/444.md)
 - [Consolidate Balances for a Company that is a Customer and a Vendor](https://learn.microsoft.com/dynamics365/business-central/finance-consolidate-customer-vendor-balances): Describes how to consolidate balances for a customer that is also a vendor.
+  - In the observatory: [Page 256 "Payment Journal"](../../../../objects/page/256.md), [Page 26 "Vendor Card"](../../../../objects/page/26.md), [Page 5094 "Marketing Setup"](../../../../objects/page/5094.md)
 - [Handle vendor payment disputes](https://learn.microsoft.com/dynamics365/business-central/payables-how-handling-payment-disputes): Learn how to handle vendor payment disputes.
 - [Overview of tasks to manage accounts payable](https://learn.microsoft.com/dynamics365/business-central/payables-manage-payables): Outlines tasks to manage accounts payable, for example, paying creditors or applying outgoing payments to ledger entries to close invoices or credit memos.
+  - In the observatory: [Page 1290 "Payment Reconciliation Journal"](../../../../objects/page/1290.md), [Page 29 "Vendor Ledger Entries"](../../../../objects/page/29.md), [Page 5237 "Employee Ledger Entries"](../../../../objects/page/5237.md)
 - [Payment tolerance and payment discount tolerance](https://learn.microsoft.com/dynamics365/business-central/finance-payment-tolerance-and-payment-discount-tolerance): This article explains how to set up payment tolerance to close an invoice when the payment doesn't fully cover the invoice amount.
+  - In the observatory: [Page 110 "Customer Posting Groups"](../../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../../objects/page/111.md)
 - [Predict late payments for sales documents](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-late-payment-prediction): This article explains how to use our predictive model to predict whether a customer will pay an invoice on time.
+  - In the observatory: [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md)
 - [Reconcile vendor payment receipts or refunds in the payment journal](https://learn.microsoft.com/dynamics365/business-central/payables-how-apply-purchase-transactions-manually): To process, match, or reconcile vendor payments or refunds manually, you apply the amount to one or more open vendor ledger entries.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../objects/page/35603-ru.md), [Page 9309 "Purchase Credit Memos"](../../../../objects/page/9309.md)
 - [SEPA Direct Debit in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit): With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.
+  - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../objects/page/35630-ru.md), [Page 981 "Payment Registration"](../../../../objects/page/981.md)
 - [Use item charges to account for extra trade costs](https://learn.microsoft.com/dynamics365/business-central/payables-how-assign-item-charges): Use item charges to assign costs such as freight, insurance, and duties to purchases (landed cost), or non-inventoriable costs on sales shipments.
+  - In the observatory: [Page 9308 "Purchase Invoices"](../../../../objects/page/9308.md), [Report 5806 "Item Charges - Specification"](../../../../objects/report/5806.md), [Report 5848 "Cost Shares Breakdown"](../../../../objects/report/5848.md)
 
 ## Videos, posts and code changes
 
@@ -504,6 +515,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10368 Bug 614967: Skip mismatched TransferFields in posting](../../../../changes/bcapps/10368.md) (code change): "Sales and Purchase posting now skip fields with mismatched types"
 - [#10611 [main]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order](../../../../changes/bcapps/10611.md) (code change): "Posting a purchase credit memo created with Copy Document from a posted invoice"
 - [#11095 [main] Bug 649204 Validation missing for Deferral Code field on Released Purchase documents.](../../../../changes/bcapps/11095.md) (code change): "Deferral Code field on released purchase line documents now validates"
+- [#12532 [Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../../changes/bcapps/12532.md) (code change): "Dispute status is retained when users edit vendor ledger entries"
 - [#9133 [Master]-Project consumption: partial invoicing of non-inventory items posts negative adjustment value entry to wrong Item Ledger Entry](../../../../changes/bcapps/9133.md) (code change): "Partial invoicing of non-inventory items consumed on a project"
 - [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](../../../../changes/bcapps/9182.md) (code change): "Pay-to Name 2 editability aligned with other pay-to address fields"
 - [Dynamics 365 Business Central: introducing the Payables Agent.](../../../../posts/demiliani-com/12076.md) (community post): "Payables Agent automates AP workflows by retrieving vendor invoices from email and SharePoint"
