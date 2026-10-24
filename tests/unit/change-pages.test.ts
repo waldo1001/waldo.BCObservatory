@@ -1,7 +1,7 @@
 /** D61 end to end without network: fetch, extract, link, publish a change; the object page, digest, search and graph see it. */
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { existsSync, mkdtempSync, readFileSync } from "node:fs";
+import { existsSync, mkdtempSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import matter from "gray-matter";
@@ -21,6 +21,7 @@ import { pageRecord } from "../../pipeline/render/search.js";
 import { buildGraph } from "../../pipeline/link/graph.js";
 import { validateContent } from "../../pipeline/validate/content.js";
 import { snapshotFixture } from "../helpers/change-fixture.js";
+import { renderDerived, type NightlyOptions } from "../../pipeline/orchestrator/nightly.js";
 
 const now = new Date("2026-10-07T03:00:00Z");
 const REPO = "microsoft/BCApps";
@@ -148,4 +149,28 @@ test("published page, object page section, reverse index, digest, search record 
   assert.ok(g.edges.some((e) => e.type === "changes" && [e.s, e.t].includes("change/bcapps/101") && [e.s, e.t].includes("object/table/3")));
   it = { ...it, state: "published" };
   assert.ok(it);
+});
+
+// D109: the change pages render before code-pages; a snapshot that drops an object (BCApps#12443 renumbered the ES SII
+// objects) removed its page after the change page linked it. The derived block, after code-pages, renders them again.
+test("an object page removed after the change page rendered: the derived block drops the dead link (D109)", async () => {
+  const w = await world();
+  const http = gh({ 101: { title: "Payment terms: due date calculation", files: [{ filename: "src/Layers/W1/BaseApp/Foundation/PaymentTerms/PaymentTerms.Table.al", status: "modified" }] } });
+  const it = item(101, "Payment terms: due date calculation");
+  w.ctx.manifest.save(it);
+  await (changeFetched({ cacheDir: w.cacheDir, http }) as { run: StageFn }).run(it, w.ctx);
+  await (changeExtractedHandler({ cacheDir: w.cacheDir, http }, fakeLlm([])) as { batch: { run: BatchFn } }).batch.run([it], w.ctx);
+  await (changePublished() as StageFn)(it, w.ctx);
+  w.ctx.manifest.save({ ...it, state: "published" });
+  const page = join(w.contentDir, "changes/bcapps/101.md");
+  assert.deepEqual(matter(readFileSync(page, "utf8")).data.links.objects, ["object/table/3"]);
+  rmSync(join(w.contentDir, "objects/table/3.md"));
+  assert.ok(validateContent(w.contentDir, now).errors.some((e) => e.includes("changes/bcapps/101.md")), "the dead link this guards against");
+  const errors: string[] = [];
+  await renderDerived({ dataDir: w.dataDir, contentDir: w.contentDir, repoDir: w.root } as NightlyOptions, now, "2026-10-07", w.ctx.manifest, errors);
+  const fm = matter(readFileSync(page, "utf8"));
+  assert.deepEqual([fm.data.links.objects, fm.data.objects_touched[0].page], [[], null]);
+  assert.match(fm.content, /^- Table 3 "Payment Terms", Base Application: modified$/m, "named, not linked");
+  assert.equal(JSON.parse(readFileSync(changesByObjectPath(w.dataDir), "utf8"))["table/3"], undefined, "the reverse index follows");
+  assert.deepEqual(validateContent(w.contentDir, now).errors.filter((e) => e.includes("changes/")), []);
 });

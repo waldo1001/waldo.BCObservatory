@@ -1220,3 +1220,13 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   namespaced by server on every client, so D104's skill clash does not apply, and "bc" is the token people type; the
   longest plugin tool name is 60 of 64 characters. The description budget of D93 moves from 3,600 to 5,200 characters
   for eleven tools. Ships as MCP 0.10.0 and plugin 0.6.0, together with the unpublished 0.9.0 work (D106, D107).
+- **D109 Change pages render again after the object pages.** The `changes-relink` phase renders change pages before
+  `code-pages` (the object pages read the reverse index they produce, D61), and links an object only when its page
+  exists. A snapshot that drops objects then removes those pages afterwards: the nightly of 2026-10-24 took the BC30
+  snapshot past BCApps#12443 (the ES SII objects renumbered), `code-pages` removed 58 `*-es` pages, and 9 change
+  pages kept 134 dead links, which failed `validate:content` on main. The derived block (`renderDerived`, run by the
+  nightly after `code-pages` and by `--stages derive`) now starts with a `change-pages` phase: every published change
+  page is rendered again (written only when it differs, `generated.at` aside) and `changes-by-object.json` rebuilt, so a
+  removed object stays named on the change page, unlinked, and a derive on committed content heals pages a nightly left
+  behind. Consequence: change pages render twice a night (about a second for some 1,240 pages); an object page a snapshot
+  adds tonight is linked from the change pages tonight, its "Recent changes" section the next night.
