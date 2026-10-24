@@ -1198,6 +1198,18 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   Measured: phase 1 adds 4.41 MB to the Pages tar (budget 5); `npm test` 710 of 711 pass, 1 skipped; on a locally
   re-rendered tree the never-less check holds for 0 of 6 questions before the first nightly (key facts, hub lines and
   hotfix pages come from it). Spec: docs/specs/layered-answers.md.
+- **D107 brief reaches Learn by meaning as well as by words (2026-10-23, M45).** D106's never-less check found the
+  observatory reaching 5 of 16 Learn URLs the Learn MCP returned for six questions: Learn's concept pages share too few
+  words with the questions, and the D63 meaning list covers pages, not Learn rows. Now the MCP embeds the Learn rows
+  (title, summary, documented identifiers) with the D63 static model; a row counts at cosine 0.45 or more, gains 0.05
+  per query word its title, summary or identifiers hold; generated report pages lose 0.2 unless the query asks for a
+  report; a local-functionality page gains 0.1 for the country the query names and loses 0.3 for any other (or when no
+  country is named). `brief` adds up to five, labelled `(found by meaning)`; word-overlap hits are labelled
+  `(found by words)`. No model (embeddings off, offline, tests): unchanged. Measured: 11 to 8 unreachable of 16. The
+  never-less gate is a curated `must_reach` list per question; Learn's full list stays a coverage report. Rejected: the
+  meaning list alone (put French ledger pages first for a Belgian question), top three (missed "Event types" at 5th), a
+  bigger model (the MCP stays light, D63), calling the Learn MCP from the server (D96). Spec
+  `docs/specs/learn-meaning-brief.md`, PR #35; published in MCP 0.10.0 with D108.
 - **D108 The MCP routes Business Central questions to itself: bc_ tools, directive instructions, a data date, explicit
   empty and down answers, bc_status.** In a real chat, "what do you know about the Fabric mirror in the latest BC
   release?" never reached the observatory: its tools were deferred, the client finds deferred tools by keyword, and

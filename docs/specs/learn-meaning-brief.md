@@ -1,12 +1,12 @@
 ---
 issue: 34
-status: draft
+status: implemented
 ---
 
 # brief finds Learn articles by meaning
 
-Status: proposed, 2026-10-23. Decision: D107 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M45
-(reserved). Owner: waldo. Built in the same session as D106, on branch `build/layered-answers-p7` (stacked on #33),
+Status: implemented, 2026-10-23 (PR #35, merged to main in 7719dd946f, published in MCP 0.10.0 and plugin 0.6.0 with
+D108 on 2026-10-24). Decision: D107. Milestone: M45. Owner: waldo. Built in the same session as D106, on branch `build/layered-answers-p7` (stacked on #33),
 at the owner's request ("do this task here").
 Scope: `packages/mcp/src/server.ts` (Learn vectors, `learnByMeaning`), `packages/mcp/src/brief.ts` (a labelled meaning
 step), `scripts/check-never-less.ts`, tests. Every claim below was measured on 2026-10-23 with the committed Learn
@@ -95,12 +95,31 @@ Changed: `packages/mcp/src/server.ts`, `packages/mcp/src/brief.ts`, `scripts/che
 
 - [x] Tests of section 5 pass; `npm test` green.
 - [x] Measured: 11 → 8 unreachable Learn URLs of 16.
-- [ ] D107 appended to docs/DECISIONS.md; PLAN M45 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+- [ ] D107 appended to docs/DECISIONS.md (done 2026-10-24); PLAN M45 marked shipped (done); HANDOFF move waits for the D106 nightly; HANDOFF entry moved from "Open specs" to "Where
       things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
       implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
       status lines into docs/built/learn-meaning-brief.md; the PR's review moves them in (sdd-build section 4,
       sdd-review section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-23; status applied 2026-10-24)
+
+Built by hand in the D106 session on `build/layered-answers-p7`, stacked on #33, as PR #35 (merged into the stack, then
+to main with D106 in 7719dd946f). Published in MCP 0.10.0 and plugin 0.6.0 together with D108 (2026-10-24); 0.9.0 was
+never published. Checks at merge: `npm test` 712 of 713 (1 skipped), typecheck.
+
+As specified: `LEARN_MEANING_MIN = 0.45` and `LEARN_WORD_BONUS = 0.05` (`packages/mcp/src/server.ts:376,378`),
+`learnByMeaning(query, limit = 5)` (`:397`), `MEANING = 5` (`packages/mcp/src/brief.ts:40`), labels `(found by words)` and
+`(found by meaning)`. Measured: unreachable Learn URLs 11 to 8 of 16.
+
+Deviations:
+- **The never-less gate changed shape** (owner decision of 2026-10-23, section 8): each question has a curated
+  `must_reach` list in `tests/fixtures/never-less.json` (7 entries); Learn's full result list stays as a coverage
+  report, never a gate.
+- **Two curated links rode along**: `data/overrides/links.yaml` links Codeunits 1886 and 8912 to "Production and sandbox
+  environments" ("documents"), because the environment-copy precautions live there.
+- Not reached, as section 8 says: the remaining 8 URLs need the D106 nightly data, a stronger model or an owner call.
+  The HANDOFF entry stays under "Open specs" with D106's until the first nightly and `check:never-less` have run.
+
+## 13. Proposed edits to other files (applied 2026-10-24: DECISIONS D107; PLAN and HANDOFF were applied with the spec)
 
 DECISIONS D107: the text of section 3. PLAN M45 row and HANDOFF entry: applied with this spec.

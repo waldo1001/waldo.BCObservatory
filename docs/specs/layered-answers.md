@@ -1,12 +1,12 @@
 ---
 issue: 26
-status: draft
+status: implemented
 ---
 
 # Layered answers: never less than Learn, only more
 
-Status: proposed, 2026-10-23. Decision: D106 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M44
-(reserved). Owner: waldo. Built by hand in worktree `../waldo.BCObservatory-build-layered-answers` (branch
+Status: implemented, 2026-10-23 (merged to main in 7719dd946f, published in MCP 0.10.0 and plugin 0.6.0 with D108 on
+2026-10-24; the post-nightly steps of section 12 are still open). Decision: D106. Milestone: M44. Owner: waldo. Built by hand in worktree `../waldo.BCObservatory-build-layered-answers` (branch
 `build/layered-answers`), one PR per phase, on the owner's request of 2026-10-23; do not apply `spec-approved` to issue
 #26 while that branch exists.
 Scope: cross-links between objects, changes, videos, posts and Learn pages with labels; Learn key facts; cautions on
