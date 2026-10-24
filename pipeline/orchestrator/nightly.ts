@@ -535,6 +535,11 @@ const timedPhase: Phase = async (name, fn) => {
  * and objects indexes, the graph (landed.json with the week's changes). Each step reports its error and the rest go on.
  */
 export async function renderDerived(opts: NightlyOptions, now: Date, date: string, manifest: Manifest, errors: string[], phase: Phase = timedPhase): Promise<void> {
+  // D109: change pages again, after code-pages: they link the object pages that existed when they rendered, and a
+  // snapshot that drops objects (renumbered, removed) leaves those links dead; the indexes below read these pages
+  await phase("change-pages", async () => {
+    try { rerenderChangePages(manifest, { dataDir: opts.dataDir, contentDir: contentDirOf(opts), now: () => now }); renderChangesByObject(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`change pages: ${(e as Error).message.slice(0, 200)}`); }
+  });
   await phase("digests", async () => {
     try {
       const order = loadConfig<{ narrative_order: string[] }>("versions").narrative_order;
