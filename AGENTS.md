@@ -31,7 +31,7 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
    Support hotfix lists, one page per update, each entry anchored by its ID, D106). Lookups: `data/index/pages-*.json` +
    `index-manifest.json` (every page's metadata), `data/index/docs-objects.json` (Learn page <-> object by exact id),
    `data/code/drift.json`, `data/graph/` (the galaxy; `landed.json` also lists the week's code changes, D80). The MCP server (`packages/mcp`, `npx bc-observatory`) serves
-   exactly these: search, brief, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback; brief
+   exactly these as bc_ tools (D108): bc_search, bc_brief, bc_ls, bc_cat, bc_get_object, bc_diff_object, bc_localization, bc_whats_new, bc_blog_footprint, bc_feedback, plus bc_status for health; brief
    answers in five layers (Learn with key facts, code, what changed, heads up, gaps), search groups its hits by layer (D106); search
    covers fields, events and procedures (`data/index/symbols-*.json`, D86) and ranks like the site's own search; sort: 'date' lists the matches newest first (D101); a page over 30,000 characters
    comes back compact, and `section`, `offset` and `limit` read one section (D93). Procedure

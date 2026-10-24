@@ -248,7 +248,7 @@ export function compactView(md: string, path: string, budget: number): string {
   const out: string[] = [];
   if (md.startsWith("---\n") && p.frontmatter !== "") out.push("---", compactFrontmatter(p.frontmatter), "---", "");
   if (p.preamble) out.push(p.preamble, "");
-  out.push(`Compact view: this page is ${fmt(md.length)} characters and one answer holds ${fmt(budget)}, so each section shows its first ${PREVIEW_ROWS} rows. Sections: ${keyList(p, true)}. Read one with cat("${path}", section: "<key>"); offset and limit page through a long one.`, "");
+  out.push(`Compact view: this page is ${fmt(md.length)} characters and one answer holds ${fmt(budget)}, so each section shows its first ${PREVIEW_ROWS} rows. Sections: ${keyList(p, true)}. Read one with bc_cat("${path}", section: "<key>"); offset and limit page through a long one.`, "");
   for (const s of p.sections) {
     out.push(`## ${s.heading}`);
     const more = `… (section: "${s.key}")`;
@@ -266,7 +266,7 @@ export function compactView(md: string, path: string, budget: number): string {
         table = t;
         out.push(clip(r.lines[0], ROW_CLIP));
       }
-      if (s.rows.length > PREVIEW_ROWS) out.push(`→ ${s.rows.length - PREVIEW_ROWS} more of ${s.rows.length}: cat("${path}", section: "${s.key}", offset: ${PREVIEW_ROWS})`);
+      if (s.rows.length > PREVIEW_ROWS) out.push(`→ ${s.rows.length - PREVIEW_ROWS} more of ${s.rows.length}: bc_cat("${path}", section: "${s.key}", offset: ${PREVIEW_ROWS})`);
       else {
         const text = s.tail.filter((l) => !blank(l)).join("\n");
         if (text) out.push(clip(text, PROSE_CLIP, more));
@@ -323,11 +323,11 @@ export function sectionView(md: string, path: string, want: string, offset: numb
     b = r + 1;
   }
   const rows = `Rows ${off + 1}-${b} of ${n}.`;
-  if (b < n) return nl([...out, "", `${rows} Next: cat("${path}", section: "${s.key}", offset: ${b})`]);
+  if (b < n) return nl([...out, "", `${rows} Next: bc_cat("${path}", section: "${s.key}", offset: ${b})`]);
   if (!tail.length) return nl([...out, "", rows]);
   const withTail = nl([...out, "", ...tail, "", rows]);
   if (limit === undefined && withTail.length <= budget) return withTail;
-  return nl([...out, "", `${rows} The section's closing text: cat("${path}", section: "${s.key}", offset: ${n})`]);
+  return nl([...out, "", `${rows} The section's closing text: bc_cat("${path}", section: "${s.key}", offset: ${n})`]);
 }
 
 const ANCHOR_SECTION: Record<string, [string, string]> = { field: ["fields", "field"], value: ["values", "value"], event: ["events", "event"], proc: ["procedures", "procedure"] };
@@ -355,7 +355,7 @@ export function pageView(md: string, path: string, a: ViewArgs, budget: number, 
   }
   if (a.section !== undefined && a.section.trim() !== "") return sectionView(md, path, a.section, a.offset, a.limit, budget, site);
   if (a.offset !== undefined || a.limit !== undefined) {
-    return `offset and limit read one section: cat("${path}", section: "<key>", offset: ${a.offset ?? 0}). Sections: ${keyList(parsePage(md))}.`;
+    return `offset and limit read one section: bc_cat("${path}", section: "<key>", offset: ${a.offset ?? 0}). Sections: ${keyList(parsePage(md))}.`;
   }
   if (md.length <= budget) return md;
   return compactView(md, path, budget);

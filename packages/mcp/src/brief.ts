@@ -67,7 +67,7 @@ export async function brief(a: BriefArgs, d: BriefDeps): Promise<string> {
   const how = new Map<PageRecord, string>();
   if (a.path) {
     const r = d.record(a.path.replace(/^\/+|\/+$|\.md$/g, ""));
-    if (!r) return `No page at ${a.path}. search() finds the path.`;
+    if (!r) return `No page at ${a.path}. bc_search finds the path.`;
     seeds.push(r);
   } else {
     const per = new Map<Layer, number>();
@@ -92,7 +92,7 @@ export async function brief(a: BriefArgs, d: BriefDeps): Promise<string> {
     // and the ones nearest by meaning (D107): what Learn's own search finds for a question in other words
     let byMeaning = 0;
     for (const r of (await d.learnByMeaning?.(subject)) ?? []) if (byMeaning < MEANING && !learnHits.includes(r)) { learnHits.push(r); how.set(r, " (found by meaning)"); byMeaning++; }
-    if (!seeds.length && !learnHits.length) return `Nothing found for "${subject}". Try fewer words, or search() to see what there is.`;
+    if (!seeds.length && !learnHits.length) return `Nothing found for "${subject}". Try fewer words, or bc_search to see what there is.`;
   }
   const facts = await d.learnFacts();
   const md = new Map<string, string>();
@@ -166,7 +166,7 @@ export async function brief(a: BriefArgs, d: BriefDeps): Promise<string> {
   const uniq = (xs: string[]) => [...new Set(xs)];
   const block = (h: string, xs: string[], none: string) => [`## ${h}`, ...(xs.length ? uniq(xs) : [none]), ""];
   const out = [`# Brief: ${subject}`, "",
-    "Five layers, each line with its tier and source; Learn first, then the code, what changed, warnings, and what no source says. cat(path) opens a page, a Learn url reads with microsoft_docs_fetch.", "",
+    "Five layers, each line with its tier and source; Learn first, then the code, what changed, warnings, and what no source says. bc_cat(path) opens a page, a Learn url reads with microsoft_docs_fetch.", "",
     ...block("How it works (Learn)", learn, "- (no Learn page found)"),
     ...block("In the code", code, "- (no object page found)"),
     ...block("Changed lately", changes, "- (no code change, release or hotfix found)"),

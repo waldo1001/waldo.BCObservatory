@@ -27,7 +27,7 @@ test("countryBlock: the owner's title is optional, a layer that adds nothing say
   const lines = countryBlock({ key: "codeunit/9998", name: "Upgrade Tag Definitions", change: "replaced", procedures: many }, "be", "29").split("\n");
   assert.match(lines[0], /\+55 procedures\.$/);
   assert.equal(lines[1].split("; ").length, BLOCK_MEMBERS, "40 members shown");
-  assert.equal(lines[2], '... and 15 more: localization("BE", section: "w1_objects_this_country_changes")');
+  assert.equal(lines[2], '... and 15 more: bc_localization("BE", section: "w1_objects_this_country_changes")');
 });
 
 test("replacedInLine: alphabetical, counts where a layer adds members, bare codes where it adds none", () => {

@@ -20,18 +20,19 @@ export const COPILOT_PLUGIN_CMD = "copilot plugin install waldo1001/waldo.BCObse
 export const ATLAS_URL = "https://bc-code-atlas.stefanmaron.dev/mcp";
 export const LEARN_URL = "https://learn.microsoft.com/api/mcp";
 
-/** The ten tools, in the server's order (packages/mcp/src/server.ts registerTool), each with the ask it answers. */
+/** The eleven tools (D108: bc_ names, so a client that finds deferred tools by keyword finds them), in the server's order (packages/mcp/src/server.ts registerTool), each with the ask it answers. */
 export const TOOLS: Tool[] = [
-  { name: "search", title: "Search the knowledge base", what: "Every page by title, AL object name and caption, summary and tags, plus fields, events and procedures, ranked like the site's search (t36, cu 80, plurals, one typo, synonyms); hybrid (keywords plus meaning), so a paraphrase still finds the page. A symbol ranks where its owner ranks; a kind: query that finds nothing says so and names the nearest symbols. Filter by type, tier, galaxy system, country, app, object type or kind.", example: "search('posting preview')" },
-  { name: "brief", title: "One answer in layers", what: "A question or a page answered in five layers, each line with its tier and source: how it works on Learn (with key facts), the AL objects, what changed lately (code changes, AL releases, hotfix lists), heads up (warnings scoped to the object and version they apply to) and the gaps no source fills; differing status statements side by side.", example: "brief('environment copy cleanup')" },
-  { name: "ls", title: "List pages", what: "Browse the page tree; an empty path lists the sections.", example: "ls('objects/table')" },
-  { name: "cat", title: "Read a page", what: "A page's markdown: frontmatter with evidence and links, then the body. A long page comes back compact with its section keys; section, offset and limit read one part, and a symbol's path returns just that member.", example: "cat('localizations/be')" },
-  { name: "get_object", title: "Look up an AL object", what: "An object of W1, a first-party app or a country layer by type and id, reference, name or caption: fields, keys, events, public procedures, obsolete state, versions, countries that replace it, Learn pages; a country layer that replaces a W1 object prints what it adds before the page. A large object comes back compact; read one section with section, offset and limit. counts.procedures in the frontmatter counts every procedure; the summary's 'public procedures' excludes locals and events.", example: "get_object('table', '18')" },
-  { name: "diff_object", title: "What changed in an object", what: "Member-level changes of a W1 object between two consecutive versions: fields, events, procedures, keys, properties, obsolete state.", example: "diff_object('codeunit', 'Sales-Post', '29', '30')" },
-  { name: "localization", title: "A country localization", what: "What a country layer adds to or changes in W1, with its Learn local functionality hub. Large countries come back compact, as with cat.", example: "localization('BE')" },
-  { name: "whats_new", title: "What is new", what: "Videos, posts, roadmap features, AL extension releases and code changes (merged pull requests) dated on or after a date and up to today, newest first.", example: "whats_new('2026-10-01')" },
-  { name: "blog_footprint", title: "A source's footprint", what: "What a blog or channel covers: its posts or videos and the systems they touch.", example: "blog_footprint('kauffmann-nl')" },
-  { name: "feedback", title: "Report a problem with a page", what: "A prefilled GitHub issue link for a page (wrong fact, missing evidence, broken link). Nothing is sent by the agent.", example: "feedback('objects/table/18', 'field 7 is wrong')" },
+  { name: "bc_search", title: "Search the knowledge base", what: "Every page by title, AL object name and caption, summary and tags, plus fields, events and procedures, ranked like the site's search (t36, cu 80, plurals, one typo, synonyms); hybrid (keywords plus meaning), so a paraphrase still finds the page. A symbol ranks where its owner ranks; a kind: query that finds nothing says so and names the nearest symbols. Filter by type, tier, galaxy system, country, app, object type or kind.", example: "bc_search('posting preview')" },
+  { name: "bc_brief", title: "One answer in layers", what: "A question or a page answered in five layers, each line with its tier and source: how it works on Learn (with key facts), the AL objects, what changed lately (code changes, AL releases, hotfix lists), heads up (warnings scoped to the object and version they apply to) and the gaps no source fills; differing status statements side by side.", example: "bc_brief('environment copy cleanup')" },
+  { name: "bc_ls", title: "List pages", what: "Browse the page tree; an empty path lists the sections.", example: "bc_ls('objects/table')" },
+  { name: "bc_cat", title: "Read a page", what: "A page's markdown: frontmatter with evidence and links, then the body. A long page comes back compact with its section keys; section, offset and limit read one part, and a symbol's path returns just that member.", example: "bc_cat('localizations/be')" },
+  { name: "bc_get_object", title: "Look up an AL object", what: "An object of W1, a first-party app or a country layer by type and id, reference, name or caption: fields, keys, events, public procedures, obsolete state, versions, countries that replace it, Learn pages; a country layer that replaces a W1 object prints what it adds before the page. A large object comes back compact; read one section with section, offset and limit. counts.procedures in the frontmatter counts every procedure; the summary's 'public procedures' excludes locals and events.", example: "bc_get_object('table', '18')" },
+  { name: "bc_diff_object", title: "What changed in an object", what: "Member-level changes of a W1 object between two consecutive versions: fields, events, procedures, keys, properties, obsolete state.", example: "bc_diff_object('codeunit', 'Sales-Post', '29', '30')" },
+  { name: "bc_localization", title: "A country localization", what: "What a country layer adds to or changes in W1, with its Learn local functionality hub. Large countries come back compact, as with bc_cat.", example: "bc_localization('BE')" },
+  { name: "bc_whats_new", title: "What is new", what: "Videos, posts, roadmap features, AL extension releases and code changes (merged pull requests) dated on or after a date and up to today, newest first.", example: "bc_whats_new('2026-10-01')" },
+  { name: "bc_blog_footprint", title: "A source's footprint", what: "What a blog or channel covers: its posts or videos and the systems they touch.", example: "bc_blog_footprint('kauffmann-nl')" },
+  { name: "bc_feedback", title: "Report a problem with a page", what: "A prefilled GitHub issue link for a page (wrong fact, missing evidence, broken link). Nothing is sent by the agent.", example: "bc_feedback('objects/table/18', 'field 7 is wrong')" },
+  { name: "bc_status", title: "Is it up", what: "Server version, whether the data is reachable, page counts by type, the code index version and when the data was last deployed. Tells 'the Observatory is down' from 'it has no answer'.", example: "bc_status()" },
 ];
 
 /** The plugin's skills (plugin/skills/<name>/SKILL.md), one line each, from their descriptions. */
@@ -51,12 +52,13 @@ export const PLUGIN_SERVERS: PluginServer[] = [
 
 /** What to type once it is installed, and what the agent reaches for. */
 export const ASKS: Ask[] = [
-  { ask: "What is on table 18, and which fields are obsolete?", via: "get_object" },
-  { ask: "What changed in codeunit Sales-Post between BC29 and BC30?", via: "diff_object" },
-  { ask: "What does the Belgian localization change in W1?", via: "localization" },
-  { ask: "What is new in Business Central since last Monday?", via: "whats_new" },
-  { ask: "Where is posting preview documented, and who blogged about it?", via: "search, cat" },
-  { ask: "What does kauffmann-nl write about?", via: "blog_footprint" },
+  { ask: "What do you know about Fabric mirroring in the latest BC release?", via: "bc_search" },
+  { ask: "What is on table 18, and which fields are obsolete?", via: "bc_get_object" },
+  { ask: "What changed in codeunit Sales-Post between BC29 and BC30?", via: "bc_diff_object" },
+  { ask: "What does the Belgian localization change in W1?", via: "bc_localization" },
+  { ask: "What is new in Business Central since last Monday?", via: "bc_whats_new" },
+  { ask: "Where is posting preview documented, and who blogged about it?", via: "bc_search, bc_cat" },
+  { ask: "What does kauffmann-nl write about?", via: "bc_blog_footprint" },
   { ask: "Show me the body of Sales-Post.PostInvoice and what it calls.", via: "bc-code-atlas via the plugin" },
   { ask: "Walk me through setting up intercompany partners.", via: "bc-observatory finds the page and Microsoft Learn MCP reads it" },
 ];
@@ -65,7 +67,7 @@ export function installSteps(repo: string): InstallStep[] {
   return [
     { client: "Claude Code: the plugin (server, four skills, bc-code-atlas, Microsoft Learn MCP)", how: "Two commands: the first adds the marketplace, the second installs the plugin. The plugin registers the MCP server, the bc-code-atlas server and Microsoft's Learn MCP server and ships the four skills.", code: `${PLUGIN_CMD}\n${PLUGIN_INSTALL_CMD}`, lang: "bash" },
     { client: "GitHub Copilot CLI: the plugin (server, four skills, bc-code-atlas, Microsoft Learn MCP)", how: "The same plugin, installed from its folder in the repository. Copilot CLI reads the Claude Code manifest as it is. A plugin installed in Copilot CLI is not available in the VS Code Copilot Chat panel; use the VS Code step below for that.", code: COPILOT_PLUGIN_CMD, lang: "bash" },
-    { client: "Claude Code: the server only", how: "No skills, no atlas: just the ten tools.", code: SERVER_CMD, lang: "bash" },
+    { client: "Claude Code: the server only", how: "No skills, no atlas: just the eleven tools.", code: SERVER_CMD, lang: "bash" },
     { client: "Claude Desktop, Cursor, Windsurf and other MCP clients", how: "Add the server to the client's MCP configuration (claude_desktop_config.json, .cursor/mcp.json, ...).", code: JSON.stringify({ mcpServers: { "bc-observatory": { command: "npx", args: ["-y", "bc-observatory@latest"] } } }, null, 2), lang: "json" },
     { client: "VS Code (GitHub Copilot)", how: "In .vscode/mcp.json of the workspace, or the user profile's mcp.json.", code: JSON.stringify({ servers: { "bc-observatory": { type: "stdio", command: "npx", args: ["-y", "bc-observatory@latest"] }, "bc-code-atlas": { type: "http", url: ATLAS_URL }, "microsoft-learn": { type: "http", url: LEARN_URL } } }, null, 2), lang: "json" },
     { client: "From a checkout of the repository", how: "Reads every page from disk instead of the site; for working on the knowledge base itself.", code: `git clone ${repo}.git && cd waldo.BCObservatory && npm ci\nclaude mcp add bc-observatory -- env BC_OBSERVATORY_LOCAL=$PWD node --import tsx packages/mcp/src/server.ts`, lang: "bash" },

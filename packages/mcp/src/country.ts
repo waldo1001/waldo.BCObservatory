@@ -125,7 +125,7 @@ export function countryBlock(o: DiffObject, cc: string, major: string, opts: { t
     room -= shown.length; more += items.length - shown.length;
     if (shown.length) out.push(`${label}: ${shown.join("; ")}`);
   }
-  if (more) out.push(`... and ${more} more: localization("${C}", section: "w1_objects_this_country_changes")`);
+  if (more) out.push(`... and ${more} more: bc_localization("${C}", section: "w1_objects_this_country_changes")`);
   out.push(`Source: data/code/diffs/country/${major}-${cc.toLowerCase()}.json; the ${C} page: localizations/${cc.toLowerCase()}.`);
   return out.join("\n");
 }

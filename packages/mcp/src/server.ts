@@ -7,7 +7,10 @@
  * BC_OBSERVATORY_LOCAL=<repo checkout> to read content/ and data/ from disk instead (offline, tests), or
  * BC_OBSERVATORY_SITE to point at another deployment.
  *
- * Tools: search, brief, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback. brief (D106)
+ * Tools (D108: bc_ names, so a client that finds deferred tools by keyword finds them for Business Central questions): bc_search,
+ * bc_brief, bc_ls, bc_cat, bc_get_object, bc_diff_object, bc_localization, bc_whats_new, bc_blog_footprint, bc_feedback, bc_status.
+ * Every data answer ends with its data date; an empty one says so (NO_MATCH); a data source that does not answer is an error
+ * that says "unreachable" (D108). brief (D106)
  * answers in five layers (Learn, code, changes, heads up, gaps) from the keyword hits and the pages they lead to.
  * Long pages come back compact (sections.ts, D93): over BC_OBSERVATORY_MAX_CHARS (30,000; 0 = no limit), cat, get_object
  * and localization answer with the frontmatter, the section keys and the first rows; section, offset and limit read one.
@@ -21,7 +24,7 @@
  * model, search is keyword-only.
  */
 import { createHash } from "node:crypto";
-import { existsSync, mkdirSync, readFileSync, realpathSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, realpathSync, statSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -37,7 +40,7 @@ import { countryBlock, memberAnswer, parseAnchor, replacedInLine, type DiffObjec
 import { DEFAULT_BUDGET, anchorView, budgetOf, pageView, type ViewArgs } from "./sections.js";
 import { brief } from "./brief.js";
 
-const VERSION = "0.9.0";
+const VERSION = "0.10.0";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 /** One answer's characters (D93): a longer page comes back compact; B is how the descriptions say it. */
@@ -45,9 +48,18 @@ const BUDGET = budgetOf(process.env.BC_OBSERVATORY_MAX_CHARS);
 const B = (Number.isFinite(BUDGET) ? BUDGET : DEFAULT_BUDGET).toLocaleString("en-US");
 const REPO = "https://github.com/waldo1001/waldo.BCObservatory";
 const DAY = 86_400_000;
+/** D108: the majors the code pillar snapshots in full and the range of its version diffs; a test checks both against
+ * config/versions.json and data/code/diffs/version/. */
+export const SNAPSHOT_MAJORS = ["28", "29", "30"], DIFF_RANGE = ["23", "30"] as const;
+const VNEXT = SNAPSHOT_MAJORS.at(-1)!;
+/** D108: the last line of an answer that found nothing, so a client falls back on purpose and says so. */
+export const NO_MATCH = "No match in the Observatory. Try Microsoft Learn or web search, and tell the user the Observatory had no answer.";
+export const COVERAGE = `covers BC ${SNAPSHOT_MAJORS.join(", ")} (${VNEXT} is vNext) AL objects, version diffs BC ${DIFF_RANGE[0]} to ${DIFF_RANGE[1]}`;
+/** The page types the nightly adds; the newest of their dates (up to today) is the data date of D108. */
+const NEWS_TYPES = new Set(["change", "video", "post", "release", "digest", "hotfix"]);
 
 export type { PageRecord };
-interface IndexManifest { schema: string; pages: number; shards: { file: string; count: number; sha256: string; kind?: string }[]; learn?: { file: string; count: number; sha256: string }; learn_facts?: { file: string; count: number; sha256: string } }
+interface IndexManifest { schema: string; pages: number; by_type?: Record<string, number>; shards: { file: string; count: number; sha256: string; kind?: string }[]; learn?: { file: string; count: number; sha256: string }; learn_facts?: { file: string; count: number; sha256: string } }
 
 // ---------------------------------------------------------------------------------------------- data access
 
@@ -76,6 +88,8 @@ async function pageMarkdown(path: string): Promise<string> {
 let pages: PageRecord[] = [];
 let index: Index | null = null;
 let loadedAt = 0;
+/** D108: the data date every answer ends with: the site's last deploy, else the newest nightly item up to today. */
+let dataDate: string | null = null, newestItem: string | null = null;
 /** The major the symbols index (and with it the country diffs of D95) is built for. */
 let symbolsMajor: string | null = null;
 
@@ -108,6 +122,10 @@ async function loadIndex(): Promise<void> {
   if (!LOCAL) mkdirSync(cacheDir, { recursive: true });
   for (const s of manifest.shards) all.push(...(JSON.parse(await shard(s.file, s.sha256)) as PageRecord[]));
   pages = all;
+  const today = new Date().toISOString().slice(0, 10);
+  newestItem = all.reduce<string | null>((d, p) => (p.date && NEWS_TYPES.has(p.type) && p.date <= today && (!d || p.date > d) ? p.date.slice(0, 10) : d), null);
+  // the day the site last deployed (every nightly deploys, quiet or not); locally, and when the header is missing, the newest item
+  dataDate = (LOCAL ? null : (await lastDeployed())?.slice(0, 10)) ?? newestItem;
   learnFactsRef = manifest.learn_facts;
   const idx = prepare(all.map(pageToRecord));
   // D94: the Learn articles, searchable but not pages here (ls, whats_new and the meaning ranking read `pages` only)
@@ -132,7 +150,7 @@ async function loadIndex(): Promise<void> {
   loadedAt = Date.now();
   countryDiffs.clear();
 }
-interface SymbolsManifest { major: string; kinds: Record<SymbolShard, { file?: string; files?: string[]; sha256: string; count: number }> }
+interface SymbolsManifest { major: string; commit?: string; built_at?: string; kinds: Record<SymbolShard, { file?: string; files?: string[]; sha256: string; count: number }> }
 
 // ---------------------------------------------------------------------------------------------- country diffs (D95)
 
@@ -291,22 +309,22 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   const filters = (["type", "tier", "system", "country", "app", "object_type"] as const).filter((k) => a[k]?.trim()).map((k) => `${k}=${a[k]!.trim()}`).join(", ");
   const unfiltered = kind && !hits.length && filters ? rank(index!, q, { filter: (r) => r.kind === kind }) : undefined;
   const hs = hints(index!, q, hits as Hit[], { kind, unfiltered, filters, keep }).filter((h) => !hits.length || hits[0].s < 6 || q.question || !!q.ref || /: no page; /.test(h.text));
-  const hintText = hs.length ? `\n${hs.map((h) => `Hint: ${h.text}${h.query ? ` (search "${h.query}")` : h.path ? ` (cat("${h.path}"))` : ""}`).join("\n")}` : "";
+  const hintText = hs.length ? `\n${hs.map((h) => `Hint: ${h.text}${h.query ? ` (bc_search "${h.query}")` : h.path ? ` (bc_cat("${h.path}"))` : ""}`).join("\n")}` : "";
   // a kind: query with no hit: the hint ("No event named ...", the nearest names) is the answer
   if (!shown.length && kind && /^No \w+ named /.test(hs[0]?.text ?? "")) {
-    const [first, ...more] = hs, via = (h: (typeof hs)[number]) => (h.query ? ` (search "${h.query}")` : h.path ? ` (cat("${h.path}"))` : "");
-    return `${first.text}${via(first)}${note}${more.map((h) => `\nHint: ${h.text}${via(h)}`).join("")}`;
+    const [first, ...more] = hs, via = (h: (typeof hs)[number]) => (h.query ? ` (bc_search "${h.query}")` : h.path ? ` (bc_cat("${h.path}"))` : "");
+    return `${first.text}${via(first)}${note}${more.map((h) => `\nHint: ${h.text}${via(h)}`).join("")}\n${NO_MATCH}`;
   }
-  if (!shown.length) return `No pages match "${a.query}". Try fewer words, or ls("") to browse sections.${note}${hintText}`;
+  if (!shown.length) return `No pages match "${a.query}". Try fewer words, or bc_ls("") to browse sections.${note}${hintText}\n${NO_MATCH}`;
   const how = byDay ? "keyword, newest first" : semantic.length && keyword.length && mode === "hybrid" ? "keyword + meaning" : mode === "semantic" && semantic.length ? "meaning" : "keyword";
   if (byDay && mode === "semantic") note = ` (sort "date" orders the keyword matches; mode "semantic" ignored)`;
-  const learnNote = shown.some((r) => r.type === "learn") ? "; a Learn article's url reads with the Learn MCP's microsoft_docs_fetch (the plugin connects it), else open it on learn.microsoft.com; cat(hub) reads its hub" : "";
+  const learnNote = shown.some((r) => r.type === "learn") ? "; a Learn article's url reads with the Learn MCP's microsoft_docs_fetch (the plugin connects it), else open it on learn.microsoft.com; bc_cat(hub) reads its hub" : "";
   // an empty keyword list says so: the hits are by meaning only (D95)
   // D106: grouped by layer; a Learn article in the exact band (its title is covered by the query) leads
   const learnFirst = hits.some((h) => h.band === "exact" && h.r.type === "learn" && shown.includes(h.r));
   const body = groupLines(shown, (r) => hitLine(r, tag(uid(r))), learnFirst);
-  if (mode === "hybrid" && !keyword.length && semantic.length) return `No keyword match for "${a.query}"; ${shown.length} pages by meaning only (read one with cat(path)${learnNote}):\n${body}${hintText}`;
-  return `${shown.length} results, ${how}${note}${how === "keyword + meaning" ? ` (exact band: ${exactBand})` : ""} (read one with cat(path)${learnNote}):\n${body}${hintText}`;
+  if (mode === "hybrid" && !keyword.length && semantic.length) return `No keyword match for "${a.query}"; ${shown.length} pages by meaning only (read one with bc_cat(path)${learnNote}):\n${body}${hintText}`;
+  return `${shown.length} results, ${how}${note}${how === "keyword + meaning" ? ` (exact band: ${exactBand})` : ""} (read one with bc_cat(path)${learnNote}):\n${body}${hintText}`;
 }
 
 /** D106: the search result's layer, the brief's order (Learn, code, changes, community and videos, other). */
@@ -404,7 +422,7 @@ export async function learnByMeaning(query: string, limit = 5): Promise<PageReco
 export async function toolBrief(a: { query?: string; path?: string }): Promise<string> {
   await loadIndex();
   const byPath = new Map(pages.map((p) => [p.path, p]));
-  return brief(a, {
+  const out = await brief(a, {
     hits: (query) => rank(index!, parseQuery(query, { countries: countriesOf(index!) }), {}).slice(0, 60).map((h) => h.r),
     record: (path) => byPath.get(path),
     page: async (path) => { try { return await pageMarkdown(path); } catch { return null; } },
@@ -412,13 +430,14 @@ export async function toolBrief(a: { query?: string; path?: string }): Promise<s
     learnByWords: (query) => learnByWords(query),
     learnByMeaning: (query) => learnByMeaning(query),
   });
+  return /^(No page at|Nothing found for) /.test(out) ? `${out}\n${NO_MATCH}` : out;
 }
 
 export async function toolLs(a: { path?: string }): Promise<string> {
   await loadIndex();
   const prefix = (a.path ?? "").replace(/^\/+|\/+$/g, "");
   const under = pages.filter((p) => !prefix || p.path === prefix || p.path.startsWith(`${prefix}/`));
-  if (!under.length) return `Nothing under "${prefix}". Sections: ${[...new Set(pages.map((p) => p.path.split("/")[0]))].sort().join(", ")}.`;
+  if (!under.length) return `Nothing under "${prefix}". Sections: ${[...new Set(pages.map((p) => p.path.split("/")[0]))].sort().join(", ")}.\n${NO_MATCH}`;
   const depth = prefix ? prefix.split("/").length : 0;
   const dirs = new Map<string, number>(), files: PageRecord[] = [];
   for (const p of under) {
@@ -428,7 +447,7 @@ export async function toolLs(a: { path?: string }): Promise<string> {
   }
   const MAX = 200;
   const out = [...[...dirs].sort().map(([d, n]) => `${d}/ (${n} pages)`), ...files.slice(0, MAX).map((f) => `${f.path}: ${f.title}`)];
-  return `${out.join("\n")}${files.length > MAX ? `\n... and ${files.length - MAX} more pages; use search() to narrow down` : ""}`;
+  return `${out.join("\n")}${files.length > MAX ? `\n... and ${files.length - MAX} more pages; use bc_search() to narrow down` : ""}`;
 }
 
 export async function toolCat(a: { path: string } & ViewArgs): Promise<string> {
@@ -444,7 +463,7 @@ export async function toolCat(a: { path: string } & ViewArgs): Promise<string> {
   return pageView(md, clean, a, BUDGET, SITE);
 }
 
-/** `cat("objects/table/18#field-11310")` for a member only a country layer has: one answer per layer that adds it (CA, MX and US can share an id). */
+/** `bc_cat("objects/table/18#field-11310")` for a member only a country layer has: one answer per layer that adds it (CA, MX and US can share an id). */
 async function layerMember(path: string, anchor: string): Promise<string | null> {
   const want = parseAnchor(anchor), major = diffMajor();
   if (!want || !major) return null;
@@ -497,7 +516,7 @@ export async function toolGetObject(a: { type: string; idOrName: string; country
         const replaced = major ? await replacedBy(major, country, key) : null;
         note = replaced && major ? `${countryBlock(replaced, country, major, { title: pick[0].title })}\n\n` : `(${country.toUpperCase()} has no ${type} of its own here; the W1 ${type} applies.)\n\n`;
       }
-      let also = !country && twins.length ? `\n\n(Also in ${twins.join(", ")}: get_object("${type}", "${pick[0].objectId ?? pick[0].name}", country).)` : "";
+      let also = !country && twins.length ? `\n\n(Also in ${twins.join(", ")}: bc_get_object("${type}", "${pick[0].objectId ?? pick[0].name}", country).)` : "";
       if (!country && !pick[0].country && major && !a.section) {
         const layers = (await Promise.all(countriesOf(index!).map(async (cc) => ({ cc, object: await replacedBy(major, cc, key) })))).filter((l): l is { cc: string; object: DiffObject } => !!l.object);
         const line = replacedInLine(layers);
@@ -505,16 +524,16 @@ export async function toolGetObject(a: { type: string; idOrName: string; country
       }
       return `${note}${pageView(await pageMarkdown(pick[0].id), pick[0].id, a, BUDGET, SITE)}${a.section ? "" : also}`;
     }
-    if (pick.length > 1) return `${pick.length} ${type} objects match "${a.idOrName}"; read one with cat(path):\n${pick.map((r) => `- ${r.title} path=${r.id}`).join("\n")}`;
+    if (pick.length > 1) return `${pick.length} ${type} objects match "${a.idOrName}"; read one with bc_cat(path):\n${pick.map((r) => `- ${r.title} path=${r.id}`).join("\n")}`;
   }
-  return `No ${type} "${a.idOrName}" in W1, Microsoft's first-party apps or the country layers (BC28-30). Never invent object ids; search("${want}") lists near names.`;
+  return `No ${type} "${a.idOrName}" in W1, Microsoft's first-party apps or the country layers (BC ${SNAPSHOT_MAJORS.join(", ")}). Never invent object ids; bc_search("${want}") lists near names.\n${NO_MATCH}`;
 }
 
 export async function toolDiffObject(a: { type: string; id: string; from: string; to: string }): Promise<string> {
   const key = `${a.type.toLowerCase()}/${a.id.toLowerCase()}`;
   let diff: any;
   try { diff = JSON.parse(await dataFile(`code/diffs/version/${a.from}__${a.to}.json`)); } catch {
-    return `No version diff ${a.from} -> ${a.to}. Diffs exist between consecutive majors from BC23 to BC30 (23 -> 24, ..., 29 -> 30); a changed member lists only what differs, as [from, to].`;
+    return `No version diff ${a.from} -> ${a.to}. Diffs exist between consecutive majors from BC${DIFF_RANGE[0]} to BC${DIFF_RANGE[1]} (${DIFF_RANGE[0]} -> ${Number(DIFF_RANGE[0]) + 1}, ..., ${Number(DIFF_RANGE[1]) - 1} -> ${DIFF_RANGE[1]}); a changed member lists only what differs, as [from, to].\n${NO_MATCH}`;
   }
   const o = (diff.objects as any[]).find((x) => x.key === key);
   if (!o) return `${key} did not change between BC${a.from} and BC${a.to} (or is not a W1 object).`;
@@ -534,14 +553,14 @@ export async function toolWhatsNew(a: { since: string; type?: string; limit?: nu
   const future = dated.filter((p) => p.date! > today);
   const items = (a.include_future ? dated : dated.filter((p) => p.date! <= today)).sort((x, y) => y.date!.localeCompare(x.date!)).slice(0, a.limit ?? 30);
   const tail = !a.include_future && future.length ? `\n${future.length} roadmap ${future.length === 1 ? "feature" : "features"} scheduled after today: pass include_future: true` : "";
-  if (!items.length) return `Nothing dated on or after ${since}${a.include_future ? "" : ` up to today (${today})`}.${tail}`;
+  if (!items.length) return `Nothing dated on or after ${since}${a.include_future ? "" : ` up to today (${today})`}.${tail}\n${NO_MATCH}`;
   return `${items.length} items since ${since}, newest first:\n${items.map((p) => line(p)).join("\n")}${tail}`;
 }
 
 export async function toolBlogFootprint(a: { source: string }): Promise<string> {
   await loadIndex();
   const items = pages.filter((p) => p.source === a.source).sort((x, y) => (y.date ?? "").localeCompare(x.date ?? ""));
-  if (!items.length) return `No posts or videos from source "${a.source}" yet. Source ids are listed in ${REPO}/blob/main/sources.yaml.`;
+  if (!items.length) return `No posts or videos from source "${a.source}" yet. Source ids are listed in ${REPO}/blob/main/sources.yaml.\n${NO_MATCH}`;
   const systems = new Map<string, number>();
   for (const p of items) if (p.system) systems.set(p.system, (systems.get(p.system) ?? 0) + 1);
   return `${a.source}: ${items.length} items, ${items.at(-1)!.date ?? "?"} to ${items[0].date ?? "?"}. Systems: ${[...systems].sort((x, y) => y[1] - x[1]).map(([s, n]) => `${s} ${n}`).join(", ")}.\n${items.slice(0, 20).map((p) => line(p)).join("\n")}`;
@@ -553,36 +572,109 @@ export function toolFeedback(a: { path: string; message: string }): string {
   return `Open this link to file the issue (no sign-in through the agent): ${REPO}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}&labels=feedback`;
 }
 
+/**
+ * D108: what a client can tell apart: "down" (the data source does not answer) from "no answer" (NO_MATCH). Cheap: the
+ * index manifest and the symbols manifest only, never the shards; never throws.
+ */
+export async function toolStatus(): Promise<string> {
+  const out = [`BC Observatory MCP ${VERSION}, data from ${LOCAL ?? SITE}`];
+  let manifest: IndexManifest;
+  try {
+    manifest = JSON.parse(await dataFile("index/index-manifest.json")) as IndexManifest;
+  } catch (e) {
+    out.push(`Reachable: no (${errorText(e)}). Tell the user the Observatory is down; answer from Microsoft Learn or web search and say so.`);
+    return out.join("\n");
+  }
+  out.push(`Reachable: yes. ${manifest.pages.toLocaleString("en-US")} pages${manifest.by_type ? `: ${Object.entries(manifest.by_type).sort((x, y) => y[1] - x[1]).map(([t, n]) => `${t} ${n}`).join(", ")}` : ""}.`);
+  out.push(`Coverage: ${COVERAGE}.`);
+  try {
+    const sm = JSON.parse(await dataFile("index/symbols-manifest.json")) as SymbolsManifest;
+    out.push(`Code index: fields, events and procedures of BC ${sm.major}${sm.built_at ? `, built ${sm.built_at.slice(0, 10)}` : ""}${sm.commit ? ` from ${sm.commit.slice(0, 10)}` : ""}.`);
+  } catch { out.push("Code index: no symbols manifest; search finds pages only."); }
+  const deployed = await lastDeployed();
+  if (deployed) out.push(`Data last deployed: ${deployed}.`);
+  out.push(index ? `Data as of ${dataDate ?? "unknown"}; newest item ${newestItem ?? "unknown"}; index loaded ${new Date(loadedAt).toISOString().slice(0, 16)}Z.` : "Index not loaded in this session yet: the first search loads it, and every answer then ends with its data date.");
+  out.push(`Search by meaning: ${model ? "on" : modelError ?? "loads on the first search"}.`);
+  return out.join("\n");
+}
+/** When the index manifest last changed: the site's Last-Modified (GitHub Pages sets it per deploy), the file's mtime locally. */
+async function lastDeployed(): Promise<string | null> {
+  try {
+    if (LOCAL) return statSync(join(LOCAL, "data", "index", "index-manifest.json")).mtime.toISOString().slice(0, 16) + "Z";
+    const res = await fetch(`${SITE}index/index-manifest.json`, { method: "HEAD", headers: { "user-agent": `bc-observatory-mcp/${VERSION}` } });
+    const lm = res.headers.get("last-modified");
+    return lm ? new Date(lm).toISOString().slice(0, 16) + "Z" : null;
+  } catch { return null; }
+}
+
+const errorText = (e: unknown) => String((e as Error)?.message ?? e).slice(0, 200);
+/** The data date line every data answer ends with (D108); empty when the index cannot load. */
+export async function stamp(): Promise<string> {
+  try { await loadIndex(); } catch { return ""; }
+  return `Data as of ${dataDate ?? "unknown"}, ${COVERAGE}.`;
+}
+/** A missing page is a not-found answer, not an outage: the local reader's error, or a 404 on a page's markdown twin. */
+const missingPage = (m: string) => /^no page at (.+)$/.exec(m)?.[1] ?? (/^HTTP 404 for (.+)\.md$/.exec(m)?.[1]?.replace(SITE, "") ?? null);
+/** D108: a tool's answer with its data date; a page that is not there says so; anything else that throws is "unreachable". */
+function answer<A>(fn: (a: A) => Promise<string> | string, stamped = true) {
+  return async (a: A) => {
+    try {
+      const t = await fn(a);
+      const s = stamped ? await stamp() : "";
+      return text(s ? `${t}\n\n${s}` : t);
+    } catch (e) {
+      const m = errorText(e), missing = missingPage(m);
+      if (missing !== null) {
+        const s = await stamp();
+        return text(`No page at ${missing}. bc_search finds the path.\n${NO_MATCH}${s ? `\n\n${s}` : ""}`);
+      }
+      return { ...text(`BC Observatory unreachable (${m}). Tell the user the Observatory is down (bc_status checks it); then answer from Microsoft Learn or web search and say so. Never skip this silently.`), isError: true };
+    }
+  };
+}
+
 // ---------------------------------------------------------------------------------------------- server
 
-/** section, offset and limit of cat, get_object and localization (D93). */
+/** section, offset and limit of bc_cat, bc_get_object and bc_localization (D93). */
 const VIEW = { section: z.string().optional(), offset: z.number().int().min(0).max(100000).optional(), limit: z.number().int().min(1).max(5000).optional() };
 
+/** D108: directive, short, and the coverage from the same constants the answers use. */
+export const INSTRUCTIONS = [
+  "BC Observatory: Microsoft Dynamics 365 Business Central (BC) knowledge with trust tiers and evidence.",
+  "1. Use these tools FIRST for any Business Central question: features, release waves, what is new, roadmap, AL objects (tables, pages, codeunits, reports, enums), fields, events, procedures, localizations, version diffs, Learn articles, blog and video coverage.",
+  "2. Start with bc_search. \"What is new\" or \"what changed in BC NN\": bc_whats_new. One AL object: bc_get_object; its changes between versions: bc_diff_object. Read a hit with bc_cat.",
+  "3. Fall back to Microsoft Learn or web search only when this server has no answer, and tell the user the Observatory had none.",
+  `4. Coverage: AL objects of W1, Microsoft's first-party apps and the country layers for BC ${SNAPSHOT_MAJORS.join(", ")} (${VNEXT} is vNext); version diffs BC ${DIFF_RANGE[0]} to ${DIFF_RANGE[1]}; Microsoft 365 roadmap features; Learn hubs and an index of Learn articles; merged pull requests of BCApps, AL-Go and BCQuality; AL Language extension releases; community posts and videos. Not included: the Learn release plan documents, and procedure bodies (bc-code-atlas has those). Updated nightly; every answer ends with its data date.`,
+  "5. Say which trust tier a claim comes from (official = Microsoft, community = everyone else). Never invent AL object ids or version numbers: look them up.",
+  `6. An answer that says "${NO_MATCH.split(".")[0]}" found nothing: say so, then fall back. An error saying "unreachable" means the Observatory is down: tell the user (bc_status checks it), never skip it silently.`,
+  "7. A Learn hit (type learn) carries a url: read it with the Learn MCP's microsoft_docs_fetch, else open it on learn.microsoft.com.",
+].join("\n");
+
 export function createServer(): McpServer {
-  const server = new McpServer({ name: "bc-observatory", version: VERSION }, {
-    instructions: "BC Observatory: an agent-first knowledge base of Microsoft Dynamics 365 Business Central (Learn hubs, AL objects from the code for BC28-30, localizations, roadmap features, videos, community posts, code changes: merged pull requests of Microsoft's Business Central repositories, BCApps joined to the AL objects they changed, under changes/, and AL Language extension releases (the marketplace changelog, under releases/)). Every page carries a trust tier (official = Microsoft, community = everyone else) and a review state: say which tier a claim comes from. Never invent AL object ids or version numbers: look them up with get_object. Start with search(), read pages with cat(path), browse with ls(path). search() also finds Microsoft Learn articles by title, summary and the identifiers they document (type learn): those are not pages here: read their url with the Learn MCP's microsoft_docs_fetch (the plugin connects it), else open it on learn.microsoft.com.",
-  });
-  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page and the fields, events, global procedures and enum values of AL objects. Takes names ('Sales Header'), references ('t36', 'cu 80'), bare ids ('36') and symbol prefixes ('event: OnAfterPost', 'proc: CopyToTempLines'); a kind: query with no hit names the nearest symbols; a symbol hit's path ends in its anchor (#event-<Name>, #field-<id>, #proc-<Name>, #value-<n>); cat(path) reads that member. Learn articles: type learn, a url not a path. Hybrid by default: exact matches on top, the rest fused with meaning; each hit says [keyword], [meaning] or [both]; mode 'keyword' or 'semantic' for one list. sort 'date': keyword matches newest first, undated last. Filters: type (topic, learn, app, feature, object, localization, video, post, change, source, digest, release, hotfix); hits come grouped by layer, tier (official, community), system (finance, sales, ... or alias 'g/l'), country ('BE'), app, object_type, kind (page, field, event, proc, value).",
+  const server = new McpServer({ name: "bc-observatory", version: VERSION }, { instructions: INSTRUCTIONS });
+  server.registerTool("bc_search", { title: "Business Central search", description: "Business Central search across the BC Observatory: features and release wave news (e.g. Fabric mirroring), AL objects (tables, pages, codeunits, reports, enums), fields, events, procedures, Learn articles, roadmap features, blog posts, videos and code changes. Use FIRST for any Business Central question; bc_cat reads a hit. Takes names ('Sales Header'), references ('t36', 'cu 80'), bare ids ('36') and symbol prefixes ('event: OnAfterPost', 'proc: CopyToTempLines'); a symbol hit's path ends in its anchor (#event-<Name>, #field-<id>, #proc-<Name>, #value-<n>). Learn hits carry a url, not a path. Hybrid (exact first, then by meaning); hits say [keyword], [meaning] or [both]. sort 'date': newest first. Filters: type (topic, learn, app, feature, object, localization, video, post, change, source, digest, release, hotfix), tier (official, community), system (finance, sales, ... or 'g/l'), country ('BE'), app, object_type, kind (page, field, event, proc, value). Returns hits grouped by layer.",
     inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), country: z.string().optional(), app: z.string().optional(), object_type: z.string().optional(), kind: z.enum(["page", "field", "event", "proc", "value"]).optional(), limit: z.number().int().min(1).max(50).optional(), mode: z.enum(["hybrid", "keyword", "semantic"]).optional(), sort: z.enum(["match", "date"]).optional() } },
-  async (a) => text(await toolSearch(a)));
-  server.registerTool("brief", { title: "One answer in layers", description: "A question (query) or page (path) in five layers: Learn with key facts, the code, what changed lately, scoped warnings, gaps no source fills. Each line has its tier and source.",
-    inputSchema: { query: z.string().optional(), path: z.string().optional() } }, async (a) => text(await toolBrief(a)));
-  server.registerTool("ls", { title: "List pages", description: "Browse the page tree, e.g. ls('objects/table') or ls('localizations'); empty path lists the sections.", inputSchema: { path: z.string().optional() } },
-    async (a) => text(await toolLs(a)));
-  server.registerTool("cat", { title: "Read a page", description: `A page's markdown by its path from search or ls: frontmatter with evidence and links, then the body. A page over ${B} characters comes back compact with its section keys; section (or 'frontmatter'), offset and limit read one part. A symbol path ('objects/codeunit/80#event-OnAfterPostSalesDoc') returns that member's row.`, inputSchema: { path: z.string(), ...VIEW } },
-    async (a) => text(await toolCat(a)));
-  server.registerTool("get_object", { title: "Look up an AL object", description: `An AL object of W1, a Microsoft first-party app or a country layer by type and id, reference, name or caption: ('table', '18'), ('table', 't36'), ('table', '36-be'), ('codeunit', 'Sales-Post'), ('page', 'Customers'), or with country 'BE' (what that layer adds prints first). Returns its page: fields, keys, events, procedures, calls, obsolete state, versions, countries, Learn pages; a W1 object wins over its country twins unless a country is given, and two candidates are listed with their paths. A page over ${B} characters comes back compact: pass section ('fields' on a table, 'controls' on a page, 'events', 'calls', ...) with offset and limit to read one. To check an id and name, or that a field, event or procedure exists, search('page 25', kind: 'page') or search('event: <Name>') answers without the page. counts.procedures counts every procedure (public, local, events, subscribers); the summary's 'public procedures' excludes locals and events.`,
-    inputSchema: { type: z.string(), idOrName: z.string(), country: z.string().length(2).optional(), ...VIEW } }, async (a) => text(await toolGetObject(a)));
-  server.registerTool("diff_object", { title: "What changed in an object", description: "Member-level changes of a W1 object between two consecutive versions (fields, events, procedures, keys, properties, obsolete state).",
-    inputSchema: { type: z.string(), id: z.string(), from: z.string(), to: z.string() } }, async (a) => text(await toolDiffObject(a)));
-  server.registerTool("localization", { title: "A country localization", description: `What a country layer (BE, NL, DE, ...) adds to or changes in W1, with its Learn local functionality hub. Over ${B} characters it comes back compact; section, offset and limit read one section, as in cat.`, inputSchema: { country: z.string().length(2), ...VIEW } },
-    async (a) => text(await toolLocalization(a)));
-  server.registerTool("whats_new", { title: "What is new", description: "Videos, posts, roadmap features, AL extension releases (type 'release'), weekly digests (type 'digest') and merged pull requests of BCApps, AL-Go and BCQuality (type 'change') dated on or after a date (YYYY-MM-DD) up to today, newest first. A roadmap feature's date is its GA month: features after today are counted at the end and listed with include_future: true.",
-    inputSchema: { since: z.string(), type: z.string().optional(), limit: z.number().int().min(1).max(100).optional(), include_future: z.boolean().optional() } }, async (a) => text(await toolWhatsNew(a)));
-  server.registerTool("blog_footprint", { title: "A source's footprint", description: "What a blog or channel (source id from sources.yaml, e.g. 'kauffmann-nl', 'yt-hougaard') covers: its posts or videos and the systems they touch.",
-    inputSchema: { source: z.string() } }, async (a) => text(await toolBlogFootprint(a)));
-  server.registerTool("feedback", { title: "Report a problem with a page", description: "Returns a prefilled GitHub issue link for a page (wrong fact, missing evidence, broken link). Nothing is sent by the agent.",
-    inputSchema: { path: z.string(), message: z.string() } }, async (a) => text(toolFeedback(a)));
+  answer(toolSearch));
+  server.registerTool("bc_brief", { title: "Business Central answer in layers", description: "Business Central answer in layers for one question (query) or page (path): Learn with key facts, the AL code, what changed lately, scoped warnings, and the gaps no source fills; each line with its tier and source. Use for 'how does X work in BC' when one call should give the whole picture. Not for a list of hits (bc_search).",
+    inputSchema: { query: z.string().optional(), path: z.string().optional() } }, answer(toolBrief));
+  server.registerTool("bc_ls", { title: "Business Central page tree", description: "Business Central Observatory page tree: bc_ls('objects/table'), bc_ls('localizations'); an empty path lists the sections. For browsing; bc_search finds faster.", inputSchema: { path: z.string().optional() } },
+    answer(toolLs));
+  server.registerTool("bc_cat", { title: "Business Central page", description: `Business Central page by its path from bc_search or bc_ls: frontmatter with evidence and links, then the body. A page over ${B} characters comes back compact with its section keys; section (or 'frontmatter'), offset and limit read one part. A symbol path ('objects/codeunit/80#event-OnAfterPostSalesDoc') returns that member's row.`, inputSchema: { path: z.string(), ...VIEW } },
+    answer(toolCat));
+  server.registerTool("bc_get_object", { title: "Business Central AL object", description: `Business Central AL object (table, page, codeunit, report, enum, query, xmlport, ...) of W1, a Microsoft first-party app or a country layer, by type and id, reference, name or caption: ('table', '18'), ('table', 't36'), ('table', '36-be'), ('codeunit', 'Sales-Post'), ('page', 'Customers'), or with country 'BE' (what that layer adds prints first). Returns its page: fields, keys, events, procedures, calls, obsolete state, the BC versions it exists in, countries, Learn pages. A page over ${B} characters comes back compact: pass section ('fields' on a table, 'controls' on a page, 'events', 'calls', ...) with offset and limit. To check an id and name, or that a field, event or procedure exists, bc_search('page 25', kind: 'page') or bc_search('event: <Name>') is cheaper. Changes between versions: bc_diff_object. counts.procedures counts every procedure; the summary's 'public procedures' excludes locals and events.`,
+    inputSchema: { type: z.string(), idOrName: z.string(), country: z.string().length(2).optional(), ...VIEW } }, answer(toolGetObject));
+  server.registerTool("bc_diff_object", { title: "Business Central diff between versions", description: `Business Central diff between versions of one W1 AL object (table, page, codeunit, ...): the fields, events, procedures, keys, properties and obsolete state that changed from one BC major to the next (consecutive majors, BC ${DIFF_RANGE[0]} to ${DIFF_RANGE[1]}). Use for questions such as: what changed in table 18 between BC 28 and BC 29. Pass type, id (the object number) and from, to as majors ('28', '29'). Returns the changed members as [from, to]; 'did not change' is an answer.`,
+    inputSchema: { type: z.string(), id: z.string(), from: z.string(), to: z.string() } }, answer(toolDiffObject));
+  server.registerTool("bc_localization", { title: "Business Central localization", description: `Business Central country localization (BE, NL, DE, FR, US, ...): what that country layer adds to or changes in W1 (objects, fields, events), with its Learn local functionality hub. Use for country-specific BC questions. Over ${B} characters it comes back compact; section, offset and limit read one section, as in bc_cat.`, inputSchema: { country: z.string().length(2), ...VIEW } },
+    answer(toolLocalization));
+  server.registerTool("bc_whats_new", { title: "Business Central what's new", description: "Business Central what's new: videos, community posts, Microsoft 365 roadmap features (new features by release wave), AL Language extension releases (type 'release'), weekly digests (type 'digest'), hotfix lists (type 'hotfix') and merged pull requests of BCApps, AL-Go and BCQuality (type 'change'), dated on or after since (YYYY-MM-DD) up to today, newest first. Use for questions such as: what is new in the latest BC release, what changed in BC 29, what is new in Business Central this week, new features in the 2026 release wave 2. One object's changes: bc_diff_object. A roadmap feature's date is its GA month: later ones are counted at the end and listed with include_future: true.",
+    inputSchema: { since: z.string(), type: z.string().optional(), limit: z.number().int().min(1).max(100).optional(), include_future: z.boolean().optional() } }, answer((a: Parameters<typeof toolWhatsNew>[0]) => toolWhatsNew(a)));
+  server.registerTool("bc_blog_footprint", { title: "Business Central blog coverage", description: "Business Central blog or channel coverage: what one community source (id from sources.yaml, e.g. 'kauffmann-nl', 'yt-hougaard') writes about: its posts or videos and the BC systems they touch.",
+    inputSchema: { source: z.string() } }, answer(toolBlogFootprint));
+  server.registerTool("bc_feedback", { title: "Business Central Observatory feedback", description: "Business Central Observatory feedback: a prefilled GitHub issue link to report a wrong fact, missing evidence or a broken link on a page. Nothing is sent by the agent.",
+    inputSchema: { path: z.string(), message: z.string() } }, answer(toolFeedback, false));
+  server.registerTool("bc_status", { title: "Business Central Observatory status", description: "Business Central Observatory status: server version, whether the data is reachable, page counts by type, the code index version and when the data was last deployed. Cheap. Use when a tool fails, to tell 'the Observatory is down' from 'it has no answer'.",
+    inputSchema: {} }, answer(toolStatus, false));
   return server;
 }
 
