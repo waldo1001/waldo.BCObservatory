@@ -68,7 +68,7 @@ export function attachCautions(items: CautionItem[], index: ObjectIndex, eventOw
       if (!o || !inLife(o, majors)) continue;
       const list = out.get(id) ?? [];
       if (list.some((a) => a.from === it.id && a.quote === c.quote) || list.length >= MAX_PER_OBJECT) continue;
-      list.push({ from: it.id, title: it.title, kind: c.kind, quote: c.quote, ...(c.t !== undefined ? { t: c.t } : {}), scope: scopeOf(o, [...new Set(events)]) });
+      list.push({ from: it.id, title: it.title, kind: c.kind, quote: c.quote, ...(c.t !== undefined ? { t: Math.floor(c.t) } : {}), scope: scopeOf(o, [...new Set(events)]) });
       out.set(id, list);
     }
   }
@@ -81,7 +81,7 @@ export const clipQuote = (t: string) => { const s = t.replace(/\s+/g, " ").trim(
 const DISCLAIMER_KINDS = new Set(["preview", "subject-to-change", "not-in-this-release", "coming-later"]);
 /** A video's disclaimers (extract/video.ts, verbatim and timed) as preview-disclaimer cautions; `other` is left out. */
 export function cautionsFromDisclaimers(ds: { t: number; kind: string; text: string }[]): Caution[] {
-  return ds.filter((d) => DISCLAIMER_KINDS.has(d.kind)).map((d) => ({ kind: "preview-disclaimer" as const, quote: clipQuote(d.text), t: d.t, objects: [], events: [], versions: majorsOf([d.text]) }));
+  return ds.filter((d) => DISCLAIMER_KINDS.has(d.kind)).map((d) => ({ kind: "preview-disclaimer" as const, quote: clipQuote(d.text), t: Math.floor(d.t), objects: [], events: [], versions: majorsOf([d.text]) }));
 }
 
 /** The page a caution comes from as a certain cross-link row (it names this object), so it joins links.posts/videos. */
@@ -106,7 +106,10 @@ export function loadCautionLinks(dataDir: string): Record<string, Attached[]> {
   let stamp: string;
   try { const st = statSync(p); stamp = `${p}|${st.mtimeMs}|${st.size}`; } catch { return {}; }
   if (cache?.stamp === stamp) return cache.objects;
-  cache = { stamp, objects: readJson<{ objects?: Record<string, Attached[]> }>(p).objects ?? {} };
+  // whole seconds on read as well: a file written before the fix (nightly 2026-10-24) carried fractional ones
+  const objects = readJson<{ objects?: Record<string, Attached[]> }>(p).objects ?? {};
+  for (const list of Object.values(objects)) for (const a of list) if (a.t !== undefined) a.t = Math.floor(a.t);
+  cache = { stamp, objects };
   return cache.objects;
 }
 

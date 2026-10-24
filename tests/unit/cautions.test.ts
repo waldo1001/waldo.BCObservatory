@@ -114,3 +114,11 @@ test("a video with more than eight disclaimers still renders: its frontmatter ke
   const v = validate("frontmatter.video", fm);
   assert.equal(v.ok, true, v.errors.join("; "));
 });
+
+test("a disclaimer's fractional second becomes a whole one, so an object page that carries it validates (nightly 2026-10-24, codeunit/7773)", () => {
+  const [c] = cautionsFromDisclaimers([{ t: 19.36, kind: "preview", text: "this is coming in public preview in version 29.x" }]);
+  assert.equal(c.t, 19);
+  const item: CautionItem = { id: "video/x", title: "X", kind: "video", cautions: [{ ...c, objects: [{ type: "table", name: "Invoice Post. Buffer" }], t: 7.5 }] };
+  const [a] = attachCautions([item], index, owners(), new Map(objects.map((o) => [o.id, o]))).get("object/table/49")!;
+  assert.equal(a.t, 7, "attached cautions carry whole seconds too");
+});
