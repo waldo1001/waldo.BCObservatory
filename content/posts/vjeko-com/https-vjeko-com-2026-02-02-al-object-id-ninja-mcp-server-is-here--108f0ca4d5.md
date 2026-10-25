@@ -2,7 +2,7 @@
 id: post/vjeko-com/https-vjeko-com-2026-02-02-al-object-id-ninja-mcp-server-is-here--108f0ca4d5
 type: post
 title: AL Object ID Ninja MCP Server Is Here
-summary: AL Object ID Ninja now offers an official MCP Server for agentic coding tools like Cursor and Claude Code, enabling AI assistants to automatically manage object ID assignments and prevent collisions during AL development. This replaces the platform 2.0 version and extends support beyond VS Code users.
+summary: AL Object ID Ninja now has an official MCP Server, published on npm, for agentic tools such as Cursor, Claude Code and Windsurf. It lets AI assistants request, commit and unassign object IDs so that IDs do not collide. It is built from scratch for platform 3.0 after a community server stopped working when platform 2.0 was shut down. VS Code users with the Ninja extension do not need it.
 tier: community
 language: en
 tags:
@@ -14,16 +14,16 @@ tags:
   - al development
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:54.105Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:32.452Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 95cc23d8fdd35f8d58abd64ee261eb8b2d6ed86dfac26db8984425e792e5ffb7
+  input_hash: e044e6f3a0c4bf4dc49bb0cfcd6aaf92c406fdced5fcdf17d748cb1386cd0d7c
 evidence:
   - kind: blog
     url: https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/
@@ -85,13 +85,23 @@ systems:
 versions_mentioned:
   - platform 3.0
   - platform 2.0
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://vjeko.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-2-2026-07_32_53-AM-copy.jpg
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:17.386Z"
 ---
 
 # AL Object ID Ninja MCP Server Is Here
 
-[Read the post](https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-02-02 · 352 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-02-02 · 352 words · tier community · reviewed (checked by Opus)
 
-> AL Object ID Ninja now offers an official MCP Server for agentic coding tools like Cursor and Claude Code, enabling AI assistants to automatically manage object ID assignments and prevent collisions during AL development. This replaces the platform 2.0 version and extends support beyond VS Code users.
+> AL Object ID Ninja now has an official MCP Server, published on npm, for agentic tools such as Cursor, Claude Code and Windsurf. It lets AI assistants request, commit and unassign object IDs so that IDs do not collide. It is built from scratch for platform 3.0 after a community server stopped working when platform 2.0 was shut down. VS Code users with the Ninja extension do not need it.
 
 ## Key points
 

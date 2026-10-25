@@ -5,17 +5,16 @@
   "source": "vjeko-com",
   "published_at": "2025-11-11T09:02:32.000Z",
   "words": 352,
-  "summary": "AL Object ID Ninja, a tool used by thousands of teams to prevent object ID conflicts, is transitioning to a paid hosted model and seeks user commitments by January 2026. The post explains two options: continue with a managed premium service or self-host on Azure, and invites teams to register interest for a discounted lifetime price.",
+  "summary": "AL Object ID Ninja's author asks teams that plan to keep using the hosted backend after 1 January 2026 to register their intent at alid.ninja. Registering is free and not a subscription, and it locks in a 35% lifetime discount. If too few teams register, the shared backend will shut down on 31 December 2025. Self-hosting on your own Azure subscription stays available either way.",
   "key_points": [
-    "AL Object ID Ninja has prevented object ID conflicts for thousands of teams over four years",
-    "Users can choose between a hosted premium backend or self-hosting on their own Azure subscription",
-    "Early registrants receive a 35% lifetime discount on the hosted service",
-    "The hosted backend will shut down on 31 December 2025 if insufficient interest is registered",
-    "Self-hosting remains permanently available as an open-source option"
+    "The author is asking for a no-commitment registration of intent to plan the move to a premium hosted service",
+    "Early registrants lock in a 35% lifetime super-early-bird discount",
+    "The hosted premium path offers zero setup, new features, support, a management portal and a mobile app",
+    "Teams can still self-host on Azure but carry the infrastructure, maintenance and support costs themselves",
+    "If interest is too low, the shared backend shuts down on 31 December 2025"
   ],
   "systems": [
-    "development",
-    "administration"
+    "development"
   ],
   "topics": [
     "al development",

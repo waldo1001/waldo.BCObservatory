@@ -15,16 +15,16 @@ tags:
   - agent reliability
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:54.105Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:37.014Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: bbd6868b924f48b7e244056c730b696241275f2855ed2f58423605980078f9a8
+  input_hash: 651a4f12c5d9d717fa4919539b6964eb0585313b533ff6c52ecf0b0c5bf264ba
 evidence:
   - kind: blog
     url: https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/
@@ -65,6 +65,27 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure
+      title: Design details - Item tracking posting structure
+      label: possibly related
+      why: names Codeunit 80 "Sales-Post"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging
+      title: Snapshot debugging
+      label: possibly related
+      why: names Codeunit 80 "Sales-Post"
+      by: code
+    - to: post/duiliotacconi-com/1667
+      title: Sorting by Type and Line No. in Sales and Purchase Postings
+      label: possibly related
+      why: both name Codeunit 80 "Sales-Post"
+      by: code
+    - to: video/a1LQ3-SCtPE
+      title: "What's New: Server and Database - A Faster Data Stack (2023 release wave 2)"
+      label: possibly related
+      why: both name Table 254 "VAT Entry"
+      by: code
 post_id: https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/
 source_id: vjeko-com
 source_name: Vjeko.com
@@ -85,14 +106,28 @@ code_objects_mentioned:
   - codeunit Sales-Post
 systems:
   - development
-  - integration
-  - copilot
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: Almost right, in code, is often worse than wrong.
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://vjeko.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-14-2026-09_59_15-AM.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:13.879Z"
 ---
 
 # Context Engineering – The Thing Almost Nobody Is Actually Talking About
 
-[Read the post](https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-03-14 · 1839 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-03-14 · 1839 words · tier community · reviewed (checked by Opus)
 
 > Context engineering - curating precisely what information goes into an AI agent's context window - matters more than model choice or toolchains for Business Central development. Since models lack implicit knowledge of AL, Base App, and BC-specific systems, developers must explicitly supply curated context to prevent agents from confidently inferring incorrect solutions based on adjacent ERP systems.
 
@@ -116,6 +151,19 @@ As named in the post. A name that matches one object page by exact type and name
 
 - [table 254 "VAT Entry"](../../objects/table/254.md)
 - [codeunit 80 "Sales-Post"](../../objects/codeunit/80.md)
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Design details - Item tracking posting structure](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure) — possibly related: names Codeunit 80 "Sales-Post"
+- [Snapshot debugging](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging) — possibly related: names Codeunit 80 "Sales-Post"
+- [Sorting by Type and Line No. in Sales and Purchase Postings](../../posts/duiliotacconi-com/1667.md) — possibly related: both name Codeunit 80 "Sales-Post"
+- [What's New: Server and Database - A Faster Data Stack (2023 release wave 2)](../../videos/a1LQ3-SCtPE.md) — possibly related: both name Table 254 "VAT Entry"
+
+## Heads up
+
+- gotcha: "Almost right, in code, is often worse than wrong."
 
 ## Context
 

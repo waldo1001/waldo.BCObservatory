@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
-  "started_at": "2026-10-25T16:41:48.094Z",
-  "finished_at": "2026-10-25T16:53:07.170Z",
+  "started_at": "2026-10-25T16:55:04.528Z",
+  "finished_at": "2026-10-25T17:06:32.021Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -22,25 +22,25 @@
   "ingest": {
     "sources": [
       {
-        "id": "sshadows-dk",
+        "id": "vjeko-com",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 13,
+          "new": 22,
           "changed": 0,
           "updated": 0,
           "unchanged": 0,
           "removed": 0
         },
-        "note": "13 posts via feed",
-        "duration_ms": 493
+        "note": "22 posts via feed",
+        "duration_ms": 723
       }
     ],
     "totals": {
       "sources": 1,
       "failed": 0,
       "deferred": 0,
-      "new": 13,
+      "new": 22,
       "changed": 0,
       "updated": 0,
       "unchanged": 0,
@@ -74,84 +74,88 @@
       "post_reviews": 50000,
       "change_reviews": 50000
     },
-    "work": 13,
-    "executed": 13,
+    "work": 22,
+    "executed": 22,
     "skips": 0,
     "quota_use": {
       "posts": {
-        "selected": 13,
-        "available": 13,
+        "selected": 22,
+        "available": 22,
         "limit": 50000
       }
     },
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 59,
+    "calls": 63,
     "cache_hits": 0,
     "failures": 0,
     "by_model": {
-      "claude-haiku-4-5-20251001": 25,
-      "claude-opus-5-5": 34
+      "claude-haiku-4-5-20251001": 37,
+      "claude-opus-5-5": 26
     },
-    "cost_usd": 2.7907470000000005,
+    "cost_usd": 2.5830359999999994,
     "tokens_by_model": {
       "claude-haiku-4-5-20251001": {
-        "calls": 25,
-        "input": 43906,
-        "output": 14325,
-        "cache_read": 0,
-        "cache_creation": 101518,
-        "cost_usd": 0.318567
+        "calls": 37,
+        "input": 54446,
+        "output": 21175,
+        "cache_read": 18446,
+        "cache_creation": 174982,
+        "cost_usd": 0.5121296000000001
       },
       "claude-opus-5-5": {
-        "calls": 34,
-        "input": 68,
-        "output": 43385,
-        "cache_read": 0,
-        "cache_creation": 200526,
-        "cost_usd": 2.47218
+        "calls": 26,
+        "input": 52,
+        "output": 33974,
+        "cache_read": 7572,
+        "cache_creation": 173713,
+        "cost_usd": 2.0709063999999997
       }
     },
-    "day_cost_usd": 24.762238
+    "day_cost_usd": 27.345274
   },
   "spend": {
-    "today_usd": 21.971491,
+    "today_usd": 24.762238,
     "week_before_usd": 59.892014,
     "night_cap_usd": 100000,
     "week_cap_usd": 100000,
-    "allowance_usd": 99918.136495,
+    "allowance_usd": 99915.345748,
     "binding": "week",
     "exhausted": false,
     "override": true
   },
-  "items_changed": 13,
-  "errors": [],
+  "items_changed": 22,
+  "errors": [
+    "blog/vjeko-com/https://vjeko.com/2026/05/28/the-lump-of-labour-fallacy-fallacy/ extracted: model returned no entry for this post"
+  ],
   "captions_retried": 0,
-  "checkpoints": 1,
+  "checkpoints": 2,
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-25T22:16:00.000Z",
-    "items_touched": 13,
+    "deadline": "2026-10-25T22:30:00.000Z",
+    "items_touched": 22,
     "stages_run": {
-      "blog:fetched": 13,
-      "blog:extracted": 13,
-      "blog:summarized": 13,
-      "blog:linked": 13,
-      "blog:published": 13
+      "blog:fetched": 22,
+      "blog:extracted": 21,
+      "blog:summarized": 21,
+      "blog:linked": 21,
+      "blog:published": 21
     },
-    "advanced": 65,
+    "advanced": 106,
     "skipped": 0,
-    "failed_attempts": 0,
+    "failed_attempts": 1,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "parked": 10,
+    "parked": 19,
     "quota_charged": {
-      "posts": 13
+      "posts": 22
     },
     "regards": [],
-    "errors": [],
+    "errors": [
+      "blog/vjeko-com/https://vjeko.com/2026/05/28/the-lump-of-labour-fallacy-fallacy/ extracted: model returned no entry for this post"
+    ],
     "parked_left": 0
   },
   "code": {
@@ -178,11 +182,11 @@
       "stopped": "done"
     },
     "crosslinks": {
-      "pages": 5046,
-      "rows": 8527,
+      "pages": 5047,
+      "rows": 8532,
       "certain": 2556,
       "by": {
-        "code": 4457,
+        "code": 4462,
         "override": 33,
         "model": 4037
       },
@@ -191,28 +195,28 @@
       "errors": []
     },
     "cautions": {
-      "items": 555,
-      "cautions": 1377,
+      "items": 561,
+      "cautions": 1390,
       "objects": 44,
       "attached": 61,
       "written": false
     },
     "pages": {
       "objects": 25667,
-      "written": 14,
+      "written": 0,
       "removed": 0,
       "localizations": 22,
       "own_objects": 9214
     },
     "related": {
-      "pages": 10180,
-      "rows": 33729,
+      "pages": 10179,
+      "rows": 33705,
       "by_rank": {
         "1": 983,
         "2": 67,
         "3": 20201,
-        "4": 1940,
-        "5": 3387,
+        "4": 1941,
+        "5": 3362,
         "6": 7013,
         "7": 138
       },
@@ -250,15 +254,15 @@
     "held": 0,
     "pages": 1238,
     "relinked": 0,
-    "rerendered": 7,
+    "rerendered": 0,
     "api_calls": 0,
     "narrated": 0
   },
   "previews": {
-    "probed": 13,
+    "probed": 21,
     "refreshed": 0,
     "failed": 0,
-    "rerendered": 13,
+    "rerendered": 22,
     "flipped": [],
     "channels": 0
   },
@@ -287,33 +291,39 @@
     }
   },
   "topic_links": {
-    "units": 2489,
-    "stale": 19,
-    "calls": 8,
-    "matched": 31,
-    "rejected": 4,
+    "units": 2509,
+    "stale": 35,
+    "calls": 9,
+    "matched": 29,
+    "rejected": 12,
     "failed": 0,
-    "cost_usd": 0.146301,
+    "cost_usd": 0.234278,
     "rejections": [
-      "post/sshadows-dk/https://sshadows.dk/blog/tree-sitter-al-v2-rewrite/ -> t386: not a candidate of this item",
-      "post/sshadows-dk/https://sshadows.dk/blog/benchmark-llms-al-code/ -> t488: not a candidate of this item",
-      "post/sshadows-dk/https://sshadows.dk/blog/centralgauge-benchmark-update/ -> t488: not a candidate of this item",
-      "post/sshadows-dk/https://sshadows.dk/blog/from-work-item-to-pr-without-me/ -> t496: not a candidate of this item"
+      "post/sshadows-dk/https://sshadows.dk/blog/al-language-server-claude-code/ -> t391: not a candidate of this item",
+      "post/sshadows-dk/https://sshadows.dk/blog/al-perf-v2-deep-analysis/ -> t469: not a candidate of this item",
+      "post/sshadows-dk/https://sshadows.dk/blog/bc-toolbox-vs-microsoft-mcp/ -> t409: not a candidate of this item",
+      "post/sshadows-dk/https://sshadows.dk/blog/benchmark-llms-al-code/ -> t416: not a candidate of this item",
+      "post/vjeko-com/https://vjeko.com/2026/07/01/what-to-do-in-the-age-of-code-printing/ -> t489: not a candidate of this item",
+      "post/vjeko-com/https://vjeko.com/2025/12/12/important-announcement-for-teams-maintaining-private-al-object-id-ninja-backend-get-ready-for-v3/ -> topic/dev-itpro/development/extension-lifecycle/deploying-and-installing: quote not verbatim: \"Deploying and installing extensions with coordinated manual migration deployment\"",
+      "post/vjeko-com/https://vjeko.com/2025/12/15/ninja-v3-is-live-where-we-are-and-what-comes-next/ -> topic/dev-itpro/development/development-environment/configure-the-development-environment: quote not verbatim: \"development tools; VS Code extension; backend infrastructure\"",
+      "post/vjeko-com/https://vjeko.com/2026/03/05/al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house/ -> topic/dev-itpro/development/extension-lifecycle/deploying-and-installing: quote not verbatim: \"self-hosting is no longer officially supported for extensions\"",
+      "post/sshadows-dk/https://sshadows.dk/blog/from-work-item-to-pr-without-me/ -> t490: not a candidate of this item",
+      "post/sshadows-dk/https://sshadows.dk/blog/one-click-performance-analysis-bc/ -> t485: not a candidate of this item"
     ],
     "second": {
-      "due": 3,
-      "called": 3,
-      "matched": 3
+      "due": 14,
+      "called": 14,
+      "matched": 8
     },
     "stopped": "done"
   },
   "cautions": {
-    "due": 13,
-    "posts": 13,
-    "calls": 4,
-    "cautions": 13,
+    "due": 21,
+    "posts": 21,
+    "calls": 6,
+    "cautions": 11,
     "failed": 0,
-    "cost_usd": 0.06727600000000002,
+    "cost_usd": 0.1078923,
     "stopped": "done"
   },
   "learn_confirm": {
@@ -329,13 +339,13 @@
     "stopped": "done"
   },
   "topic_reviews": {
-    "candidates": 22,
-    "calls": 30,
-    "reviewed": 30,
-    "kept": 126,
-    "dropped": 126,
+    "candidates": 15,
+    "calls": 20,
+    "reviewed": 20,
+    "kept": 79,
+    "dropped": 116,
     "failed": 0,
-    "cost_usd": 1.857404,
+    "cost_usd": 1.3471039999999999,
     "stopped": "done"
   },
   "reviews": {
@@ -347,15 +357,15 @@
       "cost_usd": 0
     },
     "post": {
-      "reviewed": 13,
-      "fixed": 10,
-      "rejected": 0,
-      "calls": 4,
-      "cost_usd": 0.2101,
-      "candidates": 13,
+      "reviewed": 21,
+      "fixed": 16,
+      "rejected": 3,
+      "calls": 6,
+      "cost_usd": 0.195309,
+      "candidates": 21,
       "failed": 0,
       "reset": 0,
-      "rerendered": 13,
+      "rerendered": 21,
       "stopped": "done"
     },
     "change": {
@@ -394,13 +404,13 @@
     "review_backlog": 0
   },
   "content": {
-    "pages": 29113,
+    "pages": 29135,
     "errors": 0
   },
   "leak": {
     "vault": "scanned",
-    "raw_docs": 733,
-    "files_scanned": 30338,
+    "raw_docs": 755,
+    "files_scanned": 30468,
     "findings": 0,
     "blocked": false
   }

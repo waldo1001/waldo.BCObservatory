@@ -2,7 +2,7 @@
 id: post/vjeko-com/https-vjeko-com-2026-07-21-i-dont-trust-my-agents-either--c4c7e5d9a2
 type: post
 title: I don’t trust my agents either
-summary: A developer demonstrates how to safely deploy code written by AI agents directly to production by building a rigorous multi-stage pipeline instead of relying on manual review. The approach applies quality principles from manufacturing to prevent defects systematically rather than catching them at the end.
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -16,16 +16,16 @@ tags:
   - ai agents
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-25T17:03:56.403Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:22.434Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: dbc523f429983e137bf1979ee7a6216dfe65834941a6eacde152b5d709e25e5b
+  input_hash: 4fea59f14211cea71d872d19d702b56def6ccb27c695959d94764f5834b17bbc
 evidence:
   - kind: blog
     url: https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/
@@ -76,25 +76,38 @@ systems:
   - platform
   - copilot
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: If you tell your agent to commit and push, and it lands in production, you are being reckless.
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://vjeko.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-20-2026-11_50_56-AM.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:05.969Z"
 ---
 
 # I don’t trust my agents either
 
-[Read the post](https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-07-21 · 3246 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-07-21 · 3246 words · tier community · **flagged** (a review found a problem)
 
-> A developer demonstrates how to safely deploy code written by AI agents directly to production by building a rigorous multi-stage pipeline instead of relying on manual review. The approach applies quality principles from manufacturing to prevent defects systematically rather than catching them at the end.
-
-## Key points
-
-- Manual code review by a tired developer is an unreliable quality gate comparable to visual inspection on a factory line, not a real control system.
-- The pipeline uses specialized sub-agents at every stage to enforce specific checks in order: spec validation, test structure, skeleton design, mocking strategy, vacuous test detection, red-green-refactor discipline, and security scanning.
-- Each stop or failure in the pipeline becomes an opportunity to encode a new rule that prevents that entire class of problem forever, following the Six Sigma principle of fixing processes rather than inspecting outputs.
-- Integration testing with real components replacing mocks happens late in the workflow to catch coordination failures between pieces that pass individually.
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Quotes
 
 - "You are not being careful. You are squinting at widgets." (Directly challenges the false confidence of manual review, showing that reviewing code by eye is inspection (a failing approach) not process design (a working one).)
 - "Thin layer on thin layer on thin layer, and what you finally get to stand on is thick." (Explains why many small, focused checks stacked in sequence create reliable confidence, whereas a single overloaded reviewer creates false confidence.)
+
+## Heads up
+
+- warning: "If you tell your agent to commit and push, and it lands in production, you are being reckless."
 
 ## Context
 

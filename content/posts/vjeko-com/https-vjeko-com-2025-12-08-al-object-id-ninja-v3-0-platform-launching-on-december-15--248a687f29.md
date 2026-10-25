@@ -2,7 +2,7 @@
 id: post/vjeko-com/https-vjeko-com-2025-12-08-al-object-id-ninja-v3-0-platform-launching-on-december-15--248a687f29
 type: post
 title: AL Object ID Ninja v3.0 Platform Launching on December 15
-summary: AL Object ID Ninja v3.0 is launching on December 15 as a commercial platform after receiving strong early-bird interest. The new version includes a redesigned website, customer portal, Stripe billing, faster parser, VS Code extension, and backend infrastructure designed to provide seamless automatic updates and continuous improvements without team reconfiguration.
+summary: AL Object ID Ninja v3.0 services go live on December 15. Commercial service starts January 1 and the first billing cycle runs on January 31. The release brings a new website, customer portal, backend, faster parser and VS Code extension, with Stripe billing still in testing. The hosted platform is meant to update itself without any team reconfiguration or redeployment.
 tier: community
 language: en
 tags:
@@ -13,16 +13,16 @@ tags:
   - commercial service
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:56.343Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:44.482Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: ac58679c879836f21fcc6e49e57085b598dcd23db5f1c9372d2fa7c1596fce59
+  input_hash: 6b2d3776b9edad2b52e79830f74f39918632d31789c26f5468433c86b8617055
 evidence:
   - kind: blog
     url: https://vjeko.com/2025/12/08/al-object-id-ninja-v3-0-platform-launching-on-december-15/
@@ -55,13 +55,23 @@ systems:
   - platform
 versions_mentioned:
   - v3.0
+preview:
+  embeddable: false
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:23.129Z"
 ---
 
 # AL Object ID Ninja v3.0 Platform Launching on December 15
 
-[Read the post](https://vjeko.com/2025/12/08/al-object-id-ninja-v3-0-platform-launching-on-december-15/) · Vjeko.com (Vjekoslav Babić, MVP) · 2025-12-08 · 627 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2025/12/08/al-object-id-ninja-v3-0-platform-launching-on-december-15/) · Vjeko.com (Vjekoslav Babić, MVP) · 2025-12-08 · 627 words · tier community · reviewed (checked by Opus)
 
-> AL Object ID Ninja v3.0 is launching on December 15 as a commercial platform after receiving strong early-bird interest. The new version includes a redesigned website, customer portal, Stripe billing, faster parser, VS Code extension, and backend infrastructure designed to provide seamless automatic updates and continuous improvements without team reconfiguration.
+> AL Object ID Ninja v3.0 services go live on December 15. Commercial service starts January 1 and the first billing cycle runs on January 31. The release brings a new website, customer portal, backend, faster parser and VS Code extension, with Stripe billing still in testing. The hosted platform is meant to update itself without any team reconfiguration or redeployment.
 
 ## Key points
 

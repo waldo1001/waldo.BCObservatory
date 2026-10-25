@@ -7,14 +7,14 @@
   "words": 1169,
   "summary": "App ID collisions occur when multiple Business Central AL apps share the same GUID despite mathematical uniqueness guarantees. The post analyzes three causes: manual GUID creation, cloning demo repositories, and copy-paste development, and recommends generating new App IDs rather than attempting to resolve collisions.",
   "key_points": [
-    "Nearly 150 duplicate App IDs exist among 50,000 apps tracked by AL Object ID Ninja, despite GUIDs being mathematically designed to be unique",
-    "Developers create collisions through manual GUID entry, cloning GitHub demo repos without regenerating IDs, and copy-pasting projects without updating App IDs",
-    "When apps with identical App IDs meet in production, consequences are unknown but potentially severe, similar to database collisions",
-    "AL Object ID Ninja can detect conflicting App IDs and provide isolation, with benefits only available on the public platform"
+    "About 150 of roughly 50,000 apps seen by AL Object ID Ninja share an App ID with another app, even though GUIDs should never collide",
+    "Collisions come from typing simple GUIDs by hand, shipping cloned demo repos unchanged, and copying projects without changing the App ID",
+    "Some duplicated IDs belong to AppSource apps; what happens when two such apps share a tenant is unknown",
+    "Ninja is working on public-platform features to warn about conflicting App IDs and keep object ID consumption separate",
+    "The author's advice is to create a new app with a fresh App ID and migrate customers to it"
   ],
   "systems": [
-    "development",
-    "administration"
+    "development"
   ],
   "topics": [
     "app id",

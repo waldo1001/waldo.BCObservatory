@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:09.736Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:04:06.967Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,8 +42,7 @@ links:
     - topic/dev-itpro/development/get-started
   localizations: []
   videos: []
-  posts:
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-08-enhance-your-al-development-with-the-al-mcp-server--9b231a3692
+  posts: []
   guidelines: []
   changes:
     - change/al-go/2304
@@ -62,7 +61,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 280951ab58ff0d16566c5b5922b1480da263f6efcf002cab84ac99778cd40934
@@ -108,6 +107,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2367 Enhance NuGet feed selection to support pre-release packages](../../../../changes/al-go/2367.md) (code change): "AL-Go now supports pre-release NuGet packages by adding"
 - [#2382 Fix dependency artifact pattern for branch names with glob-special characters](../../../../changes/al-go/2382.md) (code change): "Fixed a bug where dependency artifact downloads failed silently"
 - [#2407 Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency](../../../../changes/al-go/2407.md) (code change): "AL-Go for GitHub now supports GitHub Enterprise Cloud with dynamic host resolution"
-- [Enhance Your AL Development with the AL MCP Server](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-enhance-your-al-development-with-the-al-mcp-server--9b231a3692.md) (community post): "The AL MCP server ships with the AL development tools and gives AI agents tools"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

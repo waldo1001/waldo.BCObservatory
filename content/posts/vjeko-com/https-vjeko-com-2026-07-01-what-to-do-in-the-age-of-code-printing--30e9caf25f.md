@@ -2,7 +2,7 @@
 id: post/vjeko-com/https-vjeko-com-2026-07-01-what-to-do-in-the-age-of-code-printing--30e9caf25f
 type: post
 title: What to do in the age of code printing
-summary: The post argues that organizations should build centralized code-printing machines powered by AI rather than letting each developer create their own. Developers become machine operators focused on design and experimentation, enabling companies to test many ideas at the historical cost of testing one.
+summary: Replying to waldo's post on shared versus personal AI scaffolding, Vjeko argues that top engineers should build one tightly constrained code-printing machine for everyone in the company to use. Developers become operators who still own the design. Cheap construction then lets teams try many ideas for what one used to cost.
 tier: community
 language: en
 tags:
@@ -15,16 +15,16 @@ tags:
   - team structure
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:56.403Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:20.419Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 38b0f6efacd7d83cd1963ea3244051f7357cf21c51f27c6cfebd3b7cf1fb1492
+  input_hash: 88ded0c9a9dfce53cf3141891d34384d43b476b165ddef90fb54c16ce61ea34b
 evidence:
   - kind: blog
     url: https://vjeko.com/2026/07/01/what-to-do-in-the-age-of-code-printing/
@@ -72,15 +72,30 @@ quotes:
 code_objects_mentioned: []
 systems:
   - development
-  - platform
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: it also may happen that it produces junk at cosmic scale.
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://vjeko.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-1-2026-08_11_48-AM.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:08.343Z"
 ---
 
 # What to do in the age of code printing
 
-[Read the post](https://vjeko.com/2026/07/01/what-to-do-in-the-age-of-code-printing/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-07-01 · 957 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2026/07/01/what-to-do-in-the-age-of-code-printing/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-07-01 · 957 words · tier community · reviewed (checked by Opus)
 
-> The post argues that organizations should build centralized code-printing machines powered by AI rather than letting each developer create their own. Developers become machine operators focused on design and experimentation, enabling companies to test many ideas at the historical cost of testing one.
+> Replying to waldo's post on shared versus personal AI scaffolding, Vjeko argues that top engineers should build one tightly constrained code-printing machine for everyone in the company to use. Developers become operators who still own the design. Cheap construction then lets teams try many ideas for what one used to cost.
 
 ## Key points
 
@@ -93,6 +108,10 @@ versions_mentioned: []
 
 - "We can try fifty different ideas at the historic cost of trying one." (Explains the business value of centralized scaffolding enabling rapid experimentation)
 - "It needs constraints. It needs guidance. It needs the scaffolding." (Emphasizes that AI code generation requires human-designed structure and governance)
+
+## Heads up
+
+- gotcha: "it also may happen that it produces junk at cosmic scale."
 
 ## Context
 

@@ -16,16 +16,16 @@ tags:
   - versioning
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:53.873Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:39.612Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 39f03f04f27d6341678843cadcc3dc555439a977b9037f028a83ac515b7ca922
+  input_hash: b8b0f9c6062b4aacf37adb26fdbc50f73377521ed1753bfa832f8415297536be
 evidence:
   - kind: blog
     url: https://vjeko.com/2025/12/15/ninja-v3-is-live-where-we-are-and-what-comes-next/
@@ -56,24 +56,33 @@ code_objects_mentioned: []
 systems:
   - development
   - administration
-  - integration
 versions_mentioned:
   - v3
   - Ninja v3
+preview:
+  embeddable: false
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:20.816Z"
 ---
 
 # Ninja v3 Is Live — Where We Are and What Comes Next
 
-[Read the post](https://vjeko.com/2025/12/15/ninja-v3-is-live-where-we-are-and-what-comes-next/) · Vjeko.com (Vjekoslav Babić, MVP) · 2025-12-15 · 755 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2025/12/15/ninja-v3-is-live-where-we-are-and-what-comes-next/) · Vjeko.com (Vjekoslav Babić, MVP) · 2025-12-15 · 755 words · tier community · reviewed (checked by Opus)
 
 > AL Object ID Ninja v3 backend and VS Code extension are now in production with over 1,300 automated tests. The post covers the transition to commercial billing starting January 1st, new pricing models (flat per-user/app and pay-per-use), and maintenance expectations for self-hosted deployments during the feature expansion phase.
 
 ## Key points
 
-- Ninja v3 backend is live on new endpoints with latest Node runtime and comprehensive test coverage
-- Billing is free until January 1st; pricing has shifted from elastic to flat rates per user/app with optional pre-packaged tiers and pay-per-use model
-- Early Bird subscribers keep their original pricing indefinitely as long as they stay within specified limits, with flexibility to switch tiers anytime
-- Self-hosted backend deployments should expect more frequent updates in coming months as new features are added
+- Ninja v3 backend runs on new endpoints with the latest Node runtime and over 1,300 automated tests; the v3 VS Code extension is on the Marketplace
+- No usage counting or billing until January 1st; pricing moved from elastic to flat per user and per app, plus packaged tiers and pay-per-use
+- Early Bird customers keep their custom price while staying within their stated limits and can switch tiers at any time with the discount still applied
+- Self-hosted teams should update their backend right away and expect more frequent backend updates while new features land
 
 ## Context
 

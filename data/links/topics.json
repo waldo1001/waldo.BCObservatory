@@ -24680,218 +24680,290 @@
     "post/sshadows-dk/https://sshadows.dk/blog/al-language-server-claude-code/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/al-language-server-claude-code/",
-      "hash": "847cf3661ce5069e589bc2c3c284ee6ae129f2e8f658779004ce4d3bf3762308",
+      "hash": "b98c5ddf0e9849ed9a6a39454855903c67608f782e137330fdb6eb41cc238e53",
       "title": "Native AL Language Server Support in Claude Code",
       "source": "sshadows-dk",
-      "at": "2026-10-25T16:47:30.613Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "AL Language Server Protocol integration, enabling symbol-aware code navigation"
-        }
-      ]
+      "at": "2026-10-25T17:01:02.391Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+            "reason": "About language-server navigation in Claude Code, not code analyzers."
+          }
+        ]
+      }
     },
     "post/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/",
-      "hash": "7cfa417bbb1fa5fdb02099f5498020e0942a5ace1414d056e5465deebc802767",
+      "hash": "a85ba20998c1c74a8cbceb7d55ea66efee5d82642531ba569443a6bfdb9094a2",
       "title": "AL LSP for Agents: Now in VS Code, and a New Home",
       "source": "sshadows-dk",
-      "at": "2026-10-25T16:47:30.613Z",
+      "at": "2026-10-25T17:01:02.391Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
           "quote": "AL LSP for Agents brings compiler-powered code intelligence to VS Code Copilot"
-        },
-        {
-          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "eight Language Model Tools that give Copilot agent mode access to AL language server"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+            "reason": "About AI coding assistants navigating AL code, not about designing or coding Business Central agents."
+          },
+          {
+            "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+            "reason": "AI-agent LSP tooling; code-smell diagnostics are a side feature, not AL code analysis tooling as documented."
+          }
+        ]
+      }
     },
     "post/sshadows-dk/https://sshadows.dk/blog/al-perf-v2-deep-analysis/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/al-perf-v2-deep-analysis/",
-      "hash": "c6cef85518cd2df58f343d5ff422279346dc544531c1f70d895f879792001dcb",
+      "hash": "5dc89392315c71828d4613418bcb552c42430e3f80f39fadbb47ae13d0157c59",
       "title": "AL Perf v2 Drops Friday. Here's What Changed.",
       "source": "sshadows-dk",
-      "at": "2026-10-25T16:47:30.613Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "AI-powered performance diagnostics, enabling deeper root cause identification"
-        }
-      ]
+      "at": "2026-10-25T17:01:02.391Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+            "reason": "About a third-party AI performance-analysis tool, not the documented performance best practices."
+          }
+        ]
+      }
     },
     "post/sshadows-dk/https://sshadows.dk/blog/bc-toolbox-vs-microsoft-mcp/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/bc-toolbox-vs-microsoft-mcp/",
-      "hash": "f3feb8805d7b75233136dd3e38c4c4f25c982da9494645985973a0453ae51200",
+      "hash": "6a7b17c8920124db19bf34062513aac8d95606e60b42e8e9b352c7565db5aae8",
       "title": "Microsoft Ships an AL MCP Server. So Why Did I Build My Own?",
       "source": "sshadows-dk",
-      "at": "2026-10-25T16:47:30.613Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "Microsoft Ships an AL MCP Server. So Why Did I Build My Own?"
-        },
-        {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
-          "quote": "code coverage, interactive debugging, profiling analysis, call graphs"
-        }
-      ]
+      "at": "2026-10-25T17:01:02.391Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+            "reason": "About AL development MCP servers for coding and verification, not the Business Central MCP server integration."
+          },
+          {
+            "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+            "reason": "About custom MCP server tooling; testing is just one of several verification features."
+          }
+        ]
+      }
     },
     "post/sshadows-dk/https://sshadows.dk/blog/benchmark-llms-al-code/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/benchmark-llms-al-code/",
-      "hash": "e871df272dd3c4e26fdde3dbafa81a32d1c03245612a96c15916674e803d8abc",
+      "hash": "08593f49229bab846182f3e21e4f1ed33f139d5c97306b4c97dccca5f3c3e75f",
       "title": "How I Benchmark LLMs on AL Code",
       "source": "sshadows-dk",
-      "at": "2026-10-25T16:47:31.203Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
-          "quote": "evaluate Large Language Models on AL code generation for Business Central"
-        },
-        {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
-          "quote": "AL code generation; llm benchmarking; code quality evaluation"
-        }
-      ]
+      "at": "2026-10-25T17:01:02.391Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+            "reason": "About benchmarking LLMs on generating AL code; AI evaluation is the subject, and AL programming is only the example."
+          },
+          {
+            "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+            "reason": "About benchmarking AI models on writing AL code, not about AL coding best practices."
+          }
+        ]
+      }
     },
     "post/sshadows-dk/https://sshadows.dk/blog/business-central-on-linux/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/business-central-on-linux/",
-      "hash": "a4b4ced1fc9787069a8a5cafccd35acb0e4d90c938575dddb201b0320f59a4f3",
+      "hash": "eafb180164dd5a4ec392f3174615185b2a031a43972924d2edfcec7b4e740804",
       "title": "Business Central on Linux? Here, hold my beer!",
       "source": "sshadows-dk",
-      "at": "2026-10-25T16:47:31.193Z",
+      "at": "2026-10-25T17:01:12.916Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/business-central-on-premises/administration",
-          "quote": "Business Central cannot run natively on Linux because it depends deeply on Windows APIs"
+          "topic": "topic/dev-itpro/development/development-environment",
+          "quote": "Running Business Central on Linux via Wine required implementing missing Windows APIs"
         },
         {
-          "topic": "topic/dev-itpro/performance",
-          "quote": "65% faster build times on optimized Linux containers compared to Windows"
+          "topic": "topic/dev-itpro/development/development-environment/other-tools",
+          "quote": "Wine compatibility layer was extended by implementing missing HTTP.sys functions"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/business-central-on-premises/administration",
+            "reason": "A proof-of-concept that runs BC on Linux via Wine, which doesn't match any administration subtopic."
+          },
+          {
+            "topic": "topic/dev-itpro/performance",
+            "reason": "About running Business Central on Linux through Wine; the faster build times are a side result, not about Business Central performance."
+          }
+        ]
+      }
     },
     "post/sshadows-dk/https://sshadows.dk/blog/centralgauge-benchmark-update/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/centralgauge-benchmark-update/",
-      "hash": "5a06d6c33864d269d2b7ef56488965d175e80d23fd5fe780d496551095a9959e",
+      "hash": "fb2fb20b114fdb488b10d4af5c2d25afb2304fe985438d18b27ad0e9100d5eab",
       "title": "CentralGauge Benchmark Update: Why the Numbers Changed",
       "source": "sshadows-dk",
-      "at": "2026-10-25T16:47:31.203Z",
+      "at": "2026-10-25T17:01:07.935Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
-          "quote": "AL code generation in Business Central, underwent significant infrastructure"
-        },
-        {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
-          "quote": "al code generation; benchmark; llm evaluation; code extraction"
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "AL code generation in Business Central, after fixing code extraction bugs"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+            "reason": "An update to the same LLM benchmark; it covers the benchmark's own fixes, not AL programming."
+          },
+          {
+            "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+            "reason": "An update on benchmark infrastructure and model scores; it doesn't cover AL code best practices."
+          }
+        ]
+      }
     },
     "post/sshadows-dk/https://sshadows.dk/blog/from-work-item-to-pr-without-me/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/from-work-item-to-pr-without-me/",
-      "hash": "e71216fa62ca58c6f9a1f64b34abf29e9ce80ce0906a2b023c9480e51357dcee",
+      "hash": "37ae552e479d0548ac09d7b25d0512019526ed4a45f7d6df8c5d4b1916e539b7",
       "title": "I Tag a Work Item. Sometimes I Come Back to a PR.",
       "source": "sshadows-dk",
-      "at": "2026-10-25T16:47:31.203Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "AI agent pipeline for automating work item analysis, test planning, code generation"
-        }
-      ]
+      "at": "2026-10-25T17:01:07.935Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+            "reason": "It describes an AI pipeline for DevOps work items and code generation, not building agents inside Business Central with AL."
+          }
+        ]
+      }
     },
     "post/sshadows-dk/https://sshadows.dk/blog/one-click-performance-analysis-bc/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/one-click-performance-analysis-bc/",
-      "hash": "e44a832c840296412d211fdbbbf71b6b247ef6924691ab1ff42cbc19cb0a3b23",
+      "hash": "184b57a28a5fe944a5cc94c70d2d1ba4795ff6a814abfd8610361aa86336c3e3",
       "title": "One-Click Performance Analysis Inside Business Central",
       "source": "sshadows-dk",
-      "at": "2026-10-25T16:47:31.203Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler",
-          "quote": "AI-powered performance analysis directly into Business Central's Performance Profiler"
-        },
-        {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "detecting anti-patterns and explaining results without switching tools"
-        }
-      ]
+      "at": "2026-10-25T17:01:07.935Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler",
+            "reason": "Its subject is a third-party AI analysis extension added to the profiler page, not the documented profiler itself."
+          },
+          {
+            "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+            "reason": "Promotes a third-party extension added to the Performance Profiler page; the subject is the tool, not coding best practices."
+          }
+        ]
+      }
     },
     "post/sshadows-dk/https://sshadows.dk/blog/one-parser-six-tools/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/one-parser-six-tools/",
-      "hash": "9de2fa178d363f8e823c0e7921f2c4781e9fd5765facc4d022ec121931ca8e4d",
+      "hash": "c7eba6431bbe30556c9817b3d8ca46f194da2ca9fbac1c180d49d284d6c878fc",
       "title": "One Parser, Six Tools",
       "source": "sshadows-dk",
-      "at": "2026-10-25T16:47:31.203Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "tree-sitter-based AL parser enables multiple developer tools including code navigation"
-        },
-        {
-          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "structural search, LLM training data extraction, AI-powered code understanding"
-        }
-      ]
+      "at": "2026-10-25T17:01:07.935Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+            "reason": "About a tree-sitter AL parser and the developer tools built on it, which has nothing to do with the Copilot toolkit."
+          },
+          {
+            "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+            "reason": "About a tree-sitter parser and tools built on it, not AL code analyzers."
+          }
+        ]
+      }
     },
     "post/sshadows-dk/https://sshadows.dk/blog/other-peoples-code-in-my-repos/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/other-peoples-code-in-my-repos/",
-      "hash": "aaffbf4ce022a599819c13fb577a21cfe80eb479cfb63eb0ab80a51b5c75f70a",
+      "hash": "59426bf66bafcfa98c64fd1105eba6b18a82d889f320809e999d4b36b15bb5c1",
       "title": "Other People's Code in My Repos, and Mine in Theirs",
       "source": "sshadows-dk",
-      "at": "2026-10-25T16:47:31.203Z",
+      "at": "2026-10-25T17:01:07.935Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "AL and Business Central development tools from external developers"
-        },
-        {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "LethAL mutation testing tool released to verify test quality by introducing deliberate"
+          "topic": "topic/dev-itpro/development/get-started",
+          "quote": "contributions to AL and Business Central development tools from external developers"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+            "reason": "It's a roundup of community AL tooling contributions and has nothing on coding Business Central agents."
+          },
+          {
+            "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+            "reason": "A roundup of open-source contributions; performance is only mentioned in passing."
+          }
+        ]
+      }
     },
     "post/sshadows-dk/https://sshadows.dk/blog/tree-sitter-al-v2-rewrite/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/tree-sitter-al-v2-rewrite/",
-      "hash": "e31db4e8f1a77b7144285bcfa973d6bf632de963d28bd920d454910314ec0e9e",
+      "hash": "0d7c7473cb7161c8d617aa39630a9097535cbf8df2085c0165ec80e61b2d01c5",
       "title": "I Rewrote My Tree-Sitter Grammar From Scratch. It Got 10x Smaller.",
       "source": "sshadows-dk",
-      "at": "2026-10-25T16:47:29.710Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "code analysis; syntax highlighting; language server"
-        }
-      ]
+      "at": "2026-10-25T17:01:07.935Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+            "reason": "About rewriting a tree-sitter grammar; code analysis is only a tag."
+          }
+        ]
+      }
     },
     "post/sshadows-dk/https://sshadows.dk/blog/your-tests-all-pass/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/your-tests-all-pass/",
-      "hash": "da230286dcfe5060c019056e2b24e992eb4aa84e00fabaf5b9a0e95f901db1b8",
+      "hash": "f03044501f502b0e89604190ce3e8a0fbfc19c18229fd96a57ec4da06a2fb131",
       "title": "Your Tests All Pass. I Have Bad News.",
       "source": "sshadows-dk",
-      "at": "2026-10-25T16:47:29.710Z",
+      "at": "2026-10-25T17:01:02.005Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
-          "quote": "mutation testing is a technique that validates test quality"
+          "quote": "Mutation testing is a technique that validates test quality by intentionally breaking code"
         },
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing",
-          "quote": "mutation testing checks whether a test would notice if that line broke"
+          "quote": "mutation testing shows whether a test would notice that line breaking"
         }
       ]
     },
@@ -28285,6 +28357,278 @@
       "at": "2026-10-17T01:10:54.814Z",
       "matches": []
     },
+    "post/vjeko-com/https://vjeko.com/2025/11/09/end-of-free-backend-for-al-object-id-ninja/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2025/11/09/end-of-free-backend-for-al-object-id-ninja/",
+      "hash": "b0e45f5091b0be42b283baf9bfebb319af5b5f84a01c5a0200a694ab63fea807",
+      "title": "End of free backend for AL Object ID Ninja",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:02.005Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Object ID Ninja, a free tool for managing object IDs in Business Central development"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2025/11/11/al-object-id-ninja-please-register-your-intent/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2025/11/11/al-object-id-ninja-please-register-your-intent/",
+      "hash": "b000cddf50a7ec62920e9c889360fa474847d35b8c58af2e67395ee79d3de432",
+      "title": "AL Object ID Ninja: Please Register Your Intent",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:02.005Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Object ID Ninja, a tool used by thousands of teams to prevent object ID conflicts"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2025/11/19/al-object-id-ninja-self-hosting-vs-hassle-free-the-data-tells-a-curious-story/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2025/11/19/al-object-id-ninja-self-hosting-vs-hassle-free-the-data-tells-a-curious-story/",
+      "hash": "7ecb8be21d7017598f741ea1ec68e3faf05e28906a858cf450a652ce8402850a",
+      "title": "AL Object ID Ninja: Self-Hosting vs. Hassle-Free (the data tells a curious story)",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:02.005Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Object ID Ninja, a tool for managing object IDs across teams"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2025/12/03/a-story-about-trust-why-one-team-moved-from-private-endpoints-to-the-hosted-ninja-backend/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2025/12/03/a-story-about-trust-why-one-team-moved-from-private-endpoints-to-the-hosted-ninja-backend/",
+      "hash": "d713134c1e14a0c88c705e2a0d83b5ba1655aaa58d6bf55907eadf27447ca112",
+      "title": "A Story About Trust: Why LS Retail Moved from Private Endpoints to the Hosted Ninja Backend",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:02.005Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Object ID Ninja user, transitioned from maintaining their own private backend infrastructure"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2025/12/08/al-object-id-ninja-v3-0-platform-launching-on-december-15/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2025/12/08/al-object-id-ninja-v3-0-platform-launching-on-december-15/",
+      "hash": "7b42e6f2d5909bdc4b809fab94ac7aff478fa5103ee0b6ca12ba398f22365dfb",
+      "title": "AL Object ID Ninja v3.0 Platform Launching on December 15",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:02.005Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Object ID Ninja v3.0 is launching on December 15 as a commercial platform"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2025/12/12/important-announcement-for-teams-maintaining-private-al-object-id-ninja-backend-get-ready-for-v3/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2025/12/12/important-announcement-for-teams-maintaining-private-al-object-id-ninja-backend-get-ready-for-v3/",
+      "hash": "5e3aa31e1ec07aa3545780110b6ab6a3fc649dfe3d606f88ca919cee0725a77d",
+      "title": "Important announcement for teams maintaining private AL Object ID Ninja backend – get ready for “v3”",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:03.952Z",
+      "matches": []
+    },
+    "post/vjeko-com/https://vjeko.com/2025/12/15/ninja-v3-is-live-where-we-are-and-what-comes-next/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2025/12/15/ninja-v3-is-live-where-we-are-and-what-comes-next/",
+      "hash": "805605491e2647c84e4a8794aac0fd58cd385ef9aac7986aa03010f64e2a3f63",
+      "title": "Ninja v3 Is Live — Where We Are and What Comes Next",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:03.952Z",
+      "matches": []
+    },
+    "post/vjeko-com/https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/",
+      "hash": "175dd9cc3dc8bfd6c85354869f87f8c959fab1865dc1eaab2b03af940d00dd29",
+      "title": "Object IDs, now assignable by VS Code agents (LM tool integration)",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:03.952Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "Agents writing AL code can now request object IDs"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2026/01/27/when-guids-collide-the-app-id-problem-nobody-expected/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2026/01/27/when-guids-collide-the-app-id-problem-nobody-expected/",
+      "hash": "701d18046d00bcb07a1d242363a02dea29e1b69a39df63acb09a2a4d462c3f57",
+      "title": "When GUIDs Collide: The App ID Problem Nobody Expected",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:03.952Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "Nearly 150 duplicate App IDs exist among 50,000 apps tracked"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/",
+      "hash": "fd8ac5e66ecf8ce0d75c3303fd74ea0df7bc9046f5c242b31bba717c6dbaed19",
+      "title": "AL Object ID Ninja MCP Server Is Here",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:03.952Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "MCP Server provides AI coding assistants with programmatic access"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2026/03/05/al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2026/03/05/al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house/",
+      "hash": "3edb965b886ae677b172ee7bdf327c45d46db734c66e871ef7108d2086ec62b5",
+      "title": "AL Object ID Ninja: An Apology, a Decision, and a Month on the House",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:03.952Z",
+      "matches": []
+    },
+    "post/vjeko-com/https://vjeko.com/2026/03/09/al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2026/03/09/al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days/",
+      "hash": "b127322b7a23994fa2c628a6ea6caae09035215ca2b7d55484d84814cd2a368b",
+      "title": "AL Object ID Ninja 3.2.1: A Lot Has Happened in Four Days",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:03.250Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Object ID Ninja 3.2.1 introduces app pools as first-class citizens"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/",
+      "hash": "21ebe46da2a82ee4a15827e7f7f14a407954cd59d5d66c9cdb59ccb5b0c64b01",
+      "title": "Context Engineering – The Thing Almost Nobody Is Actually Talking About",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:03.250Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Context engineering is the skill of strategically filling the context window"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2026/03/16/your-object-ids-have-no-excuse-now-ninja-comes-to-ci-cd/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2026/03/16/your-object-ids-have-no-excuse-now-ninja-comes-to-ci-cd/",
+      "hash": "6feb82db9d772dabf4ee5e3d65e8d855ac15bc3923c73ff7fc5d117452d8de2e",
+      "title": "Your Object IDs Have No Excuse Now – Ninja Comes to CI/CD",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:03.250Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Object ID Ninja, now available as a GitHub Action and Azure DevOps Pipeline Task"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2026/05/03/the-mcp-bridge-al-language-tools-for-every-agent/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2026/05/03/the-mcp-bridge-al-language-tools-for-every-agent/",
+      "hash": "c8728131200d1a8f516ce588f528dd950f480d6d5fba828396f41ec1dcedb09b",
+      "title": "The MCP Bridge: AL Language Tools for Every Agent",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:03.250Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "The MCP Bridge is a VS Code extension that exposes AL Language tools as an MCP server"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/",
+      "hash": "390ce696bf2921ff4183caaa3d3569fd1f9729fada6b9599469df5dcdecb40dd",
+      "title": "From beep to empty seat: the six levels of self-driving code",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:03.250Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Agentic coding succeeds inside a geofence defined by you: a bounded domain"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2026/07/01/what-to-do-in-the-age-of-code-printing/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2026/07/01/what-to-do-in-the-age-of-code-printing/",
+      "hash": "9a1570f43803bb406f8565955a2c24cacc9d548a9917254118be6d45ca77e637",
+      "title": "What to do in the age of code printing",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:03.250Z",
+      "matches": []
+    },
+    "post/vjeko-com/https://vjeko.com/2026/07/02/real-programmers-dont-use-pascal/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2026/07/02/real-programmers-dont-use-pascal/",
+      "hash": "dcdd7ec024bd98f15ca12957e7080eeb26c58dc9f664e833af8c09645146878d",
+      "title": "Real Programmers Don’t Use Pascal",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:05.669Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai",
+          "quote": "AI fundamentally changes the relationship between human intent and machine translation"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/",
+      "hash": "53d87f6371cf8af121fe59fa1ac8bf06ce4cb7eb9de077a601c6a4915f4fdfb7",
+      "title": "I don’t trust my agents either",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:05.669Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "safely deploy code written by AI agents directly to production"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing",
+          "quote": "The pipeline uses specialized sub-agents at every stage to enforce specific checks"
+        }
+      ]
+    },
+    "post/vjeko-com/https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/": {
+      "kind": "post",
+      "key": "post/vjeko-com/https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/",
+      "hash": "c78d6cafcf2198f74677b1f1a7edc341b4b7f9d54ac17f3e7105f88c13099185",
+      "title": "What You’re Actually Saying When You Say “AI Doesn’t Work”",
+      "source": "vjeko-com",
+      "at": "2026-10-25T17:01:04.867Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "agentic engineering; ai failures; vibe coding; context engineering; engineering discipline"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai",
+          "quote": "each major AI failure mode has a specific cause and remedy"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "engineering disciplines like planning, testing, code review, and proper decomposition"
+        }
+      ]
+    },
     "post/vondervoort-be/130": {
       "kind": "post",
       "key": "post/vondervoort-be/130",
@@ -29500,16 +29844,25 @@
     "video/2Zz55J8rt8I": {
       "kind": "video",
       "key": "video/2Zz55J8rt8I",
-      "hash": "7781c51349d53fa9ff33c90f53125329c2e131fed567794413eda1773e02920d",
+      "hash": "2b255acdd1c24684dabb39c92c909dddcb963742a4e8329ef0682b167cef2264",
       "title": "Use Teaching Tips to Educate and Guide Users",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:20.680Z",
+      "at": "2026-10-25T17:01:02.391Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
-          "quote": "Teaching Tips; Tours with Teaching Tips"
+          "topic": "topic/business-central/development-and-administration/customize-business-central",
+          "quote": "Use Teaching Tips to Educate and Guide Users"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
+            "reason": "The evidence shows only teaching tips and tours for guiding users, with nothing tying them to AL page development in this section."
+          }
+        ]
+      }
     },
     "video/3jr6gUuGem4": {
       "kind": "video",
@@ -34847,16 +35200,29 @@
     "video/MKuOgMWXJ_8": {
       "kind": "video",
       "key": "video/MKuOgMWXJ_8",
-      "hash": "632ba8937966fdc2fe632f6e3e25f9a7748abf22db4a788824a5bbcc866b07b5",
+      "hash": "c36e072796ffcd3b6e4c5b167e50ca2b5c6ed27cc2b59fc729e2fcd1f61ba3a6",
       "title": "What's New: Sales Validation Sample Agent for Business Central",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:26.094Z",
+      "at": "2026-10-25T17:01:08.983Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
           "quote": "Sales Validation Agent; Agent Configuration Card; Agent Dedicated Profile"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "agent setup; permissions; Task Tracking UI; Agent Credit Usage Tracking"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:00:53.705Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+            "reason": "Covers setting up and using a ready-made sample agent, not designing or coding one."
+          }
+        ]
+      }
     },
     "video/MNwTt06ZxwY": {
       "kind": "video",

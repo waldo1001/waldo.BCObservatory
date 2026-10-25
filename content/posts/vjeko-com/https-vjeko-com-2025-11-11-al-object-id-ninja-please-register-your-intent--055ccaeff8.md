@@ -2,7 +2,7 @@
 id: post/vjeko-com/https-vjeko-com-2025-11-11-al-object-id-ninja-please-register-your-intent--055ccaeff8
 type: post
 title: "AL Object ID Ninja: Please Register Your Intent"
-summary: "AL Object ID Ninja, a tool used by thousands of teams to prevent object ID conflicts, is transitioning to a paid hosted model and seeks user commitments by January 2026. The post explains two options: continue with a managed premium service or self-host on Azure, and invites teams to register interest for a discounted lifetime price."
+summary: AL Object ID Ninja's author asks teams that plan to keep using the hosted backend after 1 January 2026 to register their intent at alid.ninja. Registering is free and not a subscription, and it locks in a 35% lifetime discount. If too few teams register, the shared backend will shut down on 31 December 2025. Self-hosting on your own Azure subscription stays available either way.
 tier: community
 language: en
 tags:
@@ -13,16 +13,16 @@ tags:
   - deployment options
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:56.343Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:55.382Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 5e18d19d5af2a0703e0844f81552cc4f504f3878c2d1ca010fdcfebd73a4d4bc
+  input_hash: e99682702f3368e6645ee84282fd51e12b283af2f07c62383ba52b0b41ed4e9b
 evidence:
   - kind: blog
     url: https://vjeko.com/2025/11/11/al-object-id-ninja-please-register-your-intent/
@@ -61,23 +61,32 @@ quotes:
 code_objects_mentioned: []
 systems:
   - development
-  - administration
 versions_mentioned: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:26.456Z"
 ---
 
 # AL Object ID Ninja: Please Register Your Intent
 
-[Read the post](https://vjeko.com/2025/11/11/al-object-id-ninja-please-register-your-intent/) · Vjeko.com (Vjekoslav Babić, MVP) · 2025-11-11 · 352 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2025/11/11/al-object-id-ninja-please-register-your-intent/) · Vjeko.com (Vjekoslav Babić, MVP) · 2025-11-11 · 352 words · tier community · reviewed (checked by Opus)
 
-> AL Object ID Ninja, a tool used by thousands of teams to prevent object ID conflicts, is transitioning to a paid hosted model and seeks user commitments by January 2026. The post explains two options: continue with a managed premium service or self-host on Azure, and invites teams to register interest for a discounted lifetime price.
+> AL Object ID Ninja's author asks teams that plan to keep using the hosted backend after 1 January 2026 to register their intent at alid.ninja. Registering is free and not a subscription, and it locks in a 35% lifetime discount. If too few teams register, the shared backend will shut down on 31 December 2025. Self-hosting on your own Azure subscription stays available either way.
 
 ## Key points
 
-- AL Object ID Ninja has prevented object ID conflicts for thousands of teams over four years
-- Users can choose between a hosted premium backend or self-hosting on their own Azure subscription
-- Early registrants receive a 35% lifetime discount on the hosted service
-- The hosted backend will shut down on 31 December 2025 if insufficient interest is registered
-- Self-hosting remains permanently available as an open-source option
+- The author is asking for a no-commitment registration of intent to plan the move to a premium hosted service
+- Early registrants lock in a 35% lifetime super-early-bird discount
+- The hosted premium path offers zero setup, new features, support, a management portal and a mobile app
+- Teams can still self-host on Azure but carry the infrastructure, maintenance and support costs themselves
+- If interest is too low, the shared backend shuts down on 31 December 2025
 
 ## Quotes
 

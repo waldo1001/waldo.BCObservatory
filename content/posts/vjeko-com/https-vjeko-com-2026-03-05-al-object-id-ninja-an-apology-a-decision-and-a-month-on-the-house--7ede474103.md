@@ -2,7 +2,7 @@
 id: post/vjeko-com/https-vjeko-com-2026-03-05-al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house--7ede474103
 type: post
 title: "AL Object ID Ninja: An Apology, a Decision, and a Month on the House"
-summary: AL Object ID Ninja, a free tool for managing object IDs in Business Central, transitions to a commercial model after four years of self-funded operation. The creator closes the self-hosting option due to a competitor bundling private backend access to undercut the commercial service, and offers a one-month grace period for affected users.
+summary: The author of AL Object ID Ninja, which already went commercial after four self-funded years, is ending private self-hosted backend support and closing the source code. He says this is because an established BC company bundled its own Ninja-compatible backend into its paid offering. Private backend users get a one-month grace period on the commercial platform, or they can turn off auto-update and keep their current extension version.
 tier: community
 language: en
 tags:
@@ -13,16 +13,16 @@ tags:
   - commercial sustainability
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:54.105Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:37.105Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 22e7055a1c185df4161ccbfe937b6de505a9120b036a38114026d265fb1728ef
+  input_hash: 5f24d8a36025339743a19358b449e52a1f318c3d5a43940a1981d1554056cea3
 evidence:
   - kind: blog
     url: https://vjeko.com/2026/03/05/al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house/
@@ -67,19 +67,39 @@ quotes:
     why_it_matters: Establishes the creator's personal financial commitment and context for why changes were necessary
   - text: I just can't afford to be anyone's fool.
     why_it_matters: Captures the emotional and practical justification for closing self-hosting to prevent further exploitation
-code_objects_mentioned:
-  - other AL Object ID Ninja
+code_objects_mentioned: []
 systems:
   - development
   - administration
 versions_mentioned: []
+cautions:
+  - kind: breaking
+    quote: Private backend support is gone. Starting today, the source code is no longer open.
+    objects: []
+    events: []
+    versions: []
+  - kind: breaking
+    quote: A couple of days after that, I will release an update that will no longer support connections to private backends.
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://vjeko.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-5-2026-03_44_52-PM.jpg
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:16.242Z"
 ---
 
 # AL Object ID Ninja: An Apology, a Decision, and a Month on the House
 
-[Read the post](https://vjeko.com/2026/03/05/al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-03-05 · 1290 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2026/03/05/al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-03-05 · 1290 words · tier community · reviewed (checked by Opus)
 
-> AL Object ID Ninja, a free tool for managing object IDs in Business Central, transitions to a commercial model after four years of self-funded operation. The creator closes the self-hosting option due to a competitor bundling private backend access to undercut the commercial service, and offers a one-month grace period for affected users.
+> The author of AL Object ID Ninja, which already went commercial after four self-funded years, is ending private self-hosted backend support and closing the source code. He says this is because an established BC company bundled its own Ninja-compatible backend into its paid offering. Private backend users get a one-month grace period on the commercial platform, or they can turn off auto-update and keep their current extension version.
 
 ## Key points
 
@@ -94,11 +114,10 @@ versions_mentioned: []
 - "For four years, I ran the backend out of my own pocket." (Establishes the creator's personal financial commitment and context for why changes were necessary)
 - "I just can't afford to be anyone's fool." (Captures the emotional and practical justification for closing self-hosting to prevent further exploitation)
 
-## AL objects mentioned
+## Heads up
 
-As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
-
-- other "AL Object ID Ninja"
+- breaking: "Private backend support is gone. Starting today, the source code is no longer open."
+- breaking: "A couple of days after that, I will release an update that will no longer support connections to private backends."
 
 ## Context
 

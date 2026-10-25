@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.420Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:04:06.967Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -95,6 +95,7 @@ links:
     - video/JI9OpaBx0nk
   posts:
     - post/jpearson-blog/1590
+    - post/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620
   guidelines: []
   changes:
     - change/al-go/2342
@@ -121,7 +122,7 @@ coverage:
   learn: 8
   code: 0
   video: 3
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 149000
@@ -191,6 +192,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9293 [Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)](../../../../changes/bcapps/9293.md) (code change): "Six new tests added covering the corrected behavior"
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../changes/bcquality/159.md) (code change): "AL testing patterns from an external BC testing expert's blog"
 - [Why do all my tests show up twice in the test explorer?](../../../../posts/jpearson-blog/1590.md) (community post): "Tests show up twice in the VS Code test explorer when the pre-release AL Language extension"
+- [Your Tests All Pass. I Have Bad News.](../../../../posts/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620.md) (community post): "Mutation testing is a technique that validates test quality by intentionally breaking code"
 - [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../../videos/9CW5mydS9Vs.md) (video): "Tests dependencies runners and evals for BC applications"
 - [What's new: Testability Enhancements (2026 release wave 2)](../../../../videos/hNom9ZZuca0.md) (video): "Data-driven Testing in AL"
 - [Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)](../../../../videos/JI9OpaBx0nk.md) (video): "outbound http testing; mocking; HTTP client handler; test isolation; request interception"

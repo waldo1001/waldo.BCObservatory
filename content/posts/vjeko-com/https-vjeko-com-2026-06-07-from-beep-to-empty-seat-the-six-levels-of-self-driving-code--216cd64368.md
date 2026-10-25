@@ -15,16 +15,16 @@ tags:
   - code quality
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:47.783Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:24.266Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 4ab52363e1eabbb7032bd27447befc558ba3714fb8e05154219b418dd355786f
+  input_hash: 996844b803b7d7d4c0de0a03af8e570a4a78c15136929df4d8e94676c1cb85cb
 evidence:
   - kind: blog
     url: https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/
@@ -63,14 +63,28 @@ quotes:
 code_objects_mentioned: []
 systems:
   - development
-  - platform
-  - copilot
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: the agent didn't fail at all. It was you who just sent it away and forgot to build the road.
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://vjeko.com/wp-content/uploads/2026/06/3c2716cb-472a-4503-934c-11d5d9e1afe0.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:09.431Z"
 ---
 
 # From beep to empty seat: the six levels of self-driving code
 
-[Read the post](https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-06-07 · 3319 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-06-07 · 3319 words · tier community · reviewed (checked by Opus)
 
 > The post maps the SAE J3016 six-level autonomy scale from self-driving cars (Level 0 to 5) directly onto software development practices, showing how agentic coding follows the same pattern. It emphasizes that high autonomy (Level 4) requires domain control through testing, clean code, and fast feedback loops rather than relying solely on AI model capability.
 
@@ -86,8 +100,12 @@ versions_mentioned: []
 
 - "Capability gets you to the start line. Control is what lets you actually let go of the wheel." (Clarifies that model intelligence alone is insufficient; domain control and proper scaffolding determine whether agents can operate autonomously)
 
+## Heads up
+
+- gotcha: "the agent didn't fail at all. It was you who just sent it away and forgot to build the road."
+
 ## Context
 
-- Features: agentic feedback loop, agent scaffolding, domain geofencing, reviewer agents, autonomous code generation, conditional automation, supervisor oversight
+- Features: agentic feedback loop, agent scaffolding, domain geofencing, reviewer agents, autonomous code generation
 
 Source: Vjeko.com, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

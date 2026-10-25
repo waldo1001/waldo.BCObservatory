@@ -14,16 +14,16 @@ tags:
   - agent-driven coding
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:53.873Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:37.091Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 335057af4a27834d78cb4918f3e88b2bf69cf7177cf23e22a344b2d7ca042a15
+  input_hash: 83da4b45c348a1547ead48f21635fa1bb34fd549b4dad88593649c16fd3014fb
 evidence:
   - kind: blog
     url: https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/
@@ -62,14 +62,23 @@ quotes:
 code_objects_mentioned: []
 systems:
   - development
-  - platform
 versions_mentioned:
   - Ninja 3.1.0
+preview:
+  embeddable: false
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:19.694Z"
 ---
 
 # Object IDs, now assignable by VS Code agents (LM tool integration)
 
-[Read the post](https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-01-07 · 330 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-01-07 · 330 words · tier community · reviewed (checked by Opus)
 
 > AL Object ID Ninja 3.1.0 enables language-model agents in VS Code to assign object IDs directly via tool integration, eliminating manual ID allocation when agents write AL code. This feature ensures conflict-free ID assignment across multiple apps in real time.
 

@@ -13,16 +13,16 @@ tags:
   - api architecture
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:53.873Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:44.886Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 0670c885942ab213669aeaab5cd678e9166aa91c0184b529699d7bf349a6496f
+  input_hash: cbee9431076241d98ad69098eeae2d592edef1c7a44fed170ebb5b92b419984e
 evidence:
   - kind: blog
     url: https://vjeko.com/2025/12/12/important-announcement-for-teams-maintaining-private-al-object-id-ninja-backend-get-ready-for-v3/
@@ -72,11 +72,27 @@ systems:
   - development
 versions_mentioned:
   - v3
+cautions:
+  - kind: warning
+    quote: If users upgrade the extension before the backend is ready, the extension won't be able to communicate correctly until the backend is updated.
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:22.006Z"
 ---
 
 # Important announcement for teams maintaining private AL Object ID Ninja backend – get ready for “v3”
 
-[Read the post](https://vjeko.com/2025/12/12/important-announcement-for-teams-maintaining-private-al-object-id-ninja-backend-get-ready-for-v3/) · Vjeko.com (Vjekoslav Babić, MVP) · 2025-12-12 · 507 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2025/12/12/important-announcement-for-teams-maintaining-private-al-object-id-ninja-backend-get-ready-for-v3/) · Vjeko.com (Vjekoslav Babić, MVP) · 2025-12-12 · 507 words · tier community · reviewed (checked by Opus)
 
 > AL Object ID Ninja v3 backend introduces a cleaner REST-idiomatic architecture with improved maintainability. Self-hosted teams must deploy the new backend first, then update the extension; users upgrading early will lose connectivity until the backend is ready.
 
@@ -91,6 +107,10 @@ versions_mentioned:
 
 - "The new backend and the old extension are not compatible, and the new extension is not compatible with the old backend." (This incompatibility is a critical breaking change that requires coordinated migration for self-hosted teams)
 - "For teams using the public Ninja backend, this transition is fully managed and you won't notice a thing." (Hosted users get automatic migration with no action required, distinguishing their experience from self-hosted teams)
+
+## Heads up
+
+- warning: "If users upgrade the extension before the backend is ready, the extension won't be able to communicate correctly until the backend is updated."
 
 ## Context
 

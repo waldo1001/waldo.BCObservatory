@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:13:56.435Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T17:00:31.013Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -163,6 +163,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/vjeko-com/https-vjeko-com-2026-03-14-context-engineering-the-thing-almost-nobody-is-actually-talking-about--a5c42b9d92
+      title: Context Engineering – The Thing Almost Nobody Is Actually Talking About
+      label: possibly related
+      why: both name Table 254 "VAT Entry"
+      by: code
     - to: video/fIOnGEARkKs
       title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1"
       label: possibly related
@@ -464,6 +469,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Context Engineering – The Thing Almost Nobody Is Actually Talking About](../posts/vjeko-com/https-vjeko-com-2026-03-14-context-engineering-the-thing-almost-nobody-is-actually-talking-about--a5c42b9d92.md) — possibly related: both name Table 254 "VAT Entry"
 - [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../videos/fIOnGEARkKs.md) — possibly related: both name Table 4 "Currency"
 
 Presenters (as heard): Yen, Kenny.

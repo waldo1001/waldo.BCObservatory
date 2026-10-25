@@ -2,7 +2,7 @@
 id: post/vjeko-com/https-vjeko-com-2026-05-30-ubi-wont-save-us-and-the-nurse-will-tell-you-why--6c1afb4fe0
 type: post
 title: UBI won’t save us, and the nurse will tell you why
-summary: This post discusses Universal Basic Income and artificial intelligence's impact on employment, particularly focusing on essential workers like nurses. It argues that UBI would not solve inequality and presents concerns about labor market disruption.
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -12,16 +12,16 @@ tags:
   - labor economics
   - social policy
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-25T17:03:47.783Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:24.439Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 4dcfd346e1d8a6313e968828640a193a16a91d6345a2bf542d9c38ac574f7ff5
+  input_hash: bef4e0ad0d63a939d77a720da9575233b6a77445e4b1a37fdcb7af4f1ec43d1e
 evidence:
   - kind: blog
     url: https://vjeko.com/2026/05/30/ubi-wont-save-us-and-the-nurse-will-tell-you-why/
@@ -69,20 +69,23 @@ quotes:
 code_objects_mentioned: []
 systems: []
 versions_mentioned: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://vjeko.com/wp-content/uploads/2026/05/ChatGPT-Image-May-30-2026-11_33_28-AM.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:10.533Z"
 ---
 
 # UBI won’t save us, and the nurse will tell you why
 
-[Read the post](https://vjeko.com/2026/05/30/ubi-wont-save-us-and-the-nurse-will-tell-you-why/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-05-30 · 1312 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2026/05/30/ubi-wont-save-us-and-the-nurse-will-tell-you-why/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-05-30 · 1312 words · tier community · **flagged** (a review found a problem)
 
-> This post discusses Universal Basic Income and artificial intelligence's impact on employment, particularly focusing on essential workers like nurses. It argues that UBI would not solve inequality and presents concerns about labor market disruption.
-
-## Key points
-
-- UBI does not address the problem that essential, undesirable work still needs to be done and someone must perform it
-- Without incentives, workers like nurses may abandon necessary but unpleasant jobs, forcing society to offer higher pay and recreate existing labor-based systems
-- UBI benefits would concentrate in wealthy countries with AI industries, potentially increasing global inequality rather than reducing it
-- Pilot programs in Finland, Mongolia, and Iran proved inconclusive, and Sam Altman himself became skeptical of UBI after his own experiment
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Quotes
 

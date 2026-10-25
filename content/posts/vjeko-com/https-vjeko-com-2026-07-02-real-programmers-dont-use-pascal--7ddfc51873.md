@@ -2,7 +2,7 @@
 id: post/vjeko-com/https-vjeko-com-2026-07-02-real-programmers-dont-use-pascal--7ddfc51873
 type: post
 title: Real Programmers Don’t Use Pascal
-summary: The post traces programming history from the 9th century through modern AI, arguing that each new abstraction level (assembly, compilers, AI-generated code) faces skepticism from practitioners invested in the previous layer. Rather than code-reading becoming obsolete, the real scarce skill is understanding intent, specifying requirements, and verifying results.
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -13,16 +13,16 @@ tags:
   - agentic engineering
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-25T17:03:56.403Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:21.688Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 8ef68b994d32bf6d33388057aa41688a8a7cfbcce3d34dfea55b1cc478582cdc
+  input_hash: f7e9ab6bdfee63d8e594447dff79269c22ea044affd138492f08ea7ab8d25d00
 evidence:
   - kind: blog
     url: https://vjeko.com/2026/07/02/real-programmers-dont-use-pascal/
@@ -72,21 +72,23 @@ systems:
   - development
   - copilot
 versions_mentioned: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://vjeko.com/wp-content/uploads/2026/07/Barking-up-a-wrong-tree-copy.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:07.090Z"
 ---
 
 # Real Programmers Don’t Use Pascal
 
-[Read the post](https://vjeko.com/2026/07/02/real-programmers-dont-use-pascal/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-07-02 · 1370 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2026/07/02/real-programmers-dont-use-pascal/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-07-02 · 1370 words · tier community · **flagged** (a review found a problem)
 
-> The post traces programming history from the 9th century through modern AI, arguing that each new abstraction level (assembly, compilers, AI-generated code) faces skepticism from practitioners invested in the previous layer. Rather than code-reading becoming obsolete, the real scarce skill is understanding intent, specifying requirements, and verifying results.
-
-## Key points
-
-- Each programming abstraction - from assembly to compilers to AI - was initially dismissed as cheating by those comfortable with the previous layer.
-- AI fundamentally changes the relationship between human intent and machine translation by allowing iterative conversation rather than requiring complete upfront formal specification.
-- Code transitions from the single source of truth to an intermediate artifact, just as assembly output became after compilation gained acceptance.
-- The core skill that persists across all abstraction levels is not syntax or code-reading, but judging whether the system behaves as needed and closing gaps between intent and execution.
-- Code-reading expertise won't disappear but will shift from universal requirement to specialized niche, following the pattern of assembly language knowledge today.
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Quotes
 

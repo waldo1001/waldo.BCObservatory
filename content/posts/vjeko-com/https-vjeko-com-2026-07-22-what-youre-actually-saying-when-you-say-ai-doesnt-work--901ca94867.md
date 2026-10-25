@@ -2,7 +2,7 @@
 id: post/vjeko-com/https-vjeko-com-2026-07-22-what-youre-actually-saying-when-you-say-ai-doesnt-work--901ca94867
 type: post
 title: What You’re Actually Saying When You Say “AI Doesn’t Work”
-summary: When people claim AI doesn't work, they're confessing they don't know how to use it properly, not revealing a limitation of AI itself. The post argues that every AI failure mode - from hallucination to context loss to non-determinism - stems from skipped engineering disciplines like planning, testing, code review, and proper decomposition, using the author's own 2008 experience with a Forms conversion tool as an analogy.
+summary: Vjeko argues that saying AI doesn't work really means the speaker skipped engineering disciplines such as specs, planning, tests, review and decomposition. He goes through common AI failure modes and gives each a remedy. He compares expert resistance to his own early rejection of the NAV 2009 Form Transformation Tool, which converted Classic client Forms into Pages.
 tier: community
 language: en
 tags:
@@ -12,18 +12,18 @@ tags:
   - context engineering
   - engineering discipline
   - prompt engineering
-system: copilot
+system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:56.403Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:21.732Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 45db8a02a8127694414287e68b9171ffb374b0bd30554618430d321bbc7f0b5b
+  input_hash: 248dffd40b1acf849f08273ea462fed944614857549fc5f28a64c9ce8f7034d9
 evidence:
   - kind: blog
     url: https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/
@@ -52,16 +52,25 @@ words: 2910
 quotes: []
 code_objects_mentioned: []
 systems:
-  - copilot
   - development
 versions_mentioned: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://vjeko.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-22-2026-03_56_40-PM.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:04.742Z"
 ---
 
 # What You’re Actually Saying When You Say “AI Doesn’t Work”
 
-[Read the post](https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-07-22 · 2910 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-07-22 · 2910 words · tier community · reviewed (checked by Opus)
 
-> When people claim AI doesn't work, they're confessing they don't know how to use it properly, not revealing a limitation of AI itself. The post argues that every AI failure mode - from hallucination to context loss to non-determinism - stems from skipped engineering disciplines like planning, testing, code review, and proper decomposition, using the author's own 2008 experience with a Forms conversion tool as an analogy.
+> Vjeko argues that saying AI doesn't work really means the speaker skipped engineering disciplines such as specs, planning, tests, review and decomposition. He goes through common AI failure modes and gives each a remedy. He compares expert resistance to his own early rejection of the NAV 2009 Form Transformation Tool, which converted Classic client Forms into Pages.
 
 ## Key points
 

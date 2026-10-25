@@ -7,15 +7,14 @@
   "words": 755,
   "summary": "AL Object ID Ninja v3 backend and VS Code extension are now in production with over 1,300 automated tests. The post covers the transition to commercial billing starting January 1st, new pricing models (flat per-user/app and pay-per-use), and maintenance expectations for self-hosted deployments during the feature expansion phase.",
   "key_points": [
-    "Ninja v3 backend is live on new endpoints with latest Node runtime and comprehensive test coverage",
-    "Billing is free until January 1st; pricing has shifted from elastic to flat rates per user/app with optional pre-packaged tiers and pay-per-use model",
-    "Early Bird subscribers keep their original pricing indefinitely as long as they stay within specified limits, with flexibility to switch tiers anytime",
-    "Self-hosted backend deployments should expect more frequent updates in coming months as new features are added"
+    "Ninja v3 backend runs on new endpoints with the latest Node runtime and over 1,300 automated tests; the v3 VS Code extension is on the Marketplace",
+    "No usage counting or billing until January 1st; pricing moved from elastic to flat per user and per app, plus packaged tiers and pay-per-use",
+    "Early Bird customers keep their custom price while staying within their stated limits and can switch tiers at any time with the discount still applied",
+    "Self-hosted teams should update their backend right away and expect more frequent backend updates while new features land"
   ],
   "systems": [
     "development",
-    "administration",
-    "integration"
+    "administration"
   ],
   "topics": [
     "al object id ninja",

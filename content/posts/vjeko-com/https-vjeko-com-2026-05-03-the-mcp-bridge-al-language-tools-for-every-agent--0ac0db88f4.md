@@ -15,16 +15,16 @@ tags:
   - vs code extension
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:47.783Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:31.968Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: ebfa5a30aa1c489429a34dab6c08c9909fc27d997480b52fa722d5ac6c5604ef
+  input_hash: 2d7896aa0ccde95ac8a1ebe30c193d4aebeac18b7bbec131e35b739d57552c29
 evidence:
   - kind: blog
     url: https://vjeko.com/2026/05/03/the-mcp-bridge-al-language-tools-for-every-agent/
@@ -63,14 +63,28 @@ quotes:
 code_objects_mentioned: []
 systems:
   - development
-  - copilot
-  - platform
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: Take diagnostics away. Take tests away. Now what does your agent have? Vibes.
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://vjeko.com/wp-content/uploads/2026/05/ChatGPT-Image-May-3-2026-08_39_53-AM.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:11.705Z"
 ---
 
 # The MCP Bridge: AL Language Tools for Every Agent
 
-[Read the post](https://vjeko.com/2026/05/03/the-mcp-bridge-al-language-tools-for-every-agent/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-05-03 · 384 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2026/05/03/the-mcp-bridge-al-language-tools-for-every-agent/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-05-03 · 384 words · tier community · reviewed (checked by Opus)
 
 > The MCP Bridge is a VS Code extension that exposes AL Language tools as an MCP server, enabling any MCP-aware agent (Claude Code, Cursor, etc.) to access compilation diagnostics and test feedback. This closes the feedback loop for agentic AL development, moving beyond GitHub Copilot as the only agent with AL language tool access.
 
@@ -84,6 +98,10 @@ versions_mentioned: []
 ## Quotes
 
 - "diagnostics and tests are not nice-to-haves. They are the feedback loop" (Establishes why AL language tools matter: they provide essential feedback preventing agents from writing broken code)
+
+## Heads up
+
+- warning: "Take diagnostics away. Take tests away. Now what does your agent have? Vibes."
 
 ## Context
 

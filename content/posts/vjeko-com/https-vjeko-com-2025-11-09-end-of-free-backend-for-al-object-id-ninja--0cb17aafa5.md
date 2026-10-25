@@ -14,16 +14,16 @@ tags:
   - deployment
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:39.774Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:46.684Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: ec207b3b862c1ed735c18c6d7bdddbb4bab730030f4e97345a2c26b5de370841
+  input_hash: 3008897ed553fc1367501c597dc548697331cb84dd85c2e66f1963e5ba44f791
 evidence:
   - kind: blog
     url: https://vjeko.com/2025/11/09/end-of-free-backend-for-al-object-id-ninja/
@@ -80,13 +80,22 @@ quotes:
 code_objects_mentioned: []
 systems:
   - development
-  - integration
 versions_mentioned: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:27.614Z"
 ---
 
 # End of free backend for AL Object ID Ninja
 
-[Read the post](https://vjeko.com/2025/11/09/end-of-free-backend-for-al-object-id-ninja/) · Vjeko.com (Vjekoslav Babić, MVP) · 2025-11-09 · 704 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2025/11/09/end-of-free-backend-for-al-object-id-ninja/) · Vjeko.com (Vjekoslav Babić, MVP) · 2025-11-09 · 704 words · tier community · reviewed (checked by Opus)
 
 > AL Object ID Ninja, a free tool for managing object IDs in Business Central development, transitions from a free community service to a premium subscription model on January 1, 2026, while offering self-hosting as a free alternative.
 

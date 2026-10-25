@@ -15,16 +15,16 @@ tags:
   - user roles
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:54.105Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:36.961Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 335278b4715ea9bb62b9f482897ed93762e7bfd3dc863ee791798365e0ef2b07
+  input_hash: a3b109fce220b2b9ab5aa117f68d647196db29a99e6c7ed222909c37519f53c5
 evidence:
   - kind: blog
     url: https://vjeko.com/2026/03/09/al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days/
@@ -85,11 +85,27 @@ systems:
   - platform
 versions_mentioned:
   - 3.2.1
+cautions:
+  - kind: gotcha
+    quote: The Assignment Explorer's lost ID detection can only see apps that are actually loaded in your current workspace.
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://vjeko.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-9-2026-11_20_43-PM.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:15.079Z"
 ---
 
 # AL Object ID Ninja 3.2.1: A Lot Has Happened in Four Days
 
-[Read the post](https://vjeko.com/2026/03/09/al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-03-09 · 1604 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2026/03/09/al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-03-09 · 1604 words · tier community · reviewed (checked by Opus)
 
 > AL Object ID Ninja 3.2.1 introduces app pools as first-class citizens with improved Range Explorer and Assignment Explorer support, a visual Consumption Overview Panel for grid-based ID management, per-folder settings in multi-root workspaces, and backend-driven pool management migration. The release also adds user roles for organizations, a news section, and extended grace periods on the portal.
 
@@ -106,6 +122,10 @@ versions_mentioned:
 - "App Pools should have always been a backend-driven, centralized feature." (Explains why pool management is moving from Git-tracked files to backend, solving configuration synchronization problems across branches and developers)
 - "Pool membership becomes a centralized, backend-driven feature the way it should have been from the start." (Describes the two-step migration strategy ensuring reliable backend data collection before shifting configuration entirely off .objidconfig)
 - "It's one of those features where the moment you see it, you wonder how you managed without it." (Highlights the value of visual ID range management through the Consumption Overview Panel's grid-based approach versus text-based lists)
+
+## Heads up
+
+- gotcha: "The Assignment Explorer's lost ID detection can only see apps that are actually loaded in your current workspace."
 
 ## Context
 

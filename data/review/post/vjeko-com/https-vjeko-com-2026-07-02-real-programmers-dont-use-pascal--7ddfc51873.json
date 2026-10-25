@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/vjeko-com/https://vjeko.com/2026/07/02/real-programmers-dont-use-pascal/",
+  "input_hash": "ffb87c8b4348301aa84d6d7625c6db6e36f96b5cd1aaefd4f35441caa5d90d4e",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-25T17:03:56.403Z",
+  "issues": [
+    "The post is a general history of programming abstractions and AI-written code, with no Business Central content.",
+    "The copilot system is unsupported in any case."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.048827,
+    "posts_in_call": 4
+  }
+}

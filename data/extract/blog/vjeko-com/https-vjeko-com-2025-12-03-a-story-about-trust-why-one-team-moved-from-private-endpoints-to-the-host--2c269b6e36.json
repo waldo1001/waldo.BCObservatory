@@ -5,13 +5,13 @@
   "source": "vjeko-com",
   "published_at": "2025-12-03T09:21:56.000Z",
   "words": 705,
-  "summary": "LS Retail, a long-time AL Object ID Ninja user, transitioned from maintaining their own private backend infrastructure to using Ninja's hosted service. Their decision reflects how professional commercial services with company backing offer greater peace of mind than self-maintained solutions, even though self-hosting reduces direct costs.",
+  "summary": "LS Retail used AL Object ID Ninja on its own private backend from day one and kept it correctly configured. Once Ninja became a commercial service, the team moved to the hosted backend. They wanted a supported service and peace of mind, not cost savings, and the move took about two hours with no downtime. The author argues that self-hosting still means Azure costs, maintenance work and a risk of object ID collisions from misconfiguration.",
   "key_points": [
-    "LS Retail operated one of the rarest correctly-configured private Ninja backends with 100+ users across 20+ apps and 3 pools, yet chose to migrate to the hosted service",
-    "Self-hosting always incurs hidden costs: Azure infrastructure, maintenance time, monitoring updates, and configuration oversight across teams",
-    "Two-thirds of private-endpoint Ninja deployments are misconfigured, negating the tool's core benefit of preventing object ID collisions",
-    "Teams value a professionally supported service more than free alternatives, preferring predictability and reduced friction over infrastructure control",
-    "Migration from private to hosted endpoints took only two hours with no downtime or service disruption"
+    "LS Retail ran a correctly configured private Ninja backend for 100+ users, 20+ apps and 3 app pools, then moved to the hosted service",
+    "Self-hosting still costs money: an Azure bill, maintenance time, keeping up with updates and the risk of misconfiguration",
+    "Telemetry shows two out of three private-endpoint apps are misconfigured, which defeats Ninja's purpose of preventing ID collisions",
+    "LS Retail chose a paid, professionally supported service for peace of mind, not to save money",
+    "The migration took about two hours with no downtime"
   ],
   "systems": [
     "development"

@@ -13,16 +13,16 @@ tags:
   - configuration
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T17:03:56.343Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:55.239Z"
+  at: "2026-10-25T16:55:04.528Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 92eb2202c19158126c142b61e86be7ee016e81696e5358db0a30481064600514
+  input_hash: 08281bfcd9d72c7b91f3545ff6f707d6e23673c4e9ddba381107c7f7b993e19c
 evidence:
   - kind: blog
     url: https://vjeko.com/2025/11/19/al-object-id-ninja-self-hosting-vs-hassle-free-the-data-tells-a-curious-story/
@@ -61,13 +61,22 @@ quotes:
 code_objects_mentioned: []
 systems:
   - development
-  - integration
 versions_mentioned: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-25T17:00:25.343Z"
 ---
 
 # AL Object ID Ninja: Self-Hosting vs. Hassle-Free (the data tells a curious story)
 
-[Read the post](https://vjeko.com/2025/11/19/al-object-id-ninja-self-hosting-vs-hassle-free-the-data-tells-a-curious-story/) · Vjeko.com (Vjekoslav Babić, MVP) · 2025-11-19 · 195 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2025/11/19/al-object-id-ninja-self-hosting-vs-hassle-free-the-data-tells-a-curious-story/) · Vjeko.com (Vjekoslav Babić, MVP) · 2025-11-19 · 195 words · tier community · reviewed (checked by Opus)
 
 > AL Object ID Ninja, a tool for managing object IDs across teams, has distributed IDs to over 9,000 apps in three months. The post analyzes adoption data showing that while 3.2% of teams use private endpoints for self-hosting, only 1.3% configure them correctly for all team members, suggesting that the maintenance burden of self-hosting often exceeds the cost of a premium subscription.
 

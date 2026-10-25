@@ -5,13 +5,8 @@
   "source": "vjeko-com",
   "published_at": "2026-07-21T13:19:44.000Z",
   "words": 3246,
-  "summary": "A developer demonstrates how to safely deploy code written by AI agents directly to production by building a rigorous multi-stage pipeline instead of relying on manual review. The approach applies quality principles from manufacturing to prevent defects systematically rather than catching them at the end.",
-  "key_points": [
-    "Manual code review by a tired developer is an unreliable quality gate comparable to visual inspection on a factory line, not a real control system.",
-    "The pipeline uses specialized sub-agents at every stage to enforce specific checks in order: spec validation, test structure, skeleton design, mocking strategy, vacuous test detection, red-green-refactor discipline, and security scanning.",
-    "Each stop or failure in the pipeline becomes an opportunity to encode a new rule that prevents that entire class of problem forever, following the Six Sigma principle of fixing processes rather than inspecting outputs.",
-    "Integration testing with real components replacing mocks happens late in the workflow to catch coordination failures between pieces that pass individually."
-  ],
+  "summary": "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.",
+  "key_points": [],
   "systems": [
     "development",
     "platform",

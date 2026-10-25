@@ -5,14 +5,13 @@
   "source": "vjeko-com",
   "published_at": "2026-07-22T17:50:40.000Z",
   "words": 2910,
-  "summary": "When people claim AI doesn't work, they're confessing they don't know how to use it properly, not revealing a limitation of AI itself. The post argues that every AI failure mode - from hallucination to context loss to non-determinism - stems from skipped engineering disciplines like planning, testing, code review, and proper decomposition, using the author's own 2008 experience with a Forms conversion tool as an analogy.",
+  "summary": "Vjeko argues that saying AI doesn't work really means the speaker skipped engineering disciplines such as specs, planning, tests, review and decomposition. He goes through common AI failure modes and gives each a remedy. He compares expert resistance to his own early rejection of the NAV 2009 Form Transformation Tool, which converted Classic client Forms into Pages.",
   "key_points": [
     "Claims of 'AI doesn't work' are unfalsifiable and usually deflate into 'it didn't work for me' when pressed",
     "Vibe coding without engineering disciplines (specs, tests, review, decomposition) inevitably fails, but this proves nothing about AI's capability",
     "Each major AI failure mode has a specific cause and remedy: hallucinations require context engineering, overconfidence requires critic agents, context loss requires task decomposition, non-determinism requires guardrails"
   ],
   "systems": [
-    "copilot",
     "development"
   ],
   "topics": [
