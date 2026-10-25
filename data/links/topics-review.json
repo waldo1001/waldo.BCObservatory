@@ -2245,30 +2245,35 @@
       }
     },
     "topic/business-central/business-functionality/set-up-business-central/set-up-finance": {
-      "post/miljan-rs/639@d7616bdd40cf12c1": {
-        "verdict": "drop",
-        "reason": "It is about the Contoso demo data tool for setting up companies, which covers many modules, not about setting up finance.",
-        "at": "2026-10-25T12:50:54.864Z"
-      },
       "video/4IumfDNN8GU@551d01e9e78deeb8": {
         "verdict": "keep",
-        "reason": "It shows how to set up posting groups and VAT posting setup, which are core finance setup tasks this section documents.",
-        "at": "2026-10-25T12:50:54.864Z"
+        "reason": "Setting up posting groups and VAT posting setup is a core part of finance setup.",
+        "at": "2026-10-25T18:23:13.628Z",
+        "v": 2
       },
       "video/5E6ikveL6N0@6ab56d7ae983d9ba": {
         "verdict": "keep",
-        "reason": "It shows how to set up business, product, customer and inventory posting groups in Business Central, which is finance setup this section covers.",
-        "at": "2026-10-25T12:50:54.864Z"
+        "reason": "Explains Business Central posting groups and posting setup, which are part of finance setup, by comparing them with GP.",
+        "at": "2026-10-25T18:23:13.628Z",
+        "v": 2
       },
       "video/5zXQ_aIT03s@7cf64c65d47a8e4c": {
         "verdict": "keep",
-        "reason": "It demonstrates the Allow Posting From/To fields in General Ledger Setup and per-user overrides, which are part of finance setup.",
-        "at": "2026-10-25T12:50:54.864Z"
+        "reason": "The allow posting from/to fields in General Ledger Setup are a finance setup task.",
+        "at": "2026-10-25T18:23:13.628Z",
+        "v": 2
+      },
+      "video/NPhOSQTheXw@347b924f339b4b82": {
+        "verdict": "keep",
+        "reason": "Sales tax setup is a finance setup task.",
+        "at": "2026-10-25T18:23:13.628Z",
+        "v": 2
       },
       "video/XJ0JHHQ7GzA@ae1cba0bd8268fd4": {
         "verdict": "keep",
-        "reason": "It shows how to configure general posting setup and posting groups in Business Central, which is finance setup this section documents.",
-        "at": "2026-10-25T12:50:54.864Z"
+        "reason": "Shows how to configure general posting setup and posting groups, comparing them with SL.",
+        "at": "2026-10-25T18:23:13.628Z",
+        "v": 2
       }
     },
     "topic/business-central/business-functionality/set-up-business-central/set-up-fixed-assets": {
@@ -4013,86 +4018,98 @@
     "topic/dev-itpro/administration/monitor-and-analyze-telemetry": {
       "post/demiliani-com/13096@d983992cb248690a": {
         "verdict": "keep",
-        "reason": "Covers measuring client performance with Page View telemetry, which is part of analyzing telemetry.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "reason": "Recommends Page View telemetry as a way to measure client-side performance, so part of the post covers telemetry analysis.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       },
       "post/demiliani-com/13254@1e5abc180a70baaf": {
         "verdict": "drop",
-        "reason": "About the Database Wait Statistics page, a performance tool that is not telemetry.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "reason": "Covers the Database Wait Statistics page in the client, not telemetry monitoring.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       },
       "post/demiliani-com/13369@6629bda418af7616": {
         "verdict": "keep",
-        "reason": "Explains the new network and hardware fields in page view telemetry and how to analyze them with KQL.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "reason": "Explains the new hardware and network fields in page view telemetry and how to analyze them with KQL.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       },
       "post/demiliani-com/14064@9c5177013b891825": {
         "verdict": "drop",
-        "reason": "About moving Azure resources to a new region; telemetry comes up only as a connection string to update.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "reason": "About moving Azure resources to a new region; updating the telemetry connection string is only a passing step.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       },
       "post/duiliotacconi-com/1501@f61c9a1e01e3bd21": {
         "verdict": "keep",
-        "reason": "Uses the RT0030 Error Dialog telemetry signal to investigate client crashes.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "reason": "Shows how to investigate client crashes using the RT0030 telemetry signal and dashboards.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       },
       "post/duiliotacconi-com/1537@6c9973173596aa6c": {
         "verdict": "keep",
-        "reason": "Analyzes hotfix telemetry signals with KQL queries to choose update windows.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "reason": "Uses telemetry signals and KQL queries on lifecycle and version events to analyze hotfix timing.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       },
       "post/waldo-be/317845@491d234240c181f4": {
         "verdict": "keep",
-        "reason": "A third-party app that extends Business Central telemetry with custom events and dashboards.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "reason": "A third-party app that adds custom telemetry events to Business Central's built-in telemetry, plus dashboards to monitor it.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       },
       "post/waldo-be/318423@8115c5a0b7062319": {
         "verdict": "keep",
-        "reason": "A tool for analyzing Business Central telemetry with KQL and AI.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "reason": "A tool for exploring and analyzing Business Central telemetry with KQL.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       },
       "post/waldo-be/318571@112fb57861415620": {
         "verdict": "keep",
-        "reason": "Discusses how to analyze telemetry effectively with an AI telemetry tool.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "reason": "Discusses using the BC Telemetry Buddy tool and KQL to analyse Business Central telemetry for performance troubleshooting.",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       },
       "video/7rIHz0zrgWU@0a2a4c7fce7506a6": {
         "verdict": "keep",
-        "reason": "Covers new telemetry signals and analysis capabilities.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "reason": "Covers new telemetry signals, Power BI telemetry reports and alerting, all part of monitoring and analysing telemetry.",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       },
       "video/BOY2442wHSc@8508cbb93942b3b1": {
         "verdict": "keep",
         "reason": "Shows how to connect the Power BI telemetry apps to Application Insights telemetry data.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       },
       "video/F_pssS0FtUc@25880ebddffc054c": {
         "verdict": "keep",
-        "reason": "Shows how to use telemetry data and the Power BI usage reports to monitor go-lives.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "reason": "Shows using telemetry and the Power BI usage app to monitor usage, errors and performance.",
+        "at": "2026-10-25T18:23:13.628Z",
+        "v": 2
+      },
+      "video/MYZOkoSmtZ0@c7672740d4fcd159": {
+        "verdict": "keep",
+        "reason": "Shows setting up Application Insights to store Business Central telemetry.",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       },
       "video/sZ7wMU1Uxio@6149b0c7f60346f6": {
         "verdict": "keep",
-        "reason": "Shows how to configure the dataset of the Power BI telemetry app.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "reason": "Covers configuring the dataset properties of the Power BI telemetry app for analysing telemetry.",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       },
       "video/uv2NsSD5P7U@47ecd25d9553e2be": {
         "verdict": "drop",
-        "reason": "About update management, which the Admin center section documents; telemetry is only a minor mention.",
-        "at": "2026-10-25T17:51:55.644Z",
+        "reason": "Mainly about update management in the admin center; telemetry signal changes are a minor side point better served by the Admin center section.",
+        "at": "2026-10-25T18:23:13.628Z",
+        "v": 2
+      },
+      "video/VX_aPhcsIOc@2053b8d2a073f926": {
+        "verdict": "keep",
+        "reason": "Covers controlling telemetry ingestion costs with daily caps in Application Insights.",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       }
     },
@@ -4460,58 +4477,70 @@
     "topic/dev-itpro/development": {
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/@47a92fdf99c0025c": {
         "verdict": "keep",
-        "reason": "Curated review of AL development topics like page background tasks, page extensions and AI-assisted development fits the Development section.",
-        "at": "2026-10-25T17:52:04.018Z",
+        "reason": "Curated AL development posts covering page background tasks, page extensions and AI-assisted development practices, all part of AL development.",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       },
       "post/gerardorenteria-blog/13675@23274fa78ce59328": {
         "verdict": "drop",
-        "reason": "The post is about a financial reports (account schedules) feature for finance users, so it belongs to financial reporting rather than development guidance.",
-        "at": "2026-10-25T17:52:04.018Z",
+        "reason": "Its subject is a finance feature (notes on financial report lines) delivered as an extension, not a lesson in AL development or extensibility.",
+        "at": "2026-10-25T18:23:13.628Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/4271@559f896300d7f1aa": {
+        "verdict": "keep",
+        "reason": "A VS Code plugin for BCQuality that helps AI agents and AL developers produce better AL code, so it supports development practices.",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-62-vs-code-al-themes/@515eb7601df9149e": {
         "verdict": "keep",
-        "reason": "Covers the AL Language extension's VS Code themes, part of the development environment.",
-        "at": "2026-10-25T17:52:04.018Z",
+        "reason": "Covers the built-in themes of the AL Language extension, which is part of the development environment.",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/projects/al-pocket-tools/@935273519c46afe5": {
         "verdict": "keep",
-        "reason": "A VS Code extension that streamlines AL development tasks such as launch.json and app file management.",
-        "at": "2026-10-25T17:52:04.018Z",
+        "reason": "A VS Code extension that automates everyday AL tasks like managing app files, launch.json and versions in the development environment.",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       },
       "video/mnxOSl1Y9PI@089d509598986664": {
         "verdict": "keep",
-        "reason": "Overview of updates to the developer documentation itself, which spans this section's subtopics.",
-        "at": "2026-10-25T17:52:04.018Z",
+        "reason": "Walks through updates to the developer documentation itself, including AL, reporting, troubleshooting and extensibility.",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       },
       "video/npkC4wyucyY@1750839e8a18765c": {
         "verdict": "keep",
-        "reason": "A benchmark and tooling (AL MCP server, review agent) for evaluating AI agents writing and reviewing AL code relates to AL development practice.",
-        "at": "2026-10-25T17:52:04.018Z",
+        "reason": "BC-Bench measures AI coding agents on AL bug fixing, code review and test generation, so it relates to AL development practice and tooling.",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       }
     },
     "topic/dev-itpro/development/data-analytics-and-reporting": {
       "post/bertverbeek-nl/1143@6bef390fd6d94ab6": {
         "verdict": "keep",
-        "reason": "bc2adls is an extension that exports Business Central data to Fabric for analytics, which ties into the data analytics development area this section covers.",
-        "at": "2026-10-25T17:53:37.946Z",
+        "reason": "bc2adls is an extension exporting Business Central data to Fabric for analytics, which works with the section's data analytics topic.",
+        "at": "2026-10-25T18:23:13.638Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/3995@67a8498f2fc5d905": {
+        "verdict": "keep",
+        "reason": "Covers data analysis definitions in apps and the Word Add-in for report layouts, both within developer data analytics and reporting.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "video/6dEZQlmBlyI@4d4659671bfdead7": {
         "verdict": "keep",
-        "reason": "It shows report and query data being used for analysis and charting, which relates to the report and query objects in the analytics and reporting area.",
-        "at": "2026-10-25T17:53:37.946Z",
+        "reason": "Demonstrates using report and query data live in spreadsheets with filtering and charting, building on the reports and queries the section covers.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "video/jqVt0hYDfz0@1a3d446a6506d2f7": {
         "verdict": "keep",
-        "reason": "Shipping analysis views in AL extensions is developer-side data analysis, which falls within this section.",
-        "at": "2026-10-25T17:53:37.946Z",
+        "reason": "Shows delivering analysis views in AL extensions, a developer data analysis capability in this section.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       }
     },
@@ -5106,13 +5135,21 @@
     "topic/dev-itpro/development/extension-lifecycle/translation": {
       "post/gerardorenteria-blog/14381@bb9cccefed348877": {
         "verdict": "keep",
-        "reason": "It covers checking and syncing XLIFF translation files (g.xlf and language-specific files) for AL extensions, which is what this section documents.",
-        "at": "2026-10-21T09:34:27.287Z"
+        "reason": "A VS Code tool that checks XLIFF translation files for AL extensions, which works directly with the translation workflow this section documents.",
+        "at": "2026-10-25T18:23:13.638Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/4242@d60a6c122c9fbe0d": {
+        "verdict": "keep",
+        "reason": "Explains how translatable strings on removed tables and fields are handled in XLIFF translation files, a detail of extension translation.",
+        "at": "2026-10-25T18:23:13.638Z",
+        "v": 2
       },
       "video/fWBehdiuDpE@a5d7fc8e5f54ed9d": {
         "verdict": "keep",
-        "reason": "It shows how to produce XLIFF translations for an AL app, including the translation-file setting in app.json and developer comments, which this section documents.",
-        "at": "2026-10-21T09:34:27.287Z"
+        "reason": "Demonstrates translating an app's XLIFF files, including the translation file feature in app.json, which is the core of this section.",
+        "at": "2026-10-25T18:23:13.638Z",
+        "v": 2
       }
     },
     "topic/dev-itpro/development/extension-lifecycle/updating-and-hotfixing": {
@@ -5188,38 +5225,56 @@
     "topic/dev-itpro/development/programming-in-the-al-language": {
       "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
         "verdict": "keep",
-        "reason": "Shows AL code that parses imported files into staging tables, which is the programming with tables and data this section documents.",
-        "at": "2026-10-25T17:52:48.305Z",
+        "reason": "Shows AL code that parses text files into staging tables and creates records, which falls under programming with tables and data.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3032@eb6d53de9c04df57": {
         "verdict": "drop",
-        "reason": "About using M365 Copilot for requirements analysis and documentation, not about AL programming.",
-        "at": "2026-10-25T17:52:48.305Z",
+        "reason": "About using Microsoft 365 Copilot to analyse requirements documents, not about AL programming.",
+        "at": "2026-10-25T18:23:13.627Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/1855@89a17d9f0727e92f": {
+        "verdict": "keep",
+        "reason": "An AL snippet using StrMenu and enums for user interaction, which falls under language elements and the user interface.",
+        "at": "2026-10-25T18:23:13.627Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/2152@0a3b8e302b6d6d6c": {
+        "verdict": "drop",
+        "reason": "About contributing pull requests to the documentation, not about programming in AL.",
+        "at": "2026-10-25T18:23:13.627Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/3653@f1e8d70504beff46": {
+        "verdict": "keep",
+        "reason": "Covers new AL methods and properties that are part of AL programming.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/01/27/when-guids-collide-the-app-id-problem-nobody-expected/@7a95dbed5895a54a": {
         "verdict": "drop",
-        "reason": "About App ID collisions in app.json, which belongs to extension lifecycle and development environment, not AL programming.",
-        "at": "2026-10-25T17:52:48.305Z",
+        "reason": "About App ID collisions in app.json, which belongs to extension setup and lifecycle, not AL programming.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       },
       "video/a8W1x0xwkv4@6fc696eb5f59d4a6": {
         "verdict": "keep",
-        "reason": "Shows a user control host and JavaScript interop in AL pages, which falls under the pages and user interface subtopic.",
-        "at": "2026-10-25T17:52:48.305Z",
+        "reason": "Demonstrates a user control with JavaScript interop and table storage in AL, which falls under pages and the user interface.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       },
       "video/lH2Z4xfdhmY@5fceed842247fca3": {
         "verdict": "keep",
-        "reason": "Covers the developer side of search: the OptimizeForTextSearch property, full-text indexes and SetFilter operators on tables and data.",
-        "at": "2026-10-25T17:52:48.305Z",
+        "reason": "Covers the developer-side OptimizeForTextSearch property and filter operators, which fall under tables and data.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       },
       "video/QhHgkCe3kkk@0c07d5bb49e5b26b": {
         "verdict": "keep",
-        "reason": "Explains embedding resources and reading them with the GetResource function, an AL programming capability.",
-        "at": "2026-10-25T17:52:48.305Z",
+        "reason": "Explains embedding resources and reading them with an AL function, a program building block.",
+        "at": "2026-10-25T18:23:13.627Z",
         "v": 2
       }
     },
@@ -5368,122 +5423,128 @@
     "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts": {
       "post/aardvarklabs-blog/1824@a2915d8ef8687e99": {
         "verdict": "keep",
-        "reason": "Shows how to build an Excel report layout and upload a customized one, which is a layout type this section documents.",
-        "at": "2026-10-25T17:54:47.239Z",
+        "reason": "Shows how to build an Excel report layout and upload a customized one, which this section documents.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2107@7e7622566e2b12cf": {
         "verdict": "keep",
-        "reason": "Covers Word report layouts: the WordLayout property, XML mapping and repeating controls.",
-        "at": "2026-10-25T17:54:47.239Z",
+        "reason": "Covers building Word layouts with the DefaultLayout and WordLayout properties and XML mapping, which is core report layout content.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2196@7e25b617b4b406aa": {
         "verdict": "keep",
         "reason": "Walks through exporting, editing and re-uploading Word report layouts.",
-        "at": "2026-10-25T17:54:47.239Z",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2271@de7854386541a124": {
         "verdict": "keep",
-        "reason": "Explains RDLC layouts and how to edit them with Report Builder.",
-        "at": "2026-10-25T17:54:47.239Z",
+        "reason": "Explains RDLC layouts and how to edit and upload them through Report Layouts.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3544@a54ef864e981de53": {
         "verdict": "keep",
-        "reason": "Covers the new lifecycle statuses for report layouts (Draft, Pending Approval, Approved, Retired).",
-        "at": "2026-10-25T17:54:47.239Z",
+        "reason": "Covers the new lifecycle statuses (Draft, Pending Approval, Approved, Retired) on the Report Layouts page, a part of layout management.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/miljan-rs/698@bec4356f9f787950": {
         "verdict": "keep",
-        "reason": "Discusses page-break design limits in Word layouts compared with RDLC.",
-        "at": "2026-10-25T17:54:47.239Z",
+        "reason": "Discusses page-break design in Word layouts compared with RDLC, which is a layout design technique.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619@9e099687770af155": {
         "verdict": "keep",
-        "reason": "Covers composite Word layouts and the AL properties for header/footer and theme parts.",
-        "at": "2026-10-25T17:54:47.239Z",
+        "reason": "Shows composite Word layouts with header/footer and theme parts, set up in AL and in the UI.",
+        "at": "2026-10-25T18:23:13.638Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/4179@41859792343e7bbe": {
+        "verdict": "keep",
+        "reason": "A broad release roundup, but it covers composite Word layouts and Word Add-in support, which fall under report layouts.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/@8999d843a3c1fbe8": {
         "verdict": "keep",
-        "reason": "Gives a tip for an RDLC layout setting that restarts page numbering for each group.",
-        "at": "2026-10-25T17:54:47.239Z",
+        "reason": "Covers the ResetPageNumber property for page numbering in RDLC layout design.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/@294934c7c4417e96": {
         "verdict": "keep",
-        "reason": "Shows how to render barcodes in RDL layouts by setting the font.",
-        "at": "2026-10-25T17:54:47.239Z",
+        "reason": "Shows how to render barcodes in RDL layouts by setting the font directly in the layout.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/thedynamicsexplorer-com/9051@471c2be7ed7387ba": {
         "verdict": "keep",
-        "reason": "Shows how to convert Dynamics GP Word templates into Business Central Word layouts through the Report Layouts page.",
-        "at": "2026-10-25T17:54:47.239Z",
+        "reason": "Shows how to convert GP templates into Business Central Word layouts using the Report Layouts page and XML mapping.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/thinkaboutit-be/7181@719b2559a0395732": {
         "verdict": "keep",
-        "reason": "Covers choosing Word, RDLC and Excel layout types and how layouts relate to datasets.",
-        "at": "2026-10-25T17:54:51.378Z",
+        "reason": "Explains how to choose between Word, RDLC and Excel layout types and how layouts relate to datasets, which is the core of this section.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/thinkaboutit-be/7266@0e18471063e5538b": {
         "verdict": "keep",
-        "reason": "Covers the EnableHyperlinks property that RDLC report layouts with hyperlinks need.",
-        "at": "2026-10-25T17:54:51.378Z",
+        "reason": "Covers the EnableHyperlinks property that RDLC report layouts need, with a workaround.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/thinkaboutit-be/7750@935c301db7e184b7": {
         "verdict": "keep",
-        "reason": "Explains designing Word report layouts with the Word add-in.",
-        "at": "2026-10-25T17:54:51.378Z",
+        "reason": "Shows how to design Word report layouts with the Word add-in and its layout controls.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/thinkaboutit-be/8096@af9a75e67b746936": {
         "verdict": "keep",
-        "reason": "Covers inserting fields into Word report layouts with the add-in data picker instead of XML mapping.",
-        "at": "2026-10-25T17:54:51.378Z",
+        "reason": "Covers mapping fields in Word report layouts and advises moving from the XML Mapping pane to the add-in data picker.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/thinkaboutit-be/8272@a03bc83cda30588c": {
         "verdict": "keep",
-        "reason": "Covers layout lifecycle statuses and control over which report layouts users can select.",
-        "at": "2026-10-25T17:54:51.378Z",
+        "reason": "Mainly about managing the layout lifecycle (Draft, Approved, Retired) for report layouts delivered by Microsoft and extensions.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "video/1ft4o9lQzsU@a3a9e063fe006870": {
         "verdict": "keep",
-        "reason": "Shows how to build Excel report layouts in depth.",
-        "at": "2026-10-25T17:54:51.378Z",
+        "reason": "Demonstrates Excel report layouts in depth, including data contracts and refreshable reports.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "video/2u5_F9Ztt7U@92cfcb99a68767fc": {
         "verdict": "keep",
-        "reason": "Includes Word add-in improvements and layout lifecycle control for report layouts.",
-        "at": "2026-10-25T17:54:51.378Z",
+        "reason": "Most of this release video is unrelated, but it includes Word add-in enhancements and layout lifecycle control for report layouts.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "video/9ZmmQEpPyB4@63379933c2959f13": {
         "verdict": "keep",
-        "reason": "Demonstrates themeable Word report layouts and watermarks.",
-        "at": "2026-10-25T17:54:51.378Z",
+        "reason": "Demonstrates themeable Word report layouts with Office themes and watermarks.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "video/V8CSor5qBRE@e2804b6f1dc77109": {
         "verdict": "keep",
-        "reason": "Covers Word layout controls, conditional visibility and add-in features for document report layouts.",
-        "at": "2026-10-25T17:54:51.378Z",
+        "reason": "Covers Word layout controls and engine features for developers who build document report layouts.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "video/W003w36Isto@26d209fa164e7040": {
         "verdict": "keep",
-        "reason": "Covers Excel and Word layout properties, layout validation and obsoleting layouts in AL.",
-        "at": "2026-10-25T17:54:51.378Z",
+        "reason": "Covers developer features for report layouts, such as making layouts obsolete in AL, layout validation and Excel layout properties.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       }
     },
@@ -5548,20 +5609,32 @@
     "topic/dev-itpro/development/programming-in-the-al-language/formatting-values": {
       "post/aardvarklabs-blog/1696@24beaf0ce72b1ab2": {
         "verdict": "keep",
-        "reason": "Covers how ToText() turns AL values into text and compares the output with Format standard formats 0 and 9, which ties directly to formatting values.",
-        "at": "2026-10-25T17:54:49.568Z",
+        "reason": "Explains how ToText() turns values into text and compares its output with the Format standard formats, such as Format(value, 0, 9).",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2741@98bfe11edb99349e": {
         "verdict": "drop",
-        "reason": "About helper procedures in a codeunit for text encoding, padding and filtering, not about formatting values with Format or format codes.",
-        "at": "2026-10-25T17:54:49.568Z",
+        "reason": "Covers a helper codeunit for string encoding, padding and filtering, not the formatting of values that this section documents.",
+        "at": "2026-10-25T18:23:13.628Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/3648@2bfa22ae0f925f65": {
+        "verdict": "keep",
+        "reason": "Shows how Format(Number, 0) adds thousands separators that depend on region settings, which is behaviour this section documents.",
+        "at": "2026-10-25T18:23:13.628Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/4184@ac14fcf6516715be": {
+        "verdict": "drop",
+        "reason": "Covers swapping Substring for CopyStr in string handling, which is unrelated to formatting values.",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       },
       "post/tine-staric-net/https://tine.staric.net/blog/2025/format-cheatsheet/@393b0fcdafe8e11d": {
         "verdict": "keep",
-        "reason": "A cheatsheet of Format() output for each data type across the standard format codes, which is exactly what this section documents.",
-        "at": "2026-10-25T17:54:49.568Z",
+        "reason": "A reference table of Format() output for each data type across format codes 0-7 and 9, which matches this section directly.",
+        "at": "2026-10-25T18:23:13.628Z",
         "v": 2
       }
     },
@@ -5810,44 +5883,50 @@
     "topic/dev-itpro/development/programming-in-the-al-language/language-elements/interfaces": {
       "post/gerardorenteria-blog/12238@2d82e84b809e4b24": {
         "verdict": "drop",
-        "reason": "It is about the Error Messages with Recommendations feature; the ErrorMessageFix interface is only how you plug into it, not a lesson on AL interfaces.",
-        "at": "2026-10-25T17:52:48.286Z",
+        "reason": "Its subject is the Error Messages with Recommendations feature; the ErrorMessageFix interface is just how that feature is built.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/jpearson-blog/1419@945e90c5157e759f": {
         "verdict": "keep",
-        "reason": "It shows how to use AL interfaces to decouple apps, including versioned interface contracts and runtime implementation lookup.",
-        "at": "2026-10-25T17:52:48.286Z",
+        "reason": "Shows a design pattern where interfaces let apps integrate without depending on each other directly, which is a core use of AL interfaces.",
+        "at": "2026-10-25T18:23:13.638Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/4179@41859792343e7bbe": {
+        "verdict": "keep",
+        "reason": "A broad release roundup, but part of it covers default interface methods, a new interface language feature.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-8721347757329141815@c0ac81c09bd4021c": {
         "verdict": "keep",
-        "reason": "It covers default method implementations and RequiredPending, which are new features of AL interfaces.",
-        "at": "2026-10-25T17:52:48.286Z",
+        "reason": "Explains default method implementations and RequiredPending for AL interfaces, which is directly about the interface language element.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/waldo-be/318065@39beae901cfea67d": {
         "verdict": "drop",
-        "reason": "It is about a training escape-room framework; interfaces are mentioned only as one implementation detail.",
-        "at": "2026-10-25T17:52:48.286Z",
+        "reason": "Its subject is an escape-room training app; interfaces only appear as part of how the framework is built.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "video/H_PHi8pe53w@23cad78bf3065635": {
         "verdict": "keep",
-        "reason": "It demonstrates default implementations and the RequiredPending attribute for AL interfaces.",
-        "at": "2026-10-25T17:52:48.286Z",
+        "reason": "Demonstrates default implementations and the RequiredPending attribute for AL interfaces.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "video/PHmFqehrPG4@e78e06e459535991": {
         "verdict": "keep",
-        "reason": "It covers interface extension and type checking and casting with the is and as operators, which are core interface language features.",
-        "at": "2026-10-25T17:52:48.286Z",
+        "reason": "Covers interface extension and the is/as operators for interfaces, which are core interface language features.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "video/QGIr_XPp8lk@a047cbcd9cd7476c": {
         "verdict": "drop",
-        "reason": "It is about the E-Documents connector API's own interfaces, which belongs with the E-Documents documentation rather than the AL interfaces language element.",
-        "at": "2026-10-25T17:52:48.286Z",
+        "reason": "Its subject is the E-Documents connector API, not the AL interface language element.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       }
     },
@@ -5862,32 +5941,38 @@
     "topic/dev-itpro/development/programming-in-the-al-language/language-elements/namespaces-in-al": {
       "post/aardvarklabs-blog/3255@3add335b05cfb898": {
         "verdict": "keep",
-        "reason": "It explains how fully qualified names let you reference objects without a using statement, which is a core part of how namespaces work in AL.",
-        "at": "2026-10-25T17:54:55.806Z",
+        "reason": "Covers how fully qualified names let you reference objects without using statements, which is core namespace material.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-21-27-2026/@9740b9828e45fbf0": {
         "verdict": "keep",
-        "reason": "One of its four topics is moving older AL apps to namespaces, which is directly about what this section documents.",
-        "at": "2026-10-25T17:54:55.806Z",
+        "reason": "One of its four topics is moving older AL apps to namespaces, which is enough for this section.",
+        "at": "2026-10-25T18:23:13.638Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/3995@67a8498f2fc5d905": {
+        "verdict": "keep",
+        "reason": "Includes BC28 support for namespaces and fully qualified names, plus new method overloads for running objects by name.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "video/KmuTVkodRXM@59d494e9d5992a80": {
         "verdict": "keep",
-        "reason": "It demonstrates new AL namespace features, such as the namespace field in the All Objects with Captions table and fully qualified names.",
-        "at": "2026-10-25T17:54:55.806Z",
+        "reason": "Dedicated to AL namespace features: the namespace field in All Objects with Captions, Record ID formatting and fully qualified names.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "video/nMiLzdfidos@7aefbb460827884f": {
         "verdict": "keep",
-        "reason": "Among its topics, it covers the three-tier namespace resolution strategy and fully qualified names for finding objects.",
-        "at": "2026-10-25T17:54:55.806Z",
+        "reason": "Demonstrates the three-tier namespace resolution strategy and fully qualified names for object resolution.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       },
       "video/TY82NR2hGEg@3608ce5783de6b25": {
         "verdict": "keep",
-        "reason": "It introduces namespaces in the AL language, using directives, fully qualified names and the code actions for namespaces.",
-        "at": "2026-10-25T17:54:55.806Z",
+        "reason": "Demonstrates namespaces in AL, using directives, fully qualified names and namespace code actions.",
+        "at": "2026-10-25T18:23:13.638Z",
         "v": 2
       }
     },
@@ -5902,38 +5987,44 @@
     "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface": {
       "post/demiliani-com/12498@dbbb663eb0328f13": {
         "verdict": "keep",
-        "reason": "MaskType controls how fields are shown on card and document pages, which is page UI behaviour.",
-        "at": "2026-10-25T17:55:01.086Z",
+        "reason": "MaskType controls how fields appear on card and document pages in the web and mobile client, which is page UI behavior.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/demiliani-com/12623@6773a23b91b53805": {
         "verdict": "keep",
-        "reason": "Shows PDF previews in FactBoxes on CardPart and ListPart pages, a page/UI feature.",
-        "at": "2026-10-25T17:55:01.086Z",
+        "reason": "Shows PDF previews in FactBoxes built from CardPart and ListPart pages, a page UI feature.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/gerardorenteria-blog/12961@9c99b1dd04149642": {
         "verdict": "keep",
-        "reason": "Uses page extensions and an action to add key-based sorting to list pages.",
-        "at": "2026-10-25T17:55:01.086Z",
+        "reason": "Uses page extensions, a selection page and a new action to add multi-key sorting to list pages.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/miljan-rs/866@ab181e156b842fd5": {
         "verdict": "keep",
-        "reason": "Adds a modal editor page that opens from actions on customer list and card pages.",
-        "at": "2026-10-25T17:55:01.086Z",
+        "reason": "Builds a modal dialog page opened from actions on customer list and card pages.",
+        "at": "2026-10-25T18:23:13.646Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/3494@0f0d20a64d5a4394": {
+        "verdict": "keep",
+        "reason": "Gives guidance on writing tooltips for page fields and actions, part of designing page UI.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736@69c4841d4352f3e8": {
         "verdict": "keep",
-        "reason": "Covers the ToolTip property on page objects and tooltip inheritance by navigation actions.",
-        "at": "2026-10-25T17:55:01.086Z",
+        "reason": "Covers the ToolTip property on page objects and how navigation actions inherit it.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "video/ugHFHtSxTlw@5a729b9594698b2e": {
         "verdict": "keep",
-        "reason": "Covers how the Business Central UI is designed, including page patterns and what partners can change in the UI.",
-        "at": "2026-10-25T17:55:01.086Z",
+        "reason": "Discusses how Business Central's UI is designed, including page patterns and the limits on partner UI, which is relevant background for page development.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       }
     },
@@ -6206,50 +6297,56 @@
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data": {
       "post/aardvarklabs-blog/1826@4a9c30dc06ccffd2": {
         "verdict": "keep",
-        "reason": "Shows how AL code reads incoming JSON and exports records as JSON files, which is import/export in AL.",
-        "at": "2026-10-25T17:55:05.362Z",
+        "reason": "Covers parsing incoming JSON and exporting records as JSON files in AL.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2204@d24ed6cb95838c90": {
         "verdict": "keep",
-        "reason": "Shows CSV import in AL through a staging table, which this section covers.",
-        "at": "2026-10-25T17:55:05.362Z",
+        "reason": "Shows importing CSV files in AL via UploadIntoStream and a staging table.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
         "verdict": "keep",
-        "reason": "Shows AL code that imports delimited files with header and detail records.",
-        "at": "2026-10-25T17:55:05.362Z",
+        "reason": "Shows importing delimited header/detail files into Business Central with AL.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2838@103145b803b01f6b": {
         "verdict": "keep",
-        "reason": "Shows AL code that imports Excel files with several tabs using Excel Buffer.",
-        "at": "2026-10-25T17:55:05.362Z",
+        "reason": "Shows importing multi-tab Excel files in AL with Excel Buffer streams.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2866@12f927a984dd084a": {
         "verdict": "keep",
-        "reason": "Shows AL code that imports XML and mentions XMLports as the alternative.",
-        "at": "2026-10-25T17:55:05.362Z",
+        "reason": "Shows importing XML files with AL XML types and mentions XMLports as the alternative.",
+        "at": "2026-10-25T18:23:13.646Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/3910@5330ab33a1c67779": {
+        "verdict": "drop",
+        "reason": "DataTransfer is for bulk table-to-table copying in upgrade code, not for importing or exporting data.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236@5796bb541d8ca1cf": {
         "verdict": "keep",
-        "reason": "Developer guide to exporting data to CSV from AL with the CSV Buffer table.",
-        "at": "2026-10-25T17:55:05.362Z",
+        "reason": "Covers exporting data to CSV files from AL using CSV Buffer and streams.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-82-excel-buffer-character-limit/@4595d09b714a6398": {
         "verdict": "keep",
-        "reason": "Explains an Excel Buffer limit that breaks Excel exports written in AL.",
-        "at": "2026-10-25T17:55:05.362Z",
+        "reason": "Covers an Excel Buffer limit that affects Excel export code in AL.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "video/Ug_uM59DRRE@646917f6e1d49b29": {
         "verdict": "drop",
-        "reason": "Its subject is the Contoso demo data framework and its codeunit patterns, not importing or exporting data in AL.",
-        "at": "2026-10-25T17:55:05.362Z",
+        "reason": "About the Contoso demo data framework, not importing or exporting data in AL.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       }
     },
@@ -6336,44 +6433,50 @@
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data": {
       "post/aardvarklabs-blog/2875@859c3408b8420ca4": {
         "verdict": "keep",
-        "reason": "Shows setting field values with RecordRef and FieldRef and then modifying the record, which is a data modification technique.",
-        "at": "2026-10-25T17:52:08.131Z",
+        "reason": "Shows setting fields and modifying records through RecordRef/FieldRef, a data modification technique.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/demiliani-com/12267@642524c944ede625": {
         "verdict": "keep",
-        "reason": "Covers the Rec.Truncate method for bulk deletion of table rows, a data modification operation.",
-        "at": "2026-10-25T17:52:08.131Z",
+        "reason": "Rec.Truncate is a record method for bulk deletion of table data.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/duiliotacconi-com/1717@dcbaf29c9ad9d829": {
         "verdict": "keep",
-        "reason": "Database.LockTimeoutDuration controls locking behavior during write transactions on records.",
-        "at": "2026-10-25T17:52:08.131Z",
+        "reason": "Lock timeout control relates to locking behavior during data modification transactions.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/duiliotacconi-com/1850@5319a3fbdedfa6f6": {
         "verdict": "keep",
-        "reason": "Covers Rec.Truncate compared with DeleteAll for deleting records, which is directly about modifying data.",
-        "at": "2026-10-25T17:52:08.131Z",
+        "reason": "Covers Rec.Truncate versus DeleteAll for deleting table records.",
+        "at": "2026-10-25T18:23:13.646Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/3910@5330ab33a1c67779": {
+        "verdict": "drop",
+        "reason": "DataTransfer is an upgrade-code data type documented elsewhere than this section.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7075429771899937250@55e16243375d0b0b": {
         "verdict": "drop",
-        "reason": "Its subject is No. Series validation changes in a BC 27 upgrade, not the AL methods for modifying records.",
-        "at": "2026-10-25T17:52:08.131Z",
+        "reason": "About No. Series validation changes in an upgrade, not AL data modification methods.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/@5952c73c9ebbb427": {
         "verdict": "keep",
-        "reason": "Explains using Validate rather than direct assignment when changing field values, part of modifying data.",
-        "at": "2026-10-25T17:52:08.131Z",
+        "reason": "Explains using Validate rather than direct assignment when modifying field values.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "video/Ug_uM59DRRE@646917f6e1d49b29": {
         "verdict": "drop",
-        "reason": "Its subject is the Contoso demo data framework and its tooling, not modifying records in AL.",
-        "at": "2026-10-25T17:52:08.131Z",
+        "reason": "About demo data framework and configuration packages, not modifying data in AL.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       }
     },
@@ -6460,28 +6563,34 @@
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code": {
+      "post/nataliekarolak-com/4271@559f896300d7f1aa": {
+        "verdict": "keep",
+        "reason": "BCQuality is a repository of AL code-quality rules, and this post covers a VS Code plugin for applying them while generating AL code.",
+        "at": "2026-10-25T18:23:13.646Z",
+        "v": 2
+      },
       "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/@7c539af3ddd905ec": {
         "verdict": "keep",
-        "reason": "ALCops is a code analyzer tool that checks AL code against quality rules, so it automates the best practices this section documents.",
-        "at": "2026-10-25T17:52:47.083Z",
+        "reason": "ALCops analyzers check AL code against quality rules and fix problems, which automates the AL coding best practices this section documents.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/thinkaboutit-be/8132@c9bfa41ad7ac66b4": {
         "verdict": "keep",
-        "reason": "BCQuality is a shared set of AL coding rules and best practices (for example, SetLoadFields usage) used during code review, which matches this section.",
-        "at": "2026-10-25T17:52:47.083Z",
+        "reason": "BCQuality sets a shared quality bar for AL code, with concrete rules such as SetLoadFields ordering and FindSet usage, so it matches AL best practices.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/@1756ce6e0d673c86": {
         "verdict": "drop",
-        "reason": "The post is about choosing what information to give AI agents, not about best practices for writing AL code.",
-        "at": "2026-10-25T17:52:47.083Z",
+        "reason": "Its subject is context engineering for AI agents, not best practices for writing AL code.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/07/01/what-to-do-in-the-age-of-code-printing/@d40e6ff34394e4e3": {
         "verdict": "drop",
-        "reason": "The post is about how teams organise AI code generation and their own structure, not about AL code best practices.",
-        "at": "2026-10-25T17:52:47.083Z",
+        "reason": "Its subject is team structure and AI scaffolding strategy, not AL coding practices.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       }
     },
@@ -7366,204 +7475,216 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c": {
-      "post/thinkaboutit-be/8204@f01e08039a637ec9": {
-        "verdict": "keep",
-        "reason": "Covers Microsoft-managed Azure OpenAI resources for developers building Copilot extensions, part of the Copilot developer tooling.",
-        "at": "2026-10-25T17:50:46.821Z",
-        "v": 2
-      },
-      "post/tine-staric-net/https://tine.staric.net/blog/2026/copilot-harness-default/@1d9dc9fbb36ac87e": {
-        "verdict": "drop",
-        "reason": "About the GitHub Copilot agent harness in VS Code, not the Business Central Copilot developer toolkit.",
-        "at": "2026-10-25T17:50:46.821Z",
-        "v": 2
-      },
-      "video/7SSNcUMFtCw@0a389bab8e080e1f": {
-        "verdict": "keep",
-        "reason": "Covers AI Resources, Azure OpenAI authorization and deployment codeunits used when developing Copilot extensions.",
-        "at": "2026-10-25T17:50:46.821Z",
-        "v": 2
-      },
-      "video/9zQZHfXK-PQ@7e65b7781b453b60": {
-        "verdict": "drop",
-        "reason": "Uses GitHub Copilot to automate documentation, not the Business Central Copilot developer tools.",
-        "at": "2026-10-25T17:50:46.821Z",
-        "v": 2
-      },
-      "video/jWJc_D67Vfw@54f5ff97b64f3786": {
-        "verdict": "drop",
-        "reason": "A general talk on learning and adopting AI tools such as ChatGPT and Claude, not on building Copilot features in AL.",
-        "at": "2026-10-25T17:50:46.821Z",
-        "v": 2
-      },
-      "video/lNASlydCidI@22cc3fc62993bd91": {
-        "verdict": "keep",
-        "reason": "Demonstrates the generative AI developer toolkit: the PromptDialog page type, the AI module, capability registration and Azure OpenAI calls.",
-        "at": "2026-10-25T17:50:46.821Z",
-        "v": 2
-      },
-      "video/nbGw2g3KMXI@c6dea39b6e68bacc": {
-        "verdict": "drop",
-        "reason": "About building custom agents, which the sibling section 'Designing and coding agents' documents more exactly.",
-        "at": "2026-10-25T17:50:46.821Z",
-        "v": 2
-      },
-      "video/tpAh4q3h8T8@8c73a10fc99e408b": {
-        "verdict": "drop",
-        "reason": "A keynote on debugging, Page Inspector and GitHub Copilot for code, not on extending Copilot in Business Central.",
-        "at": "2026-10-25T17:50:46.821Z",
-        "v": 2
-      },
       "post/aardvarklabs-blog/1609@e19ddf28b0a4650a": {
         "verdict": "keep",
-        "reason": "Builds a Copilot capability in AL with Azure OpenAI: registers the capability, stores the key in isolated storage and writes the prompts, all of which the section's developer tools cover.",
-        "at": "2026-10-25T17:50:46.884Z",
+        "reason": "Builds a Copilot capability in AL with Azure OpenAI, covering how to register the capability, set prompts and choose chat completion parameters, all of which this section documents.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/aardvarklabs-blog/1891@4b250d20fdf70c35": {
         "verdict": "keep",
-        "reason": "Shows an AL feature that calls Azure OpenAI to pull keywords from sales order lines, a direct use of the Copilot developer tooling.",
-        "at": "2026-10-25T17:50:46.884Z",
+        "reason": "Shows how to build an AI-assisted feature in an extension with the AL Azure OpenAI tools, which is what the Copilot developer tools cover.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2663@7b4c6df359dde05f": {
         "verdict": "keep",
-        "reason": "Compares SetAuthorization with SetManagedResourceAuthorization, two ways to sign in to Azure OpenAI from AL that belong to the Copilot developer tools.",
-        "at": "2026-10-25T17:50:46.884Z",
+        "reason": "Compares the SetAuthorization and SetManagedResourceAuthorization methods of the Azure OpenAI module, which belong to the Copilot developer tools.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2965@d2bf757344173418": {
         "verdict": "keep",
-        "reason": "Builds AI features in AL on the managed Azure OpenAI resource with grounded search, using the Copilot developer tooling.",
-        "at": "2026-10-25T17:50:46.884Z",
+        "reason": "Builds AI features in AL on the managed Azure OpenAI resource, so it shows the developer tools for Copilot in use.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3564@e823a16dc5428d34": {
         "verdict": "drop",
-        "reason": "About VS Code skills that help write code with GitHub Copilot, not about adding Copilot features to Business Central.",
-        "at": "2026-10-25T17:50:46.884Z",
+        "reason": "Covers VS Code skills for AI-assisted AL coding, not building Copilot features into Business Central with the developer tools.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/gerardorenteria-blog/11354@96266a6dd9a4e882": {
         "verdict": "drop",
-        "reason": "About connecting the Microsoft Learn Docs MCP server to GitHub Copilot in an IDE, which this section does not document.",
-        "at": "2026-10-25T17:50:46.884Z",
+        "reason": "Covers connecting GitHub Copilot to the Microsoft Learn Docs MCP server for help while coding, which is not about the Business Central Copilot developer tools.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/gerardorenteria-blog/13993@8ca8589c6cc08b08": {
         "verdict": "drop",
-        "reason": "About VS Code agent skills that check extension health through telemetry, not about building Copilot features in AL.",
-        "at": "2026-10-25T17:50:46.884Z",
+        "reason": "Uses VS Code agent skills and MCP tools to check extension health, which this section does not document.",
+        "at": "2026-10-25T18:23:13.646Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/4271@559f896300d7f1aa": {
+        "verdict": "drop",
+        "reason": "A VS Code plugin that helps AI assistants write better AL code; it does not use or extend the Copilot developer tools.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@b94f6d6fdd1fc4fe": {
         "verdict": "drop",
-        "reason": "About writing AL code with GitHub Copilot's help ('vibe coding'), not about the Copilot developer tools for adding AI to Business Central.",
-        "at": "2026-10-25T17:50:46.884Z",
+        "reason": "Covers vibe coding with GitHub Copilot in VS Code, which is AI-assisted development rather than building Copilot features in Business Central.",
+        "at": "2026-10-25T18:23:13.646Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8204@f01e08039a637ec9": {
+        "verdict": "keep",
+        "reason": "Covers Microsoft-managed Azure OpenAI resources for building Copilot extensions, which is part of the developer tools for Copilot.",
+        "at": "2026-10-25T18:23:13.646Z",
+        "v": 2
+      },
+      "post/tine-staric-net/https://tine.staric.net/blog/2026/copilot-harness-default/@1d9dc9fbb36ac87e": {
+        "verdict": "drop",
+        "reason": "About the GitHub Copilot harness in VS Code, not the Business Central developer tools for building Copilot features.",
+        "at": "2026-10-25T18:23:13.646Z",
+        "v": 2
+      },
+      "video/7SSNcUMFtCw@0a389bab8e080e1f": {
+        "verdict": "keep",
+        "reason": "Covers AI resources for Copilot development: managed resource authorization, the Azure OpenAI codeunits and system prompts.",
+        "at": "2026-10-25T18:23:13.646Z",
+        "v": 2
+      },
+      "video/9zQZHfXK-PQ@7e65b7781b453b60": {
+        "verdict": "drop",
+        "reason": "About using GitHub Copilot to automate documentation, not about building Copilot capabilities in Business Central.",
+        "at": "2026-10-25T18:23:13.646Z",
+        "v": 2
+      },
+      "video/jWJc_D67Vfw@54f5ff97b64f3786": {
+        "verdict": "drop",
+        "reason": "General AI adoption and learning habits, with nothing on the Copilot developer toolkit.",
+        "at": "2026-10-25T18:23:13.646Z",
+        "v": 2
+      },
+      "video/lNASlydCidI@22cc3fc62993bd91": {
+        "verdict": "keep",
+        "reason": "Walks through the generative AI developer toolkit: the PromptDialog page type, the AI module and capability registration.",
+        "at": "2026-10-25T18:23:13.646Z",
+        "v": 2
+      },
+      "video/nbGw2g3KMXI@c6dea39b6e68bacc": {
+        "verdict": "drop",
+        "reason": "About building agents, which the sibling section 'Designing and coding agents' documents more exactly.",
+        "at": "2026-10-25T18:23:13.646Z",
+        "v": 2
+      },
+      "video/tpAh4q3h8T8@8c73a10fc99e408b": {
+        "verdict": "drop",
+        "reason": "Keynote on debugger, telemetry and GitHub Copilot features, not the developer tools for building Copilot extensions.",
+        "at": "2026-10-25T18:23:13.646Z",
         "v": 2
       }
     },
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central": {
       "post/aardvarklabs-blog/1816@e4d6a80ff7fae1d1": {
         "verdict": "keep",
-        "reason": "Shows how to build a Copilot capability in AL: a codeunit that builds prompts and sends them to Azure OpenAI, plus a user-facing page, which is what this section covers.",
-        "at": "2026-10-25T17:51:40.351Z",
+        "reason": "Builds a Copilot codeunit and prompt-based capability in AL with Azure OpenAI and a modal input page.",
+        "at": "2026-10-25T18:23:13.651Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2467@209cd1451e73aa89": {
         "verdict": "keep",
-        "reason": "Shows how to build an AI feature in Business Central with Azure OpenAI and system prompts, which is an example of extending Copilot.",
-        "at": "2026-10-25T17:51:40.351Z",
+        "reason": "Implements an AL Copilot/AI capability with Azure OpenAI and system prompts for address matching.",
+        "at": "2026-10-25T18:23:13.651Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2759@27b080e3262c5010": {
         "verdict": "keep",
-        "reason": "Shows how to build a Copilot user experience with a PromptDialog page in Generate mode, which is the 'Build Copilot user experience' subtopic.",
-        "at": "2026-10-25T17:51:40.351Z",
+        "reason": "Demonstrates a PromptDialog page with PromptMode Generate, which is the Copilot user experience the section covers.",
+        "at": "2026-10-25T18:23:13.651Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2965@d2bf757344173418": {
         "verdict": "keep",
-        "reason": "Shows how to build AI features in AL using Business Central's managed AI resource and prompt management, which are developer tools for Copilot.",
-        "at": "2026-10-25T17:51:40.351Z",
+        "reason": "Builds AI capabilities in AL using Business Central's managed AI resource, which extends Copilot.",
+        "at": "2026-10-25T18:23:13.651Z",
         "v": 2
       },
       "post/demiliani-com/12927@564448969ad4db99": {
         "verdict": "keep",
-        "reason": "Explains how to prepare an extension so Copilot Chat can search its documentation, which is a way of extending Copilot from an extension.",
-        "at": "2026-10-25T17:51:40.351Z",
+        "reason": "Shows how extension developers set up their apps so Copilot Chat can use their content, a related way to extend Copilot.",
+        "at": "2026-10-25T18:23:13.651Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/3653@f1e8d70504beff46": {
+        "verdict": "drop",
+        "reason": "General release-notes roundup where Copilot customization is only a minor mention.",
+        "at": "2026-10-25T18:23:13.651Z",
         "v": 2
       },
       "post/olofsimren-com/3585@5064168e4ed6fbc3": {
         "verdict": "keep",
-        "reason": "The extension was built with Microsoft's Copilot capability tools for AL, and the post explains how its setup and prompt design work.",
-        "at": "2026-10-25T17:51:40.351Z",
+        "reason": "Extension built with Microsoft's AL Copilot capability tools, including setup, system prompt and data grounding.",
+        "at": "2026-10-25T18:23:13.651Z",
         "v": 2
       },
       "post/olofsimren-com/3605@671e0072eccfd4bd": {
         "verdict": "keep",
-        "reason": "Describes a partner extension that adds Copilot to the Planning Worksheet, an example of extending Copilot; it describes features rather than code, so this is a borderline keep.",
-        "at": "2026-10-25T17:51:40.351Z",
+        "reason": "A custom Copilot extension for the Planning Worksheet with guided prompts, an example of extending Copilot.",
+        "at": "2026-10-25T18:23:13.651Z",
         "v": 2
       },
       "post/olofsimren-com/3630@dbcf5dd0f6c91453": {
         "verdict": "keep",
-        "reason": "Describes a Copilot extension's design, including what data it sends to the model, a prompt that returns JSON and response times, which is relevant to building Copilot capabilities.",
-        "at": "2026-10-25T17:51:40.351Z",
+        "reason": "Custom Copilot extension using Azure OpenAI with predefined prompts and JSON output, showing how to build a Copilot capability.",
+        "at": "2026-10-25T18:23:13.651Z",
         "v": 2
       },
       "video/06vgkq2EXmA@10d08f4131a1a71d": {
         "verdict": "keep",
-        "reason": "Covers how Microsoft built Copilot, including prompt engineering, test-driven development and evaluation, and Copilot developer tools, which matches both building and testing Copilot capabilities.",
-        "at": "2026-10-25T17:51:40.351Z",
+        "reason": "Covers how a Copilot feature was built, including test-driven prompt development and the Copilot developer tools, which matches building and testing Copilot capabilities.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/jdevJbGgB-k@cf8174533d95244f": {
         "verdict": "keep",
-        "reason": "Covers developing Copilot features in Business Central with the AI developer toolkit, including testing and validation.",
-        "at": "2026-10-25T17:51:43.215Z",
+        "reason": "Covers developing AI features in Business Central with the AI developer toolkit, plus testing and validation.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/lNASlydCidI@22cc3fc62993bd91": {
         "verdict": "keep",
-        "reason": "Demonstrates the prompt dialog page type, system actions and the AI module used to build the Copilot user experience.",
-        "at": "2026-10-25T17:51:43.215Z",
+        "reason": "Demonstrates the PromptDialog page type, the AI module and capability registration used to build the Copilot user experience.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/NE7NIjpkX3c@c2c480f0a50cca2c": {
         "verdict": "keep",
-        "reason": "Discusses preparing Copilot extensions, including test automation and validation of LLM responses.",
-        "at": "2026-10-25T17:51:43.215Z",
+        "reason": "Covers practical steps for preparing a Copilot extension, including test automation to validate prompts.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/QCo-uIfPs9g@1dcc80f8a9959b61": {
         "verdict": "keep",
-        "reason": "Directly covers extending Copilot: prompt dialogs, Copilot actions, capability registration and function calling.",
-        "at": "2026-10-25T17:51:43.215Z",
+        "reason": "Directly about extending Copilot: prompt actions, the prompt dialog framework and capability registration.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/sv1utmneaXA@8b1176fdcec643ca": {
-        "verdict": "keep",
-        "reason": "Covers extending Copilot Chat in Business Central with an app's documentation, which is closely related to this section.",
-        "at": "2026-10-25T17:51:43.215Z",
+        "verdict": "drop",
+        "reason": "About making app documentation searchable by Copilot Chat through app.json and Bing, not building Copilot features with the AL developer tools.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/UgagVZVKCso@41e9c741d5da1010": {
         "verdict": "keep",
-        "reason": "Partner lessons on building Copilot features, with prompt engineering and automated Copilot testing.",
-        "at": "2026-10-25T17:51:43.215Z",
+        "reason": "Partner experience building Copilot features, including prompt engineering and automated testing of Copilot.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/V_ZyGeF5JXE@3ce75df76bbc64f0": {
         "verdict": "drop",
-        "reason": "About Power Platform integration and AI Builder GPT, not extending Copilot with AL developer tools.",
-        "at": "2026-10-25T17:51:43.215Z",
+        "reason": "About Power Platform integration (Power Automate, AI Builder), not extending Copilot in AL.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/ytYKvn2MiGs@eb321b47bbe5e11c": {
         "verdict": "keep",
-        "reason": "Covers extending Copilot in AL: the prompt dialog, Copilot actions, the AI module, function calling and token counting.",
-        "at": "2026-10-25T17:51:43.215Z",
+        "reason": "Directly about extending Copilot with AL code: prompt dialog, Copilot actions, the AI module and function calling.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       }
     },
@@ -7596,158 +7717,164 @@
     "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol": {
       "post/aardvarklabs-blog/2724@452d3cfe6e36cc7f": {
         "verdict": "keep",
-        "reason": "Covers MCP server configuration in Business Central, its permissions, and using it from Copilot Studio.",
-        "at": "2026-10-25T17:50:35.851Z",
+        "reason": "Explains setting up and scoping a Business Central MCP server configuration and using it from Copilot Studio.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3775@a2c94160e716652b": {
         "verdict": "keep",
-        "reason": "Step-by-step guide to connecting an external client to the Business Central MCP server.",
-        "at": "2026-10-25T17:50:35.851Z",
+        "reason": "Step-by-step guide to connecting a client to the Business Central MCP server, including authentication setup.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "post/bertverbeek-nl/1183@836d745bea423af5": {
         "verdict": "keep",
-        "reason": "Shows how pro-code agents authenticate and connect to the Business Central MCP endpoint.",
-        "at": "2026-10-25T17:50:35.851Z",
+        "reason": "Shows pro-code agents connecting to the Business Central MCP endpoint through Microsoft Agent Framework.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "post/gerardorenteria-blog/12682@19ba796716115831": {
         "verdict": "keep",
-        "reason": "The AboutText property describes APIs to AI when they are exposed through the Business Central MCP server.",
-        "at": "2026-10-25T17:50:35.851Z",
+        "reason": "The AboutText property describes APIs exposed through the Business Central MCP server so AI agents can choose the right tool.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "post/katson-com/4678@3149d70b46e0ffbd": {
         "verdict": "keep",
-        "reason": "Covers connecting external agents to the Business Central MCP server through a proxy, including the MCP Server Configuration prerequisites.",
-        "at": "2026-10-25T17:50:35.851Z",
+        "reason": "Covers connecting external agents to the Business Central MCP server through a proxy, including the MCP Server Configuration prerequisite.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "post/katson-com/5026@9a27bff87e7919fe": {
         "verdict": "keep",
-        "reason": "Covers enabling the native Business Central MCP server and connecting Claude Desktop to it.",
-        "at": "2026-10-25T17:50:35.851Z",
+        "reason": "Explains enabling the native Business Central MCP server and connecting Claude Desktop to it.",
+        "at": "2026-10-25T18:23:13.652Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/3653@f1e8d70504beff46": {
+        "verdict": "drop",
+        "reason": "Overview of BC 27 AL language features with no MCP content.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "post/waldo-be/318371@3c9365f95f687133": {
         "verdict": "drop",
-        "reason": "Its subject is telemetry analysis with a separate VS Code MCP tool, not the Business Central MCP server integration.",
-        "at": "2026-10-25T17:50:35.851Z",
+        "reason": "About telemetry analysis with its own bundled MCP tool, not Business Central's MCP server integration.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/0WAOtNaKjws@40140be95a26ae18": {
         "verdict": "keep",
-        "reason": "Shows new MCP server features: configuration validation, import/export, and support for multiple hosts.",
-        "at": "2026-10-25T17:50:35.851Z",
+        "reason": "Covers new MCP server capabilities such as configuration validation, import/export, and support for multiple MCP hosts.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/9CW5mydS9Vs@ac90087b90c2ab2e": {
         "verdict": "drop",
-        "reason": "Its subject is testing, and the MCP server it mentions is for running tests, not the Business Central MCP integration.",
-        "at": "2026-10-25T17:50:35.851Z",
+        "reason": "About testing frameworks; the MCP server for running tests is a side point, not the Business Central MCP integration.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/AMVAiPTfSrU@21493b8d8e455834": {
         "verdict": "keep",
-        "reason": "Partners show agents built on the Business Central MCP server with Copilot Studio.",
-        "at": "2026-10-25T17:50:35.851Z",
+        "reason": "Demonstrates partner agents built in Copilot Studio on top of the Business Central MCP server.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/C5cmG3sNjUg@92cb181a221d6a25": {
         "verdict": "keep",
-        "reason": "Covers advanced MCP server topics: named configurations, dynamic tools, About Text, and the proxy for other hosts.",
-        "at": "2026-10-25T17:50:35.851Z",
+        "reason": "Covers advanced MCP server topics: dynamic and static tools, named configurations, AboutText, and the proxy for other hosts.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/EpDIrJE0HzA@ddd48c8e193a3756": {
         "verdict": "keep",
-        "reason": "Shows the Business Central MCP server and its MCP Configurations page used to build a Copilot Studio agent.",
-        "at": "2026-10-25T17:50:35.851Z",
+        "reason": "Shows building a Copilot Studio agent with the Business Central MCP server and the MCP Configurations page.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/GeT5E_f9A9Q@a2697854634afebf": {
         "verdict": "keep",
-        "reason": "Directly covers MCP server configurations, tool modes, bound actions, and authentication.",
-        "at": "2026-10-25T17:50:35.851Z",
+        "reason": "Introduces MCP server configurations, dynamic tool mode, bound actions, and the authentication model.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/iViHfCgL2L8@df2560413cda5a7f": {
         "verdict": "keep",
-        "reason": "Introduces the Business Central MCP server, its configurations and Copilot Studio integration.",
-        "at": "2026-10-25T17:50:38.995Z",
+        "reason": "It introduces the Business Central MCP server, its configurations and how it connects to Copilot Studio, which is the core of this section.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/LerAo-GGl8U@b236d99e6c042480": {
         "verdict": "keep",
-        "reason": "Covers MCP integration with Business Central via the admin MCP server, Copilot Studio connectors and agent tool invocation.",
-        "at": "2026-10-25T17:50:38.995Z",
+        "reason": "It covers MCP fundamentals and connecting an MCP server for Business Central through Copilot Studio and VS Code, so it fits this section even though it's about the admin server.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/nMiLzdfidos@7aefbb460827884f": {
         "verdict": "drop",
-        "reason": "AL language release overview; its AL MCP server content belongs to the developer tools for Copilot section.",
-        "at": "2026-10-25T17:50:38.995Z",
+        "reason": "Its MCP content is the AL developer MCP server, which the sibling section on developer tools for Copilot covers.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/q3xnjJD32kk@d199027ff42fba0f": {
         "verdict": "keep",
-        "reason": "Covers new Business Central MCP server tools, configuration and security toggle.",
-        "at": "2026-10-25T17:50:38.995Z",
+        "reason": "It covers new Business Central MCP server tools, the configuration screens and the security toggle.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/qs1cg-GoDeQ@4d105923c45e012e": {
         "verdict": "keep",
-        "reason": "Covers new Business Central MCP server data tools and configuration UI.",
-        "at": "2026-10-25T17:50:38.995Z",
+        "reason": "It covers the Business Central MCP server's data tools, configuration screens and Copilot Studio use.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/rm-FstU_I80@ba54971afc7aaa8f": {
         "verdict": "keep",
-        "reason": "Explains the Business Central MCP server, configuration modes and connecting from Copilot Studio.",
-        "at": "2026-10-25T17:50:38.995Z",
+        "reason": "It walks through setting up the standard Business Central MCP server and connecting it to Copilot Studio.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/tMqCSibSRug@bea35e2233934e97": {
         "verdict": "drop",
-        "reason": "About the ALCops code analyzer; its MCP server is a linting tool, not Business Central MCP integration.",
-        "at": "2026-10-25T17:50:38.995Z",
+        "reason": "It's about a third-party AL code-analysis tool whose own MCP server has nothing to do with Business Central MCP integration.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/UFLo2XGGS14@9ca37da61d82c657": {
         "verdict": "drop",
-        "reason": "Developer-loop debugging/profiling MCP tooling belongs to the developer tools section.",
-        "at": "2026-10-25T17:50:38.995Z",
+        "reason": "It covers developer debugging and profiling MCP tools in VS Code, which belong to the sibling section on developer tools.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/uMKLsKfKPc0@7931656655aa3538": {
         "verdict": "keep",
-        "reason": "Demonstrates connecting Copilot Studio agents to the Business Central MCP server and MCP access control.",
-        "at": "2026-10-25T17:50:38.995Z",
+        "reason": "It shows connecting Copilot Studio agents to the Business Central MCP server and controlling access to it.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/xWOddQt1GUM@b37a64fe3602a41b": {
         "verdict": "drop",
-        "reason": "Discussion of AI in AL development; MCP mentions concern developer troubleshooting tools.",
-        "at": "2026-10-25T17:50:38.995Z",
+        "reason": "It's about AI-assisted AL development and the troubleshooting MCP for AL, not Business Central MCP integration.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/yIYUCSK0Bh4@d35f3695dd657589": {
         "verdict": "drop",
-        "reason": "About benchmarking coding agents on AL tasks, not Business Central MCP integration.",
-        "at": "2026-10-25T17:50:38.995Z",
+        "reason": "It's about benchmarking AI coding agents; AL-MCP comes up only as a developer tool.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/zei-IszvYNU@8eb722c8c56e1306": {
         "verdict": "keep",
-        "reason": "Covers exposing Microsoft APIs through the Business Central MCP server configuration.",
-        "at": "2026-10-25T17:50:38.995Z",
+        "reason": "It covers adding Microsoft API groups as tools when configuring the Business Central MCP server.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       },
       "video/zQg48VT0crU@0efa62fb9983f330": {
         "verdict": "drop",
-        "reason": "Podcast on AI development workflows; AL MCP server use is developer tooling covered elsewhere.",
-        "at": "2026-10-25T17:50:38.995Z",
+        "reason": "It's about AI workflows for AL development, and its MCP mentions are developer tooling, not Business Central MCP integration.",
+        "at": "2026-10-25T18:23:13.652Z",
         "v": 2
       }
     },

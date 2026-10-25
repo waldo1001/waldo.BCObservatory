@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:46.553Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-25T18:23:25.719Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,6 +62,7 @@ links:
     - video/PHmFqehrPG4
   posts:
     - post/jpearson-blog/1419
+    - post/nataliekarolak-com/4179
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-8721347757329141815--e497e421dc
   guidelines: []
   changes:
@@ -78,7 +79,7 @@ coverage:
   learn: 4
   code: 0
   video: 2
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 1df987552c2acc93942b6b62fb884791969f7b91f6e38fa7b5191b87c8d7fd15
@@ -119,6 +120,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#98 Add P0 event and interface compatibility knowledge](../../../../../changes/bcquality/98.md) (code change): "Guidelines for extending published interfaces with versioned siblings and BC25+ extends syntax"
 - [Another Look at App Integration in Business Central – Part 2](../../../../../posts/jpearson-blog/1419.md) (community post): "integrate two independent Business Central apps without creating a direct dependency between them by using interfaces"
+- [Docs: What’s new in BC 29 for developers and admins](../../../../../posts/nataliekarolak-com/4179.md) (community post): "interface default implementations allow adding functionality to published interfaces"
 - [Evolve AL Interfaces with Default Implementations in Business Central 29.0](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-8721347757329141815--e497e421dc.md) (community post): "Interfaces can now provide default method bodies"
 - [Business Central 29 0 Default Implementations in AL Interfaces](../../../../../videos/H_PHi8pe53w.md) (video): "Default implementation for AL interfaces; Required pending attribute"
 - [What's New: AL - Interfaces (2024 release wave 2)](../../../../../videos/PHmFqehrPG4.md) (video): "Interface Extension; Type Checking with Is Operator for Interfaces; Interface Casting with As Operator"

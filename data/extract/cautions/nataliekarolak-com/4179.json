@@ -1,0 +1,34 @@
+{
+  "item_id": "blog/nataliekarolak-com/4179",
+  "page_id": "post/nataliekarolak-com/4179",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "Treat this flag as deprecated when you target runtime 18.0 or later.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29",
+        "BC29",
+        "runtime 18.0"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Only PowerShell 7 is supported. Windows PowerShell 5 might continue to work, but it isn't a supported configuration.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

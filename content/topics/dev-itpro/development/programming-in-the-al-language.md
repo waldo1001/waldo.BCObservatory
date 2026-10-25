@@ -12,7 +12,7 @@ review:
   at: "2026-10-22T01:12:24.802Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-25T18:23:25.719Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -364,6 +364,8 @@ links:
     - video/QhHgkCe3kkk
   posts:
     - post/aardvarklabs-blog/2603
+    - post/nataliekarolak-com/1855
+    - post/nataliekarolak-com/3653
   guidelines: []
   changes:
     - change/bcapps/11507
@@ -395,7 +397,7 @@ coverage:
   learn: 340
   code: 36
   video: 3
-  blog: 1
+  blog: 3
   guideline: 0
 bc_forms:
   - 16
@@ -494,6 +496,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#155 Add read-only AL development plan guidance](../../../changes/bcquality/155.md) (code change): "Add read-only AL development plan guidance enriching AL development plans with applicable constraints"
 - [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../posts/aardvarklabs-blog/2603.md) (community post): "demonstrates how to parse and import delimited files using AL"
+- [Snippet: StrMenu from Enum list](../../../posts/nataliekarolak-com/1855.md) (community post): "AL code snippet that uses StrMenu to let users select from a filtered"
+- [Docs: What’s new in BC 27 for developers](../../../posts/nataliekarolak-com/3653.md) (community post): "New AL methods for GUID creation, truncate operations, text manipulation"
 - [... but can it play DOOM? (In Business Central)](../../../videos/a8W1x0xwkv4.md) (video): "AL development; user control host; typescript; webgl rendering; javascript interop"
 - [What’s New: Data Search Improvements (For Developers) (2024 release wave 2)](../../../videos/lH2Z4xfdhmY.md) (video): "Modern search; full-text search; optimized for text search property"
 - [What's New in AL: Embedding Resources in Applications (2024 release wave 2)](../../../videos/QhHgkCe3kkk.md) (video): "Embedding resources in applications; get resource function; Multiple resource folders"

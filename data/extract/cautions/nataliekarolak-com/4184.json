@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/nataliekarolak-com/4184",
+  "page_id": "post/nataliekarolak-com/4184",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "When we executed that code line in – let's say – Business Central 25.0, then a runtime error was thrown.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "25.0"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "BC 27.0 online would include the fix, but BC 27.0 on-premises does not.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27.0"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

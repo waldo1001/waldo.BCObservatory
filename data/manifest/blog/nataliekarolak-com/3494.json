@@ -7,7 +7,7 @@
   "url": "https://nataliekarolak.wordpress.com/2025/08/04/how-to-write-good-tooltips-as-a-bc-developer/",
   "published_at": "2025-08-04T07:22:31.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T18:00:19.950Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-25T18:00:48.645Z",
       "path": "vault:posts/nataliekarolak-com/3494.md",
       "words": 1775
+    },
+    "extracted": {
+      "at": "2026-10-25T18:17:29.691Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-25T18:17:29.695Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T18:17:29.700Z"
+    },
+    "published": {
+      "at": "2026-10-25T18:17:30.110Z",
+      "path": "content/posts/nataliekarolak-com/3494.md"
     }
   },
   "input_hash": "2026-08-10T11:24:34.000Z",
@@ -23,5 +41,10 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "755c3abee5b519510d0bd68e78824b570ae72b3de25966fc53f49a8d5b08e5af"
+  "output_hash": "11eb93777c78cd3c50e34dc99a3146d5b20c8196fd983ca3e14431a4c4b6ea87",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-25T18:23:14.380Z"
+  }
 }

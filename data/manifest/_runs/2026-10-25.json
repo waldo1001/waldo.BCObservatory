@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
-  "started_at": "2026-10-25T17:44:54.027Z",
-  "finished_at": "2026-10-25T17:58:19.882Z",
+  "started_at": "2026-10-25T18:17:26.277Z",
+  "finished_at": "2026-10-25T18:26:12.895Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -22,18 +22,18 @@
   "ingest": {
     "sources": [
       {
-        "id": "vjeko-com",
+        "id": "nataliekarolak-com",
         "kind": "blog",
         "ok": true,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 22,
+          "unchanged": 16,
           "removed": 0
         },
-        "note": "22 posts via feed",
-        "duration_ms": 398
+        "note": "16 posts via WordPress REST",
+        "duration_ms": 606
       }
     ],
     "totals": {
@@ -43,7 +43,7 @@
       "new": 0,
       "changed": 0,
       "updated": 0,
-      "unchanged": 22,
+      "unchanged": 16,
       "removed": 0
     }
   },
@@ -74,70 +74,78 @@
       "post_reviews": 50000,
       "change_reviews": 50000
     },
-    "work": 0,
-    "executed": 0,
+    "work": 4,
+    "executed": 4,
     "skips": 0,
-    "quota_use": {},
+    "quota_use": {
+      "posts": {
+        "selected": 4,
+        "available": 4,
+        "limit": 50000
+      }
+    },
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 179,
-    "cache_hits": 0,
+    "calls": 1,
+    "cache_hits": 38,
     "failures": 0,
     "by_model": {
-      "claude-haiku-4-5-20251001": 1,
-      "claude-opus-5-5": 178
+      "claude-haiku-4-5-20251001": 1
     },
-    "cost_usd": 8.582344799999996,
+    "cost_usd": 0.008091999999999998,
     "tokens_by_model": {
       "claude-haiku-4-5-20251001": {
         "calls": 1,
-        "input": 3,
-        "output": 513,
+        "input": 6502,
+        "output": 318,
         "cache_read": 0,
-        "cache_creation": 9442,
-        "cost_usd": 0.021452000000000002
-      },
-      "claude-opus-5-5": {
-        "calls": 178,
-        "input": 356,
-        "output": 157850,
-        "cache_read": 2464,
-        "cache_creation": 675247,
-        "cost_usd": 8.560892799999996
+        "cache_creation": 0,
+        "cost_usd": 0.008091999999999998
       }
     },
-    "day_cost_usd": 36.596054
+    "day_cost_usd": 36.604146
   },
   "spend": {
-    "today_usd": 28.013709,
+    "today_usd": 36.596054,
     "week_before_usd": 59.892014,
     "night_cap_usd": 100000,
     "week_cap_usd": 100000,
-    "allowance_usd": 99912.094277,
+    "allowance_usd": 99903.511932,
     "binding": "week",
     "exhausted": false,
     "override": true
   },
   "items_changed": 0,
-  "errors": [],
+  "errors": [
+    "blog/nataliekarolak-com/3377 extracted: model returned no entry for this post"
+  ],
   "captions_retried": 0,
   "checkpoints": 0,
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-25T23:19:00.000Z",
-    "items_touched": 0,
-    "stages_run": {},
-    "advanced": 0,
+    "deadline": "2026-10-25T23:52:00.000Z",
+    "items_touched": 4,
+    "stages_run": {
+      "blog:extracted": 3,
+      "blog:summarized": 3,
+      "blog:linked": 3,
+      "blog:published": 3
+    },
+    "advanced": 12,
     "skipped": 0,
-    "failed_attempts": 0,
+    "failed_attempts": 1,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
     "parked": 0,
-    "quota_charged": {},
+    "quota_charged": {
+      "posts": 4
+    },
     "regards": [],
-    "errors": [],
+    "errors": [
+      "blog/nataliekarolak-com/3377 extracted: model returned no entry for this post"
+    ],
     "parked_left": 0
   },
   "code": {
@@ -164,16 +172,16 @@
       "stopped": "done"
     },
     "crosslinks": {
-      "pages": 5047,
-      "rows": 8532,
+      "pages": 5048,
+      "rows": 8536,
       "certain": 2556,
       "by": {
-        "code": 4462,
+        "code": 4466,
         "override": 33,
         "model": 4037
       },
       "learn_pages": 1745,
-      "written": false,
+      "written": true,
       "errors": []
     },
     "cautions": {
@@ -191,16 +199,16 @@
       "own_objects": 9214
     },
     "related": {
-      "pages": 10179,
-      "rows": 33723,
+      "pages": 10280,
+      "rows": 34677,
       "by_rank": {
         "1": 983,
         "2": 67,
         "3": 20201,
-        "4": 1941,
-        "5": 3380,
+        "4": 1925,
+        "5": 4353,
         "6": 7013,
-        "7": 138
+        "7": 135
       },
       "written": true
     },
@@ -241,10 +249,10 @@
     "narrated": 0
   },
   "previews": {
-    "probed": 0,
+    "probed": 14,
     "refreshed": 0,
     "failed": 0,
-    "rerendered": 0,
+    "rerendered": 16,
     "flipped": [],
     "channels": 0
   },
@@ -273,14 +281,19 @@
     }
   },
   "topic_links": {
-    "units": 2509,
-    "stale": 3,
-    "calls": 1,
-    "matched": 3,
-    "rejected": 0,
+    "units": 2522,
+    "stale": 16,
+    "calls": 5,
+    "matched": 21,
+    "rejected": 4,
     "failed": 0,
-    "cost_usd": 0.021452000000000002,
-    "rejections": [],
+    "cost_usd": 0,
+    "rejections": [
+      "post/nataliekarolak-com/2093 -> t385: not a candidate of this item",
+      "post/nataliekarolak-com/3628 -> t387: not a candidate of this item",
+      "post/nataliekarolak-com/3995 -> t496: not a candidate of this item",
+      "post/nataliekarolak-com/4179 -> t489: not a candidate of this item"
+    ],
     "second": {
       "due": 3,
       "called": 3,
@@ -289,10 +302,10 @@
     "stopped": "done"
   },
   "cautions": {
-    "due": 0,
-    "posts": 0,
-    "calls": 0,
-    "cautions": 0,
+    "due": 14,
+    "posts": 14,
+    "calls": 4,
+    "cautions": 15,
     "failed": 0,
     "cost_usd": 0,
     "stopped": "done"
@@ -310,13 +323,13 @@
     "stopped": "done"
   },
   "topic_reviews": {
-    "candidates": 183,
-    "calls": 178,
-    "reviewed": 198,
-    "kept": 791,
-    "dropped": 294,
+    "candidates": 17,
+    "calls": 22,
+    "reviewed": 22,
+    "kept": 134,
+    "dropped": 41,
     "failed": 0,
-    "cost_usd": 8.560892799999996,
+    "cost_usd": 0,
     "stopped": "done"
   },
   "reviews": {
@@ -328,15 +341,15 @@
       "cost_usd": 0
     },
     "post": {
-      "reviewed": 0,
-      "fixed": 0,
+      "reviewed": 14,
+      "fixed": 10,
       "rejected": 0,
-      "calls": 0,
+      "calls": 4,
       "cost_usd": 0,
-      "candidates": 0,
+      "candidates": 14,
       "failed": 0,
       "reset": 0,
-      "rerendered": 0,
+      "rerendered": 14,
       "stopped": "done"
     },
     "change": {
@@ -375,13 +388,13 @@
     "review_backlog": 0
   },
   "content": {
-    "pages": 29135,
+    "pages": 29150,
     "errors": 0
   },
   "leak": {
     "vault": "scanned",
-    "raw_docs": 755,
-    "files_scanned": 30469,
+    "raw_docs": 771,
+    "files_scanned": 30554,
     "findings": 0,
     "blocked": false
   }

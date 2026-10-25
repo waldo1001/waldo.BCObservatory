@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/nataliekarolak-com/3995",
+  "page_id": "post/nataliekarolak-com/3995",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "Microsoft have decided to remove the module again, either by pulling the plug on it, or by deprecating it",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "SFTP Client"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28"
+      ]
+    },
+    {
+      "kind": "preview-disclaimer",
+      "quote": "The ConfigurationDialog page type is currently in public preview and may change in future releases.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "ConfigurationDialog"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/nataliekarolak-com/3648",
+  "input_hash": "83fdd590075f88d5658d0767e58aaf551491f3a94d24ae2dc63155dd57681bc7",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-25T18:23:14.357Z",
+  "issues": [
+    "Summary and key points match the quiz explanation of StrSubstNo formatting a rounded decimal with a thousands separator, which breaks CalcDate.",
+    "The objects are built-in functions under the other type, and all of them appear in the post.",
+    "The page skips the post's side note about the resulting date, which is a minor omission."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

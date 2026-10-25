@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/nataliekarolak-com/3494",
+  "url": "https://nataliekarolak.wordpress.com/2025/08/04/how-to-write-good-tooltips-as-a-bc-developer/",
+  "title": "How to write good tooltips as a BC developer",
+  "source": "nataliekarolak-com",
+  "published_at": "2025-08-04T07:22:31.000Z",
+  "words": 1775,
+  "summary": "This guide teaches Business Central developers how to write effective tooltips for fields and actions by following patterns like starting with 'Specifies' for fields and imperative verbs for actions, keeping content under 200 characters, using sentence-style capitalization, and leveraging code analyzer rules to detect missing or non-compliant tooltips.",
+  "key_points": [
+    "Define tooltips at table field level rather than page level to ensure consistency across all pages and simplify page code",
+    "Field tooltips must begin with 'Specifies' followed by clear explanations of what data the field contains or how it is used",
+    "Action tooltips should start with imperative verbs like 'View', 'Open', 'Calculate', or 'Update' depending on the action type",
+    "Keep tooltips under 200 characters, avoid line breaks, use sentence-style capitalization, and always end with a period",
+    "Use code analyzer rules like AA0218, AA0220, AC0015, AC0016, and AC0017 to detect missing or non-compliant tooltips"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "tooltips",
+    "user assistance",
+    "al development",
+    "code quality",
+    "best practices",
+    "localization"
+  ],
+  "objects": [],
+  "features": [
+    "tooltip property",
+    "code analyzer rules",
+    "al language code actions",
+    "sentence-style capitalization",
+    "specifies pattern",
+    "imperative verbs for actions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Rather provide no tooltip than one with no actual content, please!",
+      "why_it_matters": "Emphasizes that unhelpful tooltips are worse than no tooltips, guiding developers away from empty rephrasing"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

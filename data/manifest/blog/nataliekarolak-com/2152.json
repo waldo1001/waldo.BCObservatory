@@ -7,7 +7,7 @@
   "url": "https://nataliekarolak.wordpress.com/2025/05/19/bc-docs-and-the-do_not_edit-area/",
   "published_at": "2025-05-19T13:39:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T18:00:19.950Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-25T18:00:48.581Z",
       "path": "vault:posts/nataliekarolak-com/2152.md",
       "words": 453
+    },
+    "extracted": {
+      "at": "2026-10-25T18:17:29.692Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-25T18:17:29.698Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T18:17:29.701Z"
+    },
+    "published": {
+      "at": "2026-10-25T18:17:30.111Z",
+      "path": "content/posts/nataliekarolak-com/2152.md"
     }
   },
   "input_hash": "2025-05-19T13:39:44.000Z",
@@ -23,5 +41,10 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "df44257249cba4fff449b5765ce2e608585a01a1218477d92710fc43458d024b"
+  "output_hash": "9e1f11d600e740b9764edc1b0c3152efa98ee0f4be7bc53843349aaf160d924e",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-25T18:23:14.415Z"
+  }
 }

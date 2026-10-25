@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/nataliekarolak-com/4184",
+  "input_hash": "b7af844c26269ea3cec107461bc6190393053ecad027e0a6a9ccb1a518366c98",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T18:23:14.335Z",
+  "issues": [
+    "First key point puts the fix at the wrong time: the fix came in a later 27.0 platform build, while earlier versions such as 25.0 threw the error."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-25T18:23:25.719Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,7 +140,6 @@ links:
     - video/lNASlydCidI
     - video/NE7NIjpkX3c
     - video/QCo-uIfPs9g
-    - video/sv1utmneaXA
     - video/UgagVZVKCso
     - video/ytYKvn2MiGs
   posts:
@@ -168,7 +167,7 @@ children:
 coverage:
   learn: 15
   code: 0
-  video: 8
+  video: 7
   blog: 8
   guideline: 0
 bc_forms: []
@@ -229,7 +228,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../../videos/lNASlydCidI.md) (video): "Copilot for Business Central; System Actions for Generate; AI Module for Copilot Generation"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../../videos/NE7NIjpkX3c.md) (video): "Copilot Extension Cloud Deployment; Shared Infrastructure for Copilot"
 - [What's New: Extending Copilot in Business Central (2024 Release Wave 2)](../../../../videos/QCo-uIfPs9g.md) (video): "Copilot Prompt Actions on Card and Document Pages"
-- [Introducing: Extending Copilot Chat with Your App's Documentation (2025 release wave 2)](../../../../videos/sv1utmneaXA.md) (video): "Extending Copilot Chat with Your App's Documentation"
 - [Business Central Partner Learnings from the Red Carpet Copilot Program](../../../../videos/UgagVZVKCso.md) (video): "Copilot development; prompt engineering; Copilot Function with Prompt Engineering"
 - [What's New: Extending Copilot Using AL Code (2024 Release Wave 1)](../../../../videos/ytYKvn2MiGs.md) (video): "Extending Copilot Using AL Code; token counting; function calling; copilot actions"
 

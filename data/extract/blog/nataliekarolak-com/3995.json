@@ -7,11 +7,11 @@
   "words": 2361,
   "summary": "Business Central 28 introduces major developer features including semantic search on data and metadata, support for fully qualified names and namespaces in AL, data analysis definitions in apps, MCP Server enhancements, AL coding agents with BC-Bench, improved database index management, and new tooling like the Word Add-in for report layouts and GitHub Codespaces support.",
   "key_points": [
-    "Developers can use semantic search on data and metadata, and define data analysis definitions in AL apps",
-    "Support for namespaces and fully qualified names enables running codeunits, pages, and reports by name with new method overloads",
-    "Model Context Protocol (MCP) Server is enhanced with admin capabilities and integrable with Visual Studio Code for automated tasks",
-    "New tools include database index usage management, BC Word Add-in for report layout editing, GitHub Codespaces for cloud-based development, and SFTP Client codeunit",
-    "Multiple new AL compiler rules and warnings address analysis views, native methods, BigInteger conversions, and FlowField usage in queries"
+    "Developers get semantic search over data and metadata, and analysis views can now be packaged and shipped in AL extensions",
+    "New overloads run codeunits, pages and reports and open RecordRefs by fully qualified name; Record and RecordRef also expose FullyQualifiedName",
+    "MCP tooling grows, including an Admin Center API MCP server usable from VS Code and a standalone MCP server in ALTool",
+    "New tooling covers index usage management, a Word Add-in (preview) for report layouts, GitHub Codespaces and a faster Base64 codeunit; the new SFTP Client module is being withdrawn by Microsoft",
+    "Many new compiler, CodeCop and AppSourceCop rules cover analysis views, native procedures, BigInteger conversions and FlowFields in query links"
   ],
   "systems": [
     "development",
@@ -29,26 +29,6 @@
     "github codespaces"
   ],
   "objects": [
-    {
-      "type": "codeunit",
-      "name": "Codeunit.Run(Text [, var Record])"
-    },
-    {
-      "type": "page",
-      "name": "Page.Run(Text, Record, Integer)"
-    },
-    {
-      "type": "page",
-      "name": "Page.RunModal(Text, Record, FieldRef)"
-    },
-    {
-      "type": "report",
-      "name": "Report.Execute(Text, Text [, RecordRef])"
-    },
-    {
-      "type": "report",
-      "name": "Report.Run(Text [, Boolean] [, Boolean] [, var Record])"
-    },
     {
       "type": "codeunit",
       "name": "System.Runtime.Base64Convert"

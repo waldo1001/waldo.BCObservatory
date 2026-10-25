@@ -12,7 +12,7 @@ review:
   at: "2026-10-23T01:12:47.130Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-25T18:23:25.719Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -319,7 +319,9 @@ links:
     - video/7rIHz0zrgWU
     - video/BOY2442wHSc
     - video/F_pssS0FtUc
+    - video/MYZOkoSmtZ0
     - video/sZ7wMU1Uxio
+    - video/VX_aPhcsIOc
   posts:
     - post/demiliani-com/13096
     - post/demiliani-com/13369
@@ -341,7 +343,7 @@ children:
 coverage:
   learn: 70
   code: 0
-  video: 4
+  video: 6
   blog: 7
   guideline: 0
 bc_forms: []
@@ -467,6 +469,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Telemetry (2023 release wave 2)](../../../videos/7rIHz0zrgWU.md) (video): "AI assisted performance analysis; Key influencers analysis; Top segments analysis"
 - [Connect Power BI Telemetry Apps to Read your Business Central Telemetry Data (2023)](../../../videos/BOY2442wHSc.md) (video): "power bi; telemetry; application insights; data connection"
 - [Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data](../../../videos/F_pssS0FtUc.md) (video): "Business Central Telemetry; Usage Report; Error Dashboard; KPI Tracking"
+- [Store Business Central Telemetry in Azure Application Insights](../../../videos/MYZOkoSmtZ0.md) (video): "Store Business Central Telemetry in Azure Application Insights"
 - [Change Dataset Properties for a Power BI Telemetry App in Power BI](../../../videos/sZ7wMU1Uxio.md) (video): "Power BI Telemetry app dataset properties"
+- [Enable Cost Control Strategies for Business Central Telemetry](../../../videos/VX_aPhcsIOc.md) (video): "Enable Cost Control Strategies for Business Central Telemetry"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

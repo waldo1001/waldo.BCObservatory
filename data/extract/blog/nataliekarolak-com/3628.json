@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/nataliekarolak-com/3628",
+  "url": "https://nataliekarolak.wordpress.com/2025/08/26/help-i-dont-get-any-al-warnings-in-the-output-tab/",
+  "title": "Help, I don’t get any AL warnings in the Output tab!",
+  "source": "nataliekarolak-com",
+  "published_at": "2025-08-26T14:28:21.000Z",
+  "words": 203,
+  "summary": "AL warnings may appear missing from the Output tab in VS Code due to an active filter in the filter box. Clearing the filter reveals previously hidden warnings without requiring recompilation.",
+  "key_points": [
+    "The VS Code Output tab is where AL reports build infos, warnings and errors; the Problems tab is not reliable for this",
+    "Typing anything into the Output filter box limits the view to matching lines",
+    "Recompiling while a filter is still set makes all warnings seem to vanish",
+    "Removing the filter value shows every entry again, no recompile needed",
+    "If expected warnings are missing, check the Output filter box first"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al development",
+    "vs code",
+    "output tab",
+    "warnings",
+    "troubleshooting",
+    "filter"
+  ],
+  "objects": [],
+  "features": [
+    "Output tab filtering",
+    "AL warning display"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The moment we (unintentionally) enter something into the Filter box, we will see only output lines matching the current filter.",
+      "why_it_matters": "Explains the primary cause of missing warnings: active filters hide non-matching output"
+    },
+    {
+      "text": "If we compile again while the filter value is still set … the warning (or more precisely: all warnings) will be gone!",
+      "why_it_matters": "Shows that recompiling with an active filter permanently removes warnings from view until cleared"
+    },
+    {
+      "text": "So watch out for the output filter box!",
+      "why_it_matters": "Provides the key takeaway for developers to check this often-overlooked setting"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

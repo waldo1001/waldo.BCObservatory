@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/nataliekarolak-com/3653",
+  "page_id": "post/nataliekarolak-com/3653",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "BC 27 changed how Day, Month, and Year methods handle blank (undefined) Date and DateTime Query columns",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "As a developer, you're responsible for choosing the right billing type for your capability.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "AL0864 – The control type 'ChartPart' is not supported.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "This warning will turn into an error in BC 29.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

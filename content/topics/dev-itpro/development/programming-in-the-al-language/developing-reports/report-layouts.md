@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-25T18:23:25.719Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -220,6 +220,7 @@ links:
     - post/aardvarklabs-blog/3544
     - post/miljan-rs/698
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
+    - post/nataliekarolak-com/4179
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-67-reset-page-number-in-rdlc--4fc41d0f62
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-76-barcode-fonts-in-rdl--2785e5dd8e
     - post/thedynamicsexplorer-com/9051
@@ -243,7 +244,7 @@ coverage:
   learn: 22
   code: 5
   video: 5
-  blog: 15
+  blog: 16
   guideline: 0
 bc_forms:
   - 21
@@ -326,6 +327,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [New Features for Report Lifecycle Management in Business Central 28.1](../../../../../posts/aardvarklabs-blog/3544.md) (community post): "Report layouts now have status states: Draft, Pending Approval, Approved"
 - [Conditional Page Breaks in Word Layouts for Business Central Reports](../../../../../posts/miljan-rs/698.md) (community post): "Word layouts for Business Central Reports conditional page breaks Word layouts don't offer"
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "Composite layouts split a document into a Body layout plus a reusable header/footer"
+- [Docs: What’s new in BC 29 for developers and admins](../../../../../posts/nataliekarolak-com/4179.md) (community post): "Composite Word layouts with header/footer and theme parts"
 - [BC Friday Tips #67 Reset Page Number in RDLC](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-67-reset-page-number-in-rdlc--4fc41d0f62.md) (community post): "ResetPageNumber property in RDLC reports restarts page numbering"
 - [BC Friday Tips #76 Barcode Fonts in RDL Reports](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-76-barcode-fonts-in-rdl--2785e5dd8e.md) (community post): "Creating barcodes in Business Central SaaS reports requires setting the FontFamily property"
 - [Dynamics GP to Business Central – How to easily convert your GP word templates to BC word layouts](../../../../../posts/thedynamicsexplorer-com/9051.md) (community post): "Edit in Word by replacing GP fields with BC fields from the XML data"

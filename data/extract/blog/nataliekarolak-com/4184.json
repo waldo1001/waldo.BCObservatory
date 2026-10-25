@@ -7,10 +7,10 @@
   "words": 268,
   "summary": "BC 27.1 and later resolve a runtime error when using the Substring method with length parameters that exceed string boundaries, making it safe to replace CopyStr with Substring for improved code readability.",
   "key_points": [
-    "Substring caused runtime errors in BC versions before 27.0 platform builds when the length parameter exceeded the available string length",
-    "BC 27.0 online includes the fix but BC 27.0 on-premises does not; BC 27.1 is the first application version with the fix across all deployments",
-    "CopyStr remains supported with no plans for obsolescence; both methods can coexist",
-    "Set the application property to 27.1.0.0 or higher in app.json to safely use Substring; the runtime property does not affect this fix"
+    "Substring threw a runtime error in older versions such as BC 25.0 when the requested length went past the end of the string; a later BC 27.0 platform build fixed this",
+    "BC 27.0 online has the fix but BC 27.0 on-premises does not; BC 27.1 is the first application version that has it in all cases",
+    "CopyStr is still supported with no plans to obsolete it, so both methods can be used",
+    "To use Substring safely, set the application property in app.json to 27.1.0.0 or higher; the runtime property and AL Language version do not matter"
   ],
   "systems": [
     "development"

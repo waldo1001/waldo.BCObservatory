@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/nataliekarolak-com/3494",
+  "input_hash": "98188afc9a30da0dc7360bf54f7d93302b59925d652538248c919053f2045628",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T18:23:14.380Z",
+  "issues": [
+    "The post is purely about developer tooltip writing; administration system is not supported.",
+    "Key point says field tooltips must start with Specifies while the post says should; minor.",
+    "Summary, other key points, features and quote are supported."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

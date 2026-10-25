@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/nataliekarolak-com/4034",
+  "input_hash": "7663710a7ce3b481006e24f76189af363694313ddffcb57bf90d7fd6d9ceadd7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T18:23:14.357Z",
+  "issues": [
+    "Summary says AI content has been common since 2022, but the post uses 2022 as the example of handcrafted blogs and describes the AI shift as the situation in 2026.",
+    "Summary left out the author's habit of skipping posts with such headings and her closing question about using AI to summarize posts.",
+    "Key points and quotes are verbatim or supported."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

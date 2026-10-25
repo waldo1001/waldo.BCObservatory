@@ -1,0 +1,38 @@
+{
+  "item_id": "blog/nataliekarolak-com/3910",
+  "page_id": "post/nataliekarolak-com/3910",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "When assigning a constant value to a Code field, then don't write your code as follows",
+      "objects": [
+        {
+          "type": "other",
+          "name": "DataTransfer"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Do not filter on FlowFields, FlowFilters, or fields of the Media data type",
+      "objects": [
+        {
+          "type": "other",
+          "name": "DataTransfer"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

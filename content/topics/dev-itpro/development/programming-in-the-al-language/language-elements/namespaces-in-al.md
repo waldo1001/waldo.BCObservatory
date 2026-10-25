@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:23.659Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-25T18:23:25.719Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,6 +48,7 @@ links:
   posts:
     - post/aardvarklabs-blog/3255
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-21-27-2026--a323467e2a
+    - post/nataliekarolak-com/3995
   guidelines: []
 learn_toc_path:
   - Development
@@ -61,7 +62,7 @@ coverage:
   learn: 2
   code: 0
   video: 3
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: f4f9f021b50d52006b83b0a058e00599e1c04b536d7c283a84d69050106c3516
@@ -104,6 +105,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Navigating Namespace Changes in Business Central 28](../../../../../posts/aardvarklabs-blog/3255.md) (community post): "Fully qualified names enable direct object reference without using statements"
 - [Weekly Review: Business Central AL Development – June 21–27, 2026](../../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-21-27-2026--a323467e2a.md) (community post): "Moving older AL apps to namespaces improves object clarity, reduces naming friction"
+- [Docs: What’s new in BC 28 for developers](../../../../../posts/nataliekarolak-com/3995.md) (community post): "support for fully qualified names and namespaces in AL"
 - [All new goodies about AL Namespace in BC 2025 wave 2](../../../../../videos/KmuTVkodRXM.md) (video): "AL namespace; record id formatting; system reflection; fully qualified names"
 - [What's New: AL Language (2026 release wave 1)](../../../../../videos/nMiLzdfidos.md) (video): "json support; data transfer; namespaces; fully qualified names"
 - [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../../videos/TY82NR2hGEg.md) (video): "Namespaces in AL language; Using directives for namespace imports"

@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/nataliekarolak-com/3995",
+  "input_hash": "326adda0d50760f76c2973da50d80afbb356b9cd120f7a642a59ec6bd8bc7ec0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T18:23:14.357Z",
+  "issues": [
+    "Several object entries are method signatures on built-in types (Codeunit.Run, Page.Run, Page.RunModal, Report.Execute, Report.Run) labeled as codeunit, page or report objects; dropped them.",
+    "Key point on SFTP Client left out that the post says Microsoft decided to remove or deprecate the module again; rewrote key points to say so.",
+    "Quote 1 joins two separate list items from the post, but the wording is verbatim, so it stays.",
+    "Summary, features, systems and versions are supported by the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 5 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

@@ -7,7 +7,7 @@
   "url": "https://nataliekarolak.wordpress.com/2025/08/26/help-i-dont-get-any-al-warnings-in-the-output-tab/",
   "published_at": "2025-08-26T14:28:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T18:00:19.950Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-25T18:00:54.779Z",
       "path": "vault:posts/nataliekarolak-com/3628.md",
       "words": 203
+    },
+    "extracted": {
+      "at": "2026-10-25T18:17:29.598Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-25T18:17:29.693Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T18:17:29.699Z"
+    },
+    "published": {
+      "at": "2026-10-25T18:17:30.109Z",
+      "path": "content/posts/nataliekarolak-com/3628.md"
     }
   },
   "input_hash": "2025-08-26T14:28:21.000Z",
@@ -23,5 +41,10 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3fcb1cea057bd0220c6b67f9c76e80bf11a91dae59beaa62bb259a54dccc1e1a"
+  "output_hash": "044c78dffb008b276fcbd698b9e5b70cf0f5cc7aa8831d72e74e6fca8f2c5419",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-25T18:23:14.380Z"
+  }
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:14.345Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-25T18:23:25.719Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,6 +45,7 @@ links:
     - video/fWBehdiuDpE
   posts:
     - post/gerardorenteria-blog/14381
+    - post/nataliekarolak-com/4242
   guidelines: []
   changes:
     - change/bcapps/12062
@@ -60,7 +61,7 @@ coverage:
   learn: 2
   code: 0
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 58c2c81625df87190e9293aa2b56260d3bd28e99ed7146537c11d48f685008eb
@@ -99,6 +100,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12062 [Master]-[Quality Management] Workflow events are not localized](../../../../changes/bcapps/12062.md) (code change): "Workflow event labels in the Quality Management app are now properly localized"
 - [#12097 [29.X]-[Quality Management] Workflow events are not localized](../../../../changes/bcapps/12097.md) (code change): "Event labels for quality workflows now support localization"
 - [🚫 Never Publish an AL Extension with Missing Translations Again](../../../../posts/gerardorenteria-blog/14381.md) (community post): "A VS Code extension that validates translation files are present before publishing AL extensions"
+- [Still locking strings on table (field) removal?](../../../../posts/nataliekarolak-com/4242.md) (community post): "removed fields and tables are automatically excluded from translation files"
 - [Translate your app with an LLM in Business Central](../../../../videos/fWBehdiuDpE.md) (video): "LLM-based app translation using Claude; Translation file XLIFF support in app.json"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

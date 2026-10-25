@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/nataliekarolak-com/2093",
+  "input_hash": "9853c689017b7a7d85b0731f0ca16e57840fe384fa35a8bedf2aa2c05eac3441",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T18:23:14.415Z",
+  "issues": [
+    "Summary, key points, features and the quote all match the post; the quote appears word for word.",
+    "The platform system is not supported, since the post is only about searching code on GitHub, so it is dropped."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 2
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/nataliekarolak-com/4242",
+  "page_id": "post/nataliekarolak-com/4242",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "You don't need to lock translatable strings since a BC + AL language update in April 2020.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Labels placed somewhere in your removed table are still considered in the translation file until you lock or delete them.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

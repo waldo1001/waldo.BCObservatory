@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/nataliekarolak-com/3653",
+  "input_hash": "ff31c002cb578a4aee575ecf9d8730ee10350450165d9d6c9f31899f37028e81",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T18:23:14.380Z",
+  "issues": [
+    "TestType and RequiredTestIsolation are test codeunit properties, not codeunit objects.",
+    "Page Metadata, Report Metadata and Codeunit Metadata are described as system tables in the post, but were typed as page, report and codeunit; dropped since types cannot be corrected.",
+    "Summary, key points, features and quote are otherwise supported."
+  ],
+  "applied": [
+    "dropped 5 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

@@ -5,7 +5,7 @@
   "source": "nataliekarolak-com",
   "published_at": "2026-01-09T10:42:25.000Z",
   "words": 237,
-  "summary": "The DataTransfer data type improves AL upgrade code performance but has two undocumented runtime failure scenarios that the compiler does not catch: assigning constant values to Code fields and filtering on FlowFields or Media fields. The post documents these issues and provides workarounds for each.",
+  "summary": "The DataTransfer type speeds up AL upgrade code, but two cases fail at runtime with no compiler warning: AddConstantValue with literal values on Code fields, later fixed in platform builds 27.0.44405 and 26.0.44406, and AddSourceFilter on FlowFields, FlowFilters or Media fields. The workaround for the first is a Code variable; for the second, write the upgrade without DataTransfer using SetRange and ModifyAll.",
   "key_points": [
     "DataTransfer.AddConstantValue fails when assigning constants directly to Code fields; use a Code variable instead as a workaround",
     "DataTransfer.AddSourceFilter does not support FlowFields, FlowFilters, or Media type fields; fall back to traditional SetRange and ModifyAll methods",
