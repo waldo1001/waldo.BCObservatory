@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
-  "started_at": "2026-10-25T16:55:04.528Z",
-  "finished_at": "2026-10-25T17:06:32.021Z",
+  "started_at": "2026-10-25T17:20:20.229Z",
+  "finished_at": "2026-10-25T17:29:14.500Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -26,24 +26,24 @@
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 22,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 22,
           "removed": 0
         },
         "note": "22 posts via feed",
-        "duration_ms": 723
+        "duration_ms": 408
       }
     ],
     "totals": {
       "sources": 1,
       "failed": 0,
       "deferred": 0,
-      "new": 22,
+      "new": 0,
       "changed": 0,
       "updated": 0,
-      "unchanged": 0,
+      "unchanged": 22,
       "removed": 0
     }
   },
@@ -74,88 +74,70 @@
       "post_reviews": 50000,
       "change_reviews": 50000
     },
-    "work": 22,
-    "executed": 22,
+    "work": 0,
+    "executed": 0,
     "skips": 0,
-    "quota_use": {
-      "posts": {
-        "selected": 22,
-        "available": 22,
-        "limit": 50000
-      }
-    },
+    "quota_use": {},
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 63,
+    "calls": 14,
     "cache_hits": 0,
     "failures": 0,
     "by_model": {
-      "claude-haiku-4-5-20251001": 37,
-      "claude-opus-5-5": 26
+      "claude-haiku-4-5-20251001": 4,
+      "claude-opus-5-5": 10
     },
-    "cost_usd": 2.5830359999999994,
+    "cost_usd": 0.6684351999999999,
     "tokens_by_model": {
       "claude-haiku-4-5-20251001": {
-        "calls": 37,
-        "input": 54446,
-        "output": 21175,
-        "cache_read": 18446,
-        "cache_creation": 174982,
-        "cost_usd": 0.5121296000000001
+        "calls": 4,
+        "input": 12,
+        "output": 2018,
+        "cache_read": 0,
+        "cache_creation": 47024,
+        "cost_usd": 0.10414999999999999
       },
       "claude-opus-5-5": {
-        "calls": 26,
-        "input": 52,
-        "output": 33974,
-        "cache_read": 7572,
-        "cache_creation": 173713,
-        "cost_usd": 2.0709063999999997
+        "calls": 10,
+        "input": 20,
+        "output": 9626,
+        "cache_read": 986,
+        "cache_creation": 46436,
+        "cost_usd": 0.5642852
       }
     },
-    "day_cost_usd": 27.345274
+    "day_cost_usd": 28.013709
   },
   "spend": {
-    "today_usd": 24.762238,
+    "today_usd": 27.345274,
     "week_before_usd": 59.892014,
     "night_cap_usd": 100000,
     "week_cap_usd": 100000,
-    "allowance_usd": 99915.345748,
+    "allowance_usd": 99912.762712,
     "binding": "week",
     "exhausted": false,
     "override": true
   },
-  "items_changed": 22,
-  "errors": [
-    "blog/vjeko-com/https://vjeko.com/2026/05/28/the-lump-of-labour-fallacy-fallacy/ extracted: model returned no entry for this post"
-  ],
+  "items_changed": 0,
+  "errors": [],
   "captions_retried": 0,
-  "checkpoints": 2,
+  "checkpoints": 0,
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-25T22:30:00.000Z",
-    "items_touched": 22,
-    "stages_run": {
-      "blog:fetched": 22,
-      "blog:extracted": 21,
-      "blog:summarized": 21,
-      "blog:linked": 21,
-      "blog:published": 21
-    },
-    "advanced": 106,
+    "deadline": "2026-10-25T22:55:00.000Z",
+    "items_touched": 0,
+    "stages_run": {},
+    "advanced": 0,
     "skipped": 0,
-    "failed_attempts": 1,
+    "failed_attempts": 0,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "parked": 19,
-    "quota_charged": {
-      "posts": 22
-    },
+    "parked": 0,
+    "quota_charged": {},
     "regards": [],
-    "errors": [
-      "blog/vjeko-com/https://vjeko.com/2026/05/28/the-lump-of-labour-fallacy-fallacy/ extracted: model returned no entry for this post"
-    ],
+    "errors": [],
     "parked_left": 0
   },
   "code": {
@@ -191,12 +173,12 @@
         "model": 4037
       },
       "learn_pages": 1745,
-      "written": true,
+      "written": false,
       "errors": []
     },
     "cautions": {
-      "items": 561,
-      "cautions": 1390,
+      "items": 571,
+      "cautions": 1401,
       "objects": 44,
       "attached": 61,
       "written": false
@@ -210,13 +192,13 @@
     },
     "related": {
       "pages": 10179,
-      "rows": 33705,
+      "rows": 33714,
       "by_rank": {
         "1": 983,
         "2": 67,
         "3": 20201,
         "4": 1941,
-        "5": 3362,
+        "5": 3371,
         "6": 7013,
         "7": 138
       },
@@ -259,10 +241,10 @@
     "narrated": 0
   },
   "previews": {
-    "probed": 21,
+    "probed": 0,
     "refreshed": 0,
     "failed": 0,
-    "rerendered": 22,
+    "rerendered": 0,
     "flipped": [],
     "channels": 0
   },
@@ -292,38 +274,31 @@
   },
   "topic_links": {
     "units": 2509,
-    "stale": 35,
-    "calls": 9,
-    "matched": 29,
-    "rejected": 12,
+    "stale": 20,
+    "calls": 4,
+    "matched": 12,
+    "rejected": 3,
     "failed": 0,
-    "cost_usd": 0.234278,
+    "cost_usd": 0.10414999999999999,
     "rejections": [
-      "post/sshadows-dk/https://sshadows.dk/blog/al-language-server-claude-code/ -> t391: not a candidate of this item",
-      "post/sshadows-dk/https://sshadows.dk/blog/al-perf-v2-deep-analysis/ -> t469: not a candidate of this item",
-      "post/sshadows-dk/https://sshadows.dk/blog/bc-toolbox-vs-microsoft-mcp/ -> t409: not a candidate of this item",
-      "post/sshadows-dk/https://sshadows.dk/blog/benchmark-llms-al-code/ -> t416: not a candidate of this item",
-      "post/vjeko-com/https://vjeko.com/2026/07/01/what-to-do-in-the-age-of-code-printing/ -> t489: not a candidate of this item",
-      "post/vjeko-com/https://vjeko.com/2025/12/12/important-announcement-for-teams-maintaining-private-al-object-id-ninja-backend-get-ready-for-v3/ -> topic/dev-itpro/development/extension-lifecycle/deploying-and-installing: quote not verbatim: \"Deploying and installing extensions with coordinated manual migration deployment\"",
-      "post/vjeko-com/https://vjeko.com/2025/12/15/ninja-v3-is-live-where-we-are-and-what-comes-next/ -> topic/dev-itpro/development/development-environment/configure-the-development-environment: quote not verbatim: \"development tools; VS Code extension; backend infrastructure\"",
-      "post/vjeko-com/https://vjeko.com/2026/03/05/al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house/ -> topic/dev-itpro/development/extension-lifecycle/deploying-and-installing: quote not verbatim: \"self-hosting is no longer officially supported for extensions\"",
-      "post/sshadows-dk/https://sshadows.dk/blog/from-work-item-to-pr-without-me/ -> t490: not a candidate of this item",
-      "post/sshadows-dk/https://sshadows.dk/blog/one-click-performance-analysis-bc/ -> t485: not a candidate of this item"
+      "post/vjeko-com/https://vjeko.com/2026/03/16/your-object-ids-have-no-excuse-now-ninja-comes-to-ci-cd/ -> t387: not a candidate of this item",
+      "post/vjeko-com/https://vjeko.com/2026/05/03/the-mcp-bridge-al-language-tools-for-every-agent/ -> t496: not a candidate of this item",
+      "post/vjeko-com/https://vjeko.com/2026/07/02/real-programmers-dont-use-pascal/ -> t488: not a candidate of this item"
     ],
     "second": {
-      "due": 14,
-      "called": 14,
-      "matched": 8
+      "due": 17,
+      "called": 17,
+      "matched": 9
     },
     "stopped": "done"
   },
   "cautions": {
-    "due": 21,
-    "posts": 21,
-    "calls": 6,
-    "cautions": 11,
+    "due": 0,
+    "posts": 0,
+    "calls": 0,
+    "cautions": 0,
     "failed": 0,
-    "cost_usd": 0.1078923,
+    "cost_usd": 0,
     "stopped": "done"
   },
   "learn_confirm": {
@@ -339,13 +314,13 @@
     "stopped": "done"
   },
   "topic_reviews": {
-    "candidates": 15,
-    "calls": 20,
-    "reviewed": 20,
-    "kept": 79,
-    "dropped": 116,
+    "candidates": 7,
+    "calls": 10,
+    "reviewed": 10,
+    "kept": 22,
+    "dropped": 56,
     "failed": 0,
-    "cost_usd": 1.3471039999999999,
+    "cost_usd": 0.5642852,
     "stopped": "done"
   },
   "reviews": {
@@ -357,15 +332,15 @@
       "cost_usd": 0
     },
     "post": {
-      "reviewed": 21,
-      "fixed": 16,
-      "rejected": 3,
-      "calls": 6,
-      "cost_usd": 0.195309,
-      "candidates": 21,
+      "reviewed": 0,
+      "fixed": 0,
+      "rejected": 0,
+      "calls": 0,
+      "cost_usd": 0,
+      "candidates": 0,
       "failed": 0,
       "reset": 0,
-      "rerendered": 21,
+      "rerendered": 0,
       "stopped": "done"
     },
     "change": {

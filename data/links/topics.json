@@ -21005,16 +21005,25 @@
     "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/": {
       "kind": "post",
       "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/",
-      "hash": "60f2d926b0fd7386863621958c49e969d348f7e460a8a90377819553fdb75e0c",
+      "hash": "9a731a62b40514dc7bd6b919fdbe4c34f56c80a18b3eb6862037ddf952a2c263",
       "title": "Enhance Your AL Development with the AL MCP Server",
       "source": "dvlprlife-com",
-      "at": "2026-10-08T01:51:12.914Z",
+      "at": "2026-10-25T17:25:34.643Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/get-started/altool",
-          "quote": "The AL MCP server ships with the AL development tools and gives AI agents tools"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "enables agents like GitHub Copilot to verify their own code changes automatically"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/get-started/altool",
+            "reason": "About the AL MCP server and Copilot workflow; altool appears only as a setup prerequisite."
+          }
+        ]
+      }
     },
     "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/quick-tips-find-a-field-on-a-business-central-page/": {
       "kind": "post",
@@ -28360,72 +28369,92 @@
     "post/vjeko-com/https://vjeko.com/2025/11/09/end-of-free-backend-for-al-object-id-ninja/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2025/11/09/end-of-free-backend-for-al-object-id-ninja/",
-      "hash": "b0e45f5091b0be42b283baf9bfebb319af5b5f84a01c5a0200a694ab63fea807",
+      "hash": "5c2e95832a14dd226ec29d38094bf6a26df7e423f091f5d9f39ad66c3f3f26c4",
       "title": "End of free backend for AL Object ID Ninja",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:02.005Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/get-started/altool",
-          "quote": "AL Object ID Ninja, a free tool for managing object IDs in Business Central development"
-        }
-      ]
+      "at": "2026-10-25T17:25:34.643Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/get-started/altool",
+            "reason": "About AL Object ID Ninja licensing, a third-party tool unrelated to ALTool."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2025/11/11/al-object-id-ninja-please-register-your-intent/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2025/11/11/al-object-id-ninja-please-register-your-intent/",
-      "hash": "b000cddf50a7ec62920e9c889360fa474847d35b8c58af2e67395ee79d3de432",
+      "hash": "77753498d63316cd3ba71f52e37cc176f174b4be387c71577a0ce71852a0a002",
       "title": "AL Object ID Ninja: Please Register Your Intent",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:02.005Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/get-started/altool",
-          "quote": "AL Object ID Ninja, a tool used by thousands of teams to prevent object ID conflicts"
-        }
-      ]
+      "at": "2026-10-25T17:25:34.643Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/get-started/altool",
+            "reason": "About AL Object ID Ninja's hosting transition, not ALTool."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2025/11/19/al-object-id-ninja-self-hosting-vs-hassle-free-the-data-tells-a-curious-story/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2025/11/19/al-object-id-ninja-self-hosting-vs-hassle-free-the-data-tells-a-curious-story/",
-      "hash": "7ecb8be21d7017598f741ea1ec68e3faf05e28906a858cf450a652ce8402850a",
+      "hash": "ff5205d3f67d66a2be7cd320f95a125e1e12c50f3522a899e98f0390ad7aeda8",
       "title": "AL Object ID Ninja: Self-Hosting vs. Hassle-Free (the data tells a curious story)",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:02.005Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/get-started/altool",
-          "quote": "AL Object ID Ninja, a tool for managing object IDs across teams"
-        }
-      ]
+      "at": "2026-10-25T17:25:34.643Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/get-started/altool",
+            "reason": "Adoption data on Object ID Ninja self-hosting, unrelated to ALTool."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2025/12/03/a-story-about-trust-why-one-team-moved-from-private-endpoints-to-the-hosted-ninja-backend/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2025/12/03/a-story-about-trust-why-one-team-moved-from-private-endpoints-to-the-hosted-ninja-backend/",
-      "hash": "d713134c1e14a0c88c705e2a0d83b5ba1655aaa58d6bf55907eadf27447ca112",
+      "hash": "2da5a5d55f3de0362e366a27f14ceeef1cb732b9a2d9292b4b8d64b8d63f3976",
       "title": "A Story About Trust: Why LS Retail Moved from Private Endpoints to the Hosted Ninja Backend",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:02.005Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/get-started/altool",
-          "quote": "AL Object ID Ninja user, transitioned from maintaining their own private backend infrastructure"
-        }
-      ]
+      "at": "2026-10-25T17:25:34.643Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/get-started/altool",
+            "reason": "Customer story about Object ID Ninja hosting, not ALTool."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2025/12/08/al-object-id-ninja-v3-0-platform-launching-on-december-15/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2025/12/08/al-object-id-ninja-v3-0-platform-launching-on-december-15/",
-      "hash": "7b42e6f2d5909bdc4b809fab94ac7aff478fa5103ee0b6ca12ba398f22365dfb",
+      "hash": "d94db254553c77e889db1869a11917836e84480e25da28f56ae8a4e371a97659",
       "title": "AL Object ID Ninja v3.0 Platform Launching on December 15",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:02.005Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/get-started/altool",
-          "quote": "AL Object ID Ninja v3.0 is launching on December 15 as a commercial platform"
-        }
-      ]
+      "at": "2026-10-25T17:25:34.643Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/get-started/altool",
+            "reason": "Launch announcement for Object ID Ninja v3.0, unrelated to ALTool."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2025/12/12/important-announcement-for-teams-maintaining-private-al-object-id-ninja-backend-get-ready-for-v3/": {
       "kind": "post",
@@ -28439,195 +28468,294 @@
     "post/vjeko-com/https://vjeko.com/2025/12/15/ninja-v3-is-live-where-we-are-and-what-comes-next/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2025/12/15/ninja-v3-is-live-where-we-are-and-what-comes-next/",
-      "hash": "805605491e2647c84e4a8794aac0fd58cd385ef9aac7986aa03010f64e2a3f63",
+      "hash": "a4234419c0a9ef495340db383c919d3b779a778cce6bce25f4534e972b214b26",
       "title": "Ninja v3 Is Live — Where We Are and What Comes Next",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:03.952Z",
-      "matches": []
+      "at": "2026-10-25T17:25:33.445Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Object ID Ninja v3 backend and VS Code extension are now in production"
+        }
+      ]
     },
     "post/vjeko-com/https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/",
-      "hash": "175dd9cc3dc8bfd6c85354869f87f8c959fab1865dc1eaab2b03af940d00dd29",
+      "hash": "f9cabfb8bbb1e894a46b2167624f3ae4ba572a052c9c8dc62767fb39ff103ff7",
       "title": "Object IDs, now assignable by VS Code agents (LM tool integration)",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:03.952Z",
+      "at": "2026-10-25T17:25:32.919Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "Agents writing AL code can now request object IDs"
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Object ID Ninja 3.1.0 enables language-model agents in VS Code to assign object IDs"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+            "reason": "Object ID assignment by VS Code coding agents, not building Business Central agents."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2026/01/27/when-guids-collide-the-app-id-problem-nobody-expected/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2026/01/27/when-guids-collide-the-app-id-problem-nobody-expected/",
-      "hash": "701d18046d00bcb07a1d242363a02dea29e1b69a39df63acb09a2a4d462c3f57",
+      "hash": "7a95dbed5895a54a32e40a325188e3cc29d7274e8df9e5321719e9f17a1fa7b5",
       "title": "When GUIDs Collide: The App ID Problem Nobody Expected",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:03.952Z",
+      "at": "2026-10-25T17:25:32.919Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/get-started/altool",
-          "quote": "Nearly 150 duplicate App IDs exist among 50,000 apps tracked"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "App ID collisions occur when multiple Business Central AL apps share the same GUID"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/get-started/altool",
+            "reason": "About app ID GUID collisions tracked by Object ID Ninja, not ALTool."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/",
-      "hash": "fd8ac5e66ecf8ce0d75c3303fd74ea0df7bc9046f5c242b31bba717c6dbaed19",
+      "hash": "c1a26403c4b8f9b988e613e0ee9a987ec3a299d234de0f8eb244d3b10abf9afb",
       "title": "AL Object ID Ninja MCP Server Is Here",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:03.952Z",
+      "at": "2026-10-25T17:25:32.919Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "MCP Server provides AI coding assistants with programmatic access"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
+          "quote": "MCP Server provides AI coding assistants with programmatic access to AL Object ID Ninja"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+            "reason": "An object ID MCP server for AI coding tools, not building Business Central agents."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2026/03/05/al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2026/03/05/al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house/",
-      "hash": "3edb965b886ae677b172ee7bdf327c45d46db734c66e871ef7108d2086ec62b5",
+      "hash": "c5e2d23b3f22a1150c879f73ebbfbd79b9e8f363c595e470f6a41379b40ffa52",
       "title": "AL Object ID Ninja: An Apology, a Decision, and a Month on the House",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:03.952Z",
-      "matches": []
+      "at": "2026-10-25T17:25:33.445Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Object ID Ninja was free for four years but became unsustainable"
+        }
+      ]
     },
     "post/vjeko-com/https://vjeko.com/2026/03/09/al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2026/03/09/al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days/",
-      "hash": "b127322b7a23994fa2c628a6ea6caae09035215ca2b7d55484d84814cd2a368b",
+      "hash": "0777ea6471c9f134fac0186556e1408490860a81667507177eaea084d17e48eb",
       "title": "AL Object ID Ninja 3.2.1: A Lot Has Happened in Four Days",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:03.250Z",
+      "at": "2026-10-25T17:25:32.919Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/get-started/altool",
-          "quote": "AL Object ID Ninja 3.2.1 introduces app pools as first-class citizens"
+          "topic": "topic/dev-itpro/development/development-environment",
+          "quote": "App pools now display accurate pool-wide consumption in Range Explorer and Assignment Explorer"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/get-started/altool",
+            "reason": "Object ID Ninja release notes, unrelated to ALTool."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/",
-      "hash": "21ebe46da2a82ee4a15827e7f7f14a407954cd59d5d66c9cdb59ccb5b0c64b01",
+      "hash": "1756ce6e0d673c86356c45908164888ee0b676df7d5a3c59498338f98b73e38c",
       "title": "Context Engineering – The Thing Almost Nobody Is Actually Talking About",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:03.250Z",
+      "at": "2026-10-25T17:25:32.919Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Context engineering is the skill of strategically filling the context window"
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+          "quote": "Context engineering is the skill of strategically filling the context window with exactly what an agent needs"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+            "reason": "About context engineering for AI coding assistants doing AL development, not about building Business Central agents."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2026/03/16/your-object-ids-have-no-excuse-now-ninja-comes-to-ci-cd/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2026/03/16/your-object-ids-have-no-excuse-now-ninja-comes-to-ci-cd/",
-      "hash": "6feb82db9d772dabf4ee5e3d65e8d855ac15bc3923c73ff7fc5d117452d8de2e",
+      "hash": "3c5e27b15a24a6a1f4e45a092202bddd4f20eeb7b9e0416b267f5db17f2e6f2e",
       "title": "Your Object IDs Have No Excuse Now – Ninja Comes to CI/CD",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:03.250Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/get-started/altool",
-          "quote": "AL Object ID Ninja, now available as a GitHub Action and Azure DevOps Pipeline Task"
-        }
-      ]
+      "at": "2026-10-25T17:25:32.919Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/get-started/altool",
+            "reason": "Object ID Ninja CI/CD integration, not ALTool."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2026/05/03/the-mcp-bridge-al-language-tools-for-every-agent/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2026/05/03/the-mcp-bridge-al-language-tools-for-every-agent/",
-      "hash": "c8728131200d1a8f516ce588f528dd950f480d6d5fba828396f41ec1dcedb09b",
+      "hash": "58f7053b1ee59c2d09699eb6f32b7e7c963a695a265d73c71c93ceb3a50f927e",
       "title": "The MCP Bridge: AL Language Tools for Every Agent",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:03.250Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "The MCP Bridge is a VS Code extension that exposes AL Language tools as an MCP server"
-        }
-      ]
+      "at": "2026-10-25T17:25:36.127Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+            "reason": "Exposes AL Language developer tools over MCP for coding agents; it is not about the Business Central MCP server."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/",
-      "hash": "390ce696bf2921ff4183caaa3d3569fd1f9729fada6b9599469df5dcdecb40dd",
+      "hash": "6ae9e0614597ffbccfe151d3fd217db71a7171ec0460a08b66e20e2e8ccb510e",
       "title": "From beep to empty seat: the six levels of self-driving code",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:03.250Z",
+      "at": "2026-10-25T17:25:36.127Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Agentic coding succeeds inside a geofence defined by you: a bounded domain"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "Agentic coding succeeds inside a geofence defined by you"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+            "reason": "About autonomy levels for agentic software development, not Business Central agents."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2026/07/01/what-to-do-in-the-age-of-code-printing/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2026/07/01/what-to-do-in-the-age-of-code-printing/",
-      "hash": "9a1570f43803bb406f8565955a2c24cacc9d548a9917254118be6d45ca77e637",
+      "hash": "136b04ab5af86a732dcd245bb1a6d19610e2f487e82bd1e70a388d91436856da",
       "title": "What to do in the age of code printing",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:03.250Z",
-      "matches": []
+      "at": "2026-10-25T17:25:33.445Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development",
+          "quote": "AI-driven development enables rapid experimentation at scale"
+        }
+      ]
     },
     "post/vjeko-com/https://vjeko.com/2026/07/02/real-programmers-dont-use-pascal/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2026/07/02/real-programmers-dont-use-pascal/",
-      "hash": "dcdd7ec024bd98f15ca12957e7080eeb26c58dc9f664e833af8c09645146878d",
+      "hash": "0792f99216391a6223d6abc1c3c00012ce3ed97bd6218c3f7722af91bb75c930",
       "title": "Real Programmers Don’t Use Pascal",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:05.669Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai",
-          "quote": "AI fundamentally changes the relationship between human intent and machine translation"
-        }
-      ]
+      "at": "2026-10-25T17:25:36.127Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai",
+            "reason": "An essay on programming abstraction history and AI-generated code, not about Business Central AI integration."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/",
-      "hash": "53d87f6371cf8af121fe59fa1ac8bf06ce4cb7eb9de077a601c6a4915f4fdfb7",
+      "hash": "6371193df90b4b48495fa8828c6baa02dbef77c79519a56507ec1683afcacd71",
       "title": "I don’t trust my agents either",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:05.669Z",
+      "at": "2026-10-25T17:25:36.127Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "safely deploy code written by AI agents directly to production"
-        },
-        {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing",
-          "quote": "The pipeline uses specialized sub-agents at every stage to enforce specific checks"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "agentic engineering; quality assurance; code review pipeline"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+            "reason": "About a quality pipeline for code written by AI coding agents, not designing BC agents."
+          },
+          {
+            "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing",
+            "reason": "About a general AI-agent quality pipeline and Six Sigma ideas; it isn't specific to AL testing best practices."
+          }
+        ]
+      }
     },
     "post/vjeko-com/https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/": {
       "kind": "post",
       "key": "post/vjeko-com/https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/",
-      "hash": "c78d6cafcf2198f74677b1f1a7edc341b4b7f9d54ac17f3e7105f88c13099185",
+      "hash": "17cb200d6d4e65cf93c928eac405cccabe5f5bbf4740df03a853259dfb81a074",
       "title": "What You’re Actually Saying When You Say “AI Doesn’t Work”",
       "source": "vjeko-com",
-      "at": "2026-10-25T17:01:04.867Z",
+      "at": "2026-10-25T17:25:36.127Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "agentic engineering; ai failures; vibe coding; context engineering; engineering discipline"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai",
-          "quote": "each major AI failure mode has a specific cause and remedy"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "engineering disciplines like planning, testing, code review, and proper decomposition"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "agentic engineering; ai failures; vibe coding; context engineering"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T17:25:23.924Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+            "reason": "General essay on AI-assisted engineering discipline; too general and not about BC agents."
+          },
+          {
+            "topic": "topic/dev-itpro/integration-with-ai",
+            "reason": "A general opinion piece on agentic engineering discipline, not about any Business Central AI integration capability."
+          },
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+            "reason": "It's a general essay on AI engineering habits that never touches Business Central's Copilot developer tools."
+          }
+        ]
+      }
     },
     "post/vondervoort-be/130": {
       "kind": "post",

@@ -4401,33 +4401,38 @@
     "topic/dev-itpro/development": {
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/@47a92fdf99c0025c": {
         "verdict": "drop",
-        "reason": "A weekly roundup that touches many unrelated topics is too general to tie to what this section documents.",
-        "at": "2026-10-24T00:35:54.376Z"
+        "reason": "A weekly roundup mixing short AL snippets with opinions on AI tooling, too scattered to be about this section.",
+        "at": "2026-10-25T17:26:27.710Z"
       },
       "post/gerardorenteria-blog/13675@23274fa78ce59328": {
         "verdict": "drop",
-        "reason": "Its subject is a financial reports (account schedules) notes feature; the AL extension is just how it is built, not the lesson.",
-        "at": "2026-10-24T00:35:54.376Z"
+        "reason": "Its subject is a custom financial-report notes solution, with AL only the means of building it.",
+        "at": "2026-10-25T17:26:27.710Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-62-vs-code-al-themes/@515eb7601df9149e": {
         "verdict": "keep",
-        "reason": "Covers the built-in themes of the AL Language extension in VS Code, which is part of the development environment.",
-        "at": "2026-10-24T00:35:54.376Z"
+        "reason": "Covers the built-in themes of the AL Language extension in VS Code, which is part of the documented development environment.",
+        "at": "2026-10-25T17:26:27.710Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/projects/al-pocket-tools/@935273519c46afe5": {
         "verdict": "drop",
-        "reason": "Describes a third-party community VS Code extension, not something the Learn development documentation covers.",
-        "at": "2026-10-24T00:35:54.376Z"
+        "reason": "About a third-party VS Code extension that the Learn development docs do not cover.",
+        "at": "2026-10-25T17:26:27.710Z"
+      },
+      "post/vjeko-com/https://vjeko.com/2026/07/01/what-to-do-in-the-age-of-code-printing/@136b04ab5af86a73": {
+        "verdict": "drop",
+        "reason": "An opinion piece on AI scaffolding and team structure, not a capability documented in this section.",
+        "at": "2026-10-25T17:26:27.710Z"
       },
       "video/mnxOSl1Y9PI@089d509598986664": {
         "verdict": "keep",
-        "reason": "Directly walks through updates to the Business Central developer documentation: analytics, troubleshooting, extensibility and the AL language.",
-        "at": "2026-10-24T00:35:54.376Z"
+        "reason": "Walks through updates to the developer documentation itself, including AL, extensibility, reporting and troubleshooting.",
+        "at": "2026-10-25T17:26:27.710Z"
       },
       "video/npkC4wyucyY@1750839e8a18765c": {
         "verdict": "drop",
-        "reason": "About benchmarking AI coding agents (BC-Bench), a different subject from the AL development documentation.",
-        "at": "2026-10-24T00:35:54.376Z"
+        "reason": "About benchmarking AI coding agents with BC-Bench, which this section does not document.",
+        "at": "2026-10-25T17:26:27.710Z"
       }
     },
     "topic/dev-itpro/development/data-analytics-and-reporting": {
@@ -4450,13 +4455,18 @@
     "topic/dev-itpro/development/development-environment": {
       "post/demiliani-com/13761@0a3155f7e9181960": {
         "verdict": "drop",
-        "reason": "A general warning about VS Code extension security and governance, not about configuring the Business Central development environment, and the summary was withheld.",
-        "at": "2026-10-25T17:03:04.419Z"
+        "reason": "There's no usable summary, and the topics only point to general security risks of VS Code extensions, so it can't be tied to anything this section documents.",
+        "at": "2026-10-25T17:26:29.556Z"
       },
       "post/sshadows-dk/https://sshadows.dk/blog/business-central-on-linux/@eafb180164dd5a4e": {
         "verdict": "drop",
-        "reason": "An unsupported experiment running the Business Central server on Linux via Wine, which nothing in the section's sandbox or tooling documentation covers.",
-        "at": "2026-10-25T17:03:04.419Z"
+        "reason": "It's an infrastructure experiment that runs the Business Central server on Linux through Wine, not about setting up, compiling, publishing, testing or sandboxing in the AL development environment.",
+        "at": "2026-10-25T17:26:29.556Z"
+      },
+      "post/vjeko-com/https://vjeko.com/2026/03/09/al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days/@0777ea6471c9f134": {
+        "verdict": "keep",
+        "reason": "It covers AL tooling for managing object ID ranges and per-folder settings in multi-root workspaces, which fall under the section's project/workspace configuration and other tools subtopics.",
+        "at": "2026-10-25T17:26:29.556Z"
       }
     },
     "topic/dev-itpro/development/development-environment/code-analysis": {
@@ -4996,55 +5006,25 @@
       }
     },
     "topic/dev-itpro/development/get-started/altool": {
-      "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/@60f2d926b0fd7386": {
+      "post/vjeko-com/https://vjeko.com/2025/12/15/ninja-v3-is-live-where-we-are-and-what-comes-next/@a4234419c0a9ef49": {
         "verdict": "drop",
-        "reason": "About the AL MCP server and Copilot workflow; altool appears only as a setup prerequisite.",
-        "at": "2026-10-25T17:02:53.878Z"
+        "reason": "About billing and the v3 release of the third-party AL Object ID Ninja, not Microsoft's ALTool command-line tool.",
+        "at": "2026-10-25T17:26:20.861Z"
       },
-      "post/vjeko-com/https://vjeko.com/2025/11/09/end-of-free-backend-for-al-object-id-ninja/@b0e45f5091b0be42": {
+      "post/vjeko-com/https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/@f9cabfb8bbb1e894": {
         "verdict": "drop",
-        "reason": "About AL Object ID Ninja licensing, a third-party tool unrelated to ALTool.",
-        "at": "2026-10-25T17:02:53.878Z"
+        "reason": "About agent-driven object ID assignment in AL Object ID Ninja, which ALTool does not document.",
+        "at": "2026-10-25T17:26:20.861Z"
       },
-      "post/vjeko-com/https://vjeko.com/2025/11/11/al-object-id-ninja-please-register-your-intent/@b000cddf50a7ec62": {
+      "post/vjeko-com/https://vjeko.com/2026/03/05/al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house/@c5e2d23b3f22a115": {
         "verdict": "drop",
-        "reason": "About AL Object ID Ninja's hosting transition, not ALTool.",
-        "at": "2026-10-25T17:02:53.878Z"
-      },
-      "post/vjeko-com/https://vjeko.com/2025/11/19/al-object-id-ninja-self-hosting-vs-hassle-free-the-data-tells-a-curious-story/@7ecb8be21d701759": {
-        "verdict": "drop",
-        "reason": "Adoption data on Object ID Ninja self-hosting, unrelated to ALTool.",
-        "at": "2026-10-25T17:02:53.878Z"
-      },
-      "post/vjeko-com/https://vjeko.com/2025/12/03/a-story-about-trust-why-one-team-moved-from-private-endpoints-to-the-hosted-ninja-backend/@d713134c1e14a0c8": {
-        "verdict": "drop",
-        "reason": "Customer story about Object ID Ninja hosting, not ALTool.",
-        "at": "2026-10-25T17:02:53.878Z"
-      },
-      "post/vjeko-com/https://vjeko.com/2025/12/08/al-object-id-ninja-v3-0-platform-launching-on-december-15/@7b42e6f2d5909bdc": {
-        "verdict": "drop",
-        "reason": "Launch announcement for Object ID Ninja v3.0, unrelated to ALTool.",
-        "at": "2026-10-25T17:02:53.878Z"
-      },
-      "post/vjeko-com/https://vjeko.com/2026/01/27/when-guids-collide-the-app-id-problem-nobody-expected/@701d18046d00bcb0": {
-        "verdict": "drop",
-        "reason": "About app ID GUID collisions tracked by Object ID Ninja, not ALTool.",
-        "at": "2026-10-25T17:02:53.878Z"
-      },
-      "post/vjeko-com/https://vjeko.com/2026/03/09/al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days/@b127322b7a23994f": {
-        "verdict": "drop",
-        "reason": "Object ID Ninja release notes, unrelated to ALTool.",
-        "at": "2026-10-25T17:02:53.878Z"
-      },
-      "post/vjeko-com/https://vjeko.com/2026/03/16/your-object-ids-have-no-excuse-now-ninja-comes-to-ci-cd/@6feb82db9d772dab": {
-        "verdict": "drop",
-        "reason": "Object ID Ninja CI/CD integration, not ALTool.",
-        "at": "2026-10-25T17:02:53.878Z"
+        "reason": "About the licensing and self-hosting decision for a community tool, unrelated to ALTool.",
+        "at": "2026-10-25T17:26:20.861Z"
       },
       "post/vondervoort-be/130@80f191b9b56f9b87": {
         "verdict": "drop",
-        "reason": "About the ALCops community code analyzer, a different tool.",
-        "at": "2026-10-25T17:02:53.878Z"
+        "reason": "About the ALCops community code analyzer, a different tool from ALTool.",
+        "at": "2026-10-25T17:26:20.861Z"
       }
     },
     "topic/dev-itpro/development/get-started/marketplace-validation": {
@@ -5069,38 +5049,33 @@
     "topic/dev-itpro/development/programming-in-the-al-language": {
       "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
         "verdict": "keep",
-        "reason": "Shows AL code that parses delimited files into staging tables and creates sales orders, which is hands-on AL programming with tables and data.",
-        "at": "2026-10-25T16:48:52.782Z"
+        "reason": "Demonstrates AL code for parsing delimited text and writing into staging tables, which is hands-on AL programming with tables and data.",
+        "at": "2026-10-25T17:26:38.370Z"
       },
       "post/aardvarklabs-blog/3032@eb6d53de9c04df57": {
         "verdict": "drop",
-        "reason": "About using Microsoft 365 Copilot to analyse requirements documents, not about programming in AL.",
-        "at": "2026-10-25T16:48:52.782Z"
+        "reason": "About using M365 Copilot for requirements analysis, not about AL programming.",
+        "at": "2026-10-25T17:26:38.370Z"
       },
-      "post/sshadows-dk/https://sshadows.dk/blog/benchmark-llms-al-code/@e871df272dd3c4e2": {
+      "post/vjeko-com/https://vjeko.com/2026/01/27/when-guids-collide-the-app-id-problem-nobody-expected/@7a95dbed5895a54a": {
         "verdict": "drop",
-        "reason": "About benchmarking LLMs on generating AL code; AI evaluation is the subject, and AL programming is only the example.",
-        "at": "2026-10-25T16:48:52.782Z"
-      },
-      "post/sshadows-dk/https://sshadows.dk/blog/centralgauge-benchmark-update/@5a06d6c33864d269": {
-        "verdict": "drop",
-        "reason": "An update to the same LLM benchmark; it covers the benchmark's own fixes, not AL programming.",
-        "at": "2026-10-25T16:48:52.782Z"
+        "reason": "Covers App ID collisions in app.json, an app identity and lifecycle concern rather than AL programming.",
+        "at": "2026-10-25T17:26:38.370Z"
       },
       "video/a8W1x0xwkv4@6fc696eb5f59d4a6": {
-        "verdict": "keep",
-        "reason": "Demonstrates a user control host with JavaScript interop and table storage in AL, which falls under the pages and user interface subtopic.",
-        "at": "2026-10-25T16:48:52.782Z"
+        "verdict": "drop",
+        "reason": "A novelty game port where the game is the subject, so it doesn't teach any documented AL programming topic.",
+        "at": "2026-10-25T17:26:38.370Z"
       },
       "video/lH2Z4xfdhmY@5fceed842247fca3": {
         "verdict": "keep",
-        "reason": "Covers developer-facing search features: the OptimizeForTextSearch property and the new SetFilter operator, which belong to tables and data.",
-        "at": "2026-10-25T16:48:52.782Z"
+        "reason": "Covers developer-facing search features like the optimized-for-text-search property and SetFilter operators, which fall under tables and data.",
+        "at": "2026-10-25T17:26:38.370Z"
       },
       "video/QhHgkCe3kkk@0c07d5bb49e5b26b": {
         "verdict": "keep",
-        "reason": "Explains how to embed resources in an app and read them with the GetResource function, an AL programming building block.",
-        "at": "2026-10-25T16:48:52.782Z"
+        "reason": "Explains embedding resources in an app and reading them with the AL get-resource function.",
+        "at": "2026-10-25T17:26:38.370Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/accessing-device-capabilities": {
@@ -5111,50 +5086,50 @@
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services": {
-      "post/aardvarklabs-blog/1826@7950a7fbfbd69ed2": {
-        "verdict": "drop",
-        "reason": "Mainly covers using the JSON data types and exporting files, which another section documents, not calling external services.",
-        "at": "2026-10-24T00:35:09.307Z"
-      },
       "post/aardvarklabs-blog/2953@e78fa2a25a9ddb42": {
         "verdict": "keep",
-        "reason": "Shows directly how to call external APIs with HttpClient, parse the responses and handle the security prompt.",
-        "at": "2026-10-24T00:35:09.307Z"
+        "reason": "Directly shows how to use HttpClient in AL to call external APIs and parse the JSON they return.",
+        "at": "2026-10-25T17:26:38.682Z"
       },
       "post/demiliani-com/13588@77847e9e3efdbf67": {
         "verdict": "keep",
-        "reason": "Covers the strict URI validation that HttpClient now applies to outbound requests from AL.",
-        "at": "2026-10-24T00:35:09.307Z"
+        "reason": "Covers new URI validation rules that restrict where HttpClient can send outgoing requests.",
+        "at": "2026-10-25T17:26:38.682Z"
       },
       "post/demiliani-com/13640@cda26441af8aa784": {
         "verdict": "keep",
-        "reason": "Shows connecting to external SFTP servers from AL with the native SFTP Client codeunit.",
-        "at": "2026-10-24T00:35:09.307Z"
+        "reason": "Shows a native AL codeunit for connecting to outside SFTP servers, which is a way of calling an external service.",
+        "at": "2026-10-25T17:26:38.682Z"
       },
       "post/demiliani-com/14203@48f9cf58ff1ac562": {
         "verdict": "keep",
-        "reason": "Discusses how to design external API calls from AL so that transaction rollback doesn't cause duplicate side effects.",
-        "at": "2026-10-24T00:35:09.307Z"
+        "reason": "Discusses how to call external APIs from AL safely when transactions roll back, using idempotency keys and handling responses.",
+        "at": "2026-10-25T17:26:38.682Z"
       },
       "post/gerardorenteria-blog/14816@d18dad9b14fe94e8": {
         "verdict": "drop",
-        "reason": "A sample World Cup extension; importing JSON from an external source is a side detail, not the lesson.",
-        "at": "2026-10-24T00:35:09.307Z"
+        "reason": "Its subject is a sample World Cup extension; importing the JSON data is just one part of the demo, not the lesson.",
+        "at": "2026-10-25T17:26:38.682Z"
       },
       "post/kauffmann-nl/8332@f185c6bcbc3e7f69": {
         "verdict": "keep",
-        "reason": "An OAuth authentication library for the Rest Client module, used when calling external services.",
-        "at": "2026-10-24T00:35:09.307Z"
+        "reason": "An OAuth library for the Rest Client module, used to authenticate outgoing calls to external services.",
+        "at": "2026-10-25T17:26:38.682Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643@bcd3363825c3e8ed": {
         "verdict": "drop",
-        "reason": "About an extension-management app; calling the admin center API is incidental to that subject.",
-        "at": "2026-10-24T00:35:09.307Z"
+        "reason": "Its subject is rebuilding the extension upload feature for managing extensions, not how to call external services.",
+        "at": "2026-10-25T17:26:38.682Z"
+      },
+      "post/vjeko-com/https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/@c1a26403c4b8f9b9": {
+        "verdict": "drop",
+        "reason": "About a tool that lets AI coding assistants manage object IDs; unrelated to AL calling external services.",
+        "at": "2026-10-25T17:26:38.682Z"
       },
       "video/qNHUj3ZEang@79cabc8a630d8bbb": {
         "verdict": "keep",
-        "reason": "Demonstrates new Rest Client features: cookie support and collectible errors for HTTP requests.",
-        "at": "2026-10-24T00:35:09.307Z"
+        "reason": "Demonstrates cookie support and collectible errors in the REST Client used for HTTP calls.",
+        "at": "2026-10-25T17:26:38.682Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/developing-apis": {
@@ -6312,25 +6287,20 @@
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code": {
-      "post/sshadows-dk/https://sshadows.dk/blog/benchmark-llms-al-code/@e871df272dd3c4e2": {
-        "verdict": "drop",
-        "reason": "About benchmarking AI models on writing AL code, not about AL coding best practices.",
-        "at": "2026-10-25T16:48:52.067Z"
-      },
-      "post/sshadows-dk/https://sshadows.dk/blog/centralgauge-benchmark-update/@5a06d6c33864d269": {
-        "verdict": "drop",
-        "reason": "An update on benchmark infrastructure and model scores; it doesn't cover AL code best practices.",
-        "at": "2026-10-25T16:48:52.067Z"
-      },
       "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/@7c539af3ddd905ec": {
         "verdict": "drop",
-        "reason": "Describes how a third-party code analyzer is built, shipped and migrated to, rather than the AL coding practices themselves.",
-        "at": "2026-10-25T16:48:52.067Z"
+        "reason": "Announces a replacement linter tool and covers its structure, NuGet packaging and migration, not AL coding best practices themselves.",
+        "at": "2026-10-25T17:26:37.780Z"
       },
       "post/thinkaboutit-be/8132@c9bfa41ad7ac66b4": {
         "verdict": "keep",
-        "reason": "Covers a shared set of AL coding rules and quality guidance, such as SetLoadFields order and the obsolete FindSet overload, which is what this section is about.",
-        "at": "2026-10-25T16:48:52.067Z"
+        "reason": "Describes Microsoft's shared quality rules for AL code, with concrete practices such as SetLoadFields placement and avoiding obsolete FindSet overloads.",
+        "at": "2026-10-25T17:26:37.780Z"
+      },
+      "post/vjeko-com/https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/@1756ce6e0d673c86": {
+        "verdict": "drop",
+        "reason": "About context engineering for AI agents; AL development is only the setting, not guidance on AL coding practices.",
+        "at": "2026-10-25T17:26:37.780Z"
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance": {
@@ -6894,225 +6864,235 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al": {
-      "post/olofsimren-com/3653@e7fefac5ccde599a": {
-        "verdict": "drop",
-        "reason": "Uses AI-assisted vibe coding to build an audit extension; that is not building Business Central agents in AL.",
-        "at": "2026-10-25T17:02:52.306Z"
-      },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@b94f6d6fdd1fc4fe": {
-        "verdict": "drop",
-        "reason": "About setting up GitHub Copilot to write AL code, not coding Business Central agents.",
-        "at": "2026-10-25T17:02:52.306Z"
-      },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-818643009386692123@982baa375093ea02": {
-        "verdict": "drop",
-        "reason": "A conference recap that names the AI Development Toolkit only in passing.",
-        "at": "2026-10-25T17:02:52.306Z"
-      },
-      "post/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/@a85ba20998c1c74a": {
-        "verdict": "drop",
-        "reason": "A language-server tool for AI coding assistants, not building Business Central agents in AL.",
-        "at": "2026-10-25T17:02:52.306Z"
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/@b67dc43eb2f9705d": {
-        "verdict": "drop",
-        "reason": "A Claude Code multi-agent workflow for AL development, a different capability from Business Central agents.",
-        "at": "2026-10-25T17:02:52.306Z"
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/@2a63431a53ddd0cd": {
-        "verdict": "drop",
-        "reason": "An MCP source-search server for coding assistants, unrelated to coding Business Central agents.",
-        "at": "2026-10-25T17:02:52.306Z"
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-dev-container-al/@9d6f8403875c1881": {
-        "verdict": "drop",
-        "reason": "Dev container setup for Claude Code, not about Business Central agents.",
-        "at": "2026-10-25T17:02:52.306Z"
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/@d26fec2dbf7f1670": {
-        "verdict": "drop",
-        "reason": "Docker sandboxing for Claude Code, not about Business Central agents.",
-        "at": "2026-10-25T17:02:52.306Z"
-      },
       "post/thinkaboutit-be/7352@f7cfc535784925c8": {
         "verdict": "drop",
-        "reason": "About Copilot Agent mode for writing AL, not building agents in Business Central.",
-        "at": "2026-10-25T17:02:52.306Z"
+        "reason": "Covers using GitHub Copilot's Agent mode to write AL code, not building Business Central agents in AL.",
+        "at": "2026-10-25T17:26:25.585Z"
       },
       "post/thinkaboutit-be/7383@7e8512d807291136": {
         "verdict": "drop",
-        "reason": "About Copilot Plan mode for AL development, not Business Central agents.",
-        "at": "2026-10-25T17:02:52.306Z"
+        "reason": "Covers Copilot Plan mode for AL development, not coding Business Central agents.",
+        "at": "2026-10-25T17:26:25.585Z"
       },
       "post/thinkaboutit-be/7402@b5ffe8888e16e784": {
         "verdict": "drop",
-        "reason": "About the modes of GitHub Copilot for AL coding, not Business Central agents.",
-        "at": "2026-10-25T17:02:52.306Z"
+        "reason": "A guide to choosing between Copilot's modes in AL development, not to building Business Central agents.",
+        "at": "2026-10-25T17:26:25.585Z"
       },
       "post/thinkaboutit-be/7414@2d8b4e6d2f5403fd": {
         "verdict": "drop",
-        "reason": "A personal year-in-review on Copilot use, too general and off-topic.",
-        "at": "2026-10-25T17:02:52.306Z"
+        "reason": "A personal year-in-review about AI-assisted development, too general and not about coding Business Central agents.",
+        "at": "2026-10-25T17:26:25.585Z"
       },
       "post/thinkaboutit-be/7486@131ae97800aa4183": {
         "verdict": "drop",
-        "reason": "Compares Copilot Plan mode with Copilot agents in the editor, not Business Central agents.",
-        "at": "2026-10-25T17:02:52.306Z"
+        "reason": "Compares Copilot Plan mode with Copilot agents as developer tools; it doesn't cover building Business Central agents.",
+        "at": "2026-10-25T17:26:25.585Z"
       },
-      "post/vjeko-com/https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/@175dd9cc3dc8bfd6": {
+      "post/vjeko-com/https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/@6ae9e0614597ffbc": {
         "verdict": "drop",
-        "reason": "Object ID assignment by VS Code coding agents, not building Business Central agents.",
-        "at": "2026-10-25T17:02:52.306Z"
+        "reason": "About autonomy levels in agentic software development, not about coding Business Central agents in AL.",
+        "at": "2026-10-25T17:26:25.585Z"
       },
-      "post/vjeko-com/https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/@fd8ac5e66ecf8ce0": {
+      "post/vjeko-com/https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/@6371193df90b4b48": {
         "verdict": "drop",
-        "reason": "An object ID MCP server for AI coding tools, not building Business Central agents.",
-        "at": "2026-10-25T17:02:52.306Z"
+        "reason": "The summary was withheld and the topics point to quality assurance for agentic engineering, so it can't be tied to this section.",
+        "at": "2026-10-25T17:26:25.585Z"
+      },
+      "post/vjeko-com/https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/@17cb200d6d4e65cf": {
+        "verdict": "drop",
+        "reason": "General commentary on why AI-assisted coding fails, not about building Business Central agents.",
+        "at": "2026-10-25T17:26:25.585Z"
       },
       "post/vondervoort-be/130@80f191b9b56f9b87": {
         "verdict": "drop",
-        "reason": "About the ALCops code analyser for AL, not about coding Business Central agents in AL.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "reason": "Announces the ALCops code analyzers, which is unrelated to coding Business Central agents.",
+        "at": "2026-10-25T17:26:25.585Z"
       },
       "post/vondervoort-be/147@99d92e66e963843b": {
         "verdict": "drop",
-        "reason": "About the ALCops analysers and their MCP server for AI assistants, not about building agents in AL.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "reason": "About the ALCops analyzers and their MCP server for AI assistants, not about coding Business Central agents.",
+        "at": "2026-10-25T17:26:25.585Z"
       },
       "video/c91E6IykUnk@9c87e1a5eb37106f": {
         "verdict": "drop",
-        "reason": "About AI-assisted AL development and report layouts, not about coding Business Central agents.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "reason": "A broad episode on AI-assisted development and report layouts; it doesn't cover coding agents with the AL agent framework.",
+        "at": "2026-10-25T17:26:25.585Z"
       },
       "video/EwN3xb2q7vE@fa320b248e55e095": {
         "verdict": "keep",
-        "reason": "Directly covers coding agents in AL with the AI Development Toolkit, including the agent factory, metadata and task interfaces.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "reason": "Demonstrates coding Business Central agents in AL, including agent type definitions, factory and metadata interfaces, setup, and the Tasks API.",
+        "at": "2026-10-25T17:26:25.585Z"
       },
       "video/gd2TycVywv4@f20bd71818f9eeb8": {
         "verdict": "drop",
-        "reason": "About the mindset for developing with AI coding agents, not about building Business Central agents in AL.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "reason": "About using AI coding assistants like GitHub Copilot to write AL, not about coding Business Central agents in AL.",
+        "at": "2026-10-25T17:26:27.651Z"
       },
       "video/jfvUkNa4gyg@843581c971e53e3c": {
         "verdict": "drop",
-        "reason": "About using Claude Code agents to write AL code; the agents are the tooling, not the subject.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "reason": "About using Claude Code agents to develop AL, not about building Business Central agents in AL.",
+        "at": "2026-10-25T17:26:27.651Z"
       },
       "video/jWqjDTbqjeE@d3cbde4e3c06d5d7": {
         "verdict": "keep",
-        "reason": "Includes a part on creating agent code with the AI Development Toolkit and deploying agent extensions.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "reason": "Covers creating agent code with the AI Development Toolkit and deploying agents as extensions.",
+        "at": "2026-10-25T17:26:27.651Z"
       },
       "video/mBU2Iu0urw8@95ce2757d015d2fc": {
         "verdict": "drop",
-        "reason": "About agentic AL development tooling (ALMCP, skills, Copilot modes), not about coding Business Central agents.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "reason": "About agentic AL developer tooling (ALMCP, skills, VS Code agent mode), not about coding Business Central agents.",
+        "at": "2026-10-25T17:26:27.651Z"
       },
       "video/MNwTt06ZxwY@6a357ea37188254b": {
         "verdict": "keep",
-        "reason": "Covers the agent template for AL projects, the agent factory and metadata interfaces, and shipping agents in extensions.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "reason": "Shows the AL agent template, agent factory and metadata interfaces, and shipping agents as extensions.",
+        "at": "2026-10-25T17:26:27.651Z"
       },
       "video/V4zCPAsYi_Y@c18383eb6e9d0dd2": {
-        "verdict": "drop",
-        "reason": "Focuses on testing and evaluating agents, which is a different capability from coding them.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "verdict": "keep",
+        "reason": "Shows how to structure tests for coded agents with the AI Development Toolkit evaluation app, which is part of building agents in AL.",
+        "at": "2026-10-25T17:26:27.651Z"
       },
       "video/w2P3WskFaCA@9f8393e4268031d6": {
         "verdict": "drop",
-        "reason": "About AI-assisted AL development from the terminal on Linux, not about building agents.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "reason": "About developing Business Central from the terminal with AI coding tools, not about coding agents in AL.",
+        "at": "2026-10-25T17:26:27.651Z"
       },
       "video/WjFx9yYf1js@7a24bb789c86b0e4": {
         "verdict": "drop",
-        "reason": "About the risks of vibe coding extensions, not about coding agents in AL.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "reason": "A general discussion of the risks of vibe coding, not related to building agents in AL.",
+        "at": "2026-10-25T17:26:27.651Z"
       },
       "video/XGEDwzIZQj4@53a5209267f30072": {
         "verdict": "drop",
-        "reason": "About benchmarking AI coding models on AL bug fixing, not about building Business Central agents.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "reason": "About benchmarking AI coding models on AL bug fixing, not about coding Business Central agents.",
+        "at": "2026-10-25T17:26:27.651Z"
       },
       "video/xWOddQt1GUM@b37a64fe3602a41b": {
         "verdict": "drop",
-        "reason": "Mainly about AI-assisted AL development and the developer's role; mentions the agent preview only in passing.",
-        "at": "2026-10-25T17:02:52.931Z"
+        "reason": "Mainly about how AI-assisted development changes the developer role; agents get only a passing mention.",
+        "at": "2026-10-25T17:26:27.651Z"
       },
       "post/aardvarklabs-blog/3060@cf622bf4ad3a6ad2": {
         "verdict": "drop",
-        "reason": "About using Copilot Chat to draft requirements and design documents, not about building agents in AL.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "About AI-assisted requirements and design writing with Copilot Chat, not building Business Central agents in AL.",
+        "at": "2026-10-25T17:26:27.761Z"
       },
       "post/aardvarklabs-blog/3097@8e325a3f81621c91": {
         "verdict": "keep",
-        "reason": "Walks through building a custom agent in AL using IAgentFactory, IAgentMetadata, SetInstructions and AgentTaskBuilder.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "Walks through building a custom agent in AL with setup tables, IAgentFactory/IAgentMetadata, instructions and AgentTaskBuilder.",
+        "at": "2026-10-25T17:26:27.761Z"
       },
       "post/aardvarklabs-blog/3564@e823a16dc5428d34": {
         "verdict": "drop",
-        "reason": "About Visual Studio Code skills for AI-assisted AL coding, not about coding Business Central agents.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "About Copilot skills in VS Code for AL development, not coding Business Central agents.",
+        "at": "2026-10-25T17:26:27.761Z"
       },
       "post/bertverbeek-nl/1219@87302a808e16dbc5": {
         "verdict": "keep",
-        "reason": "Explains how to create and manage agent tasks and messages in code using Agent Task Builder, Agent Task and Agent Message codeunits.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "Explains how custom agents work from code: creating tasks with Agent Task Builder, the orchestrator, and handling messages in code.",
+        "at": "2026-10-25T17:26:27.761Z"
       },
       "post/bertverbeek-nl/1272@81f380297cb1980b": {
         "verdict": "keep",
-        "reason": "Covers creating and registering agents from AL code with interfaces, capability registration, setup pages and KPI pages.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "Covers creating and registering agents in AL: capability registration, the agent interfaces, setup and KPI pages.",
+        "at": "2026-10-25T17:26:27.761Z"
       },
       "post/demiliani-com/12644@8f82d42475c5da29": {
         "verdict": "keep",
-        "reason": "Shows how to debug agent sessions from the AL Language extension, which is part of developing agents in AL.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "Covers debugging agent sessions from VS Code, which is part of developing agents in AL.",
+        "at": "2026-10-25T17:26:27.761Z"
       },
       "post/demiliani-com/13814@d2bf07698adba447": {
         "verdict": "keep",
-        "reason": "Covers the new Agent codeunit methods (SetModelId, GetModelId) for setting an agent's model from AL code.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "Covers new Agent codeunit AL methods for choosing the agent's AI model.",
+        "at": "2026-10-25T17:26:27.761Z"
       },
       "post/demiliani-com/13982@a0a946e5701b63bc": {
         "verdict": "drop",
-        "reason": "A general opinion piece on the costs of AI-assisted development, not about coding agents.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "A general opinion piece on the hidden costs of using AI for coding, not about AL agent development.",
+        "at": "2026-10-25T17:26:27.761Z"
       },
       "post/demiliani-com/14011@a4f2a5eb486e6c43": {
         "verdict": "drop",
-        "reason": "About Visual Studio Code hooks for auditing AI coding sessions, not about Business Central agents.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "About VS Code agent hooks for auditing AI coding sessions, not Business Central agents.",
+        "at": "2026-10-25T17:26:27.761Z"
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/@cf1c867204c2f0fe": {
         "verdict": "drop",
-        "reason": "A weekly roundup that mentions the agent model AL APIs only in passing.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "A weekly roundup that only mentions the agent model AL APIs in passing among unrelated topics.",
+        "at": "2026-10-25T17:26:27.761Z"
+      },
+      "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/@9a731a62b40514dc": {
+        "verdict": "drop",
+        "reason": "About the AL MCP server for AI coding assistants, not building agents in AL.",
+        "at": "2026-10-25T17:26:27.761Z"
       },
       "post/gerardorenteria-blog/13945@46831719c8bc5ce4": {
         "verdict": "drop",
-        "reason": "About organizing GitHub Copilot context per workspace, not about building agents.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "About controlling GitHub Copilot context per workspace, not Business Central agents.",
+        "at": "2026-10-25T17:26:27.761Z"
       },
       "post/gerardorenteria-blog/14894@1b604f05710f6e53": {
         "verdict": "drop",
-        "reason": "About cutting Copilot output-token costs, not about coding Business Central agents.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "About controlling Copilot token costs during AL coding, not about building Business Central agents in AL.",
+        "at": "2026-10-25T17:26:28.799Z"
       },
       "post/katson-com/4756@fe746a1e7d77237d": {
         "verdict": "drop",
-        "reason": "Describes a method for building extensions with AI coding agents, not how to code Business Central agents.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "Spec-driven method for using AI coding agents to build extensions; doesn't cover coding BC agents in AL.",
+        "at": "2026-10-25T17:26:28.799Z"
       },
       "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02/@6693f9aeca20750b": {
         "verdict": "drop",
-        "reason": "General guidance on using AI tools for Business Central development, not about agents in AL.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "General guidance on using AI tools for BC development, not on writing agents in AL.",
+        "at": "2026-10-25T17:26:28.799Z"
       },
       "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/@a9590d7030e3dc3d": {
         "verdict": "drop",
-        "reason": "About quality risks in AI-generated AL code, not about coding agents.",
-        "at": "2026-10-25T17:02:54.323Z"
+        "reason": "About quality risks of AI-generated AL code, not about agent development in AL.",
+        "at": "2026-10-25T17:26:28.799Z"
+      },
+      "post/olofsimren-com/3653@e7fefac5ccde599a": {
+        "verdict": "drop",
+        "reason": "Vibe-coding a configuration audit extension; the subject is AI-assisted coding, not BC agents.",
+        "at": "2026-10-25T17:26:28.799Z"
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@b94f6d6fdd1fc4fe": {
+        "verdict": "drop",
+        "reason": "Setting up GitHub Copilot agent mode to write AL, not coding BC agents in AL.",
+        "at": "2026-10-25T17:26:28.799Z"
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-818643009386692123@982baa375093ea02": {
+        "verdict": "drop",
+        "reason": "Conference recap that only mentions the AI Development Toolkit in passing; too general.",
+        "at": "2026-10-25T17:26:28.799Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/@a85ba20998c1c74a": {
+        "verdict": "drop",
+        "reason": "Language server tooling for AI coding assistants, not for building BC agents in AL.",
+        "at": "2026-10-25T17:26:28.799Z"
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/@b67dc43eb2f9705d": {
+        "verdict": "drop",
+        "reason": "Multi-agent Claude Code workflow for AL development, a different capability from coding BC agents.",
+        "at": "2026-10-25T17:26:28.799Z"
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/@2a63431a53ddd0cd": {
+        "verdict": "drop",
+        "reason": "MCP server that gives coding assistants Base App source, not about writing agents in AL.",
+        "at": "2026-10-25T17:26:28.799Z"
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-dev-container-al/@9d6f8403875c1881": {
+        "verdict": "drop",
+        "reason": "Dev container setup for Claude Code; about sandboxing, not BC agent coding.",
+        "at": "2026-10-25T17:26:28.799Z"
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/@d26fec2dbf7f1670": {
+        "verdict": "drop",
+        "reason": "Docker sandbox security for Claude Code, unrelated to coding BC agents in AL.",
+        "at": "2026-10-25T17:26:28.799Z"
       }
     },
     "topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis": {

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:46.729Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:26:49.987Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -314,7 +314,8 @@ links:
     - topic/dev-itpro/development/development-environment/other-tools
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/vjeko-com/https-vjeko-com-2026-03-09-al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days--fb9c8e152a
   guidelines: []
   changes:
     - change/bcapps/10212
@@ -337,7 +338,7 @@ coverage:
   learn: 54
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 149000
@@ -391,6 +392,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10212 Add SetReferenceType method to SignedXml and SignedXmlImpl (#10139)](../../../changes/bcapps/10212.md) (code change): "SetReferenceType method is added to the SignedXml codeunit to allow callers"
 - [#10449 Remove permission set ref and move the Page Inspector changes to BCApps](../../../changes/bcapps/10449.md) (code change): "Page Inspector changes are moved from Platform into BCApps"
+- [AL Object ID Ninja 3.2.1: A Lot Has Happened in Four Days](../../../posts/vjeko-com/https-vjeko-com-2026-03-09-al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days--fb9c8e152a.md) (community post): "App pools now display accurate pool-wide consumption in Range Explorer and Assignment Explorer"
 
 ## Business Central pages and reports
 
