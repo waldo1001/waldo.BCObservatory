@@ -62,7 +62,8 @@ export interface TopicLinkRun {
 export const topicLinksPath = (dataDir: string) => resolve(dataDir, "links", "topics.json");
 export const loadTopicLinks = (dataDir: string): TopicLinks => readJsonOr<TopicLinks>(topicLinksPath(dataDir), { prompt_version: 0, units: {} });
 
-export interface TopicVerdict { verdict: "keep" | "drop"; reason: string; at: string }
+/** `v`: the review PROMPT_VERSION the verdict was made under (D117); absent = 1. */
+export interface TopicVerdict { verdict: "keep" | "drop"; reason: string; at: string; v?: number }
 /** Verdicts per topic id, then per link of a unit hash. A link without a verdict is shown: review lags behind linking. */
 export interface TopicReview { prompt_version: number; verdicts: Record<string, Record<string, TopicVerdict>> }
 export const topicReviewPath = (dataDir: string) => resolve(dataDir, "links", "topics-review.json");

@@ -1299,3 +1299,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   MVP (the About page: "Microsoft MVP since 2010"). Fetch is the RSS feed `https://vjeko.com/rss.xml` (30 posts back to
   2021-09-15, 22 inside the 18-month window); no WordPress API. Rejected: full text without the author's opt-in; a
   scrape fetch. Spec `docs/specs/vjeko-com-blog-source.md`.
+- **D117 The topic review keeps tools and practice built on a documented feature (2026-10-25, M54).** Issue #49, at the
+  owner's request ("I really need the links to be 100%"). The Opus topic review (D54) dropped 715 of 1,516 links (47%):
+  posts about a tool, extension or practice around a documented feature lost every hub, so freddysblog, sshadows-dk,
+  tine-staric-net and kine-cz had no flight path. The keep rule now includes a tool, extension, script or practice that
+  works with, extends, measures or automates what the section documents, and the review keeps when in doubt; the
+  vocabulary-only, sibling-section and example-not-lesson drops stay. Verdicts carry the review standard (`v`, review
+  `PROMPT_VERSION` 2): a drop under an older standard makes its hub due again, a keep stays valid. Rejected:
+  re-reviewing keeps too; dropping the review; community-tooling hubs (later). Spec `docs/specs/topic-review-tooling.md`.

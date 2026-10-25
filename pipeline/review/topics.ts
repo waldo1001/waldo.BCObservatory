@@ -14,7 +14,8 @@
  *
  * Verdicts are stored per link and unit hash (data/links/topics-review.json); mediaByTopic leaves dropped links out,
  * so the topic pages lose them and the graph, which reads those pages, loses the edge and the source touch with
- * them. A hub is due when one of its links has no verdict yet; hubs with the most unreviewed links go first.
+ * them. A hub is due when one of its links has no verdict yet, or a drop made under an older PROMPT_VERSION (D117: a
+ * looser standard can turn a drop into a keep; a keep stays a keep); hubs with the most open links go first.
  */
 import { listFiles, readJson, writeJson } from "../lib/fsx.js";
 import { complete, LlmBudgetExhausted, LlmInfraError } from "../lib/llm.js";
@@ -30,7 +31,7 @@ import { resolve } from "node:path";
 import type { VideoExtraction } from "../extract/video.js";
 import type { PostExtraction } from "../extract/post.js";
 
-export const PROMPT_VERSION = 1;
+export const PROMPT_VERSION = 2;
 export const STAGE = "review-topics";
 export const BATCH_HUBS = 6;
 /** Refs one call may carry: a hub with 30 links came back with 29 verdicts (2026-10-07), so big hubs are chunked. */
@@ -41,9 +42,9 @@ export const SYSTEM = `You review links between a section of the Microsoft Learn
 A smaller model proposed each link from the evidence text shown, seeing only a few items at a time and never the other items proposed for this same section. You see each section, the sections around it, and every proposed link together.
 
 For each link decide:
-- keep: the item explains, demonstrates or discusses something this Learn section documents. One part of the section is enough: a video on a single setting of a feature the section documents is kept.
-- drop: the item only shares the product area, module, agent or vocabulary; it is about a different capability; it is about something a sibling or parent section documents instead; its subject is the example rather than the lesson (a post on AI-assisted coding whose demo app does cost accounting is not about cost accounting); or it is too general to tell.
-Hold the whole set to one standard. If one item is plainly the section's subject and another only mentions it in passing, the passing one is a drop even when nothing is obviously wrong with it.
+- keep: the item explains, demonstrates or discusses something this Learn section documents. One part of the section is enough: a video on a single setting of a feature the section documents is kept. Also keep an item about a tool, extension, script or practice that works with, extends, measures or automates what the section documents: a third-party extension on the Performance Profiler page belongs to the Performance Profiler section.
+- drop: the item only shares words with the section; its subject is a capability this section does not document; a sibling or parent section documents its subject more exactly; its subject is the example rather than the lesson (a post on AI-assisted coding whose demo app does cost accounting is not about cost accounting); or no part of what it covers is in this section.
+When in doubt, keep: a reader of this section would rather find a related item than miss it.
 Judge only from the texts given; never from the title alone. reason: one short sentence. Return exactly one verdict per ref.`;
 
 export const reviewSchema = (refs: string[]) => ({
@@ -133,6 +134,9 @@ export function reviewPrompt(c: ReviewCall, all: TopicCandidate[]): string {
 ${JSON.stringify(body, null, 1)}`;
 }
 
+/** A link still to review: no verdict yet, or a drop made under an older standard (D117). */
+const open = (v: TopicVerdict | undefined) => !v || (v.verdict === "drop" && (v.v ?? 1) < PROMPT_VERSION);
+
 export async function reviewTopicLinks(
   dataDir: string, contentDir: string,
   o: { quota: number; deadline: Date; clock: () => Date; llm?: Llm; concurrency?: number },
@@ -143,7 +147,7 @@ export async function reviewTopicLinks(
   const all = [...hubs.values()];
   const byTopic = gatherTopicLinks(loadTopicLinks(dataDir), dataDir, contentDir);
   const todo = [...byTopic].filter(([id]) => hubs.has(id))
-    .map(([id, ls]) => ({ id, hub: hubs.get(id)!, links: ls, open: ls.filter((l) => !topicVerdictOf(review, id, l.key, l.hash)).length }))
+    .map(([id, ls]) => ({ id, hub: hubs.get(id)!, links: ls, open: ls.filter((l) => open(topicVerdictOf(review, id, l.key, l.hash))).length }))
     .filter((t) => t.open > 0).sort((a, b) => b.open - a.open || a.id.localeCompare(b.id));
   const calls = planReviewCalls(todo);
   const run: TopicReviewRun = { candidates: todo.length, calls: 0, reviewed: 0, kept: 0, dropped: 0, failed: 0, cost_usd: 0, stopped: "done", errors: [] };
@@ -172,7 +176,7 @@ export async function reviewTopicLinks(
         const kept: Record<string, TopicVerdict> = {};
         for (const l of s.links) {
           const v = byRef.get(l.ref)!;
-          kept[topicVerdictKey(l.key, l.hash)] = { verdict: v.verdict, reason: tidy(v.reason).slice(0, 300), at };
+          kept[topicVerdictKey(l.key, l.hash)] = { verdict: v.verdict, reason: tidy(v.reason).slice(0, 300), at, v: PROMPT_VERSION };
           if (v.verdict === "keep") run.kept++; else run.dropped++;
         }
         // only this hub's current links: verdicts of links that are gone fall away. A chunked hub's later chunks merge

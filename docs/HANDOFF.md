@@ -14,9 +14,6 @@ the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`
 whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
-- **Looser topic review, D117** (`docs/specs/topic-review-tooling.md`, M54, issue #49). Status: proposed 2026-10-25,
-  nothing implemented. Start with the tests of section 5. Until it lands, the review drops 47% of topic links and four
-  blogs have no flight path.
 - **Layered answers, D106** (`docs/specs/layered-answers.md`, M44, issue #26). Status: built 2026-10-23 on stacked
   branches `build/layered-answers` and `-p1` to `-p6`, one PR per phase (#27 docs, #28 cross-links, #29 key facts, #30
   cautions, then hotfix lists, brief and search, never-less); merge in order. Not done until the first nightly ran:
@@ -38,6 +35,13 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-25 (pipeline only; readers see it after the re-review run):**
+- **The topic review keeps tools and practice (D117, M54, issue #49).** 244 hubs hold a drop made under the old
+  standard and are due again (1,388 links). At the normal quota of 15 Opus calls a night that takes about 15 nights;
+  one unlimited run does it for roughly $25-50: `gh workflow run nightly.yml --ref main -f pillars=blog -f
+  only=vjeko-com -f unlimited=true` (owner's go). Then record the new drop share and the flight stops of freddysblog,
+  sshadows-dk, tine-staric-net, kine-cz and vjeko-com in the spec.
 
 **Shipped 2026-10-25 (sources only; readers see it after the ingest run):**
 - **vjeko.com is a community blog source (D116, M53, issue #48).** `vjeko-com` (Vjekoslav Babić, MVP) in

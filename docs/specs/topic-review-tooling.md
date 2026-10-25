@@ -1,11 +1,11 @@
 ---
 issue: 49
-status: draft
+status: implemented
 ---
 
 # Topic review keeps tools and practice built on what a Learn section documents
 
-Status: proposed, 2026-10-25. Decision: D117 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M54 (reserved). Owner: waldo.
+Status: implemented, 2026-10-25 (section 12 records what was built and where it differs). Decision: D117 (appended 2026-10-25). Milestone: M54. Owner: waldo.
 Scope: the Opus topic-link review (`pipeline/review/topics.ts`, D54): its keep rule, and a re-review of the hubs that hold a drop. Every claim below was verified against the tree at `382cdd7b39` on 2026-10-25. Not in scope: the Haiku matcher (`pipeline/link/topics.ts`), new hubs for what Learn does not document, source names in search (a separate gap: `bc_search` matches neither "pearson test" nor "jpearson-blog test").
 
 ## 1. Goal
@@ -95,12 +95,25 @@ Changed: `pipeline/link/topics.ts`, `pipeline/review/topics.ts`, `tests/unit/top
 
 ## 11. Definition of Done
 
-- [ ] The three tests of section 5 fail before the change and pass after it.
-- [ ] `npm run typecheck` and `npm test` pass.
+- [x] The three tests of section 5 fail before the change and pass after it.
+- [x] `npm run typecheck` and `npm test` pass.
 - [ ] After phase 2: every verdict in a hub that held a drop carries `v: 2`, and the new drop share and the five sources' flight stops are recorded.
-- [ ] D117 appended to docs/DECISIONS.md; PLAN M54 marked shipped; HANDOFF entry moved from "Open specs" to "Where things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the status lines into docs/built/topic-review-tooling.md; the PR's review moves them in (sdd-build section 4, sdd-review section 6).
+- [x] D117 appended to docs/DECISIONS.md; PLAN M54 marked shipped; HANDOFF entry moved from "Open specs" to "Where things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the status lines into docs/built/topic-review-tooling.md; the PR's review moves them in (sdd-build section 4, sdd-review section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-25)
+
+- **Built** on `fix/topic-review-tooling`, after the spec commit: `TopicVerdict.v` (`pipeline/link/topics.ts`), review
+  `PROMPT_VERSION` 2, the `open()` due rule, `v` on every written verdict and the new `SYSTEM` text
+  (`pipeline/review/topics.ts`), three tests in `tests/unit/topic-links.test.ts`.
+- **Red:** the three new tests failed before the change: no `v` on a verdict ("actual: false, expected: true"),
+  `candidates` 0 instead of 1, and `SYSTEM` not matching `/tool, extension, script or practice/`; the other 25 passed.
+- **Green:** `tests/unit/topic-links.test.ts` 28 of 28. `npm run typecheck` clean. `npm test`: 754 tests, 753 pass, 0 fail.
+- **Mutation:** the old-drop condition in `open()` replaced by `false`: 1 test fails (the re-review test); restored.
+- **Deviations:** none.
+- **Open:** phase 2, the re-review run (about $25-50, the owner's go), and the Definition of Done item that records its
+  outcome.
+
+## 13. Proposed edits to other files (applied 2026-10-25, see section 12)
 
 D117 text for `docs/DECISIONS.md`: "D117: the topic review (D54) keeps tools, extensions and practice built on what a Learn section documents, and keeps when in doubt; verdicts carry the review standard (`v`, review `PROMPT_VERSION` 2) and a drop under an older standard makes its hub due again (issue #49). Before: 715 of 1,516 links dropped. Rejected: re-reviewing keeps; dropping the review; community-tooling hubs (later)."
 

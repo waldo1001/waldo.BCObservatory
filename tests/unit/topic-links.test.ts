@@ -9,7 +9,7 @@ import type { Llm, VideoExtraction } from "../../pipeline/extract/video.js";
 import type { PostExtraction } from "../../pipeline/extract/post.js";
 import { linkTopics, loadTopicLinks, loadTopicReview, mediaByTopic, postUnit, secondChanceOf, topicCandidates, topicVerdictKey, unitPageId, type TopicLinkUnit, type TopicReview } from "../../pipeline/link/topics.js";
 import { fileKey } from "../../pipeline/lib/manifest.js";
-import { BATCH_HUBS, callRefs, gatherTopicLinks, hubContext, MAX_REFS, planReviewCalls, reviewTopicLinks } from "../../pipeline/review/topics.js";
+import { BATCH_HUBS, callRefs, gatherTopicLinks, hubContext, MAX_REFS, planReviewCalls, PROMPT_VERSION, reviewTopicLinks, SYSTEM } from "../../pipeline/review/topics.js";
 
 const NOW = new Date("2026-10-07T01:00:00Z");
 const topic = (id: string, title: string, system: string, path: string[]) =>
@@ -155,6 +155,37 @@ test("a hub is due only while a link lacks a verdict, and a re-extracted item ma
   await linkTopics(dataDir, contentDir, opts(llm));
   const third = fakeReview(keep);
   assert.deepEqual([(await reviewTopicLinks(dataDir, contentDir, opts(third.llm))).candidates, third.reqs.length], [1, 1]);
+});
+
+// D117: verdicts carry the review standard; a drop under an older one is weighed again
+test("a verdict records the review standard it was made under", async () => {
+  const { contentDir, dataDir } = await linked();
+  await reviewTopicLinks(dataDir, contentDir, opts(fakeReview((_r, refs) => refs.map((x) => ({ ref: x.ref, verdict: "keep", reason: "r" }))).llm));
+  const vs = Object.values(loadTopicReview(dataDir).verdicts).flatMap((h) => Object.values(h));
+  assert.equal(vs.length, 2);
+  assert.ok(vs.every((v) => v.v === PROMPT_VERSION && PROMPT_VERSION === 2), "every verdict says it was made under review standard 2");
+});
+
+test("a drop under an older standard makes its hub due again; an old keep does not", async () => {
+  const { contentDir, dataDir } = await linked();
+  await reviewTopicLinks(dataDir, contentDir, opts(fakeReview((_r, refs) => refs.map((x) => ({ ref: x.ref, verdict: x.evidence.includes("telemetry") ? "drop" : "keep", reason: "r" }))).llm));
+  // the same verdicts as a review under standard 1 left them: no `v`
+  const review = loadTopicReview(dataDir);
+  for (const h of Object.values(review.verdicts)) for (const v of Object.values(h)) delete (v as { v?: number }).v;
+  writeJson(join(dataDir, "links/topics-review.json"), review);
+  const again = fakeReview((_r, refs) => refs.map((x) => ({ ref: x.ref, verdict: "keep", reason: "r" })));
+  const run = await reviewTopicLinks(dataDir, contentDir, opts(again.llm));
+  assert.equal(run.candidates, 1, "only the hub that held the old drop is due");
+  assert.equal(again.reqs.length, 1);
+  assert.match(again.reqs[0].prompt, /Monitoring and telemetry/);
+  assert.doesNotMatch(again.reqs[0].prompt, /Set up VAT"/, "the hub with only an old keep is not re-reviewed");
+  assert.deepEqual([...mediaByTopic(loadTopicLinks(dataDir), loadTopicReview(dataDir)).keys()].sort(), ["topic/dev/telemetry", "topic/fin/vat"], "the re-kept link is back");
+});
+
+test("the review keeps tools built on a documented feature and leans to keep", () => {
+  assert.match(SYSTEM, /tool, extension, script or practice/);
+  assert.match(SYSTEM, /When in doubt, keep/);
+  assert.doesNotMatch(SYSTEM, /the passing one is a drop/);
 });
 
 test("a review that does not answer every ref is not trusted at all", async () => {
