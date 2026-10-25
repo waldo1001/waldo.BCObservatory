@@ -2,7 +2,7 @@
 id: post/sshadows-dk/https-sshadows-dk-blog-al-language-server-claude-code--7a55dd8100
 type: post
 title: Native AL Language Server Support in Claude Code
-summary: Claude Code now has native AL Language Server Protocol integration, enabling symbol-aware code navigation and structural understanding of AL projects. This provides capabilities like Go to Definition, Find References, and document symbols that treat AL files as structured code rather than plain text.
+summary: The author has built a Claude Code plugin that connects it to the AL Language Server used by the VS Code AL extension. This gives Claude Code symbol-aware navigation of Business Central AL projects, such as Go to Definition, Find References, hover info and call hierarchy, instead of searching files as plain text. Setup needs Claude Code 2.1.0 or later, the VS Code AL extension, Python 3.10 or later, and the ENABLE_LSP_TOOL environment variable.
 tier: community
 language: en
 tags:
@@ -14,16 +14,16 @@ tags:
   - symbol awareness
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T16:50:00.776Z"
   flags: []
 generated:
-  at: "2026-10-25T16:42:17.306Z"
+  at: "2026-10-25T16:41:48.094Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: f6947da8aa7cef94a47bca78d74c525ce7ae454344a657f6f4cf2c98b6b36e44
+  input_hash: dd93daf54ef547f3a07742dad159e238bf8a8f096e77394af671d3378f231830
 evidence:
   - kind: blog
     url: https://sshadows.dk/blog/al-language-server-claude-code/
@@ -80,16 +80,36 @@ quotes:
 code_objects_mentioned: []
 systems:
   - development
-  - platform
 versions_mentioned:
   - Claude Code 2.1.0
+cautions:
+  - kind: warning
+    quote: Claude Code 2.1.0 or later. Earlier versions have a bug that prevents built-in LSPs from working.
+    objects: []
+    events: []
+    versions: []
+  - kind: preview-disclaimer
+    quote: This is because even as LSPs are now supported, I think they are not production-ready in all instances, hence the active activation
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://sshadows.dk/images/posts/al-language-server-claude-code/Headline.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: SShadowS
+  favicon: https://sshadows.dk/favicon.svg
+  probed_at: "2026-10-25T16:46:51.930Z"
 ---
 
 # Native AL Language Server Support in Claude Code
 
-[Read the post](https://sshadows.dk/blog/al-language-server-claude-code/) · SShadowS (Torben Leth) · 2026-01-09 · 904 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://sshadows.dk/blog/al-language-server-claude-code/) · SShadowS (Torben Leth) · 2026-01-09 · 904 words · tier community · reviewed (checked by Opus)
 
-> Claude Code now has native AL Language Server Protocol integration, enabling symbol-aware code navigation and structural understanding of AL projects. This provides capabilities like Go to Definition, Find References, and document symbols that treat AL files as structured code rather than plain text.
+> The author has built a Claude Code plugin that connects it to the AL Language Server used by the VS Code AL extension. This gives Claude Code symbol-aware navigation of Business Central AL projects, such as Go to Definition, Find References, hover info and call hierarchy, instead of searching files as plain text. Setup needs Claude Code 2.1.0 or later, the VS Code AL extension, Python 3.10 or later, and the ENABLE_LSP_TOOL environment variable.
 
 ## Key points
 
@@ -104,6 +124,11 @@ versions_mentioned:
 - "This is the actual Microsoft AL compiler understanding your code." (Emphasizes that LSP provides genuine code understanding, not pattern matching, enabling accurate navigation and relationship discovery)
 - "The difference is like asking someone to find a book in a library by reading every page versus using the catalog system." (Clarifies the fundamental advantage of LSP over text-based approaches for code navigation and reference finding)
 - "Claude can now navigate your code like a developer would." (Demonstrates the practical outcome: AI assistants gain developer-level code comprehension for Business Central projects)
+
+## Heads up
+
+- warning: "Claude Code 2.1.0 or later. Earlier versions have a bug that prevents built-in LSPs from working."
+- preview-disclaimer: "This is because even as LSPs are now supported, I think they are not production-ready in all instances, hence the active activation"
 
 ## Context
 

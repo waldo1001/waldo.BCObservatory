@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/tree-sitter-al-v2-rewrite/",
+  "page_id": "post/sshadows-dk/https-sshadows-dk-blog-tree-sitter-al-v2-rewrite--18455b4f15",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "begin and end can never be named nodes. Not as named rules, not with alias().",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004452,
+    "posts_in_call": 4
+  }
+}

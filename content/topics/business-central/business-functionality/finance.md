@@ -12,7 +12,7 @@ review:
   at: "2026-10-20T08:48:51.538Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T16:50:34.247Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -852,9 +852,7 @@ links:
     - topic/business-central/business-functionality/finance/multi-site-and-international-organizatio
   localizations: []
   videos:
-    - video/d4mYltz4Zwg
     - video/HI7VcPzR2OE
-    - video/lcpk-gPfGQU
     - video/N_J1HB_fUCM
   posts: []
   guidelines: []
@@ -890,7 +888,7 @@ children:
 coverage:
   learn: 256
   code: 524
-  video: 4
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -1498,9 +1496,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9311 Withholding Tax for Employee](../../../changes/bcapps/9311.md) (code change): "Withholding tax support for employee transactions has been added"
 - [#9341 [main][Change Request] Page 8901 - Add empty "layout" to the RoleCenter](../../../changes/bcapps/9341.md) (code change): "Empty layout section added to the Finance Manager Role Center"
 - [#9391 [Master] - Slice 616928: [Expense Management] [App part] Expense Managements Travel Requisitions 💸](../../../changes/bcapps/9391.md) (code change): "Expense Management adds travel requisition support: new API pages"
-- [Introducing: Withholding Taxes (2026 release wave 1)](../../../videos/d4mYltz4Zwg.md) (video): "Withholding Tax Posting Groups Configuration; Vendor Withholding Tax Enablement"
 - [What's New: Financial Management - Overview (2024 release wave 1)](../../../videos/HI7VcPzR2OE.md) (video): "Topics: gl revaluation; currency posting; excel reports; consolidation; collection management"
-- [What's New: Excise Taxes Framework (2025 release wave 2)](../../../videos/lcpk-gPfGQU.md) (video): "Excise Tax Framework; Excise Journal; Excise Tax Registration Transaction Logs"
 - [What's new in Finance: Overview (2026 release wave 2)](../../../videos/N_J1HB_fUCM.md) (video): "Topics: excise taxes; self-billing; withholding taxes; cross environment master data; peppol"
 
 ## Business Central pages and reports

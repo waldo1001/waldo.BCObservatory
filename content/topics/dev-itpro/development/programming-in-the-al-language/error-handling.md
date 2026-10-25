@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:03.133Z"
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-10-25T16:50:34.247Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -223,7 +223,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12117 [Job Queue] Clearer message and attempt number for runs interrupted by the platform](../../../../changes/bcapps/12117.md) (code change): "confusing 'job has stopped' error message with 'run was interrupted' message"
 - [#99 Add lifecycle error and privacy knowledge](../../../../changes/bcquality/99.md) (code change): "covering try-function semantics, upgrade phase data writes, install-versus-upgrade dispatch logic, ErrorInfo privacy"
 - [🔧 Transforming BC Error Handling with Smart Recommendations 📝](../../../../posts/gerardorenteria-blog/12238.md) (community post): "Event Subscribers intercept Business Central errors, validate tag matches, and invoke the ErrorMessageFix interface"
-- [When “Errors” Don’t Stop the Process: A Hidden Risk in Business Central](../../../../posts/miljan-rs/966.md) (community post): "ErrorBehavior::Collect allows code to continue after errors and save successful changes"
+- [When “Errors” Don’t Stop the Process: A Hidden Risk in Business Central](../../../../posts/miljan-rs/966.md) (community post): "ErrorBehavior::Collect allows code to continue after errors"
 - [How to Write Error Messages That Help](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-how-to-write-error-messages-that-help--6e1cc8407f.md) (community post): "Error messages significantly impact user experience in enterprise software"
 - [BC Friday Tips #77 TestField Show Record Action](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a.md) (community post): "TestField automatically adds a Show Record button to error dialogs"
 

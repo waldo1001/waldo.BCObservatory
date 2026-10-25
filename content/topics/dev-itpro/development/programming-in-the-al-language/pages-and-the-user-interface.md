@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:34.693Z"
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-10-25T16:50:34.247Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -316,8 +316,7 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/creating-deep-links
     - topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/developing-for-the-business-central-mobi
   localizations: []
-  videos:
-    - video/2Zz55J8rt8I
+  videos: []
   posts:
     - post/demiliani-com/12498
     - post/demiliani-com/12623
@@ -349,7 +348,7 @@ children:
 coverage:
   learn: 69
   code: 0
-  video: 1
+  video: 0
   blog: 5
   guideline: 0
 bc_forms: []
@@ -412,8 +411,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: introducing the new MaskedType enum field-level property.](../../../../posts/demiliani-com/12498.md) (community post): "MaskType enum property for table fields supports None and Concealed"
 - [Dynamics 365 Business Central: previewing PDF files in web client using the new ExtendedDataType = Document.](../../../../posts/demiliani-com/12623.md) (community post): "new ExtendedDataType called Document that enables PDF file previews in web client FactBoxes"
 - [🕐 Remember When Lists Could Sort By Any Key? 🔄](../../../../posts/gerardorenteria-blog/12961.md) (community post): "a solution to sort Business Central list pages by any predefined table key"
-- [Simple Text Editor for Business Central](../../../../posts/miljan-rs/866.md) (community post): "opening a clean modal editor accessible via ribbon actions on customer lists"
+- [Simple Text Editor for Business Central](../../../../posts/miljan-rs/866.md) (community post): "modal dialog for BLOB field text storage. Minimal design"
 - [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee.md) (community post): "ToolTip and ToolTipML properties directly on page objects"
-- [Use Teaching Tips to Educate and Guide Users](../../../../videos/2Zz55J8rt8I.md) (video): "Teaching Tips; Tours with Teaching Tips"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

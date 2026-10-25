@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/al-language-server-claude-code/",
+  "page_id": "post/sshadows-dk/https-sshadows-dk-blog-al-language-server-claude-code--7a55dd8100",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Claude Code 2.1.0 or later. Earlier versions have a bug that prevents built-in LSPs from working.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "preview-disclaimer",
+      "quote": "This is because even as LSPs are now supported, I think they are not production-ready in all instances, hence the active activation",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00382,
+    "posts_in_call": 1
+  }
+}

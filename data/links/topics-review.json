@@ -557,40 +557,40 @@
       }
     },
     "topic/business-central/business-functionality/finance": {
-      "post/gerardorenteria-blog/15469@2347e21e746846ae": {
+      "post/miljan-rs/908@10fa24e1f939962e": {
         "verdict": "drop",
-        "reason": "An ideas roundup covering many product areas with titles only and no discussion, so it is too general to explain anything this section documents.",
-        "at": "2026-10-21T09:23:36.718Z"
+        "reason": "Reversing G/L entries is a specific procedure that belongs under the chart of accounts and general ledger subtopic, not this Finance overview.",
+        "at": "2026-10-25T16:49:04.377Z"
       },
       "post/thedynamicsexplorer-com/10122@34c0240bd9485c2b": {
         "verdict": "drop",
-        "reason": "A narrow month-end accrual technique that belongs to a child subtopic (closing periods or payables), not the Finance overview.",
-        "at": "2026-10-21T09:23:36.718Z"
+        "reason": "Month-end accruals for unbilled purchases belong under the closing years and periods or payables subtopics, not the Finance overview.",
+        "at": "2026-10-25T16:49:04.377Z"
       },
       "video/d4mYltz4Zwg@d029e04825f9fdfb": {
-        "verdict": "keep",
-        "reason": "Withholding tax setup and posting is a Finance capability, and this video covers it in depth.",
-        "at": "2026-10-21T09:23:36.718Z"
+        "verdict": "drop",
+        "reason": "Withholding tax setup is a narrow tax feature, partly country-specific, rather than an overview of Finance.",
+        "at": "2026-10-25T16:49:04.377Z"
       },
       "video/HI7VcPzR2OE@d14678e2375608c4": {
         "verdict": "keep",
-        "reason": "A financial-management overview that spans several Finance subtopics (revaluation, consolidation, receivables, journals), which fits the parent Finance section.",
-        "at": "2026-10-21T09:23:36.718Z"
+        "reason": "A Finance-wide what's-new overview covering several Finance subtopics: G/L revaluation, consolidation, receivables, currencies and financial reports.",
+        "at": "2026-10-25T16:49:04.377Z"
       },
       "video/lcpk-gPfGQU@4a422d3e180c1146": {
-        "verdict": "keep",
-        "reason": "Shows the excise tax framework, journal and calculations, a Finance tax capability.",
-        "at": "2026-10-21T09:23:36.718Z"
+        "verdict": "drop",
+        "reason": "Covers only the excise tax framework, a narrow tax feature, so it is too specific for the Finance overview.",
+        "at": "2026-10-25T16:49:04.377Z"
       },
       "video/N_J1HB_fUCM@7f41ce674768fbbc": {
         "verdict": "keep",
-        "reason": "A finance-wide what's-new overview covering taxes, self-billing, e-invoicing and other finance features, which fits the parent Finance section.",
-        "at": "2026-10-21T09:23:36.718Z"
+        "reason": "A what's-new in Finance overview covering many Finance areas: taxes, e-invoicing, master data and localization.",
+        "at": "2026-10-25T16:49:04.377Z"
       },
       "video/pE19K17wpgI@62cd06e8ce323480": {
         "verdict": "drop",
-        "reason": "Enforced digital vouchers is a single specific feature tied to G/L entries and a Danish requirement, so it belongs to a G/L or local-functionality child rather than the Finance overview.",
-        "at": "2026-10-21T09:23:36.718Z"
+        "reason": "Digital vouchers are one specific G/L feature for attaching documents, better matched to the general ledger subtopic than the Finance overview.",
+        "at": "2026-10-25T16:49:04.377Z"
       }
     },
     "topic/business-central/business-functionality/finance/accounting-for-costs": {
@@ -1116,95 +1116,95 @@
       }
     },
     "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene": {
-      "post/miljan-rs/908@8cff2b6e3f167091": {
+      "post/miljan-rs/908@10fa24e1f939962e": {
         "verdict": "keep",
-        "reason": "Explains reversing posted G/L transactions via G/L Register and G/L Entries, which this section documents.",
-        "at": "2026-10-25T12:51:03.172Z"
+        "reason": "Explains reversing posted G/L journal transactions and registers, which this section documents.",
+        "at": "2026-10-25T16:49:11.505Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/@a4e5283631dd023c": {
         "verdict": "keep",
-        "reason": "Covers the Keep Description field on general journal lines, a general journal setting in this section.",
-        "at": "2026-10-25T12:51:03.172Z"
+        "reason": "Covers the Keep Description field on general journal lines, a general journal setting.",
+        "at": "2026-10-25T16:49:11.505Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-59-allocation-account-design/@b8ec5c060d859a7e": {
         "verdict": "drop",
-        "reason": "Its subject is the code behind allocation accounts (a code unit and event subscription) for developers, not how to use the feature.",
-        "at": "2026-10-25T12:51:03.172Z"
+        "reason": "Its lesson is the AL codeunit and event-subscriber design for developers, not how to use allocation accounts.",
+        "at": "2026-10-25T16:49:11.505Z"
       },
       "post/thedynamicsexplorer-com/10452@8b54a76f741f23e7": {
         "verdict": "keep",
-        "reason": "Resolves a general journal posting error using the batch number series and the renumber document numbers function.",
-        "at": "2026-10-25T12:51:03.172Z"
+        "reason": "Resolves a general journal posting error caused by the batch's number series and document numbering.",
+        "at": "2026-10-25T16:49:11.505Z"
       },
       "post/thedynamicsexplorer-com/37144@367af8682ba4c526": {
         "verdict": "keep",
-        "reason": "Explains recurring general journal batches, posting number series and document number placeholders.",
-        "at": "2026-10-25T12:51:03.172Z"
+        "reason": "Explains numbering on recurring general journals, part of working with G/L journals.",
+        "at": "2026-10-25T16:49:11.505Z"
       },
       "post/thedynamicsexplorer-com/8821@0f6a67f0aa4e78dc": {
         "verdict": "keep",
-        "reason": "Shows filtering the chart of accounts and using G/L Account Balance to view G/L balances, part of this section.",
-        "at": "2026-10-25T12:51:03.172Z"
+        "reason": "Shows viewing G/L balances by filtering the chart of accounts and G/L Account Balance, alongside analysis options.",
+        "at": "2026-10-25T16:49:11.505Z"
       },
       "video/1ugAYeEZLaU@6570422a9b128546": {
         "verdict": "keep",
-        "reason": "Demonstrates the Show Amounts setting in G/L setup for debit/credit display in journals.",
-        "at": "2026-10-25T12:51:03.172Z"
+        "reason": "Demonstrates the general ledger setting that controls how amount and debit/credit fields appear on journals.",
+        "at": "2026-10-25T16:49:11.505Z"
       },
       "video/BZF4MrVfvfY@921773ad8329b45e": {
         "verdict": "keep",
-        "reason": "Covers fixed and variable allocation accounts with general journals, a G/L feature documented here.",
-        "at": "2026-10-25T12:51:03.172Z"
+        "reason": "Demonstrates G/L allocation accounts with general journals, a capability documented in this section.",
+        "at": "2026-10-25T16:49:11.505Z"
       },
       "video/fIktVTGZkjE@4eca5c49d390b970": {
         "verdict": "keep",
-        "reason": "Demonstrates reversing posted G/L transactions in Business Central, which this section documents.",
-        "at": "2026-10-25T12:51:03.172Z"
+        "reason": "Demonstrates reversing and correcting G/L entries in Business Central.",
+        "at": "2026-10-25T16:49:11.505Z"
       },
       "video/HpIxYyjQWqs@0abc01756f2559b5": {
         "verdict": "keep",
-        "reason": "Demonstrates general journal entry, posting and reversing G/L registers, core to this section.",
-        "at": "2026-10-25T12:51:10.058Z"
+        "reason": "Demonstrates general journals, templates, balancing accounts and reversing registers, core G/L work.",
+        "at": "2026-10-25T16:49:16.771Z"
       },
       "video/kuKwjRyNcoE@b0731e989cbc5fd4": {
         "verdict": "keep",
-        "reason": "Shows Journal Check validation of general journal lines, a feature documented with general journals.",
-        "at": "2026-10-25T12:51:10.058Z"
+        "reason": "Covers the Journal Check feature for validating general journal lines.",
+        "at": "2026-10-25T16:49:16.771Z"
       },
       "video/lcu53ikOk7s@298d1a21895613a1": {
         "verdict": "keep",
-        "reason": "Covers G/L setup settings that block deletion of G/L accounts in the chart of accounts.",
-        "at": "2026-10-25T12:51:10.058Z"
+        "reason": "Shows G/L setup settings that safeguard chart of accounts entries from deletion.",
+        "at": "2026-10-25T16:49:16.771Z"
       },
       "video/NkYNL_5Zfoc@c0f3dad406bca4eb": {
         "verdict": "keep",
-        "reason": "Despite the SL comparison, it demonstrates general journal batches and entry in Business Central.",
-        "at": "2026-10-25T12:51:10.058Z"
+        "reason": "Walks through entering and posting general journal entries in Business Central.",
+        "at": "2026-10-25T16:49:16.771Z"
       },
       "video/r8HWIk5E0c0@7f7fac271f211510": {
         "verdict": "keep",
-        "reason": "Demonstrates reversing journal postings and correcting entries in Business Central's general ledger.",
-        "at": "2026-10-25T12:51:10.058Z"
+        "reason": "Demonstrates reversing and correcting posted G/L journal entries in Business Central.",
+        "at": "2026-10-25T16:49:16.771Z"
       },
       "video/VIda0Ok1SSQ@d1f3a00ba84b4e80": {
         "verdict": "keep",
-        "reason": "Covers deferral templates and deferral posting controls set in general ledger setup.",
-        "at": "2026-10-25T12:51:10.058Z"
+        "reason": "Covers deferral posting controls in general ledger setup, which is G/L posting work.",
+        "at": "2026-10-25T16:49:16.771Z"
       },
       "video/WYd8Qn3wVQQ@a6b51207fc2d8841": {
         "verdict": "drop",
-        "reason": "Mainly about a spreadsheet editing tool, and G/L budgets probably belong under Financial analytics.",
-        "at": "2026-10-25T12:51:10.058Z"
+        "reason": "About G/L budgets in the advanced spreadsheets tool, which fits budgeting under Financial analytics rather than this section.",
+        "at": "2026-10-25T16:49:16.771Z"
       },
       "video/xh63GaWwZqA@d735be1d2374b9f7": {
         "verdict": "keep",
-        "reason": "Demonstrates allocation accounts generating general journal lines before posting.",
-        "at": "2026-10-25T12:51:10.058Z"
+        "reason": "Demonstrates allocation accounts generating general journal lines, part of G/L work.",
+        "at": "2026-10-25T16:49:16.771Z"
       },
       "video/zQhtuFbxJm4@4d6e4ef75fb5e811": {
         "verdict": "keep",
-        "reason": "Despite the GP comparison, it demonstrates general journal batches and entries in Business Central.",
-        "at": "2026-10-25T12:51:10.058Z"
+        "reason": "Walks through general journal batches and journal entry in Business Central.",
+        "at": "2026-10-25T16:49:16.771Z"
       }
     },
     "topic/business-central/business-functionality/finance/working-with-currencies": {
@@ -1603,6 +1603,13 @@
         "verdict": "drop",
         "reason": "It shows general e-document preview and processing features, with nothing specific to France's e-invoicing.",
         "at": "2026-10-25T12:50:51.169Z"
+      }
+    },
+    "topic/business-central/business-functionality/local-functionality/germany/general": {
+      "post/miljan-rs/812@1db18a635b45dd6e": {
+        "verdict": "keep",
+        "reason": "The post covers fixes to and setup of the German xRechnung/ZUGFeRD e-invoicing features, and General fits that better than Core finance, Purchasing or VAT.",
+        "at": "2026-10-25T16:49:45.467Z"
       }
     },
     "topic/business-central/business-functionality/local-functionality/india/subcontracting": {
@@ -2366,15 +2373,15 @@
       }
     },
     "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica": {
-      "post/demiliani-com/13215@69849be5002e47d5": {
+      "post/miljan-rs/639@91966edefac2357b": {
         "verdict": "drop",
-        "reason": "About cloud ERP deployment strategy and integration governance, not about setting up supply planning.",
-        "at": "2026-10-21T09:30:34.936Z"
+        "reason": "It's about creating demo data with the Contoso tool, not about best practices for setting up supply planning.",
+        "at": "2026-10-25T16:49:08.538Z"
       },
       "video/cc6rEVDhlzs@5913c29ec7aa62c2": {
         "verdict": "drop",
-        "reason": "About customer templates and SL classes, which is customer/sales setup rather than supply planning best practices.",
-        "at": "2026-10-21T09:30:34.936Z"
+        "reason": "It compares customer templates with SL customer classes, which has nothing to do with setup best practices for supply planning.",
+        "at": "2026-10-25T16:49:08.538Z"
       }
     },
     "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning": {
@@ -4092,30 +4099,20 @@
       }
     },
     "topic/dev-itpro/administration/prepare-business-central": {
+      "post/miljan-rs/639@91966edefac2357b": {
+        "verdict": "keep",
+        "reason": "It explains the Contoso tool, which replaced RapidStart for setting up new companies with setup or demo data, and that is part of preparing Business Central.",
+        "at": "2026-10-25T16:49:18.601Z"
+      },
       "post/thinkaboutit-be/7443@f8996a6c552d8e45": {
         "verdict": "keep",
-        "reason": "A step-by-step guide to creating and preparing a Business Central trial environment, which is what this section is about.",
-        "at": "2026-10-21T09:34:08.982Z"
-      },
-      "video/8037fdtrU1o@a81329a1c9f52541": {
-        "verdict": "drop",
-        "reason": "Covers how developers build demo data in code with the Contoso Demo Tool, not how to prepare an environment.",
-        "at": "2026-10-21T09:34:08.982Z"
-      },
-      "video/bvGdaxC3sq8@8eba2ece2b6b8502": {
-        "verdict": "drop",
-        "reason": "Introduces the developer-facing Contoso demo-data module framework; it only shares vocabulary with this admin section.",
-        "at": "2026-10-21T09:34:08.982Z"
-      },
-      "video/KQRT25igPTk@127a6a49520053cd": {
-        "verdict": "drop",
-        "reason": "Guidance on customising the welcome banner and onboarding checklists fits onboarding or developer docs better than this section.",
-        "at": "2026-10-21T09:34:08.982Z"
+        "reason": "It walks through setting up a Business Central trial from scratch (tenant, country choice, demo company), which belongs to preparing an environment; it could fit 'Onboard your customers' instead, so this one is the least certain.",
+        "at": "2026-10-25T16:49:18.601Z"
       },
       "video/lRiED3AUfps@b60147eadc702dbd": {
         "verdict": "keep",
-        "reason": "Shows how to create a company, use the setup guide and migrate data in, which is part of getting Business Central ready to use.",
-        "at": "2026-10-21T09:34:08.982Z"
+        "reason": "It demonstrates creating a company, the setup guide and importing customer, vendor and item data, which is the preparation work this section covers.",
+        "at": "2026-10-25T16:49:18.601Z"
       }
     },
     "topic/dev-itpro/administration/understand-business-central-online": {
@@ -4170,18 +4167,18 @@
     "topic/dev-itpro/business-central-on-premises/administration": {
       "post/demiliani-com/17480@faa6c97f526e2a92": {
         "verdict": "drop",
-        "reason": "About .NET lifecycle and applying cumulative updates/upgrades, which belongs to Upgrade, not configuring or monitoring the server.",
-        "at": "2026-10-21T09:28:40.258Z"
-      },
-      "post/gerardorenteria-blog/13744@e12c7c9900c55a3c": {
-        "verdict": "drop",
-        "reason": "A list of cumulative updates is about patching/upgrading, not any administration subtopic.",
-        "at": "2026-10-21T09:28:40.258Z"
+        "reason": "About .NET lifecycle and applying updates/upgrades, which the sibling Upgrade section covers, not server or database administration.",
+        "at": "2026-10-25T16:49:16.207Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5740395756527498087@b370cab03e1d3e23": {
         "verdict": "drop",
-        "reason": "An installation and prerequisites guide covers deployment, not database, server or authentication configuration or monitoring.",
-        "at": "2026-10-21T09:28:40.258Z"
+        "reason": "An installation and prerequisites guide, not about configuring, monitoring or tuning an existing on-premises deployment.",
+        "at": "2026-10-25T16:49:16.207Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/business-central-on-linux/@a4b4ced1fc978706": {
+        "verdict": "drop",
+        "reason": "A proof-of-concept that runs BC on Linux via Wine, which doesn't match any administration subtopic.",
+        "at": "2026-10-25T16:49:16.207Z"
       }
     },
     "topic/dev-itpro/business-central-on-premises/administration/analyzing-database-performance": {
@@ -4669,35 +4666,35 @@
       }
     },
     "topic/dev-itpro/development/extensibility": {
-      "post/miljan-rs/866@69b7a81cda7677e1": {
+      "post/miljan-rs/866@ab181e156b842fd5": {
         "verdict": "drop",
-        "reason": "The post is about a specific text-editor app for BLOB fields, not about how to extend AL objects or the base application.",
-        "at": "2026-10-25T12:51:12.219Z"
+        "reason": "About a specific text-editor utility for BLOB fields; its subject is the sample app, not extensibility techniques.",
+        "at": "2026-10-25T16:49:22.585Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/@673d3b69a52266a0": {
         "verdict": "keep",
-        "reason": "It explains that extending Excel Reports objects needs a dependency on the extension that contains them, which is part of extending the application.",
-        "at": "2026-10-25T12:51:12.219Z"
+        "reason": "Explains that extending Excel Reports objects needs a dependency on their separate extension, which is part of extending base application objects.",
+        "at": "2026-10-25T16:49:22.585Z"
       },
       "video/6SyNNeHQDUo@d04a94dcbf138900": {
         "verdict": "drop",
-        "reason": "The video mostly shows new product features from the co-development initiative; 'platform extensibility' is only a topic tag.",
-        "at": "2026-10-25T12:51:12.219Z"
+        "reason": "Covers the co-development initiative and a list of new features, not how to extend the application.",
+        "at": "2026-10-25T16:49:22.585Z"
       },
       "video/88s0QjsaCUQ@94e48adf8f56fd71": {
         "verdict": "drop",
-        "reason": "The sign-up context and customer profiling for onboarding are not an extensibility subject.",
-        "at": "2026-10-25T12:51:12.219Z"
+        "reason": "About sign-up context and onboarding, not about extending AL objects or using events.",
+        "at": "2026-10-25T16:49:22.585Z"
       },
       "video/no1mmnPfyNY@97a5d75f03737328": {
         "verdict": "drop",
-        "reason": "This is a history and partner business-model talk that only mentions the extensions concept in passing.",
-        "at": "2026-10-25T12:51:12.219Z"
+        "reason": "A history and business-model talk about partners; extensions come up only as background.",
+        "at": "2026-10-25T16:49:22.585Z"
       },
       "video/uxYuoJP-uH8@7d819bffc513f471": {
         "verdict": "keep",
-        "reason": "It demonstrates extending ApplicationArea with custom areas in table and page extensions, which is part of extending the base application.",
-        "at": "2026-10-25T12:51:12.219Z"
+        "reason": "Shows how to extend ApplicationArea with custom areas and apply them in table and page extensions, which is about extending the base application.",
+        "at": "2026-10-25T16:49:22.585Z"
       }
     },
     "topic/dev-itpro/development/extensibility/developing-client-add-ins": {
@@ -4938,58 +4935,68 @@
     "topic/dev-itpro/development/extension-lifecycle/testing": {
       "post/demiliani-com/12482@b6104cb1d6840996": {
         "verdict": "drop",
-        "reason": "About updating sandbox environments to preview versions, which is environment management, not testing extensions.",
-        "at": "2026-10-24T00:36:12.011Z"
+        "reason": "About updating sandboxes to preview versions, which is environment management rather than testing extensions.",
+        "at": "2026-10-25T16:48:55.237Z"
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/@cc8830a1e4f346cb": {
         "verdict": "drop",
-        "reason": "Release notes for a third-party CodeLens tool that are mostly parser fixes; it only touches test handler vocabulary.",
-        "at": "2026-10-24T00:36:12.011Z"
+        "reason": "Release notes for a third-party VS Code tool, mostly about parser fixes; test handlers come up only as a CodeLens target.",
+        "at": "2026-10-25T16:48:55.237Z"
       },
       "post/gerardorenteria-blog/11565@a1adbb44bfa791e6": {
         "verdict": "drop",
-        "reason": "Broad AL Language changelog where testing improvements are one passing item among many.",
-        "at": "2026-10-24T00:36:12.011Z"
+        "reason": "Broad AL Language changelog where testing is one item among many.",
+        "at": "2026-10-25T16:48:55.237Z"
       },
       "post/jpearson-blog/1590@e5d3f6540015d0a1": {
         "verdict": "keep",
-        "reason": "Discusses running AL tests from the VS Code Test Explorer with the AL Language extension's new test execution support.",
-        "at": "2026-10-24T00:36:12.011Z"
+        "reason": "Covers discovering and running AL tests in the VS Code test explorer with the AL Language extension.",
+        "at": "2026-10-25T16:48:55.237Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/bc-toolbox-vs-microsoft-mcp/@f3feb8805d7b7523": {
+        "verdict": "drop",
+        "reason": "About custom MCP server tooling; testing is just one of several verification features.",
+        "at": "2026-10-25T16:48:55.237Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/your-tests-all-pass/@da230286dcfe5060": {
+        "verdict": "drop",
+        "reason": "About mutation testing with a third-party tool, which the Learn testing section doesn't document.",
+        "at": "2026-10-25T16:48:55.237Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/@14154f02a4527d5d": {
         "verdict": "drop",
-        "reason": "Weekly recap of community tools (AL Runner emulation, code atlas, AL-Go), not about testing extensions as documented.",
-        "at": "2026-10-24T00:36:12.011Z"
+        "reason": "Weekly recap of community tools; too general to tie to this section.",
+        "at": "2026-10-25T16:48:55.237Z"
       },
       "video/9CW5mydS9Vs@ac90087b90c2ab2e": {
         "verdict": "keep",
-        "reason": "Microsoft session devoted to testing BC apps: test libraries, isolation, test types, runners and Test Explorer.",
-        "at": "2026-10-24T00:36:12.011Z"
+        "reason": "Microsoft session dedicated to the AL testing framework: test libraries, isolation, test types, runners and the test explorer.",
+        "at": "2026-10-25T16:48:55.237Z"
       },
       "video/eUkx_VCcyoU@7b21270aaf33f5fa": {
         "verdict": "drop",
-        "reason": "General AL Language what's-new video where the HTTP client handler for testing is one item among many.",
-        "at": "2026-10-24T00:36:12.011Z"
+        "reason": "General AL Language what's-new video where the HTTP client handler for testing gets only a passing mention.",
+        "at": "2026-10-25T16:48:55.237Z"
       },
       "video/hNom9ZZuca0@a0273f33cef1d527": {
         "verdict": "keep",
-        "reason": "Focused on AL testability features such as data-driven tests and test handlers.",
-        "at": "2026-10-24T00:36:12.011Z"
+        "reason": "Dedicated to AL testability features such as data-driven tests and test handlers.",
+        "at": "2026-10-25T16:48:55.237Z"
       },
       "video/JI9OpaBx0nk@a7e451a7d6fd0a0c": {
         "verdict": "keep",
-        "reason": "Dedicated walkthrough of mocking outbound HTTP calls in AL tests with the test HTTP request policy.",
-        "at": "2026-10-24T00:36:12.011Z"
+        "reason": "Shows how to mock outbound HTTP calls in AL tests using HttpClientHandler and the test HTTP request policy.",
+        "at": "2026-10-25T16:48:55.237Z"
       },
       "video/qlFEdXPjX6A@c0acd9d9c46340fd": {
         "verdict": "drop",
-        "reason": "General AL Language what's-new video where AI test type and test isolation are a passing mention.",
-        "at": "2026-10-24T00:36:12.011Z"
+        "reason": "General AL Language what's-new video where the testing properties are minor items in a long list.",
+        "at": "2026-10-25T16:48:55.237Z"
       },
       "video/xr8C3c6WhOI@e9e8ed3d1b5f4c07": {
         "verdict": "drop",
-        "reason": "About AL-Go GitHub workflow features for page scripting tests and deployment, which is CI/CD tooling rather than this section.",
-        "at": "2026-10-24T00:36:12.011Z"
+        "reason": "About AL-Go CI/CD workflows and page scripting tests, which are documented elsewhere.",
+        "at": "2026-10-25T16:48:55.237Z"
       }
     },
     "topic/dev-itpro/development/extension-lifecycle/translation": {
@@ -5102,28 +5109,38 @@
     "topic/dev-itpro/development/programming-in-the-al-language": {
       "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
         "verdict": "keep",
-        "reason": "It's a hands-on AL coding guide: it parses delimited files, loads staging tables and creates sales orders, which is the kind of programming this section covers.",
-        "at": "2026-10-23T01:11:17.448Z"
+        "reason": "Shows AL code that parses delimited files into staging tables and creates sales orders, which is hands-on AL programming with tables and data.",
+        "at": "2026-10-25T16:48:52.782Z"
       },
       "post/aardvarklabs-blog/3032@eb6d53de9c04df57": {
         "verdict": "drop",
-        "reason": "It's about using Microsoft 365 Copilot to analyse requirements documents, not about programming in AL.",
-        "at": "2026-10-23T01:11:17.448Z"
+        "reason": "About using Microsoft 365 Copilot to analyse requirements documents, not about programming in AL.",
+        "at": "2026-10-25T16:48:52.782Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/benchmark-llms-al-code/@e871df272dd3c4e2": {
+        "verdict": "drop",
+        "reason": "About benchmarking LLMs on generating AL code; AI evaluation is the subject, and AL programming is only the example.",
+        "at": "2026-10-25T16:48:52.782Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/centralgauge-benchmark-update/@5a06d6c33864d269": {
+        "verdict": "drop",
+        "reason": "An update to the same LLM benchmark; it covers the benchmark's own fixes, not AL programming.",
+        "at": "2026-10-25T16:48:52.782Z"
       },
       "video/a8W1x0xwkv4@6fc696eb5f59d4a6": {
-        "verdict": "drop",
-        "reason": "It's a novelty showcase about porting DOOM to Business Central, and its focus is the engine translation rather than teaching any AL programming topic.",
-        "at": "2026-10-23T01:11:17.448Z"
+        "verdict": "keep",
+        "reason": "Demonstrates a user control host with JavaScript interop and table storage in AL, which falls under the pages and user interface subtopic.",
+        "at": "2026-10-25T16:48:52.782Z"
       },
       "video/lH2Z4xfdhmY@5fceed842247fca3": {
         "verdict": "keep",
-        "reason": "It shows developers the 'optimized for text search' table property and the double-and SetFilter operator, which fall under tables and data in AL.",
-        "at": "2026-10-23T01:11:17.448Z"
+        "reason": "Covers developer-facing search features: the OptimizeForTextSearch property and the new SetFilter operator, which belong to tables and data.",
+        "at": "2026-10-25T16:48:52.782Z"
       },
       "video/QhHgkCe3kkk@0c07d5bb49e5b26b": {
         "verdict": "keep",
-        "reason": "It demonstrates embedding resources in an app and reading them with the get resource function, which is an AL programming feature.",
-        "at": "2026-10-23T01:11:17.448Z"
+        "reason": "Explains how to embed resources in an app and read them with the GetResource function, an AL programming building block.",
+        "at": "2026-10-25T16:48:52.782Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/accessing-device-capabilities": {
@@ -5351,33 +5368,33 @@
     "topic/dev-itpro/development/programming-in-the-al-language/error-handling": {
       "post/demiliani-com/14203@48f9cf58ff1ac562": {
         "verdict": "drop",
-        "reason": "About idempotency for external API calls from the job queue, which belongs to calling external services or background processing rather than AL error handling.",
-        "at": "2026-10-25T12:51:21.057Z"
+        "reason": "The post is about making external API calls idempotent from the job queue, which the 'Calling external services' and 'Running things in the background' sections cover; AL error handling is only mentioned along the way.",
+        "at": "2026-10-25T16:49:22.730Z"
       },
       "post/gerardorenteria-blog/12238@2d82e84b809e4b24": {
         "verdict": "keep",
-        "reason": "Shows how to build actionable error messages with automatic fixes in AL using the Error Messages framework.",
-        "at": "2026-10-25T12:51:21.057Z"
+        "reason": "It shows how to build actionable error messages with automatic fixes in AL using the ErrorMessageFix interface, which is error-handling development.",
+        "at": "2026-10-25T16:49:22.730Z"
       },
-      "post/miljan-rs/966@dec4d3de35fcaefa": {
+      "post/miljan-rs/966@7cdd32a3a96bdb23": {
         "verdict": "keep",
-        "reason": "Discusses ErrorBehavior::Collect, the collectible errors feature that the error handling section documents.",
-        "at": "2026-10-25T12:51:21.057Z"
+        "reason": "It covers ErrorBehavior::Collect (collectible errors), an AL error-handling feature this section documents.",
+        "at": "2026-10-25T16:49:22.730Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/how-to-write-error-messages-that-help/@aaca51818259e90f": {
         "verdict": "keep",
-        "reason": "Gives guidance on writing clear, actionable error messages, which matches the section's error message guidelines.",
-        "at": "2026-10-25T12:51:21.057Z"
+        "reason": "It gives guidance on writing helpful, actionable error messages, which matches this section's best practices for error messages.",
+        "at": "2026-10-25T16:49:22.730Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-77-testfield-show-record-action/@32571bb667184a9a": {
         "verdict": "keep",
-        "reason": "Shows the actionable Show Record error that TestField generates automatically, a part of the actionable errors this section documents.",
-        "at": "2026-10-25T12:51:21.057Z"
+        "reason": "It shows how TestField automatically adds a Show Record action to error dialogs, a form of actionable error this section covers.",
+        "at": "2026-10-25T16:49:22.730Z"
       },
       "video/RNR4wsFeedI@9ea9cfcda0c85f29": {
         "verdict": "drop",
-        "reason": "A general release-wave productivity video in which error actions appear only as one item in a broad feature list.",
-        "at": "2026-10-25T12:51:21.057Z"
+        "reason": "It's a broad release-wave productivity overview, and platform-generated error actions are only one short, user-facing segment.",
+        "at": "2026-10-25T16:49:22.730Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/events": {
@@ -5829,38 +5846,38 @@
     "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface": {
       "post/demiliani-com/12498@dbbb663eb0328f13": {
         "verdict": "keep",
-        "reason": "MaskType controls how field values are shown on card and document pages, which is page and UI behavior.",
-        "at": "2026-10-25T12:51:25.039Z"
+        "reason": "MaskType controls how field values appear on card and document pages, so it's a page UI behaviour that developers configure.",
+        "at": "2026-10-25T16:49:25.908Z"
       },
       "post/demiliani-com/12623@6773a23b91b53805": {
         "verdict": "keep",
-        "reason": "Shows how to preview PDFs in CardPart and ListPart FactBox pages, a page UI capability.",
-        "at": "2026-10-25T12:51:25.039Z"
+        "reason": "It shows how to render PDF previews in FactBox CardPart and ListPart pages, which is page UI development.",
+        "at": "2026-10-25T16:49:25.908Z"
       },
       "post/gerardorenteria-blog/12961@9c99b1dd04149642": {
         "verdict": "keep",
-        "reason": "Builds sorting for list pages using page extensions, actions and a selection page.",
-        "at": "2026-10-25T12:51:25.039Z"
+        "reason": "It uses page extensions and a page action to change how list pages sort, which fits pages and actions.",
+        "at": "2026-10-25T16:49:25.908Z"
       },
-      "post/miljan-rs/866@69b7a81cda7677e1": {
+      "post/miljan-rs/866@ab181e156b842fd5": {
         "verdict": "keep",
-        "reason": "Shows a modal editor page opened from actions on customer list and card pages.",
-        "at": "2026-10-25T12:51:25.039Z"
+        "reason": "It builds a modal dialog page opened from actions on list and card pages, a direct page and action example.",
+        "at": "2026-10-25T16:49:25.908Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736@69c4841d4352f3e8": {
         "verdict": "keep",
-        "reason": "Covers the ToolTip property on page objects and how navigation actions inherit it.",
-        "at": "2026-10-25T12:51:25.039Z"
+        "reason": "It covers page-level ToolTip properties and how navigation actions inherit them, which belongs to pages and actions.",
+        "at": "2026-10-25T16:49:25.908Z"
       },
       "video/2Zz55J8rt8I@7781c51349d53fa9": {
-        "verdict": "keep",
-        "reason": "Teaching tips and tours are a page feature that developers set up to guide users.",
-        "at": "2026-10-25T12:51:25.039Z"
+        "verdict": "drop",
+        "reason": "The evidence shows only teaching tips and tours for guiding users, with nothing tying them to AL page development in this section.",
+        "at": "2026-10-25T16:49:25.908Z"
       },
       "video/ugHFHtSxTlw@5a729b9594698b2e": {
         "verdict": "drop",
-        "reason": "About Microsoft's internal UX design process and tools, not building pages in AL.",
-        "at": "2026-10-25T12:51:25.039Z"
+        "reason": "It's about Microsoft's internal UX design process (Fluent, Figma, research), not about developing pages in AL.",
+        "at": "2026-10-25T16:49:25.908Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/developing-for-the-business-central-mobi": {
@@ -6313,144 +6330,169 @@
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices": {
+      "post/miljan-rs/966@7cdd32a3a96bdb23": {
+        "verdict": "drop",
+        "reason": "It covers how to use one AL feature, the ErrorBehavior::Collect attribute, safely; that feature belongs to error-handling docs, not this general best-practices section.",
+        "at": "2026-10-25T16:49:25.247Z"
+      },
       "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-business-central/@af08d9ea7e279158": {
         "verdict": "keep",
-        "reason": "It introduces a series on AL development best practices: maintainability, upgrade safety and AppSource readiness, which is what this overview section covers.",
-        "at": "2026-10-24T00:36:34.340Z"
+        "reason": "It introduces a series on best practices for AL development (maintainability, upgrade safety, AppSource readiness), which matches the section's subject.",
+        "at": "2026-10-25T16:49:25.247Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-33-month-enum/@e6bc7cbc3702b9e9": {
         "verdict": "drop",
-        "reason": "It's a narrow tip about reusing the built-in recurrence enums, not one of the coding, performance, security or testing practices the section documents.",
-        "at": "2026-10-24T00:36:34.340Z"
+        "reason": "It's a narrow tip about reusing two built-in recurrence enums, not something this best-practices section documents.",
+        "at": "2026-10-25T16:49:25.247Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/@b801505a606b1a48": {
         "verdict": "drop",
-        "reason": "It's a tip about the Record.IsDirty() method, so it belongs to that method's reference rather than to the best-practices guidance.",
-        "at": "2026-10-24T00:36:34.340Z"
+        "reason": "It explains one method, Record.IsDirty(); the post's 'best practices' tag isn't enough to tie it to this section.",
+        "at": "2026-10-25T16:49:25.247Z"
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code": {
-      "post/miljan-rs/966@dec4d3de35fcaefa": {
-        "verdict": "keep",
-        "reason": "It gives an AL coding best practice: collect errors only in validation procedures, then process with fail-fast behavior.",
-        "at": "2026-10-25T12:51:31.909Z"
+      "post/sshadows-dk/https://sshadows.dk/blog/benchmark-llms-al-code/@e871df272dd3c4e2": {
+        "verdict": "drop",
+        "reason": "About benchmarking AI models on writing AL code, not about AL coding best practices.",
+        "at": "2026-10-25T16:48:52.067Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/centralgauge-benchmark-update/@5a06d6c33864d269": {
+        "verdict": "drop",
+        "reason": "An update on benchmark infrastructure and model scores; it doesn't cover AL code best practices.",
+        "at": "2026-10-25T16:48:52.067Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/@7c539af3ddd905ec": {
         "verdict": "drop",
-        "reason": "It announces a third-party code analyzer tool rather than discussing AL coding best practices themselves.",
-        "at": "2026-10-25T12:51:31.909Z"
+        "reason": "Describes how a third-party code analyzer is built, shipped and migrated to, rather than the AL coding practices themselves.",
+        "at": "2026-10-25T16:48:52.067Z"
       },
       "post/thinkaboutit-be/8132@c9bfa41ad7ac66b4": {
         "verdict": "keep",
-        "reason": "It covers Microsoft's shared quality bar for AL code, including concrete best practices such as SetLoadFields placement and avoiding obsolete FindSet overloads.",
-        "at": "2026-10-25T12:51:31.909Z"
+        "reason": "Covers a shared set of AL coding rules and quality guidance, such as SetLoadFields order and the obsolete FindSet overload, which is what this section is about.",
+        "at": "2026-10-25T16:48:52.067Z"
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance": {
-      "post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/@aea1381f91018eec": {
-        "verdict": "keep",
-        "reason": "How to design table indexes, SIFT views and covering indexes so the database performs well, which is core to the performance guidance.",
-        "at": "2026-10-22T01:10:26.040Z"
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/unittestswithoutbaseapp/@e9c7bf37964f4cb3": {
-        "verdict": "drop",
-        "reason": "It's about making test pipelines faster, which is testing and CI/CD, not how fast AL code runs.",
-        "at": "2026-10-22T01:10:26.040Z"
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/@14154f02a4527d5d": {
-        "verdict": "drop",
-        "reason": "A weekly roundup of tooling news where the only performance item is how fast code compiles.",
-        "at": "2026-10-22T01:10:26.040Z"
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/@56297fff7ca961d6": {
-        "verdict": "keep",
-        "reason": "Shows setting DataAccessIntent to ReadOnly so reads go to a replica database, a documented performance practice.",
-        "at": "2026-10-22T01:10:26.040Z"
-      },
-      "post/waldo-be/317845@491d234240c181f4": {
-        "verdict": "drop",
-        "reason": "About a third-party telemetry app for monitoring, not about writing code that performs well.",
-        "at": "2026-10-22T01:10:26.040Z"
-      },
-      "video/-_TaZY2Clh0@be5f6f9a14f026ee": {
-        "verdict": "keep",
-        "reason": "Detailed coverage of locking, deadlocks and coding patterns for running processes in parallel, which the performance guidance addresses.",
-        "at": "2026-10-22T01:10:26.040Z"
-      },
-      "video/1xdpUmeun-s@c66bef90fa3dbacc": {
-        "verdict": "keep",
-        "reason": "Covers performance features in AL such as DataTransfer, SetLoadFields and read isolation.",
-        "at": "2026-10-22T01:10:26.040Z"
-      },
-      "video/JI5KlMxrtoA@725f5f44ac0d5e00": {
-        "verdict": "drop",
-        "reason": "A general code-quality and security review where performance comes up only in passing.",
-        "at": "2026-10-22T01:10:26.040Z"
-      },
-      "video/lpwDSdEJrIQ@f360533255881e9e": {
-        "verdict": "keep",
-        "reason": "Directly about writing fast AL code: SetLoadFields, indexing, caching and performance tools.",
-        "at": "2026-10-22T01:10:26.040Z"
-      },
-      "video/qABlX4AL3GM@01f215acc09ce160": {
-        "verdict": "keep",
-        "reason": "Explains how table extensions are stored and how partial loading affects database performance, which is part of the performance guidance.",
-        "at": "2026-10-22T01:10:26.040Z"
-      },
       "post/demiliani-com/12267@642524c944ede625": {
         "verdict": "keep",
-        "reason": "Covers Rec.Truncate as an efficient bulk-deletion method, which is an AL performance best practice.",
-        "at": "2026-10-22T01:10:27.980Z"
+        "reason": "Explains Rec.Truncate as an efficient way to delete many rows and when to use it, which is AL performance guidance.",
+        "at": "2026-10-25T16:48:54.145Z"
       },
       "post/demiliani-com/12836@59ea68b671fbe173": {
         "verdict": "keep",
-        "reason": "Explains how sequential GUIDs speed up the database by reducing index fragmentation, a performance guideline for keys.",
-        "at": "2026-10-22T01:10:27.980Z"
+        "reason": "Covers using sequential GUIDs to reduce index fragmentation, with benchmarks: a performance best practice for keys.",
+        "at": "2026-10-25T16:48:54.145Z"
       },
       "post/demiliani-com/14031@a830c37bb0a2c55c": {
         "verdict": "keep",
-        "reason": "Shows how ReadIsolation affects use of the server record cache and how fast reads are, which is directly about AL performance.",
-        "at": "2026-10-22T01:10:27.980Z"
+        "reason": "Discusses how ReadIsolation affects record caching and read performance in AL code.",
+        "at": "2026-10-25T16:48:54.145Z"
       },
       "post/demiliani-com/15968@e13c63565651d8a5": {
         "verdict": "keep",
-        "reason": "Discusses picking query isolation levels by trading speed against locking and waiting, which is part of performance guidance.",
-        "at": "2026-10-22T01:10:27.980Z"
+        "reason": "Covers choosing query isolation levels through ReadState, weighing speed against locking and waiting.",
+        "at": "2026-10-25T16:48:54.145Z"
       },
       "post/duiliotacconi-com/1786@e25ea505a847995c": {
         "verdict": "keep",
-        "reason": "Recommends CreateSequentialGuid to cut page splits and fragmentation, a direct performance practice.",
-        "at": "2026-10-22T01:10:27.980Z"
+        "reason": "Recommends CreateSequentialGuid to cut page splits and index fragmentation, which is performance guidance for AL.",
+        "at": "2026-10-25T16:48:54.145Z"
       },
       "post/duiliotacconi-com/1850@5319a3fbdedfa6f6": {
         "verdict": "keep",
-        "reason": "Benchmarks Truncate against DeleteAll and gives guidance on when it pays off, which is performance best-practice content.",
-        "at": "2026-10-22T01:10:27.980Z"
+        "reason": "Benchmarks Truncate against DeleteAll and explains when each pays off, which is practical performance guidance.",
+        "at": "2026-10-25T16:48:54.145Z"
       },
       "post/duiliotacconi-com/2149@0b54d734b3647ccb": {
         "verdict": "keep",
-        "reason": "Shows how partial records (SetLoadFields) interact with server caching, which is central to AL performance guidance.",
-        "at": "2026-10-22T01:10:27.980Z"
+        "reason": "Explains when partial records (SetLoadFields) help or hurt performance because of server caching, citing Microsoft guidance.",
+        "at": "2026-10-25T16:48:54.145Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951@a737a5c6bfd2e804": {
         "verdict": "keep",
-        "reason": "Covers designing indexes across base table and extension fields to solve performance problems, including the cost of extra keys on writes.",
-        "at": "2026-10-22T01:10:27.980Z"
+        "reason": "Discusses designing indexes for performance, including the per-table key limit and the cost of extra indexes on writes.",
+        "at": "2026-10-25T16:48:54.145Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/al-perf-v2-deep-analysis/@c6cef85518cd2df5": {
+        "verdict": "drop",
+        "reason": "About a third-party AI performance-analysis tool, not the documented performance best practices.",
+        "at": "2026-10-25T16:48:54.145Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/one-click-performance-analysis-bc/@e44a832c84029641": {
+        "verdict": "drop",
+        "reason": "Promotes a third-party extension added to the Performance Profiler page; the subject is the tool, not coding best practices.",
+        "at": "2026-10-25T16:48:54.145Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/other-peoples-code-in-my-repos/@aaffbf4ce022a599": {
+        "verdict": "drop",
+        "reason": "A roundup of open-source contributions; performance is only mentioned in passing.",
+        "at": "2026-10-25T16:48:54.145Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-run-al-tests-without-bc/@33fed09204573b9a": {
         "verdict": "drop",
-        "reason": "About a tool that makes unit tests run faster, not about how AL code performs, so it fits better under Testing.",
-        "at": "2026-10-22T01:10:27.980Z"
+        "reason": "About a tool that runs AL unit tests quickly, not about the performance of Business Central code.",
+        "at": "2026-10-25T16:48:54.145Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/@d73e37763c386afc": {
         "verdict": "keep",
-        "reason": "Covers background processing options (page background tasks, sessions, job queue) for keeping the user interface responsive, which is performance guidance.",
-        "at": "2026-10-22T01:10:27.980Z"
+        "reason": "Covers background processing options (page background tasks, StartSession, TaskScheduler, Job Queue) as a performance design practice.",
+        "at": "2026-10-25T16:48:54.235Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/@73e98ae4e0ccea95": {
         "verdict": "keep",
-        "reason": "Discusses the performance cost of triggers and bulk Modify/DeleteAll operations, with measured speedups.",
-        "at": "2026-10-22T01:10:27.980Z"
+        "reason": "Discusses how RunTrigger and bulk Modify/DeleteAll affect AL performance, with measured speedups.",
+        "at": "2026-10-25T16:48:54.235Z"
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/@aea1381f91018eec": {
+        "verdict": "keep",
+        "reason": "Explains index, SIFT and covering-index design trade-offs for table performance.",
+        "at": "2026-10-25T16:48:54.235Z"
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/unittestswithoutbaseapp/@e9c7bf37964f4cb3": {
+        "verdict": "drop",
+        "reason": "About cutting unit-test pipeline time, not the runtime performance of AL code.",
+        "at": "2026-10-25T16:48:54.235Z"
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/@14154f02a4527d5d": {
+        "verdict": "drop",
+        "reason": "A weekly tooling recap where performance only means compile benchmarks.",
+        "at": "2026-10-25T16:48:54.235Z"
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/@56297fff7ca961d6": {
+        "verdict": "keep",
+        "reason": "Covers DataAccessIntent ReadOnly for using the read replica, a documented performance practice.",
+        "at": "2026-10-25T16:48:54.235Z"
+      },
+      "post/waldo-be/317845@491d234240c181f4": {
+        "verdict": "drop",
+        "reason": "About a third-party telemetry app for monitoring, not AL performance best practices.",
+        "at": "2026-10-25T16:48:54.235Z"
+      },
+      "video/-_TaZY2Clh0@be5f6f9a14f026ee": {
+        "verdict": "keep",
+        "reason": "Covers in depth how to avoid locking, deadlocks and timeouts in AL, a core performance topic.",
+        "at": "2026-10-25T16:48:54.235Z"
+      },
+      "video/1xdpUmeun-s@c66bef90fa3dbacc": {
+        "verdict": "keep",
+        "reason": "Covers AL performance features such as SetLoadFields, read isolation, DataTransfer and set-based operations.",
+        "at": "2026-10-25T16:48:54.235Z"
+      },
+      "video/JI5KlMxrtoA@725f5f44ac0d5e00": {
+        "verdict": "drop",
+        "reason": "A broad ISO 5055 code-quality review where performance is only one passing topic.",
+        "at": "2026-10-25T16:48:54.235Z"
+      },
+      "video/lpwDSdEJrIQ@f360533255881e9e": {
+        "verdict": "keep",
+        "reason": "Directly about making AL code fast: indexing, SetLoadFields, caching, FlowFields and profiling.",
+        "at": "2026-10-25T16:48:54.235Z"
+      },
+      "video/qABlX4AL3GM@01f215acc09ce160": {
+        "verdict": "keep",
+        "reason": "Covers how table extension storage and partial record loading affect database performance.",
+        "at": "2026-10-25T16:48:54.235Z"
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security": {
@@ -6488,18 +6530,23 @@
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing": {
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/@22285a8e8c4cce4e": {
         "verdict": "drop",
-        "reason": "This is a weekly roundup of five topics, and running unit tests without the base app gets only one bullet, so testing is mentioned in passing rather than being the subject.",
-        "at": "2026-10-24T00:36:34.554Z"
+        "reason": "This weekly roundup covers five unrelated topics, and running unit tests without the base app is only one short item among them.",
+        "at": "2026-10-25T16:49:25.994Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/your-tests-all-pass/@da230286dcfe5060": {
+        "verdict": "keep",
+        "reason": "The whole post is about the quality of AL tests: mutation testing, missing boundary tests, data setup and test isolation.",
+        "at": "2026-10-25T16:49:25.994Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-run-al-tests-without-bc/@33fed09204573b9a": {
         "verdict": "keep",
-        "reason": "The whole post is about how to run AL unit tests, which fits the testing best-practices section.",
-        "at": "2026-10-24T00:36:34.554Z"
+        "reason": "The post is about running AL unit tests quickly in CI and local workflows, a testing practice for AL code.",
+        "at": "2026-10-25T16:49:25.994Z"
       },
       "video/Q-oazDEucLE@54d66d11fb923d23": {
         "verdict": "keep",
-        "reason": "The video is mainly about AL testing practice: characterization, approval, mutation and test-driven tests used to refactor legacy code safely.",
-        "at": "2026-10-24T00:36:34.554Z"
+        "reason": "The video's main subject is AL testing practices: characterization tests, test-driven development, approval tests and mutation tests when refactoring legacy code.",
+        "at": "2026-10-25T16:49:25.994Z"
       }
     },
     "topic/dev-itpro/development/system-and-application-reference-documen": {
@@ -6549,53 +6596,68 @@
     "topic/dev-itpro/development/the-al-programming-language/code-analysis": {
       "post/gerardorenteria-blog/11565@a1adbb44bfa791e6": {
         "verdict": "drop",
-        "reason": "A broad AL extension changelog where new analyzer rules are just one item among many.",
-        "at": "2026-10-21T09:24:48.599Z"
+        "reason": "Broad AL extension changelog where new analyzer rules are one minor line among many unrelated features.",
+        "at": "2026-10-25T16:49:00.319Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3697577773817687094@3568b599018657cc": {
         "verdict": "drop",
-        "reason": "About changing a field from Integer to BigInteger; the compiler warning and AppSourceCop rule are only mentioned in passing.",
-        "at": "2026-10-21T09:24:48.599Z"
+        "reason": "About migrating Integer fields to BigInteger; compiler warning and AS0141 are incidental.",
+        "at": "2026-10-25T16:49:00.319Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-6265805346314332006@bc99b4bc1bda9f5b": {
         "verdict": "drop",
-        "reason": "About how many fields a table can hold; the compiler warning is incidental.",
-        "at": "2026-10-21T09:24:48.599Z"
+        "reason": "About table field limits and storage; the compiler warning is a passing mention.",
+        "at": "2026-10-25T16:49:00.319Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/al-language-server-claude-code/@847cf3661ce5069e": {
+        "verdict": "drop",
+        "reason": "About language-server navigation in Claude Code, not code analyzers.",
+        "at": "2026-10-25T16:49:00.319Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/@7cfa417bbb1fa5fd": {
+        "verdict": "drop",
+        "reason": "AI-agent LSP tooling; code-smell diagnostics are a side feature, not AL code analysis tooling as documented.",
+        "at": "2026-10-25T16:49:00.319Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/one-parser-six-tools/@9de2fa178d363f8e": {
+        "verdict": "drop",
+        "reason": "About a tree-sitter parser and tools built on it, not AL code analyzers.",
+        "at": "2026-10-25T16:49:00.319Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/tree-sitter-al-v2-rewrite/@e31db4e8f1a77b71": {
+        "verdict": "drop",
+        "reason": "About rewriting a tree-sitter grammar; code analysis is only a tag.",
+        "at": "2026-10-25T16:49:00.319Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/@7c539af3ddd905ec": {
         "verdict": "keep",
-        "reason": "Explains the ALCops code analyzers: how they're split by domain, rule severities and code fixes.",
-        "at": "2026-10-21T09:24:48.599Z"
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/@51bfbb2d2f31439b": {
-        "verdict": "drop",
-        "reason": "A weekly recap about AL Runner, bc-code-atlas and CI work, not about code analysis.",
-        "at": "2026-10-21T09:24:48.599Z"
+        "reason": "Directly about ALCops code analyzers for AL, their domains, severities and code fixes.",
+        "at": "2026-10-25T16:49:00.319Z"
       },
       "post/vondervoort-be/130@80f191b9b56f9b87": {
         "verdict": "keep",
-        "reason": "Introduces ALCops, a set of AL code analyzers, and how to use it in VS Code and AL-Go.",
-        "at": "2026-10-21T09:24:48.599Z"
+        "reason": "Introduces the ALCops analyzer collection used for AL code analysis in VS Code and AL-Go.",
+        "at": "2026-10-25T16:49:00.319Z"
       },
       "post/vondervoort-be/147@99d92e66e963843b": {
         "verdict": "keep",
-        "reason": "Describes the ALCops analyzers and the rule areas each one checks.",
-        "at": "2026-10-21T09:24:48.599Z"
+        "reason": "Covers the ALCops analyzers and their organization for AL code analysis.",
+        "at": "2026-10-25T16:49:00.319Z"
       },
       "video/JI5KlMxrtoA@725f5f44ac0d5e00": {
         "verdict": "keep",
-        "reason": "A live static-analysis review of AL code that includes configuring the default analyzers and running analyzer rules.",
-        "at": "2026-10-21T09:24:48.599Z"
+        "reason": "Demonstrates static analysis of AL with default analyzers configuration and AL cops rules.",
+        "at": "2026-10-25T16:49:00.319Z"
       },
       "video/Q-oazDEucLE@54d66d11fb923d23": {
         "verdict": "drop",
-        "reason": "Mainly about AI-assisted testing and refactoring of legacy code; linters and ruleset files come up only briefly.",
-        "at": "2026-10-21T09:24:48.599Z"
+        "reason": "Mainly about testing and refactoring legacy code with AI; linters and rulesets are one step among many.",
+        "at": "2026-10-25T16:49:00.319Z"
       },
       "video/tMqCSibSRug@bea35e2233934e97": {
         "verdict": "keep",
-        "reason": "Video on the ALCops code analyzers: rule areas, severity settings, code fixes and VS Code use.",
-        "at": "2026-10-21T09:24:48.599Z"
+        "reason": "Video dedicated to the ALCops analyzers, their rules, severity configuration and code fixes.",
+        "at": "2026-10-25T16:49:00.319Z"
       }
     },
     "topic/dev-itpro/development/troubleshooting": {
@@ -6650,32 +6712,32 @@
       "post/duiliotacconi-com/1694@8bc3718f037619c5": {
         "verdict": "keep",
         "reason": "Covers SQL statement collection shown in the in-client Performance Profiler and importing profiles into it.",
-        "at": "2026-10-25T12:51:31.495Z"
+        "at": "2026-10-25T16:49:29.573Z"
       },
-      "post/miljan-rs/750@e083091accc58cf5": {
+      "post/sshadows-dk/https://sshadows.dk/blog/one-click-performance-analysis-bc/@e44a832c84029641": {
         "verdict": "drop",
-        "reason": "About Analysis Mode pivot performance limits, not the Performance Profiler.",
-        "at": "2026-10-25T12:51:31.495Z"
+        "reason": "Its subject is a third-party AI analysis extension added to the profiler page, not the documented profiler itself.",
+        "at": "2026-10-25T16:49:29.573Z"
       },
       "video/0qt0Zy9ZsRo@5c97f66947819da7": {
         "verdict": "keep",
-        "reason": "Demonstrates the in-client profiler and scheduled profiles for analyzing performance issues.",
-        "at": "2026-10-25T12:51:31.495Z"
+        "reason": "Demonstrates the in-client profiler, the Performance Profiles page and call tree analysis via scheduled profiles.",
+        "at": "2026-10-25T16:49:29.573Z"
       },
       "video/B8PLDeZ73Y4@3beab67a4c30a3e3": {
         "verdict": "keep",
-        "reason": "Discusses when to use the AL/Performance Profiler versus snapshot debugging, showing the profiler.",
-        "at": "2026-10-25T12:51:31.495Z"
+        "reason": "Discusses when to use the AL/Performance Profiler versus snapshot debugging, showing the profiler in use.",
+        "at": "2026-10-25T16:49:29.573Z"
       },
       "video/UFLo2XGGS14@9ca37da61d82c657": {
         "verdict": "drop",
-        "reason": "About the agentic developer loop and MCP tooling; profiling appears only as an MCP integration.",
-        "at": "2026-10-25T12:51:31.495Z"
+        "reason": "Covers an agentic MCP developer loop in VS Code; sampling profiling is only one part of a different capability.",
+        "at": "2026-10-25T16:49:29.573Z"
       },
       "video/ZKq0hc04f-s@0021c479cf5ded0d": {
         "verdict": "keep",
-        "reason": "Shows capturing SQL calls in profiles from the in-client Performance Profiler.",
-        "at": "2026-10-25T12:51:31.495Z"
+        "reason": "Shows SQL call capture in profiles produced by the in-client Performance Profiler.",
+        "at": "2026-10-25T16:49:29.573Z"
       }
     },
     "topic/dev-itpro/development/troubleshooting/troubleshooting-with-telemetry": {
@@ -6762,320 +6824,325 @@
     "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview": {
       "post/aardvarklabs-blog/1891@4b250d20fdf70c35": {
         "verdict": "drop",
-        "reason": "Uses AI calls for keyword extraction in a sales process, not the Business Central agent framework for designing or coding agents.",
-        "at": "2026-10-24T00:34:50.690Z"
+        "reason": "A Copilot-style AI feature that uses a model to extract keywords; it isn't about building Business Central agents in AL.",
+        "at": "2026-10-25T16:49:35.655Z"
       },
       "post/aardvarklabs-blog/3348@8ff3d67fd29ae409": {
         "verdict": "keep",
-        "reason": "Shows how to secure AL-coded agents with profiles, page customizations, permission sets and a setup codeunit.",
-        "at": "2026-10-24T00:34:50.690Z"
+        "reason": "Shows AL code that secures a custom agent with profiles, page customizations and permission sets.",
+        "at": "2026-10-25T16:49:35.655Z"
       },
       "post/bertverbeek-nl/1183@836d745bea423af5": {
         "verdict": "drop",
-        "reason": "About connecting external agents through the Business Central MCP server, which the sibling MCP section documents.",
-        "at": "2026-10-24T00:34:50.690Z"
+        "reason": "About connecting external agents through the MCP server, which the sibling Model Context Protocol section covers.",
+        "at": "2026-10-25T16:49:35.655Z"
       },
       "post/bertverbeek-nl/1219@87302a808e16dbc5": {
         "verdict": "keep",
-        "reason": "Explains custom agent architecture and the AL codeunits for creating tasks and handling messages.",
-        "at": "2026-10-24T00:34:50.690Z"
+        "reason": "Explains how custom agents work and how to code them in AL with Agent Task Builder, the orchestrator and message codeunits.",
+        "at": "2026-10-25T16:49:35.655Z"
       },
       "post/bertverbeek-nl/1237@d781f507e6dbc735": {
         "verdict": "keep",
-        "reason": "Covers writing agent instructions, page-specific guidance and memory when designing Business Central agents.",
-        "at": "2026-10-24T00:34:50.690Z"
+        "reason": "Covers writing instructions for custom Business Central agents, a core part of designing them.",
+        "at": "2026-10-25T16:49:35.655Z"
       },
       "post/bertverbeek-nl/1290@c0cc261a9428932c": {
         "verdict": "keep",
-        "reason": "Discusses deploying, managing (ALM) and triggering agents built in AL, compared with Copilot Studio agents.",
-        "at": "2026-10-24T00:34:50.690Z"
-      },
-      "post/demiliani-com/17508@8498751aeb904228": {
-        "verdict": "drop",
-        "reason": "Preview of conference sessions on LLM fine-tuning and agent monitoring, not on designing or coding agents.",
-        "at": "2026-10-24T00:34:50.690Z"
-      },
-      "post/demiliani-com/17529@da7c1dd0df64138f": {
-        "verdict": "drop",
-        "reason": "Book announcement too broad to tie to this section specifically.",
-        "at": "2026-10-24T00:34:50.690Z"
+        "reason": "Compares agents coded in Business Central (AL triggers, AppSource deployment) with Copilot Studio, which helps decide when to build one.",
+        "at": "2026-10-25T16:49:35.655Z"
       },
       "post/kauffmann-nl/8436@0c5efab89397496f": {
         "verdict": "keep",
-        "reason": "Explains the Agent Design Experience and how to convert a designed agent into an AL agent project.",
-        "at": "2026-10-24T00:34:50.690Z"
+        "reason": "Covers the Agent Design Experience and turning a designed agent into AL code with the Agent template.",
+        "at": "2026-10-25T16:49:35.655Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/@7cfa417bbb1fa5fd": {
+        "verdict": "drop",
+        "reason": "About AI coding assistants navigating AL code, not about designing or coding Business Central agents.",
+        "at": "2026-10-25T16:49:35.655Z"
       },
       "video/3UcLmXqyl44@9ea4c0524241f20f": {
         "verdict": "keep",
-        "reason": "Demonstrates exporting and importing agent definitions as XML, part of the agent design workflow.",
-        "at": "2026-10-24T00:34:50.690Z"
+        "reason": "Shows exporting and importing agent definitions as XML, part of the agent design workflow.",
+        "at": "2026-10-25T16:49:35.655Z"
       },
       "video/9zQZHfXK-PQ@7e65b7781b453b60": {
         "verdict": "drop",
-        "reason": "About using GitHub Copilot agents to write documentation, not about designing Business Central agents.",
-        "at": "2026-10-24T00:34:50.690Z"
+        "reason": "About using GitHub Copilot to automate documentation, not about building Business Central agents.",
+        "at": "2026-10-25T16:49:35.655Z"
       },
       "video/aNRzlbxVPWE@723693d67525e5df": {
         "verdict": "keep",
-        "reason": "Shows how to write agent evals in AL, which is part of coding and testing agents.",
-        "at": "2026-10-24T00:34:52.623Z"
+        "reason": "Shows how to write evals in AL to test custom Business Central agents.",
+        "at": "2026-10-25T16:49:35.655Z"
       },
       "video/jWqjDTbqjeE@d3cbde4e3c06d5d7": {
         "verdict": "keep",
-        "reason": "Introduces envisioning, designing and coding Business Central agents, including the designer and the AI development toolkit.",
-        "at": "2026-10-24T00:34:52.623Z"
+        "reason": "Directly covers designing agents in the web client and creating agent code with the AI Development Toolkit.",
+        "at": "2026-10-25T16:49:35.726Z"
       },
       "video/MKuOgMWXJ_8@632ba8937966fdc2": {
-        "verdict": "keep",
-        "reason": "Walks through a sample agent's profile, reduced permission sets and instructions, which illustrates agent design.",
-        "at": "2026-10-24T00:34:52.623Z"
+        "verdict": "drop",
+        "reason": "Covers setting up and using a ready-made sample agent, not designing or coding one.",
+        "at": "2026-10-25T16:49:35.726Z"
       },
       "video/moPzf04Mwlc@10cfe2480ef1c60c": {
         "verdict": "keep",
-        "reason": "Shows creating agents with the no-code wizard, instructions and permissions, which is part of designing agents.",
-        "at": "2026-10-24T00:34:52.623Z"
+        "reason": "Demonstrates creating agents with the agent creation wizard and writing their instructions, which is the design side of this section.",
+        "at": "2026-10-25T16:49:35.726Z"
       },
       "video/nbGw2g3KMXI@c6dea39b6e68bacc": {
         "verdict": "keep",
-        "reason": "Covers building custom agents, including AL agent codeunits, the project template and capability registration.",
-        "at": "2026-10-24T00:34:52.623Z"
+        "reason": "Walks through building custom agents in AL, including the task builder, factory and creation codeunits and the agent project template.",
+        "at": "2026-10-25T16:49:35.726Z"
       },
       "video/nPF84Ufkn4k@012dca0e9f432a5e": {
         "verdict": "drop",
-        "reason": "Covers platform runtime internals such as memory, grounding and loop detection, not designing or coding agents.",
-        "at": "2026-10-24T00:34:52.623Z"
+        "reason": "Explains how the agent runtime works internally (memory, validation, model selection), not how to design or code agents.",
+        "at": "2026-10-25T16:49:35.726Z"
       },
       "video/Vq9Nk6_uxmQ@a2d0675f3631ef6c": {
         "verdict": "keep",
         "reason": "Covers building custom agents: instructions, profiles, permissions, the creation wizard and the Agent SDK.",
-        "at": "2026-10-24T00:34:52.623Z"
+        "at": "2026-10-25T16:49:35.726Z"
       },
       "video/WFAZLsUTk20@1f56f4fab9b3f33d": {
         "verdict": "keep",
-        "reason": "Demonstrates instruction history, a specific feature used when designing agent instructions.",
-        "at": "2026-10-24T00:34:52.623Z"
+        "reason": "Shows the instruction history feature used while designing agent instructions.",
+        "at": "2026-10-25T16:49:35.726Z"
       },
       "video/WjF_sESaIPo@357cfb9dc00807a3": {
         "verdict": "drop",
-        "reason": "A customer story about a manifest-processing agent with no design or coding guidance.",
-        "at": "2026-10-24T00:34:52.623Z"
+        "reason": "A customer story about one manifest-processing agent, not about how to design or code agents.",
+        "at": "2026-10-25T16:49:35.726Z"
       },
       "video/xqwJTCPD9tA@f87d41bca591a38c": {
         "verdict": "drop",
-        "reason": "About integration patterns built with AI coding tools, not about designing Business Central agents.",
-        "at": "2026-10-24T00:34:52.623Z"
+        "reason": "About designing integrations with AI coding assistants, not about building Business Central agents.",
+        "at": "2026-10-25T16:49:35.726Z"
       },
       "video/zei-IszvYNU@8eb722c8c56e1306": {
         "verdict": "drop",
-        "reason": "About MCP server API configuration, which the sibling MCP section documents.",
-        "at": "2026-10-24T00:34:52.623Z"
+        "reason": "About configuring the MCP server, which the sibling section on Model Context Protocol documents.",
+        "at": "2026-10-25T16:49:35.726Z"
       }
     },
     "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al": {
-      "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/@a9590d7030e3dc3d": {
-        "verdict": "drop",
-        "reason": "About checking the quality of AI-generated AL code, not about building agents in AL.",
-        "at": "2026-10-24T00:35:04.966Z"
-      },
       "post/olofsimren-com/3653@e7fefac5ccde599a": {
         "verdict": "drop",
-        "reason": "Uses vibe coding to build a configuration audit extension; nothing about writing agents in AL.",
-        "at": "2026-10-24T00:35:04.966Z"
+        "reason": "It's about using an AI coding assistant to write a configuration audit extension, not about building Business Central agents in AL.",
+        "at": "2026-10-25T16:49:06.289Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@b94f6d6fdd1fc4fe": {
         "verdict": "drop",
-        "reason": "Explains how to set up GitHub Copilot for vibe coding, not how to build Business Central agents in AL.",
-        "at": "2026-10-24T00:35:04.966Z"
+        "reason": "It covers GitHub Copilot vibe coding setup for AL development, not coding Business Central agents.",
+        "at": "2026-10-25T16:49:06.289Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-818643009386692123@982baa375093ea02": {
         "verdict": "drop",
-        "reason": "Conference recap that mentions agent-building tools only in passing; too general.",
-        "at": "2026-10-24T00:35:04.966Z"
+        "reason": "It's a conference recap that only mentions agent-building tools in passing, which is too general to count.",
+        "at": "2026-10-25T16:49:06.289Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/from-work-item-to-pr-without-me/@e71216fa62ca58c6": {
+        "verdict": "drop",
+        "reason": "It describes an AI pipeline for DevOps work items and code generation, not building agents inside Business Central with AL.",
+        "at": "2026-10-25T16:49:06.289Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/other-peoples-code-in-my-repos/@aaffbf4ce022a599": {
+        "verdict": "drop",
+        "reason": "It's a roundup of community AL tooling contributions and has nothing on coding Business Central agents.",
+        "at": "2026-10-25T16:49:06.289Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/@b67dc43eb2f9705d": {
         "verdict": "drop",
-        "reason": "Describes a Claude Code multi-agent workflow for development, not building agents in AL.",
-        "at": "2026-10-24T00:35:04.966Z"
+        "reason": "It's a Claude Code multi-agent workflow for writing AL code, not about building Business Central agents in AL.",
+        "at": "2026-10-25T16:49:06.289Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/@2a63431a53ddd0cd": {
         "verdict": "drop",
-        "reason": "An MCP server that lets AI coding tools search Business Central source code; a different capability.",
-        "at": "2026-10-24T00:35:04.966Z"
+        "reason": "It's about an MCP server that lets external coding assistants search Base Application source, not about building Business Central agents.",
+        "at": "2026-10-25T16:49:06.289Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-dev-container-al/@9d6f8403875c1881": {
         "verdict": "drop",
-        "reason": "Sets up a dev container for Claude Code, which is developer tooling rather than agent design.",
-        "at": "2026-10-24T00:35:04.966Z"
+        "reason": "It's about setting up a Claude Code dev container, which is developer tooling, not Business Central agent development.",
+        "at": "2026-10-25T16:49:06.289Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/@d26fec2dbf7f1670": {
         "verdict": "drop",
-        "reason": "About sandboxing Claude Code in Docker, not building Business Central agents.",
-        "at": "2026-10-24T00:35:04.966Z"
+        "reason": "It's about sandboxing Claude Code in Docker, not about building agents in AL.",
+        "at": "2026-10-25T16:49:06.289Z"
       },
       "post/thinkaboutit-be/7352@f7cfc535784925c8": {
         "verdict": "drop",
-        "reason": "About using GitHub Copilot's Agent mode to write AL code, not building agents in AL.",
-        "at": "2026-10-24T00:35:04.966Z"
+        "reason": "It covers using Copilot Agent mode to write AL code, which is a different capability from building Business Central agents.",
+        "at": "2026-10-25T16:49:06.289Z"
       },
       "post/thinkaboutit-be/7383@7e8512d807291136": {
         "verdict": "drop",
-        "reason": "About GitHub Copilot's Plan mode for AL development; unrelated to coding agents in AL.",
-        "at": "2026-10-24T00:35:04.966Z"
+        "reason": "It covers Copilot Plan mode for AL development, not building Business Central agents.",
+        "at": "2026-10-25T16:49:06.289Z"
       },
       "post/thinkaboutit-be/7402@b5ffe8888e16e784": {
         "verdict": "drop",
-        "reason": "A general guide to choosing between GitHub Copilot's modes when writing AL code.",
-        "at": "2026-10-24T00:35:04.966Z"
+        "reason": "It's a general mental model for using GitHub Copilot's modes in AL development.",
+        "at": "2026-10-25T16:49:06.289Z"
       },
       "post/thinkaboutit-be/7414@2d8b4e6d2f5403fd": {
         "verdict": "drop",
-        "reason": "A personal year-in-review post about using AI tools; too general.",
-        "at": "2026-10-24T00:35:04.966Z"
+        "reason": "It's a personal year-in-review reflection on AI-assisted development, too general to tie to this section.",
+        "at": "2026-10-25T16:49:06.289Z"
       },
       "post/thinkaboutit-be/7486@131ae97800aa4183": {
         "verdict": "drop",
-        "reason": "Compares Copilot's Plan mode with its agents; this is developer tooling, not Business Central agent building.",
-        "at": "2026-10-24T00:35:04.966Z"
+        "reason": "It compares Copilot Plan mode with Copilot Agents for AL coding, not building Business Central agents.",
+        "at": "2026-10-25T16:49:06.289Z"
       },
       "post/vondervoort-be/130@80f191b9b56f9b87": {
         "verdict": "drop",
-        "reason": "Announces a code analyzer project; mentions AI tools only in its roadmap.",
-        "at": "2026-10-24T00:35:04.966Z"
+        "reason": "It's about the ALCops code analyzer and mentions AI coding tools only in its roadmap.",
+        "at": "2026-10-25T16:49:06.289Z"
       },
       "post/aardvarklabs-blog/3060@cf622bf4ad3a6ad2": {
         "verdict": "drop",
-        "reason": "About using Copilot Chat to draft requirements and designs, not about building agents in AL.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "reason": "About using Copilot Chat to write requirements and design documents, not about building agents in AL.",
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/aardvarklabs-blog/3097@8e325a3f81621c91": {
         "verdict": "keep",
-        "reason": "Walks through building a custom agent in AL with IAgentFactory, IAgentMetadata, instructions and AgentTaskBuilder.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "reason": "Step-by-step guide to building an agent in AL with IAgentFactory/IAgentMetadata, instructions and AgentTaskBuilder.",
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/aardvarklabs-blog/3564@e823a16dc5428d34": {
         "verdict": "drop",
-        "reason": "About VS Code Copilot skills for AI-assisted development, not about coding Business Central agents.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "reason": "About Copilot skills in VS Code for AL development, not about coding agents in AL.",
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/bertverbeek-nl/1219@87302a808e16dbc5": {
         "verdict": "keep",
-        "reason": "Explains how custom agents work and how to create tasks and handle agent messages from AL code.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "reason": "Explains how custom agents work and how to create tasks and handle messages with the Agent Task Builder and Agent Message codeunits.",
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/bertverbeek-nl/1272@81f380297cb1980b": {
         "verdict": "keep",
-        "reason": "Covers creating and registering agents in AL: agent interfaces, capability registration, setup pages and KPIs.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "reason": "Covers creating and registering agents in AL code through the agent interfaces, capability registration, setup pages and KPIs.",
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/demiliani-com/12644@8f82d42475c5da29": {
         "verdict": "keep",
-        "reason": "Covers debugging AL agent sessions in VS Code, which is part of developing agents in code.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "reason": "Covers debugging agent sessions from VS Code, which is part of developing agents in AL.",
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/demiliani-com/13814@d2bf07698adba447": {
         "verdict": "keep",
-        "reason": "Documents the new Agent codeunit methods (SetModelId, etc.) for choosing a code-defined agent's model.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "reason": "Describes new Agent codeunit methods (SetModelId, GetModelId) for setting the model of code-defined agents.",
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/demiliani-com/13982@a0a946e5701b63bc": {
         "verdict": "drop",
-        "reason": "General opinion piece on the costs of AI-assisted coding, not about coding agents in AL.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "reason": "General essay on the costs of AI-assisted coding, not about building agents in AL.",
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/demiliani-com/14011@a4f2a5eb486e6c43": {
         "verdict": "drop",
-        "reason": "About VS Code agent hooks for auditing AI coding sessions, a different capability.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "reason": "About VS Code agent hooks for auditing AI coding sessions, not about Business Central agents in AL.",
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/@cf1c867204c2f0fe": {
         "verdict": "drop",
         "reason": "Weekly roundup that mentions the agent model APIs only in passing among unrelated topics.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/gerardorenteria-blog/13945@46831719c8bc5ce4": {
         "verdict": "drop",
-        "reason": "About configuring GitHub Copilot context per workspace, not about Business Central agents.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "reason": "About organising GitHub Copilot context per workspace, not about coding agents in AL.",
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/gerardorenteria-blog/14894@1b604f05710f6e53": {
         "verdict": "drop",
-        "reason": "About cutting Copilot output token costs, not about coding agents in AL.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "reason": "About controlling Copilot output token costs, not about building agents in AL.",
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/katson-com/4756@fe746a1e7d77237d": {
         "verdict": "drop",
-        "reason": "A method for building extensions with AI coding agents, not about building agents in AL.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "reason": "A spec-driven way of building extensions with AI coding agents, not about building Business Central agents in AL.",
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02/@6693f9aeca20750b": {
         "verdict": "drop",
-        "reason": "General guidance on using AI tools for Business Central development, not about coding agents.",
-        "at": "2026-10-24T00:35:05.035Z"
+        "reason": "General guidance on using AI tools for BC development, not about coding agents in AL.",
+        "at": "2026-10-25T16:49:07.288Z"
+      },
+      "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/@a9590d7030e3dc3d": {
+        "verdict": "drop",
+        "reason": "About quality risks in AI-generated AL code, not about building agents in AL.",
+        "at": "2026-10-25T16:49:07.288Z"
       },
       "post/vondervoort-be/147@99d92e66e963843b": {
         "verdict": "drop",
-        "reason": "It's about AL code analyzers and their MCP integration, not about building agents in AL.",
-        "at": "2026-10-24T00:35:07.026Z"
+        "reason": "About community code analyzers and their MCP integration with AI coding assistants, not about building agents in AL.",
+        "at": "2026-10-25T16:49:10.522Z"
       },
       "video/c91E6IykUnk@9c87e1a5eb37106f": {
         "verdict": "drop",
-        "reason": "It's about using AI assistants for AL development and report layouts, not about coding Business Central agents.",
-        "at": "2026-10-24T00:35:07.026Z"
+        "reason": "Covers AI-assisted AL development and report layouts, not coding Business Central agents with the toolkit.",
+        "at": "2026-10-25T16:49:10.522Z"
       },
       "video/EwN3xb2q7vE@fa320b248e55e095": {
         "verdict": "keep",
-        "reason": "It directly covers coding Business Central agents in AL: agent type definition, the factory and metadata interfaces, and the tasks API.",
-        "at": "2026-10-24T00:35:07.026Z"
+        "reason": "Directly demonstrates coding Business Central agents in AL: the factory and metadata interfaces, agent setup, and the tasks API.",
+        "at": "2026-10-25T16:49:10.522Z"
       },
       "video/gd2TycVywv4@f20bd71818f9eeb8": {
         "verdict": "drop",
-        "reason": "It's about the developer mindset for AI-assisted coding, not about writing agents in AL.",
-        "at": "2026-10-24T00:35:07.026Z"
+        "reason": "About the mindset for developing with AI coding agents like GitHub Copilot, not about building agents in AL.",
+        "at": "2026-10-25T16:49:10.522Z"
       },
       "video/jfvUkNa4gyg@843581c971e53e3c": {
         "verdict": "drop",
-        "reason": "It's about using Claude Code agents to write AL code, not about building Business Central agents.",
-        "at": "2026-10-24T00:35:07.026Z"
+        "reason": "About using Claude Code agents to write AL code, a different capability from coding Business Central agents.",
+        "at": "2026-10-25T16:49:10.522Z"
       },
       "video/jWqjDTbqjeE@d3cbde4e3c06d5d7": {
         "verdict": "keep",
-        "reason": "It introduces designing and coding Business Central agents, including agent code creation with the AI Development Toolkit.",
-        "at": "2026-10-24T00:35:07.026Z"
+        "reason": "Includes the AI Development Toolkit's agent code creation and extension deployment, which is part of coding agents in AL.",
+        "at": "2026-10-25T16:49:10.522Z"
       },
       "video/mBU2Iu0urw8@95ce2757d015d2fc": {
         "verdict": "drop",
-        "reason": "It's about AL developer tooling for AI coding assistants (ALMCP, skills), not about coding Business Central agents.",
-        "at": "2026-10-24T00:35:07.026Z"
+        "reason": "About agentic AL developer tooling (ALMCP, Copilot modes, skills), not about building Business Central agents.",
+        "at": "2026-10-25T16:49:10.522Z"
       },
       "video/MNwTt06ZxwY@6a357ea37188254b": {
         "verdict": "keep",
-        "reason": "It covers the AL agent template, the agent factory and metadata interfaces, and shipping agents through extensions.",
-        "at": "2026-10-24T00:35:07.026Z"
+        "reason": "Shows shipping agents through AL extensions, with the agent template, factory interface and metadata interface.",
+        "at": "2026-10-25T16:49:10.522Z"
       },
       "video/V4zCPAsYi_Y@c18383eb6e9d0dd2": {
-        "verdict": "keep",
-        "reason": "It shows how to structure AL tests for agents built with the AI Development Toolkit, which belongs to coding agents in AL.",
-        "at": "2026-10-24T00:35:07.026Z"
+        "verdict": "drop",
+        "reason": "Focuses on the agent testing and evaluation toolkit setup rather than coding the agent itself.",
+        "at": "2026-10-25T16:49:10.522Z"
       },
       "video/w2P3WskFaCA@9f8393e4268031d6": {
         "verdict": "drop",
-        "reason": "It's about AI-assisted AL development from the terminal on Linux, not about building agents.",
-        "at": "2026-10-24T00:35:07.026Z"
+        "reason": "About doing AI-assisted AL development from a Linux terminal, not about coding Business Central agents.",
+        "at": "2026-10-25T16:49:10.522Z"
       },
       "video/WjFx9yYf1js@7a24bb789c86b0e4": {
         "verdict": "drop",
-        "reason": "It's about the risks of vibe coding extensions, not about coding agents in AL.",
-        "at": "2026-10-24T00:35:07.026Z"
+        "reason": "Discusses the risks of vibe coding in general and is too general to tie to this section.",
+        "at": "2026-10-25T16:49:10.522Z"
       },
       "video/XGEDwzIZQj4@53a5209267f30072": {
         "verdict": "drop",
-        "reason": "It's about benchmarking AI coding models on fixing AL bugs, not about building Business Central agents.",
-        "at": "2026-10-24T00:35:07.026Z"
+        "reason": "Benchmarks AI coding models on AL bug fixing, not building agents in AL.",
+        "at": "2026-10-25T16:49:10.522Z"
       },
       "video/xWOddQt1GUM@b37a64fe3602a41b": {
         "verdict": "drop",
-        "reason": "It's broadly about AI-assisted AL development and how the developer role is changing; agents come up only in passing.",
-        "at": "2026-10-24T00:35:07.026Z"
+        "reason": "About AI-assisted AL development and the developer role, with agents mentioned only in passing.",
+        "at": "2026-10-25T16:49:10.522Z"
       }
     },
     "topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis": {
@@ -7103,88 +7170,88 @@
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c": {
       "post/thinkaboutit-be/8204@f01e08039a637ec9": {
         "verdict": "keep",
-        "reason": "One of the two features it covers is Microsoft-managed Azure OpenAI resources for building Copilot extensions, which is this section's subject.",
-        "at": "2026-10-24T00:34:47.138Z"
+        "reason": "Explains that developers can now build Copilot extensions on Microsoft-managed Azure OpenAI resources, which is part of the Copilot developer tooling.",
+        "at": "2026-10-25T16:49:37.141Z"
       },
       "post/tine-staric-net/https://tine.staric.net/blog/2026/copilot-harness-default/@1d9dc9fbb36ac87e": {
         "verdict": "drop",
-        "reason": "It's about GitHub Copilot's agent harness in VS Code, not the Business Central developer tools for building Copilot features.",
-        "at": "2026-10-24T00:34:47.138Z"
+        "reason": "About the GitHub Copilot harness in VS Code, not the Business Central developer tools for building Copilot features.",
+        "at": "2026-10-25T16:49:37.141Z"
       },
       "video/7SSNcUMFtCw@0a389bab8e080e1f": {
         "verdict": "keep",
-        "reason": "It demonstrates the AI Resources developer features: managed resource authorization, the Azure OpenAI Deployments codeunit, and bring-your-own subscription.",
-        "at": "2026-10-24T00:34:47.138Z"
+        "reason": "Shows AI Resources, the Azure OpenAI Deployments codeunit, managed resource authorization and bring-your-own subscription, all used to build Copilot extensions.",
+        "at": "2026-10-25T16:49:37.141Z"
       },
       "video/9zQZHfXK-PQ@7e65b7781b453b60": {
         "verdict": "drop",
-        "reason": "It's about using GitHub Copilot to automate documentation, not about building Copilot features into Business Central apps.",
-        "at": "2026-10-24T00:34:47.138Z"
+        "reason": "About using GitHub Copilot to automate documentation; the AI is a coding aid, not a Copilot capability built into Business Central.",
+        "at": "2026-10-25T16:49:37.141Z"
       },
       "video/jWJc_D67Vfw@54f5ff97b64f3786": {
         "verdict": "drop",
-        "reason": "It's a general talk on adopting AI tools like ChatGPT and Claude, too general for this section.",
-        "at": "2026-10-24T00:34:47.138Z"
+        "reason": "A general talk on adopting and learning AI tools like ChatGPT and Claude, too broad for this section.",
+        "at": "2026-10-25T16:49:37.141Z"
       },
       "video/lNASlydCidI@22cc3fc62993bd91": {
         "verdict": "keep",
-        "reason": "It directly demonstrates the generative AI developer toolkit: the PromptDialog page type, the AI module, capability registration and Azure OpenAI calls.",
-        "at": "2026-10-24T00:34:47.138Z"
+        "reason": "Shows the generative AI developer toolkit directly: the Prompt Dialog page type, the AI module, capability registration and Azure OpenAI completions.",
+        "at": "2026-10-25T16:49:37.141Z"
       },
       "video/nbGw2g3KMXI@c6dea39b6e68bacc": {
         "verdict": "drop",
-        "reason": "It's about building agents in AL, which the sibling section 'Designing and coding agents' documents.",
-        "at": "2026-10-24T00:34:47.138Z"
+        "reason": "About building agents in AL, which the sibling section 'Designing and coding agents' documents instead.",
+        "at": "2026-10-25T16:49:37.141Z"
       },
       "video/tpAh4q3h8T8@8c73a10fc99e408b": {
         "verdict": "drop",
-        "reason": "It's a keynote that mentions GitHub Copilot in passing as a developer productivity tool, not the Copilot developer toolkit.",
-        "at": "2026-10-24T00:34:47.138Z"
+        "reason": "A keynote that mentions GitHub Copilot in passing among debugger and Power BI features, not the Copilot developer tools.",
+        "at": "2026-10-25T16:49:37.141Z"
       },
       "post/aardvarklabs-blog/1609@e19ddf28b0a4650a": {
         "verdict": "keep",
-        "reason": "Builds a Copilot capability in AL with Azure OpenAI, including capability registration and prompt setup, which is what this section covers.",
-        "at": "2026-10-24T00:34:48.884Z"
+        "reason": "Walks through building a Copilot capability in AL with Azure OpenAI, including capability registration and prompts.",
+        "at": "2026-10-25T16:49:37.531Z"
       },
       "post/aardvarklabs-blog/1891@4b250d20fdf70c35": {
         "verdict": "keep",
-        "reason": "Shows an AL extension calling AI to build a multi-step Copilot-style feature, which uses this section's developer tools.",
-        "at": "2026-10-24T00:34:48.884Z"
+        "reason": "Shows how to build an AI-assisted process in AL that calls Azure OpenAI to extract keywords for item recommendations.",
+        "at": "2026-10-25T16:49:37.531Z"
       },
       "post/aardvarklabs-blog/2663@7b4c6df359dde05f": {
         "verdict": "keep",
-        "reason": "Compares SetAuthorization and SetManagedResourceAuthorization, two ways AL code can authenticate to Azure OpenAI, which is part of the section's toolkit.",
-        "at": "2026-10-24T00:34:48.884Z"
+        "reason": "Compares SetAuthorization with SetManagedResourceAuthorization for Azure OpenAI calls from AL, which is part of the Copilot developer toolkit.",
+        "at": "2026-10-25T16:49:37.531Z"
       },
       "post/aardvarklabs-blog/2965@d2bf757344173418": {
         "verdict": "keep",
-        "reason": "Builds AL AI features on the managed AI resource, using the developer tools for Copilot.",
-        "at": "2026-10-24T00:34:48.884Z"
+        "reason": "Builds an AI feature in AL using the Business Central managed AI resource with grounded search.",
+        "at": "2026-10-25T16:49:37.531Z"
       },
       "post/aardvarklabs-blog/3564@e823a16dc5428d34": {
         "verdict": "drop",
-        "reason": "About VS Code skills for AI-assisted coding, not about building Copilot features in Business Central.",
-        "at": "2026-10-24T00:34:48.884Z"
-      },
-      "post/demiliani-com/17529@da7c1dd0df64138f": {
-        "verdict": "drop",
-        "reason": "A book announcement that only lists topics across many approaches; too general to tie to this section.",
-        "at": "2026-10-24T00:34:48.884Z"
+        "reason": "About VS Code skills for AI-assisted AL coding, not about building Copilot features with the toolkit.",
+        "at": "2026-10-25T16:49:37.531Z"
       },
       "post/gerardorenteria-blog/11354@96266a6dd9a4e882": {
         "verdict": "drop",
-        "reason": "About using the Learn Docs MCP server in GitHub Copilot while coding, not about building Copilot features in Business Central.",
-        "at": "2026-10-24T00:34:48.884Z"
+        "reason": "About connecting GitHub Copilot to the Learn Docs MCP server for development help, not about the in-product Copilot toolkit.",
+        "at": "2026-10-25T16:49:37.531Z"
       },
       "post/gerardorenteria-blog/13993@8ca8589c6cc08b08": {
         "verdict": "drop",
-        "reason": "About VS Code agent skills for checking extension health, not about the Business Central Copilot developer toolkit.",
-        "at": "2026-10-24T00:34:48.884Z"
+        "reason": "About VS Code agent skills and MCPs for checking extension health, not about building Copilot capabilities in AL.",
+        "at": "2026-10-25T16:49:37.531Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@b94f6d6fdd1fc4fe": {
         "verdict": "drop",
-        "reason": "About vibe coding with GitHub Copilot (AI-assisted coding), not about building Copilot capabilities.",
-        "at": "2026-10-24T00:34:48.884Z"
+        "reason": "About vibe coding with GitHub Copilot, which is AI-assisted development rather than integrating AI into Business Central.",
+        "at": "2026-10-25T16:49:37.531Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/one-parser-six-tools/@9de2fa178d363f8e": {
+        "verdict": "drop",
+        "reason": "About a tree-sitter AL parser and the developer tools built on it, which has nothing to do with the Copilot toolkit.",
+        "at": "2026-10-25T16:49:37.531Z"
       }
     },
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central": {
@@ -7301,138 +7368,138 @@
     "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol": {
       "post/aardvarklabs-blog/2724@452d3cfe6e36cc7f": {
         "verdict": "keep",
-        "reason": "Shows how to set up the Business Central MCP server: per-API permissions, connecting from Copilot Studio, and security.",
-        "at": "2026-10-24T00:36:48.313Z"
+        "reason": "Shows how to set up a Business Central MCP server configuration with per-API permissions and use it from Copilot Studio.",
+        "at": "2026-10-25T16:49:39.639Z"
       },
       "post/aardvarklabs-blog/3775@a2c94160e716652b": {
         "verdict": "keep",
-        "reason": "Step-by-step guide to connecting Claude Desktop to the Business Central MCP server.",
-        "at": "2026-10-24T00:36:48.313Z"
+        "reason": "Step-by-step guide to connecting Claude to the Business Central MCP server, including the Entra and Business Central app registration.",
+        "at": "2026-10-25T16:49:39.639Z"
       },
       "post/bertverbeek-nl/1183@836d745bea423af5": {
         "verdict": "keep",
-        "reason": "Shows authenticating to the Business Central MCP endpoint and connecting agents built with the Microsoft Agent Framework.",
-        "at": "2026-10-24T00:36:48.313Z"
-      },
-      "post/demiliani-com/17529@da7c1dd0df64138f": {
-        "verdict": "drop",
-        "reason": "A book announcement that names MCP as just one chapter among many AI topics; too general.",
-        "at": "2026-10-24T00:36:48.313Z"
+        "reason": "Covers how to authenticate and connect to the Business Central MCP endpoint from pro-code agents built with Microsoft Agent Framework.",
+        "at": "2026-10-25T16:49:39.639Z"
       },
       "post/gerardorenteria-blog/12682@19ba796716115831": {
         "verdict": "keep",
-        "reason": "Explains the AboutText property, which describes APIs exposed through the MCP server to AI tools.",
-        "at": "2026-10-24T00:36:48.313Z"
+        "reason": "Explains the AboutText property, which describes each API to AI tools when it is exposed through the Business Central MCP server.",
+        "at": "2026-10-25T16:49:39.639Z"
       },
       "post/katson-com/4678@3149d70b46e0ffbd": {
         "verdict": "keep",
-        "reason": "Covers connecting external agents to the Business Central MCP server through a proxy, including the MCP Server Configuration page.",
-        "at": "2026-10-24T00:36:48.313Z"
+        "reason": "Covers connecting external agents to the Business Central MCP server through a proxy, including the MCP Server Configuration prerequisites.",
+        "at": "2026-10-25T16:49:39.639Z"
       },
       "post/katson-com/5026@9a27bff87e7919fe": {
         "verdict": "keep",
-        "reason": "Shows enabling Business Central's native MCP server and connecting Claude Desktop to it.",
-        "at": "2026-10-24T00:36:48.313Z"
+        "reason": "Shows how to enable the native Business Central MCP server and connect Claude Desktop to it.",
+        "at": "2026-10-25T16:49:39.639Z"
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/bc-toolbox-vs-microsoft-mcp/@f3feb8805d7b7523": {
+        "verdict": "drop",
+        "reason": "About AL development MCP servers for coding and verification, not the Business Central MCP server integration.",
+        "at": "2026-10-25T16:49:39.639Z"
       },
       "post/waldo-be/318371@3c9365f95f687133": {
         "verdict": "drop",
-        "reason": "A telemetry analysis tool with its own bundled MCP, not the Business Central MCP server integration.",
-        "at": "2026-10-24T00:36:48.313Z"
+        "reason": "A telemetry analysis extension that bundles its own MCP tool; it is not about integrating with the Business Central MCP server.",
+        "at": "2026-10-25T16:49:39.639Z"
       },
       "video/0WAOtNaKjws@40140be95a26ae18": {
         "verdict": "keep",
-        "reason": "Covers new MCP server features: configuration validation, import/export and multiple MCP hosts.",
-        "at": "2026-10-24T00:36:48.313Z"
+        "reason": "Covers new Business Central MCP server features: configuration validation, import/export, multiple hosts and connection strings.",
+        "at": "2026-10-25T16:49:39.639Z"
       },
       "video/9CW5mydS9Vs@ac90087b90c2ab2e": {
         "verdict": "drop",
-        "reason": "About testing frameworks; its MCP server for running tests is a developer tool, not this integration.",
-        "at": "2026-10-24T00:36:48.313Z"
+        "reason": "A testing session in which an MCP server for running tests is only one minor item.",
+        "at": "2026-10-25T16:49:39.639Z"
       },
       "video/AMVAiPTfSrU@21493b8d8e455834": {
         "verdict": "drop",
-        "reason": "Mainly about partner-built agents; the Business Central MCP server is mentioned only in passing.",
-        "at": "2026-10-24T00:36:48.313Z"
+        "reason": "About partner agent solutions; the MCP server comes up only in passing.",
+        "at": "2026-10-25T16:49:39.639Z"
       },
       "video/C5cmG3sNjUg@92cb181a221d6a25": {
         "verdict": "keep",
-        "reason": "Advanced MCP server topics: named configurations, dynamic tools, AboutText and the MCP proxy.",
-        "at": "2026-10-24T00:36:48.313Z"
+        "reason": "Covers advanced MCP server topics: dynamic and static tools, named configurations, About Text and the proxy for other hosts.",
+        "at": "2026-10-25T16:49:39.639Z"
       },
       "video/EpDIrJE0HzA@ddd48c8e193a3756": {
         "verdict": "keep",
-        "reason": "Shows building a Copilot Studio agent on the Business Central MCP server, including the MCP Configurations page.",
-        "at": "2026-10-24T00:36:48.313Z"
+        "reason": "Shows the Business Central MCP server and the MCP Configurations page being used to build a Copilot Studio agent.",
+        "at": "2026-10-25T16:49:39.639Z"
       },
       "video/GeT5E_f9A9Q@a2697854634afebf": {
         "verdict": "keep",
-        "reason": "Introduces MCP server configurations, dynamic tool mode, bound actions and the authentication model.",
-        "at": "2026-10-24T00:36:48.313Z"
+        "reason": "Introduces MCP server configurations, covering dynamic tool mode, bound actions and the authentication model.",
+        "at": "2026-10-25T16:49:39.639Z"
       },
       "video/iViHfCgL2L8@df2560413cda5a7f": {
         "verdict": "keep",
-        "reason": "Introduces the Business Central MCP server, its configurations and Copilot Studio integration, which is the section's subject.",
-        "at": "2026-10-24T00:36:55.178Z"
+        "reason": "Directly introduces the Business Central MCP server, its configurations and Copilot Studio integration.",
+        "at": "2026-10-25T16:49:43.539Z"
       },
       "video/LerAo-GGl8U@b236d99e6c042480": {
-        "verdict": "keep",
-        "reason": "Covers MCP basics and connecting a Business Central MCP server to clients like VS Code and Copilot Studio, with authentication.",
-        "at": "2026-10-24T00:36:55.178Z"
+        "verdict": "drop",
+        "reason": "About the separate admin MCP server for admin center API tenant administration, not the Business Central MCP server integration this section documents.",
+        "at": "2026-10-25T16:49:43.539Z"
       },
       "video/nMiLzdfidos@7aefbb460827884f": {
         "verdict": "drop",
-        "reason": "An AL language what's-new roundup; the AL MCP server is a small developer-tooling part that belongs to the developer tools sibling.",
-        "at": "2026-10-24T00:36:55.178Z"
+        "reason": "AL language release overview; its AL MCP server items belong to the developer tools sibling section.",
+        "at": "2026-10-25T16:49:43.539Z"
       },
       "video/q3xnjJD32kk@d199027ff42fba0f": {
         "verdict": "keep",
-        "reason": "Covers new Business Central MCP server tools, configuration UX and the security toggle.",
-        "at": "2026-10-24T00:36:55.178Z"
+        "reason": "Covers new Business Central MCP server tools, configuration UX and security settings.",
+        "at": "2026-10-25T16:49:43.539Z"
       },
       "video/qs1cg-GoDeQ@4d105923c45e012e": {
         "verdict": "keep",
-        "reason": "Covers new Business Central MCP server data tools, the configuration UI and Copilot Studio use.",
-        "at": "2026-10-24T00:36:55.178Z"
+        "reason": "Covers Business Central MCP server data tools, configuration UI and Copilot Studio use.",
+        "at": "2026-10-25T16:49:43.539Z"
       },
       "video/rm-FstU_I80@ba54971afc7aaa8f": {
         "verdict": "keep",
-        "reason": "Deep dive on configuring the Business Central MCP server and connecting it in Copilot Studio and VS Code.",
-        "at": "2026-10-24T00:36:55.178Z"
+        "reason": "In-depth walkthrough of the Business Central MCP server, its configuration and Copilot Studio connection.",
+        "at": "2026-10-25T16:49:43.539Z"
       },
       "video/tMqCSibSRug@bea35e2233934e97": {
         "verdict": "drop",
         "reason": "About the ALCops code analyzer; its MCP server is a side feature of a linting tool.",
-        "at": "2026-10-24T00:36:55.178Z"
+        "at": "2026-10-25T16:49:43.539Z"
       },
       "video/UFLo2XGGS14@9ca37da61d82c657": {
         "verdict": "drop",
-        "reason": "About developer debugging and profiling through AL tooling MCP, which the developer tools sibling covers.",
-        "at": "2026-10-24T00:36:55.178Z"
+        "reason": "About developer debugging/profiling MCP tooling in the AL extension, a developer-tools subject.",
+        "at": "2026-10-25T16:49:43.539Z"
       },
       "video/uMKLsKfKPc0@7931656655aa3538": {
         "verdict": "drop",
-        "reason": "A broad Copilot Studio agent-building session that only touches the Business Central MCP connection in passing.",
-        "at": "2026-10-24T00:36:55.178Z"
+        "reason": "Copilot Studio agent-building session that mentions the Business Central MCP server connection only in passing.",
+        "at": "2026-10-25T16:49:43.539Z"
       },
       "video/xWOddQt1GUM@b37a64fe3602a41b": {
         "verdict": "drop",
-        "reason": "A general podcast on AI in AL development; MCP is mentioned only in a developer-tooling context.",
-        "at": "2026-10-24T00:36:55.178Z"
+        "reason": "General podcast on AI in AL development; MCP mentions are passing and about developer tooling.",
+        "at": "2026-10-25T16:49:43.539Z"
       },
       "video/yIYUCSK0Bh4@d35f3695dd657589": {
         "verdict": "drop",
-        "reason": "About benchmarking coding agents; AL-MCP is a minor developer-tooling mention.",
-        "at": "2026-10-24T00:36:55.178Z"
+        "reason": "About benchmarking coding agents; AL-MCP is a passing developer-tool mention.",
+        "at": "2026-10-25T16:49:43.539Z"
       },
       "video/zei-IszvYNU@8eb722c8c56e1306": {
         "verdict": "keep",
-        "reason": "Shows adding Microsoft API groups as tools in the Business Central MCP server configuration.",
-        "at": "2026-10-24T00:36:55.178Z"
+        "reason": "Explains exposing Microsoft API groups as tools in the Business Central MCP server configuration.",
+        "at": "2026-10-25T16:49:43.539Z"
       },
       "video/zQg48VT0crU@0efa62fb9983f330": {
         "verdict": "drop",
-        "reason": "A podcast on AI models for AL development; the MCP mentions are about developer tooling, not this section.",
-        "at": "2026-10-24T00:36:55.178Z"
+        "reason": "Podcast on AI workflows for AL development; the AL MCP server mention is developer tooling, not this section.",
+        "at": "2026-10-25T16:49:43.539Z"
       }
     },
     "topic/dev-itpro/integration/connect-apps": {
@@ -8054,83 +8121,83 @@
     "topic/dev-itpro/performance": {
       "post/demiliani-com/11962@59c4b3f4f738556f": {
         "verdict": "keep",
-        "reason": "Shows a way to make API responses smaller and faster with Brotli compression, which is performance optimization.",
-        "at": "2026-10-25T12:51:41.717Z"
+        "reason": "Covers making OData/API responses smaller and faster with compression, a performance technique for web service clients.",
+        "at": "2026-10-25T16:49:47.622Z"
       },
       "post/demiliani-com/13096@d983992cb248690a": {
         "verdict": "keep",
-        "reason": "Covers the client-side factors behind UI performance (latency, browser, hardware) and how to measure them.",
-        "at": "2026-10-25T12:51:41.717Z"
+        "reason": "Covers client-side factors in UI performance (latency, browser, hardware) and how to measure them.",
+        "at": "2026-10-25T16:49:47.622Z"
       },
       "post/demiliani-com/13254@1e5abc180a70baaf": {
         "verdict": "keep",
-        "reason": "Explains how to use the Database Wait Statistics page to find performance bottlenecks.",
-        "at": "2026-10-25T12:51:41.717Z"
+        "reason": "Explains how to read the Database Wait Statistics page to find performance bottlenecks.",
+        "at": "2026-10-25T16:49:47.622Z"
       },
       "post/demiliani-com/13369@6629bda418af7616": {
         "verdict": "keep",
-        "reason": "Uses telemetry to tell whether slow pages come from the network or from the code.",
-        "at": "2026-10-25T12:51:41.717Z"
+        "reason": "Uses page-view telemetry on network speed and hardware to work out whether slow performance comes from the client's setup or the code.",
+        "at": "2026-10-25T16:49:47.622Z"
       },
       "post/duiliotacconi-com/1457@4876ff8966589696": {
         "verdict": "keep",
-        "reason": "Covers the 26.x locking and FlowField changes that improve performance, with real deadlock and page-load results.",
-        "at": "2026-10-25T12:51:41.717Z"
+        "reason": "Reports real-world results from the version 26 performance features (less-locking posting, skipping calculation of hidden FlowFields) and how to tune around them.",
+        "at": "2026-10-25T16:49:47.622Z"
       },
       "post/duiliotacconi-com/1624@a371d282bf3e4643": {
         "verdict": "keep",
-        "reason": "Reviews the performance enhancements in version 27, such as FlowField SQL optimization and new locking functions.",
-        "at": "2026-10-25T12:51:41.717Z"
+        "reason": "Walks through the performance improvements in version 27, such as combined FlowField calculation, SQL statements in profiles and new AL locking functions.",
+        "at": "2026-10-25T16:49:47.622Z"
       },
       "post/duiliotacconi-com/2001@bbcde3b30b8db4a5": {
         "verdict": "keep",
-        "reason": "Covers disabling and enabling indexes to improve write performance, plus the index statistics used to decide.",
-        "at": "2026-10-25T12:51:41.717Z"
+        "reason": "Explains how to use index management statistics to disable unused indexes and speed up writes.",
+        "at": "2026-10-25T16:49:47.622Z"
       },
-      "post/miljan-rs/750@e083091accc58cf5": {
+      "post/sshadows-dk/https://sshadows.dk/blog/business-central-on-linux/@a4b4ced1fc978706": {
         "verdict": "drop",
-        "reason": "It is really about Analysis Mode pivoting, an analytics feature; slowness on large datasets is only an incidental limitation.",
-        "at": "2026-10-25T12:51:41.717Z"
+        "reason": "About running Business Central on Linux through Wine; the faster build times are a side result, not about Business Central performance.",
+        "at": "2026-10-25T16:49:47.622Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/@aea1381f91018eec": {
         "verdict": "keep",
-        "reason": "Detailed guidance on table indexes, SIFT and columnstore trade-offs, which is core performance documentation.",
-        "at": "2026-10-25T12:51:44.966Z"
+        "reason": "Directly explains index design and its read/write trade-offs, a core Business Central performance topic.",
+        "at": "2026-10-25T16:49:50.747Z"
       },
       "post/waldo-be/317739@5b3804a03ad435cc": {
         "verdict": "drop",
-        "reason": "About managing sessions in the Admin Center, which the Administration section covers; performance comes up only as a side benefit.",
-        "at": "2026-10-25T12:51:44.966Z"
+        "reason": "Mainly about managing sessions in the Admin Center, which Administration documents; performance comes up only as a reason to cancel sessions.",
+        "at": "2026-10-25T16:49:50.747Z"
       },
       "post/waldo-be/318212@8029f096336be096": {
         "verdict": "keep",
-        "reason": "Covers troubleshooting performance with the Missing Indexes page and telemetry.",
-        "at": "2026-10-25T12:51:44.966Z"
+        "reason": "Covers performance troubleshooting with the Missing Indexes page and telemetry.",
+        "at": "2026-10-25T16:49:50.747Z"
       },
       "video/D7GxnNiGQ14@2446d7df83cf29ee": {
         "verdict": "keep",
-        "reason": "Shows page background tasks, the task scheduler and job queue as ways to improve how fast the product feels to users.",
-        "at": "2026-10-25T12:51:44.966Z"
+        "reason": "Shows performance techniques using page background tasks, the task scheduler and the job queue for asynchronous processing.",
+        "at": "2026-10-25T16:49:50.747Z"
       },
       "video/G0avZpiDFtI@2e57a6a480e57859": {
-        "verdict": "drop",
-        "reason": "A mixed release-wave overview of server, report and endpoint features where performance items are only a few among many.",
-        "at": "2026-10-25T12:51:44.966Z"
+        "verdict": "keep",
+        "reason": "Includes performance features: calculating only visible flow fields, SetAutoCalcFields, faster Copy Company and missing indexes page enhancements.",
+        "at": "2026-10-25T16:49:50.747Z"
       },
       "video/LW2JNV01sJo@4d9ed486295354d5": {
         "verdict": "drop",
-        "reason": "Introduces a broad initiative with too little detail to tell which documented performance capability it covers.",
-        "at": "2026-10-25T12:51:44.966Z"
+        "reason": "High-level talk about a Microsoft initiative, too general to tie to anything the section documents.",
+        "at": "2026-10-25T16:49:50.747Z"
       },
       "video/snVsG69X-kw@96bf3633cbaa6ef7": {
         "verdict": "keep",
-        "reason": "Covers cloud scalability, the performance profiler, the database locks and missing indexes pages, and telemetry for performance.",
-        "at": "2026-10-25T12:51:44.966Z"
+        "reason": "Covers cloud scalability, the performance profiler, the database locks and missing indexes pages, and the performance toolkit.",
+        "at": "2026-10-25T16:49:50.747Z"
       },
       "video/XcQFvNnKpxk@41bd29e0fe59a068": {
         "verdict": "keep",
-        "reason": "Demonstrates performance testing with the Performance Toolkit (BCPT), which the performance documentation covers.",
-        "at": "2026-10-25T12:51:44.966Z"
+        "reason": "Shows performance testing with the Business Central Performance Toolkit.",
+        "at": "2026-10-25T16:49:50.747Z"
       }
     },
     "topic/dev-itpro/responsible-ai": {

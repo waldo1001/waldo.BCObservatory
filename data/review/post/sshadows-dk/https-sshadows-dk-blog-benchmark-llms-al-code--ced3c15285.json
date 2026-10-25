@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/benchmark-llms-al-code/",
+  "input_hash": "a2322a2770ef4b1787f810be39ed2f36c88ca6292e1e605a0c83c656c893dac4",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-25T16:50:16.573Z",
+  "issues": [
+    "The task count, two-attempt scoring, 10-point penalty and 66% result for Opus 4.5 all match the post.",
+    "The Assert codeunit and the Product Category table are both named in the post.",
+    "All three quotes appear word for word in the post."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045416,
+    "posts_in_call": 4
+  }
+}

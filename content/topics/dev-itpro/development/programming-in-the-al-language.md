@@ -12,7 +12,7 @@ review:
   at: "2026-10-22T01:12:24.802Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-25T16:50:34.247Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -359,6 +359,7 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/using-net-on-premises-only
   localizations: []
   videos:
+    - video/a8W1x0xwkv4
     - video/lH2Z4xfdhmY
     - video/QhHgkCe3kkk
   posts:
@@ -393,7 +394,7 @@ children:
 coverage:
   learn: 340
   code: 36
-  video: 2
+  video: 3
   blog: 1
   guideline: 0
 bc_forms:
@@ -493,6 +494,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#155 Add read-only AL development plan guidance](../../../changes/bcquality/155.md) (code change): "Add read-only AL development plan guidance enriching AL development plans with applicable constraints"
 - [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../posts/aardvarklabs-blog/2603.md) (community post): "demonstrates how to parse and import delimited files using AL"
+- [... but can it play DOOM? (In Business Central)](../../../videos/a8W1x0xwkv4.md) (video): "AL development; user control host; typescript; webgl rendering; javascript interop"
 - [What’s New: Data Search Improvements (For Developers) (2024 release wave 2)](../../../videos/lH2Z4xfdhmY.md) (video): "Modern search; full-text search; optimized for text search property"
 - [What's New in AL: Embedding Resources in Applications (2024 release wave 2)](../../../videos/QhHgkCe3kkk.md) (video): "Embedding resources in applications; get resource function; Multiple resource folders"
 

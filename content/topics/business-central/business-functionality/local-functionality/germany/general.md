@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:23.185Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T16:50:34.247Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,7 +58,8 @@ links:
     - topic/business-central/business-functionality/local-functionality/germany
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/miljan-rs/812
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -72,7 +73,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 18a9ff2a5630cac50244eda874f01c9ab37272f84645242ded52e6a6199bfba5
@@ -108,5 +109,11 @@ Start with the page that matches your task. Use the currency exchange rates page
 - [EU Sales List in Germany](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/eu-sales-list-in-germany): In Germany, the EU sales list is submitted to the Bundeszentralamt für Steuern (BZSt) through the ELMA5 interface on the BZSt Online Portal.
 - [Include Company Registration Numbers on Sales and Purchase Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports): Print company registration numbers on specific sales reports and purchase reports.
 - [Print general ledger setup information [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-print-general-ledger-setup-information): Run the G/L Setup Information report to view the master data before using the German version of Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Polishing xRechnung and ZUGFeRD in Business Central](../../../../../posts/miljan-rs/812.md) (community post): "xRechnung and ZUGFeRD formats built on the E-Documents framework"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

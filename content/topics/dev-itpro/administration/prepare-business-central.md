@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:04.999Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T16:50:34.247Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -145,6 +145,7 @@ links:
   videos:
     - video/lRiED3AUfps
   posts:
+    - post/miljan-rs/639
     - post/thinkaboutit-be/7443
   guidelines: []
 learn_toc_path:
@@ -157,7 +158,7 @@ coverage:
   learn: 13
   code: 13
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 1340
@@ -274,6 +275,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Understanding the Contoso Demo Data Tool in Business Central](../../../posts/miljan-rs/639.md) (community post): "creating demo-ready companies in Business Central, starting with 2024 Wave 2 Update 3"
 - [How Do I: Create a Business Central Trial From Scratch](../../../posts/thinkaboutit-be/7443.md) (community post): "Creating a Business Central trial requires starting with a clean Microsoft 365 trial"
 - [Getting Started with Business Central (2025)](../../../videos/lRiED3AUfps.md) (video): "getting started; sample company; data migration; setup guide; company creation"
 

@@ -5,12 +5,13 @@
   "source": "sshadows-dk",
   "published_at": "2026-03-03T00:00:00.000Z",
   "words": 1059,
-  "summary": "An extension adds AI-powered performance analysis directly into Business Central's Performance Profiler, detecting anti-patterns and explaining results without switching tools. It helps developers understand slow transactions quickly by identifying root causes like N+1 queries, unfiltered record operations, and event subscriber hotspots.",
+  "summary": "An open source extension adds an Analyze with AL Perf button to the Business Central Performance Profiler page. It sends the profile to an external analyzer that ranks hotspots, flags anti-patterns such as N+1-style repeated calls, method dominance, deep call stacks and event subscriber hotspots, and returns a plain-English explanation written by Claude. A companion web app also accepts AL source snapshots, which lets it detect unfiltered queries and missing SetLoadFields.",
   "key_points": [
-    "One-click analysis button on the Performance Profiler page runs pattern detection and AI-powered explanation of performance bottlenecks",
-    "Detects anti-patterns including N+1 queries, unfiltered FindSet, method dominance, deep call stacks, and event subscriber hotspots",
-    "Optional source code upload enables syntactic analysis to prove nesting and catch performance issues not yet visible in profiles",
-    "Available as BC extension for quick profile-only analysis or web app for full analysis with source correlation"
+    "One button on the Performance Profiler page sends the recorded profile for analysis, and results appear in the client in about 20 to 30 seconds",
+    "Profile-only analysis flags single method dominance, repeated sibling calls (N+1), event subscriber hotspots and deep call stacks, each with a severity and a suggestion",
+    "Uploading the VS Code snapshot zip with AL source to the web app proves loop nesting and catches unfiltered record operations and missing SetLoadFields",
+    "The extension does the quick profile-only path, while the web app at alperf.sshadows.dk does the full analysis with source correlation",
+    "Profiles are sent over HTTPS, analyzed in memory and not stored on the server"
   ],
   "systems": [
     "development",

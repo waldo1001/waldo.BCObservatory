@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/business-central-on-linux/",
+  "page_id": "post/sshadows-dk/https-sshadows-dk-blog-business-central-on-linux--f313e38282",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "The moment you try to start the BC service tier on Linux, it crashes while looking for Windows APIs.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "The web client doesn't work yet. I haven't put much effort into it since it wasn't the main goal.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "The management endpoints don't function. We had to write custom AL code to run tests via OData instead.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Some extensions that use uncommon .NET APIs crash immediately. If your extension does something exotic with Windows interop, it won't work here.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005438,
+    "posts_in_call": 4
+  }
+}

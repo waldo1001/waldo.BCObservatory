@@ -7,7 +7,7 @@
   "url": "https://sshadows.dk/blog/business-central-on-linux/",
   "published_at": "2026-01-31T00:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T16:41:48.094Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-25T16:42:17.054Z",
       "path": "vault:posts/sshadows-dk/https-sshadows-dk-blog-business-central-on-linux--f313e38282.md",
       "words": 1880
+    },
+    "extracted": {
+      "at": "2026-10-25T16:42:24.896Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.011669
+    },
+    "summarized": {
+      "at": "2026-10-25T16:42:24.897Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T16:42:24.898Z"
+    },
+    "published": {
+      "at": "2026-10-25T16:42:24.909Z",
+      "path": "content/posts/sshadows-dk/https-sshadows-dk-blog-business-central-on-linux--f313e38282.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,10 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e6383abf055ebc8e9844d097d5e89dd236944d857cf102c424e6c5b85b19b000"
+  "output_hash": "dbc6812eb9e7b875ab193b0c6498bc6a991a1abfedf115f0e62ecdd2d75c06a0",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-25T16:50:16.573Z"
+  }
 }

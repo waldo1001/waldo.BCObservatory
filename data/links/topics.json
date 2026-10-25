@@ -23094,24 +23094,37 @@
     "post/miljan-rs/639": {
       "kind": "post",
       "key": "post/miljan-rs/639",
-      "hash": "d7616bdd40cf12c14a7a7ea253326f4208f6a3a97eea4f0033d8d95c609c36e7",
+      "hash": "91966edefac2357b16190e5b1389b8fe7bbe5625c253eee7777ddb9a115e783e",
       "title": "Understanding the Contoso Demo Data Tool in Business Central",
       "source": "miljan-rs",
-      "at": "2026-10-25T12:49:17.672Z",
+      "at": "2026-10-25T16:47:30.284Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/company-hub",
-          "quote": "Contoso Demo Data Tool is a new, extensible coded approach that replaced RapidStart Configuration Packages for creating demo-ready companies"
+          "topic": "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica",
+          "quote": "supports multiple modules across finance, manufacturing, warehouse, and other business functions"
         },
         {
-          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-finance",
-          "quote": "supports modular initialization covering Common, Foundation, Finance, Manufacturing, Warehouse"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing",
-          "quote": "supports modular initialization covering Common, Foundation, Finance, Manufacturing, Warehouse"
+          "topic": "topic/dev-itpro/administration/prepare-business-central",
+          "quote": "creating demo-ready companies in Business Central, starting with 2024 Wave 2 Update 3"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T16:47:19.824Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/business-functionality/company-hub",
+            "reason": "It covers the Contoso Demo Data Tool for setting up demo companies, not the Company hub feature for working across multiple companies."
+          },
+          {
+            "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-finance",
+            "reason": "It is about the Contoso demo data tool for setting up companies, which covers many modules, not about setting up finance."
+          },
+          {
+            "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing",
+            "reason": "The post is about the Contoso demo data tool for creating companies, and manufacturing appears only as one module on a list, not as manufacturing setup."
+          }
+        ]
+      }
     },
     "post/miljan-rs/698": {
       "kind": "post",
@@ -23134,82 +23147,99 @@
     "post/miljan-rs/750": {
       "kind": "post",
       "key": "post/miljan-rs/750",
-      "hash": "e083091accc58cf577f332c52a76679a69fa63ab25b5cf1ab09954855d671d38",
+      "hash": "105cf3064b19220d5d3d2392cdb6bc2abaad69f2d6acdc2c87e49c253f145af9",
       "title": "How to Accidentally Break Business Central (for Fun)",
       "source": "miljan-rs",
-      "at": "2026-10-25T12:49:17.372Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/performance",
-          "quote": "Pivot mode in Analysis Mode becomes unresponsive when dealing with thousands"
-        },
-        {
-          "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler",
-          "quote": "performance limitation when using Analysis Mode for complex data pivoting"
-        }
-      ]
+      "at": "2026-10-25T16:47:33.904Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T16:47:19.824Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/performance",
+            "reason": "It is really about Analysis Mode pivoting, an analytics feature; slowness on large datasets is only an incidental limitation."
+          },
+          {
+            "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler",
+            "reason": "About Analysis Mode pivot performance limits, not the Performance Profiler."
+          }
+        ]
+      }
     },
     "post/miljan-rs/812": {
       "kind": "post",
       "key": "post/miljan-rs/812",
-      "hash": "4fa83c52df48c5b1c18e1718d93800a4e02ee54757701586894e99774195a216",
+      "hash": "1db18a635b45dd6eb0454c9fad64461b659beb2dd895acafee336565e31b1523",
       "title": "Polishing xRechnung and ZUGFeRD in Business Central",
       "source": "miljan-rs",
-      "at": "2026-10-25T12:49:18.124Z",
+      "at": "2026-10-25T16:47:36.248Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/local-functionality/france/e-invoicing",
-          "quote": "German e-invoicing formats xRechnung and ZUGFeRD in Business Central have been improved"
+          "topic": "topic/business-central/business-functionality/local-functionality/germany/general",
+          "quote": "xRechnung and ZUGFeRD formats built on the E-Documents framework"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T16:47:19.824Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/business-functionality/local-functionality/france/e-invoicing",
+            "reason": "It covers the German xRechnung and ZUGFeRD formats, not France's e-invoicing localization."
+          }
+        ]
+      }
     },
     "post/miljan-rs/866": {
       "kind": "post",
       "key": "post/miljan-rs/866",
-      "hash": "69b7a81cda7677e1e9b415d4256b1220d4785e6e9d1594ea3b60a4d4ca274b04",
+      "hash": "ab181e156b842fd52c128c0969ff986b77cdab8335bf322a00621a317d2e2f58",
       "title": "Simple Text Editor for Business Central",
       "source": "miljan-rs",
-      "at": "2026-10-25T12:49:19.345Z",
+      "at": "2026-10-25T16:47:30.613Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/extensibility",
-          "quote": "A lightweight AL extension provides a simple text editor dialog for Business Central"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
+          "quote": "modal dialog for BLOB field text storage. Minimal design"
         },
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
-          "quote": "opening a clean modal editor accessible via ribbon actions on customer lists"
+          "topic": "topic/dev-itpro/development/extensibility",
+          "quote": "lightweight AL extension provides a simple text editor"
         }
       ]
     },
     "post/miljan-rs/908": {
       "kind": "post",
       "key": "post/miljan-rs/908",
-      "hash": "8cff2b6e3f16709146352461e9c7c9de31271a6f30a9ce5c10e8aa1a301004b2",
+      "hash": "10fa24e1f939962edd98cafa4ae99fa870c215486fed6d78528cec0aef378883",
       "title": "Oops, I Did It Again: Reversing G/L Transactions in Business Central",
       "source": "miljan-rs",
-      "at": "2026-10-25T12:49:17.490Z",
+      "at": "2026-10-25T16:47:28.207Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
-          "quote": "reversing General Ledger transactions in Business Central: batch reversal via G/L Register"
+          "quote": "three methods to reverse General Ledger transactions in Business Central"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance",
+          "quote": "Reverse Register on the G/L Registers page undoes a whole posted journal batch"
         }
       ]
     },
     "post/miljan-rs/966": {
       "kind": "post",
       "key": "post/miljan-rs/966",
-      "hash": "dec4d3de35fcaefaeacdd62187f15a276f0375c3a3e62456530235a1f24a984c",
+      "hash": "7cdd32a3a96bdb23aa670bdd52859311c31fdfceaaa955b4b6e6f5f7f49cee41",
       "title": "When “Errors” Don’t Stop the Process: A Hidden Risk in Business Central",
       "source": "miljan-rs",
-      "at": "2026-10-25T12:49:19.345Z",
+      "at": "2026-10-25T16:47:30.613Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/error-handling",
-          "quote": "ErrorBehavior::Collect allows code to continue after errors and save successful changes"
+          "quote": "ErrorBehavior::Collect allows code to continue after errors"
         },
         {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
-          "quote": "Safe usage pattern: validate first with error collection, then process normally"
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
+          "quote": "Safe usage pattern: validate first with error collection"
         }
       ]
     },
@@ -24646,6 +24676,224 @@
       "source": "sauravdhyani-com",
       "at": "2026-10-08T01:51:13.137Z",
       "matches": []
+    },
+    "post/sshadows-dk/https://sshadows.dk/blog/al-language-server-claude-code/": {
+      "kind": "post",
+      "key": "post/sshadows-dk/https://sshadows.dk/blog/al-language-server-claude-code/",
+      "hash": "847cf3661ce5069e589bc2c3c284ee6ae129f2e8f658779004ce4d3bf3762308",
+      "title": "Native AL Language Server Support in Claude Code",
+      "source": "sshadows-dk",
+      "at": "2026-10-25T16:47:30.613Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "AL Language Server Protocol integration, enabling symbol-aware code navigation"
+        }
+      ]
+    },
+    "post/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/": {
+      "kind": "post",
+      "key": "post/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/",
+      "hash": "7cfa417bbb1fa5fdb02099f5498020e0942a5ace1414d056e5465deebc802767",
+      "title": "AL LSP for Agents: Now in VS Code, and a New Home",
+      "source": "sshadows-dk",
+      "at": "2026-10-25T16:47:30.613Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "AL LSP for Agents brings compiler-powered code intelligence to VS Code Copilot"
+        },
+        {
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "eight Language Model Tools that give Copilot agent mode access to AL language server"
+        }
+      ]
+    },
+    "post/sshadows-dk/https://sshadows.dk/blog/al-perf-v2-deep-analysis/": {
+      "kind": "post",
+      "key": "post/sshadows-dk/https://sshadows.dk/blog/al-perf-v2-deep-analysis/",
+      "hash": "c6cef85518cd2df58f343d5ff422279346dc544531c1f70d895f879792001dcb",
+      "title": "AL Perf v2 Drops Friday. Here's What Changed.",
+      "source": "sshadows-dk",
+      "at": "2026-10-25T16:47:30.613Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "AI-powered performance diagnostics, enabling deeper root cause identification"
+        }
+      ]
+    },
+    "post/sshadows-dk/https://sshadows.dk/blog/bc-toolbox-vs-microsoft-mcp/": {
+      "kind": "post",
+      "key": "post/sshadows-dk/https://sshadows.dk/blog/bc-toolbox-vs-microsoft-mcp/",
+      "hash": "f3feb8805d7b75233136dd3e38c4c4f25c982da9494645985973a0453ae51200",
+      "title": "Microsoft Ships an AL MCP Server. So Why Did I Build My Own?",
+      "source": "sshadows-dk",
+      "at": "2026-10-25T16:47:30.613Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "Microsoft Ships an AL MCP Server. So Why Did I Build My Own?"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "code coverage, interactive debugging, profiling analysis, call graphs"
+        }
+      ]
+    },
+    "post/sshadows-dk/https://sshadows.dk/blog/benchmark-llms-al-code/": {
+      "kind": "post",
+      "key": "post/sshadows-dk/https://sshadows.dk/blog/benchmark-llms-al-code/",
+      "hash": "e871df272dd3c4e26fdde3dbafa81a32d1c03245612a96c15916674e803d8abc",
+      "title": "How I Benchmark LLMs on AL Code",
+      "source": "sshadows-dk",
+      "at": "2026-10-25T16:47:31.203Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "evaluate Large Language Models on AL code generation for Business Central"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+          "quote": "AL code generation; llm benchmarking; code quality evaluation"
+        }
+      ]
+    },
+    "post/sshadows-dk/https://sshadows.dk/blog/business-central-on-linux/": {
+      "kind": "post",
+      "key": "post/sshadows-dk/https://sshadows.dk/blog/business-central-on-linux/",
+      "hash": "a4b4ced1fc9787069a8a5cafccd35acb0e4d90c938575dddb201b0320f59a4f3",
+      "title": "Business Central on Linux? Here, hold my beer!",
+      "source": "sshadows-dk",
+      "at": "2026-10-25T16:47:31.193Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/administration",
+          "quote": "Business Central cannot run natively on Linux because it depends deeply on Windows APIs"
+        },
+        {
+          "topic": "topic/dev-itpro/performance",
+          "quote": "65% faster build times on optimized Linux containers compared to Windows"
+        }
+      ]
+    },
+    "post/sshadows-dk/https://sshadows.dk/blog/centralgauge-benchmark-update/": {
+      "kind": "post",
+      "key": "post/sshadows-dk/https://sshadows.dk/blog/centralgauge-benchmark-update/",
+      "hash": "5a06d6c33864d269d2b7ef56488965d175e80d23fd5fe780d496551095a9959e",
+      "title": "CentralGauge Benchmark Update: Why the Numbers Changed",
+      "source": "sshadows-dk",
+      "at": "2026-10-25T16:47:31.203Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "AL code generation in Business Central, underwent significant infrastructure"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+          "quote": "al code generation; benchmark; llm evaluation; code extraction"
+        }
+      ]
+    },
+    "post/sshadows-dk/https://sshadows.dk/blog/from-work-item-to-pr-without-me/": {
+      "kind": "post",
+      "key": "post/sshadows-dk/https://sshadows.dk/blog/from-work-item-to-pr-without-me/",
+      "hash": "e71216fa62ca58c6f9a1f64b34abf29e9ce80ce0906a2b023c9480e51357dcee",
+      "title": "I Tag a Work Item. Sometimes I Come Back to a PR.",
+      "source": "sshadows-dk",
+      "at": "2026-10-25T16:47:31.203Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "AI agent pipeline for automating work item analysis, test planning, code generation"
+        }
+      ]
+    },
+    "post/sshadows-dk/https://sshadows.dk/blog/one-click-performance-analysis-bc/": {
+      "kind": "post",
+      "key": "post/sshadows-dk/https://sshadows.dk/blog/one-click-performance-analysis-bc/",
+      "hash": "e44a832c840296412d211fdbbbf71b6b247ef6924691ab1ff42cbc19cb0a3b23",
+      "title": "One-Click Performance Analysis Inside Business Central",
+      "source": "sshadows-dk",
+      "at": "2026-10-25T16:47:31.203Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler",
+          "quote": "AI-powered performance analysis directly into Business Central's Performance Profiler"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "detecting anti-patterns and explaining results without switching tools"
+        }
+      ]
+    },
+    "post/sshadows-dk/https://sshadows.dk/blog/one-parser-six-tools/": {
+      "kind": "post",
+      "key": "post/sshadows-dk/https://sshadows.dk/blog/one-parser-six-tools/",
+      "hash": "9de2fa178d363f8e823c0e7921f2c4781e9fd5765facc4d022ec121931ca8e4d",
+      "title": "One Parser, Six Tools",
+      "source": "sshadows-dk",
+      "at": "2026-10-25T16:47:31.203Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "tree-sitter-based AL parser enables multiple developer tools including code navigation"
+        },
+        {
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "structural search, LLM training data extraction, AI-powered code understanding"
+        }
+      ]
+    },
+    "post/sshadows-dk/https://sshadows.dk/blog/other-peoples-code-in-my-repos/": {
+      "kind": "post",
+      "key": "post/sshadows-dk/https://sshadows.dk/blog/other-peoples-code-in-my-repos/",
+      "hash": "aaffbf4ce022a599819c13fb577a21cfe80eb479cfb63eb0ab80a51b5c75f70a",
+      "title": "Other People's Code in My Repos, and Mine in Theirs",
+      "source": "sshadows-dk",
+      "at": "2026-10-25T16:47:31.203Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "AL and Business Central development tools from external developers"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "LethAL mutation testing tool released to verify test quality by introducing deliberate"
+        }
+      ]
+    },
+    "post/sshadows-dk/https://sshadows.dk/blog/tree-sitter-al-v2-rewrite/": {
+      "kind": "post",
+      "key": "post/sshadows-dk/https://sshadows.dk/blog/tree-sitter-al-v2-rewrite/",
+      "hash": "e31db4e8f1a77b7144285bcfa973d6bf632de963d28bd920d454910314ec0e9e",
+      "title": "I Rewrote My Tree-Sitter Grammar From Scratch. It Got 10x Smaller.",
+      "source": "sshadows-dk",
+      "at": "2026-10-25T16:47:29.710Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "code analysis; syntax highlighting; language server"
+        }
+      ]
+    },
+    "post/sshadows-dk/https://sshadows.dk/blog/your-tests-all-pass/": {
+      "kind": "post",
+      "key": "post/sshadows-dk/https://sshadows.dk/blog/your-tests-all-pass/",
+      "hash": "da230286dcfe5060c019056e2b24e992eb4aa84e00fabaf5b9a0e95f901db1b8",
+      "title": "Your Tests All Pass. I Have Bad News.",
+      "source": "sshadows-dk",
+      "at": "2026-10-25T16:47:29.710Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "mutation testing is a technique that validates test quality"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing",
+          "quote": "mutation testing checks whether a test would notice if that line broke"
+        }
+      ]
     },
     "post/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/": {
       "kind": "post",

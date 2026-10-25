@@ -16,16 +16,16 @@ tags:
   - developer tools
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T16:50:19.334Z"
   flags: []
 generated:
-  at: "2026-10-25T16:42:05.065Z"
+  at: "2026-10-25T16:41:48.094Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 0b31ad2715d0458a443248e3cd6a9ec1858e0491432e868ebefb2c455b834333
+  input_hash: 05d125343d29bc43df433244236c601ed7afda0d0bbb1e9dbcb30ece2f4e665a
 evidence:
   - kind: blog
     url: https://sshadows.dk/blog/one-parser-six-tools/
@@ -83,13 +83,22 @@ code_objects_mentioned: []
 systems:
   - development
   - platform
-  - copilot
 versions_mentioned: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://sshadows.dk/images/posts/one-parser-six-tools/cover.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: SShadowS
+  favicon: https://sshadows.dk/favicon.svg
+  probed_at: "2026-10-25T16:46:42.633Z"
 ---
 
 # One Parser, Six Tools
 
-[Read the post](https://sshadows.dk/blog/one-parser-six-tools/) · SShadowS (Torben Leth) · 2026-03-27 · 775 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://sshadows.dk/blog/one-parser-six-tools/) · SShadowS (Torben Leth) · 2026-03-27 · 775 words · tier community · reviewed (checked by Opus)
 
 > A tree-sitter-based AL parser enables multiple developer tools including code navigation, structural search, LLM training data extraction, AI-powered code understanding, and editor support. The parser achieves 100% accuracy on 15,358 production files and serves as a foundation for building code analysis and development tools.
 

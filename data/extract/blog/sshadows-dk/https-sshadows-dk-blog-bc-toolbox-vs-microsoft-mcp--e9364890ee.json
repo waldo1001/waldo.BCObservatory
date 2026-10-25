@@ -7,15 +7,14 @@
   "words": 1661,
   "summary": "A developer explains why they built custom MCP servers for Business Central development beyond Microsoft's official AL MCP Server. While Microsoft's tools excel at writing and compiling AL code, the custom toolbox adds verification capabilities including code coverage, interactive debugging, profiling analysis, call graphs, breaking change detection, and UI-driven testing.",
   "key_points": [
-    "Microsoft's AL MCP covers the writing half of development (compile, publish, build) but lacks tools for verifying changes actually work",
-    "Custom toolbox adds per-method test results with coverage, interactive debugging accessible from any MCP client, ranked profiling hotspots, and whole-program call graphs",
-    "Break-in-glass debugger, event fan-out analysis, and static detectors help agents understand what their changes break before shipping",
-    "Business-central-mcp drives the real web UI end-to-end (create orders, post, print) on on-prem and Docker, not just cloud APIs"
+    "Microsoft's AL MCP Server covers the writing half (build, compile, publish, symbols), while its debugger tools are usable only from Copilot inside VS Code",
+    "The author's bc-dev-mcp adds test discovery, per-method test results with procedure-level coverage, eight debug tools for any MCP client, and ranked profiling hotspots",
+    "al-call-hierarchy and its alsem CLI provide whole-program call graphs, event fan-out, 41 detectors with SARIF output, and breaking-change diffs",
+    "business-central-mcp drives the real web client over its WebSocket protocol, end to end against on-prem and Docker instances"
   ],
   "systems": [
     "development",
-    "integration",
-    "copilot"
+    "integration"
   ],
   "topics": [
     "al development",
@@ -27,12 +26,7 @@
     "static analysis",
     "verification"
   ],
-  "objects": [
-    {
-      "type": "codeunit",
-      "name": "[Test] methods"
-    }
-  ],
+  "objects": [],
   "features": [
     "AL MCP Server (altool launchmcpserver)",
     "test discovery and per-method coverage",

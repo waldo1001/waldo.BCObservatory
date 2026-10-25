@@ -5,7 +5,7 @@
   "source": "sshadows-dk",
   "published_at": "2026-01-09T00:00:00.000Z",
   "words": 904,
-  "summary": "Claude Code now has native AL Language Server Protocol integration, enabling symbol-aware code navigation and structural understanding of AL projects. This provides capabilities like Go to Definition, Find References, and document symbols that treat AL files as structured code rather than plain text.",
+  "summary": "The author has built a Claude Code plugin that connects it to the AL Language Server used by the VS Code AL extension. This gives Claude Code symbol-aware navigation of Business Central AL projects, such as Go to Definition, Find References, hover info and call hierarchy, instead of searching files as plain text. Setup needs Claude Code 2.1.0 or later, the VS Code AL extension, Python 3.10 or later, and the ENABLE_LSP_TOOL environment variable.",
   "key_points": [
     "LSP integration gives Claude Code access to symbol awareness, navigation, and understanding of relationships between AL objects without regex pattern matching",
     "Provides features like Go to Definition, Find References, hover information, call hierarchy, and workspace symbol search across entire projects",
@@ -14,8 +14,7 @@
     "Installation involves enabling LSP Tool environment variable and adding the al-language-server-python plugin via Claude Code marketplace"
   ],
   "systems": [
-    "development",
-    "platform"
+    "development"
   ],
   "topics": [
     "al language server",

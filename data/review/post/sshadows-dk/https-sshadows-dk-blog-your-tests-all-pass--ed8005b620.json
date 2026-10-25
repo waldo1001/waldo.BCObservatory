@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/your-tests-all-pass/",
+  "input_hash": "7671966280455bdcbaee256c06cc50497a6a3a71a8f87fc3e6c7aee0433661ce",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T16:50:23.607Z",
+  "issues": [
+    "Key point on speed overstated: post contrasts roughly an hour for the naive loop with 16 seconds for the demo, not hours.",
+    "System 'administration' not supported by the post.",
+    "Object 'credit limit check' codeunit is not named in the post; it shows a procedure WouldExceedLimit and a Credit Customer table only."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.052525,
+    "posts_in_call": 4
+  }
+}

@@ -5,7 +5,7 @@
   "source": "sshadows-dk",
   "published_at": "2026-05-18T00:00:00.000Z",
   "words": 1183,
-  "summary": "An ISV developer describes a 12-stage AI agent pipeline for automating work item analysis, test planning, code generation, and review cycles in Azure DevOps. The system uses specialized reviewer agents, an AL language server protocol integration, and a devils-advocate approach to minimize hallucinations while generating draft PRs automatically.",
+  "summary": "An ISV developer outlines a twelve-stage agent pipeline driven by Azure DevOps work item tags: an analyzer triages the item, a planner writes test scenarios before the code change, coding and review loops run until reviewer and CI agree, and a draft PR is produced. Only three stages wait for the human, and agents navigate AL through an LSP running in containers.",
   "key_points": [
     "Multiple specialized reviewer agents focused on narrow briefs outperform a single large reviewer, though a devils-advocate agent can cause infinite loops if not demoted to advisory after repeated blocking",
     "AL language server protocol (LSP) with documentSymbol, findReferences, and hover enables agents to understand code structure correctly rather than guessing based on grep matches",
@@ -14,8 +14,7 @@
   ],
   "systems": [
     "development",
-    "integration",
-    "platform"
+    "integration"
   ],
   "topics": [
     "ai agents",

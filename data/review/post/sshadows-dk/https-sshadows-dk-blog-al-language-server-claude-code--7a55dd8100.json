@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/al-language-server-claude-code/",
+  "input_hash": "b0aa7a6726cb82ede27286c8c446bc4404bad2108404abd084acad5637752d89",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T16:50:00.776Z",
+  "issues": [
+    "The summary makes it sound like Claude Code gained this feature itself. The post says the author built it as a plugin that wraps the AL Language Server from the VS Code AL extension, so I rewrote the summary to say that.",
+    "The 'platform' system has no support in the post, which is about developer tooling only, so I dropped it. 'development' stays.",
+    "The key points, features and all three quotes match the post. The feature list leaves out Go to Implementation, but nothing listed is wrong."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.050328,
+    "posts_in_call": 1
+  }
+}

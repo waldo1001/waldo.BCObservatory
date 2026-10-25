@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/",
+  "input_hash": "f76468d26bbf15b956845be2356babd9881ee31b8535f9efb755aae59cbd7c26",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T16:50:19.334Z",
+  "issues": [
+    "Summary and key points match the post.",
+    "The listed objects are tools and servers, not AL objects, so they are dropped.",
+    "The copilot system refers to GitHub Copilot in VS Code, not Business Central Copilot, so it is dropped.",
+    "No quotes were extracted. Features are supported, including fan-in from the diagnostics list."
+  ],
+  "applied": [
+    "dropped 3 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043171,
+    "posts_in_call": 4
+  }
+}

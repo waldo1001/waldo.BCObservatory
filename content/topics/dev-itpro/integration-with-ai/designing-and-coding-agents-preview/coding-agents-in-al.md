@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T16:50:34.247Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,7 +93,6 @@ links:
     - video/EwN3xb2q7vE
     - video/jWqjDTbqjeE
     - video/MNwTt06ZxwY
-    - video/V4zCPAsYi_Y
   posts:
     - post/aardvarklabs-blog/3097
     - post/bertverbeek-nl/1219
@@ -197,7 +196,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 4
+  video: 3
   blog: 5
   guideline: 0
 bc_forms: []
@@ -344,6 +343,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit; Agent Type Definition; Agent Factory Interface"
 - [Introducing: Envision, Design and Code Business Central Agents](../../../../videos/jWqjDTbqjeE.md) (video): "Introducing: Envision, Design and Code Business Central Agents"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Building and shipping agents in Business Central; agent configuration; permissions"
-- [Getting Started With Agent Testing: Test Setup and Structuring (part 3)](../../../../videos/V4zCPAsYi_Y.md) (video): "AI Development Toolkit Evaluation app; AI Test Toolkits; LLM as judge for test validation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

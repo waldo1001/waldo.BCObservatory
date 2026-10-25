@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-10-25T16:50:34.247Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -352,7 +352,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9455 Update permissions for G/L Transaction table](../../../../changes/bcapps/9455.md) (code change): "Access to the G/L Transaction table is added across Base Application"
 - [#9570 [Master]-Rounding Differences in ARAP with Deferrals and Non-Deductible VAT](../../../../changes/bcapps/9570.md) (code change): "Changes the core posting logic in codeunit 12"
 - [#57 Add source-verified Finance knowledge and review domain](../../../../changes/bcquality/57.md) (code change): "posting ledger entries, dimension sets, applying entries, due dates, reversals, journal balance"
-- [Oops, I Did It Again: Reversing G/L Transactions in Business Central](../../../../posts/miljan-rs/908.md) (community post): "reversing General Ledger transactions in Business Central: batch reversal via G/L Register"
+- [Oops, I Did It Again: Reversing G/L Transactions in Business Central](../../../../posts/miljan-rs/908.md) (community post): "three methods to reverse General Ledger transactions in Business Central"
 - [BC Friday Tips #38 Keep Description](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-38-keep-description--56fbbccc2b.md) (community post): "Keep Description field preserves the description text when switching between account types"
 - [Dynamics 365 Business Central – Error Message “You have one or more documents that must be posted before you post document no….” when posting a Journal](../../../../posts/thedynamicsexplorer-com/10452.md) (community post): "journal's number series has manual numbers disabled but the user tries to enter a custom document number"
 - [Dynamics 365 Business Central – Handling the message “Only the Posting No. Series can be filled in on recurring journals” in Recurring Journals](../../../../posts/thedynamicsexplorer-com/37144.md) (community post): "Recurring journal lines remain after posting and their posting date moves forward"

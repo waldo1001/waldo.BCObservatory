@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-25T00:24:08.868Z"
+  at: "2026-10-25T16:43:35.722Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2adcf4824de75ef95792e4a72df41c16cfa5e5721d3f4dc586405e47c813697e
+  input_hash: 54907aa0a07add24961010e5279672fbe6b5833fe34891050130d0ae3e1d1375
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatPostedOriginCZ.Interface.al
@@ -42,6 +42,17 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12846
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-2
+      title: Update 24.2 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1
+      label: possibly related
+      why: Interface implements Intrastat country of origin automation covered in Business Central 24.2 update.
+      by: model
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-4
+      title: Update 24.4 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1
+      label: possibly related
+      why: Interface supports Intrastat country of origin general availability documented in Business Central 24.4 update.
+      by: model
 object_type: interface
 object_id: null
 name: Intrastat Posted Origin CZ
@@ -91,6 +102,13 @@ An object of the [CZ localization](../../localizations/cz.md), not part of W1.
 
 - Present in: BC30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Update 24.2 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-2) — possibly related: Interface implements Intrastat country of origin automation covered in Business Central 24.2 update. (model-linked)
+- [Update 24.4 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-4) — possibly related: Interface supports Intrastat country of origin general availability documented in Business Central 24.4 update. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

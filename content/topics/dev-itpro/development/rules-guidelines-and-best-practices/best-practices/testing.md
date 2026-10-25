@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:13.086Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T16:50:34.247Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,7 @@ links:
   videos:
     - video/Q-oazDEucLE
   posts:
+    - post/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620
     - post/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b
   guidelines: []
   changes:
@@ -72,7 +73,7 @@ coverage:
   learn: 3
   code: 0
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 75d4b13edabb094c6bfaa4d84768e2b4ed6400d134dd3b0ffd88e878640ecc56
@@ -119,6 +120,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../../changes/bcquality/159.md) (code change): "Table Relation Test hook was checked against BCApps source"
 - [#202 Restore deterministic review fixture coverage](../../../../../changes/bcquality/202.md) (code change): "Registers 23 paired knowledge articles across data modeling, error handling, performance, security, style, testing, UI, upgrade and web services"
 - [#96 Add missing AL review leaf skills](../../../../../changes/bcquality/96.md) (code change): "Four new AL code review leaf skills were added to cover testing, data modeling, AppSource, and telemetry"
+- [Your Tests All Pass. I Have Bad News.](../../../../../posts/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620.md) (community post): "mutation testing checks whether a test would notice if that line broke"
 - [AL Runner: Run AL Unit Tests Without a BC Service Tier](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b.md) (community post): "Test execution runs in seconds compared to 15-30 minute container-based pipelines"
 - [20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL](../../../../../videos/Q-oazDEucLE.md) (video): "Test-driven development with AI agents"
 

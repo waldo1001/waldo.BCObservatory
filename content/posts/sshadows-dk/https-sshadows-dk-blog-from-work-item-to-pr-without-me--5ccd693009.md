@@ -2,7 +2,7 @@
 id: post/sshadows-dk/https-sshadows-dk-blog-from-work-item-to-pr-without-me--5ccd693009
 type: post
 title: I Tag a Work Item. Sometimes I Come Back to a PR.
-summary: An ISV developer describes a 12-stage AI agent pipeline for automating work item analysis, test planning, code generation, and review cycles in Azure DevOps. The system uses specialized reviewer agents, an AL language server protocol integration, and a devils-advocate approach to minimize hallucinations while generating draft PRs automatically.
+summary: "An ISV developer outlines a twelve-stage agent pipeline driven by Azure DevOps work item tags: an analyzer triages the item, a planner writes test scenarios before the code change, coding and review loops run until reviewer and CI agree, and a draft PR is produced. Only three stages wait for the human, and agents navigate AL through an LSP running in containers."
 tier: community
 language: en
 tags:
@@ -15,16 +15,16 @@ tags:
   - ci/cd pipeline
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T16:50:23.607Z"
   flags: []
 generated:
-  at: "2026-10-25T16:42:05.860Z"
+  at: "2026-10-25T16:41:48.094Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: f6903420ea3e4a1abebbb8f1f5b09bb3c9b34df2f0739944eef70adc2c9af2de
+  input_hash: 18547721870ca61982a4c80a0f0d7171cf9c406467d2b23b1d2637c58a0f013c
 evidence:
   - kind: blog
     url: https://sshadows.dk/blog/from-work-item-to-pr-without-me/
@@ -73,15 +73,24 @@ code_objects_mentioned: []
 systems:
   - development
   - integration
-  - platform
 versions_mentioned: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://sshadows.dk/images/posts/from-work-item-to-pr-without-me/cover.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: SShadowS
+  favicon: https://sshadows.dk/favicon.svg
+  probed_at: "2026-10-25T16:46:41.481Z"
 ---
 
 # I Tag a Work Item. Sometimes I Come Back to a PR.
 
-[Read the post](https://sshadows.dk/blog/from-work-item-to-pr-without-me/) · SShadowS (Torben Leth) · 2026-05-18 · 1183 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://sshadows.dk/blog/from-work-item-to-pr-without-me/) · SShadowS (Torben Leth) · 2026-05-18 · 1183 words · tier community · reviewed (checked by Opus)
 
-> An ISV developer describes a 12-stage AI agent pipeline for automating work item analysis, test planning, code generation, and review cycles in Azure DevOps. The system uses specialized reviewer agents, an AL language server protocol integration, and a devils-advocate approach to minimize hallucinations while generating draft PRs automatically.
+> An ISV developer outlines a twelve-stage agent pipeline driven by Azure DevOps work item tags: an analyzer triages the item, a planner writes test scenarios before the code change, coding and review loops run until reviewer and CI agree, and a draft PR is produced. Only three stages wait for the human, and agents navigate AL through an LSP running in containers.
 
 ## Key points
 

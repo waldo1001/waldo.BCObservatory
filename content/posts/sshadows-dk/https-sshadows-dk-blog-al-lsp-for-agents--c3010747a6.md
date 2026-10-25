@@ -16,16 +16,16 @@ tags:
   - ai agents
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T16:50:19.334Z"
   flags: []
 generated:
-  at: "2026-10-25T16:42:16.786Z"
+  at: "2026-10-25T16:41:48.094Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 2e1f808338a13c95a52832ec6c612256f0620615cabdded5a7e01a57ba5e08da
+  input_hash: 882bb8322697d42a6493095af8244919ca793d5e7f6c00a0a3d03da44bbfe5ae
 evidence:
   - kind: blog
     url: https://sshadows.dk/blog/al-lsp-for-agents/
@@ -52,21 +52,38 @@ author: Torben Leth
 full_text: false
 words: 946
 quotes: []
-code_objects_mentioned:
-  - other al-lsp-for-agents
-  - other al-call-hierarchy
-  - other AL Language Server
+code_objects_mentioned: []
 systems:
   - development
-  - copilot
   - platform
 versions_mentioned:
   - v1.5.2
+cautions:
+  - kind: warning
+    quote: This is still a new feature, so expect changes as it matures.
+    objects: []
+    events: []
+    versions: []
+  - kind: gotcha
+    quote: having the tools available doesn't mean the AI will use them.
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://sshadows.dk/images/posts/al-lsp-for-agents/cover.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: SShadowS
+  favicon: https://sshadows.dk/favicon.svg
+  probed_at: "2026-10-25T16:46:46.091Z"
 ---
 
 # AL LSP for Agents: Now in VS Code, and a New Home
 
-[Read the post](https://sshadows.dk/blog/al-lsp-for-agents/) · SShadowS (Torben Leth) · 2026-03-10 · 946 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://sshadows.dk/blog/al-lsp-for-agents/) · SShadowS (Torben Leth) · 2026-03-10 · 946 words · tier community · reviewed (checked by Opus)
 
 > AL LSP for Agents brings compiler-powered code intelligence to VS Code Copilot and Claude Code through language server tools. It enables AI agents to navigate AL codebases with features like go-to-definition, find references, call hierarchy analysis, and real-time code quality diagnostics without relying on text search.
 
@@ -77,13 +94,10 @@ versions_mentioned:
 - Configurable code quality diagnostics detect common AL code smells like unused procedures, high complexity, too many parameters, and long methods
 - The tool integrates a Go wrapper coordinating the Microsoft AL Language Server with al-call-hierarchy for precise, compiler-aware answers instead of text-based searching
 
-## AL objects mentioned
+## Heads up
 
-As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
-
-- other "al-lsp-for-agents"
-- other "al-call-hierarchy"
-- other "AL Language Server"
+- warning: "This is still a new feature, so expect changes as it matures."
+- gotcha: "having the tools available doesn't mean the AI will use them."
 
 ## Context
 

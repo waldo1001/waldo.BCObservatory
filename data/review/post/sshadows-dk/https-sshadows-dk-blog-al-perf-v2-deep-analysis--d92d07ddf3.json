@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/al-perf-v2-deep-analysis/",
+  "input_hash": "7fbdd85ac5c23348561343d86dd1accaab2d2b21af8bd6c46580a9238d408a1c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T16:50:19.334Z",
+  "issues": [
+    "The summary says Sonnet beats the previous analysis, but the post compares Sonnet against Opus.",
+    "Key point mixes up scores: 9.05 vs 8.47 is the final config, and 8.0 was the Opus baseline. The test had 15 configurations across five profiles, not five configurations.",
+    "Quotes are accurate. Features and systems are acceptable."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043171,
+    "posts_in_call": 4
+  }
+}

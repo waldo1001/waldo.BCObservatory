@@ -15,16 +15,16 @@ tags:
   - grammar parsing
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T16:50:23.607Z"
   flags: []
 generated:
-  at: "2026-10-25T16:42:09.296Z"
+  at: "2026-10-25T16:41:48.094Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c37766f87ae14b1c8df64a00716cc962b87171f6f3c8f5e37228f278a3ab72cd
+  input_hash: 59655870df8b37d7e41087f1012fabf26c0b64e1c18831989e0beb69211e3284
 evidence:
   - kind: blog
     url: https://sshadows.dk/blog/other-peoples-code-in-my-repos/
@@ -101,21 +101,37 @@ versions_mentioned:
   - al-perf v4
   - al-sem 1.0
   - BC28
+cautions:
+  - kind: warning
+    quote: Fable 5's safety classifier refused to read them. Tasks about data corruption and borrowed identities apparently look like something else if you squint.
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://sshadows.dk/images/posts/other-peoples-code-in-my-repos/cover.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: SShadowS
+  favicon: https://sshadows.dk/favicon.svg
+  probed_at: "2026-10-25T16:46:39.027Z"
 ---
 
 # Other People's Code in My Repos, and Mine in Theirs
 
-[Read the post](https://sshadows.dk/blog/other-peoples-code-in-my-repos/) · SShadowS (Torben Leth) · 2026-08-17 · 1253 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://sshadows.dk/blog/other-peoples-code-in-my-repos/) · SShadowS (Torben Leth) · 2026-08-17 · 1253 words · tier community · reviewed (checked by Opus)
 
 > This post chronicles summer contributions to AL and Business Central development tools from external developers and the author's own work across ten upstream projects. It covers SaaS support for the bc-mcp server, performance fixes in CentralGauge based on community bug reports, the new LethAL mutation testing tool for AL, expanded functionality in bc-dev-mcp driven mostly by community PRs, standardization of AL file support across developer tools, and improvements to tree-sitter-al grammar and al-perf analysis.
 
 ## Key points
 
-- External developers contributed significant code to projects including 12,500 lines adding BC SaaS support to bc-mcp and nine merged PRs to bc-dev-mcp from Ian Ray
-- Performance improvement of 67 minutes to 7 minutes achieved in CentralGauge after fixing a slow PowerShell path issue found through community bug reports
-- LethAL mutation testing tool released to verify test quality by introducing deliberate code breakages and checking if tests detect them
-- AL file format support standardized across ten upstream development tools including vim, neovim, GitHub linguist, and syntax highlighters to prevent confusion with Perl
-- tree-sitter-al v4 fixed grammar losslessness issues and al-perf v4 replaced assumptions with measured performance data from BC28 containers
+- External contributors added major code: a 12,500-line PR bringing BC SaaS support to bc-mcp (shipped as v1.6.0) and nine merged PRs from Ian Ray to bc-dev-mcp
+- A community bug report on a slow PowerShell path in CentralGauge on BC28 cut a six-task bench run from 67 to 7 minutes
+- LethAL, a mutation testing tool for AL, went public; a contributor fixed hardcoded Windows paths so it runs on Linux
+- The author filed ten upstream PRs in one day to recognize .al files as AL instead of Perl; five merged, five still open
+- tree-sitter-al v4 became lossless after byte comparison exposed hidden defects, and al-perf v4 grounded its findings in measurements on a BC28 container
 
 ## Quotes
 
@@ -137,9 +153,13 @@ As named in the post. A name that matches one object page by exact type and name
 - other "al-lsp-for-agents"
 - other "DevOpsWorker"
 
+## Heads up
+
+- warning: "Fable 5's safety classifier refused to read them. Tasks about data corruption and borrowed identities apparently look like something else if you squint."
+
 ## Context
 
-- Features: BC SaaS support via MCP, mutation testing, OData query tool, performance profiling, debugger coverage analysis, AL syntax highlighting, grammar losslessness
+- Features: BC SaaS support via MCP, mutation testing, OData query tool, performance profiling, AL syntax highlighting, grammar losslessness
 - Versions: bc-mcp v1.3, bc-mcp v1.5, bc-mcp v1.6.0, tree-sitter-al v4, tree-sitter-al v4.0.1, al-perf v4, al-sem 1.0, BC28
 
 Source: SShadowS, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

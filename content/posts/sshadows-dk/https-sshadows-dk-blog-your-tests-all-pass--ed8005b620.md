@@ -14,16 +14,16 @@ tags:
   - al development
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T16:50:23.607Z"
   flags: []
 generated:
-  at: "2026-10-25T16:42:08.226Z"
+  at: "2026-10-25T16:41:48.094Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 83c538b50e7e721a90dfa53f2e9fcd32c6965d316485e5a2b1bcd247d88848ff
+  input_hash: 62707d0143297589a11a8255dc3875a9397243363278b71b802640fa1ffc24c9
 evidence:
   - kind: blog
     url: https://sshadows.dk/blog/your-tests-all-pass/
@@ -50,35 +50,35 @@ author: Torben Leth
 full_text: false
 words: 1732
 quotes: []
-code_objects_mentioned:
-  - codeunit credit limit check (example in post)
+code_objects_mentioned: []
 systems:
   - development
-  - administration
 versions_mentioned: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://sshadows.dk/images/posts/your-tests-all-pass/cover.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: SShadowS
+  favicon: https://sshadows.dk/favicon.svg
+  probed_at: "2026-10-25T16:46:37.716Z"
 ---
 
 # Your Tests All Pass. I Have Bad News.
 
-[Read the post](https://sshadows.dk/blog/your-tests-all-pass/) · SShadowS (Torben Leth) · 2026-08-24 · 1732 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://sshadows.dk/blog/your-tests-all-pass/) · SShadowS (Torben Leth) · 2026-08-24 · 1732 words · tier community · reviewed (checked by Opus)
 
 > Mutation testing is a technique that validates test quality by intentionally breaking code to see if tests catch the failures. The post introduces LethAL, an open-source tool for AL that performs mutation testing efficiently by compiling once and running mutations as table writes, making it practical for finding gaps in test suites that code coverage alone misses.
 
 ## Key points
 
-- Code coverage measures whether a line ran, but mutation testing checks whether a test would notice if that line broke, providing stronger validation of test quality
-- LethAL avoids the impractical naive approach of recompiling for each mutant by shipping all mutants in a single build and switching between them via table writes, reducing test time from hours to seconds
-- The tool found real gaps in a sample credit limit check: missing boundary tests (equality vs greater-than), missing data setup (unfetched balances), and insufficient isolation (single customer masking filter issues)
-- LethAL is built for agent-driven workflows with JSON schemas, clear exit codes, and self-grading mutation kills, allowing AI agents to work from a ranked queue of survivors
-- Survivors are leads, not verdicts; they indicate where tests went silent, and developers must decide correct behavior before agents write tests to avoid locking in wrong behavior
-
-## AL objects mentioned
-
-As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
-
-- codeunit "credit limit check (example in post)"
-
-Not found in BC28-30: codeunit "credit limit check (example in post)".
+- Code coverage only shows a line ran; mutation testing shows whether a test would notice that line breaking
+- LethAL compiles all mutants into one build and switches between them with a table write, so the demo's 32 mutants ran in 16 seconds instead of roughly an hour
+- The credit limit demo exposed three test gaps: no exact-limit boundary test, no posted ledger data so the Balance FlowField was never exercised, and only one customer so the customer filter never mattered
+- LethAL targets agent workflows with published JSON Schemas, doctor --json, meaningful exit codes, and quarantine of runs it cannot trust
+- Survivors are leads, not verdicts; decide the correct behavior before letting an agent write the killing test
 
 ## Context
 

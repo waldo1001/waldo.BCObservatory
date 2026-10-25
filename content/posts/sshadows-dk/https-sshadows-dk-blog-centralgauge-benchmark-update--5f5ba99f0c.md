@@ -2,7 +2,7 @@
 id: post/sshadows-dk/https-sshadows-dk-blog-centralgauge-benchmark-update--5f5ba99f0c
 type: post
 title: "CentralGauge Benchmark Update: Why the Numbers Changed"
-summary: CentralGauge, an AI benchmark for AL code generation in Business Central, underwent significant infrastructure fixes that corrected code extraction bugs, removed impossible tasks, and clarified ambiguous specifications. These improvements made benchmark scores more reliable and revealed that Claude Opus 4.6 achieves 98.2% consistency with 76.2% pass rate, outperforming other tested models.
+summary: Updated CentralGauge results for AL code generation in Business Central, after fixing code extraction bugs, repairing 11 tasks that no model could pass, and aligning vague task specs with their tests. Across 56 tasks and 3 runs, Claude Opus 4.6 leads with 76.2% pass@1 and 98.2% consistency. Gemini 3 Pro recovers only 3.75% of first-attempt failures, and GPT-5.2 and Gemini 3 Pro have the lowest cost per passed task.
 tier: community
 language: en
 tags:
@@ -14,16 +14,16 @@ tags:
   - business central
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T16:50:16.573Z"
   flags: []
 generated:
-  at: "2026-10-25T16:42:21.979Z"
+  at: "2026-10-25T16:41:48.094Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 64f32fba17dfb45e3a15496d4b5c40a76c45f1d921e4f363ee1b9a20ce413641
+  input_hash: 4fcf94d2418097017417f3625dd27e5905ea7af191c610e5908e92beaa08f52e
 evidence:
   - kind: blog
     url: https://sshadows.dk/blog/centralgauge-benchmark-update/
@@ -73,13 +73,39 @@ systems:
   - development
   - platform
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: When models self-corrected mid-response, a greedy regex captured everything between the first and last code markers — including explanation text between blocks.
+    objects: []
+    events: []
+    versions: []
+  - kind: gotcha
+    quote: The second-attempt prompt lacked `BEGIN-CODE`/`END-CODE` delimiters, so some models (especially Gemini) prepended prose that leaked into the extracted code.
+    objects: []
+    events: []
+    versions: []
+  - kind: warning
+    quote: Test harness bugs that triggered runtime errors regardless of the generated code
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://sshadows.dk/images/posts/centralgauge-benchmark-update/iterate.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: SShadowS
+  favicon: https://sshadows.dk/favicon.svg
+  probed_at: "2026-10-25T16:46:48.359Z"
 ---
 
 # CentralGauge Benchmark Update: Why the Numbers Changed
 
-[Read the post](https://sshadows.dk/blog/centralgauge-benchmark-update/) · SShadowS (Torben Leth) · 2026-02-10 · 961 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://sshadows.dk/blog/centralgauge-benchmark-update/) · SShadowS (Torben Leth) · 2026-02-10 · 961 words · tier community · reviewed (checked by Opus)
 
-> CentralGauge, an AI benchmark for AL code generation in Business Central, underwent significant infrastructure fixes that corrected code extraction bugs, removed impossible tasks, and clarified ambiguous specifications. These improvements made benchmark scores more reliable and revealed that Claude Opus 4.6 achieves 98.2% consistency with 76.2% pass rate, outperforming other tested models.
+> Updated CentralGauge results for AL code generation in Business Central, after fixing code extraction bugs, repairing 11 tasks that no model could pass, and aligning vague task specs with their tests. Across 56 tasks and 3 runs, Claude Opus 4.6 leads with 76.2% pass@1 and 98.2% consistency. Gemini 3 Pro recovers only 3.75% of first-attempt failures, and GPT-5.2 and Gemini 3 Pro have the lowest cost per passed task.
 
 ## Key points
 
@@ -93,6 +119,12 @@ versions_mentioned: []
 
 - "Models were generating valid AL code, but the harness was mangling it before compilation." (Explains that the initial benchmark failures were partly due to broken test infrastructure, not model capability, which is critical for fair model comparison)
 - "Gemini 3 Pro's self-correction gap remains the most striking anomaly: only 3.75% of first-attempt failures are recovered on the second attempt." (Reveals a structural weakness in how Gemini handles error recovery compared to other models, affecting multi-attempt strategies)
+
+## Heads up
+
+- gotcha: "When models self-corrected mid-response, a greedy regex captured everything between the first and last code markers — including explanation text between blocks."
+- gotcha: "The second-attempt prompt lacked `BEGIN-CODE`/`END-CODE` delimiters, so some models (especially Gemini) prepended prose that leaked into the extracted code."
+- warning: "Test harness bugs that triggered runtime errors regardless of the generated code"
 
 ## Context
 

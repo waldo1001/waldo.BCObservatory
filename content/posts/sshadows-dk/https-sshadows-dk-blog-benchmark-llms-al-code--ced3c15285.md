@@ -14,16 +14,16 @@ tags:
   - domain specific performance
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-25T16:50:16.573Z"
   flags: []
 generated:
-  at: "2026-10-25T16:42:22.026Z"
+  at: "2026-10-25T16:41:48.094Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 8f830f3c44a989ebbe18f3e4c5ebe667fb112717d545adadfd19faed3e6c8d6d
+  input_hash: c50d631b925139d344e2559ca6a78b58afa9523eddbefc84bca3915ec9525a7e
 evidence:
   - kind: blog
     url: https://sshadows.dk/blog/benchmark-llms-al-code/
@@ -84,11 +84,21 @@ systems:
   - development
   - platform
 versions_mentioned: []
+preview:
+  embeddable: false
+  frame_url: null
+  image: https://sshadows.dk/images/posts/benchmark-llms-al-code/gauge.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: SShadowS
+  favicon: https://sshadows.dk/favicon.svg
+  probed_at: "2026-10-25T16:46:50.764Z"
 ---
 
 # How I Benchmark LLMs on AL Code
 
-[Read the post](https://sshadows.dk/blog/benchmark-llms-al-code/) · SShadowS (Torben Leth) · 2026-01-16 · 1343 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://sshadows.dk/blog/benchmark-llms-al-code/) · SShadowS (Torben Leth) · 2026-01-16 · 1343 words · tier community · reviewed (checked by Opus)
 
 > CentralGauge is an open source benchmark designed to evaluate Large Language Models on AL code generation for Business Central. The post explains the methodology, task design philosophy, two-attempt scoring mechanism, and results showing how different models perform on domain-specific AL code compared to generic benchmarks.
 

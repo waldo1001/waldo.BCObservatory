@@ -7,11 +7,11 @@
   "words": 1253,
   "summary": "This post chronicles summer contributions to AL and Business Central development tools from external developers and the author's own work across ten upstream projects. It covers SaaS support for the bc-mcp server, performance fixes in CentralGauge based on community bug reports, the new LethAL mutation testing tool for AL, expanded functionality in bc-dev-mcp driven mostly by community PRs, standardization of AL file support across developer tools, and improvements to tree-sitter-al grammar and al-perf analysis.",
   "key_points": [
-    "External developers contributed significant code to projects including 12,500 lines adding BC SaaS support to bc-mcp and nine merged PRs to bc-dev-mcp from Ian Ray",
-    "Performance improvement of 67 minutes to 7 minutes achieved in CentralGauge after fixing a slow PowerShell path issue found through community bug reports",
-    "LethAL mutation testing tool released to verify test quality by introducing deliberate code breakages and checking if tests detect them",
-    "AL file format support standardized across ten upstream development tools including vim, neovim, GitHub linguist, and syntax highlighters to prevent confusion with Perl",
-    "tree-sitter-al v4 fixed grammar losslessness issues and al-perf v4 replaced assumptions with measured performance data from BC28 containers"
+    "External contributors added major code: a 12,500-line PR bringing BC SaaS support to bc-mcp (shipped as v1.6.0) and nine merged PRs from Ian Ray to bc-dev-mcp",
+    "A community bug report on a slow PowerShell path in CentralGauge on BC28 cut a six-task bench run from 67 to 7 minutes",
+    "LethAL, a mutation testing tool for AL, went public; a contributor fixed hardcoded Windows paths so it runs on Linux",
+    "The author filed ten upstream PRs in one day to recognize .al files as AL instead of Perl; five merged, five still open",
+    "tree-sitter-al v4 became lossless after byte comparison exposed hidden defects, and al-perf v4 grounded its findings in measurements on a BC28 container"
   ],
   "systems": [
     "development",
@@ -70,7 +70,6 @@
     "mutation testing",
     "OData query tool",
     "performance profiling",
-    "debugger coverage analysis",
     "AL syntax highlighting",
     "grammar losslessness"
   ],

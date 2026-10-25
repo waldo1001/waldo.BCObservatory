@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/one-click-performance-analysis-bc/",
+  "input_hash": "1ca0413a7403220d1fd34a9b5a8aee1062969557c7daa39adb0910b1331f0055",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T16:50:16.573Z",
+  "issues": [
+    "Key point 2 lists unfiltered FindSet detection next to the profile-only anti-patterns, but the post says that check needs the AL source, which only the web app path accepts.",
+    "The summary suggests the extension finds unfiltered record operations; the extension only does profile-based analysis, so the summary now keeps the two apart.",
+    "Features, systems and the other key points match the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045416,
+    "posts_in_call": 4
+  }
+}

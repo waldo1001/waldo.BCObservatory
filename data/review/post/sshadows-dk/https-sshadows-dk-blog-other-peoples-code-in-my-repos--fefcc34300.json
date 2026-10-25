@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/other-peoples-code-in-my-repos/",
+  "input_hash": "7882709bf637989da6585edeb317aa1711815bc15a9e360dfd7a1276b5795b79",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T16:50:23.607Z",
+  "issues": [
+    "Key point claims AL support was standardized across ten projects; post says five PRs merged and five still open.",
+    "Feature 'debugger coverage analysis' conflates separate items (debugger attach and coverage gap analysis against git diff).",
+    "Quotes verified as present in the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.052525,
+    "posts_in_call": 4
+  }
+}

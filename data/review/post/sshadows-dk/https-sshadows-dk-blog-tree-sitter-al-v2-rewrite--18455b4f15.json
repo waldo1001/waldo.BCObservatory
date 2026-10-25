@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/tree-sitter-al-v2-rewrite/",
+  "input_hash": "bf041702375c3cc4b71a513726a6f9aed1604fd35c2861baba312bc555c8dd86",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-25T16:50:19.334Z",
+  "issues": [
+    "Numbers for parser size, grammar lines, symbols and file count match the post.",
+    "The 291 rules replaced by a scanner plus a generic rule, the 100% success after an update and the 82 visible keywords are all supported.",
+    "The quote is accurate and the features match the query files the post describes."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043171,
+    "posts_in_call": 4
+  }
+}

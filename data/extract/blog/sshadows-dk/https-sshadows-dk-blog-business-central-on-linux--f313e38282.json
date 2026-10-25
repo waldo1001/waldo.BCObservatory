@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/business-central-on-linux/",
+  "url": "https://sshadows.dk/blog/business-central-on-linux/",
+  "title": "Business Central on Linux? Here, hold my beer!",
+  "source": "sshadows-dk",
+  "published_at": "2026-01-31T00:00:00.000Z",
+  "words": 1880,
+  "summary": "Running Business Central on Linux via Wine required implementing missing Windows APIs and HTTP.sys functionality in Wine's compatibility layer. The experiment achieved 65% faster build times on optimized Linux containers compared to Windows, though it remains a proof-of-concept not suitable for production use.",
+  "key_points": [
+    "Business Central cannot run natively on Linux because it depends deeply on Windows APIs, Active Directory, and Windows authentication",
+    "Wine compatibility layer was extended by implementing missing HTTP.sys functions and other Windows APIs through debugging and reverse engineering",
+    "Custom implementations were required for SQL Server encryption, user management, Kerberos authentication, and Event Log functionality",
+    "Linux builds achieved significant performance improvements: 27% faster initially, 65% faster with optimization, and 5 minutes vs 16 minutes for container startup",
+    "Web client and management endpoints do not function; extensions using exotic .NET interop will crash"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "linux",
+    "wine compatibility",
+    "deployment",
+    "performance",
+    "infrastructure",
+    "github actions",
+    "containers"
+  ],
+  "objects": [],
+  "features": [
+    "Wine compatibility layer",
+    "HTTP.sys implementation",
+    "OData endpoints",
+    "Service tier",
+    "Extension compilation",
+    "Application testing"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "BC has Windows baked into its DNA.",
+      "why_it_matters": "Explains the fundamental challenge: Business Central was designed exclusively for Windows with deep OS dependencies throughout the codebase"
+    },
+    {
+      "text": "The server literally didn't know how to release a connection once it was established.",
+      "why_it_matters": "Highlights the specific technical barrier that prevented HTTP responses from working in Wine's partial HTTP.sys implementation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011669,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/centralgauge-benchmark-update/",
+  "page_id": "post/sshadows-dk/https-sshadows-dk-blog-centralgauge-benchmark-update--5f5ba99f0c",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "When models self-corrected mid-response, a greedy regex captured everything between the first and last code markers — including explanation text between blocks.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "The second-attempt prompt lacked `BEGIN-CODE`/`END-CODE` delimiters, so some models (especially Gemini) prepended prose that leaked into the extracted code.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Test harness bugs that triggered runtime errors regardless of the generated code",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005438,
+    "posts_in_call": 4
+  }
+}
