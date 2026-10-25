@@ -7,7 +7,7 @@
   "url": "https://vjeko.com/2026/01/27/when-guids-collide-the-app-id-problem-nobody-expected/",
   "published_at": "2026-01-27T17:30:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T16:55:04.528Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-25T16:55:37.456Z",
       "path": "vault:posts/vjeko-com/https-vjeko-com-2026-01-27-when-guids-collide-the-app-id-problem-nobody-expected--5bc138f19e.md",
       "words": 1169
+    },
+    "extracted": {
+      "at": "2026-10-25T16:55:46.377Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006673
+    },
+    "summarized": {
+      "at": "2026-10-25T16:55:46.379Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T16:55:46.380Z"
+    },
+    "published": {
+      "at": "2026-10-25T16:55:46.388Z",
+      "path": "content/posts/vjeko-com/https-vjeko-com-2026-01-27-when-guids-collide-the-app-id-problem-nobody-expected--5bc138f19e.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9fb1df3049215c2a00c72ee096696a2d1a6f18d5d4d1959669ad63402754a4b5"
+  "output_hash": "3a1350649436db43c4f6963ae77f2bae5ecd33d45d9eddd5f6b0ef37f62e01f1"
 }

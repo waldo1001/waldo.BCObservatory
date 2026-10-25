@@ -7,13 +7,39 @@
   "url": "https://vjeko.com/2025/11/19/al-object-id-ninja-self-hosting-vs-hassle-free-the-data-tells-a-curious-story/",
   "published_at": "2025-11-19T08:50:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T16:55:04.528Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T16:55:45.005Z",
+      "path": "vault:posts/vjeko-com/https-vjeko-com-2025-11-19-al-object-id-ninja-self-hosting-vs-hassle-free-the-data-tells-a-curious-s--c583681ec9.md",
+      "words": 195
+    },
+    "extracted": {
+      "at": "2026-10-25T16:55:51.306Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.0046
+    },
+    "summarized": {
+      "at": "2026-10-25T16:55:51.308Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T16:55:55.237Z"
+    },
+    "published": {
+      "at": "2026-10-25T16:55:55.247Z",
+      "path": "content/posts/vjeko-com/https-vjeko-com-2025-11-19-al-object-id-ninja-self-hosting-vs-hassle-free-the-data-tells-a-curious-s--c583681ec9.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "08281bfcd9d72c7b91f3545ff6f707d6e23673c4e9ddba381107c7f7b993e19c"
 }

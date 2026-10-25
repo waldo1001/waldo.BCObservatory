@@ -7,13 +7,39 @@
   "url": "https://vjeko.com/2025/11/09/end-of-free-backend-for-al-object-id-ninja/",
   "published_at": "2025-11-09T08:46:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T16:55:04.528Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T16:55:39.774Z",
+      "path": "vault:posts/vjeko-com/https-vjeko-com-2025-11-09-end-of-free-backend-for-al-object-id-ninja--0cb17aafa5.md",
+      "words": 704
+    },
+    "extracted": {
+      "at": "2026-10-25T16:55:46.681Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.005584
+    },
+    "summarized": {
+      "at": "2026-10-25T16:55:46.682Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T16:55:46.683Z"
+    },
+    "published": {
+      "at": "2026-10-25T16:55:46.692Z",
+      "path": "content/posts/vjeko-com/https-vjeko-com-2025-11-09-end-of-free-backend-for-al-object-id-ninja--0cb17aafa5.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3008897ed553fc1367501c597dc548697331cb84dd85c2e66f1963e5ba44f791"
 }

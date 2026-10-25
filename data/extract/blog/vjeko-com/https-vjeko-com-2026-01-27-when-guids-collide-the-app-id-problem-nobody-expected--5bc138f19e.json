@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/vjeko-com/https://vjeko.com/2026/01/27/when-guids-collide-the-app-id-problem-nobody-expected/",
+  "url": "https://vjeko.com/2026/01/27/when-guids-collide-the-app-id-problem-nobody-expected/",
+  "title": "When GUIDs Collide: The App ID Problem Nobody Expected",
+  "source": "vjeko-com",
+  "published_at": "2026-01-27T17:30:07.000Z",
+  "words": 1169,
+  "summary": "App ID collisions occur when multiple Business Central AL apps share the same GUID despite mathematical uniqueness guarantees. The post analyzes three causes: manual GUID creation, cloning demo repositories, and copy-paste development, and recommends generating new App IDs rather than attempting to resolve collisions.",
+  "key_points": [
+    "Nearly 150 duplicate App IDs exist among 50,000 apps tracked by AL Object ID Ninja, despite GUIDs being mathematically designed to be unique",
+    "Developers create collisions through manual GUID entry, cloning GitHub demo repos without regenerating IDs, and copy-pasting projects without updating App IDs",
+    "When apps with identical App IDs meet in production, consequences are unknown but potentially severe, similar to database collisions",
+    "AL Object ID Ninja can detect conflicting App IDs and provide isolation, with benefits only available on the public platform"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "app id",
+    "guid collision",
+    "app.json",
+    "al development",
+    "appsource",
+    "duplicate identifiers"
+  ],
+  "objects": [],
+  "features": [
+    "App ID conflict detection",
+    "App ID isolation",
+    "collision awareness",
+    "collision protection"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Among those 50,000 apps, I've found nearly 150 that share an App ID with at least one other app.",
+      "why_it_matters": "Demonstrates the scope of the problem: collisions actually occur despite mathematical improbability, affecting a significant number of apps in the ecosystem."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006673,
+    "posts_in_call": 1
+  }
+}

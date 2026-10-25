@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/vjeko-com/https://vjeko.com/2025/12/12/important-announcement-for-teams-maintaining-private-al-object-id-ninja-backend-get-ready-for-v3/",
+  "url": "https://vjeko.com/2025/12/12/important-announcement-for-teams-maintaining-private-al-object-id-ninja-backend-get-ready-for-v3/",
+  "title": "Important announcement for teams maintaining private AL Object ID Ninja backend – get ready for “v3”",
+  "source": "vjeko-com",
+  "published_at": "2025-12-12T08:59:38.000Z",
+  "words": 507,
+  "summary": "AL Object ID Ninja v3 backend introduces a cleaner REST-idiomatic architecture with improved maintainability. Self-hosted teams must deploy the new backend first, then update the extension; users upgrading early will lose connectivity until the backend is ready.",
+  "key_points": [
+    "v3 backend uses REST-idiomatic endpoints and separates responsibilities more cleanly than the original design",
+    "Self-hosted and hosted setups have different upgrade paths: self-hosted requires coordinated manual migration, hosted is transparent",
+    "Deployment order matters: backend must deploy before the extension to avoid communication failures",
+    "New backend and old extension are incompatible due to structural architectural changes"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al object id ninja",
+    "backend infrastructure",
+    "extension compatibility",
+    "deployment",
+    "api architecture"
+  ],
+  "objects": [],
+  "features": [
+    "AL Object ID Ninja v3",
+    "REST API endpoints",
+    "self-hosted backend deployment"
+  ],
+  "versions": [
+    "v3"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The new backend and the old extension are not compatible, and the new extension is not compatible with the old backend.",
+      "why_it_matters": "This incompatibility is a critical breaking change that requires coordinated migration for self-hosted teams"
+    },
+    {
+      "text": "For teams using the public Ninja backend, this transition is fully managed and you won't notice a thing.",
+      "why_it_matters": "Hosted users get automatic migration with no action required, distinguishing their experience from self-hosted teams"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005047,
+    "posts_in_call": 1
+  }
+}

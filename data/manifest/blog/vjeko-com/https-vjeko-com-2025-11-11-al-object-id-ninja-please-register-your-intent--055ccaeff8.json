@@ -7,13 +7,39 @@
   "url": "https://vjeko.com/2025/11/11/al-object-id-ninja-please-register-your-intent/",
   "published_at": "2025-11-11T09:02:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T16:55:04.528Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T16:55:44.654Z",
+      "path": "vault:posts/vjeko-com/https-vjeko-com-2025-11-11-al-object-id-ninja-please-register-your-intent--055ccaeff8.md",
+      "words": 352
+    },
+    "extracted": {
+      "at": "2026-10-25T16:55:55.380Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005226
+    },
+    "summarized": {
+      "at": "2026-10-25T16:55:55.380Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T16:55:55.381Z"
+    },
+    "published": {
+      "at": "2026-10-25T16:55:55.387Z",
+      "path": "content/posts/vjeko-com/https-vjeko-com-2025-11-11-al-object-id-ninja-please-register-your-intent--055ccaeff8.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e99682702f3368e6645ee84282fd51e12b283af2f07c62383ba52b0b41ed4e9b"
 }

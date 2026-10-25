@@ -7,13 +7,39 @@
   "url": "https://vjeko.com/2025/12/03/a-story-about-trust-why-one-team-moved-from-private-endpoints-to-the-hosted-ninja-backend/",
   "published_at": "2025-12-03T09:21:56.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T16:55:04.528Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T16:55:37.571Z",
+      "path": "vault:posts/vjeko-com/https-vjeko-com-2025-12-03-a-story-about-trust-why-one-team-moved-from-private-endpoints-to-the-host--2c269b6e36.md",
+      "words": 705
+    },
+    "extracted": {
+      "at": "2026-10-25T16:55:45.980Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005577
+    },
+    "summarized": {
+      "at": "2026-10-25T16:55:45.981Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T16:55:45.982Z"
+    },
+    "published": {
+      "at": "2026-10-25T16:55:45.990Z",
+      "path": "content/posts/vjeko-com/https-vjeko-com-2025-12-03-a-story-about-trust-why-one-team-moved-from-private-endpoints-to-the-host--2c269b6e36.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "12c88c4166a0854f1a6550f45e330ceecccf580eb9439e20c5c9fe542e4ad738"
 }

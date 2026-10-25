@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/vjeko-com/https://vjeko.com/2025/12/03/a-story-about-trust-why-one-team-moved-from-private-endpoints-to-the-hosted-ninja-backend/",
+  "url": "https://vjeko.com/2025/12/03/a-story-about-trust-why-one-team-moved-from-private-endpoints-to-the-hosted-ninja-backend/",
+  "title": "A Story About Trust: Why LS Retail Moved from Private Endpoints to the Hosted Ninja Backend",
+  "source": "vjeko-com",
+  "published_at": "2025-12-03T09:21:56.000Z",
+  "words": 705,
+  "summary": "LS Retail, a long-time AL Object ID Ninja user, transitioned from maintaining their own private backend infrastructure to using Ninja's hosted service. Their decision reflects how professional commercial services with company backing offer greater peace of mind than self-maintained solutions, even though self-hosting reduces direct costs.",
+  "key_points": [
+    "LS Retail operated one of the rarest correctly-configured private Ninja backends with 100+ users across 20+ apps and 3 pools, yet chose to migrate to the hosted service",
+    "Self-hosting always incurs hidden costs: Azure infrastructure, maintenance time, monitoring updates, and configuration oversight across teams",
+    "Two-thirds of private-endpoint Ninja deployments are misconfigured, negating the tool's core benefit of preventing object ID collisions",
+    "Teams value a professionally supported service more than free alternatives, preferring predictability and reduced friction over infrastructure control",
+    "Migration from private to hosted endpoints took only two hours with no downtime or service disruption"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al object id ninja",
+    "private endpoints",
+    "infrastructure",
+    "commercial service",
+    "object id collisions",
+    "team workflows"
+  ],
+  "objects": [],
+  "features": [
+    "AL Object ID Ninja",
+    "private endpoints",
+    "hosted backend",
+    "object ID conflict avoidance"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Telemetry shows that two out of every three private-endpoint apps today are misconfigured.",
+      "why_it_matters": "Reveals that most teams cannot properly maintain complex private infrastructure, undermining the purpose of having a conflict-avoidance tool"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005577,
+    "posts_in_call": 1
+  }
+}

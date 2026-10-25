@@ -7,13 +7,39 @@
   "url": "https://vjeko.com/2025/12/08/al-object-id-ninja-v3-0-platform-launching-on-december-15/",
   "published_at": "2025-12-08T08:46:29.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T16:55:04.528Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T16:55:37.521Z",
+      "path": "vault:posts/vjeko-com/https-vjeko-com-2025-12-08-al-object-id-ninja-v3-0-platform-launching-on-december-15--248a687f29.md",
+      "words": 627
+    },
+    "extracted": {
+      "at": "2026-10-25T16:55:44.479Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.00462
+    },
+    "summarized": {
+      "at": "2026-10-25T16:55:44.480Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T16:55:44.480Z"
+    },
+    "published": {
+      "at": "2026-10-25T16:55:44.487Z",
+      "path": "content/posts/vjeko-com/https-vjeko-com-2025-12-08-al-object-id-ninja-v3-0-platform-launching-on-december-15--248a687f29.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6b2d3776b9edad2b52e79830f74f39918632d31789c26f5468433c86b8617055"
 }

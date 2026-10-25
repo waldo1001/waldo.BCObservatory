@@ -7,7 +7,7 @@
   "url": "https://vjeko.com/2025/12/12/important-announcement-for-teams-maintaining-private-al-object-id-ninja-backend-get-ready-for-v3/",
   "published_at": "2025-12-12T08:59:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T16:55:04.528Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-25T16:55:37.326Z",
       "path": "vault:posts/vjeko-com/https-vjeko-com-2025-12-12-important-announcement-for-teams-maintaining-private-al-object-id-ninja-b--057f9c9159.md",
       "words": 507
+    },
+    "extracted": {
+      "at": "2026-10-25T16:55:44.882Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005047
+    },
+    "summarized": {
+      "at": "2026-10-25T16:55:44.883Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T16:55:44.884Z"
+    },
+    "published": {
+      "at": "2026-10-25T16:55:44.894Z",
+      "path": "content/posts/vjeko-com/https-vjeko-com-2025-12-12-important-announcement-for-teams-maintaining-private-al-object-id-ninja-b--057f9c9159.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "790d3f7aaf71a2fbb7ac60372df280f07c1dab71018d6e74e95b5b2dce0882c2"
+  "output_hash": "cbee9431076241d98ad69098eeae2d592edef1c7a44fed170ebb5b92b419984e"
 }
