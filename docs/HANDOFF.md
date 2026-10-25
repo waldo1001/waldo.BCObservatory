@@ -37,6 +37,11 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-25 (site only; readers see it after the next Pages deploy):**
+- **The galaxy moves where the data does (D114, M51, issue #46).** Recency orbits (closer, faster, yellow when new),
+  comets for this week's bodies, a flight-path comet under a source lens, particles along a hovered port, systems
+  turning once in 6 minutes. Operator step: none; the flight path needs `data/graph/flights.json`, which the next
+  nightly's graph step writes (until then the source lens shows no comet). Also fixed: a tilt opened from the URL
+  redrew forever. Spec `docs/specs/galaxy-motion.md`, section 12 has the measurements.
 - **Videos and posts orbit their hub (D113, M50, issue #45).** At system and star level in the flat galaxy each hub's
   media bodies circle it, evenly spaced, one turn per 40 s (`ORBIT_MS` in `site/src/scripts/galaxy-core.ts`), each hub
   at its own phase; static fan under reduced motion and in the tilt; orbits alone redraw at 30 fps. Spec

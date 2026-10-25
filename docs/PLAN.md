@@ -462,6 +462,7 @@ blogs; all videos newest-first.
 | **M48 Unique users and location in usage counts** | install id as `user_Id`, country and city derived by Application Insights, notice updated, MCP 0.12.0 (amends D110 in `docs/specs/mcp-usage-telemetry.md`, D111, shipped 2026-10-24) | an hour | none: no LLM calls, no page bytes |
 | **M49 miljan.rs blog source** | one `sources.yaml` entry for miljan.rs, derived mode, feed only (`docs/specs/miljan-rs-blog-source.md`, D112, shipped 2026-10-25) | small | low: one more blog in ingest and derive |
 | **M50 Media orbits** | videos and posts circle their hub at level 2 and 3 in the flat galaxy, static under reduced motion and in the tilt (`docs/specs/media-orbits.md`, D113, shipped 2026-10-25) | small | none: site only |
+| **M51 Galaxy motion** | recency orbits in landed yellow, comets for this week, flight paths under a source lens (`data/graph/flights.json`), port traffic on hover, systems turning (`docs/specs/galaxy-motion.md`, D114, shipped 2026-10-25) | medium | low: one small graph file per nightly |
 | **v0.2+** | evidence chips + review-badge UI, 30-vNext, older versions as diffs back to 23/15, Jarvis budget handshake (shared intent file), static embeddings (model2vec potion-8M), MAYBE blogs, yzhums opt-in if agreed | ongoing | per-version gating |
 
 ## 6. Verification

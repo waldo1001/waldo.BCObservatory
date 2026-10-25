@@ -61,7 +61,7 @@ type Rect = { x: number; y: number; w: number; h: number };
 
 import { CANVAS_FONT, CAPTION_MAX_COVER, captionSpot, dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold, visibleLabels, type Box, type CaptionSpot } from "./galaxy-labels.js";
 import { parsePills, pillsParam, togglePill, usablePills } from "./pills-core.js";
-import { bodyAngle, groupChanges, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, ORBIT_FRAME_MS, orbitPhase, orbiting, packPorts, parseHash, pickerRows, pillDisabled, portSpot, searchLeaves, sortRows, starIntro, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
+import { ageDays, bodyAngle, cometProgress, COMET_MS, COMET_STAGGER_MS, flightAt, flightHops, groupChanges, landedRingsOn, mixHex, newness, orbitPeriod, orbitRadius, PARTICLE_MS, particleCount, rotate, SPIN_FRAME_MS, SPIN_MS, spinning, type FlightStop, legendItems, lensChip, lensMenu, mediaMeta, ORBIT_FRAME_MS, orbitPhase, orbiting, packPorts, parseHash, pickerRows, pillDisabled, portSpot, searchLeaves, sortRows, starIntro, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
 import { applyZoom, bounds, coreSample, corners, DIM_MISS, DIM_PLANE, fullPlanes, hitMask, inQuad, isHit, lerp, markHit, mediaSpot, norm, OBSOLETE, panBy, PLANE_LABEL, PLANES, planeGeometry, planeOrder, planeRows, plateAt, plotOf, project, restLines, STAR, ZOOM_1, zoomAt, type Bounds, type HitMask, type LayersFile, type Line, type Plane, type PlaneId, type PlaneRow, type Sample, type Thing, type Box as ZoomBox, type Zoom } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
@@ -294,8 +294,28 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   // D113: a system's media bodies orbit their hubs while it is in view, flat, without reduced motion
   const sysHasBodies = new Set(g.nodes.filter((n) => n.mb).map((n) => n.group));
   const orbitNow = () => orbiting({ level, tilted: tilted() || !!tiltAnim, reduced: reduce.matches, bodies: !!focusSys && sysHasBodies.has(focusSys.id) });
-  const busy = () => !!anim || !!tiltAnim || labelsFading || drawing() || pulsing();
-  const animating = () => busy() || orbitNow();
+  // D114: this week's bodies fly in as comets the first time a system opens (once per system per visit)
+  const arrived = new Set<string>();
+  let comet: { sys: string; t0: number; n: number } | null = null;
+  const cometsOn = () => !!comet && comet.sys === focusSys?.id && !tilted() && performance.now() < comet.t0 + (comet.n - 1) * COMET_STAGGER_MS + COMET_MS;
+  // D114: under a source lens a comet flies the source's flight path (data/graph/flights.json, loaded on first use)
+  let flights: Record<string, FlightStop[]> | null = null, flightsLoading: Promise<void> | null = null;
+  let flight: { lens: string; hops: Node[]; t0: number } | null = null;
+  const flightOn = () => !!flight && flight.lens === lens?.id && flight.hops.length > 1 && !reduce.matches && !tilted();
+  // D114: hovering a port sends particles along its edge
+  let hoverPort: string | null = null;
+  const particlesOn = () => !!hoverPort && level === 3 && !reduce.matches && !listView;
+  // D114: systems turn slowly round their centres; every node keeps its baked spot in `home`
+  const home = new Map(g.nodes.map((n) => [n, { x: n.x, y: n.y }]));
+  let spin = 0, spinT = 0;
+  const spinNow = () => spinning({ level, tilted: tilted() || !!tiltAnim, reduced: reduce.matches, list: listView });
+  const applySpin = () => {
+    for (const n of g.nodes) { const S = sysById.get(n.group), h = home.get(n)!; if (!S) continue; const q = rotate(h.x, h.y, S.x, S.y, spin); n.x = q.x; n.y = q.y; }
+  };
+  /** A spot from the layers file (baked, unturned) on screen in the flat view: turned with its system. */
+  const flatAt = (x: number, y: number) => { const S = focusSys; if (!S || !spin) return toScreen(x, y); const q = rotate(x, y, S.x, S.y, spin); return toScreen(q.x, q.y); };
+  const busy = () => !!anim || !!tiltAnim || labelsFading || drawing() || pulsing() || cometsOn();
+  const animating = () => busy() || orbitNow() || flightOn() || particlesOn() || spinNow();
   let lastDraw = 0;
   const loop = () => {
     cancelAnimationFrame(raf);
@@ -311,8 +331,11 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         tilt = tiltAnim.from + (tiltAnim.to - tiltAnim.from) * ease(k);
         if (k >= 1) { tilt = tiltAnim.to; tiltAnim = null; renderPanel(); renderTable(); renderChrome(); setHash(); }
       }
-      // orbits alone draw at 30 fps (D113)
-      if (busy() || t - lastDraw >= ORBIT_FRAME_MS) { draw(t); lastDraw = t; }
+      // D114: the spin advances only while it runs (no jump after a freeze)
+      if (spinNow()) { if (spinT) spin = (spin + ((t - spinT) * 2 * Math.PI) / SPIN_MS) % (2 * Math.PI); spinT = t; } else spinT = 0;
+      // orbits, the flight and particles draw at 30 fps (D113), the spin alone at 15 (D114)
+      const gap = busy() ? 0 : orbitNow() || flightOn() || particlesOn() ? ORBIT_FRAME_MS : SPIN_FRAME_MS;
+      if (t - lastDraw >= gap) { applySpin(); draw(t); lastDraw = t; }
       if (animating()) loop();
     });
   };
@@ -388,7 +411,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     ctx.fillStyle = core; ctx.fillRect(0, 0, W, H);
     ctx.fillStyle = colors.field;
     for (const f of field) { const p = toScreen(f.x, f.y); if (p.x < 0 || p.y < 0 || p.x > W || p.y > H) continue; ctx.globalAlpha = f.a; ctx.fillRect(p.x, p.y, f.r, f.r); }
-    if (tilted()) { drawTilted(t); placePorts(); placeSystemLabels(); return; }
+    // the tilt places no star captions, so none is fading in: a fade left over from the flat frame would loop forever
+    if (tilted()) { labelsFading = false; drawTilted(t); placePorts(); placeSystemLabels(); return; }
     planeLabels.hidden = true;
     for (const s of g.systems) {
       const p = toScreen(s.x, s.y), r = Math.max(1, (s.r + 30) * cam.s);
@@ -473,9 +497,19 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         }
         placePorts();
         if (kOut > 0 && !mobile()) for (const spot of portSpots) {
-          ctx.globalAlpha = 0.9; ctx.strokeStyle = colors.cross; ctx.setLineDash([6, 4]);
+          const hot = spot.sys === hoverPort;
+          ctx.globalAlpha = 0.9; ctx.strokeStyle = colors.cross; ctx.lineWidth = hot ? 2 : 1; ctx.setLineDash([6, 4]);
           line(p, { x: p.x + (spot.x - p.x) * kOut, y: p.y + (spot.y - p.y) * kOut });
-          ctx.setLineDash([]);
+          ctx.setLineDash([]); ctx.lineWidth = 1;
+          // D114: particles from the star to the hovered port, more for more links
+          if (hot && kOut >= 1 && particlesOn()) {
+            const links = focusStar.cross.find(([sys]) => sys === spot.sys)?.[1] ?? 1, m = particleCount(links);
+            ctx.fillStyle = colors.cross;
+            for (let q = 0; q < m; q++) {
+              const f = (t / PARTICLE_MS + q / m) % 1;
+              ctx.globalAlpha = Math.min(1, f * 5, (1 - f) * 5); ctx.beginPath(); ctx.arc(p.x + (spot.x - p.x) * f, p.y + (spot.y - p.y) * f, 2.4, 0, Math.PI * 2); ctx.fill();
+            }
+          }
         }
       }
     }
@@ -520,20 +554,64 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     }
     // media bodies beside the hubs of the system in view: triangle video, bar post, accent when landed this week
     if (level >= 2 && focusSys) {
-      const moving = orbitNow();
+      const moving = orbitNow(), sc = toScreen(focusSys.x, focusSys.y);
+      if (!anim && !arrived.has(focusSys.id)) {
+        arrived.add(focusSys.id);
+        const n = g.nodes.reduce((a, x) => a + (x.group === focusSys!.id && x.mb ? x.mb.top.filter(([id]) => landedMedia.has(id)).length : 0), 0);
+        comet = n && !reduce.matches ? { sys: focusSys.id, t0: t, n } : null;
+      }
+      const flying = cometsOn();
+      let j = 0;
       for (const n of g.nodes) {
         if (n.group !== focusSys.id || !n.mb) continue;
+        const nLanded = n.mb.top.filter(([id]) => landedMedia.has(id)).length;
         const p = toScreen(n.x, n.y), d = diameter(n);
-        if (d < 4 || p.x < -30 || p.y < -30 || p.x > W + 30 || p.y > H + 30) continue;
-        const r0 = d / 2 + 10, phase = orbitPhase(n.id), k = n.mb.top.length;
-        ctx.globalAlpha = level === 3 && focusStar && n !== focusStar && !adj.get(focusStar.id)?.includes(n.id) ? 0.3 : 0.95;
-        n.mb.top.forEach(([id, kind], i) => {
-          const ang = bodyAngle(i, k, moving ? t : null, phase), x = p.x + Math.cos(ang) * r0, y = p.y + Math.sin(ang) * r0;
-          ctx.fillStyle = landedMedia.has(id) ? colors.mediaNew : colors.media;
+        if (d < 4 || p.x < -30 || p.y < -30 || p.x > W + 30 || p.y > H + 30) { j += nLanded; continue; }
+        const phase = orbitPhase(n.id), k = n.mb.top.length, alpha = level === 3 && focusStar && n !== focusStar && !adj.get(focusStar.id)?.includes(n.id) ? 0.3 : 0.95;
+        // D114: closer and faster the newer it is, yellow through the week and fading to grey by 30 days
+        n.mb.top.forEach(([id, kind, date], i) => {
+          const age = ageDays(date, week.anchor), r0 = orbitRadius(d, age), isNew = landedMedia.has(id);
+          const ang = bodyAngle(i, k, moving ? t : null, phase, orbitPeriod(r0, d));
+          let x = p.x + Math.cos(ang) * r0, y = p.y + Math.sin(ang) * r0;
+          ctx.globalAlpha = alpha;
+          ctx.fillStyle = mixHex(colors.media, colors.mediaNew, isNew ? 1 : newness(age));
+          if (isNew && flying && comet) {
+            const q = j++, kk = cometProgress(t, comet.t0, q);
+            if (kk === null) return;
+            if (kk < 1) {
+              // from beyond the system's rim, along the line from its centre through the hub, with a short fading tail
+              const dx = p.x - sc.x, dy = p.y - sc.y, len = Math.hypot(dx, dy) || 1, sx = p.x + (dx / len) * 360, sy = p.y + (dy / len) * 360 - (len < 1 ? 360 : 0);
+              for (let s = 5; s >= 1; s--) {
+                const kt = cometProgress(t - s * 35, comet.t0, q);
+                if (kt === null || kt >= 1) continue;
+                ctx.globalAlpha = alpha * 0.5 * (1 - s / 6); ctx.beginPath(); ctx.arc(sx + (x - sx) * kt, sy + (y - sy) * kt, 2.2, 0, Math.PI * 2); ctx.fill();
+              }
+              x = sx + (x - sx) * kk; y = sy + (y - sy) * kk;
+              ctx.globalAlpha = alpha; ctx.shadowColor = colors.mediaNew; ctx.shadowBlur = 10;
+            }
+          } else if (isNew) j++;
           ctx.beginPath();
           if (kind === "v") { ctx.moveTo(x, y - 4); ctx.lineTo(x + 4, y + 3); ctx.lineTo(x - 4, y + 3); ctx.closePath(); } else ctx.rect(x - 4, y - 1.5, 8, 3);
           ctx.fill();
+          ctx.shadowBlur = 0;
         });
+      }
+    }
+    // D114: a source lens's flight path: a comet from stop to stop, oldest first, the last hops it flew trailing behind;
+    // under reduced motion the whole path, still
+    if (flight && flight.lens === lens?.id && flight.hops.length > 1 && !tilted()) {
+      const pts = flight.hops.map((n) => toScreen(n.x, n.y));
+      ctx.strokeStyle = colors.accent; ctx.lineWidth = 1.5;
+      if (reduce.matches) { ctx.globalAlpha = 0.5; for (let h = 0; h + 1 < pts.length; h++) line(pts[h], pts[h + 1]); }
+      else {
+        const at = flightAt(t, flight.t0, pts.length);
+        if (at) {
+          for (let h = Math.max(0, at.i - 8); h < at.i; h++) { ctx.globalAlpha = 0.12 + 0.6 * (1 - (at.i - h) / 9); line(pts[h], pts[h + 1]); }
+          const a = pts[at.i], b = pts[Math.min(at.i + 1, pts.length - 1)], head = { x: a.x + (b.x - a.x) * at.k, y: a.y + (b.y - a.y) * at.k };
+          ctx.globalAlpha = 0.85; line(a, head);
+          ctx.globalAlpha = 1; ctx.fillStyle = colors.accent; ctx.shadowColor = colors.accent; ctx.shadowBlur = 14;
+          ctx.beginPath(); ctx.arc(head.x, head.y, 3.5, 0, Math.PI * 2); ctx.fill(); ctx.shadowBlur = 0;
+        }
       }
     }
     // landed this week, only while the this-week lens is on (D71): pulse ring (scale .7 to 1.25, opacity .9 to 0, 2400 ms); a static double ring under reduced motion
@@ -564,7 +642,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   /** Every thing's spot on its plane at the current tilt (flat spot when tilt is 0). */
   function spotOf(th: Thing, planes: Plane[]): { x: number; y: number } | null {
     const f = layers!, plane = planes[PLANES.indexOf(th.plane)];
-    const at = (x: number, y: number) => { const n = norm(layerBounds!, x, y); return lerp(toScreen(x, y), applyZoom(tz, project(plane, n.u, n.v)), tilt); };
+    const at = (x: number, y: number) => { const n = norm(layerBounds!, x, y); return lerp(flatAt(x, y), applyZoom(tz, project(plane, n.u, n.v)), tilt); };
     if (th.plane === "code" || th.plane === "countries") { const o = f.objects[th.i]; return o ? at(o[1], o[2]) : null; }
     if (th.plane === "hubs") { const h = f.hubs[th.i]; return h ? at(h[1], h[2]) : null; }
     const m = mediaSpot(f, th.i);
@@ -653,7 +731,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     drawnTiles = [];
     if (k > 0.05) {
       const codePlane = planes[PLANES.indexOf("code")];
-      const onCode = (x: number, y: number) => { const n = norm(layerBounds!, x, y); return lerp(toScreen(x, y), applyZoom(tz, project(codePlane, n.u, n.v)), k); };
+      const onCode = (x: number, y: number) => { const n = norm(layerBounds!, x, y); return lerp(flatAt(x, y), applyZoom(tz, project(codePlane, n.u, n.v)), k); };
       const plots = focusSys!.plots ?? [];
       const totals = plots.map(() => [0, 0, 0]);
       f.objects.forEach((o, i) => { const pi = objPlot[i]; if (pi >= 0) { totals[pi][0]++; if (o[3] > 0) totals[pi][1]++; if (sm?.code[i]) totals[pi][2]++; } });
@@ -792,7 +870,13 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     if (ports.dataset.star !== (want.length ? focusStar!.id : "")) {
       ports.dataset.star = want.length ? focusStar!.id : "";
       ports.innerHTML = want.map(([sys, count, kind, named]) => `<button type="button" class="g-port" data-port="${esc(sys)}" style="--dot: var(--sys-${esc(sys)})"><b>${esc(sysById.get(sys)?.label ?? sys)} →</b><small>${count} ${esc(KIND[kind] ?? kind)} · ${esc(named.map((x) => short(targetLabel(x), 22)).join(", "))}</small></button>`).join("");
-      for (const b of ports.querySelectorAll<HTMLButtonElement>("[data-port]")) b.addEventListener("click", () => takePort(b.dataset.port!));
+      hoverPort = null;
+      for (const b of ports.querySelectorAll<HTMLButtonElement>("[data-port]")) {
+        b.addEventListener("click", () => takePort(b.dataset.port!));
+        // D114: hover or focus sends particles along this port's edge
+        const on = () => { hoverPort = b.dataset.port!; redraw(); }, off = () => { if (hoverPort === b.dataset.port) { hoverPort = null; redraw(); } };
+        b.addEventListener("pointerenter", on); b.addEventListener("focus", on); b.addEventListener("pointerleave", off); b.addEventListener("blur", off);
+      }
     }
     // D92: each port at its edge spot under the bar; one that would overlap another port, the legend, the nav buttons
     // or the focused star with its caption takes the nearest free slot on the border, and with none left it is hidden
@@ -964,9 +1048,23 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     }
     if (lens && !keepScope) { level = 1; focusSys = null; focusStar = null; }
     if (lens && level === 3 && focusStar && !lensSet.has(focusStar.id)) { level = 2; focusStar = null; }
+    flight = null;
+    if (lens?.id.startsWith("src:")) startFlight(lens.id);
     update();
   }
-  const clearLens = () => { leaveSearch(); lens = null; lensSet.clear(); lensLines = []; };
+  const clearLens = () => { leaveSearch(); lens = null; lensSet.clear(); lensLines = []; flight = null; };
+  /** D114: the comet's hops for a source lens, once flights.json is in. */
+  function startFlight(id: string) {
+    const go = () => {
+      if (lens?.id !== id) return;
+      const hops = flightHops(flights?.[id.slice("src:".length)] ?? [], (h) => byId.get(h)?.weight).map((h) => byId.get(h)!);
+      flight = { lens: id, hops, t0: performance.now() };
+      renderPanel(); redraw();
+    };
+    if (flights) return go();
+    flightsLoading ??= fetch(`${base}graph/flights.json`).then((r) => (r.ok ? r.json() : {})).catch(() => ({})).then((f) => { flights = f; });
+    flightsLoading.then(go);
+  }
   /** A search as an ad-hoc lens (D44): the hits with a star light up, systems with star-less hits glow, the panel lists both. */
   function setSearch(h: SearchHits | null) {
     const had = !!lens?.search, fromHash = hashScope;
@@ -1194,7 +1292,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       for (const n of g.nodes) if (lensSet.has(n.id)) per.set(n.group, (per.get(n.group) ?? 0) + 1);
       const extra = (n: Node) => (lens!.version ? [n.cv?.includes(lens!.version) ? `changed in BC${lens!.version}` : "", n.ob?.includes(lens!.version) ? "obsolete" : ""].filter(Boolean).join(", ") : "");
       html = `<p class="g-kicker">lens · ${esc(lens.group.toLowerCase())}${scope ? ` · ${esc(scope.label)}` : ""}</p><h2 tabindex="-1">${esc(lens.label)}</h2>
-        <p class="g-meta">${hits.length} stars light up${scope ? ` in ${esc(scope.label)}` : ""}${lens.lines && hits.length > 1 ? ", joined into a constellation" : ""}${lens.id === "landed" ? weekMeta(scope?.id ?? null) : ""}.</p>
+        <p class="g-meta">${hits.length} stars light up${scope ? ` in ${esc(scope.label)}` : ""}${lens.lines && hits.length > 1 ? ", joined into a constellation" : ""}${lens.id === "landed" ? weekMeta(scope?.id ?? null) : ""}.</p>${flight?.lens === lens.id && flight.hops.length > 1 ? `<p class="g-meta">A comet flies its flight path: ${flight.hops.length} stops, oldest first.</p>` : ""}
         <p>${lens.exit ? `<a class="btn" href="${esc(lens.exit.href)}">${esc(lens.exit.label)}</a> ` : ""}<button type="button" class="btn" data-clear-lens>Clear the lens</button></p>
         ${lens.id === "landed" ? weekPanel(scope?.id ?? null) : ""}
         ${!scope && !reach.length && per.size > 1 ? `<h3>Per system</h3><ul class="g-list">${[...per].sort((a, b) => b[1] - a[1]).map(([id, c]) => `<li><button type="button" data-sys="${esc(id)}" data-keep-lens><span class="g-dot" style="--dot: var(--sys-${esc(id)})"></span><span>${esc(sysById.get(id)?.label ?? id)}</span><small>${c}</small></button></li>`).join("")}</ul>` : ""}

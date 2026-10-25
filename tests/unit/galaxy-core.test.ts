@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { bodyAngle, codeGroup, groupChanges, kindsParam, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, ORBIT_MS, orbitPhase, orbiting, packPorts, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, searchLeaves, sortRows, starIntro, toggleKind, usableKinds, versionMenu, weekPills } from "../../site/src/scripts/galaxy-core.js";
+import { ageDays, bodyAngle, cometProgress, COMET_MS, COMET_STAGGER_MS, flightAt, flightHops, FLIGHT_HOP_MS, FLIGHT_REST_MS, mixHex, newness, orbitPeriod, orbitRadius, particleCount, rotate, spinning, codeGroup, groupChanges, kindsParam, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, ORBIT_MS, orbitPhase, orbiting, packPorts, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, searchLeaves, sortRows, starIntro, toggleKind, usableKinds, versionMenu, weekPills } from "../../site/src/scripts/galaxy-core.js";
 
 test("galaxy hash: combined keys, the old single-key form, unknown keys dropped", () => {
   assert.deepEqual([...parseHash("#system=finance&lens=version%3A30")], [["system", "finance"], ["lens", "version:30"]]);
@@ -276,4 +276,65 @@ test("orbiting: only at system and star level, flat, without reduced motion, wit
   assert.equal(orbiting({ ...on, tilted: true }), false);
   assert.equal(orbiting({ ...on, reduced: true }), false);
   assert.equal(orbiting({ ...on, bodies: false }), false);
+});
+
+test("ageDays: whole days to the run day, never negative, no date is old (D114)", () => {
+  assert.equal(ageDays("2026-10-23", "2026-10-25"), 2);
+  assert.equal(ageDays("2026-10-25T21:00:00Z", "2026-10-25"), 0);
+  assert.equal(ageDays("2026-10-27", "2026-10-25"), 0);
+  assert.equal(ageDays(null, "2026-10-25"), Infinity);
+  assert.equal(ageDays("2026-10-23", null), Infinity);
+});
+
+test("orbitRadius and orbitPeriod: new bodies close and fast, old ones far and slow (D114)", () => {
+  near(orbitRadius(20, 0), 16); near(orbitRadius(20, 730), 30); near(orbitRadius(20, 5000), 30); near(orbitRadius(20, Infinity), 30);
+  assert.ok(orbitRadius(20, 7) < orbitRadius(20, 90));
+  near(orbitPeriod(20, 20), 40_000); // the D113 radius keeps the D113 period
+  assert.ok(orbitPeriod(orbitRadius(20, 0), 20) < orbitPeriod(orbitRadius(20, 730), 20));
+});
+
+test("newness: yellow through the week, fading to grey by 30 days (D114)", () => {
+  assert.equal(newness(0), 1); assert.equal(newness(6), 1); near(newness(18.5), 0.5); assert.equal(newness(30), 0); assert.equal(newness(Infinity), 0);
+});
+
+test("mixHex: blends #rgb and #rrggbb, clamps k, falls back for other colours (D114)", () => {
+  assert.equal(mixHex("#000000", "#ffffff", 0.5), "#808080");
+  assert.equal(mixHex("#C9CFDB", "#FFD27A", 0), "#c9cfdb");
+  assert.equal(mixHex("#C9CFDB", "#FFD27A", 1), "#ffd27a");
+  assert.equal(mixHex("#000", "#fff", 2), "#ffffff");
+  assert.equal(mixHex("rgb(1,2,3)", "#fff", 0.2), "rgb(1,2,3)");
+  assert.equal(mixHex("rgb(1,2,3)", "#fff", 0.8), "#fff");
+});
+
+test("cometProgress: staggered starts, eased out, done at 1 (D114)", () => {
+  assert.equal(cometProgress(100, 100, 1), null);
+  assert.equal(cometProgress(100, 100, 0), 0);
+  near(cometProgress(100 + COMET_STAGGER_MS + COMET_MS / 2, 100, 1)!, 0.875);
+  assert.equal(cometProgress(100 + COMET_MS * 3, 100, 0), 1);
+});
+
+test("flightHops: the heaviest drawn star of each stop, repeats folded, stops with no drawn star skipped (D114)", () => {
+  const w: Record<string, number> = { a: 1, b: 5, c: 3 };
+  assert.deepEqual(flightHops([["2025-01-01", ["a", "b"]], ["2025-02-01", ["b"]], ["2025-03-01", ["x"]], ["2025-04-01", ["c", "a"]], ["2025-05-01", ["b", "zz"]]], (id) => w[id]), ["b", "c", "b"]);
+  assert.deepEqual(flightHops([], (id) => w[id]), []);
+});
+
+test("flightAt: hop by hop, a rest on the last stop, then again; no flight under two hops (D114)", () => {
+  assert.deepEqual(flightAt(0, 0, 3), { i: 0, k: 0 });
+  assert.deepEqual(flightAt(FLIGHT_HOP_MS * 1.5, 0, 3), { i: 1, k: 0.5 });
+  assert.deepEqual(flightAt(FLIGHT_HOP_MS * 2 + 10, 0, 3), { i: 2, k: 0 });
+  assert.deepEqual(flightAt(FLIGHT_HOP_MS * 2 + FLIGHT_REST_MS + FLIGHT_HOP_MS / 4, 0, 3), { i: 0, k: 0.25 });
+  assert.equal(flightAt(5, 0, 1), null);
+});
+
+test("particleCount: one per started 10 links, between 2 and 6 (D114)", () => {
+  assert.equal(particleCount(1), 2); assert.equal(particleCount(25), 3); assert.equal(particleCount(500), 6);
+});
+
+test("spinning and rotate: systems turn at galaxy and system level only; a quarter turn is clockwise on screen (D114)", () => {
+  const on = { level: 1, tilted: false, reduced: false, list: false };
+  assert.equal(spinning(on), true); assert.equal(spinning({ ...on, level: 2 }), true); assert.equal(spinning({ ...on, level: 3 }), false);
+  assert.equal(spinning({ ...on, tilted: true }), false); assert.equal(spinning({ ...on, reduced: true }), false); assert.equal(spinning({ ...on, list: true }), false);
+  const p = rotate(10, 0, 0, 0, Math.PI / 2); near(p.x, 0); near(p.y, 10);
+  const q = rotate(5, 5, 5, 5, 1.3); near(q.x, 5); near(q.y, 5);
 });

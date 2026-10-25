@@ -370,6 +370,27 @@ export function landed(g: Graph, keep: Set<string>, today: string): { anchor: st
   return { anchor: today, days: LANDED_DAYS, items, changes: landedChanges(g, keep, today) };
 }
 
+/** D114: a source's flight path stop: [date, summary stars the item links to]. */
+export type FlightStop = [string, string[]];
+/** D114: at most this many stops per source, the latest (the source page's flight path shows 40). */
+const FLIGHT_STOPS = 60;
+/**
+ * Per source, its dated videos and posts oldest first with the summary stars each links to (the same stars as
+ * landed.json): the galaxy flies a comet along them under the source lens. Items that link to no summary star are left out.
+ */
+export function flights(g: Graph, keep: Set<string>): Record<string, FlightStop[]> {
+  const hubs = new Map<string, Set<string>>(), src = mediaSources(g);
+  for (const e of g.edges) if (!isRelated(e)) for (const [m, h] of [[e.s, e.t], [e.t, e.s]]) if (/^(video|post)\//.test(m) && keep.has(h) && !h.startsWith("source/")) (hubs.get(m) ?? hubs.set(m, new Set()).get(m)!).add(h);
+  const by = new Map<string, [string, string, string[]][]>();
+  for (const n of g.nodes) {
+    const s = src.get(n.id), h = hubs.get(n.id);
+    if (!s || !n.lit_at || !h?.size || !keep.has(`source/${s}`)) continue;
+    (by.get(s) ?? by.set(s, []).get(s)!).push([n.lit_at.slice(0, 10), n.id, [...h].sort()]);
+  }
+  return Object.fromEntries([...by].sort(([a], [b]) => a.localeCompare(b)).map(([s, items]) => [`source/${s}`,
+    items.sort((a, b) => a[0].localeCompare(b[0]) || a[1].localeCompare(b[1])).slice(-FLIGHT_STOPS).map(([d, , h]) => [d, h] as FlightStop)]));
+}
+
 /** One change of the week (D80): [change id, change_kind, merge day, summary stars it touches, title, system, breaking 0 | 1, backport majors]. */
 export type LandedChange = [string, string, string, string[], string, string, number, string[]];
 /**
@@ -492,6 +513,7 @@ export function renderGraph(contentDir: string, dataDir: string, siteBase = "", 
   if (writeIfChanged(resolve(dir, "summary.json"), summaryText)) written++;
   const week = landed(g, keep, opts.today ?? new Date().toISOString().slice(0, 10));
   if (writeIfChanged(resolve(dir, "landed.json"), `${JSON.stringify(week)}\n`)) written++;
+  if (writeIfChanged(resolve(dir, "flights.json"), `${JSON.stringify(flights(g, keep))}\n`)) written++;
   if (writeIfChanged(resolve(dir, "full.jsonl"), g.edges.map((e) => JSON.stringify(e)).join("\n") + "\n")) written++;
   // the layered view's file per system, loaded only when the reader tilts a system
   const layersDir = resolve(dir, "layers"), layerFiles = new Set<string>();

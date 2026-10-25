@@ -52,6 +52,8 @@ test("graph: typed edges from frontmatter links, deduplicated; a valid summary; 
   assert.deepEqual(s.nodes.find((n: any) => n.id === "object/table/17").cv, ["29"]);
   assert.deepEqual(s.touches, { "source/kauffmann-nl": ["object/table/17", "topic/fin/gl"] }, "where the blog touches the galaxy: its links and the object it names exactly (not the near-miss)");
   assert.deepEqual(s.reach, { "source/kauffmann-nl": { finance: 1 } });
+  // D114: the blog's flight path, oldest first, with the summary stars each item links to
+  assert.deepEqual(JSON.parse(readFileSync(join(dataDir, "graph/flights.json"), "utf8")), { "source/kauffmann-nl": [["2026-10-01", ["object/table/17", "topic/fin/gl"]]] });
   const first = readFileSync(join(dataDir, "graph/summary.json"), "utf8");
   assert.equal(renderGraph(dir, dataDir).written, 0, "same input, same layout: nothing rewritten");
   assert.equal(readFileSync(join(dataDir, "graph/summary.json"), "utf8"), first);
@@ -83,4 +85,14 @@ test("graph: an app page is a star in its system; Related rows become light rela
   assert.equal(JSON.parse(readFileSync(join(dataDir, "graph/summary.json"), "utf8")).nodes.find((n: any) => n.id === "topic/fin").weight, before, "Related adds no weight");
   assert.equal((edges.get("topic/fin|topic/fin/gl|relates") as any)?.w, 2, "a pair that already has a relates edge keeps it, not a second one");
   assert.equal(edges.has("app/finance-app|object/table/17|relates"), false, "app and object are already one implements edge: Related adds no second edge");
+});
+
+test("graph: flights.json lists a source's items oldest first and leaves out items that link to no star (D114)", () => {
+  const dir = content();
+  writeText(join(dir, "posts/kauffmann-nl/0.md"), page({ id: "post/kauffmann-nl/0", type: "post", title: "Older", tier: "community", source_id: "kauffmann-nl", system: "finance", published_at: "2026-09-01", links: L({ topics: ["topic/fin"] }) }));
+  writeText(join(dir, "posts/kauffmann-nl/2.md"), page({ id: "post/kauffmann-nl/2", type: "post", title: "Nowhere", tier: "community", source_id: "kauffmann-nl", system: "finance", published_at: "2026-10-05", links: L() }));
+  const dataDir = join(dir, "..", "data");
+  renderGraph(dir, dataDir);
+  const f = JSON.parse(readFileSync(join(dataDir, "graph/flights.json"), "utf8"));
+  assert.deepEqual(f["source/kauffmann-nl"], [["2026-09-01", ["topic/fin"]], ["2026-10-01", ["object/table/17", "topic/fin/gl"]]]);
 });

@@ -102,13 +102,89 @@ export function orbitPhase(id: string): number {
   for (let i = 0; i < id.length; i++) h = Math.imul(h ^ id.charCodeAt(i), 0x01000193);
   return ((h >>> 0) / 2 ** 32) * 2 * Math.PI;
 }
-/** D113: body i of k round its hub. No time: the static fan (reduced motion); else evenly spaced, turning clockwise. */
-export function bodyAngle(i: number, k: number, t: number | null, phase: number): number {
+/** D113: body i of k round its hub. No time: the static fan (reduced motion); else evenly spaced, turning clockwise once per `period` (D114: by radius). */
+export function bodyAngle(i: number, k: number, t: number | null, phase: number, period = ORBIT_MS): number {
   if (t === null) return -Math.PI / 2 + (i * Math.PI) / 6;
-  return -Math.PI / 2 + phase + (2 * Math.PI * i) / k + (2 * Math.PI * (t % ORBIT_MS)) / ORBIT_MS;
+  return -Math.PI / 2 + phase + (2 * Math.PI * i) / k + (2 * Math.PI * (t % period)) / period;
 }
 /** D113: media bodies orbit at system and star level in the flat view, never under reduced motion. */
 export const orbiting = (s: { level: number; tilted: boolean; reduced: boolean; bodies: boolean }): boolean => s.level >= 2 && !s.tilted && !s.reduced && s.bodies;
+
+/** D114: whole days from a body's date to the graph's run day; no date counts as old. */
+export function ageDays(date: string | null | undefined, anchor: string | null | undefined): number {
+  const a = Date.parse(`${anchor ?? ""}T00:00:00Z`), d = Date.parse(`${(date ?? "").slice(0, 10)}T00:00:00Z`);
+  return Number.isFinite(a) && Number.isFinite(d) ? Math.max(0, Math.round((a - d) / 864e5)) : Infinity;
+}
+/** D114: two years and older sit on the outer ring. */
+export const ORBIT_OLD_DAYS = 730;
+/** D114: a body's distance from its star's centre: 6 px past the rim for today, 20 px for two years and older (log scale). */
+export function orbitRadius(d: number, age: number): number {
+  const f = Number.isFinite(age) ? Math.min(1, Math.log1p(age) / Math.log1p(ORBIT_OLD_DAYS)) : 1;
+  return d / 2 + 6 + 14 * f;
+}
+/** D114: Kepler's third law against the D113 radius (d/2 + 10 turns once per ORBIT_MS): inner bodies are faster. */
+export const orbitPeriod = (r: number, d: number): number => ORBIT_MS * (r / (d / 2 + 10)) ** 1.5;
+/** D114: how yellow a body is: 1 within the week (the landed window), fading to 0 at 30 days. */
+export function newness(age: number): number {
+  return age < 7 ? 1 : age >= 30 ? 0 : 1 - (age - 7) / 23;
+}
+/** D114: `a` blended toward `b` by k in [0, 1], for #rgb and #rrggbb; anything else gives the nearer end. */
+export function mixHex(a: string, b: string, k: number): string {
+  const rgb = (h: string) => { const m = /^#([0-9a-f]{3}|[0-9a-f]{6})$/i.exec(h.trim()); if (!m) return null; const x = m[1].length === 3 ? m[1].replace(/./g, "$&$&") : m[1]; return [0, 2, 4].map((i) => parseInt(x.slice(i, i + 2), 16)); };
+  const p = rgb(a), q = rgb(b);
+  if (!p || !q) return k < 0.5 ? a : b;
+  return `#${p.map((v, i) => Math.round(v + (q[i] - v) * Math.min(1, Math.max(0, k))).toString(16).padStart(2, "0")).join("")}`;
+}
+
+/** D114: this week's bodies fly in as comets the first time a system opens: each takes COMET_MS, one starts every COMET_STAGGER_MS. */
+export const COMET_MS = 1800;
+export const COMET_STAGGER_MS = 140;
+/** D114: a comet's progress in [0, 1] (eased out), or null before it starts; j is its place in the queue. */
+export function cometProgress(t: number, t0: number, j: number): number | null {
+  const k = (t - t0 - j * COMET_STAGGER_MS) / COMET_MS;
+  return k < 0 ? null : k >= 1 ? 1 : 1 - (1 - k) ** 3;
+}
+
+/** D114: a source's flight path, from data/graph/flights.json: [date, summary stars it links to], oldest first. */
+export type FlightStop = [string, string[]];
+/** D114: the star each stop flies to (the heaviest star of that item that is drawn), repeats in a row folded into one. */
+export function flightHops(stops: FlightStop[], weight: (id: string) => number | undefined): string[] {
+  const out: string[] = [];
+  for (const [, hubs] of stops) {
+    let best: string | null = null, bw = -Infinity;
+    for (const h of hubs) { const w = weight(h); if (w !== undefined && w > bw) { best = h; bw = w; } }
+    if (best && out.at(-1) !== best) out.push(best);
+  }
+  return out;
+}
+/** D114: one hop of the flight takes FLIGHT_HOP_MS; after the last stop the comet rests FLIGHT_REST_MS, then flies again. */
+export const FLIGHT_HOP_MS = 700;
+export const FLIGHT_REST_MS = 1500;
+/** D114: where the comet is at time t: between stop `i` and `i + 1` at fraction k (k = 0 while resting on the last stop). */
+export function flightAt(t: number, t0: number, hops: number): { i: number; k: number } | null {
+  if (hops < 2) return null;
+  const leg = (hops - 1) * FLIGHT_HOP_MS, e = (t - t0) % (leg + FLIGHT_REST_MS);
+  if (e >= leg) return { i: hops - 1, k: 0 };
+  const x = e / FLIGHT_HOP_MS, i = Math.floor(x);
+  return { i, k: x - i };
+}
+
+/** D114: hovering a port sends particles along its edge: one per started 10 links, 2 to 6. */
+export const particleCount = (links: number): number => Math.max(2, Math.min(6, Math.ceil(links / 10)));
+/** D114: a particle travels from the star to the port in PARTICLE_MS. */
+export const PARTICLE_MS = 2400;
+
+/** D114: systems turn round their centre once in SPIN_MS (clockwise, like the orbits). */
+export const SPIN_MS = 360_000;
+/** D114: frames while the spin is the only motion are at least this far apart (15 fps). */
+export const SPIN_FRAME_MS = 66;
+/** D114: systems turn at galaxy and system level, never with a star in focus, in the tilt, the list or under reduced motion. */
+export const spinning = (s: { level: number; tilted: boolean; reduced: boolean; list: boolean }): boolean => s.level <= 2 && !s.tilted && !s.reduced && !s.list;
+/** D114: (x, y) turned by angle a round (cx, cy). */
+export function rotate(x: number, y: number, cx: number, cy: number, a: number): { x: number; y: number } {
+  const c = Math.cos(a), s = Math.sin(a), dx = x - cx, dy = y - cy;
+  return { x: cx + dx * c - dy * s, y: cy + dx * s + dy * c };
+}
 
 /** A major's labels from config/versions.json, passed to the galaxy as `data-majors` (D72). */
 export interface MajorMeta { label: string; vnext?: boolean }

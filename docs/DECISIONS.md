@@ -1279,3 +1279,13 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   moons), per-body speeds (same-radius bodies would overlap), orbiting in the tilt (its media items are click targets),
   a freeze on hover (flat-view bodies are not targets), 120 s per turn (under 1 px/s reads as a glitch). Spec
   `docs/specs/media-orbits.md`.
+- **D114 The galaxy moves where the data does (2026-10-25, M51).** Issue #46. Five motions, each tied to data, all off under
+  `prefers-reduced-motion`: (1) a media body's orbit radius, speed and colour follow its age: 6 px past the star's rim for
+  today to 20 px at two years (log scale), period by Kepler's third law against D113's radius, the "landed" yellow
+  through the week fading to the body grey at 30 days; (2) this week's bodies fly in as comets the first time a system
+  opens in a visit; (3) under a source lens a comet flies the source's flight path hub to hub, oldest first, from
+  `data/graph/flights.json` (graph step, latest 60 items per source, loaded on first use); (4) hovering a port sends
+  2 to 6 particles along its edge, by link count; (5) systems turn clockwise round their centre once in 6 minutes at
+  galaxy and system level, frozen at star level, in the tilt and the list. Frames: 30 fps for orbits, flight and
+  particles, 15 fps for the spin alone. Rejected: twinkling (no data), particles on every port (the hairball D03
+  avoids), comets on every visit, spin at star level. Spec `docs/specs/galaxy-motion.md`.
