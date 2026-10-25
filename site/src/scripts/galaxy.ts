@@ -61,7 +61,7 @@ type Rect = { x: number; y: number; w: number; h: number };
 
 import { CANVAS_FONT, CAPTION_MAX_COVER, captionSpot, dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold, visibleLabels, type Box, type CaptionSpot } from "./galaxy-labels.js";
 import { parsePills, pillsParam, togglePill, usablePills } from "./pills-core.js";
-import { groupChanges, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, packPorts, parseHash, pickerRows, pillDisabled, portSpot, searchLeaves, sortRows, starIntro, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
+import { bodyAngle, groupChanges, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, ORBIT_FRAME_MS, orbitPhase, orbiting, packPorts, parseHash, pickerRows, pillDisabled, portSpot, searchLeaves, sortRows, starIntro, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
 import { applyZoom, bounds, coreSample, corners, DIM_MISS, DIM_PLANE, fullPlanes, hitMask, inQuad, isHit, lerp, markHit, mediaSpot, norm, OBSOLETE, panBy, PLANE_LABEL, PLANES, planeGeometry, planeOrder, planeRows, plateAt, plotOf, project, restLines, STAR, ZOOM_1, zoomAt, type Bounds, type HitMask, type LayersFile, type Line, type Plane, type PlaneId, type PlaneRow, type Sample, type Thing, type Box as ZoomBox, type Zoom } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
@@ -290,10 +290,17 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   let raf = 0;
   let labelsFading = false;
   const drawing = () => level === 3 && !reduce.matches && Number.isFinite(focusAt) && performance.now() - focusAt < DRAW_MS;
-  const animating = () => !!anim || !!tiltAnim || labelsFading || drawing() || (!reduce.matches && lit.size > 0 && landedRingsOn(lens?.id) && !tilted());
+  const pulsing = () => !reduce.matches && lit.size > 0 && landedRingsOn(lens?.id) && !tilted();
+  // D113: a system's media bodies orbit their hubs while it is in view, flat, without reduced motion
+  const sysHasBodies = new Set(g.nodes.filter((n) => n.mb).map((n) => n.group));
+  const orbitNow = () => orbiting({ level, tilted: tilted() || !!tiltAnim, reduced: reduce.matches, bodies: !!focusSys && sysHasBodies.has(focusSys.id) });
+  const busy = () => !!anim || !!tiltAnim || labelsFading || drawing() || pulsing();
+  const animating = () => busy() || orbitNow();
+  let lastDraw = 0;
   const loop = () => {
     cancelAnimationFrame(raf);
     raf = requestAnimationFrame((t) => {
+      raf = 0;
       if (anim) {
         const k = Math.min(1, (t - anim.t0) / FLY_MS), e = ease(k);
         for (const key of ["s", "tx", "ty", "vx", "vy"] as const) cam[key] = anim.from[key] + (anim.to[key] - anim.from[key]) * e;
@@ -304,13 +311,14 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         tilt = tiltAnim.from + (tiltAnim.to - tiltAnim.from) * ease(k);
         if (k >= 1) { tilt = tiltAnim.to; tiltAnim = null; renderPanel(); renderTable(); renderChrome(); setHash(); }
       }
-      draw(t);
+      // orbits alone draw at 30 fps (D113)
+      if (busy() || t - lastDraw >= ORBIT_FRAME_MS) { draw(t); lastDraw = t; }
       if (animating()) loop();
     });
   };
-  const redraw = () => { if (animating()) return; draw(); if (labelsFading) loop(); };
+  const redraw = () => { if (animating()) { if (!raf) loop(); return; } draw(); if (labelsFading) loop(); };
   const flyTo = (to: typeof cam, instant = false, done?: () => void) => {
-    if (instant || reduce.matches) { Object.assign(cam, to); anim = null; draw(); done?.(); return; }
+    if (instant || reduce.matches) { Object.assign(cam, to); anim = null; draw(); done?.(); if (!raf && animating()) loop(); return; }
     anim = { from: { ...cam }, to, t0: performance.now(), done };
     loop();
   };
@@ -512,14 +520,15 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     }
     // media bodies beside the hubs of the system in view: triangle video, bar post, accent when landed this week
     if (level >= 2 && focusSys) {
+      const moving = orbitNow();
       for (const n of g.nodes) {
         if (n.group !== focusSys.id || !n.mb) continue;
         const p = toScreen(n.x, n.y), d = diameter(n);
         if (d < 4 || p.x < -30 || p.y < -30 || p.x > W + 30 || p.y > H + 30) continue;
-        const r0 = d / 2 + 10;
+        const r0 = d / 2 + 10, phase = orbitPhase(n.id), k = n.mb.top.length;
         ctx.globalAlpha = level === 3 && focusStar && n !== focusStar && !adj.get(focusStar.id)?.includes(n.id) ? 0.3 : 0.95;
         n.mb.top.forEach(([id, kind], i) => {
-          const ang = -Math.PI / 2 + (i * Math.PI) / 6, x = p.x + Math.cos(ang) * r0, y = p.y + Math.sin(ang) * r0;
+          const ang = bodyAngle(i, k, moving ? t : null, phase), x = p.x + Math.cos(ang) * r0, y = p.y + Math.sin(ang) * r0;
           ctx.fillStyle = landedMedia.has(id) ? colors.mediaNew : colors.media;
           ctx.beginPath();
           if (kind === "v") { ctx.moveTo(x, y - 4); ctx.lineTo(x + 4, y + 3); ctx.lineTo(x - 4, y + 3); ctx.closePath(); } else ctx.rect(x - 4, y - 1.5, 8, 3);

@@ -461,7 +461,7 @@ blogs; all videos newest-first.
 | **M47 MCP usage counts** | one Application Insights event per MCP tool call (tool, outcome, duration, client; no arguments, no device data, per-process session id), opt-out with `BC_OBSERVATORY_TELEMETRY=0` or `DO_NOT_TRACK=1`, privacy notice, MCP 0.11.0 (`docs/specs/mcp-usage-telemetry.md`, D110, shipped and published 2026-10-24 as MCP 0.11.0, plugin 0.7.0) | half a day | none: no LLM calls, no page bytes |
 | **M48 Unique users and location in usage counts** | install id as `user_Id`, country and city derived by Application Insights, notice updated, MCP 0.12.0 (amends D110 in `docs/specs/mcp-usage-telemetry.md`, D111, shipped 2026-10-24) | an hour | none: no LLM calls, no page bytes |
 | **M49 miljan.rs blog source** | one `sources.yaml` entry for miljan.rs, derived mode, feed only (`docs/specs/miljan-rs-blog-source.md`, D112, shipped 2026-10-25) | small | low: one more blog in ingest and derive |
-| **M50 Media orbits** | videos and posts circle their hub at level 2 and 3 in the flat galaxy, static under reduced motion and in the tilt (`docs/specs/media-orbits.md`, D113, proposed) | small | none: site only |
+| **M50 Media orbits** | videos and posts circle their hub at level 2 and 3 in the flat galaxy, static under reduced motion and in the tilt (`docs/specs/media-orbits.md`, D113, shipped 2026-10-25) | small | none: site only |
 | **v0.2+** | evidence chips + review-badge UI, 30-vNext, older versions as diffs back to 23/15, Jarvis budget handshake (shared intent file), static embeddings (model2vec potion-8M), MAYBE blogs, yzhums opt-in if agreed | ongoing | per-version gating |
 
 ## 6. Verification

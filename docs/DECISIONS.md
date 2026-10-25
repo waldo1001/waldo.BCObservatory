@@ -1271,3 +1271,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   WordPress feed `https://miljan.rs/feed/` (10 items, back to 2024-12-06); the WordPress REST API is 404 there, so no
   deeper backfill. Rejected: full text without the author's opt-in; kind discovery (suggestions, never content). Spec
   `docs/specs/miljan-rs-blog-source.md`.
+- **D113 Videos and posts orbit their hub (2026-10-25, M50).** Issue #45. At level 2 and 3 in the flat galaxy, a hub's
+  media bodies circle it: evenly spaced round the full circle, one turn per 40 s (`ORBIT_MS`), clockwise, at the
+  existing radius `d/2 + 10`, each hub at a phase hashed from its id (FNV-1a). Under `prefers-reduced-motion` nothing
+  orbits and the bodies keep the old fan (`-π/2 + i·π/6`); the tilted view is untouched (`mediaSpot`). While orbits are
+  the only motion the loop draws at most every 33 ms. Rejected: rotating the 150° fan as a block (a clock hand, not
+  moons), per-body speeds (same-radius bodies would overlap), orbiting in the tilt (its media items are click targets),
+  a freeze on hover (flat-view bodies are not targets), 120 s per turn (under 1 px/s reads as a glitch). Spec
+  `docs/specs/media-orbits.md`.

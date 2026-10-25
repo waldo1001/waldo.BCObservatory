@@ -92,6 +92,24 @@ export function sortRows<T extends Sortable>(rows: T[], key: SortKey): T[] {
 /** D71: the landed-this-week rings and pulse draw only while the this-week lens is the active lens. */
 export const landedRingsOn = (lensId: string | null | undefined): boolean => lensId === "landed";
 
+/** D113: one turn of a hub's media bodies, in ms. */
+export const ORBIT_MS = 40_000;
+/** D113: frames while orbits are the only motion are at least this far apart (30 fps). */
+export const ORBIT_FRAME_MS = 33;
+/** D113: a hub's start angle in [0, 2π), stable per id (FNV-1a), so neighbouring hubs are not in step. */
+export function orbitPhase(id: string): number {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < id.length; i++) h = Math.imul(h ^ id.charCodeAt(i), 0x01000193);
+  return ((h >>> 0) / 2 ** 32) * 2 * Math.PI;
+}
+/** D113: body i of k round its hub. No time: the static fan (reduced motion); else evenly spaced, turning clockwise. */
+export function bodyAngle(i: number, k: number, t: number | null, phase: number): number {
+  if (t === null) return -Math.PI / 2 + (i * Math.PI) / 6;
+  return -Math.PI / 2 + phase + (2 * Math.PI * i) / k + (2 * Math.PI * (t % ORBIT_MS)) / ORBIT_MS;
+}
+/** D113: media bodies orbit at system and star level in the flat view, never under reduced motion. */
+export const orbiting = (s: { level: number; tilted: boolean; reduced: boolean; bodies: boolean }): boolean => s.level >= 2 && !s.tilted && !s.reduced && s.bodies;
+
 /** A major's labels from config/versions.json, passed to the galaxy as `data-majors` (D72). */
 export interface MajorMeta { label: string; vnext?: boolean }
 export interface VersionEntry { id: string; version: string; label: string; title: string; count: number; active: boolean }

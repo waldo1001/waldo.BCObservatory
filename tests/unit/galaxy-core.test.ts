@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { codeGroup, groupChanges, kindsParam, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, packPorts, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, searchLeaves, sortRows, starIntro, toggleKind, usableKinds, versionMenu, weekPills } from "../../site/src/scripts/galaxy-core.js";
+import { bodyAngle, codeGroup, groupChanges, kindsParam, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, ORBIT_MS, orbitPhase, orbiting, packPorts, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, searchLeaves, sortRows, starIntro, toggleKind, usableKinds, versionMenu, weekPills } from "../../site/src/scripts/galaxy-core.js";
 
 test("galaxy hash: combined keys, the old single-key form, unknown keys dropped", () => {
   assert.deepEqual([...parseHash("#system=finance&lens=version%3A30")], [["system", "finance"], ["lens", "version:30"]]);
@@ -245,4 +245,35 @@ test("lensChip: the label cut past 28 characters with the full label in title, t
   assert.equal(l28.length, 28);
   assert.deepEqual(lensChip(l28, 1), { text: l28, count: "1", aria: `Clear the lens: ${l28}`, title: null });
   assert.equal(lensChip(l28 + "3", 1).text, "abcdefghijklmnopqrstuvwxyz1…");
+});
+
+const near = (a: number, b: number) => assert.ok(Math.abs(a - b) < 1e-9, `${a} != ${b}`);
+
+test("bodyAngle: no time is the static fan of today, 30 degrees apart from the top (D113)", () => {
+  for (let i = 0; i < 6; i++) near(bodyAngle(i, 6, null, 1.234), -Math.PI / 2 + (i * Math.PI) / 6);
+});
+
+test("bodyAngle: one body starts at the top and a quarter of ORBIT_MS turns it a quarter clockwise (D113)", () => {
+  near(bodyAngle(0, 1, 0, 0), -Math.PI / 2);
+  near(bodyAngle(0, 1, ORBIT_MS / 4, 0), 0);
+});
+
+test("bodyAngle: bodies are evenly spaced round the circle and the orbit repeats every ORBIT_MS (D113)", () => {
+  for (const t of [0, 1234, 39_999]) for (let i = 0; i < 3; i++) near(bodyAngle(i + 1, 4, t, 0.5) - bodyAngle(i, 4, t, 0.5), Math.PI / 2);
+  for (const [i, k, t, p] of [[0, 1, 0, 0], [2, 5, 17_000, 3.1], [5, 6, 123_456, 6.2]]) near(bodyAngle(i, k, t, p), bodyAngle(i, k, t + ORBIT_MS, p));
+});
+
+test("orbitPhase: in [0, 2pi), stable per id, different ids differ (D113)", () => {
+  for (const id of ["topic/a", "topic/b", "object/table/18", ""]) { const p = orbitPhase(id); assert.ok(p >= 0 && p < 2 * Math.PI); assert.equal(orbitPhase(id), p); }
+  assert.notEqual(orbitPhase("topic/a"), orbitPhase("topic/b"));
+});
+
+test("orbiting: only at system and star level, flat, without reduced motion, with bodies in view (D113)", () => {
+  const on = { level: 2, tilted: false, reduced: false, bodies: true };
+  assert.equal(orbiting(on), true);
+  assert.equal(orbiting({ ...on, level: 3 }), true);
+  assert.equal(orbiting({ ...on, level: 1 }), false);
+  assert.equal(orbiting({ ...on, tilted: true }), false);
+  assert.equal(orbiting({ ...on, reduced: true }), false);
+  assert.equal(orbiting({ ...on, bodies: false }), false);
 });

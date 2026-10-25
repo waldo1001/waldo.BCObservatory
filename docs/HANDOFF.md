@@ -14,9 +14,6 @@ the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`
 whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
-- **Media orbits, D113** (`docs/specs/media-orbits.md`, M50, issue #45). Status: proposed 2026-10-25, nothing
-  implemented. Start with section 5 (the tests in `tests/unit/galaxy-core.test.ts`). Until it lands, media bodies sit on
-  a static fan beside their hub although the About page says they orbit.
 - **Layered answers, D106** (`docs/specs/layered-answers.md`, M44, issue #26). Status: built 2026-10-23 on stacked
   branches `build/layered-answers` and `-p1` to `-p6`, one PR per phase (#27 docs, #28 cross-links, #29 key facts, #30
   cautions, then hotfix lists, brief and search, never-less); merge in order. Not done until the first nightly ran:
@@ -38,6 +35,12 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-25 (site only; readers see it after the next Pages deploy):**
+- **Videos and posts orbit their hub (D113, M50, issue #45).** At system and star level in the flat galaxy each hub's
+  media bodies circle it, evenly spaced, one turn per 40 s (`ORBIT_MS` in `site/src/scripts/galaxy-core.ts`), each hub
+  at its own phase; static fan under reduced motion and in the tilt; orbits alone redraw at 30 fps. Spec
+  `docs/specs/media-orbits.md`, section 12 lists what was checked.
 
 **Shipped 2026-10-25 (sources only; readers see it after the next nightly):**
 - **miljan.rs is a community blog source (D112, M49, issue #40).** `miljan-rs` in `sources.yaml`, derived mode, the

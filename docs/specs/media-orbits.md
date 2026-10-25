@@ -1,12 +1,12 @@
 ---
 issue: 45
-status: draft
+status: implemented
 ---
 
 # Videos and posts orbit their hub in the galaxy
 
-Status: proposed, 2026-10-25. Decision: D113 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M50
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-25 (section 12 records what was built and how it was checked). Decision: D113 (appended
+2026-10-25). Milestone: M50. Owner: waldo.
 Scope: the flat galaxy view's media bodies (`site/src/scripts/galaxy.ts`, `site/src/scripts/galaxy-core.ts`) and their
 unit tests. Every claim below was verified against the tree at `65942d74ad` on 2026-10-25. Not in scope: the tilted view
 (`mediaSpot`, the media plane), the pipeline and `data/graph/`, the panel's media rows, the phone locator strip.
@@ -161,17 +161,36 @@ One phase, ships alone; it rewrites no content pages.
 
 ## 11. Definition of Done
 
-- [ ] The six tests of section 5 exist and pass; the existing unit tests still pass.
-- [ ] Typecheck clean; the site builds.
-- [ ] Browser check of section 7 done: bodies move at level 2 and 3, static under reduced motion and in the tilt.
-- [ ] No change under `content/`, `data/` or `pipeline/`.
-- [ ] D113 appended to docs/DECISIONS.md; PLAN M50 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+- [x] The six tests of section 5 exist and pass; the existing unit tests still pass.
+- [x] Typecheck clean; the site builds.
+- [x] Browser check of section 7 done: bodies move at level 2 and 3, static under reduced motion and in the tilt.
+- [x] No change under `content/`, `data/` or `pipeline/`.
+- [x] D113 appended to docs/DECISIONS.md; PLAN M50 marked shipped; HANDOFF entry moved from "Open specs" to "Where
   things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
   implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
   status lines into docs/built/media-orbits.md; the PR's review moves them in (sdd-build section 4, sdd-review
   section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations
+
+Built 2026-10-25 in the owner's session, by hand (not the League), on `spec/media-orbits` from `65942d74ad`.
+
+- As specced: `ORBIT_MS`, `ORBIT_FRAME_MS`, `orbitPhase`, `bodyAngle`, `orbiting` in `galaxy-core.ts`; the media-body
+  block, `animating()` and the 30 fps skip in `galaxy.ts`. `animating()` is now `busy() || orbitNow()`, where `busy()`
+  is the old condition with the this-week pulse split out as `pulsing()`.
+- Addition, not in section 4: the loop clears `raf` when its callback runs, and `redraw()` and the instant branch of
+  `flyTo()` start the loop when something animates and no frame is pending. Before, `redraw()` returned early whenever
+  `animating()` was true, on the assumption that a loop was running; with orbits that assumption no longer always held
+  (an instant fly into a system would have drawn one frame and stopped).
+- Tests: the six of section 5, written as five `test()` blocks (2 and the quarter-turn case share one); `galaxy-core`
+  25 pass; all unit tests 731 pass, 1 skipped, 0 fail. `tsc -p site` clean. Site build: 29,141 pages, Node 24.
+- Browser checks (built `site/dist` served under the base path; headless Chromium via Playwright 1.63.0, 1280x800, a
+  2 s window after 3 s settling): AL Development system, motion allowed: 61 draws (30 fps), 7,590 canvas pixels
+  changed; same with `reducedMotion: reduce`: 0 draws, 0 pixels; tilted (`#system=development&tilt=1`): 0 draws, 0
+  pixels; level 1 galaxy: 0 draws, 0 pixels. The in-app browser pane showed the bodies moving between two screenshots.
+- Not done: no visual check on a phone width (the strip draws no bodies, `Galaxy.astro:288`), no battery measurement.
+
+## 13. Proposed edits to other files (applied 2026-10-25)
 
 - `docs/DECISIONS.md`: append the D113 text of section 3.
 - `docs/PLAN.md` section 5, before `v0.2+`: `| **M50 Media orbits** | videos and posts circle their hub at level 2 and
