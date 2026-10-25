@@ -90,7 +90,7 @@ Do section 6 (Tasks) in order, one phase at a time; a phase that ships alone is 
   spec did not allow. (PR #6 copied `editDistance` locally while `@bc-observatory/search` was already bundled.)
 
 **What the spec needs that you may not do** (an install on the Mini, `infra/mini/*.sh`, a nightly dispatch, a deploy, a
-publish, a command outside the list): build the code, and write each such step into "Built, deviations" and into the
+publish, a network fetch such as probing a feed or URL, a command outside the list): build the code, and write each such step into "Built, deviations" and into the
 HANDOFF entry as an operator step with the exact command. The outcome is `built` with a note naming them. When the
 spec cannot be meaningfully built without one of them, end `needs-answer` with the one question.
 

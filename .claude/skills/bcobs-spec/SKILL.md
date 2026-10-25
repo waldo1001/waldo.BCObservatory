@@ -58,6 +58,13 @@ unless the owner picks them. Do not ask what the repository answers.
 - Every number is measured on the committed `data/` (object counts, sizes, stars per lens), with the command or
   file that gave it. A coder will check them; wrong numbers cost a round trip.
 - When the spec depends on another spec, read that spec's "built, deviations" section, not its plan.
+- **Facts outside the tree are settled in the spec, never left to the builder.** A feed URL, an API endpoint, an
+  author's name, a page that must exist: fetch it while you write (WebFetch, or `curl` in a manual session) and write
+  the result in, with the URL and the date you read it. The League's build has no network, so a task such as "probe
+  the feed" can never run there: `docs/specs/miljan-rs-blog-source.md` (issue #40) left exactly that to the builder
+  and could not be built by the League. When you cannot fetch it either (a League draft whose tools list no WebFetch,
+  or a host outside what it may reach), write it into section 9 as `needs network: <URL> - <what to read there>` and
+  make the task that uses it an operator step, never a build task.
 - **A version bump lists every place the version lives.** Find them by grepping the tree for the current version
   string, not from memory: `git grep -n '0\.7\.1' -- ':!package-lock.json' ':!docs/'` for the MCP, the same for the
   plugin version, and put the full list in the task. The spec behind PR #6 listed four places and missed the fifth,
