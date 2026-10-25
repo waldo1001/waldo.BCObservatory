@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/yzhums-com/76103",
+  "url": "https://yzhums.com/76103/",
+  "title": "Business Central 2026 release wave 2 (BC29): Share packaged resources between apps (publicResourceFolders)",
+  "source": "yzhums-com",
+  "published_at": "2026-09-16T01:02:01.000Z",
+  "words": 426,
+  "summary": "Business Central 2026 release wave 2 (BC29) introduces publicResourceFolders, allowing apps to expose packaged resources to other apps. Apps define private resources in resourceFolders and shareable resources in publicResourceFolders within app.json, with access controlled through new NavApp method overloads that accept app IDs.",
+  "key_points": [
+    "Apps can now share selected packaged resources with other apps using publicResourceFolders in app.json",
+    "New NavApp method overloads with app ID parameters enable cross-app resource access while maintaining private resource isolation",
+    "Resource sharing does not require adding dependencies to app.json files",
+    "Apps can discover and enumerate providers that expose matching public resources using NavApp.ListAppsWithPublicResources()"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "packaged resources",
+    "app development",
+    "resource sharing",
+    "bc29",
+    "release wave 2",
+    "navapp methods"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "NavApp"
+    }
+  ],
+  "features": [
+    "publicResourceFolders",
+    "cross-app resource access",
+    "resource discovery and enumeration",
+    "private and public resource isolation",
+    "NavApp method overloads with app ID"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2",
+    "BC25.2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Apps can now expose selected packaged resources to other apps.",
+      "why_it_matters": "This is the core capability introduced in BC29 that solves the previous limitation where resources could only be accessed within the same app."
+    },
+    {
+      "text": "This does not require adding a dependencies setting in the app.json file.",
+      "why_it_matters": "It clarifies that resource sharing has a lower overhead than app dependencies, making it easier to implement cross-app resource patterns."
+    },
+    {
+      "text": "NavApp.ListResources(AppId) is always public-only, even when AppId is the current app.",
+      "why_it_matters": "This explains the security design: the app ID overload only exposes public resources, protecting private resources from external access."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005647,
+    "posts_in_call": 1
+  }
+}

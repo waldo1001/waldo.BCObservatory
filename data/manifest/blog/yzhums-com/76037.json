@@ -7,13 +7,21 @@
   "url": "https://yzhums.com/76037/",
   "published_at": "2026-09-11T01:38:54.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-25T18:50:16.289Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T18:51:26.475Z",
+      "path": "vault:posts/yzhums-com/76037.md",
+      "words": 550
     }
   },
   "input_hash": "2026-09-11T01:38:55.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a46a2fafc8fde069315476296250ea9a99ef2374c59b5933956a1e6bcbf14c26"
 }

@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/yzhums-com/76053",
+  "url": "https://yzhums.com/76053/",
+  "title": "Business Central 2026 release wave 2 (BC29): Detect tables approaching SQL column limits (New warning)",
+  "source": "yzhums-com",
+  "published_at": "2026-09-14T01:30:25.000Z",
+  "words": 560,
+  "summary": "Business Central 2026 release wave 2 introduces compiler warnings (AL0914 and AL0915) to alert developers when tables or table extensions contain many fields that approach SQL column limits, helping prevent extensibility issues before deployment fails. The warning triggers when a table exceeds 294 normal fields (plus 6 system fields) or when a table extension adds many fields to an existing table.",
+  "key_points": [
+    "New compiler warnings AL0914 and AL0915 detect tables approaching SQL's 1,018 column limit per table",
+    "Tables trigger the warning when they exceed 294 normal fields, excluding the 6 system fields (SystemId, SystemCreatedAt, SystemCreatedBy, SystemModifiedAt, SystemModifiedBy, RowVersion)",
+    "Table extensions trigger similar warnings when adding many fields, with the threshold varying based on how many standard fields the base table already contains",
+    "Deployment errors now provide clearer messages showing which app contributed how many fields when column limits are exceeded"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "compiler warnings",
+    "sql column limits",
+    "table design",
+    "extensibility",
+    "data model",
+    "bc29"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "ColumnsLimitTest"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "Column limit detection",
+    "Compiler warnings for tables",
+    "Compiler warnings for table extensions",
+    "Deployment error messages"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Receive compiler warnings when tables or table extensions contain many normal fields, helping identify data models that are approaching SQL extensibility limits.",
+      "why_it_matters": "This explains the core purpose of the feature: preventing developers from creating data models that limit other extensions from adding fields."
+    },
+    {
+      "text": "The answer is 300 - excluding the 6 system fields, exceeding 294 normal fields will trigger it.",
+      "why_it_matters": "Provides the exact threshold where the warning activates, which is essential practical information for developers designing tables."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006336,
+    "posts_in_call": 1
+  }
+}

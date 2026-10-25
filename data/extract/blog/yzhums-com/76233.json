@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/yzhums-com/76233",
+  "url": "https://yzhums.com/76233/",
+  "title": "Business Central 2026 release wave 2 (BC29): Control transaction isolation for queries and isolated storage (Query ReadState supports ReadCommitted)",
+  "source": "yzhums-com",
+  "published_at": "2026-09-21T01:17:33.000Z",
+  "words": 497,
+  "summary": "Query ReadState now supports ReadCommitted isolation levels in Business Central 2026 wave 2 (BC29), allowing AL queries to read only committed data and apply row locks for safer read-modify-write operations with configurable transaction isolation modes.",
+  "key_points": [
+    "Queries can now use ReadState with four isolation levels: ReadUncommitted (default), ReadCommitted, ReadExclusive, and ReadShared",
+    "ReadCommitted reads only committed data without row consistency guarantees, improving performance over locked read modes",
+    "ReadExclusive and ReadShared place update or share locks on read data to prevent modification by other transactions",
+    "This feature brings query functionality in line with the ReadIsolation method introduced for Records in BC22"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "queries",
+    "transaction isolation",
+    "database locking",
+    "al development",
+    "bc29",
+    "release wave 2"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Query"
+    },
+    {
+      "type": "other",
+      "name": "Record"
+    }
+  ],
+  "features": [
+    "Query ReadState ReadCommitted",
+    "Query ReadState ReadExclusive",
+    "Query ReadState ReadShared",
+    "Query ReadState ReadUncommitted",
+    "Transaction isolation control",
+    "Row locking for queries"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2",
+    "BC22",
+    "2023 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "ReadCommitted: Reads only data that has been committed to the database. Rows read are not guaranteed to remain consistent throughout the current transaction.",
+      "why_it_matters": "Explains the trade-off between consistency and performance with the new ReadCommitted isolation level"
+    },
+    {
+      "text": "Setting the property to ReadUncommitted can improve performance compared to ReadShared and ReadExclusive.",
+      "why_it_matters": "Highlights the performance implications developers should consider when choosing isolation levels"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005798,
+    "posts_in_call": 1
+  }
+}

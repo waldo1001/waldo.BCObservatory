@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/yzhums-com/76205",
+  "url": "https://yzhums.com/76205/",
+  "title": "Business Central 2026 release wave 2 (BC29): Report layout subtype on Word layouts",
+  "source": "yzhums-com",
+  "published_at": "2026-09-18T01:38:40.000Z",
+  "words": 424,
+  "summary": "Word layout report design in Business Central 2026 wave 2 introduces a new Subtype property that allows layouts to be specified as Default, HeaderFooter, Theme, or Body. This enables creation of composite layouts where body layouts reference separate header/footer and theme parts, improving flexibility in report formatting and branding.",
+  "key_points": [
+    "Subtype property on Word layouts supports four values: Default, HeaderFooter, Theme, and Body",
+    "Theme layouts must use dotx file extension, while Default and Body use docx files",
+    "Body layouts enable composite designs by referencing separate HeaderFooter and Theme parts",
+    "New Manage themes and header-footer layouts page displays layouts with HeaderFooter and Theme subtypes"
+  ],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "report layout",
+    "word layouts",
+    "report design",
+    "composite layouts",
+    "bc29",
+    "release wave 2"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Subtype property"
+    },
+    {
+      "type": "other",
+      "name": "Report Layouts page"
+    },
+    {
+      "type": "other",
+      "name": "Manage themes and header-footer layouts page"
+    }
+  ],
+  "features": [
+    "Report layout subtype on Word layouts",
+    "Composite layout merge",
+    "Body subtype layouts",
+    "HeaderFooter subtype layouts",
+    "Theme subtype layouts",
+    "Multiple report layouts",
+    "Report branding with themes"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A new Subtype property has been introduced on Word layouts where the subtype can be specified as Default, HeaderFooter, Theme or Body.",
+      "why_it_matters": "This is the core feature introduction, explaining the four subtype options available for Word layouts."
+    },
+    {
+      "text": "Body layout can set HeaderFooterPart and ThemePart to reference layouts with the HeaderFooter and Theme subtypes.",
+      "why_it_matters": "This explains how composite layouts work by allowing a body layout to reference separate header/footer and theme parts."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005605,
+    "posts_in_call": 1
+  }
+}

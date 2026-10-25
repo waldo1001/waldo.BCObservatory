@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/yzhums-com/76147",
+  "url": "https://yzhums.com/76147/",
+  "title": "Business Central 2026 release wave 2 (BC29): Brand document reports with report themes",
+  "source": "yzhums-com",
+  "published_at": "2026-09-17T01:26:46.000Z",
+  "words": 789,
+  "summary": "Business Central 2026 release wave 2 introduces branded document reports with composable layout themes. Administrators can apply consistent styling to PDF outputs at global, company, report, or layout levels using Word themes saved as .dotx templates.",
+  "key_points": [
+    "New composable layouts feature allows applying report themes to Word layouts for consistent visual styling",
+    "Themes can be configured at multiple levels: globally, per company, per report, or per layout",
+    "Themes must be created as .dotx Word template files and approved before assignment to reports",
+    "Layout Subtype property distinguishes between Default, Body, HeaderFooter, and Theme layouts for composite layout support",
+    "Themes and headers/footers can only be applied to Word layouts with Body subtype, not RDLC layouts"
+  ],
+  "systems": [
+    "reporting",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "report themes",
+    "composable layouts",
+    "document branding",
+    "word templates",
+    "report customization",
+    "bc29",
+    "release wave 2"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Standard Sales – Order Conf."
+    },
+    {
+      "type": "report",
+      "name": "Report 99000792"
+    }
+  ],
+  "features": [
+    "composable layouts",
+    "report themes",
+    "theme customization",
+    "header/footer layouts",
+    "layout subtypes",
+    "theme approval workflow",
+    "report theme defaults"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With the new composable layouts feature, you can apply a report theme on layouts to get consistent look and feel on the PDF output.",
+      "why_it_matters": "Explains the core capability of applying themes to achieve visual consistency across business documents"
+    },
+    {
+      "text": "It is possible to set defaults on a global level, per company, per report, or per layout, giving the administrator full flexibility of theming.",
+      "why_it_matters": "Highlights the flexibility administrators have in controlling theme application across the organization"
+    },
+    {
+      "text": "Only approved themes and header/footer parts can be assigned.",
+      "why_it_matters": "Shows that themes must go through an approval process before they can be used in reports"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006274,
+    "posts_in_call": 1
+  }
+}
