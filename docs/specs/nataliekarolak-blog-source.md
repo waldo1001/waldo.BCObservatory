@@ -102,7 +102,13 @@ Changed: `sources.yaml`; at ship time `docs/DECISIONS.md`, `docs/PLAN.md`, `docs
 - **Verified:** `npm run validate:sources`: 50 sources (blog 27 -> 28), `sources.yaml OK`. `npm run typecheck`: clean.
   `npm test`: 754 tests, 753 pass, 0 fail.
 - **Spec versus measured:** sources 50 (spec 50), blogs 28 (spec 28).
-- **Deviations:** none.
+- **Deviations:** phase 2's first run (40217955985) ingested all 16 posts but was blocked by `check:leak` ("2 problems;
+  nothing is committed"; checkpoints had pushed 11 post pages). Read on the Mini: post 3494 ("How to write good
+  tooltips as a BC developer") quotes Microsoft's standard tooltips, which `data/index/field-docs.json` and
+  `data/index/symbols-fields-*.json` also hold. Both are built from Microsoft's code snapshots only, so they joined
+  `OFFICIAL_ONLY` in `pipeline/validate/leak.ts` (D85's rule, as for the Learn shard and the hotfix pages), with
+  `tests/unit/leak-official-indexes.test.ts` (red first: "AssertionError: data/index/field-docs.json"). Then phase 2 ran
+  again.
 - **Open:** phase 2 (`gh workflow run nightly.yml --ref main -f pillars=blog -f only=nataliekarolak-com -f
   unlimited=true`) and the Definition of Done item that checks its pages.
 

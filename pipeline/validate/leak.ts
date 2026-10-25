@@ -204,7 +204,10 @@ export function communityRawExpected(dataDir: string, sources: SourceDef[]): str
 const OFFICIAL_ONLY = [/^data\/code\//, /^content\/objects\//, /^data\/releases\//, /^content\/releases\//, /^tests\/fixtures\/al-changelog\.md$/, /^data\/index\/learn-[0-9a-f]{12}\.json$/,
   /^data\/extract\/learn-facts\//, /^data\/index\/learn-facts-[0-9a-f]{12}\.json$/,
   // D106: Microsoft Support update pages: the snapshots, the pages and the test fixtures hold Microsoft's wording only
-  /^data\/hotfixes\//, /^content\/hotfixes\//, /^tests\/fixtures\/support-update/];
+  /^data\/hotfixes\//, /^content\/hotfixes\//, /^tests\/fixtures\/support-update/,
+  // D85: the field docs and symbols indexes are Microsoft's code text only (tooltips, captions, docs from the snapshots);
+  // a post quoting standard tooltips tripped them on 2026-10-25 (nataliekarolak-com/3494)
+  /^data\/index\/field-docs\.json$/, /^data\/index\/symbols-(fields|events|procs|values)(-\d+)?-[0-9a-f]{12}\.json$/];
 export const officialOnlyOutput = (rel: string) => OFFICIAL_ONLY.some((re) => re.test(rel));
 
 /** Official text the repo holds: the newest roadmap snapshot and Learn's own page descriptions (manifest meta). */
