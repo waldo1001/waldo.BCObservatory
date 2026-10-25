@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:30.284Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -630,7 +630,11 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/develop-reports
     - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
   localizations: []
-  videos: []
+  videos:
+    - video/_1onqwZz4rA
+    - video/1QuV_vkbNVU
+    - video/6dEZQlmBlyI
+    - video/VuULbBjzPcs
   posts:
     - post/thinkaboutit-be/7635
   guidelines: []
@@ -648,7 +652,7 @@ children:
 coverage:
   learn: 70
   code: 318
-  video: 0
+  video: 4
   blog: 1
   guideline: 0
 bc_forms:
@@ -1010,6 +1014,10 @@ Developers use the report development pages for layouts (Word, Excel, RDLC, exte
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Business Central Analytics: The Technology Is Not the Hard Part](../../posts/thinkaboutit-be/7635.md) (community post): "adoption success depends more on helping users ask better business questions than on technology maturity"
+- [What's New: Demo Data for Analytics (2025 release wave 2)](../../videos/_1onqwZz4rA.md) (video): "Enhanced Demo Data Tool for Analytics"
+- [Introducing Spreadsheets for Business Central](../../videos/1QuV_vkbNVU.md) (video): "spreadsheets; regions; data connectivity; charts; queries"
+- [Use Data from a Report inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../../videos/6dEZQlmBlyI.md) (video): "advanced spreadsheets; report regions; live data; charting"
+- [What's Cooking in Business Central: More Contoso Document Data for Analytics](../../videos/VuULbBjzPcs.md) (video): "More Contoso Document Data for Analytics"
 
 ## Business Central pages and reports
 

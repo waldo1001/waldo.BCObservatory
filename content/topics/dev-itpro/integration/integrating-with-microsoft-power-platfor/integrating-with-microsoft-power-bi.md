@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:50.663Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,8 +91,11 @@ links:
   localizations: []
   videos:
     - video/6Zb7VAvLVm4
+    - video/EVntnDFE1R4
   posts:
+    - post/aardvarklabs-blog/2017
     - post/thinkaboutit-be/7995
+    - post/waldo-be/318707
   guidelines: []
 learn_toc_path:
   - Integration
@@ -106,8 +109,8 @@ children:
 coverage:
   learn: 8
   code: 2
-  video: 1
-  blog: 1
+  video: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 6316
@@ -158,8 +161,11 @@ Further pages cover embedding reports, scorecards and dashboards with the Power 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query APIs can be directly connected to Power BI using the Dynamics 365 Business Central connector"
 - [Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist](../../../../posts/thinkaboutit-be/7995.md) (community post): "Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist"
+- [Business Central data in Fabric: the way it should be](../../../../posts/waldo-be/318707.md) (community post): "native data mirroring to Microsoft Fabric, allowing users to replicate their tables"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Power BI Embedded Reports with Full Capabilities; Power BI Report Page Bookmarking"
+- [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../../videos/EVntnDFE1R4.md) (video): "Power BI embed experience improvements; Power BI scorecard support in Business Central"
 
 ## Business Central pages and reports
 

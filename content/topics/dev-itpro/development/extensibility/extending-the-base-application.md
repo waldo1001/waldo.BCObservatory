@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8c438475be31a82b5ecc70dd46ca9a719ca65424fa05e1169543a2730c6789d0
@@ -143,6 +143,7 @@ links:
   videos: []
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212
   guidelines: []
 learn_toc_path:
   - Development
@@ -156,7 +157,7 @@ coverage:
   learn: 15
   code: 7
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 4500
@@ -192,6 +193,7 @@ Path: [Development](../../development.md) > [Extensibility](../extensibility.md)
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [BC Friday Tips #74 Copy Document and Custom Field](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) (community post): "When adding custom fields to Sales Header or Sales Invoice Header tables"
+- [BC Friday Tips #75 Dynamics BC Excel Reports](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md) (community post): "developers to add it as a dependency when extending these objects"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:52.101Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,8 @@ links:
   topics:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
-  videos: []
+  videos:
+    - video/wlVewBgq9-Q
   posts: []
   guidelines: []
   changes:
@@ -91,7 +92,7 @@ children: []
 coverage:
   learn: 4
   code: 19
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -154,6 +155,7 @@ Start with the page on resources, time sheets, and projects for an overview of t
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10211 [master] Projects WIP related field tooltips missing broken grammar outdated terminology](../../../../changes/bcapps/10211.md) (code change): "Tooltips for WIP-related fields in the Job table were fixed"
+- [How to Create Projects in Business Central (2025)](../../../../videos/wlVewBgq9-Q.md) (video): "project creation; project tasks; project planning lines; budget tracking; project posting groups"
 
 ## Business Central pages and reports
 

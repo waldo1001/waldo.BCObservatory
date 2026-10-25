@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:38.168Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -324,8 +324,10 @@ links:
     - topic/dev-itpro/development/extensibility/embedding-power-bi
   localizations: []
   videos:
+    - video/6SyNNeHQDUo
     - video/uxYuoJP-uH8
   posts:
+    - post/miljan-rs/866
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212
   guidelines: []
   changes:
@@ -350,8 +352,8 @@ children:
 coverage:
   learn: 42
   code: 9
-  video: 1
-  blog: 1
+  video: 2
+  blog: 2
   guideline: 0
 bc_forms:
   - 4500
@@ -416,7 +418,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#8115 Subscription Billing: respect Default Dimension Priorities on Subscription Lines](../../../changes/bcapps/8115.md) (code change): "Subscription Billing now respects Default Dimension Priorities when creating subscription lines"
 - [#8634 [MCP] Register MCP server as a Copilot capability](../../../changes/bcapps/8634.md) (code change): "MCP server is now registered as a Copilot capability"
 - [#9272 Fix duplicate in-transit location in localized Contoso demo data](../../../changes/bcapps/9272.md) (code change): "Replaced the warehousing module's independent in-transit location definition"
+- [Simple Text Editor for Business Central](../../../posts/miljan-rs/866.md) (community post): "lightweight AL extension provides a simple text editor"
 - [BC Friday Tips #75 Dynamics BC Excel Reports](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md) (community post): "Excel Reports objects in Business Central belong to the Dynamics BC Excel Reports extension"
+- [What's New: Co-Development Initiative (2024 release wave 2)](../../../videos/6SyNNeHQDUo.md) (video): "co-development; community contributions; github collaboration; platform extensibility"
 - [Let's pass MB-820: Episode 19 - Extend ApplicationArea with custom areas](../../../videos/uxYuoJP-uH8.md) (video): "Application Area extension; Enable custom area function; Application area validation"
 
 ## Business Central pages and reports

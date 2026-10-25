@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:53.718Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,8 +62,10 @@ links:
   localizations: []
   videos:
     - video/1ft4o9lQzsU
+    - video/1QuV_vkbNVU
     - video/6zj34hjbpGU
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/1824
   guidelines: []
 learn_toc_path:
   - Integration
@@ -75,8 +77,8 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 2
-  blog: 0
+  video: 3
+  blog: 1
   guideline: 0
 bc_forms:
   - 1480
@@ -122,7 +124,9 @@ Start with the viewing and editing page if you are a user. Administrators should
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Step-by-Step Guide to Excel Reporting in Business Central](../../../../posts/aardvarklabs-blog/1824.md) (community post): "uploading the customized layout back to Business Central"
 - [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "OneDrive integration for Excel reports; Office 365 collaboration for Excel reports"
+- [Introducing Spreadsheets for Business Central](../../../../videos/1QuV_vkbNVU.md) (video): "Spreadsheets for Business Central; Regions; Virtual Fields; Page Regions"
 - [How Business Central Integrates with Microsoft Excel (2025)](../../../../videos/6zj34hjbpGU.md) (video): "Export data to Excel; Open or Edit in Excel option; Pivot table creation"
 
 ## Business Central pages and reports

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:55.273Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,7 +51,8 @@ links:
   localizations: []
   videos:
     - video/KbXzMR4n4h8
-  posts: []
+  posts:
+    - post/thedynamicsexplorer-com/37042
   guidelines: []
 learn_toc_path:
   - Administration
@@ -63,7 +64,7 @@ coverage:
   learn: 3
   code: 0
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 92a2c846413dc9b61a9d662da08d828d1f735dc798d654dafdffd2807dfd21bc
@@ -115,6 +116,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central – Why when I create new users do they get full access by default](../../../posts/thedynamicsexplorer-com/37042.md) (community post): "edit the licence, turn on Customise Permissions and delete permission sets"
 - [What's New: Commerce Capabilities of Business Central Apps (2024 release wave 1)](../../../videos/KbXzMR4n4h8.md) (video): "Entitlements for AppSource Apps; entitlements mapping; license-conditional functionality"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

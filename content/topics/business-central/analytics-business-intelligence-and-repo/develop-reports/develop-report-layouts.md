@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:25.418Z"
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,10 +106,12 @@ links:
   videos:
     - video/-vdhfNMNZQk
     - video/BofJJPqgrTI
+    - video/fy96_jdL1PQ
     - video/hn92Al_x-s8
     - video/mS6NDhj20yI
     - video/vLcb31rfZ48
     - video/XLUAuUWtJDw
+    - video/z7UTBiCNOo8
   posts:
     - post/aardvarklabs-blog/2271
     - post/miljan-rs/698
@@ -127,7 +129,7 @@ children: []
 coverage:
   learn: 9
   code: 6
-  video: 6
+  video: 8
   blog: 5
   guideline: 0
 bc_forms:
@@ -190,10 +192,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 29: Introducing Composite Document Layouts](../../../../posts/thinkaboutit-be/8250.md) (community post): "Composite Document Layouts, a modular approach to Word document layouts"
 - [Introducing: Composite Document Layouts (2026 release wave 2)](../../../../videos/-vdhfNMNZQk.md) (video): "Composite layouts for documents; Body layout; Theme application"
 - [What's New: Excel Layouts For Developers (2024 release wave 1)](../../../../videos/BofJJPqgrTI.md) (video): "Translatable Excel Layouts; Report Metadata Worksheet; Caption Data Worksheet"
+- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../../videos/fy96_jdL1PQ.md) (video): "Report Object with Multiple Layouts; Word report layouts; Excel report layouts"
 - [What’s New: Reporting Features (For Developers and Consultants) (2024 release wave 2)](../../../../videos/hn92Al_x-s8.md) (video): "report layouts; word documents; excel reports; metadata; named formulas"
 - [What's New: Enhanced Document Reporting (2026 release wave 1)](../../../../videos/mS6NDhj20yI.md) (video): "Enhanced data picker UX; Insert table action; Layout lifecycle and status management"
 - [What's New: Document Reporting (2025 release wave 2)](../../../../videos/vLcb31rfZ48.md) (video): "word layouts; data picker; document reporting; word addin"
 - [What's new in Document Reporting: Word add-in (2026 release wave 2)](../../../../videos/XLUAuUWtJDw.md) (video): "Word add-in; document reporting; data picker; company information"
+- [What's Cooking in Business Central: Excel Reports that Become Generally Available](../../../../videos/z7UTBiCNOo8.md) (video): "Excel Layouts for Built-in Reports; Report Customization in Excel"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:09.155Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -476,8 +476,10 @@ links:
     - video/fdP1HKBEDjA
     - video/PIWxU93eCT4
   posts:
+    - post/duiliotacconi-com/1667
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
     - post/thedynamicsexplorer-com/10326
   guidelines: []
@@ -536,7 +538,7 @@ coverage:
   learn: 133
   code: 139
   video: 3
-  blog: 4
+  blog: 6
   guideline: 0
 bc_forms:
   - 7
@@ -806,8 +808,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9947 Allow long localized sales and purchase line type captions](../../../changes/bcapps/9947.md) (code change): "Sales and purchase document subforms no longer fail when a localized line type caption is longer than 20 characters"
 - [#9960 [Extensibility Request] issue 30396: expose sales document lookup](../../../changes/bcapps/9960.md) (code change): "The lookup procedure in the Copy Sales Document report is now public"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../changes/bcapps/9984.md) (code change): "unposted prepayment amounts on sales and purchase orders"
+- [Sorting by Type and Line No. in Sales and Purchase Postings](../../../posts/duiliotacconi-com/1667.md) (community post): "sales and purchase posting process lines ordered by Type and then Line No."
 - [How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97.md) (community post): "email delivery, PDF generation, and attachment management for Posted Sales Shipments"
 - [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) (community post): "Shipping Agent Code and Shipping Agent Service Code exist on both Sales Order fields"
+- [BC Friday Tips #74 Copy Document and Custom Field](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) (community post): "Custom fields added to Sales tables are automatically included when users copy documents"
 - [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) (community post): "item does not appear in the Sales Line item lookup"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../../../posts/thedynamicsexplorer-com/10326.md) (community post): "sales credit memo with an inventory item automatically creates item ledger"
 - [Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central](../../../videos/fatcqVFrTXI.md) (video): "Sales invoice entry in Business Central"

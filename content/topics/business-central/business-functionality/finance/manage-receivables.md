@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:28.910Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -235,6 +235,7 @@ links:
   videos:
     - video/6WVsS3j-HTw
     - video/Dkd8_cGzIvc
+    - video/O2RPBlr_GiE
     - video/UTxX4XPLcgQ
   posts:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030
@@ -264,7 +265,7 @@ children:
 coverage:
   learn: 19
   code: 60
-  video: 3
+  video: 4
   blog: 3
   guideline: 0
 bc_forms:
@@ -418,6 +419,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?](../../../../posts/thedynamicsexplorer-com/37202.md) (community post): "Payment Tolerance in Business Central can automatically write off small remaining invoice balances"
 - [Comparing Entering Customer Cash Receipts in Dynamics SL to Dynamics 365 Business Central](../../../../videos/6WVsS3j-HTw.md) (video): "Comparing Entering Customer Cash Receipts in Dynamics SL"
 - [Comparing entering Customer Cash Receipts in Dynamics GP to Dynamics 365 Business Central (2024)](../../../../videos/Dkd8_cGzIvc.md) (video): "Cash receipts; customer payments; customer receivables; invoice application"
+- [Comparing Trial Balance and Aging Reports between Dynamics SL and Dynamics 365 Business Central](../../../../videos/O2RPBlr_GiE.md) (video): "aging reports; accounts receivable aging; aged accounts receivable report"
 - [What's New: Financial Management - Reminder Automation (2024 release wave 1)](../../../../videos/UTxX4XPLcgQ.md) (video): "reminder automation; role center; customer communication; batch jobs"
 
 ## Business Central pages and reports

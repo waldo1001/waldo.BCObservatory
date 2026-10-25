@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-10-25T16:50:34.247Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -208,6 +208,7 @@ links:
     - video/jWqjDTbqjeE
     - video/moPzf04Mwlc
     - video/nbGw2g3KMXI
+    - video/nPF84Ufkn4k
     - video/Vq9Nk6_uxmQ
     - video/WFAZLsUTk20
   posts:
@@ -237,7 +238,7 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 7
+  video: 8
   blog: 5
   guideline: 0
 bc_forms: []
@@ -317,6 +318,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Introducing: Envision, Design and Code Business Central Agents](../../../videos/jWqjDTbqjeE.md) (video): "Introducing: Envision, Design and Code Business Central Agents"
 - [What's New: How To Create Agents in Business Central](../../../videos/moPzf04Mwlc.md) (video): "How To Create Agents in Business Central; agent creation; no-code configuration; task execution"
 - [20260713 - From Zero to Agent Building agents in Business Central](../../../videos/nbGw2g3KMXI.md) (video): "From Zero to Agent Building agents in Business Central"
+- [Business Central Under the Hood episode 13: Inside the Agent Runtime](../../../videos/nPF84Ufkn4k.md) (video): "Business Central Under the Hood episode 13: Inside the Agent Runtime"
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Building Agents in Business Central; custom agents; agent instructions; permissions"
 - [What's New: Business Central Agent Instruction History](../../../videos/WFAZLsUTk20.md) (video): "Agent Instruction History Autosave; Download Instructions; View Instruction History"
 

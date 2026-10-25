@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,8 +69,10 @@ links:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
   videos:
+    - video/DRUr4byy8xQ
     - video/UQmuMPRlHek
   posts:
+    - post/bertverbeek-nl/1263
     - post/demiliani-com/15935
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0
   guidelines: []
@@ -85,8 +87,8 @@ children: []
 coverage:
   learn: 5
   code: 3
-  video: 1
-  blog: 2
+  video: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 7771
@@ -133,8 +135,10 @@ Start with the configuration page. Then read the data movement and Azure OpenAI 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11909 Block guest users from managing Expense Agent](../../../changes/bcapps/11909.md) (code change): "Guest and external administrator access is blocked from Expense Agent configuration changes"
+- [Agents in Business Central – part 4 – troubleshooting](../../../posts/bertverbeek-nl/1263.md) (community post): "Use the Agent Consumption page to monitor credit usage"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
 - [BC Friday Tips #45 Hide Agents Icon](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0.md) (community post): "hide this icon by deactivating Agents in Copilot & agent capabilities"
+- [Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)](../../../videos/DRUr4byy8xQ.md) (video): "Getting Started With Agents: Agent Access Control"
 - [What's New: Setting Up Copilot in Business Central - Tips for Admins (2024 release wave 2)](../../../videos/UQmuMPRlHek.md) (video): "Setting Up Copilot in Business Central; copilot setup; ai capabilities"
 
 ## Business Central pages and reports

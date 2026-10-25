@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.368Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -95,7 +95,9 @@ links:
     - video/3uVf6BEXt1w
     - video/NwMLT-k6J6Q
     - video/XNfgf7tCeaw
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/11769
+    - post/olofsimren-com/3763
   guidelines: []
 learn_toc_path:
   - Administration
@@ -107,7 +109,7 @@ coverage:
   learn: 8
   code: 2
   video: 3
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms:
   - 4750
@@ -208,6 +210,8 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [🏆🎯 Accelerate your BC Go-Live with Gamification](../../../posts/gerardorenteria-blog/11769.md) (community post): "accelerates user adoption during go-live by letting teams compete"
+- [ERP JumpStart: A Better Way to Get Started with Business Central](../../../posts/olofsimren-com/3763.md) (community post): "ERP JumpStart is a guided self-service implementation product"
 - [Why Onboarding Experiences are Important](../../../videos/3uVf6BEXt1w.md) (video): "Customer self-service onboarding; Template-based setup approach; Partner-knowledge apps"
 - [What's New: Creating Customer Centric Onboarding Experiences (2023 release wave 2)](../../../videos/NwMLT-k6J6Q.md) (video): "onboarding; customer journey; personalization; trial experience; questionnaire"
 - [Overview of Customer and Partner Onboarding Journeys](../../../videos/XNfgf7tCeaw.md) (video): "customer onboarding; partner-led experience; trial setup; prospect profiling"

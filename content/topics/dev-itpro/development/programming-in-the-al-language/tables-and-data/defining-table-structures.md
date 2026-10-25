@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.962Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,6 +88,7 @@ links:
   posts:
     - post/aardvarklabs-blog/2827
     - post/aardvarklabs-blog/3983
+    - post/demiliani-com/12623
     - post/duiliotacconi-com/2201
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6265805346314332006--6288317504
@@ -118,7 +119,7 @@ coverage:
   learn: 7
   code: 0
   video: 3
-  blog: 8
+  blog: 9
   guideline: 0
 bc_forms: []
 member_hash: f4fef1b2446c586c258d687af1fd453a03d9d093168b44db9f072869a19e2480
@@ -176,6 +177,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#237 knowledge(data-modeling): keep business state independent of Job Queue lifetime](../../../../../changes/bcquality/237.md) (code change): "storing it on business-owned records rather than relying on Job Queue Entry existence"
 - [How to Use Concealed Text Fields in Business Central AL](../../../../../posts/aardvarklabs-blog/2827.md) (community post): "Developers set MaskType = Concealed on field definitions in AL code"
 - [Business Central v29: SQL Table Extensions Redesign Explained](../../../../../posts/aardvarklabs-blog/3983.md) (community post): "storing all custom fields directly in the primary SQL table"
+- [Dynamics 365 Business Central: previewing PDF files in web client using the new ExtendedDataType = Document.](../../../../../posts/demiliani-com/12623.md) (community post): "Allows rendering PDF files and images in FactBox elements"
 - [Debunking Myths related to Table Structure in Dynamics 365 Business Central 2026 Wave 2](../../../../../posts/duiliotacconi-com/2201.md) (community post): "Maximum of 1018 regular fields can be defined in a table"
 - [How to Migrate Business Central Table Fields from Integer to BigInteger.](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696.md) (community post): "Business Central version 29 enables developers to migrate table fields from Integer to BigInteger"
 - [Business Central 29: How Many Fields Can a Table Really Have?](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6265805346314332006--6288317504.md) (community post): "BC 29 changed table-extension storage from companion tables to a single database table"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-25T16:50:34.247Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -195,6 +195,7 @@ links:
   posts:
     - post/miljan-rs/908
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-38-keep-description--56fbbccc2b
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-59-allocation-account-design--edfa12d35b
     - post/thedynamicsexplorer-com/10452
     - post/thedynamicsexplorer-com/37144
     - post/thedynamicsexplorer-com/8821
@@ -225,7 +226,7 @@ coverage:
   learn: 12
   code: 59
   video: 11
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms:
   - 1
@@ -354,6 +355,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#57 Add source-verified Finance knowledge and review domain](../../../../changes/bcquality/57.md) (code change): "posting ledger entries, dimension sets, applying entries, due dates, reversals, journal balance"
 - [Oops, I Did It Again: Reversing G/L Transactions in Business Central](../../../../posts/miljan-rs/908.md) (community post): "three methods to reverse General Ledger transactions in Business Central"
 - [BC Friday Tips #38 Keep Description](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-38-keep-description--56fbbccc2b.md) (community post): "Keep Description field preserves the description text when switching between account types"
+- [BC Friday Tips #59 Allocation Account Design](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-59-allocation-account-design--edfa12d35b.md) (community post): "Allocation Accounts automate the distribution of revenue or cost amounts through journals and documents"
 - [Dynamics 365 Business Central – Error Message “You have one or more documents that must be posted before you post document no….” when posting a Journal](../../../../posts/thedynamicsexplorer-com/10452.md) (community post): "journal's number series has manual numbers disabled but the user tries to enter a custom document number"
 - [Dynamics 365 Business Central – Handling the message “Only the Posting No. Series can be filled in on recurring journals” in Recurring Journals](../../../../posts/thedynamicsexplorer-com/37144.md) (community post): "Recurring journal lines remain after posting and their posting date moves forward"
 - [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../../../../posts/thedynamicsexplorer-com/8821.md) (community post): "Chart of Accounts in Business Central shows only total balances at GL code level"

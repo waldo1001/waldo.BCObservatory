@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:53.461Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,6 +107,7 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo
   localizations: []
   videos:
+    - video/6zj34hjbpGU
     - video/Afv-r-eDt90
     - video/c3paEbmDNmM
     - video/Fk6kWTe3f2Y
@@ -133,7 +134,7 @@ children: []
 coverage:
   learn: 7
   code: 25
-  video: 10
+  video: 11
   blog: 5
   guideline: 0
 bc_forms:
@@ -209,6 +210,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics GP to Business Central – The Arrival of Smartlist Features via “Add Fields from Related Tables in Analysis Mode”](../../../posts/thedynamicsexplorer-com/9995.md) (community post): "Add fields from related tables in Analysis mode after activating it"
 - [How Do I: Analyze List Pages and Data Using Analysis Mode in Business Central](../../../posts/thinkaboutit-be/7503.md) (community post): "Analysis Mode is a built-in Business Central feature that lets users interactively explore list data"
 - [How Do I: Replace Reports with Analysis Mode in Business Central](../../../posts/thinkaboutit-be/7537.md) (community post): "Analysis Mode works best for answering questions rather than producing"
+- [How Business Central Integrates with Microsoft Excel (2025)](../../../videos/6zj34hjbpGU.md) (video): "Data analysis; edit in excel; publish changes; financial data"
 - [What's New: Enhanced Analysis Mode (2026 release wave 1)](../../../videos/Afv-r-eDt90.md) (video): "analysis mode; analysis views; al extensions; page extensions"
 - [What's New: Server and Database - New Reporting Capabilities (2023 release wave 2)](../../../videos/c3paEbmDNmM.md) (video): "Data Analysis on Queries; Analysis views on queries"
 - [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../../../videos/Fk6kWTe3f2Y.md) (video): "Ad hoc analysis mode; Analysis view dimensions and pivoting"

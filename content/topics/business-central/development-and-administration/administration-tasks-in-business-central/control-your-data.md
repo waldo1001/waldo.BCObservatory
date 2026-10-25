@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:33.423Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,6 +111,7 @@ links:
     - video/b-ixzwDS41c
     - video/DnZJ2iOgIjI
   posts:
+    - post/olofsimren-com/3564
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf
   guidelines: []
   changes:
@@ -127,7 +128,7 @@ coverage:
   learn: 8
   code: 17
   video: 3
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 107
@@ -196,6 +197,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12152 [MCP] Clear environment description after environment copy](../../../../changes/bcapps/12152.md) (code change): "Clear environment description after environment copy"
 - [#12429 Skip enabling incomplete existing retention policies on install/upgrade](../../../../changes/bcapps/12429.md) (code change): "Skip enabling incomplete retention policies during install and upgrade"
+- [Record Deletion Tool for Business Central in AppSource](../../../../posts/olofsimren-com/3564.md) (community post): "Allows cleanup of test transactions in a company."
 - [BC Friday Tips #79 Change Log Deletion on One Field](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf.md) (community post): "Enable deletion logging on only one field in the primary key"
 - [Use Retention Policies to Avoid Unnecessary Database Growth](../../../../videos/564XMP2IyLM.md) (video): "Use Retention Policies to Avoid Unnecessary Database Growth; automated deletion; data governance"
 - [What's New: Customer-Managed Encryption Key (2025 release wave 1)](../../../../videos/b-ixzwDS41c.md) (video): "Customer-Managed Encryption Key; data governance; privacy; security"

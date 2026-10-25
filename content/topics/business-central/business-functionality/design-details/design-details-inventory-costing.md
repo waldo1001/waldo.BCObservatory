@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:53.515Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -201,6 +201,7 @@ links:
     - topic/business-central/business-functionality/design-details/design-details-inventory-costing/design-details-posting-date-on-adjustmen
   localizations: []
   videos:
+    - video/64_cQzp8BP4
     - video/8IOEXgk7q5I
   posts:
     - post/thedynamicsexplorer-com/37371
@@ -227,7 +228,7 @@ children:
 coverage:
   learn: 22
   code: 1
-  video: 1
+  video: 2
   blog: 1
   guideline: 0
 bc_forms:
@@ -315,6 +316,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9398 [Main]Incorrect Cost Amount (Actual) in Value Entries after posting Assembly Process and calulating the assembly standard costsInitial commit](../../../../changes/bcapps/9398.md) (code change): "Fixes wrong Cost Amount (Actual) in value entries for assembly orders after Calc. Assembly Std. Cost"
 - [#9467 [Extensibility Request] issue 30346: make InsertPostValueEntryToGL public in Item Jnl.-Post Line](../../../../changes/bcapps/9467.md) (code change): "InsertPostValueEntryToGL changed from local to public"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "Existing on-hand inventory retains its original cost and is not revalued when you change"
+- [What's New: Concurrent Inventory Posting (2025 release wave 1)](../../../../videos/64_cQzp8BP4.md) (video): "Enable multiple users to post item ledger entries and value entries at the same time"
 - [What's New: Cost Adjustment (2025 release wave 1)](../../../../videos/8IOEXgk7q5I.md) (video): "iterative adjustment for high-volume items; specific order adjustment"
 
 ## Business Central pages and reports

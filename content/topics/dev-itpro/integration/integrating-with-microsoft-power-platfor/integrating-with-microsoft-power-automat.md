@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.316Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,9 +66,11 @@ links:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor
   localizations: []
   videos:
+    - video/-q8Gm7u7R2A
     - video/EVntnDFE1R4
     - video/T63y0F_38SI
     - video/V_ZyGeF5JXE
+    - video/YTA8c2XyTX4
   posts:
     - post/aardvarklabs-blog/3631
     - post/aardvarklabs-blog/3704
@@ -85,7 +87,7 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 3
+  video: 5
   blog: 2
   guideline: 0
 bc_forms: []
@@ -130,8 +132,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "allowing Power Platform and OData clients to discover and download"
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Use Power Automate to retrieve SFTP files and post them to Business Central via the API"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "Power Automate listens for the business event, retrieves the file and metadata from the staging table"
+- [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../../videos/-q8Gm7u7R2A.md) (video): "power automate; data change events; business events"
 - [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../../videos/EVntnDFE1R4.md) (video): "power automate; power apps; dataverse; virtual tables; business events"
 - [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; Power Automate Templates for Business Central"
 - [What's New: Business Central Integration with Power Platform](../../../../videos/V_ZyGeF5JXE.md) (video): "Power Automate; approval workflows; connector actions; power platform"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../../../../videos/YTA8c2XyTX4.md) (video): "Business Events via Power Automate; Data Change Events via Power Automate"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:18.791Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -54,7 +54,9 @@ links:
   posts:
     - post/demiliani-com/12482
     - post/demiliani-com/12613
+    - post/gerardorenteria-blog/15213
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b
+    - post/stefanmaron-com/https-stefanmaron-com-posts-bcdb-restore-write-a-cloud-export-into-a-container--0d94b20d91
     - post/thinkaboutit-be/8111
   guidelines: []
 learn_toc_path:
@@ -68,7 +70,7 @@ coverage:
   learn: 3
   code: 0
   video: 1
-  blog: 4
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 3e24d310bec806f54df5e21b2fc846769d8a24f8f718551344701ccf8111fec0
@@ -111,7 +113,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Dynamics 365 Business Central: update sandbox environments to preview versions.](../../../../posts/demiliani-com/12482.md) (community post): "Partners can now update existing sandbox environments to preview versions of Dynamics"
 - [Dynamics 365 Business Central: accessing Early Access Preview in online sandboxes.](../../../../posts/demiliani-com/12613.md) (community post): "Partners with sandbox licenses can create early access preview environments"
+- [🧹 Cleaning and anonymizing copies in Business Central: environments, companies, and traceability](../../../../posts/gerardorenteria-blog/15213.md) (community post): "adjusting settings when copying Business Central environments or companies"
 - [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b.md) (community post): "Preview environments let you test extensions, integrations, and customizations"
+- [bcdb restore: Write a Cloud Export Into a Container](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-bcdb-restore-write-a-cloud-export-into-a-container--0d94b20d91.md) (community post): "The bcdb restore tool writes cloud exports directly into a running Docker container"
 - [Quick Tip: You Can Now Create a Business Central 29.0 (Preview) Sandbox](../../../../posts/thinkaboutit-be/8111.md) (community post): "Preview sandboxes are automatically deleted 30 days after general availability"
 - [What's Cooking in Business Central: Early Access Preview](../../../../videos/qYW5wo0fKgA.md) (video): "Early Access Preview Sandbox Environments"
 

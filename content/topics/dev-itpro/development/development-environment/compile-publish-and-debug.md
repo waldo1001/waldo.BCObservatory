@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:07.389Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -121,7 +121,9 @@ links:
   topics:
     - topic/dev-itpro/development/development-environment
   localizations: []
-  videos: []
+  videos:
+    - video/TY82NR2hGEg
+    - video/tzeO0mc8RJo
   posts: []
   guidelines: []
   changes:
@@ -136,7 +138,7 @@ children: []
 coverage:
   learn: 12
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms: []
@@ -191,5 +193,7 @@ Other pages deal with compilation scope (OnPrem or Cloud target levels), signing
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12320 Fix 409 conflict in APIV2 Company Info E2E description test](../../../../changes/bcapps/12320.md) (code change): "Fixed 409 conflict errors in APIV2 Company Info E2E tests"
+- [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../videos/TY82NR2hGEg.md) (video): "AL language extension pre-release versions; AL language extension for Linux"
+- [What's New: Developer Tools (2024 release wave 1)](../../../../videos/tzeO0mc8RJo.md) (video): "AL tool; pipelines; object extensions; debugger upgrade"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

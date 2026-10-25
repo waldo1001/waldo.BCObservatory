@@ -12,7 +12,7 @@ review:
   at: "2026-10-23T01:12:47.130Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -321,6 +321,7 @@ links:
     - video/F_pssS0FtUc
     - video/sZ7wMU1Uxio
   posts:
+    - post/demiliani-com/13096
     - post/demiliani-com/13369
     - post/duiliotacconi-com/1501
     - post/duiliotacconi-com/1537
@@ -341,7 +342,7 @@ coverage:
   learn: 70
   code: 0
   video: 4
-  blog: 6
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: 6d811af42d6a134d1ed6be0e44736f3c1dff51ecfed1455cb2a4358c4de6d557
@@ -456,6 +457,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10573 BC IQ - Adding data categorization](../../../changes/bcapps/10573.md) (code change): "Data categorization for BC IQ to codeunit 1751 Data Classification Eval"
+- [Dynamics 365 Business Central UI performance: what about the browser and the local machine?](../../../posts/demiliani-com/13096.md) (community post): "Page View telemetry, the Speedometer 3.1 benchmark and a Puppeteer-based Node.js script can help measure client performance"
 - [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../../posts/demiliani-com/13369.md) (community post): "Business Central now includes hardware and network telemetry parameters in page views"
 - [Client Crash? Check Error Dialog signal](../../../posts/duiliotacconi-com/1501.md) (community post): "Dashboard tiles built on RT0030 (by failure reason, details, stack trace and timeline) showed InvalidOperation errors"
 - [How to choose the best Update Window in Dynamics 365 Business Central Online](../../../posts/duiliotacconi-com/1537.md) (community post): "KQL telemetry queries that count platform hotfix deployments by local hour"

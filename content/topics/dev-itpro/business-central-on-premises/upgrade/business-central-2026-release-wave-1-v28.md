@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:37.084Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,7 +58,8 @@ links:
     - topic/dev-itpro/business-central-on-premises/upgrade
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-07-july-2026-cumulative-updates-for-dynamics-365-business-central--36ef84971d
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -71,7 +72,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: a2f92bceaf479bc775b034d22d378cbefa3e722b436187aa4531b067299c5c74
@@ -107,5 +108,11 @@ Start with the overview page, which explains the required upgrade paths, interme
 - [Install a Business Central 2026 release wave 1 (version 28) Update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v28): This article describes the tasks required for getting the monthly version 28 update applied to your Dynamics 365 Business Central on-premises.
 - [Upgrade to Business Central 2026 release wave 1 (version 28)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v28): Describes how to upgrade an unmodified Business Central version 25 and later to version 28
 - [Upgrading to Dynamics 365 Business Central 2026 release wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v28): Provides an overview of Business Central 2026 release wave 1 upgrade process.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [July 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-july-2026-cumulative-updates-for-dynamics-365-business-central--36ef84971d.md) (community post): "cumulative updates released for different release waves and versions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

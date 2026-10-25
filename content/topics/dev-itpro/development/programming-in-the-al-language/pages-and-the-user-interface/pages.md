@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:02.327Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -289,10 +289,14 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface
   localizations: []
-  videos: []
+  videos:
+    - video/jqVt0hYDfz0
   posts:
+    - post/aardvarklabs-blog/1756
     - post/aardvarklabs-blog/2063
+    - post/aardvarklabs-blog/2936
     - post/demiliani-com/12439
+    - post/gerardorenteria-blog/14993
   guidelines: []
   changes:
     - change/bcapps/10377
@@ -312,8 +316,8 @@ children: []
 coverage:
   learn: 33
   code: 0
-  video: 0
-  blog: 2
+  video: 1
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 181f7afb514c5280b30dcfe6b295f39a7433117d6ea6eddd11fd76cbbb17916a
@@ -411,7 +415,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11960 [BC14] Classify historical entry pages as Archive in Tell Me](../../../../../changes/bcapps/11960.md) (code change): "Changed UsageCategory from Lists to History on five read-only historical entry pages"
 - [#117 tooltip: PR review flags genuinely-missing tooltips instead of deferring to AA0218](../../../../../changes/bcquality/117.md) (code change): "PR review now independently flags genuinely missing tooltips on page fields"
 - [#160 Clarify page field caption and tooltip inheritance](../../../../../changes/bcquality/160.md) (code change): "bound page fields inherit Caption and, from BC24 runtime 13.0, ToolTip"
+- [Effortless Layout Editing in Business Central](../../../../../posts/aardvarklabs-blog/1756.md) (community post): "Pressing F6 in VS Code starts Business Central in Designer Mode"
 - [Understanding User Control Host in Business Central](../../../../../posts/aardvarklabs-blog/2063.md) (community post): "User Control Host is a simplified page type that requires no source table"
+- [Integrating Analysis Views in Business Central Extensions](../../../../../posts/aardvarklabs-blog/2936.md) (community post): "AL runtime 17.0 adds an analysisviews section to pages and page extensions"
 - [Dynamics 365 Business Central: controlling the Summary system part.](../../../../../posts/demiliani-com/12439.md) (community post): "Developers can control the Summary part using the DefaultSummaryPart identifier on Card, Document, and ListPlus pages"
+- [🧭 Page Explorer for Business Central: everything a page hides, in plain sight](../../../../../posts/gerardorenteria-blog/14993.md) (community post): "It uses the native Page Summary Provider codeunit to parse page metadata"
+- [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../../../../../videos/jqVt0hYDfz0.md) (video): "page extension; profile customization; personalization"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

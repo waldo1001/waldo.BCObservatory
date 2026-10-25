@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:29.221Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,8 +110,10 @@ links:
     - topic/dev-itpro/development
   localizations: []
   videos:
+    - video/6dEZQlmBlyI
     - video/jqVt0hYDfz0
-  posts: []
+  posts:
+    - post/bertverbeek-nl/1143
   guidelines: []
 learn_toc_path:
   - Development
@@ -122,8 +124,8 @@ children: []
 coverage:
   learn: 7
   code: 28
-  video: 1
-  blog: 0
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 16
@@ -200,6 +202,8 @@ For Excel reporting, "Working with Excel layouts" covers creating, configuring a
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [[Preview] bc2adls and Fabric Open Mirroring](../../../posts/bertverbeek-nl/1143.md) (community post): "bc2adls release 26.32 adds preview support for Microsoft Fabric Open Mirroring"
+- [Use Data from a Report inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../../../videos/6dEZQlmBlyI.md) (video): "Report Region in Advanced Spreadsheets; Query Region; Chart Creation"
 - [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../../../videos/jqVt0hYDfz0.md) (video): "Delivering Analysis Views in AL Extensions. Topics: analysis views; al extensions"
 
 ## Business Central pages and reports

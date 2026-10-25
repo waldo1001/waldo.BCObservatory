@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:46.729Z"
   flags: []
 generated:
-  at: "2026-10-25T17:26:49.987Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -315,6 +315,8 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/demiliani-com/13761
+    - post/sshadows-dk/https-sshadows-dk-blog-business-central-on-linux--f313e38282
     - post/vjeko-com/https-vjeko-com-2026-03-09-al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days--fb9c8e152a
   guidelines: []
   changes:
@@ -338,7 +340,7 @@ coverage:
   learn: 54
   code: 0
   video: 0
-  blog: 1
+  blog: 3
   guideline: 0
 bc_forms:
   - 149000
@@ -392,6 +394,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10212 Add SetReferenceType method to SignedXml and SignedXmlImpl (#10139)](../../../changes/bcapps/10212.md) (code change): "SetReferenceType method is added to the SignedXml codeunit to allow callers"
 - [#10449 Remove permission set ref and move the Page Inspector changes to BCApps](../../../changes/bcapps/10449.md) (code change): "Page Inspector changes are moved from Platform into BCApps"
+- [Be careful with Visual Studio Code extensions…](../../../posts/demiliani-com/13761.md) (community post): "Be careful with Visual Studio Code extensions"
+- [Business Central on Linux? Here, hold my beer!](../../../posts/sshadows-dk/https-sshadows-dk-blog-business-central-on-linux--f313e38282.md) (community post): "Running Business Central on Linux via Wine required implementing missing Windows APIs"
 - [AL Object ID Ninja 3.2.1: A Lot Has Happened in Four Days](../../../posts/vjeko-com/https-vjeko-com-2026-03-09-al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days--fb9c8e152a.md) (community post): "App pools now display accurate pool-wide consumption in Range Explorer and Assignment Explorer"
 
 ## Business Central pages and reports

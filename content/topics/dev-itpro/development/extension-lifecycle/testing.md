@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.420Z"
   flags: []
 generated:
-  at: "2026-10-25T17:04:06.967Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,11 +91,17 @@ links:
   localizations: []
   videos:
     - video/9CW5mydS9Vs
+    - video/eUkx_VCcyoU
     - video/hNom9ZZuca0
     - video/JI9OpaBx0nk
+    - video/qlFEdXPjX6A
+    - video/xr8C3c6WhOI
   posts:
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-07-al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing--1510616044
+    - post/gerardorenteria-blog/11565
     - post/jpearson-blog/1590
     - post/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620
+    - post/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc
   guidelines: []
   changes:
     - change/al-go/2342
@@ -121,8 +127,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 3
-  blog: 2
+  video: 6
+  blog: 5
   guideline: 0
 bc_forms:
   - 149000
@@ -191,11 +197,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#8924 [QM] Fixed overflow runtime error](../../../../changes/bcapps/8924.md) (code change): "Adds a regression test in the miscellaneous QM tests codeunit"
 - [#9293 [Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)](../../../../changes/bcapps/9293.md) (code change): "Six new tests added covering the corrected behavior"
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../changes/bcquality/159.md) (code change): "AL testing patterns from an external BC testing expert's blog"
+- [AL EventLens 0.1.6: the handler lens, and a fix that needed fixing](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing--1510616044.md) (community post): "Handler lens shows test usage counts above handler functions such as MessageHandler, ConfirmHandler and PageHandler"
+- [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../../../../posts/gerardorenteria-blog/11565.md) (community post): "Testing enhancements enable HTTP request mocking with TestHttpRequestPolicy"
 - [Why do all my tests show up twice in the test explorer?](../../../../posts/jpearson-blog/1590.md) (community post): "Tests show up twice in the VS Code test explorer when the pre-release AL Language extension"
 - [Your Tests All Pass. I Have Bad News.](../../../../posts/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620.md) (community post): "Mutation testing is a technique that validates test quality by intentionally breaking code"
+- [Weekly Recap: August 7-14](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc.md) (community post): "AL Runner shipped 85 PRs fixing emulation-to-real-BC divergences in rename propagation"
 - [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../../videos/9CW5mydS9Vs.md) (video): "Tests dependencies runners and evals for BC applications"
+- [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "testing; http client; call stack; HTTP Client Handler for Testing"
 - [What's new: Testability Enhancements (2026 release wave 2)](../../../../videos/hNom9ZZuca0.md) (video): "Data-driven Testing in AL"
 - [Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)](../../../../videos/JI9OpaBx0nk.md) (video): "outbound http testing; mocking; HTTP client handler; test isolation; request interception"
+- [What's New: AL Language (2025 release wave 2)](../../../../videos/qlFEdXPjX6A.md) (video): "AI Test Type; Required Test Isolation Property; Cancellation Token Propagation in VS Code"
+- [What's New : AL-Go for GitHub on Quality and Testability (2025 release wave 1)](../../../../videos/xr8C3c6WhOI.md) (video): "Page Scripting Tests in AL-Go Workflow"
 
 ## Business Central pages and reports
 

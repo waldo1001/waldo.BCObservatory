@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:12.145Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -307,8 +307,10 @@ links:
   localizations: []
   videos:
     - video/iHgaNJucyvI
+    - video/tpAh4q3h8T8
   posts:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-why-is-my-job-queue-tasks-cue-in-red--5ef8045384
   guidelines: []
   changes:
     - change/bcapps/9953
@@ -322,8 +324,8 @@ children:
 coverage:
   learn: 30
   code: 65
-  video: 1
-  blog: 1
+  video: 2
+  blog: 2
   guideline: 0
 bc_forms:
   - 1
@@ -493,7 +495,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#9953 Rename AppSource UI text to Marketplace](../../../changes/bcapps/9953.md) (code change): "User-facing text that references AppSource has been updated to use Marketplace"
 - [Business Central v29: Use System Audit Fields in Analysis Mode and Profiles](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72.md) (community post): "administrators to use system audit fields in Analysis Mode and Profile customizations"
+- [D365 Business Central: Why is my Job Queue Tasks Cue in Red?](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-why-is-my-job-queue-tasks-cue-in-red--5ef8045384.md) (community post): "You can adjust this threshold through the Cue Setup page"
 - [What's new: Add existing table fields to pages (2023 release wave 2)](../../../videos/iHgaNJucyvI.md) (video): "Add existing table fields to pages; role customization; personalization; page design"
+- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../../../videos/tpAh4q3h8T8.md) (video): "Power user page customization without development tools"
 
 ## Business Central pages and reports
 

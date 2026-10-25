@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:34.968Z"
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -311,6 +311,8 @@ links:
     - video/-SGaVGOkiF0
   posts:
     - post/demiliani-com/12076
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030
+    - post/thinkaboutit-be/7496
   guidelines: []
   changes:
     - change/bcapps/10005
@@ -334,7 +336,7 @@ coverage:
   learn: 25
   code: 94
   video: 1
-  blog: 1
+  blog: 3
   guideline: 0
 bc_forms:
   - 6
@@ -519,6 +521,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9133 [Master]-Project consumption: partial invoicing of non-inventory items posts negative adjustment value entry to wrong Item Ledger Entry](../../../../changes/bcapps/9133.md) (code change): "Partial invoicing of non-inventory items consumed on a project"
 - [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](../../../../changes/bcapps/9182.md) (code change): "Pay-to Name 2 editability aligned with other pay-to address fields"
 - [Dynamics 365 Business Central: introducing the Payables Agent.](../../../../posts/demiliani-com/12076.md) (community post): "Payables Agent automates AP workflows by retrieving vendor invoices from email and SharePoint"
+- [Untangling Your Books: Understanding Application of Entries in Business Central](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030.md) (community post): "customer and vendor entries typically require manual or configured auto-apply rules"
+- [Quick Tip: Business Central Update 27.3 – What’s New](../../../../posts/thinkaboutit-be/7496.md) (community post): "Payables Agent now matches purchase invoices to orders intelligently and shows confidence scores"
 - [Introducing Payment Times Analysis in Business Central (2023 release wave 2)](../../../../videos/-SGaVGOkiF0.md) (video): "vendor payments; payment practices; due dates"
 
 ## Business Central pages and reports

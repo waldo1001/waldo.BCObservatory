@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:28.466Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,7 +41,8 @@ links:
   topics:
     - topic/business-central/analytics-business-intelligence-and-repo/develop-reports
   localizations: []
-  videos: []
+  videos:
+    - video/c3paEbmDNmM
   posts: []
   guidelines: []
   changes:
@@ -56,7 +57,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -98,5 +99,6 @@ Then read Performance Articles for AL Developers. It covers efficient page desig
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#230 Knowledge: report layouts and dataset contract, query join and grouping defaults](../../../../changes/bcquality/230.md) (code change): "Report dataset column names are a contract with Excel Data sheets"
+- [What's New: Server and Database - New Reporting Capabilities (2023 release wave 2)](../../../../videos/c3paEbmDNmM.md) (video): "Server-Side Analysis Views on Queries; Excel Layout Multiple Data Sheets"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

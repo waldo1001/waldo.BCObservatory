@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:41.609Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,9 +57,12 @@ links:
   topics:
     - topic/dev-itpro/business-central-on-premises/upgrade
   localizations: []
-  videos: []
+  videos:
+    - video/Sh3ySQSTw-o
   posts:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -71,8 +74,8 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 0
-  blog: 1
+  video: 1
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: bb19bc24266d3770671d62d35bcd52382bc7b9188b90751e4908b857e79e74cb
@@ -116,5 +119,8 @@ For the upgrade itself, use the upgrade guide if you are coming from version 25,
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [October 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be.md) (community post): "Business Central 2026 Wave 2 release with version 29.0 for online customers"
+- [How to Migrate Business Central Table Fields from Integer to BigInteger.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696.md) (community post): "In version 29, with runtime 18.0 or later, an existing Integer table field can be changed to BigInteger"
+- [How to Install Microsoft Dynamics 365 Business Central 29 On-Premises](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f.md) (community post): "Business Central 29 (2026 release wave 2) on-premises in a test or demonstration"
+- [What's new: Server and Database (2026 release wave 2)](../../../../videos/Sh3ySQSTw-o.md) (video): "What's new: Server and Database (2026 release wave 2)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-25T12:53:09.599Z"
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -390,6 +390,7 @@ links:
   localizations: []
   videos:
     - video/Ax8yXCf7BY4
+    - video/N_J1HB_fUCM
   posts: []
   guidelines: []
 learn_toc_path:
@@ -423,7 +424,7 @@ children:
 coverage:
   learn: 603
   code: 58
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -935,6 +936,7 @@ Start with the strategy page to understand the overall approach. Then go to your
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Legislation and Localization (2023 release wave 2)](../../../videos/Ax8yXCf7BY4.md) (video): "Topics: legislation compliance; delocalization; eu three-party trade"
+- [What's new in Finance: Overview (2026 release wave 2)](../../../videos/N_J1HB_fUCM.md) (video): "Invoicing for France GA; Payment terms expansion for Australia and Great Britain"
 
 ## Business Central pages and reports
 

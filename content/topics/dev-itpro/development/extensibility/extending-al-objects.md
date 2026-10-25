@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:28.884Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,6 +84,7 @@ links:
   videos:
     - video/qABlX4AL3GM
   posts:
+    - post/gerardorenteria-blog/13041
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1
   guidelines: []
   changes:
@@ -104,7 +105,7 @@ coverage:
   learn: 7
   code: 0
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 9ebfd0c8a95564cad3895173960c88fe73af3e7b6e4de945b95a59be2bfcd58c
@@ -157,6 +158,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10382 [Expense Agent] Fix administrative recall history access](../../../../changes/bcapps/10382.md) (code change): "Recalls by someone other than the submitter are logged as BC User activity"
 - [#10438 [Master] - Bug 647272: [Expense Agent] Unwanted caption in expense report FactBox](../../../../changes/bcapps/10438.md) (code change): "Expense Report FactBox caption changed to Expense Report"
 - [#9217 [Extensibility][SubscriptionBilling]: Make IsLineAttachedToBillingLine accessible from external apps in Sales Line and Purchase Line](../../../../changes/bcapps/9217.md) (code change): "IsLineAttachedToBillingLine procedure visibility changed from internal to public"
+- [● Mark, Filter, Focus: Bringing Precision to BC List Analysis ✅](../../../../posts/gerardorenteria-blog/13041.md) (community post): "page extensions with keyboard shortcuts to enable cross-filter record selection"
 - [Business Central 29.0: Major Change to Table Extensions and SQL Storage.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1.md) (community post): "table extension fields are stored in the database"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../videos/qABlX4AL3GM.md) (video): "table extensions; sql storage model; database performance; indexes"
 

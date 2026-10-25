@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:45.537Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -348,6 +348,7 @@ links:
   videos:
     - video/N8Unj6WLB6U
     - video/pEXl-POet_4
+    - video/WvG4EOHQuiw
   posts: []
   guidelines: []
   changes:
@@ -368,7 +369,7 @@ children:
 coverage:
   learn: 56
   code: 35
-  video: 2
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -457,6 +458,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12290 Remove CLEAN27 from Service Management](../../../changes/bcapps/12290.md) (code change): "Remove CLEAN27 from Service Management; service documents, history pages, tables and reports"
 - [What's New: Service Management (2024 release wave 1)](../../../videos/N8Unj6WLB6U.md) (video): "Service quote; service order; service contract; service items; invoicing policy"
 - [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "service archiving; service filing; service contract filing improvements"
+- [What's New: Field Service Integration to Service Management (2024 release wave 2)](../../../videos/WvG4EOHQuiw.md) (video): "Field Service Integration to Service Management; Service Management Setup Changes"
 
 ## Business Central pages and reports
 

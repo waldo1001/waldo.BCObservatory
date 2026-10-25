@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:53.992Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -121,7 +121,8 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
-  videos: []
+  videos:
+    - video/tDcT_51ktqo
   posts:
     - post/aardvarklabs-blog/1822
   guidelines: []
@@ -136,7 +137,7 @@ children: []
 coverage:
   learn: 9
   code: 24
-  video: 0
+  video: 1
   blog: 1
   guideline: 0
 bc_forms:
@@ -211,6 +212,7 @@ Start with Query Overview, then read Data Item Links and Filtering in Query obje
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Business Central Queries: Simplifying Complex Data](../../../../../posts/aardvarklabs-blog/1822.md) (community post): "Query objects let AL developers combine and filter data from several tables"
+- [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../../videos/tDcT_51ktqo.md) (video): "Query UI and Data Analysis"
 
 ## Business Central pages and reports
 

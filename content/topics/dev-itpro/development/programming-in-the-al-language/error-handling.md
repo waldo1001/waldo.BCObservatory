@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:03.133Z"
   flags: []
 generated:
-  at: "2026-10-25T16:50:34.247Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -146,7 +146,8 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/error-handling/error-telemetry
     - topic/dev-itpro/development/programming-in-the-al-language/error-handling/al-language-reference-errors
   localizations: []
-  videos: []
+  videos:
+    - video/RNR4wsFeedI
   posts:
     - post/gerardorenteria-blog/12238
     - post/miljan-rs/966
@@ -168,7 +169,7 @@ children:
 coverage:
   learn: 16
   code: 0
-  video: 0
+  video: 1
   blog: 4
   guideline: 0
 bc_forms: []
@@ -226,5 +227,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [When “Errors” Don’t Stop the Process: A Hidden Risk in Business Central](../../../../posts/miljan-rs/966.md) (community post): "ErrorBehavior::Collect allows code to continue after errors"
 - [How to Write Error Messages That Help](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-how-to-write-error-messages-that-help--6e1cc8407f.md) (community post): "Error messages significantly impact user experience in enterprise software"
 - [BC Friday Tips #77 TestField Show Record Action](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a.md) (community post): "TestField automatically adds a Show Record button to error dialogs"
+- [What's New: Boost Your Productivity with Business Central (2024 release wave 1)](../../../../videos/RNR4wsFeedI.md) (video): "Actions for platform-generated errors; Error sharing via Teams and email"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

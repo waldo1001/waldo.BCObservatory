@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:33.535Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -148,6 +148,7 @@ links:
   localizations: []
   videos:
     - video/8IOEXgk7q5I
+    - video/N30HebR5nJk
     - video/w0okH0v0VvY
   posts:
     - post/thedynamicsexplorer-com/10326
@@ -179,7 +180,7 @@ children:
 coverage:
   learn: 14
   code: 13
-  video: 2
+  video: 3
   blog: 2
   guideline: 0
 bc_forms:
@@ -270,6 +271,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../../../../posts/thedynamicsexplorer-com/10326.md) (community post): "Item charges can be assigned to the original sales shipment, creating value entries"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "Changing standard cost directly on an item card has two critical side effects"
 - [What's New: Cost Adjustment (2025 release wave 1)](../../../../videos/8IOEXgk7q5I.md) (video): "cost adjustment; inventory valuation; high-volume items"
+- [Execution & Control Cost Control (2026)](../../../../videos/N30HebR5nJk.md) (video): "Costing methods; Cost shares on item card; BOM cost share distribution report"
 - [What's New: Cost Adjustment (2024 release wave 1)](../../../../videos/w0okH0v0VvY.md) (video): "Inventory Cost Adjustment Tool; Cost Adjustment Logging Options; Item Batches"
 
 ## Business Central pages and reports

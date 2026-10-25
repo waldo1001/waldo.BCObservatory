@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:03.141Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,8 @@ links:
   topics:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
-  videos: []
+  videos:
+    - video/CkGTSItdTbs
   posts: []
   guidelines: []
   changes:
@@ -113,7 +114,7 @@ children: []
 coverage:
   learn: 6
   code: 25
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -190,6 +191,7 @@ Insurance and maintenance pages are optional add-ons. Start with the overview pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12160 Deliverable 617319: Move French accelerated depreciation to W1 base application](../../../../changes/bcapps/12160.md) (code change): "New depreciation book setup fields, posting accounts, and calculation logic added"
+- [What's New: Create Multiple Fixed Assets (2025 release wave 2)](../../../../videos/CkGTSItdTbs.md) (video): "Automatic asset numbering with number series"
 
 ## Business Central pages and reports
 

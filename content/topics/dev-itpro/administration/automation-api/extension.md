@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: edd07398767903bf2fc94f34ef0b09ff192bc35ad817a8916f5df292c1ac4ce0
@@ -41,7 +41,9 @@ links:
     - topic/dev-itpro/administration/automation-api
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/3998
+    - post/aardvarklabs-blog/4023
   guidelines: []
   changes:
     - change/bcapps/11319
@@ -57,7 +59,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: edd07398767903bf2fc94f34ef0b09ff192bc35ad817a8916f5df292c1ac4ce0
@@ -81,5 +83,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11319 [MCP] Allow setting default configuration from card](../../../../changes/bcapps/11319.md) (code change): "Allow setting default configuration from card"
 - [#9569 Enforce permissions when reviewing orphaned extension data](../../../../changes/bcapps/9569.md) (code change): "Permission checks now consistently apply when marking orphaned extension data"
+- [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "automating extension management in Business Central using the Administration API, including deploying .app files"
+- [Automate Business Central Extension Deployment with PowerShell and the Admin API](../../../../posts/aardvarklabs-blog/4023.md) (community post): "deploys Business Central extensions to production by sorting them by dependencies"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

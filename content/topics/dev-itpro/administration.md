@@ -12,7 +12,7 @@ review:
   at: "2026-10-20T08:48:51.537Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -339,6 +339,9 @@ links:
   videos: []
   posts:
     - post/demiliani-com/12992
+    - post/gerardorenteria-blog/12460
+    - post/gerardorenteria-blog/12728
+    - post/gerardorenteria-blog/13744
   guidelines: []
 learn_toc_path:
   - Administration
@@ -359,7 +362,7 @@ coverage:
   learn: 274
   code: 21
   video: 0
-  blog: 1
+  blog: 4
   guideline: 0
 bc_forms:
   - 9
@@ -445,6 +448,9 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Welcome to the CCMS project.](../../posts/demiliani-com/12992.md) (community post): "CCMS (Cloud Customer Management System), a Business Central app for managing online customers at scale"
+- [(2025 OCT) Cumulative Updates for Business Central](../../posts/gerardorenteria-blog/12460.md) (community post): "Latest updates should always be installed due to vulnerability fixes"
+- [(2025 NOV) Cumulative Updates for Business Central](../../posts/gerardorenteria-blog/12728.md) (community post): "Latest updates should always be installed as they may fix security vulnerabilities"
+- [Cumulative Updates for Business Central – versions](../../posts/gerardorenteria-blog/13744.md) (community post): "Always install the latest update, because some updates also fix vulnerabilities"
 
 ## Business Central pages and reports
 

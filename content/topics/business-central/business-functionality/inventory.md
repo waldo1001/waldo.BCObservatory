@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -427,7 +427,9 @@ links:
   videos:
     - video/198d9piIoE0
     - video/64_cQzp8BP4
+    - video/sqjb_gsXqM8
   posts:
+    - post/duiliotacconi-com/1457
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
   guidelines: []
@@ -451,8 +453,8 @@ children:
 coverage:
   learn: 75
   code: 99
-  video: 2
-  blog: 2
+  video: 3
+  blog: 3
   guideline: 0
 bc_forms:
   - 30
@@ -639,10 +641,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9745 [main] Implement item variant caching in calculate inventory](../../../changes/bcapps/9745.md) (code change): "The Calculate Inventory report now caches item variant information to reduce redundant database lookups"
 - [#9810 [master]-Edit in Excel fails with false duplicate error when creating new Item Variants](../../../changes/bcapps/9810.md) (code change): "Item Variants page no longer fails with a false duplicate key error when creating new variants"
 - [#9961 [Extensibility Request] issue 30381: expose page sender to filter subscribers](../../../changes/bcapps/9961.md) (code change): "Item Availability by BOM Level page"
+- [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../../../posts/duiliotacconi-com/1457.md) (community post): "introduces a less-locking inventory posting engine and optimizes FlowField calculations on pages"
 - [Define Item Attributes for Item Variants](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) (community post): "Define Item Attributes for Item Variants"
 - [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) (community post): "Blocked and Sales Blocked fields on the Item card"
 - [What's New: Reservation Worksheet and Fulfillment Suggestions (2023 release wave 2)](../../../videos/198d9piIoE0.md) (video): "Reservation Worksheet and Fulfillment Suggestions"
 - [What's New: Concurrent Inventory Posting (2025 release wave 1)](../../../videos/64_cQzp8BP4.md) (video): "Enable multiple users to post item ledger entries and value entries at the same time"
+- [What's New: Supply Chain Management - overview (2026 release wave 1)](../../../videos/sqjb_gsXqM8.md) (video): "Item Variants with Pictures and Attributes"
 
 ## Business Central pages and reports
 

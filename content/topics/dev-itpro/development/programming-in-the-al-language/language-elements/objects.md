@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.960Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -177,7 +177,8 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/language-elements
   localizations: []
-  videos: []
+  videos:
+    - video/tzeO0mc8RJo
   posts: []
   guidelines: []
   changes:
@@ -193,7 +194,7 @@ children: []
 coverage:
   learn: 19
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -252,5 +253,6 @@ This section is the reference for AL object types. Most pages cover one object: 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#186 Add Query filter semantics guidance](../../../../../changes/bcquality/186.md) (code change): "DataItemTableFilter remains active when runtime filters target the same field"
+- [What's New: Developer Tools (2024 release wave 1)](../../../../../videos/tzeO0mc8RJo.md) (video): "Tooltips on tables; Instructional text on fields"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

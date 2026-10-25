@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:51.277Z"
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -360,6 +360,7 @@ links:
   localizations: []
   videos:
     - video/0h8QBNmeORQ
+    - video/1IIlArcHpOY
     - video/2uXVammbab0
     - video/58yOwN3GY2Q
     - video/H5EuObmeF4o
@@ -368,6 +369,7 @@ links:
   posts:
     - post/aardvarklabs-blog/3315
     - post/demiliani-com/11739
+    - post/thinkaboutit-be/7284
   guidelines: []
   changes:
     - change/bcapps/9359
@@ -394,8 +396,8 @@ children:
 coverage:
   learn: 54
   code: 35
-  video: 6
-  blog: 2
+  video: 7
+  blog: 3
   guideline: 0
 bc_forms:
   - 16
@@ -494,7 +496,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9359 Sales Order Agent: ignore attachments larger than 25 MB during email retrieval](../../changes/bcapps/9359.md) (code change): "Sales Order Agent now ignores email attachments larger than 25 MB during retrieval"
 - [Effective Steps for Troubleshooting Business Central Agents](../../posts/aardvarklabs-blog/3315.md) (community post): "This post explains how to troubleshoot Business Central agents by examining task logs"
 - [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../posts/demiliani-com/11739.md) (community post): "Copilot Studio message-based pricing pay-as-you-go at $0.01 per message"
+- [Quick Tip: Business Central Updates 27.1 & 27.2: A Quick Look at What’s New](../../posts/thinkaboutit-be/7284.md) (community post): "introduce intelligent agents for automation"
 - [Microsoft Sizzle: Business Central Agents In Action](../../videos/0h8QBNmeORQ.md) (video): "Microsoft Sizzle: Business Central Agents In Action"
+- [What's New: Working with Instructions for Agents in Business Central](../../videos/1IIlArcHpOY.md) (video): "What's New: Working with Instructions for Agents in Business Central"
 - [What's New: Chat with Copilot (2025 release wave 1)](../../videos/2uXVammbab0.md) (video): "Chat with Copilot; Chat interface; natural language queries; analysis tabs; permissions; contextual assistance"
 - [Microsoft Copilot in Business Central](../../videos/58yOwN3GY2Q.md) (video): "Microsoft Copilot in Business Central. Topics: copilot"
 - [Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)](../../videos/H5EuObmeF4o.md) (video): "Everything Coming to Business Central 2025 Wave 2"

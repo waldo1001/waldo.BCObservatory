@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:16.682Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -189,6 +189,7 @@ links:
   videos:
     - video/8KMcu4B_eTk
   posts:
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3
   guidelines: []
   changes:
@@ -204,7 +205,7 @@ coverage:
   learn: 15
   code: 41
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 15
@@ -310,6 +311,7 @@ Start with "Manage warehouse activities" for the overview and "Configure warehou
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11001 Bug 648577: [IT] Subcontracting migration does not precheck bin-mandatory locations](../../../../changes/bcapps/11001.md) (code change): "prechecks legacy vendor and purchase-header locations for unsupported warehouse settings"
+- [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610.md) (community post): "Posting method can be set at company-wide default level or overridden per transfer route"
 - [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3.md) (community post): "Copy Location duplicates warehouse configuration, settings, and operational setup"
 - [What's New: Warehouse Management (2023 release wave 2)](../../../../videos/8KMcu4B_eTk.md) (video): "Warehouse Configuration Toggles and Drop-Downs; Put-Away Templates for Bin Assignment"
 

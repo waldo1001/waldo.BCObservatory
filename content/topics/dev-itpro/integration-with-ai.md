@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:37.337Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -316,6 +316,7 @@ links:
   posts:
     - post/demiliani-com/12036
     - post/demiliani-com/13611
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
   guidelines: []
   changes:
     - change/bcapps/10205
@@ -332,7 +333,7 @@ coverage:
   learn: 56
   code: 3
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 8350
@@ -378,6 +379,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10205 Deprecate Text Completion API in AI SDK (work item 621038)](../../changes/bcapps/10205.md) (code change): "Text Completion API in the Azure OpenAI AI module is marked obsolete"
 - [Why not start improving Business Central APIs definitions for supporting AI?](../../posts/demiliani-com/12036.md) (community post): "exposing API descriptions, field types, and OpenAPI specifications would help AI agents"
 - [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../posts/demiliani-com/13611.md) (community post): "Business Central's System.AI namespace currently wraps Chat Completions and provides guardrails"
+- [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "ERP is shifting from recording transactions to enabling autonomous action through AI agents"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "ai resources; copilot; azure openai; content safety; data privacy"
 
 ## Business Central pages and reports

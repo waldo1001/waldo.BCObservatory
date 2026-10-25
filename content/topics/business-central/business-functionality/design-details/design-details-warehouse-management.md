@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:35.729Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,7 +41,8 @@ links:
   topics:
     - topic/business-central/business-functionality/design-details
   localizations: []
-  videos: []
+  videos:
+    - video/QfOgUCXg94o
   posts: []
   guidelines: []
   changes:
@@ -56,7 +57,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -98,5 +99,6 @@ There are no subtopics. Start with the availability page if you are investigatin
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12541 Preserve transfer line UOM when toggling Direct Transfer](../../../../changes/bcapps/12541.md) (code change): "Warehouse protection is made explicit: mode changes are rejected only when matching warehouse lines exist"
+- [What's New: Concurrency in Warehousing (2024 release wave 1)](../../../../videos/QfOgUCXg94o.md) (video): "Concurrent warehouse entry posting"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

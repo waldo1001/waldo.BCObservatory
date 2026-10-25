@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:51.814Z"
   flags: []
 generated:
-  at: "2026-10-25T17:04:06.967Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,6 +78,7 @@ links:
   localizations: []
   videos:
     - video/0WAOtNaKjws
+    - video/AMVAiPTfSrU
     - video/C5cmG3sNjUg
     - video/EpDIrJE0HzA
     - video/GeT5E_f9A9Q
@@ -86,6 +87,7 @@ links:
     - video/q3xnjJD32kk
     - video/qs1cg-GoDeQ
     - video/rm-FstU_I80
+    - video/uMKLsKfKPc0
     - video/zei-IszvYNU
   posts:
     - post/aardvarklabs-blog/2724
@@ -104,7 +106,7 @@ children: []
 coverage:
   learn: 6
   code: 3
-  video: 10
+  video: 12
   blog: 6
   guideline: 0
 bc_forms:
@@ -160,6 +162,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Connect Any Agent to Business Central](../../../posts/katson-com/4678.md) (community post): "connect external AI agents to Business Central using the Model Context Protocol"
 - [How to Connect Business Central MCP to Claude Desktop](../../../posts/katson-com/5026.md) (community post): "enabling third-party AI agents to access BC data"
 - [What's New: Enhanced MCP Server (2026 release wave 1)](../../../videos/0WAOtNaKjws.md) (video): "MCP Server configuration validation import export connection string telemetry auditing"
+- [How 3 Partners are Building Powerful Agents for Business Central](../../../videos/AMVAiPTfSrU.md) (video): "Business Central MCP server"
 - [MCP Server for Business Central - Advanced Topics (Part 3)](../../../videos/C5cmG3sNjUg.md) (video): "MCP Server for Business Central agents dynamic tools static tools"
 - [Build an Agent in Microsoft Copilot Studio for Business Central (2025)](../../../videos/EpDIrJE0HzA.md) (video): "Build an Agent in Microsoft Copilot Studio for Business Central"
 - [Introducing MCP Server Configurations for Business Central (Part 2)](../../../videos/GeT5E_f9A9Q.md) (video): "Introducing MCP Server Configurations for Business Central"
@@ -168,6 +171,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's new: MCP Server (2026 release wave 2)](../../../videos/q3xnjJD32kk.md) (video): "MCP Server; query tools; data analysis; agent capabilities"
 - [What's new: MCP Server (2026 release wave 2)](../../../videos/qs1cg-GoDeQ.md) (video): "MCP Server; data tools; query tool; agents; copilot studio"
 - [20260831 - Business Central MCP Server, standard and custom](../../../videos/rm-FstU_I80.md) (video): "Business Central MCP Server; Model Context Protocol; copilot studio integration"
+- [Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat](../../../videos/uMKLsKfKPc0.md) (video): "MCP server connection for Business Central"
 - [MCP Server and All Microsoft API's (2026 release wave 1)](../../../videos/zei-IszvYNU.md) (video): "All Microsoft published APIs available in MCP server"
 
 ## Business Central pages and reports

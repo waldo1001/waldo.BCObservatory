@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:58.086Z"
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -412,9 +412,12 @@ links:
     - video/DJ3LPRxn27g
     - video/DvZd6y69sWk
     - video/kDiDMPEaU0E
+    - video/sqjb_gsXqM8
   posts:
+    - post/duiliotacconi-com/1667
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6099911235084496190--4c366f79d5
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
+    - post/thedynamicsexplorer-com/10122
     - post/thedynamicsexplorer-com/36954
     - post/thedynamicsexplorer-com/7097
   guidelines: []
@@ -461,8 +464,8 @@ children:
 coverage:
   learn: 62
   code: 82
-  video: 4
-  blog: 4
+  video: 5
+  blog: 6
   guideline: 0
 bc_forms:
   - 29
@@ -649,14 +652,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9954 Restoring undefined action. (Purchase Orders page can't be open in latest `main`)](../../../changes/bcapps/9954.md) (code change): "An earlier change emptied the body of an E-Document action."
 - [#9962 [Extensibility Request] issue 30383: add purchase line transfer event](../../../changes/bcapps/9962.md) (code change): "add purchase line transfer event"
 - [#9985 [Master]-For an Item of 'Type' Service or Non-Inventory we allow you to increase the Quantity of the Corrective Credit Memo which then if posted updates the Purchase Order with a negative Received and Invoiced values](../../../changes/bcapps/9985.md) (code change): "Fixes corrective credit memos from posted purchase invoices with Service or Non-Inventory lines"
+- [Sorting by Type and Line No. in Sales and Purchase Postings](../../../posts/duiliotacconi-com/1667.md) (community post): "sales and purchase posting process lines ordered by Type and then Line No."
 - [Create Purchase Quotes for Contacts in Business Central](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6099911235084496190--4c366f79d5.md) (community post): "Creating purchase quotes in Business Central now allows selecting contacts"
 - [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (community post): "Create Purchase Orders action on sales orders eliminates the need to manually navigate"
+- [Dynamics 365 Business Central – Month End Accruals for GRNI Purchase Orders and Unposted Purchase Invoices](../../../posts/thedynamicsexplorer-com/10122.md) (community post): "accrue for unposted purchase invoices and goods received not invoiced"
 - [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../../../posts/thedynamicsexplorer-com/36954.md) (community post): "Recurring Purchase Lines automatically default General Ledger accounts and other details onto purchase invoices"
 - [Dynamics 365 Business Central – How to use the “Recurring Requisition Worksheet” for Recurring Purchase Orders](../../../posts/thedynamicsexplorer-com/7097.md) (community post): "Recurring Requisition Worksheet retains lines after generating purchase orders for reuse"
 - [Allow Over Receipts of Products](../../../videos/8C9JmtHdExM.md) (video): "Over receipt codes; Over receipt code tolerance percentages; Item-level over receipt codes"
 - [What's New: Drop Shipments (2026 release wave 1)](../../../videos/DJ3LPRxn27g.md) (video): "drop shipments; purchase order; flexible operation sequences; get order lines"
 - [What's Cooking in Business Central: Edit Purchase Order Emails before Sending them to your Supplier](../../../videos/DvZd6y69sWk.md) (video): "Edit purchase order emails before sending them to your Supplier"
 - [What's New: Matching Purchase Invoices to Order and Receipt Lines (2026 release wave 1)](../../../videos/kDiDMPEaU0E.md) (video): "Match invoice line to multiple order lines; Match invoice to partial"
+- [What's New: Supply Chain Management - overview (2026 release wave 1)](../../../videos/sqjb_gsXqM8.md) (video): "Drop Shipment Process Enhancements"
 
 ## Business Central pages and reports
 

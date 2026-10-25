@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:05.029Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,6 +112,7 @@ links:
     - video/h6a8BVzvuZ4
     - video/hba7KVWrIwY
     - video/hL4PUhjyhNY
+    - video/OvI9jaA1mJY
   posts: []
   guidelines: []
   changes:
@@ -133,7 +134,7 @@ children: []
 coverage:
   learn: 8
   code: 16
-  video: 6
+  video: 7
   blog: 0
   guideline: 0
 bc_forms:
@@ -214,6 +215,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: E-Documents and Clearance Model (2025 release wave 2)](../../../../videos/h6a8BVzvuZ4.md) (video): "Clearance model for e-documents; E-document workflow orchestration"
 - [What's New: E-Documents (2024 release wave 2)](../../../../videos/hba7KVWrIwY.md) (video): "e-documents; electronic invoicing; avalara; pagero; b2b; b2g; connectors"
 - [What's New: E-Documents Localizations (2025 release wave 1)](../../../../videos/hL4PUhjyhNY.md) (video): "e-documents; localizations; peppol; factura; ubl; pdf/a"
+- [What's New: Payables Agent (2026 release wave 1)](../../../../videos/OvI9jaA1mJY.md) (video): "Inbound e-documents list enhancements"
 
 ## Business Central pages and reports
 

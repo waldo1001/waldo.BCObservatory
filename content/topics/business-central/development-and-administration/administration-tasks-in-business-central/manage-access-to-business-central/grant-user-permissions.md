@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:30.673Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -64,6 +64,7 @@ links:
   localizations: []
   videos:
     - video/asSSBl8Cj34
+    - video/YbuO1n_Lqj0
   posts:
     - post/thedynamicsexplorer-com/37042
   guidelines: []
@@ -85,7 +86,7 @@ children: []
 coverage:
   learn: 2
   code: 21
-  video: 1
+  video: 2
   blog: 1
   guideline: 0
 bc_forms:
@@ -160,6 +161,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9692 Fix effective permission filtering](../../../../../changes/bcapps/9692.md) (code change): "Permission buffer population prioritizes exact object IDs over wildcard object ID 0"
 - [Dynamics 365 Business Central – Why when I create new users do they get full access by default](../../../../../posts/thedynamicsexplorer-com/37042.md) (community post): "New users get default permissions from their security groups and from the licence they are assigned"
 - [What's Cooking in Business Central: Replace Permission Sets Upon Import](../../../../../videos/asSSBl8Cj34.md) (video): "Replace permission sets upon import; Import permission sets action"
+- [What's New: Enhanced IT Audit Reporting (2026 release wave 1)](../../../../../videos/YbuO1n_Lqj0.md) (video): "permissions; approvals; user management; analysis mode"
 
 ## Business Central pages and reports
 

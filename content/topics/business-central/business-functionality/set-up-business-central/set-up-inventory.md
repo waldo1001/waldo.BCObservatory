@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:44.974Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -139,6 +139,7 @@ links:
     - video/X3xygXmgRqU
   posts:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f
   guidelines: []
   changes:
     - change/bcapps/11155
@@ -155,7 +156,7 @@ coverage:
   learn: 11
   code: 22
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 30
@@ -236,6 +237,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12124 Fix default bin assignment when creating purchase orders for drop shipments](../../../../changes/bcapps/12124.md) (code change): "Prevent default-bin assignment for drop shipments during validation"
 - [#9933 [MAIN]-Fix-Bug 644909 Cant modify Item Template after Item deletion](../../../../changes/bcapps/9933.md) (code change): "Item Template validation no longer fails with warehouse entry errors"
 - [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3.md) (community post): "warehouse setup; location management; configuration; business central 2026"
+- [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f.md) (community post): "Item variants can now have their own pictures for visual identification"
 - [How to Set Up Locations in Business Central (2025)](../../../../videos/X3xygXmgRqU.md) (video): "How to Set Up Locations in Business Central"
 
 ## Business Central pages and reports

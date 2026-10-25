@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:37.921Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,6 +75,7 @@ links:
   localizations: []
   videos:
     - video/eA7CENx7se0
+    - video/xB9kszf93hE
   posts: []
   guidelines: []
 learn_toc_path:
@@ -88,7 +89,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms: []
@@ -136,5 +137,6 @@ Start with the overview, then read Evaluation and Datasets for the framework and
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Testing Copilot in Business Central (2024 release wave 2)](../../../../../videos/eA7CENx7se0.md) (video): "Copilot Test Toolkit; Data-Driven Testing for Copilot; Accuracy Testing for Copilot"
+- [Getting Started With Agent Testing: Why Are Evaluations Important? (Part 1)](../../../../../videos/xB9kszf93hE.md) (video): "Programmatic evaluation with data-driven testing via YAML"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

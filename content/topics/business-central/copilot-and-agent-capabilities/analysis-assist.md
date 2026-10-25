@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:09.958Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,6 +69,7 @@ links:
     - video/GbMjcJurkFE
     - video/mHrY_OI0qNo
     - video/ofq4OBTuPvE
+    - video/Rh1AFX9A1x4
     - video/SHOAw9GehdI
   posts: []
   guidelines: []
@@ -81,7 +82,7 @@ children: []
 coverage:
   learn: 2
   code: 24
-  video: 4
+  video: 5
   blog: 0
   guideline: 0
 bc_forms:
@@ -149,6 +150,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Analysis Assist with Copilot (2024 release wave 2)](../../../videos/GbMjcJurkFE.md) (video): "Analysis Assist; Copilot toolbar and menu; Field personalization through Analysis Assist"
 - [Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)](../../../videos/mHrY_OI0qNo.md) (video): "AI-Powered Analysis with Copilot; analysis assist; natural language; ad hoc analytics"
 - [AI-Powered Analysis with Copilot in Dynamics 365 Business Central (2024)](../../../videos/ofq4OBTuPvE.md) (video): "AI-Powered Analysis with Copilot trends and outliers summaries"
+- [What's New: Data Analysis (2025 release wave 1)](../../../videos/Rh1AFX9A1x4.md) (video): "Copilot analysis assist"
 - [What's New: Data Analysis (2025 release wave 2)](../../../videos/SHOAw9GehdI.md) (video): "Analysis Assist Copilot"
 
 ## Business Central pages and reports

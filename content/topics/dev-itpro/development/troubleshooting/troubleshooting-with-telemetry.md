@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.785Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,6 +86,7 @@ links:
     - post/duiliotacconi-com/1501
     - post/duiliotacconi-com/1925
     - post/duiliotacconi-com/2074
+    - post/waldo-be/318212
     - post/waldo-be/318371
     - post/waldo-be/318461
   guidelines: []
@@ -100,7 +101,7 @@ coverage:
   learn: 7
   code: 0
   video: 0
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 2f3b3934ac033023f927292453c1e85b5a805202dba3ad71eb731b2a269851ea
@@ -189,6 +190,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Client Crash? Check Error Dialog signal](../../../../posts/duiliotacconi-com/1501.md) (community post): "telemetry is the way to investigate client crashes. Start from the operation id shown at the crash"
 - [Dynamics 365 Business Central Online Wait Statistics in Telemetry: the AI boost](../../../../posts/duiliotacconi-com/1925.md) (community post): "AI can analyze exported wait statistics telemetry to provide performance insights"
 - [Use sqlServerSessionId to spot on blocking sessions in Dynamics 365 Business Central 2026 Wave 1](../../../../posts/duiliotacconi-com/2074.md) (community post): "Investigation workflow involves isolating lock timeouts, filtering lock snapshots"
+- [Troubleshooting Series – Ep3 – Missing Indexes](../../../../posts/waldo-be/318212.md) (community post): "Sending daily snapshots of missing indexes to telemetry allows trend analysis"
 - [Analyzing BC Telemetry with AI with the “BC Telemetry Buddy”](../../../../posts/waldo-be/318371.md) (community post): "BC Telemetry Buddy is a VSCode extension and Model Context Protocol tool"
 - [BC Telemetry Buddy – When Your 12-Year-Old Accidentally Helps You Find a Problem](../../../../posts/waldo-be/318461.md) (community post): "lets you question Business Central telemetry in natural language instead of writing KQL"
 

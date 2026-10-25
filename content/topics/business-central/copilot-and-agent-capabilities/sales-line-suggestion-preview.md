@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:17.006Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,6 +43,7 @@ links:
   localizations: []
   videos:
     - video/_1LhwG2ZgFw
+    - video/bCIcq1zESKk
     - video/cZCSi6khZFo
   posts: []
   guidelines: []
@@ -55,7 +56,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 2
+  video: 3
   blog: 0
   guideline: 0
 bc_forms: []
@@ -98,6 +99,7 @@ Start with the main page to understand what the feature does and how matching be
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Sales Lines Suggestions with Copilot (2024 release wave 1)](../../../videos/_1LhwG2ZgFw.md) (video): "sales line suggestions; copilot; keyword extraction; context understanding"
+- [What's New: Item Substitution with Copilot (2024 release wave 2)](../../../videos/bCIcq1zESKk.md) (video): "Sales line suggestion with Copilot; Data search enhancement"
 - [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../../../videos/cZCSi6khZFo.md) (video): "Sales Line Suggestion with Copilot; Item Search via Attributes and Catalog"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

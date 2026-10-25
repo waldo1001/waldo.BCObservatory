@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:11.266Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -212,6 +212,7 @@ links:
   localizations: []
   videos:
     - video/dD_2NEs3A40
+    - video/GEuUFcgFZF0
   posts: []
   guidelines: []
 learn_toc_path:
@@ -224,7 +225,7 @@ children:
 coverage:
   learn: 20
   code: 33
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -319,6 +320,7 @@ For corrections and accounting, see "Undo Assembly Posting" and "Design details 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Project Management (2024 release wave 1)](../../../videos/dD_2NEs3A40.md) (video): "Assembly-to-order in projects; Assembly policy setting in projects"
+- [Manufacturing Foundations BOM (2026)](../../../videos/GEuUFcgFZF0.md) (video): "Assembly replenishment; BOM formulas for units of measure; Phantom BOMs"
 
 ## Business Central pages and reports
 

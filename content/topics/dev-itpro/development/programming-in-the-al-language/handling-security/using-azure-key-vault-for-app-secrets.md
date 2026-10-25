@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:15.866Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,8 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/handling-security
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/2640
   guidelines: []
   changes:
     - change/bcapps/8999
@@ -82,7 +83,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: ded668fce5698d554014a03cb0248739e1b8cce7882db2d6f6f80adf71b920e1
@@ -152,5 +153,6 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#8999 Migrate Recommended Apps & Connectivity Apps to Official Marketplace Catalog API](../../../../../changes/bcapps/8999.md) (code change): "Integrated Azure Key Vault for secure API key management"
+- [Securing Sensitive Data in Business Central AL using SecretText](../../../../../posts/aardvarklabs-blog/2640.md) (community post): "SecretText can be retrieved from Isolated Storage or Azure Vault"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

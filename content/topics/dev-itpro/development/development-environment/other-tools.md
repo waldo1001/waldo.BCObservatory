@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:14.151Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,11 @@ links:
   videos:
     - video/8t3WaWh7K9Y
     - video/LDRziYUdlAg
-  posts: []
+  posts:
+    - post/sshadows-dk/https-sshadows-dk-blog-business-central-on-linux--f313e38282
+    - post/stefanmaron-com/https-stefanmaron-com-posts-bcdb-read-business-central-backups-without-sql-server--d242a45ab1
+    - post/vjeko-com/https-vjeko-com-2025-12-15-ninja-v3-is-live-where-we-are-and-what-comes-next--072b649d73
+    - post/vjeko-com/https-vjeko-com-2026-03-05-al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house--7ede474103
   guidelines: []
 learn_toc_path:
   - Development
@@ -65,7 +69,7 @@ coverage:
   learn: 3
   code: 0
   video: 2
-  blog: 0
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 65eebd9af81fd595dc18bdf793e4c9ef9821938e8715db9823a8cfbad8615fa7
@@ -107,6 +111,10 @@ Start with Inspecting pages or Viewing table data for day-to-day debugging. Use 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Business Central on Linux? Here, hold my beer!](../../../../posts/sshadows-dk/https-sshadows-dk-blog-business-central-on-linux--f313e38282.md) (community post): "Wine compatibility layer was extended by implementing missing HTTP.sys functions"
+- [Introducing bcdb: Read a Business Central Backup Without SQL Server](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-bcdb-read-business-central-backups-without-sql-server--d242a45ab1.md) (community post): "Reads .bak and .bacpac files directly by parsing pages and the system catalog"
+- [Ninja v3 Is Live — Where We Are and What Comes Next](../../../../posts/vjeko-com/https-vjeko-com-2025-12-15-ninja-v3-is-live-where-we-are-and-what-comes-next--072b649d73.md) (community post): "AL Object ID Ninja v3 backend and VS Code extension are now in production"
+- [AL Object ID Ninja: An Apology, a Decision, and a Month on the House](../../../../posts/vjeko-com/https-vjeko-com-2026-03-05-al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house--7ede474103.md) (community post): "AL Object ID Ninja was free for four years but became unsustainable"
 - [What's New in AL: Easy Access to Source Code with Open In VS Code and GitHub Projects (2024)](../../../../videos/8t3WaWh7K9Y.md) (video): "AL-Go for GitHub automatic population of source control details"
 - [AL-Go for Github April Office Hour](../../../../videos/LDRziYUdlAg.md) (video): "AL-Go for Github April Office Hour"
 

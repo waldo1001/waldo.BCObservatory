@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:34.661Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,7 +97,8 @@ links:
   topics:
     - topic/business-central/business-functionality/design-details
   localizations: []
-  videos: []
+  videos:
+    - video/SdQVQLNXVS0
   posts: []
   guidelines: []
   changes:
@@ -126,7 +127,7 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -197,5 +198,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9864 [Extensibility Request] issue 29078: Add OnBeforeTestTransferLine event](../../../../changes/bcapps/9864.md) (code change): "An OnBeforeTestTransferLine integration event was added to the TestTransferLine"
 - [#9898 [Main]-The Reservation Entry does not exist error when creating a Purchase Order from a Sales Order](../../../../changes/bcapps/9898.md) (code change): "Reservation Entry does not exist error when creating a Purchase Order from a Sales Order"
 - [#9982 [Main] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order levelInitial Commit](../../../../changes/bcapps/9982.md) (code change): "item tracking validation for assigned lot numbers was evaluated at the warehouse pick level"
+- [What's New in Manufacturing: Order Processing (2025 release wave 1)](../../../../videos/SdQVQLNXVS0.md) (video): "Item tracking in consumption and output journals; Barcode label printing for tracked items"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

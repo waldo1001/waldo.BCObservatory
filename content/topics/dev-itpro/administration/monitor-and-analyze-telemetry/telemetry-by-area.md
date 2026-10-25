@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:39.989Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -366,7 +366,8 @@ links:
   topics:
     - topic/dev-itpro/administration/monitor-and-analyze-telemetry
   localizations: []
-  videos: []
+  videos:
+    - video/IAacWsvav1E
   posts: []
   guidelines: []
 learn_toc_path:
@@ -379,7 +380,7 @@ children: []
 coverage:
   learn: 61
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -842,5 +843,11 @@ Start with "Telemetry area overview" to see what is available. Then open the pag
   - Telemetry omits sensitive HTTP headers but includes Accept, User-Agent, Content-Type, OData-Version, Prefer and authorization type in logs.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Enhanced Index Management (2026 release wave 1)](../../../../videos/IAacWsvav1E.md) (video): "Index Lifecycle Telemetry Events"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

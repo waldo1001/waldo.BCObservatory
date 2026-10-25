@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.932Z"
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -343,10 +343,12 @@ links:
     - video/a1LQ3-SCtPE
   posts:
     - post/demiliani-com/15968
+    - post/demiliani-com/17538
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7756402263170151476--0af9b880b1
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3
+    - post/thinkaboutit-be/7609
   guidelines: []
   changes:
     - change/bcapps/10255
@@ -372,7 +374,7 @@ coverage:
   learn: 56
   code: 24
   video: 1
-  blog: 5
+  blog: 7
   guideline: 0
 bc_forms:
   - 16
@@ -453,10 +455,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#203 knowledge(data-modeling): Prices Including VAT decides the basis of sales/purchase/service line amounts](../../../../changes/bcquality/203.md) (code change): "Prices Including VAT header flag affects the basis of line amount fields in sales, purchase, and service documents"
 - [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../changes/bcquality/228.md) (code change): "Call CalcFields on a BLOB before reading its stream"
 - [Dynamics 365 Business Central: AL Query objects and the new ReadState property.](../../../../posts/demiliani-com/15968.md) (community post): "AL query objects now support the ReadState property in Dynamics 365 Business Central"
+- [Dynamics 365 Business Central: introducing the new “Recent Record” virtual table](../../../../posts/demiliani-com/17538.md) (community post): "new Recent Record virtual table that tracks records recently accessed"
 - [Record.IsDirty in Business Central 29: a worked example](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4.md) (community post): "Record.IsDirty() returns true when in-memory values differ"
 - [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md) (community post): "CSV Buffer is a built-in table with Line No., Field No., and Value"
 - [How to Group and Consolidate General Journal Lines Using Query Object in Business Central.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7756402263170151476--0af9b880b1.md) (community post): "consolidate General Journal Lines in Business Central using Query Objects"
 - [BC Friday Tips #83 Check Whether a Record Has Changed](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3.md) (community post): "Record.IsDirty() method detects whether a record has been modified"
+- [Introducing AL Table Visualizer: An Interactive ER Diagram for Your Business Central Tables](../../../../posts/thinkaboutit-be/7609.md) (community post): "generates interactive ER diagrams from Business Central table definitions"
 - [What's New: Server and Database - A Faster Data Stack (2023 release wave 2)](../../../../videos/a1LQ3-SCtPE.md) (video): "New companion table schema for table extensions"
 
 ## Business Central pages and reports

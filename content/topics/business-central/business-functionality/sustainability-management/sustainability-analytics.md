@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:32.523Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -158,7 +158,9 @@ links:
     - topic/business-central/business-functionality/sustainability-management
     - topic/business-central/business-functionality/sustainability-management/sustainability-analytics/power-bi-sustainability-app
   localizations: []
-  videos: []
+  videos:
+    - video/NYG4pOtW-Xw
+    - video/qPInVj03wkY
   posts: []
   guidelines: []
   changes:
@@ -175,7 +177,7 @@ children:
 coverage:
   learn: 17
   code: 9
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -235,6 +237,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10311 [Master] - Slice 640778: [Sustainability] Sustainability Entries should be more easy to find like other entries across BC](../../../../changes/bcapps/10311.md) (code change): "Sustainability entries can now be found more easily through a Find"
 - [#12053 Remove-Sustainability-CLEAN27-tags-for-Wave2-2026](../../../../changes/bcapps/12053.md) (code change): "Removes code marked for cleanup in version 27 from the Sustainability, Power BI Reports"
+- [What's New in Sustainability (2024 release wave 2)](../../../../videos/NYG4pOtW-Xw.md) (video): "Sustainability Manager Role Center; Sustainability Scorecards and Goals"
+- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../../../../videos/qPInVj03wkY.md) (video): "ESG Aggregation Reporting Tool; CSRD Compliance Reporting"
 
 ## Business Central pages and reports
 

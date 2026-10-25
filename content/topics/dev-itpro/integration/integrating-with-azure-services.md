@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:15.779Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,9 +71,12 @@ links:
     - post/demiliani-com/11817
     - post/demiliani-com/11887
     - post/demiliani-com/12002
+    - post/demiliani-com/12292
+    - post/demiliani-com/12313
     - post/demiliani-com/17492
     - post/jpearson-blog/1485
     - post/jpearson-blog/1535
+    - post/jpearson-blog/1601
   guidelines: []
   changes:
     - change/bcapps/8318
@@ -87,7 +90,7 @@ coverage:
   learn: 5
   code: 0
   video: 1
-  blog: 6
+  blog: 9
   guideline: 0
 bc_forms: []
 member_hash: 5f81750627e96a1b61a6b2522a5843d9ff2fca65b2e2e1fb45389ef056851762
@@ -154,9 +157,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Azure Function SQL Trigger: how to use it (and why it can be useful in your Business Central projects)](../../../posts/demiliani-com/11817.md) (community post): "Azure SQL Triggers for Azure Functions enable real-time event-driven integrations with Business Central"
 - [Dynamics 365 Business Central: using a static IP address to access APIs.](../../../posts/demiliani-com/11887.md) (community post): "Azure Function in Premium or Flex Plan acts as a middleware to route requests"
 - [Azure Logic Apps: are you handling large blobs? Keep memory usage under control.](../../../posts/demiliani-com/12002.md) (community post): "Built-in Azure Logic Apps connectors load entire files into memory"
+- [Azure Logic Apps: Built-in vs Managed Azure Blob Storage Connector.](../../../posts/demiliani-com/12292.md) (community post): "Azure Logic Apps: Built-in vs Managed Azure Blob Storage Connector"
+- [Can I use AI to create and deploy an Azure Logic Apps with Business Central connector?](../../../posts/demiliani-com/12313.md) (community post): "AI successfully created and deployed an Azure Logic App with HTTP trigger"
 - [Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter (part2) – now with Service Tags.](../../../posts/demiliani-com/17492.md) (community post): "Administrators can restrict an Azure Storage Account to Business Central traffic"
 - [Calling Business Central APIs Without a Client Secret](../../../posts/jpearson-blog/1485.md) (community post): "Managed identities assigned to Azure resources can obtain access tokens without needing client secrets"
 - [Calling Business Central Directly from a Managed Identity](../../../posts/jpearson-blog/1535.md) (community post): "Azure resources to call Business Central APIs securely without creating or storing client secrets"
+- [Integration with Azure Static Web Apps from Business Central](../../../posts/jpearson-blog/1601.md) (community post): "Integration with Azure Static Web Apps from Business Central using the WebPageViewer control add-in"
 - [Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)](../../../videos/2vUCR16b85o.md) (video): "external file storage; azure blob storage; storage accounts"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

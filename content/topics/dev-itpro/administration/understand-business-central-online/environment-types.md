@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:21.770Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -80,7 +80,8 @@ links:
     - topic/dev-itpro/administration/understand-business-central-online
     - topic/dev-itpro/administration/understand-business-central-online/environment-types/demo-environments
   localizations: []
-  videos: []
+  videos:
+    - video/_6bYqpKzL8s
   posts: []
   guidelines: []
 learn_toc_path:
@@ -94,7 +95,7 @@ children:
 coverage:
   learn: 7
   code: 2
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -163,6 +164,12 @@ The Demo environments subtopic goes further on demos. It compares an MDX demo en
   - In the observatory: [Codeunit 1886 "Environment Cleanup"](../../../../objects/codeunit/1886.md), [Codeunit 8912 "Environment Cleanup Subs"](../../../../objects/codeunit/8912.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Upgrade Business Central Sandbox to Preview Version](../../../../videos/_6bYqpKzL8s.md) (video): "Update existing sandbox to preview version"
 
 ## Business Central pages and reports
 

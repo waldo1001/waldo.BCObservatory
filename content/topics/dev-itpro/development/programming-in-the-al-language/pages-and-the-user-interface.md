@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:34.693Z"
   flags: []
 generated:
-  at: "2026-10-25T16:50:34.247Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -316,7 +316,8 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/creating-deep-links
     - topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/developing-for-the-business-central-mobi
   localizations: []
-  videos: []
+  videos:
+    - video/ugHFHtSxTlw
   posts:
     - post/demiliani-com/12498
     - post/demiliani-com/12623
@@ -348,7 +349,7 @@ children:
 coverage:
   learn: 69
   code: 0
-  video: 0
+  video: 1
   blog: 5
   guideline: 0
 bc_forms: []
@@ -413,5 +414,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [🕐 Remember When Lists Could Sort By Any Key? 🔄](../../../../posts/gerardorenteria-blog/12961.md) (community post): "a solution to sort Business Central list pages by any predefined table key"
 - [Simple Text Editor for Business Central](../../../../posts/miljan-rs/866.md) (community post): "modal dialog for BLOB field text storage. Minimal design"
 - [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee.md) (community post): "ToolTip and ToolTipML properties directly on page objects"
+- [Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code](../../../../videos/ugHFHtSxTlw.md) (video): "Designing Business Central's UI, From Concept To Code"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:21.103Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-25T17:55:54.196Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -59,6 +59,7 @@ links:
     - post/stefanmaron-com/https-stefanmaron-com-posts-modify-deserves-the-same-rule-as-validate--71cb43acff
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1
+    - post/waldo-be/317845
   guidelines: []
   changes:
     - change/bcquality/134
@@ -83,7 +84,7 @@ coverage:
   learn: 2
   code: 0
   video: 4
-  blog: 12
+  blog: 13
   guideline: 0
 bc_forms: []
 member_hash: 87e0401ecfb45548d0ce9048fe69d8ae348b7da98d89e7045ac6d9370b225de2
@@ -146,6 +147,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [I Can Turn Off My Code. I Can't Turn Off Yours.](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-modify-deserves-the-same-rule-as-validate--71cb43acff.md) (community post): "developers set RunTrigger to false on Insert, Modify, or DeleteAll, they silently disable all subscribers"
 - [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "Every added index increases insert or update time by 10-20%"
 - [BC Friday Tips #30 DataAccessIntent](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1.md) (community post): "The DataAccessIntent property can be set to ReadOnly on API pages and reports"
+- [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../../../posts/waldo-be/317845.md) (community post): "Performance tracking via start/stop markers on custom methods enables comparison"
 - [Concurrency in Business Central: Parallel processes without deadlocks and timeouts](../../../../../videos/-_TaZY2Clh0.md) (video): "Concurrency in Business Central: Parallel processes without deadlocks and timeouts"
 - [Business Central Under the Hood episode 12: Evolving AL for Performance](../../../../../videos/1xdpUmeun-s.md) (video): "Evolving AL for Performance optimization data transfer set load fields"
 - [Business Central Under the Hood episode 5: How To Make Your AL Code Super Fast](../../../../../videos/lpwDSdEJrIQ.md) (video): "al code performance; database optimization; sql queries; indexing; caching"
