@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/75730",
+  "url": "https://yzhums.com/75730/",
+  "title": "Business Central 2026 release wave 2 (BC29): Show recently used in lookups",
+  "source": "yzhums-com",
+  "published_at": "2026-09-04T01:05:06.000Z",
+  "words": 514,
+  "summary": "Business Central 2026 release wave 2 introduces a Recently Used feature in lookup dialogs that surfaces recently accessed records based on user activity signals, reducing clicks and accelerating workflows. The feature works at the table level across functional areas like Sales and Purchasing, reusing server intelligence that powers Autofill recommendations.",
+  "key_points": [
+    "Lookup dialogs now display recently used records upfront, making it faster to select common values without searching",
+    "Suggestions are personalized per user and based on usage signals collected by the platform, consistent with Autofill",
+    "Recent records operate at the table level and cross functional areas, so items accessed in Sales Orders appear in Purchase Order lookups",
+    "A new Recent button appears in lookup windows; clicking Search returns to standard search view",
+    "Empty recent lists display nothing, but users can always browse and search the full record list"
+  ],
+  "systems": [
+    "platform",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "lookup",
+    "user experience",
+    "personalization",
+    "recently used",
+    "table relations",
+    "bc29"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "TableRelation"
+    },
+    {
+      "type": "other",
+      "name": "fieldgroup"
+    }
+  ],
+  "features": [
+    "Show recently used in lookups",
+    "Recent button in lookup dialogs",
+    "Personalized lookup suggestions",
+    "Cross-functional recent records",
+    "Autofill integration"
+  ],
+  "versions": [
+    "2026 release wave 2",
+    "BC29"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The suggestions are personalized to each user and are based on usage signals already collected by the platform.",
+      "why_it_matters": "Understanding that recommendations are personalized and reuse existing server intelligence helps explain consistency across Business Central."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005976,
+    "posts_in_call": 1
+  }
+}

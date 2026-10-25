@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/75894",
+  "url": "https://yzhums.com/75894/",
+  "title": "Business Central 2026 release wave 2 (BC29): Administrators can turn SIFT (SumIndexField Technology) indexes on/off",
+  "source": "yzhums-com",
+  "published_at": "2026-09-09T01:45:22.000Z",
+  "words": 458,
+  "summary": "Business Central 2026 release wave 2 (BC29) enables administrators to turn SIFT (SumIndexField Technology) indexes on and off directly within the application. SIFT indexes optimize performance of FlowFields and query results by quickly calculating sums of numeric columns, and administrators can now manage them through Index Management or Table Information pages.",
+  "key_points": [
+    "Administrators can toggle SIFT indexes on/off directly in the Business Central client without database tools",
+    "A new Index Type field distinguishes between regular database indexes and SIFT structures",
+    "Index changes are queued and applied during the next overnight maintenance window",
+    "The feature works with both standard and custom SIFT fields, including table extensions"
+  ],
+  "systems": [
+    "administration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "sift indexes",
+    "performance optimization",
+    "index management",
+    "sumindexfield technology",
+    "database tuning",
+    "flowfields"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Index Management"
+    },
+    {
+      "type": "page",
+      "name": "Table Information"
+    }
+  ],
+  "features": [
+    "SIFT index on/off toggle",
+    "Index Type field",
+    "Index Details view",
+    "Index Management page",
+    "Table extension key mixing"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The index has been enqueued to be turned on. It will be attempted during the subsequent maintenance window (overnight local time).",
+      "why_it_matters": "Clarifies the asynchronous process for index changes"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005538,
+    "posts_in_call": 1
+  }
+}

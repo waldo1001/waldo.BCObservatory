@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/yzhums-com/75984",
+  "url": "https://yzhums.com/75984/",
+  "title": "Business Central 2026 release wave 2 (BC29): Run multiple financial reports and get a single PDF output (Combines multiple Financial Reports into a single PDF)",
+  "source": "yzhums-com",
+  "published_at": "2026-09-10T02:03:31.000Z",
+  "words": 749,
+  "summary": "Business Central 2026 wave 2 introduces Financial Report Packages, a feature that combines multiple financial reports into a single PDF that can be printed immediately or scheduled for email delivery. This replaces the previous workflow of running and configuring multiple reports separately.",
+  "key_points": [
+    "Financial Report Packages consolidate multiple financial reports into one PDF document",
+    "You can apply distinct filters and date formulas to each report within a package",
+    "Reports can be printed immediately or scheduled for regular email delivery to multiple recipients",
+    "The feature eliminates the need to set up and run separate reports individually"
+  ],
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "financial reports",
+    "packaging",
+    "pdf export",
+    "scheduling",
+    "email delivery",
+    "reporting enhancement"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Financial Report Package (8371)"
+    },
+    {
+      "type": "table",
+      "name": "Fin. Report Package Report (8372)"
+    }
+  ],
+  "features": [
+    "Financial Report Packages",
+    "Combine multiple financial reports",
+    "PDF export",
+    "Email scheduling",
+    "Custom filters per report",
+    "Date filter formulas",
+    "Print multiple reports",
+    "Execution logging"
+  ],
+  "versions": [
+    "2026 release wave 2",
+    "BC29"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Financial Report Packages combines multiple Financial Reports into a single PDF, which can be exported or emailed on a regular basis.",
+      "why_it_matters": "This is the core capability introduced in this wave, showing the main benefit of the new feature."
+    },
+    {
+      "text": "You can apply distinct filtering criteria to each combined report.",
+      "why_it_matters": "This explains the flexibility of the feature, allowing different filters for different reports in the same package."
+    },
+    {
+      "text": "For a single Financial Report Package, you can set multiple schedules.",
+      "why_it_matters": "This shows that packages support complex scheduling scenarios with multiple recurring email deliveries."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005833,
+    "posts_in_call": 1
+  }
+}

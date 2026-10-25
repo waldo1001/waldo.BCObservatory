@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/75896",
+  "url": "https://yzhums.com/75896/",
+  "title": "Business Central 2026 release wave 2 (BC29): New system flow fields (SystemCreatedByUserName, SystemCreatedByFullName, SystemModifiedByUserName, and SystemModifiedByFullName)",
+  "source": "yzhums-com",
+  "published_at": "2026-09-08T01:17:39.000Z",
+  "words": 471,
+  "summary": "Business Central 2026 release wave 2 (BC29) introduces four new system FlowFields (SystemCreatedByUserName, SystemCreatedByFullName, SystemModifiedByUserName, SystemModifiedByFullName) that display the username and full name of users who created or modified records, complementing the existing GUID-based audit fields.",
+  "key_points": [
+    "Four new system FlowFields added to normal and temporary tables for auditing purposes",
+    "Fields provide readable usernames and full names instead of just GUIDs from SystemCreatedBy/SystemModifiedBy",
+    "Eliminates need for custom processing or extensions to display user names in pages",
+    "Can be exposed on UI through Customize pages for profiles, Analysis Mode, or AL customization"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "system fields",
+    "audit fields",
+    "flowfields",
+    "user tracking",
+    "data audit",
+    "bc29"
+  ],
+  "objects": [],
+  "features": [
+    "SystemCreatedByUserName",
+    "SystemCreatedByFullName",
+    "SystemModifiedByUserName",
+    "SystemModifiedByFullName",
+    "Data audit fields",
+    "Customize pages for profiles",
+    "Analysis Mode"
+  ],
+  "versions": [
+    "2026 release wave 2 (BC29)",
+    "2026 release wave 1 (BC28)",
+    "2025 release wave 1 (BC26)",
+    "2023 release wave 2 (BC23)",
+    "2020 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "If we simply add it to the page, this will only show the GUID (User Security Id).",
+      "why_it_matters": "Highlights the problem the new FlowFields solve - the old system fields displayed only GUIDs without additional processing"
+    },
+    {
+      "text": "But finally, in this major release (BC29), Microsoft added these new system FlowFields: SystemCreatedByUserName, SystemCreatedByFullName, SystemModifiedByUserName, and SystemModifiedByFullName!",
+      "why_it_matters": "Marks the significant milestone of these fields finally being available as built-in FlowFields after being needed for years"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006326,
+    "posts_in_call": 1
+  }
+}

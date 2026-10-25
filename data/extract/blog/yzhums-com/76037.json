@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/yzhums-com/76037",
+  "url": "https://yzhums.com/76037/",
+  "title": "Business Central 2026 release wave 2 (BC29): Restrict global symbol downloads to a specific minor version",
+  "source": "yzhums-com",
+  "published_at": "2026-09-11T01:38:54.000Z",
+  "words": 550,
+  "summary": "Business Central 2026 release wave 2 (BC29) introduces a new 'Global Sources Enforce Minor Version' setting that lets developers restrict global symbol downloads to a specific minor version during AL development. This complements the BC28 feature that enabled downloading symbols directly from Microsoft's global repository without requiring a running environment.",
+  "key_points": [
+    "BC29 adds the 'Global Sources Enforce Minor Version' setting to constrain symbol downloads to a specific minor version (e.g., 26.0 matches only 26.0.x.x)",
+    "When disabled (default), the latest version within the same major version is downloaded regardless of minor version",
+    "Symbols can be downloaded from global sources using AL: Download symbols from global sources command with country/region code localization",
+    "Symbol version is controlled through the application property in app.json file"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "symbols",
+    "al development",
+    "environment setup",
+    "global sources",
+    "version control"
+  ],
+  "objects": [],
+  "features": [
+    "Global Sources Enforce Minor Version setting",
+    "Download symbols from global sources",
+    "Symbol localization by country/region",
+    "Minor version constraint for symbol downloads"
+  ],
+  "versions": [
+    "BC29 (2026 release wave 2)",
+    "BC28 (2026 release wave 1)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "When enabled, downloading symbols from global sources are constrained to the minor version specified in the app.json.",
+      "why_it_matters": "This explains the core functionality of the new BC29 feature that provides developers with precise control over which symbol versions they download."
+    },
+    {
+      "text": "From Business Central 2026 release wave 1 (BC28), you can download them directly from Microsoft's global repository.",
+      "why_it_matters": "Context for the BC28 predecessor feature that removed the need for running environments to download symbols."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005436,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/yzhums-com/75574",
+  "url": "https://yzhums.com/75574/",
+  "title": "Dynamics 365 Business Central: GetLastErrorCode, GetLastErrorText and GetLastErrorCallStack Methods",
+  "source": "yzhums-com",
+  "published_at": "2026-09-03T02:28:36.000Z",
+  "words": 334,
+  "summary": "The post explains three system methods for retrieving error information in Business Central AL code: GetLastErrorCode identifies error classification, GetLastErrorText provides error details, and GetLastErrorCallStack returns the call stack where the error occurred. It helps developers implement error handling and conditional logic based on error details.",
+  "key_points": [
+    "GetLastErrorCode retrieves the error classification and is not translated to local language",
+    "GetLastErrorText gets detailed error message and is translated to local language",
+    "GetLastErrorCallStack returns the call stack from where the error occurred, though some error types don't return complete stacks",
+    "These methods work with try functions to add conditional checks for error handling"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "error handling",
+    "al code",
+    "system methods",
+    "debugging",
+    "exception handling"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "System.GetLastErrorCode()"
+    },
+    {
+      "type": "other",
+      "name": "System.GetLastErrorText()"
+    },
+    {
+      "type": "other",
+      "name": "System.GetLastErrorCallStack()"
+    },
+    {
+      "type": "other",
+      "name": "System.GetLastErrorObject()"
+    }
+  ],
+  "features": [
+    "error retrieval",
+    "call stack inspection",
+    "exception handling",
+    "try methods",
+    "error classification"
+  ],
+  "versions": [
+    "Business Central 2025 wave 1 (BC26)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "For some errors, such as divide by zero errors and overflow errors, GetLastErrorCallStack does not return every call in the stack.",
+      "why_it_matters": "Developers need to know the limitations of call stack retrieval for certain error types and when to use the debugger instead."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005111,
+    "posts_in_call": 1
+  }
+}

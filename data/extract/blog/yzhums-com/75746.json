@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/yzhums-com/75746",
+  "url": "https://yzhums.com/75746/",
+  "title": "Business Central 2026 release wave 2 (BC29): Preview images directly in web client",
+  "source": "yzhums-com",
+  "published_at": "2026-09-04T04:27:29.000Z",
+  "words": 612,
+  "summary": "Business Central 2026 release wave 2 adds native support for previewing image attachments directly in the web client without downloading them first. This feature works across all Business Central areas and supports multiple image formats including JPEG, PNG, BMP, SVG, WEBP, and GIF.",
+  "key_points": [
+    "Image attachments can be previewed in the web client using a specialized viewer similar to print preview",
+    "Supported image formats include JPEG, JPG, PNG, BMP, SVG, WEBP, ICO, GIF, and AVIF, plus TIFF and TIF on Safari",
+    "Images can be downloaded from the viewer or printed directly from the client",
+    "Extension developers can add support using File.ViewFromStream or File.View methods",
+    "GIF files can display as animated thumbnails in FactBox with support up to 48 frames"
+  ],
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "image preview",
+    "web client",
+    "attachments",
+    "file viewer",
+    "bc29",
+    "release wave 2",
+    "extensions"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Incoming Document Attachment"
+    }
+  ],
+  "features": [
+    "Image preview in web client",
+    "Multi-format image support",
+    "Print images directly",
+    "Thumbnail preview with animation",
+    "Clickable image previews",
+    "Extension support for image preview"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2",
+    "BC26"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can open image attachments in the Business Central web client without downloading the images first.",
+      "why_it_matters": "This is the core capability that improves user experience by eliminating the download step for viewing images."
+    },
+    {
+      "text": "Extension developers must add support for this feature using File.ViewFromStream for Business Central online, or File.View for Business Central on-premises.",
+      "why_it_matters": "It explains the technical implementation path developers need to follow to enable image preview functionality."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006288,
+    "posts_in_call": 1
+  }
+}

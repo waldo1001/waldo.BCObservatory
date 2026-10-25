@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/75853",
+  "url": "https://yzhums.com/75853/",
+  "title": "Business Central 2026 release wave 2 (BC29): Access application links (Help, EULA, PrivacyStatement, and ContextSensitiveHelpUrl) through ModuleInfo – New properties on ModuleInfo",
+  "source": "yzhums-com",
+  "published_at": "2026-09-08T06:52:22.000Z",
+  "words": 255,
+  "summary": "Business Central 2026 release wave 2 (BC29) extends ModuleInfo to expose app manifest metadata including Help, EULA, PrivacyStatement, and ContextSensitiveHelpUrl properties. These new properties enable developers to access application links and locale-aware help URLs at runtime.",
+  "key_points": [
+    "ModuleInfo now exposes four new properties for accessing app manifest metadata at runtime",
+    "New properties include Help link, EULA link, PrivacyStatement link, and context-sensitive help URL with locale resolution",
+    "Runtime version 18.0 or later is required to use these ModuleInfo properties",
+    "ContextSensitiveHelpUrl automatically resolves the user's locale from the application's supported locales"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "moduleinfo",
+    "app manifest",
+    "help links",
+    "release wave 2",
+    "bc29",
+    "runtime properties"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "ModuleInfo"
+    }
+  ],
+  "features": [
+    "ModuleInfo Help property",
+    "ModuleInfo EULA property",
+    "ModuleInfo PrivacyStatement property",
+    "ModuleInfo ContextSensitiveHelpUrl property",
+    "Locale-aware help URL resolution"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2",
+    "runtime version 18.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Read help, EULA, privacy statement, and locale-aware context-sensitive help links from an app manifest at runtime through additional ModuleInfo properties.",
+      "why_it_matters": "Explains the core capability added in BC29 for accessing application links programmatically"
+    },
+    {
+      "text": "These properties require runtime version 18.0 or later",
+      "why_it_matters": "Clarifies the minimum version requirement for developers using these new ModuleInfo properties"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005235,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/75931",
+  "url": "https://yzhums.com/75931/",
+  "title": "Business Central 2026 release wave 2 (BC29): ToolTip and ToolTipML properties are now available on pages",
+  "source": "yzhums-com",
+  "published_at": "2026-09-09T05:57:18.000Z",
+  "words": 338,
+  "summary": "ToolTip and ToolTipML properties are now available at the page object level in BC29. Pages can define tooltips that navigation actions inherit automatically if no explicit tooltip is set on the action itself.",
+  "key_points": [
+    "ToolTip and ToolTipML properties can be set directly on page objects",
+    "Navigation actions inherit the page's tooltip if no tooltip is explicitly specified on the action",
+    "This behavior mirrors existing functionality for reports and table fields",
+    "Cannot use both ToolTipML and ToolTip simultaneously on the same page",
+    "Requires runtime version 18.0 or greater"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "tooltip",
+    "properties",
+    "page design",
+    "user interface",
+    "multilingual support"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "page"
+    }
+  ],
+  "features": [
+    "ToolTip property",
+    "ToolTipML property",
+    "Page-level tooltips",
+    "Action inheritance"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This mirrors the existing behavior for reports.",
+      "why_it_matters": "Shows consistency with prior implementations, helping developers understand the feature by analogy."
+    },
+    {
+      "text": "Cannot specify ToolTipML and ToolTip property at the same time.",
+      "why_it_matters": "Critical constraint developers must follow to avoid conflicts when implementing multilingual tooltips."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005147,
+    "posts_in_call": 1
+  }
+}
