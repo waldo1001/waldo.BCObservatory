@@ -364,6 +364,12 @@ sources:
     url: https://miljan.rs
     author: { name: Miljan Milosavljević, mvp: true }
     fetch: { feed: https://miljan.rs/feed/ }
+  - id: sshadows-dk
+    kind: blog
+    name: SShadowS
+    url: https://sshadows.dk
+    author: { name: Torben Leth }
+    fetch: { feed: https://sshadows.dk/rss.xml }
 
   # Held back until the author agrees (PLAN "yzhums opt-in if agreed"). enabled: false keeps it out of ingest entirely.
   # Derived mode (summary, quotes of at most 24 words, a link to each post) needs his yes: then set enabled: true.

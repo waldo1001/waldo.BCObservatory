@@ -1289,3 +1289,8 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   galaxy and system level, frozen at star level, in the tilt and the list. Frames: 30 fps for orbits, flight and
   particles, 15 fps for the spin alone. Rejected: twinkling (no data), particles on every port (the hairball D03
   avoids), comets on every visit, spin at star level. Spec `docs/specs/galaxy-motion.md`.
+- **D115 sshadows.dk is a community blog source (2026-10-25, M52).** Issue #47, at the owner's request. `sshadows-dk`
+  in `sources.yaml`, kind blog, tier community, derived mode: no consent block, `full_text: false`. Author Torben Leth
+  (the site's About page; no MVP mention). Fetch is the RSS feed `https://sshadows.dk/rss.xml` (21 posts back to
+  2018-06-04, 13 inside the 18-month window); not WordPress, so no REST fetch. Rejected: full text without the author's
+  opt-in; a scrape fetch. Spec `docs/specs/sshadows-dk-blog-source.md`.

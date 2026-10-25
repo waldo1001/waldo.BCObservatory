@@ -1,11 +1,11 @@
 ---
 issue: 47
-status: draft
+status: implemented
 ---
 
 # Add sshadows.dk (Torben Leth) as a community blog source
 
-Status: proposed, 2026-10-25. Decision: D115 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M52 (reserved). Owner: waldo.
+Status: implemented, 2026-10-25 (section 12 records what was built and where it differs). Decision: D115 (appended 2026-10-25). Milestone: M52. Owner: waldo.
 Scope: one entry in `sources.yaml`, plus the first ingest of that source. Every claim below was verified against the tree at `4fefc12c80` on 2026-10-25, and the site facts were fetched from https://sshadows.dk on 2026-10-25. Not in scope: full text (needs the author's consent block), any pipeline code.
 
 ## 1. Goal
@@ -91,13 +91,25 @@ Changed: `sources.yaml`; at ship time `docs/DECISIONS.md`, `docs/PLAN.md`, `docs
 
 ## 11. Definition of Done
 
-- [ ] `sources.yaml` has the `sshadows-dk` entry with feed `https://sshadows.dk/rss.xml`.
-- [ ] `npm run validate:sources` (48 sources), `npm run typecheck` and `npm test` pass.
-- [ ] No `full_text: true`, no consent block.
+- [x] `sources.yaml` has the `sshadows-dk` entry with feed `https://sshadows.dk/rss.xml`.
+- [x] `npm run validate:sources` (48 sources), `npm run typecheck` and `npm test` pass.
+- [x] No `full_text: true`, no consent block.
 - [ ] After phase 2: `content/sources/sshadows-dk.md` and the post pages are on main, and the live sources page lists the source.
-- [ ] D115 appended to docs/DECISIONS.md; PLAN M52 marked shipped; HANDOFF entry moved from "Open specs" to "Where things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the status lines into docs/built/sshadows-dk-blog-source.md; the PR's review moves them in (sdd-build section 4, sdd-review section 6).
+- [x] D115 appended to docs/DECISIONS.md; PLAN M52 marked shipped; HANDOFF entry moved from "Open specs" to "Where things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the status lines into docs/built/sshadows-dk-blog-source.md; the PR's review moves them in (sdd-build section 4, sdd-review section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-25)
+
+- **Built:** the section 4 entry in `sources.yaml` after `miljan-rs`, in the commit after the spec commit on
+  `spec/sshadows-dk-blog-source`, pushed to main together.
+- **Verified:** `npm run validate:sources`: 48 sources (blog 25 -> 26), `sources.yaml OK`. `npm run typecheck`: clean.
+  `npm test`: 751 tests, 750 pass, 0 fail.
+- **Spec versus measured:** sources 48 (spec 48), blogs 26 (spec 26).
+- **Deviations:** none.
+- **Open:** phase 2, the owner's unlimited one-source run
+  (`gh workflow run nightly.yml --ref main -f pillars=blog -f only=sshadows-dk -f unlimited=true`), and the Definition
+  of Done item that checks its pages.
+
+## 13. Proposed edits to other files (applied 2026-10-25, see section 12)
 
 D115 text for `docs/DECISIONS.md`: "D115: sshadows.dk (Torben Leth) is added as community blog `sshadows-dk`, derived mode, no consent block, `full_text: false`, RSS feed `https://sshadows.dk/rss.xml` (issue #47). Rejected: full text without opt-in; a scrape fetch."
 
