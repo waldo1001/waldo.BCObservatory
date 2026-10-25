@@ -97,7 +97,7 @@ Changed: `pipeline/link/topics.ts`, `pipeline/review/topics.ts`, `tests/unit/top
 
 - [x] The three tests of section 5 fail before the change and pass after it.
 - [x] `npm run typecheck` and `npm test` pass.
-- [ ] After phase 2: every verdict in a hub that held a drop carries `v: 2`, and the new drop share and the five sources' flight stops are recorded.
+- [x] After phase 2: every verdict in a hub that held a drop carries `v: 2`, and the new drop share and the five sources' flight stops are recorded.
 - [x] D117 appended to docs/DECISIONS.md; PLAN M54 marked shipped; HANDOFF entry moved from "Open specs" to "Where things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the status lines into docs/built/topic-review-tooling.md; the PR's review moves them in (sdd-build section 4, sdd-review section 6).
 
 ## 12. Built, deviations (2026-10-25)
@@ -110,8 +110,20 @@ Changed: `pipeline/link/topics.ts`, `pipeline/review/topics.ts`, `tests/unit/top
 - **Green:** `tests/unit/topic-links.test.ts` 28 of 28. `npm run typecheck` clean. `npm test`: 754 tests, 753 pass, 0 fail.
 - **Mutation:** the old-drop condition in `open()` replaced by `false`: 1 test fails (the re-review test); restored.
 - **Deviations:** none.
-- **Open:** phase 2, the re-review run (about $25-50, the owner's go), and the Definition of Done item that records its
-  outcome.
+- **Phase 2, done 2026-10-25:** run 40217838372 (`-f pillars=blog -f only=vjeko-com -f unlimited=true`, owner's go):
+  topic reviews "198 of 183 hubs, 791 kept, 294 dropped"; run cost $8.58 (178 Opus calls), against the $25-50 estimate.
+- **Measured after phase 2** (`data/links/topics-review.json`, `data/graph/flights.json` at `e313f6f259`):
+
+  | | before | after |
+  |---|---|---|
+  | dropped links | 715 of 1,516 (47%) | 389 of 1,371 (28%) |
+  | flight stops freddysblog / sshadows-dk / tine-staric-net / kine-cz / vjeko-com | 0 / 1 / 1 / 1 / 2 | 0 / 2 / 1 / 1 / 4 |
+
+  95 drops without `v: 2` remain in 61 hubs; none of them belongs to a live link (its unit hash changed or the link is
+  gone), so every live link is judged under standard 2.
+- **What the review cannot fix:** freddysblog (9 of 9 posts), tine-staric-net (7 of 9) and kine-cz get no hub proposed
+  or only "Coding agents in AL" for AI-assisted development posts: no Learn section documents their subject. That is the
+  community-tooling hubs of section 8.
 
 ## 13. Proposed edits to other files (applied 2026-10-25, see section 12)
 
