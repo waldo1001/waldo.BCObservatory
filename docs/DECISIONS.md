@@ -1266,3 +1266,8 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   opt-out install id (taken), an opt-in one, and a monthly-rotating one; the opt-out default carries the ePrivacy
   Art. 5(3) risk D110 avoided (storing an identifier on the device), the same one BC Telemetry Buddy carries. MCP
   0.12.0, plugin 0.8.0.
+- **D112 miljan.rs is a community blog source (2026-10-25, M49).** Issue #40. `miljan-rs` in `sources.yaml`, kind blog,
+  tier community, derived mode: no consent block, `full_text: false`. Author Miljan Milosavljević (MVP). Fetch is the
+  WordPress feed `https://miljan.rs/feed/` (10 items, back to 2024-12-06); the WordPress REST API is 404 there, so no
+  deeper backfill. Rejected: full text without the author's opt-in; kind discovery (suggestions, never content). Spec
+  `docs/specs/miljan-rs-blog-source.md`.

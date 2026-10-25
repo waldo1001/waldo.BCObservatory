@@ -36,6 +36,13 @@ questions in its section 12).
 
 ## Where things stand
 
+**Shipped 2026-10-25 (sources only; readers see it after the next nightly):**
+- **miljan.rs is a community blog source (D112, M49, issue #40).** `miljan-rs` in `sources.yaml`, derived mode, the
+  WordPress feed `https://miljan.rs/feed/` (10 posts back to 2024-12-06; no REST API). Operator step, one source
+  alone as `docs/RUNBOOK.md` runs a backfill: `gh workflow run nightly -f pillars=blog -f only=miljan-rs`. After it,
+  `ls("posts")` lists it and "XRechnung ZUGFeRD" finds the 2025-11-17 post; check both, then tick the spec's last
+  Definition of Done item.
+
 **Shipped 2026-10-24 (MCP 0.12.0, plugin 0.8.0; no page or data changed, no derive):**
 - **Usage counts know unique users and where they are (D111, M48).** The published MCP keeps a random install id in
   `~/.cache/bc-observatory/install-id` and sends it as the user id; Application Insights now stores country and city.

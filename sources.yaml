@@ -358,6 +358,12 @@ sources:
     url: https://vld-bc.com
     author: { name: Volodymyr Dvernytskyi }
     fetch: { scrape: https://vld-bc.com/blog }
+  - id: miljan-rs
+    kind: blog
+    name: miljan.rs
+    url: https://miljan.rs
+    author: { name: Miljan Milosavljević, mvp: true }
+    fetch: { feed: https://miljan.rs/feed/ }
 
   # Held back until the author agrees (PLAN "yzhums opt-in if agreed"). enabled: false keeps it out of ingest entirely.
   # Derived mode (summary, quotes of at most 24 words, a link to each post) needs his yes: then set enabled: true.

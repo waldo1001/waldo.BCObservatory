@@ -1,11 +1,11 @@
 ---
 issue: 40
-status: draft
+status: implemented
 ---
 
 # Add miljan.rs as a community blog source
 
-Status: proposed, 2026-10-25. Decision: D112 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M49 (reserved). Owner: waldo.
+Status: implemented, 2026-10-25 (section 12 records what was built and where it differs). Decision: D112 (appended 2026-10-25). Milestone: M49. Owner: waldo.
 Scope: one entry in `sources.yaml`, plus the first ingest of that source. Every claim below was verified against the League checkout of 2026-10-25 (no sha visible). Not in scope: full text (needs the author's consent block), any pipeline code, any other blog request.
 
 ## 1. Goal
@@ -96,13 +96,33 @@ Changed: `sources.yaml`; at ship time `docs/DECISIONS.md`, `docs/PLAN.md`, `docs
 
 ## 11. Definition of Done
 
-- [ ] `sources.yaml` has the `miljan-rs` entry with a verified feed or scrape URL.
-- [ ] `npm run validate:sources` and `npm test` pass.
-- [ ] No `full_text: true`, no consent block.
+- [x] `sources.yaml` has the `miljan-rs` entry with a verified feed or scrape URL.
+- [x] `npm run validate:sources` and `npm test` pass.
+- [x] No `full_text: true`, no consent block.
 - [ ] After the nightly, `ls("posts")` lists `miljan-rs` and the 2025-11-17 post is searchable.
-- [ ] D112 appended to docs/DECISIONS.md; PLAN M49 marked shipped; HANDOFF entry moved from "Open specs" to "Where things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the status lines into docs/built/<slug>.md; the PR's review moves them in (sdd-build section 4, sdd-review section 6).
+- [x] D112 appended to docs/DECISIONS.md; PLAN M49 marked shipped; HANDOFF entry moved from "Open specs" to "Where things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the status lines into docs/built/<slug>.md; the PR's review moves them in (sdd-build section 4, sdd-review section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-25)
+
+Built by hand on `league/40-draft-spec-for-issue-40-a5` (the League handed PR #43 over to the owner at phase clone).
+
+- **Task 1, the feed:** probed 2026-10-25. `https://miljan.rs/feed/` 200 `application/rss+xml` (WordPress; it is also
+  the page's `<link rel="alternate">`), `/feed.xml` and `/rss.xml` 200, `/index.xml` 404. The feed holds 10 items,
+  2024-12-06 to 2025-12-29, including "Polishing xRechnung and ZUGFeRD in Business Central" (2025-11-17).
+  `https://miljan.rs/wp-json/wp/v2/posts` is 404, so no `rest` fetch.
+- **Task 2, the author:** "Miljan Milosavljević" (the feed's `dc:creator` on all 10 items and the About page). The About
+  page says "a Microsoft MVP", so `mvp: true`.
+- **Task 3:** the entry in `sources.yaml` after `vld-bc-com`, exactly the section 4 shape with `fetch: { feed:
+  https://miljan.rs/feed/ }`.
+- **Verified:** `npm run validate:sources`: 47 sources (blog 24 -> 25), `sources.yaml OK`. `npm run typecheck`: clean.
+  `npm test`: 736 tests, 735 pass, 0 fail. No unit test counts sources, so none changed. No single-source dry run:
+  `npm run ingest` runs the whole stage and writes `data/`, so the first ingest is the nightly.
+- **Deviations:** none in the build. The REST backfill is not possible (endpoint 404): only the 10 feed items come in,
+  which covers the 18-month window back to 2025-04-25 and the example post.
+- **Open:** the Definition of Done item "after the nightly" waits for an ingest run. A derive-only run is not enough;
+  one source alone, the way `docs/RUNBOOK.md` runs a backfill: `gh workflow run nightly -f pillars=blog -f only=miljan-rs`.
+
+## 13. Proposed edits to other files (applied 2026-10-25, see section 12)
 
 D112 text for `docs/DECISIONS.md`: "D112: miljan.rs is added as community blog `miljan-rs`, derived mode, no consent block, `full_text: false` (issue #40). Rejected: full text without opt-in; kind discovery."
 
