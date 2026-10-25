@@ -1,7 +1,8 @@
 # BC Observatory source registry.
 # Add your blog or channel with a pull request. Validation: npm run validate:sources (schemas/sources.json + policy rules).
 # Rules: tier is official only for Microsoft-owned sources. full_text: true needs tier official OR a consent block
-# that points at the pull request where the author opted in. Everything else is stored as summary + short quotes + links.
+# that points at the pull request where the author opted in. Everything else is stored as summary + short quotes + links,
+# which needs no consent (D119).
 version: 1
 defaults:
   tier: community
@@ -383,15 +384,11 @@ sources:
     author: { name: Natalie Karolak, mvp: true }
     fetch: { feed: https://nataliekarolak.wordpress.com/feed/, rest: https://public-api.wordpress.com/wp/v2/sites/nataliekarolak.wordpress.com/posts }
 
-  # Held back until the author agrees (PLAN "yzhums opt-in if agreed"). enabled: false keeps it out of ingest entirely.
-  # Derived mode (summary, quotes of at most 24 words, a link to each post) needs his yes: then set enabled: true.
-  # Full text needs more: full_text: true plus a consent block pointing at his written opt-in, like waldo-be above.
   - id: yzhums-com
     kind: blog
     name: Dynamics 365 Lab - Yun Zhu
     url: https://yzhums.com
     author: { name: Yun Zhu, mvp: true }
-    enabled: false
     fetch: { feed: https://yzhums.com/feed/, rest: https://yzhums.com/wp-json/wp/v2/posts }
   # ---------------------------------------------------------------- discovery (suggestions only, never content)
   - id: wingate-combined

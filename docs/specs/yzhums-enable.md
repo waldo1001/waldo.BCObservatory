@@ -1,11 +1,11 @@
 ---
 issue: 51
-status: draft
+status: implemented
 ---
 
 # Switch on yzhums.com (Yun Zhu): derived mode needs no consent
 
-Status: proposed, 2026-10-25. Decision: D119 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M56 (reserved). Owner: waldo.
+Status: implemented, 2026-10-25 (section 12 records what was built and where it differs). Decision: D119 (appended 2026-10-25). Milestone: M56. Owner: waldo.
 Scope: the `yzhums-com` entry in `sources.yaml`, the hold-back wording in `sources.yaml` and `docs/PLAN.md`, and the first ingest. Every claim below was verified against the tree at `e67e86f5f0` on 2026-10-25, and the site facts were fetched from https://yzhums.com on 2026-10-25. Not in scope: full text (still needs a consent block), the "11 MAYBE blogs" (named nowhere in the repository, section 9).
 
 ## 1. Goal
@@ -67,13 +67,24 @@ Changed: `sources.yaml`, `docs/PLAN.md`; at ship time `docs/DECISIONS.md`, `docs
 
 ## 11. Definition of Done
 
-- [ ] `yzhums-com` has no `enabled: false`; the hold-back comment is gone; the header says derived mode needs no consent.
-- [ ] `docs/PLAN.md` no longer says yzhums.com is held back.
-- [ ] `npm run validate:sources`, `npm run typecheck` and `npm test` pass.
+- [x] `yzhums-com` has no `enabled: false`; the hold-back comment is gone; the header says derived mode needs no consent.
+- [x] `docs/PLAN.md` no longer says yzhums.com is held back.
+- [x] `npm run validate:sources`, `npm run typecheck` and `npm test` pass.
 - [ ] After phase 2: the source page and post pages are on main and live.
-- [ ] D119 appended to docs/DECISIONS.md; PLAN M56 marked shipped; HANDOFF entry moved from "Open specs" to "Where things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the status lines into docs/built/yzhums-enable.md; the PR's review moves them in (sdd-build section 4, sdd-review section 6).
+- [x] D119 appended to docs/DECISIONS.md; PLAN M56 marked shipped; HANDOFF entry moved from "Open specs" to "Where things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the status lines into docs/built/yzhums-enable.md; the PR's review moves them in (sdd-build section 4, sdd-review section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-25)
+
+- **Built:** section 4 on `spec/yzhums-enable`, after the spec commit: `enabled: false` and the three hold-back comment
+  lines removed from `sources.yaml`, its header says derived mode needs no consent (D119); `docs/PLAN.md` no longer
+  holds yzhums.com back.
+- **Verified:** `npm run validate:sources`: 50 sources (the entry existed), `sources.yaml OK`. `npm run typecheck`:
+  clean. `npm test`: 756 tests, 755 pass, 0 fail.
+- **Deviations:** none.
+- **Open:** phase 2, the first ingest of 389 posts (about $45-80; the owner's go), and the Definition of Done item that
+  checks its pages. The 11 MAYBE blogs stay unnamed.
+
+## 13. Proposed edits to other files (applied 2026-10-25, see section 12)
 
 D119 text for `docs/DECISIONS.md`: "D119: derived mode needs no author consent; full text still needs tier official or a consent block. yzhums.com (Yun Zhu, MVP), held back since the start, is switched on (issue #51). Rejected: a hold-back list for derived mode."
 

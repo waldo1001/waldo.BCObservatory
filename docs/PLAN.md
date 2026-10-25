@@ -403,7 +403,7 @@ sauravdhyani.com (Blogger Atom), gerardorenteria.blog (es), bertverbeek.nl, blog
 keytogoodcode.com (scrape), olofsimren.com, Mohana (feedburner), duiliotacconi.com, thinkaboutit.be (UA/backoff),
 thatnavguy.com `/rss.xml`, dvlprlife.com, tine.staric.net `/feed.xml`, aardvarklabs.blog, vondervoort.be
 `/index.php/feed/`, thedynamicsexplorer.com, vld-bc.com (scrape); hougaard.com covered by his channel. Discovery:
-Wingate "D365BC Combined" feed (suggestions only). Held back: yzhums.com, 11 MAYBE blogs. Horizon: 18 months for
+Wingate "D365BC Combined" feed (suggestions only). Not yet registered: 11 MAYBE blogs (unnamed). Horizon: 18 months for
 blogs; all videos newest-first.
 
 ## 5. Milestones
@@ -467,8 +467,8 @@ blogs; all videos newest-first.
 | **M53 vjeko.com blog source** | one `sources.yaml` entry for Vjekoslav Babić's blog, derived mode, RSS (`docs/specs/vjeko-com-blog-source.md`, D116, shipped 2026-10-25) | small | low: one more blog in ingest and derive |
 | **M54 Looser topic review** | keep rule for tools and practice, verdicts carry the standard, drops re-reviewed (`docs/specs/topic-review-tooling.md`, D117, shipped 2026-10-25) | small | one re-review, ~$25-50 |
 | **M55 The BC Docs Librarian blog source** | one `sources.yaml` entry for Natalie Karolak's blog, derived mode, feed and REST (`docs/specs/nataliekarolak-blog-source.md`, D118, shipped 2026-10-25) | small | low: one more blog in ingest and derive |
-| **M56 yzhums.com switched on** | `yzhums-com` enabled, hold-back wording removed (`docs/specs/yzhums-enable.md`, D119, proposed) | small | first ingest of 389 posts, ~$45-80 |
-| **v0.2+** | evidence chips + review-badge UI, 30-vNext, older versions as diffs back to 23/15, Jarvis budget handshake (shared intent file), static embeddings (model2vec potion-8M), MAYBE blogs, yzhums opt-in if agreed | ongoing | per-version gating |
+| **M56 yzhums.com switched on** | `yzhums-com` enabled, hold-back wording removed (`docs/specs/yzhums-enable.md`, D119, shipped 2026-10-25) | small | first ingest of 389 posts, ~$45-80 |
+| **v0.2+** | evidence chips + review-badge UI, 30-vNext, older versions as diffs back to 23/15, Jarvis budget handshake (shared intent file), static embeddings (model2vec potion-8M), MAYBE blogs | ongoing | per-version gating |
 
 ## 6. Verification
 

@@ -1313,3 +1313,9 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   2024). Fetch: the feed (10 newest) plus the public WordPress.com REST API (64 posts back to 2022-11-03, 16 inside the
   18-month window), as for `thedynamicsexplorer-com`. Rejected: feed only (misses 6 posts in the window); full text
   without opt-in. Spec `docs/specs/nataliekarolak-blog-source.md`.
+- **D119 Derived mode needs no consent; yzhums.com is switched on (2026-10-25, M56).** Issue #51, the owner's call ("we
+  don't need consent"). Summary, quotes of at most 24 words and a link to each post need no author consent; `full_text:
+  true` still needs tier official or a consent block (`sources.yaml` header). yzhums.com (Yun Zhu, MVP), registered but
+  `enabled: false` since the start, is switched on: 389 posts inside the 18-month window (WordPress REST). The hold-back
+  wording leaves `sources.yaml` and `docs/PLAN.md`; the "11 MAYBE blogs" PLAN counts are named nowhere and stay out
+  until named. Rejected: a hold-back list for derived mode. Spec `docs/specs/yzhums-enable.md`.
