@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/vjeko-com/https://vjeko.com/2026/05/03/the-mcp-bridge-al-language-tools-for-every-agent/",
+  "url": "https://vjeko.com/2026/05/03/the-mcp-bridge-al-language-tools-for-every-agent/",
+  "title": "The MCP Bridge: AL Language Tools for Every Agent",
+  "source": "vjeko-com",
+  "published_at": "2026-05-03T06:46:22.000Z",
+  "words": 384,
+  "summary": "The MCP Bridge is a VS Code extension that exposes AL Language tools as an MCP server, enabling any MCP-aware agent (Claude Code, Cursor, etc.) to access compilation diagnostics and test feedback. This closes the feedback loop for agentic AL development, moving beyond GitHub Copilot as the only agent with AL language tool access.",
+  "key_points": [
+    "Agents need three components: the model, tools, and fast feedback loops to work effectively on code",
+    "AL language diagnostics and tests are critical feedback mechanisms for agents, preventing confident hallucinations",
+    "The MCP Bridge extension makes AL Language tools available to any MCP-compatible agent, not just GitHub Copilot",
+    "Installation requires no new ceremony - agents access the tools once pointed at the MCP server"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "mcp",
+    "al language tools",
+    "agentic coding",
+    "diagnostics",
+    "testing",
+    "feedback loop",
+    "vs code extension"
+  ],
+  "objects": [],
+  "features": [
+    "AL Language tools exposure via MCP",
+    "compilation diagnostics access",
+    "test execution",
+    "multi-agent support",
+    "VS Code integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "diagnostics and tests are not nice-to-haves. They are the feedback loop",
+      "why_it_matters": "Establishes why AL language tools matter: they provide essential feedback preventing agents from writing broken code"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00536,
+    "posts_in_call": 1
+  }
+}

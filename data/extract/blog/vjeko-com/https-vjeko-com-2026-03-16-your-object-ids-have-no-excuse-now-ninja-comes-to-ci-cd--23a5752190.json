@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/vjeko-com/https://vjeko.com/2026/03/16/your-object-ids-have-no-excuse-now-ninja-comes-to-ci-cd/",
+  "url": "https://vjeko.com/2026/03/16/your-object-ids-have-no-excuse-now-ninja-comes-to-ci-cd/",
+  "title": "Your Object IDs Have No Excuse Now – Ninja Comes to CI/CD",
+  "source": "vjeko-com",
+  "published_at": "2026-03-16T13:04:52.000Z",
+  "words": 405,
+  "summary": "AL Object ID Ninja, now available as a GitHub Action and Azure DevOps Pipeline Task, automatically scans AL repositories during CI/CD to detect and prevent untracked object IDs, field IDs, and enum value IDs from being deployed. It supports multi-app repositories and eliminates manual coordination of IDs across teams.",
+  "key_points": [
+    "Ninja integrates into CI/CD pipelines as both a GitHub Action and Azure DevOps task to catch untracked IDs before merge.",
+    "Developers can exclude specific ID types (field IDs or enum value IDs) from checks via configuration parameters.",
+    "The tool works with AL-Go for GitHub by running as a separate workflow with branch protection rules enforcing its checks.",
+    "GitHub Action is production-ready while Azure DevOps task is in preview development."
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "ci/cd",
+    "object id management",
+    "github actions",
+    "azure devops",
+    "al development",
+    "multi-app repos"
+  ],
+  "objects": [],
+  "features": [
+    "AL Object ID Ninja GitHub Action",
+    "AL Object ID Ninja Azure DevOps Task",
+    "Object ID scanning",
+    "Field ID tracking",
+    "Enum value ID tracking",
+    "Build failure on untracked IDs",
+    "Multi-app repository support",
+    "Branch protection integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "AL Object ID Ninja is now available as a GitHub Action and an Azure DevOps Pipeline Task.",
+      "why_it_matters": "Explains the main news and availability of the tool for two major CI/CD platforms."
+    },
+    {
+      "text": "No more spreadsheets, no more \"we'll coordinate manually\", no more conflicts surfacing during deployment.",
+      "why_it_matters": "Highlights the core problem solved by automating ID conflict detection before deployment."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00577,
+    "posts_in_call": 1
+  }
+}

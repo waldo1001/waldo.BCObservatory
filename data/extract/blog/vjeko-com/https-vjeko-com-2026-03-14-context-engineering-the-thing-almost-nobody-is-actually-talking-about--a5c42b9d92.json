@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/vjeko-com/https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/",
+  "url": "https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/",
+  "title": "Context Engineering – The Thing Almost Nobody Is Actually Talking About",
+  "source": "vjeko-com",
+  "published_at": "2026-03-14T09:10:40.000Z",
+  "words": 1839,
+  "summary": "Context engineering - curating precisely what information goes into an AI agent's context window - matters more than model choice or toolchains for Business Central development. Since models lack implicit knowledge of AL, Base App, and BC-specific systems, developers must explicitly supply curated context to prevent agents from confidently inferring incorrect solutions based on adjacent ERP systems.",
+  "key_points": [
+    "Context engineering is the skill of strategically filling the context window with exactly what an agent needs at each step, accounting for how context evolves through multi-turn interactions and accumulates as tokens add up",
+    "Models have no learned context for BC's proprietary systems like VAT Entry tables or the Base App, causing them to confidently infer wrong solutions by analogy to SAP or other ERPs they learned about",
+    "Large BC codeunits (e.g., Sales-Post at 158,000 tokens) exceed model context windows and prevent agents from understanding the full picture, making self-guided context engineering impossible",
+    "Plan mode works by having agents autonomously discover relevant context through code navigation; it succeeds when codebases are well-structured and fails when logic is scattered across interdependent god codeunits",
+    "Developers must actively curate and structure context rather than hoping agents will extract it, treating this responsibility as more important than selecting the best model"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "context engineering",
+    "ai agents",
+    "agentic development",
+    "prompt engineering",
+    "context window management",
+    "al development",
+    "agent reliability"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "VAT Entry"
+    },
+    {
+      "type": "codeunit",
+      "name": "Sales-Post"
+    }
+  ],
+  "features": [
+    "plan mode in Cursor and Claude Code",
+    "context window management for agents",
+    "multi-turn agent loops",
+    "tool calls and output accumulation",
+    "context rot mitigation",
+    "self-guided context engineering"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Context matters more than your prompt. Significantly more.",
+      "why_it_matters": "Establishes the central thesis that technical context is more decisive than prompt wording for agent success"
+    },
+    {
+      "text": "AL is not the exception. AL is the proof.",
+      "why_it_matters": "Demonstrates that BC's proprietary systems force explicit context engineering, proving the principle universally rather than as an edge case"
+    },
+    {
+      "text": "The agents are not failing us. We are failing the agents.",
+      "why_it_matters": "Redirects responsibility from model limitations to developer accountability for providing structured, curated context that enables agent success"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012097,
+    "posts_in_call": 1
+  }
+}

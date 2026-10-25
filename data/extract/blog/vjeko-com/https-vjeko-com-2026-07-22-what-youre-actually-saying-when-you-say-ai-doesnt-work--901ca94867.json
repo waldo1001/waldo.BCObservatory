@@ -1,0 +1,46 @@
+{
+  "item_id": "blog/vjeko-com/https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/",
+  "url": "https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/",
+  "title": "What You’re Actually Saying When You Say “AI Doesn’t Work”",
+  "source": "vjeko-com",
+  "published_at": "2026-07-22T17:50:40.000Z",
+  "words": 2910,
+  "summary": "When people claim AI doesn't work, they're confessing they don't know how to use it properly, not revealing a limitation of AI itself. The post argues that every AI failure mode - from hallucination to context loss to non-determinism - stems from skipped engineering disciplines like planning, testing, code review, and proper decomposition, using the author's own 2008 experience with a Forms conversion tool as an analogy.",
+  "key_points": [
+    "Claims of 'AI doesn't work' are unfalsifiable and usually deflate into 'it didn't work for me' when pressed",
+    "Vibe coding without engineering disciplines (specs, tests, review, decomposition) inevitably fails, but this proves nothing about AI's capability",
+    "Each major AI failure mode has a specific cause and remedy: hallucinations require context engineering, overconfidence requires critic agents, context loss requires task decomposition, non-determinism requires guardrails"
+  ],
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "agentic engineering",
+    "ai failures",
+    "vibe coding",
+    "context engineering",
+    "engineering discipline",
+    "prompt engineering"
+  ],
+  "objects": [],
+  "features": [
+    "AI failure modes taxonomy",
+    "Generator-critic agent patterns",
+    "Context engineering",
+    "Task decomposition for agents",
+    "Test review gates",
+    "Convention verification"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.014362,
+    "posts_in_call": 1
+  }
+}

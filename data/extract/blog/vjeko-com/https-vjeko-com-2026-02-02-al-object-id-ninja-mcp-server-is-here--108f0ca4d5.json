@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/vjeko-com/https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/",
+  "url": "https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/",
+  "title": "AL Object ID Ninja MCP Server Is Here",
+  "source": "vjeko-com",
+  "published_at": "2026-02-02T06:35:06.000Z",
+  "words": 352,
+  "summary": "AL Object ID Ninja now offers an official MCP Server for agentic coding tools like Cursor and Claude Code, enabling AI assistants to automatically manage object ID assignments and prevent collisions during AL development. This replaces the platform 2.0 version and extends support beyond VS Code users.",
+  "key_points": [
+    "MCP Server provides AI coding assistants with programmatic access to AL Object ID Ninja for requesting, committing, and unassigning object IDs",
+    "Addresses the need for automated object ID management in agentic coding environments where AI generates AL code",
+    "Official platform 3.0 version built from scratch and maintained alongside the Ninja platform",
+    "VS Code users with the Ninja extension already have this functionality and need no changes",
+    "Available on npm for installation in MCP-compatible tools like Cursor, Claude Code, and Windsurf"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "al object id ninja",
+    "mcp server",
+    "agentic coding",
+    "object id management",
+    "ai development tools",
+    "al development"
+  ],
+  "objects": [],
+  "features": [
+    "object ID request and assignment",
+    "object ID commitment",
+    "object ID unassignment",
+    "MCP server integration",
+    "agentic coding support"
+  ],
+  "versions": [
+    "platform 3.0",
+    "platform 2.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Hook it up to your MCP-compatible tool of choice, and your AI coding buddy gets full access to Ninja's object ID management.",
+      "why_it_matters": "Explains the core capability of the MCP Server to enable AI assistants to manage object IDs automatically"
+    },
+    {
+      "text": "This new server is the official one for platform 3.0. Built from scratch, maintained alongside the rest of the Ninja platform.",
+      "why_it_matters": "Clarifies this is the authoritative version replacing the unsupported platform 2.0 implementation"
+    },
+    {
+      "text": "If you're using VS Code with the Ninja extension, nope. You're all set.",
+      "why_it_matters": "Important for users to know when they already have equivalent functionality and don't need the MCP Server"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005507,
+    "posts_in_call": 1
+  }
+}

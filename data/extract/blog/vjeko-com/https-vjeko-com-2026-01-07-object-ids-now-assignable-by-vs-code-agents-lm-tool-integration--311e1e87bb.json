@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/vjeko-com/https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/",
+  "url": "https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/",
+  "title": "Object IDs, now assignable by VS Code agents (LM tool integration)",
+  "source": "vjeko-com",
+  "published_at": "2026-01-07T11:38:27.000Z",
+  "words": 330,
+  "summary": "AL Object ID Ninja 3.1.0 enables language-model agents in VS Code to assign object IDs directly via tool integration, eliminating manual ID allocation when agents write AL code. This feature ensures conflict-free ID assignment across multiple apps in real time.",
+  "key_points": [
+    "Agents writing AL code can now request object IDs from Ninja without human intervention",
+    "The tool integration prevents conflicts by assigning IDs in a globally coordinated way",
+    "Within the first hour of release, agents assigned 64 object IDs across 12 different apps",
+    "An official MCP server for AL Object ID Ninja is in development for broader agent support"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "object id assignment",
+    "vs code",
+    "agents",
+    "lm tools",
+    "agent-driven coding"
+  ],
+  "objects": [],
+  "features": [
+    "Object ID assignment via LM tool integration",
+    "Agent-based AL code generation support",
+    "MCP server for Object ID Ninja",
+    "Conflict-free ID allocation"
+  ],
+  "versions": [
+    "Ninja 3.1.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "They're assigned correctly, globally, and in real time, exactly the same way Ninja already does it for human developers.",
+      "why_it_matters": "Clarifies that agent-assigned IDs maintain the same safety and uniqueness standards as human-assigned IDs"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004518,
+    "posts_in_call": 1
+  }
+}

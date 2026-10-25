@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/vjeko-com/https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/",
+  "url": "https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/",
+  "title": "I don’t trust my agents either",
+  "source": "vjeko-com",
+  "published_at": "2026-07-21T13:19:44.000Z",
+  "words": 3246,
+  "summary": "A developer demonstrates how to safely deploy code written by AI agents directly to production by building a rigorous multi-stage pipeline instead of relying on manual review. The approach applies quality principles from manufacturing to prevent defects systematically rather than catching them at the end.",
+  "key_points": [
+    "Manual code review by a tired developer is an unreliable quality gate comparable to visual inspection on a factory line, not a real control system.",
+    "The pipeline uses specialized sub-agents at every stage to enforce specific checks in order: spec validation, test structure, skeleton design, mocking strategy, vacuous test detection, red-green-refactor discipline, and security scanning.",
+    "Each stop or failure in the pipeline becomes an opportunity to encode a new rule that prevents that entire class of problem forever, following the Six Sigma principle of fixing processes rather than inspecting outputs.",
+    "Integration testing with real components replacing mocks happens late in the workflow to catch coordination failures between pieces that pass individually."
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "agentic engineering",
+    "quality assurance",
+    "code review",
+    "pipeline",
+    "testing",
+    "six sigma",
+    "automation",
+    "ai agents"
+  ],
+  "objects": [],
+  "features": [
+    "multi-stage pipeline",
+    "spec-driven development",
+    "test skeleton validation",
+    "mocking strategy",
+    "red-green-refactor workflow",
+    "adversarial reviewer agents",
+    "integration testing",
+    "security scanning"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You are not being careful. You are squinting at widgets.",
+      "why_it_matters": "Directly challenges the false confidence of manual review, showing that reviewing code by eye is inspection (a failing approach) not process design (a working one)."
+    },
+    {
+      "text": "Thin layer on thin layer on thin layer, and what you finally get to stand on is thick.",
+      "why_it_matters": "Explains why many small, focused checks stacked in sequence create reliable confidence, whereas a single overloaded reviewer creates false confidence."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.014521,
+    "posts_in_call": 1
+  }
+}
