@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/yzhums-com/76231",
+  "url": "https://yzhums.com/76231/",
+  "title": "Business Central 2026 release wave 2 (BC29): Reuse header/footer layouts across document reports",
+  "source": "yzhums-com",
+  "published_at": "2026-09-24T01:43:18.000Z",
+  "words": 745,
+  "summary": "Business Central 2026 release wave 2 introduces composable layouts that let administrators reuse and apply consistent header/footer layouts across document reports at global, company, report, or layout levels. Headers and footers can only be applied to Word layouts with Body subtype and must be approved before assignment.",
+  "key_points": [
+    "Composable layouts enable headers and footers to be reused across multiple document reports for consistent branding",
+    "Administrators can set defaults at global level, per company, per report, or per layout for flexible theming control",
+    "New Subtype field on Word layouts distinguishes between Default, HeaderFooter, Theme, and Body subtypes with different capabilities",
+    "Headers/footers can only be applied to Word layouts with Body subtype, not RDLC layouts or Default subtype layouts",
+    "Themes and header/footer parts must be approved in Report themes and header-footer setup before they can be assigned"
+  ],
+  "systems": [
+    "reporting",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "word layouts",
+    "report design",
+    "document branding",
+    "composable layouts",
+    "header footer",
+    "document reports",
+    "bc29"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "99000792"
+    }
+  ],
+  "features": [
+    "Composable layouts",
+    "Header/footer reuse",
+    "Report themes",
+    "Layout subtypes",
+    "Consistent document branding",
+    "Global theme defaults",
+    "Per-layout theme assignment",
+    "Word layout support"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With the new composable layouts feature, you can apply a header/footer on layouts to get consistent look and feel on the PDF output.",
+      "why_it_matters": "Explains the core capability of applying headers/footers consistently across reports, which is the main feature being introduced"
+    },
+    {
+      "text": "It is possible to set defaults on a global level, per company, per report, or per layout, giving the administrator full flexibility of theming.",
+      "why_it_matters": "Describes the flexibility administrators have in controlling where themes and headers/footers apply, which is a key advantage"
+    },
+    {
+      "text": "Only a body layout carries them: a theme and header/footer are merged onto it when the report renders.",
+      "why_it_matters": "Clarifies the technical constraint that only Body subtype layouts support composite layout merging, which is important for implementation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006367,
+    "posts_in_call": 1
+  }
+}

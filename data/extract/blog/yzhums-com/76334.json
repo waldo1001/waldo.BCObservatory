@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/yzhums-com/76334",
+  "url": "https://yzhums.com/76334/",
+  "title": "Business Central 2026 release wave 2 (BC29): Translate objects with the same name in different namespaces (Translations with namespaces)",
+  "source": "yzhums-com",
+  "published_at": "2026-09-28T00:57:25.000Z",
+  "words": 578,
+  "summary": "BC29 introduces namespace-aware translation identifiers that allow identically named AL objects in different namespaces to be translated independently. This feature uses the TranslationsWithNamespaces flag in app.json to generate translation IDs prefixed with namespace, preventing collisions while keeping non-namespaced translations valid.",
+  "key_points": [
+    "New TranslationsWithNamespaces compiler feature flag includes object namespace in translation IDs to avoid collisions",
+    "Translation ID format becomes readable (Namespace - Object - Property) unless non-ASCII characters require hashing",
+    "Enable XLIFF file generation by adding TranslationFile feature in app.json, then translate labels in the generated XML files",
+    "Namespaces organize code logically and allow name reuse across different contexts, improving code structure"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "translations",
+    "namespaces",
+    "al objects",
+    "localization",
+    "xliff files",
+    "app.json configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SamplePage"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "TranslationsWithNamespaces",
+    "XLIFF file generation",
+    "namespace-aware translation IDs",
+    "readable translation ID format"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2",
+    "application platform 18.0 or later"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Generate namespace-aware translation identifiers so identically named AL objects can be translated independently while existing non-namespaced translations remain valid.",
+      "why_it_matters": "Core definition of the feature's purpose and backward compatibility approach"
+    },
+    {
+      "text": "When enabled, the translation ID format also changes so the object and property names are visible.",
+      "why_it_matters": "Explains the practical benefit of readable IDs that make translation files easier to understand"
+    },
+    {
+      "text": "Namespaces ensure uniqueness in code names and allow reuse of names in different contexts, and provide structure for the code base.",
+      "why_it_matters": "Shows why namespaces are fundamental for preventing naming conflicts in extensions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005905,
+    "posts_in_call": 1
+  }
+}

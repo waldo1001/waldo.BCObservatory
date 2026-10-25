@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/76268",
+  "url": "https://yzhums.com/76268/",
+  "title": "Business Central 2026 release wave 2 (BC29): Set up vendor-specific number series for self-billing invoices",
+  "source": "yzhums-com",
+  "published_at": "2026-09-23T01:58:29.000Z",
+  "words": 318,
+  "summary": "Business Central 2026 release wave 2 (BC29) adds vendor-specific number series for self-billed purchase invoices. Organizations can now define and assign dedicated numbering sequences per vendor to comply with supplier-specific invoicing requirements and reduce manual errors.",
+  "key_points": [
+    "Define unique number series for individual vendors in self-billing arrangements",
+    "Automatically apply vendor-specific numbering when creating self-billed invoices",
+    "Maintain separate invoice sequences across different suppliers",
+    "Improve compliance with vendor agreements and local numbering requirements"
+  ],
+  "systems": [
+    "purchasing",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "self-billing",
+    "purchase invoices",
+    "number series",
+    "vendor management",
+    "invoicing",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Vendor Card"
+    }
+  ],
+  "features": [
+    "Vendor-specific number series for self-billing invoices",
+    "Self-Billing Invoice Nos. field",
+    "Self-billing agreement validation",
+    "Posted self-billed invoice numbering"
+  ],
+  "versions": [
+    "BC29 (2026 release wave 2)",
+    "BC28 (2026 release wave 1)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can define and assign dedicated number series for self-billed purchase invoices on a per-vendor basis.",
+      "why_it_matters": "Shows the core capability to customize numbering by vendor, enabling compliance with supplier-specific requirements"
+    },
+    {
+      "text": "If 'Self-Billing Agreement' is not enabled, you cannot set 'Self-Billing Invoice Nos.'",
+      "why_it_matters": "Explains the built-in validation control that ensures vendor-specific numbering is only used when appropriate"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004996,
+    "posts_in_call": 1
+  }
+}

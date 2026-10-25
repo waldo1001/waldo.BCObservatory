@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/76252",
+  "url": "https://yzhums.com/76252/",
+  "title": "Business Central 2026 release wave 2 (BC29): Check records for uncommitted changes (Added the IsDirty property to the Record API)",
+  "source": "yzhums-com",
+  "published_at": "2026-09-22T00:52:40.000Z",
+  "words": 264,
+  "summary": "Business Central 2026 wave 2 introduces the IsDirty property to the Record API, allowing developers to check whether a record instance has uncommitted changes before performing validation or saving operations. This feature is available in runtime version 18.0 and later.",
+  "key_points": [
+    "The IsDirty property returns a boolean indicating whether an in-memory record has different values than its database state",
+    "Developers can use IsDirty to determine if a record has been modified since retrieval or last persistence",
+    "The feature requires runtime version 18.0 or greater and is not available in version 17.0",
+    "This enables conditional logic for validation, saving, and processing based on actual changes"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "record api",
+    "uncommitted changes",
+    "data validation",
+    "al development",
+    "runtime 18.0"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Record API"
+    }
+  ],
+  "features": [
+    "IsDirty property",
+    "change detection",
+    "record state checking"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2",
+    "runtime 18.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Use the Record API IsDirty property to determine whether a record instance contains unsaved changes before deciding to validate, save, or otherwise process it.",
+      "why_it_matters": "This explains the primary purpose and use case for the new feature"
+    },
+    {
+      "text": "Gets a boolean value that indicates whether the current in-memory record instance has different values than when it was loaded from the database.",
+      "why_it_matters": "This clarifies the exact behavior and return value of the IsDirty method"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004846,
+    "posts_in_call": 1
+  }
+}

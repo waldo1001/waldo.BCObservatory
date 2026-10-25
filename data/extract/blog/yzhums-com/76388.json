@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/yzhums-com/76388",
+  "url": "https://yzhums.com/76388/",
+  "title": "Business Central 2026 release wave 2 (BC29): Migrate table fields from Integer to BigInteger (Support for BigInteger field migration)",
+  "source": "yzhums-com",
+  "published_at": "2026-10-01T01:51:50.000Z",
+  "words": 433,
+  "summary": "Business Central 2026 wave 2 (BC29) supports migrating table fields from Integer to BigInteger data types with compiler warnings for dependent expressions that may overflow. Conversion from Integer to BigInteger is allowed without data loss, but reverse conversion is not permitted.",
+  "key_points": [
+    "Integer to BigInteger field migration is supported in runtime 18.0 (Fall 2026) or later",
+    "BigInteger stores values from -9,223,372,036,854,775,807 to 9,223,372,036,854,775,807 while Integer ranges from -2,147,483,647 to 2,147,483,647",
+    "AppSourceCop rule AS0141 warns about consequences for dependent extensions referencing changed fields",
+    "Compiler emits warnings for narrowing conversions (BigInteger to Integer) in property contexts to alert about potential overflow",
+    "Reverse conversion from BigInteger to Integer is not allowed and causes an error"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "biginteger migration",
+    "integer to biginteger",
+    "field type conversion",
+    "compiler warnings",
+    "appsourcecop",
+    "runtime 18.0"
+  ],
+  "objects": [],
+  "features": [
+    "BigInteger field migration",
+    "Integer to BigInteger conversion",
+    "AppSourceCop rule AS0141",
+    "Property context warnings",
+    "CalcFormula support for BigInteger"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2",
+    "runtime 18.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Changing an existing table field from Integer to BigInteger is now supported when targeting runtime version 18.0 (Fall 2026) or later.",
+      "why_it_matters": "Clarifies which runtime versions support the new feature, essential for developers planning migrations"
+    },
+    {
+      "text": "Converting BigInteger to Integer will cause an error.",
+      "why_it_matters": "Critical constraint showing the one-way nature of migration, preventing unexpected failures"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006164,
+    "posts_in_call": 1
+  }
+}

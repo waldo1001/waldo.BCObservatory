@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/yzhums-com/76367",
+  "url": "https://yzhums.com/76367/",
+  "title": "Business Central 2026 release wave 2 (BC29): Reduce complexity of report datasets (Company information dataitem in Word layouts)",
+  "source": "yzhums-com",
+  "published_at": "2026-09-29T01:37:34.000Z",
+  "words": 251,
+  "summary": "Word report layouts in Business Central 2026 release wave 2 now include a shared Company Information dataitem across all report datasets, reducing developer effort and standardizing how company information is accessed in Word layouts.",
+  "key_points": [
+    "Company Information dataitem is automatically included in all Word report layouts without requiring developers to define it",
+    "The CompanyMetadata dataitem is accessed through BCReportInformation and contains Company Information details",
+    "This feature eliminates tedious manual work for AL developers creating report datasets",
+    "Continues functionality from BC26 that allows accessing report and request metadata in Word layouts"
+  ],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "word layouts",
+    "report datasets",
+    "company information",
+    "report development",
+    "metadata"
+  ],
+  "objects": [],
+  "features": [
+    "Company Information dataitem in Word layouts",
+    "CompanyMetadata dataitem",
+    "Report dataset simplification",
+    "Shared dataitems across reports"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2",
+    "BC26",
+    "2025 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Word layouts now include a company information dataitem that is shared across all report datasets.",
+      "why_it_matters": "This is the core feature - it standardizes company information access and reduces complexity for report developers"
+    },
+    {
+      "text": "This enhancement makes report datasets easier to understand and removes tedious work for AL developers who create datasets for reports.",
+      "why_it_matters": "Explains the business value: developers save time and effort when building reports"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004568,
+    "posts_in_call": 1
+  }
+}

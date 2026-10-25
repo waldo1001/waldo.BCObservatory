@@ -1,0 +1,86 @@
+{
+  "item_id": "blog/yzhums-com/76518",
+  "url": "https://yzhums.com/76518/",
+  "title": "Business Central 2026 release wave 2 (BC29): AL developers can turn indexes on/off in AL code",
+  "source": "yzhums-com",
+  "published_at": "2026-10-09T00:42:53.000Z",
+  "words": 513,
+  "summary": "AL developers can now programmatically enable and disable database indexes in Business Central 2026 wave 2 (BC29), allowing app publishers to manage index performance tuning as part of their feature deployment.",
+  "key_points": [
+    "AL developers can now turn database indexes on or off directly from AL code using methods in codeunit 2000000029 'Index Management'.",
+    "Database indexes improve query performance by allowing the system to locate data efficiently instead of scanning all records.",
+    "This capability extends previous index management features introduced in BC20 (Database Wait Statistics) and BC28 (manual index on/off and per-company cost viewing).",
+    "Developers can query field information from table 2000000041 'Field' to target specific indexes for management.",
+    "App publishers can now ship index management as part of their features rather than relying on administrators."
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "index management",
+    "performance tuning",
+    "al development",
+    "database optimization",
+    "sql indexes"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Index Management"
+    },
+    {
+      "type": "table",
+      "name": "Field"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "page",
+      "name": "Index Management"
+    },
+    {
+      "type": "page",
+      "name": "Database Wait Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Database Missing Indexes"
+    }
+  ],
+  "features": [
+    "Turn indexes on/off from AL code",
+    "Index Management codeunit",
+    "Database index management",
+    "Performance optimization",
+    "Field information querying"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2",
+    "BC28",
+    "BC20"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "AL developers can now turn indexes off/on from AL code. This allows app publishers to ship index management to match their features.",
+      "why_it_matters": "It explains the core capability and its business value - developers now have programmatic control over indexes as part of application features."
+    },
+    {
+      "text": "Indexes are an effective feature in relational databases, like SQL, to speed up the process of finding data.",
+      "why_it_matters": "It clarifies why index management matters for application performance and user experience."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006715,
+    "posts_in_call": 1
+  }
+}

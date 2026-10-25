@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/76419",
+  "url": "https://yzhums.com/76419/",
+  "title": "Business Central 2026 release wave 2 (BC29): Run data queries with MCP Server (no APIs required)",
+  "source": "yzhums-com",
+  "published_at": "2026-10-02T04:30:22.000Z",
+  "words": 509,
+  "summary": "Business Central 2026 release wave 2 introduces Data Query Tools for the MCP Server, enabling AI agents to define, validate, and run custom data queries without requiring pre-existing APIs. This capability allows agents to perform ad-hoc joins and aggregates on Business Central data through four new system tools.",
+  "key_points": [
+    "Data Query Tools is a new preview feature that adds system tools for compiling and running AL data queries submitted by MCP clients",
+    "Four new system tools are available: bc_data_find_tables, bc_data_get_table_relations, bc_data_get_table_schema, and bc_data_query",
+    "Data query tools are read-only and prevent agents from creating, modifying, or deleting data",
+    "The feature is managed through a new Server Features tab on the MCP Server Configuration page"
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "mcp server",
+    "data queries",
+    "ai agents",
+    "business central 2026",
+    "release wave 2",
+    "system tools"
+  ],
+  "objects": [],
+  "features": [
+    "Data Query Tools",
+    "MCP Server Configuration",
+    "bc_data_find_tables",
+    "bc_data_get_table_relations",
+    "bc_data_get_table_schema",
+    "bc_data_query"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Your MCP application can then query data for which no existing APIs exist.",
+      "why_it_matters": "Explains the core benefit of data query tools - accessing data that lacks pre-built APIs"
+    },
+    {
+      "text": "Data query tools are read-only and don't allow agents to create, modify, or delete data.",
+      "why_it_matters": "Critical for understanding security constraints and safe data access patterns"
+    },
+    {
+      "text": "agents who use your MCP server configuration have access to data query tools they can use in their workflows.",
+      "why_it_matters": "Shows how agents gain capability to compose custom queries through the MCP server"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005699,
+    "posts_in_call": 1
+  }
+}

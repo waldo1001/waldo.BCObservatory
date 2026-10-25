@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/yzhums-com/76396",
+  "url": "https://yzhums.com/76396/",
+  "title": "Dynamics 365 Business Central: How to turn off feedback on AI-generated content",
+  "source": "yzhums-com",
+  "published_at": "2026-09-30T01:09:45.000Z",
+  "words": 259,
+  "summary": "Administrators can disable Copilot feedback controls in Business Central by configuring settings in the Power Platform admin center. This setting affects all Copilot features across the tenant and takes effect after users sign out and back in.",
+  "key_points": [
+    "Copilot feedback is enabled by default and users can rate AI-generated content with Like/Dislike controls",
+    "Administrators can toggle off basic Copilot feedback to remove Like/Dislike controls",
+    "Administrators can toggle off additional feedback to prevent sharing of prompts, responses, and log files",
+    "Feedback configuration is managed at the tenant level in Power Platform admin center"
+  ],
+  "systems": [
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "copilot",
+    "feedback",
+    "ai-generated content",
+    "administrator settings",
+    "tenant configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Copilot feedback controls",
+    "Basic Copilot feedback toggle",
+    "Additional Copilot feedback toggle",
+    "Copilot in Business Central"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Administrators can turn off the ability for users to provide Copilot feedback.",
+      "why_it_matters": "Explains the core capability for administrators to control feedback features across the tenant"
+    },
+    {
+      "text": "This feedback is anonymous and helps improve the service.",
+      "why_it_matters": "Clarifies the purpose of Copilot feedback and its benefit to Microsoft's service improvements"
+    },
+    {
+      "text": "Changes take effect when users sign out and sign back in.",
+      "why_it_matters": "Important timing information for administrators implementing feedback configuration changes"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004568,
+    "posts_in_call": 1
+  }
+}
