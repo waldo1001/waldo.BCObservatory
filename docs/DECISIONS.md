@@ -1307,3 +1307,9 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   vocabulary-only, sibling-section and example-not-lesson drops stay. Verdicts carry the review standard (`v`, review
   `PROMPT_VERSION` 2): a drop under an older standard makes its hub due again, a keep stays valid. Rejected:
   re-reviewing keeps too; dropping the review; community-tooling hubs (later). Spec `docs/specs/topic-review-tooling.md`.
+- **D118 The BC Docs Librarian is a community blog source (2026-10-25, M55).** Issue #50, at the owner's request.
+  `nataliekarolak-com` in `sources.yaml` (https://nataliekarolak.wordpress.com), kind blog, tier community, derived
+  mode: no consent block, `full_text: false`. Author Natalie Karolak, MVP (the About page: MVP 2012-2016 and again since
+  2024). Fetch: the feed (10 newest) plus the public WordPress.com REST API (64 posts back to 2022-11-03, 16 inside the
+  18-month window), as for `thedynamicsexplorer-com`. Rejected: feed only (misses 6 posts in the window); full text
+  without opt-in. Spec `docs/specs/nataliekarolak-blog-source.md`.

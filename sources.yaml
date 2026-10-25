@@ -376,6 +376,12 @@ sources:
     url: https://vjeko.com
     author: { name: Vjekoslav Babić, mvp: true }
     fetch: { feed: https://vjeko.com/rss.xml }
+  - id: nataliekarolak-com
+    kind: blog
+    name: The BC Docs Librarian
+    url: https://nataliekarolak.wordpress.com
+    author: { name: Natalie Karolak, mvp: true }
+    fetch: { feed: https://nataliekarolak.wordpress.com/feed/, rest: https://public-api.wordpress.com/wp/v2/sites/nataliekarolak.wordpress.com/posts }
 
   # Held back until the author agrees (PLAN "yzhums opt-in if agreed"). enabled: false keeps it out of ingest entirely.
   # Derived mode (summary, quotes of at most 24 words, a link to each post) needs his yes: then set enabled: true.

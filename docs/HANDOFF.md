@@ -14,9 +14,6 @@ the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`
 whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
-- **The BC Docs Librarian blog source, D118** (`docs/specs/nataliekarolak-blog-source.md`, M55, issue #50). Status:
-  proposed 2026-10-25, nothing implemented. Start with task 1. Until it lands, Natalie Karolak's posts are not in the
-  Observatory.
 - **Layered answers, D106** (`docs/specs/layered-answers.md`, M44, issue #26). Status: built 2026-10-23 on stacked
   branches `build/layered-answers` and `-p1` to `-p6`, one PR per phase (#27 docs, #28 cross-links, #29 key facts, #30
   cautions, then hotfix lists, brief and search, never-less); merge in order. Not done until the first nightly ran:
@@ -38,6 +35,12 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-25 (sources only; readers see it after the ingest run):**
+- **The BC Docs Librarian is a community blog source (D118, M55, issue #50).** `nataliekarolak-com` (Natalie Karolak,
+  MVP) in `sources.yaml`, derived mode, feed plus WordPress.com REST (16 posts inside the window). Operator step, at the
+  owner's request: `gh workflow run nightly.yml --ref main -f pillars=blog -f only=nataliekarolak-com -f unlimited=true`;
+  `pages` deploys after it.
 
 **Shipped 2026-10-25 (pipeline only; readers see it after the re-review run):**
 - **The topic review keeps tools and practice (D117, M54, issue #49).** 244 hubs hold a drop made under the old

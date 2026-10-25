@@ -1,11 +1,11 @@
 ---
 issue: 50
-status: draft
+status: implemented
 ---
 
 # Add nataliekarolak.wordpress.com (Natalie Karolak) as a community blog source
 
-Status: proposed, 2026-10-25. Decision: D118 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M55 (reserved). Owner: waldo.
+Status: implemented, 2026-10-25 (section 12 records what was built and where it differs). Decision: D118 (appended 2026-10-25). Milestone: M55. Owner: waldo.
 Scope: one entry in `sources.yaml`, plus the first ingest of that source. Every claim below was verified against the tree at `85264807a1` on 2026-10-25, and the site facts were fetched from https://nataliekarolak.wordpress.com on 2026-10-25. Not in scope: full text (needs the author's consent block), any pipeline code.
 
 ## 1. Goal
@@ -89,13 +89,24 @@ Changed: `sources.yaml`; at ship time `docs/DECISIONS.md`, `docs/PLAN.md`, `docs
 
 ## 11. Definition of Done
 
-- [ ] `sources.yaml` has the `nataliekarolak-com` entry with the feed, the REST URL and `mvp: true`.
-- [ ] `npm run validate:sources` (50 sources), `npm run typecheck` and `npm test` pass.
-- [ ] No `full_text: true`, no consent block.
+- [x] `sources.yaml` has the `nataliekarolak-com` entry with the feed, the REST URL and `mvp: true`.
+- [x] `npm run validate:sources` (50 sources), `npm run typecheck` and `npm test` pass.
+- [x] No `full_text: true`, no consent block.
 - [ ] After phase 2: the source page and the post pages are on main, and the live sources page lists the source.
-- [ ] D118 appended to docs/DECISIONS.md; PLAN M55 marked shipped; HANDOFF entry moved from "Open specs" to "Where things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the status lines into docs/built/nataliekarolak-blog-source.md; the PR's review moves them in (sdd-build section 4, sdd-review section 6).
+- [x] D118 appended to docs/DECISIONS.md; PLAN M55 marked shipped; HANDOFF entry moved from "Open specs" to "Where things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the status lines into docs/built/nataliekarolak-blog-source.md; the PR's review moves them in (sdd-build section 4, sdd-review section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-25)
+
+- **Built:** the section 4 entry in `sources.yaml` after `vjeko-com`, in the commit after the spec commit on
+  `spec/nataliekarolak-blog-source`, pushed to main together.
+- **Verified:** `npm run validate:sources`: 50 sources (blog 27 -> 28), `sources.yaml OK`. `npm run typecheck`: clean.
+  `npm test`: 754 tests, 753 pass, 0 fail.
+- **Spec versus measured:** sources 50 (spec 50), blogs 28 (spec 28).
+- **Deviations:** none.
+- **Open:** phase 2 (`gh workflow run nightly.yml --ref main -f pillars=blog -f only=nataliekarolak-com -f
+  unlimited=true`) and the Definition of Done item that checks its pages.
+
+## 13. Proposed edits to other files (applied 2026-10-25, see section 12)
 
 D118 text for `docs/DECISIONS.md`: "D118: nataliekarolak.wordpress.com (Natalie Karolak, MVP) is added as community blog `nataliekarolak-com`, derived mode, feed plus public WordPress.com REST (issue #50). Rejected: feed only; full text without opt-in."
 
