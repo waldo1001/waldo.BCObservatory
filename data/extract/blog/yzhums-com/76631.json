@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/76631",
+  "url": "https://yzhums.com/76631/",
+  "title": "Major update of Dynamics 365 Business Central 2026 release wave 2 (BC29) is available for existing customers",
+  "source": "yzhums-com",
+  "published_at": "2026-10-13T00:49:02.000Z",
+  "words": 434,
+  "summary": "Dynamics 365 Business Central 2026 release wave 2 (BC29) is generally available and existing customers can now schedule their environment updates through the Business Central Admin Center. The update must be scheduled before March 1, 2027, with flexible date options allowing customers to reschedule within the update period.",
+  "key_points": [
+    "BC29 (version 29.0) is the major update for 2026 wave 2 with general availability confirmed",
+    "Customers can set their own update date in the Business Central Admin Center rather than accepting a fixed date",
+    "Updates must be scheduled before March 1, 2027, with a typical 5-month update window",
+    "Notification emails alert customers of their scheduled update times, which vary by region and timezone",
+    "After 12 months of being marked as obsolete, deprecated code is removed from the system"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "release wave 2",
+    "bc29",
+    "environment updates",
+    "update management",
+    "admin center",
+    "version 29.0"
+  ],
+  "objects": [],
+  "features": [
+    "flexible update date scheduling",
+    "update settings management",
+    "environment operation logs",
+    "deprecation timeline tracking"
+  ],
+  "versions": [
+    "BC29",
+    "29.0",
+    "27.5"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Now you can set update date for the existing environment.",
+      "why_it_matters": "Demonstrates the new flexibility for customers to control when their BC environments are updated rather than having dates imposed on them."
+    },
+    {
+      "text": "The update must be scheduled to run before Mar 01, 2027 09:00 AM.",
+      "why_it_matters": "Provides the critical deadline customers must meet to schedule their BC29 updates."
+    },
+    {
+      "text": "When an object is marked as obsolete, another 12 months will pass before the code is removed.",
+      "why_it_matters": "Important for developers to understand the deprecation timeline when managing custom code and object compatibility."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005161,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/yzhums-com/76763",
+  "url": "https://yzhums.com/76763/",
+  "title": "Dynamics 365 Business Central: How to quickly copy a report layout (Create a copy of the selected layout)",
+  "source": "yzhums-com",
+  "published_at": "2026-10-22T04:27:36.000Z",
+  "words": 360,
+  "summary": "Report layouts control report content and formatting in Business Central. Users can quickly copy an existing layout by selecting it, toggling 'Save Changes to Copy', entering a new name, and confirming on the Report Layouts page.",
+  "key_points": [
+    "Report layouts determine which fields, arrangement, and styling appear in reports",
+    "Four layout types are available: Word, RDLC, Excel, and External",
+    "The 'Save Changes to Copy' toggle enables quick duplication without exporting and importing",
+    "Copied layouts can be customized after creation"
+  ],
+  "systems": [
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "report layout",
+    "copy layout",
+    "report management",
+    "user interface"
+  ],
+  "objects": [],
+  "features": [
+    "report layouts",
+    "layout copying",
+    "layout customization",
+    "layout types"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A report layout controls the content and format of a report.",
+      "why_it_matters": "Defines what report layouts fundamentally do and their importance in Business Central"
+    },
+    {
+      "text": "Copying an existing layout lets you quickly create a new, identical layout that you can customize.",
+      "why_it_matters": "Explains the primary benefit and workflow for the copy feature"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004658,
+    "posts_in_call": 1
+  }
+}

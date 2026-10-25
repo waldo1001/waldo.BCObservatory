@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/76570",
+  "url": "https://yzhums.com/76570/",
+  "title": "Business Central 2026 release wave 2 (BC29): Retained DEV extensions (DEV extensions remain installed during environment update)",
+  "source": "yzhums-com",
+  "published_at": "2026-10-08T00:26:23.000Z",
+  "words": 515,
+  "summary": "Business Central 2026 wave 2 (BC29) now retains DEV extensions during environment updates instead of removing them, eliminating the need to republish extensions after upgrades. This change simplifies development and testing workflows for developers and consultants.",
+  "key_points": [
+    "DEV extensions (published from Visual Studio Code) previously were removed during environment updates or relocations; BC29 changes this behavior",
+    "DEV extensions now persist after updates, similar to globally scoped Tenant Published Extensions (PTEs), reducing manual republishing work",
+    "Extension scopes include Global (Marketplace/AppSource), PTE (Tenant scope uploaded via admin center), and Dev (VS Code published)",
+    "Data from DEV extensions was never lost during updates, but the extensions themselves had to be reinstalled after UAT or client verification"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "dev extensions",
+    "environment updates",
+    "visual studio code",
+    "extension management",
+    "bc29",
+    "release wave 2"
+  ],
+  "objects": [],
+  "features": [
+    "Retained DEV extensions",
+    "Extension Management",
+    "Manage PTEs in Admin Center"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Dev extensions will now behave like PTEs and won't be uninstalled after an update.",
+      "why_it_matters": "This is the core feature change that eliminates the hassle of reinstalling DEV extensions during environment updates."
+    },
+    {
+      "text": "Extensions that have been published from Visual Studio Code are removed when the environment is updated or relocated within our service.",
+      "why_it_matters": "This explains the previous behavior that BC29 now addresses, showing why the change is a significant improvement."
+    },
+    {
+      "text": "It can be a hassle, especially during UAT or client verification when the feature suddenly disappears the next day.",
+      "why_it_matters": "Illustrates the practical pain point that this feature eliminates for developers and consultants during testing cycles."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005592,
+    "posts_in_call": 1
+  }
+}

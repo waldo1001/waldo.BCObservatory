@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/yzhums-com/76355",
+  "url": "https://yzhums.com/76355/",
+  "title": "Dynamics 365 Business Central Blog Series: Working with Translations and Languages",
+  "source": "yzhums-com",
+  "published_at": "2026-10-19T00:36:25.000Z",
+  "words": 1331,
+  "summary": "Blog series covering translations, multilingual development, and language features in Dynamics 365 Business Central, including XLIFF files, language pack installation, field captions, localization support, and translation tools.",
+  "key_points": [
+    "XLIFF translation files are used for working with translations in Business Central",
+    "Language packs can be installed for both SaaS and on-premises deployments",
+    "Developers can manipulate field captions, enum values, and translated content via AL code",
+    "Language and region settings can be configured at company and environment levels",
+    "Translation tools including Dynamics 365 Translation Service and Custom Translator are available for partners"
+  ],
+  "systems": [
+    "localization",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "translations",
+    "multilingual",
+    "localization",
+    "language packs",
+    "xliff",
+    "field captions",
+    "language configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "User Settings"
+    },
+    {
+      "type": "enum",
+      "name": "Standard Enum values"
+    }
+  ],
+  "features": [
+    "XLIFF translation files",
+    "Language Pack installation",
+    "Field caption translation",
+    "Enum value captions",
+    "Text search language configuration",
+    "Default language for documents",
+    "Language and region settings for reports",
+    "Custom Translator support"
+  ],
+  "versions": [
+    "BC23",
+    "BC26",
+    "BC28",
+    "BC29"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010971,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/76445",
+  "url": "https://yzhums.com/76445/",
+  "title": "Business Central 2026 release wave 2 (BC29): Calculate multiple excise duties per item",
+  "source": "yzhums-com",
+  "published_at": "2026-10-07T00:54:18.000Z",
+  "words": 436,
+  "summary": "Business Central 2026 release wave 2 (BC29) introduces support for calculating multiple excise duties per item, replacing the single excise tax type limitation from previous versions with an Excise Taxes action on the Item Card that allows assignment of multiple excise duty configurations to the same item.",
+  "key_points": [
+    "Items can now support multiple excise tax types instead of just one, enabling products to be subject to multiple excise levies like plastic and sugar tax simultaneously",
+    "The Excise Taxes action on the Item Card replaces the previous Excise Tax tab, providing a new interface for assigning multiple duty configurations",
+    "Excise duties are automatically calculated during purchasing and sales transactions, with entries generated in the Excise Journal",
+    "This enhancement reduces manual workarounds and customizations while improving tax accuracy and consistency in financial reporting"
+  ],
+  "systems": [
+    "finance",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "excise taxes",
+    "tax compliance",
+    "item configuration",
+    "bc29",
+    "release wave 2"
+  ],
+  "objects": [],
+  "features": [
+    "Calculate multiple excise duties per item",
+    "Excise Taxes action",
+    "Excise Tax Journal Entries",
+    "Excise Tax Unit of Measure Code",
+    "Quantity for Excise Tax"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2",
+    "BC28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "An Item can now support multiple Excise Tax Types, so Microsoft removed the Excise Tax tab from the Item Card.",
+      "why_it_matters": "This explains the structural change that enables the core new capability of supporting multiple excise duties per item."
+    },
+    {
+      "text": "Automatically calculate all applicable excise duties during purchasing and vendor-related transactions.",
+      "why_it_matters": "This highlights how the feature automates complex tax calculations, reducing errors and manual intervention."
+    },
+    {
+      "text": "Reduce the need for manual workarounds, customizations, or separate item records to represent different tax obligations.",
+      "why_it_matters": "This shows the practical benefit of simplifying item management when products are subject to multiple tax obligations."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005533,
+    "posts_in_call": 1
+  }
+}

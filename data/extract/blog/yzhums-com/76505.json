@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/yzhums-com/76505",
+  "url": "https://yzhums.com/76505/",
+  "title": "Business Central 2026 release wave 2 (BC29): Faster data loading with improved data model for table extensions (all fields on an AL table are stored in the same table)",
+  "source": "yzhums-com",
+  "published_at": "2026-10-06T00:05:37.000Z",
+  "words": 505,
+  "summary": "Business Central 2026 wave 2 (BC29) consolidates all table extension fields into a single physical database table instead of companion tables, eliminating SQL JOINs and improving database operation performance across the system.",
+  "key_points": [
+    "Previously in BC23, extension fields were stored in separate companion tables requiring SQL joins; now all fields live in one table",
+    "Multiple extensions to a table no longer increase table count, only column count with standardized naming (FieldName$ExtensionID)",
+    "AL code requires no changes since the table model in the language layer remains unchanged",
+    "Performance improves by eliminating unnecessary SQL joins in multi-extension environments"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "table extensions",
+    "database performance",
+    "data model",
+    "sql optimization"
+  ],
+  "objects": [],
+  "features": [
+    "Faster data loading",
+    "Improved table extension data model",
+    "Unified field storage",
+    "SQL JOIN elimination"
+  ],
+  "versions": [
+    "2026 release wave 2",
+    "BC29"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "No matter how many extensions and table extensions you have, in the actual database, there will always be only one table.",
+      "why_it_matters": "Clarifies the fundamental architectural change and its scalability advantage"
+    },
+    {
+      "text": "This change does not impact the table model as seen from the AL language, so no code changes are needed from extension/app publishers.",
+      "why_it_matters": "Key insight that backward compatibility is maintained despite significant internal changes"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005444,
+    "posts_in_call": 1
+  }
+}

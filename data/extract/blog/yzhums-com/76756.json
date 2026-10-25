@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/yzhums-com/76756",
+  "url": "https://yzhums.com/76756/",
+  "title": "Business Central 2026 release wave 2 (BC29): Design themes, headers, and footers for document reports with the updated Word add-in",
+  "source": "yzhums-com",
+  "published_at": "2026-10-16T01:44:35.000Z",
+  "words": 1104,
+  "summary": "Business Central 2026 wave 2 (BC29) introduces enhanced Word add-in capabilities for designing document report themes, headers, and footers. The update provides sample layouts for common documents like invoices and pick lists, plus five predefined header and footer templates that can be inserted with a single click, making complex report design faster and easier than RDLC.",
+  "key_points": [
+    "BC29 adds three sample document types (Invoice, Pick List, Outstanding Orders) for testing themes against realistic content",
+    "Five predefined header layouts and five footer layouts are available for both internal and external reports",
+    "Word add-in version 3.0.0.0 includes new document samples controls for designing headers and footers",
+    "Word layouts now support layout subtypes (Default, Body) for reusable themes and modular report design"
+  ],
+  "systems": [
+    "reporting"
+  ],
+  "topics": [
+    "word add-in",
+    "document reporting",
+    "report design",
+    "themes",
+    "headers",
+    "footers",
+    "layout templates"
+  ],
+  "objects": [],
+  "features": [
+    "Word add-in design samples",
+    "Document report themes",
+    "Header layout templates",
+    "Footer layout templates",
+    "Conditional visibility in Word layouts",
+    "Reusable themes and header/footer layouts",
+    "Layout subtypes (Default, Body)"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A Word layout determines the report's content - controlling how that content elements are arranged and how they look.",
+      "why_it_matters": "Explains the core purpose and function of Word layouts in Business Central report design"
+    },
+    {
+      "text": "It is definitely time to transition over to Word Layouts.",
+      "why_it_matters": "Signals the author's recommendation to move away from RDLC layouts in favor of the improved Word layout capabilities"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006643,
+    "posts_in_call": 1
+  }
+}

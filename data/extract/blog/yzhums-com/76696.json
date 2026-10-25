@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/yzhums-com/76696",
+  "url": "https://yzhums.com/76696/",
+  "title": "Business Central 2026 release wave 2 (BC29): Design document reports with the updated Word add-in (New design components)",
+  "source": "yzhums-com",
+  "published_at": "2026-10-15T01:16:27.000Z",
+  "words": 1127,
+  "summary": "Business Central 2026 wave 2 introduces new design components in the Word add-in for document reporting, allowing developers to create report layouts faster by inserting pre-built elements like addresses, field groups, amounts, signature lines, and notes with single clicks instead of manually building complex layouts.",
+  "key_points": [
+    "Microsoft added design controls for common document report parts including addresses, field groups, amounts, signature lines, and notes",
+    "Design components can be inserted with single clicks, dramatically faster than building layouts manually or with RDLC",
+    "Word add-in version 3.0.0.0 is the latest version and should be installed from the Add-ins menu",
+    "Pre-built components arrive with example figures and layouts that developers can customize by replacing with actual data fields",
+    "New components include options like sender/receiver addresses, document information grids, calculation tables, and totals rows"
+  ],
+  "systems": [
+    "reporting",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "word layouts",
+    "document reporting",
+    "report design",
+    "word add-in",
+    "design components",
+    "bc29",
+    "2026 release wave 2"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "1305"
+    },
+    {
+      "type": "report",
+      "name": "Standard Sales – Order Conf."
+    }
+  ],
+  "features": [
+    "Word add-in design components",
+    "Address blocks",
+    "Field groups",
+    "Amounts tables",
+    "Signature lines",
+    "Notes sections",
+    "Document information layouts",
+    "Conditional visibility"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This dramatically speeds up layout creation for developers.",
+      "why_it_matters": "Emphasizes the time-saving benefit of using pre-built design components in the updated Word add-in"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006062,
+    "posts_in_call": 1
+  }
+}

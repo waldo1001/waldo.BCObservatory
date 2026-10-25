@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/yzhums-com/76655",
+  "url": "https://yzhums.com/76655/",
+  "title": "Business Central 2026 release wave 2 (BC29): Use conditional visibility in the updated Word add-in (Hide If Empty/False in Word Layout)",
+  "source": "yzhums-com",
+  "published_at": "2026-10-14T00:35:57.000Z",
+  "words": 736,
+  "summary": "Business Central 2026 wave 2 introduces conditional visibility controls in the Word add-in, allowing developers to design reports with hidden or shown content based on boolean fields using HideIf logic - a capability previously only available in RDLC layouts.",
+  "key_points": [
+    "The Word add-in now supports HideIf logic control for conditional visibility, bringing feature parity with RDLC layouts",
+    "Developers can apply Hide If Empty and Hide If False controls to fields, tables, rows, and columns based on boolean fields in the dataset",
+    "Conditional visibility can be applied to stand-alone fields, table rows, table columns, and entire tables",
+    "Boolean fields from the report dataset and Report Extensions can be used to control when content appears"
+  ],
+  "systems": [
+    "reporting",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "word layouts",
+    "conditional visibility",
+    "report design",
+    "document reporting",
+    "word add-in",
+    "hideif logic"
+  ],
+  "objects": [],
+  "features": [
+    "HideIf logic control",
+    "Hide Field if Zero",
+    "Hide Empty Table",
+    "Hide Empty Table Row",
+    "Hide Empty Table Column",
+    "Hide If False",
+    "Word add-in conditional visibility",
+    "Boolean field-based visibility"
+  ],
+  "versions": [
+    "2026 release wave 2",
+    "BC29"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Awesome! That gives us one more reason to skip RDLC.",
+      "why_it_matters": "Highlights the significance: developers now have less reason to use the more complex RDLC layout type for conditional visibility scenarios."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006208,
+    "posts_in_call": 1
+  }
+}

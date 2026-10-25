@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/76546",
+  "url": "https://yzhums.com/76546/",
+  "title": "Business Central 2026 release wave 2 (BC29): Cancelling a scheduled PTE update install (Next Major/Next Minor) in admin center",
+  "source": "yzhums-com",
+  "published_at": "2026-10-20T02:06:45.000Z",
+  "words": 459,
+  "summary": "Business Central 2026 wave 2 (BC29) adds the ability to cancel scheduled PTE (partner tradeable extensions) installation directly from the admin center using the new Manage updates feature, improving on the previous requirement to re-upload the same version to overwrite the schedule.",
+  "key_points": [
+    "Starting with BC28.4, PTEs can be uploaded, installed, and managed directly in the admin center instead of through Extension Management.",
+    "When scheduling a PTE installation from the admin center, you can now cancel it by clicking Manage updates and selecting Cancel scheduled install.",
+    "Canceling removes the scheduled version from services and requires re-uploading the app file if you want to reschedule.",
+    "The Operations page tracks the status of canceled installations and shows which user canceled them."
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "pte management",
+    "extension deployment",
+    "admin center",
+    "scheduled updates",
+    "extension management"
+  ],
+  "objects": [],
+  "features": [
+    "Upload PTE in admin center",
+    "Install PTE in admin center",
+    "Manage PTE updates",
+    "Cancel scheduled PTE installation",
+    "Deployment schedule (Next Major/Next Minor)",
+    "Operations page tracking"
+  ],
+  "versions": [
+    "BC29",
+    "BC28.4"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Starting from Business Central 2026 wave 1 (BC28.4), we can upload, install, and manage PTEs directly in the admin center.",
+      "why_it_matters": "Establishes the new capability introduced in BC28.4 that enables centralized PTE management without using Extension Management page."
+    },
+    {
+      "text": "If we schedule the installation of a PTE using this new method (from admin center), it can now be canceled.",
+      "why_it_matters": "Highlights the key improvement in BC29 that solves a previous limitation where canceling scheduled installations required workarounds."
+    },
+    {
+      "text": "Canceling the installation will remove this version of the PTE from our services. To reschedule the installation, upload this version again.",
+      "why_it_matters": "Clarifies the effect of cancellation and the required action if users want to reschedulule the same version."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005628,
+    "posts_in_call": 1
+  }
+}
