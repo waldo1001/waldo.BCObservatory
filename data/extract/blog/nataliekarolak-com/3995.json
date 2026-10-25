@@ -1,0 +1,102 @@
+{
+  "item_id": "blog/nataliekarolak-com/3995",
+  "url": "https://nataliekarolak.wordpress.com/2026/04/02/docs-whats-new-in-bc-28-for-developers/",
+  "title": "Docs: What’s new in BC 28 for developers",
+  "source": "nataliekarolak-com",
+  "published_at": "2026-04-02T15:41:15.000Z",
+  "words": 2361,
+  "summary": "Business Central 28 introduces major developer features including semantic search on data and metadata, support for fully qualified names and namespaces in AL, data analysis definitions in apps, MCP Server enhancements, AL coding agents with BC-Bench, improved database index management, and new tooling like the Word Add-in for report layouts and GitHub Codespaces support.",
+  "key_points": [
+    "Developers can use semantic search on data and metadata, and define data analysis definitions in AL apps",
+    "Support for namespaces and fully qualified names enables running codeunits, pages, and reports by name with new method overloads",
+    "Model Context Protocol (MCP) Server is enhanced with admin capabilities and integrable with Visual Studio Code for automated tasks",
+    "New tools include database index usage management, BC Word Add-in for report layout editing, GitHub Codespaces for cloud-based development, and SFTP Client codeunit",
+    "Multiple new AL compiler rules and warnings address analysis views, native methods, BigInteger conversions, and FlowField usage in queries"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "al language",
+    "semantic search",
+    "namespaces",
+    "mcp server",
+    "analysis views",
+    "database indexes",
+    "word add-in",
+    "github codespaces"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Codeunit.Run(Text [, var Record])"
+    },
+    {
+      "type": "page",
+      "name": "Page.Run(Text, Record, Integer)"
+    },
+    {
+      "type": "page",
+      "name": "Page.RunModal(Text, Record, FieldRef)"
+    },
+    {
+      "type": "report",
+      "name": "Report.Execute(Text, Text [, RecordRef])"
+    },
+    {
+      "type": "report",
+      "name": "Report.Run(Text [, Boolean] [, Boolean] [, var Record])"
+    },
+    {
+      "type": "codeunit",
+      "name": "System.Runtime.Base64Convert"
+    },
+    {
+      "type": "codeunit",
+      "name": "SFTP Client"
+    }
+  ],
+  "features": [
+    "semantic search on data and metadata",
+    "data analysis definitions",
+    "fully qualified names support",
+    "namespaces support",
+    "Model Context Protocol (MCP) Server",
+    "AL coding agents with BC-Bench",
+    "database index management",
+    "Word Add-in for report layouts",
+    "GitHub Codespaces",
+    "SFTP Client module"
+  ],
+  "versions": [
+    "Business Central 28",
+    "2026 release wave 1",
+    "AL 17.0",
+    "runtime 17.x"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "AL developers can use semantic search on data and metadata. Allow developers to define data analysis definitions in their apps.",
+      "why_it_matters": "Highlights core developer capabilities for intelligent data access and custom analysis tools in BC 28"
+    },
+    {
+      "text": "New method overloads are introduced to support running codeunits, pages, and reports using their fully-qualified names.",
+      "why_it_matters": "Demonstrates namespace support enabling more explicit and maintainable code organization patterns"
+    },
+    {
+      "text": "BC 28 provides tools to view index usage statistics and selectively disable low-use indexes to improve write performance and reduce storage costs.",
+      "why_it_matters": "Shows new performance optimization capabilities for production environments"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.016476,
+    "posts_in_call": 1
+  }
+}

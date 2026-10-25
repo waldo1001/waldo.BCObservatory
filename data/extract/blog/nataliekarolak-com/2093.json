@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/nataliekarolak-com/2093",
+  "url": "https://nataliekarolak.wordpress.com/2025/07/01/search-code-on-github-in-the-browser/",
+  "title": "Search code on GitHub in the browser",
+  "source": "nataliekarolak-com",
+  "published_at": "2025-07-01T08:44:09.000Z",
+  "words": 610,
+  "summary": "This post explains two browser-based methods for searching Business Central code on GitHub: using GitHub's native code search for quick keyword queries across repositories, and using github.dev editor to perform VS Code-style searches on any branch including historical code repositories.",
+  "key_points": [
+    "GitHub code search is fast and requires no local setup, but only searches the default branch of repositories",
+    "github.dev editor provides VS Code search capabilities in the browser for any branch, useful for accessing historical code repositories like Stefan Maron's Code History repos",
+    "Browser-based searching avoids cluttering your machine and eliminates the need to pull and refresh local repositories",
+    "Code search is limited to keyword matching; symbol-based analysis like 'Find references' still requires local VS Code with downloaded symbols"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "code search",
+    "github",
+    "browser tools",
+    "vs code",
+    "development workflow"
+  ],
+  "objects": [],
+  "features": [
+    "GitHub code search",
+    "github.dev editor",
+    "VS Code search in browser"
+  ],
+  "versions": [
+    "w1-26"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The browser search is much faster than to open and load a large repository before you can even enter your search criteria.",
+      "why_it_matters": "Explains the key advantage of browser-based searching for development efficiency"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00561,
+    "posts_in_call": 1
+  }
+}

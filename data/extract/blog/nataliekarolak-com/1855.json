@@ -1,0 +1,48 @@
+{
+  "item_id": "blog/nataliekarolak-com/1855",
+  "url": "https://nataliekarolak.wordpress.com/2025/07/02/snippet-strmenu-from-enum-list/",
+  "title": "Snippet: StrMenu from Enum list",
+  "source": "nataliekarolak-com",
+  "published_at": "2025-07-02T08:24:26.000Z",
+  "words": 227,
+  "summary": "This post demonstrates an AL code snippet that uses StrMenu to let users select from a filtered subset of enum values dynamically, useful when all enum values should be visible normally but only certain values are allowed in specific scenarios.",
+  "key_points": [
+    "Uses a List to collect allowed enum values dynamically rather than statically defining them on a page field",
+    "Automatically selects and returns the only value if the filtered list contains just one item",
+    "Formats enum values for the StrMenu by converting them to text and handling comma separators",
+    "Returns an error if no values are found or if the user cancels the menu selection"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al development",
+    "enums",
+    "user interaction",
+    "strmenu",
+    "code snippet"
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "My Enum"
+    }
+  ],
+  "features": [
+    "StrMenu",
+    "Enum filtering",
+    "List collection",
+    "Dynamic value selection"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004752,
+    "posts_in_call": 1
+  }
+}

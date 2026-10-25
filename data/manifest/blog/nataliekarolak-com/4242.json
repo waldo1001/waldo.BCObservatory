@@ -1,0 +1,45 @@
+{
+  "id": "blog/nataliekarolak-com/4242",
+  "pillar": "blog",
+  "source": "nataliekarolak-com",
+  "tier": "community",
+  "title": "Still locking strings on table (field) removal?",
+  "url": "https://nataliekarolak.wordpress.com/2026/07/02/still-locking-strings-on-table-field-removal/",
+  "published_at": "2026-07-02T07:00:54.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-25T18:00:19.950Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T18:00:25.175Z",
+      "path": "vault:posts/nataliekarolak-com/4242.md",
+      "words": 335
+    },
+    "extracted": {
+      "at": "2026-10-25T18:00:36.512Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.004765
+    },
+    "summarized": {
+      "at": "2026-10-25T18:00:36.513Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T18:00:36.514Z"
+    },
+    "published": {
+      "at": "2026-10-25T18:00:36.782Z",
+      "path": "content/posts/nataliekarolak-com/4242.md"
+    }
+  },
+  "input_hash": "2026-07-02T07:08:17.000Z",
+  "attempts": 0,
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "690b337ed805be4a5f93f3bfa6b4ab330b78895fa48b7aad3cc5550ccd520a94"
+}

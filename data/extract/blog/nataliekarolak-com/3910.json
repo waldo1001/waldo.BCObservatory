@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/nataliekarolak-com/3910",
+  "url": "https://nataliekarolak.wordpress.com/2026/01/09/datatransfer-type-causing-runtime-errors/",
+  "title": "DataTransfer type causing runtime errors",
+  "source": "nataliekarolak-com",
+  "published_at": "2026-01-09T10:42:25.000Z",
+  "words": 237,
+  "summary": "The DataTransfer data type improves AL upgrade code performance but has two undocumented runtime failure scenarios that the compiler does not catch: assigning constant values to Code fields and filtering on FlowFields or Media fields. The post documents these issues and provides workarounds for each.",
+  "key_points": [
+    "DataTransfer.AddConstantValue fails when assigning constants directly to Code fields; use a Code variable instead as a workaround",
+    "DataTransfer.AddSourceFilter does not support FlowFields, FlowFilters, or Media type fields; fall back to traditional SetRange and ModifyAll methods",
+    "These issues may be fixed in future platform builds; the first issue was resolved in platform 27.0.44405 and 26.0.44406",
+    "AL compiler does not warn about these problems before runtime execution"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "datatransfer",
+    "upgrade code",
+    "runtime errors",
+    "code fields",
+    "flowfields",
+    "media fields",
+    "workarounds"
+  ],
+  "objects": [],
+  "features": [
+    "DataTransfer type",
+    "AddConstantValue method",
+    "AddSourceFilter method"
+  ],
+  "versions": [
+    "27.0.44405",
+    "26.0.44406"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The DataTransfer data type is great for improving AL upgrade code performance.",
+      "why_it_matters": "Establishes the value of DataTransfer while introducing the undocumented limitations that follow"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005231,
+    "posts_in_call": 1
+  }
+}

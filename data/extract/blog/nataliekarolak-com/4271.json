@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/nataliekarolak-com/4271",
+  "url": "https://nataliekarolak.wordpress.com/2026/08/19/get-the-new-bcquality-plugin-for-vs-code/",
+  "title": "Get the new BCQuality plugin for VS Code!",
+  "source": "nataliekarolak-com",
+  "published_at": "2026-08-19T12:50:23.000Z",
+  "words": 367,
+  "summary": "BCQuality is an open-source Microsoft repository that helps AI agents and AL developers generate better code for Business Central by encoding known AI mistakes. A new VS Code plugin now makes it easier to use by automatically downloading repository files and requiring only the mention of 'BCQuality' in prompts instead of URLs.",
+  "key_points": [
+    "BCQuality focuses on fixing common AI errors rather than general best practices",
+    "The new VS Code plugin automatically installs and updates repository files locally",
+    "Users can install the plugin through VS Code's Command Palette without manual setup",
+    "The repository includes knowledge and skills subfolders in community and microsoft folders",
+    "Automatic updates check roughly every 24 hours or can be triggered manually"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "al development",
+    "code generation",
+    "vs code plugin",
+    "ai assistance",
+    "bcquality"
+  ],
+  "objects": [],
+  "features": [
+    "BCQuality plugin for VS Code",
+    "automatic code review and fixes",
+    "community-driven repository",
+    "self-improving AI code patterns",
+    "plugin auto-update capability"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "It only encodes the things AI gets wrong.",
+      "why_it_matters": "Clarifies that BCQuality's unique value is correcting AI mistakes, not general coding standards"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005064,
+    "posts_in_call": 1
+  }
+}

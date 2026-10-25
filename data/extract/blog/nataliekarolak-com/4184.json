@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/nataliekarolak-com/4184",
+  "url": "https://nataliekarolak.wordpress.com/2026/04/23/using-substring-to-replace-copystr/",
+  "title": "Using Substring to replace CopyStr",
+  "source": "nataliekarolak-com",
+  "published_at": "2026-04-23T13:27:43.000Z",
+  "words": 268,
+  "summary": "BC 27.1 and later resolve a runtime error when using the Substring method with length parameters that exceed string boundaries, making it safe to replace CopyStr with Substring for improved code readability.",
+  "key_points": [
+    "Substring caused runtime errors in BC versions before 27.0 platform builds when the length parameter exceeded the available string length",
+    "BC 27.0 online includes the fix but BC 27.0 on-premises does not; BC 27.1 is the first application version with the fix across all deployments",
+    "CopyStr remains supported with no plans for obsolescence; both methods can coexist",
+    "Set the application property to 27.1.0.0 or higher in app.json to safely use Substring; the runtime property does not affect this fix"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "substring method",
+    "copystr",
+    "string handling",
+    "code readability",
+    "runtime errors",
+    "platform fixes"
+  ],
+  "objects": [],
+  "features": [
+    "Substring method",
+    "CopyStr method"
+  ],
+  "versions": [
+    "27.1",
+    "27.0",
+    "25.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With BC 27.1 and beyond, you can safely replace CopyStr with Substring to improve code readability!",
+      "why_it_matters": "This signals when developers can confidently migrate to the newer, more readable method."
+    },
+    {
+      "text": "Index and length must refer to a location within the string.",
+      "why_it_matters": "This is the exact error message developers encountered when using Substring with invalid length parameters in earlier versions."
+    },
+    {
+      "text": "BC 27.1 is the first application version having the fix in any case.",
+      "why_it_matters": "This clarifies the minimum version requirement for guaranteed Substring support across all deployment types."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004975,
+    "posts_in_call": 1
+  }
+}

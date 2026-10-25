@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/nataliekarolak-com/3648",
+  "url": "https://nataliekarolak.wordpress.com/2025/11/13/small-al-quiz/",
+  "title": "Small AL quiz",
+  "source": "nataliekarolak-com",
+  "published_at": "2025-11-13T14:55:08.000Z",
+  "words": 259,
+  "summary": "A quiz about AL code demonstrates how StrSubstNo formats decimal numbers with thousands separators in some regions, causing runtime errors in CalcDate date formulas. The post shows how to avoid this by using integers instead of decimals.",
+  "key_points": [
+    "StrSubstNo formats decimal numbers using Format(Number, 0), which adds thousands separators based on region settings",
+    "CalcDate requires date formulas without separators, so formatted decimals like '1,000D' cause runtime errors",
+    "Using integers instead of decimals avoids the thousands separator issue",
+    "Region settings affect how numbers are formatted in AL code"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al programming",
+    "calcdate",
+    "strsubstno",
+    "date formulas",
+    "formatting",
+    "region settings"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "CalcDate"
+    },
+    {
+      "type": "other",
+      "name": "StrSubstNo"
+    },
+    {
+      "type": "other",
+      "name": "Round"
+    },
+    {
+      "type": "other",
+      "name": "Format"
+    }
+  ],
+  "features": [
+    "CalcDate function",
+    "StrSubstNo function",
+    "number formatting",
+    "date formulas",
+    "region-specific formatting"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00556,
+    "posts_in_call": 1
+  }
+}

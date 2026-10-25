@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/nataliekarolak-com/4242",
+  "url": "https://nataliekarolak.wordpress.com/2026/07/02/still-locking-strings-on-table-field-removal/",
+  "title": "Still locking strings on table (field) removal?",
+  "source": "nataliekarolak-com",
+  "published_at": "2026-07-02T07:00:54.000Z",
+  "words": 335,
+  "summary": "When removing table fields in AL, translatable strings like Caption and OptionCaption used to require manual locking to avoid unnecessary translation work, but since April 2020 this is no longer needed because removed fields and tables are automatically excluded from translation files.",
+  "key_points": [
+    "Previously, translatable properties on removed table fields had to be locked manually or with conditional directives to prevent them from being processed by translation workflows",
+    "As of April 2020, Business Central automatically excludes translatable strings from removed tables and fields from translation files",
+    "Labels in removed tables still require locking or deletion since they are not automatically excluded",
+    "The AZ AL Dev Tools extension provided a command to lock removed table field captions, but manual locking is now unnecessary"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al development",
+    "obsolete state",
+    "translation",
+    "table fields",
+    "best practices"
+  ],
+  "objects": [],
+  "features": [
+    "ObsoleteState",
+    "field removal",
+    "translation file management",
+    "conditional directives"
+  ],
+  "versions": [
+    "April 2020 update"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You don't need to lock translatable strings since a BC + AL language update in April 2020",
+      "why_it_matters": "This clarifies that a long-standing best practice became obsolete, saving developers time on manual locking work"
+    },
+    {
+      "text": "Labels placed somewhere in your removed table are still considered in the translation file until you lock or delete them.",
+      "why_it_matters": "Important exception showing that automatic exclusion does not apply to all translatable elements, requiring developers to still handle labels manually"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004765,
+    "posts_in_call": 1
+  }
+}

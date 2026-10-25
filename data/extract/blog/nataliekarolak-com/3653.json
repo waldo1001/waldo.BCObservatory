@@ -1,0 +1,95 @@
+{
+  "item_id": "blog/nataliekarolak-com/3653",
+  "url": "https://nataliekarolak.wordpress.com/2025/10/02/docs-whats-new-in-bc-27-for-developers/",
+  "title": "Docs: What’s new in BC 27 for developers",
+  "source": "nataliekarolak-com",
+  "published_at": "2025-10-02T13:31:02.000Z",
+  "words": 2059,
+  "summary": "Business Central 27 (released October 1, 2025) introduces new AL methods, properties, and features for developers, including automation APIs for feature management, enhanced text/record operations, smarter pipelines with directory configuration, improved Copilot integration, and updated compiler rules with stricter error handling.",
+  "key_points": [
+    "New AL methods for GUID creation, truncate operations, text manipulation, and record field access by name",
+    "Enhanced properties including MaskType for sensitive data masking, TestType for test organization, and new AllowInCustomizations values for field editability",
+    "Smarter pipelines feature with directory.app.props.json for reusable configuration and ALTool compile command support",
+    "Changed Date method behavior on blank query columns and stricter AL compiler rules with new error codes",
+    "Summary system part customization for Copilot and support for Document ExtendedDataType on media fields"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "al language",
+    "compiler",
+    "automation apis",
+    "properties",
+    "methods",
+    "pipelines",
+    "testing",
+    "copilot",
+    "on-premises"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "TestType Property"
+    },
+    {
+      "type": "codeunit",
+      "name": "RequiredTestIsolation property"
+    },
+    {
+      "type": "table",
+      "name": "AllObj"
+    },
+    {
+      "type": "table",
+      "name": "AllObjWithCaption"
+    },
+    {
+      "type": "page",
+      "name": "Page Metadata"
+    },
+    {
+      "type": "report",
+      "name": "Report Metadata"
+    },
+    {
+      "type": "codeunit",
+      "name": "Codeunit Metadata"
+    }
+  ],
+  "features": [
+    "Automation APIs for Feature Management",
+    "New AL methods (GUID, Truncate, TextConst)",
+    "Directory.app.props.json configuration",
+    "ALTool compile command",
+    "MaskType property for sensitive data",
+    "Test codeunit properties (TestType, RequiredTestIsolation)",
+    "Editable fields in page customizations",
+    "Summary system part for Copilot customization"
+  ],
+  "versions": [
+    "27",
+    "27.0",
+    "27.1",
+    "2025 release wave 2",
+    "runtime 16.0",
+    "runtime 15.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The directory.app.props.json file defines reusable variables and app.json properties for one or more AL apps in a folder.",
+      "why_it_matters": "This feature enables developers to manage consistent configuration across multiple AL applications efficiently."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.014766,
+    "posts_in_call": 1
+  }
+}

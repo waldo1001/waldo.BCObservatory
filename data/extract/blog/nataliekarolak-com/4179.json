@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/nataliekarolak-com/4179",
+  "url": "https://nataliekarolak.wordpress.com/2026/10/02/docs-whats-new-in-bc-29-for-developers-and-admins/",
+  "title": "Docs: What’s new in BC 29 for developers and admins",
+  "source": "nataliekarolak-com",
+  "published_at": "2026-10-02T10:35:21.000Z",
+  "words": 2614,
+  "summary": "Business Central 29 (2026 release wave 2) released October 1, 2026 includes new AL methods, testability enhancements, reporting improvements with composite layouts and Word add-in support, interface default implementations, and agentic developer tools with MCP servers for AI-assisted development.",
+  "key_points": [
+    "New AL methods for IsolatedStorage read isolation, ModuleInfo access, Record.IsDirty(), and shared resources via publicResourceFolders",
+    "Table extension keys now mix base table and extension fields; four new system flow fields for user names/full names added",
+    "Default interface methods allow adding functionality to published interfaces without breaking existing implementors",
+    "TestHandlers property enables lifecycle callbacks for cross-cutting tasks; data-driven tests via TestDataSource attribute",
+    "Composite Word layouts with header/footer and theme parts; Word Add-in always included in runtime 18.0+ without feature flag"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "al language v18",
+    "testability",
+    "reporting layouts",
+    "interfaces",
+    "agentic development",
+    "mcp server",
+    "deprecations"
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "TestHandler"
+    },
+    {
+      "type": "enum",
+      "name": "DefaultTestHandler"
+    },
+    {
+      "type": "codeunit",
+      "name": "Index Management"
+    }
+  ],
+  "features": [
+    "IsolatedStorage read isolation levels",
+    "ModuleInfo methods for help and resources",
+    "Table extension key optimization",
+    "System flow fields for user audit trails",
+    "Default interface methods",
+    "Testability handlers and data-driven tests",
+    "Composite Word layouts",
+    "Report inbox APIs"
+  ],
+  "versions": [
+    "29",
+    "29.0",
+    "2026 release wave 2",
+    "AL 18.0",
+    "runtime 18.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Default interface methods let you add new functionality to a published interface without breaking existing implementors.",
+      "why_it_matters": "Enables safer evolution of interfaces in production extensions without requiring implementors to update code"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0168,
+    "posts_in_call": 1
+  }
+}

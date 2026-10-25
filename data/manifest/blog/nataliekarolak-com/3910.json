@@ -1,0 +1,45 @@
+{
+  "id": "blog/nataliekarolak-com/3910",
+  "pillar": "blog",
+  "source": "nataliekarolak-com",
+  "tier": "community",
+  "title": "DataTransfer type causing runtime errors",
+  "url": "https://nataliekarolak.wordpress.com/2026/01/09/datatransfer-type-causing-runtime-errors/",
+  "published_at": "2026-01-09T10:42:25.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-25T18:00:19.950Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T18:00:37.269Z",
+      "path": "vault:posts/nataliekarolak-com/3910.md",
+      "words": 237
+    },
+    "extracted": {
+      "at": "2026-10-25T18:00:48.183Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005231
+    },
+    "summarized": {
+      "at": "2026-10-25T18:00:48.184Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T18:00:48.185Z"
+    },
+    "published": {
+      "at": "2026-10-25T18:00:48.193Z",
+      "path": "content/posts/nataliekarolak-com/3910.md"
+    }
+  },
+  "input_hash": "2026-02-18T08:25:14.000Z",
+  "attempts": 0,
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c20839a90d7fbca5fba37c25d46acefd9964302a53916000a913d742cc94fc76"
+}
