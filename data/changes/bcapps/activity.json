@@ -1,18 +1,196 @@
 {
   "open": [
     {
-      "number": 13203,
-      "title": "[main] Bug 656535 Additional Reporting Currency Difference After Closing Income Statement - related to 625803",
-      "url": "https://github.com/microsoft/BCApps/pull/13203",
+      "number": 12453,
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2777964",
+      "url": "https://github.com/microsoft/BCApps/pull/12453",
       "base": "main",
       "major": "30",
-      "author": "MSNehaNawal",
+      "author": "olprod",
+      "labels": [
+        "AL: Apps (W1)",
+        "Ownership: Needs Review",
+        "Team: Other"
+      ],
+      "draft": false,
+      "created_at": "2026-10-06T23:37:44Z",
+      "updated_at": "2026-10-24T23:39:07Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13052,
+      "title": "[Shopify] Upgrade tax matching to GPT-5.6 Ceres",
+      "url": "https://github.com/microsoft/BCApps/pull/13052",
+      "base": "main",
+      "major": "30",
+      "author": "onbuyuka",
+      "labels": [
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-10-20T11:20:48Z",
+      "updated_at": "2026-10-24T20:04:19Z",
+      "community_contribution": false
+    },
+    {
+      "number": 9045,
+      "title": "Config. Packages with Native AL XML Data Types",
+      "url": "https://github.com/microsoft/BCApps/pull/9045",
+      "base": "main",
+      "major": "30",
+      "author": "pri-kise",
+      "labels": [
+        "ADO: Sync",
+        "From Fork",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-07-02T16:35:46Z",
+      "updated_at": "2026-10-24T18:00:16Z",
+      "community_contribution": true
+    },
+    {
+      "number": 12818,
+      "title": "Use AllowOutboundFromHandler in API test codeunits",
+      "url": "https://github.com/microsoft/BCApps/pull/12818",
+      "base": "main",
+      "major": "30",
+      "author": "darjoo",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-10-14T12:04:29Z",
+      "updated_at": "2026-10-24T17:44:54Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12942,
+      "title": "Doc. Attachment List Factbox: tighten the unfiltered-delete guard (follow-up to #12609)",
+      "url": "https://github.com/microsoft/BCApps/pull/12942",
+      "base": "main",
+      "major": "30",
+      "author": "darjoo",
+      "labels": [
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-10-16T13:25:42Z",
+      "updated_at": "2026-10-24T17:36:37Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12147,
+      "title": "Bugs/add corp card basics",
+      "url": "https://github.com/microsoft/BCApps/pull/12147",
+      "base": "main",
+      "major": "30",
+      "author": "Alexander-Ya",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-09-30T13:22:26Z",
+      "updated_at": "2026-10-24T17:00:12Z",
+      "community_contribution": false
+    },
+    {
+      "number": 9587,
+      "title": "Concurrent posting for General Ledger entries",
+      "url": "https://github.com/microsoft/BCApps/pull/9587",
+      "base": "main",
+      "major": "30",
+      "author": "Alexander-Ya",
       "labels": [
         "Team: Finance"
       ],
       "draft": false,
-      "created_at": "2026-10-23T09:53:48Z",
-      "updated_at": "2026-10-24T01:00:51Z",
+      "created_at": "2026-07-18T15:36:48Z",
+      "updated_at": "2026-10-24T16:05:27Z",
+      "community_contribution": false
+    },
+    {
+      "number": 11104,
+      "title": "Extract NL customization to object extensions v3",
+      "url": "https://github.com/microsoft/BCApps/pull/11104",
+      "base": "main",
+      "major": "30",
+      "author": "Alexander-Ya",
+      "labels": [
+        "Build: scripts & configs",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-09-06T16:38:18Z",
+      "updated_at": "2026-10-24T15:38:24Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12603,
+      "title": "Features/extract intercompany module",
+      "url": "https://github.com/microsoft/BCApps/pull/12603",
+      "base": "main",
+      "major": "30",
+      "author": "Alexander-Ya",
+      "labels": [
+        "AL: Apps (W1)",
+        "Build: scripts & configs",
+        "Ownership: Needs Review",
+        "Team: Other"
+      ],
+      "draft": false,
+      "created_at": "2026-10-09T09:02:01Z",
+      "updated_at": "2026-10-24T15:28:38Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12929,
+      "title": "[Main]\"Use GLN in Electronic Documents\" on the Company Information is not respected when importing E-Docs from Inbound E-Documents page using the Import XML action.",
+      "url": "https://github.com/microsoft/BCApps/pull/12929",
+      "base": "main",
+      "major": "30",
+      "author": "Shikhverma",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-10-16T10:10:01Z",
+      "updated_at": "2026-10-24T14:29:03Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13013,
+      "title": "Add scoped runtime placeholders for AI test inputs",
+      "url": "https://github.com/microsoft/BCApps/pull/13013",
+      "base": "main",
+      "major": "30",
+      "author": "nikolakukrika",
+      "labels": [
+        "AL: Tools",
+        "Build: scripts & configs",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-10-19T18:33:00Z",
+      "updated_at": "2026-10-24T10:38:27Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12867,
+      "title": "[29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines",
+      "url": "https://github.com/microsoft/BCApps/pull/12867",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "neeleshsinghal",
+      "labels": [
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-10-15T05:06:30Z",
+      "updated_at": "2026-10-24T09:38:56Z",
       "community_contribution": false
     },
     {
@@ -27,7 +205,52 @@
       ],
       "draft": false,
       "created_at": "2026-10-07T23:22:16Z",
-      "updated_at": "2026-10-24T00:54:50Z",
+      "updated_at": "2026-10-24T09:38:23Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13224,
+      "title": "[29.X]-\"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify\" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.",
+      "url": "https://github.com/microsoft/BCApps/pull/13224",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "neeleshsinghal",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-24T09:32:49Z",
+      "updated_at": "2026-10-24T09:34:23Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12467,
+      "title": "[Master]-Close Income Statement does not split accurately by Dimension values since 28.3",
+      "url": "https://github.com/microsoft/BCApps/pull/12467",
+      "base": "main",
+      "major": "30",
+      "author": "neeleshsinghal",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-07T09:11:58Z",
+      "updated_at": "2026-10-24T07:12:13Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13203,
+      "title": "[main] Bug 656535 Additional Reporting Currency Difference After Closing Income Statement - related to 625803",
+      "url": "https://github.com/microsoft/BCApps/pull/13203",
+      "base": "main",
+      "major": "30",
+      "author": "MSNehaNawal",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-23T09:53:48Z",
+      "updated_at": "2026-10-24T01:00:51Z",
       "community_contribution": false
     },
     {
@@ -44,21 +267,6 @@
       "draft": false,
       "created_at": "2026-10-15T08:02:53Z",
       "updated_at": "2026-10-24T00:52:18Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13052,
-      "title": "[Shopify] Upgrade tax matching to GPT-5.6 Ceres",
-      "url": "https://github.com/microsoft/BCApps/pull/13052",
-      "base": "main",
-      "major": "30",
-      "author": "onbuyuka",
-      "labels": [
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-10-20T11:20:48Z",
-      "updated_at": "2026-10-24T00:50:52Z",
       "community_contribution": false
     },
     {
@@ -125,23 +333,6 @@
       "community_contribution": false
     },
     {
-      "number": 12453,
-      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2776920",
-      "url": "https://github.com/microsoft/BCApps/pull/12453",
-      "base": "main",
-      "major": "30",
-      "author": "olprod",
-      "labels": [
-        "AL: Apps (W1)",
-        "Ownership: Needs Review",
-        "Team: Other"
-      ],
-      "draft": false,
-      "created_at": "2026-10-06T23:37:44Z",
-      "updated_at": "2026-10-23T23:37:22Z",
-      "community_contribution": false
-    },
-    {
       "number": 9296,
       "title": "Add test stability mode to the test tool",
       "url": "https://github.com/microsoft/BCApps/pull/9296",
@@ -156,23 +347,6 @@
       "draft": true,
       "created_at": "2026-07-09T21:50:17Z",
       "updated_at": "2026-10-23T20:51:49Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13013,
-      "title": "Add scoped runtime placeholders for AI test inputs",
-      "url": "https://github.com/microsoft/BCApps/pull/13013",
-      "base": "main",
-      "major": "30",
-      "author": "nikolakukrika",
-      "labels": [
-        "AL: Tools",
-        "Build: scripts & configs",
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-10-19T18:33:00Z",
-      "updated_at": "2026-10-23T20:48:58Z",
       "community_contribution": false
     },
     {
@@ -257,55 +431,6 @@
       "draft": true,
       "created_at": "2026-09-07T15:10:58Z",
       "updated_at": "2026-10-23T19:08:17Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12929,
-      "title": "[Main]\"Use GLN in Electronic Documents\" on the Company Information is not respected when importing E-Docs from Inbound E-Documents page using the Import XML action.",
-      "url": "https://github.com/microsoft/BCApps/pull/12929",
-      "base": "main",
-      "major": "30",
-      "author": "Shikhverma",
-      "labels": [
-        "AL: Apps (W1)",
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-10-16T10:10:01Z",
-      "updated_at": "2026-10-23T19:02:46Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12603,
-      "title": "Features/extract intercompany module",
-      "url": "https://github.com/microsoft/BCApps/pull/12603",
-      "base": "main",
-      "major": "30",
-      "author": "Alexander-Ya",
-      "labels": [
-        "AL: Apps (W1)",
-        "Build: scripts & configs",
-        "Ownership: Needs Review",
-        "Team: Other"
-      ],
-      "draft": false,
-      "created_at": "2026-10-09T09:02:01Z",
-      "updated_at": "2026-10-23T18:44:38Z",
-      "community_contribution": false
-    },
-    {
-      "number": 9587,
-      "title": "Concurrent posting for General Ledger entries",
-      "url": "https://github.com/microsoft/BCApps/pull/9587",
-      "base": "main",
-      "major": "30",
-      "author": "Alexander-Ya",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-07-18T15:36:48Z",
-      "updated_at": "2026-10-23T18:44:20Z",
       "community_contribution": false
     },
     {
@@ -455,22 +580,6 @@
       "draft": false,
       "created_at": "2026-10-23T06:15:06Z",
       "updated_at": "2026-10-23T14:15:19Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12147,
-      "title": "Bugs/add corp card basics",
-      "url": "https://github.com/microsoft/BCApps/pull/12147",
-      "base": "main",
-      "major": "30",
-      "author": "Alexander-Ya",
-      "labels": [
-        "AL: Apps (W1)",
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-09-30T13:22:26Z",
-      "updated_at": "2026-10-23T14:04:42Z",
       "community_contribution": false
     },
     {
@@ -1088,52 +1197,6 @@
       "community_contribution": false
     },
     {
-      "number": 12467,
-      "title": "[Master]-Close Income Statement does not split accurately by Dimension values since 28.3",
-      "url": "https://github.com/microsoft/BCApps/pull/12467",
-      "base": "main",
-      "major": "30",
-      "author": "neeleshsinghal",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-10-07T09:11:58Z",
-      "updated_at": "2026-10-23T00:57:24Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12867,
-      "title": "[29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines",
-      "url": "https://github.com/microsoft/BCApps/pull/12867",
-      "base": "releases/29.x",
-      "major": "29",
-      "author": "neeleshsinghal",
-      "labels": [
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-10-15T05:06:30Z",
-      "updated_at": "2026-10-23T00:54:51Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12337,
-      "title": "[MAIN]-Bug 642602: Address AL1430 and remove exception from ruleset",
-      "url": "https://github.com/microsoft/BCApps/pull/12337",
-      "base": "main",
-      "major": "30",
-      "author": "v-ajaztabrez",
-      "labels": [
-        "Ownership: Needs Review",
-        "Team: Other"
-      ],
-      "draft": false,
-      "created_at": "2026-10-05T18:08:13Z",
-      "updated_at": "2026-10-22T22:36:26Z",
-      "community_contribution": false
-    },
-    {
       "number": 10660,
       "title": "Bug 611704: Align Tax Transaction Value ID assignment with G/L Entry pattern",
       "url": "https://github.com/microsoft/BCApps/pull/10660",
@@ -1552,59 +1615,6 @@
       "draft": false,
       "created_at": "2026-09-29T15:01:30Z",
       "updated_at": "2026-10-22T16:34:23Z",
-      "community_contribution": true
-    },
-    {
-      "number": 11662,
-      "title": "Fix #11390: Use ISO country codes in FatturaPA export",
-      "url": "https://github.com/microsoft/BCApps/pull/11662",
-      "base": "main",
-      "major": "30",
-      "author": "marcus905",
-      "labels": [
-        "From Fork",
-        "Team: Finance",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-09-21T12:54:56Z",
-      "updated_at": "2026-10-22T16:34:19Z",
-      "community_contribution": true
-    },
-    {
-      "number": 11026,
-      "title": "Service Line CalcVATAmountLines: count VAT Difference once and clear filters before OnAfterCalcVATAmountLines",
-      "url": "https://github.com/microsoft/BCApps/pull/11026",
-      "base": "main",
-      "major": "30",
-      "author": "Franco111000",
-      "labels": [
-        "From Fork",
-        "Ownership: Manual",
-        "Team: Finance",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-09-03T18:21:28Z",
-      "updated_at": "2026-10-22T16:34:17Z",
-      "community_contribution": true
-    },
-    {
-      "number": 10640,
-      "title": "Replace Continia Payment Management with Continia Banking",
-      "url": "https://github.com/microsoft/BCApps/pull/10640",
-      "base": "main",
-      "major": "30",
-      "author": "Avanti05",
-      "labels": [
-        "AL: Apps (W1)",
-        "From Fork",
-        "Team: Integrations",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-08-26T12:15:09Z",
-      "updated_at": "2026-10-22T16:34:15Z",
       "community_contribution": true
     },
     {

@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12927,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12927",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-24T23:48:23Z",
+  "merge_commit_sha": "8e97a483e5c7be6c20b0ceb023336e7876cf534a",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Add AboutTitle and AboutText to Workflow Categories page",
+  "body_hash": "5747cafd41a156927c947ad8d3b32a546dc65148ec8ed3da2c68d9bb0c3b5c7c",
+  "fixes_issues": [],
+  "work_items": [
+    654494
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowCategories.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowCategories.Page.al",
+        "status": "modified",
+        "key": "page/1508",
+        "type": "page",
+        "id": 1508,
+        "name": "Workflow Categories",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1508"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

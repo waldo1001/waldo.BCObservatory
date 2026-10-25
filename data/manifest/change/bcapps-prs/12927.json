@@ -1,0 +1,43 @@
+{
+  "id": "change/bcapps-prs/12927",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add AboutTitle and AboutText to Workflow Categories page",
+  "url": "https://github.com/microsoft/BCApps/pull/12927",
+  "published_at": "2026-10-24T23:48:23Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-25T00:22:29.979Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T00:22:53.539Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "8e97a483e5c7be6c20b0ceb023336e7876cf534a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12927,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8e97a483e5c7be6c20b0ceb023336e7876cf534a",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "add abouttitle and abouttext to workflow categories page"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "88ac6806b4a87d6b6e2b4e7233a926ed4cdb2f6c36e82ee8da756269a498ebef"
+}

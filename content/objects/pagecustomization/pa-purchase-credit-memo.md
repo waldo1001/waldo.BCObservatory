@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:15:39.036Z"
+  at: "2026-10-25T00:24:08.868Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f5400f9d351d9263a1835b4d2747ec33773d2363c18cf13ef9f08089fdc86961
+  input_hash: 0485d01d9d5242017c7644b2fde76267cff7e987a87520b36be0bd2e3829df17
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PayablesAgent/app/Navigation/PAPurchaseCreditMemo.PageCust.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12894
 object_type: pagecustomization
 object_id: null
 name: PA Purchase Credit Memo
@@ -76,6 +78,10 @@ relations:
 > Page customization "PA Purchase Credit Memo" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
 PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/PayablesAgent/app/Navigation/PAPurchaseCreditMemo.PageCust.al) · facts from BC29
+
+## Recent changes
+
+- 2026-10-22 [#12894 [PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice](../../changes/bcapps/12894.md) (main, BC30, feature, added)
 
 ## Across versions
 

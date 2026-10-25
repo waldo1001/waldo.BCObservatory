@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12337,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12337",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-24T18:23:08Z",
+  "merge_commit_sha": "e6ca51bb1175cac1be9f6ed6430e0bbf38a10783",
+  "author": "v-ajaztabrez",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[MAIN]-Bug 642602: Address AL1430 and remove exception from ruleset",
+  "body_hash": "07105b087aa963a860c413acfde57abfef3ded4cb9989943a3d00342aa0ab474",
+  "fixes_issues": [],
+  "work_items": [
+    642602
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Reports/StockRegisterforJobWork.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/rulesets/ruleset.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 6,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 1,
+    "deletions": 9,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "objects": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Reports/StockRegisterforJobWork.Report.al",
+        "status": "modified",
+        "key": "report/18468",
+        "type": "report",
+        "id": 18468,
+        "name": "Stock Register for Job Work",
+        "app": "INGST",
+        "cc": "in",
+        "page": "report/18468-in"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INGST"
+  ]
+}

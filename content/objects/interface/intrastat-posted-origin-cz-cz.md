@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:15:39.036Z"
+  at: "2026-10-25T00:24:08.868Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8d03f9657ed6e9e74b2f0bf10b2c55e1b2c17b4e923199f04f73350e28b7d790
+  input_hash: 2adcf4824de75ef95792e4a72df41c16cfa5e5721d3f4dc586405e47c813697e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatPostedOriginCZ.Interface.al
@@ -40,6 +40,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12846
 object_type: interface
 object_id: null
 name: Intrastat Posted Origin CZ
@@ -80,6 +82,10 @@ An object of the [CZ localization](../../localizations/cz.md), not part of W1.
 ## Procedures
 
 - `GetCountryOfOriginCode(IntrastatReportLine: Record "Intrastat Report Line"): Code[10]`
+
+## Recent changes
+
+- 2026-10-19 [#12846 [main] bug 652274 - [CZ] Add the Country/Region of Origin Code field to a document line](../../changes/bcapps/12846.md) (main, BC30, feature, added)
 
 ## Across versions
 

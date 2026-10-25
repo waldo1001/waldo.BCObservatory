@@ -1,0 +1,44 @@
+{
+  "id": "change/bcapps-prs/12337",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MAIN]-Bug 642602: Address AL1430 and remove exception from ruleset",
+  "url": "https://github.com/microsoft/BCApps/pull/12337",
+  "published_at": "2026-10-24T18:23:08Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-25T00:22:29.979Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T00:22:53.895Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "e6ca51bb1175cac1be9f6ed6430e0bbf38a10783:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12337,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e6ca51bb1175cac1be9f6ed6430e0bbf38a10783",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 642602 address al1430 and remove exception from ruleset"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5d20db4f9158ffac6704e9395ada0dcc170a2928e3c63a8b35e5e808c74cb1dd"
+}
