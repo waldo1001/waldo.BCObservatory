@@ -7,7 +7,7 @@
   "url": "https://miljan.rs/2025/11/17/polishing-xrechnung-and-zugferd-in-business-central/",
   "published_at": "2025-11-17T07:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T09:01:23.442Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-25T09:01:55.597Z",
       "path": "vault:posts/miljan-rs/812.md",
       "words": 2185
+    },
+    "extracted": {
+      "at": "2026-10-25T12:27:04.579Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.016222
+    },
+    "summarized": {
+      "at": "2026-10-25T12:27:04.580Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T12:27:04.582Z"
+    },
+    "published": {
+      "at": "2026-10-25T12:27:04.598Z",
+      "path": "content/posts/miljan-rs/812.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,10 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fd45770aa7aaeb47b33b2291ebd06d25fe810ad12eedd335b95cc35cb5b24950"
+  "output_hash": "a5b98e004cdc126476ed6db600ac4d9e718232275e259144e3c29cb3432ae95d",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-25T12:52:23.012Z"
+  }
 }

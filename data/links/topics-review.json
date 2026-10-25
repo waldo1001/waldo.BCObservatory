@@ -218,73 +218,78 @@
     "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts": {
       "post/aardvarklabs-blog/2271@de7854386541a124": {
         "verdict": "keep",
-        "reason": "Explains RDLC layout fundamentals and editing layouts with Report Builder.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "Explains RDLC layout fundamentals and editing layouts in Report Builder.",
+        "at": "2026-10-25T12:51:02.039Z"
+      },
+      "post/miljan-rs/698@bec4356f9f787950": {
+        "verdict": "keep",
+        "reason": "Covers a specific Word layout design technique (page breaks).",
+        "at": "2026-10-25T12:51:02.039Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619@9e099687770af155": {
         "verdict": "keep",
-        "reason": "Walks through building composite Word layouts, including AL properties.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "Walks through building composite Word layouts including AL properties.",
+        "at": "2026-10-25T12:51:02.039Z"
       },
       "post/thinkaboutit-be/7920@045cac9e80279d60": {
         "verdict": "drop",
-        "reason": "Release roundup that mentions layout status only as one item in a list.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "Release roundup where layout status is only a passing bullet.",
+        "at": "2026-10-25T12:51:02.039Z"
       },
       "post/thinkaboutit-be/8096@af9a75e67b746936": {
         "verdict": "keep",
-        "reason": "Covers how to insert fields into Word report layouts with the add-in data picker.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "Advises on field insertion methods when developing Word report layouts.",
+        "at": "2026-10-25T12:51:02.039Z"
       },
       "post/thinkaboutit-be/8250@4d0d426b1ccd0819": {
         "verdict": "keep",
-        "reason": "Explains composite document layouts as a model for designing Word layouts.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "Describes the composite Word document layout model.",
+        "at": "2026-10-25T12:51:02.039Z"
       },
       "video/-vdhfNMNZQk@bbe7afb04c2ac108": {
         "verdict": "keep",
-        "reason": "Demonstrates body, theme and header/footer composite layouts.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "Demonstrates composite document layouts with body, theme and header/footer parts.",
+        "at": "2026-10-25T12:51:02.039Z"
       },
       "video/BofJJPqgrTI@c4b74f10b0e4fe2e": {
         "verdict": "keep",
-        "reason": "Covers developing Excel layouts, including the metadata and translation worksheets.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "Developer-focused coverage of Excel layout features.",
+        "at": "2026-10-25T12:51:02.039Z"
       },
       "video/fy96_jdL1PQ@5e76d8486583f625": {
         "verdict": "drop",
-        "reason": "Broad reporting guide that is mostly about Power BI and training; layouts are mentioned only in passing.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "Broad reporting/training overview dominated by Power BI and adoption, too general.",
+        "at": "2026-10-25T12:51:02.039Z"
       },
       "video/hn92Al_x-s8@0b8efc57607d6620": {
         "verdict": "keep",
-        "reason": "Developer reporting features: report schema export, blank layouts and Excel named formulas.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "Covers developer report layout features like schema export and blank layouts.",
+        "at": "2026-10-25T12:51:02.039Z"
       },
       "video/mS6NDhj20yI@1983bd504cd5fca4": {
         "verdict": "keep",
-        "reason": "Covers Word add-in data picker and table insertion improvements for building document layouts.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "Demonstrates Word add-in data picker and layout lifecycle for document layouts.",
+        "at": "2026-10-25T12:51:02.039Z"
       },
       "video/PrGBqzTDsLw@d0f8a553e05a7cad": {
         "verdict": "drop",
-        "reason": "About customer profiling and onboarding; Excel layouts appear only as a side mention.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "About customer onboarding; Excel layouts only mentioned in passing.",
+        "at": "2026-10-25T12:51:02.039Z"
       },
       "video/vLcb31rfZ48@dc7434b09f901ead": {
         "verdict": "keep",
-        "reason": "Shows building Word layouts with the add-in's Add Data, field and repeater functions.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "Shows Word add-in data picker for building Word layouts.",
+        "at": "2026-10-25T12:51:02.039Z"
       },
       "video/XLUAuUWtJDw@58e19e4f16f34241": {
         "verdict": "keep",
-        "reason": "Shows Word add-in design controls and the table builder for authoring layouts.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "Demonstrates Word add-in design controls for building document layouts.",
+        "at": "2026-10-25T12:51:02.039Z"
       },
       "video/z7UTBiCNOo8@4dd7107140d29097": {
         "verdict": "drop",
-        "reason": "About shipped Excel reports becoming generally available and finance analytics, not about developing layouts.",
-        "at": "2026-10-24T00:35:18.075Z"
+        "reason": "About shipped Excel finance reports going GA rather than developing layouts.",
+        "at": "2026-10-25T12:51:02.039Z"
       }
     },
     "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports": {
@@ -433,10 +438,15 @@
       }
     },
     "topic/business-central/business-functionality/company-hub": {
+      "post/miljan-rs/639@d7616bdd40cf12c1": {
+        "verdict": "drop",
+        "reason": "It covers the Contoso Demo Data Tool for setting up demo companies, not the Company hub feature for working across multiple companies.",
+        "at": "2026-10-25T12:50:50.546Z"
+      },
       "video/6sH2u4jt-ow@2e781b393d46c355": {
         "verdict": "drop",
-        "reason": "About storing document attachments outside the database, which has nothing to do with the Company hub's multi-company overview.",
-        "at": "2026-10-21T09:35:50.183Z"
+        "reason": "It covers storing document attachments in external storage, which has nothing to do with the Company hub.",
+        "at": "2026-10-25T12:50:50.546Z"
       }
     },
     "topic/business-central/business-functionality/design-details/design-details-inventory-costing": {
@@ -1106,120 +1116,95 @@
       }
     },
     "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene": {
+      "post/miljan-rs/908@8cff2b6e3f167091": {
+        "verdict": "keep",
+        "reason": "Explains reversing posted G/L transactions via G/L Register and G/L Entries, which this section documents.",
+        "at": "2026-10-25T12:51:03.172Z"
+      },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/@a4e5283631dd023c": {
         "verdict": "keep",
-        "reason": "It explains how the Keep Description field behaves on general journal lines, and general journals are documented in this section.",
-        "at": "2026-10-21T09:23:48.219Z"
+        "reason": "Covers the Keep Description field on general journal lines, a general journal setting in this section.",
+        "at": "2026-10-25T12:51:03.172Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-59-allocation-account-design/@b8ec5c060d859a7e": {
         "verdict": "drop",
-        "reason": "It's about the AL codeunit and event design behind allocation accounts, so its subject is development internals rather than how to use the feature.",
-        "at": "2026-10-21T09:23:48.219Z"
+        "reason": "Its subject is the code behind allocation accounts (a code unit and event subscription) for developers, not how to use the feature.",
+        "at": "2026-10-25T12:51:03.172Z"
       },
       "post/thedynamicsexplorer-com/10452@8b54a76f741f23e7": {
         "verdict": "keep",
-        "reason": "It fixes a general journal posting error caused by batch number series settings and covers renumbering document numbers, which is part of working with general journals.",
-        "at": "2026-10-21T09:23:48.219Z"
-      },
-      "post/thedynamicsexplorer-com/36744@8566010f7fba9c17": {
-        "verdict": "drop",
-        "reason": "Its subject is how GP migration moves opening balances over, not working with the chart of accounts or the general ledger.",
-        "at": "2026-10-21T09:23:48.219Z"
-      },
-      "post/thedynamicsexplorer-com/36954@8557f7318d62fa38": {
-        "verdict": "drop",
-        "reason": "Recurring purchase lines are a purchasing and payables feature, and the G/L account only appears as a default on the invoice line.",
-        "at": "2026-10-21T09:23:48.219Z"
+        "reason": "Resolves a general journal posting error using the batch number series and the renumber document numbers function.",
+        "at": "2026-10-25T12:51:03.172Z"
       },
       "post/thedynamicsexplorer-com/37144@367af8682ba4c526": {
         "verdict": "keep",
-        "reason": "It explains how recurring general journals handle numbering and posting, and recurring journals are documented in this section.",
-        "at": "2026-10-21T09:23:48.219Z"
+        "reason": "Explains recurring general journal batches, posting number series and document number placeholders.",
+        "at": "2026-10-25T12:51:03.172Z"
       },
       "post/thedynamicsexplorer-com/8821@0f6a67f0aa4e78dc": {
         "verdict": "keep",
-        "reason": "Most of it shows how to filter the chart of accounts and use G/L Account Balance and G/L entries to see balances by dimension.",
-        "at": "2026-10-21T09:23:48.219Z"
+        "reason": "Shows filtering the chart of accounts and using G/L Account Balance to view G/L balances, part of this section.",
+        "at": "2026-10-25T12:51:03.172Z"
       },
       "video/1ugAYeEZLaU@6570422a9b128546": {
         "verdict": "keep",
-        "reason": "It demonstrates the setting that shows journal amounts as one signed field or as separate debit and credit fields.",
-        "at": "2026-10-21T09:23:48.219Z"
-      },
-      "video/5E6ikveL6N0@0ddc9e79d5115671": {
-        "verdict": "drop",
-        "reason": "Setting up posting groups is documented in finance setup, not in this G/L section.",
-        "at": "2026-10-21T09:23:48.219Z"
-      },
-      "video/5zXQ_aIT03s@3664100431bee932": {
-        "verdict": "drop",
-        "reason": "Allowed posting date ranges are general ledger setup and period-closing controls, which belong to a different section.",
-        "at": "2026-10-21T09:23:48.219Z"
+        "reason": "Demonstrates the Show Amounts setting in G/L setup for debit/credit display in journals.",
+        "at": "2026-10-25T12:51:03.172Z"
       },
       "video/BZF4MrVfvfY@921773ad8329b45e": {
         "verdict": "keep",
-        "reason": "It demonstrates G/L allocation accounts with fixed and variable allocations in general journals, which this section documents.",
-        "at": "2026-10-21T09:23:48.219Z"
+        "reason": "Covers fixed and variable allocation accounts with general journals, a G/L feature documented here.",
+        "at": "2026-10-25T12:51:03.172Z"
       },
       "video/fIktVTGZkjE@4eca5c49d390b970": {
         "verdict": "keep",
-        "reason": "It demonstrates reversing G/L transactions and correcting dimensions on G/L entries in Business Central.",
-        "at": "2026-10-21T09:23:48.219Z"
+        "reason": "Demonstrates reversing posted G/L transactions in Business Central, which this section documents.",
+        "at": "2026-10-25T12:51:03.172Z"
       },
       "video/HpIxYyjQWqs@0abc01756f2559b5": {
         "verdict": "keep",
-        "reason": "Demonstrates general journals, templates, balancing accounts and reversing registers, all core to this section.",
-        "at": "2026-10-21T09:23:50.172Z"
+        "reason": "Demonstrates general journal entry, posting and reversing G/L registers, core to this section.",
+        "at": "2026-10-25T12:51:10.058Z"
       },
       "video/kuKwjRyNcoE@b0731e989cbc5fd4": {
         "verdict": "keep",
-        "reason": "Covers Journal Check validation in the general journal, a feature documented under G/L journal work.",
-        "at": "2026-10-21T09:23:50.172Z"
+        "reason": "Shows Journal Check validation of general journal lines, a feature documented with general journals.",
+        "at": "2026-10-25T12:51:10.058Z"
       },
       "video/lcu53ikOk7s@298d1a21895613a1": {
         "verdict": "keep",
-        "reason": "Shows G/L account deletion safeguards in General Ledger Setup, part of managing the chart of accounts.",
-        "at": "2026-10-21T09:23:50.172Z"
-      },
-      "video/mZNfMPpxovE@b72b5bb5b19533ca": {
-        "verdict": "drop",
-        "reason": "About the GP migration historical snapshot, a migration capability rather than G/L work.",
-        "at": "2026-10-21T09:23:50.172Z"
+        "reason": "Covers G/L setup settings that block deletion of G/L accounts in the chart of accounts.",
+        "at": "2026-10-25T12:51:10.058Z"
       },
       "video/NkYNL_5Zfoc@c0f3dad406bca4eb": {
         "verdict": "keep",
-        "reason": "Demonstrates entering and posting general journal entries in Business Central.",
-        "at": "2026-10-21T09:23:50.172Z"
+        "reason": "Despite the SL comparison, it demonstrates general journal batches and entry in Business Central.",
+        "at": "2026-10-25T12:51:10.058Z"
       },
       "video/r8HWIk5E0c0@7f7fac271f211510": {
         "verdict": "keep",
-        "reason": "Shows reversing journal entries and correcting posted G/L entries, which this section documents.",
-        "at": "2026-10-21T09:23:50.172Z"
+        "reason": "Demonstrates reversing journal postings and correcting entries in Business Central's general ledger.",
+        "at": "2026-10-25T12:51:10.058Z"
       },
       "video/VIda0Ok1SSQ@d1f3a00ba84b4e80": {
         "verdict": "keep",
-        "reason": "Covers deferral templates and deferral posting controls in General Ledger Setup, documented under G/L revenue/expense deferral.",
-        "at": "2026-10-21T09:23:50.172Z"
+        "reason": "Covers deferral templates and deferral posting controls set in general ledger setup.",
+        "at": "2026-10-25T12:51:10.058Z"
       },
       "video/WYd8Qn3wVQQ@a6b51207fc2d8841": {
-        "verdict": "keep",
-        "reason": "Its subject is editing G/L budgets, which this section documents; the spreadsheet tool is only the means.",
-        "at": "2026-10-21T09:23:50.172Z"
+        "verdict": "drop",
+        "reason": "Mainly about a spreadsheet editing tool, and G/L budgets probably belong under Financial analytics.",
+        "at": "2026-10-25T12:51:10.058Z"
       },
       "video/xh63GaWwZqA@d735be1d2374b9f7": {
         "verdict": "keep",
-        "reason": "Demonstrates allocation accounts generating lines in general journals, documented in this section.",
-        "at": "2026-10-21T09:23:50.172Z"
-      },
-      "video/XJ0JHHQ7GzA@a260d8176e095348": {
-        "verdict": "drop",
-        "reason": "About posting groups and general posting setup, which is documented in the posting-group setup material, not this section.",
-        "at": "2026-10-21T09:23:50.172Z"
+        "reason": "Demonstrates allocation accounts generating general journal lines before posting.",
+        "at": "2026-10-25T12:51:10.058Z"
       },
       "video/zQhtuFbxJm4@4d6e4ef75fb5e811": {
         "verdict": "keep",
-        "reason": "Demonstrates general journal batches and journal entry in Business Central.",
-        "at": "2026-10-21T09:23:50.172Z"
+        "reason": "Despite the GP comparison, it demonstrates general journal batches and entries in Business Central.",
+        "at": "2026-10-25T12:51:10.058Z"
       }
     },
     "topic/business-central/business-functionality/finance/working-with-currencies": {
@@ -1604,15 +1589,20 @@
       }
     },
     "topic/business-central/business-functionality/local-functionality/france/e-invoicing": {
+      "post/miljan-rs/812@4fa83c52df48c5b1": {
+        "verdict": "drop",
+        "reason": "It covers the German xRechnung and ZUGFeRD formats, not France's e-invoicing localization.",
+        "at": "2026-10-25T12:50:51.169Z"
+      },
       "video/axQegcPweNY@984b2805008f4683": {
         "verdict": "drop",
-        "reason": "Covers the general E-Documents draft page and AI matching for purchase invoices, with nothing specific to France's local e-invoicing feature.",
-        "at": "2026-10-23T01:11:06.951Z"
+        "reason": "It shows the general e-documents draft page for purchase invoices, with nothing specific to France's e-invoicing.",
+        "at": "2026-10-25T12:50:51.169Z"
       },
       "video/CCIGX86ljYQ@4f474e3960db5f0d": {
         "verdict": "drop",
-        "reason": "Covers document preview in the general E-Documents feature, which is not part of France's local e-invoicing feature.",
-        "at": "2026-10-23T01:11:06.951Z"
+        "reason": "It shows general e-document preview and processing features, with nothing specific to France's e-invoicing.",
+        "at": "2026-10-25T12:50:51.169Z"
       }
     },
     "topic/business-central/business-functionality/local-functionality/india/subcontracting": {
@@ -2253,25 +2243,30 @@
       }
     },
     "topic/business-central/business-functionality/set-up-business-central/set-up-finance": {
+      "post/miljan-rs/639@d7616bdd40cf12c1": {
+        "verdict": "drop",
+        "reason": "It is about the Contoso demo data tool for setting up companies, which covers many modules, not about setting up finance.",
+        "at": "2026-10-25T12:50:54.864Z"
+      },
       "video/4IumfDNN8GU@551d01e9e78deeb8": {
         "verdict": "keep",
-        "reason": "It walks through how to set up posting groups and VAT posting setup, which is core finance setup.",
-        "at": "2026-10-22T01:10:19.932Z"
+        "reason": "It shows how to set up posting groups and VAT posting setup, which are core finance setup tasks this section documents.",
+        "at": "2026-10-25T12:50:54.864Z"
       },
       "video/5E6ikveL6N0@6ab56d7ae983d9ba": {
         "verdict": "keep",
-        "reason": "It compares with Dynamics GP but shows how Business Central's business, product and customer posting groups and its posting setup are configured.",
-        "at": "2026-10-22T01:10:19.932Z"
+        "reason": "It shows how to set up business, product, customer and inventory posting groups in Business Central, which is finance setup this section covers.",
+        "at": "2026-10-25T12:50:54.864Z"
       },
       "video/5zXQ_aIT03s@7cf64c65d47a8e4c": {
         "verdict": "keep",
-        "reason": "It covers the 'Allow posting from' and 'Allow posting to' fields in general ledger setup, which is part of setting up finance.",
-        "at": "2026-10-22T01:10:19.932Z"
+        "reason": "It demonstrates the Allow Posting From/To fields in General Ledger Setup and per-user overrides, which are part of finance setup.",
+        "at": "2026-10-25T12:50:54.864Z"
       },
       "video/XJ0JHHQ7GzA@ae1cba0bd8268fd4": {
         "verdict": "keep",
-        "reason": "It compares with Dynamics SL but shows how Business Central's general posting setup and posting groups are configured.",
-        "at": "2026-10-22T01:10:19.932Z"
+        "reason": "It shows how to configure general posting setup and posting groups in Business Central, which is finance setup this section documents.",
+        "at": "2026-10-25T12:50:54.864Z"
       }
     },
     "topic/business-central/business-functionality/set-up-business-central/set-up-fixed-assets": {
@@ -2299,15 +2294,15 @@
       }
     },
     "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing": {
-      "post/olofsimren-com/3865@c14d24a324d06bc1": {
+      "post/miljan-rs/639@d7616bdd40cf12c1": {
         "verdict": "drop",
-        "reason": "A customer case study about automating warehouse routing, freight and business rules; it doesn't cover how to set up manufacturing.",
-        "at": "2026-10-21T09:33:12.615Z"
+        "reason": "The post is about the Contoso demo data tool for creating companies, and manufacturing appears only as one module on a list, not as manufacturing setup.",
+        "at": "2026-10-25T12:50:56.094Z"
       },
       "video/zt9_HEmPKNg@0df3f526f7f92060": {
         "verdict": "keep",
-        "reason": "It shows how to set up work centers, machine centers, shop calendars and work shifts, which are core manufacturing setup tasks this section documents.",
-        "at": "2026-10-21T09:33:12.615Z"
+        "reason": "The video shows how to set up work centers, machine centers, shop calendars and work shifts, which are core parts of setting up manufacturing.",
+        "at": "2026-10-25T12:50:56.094Z"
       }
     },
     "topic/business-central/business-functionality/set-up-business-central/set-up-project-management": {
@@ -2635,88 +2630,83 @@
     "topic/business-central/copilot-and-agent-capabilities": {
       "post/aardvarklabs-blog/3315@0edf025d892d5b2f": {
         "verdict": "keep",
-        "reason": "Explains how to troubleshoot Business Central agents using task logs, permissions, profiles and Copilot credit monitoring, which falls under managing agent capabilities.",
-        "at": "2026-10-21T09:22:41.451Z"
+        "reason": "Explains managing agents: reviewing task logs, adjusting agent permissions and profiles, and monitoring Copilot credit use.",
+        "at": "2026-10-25T12:51:05.211Z"
       },
       "post/demiliani-com/11739@32e1caa7db380894": {
         "verdict": "keep",
-        "reason": "Explains how the Sales Order Agent processes email quotes and how its billing works, a listed subtopic.",
-        "at": "2026-10-21T09:22:41.451Z"
-      },
-      "post/gerardorenteria-blog/11616@06e39428fab64566": {
-        "verdict": "drop",
-        "reason": "Release-wave roundup that mostly links to release plans; Copilot and agents get only a general mention.",
-        "at": "2026-10-21T09:22:41.451Z"
+        "reason": "Covers what the Sales Order Agent does and how agent capabilities are billed, both topics in this section.",
+        "at": "2026-10-25T12:51:05.211Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-tech-days-2026/@a06895f00c29036d": {
         "verdict": "drop",
-        "reason": "Conference reflection on community attitudes to AI agents; it documents no Business Central capability.",
-        "at": "2026-10-21T09:22:41.451Z"
+        "reason": "A conference recap about community feeling toward AI agents; too general to tie to any documented capability.",
+        "at": "2026-10-25T12:51:05.211Z"
       },
       "post/thinkaboutit-be/7284@b770c836c51cb9d0": {
         "verdict": "drop",
-        "reason": "Update roundup that only mentions in passing that the Payables Agent and Sales Order Agent are generally available.",
-        "at": "2026-10-21T09:22:41.451Z"
+        "reason": "A release-update roundup that only mentions in passing that the agents are now generally available.",
+        "at": "2026-10-25T12:51:05.211Z"
       },
       "post/thinkaboutit-be/7797@ffc5fc0ed33817e8": {
         "verdict": "drop",
-        "reason": "Announcement listing training sessions; it covers no specific Copilot or agent capability.",
-        "at": "2026-10-21T09:22:41.451Z"
+        "reason": "A list of launch training sessions across many areas; Copilot features get only a passing mention.",
+        "at": "2026-10-25T12:51:05.211Z"
       },
       "video/0h8QBNmeORQ@d237eee5574f2b5e": {
         "verdict": "keep",
-        "reason": "Video demonstrates the Sales Order Agent and Payables Agent at work, both listed subtopics.",
-        "at": "2026-10-21T09:22:41.451Z"
+        "reason": "Shows the Sales Order Agent and Payables Agent in action, both subtopics of this section.",
+        "at": "2026-10-25T12:51:05.211Z"
       },
       "video/1IIlArcHpOY@fa48c4fa0d4802da": {
         "verdict": "drop",
-        "reason": "Covers writing instructions for custom agents (the agent framework and an Accounts Receivable agent), which belongs to agent development, not the prebuilt capabilities listed here.",
-        "at": "2026-10-21T09:22:41.451Z"
+        "reason": "About writing instructions to build custom agents, which belongs to agent development rather than the built-in capabilities documented here.",
+        "at": "2026-10-25T12:51:05.211Z"
       },
-      "video/1QuV_vkbNVU@88a4aaf51d17908b": {
-        "verdict": "drop",
-        "reason": "About the Spreadsheets for Business Central feature; the AI agent appears only as a minor topic.",
-        "at": "2026-10-21T09:22:41.451Z"
+      "video/2uXVammbab0@fa3481568c91f678": {
+        "verdict": "keep",
+        "reason": "Demonstrates Chat with Copilot, the Copilot and Agent Capabilities page and the item-substitution suggestions.",
+        "at": "2026-10-25T12:51:05.211Z"
       },
       "video/58yOwN3GY2Q@3f00b8503691c0f8": {
         "verdict": "keep",
-        "reason": "A tour of the built-in Copilot features in this section: marketing text suggestions, bank reconciliation assist and analysis assist.",
-        "at": "2026-10-21T09:22:42.143Z"
+        "reason": "Demonstrates built-in Copilot features such as marketing text suggestions, bank reconciliation assist and analysis views.",
+        "at": "2026-10-25T12:51:09.869Z"
       },
       "video/eDi32pS8eMo@7eaf3e57779c66aa": {
         "verdict": "drop",
-        "reason": "About an Advanced Spreadsheets reporting app and its AI skills, which is not one of the Copilot or agent capabilities documented here.",
-        "at": "2026-10-21T09:22:42.143Z"
+        "reason": "About an Advanced Spreadsheets reporting app's AI skills, which is not a Copilot capability this section documents.",
+        "at": "2026-10-25T12:51:09.869Z"
       },
       "video/H5EuObmeF4o@12b92711090ce702": {
         "verdict": "keep",
-        "reason": "Much of this release overview covers the Sales Order Agent, Payables Agent, Autofill, Summarize and analysis assist.",
-        "at": "2026-10-21T09:22:42.143Z"
+        "reason": "Covers several of this section's features: the Sales Order Agent, Payables Agent, Autofill, Summarize and Analysis assist.",
+        "at": "2026-10-25T12:51:09.869Z"
       },
       "video/JBGuaqk5nXk@ac7484d03508a957": {
         "verdict": "drop",
-        "reason": "Sustainability emissions Copilot is not among this section's capabilities; it belongs to the sustainability documentation.",
-        "at": "2026-10-21T09:22:42.143Z"
+        "reason": "Copilot for Sustainability emissions calculation is not one of this section's documented capabilities.",
+        "at": "2026-10-25T12:51:09.869Z"
       },
       "video/K0i5rvqPC_o@1953128c28677979": {
         "verdict": "keep",
-        "reason": "Shows how to inspect and troubleshoot Business Central agent tasks, logs and decisions, including sales order classification.",
-        "at": "2026-10-21T09:22:42.143Z"
+        "reason": "Explains how to monitor and troubleshoot Business Central agents through task logs and details, which supports the agent capabilities documented here.",
+        "at": "2026-10-25T12:51:09.869Z"
       },
       "video/PeI-Jv4KVn8@d7787afd64d454ce": {
         "verdict": "drop",
-        "reason": "A partner's maintenance-intake Copilot solution, not a built-in capability documented in this section.",
-        "at": "2026-10-21T09:22:42.143Z"
+        "reason": "A partner-built maintenance intake Copilot, not a Business Central Copilot capability documented in this section.",
+        "at": "2026-10-25T12:51:09.869Z"
       },
       "video/xJ8gYzvWnTI@557e7f0b0553d470": {
         "verdict": "keep",
-        "reason": "Demonstrates the agent task pane, review bar and agent task management for the Sales Order and Payables agents.",
-        "at": "2026-10-21T09:22:42.143Z"
+        "reason": "Shows the Sales Order Agent and Payables Agent along with the agent task pane and review experience.",
+        "at": "2026-10-25T12:51:09.869Z"
       },
       "video/ygtO_oUPil4@cd46371bde298ea4": {
         "verdict": "drop",
-        "reason": "A partner's complaint-management Copilot extension, not a built-in capability documented in this section.",
-        "at": "2026-10-21T09:22:42.143Z"
+        "reason": "A partner's complaint management Copilot solution, not a capability this section documents.",
+        "at": "2026-10-25T12:51:09.869Z"
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/analysis-assist": {
@@ -2954,18 +2944,18 @@
     "topic/business-central/copilot-and-agent-capabilities/map-e-documents-preview": {
       "video/CoQH7Z-leVE@ced6f07043e5146d": {
         "verdict": "keep",
-        "reason": "Demonstrates Copilot matching e-invoice lines to purchase order lines, including tolerances and discrepancies, which is the core of this section.",
-        "at": "2026-10-21T09:28:14.911Z"
+        "reason": "Shows Copilot matching e-invoice lines to purchase order lines, including tolerance levels and discrepancies, which is what this section documents.",
+        "at": "2026-10-25T12:51:02.100Z"
       },
       "video/D56EVy3JgHA@6b5218e901958018": {
         "verdict": "keep",
-        "reason": "Covers Copilot-based purchase order matching for e-documents, including LLM matching and matching rules, which this section documents.",
-        "at": "2026-10-21T09:28:14.911Z"
+        "reason": "Covers the Copilot purchase order matching features for e-documents, such as automatic matching and matching rules, which this section documents.",
+        "at": "2026-10-25T12:51:02.100Z"
       },
-      "video/kAFdLxb2ghc@744127e4eea046ff": {
+      "video/S5Xw-b8YF-c@fb7f81edcad274c8": {
         "verdict": "drop",
-        "reason": "A broad overview of the e-documents framework where Copilot matching is just one item among dozens, so it only mentions the subject in passing.",
-        "at": "2026-10-21T09:28:14.911Z"
+        "reason": "Covers e-document APIs, business events and integration, not Copilot matching of e-document lines.",
+        "at": "2026-10-25T12:51:02.100Z"
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/marketing-text-suggestions": {
@@ -4063,10 +4053,10 @@
       }
     },
     "topic/dev-itpro/administration/monitor-and-analyze-telemetry/telemetry-by-area": {
-      "post/demiliani-com/13369@d8fbd007f57316b6": {
-        "verdict": "keep",
-        "reason": "It covers the page view telemetry signal and its new deviceHardware and network dimensions, which is one of the telemetry areas this section documents.",
-        "at": "2026-10-07T05:19:20.926Z"
+      "video/IAacWsvav1E@b23d11c0809cc74c": {
+        "verdict": "drop",
+        "reason": "The video is about index management and only shows index lifecycle telemetry briefly, so it doesn't cover the section's overview of telemetry areas.",
+        "at": "2026-10-25T12:51:43.618Z"
       }
     },
     "topic/dev-itpro/administration/onboard-your-customers": {
@@ -4196,34 +4186,34 @@
     },
     "topic/dev-itpro/business-central-on-premises/administration/analyzing-database-performance": {
       "post/aardvarklabs-blog/3761@9d3e4639dd2a8b8d": {
-        "verdict": "drop",
-        "reason": "Mainly about using Copilot to turn the Database Missing Indexes export into AL tableextension index code, not about analyzing an on-premises database's performance.",
-        "at": "2026-10-21T09:26:57.143Z"
-      },
-      "post/aardvarklabs-blog/4056@450ff9b9839b1ccd": {
-        "verdict": "drop",
-        "reason": "Covers the v29 Index Management page for SIFT keys and indexes, a separate in-client capability rather than on-premises database performance analysis.",
-        "at": "2026-10-21T09:26:57.143Z"
+        "verdict": "keep",
+        "reason": "Shows how to use the Database Missing Indexes data and the Performance Profiler to analyse and improve database performance.",
+        "at": "2026-10-25T12:51:14.707Z"
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/@22285a8e8c4cce4e": {
         "verdict": "drop",
-        "reason": "Weekly roundup in which index management is one item among unrelated topics, too general to tie to this section.",
-        "at": "2026-10-21T09:26:57.143Z"
+        "reason": "This weekly digest touches index triage in only one of five unrelated items, so database performance analysis is a passing mention.",
+        "at": "2026-10-25T12:51:14.707Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3728891053687741480@67092aaf3f33db79": {
         "verdict": "drop",
-        "reason": "About switching SIFT indexes on or off in Table Information, an index-management feature documented elsewhere, not database performance analysis.",
-        "at": "2026-10-21T09:26:57.143Z"
+        "reason": "About switching SIFT indexes on or off from Table Information, which is an index management feature rather than performance analysis.",
+        "at": "2026-10-25T12:51:14.707Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126@ed744bda6417930b": {
         "verdict": "drop",
-        "reason": "About disabling secondary indexes per company from the Table Data Management page, a separate in-client admin feature.",
-        "at": "2026-10-21T09:26:57.143Z"
+        "reason": "About the in-client index management feature (disabling secondary indexes for each company), which belongs to a separate capability.",
+        "at": "2026-10-25T12:51:14.707Z"
+      },
+      "video/IAacWsvav1E@b23d11c0809cc74c": {
+        "verdict": "drop",
+        "reason": "A What's New video on switching indexes on or off in the client, which is index management rather than this on-premises performance analysis section.",
+        "at": "2026-10-25T12:51:14.707Z"
       },
       "video/snVsG69X-kw@96bf3633cbaa6ef7": {
         "verdict": "drop",
-        "reason": "About cloud topology and SaaS user scalability, where the missing-indexes and locks pages only come up in passing, not on-premises database analysis.",
-        "at": "2026-10-21T09:26:57.143Z"
+        "reason": "Mainly about cloud scaling and infrastructure, mentioning the locks and missing indexes pages only in passing.",
+        "at": "2026-10-25T12:51:14.707Z"
       }
     },
     "topic/dev-itpro/business-central-on-premises/administration/configuring-business-central-database": {
@@ -4679,30 +4669,35 @@
       }
     },
     "topic/dev-itpro/development/extensibility": {
+      "post/miljan-rs/866@69b7a81cda7677e1": {
+        "verdict": "drop",
+        "reason": "The post is about a specific text-editor app for BLOB fields, not about how to extend AL objects or the base application.",
+        "at": "2026-10-25T12:51:12.219Z"
+      },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/@673d3b69a52266a0": {
         "verdict": "keep",
-        "reason": "It explains how to extend Excel Reports objects by adding the extension that owns them as a dependency, which is about extending AL objects.",
-        "at": "2026-10-22T01:10:26.642Z"
+        "reason": "It explains that extending Excel Reports objects needs a dependency on the extension that contains them, which is part of extending the application.",
+        "at": "2026-10-25T12:51:12.219Z"
       },
       "video/6SyNNeHQDUo@d04a94dcbf138900": {
         "verdict": "drop",
-        "reason": "It shows features the community contributed through the co-development initiative, not how extensibility works.",
-        "at": "2026-10-22T01:10:26.642Z"
+        "reason": "The video mostly shows new product features from the co-development initiative; 'platform extensibility' is only a topic tag.",
+        "at": "2026-10-25T12:51:12.219Z"
       },
       "video/88s0QjsaCUQ@94e48adf8f56fd71": {
         "verdict": "drop",
-        "reason": "It covers sign-up context and customer onboarding, which is a different capability from extensibility.",
-        "at": "2026-10-22T01:10:26.642Z"
+        "reason": "The sign-up context and customer profiling for onboarding are not an extensibility subject.",
+        "at": "2026-10-25T12:51:12.219Z"
       },
       "video/no1mmnPfyNY@97a5d75f03737328": {
         "verdict": "drop",
-        "reason": "It discusses partner business models and the history of moving from NAV to Business Central, and mentions extensions only as a concept.",
-        "at": "2026-10-22T01:10:26.642Z"
+        "reason": "This is a history and partner business-model talk that only mentions the extensions concept in passing.",
+        "at": "2026-10-25T12:51:12.219Z"
       },
       "video/uxYuoJP-uH8@7d819bffc513f471": {
         "verdict": "keep",
-        "reason": "It demonstrates extending ApplicationArea with custom areas through table and page extensions, which is part of extending the base application.",
-        "at": "2026-10-22T01:10:26.642Z"
+        "reason": "It demonstrates extending ApplicationArea with custom areas in table and page extensions, which is part of extending the base application.",
+        "at": "2026-10-25T12:51:12.219Z"
       }
     },
     "topic/dev-itpro/development/extensibility/developing-client-add-ins": {
@@ -5254,125 +5249,135 @@
     "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts": {
       "post/aardvarklabs-blog/1824@a2915d8ef8687e99": {
         "verdict": "keep",
-        "reason": "Builds an Excel report layout and uploads the customized layout back as the default, which is the Excel layout type this section covers.",
-        "at": "2026-10-24T00:36:13.324Z"
+        "reason": "Walks through building an Excel layout report and uploading a customized layout, which is core report-layout content.",
+        "at": "2026-10-25T12:51:19.060Z"
       },
       "post/aardvarklabs-blog/2107@7e7622566e2b12cf": {
         "verdict": "keep",
-        "reason": "Explains Word layouts through the DefaultLayout and WordLayout properties, XML mapping and custom layouts.",
-        "at": "2026-10-24T00:36:13.324Z"
+        "reason": "Covers creating Word layouts with DefaultLayout/WordLayout, XML mapping and custom default layouts.",
+        "at": "2026-10-25T12:51:19.060Z"
       },
       "post/aardvarklabs-blog/2196@7e25b617b4b406aa": {
         "verdict": "keep",
-        "reason": "Walks through exporting, editing in Word and uploading Word report layouts.",
-        "at": "2026-10-24T00:36:13.324Z"
+        "reason": "Explains exporting, editing and re-uploading Word report layouts via the Report Layouts page.",
+        "at": "2026-10-25T12:51:19.060Z"
       },
       "post/aardvarklabs-blog/2271@de7854386541a124": {
         "verdict": "keep",
-        "reason": "Covers RDLC layout basics, editing in Report Builder and choosing between RDLC, Word and Excel layouts.",
-        "at": "2026-10-24T00:36:13.324Z"
+        "reason": "Explains RDLC layouts, editing them in Report Builder and uploading them as layouts.",
+        "at": "2026-10-25T12:51:19.060Z"
       },
       "post/aardvarklabs-blog/3544@a54ef864e981de53": {
         "verdict": "keep",
-        "reason": "About managing layout versions through the new Draft, Pending Approval, Approved and Retired statuses on the Report Layouts page.",
-        "at": "2026-10-24T00:36:13.324Z"
+        "reason": "Covers the layout lifecycle statuses (Draft, Pending Approval, Approved, Retired) used to manage layout versions.",
+        "at": "2026-10-25T12:51:19.060Z"
+      },
+      "post/miljan-rs/698@bec4356f9f787950": {
+        "verdict": "keep",
+        "reason": "Discusses a specific Word layout design technique (page breaks) and how it compares with RDLC layouts.",
+        "at": "2026-10-25T12:51:19.060Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619@9e099687770af155": {
         "verdict": "keep",
-        "reason": "Covers composite Word layouts and the AL properties Subtype, HeaderFooterPart and ThemePart.",
-        "at": "2026-10-24T00:36:13.324Z"
+        "reason": "Covers composite Word layouts with the Subtype, HeaderFooterPart and ThemePart properties, a report layout capability.",
+        "at": "2026-10-25T12:51:19.060Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/@8999d843a3c1fbe8": {
         "verdict": "keep",
-        "reason": "A design tip for RDLC layouts: setting ResetPageNumber on row groups.",
-        "at": "2026-10-24T00:36:13.324Z"
+        "reason": "Demonstrates an RDLC layout design property (ResetPageNumber on row groups).",
+        "at": "2026-10-25T12:51:19.060Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/@294934c7c4417e96": {
         "verdict": "keep",
-        "reason": "A design tip for RDL layouts: rendering barcodes by setting FontFamily in the layout's text boxes.",
-        "at": "2026-10-24T00:36:13.324Z"
+        "reason": "Shows how to render barcodes by setting FontFamily inside the RDL layout file.",
+        "at": "2026-10-25T12:51:19.060Z"
       },
       "post/thedynamicsexplorer-com/9051@471c2be7ed7387ba": {
         "verdict": "keep",
-        "reason": "Demonstrates importing, exporting and mapping fields in Word layouts through the Report Layouts page.",
-        "at": "2026-10-24T00:36:13.324Z"
+        "reason": "Shows how to import and map a template as a Business Central Word layout through Report Layouts and XML mapping.",
+        "at": "2026-10-25T12:51:19.060Z"
       },
       "post/thinkaboutit-be/7181@719b2559a0395732": {
         "verdict": "keep",
-        "reason": "Discusses choosing between Word, RDLC and Excel layouts and how layouts relate to datasets.",
-        "at": "2026-10-24T00:36:13.324Z"
+        "reason": "Explains report layout types (Word, RDLC, Excel) and how to choose between them, which is core to this section.",
+        "at": "2026-10-25T12:51:21.740Z"
       },
       "post/thinkaboutit-be/7266@0e18471063e5538b": {
         "verdict": "keep",
-        "reason": "Explains the EnableHyperlinks requirement for RDLC layouts in the AL report definition, a layout development issue.",
-        "at": "2026-10-24T00:36:15.686Z"
+        "reason": "Covers the EnableHyperlinks property needed for hyperlinks in RDLC layouts, a specific layout development concern.",
+        "at": "2026-10-25T12:51:21.740Z"
       },
       "post/thinkaboutit-be/7750@935c301db7e184b7": {
         "verdict": "keep",
-        "reason": "Shows how to design Word report layouts with the Word add-in, including the layout controls.",
-        "at": "2026-10-24T00:36:15.686Z"
+        "reason": "Demonstrates designing Word report layouts with the Word add-in and its layout controls.",
+        "at": "2026-10-25T12:51:21.740Z"
       },
       "post/thinkaboutit-be/8096@af9a75e67b746936": {
         "verdict": "keep",
-        "reason": "Covers inserting fields into Word layouts with the add-in data picker instead of the XML Mapping pane.",
-        "at": "2026-10-24T00:36:15.686Z"
+        "reason": "About inserting fields into Word layouts with the add-in data picker instead of XML mapping.",
+        "at": "2026-10-25T12:51:21.740Z"
       },
       "post/thinkaboutit-be/8272@a03bc83cda30588c": {
-        "verdict": "drop",
-        "reason": "About administrators approving and retiring layouts and the Report Inbox APIs, not about developing layouts.",
-        "at": "2026-10-24T00:36:15.686Z"
+        "verdict": "keep",
+        "reason": "Discusses managing layout status and selection for Microsoft- and extension-provided report layouts.",
+        "at": "2026-10-25T12:51:21.740Z"
       },
       "video/1ft4o9lQzsU@a3a9e063fe006870": {
         "verdict": "keep",
-        "reason": "Covers Excel report layouts in depth, from the basics to refreshable layouts.",
-        "at": "2026-10-24T00:36:15.686Z"
+        "reason": "Dedicated walkthrough of Excel report layouts, from building them to refreshable reporting.",
+        "at": "2026-10-25T12:51:21.740Z"
       },
       "video/2u5_F9Ztt7U@92cfcb99a68767fc": {
         "verdict": "drop",
-        "reason": "Broad server and database what's-new video where layouts get only a passing mention among many unrelated topics.",
-        "at": "2026-10-24T00:36:15.686Z"
+        "reason": "Broad server and database release roundup where report layouts are only two items among many unrelated topics.",
+        "at": "2026-10-25T12:51:21.740Z"
       },
       "video/9ZmmQEpPyB4@63379933c2959f13": {
         "verdict": "keep",
-        "reason": "Demonstrates the themeable and watermark features of Word report layouts.",
-        "at": "2026-10-24T00:36:15.686Z"
+        "reason": "Demonstrates themeable Word layouts and watermarks, a specific Word layout feature.",
+        "at": "2026-10-25T12:51:21.740Z"
       },
       "video/V8CSor5qBRE@e2804b6f1dc77109": {
         "verdict": "keep",
-        "reason": "Developer walkthrough of Word layout engine features and layout controls for document reports.",
-        "at": "2026-10-24T00:36:15.686Z"
+        "reason": "Covers Word layout engine features and layout controls for developers.",
+        "at": "2026-10-25T12:51:21.740Z"
       },
       "video/W003w36Isto@26d209fa164e7040": {
         "verdict": "keep",
-        "reason": "Covers developer features for report layouts, such as making layouts obsolete in AL, validating layouts and setting Excel layout properties.",
-        "at": "2026-10-24T00:36:15.686Z"
+        "reason": "Covers developer features for report layouts: Excel layout properties, obsoleting layouts in AL, and layout validation.",
+        "at": "2026-10-25T12:51:21.740Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/error-handling": {
       "post/demiliani-com/14203@48f9cf58ff1ac562": {
         "verdict": "drop",
-        "reason": "About making job queue calls to external APIs idempotent and about transaction rollback, which is closer to calling external services and background tasks than to AL error handling.",
-        "at": "2026-10-24T00:36:14.200Z"
+        "reason": "About idempotency for external API calls from the job queue, which belongs to calling external services or background processing rather than AL error handling.",
+        "at": "2026-10-25T12:51:21.057Z"
       },
       "post/gerardorenteria-blog/12238@2d82e84b809e4b24": {
         "verdict": "keep",
-        "reason": "Shows how to build error messages with recommendations using the ErrorMessageFix interface, which this error-handling section documents.",
-        "at": "2026-10-24T00:36:14.200Z"
+        "reason": "Shows how to build actionable error messages with automatic fixes in AL using the Error Messages framework.",
+        "at": "2026-10-25T12:51:21.057Z"
+      },
+      "post/miljan-rs/966@dec4d3de35fcaefa": {
+        "verdict": "keep",
+        "reason": "Discusses ErrorBehavior::Collect, the collectible errors feature that the error handling section documents.",
+        "at": "2026-10-25T12:51:21.057Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/how-to-write-error-messages-that-help/@aaca51818259e90f": {
         "verdict": "keep",
-        "reason": "Gives guidance on writing clear, actionable error messages, which matches the section's error message best practices.",
-        "at": "2026-10-24T00:36:14.200Z"
+        "reason": "Gives guidance on writing clear, actionable error messages, which matches the section's error message guidelines.",
+        "at": "2026-10-25T12:51:21.057Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-77-testfield-show-record-action/@32571bb667184a9a": {
         "verdict": "keep",
-        "reason": "Shows the actionable error behaviour where TestField adds a Show Record action, a direct part of error handling.",
-        "at": "2026-10-24T00:36:14.200Z"
+        "reason": "Shows the actionable Show Record error that TestField generates automatically, a part of the actionable errors this section documents.",
+        "at": "2026-10-25T12:51:21.057Z"
       },
       "video/RNR4wsFeedI@9ea9cfcda0c85f29": {
-        "verdict": "keep",
-        "reason": "One segment of the video shows the new actions for platform-generated errors, which falls under the actionable errors this section documents.",
-        "at": "2026-10-24T00:36:14.200Z"
+        "verdict": "drop",
+        "reason": "A general release-wave productivity video in which error actions appear only as one item in a broad feature list.",
+        "at": "2026-10-25T12:51:21.057Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/events": {
@@ -5702,30 +5707,35 @@
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/language-elements/data-types": {
+      "post/aardvarklabs-blog/1826@4a9c30dc06ccffd2": {
+        "verdict": "keep",
+        "reason": "It shows how to use the JsonObject, JsonArray and JsonToken data types to parse and build JSON in AL.",
+        "at": "2026-10-25T12:51:23.610Z"
+      },
       "post/aardvarklabs-blog/3118@b4699111de0ead97": {
         "verdict": "keep",
-        "reason": "Compares strongly and weakly typed AL data types and shows how to use the RecordRef and FieldRef types, which is the subject of the data types section.",
-        "at": "2026-10-24T00:36:21.578Z"
+        "reason": "It explains the RecordRef and FieldRef data types and compares weakly typed and strongly typed objects.",
+        "at": "2026-10-25T12:51:23.610Z"
       },
       "post/aardvarklabs-blog/3267@8527b0eb9932d68f": {
         "verdict": "keep",
-        "reason": "Explains the ranges of the Integer and BigInteger data types and how a field can be migrated from one to the other.",
-        "at": "2026-10-24T00:36:21.578Z"
+        "reason": "It covers the Integer and BigInteger data types, their ranges and how to convert fields between them.",
+        "at": "2026-10-25T12:51:23.610Z"
       },
       "post/demiliani-com/11796@286e90902766a969": {
-        "verdict": "drop",
-        "reason": "Covers one JsonObject method, WriteWithSecretsTo, for embedding secrets; SecretText comes up only as background, not as a data-types lesson.",
-        "at": "2026-10-24T00:36:21.578Z"
+        "verdict": "keep",
+        "reason": "It explains how the SecretText data type works with JsonObject through the new WriteWithSecretsTo method.",
+        "at": "2026-10-25T12:51:23.610Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3210455512131359826@03fc6ae5d7e18817": {
-        "verdict": "drop",
-        "reason": "Covers one new method on Record (IsDirty), which is method reference material rather than the data types overview.",
-        "at": "2026-10-24T00:36:21.578Z"
+        "verdict": "keep",
+        "reason": "It demonstrates the new IsDirty method on the Record data type.",
+        "at": "2026-10-25T12:51:23.610Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2146591606221133853@d11c12c9b973c18a": {
-        "verdict": "drop",
-        "reason": "Covers new ModuleInfo properties for reading app metadata, which is about one type's API and not about AL data types in general.",
-        "at": "2026-10-24T00:36:21.578Z"
+        "verdict": "keep",
+        "reason": "It documents the new properties on the ModuleInfo data type and how to read them.",
+        "at": "2026-10-25T12:51:23.610Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/language-elements/interfaces": {
@@ -5819,33 +5829,38 @@
     "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface": {
       "post/demiliani-com/12498@dbbb663eb0328f13": {
         "verdict": "keep",
-        "reason": "MaskType is set on table fields, but what it controls is whether a field's value is shown or hidden on card and document pages, which is page UI.",
-        "at": "2026-10-24T00:36:26.228Z"
+        "reason": "MaskType controls how field values are shown on card and document pages, which is page and UI behavior.",
+        "at": "2026-10-25T12:51:25.039Z"
       },
       "post/demiliani-com/12623@6773a23b91b53805": {
         "verdict": "keep",
-        "reason": "It shows how to preview PDFs in FactBoxes built as CardPart and ListPart pages using the Document extended data type.",
-        "at": "2026-10-24T00:36:26.228Z"
+        "reason": "Shows how to preview PDFs in CardPart and ListPart FactBox pages, a page UI capability.",
+        "at": "2026-10-25T12:51:25.039Z"
       },
       "post/gerardorenteria-blog/12961@9c99b1dd04149642": {
         "verdict": "keep",
-        "reason": "It builds a sorting action for list pages using page extensions and a selection page, which is page and action development.",
-        "at": "2026-10-24T00:36:26.228Z"
+        "reason": "Builds sorting for list pages using page extensions, actions and a selection page.",
+        "at": "2026-10-25T12:51:25.039Z"
+      },
+      "post/miljan-rs/866@69b7a81cda7677e1": {
+        "verdict": "keep",
+        "reason": "Shows a modal editor page opened from actions on customer list and card pages.",
+        "at": "2026-10-25T12:51:25.039Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736@69c4841d4352f3e8": {
         "verdict": "keep",
-        "reason": "It covers the ToolTip property on page objects and how navigation actions inherit it, which is about pages and actions.",
-        "at": "2026-10-24T00:36:26.228Z"
+        "reason": "Covers the ToolTip property on page objects and how navigation actions inherit it.",
+        "at": "2026-10-25T12:51:25.039Z"
       },
       "video/2Zz55J8rt8I@7781c51349d53fa9": {
         "verdict": "keep",
-        "reason": "Teaching tips and tours are page-level UI features that guide users on pages.",
-        "at": "2026-10-24T00:36:26.228Z"
+        "reason": "Teaching tips and tours are a page feature that developers set up to guide users.",
+        "at": "2026-10-25T12:51:25.039Z"
       },
       "video/ugHFHtSxTlw@5a729b9594698b2e": {
         "verdict": "drop",
-        "reason": "It is about Microsoft's internal UX design process (Figma, Fluent), not about developing pages in AL.",
-        "at": "2026-10-24T00:36:26.228Z"
+        "reason": "About Microsoft's internal UX design process and tools, not building pages in AL.",
+        "at": "2026-10-25T12:51:25.039Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/developing-for-the-business-central-mobi": {
@@ -5970,53 +5985,43 @@
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data": {
       "post/demiliani-com/15968@e13c63565651d8a5": {
         "verdict": "keep",
-        "reason": "Explains the ReadState property on Query objects, directly under Using Query objects.",
-        "at": "2026-10-21T09:27:35.858Z"
+        "reason": "Explains the ReadState isolation property on AL Query objects, which falls under Using Query objects and reading data.",
+        "at": "2026-10-25T12:51:28.697Z"
+      },
+      "post/demiliani-com/17538@77b882f5c71a4ed9": {
+        "verdict": "drop",
+        "reason": "Describes one specific new system virtual table for tracking user activity, not how to define, read or modify table data.",
+        "at": "2026-10-25T12:51:28.697Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3210455512131359826@03fc6ae5d7e18817": {
         "verdict": "keep",
-        "reason": "Shows Record.IsDirty for detecting in-memory changes before modifying or saving data.",
-        "at": "2026-10-21T09:27:35.858Z"
+        "reason": "Shows Record.IsDirty() for detecting record changes before saving, which belongs to modifying data.",
+        "at": "2026-10-25T12:51:28.697Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236@5796bb541d8ca1cf": {
         "verdict": "keep",
-        "reason": "Developer guide to exporting data to CSV, covering Importing and exporting data.",
-        "at": "2026-10-21T09:27:35.858Z"
+        "reason": "A developer guide to exporting data to CSV from AL, which falls under Importing and exporting data, and it also touches FlowFields and SetLoadFields.",
+        "at": "2026-10-25T12:51:28.697Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7756402263170151476@0b29deab1af83fa7": {
         "verdict": "keep",
-        "reason": "Shows a Query object doing grouping and SUM aggregation, so the lesson is Query usage.",
-        "at": "2026-10-21T09:27:35.858Z"
+        "reason": "Shows how to use a Query object for grouping and SUM aggregation, which falls under Using Query objects.",
+        "at": "2026-10-25T12:51:28.697Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/@b801505a606b1a48": {
         "verdict": "keep",
-        "reason": "Shows Record.IsDirty to simplify record modification logic.",
-        "at": "2026-10-21T09:27:35.858Z"
+        "reason": "Shows how to use Record.IsDirty() when changing several fields on a record, which falls under modifying data.",
+        "at": "2026-10-25T12:51:28.697Z"
       },
       "post/thinkaboutit-be/7609@8ce71dc59b41face": {
         "verdict": "drop",
-        "reason": "About a VS Code ER-diagram extension, a developer tool the section does not document.",
-        "at": "2026-10-21T09:27:35.858Z"
+        "reason": "About a VS Code tool that draws diagrams of table relations, not about anything this section documents.",
+        "at": "2026-10-25T12:51:28.697Z"
       },
       "video/a1LQ3-SCtPE@84b234e5991f2de5": {
         "verdict": "keep",
-        "reason": "Covers the table extension schema, SetLoadFields/partial records, read isolation and locking, all data access topics in this section.",
-        "at": "2026-10-21T09:27:35.858Z"
-      },
-      "video/a8W1x0xwkv4@a27a81ad0593a678": {
-        "verdict": "drop",
-        "reason": "A DOOM port novelty where table storage is only incidental to the demo.",
-        "at": "2026-10-21T09:27:35.858Z"
-      },
-      "video/OLN-2Ec2GMM@2ddf6f85c63467b2": {
-        "verdict": "drop",
-        "reason": "A grab bag of runtime changes (number sequences, .NET 8, PowerShell, errors) not focused on tables and data.",
-        "at": "2026-10-21T09:27:35.858Z"
-      },
-      "video/uCJ48biqLf8@685c0d748f1c5459": {
-        "verdict": "drop",
-        "reason": "About text overloads of FieldExist/Field reflection methods, which belong to the language reference rather than this section.",
-        "at": "2026-10-21T09:27:35.858Z"
+        "reason": "Covers the data-stack changes behind table and query performance: companion tables, SetLoadFields, read isolation and locking.",
+        "at": "2026-10-25T12:51:28.697Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures": {
@@ -6104,45 +6109,45 @@
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data": {
+      "post/aardvarklabs-blog/1826@4a9c30dc06ccffd2": {
+        "verdict": "keep",
+        "reason": "Shows how to parse incoming JSON and export records as JSON files in AL, which is data import/export.",
+        "at": "2026-10-25T12:51:30.218Z"
+      },
       "post/aardvarklabs-blog/2204@d24ed6cb95838c90": {
         "verdict": "keep",
-        "reason": "Shows AL code that imports CSV data through a staging table, which is this section's subject.",
-        "at": "2026-10-24T00:36:25.168Z"
+        "reason": "Walks through importing CSV files in AL using UploadIntoStream and a staging table.",
+        "at": "2026-10-25T12:51:30.218Z"
       },
       "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
         "verdict": "keep",
-        "reason": "Shows AL code that parses and imports header and detail records from delimited files.",
-        "at": "2026-10-24T00:36:25.168Z"
+        "reason": "Shows AL code for importing delimited files that have header and detail records.",
+        "at": "2026-10-25T12:51:30.218Z"
       },
       "post/aardvarklabs-blog/2838@103145b803b01f6b": {
         "verdict": "keep",
-        "reason": "Shows AL import of multi-tab Excel files using the Excel Buffer.",
-        "at": "2026-10-24T00:36:25.168Z"
+        "reason": "Shows importing multi-tab Excel files in AL with the Excel Buffer.",
+        "at": "2026-10-25T12:51:30.218Z"
       },
       "post/aardvarklabs-blog/2866@12f927a984dd084a": {
         "verdict": "keep",
-        "reason": "Shows AL code that imports XML data and discusses XMLports as an alternative.",
-        "at": "2026-10-24T00:36:25.168Z"
+        "reason": "Shows importing XML files into custom tables with AL's XML types.",
+        "at": "2026-10-25T12:51:30.218Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236@5796bb541d8ca1cf": {
         "verdict": "keep",
-        "reason": "A developer guide to exporting data to CSV in AL with the CSV Buffer table.",
-        "at": "2026-10-24T00:36:25.168Z"
+        "reason": "Developer guide to exporting data to CSV with the CSV Buffer in AL.",
+        "at": "2026-10-25T12:51:30.218Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-82-excel-buffer-character-limit/@4595d09b714a6398": {
         "verdict": "keep",
-        "reason": "Covers a 250-character limit in the Excel Buffer that can make AL Excel exports fail.",
-        "at": "2026-10-24T00:36:25.168Z"
+        "reason": "Covers a specific limit of the Excel Buffer that causes AL Excel exports to fail.",
+        "at": "2026-10-25T12:51:30.218Z"
       },
       "video/Ug_uM59DRRE@646917f6e1d49b29": {
         "verdict": "drop",
-        "reason": "About the Contoso demo data framework; configuration packages come up only in passing, not AL import/export.",
-        "at": "2026-10-24T00:36:25.168Z"
-      },
-      "video/vxZqz2LPJsE@15685a7602382f60": {
-        "verdict": "drop",
-        "reason": "Magic Paste is a tool for end users that pastes data from the clipboard, not AL code for importing or exporting.",
-        "at": "2026-10-24T00:36:25.168Z"
+        "reason": "About the Contoso demo data framework; configuration packages are only mentioned in passing, so it isn't about AL import/export.",
+        "at": "2026-10-25T12:51:30.218Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance": {
@@ -6257,13 +6262,18 @@
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/reading-data": {
       "post/aardvarklabs-blog/3118@b4699111de0ead97": {
         "verdict": "drop",
-        "reason": "The post is about dynamic coding with weakly typed RecordRef/FieldRef, a different capability from reading records.",
-        "at": "2026-10-21T09:35:17.647Z"
+        "reason": "About weakly typed RecordRef/FieldRef for generic dynamic code, a general coding technique rather than how AL reads data.",
+        "at": "2026-10-25T12:51:29.577Z"
+      },
+      "post/demiliani-com/17538@77b882f5c71a4ed9": {
+        "verdict": "drop",
+        "reason": "Introduces a new Recent Record virtual table for user activity history, not the reading-data techniques this section documents.",
+        "at": "2026-10-25T12:51:29.577Z"
       },
       "post/duiliotacconi-com/1425@9c8b2cf6b5f069b2": {
-        "verdict": "drop",
-        "reason": "The post is about SQL Server 2025 Optimized Locking and the default transaction isolation level; ReadIsolation on reads is only mentioned in passing.",
-        "at": "2026-10-21T09:35:17.647Z"
+        "verdict": "keep",
+        "reason": "Discusses ReadIsolation, tri-state locking and transaction isolation for in-transaction reads, which the Reading data section documents.",
+        "at": "2026-10-25T12:51:29.577Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/using-query-objects": {
@@ -6320,15 +6330,20 @@
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code": {
+      "post/miljan-rs/966@dec4d3de35fcaefa": {
+        "verdict": "keep",
+        "reason": "It gives an AL coding best practice: collect errors only in validation procedures, then process with fail-fast behavior.",
+        "at": "2026-10-25T12:51:31.909Z"
+      },
       "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/@7c539af3ddd905ec": {
         "verdict": "drop",
-        "reason": "Announces the ALCops analyzer tooling (how it's packaged, NuGet, MCP server, moving off LinterCop) rather than discussing the AL coding practices this section documents.",
-        "at": "2026-10-21T09:35:24.100Z"
+        "reason": "It announces a third-party code analyzer tool rather than discussing AL coding best practices themselves.",
+        "at": "2026-10-25T12:51:31.909Z"
       },
       "post/thinkaboutit-be/8132@c9bfa41ad7ac66b4": {
         "verdict": "keep",
-        "reason": "It's about shared quality standards for AL code, with concrete coding pitfalls like calling SetLoadFields after filters and using the obsolete FindSet overload, which fits AL code best practices.",
-        "at": "2026-10-21T09:35:24.100Z"
+        "reason": "It covers Microsoft's shared quality bar for AL code, including concrete best practices such as SetLoadFields placement and avoiding obsolete FindSet overloads.",
+        "at": "2026-10-25T12:51:31.909Z"
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance": {
@@ -6634,28 +6649,33 @@
     "topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler": {
       "post/duiliotacconi-com/1694@8bc3718f037619c5": {
         "verdict": "keep",
-        "reason": "Covers collecting SQL statements in profiles from the in-client profiler and importing the results into the web client Performance Profiler.",
-        "at": "2026-10-21T09:35:33.847Z"
+        "reason": "Covers SQL statement collection shown in the in-client Performance Profiler and importing profiles into it.",
+        "at": "2026-10-25T12:51:31.495Z"
+      },
+      "post/miljan-rs/750@e083091accc58cf5": {
+        "verdict": "drop",
+        "reason": "About Analysis Mode pivot performance limits, not the Performance Profiler.",
+        "at": "2026-10-25T12:51:31.495Z"
       },
       "video/0qt0Zy9ZsRo@5c97f66947819da7": {
         "verdict": "keep",
-        "reason": "Demonstrates the in-client Performance Profiler with scheduled profiles, the Performance Profiles page and call tree analysis.",
-        "at": "2026-10-21T09:35:33.847Z"
+        "reason": "Demonstrates the in-client profiler and scheduled profiles for analyzing performance issues.",
+        "at": "2026-10-25T12:51:31.495Z"
       },
       "video/B8PLDeZ73Y4@3beab67a4c30a3e3": {
         "verdict": "keep",
-        "reason": "Explains when to use the profiler instead of snapshot debugging and shows the Performance Profiler and the scheduled profiler.",
-        "at": "2026-10-21T09:35:33.847Z"
+        "reason": "Discusses when to use the AL/Performance Profiler versus snapshot debugging, showing the profiler.",
+        "at": "2026-10-25T12:51:31.495Z"
       },
       "video/UFLo2XGGS14@9ca37da61d82c657": {
         "verdict": "drop",
-        "reason": "Its subject is the agentic developer loop and the MCP tools for profiling and debugging, not the in-client Performance Profiler.",
-        "at": "2026-10-21T09:35:33.847Z"
+        "reason": "About the agentic developer loop and MCP tooling; profiling appears only as an MCP integration.",
+        "at": "2026-10-25T12:51:31.495Z"
       },
       "video/ZKq0hc04f-s@0021c479cf5ded0d": {
         "verdict": "keep",
-        "reason": "Shows SQL calls being captured in performance profiles in the in-client profiler and in scheduled profiles.",
-        "at": "2026-10-21T09:35:33.847Z"
+        "reason": "Shows capturing SQL calls in profiles from the in-client Performance Profiler.",
+        "at": "2026-10-25T12:51:31.495Z"
       }
     },
     "topic/dev-itpro/development/troubleshooting/troubleshooting-with-telemetry": {
@@ -7545,23 +7565,13 @@
     "topic/dev-itpro/integration/integrating-with-external-systems-using": {
       "post/aardvarklabs-blog/2907@16590c110325448e": {
         "verdict": "keep",
-        "reason": "It covers debugging business event subscriptions: the permission set, the activity log and the notifications page, all part of integrating through external business events.",
-        "at": "2026-10-21T09:27:37.111Z"
+        "reason": "Directly about debugging business event subscriptions (webhooks to external systems), including permissions, activity log and notifications pages.",
+        "at": "2026-10-25T12:51:35.410Z"
       },
-      "post/demiliani-com/13215@69849be5002e47d5": {
-        "verdict": "drop",
-        "reason": "It's a general post on SaaS misconceptions that only mentions using events instead of database connections in passing.",
-        "at": "2026-10-21T09:27:37.111Z"
-      },
-      "post/demiliani-com/14203@ca02a587b88611ba": {
-        "verdict": "drop",
-        "reason": "It's about idempotent external API calls from job queue entries, not about business events.",
-        "at": "2026-10-21T09:27:37.111Z"
-      },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-818643009386692123@d2009f0132fd7b3d": {
-        "verdict": "drop",
-        "reason": "It's a conference recap that only mentions event-driven architecture as a broad trend.",
-        "at": "2026-10-21T09:27:37.111Z"
+      "video/S5Xw-b8YF-c@fb7f81edcad274c8": {
+        "verdict": "keep",
+        "reason": "Two of its five demo segments show e-document business events and exporting e-documents through them, a worked example of the business-event integration this section documents.",
+        "at": "2026-10-25T12:51:35.410Z"
       }
     },
     "topic/dev-itpro/integration/integrating-with-infrastructure-services": {
@@ -7860,142 +7870,142 @@
       }
     },
     "topic/dev-itpro/integration/web-services": {
+      "post/aardvarklabs-blog/1826@4a9c30dc06ccffd2": {
+        "verdict": "drop",
+        "reason": "This post is about parsing and building JSON in AL code; web services and SOAP come up only in passing.",
+        "at": "2026-10-25T12:51:35.684Z"
+      },
       "post/aardvarklabs-blog/4082@822fda2edb8a8592": {
         "verdict": "keep",
-        "reason": "It covers how API pages are discovered and versioned, and how they replace the Web Services page and SOAP/OData endpoints, all of which this section documents.",
-        "at": "2026-10-24T00:36:58.312Z"
-      },
-      "video/S5Xw-b8YF-c@33386487e955be7f": {
-        "verdict": "drop",
-        "reason": "The video is about E-Documents features (their APIs, business events and Copilot Studio agents), not web services in general.",
-        "at": "2026-10-24T00:36:58.312Z"
+        "reason": "It covers discovering API pages and their OData URLs, and the move away from the Web Services page and SOAP, which the section's subtopics document.",
+        "at": "2026-10-25T12:51:35.684Z"
       },
       "video/sk5CaXnvvng@672e09e73760838e": {
         "verdict": "keep",
-        "reason": "It covers OData web service behaviour, HTTP status codes, request queuing and API schema version changes, which are web services topics.",
-        "at": "2026-10-24T00:36:58.312Z"
+        "reason": "It covers web service and OData endpoint behavior, error codes and telemetry for web service requests.",
+        "at": "2026-10-25T12:51:35.684Z"
       },
       "video/VpNQ-CYNrkM@2a098da3bc0dde2b": {
         "verdict": "keep",
-        "reason": "It is specifically about web services: OData operators and performance, SOAP removal, API versioning and deprecation.",
-        "at": "2026-10-24T00:36:58.312Z"
+        "reason": "It covers changes to OData, API schema versions, the web service request queue and SOAP removal, all part of this section.",
+        "at": "2026-10-25T12:51:35.684Z"
       }
     },
     "topic/dev-itpro/integration/web-services/apis": {
-      "post/jpearson-blog/1535@654bb4479c916d6a": {
-        "verdict": "drop",
-        "reason": "Mainly about how a managed identity authenticates, which belongs to the Web services security section next to this one, not the APIs themselves.",
-        "at": "2026-10-24T00:34:51.717Z"
-      },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090@aba9ce4f0d6c973e": {
         "verdict": "keep",
-        "reason": "Explains how API templates work on standard API pages and how to make them work on custom API pages.",
-        "at": "2026-10-24T00:34:51.717Z"
+        "reason": "Explains how API templates work with standard and custom API pages, which is part of API behaviour.",
+        "at": "2026-10-25T12:51:46.182Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7429326284625186983@b26475ef6e557180": {
         "verdict": "drop",
-        "reason": "About testing an MCP and Claude setup; APIs only come up as plumbing underneath.",
-        "at": "2026-10-24T00:34:51.717Z"
+        "reason": "Mainly about testing an MCP connection with Claude; APIs are incidental to the MCP subject.",
+        "at": "2026-10-25T12:51:46.182Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/@309347393b212aec": {
         "verdict": "keep",
-        "reason": "Troubleshoots the standard Sales Invoices API and how it collects its data.",
-        "at": "2026-10-24T00:34:51.717Z"
+        "reason": "Troubleshoots the standard Sales Invoices API and its underlying aggregate table.",
+        "at": "2026-10-25T12:51:46.182Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/@effee6e211629f55": {
         "verdict": "keep",
-        "reason": "Covers the hidden Microsoft app that holds the standard API v2 objects, as a reference for how the APIs are designed.",
-        "at": "2026-10-24T00:34:51.717Z"
+        "reason": "Covers the app that holds the standard API v2 objects and how to use it as a reference.",
+        "at": "2026-10-25T12:51:46.182Z"
       },
       "post/thinkaboutit-be/7683@3ed0c8348b16f90f": {
         "verdict": "keep",
-        "reason": "Compares API pages with API queries and covers API design properties.",
-        "at": "2026-10-24T00:34:51.717Z"
+        "reason": "Directly compares API pages and API queries and when to use each.",
+        "at": "2026-10-25T12:51:46.182Z"
       },
       "post/thinkaboutit-be/8272@a03bc83cda30588c": {
         "verdict": "keep",
-        "reason": "Presents the new Report Inbox APIs that external applications use, one of the post's two main topics.",
-        "at": "2026-10-24T00:34:51.717Z"
+        "reason": "Covers the new Report Inbox APIs as one of its two main topics.",
+        "at": "2026-10-25T12:51:46.182Z"
       },
       "video/1ft4o9lQzsU@a3a9e063fe006870": {
         "verdict": "drop",
-        "reason": "About Excel report layouts; connecting to the API is a minor part of the demo.",
-        "at": "2026-10-24T00:34:51.717Z"
+        "reason": "Excel report layouts video where API connections are only a minor supporting topic.",
+        "at": "2026-10-25T12:51:46.182Z"
       },
       "video/2N2NhNH7dsk@ba21dae465950b3b": {
         "verdict": "keep",
-        "reason": "Demonstrates the new Report Inbox APIs and their overview page.",
-        "at": "2026-10-24T00:34:51.717Z"
+        "reason": "Demonstrates the new Report Inbox APIs and their API overview page.",
+        "at": "2026-10-25T12:51:46.182Z"
       },
       "video/4HE3BBCcV84@9866712d6b3b6444": {
         "verdict": "keep",
-        "reason": "Covers API queries and the Analytics API reference documentation, which is a listed subtopic of this section.",
-        "at": "2026-10-24T00:34:51.717Z"
+        "reason": "Covers API queries and the Analytics API reference, which is a subtopic of this section.",
+        "at": "2026-10-25T12:51:46.182Z"
+      },
+      "video/S5Xw-b8YF-c@fb7f81edcad274c8": {
+        "verdict": "keep",
+        "reason": "Presents the new E-Documents APIs for integration.",
+        "at": "2026-10-25T12:51:46.182Z"
       },
       "video/VpNQ-CYNrkM@2a098da3bc0dde2b": {
         "verdict": "keep",
-        "reason": "Covers API changes: schema version 2.0 becoming the default, API v1 deprecation and API performance.",
-        "at": "2026-10-24T00:34:51.717Z"
-      },
-      "post/aardvarklabs-blog/1826@7950a7fbfbd69ed2": {
-        "verdict": "drop",
-        "reason": "General AL JSON handling; APIs are only mentioned as a use case.",
-        "at": "2026-10-24T00:34:52.753Z"
+        "reason": "Covers API changes such as schema version 2.0 becoming the default and API v1 being deprecated.",
+        "at": "2026-10-25T12:51:46.182Z"
       },
       "post/aardvarklabs-blog/2017@9d60f0fea145d32d": {
         "verdict": "keep",
-        "reason": "Shows how to build custom Query APIs, which is part of the APIs topic.",
-        "at": "2026-10-24T00:34:52.753Z"
+        "reason": "Teaches building Query-type APIs to expose Business Central data, which is core API material.",
+        "at": "2026-10-25T12:51:48.134Z"
       },
       "post/aardvarklabs-blog/2565@542b36717b660c8e": {
-        "verdict": "keep",
-        "reason": "Explains moving to API 2.0 or custom Page/Query APIs as the replacement for OData endpoints.",
-        "at": "2026-10-24T00:34:52.753Z"
+        "verdict": "drop",
+        "reason": "Its main subject is the removal of OData page endpoints, which belongs to the OData sibling section rather than to APIs.",
+        "at": "2026-10-25T12:51:48.134Z"
       },
       "post/aardvarklabs-blog/2812@da5a29d007de8e30": {
         "verdict": "drop",
-        "reason": "About the JSON Management codeunit, not Business Central APIs.",
-        "at": "2026-10-24T00:34:52.753Z"
+        "reason": "About the AL JSON Management codeunit, not Business Central APIs.",
+        "at": "2026-10-25T12:51:48.134Z"
       },
       "post/aardvarklabs-blog/3631@2fe37864fd91ab77": {
         "verdict": "drop",
-        "reason": "Subject is SFTP file transfer via Power Automate; the API page is incidental.",
-        "at": "2026-10-24T00:34:52.753Z"
+        "reason": "The API page only serves an SFTP file-transfer workaround in Power Automate; the post isn't about APIs as such.",
+        "at": "2026-10-25T12:51:48.134Z"
       },
       "post/aardvarklabs-blog/4082@822fda2edb8a8592": {
         "verdict": "keep",
-        "reason": "Covers the API Overview page for finding and versioning API pages.",
-        "at": "2026-10-24T00:34:52.753Z"
+        "reason": "Covers the API Overview page for finding versioned API pages.",
+        "at": "2026-10-25T12:51:48.134Z"
       },
       "post/demiliani-com/11654@0366bea976eb5e3f": {
         "verdict": "drop",
-        "reason": "Mainly about SOAP/OData deprecation, which the sibling sections cover.",
-        "at": "2026-10-24T00:34:52.753Z"
+        "reason": "About SOAP and OData page-endpoint deprecation, which the SOAP and OData sibling sections cover.",
+        "at": "2026-10-25T12:51:48.134Z"
       },
       "post/demiliani-com/11962@59c4b3f4f738556f": {
         "verdict": "keep",
-        "reason": "Covers Brotli versus gzip compression of Business Central API responses.",
-        "at": "2026-10-24T00:34:52.753Z"
+        "reason": "Shows how to request smaller (Brotli-compressed) Business Central API responses.",
+        "at": "2026-10-25T12:51:48.134Z"
       },
       "post/demiliani-com/12036@2c9b7f3c2df35822": {
         "verdict": "keep",
-        "reason": "Discusses Business Central API definitions and metadata such as OpenAPI and descriptions.",
-        "at": "2026-10-24T00:34:52.753Z"
+        "reason": "Discusses the metadata in Business Central API definitions and an OpenAPI specification for them.",
+        "at": "2026-10-25T12:51:48.134Z"
       },
       "post/demiliani-com/12975@8148d4d75b43b31c": {
         "verdict": "drop",
-        "reason": "About an admin MCP server for managing PTEs, not Business Central APIs.",
-        "at": "2026-10-24T00:34:52.753Z"
+        "reason": "About an MCP server for managing per-tenant extensions, not the Business Central APIs this section documents.",
+        "at": "2026-10-25T12:51:48.134Z"
       },
       "post/gerardorenteria-blog/12682@19ba796716115831": {
         "verdict": "keep",
-        "reason": "Documents the AboutText property on APIV2 API pages.",
-        "at": "2026-10-24T00:34:52.753Z"
+        "reason": "Explains the AboutText property on API v2 pages, which describes an API to AI tools.",
+        "at": "2026-10-25T12:51:48.134Z"
       },
       "post/jpearson-blog/1485@a73aff8b48312929": {
         "verdict": "drop",
-        "reason": "About authentication and token exchange, which belongs under Web services security.",
-        "at": "2026-10-24T00:34:52.753Z"
+        "reason": "About how to authenticate when calling APIs (managed identity plus federated credentials), which is the Web services security section's topic.",
+        "at": "2026-10-25T12:51:48.134Z"
+      },
+      "post/jpearson-blog/1535@654bb4479c916d6a": {
+        "verdict": "drop",
+        "reason": "About authenticating with a managed identity, which belongs to the Web services security sibling section rather than to APIs.",
+        "at": "2026-10-25T12:51:48.134Z"
       }
     },
     "topic/dev-itpro/integration/web-services/apis/analytics-api-reference": {
@@ -8044,78 +8054,83 @@
     "topic/dev-itpro/performance": {
       "post/demiliani-com/11962@59c4b3f4f738556f": {
         "verdict": "keep",
-        "reason": "Discusses improving OData API response performance via compression.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "Shows a way to make API responses smaller and faster with Brotli compression, which is performance optimization.",
+        "at": "2026-10-25T12:51:41.717Z"
       },
       "post/demiliani-com/13096@d983992cb248690a": {
         "verdict": "keep",
-        "reason": "Covers client-side factors of Business Central UI performance and how to measure them.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "Covers the client-side factors behind UI performance (latency, browser, hardware) and how to measure them.",
+        "at": "2026-10-25T12:51:41.717Z"
       },
       "post/demiliani-com/13254@1e5abc180a70baaf": {
         "verdict": "keep",
-        "reason": "Explains the Database Wait Statistics page used for diagnosing performance bottlenecks.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "Explains how to use the Database Wait Statistics page to find performance bottlenecks.",
+        "at": "2026-10-25T12:51:41.717Z"
       },
       "post/demiliani-com/13369@6629bda418af7616": {
         "verdict": "keep",
-        "reason": "Uses page view telemetry to tell infrastructure slowness apart from code performance problems.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "Uses telemetry to tell whether slow pages come from the network or from the code.",
+        "at": "2026-10-25T12:51:41.717Z"
       },
       "post/duiliotacconi-com/1457@4876ff8966589696": {
         "verdict": "keep",
-        "reason": "Real-world look at 26.x performance features: less locking during posting and FlowField optimization.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "Covers the 26.x locking and FlowField changes that improve performance, with real deadlock and page-load results.",
+        "at": "2026-10-25T12:51:41.717Z"
       },
       "post/duiliotacconi-com/1624@a371d282bf3e4643": {
         "verdict": "keep",
-        "reason": "Reviews the version 27 performance enhancements in detail.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "Reviews the performance enhancements in version 27, such as FlowField SQL optimization and new locking functions.",
+        "at": "2026-10-25T12:51:41.717Z"
       },
       "post/duiliotacconi-com/2001@bbcde3b30b8db4a5": {
         "verdict": "keep",
-        "reason": "Covers index management for database performance tuning.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "Covers disabling and enabling indexes to improve write performance, plus the index statistics used to decide.",
+        "at": "2026-10-25T12:51:41.717Z"
+      },
+      "post/miljan-rs/750@e083091accc58cf5": {
+        "verdict": "drop",
+        "reason": "It is really about Analysis Mode pivoting, an analytics feature; slowness on large datasets is only an incidental limitation.",
+        "at": "2026-10-25T12:51:41.717Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/@aea1381f91018eec": {
         "verdict": "keep",
-        "reason": "Explains how to plan table indexes for performance, a developer performance topic.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "Detailed guidance on table indexes, SIFT and columnstore trade-offs, which is core performance documentation.",
+        "at": "2026-10-25T12:51:44.966Z"
       },
       "post/waldo-be/317739@5b3804a03ad435cc": {
         "verdict": "drop",
-        "reason": "About managing sessions in the Admin Center, which the Administration section documents.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "About managing sessions in the Admin Center, which the Administration section covers; performance comes up only as a side benefit.",
+        "at": "2026-10-25T12:51:44.966Z"
       },
       "post/waldo-be/318212@8029f096336be096": {
         "verdict": "keep",
-        "reason": "Explains how to troubleshoot with the Missing Indexes page to improve performance.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "Covers troubleshooting performance with the Missing Indexes page and telemetry.",
+        "at": "2026-10-25T12:51:44.966Z"
       },
       "video/D7GxnNiGQ14@2446d7df83cf29ee": {
         "verdict": "keep",
-        "reason": "Shows asynchronous processing patterns (page background tasks, job queue) for better perceived performance.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "Shows page background tasks, the task scheduler and job queue as ways to improve how fast the product feels to users.",
+        "at": "2026-10-25T12:51:44.966Z"
       },
       "video/G0avZpiDFtI@2e57a6a480e57859": {
         "verdict": "drop",
-        "reason": "A what's-new grab bag for server and database; most of its items are not performance-related.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "A mixed release-wave overview of server, report and endpoint features where performance items are only a few among many.",
+        "at": "2026-10-25T12:51:44.966Z"
       },
       "video/LW2JNV01sJo@4d9ed486295354d5": {
         "verdict": "drop",
-        "reason": "Introduces a performance initiative too generally to tie to documented content.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "Introduces a broad initiative with too little detail to tell which documented performance capability it covers.",
+        "at": "2026-10-25T12:51:44.966Z"
       },
       "video/snVsG69X-kw@96bf3633cbaa6ef7": {
         "verdict": "keep",
-        "reason": "Covers cloud scalability, performance monitoring, the profiler and database diagnostics pages.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "Covers cloud scalability, the performance profiler, the database locks and missing indexes pages, and telemetry for performance.",
+        "at": "2026-10-25T12:51:44.966Z"
       },
       "video/XcQFvNnKpxk@41bd29e0fe59a068": {
         "verdict": "keep",
-        "reason": "Demonstrates performance testing with the Performance Toolkit (BCPT) before go-live.",
-        "at": "2026-10-24T00:37:12.631Z"
+        "reason": "Demonstrates performance testing with the Performance Toolkit (BCPT), which the performance documentation covers.",
+        "at": "2026-10-25T12:51:44.966Z"
       }
     },
     "topic/dev-itpro/responsible-ai": {

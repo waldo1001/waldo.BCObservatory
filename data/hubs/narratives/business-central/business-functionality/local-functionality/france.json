@@ -1,36 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/france",
-  "input_hash": "0f0ababd40d44bcbbe8b48a1a61c9c02f828296c4f75badcf91aabef30251d32",
-  "summary": "France local functionality in Business Central covers VAT audit export and DEB, payment slips, e-invoicing and E-Reporting, core finance and fiscal closing, and accelerated depreciation for fixed assets. It answers setup and how-to questions for the French version.",
-  "overview": "The France section describes features specific to the French version of Business Central. The landing page lists VAT, e-invoicing, banking, payments, core finance, sales, and fixed assets, and notes a transition to an extensions-based model in 2026 release wave 2.\n\nFive subtopics cover the detail. VAT deals with audit file export and the Declaration of Trade in Goods. Banking and payments covers payment management with payment slips. E-invoicing covers UBL 2.1, Factur-X and E-Reporting. Core finance covers fiscal years, closing and general ledger tasks. Fixed assets covers accelerated depreciation.\n\nStart with the landing page to see the overall scope and the 2026 release wave 2 change. Then go to the subtopic that matches your task, for example Core finance for year-end and fiscal closure, or Banking and payments for setting up payment slips.",
+  "input_hash": "2bbba72a0e8f1468fdd7fa943840d85c4ddb47878609b7b73096d28d82ccb206",
+  "summary": "France local functionality in Business Central covers VAT audit export and DEB, payment slips, e-invoicing (UBL 2.1, Factur-X, E-Reporting), core finance and fiscal closing, and accelerated depreciation for fixed assets. Use it for questions about French-specific setup and compliance tasks.",
+  "overview": "This section describes features specific to the French version of Business Central. The landing page lists the areas: VAT, e-invoicing, banking and payments, core finance, sales and fixed assets. It also notes a transition to an extensions-based model in 2026 release wave 2.\n\nThe subtopics split by task. VAT covers the FEC audit file export, XML export of G/L entries for archiving, and Declaration of Trade in Goods (DEB) setup. Banking and payments covers payment management with payment slips. E-invoicing covers UBL 2.1, Factur-X and E-Reporting. Core finance covers fiscal years, periods, year-end and fiscal closure, and general ledger tasks. Fixed assets covers accelerated depreciation.\n\nStart with the landing page to see the overall scope and the 2026 release wave 2 note. Then go to the subtopic that matches your task. Core finance is the largest with 15 pages, and Banking and payments follows with 8.",
   "key_points": [
-    "VAT: export general ledger entries for tax audits in FEC format or XML, and set up the Declaration of Trade in Goods (DEB).",
-    "Banking and payments: payment management uses payment slips, payment classes, statuses, steps and addresses; pages cover setting up, creating, exporting, posting and archiving slips, and moving setup between companies.",
+    "VAT: export G/L entries in the FEC audit file format for French corporate tax and VAT audits.",
+    "VAT: export G/L entries to XML for external archiving, and set up reporting for the Declaration of Trade in Goods (DEB).",
+    "Banking and payments: payment management with payment slips, payment classes, statuses, steps and addresses; create, export, post and archive slips, and move setup between companies.",
     "E-invoicing: electronic invoicing with UBL 2.1 and Factur-X, incoming invoice import, and submission to the tax authority via partner platforms.",
     "E-Reporting covers transactions outside mandatory B2B e-invoicing.",
     "Core finance: fiscal years and periods, year-end closing, fiscal closure, posting periods, applying entries, reports and reconciliations under French rules.",
     "Fixed assets: accelerated depreciation with accounting and tax depreciation books, derogatory posting, and the Calculate Depreciation batch job.",
-    "The landing page notes a transition to an extensions-based model in 2026 release wave 2."
+    "The France functionality moves to an extensions-based model in 2026 release wave 2."
   ],
   "members_used": 1,
   "subtopics_used": 5,
   "prompt_version": 1,
-  "at": "2026-10-18T00:56:10.461Z",
+  "at": "2026-10-25T12:52:40.103Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012807
+    "cost_usd": 0.016738
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-24T00:54:07.416Z",
+    "at": "2026-10-25T12:53:08.395Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the landing page lists sales among the French features, but there is no sales subtopic. The overview mentions sales correctly and the summary leaves it out, which is acceptable.",
-      "Minor: the landing page gives no details of what the 2026 release wave 2 extensions-based transition involves, so readers get no further guidance on it. The narrative correctly does not elaborate."
+      "Minor: the E-Reporting key point is very short and has no area prefix. It could be merged into the E-invoicing key point.",
+      "Minor: the overview lists sales as an area because the landing page does, but no sales subtopic exists among the inputs."
     ],
-    "input_hash": "0f0ababd40d44bcbbe8b48a1a61c9c02f828296c4f75badcf91aabef30251d32",
-    "cost_usd": 0.039311200000000004
+    "input_hash": "2bbba72a0e8f1468fdd7fa943840d85c4ddb47878609b7b73096d28d82ccb206",
+    "cost_usd": 0.038716
   }
 }

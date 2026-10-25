@@ -24,7 +24,7 @@ review:
   at: "2026-10-07T23:19:03.382Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -175,12 +175,10 @@ features:
     roadmap_ids:
       - "573316"
   - name: Company-level index control
-    status: ga
+    status: unclear
     t: 727
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573316"
+    status_source: video
   - name: Database index management at application level
     status: unclear
     t: 348
@@ -260,7 +258,7 @@ It demos the Index Management page, which shows index type, whether an index is 
 | Turn SIFT indexes on or off from Business Central client | generally available (roadmap [Administrators can turn SIFT indexes on/off](../features/573316.md)), demoed | [0:11](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=11s) | "So get into your preview environment if you have and search for table information." ([8:20](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=500s)) |
 | Index Management page | preview, demoed | [8:07](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=487s) | "So get into your preview environment if you have and search for table information." ([8:20](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=500s)) |
 | Index type classification | generally available (roadmap [Administrators can turn SIFT indexes on/off](../features/573316.md)), demoed | [10:39](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=639s) |  |
-| Company-level index control | generally available (roadmap [Administrators can turn SIFT indexes on/off](../features/573316.md)), demoed | [12:07](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=727s) |  |
+| Company-level index control | status not stated, demoed | [12:07](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=727s) |  |
 | Database index management at application level | status not stated | [5:48](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=348s) |  |
 | Immediate index disable with deferred enable | generally available (roadmap [Administrators can turn SIFT indexes on/off](../features/573316.md)), demoed | [16:48](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=1008s) |  |
 

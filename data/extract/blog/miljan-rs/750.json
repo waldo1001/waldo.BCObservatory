@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/miljan-rs/750",
+  "url": "https://miljan.rs/2025/08/28/how-to-accidentally-break-business-central-for-fun/",
+  "title": "How to Accidentally Break Business Central (for Fun)",
+  "source": "miljan-rs",
+  "published_at": "2025-08-28T15:12:23.000Z",
+  "words": 310,
+  "summary": "Analysis Mode's Pivot functionality can freeze or crash a Business Central session when handling large datasets with many columns and rows, as demonstrated by attempting to sort AppSource partner offerings by count.",
+  "key_points": [
+    "Pivot mode in Analysis Mode becomes unresponsive when dealing with thousands of columns combined with hundreds of rows",
+    "Switching a page with many data points to Pivot mode and adding numerous fields to Column Labels can strain system performance",
+    "The Microsoft AppSource apps page does not support direct Export to Excel, making Analysis Mode a seeming alternative",
+    "This demonstrates a practical performance limitation when using Analysis Mode for complex data pivoting"
+  ],
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "analysis mode",
+    "pivot tables",
+    "performance",
+    "appsource",
+    "testing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Microsoft AppSource apps"
+    }
+  ],
+  "features": [
+    "Analysis Mode",
+    "Pivot mode",
+    "Column Labels"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Best case: A frozen session. Worst case: RIP Business Central. Maybe even RIP Browser.",
+      "why_it_matters": "Shows the severity of the performance issue, ranging from session freezing to complete browser failure"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004571,
+    "posts_in_call": 1
+  }
+}

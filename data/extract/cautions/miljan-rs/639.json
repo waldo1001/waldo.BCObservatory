@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/miljan-rs/639",
+  "page_id": "post/miljan-rs/639",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "The tool is not fully data-agnostic. Errors can occur if you initialize some modules and then try others later without the prerequisites.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2024 Wave 2 Update 3",
+        "BC 2025 Wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006717,
+    "posts_in_call": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/miljan-rs/812",
+  "input_hash": "c72491b31c7b79f8595f282c6071ba5844bd21512a753044acdc9502a353f7ef",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T12:52:23.012Z",
+  "issues": [
+    "Summary implied every fix has shipped; several are still pending for BC29.x, and the co-contributor was not mentioned. Summary rewritten.",
+    "E-Documents for Germany is an app, not an object.",
+    "Version list stops at BC28.2 and leaves out BC28.3, BC28.5 and BC29.x, which the post mentions; this cannot be corrected with the available edits."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.046501,
+    "posts_in_call": 4
+  }
+}

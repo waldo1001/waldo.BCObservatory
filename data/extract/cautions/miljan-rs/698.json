@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/miljan-rs/698",
+  "page_id": "post/miljan-rs/698",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Each time you edit the Word layout, the \"Page break before\" setting might disappear and has to be reapplied.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "If you push Word too hard, it breaks — sometimes literally (I've managed to create a Word layout so broken it wouldn't even save anymore).",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "You risk empty white pages if the section you're breaking before has no data.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006717,
+    "posts_in_call": 3
+  }
+}

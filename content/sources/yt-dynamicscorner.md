@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-25T12:26:48.227Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 974d582e8056096fa994097e6f93822fc4534f11d85a1e8fab5d7d71a034115e
@@ -28,7 +28,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573329
   topics: []
   localizations: []
   videos:
@@ -109,7 +110,9 @@ footprint:
       weight: 1
     - id: other AL-Go
       weight: 1
-  features: []
+  features:
+    - id: feature/573329
+      weight: 1
 first_item: "2026-04-08"
 last_item: "2026-07-14"
 ---
@@ -143,6 +146,10 @@ Items per quarter, oldest first:
 
 - 2026-Q2: ************* 13
 - 2026-Q3: * 1
+
+## Roadmap features it demonstrates
+
+- [Use conditional visibility in the updated Word add-in](../features/573329.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 
 ## Most recent
 

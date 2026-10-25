@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:51:27.035Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -105,7 +105,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/578068
   topics: []
   localizations: []
   videos: []
@@ -192,7 +193,9 @@ features:
     status: preview
     t: 561
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578068"
   - name: AI Development Toolkit - Agent Code Creation
     status: unclear
     t: 743
@@ -283,11 +286,13 @@ From an administration standpoint, agents are treated like users, with permissio
 | Agent UI Navigation Framework | status not stated, demoed | [4:06](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=246s) |  |
 | Agent Security and Access Control | status not stated, demoed | [5:49](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=349s) |  |
 | Agent App Distribution | status not stated, demoed | [6:54](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=414s) |  |
-| Agent Designer in Web Client | preview, demoed | [9:21](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=561s) | "we are now launching in preview the ability for you especially consultants, product owners, domain specialists and and even makers to design proof of" ([9:21](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=561s)) |
+| Agent Designer in Web Client | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [9:21](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=561s) | "we are now launching in preview the ability for you especially consultants, product owners, domain specialists and and even makers to design proof of" ([9:21](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=561s)) |
 | AI Development Toolkit - Agent Code Creation | status not stated, demoed | [12:23](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=743s) |  |
 | Agent Extension Deployment | preview | [13:14](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=794s) | "In the preview, we support that you can deploy to sandboxes. Uh later you will of course be able to deploy uh these extensions" ([13:14](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=794s)) |
 | Agent Evaluation Framework | status not stated | [13:42](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=822s) |  |
 | Copilot Studio Agent Integration | announced | [17:06](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=1026s) | "in the future even call BC agents uh via MCP from within copilot studio" ([17:39](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=1059s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

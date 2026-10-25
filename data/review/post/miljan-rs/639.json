@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/miljan-rs/639",
+  "input_hash": "54147f5568af52f83c8bfe0dc73fc9b9a60500a8b7595a578ec69b7fce98a831",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-25T12:52:00.915Z",
+  "issues": [
+    "The summary, version timeline and list of modules match the post, including the Common module dependency.",
+    "The two ways to run the tool and the known issue with re-running in a different mode are described correctly.",
+    "Both quotes appear in the post. The point about test frameworks not being data-agnostic is left out, but nothing written is wrong."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027919,
+    "posts_in_call": 3
+  }
+}

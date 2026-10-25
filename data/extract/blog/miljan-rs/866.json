@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/miljan-rs/866",
+  "url": "https://miljan.rs/2025/11/24/simple-text-editor-for-business-central/",
+  "title": "Simple Text Editor for Business Central",
+  "source": "miljan-rs",
+  "published_at": "2025-11-24T07:00:00.000Z",
+  "words": 845,
+  "summary": "A lightweight AL extension provides a simple text editor dialog for Business Central users to edit and store longer plain text notes in BLOB fields without complex formatting. It solves the limitation of cramped multi-line fields by opening a clean modal editor accessible via ribbon actions on customer lists and cards.",
+  "key_points": [
+    "Addresses the gap for plain text editing in Business Central by providing a modal dialog for BLOB field text storage",
+    "Minimal design with no formatting controls, intentionally designed for basic text entry and pasting",
+    "Easily reusable across any table with a BLOB field by following three basic setup steps",
+    "Positioned as a lightweight alternative to rich text editors and complex documentation systems"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "text editor",
+    "blob field",
+    "user experience",
+    "al extension",
+    "dialog control",
+    "sample code"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "text editor dialog",
+    "BLOB field storage",
+    "modal dialog",
+    "plain text editing",
+    "WebPageViewer control",
+    "ribbon actions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Just plain text, saved in a field, opened with a single action.",
+      "why_it_matters": "Defines the core purpose and simplicity of the solution"
+    },
+    {
+      "text": "The smallest possible building block that solves the \"long plain text in a BLOB\" problem.",
+      "why_it_matters": "Clarifies the intentional minimalism and positioning relative to richer alternatives"
+    },
+    {
+      "text": "You can reuse the same pattern for any place where you already use (or plan to use) a BLOB field for text.",
+      "why_it_matters": "Emphasizes the reusability and generic nature of the implementation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005626,
+    "posts_in_call": 1
+  }
+}

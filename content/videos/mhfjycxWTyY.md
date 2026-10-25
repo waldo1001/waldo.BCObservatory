@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:19:19.527Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -161,12 +161,10 @@ features:
     roadmap_ids:
       - "573362"
   - name: Web Search Integration in Copilot Chat
-    status: ga
+    status: preview
     t: 211
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "573362"
+    status_source: video
   - name: Copilot and Agent Capabilities Settings Page
     status: unclear
     t: 365
@@ -262,7 +260,7 @@ The presenter covers access and licensing, how administrators enable the feature
 |---|---|---|---|
 | Unified Copilot Chat Experience | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [0:01](https://www.youtube.com/watch?v=mhfjycxWTyY&t=1s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
 | Business Central Data Integration in Chat | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
-| Web Search Integration in Copilot Chat | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)) | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
+| Web Search Integration in Copilot Chat | preview | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
 | Copilot and Agent Capabilities Settings Page | status not stated, demoed | [6:05](https://www.youtube.com/watch?v=mhfjycxWTyY&t=365s) |  |
 | Microsoft Copilot License Additional Benefits | status not stated | [4:51](https://www.youtube.com/watch?v=mhfjycxWTyY&t=291s) |  |
 | Conversational Interaction Model | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [7:58](https://www.youtube.com/watch?v=mhfjycxWTyY&t=478s) |  |

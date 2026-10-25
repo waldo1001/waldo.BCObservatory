@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-25T12:26:48.227Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: aad70dfa46819c3936a580bd7499838a9aa68716a2cf1b26f56bab0ae3034efc
@@ -28,7 +28,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573351
   topics: []
   localizations: []
   videos:
@@ -99,7 +100,9 @@ footprint:
       weight: 1
     - id: other cloud sandbox alias
       weight: 1
-  features: []
+  features:
+    - id: feature/573351
+      weight: 1
 first_item: "2026-01-28"
 last_item: "2026-05-08"
 ---
@@ -133,6 +136,10 @@ Items per quarter, oldest first:
 
 - 2026-Q1: ***** 5
 - 2026-Q2: * 1
+
+## Roadmap features it demonstrates
+
+- [Track AL compiler diagnostics in automated builds](../features/573351.md): Development, generally available, GA 2026-10, 1 video
 
 ## Most recent
 

@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/france
 type: topic
 title: France
-summary: France local functionality in Business Central covers VAT audit export and DEB, payment slips, e-invoicing and E-Reporting, core finance and fiscal closing, and accelerated depreciation for fixed assets. It answers setup and how-to questions for the French version.
+summary: France local functionality in Business Central covers VAT audit export and DEB, payment slips, e-invoicing (UBL 2.1, Factur-X, E-Reporting), core finance and fiscal closing, and accelerated depreciation for fixed assets. Use it for questions about French-specific setup and compliance tasks.
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-24T00:54:07.416Z"
+  at: "2026-10-25T12:53:08.395Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0f0ababd40d44bcbbe8b48a1a61c9c02f828296c4f75badcf91aabef30251d32
+  input_hash: 2bbba72a0e8f1468fdd7fa943840d85c4ddb47878609b7b73096d28d82ccb206
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/accelerated-depreciation
@@ -310,27 +310,28 @@ narrative: generated
 
 # France
 
-> France local functionality in Business Central covers VAT audit export and DEB, payment slips, e-invoicing and E-Reporting, core finance and fiscal closing, and accelerated depreciation for fixed assets. It answers setup and how-to questions for the French version.
+> France local functionality in Business Central covers VAT audit export and DEB, payment slips, e-invoicing (UBL 2.1, Factur-X, E-Reporting), core finance and fiscal closing, and accelerated depreciation for fixed assets. Use it for questions about French-specific setup and compliance tasks.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > France · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The France section describes features specific to the French version of Business Central. The landing page lists VAT, e-invoicing, banking, payments, core finance, sales, and fixed assets, and notes a transition to an extensions-based model in 2026 release wave 2.
+This section describes features specific to the French version of Business Central. The landing page lists the areas: VAT, e-invoicing, banking and payments, core finance, sales and fixed assets. It also notes a transition to an extensions-based model in 2026 release wave 2.
 
-Five subtopics cover the detail. VAT deals with audit file export and the Declaration of Trade in Goods. Banking and payments covers payment management with payment slips. E-invoicing covers UBL 2.1, Factur-X and E-Reporting. Core finance covers fiscal years, closing and general ledger tasks. Fixed assets covers accelerated depreciation.
+The subtopics split by task. VAT covers the FEC audit file export, XML export of G/L entries for archiving, and Declaration of Trade in Goods (DEB) setup. Banking and payments covers payment management with payment slips. E-invoicing covers UBL 2.1, Factur-X and E-Reporting. Core finance covers fiscal years, periods, year-end and fiscal closure, and general ledger tasks. Fixed assets covers accelerated depreciation.
 
-Start with the landing page to see the overall scope and the 2026 release wave 2 change. Then go to the subtopic that matches your task, for example Core finance for year-end and fiscal closure, or Banking and payments for setting up payment slips.
+Start with the landing page to see the overall scope and the 2026 release wave 2 note. Then go to the subtopic that matches your task. Core finance is the largest with 15 pages, and Banking and payments follows with 8.
 
 ## Key points
 
-- VAT: export general ledger entries for tax audits in FEC format or XML, and set up the Declaration of Trade in Goods (DEB).
-- Banking and payments: payment management uses payment slips, payment classes, statuses, steps and addresses; pages cover setting up, creating, exporting, posting and archiving slips, and moving setup between companies.
+- VAT: export G/L entries in the FEC audit file format for French corporate tax and VAT audits.
+- VAT: export G/L entries to XML for external archiving, and set up reporting for the Declaration of Trade in Goods (DEB).
+- Banking and payments: payment management with payment slips, payment classes, statuses, steps and addresses; create, export, post and archive slips, and move setup between companies.
 - E-invoicing: electronic invoicing with UBL 2.1 and Factur-X, incoming invoice import, and submission to the tax authority via partner platforms.
 - E-Reporting covers transactions outside mandatory B2B e-invoicing.
 - Core finance: fiscal years and periods, year-end closing, fiscal closure, posting periods, applying entries, reports and reconciliations under French rules.
 - Fixed assets: accelerated depreciation with accounting and tax depreciation books, derogatory posting, and the Calculate Depreciation batch job.
-- The landing page notes a transition to an extensions-based model in 2026 release wave 2.
+- The France functionality moves to an extensions-based model in 2026 release wave 2.
 
 ## Subtopics
 

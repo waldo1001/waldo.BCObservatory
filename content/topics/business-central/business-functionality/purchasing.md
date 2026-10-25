@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:58.086Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -628,7 +628,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11339 Prevent order matching for invoice lines created by Get Receipt Lines](../../../changes/bcapps/11339.md) (code change): "Matched order line functionality now rejects invoice lines created through Get Receipt"
 - [#11367 [29.X][Repair Item][SaaS][Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location](../../../changes/bcapps/11367.md) (code change): "Undo Shipment fails with blank Bin Code at bin-mandatory location"
 - [#12003 [Main]- Project Planning Lines are created in reverse order when purchase line descriptions are copied](../../../changes/bcapps/12003.md) (code change): "Project Planning Lines are created in reverse order when posting purchase invoices"
-- [#12532 [Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../changes/bcapps/12532.md) (code change): "Dispute status is preserved when editing posted purchase invoice headers"
+- [#12532 [Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../changes/bcapps/12532.md) (code change): "Dispute Status code is not retained in some scenarios within the Vendor/Purchase"
 - [#12723 [Master]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12723.md) (code change): "changing the Description on a purchase invoice line no longer resets its Quantity"
 - [#12809 Bugs/bug 654102 main]purch order vendor change automatically applied to next order](../../../changes/bcapps/12809.md) (code change): "vendor change on one order is no longer automatically applied to the next order"
 - [#12816 [29.x]- Project Planning Lines are created in reverse order when purchase line descriptions are copied](../../../changes/bcapps/12816.md) (code change): "Project planning lines now maintain the original purchase line sequence when Copy Line"

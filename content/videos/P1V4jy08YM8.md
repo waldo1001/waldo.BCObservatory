@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:46:47.102Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,8 +81,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573259
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -182,12 +181,10 @@ features:
     verified: false
     status_source: video
   - name: Project tracking for expenses
-    status: preview
+    status: unclear
     t: 284
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573259"
+    status_source: video
   - name: Per diem expense configuration
     status: unclear
     t: 304
@@ -258,26 +255,26 @@ Setup covers access and submission by web app or email, expense users and a defa
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Expense Agent | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=P1V4jy08YM8&t=0s) |
-| Access and submission configuration | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=P1V4jy08YM8&t=38s) |
-| Expense user registration | status not stated, demoed | [1:15](https://www.youtube.com/watch?v=P1V4jy08YM8&t=75s) |
-| Default approver configuration | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=P1V4jy08YM8&t=93s) |
-| Number series configuration | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=P1V4jy08YM8&t=118s) |
-| Payment method defaults | status not stated, demoed | [2:22](https://www.youtube.com/watch?v=P1V4jy08YM8&t=142s) |
-| Posting group defaults | status not stated, demoed | [2:35](https://www.youtube.com/watch?v=P1V4jy08YM8&t=155s) |
-| Expense categories | status not stated, demoed | [2:35](https://www.youtube.com/watch?v=P1V4jy08YM8&t=155s) |
-| Management defaults and rules | status not stated, demoed | [2:52](https://www.youtube.com/watch?v=P1V4jy08YM8&t=172s) |
-| Rules and controls enforcement | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=P1V4jy08YM8&t=201s) |
-| Email notification configuration | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=P1V4jy08YM8&t=232s) |
-| Approval notifications | status not stated, demoed | [4:17](https://www.youtube.com/watch?v=P1V4jy08YM8&t=257s) |
-| Mileage expense configuration | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=P1V4jy08YM8&t=268s) |
-| Project tracking for expenses | preview (roadmap [Use assigned projects only in the web app](../features/573259.md)), demoed | [4:44](https://www.youtube.com/watch?v=P1V4jy08YM8&t=284s) |
-| Per diem expense configuration | status not stated, demoed | [5:04](https://www.youtube.com/watch?v=P1V4jy08YM8&t=304s) |
-| Welcome email to expense users | status not stated, demoed | [5:34](https://www.youtube.com/watch?v=P1V4jy08YM8&t=334s) |
+Every feature below: status not stated, demoed.
 
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
+| Feature | At |
+|---|---|
+| Expense Agent | [0:00](https://www.youtube.com/watch?v=P1V4jy08YM8&t=0s) |
+| Access and submission configuration | [0:38](https://www.youtube.com/watch?v=P1V4jy08YM8&t=38s) |
+| Expense user registration | [1:15](https://www.youtube.com/watch?v=P1V4jy08YM8&t=75s) |
+| Default approver configuration | [1:33](https://www.youtube.com/watch?v=P1V4jy08YM8&t=93s) |
+| Number series configuration | [1:58](https://www.youtube.com/watch?v=P1V4jy08YM8&t=118s) |
+| Payment method defaults | [2:22](https://www.youtube.com/watch?v=P1V4jy08YM8&t=142s) |
+| Posting group defaults | [2:35](https://www.youtube.com/watch?v=P1V4jy08YM8&t=155s) |
+| Expense categories | [2:35](https://www.youtube.com/watch?v=P1V4jy08YM8&t=155s) |
+| Management defaults and rules | [2:52](https://www.youtube.com/watch?v=P1V4jy08YM8&t=172s) |
+| Rules and controls enforcement | [3:21](https://www.youtube.com/watch?v=P1V4jy08YM8&t=201s) |
+| Email notification configuration | [3:52](https://www.youtube.com/watch?v=P1V4jy08YM8&t=232s) |
+| Approval notifications | [4:17](https://www.youtube.com/watch?v=P1V4jy08YM8&t=257s) |
+| Mileage expense configuration | [4:28](https://www.youtube.com/watch?v=P1V4jy08YM8&t=268s) |
+| Project tracking for expenses | [4:44](https://www.youtube.com/watch?v=P1V4jy08YM8&t=284s) |
+| Per diem expense configuration | [5:04](https://www.youtube.com/watch?v=P1V4jy08YM8&t=304s) |
+| Welcome email to expense users | [5:34](https://www.youtube.com/watch?v=P1V4jy08YM8&t=334s) |
 
 ## Quotes
 

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:47:18.235Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -127,12 +127,10 @@ features:
     roadmap_ids:
       - "576789"
   - name: Add tools by API group in MCP configuration
-    status: ga
+    status: unclear
     t: 96
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "576789"
+    status_source: video
   - name: API groups for automation, e-document, and intercompany
     status: ga
     t: 110
@@ -206,7 +204,7 @@ It demonstrates configuring the MCP server: APIs can be added individually, or i
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | All Microsoft published APIs available in MCP server | generally available (roadmap [Unlock more Business Central data with MCP server enhancements](../features/576789.md)), demoed | [0:24](https://www.youtube.com/watch?v=zei-IszvYNU&t=24s) |  |
-| Add tools by API group in MCP configuration | generally available (roadmap [Unlock more Business Central data with MCP server enhancements](../features/576789.md)), demoed | [1:36](https://www.youtube.com/watch?v=zei-IszvYNU&t=96s) |  |
+| Add tools by API group in MCP configuration | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=zei-IszvYNU&t=96s) |  |
 | API groups for automation, e-document, and intercompany | generally available (roadmap [Unlock more Business Central data with MCP server enhancements](../features/576789.md)), demoed | [1:50](https://www.youtube.com/watch?v=zei-IszvYNU&t=110s) | "analytics, automation APIs, e-document, intercompany, um everything that we have an API group for is now available" ([2:05](https://www.youtube.com/watch?v=zei-IszvYNU&t=125s)) |
 | MCP server support in 2026 wave one release | status not stated | [0:52](https://www.youtube.com/watch?v=zei-IszvYNU&t=52s) |  |
 

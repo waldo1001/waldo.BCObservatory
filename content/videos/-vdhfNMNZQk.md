@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:44:21.395Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -89,7 +89,10 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573320
+    - feature/573326
+    - feature/573327
   topics: []
   localizations: []
   videos: []
@@ -127,30 +130,40 @@ chapters:
     title: Summary and resources
 features:
   - name: Composite layouts for documents
-    status: unclear
+    status: ga
     t: 6
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573326"
+      - "573327"
   - name: Body layout
     status: unclear
     t: 61
     verified: false
     status_source: video
   - name: Theme application
-    status: unclear
+    status: ga
     t: 87
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573327"
   - name: Header-footer layout application
-    status: unclear
+    status: ga
     t: 87
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573326"
   - name: Layered layout defaults
-    status: unclear
+    status: ga
     t: 243
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573326"
+      - "573327"
   - name: Custom theme and header-footer layouts
     status: unclear
     t: 297
@@ -172,10 +185,12 @@ features:
     verified: false
     status_source: video
   - name: Layout status control
-    status: unclear
+    status: ga
     t: 647
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573320"
 objects_mentioned:
   - page managed theme and header and footer layouts page
 quotes:
@@ -243,16 +258,18 @@ It shows defaults set at global, company, report and specific layout level, and 
 
 | Feature | Status | At |
 |---|---|---|
-| Composite layouts for documents | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=6s) |
+| Composite layouts for documents | generally available (roadmap [Reuse header/footer layouts across document reports](../features/573326.md), [Brand document reports with report themes](../features/573327.md)), demoed | [0:06](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=6s) |
 | Body layout | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=61s) |
-| Theme application | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) |
-| Header-footer layout application | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) |
-| Layered layout defaults | status not stated, demoed | [4:03](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=243s) |
+| Theme application | generally available (roadmap [Brand document reports with report themes](../features/573327.md)), demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) |
+| Header-footer layout application | generally available (roadmap [Reuse header/footer layouts across document reports](../features/573326.md)), demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) |
+| Layered layout defaults | generally available (roadmap [Reuse header/footer layouts across document reports](../features/573326.md), [Brand document reports with report themes](../features/573327.md)), demoed | [4:03](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=243s) |
 | Custom theme and header-footer layouts | status not stated | [4:57](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=297s) |
 | Managed theme and header-footer layouts page | status not stated | [5:13](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=313s) |
 | Shipped themes | status not stated, demoed | [6:55](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=415s) |
 | Feature management for composite layouts | status not stated, demoed | [9:35](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=575s) |
-| Layout status control | status not stated, demoed | [10:47](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=647s) |
+| Layout status control | generally available (roadmap [Control the lifecycle of all report layouts](../features/573320.md)), demoed | [10:47](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=647s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

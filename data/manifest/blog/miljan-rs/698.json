@@ -7,13 +7,44 @@
   "url": "https://miljan.rs/2025/08/18/conditional-page-breaks-in-word-layouts-for-business-central-reports/",
   "published_at": "2025-08-18T06:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T09:01:23.442Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T12:26:54.184Z",
+      "path": "vault:posts/miljan-rs/698.md",
+      "words": 800
+    },
+    "extracted": {
+      "at": "2026-10-25T12:27:03.468Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006042
+    },
+    "summarized": {
+      "at": "2026-10-25T12:27:03.469Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T12:27:03.471Z"
+    },
+    "published": {
+      "at": "2026-10-25T12:27:03.481Z",
+      "path": "content/posts/miljan-rs/698.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d7e70f9085fe0447843858712070efc7c18b86925395e6ca79353c95c65ef330",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-25T12:52:00.915Z"
+  }
 }

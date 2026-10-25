@@ -1,37 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/austria",
-  "input_hash": "bf00894adbc350caddffc62ad08c9e8d6f69b4f4795c5cfac2b933aa34d59107",
-  "summary": "Austria local functionality in Business Central: VAT statements and VAT reporting (XML and FDF, VAT-VIES), the Vendor Payments List report, delivery reminders for late vendor deliveries, and audit tools such as GL and VAT entry export and general ledger setup printing. It answers questions on Austrian tax reporting formats, reminders and audit data.",
-  "overview": "The Austria section collects features specific to the Austrian version of Business Central. The landing page lists VAT statement creation, VAT reporting, vendor payment list reports, delivery reminders, general ledger setup printing and Intrastat reporting. It also notes that SAF-T reporting is planned for 2026 release wave 2.\n\nThe pages are split into three subtopics. VAT covers creating the VAT statement as XML and FDF files for the tax authority (including the reduced 4.9% rate) and the Austrian VAT reports such as VAT-VIES Declaration XML. Purchasing covers delivery reminders: setting up terms, levels, text and vendor codes, then creating, generating, testing and issuing reminders. General covers audit support: exporting GL and VAT entries with the Audit Files Export extension and printing general ledger setup information.\n\nThe section's own pages also include the Vendor Payments List report. Start with the landing page for an overview, then go to VAT for tax reporting, Purchasing for reminders, or General for audit and setup checks.",
+  "input_hash": "dd5e835aa9139678f90b1207885982e2c88182ab2e319d04f91e2f8bff8ca3ec",
+  "summary": "Austria local functionality in Business Central: VAT statements and VAT reporting (XML and FDF, VAT-VIES), the Vendor Payments List report, delivery reminders for purchasing, and audit-related general tools. It answers questions on Austrian reporting formats, reminder setup and audit exports.",
+  "overview": "The Austria section collects the features specific to the Austrian version of Business Central. The landing page lists VAT statement creation, VAT reporting, vendor payment list reports, delivery reminders, general ledger setup printing and Intrastat reporting. It also notes that SAF-T reporting is planned for 2026 release wave 2.\n\nThe section is split into three subtopics. VAT covers creating the VAT statement as XML and FDF files for the tax authority, including the reduced 4.9% rate, and the Austrian VAT reports such as VAT-VIES Declaration XML. Purchasing covers delivery reminders sent to vendors for overdue deliveries. General covers audit tools: exporting GL and VAT entries with the Audit Files Export extension and printing general ledger setup information.\n\nThe section's own pages also include the Vendor Payments List report. Start with the VAT subtopic for tax authority submissions, with Purchasing for reminder setup, and with General for audit and compliance checks.",
   "key_points": [
-    "VAT statements can be created as XML and FDF files for the Austrian tax authority, including the reduced 4.9% rate.",
-    "Austrian VAT reports include the VAT-VIES Declaration in XML format.",
-    "Delivery reminders handle late vendor deliveries; setup covers terms, levels, text and vendor codes.",
-    "Reminders can be created, generated, tested and issued.",
-    "The Vendor Payments List report sorts chronologically or by vendor, with Standard, FCY Amounts and Posting Info layouts, vendor subtotals and payment status.",
-    "The Audit Files Export extension exports GL and VAT entries for auditing.",
-    "General ledger setup information can be printed in the Austrian version to verify setup.",
+    "VAT statements can be created as XML and FDF files for the tax authority, including the reduced 4.9% rate.",
+    "VAT-VIES Declaration XML is among the Austrian VAT reports.",
+    "Delivery reminders notify vendors of overdue deliveries; setup covers reminder terms, levels and text, and reminder codes assigned to vendors.",
+    "Reminders can be created manually or generated, and test reports let you review them before issuing.",
+    "The Vendor Payments List report can be sorted by vendor or chronologically.",
+    "Vendor Payments List layouts are Standard, FCY Amounts and Posting Info, with vendor subtotals and payment status display.",
+    "The Audit Files Export extension exports GL and VAT entries for auditing, and general ledger setup information can be printed.",
     "SAF-T reporting is planned for 2026 release wave 2."
   ],
   "members_used": 2,
   "subtopics_used": 3,
   "prompt_version": 1,
-  "at": "2026-10-18T00:56:06.061Z",
+  "at": "2026-10-25T12:52:39.774Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012887
+    "cost_usd": 0.015936
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-24T00:54:48.439Z",
+    "at": "2026-10-25T12:53:09.133Z",
     "verdict": "approve",
     "issues": [
-      "The SAF-T claim says 'planned for 2026 release wave 2', which matches the landing page summary. That wave began around October 2026, so the wording may be out of date. Check it against the source when the page is next refreshed.",
-      "Intrastat Reporting appears in the overview but not in the summary or key points. That's minor and acceptable."
+      "Minor: Intrastat Reporting appears only as a landing-page feature with no supporting subtopic or page detail; the overview correctly limits itself to saying the landing page lists it.",
+      "Minor: SAF-T is only planned (2026 release wave 2); the narrative correctly uses 'planned' and does not present it as available."
     ],
-    "input_hash": "bf00894adbc350caddffc62ad08c9e8d6f69b4f4795c5cfac2b933aa34d59107",
-    "cost_usd": 0.025119199999999998
+    "input_hash": "dd5e835aa9139678f90b1207885982e2c88182ab2e319d04f91e2f8bff8ca3ec",
+    "cost_usd": 0.041076
   }
 }

@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/miljan-rs/908",
+  "input_hash": "0d648509200360fd4772bf987db1d6a9cf87fcae14d968504b85756b5b180502",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T12:52:23.012Z",
+  "issues": [
+    "Reporting system is not supported by the post.",
+    "G/L Journal Batch is named only as the batch holding the copy option, not as a page, so the page object is dropped.",
+    "Key points left out the restriction to journal-posted registers and the original posting date rule; points rewritten to include them."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.046501,
+    "posts_in_call": 4
+  }
+}

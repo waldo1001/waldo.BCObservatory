@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:34.693Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -322,6 +322,7 @@ links:
     - post/demiliani-com/12498
     - post/demiliani-com/12623
     - post/gerardorenteria-blog/12961
+    - post/miljan-rs/866
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee
   guidelines: []
   changes:
@@ -349,7 +350,7 @@ coverage:
   learn: 69
   code: 0
   video: 1
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 4b85c5a961bfa013683b351bf15cdd48537c4ed457c3eb55957b8da3fe6729b7
@@ -411,6 +412,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: introducing the new MaskedType enum field-level property.](../../../../posts/demiliani-com/12498.md) (community post): "MaskType enum property for table fields supports None and Concealed"
 - [Dynamics 365 Business Central: previewing PDF files in web client using the new ExtendedDataType = Document.](../../../../posts/demiliani-com/12623.md) (community post): "new ExtendedDataType called Document that enables PDF file previews in web client FactBoxes"
 - [🕐 Remember When Lists Could Sort By Any Key? 🔄](../../../../posts/gerardorenteria-blog/12961.md) (community post): "a solution to sort Business Central list pages by any predefined table key"
+- [Simple Text Editor for Business Central](../../../../posts/miljan-rs/866.md) (community post): "opening a clean modal editor accessible via ribbon actions on customer lists"
 - [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee.md) (community post): "ToolTip and ToolTipML properties directly on page objects"
 - [Use Teaching Tips to Educate and Guide Users](../../../../videos/2Zz55J8rt8I.md) (video): "Teaching Tips; Tours with Teaching Tips"
 

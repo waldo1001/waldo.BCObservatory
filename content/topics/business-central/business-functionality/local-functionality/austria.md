@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/austria
 type: topic
 title: Austria
-summary: "Austria local functionality in Business Central: VAT statements and VAT reporting (XML and FDF, VAT-VIES), the Vendor Payments List report, delivery reminders for late vendor deliveries, and audit tools such as GL and VAT entry export and general ledger setup printing. It answers questions on Austrian tax reporting formats, reminders and audit data."
+summary: "Austria local functionality in Business Central: VAT statements and VAT reporting (XML and FDF, VAT-VIES), the Vendor Payments List report, delivery reminders for purchasing, and audit-related general tools. It answers questions on Austrian reporting formats, reminder setup and audit exports."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-24T00:54:48.439Z"
+  at: "2026-10-25T12:53:09.133Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: bf00894adbc350caddffc62ad08c9e8d6f69b4f4795c5cfac2b933aa34d59107
+  input_hash: dd5e835aa9139678f90b1207885982e2c88182ab2e319d04f91e2f8bff8ca3ec
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-assign-delivery-reminder-codes-to-vendors
@@ -168,27 +168,27 @@ narrative: generated
 
 # Austria
 
-> Austria local functionality in Business Central: VAT statements and VAT reporting (XML and FDF, VAT-VIES), the Vendor Payments List report, delivery reminders for late vendor deliveries, and audit tools such as GL and VAT entry export and general ledger setup printing. It answers questions on Austrian tax reporting formats, reminders and audit data.
+> Austria local functionality in Business Central: VAT statements and VAT reporting (XML and FDF, VAT-VIES), the Vendor Payments List report, delivery reminders for purchasing, and audit-related general tools. It answers questions on Austrian reporting formats, reminder setup and audit exports.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Austria · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Austria section collects features specific to the Austrian version of Business Central. The landing page lists VAT statement creation, VAT reporting, vendor payment list reports, delivery reminders, general ledger setup printing and Intrastat reporting. It also notes that SAF-T reporting is planned for 2026 release wave 2.
+The Austria section collects the features specific to the Austrian version of Business Central. The landing page lists VAT statement creation, VAT reporting, vendor payment list reports, delivery reminders, general ledger setup printing and Intrastat reporting. It also notes that SAF-T reporting is planned for 2026 release wave 2.
 
-The pages are split into three subtopics. VAT covers creating the VAT statement as XML and FDF files for the tax authority (including the reduced 4.9% rate) and the Austrian VAT reports such as VAT-VIES Declaration XML. Purchasing covers delivery reminders: setting up terms, levels, text and vendor codes, then creating, generating, testing and issuing reminders. General covers audit support: exporting GL and VAT entries with the Audit Files Export extension and printing general ledger setup information.
+The section is split into three subtopics. VAT covers creating the VAT statement as XML and FDF files for the tax authority, including the reduced 4.9% rate, and the Austrian VAT reports such as VAT-VIES Declaration XML. Purchasing covers delivery reminders sent to vendors for overdue deliveries. General covers audit tools: exporting GL and VAT entries with the Audit Files Export extension and printing general ledger setup information.
 
-The section's own pages also include the Vendor Payments List report. Start with the landing page for an overview, then go to VAT for tax reporting, Purchasing for reminders, or General for audit and setup checks.
+The section's own pages also include the Vendor Payments List report. Start with the VAT subtopic for tax authority submissions, with Purchasing for reminder setup, and with General for audit and compliance checks.
 
 ## Key points
 
-- VAT statements can be created as XML and FDF files for the Austrian tax authority, including the reduced 4.9% rate.
-- Austrian VAT reports include the VAT-VIES Declaration in XML format.
-- Delivery reminders handle late vendor deliveries; setup covers terms, levels, text and vendor codes.
-- Reminders can be created, generated, tested and issued.
-- The Vendor Payments List report sorts chronologically or by vendor, with Standard, FCY Amounts and Posting Info layouts, vendor subtotals and payment status.
-- The Audit Files Export extension exports GL and VAT entries for auditing.
-- General ledger setup information can be printed in the Austrian version to verify setup.
+- VAT statements can be created as XML and FDF files for the tax authority, including the reduced 4.9% rate.
+- VAT-VIES Declaration XML is among the Austrian VAT reports.
+- Delivery reminders notify vendors of overdue deliveries; setup covers reminder terms, levels and text, and reminder codes assigned to vendors.
+- Reminders can be created manually or generated, and test reports let you review them before issuing.
+- The Vendor Payments List report can be sorted by vendor or chronologically.
+- Vendor Payments List layouts are Standard, FCY Amounts and Posting Info, with vendor subtotals and payment status display.
+- The Audit Files Export extension exports GL and VAT entries for auditing, and general ledger setup information can be printed.
 - SAF-T reporting is planned for 2026 release wave 2.
 
 ## Subtopics

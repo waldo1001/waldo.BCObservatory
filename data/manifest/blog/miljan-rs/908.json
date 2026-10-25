@@ -7,7 +7,7 @@
   "url": "https://miljan.rs/2025/12/15/oops-i-did-it-again-reversing-g-l-transactions-in-business-central/",
   "published_at": "2025-12-15T07:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T09:01:23.442Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-25T09:01:55.294Z",
       "path": "vault:posts/miljan-rs/908.md",
       "words": 619
+    },
+    "extracted": {
+      "at": "2026-10-25T12:27:01.925Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005643
+    },
+    "summarized": {
+      "at": "2026-10-25T12:27:01.927Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T12:27:01.930Z"
+    },
+    "published": {
+      "at": "2026-10-25T12:27:02.306Z",
+      "path": "content/posts/miljan-rs/908.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,10 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a363f5fe838dc098196a59e8050fa0460d6948e92911dd75410b93a9b3cdd403"
+  "output_hash": "92e6ade2afcfd313b05f8fe495e7d77fabb9ec82db5dd6fc75e61990fa8c9621",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-25T12:52:23.012Z"
+  }
 }

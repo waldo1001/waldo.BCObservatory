@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:47:09.144Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,7 +65,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/578065
   topics: []
   localizations: []
   videos: []
@@ -97,35 +98,47 @@ chapters:
     title: Managing Multiple Agents in Parallel
 features:
   - name: Multiple Sales Order Agents in Parallel
-    status: unclear
+    status: ga
     t: 23
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578065"
   - name: Dedicated Folder Configuration for Agents
-    status: unclear
+    status: ga
     t: 57
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578065"
   - name: Agent Message Review Settings
-    status: unclear
+    status: ga
     t: 71
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578065"
   - name: Custom Agent Signature
-    status: unclear
+    status: ga
     t: 95
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578065"
   - name: Contact Matching Options for Unknown Senders
-    status: unclear
+    status: ga
     t: 141
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578065"
   - name: Agent Statistics and Navigation
-    status: unclear
+    status: ga
     t: 185
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578065"
 objects_mentioned: []
 quotes:
   - t: 23
@@ -178,16 +191,16 @@ It walks through activating a second agent, giving it a dedicated email folder, 
 
 ## Features
 
-Every feature below: status not stated, demoed.
+| Feature | Status | At |
+|---|---|---|
+| Multiple Sales Order Agents in Parallel | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [0:23](https://www.youtube.com/watch?v=kwGEoxN46hk&t=23s) |
+| Dedicated Folder Configuration for Agents | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [0:57](https://www.youtube.com/watch?v=kwGEoxN46hk&t=57s) |
+| Agent Message Review Settings | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [1:11](https://www.youtube.com/watch?v=kwGEoxN46hk&t=71s) |
+| Custom Agent Signature | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [1:35](https://www.youtube.com/watch?v=kwGEoxN46hk&t=95s) |
+| Contact Matching Options for Unknown Senders | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [2:21](https://www.youtube.com/watch?v=kwGEoxN46hk&t=141s) |
+| Agent Statistics and Navigation | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [3:05](https://www.youtube.com/watch?v=kwGEoxN46hk&t=185s) |
 
-| Feature | At |
-|---|---|
-| Multiple Sales Order Agents in Parallel | [0:23](https://www.youtube.com/watch?v=kwGEoxN46hk&t=23s) |
-| Dedicated Folder Configuration for Agents | [0:57](https://www.youtube.com/watch?v=kwGEoxN46hk&t=57s) |
-| Agent Message Review Settings | [1:11](https://www.youtube.com/watch?v=kwGEoxN46hk&t=71s) |
-| Custom Agent Signature | [1:35](https://www.youtube.com/watch?v=kwGEoxN46hk&t=95s) |
-| Contact Matching Options for Unknown Senders | [2:21](https://www.youtube.com/watch?v=kwGEoxN46hk&t=141s) |
-| Agent Statistics and Navigation | [3:05](https://www.youtube.com/watch?v=kwGEoxN46hk&t=185s) |
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

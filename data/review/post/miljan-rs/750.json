@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/miljan-rs/750",
+  "input_hash": "b60aade495b2dcbcb48412cb12194df407922df90b65ce13f7dae8ffb2bceba7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-25T12:52:00.915Z",
+  "issues": [
+    "The summary, key points, AppSource apps page object, features and quote all match the post.",
+    "The administration system is not supported. The post only covers Analysis Mode in the client, so I dropped it and kept platform."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027919,
+    "posts_in_call": 3
+  }
+}

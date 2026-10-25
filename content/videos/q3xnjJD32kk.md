@@ -22,7 +22,7 @@ review:
   at: "2026-10-15T00:21:33.506Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -113,10 +113,12 @@ cautions:
     t: 229
 features:
   - name: Find tables tool
-    status: unclear
+    status: ga
     t: 74
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573312"
   - name: Table relations tool
     status: unclear
     t: 74
@@ -133,12 +135,10 @@ features:
     verified: false
     status_source: video
   - name: MCP query data access without APIs
-    status: ga
+    status: unclear
     t: 50
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573312"
+    status_source: video
   - name: MCP configuration UX improvements
     status: unclear
     t: 376
@@ -210,11 +210,11 @@ The video also explains limits of the query approach and shows the new MCP confi
 
 | Feature | Status | At |
 |---|---|---|
-| Find tables tool | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=q3xnjJD32kk&t=74s) |
+| Find tables tool | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [1:14](https://www.youtube.com/watch?v=q3xnjJD32kk&t=74s) |
 | Table relations tool | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=q3xnjJD32kk&t=74s) |
 | Table schema tool | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=q3xnjJD32kk&t=74s) |
 | Data query tool | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=q3xnjJD32kk&t=74s) |
-| MCP query data access without APIs | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [0:50](https://www.youtube.com/watch?v=q3xnjJD32kk&t=50s) |
+| MCP query data access without APIs | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=q3xnjJD32kk&t=50s) |
 | MCP configuration UX improvements | status not stated | [6:16](https://www.youtube.com/watch?v=q3xnjJD32kk&t=376s) |
 | MCP server security toggle | status not stated | [7:15](https://www.youtube.com/watch?v=q3xnjJD32kk&t=435s) |
 

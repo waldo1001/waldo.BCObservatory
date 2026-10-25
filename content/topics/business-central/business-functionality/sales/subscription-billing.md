@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:17.722Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -456,7 +456,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10444 [Bug][Subscription Billing] "Cancellation Possible Until" is rounded to the end of the month when the Notice Period is expressed in days](../../../../changes/bcapps/10444.md) (code change): "subscription line cancellation dates were incorrectly rounded to month-end when notice periods were expressed in days"
 - [#10445 [Bug][Subscription Billing] Contract Renewal Quote total ignores the Billing Base Period and shows the base-period amount instead of the renewal-term amount](../../../../changes/bcapps/10445.md) (code change): "Contract Renewal Quote total ignores the Billing Base Period"
 - [#10446 [Bug][Subscription Billing] "Subscription Lines - Overdue" cue counts lines of contracts that already ended](../../../../changes/bcapps/10446.md) (code change): "Fixed the Overdue Subscription Lines cue and page to exclude subscription lines"
-- [#10477 [Bug Fix] #249: Raise populated ErrorInfo for Subscription Billing failures](../../../../changes/bcapps/10477.md) (code change): "Subscription Billing error handlers now raise the fully populated ErrorInfo object instead of plain-text errors"
+- [#10477 [Bug Fix] #249: Raise populated ErrorInfo for Subscription Billing failures](../../../../changes/bcapps/10477.md) (code change): "Subscription Billing error handlers now raise the fully populated ErrorInfo"
 - [#12857 [master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../changes/bcapps/12857.md) (code change): "Billing totals now filter by both Subscription Contract No. and Partner type"
 - [#12967 [29.x]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../changes/bcapps/12967.md) (code change): "Billing total calculations now filter by both subscription contract number and partner"
 - [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../../../../videos/5xeATIUFiGg.md) (video): "subscription billing; recurring invoicing; contract management; revenue deferrals"

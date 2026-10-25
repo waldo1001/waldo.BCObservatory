@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:13.090Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,6 +92,8 @@ links:
     - video/5xeATIUFiGg
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10477
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -154,10 +156,11 @@ A sensible order is general setup first, then contract types, packages and lines
   - In the observatory: [Page 30 "Item Card"](../../../../../objects/page/30.md)
 - [Subscription packages and subscription lines](https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/service-commitments): You can use subscription lines in subscription billing.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10477 [Bug Fix] #249: Raise populated ErrorInfo for Subscription Billing failures](../../../../../changes/bcapps/10477.md) (code change): "DisplayOrLogErrorFromBillingTemplate and DisplayOrLogErrorFromBillingLine"
 - [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../../../../../videos/5xeATIUFiGg.md) (video): "Setup configuration; posting groups; packages; item types; billing rhythm"
 
 ## Business Central pages and reports

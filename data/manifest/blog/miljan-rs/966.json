@@ -7,7 +7,7 @@
   "url": "https://miljan.rs/2025/12/29/when-errors-dont-stop-the-process-a-hidden-risk-in-business-central/",
   "published_at": "2025-12-29T07:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T09:01:23.442Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-25T09:01:54.905Z",
       "path": "vault:posts/miljan-rs/966.md",
       "words": 784
+    },
+    "extracted": {
+      "at": "2026-10-25T12:27:02.782Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.006106
+    },
+    "summarized": {
+      "at": "2026-10-25T12:27:02.783Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T12:27:02.784Z"
+    },
+    "published": {
+      "at": "2026-10-25T12:27:02.794Z",
+      "path": "content/posts/miljan-rs/966.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,10 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "26d52828395faa16f465ebc8b427da24cbe315415f77be67553a9cf79f4e8f37"
+  "output_hash": "b60fc250b7c26ca66cace4a33d2e76a697ce68552a4fcc416238315e012e9f24",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-25T12:52:23.012Z"
+  }
 }

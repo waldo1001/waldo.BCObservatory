@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/miljan-rs/698",
+  "input_hash": "28ff4650075916439267600d38b8951ec0b8c2fd8e1e84e3716320f0c9383582",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-25T12:52:00.915Z",
+  "issues": [
+    "The summary and key points match the post: the Page break before option, the fragile setting that can reset, the risk of blank pages from hard breaks, and the comparison with RDLC.",
+    "The post names the Sales Invoice report as its baseline example, and the quote appears in the post.",
+    "Some feature labels are generic but still fit the post."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027919,
+    "posts_in_call": 3
+  }
+}

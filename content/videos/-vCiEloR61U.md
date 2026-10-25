@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:18:55.507Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -128,10 +128,12 @@ features:
     roadmap_ids:
       - "573354"
   - name: ModuleInfo type enhancements
-    status: unclear
+    status: ga
     t: 99
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573354"
   - name: ModuleDependencyInfo type
     status: unclear
     t: 368
@@ -209,7 +211,7 @@ The presenter shows how to get a ModuleInfo for the current app with NavApp.GetC
 | ModuleInfo ULA property | generally available (roadmap [Access application links through ModuleInfo](../features/573354.md)), demoed | [2:44](https://www.youtube.com/watch?v=-vCiEloR61U&t=164s) |
 | ModuleInfo privacy statement property | generally available (roadmap [Access application links through ModuleInfo](../features/573354.md)), demoed | [2:55](https://www.youtube.com/watch?v=-vCiEloR61U&t=175s) |
 | ModuleInfo context sensitive help URL property | generally available (roadmap [Access application links through ModuleInfo](../features/573354.md)), demoed | [3:00](https://www.youtube.com/watch?v=-vCiEloR61U&t=180s) |
-| ModuleInfo type enhancements | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=-vCiEloR61U&t=99s) |
+| ModuleInfo type enhancements | generally available (roadmap [Access application links through ModuleInfo](../features/573354.md)), demoed | [1:39](https://www.youtube.com/watch?v=-vCiEloR61U&t=99s) |
 | ModuleDependencyInfo type | status not stated, demoed | [6:08](https://www.youtube.com/watch?v=-vCiEloR61U&t=368s) |
 | NavApp.GetCurrentModuleInfo function | status not stated, demoed | [5:08](https://www.youtube.com/watch?v=-vCiEloR61U&t=308s) |
 | NavApp.GetModuleInfo function | status not stated, demoed | [4:54](https://www.youtube.com/watch?v=-vCiEloR61U&t=294s) |

@@ -7,13 +7,44 @@
   "url": "https://miljan.rs/2025/08/28/how-to-accidentally-break-business-central-for-fun/",
   "published_at": "2025-08-28T15:12:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T09:01:23.442Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T12:26:53.859Z",
+      "path": "vault:posts/miljan-rs/750.md",
+      "words": 310
+    },
+    "extracted": {
+      "at": "2026-10-25T12:27:02.358Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.004571
+    },
+    "summarized": {
+      "at": "2026-10-25T12:27:02.360Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T12:27:02.361Z"
+    },
+    "published": {
+      "at": "2026-10-25T12:27:02.369Z",
+      "path": "content/posts/miljan-rs/750.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1e8140ccae6e30e0623a9fe58be73e4bc5874491ea5242ca3a40280c74e32683",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-25T12:52:00.915Z"
+  }
 }

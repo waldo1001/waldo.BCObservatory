@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -331,10 +331,10 @@ links:
   videos:
     - video/2N2NhNH7dsk
     - video/4HE3BBCcV84
+    - video/S5Xw-b8YF-c
     - video/VpNQ-CYNrkM
   posts:
     - post/aardvarklabs-blog/2017
-    - post/aardvarklabs-blog/2565
     - post/aardvarklabs-blog/4082
     - post/demiliani-com/11962
     - post/demiliani-com/12036
@@ -365,8 +365,8 @@ children:
 coverage:
   learn: 261
   code: 1
-  video: 3
-  blog: 11
+  video: 4
+  blog: 10
   guideline: 0
 bc_forms:
   - 812
@@ -446,7 +446,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9194 Add API Overview page (page 812)](../../../../changes/bcapps/9194.md) (code change): "A new admin page shows all available APIs"
 - [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "Schema 2.0 (BC 24 default) uses strongly typed enums with member names in metadata"
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query objects configured as APIs in Business Central to expose data"
-- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "create custom Page or Query APIs, or copy Microsoft pages to custom objects"
 - [Business Central’s New API Overview: A Modern Replacement for Web Services](../../../../posts/aardvarklabs-blog/4082.md) (community post): "API Overview page provides a modern, unified interface to discover all API pages"
 - [Dynamics 365 Business Central: compressing API responses at max.](../../../../posts/demiliani-com/11962.md) (community post): "Business Central APIs compress responses with gzip by default, negotiated via Accept-Encoding"
 - [Why not start improving Business Central APIs definitions for supporting AI?](../../../../posts/demiliani-com/12036.md) (community post): "Business Central APIs lack AI-ready metadata that LLMs need to reliably call functions"
@@ -458,6 +457,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 29: More Control Over Report Layouts and New Report Inbox APIs](../../../../posts/thinkaboutit-be/8272.md) (community post): "Report Inbox APIs enable external applications and automation tools to interact"
 - [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../../../../videos/2N2NhNH7dsk.md) (video): "Report inbox APIs; API overview page for report inbox"
 - [MCP Server and API Queries (2026 release wave 1)](../../../../videos/4HE3BBCcV84.md) (video): "API queries in MCP server Analytics API reference documentation"
+- [What's New: APIs in E-Documents (2025 release wave 2)](../../../../videos/S5Xw-b8YF-c.md) (video): "E-Documents APIs; E-Document Business Events; Create E-Document"
 - [What's New: Web Services in Business Central (2024 release wave 1)](../../../../videos/VpNQ-CYNrkM.md) (video): "API Schema Version 2.0 Default; API Version 1 Deprecation"
 
 ## Business Central pages and reports

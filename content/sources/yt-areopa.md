@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-25T12:26:48.227Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 50380704b33df4069030a4c493f096250a7e7fd07b97667f229dfe65d3c75ad1
@@ -29,7 +29,7 @@ links:
   learn: []
   objects: []
   features:
-    - feature/576789
+    - feature/578068
   topics: []
   localizations: []
   videos:
@@ -117,7 +117,7 @@ footprint:
     - id: codeunit create activate
       weight: 1
   features:
-    - id: feature/576789
+    - id: feature/578068
       weight: 1
 first_item: "2025-12-09"
 last_item: "2026-10-19"
@@ -158,7 +158,7 @@ Items per quarter, oldest first:
 
 ## Roadmap features it demonstrates
 
-- [Unlock more Business Central data with MCP server enhancements](../features/576789.md): Copilot and agents, generally available, GA 2026-06, 1 video
+- [Envision and design AI agents in Business Central](../features/578068.md): Copilot and agents, in preview, GA 2026-10, 1 video
 
 ## Most recent
 

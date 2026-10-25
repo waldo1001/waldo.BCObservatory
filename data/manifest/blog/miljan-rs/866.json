@@ -7,7 +7,7 @@
   "url": "https://miljan.rs/2025/11/24/simple-text-editor-for-business-central/",
   "published_at": "2025-11-24T07:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T09:01:23.442Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-25T09:01:55.400Z",
       "path": "vault:posts/miljan-rs/866.md",
       "words": 845
+    },
+    "extracted": {
+      "at": "2026-10-25T12:27:02.329Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.005626
+    },
+    "summarized": {
+      "at": "2026-10-25T12:27:02.331Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T12:27:02.333Z"
+    },
+    "published": {
+      "at": "2026-10-25T12:27:02.349Z",
+      "path": "content/posts/miljan-rs/866.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,10 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6c9ae09a1598442d0f9819bec00299c071ef8a2e0eda9885c42db4279caee12b"
+  "output_hash": "efe9075bd1279d57cb83624f05de4df718d160649d7258e0f93571efb0a48c2c",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-25T12:52:23.012Z"
+  }
 }

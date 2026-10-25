@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:51.277Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -360,6 +360,7 @@ links:
   localizations: []
   videos:
     - video/0h8QBNmeORQ
+    - video/2uXVammbab0
     - video/58yOwN3GY2Q
     - video/H5EuObmeF4o
     - video/K0i5rvqPC_o
@@ -393,7 +394,7 @@ children:
 coverage:
   learn: 54
   code: 35
-  video: 5
+  video: 6
   blog: 2
   guideline: 0
 bc_forms:
@@ -494,6 +495,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Effective Steps for Troubleshooting Business Central Agents](../../posts/aardvarklabs-blog/3315.md) (community post): "This post explains how to troubleshoot Business Central agents by examining task logs"
 - [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../posts/demiliani-com/11739.md) (community post): "Copilot Studio message-based pricing pay-as-you-go at $0.01 per message"
 - [Microsoft Sizzle: Business Central Agents In Action](../../videos/0h8QBNmeORQ.md) (video): "Microsoft Sizzle: Business Central Agents In Action"
+- [What's New: Chat with Copilot (2025 release wave 1)](../../videos/2uXVammbab0.md) (video): "Chat with Copilot; Chat interface; natural language queries; analysis tabs; permissions; contextual assistance"
 - [Microsoft Copilot in Business Central](../../videos/58yOwN3GY2Q.md) (video): "Microsoft Copilot in Business Central. Topics: copilot"
 - [Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)](../../videos/H5EuObmeF4o.md) (video): "Everything Coming to Business Central 2025 Wave 2"
 - [What's New: Troubleshooting Business Central Agents](../../videos/K0i5rvqPC_o.md) (video): "Agent task logging and view log entries"

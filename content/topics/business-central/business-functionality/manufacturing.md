@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:34.799Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -657,7 +657,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12068 Bug 651757: [Repair Item] [Manufacturing] Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away](../../../changes/bcapps/12068.md) (code change): "Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away"
 - [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "sales order with a linked released production order caused repeated production order status warnings"
 - [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../changes/bcapps/12584.md) (code change): "Posted, uninvoiced subcontracting receipts can again be pulled into a separate purchase invoice"
-- [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../changes/bcapps/12783.md) (code change): "purchase cost accuracy in manufacturing operations using subcontractors"
+- [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../changes/bcapps/12783.md) (code change): "multiplies the subcontractor price by the operation time factor and rounds to the unit-amount precision"
 - [#9075 Bug 598820: Item Availability by Event from Prod. Order ignores demand after Due Date](../../../changes/bcapps/9075.md) (code change): "Item Availability by Event from Prod. Order ignores demand after Due Date"
 - [#9087 Bug 641331: Copy Production Order Document lookup shows the current document](../../../changes/bcapps/9087.md) (code change): "Copy Production Order Document report now excludes the current production order from the document lookup"
 - [#9660 [Master]-Act Consumption Qty field in Component of a Firm Planned Order has amounts that point to a Released Production Order that has the same Document No if the component is the same](../../../changes/bcapps/9660.md) (code change): "Act. Consumption Qty shown for components of a firm planned production order"

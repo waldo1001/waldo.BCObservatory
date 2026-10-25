@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
-  "started_at": "2026-10-25T09:01:23.442Z",
-  "finished_at": "2026-10-25T09:10:52.320Z",
+  "started_at": "2026-10-25T12:26:48.227Z",
+  "finished_at": "2026-10-25T12:55:37.295Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -26,104 +26,138 @@
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 7,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 7,
           "removed": 0
         },
         "note": "7 posts via feed",
-        "duration_ms": 3096
+        "duration_ms": 405
       }
     ],
     "totals": {
       "sources": 1,
       "failed": 0,
       "deferred": 0,
-      "new": 7,
+      "new": 0,
       "changed": 0,
       "updated": 0,
-      "unchanged": 0,
+      "unchanged": 7,
       "removed": 0
     }
   },
   "plan": {
     "quotas": {
-      "captions": 60,
-      "video_extract": 20,
-      "docs": 200,
-      "posts": 20,
-      "guidelines": 10,
-      "code_jobs": 1,
-      "hub_refresh": 30,
-      "roadmap_links": 20,
-      "topic_links": 20,
-      "learn_confirm": 40,
-      "learn_facts": 30,
-      "cautions": 20,
-      "topic_reviews": 7,
-      "coverage_reviews": 10,
-      "opus_reviews": 5,
-      "llm_calls_max": 225,
-      "preview_probes": 80,
-      "change_fetch": 60,
-      "changes": 20,
-      "change_narrative": 1,
-      "graph_jobs": 1,
-      "video_reviews": 10,
-      "post_reviews": 7,
-      "change_reviews": 7
+      "captions": 100000,
+      "video_extract": 50000,
+      "docs": 50000,
+      "posts": 50000,
+      "guidelines": 50000,
+      "code_jobs": 100000,
+      "hub_refresh": 50000,
+      "roadmap_links": 50000,
+      "topic_links": 50000,
+      "learn_confirm": 50000,
+      "learn_facts": 50000,
+      "cautions": 50000,
+      "topic_reviews": 50000,
+      "coverage_reviews": 50000,
+      "opus_reviews": 50000,
+      "llm_calls_max": 50000,
+      "preview_probes": 100000,
+      "change_fetch": 100000,
+      "changes": 50000,
+      "change_narrative": 50000,
+      "graph_jobs": 100000,
+      "video_reviews": 50000,
+      "post_reviews": 50000,
+      "change_reviews": 50000
     },
     "work": 7,
-    "executed": 4,
+    "executed": 7,
     "skips": 0,
     "quota_use": {
       "posts": {
         "selected": 7,
         "available": 7,
-        "limit": 20
+        "limit": 50000
       }
     },
-    "note": "stopped: spend-cap"
+    "note": "stopped: done"
   },
   "llm": {
-    "calls": 0,
-    "cache_hits": 0,
+    "calls": 925,
+    "cache_hits": 4,
     "failures": 0,
-    "by_model": {},
-    "cost_usd": 0,
-    "tokens_by_model": {},
-    "day_cost_usd": 0
+    "by_model": {
+      "claude-haiku-4-5-20251001": 788,
+      "claude-opus-5-5": 132,
+      "claude-sonnet-5-5": 5
+    },
+    "cost_usd": 21.9714906,
+    "tokens_by_model": {
+      "claude-haiku-4-5-20251001": {
+        "calls": 788,
+        "input": 51443,
+        "output": 406199,
+        "cache_read": 26380,
+        "cache_creation": 6953196,
+        "cost_usd": 15.991467999999996
+      },
+      "claude-opus-5-5": {
+        "calls": 132,
+        "input": 264,
+        "output": 119716,
+        "cache_read": 56788,
+        "cache_creation": 434487,
+        "cost_usd": 5.882629599999998
+      },
+      "claude-sonnet-5-5": {
+        "calls": 5,
+        "input": 10,
+        "output": 4438,
+        "cache_read": 2445,
+        "cache_creation": 13126,
+        "cost_usd": 0.09739300000000001
+      }
+    },
+    "day_cost_usd": 21.971491
   },
   "spend": {
     "today_usd": 0,
     "week_before_usd": 59.892014,
-    "night_cap_usd": 10,
-    "week_cap_usd": 50,
-    "allowance_usd": 0,
+    "night_cap_usd": 100000,
+    "week_cap_usd": 100000,
+    "allowance_usd": 99940.107986,
     "binding": "week",
-    "exhausted": true
+    "exhausted": false,
+    "override": true
   },
-  "items_changed": 7,
+  "items_changed": 0,
   "errors": [],
   "captions_retried": 0,
   "checkpoints": 0,
   "execution": {
-    "stop_reason": "spend-cap",
-    "deadline": "2026-10-25T14:36:00.000Z",
-    "items_touched": 4,
+    "stop_reason": "done",
+    "deadline": "2026-10-25T18:01:00.000Z",
+    "items_touched": 7,
     "stages_run": {
-      "blog:fetched": 4
+      "blog:fetched": 3,
+      "blog:extracted": 7,
+      "blog:summarized": 7,
+      "blog:linked": 7,
+      "blog:published": 7
     },
-    "advanced": 4,
+    "advanced": 31,
     "skipped": 0,
     "failed_attempts": 0,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "parked": 4,
+    "parked": 0,
     "quota_charged": {
-      "posts": 4
+      "posts": 7
     },
     "regards": [],
     "errors": [],
@@ -145,12 +179,19 @@
       "undocumented": 42,
       "written": 0
     },
+    "narratives": {
+      "ready": 22,
+      "refreshed": 0,
+      "failed": 0,
+      "waiting": [],
+      "stopped": "done"
+    },
     "crosslinks": {
-      "pages": 5032,
-      "rows": 8497,
+      "pages": 5033,
+      "rows": 8503,
       "certain": 2556,
       "by": {
-        "code": 4451,
+        "code": 4457,
         "override": 33,
         "model": 4013
       },
@@ -192,84 +233,132 @@
       "removed": 0
     }
   },
+  "narrative_reviews": {
+    "localization": {
+      "candidates": 0,
+      "reviewed": 0,
+      "fixed": 0,
+      "rejected": 0,
+      "calls": 0,
+      "cost_usd": 0,
+      "stopped": "done"
+    },
+    "digest": {
+      "candidates": 0,
+      "reviewed": 0,
+      "fixed": 0,
+      "rejected": 0,
+      "calls": 0,
+      "cost_usd": 0,
+      "stopped": "done"
+    }
+  },
   "changes": {
     "fetched": 0,
     "skipped_non_code": 0,
     "held": 0,
     "pages": 1238,
     "relinked": 0,
-    "rerendered": 2,
+    "rerendered": 0,
     "api_calls": 0,
     "narrated": 0
   },
   "previews": {
-    "probed": 0,
+    "probed": 7,
     "refreshed": 0,
     "failed": 0,
-    "rerendered": 0,
+    "rerendered": 9,
     "flipped": [],
     "channels": 0
   },
   "roadmap_links": {
-    "units": 0,
-    "stale": 0,
-    "calls": 0,
-    "matched": 0,
-    "rejected": 0,
-    "related": 0,
+    "units": 3974,
+    "stale": 2455,
+    "calls": 762,
+    "matched": 926,
+    "rejected": 137,
+    "related": 1946,
     "failed": 0,
-    "cost_usd": 0,
-    "rejections": [],
-    "stopped": "quota",
-    "classified": 0,
-    "unclassified": 3,
+    "cost_usd": 15.655444000000001,
+    "rejections": [
+      "video/07G7aC14Y_w f8 -> 573305: quote not verbatim: \"Support for item reference or JIN codes on items to ensure correct item matching\"",
+      "video/0h8QBNmeORQ f1 -> 578068: quote not verbatim: \"the Sales Order Agent simplifies order creation by transforming\"",
+      "video/0h8QBNmeORQ f2 -> 576776: quote not verbatim: \"Payables Agent introduces a free trial mode that any user\"",
+      "video/1ht5nxubZ9c f1 -> 578065: quote not verbatim: \"Each instance operates independently with its own mailbox, folder settings\"",
+      "video/1ht5nxubZ9c f4 -> 578065: quote not verbatim: \"Each instance operates independently with its own mailbox, folder settings\"",
+      "video/1x3QyBX3swg f19 -> 573315: quote not verbatim: \"Extension fields will be merged back into the base table allowing creating keys\"",
+      "video/2uXVammbab0 f2 -> 573362: quote not verbatim: \"Citation controls and reference lists showing the source of Copilot's informatio\"",
+      "video/2uXVammbab0 f3 -> 573362: quote not verbatim: \"Copilot and Agent Capabilities page listing all copilot and agent functionality\"",
+      "video/2uXVammbab0 f5 -> 573362: quote not verbatim: \"Inventory search by price and category displays results by category\"",
+      "video/AMVAiPTfSrU f2 -> 573312: quote not verbatim: \"Use new MCP tools to define, validate, and run custom data queries\""
+    ],
+    "stopped": "done",
+    "classified": 3,
+    "unclassified": 0,
     "pages": 730,
     "review": {
-      "candidates": 0,
-      "reviewed": 0,
-      "kept": 0,
-      "dropped": 0,
+      "candidates": 100,
+      "reviewed": 100,
+      "kept": 366,
+      "dropped": 677,
       "failed": 0,
-      "cost_usd": 0,
+      "cost_usd": 3.912741599999999,
       "stopped": "done"
     }
   },
   "topic_links": {
-    "units": 2469,
-    "stale": 15,
-    "calls": 0,
-    "matched": 0,
-    "rejected": 0,
+    "units": 2476,
+    "stale": 22,
+    "calls": 13,
+    "matched": 31,
+    "rejected": 6,
     "failed": 0,
-    "cost_usd": 0,
-    "rejections": [],
+    "cost_usd": 0.20290700000000003,
+    "rejections": [
+      "video/gvIGhtqADS0 -> t262: not a candidate of this item",
+      "video/j5ULVClJaKU -> t262: not a candidate of this item",
+      "video/oFG9gBkd2NU -> t262: not a candidate of this item",
+      "post/demiliani-com/17508 -> t488: not a candidate of this item",
+      "post/demiliani-com/17529 -> t489: not a candidate of this item",
+      "video/vxZqz2LPJsE -> t459: not a candidate of this item"
+    ],
     "second": {
       "due": 11,
-      "called": 0,
-      "matched": 0
+      "called": 11,
+      "matched": 11
     },
-    "stopped": "quota"
+    "stopped": "done"
   },
   "cautions": {
-    "due": 0,
-    "posts": 0,
-    "calls": 0,
-    "cautions": 0,
+    "due": 7,
+    "posts": 7,
+    "calls": 2,
+    "cautions": 7,
     "failed": 0,
-    "cost_usd": 0,
+    "cost_usd": 0.042317,
     "stopped": "done"
   },
   "learn_confirm": {
-    "units": 3985,
-    "stale": 25,
-    "called": 0,
-    "calls": 0,
-    "picks": 0,
+    "units": 3987,
+    "stale": 27,
+    "called": 27,
+    "calls": 4,
+    "picks": 33,
     "rejected": 0,
     "failed": 0,
-    "cost_usd": 0,
+    "cost_usd": 0.040182,
     "rejections": [],
-    "stopped": "quota"
+    "stopped": "done"
+  },
+  "topic_reviews": {
+    "candidates": 24,
+    "calls": 29,
+    "reviewed": 29,
+    "kept": 131,
+    "dropped": 58,
+    "failed": 0,
+    "cost_usd": 1.4519280000000003,
+    "stopped": "done"
   },
   "reviews": {
     "video": {
@@ -280,15 +369,15 @@
       "cost_usd": 0
     },
     "post": {
-      "reviewed": 0,
-      "fixed": 0,
+      "reviewed": 7,
+      "fixed": 5,
       "rejected": 0,
-      "calls": 0,
-      "cost_usd": 0,
-      "candidates": 0,
+      "calls": 2,
+      "cost_usd": 0.186004,
+      "candidates": 7,
       "failed": 0,
       "reset": 0,
-      "rerendered": 0,
+      "rerendered": 7,
       "stopped": "done"
     },
     "change": {
@@ -317,23 +406,23 @@
   "hubs": {
     "topics": 606,
     "narrated": 557,
-    "refreshed": 0,
+    "refreshed": 5,
     "failed": 0,
-    "backlog": 3,
-    "stopped": "quota",
-    "reviewed": 0,
+    "backlog": 0,
+    "stopped": "done",
+    "reviewed": 5,
     "review_fixed": 0,
     "review_rejected": 0,
     "review_backlog": 0
   },
   "content": {
-    "pages": 29091,
+    "pages": 29099,
     "errors": 0
   },
   "leak": {
     "vault": "scanned",
-    "raw_docs": 717,
-    "files_scanned": 30216,
+    "raw_docs": 720,
+    "files_scanned": 30254,
     "findings": 0,
     "blocked": false
   }

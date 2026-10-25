@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/miljan-rs/966",
+  "page_id": "post/miljan-rs/966",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "the code can keep going after errors, and you may end up with partial updates committed to the database",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "using Collect directly on processing procedures can be risky",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005541,
+    "posts_in_call": 4
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,6 +75,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/aardvarklabs-blog/1826
     - post/aardvarklabs-blog/2204
     - post/aardvarklabs-blog/2603
     - post/aardvarklabs-blog/2838
@@ -100,7 +101,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 6
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: 0701107680ab6374a75be6625747535fbf73f4ee24b8643401abc0d15b654ac8
@@ -150,6 +151,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12051 [Peppol] Fix Remittance Advice XML line count, Note order and invoice reference](../../../../../changes/bcapps/12051.md) (code change): "Peppol remittance advice XML export now correctly reports"
 - [#12309 Fix infinite recursion in Config. Package Field XML name generation](../../../../../changes/bcapps/12309.md) (code change): "Prevents stack overflow when adding tables to Configuration Packages"
 - [#9073 Data Exchange Definition export performance improvement](../../../../../changes/bcapps/9073.md) (code change): "Data Exchange Definition exports now use in-memory mapping with bulk saves"
+- [How to Work with JSON in Business Central’s AL Code](../../../../../posts/aardvarklabs-blog/1826.md) (community post): "Export records by building JsonObject and JsonArray structures"
 - [Best Practices for Handling Delimited Data Imports into Business Central](../../../../../posts/aardvarklabs-blog/2204.md) (community post): "CSV is an unstructured flat file format where data is separated by delimiters"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../../../posts/aardvarklabs-blog/2603.md) (community post): "parse and import delimited files containing header and detail records"
 - [Importing Multi-Tab Excel Files into Business Central](../../../../../posts/aardvarklabs-blog/2838.md) (community post): "explains how to import multi-tab Excel files into Business Central with a header/line relationship structure"

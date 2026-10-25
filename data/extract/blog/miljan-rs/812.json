@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/miljan-rs/812",
+  "url": "https://miljan.rs/2025/11/17/polishing-xrechnung-and-zugferd-in-business-central/",
+  "title": "Polishing xRechnung and ZUGFeRD in Business Central",
+  "source": "miljan-rs",
+  "published_at": "2025-11-17T07:00:00.000Z",
+  "words": 2185,
+  "summary": "The author and Kilian of Prisma Informatik opened GitHub issues and pull requests in ALAppExtensions and BCApps fixing over 30 problems in the German xRechnung and ZUGFeRD formats built on the E-Documents framework, covering discount and quantity precision, master data checks, attachments, bank details and XML node placement. Most fixes shipped between BC27.1 and BC28.5, some await BC29.x, and the post ends with a setup walkthrough.",
+  "key_points": [
+    "30+ fixes have been contributed to xRechnung and ZUGFeRD implementations covering discount precision, customer validation, file types, XML nodes, attachments, and bank account sourcing",
+    "Fixes span Business Central versions 27.1 through 28.5 with additional contributions pending for BC29.x",
+    "Setup involves creating an E-Document Service, configuring workflow templates, establishing document sending profiles, and testing with real scenarios",
+    "Remaining issues under development include service selection logic, seller contact validation, issue date sourcing, and credit memo bank account handling"
+  ],
+  "systems": [
+    "integration",
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "e-invoicing",
+    "xrechnung",
+    "zugferd",
+    "german compliance",
+    "en16931",
+    "e-documents",
+    "xml validation"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "E-Document Services"
+    },
+    {
+      "type": "other",
+      "name": "Workflow Templates"
+    },
+    {
+      "type": "other",
+      "name": "Document Sending Profiles"
+    }
+  ],
+  "features": [
+    "E-Documents framework",
+    "xRechnung export",
+    "ZUGFeRD export",
+    "Buyer Reference validation",
+    "Discount precision handling",
+    "Customer data validation",
+    "Document attachments",
+    "Payment means mapping"
+  ],
+  "versions": [
+    "BC27.1",
+    "BC27.2",
+    "BC27.3",
+    "BC27.4",
+    "BC27.5",
+    "BC28.0",
+    "BC28.1",
+    "BC28.2"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.016222,
+    "posts_in_call": 1
+  }
+}

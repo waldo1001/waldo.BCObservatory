@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/miljan-rs/639",
+  "url": "https://miljan.rs/2025/07/06/understanding-the-contoso-demo-data-tool-in-business-central/",
+  "title": "Understanding the Contoso Demo Data Tool in Business Central",
+  "source": "miljan-rs",
+  "published_at": "2025-07-06T11:40:04.000Z",
+  "words": 647,
+  "summary": "The Contoso Demo Data Tool is a new, extensible coded approach that replaced RapidStart Configuration Packages for creating demo-ready companies in Business Central, starting with 2024 Wave 2 Update 3. It supports multiple modules across finance, manufacturing, warehouse, and other business functions, and can be triggered manually or during company creation.",
+  "key_points": [
+    "Microsoft transitioned from RapidStart Configuration Packages to the Contoso Demo Data Tool, beginning with 2024 Wave 2 Update 3",
+    "The tool supports modular initialization covering Common, Foundation, Finance, Manufacturing, Warehouse, Inventory, Sales, Purchasing, Service, Human Resources, Fixed Assets, Jobs, CRM, E-Documents, Sustainability, Subscription Billing, and Statistical Accounts",
+    "Users can run the tool manually in an empty company or automatically during new company creation, with options for Setup Data or Complete Demo Data",
+    "The tool is still under active development with known issues around data dependencies and re-running scenarios between different initialization modes"
+  ],
+  "systems": [
+    "administration",
+    "finance",
+    "manufacturing"
+  ],
+  "topics": [
+    "demo data",
+    "setup data",
+    "configuration",
+    "contoso tool",
+    "company creation",
+    "modular initialization"
+  ],
+  "objects": [],
+  "features": [
+    "Contoso Demo Data Tool",
+    "Setup Data generation",
+    "Complete Demo Data generation",
+    "Module selection",
+    "Company creation wizard integration",
+    "Interactive setup wizard"
+  ],
+  "versions": [
+    "Business Central 2022 Wave 1",
+    "Business Central 2023 Wave 1",
+    "Business Central 2023 Wave 2",
+    "Business Central 2024 Wave 1",
+    "Business Central 2024 Wave 2",
+    "Business Central 2024 Wave 2 Update 3",
+    "Business Central 2025 Wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The tool is not fully data-agnostic. Errors can occur if you initialize some modules and then try others later without the prerequisites.",
+      "why_it_matters": "Critical limitation users must understand to avoid initialization failures"
+    },
+    {
+      "text": "It's clear that Microsoft is investing heavily in this tool. I believe ISVs should consider adopting the same approach in their own solutions.",
+      "why_it_matters": "Strategic recommendation for partners to adopt coded demo data practices"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006408,
+    "posts_in_call": 1
+  }
+}

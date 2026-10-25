@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:19:38.493Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -85,8 +85,7 @@ links:
   learn: []
   objects:
     - object/table/18
-  features:
-    - feature/576789
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -276,12 +275,10 @@ features:
     verified: false
     status_source: video
   - name: Query exposure in MCP
-    status: ga
+    status: unclear
     t: 2702
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "576789"
+    status_source: video
   - name: Page and API selection for exposure
     status: unclear
     t: 2738
@@ -399,14 +396,12 @@ The presenter demos adding the Business Central MCP server in Copilot Studio by 
 | Validate feature for API exposure | status not stated | [42:12](https://www.youtube.com/watch?v=rm-FstU_I80&t=2532s) |  |
 | Connection string configuration | status not stated, demoed | [42:49](https://www.youtube.com/watch?v=rm-FstU_I80&t=2569s) |  |
 | MCP integration with VS Code | status not stated, demoed | [43:16](https://www.youtube.com/watch?v=rm-FstU_I80&t=2596s) |  |
-| Query exposure in MCP | generally available (roadmap [Unlock more Business Central data with MCP server enhancements](../features/576789.md)) | [45:02](https://www.youtube.com/watch?v=rm-FstU_I80&t=2702s) |  |
+| Query exposure in MCP | status not stated | [45:02](https://www.youtube.com/watch?v=rm-FstU_I80&t=2702s) |  |
 | Page and API selection for exposure | status not stated | [45:38](https://www.youtube.com/watch?v=rm-FstU_I80&t=2738s) |  |
 | Configuration export and import | status not stated, demoed | [46:40](https://www.youtube.com/watch?v=rm-FstU_I80&t=2800s) |  |
 | Copilot Studio tool selections | status not stated | [53:15](https://www.youtube.com/watch?v=rm-FstU_I80&t=3195s) |  |
 | Power BI integration with MCP agents | status not stated | [55:38](https://www.youtube.com/watch?v=rm-FstU_I80&t=3338s) |  |
 | Custom APIs for custom fields | status not stated | [56:02](https://www.youtube.com/watch?v=rm-FstU_I80&t=3362s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

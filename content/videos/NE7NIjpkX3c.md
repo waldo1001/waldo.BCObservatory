@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:59:25.993Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -147,7 +147,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/577820
   topics: []
   localizations: []
   videos: []
@@ -195,10 +196,12 @@ cautions:
     t: 219
 features:
   - name: Copilot Extension Cloud Deployment
-    status: unclear
+    status: preview
     t: 5
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Shared Infrastructure for Copilot
     status: unclear
     t: 86
@@ -363,7 +366,7 @@ The rest covers practical considerations. Model versions change behavior and are
 
 | Feature | Status | At |
 |---|---|---|
-| Copilot Extension Cloud Deployment | status not stated | [0:05](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=5s) |
+| Copilot Extension Cloud Deployment | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [0:05](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=5s) |
 | Shared Infrastructure for Copilot | status not stated | [1:26](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=86s) |
 | GPT-4o and GPT-4o Mini Model Access | status not stated | [2:18](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=138s) |
 | Azure OpenAI Abstraction Layer | status not stated | [2:58](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=178s) |
@@ -377,6 +380,8 @@ The rest covers practical considerations. Model versions change behavior and are
 | Copilot Documentation Chat with Grounding | status not stated | [18:26](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1106s) |
 | Tools for Copilot Extensions | status not stated, demoed | [20:19](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1219s) |
 | Function Calling for Copilot | status not stated | [24:22](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1462s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

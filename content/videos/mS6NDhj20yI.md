@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:48:47.573Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -88,8 +88,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/576792
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -179,12 +178,10 @@ features:
     verified: true
     status_source: video
   - name: 36 new document type APIs
-    status: ga
+    status: unclear
     t: 711
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "576792"
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 45
@@ -253,9 +250,7 @@ It then covers layout management and multi-language support. User-defined layout
 | Company-level default language for documents | status not stated, demoed | [8:17](https://www.youtube.com/watch?v=mS6NDhj20yI&t=497s) |  |
 | Refactored tooltips on table level | status not stated | [10:44](https://www.youtube.com/watch?v=mS6NDhj20yI&t=644s) |  |
 | Modernized report selection pages | announced, demoed | [11:04](https://www.youtube.com/watch?v=mS6NDhj20yI&t=664s) | "As part of this, we also modernized the report selection pages in the application. This is coming in 28.x." ([11:14](https://www.youtube.com/watch?v=mS6NDhj20yI&t=674s)) |
-| 36 new document type APIs | generally available (roadmap [Use new APIs for getting the PDF of a document report](../features/576792.md)) | [11:51](https://www.youtube.com/watch?v=mS6NDhj20yI&t=711s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
+| 36 new document type APIs | status not stated | [11:51](https://www.youtube.com/watch?v=mS6NDhj20yI&t=711s) |  |
 
 ## Quotes
 

@@ -7,13 +7,44 @@
   "url": "https://miljan.rs/2025/07/06/understanding-the-contoso-demo-data-tool-in-business-central/",
   "published_at": "2025-07-06T11:40:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T09:01:23.442Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T12:27:02.861Z",
+      "path": "vault:posts/miljan-rs/639.md",
+      "words": 647
+    },
+    "extracted": {
+      "at": "2026-10-25T12:27:10.652Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006408
+    },
+    "summarized": {
+      "at": "2026-10-25T12:27:10.654Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T12:27:10.655Z"
+    },
+    "published": {
+      "at": "2026-10-25T12:27:10.667Z",
+      "path": "content/posts/miljan-rs/639.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5e4dd5a09c33dd357c0c5a2a1c6b89a118bc00e944a95fb9a242f0a5ae0a1579",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-25T12:52:00.915Z"
+  }
 }

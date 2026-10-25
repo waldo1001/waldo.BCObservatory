@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/miljan-rs/966",
+  "url": "https://miljan.rs/2025/12/29/when-errors-dont-stop-the-process-a-hidden-risk-in-business-central/",
+  "title": "When “Errors” Don’t Stop the Process: A Hidden Risk in Business Central",
+  "source": "miljan-rs",
+  "published_at": "2025-12-29T07:00:00.000Z",
+  "words": 784,
+  "summary": "ErrorBehavior::Collect is an AL attribute that allows procedures to continue processing after errors instead of rolling back, risking partial data updates. Understanding when to use it safely matters for maintaining data consistency in bulk operations and background processes.",
+  "key_points": [
+    "ErrorBehavior::Collect allows code to continue after errors and save successful changes, creating a partial success model instead of fail-fast rollback",
+    "The main risk is applying this attribute to processing procedures like Post() instead of validation, leading to logically inconsistent or half-processed states",
+    "Microsoft typically uses ErrorBehavior::Collect only on check/validation procedures, not on actual processing code",
+    "Safe usage pattern: validate first with error collection, then process normally with fail-fast behavior if validation passes"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "error handling",
+    "al development",
+    "data consistency",
+    "transaction management",
+    "code patterns"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Check Item Jnl. Line. Backgr."
+    },
+    {
+      "type": "codeunit",
+      "name": "Item Jnl.-Check Line"
+    }
+  ],
+  "features": [
+    "ErrorBehavior::Collect attribute",
+    "error collection",
+    "partial success processing",
+    "validation procedures",
+    "transaction rollback control"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With it enabled, the system can continue processing even after errors, and successful changes may still be saved instead of being undone automatically.",
+      "why_it_matters": "Explains the fundamental difference ErrorBehavior::Collect introduces to the default error handling model"
+    },
+    {
+      "text": "If not, it can create confusing states like: some flags/statuses updated but dependent steps missing, part of a batch processed, part not.",
+      "why_it_matters": "Illustrates the practical dangers of using this feature in processing code"
+    },
+    {
+      "text": "If partial completion would confuse users or risk data consistency, don't apply Collect to the processing path.",
+      "why_it_matters": "Provides the key rule for deciding when to safely use this attribute"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006106,
+    "posts_in_call": 1
+  }
+}

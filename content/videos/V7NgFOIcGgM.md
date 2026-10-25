@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:45:27.294Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -139,20 +139,26 @@ features:
     verified: false
     status_source: video
   - name: Multi-source Data Integration
-    status: unclear
+    status: ga
     t: 429
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Citations and Verification
-    status: unclear
+    status: ga
     t: 798
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Permission Enforcement
-    status: unclear
+    status: ga
     t: 576
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Copilot and Agent Capabilities Control
     status: unclear
     t: 623
@@ -169,20 +175,24 @@ features:
     verified: false
     status_source: video
   - name: Conversational Context and Suggestions
-    status: unclear
+    status: ga
     t: 520
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Rich Output Formatting
     status: unclear
     t: 498
     verified: false
     status_source: video
   - name: Progress Messages
-    status: unclear
+    status: ga
     t: 122
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Vague Query Resolution
     status: unclear
     t: 217
@@ -265,15 +275,15 @@ The second half explains how Copilot works: intent detection from conversation h
 | Business Central Tools | status not stated, demoed | [7:09](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=429s) |
 | Agentic Loop | status not stated, demoed | [6:37](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=397s) |
 | Intent Detection | status not stated | [6:26](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=386s) |
-| Multi-source Data Integration | status not stated, demoed | [7:09](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=429s) |
-| Citations and Verification | status not stated, demoed | [13:18](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=798s) |
-| Permission Enforcement | status not stated | [9:36](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=576s) |
+| Multi-source Data Integration | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [7:09](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=429s) |
+| Citations and Verification | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [13:18](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=798s) |
+| Permission Enforcement | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)) | [9:36](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=576s) |
 | Copilot and Agent Capabilities Control | status not stated | [10:23](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=623s) |
 | MCP Server Technology | status not stated | [11:17](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=677s) |
 | Extension Guidelines for Copilot | status not stated | [12:36](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=756s) |
-| Conversational Context and Suggestions | status not stated, demoed | [8:40](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=520s) |
+| Conversational Context and Suggestions | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [8:40](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=520s) |
 | Rich Output Formatting | status not stated, demoed | [8:18](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=498s) |
-| Progress Messages | status not stated, demoed | [2:02](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=122s) |
+| Progress Messages | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [2:02](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=122s) |
 | Vague Query Resolution | status not stated, demoed | [3:37](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=217s) |
 | UI Context Awareness | status not stated, demoed | [5:51](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=351s) |
 | User Feedback Loop | status not stated | [14:48](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=888s) |

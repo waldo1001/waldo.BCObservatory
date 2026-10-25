@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/miljan-rs/698",
+  "url": "https://miljan.rs/2025/08/18/conditional-page-breaks-in-word-layouts-for-business-central-reports/",
+  "title": "Conditional Page Breaks in Word Layouts for Business Central Reports",
+  "source": "miljan-rs",
+  "published_at": "2025-08-18T06:00:00.000Z",
+  "words": 800,
+  "summary": "Adding conditional page breaks in Word layouts for Business Central reports is technically possible but problematic. The approach uses Word's 'Page break before' paragraph option, though the setting often resets after editing, making it fragile for production use.",
+  "key_points": [
+    "Word layouts don't offer the fine-grained control of RDLC for page breaks; they rely on Word's paragraph 'Page break before' option",
+    "Conditional page breaks per line require polluting datasets with artificial data items and are not recommended",
+    "Page breaks after sections like totals work but the setting frequently disappears when editing the layout, requiring reapplication",
+    "Hard page breaks risk creating unwanted blank pages when sections contain no data",
+    "Word layouts lack native conditional page break support, unlike RDLC report engines"
+  ],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "word layouts",
+    "page breaks",
+    "report design",
+    "conditional formatting",
+    "rdlc comparison"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Sales Invoice"
+    }
+  ],
+  "features": [
+    "Word layouts",
+    "Conditional page breaks",
+    "Page break before paragraph option",
+    "Report section control",
+    "Layout editing"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Word layouts don't give us the fine-grained control RDLC does (with its inception-like rectangles-inside-tables-inside-rectangles).",
+      "why_it_matters": "Explains the fundamental limitation of Word layouts compared to RDLC for implementing page break logic"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006042,
+    "posts_in_call": 1
+  }
+}

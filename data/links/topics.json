@@ -3010,14 +3010,18 @@
     "change/bcapps/10477": {
       "kind": "change",
       "key": "change/bcapps/10477",
-      "hash": "a5603ee019f78454204e5418e41b1b558425134508740d5a4c706d01ba116444",
+      "hash": "5902cb6a1cdbd2511b983981d4a865c70c87981d62f7d65d822b64af96760377",
       "title": "#10477 [Bug Fix] #249: Raise populated ErrorInfo for Subscription Billing failures",
       "source": "bcapps-prs",
-      "at": "2026-10-24T00:07:08.130Z",
+      "at": "2026-10-25T12:49:23.145Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sales/subscription-billing",
-          "quote": "Subscription Billing error handlers now raise the fully populated ErrorInfo object instead of plain-text errors"
+          "quote": "Subscription Billing error handlers now raise the fully populated ErrorInfo"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-sales/set-up-subscription-billing",
+          "quote": "DisplayOrLogErrorFromBillingTemplate and DisplayOrLogErrorFromBillingLine"
         }
       ]
     },
@@ -9093,18 +9097,18 @@
     "change/bcapps/12532": {
       "kind": "change",
       "key": "change/bcapps/12532",
-      "hash": "0bc7a4ec6fcaf4955fbb4e7d285c52bd9e4b6c85b53989b660c81e40d4cc784b",
+      "hash": "e1ae3577cd3e7fef505dd8b34e1343816b4b1ef7f33da20fda006fb7cb9ab00e",
       "title": "#12532 [Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side",
       "source": "bcapps-prs",
-      "at": "2026-10-24T00:07:13.095Z",
+      "at": "2026-10-25T12:49:25.132Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/manage-payables",
-          "quote": "Dispute status is retained when users edit vendor ledger entries"
+          "quote": "Dispute Status code is not retained in some scenarios within the Vendor"
         },
         {
           "topic": "topic/business-central/business-functionality/purchasing",
-          "quote": "Dispute status is preserved when editing posted purchase invoice headers"
+          "quote": "Dispute Status code is not retained in some scenarios within the Vendor/Purchase"
         }
       ]
     },
@@ -9583,18 +9587,18 @@
     "change/bcapps/12783": {
       "kind": "change",
       "key": "change/bcapps/12783",
-      "hash": "5d66382bf354f770eb7ff1c3ec0358f6527eabcbd452cbb8293ab499104b4e01",
+      "hash": "f9258f605db573d1a548b0922fb340c6d35ec3224a198bb6a75d997d4dac8916",
       "title": "#12783  [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations",
       "source": "bcapps-prs",
-      "at": "2026-10-24T00:07:08.425Z",
+      "at": "2026-10-25T12:49:24.601Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
-          "quote": "Subcontractor price calculation for time-based operations now correctly multiplies"
+          "quote": "Subcontractor price for Time-based operations ignored the routing line's operation time factor"
         },
         {
           "topic": "topic/business-central/business-functionality/manufacturing",
-          "quote": "purchase cost accuracy in manufacturing operations using subcontractors"
+          "quote": "multiplies the subcontractor price by the operation time factor and rounds to the unit-amount precision"
         }
       ]
     },
@@ -9959,14 +9963,14 @@
     "change/bcapps/13165": {
       "kind": "change",
       "key": "change/bcapps/13165",
-      "hash": "4dfdce437a02f28c4cf6443b8c21af55d7e38a896ab30660ba57b1f46aa2d7b5",
+      "hash": "5138029c79b94019dc860f156adf92f14f31f1ab1aa917f9705337f3e3f2d46b",
       "title": "#13165 [Master]-\"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify\" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.",
       "source": "bcapps-prs",
-      "at": "2026-10-24T00:07:08.959Z",
+      "at": "2026-10-25T12:49:17.490Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
-          "quote": "G/L Register table permissions to allow modifying entries"
+          "quote": "Update Registers from G/L Registers page for old entries with G/L Register No."
         }
       ]
     },
@@ -17145,20 +17149,37 @@
     "post/aardvarklabs-blog/1826": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/1826",
-      "hash": "7950a7fbfbd69ed2ab557913cd0426934e3b4ff427dc1fa8f121e6f59965b61b",
+      "hash": "4a9c30dc06ccffd28903b9295a149b570a9f0ae9f0816cad4540786b7a35c129",
       "title": "How to Work with JSON in Business Central’s AL Code",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-18T00:54:15.313Z",
+      "at": "2026-10-25T12:49:32.469Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "REST APIs with JSON are simpler and leaner than SOAP"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/data-types",
+          "quote": "understanding JSON structures using JsonObject, JsonArray, and JsonToken types"
         },
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
-          "quote": "JSON structures and using JsonObject, JsonArray to parse incoming"
+          "topic": "topic/dev-itpro/integration/web-services",
+          "quote": "REST APIs with JSON are simpler and leaner than SOAP APIs"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
+          "quote": "Export records by building JsonObject and JsonArray structures"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T12:49:08.917Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration/web-services/apis",
+            "reason": "General AL JSON handling; APIs are only mentioned as a use case."
+          },
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
+            "reason": "Mainly covers using the JSON data types and exporting files, which another section documents, not calling external services."
+          }
+        ]
+      }
     },
     "post/aardvarklabs-blog/1891": {
       "kind": "post",
@@ -20229,60 +20250,81 @@
     "post/demiliani-com/17508": {
       "kind": "post",
       "key": "post/demiliani-com/17508",
-      "hash": "8498751aeb90422830589b97ba7750c1ca3a4a194b5b10a41d86f6c2e0e7fc8f",
+      "hash": "4666ecd9336db1a1a00024fe9a7c33a9dbfb12d0291de9d195a45329f0f90a5b",
       "title": "Me @ Directions EMEA 2026",
       "source": "demiliani-com",
-      "at": "2026-10-22T01:09:53.195Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai",
-          "quote": "fine-tuning open-source language models locally with Business Central data"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "monitoring and governing multiple types of AI agents running within Business Central"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis",
-          "quote": "Organizations can fine-tune open-source LLMs locally using Business Central data"
-        }
-      ]
+      "at": "2026-10-25T12:49:29.998Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T12:49:08.917Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai",
+            "reason": "A conference session announcement that lists fine-tuning and agent monitoring topics without explaining anything this section documents."
+          },
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+            "reason": "Preview of conference sessions on LLM fine-tuning and agent monitoring, not on designing or coding agents."
+          },
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis",
+            "reason": "A session announcement on locally fine-tuning open-source LLMs and monitoring agents, not on the Business Central machine learning APIs."
+          }
+        ]
+      }
     },
     "post/demiliani-com/17529": {
       "kind": "post",
       "key": "post/demiliani-com/17529",
-      "hash": "da7c1dd0df64138f6750d315596936b8350860459f5659197a8ae05d8d3fa3fe",
+      "hash": "4f2b62a7d55869e503b64ff77b6e193f3855f952cd12528800aea88fb2a04549",
       "title": "Copilots and agents for Dynamics 365 Business Central: our new book is out!",
       "source": "demiliani-com",
-      "at": "2026-10-24T00:07:08.701Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "how to design, build, test and govern AI solutions for Dynamics 365 Business Central"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "covering copilots, agents, and various implementation approaches"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP, and .NET frameworks"
-        }
-      ]
+      "at": "2026-10-25T12:49:29.998Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T12:49:08.917Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+            "reason": "Book announcement too broad to tie to this section specifically."
+          },
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+            "reason": "A book announcement that only lists topics across many approaches; too general to tie to this section."
+          },
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+            "reason": "A book announcement that names MCP as just one chapter among many AI topics; too general."
+          }
+        ]
+      }
     },
     "post/demiliani-com/17538": {
       "kind": "post",
       "key": "post/demiliani-com/17538",
-      "hash": "2364e51cca593b29f546240d954f2cb79dc24cace491357069177fa2a072e8fe",
+      "hash": "77b882f5c71a4ed920b3e94866424aecf24e06d57a36f84403221b581b496b94",
       "title": "Dynamics 365 Business Central: introducing the new “Recent Record” virtual table",
       "source": "demiliani-com",
-      "at": "2026-10-24T00:07:09.817Z",
+      "at": "2026-10-25T12:49:27.321Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data",
           "quote": "new Recent Record virtual table that tracks records recently accessed"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/reading-data",
+          "quote": "read-only table logs only UI interactions and stores references"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T12:49:08.917Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
+            "reason": "Introduces one specific system virtual table rather than how to define table structures."
+          }
+        ]
+      }
     },
     "post/duiliotacconi-com/1425": {
       "kind": "post",
@@ -23048,6 +23090,128 @@
           }
         ]
       }
+    },
+    "post/miljan-rs/639": {
+      "kind": "post",
+      "key": "post/miljan-rs/639",
+      "hash": "d7616bdd40cf12c14a7a7ea253326f4208f6a3a97eea4f0033d8d95c609c36e7",
+      "title": "Understanding the Contoso Demo Data Tool in Business Central",
+      "source": "miljan-rs",
+      "at": "2026-10-25T12:49:17.672Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/company-hub",
+          "quote": "Contoso Demo Data Tool is a new, extensible coded approach that replaced RapidStart Configuration Packages for creating demo-ready companies"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-finance",
+          "quote": "supports modular initialization covering Common, Foundation, Finance, Manufacturing, Warehouse"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing",
+          "quote": "supports modular initialization covering Common, Foundation, Finance, Manufacturing, Warehouse"
+        }
+      ]
+    },
+    "post/miljan-rs/698": {
+      "kind": "post",
+      "key": "post/miljan-rs/698",
+      "hash": "bec4356f9f787950bcd801a8019ef5a730bb8b85c4d83cd042bb6c8dd2b01e80",
+      "title": "Conditional Page Breaks in Word Layouts for Business Central Reports",
+      "source": "miljan-rs",
+      "at": "2026-10-25T12:49:17.246Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+          "quote": "Word layouts for Business Central Reports conditional page breaks Word layouts don't offer"
+        },
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
+          "quote": "Conditional page breaks in Word layouts for Business Central Reports"
+        }
+      ]
+    },
+    "post/miljan-rs/750": {
+      "kind": "post",
+      "key": "post/miljan-rs/750",
+      "hash": "e083091accc58cf577f332c52a76679a69fa63ab25b5cf1ab09954855d671d38",
+      "title": "How to Accidentally Break Business Central (for Fun)",
+      "source": "miljan-rs",
+      "at": "2026-10-25T12:49:17.372Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/performance",
+          "quote": "Pivot mode in Analysis Mode becomes unresponsive when dealing with thousands"
+        },
+        {
+          "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler",
+          "quote": "performance limitation when using Analysis Mode for complex data pivoting"
+        }
+      ]
+    },
+    "post/miljan-rs/812": {
+      "kind": "post",
+      "key": "post/miljan-rs/812",
+      "hash": "4fa83c52df48c5b1c18e1718d93800a4e02ee54757701586894e99774195a216",
+      "title": "Polishing xRechnung and ZUGFeRD in Business Central",
+      "source": "miljan-rs",
+      "at": "2026-10-25T12:49:18.124Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/france/e-invoicing",
+          "quote": "German e-invoicing formats xRechnung and ZUGFeRD in Business Central have been improved"
+        }
+      ]
+    },
+    "post/miljan-rs/866": {
+      "kind": "post",
+      "key": "post/miljan-rs/866",
+      "hash": "69b7a81cda7677e1e9b415d4256b1220d4785e6e9d1594ea3b60a4d4ca274b04",
+      "title": "Simple Text Editor for Business Central",
+      "source": "miljan-rs",
+      "at": "2026-10-25T12:49:19.345Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extensibility",
+          "quote": "A lightweight AL extension provides a simple text editor dialog for Business Central"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
+          "quote": "opening a clean modal editor accessible via ribbon actions on customer lists"
+        }
+      ]
+    },
+    "post/miljan-rs/908": {
+      "kind": "post",
+      "key": "post/miljan-rs/908",
+      "hash": "8cff2b6e3f16709146352461e9c7c9de31271a6f30a9ce5c10e8aa1a301004b2",
+      "title": "Oops, I Did It Again: Reversing G/L Transactions in Business Central",
+      "source": "miljan-rs",
+      "at": "2026-10-25T12:49:17.490Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
+          "quote": "reversing General Ledger transactions in Business Central: batch reversal via G/L Register"
+        }
+      ]
+    },
+    "post/miljan-rs/966": {
+      "kind": "post",
+      "key": "post/miljan-rs/966",
+      "hash": "dec4d3de35fcaefaeacdd62187f15a276f0375c3a3e62456530235a1f24a984c",
+      "title": "When “Errors” Don’t Stop the Process: A Hidden Risk in Business Central",
+      "source": "miljan-rs",
+      "at": "2026-10-25T12:49:19.345Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/error-handling",
+          "quote": "ErrorBehavior::Collect allows code to continue after errors and save successful changes"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+          "quote": "Safe usage pattern: validate first with error collection, then process normally"
+        }
+      ]
     },
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090": {
       "kind": "post",
@@ -29047,20 +29211,29 @@
     "video/2uXVammbab0": {
       "kind": "video",
       "key": "video/2uXVammbab0",
-      "hash": "e6f9ec97e9ec497cd169d46f4e217150ef9c1a6a13f424a8340236444b82523f",
+      "hash": "fa3481568c91f67876d2bcb8ba53eaec89044b89b4cf72be8f52f3c5f256ad24",
       "title": "What's New: Chat with Copilot (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T16:27:43.786Z",
+      "at": "2026-10-25T12:49:29.998Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Chat with Copilot; natural language queries; record filtering"
-        },
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/suggest-item-substitutions-preview",
-          "quote": "Suggest item substitutes; Prompt guide"
+          "topic": "topic/business-central/copilot-and-agent-capabilities",
+          "quote": "Chat with Copilot; Chat interface; natural language queries; analysis tabs; permissions; contextual assistance"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T12:49:08.917Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
+            "reason": "Covers the 2025 wave 1 Chat with Copilot, the earlier feature the new Microsoft Copilot chat replaces."
+          },
+          {
+            "topic": "topic/business-central/copilot-and-agent-capabilities/suggest-item-substitutions-preview",
+            "reason": "The video is about Chat with Copilot and only names item substitutes as one item in a list of things it touches on, so the section's feature is a passing mention."
+          }
+        ]
+      }
     },
     "video/2vUCR16b85o": {
       "kind": "video",
@@ -32457,16 +32630,20 @@
     "video/gvIGhtqADS0": {
       "kind": "video",
       "key": "video/gvIGhtqADS0",
-      "hash": "9c1901e54935bf4caead273cd2937e4a381fd3b4f07ae0ae5e514b9332dfea9a",
+      "hash": "4c158fc847f1cf1dee3bf47ce9b9fb51728b96fc1869671881273ba426788901",
       "title": "Conversational Chat using Copilot in Dynamics 365 Business Central ( 2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:39.812Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Conversational Chat using Copilot in Dynamics 365 Business Central"
-        }
-      ]
+      "at": "2026-10-25T12:49:29.998Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T12:49:08.917Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
+            "reason": "Covers the 2024 wave 1 conversational Copilot chat, the predecessor feature."
+          }
+        ]
+      }
     },
     "video/gVjrKPHlrgM": {
       "kind": "video",
@@ -33008,16 +33185,29 @@
     "video/IAacWsvav1E": {
       "kind": "video",
       "key": "video/IAacWsvav1E",
-      "hash": "c258ac6fe984a811103f1fc284d52f66844e9c3c6a46f79a15506252ceceb173",
+      "hash": "b23d11c0809cc74c015e7b195162c8eb299834bfd97e10186f46bc5e334dc9a3",
       "title": "What's New: Enhanced Index Management (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:37.246Z",
+      "at": "2026-10-25T12:49:27.321Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance",
-          "quote": "Enhanced Index Management database performance storage optimization index lifecycle"
+          "topic": "topic/dev-itpro/business-central-on-premises/administration/analyzing-database-performance",
+          "quote": "index management; database performance; storage optimization"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/monitor-and-analyze-telemetry/telemetry-by-area",
+          "quote": "Index Lifecycle Telemetry Events"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T12:49:08.917Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance",
+            "reason": "A what's-new video on turning indexes on or off in the client, an admin capability."
+          }
+        ]
+      }
     },
     "video/IDYhxt-8ImI": {
       "kind": "video",
@@ -33194,16 +33384,20 @@
     "video/j5ULVClJaKU": {
       "kind": "video",
       "key": "video/j5ULVClJaKU",
-      "hash": "265009d3a1e15a371f728f11403104ef63af647c75c6b4233e324e7e0e7a206c",
+      "hash": "0d21bfcbea9a4174a230c798535c41c34f51341dff8b8f955d888f5c5b8a5aa6",
       "title": "Introducing: Chat with Copilot ( 2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:39.812Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Chat with Copilot; Record finding capability; Conversational query refinement"
-        }
-      ]
+      "at": "2026-10-25T12:49:29.998Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T12:49:08.917Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
+            "reason": "Introduces the 2024 Chat with Copilot, the earlier feature rather than the new Microsoft Copilot in Business Central."
+          }
+        ]
+      }
     },
     "video/j5XkX9mv6H8": {
       "kind": "video",
@@ -35074,16 +35268,20 @@
     "video/oFG9gBkd2NU": {
       "kind": "video",
       "key": "video/oFG9gBkd2NU",
-      "hash": "8042ab29ff8dbbbb96bf401f9d838ea748b37999f67c0de923b39d20f03f9fc2",
+      "hash": "5a43df443c9e99b6d65c9c93ac02db2b904d55dec99790fbf02bdfc4f099de76",
       "title": "What's New: Enhancements to Chat with Copilot (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-17T01:10:50.394Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Copilot Chat with Third-Party Documentation; Bing Search Integration"
-        }
-      ]
+      "at": "2026-10-25T12:49:29.998Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T12:49:08.917Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
+            "reason": "Covers enhancements to the earlier Chat with Copilot in 2025 wave 2, not the new Microsoft Copilot experience."
+          }
+        ]
+      }
     },
     "video/ofq4OBTuPvE": {
       "kind": "video",
@@ -36452,24 +36650,41 @@
     "video/S5Xw-b8YF-c": {
       "kind": "video",
       "key": "video/S5Xw-b8YF-c",
-      "hash": "33386487e955be7fac1919c50a8f3bc0918c57c32edfeca4c7e34b6ec0bbae39",
+      "hash": "fb7f81edcad274c8c635d14fa3e2f811e35008c54ca1c9851818db8b089cf345",
       "title": "What's New: APIs in E-Documents (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.564Z",
+      "at": "2026-10-25T12:49:26.477Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/web-services",
+          "topic": "topic/business-central/copilot-and-agent-capabilities/map-e-documents-preview",
           "quote": "E-Documents APIs; E-Document Business Events; Create E-Document"
         },
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi",
-          "quote": "Custom Agents with Copilot Studio Integration"
+          "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
+          "quote": "E-Document Business Events; E-Document Export via Business Events"
         },
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "Power Automate; business events; integration; code-free"
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "E-Documents APIs; E-Document Business Events; Create E-Document"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-25T12:49:08.917Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration/web-services",
+            "reason": "The video is about E-Documents features (their APIs, business events and Copilot Studio agents), not web services in general."
+          },
+          {
+            "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi",
+            "reason": "About E-Document APIs and business events; Copilot Studio custom agents are a minor side item."
+          },
+          {
+            "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
+            "reason": "The subject is E-Document APIs and events; Power Automate is incidental."
+          }
+        ]
+      }
     },
     "video/Sc8eGyMkBTA": {
       "kind": "video",
@@ -37904,16 +38119,20 @@
     "video/vxZqz2LPJsE": {
       "kind": "video",
       "key": "video/vxZqz2LPJsE",
-      "hash": "15685a7602382f601b1fd4cfbe933cf6e37d182b69d7ee4eca72fb9d4066defe",
+      "hash": "4749bc010486486bb1f52f57310f172482eaaf96375b1da77a7c4eff1dcdbd46",
       "title": "Introducing Magic Paste for Business Central",
       "source": "yt-hougaard",
-      "at": "2026-10-23T01:10:34.683Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
-          "quote": "clipboard; paste functionality; field mapping; excel integration; master data"
-        }
-      ]
+      "at": "2026-10-25T12:49:32.469Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-25T12:49:08.917Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
+            "reason": "Magic Paste is a tool for end users that pastes data from the clipboard, not AL code for importing or exporting."
+          }
+        ]
+      }
     },
     "video/vyQnSxRGJDA": {
       "kind": "video",

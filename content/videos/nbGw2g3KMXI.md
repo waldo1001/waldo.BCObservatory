@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:19:30.893Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -96,7 +96,8 @@ links:
     - object/codeunit/4316
     - object/page/31
     - object/page/9307
-  features: []
+  features:
+    - feature/578068
   topics: []
   localizations: []
   videos: []
@@ -220,17 +221,21 @@ features:
     status: preview
     t: 359
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578068"
   - name: Agent permissions
     status: unclear
     t: 547
     verified: false
     status_source: video
   - name: Agent instructions and prompting
-    status: unclear
+    status: preview
     t: 562
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578068"
   - name: Agent model selection
     status: unclear
     t: 579
@@ -510,9 +515,9 @@ The second half is aimed at developers. It covers the task, task builder and tas
 | Sales order agent | status not stated | [4:49](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=289s) |  |
 | Payables agent | status not stated | [5:36](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=336s) |  |
 | Expense agent | generally available | [4:49](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=289s) | "now also we have the expense agent that is released recently" ([4:49](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=289s)) |
-| Custom agent creation | preview, demoed | [5:59](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=359s) | "it is still on on on preview. They are really testing right now from what is happening." ([45:23](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2723s)) |
+| Custom agent creation | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [5:59](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=359s) | "it is still on on on preview. They are really testing right now from what is happening." ([45:23](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2723s)) |
 | Agent permissions | status not stated | [9:07](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=547s) |  |
-| Agent instructions and prompting | status not stated, demoed | [9:22](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=562s) |  |
+| Agent instructions and prompting | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [9:22](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=562s) |  |
 | Agent model selection | status not stated, demoed | [9:39](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=579s) |  |
 | Agent testing and execution | status not stated, demoed | [9:59](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=599s) |  |
 | Inventory check agent | status not stated, demoed | [10:20](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=620s) |  |
@@ -553,6 +558,8 @@ The second half is aimed at developers. It covers the task, task builder and tas
 | Single Agent Context Limitation | status not stated | [46:44](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2804s) |  |
 | Prompt Injection Prevention | status not stated | [47:44](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2864s) |  |
 | AL Agent Project Template | status not stated | [48:15](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2895s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

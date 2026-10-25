@@ -2967,12 +2967,16 @@
     },
     "change/bcapps/10735": {
       "kind": "change",
-      "hash": "c50e2ad67ec2b128259c10d28f2f10f9f70a545a8325a1ee1a52d4f2d4b1908e",
-      "at": "2026-10-24T00:26:14.882Z",
+      "hash": "b2babedaee249aa2a474265a77c34fc651e5dad334d8f18b8083b02f54ae5e92",
+      "at": "2026-10-25T12:50:37.676Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/sii-setup",
-          "reason": "Set up SII for VAT reporting includes marking documents as accepted in SII module."
+          "reason": "Configures SII module setup for Spanish VAT reporting, including marking documents as accepted"
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents",
+          "reason": "Covers SII invoice types in Spanish sales and purchase documents"
         }
       ]
     },
@@ -4363,12 +4367,12 @@
     },
     "change/bcapps/11258": {
       "kind": "change",
-      "hash": "034fe9b3b984232e28dd41f6694451a90bfc77e2ff63a6b47d973d62ad0198f5",
-      "at": "2026-10-24T00:26:32.196Z",
+      "hash": "8e00eb80482de658102f9eb881b28e8860113168c7a11fc6df276652ccbd8498",
+      "at": "2026-10-25T12:50:37.676Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes",
-          "reason": "Documents Ideal Postcodes extension for address retrieval that the fix corrects through provider framework"
+          "reason": "Documents Ideal Postcodes extension functionality for UK address lookup"
         }
       ]
     },
@@ -5943,12 +5947,16 @@
     },
     "change/bcapps/11955": {
       "kind": "change",
-      "hash": "842fede225aa1dda3c62d17d911683aa21c9a4c5b0f4b1c324d821221411d04a",
-      "at": "2026-10-24T00:26:49.200Z",
+      "hash": "e42552806d98c4770e64d1ec0e74753ccb77f73a77b52fa3f675400f8266425a",
+      "at": "2026-10-25T12:50:37.676Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-approval-users",
-          "reason": "Documents setting up approval users with substitute approvers for expense and approval workflows."
+          "reason": "Setting up approval users with amount limits and substitute approvers for workflows"
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview",
+          "reason": "Expense Agent handles expense management with approval workflows and policy compliance"
         }
       ]
     },
@@ -7405,12 +7413,16 @@
     },
     "change/bcapps/12607": {
       "kind": "change",
-      "hash": "254c071c4ac7c4ef1c2170fa23fd66ed5a9fa31ce4a025d781b8d95bfd536a57",
-      "at": "2026-10-24T00:27:09.218Z",
+      "hash": "4392afa12f62f57ceea5a9d2e55cfbe43f09bb98ca9572fc19b5d1a62088a712",
+      "at": "2026-10-25T12:50:37.676Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-al-Database-methods-and-performance-on-server",
-          "reason": "Documents AL database methods and query optimization on SQL Server, relevant to improving Purchase Ledger report performance."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-query-objects-and-performance",
+          "reason": "Query objects retrieve data from Business Central database with optimized performance"
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object",
+          "reason": "Query objects retrieve and display data from tables by defining dataitems and columns"
         }
       ]
     },
@@ -7688,12 +7700,12 @@
     },
     "change/bcapps/12846": {
       "kind": "change",
-      "hash": "0ec9201df97666475b50882c3486fe59b258cd596abfa1a4c94b063a89c9c360",
-      "at": "2026-10-24T00:27:09.476Z",
+      "hash": "9899a16d94dd34e7a2ac5ac82e1fb5c2fe1db0c50713e473d91a350641c06d76",
+      "at": "2026-10-25T12:50:37.676Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-track-document-lines",
-          "reason": "Track order lines to related documents covers blanket orders and document line tracking."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
+          "reason": "Edit posted sales and purchase documents across supported markets with field updates"
         }
       ]
     },
@@ -7736,16 +7748,16 @@
     },
     "change/bcapps/12894": {
       "kind": "change",
-      "hash": "092a22bad810b536df91cb13f1af3f7210f40b412d9a0ebad4c7be2bb57efa5b",
-      "at": "2026-10-24T00:27:12.179Z",
+      "hash": "cc9c00a0f015857fbafa8df9e1405cbe750811bb6f888f03345c2074fd5e211b",
+      "at": "2026-10-25T12:50:37.676Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent",
-          "reason": "Describes Payables Agent workflow including invoice processing and draft matching, core to credit memo support feature being added."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-payables-agent",
+          "reason": "Payables Agent automates vendor invoice processing from email with OCR and matching"
         },
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-payables-agent",
-          "reason": "Explains Payables Agent capabilities for invoice processing and draft creation, relevant to credit memo handling enhancement."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent",
+          "reason": "Payables Agent workflow for credit memo recognition and application to original invoices"
         }
       ]
     },
@@ -10985,12 +10997,12 @@
     },
     "change/bcapps/9643": {
       "kind": "change",
-      "hash": "eac4b1b638580d9eccd693c6f9b950c5d128fac2e221126d7efd3866267c0035",
-      "at": "2026-10-24T00:27:53.377Z",
+      "hash": "0352490e73c0b0351649b0496b06cb8bb32c2737c6a5c81bd7f42f4167dd18af",
+      "at": "2026-10-25T12:50:37.676Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/sii-setup",
-          "reason": "Page documents SII setup and configuration for VAT reporting in Spanish Business Central, directly relevant to SII management codeunits."
+          "reason": "SII management codeunits handle Spanish VAT reporting functionality configuration"
         }
       ]
     },
@@ -15642,6 +15654,21 @@
         }
       ]
     },
+    "object/codeunit/21": {
+      "kind": "object",
+      "hash": "361cfa2e04a371b253411ba823ff823f690a4a4ad745a59dcc8940d46c2957c1",
+      "at": "2026-10-25T12:50:37.676Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-locations-to-use-bins",
+          "reason": "Item Journal checks item movements using bin functionality at warehouse locations"
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-integration-with-inventory",
+          "reason": "Physical inventory journal integrates with inventory and warehouse bin tracking"
+        }
+      ]
+    },
     "object/codeunit/23": {
       "kind": "object",
       "hash": "448582186e20b917d14ae235c0f0af0ea44d4f0403ed8e74aea3c7df35b7dedd",
@@ -16481,6 +16508,45 @@
           "reason": "Documents address format customization by country and localization configuration."
         }
       ]
+    },
+    "object/codeunit/31159-cz": {
+      "kind": "object",
+      "hash": "45c6b75093bd0fe489ca8e91678a78d3041efc773aea87dd89aa59aceafd8649",
+      "at": "2026-10-25T12:50:44.051Z",
+      "picks": []
+    },
+    "object/codeunit/31160-cz": {
+      "kind": "object",
+      "hash": "35649fedd52308c8d6ceba491d50db28fed2329a242b73b8c1892e95c39e4207",
+      "at": "2026-10-25T12:50:44.051Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-2",
+          "reason": "Documents Intrastat country of origin automation feature implementation"
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-4",
+          "reason": "Documents Intrastat country of origin general availability and localization updates"
+        }
+      ]
+    },
+    "object/codeunit/31163-cz": {
+      "kind": "object",
+      "hash": "331f30afe21c79de8ea61b035f5564471a956a2b0b60755dab830edcbb828ff9",
+      "at": "2026-10-25T12:50:44.051Z",
+      "picks": []
+    },
+    "object/codeunit/31164-cz": {
+      "kind": "object",
+      "hash": "21264803dd4ebac3bbe96de44e17de2f785aaa9403db829873d12aef660058b1",
+      "at": "2026-10-25T12:50:44.051Z",
+      "picks": []
+    },
+    "object/codeunit/31165-cz": {
+      "kind": "object",
+      "hash": "1ab86ea00b4b09f5dab9a0fe2d09666ee8e1a4cf25e62d7d5ded46f47390e5bc",
+      "at": "2026-10-25T12:50:44.051Z",
+      "picks": []
     },
     "object/codeunit/31170-cz": {
       "kind": "object",
@@ -22681,6 +22747,17 @@
         }
       ]
     },
+    "object/codeunit/9078": {
+      "kind": "object",
+      "hash": "d36add0023ff18efdaa67bcac1d755d67ea3054ddee1e33d065e216f6242f107",
+      "at": "2026-10-25T12:50:44.051Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/check-output-inventory-time-sequence",
+          "reason": "Documents validation checks for inventory movements in Czech localization"
+        }
+      ]
+    },
     "object/codeunit/9092-gb": {
       "kind": "object",
       "hash": "aab045573d6501d154353ecbf6b2254113ee1ab9bebe0212cb06f728bb7abaad",
@@ -22907,6 +22984,21 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-setup-idealpostcodes-service",
           "reason": "Documents Ideal Postcodes setup and provider functionality for UK address lookup."
+        }
+      ]
+    },
+    "object/codeunit/9405-gb": {
+      "kind": "object",
+      "hash": "00eefbf0dece5a715c581b300d671f682df430f0120643e5e4169d43a4f7f7a2",
+      "at": "2026-10-25T12:50:44.051Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes",
+          "reason": "Describes Ideal Postcodes extension functionality for UK address lookup"
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-setup-idealpostcodes-service",
+          "reason": "Describes setup and configuration of Ideal Postcodes extension"
         }
       ]
     },
@@ -24299,6 +24391,32 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-tax-matching",
           "reason": "Documents Shopify Tax Matching feature setup and review mode configuration for tax jurisdiction matching."
+        }
+      ]
+    },
+    "object/enum/31302-cz": {
+      "kind": "object",
+      "hash": "34372e52837fba223b6505aced03523dbdef4cd8e7924d72e675f7e118ac1289",
+      "at": "2026-10-25T12:50:44.051Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-2",
+          "reason": "Documents Intrastat country of origin automation for multiple features"
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-4",
+          "reason": "Documents Intrastat country of origin general availability and localization"
+        }
+      ]
+    },
+    "object/enum/31303-cz": {
+      "kind": "object",
+      "hash": "6b1ec1dd79ce6811f2ef3767e9517e05213aec5c7fafd18b7e4a0cb902515d1f",
+      "at": "2026-10-25T12:50:36.711Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-adjustment-value-entry-source-entry",
+          "reason": "Enum relates to Intrastat source posting, a cost adjustment feature affecting inventory entries."
         }
       ]
     },
@@ -25713,6 +25831,36 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments",
           "reason": "Interface for extending e-documents with custom message senders for service communication."
+        }
+      ]
+    },
+    "object/interface/intrastat-origin-mode-cz-cz": {
+      "kind": "object",
+      "hash": "7631da12ea8d4a962451d4dbc3f082b14ea148104aca1653755e639c500a79a1",
+      "at": "2026-10-25T12:50:36.711Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-2",
+          "reason": "Interface implements Intrastat country of origin automation covered in Business Central 24.2 update."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-4",
+          "reason": "Interface supports Intrastat country of origin general availability documented in Business Central 24.4 update."
+        }
+      ]
+    },
+    "object/interface/intrastat-posted-origin-cz-cz": {
+      "kind": "object",
+      "hash": "494d1440efd088ede01e384315e41f26dd867b818b87c86ed648c80eb376bdc6",
+      "at": "2026-10-25T12:50:36.711Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-2",
+          "reason": "Interface implements Intrastat country of origin automation covered in Business Central 24.2 update."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-4",
+          "reason": "Interface supports Intrastat country of origin general availability documented in Business Central 24.4 update."
         }
       ]
     },
@@ -27810,12 +27958,16 @@
     },
     "object/page/6181": {
       "kind": "object",
-      "hash": "057d624a20ccf44dd811dfa9e8ed3a165f8fa9dd7051a549c9f13b956c26663c",
-      "at": "2026-10-24T00:31:15.436Z",
+      "hash": "a56a1e7ec51262fe3d04db043384749269a8cab9eb5d8ec14a9a47e6750e3344",
+      "at": "2026-10-25T12:50:36.711Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/match-purchase-invoice-drafts-to-orders",
-          "reason": "Page documents matching and validating purchase invoice drafts before posting."
+          "reason": "Page handles e-document purchase draft matching to purchase orders with validation events."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/check-purchase-amounts",
+          "reason": "Page validates purchase invoice amounts and VAT calculations before posting."
         }
       ]
     },
@@ -29380,6 +29532,28 @@
         }
       ]
     },
+    "object/page/7140": {
+      "kind": "object",
+      "hash": "45a975041dfd7ab53cdf90a13dc9f8edb7770faca8d0646b2554016587c5d8b5",
+      "at": "2026-10-25T12:50:36.711Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
+          "reason": "Page manages alternate approvers configuration for Expense Agent approval workflows."
+        }
+      ]
+    },
+    "object/page/7147": {
+      "kind": "object",
+      "hash": "955832c8c3cb21ddf1420b9d3e0c3a8e64b32f524cd765a5a564ea14ce2f3a25",
+      "at": "2026-10-25T12:50:36.711Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
+          "reason": "API page exposes alternate approvers setup for Expense Agent approval workflow configuration."
+        }
+      ]
+    },
     "object/page/7200": {
       "kind": "object",
       "hash": "d9c2dbc31ff57672d4b4d9bbe2c78ca0292c6e45537160c726bba46c723295dd",
@@ -30265,6 +30439,21 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent",
           "reason": "Documents how Payables Agent accesses item data during invoice matching"
+        }
+      ]
+    },
+    "object/pagecustomization/pa-purchase-credit-memo": {
+      "kind": "object",
+      "hash": "d565dfaf39ef0c585f04573f3ca59d3ca96198c4c3dc98cf8b1ce5945a978ae1",
+      "at": "2026-10-25T12:50:36.711Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_purchasecreditmemo_delete",
+          "reason": "Customization supports purchase credit memo management via API in Payables Agent."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_purchasecreditmemoline_delete",
+          "reason": "Customization supports purchase credit memo line management via API in Payables Agent."
         }
       ]
     },
@@ -35103,6 +35292,17 @@
         }
       ]
     },
+    "object/query/11302-be": {
+      "kind": "object",
+      "hash": "c60bf400cfeb87abbac193fecfad9522e9c28d1662b99f79e57ab5a9ac2f7448",
+      "at": "2026-10-25T12:50:36.711Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-accounts-in-the-general-ledger",
+          "reason": "Query retrieves purchase VAT ledger details for general ledger reconciliation and reporting."
+        }
+      ]
+    },
     "object/query/18028-in": {
       "kind": "object",
       "hash": "81c81ea3e6ee6ee611cb66a65fb070905b7e61feb0d63173be41fb829324a6d9",
@@ -36736,6 +36936,12 @@
       "at": "2026-10-24T00:33:07.729Z",
       "picks": []
     },
+    "object/report/6900": {
+      "kind": "object",
+      "hash": "47ab29c951be84fad69f69f082d135471b06a47c245e77b14c46335920e40c2e",
+      "at": "2026-10-25T12:50:36.378Z",
+      "picks": []
+    },
     "object/report/6950": {
       "kind": "object",
       "hash": "65d76d4e8c3985e073fb24ca59f2f3c299697bc0f273ff2338e5c38eea26196e",
@@ -37493,6 +37699,12 @@
           "reason": "Automatic accounts relate to chart of accounts setup and management."
         }
       ]
+    },
+    "object/table/11302-be": {
+      "kind": "object",
+      "hash": "c9c78f3d3ea0745e67e369289b639f0861387f19f639fa00e61c66b3738670ed",
+      "at": "2026-10-25T12:50:36.378Z",
+      "picks": []
     },
     "object/table/114": {
       "kind": "object",
@@ -40488,6 +40700,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-mileage-rate-setup",
           "reason": "Documents setup of mileage reimbursement rates by vehicle type, currency, and effective dates."
+        }
+      ]
+    },
+    "object/table/6940": {
+      "kind": "object",
+      "hash": "d66572ef5ac69bdb91205a584e729bbeb0fb8d2d1e9b3948441198672f9d8c55",
+      "at": "2026-10-25T12:50:36.378Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports",
+          "reason": "Documents expense approval workflows where alternate approvers would be utilized"
         }
       ]
     },

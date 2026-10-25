@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -190,10 +190,10 @@ links:
     - video/NkYNL_5Zfoc
     - video/r8HWIk5E0c0
     - video/VIda0Ok1SSQ
-    - video/WYd8Qn3wVQQ
     - video/xh63GaWwZqA
     - video/zQhtuFbxJm4
   posts:
+    - post/miljan-rs/908
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-38-keep-description--56fbbccc2b
     - post/thedynamicsexplorer-com/10452
     - post/thedynamicsexplorer-com/37144
@@ -224,8 +224,8 @@ children: []
 coverage:
   learn: 12
   code: 59
-  video: 12
-  blog: 4
+  video: 11
+  blog: 5
   guideline: 0
 bc_forms:
   - 1
@@ -343,7 +343,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10334 Add integration event OnAfterGetRecordOnAfterConfirmAndModify in the General Posting Setup dataitem OnAfterGetRecord trigger after Modify.](../../../../changes/bcapps/10334.md) (code change): "integration event OnAfterGetRecordOnAfterConfirmAndModify in the General Posting Setup"
 - [#11324 [main] Bug 649837 Export to Excel All exported rows if Show Currency is enabled in General Ledger Setup.](../../../../changes/bcapps/11324.md) (code change): "exporting to Excel applied a selected currency to all exported rows when Show Currency was enabled"
 - [#11998 [main] It should not be possible to post invoices with a non-existing Posting Setup combination because it creates trouble with Adjust for Payment Discount.](../../../../changes/bcapps/11998.md) (code change): "validates that a General Posting Setup combination exists before posting journal invoices"
-- [#13165 [Master]-"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.](../../../../changes/bcapps/13165.md) (code change): "G/L Register table permissions to allow modifying entries"
+- [#13165 [Master]-"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.](../../../../changes/bcapps/13165.md) (code change): "Update Registers from G/L Registers page for old entries with G/L Register No."
 - [#9071 Merged from [28.x]The transaction cannot be completed because it will cause inconsistencies in the G/L Entry table"](../../../../changes/bcapps/9071.md) (code change): "inconsistencies in the G/L Entry table in codeunit Gen. Jnl.-Post Line"
 - [#9339 [master][Gen. Jnl.-Post Line]` Add var NextEntryNo, var NextVATEntryNo, and var NextTransactionNo to OnAfterInitGLRegister in StartPosting](../../../../changes/bcapps/9339.md) (code change): "OnAfterInitGLRegister in StartPosting gains var NextEntryNo, NextVATEntryNo"
 - [#9343 [master][Event Request] Request at table 98 "General Ledger Setup",](../../../../changes/bcapps/9343.md) (code change): "New events were added to table 98 General Ledger Setup"
@@ -352,6 +352,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9455 Update permissions for G/L Transaction table](../../../../changes/bcapps/9455.md) (code change): "Access to the G/L Transaction table is added across Base Application"
 - [#9570 [Master]-Rounding Differences in ARAP with Deferrals and Non-Deductible VAT](../../../../changes/bcapps/9570.md) (code change): "Changes the core posting logic in codeunit 12"
 - [#57 Add source-verified Finance knowledge and review domain](../../../../changes/bcquality/57.md) (code change): "posting ledger entries, dimension sets, applying entries, due dates, reversals, journal balance"
+- [Oops, I Did It Again: Reversing G/L Transactions in Business Central](../../../../posts/miljan-rs/908.md) (community post): "reversing General Ledger transactions in Business Central: batch reversal via G/L Register"
 - [BC Friday Tips #38 Keep Description](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-38-keep-description--56fbbccc2b.md) (community post): "Keep Description field preserves the description text when switching between account types"
 - [Dynamics 365 Business Central – Error Message “You have one or more documents that must be posted before you post document no….” when posting a Journal](../../../../posts/thedynamicsexplorer-com/10452.md) (community post): "journal's number series has manual numbers disabled but the user tries to enter a custom document number"
 - [Dynamics 365 Business Central – Handling the message “Only the Posting No. Series can be filled in on recurring journals” in Recurring Journals](../../../../posts/thedynamicsexplorer-com/37144.md) (community post): "Recurring journal lines remain after posting and their posting date moves forward"
@@ -365,7 +366,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Comparing General Journal Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/NkYNL_5Zfoc.md) (video): "General journal; Journal entry; offset accounts"
 - [Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/r8HWIk5E0c0.md) (video): "Reverse journal entry in Business Central; Correct dimension in Business Central"
 - [Control Deferral Posting](../../../../videos/VIda0Ok1SSQ.md) (video): "deferral templates; deferral posting; general ledger setup; user permissions"
-- [Edit G/L Budgets in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)](../../../../videos/WYd8Qn3wVQQ.md) (video): "Edit G/L Budgets in a Spreadsheet inside Business Central"
 - [Adjust Cost Allocations Before Posting](../../../../videos/xh63GaWwZqA.md) (video): "Generate lines from allocation account"
 - [Comparing General Journal Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/zQhtuFbxJm4.md) (video): "General Journal batches; Account name auto-filter in journal entry"
 

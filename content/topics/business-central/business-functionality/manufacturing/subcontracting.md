@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:24.212Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -221,7 +221,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12459 [Master][All-E] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../../changes/bcapps/12459.md) (code change): "Subcontractor price now correctly incorporates operation run time for time-based"
 - [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../../changes/bcapps/12584.md) (code change): "Restore Get Receipt Lines for subcontracting receipts"
 - [#12669 [Main]Subcontracting Order Date does not account for lead time before the routing operation starts](../../../../changes/bcapps/12669.md) (code change): "Subcontracting order dates now correctly calculate backward from the routing operation start date"
-- [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../../changes/bcapps/12783.md) (code change): "Subcontractor price calculation for time-based operations now correctly multiplies"
+- [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../../changes/bcapps/12783.md) (code change): "Subcontractor price for Time-based operations ignored the routing line's operation time factor"
 - [#12986 Fix Work Center field persistence when auto-save is disabled](../../../../changes/bcapps/12986.md) (code change): "Validating Subcontractor No. on the Work Center Card now saves pending changes"
 - [#8747 [Subcontracting] Disable "WIP Item Transfer" for Machine Center](../../../../changes/bcapps/8747.md) (code change): "Transfer WIP Item field on routing lines is now restricted"
 - [#8750 [Bug Fix] #638688: Suppress availability warning for Transfer WIP Item lines](../../../../changes/bcapps/8750.md) (code change): "WIP items are intermediate goods managed by subcontracting"

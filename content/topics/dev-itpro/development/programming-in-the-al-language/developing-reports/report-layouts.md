@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -217,6 +217,7 @@ links:
     - post/aardvarklabs-blog/2196
     - post/aardvarklabs-blog/2271
     - post/aardvarklabs-blog/3544
+    - post/miljan-rs/698
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-67-reset-page-number-in-rdlc--4fc41d0f62
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-76-barcode-fonts-in-rdl--2785e5dd8e
@@ -225,6 +226,7 @@ links:
     - post/thinkaboutit-be/7266
     - post/thinkaboutit-be/7750
     - post/thinkaboutit-be/8096
+    - post/thinkaboutit-be/8272
   guidelines: []
   changes:
     - change/bcquality/230
@@ -240,7 +242,7 @@ coverage:
   learn: 22
   code: 5
   video: 4
-  blog: 13
+  blog: 15
   guideline: 0
 bc_forms:
   - 21
@@ -321,6 +323,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Easy Steps to Edit Word Reports in Business Central](../../../../../posts/aardvarklabs-blog/2196.md) (community post): "Edit Word report layouts in Business Central by exporting an existing report"
 - [Understanding RDLC Reports in Business Central](../../../../../posts/aardvarklabs-blog/2271.md) (community post): "new layouts are uploaded through Report Layouts with RDLC chosen as the format"
 - [New Features for Report Lifecycle Management in Business Central 28.1](../../../../../posts/aardvarklabs-blog/3544.md) (community post): "Report layouts now have status states: Draft, Pending Approval, Approved"
+- [Conditional Page Breaks in Word Layouts for Business Central Reports](../../../../../posts/miljan-rs/698.md) (community post): "Word layouts for Business Central Reports conditional page breaks Word layouts don't offer"
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "Composite layouts split a document into a Body layout plus a reusable header/footer"
 - [BC Friday Tips #67 Reset Page Number in RDLC](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-67-reset-page-number-in-rdlc--4fc41d0f62.md) (community post): "ResetPageNumber property in RDLC reports restarts page numbering"
 - [BC Friday Tips #76 Barcode Fonts in RDL Reports](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-76-barcode-fonts-in-rdl--2785e5dd8e.md) (community post): "Creating barcodes in Business Central SaaS reports requires setting the FontFamily property"
@@ -329,6 +332,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How Do I Fix: The EnableHyperlinks property has not been set for this report.](../../../../../posts/thinkaboutit-be/7266.md) (community post): "RDLC report layouts contain hyperlinks, the EnableHyperlinks property must be set"
 - [How Do I: Use the Word Add-in for Business Central Report Layouts](../../../../../posts/thinkaboutit-be/7750.md) (community post): "The Dynamics 365 Business Central Word add-in is a free Microsoft Word extension that simplifies designing Word layouts"
 - [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../../../../../posts/thinkaboutit-be/8096.md) (community post): "Word add-in data picker provides a cleaner alternative by inserting mapped fields directly"
+- [Business Central 29: More Control Over Report Layouts and New Report Inbox APIs](../../../../../posts/thinkaboutit-be/8272.md) (community post): "Layout statuses (Draft, Pending Approval, Approved, Retired) now apply"
 - [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../../videos/1ft4o9lQzsU.md) (video): "Excel report layouts; Power Query integration for refreshable reports"
 - [Let It Snow: How To Use Themable Layouts in Business Central (2024)](../../../../../videos/9ZmmQEpPyB4.md) (video): "Themeable layouts; Abts font in Office; Word layout watermark support"
 - [What’s New: Enhanced Document Reporting Features (For Developers) (2024 release wave 2)](../../../../../videos/V8CSor5qBRE.md) (video): "word layout engine; document reports; word add-in; layout controls"

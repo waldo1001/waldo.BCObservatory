@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:27.211Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-25T12:53:09.600Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,7 +74,8 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/duiliotacconi-com/1425
   guidelines: []
   changes:
     - change/bcapps/11847
@@ -90,7 +91,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 3379cd754f86203aa303a146696436a67af354ae6edb858e850701c69ce460a8
@@ -153,5 +154,6 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11847 Use matching key for workflow event step instance lookup](../../../../../changes/bcapps/11847.md) (code change): "A workflow step instance lookup key is redefined to match the actual filter and sort order"
+- [Optimized Locking feature vs Dynamics 365 Business Central](../../../../../posts/duiliotacconi-com/1425.md) (community post): "Tri-state locking and ReadIsolation in BC apply only to in-transaction single reads"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

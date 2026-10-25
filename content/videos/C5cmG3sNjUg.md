@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:51:43.309Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -91,8 +91,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/576789
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -140,12 +139,10 @@ cautions:
     t: 897
 features:
   - name: MCP Server for Business Central
-    status: ga
+    status: preview
     t: 75
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "576789"
+    status_source: video
   - name: Default Configuration Mode
     status: unclear
     t: 124
@@ -251,7 +248,7 @@ It also covers the dynamic tools system, how API pages are named and described f
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| MCP Server for Business Central | generally available (roadmap [Unlock more Business Central data with MCP server enhancements](../features/576789.md)), demoed | [1:15](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=75s) | "It's currently in public preview. So go to um feature management and enable that." ([0:45](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=45s)) |
+| MCP Server for Business Central | preview, demoed | [1:15](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=75s) | "It's currently in public preview. So go to um feature management and enable that." ([0:45](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=45s)) |
 | Default Configuration Mode | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=124s) |  |
 | Named Configurations | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=156s) |  |
 | Dynamic Tools System with Semantic Search | status not stated, demoed | [3:41](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=221s) |  |
@@ -260,8 +257,6 @@ It also covers the dynamic tools system, how API pages are named and described f
 | Discover Additional Objects Feature | status not stated | [8:06](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=486s) |  |
 | MCP Proxy for Other Hosts | status not stated | [13:52](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=832s) |  |
 | Copilot Studio Support | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=124s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

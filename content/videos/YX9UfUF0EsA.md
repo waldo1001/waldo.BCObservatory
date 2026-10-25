@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:12.529Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-25T12:48:45.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -256,10 +256,12 @@ features:
     verified: false
     status_source: video
   - name: Page and record context in Copilot chat
-    status: unclear
+    status: ga
     t: 1069
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Message attachments in M365 Copilot
     status: unclear
     t: 1118
@@ -463,7 +465,7 @@ The session also covers the tools and agentic loop behind multi-step queries, pe
 | LLM-powered bank reconciliation | status not stated | [3:02](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=182s) |  |
 | LLM-powered auto-fill | status not stated | [3:17](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=197s) |  |
 | Sales order agent | status not stated | [4:24](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=264s) |  |
-| Page and record context in Copilot chat | status not stated, demoed | [17:49](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1069s) |  |
+| Page and record context in Copilot chat | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [17:49](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1069s) |  |
 | Message attachments in M365 Copilot | status not stated, demoed | [18:38](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1118s) |  |
 | Agentic loop for multi-step queries | status not stated, demoed | [19:06](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1146s) |  |
 | Business Central tools suite for Copilot | status not stated | [19:19](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1159s) |  |
