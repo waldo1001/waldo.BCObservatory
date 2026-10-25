@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/tree-sitter-al-v2-rewrite/",
+  "url": "https://sshadows.dk/blog/tree-sitter-al-v2-rewrite/",
+  "title": "I Rewrote My Tree-Sitter Grammar From Scratch. It Got 10x Smaller.",
+  "source": "sshadows-dk",
+  "published_at": "2026-03-24T00:00:00.000Z",
+  "words": 1194,
+  "summary": "A complete rewrite of the tree-sitter-al grammar reduced parser.c from 106 MB to 10.6 MB and simplified the grammar from 8,500 to 3,100 lines while achieving 100% parse success on 15,358 production files. The new design replaced 291 property rules with an external scanner and single generic property rule, enabling keyword visibility for queries and syntax highlighting.",
+  "key_points": [
+    "Parser file reduced from 106 MB (unpushable to GitHub) to 10.6 MB through architectural redesign",
+    "Grammar simplified from 8,500 lines to 3,100 lines and symbol count cut from 2,249 to ~740",
+    "Replaced 291 individual property rules with one generic rule plus external scanner for lookahead",
+    "Achieved 100% parse success rate on all 15,358 production AL files after fixing seven edge cases",
+    "All 82 keywords now visible to tree-sitter queries for syntax highlighting and code navigation"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al parser",
+    "tree-sitter",
+    "grammar",
+    "code analysis",
+    "syntax highlighting",
+    "language server"
+  ],
+  "objects": [],
+  "features": [
+    "tree-sitter grammar for AL",
+    "external scanner for lookahead",
+    "generic property parsing",
+    "keyword visibility in queries",
+    "syntax highlighting queries",
+    "code navigation",
+    "scope analysis",
+    "indentation and folding"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "It's the compiler's job to validate property values, not the parser's.",
+      "why_it_matters": "Key architectural insight that led to replacing 291 validation rules with a single generic rule"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007246,
+    "posts_in_call": 1
+  }
+}

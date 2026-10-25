@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/bc-toolbox-vs-microsoft-mcp/",
+  "url": "https://sshadows.dk/blog/bc-toolbox-vs-microsoft-mcp/",
+  "title": "Microsoft Ships an AL MCP Server. So Why Did I Build My Own?",
+  "source": "sshadows-dk",
+  "published_at": "2026-07-10T00:00:00.000Z",
+  "words": 1661,
+  "summary": "A developer explains why they built custom MCP servers for Business Central development beyond Microsoft's official AL MCP Server. While Microsoft's tools excel at writing and compiling AL code, the custom toolbox adds verification capabilities including code coverage, interactive debugging, profiling analysis, call graphs, breaking change detection, and UI-driven testing.",
+  "key_points": [
+    "Microsoft's AL MCP covers the writing half of development (compile, publish, build) but lacks tools for verifying changes actually work",
+    "Custom toolbox adds per-method test results with coverage, interactive debugging accessible from any MCP client, ranked profiling hotspots, and whole-program call graphs",
+    "Break-in-glass debugger, event fan-out analysis, and static detectors help agents understand what their changes break before shipping",
+    "Business-central-mcp drives the real web UI end-to-end (create orders, post, print) on on-prem and Docker, not just cloud APIs"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "al development",
+    "mcp servers",
+    "testing",
+    "debugging",
+    "code coverage",
+    "profiling",
+    "static analysis",
+    "verification"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "[Test] methods"
+    }
+  ],
+  "features": [
+    "AL MCP Server (altool launchmcpserver)",
+    "test discovery and per-method coverage",
+    "interactive debugging with breakpoints",
+    "profiling with hotspot analysis",
+    "call hierarchy and event fan-out",
+    "breaking-change diff detection",
+    "UI automation via WebSocket protocol",
+    "whole-program static analysis with SARIF"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft has built a solid AL development toolchain.",
+      "why_it_matters": "Acknowledges Microsoft's strength in the compile-and-publish loop while establishing context for what they don't cover"
+    },
+    {
+      "text": "The scarce resource is knowing whether the code you just ran actually works.",
+      "why_it_matters": "Identifies the key gap: agents can write code fast but need verification that changes don't break things"
+    },
+    {
+      "text": "Microsoft is teaching agents to write AL. I'm teaching them to know when they're wrong.",
+      "why_it_matters": "Summarizes the philosophy behind the custom toolbox: verification and observability for agent-driven development"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012649,
+    "posts_in_call": 1
+  }
+}

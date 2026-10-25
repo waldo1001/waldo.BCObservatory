@@ -1,0 +1,45 @@
+{
+  "id": "blog/sshadows-dk/https://sshadows.dk/blog/your-tests-all-pass/",
+  "pillar": "blog",
+  "source": "sshadows-dk",
+  "tier": "community",
+  "title": "Your Tests All Pass. I Have Bad News.",
+  "url": "https://sshadows.dk/blog/your-tests-all-pass/",
+  "published_at": "2026-08-24T00:00:00.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-25T16:41:48.094Z"
+    },
+    "fetched": {
+      "at": "2026-10-25T16:41:52.351Z",
+      "path": "vault:posts/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620.md",
+      "words": 1732
+    },
+    "extracted": {
+      "at": "2026-10-25T16:42:08.220Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.012404
+    },
+    "summarized": {
+      "at": "2026-10-25T16:42:08.222Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-25T16:42:08.224Z"
+    },
+    "published": {
+      "at": "2026-10-25T16:42:08.239Z",
+      "path": "content/posts/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620.md"
+    }
+  },
+  "input_hash": null,
+  "attempts": 0,
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "62707d0143297589a11a8255dc3875a9397243363278b71b802640fa1ffc24c9"
+}

@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/one-parser-six-tools/",
+  "url": "https://sshadows.dk/blog/one-parser-six-tools/",
+  "title": "One Parser, Six Tools",
+  "source": "sshadows-dk",
+  "published_at": "2026-03-27T00:00:00.000Z",
+  "words": 775,
+  "summary": "A tree-sitter-based AL parser enables multiple developer tools including code navigation, structural search, LLM training data extraction, AI-powered code understanding, and editor support. The parser achieves 100% accuracy on 15,358 production files and serves as a foundation for building code analysis and development tools.",
+  "key_points": [
+    "tree-sitter-al parses AL with zero errors on all tested production files and is published on crates.io",
+    "The parser powers six tools: GitHub code navigation, ast-grep structural search, al-corpus training data extraction, code-graph-rag knowledge graphs, editor integrations, and an interactive WASM playground",
+    "Editors like Neovim, Helix, and Zed can use the parser's query files for syntax highlighting, scope-aware highlighting, symbol navigation, code folding, and auto-indentation",
+    "ast-grep enables zero-false-positive structural pattern matching across codebases, such as finding all obsolete properties",
+    "The parser is MIT-licensed and available for developers to build custom tools"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "al parser",
+    "code analysis",
+    "syntax highlighting",
+    "structural search",
+    "code navigation",
+    "editor integration",
+    "llm training",
+    "developer tools"
+  ],
+  "objects": [],
+  "features": [
+    "GitHub code navigation",
+    "ast-grep structural search",
+    "al-corpus training data extraction",
+    "code-graph-rag knowledge graphs",
+    "Editor support (Neovim, Helix, Zed)",
+    "Interactive WASM playground",
+    "Symbol navigation",
+    "Code folding"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "tree-sitter-al parses AL, the language behind Business Central. I got it to 100% on 15,358 production files. Zero errors.",
+      "why_it_matters": "Demonstrates the parser's production-grade reliability and completeness, validating it as a foundation for multiple tools"
+    },
+    {
+      "text": "Every tool on this list runs on the same parse tree. I built the parser because no one else had.",
+      "why_it_matters": "Shows how a single, well-built parser enables multiple downstream applications and tools for AL development"
+    },
+    {
+      "text": "The parser is MIT-licensed: github.com/SShadowS/tree-sitter-al.",
+      "why_it_matters": "Clarifies the licensing and availability, making it clear the tool is open for community use and extension"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006835,
+    "posts_in_call": 1
+  }
+}

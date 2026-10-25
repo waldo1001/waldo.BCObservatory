@@ -1,0 +1,110 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/other-peoples-code-in-my-repos/",
+  "url": "https://sshadows.dk/blog/other-peoples-code-in-my-repos/",
+  "title": "Other People's Code in My Repos, and Mine in Theirs",
+  "source": "sshadows-dk",
+  "published_at": "2026-08-17T00:00:00.000Z",
+  "words": 1253,
+  "summary": "This post chronicles summer contributions to AL and Business Central development tools from external developers and the author's own work across ten upstream projects. It covers SaaS support for the bc-mcp server, performance fixes in CentralGauge based on community bug reports, the new LethAL mutation testing tool for AL, expanded functionality in bc-dev-mcp driven mostly by community PRs, standardization of AL file support across developer tools, and improvements to tree-sitter-al grammar and al-perf analysis.",
+  "key_points": [
+    "External developers contributed significant code to projects including 12,500 lines adding BC SaaS support to bc-mcp and nine merged PRs to bc-dev-mcp from Ian Ray",
+    "Performance improvement of 67 minutes to 7 minutes achieved in CentralGauge after fixing a slow PowerShell path issue found through community bug reports",
+    "LethAL mutation testing tool released to verify test quality by introducing deliberate code breakages and checking if tests detect them",
+    "AL file format support standardized across ten upstream development tools including vim, neovim, GitHub linguist, and syntax highlighters to prevent confusion with Perl",
+    "tree-sitter-al v4 fixed grammar losslessness issues and al-perf v4 replaced assumptions with measured performance data from BC28 containers"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "al development",
+    "open source contributions",
+    "mutation testing",
+    "performance analysis",
+    "language tooling",
+    "devops",
+    "grammar parsing"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "business-central-mcp"
+    },
+    {
+      "type": "other",
+      "name": "CentralGauge"
+    },
+    {
+      "type": "other",
+      "name": "LethAL"
+    },
+    {
+      "type": "other",
+      "name": "bc-dev-mcp"
+    },
+    {
+      "type": "other",
+      "name": "tree-sitter-al"
+    },
+    {
+      "type": "other",
+      "name": "al-perf"
+    },
+    {
+      "type": "other",
+      "name": "al-sem"
+    },
+    {
+      "type": "other",
+      "name": "al-lsp-for-agents"
+    },
+    {
+      "type": "other",
+      "name": "DevOpsWorker"
+    }
+  ],
+  "features": [
+    "BC SaaS support via MCP",
+    "mutation testing",
+    "OData query tool",
+    "performance profiling",
+    "debugger coverage analysis",
+    "AL syntax highlighting",
+    "grammar losslessness"
+  ],
+  "versions": [
+    "bc-mcp v1.3",
+    "bc-mcp v1.5",
+    "bc-mcp v1.6.0",
+    "tree-sitter-al v4",
+    "tree-sitter-al v4.0.1",
+    "al-perf v4",
+    "al-sem 1.0",
+    "BC28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "take it whole, cherry-pick parts, ask for a rework, or close it. We're running it ourselves either way.",
+      "why_it_matters": "Demonstrates collaborative open source philosophy where contributions move forward regardless of upstream acceptance, enabling independent deployment"
+    },
+    {
+      "text": "A six-task bench run took 67 minutes. After the fix, the same run took 7 minutes with identical results.",
+      "why_it_matters": "Shows concrete impact of community-reported performance issues, validating the value of external bug reports with measurements"
+    },
+    {
+      "text": "So we are testing the tests, not the code.",
+      "why_it_matters": "Explains the core insight of mutation testing for AL: detecting weak test coverage that misses real defects"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.008499,
+    "posts_in_call": 1
+  }
+}

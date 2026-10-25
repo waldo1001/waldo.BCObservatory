@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/al-perf-v2-deep-analysis/",
+  "url": "https://sshadows.dk/blog/al-perf-v2-deep-analysis/",
+  "title": "AL Perf v2 Drops Friday. Here's What Changed.",
+  "source": "sshadows-dk",
+  "published_at": "2026-03-12T00:00:00.000Z",
+  "words": 1010,
+  "summary": "AL Perf v2 adds call tree visibility and source code analysis to its AI-powered performance diagnostics, enabling deeper root cause identification. The tool now sends complete call graphs, SQL patterns, and AST summaries to Claude Sonnet, which outperforms previous analysis on real production profiles and surfaces findings like redundant setup calls and cross-extension table duplication.",
+  "key_points": [
+    "Version 2 provides the AI with full call trees and source code, not just hotspot summaries, revealing patterns like repeated function calls in loops",
+    "A/B testing with Claude Sonnet and Opus shows Sonnet with enriched data wins 5-0 across five configurations with scores reaching 9.05 vs 8.0",
+    "Expansive prompts that hint at patterns outperform restrictive rules that constrain the AI's reasoning",
+    "Analysis costs $0.50 per profile with Sonnet versus $1.40 with Opus, with significantly better findings",
+    "New findings include redundant setup calls, cross-extension table duplication, OUTER APPLY eliminations, and expensive code shapes"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "performance analysis",
+    "ai-powered diagnostics",
+    "profiling",
+    "code optimization"
+  ],
+  "objects": [],
+  "features": [
+    "call tree analysis",
+    "source code analysis",
+    "SQL query grouping",
+    "AST summaries",
+    "cross-extension pattern detection",
+    "business logic review",
+    "AI-powered performance recommendations"
+  ],
+  "versions": [
+    "2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The AI narrates and contextualizes. It does that well. Version 2 sends a lot more.",
+      "why_it_matters": "Explains the leap from summary-only to detailed data that enables deeper analysis"
+    },
+    {
+      "text": "The final configuration scores 5-0-0 against Opus. Sonnet consistently finds things Opus misses.",
+      "why_it_matters": "Demonstrates measurable superiority of the new approach through systematic testing"
+    },
+    {
+      "text": "Turns out, telling an AI to be careful is a great way to make it boring.",
+      "why_it_matters": "Counterintuitive finding about prompt design that prioritizes breadth and hints over constraints"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006494,
+    "posts_in_call": 1
+  }
+}

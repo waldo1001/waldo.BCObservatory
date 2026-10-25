@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/centralgauge-benchmark-update/",
+  "url": "https://sshadows.dk/blog/centralgauge-benchmark-update/",
+  "title": "CentralGauge Benchmark Update: Why the Numbers Changed",
+  "source": "sshadows-dk",
+  "published_at": "2026-02-10T00:00:00.000Z",
+  "words": 961,
+  "summary": "CentralGauge, an AI benchmark for AL code generation in Business Central, underwent significant infrastructure fixes that corrected code extraction bugs, removed impossible tasks, and clarified ambiguous specifications. These improvements made benchmark scores more reliable and revealed that Claude Opus 4.6 achieves 98.2% consistency with 76.2% pass rate, outperforming other tested models.",
+  "key_points": [
+    "Code extraction pipeline had critical bugs including unstripped markdown fences, greedy regex capturing, and missing delimiters that corrupted valid model output",
+    "11 tasks had 0% pass rates across all models due to infrastructure failures like missing report layouts, incorrect test policies, and wrong error code assertions",
+    "Ambiguous task specifications caused noisy results; aligning function signatures with tests and handling valid AL patterns improved task pass rates significantly",
+    "Claude Opus 4.6 ranks first with 76.2% pass@1 and 98.2% consistency; Gemini 3 Pro shows the largest self-correction gap at only 3.75% recovery rate",
+    "Future focus includes continued task auditing, agent benchmark support with Docker containers, and scale improvements for faster benchmark runs"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al code generation",
+    "benchmark",
+    "llm evaluation",
+    "code extraction",
+    "model comparison",
+    "business central"
+  ],
+  "objects": [],
+  "features": [
+    "CentralGauge benchmark",
+    "AL code generation testing",
+    "multi-model comparison",
+    "self-correction analysis",
+    "agent benchmarking with Docker",
+    "task specification validation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Models were generating valid AL code, but the harness was mangling it before compilation.",
+      "why_it_matters": "Explains that the initial benchmark failures were partly due to broken test infrastructure, not model capability, which is critical for fair model comparison"
+    },
+    {
+      "text": "Gemini 3 Pro's self-correction gap remains the most striking anomaly: only 3.75% of first-attempt failures are recovered on the second attempt.",
+      "why_it_matters": "Reveals a structural weakness in how Gemini handles error recovery compared to other models, affecting multi-attempt strategies"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007018,
+    "posts_in_call": 1
+  }
+}

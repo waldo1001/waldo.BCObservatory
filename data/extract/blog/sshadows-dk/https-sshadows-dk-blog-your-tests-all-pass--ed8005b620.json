@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/your-tests-all-pass/",
+  "url": "https://sshadows.dk/blog/your-tests-all-pass/",
+  "title": "Your Tests All Pass. I Have Bad News.",
+  "source": "sshadows-dk",
+  "published_at": "2026-08-24T00:00:00.000Z",
+  "words": 1732,
+  "summary": "Mutation testing is a technique that validates test quality by intentionally breaking code to see if tests catch the failures. The post introduces LethAL, an open-source tool for AL that performs mutation testing efficiently by compiling once and running mutations as table writes, making it practical for finding gaps in test suites that code coverage alone misses.",
+  "key_points": [
+    "Code coverage measures whether a line ran, but mutation testing checks whether a test would notice if that line broke, providing stronger validation of test quality",
+    "LethAL avoids the impractical naive approach of recompiling for each mutant by shipping all mutants in a single build and switching between them via table writes, reducing test time from hours to seconds",
+    "The tool found real gaps in a sample credit limit check: missing boundary tests (equality vs greater-than), missing data setup (unfetched balances), and insufficient isolation (single customer masking filter issues)",
+    "LethAL is built for agent-driven workflows with JSON schemas, clear exit codes, and self-grading mutation kills, allowing AI agents to work from a ranked queue of survivors",
+    "Survivors are leads, not verdicts; they indicate where tests went silent, and developers must decide correct behavior before agents write tests to avoid locking in wrong behavior"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "testing",
+    "mutation testing",
+    "test quality",
+    "code validation",
+    "lethal tool",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "credit limit check (example in post)"
+    }
+  ],
+  "features": [
+    "Mutation testing",
+    "LethAL tool",
+    "Test quality validation",
+    "Code coverage analysis",
+    "Mutation scoring",
+    "Agent-driven testing workflow"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012404,
+    "posts_in_call": 1
+  }
+}

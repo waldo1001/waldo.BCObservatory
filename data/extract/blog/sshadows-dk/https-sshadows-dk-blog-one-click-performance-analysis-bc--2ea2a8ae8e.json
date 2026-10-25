@@ -1,0 +1,49 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/one-click-performance-analysis-bc/",
+  "url": "https://sshadows.dk/blog/one-click-performance-analysis-bc/",
+  "title": "One-Click Performance Analysis Inside Business Central",
+  "source": "sshadows-dk",
+  "published_at": "2026-03-03T00:00:00.000Z",
+  "words": 1059,
+  "summary": "An extension adds AI-powered performance analysis directly into Business Central's Performance Profiler, detecting anti-patterns and explaining results without switching tools. It helps developers understand slow transactions quickly by identifying root causes like N+1 queries, unfiltered record operations, and event subscriber hotspots.",
+  "key_points": [
+    "One-click analysis button on the Performance Profiler page runs pattern detection and AI-powered explanation of performance bottlenecks",
+    "Detects anti-patterns including N+1 queries, unfiltered FindSet, method dominance, deep call stacks, and event subscriber hotspots",
+    "Optional source code upload enables syntactic analysis to prove nesting and catch performance issues not yet visible in profiles",
+    "Available as BC extension for quick profile-only analysis or web app for full analysis with source correlation"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "performance analysis",
+    "profiling",
+    "optimization",
+    "code quality",
+    "anti-patterns",
+    "debugging"
+  ],
+  "objects": [],
+  "features": [
+    "Performance Profiler integration",
+    "AI-powered performance explanation",
+    "Anti-pattern detection",
+    "Call tree analysis",
+    "Source code correlation",
+    "N+1 query detection",
+    "Event subscriber hotspot detection",
+    "Unfiltered query detection"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006604,
+    "posts_in_call": 1
+  }
+}

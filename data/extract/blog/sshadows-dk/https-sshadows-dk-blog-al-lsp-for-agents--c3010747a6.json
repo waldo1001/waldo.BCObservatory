@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/",
+  "url": "https://sshadows.dk/blog/al-lsp-for-agents/",
+  "title": "AL LSP for Agents: Now in VS Code, and a New Home",
+  "source": "sshadows-dk",
+  "published_at": "2026-03-10T00:00:00.000Z",
+  "words": 946,
+  "summary": "AL LSP for Agents brings compiler-powered code intelligence to VS Code Copilot and Claude Code through language server tools. It enables AI agents to navigate AL codebases with features like go-to-definition, find references, call hierarchy analysis, and real-time code quality diagnostics without relying on text search.",
+  "key_points": [
+    "VS Code extension registers eight Language Model Tools that give Copilot agent mode access to AL language server capabilities for symbol navigation and analysis",
+    "Enriched hover now displays all declared properties on fields and actions, allowing AI agents to make informed decisions based on complete field and action metadata",
+    "Configurable code quality diagnostics detect common AL code smells like unused procedures, high complexity, too many parameters, and long methods",
+    "The tool integrates a Go wrapper coordinating the Microsoft AL Language Server with al-call-hierarchy for precise, compiler-aware answers instead of text-based searching"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "al language server",
+    "copilot integration",
+    "vs code extension",
+    "code intelligence",
+    "call hierarchy",
+    "code quality",
+    "language model tools",
+    "ai agents"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "al-lsp-for-agents"
+    },
+    {
+      "type": "other",
+      "name": "al-call-hierarchy"
+    },
+    {
+      "type": "other",
+      "name": "AL Language Server"
+    }
+  ],
+  "features": [
+    "go to definition",
+    "find references",
+    "call hierarchy analysis",
+    "code quality diagnostics",
+    "enriched hover with field properties",
+    "unused procedure detection",
+    "complexity warnings",
+    "fan-in analysis"
+  ],
+  "versions": [
+    "v1.5.2"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006255,
+    "posts_in_call": 1
+  }
+}

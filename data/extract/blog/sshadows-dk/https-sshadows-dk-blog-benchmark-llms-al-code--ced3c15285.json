@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/sshadows-dk/https://sshadows.dk/blog/benchmark-llms-al-code/",
+  "url": "https://sshadows.dk/blog/benchmark-llms-al-code/",
+  "title": "How I Benchmark LLMs on AL Code",
+  "source": "sshadows-dk",
+  "published_at": "2026-01-16T00:00:00.000Z",
+  "words": 1343,
+  "summary": "CentralGauge is an open source benchmark designed to evaluate Large Language Models on AL code generation for Business Central. The post explains the methodology, task design philosophy, two-attempt scoring mechanism, and results showing how different models perform on domain-specific AL code compared to generic benchmarks.",
+  "key_points": [
+    "AL's niche characteristics (syntax, conventions, standard library patterns) require specialized benchmarking distinct from Python or JavaScript benchmarks",
+    "The benchmark includes 56 tasks across three difficulty tiers with real compilation in a Business Central container and test execution to ensure viability",
+    "The two-attempt mechanism measures both code generation quality and self-correction ability, penalizing second attempts by 10 points",
+    "Model performance rankings on AL tasks differ significantly from generic benchmarks, with Opus 4.5 leading at 66% pass rate and dramatic cost efficiency variations between providers",
+    "Contributing new tasks requires defining YAML specifications with test codeunits that validate expected behavior rather than vague requirements"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al code generation",
+    "llm benchmarking",
+    "code quality evaluation",
+    "business central development",
+    "ai model testing",
+    "domain specific performance"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Assert"
+    },
+    {
+      "type": "table",
+      "name": "Product Category"
+    }
+  ],
+  "features": [
+    "AL code generation",
+    "LLM evaluation",
+    "Benchmark task design",
+    "Two-attempt scoring",
+    "Real compilation testing",
+    "Self-correction measurement",
+    "Cost tracking",
+    "Parallel execution"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Generic code benchmarks cannot tell you how an LLM will perform on your specific domain.",
+      "why_it_matters": "This is the core justification for why specialized benchmarks like CentralGauge are necessary rather than relying on generic benchmarks like HumanEval"
+    },
+    {
+      "text": "The model should know this. If it does not, that is a valid test failure.",
+      "why_it_matters": "Explains the benchmark's philosophy of testing domain knowledge rather than instruction-following ability, ensuring tasks measure genuine AL competency"
+    },
+    {
+      "text": "Model ranking on AL tasks does not match generic benchmark rankings.",
+      "why_it_matters": "Demonstrates that domain-specific performance cannot be predicted from general-purpose benchmarks, validating the need for specialized evaluation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006667,
+    "posts_in_call": 1
+  }
+}
