@@ -464,7 +464,7 @@ blogs; all videos newest-first.
 | **M50 Media orbits** | videos and posts circle their hub at level 2 and 3 in the flat galaxy, static under reduced motion and in the tilt (`docs/specs/media-orbits.md`, D113, shipped 2026-10-25) | small | none: site only |
 | **M51 Galaxy motion** | recency orbits in landed yellow, comets for this week, flight paths under a source lens (`data/graph/flights.json`), port traffic on hover, systems turning (`docs/specs/galaxy-motion.md`, D114, shipped 2026-10-25) | medium | low: one small graph file per nightly |
 | **M52 sshadows.dk blog source** | one `sources.yaml` entry for Torben Leth's blog, derived mode, RSS (`docs/specs/sshadows-dk-blog-source.md`, D115, shipped 2026-10-25) | small | low: one more blog in ingest and derive |
-| **M53 vjeko.com blog source** | one `sources.yaml` entry for Vjekoslav Babić's blog, derived mode, RSS (`docs/specs/vjeko-com-blog-source.md`, D116, proposed) | small | low: one more blog in ingest and derive |
+| **M53 vjeko.com blog source** | one `sources.yaml` entry for Vjekoslav Babić's blog, derived mode, RSS (`docs/specs/vjeko-com-blog-source.md`, D116, shipped 2026-10-25) | small | low: one more blog in ingest and derive |
 | **v0.2+** | evidence chips + review-badge UI, 30-vNext, older versions as diffs back to 23/15, Jarvis budget handshake (shared intent file), static embeddings (model2vec potion-8M), MAYBE blogs, yzhums opt-in if agreed | ongoing | per-version gating |
 
 ## 6. Verification

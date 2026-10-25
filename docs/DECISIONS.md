@@ -1294,3 +1294,8 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   (the site's About page; no MVP mention). Fetch is the RSS feed `https://sshadows.dk/rss.xml` (21 posts back to
   2018-06-04, 13 inside the 18-month window); not WordPress, so no REST fetch. Rejected: full text without the author's
   opt-in; a scrape fetch. Spec `docs/specs/sshadows-dk-blog-source.md`.
+- **D116 vjeko.com is a community blog source (2026-10-25, M53).** Issue #48, at the owner's request. `vjeko-com` in
+  `sources.yaml`, kind blog, tier community, derived mode: no consent block, `full_text: false`. Author Vjekoslav Babić,
+  MVP (the About page: "Microsoft MVP since 2010"). Fetch is the RSS feed `https://vjeko.com/rss.xml` (30 posts back to
+  2021-09-15, 22 inside the 18-month window); no WordPress API. Rejected: full text without the author's opt-in; a
+  scrape fetch. Spec `docs/specs/vjeko-com-blog-source.md`.

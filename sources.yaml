@@ -370,6 +370,12 @@ sources:
     url: https://sshadows.dk
     author: { name: Torben Leth }
     fetch: { feed: https://sshadows.dk/rss.xml }
+  - id: vjeko-com
+    kind: blog
+    name: Vjeko.com
+    url: https://vjeko.com
+    author: { name: Vjekoslav Babić, mvp: true }
+    fetch: { feed: https://vjeko.com/rss.xml }
 
   # Held back until the author agrees (PLAN "yzhums opt-in if agreed"). enabled: false keeps it out of ingest entirely.
   # Derived mode (summary, quotes of at most 24 words, a link to each post) needs his yes: then set enabled: true.
