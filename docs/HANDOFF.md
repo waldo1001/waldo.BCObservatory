@@ -14,6 +14,9 @@ the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`
 whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
+- **vjeko.com blog source, D116** (`docs/specs/vjeko-com-blog-source.md`, M53, issue #48). Status: proposed
+  2026-10-25, nothing implemented. Start with task 1 (the `sources.yaml` entry). Until it lands, vjeko.com posts are
+  not in the Observatory.
 - **Layered answers, D106** (`docs/specs/layered-answers.md`, M44, issue #26). Status: built 2026-10-23 on stacked
   branches `build/layered-answers` and `-p1` to `-p6`, one PR per phase (#27 docs, #28 cross-links, #29 key facts, #30
   cautions, then hotfix lists, brief and search, never-less); merge in order. Not done until the first nightly ran:
