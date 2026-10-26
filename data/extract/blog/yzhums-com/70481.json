@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/yzhums-com/70481",
+  "url": "https://yzhums.com/70481/",
+  "title": "Dynamics 365 Business Central: How to convert Month Name (Text) to Month Number (Integer)",
+  "source": "yzhums-com",
+  "published_at": "2026-02-10T00:50:17.000Z",
+  "words": 162,
+  "summary": "Converting a month name text value to its corresponding month number integer is possible using the GetLocalizedMonthToInt method from the standard Type Helper codeunit. This functionality is useful when you need to transform text representations of months like 'January' into numeric values like 1.",
+  "key_points": [
+    "Type Helper codeunit provides the built-in GetLocalizedMonthToInt procedure for this conversion",
+    "The method accepts a text parameter containing the month name and returns an integer",
+    "This is a simple, standard approach that requires minimal code implementation",
+    "Useful for scenarios requiring numeric month values from textual inputs"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "month conversion",
+    "date handling",
+    "type helper",
+    "codeunit",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Type Helper"
+    }
+  ],
+  "features": [
+    "GetLocalizedMonthToInt method",
+    "month name to number conversion",
+    "localized month handling"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "a standard method already exists for this. codeunit 10 \"Type Helper\" -> procedure GetLocalizedMonthToInt",
+      "why_it_matters": "It identifies the exact built-in method and location for solving the month conversion problem without custom development."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

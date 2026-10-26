@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/70325",
+  "url": "https://yzhums.com/70325/",
+  "title": "Dynamics 365 Business Central: How to split a string on a fixed character (delimiter or separator) via AL",
+  "source": "yzhums-com",
+  "published_at": "2026-01-30T00:55:40.000Z",
+  "words": 288,
+  "summary": "String splitting in AL using the Text.Split method to parse delimited data like QR codes into separate values. This approach uses lists to store extracted substrings and retrieve them by index.",
+  "key_points": [
+    "Text.Split method breaks a string into substrings based on specified separators like commas",
+    "List data type stores split values as an ordered, unbounded collection accessible by index",
+    "Clean data is required as embedded delimiters in master data will cause incorrect extraction",
+    "Useful for parsing concatenated external data such as QR codes containing multiple fields"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "string handling",
+    "al development",
+    "data parsing",
+    "qr codes",
+    "list data type"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Text.Split"
+    }
+  ],
+  "features": [
+    "string splitting",
+    "text parsing",
+    "list operations",
+    "delimiter handling"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Text.Split(List of [Text]) Method: Splits a string into a maximum number of substrings based on a collection of separators.",
+      "why_it_matters": "This is the core method for splitting delimited strings in AL, the key tool for solving the problem."
+    },
+    {
+      "text": "List data type: Represents a strongly typed list of ordered objects that can be accessed by index.",
+      "why_it_matters": "Lists provide the mechanism to store and access individual split values, making the solution practical."
+    },
+    {
+      "text": "if the master data contains delimiters, it won't be able to retrieve the correct values.",
+      "why_it_matters": "Highlights a critical limitation that affects implementation success and data quality requirements."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

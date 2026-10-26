@@ -1,0 +1,99 @@
+{
+  "item_id": "blog/yzhums-com/69120",
+  "url": "https://yzhums.com/69120/",
+  "title": "Business Central 2025 wave 2 (BC27): Install UK localization as an extension to the base app (UK Delocalization)",
+  "source": "yzhums-com",
+  "published_at": "2026-01-28T00:32:09.000Z",
+  "words": 533,
+  "summary": "UK localization for Business Central 2025 wave 2 (BC27) is now available as extensions on the W1 base app instead of being built into the core product. This delocalization approach reduces implementation costs, simplifies multi-region operations, and allows ISVs broader market access.",
+  "key_points": [
+    "UK localization features are delivered as a set of extensions on the W1 base app starting in BC27",
+    "Delocalization reduces implementation time and costs, particularly for organizations operating in multiple regions",
+    "Includes a data upgrade feature to simplify transition from the previous localized version",
+    "Users can choose to adopt new features during a three-release period before old features are deprecated",
+    "Extensions cover VAT and tax, banking and payments, fixed assets, and general UK-specific functionality"
+  ],
+  "systems": [
+    "localization",
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "uk localization",
+    "delocalization",
+    "extensions",
+    "appsource",
+    "multi-region operations",
+    "base app",
+    "vat and tax"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Making Tax Digital Localization for United Kingdom"
+    },
+    {
+      "type": "other",
+      "name": "VAT Audit Reports GB"
+    },
+    {
+      "type": "other",
+      "name": "Reverse Charge VAT GB"
+    },
+    {
+      "type": "other",
+      "name": "Reports GB"
+    },
+    {
+      "type": "other",
+      "name": "Posting Date Check On Posting"
+    },
+    {
+      "type": "other",
+      "name": "GetAddress.io UK Postcodes"
+    },
+    {
+      "type": "other",
+      "name": "GovTalk"
+    },
+    {
+      "type": "other",
+      "name": "GovTalk Demo Data"
+    }
+  ],
+  "features": [
+    "UK localization as extensions",
+    "Making Tax Digital VAT Returns submission",
+    "VAT Group Management",
+    "Reverse Charges on VAT",
+    "Fixed Assets straight line depreciation",
+    "Posting Date Warning",
+    "UK Postcodes lookup",
+    "Data upgrade"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2",
+    "BC28",
+    "2026 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Removing country-based customizations from the base app helps organizations save time and reduce costs during implementation.",
+      "why_it_matters": "Explains the core business value of delocalization for cost and time efficiency"
+    },
+    {
+      "text": "After this period, the previous features will be deprecated, and the new localization will automatically be enabled.",
+      "why_it_matters": "Indicates the transition timeline and mandatory adoption plan for the new extension-based model"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

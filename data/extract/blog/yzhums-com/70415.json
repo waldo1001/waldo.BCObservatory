@@ -1,0 +1,89 @@
+{
+  "item_id": "blog/yzhums-com/70415",
+  "url": "https://yzhums.com/70415/",
+  "title": "Dynamics 365 Business Central: How to run a Report in Preview Mode without the Request Page (Hide Request Page)",
+  "source": "yzhums-com",
+  "published_at": "2026-02-05T02:01:12.000Z",
+  "words": 742,
+  "summary": "This post explains how to preview a Business Central report without showing the request page. It describes bypassing the request page using UseRequestPage or Report.Run methods, then demonstrates a preferred approach for BC26 that saves reports as PDF and displays them directly in the web client.",
+  "key_points": [
+    "UseRequestPage(false) and Report.Run with RequestWindow=false bypass the request page but disable preview/print options and download the file instead",
+    "Business Central 2025 Wave 1 (BC26) enables direct PDF preview in the web client, providing a better user experience",
+    "Two practical approaches are provided: using Report Selections for standard reports and direct SaveAs method for fixed reports",
+    "Reports can be saved as PDF using SaveReportAsPDFInTempBlob or SaveAs methods, then displayed with File.ViewFromStream"
+  ],
+  "systems": [
+    "reporting",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "reports",
+    "request page",
+    "preview",
+    "pdf",
+    "page extension",
+    "bc26"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Standard Sales - Invoice"
+    },
+    {
+      "type": "report",
+      "name": "Lot No Label"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Lot No. Information List"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "table",
+      "name": "Report Selections"
+    },
+    {
+      "type": "table",
+      "name": "Lot No. Information"
+    }
+  ],
+  "features": [
+    "Request Page Bypass",
+    "PDF Preview in Web Client",
+    "Report Selections",
+    "SaveReportAsPDFInTempBlob",
+    "File.ViewFromStream",
+    "Page Extensions"
+  ],
+  "versions": [
+    "BC26",
+    "Business Central 2025 Wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "However, doing so disables the preview and print options, causing the file to be downloaded directly.",
+      "why_it_matters": "Explains the limitation of traditional methods for bypassing the request page, motivating the need for an alternative approach"
+    },
+    {
+      "text": "With this feature, you can open PDF attachments directly in the Business Central web client without downloading them first.",
+      "why_it_matters": "Describes the BC26 capability that enables the improved solution for previewing reports without request pages"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

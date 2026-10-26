@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/70491",
+  "url": "https://yzhums.com/70491/",
+  "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (February, 2026)",
+  "source": "yzhums-com",
+  "published_at": "2026-02-07T01:27:15.000Z",
+  "words": 800,
+  "summary": "Microsoft Dynamics 365 Business Central February 2026 cumulative updates are available for versions BC27, BC26, BC25, and BC24, with specific platform and application build numbers for cloud and on-premises deployments. New customers automatically receive BC27.4, while existing customers get email notifications for available updates; BC25 introduces more flexible environment update management with extended major update windows and optional minor updates.",
+  "key_points": [
+    "BC27.4 CU04 released for cloud (SaaS) with platform 27.0.45543.0 and application 27.4.45366.45675",
+    "On-premises BC27.4 update available with platform 27.0.45396.0 and application 27.4.45366.45458",
+    "BC25 (2024 wave 2) changes major update window from 30-60 days to 5 months and makes minor updates optional",
+    "Multiple versions supported with clear lifecycle dates: BC27 (Oct 2025-Apr 2027), BC26 (Apr 2025-Oct 2026), BC25 (Oct 2024-Apr 2026), BC24 end-of-life",
+    "Resources available including release plan, partner deck, YouTube videos, Yammer feedback group, and Ask Us Anything Office Hours"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "cumulative updates",
+    "release management",
+    "cloud saas",
+    "on-premises",
+    "version lifecycle",
+    "environment updates",
+    "platform builds"
+  ],
+  "objects": [],
+  "features": [
+    "Managing Production and Sandbox Environments in Admin Center",
+    "Flexible environment update management",
+    "Optional minor updates",
+    "Extended major update windows"
+  ],
+  "versions": [
+    "BC27.4",
+    "BC26.10",
+    "BC25.16",
+    "BC24.18",
+    "2025 release wave 2",
+    "2025 release wave 1",
+    "2024 release wave 2",
+    "2024 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Managing Production and Sandbox Environments in the Admin Center",
+      "why_it_matters": "Highlights the main new capability in BC27.4 for cloud deployments that helps administrators control their environments more effectively"
+    },
+    {
+      "text": "Major update: 30(60) days -> 5-month and Optional minor updates",
+      "why_it_matters": "Key change in BC25 that gives existing customers significantly more flexibility in managing when they apply updates to their environments"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/yzhums-com/48974",
+  "url": "https://yzhums.com/48974/",
+  "title": "Dynamics 365 Business Central: How to use the OData V4 IN operator in web service queries",
+  "source": "yzhums-com",
+  "published_at": "2026-02-04T00:30:48.000Z",
+  "words": 350,
+  "summary": "The OData V4 IN operator simplifies web service queries in Business Central 2024 wave 1 by allowing developers to filter multiple values with a single operator instead of chaining OR conditions. The feature requires schema version 2.1 to work properly.",
+  "key_points": [
+    "OData IN operator lets developers replace multiple OR conditions with a single IN filter expression",
+    "Feature was introduced in Business Central 2024 wave 1",
+    "The schemaversion parameter must be set to 2.1 for the IN operator to function",
+    "Simplifies integration development by reducing query complexity"
+  ],
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "odata",
+    "web services",
+    "api queries",
+    "filtering"
+  ],
+  "objects": [],
+  "features": [
+    "OData V4 IN operator"
+  ],
+  "versions": [
+    "2024 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With this release, the developer can use the OData IN operator and write $filter=CustomerNo IN ('10000','20000','30000').",
+      "why_it_matters": "Demonstrates the simplified syntax the IN operator provides compared to OR chains"
+    },
+    {
+      "text": "This only works in $schemaversion=2.1.",
+      "why_it_matters": "Critical requirement that explains why the IN operator fails without the proper schema version parameter"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

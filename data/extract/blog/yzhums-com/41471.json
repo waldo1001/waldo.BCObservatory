@@ -1,0 +1,79 @@
+{
+  "item_id": "blog/yzhums-com/41471",
+  "url": "https://yzhums.com/41471/",
+  "title": "Dynamics 365 Business Central: How to check whether the current page/report is standard or customized",
+  "source": "yzhums-com",
+  "published_at": "2026-01-27T02:05:15.000Z",
+  "words": 1130,
+  "summary": "This post explains how to determine whether a Business Central page or report is standard or customized using object ID ranges, page inspection, and performance profiler tools. It helps developers and partners quickly identify whether functionality has been extended or modified.",
+  "key_points": [
+    "Business Central objects are categorized by ID ranges: 0-49,999 (standard), 50,000-99,999 (customizations), 100,000-999,999 (localizations), 1,000,000+ (partner apps)",
+    "Page Inspection tool (Ctrl+Alt+F1) displays object IDs and shows extensions that affect pages through the Extensions tab, distinguishing between adds and extends operations",
+    "Performance Profiler in BC20+ and in-client profiler allow tracking active apps and execution flow to identify custom logic involvement during operations",
+    "Error details and AL call stacks reveal customized objects when errors occur, showing which extensions are involved in the execution"
+  ],
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "page inspection",
+    "customization detection",
+    "object ranges",
+    "extensions",
+    "performance profiler",
+    "al language"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Item Jnl.-Post Line"
+    },
+    {
+      "type": "codeunit",
+      "name": "Item Jnl.-Post Batch"
+    },
+    {
+      "type": "codeunit",
+      "name": "Item Jnl.-Post"
+    },
+    {
+      "type": "page",
+      "name": "Item Journal"
+    },
+    {
+      "type": "codeunit",
+      "name": "ExtDocNoHandler"
+    }
+  ],
+  "features": [
+    "Page Inspection",
+    "Performance Profiler",
+    "In-client Performance Profiler",
+    "AL Performance Snapshot Debugger",
+    "Error Details View",
+    "SessionInformation Data Type"
+  ],
+  "versions": [
+    "BC19",
+    "BC20",
+    "BC26",
+    "BC27"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The extension model is object-based; you create new objects, and extend existing objects depending on what you want your extension to do.",
+      "why_it_matters": "Explains the fundamental architecture behind identifying whether pages are standard or customized"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

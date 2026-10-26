@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/70273",
+  "url": "https://yzhums.com/70273/",
+  "title": "Dynamics 365 Business Central: Control over adjustment of one item (Adjust Inventory)",
+  "source": "yzhums-com",
+  "published_at": "2026-01-29T01:24:57.000Z",
+  "words": 288,
+  "summary": "The Adjust Inventory function in Business Central allows quick inventory level changes for individual items. Organizations can control access through the Allow Inventory Adjustment setting on the Inventory Setup page or by restricting permissions via permission sets.",
+  "key_points": [
+    "Adjust Inventory is a quick way to increase or decrease stock for one item from the item list or card",
+    "The feature can be disabled globally via the Allow Inventory Adjustment toggle on Inventory Setup",
+    "Permission sets can restrict access to the Adjust Inventory dialog for security control",
+    "When disabled, users cannot see the Adjust Inventory action on pages"
+  ],
+  "systems": [
+    "inventory"
+  ],
+  "topics": [
+    "adjust inventory",
+    "inventory control",
+    "item management",
+    "permissions",
+    "access control",
+    "inventory setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Adjust Inventory"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
+  "features": [
+    "Adjust Inventory",
+    "Allow Inventory Adjustment setting",
+    "Permission Sets",
+    "Inventory level management"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "you can enable or disable the Allow Inventory Adjustment feature directly on the Inventory Setup page",
+      "why_it_matters": "Shows how to control access to the adjustment feature at the system level"
+    },
+    {
+      "text": "When disabled, users will not be able to see the Adjust Inventory action on the page",
+      "why_it_matters": "Clarifies the practical impact of disabling the feature on user interface"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

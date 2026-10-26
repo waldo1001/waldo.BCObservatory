@@ -1,0 +1,90 @@
+{
+  "item_id": "blog/yzhums-com/70369",
+  "url": "https://yzhums.com/70369/",
+  "title": "Dynamics 365 Business Central: Does the API support Multi-level Expand (Multi layers)",
+  "source": "yzhums-com",
+  "published_at": "2026-02-03T02:18:35.000Z",
+  "words": 337,
+  "summary": "The Business Central REST API supports multi-level expand (nested data retrieval) using nested parentheses in $expand syntax, allowing you to retrieve related resources across multiple layers, and also supports combining multi-level expands with filters and field selection.",
+  "key_points": [
+    "Multi-level expand uses nested parentheses syntax like $expand=salesOrderLines($expand=item($expand=itemCategory))",
+    "You can expand multiple entities simultaneously and combine two-level expands with multi-level nested expands in a single query",
+    "Filter expressions and $select clauses can be added at each expansion level to retrieve only necessary fields",
+    "Each additional level of nesting requires an extra set of parentheses in the query structure"
+  ],
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "api",
+    "rest",
+    "expand",
+    "multi-level",
+    "nested data",
+    "resource navigation"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "salesOrder"
+    },
+    {
+      "type": "other",
+      "name": "salesOrderLines"
+    },
+    {
+      "type": "other",
+      "name": "customer"
+    },
+    {
+      "type": "other",
+      "name": "item"
+    },
+    {
+      "type": "other",
+      "name": "itemCategory"
+    },
+    {
+      "type": "other",
+      "name": "paymentTerm"
+    },
+    {
+      "type": "other",
+      "name": "account"
+    }
+  ],
+  "features": [
+    "multi-level expand",
+    "nested expand",
+    "resource navigation",
+    "filter expressions",
+    "field selection",
+    "API query syntax"
+  ],
+  "versions": [
+    "v2.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "each additional level of expansion requires an extra set of parentheses: $expand=salesOrderLines($expand=item($expand=itemCategory))",
+      "why_it_matters": "This clearly explains the syntax pattern for multi-level expand queries, essential for developers constructing nested API calls"
+    },
+    {
+      "text": "You can also expand multiple entities simultaneously, such as combining a two-level expand with a multi-level (three-level) nested expand.",
+      "why_it_matters": "Clarifies that developers can mix multiple expansion paths in a single query for efficient data retrieval"
+    },
+    {
+      "text": "you can also include a $select clause at each level to retrieve only the necessary fields",
+      "why_it_matters": "Shows that optimization is possible by limiting returned fields at each nesting level, reducing payload size"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

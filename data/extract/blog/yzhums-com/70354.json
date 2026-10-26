@@ -1,0 +1,75 @@
+{
+  "item_id": "blog/yzhums-com/70354",
+  "url": "https://yzhums.com/70354/",
+  "title": "Dynamics 365 Business Central Blog Series: Report Extension Examples & Use Cases",
+  "source": "yzhums-com",
+  "published_at": "2026-02-02T00:25:17.000Z",
+  "words": 1159,
+  "summary": "This blog series covers multiple articles on extending and customizing reports in Dynamics 365 Business Central, including report extension objects, adding media and comments, PDF password protection, modifying sorting and filters, and managing report layouts and exports.",
+  "key_points": [
+    "Report extensibility via ReportExtension object allows adding columns and fields to standard reports",
+    "Reports can be customized with media, comments, notes, signatures, and regional settings",
+    "PDF password protection and custom filenames for exports can be configured without control add-ins",
+    "Report layouts and request pages can be modified to change sorting, filters, and disable print/preview options",
+    "Custom columns added via extension may not appear in exported layouts from the Report Layouts page"
+  ],
+  "systems": [
+    "reporting",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "report extension",
+    "report customization",
+    "report layouts",
+    "report export",
+    "pdf protection",
+    "request page",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Sales – Order Conf. (1305)"
+    },
+    {
+      "type": "report",
+      "name": "Pro Forma Invoice"
+    },
+    {
+      "type": "other",
+      "name": "ReportExtension Object"
+    }
+  ],
+  "features": [
+    "Report extensibility",
+    "Media and MediaSet data types",
+    "Comment display in reports",
+    "PDF password protection",
+    "Custom report filenames",
+    "Report.TargetFormat method",
+    "Regional settings per report",
+    "Report layout substitution"
+  ],
+  "versions": [
+    "BC18",
+    "BC22",
+    "BC25",
+    "BC26"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Custom columns/fields added via Report Extension not found in standard layouts exported from Report Layouts page",
+      "why_it_matters": "Developers need to understand that extension-added fields behave differently in exported layouts, affecting customization strategies"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

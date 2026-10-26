@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/yzhums-com/70117",
+  "url": "https://yzhums.com/70117/",
+  "title": "Dynamics 365 Business Central Blog Series: Date and time handling",
+  "source": "yzhums-com",
+  "published_at": "2026-01-26T00:29:38.000Z",
+  "words": 1806,
+  "summary": "This blog series covers date, time, and datetime handling in Business Central AL development, including functions for calculating special dates, type conversions, working with durations, timezone handling, and new methods in recent releases.",
+  "key_points": [
+    "AL provides functions to retrieve special dates like today, yesterday, tomorrow, and first/last days of periods",
+    "Date, time, and datetime types can be converted between each other and to text using various methods",
+    "Duration data type can be manipulated and formatted for different output requirements",
+    "Timezone conversions between UTC and local time require specific AL functions to handle correctly",
+    "Recent releases (BC25, BC26, BC27) introduced new date/time methods and features like week numbers in date picker"
+  ],
+  "systems": [
+    "development",
+    "administration",
+    "finance"
+  ],
+  "topics": [
+    "date functions",
+    "time handling",
+    "datetime conversion",
+    "al development",
+    "timezone",
+    "duration",
+    "type conversion"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Date virtual table"
+    },
+    {
+      "type": "other",
+      "name": "DateTime"
+    },
+    {
+      "type": "other",
+      "name": "Duration"
+    }
+  ],
+  "features": [
+    "Date and time functions",
+    "DateTime conversion",
+    "Duration data type",
+    "Date-Time dialog",
+    "Date formula testing",
+    "Week numbers in date picker",
+    "ToText method",
+    "Timezone offset handling"
+  ],
+  "versions": [
+    "BC23",
+    "BC24",
+    "BC25",
+    "BC26",
+    "BC27"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
