@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/yzhums-com/64874",
+  "url": "https://yzhums.com/64874/",
+  "title": "Dynamics 365 Business Central: Copy Sales and Purchase Line Descriptions (Type G/L Account) to G/L Entries",
+  "source": "yzhums-com",
+  "published_at": "2025-07-03T00:50:35.000Z",
+  "words": 319,
+  "summary": "Business Central can copy G/L Account line descriptions from sales and purchase documents to their resulting general ledger entries when posting. Enable the 'Copy Line Description to G/L Entry' checkbox in Sales & Receivables Setup or Purchases & Payables Setup to include line descriptions in G/L entries for auditing and reconciliation purposes.",
+  "key_points": [
+    "G/L Account line descriptions from sales and purchase documents are not copied to G/L entries by default",
+    "Enable the 'Copy Line Description to G/L Entry' setting in Sales & Receivables Setup or Purchases & Payables Setup",
+    "This feature helps with reconciling and auditing expenses by showing source document descriptions in general ledger",
+    "The same functionality is available for service documents via Service Management Setup"
+  ],
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "general ledger",
+    "posting",
+    "line descriptions",
+    "g/l entries",
+    "document handling"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "table",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "table",
+      "name": "Service Management Setup"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entries"
+    }
+  ],
+  "features": [
+    "Copy Line Description to G/L Entry",
+    "General journal posting",
+    "Sales document posting",
+    "Purchase document posting",
+    "G/L account line descriptions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "When we post G/L Account in Sales Document or Purchase Document, line descriptions will not be copied to G/L Entries.",
+      "why_it_matters": "Explains the default behavior that users need to understand before enabling the feature"
+    },
+    {
+      "text": "When reconciling or auditing data, such as expenses, it is useful to see the source document line description in the general ledger entries.",
+      "why_it_matters": "Clarifies the business value and use case for this functionality"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

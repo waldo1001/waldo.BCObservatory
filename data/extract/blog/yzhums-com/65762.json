@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/yzhums-com/65762",
+  "url": "https://yzhums.com/65762/",
+  "title": "Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL",
+  "source": "yzhums-com",
+  "published_at": "2025-07-15T01:15:11.000Z",
+  "words": 431,
+  "summary": "This post explains how to use the Record.WritePermission() method in AL to check whether a user has write permissions (Insert, Delete, Modify) for a table before executing operations, allowing developers to perform alternative actions based on permission levels instead of triggering errors.",
+  "key_points": [
+    "WritePermission() method checks if a user can write to a table, including full and partial write permissions with security filters",
+    "Without Insert permission, New actions are grayed out; without Modify permission, card pages open in View mode only",
+    "Developers can use WritePermission() to perform different operations conditionally based on user permissions",
+    "Example uses WritePermission() to open Vendor Card for users with write access, Customer Card for others"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "permissions",
+    "al development",
+    "security",
+    "user access control"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Item From Picture"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Item List"
+    }
+  ],
+  "features": [
+    "WritePermission method",
+    "permission checking",
+    "security filters",
+    "conditional page navigation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Record.WritePermission() Method: Determines whether a user can write to a table.",
+      "why_it_matters": "This is the core method that enables developers to check write permissions before executing operations"
+    },
+    {
+      "text": "A write permission consists of Insert, Delete, and Modify permissions.",
+      "why_it_matters": "Clarifies what constitutes write permission, helping developers understand the scope of the check"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

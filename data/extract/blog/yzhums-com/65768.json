@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/yzhums-com/65768",
+  "url": "https://yzhums.com/65768/",
+  "title": "Dynamics 365 Business Central: A simple Date Formula testing tool",
+  "source": "yzhums-com",
+  "published_at": "2025-07-14T00:56:41.000Z",
+  "words": 738,
+  "summary": "A Date Formula testing tool for Dynamics 365 Business Central helps developers and non-developers test and validate date calculations before using them in code. The post explains date formula syntax, provides complex payment due date calculation examples, and shares sample AL code for a simple testing page.",
+  "key_points": [
+    "Date formulas use letters (C, D, W, M, Q, Y) to represent calendar units and can be combined with numbers (e.g., CM+10D means current month plus 10 days)",
+    "Complex due date scenarios require careful formula construction, such as D6+CM for cut-off dates or D6+2M+CM for payments multiple months ahead",
+    "A simple card page with InputDate, DateFormula, and ResultDate fields allows users to test formulas without writing code",
+    "The CalcDate function applies the formula to a given date and returns the calculated result"
+  ],
+  "systems": [
+    "finance",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "date formulas",
+    "date calculations",
+    "due dates",
+    "payment terms",
+    "testing tools",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Date Formula Test Tool"
+    }
+  ],
+  "features": [
+    "date formula syntax",
+    "CalcDate function",
+    "complex date calculations",
+    "payment due date automation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Even experienced developers need to confirm or do a simple calculation to ensure that there is no problem with the date.",
+      "why_it_matters": "This justifies the need for a testing tool to validate complex date formulas before deployment to avoid payment or financial processing errors."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

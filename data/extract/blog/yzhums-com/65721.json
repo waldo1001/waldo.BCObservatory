@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/65721",
+  "url": "https://yzhums.com/65721/",
+  "title": "Business Central 2025 wave 1 (BC26.3): Automate payables processes with the Payables Agent",
+  "source": "yzhums-com",
+  "published_at": "2025-07-08T00:54:23.000Z",
+  "words": 504,
+  "summary": "The Payables Agent in Business Central 2025 wave 1 automates accounts payable tasks by extracting vendor invoices from email and SharePoint, creating purchase invoice drafts for review, and using purchase history to auto-fill document details. This feature reduces manual data entry and errors while freeing AP professionals for higher-value work.",
+  "key_points": [
+    "Payables Agent sources vendor invoice attachments (PDF) from Microsoft 365 email and SharePoint, then imports them into E-Documents",
+    "The agent creates purchase invoice document drafts using past purchase history and company accounting policies for auto-population",
+    "Setup involves activating the agent, configuring email accounts, and choosing which invoice fields should be auto-filled",
+    "Feature is available in BC26.3 but currently limited to United States and United Kingdom regions"
+  ],
+  "systems": [
+    "copilot",
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "payables agent",
+    "accounts payable",
+    "automation",
+    "ai",
+    "invoice processing",
+    "e-documents"
+  ],
+  "objects": [],
+  "features": [
+    "Payables Agent",
+    "vendor invoice automation",
+    "e-documents integration",
+    "email attachment processing",
+    "SharePoint integration",
+    "purchase invoice creation",
+    "field auto-population"
+  ],
+  "versions": [
+    "BC26",
+    "BC26.3",
+    "2025 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The agent sources vendor invoice attachments from email and SharePoint, and creates purchase invoice documents in Business Central for review.",
+      "why_it_matters": "Describes the core functionality of how the agent processes invoices"
+    },
+    {
+      "text": "In the first version, the Payables Agent can source purchase attachments (PDF files) from a Microsoft 365 email account where vendors send their invoices.",
+      "why_it_matters": "Clarifies the specific technical capability and supported file format in the initial release"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

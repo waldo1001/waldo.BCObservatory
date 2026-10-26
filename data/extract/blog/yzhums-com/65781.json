@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/65781",
+  "url": "https://yzhums.com/65781/",
+  "title": "Business Central 2025 wave 1 (BC26.3): Chat with Copilot to learn how to use installed add-on apps",
+  "source": "yzhums-com",
+  "published_at": "2025-07-10T02:41:11.000Z",
+  "words": 955,
+  "summary": "Business Central 2025 wave 1 update 26.3 enhances Copilot chat to explain and guide users through installed add-on apps, using online documentation from app publishers to answer questions about custom pages, fields, and business processes.",
+  "key_points": [
+    "Copilot can now answer questions about ISV add-on apps installed in Business Central, transforming it from a data librarian into an expert on your unique configuration",
+    "Administrators can enable Bing Search to enhance Copilot with web content, though data processing moves outside geographic and compliance boundaries",
+    "The Ask Copilot icon appears in tooltips for custom fields from installed apps, and Copilot provides field explanations with links to referenced documentation",
+    "Feature is available as a preview in sandbox environments only and currently supports English only",
+    "Copilot's quality depends on app publishers' documentation and caption clarity; Microsoft recommends improving captions, tooltips, and online help for better AI output"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "copilot",
+    "ai-assistance",
+    "add-on apps",
+    "isv",
+    "chat",
+    "documentation",
+    "user guidance"
+  ],
+  "objects": [],
+  "features": [
+    "Chat with Copilot for add-on apps",
+    "Copilot field explanations",
+    "Bing Search integration",
+    "Ask Copilot in tooltips",
+    "Add-on app guidance",
+    "Data search and analysis",
+    "Custom field documentation"
+  ],
+  "versions": [
+    "BC26.3",
+    "2025 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Copilot explains and guides based on online documentation provided by the apps installed in your Business Central environment.",
+      "why_it_matters": "This clarifies that Copilot relies on app publishers' documentation quality, which is critical for understanding limitations and best practices for implementation"
+    },
+    {
+      "text": "These enhancements are currently available in sandbox environments only.",
+      "why_it_matters": "This is an important limitation - organizations cannot use this feature in production yet, so planning must account for this being preview functionality"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

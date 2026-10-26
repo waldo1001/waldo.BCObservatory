@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/65708",
+  "url": "https://yzhums.com/65708/",
+  "title": "Dynamics 365 Business Central: How to prevent users from adding fields/columns from related tables in analysis mode (Disable/Enable Add Related Fields)",
+  "source": "yzhums-com",
+  "published_at": "2025-07-16T00:47:49.000Z",
+  "words": 391,
+  "summary": "Managing permissions for the add related fields feature in analysis mode released in BC 26.2. Administrators can disable this feature globally via Feature Management or control it per user using the Add Fields in Analysis Mode permission.",
+  "key_points": [
+    "Analysis mode allows users to add fields from related tables for advanced data analysis without customization",
+    "The feature is controlled by the 'Add fields from related tables in analysis mode' feature key and becomes default in version 27.0",
+    "New system permission object 9041 'Add Fields in Analysis Mode' lets admins restrict feature access by user or permission set",
+    "Admins can exclude this permission from permission sets to prevent specific users from adding related fields"
+  ],
+  "systems": [
+    "reporting"
+  ],
+  "topics": [
+    "analysis mode",
+    "permissions",
+    "feature management",
+    "related fields",
+    "data analysis"
+  ],
+  "objects": [
+    {
+      "type": "permissionset",
+      "name": "Add Related Fields permission set"
+    },
+    {
+      "type": "other",
+      "name": "System object 9041 Add Fields in Analysis Mode"
+    }
+  ],
+  "features": [
+    "Add fields from related tables in analysis mode",
+    "Analysis mode",
+    "Feature Management",
+    "Permission exclusion"
+  ],
+  "versions": [
+    "BC 26.2",
+    "Business Central 2025 wave 1",
+    "version 27.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Analysis mode is a powerful experience that lets you create and analyze data views easily.",
+      "why_it_matters": "Sets context for why controlling access to this feature is important for organizations"
+    },
+    {
+      "text": "We can use this to control permissions.",
+      "why_it_matters": "Explains that the new permission object 9041 is the mechanism for restricting access per user"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

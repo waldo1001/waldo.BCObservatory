@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/65578",
+  "url": "https://yzhums.com/65578/",
+  "title": "Dynamics 365 Business Central: How to quickly remove white-space characters from the current Text/String (leading, trailing and all) in AL",
+  "source": "yzhums-com",
+  "published_at": "2025-07-04T01:34:15.000Z",
+  "words": 515,
+  "summary": "This post explains four methods to remove whitespace characters from text strings in AL: TrimStart for leading spaces, TrimEnd for trailing spaces, Trim for both leading and trailing, and DelChr for all whitespace. It includes working code examples showing each method in a test page.",
+  "key_points": [
+    "TrimStart() removes only leading whitespace characters",
+    "TrimEnd() removes only trailing whitespace characters",
+    "Trim() removes both leading and trailing whitespace in one call",
+    "DelChr() can remove all whitespace characters from anywhere in the string",
+    "Each method has specific use cases depending on which whitespace needs to be removed"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "text manipulation",
+    "string functions",
+    "whitespace handling"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Remove Spaces"
+    }
+  ],
+  "features": [
+    "TrimStart method",
+    "TrimEnd method",
+    "Trim method",
+    "DelChr method",
+    "text manipulation"
+  ],
+  "versions": [
+    "2023 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Removes all leading occurrences of a set of characters specified in an array from the current Text object.",
+      "why_it_matters": "Explains what TrimStart does, essential for understanding when to use this method"
+    },
+    {
+      "text": "Returns a new Text in which all leading and trailing white-space characters from the current Text object are removed.",
+      "why_it_matters": "Describes Trim's dual functionality, useful for the most common whitespace removal scenario"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

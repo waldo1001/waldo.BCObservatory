@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/65525",
+  "url": "https://yzhums.com/65525/",
+  "title": "Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL",
+  "source": "yzhums-com",
+  "published_at": "2025-07-02T00:49:06.000Z",
+  "words": 301,
+  "summary": "Validating URL security in Business Central AL code using the IsSecureHttpUrl method from codeunit 1299 Web Request Helper. This helps confirm whether external URLs are secure (HTTPS) before using them in customizations, APIs, or barcode generation services.",
+  "key_points": [
+    "Use codeunit 1299 Web Request Helper and its IsSecureHttpUrl procedure to validate URL security",
+    "The method checks both HTTPS compliance and URL validity, making it useful when calling external services",
+    "Can be implemented in table extensions like Customer to validate URLs before processing",
+    "HTTPS encryption is critical for protecting sensitive data transmission in external integrations"
+  ],
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "url validation",
+    "https security",
+    "external services",
+    "al coding",
+    "codeunit",
+    "api integration"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Web Request Helper"
+    }
+  ],
+  "features": [
+    "IsSecureHttpUrl procedure",
+    "URL validation",
+    "HTTPS checking",
+    "external API integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "In codeunit 1299 \"Web Request Helper\": procedure IsSecureHttpUrl(Url: Text)",
+      "why_it_matters": "Identifies the exact system method for validating URL security in AL code"
+    },
+    {
+      "text": "This method also checks if the URL is valid, so it is very helpful when calling external services or web pages in AL.",
+      "why_it_matters": "Demonstrates dual functionality: the method validates both security and URL validity for external integrations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

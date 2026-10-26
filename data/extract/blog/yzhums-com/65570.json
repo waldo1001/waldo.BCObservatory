@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/yzhums-com/65570",
+  "url": "https://yzhums.com/65570/",
+  "title": "Dynamics 365 Business Central Blog Series: Adding Barcodes",
+  "source": "yzhums-com",
+  "published_at": "2025-06-30T06:12:52.000Z",
+  "words": 506,
+  "summary": "This blog series covers barcode functionality in Dynamics 365 Business Central, including one-dimensional and two-dimensional barcode generation in reports, barcode scanning through AL code, printing barcodes from production orders, and integrating external barcode services with Swiss QR Code and QR code capabilities.",
+  "key_points": [
+    "Business Central supports both 1D and 2D barcodes (QR, Data Matrix, PDF417, Aztec, Maxi Code, Swiss QR) directly in reports without customization",
+    "Barcode scanning can be invoked programmatically from AL code to add Scan Barcode actions with continuous scanning capability",
+    "External APIs and services can generate specialized barcodes like colored QR codes, Telepen, and Swiss QR Codes",
+    "Barcode printing from production orders is available as a built-in feature without requiring customization",
+    "QR codes can embed page URLs, allowing users to link directly to Business Central records like customer cards"
+  ],
+  "systems": [
+    "reporting",
+    "manufacturing",
+    "development"
+  ],
+  "topics": [
+    "barcodes",
+    "2d barcodes",
+    "qr codes",
+    "barcode scanning",
+    "reports",
+    "swiss qr code",
+    "production orders",
+    "al development"
+  ],
+  "objects": [],
+  "features": [
+    "One-dimensional barcodes in reports",
+    "Two-dimensional barcodes (Aztec, Data Matrix, Maxi Code, PDF417, QR-Code)",
+    "Barcode scanning from AL",
+    "Swiss QR Code generation",
+    "External barcode services integration",
+    "Print barcodes from production orders",
+    "QR code page URL embedding"
+  ],
+  "versions": [
+    "BC18",
+    "BC19.1",
+    "BC23",
+    "BC26"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

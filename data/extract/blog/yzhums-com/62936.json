@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/62936",
+  "url": "https://yzhums.com/62936/",
+  "title": "Dynamics 365 Business Central: How to show more than 999+ in Cue on Role Centers (Show actual numbers instead of 999+)",
+  "source": "yzhums-com",
+  "published_at": "2025-07-09T01:02:26.000Z",
+  "words": 527,
+  "summary": "Cues on Business Central Role Centers display 999+ when values exceed 999 instead of showing actual numbers. This post explains a workaround by using a Decimal data type field instead of Integer, which displays the full value without the limit.",
+  "key_points": [
+    "Integer data type fields in Cues cap display at 999 and show 999+ for larger values",
+    "Decimal data type fields display actual amounts without this limitation",
+    "Implementation requires adding a Decimal variable to the page and assigning the FlowField value to it",
+    "The OnDrillDown trigger must be set to make the Cue interactive and clickable",
+    "DecimalPlaces property with 0:0 format prevents decimal point display while using Decimal type"
+  ],
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "cues",
+    "role centers",
+    "data display",
+    "page extension",
+    "visual representation"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Activities Cue"
+    },
+    {
+      "type": "page",
+      "name": "O365 Activities"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order List"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    }
+  ],
+  "features": [
+    "Cue display formatting",
+    "FlowField calculations",
+    "Page extensions",
+    "Drill-down functionality",
+    "Data type properties"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
