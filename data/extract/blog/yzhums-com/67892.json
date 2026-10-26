@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/67892",
+  "url": "https://yzhums.com/67892/",
+  "title": "Business Central 2025 wave 2 (BC27): Add data fields to report layouts using Word add-in (new data picker)",
+  "source": "yzhums-com",
+  "published_at": "2025-10-03T04:29:40.000Z",
+  "words": 555,
+  "summary": "Business Central 2025 wave 2 introduces a new data picker task pane in the Word add-in that simplifies adding data fields, repeaters, and items to report layouts through a tree structure interface instead of direct XML editing. This feature improves report creation productivity and reduces errors for layout authors.",
+  "key_points": [
+    "New task pane in Word add-in enables intuitive insertion of data items, repeaters, and fields with a collapsible tree view",
+    "Tooltips and metadata display help users navigate fields accurately and reduce errors during layout design",
+    "Updated report Word layout XML now includes 'Obsolete State' attribute for Report Column and DataItem elements",
+    "Data picker is available only in Word desktop version, not Word Online, due to missing features like content controls"
+  ],
+  "systems": [
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "report layout",
+    "word add-in",
+    "data picker",
+    "xml",
+    "business central 2025 wave 2",
+    "bc27"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Report Layouts page"
+    }
+  ],
+  "features": [
+    "Word add-in data picker task pane",
+    "tree structure view for data navigation",
+    "field tooltips and metadata",
+    "conditional visibility controls",
+    "custom XML mapping",
+    "automatic add-in updates"
+  ],
+  "versions": [
+    "2025 wave 2 (BC27)",
+    "2024 wave 2 (BC25)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The tree structure view allows users to easily navigate and manage data, captions, and metadata.",
+      "why_it_matters": "Explains how the new interface improves usability compared to direct XML editing for report creators"
+    },
+    {
+      "text": "The Word add-in task pane lets you insert data items, repeaters, and fields directly into your layout document.",
+      "why_it_matters": "Describes the core functionality that streamlines report layout creation workflows"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

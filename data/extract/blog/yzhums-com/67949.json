@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/67949",
+  "url": "https://yzhums.com/67949/",
+  "title": "Business Central 2025 wave 2 (BC27): Editable fields in page customizations",
+  "source": "yzhums-com",
+  "published_at": "2025-09-30T00:51:25.000Z",
+  "words": 407,
+  "summary": "Business Central 2025 wave 2 (BC27) introduces the ability to make page fields defined in page customizations editable, a capability previously unavailable. This requires the AllowInCustomizations property to be set to AsReadWrite on the source table field, and it applies only to fields declared in table extensions, not base table fields.",
+  "key_points": [
+    "Page customizations can now mark fields as editable instead of always being read-only, addressing a previous limitation",
+    "The AllowInCustomizations property must be explicitly set to AsReadWrite on source table fields to enable editing in customizations",
+    "This feature requires runtime version 16.0 or greater and applies only to fields in table extensions, not base table fields",
+    "Standard fields default to ToBeClassified, which prevents making them editable in customizations unless the property is modified"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "page customizations",
+    "editable fields",
+    "allownincustomizations property",
+    "bc27",
+    "table extensions",
+    "page extensions"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AL Language extension"
+    }
+  ],
+  "features": [
+    "Editable fields in page customizations",
+    "AllowInCustomizations property (AsReadWrite and AsReadOnly values)",
+    "Runtime version 16.0 support"
+  ],
+  "versions": [
+    "BC27",
+    "2025 release wave 2",
+    "BC26.5"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can now make page fields defined in page customizations editable. Previously, such fields were always read-only.",
+      "why_it_matters": "This addresses a key limitation in page customizations that previously restricted all customization fields to read-only status."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

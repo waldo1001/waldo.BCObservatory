@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/yzhums-com/67761",
+  "url": "https://yzhums.com/67761/",
+  "title": "Business Central 2025 wave 2 (BC27): ‘Concealed’ text field type for sensitive data (New field-level property: MaskType)",
+  "source": "yzhums-com",
+  "published_at": "2025-09-18T22:56:42.000Z",
+  "words": 499,
+  "summary": "Business Central 2025 wave 2 introduces the MaskType field-level property that allows developers to conceal sensitive text field values by default with a toggle to reveal them. This feature works for Code, Text, Decimal, and Integer fields on card and document pages, and supports both desktop and mobile clients.",
+  "key_points": [
+    "MaskType is a new enum property with values None (default) and Concealed that hides field values by default",
+    "Users can reveal hidden values through an eye button toggle until the page is refreshed",
+    "Only applicable to Code, Text, Decimal, and Integer field types on card or document pages, not repeaters or list pages",
+    "MaskType differs from ExtendedDataType Masked property which permanently displays dots and cannot be removed",
+    "Cannot be used together with ExtendedDataType Masked, and modifications to MaskType on standard fields may cause publishing errors"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "security",
+    "sensitive data",
+    "field masking",
+    "al language",
+    "bc27",
+    "2025 wave 2"
+  ],
+  "objects": [],
+  "features": [
+    "MaskType field property",
+    "Concealed field type",
+    "Toggle visibility toggle",
+    "Page inspection display"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Concealed: The client handles this as a concealed field.",
+      "why_it_matters": "Defines the Concealed enum value that activates the masking behavior"
+    },
+    {
+      "text": "List pages or grids do not support this, only document/card pages (not supported in repeaters)",
+      "why_it_matters": "Clarifies important scope limitations developers must understand when implementing MaskType"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

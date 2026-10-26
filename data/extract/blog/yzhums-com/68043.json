@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/yzhums-com/68043",
+  "url": "https://yzhums.com/68043/",
+  "title": "Business Central 2025 wave 2 (BC27): Autofill contact details with Copilot",
+  "source": "yzhums-com",
+  "published_at": "2025-10-02T01:48:06.000Z",
+  "words": 393,
+  "summary": "Business Central 2025 wave 2 introduces Copilot-powered autofill for contact details such as address, phone, email, and website. The feature searches the web using Bing to suggest field values, reducing data entry time and errors for all users.",
+  "key_points": [
+    "Copilot autofill now searches the web for customer and vendor contact information using Bing Search",
+    "Administrators must enable Bing Search on the Copilot & agent capabilities page to activate the feature",
+    "The feature builds on the wave 1 autofill capability and offers better reliability and support for 20 additional languages",
+    "Users can review and select suggested values before applying them to records"
+  ],
+  "systems": [
+    "copilot",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "copilot",
+    "autofill",
+    "contact details",
+    "web search",
+    "data entry",
+    "field suggestions"
+  ],
+  "objects": [],
+  "features": [
+    "Autofill contact details with Copilot",
+    "Web search integration with Bing",
+    "Automatic field value suggestions",
+    "Multi-language support"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Copilot now automatically searches the web for information and provides suggestions for customer or vendor contact details such as address, phone, email, and website.",
+      "why_it_matters": "Explains the core capability that eliminates manual lookup of publicly available contact information"
+    },
+    {
+      "text": "To enable Copilot to get information from the web, administrators must first Enable Bing Search on the Copilot & agent capabilities page.",
+      "why_it_matters": "Clarifies the setup requirement for using the feature in production environments"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

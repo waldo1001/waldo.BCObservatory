@@ -1,0 +1,78 @@
+{
+  "item_id": "blog/yzhums-com/68087",
+  "url": "https://yzhums.com/68087/",
+  "title": "Business Central 2025 wave 2 (BC27): New field “AL Namespace” has been added to object metadata record (AllObj, AllObjWithCaption, Page Metadata, Report Metadata, and Codeunit Metadata)",
+  "source": "yzhums-com",
+  "published_at": "2025-10-02T07:25:08.000Z",
+  "words": 768,
+  "summary": "Business Central 2025 wave 2 introduces a new AL Namespace field in object metadata tables (AllObj, AllObjWithCaption, Page Metadata, Report Metadata, and Codeunit Metadata), enabling developers to discover and filter namespace information that was previously unavailable in system tables.",
+  "key_points": [
+    "AL Namespace field added to five key metadata tables for storing namespace information",
+    "Namespaces help segment AL code and reduce naming conflicts, available since BC23 wave 2",
+    "Object metadata tables are used for object discovery, navigation, and administrative purposes",
+    "Previous versions could not export namespaces as the field was not stored in any table"
+  ],
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "al namespace",
+    "metadata tables",
+    "object discovery",
+    "naming conflicts",
+    "al language"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "AllObj"
+    },
+    {
+      "type": "table",
+      "name": "AllObjWithCaption"
+    },
+    {
+      "type": "table",
+      "name": "Page Metadata"
+    },
+    {
+      "type": "table",
+      "name": "Report Metadata"
+    },
+    {
+      "type": "table",
+      "name": "CodeUnit Metadata"
+    }
+  ],
+  "features": [
+    "AL Namespace field",
+    "object metadata records",
+    "namespace filtering",
+    "metadata discovery"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "As of now, we cannot export all namespaces because the namespace is not stored in any table.",
+      "why_it_matters": "Explains the problem this feature solves - namespaces were previously inaccessible from system tables"
+    },
+    {
+      "text": "A namespace ensures that all of a given set of objects have unique names so that they can be easily identified.",
+      "why_it_matters": "Clarifies the purpose of namespaces in managing object identification and reducing conflicts"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

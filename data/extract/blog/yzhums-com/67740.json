@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/yzhums-com/67740",
+  "url": "https://yzhums.com/67740/",
+  "title": "Business Central 2025 wave 2 (BC27): Use alternative posting groups for employees",
+  "source": "yzhums-com",
+  "published_at": "2025-09-18T01:07:33.000Z",
+  "words": 398,
+  "summary": "Business Central 2025 wave 2 introduces the ability to use alternative posting groups for employees, allowing users to post payable and receivable transactions to different general ledger accounts than those specified on the default employee posting group. This feature is controlled via the Allow Multiple Posting Groups toggle on the Human Resources Setup page and the Employee Card page.",
+  "key_points": [
+    "Users can now change the default employee posting group during journal or payment document posting by enabling Allow Multiple Posting Groups",
+    "Controllers define policies for posting transactions and accountants can select alternative posting groups when posting",
+    "Alternative posting groups can be specified on the Employee Posting Group page using the Alternative Groups action",
+    "The feature supports scenarios like routing employee travel expenses to different financial accounts than regular payroll"
+  ],
+  "systems": [
+    "hr",
+    "finance"
+  ],
+  "topics": [
+    "posting groups",
+    "human resources",
+    "general ledger",
+    "employee expenses",
+    "bc27",
+    "2025 wave 2"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Human Resources Setup"
+    },
+    {
+      "type": "page",
+      "name": "Employee Posting Group"
+    },
+    {
+      "type": "page",
+      "name": "Employee Card"
+    }
+  ],
+  "features": [
+    "Allow Multiple Posting Groups toggle",
+    "Alternative posting groups for employees",
+    "Check Multiple Posting Groups field",
+    "Alternative Groups action"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Controllers can define policies for posting these transactions, and accountants can change them during posting.",
+      "why_it_matters": "Shows the role-based workflow where controllers set policies and accountants implement alternatives at posting time"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

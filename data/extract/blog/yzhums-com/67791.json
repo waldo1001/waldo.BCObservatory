@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/yzhums-com/67791",
+  "url": "https://yzhums.com/67791/",
+  "title": "Business Central 2025 wave 2 (BC27): Allow copying nodes in the profile editor and support for hovering",
+  "source": "yzhums-com",
+  "published_at": "2025-09-22T00:13:34.000Z",
+  "words": 599,
+  "summary": "Business Central 2025 wave 2 (BC27) adds the ability to copy nodes in the VS Code profile editor and support for hovering to display full node text. These enhancements make it easier for developers to edit long nodes like SQL queries in the AL performance profiler.",
+  "key_points": [
+    "Profile editor nodes can now be copied using Ctrl+C and pasted anywhere with Ctrl+V",
+    "Hovering over nodes displays their full text, helping with long SQL queries and other extended content",
+    "Feature is available in BC27 and documented in AL Language extension Version 16.0",
+    "Builds on existing AL performance profiling capabilities introduced progressively since BC19"
+  ],
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "profile editor",
+    "performance profiling",
+    "al language",
+    "vs code",
+    "developer tools",
+    "sql queries"
+  ],
+  "objects": [],
+  "features": [
+    "Copy nodes in profile editor",
+    "Hover support in profile editor",
+    "AL performance profiler",
+    "SQL call information in performance profiles"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "In the profile editor, individual nodes can be copied and hovered to show the full text of the node.",
+      "why_it_matters": "Describes the core functionality that improves the developer experience when working with complex performance data."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

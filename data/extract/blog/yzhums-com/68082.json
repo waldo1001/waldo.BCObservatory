@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/68082",
+  "url": "https://yzhums.com/68082/",
+  "title": "Business Central 2025 wave 2 (BC27): TextConst Data Type now have manipulation methods (Contains, ToUpper, Replace, etc.)",
+  "source": "yzhums-com",
+  "published_at": "2025-10-03T01:26:52.000Z",
+  "words": 546,
+  "summary": "Business Central 2025 wave 2 (BC27) introduces manipulation methods for the TextConst data type, enabling string operations like Contains, Replace, ToUpper, Split, and Trim. These methods are available in runtime version 15.1 or greater.",
+  "key_points": [
+    "TextConst data type now supports 20+ string manipulation methods for operations on text constants",
+    "Common methods include Contains, StartsWith, EndsWith, Replace, Split, and case conversion functions",
+    "Methods for string searching include IndexOf, LastIndexOf, and IndexOfAny with optional position parameters",
+    "Text formatting methods available: PadLeft, PadRight, Remove, Trim, TrimStart, and TrimEnd",
+    "Runtime version 15.1 or greater required; Contains is not available in version 15.0"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "textconst",
+    "al language",
+    "string manipulation",
+    "bc27",
+    "wave 2",
+    "methods"
+  ],
+  "objects": [],
+  "features": [
+    "TextConst Contains method",
+    "TextConst Replace method",
+    "TextConst ToUpper method",
+    "TextConst ToLower method",
+    "TextConst Split method",
+    "TextConst StartsWith method",
+    "TextConst EndsWith method",
+    "TextConst Substring method"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2",
+    "runtime 15.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With this wave (BC27), Microsoft added manipulation methods for this data type.",
+      "why_it_matters": "Establishes that this is a new feature in BC27 specifically for TextConst data type"
+    },
+    {
+      "text": "These methods are supported in runtime version '15.1' (Business Central 2025 release wave 1 Update 26.1) or greater.",
+      "why_it_matters": "Clarifies the minimum runtime version requirement for developers implementing these methods"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/yzhums-com/67896",
+  "url": "https://yzhums.com/67896/",
+  "title": "Business Central 2025 wave 2 (BC27): Tenant administrators can set Feature Management switches with an API (page 30092 “APIV2 – Feature Management”)",
+  "source": "yzhums-com",
+  "published_at": "2025-09-29T00:30:38.000Z",
+  "words": 949,
+  "summary": "Business Central 2025 wave 2 introduces an automation API that allows tenant administrators to manage Feature Management switches programmatically. This capability enables automating feature switch settings across multiple companies and environments through API endpoints, reducing manual effort and ensuring consistent configurations.",
+  "key_points": [
+    "Tenant admins can get a list of feature switches, check individual feature states, and activate or deactivate features using the new APIV2 Feature Management automation API",
+    "The API uses bound actions (Activate and Deactivate) that require specific parameters like updateInBackground and startDateTime for activation",
+    "API endpoints follow the pattern https://api.businesscentral.dynamics.com/v2.0/{tenant-id}/{environment-name}/api/microsoft/automation/v2.0/ and require a company parameter",
+    "Delegated admin credentials and Business Central users with appropriate permissions can call the API, and the FEATURE MGT. - ADMIN permission set must be assigned"
+  ],
+  "systems": [
+    "administration",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "feature management",
+    "api",
+    "automation",
+    "tenant administration",
+    "bc27",
+    "2025 wave 2"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "APIV2 – Feature Management"
+    },
+    {
+      "type": "page",
+      "name": "Feature Management"
+    }
+  ],
+  "features": [
+    "Automation API for Feature Management",
+    "Feature switch activation via API",
+    "Feature switch deactivation via API",
+    "Bulk feature configuration across companies",
+    "API-based tenant administration"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Tenant admins can now control entries on the Feature Management page using an API.",
+      "why_it_matters": "Establishes the core capability enabling programmatic feature management instead of manual configuration"
+    },
+    {
+      "text": "This allows them to automate setting feature switches across multiple companies and/or environments.",
+      "why_it_matters": "Highlights the scalability benefit for organizations managing multiple Business Central instances"
+    },
+    {
+      "text": "Batch processing is not possible.",
+      "why_it_matters": "Important limitation to understand when planning API integration for feature management at scale"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

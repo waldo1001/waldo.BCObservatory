@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/67809",
+  "url": "https://yzhums.com/67809/",
+  "title": "Business Central 2025 wave 2 (BC27): UpdateAuditFields Method on DataTransfer is now in Cloud scope",
+  "source": "yzhums-com",
+  "published_at": "2025-09-24T00:55:44.000Z",
+  "words": 430,
+  "summary": "Business Central 2025 wave 2 (BC27) now makes the UpdateAuditFields method on DataTransfer available in Cloud scope, allowing developers to control audit field updates when transferring data between tables during upgrades and installations.",
+  "key_points": [
+    "UpdateAuditFields method on DataTransfer was previously OnPrem-only, now available in Cloud scope in BC27",
+    "DataTransfer is a language construct for fast upgrade code that moves or copies field data between tables",
+    "Audit fields (SystemCreatedAt, SystemCreatedBy, SystemModifiedAt, SystemModifiedBy) track record creation and modification",
+    "UpdateAuditFields method controls whether audit fields are updated when copying data; defaults to true"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "datatransfer",
+    "audit fields",
+    "upgrade code",
+    "cloud scope",
+    "bc27"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "DataTransfer"
+    }
+  ],
+  "features": [
+    "UpdateAuditFields method",
+    "DataTransfer data type",
+    "Audit field control",
+    "Cloud scope support"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "UpdateAuditFields Method on DataTransfer is now in Cloud scope.",
+      "why_it_matters": "This removes a previous restriction that limited the method to on-premises development, enabling more flexible cloud-based upgrade scenarios."
+    },
+    {
+      "text": "developers can write faster upgrade code when they want to move a field (with data) from one table to another",
+      "why_it_matters": "DataTransfer provides a performance advantage for migration scenarios compared to traditional methods."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

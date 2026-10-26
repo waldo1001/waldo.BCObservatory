@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/67990",
+  "url": "https://yzhums.com/67990/",
+  "title": "Dynamics 365 Business Central: GitHub Copilot Agent Tools now available in the AL Extension (New AL Tools Available for Agents)",
+  "source": "yzhums-com",
+  "published_at": "2025-09-30T23:58:25.000Z",
+  "words": 273,
+  "summary": "Microsoft released GitHub Copilot agent tools for the AL VSIX extension that enable agents to automate and orchestrate AL workflows. These experimental tools including al_build, al_download_symbols, and al_publish are available in Business Central 2026 release wave 1 (version 17.0) and require VS Code 1.99 with agent mode enabled.",
+  "key_points": [
+    "New GitHub Copilot agent tools added to AL VSIX for automating AL development workflows",
+    "Tools include al_build, al_download_symbols, and al_publish commands accessible to agents",
+    "Available in Business Central 2026 release wave 1 (version 17.0) and works with runtime 16.0",
+    "Requires VS Code 1.99 or later with agent mode enabled via chat.agent.enabled setting",
+    "Tools are experimental and subject to change in future updates"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "al extension",
+    "github copilot",
+    "agent tools",
+    "vs code",
+    "al workflows",
+    "agent mode"
+  ],
+  "objects": [],
+  "features": [
+    "GitHub Copilot agent tools",
+    "al_build tool",
+    "al_download_symbols tool",
+    "al_publish tool",
+    "Agent mode in VS Code",
+    "AL VSIX extension"
+  ],
+  "versions": [
+    "17.0",
+    "16.0",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "These tools enable the GitHub Copilot agent mode to automate and orchestrate AL workflows, making development faster, smarter, and more flexible.",
+      "why_it_matters": "Explains the core benefit and purpose of the new agent tools for AL developers"
+    },
+    {
+      "text": "Agent mode is available starting from VS Code 1.99.",
+      "why_it_matters": "Specifies the minimum VS Code version requirement for using these tools"
+    },
+    {
+      "text": "These tools are experimental and subject to change in future updates.",
+      "why_it_matters": "Important caveat about the stability and maturity of the feature"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
