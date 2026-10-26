@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/jeremyvyska-com/1763",
+  "input_hash": "4ba4175aab00102a787d0cab54b7c1b6d6d55c7602038194220a1639334e949b",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-26T10:55:20.029Z",
+  "issues": [
+    "The post is about using AI scripts to analyze a conference talk recording and improve public speaking. It is not about Business Central.",
+    "Business Central comes up only in passing, as the author's and a friend's MVP status. No BC product, development or Copilot content is covered, so the copilot and development systems are unsupported."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.035715,
+    "posts_in_call": 4
+  }
+}

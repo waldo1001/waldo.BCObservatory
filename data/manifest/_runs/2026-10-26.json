@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
-  "started_at": "2026-10-26T08:38:38.243Z",
-  "finished_at": "2026-10-26T08:48:23.471Z",
+  "started_at": "2026-10-26T10:47:07.590Z",
+  "finished_at": "2026-10-26T10:57:53.697Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -22,28 +22,28 @@
   "ingest": {
     "sources": [
       {
-        "id": "yzhums-com",
+        "id": "jeremyvyska-com",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 0,
+          "new": 13,
           "changed": 0,
           "updated": 0,
-          "unchanged": 389,
+          "unchanged": 0,
           "removed": 0
         },
-        "note": "389 posts via WordPress REST",
-        "duration_ms": 5741
+        "note": "13 posts via WordPress REST",
+        "duration_ms": 1539
       }
     ],
     "totals": {
       "sources": 1,
       "failed": 0,
       "deferred": 0,
-      "new": 0,
+      "new": 13,
       "changed": 0,
       "updated": 0,
-      "unchanged": 389,
+      "unchanged": 0,
       "removed": 0
     }
   },
@@ -74,76 +74,82 @@
       "post_reviews": 50000,
       "change_reviews": 50000
     },
-    "work": 1,
-    "executed": 1,
+    "work": 13,
+    "executed": 13,
     "skips": 0,
     "quota_use": {
-      "unlimited": {
-        "selected": 1,
-        "available": 1,
-        "limit": null
+      "posts": {
+        "selected": 13,
+        "available": 13,
+        "limit": 50000
       }
     },
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 46,
+    "calls": 38,
     "cache_hits": 0,
     "failures": 0,
     "by_model": {
-      "claude-haiku-4-5-20251001": 10,
-      "claude-opus-5-5": 36
+      "claude-haiku-4-5-20251001": 21,
+      "claude-opus-5-5": 17
     },
-    "cost_usd": 2.4156429999999998,
+    "cost_usd": 1.798528,
     "tokens_by_model": {
       "claude-haiku-4-5-20251001": {
-        "calls": 10,
-        "input": 9006,
-        "output": 4391,
-        "cache_read": 0,
-        "cache_creation": 70193,
-        "cost_usd": 0.171347
+        "calls": 21,
+        "input": 28083,
+        "output": 12721,
+        "cache_read": 13320,
+        "cache_creation": 104562,
+        "cost_usd": 0.302144
       },
       "claude-opus-5-5": {
-        "calls": 36,
-        "input": 72,
-        "output": 40910,
+        "calls": 17,
+        "input": 34,
+        "output": 23638,
         "cache_read": 0,
-        "cache_creation": 178226,
-        "cost_usd": 2.2442960000000003
+        "cache_creation": 127936,
+        "cost_usd": 1.496384
       }
     },
-    "day_cost_usd": 33.471853
+    "day_cost_usd": 35.270381
   },
   "spend": {
-    "today_usd": 31.05621,
+    "today_usd": 33.471853,
     "week_before_usd": 93.448098,
     "night_cap_usd": 100000,
     "week_cap_usd": 100000,
-    "allowance_usd": 99875.495692,
+    "allowance_usd": 99873.080049,
     "binding": "week",
     "exhausted": false,
     "override": true
   },
-  "items_changed": 0,
+  "items_changed": 13,
   "errors": [],
   "captions_retried": 0,
-  "checkpoints": 0,
+  "checkpoints": 1,
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-26T14:13:00.000Z",
-    "items_touched": 1,
+    "deadline": "2026-10-26T16:22:00.000Z",
+    "items_touched": 13,
     "stages_run": {
-      "blog:published": 1
+      "blog:fetched": 13,
+      "blog:extracted": 13,
+      "blog:summarized": 13,
+      "blog:linked": 13,
+      "blog:published": 13
     },
-    "advanced": 1,
+    "advanced": 65,
     "skipped": 0,
     "failed_attempts": 0,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "parked": 0,
-    "quota_charged": {},
+    "parked": 10,
+    "quota_charged": {
+      "posts": 13
+    },
     "regards": [],
     "errors": [],
     "parked_left": 0
@@ -181,7 +187,7 @@
         "model": 4130
       },
       "learn_pages": 1761,
-      "written": true,
+      "written": false,
       "errors": []
     },
     "cautions": {
@@ -189,24 +195,24 @@
       "cautions": 1661,
       "objects": 61,
       "attached": 84,
-      "written": true
+      "written": false
     },
     "pages": {
       "objects": 25667,
-      "written": 2,
+      "written": 0,
       "removed": 0,
       "localizations": 22,
       "own_objects": 9214
     },
     "related": {
-      "pages": 10578,
-      "rows": 37020,
+      "pages": 10594,
+      "rows": 37207,
       "by_rank": {
         "1": 983,
         "2": 67,
         "3": 20199,
         "4": 1923,
-        "5": 6698,
+        "5": 6885,
         "6": 7016,
         "7": 134
       },
@@ -249,10 +255,10 @@
     "narrated": 0
   },
   "previews": {
-    "probed": 1,
+    "probed": 13,
     "refreshed": 0,
-    "failed": 1,
-    "rerendered": 1,
+    "failed": 0,
+    "rerendered": 13,
     "flipped": [],
     "channels": 0
   },
@@ -281,33 +287,35 @@
     }
   },
   "topic_links": {
-    "units": 2912,
-    "stale": 23,
-    "calls": 9,
-    "matched": 32,
-    "rejected": 4,
+    "units": 2925,
+    "stale": 13,
+    "calls": 4,
+    "matched": 12,
+    "rejected": 6,
     "failed": 0,
-    "cost_usd": 0.167598,
+    "cost_usd": 0.102292,
     "rejections": [
-      "post/yzhums-com/63735 -> t519: not a candidate of this item",
-      "post/yzhums-com/69818 -> topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data: quote not verbatim: \"reduce database capacity usage, improves performance, and provides better cost c\"",
-      "post/yzhums-com/64042 -> t421: not a candidate of this item",
-      "post/yzhums-com/66463 -> t402: not a candidate of this item"
+      "post/jeremyvyska-com/1739 -> topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c: quote not verbatim: \"teach Business Central developers how to build AI-powered agentic workflows for \"",
+      "post/jeremyvyska-com/1428 -> t496: not a candidate of this item",
+      "post/jeremyvyska-com/1428 -> t492: not a candidate of this item",
+      "post/jeremyvyska-com/1433 -> t496: not a candidate of this item",
+      "post/jeremyvyska-com/1433 -> t492: not a candidate of this item",
+      "post/jeremyvyska-com/1449 -> t492: not a candidate of this item"
     ],
     "second": {
-      "due": 19,
-      "called": 19,
-      "matched": 22
+      "due": 0,
+      "called": 0,
+      "matched": 0
     },
     "stopped": "done"
   },
   "cautions": {
-    "due": 1,
-    "posts": 1,
-    "calls": 1,
-    "cautions": 0,
+    "due": 13,
+    "posts": 13,
+    "calls": 4,
+    "cautions": 5,
     "failed": 0,
-    "cost_usd": 0.0037489999999999997,
+    "cost_usd": 0.08224499999999998,
     "stopped": "done"
   },
   "learn_confirm": {
@@ -323,13 +331,13 @@
     "stopped": "done"
   },
   "topic_reviews": {
-    "candidates": 29,
-    "calls": 35,
-    "reviewed": 36,
-    "kept": 199,
-    "dropped": 101,
+    "candidates": 8,
+    "calls": 13,
+    "reviewed": 13,
+    "kept": 66,
+    "dropped": 54,
     "failed": 0,
-    "cost_usd": 2.2044840000000003,
+    "cost_usd": 0.88716,
     "stopped": "done"
   },
   "reviews": {
@@ -341,15 +349,15 @@
       "cost_usd": 0
     },
     "post": {
-      "reviewed": 1,
-      "fixed": 0,
-      "rejected": 0,
-      "calls": 1,
-      "cost_usd": 0.039812,
-      "candidates": 1,
+      "reviewed": 13,
+      "fixed": 9,
+      "rejected": 2,
+      "calls": 4,
+      "cost_usd": 0.206396,
+      "candidates": 13,
       "failed": 0,
       "reset": 0,
-      "rerendered": 1,
+      "rerendered": 13,
       "stopped": "done"
     },
     "change": {
@@ -388,13 +396,13 @@
     "review_backlog": 0
   },
   "content": {
-    "pages": 29548,
+    "pages": 29562,
     "errors": 0
   },
   "leak": {
     "vault": "scanned",
-    "raw_docs": 1159,
-    "files_scanned": 32924,
+    "raw_docs": 1172,
+    "files_scanned": 33005,
     "findings": 0,
     "blocked": false
   }

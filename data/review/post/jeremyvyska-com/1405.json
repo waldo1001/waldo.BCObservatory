@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/jeremyvyska-com/1405",
+  "input_hash": "c3bd94e9e5bfbbcd1e0441b20536b0fb0a65b811de1f4b64bc722e0738a72976",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T10:55:23.406Z",
+  "issues": [
+    "Summary and key points match the post: GitHub repo, Blob sync through Actions, Service Principal, Azure AI Search still pending, MCP preflight check.",
+    "The administration system is not supported; the Azure resource setup is not Business Central administration.",
+    "The copilot system refers to Microsoft and GitHub Copilot tools rather than Copilot in Business Central, so it was dropped.",
+    "Business Central relevance is thin (one business-central knowledge folder) but the page is usable."
+  ],
+  "applied": [
+    "dropped 2 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.057028,
+    "posts_in_call": 4
+  }
+}

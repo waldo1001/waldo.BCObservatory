@@ -1,0 +1,33 @@
+{
+  "item_id": "blog/jeremyvyska-com/1405",
+  "page_id": "post/jeremyvyska-com/1405",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Copilot Notebooks, while very powerful, only really ground their knowledge in the attached files or pages.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Copilot Notebooks"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "the Azure Storage MCP tools only support listing storage.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.009205,
+    "posts_in_call": 4
+  }
+}

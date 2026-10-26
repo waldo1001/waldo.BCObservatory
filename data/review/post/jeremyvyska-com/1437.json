@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/jeremyvyska-com/1437",
+  "input_hash": "f1afaf35147db2f877cdfaa0fd0a20d3f58dd9bf1b9fddfed890ea1cf3e81b2c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T10:55:27.390Z",
+  "issues": [
+    "The two listed objects are generic descriptions of test codeunits and shared tables, not objects the post names, so they are dropped.",
+    "The quotes are accurate and the tier results in the summary and key points match the post.",
+    "GitHub Copilot is the subject of the experiment, so keeping the copilot system is reasonable."
+  ],
+  "applied": [
+    "dropped 2 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.051599,
+    "posts_in_call": 4
+  }
+}

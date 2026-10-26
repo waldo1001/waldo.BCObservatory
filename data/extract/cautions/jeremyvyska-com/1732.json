@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/jeremyvyska-com/1732",
+  "page_id": "post/jeremyvyska-com/1732",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Single-pass corrections often revert in later sessions. Need validation layers to catch systematic drift.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Trying to do too much causes context loss. Better to do one category thoroughly than many superficially.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006527,
+    "posts_in_call": 4
+  }
+}

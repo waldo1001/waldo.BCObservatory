@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:34.022Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-26T10:55:37.280Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -157,8 +157,6 @@ links:
     - post/miljan-rs/966
     - post/nataliekarolak-com/4271
     - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07
-    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-month-enum--b394762bca
-    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3
     - post/yzhums-com/75344
   guidelines: []
   changes:
@@ -191,7 +189,7 @@ coverage:
   learn: 17
   code: 0
   video: 0
-  blog: 6
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: eaa6ed8c79aa4a9f6ef08300f6537b69d953326e78b7456545701d47f00a6f3d
@@ -257,8 +255,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [When “Errors” Don’t Stop the Process: A Hidden Risk in Business Central](../../../../posts/miljan-rs/966.md) (community post): "Safe usage pattern: validate first with error collection"
 - [Get the new BCQuality plugin for VS Code!](../../../../posts/nataliekarolak-com/4271.md) (community post): "helps AI agents and AL developers generate better code for Business Central"
 - [Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07.md) (community post): "Shortcuts in development create technical debt and upgrade problems tomorrow"
-- [BC Friday Tips #33 Month Enum](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-month-enum--b394762bca.md) (community post): "Developers can reuse these existing enums rather than creating custom ones"
-- [BC Friday Tips #83 Check Whether a Record Has Changed](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3.md) (community post): "Reduces code complexity when validating and modifying multiple fields"
 - [Dynamics 365 Business Central: Suggested Abbreviations](../../../../posts/yzhums-com/75344.md) (community post): "Gives file-naming abbreviations for AL object types"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

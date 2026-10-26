@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/jeremyvyska-com/1433",
+  "input_hash": "fa717aab48d5076f7e57ad90fcfc098a37fb46b71fc8072ff9b3932975b7d32d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T10:55:23.406Z",
+  "issues": [
+    "Summary, key points, features and both quotes match the post; quotes are verbatim.",
+    "The administration system is not supported: the post covers dev team AI adoption, documentation and governance, not system administration.",
+    "Business Central relevance is light (BC TechDays context) but acceptable as part of a BC developer series."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.057028,
+    "posts_in_call": 4
+  }
+}

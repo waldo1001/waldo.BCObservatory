@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/jeremyvyska-com/1289",
+  "input_hash": "b9486989c9345b5ed7b361600e86bf75d8a00ffcfdd5b25191498cdff98718f0",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-26T10:55:11.616Z",
+  "issues": [
+    "The post is a general reflection on AI ethics. It never mentions Business Central, Dynamics 365, AL or any ERP topic, so it is not a Business Central post.",
+    "The copilot system is not supported: the post names no Copilot or any Microsoft product.",
+    "The summary and key points match the post itself, but the page cannot be saved because the subject is outside scope."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031856,
+    "posts_in_call": 1
+  }
+}
