@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/yzhums-com/71758",
+  "url": "https://yzhums.com/71758/",
+  "title": "Business Central 2026 release wave 1 (BC28): Get item insights with advanced KPIs and Summary (new Item Statistics page)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-26T01:30:19.000Z",
+  "words": 509,
+  "summary": "Business Central 2026 wave 1 introduces a new Item Statistics page that provides financial and performance metrics for items, including inventory values, sales growth rates, gross margins, and return rates across multiple time periods. Copilot can summarize these insights automatically when enabled.",
+  "key_points": [
+    "The Item Statistics page displays financial metrics like current inventory value, expired inventory value, and sales-related KPIs",
+    "Four time periods are available for analysis: current fiscal period, current fiscal year, last fiscal year, and lifetime",
+    "Sales metrics include growth rate, net sales, gross margin percentage, and return rate to track demand and profitability",
+    "The page is accessible from the Item Card through Related > Statistics > Item Statistics or by searching Tell Me",
+    "Enabling Summarize with Copilot automatically activates Copilot-powered item summaries with advanced KPIs"
+  ],
+  "systems": [
+    "inventory",
+    "copilot",
+    "reporting"
+  ],
+  "topics": [
+    "item statistics",
+    "kpis",
+    "financial metrics",
+    "copilot summaries",
+    "bc28",
+    "release wave 1"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    }
+  ],
+  "features": [
+    "Item Statistics page",
+    "Advanced KPIs",
+    "Current Inventory Value tracking",
+    "Expired Inventory Value identification",
+    "Sales Growth Rate calculation",
+    "Gross Margin analysis",
+    "Return Rate monitoring",
+    "Summarize with Copilot"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Copilot gives you faster and more comprehensive item summaries with new KPIs and data points from the new Item Statistics page.",
+      "why_it_matters": "Explains the main benefit of Copilot integration with the new Item Statistics page for accelerated insights"
+    },
+    {
+      "text": "The Item Statistics page provides financial and performance metrics for an item across different time periods.",
+      "why_it_matters": "Defines the core purpose of the new page for analyzing items with multiple time horizons"
+    },
+    {
+      "text": "When you turn on the Summarize with Copilot capability, you automatically enable these enhancements.",
+      "why_it_matters": "Clarifies how to activate the Copilot-powered summaries for item insights"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

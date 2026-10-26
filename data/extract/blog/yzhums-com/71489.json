@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/yzhums-com/71489",
+  "url": "https://yzhums.com/71489/",
+  "title": "Business Central 2026 release wave 1 (BC28): Reverse drop shipments when sales and purchase documents aren’t invoiced",
+  "source": "yzhums-com",
+  "published_at": "2026-03-18T02:46:52.000Z",
+  "words": 591,
+  "summary": "Business Central 2026 wave 1 (BC28) adds the ability to reverse posted drop shipments when neither the sales shipment nor related purchase receipt has been invoiced. This simplifies corrections that previously required credit memos or manual line recreation.",
+  "key_points": [
+    "Drop shipments involve vendors shipping items directly to customers; they link sales and purchase orders with the customer specified in the Ship-to field",
+    "Previously, posting a purchase receipt for a drop shipment automatically posted the linked sales shipment, preventing either from being undone",
+    "BC28 allows undoing a posted sales shipment from a drop shipment via the Undo Shipment action, which automatically reverses the linked purchase receipt and creates correction entries",
+    "The undo functionality does not work directly from the Posted Purchase Receipt line; you must start from the sales shipment side"
+  ],
+  "systems": [
+    "sales",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "drop shipments",
+    "purchase orders",
+    "sales orders",
+    "order reversal",
+    "posting",
+    "bc28"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Purchase Receipt Line"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Shipment Line"
+    },
+    {
+      "type": "page",
+      "name": "Sales List"
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger Entry"
+    }
+  ],
+  "features": [
+    "Reverse drop shipments",
+    "Undo Posted Sales Shipment",
+    "Undo Posted Purchase Receipt",
+    "Create Purchase Orders from drop shipments",
+    "Drop Shipment checkbox",
+    "Customer Address in Ship-to field"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can reverse posted drop shipments when both the sales shipment and the related purchase receipt aren't yet invoiced.",
+      "why_it_matters": "Defines the exact scope and precondition for the new reversal capability"
+    },
+    {
+      "text": "Business Central reverts the linked purchase receipt, creates correction entries, and reapplies the purchase and sales entries to their reversal entries.",
+      "why_it_matters": "Explains the technical mechanism of how the reversal process works behind the scenes"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

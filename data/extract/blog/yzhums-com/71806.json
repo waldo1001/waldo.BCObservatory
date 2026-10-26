@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/yzhums-com/71806",
+  "url": "https://yzhums.com/71806/",
+  "title": "Business Central 2026 release wave 1 (BC28): Financial Report Statuses and Financial Report Categories",
+  "source": "yzhums-com",
+  "published_at": "2026-03-30T01:13:02.000Z",
+  "words": 409,
+  "summary": "Business Central 2026 wave 1 introduces Financial Report Statuses and Financial Report Categories to organize and manage the lifecycle of financial reports, row definitions, and column definitions. Use this when you need to control visibility of work-in-progress and retired financial reporting configurations.",
+  "key_points": [
+    "Financial Report Statuses are fully configurable and help organize the lifecycle of financial report, row, and column definitions by hiding work-in-progress and retired items",
+    "Financial Report Categories allow you to organize, find, and manage financial reports from within the Financial Report list and card pages",
+    "When a definition is marked as Blocked, users see a notification message when attempting to open it",
+    "These new management features build on enhanced financial reporting capabilities that replace legacy account schedules"
+  ],
+  "systems": [
+    "finance",
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "financial reports",
+    "financial reporting",
+    "status management",
+    "categories",
+    "general ledger",
+    "financial data",
+    "lifecycle management"
+  ],
+  "objects": [],
+  "features": [
+    "Financial Report Statuses",
+    "Financial Report Categories",
+    "Financial Report blocking",
+    "Row definition statuses",
+    "Column definition statuses",
+    "Financial Report list pages",
+    "Financial Report card pages"
+  ],
+  "versions": [
+    "2026 release wave 1 (BC28)",
+    "BC27"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Organize your financial reports with financial report categories, helping you find and manage financial reports.",
+      "why_it_matters": "Describes the new capability to organize and manage financial reports using categories"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

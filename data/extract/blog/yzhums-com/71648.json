@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/yzhums-com/71648",
+  "url": "https://yzhums.com/71648/",
+  "title": "Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-23T00:32:13.000Z",
+  "words": 541,
+  "summary": "Business Central 2026 release wave 1 introduces new filters on Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages to help users quickly locate and filter document lines by order number, vendor order details, or customer references when combining multiple receipts or shipments into invoices.",
+  "key_points": [
+    "New filters allow filtering by Order No., Your Reference, External Document No., Vendor Order No., Vendor Shipment No., and Item Reference No. depending on document type",
+    "Filtering on recognizable business fields reduces time searching for correct document lines and lowers risk of bringing in wrong lines",
+    "Functionality applies to purchase receipts, sales shipments, and service shipments when creating combined invoices",
+    "Users can select multiple receipt or shipment lines across different documents from the same vendor/customer to include in a single invoice"
+  ],
+  "systems": [
+    "purchasing",
+    "sales",
+    "service"
+  ],
+  "topics": [
+    "filtering",
+    "receipt lines",
+    "shipment lines",
+    "invoicing",
+    "document combination",
+    "bc28"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Get Receipt Lines"
+    },
+    {
+      "type": "page",
+      "name": "Get Shipment Lines"
+    },
+    {
+      "type": "page",
+      "name": "Get Service Shipment Lines"
+    }
+  ],
+  "features": [
+    "Filter receipt lines",
+    "Filter shipment lines",
+    "Filter service shipment lines",
+    "Combine multiple receipts into invoice",
+    "Combine multiple shipments into invoice",
+    "Order reference filtering",
+    "Vendor order filtering"
+  ],
+  "versions": [
+    "2026 release wave 1",
+    "BC28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This improvement helps you locate the correct document lines more quickly, especially in environments with a large number of receipts or shipments.",
+      "why_it_matters": "Explains the primary business value of the feature for users managing high volumes of documents"
+    },
+    {
+      "text": "For years, this was a 'must-have' customization for our clients. I'm thrilled to see it finally integrated into the standard Business Central features!",
+      "why_it_matters": "Demonstrates that this addresses a long-standing user need that previously required custom development"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

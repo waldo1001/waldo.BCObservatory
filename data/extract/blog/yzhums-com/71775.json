@@ -1,0 +1,103 @@
+{
+  "item_id": "blog/yzhums-com/71775",
+  "url": "https://yzhums.com/71775/",
+  "title": "Business Central 2026 release wave 1 (BC28): Modernizing analytical reports for inventory",
+  "source": "yzhums-com",
+  "published_at": "2026-03-27T01:09:58.000Z",
+  "words": 339,
+  "summary": "Business Central 2026 release wave 1 modernizes inventory reports by replacing RDL layouts with Excel and Word formats, adding a new Item Age Composition report, and deprecating older redundant reports to simplify reporting and analysis.",
+  "key_points": [
+    "Inventory reports now use Excel and Word layouts instead of outdated RDL formats for easier analysis and editing",
+    "A new Item Age Composition by Quantity and Value report provides deeper insights into aging inventory",
+    "Six inventory reports have been modernized including Inventory Top 10 List, Item Availability, and Inventory Purchase Orders",
+    "Three older reports are being deprecated including Item Age Composition-Value and Items with Negative Inventory to reduce redundancy"
+  ],
+  "systems": [
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "modernized reports",
+    "bc28",
+    "excel layouts",
+    "word layouts",
+    "analytics",
+    "2026 release wave 1"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Inventory Top 10 List"
+    },
+    {
+      "type": "report",
+      "name": "Item Availability"
+    },
+    {
+      "type": "report",
+      "name": "Inventory Purchase Orders"
+    },
+    {
+      "type": "report",
+      "name": "Item/Vendor Catalog"
+    },
+    {
+      "type": "report",
+      "name": "Inventory Availability Plan"
+    },
+    {
+      "type": "report",
+      "name": "Item Age Composition by Quantity and Value"
+    },
+    {
+      "type": "report",
+      "name": "Inventory – Transaction Detail"
+    },
+    {
+      "type": "report",
+      "name": "Item Expiration – Quantity"
+    },
+    {
+      "type": "report",
+      "name": "Item Age Composition – Value"
+    },
+    {
+      "type": "report",
+      "name": "Item Age Composition – Quantity"
+    },
+    {
+      "type": "report",
+      "name": "Items with Negative Inventory"
+    }
+  ],
+  "features": [
+    "Excel and Word report layouts",
+    "Item Age Composition by Quantity and Value report",
+    "Modernized inventory reports",
+    "Report deprecation"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1",
+    "BC27"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Modernized inventory reports deliver a more intuitive experience by replacing outdated RDL layouts with familiar Excel and Word formats.",
+      "why_it_matters": "It explains the core benefit of the modernization effort - making reports more accessible and easier to work with for end users"
+    },
+    {
+      "text": "The addition of the new Item Age Composition by Quantity and Value report provides deeper insights into ageing inventory.",
+      "why_it_matters": "It highlights a new capability that addresses a specific business need for better inventory visibility"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

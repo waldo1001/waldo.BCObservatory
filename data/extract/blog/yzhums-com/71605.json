@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/71605",
+  "url": "https://yzhums.com/71605/",
+  "title": "Business Central 2026 release wave 1 (BC28): Post purchase invoices for drop shipments independently of related sales invoices",
+  "source": "yzhums-com",
+  "published_at": "2026-03-19T03:29:17.000Z",
+  "words": 664,
+  "summary": "Business Central 2026 release wave 1 (BC28) allows you to post purchase invoices for drop shipments independently of related sales invoices. Previously, you could not invoice a drop shipment purchase order until the associated sales order had been invoiced. This change simplifies the workflow for drop shipment scenarios.",
+  "key_points": [
+    "Drop shipment purchase invoices can now be posted before the related sales order invoices are posted",
+    "You can post the invoice directly from a purchase order or by using the Get receipt lines action",
+    "This change removes certain posting logic checks that previously blocked purchase invoice posting for drop shipments",
+    "Customizations relying on removed events (OnCheckAssocOrderLinesOnBeforeCheckOrderLine, OnBeforeCheckAssociatedSalesOrderLine, OnBeforeVerifyInvoicedQty, OnVerifyInvoicedQtyOnAfterGetSalesShipmentHeader) must be reviewed and adjusted"
+  ],
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "drop shipments",
+    "purchase invoices",
+    "sales invoices",
+    "posting logic",
+    "workflow",
+    "bc28"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Purch.-Post"
+    },
+    {
+      "type": "codeunit",
+      "name": "Item Jnl.-Post Line"
+    }
+  ],
+  "features": [
+    "Post purchase invoices for drop shipments independently",
+    "Drop shipment marking on sales orders",
+    "Customer address ship-to field",
+    "Get Sales Order action",
+    "Create Purchase Orders from drop shipments",
+    "Get receipt lines action"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can post invoices for drop shipment purchase orders, even if you haven't invoiced the related sales order.",
+      "why_it_matters": "This is the core new capability that improves workflow flexibility for drop shipment scenarios"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

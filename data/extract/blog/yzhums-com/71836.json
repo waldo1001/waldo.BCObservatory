@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/yzhums-com/71836",
+  "url": "https://yzhums.com/71836/",
+  "title": "Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting",
+  "source": "yzhums-com",
+  "published_at": "2026-03-31T01:50:20.000Z",
+  "words": 438,
+  "summary": "The One Service Item Line/Order setting on the Service Management Setup page now applies when creating contract service orders in bulk, enforcing that each service order contains only one service item line. This ensures consistency with service management policies by allowing batch processing of service contracts without manual intervention.",
+  "key_points": [
+    "The One Service Item Line/Order setting restricts service orders to one service item line per order",
+    "When enabled, the batch process creates one service order per service item in a contract instead of combining them",
+    "The bulk service order creation from contracts now respects this setting automatically",
+    "This feature helps maintain consistent service workflow and individual item tracking"
+  ],
+  "systems": [
+    "service",
+    "administration"
+  ],
+  "topics": [
+    "service management",
+    "contract service orders",
+    "batch processing",
+    "service items",
+    "business rules"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Management Setup"
+    },
+    {
+      "type": "page",
+      "name": "Service Order"
+    },
+    {
+      "type": "codeunit",
+      "name": "Create Contract Service Orders"
+    }
+  ],
+  "features": [
+    "One Service Item Line/Order setting",
+    "Contract service order creation",
+    "Bulk batch processing",
+    "Service contract automation"
+  ],
+  "versions": [
+    "BC28",
+    "BC27.5"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The One Service Item Line/Order field enforces a business rule that restricts service orders to contain only one service item line per order.",
+      "why_it_matters": "This explains the core functionality and how the setting controls service order structure"
+    },
+    {
+      "text": "You can run the batch process without manual intervention or workarounds, which helps ensure consistency with your service management policies.",
+      "why_it_matters": "Highlights the business value of automated enforcement in bulk operations"
+    },
+    {
+      "text": "If the One Service Item Line/Order is enabled, the batch process creates one service order per service item in the contract.",
+      "why_it_matters": "Clarifies the exact behavior when the setting is enabled"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

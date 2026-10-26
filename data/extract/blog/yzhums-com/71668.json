@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/yzhums-com/71668",
+  "url": "https://yzhums.com/71668/",
+  "title": "Business Central 2026 release wave 1 (BC28): Copy Existing Locations to Create New Locations (Copy Location)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-25T00:27:36.000Z",
+  "words": 332,
+  "summary": "Business Central 2026 release wave 1 introduces a Copy Location feature that allows users to quickly duplicate existing location records to create new warehouse locations, eliminating the need for manual entry or Configuration Packages.",
+  "key_points": [
+    "Copy Location is a new action available on the Locations list and Location Card pages in BC28",
+    "Users can select an existing location and copy it to create a new location with customizable fields",
+    "This feature simplifies location setup compared to traditional manual data entry or Configuration Package methods",
+    "The capability mirrors the existing Copy Item feature and could expand to other master data types"
+  ],
+  "systems": [
+    "inventory",
+    "warehouse",
+    "platform"
+  ],
+  "topics": [
+    "locations",
+    "copy functionality",
+    "master data",
+    "warehouse management",
+    "setup",
+    "bc28"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Copy Location"
+    }
+  ],
+  "features": [
+    "Copy Location",
+    "Location management",
+    "Inventory tracking",
+    "Warehouse setup"
+  ],
+  "versions": [
+    "2026 release wave 1",
+    "BC28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Traditionally, creating multiple locations required manual entry or Configuration Packages. But with this wave (BC28), it's as simple as clicking a button.",
+      "why_it_matters": "Demonstrates the efficiency improvement the Copy Location feature provides over previous setup methods"
+    },
+    {
+      "text": "Hopefully, Microsoft expands this 'Copy' capability across all master data - it would save so much setup time!",
+      "why_it_matters": "Indicates the broader value and future potential of this copying pattern for other Business Central setup tasks"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
