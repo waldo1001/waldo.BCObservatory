@@ -92,7 +92,7 @@ Changed: `sources.yaml`; at ship time `docs/DECISIONS.md`, `docs/PLAN.md`, `docs
 - [x] `sources.yaml` has the `jeremyvyska-com` entry with feed, API and `mvp: true`.
 - [x] `npm run validate:sources` (51 sources), `npm run typecheck` and `npm test` pass.
 - [x] No `full_text: true`, no consent block.
-- [ ] After phase 2: `content/sources/jeremyvyska-com.md` and the post pages are on main, and the live sources page lists the source.
+- [x] After phase 2 (run 40309905008, $1.80, 13 of 13 posts): `content/sources/jeremyvyska-com.md` and the post pages are on main, and the live sources page lists the source.
 - [x] D122 appended to docs/DECISIONS.md; PLAN M57 marked shipped; HANDOFF entry in "Where things stand"; section 12 "Built, deviations" and status implemented.
 
 ## 12. Built, deviations (2026-10-26)
@@ -102,4 +102,5 @@ Changed: `sources.yaml`; at ship time `docs/DECISIONS.md`, `docs/PLAN.md`, `docs
   `npm test`: 758 tests, 757 pass, 0 fail.
 - **Spec versus measured:** sources 51 (spec 51), blogs 29 (spec 29).
 - **Deviations:** none.
-- **Open:** phase 2, the owner's unlimited one-source run, and the Definition of Done item that checks its pages.
+- **Phase 2 (2026-10-26):** run 40309905008, success, $1.80, leak 0 findings; 13 post pages and the source page on
+  main; `/sources/jeremyvyska-com/` is 200 after pages run 40311502898.
