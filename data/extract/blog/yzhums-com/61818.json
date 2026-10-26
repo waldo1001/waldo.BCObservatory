@@ -1,0 +1,85 @@
+{
+  "item_id": "blog/yzhums-com/61818",
+  "url": "https://yzhums.com/61818/",
+  "title": "Dynamics 365 Business Central: How to substitute a page for another page via AL",
+  "source": "yzhums-com",
+  "published_at": "2025-08-27T00:50:05.000Z",
+  "words": 638,
+  "summary": "Page substitution in Dynamics 365 Business Central allows developers to redirect users to a different page when opening a standard page using AL code. The post explains techniques such as using the Error method in OnOpenPage trigger and, starting with BC26, extending the CardPageId property for list pages.",
+  "key_points": [
+    "Unlike reports, pages lack standard substitution events, requiring custom solutions in OnOpenPage trigger",
+    "Using Error('') after Page.Run() prevents the original page from opening, allowing seamless redirection",
+    "CurrPage.Close() in OnOpenPage does not work reliably and may display blank pages",
+    "Business Central 2025 wave 1 (BC26) introduced CardPageId property extension for easier card page substitution",
+    "For card and document pages in earlier versions, SetRecord and Run methods with Error() provide a workaround"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "page customization",
+    "page extension",
+    "al development",
+    "user redirection",
+    "page substitution"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Methods"
+    },
+    {
+      "type": "page",
+      "name": "Payment Terms"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Customer List"
+    },
+    {
+      "type": "page",
+      "name": "ZY Customer Card"
+    }
+  ],
+  "features": [
+    "Page substitution via AL",
+    "PageExtension with OnOpenPage trigger",
+    "CardPageId property",
+    "Page.Run method",
+    "Error method for page redirection",
+    "SetRecord method",
+    "Editable property control"
+  ],
+  "versions": [
+    "Business Central 2025 wave 1",
+    "BC26"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft has not prepared any standard events in advance. So we have to solve this problem in other ways.",
+      "why_it_matters": "Explains why custom solutions are needed instead of relying on built-in page substitution events like those available for reports"
+    },
+    {
+      "text": "Using this method, we can allow users to jump to our customized page when they open the standard page.",
+      "why_it_matters": "Summarizes the practical benefit of the Error method approach for seamless page redirection"
+    },
+    {
+      "text": "Starting with Business Central 2025 wave 1 (BC26), this is no longer a problem, as we can extend the CardPageId Property.",
+      "why_it_matters": "Highlights that BC26 introduced native support for card page substitution, simplifying the solution"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

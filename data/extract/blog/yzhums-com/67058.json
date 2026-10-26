@@ -1,0 +1,83 @@
+{
+  "item_id": "blog/yzhums-com/67058",
+  "url": "https://yzhums.com/67058/",
+  "title": "Dynamics 365 Business Central: Merge duplicate records (customers, vendors, or contacts)",
+  "source": "yzhums-com",
+  "published_at": "2025-08-29T01:03:30.000Z",
+  "words": 822,
+  "summary": "The Merge Duplicate feature in Business Central allows users to consolidate duplicate customer, vendor, or contact records by selecting which field values to keep and resolving any conflicts before completing the merge. This standard feature helps maintain data quality when records are created during data entry or migration.",
+  "key_points": [
+    "Access the Merge Duplicate feature from the card of the record you want to keep using the Merge With action",
+    "The Fields FastTab displays differences between two records; few differences indicate a likely duplicate",
+    "The Related Tables FastTab shows connections to other tables and helps identify merge conflicts with primary key fields",
+    "Users can override field values by checking the Override checkbox to select which alternate values to keep",
+    "Merge conflicts can be resolved on the Merge Duplicate Conflicts page before finalizing the merge, with options to remove or rename the duplicate record"
+  ],
+  "systems": [
+    "sales",
+    "purchasing",
+    "crm"
+  ],
+  "topics": [
+    "data quality",
+    "duplicate records",
+    "merge functionality",
+    "data cleanup",
+    "master data"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Contact Card"
+    },
+    {
+      "type": "page",
+      "name": "Merge Duplicate"
+    },
+    {
+      "type": "page",
+      "name": "Merge Duplicate Conflicts"
+    },
+    {
+      "type": "table",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "permissionset",
+      "name": "MERGE DUPLICATES"
+    }
+  ],
+  "features": [
+    "Merge Duplicate feature",
+    "Duplicate record detection",
+    "Field value override selection",
+    "Merge conflict resolution",
+    "Related tables analysis",
+    "Duplicate removal option",
+    "Duplicate renaming option"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Only users with the MERGE DUPLICATES permission set can use this functionality.",
+      "why_it_matters": "Important security and access control requirement"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

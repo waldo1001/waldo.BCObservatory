@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/67310",
+  "url": "https://yzhums.com/67310/",
+  "title": "Business Central 2025 wave 2 (BC27): Hide Copilot summaries (Summary System Part Support)",
+  "source": "yzhums-com",
+  "published_at": "2025-09-04T01:34:56.000Z",
+  "words": 545,
+  "summary": "Business Central 2025 wave 2 introduces a new Summary system part that allows developers to hide or configure Copilot summary FactBoxes on card, document, and ListPlus pages. This gives control over the automatically displayed summaries that may not be valuable on custom pages like dashboards or those with control add-ins.",
+  "key_points": [
+    "A new Summary system part with identifier DefaultSummaryPart enables developers to control summary visibility on pages",
+    "Summaries can be hidden in page extensions or explicitly defined in new pages using AL code",
+    "The feature supports hiding summaries on custom pages, page extensions, and for specific user profiles",
+    "Users can also click the menu button in the Summary FactBox to hide it temporarily without developer involvement"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "copilot",
+    "summaries",
+    "system part",
+    "page development",
+    "factbox",
+    "al code",
+    "wave 2"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    }
+  ],
+  "features": [
+    "Hide Copilot summaries",
+    "Summary system part",
+    "DefaultSummaryPart identifier",
+    "Page extension support",
+    "Summarize with Copilot"
+  ],
+  "versions": [
+    "BC27",
+    "2025 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This allows developers to hide or configure the Summary factbox when it's not needed.",
+      "why_it_matters": "Summarizes the core capability developers gain in BC27 to control summary visibility"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

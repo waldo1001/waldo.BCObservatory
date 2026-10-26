@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/yzhums-com/67162",
+  "url": "https://yzhums.com/67162/",
+  "title": "Dynamics 365 Business Central: Search for duplicate contacts (automatic and manual)",
+  "source": "yzhums-com",
+  "published_at": "2025-09-02T01:02:22.000Z",
+  "words": 438,
+  "summary": "Dynamics 365 Business Central provides automatic and manual methods to search for duplicate contacts before merging them. Users can configure a Search Hit percentage threshold (default 60%) on the Marketing Setup page to define when contacts are considered duplicates, and Business Central can automatically notify users when creating or modifying contacts if duplicates are detected.",
+  "key_points": [
+    "Configure Search Hit percentage on Marketing Setup page to set duplicate matching threshold",
+    "Enable automatic duplicate search when creating or modifying contacts",
+    "Manually search for duplicates using Generate Duplicate Search String action with filter criteria",
+    "Use Merge Contacts action to merge duplicate contact records"
+  ],
+  "systems": [
+    "crm",
+    "administration"
+  ],
+  "topics": [
+    "duplicate detection",
+    "contacts",
+    "data quality",
+    "merge records",
+    "marketing setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Marketing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Merge Contacts"
+    },
+    {
+      "type": "page",
+      "name": "Duplicate Contacts"
+    },
+    {
+      "type": "page",
+      "name": "Generate Duplicate Search String"
+    }
+  ],
+  "features": [
+    "Automatic duplicate search",
+    "Manual duplicate search",
+    "Search Hit percentage configuration",
+    "Duplicate contact detection",
+    "Contact merge"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Avoiding duplicate contacts can help ensure that you interact with the right person for the right company.",
+      "why_it_matters": "Explains the business value of having clean, non-duplicate contact data for accurate customer interactions."
+    },
+    {
+      "text": "You can specify the percentage of identical data that two contacts must have in order to consider them duplicates.",
+      "why_it_matters": "Shows how the Search Hit percentage setting controls the matching precision for identifying duplicates."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

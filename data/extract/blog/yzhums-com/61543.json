@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/61543",
+  "url": "https://yzhums.com/61543/",
+  "title": "Dynamics 365 Business Central: How to get HTML Image src attribute via AL (The Image Embed element)",
+  "source": "yzhums-com",
+  "published_at": "2025-09-01T00:52:44.000Z",
+  "words": 239,
+  "summary": "The post explains how to extract HTML Image src attributes from images stored in Business Central items using the standard Image Helpers codeunit and GetHTMLImgSrc method. This technique allows developers to retrieve and display image data in HTML format within AL code.",
+  "key_points": [
+    "Business Central provides a standard Image Helpers codeunit (4112) with a GetHTMLImgSrc procedure for obtaining HTML image src attributes",
+    "Images stored as Tenant Media records can be retrieved and converted to HTML-compatible src attributes via AL code",
+    "The WebPageViewer add-in can display images using HTML img tags with embedded src attributes",
+    "Example code demonstrates extending the Item Card page to retrieve and display the HTML src attribute of item pictures"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "image handling",
+    "html integration",
+    "al development",
+    "tenant media",
+    "web display"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Image Helpers"
+    },
+    {
+      "type": "table",
+      "name": "Tenant Media"
+    }
+  ],
+  "features": [
+    "HTML image src attribute retrieval",
+    "base64 image display",
+    "image embedding in web pages",
+    "WebPageViewer add-in"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The HTML Image src attribute of the image can be inserted after src to display it directly.",
+      "why_it_matters": "Explains the fundamental purpose of the src attribute in HTML image tags for direct display"
+    },
+    {
+      "text": "There is a standard method for obtaining HTML Image src attribute directly in BC.",
+      "why_it_matters": "Highlights that developers don't need custom solutions as Business Central provides built-in functionality"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

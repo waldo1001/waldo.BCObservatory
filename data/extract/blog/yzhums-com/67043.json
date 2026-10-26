@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/yzhums-com/67043",
+  "url": "https://yzhums.com/67043/",
+  "title": "Dynamics 365 Business Central: Quickly find the Tenant ID, Azure AD Instance, and Tenant Scope from the domain (tenant) name without signing in",
+  "source": "yzhums-com",
+  "published_at": "2025-08-26T00:55:07.000Z",
+  "words": 295,
+  "summary": "This post explains how to find a Business Central tenant's ID, Azure AD instance, and tenant scope using Microsoft's Where's My Tenant web tool, which requires only the domain name and no sign-in credentials.",
+  "key_points": [
+    "The Where's My Tenant tool allows querying Azure AD for tenant information without password authentication",
+    "You can find the tenant GUID, verify if a tenant exists in Azure AD, and identify which Azure AD instance it resides in",
+    "The tool works with various domain formats including onmicrosoft.com domains, custom domains, and supports special regions like US Government and China",
+    "You can search either by tenant domain name or by entering the Tenant ID directly to find the Azure AD instance"
+  ],
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "tenant id",
+    "azure ad",
+    "authentication",
+    "setup",
+    "tenant lookup"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Azure AD Tenant"
+    }
+  ],
+  "features": [
+    "Where's My Tenant tool",
+    "Tenant lookup",
+    "Azure AD instance discovery",
+    "Tenant scope identification",
+    "Domain-based tenant lookup"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "this will show you if the tenant exists in Azure AD, what the tenant's GUID is, which Azure AD instance the tenant resides in",
+      "why_it_matters": "Describes the core capabilities of the tool for discovering critical tenant information"
+    },
+    {
+      "text": "Because this doesn't require a password, as long as you know the domain, you can view information such as Tenant ID.",
+      "why_it_matters": "Highlights the key advantage that the tool requires no authentication, making it accessible for quick lookups"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

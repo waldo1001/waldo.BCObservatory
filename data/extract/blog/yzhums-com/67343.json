@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/yzhums-com/67343",
+  "url": "https://yzhums.com/67343/",
+  "title": "Business Central 2025 wave 2 (BC27): Truncating table data with new AL method (procedure Truncate)",
+  "source": "yzhums-com",
+  "published_at": "2025-09-04T06:12:41.000Z",
+  "words": 560,
+  "summary": "Business Central 2025 Wave 2 introduces the new Rec.Truncate AL method for efficiently deleting large volumes of table data in a single operation. This method improves performance over row-by-row DeleteAll operations by locking the table during the transaction, with configurable AutoIncrement behavior and delete permission checks, though it has several limitations including incompatibility with temporary tables, try functions, security filters, and tables with media fields.",
+  "key_points": [
+    "Truncate method deletes all matching records in a table efficiently by locking the table until the transaction commits, significantly faster than DeleteAll for bulk operations",
+    "Supports parameters to check truncation support and control whether AutoIncrement fields reset to 0 or retain previous values",
+    "Not supported for temporary tables, system tables, tables with OnBefore/OnAfterDelete event subscriptions, security filters, media fields, flow fields, or when used within try functions",
+    "When used with filters, the method copies data to a temporary table first, creating overhead - use only when deleting a significant portion of table rows"
+  ],
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "al methods",
+    "data deletion",
+    "performance optimization",
+    "table management",
+    "bulk operations"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Rec.Truncate"
+    }
+  ],
+  "features": [
+    "Truncate method",
+    "bulk data deletion",
+    "AutoIncrement control",
+    "delete permissions",
+    "table locking",
+    "filter support"
+  ],
+  "versions": [
+    "BC27",
+    "2025 Wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The new Rec.Truncate method in AL provides a powerful and efficient way to delete large volumes of data from a table.",
+      "why_it_matters": "Establishes the core value proposition of the feature for bulk data cleanup operations"
+    },
+    {
+      "text": "Truncate with a filter should only be used when the majority of the table is being deleted, as otherwise DeleteAll will be more efficient.",
+      "why_it_matters": "Critical guidance for developers on when to apply this method to avoid performance degradation with filters"
+    },
+    {
+      "text": "Truncate allows for less concurrency than DeleteAll, as the entire table will be locked until the transaction is committed.",
+      "why_it_matters": "Important trade-off consideration showing the performance benefit comes at the cost of table-level locking"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

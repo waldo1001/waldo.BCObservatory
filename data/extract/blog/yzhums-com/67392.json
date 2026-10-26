@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/yzhums-com/67392",
+  "url": "https://yzhums.com/67392/",
+  "title": "Business Central 2025 wave 2 (BC27): View SQL call information in performance profiles",
+  "source": "yzhums-com",
+  "published_at": "2025-09-05T05:11:39.000Z",
+  "words": 652,
+  "summary": "Business Central 2025 wave 2 (BC27) adds SQL call visibility to performance profiles in both the in-client profiler and Visual Studio Code, enabling developers and consultants to diagnose whether performance issues stem from AL code or database queries without direct SQL access.",
+  "key_points": [
+    "Performance profiles now display actual SQL calls made during profiling with query details visible on hover and copyable text",
+    "This enhancement helps identify if performance problems are due to inefficient AL code or problematic SQL queries",
+    "Scheduled profiles in the performance overview show total SQL call duration, number of calls, and platform call duration",
+    "Feature builds on earlier profiling capabilities added in BC19 (Visual Studio Code profiler), BC20 (in-client profiler), and BC24 (rule-based scheduling)"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "performance profiling",
+    "sql diagnostics",
+    "debugging",
+    "cloud troubleshooting",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Performance Profiles"
+    },
+    {
+      "type": "page",
+      "name": "Profiler Schedules"
+    }
+  ],
+  "features": [
+    "SQL call visibility in performance profiles",
+    "In-client performance profiler",
+    "Visual Studio Code profiler integration",
+    "Rule-based profiler scheduling",
+    "Interactive profile capture",
+    "Query copyable interface"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2",
+    "BC19",
+    "BC20",
+    "BC24",
+    "BC25"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Understanding SQL performance when troubleshooting in the cloud without direct SQL access can be hard.",
+      "why_it_matters": "Establishes the business need that this feature addresses for cloud-based deployments"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
