@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/yzhums-com/51041",
+  "url": "https://yzhums.com/51041/",
+  "title": "Dynamics 365 Business Central: How to check if a string contains particular strings (if a string is a substring of another)",
+  "source": "yzhums-com",
+  "published_at": "2025-11-26T02:17:30.000Z",
+  "words": 327,
+  "summary": "This post explains two methods to check if a string contains a substring in Business Central using AL code: the Text.StrPos method returns the position of the first occurrence, while Text.Contains returns a boolean value. Both approaches are demonstrated with table extension examples.",
+  "key_points": [
+    "Text.StrPos(Text, Text) searches for the first occurrence of a substring and returns its position, or zero if not found",
+    "Text.Contains(Text) is a simpler alternative that directly returns whether a substring occurs in the string",
+    "For case-insensitive searches, use Text.LowerCase or Text.UpperCase to convert strings before comparing",
+    "Both methods return zero or false if the string or substring is empty"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "string checking",
+    "substring search",
+    "al development",
+    "text methods"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Header"
+    }
+  ],
+  "features": [
+    "StrPos method",
+    "Contains method",
+    "Text comparison",
+    "Case-insensitive search"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Text.StrPos(Text, Text) Method: Searches for the first occurrence of substring inside a string.",
+      "why_it_matters": "This is one of two main approaches for finding substrings, showing the foundational method available in AL"
+    },
+    {
+      "text": "Text.Contains(Text) Method: Returns a value indicating whether a specified substring occurs within this string.",
+      "why_it_matters": "This is the simpler, more modern alternative method that directly answers the question of substring existence"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

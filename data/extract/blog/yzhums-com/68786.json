@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/yzhums-com/68786",
+  "url": "https://yzhums.com/68786/",
+  "title": "Dynamics 365 Business Central: How to record extra serial or lot number information (Item Tracking Comments)",
+  "source": "yzhums-com",
+  "published_at": "2025-11-21T02:41:50.000Z",
+  "words": 326,
+  "summary": "Recording extra information for serial or lot numbers using the Item Tracking Comments feature allows companies to track quality assurance details and other metadata without customization. The feature uses a dedicated table to store comments linked to each tracking number.",
+  "key_points": [
+    "Create a Lot/Serial No. Information card manually or automatically from inbound documents",
+    "Add comments to tracking numbers via the Item Tracking Comments page for quality assurance and other details",
+    "No customization required, supports unlimited comments, and uses dedicated table for easy access during development",
+    "Alternative: use Notes from the system part to write notes on records"
+  ],
+  "systems": [
+    "inventory",
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "item tracking",
+    "lot numbers",
+    "serial numbers",
+    "comments",
+    "quality assurance",
+    "metadata"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Tracking Comment"
+    }
+  ],
+  "features": [
+    "Item Tracking Comments",
+    "Lot/Serial No. Information card",
+    "Comment Sheet page",
+    "Notes functionality"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The advantage of this method is that it requires no customization and supports an unlimited number of comments.",
+      "why_it_matters": "Highlights that this is a native capability that is easy to implement without development resources"
+    },
+    {
+      "text": "It uses a dedicated table, Item Tracking Comment (6506), to manage these comments, making them relatively easy to access during custom development.",
+      "why_it_matters": "Important for developers who need to access or extend this functionality programmatically"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

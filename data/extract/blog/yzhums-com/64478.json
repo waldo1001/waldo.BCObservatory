@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/64478",
+  "url": "https://yzhums.com/64478/",
+  "title": "Dynamics 365 Business Central: How to quickly check if a field is a primary key field",
+  "source": "yzhums-com",
+  "published_at": "2025-11-28T02:29:20.000Z",
+  "words": 498,
+  "summary": "This post explains how to programmatically check if a field is part of a table's primary key in AL code. It provides standard AL methods using RecordRef and KeyRef to determine primary key membership and the field's position within the key sequence.",
+  "key_points": [
+    "Every table has exactly one primary key that uniquely identifies records; only table objects can define primary keys, while table extensions inherit them",
+    "Secondary keys create SQL indexes and can be defined multiple times in both table objects and extensions",
+    "AL provides standard methods in codeunit 9800 that use RecordRef and KeyRef objects to check primary key membership without querying the Key table",
+    "The IsPrimaryKeyField method returns a boolean and can also determine the field's sequence number within the primary key"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al development",
+    "table design",
+    "keys",
+    "primary keys",
+    "field validation"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Key"
+    },
+    {
+      "type": "codeunit",
+      "name": "User"
+    }
+  ],
+  "features": [
+    "primary key detection",
+    "key field identification",
+    "RecordRef API",
+    "KeyRef API"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Every table has a primary key, and there can only be one primary key per table. Primary keys are defined on table objects only.",
+      "why_it_matters": "Establishes the fundamental constraint that guides how developers structure table definitions and extensions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/yzhums-com/69209",
+  "url": "https://yzhums.com/69209/",
+  "title": "Dynamics 365 Business Central: Uninstall apps from Admin Center",
+  "source": "yzhums-com",
+  "published_at": "2025-12-02T01:44:22.000Z",
+  "words": 394,
+  "summary": "Apps can be uninstalled from the Business Central Administration Center's Manage Apps page without entering specific environments. The admin center shows dependent apps that must also be uninstalled and allows optional deletion of application data.",
+  "key_points": [
+    "Use the Manage Apps page in Business Central Administration Center to uninstall apps across environments directly",
+    "The Available Uninstall Action column shows which apps can be uninstalled; Base Application and some others display N/A",
+    "Dependent apps are automatically identified and must be uninstalled together; the system asks for confirmation",
+    "Deleting application data during uninstall removes fields and tables created by the app, recoverable only through point-in-time restore"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "app management",
+    "admin center",
+    "extensions",
+    "uninstall",
+    "dependent apps"
+  ],
+  "objects": [],
+  "features": [
+    "Manage Apps page",
+    "Uninstall action",
+    "app dependencies",
+    "application data deletion",
+    "point-in-time restore"
+  ],
+  "versions": [
+    "2025 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "installed apps can be uninstalled directly from the Manage Apps page in the Business Central Administration Center",
+      "why_it_matters": "Shows the streamlined approach for managing extensions without entering individual environments"
+    },
+    {
+      "text": "If application data is deleted, the only way to recover it afterwards is by performing a point-in-time restore of the environment",
+      "why_it_matters": "Highlights the critical consequence of deleting app data during uninstall, important for avoiding data loss"
+    },
+    {
+      "text": "If other apps depend on the app that is being uninstalled, those dependent apps also have to be uninstalled",
+      "why_it_matters": "Explains automatic dependency management that prevents broken dependencies"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

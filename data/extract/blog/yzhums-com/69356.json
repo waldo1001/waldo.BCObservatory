@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/yzhums-com/69356",
+  "url": "https://yzhums.com/69356/",
+  "title": "Dynamics 365 Business Central: How to automatically archive sales orders via AL (For example, Archive on Order Release)",
+  "source": "yzhums-com",
+  "published_at": "2025-12-04T01:56:19.000Z",
+  "words": 375,
+  "summary": "This post explains how to automatically archive sales orders in Business Central when they are released using AL code. It covers the standard archiving capabilities for sales documents and demonstrates how to extend automatic archiving beyond the built-in triggers by subscribing to the release event and calling the ArchiveManagement codeunit.",
+  "key_points": [
+    "Business Central allows archiving of sales, purchase, service orders, quotes, return orders, blanket orders, and projects multiple times with each archive creating a new version",
+    "Standard automatic archiving triggers exist for status changes, document deletion, printing/sending, quote-to-order conversion, and posting",
+    "Adding custom automatic archiving triggers like order release requires AL code using event subscribers to extend beyond built-in functionality",
+    "The ArchiveManagement codeunit's StoreSalesDocument method enables programmatic archiving without showing confirmation dialogs",
+    "Archived sales documents can be restored to overwrite the original if it still exists and is unposted"
+  ],
+  "systems": [
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "archiving",
+    "sales orders",
+    "automation",
+    "al development",
+    "event subscribers"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ArchiveManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "Release Sales Document"
+    },
+    {
+      "type": "codeunit",
+      "name": "ArchiveEventHandler"
+    },
+    {
+      "type": "page",
+      "name": "Archived Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    }
+  ],
+  "features": [
+    "automatic archiving",
+    "document archiving",
+    "sales order archiving",
+    "event subscribers",
+    "archive restoration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "In Business Central, you can archive sales, purchase, and service orders, quotes, return orders, and blanket orders.",
+      "why_it_matters": "Establishes the scope of archivable document types, helping users understand what can be archived in the system"
+    },
+    {
+      "text": "We can use the following standard method. codeunit 5063 ArchiveManagement -> StoreSalesDocument",
+      "why_it_matters": "Provides the practical solution approach using existing platform APIs without requiring full custom implementation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

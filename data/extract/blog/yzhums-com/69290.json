@@ -1,0 +1,75 @@
+{
+  "item_id": "blog/yzhums-com/69290",
+  "url": "https://yzhums.com/69290/",
+  "title": "Dynamics 365 Business Central: Regarding the issue where the Source Currency Amount in G/L Entry differs from the pre-posting Amount in BC27",
+  "source": "yzhums-com",
+  "published_at": "2025-12-03T01:26:10.000Z",
+  "words": 652,
+  "summary": "When posting general journal lines with foreign currencies in BC27, the Source Currency Amount field in G/L Entry is recalculated from the LCY amount using the exchange rate, resulting in a value that differs from the original journal amount. This occurs because the posting logic recalculates the source currency amount instead of using the amount directly from the journal line.",
+  "key_points": [
+    "Source Currency Code and Source Currency Amount fields were added to G/L Entry table in BC24 with the G/L Revaluation feature",
+    "The posting process recalculates Source Currency Amount by dividing the LCY VAT Base Amount by the exchange rate rather than using the journal line amount directly",
+    "The recalculation can cause the posted Source Currency Amount to differ from the pre-posting amount due to rounding in the exchange rate calculation",
+    "This behavior appears to apply to payment journals with foreign currencies and affects how original transaction amounts are stored"
+  ],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "general ledger",
+    "currency",
+    "posting",
+    "exchange rates",
+    "g/l entry",
+    "data accuracy"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Gen. Journal Line"
+    },
+    {
+      "type": "table",
+      "name": "Currency Exchange Rate"
+    },
+    {
+      "type": "codeunit",
+      "name": "Gen. Jnl.-Post Line"
+    }
+  ],
+  "features": [
+    "G/L Revaluation",
+    "Source Currency Amount",
+    "Foreign currency posting",
+    "Exchange rate calculation",
+    "General ledger posting"
+  ],
+  "versions": [
+    "BC27",
+    "BC24"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "the Source Currency Amount does not match the amount before posting",
+      "why_it_matters": "Identifies the core issue: posted amounts differ from what users entered, affecting financial record accuracy"
+    },
+    {
+      "text": "I'm not sure if this is by design or a bug",
+      "why_it_matters": "Highlights uncertainty about whether this behavior is intentional or an issue, important for understanding whether a fix is needed"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
