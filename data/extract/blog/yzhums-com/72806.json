@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/72806",
+  "url": "https://yzhums.com/72806/",
+  "title": "Business Central 2026 release wave 1 (BC28): Newly added Workflow Templates (Item Journals & Requisition Worksheets) missing in upgraded environments",
+  "source": "yzhums-com",
+  "published_at": "2026-05-12T01:04:43.000Z",
+  "words": 214,
+  "summary": "Business Central 2026 wave 1 adds approval workflows for item journals and requisition worksheets, but these templates are missing from upgraded environments. Users must reset Microsoft templates via Tell Me to access the new workflow features.",
+  "key_points": [
+    "Item journals and requisition worksheets now support approval workflows in BC28",
+    "New workflow templates appear in fresh installations but are absent in upgraded environments",
+    "Templates can be restored by selecting Tell Me, searching Workflow Templates, and choosing Reset Microsoft Templates",
+    "This manual reset is currently the only way to access the new functionality in upgraded systems"
+  ],
+  "systems": [
+    "finance",
+    "purchasing",
+    "administration"
+  ],
+  "topics": [
+    "workflow templates",
+    "approvals",
+    "item journals",
+    "requisition worksheets",
+    "bc28",
+    "upgrade"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Workflow Templates"
+    }
+  ],
+  "features": [
+    "Approval workflows for item journals",
+    "Approval workflows for requisition worksheets",
+    "Reset Microsoft Templates"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1",
+    "28.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Choose Reset Microsoft Templates. After a short while, you will see these two new Worfklow Templates.",
+      "why_it_matters": "Provides the solution for accessing missing workflow templates in upgraded environments."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

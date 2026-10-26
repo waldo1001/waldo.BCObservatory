@@ -1,0 +1,110 @@
+{
+  "item_id": "blog/yzhums-com/71463",
+  "url": "https://yzhums.com/71463/",
+  "title": "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)",
+  "source": "yzhums-com",
+  "published_at": "2026-05-21T00:45:52.000Z",
+  "words": 941,
+  "summary": "Business Central 2026 wave 1 introduces built-in withholding tax functionality for vendors, eliminating the need for third-party solutions or customizations. The feature automatically calculates and withholds taxes from vendor payments based on configurable rules and posting groups.",
+  "key_points": [
+    "Withholding tax is calculated when posting or paying vendor invoices based on setup configuration",
+    "Setup requires enabling withholding tax, configuring revenue types, and assigning business and product posting groups to vendors and items",
+    "Calculation rules, minimum invoice amounts, and realization timing control when withholding tax is applied",
+    "The feature includes withholding tax entries, settlement processing, and reporting capabilities"
+  ],
+  "systems": [
+    "purchasing",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "withholding tax",
+    "vendor payments",
+    "tax compliance",
+    "posting groups",
+    "purchase invoices",
+    "bc28"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "table",
+      "name": "Withholding Tax Revenue Types"
+    },
+    {
+      "type": "table",
+      "name": "Withholding Tax Bus. Post. Group"
+    },
+    {
+      "type": "table",
+      "name": "Withholding Tax Prod. Post. Group"
+    },
+    {
+      "type": "table",
+      "name": "Withholding Tax Posting Setup"
+    },
+    {
+      "type": "table",
+      "name": "Withholding Tax Entries"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Credit Memo"
+    },
+    {
+      "type": "other",
+      "name": "Withholding Tax Certificate Nos."
+    }
+  ],
+  "features": [
+    "Calculate withholding taxes for vendors",
+    "Withholding tax posting groups",
+    "Withholding tax calculation rules",
+    "Withholding tax settlement processing",
+    "Withholding tax entries",
+    "Round payment amount for withholding tax",
+    "Withholding tax absorb base"
+  ],
+  "versions": [
+    "BC28",
+    "2026 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central calculates withholding tax when you pay a vendor invoice, or when you post it, based on your setup.",
+      "why_it_matters": "Describes the core automatic calculation mechanism that applies withholding tax at the appropriate transaction point"
+    },
+    {
+      "text": "Withholding Tax feature is currently in preview.",
+      "why_it_matters": "Important warning that testing in sandbox before production use is strongly recommended"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

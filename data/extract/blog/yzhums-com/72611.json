@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/72611",
+  "url": "https://yzhums.com/72611/",
+  "title": "Business Central 2026 release wave 1 (BC28): Copy contacts from BC to Microsoft 365 (Outlook & Teams)",
+  "source": "yzhums-com",
+  "published_at": "2026-05-18T02:21:04.000Z",
+  "words": 697,
+  "summary": "Business Central 2026 wave 1 introduces improved contact synchronization that lets users copy contacts from BC to Microsoft 365 Outlook and Teams with a new Synchronize with Outlook action, including enhanced security for Outlook add-ins and deprecation of Exchange Synch setup pages.",
+  "key_points": [
+    "New Synchronize with Outlook action on the Contacts list enables copying contacts to Outlook and Teams with filtering and direction control options",
+    "Enhanced security requires extra one-time setup when installing Outlook add-ins; administrators can still use centralized deployment",
+    "Force full sync option available to overcome synchronization issues by synchronizing contacts regardless of last modification date",
+    "Users must upgrade to BC version 28.0 or later by October 1, 2026, as Exchange Web Services discontinuation will break these features in earlier versions"
+  ],
+  "systems": [
+    "crm",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "outlook integration",
+    "contact synchronization",
+    "microsoft 365",
+    "teams",
+    "office add-in",
+    "security",
+    "bc28"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Contacts"
+    }
+  ],
+  "features": [
+    "Outlook contact synchronization",
+    "Outlook add-in",
+    "Teams integration",
+    "Centralized deployment",
+    "Force full sync",
+    "Exchange Web Services migration"
+  ],
+  "versions": [
+    "28.0",
+    "2026 wave 1",
+    "BC28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can easily author mails or schedule meetings with business contacts from Outlook and Teams.",
+      "why_it_matters": "Demonstrates the workflow benefit of contact synchronization for users working in email and collaboration tools"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

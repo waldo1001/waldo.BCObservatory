@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/yzhums-com/72906",
+  "url": "https://yzhums.com/72906/",
+  "title": "Dynamics 365 Business Central: Newly added standard extensions missing in upgraded environments (Uninstalled apps will now remain uninstalled)",
+  "source": "yzhums-com",
+  "published_at": "2026-05-14T00:18:16.000Z",
+  "words": 381,
+  "summary": "In Business Central 2026 release wave 1, newly added standard extensions like External Storage for Document Attachments are not automatically installed in upgraded environments due to a change where uninstalled apps remain uninstalled. Partners must manually install missing extensions using direct URLs or AppSource.",
+  "key_points": [
+    "New standard extensions are not automatically installed during environment upgrades to BC28",
+    "Microsoft changed behavior so uninstalled apps remain uninstalled after upgrades",
+    "Missing extensions can be installed manually via direct URL using the extension's App ID",
+    "Standard extensions will be available on AppSource for one-click installation"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "extensions",
+    "installation",
+    "upgrades",
+    "standard apps",
+    "appstore"
+  ],
+  "objects": [],
+  "features": [
+    "External Storage for Document Attachments",
+    "AppSource Extension Gallery",
+    "uninstalled apps persistence"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "uninstalled apps will now remain uninstalled",
+      "why_it_matters": "Explains the root cause of why newly added standard extensions are missing in upgraded environments"
+    },
+    {
+      "text": "this extension is not automatically installed in upgraded environments",
+      "why_it_matters": "Clarifies the specific behavior change affecting the External Storage extension in BC28 upgrades"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

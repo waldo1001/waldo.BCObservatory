@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/yzhums-com/72933",
+  "url": "https://yzhums.com/72933/",
+  "title": "Business Central 2026 release wave 1 (BC28.1): Control the lifecycle of report layouts (Layout Status)",
+  "source": "yzhums-com",
+  "published_at": "2026-05-15T00:26:30.000Z",
+  "words": 349,
+  "summary": "Report layout administrators can now control the lifecycle of report layouts by assigning statuses (Draft, Pending Approval, Approved, or Retired) to ensure only approved layouts are available to users. This feature, introduced in Business Central 2026 wave 1 (BC28.1), improves governance, compliance, and reporting consistency.",
+  "key_points": [
+    "Layout statuses control approval stages: Draft, Pending Approval, Approved, and Retired",
+    "Only Approved layouts appear on report request pages for user selection",
+    "Status is changed via Actions menu, not directly editable in the layout",
+    "Multiple layouts can have their status changed simultaneously",
+    "Status cannot be changed for layouts provided by extensions"
+  ],
+  "systems": [
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "report layouts",
+    "governance",
+    "approval workflow",
+    "lifecycle management",
+    "compliance"
+  ],
+  "objects": [],
+  "features": [
+    "Layout Status field",
+    "Report layout lifecycle control",
+    "Status approval stages",
+    "Multi-layout status updates"
+  ],
+  "versions": [
+    "2026 wave 1",
+    "BC28.1",
+    "28.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Only Approved layouts are available for selection on report request pages.",
+      "why_it_matters": "Defines the practical enforcement of the layout status feature to prevent unapproved reports from being used"
+    },
+    {
+      "text": "Report layout administrators can set the status of report layouts to control their lifecycle stages.",
+      "why_it_matters": "Explains the core capability and who benefits from this new feature"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

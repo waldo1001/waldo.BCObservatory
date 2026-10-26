@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/yzhums-com/72984",
+  "url": "https://yzhums.com/72984/",
+  "title": "Dynamics 365 Business Central: Understanding the State/Region/Province/County field on the Customer Card",
+  "source": "yzhums-com",
+  "published_at": "2026-05-19T00:56:21.000Z",
+  "words": 430,
+  "summary": "The State/Region/Province/County field on the Customer Card in Business Central dynamically changes its caption and visibility based on the Country/Region master data settings, specifically the 'County Name' and 'Address Format' configuration. Understanding these settings helps explain why the field appears differently across customers and environments.",
+  "key_points": [
+    "The field caption changes dynamically to County, State, Region, or Province depending on country/region configuration",
+    "Visibility and caption are controlled by two settings in Countries/Regions master: County Name and Address Format",
+    "Address Format determines whether the field displays at all, while County Name sets the localized caption",
+    "You can use Custom Address Format to adjust field display order and toggle visibility for specific countries"
+  ],
+  "systems": [
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "customer card",
+    "address fields",
+    "countries/regions",
+    "configuration",
+    "field visibility"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Countries/Regions"
+    },
+    {
+      "type": "page",
+      "name": "Custom Address Format"
+    }
+  ],
+  "features": [
+    "Address Format configuration",
+    "County Name localization",
+    "Custom Address Format",
+    "Field visibility control"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The field below 'City' dynamically changes its caption, it may display as 'County,' 'State,' 'Region,' or 'Province.'",
+      "why_it_matters": "Explains the core behavior that causes confusion about why the field appears differently in different environments"
+    },
+    {
+      "text": "It is determined by the 'County Name' and 'Address Format' settings in the 'Countries/Regions' master.",
+      "why_it_matters": "Identifies the root cause configuration that controls field behavior, allowing users to troubleshoot visibility issues"
+    },
+    {
+      "text": "The 'Address Format' determines whether the field itself should be displayed on the page.",
+      "why_it_matters": "Clarifies the specific setting that controls whether the field appears at all versus just its caption"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

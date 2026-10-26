@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/72842",
+  "url": "https://yzhums.com/72842/",
+  "title": "Business Central 2026 release wave 1 (BC28.1): Create new Purchase Invoice from PDF (Out-of-the-Box)",
+  "source": "yzhums-com",
+  "published_at": "2026-05-13T01:12:26.000Z",
+  "words": 426,
+  "summary": "Business Central 2026 wave 1 adds the ability to manually upload PDFs directly on the Purchase Invoices page to create purchase invoices using the Payables Agent, eliminating the need for email-triggered vendor invoice processing. The agent analyzes the PDF, attempts to identify the vendor, generates a draft with field suggestions and reasoning, and creates the invoice after user confirmation.",
+  "key_points": [
+    "Purchase invoices can now be created manually from PDF files via a new 'New from PDF' button on the Purchase Invoices page, complementing the existing email-based Payables Agent workflow",
+    "The Payables Agent analyzes PDF documents, identifies the vendor, and generates a draft with suggested field values and explanations of its reasoning",
+    "Users review the draft, confirm details section by section, and can adjust values before finalizing the purchase invoice creation",
+    "This feature consumes Copilot credits (65 credits in the test example) and automatically enables the Payables Agent"
+  ],
+  "systems": [
+    "purchasing",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "purchase invoices",
+    "payables agent",
+    "pdf processing",
+    "copilot",
+    "automation",
+    "e-documents",
+    "ai"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    }
+  ],
+  "features": [
+    "Create Purchase Invoice from PDF",
+    "Payables Agent",
+    "PDF document processing",
+    "Vendor identification",
+    "Agent task generation",
+    "Purchase document draft",
+    "Copilot credits consumption"
+  ],
+  "versions": [
+    "2026 wave 1",
+    "BC28.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "We can now manually upload a PDF to create a Purchase Invoice.",
+      "why_it_matters": "This is the core capability addition that eliminates dependency on email-triggered workflows for vendor invoice processing"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
