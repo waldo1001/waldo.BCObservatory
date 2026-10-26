@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/66675",
+  "url": "https://yzhums.com/66675/",
+  "title": "Dynamics 365 Business Central: “There is nothing to post because the journal does not contain a quantity or amount” when posting Recurring Journals",
+  "source": "yzhums-com",
+  "published_at": "2025-08-25T00:33:38.000Z",
+  "words": 491,
+  "summary": "Recurring General Journals fail to post with the error 'There is nothing to post because the journal does not contain a quantity or amount' when the posting date is set after the current work date. The system filters recurring journal lines to only include those up to the current work date, causing lines with future dates to be excluded from posting.",
+  "key_points": [
+    "Recurring journals allow posting of fixed and variable amounts for repetitive transactions like rent, subscriptions, utilities with automatic reversal options.",
+    "The posting error occurs because codeunit 13 'Gen. Jnl.-Post Batch' filters posting date from 0D to work date, excluding future-dated lines.",
+    "Solution is to adjust the work date to match or exceed the posting date of journal lines.",
+    "The same filtering issue affects other recurring journals like Recurring Item Journal and Recurring Resource Journal.",
+    "Allocation keys can distribute recurring entries across multiple accounts."
+  ],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "recurring journals",
+    "posting error",
+    "work date",
+    "general ledger",
+    "troubleshooting",
+    "allocation keys"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Gen. Jnl.-Post"
+    },
+    {
+      "type": "codeunit",
+      "name": "Journal Errors Mgt."
+    },
+    {
+      "type": "codeunit",
+      "name": "Gen. Jnl.-Post Batch"
+    }
+  ],
+  "features": [
+    "Recurring General Journals",
+    "Automatic Reversal Entries",
+    "Allocation Accounts",
+    "Work Date Filtering"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This is in itself a protection measure for BC, not to post Recurring General Journals with future dates.",
+      "why_it_matters": "Clarifies that the filtering behavior is intentional system design to prevent accidental posting of future-dated transactions."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

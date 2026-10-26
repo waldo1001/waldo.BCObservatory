@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/66542",
+  "url": "https://yzhums.com/66542/",
+  "title": "Dynamics 365 Business Central: What does the category (Lists, Tasks, Administration, Archive……) mean when searching from Tell Me? (Usage Category)",
+  "source": "yzhums-com",
+  "published_at": "2025-08-15T01:03:56.000Z",
+  "words": 543,
+  "summary": "The UsageCategory property in AL determines how pages, reports, and queries appear when users search via Tell Me in Business Central. Setting this property correctly categorizes objects in search results and the role explorer, helping users navigate and improving productivity.",
+  "key_points": [
+    "UsageCategory is an AL property that makes pages, reports, and queries searchable in Tell Me and must be explicitly set or objects won't appear in search results",
+    "The property has six values: None, Lists, Tasks, ReportsAndAnalysis, Documents, History, and Administration, each mapping to different categories in the UI",
+    "UsageCategory categories appear in Tell Me search results and also control visibility in the role explorer's Reports and Analysis and Administration sections",
+    "A consistent approach to categorizing pages and reports using UsageCategory improves user navigation and productivity"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "tell me",
+    "search",
+    "usage category",
+    "page",
+    "report",
+    "query",
+    "al development",
+    "best practices"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    }
+  ],
+  "features": [
+    "Tell Me search",
+    "UsageCategory property",
+    "page categorization",
+    "report categorization",
+    "query searchability",
+    "role explorer"
+  ],
+  "versions": [
+    "BC23.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A consistent approach helps guiding the user and improves productivity.",
+      "why_it_matters": "This emphasizes that consistent categorization of objects is a best practice that directly impacts user experience and efficiency in finding what they need."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

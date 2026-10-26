@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/16503",
+  "url": "https://yzhums.com/16503/",
+  "title": "Dynamics 365 Business Central Cloud (SaaS): Find out when your license expires (expiration date)",
+  "source": "yzhums-com",
+  "published_at": "2025-08-21T01:06:17.000Z",
+  "words": 411,
+  "summary": "Checking Business Central license expiration dates in the Microsoft 365 admin center. Users can find subscription renewal or expiration dates on the Billing > Your products page, with indicators for recurring billing or fixed expiration dates.",
+  "key_points": [
+    "Navigate to Microsoft 365 admin center Billing section to view all subscriptions",
+    "Circle arrow icon indicates recurring billing; a date means the subscription expires on that date",
+    "Trial environments do not display expiration dates",
+    "Expired products show a Disabled status with an expiration message"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "licensing",
+    "microsoft 365 admin center",
+    "subscription management",
+    "cloud saas",
+    "tenant administration"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Tenant License State"
+    }
+  ],
+  "features": [
+    "License expiration date tracking",
+    "Microsoft 365 admin center integration",
+    "Subscription renewal management",
+    "Cloud SaaS licensing",
+    "Microsoft Entra ID authentication"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central is a full cloud solution now, included as an app in Microsoft 365.",
+      "why_it_matters": "Establishes that Business Central is now a cloud-only solution requiring Microsoft 365 integration and Entra ID authentication."
+    },
+    {
+      "text": "In the Microsoft 365 admin center, go to the Billing -> Your products page.",
+      "why_it_matters": "Provides the exact navigation path to find license expiration information."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/yzhums-com/66210",
+  "url": "https://yzhums.com/66210/",
+  "title": "Dynamics 365 Business Central: Set the Document No. with dynamic dates in Recurring General Journals",
+  "source": "yzhums-com",
+  "published_at": "2025-08-13T00:36:51.000Z",
+  "words": 528,
+  "summary": "Recurring General Journals allow you to set document numbers with dynamic dates using Document Number Formulas with placeholder codes like %1 for day, %3 for month, and %4 for month name. This feature helps manage recurring transactions for expenses such as rent and subscriptions with automatically formatted document identifiers.",
+  "key_points": [
+    "Recurring journals use the Posting No. Series field to generate document numbers, not the Document No. field like regular General Journals",
+    "Document Number Formulas support placeholder codes (%1-%5) that automatically insert date components, period information, and accounting period names",
+    "Allocation keys can divide recurring entries among various accounts, and automatic reversal entries can be specified for the day after posting",
+    "This feature works without customization by entering placeholders in the period description, such as 'PAYMENT FOR %4 %1' to display 'PAYMENT FOR JULY 1'"
+  ],
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "recurring journals",
+    "document numbering",
+    "general ledger",
+    "automation",
+    "posting"
+  ],
+  "objects": [],
+  "features": [
+    "Recurring General Journals",
+    "Document Number Formulas",
+    "Posting No. Series",
+    "Allocation keys",
+    "Automatic reversal entries"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A recurring journal is a general journal with specific fields for managing transactions that you often post with few, if any, changes.",
+      "why_it_matters": "Defines the purpose and use case of recurring journals for handling repetitive transactions"
+    },
+    {
+      "text": "You can enter the following placeholder codes for typical values. The values are added automatically when the period description displays.",
+      "why_it_matters": "Explains the core mechanism for implementing dynamic dates in document numbers without customization"
+    },
+    {
+      "text": "Only the Posting No. Series field can be filled in on recurring journals.",
+      "why_it_matters": "Key difference from standard General Journals that clarifies how document numbering works in recurring journals"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

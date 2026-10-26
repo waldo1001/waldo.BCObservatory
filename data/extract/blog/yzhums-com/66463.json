@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/yzhums-com/66463",
+  "url": "https://yzhums.com/66463/",
+  "title": "Dynamics 365 Business Central: How to prevent users from uploading duplicate files as attachments (Duplicate file names)",
+  "source": "yzhums-com",
+  "published_at": "2025-08-07T01:14:19.000Z",
+  "words": 469,
+  "summary": "Preventing duplicate file attachments in Business Central requires customization because the standard allows the same file to be uploaded multiple times. The post demonstrates a solution using a table extension to add a setting and an event subscriber to block duplicate file names based on configuration.",
+  "key_points": [
+    "Standard Business Central allows uploading duplicate files with the same name to attachments",
+    "The AllowDuplicateFileName variable in table 1173 Document Attachment controls this behavior but has no UI setting",
+    "No standard event forces this value, so customization is needed",
+    "Solution uses a table extension to General Ledger Setup plus an event subscriber on OnInsertAttachmentOnBeforeImportStream"
+  ],
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "attachments",
+    "documents",
+    "duplicate prevention",
+    "customization",
+    "factbox"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Document Attachment"
+    },
+    {
+      "type": "table",
+      "name": "General Ledger Setup"
+    }
+  ],
+  "features": [
+    "file attachments",
+    "duplicate file detection",
+    "document attachment management",
+    "drag and drop upload"
+  ],
+  "versions": [
+    "Business Central 2024 wave 2",
+    "BC25"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "In the standard Business Central, it is allowed to upload the same file multiple times, which means duplicate files.",
+      "why_it_matters": "Identifies the core problem that needs to be solved"
+    },
+    {
+      "text": "There is no Allow Duplicate FileName setting in the BC, and there is no event to force the value of this variable.",
+      "why_it_matters": "Explains why standard configuration alone cannot solve this problem"
+    },
+    {
+      "text": "So this can't be done in the standard, and requires some simple customization.",
+      "why_it_matters": "Clarifies that a code-based solution is necessary"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

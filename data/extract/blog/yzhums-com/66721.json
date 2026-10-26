@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/yzhums-com/66721",
+  "url": "https://yzhums.com/66721/",
+  "title": "Dynamics 365 Business Central: How to quickly clear/remove all breakpoints in VS Code",
+  "source": "yzhums-com",
+  "published_at": "2025-08-18T01:05:03.000Z",
+  "words": 304,
+  "summary": "VS Code debugging for Business Central allows developers to set breakpoints to pause code execution. This post explains two methods to clear all breakpoints at once: using the Remove All Breakpoints button in the Breakpoints tab, or adding a custom keyboard shortcut since the feature lacks a default shortcut like Visual Studio's Ctrl+Shift+F9.",
+  "key_points": [
+    "Breakpoints pause code execution when the debugger reaches them, helping developers inspect application behavior",
+    "The Breakpoints tab has a Remove All Breakpoints button for bulk clearing without removing breakpoints individually",
+    "VS Code doesn't have a default shortcut for removing all breakpoints, but you can add a custom one through File > Preferences > Keyboard Shortcuts",
+    "Custom shortcuts like Alt+B can replicate Visual Studio's Ctrl+Shift+F9 functionality in VS Code"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "debugging",
+    "vs code",
+    "breakpoints",
+    "al extension",
+    "keyboard shortcuts"
+  ],
+  "objects": [],
+  "features": [
+    "debugger",
+    "breakpoints",
+    "keyboard shortcuts customization"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The basic concept in debugging is the breakpoint, which is a mark that you set on a statement.",
+      "why_it_matters": "Establishes the foundation of debugging methodology that the post builds upon"
+    },
+    {
+      "text": "This shortcut does not exist by default in VS Code.",
+      "why_it_matters": "Explains the problem the post solves - VS Code lacks the convenient breakpoint clearing shortcut available in Visual Studio"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

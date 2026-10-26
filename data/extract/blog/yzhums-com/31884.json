@@ -1,0 +1,86 @@
+{
+  "item_id": "blog/yzhums-com/31884",
+  "url": "https://yzhums.com/31884/",
+  "title": "Dynamics 365 Business Central: Quickly get next Sequence/Entry Number (without using FindLast -> Entry No. + 1)",
+  "source": "yzhums-com",
+  "published_at": "2025-08-20T00:48:27.000Z",
+  "words": 479,
+  "summary": "The post explains how to retrieve the next sequence or entry number for ledger tables in Business Central using the Sequence No. Mgt. codeunit instead of the traditional FindLast() + 1 approach. This provides a cleaner, standard pattern for generating primary keys in ledger tables.",
+  "key_points": [
+    "Business Central supports three methods for generating primary keys: No. Series, AutoSplitKey property, and finding the last number then adding 1",
+    "Ledger tables use integer Entry No. fields that are automatically incremented, requiring sequence number generation when adding custom data",
+    "Codeunit 9500 'Sequence No. Mgt.' provides procedures GetNextSeqNo() and GetCurrentSeqNo() that simplify retrieving sequence numbers without manual FindLast() logic",
+    "The sequence codeunit accepts only tables with integer primary keys; non-integer keys will cause runtime errors",
+    "Using LockTable() before FindLast() may be necessary to prevent simultaneous insertion conflicts"
+  ],
+  "systems": [
+    "development",
+    "finance"
+  ],
+  "topics": [
+    "sequence numbers",
+    "entry numbers",
+    "ledger tables",
+    "primary keys",
+    "codeunits",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "codeunit",
+      "name": "Sequence No. Mgt."
+    },
+    {
+      "type": "codeunit",
+      "name": "NoSeriesManagement"
+    }
+  ],
+  "features": [
+    "No. Series module",
+    "AutoSplitKey property",
+    "Sequence number management",
+    "Entry number generation",
+    "GetNextSeqNo procedure",
+    "GetCurrentSeqNo procedure"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "If the table primary key passed in is not Integer Data Type, a runtime error will occur.",
+      "why_it_matters": "Critical constraint that developers must understand to avoid runtime failures when using the codeunit"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

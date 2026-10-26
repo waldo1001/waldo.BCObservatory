@@ -1,0 +1,107 @@
+{
+  "item_id": "blog/yzhums-com/56521",
+  "url": "https://yzhums.com/56521/",
+  "title": "Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page",
+  "source": "yzhums-com",
+  "published_at": "2025-08-22T00:45:51.000Z",
+  "words": 965,
+  "summary": "This post explains two methods to hide or disable the New, Edit (Edit List), and Delete actions in Business Central pages: using permission sets to exclude Insert, Modify, and Delete permissions, or setting the InsertAllowed, ModifyAllowed, and DeleteAllowed properties (available in BC25 wave 2 for page extensions).",
+  "key_points": [
+    "Special actions like New, Edit, and Delete are not defined in AL code but correspond directly to Insert, Modify, and Delete permissions in Table Data",
+    "Permission exclusion hides actions by graying them out for list pages, but errors occur when users click grayed-out actions in dropdown lists",
+    "InsertAllowed, ModifyAllowed, and DeleteAllowed properties can hide these actions completely on custom pages and from BC25 on standard pages via extensions",
+    "For list pages with card pages, restrict the card page properties; for list pages without card pages, modify the list page directly",
+    "Dropdown list restrictions require identifying which card page opens and modifying its properties instead"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "page actions",
+    "permissions",
+    "personalization",
+    "page extensions",
+    "security"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer List"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Payment Methods"
+    },
+    {
+      "type": "page",
+      "name": "General Journal"
+    },
+    {
+      "type": "page",
+      "name": "Product Videos"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Units of Measure"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Payment Method"
+    }
+  ],
+  "features": [
+    "Action Bar",
+    "Page Personalization",
+    "Page Customization",
+    "Permission Sets",
+    "Page Extensions",
+    "InsertAllowed Property",
+    "ModifyAllowed Property",
+    "DeleteAllowed Property"
+  ],
+  "versions": [
+    "Business Central 2024 wave 2 (BC25)",
+    "Runtime 13.0",
+    "Runtime 14.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "These three actions correspond to the following three permissions of Table Data: New: Insert Permission, Edit (Edit List): Modify Permission, Delete: Delete Permission.",
+      "why_it_matters": "It explains the fundamental mapping between UI actions and permission system, essential for understanding both control methods"
+    },
+    {
+      "text": "From Business Central 2024 wave 2 (BC25), we can modify these three properties in pageextension.",
+      "why_it_matters": "This marks a significant capability change that enables hiding these actions on standard pages without custom code on the page itself"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

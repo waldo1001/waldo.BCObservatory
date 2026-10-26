@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/66461",
+  "url": "https://yzhums.com/66461/",
+  "title": "Dynamics 365 Business Central: How to quickly strip not supported chars in File Name via AL",
+  "source": "yzhums-com",
+  "published_at": "2025-08-14T00:46:07.000Z",
+  "words": 245,
+  "summary": "Saving files from Business Central to external systems requires removing unsupported characters from file names. The post demonstrates using the StripNotsupportChrInFileName method from codeunit 419 to automatically clean file names before export.",
+  "key_points": [
+    "Windows and other systems restrict certain characters in file names (like # % & * : < > ? / \\ | } ~ etc.)",
+    "Business Central allows entering any characters without restriction, creating a mismatch when exporting files",
+    "Codeunit 419 'File Management' provides a built-in StripNotsupportChrInFileName method to sanitize file names",
+    "An alternative method exists in codeunit 9458 'File Account Browser Mgt.' for the same purpose"
+  ],
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "file export",
+    "filename validation",
+    "unsupported characters",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "File Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "File Account Browser Mgt."
+    }
+  ],
+  "features": [
+    "StripNotsupportChrInFileName",
+    "filename sanitization"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "When saving files in Windows or other systems, there are some characters that cannot be contained in file names.",
+      "why_it_matters": "Explains the root cause of the problem developers face when exporting BC data to external systems"
+    },
+    {
+      "text": "However, there is no such restriction when entering data in BC.",
+      "why_it_matters": "Highlights the gap between BC's permissive input and external systems' file naming restrictions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

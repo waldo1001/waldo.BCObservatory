@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/56173",
+  "url": "https://yzhums.com/56173/",
+  "title": "Dynamics 365 Business Central: Entering Quantities/Amounts by Calculation and Negative Numbers",
+  "source": "yzhums-com",
+  "published_at": "2025-08-06T01:08:17.000Z",
+  "words": 334,
+  "summary": "Business Central supports entering calculations and negative numbers directly into decimal fields, functioning like a mini calculator. This feature works with basic arithmetic operations and combined formulas for quantities and amounts, but only applies to decimal data types.",
+  "key_points": [
+    "Decimal fields accept mathematical expressions like 19+19, 41-9, 12*4, or 12/4 that calculate automatically",
+    "Combined calculations work with parentheses like (2+3)*4 as long as there are no spaces in the formula",
+    "Negative numbers can be entered as -20.5 or 20.5- with the final operator determining the sign",
+    "Only decimal data type supports formulas; integer, text, and code fields do not",
+    "Integer fields support negative numbers but text and code fields store formulas as literal text"
+  ],
+  "systems": [
+    "finance",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "data entry",
+    "calculations",
+    "decimal fields",
+    "negative numbers",
+    "formulas",
+    "user tips"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Line"
+    }
+  ],
+  "features": [
+    "formula entry in decimal fields",
+    "inline calculations",
+    "negative number entry",
+    "arithmetic operations"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "When entering numbers into these fields, you can enter the formula instead of the sum quantity.",
+      "why_it_matters": "Explains the core capability that decimal fields accept formulas rather than just static values"
+    },
+    {
+      "text": "This can only be used for Decimal Data type.",
+      "why_it_matters": "Clarifies the important limitation that this feature is restricted to decimal fields only"
+    },
+    {
+      "text": "If the last character of the expression is a + or a - , the entire expression will be recorded with that sign.",
+      "why_it_matters": "Explains the rule for how negative numbers are determined in suffix notation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

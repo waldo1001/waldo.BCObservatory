@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/yzhums-com/64148",
+  "url": "https://yzhums.com/64148/",
+  "title": "How to connect to Dynamics 365 Business Central On-Premises in VS Code (Use the On-Premises version for customization)",
+  "source": "yzhums-com",
+  "published_at": "2025-08-08T01:11:41.000Z",
+  "words": 1048,
+  "summary": "This post explains how to configure VS Code to connect to a Business Central On-Premises environment for AL development. It covers modifying the launch.json file with correct server settings, enabling Developer Services in the BC instance configuration, and verifying authentication methods.",
+  "key_points": [
+    "Update launch.json with the actual On-Premises server URL and instance name from the BC web interface or PowerShell commands",
+    "Enable DeveloperServicesEnabled and configure the DeveloperServicesPort in CustomSettings.config or using Set-NAVServerConfiguration",
+    "Verify your authentication method (Windows is typical for On-Premises) and confirm it matches the launch.json configuration",
+    "Avoid using On-Premises environments for SaaS extension development as available methods differ between the two versions",
+    "The CRONUS demo license now includes RIMDX permissions on all objects, enabling partners to test with AppSource apps in on-premises environments"
+  ],
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "on-premises",
+    "vs code",
+    "al development",
+    "launch.json",
+    "developer services",
+    "setup configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Developer Services configuration",
+    "launch.json setup",
+    "On-Premises connectivity",
+    "Windows authentication",
+    "Snapshot Debugger",
+    "CRONUS demo license RIMDX permissions"
+  ],
+  "versions": [
+    "W1 26.4",
+    "2023 wave 1"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
