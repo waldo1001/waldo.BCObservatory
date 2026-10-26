@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/yzhums-com/63801",
+  "url": "https://yzhums.com/63801/",
+  "title": "Dynamics 365 Business Central Blog Series: REST API web services (APIs)",
+  "source": "yzhums-com",
+  "published_at": "2025-05-02T01:05:05.000Z",
+  "words": 1907,
+  "summary": "This blog series covers REST API web services in Dynamics 365 Business Central, including standard and automation APIs, OAuth authentication, custom API development, error handling, and integration with Microsoft 365 services like SharePoint and OneDrive.",
+  "key_points": [
+    "Business Central supports multiple API types: standard APIs, automation APIs, and custom APIs built with query or codeunit objects",
+    "OAuth 2.0 authentication is required for API access as Basic Auth was removed for Business Central Online",
+    "APIs can be extended, filtered, and used with bound/unbound actions for data manipulation and system integration",
+    "Business Central APIs integrate with Microsoft 365 services including Graph API for SharePoint, OneDrive, and email logging",
+    "Database access intent controls write permissions and database access modes when calling APIs from client applications"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "rest api",
+    "oauth authentication",
+    "graph api",
+    "custom api development",
+    "sharepoint integration",
+    "onedrive integration",
+    "power automate",
+    "api error handling"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "501"
+    },
+    {
+      "type": "query",
+      "name": "API query type"
+    }
+  ],
+  "features": [
+    "Standard APIs (Get, Post, Patch, Delete)",
+    "Automation APIs",
+    "Custom API development",
+    "OAuth 2.0 authentication",
+    "API filtering and query parameters",
+    "Bound and unbound actions",
+    "Graph API integration",
+    "Database Access Intent management"
+  ],
+  "versions": [
+    "Business Central 2022 wave 1 (BC20)",
+    "Release wave 1 2021"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Web Service Access Keys (Basic Auth) for Business Central Online has been removed",
+      "why_it_matters": "OAuth 2.0 is now the mandatory authentication method for API access, requiring developers to update integration patterns"
+    },
+    {
+      "text": "Business Central supports three types of web services: (REST) API, SOAP, and OData",
+      "why_it_matters": "Understanding the different web service types helps developers choose the right approach for their integration needs"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

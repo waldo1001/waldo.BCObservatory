@@ -1,0 +1,79 @@
+{
+  "item_id": "blog/yzhums-com/63749",
+  "url": "https://yzhums.com/63749/",
+  "title": "Dynamics 365 Business Central Blog Series: Integrate Business Central with OneDrive",
+  "source": "yzhums-com",
+  "published_at": "2025-04-30T01:47:34.000Z",
+  "words": 910,
+  "summary": "A blog series covering multiple approaches to integrate Business Central with OneDrive, including file import and export via AL and Graph API, report saving, Power Automate workflows for automated syncing, and native features like Edit in OneDrive and file sharing. The series explains both custom development methods and no-code automation options for handling files and data between Business Central and OneDrive.",
+  "key_points": [
+    "File operations between Business Central and OneDrive can be performed using AL code with Graph API, including import, upload, and report saving",
+    "Power Automate offers no-code solutions to synchronize files and data between OneDrive and Business Central",
+    "Native OneDrive features in Business Central include Edit in OneDrive, Share action, and cloud file configuration",
+    "Custom actions can be implemented to extend OneDrive integration capabilities within Business Central",
+    "Data exchange between systems supports multiple formats including CSV, JSON, and file attachments"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "onedrive",
+    "file management",
+    "graph api",
+    "power automate",
+    "data import/export",
+    "cloud storage",
+    "al development",
+    "automation"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "501"
+    }
+  ],
+  "features": [
+    "OneDrive integration",
+    "Graph API file operations",
+    "Edit in OneDrive",
+    "Share files through OneDrive",
+    "Power Automate workflows",
+    "CSV/JSON data conversion",
+    "Report export to OneDrive",
+    "Cloud Storage configuration"
+  ],
+  "versions": [
+    "BC20",
+    "BC21",
+    "BC22",
+    "2021 Wave 2",
+    "2022 Wave 1",
+    "2022 Wave 2",
+    "2023 Wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "How to import/read files from OneDrive to Business Central via AL (Graph API)",
+      "why_it_matters": "Demonstrates the core use case of programmatically accessing OneDrive files within Business Central using AL code"
+    },
+    {
+      "text": "How to automatically upload files from OneDrive to Business Central with Power Automate (No customization)",
+      "why_it_matters": "Shows no-code automation approach that doesn't require AL development, making OneDrive sync accessible to users without coding skills"
+    },
+    {
+      "text": "Configure OneDrive integration (New assisted setup: Connect your files to the cloud)",
+      "why_it_matters": "Indicates native setup tools in Business Central to simplify OneDrive configuration without manual coding"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

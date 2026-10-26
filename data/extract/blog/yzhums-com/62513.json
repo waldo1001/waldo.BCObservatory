@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/62513",
+  "url": "https://yzhums.com/62513/",
+  "title": "Business Central 2025 wave 1 (BC26): Running objects in actions defaults to UI descriptors on target object",
+  "source": "yzhums-com",
+  "published_at": "2025-05-02T02:25:35.000Z",
+  "words": 383,
+  "summary": "Running objects in actions now defaults to UI descriptors (Caption, Tooltip, AboutText, AboutTitle) from the target object. This ensures consistency and allows existing actions to automatically benefit from descriptors defined on pages and reports without duplication.",
+  "key_points": [
+    "Actions with RunObject property automatically inherit AboutText and AboutTitle from their target page or report",
+    "Actions referring to reports now default to the Tooltip property defined on the target report",
+    "The Tooltip property was added to reports to support this feature",
+    "Property inheritance reduces duplication of UI descriptors across action definitions"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "actions",
+    "ui descriptors",
+    "al development",
+    "runobject",
+    "ui consistency"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Role Explorer"
+    },
+    {
+      "type": "other",
+      "name": "Report Explorer"
+    }
+  ],
+  "features": [
+    "RunObject property defaults",
+    "UI descriptor inheritance",
+    "Caption defaults",
+    "Tooltip property on reports",
+    "AboutText defaults",
+    "AboutTitle defaults",
+    "Teaching tooltips in explorers"
+  ],
+  "versions": [
+    "BC26",
+    "2025 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "On pages, actions that refer to reports will default to the Tooltip defined on the target report.",
+      "why_it_matters": "Highlights the specific addition of Tooltip support on reports to enable this consistency feature"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

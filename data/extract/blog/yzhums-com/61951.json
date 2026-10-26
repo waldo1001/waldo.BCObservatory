@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/yzhums-com/61951",
+  "url": "https://yzhums.com/61951/",
+  "title": "Dynamics 365 Business Central: How to disable/hide Power Automate action group for all users",
+  "source": "yzhums-com",
+  "published_at": "2025-04-28T02:25:39.000Z",
+  "words": 346,
+  "summary": "Disable the Power Automate action group for all Business Central users by marking 'Disagree for Everyone' on the Privacy Notices Status page, rather than managing permissions individually.",
+  "key_points": [
+    "Power Automate Automate action group was introduced in BC20 (2022 wave 1) on all pages with data table context",
+    "Users cannot hide or move the Automate menu using personalization, though flows can be moved",
+    "The feature can be hidden per user via permission 9630 Allow Action Automate",
+    "Disabling for all users is simpler: use Privacy Notices Status page and select Disagree for Everyone on Microsoft Power Automate row",
+    "Sign out and back in after making the change for it to take effect"
+  ],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "power automate",
+    "permissions",
+    "action group",
+    "privacy notices",
+    "user configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Power Automate action group",
+    "Automate menu",
+    "Privacy Notices Status page",
+    "Permission 9630 Allow Action Automate"
+  ],
+  "versions": [
+    "BC20",
+    "2022 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can't hide or move the Automate menu or the Power Automate submenu and its actions.",
+      "why_it_matters": "Explains a key limitation of personalization for Power Automate, making permission-based or tenant-wide controls necessary"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

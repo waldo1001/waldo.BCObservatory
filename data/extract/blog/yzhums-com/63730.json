@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/yzhums-com/63730",
+  "url": "https://yzhums.com/63730/",
+  "title": "Dynamics 365 Business Central Blog Series: Preview files directly in the web client",
+  "source": "yzhums-com",
+  "published_at": "2025-04-28T07:39:18.000Z",
+  "words": 427,
+  "summary": "This blog series covers methods to preview various file types (PDF, images, Word, Excel, PowerPoint, video, and more) directly in the Business Central web client without downloading or using custom control add-ins, with native support expanding through BC26 and BC27 releases.",
+  "key_points": [
+    "PDF attachments can be previewed natively in BC26 web client without control add-ins or APIs",
+    "Images and Base64-encoded images can be previewed directly in the web client with enlargement capability",
+    "SharePoint-hosted files (PDF, DOCX, XLSX, PPTX, TXT, CSV, MP4) are supported for preview within Business Central",
+    "BC27 introduces a new Document ExtendedDataType that displays PDFs as portrait images in FactBox controls",
+    "Word documents can be previewed in the web client without downloading files"
+  ],
+  "systems": [
+    "platform",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "file preview",
+    "pdf viewer",
+    "image viewer",
+    "sharepoint integration",
+    "document preview",
+    "web client",
+    "extensiondatatype"
+  ],
+  "objects": [],
+  "features": [
+    "PDF preview in web client",
+    "Image preview and enlargement",
+    "Base64 image viewer",
+    "SharePoint file preview",
+    "Word document preview",
+    "Document ExtendedDataType",
+    "Multi-format file support",
+    "FactBox document display"
+  ],
+  "versions": [
+    "BC26",
+    "BC27",
+    "2025 wave 1",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Preview PDF attachments directly in web client (No control add-in and APIs)",
+      "why_it_matters": "Highlights the native capability in BC26 that eliminates custom development overhead for PDF previewing"
+    },
+    {
+      "text": "Most file types supported for previewing files in SharePoint",
+      "why_it_matters": "Shows the breadth of file format support available through SharePoint integration without JavaScript add-ins"
+    },
+    {
+      "text": "Support for new ExtendedDataType value: Document (display/preview a PDF as a portrait image in FactBox)",
+      "why_it_matters": "Demonstrates BC27's new native data type specifically designed for document display in UI components"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "item_id": "blog/yzhums-com/63762",
+  "url": "https://yzhums.com/63762/",
+  "title": "Dynamics 365 Business Central Blog Series: Import and Export data",
+  "source": "yzhums-com",
+  "published_at": "2025-05-01T01:13:24.000Z",
+  "words": 3156,
+  "summary": "This blog series covers comprehensive methods for importing and exporting data in Dynamics 365 Business Central, including configuration packages, XMLports, Excel buffers, CSV files, reports, media content, and integration with Power Automate, OneDrive, and SharePoint. It helps developers and administrators handle data migration, bulk operations, and file management tasks.",
+  "key_points": [
+    "Configuration packages and XMLports provide standard approaches for bulk data import/export operations",
+    "Excel buffers and CSV files enable exporting table data for analysis and importing from external sources",
+    "Reports can be exported to multiple formats (PDF, Excel, Word, HTML, XML) and saved to cloud storage or files",
+    "Power Automate flows allow no-code data transfer between Business Central, CSV files, Google Sheets, and OneDrive",
+    "Graph API enables direct file operations with OneDrive and SharePoint for attachments and reports without using BC storage capacity"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "data import",
+    "data export",
+    "configuration packages",
+    "xmlports",
+    "excel buffer",
+    "csv files",
+    "power automate",
+    "file management"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Tenant Media"
+    },
+    {
+      "type": "table",
+      "name": "All Control Fields"
+    },
+    {
+      "type": "table",
+      "name": "Page Action"
+    },
+    {
+      "type": "codeunit",
+      "name": "FileManagement"
+    }
+  ],
+  "features": [
+    "Configuration packages",
+    "XMLports",
+    "Excel buffer export/import",
+    "CSV export/import",
+    "Report export to multiple formats",
+    "Power Automate integration",
+    "OneDrive file operations",
+    "SharePoint file operations"
+  ],
+  "versions": [
+    "BC24",
+    "BC25"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Use drag and drop on file upload dialog to attach multiple files",
+      "why_it_matters": "BC25 enhancement that improves user experience for bulk file attachment operations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

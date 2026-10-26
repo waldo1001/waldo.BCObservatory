@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/63887",
+  "url": "https://yzhums.com/63887/",
+  "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (May, 2025)",
+  "source": "yzhums-com",
+  "published_at": "2025-05-05T05:20:33.000Z",
+  "words": 663,
+  "summary": "This post announces cumulative updates released in May 2025 for Business Central versions BC26, BC25, BC24, and BC23, including platform and application build versions for both cloud and on-premises deployments. It also documents support lifecycles and end-of-life dates for multiple release waves from 2019 to 2025.",
+  "key_points": [
+    "BC26 CU01 released with W1 26.1 for both cloud and on-premises environments",
+    "BC25 CU07, BC24 CU13, and BC23 CU18 also released with specific build versions",
+    "BC25 introduced flexible environment management with major updates extending from 30-60 days to 5 months and optional minor updates",
+    "Support lifecycle table shows BC26 (2025 wave 1) supported until October 13, 2026 and BC25 (2024 wave 2) until April 4, 2026",
+    "BC23 and earlier versions marked as end-of-life with specific retirement dates documented"
+  ],
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "cumulative updates",
+    "release waves",
+    "environment management",
+    "support lifecycle",
+    "cloud and on-premises",
+    "versioning"
+  ],
+  "objects": [],
+  "features": [
+    "Production and Sandbox Environment Management",
+    "Major Updates",
+    "Minor Updates",
+    "Platform Updates",
+    "Application Updates"
+  ],
+  "versions": [
+    "26",
+    "25",
+    "24",
+    "23",
+    "22",
+    "21",
+    "20",
+    "19"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Manage environment updates more flexibly - Major update: 30(60) days -> 5-month and Optional minor updates",
+      "why_it_matters": "Shows BC25's key improvement in update flexibility allowing organizations longer update windows and optional minor updates"
+    },
+    {
+      "text": "Dynamics 365 Business Central on-premises (Modern Policy) follows the Modern Lifecycle Policy.",
+      "why_it_matters": "Clarifies that on-premises versions follow modern lifecycle policy with ongoing support, distinguishing from fixed policy versions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

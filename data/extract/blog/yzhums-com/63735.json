@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/63735",
+  "url": "https://yzhums.com/63735/",
+  "title": "Dynamics 365 Business Central Blog Series: Integrate Business Central with SharePoint",
+  "source": "yzhums-com",
+  "published_at": "2025-04-29T05:42:25.000Z",
+  "words": 457,
+  "summary": "This blog series covers integrating Dynamics 365 Business Central with SharePoint for document management, including storing attachments externally, uploading and importing files via Graph API, saving reports to SharePoint, managing attachments, and previewing various file types within Business Central without customization.",
+  "key_points": [
+    "Business Central 2026 wave 1 (BC28) supports storing document attachments outside the database without customization",
+    "Files can be uploaded to and imported from SharePoint document libraries using AL code with Graph API",
+    "Reports can be saved directly to SharePoint both manually and automatically via AL integration",
+    "External attachment storage in SharePoint preserves Business Central database capacity",
+    "Multiple file types (PDF, JPG, PPTX, DOCX, XLSX, TXT, CSV, MP4) can be previewed within Business Central without JavaScript control add-ins"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "sharepoint integration",
+    "document attachments",
+    "graph api",
+    "file management",
+    "external storage",
+    "al development",
+    "file preview"
+  ],
+  "objects": [],
+  "features": [
+    "External document attachment storage",
+    "SharePoint file upload via Graph API",
+    "SharePoint file import via Graph API",
+    "Report export to SharePoint",
+    "Attachment management in SharePoint",
+    "File preview in Business Central"
+  ],
+  "versions": [
+    "2026 wave 1 (BC28)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "How to import/read files from SharePoint (document library) to Business Central via AL (Graph API)",
+      "why_it_matters": "Shows developers can integrate SharePoint content into Business Central using standard Graph API methods"
+    },
+    {
+      "text": "Preview files within BC (PDF, JPG, PPTX, DOCX, XLSX, TXT, CSV, MP4...... Most file types supported for previewing files in SharePoint)",
+      "why_it_matters": "Demonstrates broad file type support for previewing without requiring custom controls"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
