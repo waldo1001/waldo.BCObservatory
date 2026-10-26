@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-26T08:46:07.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,6 +111,7 @@ links:
     - post/aardvarklabs-blog/3704
     - post/waldo-be/317951
     - post/yzhums-com/63559
+    - post/yzhums-com/64265
     - post/yzhums-com/69356
     - post/yzhums-com/72250
     - post/yzhums-com/74172
@@ -148,7 +149,7 @@ coverage:
   learn: 10
   code: 0
   video: 1
-  blog: 7
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 333d762410d8da9593a67b5f251849371d43d059d2186deb5309f4efe220cfad
@@ -225,6 +226,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "codeunit that subscribes to posting events, generates the invoice as a PDF, and fires a business event"
 - [Obsoleted and “no longer invoked” events in v26 Business Central](../../../../posts/waldo-be/317951.md) (community post): "82 obsoleted events from the legacy invoice posting system while keeping them"
 - [Dynamics 365 Business Central: Save a document as a Word attachment (Attach as Word) – Customization](../../../../posts/yzhums-com/63559.md) (community post): "Event subscribers can hook into OnBeforeSaveReportAsPDF and OnBeforeSaveAttachment to modify the standard behavior"
+- [Dynamics 365 Business Central: How to restrict certain tables from importing data through Configuration Package](../../../../posts/yzhums-com/64265.md) (community post): "OnAfterIsSystemTable event in a codeunit to mark unwanted tables"
 - [Dynamics 365 Business Central: How to automatically archive sales orders via AL (For example, Archive on Order Release)](../../../../posts/yzhums-com/69356.md) (community post): "subscribing to the release event and calling the ArchiveManagement codeunit"
 - [Dynamics 365 Business Central: How to set Company Badge (System Indicator) via AL Code – Automatically set Company Badge](../../../../posts/yzhums-com/72250.md) (community post): "subscribe to the GetSystemIndicator business event to set company badges programmatically"
 - [Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order](../../../../posts/yzhums-com/74172.md) (community post): "Subscribe to standard events without modifying core codeunit logic"

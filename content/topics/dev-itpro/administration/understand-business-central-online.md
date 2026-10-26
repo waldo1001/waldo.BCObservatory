@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:38.985Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-26T08:46:07.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -161,7 +161,10 @@ links:
     - post/demiliani-com/12734
     - post/demiliani-com/15895
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5505178199606845450--d540e2e7c5
+    - post/yzhums-com/67492
     - post/yzhums-com/69332
+    - post/yzhums-com/69394
+    - post/yzhums-com/70075
     - post/yzhums-com/71227
   guidelines: []
 learn_toc_path:
@@ -175,7 +178,7 @@ coverage:
   learn: 16
   code: 7
   video: 2
-  blog: 5
+  blog: 8
   guideline: 0
 bc_forms:
   - 9
@@ -292,7 +295,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: announcing Italy North availability.](../../../posts/demiliani-com/12734.md) (community post): "Italy North (Milan) hosting for Italian Business Central tenants starts with version 27.3"
 - [Dynamics 365 Business Central on Italy North Datacenter: here we are!](../../../posts/demiliani-com/15895.md) (community post): "Dynamics 365 Business Central is now available on the Italy North datacenter"
 - [Business Central 29.0 Is Generally Available: What Cloud Customers and Partners Need to Do.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5505178199606845450--d540e2e7c5.md) (community post): "New Business Central cloud environments now start with version 29.0"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (September, 2025)](../../../posts/yzhums-com/67492.md) (community post): "BC27 (2025 release wave 2) is in public preview"
 - [Can Dynamics 365 Business Central Online (SaaS) be used in Mainland China? (Is BC accessible from Mainland China?)](../../../posts/yzhums-com/69332.md) (community post): "Business Central Online (SaaS) is not officially available for purchase in Mainland China"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (December, 2025)](../../../posts/yzhums-com/69394.md) (community post): "BC27 CU02 is version 27.2: SaaS uses platform"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (January, 2026)](../../../posts/yzhums-com/70075.md) (community post): "BC27 update 27.3 uses platform 27.0.44534.0 in the cloud"
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (March, 2026)](../../../posts/yzhums-com/71227.md) (community post): "BC28 (2026 release wave 1) is available as public preview"
 - [What's New: Resource Governance for Business Central Online (2023 release wave 2)](../../../videos/9PWBpwv4LhQ.md) (video): "What's New: Resource Governance for Business Central Online"
 - [What's New: Cloud for Sovereignty (2026 release wave 1)](../../../videos/n9HaH2dZUaU.md) (video): "cloud sovereignty; data protection; access controls; encryption"

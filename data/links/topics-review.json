@@ -459,69 +459,69 @@
     },
     "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central": {
       "post/demiliani-com/15981@1e3ae1a50e02a848": {
-        "verdict": "drop",
-        "reason": "Subject is Fabric data mirroring, a capability this Power BI overview section does not document.",
-        "at": "2026-10-26T08:19:22.191Z",
+        "verdict": "keep",
+        "reason": "Fabric data mirroring of Business Central tables for BI and Power BI reporting is related to getting Business Central data into Power BI; kept because in doubt.",
+        "at": "2026-10-26T08:44:54.994Z",
         "v": 2
       },
       "post/thinkaboutit-be/7226@ab365594449abce1": {
         "verdict": "keep",
-        "reason": "Extension that manages and refreshes Power BI resources from Business Central, extending the Power BI integration.",
-        "at": "2026-10-26T08:19:22.191Z",
+        "reason": "A third-party extension that manages and monitors Power BI resources from inside Business Central, which works with the Power BI integration.",
+        "at": "2026-10-26T08:44:54.994Z",
         "v": 2
       },
       "post/thinkaboutit-be/7753@57b11a7be3700d7b": {
         "verdict": "keep",
-        "reason": "Explains Power BI licensing requirements for using Power BI with Business Central.",
-        "at": "2026-10-26T08:19:22.191Z",
+        "reason": "Explains the Power BI licenses needed to use Power BI with Business Central, including embedded reports.",
+        "at": "2026-10-26T08:44:54.994Z",
         "v": 2
       },
       "post/waldo-be/318707@075857747db2e4d8": {
-        "verdict": "drop",
-        "reason": "Mainly about native Fabric mirroring; the Power BI apps mention is better covered by the sibling apps section.",
-        "at": "2026-10-26T08:19:22.191Z",
+        "verdict": "keep",
+        "reason": "Native Fabric mirroring that feeds Fabric-based Power BI reporting on Business Central data; kept as related because in doubt.",
+        "at": "2026-10-26T08:44:54.994Z",
         "v": 2
       },
-      "post/yzhums-com/73030@2cb8dd2f277eeea5": {
+      "post/yzhums-com/73030@727c456195521108": {
         "verdict": "drop",
-        "reason": "New customer retention reports belong to the Power BI Sales app, which the sibling apps section covers more exactly.",
-        "at": "2026-10-26T08:19:22.191Z",
+        "reason": "Covers new customer retention reports in the Power BI Sales app, which the sibling Power BI apps section documents more exactly.",
+        "at": "2026-10-26T08:44:54.994Z",
         "v": 2
       },
       "video/DVgclv3alZU@d09f2d38b9bbe715": {
         "verdict": "keep",
-        "reason": "Broad update on Power BI embedded, demo experience and semantic models with Business Central.",
-        "at": "2026-10-26T08:19:22.191Z",
+        "reason": "Covers broad Power BI integration features such as embedded Power BI, the demo experience and semantic models.",
+        "at": "2026-10-26T08:44:54.994Z",
         "v": 2
       },
       "video/F_pssS0FtUc@25880ebddffc054c": {
         "verdict": "drop",
-        "reason": "About telemetry and the usage analytics app, not the Power BI integration this section documents.",
-        "at": "2026-10-26T08:19:22.191Z",
+        "reason": "Its subject is telemetry and usage analytics, not the Power BI integration this section documents.",
+        "at": "2026-10-26T08:44:54.994Z",
         "v": 2
       },
       "video/fy96_jdL1PQ@5e76d8486583f625": {
         "verdict": "keep",
-        "reason": "Covers Power BI integration, embedding and dashboards with Business Central.",
-        "at": "2026-10-26T08:19:22.191Z",
+        "reason": "Discusses Power BI integration, Power BI embedded in Business Central, data modeling and query APIs for Power BI.",
+        "at": "2026-10-26T08:44:54.994Z",
         "v": 2
       },
       "video/hSJW3LiOBxg@f09aed84ce5a6177": {
         "verdict": "keep",
         "reason": "Covers embedding Power BI reports, visuals and scorecards in Business Central.",
-        "at": "2026-10-26T08:19:22.191Z",
+        "at": "2026-10-26T08:44:54.994Z",
         "v": 2
       },
       "video/kOCiyVql0go@49918665f6b1dd4c": {
-        "verdict": "drop",
-        "reason": "Introduces Fabric mirroring integration, a capability not documented in this Power BI overview section.",
-        "at": "2026-10-26T08:19:22.191Z",
+        "verdict": "keep",
+        "reason": "Fabric integration that enables multi-company Power BI reporting on Business Central data; kept because in doubt.",
+        "at": "2026-10-26T08:44:54.994Z",
         "v": 2
       },
       "video/rAaUiKByyEE@094e815f636bfc37": {
         "verdict": "drop",
-        "reason": "About the Power BI Sales app specifically, which the sibling Power BI apps section covers more exactly.",
-        "at": "2026-10-26T08:19:22.191Z",
+        "reason": "About updates to the Power BI Sales app, which the sibling Power BI apps section documents more exactly.",
+        "at": "2026-10-26T08:44:54.994Z",
         "v": 2
       }
     },
@@ -798,50 +798,56 @@
     "topic/business-central/business-functionality/finance": {
       "post/miljan-rs/908@10fa24e1f939962e": {
         "verdict": "drop",
-        "reason": "Reversing G/L entries is documented more exactly by the chart of accounts and general ledger subtopic.",
-        "at": "2026-10-26T08:19:22.157Z",
+        "reason": "Reversing G/L transactions is a narrow G/L task that fits the 'Work with the chart of accounts and general ledger' subtopic better than the Finance overview.",
+        "at": "2026-10-26T08:44:56.712Z",
         "v": 2
       },
       "post/thedynamicsexplorer-com/10122@34c0240bd9485c2b": {
         "verdict": "drop",
-        "reason": "Month-end accruals via recurring journals belong to the closing years and periods subtopic, not the Finance overview.",
-        "at": "2026-10-26T08:19:22.157Z",
+        "reason": "Month-end accruals through recurring journals fit the closing-periods / G/L subtopics better than the Finance overview.",
+        "at": "2026-10-26T08:44:56.712Z",
         "v": 2
       },
       "post/yzhums-com/71603@bd1401b024142e11": {
         "verdict": "drop",
-        "reason": "A whole-product release plan overview, not specifically about finance functionality.",
-        "at": "2026-10-26T08:19:22.157Z",
+        "reason": "A general release-plan summary covering every product area, not anything this Finance section documents.",
+        "at": "2026-10-26T08:44:56.712Z",
+        "v": 2
+      },
+      "post/yzhums-com/73165@f96003c29511601d": {
+        "verdict": "keep",
+        "reason": "The new native Expense Management module handles posting and reimbursing employee expenses, which is finance functionality with no more specific subtopic listed.",
+        "at": "2026-10-26T08:44:56.712Z",
         "v": 2
       },
       "video/d4mYltz4Zwg@d029e04825f9fdfb": {
         "verdict": "keep",
-        "reason": "Withholding tax setup and posting is a finance capability that no narrower Finance subtopic covers.",
-        "at": "2026-10-26T08:19:22.157Z",
+        "reason": "Withholding tax setup, posting and entries are a finance capability that no more specific listed subtopic covers.",
+        "at": "2026-10-26T08:44:56.712Z",
         "v": 2
       },
       "video/HI7VcPzR2OE@d14678e2375608c4": {
         "verdict": "keep",
-        "reason": "A broad overview of financial management features across many Finance subtopics.",
-        "at": "2026-10-26T08:19:22.157Z",
+        "reason": "A financial management overview covering revaluation, consolidation, collections and financial reports fits the Finance parent section.",
+        "at": "2026-10-26T08:44:56.712Z",
         "v": 2
       },
       "video/lcpk-gPfGQU@4a422d3e180c1146": {
         "verdict": "keep",
-        "reason": "The excise tax framework is a finance and tax capability that no specific Finance subtopic covers.",
-        "at": "2026-10-26T08:19:22.157Z",
+        "reason": "The excise tax framework and journal are a finance tax capability with no more specific listed subtopic.",
+        "at": "2026-10-26T08:44:56.712Z",
         "v": 2
       },
       "video/N_J1HB_fUCM@7f41ce674768fbbc": {
         "verdict": "keep",
-        "reason": "A broad overview of what's new in Finance, spanning many finance areas.",
-        "at": "2026-10-26T08:19:22.157Z",
+        "reason": "A Finance what's-new overview spanning excise and withholding taxes, self-billing and e-invoicing fits the Finance parent section.",
+        "at": "2026-10-26T08:44:56.712Z",
         "v": 2
       },
       "video/pE19K17wpgI@62cd06e8ce323480": {
         "verdict": "keep",
-        "reason": "Enforced digital vouchers attached to G/L postings are a finance feature with no narrower subtopic listed.",
-        "at": "2026-10-26T08:19:22.157Z",
+        "reason": "Enforced digital vouchers tie attachments to G/L entries and documents, a finance compliance feature documented under Finance.",
+        "at": "2026-10-26T08:44:56.712Z",
         "v": 2
       }
     },
@@ -2961,38 +2967,38 @@
     "topic/business-central/business-functionality/sales/sales-analytics": {
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6634996257036493772@6c07bf4288d78ae5": {
         "verdict": "keep",
-        "reason": "An extension that adds an aging report across sales quotes, orders and invoices; it extends sales reporting, so keep when in doubt.",
-        "at": "2026-10-26T08:19:38.917Z",
+        "reason": "Third-party extension that reports on aging of open sales quotes, orders and invoices in place of manual Excel reports, which adds to sales reporting.",
+        "at": "2026-10-26T08:44:57.465Z",
         "v": 2
       },
       "post/yzhums-com/68975@21339fe172cf1d3f": {
         "verdict": "drop",
-        "reason": "About new sample data in the Contoso demo data tool, which this section doesn't document; analytics only comes up as a use for that data.",
-        "at": "2026-10-26T08:19:38.917Z",
+        "reason": "Its subject is the Contoso demo data tool's sample documents, which this sales analytics section does not document.",
+        "at": "2026-10-26T08:44:57.465Z",
         "v": 2
       },
       "post/yzhums-com/71493@5a3c401fb0883e92": {
         "verdict": "drop",
-        "reason": "About demo data improvements across sales, purchasing and fixed assets, not about the sales reports or the Power BI Sales app.",
-        "at": "2026-10-26T08:19:38.917Z",
+        "reason": "Mainly about enriched demo data across sales, purchasing and fixed assets, not the sales reports or Power BI app the section documents.",
+        "at": "2026-10-26T08:44:57.465Z",
         "v": 2
       },
-      "post/yzhums-com/73030@2cb8dd2f277eeea5": {
+      "post/yzhums-com/73030@727c456195521108": {
         "verdict": "keep",
-        "reason": "Covers the new Power BI customer retention reports and subtotals in the Excel layouts of the built-in sales reports.",
-        "at": "2026-10-26T08:19:38.917Z",
+        "reason": "Covers the new Power BI customer retention reports and subtotals in the Excel layouts of built-in sales reports, both of which this section documents.",
+        "at": "2026-10-26T08:44:57.465Z",
         "v": 2
       },
       "video/fJGY6d-2lO8@ff7b83c62f1b2afc": {
         "verdict": "keep",
-        "reason": "Demonstrates new sales analytics: retention reports, ABC analysis, and subtotals in sales reports.",
-        "at": "2026-10-26T08:19:38.917Z",
+        "reason": "Shows the 2026 wave 1 additions to sales analytics: Power BI retention reports, ABC analysis and Excel sales report subtotals.",
+        "at": "2026-10-26T08:44:57.465Z",
         "v": 2
       },
       "video/rAaUiKByyEE@094e815f636bfc37": {
         "verdict": "keep",
-        "reason": "Shows the updated Power BI Sales app and the modernized built-in sales analytical reports.",
-        "at": "2026-10-26T08:19:38.917Z",
+        "reason": "Shows the updated Power BI Sales app and the modernized built-in sales analytical reports with Excel layouts.",
+        "at": "2026-10-26T08:44:57.465Z",
         "v": 2
       }
     },
@@ -3108,44 +3114,50 @@
     "topic/business-central/business-functionality/set-up-business-central/set-up-finance": {
       "post/yzhums-com/67740@060949e939285010": {
         "verdict": "keep",
-        "reason": "Alternative employee posting groups sends payable and receivable entries to different general ledger accounts, which is part of setting up posting groups in finance.",
-        "at": "2026-10-26T08:19:40.552Z",
+        "reason": "Alternative employee posting groups route postings to different general ledger accounts, which is part of setting up posting groups for finance.",
+        "at": "2026-10-26T08:44:56.095Z",
+        "v": 2
+      },
+      "post/yzhums-com/73165@f96003c29511601d": {
+        "verdict": "drop",
+        "reason": "The Expense Management module is its own capability, not finance setup.",
+        "at": "2026-10-26T08:44:56.095Z",
         "v": 2
       },
       "post/yzhums-com/76268@4891f7024da1ce80": {
         "verdict": "drop",
-        "reason": "Vendor-specific number series for self-billed purchase invoices belongs to purchasing and number series, not finance setup.",
-        "at": "2026-10-26T08:19:40.552Z",
+        "reason": "Vendor-specific number series for self-billed purchase invoices is a purchasing feature, not finance setup.",
+        "at": "2026-10-26T08:44:56.095Z",
         "v": 2
       },
       "video/4IumfDNN8GU@551d01e9e78deeb8": {
         "verdict": "keep",
-        "reason": "A walkthrough of posting groups and VAT posting setup is core finance setup.",
-        "at": "2026-10-26T08:19:40.552Z",
+        "reason": "Posting groups and VAT posting setup are core parts of setting up finance.",
+        "at": "2026-10-26T08:44:56.095Z",
         "v": 2
       },
       "video/5E6ikveL6N0@6ab56d7ae983d9ba": {
         "verdict": "keep",
-        "reason": "It explains how posting groups and posting setup work in Business Central, which is finance setup content, even though it compares them with GP.",
-        "at": "2026-10-26T08:19:40.552Z",
+        "reason": "Explains how posting groups and posting setup work in Business Central, which is part of finance setup.",
+        "at": "2026-10-26T08:44:56.095Z",
         "v": 2
       },
       "video/5zXQ_aIT03s@7cf64c65d47a8e4c": {
         "verdict": "keep",
-        "reason": "The 'allow posting from' and 'allow posting to' fields in General Ledger Setup are part of finance setup.",
-        "at": "2026-10-26T08:19:40.552Z",
+        "reason": "The Allow Posting From and Allow Posting To fields in general ledger setup are part of finance setup.",
+        "at": "2026-10-26T08:44:56.095Z",
         "v": 2
       },
       "video/NPhOSQTheXw@347b924f339b4b82": {
         "verdict": "keep",
-        "reason": "Sales tax setup is part of setting up finance.",
-        "at": "2026-10-26T08:19:40.552Z",
+        "reason": "Setting up sales tax is part of setting up finance.",
+        "at": "2026-10-26T08:44:56.095Z",
         "v": 2
       },
       "video/XJ0JHHQ7GzA@ae1cba0bd8268fd4": {
         "verdict": "keep",
-        "reason": "It shows how to set up Business Central's general posting setup and posting groups, which is finance setup content, even though it compares them with SL.",
-        "at": "2026-10-26T08:19:40.552Z",
+        "reason": "Covers general posting setup and posting groups, which are part of setting up finance.",
+        "at": "2026-10-26T08:44:56.095Z",
         "v": 2
       }
     },
@@ -3947,106 +3959,118 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities": {
-      "post/yzhums-com/70502@de72ba277dfa36dd": {
-        "verdict": "drop",
-        "reason": "Subject is building custom agents with the agent designer, not managing Copilot/agent capabilities; credits are incidental.",
-        "at": "2026-10-26T08:18:14.697Z",
-        "v": 2
-      },
-      "post/yzhums-com/72431@03eddc7258b25021": {
-        "verdict": "keep",
-        "reason": "Monitoring Copilot credit consumption for agents is part of administering agent capabilities and billing.",
-        "at": "2026-10-26T08:18:14.697Z",
-        "v": 2
-      },
-      "post/yzhums-com/74703@27daa63fb946655c": {
-        "verdict": "keep",
-        "reason": "Covers the Allow data movement toggle on the Copilot & agent capabilities page.",
-        "at": "2026-10-26T08:18:14.697Z",
-        "v": 2
-      },
-      "post/yzhums-com/76396@82efd373b718cf8b": {
-        "verdict": "keep",
-        "reason": "Admin control over Copilot feedback is a tenant-wide Copilot management setting.",
-        "at": "2026-10-26T08:18:14.697Z",
-        "v": 2
-      },
-      "video/DRUr4byy8xQ@56a5e75a3a1c80fd": {
-        "verdict": "keep",
-        "reason": "Agent access control via permissions and profiles is general agent administration.",
-        "at": "2026-10-26T08:18:14.697Z",
-        "v": 2
-      },
-      "video/MKuOgMWXJ_8@c36e072796ffcd3b": {
-        "verdict": "drop",
-        "reason": "Focuses on one specific sample agent's setup and use rather than managing capabilities.",
-        "at": "2026-10-26T08:18:14.697Z",
-        "v": 2
-      },
-      "video/QK-Qsh_6YL4@8ba69d9b3b8baddb": {
-        "verdict": "drop",
-        "reason": "Partner Copilot feature for time sheets, not about managing Copilot capabilities.",
-        "at": "2026-10-26T08:18:14.697Z",
-        "v": 2
-      },
-      "video/UQmuMPRlHek@fcc85d97923a4b32": {
-        "verdict": "keep",
-        "reason": "Admin tips on the Copilot & AI capabilities page, deactivation, data movement and permissions.",
-        "at": "2026-10-26T08:18:14.697Z",
-        "v": 2
-      },
       "post/bertverbeek-nl/1252@5813f9b3342cfb72": {
         "verdict": "drop",
-        "reason": "Covers AL-based role center and permission design for custom agents, not managing capability activation on this page.",
-        "at": "2026-10-26T08:18:16.995Z",
+        "reason": "Covers AL-level agent design (role centers, page customization, permission sets), not managing Copilot and agent capabilities.",
+        "at": "2026-10-26T08:44:43.731Z",
         "v": 2
       },
       "post/bertverbeek-nl/1263@cfa8e9550880d3e9": {
         "verdict": "keep",
-        "reason": "Includes monitoring agent credit consumption via the Agent Consumption page, part of managing agent billing.",
-        "at": "2026-10-26T08:18:16.995Z",
+        "reason": "Covers the Agent Consumption page for monitoring credit usage, which is part of managing agent capability billing.",
+        "at": "2026-10-26T08:44:43.731Z",
         "v": 2
       },
       "post/demiliani-com/13755@098bf8cd3b3dce3b": {
         "verdict": "drop",
-        "reason": "About custom agent production deployment and model selection on the Agents page, not documented in this section.",
-        "at": "2026-10-26T08:18:16.995Z",
+        "reason": "Its subject is custom agent deployment and model selection on the Agents page, which this section doesn't document.",
+        "at": "2026-10-26T08:44:43.731Z",
         "v": 2
       },
       "post/demiliani-com/15935@5a118331e80716b7": {
         "verdict": "keep",
-        "reason": "Explains the Allow data movement toggle and Copilot processing geography managed in this section.",
-        "at": "2026-10-26T08:18:16.995Z",
+        "reason": "Explains the Allow data movement toggle and Copilot geography, which are part of managing Copilot capabilities.",
+        "at": "2026-10-26T08:44:43.731Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1848764778201254677@415376c0de163a17": {
         "verdict": "drop",
-        "reason": "Subject is the unified Copilot chat, documented more exactly by the sibling Microsoft Copilot in Business Central section.",
-        "at": "2026-10-26T08:18:16.995Z",
+        "reason": "Mainly about the unified chat feature, which the sibling Microsoft Copilot in Business Central (preview) section covers more exactly.",
+        "at": "2026-10-26T08:44:43.731Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-45-hide-agents-icon/@df75d9ac8c8bbd76": {
         "verdict": "keep",
-        "reason": "Shows deactivating Agents on the Copilot & agent capabilities page.",
-        "at": "2026-10-26T08:18:16.995Z",
+        "reason": "Shows how to deactivate Agents on the Copilot & agent capabilities page.",
+        "at": "2026-10-26T08:44:43.731Z",
         "v": 2
       },
       "post/yzhums-com/67462@f8013648de2accef": {
         "verdict": "keep",
         "reason": "Explains the Billing Type column on the Copilot and Agent Capabilities page.",
-        "at": "2026-10-26T08:18:16.995Z",
+        "at": "2026-10-26T08:44:43.731Z",
         "v": 2
       },
       "post/yzhums-com/68482@6c8f64782f49f44e": {
         "verdict": "keep",
-        "reason": "Shows deactivating individual agent capabilities on the Copilot & agent capabilities page.",
-        "at": "2026-10-26T08:18:16.995Z",
+        "reason": "Shows how to deactivate individual agent capabilities on the Copilot & agent capabilities page.",
+        "at": "2026-10-26T08:44:43.731Z",
         "v": 2
       },
       "post/yzhums-com/68484@d9048cb0d00c21e9": {
         "verdict": "keep",
-        "reason": "Discusses consumption-based billing for agent capabilities, which administrators manage here.",
-        "at": "2026-10-26T08:18:16.995Z",
+        "reason": "Discusses consumption-based billing for agent capabilities, which is part of managing them.",
+        "at": "2026-10-26T08:44:43.731Z",
+        "v": 2
+      },
+      "post/yzhums-com/70502@de72ba277dfa36dd": {
+        "verdict": "drop",
+        "reason": "Its subject is the custom agent designer, a capability this section doesn't document.",
+        "at": "2026-10-26T08:44:43.731Z",
+        "v": 2
+      },
+      "post/yzhums-com/72431@03eddc7258b25021": {
+        "verdict": "keep",
+        "reason": "Tracking Copilot credit consumption for agents is part of administering Copilot and agent capabilities and their billing.",
+        "at": "2026-10-26T08:44:43.797Z",
+        "v": 2
+      },
+      "post/yzhums-com/72479@282671e86681235b": {
+        "verdict": "drop",
+        "reason": "The agent task pane is an end-user way of working with agent tasks, not management of Copilot and agent capabilities.",
+        "at": "2026-10-26T08:44:43.797Z",
+        "v": 2
+      },
+      "post/yzhums-com/74431@e096096e3119df5e": {
+        "verdict": "keep",
+        "reason": "Choosing the AI model for each agent on the Agents page is an admin setting for agent capabilities.",
+        "at": "2026-10-26T08:44:43.797Z",
+        "v": 2
+      },
+      "post/yzhums-com/74703@27daa63fb946655c": {
+        "verdict": "keep",
+        "reason": "Covers the Allow data movement consent on the Copilot & agent capabilities page, which this section documents.",
+        "at": "2026-10-26T08:44:43.797Z",
+        "v": 2
+      },
+      "post/yzhums-com/76396@82efd373b718cf8b": {
+        "verdict": "keep",
+        "reason": "Turning off Copilot feedback is an admin control over Copilot features across the tenant.",
+        "at": "2026-10-26T08:44:43.797Z",
+        "v": 2
+      },
+      "video/DRUr4byy8xQ@56a5e75a3a1c80fd": {
+        "verdict": "keep",
+        "reason": "Agent permissions, profiles and user management are part of managing agent capabilities.",
+        "at": "2026-10-26T08:44:43.797Z",
+        "v": 2
+      },
+      "video/MKuOgMWXJ_8@c36e072796ffcd3b": {
+        "verdict": "drop",
+        "reason": "Its subject is one specific sample agent rather than the general management of Copilot and agent capabilities.",
+        "at": "2026-10-26T08:44:43.797Z",
+        "v": 2
+      },
+      "video/QK-Qsh_6YL4@8ba69d9b3b8baddb": {
+        "verdict": "drop",
+        "reason": "A partner's time sheet Copilot extension, which this section does not document.",
+        "at": "2026-10-26T08:44:43.797Z",
+        "v": 2
+      },
+      "video/UQmuMPRlHek@fcc85d97923a4b32": {
+        "verdict": "keep",
+        "reason": "Admin setup of Copilot through the capabilities page, data movement and feature deactivation is exactly what this section covers.",
+        "at": "2026-10-26T08:44:43.797Z",
         "v": 2
       }
     },
@@ -4801,22 +4825,28 @@
       }
     },
     "topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-excel": {
+      "post/yzhums-com/73030@727c456195521108": {
+        "verdict": "drop",
+        "reason": "Mainly about Power BI customer-loyalty reports and subtotals in Excel report layouts, which reporting sections document rather than the Excel integration section.",
+        "at": "2026-10-26T08:44:55.293Z",
+        "v": 2
+      },
       "video/_OClSlushOU@96a387b54a6b0887": {
         "verdict": "keep",
-        "reason": "Shows exporting to Excel for analysis and working with item discounts in Excel, which is part of Business Central's Excel integration.",
-        "at": "2026-10-25T17:54:37.422Z",
+        "reason": "Demonstrates exporting to Excel and editing item discounts in Excel, which are Excel integration features this section documents.",
+        "at": "2026-10-26T08:44:55.293Z",
         "v": 2
       },
       "video/JT4ownMbotw@040492b7ac1283eb": {
         "verdict": "drop",
-        "reason": "The video is about manufacturing analytics and modernized report layouts; Excel only comes up as a report layout format, not as Excel integration.",
-        "at": "2026-10-25T17:54:37.422Z",
+        "reason": "About manufacturing analytics and Excel report layouts, which reporting and analytics sections cover rather than Excel integration.",
+        "at": "2026-10-26T08:44:55.293Z",
         "v": 2
       },
       "video/PIWxU93eCT4@dd35816b55e7e608": {
         "verdict": "keep",
-        "reason": "Demonstrates the Edit in Excel feature applied to sales price lists, which is part of the Excel integration.",
-        "at": "2026-10-25T17:54:37.422Z",
+        "reason": "Shows editing sales price lists with Edit in Excel, an Excel integration capability this section documents.",
+        "at": "2026-10-26T08:44:55.293Z",
         "v": 2
       }
     },
@@ -4825,6 +4855,14 @@
         "verdict": "keep",
         "reason": "The video demonstrates Business Central in Outlook, including linking email attachments to customer records, which the Outlook section documents.",
         "at": "2026-10-21T09:36:02.938Z"
+      }
+    },
+    "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-apps": {
+      "post/yzhums-com/67024@83b08004eba7dd1b": {
+        "verdict": "keep",
+        "reason": "The post troubleshoots a problem opening Power Apps, which is the integration this section documents, so it's useful to a reader here.",
+        "at": "2026-10-26T08:45:49.752Z",
+        "v": 2
       }
     },
     "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-automate": {
@@ -5189,10 +5227,11 @@
       }
     },
     "topic/dev-itpro/administration/automation-api/configuration-package": {
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-73-show-all-configuration-package-errors/@8238846e35f09279": {
-        "verdict": "drop",
-        "reason": "It shows how to review configuration package errors in the app's UI, not the Automation API's configuration package endpoint.",
-        "at": "2026-10-07T01:16:51.698Z"
+      "post/yzhums-com/64265@43f7f4931aa12e3d": {
+        "verdict": "keep",
+        "reason": "Packages imported through this API are subject to the same import blocks, so the post on blocking tables from configuration package imports is relevant (a borderline keep).",
+        "at": "2026-10-26T08:45:49.752Z",
+        "v": 2
       }
     },
     "topic/dev-itpro/administration/automation-api/extension": {
@@ -5544,92 +5583,74 @@
     "topic/dev-itpro/administration/understand-business-central-online": {
       "post/demiliani-com/12734@b0ce66e4a0d97221": {
         "verdict": "keep",
-        "reason": "Covers datacenter location and regional hosting for Business Central online tenants.",
-        "at": "2026-10-26T08:17:14.901Z",
+        "reason": "Covers where Italian Business Central online tenants are hosted and their latency, which is part of understanding the online service.",
+        "at": "2026-10-26T08:45:03.990Z",
         "v": 2
       },
       "post/demiliani-com/15895@f6513380b5c5f46b": {
         "verdict": "keep",
-        "reason": "Discusses data residency and datacenter placement of Business Central online environments.",
-        "at": "2026-10-26T08:17:14.901Z",
+        "reason": "Discusses the Italy North datacenter, data residency and environment moves, all aspects of how the online service is hosted.",
+        "at": "2026-10-26T08:45:03.990Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5505178199606845450@e34041abc646a537": {
         "verdict": "keep",
-        "reason": "Explains that new online environments are created on the current version and how the update cycle affects them; borderline but related.",
-        "at": "2026-10-26T08:17:14.901Z",
+        "reason": "Covers the version 29 release and update cycle for cloud environments, which is part of how Business Central online works.",
+        "at": "2026-10-26T08:45:03.990Z",
         "v": 2
       },
       "post/thinkaboutit-be/7897@e488b95c95f5763c": {
         "verdict": "drop",
-        "reason": "About scheduling and postponing updates in the Admin Center, which the sibling Admin center section documents more exactly.",
-        "at": "2026-10-26T08:17:14.901Z",
-        "v": 2
-      },
-      "post/yzhums-com/63887@55621fcbfbee2bfe": {
-        "verdict": "drop",
-        "reason": "A list of cumulative update build numbers and on-premises lifecycle dates, not an explanation of the online service.",
-        "at": "2026-10-26T08:17:14.901Z",
-        "v": 2
-      },
-      "post/yzhums-com/66403@61041cafb7f87838": {
-        "verdict": "drop",
-        "reason": "A list of cumulative update build numbers and lifecycle dates, not about understanding the online service.",
-        "at": "2026-10-26T08:17:14.901Z",
+        "reason": "Postponing and scheduling updates in the Admin Center is documented more exactly by the sibling Admin center section.",
+        "at": "2026-10-26T08:45:03.990Z",
         "v": 2
       },
       "post/yzhums-com/67492@9005f7544f6bb079": {
-        "verdict": "drop",
-        "reason": "A monthly build roundup with on-premises lifecycle tables; nothing documented in this section.",
-        "at": "2026-10-26T08:17:14.901Z",
-        "v": 2
-      },
-      "post/yzhums-com/68861@2e376a617cbf529f": {
-        "verdict": "drop",
-        "reason": "A monthly build roundup with on-premises lifecycle tables; nothing documented in this section.",
-        "at": "2026-10-26T08:17:14.901Z",
+        "verdict": "keep",
+        "reason": "A roundup of release waves, updates and support lifecycles for the cloud service, which helps readers understand the online update cycle.",
+        "at": "2026-10-26T08:45:03.990Z",
         "v": 2
       },
       "post/yzhums-com/69332@ebe14f9215338711": {
         "verdict": "keep",
-        "reason": "Covers regional availability of Business Central online and its latency requirements.",
-        "at": "2026-10-26T08:17:14.901Z",
+        "reason": "Discusses regional availability and the latency Business Central online is designed for.",
+        "at": "2026-10-26T08:45:03.990Z",
+        "v": 2
+      },
+      "post/yzhums-com/69394@c57246b4bfe6b618": {
+        "verdict": "keep",
+        "reason": "Covers the online update cadence, how new customers are provisioned and the update window changes.",
+        "at": "2026-10-26T08:45:03.990Z",
         "v": 2
       },
       "post/yzhums-com/70075@356f7496cd97e15d": {
-        "verdict": "drop",
-        "reason": "A monthly build roundup with on-premises lifecycle tables; nothing documented in this section.",
-        "at": "2026-10-26T08:17:14.901Z",
+        "verdict": "keep",
+        "reason": "Covers online versions, the major update window and minor updates becoming optional.",
+        "at": "2026-10-26T08:45:03.990Z",
         "v": 2
       },
       "post/yzhums-com/71227@5f41e0f92ba5e0b7": {
         "verdict": "keep",
-        "reason": "Describes how preview environments behave, which is one environment type.",
-        "at": "2026-10-26T08:17:14.901Z",
+        "reason": "Covers preview environments and the release cycle, which ties to the environment types subtopic.",
+        "at": "2026-10-26T08:45:03.990Z",
         "v": 2
       },
       "post/yzhums-com/75370@bfbe1ad5031a12e6": {
         "verdict": "drop",
-        "reason": "About database exports in the Admin Center, which the sibling Admin center section documents.",
-        "at": "2026-10-26T08:17:14.901Z",
-        "v": 2
-      },
-      "post/yzhums-com/76495@f4b60689cfae2842": {
-        "verdict": "drop",
-        "reason": "A monthly build roundup with on-premises lifecycle tables; nothing documented in this section.",
-        "at": "2026-10-26T08:17:14.901Z",
+        "reason": "Database exports and the Operations page are Admin center features, which the sibling section documents.",
+        "at": "2026-10-26T08:45:03.990Z",
         "v": 2
       },
       "video/9PWBpwv4LhQ@3ad1bb25659bcdd4": {
         "verdict": "keep",
-        "reason": "Explains the operational limits and resource governance of Business Central online.",
-        "at": "2026-10-26T08:17:14.901Z",
+        "reason": "Covers resource governance and operational limits of the multi-tenant online service.",
+        "at": "2026-10-26T08:45:03.990Z",
         "v": 2
       },
       "video/n9HaH2dZUaU@58be66a505275a0f": {
         "verdict": "keep",
-        "reason": "Covers data placement, environment isolation and security of the Business Central online service.",
-        "at": "2026-10-26T08:17:14.901Z",
+        "reason": "Covers data security, where data is stored and environment isolation in Business Central online.",
+        "at": "2026-10-26T08:45:03.990Z",
         "v": 2
       }
     },
@@ -5706,14 +5727,20 @@
     "topic/dev-itpro/business-central-on-premises/administration": {
       "post/demiliani-com/17480@faa6c97f526e2a92": {
         "verdict": "drop",
-        "reason": "About .NET lifecycle and upgrade/cumulative update planning, which the sibling Upgrade section covers rather than server administration and configuration.",
-        "at": "2026-10-25T17:53:38.636Z",
+        "reason": "About .NET runtime lifecycle and planning upgrades or cumulative updates, which the sibling Upgrade section covers more exactly than server administration.",
+        "at": "2026-10-26T08:45:10.312Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5740395756527498087@b370cab03e1d3e23": {
         "verdict": "drop",
-        "reason": "An installation and prerequisites walkthrough; installation isn't among this Administration section's configuration and monitoring topics.",
-        "at": "2026-10-25T17:53:38.636Z",
+        "reason": "An installation and prerequisites walkthrough; installation isn't among this section's configuration and monitoring subtopics.",
+        "at": "2026-10-26T08:45:10.312Z",
+        "v": 2
+      },
+      "post/yzhums-com/69394@c57246b4bfe6b618": {
+        "verdict": "drop",
+        "reason": "A roundup of cumulative update build numbers and lifecycle dates, not about configuring or monitoring an on-premises deployment.",
+        "at": "2026-10-26T08:45:10.312Z",
         "v": 2
       }
     },
@@ -5800,32 +5827,32 @@
     "topic/dev-itpro/business-central-on-premises/upgrade": {
       "post/demiliani-com/17470@daef1b92a1a4eb1d": {
         "verdict": "keep",
-        "reason": "Explains a new step in on-premises version upgrades: downloading a refreshed 28+ license key before each upgrade.",
-        "at": "2026-10-26T06:36:19.768Z",
+        "reason": "It explains that on-premises admins must download a new 28+ license key before each version upgrade, which is a direct upgrade prerequisite.",
+        "at": "2026-10-26T08:44:40.861Z",
         "v": 2
       },
       "post/demiliani-com/17480@faa6c97f526e2a92": {
         "verdict": "keep",
-        "reason": "Covers the .NET runtime requirements that push on-premises customers to upgrade or apply updates to BC 27/28/29.",
-        "at": "2026-10-26T06:36:19.768Z",
+        "reason": "It covers the .NET 10 runtime that on-premises v27 - v29 servers need and the upgrades or updates required before .NET 8 support ends.",
+        "at": "2026-10-26T08:44:40.861Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/@2ed787663cdc95fc": {
         "verdict": "keep",
-        "reason": "Announces on-premises cumulative updates for v26 - v29 and advises checking readiness before upgrading, which fits the versioned upgrade subtopics.",
-        "at": "2026-10-26T06:36:19.768Z",
+        "reason": "It announces the on-premises cumulative updates for v26 - v28 and the v29 release, and advises checking readiness before upgrading.",
+        "at": "2026-10-26T08:44:40.861Z",
         "v": 2
       },
-      "post/yzhums-com/63848@295754fcb812a472": {
-        "verdict": "drop",
-        "reason": "A version and release-wave history list that does not cover the upgrade process.",
-        "at": "2026-10-26T06:36:19.768Z",
-        "v": 2
-      },
-      "post/yzhums-com/76495@2ae04e9738a1b5f7": {
+      "post/yzhums-com/63887@8da8a498d2daaf9e": {
         "verdict": "keep",
-        "reason": "Gives on-premises CU build numbers and lifecycle dates for v26 - v29, useful when upgrading to those versions.",
-        "at": "2026-10-26T06:36:19.768Z",
+        "reason": "It lists on-premises builds and support dates for v23 - v26 updates, matching the section's per-version subtopics.",
+        "at": "2026-10-26T08:44:40.861Z",
+        "v": 2
+      },
+      "post/yzhums-com/69394@c57246b4bfe6b618": {
+        "verdict": "keep",
+        "reason": "It lists on-premises builds and lifecycle dates for v24 - v27 cumulative updates, matching the section's per-version subtopics.",
+        "at": "2026-10-26T08:44:40.861Z",
         "v": 2
       }
     },
@@ -5840,242 +5867,224 @@
     "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-1-v26": {
       "post/gerardorenteria-blog/11452@58663473f2fcfc40": {
         "verdict": "keep",
-        "reason": "Lists cumulative updates including version 26 (2025 wave 1) hotfixes, which this section documents.",
-        "at": "2026-10-26T08:18:48.627Z",
+        "reason": "Lists cumulative updates for version 26 (2025 wave 1) on-premises, which is what this section covers.",
+        "at": "2026-10-26T08:45:03.585Z",
         "v": 2
       },
       "post/gerardorenteria-blog/13195@9a37946fd90e5aee": {
         "verdict": "keep",
-        "reason": "Reports update 26.8 for v26 (2025 release wave 1), matching this section's update list.",
-        "at": "2026-10-26T08:18:48.627Z",
+        "reason": "Covers update 26.8 for v26 (2025 release wave 1) along with other versions.",
+        "at": "2026-10-26T08:45:03.585Z",
         "v": 2
       },
       "post/yzhums-com/65710@0c4ce7fc3b92ab53": {
         "verdict": "keep",
-        "reason": "Documents BC26 CU03 builds for on-premises, part of this section's v26 updates.",
-        "at": "2026-10-26T08:18:48.627Z",
+        "reason": "Gives the BC26 CU03 on-premises builds and the v26 lifecycle dates.",
+        "at": "2026-10-26T08:45:03.585Z",
+        "v": 2
+      },
+      "post/yzhums-com/66403@e7851ead8e08260e": {
+        "verdict": "keep",
+        "reason": "Gives the BC26 CU04 (26.4) on-premises builds and the v26 support dates.",
+        "at": "2026-10-26T08:45:03.585Z",
         "v": 2
       },
       "post/yzhums-com/70491@1bf65f877633e733": {
         "verdict": "keep",
-        "reason": "Covers February 2026 cumulative updates including BC26 builds and lifecycle; v26 is part of its scope.",
-        "at": "2026-10-26T08:18:48.627Z",
+        "reason": "Covers the February 2026 cumulative updates, including BC26, and the BC26 lifecycle dates.",
+        "at": "2026-10-26T08:45:03.585Z",
         "v": 2
       },
       "post/yzhums-com/75794@74c45ce9fae613a0": {
         "verdict": "keep",
-        "reason": "Reports BC26 CU17 (26.17) builds and v26 lifecycle, relevant to this section.",
-        "at": "2026-10-26T08:18:48.627Z",
+        "reason": "Gives the BC26 CU17 (26.17) builds and the v26 on-premises lifecycle end date.",
+        "at": "2026-10-26T08:45:03.585Z",
         "v": 2
       },
       "post/yzhums-com/76631@99a30631fe308f9b": {
         "verdict": "drop",
-        "reason": "About the BC29 major update for SaaS environments, which belongs to the v29 sibling section, not v26.",
-        "at": "2026-10-26T08:18:48.627Z",
+        "reason": "About the BC29 cloud major update scheduled in the admin center, which the v29 section covers, not v26.",
+        "at": "2026-10-26T08:45:03.585Z",
         "v": 2
       }
     },
     "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-2-v27": {
       "post/duiliotacconi-com/1624@a371d282bf3e4643": {
         "verdict": "keep",
-        "reason": "Covers the performance changes in version 27, the release this section documents.",
-        "at": "2026-10-26T08:18:15.988Z",
+        "reason": "Covers what's new in version 27, the release this section is about.",
+        "at": "2026-10-26T08:44:42.016Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/june-2026-cumulative-updates-for-dynamics-365-business-central/@f0f71ae6a2928a00": {
         "verdict": "keep",
-        "reason": "Lists the on-premises cumulative update 27.8 for 2025 release wave 2.",
-        "at": "2026-10-26T08:18:15.988Z",
+        "reason": "Lists the 27.8 cumulative update for 2025 release wave 2 on-premises.",
+        "at": "2026-10-26T08:44:42.016Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/09/september-2026-cumulative-updates-for-dynamics-365-business-central/@1391bddf7bd6b207": {
         "verdict": "keep",
-        "reason": "Lists the on-premises cumulative update 27.11 for 2025 release wave 2.",
-        "at": "2026-10-26T08:18:15.988Z",
+        "reason": "Lists the 27.11 cumulative update for 2025 release wave 2.",
+        "at": "2026-10-26T08:44:42.016Z",
         "v": 2
       },
       "post/gerardorenteria-blog/11766@dc4d42427d954c74": {
         "verdict": "drop",
-        "reason": "Covers only the v26, v25 and v24 updates, not v27; sibling sections document those versions.",
-        "at": "2026-10-26T08:18:15.988Z",
+        "reason": "Covers v26, v25 and v24 updates only; nothing about v27.",
+        "at": "2026-10-26T08:44:42.016Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-426088323488837430@b9bc85dfeecae5e0": {
         "verdict": "drop",
-        "reason": "About the 2026 release wave 2 (v29) preview, which the v29 sibling section documents.",
-        "at": "2026-10-26T08:18:15.988Z",
+        "reason": "About the v29 preview, which the v29 sibling section covers.",
+        "at": "2026-10-26T08:44:42.016Z",
         "v": 2
       },
       "post/thinkaboutit-be/7073@be8592e6228bbbe7": {
         "verdict": "keep",
-        "reason": "Covers features that become mandatory in release 27.0 and must be prepared for when upgrading to v27.",
-        "at": "2026-10-26T08:18:15.988Z",
+        "reason": "Explains which features become mandatory in version 27.0 and how to prepare before upgrading.",
+        "at": "2026-10-26T08:44:42.016Z",
         "v": 2
       },
       "post/thinkaboutit-be/7650@335a245af2408ce2": {
         "verdict": "keep",
-        "reason": "Covers update 27.5 for the 2025 release wave 2.",
-        "at": "2026-10-26T08:18:15.988Z",
+        "reason": "Announces the 27.5 update for 2025 release wave 2.",
+        "at": "2026-10-26T08:44:42.016Z",
         "v": 2
       },
       "post/yzhums-com/67294@2d5d2d67d54a314d": {
         "verdict": "keep",
-        "reason": "About the BC27 public preview for the 2025 release wave 2.",
-        "at": "2026-10-26T08:18:15.988Z",
+        "reason": "About the public preview of BC27, this section's release.",
+        "at": "2026-10-26T08:44:42.016Z",
+        "v": 2
+      },
+      "post/yzhums-com/67988@0fd102d9d67c1c20": {
+        "verdict": "keep",
+        "reason": "Announces BC27 general availability, with on-premises builds and lifecycle dates.",
+        "at": "2026-10-26T08:44:42.016Z",
+        "v": 2
+      },
+      "post/yzhums-com/68239@532a68b5f051bee2": {
+        "verdict": "keep",
+        "reason": "Gives BC27 CU00 cloud and on-premises builds and support dates.",
+        "at": "2026-10-26T08:44:42.016Z",
+        "v": 2
+      },
+      "post/yzhums-com/68861@0c215c29ca84167a": {
+        "verdict": "keep",
+        "reason": "Gives the BC27.1 CU01 builds and v27 on-premises support dates.",
+        "at": "2026-10-26T08:44:42.016Z",
         "v": 2
       },
       "post/yzhums-com/74530@ac56b9ebb846d807": {
         "verdict": "keep",
-        "reason": "Includes BC27 CU09 build information and on-premises support timelines.",
-        "at": "2026-10-26T08:18:15.988Z",
+        "reason": "Includes the BC27 CU09 release in the July 2026 update roundup.",
+        "at": "2026-10-26T08:44:42.016Z",
         "v": 2
       },
       "post/yzhums-com/75271@aea58aef0af7d019": {
         "verdict": "drop",
-        "reason": "About the BC29 early access preview, which the v29 sibling section documents.",
-        "at": "2026-10-26T08:18:15.988Z",
+        "reason": "About the BC29 early access preview, which the v29 sibling section covers.",
+        "at": "2026-10-26T08:44:42.016Z",
         "v": 2
       },
       "post/yzhums-com/75718@d9739855b0c93ca5": {
         "verdict": "drop",
-        "reason": "About the BC29 public preview, which the v29 sibling section documents.",
-        "at": "2026-10-26T08:18:15.988Z",
+        "reason": "About the BC29 public preview, which the v29 sibling section covers.",
+        "at": "2026-10-26T08:44:42.016Z",
         "v": 2
       }
     },
     "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28": {
       "post/duiliotacconi-com/2117@1f81ba25b60baf8a": {
         "verdict": "drop",
-        "reason": "About a new v28 Base64 platform codeunit feature, not v28 on-premises updates or upgrade.",
-        "at": "2026-10-26T08:17:35.779Z",
+        "reason": "About a new Base64 platform codeunit, which is a developer feature rather than the v28 on-premises update information this section covers.",
+        "at": "2026-10-26T08:45:11.431Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/07/july-2026-cumulative-updates-for-dynamics-365-business-central/@759f3b94d9061a6e": {
         "verdict": "keep",
-        "reason": "Covers the 28.3 cumulative update for 2026 release wave 1, including on-premises application.",
-        "at": "2026-10-26T08:17:35.779Z",
+        "reason": "Covers cumulative update 28.3 for v28 and says on-premises customers must apply it themselves.",
+        "at": "2026-10-26T08:45:11.431Z",
         "v": 2
       },
       "post/gerardorenteria-blog/12231@577deb36b9c0fd1a": {
         "verdict": "drop",
-        "reason": "Covers v24 - v26 updates only; sibling sections document those versions.",
-        "at": "2026-10-26T08:17:35.779Z",
+        "reason": "Covers only v26, v25 and v24 updates; no v28 content.",
+        "at": "2026-10-26T08:45:11.431Z",
         "v": 2
       },
-      "post/nataliekarolak-com/3995@2ca1ec7eb7e5aa1d": {
+      "post/yzhums-com/70933@6a526f95adc60f6d": {
         "verdict": "drop",
-        "reason": "What's-new developer features in BC28, not the v28 update/upgrade content of this section.",
-        "at": "2026-10-26T08:17:35.779Z",
-        "v": 2
-      },
-      "post/yzhums-com/67988@fbf6f4355e34e11e": {
-        "verdict": "drop",
-        "reason": "About BC27 general availability, documented by the v27 sibling section.",
-        "at": "2026-10-26T08:17:35.779Z",
-        "v": 2
-      },
-      "post/yzhums-com/68239@6946b821656b0734": {
-        "verdict": "drop",
-        "reason": "October 2025 updates for BC27 and older; belongs to sibling version sections.",
-        "at": "2026-10-26T08:17:35.779Z",
+        "reason": "About online preview sandboxes in the admin center, not updating on-premises installations to v28.",
+        "at": "2026-10-26T08:45:11.431Z",
         "v": 2
       },
       "post/yzhums-com/71880@6e10fad8642bacd6": {
         "verdict": "keep",
-        "reason": "BC28 GA with builds, on-premises package availability and v28 lifecycle dates.",
-        "at": "2026-10-26T08:17:35.779Z",
+        "reason": "Announces v28 general availability, says on-premises packages will follow, and gives v28 on-premises support dates.",
+        "at": "2026-10-26T08:45:11.431Z",
         "v": 2
       },
       "post/yzhums-com/71917@7706fcf629ccb1b9": {
         "verdict": "keep",
-        "reason": "Lists BC28 28.0 builds including on-premises and v28 support dates.",
-        "at": "2026-10-26T08:17:35.779Z",
+        "reason": "Gives v28.0 on-premises build numbers and lifecycle dates.",
+        "at": "2026-10-26T08:45:11.431Z",
         "v": 2
       },
       "post/yzhums-com/72089@a733120d37caae99": {
         "verdict": "drop",
-        "reason": "Focuses on SaaS update scheduling in the Admin Center, not on-premises v28 updates.",
-        "at": "2026-10-26T08:17:35.779Z",
+        "reason": "About online customers scheduling the major update in the admin center, not on-premises upgrade to v28.",
+        "at": "2026-10-26T08:45:11.431Z",
         "v": 2
       },
       "post/yzhums-com/72767@72cc07436e8ac189": {
         "verdict": "keep",
-        "reason": "Covers update 28.1 for 2026 release wave 1 with on-premises builds.",
-        "at": "2026-10-26T08:17:35.779Z",
+        "reason": "Covers cumulative update 28.1 for v28, with on-premises build numbers.",
+        "at": "2026-10-26T08:45:11.431Z",
         "v": 2
       },
       "post/yzhums-com/75216@6176c67c74ee3a9e": {
         "verdict": "keep",
-        "reason": "Covers update 28.4 for v28 with on-premises platform and application builds.",
-        "at": "2026-10-26T08:17:35.779Z",
+        "reason": "Covers cumulative update 28.4 for v28, with on-premises build numbers.",
+        "at": "2026-10-26T08:45:11.431Z",
         "v": 2
       }
     },
     "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-2-v29": {
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/@2ed787663cdc95fc": {
         "verdict": "keep",
-        "reason": "Covers v29 availability alongside on-premises cumulative updates and upgrade readiness planning.",
-        "at": "2026-10-26T06:34:05.374Z",
+        "reason": "Covers the v29 release alongside on-premises cumulative updates and upgrade readiness planning.",
+        "at": "2026-10-26T08:45:11.490Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3088305037286723104@37d3954d9a52f8f4": {
         "verdict": "drop",
-        "reason": "About online preview sandboxes being deleted after v29 GA, not upgrading on-premises to v29.",
-        "at": "2026-10-26T06:34:05.374Z",
+        "reason": "About online preview sandbox deletion and GA environment creation, not on-premises upgrade to v29.",
+        "at": "2026-10-26T08:45:11.490Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3697577773817687094@3568b599018657cc": {
         "verdict": "keep",
-        "reason": "Explains a v29 field type change that schema sync handles during upgrades, which is relevant to upgrading extensions.",
-        "at": "2026-10-26T06:34:05.374Z",
+        "reason": "Describes a v29-specific schema change handled during upgrades (Integer to BigInteger with schema sync).",
+        "at": "2026-10-26T08:45:11.490Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4709432878034654173@41f7d07e3dae215a": {
         "verdict": "keep",
-        "reason": "Covers v29 on-premises prerequisites and installing the components, which an on-premises upgrade to v29 needs.",
-        "at": "2026-10-26T06:34:05.374Z",
+        "reason": "Lists v29 on-premises prerequisites (.NET 10, Windows Server, SQL compatibility levels) relevant to upgrading to v29.",
+        "at": "2026-10-26T08:45:11.490Z",
         "v": 2
       },
-      "post/yzhums-com/75853@931c8e99af8e7262": {
-        "verdict": "drop",
-        "reason": "New ModuleInfo developer properties, which this upgrade section doesn't document.",
-        "at": "2026-10-26T06:34:05.374Z",
-        "v": 2
-      },
-      "post/yzhums-com/75873@fb5fe411cd6a8005": {
-        "verdict": "drop",
-        "reason": "New AL feature for cross-table indexes in table extensions, not upgrade guidance.",
-        "at": "2026-10-26T06:34:05.374Z",
-        "v": 2
-      },
-      "post/yzhums-com/75931@af753654d4a0bb31": {
-        "verdict": "drop",
-        "reason": "Page-level ToolTip property is a developer feature, not part of the upgrade process.",
-        "at": "2026-10-26T06:34:05.374Z",
-        "v": 2
-      },
-      "post/yzhums-com/76037@3570567e087c93f1": {
-        "verdict": "drop",
-        "reason": "AL symbol download setting for development, not upgrading on-premises.",
-        "at": "2026-10-26T06:34:05.374Z",
-        "v": 2
-      },
-      "post/yzhums-com/76053@0c9dbbc40b7ce6ae": {
-        "verdict": "drop",
-        "reason": "New compiler warnings about SQL column limits are a development feature, not upgrade guidance.",
-        "at": "2026-10-26T06:34:05.374Z",
-        "v": 2
-      },
-      "post/yzhums-com/76103@719f7ae52513f232": {
-        "verdict": "drop",
-        "reason": "publicResourceFolders app feature is unrelated to the upgrade process.",
-        "at": "2026-10-26T06:34:05.374Z",
+      "post/yzhums-com/76495@b3251c34b8e5259d": {
+        "verdict": "keep",
+        "reason": "Gives v29 on-premises build numbers and lifecycle dates useful for planning the v29 upgrade.",
+        "at": "2026-10-26T08:45:11.490Z",
         "v": 2
       },
       "video/Sh3ySQSTw-o@7e91f23c0d0b729a": {
         "verdict": "keep",
-        "reason": "v29 server and database changes such as .NET 10 and the new table extension data model affect on-premises upgrades.",
-        "at": "2026-10-26T06:34:05.374Z",
+        "reason": "Covers v29 platform changes (.NET 10 runtime, table extension data model) that affect upgrading to v29.",
+        "at": "2026-10-26T08:45:11.490Z",
         "v": 2
       }
     },
@@ -6410,44 +6419,50 @@
     "topic/dev-itpro/development/extensibility": {
       "post/miljan-rs/866@ab181e156b842fd5": {
         "verdict": "keep",
-        "reason": "A sample AL extension that adds actions and a dialog to base application customer pages, which is a practical case of extending the base application.",
-        "at": "2026-10-26T08:20:26.591Z",
+        "reason": "A reusable AL extension that adds actions to base customer pages through page extensions; this is a practical example of extending the base application.",
+        "at": "2026-10-26T08:45:10.634Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/@673d3b69a52266a0": {
         "verdict": "keep",
-        "reason": "Explains which dependency is needed to extend the Excel Reports objects, which is directly about extending base application objects.",
-        "at": "2026-10-26T08:20:26.591Z",
+        "reason": "Explains that you must add the Excel Reports extension as a dependency before you can extend its objects, which is a core extensibility point.",
+        "at": "2026-10-26T08:45:10.634Z",
+        "v": 2
+      },
+      "post/yzhums-com/53887@d0930e9af3147d68": {
+        "verdict": "keep",
+        "reason": "Covers which tables can't be extended (system tables) and how to check for them, which ties directly to extending AL objects.",
+        "at": "2026-10-26T08:45:10.634Z",
         "v": 2
       },
       "post/yzhums-com/74458@9738a00a245a208c": {
         "verdict": "keep",
-        "reason": "Shows a page extension that adds attribute filtering to a standard page, which is a direct example of extending AL objects.",
-        "at": "2026-10-26T08:20:26.591Z",
+        "reason": "Shows a page extension that adds actions and a FactBox to a base application page.",
+        "at": "2026-10-26T08:45:10.634Z",
         "v": 2
       },
       "video/6SyNNeHQDUo@d04a94dcbf138900": {
         "verdict": "keep",
-        "reason": "The co-development initiative covers community contributions to the base application on GitHub, which relates to extensibility requests and platform extensibility.",
-        "at": "2026-10-26T08:20:26.591Z",
+        "reason": "The co-development initiative covers community contributions to the base application on GitHub and platform extensibility, which relates to extensibility requests.",
+        "at": "2026-10-26T08:45:10.634Z",
         "v": 2
       },
       "video/88s0QjsaCUQ@94e48adf8f56fd71": {
         "verdict": "drop",
-        "reason": "Sign-up context and customer onboarding profiling are not documented in the Extensibility section.",
-        "at": "2026-10-26T08:20:26.591Z",
+        "reason": "About the sign-up context and customer onboarding profiling, which this section doesn't document.",
+        "at": "2026-10-26T08:45:10.634Z",
         "v": 2
       },
       "video/no1mmnPfyNY@97a5d75f03737328": {
         "verdict": "drop",
-        "reason": "Mostly about partner business models and the history of NAV to Business Central, not how to develop extensions.",
-        "at": "2026-10-26T08:20:26.591Z",
+        "reason": "Mainly about partner business models and the history of moving from NAV to Business Central, not how to extend AL objects.",
+        "at": "2026-10-26T08:45:10.634Z",
         "v": 2
       },
       "video/uxYuoJP-uH8@7d819bffc513f471": {
         "verdict": "keep",
-        "reason": "Extending the ApplicationArea with custom areas in table and page extensions is part of extending AL objects.",
-        "at": "2026-10-26T08:20:26.591Z",
+        "reason": "Shows how to extend the ApplicationArea setup with custom areas through table and page extensions.",
+        "at": "2026-10-26T08:45:10.634Z",
         "v": 2
       }
     },
@@ -6593,56 +6608,62 @@
     "topic/dev-itpro/development/extensibility/using-events": {
       "post/aardvarklabs-blog/3704@6920c9137ccf84b6": {
         "verdict": "keep",
-        "reason": "Shows a codeunit subscribing to the OnAfterPostSalesDoc posting event and raising a business event, both covered by using events.",
-        "at": "2026-10-26T08:18:58.895Z",
+        "reason": "Subscribes to the OnAfterPostSalesDoc event and raises a business event, both of which the events section documents.",
+        "at": "2026-10-26T08:45:18.886Z",
         "v": 2
       },
       "post/jpearson-blog/1419@945e90c5157e759f": {
         "verdict": "drop",
         "reason": "About integrating apps through interfaces and a registration layer, not events.",
-        "at": "2026-10-26T08:18:58.895Z",
+        "at": "2026-10-26T08:45:18.886Z",
         "v": 2
       },
       "post/waldo-be/317951@7c9e9aba9caa57f9": {
         "verdict": "keep",
-        "reason": "Covers obsoleted events that are no longer invoked and how that affects subscribers, directly about using events.",
-        "at": "2026-10-26T08:18:58.895Z",
+        "reason": "Discusses obsoleted events that are no longer invoked and the risk to code that subscribes to them.",
+        "at": "2026-10-26T08:45:18.886Z",
         "v": 2
       },
       "post/yzhums-com/63559@ffa0372e241353cf": {
         "verdict": "keep",
-        "reason": "Shows event subscribers hooking into OnBeforeSaveReportAsPDF and OnBeforeSaveAttachment to change standard behaviour.",
-        "at": "2026-10-26T08:18:58.895Z",
+        "reason": "Shows event subscribers to OnBeforeSaveReportAsPDF and OnBeforeSaveAttachment changing standard behavior.",
+        "at": "2026-10-26T08:45:18.886Z",
+        "v": 2
+      },
+      "post/yzhums-com/64265@43f7f4931aa12e3d": {
+        "verdict": "keep",
+        "reason": "The technique is subscribing to the OnAfterIsSystemTable event to change standard behavior.",
+        "at": "2026-10-26T08:45:18.886Z",
         "v": 2
       },
       "post/yzhums-com/69356@c565a140cb20a251": {
         "verdict": "keep",
-        "reason": "Shows subscribing to the release event to extend standard archiving.",
-        "at": "2026-10-26T08:18:58.895Z",
+        "reason": "Extends automatic archiving by subscribing to the sales order release event.",
+        "at": "2026-10-26T08:45:18.886Z",
         "v": 2
       },
       "post/yzhums-com/72250@87f013864c735965": {
         "verdict": "keep",
-        "reason": "Shows subscribing to the GetSystemIndicator business event from AL.",
-        "at": "2026-10-26T08:18:58.895Z",
+        "reason": "Demonstrates subscribing to the GetSystemIndicator business event in UI Helper Triggers.",
+        "at": "2026-10-26T08:45:18.886Z",
         "v": 2
       },
       "post/yzhums-com/74172@68298266e334ae55": {
         "verdict": "keep",
-        "reason": "Shows subscribing to standard events to pass custom field values without changing core code.",
-        "at": "2026-10-26T08:18:58.895Z",
+        "reason": "Shows subscribing to standard events to pass custom fields without changing the base codeunit.",
+        "at": "2026-10-26T08:45:18.886Z",
         "v": 2
       },
       "post/yzhums-com/74973@b897843190b1655b": {
         "verdict": "keep",
-        "reason": "Shows subscribing to the OnRegisterManualSetup event to add a setup page, a practical use of events.",
-        "at": "2026-10-26T08:18:58.895Z",
+        "reason": "Uses an event subscriber to OnRegisterManualSetup to add a setup to the Manual Setup page.",
+        "at": "2026-10-26T08:45:18.886Z",
         "v": 2
       },
       "video/P-7dYVfB73E@14a5977a635463f3": {
         "verdict": "keep",
-        "reason": "Discusses integration events, handled events, event telemetry and how events are managed in Business Central.",
-        "at": "2026-10-26T08:18:58.895Z",
+        "reason": "Covers integration, workflow and handled events, event telemetry and how events are managed in Business Central.",
+        "at": "2026-10-26T08:45:18.886Z",
         "v": 2
       }
     },
@@ -6976,22 +6997,28 @@
       }
     },
     "topic/dev-itpro/development/get-started/altool": {
+      "post/nataliekarolak-com/3995@86d3d7fd9a3178df": {
+        "verdict": "keep",
+        "reason": "The BC 28 roundup lists a new standalone MCP server in ALTool, which is part of what this section documents.",
+        "at": "2026-10-26T08:45:12.383Z",
+        "v": 2
+      },
       "post/vjeko-com/https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/@f9cabfb8bbb1e894": {
         "verdict": "drop",
-        "reason": "This post is about AL Object ID Ninja letting VS Code agents assign object IDs, which is not part of ALTool.",
-        "at": "2026-10-26T08:20:33.261Z",
+        "reason": "It covers AL Object ID Ninja's ID assignment for VS Code agents, which is a different tool from ALTool.",
+        "at": "2026-10-26T08:45:12.383Z",
         "v": 2
       },
       "post/vondervoort-be/130@80f191b9b56f9b87": {
         "verdict": "drop",
-        "reason": "This post covers ALCops, a community code-analyzer collection for VS Code and AL-Go, and does not mention or use ALTool.",
-        "at": "2026-10-26T08:20:33.261Z",
+        "reason": "ALCops is a community code-analyzer collection and has nothing to do with ALTool.",
+        "at": "2026-10-26T08:45:12.383Z",
         "v": 2
       },
       "post/waldo-be/318731@a281429d51145b83": {
         "verdict": "drop",
-        "reason": "This post is about BC Observatory, an MCP knowledge map of Business Central resources, which this section does not document.",
-        "at": "2026-10-26T08:20:33.261Z",
+        "reason": "BC Observatory is a knowledge-map MCP server that doesn't involve ALTool; the only overlap is the word MCP.",
+        "at": "2026-10-26T08:45:12.383Z",
         "v": 2
       }
     },
@@ -7018,100 +7045,94 @@
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language": {
-      "post/yzhums-com/66461@fccec88099588e1b": {
-        "verdict": "keep",
-        "reason": "Practical AL coding technique for cleaning file names before export, which fits the programming how-to scope; a close call against the system reference section.",
-        "at": "2026-10-26T06:33:31.574Z",
-        "v": 2
-      },
-      "post/yzhums-com/70117@30d03764ff6aea74": {
-        "verdict": "keep",
-        "reason": "Covers date/time/duration handling, conversion and formatting in AL, matching the language elements and formatting values subtopics.",
-        "at": "2026-10-26T06:33:31.574Z",
-        "v": 2
-      },
-      "post/yzhums-com/70325@e70ad7d46a9bd5d5": {
-        "verdict": "keep",
-        "reason": "Demonstrates the Text.Split method and the List data type, both AL language elements.",
-        "at": "2026-10-26T06:33:31.574Z",
-        "v": 2
-      },
-      "post/yzhums-com/70481@cf42698d2bfe84d5": {
-        "verdict": "keep",
-        "reason": "AL technique for converting month text to an integer via the Type Helper codeunit; a close call, kept as a data-handling how-to.",
-        "at": "2026-10-26T06:33:31.574Z",
-        "v": 2
-      },
-      "post/yzhums-com/76518@ca0d2a498bad82a9": {
-        "verdict": "keep",
-        "reason": "Turning indexes on/off from AL code relates to the tables and data subtopic (keys and indexes).",
-        "at": "2026-10-26T06:33:31.574Z",
-        "v": 2
-      },
-      "video/a8W1x0xwkv4@6fc696eb5f59d4a6": {
-        "verdict": "keep",
-        "reason": "Shows a control add-in (user control host) with JavaScript interop, which is covered under pages and the user interface.",
-        "at": "2026-10-26T06:33:31.574Z",
-        "v": 2
-      },
-      "video/lH2Z4xfdhmY@5fceed842247fca3": {
-        "verdict": "keep",
-        "reason": "Covers the OptimizeForTextSearch property and filter operators on table data, which falls under tables and data.",
-        "at": "2026-10-26T06:33:31.574Z",
-        "v": 2
-      },
-      "video/QhHgkCe3kkk@0c07d5bb49e5b26b": {
-        "verdict": "keep",
-        "reason": "Embedding and reading resources in AL apps with the get resource function is an AL programming capability; this section may not be its main home.",
-        "at": "2026-10-26T06:33:31.574Z",
-        "v": 2
-      },
       "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
         "verdict": "keep",
-        "reason": "Demonstrates AL code for parsing files into staging tables and creating records, matching tables and data programming.",
-        "at": "2026-10-26T06:33:32.899Z",
+        "reason": "Shows AL code that parses delimited files into staging tables, which is core AL data-handling work.",
+        "at": "2026-10-26T08:45:29.443Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3032@eb6d53de9c04df57": {
         "verdict": "drop",
-        "reason": "About using M365 Copilot for requirements analysis, not AL programming.",
-        "at": "2026-10-26T06:33:32.899Z",
+        "reason": "About using Microsoft 365 Copilot to analyse requirements documents, not about programming in AL.",
+        "at": "2026-10-26T08:45:29.443Z",
         "v": 2
       },
       "post/nataliekarolak-com/1855@89a17d9f0727e92f": {
         "verdict": "keep",
-        "reason": "AL snippet using StrMenu, enums and Lists covers language elements and user interaction.",
-        "at": "2026-10-26T06:33:32.899Z",
+        "reason": "AL snippet that uses StrMenu with enums and Lists, covering language elements and user interaction.",
+        "at": "2026-10-26T08:45:29.443Z",
         "v": 2
       },
       "post/nataliekarolak-com/3653@f1e8d70504beff46": {
         "verdict": "keep",
-        "reason": "Covers new AL methods and properties, relevant to language elements in this section.",
-        "at": "2026-10-26T06:33:32.899Z",
+        "reason": "Covers the new AL methods and properties in BC 27, which fall under the language elements this section documents.",
+        "at": "2026-10-26T08:45:29.443Z",
         "v": 2
       },
       "post/nataliekarolak-com/3910@45dfd766c7d907e6": {
         "verdict": "drop",
-        "reason": "DataTransfer upgrade code is documented more exactly under Extension lifecycle (upgrading).",
-        "at": "2026-10-26T06:33:32.899Z",
+        "reason": "About DataTransfer in upgrade code, which the Extension lifecycle (upgrade) section documents more exactly.",
+        "at": "2026-10-26T08:45:29.443Z",
         "v": 2
       },
       "post/nataliekarolak-com/4184@67c9aaa0ab3a06d5": {
         "verdict": "keep",
-        "reason": "Discusses AL string methods Substring and CopyStr and their runtime behavior, a language element topic.",
-        "at": "2026-10-26T06:33:32.899Z",
+        "reason": "Discusses using the AL Substring and CopyStr text methods, which are language elements.",
+        "at": "2026-10-26T08:45:29.443Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/01/27/when-guids-collide-the-app-id-problem-nobody-expected/@7a95dbed5895a54a": {
         "verdict": "drop",
-        "reason": "App ID collisions in app.json concern app identity/lifecycle, not AL programming.",
-        "at": "2026-10-26T06:33:32.899Z",
+        "reason": "About App ID collisions in app.json and project setup, not about AL programming.",
+        "at": "2026-10-26T08:45:29.443Z",
         "v": 2
       },
       "post/yzhums-com/65768@2500b5e093b9c3ab": {
         "verdict": "keep",
-        "reason": "Shares AL page code using CalcDate and DateFormula, touching AL language elements.",
-        "at": "2026-10-26T06:33:32.899Z",
+        "reason": "Gives sample AL page code that uses CalcDate to test date formulas.",
+        "at": "2026-10-26T08:45:29.443Z",
+        "v": 2
+      },
+      "post/yzhums-com/66461@fccec88099588e1b": {
+        "verdict": "keep",
+        "reason": "Shows AL code calling the File Management codeunit to clean file names before export.",
+        "at": "2026-10-26T08:45:29.443Z",
+        "v": 2
+      },
+      "post/yzhums-com/70129@7d78ddc1e9317ab2": {
+        "verdict": "keep",
+        "reason": "Shows AL code and a page extension that use the Time Zone codeunit to handle DateTime values.",
+        "at": "2026-10-26T08:45:29.443Z",
+        "v": 2
+      },
+      "post/yzhums-com/70325@e70ad7d46a9bd5d5": {
+        "verdict": "keep",
+        "reason": "Demonstrates the AL Text.Split method and the List data type, which are language elements.",
+        "at": "2026-10-26T08:45:29.443Z",
+        "v": 2
+      },
+      "post/yzhums-com/70481@cf42698d2bfe84d5": {
+        "verdict": "keep",
+        "reason": "Shows an AL approach to converting month names to numbers with the Type Helper codeunit.",
+        "at": "2026-10-26T08:45:29.443Z",
+        "v": 2
+      },
+      "video/a8W1x0xwkv4@6fc696eb5f59d4a6": {
+        "verdict": "keep",
+        "reason": "Demonstrates AL user control hosting and JavaScript interop, which belong to pages and the user interface.",
+        "at": "2026-10-26T08:45:29.443Z",
+        "v": 2
+      },
+      "video/lH2Z4xfdhmY@5fceed842247fca3": {
+        "verdict": "keep",
+        "reason": "Covers developer-facing search features such as the OptimizeForTextSearch property and filter operators on tables and data.",
+        "at": "2026-10-26T08:45:29.443Z",
+        "v": 2
+      },
+      "video/QhHgkCe3kkk@0c07d5bb49e5b26b": {
+        "verdict": "keep",
+        "reason": "Covers embedding resources in AL apps and reading them back with the GetResource function, a program building block.",
+        "at": "2026-10-26T08:45:29.443Z",
         "v": 2
       }
     },
@@ -7124,94 +7145,100 @@
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services": {
-      "post/aardvarklabs-blog/2953@e78fa2a25a9ddb42": {
-        "verdict": "keep",
-        "reason": "Shows how to call external APIs with HttpClient and parse the JSON they return, which is exactly what this section documents.",
-        "at": "2026-10-26T08:18:26.221Z",
-        "v": 2
-      },
-      "post/demiliani-com/13588@77847e9e3efdbf67": {
-        "verdict": "keep",
-        "reason": "Covers the new strict URI validation in the AL HttpClient, which changes how outbound calls to external services work.",
-        "at": "2026-10-26T08:18:26.221Z",
-        "v": 2
-      },
-      "post/demiliani-com/13640@cda26441af8aa784": {
-        "verdict": "keep",
-        "reason": "Shows how to connect to SFTP servers from AL code using the native SFTP Client, which is a way of calling an external service.",
-        "at": "2026-10-26T08:18:26.221Z",
-        "v": 2
-      },
-      "post/demiliani-com/14203@48f9cf58ff1ac562": {
-        "verdict": "keep",
-        "reason": "A practice for making external API calls from AL reliable when transactions roll back.",
-        "at": "2026-10-26T08:18:26.221Z",
-        "v": 2
-      },
-      "post/gerardorenteria-blog/14816@d18dad9b14fe94e8": {
-        "verdict": "drop",
-        "reason": "About a sample World Cup prediction extension; importing its data from a JSON source is incidental, not the lesson.",
-        "at": "2026-10-26T08:18:26.221Z",
-        "v": 2
-      },
-      "post/kauffmann-nl/8332@f185c6bcbc3e7f69": {
-        "verdict": "keep",
-        "reason": "An OAuth library that extends the REST Client module used to authenticate calls to external services.",
-        "at": "2026-10-26T08:18:26.221Z",
-        "v": 2
-      },
-      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643@bcd3363825c3e8ed": {
-        "verdict": "drop",
-        "reason": "Mainly about extension upload and deployment management; how the admin center API is called is not the focus.",
-        "at": "2026-10-26T08:18:26.221Z",
-        "v": 2
-      },
-      "post/vjeko-com/https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/@c1a26403c4b8f9b9": {
-        "verdict": "drop",
-        "reason": "An MCP server for managing AL object IDs, which has nothing to do with calling external services.",
-        "at": "2026-10-26T08:18:26.221Z",
-        "v": 2
-      },
       "post/yzhums-com/56046@3ffeb9db3d1d7784": {
         "verdict": "keep",
-        "reason": "Shows HttpClient calls to an external barcode API from AL code.",
-        "at": "2026-10-26T08:18:26.221Z",
+        "reason": "It calls the external QuickChart API from AL code using HttpClient, which is exactly what this section documents.",
+        "at": "2026-10-26T08:45:20.134Z",
         "v": 2
       },
       "post/yzhums-com/61543@c4fdefff7bfc97e1": {
         "verdict": "drop",
-        "reason": "About the Image Helpers codeunit and HTML image src attributes; no external service is called.",
-        "at": "2026-10-26T08:18:26.221Z",
+        "reason": "It is about getting an HTML image src from stored media with the Image Helpers codeunit and never calls an external service.",
+        "at": "2026-10-26T08:45:20.134Z",
+        "v": 2
+      },
+      "post/yzhums-com/63735@80a0b7d071de1243": {
+        "verdict": "keep",
+        "reason": "The series includes calling the Graph API from AL to upload and read SharePoint files, which is calling an external service.",
+        "at": "2026-10-26T08:45:20.134Z",
         "v": 2
       },
       "post/yzhums-com/64775@8b57d989aaa742bb": {
         "verdict": "keep",
-        "reason": "Shows OAuth-authenticated REST calls (GET, POST, PATCH, DELETE) from AL to Dataverse.",
-        "at": "2026-10-26T08:18:26.221Z",
+        "reason": "It shows REST calls from AL with OAuth to the Dataverse APIs, which is calling an external service.",
+        "at": "2026-10-26T08:45:20.134Z",
         "v": 2
       },
       "post/yzhums-com/65391@cfcc0e62a92cf422": {
         "verdict": "keep",
-        "reason": "Covers the Allow HttpClient Requests setting, which controls whether outbound HTTP calls from AL are allowed.",
-        "at": "2026-10-26T08:18:26.221Z",
+        "reason": "It covers the Allow HttpClient Requests setting, which outbound HTTP calls from AL depend on.",
+        "at": "2026-10-26T08:45:20.134Z",
         "v": 2
       },
       "post/yzhums-com/65525@5ee931cd23816686": {
         "verdict": "keep",
-        "reason": "Shows a helper for checking that a URL uses HTTPS before calling an external service.",
-        "at": "2026-10-26T08:18:26.221Z",
+        "reason": "It shows a helper that checks a URL uses HTTPS before AL code calls external services.",
+        "at": "2026-10-26T08:45:20.134Z",
         "v": 2
       },
       "post/yzhums-com/65533@a60b4f1eee9ea3fd": {
         "verdict": "keep",
-        "reason": "Shows how to turn on Allow HttpClient Requests automatically when an extension that calls external services is installed.",
-        "at": "2026-10-26T08:18:26.221Z",
+        "reason": "It turns on Allow HttpClient Requests automatically so that an app can call external services.",
+        "at": "2026-10-26T08:45:20.134Z",
         "v": 2
       },
       "video/qNHUj3ZEang@79cabc8a630d8bbb": {
         "verdict": "keep",
-        "reason": "Demonstrates cookie support and collectible errors in the REST Client used for HTTP requests.",
-        "at": "2026-10-26T08:18:26.221Z",
+        "reason": "It demonstrates the REST Client module, which AL code uses to make HTTP calls to external services.",
+        "at": "2026-10-26T08:45:20.134Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/2953@e78fa2a25a9ddb42": {
+        "verdict": "keep",
+        "reason": "Directly explains consuming external APIs from AL with HttpClient and JSON parsing.",
+        "at": "2026-10-26T08:45:20.881Z",
+        "v": 2
+      },
+      "post/demiliani-com/13588@77847e9e3efdbf67": {
+        "verdict": "keep",
+        "reason": "Covers new URI validation rules affecting outbound HttpClient calls from AL.",
+        "at": "2026-10-26T08:45:20.881Z",
+        "v": 2
+      },
+      "post/demiliani-com/13640@cda26441af8aa784": {
+        "verdict": "keep",
+        "reason": "Shows calling external SFTP servers from AL via a System Application codeunit.",
+        "at": "2026-10-26T08:45:20.881Z",
+        "v": 2
+      },
+      "post/demiliani-com/14203@48f9cf58ff1ac562": {
+        "verdict": "keep",
+        "reason": "Discusses handling side effects and retries of external API calls made from AL.",
+        "at": "2026-10-26T08:45:20.881Z",
+        "v": 2
+      },
+      "post/gerardorenteria-blog/14816@d18dad9b14fe94e8": {
+        "verdict": "drop",
+        "reason": "About a World Cup prediction sample app; the external JSON import is incidental, not the lesson.",
+        "at": "2026-10-26T08:45:20.881Z",
+        "v": 2
+      },
+      "post/kauffmann-nl/8332@f185c6bcbc3e7f69": {
+        "verdict": "keep",
+        "reason": "OAuth library extending the Rest Client module used to authenticate external service calls from AL.",
+        "at": "2026-10-26T08:45:20.881Z",
+        "v": 2
+      },
+      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643@bcd3363825c3e8ed": {
+        "verdict": "drop",
+        "reason": "The post is about rebuilding extension upload management, not about how to call external services.",
+        "at": "2026-10-26T08:45:20.881Z",
+        "v": 2
+      },
+      "post/vjeko-com/https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/@c1a26403c4b8f9b9": {
+        "verdict": "drop",
+        "reason": "About an MCP server for object ID management, unrelated to calling external services from AL.",
+        "at": "2026-10-26T08:45:20.881Z",
         "v": 2
       }
     },
@@ -7246,116 +7273,116 @@
     "topic/dev-itpro/development/programming-in-the-al-language/developing-reports": {
       "post/yzhums-com/69896@8073357e89ccd37f": {
         "verdict": "keep",
-        "reason": "It shows how to use a report extension and AL code to put record notes on a report.",
-        "at": "2026-10-26T08:17:25.572Z",
+        "reason": "Shows how to add Notes data to a report through a report extension, which is report development in AL.",
+        "at": "2026-10-26T08:45:20.994Z",
         "v": 2
       },
       "post/yzhums-com/70137@7549225fc5208ecc": {
         "verdict": "keep",
-        "reason": "It shows report extensions that add comment lines as data items linked to the header, which is report development.",
-        "at": "2026-10-26T08:17:25.572Z",
+        "reason": "Shows report extensions adding comment-line dataitems to printed reports.",
+        "at": "2026-10-26T08:45:20.994Z",
         "v": 2
       },
       "post/yzhums-com/70354@1e078379c76138dc": {
         "verdict": "keep",
-        "reason": "It indexes a series on report extensions, layouts, request pages and output, all of which this section documents.",
-        "at": "2026-10-26T08:17:25.572Z",
+        "reason": "Index of report-extension articles covering layouts, request pages and output formats, all part of report development.",
+        "at": "2026-10-26T08:45:20.994Z",
         "v": 2
       },
       "post/yzhums-com/70415@04ed46f340158901": {
         "verdict": "keep",
-        "reason": "It covers report request pages, Report.Run and SaveAs, which are report methods and part of how users work with reports.",
-        "at": "2026-10-26T08:17:25.572Z",
+        "reason": "Covers request page handling and running or saving reports from AL, which this section documents.",
+        "at": "2026-10-26T08:45:20.994Z",
         "v": 2
       },
       "post/yzhums-com/74638@3dc144b717cccc50": {
         "verdict": "keep",
-        "reason": "It explains the rendering section and layout files in report extensions, which falls under Report layouts.",
-        "at": "2026-10-26T08:17:25.572Z",
+        "reason": "Explains the rendering section and layout files in report extensions, which falls under report layouts.",
+        "at": "2026-10-26T08:45:20.994Z",
         "v": 2
       },
       "post/yzhums-com/76319@589e8a3a3e0b2358": {
         "verdict": "keep",
-        "reason": "It covers how report layout path properties (RDLCLayout, WordLayout, LayoutFile) resolve in AL report objects.",
-        "at": "2026-10-26T08:17:25.572Z",
+        "reason": "Covers report layout path properties (RDLCLayout, WordLayout, LayoutFile) in AL report objects.",
+        "at": "2026-10-26T08:45:20.994Z",
         "v": 2
       },
       "video/eUkx_VCcyoU@7b21270aaf33f5fa": {
         "verdict": "keep",
-        "reason": "Several of its demos are report development features: report tooltips, Excel layouts, report triggers and target format.",
-        "at": "2026-10-26T08:17:25.572Z",
+        "reason": "Covers new report features: tooltips, Excel layouts with multiple data sheets, report triggers and TargetFormat.",
+        "at": "2026-10-26T08:45:20.994Z",
         "v": 2
       },
       "video/hS8yWS3bxWE@7e100c5de254428c": {
         "verdict": "drop",
-        "reason": "It covers telemetry for financial reporting, not developing AL reports; the sibling telemetry section fits it better.",
-        "at": "2026-10-26T08:17:25.572Z",
+        "reason": "About telemetry signals, including financial reporting usage, rather than developing AL reports; the telemetry section fits better.",
+        "at": "2026-10-26T08:45:20.994Z",
         "v": 2
       },
       "video/M1S2_bgLd3Q@c3fca24a762ce626": {
         "verdict": "keep",
-        "reason": "It includes report development features: tooltips on report data item fields, the Word add-in data picker and PDF/UA output.",
-        "at": "2026-10-26T08:17:25.572Z",
+        "reason": "Includes report-development features: tooltips on report data item fields, the Word add-in data picker and PDF/UA output.",
+        "at": "2026-10-26T08:45:20.994Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3704@6920c9137ccf84b6": {
         "verdict": "drop",
-        "reason": "Its subject is a business-event and Power Automate SFTP integration; the invoice report is only the example payload.",
-        "at": "2026-10-26T08:17:28.584Z",
+        "reason": "The post is about an integration pattern (business events, Power Automate, SFTP); generating the invoice PDF is a small side step, not report development.",
+        "at": "2026-10-26T08:45:27.342Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619@9e099687770af155": {
         "verdict": "keep",
-        "reason": "Covers composite report layouts and the AL layout properties Subtype, HeaderFooterPart and ThemePart, which belong to report layouts.",
-        "at": "2026-10-26T08:17:28.584Z",
+        "reason": "Covers composite report layouts, including the AL properties Subtype, HeaderFooterPart and ThemePart, which fall under Report layouts.",
+        "at": "2026-10-26T08:45:27.342Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/3995@86d3d7fd9a3178df": {
+        "verdict": "drop",
+        "reason": "A broad BC28 developer roundup that only briefly mentions the Word add-in for report layouts.",
+        "at": "2026-10-26T08:45:27.342Z",
         "v": 2
       },
       "post/thinkaboutit-be/7181@719b2559a0395732": {
         "verdict": "keep",
-        "reason": "Covers how report datasets, layouts and request pages work together, and how to choose a layout type.",
-        "at": "2026-10-26T08:17:28.584Z",
+        "reason": "Covers report objects, datasets, layout types and request pages, which is the heart of developing reports.",
+        "at": "2026-10-26T08:45:27.342Z",
         "v": 2
       },
       "post/thinkaboutit-be/7813@06e30136edd39566": {
         "verdict": "keep",
-        "reason": "Covers document report layout features, layout lifecycle status and report tooltips, which match the report layouts and report discoverability subtopics.",
-        "at": "2026-10-26T08:17:28.584Z",
+        "reason": "Covers the Word add-in for layouts, the layout lifecycle and tooltips on reports, which relate to report layouts and discoverability.",
+        "at": "2026-10-26T08:45:27.342Z",
         "v": 2
       },
       "post/yzhums-com/56046@3ffeb9db3d1d7784": {
         "verdict": "drop",
-        "reason": "Mainly about calling an external API over HTTP to put a QR code image into the item picture, not about adding barcodes to reports.",
-        "at": "2026-10-26T08:17:28.584Z",
+        "reason": "The main subject is calling an outside barcode API with HttpClient to fill an item picture, not report development.",
+        "at": "2026-10-26T08:45:27.342Z",
         "v": 2
       },
       "post/yzhums-com/62513@065f9f77b4014a2a": {
         "verdict": "keep",
-        "reason": "Covers the report ToolTip and AboutText properties and Report Explorer, which fall under report discoverability.",
-        "at": "2026-10-26T08:17:28.584Z",
+        "reason": "Covers the report ToolTip and AboutText descriptors and Report Explorer, which relate to report discoverability.",
+        "at": "2026-10-26T08:45:27.342Z",
         "v": 2
       },
       "post/yzhums-com/63559@ffa0372e241353cf": {
         "verdict": "keep",
-        "reason": "Shows saving a report as Word with Report.SaveAs and report selection events, which is report output handling.",
-        "at": "2026-10-26T08:17:28.584Z",
-        "v": 2
-      },
-      "post/yzhums-com/64042@36e46ad7597a5fef": {
-        "verdict": "drop",
-        "reason": "About converting Word files to HTML with a codeunit procedure, not about developing reports.",
-        "at": "2026-10-26T08:17:28.584Z",
+        "reason": "Shows changing report output to Word with Report.SaveAs and report-selection events, which is report development in AL.",
+        "at": "2026-10-26T08:45:27.342Z",
         "v": 2
       },
       "post/yzhums-com/65570@4962fa05a7c06465": {
         "verdict": "keep",
-        "reason": "A blog series whose core topic is adding 1D and 2D barcodes to reports.",
-        "at": "2026-10-26T08:17:28.584Z",
+        "reason": "A series on adding 1D and 2D barcodes to reports, which relates to formatting report data and layouts.",
+        "at": "2026-10-26T08:45:27.342Z",
         "v": 2
       },
       "post/yzhums-com/69019@2093bd6814c10a11": {
         "verdict": "keep",
-        "reason": "Demonstrates the OnPreRendering report trigger for adding PDF password protection.",
-        "at": "2026-10-26T08:17:28.584Z",
+        "reason": "Shows the OnPreRendering report trigger and the rendering payload, which fall under Report triggers and events.",
+        "at": "2026-10-26T08:45:27.342Z",
         "v": 2
       }
     },
@@ -7854,86 +7881,80 @@
     "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry": {
       "post/waldo-be/317845@491d234240c181f4": {
         "verdict": "keep",
-        "reason": "An app that sends custom telemetry events from AL is a direct example of instrumenting with telemetry.",
-        "at": "2026-10-25T17:51:10.907Z",
+        "reason": "An extension that adds custom telemetry events from AL, which extends what this section documents.",
+        "at": "2026-10-26T08:45:34.616Z",
+        "v": 2
+      },
+      "post/yzhums-com/68765@0966df8884ab3da6": {
+        "verdict": "drop",
+        "reason": "About performance profiling and the debugger, not telemetry.",
+        "at": "2026-10-26T08:45:34.616Z",
         "v": 2
       },
       "video/1x3QyBX3swg@ee99459e60400345": {
         "verdict": "drop",
-        "reason": "About index management; telemetry is only a side mention.",
-        "at": "2026-10-25T17:51:10.907Z",
+        "reason": "About index management; telemetry for index changes is only a side point.",
+        "at": "2026-10-26T08:45:34.616Z",
         "v": 2
       },
       "video/7rIHz0zrgWU@0a2a4c7fce7506a6": {
         "verdict": "keep",
-        "reason": "Covers new telemetry signals that the telemetry reference documentation lists.",
-        "at": "2026-10-25T17:51:10.907Z",
+        "reason": "Covers new telemetry signals and how to analyse them, which matches the telemetry reference documentation.",
+        "at": "2026-10-26T08:45:34.616Z",
         "v": 2
       },
       "video/b54ehH4AlFA@c33b1c24ca10a36f": {
         "verdict": "keep",
-        "reason": "Covers the new financial reporting telemetry signals, which belong to the telemetry reference.",
-        "at": "2026-10-25T17:51:10.907Z",
+        "reason": "Shows the telemetry events for financial reporting, which are part of the telemetry reference.",
+        "at": "2026-10-26T08:45:34.616Z",
         "v": 2
       },
       "video/EwN3xb2q7vE@fa320b248e55e095": {
         "verdict": "drop",
-        "reason": "About developing agents, not telemetry.",
-        "at": "2026-10-25T17:51:10.907Z",
+        "reason": "About building agents, with no telemetry instrumentation.",
+        "at": "2026-10-26T08:45:34.616Z",
         "v": 2
       },
       "video/F_pssS0FtUc@25880ebddffc054c": {
-        "verdict": "drop",
-        "reason": "About usage analytics with the Power BI app, which is administration rather than instrumenting AL code.",
-        "at": "2026-10-25T17:51:10.907Z",
+        "verdict": "keep",
+        "reason": "Covers Business Central telemetry, including feature telemetry, and how it is used for analysis.",
+        "at": "2026-10-26T08:45:34.616Z",
         "v": 2
       },
       "video/hS8yWS3bxWE@7e100c5de254428c": {
         "verdict": "keep",
-        "reason": "A what's-new video on telemetry signals that the telemetry reference documents.",
-        "at": "2026-10-25T17:51:10.907Z",
+        "reason": "Covers new telemetry signals in 2025 release wave 1.",
+        "at": "2026-10-26T08:45:34.616Z",
         "v": 2
       },
       "video/mnxOSl1Y9PI@089d509598986664": {
         "verdict": "keep",
         "reason": "Includes the updated 'Telemetry for AL Developers' documentation.",
-        "at": "2026-10-25T17:51:10.907Z",
-        "v": 2
-      },
-      "video/MYZOkoSmtZ0@a8e7e8d204111672": {
-        "verdict": "drop",
-        "reason": "About setting up Application Insights, which is administration rather than AL instrumentation.",
-        "at": "2026-10-25T17:51:10.907Z",
+        "at": "2026-10-26T08:45:34.616Z",
         "v": 2
       },
       "video/oF_wSP0xrSQ@c7cff12a14b7a32a": {
         "verdict": "keep",
-        "reason": "A tool that queries telemetry signals such as lock timeouts and works with the telemetry this section documents.",
-        "at": "2026-10-25T17:51:10.907Z",
+        "reason": "A tool that automates analysis of Business Central telemetry signals such as lock timeouts.",
+        "at": "2026-10-26T08:45:34.616Z",
         "v": 2
       },
       "video/P-7dYVfB73E@14a5977a635463f3": {
         "verdict": "drop",
-        "reason": "About event extensibility; event telemetry is only a minor point.",
-        "at": "2026-10-25T17:51:10.907Z",
+        "reason": "About event extensibility, which the Events sibling section covers; event usage telemetry is only incidental.",
+        "at": "2026-10-26T08:45:34.616Z",
         "v": 2
       },
       "video/tDcT_51ktqo@3e69e4eb8e760295": {
         "verdict": "keep",
-        "reason": "Covers the new exclusive-time measure in long-running AL telemetry, which is part of the telemetry reference.",
-        "at": "2026-10-25T17:51:10.907Z",
+        "reason": "Covers the new exclusive-time telemetry for long-running AL.",
+        "at": "2026-10-26T08:45:34.616Z",
         "v": 2
       },
       "video/TY82NR2hGEg@3608ce5783de6b25": {
         "verdict": "drop",
-        "reason": "About developer tools and AL Doc, not telemetry.",
-        "at": "2026-10-25T17:51:10.907Z",
-        "v": 2
-      },
-      "video/VX_aPhcsIOc@d383b07696a142e3": {
-        "verdict": "drop",
-        "reason": "About controlling Application Insights ingestion costs, which is administration rather than AL instrumentation.",
-        "at": "2026-10-25T17:51:10.907Z",
+        "reason": "Its 'reference documentation' means the AL Doc tool, not telemetry.",
+        "at": "2026-10-26T08:45:34.616Z",
         "v": 2
       }
     },
@@ -8218,74 +8239,74 @@
     "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface": {
       "post/demiliani-com/12498@dbbb663eb0328f13": {
         "verdict": "keep",
-        "reason": "MaskType controls how fields display on card and document pages in the client, which is page/UI behavior.",
-        "at": "2026-10-26T08:19:07.702Z",
+        "reason": "MaskType changes how a field shows on card and document pages, which is page UI behaviour.",
+        "at": "2026-10-26T08:45:35.431Z",
         "v": 2
       },
       "post/demiliani-com/12623@6773a23b91b53805": {
         "verdict": "keep",
-        "reason": "Shows a new ExtendedDataType for displaying PDFs in CardPart/ListPart FactBoxes, which is page development.",
-        "at": "2026-10-26T08:19:07.702Z",
+        "reason": "Shows PDF previews in FactBoxes on CardPart and ListPart pages, which are page types this section documents.",
+        "at": "2026-10-26T08:45:35.431Z",
         "v": 2
       },
       "post/gerardorenteria-blog/12961@9c99b1dd04149642": {
         "verdict": "keep",
-        "reason": "Uses page extensions and a list-page action to add key-based sorting to list pages.",
-        "at": "2026-10-26T08:19:07.702Z",
+        "reason": "Uses page extensions, actions and a selection page to add sorting to list pages.",
+        "at": "2026-10-26T08:45:35.431Z",
         "v": 2
       },
       "post/miljan-rs/866@ab181e156b842fd5": {
         "verdict": "keep",
-        "reason": "Builds a modal dialog page opened from actions on customer pages.",
-        "at": "2026-10-26T08:19:07.702Z",
+        "reason": "Adds a modal editor page opened from actions on customer list and card pages.",
+        "at": "2026-10-26T08:45:35.431Z",
         "v": 2
       },
       "post/nataliekarolak-com/3494@6fc7df835e5a00ad": {
         "verdict": "keep",
-        "reason": "Explains how to write tooltips for page fields and actions.",
-        "at": "2026-10-26T08:19:07.702Z",
+        "reason": "Explains how to write tooltips for page fields and actions, which are part of page development.",
+        "at": "2026-10-26T08:45:35.431Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736@69c4841d4352f3e8": {
         "verdict": "keep",
-        "reason": "Covers the ToolTip property on page objects and how actions inherit it.",
-        "at": "2026-10-26T08:19:07.702Z",
+        "reason": "Covers the new ToolTip property on page objects and how navigation actions inherit it.",
+        "at": "2026-10-26T08:45:35.431Z",
+        "v": 2
+      },
+      "post/yzhums-com/61902@64cfcff3934870b7": {
+        "verdict": "keep",
+        "reason": "Explains how the client draws pictures on pages differently depending on the ExtendedDatatype setting.",
+        "at": "2026-10-26T08:45:35.431Z",
         "v": 2
       },
       "post/yzhums-com/63730@25b3402a8e21c39a": {
         "verdict": "keep",
-        "reason": "Index of posts on file preview in the web client, including the Document ExtendedDataType in FactBoxes.",
-        "at": "2026-10-26T08:19:07.702Z",
+        "reason": "Covers previewing files in web client pages and FactBoxes, which is page UI work.",
+        "at": "2026-10-26T08:45:35.431Z",
         "v": 2
       },
       "post/yzhums-com/63942@742e6e2324cb46e6": {
         "verdict": "keep",
-        "reason": "Builds a custom preview page with a WebPageViewer to show Word files in the client.",
-        "at": "2026-10-26T08:19:07.702Z",
+        "reason": "Builds a custom preview page with the WebPageViewer control to show Word files.",
+        "at": "2026-10-26T08:45:35.431Z",
         "v": 2
       },
       "post/yzhums-com/68077@b2255965ef9dfe1a": {
         "verdict": "keep",
-        "reason": "Explains the Document ExtendedDataType for showing PDFs in ListPart/CardPart FactBoxes.",
-        "at": "2026-10-26T08:19:07.702Z",
-        "v": 2
-      },
-      "post/yzhums-com/69877@2785d66441e7fcf2": {
-        "verdict": "drop",
-        "reason": "Page inspection is a troubleshooting feature in the client, not part of developing pages in AL as this section documents.",
-        "at": "2026-10-26T08:19:07.702Z",
+        "reason": "Shows the Document ExtendedDataType in FactBoxes on ListPart and CardPart pages.",
+        "at": "2026-10-26T08:45:35.431Z",
         "v": 2
       },
       "post/yzhums-com/74975@87be00a6f714a420": {
         "verdict": "keep",
-        "reason": "Shows how to embed a control add-in on a page with usercontrol to extend the page UI.",
-        "at": "2026-10-26T08:19:07.702Z",
+        "reason": "Shows adding a control add-in to a page with the usercontrol keyword.",
+        "at": "2026-10-26T08:45:35.431Z",
         "v": 2
       },
       "video/ugHFHtSxTlw@5a729b9594698b2e": {
-        "verdict": "keep",
-        "reason": "Discusses how the Business Central UI is designed, including what partners can change, which relates to page and UI development.",
-        "at": "2026-10-26T08:19:07.702Z",
+        "verdict": "drop",
+        "reason": "About Microsoft's own design process (Figma, user research), not about building pages in AL.",
+        "at": "2026-10-26T08:45:35.431Z",
         "v": 2
       }
     },
@@ -8963,75 +8984,75 @@
     },
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data": {
       "post/aardvarklabs-blog/2875@859c3408b8420ca4": {
-        "verdict": "drop",
-        "reason": "Subject is avoiding hard dependencies on optional extensions; the RecordRef modify is just the example.",
-        "at": "2026-10-26T06:34:39.186Z",
+        "verdict": "keep",
+        "reason": "Shows setting fields and modifying a record through RecordRef/FieldRef, a way of modifying data.",
+        "at": "2026-10-26T08:44:47.823Z",
         "v": 2
       },
       "post/demiliani-com/12267@642524c944ede625": {
         "verdict": "keep",
-        "reason": "Covers the Rec.Truncate method for deleting table rows, a data modification operation.",
-        "at": "2026-10-26T06:34:39.186Z",
+        "reason": "Covers the Rec.Truncate method for deleting table rows, part of modifying data.",
+        "at": "2026-10-26T08:44:47.823Z",
         "v": 2
       },
       "post/duiliotacconi-com/1717@dcbaf29c9ad9d829": {
         "verdict": "keep",
-        "reason": "LockTimeoutDuration controls locking behavior during data writes, related to modifying data.",
-        "at": "2026-10-26T06:34:39.186Z",
+        "reason": "Covers lock timeout control for locking during data changes, which relates to modifying data.",
+        "at": "2026-10-26T08:44:47.823Z",
         "v": 2
       },
       "post/duiliotacconi-com/1850@5319a3fbdedfa6f6": {
         "verdict": "keep",
-        "reason": "Explains Rec.Truncate versus DeleteAll for deleting records.",
-        "at": "2026-10-26T06:34:39.186Z",
+        "reason": "Explains Rec.Truncate versus DeleteAll in detail, both deletion operations covered here.",
+        "at": "2026-10-26T08:44:47.823Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7075429771899937250@55e16243375d0b0b": {
         "verdict": "drop",
-        "reason": "About No. Series validation changes in an application upgrade, not AL data modification methods.",
-        "at": "2026-10-26T06:34:39.186Z",
+        "reason": "Its subject is No. Series validation after an upgrade, not the AL methods for modifying data.",
+        "at": "2026-10-26T08:44:47.823Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/@5952c73c9ebbb427": {
         "verdict": "keep",
-        "reason": "Field validation versus direct assignment is a core practice when modifying records.",
-        "at": "2026-10-26T06:34:39.186Z",
+        "reason": "Argues for Validate over direct assignment when changing field values, a core point of modifying data.",
+        "at": "2026-10-26T08:44:47.823Z",
         "v": 2
       },
       "post/yzhums-com/63922@f82561c025c7f668": {
         "verdict": "drop",
-        "reason": "About page selection filters and temporary records, not modifying data.",
-        "at": "2026-10-26T06:34:39.186Z",
+        "reason": "About page selection filters and temporary records, which is filtering and reading rather than modifying data.",
+        "at": "2026-10-26T08:44:47.823Z",
         "v": 2
       },
       "post/yzhums-com/64898@d35f5d392851ff97": {
         "verdict": "keep",
-        "reason": "Shows the Insert method overload with a specified SystemId.",
-        "at": "2026-10-26T06:34:39.186Z",
+        "reason": "Explains the Insert method overload with a specified SystemId.",
+        "at": "2026-10-26T08:44:47.823Z",
         "v": 2
       },
-      "post/yzhums-com/67343@f739b9748c37a616": {
-        "verdict": "keep",
-        "reason": "Covers the Truncate method for bulk deletion of table data.",
-        "at": "2026-10-26T06:34:39.186Z",
-        "v": 2
-      },
-      "post/yzhums-com/71894@0ab129cbac62cb0f": {
+      "post/yzhums-com/66277@05960bb88b9c0194": {
         "verdict": "drop",
-        "reason": "DataTransfer for upgrade/install code is documented more exactly in the upgrade sections.",
-        "at": "2026-10-26T06:34:39.186Z",
+        "reason": "About TestField error message captions, which is error handling rather than modifying data.",
+        "at": "2026-10-26T08:44:47.823Z",
+        "v": 2
+      },
+      "post/yzhums-com/67343@7027216cf77fe532": {
+        "verdict": "keep",
+        "reason": "Explains the new Rec.Truncate method for bulk deletion and how it compares with DeleteAll.",
+        "at": "2026-10-26T08:44:47.823Z",
         "v": 2
       },
       "post/yzhums-com/76252@efb8234dba094465": {
         "verdict": "keep",
-        "reason": "IsDirty checks for uncommitted record changes before modify/save operations.",
-        "at": "2026-10-26T06:34:39.186Z",
+        "reason": "IsDirty checks for uncommitted record changes before modify or save operations.",
+        "at": "2026-10-26T08:44:47.823Z",
         "v": 2
       },
       "video/Ug_uM59DRRE@646917f6e1d49b29": {
         "verdict": "drop",
-        "reason": "About the Contoso demo data framework, not AL methods for modifying data.",
-        "at": "2026-10-26T06:34:39.186Z",
+        "reason": "About demo data frameworks and tooling, not the AL methods for modifying data.",
+        "at": "2026-10-26T08:44:47.823Z",
         "v": 2
       }
     },
@@ -9548,26 +9569,32 @@
     "topic/dev-itpro/development/troubleshooting/troubleshooting-in-al": {
       "post/demiliani-com/14222@59b4317bf323b737": {
         "verdict": "drop",
-        "reason": "About installing the AL Language extension's .NET runtime and fixing BCContainerHelper builds, not about troubleshooting AL code.",
-        "at": "2026-10-26T06:36:37.403Z",
+        "reason": "About installing the .NET runtime for the AL Language extension and BCContainerHelper build setup, not about troubleshooting AL code.",
+        "at": "2026-10-26T08:45:31.597Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/quick-tips-find-a-field-on-a-business-central-page/@61a48c439af62267": {
         "verdict": "drop",
-        "reason": "Page Inspection is a client-side tool that the sibling section 'Troubleshooting in the client' covers more exactly.",
-        "at": "2026-10-26T06:36:37.403Z",
+        "reason": "Page Inspection is a web client tool, which the sibling section 'Troubleshooting in the client' covers more exactly.",
+        "at": "2026-10-26T08:45:31.597Z",
         "v": 2
       },
       "post/nataliekarolak-com/3628@caeca773785ed144": {
         "verdict": "keep",
-        "reason": "Covers finding AL compiler warnings hidden in the VS Code Output tab, a practical AL troubleshooting step.",
-        "at": "2026-10-26T06:36:37.403Z",
+        "reason": "Explains why AL compiler warnings seem to be missing in VS Code, which is a practical AL troubleshooting tip.",
+        "at": "2026-10-26T08:45:31.597Z",
         "v": 2
       },
       "post/yzhums-com/68854@13d120312bd9eff1": {
         "verdict": "keep",
-        "reason": "AL debugging techniques (snapshot debugging, breakpoints, attaching to sessions) are core to troubleshooting in AL.",
-        "at": "2026-10-26T06:36:37.403Z",
+        "reason": "Covers AL debugging techniques such as snapshot debugging and breakpoints, which are central to troubleshooting in AL.",
+        "at": "2026-10-26T08:45:31.597Z",
+        "v": 2
+      },
+      "post/yzhums-com/69877@f2fd183b5875c99e": {
+        "verdict": "drop",
+        "reason": "An index of Page Inspection posts; that web client tool belongs to the sibling section 'Troubleshooting in the client'.",
+        "at": "2026-10-26T08:45:31.597Z",
         "v": 2
       }
     },
@@ -9896,286 +9923,286 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al": {
-      "post/gerardorenteria-blog/14894@1b604f05710f6e53": {
-        "verdict": "drop",
-        "reason": "About cutting token costs when using Copilot to write AL code, not about building Business Central agents in AL.",
-        "at": "2026-10-26T06:37:58.654Z",
-        "v": 2
-      },
-      "post/katson-com/4756@fe746a1e7d77237d": {
-        "verdict": "drop",
-        "reason": "A method for building extensions with AI coding agents, not about building Business Central agents in AL.",
-        "at": "2026-10-26T06:37:58.654Z",
-        "v": 2
-      },
-      "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02/@6693f9aeca20750b": {
-        "verdict": "drop",
-        "reason": "About using AI tools to help with general BC development, not about coding Business Central agents.",
-        "at": "2026-10-26T06:37:58.654Z",
-        "v": 2
-      },
-      "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/@a9590d7030e3dc3d": {
-        "verdict": "drop",
-        "reason": "About checking the quality of AI-generated AL code, not about building agents in AL.",
-        "at": "2026-10-26T06:37:58.654Z",
-        "v": 2
-      },
-      "post/olofsimren-com/3653@e7fefac5ccde599a": {
-        "verdict": "drop",
-        "reason": "Vibe coding is only how the audit extension was made, and it has no connection to coding Business Central agents.",
-        "at": "2026-10-26T06:37:58.654Z",
-        "v": 2
-      },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@b94f6d6fdd1fc4fe": {
-        "verdict": "drop",
-        "reason": "About setting up GitHub Copilot for AL development, not about building Business Central agents.",
-        "at": "2026-10-26T06:37:58.654Z",
-        "v": 2
-      },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-818643009386692123@982baa375093ea02": {
-        "verdict": "keep",
-        "reason": "Covers designing Business Central agents, including the AI Development Toolkit and Agent Building Sandbox, which this preview section is about.",
-        "at": "2026-10-26T06:37:58.654Z",
-        "v": 2
-      },
-      "post/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/@a85ba20998c1c74a": {
-        "verdict": "drop",
-        "reason": "A language-server tool for AI coding assistants, not about building Business Central agents in AL.",
-        "at": "2026-10-26T06:37:58.654Z",
-        "v": 2
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/@b67dc43eb2f9705d": {
-        "verdict": "drop",
-        "reason": "A Claude Code workflow for writing AL code, not about building Business Central agents.",
-        "at": "2026-10-26T06:37:58.654Z",
-        "v": 2
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/@2a63431a53ddd0cd": {
-        "verdict": "drop",
-        "reason": "An MCP server for searching Base Application source for AI coding assistants, not about building BC agents.",
-        "at": "2026-10-26T06:37:58.654Z",
-        "v": 2
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-dev-container-al/@9d6f8403875c1881": {
-        "verdict": "drop",
-        "reason": "About setting up a dev container for Claude Code, unrelated to building Business Central agents in AL.",
-        "at": "2026-10-26T06:37:58.654Z",
-        "v": 2
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/@d26fec2dbf7f1670": {
-        "verdict": "drop",
-        "reason": "About sandboxing Claude Code in Docker, unrelated to building Business Central agents in AL.",
-        "at": "2026-10-26T06:37:58.654Z",
-        "v": 2
-      },
       "post/aardvarklabs-blog/3060@cf622bf4ad3a6ad2": {
         "verdict": "drop",
-        "reason": "About AI-assisted requirements and design with Copilot Chat, not about building Business Central agents in AL.",
-        "at": "2026-10-26T06:37:59.674Z",
+        "reason": "About using Copilot Chat to write requirements and design documents, not about building Business Central agents in AL.",
+        "at": "2026-10-26T08:45:35.631Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3097@8e325a3f81621c91": {
         "verdict": "keep",
-        "reason": "Step-by-step guide to building an agent in AL with IAgentFactory, IAgentMetadata and AgentTaskBuilder.",
-        "at": "2026-10-26T06:37:59.674Z",
+        "reason": "Walks through building a custom agent in AL with IAgentFactory, IAgentMetadata and AgentTaskBuilder.",
+        "at": "2026-10-26T08:45:35.631Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3564@e823a16dc5428d34": {
         "verdict": "drop",
-        "reason": "About Copilot skills in VS Code for AL development, not about coding Business Central agents.",
-        "at": "2026-10-26T06:37:59.674Z",
+        "reason": "About VS Code Copilot skills for writing AL, not about coding Business Central agents.",
+        "at": "2026-10-26T08:45:35.631Z",
         "v": 2
       },
       "post/bertverbeek-nl/1219@87302a808e16dbc5": {
         "verdict": "keep",
-        "reason": "Explains creating agent tasks with Agent Task Builder and handling agent messages from code.",
-        "at": "2026-10-26T06:37:59.674Z",
+        "reason": "Explains how custom agents work and how to handle their tasks and messages in code with the Agent Task codeunits.",
+        "at": "2026-10-26T08:45:35.631Z",
         "v": 2
       },
       "post/bertverbeek-nl/1272@81f380297cb1980b": {
         "verdict": "keep",
-        "reason": "Covers creating and registering agents from AL code, including the interfaces, setup pages and KPI pages.",
-        "at": "2026-10-26T06:37:59.674Z",
+        "reason": "Covers creating and registering agents in AL code through the agent interfaces, setup pages and KPI pages.",
+        "at": "2026-10-26T08:45:35.631Z",
         "v": 2
       },
       "post/demiliani-com/12644@8f82d42475c5da29": {
         "verdict": "keep",
-        "reason": "Debugging agent sessions from VS Code is part of developing agents in AL.",
-        "at": "2026-10-26T06:37:59.674Z",
+        "reason": "Shows how to debug agent sessions from VS Code, which supports developing agents in AL.",
+        "at": "2026-10-26T08:45:35.631Z",
         "v": 2
       },
       "post/demiliani-com/13814@d2bf07698adba447": {
         "verdict": "keep",
-        "reason": "Documents new Agent codeunit methods for setting the model of agents defined in code.",
-        "at": "2026-10-26T06:37:59.674Z",
+        "reason": "Describes the new Agent codeunit methods for choosing an agent's AI model from AL.",
+        "at": "2026-10-26T08:45:35.631Z",
         "v": 2
       },
       "post/demiliani-com/13982@a0a946e5701b63bc": {
         "verdict": "drop",
-        "reason": "Opinion piece on the costs of AI-assisted development, unrelated to coding agents in AL.",
-        "at": "2026-10-26T06:37:59.674Z",
+        "reason": "A general essay on the costs of relying on AI coding help, not about building agents.",
+        "at": "2026-10-26T08:45:35.631Z",
         "v": 2
       },
       "post/demiliani-com/14011@a4f2a5eb486e6c43": {
         "verdict": "drop",
-        "reason": "About VS Code hooks for AI coding agents, not Business Central agents built in AL.",
-        "at": "2026-10-26T06:37:59.674Z",
+        "reason": "About VS Code agent hooks for auditing AI coding sessions, not about Business Central agents.",
+        "at": "2026-10-26T08:45:35.631Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/@cf1c867204c2f0fe": {
         "verdict": "keep",
-        "reason": "Roundup that includes the model-selection AL APIs for code-defined agents.",
-        "at": "2026-10-26T06:37:59.674Z",
+        "reason": "One of the roundup's items covers the new AL model-selection methods for agents built in code.",
+        "at": "2026-10-26T08:45:35.631Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/@9a731a62b40514dc": {
         "verdict": "drop",
-        "reason": "The AL MCP server serves AI coding assistants, not the AL agent framework this section documents.",
-        "at": "2026-10-26T06:37:59.674Z",
+        "reason": "About the AL MCP server that lets AI coding assistants build and compile AL, not about agents built in AL.",
+        "at": "2026-10-26T08:45:35.631Z",
         "v": 2
       },
       "post/gerardorenteria-blog/13945@46831719c8bc5ce4": {
         "verdict": "drop",
-        "reason": "About GitHub Copilot workspace context settings, not about coding Business Central agents.",
-        "at": "2026-10-26T06:37:59.674Z",
+        "reason": "About managing GitHub Copilot context settings per workspace, unrelated to coding Business Central agents.",
+        "at": "2026-10-26T08:45:35.631Z",
         "v": 2
       },
-      "video/EwN3xb2q7vE@fa320b248e55e095": {
-        "verdict": "keep",
-        "reason": "Directly demonstrates coding BC agents in AL: agent factory, metadata and task interfaces, setup codeunits, and the Tasks API.",
-        "at": "2026-10-26T06:38:00.845Z",
-        "v": 2
-      },
-      "video/gd2TycVywv4@f20bd71818f9eeb8": {
+      "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/@d26fec2dbf7f1670": {
         "verdict": "drop",
-        "reason": "About using AI agents and Copilot to write AL code, not about building Business Central agents in AL.",
-        "at": "2026-10-26T06:38:00.845Z",
-        "v": 2
-      },
-      "video/jfvUkNa4gyg@843581c971e53e3c": {
-        "verdict": "drop",
-        "reason": "About AL development with Claude Code agent workflows, not about coding BC agents.",
-        "at": "2026-10-26T06:38:00.845Z",
-        "v": 2
-      },
-      "video/jWqjDTbqjeE@d3cbde4e3c06d5d7": {
-        "verdict": "keep",
-        "reason": "Introduces designing and coding BC agents, including agent code creation with the AI Development Toolkit and deploying agents as extensions.",
-        "at": "2026-10-26T06:38:00.845Z",
-        "v": 2
-      },
-      "video/mBU2Iu0urw8@95ce2757d015d2fc": {
-        "verdict": "drop",
-        "reason": "About agentic developer tooling (MCP, Copilot modes) for AL development, not about authoring BC agents.",
-        "at": "2026-10-26T06:38:00.845Z",
-        "v": 2
-      },
-      "video/MNwTt06ZxwY@6a357ea37188254b": {
-        "verdict": "keep",
-        "reason": "Covers shipping agents through AL extensions, including the agent template, factory and metadata interfaces, and the task execution interface.",
-        "at": "2026-10-26T06:38:00.845Z",
-        "v": 2
-      },
-      "video/V4zCPAsYi_Y@c18383eb6e9d0dd2": {
-        "verdict": "keep",
-        "reason": "Covers testing AL-coded agents with the AI Development Toolkit evaluation app, which works with the agents this section documents.",
-        "at": "2026-10-26T06:38:00.845Z",
-        "v": 2
-      },
-      "video/w2P3WskFaCA@9f8393e4268031d6": {
-        "verdict": "drop",
-        "reason": "About AI-assisted and terminal-based BC development workflows, not about coding BC agents.",
-        "at": "2026-10-26T06:38:00.845Z",
-        "v": 2
-      },
-      "video/WjFx9yYf1js@7a24bb789c86b0e4": {
-        "verdict": "drop",
-        "reason": "About the risks of vibe coding extensions, not about coding BC agents in AL.",
-        "at": "2026-10-26T06:38:00.845Z",
-        "v": 2
-      },
-      "video/XGEDwzIZQj4@53a5209267f30072": {
-        "verdict": "drop",
-        "reason": "Benchmarks AI coding agents on bug fixing, which is unrelated to building BC agents in AL.",
-        "at": "2026-10-26T06:38:00.845Z",
-        "v": 2
-      },
-      "video/xWOddQt1GUM@b37a64fe3602a41b": {
-        "verdict": "drop",
-        "reason": "Mainly about AI-assisted AL development and tooling; it only briefly mentions the agent preview.",
-        "at": "2026-10-26T06:38:00.845Z",
+        "reason": "About sandboxing Claude Code in Docker, not building Business Central agents in AL.",
+        "at": "2026-10-26T08:45:44.015Z",
         "v": 2
       },
       "post/thinkaboutit-be/7352@f7cfc535784925c8": {
         "verdict": "drop",
-        "reason": "About using GitHub Copilot's Agent mode to write AL code, not about building Business Central agents in AL.",
-        "at": "2026-10-26T06:38:01.105Z",
+        "reason": "About using GitHub Copilot Agent mode to write AL code, not about coding Business Central agents.",
+        "at": "2026-10-26T08:45:44.015Z",
         "v": 2
       },
       "post/thinkaboutit-be/7383@7e8512d807291136": {
         "verdict": "drop",
-        "reason": "About Copilot Plan mode for AL development, which is AI-assisted coding rather than coding agents in AL.",
-        "at": "2026-10-26T06:38:01.105Z",
+        "reason": "About Copilot Plan mode for AL development, not about the agent capability this section documents.",
+        "at": "2026-10-26T08:45:44.015Z",
         "v": 2
       },
       "post/thinkaboutit-be/7402@b5ffe8888e16e784": {
         "verdict": "drop",
-        "reason": "A mental model for GitHub Copilot modes in AL development, not about building agents in AL.",
-        "at": "2026-10-26T06:38:01.105Z",
+        "reason": "General guide to Copilot modes for AL coding; it doesn't cover coding Business Central agents.",
+        "at": "2026-10-26T08:45:44.015Z",
         "v": 2
       },
       "post/thinkaboutit-be/7414@2d8b4e6d2f5403fd": {
         "verdict": "drop",
-        "reason": "A personal year-in-review about Copilot use and structure; it doesn't cover building agents in AL.",
-        "at": "2026-10-26T06:38:01.105Z",
+        "reason": "A personal review of the year on AI-assisted coding, not about coding Business Central agents.",
+        "at": "2026-10-26T08:45:44.015Z",
         "v": 2
       },
       "post/thinkaboutit-be/7486@131ae97800aa4183": {
         "verdict": "drop",
-        "reason": "Compares Copilot Plan mode with Copilot agents for development workflow, not Business Central agent development.",
-        "at": "2026-10-26T06:38:01.105Z",
+        "reason": "Compares Copilot Plan mode with Agent mode as coding aids, not about Business Central agents.",
+        "at": "2026-10-26T08:45:44.015Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/@6ae9e0614597ffbc": {
         "verdict": "drop",
-        "reason": "About autonomy levels in agentic coding practice in general, not about coding Business Central agents in AL.",
-        "at": "2026-10-26T06:38:01.105Z",
+        "reason": "About levels of autonomy in agentic coding in general, not about designing Business Central agents in AL.",
+        "at": "2026-10-26T08:45:44.015Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/@6371193df90b4b48": {
         "verdict": "drop",
-        "reason": "About quality assurance pipelines for AI coding agents, not Business Central agents built in AL.",
-        "at": "2026-10-26T06:38:01.105Z",
+        "reason": "About quality pipelines for AI coding agents, not about coding Business Central agents.",
+        "at": "2026-10-26T08:45:44.015Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/@17cb200d6d4e65cf": {
         "verdict": "drop",
-        "reason": "About engineering discipline when coding with AI, not building agents in AL.",
-        "at": "2026-10-26T06:38:01.105Z",
+        "reason": "About engineering discipline when working with AI, not about the agent capability this section documents.",
+        "at": "2026-10-26T08:45:44.015Z",
         "v": 2
       },
       "post/vondervoort-be/130@80f191b9b56f9b87": {
         "verdict": "drop",
-        "reason": "About the ALCops code analyzer and its tooling; AI integration is only on its roadmap and has nothing to do with coding agents in AL.",
-        "at": "2026-10-26T06:38:01.105Z",
+        "reason": "About the ALCops code analyzer; working with AI assistants is only future roadmap, unrelated to Business Central agents.",
+        "at": "2026-10-26T08:45:44.015Z",
         "v": 2
       },
       "post/vondervoort-be/147@99d92e66e963843b": {
         "verdict": "drop",
-        "reason": "About ALCops analyzers and an MCP server for AI assistants, not building Business Central agents in AL.",
-        "at": "2026-10-26T06:38:01.105Z",
-        "v": 2
-      },
-      "post/yzhums-com/71363@ba2d3bebe2408f9c": {
-        "verdict": "keep",
-        "reason": "Describes the new Agent project template in VS Code for starting agent development in AL.",
-        "at": "2026-10-26T06:38:01.105Z",
+        "reason": "About ALCops analyzers and an MCP server for coding assistants, not about coding Business Central agents.",
+        "at": "2026-10-26T08:45:44.015Z",
         "v": 2
       },
       "video/c91E6IykUnk@9c87e1a5eb37106f": {
+        "verdict": "keep",
+        "reason": "Low confidence: the episode shows an expense management agent and agent workflows, which may touch building agents in Business Central.",
+        "at": "2026-10-26T08:45:44.015Z",
+        "v": 2
+      },
+      "post/gerardorenteria-blog/14894@1b604f05710f6e53": {
         "verdict": "drop",
-        "reason": "Covers AI-assisted development and report layouts; the Expense management agent it mentions is a finished feature, not about coding agents in AL.",
-        "at": "2026-10-26T06:38:01.105Z",
+        "reason": "About cutting Copilot token costs during AL development, not about building Business Central agents in AL.",
+        "at": "2026-10-26T08:45:44.313Z",
+        "v": 2
+      },
+      "post/katson-com/4756@fe746a1e7d77237d": {
+        "verdict": "drop",
+        "reason": "A method for building extensions with AI coding assistants, not about coding Business Central agents in AL.",
+        "at": "2026-10-26T08:45:44.313Z",
+        "v": 2
+      },
+      "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02/@6693f9aeca20750b": {
+        "verdict": "drop",
+        "reason": "General guidance on AI-assisted AL development, not on building agents in AL.",
+        "at": "2026-10-26T08:45:44.313Z",
+        "v": 2
+      },
+      "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/@a9590d7030e3dc3d": {
+        "verdict": "drop",
+        "reason": "About the quality of AI-generated AL code, not about building agents in AL.",
+        "at": "2026-10-26T08:45:44.313Z",
+        "v": 2
+      },
+      "post/nataliekarolak-com/3995@86d3d7fd9a3178df": {
+        "verdict": "drop",
+        "reason": "Broad BC 28 release summary; its coding-agent mention is about benchmarking AI coding agents (BC-Bench), not building agents in AL.",
+        "at": "2026-10-26T08:45:44.313Z",
+        "v": 2
+      },
+      "post/olofsimren-com/3653@e7fefac5ccde599a": {
+        "verdict": "drop",
+        "reason": "Vibe-coding a configuration audit app; the subject is AI-assisted development, not agents built in AL.",
+        "at": "2026-10-26T08:45:44.313Z",
+        "v": 2
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@b94f6d6fdd1fc4fe": {
+        "verdict": "drop",
+        "reason": "Setting up GitHub Copilot for vibe coding, not building Business Central agents in AL.",
+        "at": "2026-10-26T08:45:44.313Z",
+        "v": 2
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-818643009386692123@982baa375093ea02": {
+        "verdict": "keep",
+        "reason": "Discusses agent design as a partner skill and the Agent Building Sandbox and AI Development Toolkit, which relate to building agents.",
+        "at": "2026-10-26T08:45:44.313Z",
+        "v": 2
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/@a85ba20998c1c74a": {
+        "verdict": "drop",
+        "reason": "A language-server tool for AI coding assistants, not about building agents in AL.",
+        "at": "2026-10-26T08:45:44.313Z",
+        "v": 2
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/@b67dc43eb2f9705d": {
+        "verdict": "drop",
+        "reason": "A multi-agent Claude Code workflow for writing AL code, not about building Business Central agents.",
+        "at": "2026-10-26T08:45:44.313Z",
+        "v": 2
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/@2a63431a53ddd0cd": {
+        "verdict": "drop",
+        "reason": "An MCP source-search tool for AI coding assistants, not about building agents in AL.",
+        "at": "2026-10-26T08:45:44.313Z",
+        "v": 2
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-dev-container-al/@9d6f8403875c1881": {
+        "verdict": "drop",
+        "reason": "A dev container setup for Claude Code, unrelated to building agents in AL.",
+        "at": "2026-10-26T08:45:44.313Z",
+        "v": 2
+      },
+      "video/EwN3xb2q7vE@fa320b248e55e095": {
+        "verdict": "keep",
+        "reason": "Covers coding BC agents in AL: agent factory, metadata and task interfaces, setup codeunit, tasks API.",
+        "at": "2026-10-26T08:45:44.419Z",
+        "v": 2
+      },
+      "video/gd2TycVywv4@f20bd71818f9eeb8": {
+        "verdict": "drop",
+        "reason": "About AI-assisted AL development with GitHub Copilot, not building BC agents in AL.",
+        "at": "2026-10-26T08:45:44.419Z",
+        "v": 2
+      },
+      "video/jfvUkNa4gyg@843581c971e53e3c": {
+        "verdict": "drop",
+        "reason": "About using Claude Code agents to write AL, not coding Business Central agents.",
+        "at": "2026-10-26T08:45:44.419Z",
+        "v": 2
+      },
+      "video/jWqjDTbqjeE@d3cbde4e3c06d5d7": {
+        "verdict": "keep",
+        "reason": "Introduces designing and coding BC agents, including AI Development Toolkit agent code creation and extension deployment.",
+        "at": "2026-10-26T08:45:44.419Z",
+        "v": 2
+      },
+      "video/mBU2Iu0urw8@95ce2757d015d2fc": {
+        "verdict": "drop",
+        "reason": "About agentic coding tools (agent mode, ALMCP) for AL developers, not agents built in AL.",
+        "at": "2026-10-26T08:45:44.419Z",
+        "v": 2
+      },
+      "video/MNwTt06ZxwY@6a357ea37188254b": {
+        "verdict": "keep",
+        "reason": "Covers shipping agents via extensions with the agent factory and metadata interfaces and the AL agent template.",
+        "at": "2026-10-26T08:45:44.419Z",
+        "v": 2
+      },
+      "video/V4zCPAsYi_Y@c18383eb6e9d0dd2": {
+        "verdict": "keep",
+        "reason": "Testing AL-coded agents with the AI Development Toolkit evaluation app supports building agents in AL.",
+        "at": "2026-10-26T08:45:44.419Z",
+        "v": 2
+      },
+      "video/w2P3WskFaCA@9f8393e4268031d6": {
+        "verdict": "drop",
+        "reason": "About terminal-based AL development with AI coding assistants on Linux, not coding BC agents.",
+        "at": "2026-10-26T08:45:44.419Z",
+        "v": 2
+      },
+      "video/WjFx9yYf1js@7a24bb789c86b0e4": {
+        "verdict": "drop",
+        "reason": "About the risks of vibe coding extensions, not building agents in AL.",
+        "at": "2026-10-26T08:45:44.419Z",
+        "v": 2
+      },
+      "video/XGEDwzIZQj4@53a5209267f30072": {
+        "verdict": "drop",
+        "reason": "Benchmarks AI coding assistants on AL bug fixing; not about coding BC agents.",
+        "at": "2026-10-26T08:45:44.419Z",
+        "v": 2
+      },
+      "video/xWOddQt1GUM@b37a64fe3602a41b": {
+        "verdict": "drop",
+        "reason": "Mainly about AI-assisted AL coding and developer tooling, not coding BC agents in AL.",
+        "at": "2026-10-26T08:45:44.419Z",
         "v": 2
       }
     },
@@ -10632,32 +10659,38 @@
     "topic/dev-itpro/integration/integrating-business-central-with-office": {
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-add-in-error-the-service-required-to-use-this-feature-is-turn-off-check-your-privacy-settings/@3a9986d68d1a0c6b": {
         "verdict": "keep",
-        "reason": "Troubleshoots the Edit in Excel add-in, part of the Excel integration this section documents.",
-        "at": "2026-10-26T06:35:41.396Z",
+        "reason": "Fixing an error in the Edit in Excel add-in is part of the Excel integration this section documents.",
+        "at": "2026-10-26T08:44:42.243Z",
         "v": 2
       },
-      "post/yzhums-com/63735@a77316a05624b5fa": {
+      "post/yzhums-com/63735@80a0b7d071de1243": {
         "verdict": "keep",
-        "reason": "Covers storing and managing BC files in SharePoint via Graph, a Microsoft 365 integration close to the OneDrive subtopic.",
-        "at": "2026-10-26T06:35:41.396Z",
+        "reason": "A series on connecting Business Central with SharePoint, which is part of Microsoft 365, fits this section.",
+        "at": "2026-10-26T08:44:42.243Z",
         "v": 2
       },
       "post/yzhums-com/69433@373b66da3535df5d": {
         "verdict": "keep",
-        "reason": "Explains Open in Excel with OneDrive opening workbooks in Excel for the web, covering the Excel and OneDrive subtopics.",
-        "at": "2026-10-26T06:35:41.396Z",
+        "reason": "It covers Open in Excel opening in Excel for the web through OneDrive, both subtopics of this section.",
+        "at": "2026-10-26T08:44:42.243Z",
+        "v": 2
+      },
+      "post/yzhums-com/69818@9b2fd52aaf5845d9": {
+        "verdict": "keep",
+        "reason": "Keeping attachments in SharePoint is part of Microsoft 365 file integration, so it is relevant when in doubt.",
+        "at": "2026-10-26T08:44:42.243Z",
         "v": 2
       },
       "post/yzhums-com/72611@ea36ac37516505c5": {
         "verdict": "keep",
-        "reason": "Covers syncing BC contacts to Microsoft 365 Outlook and Teams and Outlook add-in setup, which falls under Office/Microsoft 365 integration.",
-        "at": "2026-10-26T06:35:41.396Z",
+        "reason": "Copying contacts to Outlook and Teams is part of the Office and Microsoft 365 integration this section documents.",
+        "at": "2026-10-26T08:44:42.243Z",
         "v": 2
       },
       "video/QK-Qsh_6YL4@8ba69d9b3b8baddb": {
         "verdict": "drop",
-        "reason": "About a partner Copilot feature for completing time sheets; Graph and Teams data are only inputs, not the subject.",
-        "at": "2026-10-26T06:35:41.396Z",
+        "reason": "Its subject is Copilot filling in time sheets, not integration with Office apps or Microsoft 365, which is only the data source.",
+        "at": "2026-10-26T08:44:42.243Z",
         "v": 2
       }
     },
@@ -11011,16 +11044,16 @@
       }
     },
     "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps": {
-      "post/yzhums-com/67024@d2157acbea17d143": {
+      "post/yzhums-com/67024@83b08004eba7dd1b": {
         "verdict": "keep",
-        "reason": "It troubleshoots custom Power Apps that fail on end-user machines at go-live, which is a practical issue for anyone building Power Apps on top of this integration.",
-        "at": "2026-10-26T08:21:15.092Z",
+        "reason": "It troubleshoots a problem opening Power Apps (with Zscaler) as part of a Business Central integration go-live, which is relevant to readers integrating with Power Apps.",
+        "at": "2026-10-26T08:45:41.483Z",
         "v": 2
       },
       "video/auoHUd24Gfw@705914daca46158a": {
-        "verdict": "drop",
-        "reason": "It covers Power Pages portals and multi-company setup for Dataverse virtual tables, which are not Power Apps topics and belong with the Dataverse virtual-table documentation.",
-        "at": "2026-10-26T08:21:15.092Z",
+        "verdict": "keep",
+        "reason": "Power Pages (formerly Power Apps portals) shows Business Central data through Dataverse virtual tables, no sibling section covers it, and it is close enough to this Power Apps section to keep.",
+        "at": "2026-10-26T08:45:41.483Z",
         "v": 2
       }
     },
@@ -11527,92 +11560,98 @@
     "topic/dev-itpro/performance": {
       "post/demiliani-com/11962@59c4b3f4f738556f": {
         "verdict": "keep",
-        "reason": "Covers how to make OData API calls faster by compressing responses, which is a web service performance topic.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "Covers cutting API response size and transfer time through compression, which is web service performance work.",
+        "at": "2026-10-26T08:45:45.320Z",
         "v": 2
       },
       "post/demiliani-com/13096@d983992cb248690a": {
         "verdict": "keep",
-        "reason": "Covers client-side performance factors (latency, browser, hardware) and how to measure them.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "Covers how latency, the browser and local hardware affect UI performance in Business Central, and how to measure them.",
+        "at": "2026-10-26T08:45:45.320Z",
         "v": 2
       },
       "post/demiliani-com/13254@1e5abc180a70baaf": {
         "verdict": "keep",
-        "reason": "Explains the Database Wait Statistics page, a tool for diagnosing performance problems.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "Explains how to use the Database Wait Statistics page to find performance bottlenecks.",
+        "at": "2026-10-26T08:45:45.320Z",
         "v": 2
       },
       "post/demiliani-com/13369@6629bda418af7616": {
         "verdict": "keep",
-        "reason": "Uses page view telemetry to work out whether slowness comes from the network or from code.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "Uses page-view telemetry with network and hardware data to tell slow client infrastructure apart from slow code.",
+        "at": "2026-10-26T08:45:45.320Z",
         "v": 2
       },
       "post/duiliotacconi-com/1457@4876ff8966589696": {
         "verdict": "keep",
-        "reason": "Covers the 26.x performance features (less-locking inventory posting, skipping hidden FlowFields) and tuning to avoid deadlocks.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "Discusses version 26.x performance features, namely the less-locking inventory posting engine and skipping FlowFields in hidden columns, plus how to reduce deadlocks.",
+        "at": "2026-10-26T08:45:45.320Z",
         "v": 2
       },
       "post/duiliotacconi-com/1624@a371d282bf3e4643": {
         "verdict": "keep",
-        "reason": "Reviews the performance improvements in version 27.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "Reviews the version 27 performance improvements in the application, AL development and SQL optimization.",
+        "at": "2026-10-26T08:45:45.320Z",
         "v": 2
       },
       "post/duiliotacconi-com/2001@bbcde3b30b8db4a5": {
         "verdict": "keep",
-        "reason": "Covers index management for database performance tuning.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "Covers turning indexes off and on to improve write performance, with usage statistics to decide which to keep.",
+        "at": "2026-10-26T08:45:45.320Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/@aea1381f91018eec": {
         "verdict": "keep",
-        "reason": "Explains how to design table indexes and the trade-off between read and write performance.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "Explains the read-versus-write cost of table indexes and how to plan them for good performance.",
+        "at": "2026-10-26T08:45:45.320Z",
         "v": 2
       },
       "post/waldo-be/317739@5b3804a03ad435cc": {
-        "verdict": "drop",
-        "reason": "Mainly about managing sessions in the Admin Center, which the Administration section documents more exactly.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "verdict": "keep",
+        "reason": "It covers cancelling sessions and matching them to database locks to fix performance problems, which is part of performance troubleshooting.",
+        "at": "2026-10-26T08:45:49.078Z",
         "v": 2
       },
       "post/waldo-be/318212@8029f096336be096": {
         "verdict": "keep",
-        "reason": "Explains how to troubleshoot performance using the Missing Indexes page.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "Its subject is analysing the Missing Indexes page and its telemetry, a core performance troubleshooting topic.",
+        "at": "2026-10-26T08:45:49.078Z",
+        "v": 2
+      },
+      "post/yzhums-com/69818@9b2fd52aaf5845d9": {
+        "verdict": "drop",
+        "reason": "Its subject is storing attachments outside the database; performance is only a side benefit.",
+        "at": "2026-10-26T08:45:49.078Z",
         "v": 2
       },
       "video/D7GxnNiGQ14@2446d7df83cf29ee": {
         "verdict": "keep",
-        "reason": "Covers background and asynchronous processing patterns for performance and responsiveness.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "It covers performance optimization through page background tasks, the task scheduler and asynchronous processing.",
+        "at": "2026-10-26T08:45:49.078Z",
         "v": 2
       },
       "video/G0avZpiDFtI@2e57a6a480e57859": {
         "verdict": "keep",
-        "reason": "Includes database performance features such as calculating only visible FlowFields and the Missing Indexes page enhancements.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "It includes performance features: calculating only visible flow fields, SetAutoCalcFields, faster copy company and missing indexes page enhancements.",
+        "at": "2026-10-26T08:45:49.078Z",
         "v": 2
       },
       "video/LW2JNV01sJo@4d9ed486295354d5": {
         "verdict": "keep",
-        "reason": "Introduces Microsoft's OptimAL performance initiative for Business Central.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "It presents Microsoft's performance optimization initiative for Business Central.",
+        "at": "2026-10-26T08:45:49.078Z",
         "v": 2
       },
       "video/snVsG69X-kw@96bf3633cbaa6ef7": {
         "verdict": "keep",
-        "reason": "Covers cloud scalability, the performance profiler, database locks and the missing indexes page.",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "It covers cloud scalability, the performance profiler, the database locks and missing indexes pages, and the performance toolkit.",
+        "at": "2026-10-26T08:45:49.078Z",
         "v": 2
       },
       "video/XcQFvNnKpxk@41bd29e0fe59a068": {
         "verdict": "keep",
-        "reason": "Covers performance testing with the Business Central Performance Toolkit (BCPT).",
-        "at": "2026-10-25T17:54:14.286Z",
+        "reason": "It demonstrates performance testing with the Business Central Performance Toolkit (BCPT).",
+        "at": "2026-10-26T08:45:49.078Z",
         "v": 2
       }
     },

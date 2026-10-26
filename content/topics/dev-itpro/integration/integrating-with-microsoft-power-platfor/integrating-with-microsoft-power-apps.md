@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:57.247Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-26T08:46:07.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,7 +57,8 @@ links:
   topics:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor
   localizations: []
-  videos: []
+  videos:
+    - video/auoHUd24Gfw
   posts:
     - post/yzhums-com/67024
   guidelines: []
@@ -71,7 +72,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 0
+  video: 1
   blog: 1
   guideline: 0
 bc_forms: []
@@ -114,6 +115,7 @@ For delivery, the application lifecycle management page explains how to keep AL 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Regarding the recent problem I encountered when opening Power Apps with Zscaler](../../../../posts/yzhums-com/67024.md) (community post): "Power Apps customizations may fail to run on end-user machines when Zscaler security software is deployed"
+- [Regarding the recent problem I encountered when opening Power Apps with Zscaler](../../../../posts/yzhums-com/67024.md) (community post): "opening Power Apps with Zscaler"
+- [What's New: Using Power Pages with Business Central (2024 release wave 1)](../../../../videos/auoHUd24Gfw.md) (video): "Custom Dataverse mapping plugin for company targeting; Portal ID retrieval from Power Pages URL"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

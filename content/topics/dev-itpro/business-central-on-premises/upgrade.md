@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:39.599Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-26T08:46:07.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -320,6 +320,8 @@ links:
     - post/demiliani-com/17470
     - post/demiliani-com/17480
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be
+    - post/yzhums-com/63887
+    - post/yzhums-com/69394
   guidelines: []
   changes:
     - change/bcapps/12307
@@ -340,7 +342,7 @@ coverage:
   learn: 113
   code: 0
   video: 0
-  blog: 3
+  blog: 5
   guideline: 0
 bc_forms:
   - 19010
@@ -398,6 +400,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central license keys: what changes from version 28.](../../../posts/demiliani-com/17470.md) (community post): "requiring administrators to download a refreshed license file before each version upgrade"
 - [End of .NET 8 support and what it means for Dynamics 365 Business Central on-prem.](../../../posts/demiliani-com/17480.md) (community post): ".NET 8 and .NET 9 reach end of support on November 10, 2026"
 - [October 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be.md) (community post): "Organizations should verify implementation readiness and compatibility with customizations before upgrading"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (May, 2025)](../../../posts/yzhums-com/63887.md) (community post): "cumulative updates released in May 2025 for Business Central versions BC26, BC25, BC24, and BC23"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (December, 2025)](../../../posts/yzhums-com/69394.md) (community post): "Cumulative Update Summary for Microsoft Dynamics 365 Business Central"
 
 ## Business Central pages and reports
 

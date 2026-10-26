@@ -2,7 +2,7 @@
 id: source/yzhums-com
 type: source
 title: Dynamics 365 Lab - Yun Zhu
-summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 385 posts in the knowledge base, 2025-04-28 to 2026-10-26, mostly about development, administration, platform."
+summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 386 posts in the knowledge base, 2025-04-28 to 2026-10-26, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-26T08:08:59.782Z"
+  at: "2026-10-26T08:38:38.243Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 45aece4111ad62a6aa1edc17719e9e32cbc2c0f9069e351a636ae971d221f914
+  input_hash: bb8c4dd70ff9ffd03268ffe2e232ff5281f0080fddfb689f5139a60d1979b79d
 evidence:
   - kind: blog
     url: https://yzhums.com
@@ -381,6 +381,7 @@ links:
     - post/yzhums-com/75774
     - post/yzhums-com/75794
     - post/yzhums-com/75811
+    - post/yzhums-com/75873
     - post/yzhums-com/75896
     - post/yzhums-com/75853
     - post/yzhums-com/75894
@@ -425,15 +426,15 @@ url: https://yzhums.com
 author: Yun Zhu
 mvp: true
 full_text: false
-item_count: 385
+item_count: 386
 footprint:
   systems:
     - id: development
-      weight: 280
+      weight: 282
     - id: administration
       weight: 199
     - id: platform
-      weight: 190
+      weight: 191
     - id: sales
       weight: 89
     - id: reporting
@@ -442,7 +443,7 @@ footprint:
       weight: 66
   topics:
     - id: al development
-      weight: 65
+      weight: 66
     - id: bc28
       weight: 27
     - id: bc27
@@ -450,7 +451,7 @@ footprint:
     - id: customization
       weight: 23
     - id: bc29
-      weight: 19
+      weight: 20
     - id: release wave 2
       weight: 18
     - id: admin center
@@ -463,9 +464,9 @@ footprint:
       weight: 15
   objects:
     - id: table Customer
-      weight: 13
+      weight: 14
     - id: table Sales Header
-      weight: 11
+      weight: 12
     - id: page Customer Card
       weight: 10
     - id: page Item Card
@@ -493,7 +494,7 @@ last_item: "2026-10-26"
 
 # Dynamics 365 Lab - Yun Zhu
 
-> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 385 posts in the knowledge base, 2025-04-28 to 2026-10-26, mostly about development, administration, platform.
+> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 386 posts in the knowledge base, 2025-04-28 to 2026-10-26, mostly about development, administration, platform.
 
 [https://yzhums.com](https://yzhums.com) · blog · tier community
 
@@ -501,11 +502,11 @@ last_item: "2026-10-26"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (280) | al development (65) | table Customer (13) |
-| administration (199) | bc28 (27) | table Sales Header (11) |
-| platform (190) | bc27 (23) | page Customer Card (10) |
+| development (282) | al development (66) | table Customer (14) |
+| administration (199) | bc28 (27) | table Sales Header (12) |
+| platform (191) | bc27 (23) | page Customer Card (10) |
 | sales (89) | customization (23) | page Item Card (9) |
-| reporting (73) | bc29 (19) | page Item List (9) |
+| reporting (73) | bc29 (20) | page Item List (9) |
 | integration (66) | release wave 2 (18) | page Customer List (7) |
 |  | admin center (16) | page Sales Order (7) |
 |  | al language (16) | table Sales Line (7) |
@@ -523,7 +524,7 @@ Items per quarter, oldest first:
 - 2025-Q4: **************************************** 58
 - 2026-Q1: **************************************** 68
 - 2026-Q2: **************************************** 53
-- 2026-Q3: **************************************** 70
+- 2026-Q3: **************************************** 71
 - 2026-Q4: ****************** 18
 
 ## Most recent

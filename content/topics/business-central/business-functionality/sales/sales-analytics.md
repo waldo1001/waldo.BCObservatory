@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:39.920Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-26T08:46:07.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -519,7 +519,7 @@ Subtopics go deeper. The Power BI Sales app describes its reports, semantic mode
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [You can't see your stale documents, and that's why they're stale](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6634996257036493772--55ed189793.md) (community post): "Consolidates sales quotes, orders, and unposted invoices into one read-only view"
-- [Business Central 2026 release wave 1 (BC28): Analyze customer loyalty and other sales scenarios](../../../../posts/yzhums-com/73030.md) (community post): "New Power BI reports and analysis views for sales orders"
+- [Business Central 2026 release wave 1 (BC28): Analyze customer loyalty and other sales scenarios](../../../../posts/yzhums-com/73030.md) (community post): "New analysis views on the Sales Orders list are planned for expected sales volume"
 - [What's New: Enhanced Sales Analytics (2026 release wave 1)](../../../../videos/fJGY6d-2lO8.md) (video): "customer retention; churn analysis; abc analysis; power bi; sales analytics"
 - [What's New: Sales Analytics (2025 release wave 2)](../../../../videos/rAaUiKByyEE.md) (video): "Modernized analytical reports; Customer item sales report"
 

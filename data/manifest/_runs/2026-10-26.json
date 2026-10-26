@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
-  "started_at": "2026-10-26T08:08:59.782Z",
-  "finished_at": "2026-10-26T08:24:18.733Z",
+  "started_at": "2026-10-26T08:38:38.243Z",
+  "finished_at": "2026-10-26T08:48:23.471Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -33,7 +33,7 @@
           "removed": 0
         },
         "note": "389 posts via WordPress REST",
-        "duration_ms": 5927
+        "duration_ms": 5741
       }
     ],
     "totals": {
@@ -74,90 +74,78 @@
       "post_reviews": 50000,
       "change_reviews": 50000
     },
-    "work": 12,
-    "executed": 12,
+    "work": 1,
+    "executed": 1,
     "skips": 0,
     "quota_use": {
-      "posts": {
-        "selected": 12,
-        "available": 12,
-        "limit": 50000
+      "unlimited": {
+        "selected": 1,
+        "available": 1,
+        "limit": null
       }
     },
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 199,
-    "cache_hits": 9,
+    "calls": 46,
+    "cache_hits": 0,
     "failures": 0,
     "by_model": {
-      "claude-haiku-4-5-20251001": 53,
-      "claude-opus-5-5": 146
+      "claude-haiku-4-5-20251001": 10,
+      "claude-opus-5-5": 36
     },
-    "cost_usd": 9.996035000000001,
+    "cost_usd": 2.4156429999999998,
     "tokens_by_model": {
       "claude-haiku-4-5-20251001": {
-        "calls": 53,
-        "input": 7801,
-        "output": 25417,
-        "cache_read": 5430,
-        "cache_creation": 599177,
-        "cost_usd": 1.333783
+        "calls": 10,
+        "input": 9006,
+        "output": 4391,
+        "cache_read": 0,
+        "cache_creation": 70193,
+        "cost_usd": 0.171347
       },
       "claude-opus-5-5": {
-        "calls": 146,
-        "input": 292,
-        "output": 150543,
+        "calls": 36,
+        "input": 72,
+        "output": 40910,
         "cache_read": 0,
-        "cache_creation": 706278,
-        "cost_usd": 8.662251999999999
+        "cache_creation": 178226,
+        "cost_usd": 2.2442960000000003
       }
     },
-    "day_cost_usd": 31.05621
+    "day_cost_usd": 33.471853
   },
   "spend": {
-    "today_usd": 21.060175,
+    "today_usd": 31.05621,
     "week_before_usd": 93.448098,
     "night_cap_usd": 100000,
     "week_cap_usd": 100000,
-    "allowance_usd": 99885.491727,
+    "allowance_usd": 99875.495692,
     "binding": "week",
     "exhausted": false,
     "override": true
   },
   "items_changed": 0,
-  "errors": [
-    "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data topic review: expected 12 verdicts, got 11 for 11 refs",
-    "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry topic review: expected 13 verdicts, got 12 for 12 refs",
-    "blog/yzhums-com/73637 fetched: fetch failed"
-  ],
+  "errors": [],
   "captions_retried": 0,
-  "checkpoints": 1,
+  "checkpoints": 0,
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-26T13:43:00.000Z",
-    "items_touched": 12,
+    "deadline": "2026-10-26T14:13:00.000Z",
+    "items_touched": 1,
     "stages_run": {
-      "blog:fetched": 9,
-      "blog:extracted": 11,
-      "blog:summarized": 11,
-      "blog:linked": 11,
-      "blog:published": 11
+      "blog:published": 1
     },
-    "advanced": 53,
+    "advanced": 1,
     "skipped": 0,
-    "failed_attempts": 1,
+    "failed_attempts": 0,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "parked": 7,
-    "quota_charged": {
-      "posts": 12
-    },
+    "parked": 0,
+    "quota_charged": {},
     "regards": [],
-    "errors": [
-      "blog/yzhums-com/73637 fetched: fetch failed"
-    ],
+    "errors": [],
     "parked_left": 0
   },
   "code": {
@@ -184,43 +172,43 @@
       "stopped": "done"
     },
     "crosslinks": {
-      "pages": 5250,
-      "rows": 9508,
+      "pages": 5252,
+      "rows": 9512,
       "certain": 2556,
       "by": {
-        "code": 5347,
+        "code": 5349,
         "override": 33,
-        "model": 4128
+        "model": 4130
       },
-      "learn_pages": 1760,
+      "learn_pages": 1761,
       "written": true,
       "errors": []
     },
     "cautions": {
-      "items": 732,
-      "cautions": 1658,
-      "objects": 60,
-      "attached": 83,
+      "items": 734,
+      "cautions": 1661,
+      "objects": 61,
+      "attached": 84,
       "written": true
     },
     "pages": {
       "objects": 25667,
-      "written": 94,
+      "written": 2,
       "removed": 0,
       "localizations": 22,
       "own_objects": 9214
     },
     "related": {
-      "pages": 10570,
-      "rows": 36943,
+      "pages": 10578,
+      "rows": 37020,
       "by_rank": {
         "1": 983,
         "2": 67,
-        "3": 20198,
-        "4": 1921,
-        "5": 6625,
+        "3": 20199,
+        "4": 1923,
+        "5": 6698,
         "6": 7016,
-        "7": 133
+        "7": 134
       },
       "written": true
     },
@@ -256,15 +244,15 @@
     "held": 0,
     "pages": 1244,
     "relinked": 0,
-    "rerendered": 4,
+    "rerendered": 0,
     "api_calls": 0,
     "narrated": 0
   },
   "previews": {
-    "probed": 11,
+    "probed": 1,
     "refreshed": 0,
-    "failed": 0,
-    "rerendered": 20,
+    "failed": 1,
+    "rerendered": 1,
     "flipped": [],
     "channels": 0
   },
@@ -294,62 +282,54 @@
   },
   "topic_links": {
     "units": 2912,
-    "stale": 227,
-    "calls": 48,
-    "matched": 260,
-    "rejected": 48,
+    "stale": 23,
+    "calls": 9,
+    "matched": 32,
+    "rejected": 4,
     "failed": 0,
-    "cost_usd": 1.2167229999999998,
+    "cost_usd": 0.167598,
     "rejections": [
-      "post/yzhums-com/64942 -> t387: not a candidate of this item",
-      "post/yzhums-com/64010 -> t389: not a candidate of this item",
-      "post/yzhums-com/70782 -> t389: not a candidate of this item",
-      "post/yzhums-com/67705 -> t392: not a candidate of this item",
-      "post/yzhums-com/67791 -> t485: not a candidate of this item",
-      "post/yzhums-com/41471 -> topic/dev-itpro/development/extensibility/extending-al-objects: quote not verbatim: \"page extensions can change them on standard pages\"",
-      "post/yzhums-com/61561 -> topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/reading-data: quote not verbatim: \"Record.CalcSums method to calculate column totals\"",
-      "post/yzhums-com/71365 -> t464: not a candidate of this item",
-      "post/yzhums-com/76233 -> t464: not a candidate of this item",
-      "post/yzhums-com/64939 -> topic/dev-itpro/administration/understand-business-central-online: quote not verbatim: \"cumulative updates released in Business Central across multiple versions\""
+      "post/yzhums-com/63735 -> t519: not a candidate of this item",
+      "post/yzhums-com/69818 -> topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data: quote not verbatim: \"reduce database capacity usage, improves performance, and provides better cost c\"",
+      "post/yzhums-com/64042 -> t421: not a candidate of this item",
+      "post/yzhums-com/66463 -> t402: not a candidate of this item"
     ],
     "second": {
-      "due": 71,
-      "called": 71,
-      "matched": 66
+      "due": 19,
+      "called": 19,
+      "matched": 22
     },
     "stopped": "done"
   },
   "cautions": {
-    "due": 11,
-    "posts": 11,
-    "calls": 3,
-    "cautions": 3,
+    "due": 1,
+    "posts": 1,
+    "calls": 1,
+    "cautions": 0,
     "failed": 0,
-    "cost_usd": 0.06875,
+    "cost_usd": 0.0037489999999999997,
     "stopped": "done"
   },
   "learn_confirm": {
     "units": 4084,
-    "stale": 2,
-    "called": 2,
-    "calls": 1,
-    "picks": 2,
-    "rejected": 1,
+    "stale": 0,
+    "called": 0,
+    "calls": 0,
+    "picks": 0,
+    "rejected": 0,
     "failed": 0,
-    "cost_usd": 0.004402,
-    "rejections": [
-      "object/page/9216 -> L5: not a candidate of this item"
-    ],
+    "cost_usd": 0,
+    "rejections": [],
     "stopped": "done"
   },
   "topic_reviews": {
-    "candidates": 125,
-    "calls": 143,
-    "reviewed": 146,
-    "kept": 853,
-    "dropped": 261,
-    "failed": 2,
-    "cost_usd": 8.137668,
+    "candidates": 29,
+    "calls": 35,
+    "reviewed": 36,
+    "kept": 199,
+    "dropped": 101,
+    "failed": 0,
+    "cost_usd": 2.2044840000000003,
     "stopped": "done"
   },
   "reviews": {
@@ -361,15 +341,15 @@
       "cost_usd": 0
     },
     "post": {
-      "reviewed": 11,
-      "fixed": 3,
-      "rejected": 2,
-      "calls": 3,
-      "cost_usd": 0.134324,
-      "candidates": 11,
+      "reviewed": 1,
+      "fixed": 0,
+      "rejected": 0,
+      "calls": 1,
+      "cost_usd": 0.039812,
+      "candidates": 1,
       "failed": 0,
       "reset": 0,
-      "rerendered": 11,
+      "rerendered": 1,
       "stopped": "done"
     },
     "change": {
@@ -408,13 +388,13 @@
     "review_backlog": 0
   },
   "content": {
-    "pages": 29547,
+    "pages": 29548,
     "errors": 0
   },
   "leak": {
     "vault": "scanned",
     "raw_docs": 1159,
-    "files_scanned": 32920,
+    "files_scanned": 32924,
     "findings": 0,
     "blocked": false
   }

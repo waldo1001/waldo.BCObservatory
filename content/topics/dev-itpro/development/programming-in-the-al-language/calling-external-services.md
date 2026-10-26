@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-26T08:46:07.995Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -97,6 +97,7 @@ links:
     - post/demiliani-com/14203
     - post/kauffmann-nl/8332
     - post/yzhums-com/56046
+    - post/yzhums-com/63735
     - post/yzhums-com/64775
     - post/yzhums-com/65391
     - post/yzhums-com/65525
@@ -124,7 +125,7 @@ coverage:
   learn: 8
   code: 0
   video: 1
-  blog: 10
+  blog: 11
   guideline: 0
 bc_forms: []
 member_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -183,6 +184,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs"
 - [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released on GitHub"
 - [Dynamics 365 Business Central: Generate barcode through external services/APIs (Telepen, Swiss QR Code, QR codes with colors, images or text……)](../../../../posts/yzhums-com/56046.md) (community post): "external APIs like QuickChart can generate QR codes and other barcode types through HTTP requests in AL code"
+- [Dynamics 365 Business Central Blog Series: Integrate Business Central with SharePoint](../../../../posts/yzhums-com/63735.md) (community post): "uploading SharePoint files through AL and Graph API, saving reports to SharePoint"
 - [Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)](../../../../posts/yzhums-com/64775.md) (community post): "authenticating with OAuth 2.0 and implementing GET, POST, PATCH, and DELETE operations to synchronize data"
 - [Dynamics 365 Business Central: How to set Allow HttpClient Requests for multiple extensions (selected extensions) at the same time](../../../../posts/yzhums-com/65391.md) (community post): "Allow HttpClient Requests must be enabled per extension to allow outbound HTTP calls"
 - [Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL](../../../../posts/yzhums-com/65525.md) (community post): "Use codeunit 1299 Web Request Helper and its IsSecureHttpUrl procedure to validate URL security"

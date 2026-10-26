@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:34.651Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-26T08:46:07.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -65,6 +65,9 @@ links:
     - post/thinkaboutit-be/7073
     - post/thinkaboutit-be/7650
     - post/yzhums-com/67294
+    - post/yzhums-com/67988
+    - post/yzhums-com/68239
+    - post/yzhums-com/68861
     - post/yzhums-com/74530
   guidelines: []
 learn_toc_path:
@@ -78,7 +81,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 7
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: fde84c7445504ea526bb607ea3879b00d4d926486c43dadb75b4000a827c4bd9
@@ -127,6 +130,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Quick Tip: Get Ready: Upcoming Mandatory Features in Business Central Release Wave 27.0](../../../../posts/thinkaboutit-be/7073.md) (community post): "Release Wave 27.0 of Dynamics 365 Business Central introduces mandatory features"
 - [Quick Tip: Business Central Update 27.5 Released and Version 28 Preview Sandboxes Available](../../../../posts/thinkaboutit-be/7650.md) (community post): "Business Central update 27.5 was released as the latest monthly update"
 - [The public preview for Dynamics 365 Business Central 2025 release wave 2 (BC27) is available](../../../../posts/yzhums-com/67294.md) (community post): "Dynamics 365 Business Central 2025 release wave 2 (BC27) public preview is available"
+- [General Available: Dynamics 365 Business Central 2025 release wave 2 (BC27)](../../../../posts/yzhums-com/67988.md) (community post): "Business Central 2025 release wave 2 (BC27) is now generally available for cloud and on-premises deployments"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (October, 2025)](../../../../posts/yzhums-com/68239.md) (community post): "Business Central 2025 release wave 2 (BC27) is now generally available with platform version 27.0.39966.0"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (November, 2025)](../../../../posts/yzhums-com/68861.md) (community post): "BC27.1 (2025 wave 2, CU01) with its SaaS and on-premises build numbers"
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (July, 2026)](../../../../posts/yzhums-com/74530.md) (community post): "2026 release wave 1 (version 28.x) started April 1, 2026"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

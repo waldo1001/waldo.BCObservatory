@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:38.168Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-26T08:46:07.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -329,6 +329,7 @@ links:
   posts:
     - post/miljan-rs/866
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212
+    - post/yzhums-com/53887
     - post/yzhums-com/74458
   guidelines: []
   changes:
@@ -354,7 +355,7 @@ coverage:
   learn: 42
   code: 9
   video: 2
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 4500
@@ -421,6 +422,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9272 Fix duplicate in-transit location in localized Contoso demo data](../../../changes/bcapps/9272.md) (code change): "Replaced the warehousing module's independent in-transit location definition"
 - [Simple Text Editor for Business Central](../../../posts/miljan-rs/866.md) (community post): "lightweight AL extension provides a simple text editor"
 - [BC Friday Tips #75 Dynamics BC Excel Reports](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md) (community post): "Excel Reports objects in Business Central belong to the Dynamics BC Excel Reports extension"
+- [Dynamics 365 Business Central: How to quickly check whether the table is a system table in AL](../../../posts/yzhums-com/53887.md) (community post): "how to check if a table is a system table using the IsSystemTable procedure"
 - [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../../../posts/yzhums-com/74458.md) (community post): "extend the Item Ledger Entries page to include filtering by item attributes"
 - [What's New: Co-Development Initiative (2024 release wave 2)](../../../videos/6SyNNeHQDUo.md) (video): "co-development; community contributions; github collaboration; platform extensibility"
 - [Let's pass MB-820: Episode 19 - Extend ApplicationArea with custom areas](../../../videos/uxYuoJP-uH8.md) (video): "Application Area extension; Enable custom area function; Application area validation"

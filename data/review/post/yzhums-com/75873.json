@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/75873",
+  "input_hash": "fe12c897e9efcc3c2d8199fb9f17500dfdc158628bdc073710f6143fdf0800c7",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T08:45:58.627Z",
+  "issues": [
+    "The summary matches the post: BC29 lets table extension keys combine base table fields with extension fields, which was not possible before.",
+    "The key points are supported. The post names the AL0423 error and lists the four key properties (KeyFields, SumIndexFields, SqlIndex, IncludedFields).",
+    "Both objects are named in the post. Customer is the table extended in the test code, and Sales Header is the author's example.",
+    "Index Management is supported: the post says the new key can be viewed there after publishing.",
+    "Quote 1 appears word for word in the post and is useful."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039812,
+    "posts_in_call": 1
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-22T01:12:24.802Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-26T08:46:07.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -369,6 +369,7 @@ links:
     - post/nataliekarolak-com/4184
     - post/yzhums-com/65768
     - post/yzhums-com/66461
+    - post/yzhums-com/70129
     - post/yzhums-com/70325
     - post/yzhums-com/70481
   guidelines: []
@@ -402,7 +403,7 @@ coverage:
   learn: 340
   code: 36
   video: 3
-  blog: 8
+  blog: 9
   guideline: 0
 bc_forms:
   - 16
@@ -506,6 +507,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Using Substring to replace CopyStr](../../../posts/nataliekarolak-com/4184.md) (community post): "Using Substring to replace CopyStr for improved code readability"
 - [Dynamics 365 Business Central: A simple Date Formula testing tool](../../../posts/yzhums-com/65768.md) (community post): "Date Formula testing tool for Dynamics 365 Business Central helps developers"
 - [Dynamics 365 Business Central: How to quickly strip not supported chars in File Name via AL](../../../posts/yzhums-com/66461.md) (community post): "demonstrates using the StripNotsupportChrInFileName method from codeunit 419"
+- [Dynamics 365 Business Central: How to check if the time zone supports daylight saving time (DST) via AL](../../../posts/yzhums-com/70129.md) (community post): "how to check whether a time zone supports daylight saving time (DST) in Business Central using AL code"
 - [Dynamics 365 Business Central: How to split a string on a fixed character (delimiter or separator) via AL](../../../posts/yzhums-com/70325.md) (community post): "String splitting in AL using the Text.Split method to parse delimited data"
 - [Dynamics 365 Business Central: How to convert Month Name (Text) to Month Number (Integer)](../../../posts/yzhums-com/70481.md) (community post): "converting a month name text value to its corresponding month number integer"
 - [... but can it play DOOM? (In Business Central)](../../../videos/a8W1x0xwkv4.md) (video): "AL development; user control host; typescript; webgl rendering; javascript interop"

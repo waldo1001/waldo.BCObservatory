@@ -23975,16 +23975,33 @@
     "post/nataliekarolak-com/3995": {
       "kind": "post",
       "key": "post/nataliekarolak-com/3995",
-      "hash": "2ca1ec7eb7e5aa1dc3bb258a35969ea54d7f0da0f46c64310eebfb0dbce955ee",
+      "hash": "86d3d7fd9a3178df9dd969273c5ebe05175653cfebd6afd99407fd2ce25fa8bb",
       "title": "Docs: What’s new in BC 28 for developers",
       "source": "nataliekarolak-com",
-      "at": "2026-10-26T06:22:20.279Z",
+      "at": "2026-10-26T08:43:37.178Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28",
-          "quote": "Business Central 28 introduces major developer features including semantic search on data"
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "MCP tooling grows, including an Admin Center API MCP server usable from VS Code"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
+          "quote": "new tooling covers index usage management, a Word Add-in (preview) for report layouts"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "AL coding agents with BC-Bench, improved database index management"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28",
+            "reason": "What's-new developer features in BC28, not the v28 update/upgrade content of this section."
+          }
+        ]
+      }
     },
     "post/nataliekarolak-com/4179": {
       "kind": "post",
@@ -29769,16 +29786,25 @@
     "post/yzhums-com/53887": {
       "kind": "post",
       "key": "post/yzhums-com/53887",
-      "hash": "174bfc2dca961de34b06c90ecca33972f787644f62e15b0dd3d1f0f5fdc0ef61",
+      "hash": "d0930e9af3147d68aa448c9b54610c49b73b082cd125bab8e0b5850684e6fca2",
       "title": "Dynamics 365 Business Central: How to quickly check whether the table is a system table in AL",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:20.524Z",
+      "at": "2026-10-26T08:43:37.178Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
-          "quote": "System tables have IDs of 2,000,000,000 and above and cannot be extended"
+          "topic": "topic/dev-itpro/development/extensibility",
+          "quote": "how to check if a table is a system table using the IsSystemTable procedure"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
+            "reason": "About a Config. Management helper that checks for system tables, not about defining table structures."
+          }
+        ]
+      }
     },
     "post/yzhums-com/56046": {
       "kind": "post",
@@ -29901,20 +29927,29 @@
     "post/yzhums-com/61902": {
       "kind": "post",
       "key": "post/yzhums-com/61902",
-      "hash": "4f4680407be5ee68e4b5565f6a038d64f006b09cdfda1525eb38b34dbbb93421",
+      "hash": "64cfcff3934870b7615f2cf14e36a0a537254036a9e5ff628f73094fb36e4528",
       "title": "Dynamics 365 Business Central: Why are customer pictures round and item pictures square?",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:14:54.804Z",
+      "at": "2026-10-26T08:43:37.178Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/data-types",
-          "quote": "ExtendedDatatype property set to Person for customer images"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages",
-          "quote": "Customer pictures appear round while item pictures appear square"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
+          "quote": "ExtendedDatatype property set to Person for customer images, which the client renders"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/data-types",
+            "reason": "Its subject is the ExtendedDatatype property and how the client draws pictures, not an AL data type."
+          },
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages",
+            "reason": "The subject is the ExtendedDatatype field property and how pictures are rendered, not pages."
+          }
+        ]
+      }
     },
     "post/yzhums-com/61951": {
       "kind": "post",
@@ -30120,20 +30155,33 @@
     "post/yzhums-com/63735": {
       "kind": "post",
       "key": "post/yzhums-com/63735",
-      "hash": "6af0a732b16b3bd44b1564c8b58889fa210e12c2745e8d035c587a93de820ba2",
+      "hash": "80a0b7d071de1243b1dba42eca8930bf00288f40aed1030bcaff5adebc0803d9",
       "title": "Dynamics 365 Business Central Blog Series: Integrate Business Central with SharePoint",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:04.103Z",
+      "at": "2026-10-26T08:43:35.841Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
-          "quote": "reading and uploading SharePoint files through AL and Graph API"
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office",
+          "quote": "Integrate Business Central with SharePoint. This is an index of a blog series on connecting Business Central with SharePoint."
         },
         {
-          "topic": "topic/dev-itpro/integration/web-services",
-          "quote": "Files can be uploaded to and imported from SharePoint document libraries using AL code with Graph API"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
+          "quote": "uploading SharePoint files through AL and Graph API, saving reports to SharePoint"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
+            "reason": "The series is about SharePoint integration, which the Microsoft 365 sibling section documents."
+          },
+          {
+            "topic": "topic/dev-itpro/integration/web-services",
+            "reason": "It is about SharePoint and Graph API integration, which the sibling section on Office apps and Microsoft 365 documents."
+          }
+        ]
+      }
     },
     "post/yzhums-com/63736": {
       "kind": "post",
@@ -30253,16 +30301,25 @@
     "post/yzhums-com/63887": {
       "kind": "post",
       "key": "post/yzhums-com/63887",
-      "hash": "55621fcbfbee2bfe09186c28e9778a2e6badf5b109ffe0c975d448e0a9b145eb",
+      "hash": "8da8a498d2daaf9ef90176eefc0fa2c31ae8df3a2624e2d41720f696cc99a2c9",
       "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (May, 2025)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:00.210Z",
+      "at": "2026-10-26T08:43:46.871Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/understand-business-central-online",
-          "quote": "cumulative updates released in May 2025 for Business Central versions"
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade",
+          "quote": "cumulative updates released in May 2025 for Business Central versions BC26, BC25, BC24, and BC23"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/administration/understand-business-central-online",
+            "reason": "A list of cumulative update build numbers and on-premises lifecycle dates, not an explanation of the online service."
+          }
+        ]
+      }
     },
     "post/yzhums-com/63897": {
       "kind": "post",
@@ -30370,16 +30427,20 @@
     "post/yzhums-com/64042": {
       "kind": "post",
       "key": "post/yzhums-com/64042",
-      "hash": "36e46ad7597a5fef031147c3a1ab46752982760c6649e3665aae96b2a3289090",
+      "hash": "b04c4cecf336d2938dfc9cfbaa567e710628afd1521123c725e1972703294200",
       "title": "Dynamics 365 Business Central: Convert Word (.docx) To HTML (.html) within BC (No control add-in and APIs)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:14:53.125Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
-          "quote": "Converting Word (.docx) files to HTML (.html) format within Business Central"
-        }
-      ]
+      "at": "2026-10-26T08:43:37.178Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
+            "reason": "About converting Word files to HTML with a codeunit procedure, not about developing reports."
+          }
+        ]
+      }
     },
     "post/yzhums-com/64057": {
       "kind": "post",
@@ -30426,16 +30487,29 @@
     "post/yzhums-com/64265": {
       "kind": "post",
       "key": "post/yzhums-com/64265",
-      "hash": "112aedd33fbce72823ce2c034e5661cfbe7a3f58e57c2ea0f9e0804a3d98a78d",
+      "hash": "43f7f4931aa12e3d063c8e8ab8afa1365373435119dffa3bc672a2821a107c11",
       "title": "Dynamics 365 Business Central: How to restrict certain tables from importing data through Configuration Package",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:33.736Z",
+      "at": "2026-10-26T08:43:42.549Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
-          "quote": "Configuration Packages can import data into Business Central, but posted tables, entry tables, and system tables are blocked"
+          "topic": "topic/dev-itpro/administration/automation-api/configuration-package",
+          "quote": "restrict additional tables from being imported, you can use customization"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extensibility/using-events",
+          "quote": "OnAfterIsSystemTable event in a codeunit to mark unwanted tables"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
+            "reason": "About restricting Configuration Package imports, an admin setup feature rather than AL import/export programming."
+          }
+        ]
+      }
     },
     "post/yzhums-com/64277": {
       "kind": "post",
@@ -31056,16 +31130,25 @@
     "post/yzhums-com/66403": {
       "kind": "post",
       "key": "post/yzhums-com/66403",
-      "hash": "61041cafb7f8783880614ba64f700b9c90f74dc3aa80930e4250e339a608843e",
+      "hash": "e7851ead8e08260eabf5f20d472ad4a06eff1cb0a7ffccc4a668926c4cd77dc7",
       "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (August, 2025)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:07.742Z",
+      "at": "2026-10-26T08:43:42.549Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/understand-business-central-online",
-          "quote": "Since BC25, the window for scheduling major updates grew from 30 or 60 days to five months"
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-1-v26",
+          "quote": "BC26 CU04 (version 26.4) is listed for cloud and on-premises"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/administration/understand-business-central-online",
+            "reason": "A list of cumulative update build numbers and lifecycle dates, not about understanding the online service."
+          }
+        ]
+      }
     },
     "post/yzhums-com/66410": {
       "kind": "post",
@@ -31093,16 +31176,20 @@
     "post/yzhums-com/66463": {
       "kind": "post",
       "key": "post/yzhums-com/66463",
-      "hash": "18e8ae24629dbe132816b4371e06a95594321488d129cd94de8c0de65ed973e3",
+      "hash": "4d58ea0d162059dff984381840c1e1afe5935065258f625b45f1195bdc70b042",
       "title": "Dynamics 365 Business Central: How to prevent users from uploading duplicate files as attachments (Duplicate file names)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:07.742Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/development-and-administration/customize-business-central/customize-with-extensions",
-          "quote": "customization is needed. Solution uses a table extension to General Ledger Setup"
-        }
-      ]
+      "at": "2026-10-26T08:43:42.549Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/development-and-administration/customize-business-central/customize-with-extensions",
+            "reason": "Its subject is preventing duplicate attachment uploads; the table extension and event subscriber are only how it does this, not a lesson on customizing with extensions."
+          }
+        ]
+      }
     },
     "post/yzhums-com/66542": {
       "kind": "post",
@@ -31158,14 +31245,18 @@
     "post/yzhums-com/67024": {
       "kind": "post",
       "key": "post/yzhums-com/67024",
-      "hash": "d2157acbea17d1437b29342c36c9d99a18bcf88a2e2234265bb94baac66b8f97",
+      "hash": "83b08004eba7dd1b224c23bcbde4d7b473b4d4d63e5dd1a0edd2a60bb25565fc",
       "title": "Regarding the recent problem I encountered when opening Power Apps with Zscaler",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:04.103Z",
+      "at": "2026-10-26T08:43:35.970Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps",
-          "quote": "Power Apps customizations may fail to run on end-user machines when Zscaler security software is deployed"
+          "quote": "opening Power Apps with Zscaler"
+        },
+        {
+          "topic": "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-apps",
+          "quote": "problem I encountered when opening Power Apps"
         }
       ]
     },
@@ -31679,16 +31770,25 @@
     "post/yzhums-com/67988": {
       "kind": "post",
       "key": "post/yzhums-com/67988",
-      "hash": "fbf6f4355e34e11e5fd40c408ef69e35f4cb1a3042e2d97ac27734a6430ec0f4",
+      "hash": "0fd102d9d67c1c2008f865248fd9ff453c0fb22f20dd84bc19537d9ee82492f0",
       "title": "General Available: Dynamics 365 Business Central 2025 release wave 2 (BC27)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:00.210Z",
+      "at": "2026-10-26T08:43:46.871Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28",
-          "quote": "Business Central 2025 release wave 2 (BC27) is now generally available"
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-2-v27",
+          "quote": "Business Central 2025 release wave 2 (BC27) is now generally available for cloud and on-premises deployments"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28",
+            "reason": "About BC27 general availability, documented by the v27 sibling section."
+          }
+        ]
+      }
     },
     "post/yzhums-com/67990": {
       "kind": "post",
@@ -31858,16 +31958,25 @@
     "post/yzhums-com/68239": {
       "kind": "post",
       "key": "post/yzhums-com/68239",
-      "hash": "6946b821656b07342b5c2b03fde24dc837d2ec1caf285c0de2ca2f0e17d78c04",
+      "hash": "532a68b5f051bee20bfd46e605f8959f22cea3418e1988b60a4d113b9377a8c3",
       "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (October, 2025)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:00.210Z",
+      "at": "2026-10-26T08:43:46.871Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28",
-          "quote": "Business Central 2025 release wave 2 (BC27) is now generally available"
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-2-v27",
+          "quote": "Business Central 2025 release wave 2 (BC27) is now generally available with platform version 27.0.39966.0"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28",
+            "reason": "October 2025 updates for BC27 and older; belongs to sibling version sections."
+          }
+        ]
+      }
     },
     "post/yzhums-com/68328": {
       "kind": "post",
@@ -32180,16 +32289,25 @@
     "post/yzhums-com/68861": {
       "kind": "post",
       "key": "post/yzhums-com/68861",
-      "hash": "2e376a617cbf529f5b3dd6b0ed15de24de5789a3d6bf1ec1eb4b6b2d094a1a50",
+      "hash": "0c215c29ca84167a61860493aa9e9590fd4a309d77091cb02b51c37662df3d23",
       "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (November, 2025)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:06.718Z",
+      "at": "2026-10-26T08:43:42.549Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/understand-business-central-online",
-          "quote": "BC27.1 is generally available; new SaaS customers get it automatically"
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-2-v27",
+          "quote": "BC27.1 (2025 wave 2, CU01) with its SaaS and on-premises build numbers"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/administration/understand-business-central-online",
+            "reason": "A monthly build roundup with on-premises lifecycle tables; nothing documented in this section."
+          }
+        ]
+      }
     },
     "post/yzhums-com/68873": {
       "kind": "post",
@@ -32500,14 +32618,22 @@
     "post/yzhums-com/69394": {
       "kind": "post",
       "key": "post/yzhums-com/69394",
-      "hash": "cd42b406b0608b9f6bac6e37a930d9625155be7a302cb84800e06215880d8a3a",
+      "hash": "c57246b4bfe6b6188893ca8c2d9963d51ba4517fa7ca6564b2f601bd63b02569",
       "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (December, 2025)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:04.659Z",
+      "at": "2026-10-26T08:43:37.564Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/admin-center",
-          "quote": "managing production and sandbox environments in the Admin Center with platform version"
+          "topic": "topic/dev-itpro/administration/understand-business-central-online",
+          "quote": "BC27 CU02 is version 27.2: SaaS uses platform"
+        },
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade",
+          "quote": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central"
+        },
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/administration",
+          "quote": "on-premises uses platform 27.0.42799.0"
         }
       ]
     },
@@ -32669,30 +32795,52 @@
     "post/yzhums-com/69818": {
       "kind": "post",
       "key": "post/yzhums-com/69818",
-      "hash": "daf538b48395639493161e835855c912e1b6a00db872a2fe1118ba59561f68ad",
+      "hash": "9b2fd52aaf5845d9e8c4d54d811b8ead35f0afdedcc74ee750e6ca1c23e96273",
       "title": "Business Central 2026 release wave 1 (BC28): Storing Document Attachments outside the database (No customization) – See benefits of external storage support for document attachments",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.103Z",
+      "at": "2026-10-26T08:43:35.841Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
-          "quote": "Attachments can be stored externally in SharePoint, Azure Blob Storage, Azure File Share, or SFTP"
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office",
+          "quote": "Storing Document Attachments outside the database in SharePoint, Azure, or SFTP"
+        },
+        {
+          "topic": "topic/dev-itpro/performance",
+          "quote": "external storage support for document attachments improves performance"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
+            "reason": "The post is mainly about SharePoint storage for attachments; Azure Blob and File Share are only listed among the options."
+          }
+        ]
+      }
     },
     "post/yzhums-com/69877": {
       "kind": "post",
       "key": "post/yzhums-com/69877",
-      "hash": "2785d66441e7fcf2bde0bc0b646c412ede4ec3d6ac1dcfb020876063620f6056",
+      "hash": "f2fd183b5875c99e14fb4b59f816c3686c8e2aa8eccd0aae5143f7ec75df1ff2",
       "title": "Dynamics 365 Business Central Blog Series: Inspecting pages (Page inspection)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:14:53.217Z",
+      "at": "2026-10-26T08:43:37.178Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
-          "quote": "page inspection in Business Central. It links to articles on analyzing performance with the page inspector"
+          "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-al",
+          "quote": "page inspection articles, analyzing performance and telling standard objects from customized ones"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
+            "reason": "Page inspection is a troubleshooting feature in the client, not part of developing pages in AL as this section documents."
+          }
+        ]
+      }
     },
     "post/yzhums-com/69896": {
       "kind": "post",
@@ -32830,16 +32978,25 @@
     "post/yzhums-com/70129": {
       "kind": "post",
       "key": "post/yzhums-com/70129",
-      "hash": "867f0cc5ac02d1a79c8da42e8c33a61b616a3cc051a13a5f2aa6313b423bd5e5",
+      "hash": "7d78ddc1e9317ab24e17862d25ffb624096aec682ee65f3d82285a8b3e5c3609",
       "title": "Dynamics 365 Business Central: How to check if the time zone supports daylight saving time (DST) via AL",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:04.659Z",
+      "at": "2026-10-26T08:43:46.871Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/formatting-values",
-          "quote": "Use codeunit 8720 'Time Zone' method TimeZoneSupportsDaylightSavingTime to check DST support"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "how to check whether a time zone supports daylight saving time (DST) in Business Central using AL code"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/formatting-values",
+            "reason": "About checking daylight saving time support in time zones, which this section does not document."
+          }
+        ]
+      }
     },
     "post/yzhums-com/70137": {
       "kind": "post",
@@ -33164,16 +33321,25 @@
     "post/yzhums-com/70933": {
       "kind": "post",
       "key": "post/yzhums-com/70933",
-      "hash": "6f2f06de5eef98712b01b5ac9118bc21d128fb96c0df7ab24a0e4c0bf279da72",
+      "hash": "6a526f95adc60f6d3e85c5fcbb562c78ccf7db84434cba786a3ada700788b3ae",
       "title": "The public preview for Dynamics 365 Business Central 2026 release wave 1 (BC28) is available",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:04.659Z",
+      "at": "2026-10-26T08:43:46.871Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/understand-business-central-online/environment-types/demo-environments",
-          "quote": "Public preview for BC28 can be created in the Business Central admin center"
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28",
+          "quote": "Dynamics 365 Business Central 2026 release wave 1 (BC28) public preview is available for testing in sandbox environments"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/administration/understand-business-central-online/environment-types/demo-environments",
+            "reason": "About public preview sandbox environments and major update timing, not demo environments."
+          }
+        ]
+      }
     },
     "post/yzhums-com/70952": {
       "kind": "post",
@@ -34064,16 +34230,25 @@
     "post/yzhums-com/72479": {
       "kind": "post",
       "key": "post/yzhums-com/72479",
-      "hash": "d0ed38afa3736dc637702feb8b5d644c1aa47e915d1d08f97b9583ac7dbe6dcb",
+      "hash": "282671e86681235bbec202e9176ba32e464dcaf2bf67feb70c796d89df850b91",
       "title": "Business Central 2026 release wave 1 (BC28): Manage tasks from all agents in dedicated task pane",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:14.446Z",
+      "at": "2026-10-26T08:43:42.259Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "A new dedicated task pane displays all agent-generated tasks in one place"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "dedicated task pane that consolidates all tasks generated by AI agents"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+            "reason": "About the agent task pane, which works the same for every agent, not about the Expense Agent itself."
+          }
+        ]
+      }
     },
     "post/yzhums-com/72539": {
       "kind": "post",
@@ -34237,32 +34412,40 @@
     "post/yzhums-com/73030": {
       "kind": "post",
       "key": "post/yzhums-com/73030",
-      "hash": "2cb8dd2f277eeea586902d5c155006a9f805a21db9ec8f803acce98b39e8339b",
+      "hash": "727c4561955211080a41192596072dc861a39679b377ae34931d3fe704daa997",
       "title": "Business Central 2026 release wave 1 (BC28): Analyze customer loyalty and other sales scenarios",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:00.236Z",
+      "at": "2026-10-26T08:43:36.397Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/sales/sales-analytics",
-          "quote": "New Power BI reports and analysis views for sales orders"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
+          "quote": "Two new Power BI reports, Customer Retention Overview and Customer Retention History"
         },
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
-          "quote": "Power BI reports on customer loyalty and analysis views for sales"
+          "topic": "topic/business-central/business-functionality/sales/sales-analytics",
+          "quote": "New analysis views on the Sales Orders list are planned for expected sales volume"
+        },
+        {
+          "topic": "topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-excel",
+          "quote": "Excel layouts of five built-in sales and inventory reports now include subtotals"
         }
       ]
     },
     "post/yzhums-com/73165": {
       "kind": "post",
       "key": "post/yzhums-com/73165",
-      "hash": "8aa5425905063063c6528ad0be05ae1f13b029fd797e5c90e0b6163a3a8d830a",
+      "hash": "f96003c29511601d1759c9cfb07788b69b7a370e4e12932fa90b3ea8f592e87e",
       "title": "Business Central 2026 release wave 1 (BC28.1): Expense Management module (Manage employee expenses)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:17.733Z",
+      "at": "2026-10-26T08:43:38.081Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/human-resources",
+          "topic": "topic/business-central/business-functionality/finance",
           "quote": "new native Expense Management module that enables employees to create, submit, and track expense reports"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-finance",
+          "quote": "Administrators configure expense categories, payment methods, rules, locations, and approvers"
         }
       ]
     },
@@ -34527,16 +34710,25 @@
     "post/yzhums-com/74431": {
       "kind": "post",
       "key": "post/yzhums-com/74431",
-      "hash": "e630dbe9df52d63a188c7a4e271563b507b79a2d3f96d62b99227041696b7360",
+      "hash": "e096096e3119df5e9c41688a4f3e4dc709409aa08a8a316e919fdd1cb4cac467",
       "title": "Business Central 2026 release wave 1 (BC28.2): Change AI models for agents in the UI",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:14.446Z",
+      "at": "2026-10-26T08:43:42.259Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "each agent card has an Agent model section where you choose a specific model"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "agents use different AI models directly in the UI"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+            "reason": "About choosing an AI model for any agent, a general capability that isn't specific to the Expense Agent overview."
+          }
+        ]
+      }
     },
     "post/yzhums-com/74458": {
       "kind": "post",
@@ -35677,16 +35869,25 @@
     "post/yzhums-com/76495": {
       "kind": "post",
       "key": "post/yzhums-com/76495",
-      "hash": "f4b60689cfae2842b4c4884d991c8de478fc80528d30c2087d3d45f763f24d6b",
+      "hash": "b3251c34b8e5259def962e790045d03da4dacc54b7588b365a6dcb3acee87999",
       "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (October, 2026)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:10.449Z",
+      "at": "2026-10-26T08:43:46.871Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/understand-business-central-online",
-          "quote": "BC29 CU00 (2026 release wave 2) is out for cloud and on-premises"
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-2-v29",
+          "quote": "Cumulative Update October 2026 for Dynamics 365 Business Central release wave 2 version 29.0 is now available"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-26T08:43:27.317Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/administration/understand-business-central-online",
+            "reason": "A monthly build roundup with on-premises lifecycle tables; nothing documented in this section."
+          }
+        ]
+      }
     },
     "post/yzhums-com/76505": {
       "kind": "post",

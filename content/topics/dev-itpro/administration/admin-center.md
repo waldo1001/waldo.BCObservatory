@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:05.688Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-26T08:46:07.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -290,7 +290,6 @@ links:
     - post/yzhums-com/69075
     - post/yzhums-com/69185
     - post/yzhums-com/69209
-    - post/yzhums-com/69394
     - post/yzhums-com/69918
     - post/yzhums-com/72089
     - post/yzhums-com/72784
@@ -310,7 +309,7 @@ coverage:
   learn: 31
   code: 0
   video: 13
-  blog: 24
+  blog: 23
   guideline: 0
 bc_forms: []
 member_hash: 930971b86417f2cb2b2eec1be9a17360eecf5bc00c57b0be177b1f74f8f8c24d
@@ -503,7 +502,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2025 wave 2 (BC27): Cancel running environment update](../../../posts/yzhums-com/69075.md) (community post): "Business Central 2025 wave 2 introduces the ability to cancel running environment updates from the admin center"
 - [Dynamics 365 Business Central: How to quickly determine if the installed AppSource (Global) app is up-to-date?](../../../posts/yzhums-com/69185.md) (community post): "The App Management page in the Business Central admin center shows a Latest Available Version field"
 - [Dynamics 365 Business Central: Uninstall apps from Admin Center](../../../posts/yzhums-com/69209.md) (community post): "Use the Manage Apps page in Business Central Administration Center to uninstall apps"
-- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (December, 2025)](../../../posts/yzhums-com/69394.md) (community post): "managing production and sandbox environments in the Admin Center with platform version"
 - [Dynamics 365 Business Central: Cancelling a scheduled PTE update install (Next Major/Next Minor)](../../../posts/yzhums-com/69918.md) (community post): "The Extension Installation Status page has no cancel action for scheduled installs"
 - [Major update of Dynamics 365 Business Central 2026 release wave 1 (BC28) is available for existing customers](../../../posts/yzhums-com/72089.md) (community post): "Customers can schedule and reschedule their update date flexibly through the Business Central Admin Center"
 - [Dynamics 365 Business Central: Microsoft now displays the full name of the Country/Region when creating a new environment](../../../posts/yzhums-com/72784.md) (community post): "Business Central Admin Center now shows full country/region names during environment creation"

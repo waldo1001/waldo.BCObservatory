@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:12.507Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T08:46:07.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,9 +63,12 @@ links:
     - video/DVgclv3alZU
     - video/fy96_jdL1PQ
     - video/hSJW3LiOBxg
+    - video/kOCiyVql0go
   posts:
+    - post/demiliani-com/15981
     - post/thinkaboutit-be/7226
     - post/thinkaboutit-be/7753
+    - post/waldo-be/318707
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -77,8 +80,8 @@ children: []
 coverage:
   learn: 4
   code: 2
-  video: 3
-  blog: 2
+  video: 4
+  blog: 4
   guideline: 0
 bc_forms:
   - 6316
@@ -122,11 +125,14 @@ Start with the introduction for the overall picture. Then go to the reports page
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central: data mirroring to Microsoft Fabric announced.](../../../../posts/demiliani-com/15981.md) (community post): "Data mirroring replicates Business Central tables across companies into Fabric's OneLake for unified analytics"
 - [How to Install and Configure Power BI Monitor for Business Central](../../../../posts/thinkaboutit-be/7226.md) (community post): "Power BI Monitor extension enables Business Central users to manage Power BI resources directly through Business Central"
 - [Which Power BI License Do You Need for Business Central?](../../../../posts/thinkaboutit-be/7753.md) (community post): "Power BI Pro is required for any practical use of Power BI with Business Central"
+- [Business Central data in Fabric: the way it should be](../../../../posts/waldo-be/318707.md) (community post): "All nine Power BI apps get Fabric-based and multi-company versions"
 - [What's New: Enhanced Power BI and Excel with Business Central (2026 release wave 1)](../../../../videos/DVgclv3alZU.md) (video): "Excel as Client for Power BI Semantic Models; Agentic Excel Capabilities"
 - [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../../videos/fy96_jdL1PQ.md) (video): "PowerBI integration and reporting; PowerBI Data Modeling; PowerBI Dashboards"
 - [What's New: Power BI and Reporting for Developers (2023 release wave 2)](../../../../videos/hSJW3LiOBxg.md) (video): "power bi integration; analytical reports"
+- [Introducing: Business Central Integration with Microsoft Fabric (2026 release wave 2)](../../../../videos/kOCiyVql0go.md) (video): "Fabric integration; Multi-company Power BI apps; Synchronization overview"
 
 ## Business Central pages and reports
 

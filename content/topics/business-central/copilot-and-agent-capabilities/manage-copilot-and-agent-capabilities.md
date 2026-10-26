@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-26T08:46:07.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,7 @@ links:
     - post/yzhums-com/68482
     - post/yzhums-com/68484
     - post/yzhums-com/72431
+    - post/yzhums-com/74431
     - post/yzhums-com/74703
     - post/yzhums-com/76396
   guidelines: []
@@ -94,7 +95,7 @@ coverage:
   learn: 5
   code: 3
   video: 2
-  blog: 9
+  blog: 10
   guideline: 0
 bc_forms:
   - 7771
@@ -148,6 +149,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to hide the Sales Order Agent and Payables Agent icons in the upper right corner](../../../posts/yzhums-com/68482.md) (community post): "Deactivate agents through the Copilot & agent capabilities page"
 - [Dynamics 365 Business Central: Regarding the cost of the Copilot/Agent features (Manage consumption-based billing for agent capabilities)](../../../posts/yzhums-com/68484.md) (community post): "new agent capabilities like Sales Order Agent and Payables Agent use consumption-based billing"
 - [Dynamics 365 Business Central: How to monitor User AI Consumption Data within BC (Agent consumption overview)](../../../posts/yzhums-com/72431.md) (community post): "Business Central 27.5 allows users to track Copilot Credit consumption directly within"
+- [Business Central 2026 release wave 1 (BC28.2): Change AI models for agents in the UI](../../../posts/yzhums-com/74431.md) (community post): "agents use different AI models directly in the UI"
 - [Business Central 2026 release wave 1 (BC28): Copilot and agent data movement across geographies](../../../posts/yzhums-com/74703.md) (community post): "Consent is controlled by the Allow data movement toggle on the Copilot & agent capabilities page"
 - [Dynamics 365 Business Central: How to turn off feedback on AI-generated content](../../../posts/yzhums-com/76396.md) (community post): "Administrators can disable Copilot feedback controls in Business Central"
 - [Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)](../../../videos/DRUr4byy8xQ.md) (video): "Getting Started With Agents: Agent Access Control"
