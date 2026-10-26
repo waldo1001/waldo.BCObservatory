@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/72045",
+  "url": "https://yzhums.com/72045/",
+  "title": "Business Central 2026 release wave 1 (BC28): Run AL tests from Visual Studio Code (Test codeunits and test methods)",
+  "source": "yzhums-com",
+  "published_at": "2026-04-09T00:58:01.000Z",
+  "words": 675,
+  "summary": "Business Central 2026 wave 1 adds the ability to discover and run AL tests directly inside Visual Studio Code without switching to external tools. Developers can now use Test Explorer to automatically detect test codeunits and test methods, run tests with different profiles, and view coverage results, reducing context-switching and supporting test-driven development.",
+  "key_points": [
+    "Test Explorer in Visual Studio Code automatically discovers test codeunits and test methods in the active workspace",
+    "Multiple run profiles available: Publish & Run (default), Run, Run & Debug, and Coverage (Procedure)",
+    "Running tests from VS Code is supported in sandbox and on-premises environments but not production",
+    "AI tests and test runner-dependent events are not supported when running from VS Code; isolation level defaults to Codeunit level unless specified"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al testing",
+    "visual studio code",
+    "test explorer",
+    "test-driven development",
+    "code coverage"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "test codeunits"
+    }
+  ],
+  "features": [
+    "Test Explorer in Visual Studio Code",
+    "Automatic test discovery",
+    "Run AL tests without republishing",
+    "Run with debugger attached",
+    "Code coverage collection",
+    "GitHub Copilot integration for test setup"
+  ],
+  "versions": [
+    "2026 wave 1",
+    "BC28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This tighter integration with the IDE reduces context-switching, shortens feedback loops, and makes it easier to adopt test-driven development practices.",
+      "why_it_matters": "Explains the key business value of bringing testing capabilities directly into the development environment"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

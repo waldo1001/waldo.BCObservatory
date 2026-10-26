@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/71894",
+  "url": "https://yzhums.com/71894/",
+  "title": "Business Central 2026 release wave 1 (BC28): New Method for DataTransfer data type (AddDestinationFilter Method)",
+  "source": "yzhums-com",
+  "published_at": "2026-04-02T04:44:17.000Z",
+  "words": 444,
+  "summary": "Business Central 2026 wave 1 introduces the AddDestinationFilter method for the DataTransfer data type, enabling developers to filter destination tables during bulk data transfers. This enhancement makes DataTransfer more practical for complex upgrade and installation code by allowing filtering on target tables, which was not previously possible.",
+  "key_points": [
+    "AddDestinationFilter method allows filtering the destination table during bulk data transfers, complementing the existing AddSourceFilter method",
+    "DataTransfer uses set-based SQL operations instead of row-by-row processing, improving performance during upgrades and installs",
+    "The new method accepts a destination field, filter expression with operators and replacement fields, making complex data migration scenarios more efficient",
+    "Available with runtime version 17.0 in Business Central 2026 wave 1 (BC28)"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "datatransfer",
+    "upgrade code",
+    "al language",
+    "bulk data transfer",
+    "destination filtering",
+    "performance",
+    "install codeunit"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "DataTransfer"
+    }
+  ],
+  "features": [
+    "AddDestinationFilter method",
+    "DataTransfer data type",
+    "bulk data transfer",
+    "filter expressions",
+    "set-based operations"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1",
+    "runtime 17.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With the latest update, that has finally changed with the introduction of AddDestinationFilter.",
+      "why_it_matters": "Highlights that filtering the destination table, which was impossible up to BC27, is now available in BC28."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/yzhums-com/71666",
+  "url": "https://yzhums.com/71666/",
+  "title": "Business Central 2026 release wave 1 (BC28): Use self-billed invoices",
+  "source": "yzhums-com",
+  "published_at": "2026-04-06T00:29:43.000Z",
+  "words": 392,
+  "summary": "Business Central 2026 wave 1 (BC28) introduces self-billed invoices, allowing buyers to generate invoices on behalf of suppliers under mutual agreement. This feature streamlines purchasing processes through automated layouts, dedicated number series, vendor configuration, and a specialized report layout that formats self-billed invoices in sales invoice style.",
+  "key_points": [
+    "Buyers can now create invoices on behalf of vendors when a self-billing agreement is enabled via a new Boolean field on the Vendor Card",
+    "Purchase invoices for self-billing vendors are automatically marked as self-billed with restricted editable fields like Vendor Invoice No.",
+    "Vendors can be assigned dedicated number series for self-billed invoices to ensure correct document sequencing separate from posted purchase invoice numbers",
+    "A new report layout formats self-billed invoices in sales invoice style with buyer company information, vendor details, and VAT information",
+    "Danish localizations can automatically create Digital Vouchers during self-billing posting for compliance, and vendors with self-billing agreements cannot receive inbound e-documents for accounts payable"
+  ],
+  "systems": [
+    "purchasing",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "self-billed invoices",
+    "purchase invoices",
+    "vendor management",
+    "number series",
+    "compliance",
+    "digital vouchers"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "report",
+      "name": "Posted Purchase Invoice – Self‑Billing Invoice"
+    }
+  ],
+  "features": [
+    "Self-billed invoices",
+    "Vendor self-billing agreement",
+    "Automated purchase invoice marking",
+    "Dedicated number series for self-billing",
+    "Self-billed invoice report layout",
+    "Digital Vouchers integration",
+    "E-document restrictions for self-billing vendors"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Self‑billing reduces operational friction by allowing buyers to generate invoices on behalf of suppliers under a mutual agreement.",
+      "why_it_matters": "Explains the core benefit of self-billing in reducing buyer-supplier coordination burden and improving invoice reliability."
+    },
+    {
+      "text": "All Purchase Invoices created for that vendor, whether from Purchase Orders or directly, are automatically marked as self‑billed.",
+      "why_it_matters": "Shows that the system automates invoice classification once self-billing is configured, reducing manual steps."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

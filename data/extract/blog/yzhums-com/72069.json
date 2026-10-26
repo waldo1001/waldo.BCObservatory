@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/yzhums-com/72069",
+  "url": "https://yzhums.com/72069/",
+  "title": "Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page",
+  "source": "yzhums-com",
+  "published_at": "2026-04-13T01:00:09.000Z",
+  "words": 449,
+  "summary": "Adding a Marketing Text factbox to the Item List page requires a page extension that inserts the Entity Text Factbox Part and controls visibility using the Marketing Text codeunit. This customization lets users view AI-generated or custom marketing text directly from the list instead of only from the item card.",
+  "key_points": [
+    "Marketing text differs from the Description field; it serves as rich promotional copy for web shops and customer communications",
+    "The Entity Text Factbox Part (page 2011) can be added to any list or worksheet containing Item No. using a page extension",
+    "Visibility is controlled via the Marketing Text codeunit's IsMarketingTextVisible method",
+    "SetContext procedure must be called in OnAfterGetCurrRecord to populate the factbox with the correct item's marketing text",
+    "AI-generated marketing text suggestions are available through Copilot as the easiest creation method"
+  ],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "topics": [
+    "marketing text",
+    "item management",
+    "page extension",
+    "factbox",
+    "customization",
+    "copilot"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Entity Text Factbox Part"
+    },
+    {
+      "type": "page",
+      "name": "Item List"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "codeunit",
+      "name": "Marketing Text"
+    }
+  ],
+  "features": [
+    "Marketing Text",
+    "Entity Text Factbox",
+    "AI-generated product descriptions",
+    "Copilot",
+    "Page extensions"
+  ],
+  "versions": [
+    "2024 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/yzhums-com/72250",
+  "url": "https://yzhums.com/72250/",
+  "title": "Dynamics 365 Business Central: How to set Company Badge (System Indicator) via AL Code – Automatically set Company Badge",
+  "source": "yzhums-com",
+  "published_at": "2026-04-16T03:48:57.000Z",
+  "words": 471,
+  "summary": "This post explains how to set company badges (system indicators) automatically via AL code using the UI Helper Triggers codeunit event subscriber, without modifying the Company Information table. Company badges help users identify which company and environment they are working in.",
+  "key_points": [
+    "Use codeunit 2000000004 'UI Helper Triggers' and subscribe to the GetSystemIndicator business event to set company badges programmatically",
+    "Set badge text and style using the Style Option, which includes 10 predefined color options from Standard to Bright Purple",
+    "Apply different badges based on company name or other logic using case statements in the event handler",
+    "Round badges indicate production environments while square badges indicate sandbox environments",
+    "Browser refresh (Ctrl+F5) updates the badge display in the client"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "company badge",
+    "system indicator",
+    "ui customization",
+    "event subscriber",
+    "al code"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "UI Helper Triggers"
+    },
+    {
+      "type": "codeunit",
+      "name": "EventHandlers"
+    }
+  ],
+  "features": [
+    "Company Badge (System Indicator)",
+    "EventSubscriber attribute",
+    "GetSystemIndicator business event",
+    "UI Helper Triggers codeunit",
+    "System Indicator styling with color options"
+  ],
+  "versions": [
+    "2022 wave 2 (BC21)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "company badges to help them quickly identify and keep track of which company they're currently working in",
+      "why_it_matters": "Explains the primary user benefit of company badges for multi-company environments"
+    },
+    {
+      "text": "A round company badge signifies a production environment, and a square badge signifies a sandbox environment.",
+      "why_it_matters": "Documents how badge shape communicates environment type, a critical safety feature"
+    },
+    {
+      "text": "set the Company Badge (System Indicator) without modifying the data in the Company Information table",
+      "why_it_matters": "Highlights the advantage of the programmatic approach over manual UI configuration"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

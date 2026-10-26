@@ -1,0 +1,99 @@
+{
+  "item_id": "blog/yzhums-com/69818",
+  "url": "https://yzhums.com/69818/",
+  "title": "Business Central 2026 release wave 1 (BC28): Storing Document Attachments outside the database (No customization) – See benefits of external storage support for document attachments",
+  "source": "yzhums-com",
+  "published_at": "2026-04-15T00:50:02.000Z",
+  "words": 2221,
+  "summary": "BC28 introduces external storage support for document attachments, allowing organizations to store attachments in SharePoint, Azure, or SFTP instead of the database. This reduces database capacity usage, improves performance, and provides better cost control and scalability for document-heavy processes without requiring customization.",
+  "key_points": [
+    "Attachments can be stored externally in SharePoint, Azure Blob Storage, Azure File Share, or SFTP to reduce database capacity consumption",
+    "Setup requires configuring external file accounts with appropriate authentication credentials and permissions",
+    "The feature includes storage synchronization capabilities to migrate existing attachments and manage external files",
+    "Organizations remain responsible for managing, backing up, and securing externally stored files; Microsoft does not manage them"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "attachments",
+    "external storage",
+    "sharepoint",
+    "database capacity",
+    "file management",
+    "bc28"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Set Up External File Accounts"
+    },
+    {
+      "type": "page",
+      "name": "External File Accounts"
+    },
+    {
+      "type": "page",
+      "name": "External Storage Browser"
+    },
+    {
+      "type": "page",
+      "name": "External Storage Setup"
+    },
+    {
+      "type": "page",
+      "name": "Storage Browser"
+    },
+    {
+      "type": "codeunit",
+      "name": "Ext. SharePoint Connector Impl"
+    },
+    {
+      "type": "codeunit",
+      "name": "External File Storage Impl."
+    },
+    {
+      "type": "codeunit",
+      "name": "External File Storage"
+    },
+    {
+      "type": "codeunit",
+      "name": "File Account Browser Mgt."
+    },
+    {
+      "type": "codeunit",
+      "name": "File Account Impl."
+    }
+  ],
+  "features": [
+    "External storage support for document attachments",
+    "SharePoint connectivity",
+    "Azure Blob Storage integration",
+    "Azure File Share integration",
+    "SFTP server support",
+    "Storage synchronization",
+    "File migration between environments",
+    "Attachment lifecycle management"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "By default, Business Central customers can use up to 80 GB of database storage capacity across all their environments (production and sandbox).",
+      "why_it_matters": "Establishes the storage constraint that makes external storage necessary for many organizations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

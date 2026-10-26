@@ -1,0 +1,79 @@
+{
+  "item_id": "blog/yzhums-com/72006",
+  "url": "https://yzhums.com/72006/",
+  "title": "Business Central 2026 release wave 1 (BC28): Experience improved usability in manufacturing",
+  "source": "yzhums-com",
+  "published_at": "2026-04-08T01:44:37.000Z",
+  "words": 749,
+  "summary": "BC28 (2026 wave 1) improves manufacturing usability by enhancing serial-tracked item handling in output journals, ensuring capacity and overhead costs post to location-specific WIP accounts, and adding customizable notifications for non-certified BOMs and routings.",
+  "key_points": [
+    "Explode Routing now respects item tracking, splitting serial-tracked items into separate journal lines with quantity 1 per serial number",
+    "Capacity and overhead postings now use location codes from production orders, eliminating WIP account imbalances",
+    "New My Notifications setting lets users control warnings for non-certified production BOMs and routings",
+    "Location-specific inventory posting setup no longer required for overhead postings on blank locations"
+  ],
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "manufacturing",
+    "usability",
+    "item tracking",
+    "inventory posting",
+    "notifications",
+    "production"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Output Journal"
+    },
+    {
+      "type": "page",
+      "name": "My Notifications"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Posting Setup"
+    }
+  ],
+  "features": [
+    "Explode Routing with item tracking",
+    "Location-based capacity posting",
+    "Location-based overhead posting",
+    "Customizable non-certified BOM warnings",
+    "Customizable non-certified routing warnings",
+    "Description 2 field on production pages",
+    "Approvals for requisition worksheets",
+    "Approvals for item journals"
+  ],
+  "versions": [
+    "BC28",
+    "2026 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "For serial-tracked items, Business Central splits the last routing operation into multiple lines with quantity 1 per serial number.",
+      "why_it_matters": "This ensures accurate production output recording for tracked items without manual workarounds."
+    },
+    {
+      "text": "Business Central uses the production location when posting capacity and overhead.",
+      "why_it_matters": "This prevents WIP account imbalances when material and costs are posted to different locations."
+    },
+    {
+      "text": "Now, Microsoft has added a new My Notifications setting so you can control whether to display warnings for non-certified production BOMs and routings.",
+      "why_it_matters": "Users can reduce notification noise while maintaining oversight of non-certified structures."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

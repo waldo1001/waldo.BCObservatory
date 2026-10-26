@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/72089",
+  "url": "https://yzhums.com/72089/",
+  "title": "Major update of Dynamics 365 Business Central 2026 release wave 1 (BC28) is available for existing customers",
+  "source": "yzhums-com",
+  "published_at": "2026-04-10T00:06:22.000Z",
+  "words": 447,
+  "summary": "Dynamics 365 Business Central 2026 release wave 1 (BC28) is now generally available for existing customers to update. The post explains the update scheduling process through the Admin Center, where customers can set their update date within a flexible 5-month window, with a mandatory deadline of September 1, 2026.",
+  "key_points": [
+    "BC28 (version 28.0) is the major update for 2026 release wave 1, available starting April 2026",
+    "Customers can schedule and reschedule their update date flexibly through the Business Central Admin Center",
+    "The update window is 5 months long, with a mandatory deadline of September 1, 2026 for all environments",
+    "Obsolete code is marked 12 months before removal to give developers time to migrate",
+    "Notification emails inform customers of their scheduled update dates and allow modification through the Admin Center"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "updates",
+    "version management",
+    "admin center",
+    "release wave",
+    "bc28",
+    "environment management"
+  ],
+  "objects": [],
+  "features": [
+    "Flexible update management",
+    "Update scheduling",
+    "Environment update log",
+    "Update date modification"
+  ],
+  "versions": [
+    "28.0",
+    "27.5",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Yes, the major update of Dynamics 365 Business Central 2026 release wave 1 (BC28) is available for existing customers.",
+      "why_it_matters": "Confirms BC28 general availability and the start of the update rollout"
+    },
+    {
+      "text": "You can reschedule this update for any date within the update period or choose a different version to update your environment to next.",
+      "why_it_matters": "Demonstrates the flexible update management capability that replaced the rigid 30-60 day window"
+    },
+    {
+      "text": "When an object is marked as obsolete, another 12 months will pass before the code is removed, in some cases even longer.",
+      "why_it_matters": "Important for developers to understand the deprecation timeline for obsolete objects"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

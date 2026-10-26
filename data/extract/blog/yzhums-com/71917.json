@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/71917",
+  "url": "https://yzhums.com/71917/",
+  "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (April, 2026)",
+  "source": "yzhums-com",
+  "published_at": "2026-04-02T23:10:44.000Z",
+  "words": 704,
+  "summary": "Cumulative updates for Microsoft Dynamics 365 Business Central released in April 2026 across multiple versions (BC28, BC27, BC26, BC25) with specific platform and application build numbers. The post details version lifecycle dates and support timelines for on-premises and cloud deployments.",
+  "key_points": [
+    "BC28 version 28.0 released for 2026 release wave 1, with platform 28.0.48222.0 and application 28.0.46665.48257 for cloud, and different builds for on-premises",
+    "Multiple cumulative updates released across versions: BC27 CU06, BC26 CU12, BC25 CU18 with their respective platform and application builds",
+    "BC28 version 28.x runs from April 1, 2026 to October 13, 2027 under modern lifecycle policy",
+    "BC24, BC23, BC22, BC21, BC20, BC19, BC18, BC17, BC16, BC15 are end of life; BC14 is end of mainstream support",
+    "On-premises versions follow either Modern Lifecycle Policy (from 2019 release wave 2 onwards) or Fixed Lifecycle Policy (Spring 2019 and earlier)"
+  ],
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "cumulative update",
+    "version lifecycle",
+    "release management",
+    "saas",
+    "on-premises",
+    "deployment"
+  ],
+  "objects": [],
+  "features": [
+    "Admin Center",
+    "production and sandbox environment management",
+    "cumulative updates",
+    "version updates"
+  ],
+  "versions": [
+    "28.0",
+    "27.6",
+    "26.12",
+    "25.18",
+    "2026 release wave 1",
+    "2025 release wave 2",
+    "2025 release wave 1",
+    "2024 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Managing Production and Sandbox Environments in the Admin Center",
+      "why_it_matters": "Describes the key feature available in BC28 for environment management capabilities"
+    },
+    {
+      "text": "Dynamics 365 Business Central on-premises (Modern Policy) follows the Modern Lifecycle Policy.",
+      "why_it_matters": "Clarifies that on-premises versions follow the Modern Lifecycle Policy for support timelines"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

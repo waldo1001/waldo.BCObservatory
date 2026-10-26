@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/71582",
+  "url": "https://yzhums.com/71582/",
+  "title": "Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page",
+  "source": "yzhums-com",
+  "published_at": "2026-04-01T03:04:37.000Z",
+  "words": 351,
+  "summary": "This post explains how to dynamically show or hide subform fields based on a value in the main page of a Sales Order, using a custom field and page extension logic in AL code to create a responsive user interface.",
+  "key_points": [
+    "Add a custom Boolean field to the main page (Sales Header) to control visibility state",
+    "Use page extensions to modify subform fields and implement a SetShowItemInfo procedure",
+    "Implement OnValidate and OnOpenPage triggers to update field visibility in real time when the main page field changes",
+    "The example demonstrates hiding or showing Item No., Item Reference No., and Description fields in the Sales Order Subform"
+  ],
+  "systems": [
+    "development",
+    "sales",
+    "platform"
+  ],
+  "topics": [
+    "subform fields",
+    "dynamic visibility",
+    "user interface",
+    "al development",
+    "page extensions"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order Subform"
+    }
+  ],
+  "features": [
+    "dynamic field visibility",
+    "page extensions",
+    "table extensions",
+    "field modifications",
+    "real-time UI updates",
+    "responsive UI"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "In Dynamics 365 Business Central development, creating a responsive UI is key to a great user experience.",
+      "why_it_matters": "Sets the context that dynamic UI control is essential for user experience in Business Central development"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

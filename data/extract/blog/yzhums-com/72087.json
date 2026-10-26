@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/yzhums-com/72087",
+  "url": "https://yzhums.com/72087/",
+  "title": "Dynamics 365 Business Central: How to easily prevent users from adding or modifying Links and Notes (Making Links and Notes Read-Only)",
+  "source": "yzhums-com",
+  "published_at": "2026-04-14T01:50:27.000Z",
+  "words": 396,
+  "summary": "Making Links and Notes read-only in Business Central by excluding Insert, Modify, and Delete permissions on the RecordLinks system table prevents users from creating or editing these record annotations while keeping the UI elements visible.",
+  "key_points": [
+    "Links and Notes use the RecordLinks system table (2000000068) for data storage",
+    "Excluding Insert, Modify, and Delete permissions on RecordLinks makes Links and Notes read-only",
+    "UI actions remain visible but trigger insufficient permissions errors when users attempt to save changes",
+    "Excluding Read permission entirely hides Links and displays Notes as an empty box"
+  ],
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "permissions",
+    "links",
+    "notes",
+    "system parts",
+    "read-only",
+    "recordlinks"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "RecordLinks"
+    }
+  ],
+  "features": [
+    "Links system part",
+    "Notes system part",
+    "Permission exclusion",
+    "Record annotations"
+  ],
+  "versions": [
+    "17.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "If you only allow read-only permissions for users, you just need to exclude the Insert, Modify, and Delete permissions for RecordLinks (2000000068).",
+      "why_it_matters": "This is the core technique for making Links and Notes read-only without hiding the UI elements"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
