@@ -1,0 +1,75 @@
+{
+  "item_id": "blog/yzhums-com/67462",
+  "url": "https://yzhums.com/67462/",
+  "title": "Business Central 2025 wave 2 (BC27): Understand how each Copilot and agent capability is billed (Billing Type)",
+  "source": "yzhums-com",
+  "published_at": "2025-09-08T06:27:11.000Z",
+  "words": 557,
+  "summary": "Business Central 2025 wave 2 introduces a Billing Type column on the Copilot and Agent Capabilities page to clarify which AI capabilities are billed by Microsoft, by partners, or not at all. Developers must manually set the billing type when registering capabilities, and the system validates this setting against actual Azure OpenAI resource usage.",
+  "key_points": [
+    "A new Billing Type column shows whether each Copilot or agent capability is billed by Microsoft, billed by a partner, or not consumption-billed",
+    "Copilot in Business Central is included with the license at no extra cost, though fair-use policies or pricing may be introduced later",
+    "Developers must manually set the billing type using RegisterCapability() or ModifyCapability() procedures and ensure it matches actual resource usage",
+    "The system validates billing type settings at runtime against which Azure OpenAI resources the capability actually uses"
+  ],
+  "systems": [
+    "copilot",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "billing",
+    "copilot",
+    "agents",
+    "ai capabilities",
+    "release wave 2",
+    "bc27",
+    "azure openai"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Copilot Capabilities Preview"
+    },
+    {
+      "type": "page",
+      "name": "Copilot Capabilities GA"
+    }
+  ],
+  "features": [
+    "Billing Type column",
+    "Copilot and Agent Capabilities page",
+    "RegisterCapability procedure",
+    "ModifyCapability procedure",
+    "PromptDialog page type",
+    "Business Central AI resources",
+    "Azure OpenAI integration"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Copilot in Business Central is included with your Business Central license at no extra cost.",
+      "why_it_matters": "Clarifies that users get Copilot as part of their license, addressing a common question about additional costs"
+    },
+    {
+      "text": "The billing information is set up manually by the app developer - it's not automatically inferred at runtime.",
+      "why_it_matters": "Developers must explicitly declare billing types; this won't happen automatically, placing responsibility on them for accuracy"
+    },
+    {
+      "text": "At runtime, the billing type setting is validated against which Azure OpenAI resources the capability actually tries to use.",
+      "why_it_matters": "The system checks that declared billing types match actual behavior, preventing misalignment between configuration and real usage"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

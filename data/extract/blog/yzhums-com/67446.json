@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/yzhums-com/67446",
+  "url": "https://yzhums.com/67446/",
+  "title": "Business Central 2025 wave 2 (BC27): Cancel build and publish from Visual Studio Code",
+  "source": "yzhums-com",
+  "published_at": "2025-09-08T00:52:42.000Z",
+  "words": 335,
+  "summary": "Business Central 2025 wave 2 introduces the ability to cancel build and publish operations directly from Visual Studio Code, allowing developers to stop long-running processes and iterate faster without waiting for completion.",
+  "key_points": [
+    "Developers can now manually cancel the build and publish processes in VS Code by pressing a Cancel button or closing the application",
+    "Cancellation is especially valuable for large extensions where build and publish times are lengthy, improving developer productivity",
+    "If connection to the development environment is lost, publishing automatically cancels to prevent blocking subsequent publish attempts",
+    "The feature is available in pre-release versions of the AL Language extension (v16.0.1743592 and v17.0.1750311)"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "visual studio code",
+    "build and publish",
+    "developer experience",
+    "al language",
+    "bc27"
+  ],
+  "objects": [],
+  "features": [
+    "Cancel build and publish from Visual Studio Code"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "developers can now cancel building and deploying an extension in Visual Studio Code",
+      "why_it_matters": "This directly addresses the core feature being introduced, enabling developers to stop long-running operations"
+    },
+    {
+      "text": "to increase developer productivity and support better flexibility in the inner loop",
+      "why_it_matters": "Explains the business value and improvement to the development workflow"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

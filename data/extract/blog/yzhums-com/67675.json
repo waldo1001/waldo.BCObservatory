@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/67675",
+  "url": "https://yzhums.com/67675/",
+  "title": "Business Central 2025 wave 2 (BC27): Adjust width of Copilot, help, and page scripting panes",
+  "source": "yzhums-com",
+  "published_at": "2025-09-16T00:25:32.000Z",
+  "words": 354,
+  "summary": "Business Central 2025 wave 2 (BC27) allows users to resize side panes for Copilot, help, and page scripting by dragging dividers, with the browser remembering preferred widths. This improvement provides more flexibility for viewing details and managing screen space when working with these assistance features.",
+  "key_points": [
+    "Copilot, help, and page scripting panes can now be resized by dragging the divider between content areas",
+    "Panes reflow content smoothly and maintain visibility of the main content area when resized",
+    "Browser remembers user's width adjustments for each pane across sessions",
+    "Double-clicking the divider resets a pane to its default width",
+    "Collapse feature allows panes to be minimized to the right edge"
+  ],
+  "systems": [
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "ui customization",
+    "pane resizing",
+    "screen estate",
+    "copilot",
+    "help pane",
+    "page scripting"
+  ],
+  "objects": [],
+  "features": [
+    "Adjust width of Copilot pane",
+    "Adjust width of help pane",
+    "Adjust width of page scripting pane",
+    "Pane collapse feature",
+    "Pane width persistence"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can now resize these panes, which assist with tasks and provide guidance, allowing you to easily and clearly view more details whenever necessary.",
+      "why_it_matters": "Explains the core benefit - flexible resizing gives users control over screen space for these critical assistance tools"
+    },
+    {
+      "text": "The browser remembers your adjustments the next time you open the pane, similar to other lightweight adjustments like changing the width of FactBoxes.",
+      "why_it_matters": "Shows persistence feature that improves user experience by eliminating need to resize repeatedly"
+    },
+    {
+      "text": "Double-clicking the divider resets the pane to its default width.",
+      "why_it_matters": "Documents quick reset mechanism that prevents users from getting stuck with unwanted pane sizes"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

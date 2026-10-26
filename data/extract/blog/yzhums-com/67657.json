@@ -1,0 +1,75 @@
+{
+  "item_id": "blog/yzhums-com/67657",
+  "url": "https://yzhums.com/67657/",
+  "title": "Business Central 2025 wave 2 (BC27): Configure the default calculation for the Calculate Consumption report (Default Consumption Calculation Based on)",
+  "source": "yzhums-com",
+  "published_at": "2025-09-12T01:36:15.000Z",
+  "words": 375,
+  "summary": "Business Central 2025 wave 2 introduces a new Default Consumption Calculation Based on field in Manufacturing Setup that lets users specify whether the Calculate Consumption report should default to expected or actual output, saving time by eliminating manual changes for each consumption calculation.",
+  "key_points": [
+    "Manufacturing Setup now has a Default Consumption Calculation Based on field to configure default consumption calculation behavior",
+    "Users can choose between Expected Output or Actual Output as the default calculation basis",
+    "The default selection applies to the Calculate Consumption report and production journal consumption line calculations",
+    "The field defaults the report but users can override the selection when needed"
+  ],
+  "systems": [
+    "manufacturing",
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "consumption calculation",
+    "manufacturing setup",
+    "reporting defaults",
+    "production orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    },
+    {
+      "type": "report",
+      "name": "Calculate Consumption"
+    },
+    {
+      "type": "page",
+      "name": "Consumption Journal"
+    },
+    {
+      "type": "page",
+      "name": "Released Production Order"
+    }
+  ],
+  "features": [
+    "Default Consumption Calculation Based on field",
+    "Calculate Consumption report",
+    "Manufacturing Setup configuration",
+    "Automatic consumption recording",
+    "Production journal consumption calculation"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2",
+    "BC26.5"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "set the default consumption calculation in Manufacturing Setup so the Calculate Consumption report matches your preferred process automatically",
+      "why_it_matters": "Explains the primary business value of automating report defaults to save time and reduce manual effort"
+    },
+    {
+      "text": "Whether the calculation of the quantity to consume is based on the actual output or on the expected output",
+      "why_it_matters": "Clarifies the two calculation options available for users to configure based on their operational needs"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

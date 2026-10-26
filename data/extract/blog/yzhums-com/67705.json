@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/67705",
+  "url": "https://yzhums.com/67705/",
+  "title": "Business Central 2025 wave 2 (BC27): Record and edit easier with enhanced page scripting tool",
+  "source": "yzhums-com",
+  "published_at": "2025-09-17T01:19:46.000Z",
+  "words": 622,
+  "summary": "Business Central 2025 wave 2 introduces enhancements to the page scripting tool, including improved script recording and editing capabilities. These features make user acceptance testing easier by allowing consultants and stakeholders to insert steps at specific points, rearrange step order, delete arbitrary steps, define parameters in the UI, and create suites of scripts directly in the UI without manual file editing.",
+  "key_points": [
+    "Define insertion points for next recorded steps by dragging a red line or selecting 'Record from here' option",
+    "Rearrange script steps by dragging them to new positions within the script",
+    "Delete any step in the middle of a script, not just from the end, with warning on first deletion",
+    "Define script parameters directly in the UI properties section instead of editing YAML files",
+    "Create script suites in the UI by including other scripts via relative paths"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "page scripting",
+    "user acceptance testing",
+    "script recording",
+    "script editing",
+    "automation",
+    "testing tool",
+    "business central 27"
+  ],
+  "objects": [],
+  "features": [
+    "Enhanced page scripting tool",
+    "Script step insertion control",
+    "Script step rearrangement",
+    "Arbitrary step deletion",
+    "UI-based parameter definition",
+    "Script suite creation in UI"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Now, you can drag the red insertion line to control where the next recorded steps are inserted.",
+      "why_it_matters": "Demonstrates a key improvement that eliminates tedious manual editing previously required to insert steps in the middle of scripts"
+    },
+    {
+      "text": "Now, you can add parameters directly in the UI in the properties section for the script.",
+      "why_it_matters": "Shows how the UI enhancements make parameter management more accessible without requiring YAML file editing"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/yzhums-com/67592",
+  "url": "https://yzhums.com/67592/",
+  "title": "Business Central 2025 wave 2 (BC27): Update sandbox environments to preview versions",
+  "source": "yzhums-com",
+  "published_at": "2025-09-10T23:13:54.000Z",
+  "words": 567,
+  "summary": "Sandbox environments can now be updated to preview versions before major releases, allowing customers to test with their own data and extensions. This capability, available in BC26 and BC27, reduces update risks and improves testing accuracy.",
+  "key_points": [
+    "Sandbox environments can be upgraded to preview versions starting one month before major releases",
+    "Preview testing uses actual customer data and installed extensions for more accurate results",
+    "Preview environments are automatically deleted when the preview period ends",
+    "Only sandbox environments support preview versions; production environments cannot upgrade to previews",
+    "Prerequisites require the environment to be on the previous major version (e.g., v26.x to upgrade to v27.0 Preview)"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "sandbox environment",
+    "preview version",
+    "testing",
+    "upgrade",
+    "environment management"
+  ],
+  "objects": [],
+  "features": [
+    "Update sandbox environments to preview versions",
+    "preview version upgrade",
+    "environment update scheduling"
+  ],
+  "versions": [
+    "BC26",
+    "BC27",
+    "2025 wave 1",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can update your sandbox environments to a preview version. You can test updates with your own data and installed extensions.",
+      "why_it_matters": "Explains the core capability and its value for realistic testing before production"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

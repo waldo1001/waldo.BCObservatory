@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/yzhums-com/67623",
+  "url": "https://yzhums.com/67623/",
+  "title": "Business Central 2025 wave 2 (BC27): RecordRef – Get/Search field by name (New overloads)",
+  "source": "yzhums-com",
+  "published_at": "2025-09-11T04:46:58.000Z",
+  "words": 457,
+  "summary": "Business Central 2025 wave 2 (BC27) adds new overloads to RecordRef Field and FieldExist methods that enable searching for fields by their name instead of field number, simplifying AL code when working with dynamic field references.",
+  "key_points": [
+    "New overloads accept Text parameter for field name in RecordRef.Field() and RecordRef.FieldExist() methods",
+    "Replaces previous workaround approach for getting field information by field name",
+    "Requires runtime version 16.0 or greater; not available in version 15.0",
+    "Makes AL code cleaner when you need to access fields dynamically by name rather than field ID"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "recordref",
+    "fieldref",
+    "bc27",
+    "2025 wave 2",
+    "field methods"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "RecordRef"
+    },
+    {
+      "type": "other",
+      "name": "FieldRef"
+    }
+  ],
+  "features": [
+    "RecordRef Field method by name",
+    "RecordRef FieldExist method by name",
+    "Dynamic field access",
+    "Field lookup overloads"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2",
+    "runtime 16.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "New overloads are added to the Field and FieldExist methods, which allows searching for a field by its name.",
+      "why_it_matters": "This is the core feature announcement that directly describes what BC27 adds to simplify field access in AL code."
+    },
+    {
+      "text": "Microsoft has brought us an easier way. New overloads are added to the Field and FieldExist methods.",
+      "why_it_matters": "Explains this is a quality-of-life improvement that reduces coding complexity when working with dynamic fields."
+    },
+    {
+      "text": "'Field' is not available in runtime version '15.0'. The supported runtime versions are: '16.0' or greater.",
+      "why_it_matters": "Critical compatibility detail that developers must know to avoid deployment issues when using the new overloads."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

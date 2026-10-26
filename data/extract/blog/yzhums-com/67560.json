@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/yzhums-com/67560",
+  "url": "https://yzhums.com/67560/",
+  "title": "Business Central 2025 wave 2 (BC27): New values (AsReadOnly & AsReadWrite) for the AllowInCustomizations property",
+  "source": "yzhums-com",
+  "published_at": "2025-09-10T05:43:54.000Z",
+  "words": 615,
+  "summary": "BC27 introduces new values (AsReadOnly, AsReadWrite) for the AllowInCustomizations property to give AL developers finer control over how table fields can be used in page customizations. This property can now be set at table, table extension, and field levels, with corresponding analyzer rules to support field classification.",
+  "key_points": [
+    "AllowInCustomizations property now accepts AsReadOnly (read-only in customizations) and AsReadWrite (editable in customizations) values in addition to Never",
+    "The property can be set at table, table extension, and field levels for more efficient field management",
+    "Default value ToBeClassified and deprecated value Always behave like AsReadOnly",
+    "New analyzer rules AS0138, AS0139, and PTE0026 support field classification but are currently optional"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "allowincustomizations property",
+    "table fields",
+    "page customizations",
+    "al language",
+    "field classification",
+    "table extensions"
+  ],
+  "objects": [],
+  "features": [
+    "AllowInCustomizations property values",
+    "field-level customization control",
+    "table-level property assignment",
+    "table extension property assignment",
+    "analyzer rules for field classification"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "AsReadOnly - allows use in page customizations, but only as read-only. AsReadWrite - allows fields to be made editable in page customizations.",
+      "why_it_matters": "These new values provide explicit control over field editability in customizations, replacing the ambiguous Always value"
+    },
+    {
+      "text": "For efficiency, AllowInCustomizations can now also be set at the table and table extension level.",
+      "why_it_matters": "Setting the property at higher levels simplifies field management when the same rule applies to multiple fields"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
