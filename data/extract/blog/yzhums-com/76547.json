@@ -1,0 +1,80 @@
+{
+  "item_id": "blog/yzhums-com/76547",
+  "url": "https://yzhums.com/76547/",
+  "title": "Business Central 2026 release wave 2 (BC29): Evolve AL interfaces with default implementations (Default interface method implementations)",
+  "source": "yzhums-com",
+  "published_at": "2026-10-26T01:00:23.000Z",
+  "words": 908,
+  "summary": "Default interface method implementations in BC29 allow interfaces to include method bodies so existing implementors can omit them and inherit default behavior or override them. This feature, requiring runtime 18.0 or later, lets extension publishers add behavior without forcing immediate changes to implementing extensions, with RequiredPending and AppSourceCop rules supporting a managed transition path.",
+  "key_points": [
+    "Interfaces can now have method bodies serving as default implementations that codeunits can inherit or override",
+    "The RequiredPending attribute marks default methods as becoming required in future versions, with compiler warnings to guide developers",
+    "AppSourceCop rules AS0148 and AS0149 enforce safe transitions by flagging removed defaults without prior RequiredPending marking and runtime identifier changes",
+    "Default methods dispatch through interface variables only; calling them on codeunit variables directly will fail",
+    "Feature requires runtime version 18.0 or later, introduced in BC29 (2026 wave 2)"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "interfaces",
+    "al development",
+    "backward compatibility",
+    "default implementations",
+    "code evolution"
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "ZYTestInterface"
+    },
+    {
+      "type": "interface",
+      "name": "IPaymentMethod"
+    },
+    {
+      "type": "interface",
+      "name": "IAddressProvider"
+    },
+    {
+      "type": "codeunit",
+      "name": "ImplementZYTest"
+    },
+    {
+      "type": "codeunit",
+      "name": "CashPayment"
+    }
+  ],
+  "features": [
+    "Default interface method implementations",
+    "RequiredPending attribute",
+    "AppSourceCop rule AS0148",
+    "AppSourceCop rule AS0149",
+    "Interface method body support"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2",
+    "runtime 18.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Default methods are dispatched through the interface variable, not inherited by the implementing codeunit's public API.",
+      "why_it_matters": "This clarifies an important implementation detail that developers must understand to avoid runtime errors when calling default methods"
+    },
+    {
+      "text": "Extension publishers can add behavior to an interface without immediately requiring every implementing extension to change.",
+      "why_it_matters": "This is the business value that enables managed API upgrades and reduces disruption to dependent developers in the extension ecosystem"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007098,
+    "posts_in_call": 1
+  }
+}

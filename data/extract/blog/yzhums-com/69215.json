@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/yzhums-com/69215",
+  "url": "https://yzhums.com/69215/",
+  "title": "Dynamics 365 Business Central: Manage credit limits (Warnings and Workflow)",
+  "source": "yzhums-com",
+  "published_at": "2026-08-27T00:58:22.000Z",
+  "words": 762,
+  "summary": "Managing credit limits in Business Central involves setting maximum credit amounts on customer cards, configuring warning options in Sales & Receivables Setup, and using standard workflows to approve credit limit changes. The post explains how warnings work when customers exceed limits or have overdue balances, plus a code example for blocking sales posting when credit limits are exceeded.",
+  "key_points": [
+    "Credit Limit field on customer cards specifies maximum credit before warnings; value 0 means unlimited credit",
+    "Sales & Receivables Setup controls warning types: Both Warnings, Credit Limit only, Overdue Balance only, or No Warnings",
+    "Standard workflows can require approval before credit limit changes are applied, reverting values until approved",
+    "Blocking posting when credit limit is exceeded requires customization using an event subscriber on Sales-Post codeunit"
+  ],
+  "systems": [
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "credit limits",
+    "customer management",
+    "workflows",
+    "approvals",
+    "sales orders",
+    "warnings"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "codeunit",
+      "name": "Cust-Check Cr. Limit"
+    },
+    {
+      "type": "codeunit",
+      "name": "Sales-Post"
+    }
+  ],
+  "features": [
+    "Credit Limit field",
+    "Balance Due warnings",
+    "Credit warnings configuration",
+    "Workflow approvals",
+    "Customer card",
+    "Sales & Receivables Setup",
+    "Event subscribers",
+    "Credit limit notifications"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Credit Limit field on a customer card specifies the maximum amount you allow the customer to exceed the payment balance before warnings are issued.",
+      "why_it_matters": "Explains the core function of credit limits and how they trigger warnings in Business Central"
+    },
+    {
+      "text": "You can post even if the credit limit exceeds.",
+      "why_it_matters": "Clarifies that standard BC allows posting over credit limits, establishing the need for customization if stricter control is needed"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

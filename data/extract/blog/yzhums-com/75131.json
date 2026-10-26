@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/yzhums-com/75131",
+  "url": "https://yzhums.com/75131/",
+  "title": "Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)",
+  "source": "yzhums-com",
+  "published_at": "2026-08-26T00:55:18.000Z",
+  "words": 358,
+  "summary": "Business Central now provides Source Order No. and Source Description fields that allow users to display the original sales or purchase order numbers in Item Ledger Entries without custom development. These calculated fields can be added to the Item Ledger Entries page through personalization.",
+  "key_points": [
+    "Source Order No. and Source Description are new calculated fields (not physical table fields) that show the original order numbers and customer/vendor names in Item Ledger Entries",
+    "These fields are added via the Personalization feature without requiring custom development",
+    "The page must be reopened after adding the fields to display the populated data",
+    "The fields automatically fetch order numbers from Posted Sales Shipments or Posted Purchase Receipts, and remain blank if no source order exists"
+  ],
+  "systems": [
+    "inventory",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "item ledger entries",
+    "sales orders",
+    "purchase orders",
+    "personalization",
+    "source order tracking"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sales Shipment Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    }
+  ],
+  "features": [
+    "Source Order No. field",
+    "Source Description field",
+    "Item Ledger Entries page",
+    "Personalization",
+    "Sales order posting",
+    "Purchase order posting"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft recently introduced two new fields to address this exact issue, Source Order No. and Source Description",
+      "why_it_matters": "Explains the solution for displaying order numbers in Item Ledger Entries without custom development"
+    },
+    {
+      "text": "These two fields are not actual physical fields stored in the table; rather, they are calculated via standard methods.",
+      "why_it_matters": "Clarifies how the fields work and why the page needs to be reopened to display data"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

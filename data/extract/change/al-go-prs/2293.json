@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2293",
+  "number": 2293,
+  "title": "Add support for protectedSettings to override lower priority settings",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Introduced a protectedSettings mechanism in AL-Go that allows organizations to prevent specific settings from being overridden by lower-priority sources unless explicitly marked as protected in those sources.",
+  "key_points": [
+    "New protectedSettings array protects top-level settings from non-protected overrides",
+    "Works with both standard and conditional settings",
+    "Integrates with existing overwriteSettings mechanism",
+    "Enables organization-level settings to enforce configuration policies",
+    "Comprehensive schema updates and documentation provided"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004517,
+    "changes_in_call": 5
+  }
+}

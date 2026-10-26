@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/12929",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]\"Use GLN in Electronic Documents\" on the Company Information is not respected when importing E-Docs from Inbound E-Documents page using the Import XML action.",
+  "url": "https://github.com/microsoft/BCApps/pull/12929",
+  "published_at": "2026-10-25T18:45:49Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-26T05:30:48.114Z"
+    },
+    "fetched": {
+      "at": "2026-10-26T05:31:29.409Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-26T05:31:45.566Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004517
+    },
+    "linked": {
+      "at": "2026-10-26T05:31:45.867Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-26T05:31:45.875Z",
+      "path": "content/changes/bcapps/12929.md"
+    }
+  },
+  "input_hash": "bdf5a0c2fd9d3bd48b9fec78817a8bac41c94824:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12929,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bdf5a0c2fd9d3bd48b9fec78817a8bac41c94824",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "use gln in electronic documents on the company information is not respected when importing e docs from inbound e documents page using the import xml action"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "83bd4f79eb56e00e1070d689134746c3b989e3534e15b96d598dcacdce0a1cd1"
+}

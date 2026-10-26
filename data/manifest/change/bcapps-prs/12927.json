@@ -6,7 +6,7 @@
   "title": "Add AboutTitle and AboutText to Workflow Categories page",
   "url": "https://github.com/microsoft/BCApps/pull/12927",
   "published_at": "2026-10-24T23:48:23Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T00:22:29.979Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-26T05:31:45.568Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004517
+    },
+    "linked": {
+      "at": "2026-10-26T05:31:46.117Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-26T05:31:46.128Z",
+      "path": "content/changes/bcapps/12927.md"
     }
   },
   "input_hash": "8e97a483e5c7be6c20b0ceb023336e7876cf534a:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "88ac6806b4a87d6b6e2b4e7233a926ed4cdb2f6c36e82ee8da756269a498ebef"
+  "output_hash": "71ba095e79f8f0e6deb6146a6cbfba4dd79cbc49c1c0a3e499de271a57e6a7a5"
 }

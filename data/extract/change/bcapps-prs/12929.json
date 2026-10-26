@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12929",
+  "number": 12929,
+  "title": "[Main]\"Use GLN in Electronic Documents\" on the Company Information is not respected when importing E-Docs from Inbound E-Documents page using the Import XML action.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Fixed an issue where the GLN setting on Company Information was ignored when importing electronic documents via the Import XML action from the Inbound E-Documents page.",
+  "key_points": [
+    "GLN (Global Location Number) setting was not being respected during XML import",
+    "The issue occurred specifically when using the Import XML action on Inbound E-Documents page",
+    "Fix ensures Company Information settings are properly applied during e-document imports",
+    "Changes made to the E-Document Import Helper codeunit",
+    "Test coverage added to verify the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004517,
+    "changes_in_call": 5
+  }
+}

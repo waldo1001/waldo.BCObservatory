@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/70329",
+  "url": "https://yzhums.com/70329/",
+  "title": "Dynamics 365 Business Central: View the last known error",
+  "source": "yzhums-com",
+  "published_at": "2026-08-28T01:42:20.000Z",
+  "words": 531,
+  "summary": "Business Central's Help & Support page provides access to the last known error message displayed in the application, including error text, code snippet, callstack, and runtime object details. This feature helps diagnose issues even after error dialogs are closed.",
+  "key_points": [
+    "Access the last error via the Help & Support page from the question mark icon in the top-right corner",
+    "Error details include text, code snippet, callstack, and runtime object information",
+    "Collectable errors may prevent accurate error retrieval since error handling is postponed until the end of the procedure",
+    "Use GetLastErrorCode and GetLastErrorText methods to programmatically access error details",
+    "Platform-generated errors cannot be viewed through this link; reproduce in sandbox to troubleshoot platform issues"
+  ],
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "error handling",
+    "debugging",
+    "support",
+    "troubleshooting",
+    "help page"
+  ],
+  "objects": [],
+  "features": [
+    "View the last known error",
+    "Help & Support page",
+    "GetLastErrorCode method",
+    "GetLastErrorText method",
+    "Error details sharing",
+    "Callstack viewing",
+    "Collectable errors"
+  ],
+  "versions": [
+    "BC27 (2025 wave 2)",
+    "BC26 (2025 wave 1)",
+    "BC24 (2024 wave 1)",
+    "BC22 (2023 wave 1)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Did you know that even after closing an error dialog, you can inspect the last error via the Help & Support page?",
+      "why_it_matters": "This shows the practical value of accessing errors after they have been dismissed, helping users diagnose problems retroactively."
+    },
+    {
+      "text": "Using collectable errors essentially postpones error handling to the end of the procedure call.",
+      "why_it_matters": "This explains a critical limitation of the error retrieval feature, important for developers to understand when implementing error handling strategies."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/13054",
+  "number": 13054,
+  "title": "[FR] Delocalize delayed VAT and SEPA payment-slip integration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "administration",
+    "development",
+    "purchasing"
+  ],
+  "summary": "Moved French delayed VAT and SEPA direct debit payment-slip features from base layers to the Payment Management FR app, while maintaining reusable posting and calculation engines in the base application.",
+  "key_points": [
+    "Extracted delayed VAT recognition and payment slip logic into Payment Management FR app",
+    "Moved journal-context fields and unrealized application buffer to app level with data migration",
+    "Implemented app subscribers to route VAT and validation logic through standard calculation",
+    "Extracted source-document export-error linking into the app",
+    "Updated permissions, data classification, and cloud-migration lists"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "quote": "Complete the remaining French delayed-VAT and payment-slip SEPA direct-debit extraction into the existing Payment Management FR app.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004517,
+    "changes_in_call": 5
+  }
+}

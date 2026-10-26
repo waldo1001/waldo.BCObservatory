@@ -1,0 +1,88 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13107,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13107",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-25T08:30:22Z",
+  "merge_commit_sha": "9445935193bb6b2cf2675c1551286ee36cef329c",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "CZ Registration No. verification must do integrity and schema check of the response",
+  "body_hash": "d253c4f5523a48e6697bc0ef5bcf37a76a6e16149b964b23c0a31e6b1709d56e",
+  "fixes_issues": [],
+  "work_items": [
+    656065
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/RegLookupExtDataCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/RegistrationLogMgtCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 68,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/test/Src/UpdatefromARESCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 249,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 355,
+    "deletions": 3,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "objects": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/RegLookupExtDataCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11754",
+        "type": "codeunit",
+        "id": 11754,
+        "name": "Reg. Lookup Ext. Data CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/11754-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/RegistrationLogMgtCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11755",
+        "type": "codeunit",
+        "id": 11755,
+        "name": "Registration Log Mgt. CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/11755-cz"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "CoreLocalizationPack"
+  ]
+}

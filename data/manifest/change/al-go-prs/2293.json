@@ -6,7 +6,7 @@
   "title": "Add support for protectedSettings to override lower priority settings",
   "url": "https://github.com/microsoft/AL-Go/pull/2293",
   "published_at": "2026-10-23T14:39:57Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T21:57:46.568Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 0,
       "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-26T05:31:45.572Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004517
+    },
+    "linked": {
+      "at": "2026-10-26T05:31:46.388Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-26T05:31:46.394Z",
+      "path": "content/changes/al-go/2293.md"
     }
   },
   "input_hash": "fb27afbcab20378ab0ac0978e7efe4131bdc0962:c1",
@@ -37,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c7431ea0aba5259d94087dee3a89c1d04a2568fba3c502859511fa02d33eb2af"
+  "output_hash": "8133fef7489371977a789696978b620b7ce6304940a97ccfb6c92969e148f767"
 }

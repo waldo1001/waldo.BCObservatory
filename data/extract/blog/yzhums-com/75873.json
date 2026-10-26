@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/yzhums-com/75873",
+  "url": "https://yzhums.com/75873/",
+  "title": "Business Central 2026 release wave 2 (BC29): Developers can define indexes that span fields from a base table and its ...",
+  "source": "yzhums-com",
+  "published_at": "2026-09-07T07:36:30.000Z",
+  "words": 508,
+  "summary": "Business Central 2026 release wave 2 (BC29) enables developers to define database indexes that span fields from both base tables and their table extensions. Previously, keys could only contain fields from either the base table or the extension, not both, which required workarounds like data duplication or complex joins.",
+  "key_points": [
+    "Table extension keys now support mixing base table fields and extension fields in key definitions (KeyFields, SumIndexFields, SqlIndex, IncludedFields)",
+    "This eliminates previous AL compiler error AL(AL0423) that prevented unified keys across table and extension boundaries",
+    "Developers can create more efficient database indexes without performance compromises or awkward workarounds",
+    "Mixed-field indexes improve data modeling efficiency and reduce the need for unnecessary data duplication"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "table extensions",
+    "indexes",
+    "keys",
+    "al development",
+    "bc29",
+    "database performance"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    }
+  ],
+  "features": [
+    "Table extension keys with mixed fields",
+    "Index spanning base table and extension fields",
+    "KeyFields property",
+    "SumIndexFields property",
+    "SqlIndex property",
+    "IncludedFields property",
+    "Index Management",
+    "Database index optimization"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This often forced unnecessary data duplication or heavy SQL joins.",
+      "why_it_matters": "Explains the practical pain point that developers faced before this feature was available"
+    }
+  ],
+  "trimmed_for_policy": 1,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

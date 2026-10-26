@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12927",
+  "number": 12927,
+  "title": "Add AboutTitle and AboutText to Workflow Categories page",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Added teaching tip content to the Workflow Categories page to provide users with contextual guidance, consistent with other workflow-related pages in the system.",
+  "key_points": [
+    "Added AboutTitle and AboutText properties to Workflow Categories page",
+    "Aligns with documentation patterns already used in other workflow pages",
+    "No functional behavior change, only new translatable text",
+    "Minor metadata-only modification with no impact on extensions",
+    "Improves user experience through contextual help"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004517,
+    "changes_in_call": 5
+  }
+}

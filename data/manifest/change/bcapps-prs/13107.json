@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13107",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "CZ Registration No. verification must do integrity and schema check of the response",
+  "url": "https://github.com/microsoft/BCApps/pull/13107",
+  "published_at": "2026-10-25T08:30:22Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-26T05:30:48.114Z"
+    },
+    "fetched": {
+      "at": "2026-10-26T05:31:29.863Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-26T05:31:37.757Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004191
+    },
+    "linked": {
+      "at": "2026-10-26T05:31:37.982Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-26T05:31:38.111Z",
+      "path": "content/changes/bcapps/13107.md"
+    }
+  },
+  "input_hash": "9445935193bb6b2cf2675c1551286ee36cef329c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13107,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9445935193bb6b2cf2675c1551286ee36cef329c",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "cz registration no verification must do integrity and schema check of the response"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "15a8f807fdb9451b4050f8d1b1d791818f06feecb15b2b263c3c97ea1408fd78"
+}

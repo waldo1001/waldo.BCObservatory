@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13107",
+  "number": 13107,
+  "title": "CZ Registration No. verification must do integrity and schema check of the response",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The CZ Registration No. validation against the ARES Czech business register now includes schema, integrity, and size checks before marking responses as Valid, similar to other unauthenticated integrations.",
+  "key_points": [
+    "Schema validation ensures responses contain required fields (ico, obchodniJmeno, sidlo) as non-empty strings or objects",
+    "Integrity check confirms the response ico exactly matches the requested IČO",
+    "Response body is capped at 64 KB and validated before JSON parsing",
+    "Invalid responses are rejected with Security Audit and telemetry entries",
+    "Prevents acceptance of malformed or unrelated ARES data for master data updates"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "the response must contain the fields ARES returns for every economic subject",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004191,
+    "changes_in_call": 1
+  }
+}

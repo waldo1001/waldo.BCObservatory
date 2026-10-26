@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12337",
+  "number": 12337,
+  "title": "[MAIN]-Bug 642602: Address AL1430 and remove exception from ruleset",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Resolved an AL1430 analyzer warning by removing redundant sorting logic from a report, eliminating the need for a temporary ruleset exception without requiring schema changes.",
+  "key_points": [
+    "Removed redundant sorting on extension fields that was causing AL1430 warning",
+    "Sorting fields were already fixed by DataItemLink, making explicit sorting unnecessary",
+    "Eliminated temporary ruleset exception for AL1430",
+    "No table key or schema changes required",
+    "Improves code quality by removing dead code"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization"
+  ],
+  "quote": "Removed the redundant sorting and its warning suppression, then removed the temporary AL1430 ruleset exception.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004517,
+    "changes_in_call": 5
+  }
+}
