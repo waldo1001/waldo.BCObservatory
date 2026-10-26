@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/68075",
+  "url": "https://yzhums.com/68075/",
+  "title": "Business Central 2025 wave 2 (BC27): Date methods behavior on blank Date and DataTime fields when retrieving date data in queries",
+  "source": "yzhums-com",
+  "published_at": "2025-10-27T00:58:58.000Z",
+  "words": 438,
+  "summary": "Business Central 2025 wave 2 (BC27) changes how date methods return values for blank Date and DateTime fields in queries. Starting with BC27, blank dates return 0 for day, month, and year instead of 1, 1, and 1753 as in earlier versions.",
+  "key_points": [
+    "Date methods (Day, Month, Year) can be applied to query columns to extract specific date components",
+    "In BC27 and later, blank dates (internally 0D) now return 0 for all date method components instead of defaults",
+    "Earlier versions (BC26 and earlier) returned 1 for day/month and 1753 for year when extracting from blank dates",
+    "This behavior change affects how blank date fields in Purchase Header and other tables are handled in queries"
+  ],
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "queries",
+    "date methods",
+    "blank fields",
+    "behavior change",
+    "bc27"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "ZY Purchase Order Query"
+    }
+  ],
+  "features": [
+    "Date method",
+    "Day extraction",
+    "Month extraction",
+    "Year extraction",
+    "Query column methods"
+  ],
+  "versions": [
+    "BC27",
+    "26 and earlier"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "In Business Central, a blank date is represented internally as 0D. In SQL Server, a blank date is 01-01-1753.",
+      "why_it_matters": "Understanding the internal representation of blank dates is essential for predicting how date methods behave across versions."
+    },
+    {
+      "text": "The values that date methods return for blank fields differ by product version.",
+      "why_it_matters": "This warning signals a breaking change that requires developers to test and potentially update query logic when upgrading to BC27."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

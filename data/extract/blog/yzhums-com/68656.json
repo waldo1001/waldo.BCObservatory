@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/68656",
+  "url": "https://yzhums.com/68656/",
+  "title": "Dynamics 365 Business Central: How to copy values (Blob) ​​from one Codeunit “Temp Blob” to another Codeunit “Temp Blob”",
+  "source": "yzhums-com",
+  "published_at": "2025-10-29T01:23:01.000Z",
+  "words": 296,
+  "summary": "Copying BLOB data from one Temp Blob codeunit to another requires creating an InStream from the source, an OutStream to the target, and using CopyStream to transfer the data. This technique became relevant after Microsoft deprecated Record TempBlob in BC15 and introduced the Temp Blob codeunit.",
+  "key_points": [
+    "Temp Blob codeunit replaced deprecated Record TempBlob starting in 2019 Release Wave 2 (BC15)",
+    "CreateInStream method reads data from the source BLOB with optional Encoding parameter",
+    "CreateOutStream method writes data to the target BLOB with optional Encoding parameter",
+    "Use CopyStream function to transfer data between InStream and OutStream objects"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "temp blob",
+    "blob storage",
+    "codeunit",
+    "data copying",
+    "streams",
+    "file handling"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Temp Blob"
+    }
+  ],
+  "features": [
+    "Temp Blob codeunit",
+    "CreateInStream",
+    "CreateOutStream",
+    "CopyStream",
+    "BLOB data management",
+    "file import/export"
+  ],
+  "versions": [
+    "BC15",
+    "2019 Release Wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "When you're writing code to manage the importing and exporting of files, you can use this codeunit.",
+      "why_it_matters": "Defines the primary use case for Temp Blob, helping developers understand when to apply this technique"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

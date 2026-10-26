@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/68672",
+  "url": "https://yzhums.com/68672/",
+  "title": "Dynamics 365 Business Central Blog Series: Handle CSV (comma-separated values) files",
+  "source": "yzhums-com",
+  "published_at": "2025-10-28T00:56:52.000Z",
+  "words": 527,
+  "summary": "This blog series covers multiple techniques for working with comma-separated values (CSV) files in Dynamics 365 Business Central, including importing and exporting data via AL code and Power Automate, importing bulk large text fields, previewing multiple file types, and using Copilot to suggest sales lines from CSV files.",
+  "key_points": [
+    "CSV files can be imported to and exported from Business Central tables using AL code or Power Automate without customization",
+    "Power Automate enables JSON to CSV conversion for exporting and CSV to JSON conversion for importing data",
+    "Large text fields exceeding 250 or 2048 characters can be bulk imported from external files via AL",
+    "Multiple file types including CSV can be previewed within Business Central from SharePoint",
+    "Copilot in Business Central 2024 wave 2 can suggest sales lines directly from CSV files"
+  ],
+  "systems": [
+    "integration",
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "csv files",
+    "data import",
+    "data export",
+    "power automate",
+    "al development",
+    "file handling",
+    "copilot"
+  ],
+  "objects": [],
+  "features": [
+    "CSV import",
+    "CSV export",
+    "Power Automate integration",
+    "bulk text import",
+    "file preview",
+    "Copilot suggestions for sales lines"
+  ],
+  "versions": [
+    "Business Central 2024 wave 2 (BC25)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "How to import data from CSV (comma-separated values) file",
+      "why_it_matters": "Establishes the core capability of importing CSV data into Business Central"
+    },
+    {
+      "text": "How to export data from Business Central to a csv file with Power Automate (No customization)",
+      "why_it_matters": "Shows that CSV export works without requiring custom development using Power Automate"
+    },
+    {
+      "text": "Suggest sales lines from CSV (comma-separated values) file (Create sales lines easily with Copilot)",
+      "why_it_matters": "Highlights the modern AI-powered approach to CSV data handling in the latest BC version"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

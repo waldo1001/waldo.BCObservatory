@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/68482",
+  "url": "https://yzhums.com/68482/",
+  "title": "Dynamics 365 Business Central: How to hide the Sales Order Agent and Payables Agent icons in the upper right corner",
+  "source": "yzhums-com",
+  "published_at": "2025-10-22T01:20:42.000Z",
+  "words": 329,
+  "summary": "The Sales Order Agent and Payables Agent icons appear by default in Business Central's upper right corner. You can hide them by deactivating individual capabilities on the Copilot & agent capabilities page, then signing out and back in.",
+  "key_points": [
+    "Sales Order Agent automates sales order capturing in Business Central",
+    "Payables Agent processes vendor invoices end-to-end to reduce accounting bottlenecks",
+    "Both agent icons display on the role center and embedded pages by default",
+    "Deactivate agents through the Copilot & agent capabilities page",
+    "Sign out and back in to make the icon visibility changes take effect"
+  ],
+  "systems": [
+    "copilot",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "agents",
+    "copilot",
+    "configuration",
+    "user interface",
+    "icons",
+    "capabilities"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Copilot & agent capabilities"
+    }
+  ],
+  "features": [
+    "Sales Order Agent",
+    "Payables Agent",
+    "Copilot capabilities deactivation",
+    "Agent icons display control"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Sales Order Agent helps Business Central users automate capturing sales orders.",
+      "why_it_matters": "Explains the primary function of the Sales Order Agent feature"
+    },
+    {
+      "text": "The Payables Agent solves a decade-old challenge: end-to-end processing of vendor invoices.",
+      "why_it_matters": "Highlights the strategic value of the Payables Agent in addressing a long-standing business problem"
+    },
+    {
+      "text": "Like most system features, you can't turn Copilot on or off. But you can deactivate individual capabilities.",
+      "why_it_matters": "Clarifies how agent features are controlled and customized in Business Central"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

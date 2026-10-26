@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/yzhums-com/68484",
+  "url": "https://yzhums.com/68484/",
+  "title": "Dynamics 365 Business Central: Regarding the cost of the Copilot/Agent features (Manage consumption-based billing for agent capabilities)",
+  "source": "yzhums-com",
+  "published_at": "2025-10-21T00:28:52.000Z",
+  "words": 1029,
+  "summary": "Copilot features in Business Central are included with the license at no extra cost, but new agent capabilities like Sales Order Agent and Payables Agent use consumption-based billing measured in Copilot Credits. Organizations can pay per credit consumed or purchase prepaid capacity through Microsoft Copilot Studio.",
+  "key_points": [
+    "Core Copilot is free with Business Central license, though fair-use policies and pricing may change",
+    "Agent capabilities (Sales Order Agent and Payables Agent) use consumption-based billing at $0.01 per Copilot Credit",
+    "Sales Order Agent typical process costs about 14 Copilot Credits per request; Payables Agent costs vary by invoice complexity",
+    "Microsoft 365 Copilot license includes 25,000 free Copilot Credits, but Business Central licenses do not explicitly include credits",
+    "Organizations can monitor actual Copilot Credit consumption in the Power Platform admin center"
+  ],
+  "systems": [
+    "copilot",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "copilot credits",
+    "agent capabilities",
+    "consumption-based billing",
+    "sales order agent",
+    "payables agent",
+    "pricing",
+    "licensing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Copilot and Agent Capabilities"
+    }
+  ],
+  "features": [
+    "Sales Order Agent",
+    "Payables Agent",
+    "Consumption-based billing",
+    "Copilot Credits",
+    "Pay-as-you-go billing",
+    "Power Platform admin center integration"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Copilot in Business Central is included with your Business Central license at no extra cost.",
+      "why_it_matters": "Clarifies that core Copilot functionality is free, helping organizations understand baseline costs"
+    },
+    {
+      "text": "Selected agent capabilities in Business Central use consumption-based billing, charging per use.",
+      "why_it_matters": "Establishes that new agent features have variable costs based on actual usage, not fixed licensing"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

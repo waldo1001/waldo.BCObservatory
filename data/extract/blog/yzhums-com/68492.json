@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/yzhums-com/68492",
+  "url": "https://yzhums.com/68492/",
+  "title": "Business Central 2025 wave 2 (BC27): Use enhanced analysis assist with Copilot",
+  "source": "yzhums-com",
+  "published_at": "2025-10-20T00:23:31.000Z",
+  "words": 431,
+  "summary": "Business Central 2025 wave 2 (BC27) introduces enhancements to the Copilot analysis assist feature, which helps users quickly create analysis views by describing their data needs in natural language instead of manual clicking. New capabilities include system permissions control, the ability to include fields from related tables, performance feedback, and date hierarchy pivoting.",
+  "key_points": [
+    "Copilot analysis assist enables users to request data analysis views using natural language descriptions like 'show me vendors by location sorted by amount of purchases'",
+    "New system permission in the Copilot System Features permission set controls access to the analysis assist feature",
+    "Users can now ask Copilot to include fields from related tables in analysis views",
+    "Immediate feedback is provided about performance impacts when designing analysis tabs, such as warnings about computed fields and export limitations",
+    "Date hierarchy fields can now be pivoted in server-side data mode for better data exploration"
+  ],
+  "systems": [
+    "copilot",
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "copilot",
+    "analysis",
+    "data insights",
+    "ai-powered features",
+    "business central 2025",
+    "performance"
+  ],
+  "objects": [],
+  "features": [
+    "Analysis assist with Copilot",
+    "Copilot system permissions",
+    "Related table field inclusion",
+    "Performance feedback in analysis design",
+    "Date hierarchy pivoting",
+    "In-client analysis mode"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Immediate feedback when making analysis design choices that might affect performance.",
+      "why_it_matters": "Highlights the new safeguard feature that warns users about potential performance issues during analysis view creation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

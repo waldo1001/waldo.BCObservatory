@@ -1,0 +1,82 @@
+{
+  "item_id": "blog/yzhums-com/68765",
+  "url": "https://yzhums.com/68765/",
+  "title": "Dynamics 365 Business Central Blog Series: Performance Profiler",
+  "source": "yzhums-com",
+  "published_at": "2025-11-04T00:51:37.000Z",
+  "words": 377,
+  "summary": "This blog series documents the evolution of performance profiling tools in Dynamics 365 Business Central across multiple releases, from the snapshot debugger in BC19 through in-client profiling enhancements in BC25-BC27, including features like sampling intervals, profiler schedules, SQL call visibility, and callstack retrieval.",
+  "key_points": [
+    "Multiple profiling capabilities introduced progressively: snapshot debugger (BC19), in-client performance profiler (BC20), sampling intervals (BC23), profiler schedules (BC25), SQL call information (BC27)",
+    "Profiler Schedules in BC25 enable easier setup of in-client performance profiling through rules",
+    "BC27 adds SQL call information viewing in performance profiles and node copying support in the profile editor",
+    "SessionInformation data type in BC26 allows developers to retrieve the current callstack programmatically"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "performance profiling",
+    "al development",
+    "debugging",
+    "performance optimization",
+    "callstack",
+    "sql monitoring"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Performance Profiler"
+    },
+    {
+      "type": "other",
+      "name": "SessionInformation Data Type"
+    },
+    {
+      "type": "other",
+      "name": "Profiler Schedules"
+    }
+  ],
+  "features": [
+    "AL snapshot debugger profiling",
+    "In-client performance profiler",
+    "Sampling intervals configuration",
+    "Profiler Schedules rules",
+    "SQL call information visibility",
+    "Profile editor node copying",
+    "Callstack retrieval"
+  ],
+  "versions": [
+    "BC19",
+    "BC20",
+    "BC23",
+    "BC25",
+    "BC26",
+    "BC27"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Choose between more sampling intervals for snapshot and in-client profiling",
+      "why_it_matters": "Developers can fine-tune performance analysis granularity for different profiling scenarios"
+    },
+    {
+      "text": "Set up easier in-client performance profiling with rules (Profiler Schedules)",
+      "why_it_matters": "Reduces configuration complexity for automated performance profiling across the system"
+    },
+    {
+      "text": "View SQL call information in performance profiles",
+      "why_it_matters": "Enables comprehensive database performance analysis alongside AL code profiling"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

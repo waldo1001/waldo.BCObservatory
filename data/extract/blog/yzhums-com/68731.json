@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/yzhums-com/68731",
+  "url": "https://yzhums.com/68731/",
+  "title": "Dynamics 365 Business Central: How to get current Profile (Role) info (Profile ID, Display Name, Source, Role Center ID, etc.) via AL",
+  "source": "yzhums-com",
+  "published_at": "2025-10-31T01:36:56.000Z",
+  "words": 152,
+  "summary": "This post demonstrates how to retrieve current user profile information including Profile ID, Display Name, Role Center ID, and Description using codeunit 9170 'Conf./Personalization Mgt.' in AL code, which provides more details than methods that only return the profile ID alone.",
+  "key_points": [
+    "Use codeunit 9170 'Conf./Personalization Mgt.' with its GetCurrentProfile procedure to access comprehensive profile data",
+    "This method returns the complete 'All Profile' record with multiple properties like Profile ID, Role Center ID, and Description",
+    "The approach goes beyond simpler methods that can only retrieve the profile ID without additional profile attributes",
+    "Practical implementation shown through a page extension example on Customer List page"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "profile",
+    "role",
+    "al development",
+    "codeunit",
+    "role center",
+    "personalization"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Conf./Personalization Mgt."
+    },
+    {
+      "type": "table",
+      "name": "All Profile"
+    },
+    {
+      "type": "page",
+      "name": "Customer List"
+    }
+  ],
+  "features": [
+    "Profile information retrieval",
+    "Role identification",
+    "Role Center access",
+    "User personalization management",
+    "AL codeunit integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "codeunit 9170 \"Conf./Personalization Mgt.\".",
+      "why_it_matters": "Identifies the specific system codeunit developers should use to access comprehensive profile data"
+    },
+    {
+      "text": "procedure GetCurrentProfile(var AllProfile: Record \"All Profile\"):",
+      "why_it_matters": "Shows the exact method signature that retrieves the full profile record with all available properties"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

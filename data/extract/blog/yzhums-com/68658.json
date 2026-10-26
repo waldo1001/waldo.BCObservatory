@@ -1,0 +1,49 @@
+{
+  "item_id": "blog/yzhums-com/68658",
+  "url": "https://yzhums.com/68658/",
+  "title": "Dynamics 365 Business Central: How to set the minimum and maximum numeric values ​​for a field",
+  "source": "yzhums-com",
+  "published_at": "2025-10-30T01:48:45.000Z",
+  "words": 526,
+  "summary": "Setting minimum and maximum numeric values for fields in Business Central can be done using MinValue/MaxValue properties or OnValidate triggers. The property-based approach validates only through the UI, while OnValidate triggers provide more control and validate application code changes.",
+  "key_points": [
+    "MinValue and MaxValue properties restrict field values at the table and page control levels with built-in validation messages.",
+    "Properties validate only UI changes; direct table updates via code bypass validation.",
+    "OnValidate triggers on table fields run before page field triggers and allow custom range logic.",
+    "Properties cannot enforce exclusive bounds; OnValidate triggers enable stricter constraints like greater-than-zero-only rules."
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "field validation",
+    "data constraints",
+    "al development",
+    "table fields",
+    "page controls"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Vendor"
+    }
+  ],
+  "features": [
+    "MinValue Property",
+    "MaxValue Property",
+    "OnValidate Trigger",
+    "Field Validation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

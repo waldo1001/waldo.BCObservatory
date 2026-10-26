@@ -7,7 +7,7 @@
   "url": "https://yzhums.com/68841/",
   "published_at": "2025-11-06T04:58:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-25T18:50:16.289Z"
@@ -15,5 +15,8 @@
   },
   "input_hash": "2025-11-19T23:01:34.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "skip": "no-content",
+  "skipped_at": "2026-10-26T05:52:15.854Z",
+  "retry_after": null
 }

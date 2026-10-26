@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/yzhums-com/67275",
+  "url": "https://yzhums.com/67275/",
+  "title": "Dynamics 365 Business Central: Require users to enter a more detailed description when posting a journal line of type G/L Account (Omit Default Descr. in Jnl.)",
+  "source": "yzhums-com",
+  "published_at": "2025-10-23T01:14:07.000Z",
+  "words": 336,
+  "summary": "The Omit Default Descr. in Jnl. field on G/L Account cards forces users to enter custom descriptions for journal lines instead of auto-filling with the account's default description. When this option is enabled, posting fails if the description field is left blank, improving audit trail quality.",
+  "key_points": [
+    "Enable 'Omit Default Descr. in Jnl.' on the G/L Account Card to prevent automatic description insertion",
+    "Users must manually enter a description for journal lines when this setting is active",
+    "System validation requires all description fields to be filled before posting journal lines",
+    "Descriptions are stored in G/L entries for audit trail purposes",
+    "This is a Netherlands localization feature also available in W1 version"
+  ],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "journal posting",
+    "gl account",
+    "audit trail",
+    "data validation",
+    "description management"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Account"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    }
+  ],
+  "features": [
+    "Omit Default Descr. in Jnl. field",
+    "General journal line posting",
+    "Description field validation",
+    "G/L entry creation"
+  ],
+  "versions": [
+    "W1"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
