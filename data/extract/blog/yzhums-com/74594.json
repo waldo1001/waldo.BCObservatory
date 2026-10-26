@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/74594",
+  "url": "https://yzhums.com/74594/",
+  "title": "Dynamics 365 Business Central Cloud: Production vs. Sandbox Environments – Key Differences",
+  "source": "yzhums-com",
+  "published_at": "2026-07-15T01:50:32.000Z",
+  "words": 1038,
+  "summary": "Production and sandbox environments in Business Central have distinct purposes and capabilities. Production environments run on dedicated Azure performance tiers for daily business operations, while sandboxes are for testing and development. Key differences include performance characteristics, debugging and extension deployment options, backup/restore capabilities, and feature preview availability.",
+  "key_points": [
+    "Production environments are deployed on dedicated Azure performance tiers ensuring high availability, while sandboxes share different performance tiers and are unsuitable for performance benchmarking",
+    "Sandbox environments support direct Visual Studio Code debugging and extension deployment, but production environments only allow limited snapshot debugging",
+    "Production environments can be restored to either production or sandbox, while sandbox environments can only be restored to sandbox",
+    "Sandbox environments can preview new functionality ahead of official release, and Microsoft sometimes releases sandbox-only features for testing before production availability",
+    "Premium and Essential subscriptions include one free production environment and three free sandbox environments per customer"
+  ],
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "environments",
+    "sandbox",
+    "production",
+    "deployment",
+    "debugging",
+    "performance",
+    "backup",
+    "preview"
+  ],
+  "objects": [],
+  "features": [
+    "sandbox environments",
+    "production environments",
+    "visual studio code debugging",
+    "extension deployment",
+    "snapshot debugging",
+    "environment backups",
+    "point-in-time restore",
+    "preview versions",
+    "database export"
+  ],
+  "versions": [
+    "2025 wave 2",
+    "BC27"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Production environments are deployed on dedicated performance tiers in Azure, ensuring a high level of availability and prioritized support.",
+      "why_it_matters": "Explains why production environments are required for reliable performance testing and actual business operations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

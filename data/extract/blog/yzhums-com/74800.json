@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/yzhums-com/74800",
+  "url": "https://yzhums.com/74800/",
+  "title": "Does Dynamics 365 Business Central support browser-based translation (e.g., Microsoft Translator in Edge browser)?",
+  "source": "yzhums-com",
+  "published_at": "2026-07-22T01:37:33.000Z",
+  "words": 580,
+  "summary": "Browser-based translation tools like Microsoft Translator in Edge can technically display Business Central content in different languages, but this approach is not recommended because it causes contextual inaccuracy for ERP terminology, disrupts UI layout and performance, and creates inconsistent experiences across users. The post explains how Business Central's proper language support works through language packs from Marketplace instead.",
+  "key_points": [
+    "Business Central supports multiple languages through installed language packs available on Marketplace, with platform captions translated by Microsoft and application captions by Microsoft or partners",
+    "Browser-based translation mistranslates domain-specific ERP terms like 'Posting' and 'Item Ledger Entries' and translates values that should remain unchanged",
+    "Real-time translation by browser extensions can break UI elements, freeze responsive grids, and cause performance problems during data entry",
+    "Client-side browser translation creates inconsistent experiences across users and complicates troubleshooting and technical support"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "language support",
+    "translation",
+    "browser features",
+    "localization",
+    "language packs",
+    "marketplace"
+  ],
+  "objects": [],
+  "features": [
+    "multi-language support",
+    "language packs",
+    "XLIFF translation files",
+    "browser-based translation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Language support requires translation of platform captions and application captions (UI).",
+      "why_it_matters": "Establishes that proper language implementation in Business Central involves structured UI translation, not browser translation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

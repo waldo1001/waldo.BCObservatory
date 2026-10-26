@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/yzhums-com/75111",
+  "url": "https://yzhums.com/75111/",
+  "title": "Dynamics 365 Business Central: How to navigate directly from the BC admin center to the Power Platform admin center",
+  "source": "yzhums-com",
+  "published_at": "2026-08-05T02:17:38.000Z",
+  "words": 224,
+  "summary": "Administrators can navigate directly from the Business Central admin center to the Power Platform admin center by selecting an environment, then choosing Support and New Support Request. This access is useful for managing Copilot credits, viewing known issues, and administering Power Platform resources linked to Business Central.",
+  "key_points": [
+    "Direct navigation path: BC admin center > select environment > Support > New Support Request opens Power Platform admin center",
+    "Power Platform admin center manages environments and settings for Power Apps, Power Automate, Power Pages, Microsoft Copilot Studio, and Dynamics 365 apps",
+    "Useful for checking BC known issues and managing Copilot Credits and usage when using BC Agent features",
+    "Alternative access methods include direct URL, Microsoft 365 admin center, or via individual Power apps"
+  ],
+  "systems": [
+    "administration",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "admin center",
+    "navigation",
+    "power platform",
+    "copilot",
+    "environment management"
+  ],
+  "objects": [],
+  "features": [
+    "Power Platform admin center access",
+    "Support request routing",
+    "Copilot credits management",
+    "Known issues viewing",
+    "BC Agent administration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "if customers use the BC Agent features, they need to manage Copilot Credits/Usage.",
+      "why_it_matters": "Identifies a key use case for accessing Power Platform admin center from BC when using agent capabilities"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

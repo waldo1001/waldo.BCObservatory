@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/waldo-be/318731",
+  "url": "https://waldo.be/2026/10/24/bcobservatory-explore-all-business-central-knowledge-with-an-agent-and-more/",
+  "title": "BCObservatory: explore all Business Central knowledge with an agent .. and more",
+  "source": "waldo-be",
+  "published_at": "2026-10-24T10:20:41.000Z",
+  "words": 1657,
+  "summary": "BC Observatory is an unofficial knowledge map linking Business Central resources - Learn pages, code, videos, blogs, and roadmap items - to help AI agents find accurate information without guessing. It indexes 25,702 AL objects, 622 videos, 623 community posts, and other sources, accessible as an MCP server, website, and markdown files.",
+  "key_points": [
+    "AI agents need connected knowledge to avoid confidently providing wrong answers; BC Observatory links documentation, code, videos, and blogs with source attribution.",
+    "The system uses deterministic parsing for code and selective AI models for summaries and prose, with Opus as reviewer and trust tiers to show review state.",
+    "Users can install the BC Observatory MCP with npx on any agent platform, or use the website at waldo1001.github.io/waldo.BCObservatory with galaxy visualization and neighborhood views.",
+    "Learn MCP and BC Observatory serve different purposes: Learn for documented APIs, BC Observatory for code changes, hotfixes, community insights, and connecting disparate sources."
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "knowledge base",
+    "mcp server",
+    "al objects",
+    "documentation",
+    "ai agents",
+    "connected knowledge",
+    "code search"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "1886"
+    },
+    {
+      "type": "codeunit",
+      "name": "80"
+    }
+  ],
+  "features": [
+    "BC Observatory MCP server",
+    "Galaxy visualization",
+    "Neighborhood view",
+    "Coverage heatmap",
+    "Lean drift reporting",
+    "Weekly digests",
+    "Markdown twins",
+    "Trust tier and review state labels"
+  ],
+  "versions": [
+    "BC28",
+    "BC29",
+    "BC30"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The golden rule: deterministic first, models second. Code is parsed (tree-sitter), never summarized.",
+      "why_it_matters": "Shows the philosophy prioritizing accuracy through deterministic processing over AI-generated summaries."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007106,
+    "posts_in_call": 4
+  }
+}

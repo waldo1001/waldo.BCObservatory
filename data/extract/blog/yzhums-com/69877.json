@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/yzhums-com/69877",
+  "url": "https://yzhums.com/69877/",
+  "title": "Dynamics 365 Business Central Blog Series: Inspecting pages (Page inspection)",
+  "source": "yzhums-com",
+  "published_at": "2026-07-27T01:02:15.000Z",
+  "words": 692,
+  "summary": "Page inspection is a diagnostic tool in Dynamics 365 Business Central that enables users and developers to analyze page composition, performance issues, and access control. The post series covers multiple aspects including field highlighting, performance analysis, and controlling visibility of inspection details.",
+  "key_points": [
+    "Page inspection allows checking whether a page or report is standard or customized and viewing table field information",
+    "Performance issues can be analyzed using the page inspector to examine page composition and behavior",
+    "Access to page inspection details can be controlled and hidden selectively, including table fields, extensions, and filters",
+    "Field highlighting in page inspection helps quickly locate specific fields on a page",
+    "Page inspection pane is collapsible and shows filter information and text/code field sizes"
+  ],
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "page inspection",
+    "performance analysis",
+    "debugging",
+    "customization",
+    "access control",
+    "diagnostic tools"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Page Inspection"
+    }
+  ],
+  "features": [
+    "Page Inspection",
+    "Field Highlighting",
+    "Performance Analysis",
+    "Collapsible Inspection Pane",
+    "Access Control for Inspection Details",
+    "Filter Checking",
+    "Customization Detection",
+    "Visual Studio Code Debugging Integration"
+  ],
+  "versions": [
+    "BC18",
+    "BC21",
+    "BC23",
+    "2021 release wave 1",
+    "2022 release wave 2",
+    "2023 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "How to check whether the current page/report is standard or customized",
+      "why_it_matters": "Highlights a key capability to distinguish between built-in and modified objects"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

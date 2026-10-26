@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/yzhums-com/75265",
+  "url": "https://yzhums.com/75265/",
+  "title": "Dynamics 365 Business Central Blog Series: Query Object Examples & Use Cases",
+  "source": "yzhums-com",
+  "published_at": "2026-08-17T00:24:11.000Z",
+  "words": 784,
+  "summary": "Business Central query objects retrieve and combine data from one or more tables into rows and columns, supporting calculations like sums and averages. This series covers practical use cases for queries including data analysis, report creation, API development, and filtering.",
+  "key_points": [
+    "Query objects combine data from multiple tables into unified datasets and perform calculations",
+    "Queries can be used as data sources for pages, reports, and custom APIs",
+    "Query features include searching through Tell Me, duplicate detection, data grouping and pivoting, and JSON export",
+    "Built-in queries provide ad hoc analysis for fixed assets, projects, and services",
+    "Queries support tooltips and analysis modes for better data exploration"
+  ],
+  "systems": [
+    "development",
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "query object",
+    "data retrieval",
+    "calculations",
+    "report creation",
+    "api development",
+    "data analysis",
+    "filtering"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "Query (general reference)"
+    }
+  ],
+  "features": [
+    "Query calculations (sum, average)",
+    "Query as page data source",
+    "Query in report datasets",
+    "Custom API via Query",
+    "QueryCategory property",
+    "In-client Analysis mode",
+    "SaveAsJson on Query",
+    "Query column tooltips"
+  ],
+  "versions": [
+    "2020 wave 2",
+    "2023 wave 2",
+    "2024 wave 2",
+    "BC25"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Query objects can also perform calculations on data, such finding the sum or average of all values in a column of the dataset.",
+      "why_it_matters": "Highlights the analytical capabilities that make queries useful for data summarization and reporting."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

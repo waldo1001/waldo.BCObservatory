@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/yzhums-com/75007",
+  "url": "https://yzhums.com/75007/",
+  "title": "Dynamics 365 Business Central: How to check the font of a standard report",
+  "source": "yzhums-com",
+  "published_at": "2026-07-29T01:38:07.000Z",
+  "words": 223,
+  "summary": "Learn how to identify the font used in Business Central standard reports by exporting the report layout file. This technique applies to Word, RDLC, and Excel layouts and is useful when you need to match formatting or troubleshoot report appearance.",
+  "key_points": [
+    "Export report layouts through the request page using the three-dot menu next to Report Layout",
+    "Business Central servers have pre-installed fonts that cannot be customized with uploads for security and legal reasons",
+    "The same export method works for Word, RDLC, and Excel layout formats",
+    "You can also export layouts directly from the Report Layouts page if you know the Report ID or Name"
+  ],
+  "systems": [
+    "reporting"
+  ],
+  "topics": [
+    "report layout",
+    "fonts",
+    "export",
+    "standard reports",
+    "formatting"
+  ],
+  "objects": [],
+  "features": [
+    "Report Layout Export",
+    "RDLC Reports",
+    "Word Reports",
+    "Excel Reports"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "For security and legal reasons, you cannot upload custom fonts to the Business Central environment.",
+      "why_it_matters": "Explains the constraint that makes exporting and checking existing fonts necessary"
+    },
+    {
+      "text": "It's very simple. This example uses a Word layout, but you can use the exact same method for RDLC and Excel layouts.",
+      "why_it_matters": "Confirms the export method is consistent across all report layout types"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

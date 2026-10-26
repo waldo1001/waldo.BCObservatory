@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/yzhums-com/72040",
+  "url": "https://yzhums.com/72040/",
+  "title": "Dynamics 365 Business Central: How to quickly identify the first transaction date and the number of days since the last sale with a customer",
+  "source": "yzhums-com",
+  "published_at": "2026-07-17T01:49:49.000Z",
+  "words": 369,
+  "summary": "Business Central provides built-in fields to track a customer's first transaction date and calculate days since their last sale without custom code. Use the Customer Statistics page or extend the Customer List with standard fields like First Transaction Date and DaysSinceLastSale.",
+  "key_points": [
+    "First Transaction Date is a standard field in the Customer table (table 18) that shows when a customer made their first purchase",
+    "Days Since Last Sale automatically calculates the interval between the current work date and the customer's most recent sale posting date",
+    "Access this information via Customer > Statistics on the Customer List or Customer Card without writing code",
+    "You can add these fields to other pages like the Customer List using page extensions for easier visibility"
+  ],
+  "systems": [
+    "sales",
+    "crm"
+  ],
+  "topics": [
+    "customer insights",
+    "first transaction date",
+    "sales history",
+    "customer statistics",
+    "page extensions"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "page",
+      "name": "Customer Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Customer List"
+    }
+  ],
+  "features": [
+    "Customer Statistics",
+    "First Transaction Date",
+    "Days Since Last Sale",
+    "page extension"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You don't need complex customizations to gain deeper customer insights.",
+      "why_it_matters": "Establishes that standard Business Central functionality meets customer analysis needs without development effort"
+    },
+    {
+      "text": "The First Transaction Date field is a standard field in table 18 Customer.",
+      "why_it_matters": "Confirms the field exists natively, enabling reuse across pages without custom coding"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

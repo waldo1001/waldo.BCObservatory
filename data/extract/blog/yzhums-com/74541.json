@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/yzhums-com/74541",
+  "url": "https://yzhums.com/74541/",
+  "title": "Dynamics 365 Business Central: Upload, install, and manage PTEs in the admin center (Remove ability to upload and install PTEs from Extension Management page)",
+  "source": "yzhums-com",
+  "published_at": "2026-08-20T01:29:19.000Z",
+  "words": 890,
+  "summary": "Business Central 2026 wave 1 introduces PTE management in the admin center, allowing administrators to upload, install, and schedule per-tenant extensions directly through the Business Central Admin Center and its APIs instead of the Extension Management page. The original Extension Management page method will be deprecated in 2027 wave 1, requiring partners and customers to migrate their deployment workflows to the admin center for better governance and CI/CD integration.",
+  "key_points": [
+    "Administrators can now upload and manage PTEs directly from the Business Central Admin Center or via Admin Center API version 2.29",
+    "PTE management through the Extension Management page is being deprecated and will be removed in 2027 wave 1",
+    "Scheduled installations from the Admin Center and Extension Management page are not synchronized and only visible in the experience where they were created",
+    "Partners and customers should migrate deployment workflows and automation to the Admin Center or its API before the April 2027 deadline"
+  ],
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "pte management",
+    "admin center",
+    "extension lifecycle",
+    "deployment automation",
+    "deprecation"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Business Central Admin Center"
+    },
+    {
+      "type": "page",
+      "name": "Extension Management"
+    },
+    {
+      "type": "api",
+      "name": "Admin Center API"
+    }
+  ],
+  "features": [
+    "Upload per-tenant extensions in admin center",
+    "Schedule PTE installation and updates",
+    "Admin Center API for PTE management",
+    "PTE lifecycle management",
+    "Uninstall apps from Admin Center"
+  ],
+  "versions": [
+    "2026 wave 1",
+    "BC28.4",
+    "2027 wave 1",
+    "version 30.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Administrators can upload new PTEs, schedule their installation or update, and manage these operations directly through the Admin Center.",
+      "why_it_matters": "This explains the core new capability that replaces the previous Extension Management page workflow"
+    },
+    {
+      "text": "Scheduled PTE installations and updates are only visible in the experience where they were created, either the Admin Center or Extension Management.",
+      "why_it_matters": "This highlights a critical limitation during the transition period that administrators need to understand"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

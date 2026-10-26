@@ -7,7 +7,7 @@
   "url": "https://nataliekarolak.wordpress.com/2025/07/06/communication-weirdo/",
   "published_at": "2025-07-06T15:23:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T18:00:19.950Z"
@@ -16,12 +16,30 @@
       "at": "2026-10-25T18:00:42.192Z",
       "path": "vault:posts/nataliekarolak-com/3377.md",
       "words": 1090
+    },
+    "extracted": {
+      "at": "2026-10-26T05:32:04.739Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.007106
+    },
+    "summarized": {
+      "at": "2026-10-26T05:32:04.771Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-26T05:32:04.772Z"
+    },
+    "published": {
+      "at": "2026-10-26T05:32:04.780Z",
+      "path": "content/posts/nataliekarolak-com/3377.md"
     }
   },
   "input_hash": "2025-07-06T16:36:18.000Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "model returned no entry for this post",
-  "retry_after": "2026-10-25T20:17:36.488Z",
-  "output_hash": "06150eb51cb4deddee0dc623b39b5bc77219ed1a82b09f87a2afe6f4feec4879"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3f8aeb51698569835a18302c8f24ab8a064da933d3088588db7995608917c511"
 }

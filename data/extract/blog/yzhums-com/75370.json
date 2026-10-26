@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/75370",
+  "url": "https://yzhums.com/75370/",
+  "title": "Dynamics 365 Business Central: Database exports are now significantly faster and more reliable",
+  "source": "yzhums-com",
+  "published_at": "2026-08-21T01:37:54.000Z",
+  "words": 674,
+  "summary": "Business Central 2026 wave 1 introduces significantly faster and more reliable database exports with failure rates below 1% for large environments. The dedicated Export History page is replaced with tracking via the Operations page, and administrators should migrate APIs to use the environment Operations endpoints.",
+  "key_points": [
+    "Database exports are now significantly faster and more reliable with failure rates below 1%",
+    "Export History page is being removed; export progress tracking moves to the Operations page",
+    "Admin Center APIs for export history must migrate to environment Operations endpoints",
+    "BACPAC files are exported to Azure storage containers via Admin Center"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database exports",
+    "bacpac",
+    "admin center",
+    "operations",
+    "azure storage",
+    "business central online"
+  ],
+  "objects": [],
+  "features": [
+    "database export",
+    "operations page",
+    "admin center apis",
+    "failure tracking",
+    "diagnostic information"
+  ],
+  "versions": [
+    "2026 wave 1",
+    "BC28.4"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "database exports are now significantly faster and more reliable, with a failure rate below 1%",
+      "why_it_matters": "This shows the key improvement that directly impacts administrators managing SaaS environments"
+    },
+    {
+      "text": "export progress can now be tracked from the Operations page, alongside other environment operations",
+      "why_it_matters": "This indicates the architectural change admins need to adopt for monitoring exports"
+    },
+    {
+      "text": "If you're using Admin Center APIs to get database export history, please migrate to the environment Operations endpoints instead",
+      "why_it_matters": "This is an actionable requirement for API users to update their integration code"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

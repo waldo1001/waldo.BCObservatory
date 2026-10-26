@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/yzhums-com/75350",
+  "url": "https://yzhums.com/75350/",
+  "title": "Dynamics 365 Business Central: Build and Embed a Custom Mini Widget (Weather, Currency, World Clock, and more) into Role Center",
+  "source": "yzhums-com",
+  "published_at": "2026-08-25T01:51:41.000Z",
+  "words": 205,
+  "summary": "This post explains how to build a custom mini widget control add-in for Business Central that displays features like weather, currency, and world clock in the role center. It covers the required setup including enabling HttpClient requests and geolocation permissions.",
+  "key_points": [
+    "Custom mini widget can be embedded into Business Central role center with multiple features",
+    "Weather feature uses Codeunit 7568 Geolocation to retrieve client device location",
+    "HttpClient requests must be enabled in extension target settings",
+    "Location permission from client device is required for geolocation functionality",
+    "Source code is provided as reference for customization"
+  ],
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "custom widget",
+    "control add-in",
+    "role center",
+    "javascript",
+    "geolocation",
+    "httpclient"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "7568 Geolocation"
+    }
+  ],
+  "features": [
+    "custom mini widget",
+    "weather feature",
+    "currency display",
+    "world clock",
+    "javascript control add-in",
+    "role center customization"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Since this add-in retrieves data via external APIs, you need to enable 'Allow HttpClient Requests' in the extension target setting before using it.",
+      "why_it_matters": "Critical prerequisite for the widget to function properly with external data sources"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004667,
+    "posts_in_call": 1
+  }
+}

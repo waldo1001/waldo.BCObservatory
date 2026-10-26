@@ -1,0 +1,85 @@
+{
+  "item_id": "blog/yzhums-com/75164",
+  "url": "https://yzhums.com/75164/",
+  "title": "Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries",
+  "source": "yzhums-com",
+  "published_at": "2026-08-12T02:17:05.000Z",
+  "words": 586,
+  "summary": "The post explains how to distinguish between positive and negative adjustments created from Item Journals versus Physical Inventory Journals in Item Ledger Entries. It describes the workflows for both journals and shows that Physical Inventory Journals create corresponding Physical Inventory Ledger Entries while Item Journals do not, plus provides customization code using FlowFields to display source codes for differentiation.",
+  "key_points": [
+    "Item Journals post inventory adjustments directly without documents, while Physical Inventory Journals reconcile system inventory with actual warehouse stock",
+    "Item Ledger Entries from both sources look identical without examining related data like Document No. or Source Code",
+    "Physical Inventory Journals automatically generate Physical Inventory Ledger Entries; Item Journals do not",
+    "Source Code field in Item Registers can distinguish the origin, viewable via Analysis Mode or by adding a FlowField customization to Item Ledger Entries"
+  ],
+  "systems": [
+    "inventory",
+    "warehouse",
+    "administration"
+  ],
+  "topics": [
+    "item ledger entries",
+    "physical inventory",
+    "adjustments",
+    "inventory reconciliation",
+    "source code",
+    "analysis mode"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Journals"
+    },
+    {
+      "type": "page",
+      "name": "Physical Inventory Journals"
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item Register"
+    },
+    {
+      "type": "page",
+      "name": "Physical Inventory Ledger Entries"
+    }
+  ],
+  "features": [
+    "Item Journals",
+    "Physical Inventory Journals",
+    "Item Ledger Entries",
+    "Physical Inventory Ledger Entries",
+    "Calculate Inventory",
+    "Analysis Mode",
+    "Source Code tracking"
+  ],
+  "versions": [
+    "Business Central 2025 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Posting Physical Inventory Journals doesn't just generate Item Ledger Entries - it also creates Physical Inventory Ledger Entries.",
+      "why_it_matters": "This is the key distinguishing characteristic between the two journal types that allows users to identify their source."
+    },
+    {
+      "text": "Even if you open the table directly, you still can't tell the difference.",
+      "why_it_matters": "Explains why a workaround or customization is necessary to distinguish between the two adjustment sources."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

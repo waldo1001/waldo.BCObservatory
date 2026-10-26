@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/yzhums-com/74649",
+  "url": "https://yzhums.com/74649/",
+  "title": "Business Central 2026 release wave 1 (BC28): Show Currency Symbol/Code and Currency Symbol Position",
+  "source": "yzhums-com",
+  "published_at": "2026-07-10T01:04:35.000Z",
+  "words": 476,
+  "summary": "Business Central 2026 wave 1 introduces Show Currency Symbol/Code and Currency Symbol Position settings on the General Ledger Setup and Currencies pages. These new features allow organizations to display currency symbols or codes in amount fields throughout the system with flexible placement options before or after amounts.",
+  "key_points": [
+    "Two new settings added to General Ledger Setup: Show Currency (controls whether symbols/codes appear for LCY or FCY) and Currency Symbol Position (placement relative to amount)",
+    "Currency Symbol Position setting also added to Currencies page for foreign currency configuration",
+    "LCY formatting is controlled globally from General Ledger Setup, while FCY formatting is configured individually for each currency record",
+    "Currency symbol position settings automatically apply to all amount fields throughout the system once configured"
+  ],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "currency",
+    "localization",
+    "general ledger",
+    "display formatting",
+    "regional settings"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Currencies"
+    }
+  ],
+  "features": [
+    "Show Currency Symbol/Code",
+    "Currency Symbol Position",
+    "Foreign Currency Display",
+    "Local Currency Configuration"
+  ],
+  "versions": [
+    "BC28.3",
+    "BC28",
+    "BC27.5"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "We can now show the currency code or symbol in amount fields, including flexible placement options.",
+      "why_it_matters": "This is the core capability introduced - allowing organizations to customize how currency information appears in their system across all amount fields."
+    },
+    {
+      "text": "For any foreign currencies (FCY), the symbol position must be configured specifically within each record on the Currencies page.",
+      "why_it_matters": "This explains the key difference in configuration approach: LCY is global while FCY requires individual currency record setup."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

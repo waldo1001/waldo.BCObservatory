@@ -7,7 +7,7 @@
   "url": "https://vjeko.com/2026/05/28/the-lump-of-labour-fallacy-fallacy/",
   "published_at": "2026-05-28T21:17:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T16:55:04.528Z"
@@ -16,12 +16,30 @@
       "at": "2026-10-25T16:55:37.387Z",
       "path": "vault:posts/vjeko-com/https-vjeko-com-2026-05-28-the-lump-of-labour-fallacy-fallacy--f782761543.md",
       "words": 1732
+    },
+    "extracted": {
+      "at": "2026-10-26T05:32:04.735Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.007106
+    },
+    "summarized": {
+      "at": "2026-10-26T05:32:04.749Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-26T05:32:04.750Z"
+    },
+    "published": {
+      "at": "2026-10-26T05:32:04.760Z",
+      "path": "content/posts/vjeko-com/https-vjeko-com-2026-05-28-the-lump-of-labour-fallacy-fallacy--f782761543.md"
     }
   },
   "input_hash": null,
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "model returned no entry for this post",
-  "retry_after": "2026-10-25T18:55:44.984Z",
-  "output_hash": "0ac1161040695f067a37b83908b816bc2b28fcfbbbb0dbc9089e7d37f35096c9"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0800fcc3d2a4023f3a5b94c83776ba66c1b9c52b9e831efa1cc734ac4e6456a2"
 }

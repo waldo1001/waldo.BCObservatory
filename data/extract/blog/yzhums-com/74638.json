@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/yzhums-com/74638",
+  "url": "https://yzhums.com/74638/",
+  "title": "Dynamics 365 Business Central: Don’t Forget the Layout! Essential Steps for Publishing Report Extensions",
+  "source": "yzhums-com",
+  "published_at": "2026-07-21T01:39:33.000Z",
+  "words": 421,
+  "summary": "Report extensions in Business Central allow developers to add columns, data items, triggers, and layouts to existing reports. Instead of manually uploading layout files in the client, developers should include layout files in their source code and use the rendering section in the AL object to manage them alongside their code.",
+  "key_points": [
+    "Report extensions let you extend existing reports by adding columns, data items, triggers, request pages, and new layouts",
+    "The rendering section (available from BC20) allows specifying multiple named layouts in the AL object, with one set as default",
+    "Layout files should be stored in a Layouts folder in source code and referenced in the rendering section, not manually uploaded after deployment",
+    "Once published via the rendering section, layouts appear on the Report Layouts page with their extension association shown",
+    "Layouts created directly on the Report Layouts page lack extension association and won't auto-publish when code updates"
+  ],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "report extensions",
+    "layout files",
+    "rendering section",
+    "source code management",
+    "best practices"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Report Extension"
+    }
+  ],
+  "features": [
+    "Report Extensions",
+    "Multiple Named Layouts",
+    "Rendering Section",
+    "Layout File Management",
+    "Request Page Extension",
+    "Data Item Extension"
+  ],
+  "versions": [
+    "BC20",
+    "2022 wave 1"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/yzhums-com/75344",
+  "url": "https://yzhums.com/75344/",
+  "title": "Dynamics 365 Business Central: Suggested Abbreviations",
+  "source": "yzhums-com",
+  "published_at": "2026-08-24T00:28:01.000Z",
+  "words": 634,
+  "summary": "Reference guide listing standard abbreviations for Dynamics 365 Business Central object types, word abbreviations used in naming conventions, and financial/time period abbreviations. Useful when developing or documenting AL code to follow Microsoft naming conventions.",
+  "key_points": [
+    "Object types have abbreviations like Page, Codeunit, Table, Query, and Report for file naming",
+    "Common words in Dynamics 365 have standardized short forms such as Cust for customer, Inv for invoice, and Whse for warehouse",
+    "Financial metrics and time periods use abbreviations like YTD (Year to Date), PY (Previous Year), and FY (Fiscal Year)",
+    "Following these conventions ensures consistency across development and documentation in Business Central"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "naming conventions",
+    "abbreviations",
+    "al development",
+    "code standards",
+    "documentation"
+  ],
+  "objects": [],
+  "features": [
+    "AL object naming conventions",
+    "standardized abbreviations",
+    "naming best practices"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Use the listed abbreviations for each type of object in the file naming",
+      "why_it_matters": "Establishes the standard for consistent AL object naming across Business Central development"
+    },
+    {
+      "text": "I have re-compiled the list here, and I hope this serves as a helpful reference for anyone in need",
+      "why_it_matters": "The post recreates a previously unavailable Microsoft abbreviations guide, making it a practical resource for developers"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

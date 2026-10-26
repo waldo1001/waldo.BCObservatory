@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/75073",
+  "url": "https://yzhums.com/75073/",
+  "title": "Dynamics 365 Business Central: How to add a Signature Pad to the Sales Order page (Capture and Save Customer Signatures)",
+  "source": "yzhums-com",
+  "published_at": "2026-08-04T02:20:11.000Z",
+  "words": 386,
+  "summary": "Adding a signature pad to the Sales Order page in Business Central using control add-in objects allows customers to sign digitally and save signatures directly within the system. The post demonstrates a real-world implementation using public JavaScript libraries from CDN.",
+  "key_points": [
+    "Control add-in objects integrate external JavaScript libraries like signature_pad from CDN or cdnjs into Business Central",
+    "Customer Delivery Signature group enables users to write by hand, clear mistakes, and save signatures",
+    "Customer Signature Preview Factbox stores and displays saved signatures with delete functionality",
+    "Feature works across Web Client, Tablet, and Phone clients without additional customization"
+  ],
+  "systems": [
+    "sales",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "control add-in",
+    "signature capture",
+    "sales order customization",
+    "digital signing",
+    "javascript libraries"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "signature_pad"
+    }
+  ],
+  "features": [
+    "Signature Pad Integration",
+    "Digital Customer Signatures",
+    "Control Add-in Objects",
+    "Customer Delivery Signature Group",
+    "Customer Signature Preview Factbox",
+    "Clear Signature Action",
+    "Signature Storage and Retrieval"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Unlike the calculator we looked at before, we can find this directly in public JS libraries, such as in CDN or cdnjs",
+      "why_it_matters": "Shows how to leverage existing open-source JavaScript libraries for control add-in development without building from scratch"
+    },
+    {
+      "text": "This is not limited to the Web Client; it can also be used on the Tablet and Phone clients.",
+      "why_it_matters": "Indicates cross-client compatibility extends the feature's usability across multiple platforms"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

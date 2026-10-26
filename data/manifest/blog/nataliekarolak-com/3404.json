@@ -7,7 +7,7 @@
   "url": "https://nataliekarolak.wordpress.com/2026/02/17/hello-linkedin/",
   "published_at": "2026-02-17T12:21:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T18:00:19.950Z"
@@ -16,12 +16,30 @@
       "at": "2026-10-25T18:00:37.253Z",
       "path": "vault:posts/nataliekarolak-com/3404.md",
       "words": 327
+    },
+    "extracted": {
+      "at": "2026-10-26T05:32:04.737Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.007106
+    },
+    "summarized": {
+      "at": "2026-10-26T05:32:04.762Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-26T05:32:04.763Z"
+    },
+    "published": {
+      "at": "2026-10-26T05:32:04.770Z",
+      "path": "content/posts/nataliekarolak-com/3404.md"
     }
   },
   "input_hash": "2026-02-18T08:35:57.000Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "model returned no entry for this post",
-  "retry_after": "2026-10-25T20:00:46.676Z",
-  "output_hash": "f6f819f3d76d63bd69f8116a5ceefdb9947cc4947862a1940cfd3edc2683b202"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d1f0595a73b936bd70699f47c12e26d43ae53e5c9d982b58b2f370be749fcdf7"
 }

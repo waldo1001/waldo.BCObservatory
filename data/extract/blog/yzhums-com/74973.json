@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/yzhums-com/74973",
+  "url": "https://yzhums.com/74973/",
+  "title": "Dynamics 365 Business Central: How to add a setup to the Manual Setup (1875, List) page",
+  "source": "yzhums-com",
+  "published_at": "2026-07-31T01:57:57.000Z",
+  "words": 372,
+  "summary": "This post explains how to add a custom setup page to the Manual Setup page in Business Central using the Guided Experience codeunit and the OnRegisterManualSetup event. It helps developers extend the setup experience when creating custom extensions.",
+  "key_points": [
+    "Use the Codeunit 'Guided Experience' to manage guided experience items that users can access",
+    "Subscribe to the OnRegisterManualSetup event to add new manual setups to the Manual Setup page",
+    "Use the InsertManualSetup method to register a custom setup with title, description, and target page",
+    "Check if a setup already exists before inserting to avoid duplicates"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "setup",
+    "guided experience",
+    "manual setup",
+    "extension",
+    "codeunit",
+    "event subscriber"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Manual Setup"
+    },
+    {
+      "type": "page",
+      "name": "Assisted Setup"
+    },
+    {
+      "type": "codeunit",
+      "name": "Guided Experience"
+    }
+  ],
+  "features": [
+    "Manual Setup page",
+    "Assisted Setup guides",
+    "Guided Experience management",
+    "Manual setup registration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The Manual Setup section provides access to setup pages where you can fill in setup fields for all areas manually.",
+      "why_it_matters": "Clarifies the purpose of the Manual Setup page as a central location for configuration in Business Central"
+    },
+    {
+      "text": "OnRegisterManualSetup: The event that is raised so that subscribers can add the new manual setups that can be displayed in the Manual Setup page.",
+      "why_it_matters": "Points to the specific event developers must subscribe to for adding custom setups"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

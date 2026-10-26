@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/yzhums-com/74523",
+  "url": "https://yzhums.com/74523/",
+  "title": "Dynamics 365 Business Central Blog Series: Item Attributes",
+  "source": "yzhums-com",
+  "published_at": "2026-07-13T07:57:38.000Z",
+  "words": 394,
+  "summary": "A blog series covering item attributes in Business Central, including how to display them on pages, add factboxes to ledger entries and sales orders, bulk edit attributes, define attributes for variants, and filter by attributes.",
+  "key_points": [
+    "Item attributes can be displayed on various pages like Item List and Item Ledger Entries using the Item Attributes Factbox (9110)",
+    "Attributes can be added to sales orders and other document pages, though with certain limitations",
+    "Bulk operations allow editing attributes for multiple items simultaneously",
+    "Item attributes can be defined for item variants starting in Business Central 2026 release wave 1",
+    "Filtering by item attributes on ledger entry pages enables attribute-based data organization"
+  ],
+  "systems": [
+    "inventory",
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "item attributes",
+    "factbox",
+    "page customization",
+    "item variants",
+    "bulk operations",
+    "filtering"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Attributes Factbox"
+    },
+    {
+      "type": "page",
+      "name": "Item List"
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    }
+  ],
+  "features": [
+    "Item Attributes",
+    "Item Attributes Factbox",
+    "Item Variants",
+    "Bulk Edit Attributes",
+    "Filter by Attributes",
+    "Page Customization"
+  ],
+  "versions": [
+    "Business Central 2026 release wave 1 (BC28)"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

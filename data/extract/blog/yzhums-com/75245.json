@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/yzhums-com/75245",
+  "url": "https://yzhums.com/75245/",
+  "title": "Business Central 2026 release wave 1 (BC28.4): Speed up processing with Known Senders in Payables Agent",
+  "source": "yzhums-com",
+  "published_at": "2026-08-13T02:16:47.000Z",
+  "words": 602,
+  "summary": "Business Central 2026 Wave 1 introduces Known Senders in the Payables Agent, allowing administrators to define trusted email senders so invoices from them can be processed automatically without manual approval. This feature reduces manual intervention while maintaining oversight of unverified sources.",
+  "key_points": [
+    "Known Senders feature lets accounts payable teams skip approval for invoices from trusted vendors, improving processing speed",
+    "Email review policy offers three options: Always require approval, Never require approval, or Only if untrusted (recommended)",
+    "Administrators can assign per-sender policies: Ask (requires approval), Approve (processes automatically), or Reject (blocks sender)",
+    "The system automatically adds senders to the Known Senders list after an email is reviewed and approved, with security telemetry logging"
+  ],
+  "systems": [
+    "purchasing",
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "payables agent",
+    "email automation",
+    "vendor invoices",
+    "approval workflow",
+    "trust management"
+  ],
+  "objects": [],
+  "features": [
+    "Known Senders list",
+    "Email review policy",
+    "Payables Agent",
+    "Invoice processing automation",
+    "Sender trust management"
+  ],
+  "versions": [
+    "BC28.4",
+    "2026 wave 1",
+    "August 2026 minor release"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Only emails from senders who aren't on the list of known senders require review. This is the recommended setting for most organizations.",
+      "why_it_matters": "It identifies the recommended configuration that enables autonomous processing while maintaining security"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

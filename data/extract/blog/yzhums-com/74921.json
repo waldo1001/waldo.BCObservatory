@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/yzhums-com/74921",
+  "url": "https://yzhums.com/74921/",
+  "title": "Dynamics 365 Business Central: Configure text search language for multilingual environments (Text Search Language Optimizer)",
+  "source": "yzhums-com",
+  "published_at": "2026-07-23T01:47:05.000Z",
+  "words": 422,
+  "summary": "Text search language optimization in Business Central allows you to configure the search index for multilingual environments by selecting a primary data language. This improves search relevance and AI agent accuracy, though it requires reindexing all searchable data which should be done outside business hours.",
+  "key_points": [
+    "Text search language optimization improves search result relevance when data is primarily in one language",
+    "The setting applies environment-wide and affects all users and AI agents like Sales Order Agent",
+    "Changing the language triggers a complete reindex of searchable data, which can take significant time depending on database size",
+    "New and updated data uses the new language setting immediately, but existing data reindexing happens as a background process"
+  ],
+  "systems": [
+    "platform",
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "search",
+    "multilingual",
+    "configuration",
+    "performance",
+    "ai agents",
+    "indexing"
+  ],
+  "objects": [],
+  "features": [
+    "Text Search Language Optimizer",
+    "advanced search",
+    "modern search indexing",
+    "multilingual support"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This optimization improves the relevance of search results for users who search in that language.",
+      "why_it_matters": "Explains the core benefit of configuring text search language for better search results in multilingual environments"
+    },
+    {
+      "text": "We recommend that you make this change outside of business hours to minimize the impact on users.",
+      "why_it_matters": "Critical operational guidance for implementing this feature without disrupting user access"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/yzhums-com/74940",
+  "url": "https://yzhums.com/74940/",
+  "title": "Dynamics 365 Business Central: Searches for duplicate external document numbers in sales documents and posted documents (Standard function/procedure)",
+  "source": "yzhums-com",
+  "published_at": "2026-07-24T01:34:46.000Z",
+  "words": 331,
+  "summary": "Business Central provides a standard method to search for duplicate external document numbers in sales documents and posted documents. The SearchForExternalDocNo procedure in codeunit 1302 validates duplicates for the same customer, though it only checks within individual customer records rather than across all customers.",
+  "key_points": [
+    "Standard function SearchForExternalDocNo in codeunit 1302 detects duplicate external document numbers",
+    "Checks both unposted sales headers and posted sales invoices or credit memos",
+    "Validation is limited to duplicates within the same customer, not across all customers",
+    "Returns true if duplicate found, false otherwise"
+  ],
+  "systems": [
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "external document numbers",
+    "duplicate validation",
+    "sales documents",
+    "standard functions",
+    "customization"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Customer Mgt."
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Cr. Memo Header"
+    }
+  ],
+  "features": [
+    "external document number validation",
+    "duplicate detection",
+    "sales order processing",
+    "invoice management",
+    "credit memo processing"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central does not validate whether external document numbers are unique or duplicated.",
+      "why_it_matters": "Explains why implementing duplicate detection requires either standard procedures or customization"
+    },
+    {
+      "text": "this standard method has a limitation: it only checks for duplicate External Document No. for the same customer",
+      "why_it_matters": "Important constraint for developers to understand when implementing validation logic"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

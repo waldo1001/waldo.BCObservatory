@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/yzhums-com/74703",
+  "url": "https://yzhums.com/74703/",
+  "title": "Business Central 2026 release wave 1 (BC28): Copilot and agent data movement across geographies",
+  "source": "yzhums-com",
+  "published_at": "2026-07-14T00:39:48.000Z",
+  "words": 1167,
+  "summary": "Business Central 2026 wave 1 (BC28) introduces controls for managing Copilot and agent data movement across Azure geographies. Starting July 1, 2026, environments may process AI requests outside their primary data residency region, with consent managed via the Copilot & agent capabilities page.",
+  "key_points": [
+    "Copilot requires Azure OpenAI Service which only exists in specific regions, potentially requiring cross-geography data movement",
+    "Admins can control data movement consent on the Copilot & agent capabilities page; disabled consent blocks Copilot availability",
+    "Data stays within primary regions only for US-hosted environments; EU and other regions require cross-geography processing",
+    "Three independent geographic concepts exist: Business Central country/region (localization), Azure data residency (business data location), and Azure OpenAI geography (AI processing location)",
+    "Prompts and outputs may move outside geography to Azure OpenAI endpoints; Microsoft stores data up to 24 hours for abuse monitoring but doesn't use it for model training"
+  ],
+  "systems": [
+    "copilot",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "copilot",
+    "agent data",
+    "data movement",
+    "geographies",
+    "data residency",
+    "azure openai",
+    "compliance",
+    "consent management"
+  ],
+  "objects": [],
+  "features": [
+    "Copilot and agent data movement",
+    "Copilot & agent capabilities page",
+    "Allow data movement toggle",
+    "Cross-geography data processing",
+    "Abuse monitoring",
+    "Agent features"
+  ],
+  "versions": [
+    "2026 wave 1",
+    "BC28",
+    "BC28.3",
+    "version 28.0 or later"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

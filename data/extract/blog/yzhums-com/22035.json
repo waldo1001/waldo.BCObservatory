@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/22035",
+  "url": "https://yzhums.com/22035/",
+  "title": "Dynamics 365 Business Central: Do users really need permissions for Temporary Tables? (Permissions and temporary tables)",
+  "source": "yzhums-com",
+  "published_at": "2026-08-06T01:22:33.000Z",
+  "words": 504,
+  "summary": "Temporary tables in Dynamics 365 Business Central do not require Table Data permissions because their data exists only in memory. Users need Execute permission on the Table object and Read permission on Table Data for regular tables to open a page, but temporary tables bypass the Table Data permission requirement.",
+  "key_points": [
+    "Temporary tables are stored only in memory and do not modify the database, so they do not require Table Data permissions",
+    "To open a page in Business Central, users typically need three permission types: Table Data, Table object, and Page",
+    "Table Data permissions control access to data (Read, Insert, Modify, Delete), while Table object permissions control access to the object definition (Execute only)",
+    "Setting SourceTableTemporary property to true on a page allows users without Table Data permissions to create, read, modify, and delete records"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "permissions",
+    "temporary tables",
+    "table data",
+    "access control",
+    "page configuration"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Payment Method"
+    },
+    {
+      "type": "page",
+      "name": "Payment Methods"
+    }
+  ],
+  "features": [
+    "Table Data permissions",
+    "Table object permissions",
+    "Page permissions",
+    "SourceTableTemporary property",
+    "Permission system"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "To open a page, you need at least three types of permissions: Table Data, Table, and Page.",
+      "why_it_matters": "This establishes the foundational permission structure needed for basic page access in Business Central."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

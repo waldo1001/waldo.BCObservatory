@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/yzhums-com/74975",
+  "url": "https://yzhums.com/74975/",
+  "title": "Dynamics 365 Business Central: Add a calculator to the sales order page",
+  "source": "yzhums-com",
+  "published_at": "2026-07-28T01:37:45.000Z",
+  "words": 821,
+  "summary": "This post explains how to add a calculator control to the sales order page in Business Central using control add-in objects built with AL and JavaScript. It covers built-in calculation features, control add-in architecture, dimension properties, scripting options, and integration into pages.",
+  "key_points": [
+    "Business Central natively supports inline calculations in fields using formulas like 19+19 or 12*4, but adding a dedicated calculator requires control add-in objects",
+    "Control add-ins are custom visual elements created with AL code and JavaScript that can exchange data and respond to user interactions",
+    "Control add-ins use Iframe elements and support dimension properties like RequestedHeight, MinimumWidth, MaximumHeight, and stretch/shrink behaviors",
+    "Scripts can be loaded locally from the extension or externally via HTTP(S), with separate startup, recreation, and refresh scripts available",
+    "Control add-ins are inserted into pages using the usercontrol keyword and can be embedded in factboxes or other page elements"
+  ],
+  "systems": [
+    "development",
+    "sales"
+  ],
+  "topics": [
+    "control add-in",
+    "javascript",
+    "al code",
+    "user interface",
+    "custom controls",
+    "page development"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "control add-in"
+    }
+  ],
+  "features": [
+    "control add-in objects",
+    "JavaScript integration",
+    "inline field calculations",
+    "custom visual controls",
+    "Iframe rendering",
+    "dynamic styling with CSS",
+    "external script loading",
+    "usercontrol keyword"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A control add-in object is created with the use of AL code and JavaScript.",
+      "why_it_matters": "Explains the core technical approach to building custom UI components beyond native AL capabilities"
+    },
+    {
+      "text": "Standard Business Central already includes calculation features, but it requires you to input formulas directly into the fields.",
+      "why_it_matters": "Establishes why a dedicated calculator add-in is needed despite existing calculation support"
+    },
+    {
+      "text": "For each control add-in, Business Central will generate an Iframe element, where it will dynamically load the control.",
+      "why_it_matters": "Clarifies the technical implementation architecture of how custom controls are rendered in the client"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
