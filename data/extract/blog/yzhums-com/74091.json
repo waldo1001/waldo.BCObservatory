@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/yzhums-com/74091",
+  "url": "https://yzhums.com/74091/",
+  "title": "Dynamics 365 Business Central: How to quickly create Production Orders from Sales Orders",
+  "source": "yzhums-com",
+  "published_at": "2026-06-24T01:11:09.000Z",
+  "words": 426,
+  "summary": "Production orders can be created directly from sales orders in Business Central by using the Sales Order Planning page and selecting the Create Prod. Order action. The feature requires the Replenishment System field on the item card to be set to Prod. Order, and supports two order creation modes: Item Order (one per item) or Project Order (multiline for all items).",
+  "key_points": [
+    "Access production order creation through the Planning action on a sales order, then use Create Prod. Order",
+    "Item Order mode creates one production order per item line; Project Order mode creates a single multiline order for all items",
+    "The Replenishment System field on the item card must be set to Prod. Order; other values cause an error",
+    "Order-to-order links are automatically applied, preventing the planning system from including linked supply or inventory in balancing"
+  ],
+  "systems": [
+    "manufacturing",
+    "sales"
+  ],
+  "topics": [
+    "production orders",
+    "sales orders",
+    "replenishment",
+    "item configuration",
+    "order planning"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Order Planning"
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Order Planning"
+    }
+  ],
+  "features": [
+    "Create Production Orders from Sales Orders",
+    "Sales Order Planning",
+    "Item Replenishment System",
+    "Order-to-order links",
+    "Project Order mode",
+    "Item Order mode"
+  ],
+  "versions": [
+    "Business Central 2026 release wave 1 (BC28)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can create production orders for produced items directly from sales orders.",
+      "why_it_matters": "States the core capability that enables manufacturing planning directly from customer demand"
+    },
+    {
+      "text": "The Replenishment System on the Item Card must be set to Prod. Order.",
+      "why_it_matters": "Critical prerequisite for the feature to work; missing this causes the process to fail"
+    },
+    {
+      "text": "When order-to-order links exist, the planning system doesn't include linked supply or inventory in the balancing procedure.",
+      "why_it_matters": "Explains how the system prevents double-counting of supply when production orders are linked to sales orders"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

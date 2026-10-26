@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/74106",
+  "url": "https://yzhums.com/74106/",
+  "title": "Dynamics 365 Business Central: How to create a new item from a picture/image (Out-of-the-Box)",
+  "source": "yzhums-com",
+  "published_at": "2026-06-09T01:22:42.000Z",
+  "words": 559,
+  "summary": "Business Central allows users to create new items directly from pictures using the out-of-the-box 'New from picture' action on the Items page. The system automatically analyzes the uploaded image, suggests an appropriate item category and template, and populates item attributes, then creates the item with the picture attached.",
+  "key_points": [
+    "Click the down arrow next to New on the Items page to access the 'New from picture' action",
+    "The system automatically analyzes the uploaded picture to suggest the most suitable category and template",
+    "Item attributes are populated automatically based on the image analysis and selected template",
+    "The item picture and auto-generated description are added automatically to the new item card"
+  ],
+  "systems": [
+    "inventory"
+  ],
+  "topics": [
+    "items",
+    "item creation",
+    "pictures",
+    "images",
+    "templates",
+    "categories",
+    "attributes"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Select a template for a new item"
+    }
+  ],
+  "features": [
+    "New from picture action",
+    "Item templates",
+    "Item categories",
+    "Item attributes",
+    "Image upload and analysis",
+    "Auto-population of item details"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "We can actually create an item directly from a picture/image.",
+      "why_it_matters": "This highlights the key feature being discussed - an alternative method to create items beyond the standard template approach."
+    },
+    {
+      "text": "The system will automatically select the most suitable Category based on the image and suggest a Template to apply.",
+      "why_it_matters": "This explains the core automation benefit of the feature that saves time and reduces manual data entry."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

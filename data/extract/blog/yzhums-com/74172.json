@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/yzhums-com/74172",
+  "url": "https://yzhums.com/74172/",
+  "title": "Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order",
+  "source": "yzhums-com",
+  "published_at": "2026-06-25T05:48:54.000Z",
+  "words": 723,
+  "summary": "This post explains how to pass custom field values from Sales Orders to Production Orders using event subscribers in Codeunit 99000792. It demonstrates two events for header-to-header and line-to-line field mapping with complete AL code examples including table and page extensions.",
+  "key_points": [
+    "Use event OnAfterCreateProdOrderFromSalesLine to pass values from Sales Header to Production Order header",
+    "Use event OnCreateProductionOrderOnBeforeProdOrderLineModify to pass values from Sales Line to Production Order Line",
+    "Extend both source (Sales Header/Line) and target (Production Order/Line) tables to add custom fields",
+    "Subscribe to standard events without modifying core codeunit logic"
+  ],
+  "systems": [
+    "manufacturing",
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "custom fields",
+    "event subscribers",
+    "sales to production order flow",
+    "table extensions",
+    "page extensions"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Create Prod. Order from Sale"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Production Order"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Line"
+    }
+  ],
+  "features": [
+    "Production Order creation from Sales Order",
+    "Event-based customization",
+    "Custom field mapping",
+    "Item Order and Project Order types"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

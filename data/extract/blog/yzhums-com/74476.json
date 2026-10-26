@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/yzhums-com/74476",
+  "url": "https://yzhums.com/74476/",
+  "title": "Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page",
+  "source": "yzhums-com",
+  "published_at": "2026-07-02T01:39:10.000Z",
+  "words": 374,
+  "summary": "Item attributes allow businesses to assign and search items by characteristics like height and model year. This post shows how to extend the Item Ledger Entries page with the Item Attributes Factbox using a page extension and the LoadItemAttributesData method triggered on record changes.",
+  "key_points": [
+    "Item attributes enable storing and filtering items by customer-relevant characteristics",
+    "The Item Attributes Factbox is a standard list part (9110) included on Item Card and Item List pages",
+    "To add the factbox to other pages, use a page extension with the OnAfterGetCurrRecord trigger to call LoadItemAttributesData",
+    "The factbox calculation happens dynamically in the trigger rather than through SubPageLink property"
+  ],
+  "systems": [
+    "inventory",
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "item attributes",
+    "factbox",
+    "page extension",
+    "item ledger entries",
+    "item search"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Attributes Factbox"
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Item Attributes"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Item List"
+    }
+  ],
+  "features": [
+    "Item Attributes",
+    "Item Attributes Factbox",
+    "Page Extensions",
+    "Item Search and Filtering",
+    "Item Ledger Entries"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "CurrPage.ItemAttributesFactBox.PAGE.LoadItemAttributesData(\"No.\");",
+      "why_it_matters": "Shows the key code pattern needed to dynamically load item attributes data in the OnAfterGetCurrRecord trigger"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/yzhums-com/74473",
+  "url": "https://yzhums.com/74473/",
+  "title": "Dynamics 365 Business Central: Formatting Boolean Values (Yes/No, true/false, and 1/0)",
+  "source": "yzhums-com",
+  "published_at": "2026-07-07T00:30:28.000Z",
+  "words": 283,
+  "summary": "Boolean fields in Business Central display as checkboxes by default, but converting them to text for pages or reports requires specific methods. The post demonstrates how to use ToText() and Format() functions with different parameters to display Boolean values as Yes/No, true/false, or 1/0.",
+  "key_points": [
+    "Boolean fields automatically render as toggles on UI, but need conversion for text display in reports",
+    "Use ToText() method or Format() function with parameter combinations (0,9) and (0,2) to convert Boolean to text",
+    "Follow naming conventions using prefixes like Is, Has, or Allow for Boolean variables to improve code readability",
+    "Avoid comparing Boolean values to true/false unnecessarily; use if IsPosted then instead of if IsPosted = true then"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "boolean",
+    "formatting",
+    "data types",
+    "al language",
+    "best practices"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "CustomerListExt"
+    }
+  ],
+  "features": [
+    "Boolean data type",
+    "Format function",
+    "ToText method",
+    "checkbox rendering",
+    "text conversion"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Boolean field in the database is automatically rendered as a Checkbox/Toggle on the page (UI) by default",
+      "why_it_matters": "Explains default UI behavior for Boolean fields, establishing why conversion methods are needed"
+    },
+    {
+      "text": "Since a Boolean is already a truth value, do not compare it to true or false unnecessarily.",
+      "why_it_matters": "Core best practice for writing cleaner, more readable AL code"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/yzhums-com/74335",
+  "url": "https://yzhums.com/74335/",
+  "title": "Dynamics 365 Business Central: Make the same column editable or non-editable based on different conditions on the list page (Dynamic Editable Control for the Same Column)",
+  "source": "yzhums-com",
+  "published_at": "2026-06-26T01:39:05.000Z",
+  "words": 359,
+  "summary": "Make a column editable or non-editable on a list page based on row-specific conditions using a Boolean field and the Editable property. This is useful when different rows need different edit permissions without showing error messages.",
+  "key_points": [
+    "Use a variable bound to the Editable property to conditionally control field editability",
+    "Update the variable in OnAfterGetRecord to reflect the condition for each row",
+    "Update the variable in OnValidate when the condition field changes",
+    "Fields remain non-editable from the start, no error messages required"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "list page",
+    "dynamic controls",
+    "field editable property",
+    "page extension",
+    "al code"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Units of Measure"
+    },
+    {
+      "type": "other",
+      "name": "UnitofMeasureListExt"
+    },
+    {
+      "type": "other",
+      "name": "UnitofMeasureExt"
+    }
+  ],
+  "features": [
+    "Dynamic Editable Control",
+    "Conditional Field Editability",
+    "List Page Customization",
+    "Page Extensions",
+    "Table Extensions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "they want a specific column to be editable only for rows that meet certain conditions, and non-editable for all other rows.",
+      "why_it_matters": "Defines the core requirement for conditional field editability based on row-level conditions"
+    },
+    {
+      "text": "the field should simply be non-editable from the start.",
+      "why_it_matters": "Explains that the solution must prevent editing without triggering validation errors"
+    },
+    {
+      "text": "you just need to control the Editable property using a variable.",
+      "why_it_matters": "Provides the key implementation technique for achieving dynamic editability"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/yzhums-com/74176",
+  "url": "https://yzhums.com/74176/",
+  "title": "Business Central 2026 release wave 1 (BC28): Item – ABC Analysis (Standard report)",
+  "source": "yzhums-com",
+  "published_at": "2026-06-10T03:53:38.000Z",
+  "words": 576,
+  "summary": "The Item - ABC Analysis standard report in Business Central 2026 wave 1 classifies inventory items into A, B, and C categories based on sales value to help prioritize stock management and purchasing decisions. The report supports inventory managers, purchasing agents, and controllers in identifying high-value items and optimizing inventory investment.",
+  "key_points": [
+    "Items are ranked into categories based on sales amounts in local currency, with configurable percentage thresholds for each category",
+    "Category A items have high value and drive most revenue, Category B has medium value, and Category C has high volume but low value",
+    "The report includes Excel layout with print, structure, and analysis worksheets that support filtering and further data analysis",
+    "Thresholds can be set on the ABC Analysis Setup page and overridden per report run",
+    "Classifications are consistent with the ABC Analysis Power BI Report using the same threshold logic"
+  ],
+  "systems": [
+    "inventory",
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "abc analysis",
+    "inventory classification",
+    "stock management",
+    "purchasing strategy",
+    "item ranking"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Item – ABC Analysis"
+    },
+    {
+      "type": "report",
+      "name": "ABC Analysis"
+    }
+  ],
+  "features": [
+    "ABC item classification",
+    "Sales-based inventory ranking",
+    "Configurable category thresholds",
+    "Excel export with multiple worksheets",
+    "Power BI integration",
+    "Zero-sales item identification"
+  ],
+  "versions": [
+    "2026 wave 1",
+    "BC28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Use the report to decide which items to always keep in stock and where you can afford occasional stock-outs.",
+      "why_it_matters": "Clarifies the core business purpose of ABC analysis for optimizing inventory investment and resource allocation"
+    },
+    {
+      "text": "The same thresholds are also used by the ABC Analysis (Power BI Report), so the classification is consistent across both reports.",
+      "why_it_matters": "Ensures users understand that classifications are unified across reporting tools for consistency"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

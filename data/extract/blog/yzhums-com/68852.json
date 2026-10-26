@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/yzhums-com/68852",
+  "url": "https://yzhums.com/68852/",
+  "title": "Dynamics 365 Business Central: Is it possible to change the Variant Code for an item that has already been posted?",
+  "source": "yzhums-com",
+  "published_at": "2026-07-08T00:44:08.000Z",
+  "words": 399,
+  "summary": "Changing a variant code for an already-posted item in Business Central requires workarounds since item reclassification journals don't support variant changes. Two feasible solutions are using Item Journals for negative and positive adjustments, or using Assembly Orders to transfer quantities between variants.",
+  "key_points": [
+    "Item variants help manage similar products with different attributes like color without creating separate items",
+    "Item Reclassification Journals cannot change variant codes because variants are treated as distinct items in the system",
+    "Use Item Journals with negative adjustments on the original variant and positive adjustments on the target variant",
+    "Assembly Orders can also transfer inventory between variants by specifying the source variant in lines and target variant in posting details"
+  ],
+  "systems": [
+    "inventory",
+    "assembly"
+  ],
+  "topics": [
+    "item variants",
+    "inventory adjustment",
+    "assembly orders",
+    "item journals",
+    "variant codes"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Journals"
+    },
+    {
+      "type": "page",
+      "name": "Item Reclassification Journals"
+    },
+    {
+      "type": "page",
+      "name": "Assembly Orders"
+    }
+  ],
+  "features": [
+    "Item Variants",
+    "Item Journals",
+    "Assembly Orders",
+    "Negative Adjustments",
+    "Positive Adjustments",
+    "Item Ledger Entries"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "In Business Central, item variants are a great way to keep your list of products under control in Business Central.",
+      "why_it_matters": "Explains the primary benefit of using variants to organize similar items with different attributes"
+    },
+    {
+      "text": "Theoretically, different variants are treated as distinct items in the system.",
+      "why_it_matters": "Clarifies why standard reclassification journals cannot change variant codes directly"
+    },
+    {
+      "text": "Use the Item Journals for negative and positive adjustments.",
+      "why_it_matters": "Provides a straightforward workaround method for transferring inventory between variants"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

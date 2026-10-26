@@ -1,0 +1,96 @@
+{
+  "item_id": "blog/yzhums-com/74458",
+  "url": "https://yzhums.com/74458/",
+  "title": "Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page",
+  "source": "yzhums-com",
+  "published_at": "2026-07-03T04:03:01.000Z",
+  "words": 656,
+  "summary": "This post explains how to extend the Item Ledger Entries page to include filtering by item attributes, a feature already available on the Item List page. The customization adds an Item Attributes FactBox and actions to filter and clear attribute-based filters.",
+  "key_points": [
+    "Item attributes allow items to be characterized by properties like height and model year for searching and customer service",
+    "The standard Item List page includes a Filter by Attributes action that uses item attribute values to build a filter for matching item numbers",
+    "The same logic can be ported to Item Ledger Entries via a page extension that adds the FilterByAttributes and ClearAttributes actions",
+    "The customization uses temporary buffers and the Item Attribute Management codeunit to find matching items and apply filters"
+  ],
+  "systems": [
+    "inventory",
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "item attributes",
+    "filtering",
+    "page extension",
+    "item ledger entries",
+    "customization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Item List"
+    },
+    {
+      "type": "page",
+      "name": "Filter Items by Attribute"
+    },
+    {
+      "type": "page",
+      "name": "Filter Items by Att. Phone"
+    },
+    {
+      "type": "page",
+      "name": "Item Attributes FactBox"
+    },
+    {
+      "type": "table",
+      "name": "Item Attribute"
+    },
+    {
+      "type": "table",
+      "name": "Filter Item Attributes Buffer"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "codeunit",
+      "name": "Item Attribute Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Type Helper"
+    },
+    {
+      "type": "codeunit",
+      "name": "Client Type Management"
+    }
+  ],
+  "features": [
+    "item attributes",
+    "filtering by attributes",
+    "factbox",
+    "page extension",
+    "attribute buffer management"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Can we also add the Filter by item attributes feature to other pages like Item Ledger Entries?",
+      "why_it_matters": "Frames the core question the post addresses about extending attributes filtering beyond the Item List"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

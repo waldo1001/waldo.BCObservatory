@@ -1,0 +1,96 @@
+{
+  "item_id": "blog/yzhums-com/74390",
+  "url": "https://yzhums.com/74390/",
+  "title": "Business Central 2026 release wave 1 (BC28.2): Use new APIs for analyzing approval workflows for auditors and IT staff",
+  "source": "yzhums-com",
+  "published_at": "2026-06-30T01:15:44.000Z",
+  "words": 731,
+  "summary": "Business Central 2026 wave 1 introduces seven new read-only APIs for analyzing approval workflows, enabling auditors and IT staff to build advanced compliance reports in Power BI and intelligent automation with Copilot Studio while maintaining security through isolated API permissions.",
+  "key_points": [
+    "Seven new API V2.0 endpoints provide read-only access to workflow approval data including workflows, steps, approvers, and approval entries",
+    "APIs enable secure external auditing and compliance reporting without modifying approval system data",
+    "Organizations can integrate with Power BI, Copilot Studio, and MCP Server for analytics and intelligent automation",
+    "Permission isolation ensures robust security while empowering authorized teams to access and analyze approval workflows"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "approval workflows",
+    "apis",
+    "auditing",
+    "compliance reporting",
+    "read-only access",
+    "integration",
+    "power bi"
+  ],
+  "objects": [
+    {
+      "type": "api",
+      "name": "APIV2 – Workflows"
+    },
+    {
+      "type": "api",
+      "name": "APIV2 – Workflow Resp. Options"
+    },
+    {
+      "type": "api",
+      "name": "APIV2 – Workflow Steps"
+    },
+    {
+      "type": "api",
+      "name": "APIV2 – Workflow Approvers"
+    },
+    {
+      "type": "api",
+      "name": "APIV2 – Pstd. Approval Entries"
+    },
+    {
+      "type": "api",
+      "name": "APIV2 – Approval Entries"
+    },
+    {
+      "type": "api",
+      "name": "APIV2 – Approval User Setup"
+    }
+  ],
+  "features": [
+    "read-only approval workflow APIs",
+    "external audit analytics",
+    "Power BI integration",
+    "Copilot Studio integration",
+    "MCP Server support",
+    "approval workflow transparency",
+    "compliance reporting",
+    "isolated API permissions"
+  ],
+  "versions": [
+    "BC28.2",
+    "2026 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This feature enhances transparency and control by enabling secure, read-only access to approval workflows and user actions.",
+      "why_it_matters": "Explains the core business value of the new APIs for governance and accountability"
+    },
+    {
+      "text": "By isolating permissions for API access, organizations maintain robust security while empowering authorized teams to innovate confidently.",
+      "why_it_matters": "Highlights how security and functionality are balanced through permission isolation"
+    },
+    {
+      "text": "Businesses can leverage these APIs to build advanced auditing and compliance reports in tools like Power BI, ensuring stronger governance.",
+      "why_it_matters": "Demonstrates practical use cases for the new APIs in external reporting and compliance scenarios"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/74431",
+  "url": "https://yzhums.com/74431/",
+  "title": "Business Central 2026 release wave 1 (BC28.2): Change AI models for agents in the UI",
+  "source": "yzhums-com",
+  "published_at": "2026-07-01T00:56:50.000Z",
+  "words": 405,
+  "summary": "Business Central 2026 wave 1 (BC28.2) lets agents use different AI models directly in the UI. Users can select a specific model for each agent or use automatic default selection, with a resolution order that prioritizes task-level, then agent-level, then system default models.",
+  "key_points": [
+    "Agents can be configured to use specific AI models or automatic default selection through the Agents page",
+    "Model selection affects agent behavior, performance, and results",
+    "Model resolution follows a hierarchy: task-level model takes precedence, then agent-level model, then system default",
+    "Custom agents were introduced in BC25.2 (BC27.4), and UI model management is new in BC28.2",
+    "Using 'Auto' allows the system to change models over time; pinning to a specific version provides predictable behavior"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "ai agents",
+    "ai models",
+    "business central 2026",
+    "custom agents",
+    "copilot features"
+  ],
+  "objects": [],
+  "features": [
+    "Change AI models for agents",
+    "AI model selection in UI",
+    "Agent configuration",
+    "Custom agents",
+    "Automatic model selection"
+  ],
+  "versions": [
+    "BC27.4",
+    "BC28.2",
+    "2025 wave 2",
+    "2026 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Agents in Business Central can run on different AI models. The model an agent uses can affect its behavior, performance, and results.",
+      "why_it_matters": "Explains the core capability and why model selection matters for agent functionality"
+    },
+    {
+      "text": "With this minor update (BC28.2), we can now view and manage AI models directly within the UI.",
+      "why_it_matters": "Highlights the new feature that makes model management accessible to end users"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/yzhums-com/74366",
+  "url": "https://yzhums.com/74366/",
+  "title": "Business Central 2026 release wave 1 (BC28.2): Use new APIs for analyzing permissions for auditors and IT staff",
+  "source": "yzhums-com",
+  "published_at": "2026-06-29T01:11:49.000Z",
+  "words": 540,
+  "summary": "Business Central 2026 wave 1 introduces five read-only APIs for querying permission sets, access controls, user permissions, and mappings. These APIs enable auditors and IT staff to build security reports and analytics in Power BI or Copilot Studio without compromising system integrity.",
+  "key_points": [
+    "Five new read-only APIs expose permission data: Expanded Permission Sets, Access Control, Users Permissions, User Permission Sets, and Permission Sets",
+    "APIs belong to the Automation API v2.0 and support querying permission sets, scope, extensions, security groups, and user mappings",
+    "Organizations can integrate APIs with Power BI and Copilot Studio to create advanced auditing reports and intelligent agents",
+    "Read-only access maintains security and compliance while providing real-time visibility into permission assignments and access controls"
+  ],
+  "systems": [
+    "administration",
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "permission apis",
+    "security audit",
+    "access control",
+    "automation api",
+    "compliance reporting",
+    "power bi integration"
+  ],
+  "objects": [
+    {
+      "type": "api",
+      "name": "APIV2 Expanded Permission Sets"
+    },
+    {
+      "type": "api",
+      "name": "APIV2 – Access Control"
+    },
+    {
+      "type": "api",
+      "name": "APIV2 – Users Permissions"
+    },
+    {
+      "type": "api",
+      "name": "APIV2 – User Permission Sets"
+    },
+    {
+      "type": "api",
+      "name": "APIV2 – Permission Sets"
+    }
+  ],
+  "features": [
+    "read-only permission APIs",
+    "permission set querying",
+    "access control visibility",
+    "user permission mapping",
+    "security group mapping",
+    "Automation API v2.0"
+  ],
+  "versions": [
+    "2026 wave 1",
+    "BC28.2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The new read-only permission APIs empower businesses to strengthen security and compliance by enabling external auditing and analytics without compromising system integrity.",
+      "why_it_matters": "Explains the core value proposition that auditing can occur externally while maintaining system security"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

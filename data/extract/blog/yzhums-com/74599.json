@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/yzhums-com/74599",
+  "url": "https://yzhums.com/74599/",
+  "title": "Dynamics 365 Business Central: How to simply back up and transfer your workflows to another environment",
+  "source": "yzhums-com",
+  "published_at": "2026-07-09T04:05:55.000Z",
+  "words": 394,
+  "summary": "Business Central workflows can be backed up and transferred between environments using built-in import and export functionality. This approach avoids repeating time-consuming workflow setup and testing in multiple environments or projects.",
+  "key_points": [
+    "Workflows are defined by events (with conditions) and responses (with options) that connect business-process tasks across users",
+    "Export workflows as XML files from the Workflows page using the Export to File action",
+    "Import the XML files into target environments using the Import from File action on the Workflows page",
+    "Importing a workflow with an existing code overwrites the previous workflow steps with the imported ones",
+    "Templates prefixed with MS- indicate workflows added by Microsoft"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "workflows",
+    "backup",
+    "export",
+    "import",
+    "migration",
+    "approval"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Workflow Templates"
+    },
+    {
+      "type": "page",
+      "name": "Workflows"
+    }
+  ],
+  "features": [
+    "workflow export",
+    "workflow import",
+    "approval workflows",
+    "workflow events",
+    "workflow responses",
+    "workflow templates"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The standard functionality in Business Central supports the import and export of workflows.",
+      "why_it_matters": "This confirms that workflow backup and transfer is a native capability, not requiring custom development."
+    },
+    {
+      "text": "If the workflow code already exists in the database, the workflow steps are overwritten with the steps in the imported workflow.",
+      "why_it_matters": "Important caveat: existing workflows will be replaced during import, which affects planning for workflow migration."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

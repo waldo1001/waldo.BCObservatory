@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/yzhums-com/72067",
+  "url": "https://yzhums.com/72067/",
+  "title": "Business Central 2026 release wave 1 (BC28.2): Power BI Report Deployments (Centralized Management of Power BI Apps)",
+  "source": "yzhums-com",
+  "published_at": "2026-06-23T01:15:13.000Z",
+  "words": 507,
+  "summary": "Business Central 2026 wave 1 introduces the Power BI Report Deployments page, enabling centralized management and batch deployment of Power BI apps to workspaces without manual installation of each app. This capability streamlines analytics setup for finance, inventory, manufacturing, projects, and other functional areas.",
+  "key_points": [
+    "Power BI Report Deployments page centralizes management of Power BI apps across multiple functional areas",
+    "Select multiple reports and deploy them together to Power BI Workspace instead of installing individually",
+    "Monitor deployment status in real-time and retry failed deployments",
+    "Available in evaluation companies; supports nine functional areas including finance, inventory, manufacturing, and sustainability",
+    "Users can download PBIX files and check Power BI Reports Setup page to confirm successful installation"
+  ],
+  "systems": [
+    "reporting",
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "power bi",
+    "report deployments",
+    "analytics",
+    "business central 2026",
+    "wave 1",
+    "centralized management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Power BI Report Deployments"
+    },
+    {
+      "type": "page",
+      "name": "Power BI Reports Setup"
+    }
+  ],
+  "features": [
+    "Power BI Report Deployments",
+    "Batch deployment",
+    "Deployment status tracking",
+    "Failed deployment retry",
+    "PBIX download",
+    "Power BI app management",
+    "Centralized Power BI control"
+  ],
+  "versions": [
+    "BC28.2",
+    "2026 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Deploy Power BI reports to your workspace, update them when new versions are available, and retry deployments that have failed.",
+      "why_it_matters": "This explains the three core capabilities of the new Power BI Report Deployments feature, showing how it simplifies multi-app management."
+    },
+    {
+      "text": "You can select multiple reports and then choose the Deploy action to deploy them to your Power BI Workspace.",
+      "why_it_matters": "Highlights the batch deployment capability that eliminates the previous need to install each Power BI app manually."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
