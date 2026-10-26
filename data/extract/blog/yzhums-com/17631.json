@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/yzhums-com/17631",
+  "url": "https://yzhums.com/17631/",
+  "title": "Dynamics 365 Business Central: How to convert Text/Integer to Date (Text/Integer Data type -> Date Data type)",
+  "source": "yzhums-com",
+  "published_at": "2026-02-24T01:21:53.000Z",
+  "words": 708,
+  "summary": "This guide demonstrates how to convert Text and Integer data types to Date in Business Central AL development. It covers using the Evaluate method with regional settings, the DMY2Date function with string slicing for fixed formats, and techniques for parsing serialized integers in YYYYMMDD format.",
+  "key_points": [
+    "Use System.Evaluate() to parse text strings into Date variables while respecting user regional settings, always wrapping in error handling",
+    "For fixed-format strings like YYYYMMDD, use CopyStr to extract day/month/year components, then DMY2Date() to construct the date",
+    "Integer-to-date conversion requires parsing the integer into separate day, month, and year integers before using DMY2Date(), since integers don't inherently represent dates",
+    "Serialized integers in YYYYMMDD format can be broken apart using either string conversion methods or mathematical division operations"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "data type conversion",
+    "text parsing",
+    "date handling",
+    "al methods",
+    "api responses"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "SalesOrderExt"
+    }
+  ],
+  "features": [
+    "System.Evaluate method",
+    "System.DMY2Date method",
+    "String slicing with CopyStr",
+    "Text to Date conversion",
+    "Integer to Date conversion",
+    "Error handling for date parsing",
+    "Locale-aware date formatting"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "It uses the user's regional settings to parse the string. Always wrap it in an if statement to handle formatting errors gracefully.",
+      "why_it_matters": "Essential practice for robust data conversion that respects user localization and prevents runtime errors"
+    },
+    {
+      "text": "If you receive a fixed format (like YYYYMMDD) that doesn't match the user's locale, use CopyStr to break it down",
+      "why_it_matters": "Provides reliable handling of standardized date formats that differ from user regional settings"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/70782",
+  "url": "https://yzhums.com/70782/",
+  "title": "Business Central 2026 release wave 1 (BC28): Download Symbols from Global NuGet Sources (without any environment)",
+  "source": "yzhums-com",
+  "published_at": "2026-02-24T23:51:19.000Z",
+  "words": 742,
+  "summary": "Business Central 2026 wave 1 introduces a new AL command to download symbol files directly from Microsoft's public NuGet feeds without needing a running environment, supporting country/region-specific packages and custom feeds through VS Code settings.",
+  "key_points": [
+    "Symbol files are reference packages representing tables, pages, and codeunits that AL projects need to know about but don't contain source code",
+    "The new AL: Download Symbols from Global Sources command eliminates the requirement for a Docker container or Sandbox environment to download symbols",
+    "Developers can specify country/region codes using al.symbolsCountryRegion setting (ISO codes like 'us', 'de' or 'w1' for worldwide)",
+    "Custom NuGet feeds can be configured via al.customNugetFeeds and restricted to only custom feeds with al.useOnlyCustomFeeds setting",
+    "Downloaded symbols are saved in ./.alpackages directory and can be used as context for GitHub Copilot"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "symbol downloads",
+    "nuget feeds",
+    "al development",
+    "vs code",
+    "localization",
+    "custom feeds"
+  ],
+  "objects": [],
+  "features": [
+    "Download Symbols from Global Sources command",
+    "country/region-specific symbols",
+    "custom NuGet feed configuration",
+    "GitHub Copilot integration",
+    "Symbol search in workspace",
+    "Attach type launch configuration"
+  ],
+  "versions": [
+    "2026 release wave 1",
+    "BC28",
+    "Version 17.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Previously, you had to have a running Docker container or a Sandbox environment just to click Download Symbols and start coding.",
+      "why_it_matters": "Explains the key problem solved by this feature - eliminating environment dependencies for symbol downloads"
+    },
+    {
+      "text": "A symbol file is essentially the source code for an extension.",
+      "why_it_matters": "Clarifies what symbols are and why developers need them when building AL projects"
+    },
+    {
+      "text": "Country/region codes must follow ISO 3166-1 alpha-2 or w1 for worldwide.",
+      "why_it_matters": "Specifies the exact format required for symbol localization configuration"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "item_id": "blog/yzhums-com/70840",
+  "url": "https://yzhums.com/70840/",
+  "title": "Dynamics 365 Business Central: Copy Comments from Vendor to Purchase Document – Customization",
+  "source": "yzhums-com",
+  "published_at": "2026-02-26T00:45:15.000Z",
+  "words": 630,
+  "summary": "This post explains how to customize Business Central to automatically copy comments from vendor cards to purchase orders. The standard system transfers comments within document types but lacks a feature to pull vendor comments into new purchase documents, requiring a table extension and trigger logic to implement this capability.",
+  "key_points": [
+    "Standard Business Central transfers comments between related documents of the same type (e.g., purchase order to purchase receipt) but does not automatically copy comments from vendor cards to purchase orders.",
+    "Comments are stored in different tables: table 97 for vendor cards and table 43 for purchase documents, requiring custom code to bridge them.",
+    "A table extension adds a toggle setting to Purchases & Payables Setup, and a Purchase Header extension uses OnAfterValidate and OnAfterInsert triggers to copy vendor comments when a vendor is selected.",
+    "The customization checks both triggers because vendor number is not a primary key and documents can be created without it.",
+    "The solution queries the Comment Line table for vendor records and inserts matching entries into the Purch. Comment Line table."
+  ],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "comments",
+    "customization",
+    "vendor management",
+    "purchase orders",
+    "table extensions",
+    "triggers"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Comment Line"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Comment Line"
+    },
+    {
+      "type": "codeunit",
+      "name": "Purch.-Post"
+    },
+    {
+      "type": "enum",
+      "name": "Purchase Comment Document Type"
+    },
+    {
+      "type": "enum",
+      "name": "Purchase Document Type"
+    }
+  ],
+  "features": [
+    "comments",
+    "purchase orders",
+    "vendor integration",
+    "customization",
+    "table extensions",
+    "page extensions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Comments on ongoing documents are transferred to the related posted document.",
+      "why_it_matters": "Explains the standard behavior that automatically passes comments between document types, which the customization builds upon."
+    },
+    {
+      "text": "As of now, this function is not included in the standard features... So we can only customize it.",
+      "why_it_matters": "Clarifies that copying vendor comments to purchase orders requires custom development rather than relying on built-in functionality."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

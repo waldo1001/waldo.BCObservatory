@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/70933",
+  "url": "https://yzhums.com/70933/",
+  "title": "The public preview for Dynamics 365 Business Central 2026 release wave 1 (BC28) is available",
+  "source": "yzhums-com",
+  "published_at": "2026-03-02T22:46:39.000Z",
+  "words": 311,
+  "summary": "Dynamics 365 Business Central 2026 release wave 1 (BC28) public preview is available for testing in sandbox environments. Preview sandboxes cannot be upgraded to production and may be updated or deleted without notice.",
+  "key_points": [
+    "Public preview for BC28 (W1 28.0) can be created in the Business Central admin center",
+    "Preview sandboxes are for testing only and cannot be converted to production environments",
+    "General availability is expected on March 18, 2026",
+    "Major update timing changed in BC25: from 30-60 days to 5 months with optional minor updates"
+  ],
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "release wave 1",
+    "bc28",
+    "2026",
+    "preview environment",
+    "sandbox testing",
+    "major update"
+  ],
+  "objects": [],
+  "features": [
+    "preview environments",
+    "sandbox preparation",
+    "major updates",
+    "environment management"
+  ],
+  "versions": [
+    "BC28",
+    "W1 28.0",
+    "Platform 28.0.46613.0",
+    "Application 28.0.46665.46791",
+    "BC27",
+    "BC25"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Sandboxes on a preview version are intended only for testing and review of features coming in the next release.",
+      "why_it_matters": "Clarifies that preview sandboxes serve a specific testing purpose and have limitations"
+    },
+    {
+      "text": "The environment cannot be updated to a production version. It must remain in preview until it is deleted.",
+      "why_it_matters": "Critical constraint for administrators to understand that preview environments cannot transition to production"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

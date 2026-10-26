@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/70588",
+  "url": "https://yzhums.com/70588/",
+  "title": "Dynamics 365 Business Central: Where to find all standard AL namespaces? (Download all AL namespaces)",
+  "source": "yzhums-com",
+  "published_at": "2026-02-13T01:36:32.000Z",
+  "words": 451,
+  "summary": "The post explains how to find and download all standard AL namespaces in Business Central by viewing the AllObjWithCaption virtual table and creating a list page with analysis mode to group and export the data.",
+  "key_points": [
+    "Namespaces organize code into logical groups and prevent naming conflicts",
+    "The AllObjWithCaption virtual table (2000000058) displays AL Namespace information for all objects",
+    "Create a list page based on AllObjWithCaption to access analysis mode features",
+    "Use analysis mode to group namespaces and export data to Excel"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "namespaces",
+    "al code",
+    "virtual tables",
+    "analysis mode",
+    "list pages"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "AllObjWithCaption"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "page",
+      "name": "All Object List"
+    }
+  ],
+  "features": [
+    "AL namespaces",
+    "virtual tables",
+    "analysis mode",
+    "data export"
+  ],
+  "versions": [
+    "W1 27.4"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Namespaces are used to organize code into logical groups and hierarchies, which can prevent naming conflicts that can occur when libraries are combined.",
+      "why_it_matters": "Explains the purpose of namespaces in preventing code conflicts and organizing code structure"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

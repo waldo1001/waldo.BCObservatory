@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/yzhums-com/70904",
+  "url": "https://yzhums.com/70904/",
+  "title": "Deprecated features in Business Central 2026 release wave 1 (BC28)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-02T01:27:58.000Z",
+  "words": 972,
+  "summary": "Business Central 2026 release wave 1 (BC28) removes several deprecated features including Excel reports on role centers, API v1.0, legacy Power BI marketplace apps, Intelligent Cloud Insights, and numerous legacy reports across finance, fixed assets, manufacturing, sales, and purchasing. Replacements include enhanced Power BI reports, Excel layouts on ledger tables, and data analysis capabilities.",
+  "key_points": [
+    "Excel reports (Balance Sheet, Income Statement, Cash Flow, etc.) are removed from Business Manager and Accountant Role Centers due to difficulty in modifying them requiring AL and VBA skills",
+    "API v1.0 is deprecated in favor of API v2.0 which uses GUID keys, eliminates complex properties, and improves performance",
+    "Legacy Power BI marketplace apps for CRM, Finance, and Sales are replaced by seven new Power BI apps released in version 25.1",
+    "Intelligent Cloud Insights feature is removed and replaced by the new Power BI apps",
+    "Multiple legacy reports (20+ across finance, assets, manufacturing, sales, and purchasing) are removed; users should test new Excel layout and Power BI replacements before upgrading"
+  ],
+  "systems": [
+    "finance",
+    "manufacturing",
+    "sales"
+  ],
+  "topics": [
+    "deprecated features",
+    "business central 2026",
+    "bc28 release",
+    "api v1.0 removal",
+    "power bi reports",
+    "excel reports",
+    "legacy reports",
+    "migration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "API (v1.0) for Business Central"
+    }
+  ],
+  "features": [
+    "Excel reports on role centers",
+    "API v1.0",
+    "Legacy Power BI marketplace apps",
+    "Intelligent Cloud Insights",
+    "Excel layouts for reports",
+    "Power BI embedded reports",
+    "Data analysis on ledger tables",
+    "API v2.0"
+  ],
+  "versions": [
+    "2026 release wave 1 (BC28)",
+    "BC27",
+    "BC25.1",
+    "BC26.2",
+    "BC24"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Changing them requires technical skills in AL and VBA (Visual Basic for Applications) programming.",
+      "why_it_matters": "Explains why Microsoft is removing Excel reports - they are difficult for users to modify without developer skills"
+    },
+    {
+      "text": "In API v2.0, all multipart keys and non-GUID keys are replaced with unique GUID keys.",
+      "why_it_matters": "Key technical improvement in v2.0 that improves auditing and API reading performance over v1.0"
+    },
+    {
+      "text": "If you are still using these reports, please test the new version of the report as soon as possible.",
+      "why_it_matters": "Urgent guidance for customers to validate replacement features before the BC28 release"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

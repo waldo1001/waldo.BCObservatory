@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/yzhums-com/70554",
+  "url": "https://yzhums.com/70554/",
+  "title": "Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)",
+  "source": "yzhums-com",
+  "published_at": "2026-02-12T02:09:20.000Z",
+  "words": 452,
+  "summary": "Extended text allows you to expand descriptions for items, stock-keeping units, general ledger accounts, and resources with additional lines and conditions. The automatic extended text feature eliminates manual insertion steps by automatically populating extended texts on sales and purchase documents when enabled.",
+  "key_points": [
+    "Extended text adds extra descriptive lines to items, SKUs, GL accounts, and resources with configurable conditions and date ranges",
+    "Manual insertion of extended text requires selecting the Insert Ext. Text action on document lines",
+    "Automatic Ext. Texts setting automatically includes all defined extended texts when adding items to documents without manual intervention",
+    "The automatic feature is available on Item Card, Chart of Accounts, and Resource pages"
+  ],
+  "systems": [
+    "sales",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "extended text",
+    "item description",
+    "document automation",
+    "sales orders",
+    "purchase documents",
+    "general ledger accounts",
+    "resources"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    }
+  ],
+  "features": [
+    "Extended Text",
+    "Automatic Extended Text",
+    "Extended Text for Items",
+    "Extended Text for Resources",
+    "Extended Text for General Ledger Accounts"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Extended Text feature, you can extend the description for items, stock-keeping units, general ledger accounts, and resources by adding extra lines.",
+      "why_it_matters": "Explains the scope and purpose of the extended text capability across multiple Business Central entities"
+    },
+    {
+      "text": "Once this setting is enabled, no further manual steps are needed; adding an item will automatically populate all associated Extended Texts.",
+      "why_it_matters": "Highlights the key advantage of automatic extended text in reducing manual work and improving efficiency"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

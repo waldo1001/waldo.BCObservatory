@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/yzhums-com/70705",
+  "url": "https://yzhums.com/70705/",
+  "title": "Dynamics 365 Business Central: AL Object Relations Visualizer (New VS Code extension)",
+  "source": "yzhums-com",
+  "published_at": "2026-02-19T01:14:04.000Z",
+  "words": 247,
+  "summary": "The AL Object Relations Visualizer is a VS Code extension that creates interactive, force-directed graph visualizations of relationships between AL objects in Business Central projects. It helps developers understand code dependencies through color-coded nodes, clickable file navigation, and detailed tooltips showing field names, variable declarations, and relation types.",
+  "key_points": [
+    "Provides force-directed graph visualization using D3.js to display AL object relationships",
+    "Automatically scans workspace to find all AL objects and their dependencies",
+    "Offers detailed tooltips with contextual information about field names, variables, and source tables",
+    "Enables direct file opening by clicking nodes and color-codes objects by type for quick identification"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "vs code extension",
+    "al object relations",
+    "code visualization",
+    "dependency analysis",
+    "developer tools"
+  ],
+  "objects": [],
+  "features": [
+    "Interactive visualization",
+    "Automatic object scanning",
+    "Click to open files",
+    "Detailed tooltips",
+    "Color-coded nodes",
+    "Force-directed graph",
+    "D3.js visualization",
+    "Contextual information display"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "AL Object Relations Visualizer: Visualizes relationships between AL objects in Business Central projects",
+      "why_it_matters": "This is the core purpose of the tool and explains how it helps developers understand code structure"
+    },
+    {
+      "text": "Right-click in an AL file → \"AL Obj. Rel. Viz: Show Current File Relations\"",
+      "why_it_matters": "Shows the simple usage pattern developers follow to access the visualization feature"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

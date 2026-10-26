@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/yzhums-com/70683",
+  "url": "https://yzhums.com/70683/",
+  "title": "Dynamics 365 Business Central: How to hide the confirmation message (An approval request has been sent) when sending an Approval Request?",
+  "source": "yzhums-com",
+  "published_at": "2026-02-20T01:08:46.000Z",
+  "words": 348,
+  "summary": "Approval workflows in Business Central can be configured to hide the confirmation message that appears after sending an approval request by disabling the 'Show Confirmation Message' option in the workflow response settings, with no customization required.",
+  "key_points": [
+    "Workflows automate approval processes for sensitive business records like vendor data, customer credit limits, and purchase orders",
+    "The 'Show Confirmation Message' option controls whether users see the 'An approval request has been sent' confirmation after submitting for approval",
+    "This setting is found in the Options for the Selected Response tab when configuring an approval request action",
+    "No AL customization is needed to hide the message, just toggle the option off in workflow settings"
+  ],
+  "systems": [
+    "administration",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "approval workflows",
+    "workflow configuration",
+    "user interface",
+    "business logic",
+    "confirmation messages"
+  ],
+  "objects": [],
+  "features": [
+    "approval workflows",
+    "approval requests",
+    "workflow options",
+    "confirmation messages",
+    "record restrictions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Workflows are usually implemented to integrate business logic into an organization, such as the separation of duties, unifying processes, or to apply best practices.",
+      "why_it_matters": "Explains the purpose and value of workflows in Business Central for organizational processes"
+    },
+    {
+      "text": "Show Confirmation Message: Specifies that a confirmation message is shown to users after they request an approval.",
+      "why_it_matters": "Identifies the exact setting name and its function that needs to be toggled to hide the message"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

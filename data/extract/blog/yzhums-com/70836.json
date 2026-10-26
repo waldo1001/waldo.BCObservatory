@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/70836",
+  "url": "https://yzhums.com/70836/",
+  "title": "Dynamics 365 Business Central: Set up access to Business Central with Microsoft 365 licenses within BC (Not in Admin Center)",
+  "source": "yzhums-com",
+  "published_at": "2026-02-27T01:11:23.000Z",
+  "words": 329,
+  "summary": "Microsoft Teams users can access Business Central data using Microsoft 365 licenses instead of Business Central licenses, available since Business Central 2022 wave 2. The feature can be configured through Business Central's Assisted Setup to enable Microsoft 365 license access and deploy the Teams app.",
+  "key_points": [
+    "Microsoft 365 licensed users can view Business Central data in Teams without a Business Central license, but cannot edit, delete, or create records",
+    "Setup is performed within Business Central via Tell me search for 'Set up access with Microsoft 365 Licenses' or through Settings > Assisted Setup",
+    "Administrators can configure default permission sets, control access via security groups, and enable the feature with a choice to restrict or allow access",
+    "The Business Central Teams app deployment is part of the setup process using Teams App Centralized Deployment",
+    "Once enabled, this feature cannot be disabled within Business Central"
+  ],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "microsoft 365 licenses",
+    "teams integration",
+    "access control",
+    "assisted setup",
+    "collaboration"
+  ],
+  "objects": [],
+  "features": [
+    "Microsoft 365 license access",
+    "Teams data access",
+    "permission sets configuration",
+    "security group access control",
+    "Teams app deployment"
+  ],
+  "versions": [
+    "2022 wave 2",
+    "BC21"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft Teams users will be able to access Business Central data, regardless of whether they have a Business Central license.",
+      "why_it_matters": "It establishes the core value proposition that Teams users no longer need separate Business Central licenses to view data"
+    },
+    {
+      "text": "Microsoft 365 licenses don't grant rights to edit, delete, or create new records",
+      "why_it_matters": "It clarifies the important security limitation that Microsoft 365 license holders have read-only access"
+    },
+    {
+      "text": "Please note that this feature cannot be disabled with BC.",
+      "why_it_matters": "It warns administrators that once enabled, the Microsoft 365 license access feature becomes permanent and cannot be turned off"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/69961",
+  "url": "https://yzhums.com/69961/",
+  "title": "Dynamics 365 Business Central: Comparing Years (Year-Over-Year) in Analysis Mode: A Simple 4-Step Guide",
+  "source": "yzhums-com",
+  "published_at": "2026-02-17T02:11:05.000Z",
+  "words": 500,
+  "summary": "This post explains how to create year-over-year comparison reports in Business Central using Analysis Mode, a feature that enables pivot table creation and data analysis directly on list pages without requiring separate reporting or customization. The post walks through a four-step process using General Ledger Entries as an example and covers feature evolution from BC22 through BC26.",
+  "key_points": [
+    "Analysis Mode allows users to create pivot tables and analysis views on list pages without customization or separate report running",
+    "Year-over-year analysis compares current year data against same periods in previous years to evaluate metrics over time",
+    "The four-step process involves enabling Pivot Mode, setting display values, dragging the Posting Date Year to column labels, and grouping rows",
+    "Analysis results can be shared via copy link or exported to Excel, and Copilot can assist with creating analysis tabs"
+  ],
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "analysis mode",
+    "pivot tables",
+    "year-over-year comparison",
+    "data analysis",
+    "general ledger",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "General Ledger Entries"
+    }
+  ],
+  "features": [
+    "Analysis Mode",
+    "Pivot Mode",
+    "Year-over-year comparison",
+    "Copy Link in Analysis Mode",
+    "Copilot-created analysis tabs",
+    "Analysis enhancements with Copilot",
+    "Related table fields in analysis mode"
+  ],
+  "versions": [
+    "BC22",
+    "BC23",
+    "BC23.1",
+    "BC24",
+    "BC25",
+    "BC26.2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Comparing Years report (Year-Over-Year or YoY Analysis) simply means comparing year-over-year or year-on-year data.",
+      "why_it_matters": "This clarifies the business purpose of the analysis technique being taught"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

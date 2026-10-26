@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/70630",
+  "url": "https://yzhums.com/70630/",
+  "title": "Dynamics 365 Business Central: A universal method to check if a Field has a value in AL",
+  "source": "yzhums-com",
+  "published_at": "2026-02-18T00:45:50.000Z",
+  "words": 202,
+  "summary": "The post explains how to universally check if a field contains a value in Business Central AL code using the HasValue procedure from the Change Log Management codeunit, which works across different data types without needing type-specific validation syntax.",
+  "key_points": [
+    "Business Central provides the HasValue procedure in codeunit 423 Change Log Management as a standard method for checking field values",
+    "The method accepts a FieldRef parameter, making it work universally across all data types",
+    "This approach eliminates the need for different validation syntax for different field types like Integer, Date, or Decimal",
+    "The example demonstrates checking a Customer Name field by opening the Customer table, getting a field reference, and calling HasValue"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "field validation",
+    "data types",
+    "coding tips"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Change Log Management"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    }
+  ],
+  "features": [
+    "HasValue procedure",
+    "FieldRef handling",
+    "field validation",
+    "RecordRef usage"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft actually provides a standard method to address this.",
+      "why_it_matters": "Directs developers to use the built-in HasValue procedure instead of writing custom validation code"
+    },
+    {
+      "text": "All we need is to pass the FieldRef as a parameter.",
+      "why_it_matters": "Shows the simplicity of the universal approach that works for any field type"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
