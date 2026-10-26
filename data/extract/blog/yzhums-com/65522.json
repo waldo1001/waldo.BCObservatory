@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/65522",
+  "url": "https://yzhums.com/65522/",
+  "title": "Dynamics 365 Business Central: Generate Swiss QR Code without external services/APIs",
+  "source": "yzhums-com",
+  "published_at": "2025-06-27T01:07:05.000Z",
+  "words": 394,
+  "summary": "Business Central includes a standard Swiss QR Code Helper codeunit that allows developers to generate QR codes natively without external APIs. The post demonstrates how to add a page action that generates a Swiss QR code from item data and saves it to the item picture.",
+  "key_points": [
+    "The Barcode module in System Application provides 2D barcode support including QR codes since BC 2021 wave 2",
+    "Codeunit 4113 'Swiss QR Code Helper' is the standard Microsoft method for generating Swiss QR codes",
+    "QR codes can be generated directly in AL code using the Swiss QR Code Helper without external services",
+    "Generated QR code images can be imported and stored as item pictures in the database"
+  ],
+  "systems": [
+    "development",
+    "inventory"
+  ],
+  "topics": [
+    "qr codes",
+    "barcodes",
+    "swiss qr",
+    "page extensions",
+    "item card"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Swiss QR Code Helper"
+    },
+    {
+      "type": "codeunit",
+      "name": "Temp Blob"
+    }
+  ],
+  "features": [
+    "Swiss QR Code generation",
+    "2D barcode support",
+    "QR code image creation",
+    "Picture import and storage"
+  ],
+  "versions": [
+    "BC19.1",
+    "BC18"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The barcode functionality lets you convert an alphanumeric value in a report dataset into a barcode on a generated report.",
+      "why_it_matters": "Establishes the core barcode capability available in Business Central for standard use cases"
+    },
+    {
+      "text": "If you just want to generate a Swiss QR Code, Microsoft has prepared a standard method for us.",
+      "why_it_matters": "Highlights that Swiss QR code generation is a supported feature without needing external services"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

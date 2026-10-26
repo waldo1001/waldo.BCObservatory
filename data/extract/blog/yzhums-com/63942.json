@@ -1,0 +1,79 @@
+{
+  "item_id": "blog/yzhums-com/63942",
+  "url": "https://yzhums.com/63942/",
+  "title": "Dynamics 365 Business Central: How to preview Word (.docx) in web client without downloading (No control add-in and APIs)",
+  "source": "yzhums-com",
+  "published_at": "2025-06-17T01:29:23.000Z",
+  "words": 621,
+  "summary": "The post presents two methods to preview Word (.docx) files in Business Central 2025 wave 1 without downloading: converting Word to PDF then previewing as PDF, or converting Word to HTML and displaying in a preview page. These approaches extend the native PDF preview feature to support Word documents.",
+  "key_points": [
+    "Business Central 2025 wave 1 added native PDF preview in web client, but cannot preview other formats like Word",
+    "First solution converts Word documents to PDF and leverages the built-in PDF preview capability",
+    "Second solution converts Word to HTML and displays it using a custom preview page with WebPageViewer control",
+    "Both methods avoid external APIs and control add-ins, using only native Business Central capabilities",
+    "Example code provided for both approaches using Document Report Management codeunit"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "document preview",
+    "word attachments",
+    "file conversion",
+    "pdf",
+    "html",
+    "web client",
+    "no-code solution"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "DocumentAttachmentDetailsExt"
+    },
+    {
+      "type": "page",
+      "name": "Preview Files"
+    },
+    {
+      "type": "codeunit",
+      "name": "Document Report Mgt."
+    },
+    {
+      "type": "codeunit",
+      "name": "Temp Blob"
+    }
+  ],
+  "features": [
+    "Preview PDF attachments in web client",
+    "Convert Word to PDF",
+    "Convert Word to HTML",
+    "Document attachment handling",
+    "WebPageViewer control",
+    "File preview without download"
+  ],
+  "versions": [
+    "2025 wave 1",
+    "BC26"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Although this can preview the Word (.docx), it is quite complicated.",
+      "why_it_matters": "Justifies why the author presents simpler alternatives to existing complex solutions using Graph API"
+    },
+    {
+      "text": "Two simple solutions, hoping to give you some tips.",
+      "why_it_matters": "Author's stated goal to provide simpler approaches than existing complex methods"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

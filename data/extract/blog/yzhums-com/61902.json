@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/61902",
+  "url": "https://yzhums.com/61902/",
+  "title": "Dynamics 365 Business Central: Why are customer pictures round and item pictures square?",
+  "source": "yzhums-com",
+  "published_at": "2025-06-16T01:05:58.000Z",
+  "words": 398,
+  "summary": "Customer and item pictures display differently in Business Central clients: customer pictures appear round while item pictures appear square. The difference comes from the ExtendedDatatype property set to Person for customer images, which the client renders with rounded styling, while items use a standard square MediaSet field.",
+  "key_points": [
+    "Customer pictures use the Person extended data type which triggers rounded display styling in the client",
+    "Item pictures use a square MediaSet field without the Person extended data type property",
+    "Both contact and customer images are round because they represent persons",
+    "The ExtendedDatatype property cannot be customized, so round display for items requires adding a new field",
+    "Underlying image files are all square; the difference is purely in client-side rendering based on the extended data type"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "extended data type",
+    "media fields",
+    "ui styling",
+    "picture display",
+    "customer images",
+    "item images"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer (18)"
+    },
+    {
+      "type": "table",
+      "name": "Item (27)"
+    }
+  ],
+  "features": [
+    "ExtendedDatatype Property",
+    "Person data type",
+    "Media field rendering",
+    "MediaSet field type"
+  ],
+  "versions": [
+    "Business Central 2023 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Round shapes are generally considered more visually pleasing, easier on the eyes, and better suited for the smaller screens of mobile devices.",
+      "why_it_matters": "Explains the design rationale behind using round customer pictures"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

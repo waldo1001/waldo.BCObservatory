@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/yzhums-com/63320",
+  "url": "https://yzhums.com/63320/",
+  "title": "Business Central 2025 wave 1 (BC26.2): Implicit conversion between Record and RecordRef",
+  "source": "yzhums-com",
+  "published_at": "2025-06-10T01:03:27.000Z",
+  "words": 692,
+  "summary": "Business Central 2025 wave 1 introduces implicit conversion between Record and RecordRef data types, allowing direct assignment in both directions without calling GetTable or SetTable methods. This simplifies code when working with dynamic table references, available in runtime version 15.2 and above.",
+  "key_points": [
+    "Record variables can now be directly assigned to RecordRef with implicit conversion, replacing GetTable calls",
+    "RecordRef can be assigned directly to Record variables, replacing SetTable calls",
+    "The feature requires runtime version 15.2 or above; earlier versions show AL0122 compilation errors",
+    "Implicit assignment does not copy filters and views, unlike SetTable with the temporary parameter",
+    "SetTable method with temporary parameter remains necessary for temporary record scenarios"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al language",
+    "record handling",
+    "recordref",
+    "implicit conversion",
+    "bc26",
+    "wave 1"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "RecordAndRecordRefConversion"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "Implicit Record to RecordRef conversion",
+    "Implicit RecordRef to Record conversion",
+    "Direct assignment between Record and RecordRef",
+    "Runtime 15.2 support"
+  ],
+  "versions": [
+    "BC26",
+    "BC26.2",
+    "2025 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "We have introduced support for implicit conversion between Record and RecordRef instances, allowing direct assignment between these types.",
+      "why_it_matters": "Explains the core feature that simplifies AL code by eliminating the need for GetTable and SetTable method calls"
+    },
+    {
+      "text": "in runtime version 15.2 or above, we can do this directly through the assignment statement, RecordRef := Record.",
+      "why_it_matters": "Clarifies the exact runtime requirement and the new syntax developers should use"
+    },
+    {
+      "text": "This does not replace RecordRef.SetTable(Record, Boolean) Method, for example, MyRecordRef.SetTable(TempCust, true).",
+      "why_it_matters": "Important limitation showing that SetTable is still required for temporary records where the two-parameter form is necessary"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

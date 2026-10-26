@@ -1,0 +1,75 @@
+{
+  "item_id": "blog/yzhums-com/65391",
+  "url": "https://yzhums.com/65391/",
+  "title": "Dynamics 365 Business Central: How to set Allow HttpClient Requests for multiple extensions (selected extensions) at the same time",
+  "source": "yzhums-com",
+  "published_at": "2025-06-19T01:59:58.000Z",
+  "words": 783,
+  "summary": "Enabling Allow HttpClient Requests for multiple extensions at once requires creating a custom page that reads from the NAV App Installed App table and modifies the NAV App Setting table in bulk. This solves the problem of having to enable the setting manually in each environment for every extension.",
+  "key_points": [
+    "Allow HttpClient Requests must be enabled per extension to allow outbound HTTP calls from AL code",
+    "The Extension Management page cannot be extended, so a custom page using NAV App Installed App table is needed",
+    "The setting is stored in system table 2000000201 NAV App Setting which is cloud-scoped and extensible",
+    "A custom page with a bulk action can update Allow HttpClient Requests for selected extensions at once"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "httpclient",
+    "extensions",
+    "external services",
+    "bulk operations",
+    "app settings"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "NAV App Setting"
+    },
+    {
+      "type": "table",
+      "name": "NAV App Installed App"
+    },
+    {
+      "type": "page",
+      "name": "Extension Settings"
+    },
+    {
+      "type": "page",
+      "name": "Extension Management"
+    },
+    {
+      "type": "page",
+      "name": "Installed Apps"
+    }
+  ],
+  "features": [
+    "HttpClient data type",
+    "extension settings",
+    "bulk enable",
+    "outbound HTTP calls"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This setting is saved in table 2000000201 NAV App Setting. The scope of this table is Cloud and it is extensible.",
+      "why_it_matters": "Identifies the underlying system table where the setting can be modified programmatically"
+    },
+    {
+      "text": "This setting must be enabled for each app/extension, including library apps.",
+      "why_it_matters": "Clarifies why bulk operations are needed for managing multiple extensions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

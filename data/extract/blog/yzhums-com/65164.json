@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/yzhums-com/65164",
+  "url": "https://yzhums.com/65164/",
+  "title": "Dynamics 365 Business Central: Using Ask Learn (AI assistant) on Microsoft Learn (Technical documentation)",
+  "source": "yzhums-com",
+  "published_at": "2025-06-13T01:37:22.000Z",
+  "words": 534,
+  "summary": "Ask Learn is an AI assistant in preview on Microsoft Learn that answers questions, clarifies concepts, and defines terms related to Business Central and other Microsoft products. It helps users quickly search documentation and summarize content directly on technical pages.",
+  "key_points": [
+    "Ask Learn uses AI grounded in Microsoft Learn documentation to answer Business Central questions and define concepts",
+    "Currently available only in English and requires Microsoft account sign-in",
+    "Works best with clear, specific questions and accepts up to 500 characters per prompt",
+    "Available in preview on Microsoft Learn training pages; users should verify responses for accuracy",
+    "Similar to existing Chat with Copilot feature already in Business Central"
+  ],
+  "systems": [
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "ai assistant",
+    "learning",
+    "documentation",
+    "ask learn",
+    "microsoft learn",
+    "copilot"
+  ],
+  "objects": [],
+  "features": [
+    "Ask Learn",
+    "Chat with Copilot",
+    "Help pane",
+    "Field assistance"
+  ],
+  "versions": [
+    "Business Central 2024 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Ask Learn is an AI assistant that can answer questions, clarify concepts, and define terms throughout your training experience.",
+      "why_it_matters": "Describes the core capability of Ask Learn for improving the learning experience"
+    },
+    {
+      "text": "Ask Learn responses are generated using AI and might be incorrect. We strongly recommend users review them for accuracy.",
+      "why_it_matters": "Important limitation in preview: users must validate AI-generated responses"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

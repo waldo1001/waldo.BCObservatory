@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/yzhums-com/65426",
+  "url": "https://yzhums.com/65426/",
+  "title": "Dynamics 365 Business Central: How to bulk import big/large text (length exceeds 250 and 2048) from external files via AL",
+  "source": "yzhums-com",
+  "published_at": "2025-06-24T01:34:59.000Z",
+  "words": 920,
+  "summary": "This post explains how to bulk import text longer than 250 or 2048 characters from external files into Business Central using XMLPort objects instead of Excel Buffer or CSV Buffer, which have length limitations. It demonstrates the solution with a practical example of importing rich text into a customer table.",
+  "key_points": [
+    "Excel Buffer and CSV Buffer cannot import text fields exceeding 250 characters, even though the system supports up to 2048 characters for Text fields and unlimited for Blob fields",
+    "XMLPort with TextType property set to BigText allows importing large text and Blob fields that exceed standard length limits",
+    "The solution involves creating a temporary table element in the XMLPort and handling the Blob field conversion using OutStream in the OnBeforeInsertRecord trigger",
+    "Configuration Packages in Business Central 2024 wave 1 also support Blob type field imports, though direct system table modification is not recommended"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "data import",
+    "xmlport",
+    "blob field",
+    "large text",
+    "external files",
+    "bulk operations"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Excel Buffer"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Integer"
+    },
+    {
+      "type": "xmlport",
+      "name": "Import Customer Rich Text"
+    }
+  ],
+  "features": [
+    "XMLPort import",
+    "Blob field handling",
+    "BigText TextType property",
+    "Rich text editor",
+    "large text import",
+    "Configuration Packages"
+  ],
+  "versions": [
+    "Business Central 2023 wave 2",
+    "Business Central 2024 wave 1"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

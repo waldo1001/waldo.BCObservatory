@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/65156",
+  "url": "https://yzhums.com/65156/",
+  "title": "Dynamics 365 Business Central: How to change Zero (0) of Flowfield field to Dash (-) on the page",
+  "source": "yzhums-com",
+  "published_at": "2025-06-12T01:27:12.000Z",
+  "words": 310,
+  "summary": "FlowField values can display a dash instead of zero using the BlankZero property on page fields, which works for both standard and custom fields but not editable fields.",
+  "key_points": [
+    "FlowFields calculate and display results based on CalcFormula, such as inventory sums from ledger entries",
+    "The BlankZero property set to true hides zero values and displays them as blank or dash on pages",
+    "This formatting approach applies to custom fields and methods returning numbers, but does not work for editable fields",
+    "AutoFormatExpression and AutoFormatType properties control the underlying zero format behavior"
+  ],
+  "systems": [
+    "development",
+    "inventory"
+  ],
+  "topics": [
+    "flowfields",
+    "page design",
+    "formatting",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item"
+    }
+  ],
+  "features": [
+    "BlankZero property",
+    "FlowFields",
+    "CalcFormula",
+    "AutoFormatExpression",
+    "AutoFormatType"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "FlowFields display the result of the calculation described in the CalcFormula Property.",
+      "why_it_matters": "Explains the core purpose of FlowFields in calculating and displaying derived values from base tables"
+    },
+    {
+      "text": "Just use the BlankZero Property.",
+      "why_it_matters": "Provides the simple solution for replacing zero display with dash or blank on pages"
+    },
+    {
+      "text": "This does not work for editable fields.",
+      "why_it_matters": "Important limitation that prevents users from applying this approach to all field types"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

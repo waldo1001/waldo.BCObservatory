@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/yzhums-com/65326",
+  "url": "https://yzhums.com/65326/",
+  "title": "Dynamics 365 Business Central: How to bulk import marketing text to items – Customization",
+  "source": "yzhums-com",
+  "published_at": "2025-06-25T01:36:49.000Z",
+  "words": 777,
+  "summary": "The post explains how to bulk import marketing text for items in Business Central using a custom XMLPORT and CSV file. It covers the difference between marketing text and item descriptions, the underlying Entity Text system table, and provides complete AL code for importing large text values that exceed typical field size limits.",
+  "key_points": [
+    "Marketing text is richer, descriptive copy for items used in storefronts and customer communications, distinct from the concise Description field",
+    "Marketing text data is stored in system table 2000000132 (Entity Text), which cannot be imported via Configuration Packages",
+    "Custom AL code using XMLPORT with CSV format allows bulk import while handling large text values stored as Blob fields",
+    "The solution updates existing marketing text or inserts new records based on item number and company context"
+  ],
+  "systems": [
+    "sales",
+    "inventory",
+    "development"
+  ],
+  "topics": [
+    "marketing text",
+    "bulk import",
+    "item management",
+    "customization",
+    "xmlport",
+    "csv import"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Entity Text"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "xmlport",
+      "name": "Import Marketing Text"
+    },
+    {
+      "type": "page",
+      "name": "Item List"
+    }
+  ],
+  "features": [
+    "Marketing text for items",
+    "Bulk import via XMLPORT",
+    "CSV file processing",
+    "Entity Text management",
+    "Blob field handling",
+    "Marketing text suggestions"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Table 2000000132 is a system table, so it cannot be imported through the Configuration Package.",
+      "why_it_matters": "Explains why a custom XMLPORT solution is necessary instead of standard import tools"
+    },
+    {
+      "text": "If it already exists, edit the existing data, if not, insert the new data.",
+      "why_it_matters": "Describes the import logic that handles both creating new marketing text and updating existing records"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

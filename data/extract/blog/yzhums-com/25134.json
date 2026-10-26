@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/25134",
+  "url": "https://yzhums.com/25134/",
+  "title": "Dynamics 365 Business Central: How to note the records that the user has selected on the Subpage/Lines (Page.SetSelectionFilter in part)",
+  "source": "yzhums-com",
+  "published_at": "2025-06-23T02:34:26.000Z",
+  "words": 363,
+  "summary": "Page.SetSelectionFilter is a method that captures records selected by users on pages or subpages, marks them in the table, and applies a filter. The post explains how to use it both on main pages by accessing subpages via CurrPage and directly on subpage extensions.",
+  "key_points": [
+    "Page.SetSelectionFilter(var Record) gets user-selected records and applies a 'marked only' filter",
+    "On main pages, access subpage selections using CurrPage.{SubpageName}.Page.SetSelectionFilter()",
+    "On subpage extensions, use CurrPage.SetSelectionFilter() directly like normal page usage",
+    "The method marks selected records in the specified table for processing"
+  ],
+  "systems": [
+    "development",
+    "sales"
+  ],
+  "topics": [
+    "page methods",
+    "subpage",
+    "selection",
+    "al development",
+    "records",
+    "filtering"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order Subform"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    }
+  ],
+  "features": [
+    "Page.SetSelectionFilter method",
+    "subpage selection handling",
+    "record filtering",
+    "marked records"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "CurrPage.SalesLines.Page.SetSelectionFilter(Salesline);",
+      "why_it_matters": "Shows the exact syntax for accessing selections on a subpage from the main page, a key practical technique"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

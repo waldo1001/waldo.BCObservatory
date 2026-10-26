@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/yzhums-com/65533",
+  "url": "https://yzhums.com/65533/",
+  "title": "Dynamics 365 Business Central: Automatically enable Allow HttpClient Requests after custom extension/app installation",
+  "source": "yzhums-com",
+  "published_at": "2025-06-26T00:49:00.000Z",
+  "words": 425,
+  "summary": "This post explains how to automatically enable the Allow HttpClient Requests setting for custom extensions during installation using an install codeunit, avoiding the need for manual configuration in each environment.",
+  "key_points": [
+    "HttpClient requests to external services require explicit Allow HttpClient Requests permission in extension settings",
+    "Without this setting enabled, outbound HTTP calls fail and users see blocking dialogs during initial requests",
+    "An install codeunit can automatically enable this setting by modifying the NAV App Setting table during extension installation",
+    "Using an install trigger eliminates manual configuration steps in each Business Central environment"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "httpclient",
+    "extensions",
+    "installation",
+    "external services",
+    "al development",
+    "security settings"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "NAV App Setting"
+    },
+    {
+      "type": "codeunit",
+      "name": "ExtensionHandler"
+    }
+  ],
+  "features": [
+    "HttpClient data type",
+    "Extension Settings",
+    "Allow HttpClient Requests",
+    "Install codeunit",
+    "External service integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "It's therefore important that you check for this in your AL code.",
+      "why_it_matters": "Highlights the need to handle HttpClient request failures due to permission issues in extension development"
+    },
+    {
+      "text": "This setting must be enabled for each app/extension, including library apps.",
+      "why_it_matters": "Explains why automatic enablement during installation is needed to avoid manual repetition across environments"
+    },
+    {
+      "text": "This will automatically enable Allow HttpClient Requests after installation.",
+      "why_it_matters": "Demonstrates the practical solution using install codeunits to streamline extension deployment"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

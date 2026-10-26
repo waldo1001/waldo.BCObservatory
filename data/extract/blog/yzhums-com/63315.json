@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/yzhums-com/63315",
+  "url": "https://yzhums.com/63315/",
+  "title": "Dynamics 365 Business Central: How to change Due Date of posted documents",
+  "source": "yzhums-com",
+  "published_at": "2025-06-18T01:19:05.000Z",
+  "words": 548,
+  "summary": "This post explains how to change the due date of posted sales, purchase, and service documents in Business Central using two standard methods: the Update Document action on posted invoices or direct editing in ledger entries. It describes the relationship between document date, payment terms, and due date calculation.",
+  "key_points": [
+    "Due date is calculated from document date and payment terms code, not posting date, and can be edited after posting",
+    "Posted sales invoices can be modified via the Update Document action which updates both the invoice and related customer ledger entries",
+    "Customer and vendor ledger entries support direct due date editing through the edit list feature",
+    "For purchases, only vendor ledger entries allow due date modification; the posted purchase invoice update page does not include this field"
+  ],
+  "systems": [
+    "sales",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "due date",
+    "posted documents",
+    "ledger entries",
+    "payment terms",
+    "document updates"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Inv. – Update"
+    },
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Payment Terms"
+    }
+  ],
+  "features": [
+    "edit posted documents",
+    "update due date",
+    "customer ledger entries",
+    "vendor ledger entries",
+    "payment terms calculation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Due date in Business Central is the date when something is due to be paid.",
+      "why_it_matters": "Defines the fundamental concept users need to understand before modifying due dates in the system"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
