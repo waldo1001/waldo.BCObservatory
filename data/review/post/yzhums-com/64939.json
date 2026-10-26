@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/64939",
+  "input_hash": "9822c6dfdb2eaef45d7b7394aebf1d90d904206c3e668e25b0f8a0605b4ce173",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.196Z",
+  "issues": [
+    "The key point about BC25 environment update windows overstates a link title that the post only lists in its PS section.",
+    "Quote 1 is just a link title, not substantive content.",
+    "The feature 'environment flexibility' is not really discussed in the post.",
+    "The key points left out the BC25 CU08 and BC24 CU14 build details."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 quote(s)",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

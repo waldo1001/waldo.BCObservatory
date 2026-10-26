@@ -7,10 +7,11 @@
   "words": 355,
   "summary": "The Early Access Preview environment for Dynamics 365 Business Central 2026 release wave 2 (BC29) is now available for testing in select regions. Partners and users can deploy sandbox environments in the US, DE, or GB to explore upcoming features before official release and provide feedback to the engineering team.",
   "key_points": [
-    "Early Access Preview sandboxes are available for BC29 in US, DE, and GB regions only",
-    "Sandboxes automatically receive latest updates throughout the development cycle",
-    "Preview environments are for testing only and cannot be updated to production versions",
-    "Feedback can be submitted directly to the Business Central team through the admin center"
+    "Early Access Preview sandboxes for BC29 can only be created with the US, DE or GB localization",
+    "You choose the version marked Preview when creating or updating a sandbox in the admin center",
+    "Preview sandboxes update automatically, but they may be force updated or deleted and can never move to a production version",
+    "Feedback is sent through the new features banner in the client using the release feedback option",
+    "The test environment ran Platform 29.0.53497.0 with Application 29.0.53512.0"
   ],
   "systems": [
     "platform",

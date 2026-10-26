@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/63913",
+  "input_hash": "50ba100b00218b6e88034fa1a27ae1251c630cb3062f9e1cee63c1669f7a3620",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.085Z",
+  "issues": [
+    "Key point on field monitoring overstates it; the post says field monitoring setup tracks changes only and cannot detect new records.",
+    "Reporting system is weakly supported; the post only mentions a telemetry Power BI report as an example.",
+    "Summary, object, versions and quotes are otherwise supported."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028169,
+    "posts_in_call": 4
+  }
+}

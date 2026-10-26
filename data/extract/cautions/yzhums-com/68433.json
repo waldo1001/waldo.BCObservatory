@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/68433",
+  "page_id": "post/yzhums-com/68433",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Note that this is only for a single execution, the second execution will start from a new GUID.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002578,
+    "posts_in_call": 4
+  }
+}

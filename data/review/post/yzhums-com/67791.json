@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/67791",
+  "input_hash": "b21566bb20acfeeee8eec70b5e5a908a1aa626f5f92b9a88ac9aef29c3461e39",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:06.108Z",
+  "issues": [
+    "The 'reporting' system is not supported; the post covers developer profiling tools in VS Code."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024748,
+    "posts_in_call": 4
+  }
+}

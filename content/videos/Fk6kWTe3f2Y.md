@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:21:45.136Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -135,15 +135,15 @@ links:
       label: possibly related
       why: both name Page 38 "Item Ledger Entries"
       by: code
+    - to: post/yzhums-com/69476
+      title: "Dynamics 365 Business Central: All Copilot and agent capabilities"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
     - to: post/yzhums-com/75131
       title: "Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)"
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
-      by: code
-    - to: post/yzhums-com/74458
-      title: "Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page"
-      label: possibly related
-      why: both name Page 38 "Item Ledger Entries"
       by: code
 video_id: Fk6kWTe3f2Y
 channel: yt-bcmusings
@@ -373,7 +373,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central Blog Series: Item Attributes](../posts/yzhums-com/74523.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central: All Copilot and agent capabilities](../posts/yzhums-com/69476.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../posts/yzhums-com/75131.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../posts/yzhums-com/74458.md) — possibly related: both name Page 38 "Item Ledger Entries"
 
 Presenters (as heard): Marcel Chabot, E.S. Verland.

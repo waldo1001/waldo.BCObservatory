@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/yzhums-com/67462",
+  "page_id": "post/yzhums-com/67462",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "there may be some inconsistency in the defined billing type for the app versus the actual API call to Azure OpenAI in sandboxes.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "The billing information is set up manually by the app developer—it's not automatically inferred at runtime.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003126,
+    "posts_in_call": 4
+  }
+}

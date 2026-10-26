@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/66037",
+  "input_hash": "61233e44a2780ab43f3b691eca783f3f339a2435afb455c90b25415cbf471754",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:41.067Z",
+  "issues": [
+    "Summary and key points accurately reflect the workarounds described.",
+    "Administration system is not supported by the post, which is a development topic."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030102,
+    "posts_in_call": 4
+  }
+}

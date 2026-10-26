@@ -7,10 +7,11 @@
   "words": 560,
   "summary": "Business Central 2026 release wave 2 introduces compiler warnings (AL0914 and AL0915) to alert developers when tables or table extensions contain many fields that approach SQL column limits, helping prevent extensibility issues before deployment fails. The warning triggers when a table exceeds 294 normal fields (plus 6 system fields) or when a table extension adds many fields to an existing table.",
   "key_points": [
-    "New compiler warnings AL0914 and AL0915 detect tables approaching SQL's 1,018 column limit per table",
-    "Tables trigger the warning when they exceed 294 normal fields, excluding the 6 system fields (SystemId, SystemCreatedAt, SystemCreatedBy, SystemModifiedAt, SystemModifiedBy, RowVersion)",
-    "Table extensions trigger similar warnings when adding many fields, with the threshold varying based on how many standard fields the base table already contains",
-    "Deployment errors now provide clearer messages showing which app contributed how many fields when column limits are exceeded"
+    "New compiler warnings flag tables (AL0914) and table extensions (AL0915) that declare a large number of normal fields",
+    "Business Central allows up to 1,018 fields per table because the platform adds 6 system fields to every table",
+    "The author's test shows the table warning starts at roughly 300 fields in total, meaning about 294 normal fields plus the 6 system fields",
+    "For table extensions the trigger count is different, because the base table's standard fields also count",
+    "The deployment error now lists how many fields each source app adds when the column limit is exceeded"
   ],
   "systems": [
     "development",

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:42.437Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -138,7 +138,8 @@ links:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/71836
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -151,7 +152,7 @@ coverage:
   learn: 14
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 906e2d196d5d2f3e083a910f4e2c2a531a6315e8d117d63caae124b08b436ac1
@@ -208,5 +209,11 @@ Start with the overview page and the general processes page. Then work through t
   - In the observatory: [Page 5942 "Repair Status"](../../../../objects/page/5942.md)
 - [Set up troubleshooting processes \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-how-setup-troubleshooting): Learn how to set up processes that help service representatives identify and resolve issues with service items.
 - [Setting up service management \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-setup-service): Overview of tasks to set up Service Management to suit the way that your organizations manages its services.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting](../../../../posts/yzhums-com/71836.md) (community post): "The One Service Item Line/Order setting on the Service Management Setup page"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

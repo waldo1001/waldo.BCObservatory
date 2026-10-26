@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/74594",
+  "page_id": "post/yzhums-com/74594",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "When the sandbox is upgraded, these apps are removed because the environment is moved to another node.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "A Sandbox environment can only be restored to a Sandbox environment.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003749,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/67275",
+  "input_hash": "4b11071912022a4c7db8f707aca4746548dc1ece96cb59a68574936475813b59",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:37.563Z",
+  "issues": [
+    "The post names the G/L Account Card page but never a G/L Account table object, so the table entry is dropped.",
+    "Administration as a system is not supported by the post, which is about finance journals.",
+    "Last key point reworded: the post calls this a Dutch localization feature that is also present in W1."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025518,
+    "posts_in_call": 4
+  }
+}

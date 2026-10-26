@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/76268",
+  "page_id": "post/yzhums-com/76268",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Attempting to disable 'Self-Billing Agreement' while 'Self-Billing Invoice Nos.' contains a value will trigger an error.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Vendor"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004486,
+    "posts_in_call": 4
+  }
+}

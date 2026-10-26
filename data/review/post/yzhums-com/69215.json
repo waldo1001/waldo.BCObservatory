@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/69215",
+  "input_hash": "546bda6cd2ea025ba3350a8e760c37aae1118d68b3f2d7d03210ee94be5d2e48",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:39:22.866Z",
+  "issues": [
+    "All objects appear in the post or its sample code.",
+    "Quote 1 drops the leading article but is otherwise word for word; quote 2 is exact.",
+    "Warning options, workflow approval and the posting-block workaround are described accurately."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024214,
+    "posts_in_call": 4
+  }
+}

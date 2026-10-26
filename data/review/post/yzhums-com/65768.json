@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/65768",
+  "input_hash": "23481fbc44289e582a200d712790e0bf303e4e2ae15333acd650f6b50bd42450",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:51.690Z",
+  "issues": [
+    "Summary, key points, object and quote all match the post.",
+    "The feature tag on automating payment due dates goes beyond the post, which only shows how to calculate due dates and test date formulas."
+  ],
+  "applied": [
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031357,
+    "posts_in_call": 4
+  }
+}

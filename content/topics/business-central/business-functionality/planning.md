@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:38.666Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -128,6 +128,7 @@ links:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
     - post/olofsimren-com/3779
     - post/thedynamicsexplorer-com/7097
+    - post/yzhums-com/71039
   guidelines: []
   changes:
     - change/bcapps/10030
@@ -147,7 +148,7 @@ coverage:
   learn: 9
   code: 26
   video: 0
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 291
@@ -242,6 +243,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (community post): "drop shipment lines are now visible and included in order planning calculations"
 - [Approval Workflows in Planning Worksheet](../../../posts/olofsimren-com/3779.md) (community post): "approval workflow support to planning, requisition, and subcontracting worksheets at the batch level"
 - [Dynamics 365 Business Central – How to use the “Recurring Requisition Worksheet” for Recurring Purchase Orders](../../../posts/thedynamicsexplorer-com/7097.md) (community post): "Recurring Requisition Worksheet automates repeated purchases of the same items by preserving worksheet lines"
+- [Business Central 2026 release wave 1 (BC28): Include approvals for requisition worksheets and item journals in your workflows (New standard workflows)](../../../posts/yzhums-com/71039.md) (community post): "Requisition and planning worksheets can be sent for batch-level approval"
 
 ## Business Central pages and reports
 

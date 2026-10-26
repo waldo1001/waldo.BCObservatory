@@ -5,7 +5,7 @@
   "source": "yzhums-com",
   "published_at": "2026-08-17T00:24:11.000Z",
   "words": 784,
-  "summary": "Business Central query objects retrieve and combine data from one or more tables into rows and columns, supporting calculations like sums and averages. This series covers practical use cases for queries including data analysis, report creation, API development, and filtering.",
+  "summary": "Index page for a blog series on Business Central query objects, which combine records from one or more tables into a single dataset and can compute sums or averages. The linked articles cover column totals, finding duplicates, Tell Me search, report datasets, queries as page sources, API queries, analysis mode, SaveAsJson, column tooltips and new built-in queries.",
   "key_points": [
     "Query objects combine data from multiple tables into unified datasets and perform calculations",
     "Queries can be used as data sources for pages, reports, and custom APIs",
@@ -27,12 +27,7 @@
     "data analysis",
     "filtering"
   ],
-  "objects": [
-    {
-      "type": "query",
-      "name": "Query (general reference)"
-    }
-  ],
+  "objects": [],
   "features": [
     "Query calculations (sum, average)",
     "Query as page data source",

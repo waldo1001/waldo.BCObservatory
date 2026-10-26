@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/63735",
+  "input_hash": "22f73006e0a464a6b98320a82237005ee2e102c35fc69e562477617edc8a0f91",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.418Z",
+  "issues": [
+    "The summary puts 'without customization' on file preview. In the post, that phrase belongs to the BC28 external attachment storage article. For preview, the post only says no JavaScript control add-in is needed.",
+    "The key points, quotes, features and versions are supported by the list of linked articles."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 3
+  }
+}

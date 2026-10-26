@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/75350",
+  "input_hash": "09f9365aba7949c04e4018dd07f066fbda6f3a9b9a2288b6fc9add3bfb0108bd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:22.866Z",
+  "issues": [
+    "Administration is not supported; the post is about building a control add-in, not admin tasks.",
+    "The Geolocation codeunit, the HttpClient setting and the location permission are all in the post; the quote is exact."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024214,
+    "posts_in_call": 4
+  }
+}

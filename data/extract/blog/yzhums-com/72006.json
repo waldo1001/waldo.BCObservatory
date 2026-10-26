@@ -7,10 +7,11 @@
   "words": 749,
   "summary": "BC28 (2026 wave 1) improves manufacturing usability by enhancing serial-tracked item handling in output journals, ensuring capacity and overhead costs post to location-specific WIP accounts, and adding customizable notifications for non-certified BOMs and routings.",
   "key_points": [
-    "Explode Routing now respects item tracking, splitting serial-tracked items into separate journal lines with quantity 1 per serial number",
-    "Capacity and overhead postings now use location codes from production orders, eliminating WIP account imbalances",
-    "New My Notifications setting lets users control warnings for non-certified production BOMs and routings",
-    "Location-specific inventory posting setup no longer required for overhead postings on blank locations"
+    "Explode Routing in the Output Journal now follows item tracking, so serial-tracked items get one line with quantity 1 per serial number while lot-tracked items stay on a single line",
+    "Value entries linked to capacity ledger entries now carry the location code from the production order line or item journal line",
+    "Capacity and overhead postings use the Inventory Posting Setup for the production location, which keeps WIP accounts balanced",
+    "You no longer need an Inventory Posting Setup line for a blank location just to post overhead",
+    "A new My Notifications setting lets each user turn warnings about non-certified production BOMs and routings on or off"
   ],
   "systems": [
     "manufacturing",

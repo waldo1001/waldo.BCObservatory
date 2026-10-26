@@ -14,8 +14,7 @@
     "The solution queries the Comment Line table for vendor records and inserts matching entries into the Purch. Comment Line table."
   ],
   "systems": [
-    "purchasing",
-    "integration"
+    "purchasing"
   ],
   "topics": [
     "comments",
@@ -50,7 +49,6 @@
   "features": [
     "comments",
     "purchase orders",
-    "vendor integration",
     "customization",
     "table extensions",
     "page extensions"

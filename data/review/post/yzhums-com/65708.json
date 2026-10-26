@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/65708",
+  "input_hash": "457a3b332d4bc51dc473ffc1a80f435854ef1300217af4771b4d9e8218a8728d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.812Z",
+  "issues": [
+    "Quote 2 is a bare one-liner that says nothing useful on its own, so it is dropped.",
+    "Summary, key points, objects and versions match the post."
+  ],
+  "applied": [
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028319,
+    "posts_in_call": 4
+  }
+}

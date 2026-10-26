@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:34.799Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -433,6 +433,7 @@ links:
     - video/giNi8WtCX_s
     - video/oIoH3gxc0uk
     - video/Pt8LrNv_Lgc
+    - video/QdWPlIV3Avk
     - video/SdQVQLNXVS0
     - video/sqjb_gsXqM8
     - video/tzX0qB9tiBs
@@ -440,6 +441,11 @@ links:
     - video/xqFpiqmXjk0
   posts:
     - post/olofsimren-com/3545
+    - post/yzhums-com/63708
+    - post/yzhums-com/71239
+    - post/yzhums-com/72006
+    - post/yzhums-com/74091
+    - post/yzhums-com/74172
   guidelines: []
   changes:
     - change/bcapps/10131
@@ -471,8 +477,8 @@ children:
 coverage:
   learn: 65
   code: 110
-  video: 10
-  blog: 1
+  video: 11
+  blog: 6
   guideline: 0
 bc_forms:
   - 50
@@ -665,11 +671,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9803 [master] Variant Code mandatory should not allow to refresh the production order with no variant code](../../../changes/bcapps/9803.md) (code change): "Variant Code mandatory should not allow to refresh the production order"
 - [#9967 [Main]-Production BOM Version certification does not check Variant Mandatory on lines](../../../changes/bcapps/9967.md) (code change): "Production BOM Version certification now validates that variant codes are populated"
 - [Reopen Finished Production Orders](../../../posts/olofsimren-com/3545.md) (community post): "Reopen Finished Production Orders. Business Central now allows users to reopen finished production orders"
+- [Business Central 2025 wave 1 (BC26): Experience improved usability in manufacturing](../../../posts/yzhums-com/63708.md) (community post): "improved usability in manufacturing with bulk status changes for production orders"
+- [Business Central 2026 release wave 1 (BC28): Add the Description 2 field to various pages to gain more insight (planning, routing, production order creation, and related processes)](../../../posts/yzhums-com/71239.md) (community post): "Description 2 field is now available for personalization on multiple pages"
+- [Business Central 2026 release wave 1 (BC28): Experience improved usability in manufacturing](../../../posts/yzhums-com/72006.md) (community post): "improves manufacturing usability by enhancing serial-tracked item handling in output journals"
+- [Dynamics 365 Business Central: How to quickly create Production Orders from Sales Orders](../../../posts/yzhums-com/74091.md) (community post): "Production orders can be created directly from sales orders in Business Central"
+- [Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order](../../../posts/yzhums-com/74172.md) (community post): "pass custom field values from Sales Orders to Production Orders"
 - [What's New in Manufacturing: Costing (2025 release wave 1)](../../../videos/DHODFt_jVO4.md) (video): "Production bill of material and routing on stock keeping unit; Standard cost per stock keeping unit"
 - [Manufacturing Foundations BOM (2026)](../../../videos/GEuUFcgFZF0.md) (video): "bill of materials; production order; assembly; replenishment; components; bom versions"
 - [What's New in Manufacturing: Streamline Product Design (2025 release wave 1)](../../../videos/giNi8WtCX_s.md) (video): "production bom; document attachments; bom versions; version comparison"
 - [Execution & Control Flushing Methods (2026)](../../../videos/oIoH3gxc0uk.md) (video): "flushing methods; production orders; material consumption"
 - [Manufacturing Fundamentals Routing (2026)](../../../videos/Pt8LrNv_Lgc.md) (video): "routing; production order; serial operations; parallel operations; operational times"
+- [What's new in SCM: Subcontracting (2026 release wave 2)](../../../videos/QdWPlIV3Avk.md) (video): "production orders; routing; work in progress items"
 - [What's New in Manufacturing: Order Processing (2025 release wave 1)](../../../videos/SdQVQLNXVS0.md) (video): "production order; usability; bulk status change; attachments; scheduling; safety lead time"
 - [What's New: Supply Chain Management - overview (2026 release wave 1)](../../../videos/sqjb_gsXqM8.md) (video): "Routing Status Change Notification"
 - [What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)](../../../videos/tzX0qB9tiBs.md) (video): "reverse production order transactions; production order reopening"

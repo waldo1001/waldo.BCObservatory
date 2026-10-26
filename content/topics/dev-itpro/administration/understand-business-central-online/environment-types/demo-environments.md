@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:25.430Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,8 @@ links:
     - topic/dev-itpro/administration/understand-business-central-online/environment-types
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/72433
   guidelines: []
 learn_toc_path:
   - Administration
@@ -74,7 +75,7 @@ coverage:
   learn: 4
   code: 2
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 2500
@@ -143,6 +144,12 @@ A further page covers enhancements to demo environments, such as adding Contoso 
   - Partners can request dedicated partner sandbox licenses starting February 2022 to set up more sandbox environments.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [How to create a new Demo & Trial Business Central tenant via Microsoft Demo eXperiences (MDX) – formerly CDX](../../../../../posts/yzhums-com/72433.md) (community post): "Trial tenants are claimed through the Experiences section by selecting an experience and choosing 'Claim new tenant'"
 
 ## Business Central pages and reports
 

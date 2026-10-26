@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:01.578Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,7 +100,9 @@ links:
   localizations: []
   videos:
     - video/z7UTBiCNOo8
-  posts: []
+  posts:
+    - post/yzhums-com/69812
+    - post/yzhums-com/76763
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -112,7 +114,7 @@ coverage:
   learn: 8
   code: 9
   video: 1
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms:
   - 680
@@ -172,6 +174,8 @@ Start with the landing page, then go to "Run and print reports" for the basic wo
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central: How to view excel reports (Excel Layout) directly from the web without downloading files (Excel Online)](../../../posts/yzhums-com/69812.md) (community post): "Excel layouts in Business Central can be viewed directly in a web browser"
+- [Dynamics 365 Business Central: How to quickly copy a report layout (Create a copy of the selected layout)](../../../posts/yzhums-com/76763.md) (community post): "Users can quickly copy an existing layout by selecting it, toggling 'Save Changes to Copy'"
 - [What's Cooking in Business Central: Excel Reports that Become Generally Available](../../../videos/z7UTBiCNOo8.md) (video): "Report Customization in Excel; Slicer Controls for Report Filtering"
 
 ## Business Central pages and reports

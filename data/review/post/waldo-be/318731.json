@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/waldo-be/318731",
+  "input_hash": "4c60238e7d9cfa14a980cb205808db421487e38bb9e07ea9c27c02cc6bd699f3",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:38:46.069Z",
+  "issues": [
+    "Counts, pipeline design, install method and Learn MCP comparison all supported.",
+    "Codeunits 1886 and 80 are named in the post; quote text exists though split across two paragraphs.",
+    "Administration system is a loose fit but defensible via the environment copy cleanup example."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034414,
+    "posts_in_call": 4
+  }
+}

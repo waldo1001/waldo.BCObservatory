@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/75811",
+  "input_hash": "ea5610ea61b631e8a73a5d6065ae93f8277572fc717cf6ad7bffb8c4ec3aded0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:12.578Z",
+  "issues": [
+    "Several key points presented existing BC24 chat capabilities as new; reworded to separate background from the BC29 change.",
+    "Sales is only mentioned as an example query, not a subject of the post; dropped that system."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032632,
+    "posts_in_call": 4
+  }
+}

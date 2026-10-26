@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:22:37.806Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,6 +73,16 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/69918
+      title: "Dynamics 365 Business Central: Cancelling a scheduled PTE update install (Next Major/Next Minor)"
+      label: possibly related
+      why: both name Page 2500 "Extension Management"
+      by: code
+    - to: post/yzhums-com/65391
+      title: "Dynamics 365 Business Central: How to set Allow HttpClient Requests for multiple extensions (selected extensions) at the same time"
+      label: possibly related
+      why: both name Page 2500 "Extension Management"
+      by: code
     - to: post/yzhums-com/74541
       title: "Dynamics 365 Business Central: Upload, install, and manage PTEs in the admin center (Remove ability to upload and install PTEs from Extension Management page)"
       label: possibly related
@@ -233,5 +243,7 @@ Not found in BC28-30: page "External File Accounts", page "Set Up External File 
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Dynamics 365 Business Central: Cancelling a scheduled PTE update install (Next Major/Next Minor)](../posts/yzhums-com/69918.md) — possibly related: both name Page 2500 "Extension Management"
+- [Dynamics 365 Business Central: How to set Allow HttpClient Requests for multiple extensions (selected extensions) at the same time](../posts/yzhums-com/65391.md) — possibly related: both name Page 2500 "Extension Management"
 - [Dynamics 365 Business Central: Upload, install, and manage PTEs in the admin center (Remove ability to upload and install PTEs from Extension Management page)](../posts/yzhums-com/74541.md) — possibly related: both name Page 2500 "Extension Management"
 - [How I Recreated the Extension Upload Experience in Business Central](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8.md) — possibly related: both name Page 2500 "Extension Management"

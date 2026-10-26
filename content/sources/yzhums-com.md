@@ -2,7 +2,7 @@
 id: source/yzhums-com
 type: source
 title: Dynamics 365 Lab - Yun Zhu
-summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 177 posts in the knowledge base, 2026-02-12 to 2026-10-26, mostly about administration, development, platform."
+summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 374 posts in the knowledge base, 2025-04-28 to 2026-10-26, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-26T05:30:48.114Z"
+  at: "2026-10-26T05:51:10.938Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: df7f840b41d092b74be6a864803d005caa619604b31a7be45f348dd2ba7c17e7
+  input_hash: 02dd9eb4bca0088c8169bad11457cfe65501556009143c7aa1c97d6824f4deb7
 evidence:
   - kind: blog
     url: https://yzhums.com
@@ -33,6 +33,202 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/yzhums-com/61951
+    - post/yzhums-com/63730
+    - post/yzhums-com/63735
+    - post/yzhums-com/63736
+    - post/yzhums-com/63749
+    - post/yzhums-com/63762
+    - post/yzhums-com/63801
+    - post/yzhums-com/62513
+    - post/yzhums-com/63887
+    - post/yzhums-com/63848
+    - post/yzhums-com/63897
+    - post/yzhums-com/63595
+    - post/yzhums-com/63559
+    - post/yzhums-com/64010
+    - post/yzhums-com/64057
+    - post/yzhums-com/64042
+    - post/yzhums-com/63803
+    - post/yzhums-com/63708
+    - post/yzhums-com/64155
+    - post/yzhums-com/56046
+    - post/yzhums-com/53887
+    - post/yzhums-com/64277
+    - post/yzhums-com/63644
+    - post/yzhums-com/63097
+    - post/yzhums-com/62368
+    - post/yzhums-com/64474
+    - post/yzhums-com/57334
+    - post/yzhums-com/61561
+    - post/yzhums-com/63922
+    - post/yzhums-com/64392
+    - post/yzhums-com/64775
+    - post/yzhums-com/64609
+    - post/yzhums-com/64898
+    - post/yzhums-com/64939
+    - post/yzhums-com/62564
+    - post/yzhums-com/63320
+    - post/yzhums-com/65052
+    - post/yzhums-com/65156
+    - post/yzhums-com/65164
+    - post/yzhums-com/61902
+    - post/yzhums-com/63942
+    - post/yzhums-com/63315
+    - post/yzhums-com/65391
+    - post/yzhums-com/25134
+    - post/yzhums-com/65426
+    - post/yzhums-com/65326
+    - post/yzhums-com/65533
+    - post/yzhums-com/65522
+    - post/yzhums-com/65570
+    - post/yzhums-com/63916
+    - post/yzhums-com/65525
+    - post/yzhums-com/64874
+    - post/yzhums-com/65578
+    - post/yzhums-com/65710
+    - post/yzhums-com/65721
+    - post/yzhums-com/62936
+    - post/yzhums-com/65781
+    - post/yzhums-com/65768
+    - post/yzhums-com/65762
+    - post/yzhums-com/65708
+    - post/yzhums-com/65908
+    - post/yzhums-com/64265
+    - post/yzhums-com/65320
+    - post/yzhums-com/65857
+    - post/yzhums-com/66056
+    - post/yzhums-com/64982
+    - post/yzhums-com/65999
+    - post/yzhums-com/66037
+    - post/yzhums-com/66212
+    - post/yzhums-com/66277
+    - post/yzhums-com/63913
+    - post/yzhums-com/66403
+    - post/yzhums-com/66410
+    - post/yzhums-com/56173
+    - post/yzhums-com/66463
+    - post/yzhums-com/64148
+    - post/yzhums-com/66210
+    - post/yzhums-com/66461
+    - post/yzhums-com/66542
+    - post/yzhums-com/66721
+    - post/yzhums-com/66714
+    - post/yzhums-com/31884
+    - post/yzhums-com/16503
+    - post/yzhums-com/56521
+    - post/yzhums-com/66675
+    - post/yzhums-com/67043
+    - post/yzhums-com/61818
+    - post/yzhums-com/67058
+    - post/yzhums-com/61543
+    - post/yzhums-com/67162
+    - post/yzhums-com/67105
+    - post/yzhums-com/67294
+    - post/yzhums-com/67310
+    - post/yzhums-com/67343
+    - post/yzhums-com/67399
+    - post/yzhums-com/67392
+    - post/yzhums-com/67446
+    - post/yzhums-com/67462
+    - post/yzhums-com/67492
+    - post/yzhums-com/67542
+    - post/yzhums-com/67489
+    - post/yzhums-com/67560
+    - post/yzhums-com/67592
+    - post/yzhums-com/67623
+    - post/yzhums-com/67657
+    - post/yzhums-com/63766
+    - post/yzhums-com/67675
+    - post/yzhums-com/67705
+    - post/yzhums-com/67740
+    - post/yzhums-com/67761
+    - post/yzhums-com/67791
+    - post/yzhums-com/67809
+    - post/yzhums-com/67838
+    - post/yzhums-com/67858
+    - post/yzhums-com/67896
+    - post/yzhums-com/67949
+    - post/yzhums-com/67990
+    - post/yzhums-com/67988
+    - post/yzhums-com/68043
+    - post/yzhums-com/68087
+    - post/yzhums-com/68082
+    - post/yzhums-com/67892
+    - post/yzhums-com/68178
+    - post/yzhums-com/68207
+    - post/yzhums-com/68239
+    - post/yzhums-com/68230
+    - post/yzhums-com/68174
+    - post/yzhums-com/68077
+    - post/yzhums-com/68328
+    - post/yzhums-com/68406
+    - post/yzhums-com/68438
+    - post/yzhums-com/68433
+    - post/yzhums-com/67552
+    - post/yzhums-com/68428
+    - post/yzhums-com/68492
+    - post/yzhums-com/68484
+    - post/yzhums-com/68482
+    - post/yzhums-com/67275
+    - post/yzhums-com/68624
+    - post/yzhums-com/68075
+    - post/yzhums-com/68672
+    - post/yzhums-com/68658
+    - post/yzhums-com/68731
+    - post/yzhums-com/68765
+    - post/yzhums-com/64942
+    - post/yzhums-com/68854
+    - post/yzhums-com/68861
+    - post/yzhums-com/68873
+    - post/yzhums-com/68932
+    - post/yzhums-com/68956
+    - post/yzhums-com/68975
+    - post/yzhums-com/68813
+    - post/yzhums-com/69023
+    - post/yzhums-com/69067
+    - post/yzhums-com/68786
+    - post/yzhums-com/69110
+    - post/yzhums-com/69019
+    - post/yzhums-com/51041
+    - post/yzhums-com/69185
+    - post/yzhums-com/64478
+    - post/yzhums-com/69256
+    - post/yzhums-com/69209
+    - post/yzhums-com/69290
+    - post/yzhums-com/69356
+    - post/yzhums-com/69405
+    - post/yzhums-com/69332
+    - post/yzhums-com/69444
+    - post/yzhums-com/69075
+    - post/yzhums-com/69476
+    - post/yzhums-com/69639
+    - post/yzhums-com/69656
+    - post/yzhums-com/69681
+    - post/yzhums-com/69433
+    - post/yzhums-com/69722
+    - post/yzhums-com/69809
+    - post/yzhums-com/40193
+    - post/yzhums-com/69918
+    - post/yzhums-com/69896
+    - post/yzhums-com/70008
+    - post/yzhums-com/69978
+    - post/yzhums-com/70075
+    - post/yzhums-com/70070
+    - post/yzhums-com/68755
+    - post/yzhums-com/70137
+    - post/yzhums-com/70117
+    - post/yzhums-com/41471
+    - post/yzhums-com/69120
+    - post/yzhums-com/70273
+    - post/yzhums-com/70325
+    - post/yzhums-com/70354
+    - post/yzhums-com/70369
+    - post/yzhums-com/48974
+    - post/yzhums-com/70415
+    - post/yzhums-com/70491
+    - post/yzhums-com/70502
+    - post/yzhums-com/70481
     - post/yzhums-com/70554
     - post/yzhums-com/70588
     - post/yzhums-com/69961
@@ -169,6 +365,7 @@ links:
     - post/yzhums-com/75649
     - post/yzhums-com/75574
     - post/yzhums-com/75718
+    - post/yzhums-com/75730
     - post/yzhums-com/75746
     - post/yzhums-com/75774
     - post/yzhums-com/75794
@@ -217,75 +414,75 @@ url: https://yzhums.com
 author: Yun Zhu
 mvp: true
 full_text: false
-item_count: 177
+item_count: 374
 footprint:
   systems:
-    - id: administration
-      weight: 108
     - id: development
-      weight: 104
+      weight: 277
+    - id: administration
+      weight: 193
     - id: platform
-      weight: 96
-    - id: reporting
-      weight: 47
+      weight: 183
     - id: sales
-      weight: 41
-    - id: finance
-      weight: 37
+      weight: 85
+    - id: reporting
+      weight: 72
+    - id: integration
+      weight: 64
   topics:
+    - id: al development
+      weight: 64
     - id: bc28
       weight: 27
-    - id: bc29
-      weight: 18
-    - id: al development
-      weight: 15
-    - id: release wave 2
-      weight: 13
-    - id: release wave 1
-      weight: 9
-    - id: admin center
-      weight: 8
-    - id: user interface
-      weight: 8
+    - id: bc27
+      weight: 23
     - id: customization
-      weight: 7
-    - id: access control
-      weight: 6
-    - id: al code
-      weight: 6
+      weight: 22
+    - id: bc29
+      weight: 19
+    - id: release wave 2
+      weight: 18
+    - id: al language
+      weight: 16
+    - id: admin center
+      weight: 15
+    - id: copilot
+      weight: 15
+    - id: on-premises
+      weight: 15
   objects:
-    - id: page Item Card
-      weight: 7
-    - id: page Item List
-      weight: 6
     - id: table Customer
-      weight: 6
-    - id: page Item Ledger Entries
-      weight: 4
+      weight: 13
     - id: table Sales Header
-      weight: 4
-    - id: page Table Information
-      weight: 3
-    - id: codeunit Purch.-Post
-      weight: 2
-    - id: codeunit Sales-Post
-      weight: 2
-    - id: codeunit Type Helper
-      weight: 2
+      weight: 11
     - id: page Customer Card
-      weight: 2
-    - id: page Database Missing Indexes
-      weight: 2
-    - id: page Database Wait Statistics
-      weight: 2
+      weight: 10
+    - id: page Item Card
+      weight: 9
+    - id: page Item List
+      weight: 9
+    - id: page Customer List
+      weight: 7
+    - id: page Sales Order
+      weight: 7
+    - id: table Sales Line
+      weight: 7
+    - id: page Vendor Card
+      weight: 6
+    - id: codeunit Temp Blob
+      weight: 5
+    - id: codeunit Type Helper
+      weight: 5
+    - id: page Item Ledger Entries
+      weight: 5
   features: []
-first_item: "2026-02-12"
+first_item: "2025-04-28"
 last_item: "2026-10-26"
 ---
 
 # Dynamics 365 Lab - Yun Zhu
 
-> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 177 posts in the knowledge base, 2026-02-12 to 2026-10-26, mostly about administration, development, platform.
+> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 374 posts in the knowledge base, 2025-04-28 to 2026-10-26, mostly about development, administration, platform.
 
 [https://yzhums.com](https://yzhums.com) · blog · tier community
 
@@ -293,26 +490,29 @@ last_item: "2026-10-26"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| administration (108) | bc28 (27) | page Item Card (7) |
-| development (104) | bc29 (18) | page Item List (6) |
-| platform (96) | al development (15) | table Customer (6) |
-| reporting (47) | release wave 2 (13) | page Item Ledger Entries (4) |
-| sales (41) | release wave 1 (9) | table Sales Header (4) |
-| finance (37) | admin center (8) | page Table Information (3) |
-|  | user interface (8) | codeunit Purch.-Post (2) |
-|  | customization (7) | codeunit Sales-Post (2) |
-|  | access control (6) | codeunit Type Helper (2) |
-|  | al code (6) | page Customer Card (2) |
-|  |  | page Database Missing Indexes (2) |
-|  |  | page Database Wait Statistics (2) |
+| development (277) | al development (64) | table Customer (13) |
+| administration (193) | bc28 (27) | table Sales Header (11) |
+| platform (183) | bc27 (23) | page Customer Card (10) |
+| sales (85) | customization (22) | page Item Card (9) |
+| reporting (72) | bc29 (19) | page Item List (9) |
+| integration (64) | release wave 2 (18) | page Customer List (7) |
+|  | al language (16) | page Sales Order (7) |
+|  | admin center (15) | table Sales Line (7) |
+|  | copilot (15) | page Vendor Card (6) |
+|  | on-premises (15) | codeunit Temp Blob (5) |
+|  |  | codeunit Type Helper (5) |
+|  |  | page Item Ledger Entries (5) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
-- 2026-Q1: **************************************** 42
+- 2025-Q2: **************************************** 50
+- 2025-Q3: **************************************** 67
+- 2025-Q4: **************************************** 55
+- 2026-Q1: **************************************** 66
 - 2026-Q2: **************************************** 49
-- 2026-Q3: **************************************** 68
+- 2026-Q3: **************************************** 69
 - 2026-Q4: ****************** 18
 
 ## Most recent

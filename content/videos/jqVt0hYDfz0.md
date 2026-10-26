@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:51:27.824Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -117,6 +117,16 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/62936
+      title: "Dynamics 365 Business Central: How to show more than 999+ in Cue on Role Centers (Show actual numbers instead of 999+)"
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
+    - to: post/yzhums-com/66410
+      title: How to open another page instead of Role Center when launching Business Central (Automatically skip the Role Center page)
+      label: possibly related
+      why: both name Page 9305 "Sales Order List"
+      by: code
     - to: video/YX9UfUF0EsA
       title: "Microsoft presents: Introducing M365 Copilot Chat in Business Central"
       label: possibly related
@@ -301,6 +311,8 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Dynamics 365 Business Central: How to show more than 999+ in Cue on Role Centers (Show actual numbers instead of 999+)](../posts/yzhums-com/62936.md) — possibly related: both name Page 9305 "Sales Order List"
+- [How to open another page instead of Role Center when launching Business Central (Automatically skip the Role Center page)](../posts/yzhums-com/66410.md) — possibly related: both name Page 9305 "Sales Order List"
 - [Microsoft presents: Introducing M365 Copilot Chat in Business Central](../videos/YX9UfUF0EsA.md) — possibly related: both name Page 9305 "Sales Order List"
 - [What's New: Data Analysis (2025 release wave 1)](../videos/Rh1AFX9A1x4.md) — possibly related: both name Page 9305 "Sales Order List"
 - [What's New: Enhanced Sales Analytics (2026 release wave 1)](../videos/fJGY6d-2lO8.md) — possibly related: both name Page 9305 "Sales Order List"

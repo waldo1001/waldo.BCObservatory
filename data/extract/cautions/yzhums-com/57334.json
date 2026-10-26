@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/57334",
+  "page_id": "post/yzhums-com/57334",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If the field you're adding to the DropDown has Visibility = false on the underlying lookup page, it won't show up in the drop-down.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

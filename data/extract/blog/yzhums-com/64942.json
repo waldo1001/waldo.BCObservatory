@@ -7,10 +7,11 @@
   "words": 698,
   "summary": "Conditional breakpoints allow developers to pause code execution only when specified conditions are met during AL debugging in Business Central. This feature lets you filter breakpoints by variable or field values, reducing unnecessary pauses and focusing debugging efforts on specific scenarios.",
   "key_points": [
-    "Set conditional breakpoints by right-clicking the code margin and selecting Add Conditional Breakpoint, or edit existing breakpoints to add conditions",
-    "Conditions use comparison operators and can evaluate multiple criteria with AND/OR logic, supporting simple types like Text, Integer, and complex types like Array and Record starting in version 26",
-    "Only trigger breakpoints when conditions are true, such as when a specific record number is accessed, avoiding constant stops during irrelevant code flow",
-    "Supported operators include equality, comparison (<, >, <=, >=), logical operators (AND, OR, NOT), and numeric negation"
+    "Add a conditional breakpoint by right-clicking the editor margin, or edit an existing breakpoint, then enter an expression in the inline dialog.",
+    "Execution stops only when the expression is true, for example Rec.\"No.\" equal to a specific posted sales invoice number.",
+    "Literal comparisons work with simple types such as Integer, Decimal, Code, Text, Boolean, Option and Enum; arrays, lists, dictionaries, record fields and variants need version 26 or later.",
+    "Comparison operators are always available, while numeric negation, NOT and AND/OR with parentheses arrive in version 26.",
+    "Clearing the condition turns the breakpoint back into a normal one."
   ],
   "systems": [
     "development",
@@ -28,7 +29,6 @@
   "features": [
     "conditional breakpoints",
     "AL debugger",
-    "code filtering",
     "expression evaluation"
   ],
   "versions": [

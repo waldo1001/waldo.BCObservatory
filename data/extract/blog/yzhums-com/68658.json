@@ -5,16 +5,15 @@
   "source": "yzhums-com",
   "published_at": "2025-10-30T01:48:45.000Z",
   "words": 526,
-  "summary": "Setting minimum and maximum numeric values for fields in Business Central can be done using MinValue/MaxValue properties or OnValidate triggers. The property-based approach validates only through the UI, while OnValidate triggers provide more control and validate application code changes.",
+  "summary": "Business Central offers two simple ways to limit numeric field values: the MinValue and MaxValue properties on table or page fields, or custom range checks in OnValidate triggers. The properties are only checked when values change through the UI, not when application code sets the field, and they cannot exclude the boundary values.",
   "key_points": [
-    "MinValue and MaxValue properties restrict field values at the table and page control levels with built-in validation messages.",
-    "Properties validate only UI changes; direct table updates via code bypass validation.",
-    "OnValidate triggers on table fields run before page field triggers and allow custom range logic.",
-    "Properties cannot enforce exclusive bounds; OnValidate triggers enable stricter constraints like greater-than-zero-only rules."
+    "MinValue and MaxValue on a table or page field enforce an inclusive range and show a standard error when a value falls outside it.",
+    "The property check runs for UI updates on pages or direct table edits, but not when application code assigns the value.",
+    "Properties cannot express strict bounds such as only values above zero.",
+    "An OnValidate trigger on the table field can hold custom range logic and raise an error; it runs before the page field OnValidate trigger."
   ],
   "systems": [
-    "development",
-    "administration"
+    "development"
   ],
   "topics": [
     "field validation",

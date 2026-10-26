@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/63762",
+  "input_hash": "01ddacf10d7f05a07ebb924a4f06a922089b5ab488daa8e5b0d236dcaa3c1f3c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.384Z",
+  "issues": [
+    "The Tenant Media, All Control Fields and Page Action tables and FileManagement are all named in the article titles.",
+    "The summary and key points match the topics listed in the series.",
+    "The quote matches the title of the BC25 post on dragging and dropping files."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

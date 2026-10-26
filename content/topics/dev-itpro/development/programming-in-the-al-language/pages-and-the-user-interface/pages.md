@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:02.327Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -297,12 +297,19 @@ links:
     - post/aardvarklabs-blog/2936
     - post/demiliani-com/12439
     - post/gerardorenteria-blog/14993
+    - post/yzhums-com/25134
+    - post/yzhums-com/63922
+    - post/yzhums-com/65156
+    - post/yzhums-com/65320
+    - post/yzhums-com/66542
+    - post/yzhums-com/71582
   guidelines: []
   changes:
     - change/bcapps/10377
     - change/bcapps/11901
     - change/bcapps/11920
     - change/bcapps/11960
+    - change/bcapps/12927
     - change/bcquality/117
     - change/bcquality/160
 learn_toc_path:
@@ -317,7 +324,7 @@ coverage:
   learn: 33
   code: 0
   video: 1
-  blog: 5
+  blog: 11
   guideline: 0
 bc_forms: []
 member_hash: 181f7afb514c5280b30dcfe6b295f39a7433117d6ea6eddd11fd76cbbb17916a
@@ -413,6 +420,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11901 Fix expense policy category mode](../../../../../changes/bcapps/11901.md) (code change): "The category field is locked when the Expense Policies page is opened"
 - [#11920 Add title to field monitoring feature pages](../../../../../changes/bcapps/11920.md) (code change): "Field Monitoring Setup, Monitored Field Log Entries and Monitored Fields Worksheet pages now have a title"
 - [#11960 [BC14] Classify historical entry pages as Archive in Tell Me](../../../../../changes/bcapps/11960.md) (code change): "Changed UsageCategory from Lists to History on five read-only historical entry pages"
+- [#12927 Add AboutTitle and AboutText to Workflow Categories page](../../../../../changes/bcapps/12927.md) (code change): "Added AboutTitle and AboutText properties to Workflow Categories page"
 - [#117 tooltip: PR review flags genuinely-missing tooltips instead of deferring to AA0218](../../../../../changes/bcquality/117.md) (code change): "PR review now independently flags genuinely missing tooltips on page fields"
 - [#160 Clarify page field caption and tooltip inheritance](../../../../../changes/bcquality/160.md) (code change): "bound page fields inherit Caption and, from BC24 runtime 13.0, ToolTip"
 - [Effortless Layout Editing in Business Central](../../../../../posts/aardvarklabs-blog/1756.md) (community post): "Pressing F6 in VS Code starts Business Central in Designer Mode"
@@ -420,6 +428,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Integrating Analysis Views in Business Central Extensions](../../../../../posts/aardvarklabs-blog/2936.md) (community post): "AL runtime 17.0 adds an analysisviews section to pages and page extensions"
 - [Dynamics 365 Business Central: controlling the Summary system part.](../../../../../posts/demiliani-com/12439.md) (community post): "Developers can control the Summary part using the DefaultSummaryPart identifier on Card, Document, and ListPlus pages"
 - [🧭 Page Explorer for Business Central: everything a page hides, in plain sight](../../../../../posts/gerardorenteria-blog/14993.md) (community post): "It uses the native Page Summary Provider codeunit to parse page metadata"
+- [Dynamics 365 Business Central: How to note the records that the user has selected on the Subpage/Lines (Page.SetSelectionFilter in part)](../../../../../posts/yzhums-com/25134.md) (community post): "Page.SetSelectionFilter gets user-selected records and applies a 'marked only' filter"
+- [Dynamics 365 Business Central: How to use Page.SetSelectionFilter Method in temporary records](../../../../../posts/yzhums-com/63922.md) (community post): "Page.SetSelectionFilter marks user-selected records but doesn't work directly with temporary records"
+- [Dynamics 365 Business Central: How to change Zero (0) of Flowfield field to Dash (-) on the page](../../../../../posts/yzhums-com/65156.md) (community post): "BlankZero property set to true hides zero values and displays them"
+- [Dynamics 365 Business Central: About the size of the value displayed on the card/document page (textbox too small to read?)](../../../../../posts/yzhums-com/65320.md) (community post): "The MultiLine property combined with a wrapper group and ShowCaption"
+- [Dynamics 365 Business Central: What does the category (Lists, Tasks, Administration, Archive……) mean when searching from Tell Me? (Usage Category)](../../../../../posts/yzhums-com/66542.md) (community post): "UsageCategory is an AL property that makes pages, reports, and queries searchable"
+- [Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page](../../../../../posts/yzhums-com/71582.md) (community post): "dynamically show or hide subform fields based on a value in the main page"
 - [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../../../../../videos/jqVt0hYDfz0.md) (video): "page extension; profile customization; personalization"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

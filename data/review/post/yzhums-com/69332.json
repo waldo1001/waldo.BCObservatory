@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/69332",
+  "input_hash": "6910ca811789522e4622a4570dd9ec0f35759dfdfb2ee77bd22a1e6d4c246ed2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:18.698Z",
+  "issues": [
+    "The second key point says Korea came out low in the AzureSpeed latency test. The post's AzureSpeed results only list Southeast Asia, Japan West and Japan East. Korea appears only in the list of regions shown on the Troubleshooting Connectivity page.",
+    "The language key point says Microsoft gives no first-party translations for non-W1 versions. The post says Simplified Chinese works like other W1 languages, where partners provide the translation packs.",
+    "The Microsoft 365 integration feature is not supported. The post only says Business Central shows up in Microsoft 365 Home."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.046414,
+    "posts_in_call": 4
+  }
+}

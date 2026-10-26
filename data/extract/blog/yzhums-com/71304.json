@@ -5,12 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2026-03-10T01:13:19.000Z",
   "words": 563,
-  "summary": "BC28 introduces the ability to create purchase orders directly from drop shipment sales orders using the Create Purchase Orders action. The Order Planning and Planning Worksheet pages now include dedicated drop shipment functionality to streamline the process of vendors shipping items directly to customers.",
+  "summary": "BC28 lets users create purchase orders straight from sales orders marked for drop shipment via the Create Purchase Orders action, which previously did not support drop shipments. Order Planning now includes drop shipment lines in Calculate Plan, and the Planning Worksheet gains a Drop Shipment action group with Get Sales Orders and Sales Orders actions.",
   "key_points": [
-    "Purchase orders can be generated directly from drop shipment sales orders in BC28 using Create Purchase Orders action",
-    "Order Planning and Planning Worksheet pages include new dedicated drop shipment action groups",
-    "Drop shipment lines are automatically included in order planning and calculation",
-    "You can specify customer address and link sales and purchase orders to instruct vendors to ship directly to customers"
+    "Create Purchase Orders action now works for sales orders set up for drop shipment in BC28",
+    "Vendor on suggested lines comes from the Item Card or Stockkeeping Unit Card and can be changed",
+    "Order Planning's Calculate Plan now includes drop shipment lines",
+    "Planning Worksheet has a new Drop Shipment action group with Get Sales Orders and Sales Orders, similar to the requisition worksheet",
+    "Classic method still works: Drop Shipment checkbox on sales line, purchase order with Ship-to Customer Address, then Get Sales Order"
   ],
   "systems": [
     "purchasing",

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/72767",
+  "input_hash": "f115f7a64f6f8bd5c0d9e12c31fd3dee142101ac631ee41d34696d37692a13fe",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:14.576Z",
+  "issues": [
+    "A key point says versions 25 through 14 are End of Life. The post marks version 14 as end of mainstream support, and 15 through 25 plus 13 as End of Life.",
+    "The summary overstates the Admin Center change. The post only notes that full Country/Region names are now shown."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026437,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/76631",
+  "input_hash": "810cd547ed5980ea1f44199de1505ad291f7cb76b5bd662051d559f1dee2386b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:38:50.159Z",
+  "issues": [
+    "Summary, key points and quotes match the post.",
+    "Feature 'deprecation timeline tracking' is not a product feature; the post only mentions the obsolete-to-removal period in a side note."
+  ],
+  "applied": [
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032909,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/70931",
+  "input_hash": "3c46e7a56f66495fd12e31f4c0ccb7798581b7a4b18eece7bf2ce0ebba12f118",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:40:24.517Z",
+  "issues": [
+    "Summary and key points match the post: the TAB is built from character code 9 in a Char variable and joined with plus in a QR code string.",
+    "All objects appear in the post's code or are named in the text (Type Helper).",
+    "Both quotes are near-verbatim; only the quote marks around TAB were removed."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036198,
+    "posts_in_call": 4
+  }
+}

@@ -6,15 +6,14 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Resolved an AL1430 analyzer warning by removing redundant sorting logic from a report, eliminating the need for a temporary ruleset exception without requiring schema changes.",
+  "summary": "Resolved an AL1430 analyzer finding in the IN GST Stock Register for Job Work report by removing redundant sorting on Purch. Rcpt. Line, then removed the temporary AL1430 ruleset exception. No table key or schema change was needed.",
   "key_points": [
-    "Removed redundant sorting on extension fields that was causing AL1430 warning",
-    "Sorting fields were already fixed by DataItemLink, making explicit sorting unnecessary",
-    "Eliminated temporary ruleset exception for AL1430",
-    "No table key or schema changes required",
-    "Improves code quality by removing dead code"
+    "Removed redundant sorting on Prod. Order No. and Prod. Order Line No. and its suppression",
+    "Both fields were already fixed by DataItemLink, so the sort had no effect",
+    "Removed the temporary AL1430 exception from the ruleset",
+    "No table key or schema change required"
   ],
-  "change_kind": "fix",
+  "change_kind": "refactor",
   "behavior_change": false,
   "breaking": false,
   "obsoletions": [],

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/68207",
+  "page_id": "post/yzhums-com/68207",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "According to my tests, this is only available in Business Central 2025 wave 2 (BC27), not in BC26.5 and prior.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003678,
+    "posts_in_call": 4
+  }
+}

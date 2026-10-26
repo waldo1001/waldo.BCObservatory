@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/63559",
+  "input_hash": "97dd351ebb8102b7aceb0ca247ae2349ecc0d075a1db86524c4b1455156dd0e4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.324Z",
+  "issues": [
+    "Nothing in the post supports the integration system, so it is dropped.",
+    "The summary and key points correctly describe the event subscriber approach and the new action approach."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

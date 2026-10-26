@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/69896",
+  "input_hash": "61bcfa81ae9c3c1001d79961c1083337297179738f3a6c952674b5536ec7f867",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:41:18.031Z",
+  "issues": [
+    "Summary, key points, objects and quotes match the post.",
+    "The 2025 release wave 2 version only appears in the description of the Summary system part, which is marginal but present.",
+    "Multi-line text is loosely supported by the CRLF joining in the code and a linked tip."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.042489,
+    "posts_in_call": 4
+  }
+}

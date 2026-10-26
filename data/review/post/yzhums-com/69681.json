@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/69681",
+  "input_hash": "8f75df2c289b56ef7e170877d9800233e6265d8706744d52d152484d8ca472c9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:21.552Z",
+  "issues": [
+    "The summary claims the list covers early 2026, but every listed post is dated 2025.",
+    "The key point claiming 200+ posts from 2025-2026 cannot be checked because the text is cut off, and the date range is wrong. I rewrote the key points.",
+    "The quote is only a post title, but it is accurate, so I kept it."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.052458,
+    "posts_in_call": 4
+  }
+}

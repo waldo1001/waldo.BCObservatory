@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:09.606Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,9 @@ links:
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/64474
+    - post/yzhums-com/70836
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -74,7 +76,7 @@ coverage:
   learn: 4
   code: 2
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms:
   - 1978
@@ -114,6 +116,13 @@ Start with the overview page, then follow the setup page to configure the enviro
 - [Set Up Access with Microsoft 365 Licenses](https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-setup): A guide to how administrators can configure access to Business Central with Microsoft 365 licenses.
   - In the observatory: [Page 1801 "Assisted Setup"](../../../../../objects/page/1801.md), [Page 9800 "Users"](../../../../../objects/page/9800.md)
 - [User Access Flow for Microsoft 365 Licenses](https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-flow): Get an overview of what happens when a user accesses Business Central data using their Microsoft 365 license for the first time.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central: How to check whether the current user has only the Microsoft 365 Plan in AL](../../../../../posts/yzhums-com/64474.md) (community post): "Users with only Microsoft 365 licenses can access Business Central through Microsoft Teams"
+- [Dynamics 365 Business Central: Set up access to Business Central with Microsoft 365 licenses within BC (Not in Admin Center)](../../../../../posts/yzhums-com/70836.md) (community post): "Microsoft 365 licensed users can view Business Central data in Teams"
 
 ## Business Central pages and reports
 

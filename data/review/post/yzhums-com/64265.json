@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/64265",
+  "input_hash": "6ed861c3a3ecf8da173d9f8126766016d6534999967279edff9b162b7210ca13",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.812Z",
+  "issues": [
+    "Summary, key points, objects and quotes all match the post.",
+    "All four objects appear in the post text or its code sample.",
+    "The integration system tag is a loose fit but defensible, since the topic is data import."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028319,
+    "posts_in_call": 4
+  }
+}

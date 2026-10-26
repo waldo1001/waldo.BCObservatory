@@ -1,0 +1,22 @@
+{
+  "item_id": "change/al-go-prs/2293",
+  "input_hash": "dfb4b5c98342ca0d1bcfa24fb37b41fa8b8eb2785ec077a0dd9e2c97d0ed5533",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:43:18.949Z",
+  "issues": [
+    "The settings merge logic was changed: protected settings are enforced and array settings are always merged. That changes how settings resolve, so behavior_change should be true.",
+    "The summary and key points are otherwise supported."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026453,
+    "changes_in_call": 6
+  }
+}

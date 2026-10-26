@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/68484",
+  "input_hash": "528ca2676921305e5ec66c7fb16f0560f5aed53249d8129e516001c912b29db2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:37.563Z",
+  "issues": [
+    "The key point on Payables Agent cost variance is not stated in the post. The post gives 50 credits per invoice and 5 per line.",
+    "The $0.01 rate is the pay-as-you-go price, so the key point is reworded to say so."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025518,
+    "posts_in_call": 4
+  }
+}

@@ -5,7 +5,7 @@
   "source": "yzhums-com",
   "published_at": "2026-08-20T01:29:19.000Z",
   "words": 890,
-  "summary": "Business Central 2026 wave 1 introduces PTE management in the admin center, allowing administrators to upload, install, and schedule per-tenant extensions directly through the Business Central Admin Center and its APIs instead of the Extension Management page. The original Extension Management page method will be deprecated in 2027 wave 1, requiring partners and customers to migrate their deployment workflows to the admin center for better governance and CI/CD integration.",
+  "summary": "From Business Central 2026 wave 1, admins can upload, install, schedule and uninstall per-tenant extensions in the Admin Center or through Admin Center API 2.29. Uploading PTEs from the Extension Management page is deprecated and is expected to end in 2027 wave 1 (version 30.0). That page will still list installed extensions. On-premises admins should use the Apps Management PowerShell module.",
   "key_points": [
     "Administrators can now upload and manage PTEs directly from the Business Central Admin Center or via Admin Center API version 2.29",
     "PTE management through the Extension Management page is being deprecated and will be removed in 2027 wave 1",
@@ -26,16 +26,8 @@
   ],
   "objects": [
     {
-      "type": "other",
-      "name": "Business Central Admin Center"
-    },
-    {
       "type": "page",
       "name": "Extension Management"
-    },
-    {
-      "type": "api",
-      "name": "Admin Center API"
     }
   ],
   "features": [

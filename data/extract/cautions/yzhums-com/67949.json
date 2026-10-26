@@ -1,0 +1,41 @@
+{
+  "item_id": "blog/yzhums-com/67949",
+  "page_id": "post/yzhums-com/67949",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Previously, such fields were always read-only, unlike fields declared in pages or page extensions.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "This has limitations and you need to define the AllowInCustomizations property as AsReadWrite in the field properties in advance.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "On table extensions, this only applies to fields declared in the table extension and does not affect the base table fields.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004461,
+    "posts_in_call": 4
+  }
+}

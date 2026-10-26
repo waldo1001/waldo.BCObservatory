@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:49:16.532Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -112,6 +112,11 @@ links:
       label: possibly related
       why: both name Page 38 "Item Ledger Entries"
       by: code
+    - to: post/yzhums-com/69476
+      title: "Dynamics 365 Business Central: All Copilot and agent capabilities"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
     - to: post/yzhums-com/74458
       title: "Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page"
       label: possibly related
@@ -122,6 +127,11 @@ links:
       label: possibly related
       why: both name Page 38 "Item Ledger Entries"
       by: code
+    - to: post/yzhums-com/63315
+      title: "Dynamics 365 Business Central: How to change Due Date of posted documents"
+      label: possibly related
+      why: both name Page 25 "Customer Ledger Entries"
+      by: code
     - to: post/yzhums-com/75164
       title: "Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries"
       label: possibly related
@@ -131,16 +141,6 @@ links:
       title: "Dynamics 365 Business Central: How to quickly create Production Orders from Sales Orders"
       label: possibly related
       why: both name Page 48 "Sales Orders"
-      by: code
-    - to: post/thedynamicsexplorer-com/36744
-      title: "Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central"
-      label: possibly related
-      why: both name Page 25 "Customer Ledger Entries"
-      by: code
-    - to: post/thinkaboutit-be/7503
-      title: "How Do I: Analyze List Pages and Data Using Analysis Mode in Business Central"
-      label: possibly related
-      why: both name Page 25 "Customer Ledger Entries"
       by: code
 video_id: Afv-r-eDt90
 channel: yt-microsoft
@@ -319,11 +319,11 @@ No source states these links: they share an object, a model read them, or a pers
 - [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central Blog Series: Item Attributes](../posts/yzhums-com/74523.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central: All Copilot and agent capabilities](../posts/yzhums-com/69476.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../posts/yzhums-com/74458.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page](../posts/yzhums-com/74476.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central: How to change Due Date of posted documents](../posts/yzhums-com/63315.md) — possibly related: both name Page 25 "Customer Ledger Entries"
 - [Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries](../posts/yzhums-com/75164.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central: How to quickly create Production Orders from Sales Orders](../posts/yzhums-com/74091.md) — possibly related: both name Page 48 "Sales Orders"
-- [Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central](../posts/thedynamicsexplorer-com/36744.md) — possibly related: both name Page 25 "Customer Ledger Entries"
-- [How Do I: Analyze List Pages and Data Using Analysis Mode in Business Central](../posts/thinkaboutit-be/7503.md) — possibly related: both name Page 25 "Customer Ledger Entries"
 
 Presenters (as heard): Kenny Pontepedra, Blanca.

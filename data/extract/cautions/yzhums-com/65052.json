@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/yzhums-com/65052",
+  "page_id": "post/yzhums-com/65052",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Current Utilization is marked for deprecation.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Current Utilization"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC26.2"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Historical Utilization is marked for deprecation.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Historical Utilization"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC26.2"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

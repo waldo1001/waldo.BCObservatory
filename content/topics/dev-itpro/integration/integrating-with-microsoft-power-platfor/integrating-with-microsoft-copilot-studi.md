@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:10.968Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,6 +53,7 @@ links:
   posts:
     - post/aardvarklabs-blog/1818
     - post/bertverbeek-nl/1290
+    - post/yzhums-com/68873
   guidelines: []
 learn_toc_path:
   - Integration
@@ -65,7 +66,7 @@ coverage:
   learn: 2
   code: 3
   video: 5
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 8350
@@ -110,6 +111,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Creating Low-Code AI Agents with Copilot Studio and Business Central](../../../../posts/aardvarklabs-blog/1818.md) (community post): "Copilot Studio enables low-code creation of AI agents that connect to Business Central"
 - [Agents in Business Central – part 6 – The conclusion](../../../../posts/bertverbeek-nl/1290.md) (community post): "Agents created in Copilot Studio, covering deployment, licensing"
+- [Business Central 2025 wave 2 (BC27.1): Connect AI agents to Business Central through MCP server (Dynamics 365 Business Central MCP)](../../../../posts/yzhums-com/68873.md) (community post): "Microsoft Copilot Studio includes a built-in Business Central MCP connector"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Copilot Studio Connector for Business Central; Copilot Studio Generative AI Mode"
 - [How 3 Partners are Building Powerful Agents for Business Central](../../../../videos/AMVAiPTfSrU.md) (video): "Copilot Studio agent creation"
 - [What's New: Business Central Integration with Microsoft Copilot Studio (2026 release wave 1)](../../../../videos/GK6hM-nBYZk.md) (video): "Copilot Studio Agent Building; MCP Server for Business Central; Business Central Power Platform Connector"

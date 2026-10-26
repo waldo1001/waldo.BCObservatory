@@ -7,10 +7,10 @@
   "words": 736,
   "summary": "Business Central 2026 wave 2 introduces conditional visibility controls in the Word add-in, allowing developers to design reports with hidden or shown content based on boolean fields using HideIf logic - a capability previously only available in RDLC layouts.",
   "key_points": [
-    "The Word add-in now supports HideIf logic control for conditional visibility, bringing feature parity with RDLC layouts",
-    "Developers can apply Hide If Empty and Hide If False controls to fields, tables, rows, and columns based on boolean fields in the dataset",
-    "Conditional visibility can be applied to stand-alone fields, table rows, table columns, and entire tables",
-    "Boolean fields from the report dataset and Report Extensions can be used to control when content appears"
+    "BC29's updated Word add-in adds a HideIf logic control so Word layouts can show or hide content conditionally, something earlier achieved in RDLC with decision functions like IIF.",
+    "Under the Visibility tab, the Hide If Empty actions are Hide Field if Zero, Hide Empty Table, Hide Empty Table Row and Hide Empty Table Column, each needing a specific selection.",
+    "Hide If False opens a dialog whose options depend on the current selection and lets you pick a boolean field from the report dataset, including ones added by report extensions.",
+    "Install the latest add-in version (3.0.0.0) from the Word Add-ins menu to get these controls."
   ],
   "systems": [
     "reporting",

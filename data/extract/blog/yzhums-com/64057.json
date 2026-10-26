@@ -5,7 +5,7 @@
   "source": "yzhums-com",
   "published_at": "2025-05-13T01:34:06.000Z",
   "words": 450,
-  "summary": "Business Central 2025 wave 1 (BC26.1) introduces WriteWithSecretsTo, a new method for adding SecretText values to JSON objects. This feature helps developers securely handle credentials and sensitive data by replacing placeholder values in JSON with encrypted secrets before serialization.",
+  "summary": "In Business Central 2025 wave 1 (BC26.1), the JsonObject type gets a new method, WriteWithSecretsTo. It takes a dictionary that maps JSONPath placeholder paths to SecretText values, puts each secret in place of its placeholder, and writes the serialized JSON to a SecretText result. The method needs runtime 15.1 or later.",
   "key_points": [
     "WriteWithSecretsTo is a new method on the JsonObject type that adds SecretText values to JSON objects",
     "Developers create a JSON object with placeholders, define paths in JSONPath format, and use the method to produce a SecretText with credentials replaced",

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/71744",
+  "input_hash": "dbd3b6df6b67be398f58e5ce790849f1135d4b479242d966ce0c72f9d5173375",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:29.755Z",
+  "issues": [
+    "Fourth key point mixes earlier changes (Financial Reports replacing account schedules, new APIs, standard templates) into this wave's enhancements; the post says those came in recent versions before BC28.",
+    "First key point leaves out report period among the overridable defaults; distribution channels and the extra UI changes (tile view, hide options) were not captured.",
+    "Summary, systems, features and versions are supported by the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03021,
+    "posts_in_call": 4
+  }
+}

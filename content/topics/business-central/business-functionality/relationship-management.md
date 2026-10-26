@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:27.161Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -338,7 +338,9 @@ links:
     - topic/business-central/business-functionality/relationship-management/use-dynamics-365-for-sales-from-business
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/67058
+    - post/yzhums-com/71008
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -356,7 +358,7 @@ coverage:
   learn: 43
   code: 24
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms:
   - 1680
@@ -427,6 +429,13 @@ Two further subtopics round out the area. One covers using Dynamics 365 Sales wi
 - [Relationship management](https://learn.microsoft.com/dynamics365/business-central/marketing-relationship-management): Use relationship management features to streamline sales, access detailed contact and prospect information, and improve customer service efficiency.
 - [Set up marketing and contact management information](https://learn.microsoft.com/dynamics365/business-central/marketing-setup-marketing): Set up marketing and contact management to strengthen relationships with prospects and customers, and enhance the effectiveness of your campaigns and promotions.
   - In the observatory: [Page 5050 "Contact Card"](../../../objects/page/5050.md), [Page 5076 "Interaction Log Entries"](../../../objects/page/5076.md), [Page 5094 "Marketing Setup"](../../../objects/page/5094.md)
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central: Merge duplicate records (customers, vendors, or contacts)](../../../posts/yzhums-com/67058.md) (community post): "Merge Duplicate feature in Business Central allows users"
+- [Business Central 2026 release wave 1 (BC28): Create purchase quotes for contacts (without a vendor)](../../../posts/yzhums-com/71008.md) (community post): "Create purchase quotes for contacts without a vendor record first"
 
 ## Business Central pages and reports
 

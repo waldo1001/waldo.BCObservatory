@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/yzhums-com/66410",
+  "page_id": "post/yzhums-com/66410",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "A page of type Role Center cannot have triggers.",
+      "objects": [
+        {
+          "type": "page",
+          "name": "Role Center"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Although you can write the code in codeunit and use OnOpenPageEvent, it will not prompt an error, but it will not have any effect.",
+      "objects": [],
+      "events": [
+        "OnOpenPageEvent"
+      ],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003732,
+    "posts_in_call": 4
+  }
+}

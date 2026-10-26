@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/yzhums-com/76103",
+  "input_hash": "5cdab3b1901a3f9200ef596c3b5aaf8dce2156e5b8db746cf8967ecbf857c8ed",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:39:09.385Z",
+  "issues": [
+    "All claims are supported by the post: the app.json settings, the overloads that take an app ID, no dependency needed, and the discovery method.",
+    "NavApp is listed as type other. That is acceptable because the post names it directly."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029278,
+    "posts_in_call": 4
+  }
+}

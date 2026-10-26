@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/75746",
+  "input_hash": "70e81b0d3bb1ba70421d2b86711fab49de6228f5b627b2cd3b3af195992b67b6",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:19.791Z",
+  "issues": [
+    "The summary says the feature works in all areas without any caveat. The author found that Incoming Documents still opened a download dialog in the preview and added a page extension as a workaround.",
+    "The key points left out the Incoming Documents gap and the clickable thumbnails. They are rewritten to include both.",
+    "The listed object is correct because it appears in the sample code."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028708,
+    "posts_in_call": 4
+  }
+}

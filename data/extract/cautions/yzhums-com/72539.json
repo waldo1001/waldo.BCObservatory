@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/yzhums-com/72539",
+  "page_id": "post/yzhums-com/72539",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "The Sent Email page in Business Central does not display the 'Sent To' details.",
+      "objects": [
+        {
+          "type": "page",
+          "name": "Sent Emails"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Table 8889 \"Sent Email\" does not have a \"Sent To\" field.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Sent Email"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "All other fields have their Access attribute set to Internal.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Sent Email"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

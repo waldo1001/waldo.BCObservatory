@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/74592",
+  "input_hash": "32416f338c53817364f1fbe5b953a3b4dc0a06f0f9169fc0522f477bd0f5a8e9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:45.365Z",
+  "issues": [
+    "Post is a community talk about blogging at a BC event, with no product content; systems platform and development are unsupported.",
+    "Real-time translation was the on-site interpretation of the talk, not a BC feature; blog content sharing is not a BC feature either.",
+    "Summary, key points and quotes match the post."
+  ],
+  "applied": [
+    "dropped 2 feature(s)",
+    "dropped 2 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027824,
+    "posts_in_call": 4
+  }
+}

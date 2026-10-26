@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/yzhums-com/67343",
+  "page_id": "post/yzhums-com/67343",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Truncate allows for less concurrency than DeleteAll, as the entire table will be locked until the transaction is committed.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Truncate with a filter should only be used when the majority of the table is being deleted, as otherwise DeleteAll will be more efficient.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Truncate is not supported when the OnBeforeDelete and/or OnAfterDelete event is subscribed.",
+      "objects": [],
+      "events": [
+        "OnBeforeDelete",
+        "OnAfterDelete"
+      ],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Truncate is not supported when the field has Media and/or MediaSet fields.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004726,
+    "posts_in_call": 4
+  }
+}

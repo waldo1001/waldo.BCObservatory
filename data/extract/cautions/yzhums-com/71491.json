@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/71491",
+  "page_id": "post/yzhums-com/71491",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "This formula is calculated based on the 'Work Date' from My Settings, not the system's 'Today' date.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "General Ledger Setup"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005131,
+    "posts_in_call": 4
+  }
+}

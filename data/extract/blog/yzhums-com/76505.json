@@ -7,10 +7,10 @@
   "words": 505,
   "summary": "Business Central 2026 wave 2 (BC29) consolidates all table extension fields into a single physical database table instead of companion tables, eliminating SQL JOINs and improving database operation performance across the system.",
   "key_points": [
-    "Previously in BC23, extension fields were stored in separate companion tables requiring SQL joins; now all fields live in one table",
-    "Multiple extensions to a table no longer increase table count, only column count with standardized naming (FieldName$ExtensionID)",
-    "AL code requires no changes since the table model in the language layer remains unchanged",
-    "Performance improves by eliminating unnecessary SQL joins in multi-extension environments"
+    "BC23 put all extension fields into one companion table ($ext) per base table, so queries needed at most one SQL join.",
+    "In BC29 the companion table is gone. Fields from table extensions are stored in the base table itself, so no joins are needed.",
+    "Adding more table extensions adds columns, not tables. The columns keep the FieldName$ExtensionID naming.",
+    "The AL table model does not change, so extension publishers do not need to change any code."
   ],
   "systems": [
     "platform",
@@ -26,9 +26,7 @@
   "objects": [],
   "features": [
     "Faster data loading",
-    "Improved table extension data model",
-    "Unified field storage",
-    "SQL JOIN elimination"
+    "Improved table extension data model"
   ],
   "versions": [
     "2026 release wave 2",

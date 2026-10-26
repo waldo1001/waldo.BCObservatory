@@ -1,0 +1,31 @@
+{
+  "item_id": "blog/yzhums-com/70354",
+  "input_hash": "ab6c03912f9530e33f725a419ece72d2f64f1be935aa39d522f44908b530eb2c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:47.614Z",
+  "issues": [
+    "Post is only an index of linked articles; the summary should say so.",
+    "Object name for the order confirmation report does not match the post, which names it Standard Sales - Order Conf. (1305).",
+    "Integration system not supported.",
+    "Report layout substitution is wrong; the article is about substituting one report with another.",
+    "Signature article is about email signatures, not reports; key points adjusted.",
+    "The quote is a shortened article title that is not verbatim."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 quote(s)",
+    "dropped 1 object(s)",
+    "dropped 1 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

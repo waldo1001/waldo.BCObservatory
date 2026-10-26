@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:49:03.453Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -139,13 +139,13 @@ links:
       label: possibly related
       why: both name Page 42 "Sales Order"
       by: code
-    - to: post/yzhums-com/74091
-      title: "Dynamics 365 Business Central: How to quickly create Production Orders from Sales Orders"
+    - to: post/yzhums-com/65320
+      title: "Dynamics 365 Business Central: About the size of the value displayed on the card/document page (textbox too small to read?)"
       label: possibly related
-      why: both name Page 5522 "Order Planning"
+      why: both name Page 42 "Sales Order"
       by: code
-    - to: post/yzhums-com/71582
-      title: "Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page"
+    - to: post/yzhums-com/70137
+      title: "Dynamics 365 Business Central: Adding comments to Factbox/Report (Displaying Comments in a FactBox/Report)"
       label: possibly related
       why: both name Page 42 "Sales Order"
       by: code
@@ -332,5 +332,5 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../posts/thedynamicsexplorer-com/9815.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../posts/thedynamicsexplorer-com/36954.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Dynamics 365 Business Central Blog Series: Item Attributes](../posts/yzhums-com/74523.md) — possibly related: both name Page 42 "Sales Order"
-- [Dynamics 365 Business Central: How to quickly create Production Orders from Sales Orders](../posts/yzhums-com/74091.md) — possibly related: both name Page 5522 "Order Planning"
-- [Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page](../posts/yzhums-com/71582.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central: About the size of the value displayed on the card/document page (textbox too small to read?)](../posts/yzhums-com/65320.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central: Adding comments to Factbox/Report (Displaying Comments in a FactBox/Report)](../posts/yzhums-com/70137.md) — possibly related: both name Page 42 "Sales Order"

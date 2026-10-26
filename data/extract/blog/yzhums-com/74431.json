@@ -7,15 +7,14 @@
   "words": 405,
   "summary": "Business Central 2026 wave 1 (BC28.2) lets agents use different AI models directly in the UI. Users can select a specific model for each agent or use automatic default selection, with a resolution order that prioritizes task-level, then agent-level, then system default models.",
   "key_points": [
-    "Agents can be configured to use specific AI models or automatic default selection through the Agents page",
-    "Model selection affects agent behavior, performance, and results",
-    "Model resolution follows a hierarchy: task-level model takes precedence, then agent-level model, then system default",
-    "Custom agents were introduced in BC25.2 (BC27.4), and UI model management is new in BC28.2",
-    "Using 'Auto' allows the system to change models over time; pinning to a specific version provides predictable behavior"
+    "On the Agents page, each agent card has an Agent model section where you choose a specific model or Auto",
+    "The model chosen affects how an agent behaves, how it performs and what results it gives",
+    "Business Central picks the model in this order: the one set on the task, then the one set on the agent, then the default",
+    "Custom agents arrived in 2025 wave 2 (BC27.4); managing models in the UI is new in BC28.2 and is in preview",
+    "With Auto, the model can change over time; to get predictable behavior, pin the agent to a specific model version"
   ],
   "systems": [
     "copilot",
-    "development",
     "platform"
   ],
   "topics": [

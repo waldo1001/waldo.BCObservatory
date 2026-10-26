@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:47.961Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,7 +140,8 @@ links:
     - topic/business-central/business-functionality/local-functionality/united-kingdom/general
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/69120
   guidelines: []
   changes:
     - change/bcapps/12157
@@ -158,7 +159,7 @@ coverage:
   learn: 14
   code: 11
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 1
@@ -223,6 +224,7 @@ The section's own pages also include a fixed assets article on straight-line dep
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12157 Mark GetAddress.io objects as obsolete](../../../../changes/bcapps/12157.md) (code change): "GetAddress.io UK postcode app objects are marked obsolete"
+- [Business Central 2025 wave 2 (BC27): Install UK localization as an extension to the base app (UK Delocalization)](../../../../posts/yzhums-com/69120.md) (community post): "UK localization for Business Central 2025 wave 2"
 
 ## Business Central pages and reports
 

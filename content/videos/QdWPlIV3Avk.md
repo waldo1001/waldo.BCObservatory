@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:43:48.340Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -176,6 +176,11 @@ links:
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
+    - to: post/yzhums-com/67657
+      title: "Business Central 2025 wave 2 (BC27): Configure the default calculation for the Calculate Consumption report (Default Consumption Calculation Based on)"
+      label: possibly related
+      why: both name Page 99000768 "Manufacturing Setup"
+      by: code
     - to: post/yzhums-com/71463
       title: "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)"
       label: possibly related
@@ -213,11 +218,6 @@ links:
       by: code
     - to: post/duiliotacconi-com/1457
       title: "Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade"
-      label: possibly related
-      why: both name Table 32 "Item Ledger Entry"
-      by: code
-    - to: post/yzhums-com/75131
-      title: "Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)"
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
@@ -580,6 +580,7 @@ More than one object has this name, so none is linked: page "Subcontracting Orde
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Business Central 2025 wave 2 (BC27): Configure the default calculation for the Calculate Consumption report (Default Consumption Calculation Based on)](../posts/yzhums-com/67657.md) — possibly related: both name Page 99000768 "Manufacturing Setup"
 - [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../videos/qABlX4AL3GM.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 50 "Purchase Order"
@@ -588,4 +589,3 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../posts/thedynamicsexplorer-com/36954.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../posts/yzhums-com/75131.md) — possibly related: both name Table 32 "Item Ledger Entry"

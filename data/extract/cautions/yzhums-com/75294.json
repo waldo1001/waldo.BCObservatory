@@ -1,0 +1,33 @@
+{
+  "item_id": "blog/yzhums-com/75294",
+  "page_id": "post/yzhums-com/75294",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "From 1 September 2026 you can no longer create issues here.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "ALAppExtensions"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "breaking",
+      "quote": "You can't change existing variables because that would cause a breaking change.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004507,
+    "posts_in_call": 4
+  }
+}

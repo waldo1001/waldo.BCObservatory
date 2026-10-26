@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:54:32.258Z"
   flags: []
 generated:
-  at: "2026-10-26T05:30:48.114Z"
+  at: "2026-10-26T05:51:10.938Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -63,6 +63,11 @@ links:
       by: code
     - to: post/yzhums-com/74523
       title: "Dynamics 365 Business Central Blog Series: Item Attributes"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/yzhums-com/69476
+      title: "Dynamics 365 Business Central: All Copilot and agent capabilities"
       label: possibly related
       why: both name Page 38 "Item Ledger Entries"
       by: code
@@ -160,6 +165,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../../videos/Fk6kWTe3f2Y.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central Blog Series: Item Attributes](../../posts/yzhums-com/74523.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central: All Copilot and agent capabilities](../../posts/yzhums-com/69476.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../../posts/yzhums-com/74458.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page](../../posts/yzhums-com/74476.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries](../../posts/yzhums-com/75164.md) — possibly related: both name Page 38 "Item Ledger Entries"

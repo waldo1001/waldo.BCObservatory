@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/62513",
+  "page_id": "post/yzhums-com/62513",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Since the property 'tooltip' cannot be extended, if the standard does not add this property, it cannot be inherited.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC26"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

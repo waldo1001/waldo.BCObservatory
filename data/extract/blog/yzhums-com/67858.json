@@ -5,13 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2025-09-26T00:50:00.000Z",
   "words": 294,
-  "summary": "Business Central 2025 wave 2 (BC27) introduces a new Database.LockTimeoutDuration method that allows developers to adjust lock timeout duration in seconds rather than simply enabling or disabling it, useful for long-running processes that need flexible timeout control.",
+  "summary": "BC27 (2025 wave 2) adds the Database.LockTimeoutDuration method. It gets or sets the lock timeout in seconds, so developers can raise or lower the timeout instead of only switching it on or off with Database.LockTimeout. It needs runtime 16.0 or later.",
   "key_points": [
-    "New Database.LockTimeoutDuration method gets or sets lock timeout duration in seconds instead of just toggling on/off",
-    "Setting a lock timeout of 0 or less disables the lock timeout",
-    "Designed for long-running processes like overnight batch jobs that need timeout flexibility",
-    "Requires runtime version 16.0 or greater, not available in version 15.0",
-    "Method can be invoked without specifying the data type name"
+    "Database.LockTimeoutDuration takes an optional integer and returns the current lock timeout in seconds",
+    "A value of 0 or less turns the lock timeout off",
+    "The older Database.LockTimeout method only toggles the timeout and cannot change its duration",
+    "The default timeout shown is 30 seconds",
+    "Runtime 15.0 gives error AL0666; runtime 16.0 or later is needed, and the data type name can be left out when calling the method"
   ],
   "systems": [
     "development",
@@ -38,8 +38,7 @@
   "features": [
     "Database.LockTimeoutDuration method",
     "Lock timeout duration control",
-    "Configurable lock timeout in seconds",
-    "Long-running process optimization"
+    "Configurable lock timeout in seconds"
   ],
   "versions": [
     "BC27",
@@ -51,10 +50,6 @@
     {
       "text": "Gets or sets the current lock timeout duration in seconds. Setting a lock timeout of 0 or less disables the lock timeout.",
       "why_it_matters": "Explains the core functionality of the new method and how to disable timeout completely"
-    },
-    {
-      "text": "This method has been designed specifically for use in long-running processes that should not be terminated because of a lock time-out.",
-      "why_it_matters": "Clarifies the intended use case for this new capability"
     }
   ],
   "trimmed_for_policy": 0,

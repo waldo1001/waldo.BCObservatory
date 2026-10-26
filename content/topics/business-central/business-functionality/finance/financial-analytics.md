@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:11.860Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -503,7 +503,8 @@ links:
   videos:
     - video/fxrVyBD8UoU
     - video/z7UTBiCNOo8
-  posts: []
+  posts:
+    - post/yzhums-com/69961
   guidelines: []
   changes:
     - change/bcapps/10604
@@ -523,7 +524,7 @@ coverage:
   learn: 129
   code: 188
   video: 2
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 1
@@ -758,6 +759,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10604 [Main]-export/import of a report definition fails if the statuses in the originating company do not exist in the destination company](../../../../changes/bcapps/10604.md) (code change): "Financial report and row definitions now import successfully between companies"
 - [#11848 [main] Report 11564, Foreign Currency Layout: foreign currency opening balance is not included](../../../../changes/bcapps/11848.md) (code change): "Report 11564 now correctly includes foreign currency opening balances"
+- [Dynamics 365 Business Central: Comparing Years (Year-Over-Year) in Analysis Mode: A Simple 4-Step Guide](../../../../posts/yzhums-com/69961.md) (community post): "Year-over-year analysis compares current year data against same periods in previous years"
 - [What's New: Enhanced Financial Analytics (2026 release wave 1)](../../../../videos/fxrVyBD8UoU.md) (video): "Enhanced Financial Analytics (2026 release wave 1). Topics: financial analytics; excel layouts; deferral reports"
 - [What's Cooking in Business Central: Excel Reports that Become Generally Available](../../../../videos/z7UTBiCNOo8.md) (video): "Finance Analytics Documentation; Alternative Analysis Methods Documentation"
 

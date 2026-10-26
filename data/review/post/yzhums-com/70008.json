@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/70008",
+  "input_hash": "9fc8a3d0f278d063f291dffa4521309fae0a94d6ec53165074279fd942d10af6",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:18.031Z",
+  "issues": [
+    "The post does not mention warehouse; the example is a Sales Order, so sales is kept and warehouse dropped.",
+    "The key points miss the ExtendedDatatype Barcode field approach and the Sales Order Lot No. example."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.042489,
+    "posts_in_call": 4
+  }
+}

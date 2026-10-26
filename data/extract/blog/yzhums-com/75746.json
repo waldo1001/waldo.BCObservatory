@@ -5,13 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2026-09-04T04:27:29.000Z",
   "words": 612,
-  "summary": "Business Central 2026 release wave 2 adds native support for previewing image attachments directly in the web client without downloading them first. This feature works across all Business Central areas and supports multiple image formats including JPEG, PNG, BMP, SVG, WEBP, and GIF.",
+  "summary": "BC29 (2026 release wave 2) lets users open image attachments in a web client viewer like the BC26 PDF preview, where they can also download or print them. Supported formats include JPEG, PNG, BMP, SVG, WEBP, ICO, GIF and AVIF, plus TIFF on Safari. In the preview, Incoming Documents still started a download, so the author shows a page extension that calls File.ViewFromStream to add an image view action.",
   "key_points": [
-    "Image attachments can be previewed in the web client using a specialized viewer similar to print preview",
-    "Supported image formats include JPEG, JPG, PNG, BMP, SVG, WEBP, ICO, GIF, and AVIF, plus TIFF and TIF on Safari",
-    "Images can be downloaded from the viewer or printed directly from the client",
-    "Extension developers can add support using File.ViewFromStream or File.View methods",
-    "GIF files can display as animated thumbnails in FactBox with support up to 48 frames"
+    "Image attachments open in a viewer similar to print or PDF preview, and the image can be downloaded or printed from there",
+    "Supported formats: JPEG, JPG, PNG, BMP, SVG, WEBP, ICO, GIF and AVIF (including animated), plus TIFF and TIF on Safari",
+    "Extensions must opt in by calling File.ViewFromStream (online) or File.View (on-premises), which follow the same pattern as File.Download",
+    "FactBox thumbnails can show animated GIFs of up to 48 frames, and clicking a thumbnail of an image or the first page of a PDF opens the viewer",
+    "Works in Attached Documents but not yet in Incoming Documents in the preview; the sample adds a View Image action on the Incoming Document Attachments page"
   ],
   "systems": [
     "platform",

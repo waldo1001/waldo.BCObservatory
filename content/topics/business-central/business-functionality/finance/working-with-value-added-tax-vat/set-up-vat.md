@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:50.033Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,6 +93,7 @@ links:
     - change/bcapps/11657
     - change/bcapps/11734
     - change/bcapps/12067
+    - change/bcapps/13054
     - change/bcapps/9352
 learn_toc_path:
   - Business functionality
@@ -176,6 +177,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11657 Fix VIES integrity check: tolerate country-code prefix on echoed VAT number (uptake fix)](../../../../../changes/bcapps/11657.md) (code change): "VIES integrity check for VAT numbers now tolerates country-code prefixes"
 - [#11734 [VIES Integration] Per-environment daily request rate-limit](../../../../../changes/bcapps/11734.md) (code change): "per-tenant daily rate-limit of 2000 VIES lookups prevents"
 - [#12067 [main] bug 652323 - Move creating VAT Period to setup demo data level](../../../../../changes/bcapps/12067.md) (code change): "VAT Period creation from Master Data to Setup Data level"
+- [#13054 [FR] Delocalize delayed VAT and SEPA payment-slip integration](../../../../../changes/bcapps/13054.md) (code change): "Moved French delayed VAT and SEPA direct debit payment-slip features"
 - [#9352 [FI] Obsolete unused 'Print on Invoice' VAT setting](../../../../../changes/bcapps/9352.md) (code change): "Obsolete unused 'Print on Invoice' VAT setting. The unused 'Print on Invoice' VAT field"
 - [What's New: VAT Date in Business Central (2023 release wave 2)](../../../../../videos/MWXwtRr6-Wk.md) (video): "VAT Date Usage field options; Default VAT Date setting; Control VAT Period setup"
 

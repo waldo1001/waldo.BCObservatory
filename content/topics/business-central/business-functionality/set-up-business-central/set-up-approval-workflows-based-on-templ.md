@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:42.286Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,6 +105,7 @@ links:
   videos: []
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44
+    - post/yzhums-com/70683
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -117,7 +118,7 @@ coverage:
   learn: 9
   code: 5
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 663
@@ -178,6 +179,7 @@ Start with "Set up approval workflows" for the overall picture. Then read "How t
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Approval Workflows for Item Journals and Requisition Worksheets](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md) (community post): "approval workflows for item journals, requisition worksheets, and planning worksheets"
+- [Dynamics 365 Business Central: How to hide the confirmation message (An approval request has been sent) when sending an Approval Request?](../../../../posts/yzhums-com/70683.md) (community post): "approval workflows in Business Central can be configured to hide the confirmation message"
 
 ## Business Central pages and reports
 

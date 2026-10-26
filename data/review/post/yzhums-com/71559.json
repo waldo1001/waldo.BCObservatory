@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/71559",
+  "input_hash": "32bb1d3d7d6422bc2e456f4556966bf8a2577abe453bf4f279a95b6c2d5834dd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:41.660Z",
+  "issues": [
+    "The summary suggested features are switched on from the new page. The post says administrators enable them on the Feature Management page, and the new page lists features and collects feedback.",
+    "Key points, objects, features and systems are supported by the post."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026157,
+    "posts_in_call": 4
+  }
+}

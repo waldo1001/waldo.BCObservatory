@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13107",
+  "input_hash": "127889e3e1f6d23b957b7cf60302f7cf85d7390bc632fe5a92a7902e4dc8f5c0",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:43:18.949Z",
+  "issues": [
+    "The schema, integrity and 64 KB size checks, plus the audit log and telemetry on rejection, are all supported by the description. The flags fit. Responses that were accepted before can now raise errors, but that does not break extension compilation."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026453,
+    "changes_in_call": 6
+  }
+}

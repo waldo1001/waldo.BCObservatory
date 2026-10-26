@@ -7,13 +7,12 @@
   "words": 428,
   "summary": "AppSource extensions in Business Central can be checked for updates through the App Management page in the Business Central admin center, where the Latest Available Version field indicates whether updates are available. The post explains extension scopes and update mechanisms including automatic update cadence introduced in BC23.",
   "key_points": [
-    "Extension Management in Business Central shows installed version numbers for AppSource apps, but Microsoft extensions may only display major.minor versions",
-    "The App Management page in Business Central admin center directly shows the Latest Available Version field, making it the easiest way to check for updates",
-    "AppSource extensions have Global scope, while PTE (partner-provided) and Dev extensions have different scopes and update behaviors",
-    "Apps Update Cadence feature in BC23 allows automatic updates of AppSource apps with every minor update or only major updates, scheduled during environment update windows"
+    "Comparing the installed version in Extension Management with the AppSource listing works for some partner apps, but Microsoft apps show only major.minor on AppSource",
+    "The App Management page in the Business Central admin center shows a Latest Available Version field; if it is empty, the app is up to date",
+    "Available versions depend on the environment's current major version",
+    "Since BC23, the Apps Update Cadence setting updates AppSource apps automatically with every minor and major update or only major updates; per-tenant extensions are not affected"
   ],
   "systems": [
-    "integration",
     "administration",
     "platform"
   ],

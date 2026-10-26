@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/65721",
+  "input_hash": "19a1d8c9f27e67e156b2e56399b398208fc33b0b0912572c6c66eab42b68e0f7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:51.690Z",
+  "issues": [
+    "A key point mixed up the general business value with the first version: in the first version the agent takes PDFs from a Microsoft 365 email account only. SharePoint appears only in the business value description.",
+    "A key point overstated the regions: the author only guesses US and UK, says he did not test every region, and confirms it is not available in Japan."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031357,
+    "posts_in_call": 4
+  }
+}

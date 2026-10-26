@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/76388",
+  "page_id": "post/yzhums-com/76388",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "the reverse is not allowed: converting BigInteger to Integer will cause an error.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003015,
+    "posts_in_call": 4
+  }
+}

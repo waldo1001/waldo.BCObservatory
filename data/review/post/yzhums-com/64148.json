@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/64148",
+  "input_hash": "6b0181e76187255bd2aadbdf65fc027d12476ef67a6ec694e0e64ad800f8d45e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:31.467Z",
+  "issues": [
+    "Key point on developer services port overstated it as configuring the port; the post says to confirm the port value and copy it into launch.json, while enabling the flag is the change.",
+    "Rest of page is supported, including CRONUS license note and versions."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02623,
+    "posts_in_call": 4
+  }
+}

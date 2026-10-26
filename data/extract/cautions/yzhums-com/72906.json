@@ -1,0 +1,29 @@
+{
+  "item_id": "blog/yzhums-com/72906",
+  "page_id": "post/yzhums-com/72906",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Uninstalled apps will now remain uninstalled",
+      "objects": [
+        {
+          "type": "other",
+          "name": "External Storage – Document Attachments"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC28",
+        "2026 release wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002953,
+    "posts_in_call": 4
+  }
+}

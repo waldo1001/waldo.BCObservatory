@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/68672",
+  "input_hash": "2793e5772480c5a9cddc2844b9bd97acf7a61ed01800976e35f49091374be2fc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:46.651Z",
+  "issues": [
+    "The post is only a list of links to earlier articles. The summary did not say so.",
+    "The summary and the first key point said AL code is used for the basic CSV import and export. The post only mentions AL for the large-text import.",
+    "The first key point applied 'no customization' to all methods. The post only says this about Power Automate.",
+    "The preview key point said files are previewed from SharePoint. The post says BC can preview the file types SharePoint supports, with no JavaScript add-in.",
+    "Quote 3 explains itself by calling BC25 the latest version, which the post does not say."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032312,
+    "posts_in_call": 4
+  }
+}

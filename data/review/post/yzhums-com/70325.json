@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/yzhums-com/70325",
+  "input_hash": "8f9bdd72058b3a7e7e2fca0d9bc4d025a1e6a71d0171b711ea9d4b7caca7c402",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:40:47.641Z",
+  "issues": [
+    "Summary, key points and quotes match the post.",
+    "Text.Split is a method rather than an AL object, but the post names it explicitly, so it can stay."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

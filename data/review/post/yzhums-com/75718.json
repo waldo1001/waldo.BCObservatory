@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/75718",
+  "input_hash": "4e706601ff589d3839e04a0111daa57a317a7463a2ce711b04c66cea873e8f5a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:19.791Z",
+  "issues": [
+    "The key point saying general availability was announced for 2027-10-02 misreads the post. That date belongs to an update note linking to a GA post, not to an announced GA date.",
+    "The development system has weak support: the post only links to the pre-release AL Language extension. It is dropped.",
+    "The key points are rewritten to include the version numbers and the bug reporting link."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028708,
+    "posts_in_call": 4
+  }
+}

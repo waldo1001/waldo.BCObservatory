@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:12.145Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -311,6 +311,8 @@ links:
   posts:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-why-is-my-job-queue-tasks-cue-in-red--5ef8045384
+    - post/yzhums-com/66714
+    - post/yzhums-com/69023
   guidelines: []
   changes:
     - change/bcapps/9953
@@ -325,7 +327,7 @@ coverage:
   learn: 30
   code: 65
   video: 2
-  blog: 2
+  blog: 4
   guideline: 0
 bc_forms:
   - 1
@@ -496,6 +498,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9953 Rename AppSource UI text to Marketplace](../../../changes/bcapps/9953.md) (code change): "User-facing text that references AppSource has been updated to use Marketplace"
 - [Business Central v29: Use System Audit Fields in Analysis Mode and Profiles](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72.md) (community post): "administrators to use system audit fields in Analysis Mode and Profile customizations"
 - [D365 Business Central: Why is my Job Queue Tasks Cue in Red?](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-why-is-my-job-queue-tasks-cue-in-red--5ef8045384.md) (community post): "You can adjust this threshold through the Cue Setup page"
+- [Dynamics 365 Business Central: How to add custom pages, reports, and queries to Role Explorer (Customizing Role Explorer)](../../../posts/yzhums-com/66714.md) (community post): "adding custom pages, reports, and queries to role centers"
+- [Dynamics 365 Business Central: How to show Experience Tier (Essential or Premium) on the Companies (list page)](../../../posts/yzhums-com/69023.md) (community post): "A page extension on the Companies list uses the Experience Tier Setup table to retrieve and display the tier"
 - [What's new: Add existing table fields to pages (2023 release wave 2)](../../../videos/iHgaNJucyvI.md) (video): "Add existing table fields to pages; role customization; personalization; page design"
 - [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../../../videos/tpAh4q3h8T8.md) (video): "Power user page customization without development tools"
 

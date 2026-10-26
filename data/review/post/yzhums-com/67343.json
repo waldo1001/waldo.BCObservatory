@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/67343",
+  "input_hash": "166fc53e3b2df41e02b66b475f523ae3e1e83ac0b15594a1de24c0c2534bcffa",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:22.589Z",
+  "issues": [
+    "Rec.Truncate is a method, not an AL object; dropped from objects.",
+    "Administration system is not supported; the post is developer-focused.",
+    "Key point on flow fields was loose: the restriction is on filters that include flow fields; also added the current runtime error with filters on large deletes."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028283,
+    "posts_in_call": 4
+  }
+}

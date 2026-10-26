@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/63942",
+  "input_hash": "2507cdc179ed99b12e37d156b8f9f978d538e4bf19cd8d69c89b1a091f9dd04b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.147Z",
+  "issues": [
+    "Quote 2 is not exact wording from the post and adds little value.",
+    "The topic 'no-code solution' is inaccurate because both methods need custom AL code. Topics cannot be edited here.",
+    "The page extension object is listed as type 'other'. The page also leaves out the Document Attachment Details page and the Document Attachment table, which the code uses."
+  ],
+  "applied": [
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/68658",
+  "page_id": "post/yzhums-com/68658",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If a field is updated through application code, then the MinValue/MaxValue property is not validated.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002991,
+    "posts_in_call": 4
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:53.587Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12064
+    - change/bcapps/12929
     - change/bcapps/8874
 learn_toc_path:
   - Integration
@@ -146,6 +147,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12064 Support SharePoint paths containing hash and percent characters](../../../changes/bcapps/12064.md) (code change): "SharePoint connector now supports file paths containing hash and percent characters"
+- [#12929 [Main]"Use GLN in Electronic Documents" on the Company Information is not respected when importing E-Docs from Inbound E-Documents page using the Import XML action.](../../../changes/bcapps/12929.md) (code change): "Fix ensures Company Information settings are properly applied during e-document imports"
 - [#8874 [Field Service Integration] Rounding error on Service Line quantity write-back for Item-type service lines with non-divisible durations](../../../changes/bcapps/8874.md) (code change): "Service line quantities synced from Field Service are now properly rounded"
 - [Building BcMCPProxy.exe and Connecting to Claude Desktop (BLOG 3 OF 4)](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270.md) (community post): "This enables Claude to interact with BC through the MCP protocol"
 

@@ -1,0 +1,33 @@
+{
+  "item_id": "blog/yzhums-com/75131",
+  "page_id": "post/yzhums-com/75131",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "By default, the Order No. is not displayed in the standard Item Ledger Entries page.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Item Ledger Entries"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "After adding them to the page, you will need to reopen the page to view the populated data.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004665,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/69405",
+  "input_hash": "a6a045cbb76b069b7301fa156ec5a8e446b72aa69306aa9f9a6d9d05403c45d0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:15.715Z",
+  "issues": [
+    "The summary implies the old icon comes in PNG, SVG and PDF, but the post offers it only as SVG. The PNG sizes and the PDF are for the new icon only.",
+    "The other fields are supported by the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023337,
+    "posts_in_call": 4
+  }
+}

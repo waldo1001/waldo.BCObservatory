@@ -7,11 +7,11 @@
   "words": 507,
   "summary": "Business Central 2026 wave 1 introduces the Power BI Report Deployments page, enabling centralized management and batch deployment of Power BI apps to workspaces without manual installation of each app. This capability streamlines analytics setup for finance, inventory, manufacturing, projects, and other functional areas.",
   "key_points": [
-    "Power BI Report Deployments page centralizes management of Power BI apps across multiple functional areas",
-    "Select multiple reports and deploy them together to Power BI Workspace instead of installing individually",
-    "Monitor deployment status in real-time and retry failed deployments",
-    "Available in evaluation companies; supports nine functional areas including finance, inventory, manufacturing, and sustainability",
-    "Users can download PBIX files and check Power BI Reports Setup page to confirm successful installation"
+    "New Power BI Report Deployments page (6347) manages the standard Power BI apps centrally instead of installing each app by hand",
+    "Several reports can be selected and deployed together to a Power BI workspace",
+    "Deployment status starts as Queued, can be refreshed with Reload, and can be opened to see detailed steps",
+    "Failed deployments can be retried from scratch, and the PBIX file can be downloaded for a selected report",
+    "For now the page works only in evaluation companies; deployed apps then show as installed on the Power BI Reports Setup page"
   ],
   "systems": [
     "reporting",

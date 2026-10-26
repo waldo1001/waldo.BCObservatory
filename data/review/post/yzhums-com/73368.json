@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/73368",
+  "input_hash": "cea89b4c96a62ed581312e72b8a2db6ce4c2d6b92ce9efd79c75d77ed3d5d9cc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:12.039Z",
+  "issues": [
+    "The post is a free Japanese webinar announcement about Business Central for Japanese companies with sites in Thailand and Indonesia. The summary leaves out the event details.",
+    "The finance, integration and platform systems are not named in the post.",
+    "The key point about Southeast Asia is too broad; the post targets Japanese companies with bases in Thailand and Indonesia."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 3 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031251,
+    "posts_in_call": 4
+  }
+}

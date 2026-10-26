@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/69818",
+  "input_hash": "28aba34631028edf7d88ad75350dc20e822c7d16df9a1b3f078840469b1f373d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:40:24.517Z",
+  "issues": [
+    "Summary and key points match the post's description of the BC28 external attachment storage setup.",
+    "The listed pages and codeunits are named in the post's setup steps or its error call stack.",
+    "The quote is verbatim. The feature 'Attachment lifecycle management' is vague but loosely supported by the delete toggle and the sync and migrate options."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036198,
+    "posts_in_call": 4
+  }
+}

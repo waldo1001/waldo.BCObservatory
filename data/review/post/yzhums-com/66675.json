@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/66675",
+  "input_hash": "972f3017ef66782cce4639115ce79806e4c4ce67bfbdefc6738c326b535107ed",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:27.978Z",
+  "issues": [
+    "The post is about posting recurring journals in finance. Nothing in it supports the administration system, so it is dropped.",
+    "The summary, key points, the three codeunits, the features and the quote match the post."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026787,
+    "posts_in_call": 4
+  }
+}

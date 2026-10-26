@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:04.955Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,10 @@ links:
     - topic/business-central/business-functionality/relationship-management
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/67058
+    - post/yzhums-com/67162
+    - post/yzhums-com/72611
   guidelines: []
   changes:
     - change/bcapps/10050
@@ -95,7 +98,7 @@ coverage:
   learn: 6
   code: 2
   video: 0
-  blog: 0
+  blog: 3
   guideline: 0
 bc_forms:
   - 5109
@@ -148,6 +151,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10303 [Master]-Modifying a linked contact's common field clears the SIREN field on the associated customer record in the French version.](../../../../changes/bcapps/10303.md) (code change): "The French version now correctly preserves the SIREN field on a customer record when modifying a linked contact"
 - [#10778 [Backport 29.x] Harden Contact Sync delta URL and ownership checks (#9966)](../../../../changes/bcapps/10778.md) (code change): "Contact Sync now validates delta URLs against an approved Microsoft Graph prefix"
 - [#9966 Harden Contact Sync delta URL and ownership checks](../../../../changes/bcapps/9966.md) (code change): "Contact Sync now validates delta URLs against the approved Microsoft Graph endpoint"
+- [Dynamics 365 Business Central: Merge duplicate records (customers, vendors, or contacts)](../../../../posts/yzhums-com/67058.md) (community post): "consolidate duplicate customer, vendor, or contact records"
+- [Dynamics 365 Business Central: Search for duplicate contacts (automatic and manual)](../../../../posts/yzhums-com/67162.md) (community post): "Search for duplicate contacts (automatic and manual)"
+- [Business Central 2026 release wave 1 (BC28): Copy contacts from BC to Microsoft 365 (Outlook & Teams)](../../../../posts/yzhums-com/72611.md) (community post): "copy contacts from BC to Microsoft 365 Outlook"
 
 ## Business Central pages and reports
 

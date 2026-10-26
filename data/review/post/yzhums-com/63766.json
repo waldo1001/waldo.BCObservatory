@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/63766",
+  "input_hash": "b1bd6450878c9dec3c7deb9c548f3ba32f7c6939ee36d77d13f444920191bb8e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:08.165Z",
+  "issues": [
+    "The post is only an index of linked articles. Several key points add claims the post never makes, such as how TableRelation validates data and what happens when permissions are missing.",
+    "One key point joins the table extension article and the primary key validation error article into a single claim, but the post lists them separately.",
+    "The summary leaves out two linked articles: exporting all TableRelation information and entering values without validation.",
+    "The administration system is weakly supported. Permissions only come up as the title of one article."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025262,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/yzhums-com/75931",
+  "page_id": "post/yzhums-com/75931",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Cannot specify ToolTipML and ToolTip property at the same time. Use only the ToolTip property.",
+      "objects": [
+        {
+          "type": "page",
+          "name": "page"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "'ToolTip' is not available in runtime version '17.0'. The supported runtime versions are: '18.0' or greater.",
+      "objects": [
+        {
+          "type": "page",
+          "name": "page"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003863,
+    "posts_in_call": 4
+  }
+}

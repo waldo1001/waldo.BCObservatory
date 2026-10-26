@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.962Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -95,6 +95,12 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-55-captionclass--dc79ed3961
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-71-blankzero-property--af92693663
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4
+    - post/yzhums-com/53887
+    - post/yzhums-com/57334
+    - post/yzhums-com/63766
+    - post/yzhums-com/67560
+    - post/yzhums-com/68658
+    - post/yzhums-com/76388
   guidelines: []
   changes:
     - change/bcapps/10009
@@ -119,7 +125,7 @@ coverage:
   learn: 7
   code: 0
   video: 3
-  blog: 9
+  blog: 15
   guideline: 0
 bc_forms: []
 member_hash: f4fef1b2446c586c258d687af1fd453a03d9d093168b44db9f072869a19e2480
@@ -184,6 +190,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC Friday Tips #55 CaptionClass](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-55-captionclass--dc79ed3961.md) (community post): "CaptionClass property enables dynamic captions that adapt based on data"
 - [BC Friday Tips #71 BlankZero Property](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-71-blankzero-property--af92693663.md) (community post): "The BlankZero property on numeric fields can be set to true"
 - [BC Friday Tips #78 InitValue Property](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4.md) (community post): "The InitValue property sets a default value for new table fields"
+- [Dynamics 365 Business Central: How to quickly check whether the table is a system table in AL](../../../../../posts/yzhums-com/53887.md) (community post): "System tables have IDs of 2,000,000,000 and above and cannot be extended"
+- [Dynamics 365 Business Central: Why are the newly added fields in drop-down not displayed? (e.g., adding item Search Description to DropDown fieldgroup)](../../../../../posts/yzhums-com/57334.md) (community post): "Field groups (DropDown) define which fields appear in drop-down controls"
+- [Dynamics 365 Business Central Blog Series: TableRelation](../../../../../posts/yzhums-com/63766.md) (community post): "TableRelation defines field-level data validation by linking fields to specific tables"
+- [Business Central 2025 wave 2 (BC27): New values (AsReadOnly & AsReadWrite) for the AllowInCustomizations property](../../../../../posts/yzhums-com/67560.md) (community post): "AllowInCustomizations property now accepts AsReadOnly and AsReadWrite values"
+- [Dynamics 365 Business Central: How to set the minimum and maximum numeric values ​​for a field](../../../../../posts/yzhums-com/68658.md) (community post): "Setting minimum and maximum numeric values for fields in Business Central"
+- [Business Central 2026 release wave 2 (BC29): Migrate table fields from Integer to BigInteger (Support for BigInteger field migration)](../../../../../posts/yzhums-com/76388.md) (community post): "Migrate table fields from Integer to BigInteger data types with compiler warnings"
 - [How to Migrate Business Central Table Fields from Integer to BigInteger \| Version 29 Preview](../../../../../videos/KkOr-hX0frQ.md) (video): "Migrate Business Central Table Fields from Integer to BigInteger"
 - [Creating TableExtensions in BC29 like we're back in NAV (But Business Central)](../../../../../videos/PZVTTem-nZw.md) (video): "Table extensions; cross-app keys; Load fields for selective field retrieval"
 - [Business Central 29: How Many Fields Can a Table Really Have?](../../../../../videos/TH70oJI4Ae0.md) (video): "table extensions; field limits; sql server columns; data types"

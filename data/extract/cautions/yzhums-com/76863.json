@@ -1,0 +1,44 @@
+{
+  "item_id": "blog/yzhums-com/76863",
+  "page_id": "post/yzhums-com/76863",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "As this is a preview and a work in progress, you may occasionally experience interruptions or encounter minor issues.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC30",
+        "2027 release wave 1"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "The environment may be force updated to a new early access preview version or deleted with or without notice.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC30",
+        "2027 release wave 1"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "The environment cannot be updated to a production version.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC30",
+        "2027 release wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003942,
+    "posts_in_call": 4
+  }
+}

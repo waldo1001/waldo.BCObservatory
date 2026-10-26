@@ -7,14 +7,14 @@
   "words": 438,
   "summary": "The One Service Item Line/Order setting on the Service Management Setup page now applies when creating contract service orders in bulk, enforcing that each service order contains only one service item line. This ensures consistency with service management policies by allowing batch processing of service contracts without manual intervention.",
   "key_points": [
-    "The One Service Item Line/Order setting restricts service orders to one service item line per order",
-    "When enabled, the batch process creates one service order per service item in a contract instead of combining them",
-    "The bulk service order creation from contracts now respects this setting automatically",
-    "This feature helps maintain consistent service workflow and individual item tracking"
+    "Service Management Setup has a One Service Item Line/Order setting that limits each service order to one service item line",
+    "The Create Contract Service Orders batch job now follows this setting",
+    "With the setting on, a contract with several service items produces one service order per item",
+    "With the setting off, a single service order holds all of the contract's service items",
+    "The author found the option already available in BC27.5"
   ],
   "systems": [
-    "service",
-    "administration"
+    "service"
   ],
   "topics": [
     "service management",
@@ -31,10 +31,6 @@
     {
       "type": "page",
       "name": "Service Order"
-    },
-    {
-      "type": "codeunit",
-      "name": "Create Contract Service Orders"
     }
   ],
   "features": [

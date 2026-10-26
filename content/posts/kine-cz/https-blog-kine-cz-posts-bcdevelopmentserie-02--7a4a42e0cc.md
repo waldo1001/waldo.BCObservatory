@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:56:09.637Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-10-26T05:51:10.938Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -51,6 +51,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/69290
+      title: "Dynamics 365 Business Central: Regarding the issue where the Source Currency Amount in G/L Entry differs from the pre-posting Amount in BC27"
+      label: possibly related
+      why: both name Table 330 "Currency Exchange Rate"
+      by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax
       title: Swiss Value Added [CH]
       label: possibly related
@@ -125,6 +130,7 @@ Not found in BC28-30: codeunit "50100", codeunit "50200".
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Dynamics 365 Business Central: Regarding the issue where the Source Currency Amount in G/L Entry differs from the pre-posting Amount in BC27](../../posts/yzhums-com/69290.md) — possibly related: both name Table 330 "Currency Exchange Rate"
 - [Swiss Value Added \[CH\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax) — possibly related: names Table 330 "Currency Exchange Rate"
 
 ## Heads up

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/72539",
+  "input_hash": "e127506a4f326574b5ff31c0cb74742399f01c96e01ba33bc554d9541f895578",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:02.652Z",
+  "issues": [
+    "The summary and a key point say the code reads the temporary table. The code actually opens the real Sent Email table through RecordRef to get the internal Message Id field.",
+    "Sales is only an example of documents that can be emailed, not what the post is about."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/64392",
+  "page_id": "post/yzhums-com/64392",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If the role does not have sufficient permissions, only empty values will be displayed when accessing data from the Dataverse API.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Please note that you need to grant permissions to the newly created table in advance",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

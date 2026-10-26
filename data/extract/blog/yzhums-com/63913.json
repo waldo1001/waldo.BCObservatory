@@ -7,15 +7,14 @@
   "words": 768,
   "summary": "Tracking who created environments, companies, and records in Business Central can be done through audit fields built into every table, the page inspection feature, change logs, telemetry, and field monitoring. These methods help administrators and users verify creation details and audit data modifications.",
   "key_points": [
-    "System audit fields (SystemCreatedAt, SystemCreatedBy, SystemModifiedAt, SystemModifiedBy) are included in every Business Central table since 2020 release wave 2",
-    "Page inspection feature allows viewing audit fields to check who created a company and when",
-    "Change log tracks direct modifications to specified tables and fields but cannot monitor system tables like Company",
-    "Field monitoring and Azure Application Insights telemetry provide advanced tracking of field changes and create detailed reports",
-    "Environment creation logs are available in the Business Central admin center Operations section"
+    "Every table has four system audit fields (created and modified, at and by) since 2020 release wave 2",
+    "Page inspection shows these audit fields, so you can see who created a company or record and when; companies created automatically with the environment show no creator",
+    "The admin center Operations log shows who performed environment operations",
+    "Change log can track chosen tables and fields but cannot be set up for system tables such as Company",
+    "Field monitoring telemetry sent to Application Insights allows reports and alerts, but field monitoring setup only catches changes, not new records"
   ],
   "systems": [
     "administration",
-    "reporting",
     "platform"
   ],
   "topics": [

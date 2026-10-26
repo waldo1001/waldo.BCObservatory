@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/nataliekarolak-com/3377",
+  "input_hash": "1f754018f314b828fe4dda49c95f739d9393773ed46d78b1aea6001fa8d2b400",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-26T06:42:45.010Z",
+  "issues": [
+    "The post is a personal essay about the author's communication style and feedback at work.",
+    "It never mentions Business Central or any product feature, so it falls outside the scope of these pages."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02445,
+    "posts_in_call": 4
+  }
+}

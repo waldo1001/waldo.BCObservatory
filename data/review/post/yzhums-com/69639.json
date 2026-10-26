@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/69639",
+  "input_hash": "a8d627a3979b80a96c7f62ef76fa184f73bfc5d17d1a32aad4e5210184ac8655",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:21.552Z",
+  "issues": [
+    "'Shortcut Dimensions 3-8' and 'Global Dimensions' are dimension concepts, not named objects, so I dropped them.",
+    "The key point about Power Automate goes further than the post: the series only lists an article that asks whether Power Automate can be used. I rewrote the key points.",
+    "Quote 3 is just an article title and adds nothing, so I dropped it."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 quote(s)",
+    "dropped 2 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.052458,
+    "posts_in_call": 4
+  }
+}

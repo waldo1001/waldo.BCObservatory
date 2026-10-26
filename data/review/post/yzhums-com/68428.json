@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/68428",
+  "input_hash": "14b6ef66ce5caa195081b2fe7d259f48c1e190873d5fc19c49b5fdc65ad3c003",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:37.829Z",
+  "issues": [
+    "The summary and the first key point name the codeunits as Sales-Post and Purch.-Post. The post subscribes to codeunit 81 Sales-Post (Yes/No) and codeunit 91 Purch.-Post (Yes/No).",
+    "The key points leave out the specific events the post subscribes to.",
+    "The objects, features, systems and quote are all supported by the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02203,
+    "posts_in_call": 4
+  }
+}

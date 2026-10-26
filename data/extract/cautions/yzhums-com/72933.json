@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/yzhums-com/72933",
+  "page_id": "post/yzhums-com/72933",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "This field is not editable. We need to select Actions->Layout Status, and then click on the status that needs to be updated.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Layout Status"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC28.1"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "we cannot change the layout status for the layout provided by an extension.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC28.1"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "This field was added in version 28.0, but it is not available.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Layout Status"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28.0"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002937,
+    "posts_in_call": 4
+  }
+}

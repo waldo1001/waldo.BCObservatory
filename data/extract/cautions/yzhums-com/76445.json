@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/76445",
+  "page_id": "post/yzhums-com/76445",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "Microsoft removed the Excise Tax tab from the Item Card",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Item Card"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00391,
+    "posts_in_call": 4
+  }
+}

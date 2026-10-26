@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/yzhums-com/31884",
+  "input_hash": "0432e0202a10d93425f120c768557fc77412fe356226a30f69de05a895d8147c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:42:21.264Z",
+  "issues": [
+    "The summary, key points, quote and objects all match the post. Every listed table and codeunit is named in it.",
+    "The finance system is borderline because the post is mainly about development, but it does talk about ledger tables like G/L Entry, so I kept it."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021108,
+    "posts_in_call": 4
+  }
+}

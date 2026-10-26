@@ -24,7 +24,7 @@ review:
   at: "2026-10-07T23:04:07.824Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -109,6 +109,11 @@ links:
       label: possibly related
       why: names Page 5906 "Service Item Worksheet"
       by: code
+    - to: post/yzhums-com/67489
+      title: "Business Central 2025 wave 2 (BC27): Add more fields and columns by personalizing pages"
+      label: possibly related
+      why: both name Page 5964 "Service Quote"
+      by: code
     - to: post/yzhums-com/71836
       title: "Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting"
       label: possibly related
@@ -116,6 +121,11 @@ links:
       by: code
     - to: post/thedynamicsexplorer-com/10326
       title: Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge
+      label: possibly related
+      why: both name Table 5802 "Value Entry"
+      by: code
+    - to: post/yzhums-com/31884
+      title: "Dynamics 365 Business Central: Quickly get next Sequence/Entry Number (without using FindLast -> Entry No. + 1)"
       label: possibly related
       why: both name Table 5802 "Value Entry"
       by: code
@@ -386,8 +396,10 @@ Not found in BC28-30: page "project list", page "project assembly orders", page 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Allocation status and repair status | Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-allocation-status-and-repair-status) — possibly related: names Page 5906 "Service Item Worksheet"
+- [Business Central 2025 wave 2 (BC27): Add more fields and columns by personalizing pages](../posts/yzhums-com/67489.md) — possibly related: both name Page 5964 "Service Quote"
 - [Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting](../posts/yzhums-com/71836.md) — possibly related: both name Page 5900 "Service Order"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 5802 "Value Entry"
+- [Dynamics 365 Business Central: Quickly get next Sequence/Entry Number (without using FindLast -> Entry No. + 1)](../posts/yzhums-com/31884.md) — possibly related: both name Table 5802 "Value Entry"
 - [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 5802 "Value Entry"
 - [Overview of tasks to fulfill service contracts](https://learn.microsoft.com/dynamics365/business-central/service-fulfill-service-contracts) — possibly related: names Page 6053 "Service Contract Quote"
 - [What's New: Concurrency in Warehousing (2024 release wave 1)](../videos/QfOgUCXg94o.md) — possibly related: both name Table 7312 "Warehouse Entry"

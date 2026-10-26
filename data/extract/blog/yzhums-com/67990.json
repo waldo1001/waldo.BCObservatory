@@ -5,13 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2025-09-30T23:58:25.000Z",
   "words": 273,
-  "summary": "Microsoft released GitHub Copilot agent tools for the AL VSIX extension that enable agents to automate and orchestrate AL workflows. These experimental tools including al_build, al_download_symbols, and al_publish are available in Business Central 2026 release wave 1 (version 17.0) and require VS Code 1.99 with agent mode enabled.",
+  "summary": "The pre-release AL Language extension now includes GitHub Copilot agent tools, such as al_build, al_download_symbols and al_publish, which let Copilot agent mode automate AL workflows. They appear in the extension's version 17.0 changelog but also work with runtime 16.0. They need VS Code 1.99 or later with agent mode enabled, and they are experimental.",
   "key_points": [
-    "New GitHub Copilot agent tools added to AL VSIX for automating AL development workflows",
-    "Tools include al_build, al_download_symbols, and al_publish commands accessible to agents",
-    "Available in Business Central 2026 release wave 1 (version 17.0) and works with runtime 16.0",
-    "Requires VS Code 1.99 or later with agent mode enabled via chat.agent.enabled setting",
-    "Tools are experimental and subject to change in future updates"
+    "GitHub Copilot agent tools were added to the AL VSIX so agent mode can automate AL development tasks",
+    "Tools shown include al_build, al_download_symbols and al_publish, and each call shows its input and output details",
+    "Listed in the AL extension version 17.0 changelog and tested with pre-release v17.0.1825603; they also work on runtime 16.0",
+    "Agent mode needs VS Code 1.99+, the chat.agent.enabled setting, and Agent selected in the Chat view",
+    "The tools are experimental and may change"
   ],
   "systems": [
     "development",

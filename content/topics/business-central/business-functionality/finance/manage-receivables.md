@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:28.910Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -241,6 +241,7 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030
     - post/thedynamicsexplorer-com/10232
     - post/thedynamicsexplorer-com/37202
+    - post/yzhums-com/69215
   guidelines: []
   changes:
     - change/bcapps/10005
@@ -266,7 +267,7 @@ coverage:
   learn: 19
   code: 60
   video: 4
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 6
@@ -417,6 +418,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Untangling Your Books: Understanding Application of Entries in Business Central](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030.md) (community post): "Application of entries is the process of matching transactions like invoices and payments"
 - [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "application of cash to invoices"
 - [Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?](../../../../posts/thedynamicsexplorer-com/37202.md) (community post): "Payment Tolerance in Business Central can automatically write off small remaining invoice balances"
+- [Dynamics 365 Business Central: Manage credit limits (Warnings and Workflow)](../../../../posts/yzhums-com/69215.md) (community post): "Managing credit limits in Business Central involves setting maximum credit"
 - [Comparing Entering Customer Cash Receipts in Dynamics SL to Dynamics 365 Business Central](../../../../videos/6WVsS3j-HTw.md) (video): "Comparing Entering Customer Cash Receipts in Dynamics SL"
 - [Comparing entering Customer Cash Receipts in Dynamics GP to Dynamics 365 Business Central (2024)](../../../../videos/Dkd8_cGzIvc.md) (video): "Cash receipts; customer payments; customer receivables; invoice application"
 - [Comparing Trial Balance and Aging Reports between Dynamics SL and Dynamics 365 Business Central](../../../../videos/O2RPBlr_GiE.md) (video): "aging reports; accounts receivable aging; aged accounts receivable report"

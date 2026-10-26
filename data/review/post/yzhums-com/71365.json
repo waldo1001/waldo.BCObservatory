@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/71365",
+  "input_hash": "39d650dee3eaae7d7c29770fcf45af374fffe29a6cdf226000e309143284a336",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:44.753Z",
+  "issues": [
+    "The summary only gives the codeunit name from the Microsoft docs. The codeunit the author actually found is codeunit 2000000025 Semantic Search, so the summary now gives both names.",
+    "The quote cuts off part of a longer sentence but is accurate. The objects and methods are named in the post."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022942,
+    "posts_in_call": 4
+  }
+}

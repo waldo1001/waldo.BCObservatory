@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/yzhums-com/76547",
+  "page_id": "post/yzhums-com/76547",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Default methods are dispatched through the interface variable, not inherited by the implementing codeunit's public API.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "This feature requires runtime version 18.0 or later.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003867,
+    "posts_in_call": 4
+  }
+}

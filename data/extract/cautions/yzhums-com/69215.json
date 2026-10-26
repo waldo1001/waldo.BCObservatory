@@ -1,0 +1,40 @@
+{
+  "item_id": "blog/yzhums-com/69215",
+  "page_id": "post/yzhums-com/69215",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "You can post even if the credit limit exceeds.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Please note that the value will temporarily revert to its original value",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Unfortunately, as of right now this requires customization.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Cust-Check Cr. Limit"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004665,
+    "posts_in_call": 4
+  }
+}

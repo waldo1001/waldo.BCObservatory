@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:58.998Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,6 +46,9 @@ links:
     - post/aardvarklabs-blog/3680
     - post/gerardorenteria-blog/12801
     - post/jpearson-blog/1583
+    - post/yzhums-com/70008
+    - post/yzhums-com/74975
+    - post/yzhums-com/75073
   guidelines: []
 learn_toc_path:
   - Development
@@ -58,7 +61,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 3
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 3d20b4404dfd3d105a8c3efeda9a8cb0aeb66c7a3cac01e9f0546de2b6c119f3
@@ -101,5 +104,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Step-by-Step Guide to Custom User Controls in Business Central](../../../../posts/aardvarklabs-blog/3680.md) (community post): "Custom user controls in Business Central use HTML, JavaScript, and AL to create bespoke UI components"
 - [📊 Mermaid Diagrams in Business Central: Dynamic Visual Intelligence 🎨](../../../../posts/gerardorenteria-blog/12801.md) (community post): "JavaScript control add-in bridge, and the Mermaid.js CDN"
 - [Embed Visual Studio Code in Business Central](../../../../posts/jpearson-blog/1583.md) (community post): "Embedding Visual Studio Code's Monaco editor in a Business Central control add-in"
+- [Dynamics 365 Business Central: Add a Scan Barcode action and scan multiple/Continious scanning (Invoke barcode scanning programmatically from AL)](../../../../posts/yzhums-com/70008.md) (community post): "add scan actions and continuous scanning to custom pages via the CameraBarcodeScannerProviderAddIn control add-in"
+- [Dynamics 365 Business Central: Add a calculator to the sales order page](../../../../posts/yzhums-com/74975.md) (community post): "add a calculator control to the sales order page using control add-in objects built with AL and JavaScript"
+- [Dynamics 365 Business Central: How to add a Signature Pad to the Sales Order page (Capture and Save Customer Signatures)](../../../../posts/yzhums-com/75073.md) (community post): "Control add-in objects integrate external JavaScript libraries into Business Central"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

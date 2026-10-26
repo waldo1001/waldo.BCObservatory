@@ -1,0 +1,41 @@
+{
+  "item_id": "blog/yzhums-com/67560",
+  "page_id": "post/yzhums-com/67560",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "This new feature is not yet documented in the Business Central 2025 release wave 2 (BC27) release plan",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "The default value ToBeClassified and the obsolete value Always both behave like AsReadOnly.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "On table extensions, this only applies to fields declared in the table extension and does not affect the base table fields.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003489,
+    "posts_in_call": 4
+  }
+}

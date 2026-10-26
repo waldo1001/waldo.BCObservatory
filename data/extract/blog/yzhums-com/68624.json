@@ -7,14 +7,13 @@
   "words": 679,
   "summary": "This post explains how to retrieve and display page counts for PDF and Word documents in Business Central using AL code. It covers using the PDF Document codeunit to get page counts directly for PDFs and converting Word files to PDF first, with examples for extending document attachment pages.",
   "key_points": [
-    "Use codeunit 3110 'PDF Document' and its GetPdfPageCount method to retrieve page counts from PDF files",
-    "Word files must be converted to PDF first using DocumentReportMgt.ConvertWordToPdf before getting page counts",
-    "Extend the Document Attachment table with a PageCount field to store and display page information",
-    "Subscribe to the OnBeforeSaveAttachment event to automatically calculate and store page counts when documents are uploaded"
+    "Codeunit 3110 'PDF Document' has a GetPdfPageCount method that returns the page count of a PDF stream",
+    "Word files must first be converted to PDF with Document Report Mgt. ConvertWordToPdf",
+    "A PageCount field is added to the Document Attachment table and shown on the Document Attachment Details page and the Doc. Attachment List Factbox",
+    "A subscriber to OnBeforeSaveAttachment fills in the page count when a file is uploaded; for Word files it first copies the data into a second Temp Blob"
   ],
   "systems": [
-    "development",
-    "integration"
+    "development"
   ],
   "topics": [
     "pdf processing",

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:11:01.701Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -109,6 +109,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/67489
+      title: "Business Central 2025 wave 2 (BC27): Add more fields and columns by personalizing pages"
+      label: possibly related
+      why: both name Page 5964 "Service Quote"
+      by: code
     - to: post/yzhums-com/71836
       title: "Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting"
       label: possibly related
@@ -331,6 +336,7 @@ Not found in BC28-30: page "Service Item".
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Business Central 2025 wave 2 (BC27): Add more fields and columns by personalizing pages](../posts/yzhums-com/67489.md) — possibly related: both name Page 5964 "Service Quote"
 - [Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting](../posts/yzhums-com/71836.md) — possibly related: both name Page 5900 "Service Order"
 - [Overview of tasks to fulfill service contracts](https://learn.microsoft.com/dynamics365/business-central/service-fulfill-service-contracts) — possibly related: names Page 6050 "Service Contract"
 - [Service price management](https://learn.microsoft.com/dynamics365/business-central/service-service-price-management) — possibly related: names Page 5988 "Service Items"

@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/67949",
+  "input_hash": "4c251dd8f2585c4b26ddf72ba9b30f7e1b4eee11b894cd24a5443aadfd4eb00d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:04.075Z",
+  "issues": [
+    "The object 'other AL Language extension' is not an AL object. It should be dropped.",
+    "The summary and key points say the feature only works for table extension fields. The post only says that on table extensions, the property affects the fields declared in the extension, not the base table fields.",
+    "Nothing in the post supports the administration system."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031709,
+    "posts_in_call": 4
+  }
+}

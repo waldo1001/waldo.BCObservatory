@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/nataliekarolak-com/3404",
+  "input_hash": "f5f6d26cf4271fd3ae032a601a9019f1de2d76821b4df4a4c126cc8c6d88a732",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-26T06:40:57.499Z",
+  "issues": [
+    "This is a personal announcement about joining LinkedIn and how the author will use social media. It has no Business Central functional or technical content.",
+    "The listed features are social media activities, not Business Central features.",
+    "The last key point says the author prioritizes community feedback on communication, which the post does not say."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018733,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/72611",
+  "input_hash": "cb2868db6828dcd30b8e497abe04a46d8047ba992e5be8f0d6643ceaf26c23f0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:06.001Z",
+  "issues": [
+    "The post refers to the Contacts list page and never names a Contacts table.",
+    "The post mentions Exchange Web Services only as being discontinued, which forces an upgrade. It says nothing about a migration feature.",
+    "Summary, key points, versions and quote are supported."
+  ],
+  "applied": [
+    "dropped 1 object(s)",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021461,
+    "posts_in_call": 4
+  }
+}

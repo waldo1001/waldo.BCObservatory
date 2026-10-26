@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/72069",
+  "input_hash": "4449178faab79a8d8c980f4aafced93334a0b011ae7811b74baba6bf329fdf46",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:23.365Z",
+  "issues": [
+    "Summary, key points, objects, features and version all match the post and its code sample.",
+    "The sales system is a weak fit: the post is about item marketing text and a page extension, not sales processes, so it is dropped."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025339,
+    "posts_in_call": 4
+  }
+}

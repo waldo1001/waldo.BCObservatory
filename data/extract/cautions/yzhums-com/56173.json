@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/yzhums-com/56173",
+  "page_id": "post/yzhums-com/56173",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Integer type fields do not support formulas.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "div (Integer division) and mod (Modulus) cannot be used.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "If the last character of the expression is a + or a –, the entire expression will be recorded with that sign.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "The Text and Code type will save the formula itself as text directly.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003732,
+    "posts_in_call": 4
+  }
+}

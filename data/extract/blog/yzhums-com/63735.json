@@ -5,7 +5,7 @@
   "source": "yzhums-com",
   "published_at": "2025-04-29T05:42:25.000Z",
   "words": 457,
-  "summary": "This blog series covers integrating Dynamics 365 Business Central with SharePoint for document management, including storing attachments externally, uploading and importing files via Graph API, saving reports to SharePoint, managing attachments, and previewing various file types within Business Central without customization.",
+  "summary": "This is an index of a blog series on connecting Business Central with SharePoint. It covers BC28 external storage for document attachments with no customization, reading and uploading SharePoint files through AL and Graph API, saving reports to SharePoint manually or automatically, keeping attachments in SharePoint so they do not use BC capacity, and previewing many file types inside BC without a JavaScript control add-in.",
   "key_points": [
     "Business Central 2026 wave 1 (BC28) supports storing document attachments outside the database without customization",
     "Files can be uploaded to and imported from SharePoint document libraries using AL code with Graph API",

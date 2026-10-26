@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:41.849Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,8 @@ links:
     - topic/dev-itpro/administration
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/75024
   guidelines: []
 learn_toc_path:
   - Administration
@@ -78,7 +79,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 74b06e25253a90a6e8803df77f466b24fede6c794251282d0e1b93aa2aa6fffe
@@ -144,5 +145,11 @@ When a problem needs Microsoft, use "Escalate support issues to Microsoft" for s
 - [Troubleshooting tools and guides overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-overview): An overview of tools and processes that help troubleshoot issues in Business Central.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central: Where to find Microsoft’s Contact and Support Numbers?](../../../posts/yzhums-com/75024.md) (community post): "Sales representatives are available Monday-Friday from 6 AM to 3 PM PT"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

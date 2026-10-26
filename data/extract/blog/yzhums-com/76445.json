@@ -7,10 +7,10 @@
   "words": 436,
   "summary": "Business Central 2026 release wave 2 (BC29) introduces support for calculating multiple excise duties per item, replacing the single excise tax type limitation from previous versions with an Excise Taxes action on the Item Card that allows assignment of multiple excise duty configurations to the same item.",
   "key_points": [
-    "Items can now support multiple excise tax types instead of just one, enabling products to be subject to multiple excise levies like plastic and sugar tax simultaneously",
-    "The Excise Taxes action on the Item Card replaces the previous Excise Tax tab, providing a new interface for assigning multiple duty configurations",
-    "Excise duties are automatically calculated during purchasing and sales transactions, with entries generated in the Excise Journal",
-    "This enhancement reduces manual workarounds and customizations while improving tax accuracy and consistency in financial reporting"
+    "In BC29 an item can carry several excise tax types, for example both plastic and sugar tax, instead of the single type allowed in BC28.",
+    "The Excise Tax tab on the Item Card is gone. A new Excise Taxes action is used to assign multiple excise duty configurations.",
+    "After posting a purchase order and a sales order, the author ran Excise Tax Journal Entries in the Excise Journal, and it created entries for both configured tax types.",
+    "Microsoft says the change reduces workarounds, customizations and duplicate item records, and improves tax accuracy across purchasing, inventory valuation and reporting."
   ],
   "systems": [
     "finance",
@@ -28,9 +28,7 @@
   "features": [
     "Calculate multiple excise duties per item",
     "Excise Taxes action",
-    "Excise Tax Journal Entries",
-    "Excise Tax Unit of Measure Code",
-    "Quantity for Excise Tax"
+    "Excise Tax Journal Entries"
   ],
   "versions": [
     "BC29",

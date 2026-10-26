@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,6 +110,10 @@ links:
   posts:
     - post/aardvarklabs-blog/3704
     - post/waldo-be/317951
+    - post/yzhums-com/69356
+    - post/yzhums-com/72250
+    - post/yzhums-com/74172
+    - post/yzhums-com/74973
   guidelines: []
   changes:
     - change/bcapps/10156
@@ -143,7 +147,7 @@ coverage:
   learn: 10
   code: 0
   video: 1
-  blog: 2
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 333d762410d8da9593a67b5f251849371d43d059d2186deb5309f4efe220cfad
@@ -219,6 +223,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Event parameter compatibility rules clarified: local/internal subscribers bind by name"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "codeunit that subscribes to posting events, generates the invoice as a PDF, and fires a business event"
 - [Obsoleted and “no longer invoked” events in v26 Business Central](../../../../posts/waldo-be/317951.md) (community post): "82 obsoleted events from the legacy invoice posting system while keeping them"
+- [Dynamics 365 Business Central: How to automatically archive sales orders via AL (For example, Archive on Order Release)](../../../../posts/yzhums-com/69356.md) (community post): "subscribing to the release event and calling the ArchiveManagement codeunit"
+- [Dynamics 365 Business Central: How to set Company Badge (System Indicator) via AL Code – Automatically set Company Badge](../../../../posts/yzhums-com/72250.md) (community post): "subscribe to the GetSystemIndicator business event to set company badges programmatically"
+- [Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order](../../../../posts/yzhums-com/74172.md) (community post): "pass values from Sales Orders to Production Orders using event subscribers"
+- [Dynamics 365 Business Central: How to add a setup to the Manual Setup (1875, List) page](../../../../posts/yzhums-com/74973.md) (community post): "Subscribe to the OnRegisterManualSetup event to add new manual setups"
 - [Business Central Under the Hood episode 6: We Have Too Many Events!](../../../../videos/P-7dYVfB73E.md) (video): "Integration Events; Workflow Events; Event Usage Telemetry; Handled events"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

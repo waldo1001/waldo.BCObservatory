@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/76252",
+  "page_id": "post/yzhums-com/76252",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "'IsDirty' is not available in runtime version '17.0'. The supported runtime versions are: '18.0' or greater.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Record"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004486,
+    "posts_in_call": 4
+  }
+}

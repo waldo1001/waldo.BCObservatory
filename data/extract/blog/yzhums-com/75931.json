@@ -7,11 +7,11 @@
   "words": 338,
   "summary": "ToolTip and ToolTipML properties are now available at the page object level in BC29. Pages can define tooltips that navigation actions inherit automatically if no explicit tooltip is set on the action itself.",
   "key_points": [
-    "ToolTip and ToolTipML properties can be set directly on page objects",
-    "Navigation actions inherit the page's tooltip if no tooltip is explicitly specified on the action",
-    "This behavior mirrors existing functionality for reports and table fields",
-    "Cannot use both ToolTipML and ToolTip simultaneously on the same page",
-    "Requires runtime version 18.0 or greater"
+    "ToolTip and ToolTipML can now be set at the page object level",
+    "A navigation action whose RunObject is a page inherits that page's tooltip when the action has no tooltip of its own",
+    "The inheritance works the same way it already does for reports",
+    "ToolTip and ToolTipML cannot both be set on one page (AL0428)",
+    "Page ToolTip needs runtime 18.0 or later (AL0666)"
   ],
   "systems": [
     "development",
@@ -24,12 +24,7 @@
     "user interface",
     "multilingual support"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "page"
-    }
-  ],
+  "objects": [],
   "features": [
     "ToolTip property",
     "ToolTipML property",

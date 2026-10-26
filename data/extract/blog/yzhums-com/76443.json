@@ -7,11 +7,10 @@
   "words": 235,
   "summary": "Dynamics 365 Business Central 2026 wave 2 (BC29) is now generally available for cloud customers with version 29.0. New customers get the latest builds automatically, while existing customers receive email notifications when updates become available. On-premises release is pending.",
   "key_points": [
-    "BC29 cloud version is production-ready with platform 29.0.55365.0 and application 29.0.54011.55407",
-    "New SaaS customers automatically receive the latest builds; existing customers get notification emails",
-    "Support period for BC29 runs from September 30, 2026 to April 5, 2028",
-    "On-premises version has not yet been released",
-    "BC25 update introduces flexible environment management with extended update windows (5 months instead of 30-60 days) and optional minor updates"
+    "BC29 (version 29.0) is generally available for cloud. The W1 build is platform 29.0.55365.0 with application 29.0.54011.55407",
+    "New SaaS customers get the latest builds automatically, and existing customers are told by email when updates are available to them",
+    "On-premises has not been released yet. The Modern Policy lifecycle entry for 29.x runs from Sep 30, 2026 to Apr 5, 2028",
+    "The post links to what's new videos, the release plan, a partner PowerPoint deck and office hours"
   ],
   "systems": [
     "platform",
@@ -28,8 +27,7 @@
   ],
   "objects": [],
   "features": [
-    "Managing Production and Sandbox Environments in the Admin Center",
-    "Flexible environment updates"
+    "Managing Production and Sandbox Environments in the Admin Center"
   ],
   "versions": [
     "29.0",

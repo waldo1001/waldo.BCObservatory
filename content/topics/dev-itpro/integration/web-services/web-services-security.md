@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.200Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,7 +82,8 @@ links:
     - topic/dev-itpro/integration/web-services
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/63801
   guidelines: []
   changes:
     - change/bcapps/11171
@@ -100,7 +101,7 @@ coverage:
   learn: 7
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 4cc591df9ed392d40fdbd824d2af29a0ad8b2630152dcb1497a0ce948eb96f88
@@ -158,5 +159,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11967 Block Edit in Excel for pages based on the User table](../../../../changes/bcapps/11967.md) (code change): "prevent authentication corruption when users are edited via Excel"
 - [#12133 Block file scheme in Web Request Helper](../../../../changes/bcapps/12133.md) (code change): "prevent unauthorized local file access through crafted URLs"
 - [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "preventing unintended transmission of Business Central service account credentials"
+- [Dynamics 365 Business Central Blog Series: REST API web services (APIs)](../../../../posts/yzhums-com/63801.md) (community post): "OAuth 2.0 authentication is required for API access as Basic Auth was removed"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -5,7 +5,7 @@
   "source": "yzhums-com",
   "published_at": "2026-07-29T01:38:07.000Z",
   "words": 223,
-  "summary": "Learn how to identify the font used in Business Central standard reports by exporting the report layout file. This technique applies to Word, RDLC, and Excel layouts and is useful when you need to match formatting or troubleshoot report appearance.",
+  "summary": "To see which fonts a standard Business Central report uses, export its layout file, either from the request page's Report Layout menu or from the Report Layouts page. The method works the same for Word, RDLC and Excel layouts. Business Central online only has fonts pre-installed on its servers, and custom fonts cannot be uploaded.",
   "key_points": [
     "Export report layouts through the request page using the three-dot menu next to Report Layout",
     "Business Central servers have pre-installed fonts that cannot be customized with uploads for security and legal reasons",

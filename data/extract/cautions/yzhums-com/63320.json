@@ -1,0 +1,41 @@
+{
+  "item_id": "blog/yzhums-com/63320",
+  "page_id": "post/yzhums-com/63320",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "This will cause an error if the table is different.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC26"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "It seems that the assignment statement does not copy filters and views.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC26"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "If the runtime is not set to 15.2 or above, the following error will be displayed.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC26"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

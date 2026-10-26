@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/67858",
+  "input_hash": "14eef29cf862d339403ec51b15ef5c67fe8f3e358904def4123ff53dfaa39f99",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:06.108Z",
+  "issues": [
+    "Third key point and quote 2 apply the overnight batch job purpose to the new method, but the post says this about the older Database.LockTimeout method.",
+    "Summary links the new method to long-running processes more firmly than the post does.",
+    "Feature 'Long-running process optimization' is vague and not a real feature of the new method."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 quote(s)",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024748,
+    "posts_in_call": 4
+  }
+}

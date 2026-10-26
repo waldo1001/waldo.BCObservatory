@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/68765",
+  "input_hash": "c3d84e65c846abfdc55a27747f488f2d93d511d3a45280321bb81592d32329a4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:41.779Z",
+  "issues": [
+    "Post is a series index linking earlier profiler articles; summary and key points match the listed titles.",
+    "Profiler Schedules and SessionInformation are a feature and a data type, not AL objects.",
+    "Administration system is not supported by the post."
+  ],
+  "applied": [
+    "dropped 2 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028726,
+    "posts_in_call": 4
+  }
+}

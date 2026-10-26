@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/67623",
+  "input_hash": "910cccb1a6a74f795c4231e0c73b270d7c92d0d2cabefee87c8aaf5c1df97b1f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:08.165Z",
+  "issues": [
+    "Quote 2 repeats the same announcement as quote 1 and cuts the original sentence short, so it adds nothing.",
+    "The rest is supported, including the new name-based overloads, the runtime 16.0 requirement, and the RecordRef and FieldRef data types."
+  ],
+  "applied": [
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025262,
+    "posts_in_call": 4
+  }
+}

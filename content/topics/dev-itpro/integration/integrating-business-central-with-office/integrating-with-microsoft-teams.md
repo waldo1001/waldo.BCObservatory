@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:36.352Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,7 +73,8 @@ links:
     - topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-teams/tabs
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/70836
   guidelines: []
 learn_toc_path:
   - Integration
@@ -87,7 +88,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 046db4ac1675927d209c40e73faacdc542a406d6ea64db390f462ed3136a9f27
@@ -128,5 +129,11 @@ Start with the development overview to see the pieces, then move to the metadata
 - [Developing for Microsoft Teams Using Metadata](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-cards): Explains how to use metadata to add custom fields to a Business Central card in Teams
 - [Frequently asked questions about Microsoft Teams integration with Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-faq-teams): Answers to typical questions about Teams and Business Central
 - [Get session and environment information relevant to Teams development](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-check-session): Learn about AL code for getting session information that you cn use to influence runtime behavior of a Business Central card or tab in Teams.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central: Set up access to Business Central with Microsoft 365 licenses within BC (Not in Admin Center)](../../../../posts/yzhums-com/70836.md) (community post): "Microsoft Teams users can access Business Central data using Microsoft 365 licenses"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

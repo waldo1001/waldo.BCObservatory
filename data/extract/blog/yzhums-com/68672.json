@@ -5,13 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2025-10-28T00:56:52.000Z",
   "words": 527,
-  "summary": "This blog series covers multiple techniques for working with comma-separated values (CSV) files in Dynamics 365 Business Central, including importing and exporting data via AL code and Power Automate, importing bulk large text fields, previewing multiple file types, and using Copilot to suggest sales lines from CSV files.",
+  "summary": "This is an index post for a series of articles on handling CSV files in Business Central. It links to articles on importing and exporting table data as CSV, bulk importing long text through AL, using Power Automate for CSV import and export without customization, previewing files such as CSV inside BC, and the BC25 Copilot feature that suggests sales lines from a CSV file.",
   "key_points": [
-    "CSV files can be imported to and exported from Business Central tables using AL code or Power Automate without customization",
-    "Power Automate enables JSON to CSV conversion for exporting and CSV to JSON conversion for importing data",
-    "Large text fields exceeding 250 or 2048 characters can be bulk imported from external files via AL",
-    "Multiple file types including CSV can be previewed within Business Central from SharePoint",
-    "Copilot in Business Central 2024 wave 2 can suggest sales lines directly from CSV files"
+    "The post only lists links to separate articles and has no technical content of its own",
+    "Covered topics include importing CSV data into BC and exporting table data to CSV",
+    "Power Automate can export BC data to CSV (JSON to CSV) and import CSV into BC (CSV to JSON) without customization",
+    "Text longer than 250 or 2048 characters can be bulk imported from external files using AL",
+    "Since 2024 wave 2 (BC25), Copilot can suggest sales lines from a CSV file"
   ],
   "systems": [
     "integration",

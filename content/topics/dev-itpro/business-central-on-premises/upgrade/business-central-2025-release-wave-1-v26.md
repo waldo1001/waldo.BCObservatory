@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:42.546Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,6 +61,7 @@ links:
   posts:
     - post/gerardorenteria-blog/11452
     - post/gerardorenteria-blog/13195
+    - post/yzhums-com/70491
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -73,7 +74,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 2c3b64706f9cd9e4b6ab10fed6093bacfe91675fd52b5b1bf621225f22552777
@@ -117,5 +118,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [(2025 JUL) Cumulative Updates for Business Central](../../../../posts/gerardorenteria-blog/11452.md) (community post): "Cumulative updates for Business Central replace previous updates and fix vulnerabilities"
 - [(2025 DEC) Cumulative Updates for Business Central](../../../../posts/gerardorenteria-blog/13195.md) (community post): "Cumulative Updates for Business Central. This post lists cumulative updates released"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (February, 2026)](../../../../posts/yzhums-com/70491.md) (community post): "BC27 (Oct 2025-Apr 2027), BC26 (Apr 2025-Oct 2026), BC25 (Oct 2024-Apr 2026)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

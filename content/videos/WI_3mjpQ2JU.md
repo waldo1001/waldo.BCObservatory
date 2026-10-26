@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:10:50.862Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -211,6 +211,11 @@ links:
       label: possibly related
       why: both name Page 26 "Vendor Card"
       by: code
+    - to: post/yzhums-com/67489
+      title: "Business Central 2025 wave 2 (BC27): Add more fields and columns by personalizing pages"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
     - to: post/yzhums-com/71463
       title: "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)"
       label: possibly related
@@ -231,25 +236,25 @@ links:
       label: possibly related
       why: both name Page 1801 "Assisted Setup"
       by: code
+    - to: post/yzhums-com/56521
+      title: "Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: post/yzhums-com/65762
+      title: "Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: post/yzhums-com/67058
+      title: "Dynamics 365 Business Central: Merge duplicate records (customers, vendors, or contacts)"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24
       title: Set up IRS 1099 forms
       label: possibly related
       why: names Page 10031 "IRS Reporting Periods (US)"
-      by: code
-    - to: post/aardvarklabs-blog/3680
-      title: Step-by-Step Guide to Custom User Controls in Business Central
-      label: possibly related
-      why: both name Page 26 "Vendor Card"
-      by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-use
-      title: Track data and use the IRS 1099 form
-      label: possibly related
-      why: names Page 10031 "IRS Reporting Periods (US)"
-      by: code
-    - to: video/iHgaNJucyvI
-      title: "What's new: Add existing table fields to pages (2023 release wave 2)"
-      label: possibly related
-      why: both name Page 26 "Vendor Card"
       by: code
 video_id: WI_3mjpQ2JU
 channel: yt-microsoft
@@ -746,13 +751,14 @@ Not found in BC28-30: table "1089 Setup", table "IRS Setup", page "1089 Layout S
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Allow Over Receipts of Products](../videos/8C9JmtHdExM.md) — possibly related: both name Page 26 "Vendor Card"
+- [Business Central 2025 wave 2 (BC27): Add more fields and columns by personalizing pages](../posts/yzhums-com/67489.md) — possibly related: both name Page 26 "Vendor Card"
 - [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Page 26 "Vendor Card"
 - [Business Central 2026 release wave 1 (BC28): Use self-billed invoices](../posts/yzhums-com/71666.md) — possibly related: both name Page 26 "Vendor Card"
 - [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../videos/fpc_XlVEnWw.md) — possibly related: both name Page 26 "Vendor Card"
 - [Dynamics 365 Business Central: How to add a setup to the Manual Setup (1875, List) page](../posts/yzhums-com/74973.md) — possibly related: both name Page 1801 "Assisted Setup"
+- [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../posts/yzhums-com/56521.md) — possibly related: both name Page 26 "Vendor Card"
+- [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../posts/yzhums-com/65762.md) — possibly related: both name Page 26 "Vendor Card"
+- [Dynamics 365 Business Central: Merge duplicate records (customers, vendors, or contacts)](../posts/yzhums-com/67058.md) — possibly related: both name Page 26 "Vendor Card"
 - [Set up IRS 1099 forms](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24) — possibly related: names Page 10031 "IRS Reporting Periods (US)"
-- [Step-by-Step Guide to Custom User Controls in Business Central](../posts/aardvarklabs-blog/3680.md) — possibly related: both name Page 26 "Vendor Card"
-- [Track data and use the IRS 1099 form](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-use) — possibly related: names Page 10031 "IRS Reporting Periods (US)"
-- [What's new: Add existing table fields to pages (2023 release wave 2)](../videos/iHgaNJucyvI.md) — possibly related: both name Page 26 "Vendor Card"
 
 Presenters (as heard): Alexander Toic, Arthur Vel, Alexander, Arthur.

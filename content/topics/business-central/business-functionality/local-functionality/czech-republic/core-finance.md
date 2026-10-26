@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:55.264Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -143,6 +143,7 @@ links:
   changes:
     - change/bcapps/12134
     - change/bcapps/12142
+    - change/bcapps/13107
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -213,5 +214,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12134 [main] bug 652313 - Add Approvals Management integration to compensation, payment order and cash document processing](../../../../../changes/bcapps/12134.md) (code change): "Approvals Management integration was added to compensation, payment order, and cash document processing in Czech"
 - [#12142 [main] bug 652254 - Statutory Reporting Setup - new field for Official Name](../../../../../changes/bcapps/12142.md) (code change): "Czech statutory reporting now supports official company names up to 255 characters"
+- [#13107 CZ Registration No. verification must do integrity and schema check of the response](../../../../../changes/bcapps/13107.md) (code change): "CZ Registration No. verification must do integrity and schema check"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

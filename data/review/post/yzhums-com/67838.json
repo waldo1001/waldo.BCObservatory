@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/67838",
+  "input_hash": "c755a269267fbdf6abcd84087c70314e94c567d5bfb8cc4891ed634395e5ad1e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:06.108Z",
+  "issues": [
+    "Second key point about supporting layout creation alongside dataset tasks is vague and loosely supported.",
+    "Summary claim that the fields help developers configure layouts is an inference beyond the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024748,
+    "posts_in_call": 4
+  }
+}

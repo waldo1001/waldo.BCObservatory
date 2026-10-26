@@ -7,10 +7,10 @@
   "words": 494,
   "summary": "This post explains how to add a visible Experience Tier column (Essential or Premium) to the Companies list page, since this setting is not directly displayed by default. The solution uses AL code with a page extension to retrieve and display the experience tier for each company.",
   "key_points": [
-    "Experience Tier is stored in the Experience Tier Setup table, not in the Company table or Company Information page",
-    "The Experience setting controls which features users can access (Essential vs Premium functionality)",
-    "A page extension on the Companies list uses the Experience Tier Setup table to retrieve and display the tier for each company",
-    "The code uses RecordRef and FieldRef to dynamically read experience tier values from the Experience Tier Setup record"
+    "The Experience tier is not a field on the Company table (2000000006) or the Company Information table (79). The Company Information page computes it as a variable when the page opens.",
+    "The standard logic only returns the tier of the current company, so it is rewritten to work for each company row.",
+    "A page extension on Companies adds a read-only Experience column, filled in OnAfterGetRecord.",
+    "The code reads the Experience Tier Setup record for each company name with RecordRef and FieldRef, then fills a temporary Experience Tier Buffer and picks the selected tier."
   ],
   "systems": [
     "administration",

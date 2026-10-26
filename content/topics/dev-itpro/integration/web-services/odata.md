@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:00.498Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -143,6 +143,7 @@ links:
     - post/aardvarklabs-blog/2565
     - post/demiliani-com/11654
     - post/thinkaboutit-be/7061
+    - post/yzhums-com/48974
   guidelines: []
   changes:
     - change/bcapps/12324
@@ -158,7 +159,7 @@ coverage:
   learn: 14
   code: 0
   video: 1
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 874d34634bbd909ee523fecd2937970ee08aa309c231c470480275a3dd3e1034
@@ -217,6 +218,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "Pages exposed as OData web services will no longer be available"
 - [Dynamics 365 Business Central 2025 Wave 1 release: the state of SOAP deprecation.](../../../../posts/demiliani-com/11654.md) (community post): "Custom OData endpoints for UI pages continue working in version 26 but should migrate to API endpoints"
 - [Quick Tip: Say Goodbye to OData on Microsoft Pages in Business Central 2027 Wave 1 (version 30.0)](../../../../posts/thinkaboutit-be/7061.md) (community post): "Microsoft no longer allows exposing Microsoft-authored pages as OData endpoints"
+- [Dynamics 365 Business Central: How to use the OData V4 IN operator in web service queries](../../../../posts/yzhums-com/48974.md) (community post): "OData V4 IN operator simplifies web service queries in Business Central"
 - [What's New: Web Services in Business Central (2024 release wave 1)](../../../../videos/VpNQ-CYNrkM.md) (video): "OData in Operator Support; OData Performance Optimization"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

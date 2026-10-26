@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:48.019Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,7 +92,8 @@ links:
   videos:
     - video/KYsrBoHVA70
     - video/W2yhU8eXT5w
-  posts: []
+  posts:
+    - post/yzhums-com/70008
   guidelines: []
 learn_toc_path:
   - Development
@@ -106,7 +107,7 @@ coverage:
   learn: 8
   code: 0
   video: 2
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 632e6d5a7cdc3332b868f6bf686faacdc1167512a291e4bfb5543bce5acc2c6d
@@ -153,6 +154,7 @@ For testing, you can open the tablet or phone client directly in a browser with 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central: Add a Scan Barcode action and scan multiple/Continious scanning (Invoke barcode scanning programmatically from AL)](../../../../../posts/yzhums-com/70008.md) (community post): "add barcode scanning buttons and actions to custom pages"
 - [What's New: Business Central Mobile Apps Featuring Brand New Barcode Scanning Capabilities (2023)](../../../../../videos/KYsrBoHVA70.md) (video): "Business Central Mobile Apps Featuring Brand New Barcode Scanning Capabilities"
 - [What's new: Business Central Mobile App and Barcode Scanning (2024 release wave 1)](../../../../../videos/W2yhU8eXT5w.md) (video): "Worksheet pages on mobile phones; Native barcode scanning on SaaS; Camera barcode scanning"
 

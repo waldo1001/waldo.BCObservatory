@@ -5,13 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2025-10-17T00:33:27.000Z",
   "words": 502,
-  "summary": "This customization adds a validation to check if the posting date on sales and purchase documents matches the current month, displaying a confirmation dialog if it does not. It uses event subscribers on the Sales-Post and Purch.-Post codeunits to enforce this check before posting.",
+  "summary": "A custom codeunit checks whether the posting date on a sales or purchase document is in the current month. If it is not, a confirmation dialog asks the user whether to post anyway, for both regular and preview posting. It uses event subscribers on codeunit 81 Sales-Post (Yes/No) and codeunit 91 Purch.-Post (Yes/No).",
   "key_points": [
-    "Event subscribers are used on codeunits 81 (Sales-Post) and 91 (Purch.-Post) to intercept posting operations",
-    "The customization checks if the posting date falls within the current month using CalcDate function",
-    "Both regular posting and preview posting scenarios are covered with appropriate events",
-    "A confirmation dialog prompts the user to proceed if the posting date is outside the current month",
-    "This approach can be extended to add other custom validations like required field checks"
+    "Standard posting periods (Allow Posting From/To in General Ledger Setup or User Setup) cannot ask for confirmation when the date is outside the current month, so this needs a customization",
+    "Sales uses OnBeforeConfirmPost and OnRunPreviewOnAfterSetPostingFlags in codeunit 81 Sales-Post (Yes/No)",
+    "Purchases use OnBeforeConfirmPost and OnRunPreviewOnBeforePurchPostRun in codeunit 91 Purch.-Post (Yes/No)",
+    "The check uses CalcDate to work out the start and end of the current month from Today (which can be swapped for Workdate), then calls Confirm and raises an empty Error if the user declines",
+    "The same approach can add other checks before posting, such as required fields"
   ],
   "systems": [
     "sales",

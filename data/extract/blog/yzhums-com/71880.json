@@ -5,13 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2026-04-01T23:20:59.000Z",
   "words": 213,
-  "summary": "Dynamics 365 Business Central 2026 wave 1 (BC28) is now generally available with version 28.0, featuring production and sandbox environment management improvements in the Admin Center. New customers automatically receive BC28, while existing customers will be notified when updates are available.",
+  "summary": "Business Central 2026 release wave 1 (BC28, version 28.0) is generally available. New SaaS customers get it automatically, and existing customers are notified by email when their update is ready. On-premises download packages are delayed and will follow soon.",
   "key_points": [
-    "BC28 (2026 wave 1) is generally available with platform 28.0.48222.0 and application 28.0.46665.48257",
-    "New customers automatically sign up for BC28; existing customers receive email notifications for updates",
-    "Production and sandbox environment management capabilities added to Admin Center",
-    "BC25 (2024 wave 2) update cycle changed to 5-month major updates and optional minor updates",
-    "On-premises version 28.0 downloads delayed but coming shortly"
+    "BC28 is GA with platform 28.0.48222.0 and application 28.0.46665.48257 (W1)",
+    "New customers sign up on BC28 automatically; existing customers get email notices when updates are available",
+    "On-premises 28.0 packages are delayed but expected shortly",
+    "On-premises version 28.x is supported from Apr 1, 2026 to Oct 13, 2027 under the Modern Policy",
+    "The post links back to the BC25 change that gave more flexible update windows (5 months for major updates, with optional minor updates)"
   ],
   "systems": [
     "administration",
@@ -27,8 +27,6 @@
   ],
   "objects": [],
   "features": [
-    "Production and Sandbox Environment Management",
-    "Admin Center Updates",
     "Flexible Environment Updates",
     "Optional Minor Updates"
   ],

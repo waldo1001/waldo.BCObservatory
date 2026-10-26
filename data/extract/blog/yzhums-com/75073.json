@@ -7,10 +7,10 @@
   "words": 386,
   "summary": "Adding a signature pad to the Sales Order page in Business Central using control add-in objects allows customers to sign digitally and save signatures directly within the system. The post demonstrates a real-world implementation using public JavaScript libraries from CDN.",
   "key_points": [
-    "Control add-in objects integrate external JavaScript libraries like signature_pad from CDN or cdnjs into Business Central",
-    "Customer Delivery Signature group enables users to write by hand, clear mistakes, and save signatures",
-    "Customer Signature Preview Factbox stores and displays saved signatures with delete functionality",
-    "Feature works across Web Client, Tablet, and Phone clients without additional customization"
+    "Control add-in objects can load the public signature_pad JavaScript library from jsDelivr or cdnjs through the Scripts property",
+    "A new Customer Delivery Signature group on the Sales Order lets customers sign by hand, and a Clear button or a Clear Signature header action resets the pad",
+    "A Customer Signature Preview FactBox holds the signature saved with Save Signature and has a delete option",
+    "The approach can be added to other pages such as Warehouse Shipment or Sales Invoice, and it works on the Web, Tablet and Phone clients"
   ],
   "systems": [
     "sales",
@@ -24,12 +24,7 @@
     "digital signing",
     "javascript libraries"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "signature_pad"
-    }
-  ],
+  "objects": [],
   "features": [
     "Signature Pad Integration",
     "Digital Customer Signatures",

@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/74091",
+  "page_id": "post/yzhums-com/74091",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If the Replenishment System is set to Purchase or Assembly, you will get the following error when creating a production order.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Item Card"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003491,
+    "posts_in_call": 4
+  }
+}

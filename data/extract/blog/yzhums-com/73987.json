@@ -5,12 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2026-06-03T00:10:18.000Z",
   "words": 304,
-  "summary": "Business Central 2026 wave 1 (BC28) adds a new Resize button to column header menus, making it easier to adjust column widths without entering personalization mode. The feature works across all list views and shows a highlighted edge for dragging or double-clicking to auto-fit.",
+  "summary": "BC28 (2026 release wave 1) adds a Resize action to the column drop-down or right-click menu on list views. It highlights the column edge so the user can drag it or double-click it to auto-fit. The author confirmed the action in BC28.0 and BC28.1 sandboxes, but not in production at the time of writing.",
   "key_points": [
-    "New Resize button added to the drop-down menu next to column headers for easier column width adjustment",
-    "Works across all list views in Business Central, not limited to specific page types",
-    "Complements existing drag-and-drop and double-click auto-fit features from BC15",
-    "Visual feedback with blue line highlight appears when hovering over column edges"
+    "A new Resize action is in the column header drop-down menu and also appears when you right-click a column name",
+    "After you choose Resize, the column edge is highlighted so you can drag it or double-click it to auto-fit",
+    "The action works in all list views, not only on List pages",
+    "It builds on the drag and double-click column resizing that came in BC15",
+    "The author confirmed it in BC28.0 and BC28.1 sandboxes, not in production; hovering over a column edge already shows a blue line"
   ],
   "systems": [
     "platform"

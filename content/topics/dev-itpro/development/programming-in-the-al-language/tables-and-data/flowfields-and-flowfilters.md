@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:22.410Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,6 +53,9 @@ links:
   posts:
     - post/duiliotacconi-com/1894
     - post/thinkaboutit-be/7846
+    - post/yzhums-com/61561
+    - post/yzhums-com/63736
+    - post/yzhums-com/75896
   guidelines: []
 learn_toc_path:
   - Development
@@ -66,7 +69,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 2
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: fe61db885bb95f25bb8854d322aa17292fec5a821b950638783a42e1191c684c
@@ -108,5 +111,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [FlowFields with same filters and table in a single OUTER APPLY](../../../../../posts/duiliotacconi-com/1894.md) (community post): "FlowFields that use the same table and the same filters into one OUTER APPLY"
 - [Quick Tip: CalcFields vs SetAutoCalcFields in AL](../../../../../posts/thinkaboutit-be/7846.md) (community post): "FlowFields in Business Central are not stored in the database and must be calculated explicitly"
+- [Dynamics 365 Business Central: How to calculate the total (sum) of a column in a table (Four ways)](../../../../../posts/yzhums-com/61561.md) (community post): "FlowFields automatically calculate totals on pages without additional code logic"
+- [Dynamics 365 Business Central Blog Series: FlowFields](../../../../../posts/yzhums-com/63736.md) (community post): "FlowFields perform calculations sum average count min max exist lookup on related table data"
+- [Business Central 2026 release wave 2 (BC29): New system flow fields (SystemCreatedByUserName, SystemCreatedByFullName, SystemModifiedByUserName, and SystemModifiedByFullName)](../../../../../posts/yzhums-com/75896.md) (community post): "four new system FlowFields added to normal and temporary tables"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

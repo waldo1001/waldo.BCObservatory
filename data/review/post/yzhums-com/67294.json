@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/67294",
+  "input_hash": "8ee7690bce58413eea7a88cadd4175255312767ae4cbd046f32a172d159c3226",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:42:22.589Z",
+  "issues": [
+    "Content matches the post; BC25 update-window point is drawn from a referenced article title, which is acceptable.",
+    "The quote is only a link title and adds little, but is accurate.",
+    "Administration would fit better than platform for admin center preview sandboxes, but systems cannot be added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028283,
+    "posts_in_call": 4
+  }
+}

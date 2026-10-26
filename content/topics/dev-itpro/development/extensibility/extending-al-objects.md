@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:28.884Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,6 +86,7 @@ links:
   posts:
     - post/gerardorenteria-blog/13041
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1
+    - post/yzhums-com/61818
   guidelines: []
   changes:
     - change/bcapps/10067
@@ -105,7 +106,7 @@ coverage:
   learn: 7
   code: 0
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 9ebfd0c8a95564cad3895173960c88fe73af3e7b6e4de945b95a59be2bfcd58c
@@ -160,6 +161,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9217 [Extensibility][SubscriptionBilling]: Make IsLineAttachedToBillingLine accessible from external apps in Sales Line and Purchase Line](../../../../changes/bcapps/9217.md) (code change): "IsLineAttachedToBillingLine procedure visibility changed from internal to public"
 - [● Mark, Filter, Focus: Bringing Precision to BC List Analysis ✅](../../../../posts/gerardorenteria-blog/13041.md) (community post): "page extensions with keyboard shortcuts to enable cross-filter record selection"
 - [Business Central 29.0: Major Change to Table Extensions and SQL Storage.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1.md) (community post): "table extension fields are stored in the database"
+- [Dynamics 365 Business Central: How to substitute a page for another page via AL](../../../../posts/yzhums-com/61818.md) (community post): "Page substitution in Dynamics 365 Business Central allows developers to redirect"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../videos/qABlX4AL3GM.md) (video): "table extensions; sql storage model; database performance; indexes"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

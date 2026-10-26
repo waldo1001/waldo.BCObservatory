@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:53.640Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -317,7 +317,8 @@ links:
     - topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics/legacy-reports-will-be-removed
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/71493
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -333,7 +334,7 @@ coverage:
   learn: 33
   code: 55
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 20
@@ -422,6 +423,12 @@ Start with the Fixed assets analytics overview to pick an approach. Use ad-hoc a
 - [Ad-hoc analysis of fixed assets data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa): Learn how to use the data analysis mode to analyze fixed assets data.
 - [Fixed assets analytics](https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview): Learn how to gather, analyze, and share data about fixed assets for business intelligence.
   - In the observatory: [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md)
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central 2026 release wave 1 (BC28): Enhanced demo data for sales, purchasing, and fixed assets analytics](../../../../posts/yzhums-com/71493.md) (community post): "Fixed assets demo data now includes dimension setup and posted entries"
 
 ## Business Central pages and reports
 

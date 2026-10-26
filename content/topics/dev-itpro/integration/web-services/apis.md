@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -329,6 +329,7 @@ links:
     - topic/dev-itpro/integration/web-services/apis/finance-reports-api
   localizations: []
   videos:
+    - video/1ft4o9lQzsU
     - video/2N2NhNH7dsk
     - video/4HE3BBCcV84
     - video/S5Xw-b8YF-c
@@ -346,6 +347,9 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579
     - post/thinkaboutit-be/7683
     - post/thinkaboutit-be/8272
+    - post/yzhums-com/63801
+    - post/yzhums-com/70369
+    - post/yzhums-com/74390
   guidelines: []
   changes:
     - change/bcapps/10010
@@ -367,8 +371,8 @@ children:
 coverage:
   learn: 261
   code: 1
-  video: 4
-  blog: 12
+  video: 5
+  blog: 15
   guideline: 0
 bc_forms:
   - 812
@@ -459,6 +463,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC Friday Tips #66 API v2 app](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579.md) (community post): "The Exclude_APIV2 app holds the standard API V2 objects used by Business Central"
 - [API Pages vs API Queries in Business Central: When to Use Each](../../../../posts/thinkaboutit-be/7683.md) (community post): "API pages and API queries are two distinct REST API object types in Business Central"
 - [Business Central 29: More Control Over Report Layouts and New Report Inbox APIs](../../../../posts/thinkaboutit-be/8272.md) (community post): "Report Inbox APIs enable external applications and automation tools to interact"
+- [Dynamics 365 Business Central Blog Series: REST API web services (APIs)](../../../../posts/yzhums-com/63801.md) (community post): "REST API web services in Dynamics 365 Business Central, including standard and automation APIs"
+- [Dynamics 365 Business Central: Does the API support Multi-level Expand (Multi layers)](../../../../posts/yzhums-com/70369.md) (community post): "Business Central REST API supports multi-level expand using nested parentheses in $expand syntax"
+- [Business Central 2026 release wave 1 (BC28.2): Use new APIs for analyzing approval workflows for auditors and IT staff](../../../../posts/yzhums-com/74390.md) (community post): "Seven new API V2.0 endpoints provide read-only access to workflow approval data"
+- [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "Business Central API structure and authentication; Dynamic API connection using environment variables"
 - [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../../../../videos/2N2NhNH7dsk.md) (video): "Report inbox APIs; API overview page for report inbox"
 - [MCP Server and API Queries (2026 release wave 1)](../../../../videos/4HE3BBCcV84.md) (video): "API queries in MCP server Analytics API reference documentation"
 - [What's New: APIs in E-Documents (2025 release wave 2)](../../../../videos/S5Xw-b8YF-c.md) (video): "E-Documents APIs; E-Document Business Events; Create E-Document"

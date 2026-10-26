@@ -1,0 +1,34 @@
+{
+  "item_id": "blog/yzhums-com/62564",
+  "page_id": "post/yzhums-com/62564",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "For the best performance, we need to limit filtering, sorting, and pivoting on calculated fields.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "26",
+        "2025 release wave 1"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "exporting data to Excel will include just what is on screen.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "26",
+        "2025 release wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

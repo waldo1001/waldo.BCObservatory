@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/73987",
+  "input_hash": "4cfa005b8bb5f15e54de8f5027b5db0da5cd57ad090ed3443b79d7d3ec30219d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:06.533Z",
+  "issues": [
+    "The summary credited the new button with removing the need to personalize. The post says that about the BC15 drag-to-resize feature, so the summary was reworded.",
+    "The page left out that the author confirmed the button in BC28.0 and BC28.1 sandboxes but not in production. A key point was added for this.",
+    "The quotes and versions match the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027303,
+    "posts_in_call": 4
+  }
+}

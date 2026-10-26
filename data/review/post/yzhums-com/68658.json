@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/68658",
+  "input_hash": "d6adb5246ca696f0b5db47dcb35a2e4db99752b08ec24c36365b881be9d6b3a0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:41.779Z",
+  "issues": [
+    "Summary claims OnValidate triggers validate application code changes; the post does not say this.",
+    "Key point about properties wrongly says direct table updates bypass validation; the post says direct table updates are validated and only code updates are not.",
+    "Administration system not supported.",
+    "Vendor Card page extension is also used but cannot be added."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028726,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/yzhums-com/65781",
+  "page_id": "post/yzhums-com/65781",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "These enhancements are currently available in sandbox environments only.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC26.3",
+        "2025 release wave 1"
+      ]
+    },
+    {
+      "kind": "preview-disclaimer",
+      "quote": "This feature is part of Copilot chat and is available as a preview for sandbox environments in any country localization.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC26.3",
+        "2025 release wave 1"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "This feature is supported in English only. While it can be used in other languages, it might not function as intended.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC26.3",
+        "2025 release wave 1"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "AI-generated content might be incorrect.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC26.3",
+        "2025 release wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004534,
+    "posts_in_call": 4
+  }
+}

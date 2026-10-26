@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/74458",
+  "input_hash": "93ee78b6be659f9ca72c28ca7da6619a23e3a4165307e9ebaf18fde2f4821f55",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:45.042Z",
+  "issues": [
+    "The summary, key points, quote and objects match the post and its code.",
+    "Sales is only mentioned as background about customer inquiries. The post is about inventory, so the sales system is dropped."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027728,
+    "posts_in_call": 4
+  }
+}

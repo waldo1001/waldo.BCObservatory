@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/70588",
+  "input_hash": "d763a5f11a0486d8d81a18b510ab70dedf1f0d4d4a6a3fc1eb55c55d01075f5c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:57.499Z",
+  "issues": [
+    "The post does not support tagging the administration system; it is a development topic.",
+    "Everything else checks out: table Customer appears as the standard object example, the post defines the All Object List page, and version W1 27.4 is stated."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018733,
+    "posts_in_call": 4
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8c438475be31a82b5ecc70dd46ca9a719ca65424fa05e1169543a2730c6789d0
@@ -142,8 +142,10 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-59-allocation-account-design--edfa12d35b
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212
+    - post/yzhums-com/74973
   guidelines: []
 learn_toc_path:
   - Development
@@ -157,7 +159,7 @@ coverage:
   learn: 15
   code: 7
   video: 0
-  blog: 2
+  blog: 4
   guideline: 0
 bc_forms:
   - 4500
@@ -192,8 +194,10 @@ Path: [Development](../../development.md) > [Extensibility](../extensibility.md)
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [BC Friday Tips #59 Allocation Account Design](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-59-allocation-account-design--edfa12d35b.md) (community post): "Understanding this pattern helps with debugging and implementing similar functionality"
 - [BC Friday Tips #74 Copy Document and Custom Field](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) (community post): "When adding custom fields to Sales Header or Sales Invoice Header tables"
 - [BC Friday Tips #75 Dynamics BC Excel Reports](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md) (community post): "developers to add it as a dependency when extending these objects"
+- [Dynamics 365 Business Central: How to add a setup to the Manual Setup (1875, List) page](../../../../posts/yzhums-com/74973.md) (community post): "add a custom setup page to the Manual Setup page in Business Central using the Guided Experience"
 
 ## Business Central pages and reports
 

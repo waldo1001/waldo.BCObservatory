@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:53.709Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,8 @@ links:
     - topic/dev-itpro/development/extensibility
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/75294
   guidelines: []
   changes:
     - change/bcapps/11580
@@ -81,7 +82,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 0d5ef04919b2003a407a269205cb993af3fd6316ab4b8766241eb48804f56226
@@ -127,5 +128,6 @@ Start with "Create an extensibility request" and "Types of events for extensibil
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11580 [Extensibility Request] issue 29654: customize document rejection response](../../../../changes/bcapps/11580.md) (code change): "customize document rejection response. Workflow Setup now offers an overloaded method"
+- [Dynamics 365 Business Central: Create an extensibility request on BCApps (ALAppExtensions is being retired)](../../../../posts/yzhums-com/75294.md) (community post): "extensibility requests including event requests must now be submitted through BCApps"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

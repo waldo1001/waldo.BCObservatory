@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/76756",
+  "input_hash": "a96ee9f38126da766feaf208b42f3b0065d29112ea5a582d247081b7db5fce9c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:38:47.378Z",
+  "issues": [
+    "The summary, quotes and features are supported.",
+    "One key point calls layout subtypes new. The post only says layouts can have subtypes and does not present this as a BC29 change.",
+    "The post says to install the latest add-in version, 3.0.0.0, but does not tie the new controls to that version explicitly."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033889,
+    "posts_in_call": 4
+  }
+}

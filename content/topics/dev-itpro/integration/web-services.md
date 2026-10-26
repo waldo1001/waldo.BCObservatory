@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:13:54.202Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -322,6 +322,7 @@ links:
     - video/VpNQ-CYNrkM
   posts:
     - post/aardvarklabs-blog/4082
+    - post/yzhums-com/68873
   guidelines: []
   changes:
     - change/bcapps/11096
@@ -347,7 +348,7 @@ coverage:
   learn: 294
   code: 1
   video: 2
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 812
@@ -411,6 +412,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9914 [APIV2] Return unapplied lines from the Vendor Payments API](../../../changes/bcapps/9914.md) (code change): "The Vendor Payments API now returns all payment lines in a batch, including unapplied payments"
 - [#100 Add P0 integration and control add-in runtime guidance](../../../changes/bcquality/100.md) (code change): "Guidance and AL samples for linking API parts on SystemId and setting Multiplicity."
 - [Business Central’s New API Overview: A Modern Replacement for Web Services](../../../posts/aardvarklabs-blog/4082.md) (community post): "replacing the legacy Web Services page. SOAP endpoints are deprecated"
+- [Business Central 2025 wave 2 (BC27.1): Connect AI agents to Business Central through MCP server (Dynamics 365 Business Central MCP)](../../../posts/yzhums-com/68873.md) (community post): "MCP is an open standard that lets AI agents discover and invoke operations"
 - [What's New: Server and Database - More Stable Web Services (2023 release wave 2)](../../../videos/sk5CaXnvvng.md) (video): "Web services; odata; http status codes; error handling"
 - [What's New: Web Services in Business Central (2024 release wave 1)](../../../videos/VpNQ-CYNrkM.md) (video): "Web Services in Business Central; OData; API performance; web service"
 

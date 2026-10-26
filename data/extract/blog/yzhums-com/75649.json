@@ -5,7 +5,7 @@
   "source": "yzhums-com",
   "published_at": "2026-09-02T00:55:30.000Z",
   "words": 223,
-  "summary": "This post explains how to remove non-alphanumeric characters from strings in Dynamics 365 Business Central using the built-in StringConversionManagement codeunit. It provides a practical example of applying character filtering during data validation on the Customer Card form.",
+  "summary": "The post shows how to strip non-alphanumeric characters from text in Business Central AL using the standard codeunit 47 StringConversionManagement and its RemoveNonAlphaNumericCharacters procedure. A page extension example on the Customer Card cleans the Name field in its OnBeforeValidate trigger, so only letters and digits are kept.",
   "key_points": [
     "Use codeunit 47 StringConversionManagement and its RemoveNonAlphaNumericCharacters method to filter strings",
     "The method leaves only letters A-Z and numbers 0-9, removing special characters, symbols, spaces, and emoji",
@@ -13,8 +13,7 @@
     "Offers a cleaner built-in solution compared to custom methods for handling non-alphanumeric character removal"
   ],
   "systems": [
-    "development",
-    "integration"
+    "development"
   ],
   "topics": [
     "al development",
@@ -35,8 +34,6 @@
   ],
   "features": [
     "RemoveNonAlphaNumericCharacters method",
-    "data import handling",
-    "API integration support",
     "input validation",
     "string conversion"
   ],
@@ -46,10 +43,6 @@
     {
       "text": "we can use the standard codeunit 47 StringConversionManagement",
       "why_it_matters": "Identifies the specific built-in tool developers should use instead of creating custom solutions"
-    },
-    {
-      "text": "leaving only clean letters (A - Z) and numbers (0 - 9) for your Business Central solution",
-      "why_it_matters": "Clarifies the exact behavior and output of the character filtering method"
     }
   ],
   "trimmed_for_policy": 0,

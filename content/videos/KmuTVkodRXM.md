@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:22:13.830Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -84,43 +84,43 @@ links:
       label: possibly related
       why: both name Page 22 "Customer List"
       by: code
+    - to: post/yzhums-com/63595
+      title: "Dynamics 365 Business Central: Convert Word (.docx) To PDF (.pdf) within BC (No control add-in and APIs)"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/yzhums-com/68731
+      title: "Dynamics 365 Business Central: How to get current Profile (Role) info (Profile ID, Display Name, Source, Role Center ID, etc.) via AL"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/yzhums-com/56521
+      title: "Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/yzhums-com/67552
+      title: "Dynamics 365 Business Central: How to quickly get User Experience/Experience Tier (Essential or Premium) in AL"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
     - to: post/yzhums-com/72040
       title: "Dynamics 365 Business Central: How to quickly identify the first transaction date and the number of days since the last sale with a customer"
       label: possibly related
       why: both name Page 22 "Customer List"
       by: code
+    - to: post/yzhums-com/61818
+      title: "Dynamics 365 Business Central: How to substitute a page for another page via AL"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/yzhums-com/63922
+      title: "Dynamics 365 Business Central: How to use Page.SetSelectionFilter Method in temporary records"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
     - to: post/thedynamicsexplorer-com/36822
       title: Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central
-      label: possibly related
-      why: both name Page 22 "Customer List"
-      by: code
-    - to: post/thedynamicsexplorer-com/36744
-      title: "Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central"
-      label: possibly related
-      why: both name Page 22 "Customer List"
-      by: code
-    - to: video/mZNfMPpxovE
-      title: Historical Snapshot (2024)
-      label: possibly related
-      why: both name Page 22 "Customer List"
-      by: code
-    - to: video/6zj34hjbpGU
-      title: How Business Central Integrates with Microsoft Excel (2025)
-      label: possibly related
-      why: both name Page 22 "Customer List"
-      by: code
-    - to: video/B8PLDeZ73Y4
-      title: Snapshot Debugging vs AL Profiler in Business Central — When to Use Each
-      label: possibly related
-      why: both name Page 22 "Customer List"
-      by: code
-    - to: post/aardvarklabs-blog/2523
-      title: Step-by-Step Guide to Page Customizations for Business Central in AL
-      label: possibly related
-      why: both name Page 22 "Customer List"
-      by: code
-    - to: post/aardvarklabs-blog/3348
-      title: Step-by-Step Guide to Secure Business Central Agent Implementations in AL
       label: possibly related
       why: both name Page 22 "Customer List"
       by: code
@@ -263,11 +263,11 @@ No source states these links: they share an object, a model read them, or a pers
 
 - [🕐 Remember When Lists Could Sort By Any Key? 🔄](../posts/gerardorenteria-blog/12961.md) — possibly related: both name Page 22 "Customer List"
 - [Business Central v29: System Audit Fields Now Available in Analysis Mode](../videos/H7R_m8Ue38g.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics 365 Business Central: Convert Word (.docx) To PDF (.pdf) within BC (No control add-in and APIs)](../posts/yzhums-com/63595.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics 365 Business Central: How to get current Profile (Role) info (Profile ID, Display Name, Source, Role Center ID, etc.) via AL](../posts/yzhums-com/68731.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../posts/yzhums-com/56521.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics 365 Business Central: How to quickly get User Experience/Experience Tier (Essential or Premium) in AL](../posts/yzhums-com/67552.md) — possibly related: both name Page 22 "Customer List"
 - [Dynamics 365 Business Central: How to quickly identify the first transaction date and the number of days since the last sale with a customer](../posts/yzhums-com/72040.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics 365 Business Central: How to substitute a page for another page via AL](../posts/yzhums-com/61818.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics 365 Business Central: How to use Page.SetSelectionFilter Method in temporary records](../posts/yzhums-com/63922.md) — possibly related: both name Page 22 "Customer List"
 - [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 22 "Customer List"
-- [Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central](../posts/thedynamicsexplorer-com/36744.md) — possibly related: both name Page 22 "Customer List"
-- [Historical Snapshot (2024)](../videos/mZNfMPpxovE.md) — possibly related: both name Page 22 "Customer List"
-- [How Business Central Integrates with Microsoft Excel (2025)](../videos/6zj34hjbpGU.md) — possibly related: both name Page 22 "Customer List"
-- [Snapshot Debugging vs AL Profiler in Business Central — When to Use Each](../videos/B8PLDeZ73Y4.md) — possibly related: both name Page 22 "Customer List"
-- [Step-by-Step Guide to Page Customizations for Business Central in AL](../posts/aardvarklabs-blog/2523.md) — possibly related: both name Page 22 "Customer List"
-- [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../posts/aardvarklabs-blog/3348.md) — possibly related: both name Page 22 "Customer List"

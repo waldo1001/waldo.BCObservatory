@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/66463",
+  "input_hash": "48ba1f09630f171610843b23fb9295ce7fde1609ec9bab9ce8908822d9666423",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:31.467Z",
+  "issues": [
+    "Integration system is not supported; the post concerns document attachments and a customization, not integration with external systems.",
+    "Summary, key points, objects and quotes are otherwise accurate."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02623,
+    "posts_in_call": 4
+  }
+}

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:52:17.570Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -139,6 +139,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/63803
+      title: "Dynamics 365 Business Central: How to disable/hide OneDrive action group for all users"
+      label: possibly related
+      why: both name Page 680 "Report Inbox"
+      by: code
     - to: post/gerardorenteria-blog/14717
       title: New Application Ideas of Dynamics 365 Business Central (2026 MAY)
       label: possibly related
@@ -314,6 +319,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Dynamics 365 Business Central: How to disable/hide OneDrive action group for all users](../posts/yzhums-com/63803.md) — possibly related: both name Page 680 "Report Inbox"
 - [New Application Ideas of Dynamics 365 Business Central (2026 MAY)](../posts/gerardorenteria-blog/14717.md) — possibly related: both name Page 680 "Report Inbox"
 - [Share and Export Reports with the Report Inbox](https://learn.microsoft.com/dynamics365/business-central/ui-work-report-inbox) — possibly related: names Page 680 "Report Inbox"
 

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/71239",
+  "input_hash": "a234648c229b20ec83a2cf562c8259cb80d28e04d8e913dbfb6abe83ea6b68fc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:48.550Z",
+  "issues": [
+    "Key point claims 17 pages; the post lists 16.",
+    "The development system is not supported; the post is about end-user personalization of manufacturing and planning pages.",
+    "All 16 listed page objects match the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030519,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/65999",
+  "input_hash": "9b25eeb502b73ccf4836a315b0b5abea15b7b6e5137a83fab0e4d327875d69c0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:41.067Z",
+  "issues": [
+    "Summary, key points and quotes are supported.",
+    "The Remove Obsolete Permissions action is not an AL object; it is already captured as a feature."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030102,
+    "posts_in_call": 4
+  }
+}

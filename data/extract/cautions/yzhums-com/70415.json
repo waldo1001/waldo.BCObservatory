@@ -1,0 +1,36 @@
+{
+  "item_id": "blog/yzhums-com/70415",
+  "page_id": "post/yzhums-com/70415",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Doing so disables the preview and print options, causing the file to be downloaded directly.",
+      "objects": [
+        {
+          "type": "report",
+          "name": "Standard Sales - Invoice"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "preview-disclaimer",
+      "quote": "You must be on Business Central 2025 Release Wave 1 (BC26) or later.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC26",
+        "2025 Release Wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

@@ -5,7 +5,7 @@
   "source": "yzhums-com",
   "published_at": "2026-10-20T02:06:45.000Z",
   "words": 459,
-  "summary": "Business Central 2026 wave 2 (BC29) adds the ability to cancel scheduled PTE (partner tradeable extensions) installation directly from the admin center using the new Manage updates feature, improving on the previous requirement to re-upload the same version to overwrite the schedule.",
+  "summary": "In BC29, a PTE install scheduled from the Business Central admin center (Next Minor or Next Major) can be cancelled using Manage updates and then Cancel scheduled install. Before this, the only option was to re-upload the same version to overwrite the schedule. Cancelling removes that version from the service, and the Operations page then shows the status as Canceled along with the user who cancelled it.",
   "key_points": [
     "Starting with BC28.4, PTEs can be uploaded, installed, and managed directly in the admin center instead of through Extension Management.",
     "When scheduling a PTE installation from the admin center, you can now cancel it by clicking Manage updates and selecting Cancel scheduled install.",

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/72806",
+  "input_hash": "4dde81888feb7562a114de89fe2639b4f5ff2ab75d395f0e6b5237e50f1dceb0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:14.576Z",
+  "issues": [
+    "The finance system is not supported; the post is about item journals and requisition worksheets.",
+    "Summary, key points, quote and object are consistent with the post."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026437,
+    "posts_in_call": 4
+  }
+}

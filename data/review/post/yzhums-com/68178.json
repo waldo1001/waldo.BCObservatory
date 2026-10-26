@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/68178",
+  "input_hash": "215c2736970c055093f6c90715146f5b681cb4b3da94f009f9c99bc37a8e047c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:50.571Z",
+  "issues": [
+    "The listed object is a mangled version of an app name from the app.json dependency, not an AL object, so it is dropped.",
+    "The feature Development flexibility is too vague to be useful.",
+    "The summary and key points match the post."
+  ],
+  "applied": [
+    "dropped 1 object(s)",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026245,
+    "posts_in_call": 4
+  }
+}

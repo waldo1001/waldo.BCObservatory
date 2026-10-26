@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/74523",
+  "input_hash": "8bd9aa87638202db4ef0a75e928e69ba4a91f3062ce9d0c4c2f227094bdc9a48",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:52.527Z",
+  "issues": [
+    "Post is an index of linked articles on item attributes; it says nothing about reporting, so that system is unsupported.",
+    "Key point about adding attributes to other document pages goes beyond the post, which only mentions the Sales Order page.",
+    "Key point on filtering was vague; rewritten to reflect the Item Ledger Entries filter article."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032455,
+    "posts_in_call": 4
+  }
+}

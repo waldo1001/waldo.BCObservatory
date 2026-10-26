@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/64057",
+  "input_hash": "00173369da8c04b40b0539805abe75424fa21e4eec7037f3c9c3aae364c2337a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.324Z",
+  "issues": [
+    "The summary says the secrets are encrypted. The post only says the method swaps the placeholders for the secrets and writes the result to a SecretText. Rewrote the summary to match.",
+    "Key points, objects, quotes and versions match the post."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

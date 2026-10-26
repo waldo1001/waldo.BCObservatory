@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:12:37.245Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -169,6 +169,11 @@ links:
       label: possibly related
       why: both name Page 26 "Vendor Card"
       by: code
+    - to: post/yzhums-com/67489
+      title: "Business Central 2025 wave 2 (BC27): Add more fields and columns by personalizing pages"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
     - to: post/yzhums-com/71463
       title: "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)"
       label: possibly related
@@ -184,25 +189,30 @@ links:
       label: possibly related
       why: both name Page 26 "Vendor Card"
       by: code
-    - to: post/aardvarklabs-blog/2936
-      title: Integrating Analysis Views in Business Central Extensions
+    - to: post/yzhums-com/64609
+      title: "Dynamics 365 Business Central: “Hide Company Bank Account” setup in General Ledger Setup (Update Company Bank Account on posted documents)"
       label: possibly related
       why: both name Page 143 "Posted Sales Invoices"
       by: code
-    - to: post/aardvarklabs-blog/3680
-      title: Step-by-Step Guide to Custom User Controls in Business Central
+    - to: post/yzhums-com/63315
+      title: "Dynamics 365 Business Central: How to change Due Date of posted documents"
+      label: possibly related
+      why: both name Page 143 "Posted Sales Invoices"
+      by: code
+    - to: post/yzhums-com/56521
+      title: "Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page"
       label: possibly related
       why: both name Page 26 "Vendor Card"
       by: code
-    - to: post/aardvarklabs-blog/3348
-      title: Step-by-Step Guide to Secure Business Central Agent Implementations in AL
-      label: possibly related
-      why: both name Page 27 "Vendor List"
-      by: code
-    - to: video/WI_3mjpQ2JU
-      title: "What's New: Automated IRS1099 Reporting (2024 release wave 1)"
+    - to: post/yzhums-com/65762
+      title: "Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL"
       label: possibly related
       why: both name Page 26 "Vendor Card"
+      by: code
+    - to: post/yzhums-com/70415
+      title: "Dynamics 365 Business Central: How to run a Report in Preview Mode without the Request Page (Hide Request Page)"
+      label: possibly related
+      why: both name Page 143 "Posted Sales Invoices"
       by: code
 video_id: iHgaNJucyvI
 channel: yt-microsoft
@@ -484,12 +494,14 @@ Not found in BC28-30: table "vendor table", permissionset "D365 Profile Manageme
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Allow Over Receipts of Products](../videos/8C9JmtHdExM.md) — possibly related: both name Page 26 "Vendor Card"
+- [Business Central 2025 wave 2 (BC27): Add more fields and columns by personalizing pages](../posts/yzhums-com/67489.md) — possibly related: both name Page 26 "Vendor Card"
 - [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Page 26 "Vendor Card"
 - [Business Central 2026 release wave 1 (BC28): Use self-billed invoices](../posts/yzhums-com/71666.md) — possibly related: both name Page 26 "Vendor Card"
 - [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../videos/fpc_XlVEnWw.md) — possibly related: both name Page 26 "Vendor Card"
-- [Integrating Analysis Views in Business Central Extensions](../posts/aardvarklabs-blog/2936.md) — possibly related: both name Page 143 "Posted Sales Invoices"
-- [Step-by-Step Guide to Custom User Controls in Business Central](../posts/aardvarklabs-blog/3680.md) — possibly related: both name Page 26 "Vendor Card"
-- [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../posts/aardvarklabs-blog/3348.md) — possibly related: both name Page 27 "Vendor List"
-- [What's New: Automated IRS1099 Reporting (2024 release wave 1)](../videos/WI_3mjpQ2JU.md) — possibly related: both name Page 26 "Vendor Card"
+- [Dynamics 365 Business Central: “Hide Company Bank Account” setup in General Ledger Setup (Update Company Bank Account on posted documents)](../posts/yzhums-com/64609.md) — possibly related: both name Page 143 "Posted Sales Invoices"
+- [Dynamics 365 Business Central: How to change Due Date of posted documents](../posts/yzhums-com/63315.md) — possibly related: both name Page 143 "Posted Sales Invoices"
+- [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../posts/yzhums-com/56521.md) — possibly related: both name Page 26 "Vendor Card"
+- [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../posts/yzhums-com/65762.md) — possibly related: both name Page 26 "Vendor Card"
+- [Dynamics 365 Business Central: How to run a Report in Preview Mode without the Request Page (Hide Request Page)](../posts/yzhums-com/70415.md) — possibly related: both name Page 143 "Posted Sales Invoices"
 
 Presenters (as heard): Peter, Mike.

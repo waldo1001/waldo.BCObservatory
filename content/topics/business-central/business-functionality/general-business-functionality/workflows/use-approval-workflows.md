@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:53.100Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,6 +86,9 @@ links:
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44
     - post/olofsimren-com/3779
+    - post/yzhums-com/70683
+    - post/yzhums-com/71039
+    - post/yzhums-com/72806
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -99,7 +102,7 @@ coverage:
   learn: 6
   code: 9
   video: 0
-  blog: 2
+  blog: 5
   guideline: 0
 bc_forms:
   - 654
@@ -159,6 +162,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Approval Workflows for Item Journals and Requisition Worksheets](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md) (community post): "approval workflows for item journals, requisition worksheets, and planning worksheets"
 - [Approval Workflows in Planning Worksheet](../../../../../posts/olofsimren-com/3779.md) (community post): "Business Central version 28 adds approval workflow support to planning, requisition, and subcontracting"
+- [Dynamics 365 Business Central: How to hide the confirmation message (An approval request has been sent) when sending an Approval Request?](../../../../../posts/yzhums-com/70683.md) (community post): "Workflows automate approval processes for sensitive business records"
+- [Business Central 2026 release wave 1 (BC28): Include approvals for requisition worksheets and item journals in your workflows (New standard workflows)](../../../../../posts/yzhums-com/71039.md) (community post): "extends approval workflows to item journals and requisition/planning worksheets"
+- [Business Central 2026 release wave 1 (BC28): Newly added Workflow Templates (Item Journals & Requisition Worksheets) missing in upgraded environments](../../../../../posts/yzhums-com/72806.md) (community post): "Item journals and requisition worksheets now support approval workflows"
 
 ## Business Central pages and reports
 

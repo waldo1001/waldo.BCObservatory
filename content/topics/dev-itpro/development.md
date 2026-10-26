@@ -12,7 +12,7 @@ review:
   at: "2026-10-25T12:53:09.453Z"
   flags: []
 generated:
-  at: "2026-10-25T18:23:25.719Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -399,7 +399,6 @@ links:
     - video/npkC4wyucyY
   posts:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570
-    - post/nataliekarolak-com/4271
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d
     - post/thatnavguy-com/https-thatnavguy-com-projects-al-pocket-tools--9c3084464c
   guidelines: []
@@ -436,7 +435,7 @@ coverage:
   learn: 523
   code: 77
   video: 2
-  blog: 4
+  blog: 3
   guideline: 0
 bc_forms:
   - 16
@@ -593,7 +592,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9876 [Subscription Billing] Rename progress tracker](../../changes/bcapps/9876.md) (code change): "Codeunit 8035 renamed from 'Progress Tracker' to 'Sub. Billing Progress Tracker'"
 - [#87 Fix knowledge corpus integrity issues](../../changes/bcquality/87.md) (code change): "Dead knowledge and sample references in skill documentation were replaced with canonical current articles"
 - [Weekly Review: Business Central AL Development – June 28–July 4, 2026](../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570.md) (community post): "This weekly review curates Business Central AL development posts"
-- [Get the new BCQuality plugin for VS Code!](../../posts/nataliekarolak-com/4271.md) (community post): "new VS Code plugin now makes it easier to use by automatically downloading repository files"
 - [BC Friday Tips #62 VS Code AL Themes](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d.md) (community post): "The AL Language extension in VS Code includes built-in themes called Business Central Light and Business Central Dark"
 - [AL Pocket Tools](../../posts/thatnavguy-com/https-thatnavguy-com-projects-al-pocket-tools--9c3084464c.md) (community post): "provides utilities for Dynamics 365 Business Central developers"
 - [What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)](../../videos/mnxOSl1Y9PI.md) (video): "Key Updates in our Learning Content documentation For Developers 2024 release wave 1"

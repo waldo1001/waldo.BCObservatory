@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:01.735Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,7 +115,8 @@ links:
   localizations: []
   videos:
     - video/B8cWQGwajwQ
-  posts: []
+  posts:
+    - post/yzhums-com/67705
   guidelines: []
 learn_toc_path:
   - Development
@@ -128,7 +129,7 @@ coverage:
   learn: 11
   code: 0
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 149000
@@ -188,6 +189,7 @@ Start with the testing overview, then the test codeunits and test pages articles
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Business Central 2025 wave 2 (BC27): Record and edit easier with enhanced page scripting tool](../../../../posts/yzhums-com/67705.md) (community post): "enhancements to the page scripting tool, including improved script recording"
 - [In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)](../../../../videos/B8cWQGwajwQ.md) (video): "user acceptance testing; page scripting tool; script recording and playback"
 
 ## Business Central pages and reports

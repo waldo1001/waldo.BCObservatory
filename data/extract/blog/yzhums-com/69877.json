@@ -5,13 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2026-07-27T01:02:15.000Z",
   "words": 692,
-  "summary": "Page inspection is a diagnostic tool in Dynamics 365 Business Central that enables users and developers to analyze page composition, performance issues, and access control. The post series covers multiple aspects including field highlighting, performance analysis, and controlling visibility of inspection details.",
+  "summary": "This post is an index of the author's blog series on page inspection in Business Central. It links to articles on analyzing performance with the page inspector, telling standard pages or reports from customized ones, controlling or hiding inspection details, and checking page filters. It also links to version-specific tips: the collapsible pane (BC18), text and code field sizes (BC21), and field highlighting and opening VS Code debugging from the web client (BC23).",
   "key_points": [
-    "Page inspection allows checking whether a page or report is standard or customized and viewing table field information",
-    "Performance issues can be analyzed using the page inspector to examine page composition and behavior",
-    "Access to page inspection details can be controlled and hidden selectively, including table fields, extensions, and filters",
-    "Field highlighting in page inspection helps quickly locate specific fields on a page",
-    "Page inspection pane is collapsible and shows filter information and text/code field sizes"
+    "The post is a list of links to page inspection articles, not a standalone tutorial",
+    "Topics include analyzing performance and telling standard objects from customized ones",
+    "Other links cover controlling or hiding inspection details such as table fields, extensions, filters and the view table action",
+    "Version tips: collapsible pane in BC18, text and code field sizes in BC21, field highlighting and VS Code debugging launch in BC23",
+    "Related links cover viewing table data, primary key fields and who created records"
   ],
   "systems": [
     "development",
@@ -26,12 +26,7 @@
     "access control",
     "diagnostic tools"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Page Inspection"
-    }
-  ],
+  "objects": [],
   "features": [
     "Page Inspection",
     "Field Highlighting",

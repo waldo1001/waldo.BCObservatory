@@ -5,7 +5,7 @@
   "source": "yzhums-com",
   "published_at": "2026-06-25T05:48:54.000Z",
   "words": 723,
-  "summary": "This post explains how to pass custom field values from Sales Orders to Production Orders using event subscribers in Codeunit 99000792. It demonstrates two events for header-to-header and line-to-line field mapping with complete AL code examples including table and page extensions.",
+  "summary": "Explains how to carry custom field values from a Sales Order to the Production Order created from it by subscribing to events raised in codeunit 99000792 Create Prod. Order from Sale. One event handles header to header mapping and another handles line to line mapping, with sample AL code including table and page extensions.",
   "key_points": [
     "Use event OnAfterCreateProdOrderFromSalesLine to pass values from Sales Header to Production Order header",
     "Use event OnCreateProductionOrderOnBeforeProdOrderLineModify to pass values from Sales Line to Production Order Line",

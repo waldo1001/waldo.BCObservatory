@@ -7,15 +7,15 @@
   "words": 409,
   "summary": "Business Central 2026 wave 1 introduces Financial Report Statuses and Financial Report Categories to organize and manage the lifecycle of financial reports, row definitions, and column definitions. Use this when you need to control visibility of work-in-progress and retired financial reporting configurations.",
   "key_points": [
-    "Financial Report Statuses are fully configurable and help organize the lifecycle of financial report, row, and column definitions by hiding work-in-progress and retired items",
-    "Financial Report Categories allow you to organize, find, and manage financial reports from within the Financial Report list and card pages",
-    "When a definition is marked as Blocked, users see a notification message when attempting to open it",
-    "These new management features build on enhanced financial reporting capabilities that replace legacy account schedules"
+    "BC28 adds configurable Financial Report Statuses that manage the lifecycle of financial report, row and column definitions",
+    "Categories help organize and find financial reports and are managed from the Financial Report list and card pages",
+    "Opening a blocked financial report shows a notification, and selecting a blocked row or column definition shows an inline error",
+    "Blocked statuses do not currently change the default financial report settings in General Ledger Setup",
+    "This builds on earlier work in which financial reports replaced account schedules"
   ],
   "systems": [
     "finance",
-    "reporting",
-    "platform"
+    "reporting"
   ],
   "topics": [
     "financial reports",

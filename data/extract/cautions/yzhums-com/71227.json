@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/yzhums-com/71227",
+  "page_id": "post/yzhums-com/71227",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "Sandboxes on a preview version are intended only for testing and review of features coming in the next release.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC28"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "The environment cannot be updated to a production version.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003359,
+    "posts_in_call": 4
+  }
+}

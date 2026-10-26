@@ -7,16 +7,15 @@
   "words": 394,
   "summary": "A blog series covering item attributes in Business Central, including how to display them on pages, add factboxes to ledger entries and sales orders, bulk edit attributes, define attributes for variants, and filter by attributes.",
   "key_points": [
-    "Item attributes can be displayed on various pages like Item List and Item Ledger Entries using the Item Attributes Factbox (9110)",
-    "Attributes can be added to sales orders and other document pages, though with certain limitations",
-    "Bulk operations allow editing attributes for multiple items simultaneously",
-    "Item attributes can be defined for item variants starting in Business Central 2026 release wave 1",
-    "Filtering by item attributes on ledger entry pages enables attribute-based data organization"
+    "Index of the author's articles on item attributes, published between 2020 and 2026.",
+    "Covers showing item attributes on the Item List page and adding the Item Attributes Factbox (page 9110) to the Item Ledger Entries page.",
+    "One article examines adding the factbox to the Sales Order page (42) and concludes it is possible with caveats.",
+    "Other articles cover a customization for bulk editing attributes across many items and adding a filter by item attributes to Item Ledger Entries.",
+    "Business Central 2026 release wave 1 (BC28) allows defining item attributes for item variants."
   ],
   "systems": [
     "inventory",
-    "sales",
-    "reporting"
+    "sales"
   ],
   "topics": [
     "item attributes",

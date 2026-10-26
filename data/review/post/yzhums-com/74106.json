@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/74106",
+  "input_hash": "edb576be42c5d69850d957dc1d0bc996a00d3ac20c69e6684a1391be5c4c28fd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:07.362Z",
+  "issues": [
+    "Summary and a key point said item attributes are populated from the image analysis; the post says the user completes the attribute values, which are then saved.",
+    "Missing detail that the category is left blank when no match is found."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030398,
+    "posts_in_call": 4
+  }
+}

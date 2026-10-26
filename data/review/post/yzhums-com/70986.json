@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/70986",
+  "input_hash": "2da9d2daebe436dd7c2757102e0300665fdde816014de1eade48d254f2f4e60b",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:40:47.579Z",
+  "issues": [
+    "Pages listed are all named in the post, including Item List via the attribute FactBox.",
+    "Quotes are verbatim; the Update Variant Attributes action and inheritance behavior are correctly described.",
+    "Sales system is weakly supported via customer search context but acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022052,
+    "posts_in_call": 4
+  }
+}

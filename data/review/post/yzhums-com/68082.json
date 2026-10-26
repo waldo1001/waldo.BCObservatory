@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/68082",
+  "input_hash": "05ec460ad509ab05c3b3e6847244a1ac3e1238717ba33b920adf8916a387e147",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:41:57.162Z",
+  "issues": [
+    "The post's intro sentence wrongly names a different topic, but the body is entirely about TextConst methods, and the page reflects that correctly.",
+    "The 20+ count works only if overloads are counted separately (21 rows are listed). That is acceptable.",
+    "Both quotes appear in the post. The runtime 15.1 requirement and the AL0666 note are captured correctly."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027248,
+    "posts_in_call": 4
+  }
+}

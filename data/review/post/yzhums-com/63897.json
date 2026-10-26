@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/63897",
+  "input_hash": "28739f9f2e3d1931c3955fbb1322a857e73b4fc5e7b5097b4e5735d6a4d809b3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.352Z",
+  "issues": [
+    "One key point says the Device storage change is per user. The post lists Device as 1GB to 1.5GB, and its footnote says device pricing is per device.",
+    "Summary, quotes, features and systems are supported by the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

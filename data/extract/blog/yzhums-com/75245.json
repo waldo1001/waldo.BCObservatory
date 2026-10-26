@@ -7,10 +7,11 @@
   "words": 602,
   "summary": "Business Central 2026 Wave 1 introduces Known Senders in the Payables Agent, allowing administrators to define trusted email senders so invoices from them can be processed automatically without manual approval. This feature reduces manual intervention while maintaining oversight of unverified sources.",
   "key_points": [
-    "Known Senders feature lets accounts payable teams skip approval for invoices from trusted vendors, improving processing speed",
-    "Email review policy offers three options: Always require approval, Never require approval, or Only if untrusted (recommended)",
-    "Administrators can assign per-sender policies: Ask (requires approval), Approve (processes automatically), or Reject (blocks sender)",
-    "The system automatically adds senders to the Known Senders list after an email is reviewed and approved, with security telemetry logging"
+    "Known Senders lets the Payables Agent process invoices from trusted senders without supervisor approval",
+    "A new Email review setup field offers Always, Never or Only if untrusted (recommended), and no default is preselected",
+    "Each known sender gets its own policy: Ask, Approve or Reject",
+    "Under the per-sender policy, the agent checks in this order: uploaded invoices, monitored subfolder, Known Senders list, then internal senders",
+    "When the per-sender policy is active, reviewed senders are added to the list automatically and each addition is logged in security telemetry"
   ],
   "systems": [
     "purchasing",

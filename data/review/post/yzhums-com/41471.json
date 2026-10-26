@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/41471",
+  "input_hash": "e76c461a3fef3874d06f21c40a600e4f0b009f52182f74faf35dd30ae6b7e3cf",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:47.641Z",
+  "issues": [
+    "The ID range key point lumps everything above one million together as partner apps. The post splits this into an RSP range and a separate AppSource range.",
+    "The profiler key point mixes up versions. The post puts the VS Code profiler in BC19 and the in-client profiler in BC20.",
+    "The page leaves out that Page Inspection does not work for reports, and that the profiler only catches custom code that actually runs."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

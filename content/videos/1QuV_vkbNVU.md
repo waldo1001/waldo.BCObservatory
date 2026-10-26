@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:18:12.449Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,6 +81,11 @@ links:
       title: Audit changes to your setup
       label: possibly related
       why: names Table 3 "Payment Terms"
+      by: code
+    - to: post/yzhums-com/64265
+      title: "Dynamics 365 Business Central: How to restrict certain tables from importing data through Configuration Package"
+      label: possibly related
+      why: both name Table 3 "Payment Terms"
       by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/finance-payment-terms
       title: Set up payment terms
@@ -273,6 +278,7 @@ Not found in BC28-30: table "Posted Sales Headers", table "Ledger Entries".
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Audit changes to your setup](https://learn.microsoft.com/dynamics365/business-central/across-setup-auditing) — possibly related: names Table 3 "Payment Terms"
+- [Dynamics 365 Business Central: How to restrict certain tables from importing data through Configuration Package](../posts/yzhums-com/64265.md) — possibly related: both name Table 3 "Payment Terms"
 - [Set up payment terms](https://learn.microsoft.com/dynamics365/business-central/finance-payment-terms) — possibly related: names Table 3 "Payment Terms"
 - [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../videos/fIOnGEARkKs.md) — possibly related: both name Table 3 "Payment Terms"
 

@@ -7,15 +7,14 @@
   "words": 336,
   "summary": "The Omit Default Descr. in Jnl. field on G/L Account cards forces users to enter custom descriptions for journal lines instead of auto-filling with the account's default description. When this option is enabled, posting fails if the description field is left blank, improving audit trail quality.",
   "key_points": [
-    "Enable 'Omit Default Descr. in Jnl.' on the G/L Account Card to prevent automatic description insertion",
-    "Users must manually enter a description for journal lines when this setting is active",
-    "System validation requires all description fields to be filled before posting journal lines",
-    "Descriptions are stored in G/L entries for audit trail purposes",
-    "This is a Netherlands localization feature also available in W1 version"
+    "Omit Default Descr. in Jnl. checkbox on the G/L Account Card stops the account description from being auto-filled on journal lines",
+    "With the box checked, users must type their own description on general journal lines for that account",
+    "Posting checks that every Description is filled and raises an error if one is blank",
+    "Journal descriptions carry over to G/L entries, so better descriptions improve the audit trail",
+    "Originally a Netherlands localization feature, it is also available in W1"
   ],
   "systems": [
-    "finance",
-    "administration"
+    "finance"
   ],
   "topics": [
     "journal posting",
@@ -25,10 +24,6 @@
     "description management"
   ],
   "objects": [
-    {
-      "type": "table",
-      "name": "G/L Account"
-    },
     {
       "type": "page",
       "name": "G/L Account Card"

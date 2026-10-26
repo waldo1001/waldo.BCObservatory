@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:34.661Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,7 +99,9 @@ links:
   localizations: []
   videos:
     - video/SdQVQLNXVS0
-  posts: []
+  posts:
+    - post/yzhums-com/68786
+    - post/yzhums-com/73895
   guidelines: []
   changes:
     - change/bcapps/10150
@@ -128,7 +130,7 @@ coverage:
   learn: 9
   code: 0
   video: 1
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 888b74b93d1eeef22093ba36d001ab2c7bf2b77c2a4111f3091c847717c8cf31
@@ -198,6 +200,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9864 [Extensibility Request] issue 29078: Add OnBeforeTestTransferLine event](../../../../changes/bcapps/9864.md) (code change): "An OnBeforeTestTransferLine integration event was added to the TestTransferLine"
 - [#9898 [Main]-The Reservation Entry does not exist error when creating a Purchase Order from a Sales Order](../../../../changes/bcapps/9898.md) (code change): "Reservation Entry does not exist error when creating a Purchase Order from a Sales Order"
 - [#9982 [Main] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order levelInitial Commit](../../../../changes/bcapps/9982.md) (code change): "item tracking validation for assigned lot numbers was evaluated at the warehouse pick level"
+- [Dynamics 365 Business Central: How to record extra serial or lot number information (Item Tracking Comments)](../../../../posts/yzhums-com/68786.md) (community post): "Recording extra information for serial or lot numbers using the Item Tracking"
+- [Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one](../../../../posts/yzhums-com/73895.md) (community post): "tracking items via Item Tracking Lines, selecting lot numbers to consolidate"
 - [What's New in Manufacturing: Order Processing (2025 release wave 1)](../../../../videos/SdQVQLNXVS0.md) (video): "Item tracking in consumption and output journals; Barcode label printing for tracked items"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

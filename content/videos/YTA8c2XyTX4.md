@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:15:23.211Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -203,6 +203,11 @@ links:
       label: possibly related
       why: both name Table 27 "Item"
       by: code
+    - to: post/yzhums-com/68174
+      title: "Business Central 2025 wave 2 (BC27): App version in “Copy error details”/”Share details via”"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/finance-sales-invoice-specifics
       title: Deliver sales invoices with French specifics
       label: possibly related
@@ -218,30 +223,25 @@ links:
       label: possibly related
       why: both name Table 27 "Item"
       by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers
-      title: Enterprise Numbers and Branch Numbers [BE]
+    - to: post/yzhums-com/65326
+      title: "Dynamics 365 Business Central: How to bulk import marketing text to items – Customization"
       label: possibly related
-      why: names Table 5050 "Contact"
+      why: both name Table 27 "Item"
       by: code
-    - to: post/aardvarklabs-blog/2866
-      title: Importing XML into Business Central with AL
+    - to: post/yzhums-com/65156
+      title: "Dynamics 365 Business Central: How to change Zero (0) of Flowfield field to Dash (-) on the page"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/yzhums-com/65762
+      title: "Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL"
       label: possibly related
       why: both name Table 23 "Vendor"
       by: code
-    - to: video/mHrY_OI0qNo
-      title: "Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)"
+    - to: post/yzhums-com/68658
+      title: "Dynamics 365 Business Central: How to set the minimum and maximum numeric values ​​for a field"
       label: possibly related
-      why: both name Table 27 "Item"
-      by: code
-    - to: video/cZCSi6khZFo
-      title: "Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)"
-      label: possibly related
-      why: both name Table 27 "Item"
-      by: code
-    - to: post/aardvarklabs-blog/3118
-      title: Leveraging RecordRef and FieldRef for Dynamic Coding
-      label: possibly related
-      why: both name Table 27 "Item"
+      why: both name Table 23 "Vendor"
       by: code
 video_id: YTA8c2XyTX4
 channel: yt-microsoft
@@ -573,13 +573,13 @@ No source states these links: they share an object, a model read them, or a pers
 
 - [BC Friday Tips #69 Item Blocked Fields](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d.md) — possibly related: both name Table 27 "Item"
 - [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) — possibly related: both name Table 27 "Item"
+- [Business Central 2025 wave 2 (BC27): App version in “Copy error details”/”Share details via”](../posts/yzhums-com/68174.md) — possibly related: both name Table 27 "Item"
 - [Deliver sales invoices with French specifics](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/finance-sales-invoice-specifics) — possibly related: names Table 5050 "Contact"
 - [Dynamics 365 Business Central: compressing API responses at max.](../posts/demiliani-com/11962.md) — possibly related: both name Table 27 "Item"
 - [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../posts/yzhums-com/74458.md) — possibly related: both name Table 27 "Item"
-- [Enterprise Numbers and Branch Numbers \[BE\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers) — possibly related: names Table 5050 "Contact"
-- [Importing XML into Business Central with AL](../posts/aardvarklabs-blog/2866.md) — possibly related: both name Table 23 "Vendor"
-- [Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)](../videos/mHrY_OI0qNo.md) — possibly related: both name Table 27 "Item"
-- [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../videos/cZCSi6khZFo.md) — possibly related: both name Table 27 "Item"
-- [Leveraging RecordRef and FieldRef for Dynamic Coding](../posts/aardvarklabs-blog/3118.md) — possibly related: both name Table 27 "Item"
+- [Dynamics 365 Business Central: How to bulk import marketing text to items – Customization](../posts/yzhums-com/65326.md) — possibly related: both name Table 27 "Item"
+- [Dynamics 365 Business Central: How to change Zero (0) of Flowfield field to Dash (-) on the page](../posts/yzhums-com/65156.md) — possibly related: both name Table 27 "Item"
+- [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../posts/yzhums-com/65762.md) — possibly related: both name Table 23 "Vendor"
+- [Dynamics 365 Business Central: How to set the minimum and maximum numeric values ​​for a field](../posts/yzhums-com/68658.md) — possibly related: both name Table 23 "Vendor"
 
 Presenters (as heard): Sandy vinaro, Ivan kage.

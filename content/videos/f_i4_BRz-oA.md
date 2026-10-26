@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:16:39.395Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -136,15 +136,15 @@ links:
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
+    - to: post/yzhums-com/31884
+      title: "Dynamics 365 Business Central: Quickly get next Sequence/Entry Number (without using FindLast -> Entry No. + 1)"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
     - to: video/fy96_jdL1PQ
       title: "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central"
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
-      by: code
-    - to: video/Gwgpj1U1wxI
-      title: Introduction to Business Central Cloud Migration (2023)
-      label: possibly related
-      why: both name Page 40063 "Cloud Migration Management"
       by: code
 video_id: f_i4_BRz-oA
 channel: yt-mibuso
@@ -586,7 +586,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../posts/yzhums-com/75131.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries](../posts/yzhums-com/75164.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central: Quickly get next Sequence/Entry Number (without using FindLast -> Entry No. + 1)](../posts/yzhums-com/31884.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../videos/fy96_jdL1PQ.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [Introduction to Business Central Cloud Migration (2023)](../videos/Gwgpj1U1wxI.md) — possibly related: both name Page 40063 "Cloud Migration Management"
 
 Presenters (as heard): Nikola, Wenjie, Benji, Venkat, Vinod.

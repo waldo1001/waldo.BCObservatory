@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/yzhums-com/70933",
+  "page_id": "post/yzhums-com/70933",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "The environment may be updated to a new preview version or deleted with or without notice.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC28"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "The environment cannot be updated to a production version.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003692,
+    "posts_in_call": 4
+  }
+}

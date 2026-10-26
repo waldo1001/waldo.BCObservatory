@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/yzhums-com/67399",
+  "page_id": "post/yzhums-com/67399",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "This feature is available only for Business Central online.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "It seems that due to the influence of this feature, there are some problems in Tell Me in the current public preview version.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003126,
+    "posts_in_call": 4
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:25.371Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -163,6 +163,9 @@ links:
   videos: []
   posts:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-08-quick-tips-find-a-field-on-a-business-central-page--b11b83b725
+    - post/yzhums-com/69722
+    - post/yzhums-com/69877
+    - post/yzhums-com/70329
   guidelines: []
   changes:
     - change/bcapps/10335
@@ -178,7 +181,7 @@ coverage:
   learn: 13
   code: 32
   video: 0
-  blog: 1
+  blog: 4
   guideline: 0
 bc_forms:
   - 119
@@ -275,6 +278,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10335 Unblock bc login due to pp failures](../../../../changes/bcapps/10335.md) (code change): "Prevents sign-in blocking when linked Power Platform environment lookup fails"
 - [Quick Tips: Find a Field on a Business Central Page](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-quick-tips-find-a-field-on-a-business-central-page--b11b83b725.md) (community post): "Page Inspection is a built-in tool in Business Central that helps you quickly find"
+- [Dynamics 365 Business Central: Quickly check the current filters used on the current page via Page Inspection](../../../../posts/yzhums-com/69722.md) (community post): "Page Inspection in Business Central allows you to quickly view all current filters"
+- [Dynamics 365 Business Central Blog Series: Inspecting pages (Page inspection)](../../../../posts/yzhums-com/69877.md) (community post): "Page inspection is a diagnostic tool in Dynamics 365 Business Central that enables users"
+- [Dynamics 365 Business Central: View the last known error](../../../../posts/yzhums-com/70329.md) (community post): "Business Central's Help & Support page provides access to the last known error"
 
 ## Business Central pages and reports
 

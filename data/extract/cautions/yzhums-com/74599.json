@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/74599",
+  "page_id": "post/yzhums-com/74599",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If the workflow code already exists in the database, the workflow steps are overwritten with the steps in the imported workflow.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.001544,
+    "posts_in_call": 4
+  }
+}

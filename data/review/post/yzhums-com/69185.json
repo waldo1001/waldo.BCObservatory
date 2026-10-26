@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/69185",
+  "input_hash": "d24e855f57fb80a54f04ad844b546b7c193d269b527d71d84292a6afd018350c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:30.725Z",
+  "issues": [
+    "Key point 1 puts the major.minor-only version in the wrong place: it is the AppSource marketplace listing that shows only 27.1 for Microsoft apps, not Extension Management.",
+    "Key point 3 adds that PTEs are partner-provided, which the post does not say; the post only says PTEs are not affected by the update cadence setting.",
+    "The system 'integration' is not supported by the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027172,
+    "posts_in_call": 4
+  }
+}

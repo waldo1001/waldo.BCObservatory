@@ -5,7 +5,7 @@
   "source": "yzhums-com",
   "published_at": "2025-06-18T01:19:05.000Z",
   "words": 548,
-  "summary": "This post explains how to change the due date of posted sales, purchase, and service documents in Business Central using two standard methods: the Update Document action on posted invoices or direct editing in ledger entries. It describes the relationship between document date, payment terms, and due date calculation.",
+  "summary": "Explains two standard ways to change the due date after posting: the Update Document action on posted sales invoices, and Edit list on Customer Ledger Entries. Either way, the invoice and the ledger entry stay in sync. For purchases, the due date can only be changed in Vendor Ledger Entries. By default the due date comes from the document date and the payment terms formula, not the posting date.",
   "key_points": [
     "Due date is calculated from document date and payment terms code, not posting date, and can be edited after posting",
     "Posted sales invoices can be modified via the Update Document action which updates both the invoice and related customer ledger entries",

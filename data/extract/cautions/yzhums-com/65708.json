@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/65708",
+  "page_id": "post/yzhums-com/65708",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "For the best performance, we need to limit filtering, sorting, and pivoting on calculated fields. To maintain full functionality, remove the added related fields.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "exporting data to Excel will include just what is on screen",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003677,
+    "posts_in_call": 4
+  }
+}

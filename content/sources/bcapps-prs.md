@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-26T05:30:48.114Z"
+  at: "2026-10-26T05:51:10.938Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 610630ca0a91418e59abea0b5daac6b6847f392d442dafb3f77081c418237333
@@ -1170,7 +1170,7 @@ footprint:
     - id: main
       weight: 1036
     - id: fix
-      weight: 673
+      weight: 672
     - id: feature
       weight: 323
     - id: bc29
@@ -1178,7 +1178,7 @@ footprint:
     - id: releases/29.x
       weight: 72
     - id: refactor
-      weight: 48
+      weight: 49
     - id: performance
       weight: 32
     - id: codeunit gen. jnl.-post line
@@ -1227,11 +1227,11 @@ last_item: "2026-10-25"
 |---|---|---|
 | development (608) | bc30 (1036) | codeunit Gen. Jnl.-Post Line (26) |
 | finance (429) | main (1036) | table Expense Report Header (17) |
-| integration (370) | fix (673) | page Expense Agent Setup Wizard (15) |
+| integration (370) | fix (672) | page Expense Agent Setup Wizard (15) |
 | inventory (191) | feature (323) | table Purchase Line (14) |
 | sales (188) | bc29 (72) | table Sales Line (14) |
 | manufacturing (177) | releases/29.x (72) | codeunit Item Jnl.-Post Line (13) |
-|  | refactor (48) | codeunit Expense Report Approval Mgmt (12) |
+|  | refactor (49) | codeunit Expense Report Approval Mgmt (12) |
 |  | performance (32) | page Expense Agent Setup (12) |
 |  | codeunit gen. jnl.-post line (21) | permissionset Expense Agent - Objects (12) |
 |  | other (17) | permissionset Expense Management - Objects (12) |

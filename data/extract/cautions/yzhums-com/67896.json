@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/67896",
+  "page_id": "post/yzhums-com/67896",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Please note that batch processing is not possible",
+      "objects": [
+        {
+          "type": "api",
+          "name": "APIV2 – Feature Management"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004461,
+    "posts_in_call": 4
+  }
+}

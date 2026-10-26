@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:55.174Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -359,7 +359,9 @@ links:
     - topic/business-central/business-functionality/purchasing/purchasing-analytics/legacy-reports-will-be-removed
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/68975
+    - post/yzhums-com/71493
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -375,7 +377,7 @@ coverage:
   learn: 43
   code: 48
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms:
   - 29
@@ -464,6 +466,13 @@ Start with "Analytics in purchasing" to choose an approach. Use Data Analysis fo
 - [Ad-hoc analyses in purchasing](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing): Learn how to use the data analysis mode to analyze data in purchasing.
   - In the observatory: [Page 146 "Posted Purchase Invoices"](../../../../objects/page/146.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md), [Page 56 "Purchase Orders"](../../../../objects/page/56.md)
 - [Analytics in purchasing](https://learn.microsoft.com/dynamics365/business-central/purchasing-analytics-overview): Learn how to use Business Central's analytics features to monitor purchasing KPIs, perform ad-hoc analysis, and create financial reports.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central 2025 wave 2 (BC27.1): Demo analytics with new enhanced demo data](../../../../posts/yzhums-com/68975.md) (community post): "Significantly increases volume of demo documents for sales and purchases"
+- [Business Central 2026 release wave 1 (BC28): Enhanced demo data for sales, purchasing, and fixed assets analytics](../../../../posts/yzhums-com/71493.md) (community post): "Purchasing enhancements add a new purchasing department dimension and purchaser"
 
 ## Business Central pages and reports
 

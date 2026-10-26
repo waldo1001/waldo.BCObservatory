@@ -7,10 +7,11 @@
   "words": 490,
   "summary": "Business Central 2025 wave 2 (BC27) introduces automatic creation of multiple fixed asset cards when posting purchase invoices. Instead of manually creating asset cards or using bulk import methods, users can now specify a quantity on purchase lines and the system automatically generates individual fixed asset cards for each unit upon posting.",
   "key_points": [
-    "Automatically generates multiple fixed asset cards from a single purchase invoice line based on quantity specified",
-    "Eliminates manual card creation for bulk purchases, reducing effort and errors in asset management",
-    "New field 'No. of Fixed Asset Cards' allows users to control how many asset cards are created from a purchase line",
-    "All fixed asset attributes except the asset number are copied from the asset template selected in the purchase line"
+    "When you post a purchase document with a quantity on a fixed asset line, BC27 creates one fixed asset card per unit",
+    "The new No. of Fixed Asset Cards field is hidden by default, takes its value from Quantity and can be changed; add it through personalization",
+    "You can preview the FA ledger entries before posting, and they include assets whose cards do not exist yet",
+    "Each new card copies everything except the Fixed Asset No. from the fixed asset selected on the purchase line",
+    "This replaces bulk card creation through Edit in Excel or configuration packages"
   ],
   "systems": [
     "fixed-assets",

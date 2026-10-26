@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/73623",
+  "input_hash": "647366dd68a9286aefe75d11df5f5237700b857e1849f9b7a25df03b1721e34f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:02.611Z",
+  "issues": [
+    "Summary, key points, systems, features and the quote match the post.",
+    "Several setup lists are reached via search as pages; the post never calls them tables, so the table-typed entries for inspection results, tests, templates and generation rules are mislabelled and dropped.",
+    "Quality Test Lookup Value is named as table 20408 in the post and is kept; Certificate of Analysis report is kept."
+  ],
+  "applied": [
+    "dropped 4 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043795,
+    "posts_in_call": 4
+  }
+}

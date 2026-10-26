@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:57:49.760Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -96,6 +96,11 @@ links:
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
+    - to: post/yzhums-com/67657
+      title: "Business Central 2025 wave 2 (BC27): Configure the default calculation for the Calculate Consumption report (Default Consumption Calculation Based on)"
+      label: possibly related
+      why: both name Page 99000768 "Manufacturing Setup"
+      by: code
     - to: video/qABlX4AL3GM
       title: "Business Central 29.0: Major Change to Table Extensions & SQL."
       label: possibly related
@@ -126,18 +131,13 @@ links:
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
+    - to: post/yzhums-com/31884
+      title: "Dynamics 365 Business Central: Quickly get next Sequence/Entry Number (without using FindLast -> Entry No. + 1)"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
     - to: video/fy96_jdL1PQ
       title: "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central"
-      label: possibly related
-      why: both name Table 32 "Item Ledger Entry"
-      by: code
-    - to: video/f_i4_BRz-oA
-      title: "Microsoft presents: Cloud Migration from any SQL"
-      label: possibly related
-      why: both name Table 32 "Item Ledger Entry"
-      by: code
-    - to: video/1x3QyBX3swg
-      title: "Microsoft presents: Index management"
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
@@ -284,12 +284,12 @@ As heard in the captions. A name that matches one object page by exact type and 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Business Central 2025 wave 2 (BC27): Configure the default calculation for the Calculate Consumption report (Default Consumption Calculation Based on)](../posts/yzhums-com/67657.md) — possibly related: both name Page 99000768 "Manufacturing Setup"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../videos/qABlX4AL3GM.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../posts/yzhums-com/75131.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries](../posts/yzhums-com/75164.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central: Quickly get next Sequence/Entry Number (without using FindLast -> Entry No. + 1)](../posts/yzhums-com/31884.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../videos/fy96_jdL1PQ.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [Microsoft presents: Cloud Migration from any SQL](../videos/f_i4_BRz-oA.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 32 "Item Ledger Entry"

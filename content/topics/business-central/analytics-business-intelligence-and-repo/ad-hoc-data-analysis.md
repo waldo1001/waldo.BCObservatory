@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:53.461Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -114,6 +114,7 @@ links:
     - video/H7R_m8Ue38g
     - video/ijaOx9sSfkw
     - video/N7RE_UVeH1c
+    - video/PrGBqzTDsLw
     - video/qmLVKyHRhNc
     - video/Rh1AFX9A1x4
     - video/SHOAw9GehdI
@@ -124,6 +125,11 @@ links:
     - post/thedynamicsexplorer-com/9995
     - post/thinkaboutit-be/7503
     - post/thinkaboutit-be/7537
+    - post/yzhums-com/62564
+    - post/yzhums-com/65708
+    - post/yzhums-com/69961
+    - post/yzhums-com/71094
+    - post/yzhums-com/75265
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -134,8 +140,8 @@ children: []
 coverage:
   learn: 7
   code: 25
-  video: 11
-  blog: 5
+  video: 12
+  blog: 10
   guideline: 0
 bc_forms:
   - 16
@@ -210,6 +216,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics GP to Business Central – The Arrival of Smartlist Features via “Add Fields from Related Tables in Analysis Mode”](../../../posts/thedynamicsexplorer-com/9995.md) (community post): "Add fields from related tables in Analysis mode after activating it"
 - [How Do I: Analyze List Pages and Data Using Analysis Mode in Business Central](../../../posts/thinkaboutit-be/7503.md) (community post): "Analysis Mode is a built-in Business Central feature that lets users interactively explore list data"
 - [How Do I: Replace Reports with Analysis Mode in Business Central](../../../posts/thinkaboutit-be/7537.md) (community post): "Analysis Mode works best for answering questions rather than producing"
+- [Business Central 2025 wave 1 (BC26.2): Add fields/columns from related tables in analysis mode (No customization)](../../../posts/yzhums-com/62564.md) (community post): "add fields from related tables directly in analysis mode without customization"
+- [Dynamics 365 Business Central: How to prevent users from adding fields/columns from related tables in analysis mode (Disable/Enable Add Related Fields)](../../../posts/yzhums-com/65708.md) (community post): "Analysis mode allows users to add fields from related tables for advanced data analysis"
+- [Dynamics 365 Business Central: Comparing Years (Year-Over-Year) in Analysis Mode: A Simple 4-Step Guide](../../../posts/yzhums-com/69961.md) (community post): "Analysis Mode allows users to create pivot tables and analysis views on list pages"
+- [Business Central 2026 release wave 1 (BC28): Support for packaging analysis views in extensions (Create analysis views via AL)](../../../posts/yzhums-com/71094.md) (community post): "Analysis views can now be packaged in AL extensions as .analysis.json files"
+- [Dynamics 365 Business Central Blog Series: Query Object Examples & Use Cases](../../../posts/yzhums-com/75265.md) (community post): "Built-in queries provide ad hoc analysis for fixed assets, projects, and services"
 - [How Business Central Integrates with Microsoft Excel (2025)](../../../videos/6zj34hjbpGU.md) (video): "Data analysis; edit in excel; publish changes; financial data"
 - [What's New: Enhanced Analysis Mode (2026 release wave 1)](../../../videos/Afv-r-eDt90.md) (video): "analysis mode; analysis views; al extensions; page extensions"
 - [What's New: Server and Database - New Reporting Capabilities (2023 release wave 2)](../../../videos/c3paEbmDNmM.md) (video): "Data Analysis on Queries; Analysis views on queries"
@@ -217,6 +228,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central v29: System Audit Fields Now Available in Analysis Mode](../../../videos/H7R_m8Ue38g.md) (video): "System audit fields in profile customization; Audit fields in analysis mode"
 - [What's Cooking in Business Central: Wanna Filter on Totals in Analysis Mode?](../../../videos/ijaOx9sSfkw.md) (video): "analysis mode; data analysis; filtering; totals; aggregated columns"
 - [What's Cooking in Business Central: Wanna Export Data to Excel in Analysis Mode?](../../../videos/N7RE_UVeH1c.md) (video): "Excel Export via Right-Click; Excel Export via Data Analysis Tab Menu"
+- [Profiling Your Customers](../../../videos/PrGBqzTDsLw.md) (video): "Teaching tips on query objects in analysis mode"
 - [Introducing: Analyze Data on Lists and Queries (2023 release wave 2)](../../../videos/qmLVKyHRhNc.md) (video): "Analyze data on list pages; Analyze data on query objects"
 - [What's New: Data Analysis (2025 release wave 1)](../../../videos/Rh1AFX9A1x4.md) (video): "analysis mode; related tables; data analysis; excel export; list pages"
 - [What's New: Data Analysis (2025 release wave 2)](../../../videos/SHOAw9GehdI.md) (video): "data analysis; analysis mode; copilot; analysis assist; pivot; date hierarchy"

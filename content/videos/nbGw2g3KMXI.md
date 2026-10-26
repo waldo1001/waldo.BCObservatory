@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:19:30.893Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -144,13 +144,13 @@ links:
       label: possibly related
       why: both name Page 31 "Item List"
       by: code
-    - to: post/yzhums-com/73895
-      title: "Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one"
+    - to: post/yzhums-com/65326
+      title: "Dynamics 365 Business Central: How to bulk import marketing text to items – Customization"
       label: possibly related
       why: both name Page 31 "Item List"
       by: code
-    - to: video/YX9UfUF0EsA
-      title: "Microsoft presents: Introducing M365 Copilot Chat in Business Central"
+    - to: post/yzhums-com/73895
+      title: "Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one"
       label: possibly related
       why: both name Page 31 "Item List"
       by: code
@@ -635,7 +635,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../posts/yzhums-com/74458.md) — possibly related: both name Page 31 "Item List"
 - [Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page](../posts/yzhums-com/74476.md) — possibly related: both name Page 31 "Item List"
 - [Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page](../posts/yzhums-com/72069.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central: How to bulk import marketing text to items – Customization](../posts/yzhums-com/65326.md) — possibly related: both name Page 31 "Item List"
 - [Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one](../posts/yzhums-com/73895.md) — possibly related: both name Page 31 "Item List"
-- [Microsoft presents: Introducing M365 Copilot Chat in Business Central](../videos/YX9UfUF0EsA.md) — possibly related: both name Page 31 "Item List"
 
 Presenters (as heard): Tobias Fencler, Bat Fabake.

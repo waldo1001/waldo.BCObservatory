@@ -5,7 +5,7 @@
   "source": "yzhums-com",
   "published_at": "2026-05-13T01:12:26.000Z",
   "words": 426,
-  "summary": "Business Central 2026 wave 1 adds the ability to manually upload PDFs directly on the Purchase Invoices page to create purchase invoices using the Payables Agent, eliminating the need for email-triggered vendor invoice processing. The agent analyzes the PDF, attempts to identify the vendor, generates a draft with field suggestions and reasoning, and creates the invoice after user confirmation.",
+  "summary": "In BC28.1 (2026 wave 1) the Payables Agent can create purchase invoices from a PDF that users upload with New from PDF on the Purchase Invoices page, so the process no longer depends only on emailed invoices. The agent identifies the vendor and builds a draft with reasoning tips for review. The invoice is created after the user confirms. It stops if the vendor cannot be identified.",
   "key_points": [
     "Purchase invoices can now be created manually from PDF files via a new 'New from PDF' button on the Purchase Invoices page, complementing the existing email-based Payables Agent workflow",
     "The Payables Agent analyzes PDF documents, identifies the vendor, and generates a draft with suggested field values and explanations of its reasoning",

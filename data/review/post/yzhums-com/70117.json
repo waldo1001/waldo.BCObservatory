@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/70117",
+  "input_hash": "5ba62fabd7cf264e389459199d7a641cae722ebe3765953e9c8dc682c5f06b8c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:06.578Z",
+  "issues": [
+    "Post is an index of article titles in a date and time series; summary and key points match the titles.",
+    "DateTime and Duration listed as objects are data types, not named AL objects; dropped.",
+    "Administration system is not supported by the listed articles; dropped.",
+    "Versions include BC24, which no title mentions; versions field cannot be edited here."
+  ],
+  "applied": [
+    "dropped 2 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028651,
+    "posts_in_call": 4
+  }
+}

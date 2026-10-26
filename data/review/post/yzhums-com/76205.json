@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/76205",
+  "input_hash": "44a5cb410becb1a0afc206e179660b059e0b901bda1dae133ca2926a84a7386f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:01.431Z",
+  "issues": [
+    "Subtype property is a property on Word layouts, not an AL object, so it is removed from objects.",
+    "Summary, key points, features and quotes match the post."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024208,
+    "posts_in_call": 4
+  }
+}

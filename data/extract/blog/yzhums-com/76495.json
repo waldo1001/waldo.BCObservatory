@@ -7,11 +7,10 @@
   "words": 774,
   "summary": "Cumulative Update October 2026 for Dynamics 365 Business Central release wave 2 version 29.0 is now available in cloud and on-premises, alongside cumulative updates for earlier versions. The post provides version details, support dates, and lifecycle information for multiple BC versions from 29.x down to legacy versions.",
   "key_points": [
-    "BC 2026 release wave 2 (version 29.0) launched with platform 29.0.55365.0 and application 29.0.54011.55407",
-    "Multiple cumulative updates released: BC29 CU00, BC28 CU06, BC27 CU12, BC26 CU18 with varying build numbers",
-    "Support lifecycle shows BC29 in support until Apr 5, 2028, with earlier waves (BC28, BC27, BC26) still receiving updates",
-    "On-premises versions follow modern policy with release waves spanning April to October each year",
-    "Legacy versions BC25 and earlier are end of life"
+    "BC29 CU00 (2026 release wave 2) is out for cloud and on-premises, with platform 29.0.55365.0 and application 29.0.54011.55407.",
+    "The same month brings updates for older versions: BC28 update 28.6, BC27 update 27.12 and BC26 update 26.18, each with its own application and platform build numbers.",
+    "Under the modern policy, on-premises version 29.x is supported from Sep 30, 2026 to Apr 5, 2028. The post also lists end dates for earlier waves.",
+    "BC25 and all earlier versions are marked end of life."
   ],
   "systems": [
     "platform",
@@ -26,9 +25,7 @@
     "cloud deployment"
   ],
   "objects": [],
-  "features": [
-    "Managing Production and Sandbox Environments in the Admin Center"
-  ],
+  "features": [],
   "versions": [
     "29.0",
     "28.6",

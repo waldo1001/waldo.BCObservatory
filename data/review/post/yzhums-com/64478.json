@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/64478",
+  "input_hash": "8030fbab5483a2a3645217447387bbfe6ce0c7f98a4290adf57bfb6359cd8f69",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:30.725Z",
+  "issues": [
+    "The page says the method returns the field's position in the primary key. The post's prose claims this, but its code only returns the total number of primary key fields and a yes/no membership flag. Summary and key point reworded to match the code.",
+    "The methods are local procedures copied from codeunit 9800 User.",
+    "Objects and features are supported."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027172,
+    "posts_in_call": 4
+  }
+}

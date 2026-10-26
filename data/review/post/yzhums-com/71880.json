@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/71880",
+  "input_hash": "336cbe1c7c8ad9f105828ac928b4d22f6d605b7999da22336d2852597e60f698",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:32.511Z",
+  "issues": [
+    "The Admin Center environment management line is only a section link in the post. It is not a new BC28 capability, but the summary and key points present it as one.",
+    "The features list includes Admin Center environment management items that the post does not describe as features.",
+    "The on-premises support dates from the post were missing."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 2 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024985,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/62513",
+  "input_hash": "ffe1034db617429bb42d8c04a9b8635e56b42c4c8e03abf680f27757cc9686bd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.352Z",
+  "issues": [
+    "Role Explorer and Report Explorer are client UI tools, not AL objects, so they were dropped from objects.",
+    "The key points left out two limits from the post: pages do not support the Tooltip property, and tooltip cannot be added through extensions (error AL0124)."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 2 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

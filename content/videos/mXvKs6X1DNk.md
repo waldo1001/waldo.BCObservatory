@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:44:40.311Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -92,6 +92,16 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/65762
+      title: "Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL"
+      label: possibly related
+      why: both name Table 23 "Vendor"
+      by: code
+    - to: post/yzhums-com/68658
+      title: "Dynamics 365 Business Central: How to set the minimum and maximum numeric values ​​for a field"
+      label: possibly related
+      why: both name Table 23 "Vendor"
+      by: code
     - to: post/aardvarklabs-blog/2866
       title: Importing XML into Business Central with AL
       label: possibly related
@@ -310,6 +320,8 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../posts/yzhums-com/65762.md) — possibly related: both name Table 23 "Vendor"
+- [Dynamics 365 Business Central: How to set the minimum and maximum numeric values ​​for a field](../posts/yzhums-com/68658.md) — possibly related: both name Table 23 "Vendor"
 - [Importing XML into Business Central with AL](../posts/aardvarklabs-blog/2866.md) — possibly related: both name Table 23 "Vendor"
 - [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../posts/aardvarklabs-blog/3348.md) — possibly related: both name Table 23 "Vendor"
 - [Understanding Business Central’s Format Address Codeunit](../posts/aardvarklabs-blog/3928.md) — possibly related: both name Table 23 "Vendor"

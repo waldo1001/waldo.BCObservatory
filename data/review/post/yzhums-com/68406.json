@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/68406",
+  "input_hash": "d11907fe9e063c8cd5b74c8083fe42fcf8af0357b7ce7de5f14d289af454dd95",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:46.431Z",
+  "issues": [
+    "Summary and a key point say the update must be applied before February 28, 2026, but the post names February 28 as the last day, so it is by that date, not before it.",
+    "Other fields, quotes and versions match the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02896,
+    "posts_in_call": 4
+  }
+}

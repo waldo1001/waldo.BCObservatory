@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/76268",
+  "input_hash": "bd70ee9a7f32cf1a9bbad0a8f4b8bacc57a445bccc13d34babd7f0f0248ff64b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:01.431Z",
+  "issues": [
+    "The integration system is not supported by the post; the feature concerns purchasing and financial management only.",
+    "Summary, key points, the Vendor Card object, features and quotes match the post.",
+    "Quote 2 has small changes in capitalization and quote marks but keeps the meaning."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024208,
+    "posts_in_call": 4
+  }
+}

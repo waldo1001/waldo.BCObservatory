@@ -1,0 +1,38 @@
+{
+  "item_id": "blog/yzhums-com/63913",
+  "page_id": "post/yzhums-com/63913",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "The companies automatically created when the environment is created, such as My Company, do not show the SystemCreatedBy.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Company"
+        }
+      ],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "The system table, such as Company (2000000006), cannot be set to change log.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Company"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003732,
+    "posts_in_call": 4
+  }
+}

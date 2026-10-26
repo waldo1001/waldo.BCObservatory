@@ -5,7 +5,7 @@
   "source": "yzhums-com",
   "published_at": "2026-03-13T01:10:03.000Z",
   "words": 812,
-  "summary": "Business Central 2026 wave 1 introduces a new Get Order Lines action that allows matching purchase invoice lines to multiple purchase order and receipt lines flexibly, replacing the line-to-line matching of the existing Get Receipt Lines action. This feature works with received and non-received orders and includes an optional Receipt on Invoice toggle for automatic receipt posting.",
+  "summary": "BC28 adds a Get Order Lines action on purchase invoices. It matches invoice lines to many purchase order lines and posted receipt lines, which is more flexible than the existing one-to-one Get Receipt Lines action. It works for received and non-received order lines. An optional Receipt on Invoice toggle on the order creates receipts when the invoice is posted. A Matched Order Lines page is used to review and adjust the matches.",
   "key_points": [
     "The new Get Order Lines action lets you match one invoice line to multiple purchase order lines, not just one-to-one matching",
     "You can match invoice lines to orders whether or not receipts have been posted, providing flexibility for non-received goods",

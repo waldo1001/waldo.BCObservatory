@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:07:21.463Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -99,6 +99,11 @@ links:
       label: possibly related
       why: both name Page 26 "Vendor Card"
       by: code
+    - to: post/yzhums-com/67489
+      title: "Business Central 2025 wave 2 (BC27): Add more fields and columns by personalizing pages"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
     - to: post/yzhums-com/71463
       title: "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)"
       label: possibly related
@@ -106,6 +111,21 @@ links:
       by: code
     - to: post/yzhums-com/71666
       title: "Business Central 2026 release wave 1 (BC28): Use self-billed invoices"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: post/yzhums-com/56521
+      title: "Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: post/yzhums-com/65762
+      title: "Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
+    - to: post/yzhums-com/67058
+      title: "Dynamics 365 Business Central: Merge duplicate records (customers, vendors, or contacts)"
       label: possibly related
       why: both name Page 26 "Vendor Card"
       by: code
@@ -278,8 +298,12 @@ Not found in BC28-30: page "payment journals".
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Allow Over Receipts of Products](../videos/8C9JmtHdExM.md) — possibly related: both name Page 26 "Vendor Card"
+- [Business Central 2025 wave 2 (BC27): Add more fields and columns by personalizing pages](../posts/yzhums-com/67489.md) — possibly related: both name Page 26 "Vendor Card"
 - [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Page 26 "Vendor Card"
 - [Business Central 2026 release wave 1 (BC28): Use self-billed invoices](../posts/yzhums-com/71666.md) — possibly related: both name Page 26 "Vendor Card"
+- [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../posts/yzhums-com/56521.md) — possibly related: both name Page 26 "Vendor Card"
+- [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../posts/yzhums-com/65762.md) — possibly related: both name Page 26 "Vendor Card"
+- [Dynamics 365 Business Central: Merge duplicate records (customers, vendors, or contacts)](../posts/yzhums-com/67058.md) — possibly related: both name Page 26 "Vendor Card"
 - [Step-by-Step Guide to Custom User Controls in Business Central](../posts/aardvarklabs-blog/3680.md) — possibly related: both name Page 26 "Vendor Card"
 - [What's new: Add existing table fields to pages (2023 release wave 2)](../videos/iHgaNJucyvI.md) — possibly related: both name Page 26 "Vendor Card"
 - [What's New: Automated IRS1099 Reporting (2024 release wave 1)](../videos/WI_3mjpQ2JU.md) — possibly related: both name Page 26 "Vendor Card"

@@ -1,0 +1,19 @@
+{
+  "item_id": "blog/yzhums-com/74973",
+  "input_hash": "b8cdc9f17f84132ba0477229284405e04aa11114c479ca6263e7ab6cb041c4f3",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:39:29.196Z",
+  "issues": [
+    "The summary, key points, objects and quotes all match the post's explanation and its sample code using the Guided Experience codeunit, the OnRegisterManualSetup event, Exists and InsertManualSetup."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019459,
+    "posts_in_call": 4
+  }
+}

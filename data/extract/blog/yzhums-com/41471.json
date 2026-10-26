@@ -7,10 +7,10 @@
   "words": 1130,
   "summary": "This post explains how to determine whether a Business Central page or report is standard or customized using object ID ranges, page inspection, and performance profiler tools. It helps developers and partners quickly identify whether functionality has been extended or modified.",
   "key_points": [
-    "Business Central objects are categorized by ID ranges: 0-49,999 (standard), 50,000-99,999 (customizations), 100,000-999,999 (localizations), 1,000,000+ (partner apps)",
-    "Page Inspection tool (Ctrl+Alt+F1) displays object IDs and shows extensions that affect pages through the Extensions tab, distinguishing between adds and extends operations",
-    "Performance Profiler in BC20+ and in-client profiler allow tracking active apps and execution flow to identify custom logic involvement during operations",
-    "Error details and AL call stacks reveal customized objects when errors occur, showing which extensions are involved in the execution"
+    "Object ID ranges show origin: 0-49,999 is base app, 50,000-99,999 is per-tenant customization, 100,000-999,999 is Microsoft localization, 1,000,000-69,999,999 is RSP and 70,000,000-74,999,999 is AppSource apps",
+    "Page Inspection (Ctrl+Alt+F1) shows page and report IDs, and its Extensions tab lists extensions that add or extend the page or its source table; it does not show extensions for reports",
+    "The AL profiler (VS Code since BC19, in-client since BC20) lists active apps and the call tree, but only detects custom code that actually runs during the recording",
+    "Error details and the AL call stack, also available through View the last known error, show which extension objects were involved"
   ],
   "systems": [
     "development",

@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/70481",
+  "input_hash": "63cac17528387d504c76ff72545c4788fdf62b94034e770709bafe793301a4b7",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:40:47.594Z",
+  "issues": [
+    "The Type Helper codeunit and the GetLocalizedMonthToInt procedure are identified correctly.",
+    "The quote joins two adjacent lines of the post but stays faithful to them.",
+    "The example page extension on Customer Card is not listed; this is an omission, not an error."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

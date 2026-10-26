@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/71668",
+  "input_hash": "2047fd6b61092e202d7fa77c9b084d437964b19836d09618826ab87b774a1aa3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:27.672Z",
+  "issues": [
+    "Nothing in the post supports the platform system.",
+    "Inventory tracking appears only in the general background text about locations and is not a feature the post covers.",
+    "The last key point treats wider copy support as a likely expansion, but it is only the author's hope."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02049,
+    "posts_in_call": 4
+  }
+}

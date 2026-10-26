@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/51041",
+  "input_hash": "a36a2539097d03da123c7c2f5418606e6bfa024875fc7f6a1661aad27dbfe4fb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:30.725Z",
+  "issues": [
+    "Key point 4 applies the empty-string behavior to both methods, but the post states it only for StrPos (returns zero).",
+    "Summary, quotes, object and features are supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027172,
+    "posts_in_call": 4
+  }
+}

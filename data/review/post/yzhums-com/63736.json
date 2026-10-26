@@ -1,0 +1,29 @@
+{
+  "item_id": "blog/yzhums-com/63736",
+  "input_hash": "057461aa54399200f1c992892d430a16801c0cf66a5f372e79c58c742895ee22",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.384Z",
+  "issues": [
+    "The post never says that FlowField values are not stored. It also only asks what happens when a user lacks read permission and does not say the values show as blank.",
+    "Nothing in the post supports the finance system.",
+    "RecordRef is a data type, not a named AL object.",
+    "The quote is generic preview boilerplate and says nothing about FlowFields.",
+    "The summary leaves out the articles on disabling drill-downs and on checking a field's class in AL."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 quote(s)",
+    "dropped 1 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

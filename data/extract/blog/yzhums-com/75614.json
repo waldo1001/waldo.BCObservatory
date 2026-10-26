@@ -7,16 +7,15 @@
   "words": 638,
   "summary": "Microsoft is retiring the traditional Release Wave model for Dynamics 365 and Power Platform, moving to a continuous disclosure approach through the AI at Work roadmap starting September 2026. Features will now be disclosed as they progress through development, preview, and launch stages rather than waiting for twice-yearly release waves.",
   "key_points": [
-    "Release Wave 1 and Wave 2 model is ending; Release Plans will no longer publish after September 2026",
-    "Dynamics 365, Power Platform, and Dataverse capabilities move to the unified AI at Work roadmap for continuous disclosure",
-    "Roadmap items show real-time status progression: In Development, Rolling Out, and Launched",
-    "Release Planner tool retires by November 15, 2026",
-    "New Release Communications MCP Server provides programmatic access to roadmap data for custom AI workflows"
+    "Release Plans stop being published from September 2026, and there will be no 2026 release wave 2 plan",
+    "New Dynamics 365, Power Platform and Dataverse capabilities go to the AI at Work roadmap and are disclosed continuously instead of twice a year",
+    "Roadmap items move through the stages In Development, Rolling Out and Launched",
+    "Release Planner retires on November 15, 2026; items with preview or GA dates from June 1, 2026 move over between September and November",
+    "A Release Communications MCP Server gives programmatic access to roadmap data; the author notes Dynamics 365 was not yet in the new roadmap"
   ],
   "systems": [
     "platform",
-    "integration",
-    "copilot"
+    "integration"
   ],
   "topics": [
     "roadmap",

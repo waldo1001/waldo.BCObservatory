@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/75730",
+  "input_hash": "5f64710f8f1adfa96f763c1a22c15cca3b0e9f022a74665ffeb73dcf3f2ea627",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:19.791Z",
+  "issues": [
+    "TableRelation and fieldgroup are listed as objects, but they are a property and a table construct, not AL objects. Both are dropped.",
+    "The post has a stray heading about item variant pictures that has nothing to do with this feature. The page correctly ignores it.",
+    "The table-level behavior is the author's own observation and is described fairly."
+  ],
+  "applied": [
+    "dropped 2 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028708,
+    "posts_in_call": 4
+  }
+}

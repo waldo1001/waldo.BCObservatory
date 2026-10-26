@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/75574",
+  "input_hash": "04aebff992eae202be06fe44410fc4302fc2199df1c5ffd4028a5f53f1fc8a54",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:39:12.655Z",
+  "issues": [
+    "Summary, key points, objects and the quote all match the post.",
+    "GetLastErrorObject is listed correctly: the post names it as an on-premises-only method.",
+    "BC26 appears only as a link to a related post, which is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022967,
+    "posts_in_call": 4
+  }
+}

@@ -5,7 +5,7 @@
   "source": "yzhums-com",
   "published_at": "2026-03-11T06:19:04.000Z",
   "words": 330,
-  "summary": "AL developers in Business Central 2026 release wave 1 can use semantic ranking to search both data and metadata with similarity-based queries through the new Semantic Data Search codeunit. The feature is currently restricted to on-premises environments only.",
+  "summary": "BC28 lets AL developers run semantic similarity searches, such as top n records by similarity to a search term, over data and virtual metadata records. Microsoft's docs call the codeunit Semantic Data Search, but the author found it as codeunit 2000000025 Semantic Search, with the methods SetMaxResults, SetSearchTarget and FindSimilarByField. It is scoped OnPrem, so extensions get error AL0296 and cannot use it in the cloud.",
   "key_points": [
     "New codeunit 2000000025 enables semantic search on metadata objects and data records with similarity ranking",
     "Developers can query records using similarity-based syntax like TOP n by similarity to search terms",

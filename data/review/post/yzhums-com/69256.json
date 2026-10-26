@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/69256",
+  "input_hash": "5beb4e1413d1a7c7532b66307f94c944f1de812da22ee37f190a66b912a8a34e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:30.725Z",
+  "issues": [
+    "Summary, key points, credit costs, version requirement and the quote all match the post.",
+    "The feature 'Copilot Credits consumption tracking' is not covered; the post only lists credit costs and shows the message that appears when the quota runs out."
+  ],
+  "applied": [
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027172,
+    "posts_in_call": 4
+  }
+}

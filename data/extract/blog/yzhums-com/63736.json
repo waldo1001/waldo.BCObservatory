@@ -5,18 +5,17 @@
   "source": "yzhums-com",
   "published_at": "2025-04-30T00:57:53.000Z",
   "words": 550,
-  "summary": "This series covers FlowFields, a powerful feature in Business Central that calculates values (sum, average, count, min, max, exist, lookup) from related tables. Articles discuss how FlowFields work, extending them, using FlowFilters, handling permissions, managing drill-downs, and new features in BC26 like selective calculation and the SetAutoCalcFields method.",
+  "summary": "An index of blog articles on FlowFields in Business Central. It covers the calculation types (sum, average, exist, count, min, max, lookup), whether standard FlowFields can be extended, a query error when a FlowField is based on another FlowField, disabling drill-downs, checking in AL whether a field is a FlowField, read permissions, default FlowFilters on lists, and two BC26 changes.",
   "key_points": [
-    "FlowFields perform calculations (sum, average, count, min, max, exist, lookup) on related table data without storing values",
-    "FlowFilters allow filtering FlowField totals on lists, with support for default filter settings",
-    "Users lacking read permissions on source tables see blank FlowField values",
-    "BC26 introduces selective FlowField calculation for visible fields and SetAutoCalcFields method on RecordRef",
-    "FlowFields cannot be nested (based on other FlowFields) in queries"
+    "FlowFields support sum, average, exist, count, min, max and lookup calculations.",
+    "Putting a FlowField that is based on another FlowField into a query column list causes an unsupported error.",
+    "AL code can check a field's class to tell whether it is a FlowField, and drill-downs on FlowFields can be disabled.",
+    "A default Filter totals by (FlowFilter) setting can be applied to lists.",
+    "BC26 calculates values only for visible FlowFields and adds SetAutoCalcFields to RecordRef."
   ],
   "systems": [
     "development",
-    "platform",
-    "finance"
+    "platform"
   ],
   "topics": [
     "flowfields",
@@ -27,12 +26,7 @@
     "permissions",
     "performance"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "RecordRef"
-    }
-  ],
+  "objects": [],
   "features": [
     "FlowField Sum",
     "FlowField Average",
@@ -48,12 +42,7 @@
     "2025 wave 1"
   ],
   "language": "en",
-  "quotes": [
-    {
-      "text": "The public preview for Dynamics 365 Business Central 2025 release wave 1 (BC26) is available.",
-      "why_it_matters": "Signals new FlowField enhancements in the latest release for performance optimization"
-    }
-  ],
+  "quotes": [],
   "trimmed_for_policy": 0,
   "prompt_version": 1,
   "llm": {

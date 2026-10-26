@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/yzhums-com/74649",
+  "page_id": "post/yzhums-com/74649",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Do not create the local currency code both in the General Ledger Setup and in the Currencies page.",
+      "objects": [
+        {
+          "type": "page",
+          "name": "General Ledger Setup"
+        },
+        {
+          "type": "page",
+          "name": "Currencies"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.001544,
+    "posts_in_call": 4
+  }
+}

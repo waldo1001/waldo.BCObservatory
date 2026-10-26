@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/67105",
+  "input_hash": "931091ea2d81eafd292690268927db87f8ae82b2e2d9142ccf606bc8b26c0c09",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:22.589Z",
+  "issues": [
+    "Quote 2 is a fragment with no standalone value; dropped.",
+    "Rest of the page matches the post."
+  ],
+  "applied": [
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028283,
+    "posts_in_call": 4
+  }
+}

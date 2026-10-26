@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/76076",
+  "input_hash": "48206f5402a7af9416cb4752af2e0a003de9ebe301e5544393fe4dc260427527",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:09.385Z",
+  "issues": [
+    "Quote 2 repeats the wording of quote 1, so it is redundant.",
+    "Financial Reports is a feature, not an AL object.",
+    "The key points leave out the post's note that this logging is separate from the new audit log."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 quote(s)",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029278,
+    "posts_in_call": 4
+  }
+}

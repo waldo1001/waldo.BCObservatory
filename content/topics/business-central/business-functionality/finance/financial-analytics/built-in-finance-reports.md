@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:23.519Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -487,7 +487,10 @@ links:
     - video/gMyp9JkXf9g
     - video/O2RPBlr_GiE
     - video/Of0Dw8V-4Yw
-  posts: []
+  posts:
+    - post/yzhums-com/68932
+    - post/yzhums-com/70904
+    - post/yzhums-com/73485
   guidelines: []
   changes:
     - change/bcapps/10252
@@ -515,7 +518,7 @@ coverage:
   learn: 83
   code: 95
   video: 3
-  blog: 0
+  blog: 3
   guideline: 0
 bc_forms:
   - 1
@@ -751,6 +754,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9894 Suppress zero-value rows in Trial Balance by Period](../../../../../changes/bcapps/9894.md) (code change): "Trial Balance by Period Excel report now suppresses rows with zero values"
 - [#9906 [Bug Fix] #641100: Export Acc. Sched. to Excel - log report usage in OnPostReport to avoid modal page in write transaction](../../../../../changes/bcapps/9906.md) (code change): "Export Acc. Sched. to Excel - log report usage in OnPostReport"
 - [#9958 [Main] -Detail Trial Balance - Running Balance Incorrect When "Include Closing Entries" Is Disabled](../../../../../changes/bcapps/9958.md) (code change): "Detail Trial Balance - Running Balance Incorrect When Include Closing Entries Is Disabled"
+- [Business Central 2025 wave 2 (BC27.1): Print the Audit Trail report (report 330 “Audit Trail”)](../../../../../posts/yzhums-com/68932.md) (community post): "New Audit Trail report (report 330) added in BC27.1 for improved compliance"
+- [Deprecated features in Business Central 2026 release wave 1 (BC28)](../../../../../posts/yzhums-com/70904.md) (community post): "Excel reports (Balance Sheet, Income Statement, Cash Flow, etc.) are removed from Business Manager and Accountant Role Centers"
+- [Business Central 2026 release wave 1 (BC28.1): Use enhanced and faster reports for analysis of deferrals and trial balances](../../../../../posts/yzhums-com/73485.md) (community post): "Built-in deferral report Excel layouts now include subtotals to make balance reviews easier"
 - [What's New: Excel Reports for Finance and Sales (2024 release wave 1)](../../../../../videos/gMyp9JkXf9g.md) (video): "Excel Reports for Finance and Sales (2024 release wave 1). Topics: excel reports; trial balance; accounts receivable"
 - [Comparing Trial Balance and Aging Reports between Dynamics SL and Dynamics 365 Business Central](../../../../../videos/O2RPBlr_GiE.md) (video): "trial balance; aging reports; accounts receivable aging; accounts payable aging"
 - [Comparing Trial Balance and Aging Reports Between Dynamics GP and Dynamics Business Central (2024)](../../../../../videos/Of0Dw8V-4Yw.md) (video): "trial balance report; aging report; accounts receivable; general ledger"

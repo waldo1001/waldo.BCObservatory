@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/69809",
+  "input_hash": "df23119cc860d17cf5f3ac5d5c00d318ca79cb4edec57c4100b98a6eaf27fb57",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:10.141Z",
+  "issues": [
+    "The object 'permissionset Permission Sets' is not a named permission set object; the post refers to the Permission Sets page where generated sets are assigned.",
+    "Other fields and quotes are supported."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024108,
+    "posts_in_call": 4
+  }
+}

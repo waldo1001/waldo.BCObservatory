@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/71836",
+  "input_hash": "5f08cabd2a15fbd24dca04ca20b8d8c4a88846aefcefabb84c1150c43a3eab69",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:32.511Z",
+  "issues": [
+    "The post calls Create Contract Service Orders a batch job reached through search. It never names it as a codeunit, so that object is not supported.",
+    "Nothing in the post supports the administration system; this is service management only.",
+    "The key points left out what happens when the setting is off and that the option is already in BC27.5."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024985,
+    "posts_in_call": 4
+  }
+}

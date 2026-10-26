@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/67592",
+  "input_hash": "be661dfe5b886bb3bad86173d618c9a59d257bb40a5eb8a21d4242b464074e25",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:08.165Z",
+  "issues": [
+    "The summary's claim of availability in BC26 and BC27 is vague. The post says this is a 2025 wave 1 feature that only becomes available in September, so the author grouped it with BC27.",
+    "The summary leaves out key limits from the post: only sandboxes are supported, preview environments cannot be updated after general availability, and they are deleted automatically when the preview ends."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025262,
+    "posts_in_call": 4
+  }
+}

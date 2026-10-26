@@ -7,10 +7,11 @@
   "words": 251,
   "summary": "Word report layouts in Business Central 2026 release wave 2 now include a shared Company Information dataitem across all report datasets, reducing developer effort and standardizing how company information is accessed in Word layouts.",
   "key_points": [
-    "Company Information dataitem is automatically included in all Word report layouts without requiring developers to define it",
-    "The CompanyMetadata dataitem is accessed through BCReportInformation and contains Company Information details",
-    "This feature eliminates tedious manual work for AL developers creating report datasets",
-    "Continues functionality from BC26 that allows accessing report and request metadata in Word layouts"
+    "Word layouts in BC29 automatically get a Company Information dataitem shared by all report datasets, with no need for the developer to define it",
+    "The dataitem shows up as CompanyMetadata under BCReportInformation and holds the Company Information details",
+    "It is there for custom reports and for standard reports, even when the layout is completely empty",
+    "It reduces report developer effort and standardizes company information use across layouts",
+    "Builds on BC26, which first exposed report and request metadata in Word layouts"
   ],
   "systems": [
     "reporting",
@@ -41,10 +42,6 @@
     {
       "text": "Word layouts now include a company information dataitem that is shared across all report datasets.",
       "why_it_matters": "This is the core feature - it standardizes company information access and reduces complexity for report developers"
-    },
-    {
-      "text": "This enhancement makes report datasets easier to understand and removes tedious work for AL developers who create datasets for reports.",
-      "why_it_matters": "Explains the business value: developers save time and effort when building reports"
     }
   ],
   "trimmed_for_policy": 0,

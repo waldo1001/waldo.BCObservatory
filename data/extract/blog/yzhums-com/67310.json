@@ -7,10 +7,10 @@
   "words": 545,
   "summary": "Business Central 2025 wave 2 introduces a new Summary system part that allows developers to hide or configure Copilot summary FactBoxes on card, document, and ListPlus pages. This gives control over the automatically displayed summaries that may not be valuable on custom pages like dashboards or those with control add-ins.",
   "key_points": [
-    "A new Summary system part with identifier DefaultSummaryPart enables developers to control summary visibility on pages",
-    "Summaries can be hidden in page extensions or explicitly defined in new pages using AL code",
-    "The feature supports hiding summaries on custom pages, page extensions, and for specific user profiles",
-    "Users can also click the menu button in the Summary FactBox to hide it temporarily without developer involvement"
+    "BC27 adds a Summary system part, identified as DefaultSummaryPart, usable on Card, Document and ListPlus pages.",
+    "Developers can hide it via modify(DefaultSummaryPart) in a page extension or declare it explicitly as a systempart in new pages, including for specific profiles.",
+    "Only one summary system part is allowed per page, and DefaultSummaryPart is the only valid identifier.",
+    "Users can hide it via the FactBox menu option Hide Copilot summary, but it still cannot be moved or hidden through personalization, profile customization or Design."
   ],
   "systems": [
     "copilot",

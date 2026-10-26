@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/75245",
+  "input_hash": "b55047f505f1f0d3047fc3c6de5a05aa4940cba0915d0058ba57214ed31e394d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:27.061Z",
+  "issues": [
+    "The key point on automatic list additions left out the condition that the Manage per sender policy must be active.",
+    "The evaluation order for incoming emails was missing, so a key point was added for it.",
+    "The summary and quote are supported by the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023948,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/71200",
+  "input_hash": "5af345b3c99942df2a9bc6f7e0bbeda57e39d9b8c64d3c994d3249564ab13734",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:48.435Z",
+  "issues": [
+    "Summary, key points, objects, features and both quotes match the post.",
+    "The development system is not supported; the post covers an administration page with no AL development content."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024704,
+    "posts_in_call": 4
+  }
+}

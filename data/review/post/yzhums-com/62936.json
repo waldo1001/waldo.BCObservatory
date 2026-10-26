@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/62936",
+  "input_hash": "c2955e759ee2b8226a5b974ac2febe2ce7ef7efcd59dcdbae80f054b526ab333",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:42:51.690Z",
+  "issues": [
+    "The workaround (a Decimal variable, CalcFields, DecimalPlaces 0:0 and an OnDrillDown trigger) is described correctly.",
+    "All listed objects are named in the post or its code.",
+    "The administration system tag is a loose fit, but acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031357,
+    "posts_in_call": 4
+  }
+}

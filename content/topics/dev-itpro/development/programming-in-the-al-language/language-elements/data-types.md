@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -358,6 +358,10 @@ links:
     - post/demiliani-com/11796
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2146591606221133853--27de9e092a
+    - post/yzhums-com/17631
+    - post/yzhums-com/40193
+    - post/yzhums-com/68755
+    - post/yzhums-com/74473
   guidelines: []
 learn_toc_path:
   - Development
@@ -371,7 +375,7 @@ coverage:
   learn: 46
   code: 0
   video: 0
-  blog: 6
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -443,5 +447,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: using secrets in JsonObjects.](../../../../../posts/demiliani-com/11796.md) (community post): "SecretText data type protects secrets from debugging"
 - [Record.IsDirty in Business Central 29: a worked example](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4.md) (community post): "new API in Business Central 29 that lets AL code check"
 - [New ModuleInfo Properties in Business Central 29](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2146591606221133853--27de9e092a.md) (community post): "Four new ModuleInfo properties retrieve Help links"
+- [Dynamics 365 Business Central: How to convert Text/Integer to Date (Text/Integer Data type -> Date Data type)](../../../../../posts/yzhums-com/17631.md) (community post): "convert Text and Integer data types to Date in Business Central AL development"
+- [Dynamics 365 Business Central: Version Data Type (Major.Minor.Build.Revision)](../../../../../posts/yzhums-com/40193.md) (community post): "Version data type stores version numbers matching Major.Minor.Build.Revision format"
+- [Dynamics 365 Business Central: How to add or subtract hours from a DateTime field](../../../../../posts/yzhums-com/68755.md) (community post): "Adding or subtracting hours from DateTime fields in Business Central"
+- [Dynamics 365 Business Central: Formatting Boolean Values (Yes/No, true/false, and 1/0)](../../../../../posts/yzhums-com/74473.md) (community post): "Boolean fields in Business Central display as checkboxes by default"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

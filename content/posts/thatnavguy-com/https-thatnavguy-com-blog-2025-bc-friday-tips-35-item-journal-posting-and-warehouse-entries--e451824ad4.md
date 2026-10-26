@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T02:00:42.586Z"
   flags: []
 generated:
-  at: "2026-10-26T05:30:48.114Z"
+  at: "2026-10-26T05:51:10.938Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -71,6 +71,11 @@ links:
       title: Design details - Item tracking posting structure
       label: possibly related
       why: names Codeunit 22 "Item Jnl.-Post Line"
+      by: code
+    - to: post/yzhums-com/41471
+      title: "Dynamics 365 Business Central: How to check whether the current page/report is standard or customized"
+      label: possibly related
+      why: both name Codeunit 23 "Item Jnl.-Post Batch"
       by: code
     - to: post/gerardorenteria-blog/13043
       title: New Application Ideas of Dynamics 365 Business Central (2025 NOV)
@@ -158,6 +163,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [Business Central 2026 release wave 1 (BC28): Post purchase invoices for drop shipments independently of related sales invoices](../../posts/yzhums-com/71605.md) — possibly related: both name Codeunit 22 "Item Jnl.-Post Line"
 - [Design details - Cost adjustment](https://learn.microsoft.com/dynamics365/business-central/design-details-cost-adjustment) — possibly related: names Codeunit 22 "Item Jnl.-Post Line"
 - [Design details - Item tracking posting structure](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure) — possibly related: names Codeunit 22 "Item Jnl.-Post Line"
+- [Dynamics 365 Business Central: How to check whether the current page/report is standard or customized](../../posts/yzhums-com/41471.md) — possibly related: both name Codeunit 23 "Item Jnl.-Post Batch"
 - [New Application Ideas of Dynamics 365 Business Central (2025 NOV)](../../posts/gerardorenteria-blog/13043.md) — possibly related: both name Codeunit 22 "Item Jnl.-Post Line"
 
 ## Heads up

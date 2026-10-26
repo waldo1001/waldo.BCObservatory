@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/76367",
+  "input_hash": "3f915dc6cd1715cdaddd3044c7d5a6e49eeb824fe90b3015361171f5e9b5c883",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:38:42.520Z",
+  "issues": [
+    "Quote 2 is real text, but it describes the BC26 report and request metadata feature, not the new company information dataitem, so its explanation is misleading.",
+    "Key point 3 overstates the benefit by borrowing the BC26 wording. The post only says the new dataitem reduces developer work and standardizes how company information is used."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025615,
+    "posts_in_call": 4
+  }
+}

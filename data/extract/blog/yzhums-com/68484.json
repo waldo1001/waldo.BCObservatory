@@ -7,11 +7,11 @@
   "words": 1029,
   "summary": "Copilot features in Business Central are included with the license at no extra cost, but new agent capabilities like Sales Order Agent and Payables Agent use consumption-based billing measured in Copilot Credits. Organizations can pay per credit consumed or purchase prepaid capacity through Microsoft Copilot Studio.",
   "key_points": [
-    "Core Copilot is free with Business Central license, though fair-use policies and pricing may change",
-    "Agent capabilities (Sales Order Agent and Payables Agent) use consumption-based billing at $0.01 per Copilot Credit",
-    "Sales Order Agent typical process costs about 14 Copilot Credits per request; Payables Agent costs vary by invoice complexity",
-    "Microsoft 365 Copilot license includes 25,000 free Copilot Credits, but Business Central licenses do not explicitly include credits",
-    "Organizations can monitor actual Copilot Credit consumption in the Power Platform admin center"
+    "Copilot is included with the Business Central license at no extra cost, though fair-use policies or pricing may come later",
+    "Sales Order Agent and Payables Agent are billed by consumption in Copilot Credits; pay-as-you-go costs $0.01 per credit",
+    "A typical Sales Order Agent flow uses 14 credits, and the example of 100 requests per month comes to 1,650 credits (about $16.50)",
+    "Payables Agent uses 50 credits per invoice plus 5 per invoice line",
+    "Usage can be checked in the Power Platform admin center; Business Central licenses are not documented as including credits"
   ],
   "systems": [
     "copilot",

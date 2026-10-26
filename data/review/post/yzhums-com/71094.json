@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/71094",
+  "input_hash": "d4490a5f48b38d480cb1c6f4a039f4bd2515ff34ef6b63aae17dba98dfe52ebf",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:48.435Z",
+  "issues": [
+    "Summary, key points, features and quotes match the post.",
+    "GeneralLedgerEntries Analysis is a page extension of General Ledger Entries in the post, not a page, so the object entry has the wrong type."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024704,
+    "posts_in_call": 4
+  }
+}

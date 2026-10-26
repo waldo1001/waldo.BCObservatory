@@ -7,14 +7,14 @@
   "words": 652,
   "summary": "When posting general journal lines with foreign currencies in BC27, the Source Currency Amount field in G/L Entry is recalculated from the LCY amount using the exchange rate, resulting in a value that differs from the original journal amount. This occurs because the posting logic recalculates the source currency amount instead of using the amount directly from the journal line.",
   "key_points": [
-    "Source Currency Code and Source Currency Amount fields were added to G/L Entry table in BC24 with the G/L Revaluation feature",
-    "The posting process recalculates Source Currency Amount by dividing the LCY VAT Base Amount by the exchange rate rather than using the journal line amount directly",
-    "The recalculation can cause the posted Source Currency Amount to differ from the pre-posting amount due to rounding in the exchange rate calculation",
-    "This behavior appears to apply to payment journals with foreign currencies and affects how original transaction amounts are stored"
+    "In BC24, the G/L Revaluation feature added the Source Currency Code and Source Currency Amount fields to the G/L Entry table",
+    "In BC27, posting recalculates Source Currency Amount from the LCY amount and the exchange rate instead of taking the journal line Amount",
+    "Because of rounding, the recalculated value can differ from the journal amount (in the JPY test, 20,008.00 became 20,008.61)",
+    "Possible workaround: subscribe to OnBeforeInsertGLEntryBuffer in Gen. Jnl.-Post Line and set Source Currency Amount to the journal Amount (only lightly tested)",
+    "Vendor Ledger Entry and Detailed Vendor Ledger Entry amounts are not affected"
   ],
   "systems": [
-    "finance",
-    "reporting"
+    "finance"
   ],
   "topics": [
     "general ledger",

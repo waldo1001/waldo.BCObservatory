@@ -6978,6 +6978,17 @@
         }
       ]
     },
+    "change/bcapps/12337": {
+      "kind": "change",
+      "hash": "e40e9b2eb1ba8469679d85ffec2efdd60216cbf529ee7162f922008f5f1beb7d",
+      "at": "2026-10-26T06:32:28.647Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports",
+          "reason": "Documents Stock Register for Job Work report for subcontracting transactions."
+        }
+      ]
+    },
     "change/bcapps/12339": {
       "kind": "change",
       "hash": "cae7aebdf750b5849c21b657ce7d0fc55bd3fcb123df3abf4562b0747ae45ec4",
@@ -7772,6 +7783,28 @@
         }
       ]
     },
+    "change/bcapps/12927": {
+      "kind": "change",
+      "hash": "8efe519e1543f93ddc18735e95f71915571f5a5b0a000fd23dc416a707c05dfa",
+      "at": "2026-10-26T06:32:28.647Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-teaching-tips-tours",
+          "reason": "Explains AboutTitle and AboutText AL properties for teaching tips and onboarding."
+        }
+      ]
+    },
+    "change/bcapps/12929": {
+      "kind": "change",
+      "hash": "e04d04276b25a4267be763d896418ac157a5f25c51966f6aea7976faba0cd2a3",
+      "at": "2026-10-26T06:32:28.647Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway",
+          "reason": "Covers electronic invoicing setup including GLN fields and import functionality."
+        }
+      ]
+    },
     "change/bcapps/12931": {
       "kind": "change",
       "hash": "363043845838325d039c42d0a0051fc1cb4f259b206539253e04d6f488728f00",
@@ -7842,6 +7875,21 @@
         }
       ]
     },
+    "change/bcapps/13054": {
+      "kind": "change",
+      "hash": "c41fd893f680be1865778522b9036c75a9a45535608c186de74bd2e42c7c544f",
+      "at": "2026-10-26T06:32:28.647Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-view-ledger-reconciliations",
+          "reason": "Documents payment reconciliation reports for French localization."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills",
+          "reason": "Covers SEPA payment standards for vendor and customer payments."
+        }
+      ]
+    },
     "change/bcapps/13056": {
       "kind": "change",
       "hash": "54f405ac7ae8f51060cc44e796fc7805cb963ac7da612ff4da29d8ce0bcab8ed",
@@ -7883,6 +7931,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-vat-rate-change-tool",
           "reason": "Explains VAT rate change conversion process and changes since Business Central 28.4"
+        }
+      ]
+    },
+    "change/bcapps/13107": {
+      "kind": "change",
+      "hash": "2062d48ebefb00a7838d966acb140bc896d7b2fd7d3f51c4b82a3a6241018d9c",
+      "at": "2026-10-26T06:32:28.647Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-validate-vat-registration-number",
+          "reason": "Explains VAT registration number validation using external services."
         }
       ]
     },
@@ -13013,6 +13072,23 @@
         }
       ]
     },
+    "object/codeunit/10837-fr": {
+      "kind": "object",
+      "hash": "1d8296738712ab41df1fc75a82fb58b2270c71f5fe9d3c2daa101ddc4e5ca4bb",
+      "at": "2026-10-26T06:32:28.647Z",
+      "picks": []
+    },
+    "object/codeunit/10838-fr": {
+      "kind": "object",
+      "hash": "623a68c6532a859de335132f7ac0aec5027a25f9940ed78c50213a5870e97a18",
+      "at": "2026-10-26T06:32:28.647Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service",
+          "reason": "Field mapping for exporting bank payment files in payment extensions."
+        }
+      ]
+    },
     "object/codeunit/10840-fr": {
       "kind": "object",
       "hash": "b09e28c1062fa134d004b0c65b93f63c4e12a8bea557b449845d608fff9cbe95",
@@ -13043,6 +13119,28 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service",
           "reason": "Codeunit handles payment data migration using field mapping for bank payment files."
+        }
+      ]
+    },
+    "object/codeunit/10845-fr": {
+      "kind": "object",
+      "hash": "157558c9b07a6c48f21ae7bf617f1475904a6bb36a5fecb134561ef6bf8e5784",
+      "at": "2026-10-26T06:32:28.647Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/bank-and-cash-management",
+          "reason": "Overview of bank and cash management in regional localization."
+        }
+      ]
+    },
+    "object/codeunit/10860-fr": {
+      "kind": "object",
+      "hash": "ed22d6c17df251fb9c46366cf28478536339653da7fce2e304c3bd3ad0fed308",
+      "at": "2026-10-26T06:32:28.483Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service",
+          "reason": "Documents field mapping for bank payment file exports, relevant to payment management"
         }
       ]
     },
@@ -13289,6 +13387,23 @@
       "at": "2026-10-24T00:28:20.362Z",
       "picks": []
     },
+    "object/codeunit/11754-cz": {
+      "kind": "object",
+      "hash": "0adf62a7994fe79e8d99c8c7cb035bf289724a462692d86f202149f79e364fec",
+      "at": "2026-10-26T06:32:28.483Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-validate-vat-registration-number",
+          "reason": "Documents validation of registration numbers, core function of lookup extension"
+        }
+      ]
+    },
+    "object/codeunit/11755-cz": {
+      "kind": "object",
+      "hash": "e193102a727711792a297dc2a194abfad09a609a7b092217369d3f50db31fff3",
+      "at": "2026-10-26T06:32:28.483Z",
+      "picks": []
+    },
     "object/codeunit/11775-cz": {
       "kind": "object",
       "hash": "e77beb9a248c95cd6db0f6d5ddf7c1e32e3501b088e8d364a894913acd681c82",
@@ -13344,6 +13459,39 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit",
           "reason": "Documents SEPA Direct Debit setup with payment method and bank file export processing."
+        }
+      ]
+    },
+    "object/codeunit/1230": {
+      "kind": "object",
+      "hash": "64dc080f0fbb4cbdae00a85479002aa487d748780b9e4ed2c4082ef9c36f6ccd",
+      "at": "2026-10-26T06:32:28.483Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit",
+          "reason": "Exports SEPA Direct Debit collections to XML files for bank processing"
+        }
+      ]
+    },
+    "object/codeunit/1232": {
+      "kind": "object",
+      "hash": "4ff4e5718b4496306e70cad7146aaad4bda609ba80ce0d4dce2fd3380bde9a6d",
+      "at": "2026-10-26T06:32:28.483Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit",
+          "reason": "Prepares source data for SEPA Direct Debit collection export process"
+        }
+      ]
+    },
+    "object/codeunit/1233": {
+      "kind": "object",
+      "hash": "737e13f99f9b888bcaf75c211a73d26ac41c35df5b536b024bb979f2684009fe",
+      "at": "2026-10-26T06:32:28.483Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit",
+          "reason": "Validates SEPA Direct Debit collection entries before processing"
         }
       ]
     },
@@ -13476,6 +13624,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/ui-work-general-journals",
           "reason": "Gen. Jnl.-Post Batch posts journal entries directly to G/L as described in working with general journals."
+        }
+      ]
+    },
+    "object/codeunit/1302": {
+      "kind": "object",
+      "hash": "ca35e70beaac67bac631d1c3897ab1dc3678b2f8d3fd1008cafca90de3e711f4",
+      "at": "2026-10-26T06:32:28.483Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers",
+          "reason": "Searches for external document numbers on customer documents and lines"
         }
       ]
     },
@@ -13785,6 +13944,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/germany-einvoicing",
           "reason": "Documents ZUGFeRD format support for German electronic invoicing"
+        }
+      ]
+    },
+    "object/codeunit/1400": {
+      "kind": "object",
+      "hash": "fdff1903d9f2f4e4a011f17796de0797bb1d84dcebafd8248258b3199e110f7c",
+      "at": "2026-10-26T06:32:28.483Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Posting-No-series-setup",
+          "reason": "Controls visibility of document number fields in various document types"
         }
       ]
     },
@@ -15695,6 +15865,32 @@
         }
       ]
     },
+    "object/codeunit/2300": {
+      "kind": "object",
+      "hash": "6cad1e9e634218c39345c92773d78ee76dd9dcc83cdb59748fdc321628f4816b",
+      "at": "2026-10-26T06:32:30.296Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v24",
+          "reason": "Tenant License State is used during upgrade processes to manage licensing requirements."
+        }
+      ]
+    },
+    "object/codeunit/231": {
+      "kind": "object",
+      "hash": "72841a27051eec2d5b21ae66a364613921cd967b64204844d56485b2a4d566ed",
+      "at": "2026-10-26T06:32:30.296Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-general-journal-post-line-overview",
+          "reason": "General Journal Post handles all G/L, VAT, and customer/vendor ledger posting operations."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/ui-work-general-journals",
+          "reason": "Documents general journal posting directly to G/L with various posting methods and configurations."
+        }
+      ]
+    },
     "object/codeunit/2362": {
       "kind": "object",
       "hash": "8a3bce7e3027a6fff4d83f28e3ba7dc7525d741e9c0f713b4a9649ad6288669c",
@@ -15703,6 +15899,21 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/dynamics-error-codes",
           "reason": "Documents REST API error handling and troubleshooting of failed web service calls"
+        }
+      ]
+    },
+    "object/codeunit/241": {
+      "kind": "object",
+      "hash": "2263bfd676d6442214de2146b778ebf711dc66d7d46f47ab8a51bcf28e82dce9",
+      "at": "2026-10-26T06:32:30.296Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-output-quantity",
+          "reason": "Item Journal Post batch posts production output, run times, and consumption records."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-consumption",
+          "reason": "Item Journal Post batch posts production consumption to record component usage and inventory."
         }
       ]
     },
@@ -16570,6 +16781,21 @@
         }
       ]
     },
+    "object/codeunit/312": {
+      "kind": "object",
+      "hash": "667cb927c0847c79853c7dc6e1a732486b054b61c04aec1e15114192e92c5455",
+      "at": "2026-10-26T06:32:30.296Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-create-blanket-assembly-orders",
+          "reason": "Credit limit checks apply when creating blanket assembly orders before converting to orders."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-blanket-sales-orders",
+          "reason": "Credit limit checks apply to blanket sales orders and purchase orders during creation and conversion."
+        }
+      ]
+    },
     "object/codeunit/31235-cz": {
       "kind": "object",
       "hash": "36ce0c5dde08dec109df4c4212a997e76fe31a770e084a711c3f2294277d5cb0",
@@ -17189,6 +17415,17 @@
       "at": "2026-10-24T00:29:05.704Z",
       "picks": []
     },
+    "object/codeunit/4030": {
+      "kind": "object",
+      "hash": "72d6162b3dc72c01639e03b29b240ad138a81500e79c9947499fe4646f4e30ab",
+      "at": "2026-10-26T06:32:30.296Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-httpclient",
+          "reason": "Client Type Management supports HttpClient integration with external services via HTTP requests."
+        }
+      ]
+    },
     "object/codeunit/4031": {
       "kind": "object",
       "hash": "7a2e15163c57a38c2a559bf850296dda00b58180641d09a93ec56304bdacc58f",
@@ -17236,6 +17473,38 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-file-handling-and-text-encoding",
           "reason": "Base64 Convert Impl. provides text encoding functionality for file handling and data import/export operations."
+        }
+      ]
+    },
+    "object/codeunit/4112": {
+      "kind": "object",
+      "hash": "fa9a201ff4d72290482fc980610d0b100d02278ddb290b8c401c136967b8904e",
+      "at": "2026-10-26T06:32:30.296Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-working-with-media-on-records",
+          "reason": "Image Helpers manages media and images stored on records for display in pages and reports."
+        }
+      ]
+    },
+    "object/codeunit/4113": {
+      "kind": "object",
+      "hash": "112d32e2c9b4a62e2f0a269e3d5c65d6d9bff680594f924b6e81536870ef70d7",
+      "at": "2026-10-26T06:32:30.296Z",
+      "picks": []
+    },
+    "object/codeunit/414": {
+      "kind": "object",
+      "hash": "de53268b5201ac206c40c80ce9a638a690ab452765fc72780e7949f40ab50a11",
+      "at": "2026-10-26T06:32:30.296Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/release-reopen-documents",
+          "reason": "Release Sales Document handles releasing and reopening sales documents for workflow progression."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/ui-document-status",
+          "reason": "Release Sales Document manages document status values controlling editing and workflow stages."
         }
       ]
     },
@@ -17665,6 +17934,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-create-prepayment-invoices",
           "reason": "Documents creating prepayment invoices; this codeunit posts purchase prepayments using similar logic."
+        }
+      ]
+    },
+    "object/codeunit/447": {
+      "kind": "object",
+      "hash": "395ac7d7088a3f1f892c5bae8d74cd126ccf7cdb4d6c25403ef9453f6a29554d",
+      "at": "2026-10-26T06:32:28.713Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onafterdocumentready-event",
+          "reason": "Record Link Management is system utility; OnAfterDocumentReady relates to document artifacts."
         }
       ]
     },
@@ -18502,6 +18782,17 @@
       "at": "2026-10-24T00:29:23.239Z",
       "picks": []
     },
+    "object/codeunit/5063": {
+      "kind": "object",
+      "hash": "5a4c278b8d973d819b3e03c852042a098fba1ae8d5bbd2802eb91d3577694af7",
+      "at": "2026-10-26T06:32:28.713Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
+          "reason": "ArchiveManagement handles archiving and restoring sales and purchase documents, core to archival feature."
+        }
+      ]
+    },
     "object/codeunit/5115": {
       "kind": "object",
       "hash": "26f2f64ead8059433270d4fc03757f392d889b2b2e87d926463a2adcab2bd231",
@@ -19118,6 +19409,21 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure",
           "reason": "Manages item tracking posting structure when reverting posted item tracking entries."
+        }
+      ]
+    },
+    "object/codeunit/5825": {
+      "kind": "object",
+      "hash": "0fdaa1b417b189cad2bbe2d86550377f6e2e1bcffbeec89427645543b1bbd0ef",
+      "at": "2026-10-26T06:32:28.713Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/ai-overview",
+          "reason": "Marketing Text codeunit implements Copilot-powered marketing text generation for items."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/item-marketing-text",
+          "reason": "Guides adding marketing text to items, the primary function of Marketing Text codeunit."
         }
       ]
     },
@@ -21898,6 +22204,28 @@
         }
       ]
     },
+    "object/codeunit/7499": {
+      "kind": "object",
+      "hash": "7f979064c86db92356fcd93a6988ee4337f7283130ba0631c470d399e3cf27b9",
+      "at": "2026-10-26T06:32:28.713Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-import-item-pictures",
+          "reason": "Item From Picture handles bulk import of item pictures from image files."
+        }
+      ]
+    },
+    "object/codeunit/7500": {
+      "kind": "object",
+      "hash": "af517acf57254a61eaf1e86d80867b1dd80bc3b1fdcae4918477b1f2f319311f",
+      "at": "2026-10-26T06:32:28.713Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-item-attributes",
+          "reason": "Item Attribute Management sets up and assigns item attributes to items and categories."
+        }
+      ]
+    },
     "object/codeunit/7754": {
       "kind": "object",
       "hash": "d0b8d33cb45afa6a02bb5ec50deba5a0b6c9d2d65fd7f0d4d49d7906d001b617",
@@ -22681,6 +23009,17 @@
       "at": "2026-10-24T00:30:13.852Z",
       "picks": []
     },
+    "object/codeunit/9027": {
+      "kind": "object",
+      "hash": "70da0f9d08b647cef79742ecd44b10c16a1d301fee606d655211e873441af750",
+      "at": "2026-10-26T06:32:28.713Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-identity",
+          "reason": "Plan Ids manages app identity through system identity and authentication mechanisms."
+        }
+      ]
+    },
     "object/codeunit/9030": {
       "kind": "object",
       "hash": "f20c8cfed53345a5422830289094b9d6e2fbe788b1df189750ca497624e2b6ec",
@@ -22758,6 +23097,12 @@
         }
       ]
     },
+    "object/codeunit/9080": {
+      "kind": "object",
+      "hash": "deeae75f56a76356c0d1e1675805701c7fa2081066303e24c4c1614f76cff0b0",
+      "at": "2026-10-26T06:32:28.713Z",
+      "picks": []
+    },
     "object/codeunit/9092-gb": {
       "kind": "object",
       "hash": "aab045573d6501d154353ecbf6b2254113ee1ab9bebe0212cb06f728bb7abaad",
@@ -22807,6 +23152,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes",
           "reason": "Documents postcode lookup extension automatically filling address fields for UK."
+        }
+      ]
+    },
+    "object/codeunit/91": {
+      "kind": "object",
+      "hash": "e9a6c4f37849a05ed39b780baf799ef2b31c36072ee3a9f759c3a59b97eb45b5",
+      "at": "2026-10-26T06:32:28.713Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-preview-post-results",
+          "reason": "Purchase posting codeunit with preview functionality aligns with preview entries before posting."
         }
       ]
     },
@@ -22880,6 +23236,28 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/m365-integration-overview",
           "reason": "Documents Microsoft 365 and SharePoint integration using Microsoft Graph."
+        }
+      ]
+    },
+    "object/codeunit/9170": {
+      "kind": "object",
+      "hash": "c1b0031ba4e407c560cf17891d6f35f543c1d258a3c1e63cfa49ae8b2f76b94b",
+      "at": "2026-10-26T06:32:28.580Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-role-customization",
+          "reason": "Customizing user interface for roles through profiles and personalization, which Conf./Personalization Mgt. manages."
+        }
+      ]
+    },
+    "object/codeunit/9179": {
+      "kind": "object",
+      "hash": "3d91a862dff44d8a09b1629953aaa60e12c2e7e9f5af642bf537e59b1f1941c3",
+      "at": "2026-10-26T06:32:28.580Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-application-areas",
+          "reason": "Extending Application Areas by managing experience tier events and application area setup."
         }
       ]
     },
@@ -23013,6 +23391,50 @@
         }
       ]
     },
+    "object/codeunit/9451": {
+      "kind": "object",
+      "hash": "2ed6c59302b8bf121993a5dd12dfd9302e1f828c04c9d31957469c3d1fa27637",
+      "at": "2026-10-26T06:32:28.580Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally",
+          "reason": "File Account Impl. manages file accounts for external file storage of document attachments."
+        }
+      ]
+    },
+    "object/codeunit/9454": {
+      "kind": "object",
+      "hash": "9021363e4289f4289d1064bc01371589aed61a9558880bc8fab398b525084e86",
+      "at": "2026-10-26T06:32:28.580Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally",
+          "reason": "External File Storage codeunit implements cloud storage for document attachments in Azure or SharePoint."
+        }
+      ]
+    },
+    "object/codeunit/9455": {
+      "kind": "object",
+      "hash": "cf5629417a2b8a2069ad78301ad6a9715e3935d118a79f5891768a80c6b2cfc3",
+      "at": "2026-10-26T06:32:28.580Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally",
+          "reason": "External File Storage Impl. implements external cloud storage functionality for document attachments."
+        }
+      ]
+    },
+    "object/codeunit/9458": {
+      "kind": "object",
+      "hash": "97baf243e710c94fb9ba25a89ab82f5d75ed595f234cadc5a4f5edfa88af0443",
+      "at": "2026-10-26T06:32:28.580Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally",
+          "reason": "File Account Browser Mgt. manages browser interface for external file storage account configuration."
+        }
+      ]
+    },
     "object/codeunit/9500": {
       "kind": "object",
       "hash": "d3d90d8c258f553edf9bcb894d5841923780ec1cea1d049ebe85d51c35ab4d47",
@@ -23101,6 +23523,17 @@
       "hash": "b6d44ecb895cdbf1d7b49070e1dc12a43ef6c3d5f3b9105a352864435dd85281",
       "at": "2026-10-24T00:30:17.641Z",
       "picks": []
+    },
+    "object/codeunit/9800": {
+      "kind": "object",
+      "hash": "3ab52fb5833d4f92ee8bf62bc6fd7d5ba680a021b6198fa293cac568dae4ddbd",
+      "at": "2026-10-26T06:32:28.580Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/disable-logging-events-windows-application-log",
+          "reason": "User codeunit handles user rename operations related to Windows and application user management."
+        }
+      ]
     },
     "object/codeunit/9850": {
       "kind": "object",
@@ -23302,6 +23735,17 @@
       "hash": "2c0e7eef682d5cf3c3773ed5b8f84cfed796c81cab531cadeae0b933df21576c",
       "at": "2026-10-24T00:30:21.843Z",
       "picks": []
+    },
+    "object/codeunit/99000792": {
+      "kind": "object",
+      "hash": "5957f03e0dea581f3fdd51f2ea29501964389957234165ed312d6a8b015b06ee",
+      "at": "2026-10-26T06:32:28.580Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-production-orders",
+          "reason": "Create Prod. Order from Sale creates production orders from sales orders with quantities and dates."
+        }
+      ]
     },
     "object/codeunit/99000793": {
       "kind": "object",
@@ -24459,6 +24903,17 @@
       "at": "2026-10-24T00:30:35.214Z",
       "picks": []
     },
+    "object/enum/38": {
+      "kind": "object",
+      "hash": "7e5dd7320fee65297b72fb8a4ca63e73de6c44ff5436f9bab0d4d01c6a685164",
+      "at": "2026-10-26T06:32:28.522Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums",
+          "reason": "Enum 38 is an enumeration type; L3 documents extensible enums in AL."
+        }
+      ]
+    },
     "object/enum/42800": {
       "kind": "object",
       "hash": "bce8008282bb294f9c6ee31032d15f39fd20a70cdd6cfd9fb3ff47dbdde1095d",
@@ -24467,6 +24922,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-configure-companies",
           "reason": "Documents Dynamics SL migration including historical data step configuration and settings."
+        }
+      ]
+    },
+    "object/enum/43": {
+      "kind": "object",
+      "hash": "26a9d388e204006071b5fb14166d2286738185ec489908c73242cf115afc85f6",
+      "at": "2026-10-26T06:32:28.522Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-comments",
+          "reason": "Purchase comment document type enum relates to comments on purchase documents."
         }
       ]
     },
@@ -25359,6 +25825,23 @@
         }
       ]
     },
+    "object/enum/9205": {
+      "kind": "object",
+      "hash": "992bad192831d91a9c92b7d6faaf601476bb2f2f1e048a7dbd11c10322da4239",
+      "at": "2026-10-26T06:32:28.522Z",
+      "picks": []
+    },
+    "object/enum/9206": {
+      "kind": "object",
+      "hash": "abe1e2e460bfb487d66f870d7b36419d31e4ee5800612a8cbe71aefcdb6fb26f",
+      "at": "2026-10-26T06:32:28.522Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts",
+          "reason": "Enum for 2D barcode font providers used in Business Central barcode generation."
+        }
+      ]
+    },
     "object/enum/9451": {
       "kind": "object",
       "hash": "8d7533f11b73e8efa5b4715f1e29cb5ac8af72220eabb0f073514d7ec27eeafd",
@@ -25755,6 +26238,17 @@
         }
       ]
     },
+    "object/interface/barcode-font-provider-2d": {
+      "kind": "object",
+      "hash": "6c4246d27d5b97491d279278357f3117e298b8f18e14e34905d5b4e57f459f11",
+      "at": "2026-10-26T06:32:28.522Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-add-barcodes",
+          "reason": "Interface for barcode font providers; L13 documents barcode encoding and application."
+        }
+      ]
+    },
     "object/interface/bc14-migrator": {
       "kind": "object",
       "hash": "9900da5bf6f4b43e527b7904ef948e2e880a878d096a7ee39ef9cfc89538a1e6",
@@ -26045,6 +26539,17 @@
         }
       ]
     },
+    "object/page/10843-fr": {
+      "kind": "object",
+      "hash": "bbe7c7b4fd84730b0cd945d45bc75f8ce9f207dd27c56ff1b1ab3f6365130fe9",
+      "at": "2026-10-26T06:32:28.522Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-create-payment-slips",
+          "reason": "Payment Slip FR page creates French payment slips as documented in L15."
+        }
+      ]
+    },
     "object/page/11017-de": {
       "kind": "object",
       "hash": "a0cd08f7a7e3432b22deaa8256e27557ad667a7f1bbf6d98a7eda71ccf63527b",
@@ -26122,6 +26627,28 @@
         }
       ]
     },
+    "object/page/1310": {
+      "kind": "object",
+      "hash": "d089e7897ab0252d1204544ac102fde36359255326e73d1c741de9d69345f22c",
+      "at": "2026-10-26T06:32:28.522Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-background-tasks",
+          "reason": "Page has OnGetBackgroundTaskTimeout event; L20 documents page background tasks."
+        }
+      ]
+    },
+    "object/page/1327": {
+      "kind": "object",
+      "hash": "753460937e5392ef640098b06b4b88e51d16542724ccb40c8265cbac863bae6f",
+      "at": "2026-10-26T06:32:28.522Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-adjust-reclassify",
+          "reason": "Adjust Inventory page performs inventory count and adjustment as documented."
+        }
+      ]
+    },
     "object/page/139": {
       "kind": "object",
       "hash": "2f620b34ded7d1971e055855cd14ad64d5f614f61e8bb16192dbf4ded048bc06",
@@ -26130,6 +26657,28 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/finance-dimensions",
           "reason": "Documents dimensions functionality used in purchase invoices, relevant to the Posted Purch Invoice Subform's dimension visibility event"
+        }
+      ]
+    },
+    "object/page/1470": {
+      "kind": "object",
+      "hash": "526e47500f874af8c90c46574bf86e42ba18fad6c1f4271cc46da76c080316a9",
+      "at": "2026-10-26T06:32:35.738Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-videos",
+          "reason": "Page documents video library for Business Central with product videos"
+        }
+      ]
+    },
+    "object/page/1508": {
+      "kind": "object",
+      "hash": "1690aacc7d27addc8dda69358ebdda76cba7a24dd28317d8d017900f38b9811a",
+      "at": "2026-10-26T06:32:35.738Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v21",
+          "reason": "Workflow Categories relate to upgrade procedures that cover system application changes"
         }
       ]
     },
@@ -26303,6 +26852,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management",
           "reason": "Documents feature management for enabling upcoming features ahead of time"
+        }
+      ]
+    },
+    "object/page/2011": {
+      "kind": "object",
+      "hash": "4e867a3b022d45fa82a0d63cdaf2e66c69dce583bdf283e7740cff5b5866411b",
+      "at": "2026-10-26T06:32:35.738Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-file-handling-and-text-encoding",
+          "reason": "Entity Text Factbox handles text content; file handling page covers text encoding and data handling"
         }
       ]
     },
@@ -27172,6 +27732,17 @@
       "at": "2026-10-24T00:31:06.077Z",
       "picks": []
     },
+    "object/page/4333": {
+      "kind": "object",
+      "hash": "7679f0bacd2cdd9cb251078b2954372e3808de6cccbbba3dfaf6a4dc74226ac4",
+      "at": "2026-10-26T06:32:35.738Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-ai-consumption",
+          "reason": "Agent Consumption Overview page tracks copilot credit consumption documented in AI trace telemetry"
+        }
+      ]
+    },
     "object/page/4334": {
       "kind": "object",
       "hash": "3eb7ae529f2f926ed89101b69dc143f307bdb990e066c7a1c2d7613a748845fd",
@@ -27710,6 +28281,17 @@
         }
       ]
     },
+    "object/page/5408": {
+      "kind": "object",
+      "hash": "ddf510190fab938f6fae1ce876089d1404576c87599e45544eeac0679e38aaf6",
+      "at": "2026-10-26T06:32:35.738Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000762",
+          "reason": "Prod. Order Routing Lines are displayed in Job Card report for production execution"
+        }
+      ]
+    },
     "object/page/5440": {
       "kind": "object",
       "hash": "da7d658e271019ea29d327ecbf592ccb51e03f509b7012b5bb71e39f8ccd0998",
@@ -27778,6 +28360,17 @@
         }
       ]
     },
+    "object/page/5711": {
+      "kind": "object",
+      "hash": "914c1e6b5f42f5b1794fcc5c358f565d6c0f3934d2af2fb54037b8959af4d533",
+      "at": "2026-10-26T06:32:35.738Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onafterdocumentready-event",
+          "reason": "Copy Location functionality relates to document modification patterns shown in OnAfterDocumentReady"
+        }
+      ]
+    },
     "object/page/5734": {
       "kind": "object",
       "hash": "cd43e1dbcb08732225882212006a78906db958955af259c5add71feafef627e2",
@@ -27841,6 +28434,17 @@
         }
       ]
     },
+    "object/page/5818": {
+      "kind": "object",
+      "hash": "eda279e395aee1b274cc894439d0de48fbb5b0a3f4f28b726ded99a104e0f4d9",
+      "at": "2026-10-26T06:32:35.738Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-track-document-lines",
+          "reason": "Matched Order Lines track order lines to related documents as documented"
+        }
+      ]
+    },
     "object/page/5827": {
       "kind": "object",
       "hash": "4c2ec2ea4c6b1f81e15a163b3261bb5d6c4af2de995f1b6a8fcaa92ed3c75ce8",
@@ -27886,6 +28490,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-register-new-items",
           "reason": "Covers creating and managing item cards for goods and services with inventory setup configuration."
+        }
+      ]
+    },
+    "object/page/5994": {
+      "kind": "object",
+      "hash": "2f2bfc90081e6f8ff0ca1eaaa0f445be409ac31cc305dad91756926273e41da4",
+      "at": "2026-10-26T06:32:35.738Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5913",
+          "reason": "Get Service Shipment Lines retrieves data for Service Shipment report generation"
         }
       ]
     },
@@ -28251,6 +28866,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
           "reason": "Sales Return Order Arc Subform handles archived sales return documents and retention policies."
+        }
+      ]
+    },
+    "object/page/67": {
+      "kind": "object",
+      "hash": "6baccc080ed3e6e3de53189beeb3dbdba0a85cfb3ac54d0c13916047703a408a",
+      "at": "2026-10-26T06:32:35.634Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deleted-objects-25w1",
+          "reason": "Sales Comment Sheet may be subject to deletion or changes in v26 obsolete object cleanup."
         }
       ]
     },
@@ -29593,6 +30219,12 @@
         }
       ]
     },
+    "object/page/725": {
+      "kind": "object",
+      "hash": "6261c94e971e8d1e0a2a8744791357ec5a44ef6ea4937a1011df71a9cfd5433a",
+      "at": "2026-10-26T06:32:35.634Z",
+      "picks": []
+    },
     "object/page/7412": {
       "kind": "object",
       "hash": "fc0df637f50b13aa817a0545a148732a7baa2a614f401eb60f12edc886b93ba2",
@@ -29634,6 +30266,34 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-excise-tax",
           "reason": "Documents setting up and managing excise tax rates for tax calculation"
+        }
+      ]
+    },
+    "object/page/7509": {
+      "kind": "object",
+      "hash": "ff448397742d97e20dd6d88e85749c673d5d055c70eccb52f1cc28a65dacd726",
+      "at": "2026-10-26T06:32:35.634Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-item-attributes",
+          "reason": "Documents setting up and filtering items by attributes, directly relevant to this filter page."
+        }
+      ]
+    },
+    "object/page/7773": {
+      "kind": "object",
+      "hash": "30db6203cfc2607a81fac6930523a493770c4897b6109e7b27ff26f40797f433",
+      "at": "2026-10-26T06:32:35.634Z",
+      "picks": []
+    },
+    "object/page/7774": {
+      "kind": "object",
+      "hash": "4db7d53891aac9b7a9be915a9e86af6ae210f9e233d14fa6180526786e703ab2",
+      "at": "2026-10-26T06:32:35.634Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/enable-ai",
+          "reason": "Documents how administrators configure and control Copilot capabilities in Business Central."
         }
       ]
     },
@@ -30178,6 +30838,17 @@
       "at": "2026-10-24T00:31:46.401Z",
       "picks": []
     },
+    "object/page/9110": {
+      "kind": "object",
+      "hash": "a0823ffe526019e73e3ccd801f6f68e988fc11467a1258ff70053243764a21c9",
+      "at": "2026-10-26T06:32:35.634Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-item-attributes",
+          "reason": "Documents setting up item attributes and their assignment to items for display."
+        }
+      ]
+    },
     "object/page/9142-gb": {
       "kind": "object",
       "hash": "01e7741ead5e716e7d13ef436b35cc9302b1c22af19e9651f23efa0f1ef15980",
@@ -30195,6 +30866,17 @@
       "hash": "157f5da5eafd4efff28d9069ce7d251bea9ca43b4e893975357354adffd945bb",
       "at": "2026-10-24T00:31:46.401Z",
       "picks": []
+    },
+    "object/page/9288": {
+      "kind": "object",
+      "hash": "6503a09abeb49f7115c19caf8134825e583d4c8069cd31088fe0d1e9a344db28",
+      "at": "2026-10-26T06:32:35.634Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-production-bom-version",
+          "reason": "Documents creating production BOMs and versions used by this comparison page."
+        }
+      ]
     },
     "object/page/9402-gb": {
       "kind": "object",
@@ -30219,6 +30901,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally",
           "reason": "Documents external file storage setup and configuration for document attachments."
+        }
+      ]
+    },
+    "object/page/9455": {
+      "kind": "object",
+      "hash": "c2cb31ea968ece20eba7f5eb61e5d7e42a5853823ceed16fbd2fc6ea675d8c66",
+      "at": "2026-10-26T06:32:35.634Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally",
+          "reason": "Documents external file storage configuration and management for document attachments."
         }
       ]
     },
@@ -30823,6 +31516,23 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits",
           "reason": "Directly documents FEC audit file export for French tax compliance that this extension implements."
+        }
+      ]
+    },
+    "object/pageextension/10838-fr": {
+      "kind": "object",
+      "hash": "4ffed4b1ef0e90cfac0045269a6637b7f93fde928ca6dddffeabf0a0c97cf41e",
+      "at": "2026-10-26T06:32:38.577Z",
+      "picks": []
+    },
+    "object/pageextension/10842-fr": {
+      "kind": "object",
+      "hash": "d224006959ad27a38dcd4e8a2259354a16c5758e15130a62809653236adf2164",
+      "at": "2026-10-26T06:32:38.577Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-register-new-vendors",
+          "reason": "Documents vendor card setup and registration, core vendor functionality."
         }
       ]
     },
@@ -33455,6 +34165,12 @@
         }
       ]
     },
+    "object/permissionset/10800-fr": {
+      "kind": "object",
+      "hash": "073cbab082dcb8fc92bf39b5ef7c767fc4cafdd76b4bdedf1ba105ada0e4f5b9",
+      "at": "2026-10-26T06:32:38.577Z",
+      "picks": []
+    },
     "object/permissionset/10807-fr": {
       "kind": "object",
       "hash": "77a717328f1eba33ac5d9a07ab44f65a8d5165ae376027ad22d45b0243051a0a",
@@ -33474,6 +34190,43 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-saft-audit-files-export",
           "reason": "Documents the French SAF-T audit file export process for tax compliance."
+        }
+      ]
+    },
+    "object/permissionset/10837-fr": {
+      "kind": "object",
+      "hash": "9a30b0cb60520e9e9902bc556d8defd96cfa61f185be513646f69eae6205e96d",
+      "at": "2026-10-26T06:32:38.577Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-yodlee-bank-feeds",
+          "reason": "Documents payment reconciliation, central to payment management permissions."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service",
+          "reason": "Documents bank payment file exports, part of payment management features."
+        }
+      ]
+    },
+    "object/permissionset/10839-fr": {
+      "kind": "object",
+      "hash": "67eb1be7d76487f2dba695f4255585c45d375f6ecf12938f9eaaed35d5ed09be",
+      "at": "2026-10-26T06:32:38.577Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-yodlee-bank-feeds",
+          "reason": "Documents payment reconciliation, relevant for read-only payment access."
+        }
+      ]
+    },
+    "object/permissionset/10840-fr": {
+      "kind": "object",
+      "hash": "7c26a2e89c28a5a8c717c7a2d002211655c477344204c0430ff7f5b186939b1d",
+      "at": "2026-10-26T06:32:38.577Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-yodlee-bank-feeds",
+          "reason": "Documents payment reconciliation, core function for payment management role."
         }
       ]
     },
@@ -34022,6 +34775,17 @@
         }
       ]
     },
+    "object/permissionset/5783": {
+      "kind": "object",
+      "hash": "a70a21118404b1dc2187ee6af221ed2dcb11c377a6c12cfab01db4df256839bd",
+      "at": "2026-10-26T06:32:38.577Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records",
+          "reason": "Explicitly documents MERGE DUPLICATES permission set requirement for merge functionality."
+        }
+      ]
+    },
     "object/permissionset/6100": {
       "kind": "object",
       "hash": "d2bdd7a32a7f9d7d5056dc64630b0999fdc534c74c1371b73ec87d7b07548e67",
@@ -34528,6 +35292,32 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-setup-idealpostcodes-service",
           "reason": "L9 explains setup of the Ideal Postcodes Extension for UK address lookup functionality."
+        }
+      ]
+    },
+    "object/permissionsetextension/10835-fr": {
+      "kind": "object",
+      "hash": "3a80bc7b17d0a5526798f8274ecd451577242cbd8e4e8b0a146f306b1208bcaa",
+      "at": "2026-10-26T06:32:38.577Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-yodlee-bank-feeds",
+          "reason": "Documents payment reconciliation, core French localization feature."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service",
+          "reason": "Documents bank payment file exports, part of French localization."
+        }
+      ]
+    },
+    "object/permissionsetextension/10836-fr": {
+      "kind": "object",
+      "hash": "542bdee9991081d0d2afa98aa3b67aa28af82734f863f499aa94b62a5b86b7d9",
+      "at": "2026-10-26T06:32:35.638Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service",
+          "reason": "Documents bank payment file field mapping in Microsoft.Bank.Payment namespace"
         }
       ]
     },
@@ -35439,6 +36229,12 @@
         }
       ]
     },
+    "object/query/774": {
+      "kind": "object",
+      "hash": "97073f9723ffc7795eac7bc774743d317d04dbc41c25b5e222c10715ed680623",
+      "at": "2026-10-26T06:32:35.638Z",
+      "picks": []
+    },
     "object/report/10083-ca": {
       "kind": "object",
       "hash": "6f4ff61e4eaf804432c8af5270c63d7839e0c9895dcafb958099af7b5e3598cf",
@@ -35678,6 +36474,17 @@
         }
       ]
     },
+    "object/report/10849-fr": {
+      "kind": "object",
+      "hash": "e6379dbf1a74b2048f6070c77b3c28b6344633496a469d660fb8f5f2da3cc746",
+      "at": "2026-10-26T06:32:35.638Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-suggest-vendor-payments",
+          "reason": "Documents batch job that suggests customer payments based on due dates and discounts"
+        }
+      ]
+    },
     "object/report/1085": {
       "kind": "object",
       "hash": "9b9ed8c78080cb80cd06e5ce3137ecffc5f18444450c77c1e65e3019842eb09a",
@@ -35690,6 +36497,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-monitor-progress-performance",
           "reason": "Explains posting work-in-process to general ledger and monitoring project progress."
+        }
+      ]
+    },
+    "object/report/10850-fr": {
+      "kind": "object",
+      "hash": "4c67727552b1ed097333b50267e1f6f28a0e3aa07535d074201f2cc4aa846992",
+      "at": "2026-10-26T06:32:35.638Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-suggest-vendor-payments",
+          "reason": "Documents batch job that suggests vendor payments based on due dates and discounts"
         }
       ]
     },
@@ -36858,6 +37676,17 @@
         }
       ]
     },
+    "object/report/5757": {
+      "kind": "object",
+      "hash": "0397b89640fe205157db9ce79dfd4dcf9d4c3a95d4364458a0de02de7e64724d",
+      "at": "2026-10-26T06:32:35.638Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-inventory-with-documents",
+          "reason": "Documents inventory management and counting procedures for tracking item quantities"
+        }
+      ]
+    },
     "object/report/5855": {
       "kind": "object",
       "hash": "a552b9b1a841098cf0431b9edf87e2beb39793814080edb22f9cc42d245fdf16",
@@ -37589,6 +38418,17 @@
         }
       ]
     },
+    "object/table/10842-fr": {
+      "kind": "object",
+      "hash": "6a88cf2689170477febafef5607936830233e4ef099a413a704652dcd4a8ef05",
+      "at": "2026-10-26T06:32:35.638Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts",
+          "reason": "Documents payment reconciliation and bank account matching with receivables payables"
+        }
+      ]
+    },
     "object/table/10862-fr": {
       "kind": "object",
       "hash": "1539230db0cf9481cdc1a7a1170de6cb567d0e3898d4489b0c0bb1eb3aa43f31",
@@ -37605,6 +38445,17 @@
       "hash": "5d3afc85da1f490f70369d50ea7b1176626ca1a0b9b944f66b3a2a94f6d12937",
       "at": "2026-10-24T00:33:17.736Z",
       "picks": []
+    },
+    "object/table/10871-fr": {
+      "kind": "object",
+      "hash": "0db94b5c840c28863a4323d17b199c12595d77960574466e7f9749d25908239f",
+      "at": "2026-10-26T06:32:35.638Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/receivables-payables",
+          "reason": "Documents Czech receivables and payables features with ledger entry management"
+        }
+      ]
     },
     "object/table/11000005-nl": {
       "kind": "object",
@@ -37922,6 +38773,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-connect-disconnect-income-document-records",
           "reason": "Incoming document table attaches external files to purchase invoices and posted documents for record linking."
+        }
+      ]
+    },
+    "object/table/1313": {
+      "kind": "object",
+      "hash": "1eda3c8e356d9a641f69ca2b1c44f04d127ad5265a5bf6830ce5ee7005d78c97",
+      "at": "2026-10-26T06:32:35.638Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-set-up-colored-indicator-on-cues",
+          "reason": "Documents setup of colored Cue indicators on Role Center Activity tiles"
         }
       ]
     },
@@ -38826,6 +39688,21 @@
         }
       ]
     },
+    "object/table/317": {
+      "kind": "object",
+      "hash": "0b213e23ad4b7e9063fec24ab3993fa83ba65dade1fc4878d2a7182391b336ba",
+      "at": "2026-10-26T06:32:37.068Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-2502",
+          "reason": "Day Book Vendor Ledger Entry report displays chronological vendor transactions from this table."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-detailed-vendor-ledger-entries",
+          "reason": "Detailed Vendor Ledger Entries report provides view of individual vendor transactions from this table."
+        }
+      ]
+    },
     "object/table/323": {
       "kind": "object",
       "hash": "83e7dc2d1d528706e04cbcb16afd2c8fd9223b00d23fcb0b76fb37bc63e79ffa",
@@ -39115,6 +39992,12 @@
         }
       ]
     },
+    "object/table/43": {
+      "kind": "object",
+      "hash": "578c3972e5eb933e82fb14fd8c0a741e06285437b8956f4499e75db9e8b0c903",
+      "at": "2026-10-26T06:32:37.068Z",
+      "picks": []
+    },
     "object/table/4325": {
       "kind": "object",
       "hash": "48b7a06f1acba9cf8fb5cad61d1d299052f5e233ba2a9a26bfb5eb8ffe1fe900",
@@ -39125,6 +40008,12 @@
           "reason": "Stores Sales Order Agent configuration settings for activating and managing the AI agent automation capability."
         }
       ]
+    },
+    "object/table/44": {
+      "kind": "object",
+      "hash": "b1f0900144c82cafe99357e0f76deb2746acc1a232425c0d85a4c2c1cc20b597",
+      "at": "2026-10-26T06:32:37.068Z",
+      "picks": []
     },
     "object/table/4401": {
       "kind": "object",
@@ -40235,6 +41124,27 @@
         }
       ]
     },
+    "object/table/6505": {
+      "kind": "object",
+      "hash": "6fa6265a93999be3256d10bc2da226f6fbf8f9e6c6ecdb5d11d9352b0d83f165",
+      "at": "2026-10-26T06:32:37.068Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-item-tracking",
+          "reason": "Set up item tracking explains lot number tracking configuration used by Lot No. Information table."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-lot",
+          "reason": "Inventory by Lot No. Power BI report displays lot-tracked items managed through this table."
+        }
+      ]
+    },
+    "object/table/6506": {
+      "kind": "object",
+      "hash": "e3f2aa938aba1806b7c7ae0f7e88b9a632551b8a2ce8e076f3b65ed722c0bd1d",
+      "at": "2026-10-26T06:32:37.068Z",
+      "picks": []
+    },
     "object/table/6752": {
       "kind": "object",
       "hash": "ea24655d36d03159c96ab0002ce7738e18ef446ec58839ed9c7baa56c2f50971",
@@ -40260,6 +41170,21 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-withholding-tax",
           "reason": "Documents withholding tax posting setup with posting groups and account assignments."
+        }
+      ]
+    },
+    "object/table/6787": {
+      "kind": "object",
+      "hash": "66ab50c7a3d443cce1e2d271aec2ef12c18685a4171c8c7f750e07731eafb988",
+      "at": "2026-10-26T06:32:37.068Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax",
+          "reason": "Set up revenue types for withholding tax in Australian version configures this table."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-revenue-types-for-withholding-tax",
+          "reason": "Set up revenue types for withholding tax in New Zealand version configures this table."
         }
       ]
     },
@@ -41048,6 +41973,23 @@
         }
       ]
     },
+    "object/table/7500": {
+      "kind": "object",
+      "hash": "c7d78636c8912a72694da6c1ef5606de91c6fd945870055a9399a0d8754f6565",
+      "at": "2026-10-26T06:32:37.068Z",
+      "picks": []
+    },
+    "object/table/7506": {
+      "kind": "object",
+      "hash": "8b5978f5d46045c0f17950e09d59b0b3206037a8c4ec3b93fcb7c9a4d28a9151",
+      "at": "2026-10-26T06:32:37.068Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-item-attributes",
+          "reason": "Set up item attributes explains filtering items by attribute values using buffer table."
+        }
+      ]
+    },
     "object/table/7507": {
       "kind": "object",
       "hash": "4f8d036126539c1c7cffcd6087c8e1b8e18c944c56acc1b73be89940e487f319",
@@ -41419,6 +42361,39 @@
         }
       ]
     },
+    "object/table/9176": {
+      "kind": "object",
+      "hash": "9469dd7aeb432d80785a9928324dd1ba2001afe42238e63bc912dc13541ebdfb",
+      "at": "2026-10-26T06:32:36.631Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v21",
+          "reason": "Table for Experience Tier Setup is part of system configuration touched during version upgrades."
+        }
+      ]
+    },
+    "object/table/9177": {
+      "kind": "object",
+      "hash": "c87707e83508eebe047b947bafddd50f7c91ba10641d9d2a45dc3fe1a3b58a2e",
+      "at": "2026-10-26T06:32:36.631Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v21",
+          "reason": "Buffer table for Experience Tier operations referenced during Business Central upgrade procedures."
+        }
+      ]
+    },
+    "object/table/97": {
+      "kind": "object",
+      "hash": "6918631d24dd5eb011ce9ffd03f8f558bbe6de365dec1e0dfd26c9deca15d97f",
+      "at": "2026-10-26T06:32:36.631Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deleted-objects-25w1",
+          "reason": "Comment Line table is among deleted objects in Base App 2025 release wave 1 (v26) performance improvement."
+        }
+      ]
+    },
     "object/table/9701": {
       "kind": "object",
       "hash": "b8906e9421610ab153553fac84bda29c45dfd6a554325b0159276c21e4152275",
@@ -41780,6 +42755,50 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-set-up-vendors-bank-accounts",
           "reason": "Documents vendor bank account setup and configuration for payment processing."
+        }
+      ]
+    },
+    "object/tableextension/10837-fr": {
+      "kind": "object",
+      "hash": "fa90d996f44d69f5a11db9661895ef57da897098108726a02c931344e0526098",
+      "at": "2026-10-26T06:32:36.631Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service",
+          "reason": "Payment Gen. Journal Line extension documents field mapping for bank payment file exports in French localization."
+        }
+      ]
+    },
+    "object/tableextension/10838-fr": {
+      "kind": "object",
+      "hash": "528c246ecaaa22402e30fe92bf051d15a0cd0f2532e2d6123a1392235ae2020a",
+      "at": "2026-10-26T06:32:36.631Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service",
+          "reason": "Posted Gen. Journal Line extension relates to field mapping when exporting bank payment files in French version."
+        }
+      ]
+    },
+    "object/tableextension/10839-fr": {
+      "kind": "object",
+      "hash": "b7d9c29dc04a76a445587b9a3c2f4e6a407f9f2baf0018af64746d845cdb1bc6",
+      "at": "2026-10-26T06:32:36.631Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit",
+          "reason": "Direct Debit Collection extension implements SEPA Direct Debit for customer payment collection from bank accounts."
+        }
+      ]
+    },
+    "object/tableextension/10840-fr": {
+      "kind": "object",
+      "hash": "316fd6d12be3a1bd3d3e60fea7532468d934d0ea510b047b72c930429106e85a",
+      "at": "2026-10-26T06:32:36.631Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-2502",
+          "reason": "Payable Vendor Ledger Entry extension documented in Day Book Vendor Ledger Entry report for accounts payable tracking."
         }
       ]
     },

@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:54:08.766Z"
   flags: []
 generated:
-  at: "2026-10-26T05:30:48.114Z"
+  at: "2026-10-26T05:51:10.938Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -57,55 +57,15 @@ links:
   posts: []
   guidelines: []
   related:
-    - to: post/gerardorenteria-blog/15143
-      title: 🧩 Deriving dimensions in Business Central beyond Default Dimensions
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/types-of-events-for-extensibility
+      title: Types of events for extensibility
       label: possibly related
-      why: both name Table 36 "Sales Header"
+      why: names Table 36 "Sales Header"
       by: code
-    - to: post/aardvarklabs-blog/3837
-      title: Background Page Tasks in Business Central Explained
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walktrough-designing-reports-multiple-tables
+      title: Walkthrough - Designing a report from multiple tables
       label: possibly related
-      why: both name Table 36 "Sales Header"
-      by: code
-    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea
-      title: "BC Friday Tips #56 Understand Missing Fields in Copy Documents"
-      label: possibly related
-      why: both name Table 36 "Sales Header"
-      by: code
-    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561
-      title: "BC Friday Tips #74 Copy Document and Custom Field"
-      label: possibly related
-      why: both name Table 36 "Sales Header"
-      by: code
-    - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9
-      title: "D365 Business Central: How to Fix Missing Sales Invoices in the API"
-      label: possibly related
-      why: both name Table 36 "Sales Header"
-      by: code
-    - to: post/yzhums-com/74172
-      title: "Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order"
-      label: possibly related
-      why: both name Table 36 "Sales Header"
-      by: code
-    - to: post/yzhums-com/71582
-      title: "Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page"
-      label: possibly related
-      why: both name Table 36 "Sales Header"
-      by: code
-    - to: post/yzhums-com/69215
-      title: "Dynamics 365 Business Central: Manage credit limits (Warnings and Workflow)"
-      label: possibly related
-      why: both name Table 36 "Sales Header"
-      by: code
-    - to: post/yzhums-com/74940
-      title: Dynamics 365 Business Central: Searches for duplicate external document numbers in sales documents and posted documents (Standard function/procedure)
-      label: possibly related
-      why: both name Table 36 "Sales Header"
-      by: code
-    - to: post/aardvarklabs-blog/3118
-      title: Leveraging RecordRef and FieldRef for Dynamic Coding
-      label: possibly related
-      why: both name Table 36 "Sales Header"
+      why: names Table 36 "Sales Header"
       by: code
 post_id: https://thatnavguy.com/blog/2026/bc-friday-tips-77-testfield-show-record-action/
 source_id: thatnavguy-com
@@ -176,16 +136,8 @@ As named in the post. A name that matches one object page by exact type and name
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
-- [🧩 Deriving dimensions in Business Central beyond Default Dimensions](../../posts/gerardorenteria-blog/15143.md) — possibly related: both name Table 36 "Sales Header"
-- [Background Page Tasks in Business Central Explained](../../posts/aardvarklabs-blog/3837.md) — possibly related: both name Table 36 "Sales Header"
-- [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) — possibly related: both name Table 36 "Sales Header"
-- [BC Friday Tips #74 Copy Document and Custom Field](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) — possibly related: both name Table 36 "Sales Header"
-- [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) — possibly related: both name Table 36 "Sales Header"
-- [Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order](../../posts/yzhums-com/74172.md) — possibly related: both name Table 36 "Sales Header"
-- [Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page](../../posts/yzhums-com/71582.md) — possibly related: both name Table 36 "Sales Header"
-- [Dynamics 365 Business Central: Manage credit limits (Warnings and Workflow)](../../posts/yzhums-com/69215.md) — possibly related: both name Table 36 "Sales Header"
-- [Dynamics 365 Business Central: Searches for duplicate external document numbers in sales documents and posted documents (Standard function/procedure)](../../posts/yzhums-com/74940.md) — possibly related: both name Table 36 "Sales Header"
-- [Leveraging RecordRef and FieldRef for Dynamic Coding](../../posts/aardvarklabs-blog/3118.md) — possibly related: both name Table 36 "Sales Header"
+- [Types of events for extensibility](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/types-of-events-for-extensibility) — possibly related: names Table 36 "Sales Header"
+- [Walkthrough - Designing a report from multiple tables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walktrough-designing-reports-multiple-tables) — possibly related: names Table 36 "Sales Header"
 
 ## Heads up
 

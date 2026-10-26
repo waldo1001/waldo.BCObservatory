@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/67399",
+  "input_hash": "c293737965159e1b66e8a80e2e81fbc6645debebbd5740e1bd13fafa0ac39464",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:13.652Z",
+  "issues": [
+    "Tell Me is a client search feature, not an AL object, so the object entry is unsupported.",
+    "The development system is not supported; the feature is for end users.",
+    "Summary, key points and quotes otherwise match the post."
+  ],
+  "applied": [
+    "dropped 1 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025512,
+    "posts_in_call": 4
+  }
+}

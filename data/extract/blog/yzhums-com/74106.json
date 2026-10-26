@@ -5,12 +5,12 @@
   "source": "yzhums-com",
   "published_at": "2026-06-09T01:22:42.000Z",
   "words": 559,
-  "summary": "Business Central allows users to create new items directly from pictures using the out-of-the-box 'New from picture' action on the Items page. The system automatically analyzes the uploaded image, suggests an appropriate item category and template, and populates item attributes, then creates the item with the picture attached.",
+  "summary": "Business Central has an out-of-the-box New from picture action, found under the arrow next to New on the Items page, that creates an item from an uploaded image. The image is analyzed to pick a fitting item category and suggest a template, the user fills in item attribute values, and on OK the item is created with the picture attached and a description based on the image file name.",
   "key_points": [
-    "Click the down arrow next to New on the Items page to access the 'New from picture' action",
-    "The system automatically analyzes the uploaded picture to suggest the most suitable category and template",
-    "Item attributes are populated automatically based on the image analysis and selected template",
-    "The item picture and auto-generated description are added automatically to the new item card"
+    "New from picture sits in the dropdown next to New on the Items page; first use asks for confirmation",
+    "The uploaded image is analyzed to choose a suitable item category and suggest a template; the category stays blank if nothing fits",
+    "The user completes the item attribute values before confirming, and these are saved with the new item",
+    "The new item gets the picture automatically, a description containing the source image name, and other fields from the chosen template"
   ],
   "systems": [
     "inventory"

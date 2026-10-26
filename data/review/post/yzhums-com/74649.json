@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/74649",
+  "input_hash": "289b88026bcd5cf6dde5688907d7ac568c3ab23de118ee4cf8dd6af14800c9d2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:51.430Z",
+  "issues": [
+    "Summary implies both new settings exist on both pages; the post shows Show Currency only on General Ledger Setup, with Currency Symbol Position on both.",
+    "Key point 3 overstates the split: Show Currency is global for LCY and FCY, only symbol position differs between General Ledger Setup (LCY) and Currencies (FCY).",
+    "Features Foreign Currency Display and Local Currency Configuration are not named in the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 2 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025275,
+    "posts_in_call": 4
+  }
+}

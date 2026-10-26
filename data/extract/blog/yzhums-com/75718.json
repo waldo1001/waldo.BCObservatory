@@ -7,16 +7,15 @@
   "words": 301,
   "summary": "Dynamics 365 Business Central 2026 release wave 2 (BC29) public preview environment is now available for testing. Administrators can create preview sandboxes in the Business Central admin center to evaluate new features before general availability, with the understanding that preview environments may be updated or deleted without notice.",
   "key_points": [
-    "Public preview for BC29 (release wave 2 2026) is available in the Business Central admin center",
-    "Preview environments are for testing only and cannot be updated to production versions",
-    "General availability date announced as 2027-10-02 for BC29",
-    "Preview environments may be updated to new versions or deleted without notice",
-    "Users must agree to preview terms before using preview sandboxes"
+    "The BC29 public preview is available, and preview sandboxes are created from the Business Central admin center",
+    "Preview sandboxes are for testing only, may be updated to newer previews or deleted with or without notice, and can never move to a production version",
+    "Preview build is W1 29.0, with platform 29.0.53948.0 and application 29.0.54011.54125",
+    "Using the preview means accepting the preview terms, and bugs go to the BC preview bug link",
+    "The post links further reading on major updates, preview environments and earlier BC29 preview posts"
   ],
   "systems": [
     "platform",
-    "administration",
-    "development"
+    "administration"
   ],
   "topics": [
     "preview environment",

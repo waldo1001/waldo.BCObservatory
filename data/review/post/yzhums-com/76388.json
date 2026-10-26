@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/yzhums-com/76388",
+  "input_hash": "80be473249df8b96112a1f67bceb8fa4cb1005df2ab7a2cabc4748437b453eeb",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:38:45.876Z",
+  "issues": [
+    "The runtime 18.0 requirement, the AS0141 rule, the property context warnings, CalcFormula support, the value ranges and the error on reverse conversion all match the post.",
+    "Both quotes appear in the post."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025303,
+    "posts_in_call": 4
+  }
+}

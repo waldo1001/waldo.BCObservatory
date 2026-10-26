@@ -1,0 +1,44 @@
+{
+  "item_id": "blog/yzhums-com/61818",
+  "page_id": "post/yzhums-com/61818",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "CurrPage.Close() method does not work in trigger OnOpenPage().",
+      "objects": [],
+      "events": [
+        "OnOpenPage"
+      ],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "This will open the Payment Terms page first, then the Payment Methods page (Sometimes the page cannot be opened and displays blank page).",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "breaking",
+      "quote": "Starting with Business Central 2025 wave 1 (BC26), this is no longer a problem, as we can extend the CardPageId Property.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "CardPageId Property"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC26"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003038,
+    "posts_in_call": 4
+  }
+}

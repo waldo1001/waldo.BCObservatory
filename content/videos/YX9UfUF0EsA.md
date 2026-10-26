@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:12.529Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -143,20 +143,20 @@ links:
       label: possibly related
       why: both name Page 31 "Item List"
       by: code
+    - to: post/yzhums-com/65326
+      title: "Dynamics 365 Business Central: How to bulk import marketing text to items – Customization"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
     - to: post/yzhums-com/73895
       title: "Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one"
       label: possibly related
       why: both name Page 31 "Item List"
       by: code
-    - to: video/jqVt0hYDfz0
-      title: "What's Cooking in Business Central: Delivering Analysis Views in AL Extensions"
+    - to: post/yzhums-com/65762
+      title: "Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL"
       label: possibly related
-      why: both name Page 9305 "Sales Order List"
-      by: code
-    - to: video/Rh1AFX9A1x4
-      title: "What's New: Data Analysis (2025 release wave 1)"
-      label: possibly related
-      why: both name Page 9305 "Sales Order List"
+      why: both name Page 31 "Item List"
       by: code
 video_id: YX9UfUF0EsA
 channel: yt-mibuso
@@ -566,8 +566,8 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../posts/yzhums-com/74458.md) — possibly related: both name Page 31 "Item List"
 - [Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page](../posts/yzhums-com/74476.md) — possibly related: both name Page 31 "Item List"
 - [Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page](../posts/yzhums-com/72069.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central: How to bulk import marketing text to items – Customization](../posts/yzhums-com/65326.md) — possibly related: both name Page 31 "Item List"
 - [Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one](../posts/yzhums-com/73895.md) — possibly related: both name Page 31 "Item List"
-- [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../videos/jqVt0hYDfz0.md) — possibly related: both name Page 9305 "Sales Order List"
-- [What's New: Data Analysis (2025 release wave 1)](../videos/Rh1AFX9A1x4.md) — possibly related: both name Page 9305 "Sales Order List"
+- [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../posts/yzhums-com/65762.md) — possibly related: both name Page 31 "Item List"
 
 Presenters (as heard): Anson, Yulia, Elia, Erdem, Julia, Poaje, Luke.

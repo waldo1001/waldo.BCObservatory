@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:03.176Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,6 +57,7 @@ links:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-24-30-2026--fa7b3b0afa
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c
+    - post/yzhums-com/71379
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -69,7 +70,7 @@ coverage:
   learn: 3
   code: 0
   video: 2
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 058bea00d9eccf8163bca3e01c4821b017c920fc8cb8f73c78958b8eb65a9717
@@ -130,6 +131,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Weekly Review: Business Central AL Development – May 24–30, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-24-30-2026--fa7b3b0afa.md) (community post): "Index Management page uses SQL DMV queries to help decide which indexes to disable"
 - [Business Central 2026 Release Wave 2: Turn SIFT Indexes On or Off](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9.md) (community post): "SIFT indexes maintain pre-calculated aggregate information using SQL indexed views"
 - [Manage Database Index Usage in Business Central.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c.md) (community post): "manage database indexes directly from the client without SQL access"
+- [Business Central 2026 release wave 1 (BC28): Manage database index usage and cost per company (View index and Turn off indexes)](../../../../posts/yzhums-com/71379.md) (community post): "view database index details in the UI and selectively disable non-unique indexes"
 - [What's New: Enhanced Index Management (2026 release wave 1)](../../../../videos/IAacWsvav1E.md) (video): "index management; database performance; storage optimization"
 - [Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?](../../../../videos/snVsG69X-kw.md) (video): "Database locks page; Database missing indexes page"
 

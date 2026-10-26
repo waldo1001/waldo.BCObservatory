@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:15.779Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,6 +77,7 @@ links:
     - post/jpearson-blog/1485
     - post/jpearson-blog/1535
     - post/jpearson-blog/1601
+    - post/yzhums-com/69818
   guidelines: []
   changes:
     - change/bcapps/8318
@@ -90,7 +91,7 @@ coverage:
   learn: 5
   code: 0
   video: 1
-  blog: 9
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: 5f81750627e96a1b61a6b2522a5843d9ff2fca65b2e2e1fb45389ef056851762
@@ -163,6 +164,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Calling Business Central APIs Without a Client Secret](../../../posts/jpearson-blog/1485.md) (community post): "Managed identities assigned to Azure resources can obtain access tokens without needing client secrets"
 - [Calling Business Central Directly from a Managed Identity](../../../posts/jpearson-blog/1535.md) (community post): "Azure resources to call Business Central APIs securely without creating or storing client secrets"
 - [Integration with Azure Static Web Apps from Business Central](../../../posts/jpearson-blog/1601.md) (community post): "Integration with Azure Static Web Apps from Business Central using the WebPageViewer control add-in"
+- [Business Central 2026 release wave 1 (BC28): Storing Document Attachments outside the database (No customization) – See benefits of external storage support for document attachments](../../../posts/yzhums-com/69818.md) (community post): "Attachments can be stored externally in SharePoint, Azure Blob Storage, Azure File Share, or SFTP"
 - [Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)](../../../videos/2vUCR16b85o.md) (video): "external file storage; azure blob storage; storage accounts"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

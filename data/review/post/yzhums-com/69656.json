@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/69656",
+  "input_hash": "1319fc45bacb8158a39e1a0705cba5e23a5271808b81fd6b8d137fbf5de4b28c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:21.552Z",
+  "issues": [
+    "The post is a personal reflection on the Dynamics 365 Community forum where the author answers Business Central questions. It ties to BC only loosely, but the summary is accurate.",
+    "The administration system has no support in the post, so I dropped it.",
+    "The listed features describe the community website, not Business Central product features, so I dropped them."
+  ],
+  "applied": [
+    "dropped 6 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.052458,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/62368",
+  "page_id": "post/yzhums-com/62368",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Please do not use OnBeforeInsertSalesOrderHeader event, it will cause the following error",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Sales-Quote to Order"
+        }
+      ],
+      "events": [
+        "OnBeforeInsertSalesOrderHeader"
+      ],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

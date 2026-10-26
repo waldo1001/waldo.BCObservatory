@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/72906",
+  "input_hash": "999525024b1b55cf6138c3eafb53d77f13b6a59c337f09a0d68dacdef51abca7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:14.576Z",
+  "issues": [
+    "Summary, key points, quotes and features match the post.",
+    "The integration system has no support in the post; the topic is installing extensions after an upgrade.",
+    "The feature name differs slightly from the extension name in the post, but it is still recognizable."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026437,
+    "posts_in_call": 4
+  }
+}

@@ -7,10 +7,11 @@
   "words": 255,
   "summary": "Business Central 2026 release wave 2 (BC29) extends ModuleInfo to expose app manifest metadata including Help, EULA, PrivacyStatement, and ContextSensitiveHelpUrl properties. These new properties enable developers to access application links and locale-aware help URLs at runtime.",
   "key_points": [
-    "ModuleInfo now exposes four new properties for accessing app manifest metadata at runtime",
-    "New properties include Help link, EULA link, PrivacyStatement link, and context-sensitive help URL with locale resolution",
-    "Runtime version 18.0 or later is required to use these ModuleInfo properties",
-    "ContextSensitiveHelpUrl automatically resolves the user's locale from the application's supported locales"
+    "BC29 adds Help, EULA, PrivacyStatement and ContextSensitiveHelpUrl properties to the ModuleInfo data type",
+    "These properties read app manifest links at runtime and need runtime version 18.0 or later",
+    "ContextSensitiveHelpUrl resolves the user's locale from the locales the app supports",
+    "In the author's public preview test, ContextSensitiveHelpUrl came back empty for the current app, possibly a preview issue",
+    "The example reads the info both for the current app and for the Base Application"
   ],
   "systems": [
     "development",

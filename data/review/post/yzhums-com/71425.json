@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/71425",
+  "input_hash": "4db3391cf3b2580ff48d964e0f54614afb39f61937a28dadabc5ae64f6286777",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:41.660Z",
+  "issues": [
+    "The summary said the new action replaces Get Receipt Lines. The post only says it is more flexible than that action, not a replacement.",
+    "Key points, quotes and objects are supported by the post."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026157,
+    "posts_in_call": 4
+  }
+}

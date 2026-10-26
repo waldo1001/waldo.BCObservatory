@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:59:36.338Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -91,55 +91,10 @@ links:
   posts: []
   guidelines: []
   related:
-    - to: post/gerardorenteria-blog/11565
-      title: AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)
+    - to: video/h6a8BVzvuZ4
+      title: "What's New: E-Documents and Clearance Model (2025 release wave 2)"
       label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: post/aardvarklabs-blog/2565
-      title: "Business Central 2027 release wave 1: Preparing for OData Endpoint Removal"
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: video/sIWz2yPqLpo
-      title: "Business Central BC29: Control Global Symbol Versions"
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: video/_JkZCp64jNw
-      title: Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: post/yzhums-com/70630
-      title: "Dynamics 365 Business Central: A universal method to check if a Field has a value in AL"
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: post/demiliani-com/12439
-      title: "Dynamics 365 Business Central: controlling the Summary system part."
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: post/yzhums-com/75649
-      title: "Dynamics 365 Business Central: How to quickly remove Non-Alphanumeric Characters in AL"
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: post/aardvarklabs-blog/1756
-      title: Effortless Layout Editing in Business Central
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: video/6zj34hjbpGU
-      title: How Business Central Integrates with Microsoft Excel (2025)
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: video/X3xygXmgRqU
-      title: How to Set Up Locations in Business Central (2025)
-      label: possibly related
-      why: both name Page 21 "Customer Card"
+      why: both name Page 132 "Posted Sales Invoice"
       by: code
 video_id: HjsOuhThGKk
 channel: yt-microsoft
@@ -307,15 +262,6 @@ Not found in BC28-30: page "statistics".
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
-- [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../posts/gerardorenteria-blog/11565.md) — possibly related: both name Page 21 "Customer Card"
-- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../posts/aardvarklabs-blog/2565.md) — possibly related: both name Page 21 "Customer Card"
-- [Business Central BC29: Control Global Symbol Versions](../videos/sIWz2yPqLpo.md) — possibly related: both name Page 21 "Customer Card"
-- [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../videos/_JkZCp64jNw.md) — possibly related: both name Page 21 "Customer Card"
-- [Dynamics 365 Business Central: A universal method to check if a Field has a value in AL](../posts/yzhums-com/70630.md) — possibly related: both name Page 21 "Customer Card"
-- [Dynamics 365 Business Central: controlling the Summary system part.](../posts/demiliani-com/12439.md) — possibly related: both name Page 21 "Customer Card"
-- [Dynamics 365 Business Central: How to quickly remove Non-Alphanumeric Characters in AL](../posts/yzhums-com/75649.md) — possibly related: both name Page 21 "Customer Card"
-- [Effortless Layout Editing in Business Central](../posts/aardvarklabs-blog/1756.md) — possibly related: both name Page 21 "Customer Card"
-- [How Business Central Integrates with Microsoft Excel (2025)](../videos/6zj34hjbpGU.md) — possibly related: both name Page 21 "Customer Card"
-- [How to Set Up Locations in Business Central (2025)](../videos/X3xygXmgRqU.md) — possibly related: both name Page 21 "Customer Card"
+- [What's New: E-Documents and Clearance Model (2025 release wave 2)](../videos/h6a8BVzvuZ4.md) — possibly related: both name Page 132 "Posted Sales Invoice"
 
 Presenters (as heard): Mike.

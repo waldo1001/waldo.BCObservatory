@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/70840",
+  "input_hash": "631dfdf3d6ef65be92a22e519f26151e0ae6809ee64f748dd5b33a6cdee13fc0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:55.432Z",
+  "issues": [
+    "Summary, key points and named objects are supported by the post and code.",
+    "Integration system and vendor integration feature are not supported; the post is a purchasing customization, not an integration.",
+    "Quote 2 normalizes punctuation slightly but keeps the meaning.",
+    "Table extensions on Purchase Header and Purchases & Payables Setup are not listed as objects; cannot be added with these edits."
+  ],
+  "applied": [
+    "dropped 1 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030116,
+    "posts_in_call": 4
+  }
+}

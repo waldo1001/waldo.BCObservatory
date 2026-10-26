@@ -1,0 +1,19 @@
+{
+  "item_id": "blog/yzhums-com/74473",
+  "input_hash": "ad098c0fee566dc80d589c923b19d720c5bcf2dca8634709c7936fefbf10f54a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:39:51.430Z",
+  "issues": [
+    "Content matches the post; the post does not show which call yields which output, but the summary stays at the level of the title. The page extension object is listed under a generic type, acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025275,
+    "posts_in_call": 4
+  }
+}

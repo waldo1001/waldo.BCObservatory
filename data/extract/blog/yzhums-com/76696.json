@@ -7,11 +7,11 @@
   "words": 1127,
   "summary": "Business Central 2026 wave 2 introduces new design components in the Word add-in for document reporting, allowing developers to create report layouts faster by inserting pre-built elements like addresses, field groups, amounts, signature lines, and notes with single clicks instead of manually building complex layouts.",
   "key_points": [
-    "Microsoft added design controls for common document report parts including addresses, field groups, amounts, signature lines, and notes",
-    "Design components can be inserted with single clicks, dramatically faster than building layouts manually or with RDLC",
-    "Word add-in version 3.0.0.0 is the latest version and should be installed from the Add-ins menu",
-    "Pre-built components arrive with example figures and layouts that developers can customize by replacing with actual data fields",
-    "New components include options like sender/receiver addresses, document information grids, calculation tables, and totals rows"
+    "The updated Word add-in for BC29 adds design components for common document parts: addresses, field groups, amounts, signature lines and notes.",
+    "Each component is inserted with a single click, which the author says RDLC layouts cannot do, so layout creation is much faster.",
+    "Install the latest Business Central add-in (version 3.0.0.0 rather than 2.0.4.0) from the Word Add-ins menu to get the Business Central ribbon tab.",
+    "Amounts components arrive with example figures to be replaced with data pane fields; signature lines are layout only, with no digital signing or encryption.",
+    "Notes components print free text of up to 10 lines on the report, unlike internal Business Central notes."
   ],
   "systems": [
     "reporting",
@@ -30,10 +30,6 @@
   "objects": [
     {
       "type": "report",
-      "name": "1305"
-    },
-    {
-      "type": "report",
       "name": "Standard Sales – Order Conf."
     }
   ],
@@ -44,8 +40,7 @@
     "Amounts tables",
     "Signature lines",
     "Notes sections",
-    "Document information layouts",
-    "Conditional visibility"
+    "Document information layouts"
   ],
   "versions": [
     "BC29",

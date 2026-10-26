@@ -7,14 +7,14 @@
   "words": 1312,
   "summary": "Business Central version 24 introduced barcode scanning APIs using control add-ins to replace .NET-based APIs, enabling developers to add scan actions and continuous scanning to custom pages via the CameraBarcodeScannerProviderAddIn control add-in.",
   "key_points": [
-    "Version 24 provides control add-in based APIs for barcode scanning, replacing deprecated .NET APIs",
-    "Use CameraBarcodeScannerProviderAddIn control add-in to add barcode scanning buttons and actions to custom pages",
-    "Implement BarcodeAvailable and BarcodeFailure event triggers to handle scan results and error cases",
-    "Call RequestBarcodeAsync() method to initiate single or continuous scanning; re-call in BarcodeAvailable trigger for continuous mode"
+    "Setting ExtendedDatatype to Barcode on a table or page field shows a scan button in the mobile app.",
+    "From version 24, the CameraBarcodeScannerProviderAddIn control add-in replaces the .NET barcode APIs, which were on-premises only, for custom scan actions.",
+    "Call RequestBarcodeAsync from an action and handle the ControlAddInReady, BarcodeAvailable and BarcodeFailure triggers.",
+    "Calling RequestBarcodeAsync again inside BarcodeAvailable turns on continuous scanning.",
+    "Example: a Sales Order action scans Lot No. barcodes and adds the matching item as sales lines."
   ],
   "systems": [
     "sales",
-    "warehouse",
     "development"
   ],
   "topics": [

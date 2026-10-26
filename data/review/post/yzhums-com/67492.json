@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/67492",
+  "input_hash": "028146b60f3a281fadf1a3b34c9a62fa42e8c7b849a5cc62e205ec5fc119e837",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:19.411Z",
+  "issues": [
+    "The post does not say BC26 CU05 introduces environment management in the Admin Center. That line is just a linked reference under the cloud heading.",
+    "The end-of-life date range is wrong. The modern policy table shows end dates from April 2021 to October 2026.",
+    "Quote 1 is only a link title and adds nothing, so I dropped it. I also dropped the environment management features."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 quote(s)",
+    "dropped 3 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034612,
+    "posts_in_call": 4
+  }
+}

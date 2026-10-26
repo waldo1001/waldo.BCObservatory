@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,11 +70,19 @@ links:
   localizations: []
   videos:
     - video/DRUr4byy8xQ
+    - video/MKuOgMWXJ_8
     - video/UQmuMPRlHek
   posts:
     - post/bertverbeek-nl/1263
     - post/demiliani-com/15935
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0
+    - post/yzhums-com/67462
+    - post/yzhums-com/68482
+    - post/yzhums-com/68484
+    - post/yzhums-com/70502
+    - post/yzhums-com/72431
+    - post/yzhums-com/74703
+    - post/yzhums-com/76396
   guidelines: []
   changes:
     - change/bcapps/11909
@@ -87,8 +95,8 @@ children: []
 coverage:
   learn: 5
   code: 3
-  video: 2
-  blog: 3
+  video: 3
+  blog: 10
   guideline: 0
 bc_forms:
   - 7771
@@ -138,7 +146,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 4 – troubleshooting](../../../posts/bertverbeek-nl/1263.md) (community post): "Use the Agent Consumption page to monitor credit usage"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
 - [BC Friday Tips #45 Hide Agents Icon](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0.md) (community post): "hide this icon by deactivating Agents in Copilot & agent capabilities"
+- [Business Central 2025 wave 2 (BC27): Understand how each Copilot and agent capability is billed (Billing Type)](../../../posts/yzhums-com/67462.md) (community post): "Billing Type column on the Copilot and Agent Capabilities page to clarify which AI capabilities are billed"
+- [Dynamics 365 Business Central: How to hide the Sales Order Agent and Payables Agent icons in the upper right corner](../../../posts/yzhums-com/68482.md) (community post): "Deactivate agents through the Copilot & agent capabilities page"
+- [Dynamics 365 Business Central: Regarding the cost of the Copilot/Agent features (Manage consumption-based billing for agent capabilities)](../../../posts/yzhums-com/68484.md) (community post): "Agent capabilities use consumption-based billing measured in Copilot Credits"
+- [Business Central 2025 wave 2 (BC27.4): Envision and design AI agents in Business Central (Custom Agent)](../../../posts/yzhums-com/70502.md) (community post): "The agent designer provides a guided wizard to create agents from scratch or templates"
+- [Dynamics 365 Business Central: How to monitor User AI Consumption Data within BC (Agent consumption overview)](../../../posts/yzhums-com/72431.md) (community post): "Business Central 27.5 allows users to track Copilot Credit consumption directly within"
+- [Business Central 2026 release wave 1 (BC28): Copilot and agent data movement across geographies](../../../posts/yzhums-com/74703.md) (community post): "controls for managing Copilot and agent data movement across Azure geographies"
+- [Dynamics 365 Business Central: How to turn off feedback on AI-generated content](../../../posts/yzhums-com/76396.md) (community post): "Administrators can disable Copilot feedback controls in Business Central"
 - [Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)](../../../videos/DRUr4byy8xQ.md) (video): "Getting Started With Agents: Agent Access Control"
+- [What's New: Sales Validation Sample Agent for Business Central](../../../videos/MKuOgMWXJ_8.md) (video): "agent setup; permissions; Task Tracking UI; Agent Credit Usage Tracking"
 - [What's New: Setting Up Copilot in Business Central - Tips for Admins (2024 release wave 2)](../../../videos/UQmuMPRlHek.md) (video): "Setting Up Copilot in Business Central; copilot setup; ai capabilities"
 
 ## Business Central pages and reports

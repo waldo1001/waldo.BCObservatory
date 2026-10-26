@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:42.119Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,7 +58,8 @@ links:
     - topic/business-central/business-functionality/service-management
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/71836
   guidelines: []
   changes:
     - change/bcapps/10129
@@ -76,7 +77,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 914eb680d273dddca1cbc41f40548f44a5987219dbdd6efff202e15098b2df69
@@ -122,5 +123,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10345 [Main][ALL-E]Issues with Service Contract Invoicing and Retrospective Billing--when the second unposted Service Invoice is deleted the values on the Service Contract are no longer reset--The "Invoiced to Date" field does not resetInitial commit](../../../../changes/bcapps/10345.md) (code change): "Invoiced to Date field on service contracts failed to reset"
 - [#10867 [29.x][ALL-E]Issues with Service Contract Invoicing and Retrospective Billing--when the second unposted Service Invoice is deleted the values on the Service Contract are no longer reset--The "Invoiced to Date" field does not resetInitial commit- #10345Initial commit](../../../../changes/bcapps/10867.md) (code change): "Fixed Service Contract invoicing to properly reset the Invoiced to Date field"
 - [#13183 [Master]-Service Order created from Service Contract does not populate header dimensions until Dimensions action is opened](../../../../changes/bcapps/13183.md) (code change): "Service orders created from service contracts now populate header dimensions automatically"
+- [Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting](../../../../posts/yzhums-com/71836.md) (community post): "creating contract service orders in bulk, enforcing that each service order"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

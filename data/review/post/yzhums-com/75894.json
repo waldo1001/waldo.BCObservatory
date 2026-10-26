@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/75894",
+  "input_hash": "5e2d2cf302f31937b9cd1bee341da1e992b952697b0026adda6cda0e340446bb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:08.630Z",
+  "issues": [
+    "Table extension key mixing is a separate feature the post only links to, so it is dropped.",
+    "The key points claimed the change needs no database tools and covers table extensions. The post supports neither claim, and it shows the queued message only for turning an index back on."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02621,
+    "posts_in_call": 4
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:37.084Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,10 @@ links:
   videos: []
   posts:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-07-july-2026-cumulative-updates-for-dynamics-365-business-central--36ef84971d
+    - post/nataliekarolak-com/3995
+    - post/yzhums-com/72089
+    - post/yzhums-com/72767
+    - post/yzhums-com/75216
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -72,7 +76,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 1
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: a2f92bceaf479bc775b034d22d378cbefa3e722b436187aa4531b067299c5c74
@@ -114,5 +118,9 @@ Start with the overview page, which explains the required upgrade paths, interme
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [July 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-july-2026-cumulative-updates-for-dynamics-365-business-central--36ef84971d.md) (community post): "cumulative updates released for different release waves and versions"
+- [Docs: What’s new in BC 28 for developers](../../../../posts/nataliekarolak-com/3995.md) (community post): "Business Central 28 introduces major developer features including semantic search on data"
+- [Major update of Dynamics 365 Business Central 2026 release wave 1 (BC28) is available for existing customers](../../../../posts/yzhums-com/72089.md) (community post): "BC28 (version 28.0) is the major update for 2026 release wave 1"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (May, 2026)](../../../../posts/yzhums-com/72767.md) (community post): "Version 28.1 released for 2026 Release Wave 1 with platform and application build numbers specified"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (August, 2026)](../../../../posts/yzhums-com/75216.md) (community post): "August 2026 cumulative updates are released for Business Central across versions 28, 27, and 26"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

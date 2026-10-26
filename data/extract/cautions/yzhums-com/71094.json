@@ -1,0 +1,44 @@
+{
+  "item_id": "blog/yzhums-com/71094",
+  "page_id": "post/yzhums-com/71094",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "The targetObjectId must be the same as the one you are extending.",
+      "objects": [
+        {
+          "type": "page",
+          "name": "page"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC28",
+        "2026 release wave 1"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "If your Analysis view contains fields other than the standard extensions, the following warning will appear.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Analysis view"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC28",
+        "2026 release wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004552,
+    "posts_in_call": 4
+  }
+}

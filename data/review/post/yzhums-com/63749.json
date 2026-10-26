@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/63749",
+  "input_hash": "0a47e7609dcca61839592626db8c2bce8606f288db1f5dfdecf464f53f689621",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.384Z",
+  "issues": [
+    "Codeunit 501 is mentioned in the excerpt of the post on importing files from OneDrive.",
+    "All three quotes are article titles found in the post.",
+    "The features and summary match the listed articles on Graph API, Power Automate and native OneDrive features."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

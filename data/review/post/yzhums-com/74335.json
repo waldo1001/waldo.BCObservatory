@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/74335",
+  "input_hash": "61f990a6d8566990a2f45cd16e680db0b2e1fc5484f517d46ef63f30ef478b98",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:50.979Z",
+  "issues": [
+    "Administration system is not supported; the post is a pure AL development tip.",
+    "Extension objects are typed as other rather than pageextension and tableextension, but names are correct so kept."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.038699,
+    "posts_in_call": 4
+  }
+}

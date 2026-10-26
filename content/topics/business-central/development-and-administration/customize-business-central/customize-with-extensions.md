@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:28.193Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -297,6 +297,7 @@ links:
   videos: []
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
+    - post/yzhums-com/72906
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -309,7 +310,7 @@ coverage:
   learn: 26
   code: 61
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 30
@@ -501,6 +502,7 @@ Start with "Customizing Business Central online using apps" and "Install and uni
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "per-tenant extensions, all reviewed on the admin center Manage Apps page"
+- [Dynamics 365 Business Central: Newly added standard extensions missing in upgraded environments (Uninstalled apps will now remain uninstalled)](../../../../posts/yzhums-com/72906.md) (community post): "Partners must manually install missing extensions using direct URLs or AppSource"
 
 ## Business Central pages and reports
 

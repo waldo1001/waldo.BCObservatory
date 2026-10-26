@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/63801",
+  "input_hash": "081ce196ba126c21f591f2a77278851d5c09c877da26d21b1314d221a874e9e1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.384Z",
+  "issues": [
+    "The object 'query API query type' is not a named AL object. The post only gives the API query type as a development approach, so it is dropped.",
+    "Codeunit 501 OAuth2 is named in the post, so it stays.",
+    "Both quotes appear in the post text, and the summary, key points and features match the article list."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

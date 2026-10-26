@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:57:58.506Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-26T05:51:10.938Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -57,6 +57,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/yzhums-com/66675
+      title: "Dynamics 365 Business Central: “There is nothing to post because the journal does not contain a quantity or amount” when posting Recurring Journals"
+      label: possibly related
+      why: both name Codeunit 13 "Gen. Jnl.-Post Batch"
+      by: code
 post_id: https://thatnavguy.com/blog/2025/bc-friday-tips-59-allocation-account-design/
 source_id: thatnavguy-com
 source_name: That NAV Guy
@@ -114,6 +120,12 @@ As named in the post. A name that matches one object page by exact type and name
 
 - [codeunit 2677 "Gen. Journal Alloc. Acc. Mgt."](../../objects/codeunit/2677.md)
 - [codeunit 13 "Gen. Jnl.-Post Batch"](../../objects/codeunit/13.md)
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Dynamics 365 Business Central: “There is nothing to post because the journal does not contain a quantity or amount” when posting Recurring Journals](../../posts/yzhums-com/66675.md) — possibly related: both name Codeunit 13 "Gen. Jnl.-Post Batch"
 
 ## Context
 

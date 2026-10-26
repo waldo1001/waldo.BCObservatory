@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.316Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,6 @@ links:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor
   localizations: []
   videos:
-    - video/-q8Gm7u7R2A
     - video/EVntnDFE1R4
     - video/T63y0F_38SI
     - video/V_ZyGeF5JXE
@@ -74,6 +73,7 @@ links:
   posts:
     - post/aardvarklabs-blog/3631
     - post/aardvarklabs-blog/3704
+    - post/yzhums-com/61951
   guidelines: []
   changes:
     - change/bcapps/10010
@@ -87,8 +87,8 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 5
-  blog: 2
+  video: 4
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: d83985e3f53052e05e48c65c878b806990be809f7b8b581f42a7ef7809a3e59f
@@ -132,7 +132,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "allowing Power Platform and OData clients to discover and download"
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Use Power Automate to retrieve SFTP files and post them to Business Central via the API"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "Power Automate listens for the business event, retrieves the file and metadata from the staging table"
-- [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../../videos/-q8Gm7u7R2A.md) (video): "power automate; data change events; business events"
+- [Dynamics 365 Business Central: How to disable/hide Power Automate action group for all users](../../../../posts/yzhums-com/61951.md) (community post): "Disable the Power Automate action group for all Business Central users"
 - [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../../videos/EVntnDFE1R4.md) (video): "power automate; power apps; dataverse; virtual tables; business events"
 - [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; Power Automate Templates for Business Central"
 - [What's New: Business Central Integration with Power Platform](../../../../videos/V_ZyGeF5JXE.md) (video): "Power Automate; approval workflows; connector actions; power platform"

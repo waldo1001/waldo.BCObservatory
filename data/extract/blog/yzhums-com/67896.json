@@ -7,10 +7,11 @@
   "words": 949,
   "summary": "Business Central 2025 wave 2 introduces an automation API that allows tenant administrators to manage Feature Management switches programmatically. This capability enables automating feature switch settings across multiple companies and environments through API endpoints, reducing manual effort and ensuring consistent configurations.",
   "key_points": [
-    "Tenant admins can get a list of feature switches, check individual feature states, and activate or deactivate features using the new APIV2 Feature Management automation API",
-    "The API uses bound actions (Activate and Deactivate) that require specific parameters like updateInBackground and startDateTime for activation",
-    "API endpoints follow the pattern https://api.businesscentral.dynamics.com/v2.0/{tenant-id}/{environment-name}/api/microsoft/automation/v2.0/ and require a company parameter",
-    "Delegated admin credentials and Business Central users with appropriate permissions can call the API, and the FEATURE MGT. - ADMIN permission set must be assigned"
+    "Tenant admins can list feature switches, read a single switch's state, and activate or deactivate a switch through the new automation API",
+    "The endpoint is under the automation v2.0 API, needs the company parameter, and single features are addressed by their ID in quotes; batch requests are not possible",
+    "Activate and Deactivate are bound actions, and Activate needs the updateInBackground and startDateTime parameters",
+    "Running an action on a feature already in that state returns an error",
+    "If a permission error appears, add the FEATURE MGT. - ADMIN permission set to the app in the Microsoft Entra Application Card"
   ],
   "systems": [
     "administration",
@@ -39,7 +40,6 @@
     "Automation API for Feature Management",
     "Feature switch activation via API",
     "Feature switch deactivation via API",
-    "Bulk feature configuration across companies",
     "API-based tenant administration"
   ],
   "versions": [

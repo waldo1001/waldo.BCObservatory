@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:21.103Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,7 @@ links:
   videos:
     - video/-_TaZY2Clh0
     - video/1xdpUmeun-s
+    - video/JI5KlMxrtoA
     - video/lpwDSdEJrIQ
     - video/qABlX4AL3GM
   posts:
@@ -60,6 +61,12 @@ links:
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1
     - post/waldo-be/317845
+    - post/yzhums-com/67858
+    - post/yzhums-com/68433
+    - post/yzhums-com/75894
+    - post/yzhums-com/76233
+    - post/yzhums-com/76505
+    - post/yzhums-com/76518
   guidelines: []
   changes:
     - change/bcquality/134
@@ -83,8 +90,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 4
-  blog: 13
+  video: 5
+  blog: 19
   guideline: 0
 bc_forms: []
 member_hash: 87e0401ecfb45548d0ce9048fe69d8ae348b7da98d89e7045ac6d9370b225de2
@@ -148,8 +155,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "Every added index increases insert or update time by 10-20%"
 - [BC Friday Tips #30 DataAccessIntent](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1.md) (community post): "The DataAccessIntent property can be set to ReadOnly on API pages and reports"
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../../../posts/waldo-be/317845.md) (community post): "Performance tracking via start/stop markers on custom methods enables comparison"
+- [Business Central 2025 wave 2 (BC27): Add LockTimeoutDuration allow increasing/lowering lock timeout instead of only disabling/enabling it (New Database.LockTimeoutDuration Method)](../../../../../posts/yzhums-com/67858.md) (community post): "New Database.LockTimeoutDuration method gets or sets lock timeout duration"
+- [Business Central 2025 wave 2 (BC27): Create a new sequential unique GUID (Guid.CreateSequentialGuid Method)](../../../../../posts/yzhums-com/68433.md) (community post): "Sequential GUIDs perform better when used as table keys due to partial sequencing"
+- [Business Central 2026 release wave 2 (BC29): Administrators can turn SIFT (SumIndexField Technology) indexes on/off](../../../../../posts/yzhums-com/75894.md) (community post): "SIFT indexes optimize performance of FlowFields and query results"
+- [Business Central 2026 release wave 2 (BC29): Control transaction isolation for queries and isolated storage (Query ReadState supports ReadCommitted)](../../../../../posts/yzhums-com/76233.md) (community post): "improving performance over locked read modes"
+- [Business Central 2026 release wave 2 (BC29): Faster data loading with improved data model for table extensions (all fields on an AL table are stored in the same table)](../../../../../posts/yzhums-com/76505.md) (community post): "consolidates all table extension fields into a single physical database table"
+- [Business Central 2026 release wave 2 (BC29): AL developers can turn indexes on/off in AL code](../../../../../posts/yzhums-com/76518.md) (community post): "AL developers can now programmatically enable and disable database indexes"
 - [Concurrency in Business Central: Parallel processes without deadlocks and timeouts](../../../../../videos/-_TaZY2Clh0.md) (video): "Concurrency in Business Central: Parallel processes without deadlocks and timeouts"
 - [Business Central Under the Hood episode 12: Evolving AL for Performance](../../../../../videos/1xdpUmeun-s.md) (video): "Evolving AL for Performance optimization data transfer set load fields"
+- [How Good Can AL Code Get? — A Live ISO 5055 Review](../../../../../videos/JI5KlMxrtoA.md) (video): "Read Isolation and Concurrency Rule; Lock release on variable scope"
 - [Business Central Under the Hood episode 5: How To Make Your AL Code Super Fast](../../../../../videos/lpwDSdEJrIQ.md) (video): "al code performance; database optimization; sql queries; indexing; caching"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../../videos/qABlX4AL3GM.md) (video): "Improved database operation performance for extensions; Partial record loading with set load field"
 

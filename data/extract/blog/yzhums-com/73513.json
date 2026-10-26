@@ -7,11 +7,11 @@
   "words": 659,
   "summary": "Business Central 2026 wave 1 introduces automated excise tax calculation for products and services across different regions. The feature provides a flexible framework supporting various tax bases like weight, volume, and alcohol content, helping businesses comply with tax regulations and reduce calculation errors.",
   "key_points": [
-    "Excise taxes automate complex calculations for specific goods and services based on regional regulations",
-    "Configuration requires setting up excise tax types with tax basis options including weight, volume, quantity, sugar content, and alcohol volume",
-    "Excise entry types must be configured to specify which item ledger entry types contribute to taxable quantities",
-    "Items and fixed assets are linked to excise tax types through the Item Card with unit of measure and quantity specifications",
-    "Excise Journal automatically generates tax entries based on item ledger entries and calculates amounts using configured duty rates"
+    "The excise tax framework automates duty calculation by product and region; the first release has no statutory reports",
+    "Excise tax types define a tax basis such as weight, volume, quantity, sugar content, alcohol volume or active content",
+    "Excise entry types decide which item ledger entry types (purchase, sale, adjustments, output) count toward the taxable quantity, and duty rates set the final amount",
+    "Items get an excise tax type, an excise unit of measure and a quantity for excise tax on the Excise Tax tab of the Item Card",
+    "The Excise Journal generates entries from item ledger quantities for a date range; registered entries appear in Excise Taxes Transaction Logs"
   ],
   "systems": [
     "finance",

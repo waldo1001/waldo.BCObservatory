@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/71304",
+  "input_hash": "8873cad1c5365e5c93f8f2f629ce05cba7f956bf6496f2b639855c1d849ea40e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:48.550Z",
+  "issues": [
+    "Key point 2 says both Order Planning and Planning Worksheet got a new drop shipment action group; the post gives the action group only to the Planning Worksheet, while Order Planning simply includes drop shipment lines when calculating a plan.",
+    "Summary overstates Order Planning changes in the same way.",
+    "Quotes, systems and features are supported."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030519,
+    "posts_in_call": 4
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:51.589Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,7 @@ links:
   videos: []
   posts:
     - post/aardvarklabs-blog/2523
+    - post/yzhums-com/68731
   guidelines: []
   changes:
     - change/bcquality/207
@@ -75,7 +76,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 8b015f2762d8fcd39a462fec3dc0a0cb94bc1955747bf63ec1f60e80132c978f
@@ -118,5 +119,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#207 2 AL/BC UI patterns: client-expression in-list (AL0573) and Role Center AccessByPermission](../../../../../changes/bcquality/207.md) (code change): "AccessByPermission for permission gating on Role Centers"
 - [Step-by-Step Guide to Page Customizations for Business Central in AL](../../../../../posts/aardvarklabs-blog/2523.md) (community post): "Page customization objects in AL change a page's layout for a specific profile"
+- [Dynamics 365 Business Central: How to get current Profile (Role) info (Profile ID, Display Name, Source, Role Center ID, etc.) via AL](../../../../../posts/yzhums-com/68731.md) (community post): "retrieve current user profile information including Profile ID, Display Name"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

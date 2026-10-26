@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:15:37.246Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -145,18 +145,18 @@ links:
       label: possibly related
       why: both name Page 118 "General Ledger Setup"
       by: code
-    - to: video/kuKwjRyNcoE
-      title: Ensure Consistency in Journals With Journal Check
+    - to: post/yzhums-com/65762
+      title: "Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL"
       label: possibly related
-      why: both name Page 118 "General Ledger Setup"
+      why: both name Table 23 "Vendor"
       by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers
-      title: Enterprise Numbers and Branch Numbers [BE]
+    - to: post/yzhums-com/64265
+      title: "Dynamics 365 Business Central: How to restrict certain tables from importing data through Configuration Package"
       label: possibly related
-      why: names Table 5050 "Contact"
+      why: both name Table 3 "Payment Terms"
       by: code
-    - to: post/aardvarklabs-blog/2866
-      title: Importing XML into Business Central with AL
+    - to: post/yzhums-com/68658
+      title: "Dynamics 365 Business Central: How to set the minimum and maximum numeric values ​​for a field"
       label: possibly related
       why: both name Table 23 "Vendor"
       by: code
@@ -378,8 +378,8 @@ No source states these links: they share an object, a model read them, or a pers
 - [Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)](../videos/V2mfuDh8Kfk.md) — possibly related: both name Page 118 "General Ledger Setup"
 - [Control When People Can Post to the General Ledger](../videos/5zXQ_aIT03s.md) — possibly related: both name Page 118 "General Ledger Setup"
 - [Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?](../posts/thedynamicsexplorer-com/37202.md) — possibly related: both name Page 118 "General Ledger Setup"
-- [Ensure Consistency in Journals With Journal Check](../videos/kuKwjRyNcoE.md) — possibly related: both name Page 118 "General Ledger Setup"
-- [Enterprise Numbers and Branch Numbers \[BE\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers) — possibly related: names Table 5050 "Contact"
-- [Importing XML into Business Central with AL](../posts/aardvarklabs-blog/2866.md) — possibly related: both name Table 23 "Vendor"
+- [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../posts/yzhums-com/65762.md) — possibly related: both name Table 23 "Vendor"
+- [Dynamics 365 Business Central: How to restrict certain tables from importing data through Configuration Package](../posts/yzhums-com/64265.md) — possibly related: both name Table 3 "Payment Terms"
+- [Dynamics 365 Business Central: How to set the minimum and maximum numeric values ​​for a field](../posts/yzhums-com/68658.md) — possibly related: both name Table 23 "Vendor"
 
 Presenters (as heard): Ian ktic, Sandy.

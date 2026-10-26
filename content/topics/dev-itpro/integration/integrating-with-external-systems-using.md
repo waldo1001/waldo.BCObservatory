@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,6 +45,7 @@ links:
     - video/S5Xw-b8YF-c
   posts:
     - post/aardvarklabs-blog/2907
+    - post/yzhums-com/65857
   guidelines: []
   changes:
     - change/bcapps/10437
@@ -74,7 +75,7 @@ coverage:
   learn: 2
   code: 0
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 7b01fcfd0114917bb1dd15f243b051ffc89de365454052135af57f304ef9685e
@@ -134,6 +135,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9124 [E-Document] [Payables Agent] Users can personalize-in the Name column on the draft page](../../../changes/bcapps/9124.md) (code change): "New OnAfterGetMatchedEntityName integration event for connector apps"
 - [#9208 [Enforced Digital Vouchers] - Attaching EDocuments when using Digital Vouchers](../../../changes/bcapps/9208.md) (code change): "Attaching EDocuments when using Digital Vouchers"
 - [Debugging Business Event Subscriptions in Business Central](../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Central has hidden pages for debugging Business Event Subscriptions (which function as web hooks)"
+- [Dynamics 365 Business Central: How to deprecate external business events (ExternalBusinessEvent)](../../../posts/yzhums-com/65857.md) (community post): "External business events enable Business Central to notify and trigger actions in external systems like Dataverse and Power Automate"
 - [What's New: APIs in E-Documents (2025 release wave 2)](../../../videos/S5Xw-b8YF-c.md) (video): "E-Document Business Events; E-Document Export via Business Events"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

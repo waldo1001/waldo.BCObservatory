@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:39.920Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -380,6 +380,8 @@ links:
     - video/rAaUiKByyEE
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6634996257036493772--55ed189793
+    - post/yzhums-com/68975
+    - post/yzhums-com/71493
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -395,7 +397,7 @@ coverage:
   learn: 61
   code: 64
   video: 2
-  blog: 1
+  blog: 3
   guideline: 0
 bc_forms:
   - 101
@@ -518,6 +520,8 @@ Subtopics go deeper. The Power BI Sales app describes its reports, semantic mode
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [You can't see your stale documents, and that's why they're stale](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6634996257036493772--55ed189793.md) (community post): "Consolidates sales quotes, orders, and unposted invoices into one read-only view"
+- [Business Central 2025 wave 2 (BC27.1): Demo analytics with new enhanced demo data](../../../../posts/yzhums-com/68975.md) (community post): "enriched dataset enables demonstration of end-to-end business processes"
+- [Business Central 2026 release wave 1 (BC28): Enhanced demo data for sales, purchasing, and fixed assets analytics](../../../../posts/yzhums-com/71493.md) (community post): "sales, purchasing, and fixed assets analytics. Business Central 2026 wave 1"
 - [What's New: Enhanced Sales Analytics (2026 release wave 1)](../../../../videos/fJGY6d-2lO8.md) (video): "customer retention; churn analysis; abc analysis; power bi; sales analytics"
 - [What's New: Sales Analytics (2025 release wave 2)](../../../../videos/rAaUiKByyEE.md) (video): "Modernized analytical reports; Customer item sales report"
 

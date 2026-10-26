@@ -14,8 +14,7 @@
     "Using OnBeforeInsertSalesOrderHeader event causes transaction lock errors due to Form.RunModal restrictions, so OnCreateSalesHeaderOnBeforeSalesOrderLineLockTable is the correct approach."
   ],
   "systems": [
-    "sales",
-    "integration"
+    "sales"
   ],
   "topics": [
     "customization",

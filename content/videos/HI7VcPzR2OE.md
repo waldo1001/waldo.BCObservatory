@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:10:16.959Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -118,6 +118,11 @@ links:
       label: possibly related
       why: both name Page 39 "General Journal"
       by: code
+    - to: post/yzhums-com/56521
+      title: "Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page"
+      label: possibly related
+      why: both name Page 39 "General Journal"
+      by: code
     - to: post/thedynamicsexplorer-com/8821
       title: Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View
       label: possibly related
@@ -142,11 +147,6 @@ links:
       title: "What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)"
       label: possibly related
       why: both name Page 16 "Chart of Accounts"
-      by: code
-    - to: video/RaiQPiEdvbg
-      title: "What's New: Post Emissions with the General Journal (2025 release wave 1)"
-      label: possibly related
-      why: both name Page 39 "General Journal"
       by: code
 video_id: HI7VcPzR2OE
 channel: yt-microsoft
@@ -325,11 +325,11 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../posts/thedynamicsexplorer-com/10232.md) — possibly related: both name Page 39 "General Journal"
 - [Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)](../posts/yzhums-com/70554.md) — possibly related: both name Page 16 "Chart of Accounts"
 - [Dynamics 365 Business Central: How to copy (synchronize) the Incoming Document to all Gen. Journal Lines](../posts/yzhums-com/71645.md) — possibly related: both name Page 39 "General Journal"
+- [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../posts/yzhums-com/56521.md) — possibly related: both name Page 39 "General Journal"
 - [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../posts/thedynamicsexplorer-com/8821.md) — possibly related: both name Page 16 "Chart of Accounts"
 - [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 16 "Chart of Accounts"
 - [Historical Snapshot (2024)](../videos/mZNfMPpxovE.md) — possibly related: both name Page 16 "Chart of Accounts"
 - [What's New: Enhancements to Copilot Summaries (2025 release wave 2)](../videos/q0TxpWfm9rc.md) — possibly related: both name Page 16 "Chart of Accounts"
 - [What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)](../videos/u1oO9MEg9kc.md) — possibly related: both name Page 16 "Chart of Accounts"
-- [What's New: Post Emissions with the General Journal (2025 release wave 1)](../videos/RaiQPiEdvbg.md) — possibly related: both name Page 39 "General Journal"
 
 Presenters (as heard): Brian Neilson.

@@ -7,10 +7,11 @@
   "words": 768,
   "summary": "Business Central 2025 wave 2 introduces a new AL Namespace field in object metadata tables (AllObj, AllObjWithCaption, Page Metadata, Report Metadata, and Codeunit Metadata), enabling developers to discover and filter namespace information that was previously unavailable in system tables.",
   "key_points": [
-    "AL Namespace field added to five key metadata tables for storing namespace information",
-    "Namespaces help segment AL code and reduce naming conflicts, available since BC23 wave 2",
-    "Object metadata tables are used for object discovery, navigation, and administrative purposes",
-    "Previous versions could not export namespaces as the field was not stored in any table"
+    "BC27 adds an AL Namespace field to AllObj, AllObjWithCaption, Page Metadata, Report Metadata and CodeUnit Metadata",
+    "AL namespaces, introduced in Business Central 2023 wave 2 (runtime 12.0), help segment code and avoid naming conflicts",
+    "Before BC27, namespaces could not be exported because no table stored them",
+    "The new field can be read directly in the tables or filtered and processed from AL code",
+    "Microsoft also added descriptive summaries for these metadata tables and fields"
   ],
   "systems": [
     "development",

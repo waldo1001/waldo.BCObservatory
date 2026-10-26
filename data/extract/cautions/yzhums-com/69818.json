@@ -1,0 +1,49 @@
+{
+  "item_id": "blog/yzhums-com/69818",
+  "page_id": "post/yzhums-com/69818",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "You are responsible for the configuration, security, compliance, backup, and recovery of all externally stored files.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28",
+        "BC28"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Microsoft does not manage, back up, or restore data stored in external storage.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "28",
+        "BC28"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "This extension is not automatically installed in upgraded environments.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "External Storage – Document Attachments"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "28",
+        "BC28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005803,
+    "posts_in_call": 4
+  }
+}

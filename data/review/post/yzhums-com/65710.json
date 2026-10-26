@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/65710",
+  "input_hash": "508279d95cfa7405aa4cfca4e0b21423b95034714f11cc4d057482b2d8fc15fb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:45.010Z",
+  "issues": [
+    "The summary, key points, versions and quotes match the post's build numbers and lifecycle dates.",
+    "The development system rests only on a passing link to the AL Language changelog. The post is about update releases, not development, so I dropped it.",
+    "Quote 1 uses a plain hyphen where the post has a dash. The wording is otherwise accurate, so I kept it."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02445,
+    "posts_in_call": 4
+  }
+}

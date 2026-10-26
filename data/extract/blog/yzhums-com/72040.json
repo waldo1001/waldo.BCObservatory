@@ -5,16 +5,15 @@
   "source": "yzhums-com",
   "published_at": "2026-07-17T01:49:49.000Z",
   "words": 369,
-  "summary": "Business Central provides built-in fields to track a customer's first transaction date and calculate days since their last sale without custom code. Use the Customer Statistics page or extend the Customer List with standard fields like First Transaction Date and DaysSinceLastSale.",
+  "summary": "The Customer Statistics page (Customer > Statistics, then Show more) shows a customer's first transaction date and the days since the last sale without any code. First Transaction Date is a standard field on table 18 Customer, while Days Since Last Sale is only a variable on page 151, so the post gives a page extension that adds both to the Customer List.",
   "key_points": [
-    "First Transaction Date is a standard field in the Customer table (table 18) that shows when a customer made their first purchase",
-    "Days Since Last Sale automatically calculates the interval between the current work date and the customer's most recent sale posting date",
-    "Access this information via Customer > Statistics on the Customer List or Customer Card without writing code",
-    "You can add these fields to other pages like the Customer List using page extensions for easier visibility"
+    "Open Customer > Statistics from the Customer List or Card and choose Show more; Customer Since and Lifetime (since) show the first transaction date",
+    "The Days Since Last Sale value on the statistics page counts days since the customer's last purchase",
+    "First Transaction Date is a standard field on the Customer table; DaysSinceLastSale is a page variable, not a table field",
+    "A sample page extension adds both to the Customer List, computing days as work date minus the posting date of the latest non-reversed customer ledger entry with positive sales, with drill-down to that entry"
   ],
   "systems": [
-    "sales",
-    "crm"
+    "sales"
   ],
   "topics": [
     "customer insights",

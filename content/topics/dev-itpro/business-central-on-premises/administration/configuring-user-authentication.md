@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 01907d05d59c07b0c7c47d78e0af9b157d9cafeed447f76cfa64b3bce7ef312c
@@ -63,7 +63,8 @@ links:
     - topic/dev-itpro/business-central-on-premises/administration/configuring-user-authentication/authenticating-with-microsoft-entra-id
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/67043
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -77,7 +78,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 01907d05d59c07b0c7c47d78e0af9b157d9cafeed447f76cfa64b3bce7ef312c
@@ -109,5 +110,11 @@ Path: [Business Central on-premises](../../business-central-on-premises.md) > [A
   - In the observatory: [Page 9800 "Users"](../../../../objects/page/9800.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central: Quickly find the Tenant ID, Azure AD Instance, and Tenant Scope from the domain (tenant) name without signing in](../../../../posts/yzhums-com/67043.md) (community post): "find the Tenant ID, Azure AD Instance, and Tenant Scope"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

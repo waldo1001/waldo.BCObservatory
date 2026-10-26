@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/75931",
+  "input_hash": "867290c029ab1a83e520ab11eb09b0b6fac393bcffcb42d01b9fb66712edaff4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:08.630Z",
+  "issues": [
+    "Object 'page page' is a placeholder, not an object named in the post.",
+    "The key point saying the behavior mirrors table fields is wrong. The post only says it mirrors reports. Table field and query column tooltips appear only as related links."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02621,
+    "posts_in_call": 4
+  }
+}

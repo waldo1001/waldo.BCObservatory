@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/61561",
+  "input_hash": "589b8dae0681e726694a9332b597f399e23a24e8ff193bd47d7476493f803046",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.221Z",
+  "issues": [
+    "First key point called loops the least efficient; the post only says they are not the most efficient but work in any situation."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

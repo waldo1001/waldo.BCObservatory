@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/69433",
+  "input_hash": "537d9dac37e7ec5893a92891e3ce624c7ee8436093a8a416c698045d37bd3433",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:21.552Z",
+  "issues": [
+    "The summary, key points, quotes and systems are all supported by the post.",
+    "'Filter synchronization' is not a feature the post names. The post only says that Excel keeps the page filters, so I dropped it."
+  ],
+  "applied": [
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.052458,
+    "posts_in_call": 4
+  }
+}

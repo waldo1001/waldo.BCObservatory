@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:56.195Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,7 +74,9 @@ links:
     - topic/dev-itpro/development/troubleshooting
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/nataliekarolak-com/3628
+    - post/yzhums-com/68854
   guidelines: []
 learn_toc_path:
   - Development
@@ -87,7 +89,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 9da1fe15b2f204fe13ee3995e8174dab30aa920160aa61853ce3b3395b01e924
@@ -128,5 +130,12 @@ Start with Debug AL Code in Visual Studio Code for general errors, or with the A
   - In the observatory: [Codeunit 80 "Sales-Post"](../../../../objects/codeunit/80.md)
 - [Troubleshooting Printing](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshoot-printing): Dynamics 365 Business Central supports different types of events including BusinessEvent, IntegrationEvent, Global, and trigger events.
   - In the observatory: [Page 64 "Printer Selections"](../../../../objects/page/64.md)
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Help, I don’t get any AL warnings in the Output tab!](../../../../posts/nataliekarolak-com/3628.md) (community post): "AL warnings may appear missing from the Output tab in VS Code"
+- [Dynamics 365 Business Central Blog Series: Debugging in AL](../../../../posts/yzhums-com/68854.md) (community post): "AL debugging techniques in Dynamics 365 Business Central, including snapshot"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

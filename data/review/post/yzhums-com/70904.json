@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/70904",
+  "input_hash": "9236125151241a8c4d98b810e2b49af2b048d71763ec870e27dfe0b771d2dee5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:55.432Z",
+  "issues": [
+    "Summary and key points reflect the deprecations described in the post.",
+    "The listed object is an API name, not an AL object named in the post; dropped.",
+    "Quote 3 trims the start of a sentence in the post but keeps its meaning."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030116,
+    "posts_in_call": 4
+  }
+}

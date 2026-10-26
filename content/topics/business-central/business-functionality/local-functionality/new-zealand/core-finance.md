@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:42.900Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,7 +50,8 @@ links:
     - topic/business-central/business-functionality/local-functionality/new-zealand
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/73564
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -64,7 +65,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: a3b53e6b8e4089afdacdc458e06367065e17f74bef8be3497db8a7e958d92674
@@ -99,5 +100,11 @@ Start with the balance sheet or income statement page if you need to produce rep
 - [Calculating distribution amounts [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/calculating-distribution-amounts): Learn how to maintain account balances in proportion by reallocating amounts between general ledger accounts.
 - [Print Balance Sheet Reports [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-balance-sheet-reports): Learn how to print the company's balance sheet report in the New Zealand version of Business Central
 - [Print Income Statements [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-income-statements): Learn how to print the company's annual income statement in a report in the New Zealand version of Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central 2026 release wave 1 (BC28.1): Enable Investment Boost for fixed assets (Bonus Depreciation Method)](../../../../../posts/yzhums-com/73564.md) (community post): "streamlines compliance with front-loaded investment incentive schemes like New Zealand's rules"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

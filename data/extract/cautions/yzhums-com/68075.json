@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/68075",
+  "page_id": "post/yzhums-com/68075",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "The values that date methods return for blank fields differ by product version.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004174,
+    "posts_in_call": 4
+  }
+}

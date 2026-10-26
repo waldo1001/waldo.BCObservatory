@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/yzhums-com/69681",
+  "page_id": "post/yzhums-com/69681",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "Configuration packages for setup and evaluation data has been deprecated.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC25.3"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "Support for SOAP endpoints is deprecated.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC26"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006273,
+    "posts_in_call": 4
+  }
+}

@@ -7,15 +7,15 @@
   "words": 652,
   "summary": "Business Central 2025 wave 2 (BC27) adds SQL call visibility to performance profiles in both the in-client profiler and Visual Studio Code, enabling developers and consultants to diagnose whether performance issues stem from AL code or database queries without direct SQL access.",
   "key_points": [
-    "Performance profiles now display actual SQL calls made during profiling with query details visible on hover and copyable text",
-    "This enhancement helps identify if performance problems are due to inefficient AL code or problematic SQL queries",
-    "Scheduled profiles in the performance overview show total SQL call duration, number of calls, and platform call duration",
-    "Feature builds on earlier profiling capabilities added in BC19 (Visual Studio Code profiler), BC20 (in-client profiler), and BC24 (rule-based scheduling)"
+    "Performance profiles now show the SQL calls made during profiling, and you can hover over a query and copy it",
+    "This helps tell whether slow performance comes from AL code or from the SQL calls it generates",
+    "For scheduled profiles, the Performance Profiles overview shows the duration of captured SQL calls in partner code, the number of SQL calls, and the duration of platform calls",
+    "Works in the web client's in-client profiler and in snapshots captured from Visual Studio Code",
+    "Builds on the VS Code profiler (BC19), the in-client profiler (BC20) and rule-based profiler schedules (BC25)"
   ],
   "systems": [
     "platform",
-    "development",
-    "reporting"
+    "development"
   ],
   "topics": [
     "performance profiling",

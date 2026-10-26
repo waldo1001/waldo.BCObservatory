@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/75073",
+  "input_hash": "4d9467fd17f18a34310ddb0e9fc53b381b3a119d645829cbaf8c9699147dd9f3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:29.196Z",
+  "issues": [
+    "The listed object is a JavaScript library loaded through the Scripts property. It is not an AL object, so it is dropped.",
+    "Key point 4 claimed the feature needs no extra customization on other clients. The post only says it works on the Tablet and Phone clients as well as the Web Client."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019459,
+    "posts_in_call": 4
+  }
+}

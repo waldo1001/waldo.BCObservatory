@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/66277",
+  "page_id": "post/yzhums-com/66277",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "if you use TableExtension to modify the captions of tables and fields, it will also affect the Record.TestField Method",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003977,
+    "posts_in_call": 4
+  }
+}

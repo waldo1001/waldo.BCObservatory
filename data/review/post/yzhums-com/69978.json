@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/69978",
+  "input_hash": "304992dc18c9765b309bb495e6896eb444b6f73ce4a02da7844473090c2417d7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:18.031Z",
+  "issues": [
+    "The summary claims three methods for getting the month name; the post gives two, plus a third that returns only the month number.",
+    "The key point about each approach suiting different scenarios is not in the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.042489,
+    "posts_in_call": 4
+  }
+}

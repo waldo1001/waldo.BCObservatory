@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/72984",
+  "input_hash": "952287d7aad7ec60263fe740fe9c9c448c08e387de65642bbb87a3e9ddef22b2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:06.001Z",
+  "issues": [
+    "Summary, key points and quotes match the post.",
+    "The post calls Countries/Regions a master setup and never names it as a table, so that object is unsupported.",
+    "The Custom Address Format page is named in the post (page 725), so it stays."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021461,
+    "posts_in_call": 4
+  }
+}

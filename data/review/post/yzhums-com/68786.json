@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/68786",
+  "input_hash": "0f1a701ae8d80e15f4e59b2b0e5cf8d38199280838834e4bc0676e4d94be2aae",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:26.323Z",
+  "issues": [
+    "The post does not discuss reporting, so that system was dropped.",
+    "Quote 2 changes the capitalization slightly but otherwise matches the post."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020617,
+    "posts_in_call": 4
+  }
+}

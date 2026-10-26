@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/yzhums-com/68077",
+  "input_hash": "7263095ecc3abfb0d6cca88aea0d84db4af019584eeda7dc33a3f1bdef90c333",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:41:46.431Z",
+  "issues": [
+    "Content matches the post, including the first-page-only limitation that Microsoft has confirmed is a bug and the PDF Document codeunit workaround.",
+    "The page extension and table extension are listed as other objects, which is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02896,
+    "posts_in_call": 4
+  }
+}

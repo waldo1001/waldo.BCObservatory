@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T01:54:57.218Z"
   flags: []
 generated:
-  at: "2026-10-26T05:30:48.114Z"
+  at: "2026-10-26T05:51:10.938Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -108,13 +108,13 @@ links:
       label: possibly related
       why: names Codeunit 4321 "Agent"
       by: code
-    - to: post/demiliani-com/13814
-      title: "Dynamics 365 Business Central: new model choice in Agent definition."
+    - to: post/yzhums-com/64609
+      title: "Dynamics 365 Business Central: “Hide Company Bank Account” setup in General Ledger Setup (Update Company Bank Account on posted documents)"
       label: possibly related
-      why: both name Codeunit 4321 "Agent"
+      why: both name Table 98 "General Ledger Setup"
       by: code
-    - to: post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9
-      title: How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.
+    - to: post/yzhums-com/66463
+      title: "Dynamics 365 Business Central: How to prevent users from uploading duplicate files as attachments (Duplicate file names)"
       label: possibly related
       why: both name Table 98 "General Ledger Setup"
       by: code
@@ -201,8 +201,8 @@ No source states these links: they share an object, a model read them, or a pers
 - [Configure agents programmatically (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-configuration) — possibly related: names Codeunit 4321 "Agent"
 - [Control Deferral Posting](../../videos/VIda0Ok1SSQ.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [Convert an agent to AL code (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-convert-agent) — possibly related: names Codeunit 4321 "Agent"
-- [Dynamics 365 Business Central: new model choice in Agent definition.](../../posts/demiliani-com/13814.md) — possibly related: both name Codeunit 4321 "Agent"
-- [How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9.md) — possibly related: both name Table 98 "General Ledger Setup"
+- [Dynamics 365 Business Central: “Hide Company Bank Account” setup in General Ledger Setup (Update Company Bank Account on posted documents)](../../posts/yzhums-com/64609.md) — possibly related: both name Table 98 "General Ledger Setup"
+- [Dynamics 365 Business Central: How to prevent users from uploading duplicate files as attachments (Duplicate file names)](../../posts/yzhums-com/66463.md) — possibly related: both name Table 98 "General Ledger Setup"
 
 ## Context
 

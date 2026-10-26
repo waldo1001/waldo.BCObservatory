@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/68861",
+  "input_hash": "7cfbe031230f7bb089d4fbbb6cebbf57f74a4650bcdac9c41df3f7049479283a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:15.749Z",
+  "issues": [
+    "The BC25 flexible update changes (5-month major update window, optional minor updates) appear in the post only as a link to an older article; the page presents them as new in this release.",
+    "The summary ties flexible environment management directly to BC27.1, but the post only lists an Admin Center environment management item next to the SaaS release.",
+    "Quote 2 is in the post, but its explanation repeats the same misreading."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

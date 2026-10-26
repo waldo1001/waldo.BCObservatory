@@ -11,14 +11,14 @@
   ],
   "summary": "Moved French delayed VAT and SEPA direct debit payment-slip features from base layers to the Payment Management FR app, while maintaining reusable posting and calculation engines in the base application.",
   "key_points": [
-    "Extracted delayed VAT recognition and payment slip logic into Payment Management FR app",
-    "Moved journal-context fields and unrealized application buffer to app level with data migration",
-    "Implemented app subscribers to route VAT and validation logic through standard calculation",
-    "Extracted source-document export-error linking into the app",
-    "Updated permissions, data classification, and cloud-migration lists"
+    "Moved journal-context fields and the unrealized application buffer into Payment Management FR, with data migration",
+    "Delayed VAT recognition and percentage validation now run through app subscribers using standard VAT calculation",
+    "Moved source-document export-error linking into the app and corrected the error FactBox reference",
+    "SEPA direct debit export now supports filtered and temporary entries while keeping ordinary collections working",
+    "Updated permissions, data classification and cloud-migration lists without adding dependencies"
   ],
   "change_kind": "refactor",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

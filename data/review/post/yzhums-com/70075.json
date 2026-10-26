@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/70075",
+  "input_hash": "d5bdc16d17747976a25b78b921d7dfa4a4951b3b2c880d0fb58747b590b6ab81",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:18.031Z",
+  "issues": [
+    "Key point says BC14 remains in extended support until Oct 14 2025, but the post was published in January 2026 and labels BC14 end of mainstream support; that date has passed.",
+    "Key point presents the Admin Center environment management link as something CU03 introduces; the post only lists it as a link title.",
+    "Summary date range 2019 through 2025 is inaccurate; the lifecycle tables cover 2018 releases up to end dates in 2027."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.042489,
+    "posts_in_call": 4
+  }
+}

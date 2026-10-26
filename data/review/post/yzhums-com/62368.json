@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/62368",
+  "input_hash": "7e76dd65c8ff9e1c6460bf8406ac51498b71c79c673a076754b545f41b1722e2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.248Z",
+  "issues": [
+    "System integration is not supported; the post is about sales document customization only.",
+    "Objects are all named in the post or its code; key points are accurate though they omit the Your Reference example."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

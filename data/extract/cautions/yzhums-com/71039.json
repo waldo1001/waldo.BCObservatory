@@ -1,0 +1,29 @@
+{
+  "item_id": "blog/yzhums-com/71039",
+  "page_id": "post/yzhums-com/71039",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "You cannot use Requisition Wksh. Name: REQ,DEFAULT for this action. The restriction was imposed because the journal batch requires approval.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Requisition Wksh."
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC28",
+        "2026 release wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004552,
+    "posts_in_call": 4
+  }
+}

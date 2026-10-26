@@ -1,0 +1,34 @@
+{
+  "item_id": "blog/yzhums-com/67705",
+  "page_id": "post/yzhums-com/67705",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Note that moving steps can cause the script to fail if the new order doesn't make sense.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27",
+        "2025 release wave 2"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Removing steps out of order may cause the recording to not work as expected.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27",
+        "2025 release wave 2"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004641,
+    "posts_in_call": 4
+  }
+}

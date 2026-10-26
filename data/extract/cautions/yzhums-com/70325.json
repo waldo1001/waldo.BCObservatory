@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/70325",
+  "page_id": "post/yzhums-com/70325",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "if the master data contains delimiters, it won't be able to retrieve the correct values",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

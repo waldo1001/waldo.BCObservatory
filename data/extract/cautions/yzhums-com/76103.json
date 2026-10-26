@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/yzhums-com/76103",
+  "page_id": "post/yzhums-com/76103",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If you only pass one App ID, it will be treated as a filter.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Attempts to retrieve a private resource through an app ID return the same not-found error as a resource that does not exist.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004744,
+    "posts_in_call": 4
+  }
+}

@@ -46,10 +46,6 @@
       "why_it_matters": "Establishes the storage quota context that users need to monitor through the API"
     },
     {
-      "text": "As of now, we can use Admin Center API.",
-      "why_it_matters": "Answers the core question about programmatic access to database usage data"
-    },
-    {
       "text": "Consume version 2.26 or newer to correctly retrieve database storage usage for large databases and make sure your client supports 64-bit integers.",
       "why_it_matters": "Critical technical requirement for accurate data retrieval in production environments"
     }

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/71694",
+  "input_hash": "dfa3a84b0472e8e5dce3915389e5dfe7bfe0c86001dcf41bbc128348e787c1d1",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-26T06:40:27.672Z",
+  "issues": [
+    "This is a photo report from a Microsoft AI Tour event with no Business Central content beyond a passing mention of a Dynamics 365 counter.",
+    "Nothing in the post supports the copilot system tag."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02049,
+    "posts_in_call": 4
+  }
+}

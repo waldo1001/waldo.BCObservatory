@@ -1,0 +1,37 @@
+{
+  "item_id": "blog/yzhums-com/69120",
+  "page_id": "post/yzhums-com/69120",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "because this extension cannot be installed in version W1, it cannot be used",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Posting Date Check On Posting"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "preview-disclaimer",
+      "quote": "For the next three releases, you can choose whether to enable the new features. After this period, the previous features will be deprecated",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/65857",
+  "input_hash": "ae3473ed99485d3d35cec8243dc49e87953f479e869b39ef28ebb2be6ede8e07",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:42.815Z",
+  "issues": [
+    "MyEnumExtension is an enum extension in the sample code, not an enum, so the listed object type is wrong.",
+    "_Exclude_Business_Events_ is an extension referenced as a dependency, not an AL object.",
+    "Sales and purchasing systems are only supported by the event catalog; the post is mainly about integration and deprecation, but kept."
+  ],
+  "applied": [
+    "dropped 2 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.035964,
+    "posts_in_call": 4
+  }
+}

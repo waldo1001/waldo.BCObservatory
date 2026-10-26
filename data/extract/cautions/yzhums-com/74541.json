@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/74541",
+  "page_id": "post/yzhums-com/74541",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Scheduled PTE installations and updates are only visible in the experience where they were created, either the Admin Center or Extension Management.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC28.4",
+        "2026 wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004065,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/63595",
+  "input_hash": "553364f71c9da21b346a264d863804aea9478d2eefca12715c93d3a40de4bb32",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.324Z",
+  "issues": [
+    "Nothing in the post supports the administration system, so it is dropped.",
+    "The quote matches the procedure signature given in the post. The objects are all named in the source code."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

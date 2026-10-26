@@ -7,10 +7,10 @@
   "words": 403,
   "summary": "Financial report changes in Business Central 2026 release wave 2 (BC29) are now automatically logged in the change log without requiring manual setup, making it easier to audit modifications to financial row, column, and report definitions.",
   "key_points": [
-    "Changes to financial row, column, and report definitions are automatically recorded in the change log",
-    "No manual activation of the change log is required for financial reports",
-    "Users can track who modified what in financial reports and when, helping identify accidental changes",
-    "The change log entries are chronologically ordered and show all direct modifications to tracked data"
+    "BC29 automatically writes changes to financial report row, column and report definitions into the change log",
+    "There is no need to turn on or configure the Change Log manually for this",
+    "This helps trace accidental edits made directly to standard financial reports, for example a changed Display Title",
+    "This logging is separate from the new audit log"
   ],
   "systems": [
     "finance",
@@ -28,10 +28,6 @@
     {
       "type": "other",
       "name": "Change Log Entries page"
-    },
-    {
-      "type": "other",
-      "name": "Financial Reports feature"
     }
   ],
   "features": [
@@ -50,10 +46,6 @@
     {
       "text": "Changes to financial row, column, and report definitions are automatically recorded in the change log for easier auditing.",
       "why_it_matters": "This explains the core feature that eliminates manual setup and automatically protects against accidental changes to financial reports"
-    },
-    {
-      "text": "Starting with this major update, changes to financial row, column, and report definitions are automatically recorded in the change log for easier auditing.",
-      "why_it_matters": "Highlights this is a new capability in BC29 that improves auditability without requiring users to enable change logging manually"
     },
     {
       "text": "This doesn't even require manually turning on the Change Log.",

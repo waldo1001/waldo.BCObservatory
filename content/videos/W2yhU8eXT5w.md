@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:10:45.459Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -130,6 +130,11 @@ links:
   related:
     - to: post/thedynamicsexplorer-com/37371
       title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
+      label: possibly related
+      why: both name Page 40 "Item Journal"
+      by: code
+    - to: post/yzhums-com/41471
+      title: "Dynamics 365 Business Central: How to check whether the current page/report is standard or customized"
       label: possibly related
       why: both name Page 40 "Item Journal"
       by: code
@@ -400,6 +405,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 40 "Item Journal"
+- [Dynamics 365 Business Central: How to check whether the current page/report is standard or customized](../posts/yzhums-com/41471.md) — possibly related: both name Page 40 "Item Journal"
 - [Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one](../posts/yzhums-com/73895.md) — possibly related: both name Page 6510 "Item Tracking Lines"
 - [What's New: Business Central Mobile Apps Featuring Brand New Barcode Scanning Capabilities (2023)](../videos/KYsrBoHVA70.md) — possibly related: both name Page 6510 "Item Tracking Lines"
 

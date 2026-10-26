@@ -7,10 +7,11 @@
   "words": 1104,
   "summary": "Business Central 2026 wave 2 (BC29) introduces enhanced Word add-in capabilities for designing document report themes, headers, and footers. The update provides sample layouts for common documents like invoices and pick lists, plus five predefined header and footer templates that can be inserted with a single click, making complex report design faster and easier than RDLC.",
   "key_points": [
-    "BC29 adds three sample document types (Invoice, Pick List, Outstanding Orders) for testing themes against realistic content",
-    "Five predefined header layouts and five footer layouts are available for both internal and external reports",
-    "Word add-in version 3.0.0.0 includes new document samples controls for designing headers and footers",
-    "Word layouts now support layout subtypes (Default, Body) for reusable themes and modular report design"
+    "BC29 adds three realistic sample documents to the Word add-in (Invoice, Pick List, Outstanding Orders) for testing themes against real content",
+    "Five predefined header layouts and five footer layouts can be inserted with one click and work for internal or external reports",
+    "Install the latest Business Central add-in for Word (3.0.0.0 is listed) to get the Business Central ribbon tab",
+    "Word layouts can have a Default or Body subtype, and Body layouts combine with reusable themes and header/footer parts",
+    "The author recommends moving from RDLC to Word layouts"
   ],
   "systems": [
     "reporting"

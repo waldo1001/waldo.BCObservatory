@@ -7,11 +7,11 @@
   "words": 822,
   "summary": "The Merge Duplicate feature in Business Central allows users to consolidate duplicate customer, vendor, or contact records by selecting which field values to keep and resolving any conflicts before completing the merge. This standard feature helps maintain data quality when records are created during data entry or migration.",
   "key_points": [
-    "Access the Merge Duplicate feature from the card of the record you want to keep using the Merge With action",
-    "The Fields FastTab displays differences between two records; few differences indicate a likely duplicate",
-    "The Related Tables FastTab shows connections to other tables and helps identify merge conflicts with primary key fields",
-    "Users can override field values by checking the Override checkbox to select which alternate values to keep",
-    "Merge conflicts can be resolved on the Merge Duplicate Conflicts page before finalizing the merge, with options to remove or rename the duplicate record"
+    "Open the Merge With action from the card of the record you want to keep (customer, vendor or contact)",
+    "The Fields FastTab lists differing values; only a few differences suggest a true duplicate",
+    "The Related Tables FastTab is informational and shows counts of related records for each customer",
+    "Select Override to take the alternate value for a field, then choose Merge",
+    "Conflicts on primary-key fields are resolved on the Merge Duplicate Conflicts page by removing or renaming the duplicate; the merge cannot be undone and requires the MERGE DUPLICATES permission set"
   ],
   "systems": [
     "sales",
@@ -45,10 +45,6 @@
     {
       "type": "page",
       "name": "Merge Duplicate Conflicts"
-    },
-    {
-      "type": "table",
-      "name": "Customer Ledger Entries"
     },
     {
       "type": "permissionset",

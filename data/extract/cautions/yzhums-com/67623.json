@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/yzhums-com/67623",
+  "page_id": "post/yzhums-com/67623",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "'Field' is not available in runtime version '15.0'. The supported runtime versions are: '16.0' or greater.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "15.0"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "'FieldExist' is not available in runtime version '15.0'. The supported runtime versions are: '16.0' or greater.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "15.0"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003354,
+    "posts_in_call": 4
+  }
+}

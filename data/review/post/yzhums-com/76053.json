@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/76053",
+  "input_hash": "f82f4a40efa73545c9021703d7dd59b04536a71a4996daefacdab66e86d18224",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:09.385Z",
+  "issues": [
+    "Key point 1 calls 1,018 the SQL column limit. The post only says Business Central supports up to 1,018 fields because the platform adds 6 system fields.",
+    "The rest of the page is supported. The tableextension CustomerExt appears in the post but is not listed as an object."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029278,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/63315",
+  "page_id": "post/yzhums-com/63315",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Due Date is calculated by default based on the Document Date and Payment Terms Code, not the Posting Date.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "Sales Header"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

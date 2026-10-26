@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:57.224Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -198,7 +198,8 @@ links:
   localizations: []
   videos:
     - video/zt9_HEmPKNg
-  posts: []
+  posts:
+    - post/yzhums-com/67657
   guidelines: []
   changes:
     - change/bcapps/10343
@@ -227,7 +228,7 @@ coverage:
   learn: 13
   code: 67
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 911
@@ -372,6 +373,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9277 Add PRODUCED item template to Contoso Coffee manufacturing demo data](../../../../changes/bcapps/9277.md) (code change): "PRODUCED item template with manufacturing-specific settings like replenishment system, manufacturing policy"
 - [#9787 [Subcontracting] Added actionable notification when a vendor does not have a subcontracting location code](../../../../changes/bcapps/9787.md) (code change): "enabling early detection of missing configuration before downstream"
 - [#9818 [Subcontracting] Added assisted setup guide for initial app configuration](../../../../changes/bcapps/9818.md) (code change): "Added assisted setup guide for initial app configuration"
+- [Business Central 2025 wave 2 (BC27): Configure the default calculation for the Calculate Consumption report (Default Consumption Calculation Based on)](../../../../posts/yzhums-com/67657.md) (community post): "Default Consumption Calculation Based on field in Manufacturing Setup"
 - [Manufacturing Foundations Capacities (2026)](../../../../videos/zt9_HEmPKNg.md) (video): "work centers; machine centers; shop calendar; work shifts; production scheduling"
 
 ## Business Central pages and reports

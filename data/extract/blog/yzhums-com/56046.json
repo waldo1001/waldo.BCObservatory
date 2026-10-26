@@ -7,11 +7,11 @@
   "words": 1516,
   "summary": "Business Central includes built-in barcode functionality via the System Application, supporting 1D and 2D barcodes in reports. When custom formatting like colors, sizes, or embedded images is needed, external APIs like QuickChart can generate QR codes and other barcode types through HTTP requests in AL code.",
   "key_points": [
-    "Standard barcode module supports one-dimensional and two-dimensional formats (QR, Aztec, Data Matrix, PDF417) natively in BC19.1 and BC18",
-    "External APIs enable advanced customization unavailable in standard functionality, such as colored QR codes, custom sizing, embedded center images, and captions",
-    "QuickChart API allows QR code generation with parameters for color, margins, error correction level, format (PNG/SVG), and optional center images or text captions",
-    "Multiple barcode types supported through external services include QR Code, Data Matrix, Aztec, Telepen, Swiss QR Code, EAN, UPC, and 40+ others",
-    "Implementation uses AL HttpClient to call external API URLs and import the generated barcode image into Item Picture fields or media fields"
+    "The standard Barcode module in the System Application adds barcodes to reports: one-dimensional barcodes from BC18 and 2D barcode fonts such as QR, Aztec and Data Matrix from BC19.1.",
+    "The standard module cannot change size, colors, center images or captions, so the post calls the QuickChart API instead.",
+    "QuickChart QR parameters cover format, margin, size, dark and light colors, error correction level, a center image and caption text.",
+    "A page extension on Item Card uses HttpClient to request the image and import it into the item Picture field.",
+    "A second example lets the user choose QR Code, Data Matrix, Aztec, Telepen or Swiss QR Code. Some external services are paid."
   ],
   "systems": [
     "integration",

@@ -7,11 +7,11 @@
   "words": 1048,
   "summary": "This post explains how to configure VS Code to connect to a Business Central On-Premises environment for AL development. It covers modifying the launch.json file with correct server settings, enabling Developer Services in the BC instance configuration, and verifying authentication methods.",
   "key_points": [
-    "Update launch.json with the actual On-Premises server URL and instance name from the BC web interface or PowerShell commands",
-    "Enable DeveloperServicesEnabled and configure the DeveloperServicesPort in CustomSettings.config or using Set-NAVServerConfiguration",
-    "Verify your authentication method (Windows is typical for On-Premises) and confirm it matches the launch.json configuration",
-    "Avoid using On-Premises environments for SaaS extension development as available methods differ between the two versions",
-    "The CRONUS demo license now includes RIMDX permissions on all objects, enabling partners to test with AppSource apps in on-premises environments"
+    "Replace the default server and serverInstance in launch.json with the URL and instance name seen when opening the on-premises web client, or check them via Get-NAVServerInstance",
+    "Look up DeveloperServicesPort in CustomSettings.config and add it as the port in launch.json; set DeveloperServicesEnabled to true, or use Set-NAVServerConfiguration",
+    "Restart the server instance after changing settings and make sure launch.json uses the right authentication, usually Windows on-premises",
+    "Do not build SaaS extensions against on-premises since some methods available on-premises are not usable in the cloud",
+    "From 2023 wave 1 the CRONUS demo license grants RIMDX on all objects, allowing AppSource apps to be run on-premises for testing"
   ],
   "systems": [
     "development",

@@ -1,0 +1,39 @@
+{
+  "item_id": "blog/yzhums-com/61951",
+  "page_id": "post/yzhums-com/61951",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "You can't hide or move the Automate menu or the Power Automate submenu and its actions.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC20"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Moving the flow makes a copy the flow in the destination, it doesn't remove it from the Automate item.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC20"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "You must sign out and then sign in again to make the changes take effect.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 3
+  }
+}

@@ -7,11 +7,10 @@
   "words": 513,
   "summary": "AL developers can now programmatically enable and disable database indexes in Business Central 2026 wave 2 (BC29), allowing app publishers to manage index performance tuning as part of their feature deployment.",
   "key_points": [
-    "AL developers can now turn database indexes on or off directly from AL code using methods in codeunit 2000000029 'Index Management'.",
-    "Database indexes improve query performance by allowing the system to locate data efficiently instead of scanning all records.",
-    "This capability extends previous index management features introduced in BC20 (Database Wait Statistics) and BC28 (manual index on/off and per-company cost viewing).",
-    "Developers can query field information from table 2000000041 'Field' to target specific indexes for management.",
-    "App publishers can now ship index management as part of their features rather than relying on administrators."
+    "In BC29, AL code can turn database indexes on or off, so app publishers can ship index management alongside their features.",
+    "Microsoft updated methods in codeunit 2000000029 Index Management; these match the actions on the Index Management page.",
+    "This builds on BC20 insights into missing indexes and on BC28 per-company index usage, cost viewing and turning indexes off.",
+    "The example turns off an index on table 21 Cust. Ledger Entry, using table 2000000041 Field to identify it."
   ],
   "systems": [
     "development",
@@ -55,8 +54,7 @@
     "Turn indexes on/off from AL code",
     "Index Management codeunit",
     "Database index management",
-    "Performance optimization",
-    "Field information querying"
+    "Performance optimization"
   ],
   "versions": [
     "BC29",

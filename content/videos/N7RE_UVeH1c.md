@@ -17,7 +17,7 @@ review:
   at: "2026-10-07T23:02:10.947Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,6 +65,11 @@ links:
   related:
     - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257
       title: Analysis Mode killed half the Excel exports on your client's shared drive
+      label: possibly related
+      why: both name Page 25 "Customer Ledger Entries"
+      by: code
+    - to: post/yzhums-com/63315
+      title: "Dynamics 365 Business Central: How to change Due Date of posted documents"
       label: possibly related
       why: both name Page 25 "Customer Ledger Entries"
       by: code
@@ -205,6 +210,7 @@ Not found in BC28-30: page "data analysis".
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Analysis Mode killed half the Excel exports on your client's shared drive](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md) — possibly related: both name Page 25 "Customer Ledger Entries"
+- [Dynamics 365 Business Central: How to change Due Date of posted documents](../posts/yzhums-com/63315.md) — possibly related: both name Page 25 "Customer Ledger Entries"
 - [Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central](../posts/thedynamicsexplorer-com/36744.md) — possibly related: both name Page 25 "Customer Ledger Entries"
 - [How Do I: Analyze List Pages and Data Using Analysis Mode in Business Central](../posts/thinkaboutit-be/7503.md) — possibly related: both name Page 25 "Customer Ledger Entries"
 - [How Do I: Replace Reports with Analysis Mode in Business Central](../posts/thinkaboutit-be/7537.md) — possibly related: both name Page 25 "Customer Ledger Entries"

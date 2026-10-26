@@ -5,17 +5,15 @@
   "source": "yzhums-com",
   "published_at": "2025-09-15T00:48:29.000Z",
   "words": 550,
-  "summary": "This blog series explores the TableRelation property in Business Central, covering how it differs from Enum/Option and Lookup fields on pages, how to extend it through table extensions, validation rules for primary keys, permission requirements, and methods to query table relationships programmatically.",
+  "summary": "This post is an index of the author's articles on the TableRelation property in Business Central. The linked articles cover how it differs from Enum/Option, Lookup and AssistEdit on pages, extending it through table extensions, a primary key validation error, entering values without validation, and missing read permissions. Others cover exporting all relations, for example for the Customer table, building lookup and option lists, and the Record.Relation method.",
   "key_points": [
-    "TableRelation defines field-level data validation by linking fields to specific tables and their key fields",
-    "TableRelation differs from Enum/Option and Lookup controls in how they appear and function on page interfaces",
-    "Extending TableRelation through table extensions requires careful consideration of primary key constraints",
-    "Users without permission to read the related table may encounter access restrictions when using TableRelation fields",
-    "The Record.Relation method allows developers to determine and query table relationships programmatically"
+    "The post is a list of links to earlier TableRelation articles, each with its publication date",
+    "Topics include how TableRelation, Enum/Option, Lookup and AssistEdit differ in the page UI",
+    "Other entries cover table extensions, a primary key validation error, and entering values without relation validation",
+    "Further entries cover missing read permission on the related table, exporting all relations for a table such as Customer, and the Record.Relation method"
   ],
   "systems": [
-    "development",
-    "administration"
+    "development"
   ],
   "topics": [
     "tablerelation",

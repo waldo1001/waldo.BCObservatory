@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/69877",
+  "input_hash": "834fa78e7bd30926cab791e6a3d3a76180aa5d2fbacb080feb703dc537275103",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:39.111Z",
+  "issues": [
+    "The post is only an index of links to articles in a page inspection series. The summary implied an explanation of the tool, so it is rewritten as a description of the index.",
+    "The key point about examining page composition and behavior is not supported by the link list, so the key points are rewritten.",
+    "The post does not name a Page Inspection page object, so that object is dropped.",
+    "The quote is an article title. It is kept because it is weak but accurate."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025973,
+    "posts_in_call": 4
+  }
+}

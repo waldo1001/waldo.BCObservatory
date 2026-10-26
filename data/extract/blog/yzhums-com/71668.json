@@ -7,15 +7,14 @@
   "words": 332,
   "summary": "Business Central 2026 release wave 1 introduces a Copy Location feature that allows users to quickly duplicate existing location records to create new warehouse locations, eliminating the need for manual entry or Configuration Packages.",
   "key_points": [
-    "Copy Location is a new action available on the Locations list and Location Card pages in BC28",
-    "Users can select an existing location and copy it to create a new location with customizable fields",
-    "This feature simplifies location setup compared to traditional manual data entry or Configuration Package methods",
-    "The capability mirrors the existing Copy Item feature and could expand to other master data types"
+    "BC28 adds a Copy Location action on the Locations list (under Actions, Other) and on the Location Card",
+    "You pick an existing location, fill in the fields on the Copy Location page, and choose OK to create the new location",
+    "This replaces creating locations by manual entry or with Configuration Packages",
+    "It works like the existing Copy Item feature, and the author hopes Microsoft adds copy support for all master data"
   ],
   "systems": [
     "inventory",
-    "warehouse",
-    "platform"
+    "warehouse"
   ],
   "topics": [
     "locations",
@@ -38,7 +37,6 @@
   "features": [
     "Copy Location",
     "Location management",
-    "Inventory tracking",
     "Warehouse setup"
   ],
   "versions": [

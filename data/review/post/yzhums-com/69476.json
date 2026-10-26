@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/69476",
+  "input_hash": "227427254efbcd75aed7dde80eca0b75c10ae8a433824066dd383b32181728d9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:18.698Z",
+  "issues": [
+    "The summary, key points, quotes, features and versions all match the post.",
+    "Tell Me is described as a search feature of the client, not as a page, so the page object entry is not supported."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.046414,
+    "posts_in_call": 4
+  }
+}

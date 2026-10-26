@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:21.770Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,7 +82,9 @@ links:
   localizations: []
   videos:
     - video/_6bYqpKzL8s
-  posts: []
+  posts:
+    - post/yzhums-com/70933
+    - post/yzhums-com/74594
   guidelines: []
 learn_toc_path:
   - Administration
@@ -96,7 +98,7 @@ coverage:
   learn: 7
   code: 2
   video: 1
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms:
   - 2500
@@ -169,6 +171,8 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [The public preview for Dynamics 365 Business Central 2026 release wave 1 (BC28) is available](../../../../posts/yzhums-com/70933.md) (community post): "public preview for Dynamics 365 Business Central 2026 release wave 1"
+- [Dynamics 365 Business Central Cloud: Production vs. Sandbox Environments – Key Differences](../../../../posts/yzhums-com/74594.md) (community post): "Production environments are deployed on dedicated Azure performance tiers"
 - [Upgrade Business Central Sandbox to Preview Version](../../../../videos/_6bYqpKzL8s.md) (video): "Update existing sandbox to preview version"
 
 ## Business Central pages and reports

@@ -7,10 +7,11 @@
   "words": 327,
   "summary": "This post explains two methods to check if a string contains a substring in Business Central using AL code: the Text.StrPos method returns the position of the first occurrence, while Text.Contains returns a boolean value. Both approaches are demonstrated with table extension examples.",
   "key_points": [
-    "Text.StrPos(Text, Text) searches for the first occurrence of a substring and returns its position, or zero if not found",
-    "Text.Contains(Text) is a simpler alternative that directly returns whether a substring occurs in the string",
-    "For case-insensitive searches, use Text.LowerCase or Text.UpperCase to convert strings before comparing",
-    "Both methods return zero or false if the string or substring is empty"
+    "Text.StrPos returns the position of the first occurrence of a substring, or zero if it is not found",
+    "StrPos also returns zero when the string or the substring is empty",
+    "Text.Contains returns a boolean telling whether the substring occurs in the string",
+    "For case-insensitive checks, convert both strings first with LowerCase or UpperCase",
+    "Both approaches are shown in a Sales Header table extension using field OnValidate triggers"
   ],
   "systems": [
     "development"

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/68975",
+  "page_id": "post/yzhums-com/68975",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "the method of creating demo/sample data using Configuration packages was deprecated",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC25.3"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

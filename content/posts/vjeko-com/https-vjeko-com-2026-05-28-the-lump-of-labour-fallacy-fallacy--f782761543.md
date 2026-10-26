@@ -2,7 +2,7 @@
 id: post/vjeko-com/https-vjeko-com-2026-05-28-the-lump-of-labour-fallacy-fallacy--f782761543
 type: post
 title: The lump of labour fallacy fallacy
-summary: This post argues that the lump of labour fallacy fallacy - the assumption that newly created jobs will go to humans rather than agents - is a real threat to knowledge work. It parallels the fate of horses when engines arrived, showing that cognitive work is now the target of automation, not just manual tasks.
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -15,16 +15,16 @@ tags:
   - job displacement
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-26T06:40:02.611Z"
   flags: []
 generated:
-  at: "2026-10-26T05:32:04.751Z"
+  at: "2026-10-26T05:51:10.938Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 57cafebfcfbaed3305005c3b00dbf87427da2e2c971edd185a2806aad076be7f
+  input_hash: 0800fcc3d2a4023f3a5b94c83776ba66c1b9c52b9e831efa1cc734ac4e6456a2
 evidence:
   - kind: blog
     url: https://vjeko.com/2026/05/28/the-lump-of-labour-fallacy-fallacy/
@@ -67,27 +67,20 @@ versions_mentioned: []
 preview:
   embeddable: false
   frame_url: null
-  image: null
+  image: https://vjeko.com/wp-content/uploads/2026/05/ChatGPT-Image-May-28-2026-10_56_15-PM.png
   image_alt: null
   image_w: null
   image_h: null
   site_name: null
-  favicon: null
-  probed_at: "2026-10-25T17:00:27.614Z"
+  favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
+  probed_at: "2026-10-26T05:58:03.431Z"
 ---
 
 # The lump of labour fallacy fallacy
 
-[Read the post](https://vjeko.com/2026/05/28/the-lump-of-labour-fallacy-fallacy/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-05-28 · 1732 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://vjeko.com/2026/05/28/the-lump-of-labour-fallacy-fallacy/) · Vjeko.com (Vjekoslav Babić, MVP) · 2026-05-28 · 1732 words · tier community · **flagged** (a review found a problem)
 
-> This post argues that the lump of labour fallacy fallacy - the assumption that newly created jobs will go to humans rather than agents - is a real threat to knowledge work. It parallels the fate of horses when engines arrived, showing that cognitive work is now the target of automation, not just manual tasks.
-
-## Key points
-
-- The original lump of labour fallacy assumes work is fixed, but the real danger is new work going to agents instead of humans, not whether new work exists.
-- Historical precedent with horses shows that new tools don't guarantee humans retain work; when machines took cognition, horses became unemployable.
-- Recent examples like Erdős Problem #1196 being solved by GPT-5.4 in 2026 show agents reaching for original ideas, not just retrieval, undermining the belief that judgment and creativity remain human-only skills.
-- Software development roles are being compressed; the promising 'new role' of prompt engineer vanished within 18 months as agents automated it.
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Quotes
 

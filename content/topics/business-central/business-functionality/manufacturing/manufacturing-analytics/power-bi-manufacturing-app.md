@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:13.898Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -216,7 +216,8 @@ links:
   videos:
     - video/6NuJOL8DEqA
     - video/JT4ownMbotw
-  posts: []
+  posts:
+    - post/yzhums-com/65052
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -230,7 +231,7 @@ coverage:
   learn: 21
   code: 20
   video: 2
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 36951
@@ -323,6 +324,7 @@ For building or checking measures, use the semantic model page, which describes 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Business Central 2025 wave 1 (BC26.2): Use enhanced analytics for manufacturing (updated Power BI app)](../../../../../posts/yzhums-com/65052.md) (community post): "significantly improved Power BI analytics for manufacturing with new and updated reports"
 - [What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)](../../../../../videos/6NuJOL8DEqA.md) (video): "Manufacturing Power BI App Update; Current Utilization Report Deprecation"
 - [What's New: Manufacturing Analytics (2025 release wave 2)](../../../../../videos/JT4ownMbotw.md) (video): "PowerBI app for manufacturing; Excel layouts for manufacturing reports"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:05.688Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -284,6 +284,20 @@ links:
     - post/thinkaboutit-be/7930
     - post/thinkaboutit-be/8077
     - post/waldo-be/317739
+    - post/yzhums-com/63913
+    - post/yzhums-com/67105
+    - post/yzhums-com/68406
+    - post/yzhums-com/68861
+    - post/yzhums-com/69075
+    - post/yzhums-com/69209
+    - post/yzhums-com/71880
+    - post/yzhums-com/72089
+    - post/yzhums-com/72767
+    - post/yzhums-com/74541
+    - post/yzhums-com/75370
+    - post/yzhums-com/75794
+    - post/yzhums-com/76546
+    - post/yzhums-com/76631
   guidelines: []
 learn_toc_path:
   - Administration
@@ -296,7 +310,7 @@ coverage:
   learn: 31
   code: 0
   video: 13
-  blog: 10
+  blog: 24
   guideline: 0
 bc_forms: []
 member_hash: 930971b86417f2cb2b2eec1be9a17360eecf5bc00c57b0be177b1f74f8f8c24d
@@ -483,6 +497,20 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Quick Tip: Almost Every BC Major Release Gets Paused. Are Your Environments Ready?](../../../posts/thinkaboutit-be/7930.md) (community post): "schedule production updates late in the window, configure notification recipients"
 - [Quick Tip: Reading the Capacity Page in the Business Central Admin Center](../../../posts/thinkaboutit-be/8077.md) (community post): "Two independent limits govern environment creation: environment count"
 - [Troubleshooting Series – Ep2 – Admin Center – Sessions](../../../posts/waldo-be/317739.md) (community post): "The Sessions window in the Business Central Admin Center allows partners and delegated admins"
+- [Dynamics 365 Business Central: How to easily check who created an environment, company and record and when](../../../posts/yzhums-com/63913.md) (community post): "Environment creation logs are available in the Business Central admin center Operations section"
+- [Dynamics 365 Business Central: How to get database usage through API](../../../posts/yzhums-com/67105.md) (community post): "retrieve Business Central environment database usage through the Admin Center API"
+- [Major update of Dynamics 365 Business Central 2025 release wave 2 (BC27) is available for existing customers](../../../posts/yzhums-com/68406.md) (community post): "Customers can reschedule update dates within the 5-month update period using the Business Central Admin Center"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (November, 2025)](../../../posts/yzhums-com/68861.md) (community post): "BC27.1 (2025 wave 2) is now available with flexible environment management capabilities in the Admin Center"
+- [Business Central 2025 wave 2 (BC27): Cancel running environment update](../../../posts/yzhums-com/69075.md) (community post): "Business Central 2025 wave 2 introduces the ability to cancel running environment updates from the admin center"
+- [Dynamics 365 Business Central: Uninstall apps from Admin Center](../../../posts/yzhums-com/69209.md) (community post): "Use the Manage Apps page in Business Central Administration Center to uninstall apps"
+- [General Available: Dynamics 365 Business Central 2026 release wave 1 (BC28)](../../../posts/yzhums-com/71880.md) (community post): "Production and sandbox environment management capabilities added to Admin Center"
+- [Major update of Dynamics 365 Business Central 2026 release wave 1 (BC28) is available for existing customers](../../../posts/yzhums-com/72089.md) (community post): "Customers can schedule and reschedule their update date flexibly through the Business Central Admin Center"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (May, 2026)](../../../posts/yzhums-com/72767.md) (community post): "Business Central Admin Center now displays full Country/Region names when creating new environments"
+- [Dynamics 365 Business Central: Upload, install, and manage PTEs in the admin center (Remove ability to upload and install PTEs from Extension Management page)](../../../posts/yzhums-com/74541.md) (community post): "Administrators can now upload and manage PTEs directly from the Business Central Admin Center"
+- [Dynamics 365 Business Central: Database exports are now significantly faster and more reliable](../../../posts/yzhums-com/75370.md) (community post): "Database exports are now significantly faster and more reliable with failure rates below 1%"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (September, 2026)](../../../posts/yzhums-com/75794.md) (community post): "Admin Center now supports managing production and sandbox environments"
+- [Business Central 2026 release wave 2 (BC29): Cancelling a scheduled PTE update install (Next Major/Next Minor) in admin center](../../../posts/yzhums-com/76546.md) (community post): "cancel scheduled PTE installation directly from the admin center"
+- [Major update of Dynamics 365 Business Central 2026 release wave 2 (BC29) is available for existing customers](../../../posts/yzhums-com/76631.md) (community post): "schedule their environment updates through the Business Central Admin Center"
 - [Upgrade Business Central Sandbox to Preview Version](../../../videos/_6bYqpKzL8s.md) (video): "Schedule preview version update from admin center"
 - [Introducing: PTEs in Admin Center (2025 release wave 1)](../../../videos/_nmA6xJXKiY.md) (video): "Uninstall Apps from Admin Center"
 - [Transfer Environments](../../../videos/-uAvdZAWWwI.md) (video): "Environment transfers between Entra tenants; Transfer scheduling; Pending transfer cancellation"

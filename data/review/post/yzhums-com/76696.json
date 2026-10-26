@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/76696",
+  "input_hash": "1b23e1d34e666e45850a4b53f423e3d9bbc36d163709414f0299e6807b996b52",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:38:50.159Z",
+  "issues": [
+    "Key point on speed overstates the RDLC comparison: the post says one-click insertion of complex elements is not possible in RDLC, not that it is faster than RDLC.",
+    "Feature 'Conditional visibility' belongs to a separate post that is only linked in the PS section; this post does not cover it.",
+    "Both object entries refer to the same report 1305; the duplicate entry is dropped."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032909,
+    "posts_in_call": 4
+  }
+}

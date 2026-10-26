@@ -7,11 +7,11 @@
   "words": 742,
   "summary": "Business Central 2026 wave 1 introduces a new AL command to download symbol files directly from Microsoft's public NuGet feeds without needing a running environment, supporting country/region-specific packages and custom feeds through VS Code settings.",
   "key_points": [
-    "Symbol files are reference packages representing tables, pages, and codeunits that AL projects need to know about but don't contain source code",
-    "The new AL: Download Symbols from Global Sources command eliminates the requirement for a Docker container or Sandbox environment to download symbols",
-    "Developers can specify country/region codes using al.symbolsCountryRegion setting (ISO codes like 'us', 'de' or 'w1' for worldwide)",
-    "Custom NuGet feeds can be configured via al.customNugetFeeds and restricted to only custom feeds with al.useOnlyCustomFeeds setting",
-    "Downloaded symbols are saved in ./.alpackages directory and can be used as context for GitHub Copilot"
+    "A symbol file acts as the source code of an extension, letting an AL project reference tables, pages and codeunits from the base app or other extensions",
+    "The new AL: Download Symbols from Global Sources command gets app packages from Microsoft's public NuGet feeds, so no Docker container or sandbox is needed",
+    "al.symbolsCountryRegion sets the localization using two-letter ISO codes such as us or de, or w1 for worldwide; if it is not set, you are prompted during the download",
+    "Custom public NuGet v3 feeds without authentication can be added, and al.useOnlyCustomFeeds limits downloads to those feeds",
+    "The version to download is controlled by the application property in app.json"
   ],
   "systems": [
     "development",

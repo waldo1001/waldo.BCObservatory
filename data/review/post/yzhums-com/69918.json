@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/69918",
+  "input_hash": "47717f99dcde1ee17f4a8c8f5f9289200e10f4aac71aa660d21162302d37b7d5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:10.141Z",
+  "issues": [
+    "Summary, objects, features, versions and quotes are supported by the post.",
+    "Key points omitted the caveat that a next-version app will fail to install on the current version after re-upload, and the BC29 update adding cancellation in the admin center.",
+    "Key point mixed up the Deployment Status action with the Extension Installation Status page that lacks the cancel action."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024108,
+    "posts_in_call": 4
+  }
+}

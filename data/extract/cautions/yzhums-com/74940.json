@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/74940",
+  "page_id": "post/yzhums-com/74940",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "This standard method has a limitation: it only checks for duplicate External Document No. for the same customer, rather than across all customers.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Customer Mgt."
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003348,
+    "posts_in_call": 4
+  }
+}

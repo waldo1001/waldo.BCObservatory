@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:27.211Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,6 +77,9 @@ links:
   posts:
     - post/aardvarklabs-blog/3118
     - post/duiliotacconi-com/1425
+    - post/yzhums-com/61561
+    - post/yzhums-com/67623
+    - post/yzhums-com/71365
   guidelines: []
   changes:
     - change/bcapps/11847
@@ -92,7 +95,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 2
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 3379cd754f86203aa303a146696436a67af354ae6edb858e850701c69ce460a8
@@ -157,5 +160,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11847 Use matching key for workflow event step instance lookup](../../../../../changes/bcapps/11847.md) (code change): "A workflow step instance lookup key is redefined to match the actual filter and sort order"
 - [Leveraging RecordRef and FieldRef for Dynamic Coding](../../../../../posts/aardvarklabs-blog/3118.md) (community post): "demonstrates practical use cases like summing amounts across different table types"
 - [Optimized Locking feature vs Dynamics 365 Business Central](../../../../../posts/duiliotacconi-com/1425.md) (community post): "Tri-state locking and ReadIsolation in BC apply only to in-transaction single reads"
+- [Dynamics 365 Business Central: How to calculate the total (sum) of a column in a table (Four ways)](../../../../../posts/yzhums-com/61561.md) (community post): "CalcSums method works with SumIndexFields in keys for efficiency"
+- [Business Central 2025 wave 2 (BC27): RecordRef – Get/Search field by name (New overloads)](../../../../../posts/yzhums-com/67623.md) (community post): "new overloads to RecordRef Field and FieldExist methods"
+- [Business Central 2026 release wave 1 (BC28): AL developers can use semantic search on data and metadata](../../../../../posts/yzhums-com/71365.md) (community post): "AL developers can use semantic search on data and metadata. AL developers in Business Central"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

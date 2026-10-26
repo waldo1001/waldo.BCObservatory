@@ -5,12 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2025-11-10T07:27:24.000Z",
   "words": 729,
-  "summary": "Business Central 2025 wave 2 (BC27.1) introduces the Model Context Protocol (MCP) server, enabling AI agents to connect to Business Central through a standardized API. This allows seamless integration with intelligent agents from platforms like Azure OpenAI and Copilot Studio, automating tasks and enabling conversational interaction with ERP data.",
+  "summary": "BC27.1 brings a public preview of the Business Central MCP server, which lets AI agents such as those built in Copilot Studio discover and call Business Central APIs. A new page in Business Central configures which standard or custom APIs are exposed as tools, along with their permissions and options such as dynamic tool mode. At the time of writing, the author saw the Copilot Studio MCP connector only in one Japan-region paid tenant.",
   "key_points": [
-    "MCP is an open standard that lets AI agents discover and invoke operations on Business Central entities like customers, items, and sales orders in a plug-and-play way",
-    "Business Central now has a new page to manage MCP APIs, supporting standard APIs and custom APIs with configurable permissions and dynamic tool mode",
-    "Microsoft Copilot Studio includes a built-in Business Central MCP connector that allows agents to query customer lists and other data through standardized connections",
-    "The feature enables automation of repetitive tasks, streamlines workflows, and provides real-time data synchronization between AI agents and Business Central"
+    "MCP is an open standard that lets AI agents discover and invoke Business Central operations such as customers, items and sales orders",
+    "A new Business Central page configures MCP tools: all standard APIs or custom APIs, per-line read/create/modify/delete/bound action permissions, plus header settings such as Active, Dynamic Tool Mode, Discover Additional Objects and Allow Create/Update/Delete Tools",
+    "Only page object types appear in the setup, so the author questions whether query APIs are supported",
+    "Copilot Studio offers a standard Business Central MCP tool where you set environment, company and MCP configuration, then test it, for example by listing customers",
+    "Running a local MCP server in tools like Claude for Desktop still works but the author finds it complicated; on-premises availability is unconfirmed"
   ],
   "systems": [
     "copilot",
@@ -24,12 +25,7 @@
     "business central integration",
     "api management"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "MCP API management page"
-    }
-  ],
+  "objects": [],
   "features": [
     "Model Context Protocol (MCP) server",
     "AI agent integration",

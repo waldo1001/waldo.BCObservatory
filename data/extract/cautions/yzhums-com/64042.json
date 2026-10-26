@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/64042",
+  "page_id": "post/yzhums-com/64042",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "If you encounter a file that cannot be converted, the following error message will be displayed.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Document Report Mgt."
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

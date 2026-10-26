@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/31884",
+  "page_id": "post/yzhums-com/31884",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "If the table primary key passed in is not Integer Data Type, a runtime error will occur.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "Sequence No. Mgt."
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002691,
+    "posts_in_call": 4
+  }
+}

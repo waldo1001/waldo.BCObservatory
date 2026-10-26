@@ -7,10 +7,10 @@
   "words": 383,
   "summary": "Running objects in actions now defaults to UI descriptors (Caption, Tooltip, AboutText, AboutTitle) from the target object. This ensures consistency and allows existing actions to automatically benefit from descriptors defined on pages and reports without duplication.",
   "key_points": [
-    "Actions with RunObject property automatically inherit AboutText and AboutTitle from their target page or report",
-    "Actions referring to reports now default to the Tooltip property defined on the target report",
-    "The Tooltip property was added to reports to support this feature",
-    "Property inheritance reduces duplication of UI descriptors across action definitions"
+    "In BC26, an action that only runs an object now defaults to the target object's Caption, Tooltip, AboutText and AboutTitle.",
+    "Actions that use RunObject on a page or report pick up that object's AboutText and AboutTitle when the action does not set them. Role Explorer and Report Explorer show these descriptions as teaching tooltips.",
+    "Reports now have a ToolTip property, and page actions that point to a report use the report's tooltip by default.",
+    "Tooltip inheritance only works for reports, because pages have no Tooltip property. Tooltip also cannot be added through an extension (error AL0124), so only base objects that already define it pass it on."
   ],
   "systems": [
     "development"
@@ -22,16 +22,7 @@
     "runobject",
     "ui consistency"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "Role Explorer"
-    },
-    {
-      "type": "other",
-      "name": "Report Explorer"
-    }
-  ],
+  "objects": [],
   "features": [
     "RunObject property defaults",
     "UI descriptor inheritance",

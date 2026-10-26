@@ -1,0 +1,37 @@
+{
+  "item_id": "blog/yzhums-com/76053",
+  "page_id": "post/yzhums-com/76053",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Tables with many fields might limit the ability of other extensions to add fields.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "ColumnsLimitTest"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "the total number of fields across a table and all its extensions cannot exceed the maximum number of columns allowed in SQL.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004744,
+    "posts_in_call": 4
+  }
+}

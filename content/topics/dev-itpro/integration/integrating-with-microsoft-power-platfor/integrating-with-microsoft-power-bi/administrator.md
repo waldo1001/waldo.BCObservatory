@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:48.203Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,7 +42,8 @@ links:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/72067
   guidelines: []
 learn_toc_path:
   - Integration
@@ -56,7 +57,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: b919f6b7c823a96f44f4f36dcb7acabb498da1d090ce0536908152b53491293e
@@ -93,5 +94,11 @@ The architecture page explains how reports are created and viewed in Power BI De
 - [Enabling Power BI integration with Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-setup): Learn how to set up the connection to Power BI. With Power BI reports, you can get insights, business intelligence, and key performance indicators from your data.
   - In the observatory: [Page 810 "Web Services"](../../../../../objects/page/810.md)
 - [Power BI integration component and architecture overview for Business Central\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview): Learn about the different aspects of Power BI integration with Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central 2026 release wave 1 (BC28.2): Power BI Report Deployments (Centralized Management of Power BI Apps)](../../../../../posts/yzhums-com/72067.md) (community post): "Power BI Report Deployments page centralizes management of Power BI apps"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -5,12 +5,12 @@
   "source": "yzhums-com",
   "published_at": "2026-01-16T01:37:56.000Z",
   "words": 533,
-  "summary": "The post explains three methods to extract the month name from a date in Business Central: using the Format() method with date format codes, querying the Date virtual table (ID 2000000007), and using new Date methods available in BC25.",
+  "summary": "Shows two ways to get a month name from a date in AL: Format with the Month Text date format (full or three-letter), and reading Period Name from the Date virtual table (ID 2000000007) for the month period. As an extra, the BC25 Date methods return the month number, not the name.",
   "key_points": [
-    "Format() method with '<Month Text>' format code extracts full or abbreviated month names from any date",
-    "Date virtual table provides Period Name field containing month names based on period type",
-    "New Date/Time methods in BC25 allow simple month extraction using built-in functions",
-    "Each approach suits different scenarios: formatting for display, virtual table for complex date logic, new methods for simplicity"
+    "Format(date, 0, '<Month Text>') returns the full month name; adding a length of 3 gives the short name.",
+    "The Date virtual table has the primary key Period Type plus Period Start; getting the Month row at the start of the month returns its Period Name.",
+    "The Date table can be opened in the browser by adding the table=2000000007 URL parameter.",
+    "The BC25 Date methods (for example .Month) give the month number only, which is simplest when the number is enough."
   ],
   "systems": [
     "development",

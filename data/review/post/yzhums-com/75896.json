@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/75896",
+  "input_hash": "44417b7c157b6981e75a5633c71b31d2cbe90ab25620c7be69ca1f033d8b3263",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:12.578Z",
+  "issues": [
+    "Summary, features and quotes are supported.",
+    "Key points lacked the field lengths and the note that values are not visible in Page Inspection because only visible FlowFields are calculated; added them."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032632,
+    "posts_in_call": 4
+  }
+}

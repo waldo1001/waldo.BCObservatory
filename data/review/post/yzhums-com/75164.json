@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/75164",
+  "input_hash": "8c6d381996623507d51b10048e982549df29d31d35d7104322aac80fadba095c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:29.532Z",
+  "issues": [
+    "The summary, key points, objects and quotes match the post.",
+    "The administration system is not supported. The post covers inventory journals and ledger entries, not admin tasks.",
+    "The page leaves out the Find Entries approach the post mentions, but this is minor."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025316,
+    "posts_in_call": 4
+  }
+}

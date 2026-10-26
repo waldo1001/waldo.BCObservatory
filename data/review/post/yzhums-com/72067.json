@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/72067",
+  "input_hash": "2fb930400217b21a9727906ee49f2549f9da05f5ba4ca7a51e0f74f644d09a2d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:07.362Z",
+  "issues": [
+    "Key point claimed real-time status monitoring; the post only describes refreshing status with Reload and opening detailed steps.",
+    "Key point understated the restriction: the page currently works only in evaluation companies.",
+    "Finance and inventory system tags are weak since they appear only as Power BI app areas, but kept."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030398,
+    "posts_in_call": 4
+  }
+}

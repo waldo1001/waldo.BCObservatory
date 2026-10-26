@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/yzhums-com/73895",
+  "input_hash": "2f235c3a647f9a1c938860fedbfd423bae01cb723760bbc6f5bfd1dd837e09e5",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:40:06.533Z",
+  "issues": [
+    "The steps using the Item Reclassification Journal and Item Tracking Lines match the post, and so does the posting step.",
+    "Every listed page is named in the post. The warehouse operations topic is a loose fit but does no harm."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027303,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/67043",
+  "input_hash": "6882ea98085c4de05cfcb156294cc6b8cde0f719410d2d6e7a5df4a882174fe6",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:27.978Z",
+  "issues": [
+    "Quote 1 joins the bulleted list items into one sentence with commas, so it is not verbatim; dropped.",
+    "The summary, key points, object (codeunit 433 is linked in the post), features and systems are supported."
+  ],
+  "applied": [
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026787,
+    "posts_in_call": 4
+  }
+}

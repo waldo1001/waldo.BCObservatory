@@ -5,12 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2026-07-10T01:04:35.000Z",
   "words": 476,
-  "summary": "Business Central 2026 wave 1 introduces Show Currency Symbol/Code and Currency Symbol Position settings on the General Ledger Setup and Currencies pages. These new features allow organizations to display currency symbols or codes in amount fields throughout the system with flexible placement options before or after amounts.",
+  "summary": "BC28 (2026 release wave 1) adds a Show Currency setting and a Currency Symbol Position setting to General Ledger Setup, plus a Currency Symbol Position field on the Currencies page. Together they let amount fields show a currency symbol or code before or after the amount.",
   "key_points": [
-    "Two new settings added to General Ledger Setup: Show Currency (controls whether symbols/codes appear for LCY or FCY) and Currency Symbol Position (placement relative to amount)",
-    "Currency Symbol Position setting also added to Currencies page for foreign currency configuration",
-    "LCY formatting is controlled globally from General Ledger Setup, while FCY formatting is configured individually for each currency record",
-    "Currency symbol position settings automatically apply to all amount fields throughout the system once configured"
+    "General Ledger Setup gains Show Currency, which controls when a symbol or code is shown for LCY and FCY, and Currency Symbol Position",
+    "Show Currency applies globally to both local and foreign currencies",
+    "Symbol position on General Ledger Setup covers only LCY; each foreign currency sets its own position on the Currencies page",
+    "Once set, the formatting is applied to amount fields across the system",
+    "The feature was rolled back earlier and is available again in BC28.3"
   ],
   "systems": [
     "finance",
@@ -35,9 +36,7 @@
   ],
   "features": [
     "Show Currency Symbol/Code",
-    "Currency Symbol Position",
-    "Foreign Currency Display",
-    "Local Currency Configuration"
+    "Currency Symbol Position"
   ],
   "versions": [
     "BC28.3",

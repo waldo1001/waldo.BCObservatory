@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/65426",
+  "input_hash": "9503fbeb5d5cb3036732cd820817bbc5e764a3f54154e4d8b2f41fa037f4f30e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.125Z",
+  "issues": [
+    "Key point claimed Blob fields are unlimited; the post only says they hold longer text.",
+    "Key point invented a recommendation against modifying system tables; the post says Configuration Package Blob import from BC24 works only for non-system tables.",
+    "Administration system is not supported by the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

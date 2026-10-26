@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/71493",
+  "input_hash": "edd18f8276dc35fabc8c13bdca6624f65aa5713287f65fe1f9dd4d1ffeb1e54c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:41.660Z",
+  "issues": [
+    "Summary and key points match the post.",
+    "Deferral codes and line discounts are only data added to the demo set. The post does not cover them as features, so they were dropped from the feature list.",
+    "The quote about configuration packages being deprecated is real and gives useful context."
+  ],
+  "applied": [
+    "dropped 2 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026157,
+    "posts_in_call": 4
+  }
+}

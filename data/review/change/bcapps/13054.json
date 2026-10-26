@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/13054",
+  "input_hash": "c3d0ddf936b7aa94d4fe1d6f3750f03436ca45de9e4cc10cfb6b931f344e10b3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:43:18.949Z",
+  "issues": [
+    "The description says it corrects the error FactBox reference and adds support for filtered and temporary-entry exports, so behavior_change should be true.",
+    "Fields and the buffer table move from the FR base layer into the app, which could affect extensions. No obsoletion details were given, so breaking is left false.",
+    "The key points now include the FactBox fix and the data migration."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026453,
+    "changes_in_call": 6
+  }
+}

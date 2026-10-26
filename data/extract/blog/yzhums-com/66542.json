@@ -7,10 +7,11 @@
   "words": 543,
   "summary": "The UsageCategory property in AL determines how pages, reports, and queries appear when users search via Tell Me in Business Central. Setting this property correctly categorizes objects in search results and the role explorer, helping users navigate and improving productivity.",
   "key_points": [
-    "UsageCategory is an AL property that makes pages, reports, and queries searchable in Tell Me and must be explicitly set or objects won't appear in search results",
-    "The property has six values: None, Lists, Tasks, ReportsAndAnalysis, Documents, History, and Administration, each mapping to different categories in the UI",
-    "UsageCategory categories appear in Tell Me search results and also control visibility in the role explorer's Reports and Analysis and Administration sections",
-    "A consistent approach to categorizing pages and reports using UsageCategory improves user navigation and productivity"
+    "UsageCategory is an AL property that makes pages, reports and queries show up in Tell Me; if it is None or not set, the object does not appear in search",
+    "The property has seven options: None, Lists, Tasks, ReportsAndAnalysis, Documents, History and Administration; History is shown as Archive in Tell Me",
+    "Lists, Tasks and Administration fall under Pages and Tasks, while ReportsAndAnalysis, Documents and History fall under Reports and Analysis",
+    "Role explorer uses UsageCategory too: its Reports and Analysis and Administration actions show objects set to those values",
+    "Queries can be added to Tell Me starting with BC23.1"
   ],
   "systems": [
     "development",

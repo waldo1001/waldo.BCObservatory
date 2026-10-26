@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/64148",
+  "page_id": "post/yzhums-com/64148",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "You should not use the On-Premises version to customize extensions for Cloud (SaaS).",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Setting the \"server\" to http://localhost:8080/ can also connect to the environment, but it will affect the URL opened during debugging.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003998,
+    "posts_in_call": 4
+  }
+}

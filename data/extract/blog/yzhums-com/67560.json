@@ -7,14 +7,14 @@
   "words": 615,
   "summary": "BC27 introduces new values (AsReadOnly, AsReadWrite) for the AllowInCustomizations property to give AL developers finer control over how table fields can be used in page customizations. This property can now be set at table, table extension, and field levels, with corresponding analyzer rules to support field classification.",
   "key_points": [
-    "AllowInCustomizations property now accepts AsReadOnly (read-only in customizations) and AsReadWrite (editable in customizations) values in addition to Never",
-    "The property can be set at table, table extension, and field levels for more efficient field management",
-    "Default value ToBeClassified and deprecated value Always behave like AsReadOnly",
-    "New analyzer rules AS0138, AS0139, and PTE0026 support field classification but are currently optional"
+    "BC27 adds AsReadOnly and AsReadWrite to the AllowInCustomizations property. Never still keeps fields out of page customizations.",
+    "With AsReadOnly, a field can be added in a page customization but not made editable. Setting Editable to true gives error AL0808.",
+    "ToBeClassified (the default) and the deprecated Always both behave like AsReadOnly. Using Always produces warning AL0667.",
+    "The property can now be set on tables and table extensions. On an extension it only covers fields declared in that extension.",
+    "The new analyzer rules AS0138, AS0139 and PTE0026 are optional and do not block AppSource or PTE uploads."
   ],
   "systems": [
-    "development",
-    "administration"
+    "development"
   ],
   "topics": [
     "allowincustomizations property",

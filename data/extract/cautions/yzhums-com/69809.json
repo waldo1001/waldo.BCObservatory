@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/69809",
+  "page_id": "post/yzhums-com/69809",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If you don't include a permission set with your extension, only users with the SUPER permission set will be able to use the extension.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Please note that this file will not update automatically.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002759,
+    "posts_in_call": 4
+  }
+}

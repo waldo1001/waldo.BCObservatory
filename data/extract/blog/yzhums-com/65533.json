@@ -7,10 +7,10 @@
   "words": 425,
   "summary": "This post explains how to automatically enable the Allow HttpClient Requests setting for custom extensions during installation using an install codeunit, avoiding the need for manual configuration in each environment.",
   "key_points": [
-    "HttpClient requests to external services require explicit Allow HttpClient Requests permission in extension settings",
-    "Without this setting enabled, outbound HTTP calls fail and users see blocking dialogs during initial requests",
-    "An install codeunit can automatically enable this setting by modifying the NAV App Setting table during extension installation",
-    "Using an install trigger eliminates manual configuration steps in each Business Central environment"
+    "Apps calling external services through HttpClient need Allow HttpClient Requests enabled in Extension Settings, per app including library apps",
+    "If the setting is off, calls can fail in the platform and users get a prompt asking whether to allow the request",
+    "Choosing Allow Always enables the option, but that has to happen manually in every environment",
+    "The setting lives in system table NAV App Setting, so an install codeunit can read the current module info and set the flag on install"
   ],
   "systems": [
     "development",

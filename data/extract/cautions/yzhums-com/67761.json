@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/yzhums-com/67761",
+  "page_id": "post/yzhums-com/67761",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "This new feature is not yet documented in the Business Central 2025 release wave 2 (BC27) release plan",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27",
+        "2025 release wave 2"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "The use of the MaskType property is restricted by AW0017, which prohibits setting this property on fields inside repeater controls.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27",
+        "2025 release wave 2"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "The Property 'MaskType' cannot be used if the property 'ExtendedDataType' is set to 'Masked'",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27",
+        "2025 release wave 2"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Although this property can be set for standard fields, an error will be prompted when publishing.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27",
+        "2025 release wave 2"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004641,
+    "posts_in_call": 4
+  }
+}

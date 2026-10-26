@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:12:44.798Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -261,30 +261,10 @@ links:
       label: possibly related
       why: both name Page 22 "Customer List"
       by: code
-    - to: post/gerardorenteria-blog/11565
-      title: AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
     - to: video/KmuTVkodRXM
       title: All new goodies about AL Namespace in BC 2025 wave 2
       label: possibly related
       why: both name Page 22 "Customer List"
-      by: code
-    - to: post/aardvarklabs-blog/2565
-      title: "Business Central 2027 release wave 1: Preparing for OData Endpoint Removal"
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: video/sIWz2yPqLpo
-      title: "Business Central BC29: Control Global Symbol Versions"
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: video/_JkZCp64jNw
-      title: Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
-      label: possibly related
-      why: both name Page 21 "Customer Card"
       by: code
     - to: video/H7R_m8Ue38g
       title: "Business Central v29: System Audit Fields Now Available in Analysis Mode"
@@ -296,15 +276,35 @@ links:
       label: possibly related
       why: both name Codeunit 457 "Environment Information"
       by: code
-    - to: post/yzhums-com/70630
-      title: "Dynamics 365 Business Central: A universal method to check if a Field has a value in AL"
+    - to: post/yzhums-com/63595
+      title: "Dynamics 365 Business Central: Convert Word (.docx) To PDF (.pdf) within BC (No control add-in and APIs)"
       label: possibly related
-      why: both name Page 21 "Customer Card"
+      why: both name Page 22 "Customer List"
       by: code
-    - to: post/demiliani-com/12439
-      title: "Dynamics 365 Business Central: controlling the Summary system part."
+    - to: post/yzhums-com/68731
+      title: "Dynamics 365 Business Central: How to get current Profile (Role) info (Profile ID, Display Name, Source, Role Center ID, etc.) via AL"
       label: possibly related
-      why: both name Page 21 "Customer Card"
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/yzhums-com/56521
+      title: "Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/yzhums-com/67552
+      title: "Dynamics 365 Business Central: How to quickly get User Experience/Experience Tier (Essential or Premium) in AL"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/yzhums-com/72040
+      title: "Dynamics 365 Business Central: How to quickly identify the first transaction date and the number of days since the last sale with a customer"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
+    - to: post/yzhums-com/61818
+      title: "Dynamics 365 Business Central: How to substitute a page for another page via AL"
+      label: possibly related
+      why: both name Page 22 "Customer List"
       by: code
 video_id: TY82NR2hGEg
 channel: yt-microsoft
@@ -942,14 +942,14 @@ Not found in BC28-30: codeunit "Bing Maps GeoCode", table "GL entry", codeunit "
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [🕐 Remember When Lists Could Sort By Any Key? 🔄](../posts/gerardorenteria-blog/12961.md) — possibly related: both name Page 22 "Customer List"
-- [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../posts/gerardorenteria-blog/11565.md) — possibly related: both name Page 21 "Customer Card"
 - [All new goodies about AL Namespace in BC 2025 wave 2](../videos/KmuTVkodRXM.md) — possibly related: both name Page 22 "Customer List"
-- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../posts/aardvarklabs-blog/2565.md) — possibly related: both name Page 21 "Customer Card"
-- [Business Central BC29: Control Global Symbol Versions](../videos/sIWz2yPqLpo.md) — possibly related: both name Page 21 "Customer Card"
-- [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../videos/_JkZCp64jNw.md) — possibly related: both name Page 21 "Customer Card"
 - [Business Central v29: System Audit Fields Now Available in Analysis Mode](../videos/H7R_m8Ue38g.md) — possibly related: both name Page 22 "Customer List"
 - [Creating Data Driven Text with AI in Business Central](../posts/aardvarklabs-blog/1816.md) — possibly related: both name Codeunit 457 "Environment Information"
-- [Dynamics 365 Business Central: A universal method to check if a Field has a value in AL](../posts/yzhums-com/70630.md) — possibly related: both name Page 21 "Customer Card"
-- [Dynamics 365 Business Central: controlling the Summary system part.](../posts/demiliani-com/12439.md) — possibly related: both name Page 21 "Customer Card"
+- [Dynamics 365 Business Central: Convert Word (.docx) To PDF (.pdf) within BC (No control add-in and APIs)](../posts/yzhums-com/63595.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics 365 Business Central: How to get current Profile (Role) info (Profile ID, Display Name, Source, Role Center ID, etc.) via AL](../posts/yzhums-com/68731.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../posts/yzhums-com/56521.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics 365 Business Central: How to quickly get User Experience/Experience Tier (Essential or Premium) in AL](../posts/yzhums-com/67552.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics 365 Business Central: How to quickly identify the first transaction date and the number of days since the last sale with a customer](../posts/yzhums-com/72040.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics 365 Business Central: How to substitute a page for another page via AL](../posts/yzhums-com/61818.md) — possibly related: both name Page 22 "Customer List"
 
 Presenters (as heard): Peter Borring, Stephen Balslev, Espen Kristoffersen, Freddy Christensen, Asbjørn, Peter, Stefan, Esben, Kurt.

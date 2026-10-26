@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:18.859Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,7 +106,10 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/56521
+    - post/yzhums-com/62513
+    - post/yzhums-com/64155
   guidelines: []
   changes:
     - change/bcapps/10979
@@ -123,7 +126,7 @@ coverage:
   learn: 10
   code: 0
   video: 0
-  blog: 0
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 6040fdb53303e6be71482e6d4a51ec85423a87274a55ffd2b1d830e3ec669f89
@@ -174,5 +177,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10979 [Master] Promote Excise Taxes action on Item card](../../../../../changes/bcapps/10979.md) (code change): "Excise Taxes action is now more prominent on the Item Card"
 - [#207 2 AL/BC UI patterns: client-expression in-list (AL0573) and Role Center AccessByPermission](../../../../../changes/bcquality/207.md) (code change): "in-list set-membership tests in client expressions such as Visible or Enabled on actions"
+- [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../../../../../posts/yzhums-com/56521.md) (community post): "hide or disable the New, Edit (Edit List), and Delete actions"
+- [Business Central 2025 wave 1 (BC26): Running objects in actions defaults to UI descriptors on target object](../../../../../posts/yzhums-com/62513.md) (community post): "Actions with RunObject property automatically inherit AboutText and AboutTitle"
+- [Dynamics 365 Business Central: Overview of all available action (button) icons/images](../../../../../posts/yzhums-com/64155.md) (community post): "Icons are added to actions using the Image property in AL code"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

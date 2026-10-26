@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/75649",
+  "input_hash": "4ef8b742786b5e69915b6dcc5776541933e5d2d623a5b2fa02f8bc1e52dd16b7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:12.655Z",
+  "issues": [
+    "The summary calls the Customer Card a form; it is a page that the example extends.",
+    "Data import and API integration are only mentioned as background, so they should not be listed as features or as an integration system.",
+    "Quote 2 changes the dash formatting of the original wording; quote 1 already covers the key fact."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 quote(s)",
+    "dropped 2 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022967,
+    "posts_in_call": 4
+  }
+}

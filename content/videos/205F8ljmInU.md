@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:14:11.197Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -126,6 +126,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/69023
+      title: "Dynamics 365 Business Central: How to show Experience Tier (Essential or Premium) on the Companies (list page)"
+      label: possibly related
+      why: both name Page 1 "Company Information"
+      by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/finance-how-to-export-audit-files
       title: Export data for auditing
       label: possibly related
@@ -327,6 +332,7 @@ Not found in BC28-30: page "VAT Posting Setup for SAF-T", page "Audit Document".
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Dynamics 365 Business Central: How to show Experience Tier (Essential or Premium) on the Companies (list page)](../posts/yzhums-com/69023.md) — possibly related: both name Page 1 "Company Information"
 - [Export data for auditing](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-export-audit-files) — possibly related: names Page 5260 "G/L Account Mapping"
 - [Standard chart of accounts in Denmark](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa) — possibly related: names Page 5260 "G/L Account Mapping"
 - [Use Company Badges to Identify the Company](../videos/q7ZokiKuhcw.md) — possibly related: both name Page 1 "Company Information"

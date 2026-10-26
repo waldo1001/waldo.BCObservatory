@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:44.974Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,6 +140,8 @@ links:
   posts:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f
+    - post/yzhums-com/70273
+    - post/yzhums-com/74106
   guidelines: []
   changes:
     - change/bcapps/11155
@@ -156,7 +158,7 @@ coverage:
   learn: 11
   code: 22
   video: 1
-  blog: 2
+  blog: 4
   guideline: 0
 bc_forms:
   - 30
@@ -238,6 +240,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9933 [MAIN]-Fix-Bug 644909 Cant modify Item Template after Item deletion](../../../../changes/bcapps/9933.md) (code change): "Item Template validation no longer fails with warehouse entry errors"
 - [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3.md) (community post): "warehouse setup; location management; configuration; business central 2026"
 - [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f.md) (community post): "Item variants can now have their own pictures for visual identification"
+- [Dynamics 365 Business Central: Control over adjustment of one item (Adjust Inventory)](../../../../posts/yzhums-com/70273.md) (community post): "The Adjust Inventory function in Business Central allows quick inventory level changes"
+- [Dynamics 365 Business Central: How to create a new item from a picture/image (Out-of-the-Box)](../../../../posts/yzhums-com/74106.md) (community post): "Business Central allows users to create new items directly from pictures"
 - [How to Set Up Locations in Business Central (2025)](../../../../videos/X3xygXmgRqU.md) (video): "How to Set Up Locations in Business Central"
 
 ## Business Central pages and reports

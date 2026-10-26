@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/76505",
+  "input_hash": "3b5d9204eae5f206c8177a27a8abe296c7e5eef6596903d4167b90e16a48ee14",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:38:54.140Z",
+  "issues": [
+    "Key point 1 is wrong about BC23. That version already merged all extension fields into one companion table per base table, so a query needed at most one join. It did not use multiple separate companion tables.",
+    "The features Unified field storage and SQL JOIN elimination are made-up labels, not named features. Dropped them.",
+    "Quotes match the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 2 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03631,
+    "posts_in_call": 4
+  }
+}

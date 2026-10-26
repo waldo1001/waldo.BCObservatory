@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/72045",
+  "input_hash": "eae955e42c77b6f575ea7e668c31724f4ebbc1e0256373d6bb2375bc31bedbc7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:23.365Z",
+  "issues": [
+    "Summary, key points, run profiles and limitations match the post.",
+    "The object entry for test codeunits is a generic description, not a named AL object, so it is dropped."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025339,
+    "posts_in_call": 4
+  }
+}

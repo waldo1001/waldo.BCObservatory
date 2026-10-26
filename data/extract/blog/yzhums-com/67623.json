@@ -52,10 +52,6 @@
       "why_it_matters": "This is the core feature announcement that directly describes what BC27 adds to simplify field access in AL code."
     },
     {
-      "text": "Microsoft has brought us an easier way. New overloads are added to the Field and FieldExist methods.",
-      "why_it_matters": "Explains this is a quality-of-life improvement that reduces coding complexity when working with dynamic fields."
-    },
-    {
       "text": "'Field' is not available in runtime version '15.0'. The supported runtime versions are: '16.0' or greater.",
       "why_it_matters": "Critical compatibility detail that developers must know to avoid deployment issues when using the new overloads."
     }

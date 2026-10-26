@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/64057",
+  "page_id": "post/yzhums-com/64057",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "'WriteWithSecretsTo' is not available in runtime version '15.0'. The supported runtime versions are: '15.1' or greater.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "15.0"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

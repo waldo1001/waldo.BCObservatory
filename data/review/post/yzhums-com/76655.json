@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/76655",
+  "input_hash": "2547ddbe68aad3616f919561e5a51743b7e727e2fe8f00997cbda5dc70787f8a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:38:50.159Z",
+  "issues": [
+    "Key point claiming full feature parity with RDLC overstates the post, which only says Microsoft added a similar capability.",
+    "Key point wrongly ties the Hide If Empty controls to boolean fields; only Hide If False uses a boolean field dropdown, while the Hide If Empty controls work on empty or zero values."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032909,
+    "posts_in_call": 4
+  }
+}

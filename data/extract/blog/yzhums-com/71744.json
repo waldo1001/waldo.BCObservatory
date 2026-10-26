@@ -7,10 +7,10 @@
   "words": 434,
   "summary": "Business Central 2026 wave 1 introduces enhancements to Financial Reporting that streamline report creation, distribution, and administration. Report authors can customize layouts and branding, users can automate report scheduling and run reports across dimensions, and administrators gain centralized control of defaults and audit logging.",
   "key_points": [
-    "Report authors can customize PDF outputs with company logos, override global defaults for negative number formats and logo placement",
-    "Report users can schedule reports for distribution groups and run reports across all dimension values",
-    "Administrators can set global defaults and monitor report usage through new audit logs",
-    "Financial Reporting replaces the legacy Account Schedules feature with new dedicated APIs and standard financial report templates"
+    "Report authors can show the company logo on PDF output and override global defaults for negative number format, report period and logo placement on a single report.",
+    "Report users can schedule reports for a distribution group, with output delivered by email and to the report inbox, and can run a report over all values of a dimension.",
+    "Administrators can set global defaults for negative number format, report period and logo placement, and monitor report use in a new audit log.",
+    "Earlier versions already replaced account schedules with Financial Reports and added dedicated APIs plus standard reports and demo data; BC28 builds on that and also adds a tile view and options to hide filters."
   ],
   "systems": [
     "finance",

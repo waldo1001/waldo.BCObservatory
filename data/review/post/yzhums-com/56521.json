@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/56521",
+  "input_hash": "8ee29b003ec84e790a83ab1476ffd716ef32054f9a97bb12c9ed5dfb743aade1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:27.978Z",
+  "issues": [
+    "Key point 2 is wrong. Excluding permissions grays the actions out but does not hide them. In drop-down lists the New action stays visible and only gives a permission error when clicked.",
+    "Quote 1 joins the permission list into one sentence, so it is not verbatim; dropped.",
+    "All objects, the versions and the features are named in the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026787,
+    "posts_in_call": 4
+  }
+}

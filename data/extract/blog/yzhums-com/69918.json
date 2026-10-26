@@ -7,10 +7,11 @@
   "words": 464,
   "summary": "The post explains how to cancel a scheduled app update when deploying to the next version in Business Central. Since the Extension Installation Status page lacks a cancel action, the solution is to upload the same app version again to overwrite the scheduled installation details.",
   "key_points": [
-    "Re-uploading the same app version overwrites the original schedule and cancels the pending installation",
-    "Extension Management page handles app deployment with options for current, next minor, or next major version deployment",
-    "Deployment Status page shows installation progress but offers no direct cancel action",
-    "Business Central 2023 wave 2 introduced Apps Update Cadence for automatic minor updates and scheduled app updates"
+    "Re-uploading the same app version overwrites the original schedule, which is the workaround for cancelling a pending Next Minor or Next Major install",
+    "The Extension Installation Status page has no cancel action for scheduled installs",
+    "If the app contains next-version changes, the re-upload will fail to install on the current version, so extra steps are needed to prevent installation",
+    "BC23 Apps Update Cadence lets environments auto-update apps with minor updates and schedule individual app updates",
+    "A later update notes that BC29 adds cancelling scheduled PTE installs in the admin center"
   ],
   "systems": [
     "administration",

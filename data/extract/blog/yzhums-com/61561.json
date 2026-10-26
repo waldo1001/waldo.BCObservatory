@@ -7,10 +7,10 @@
   "words": 1561,
   "summary": "The post explains four methods to calculate column totals in Business Central: using AL loops (for, foreach, while, repeat-until), the Record.CalcSums method, Query objects with aggregation, and FlowFields. Each approach has different use cases and performance characteristics for developers calculating sums of data.",
   "key_points": [
-    "AL loops are the most universal approach but least efficient; repeat-until is simple for basic summation",
-    "CalcSums method works with SumIndexFields in keys for efficiency but does not support FlowFields",
-    "Query objects with Sum method property are recommended for frequent calculations and can group data by date components",
-    "FlowFields automatically calculate totals on pages without additional code logic using CalcFormula properties"
+    "AL loops such as repeat-until work in every situation but are not the most efficient way to total a column",
+    "CalcSums totals a field using current filters, is fastest with matching SumIndexFields keys, and does not accept FlowFields",
+    "Query objects with the Sum method, optionally grouped by Year, are recommended for frequent calculations at the cost of an extra object",
+    "FlowFields defined with CalcFormula show totals on pages without extra code but need a new field in a table"
   ],
   "systems": [
     "development",

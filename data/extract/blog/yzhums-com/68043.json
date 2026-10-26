@@ -7,10 +7,11 @@
   "words": 393,
   "summary": "Business Central 2025 wave 2 introduces Copilot-powered autofill for contact details such as address, phone, email, and website. The feature searches the web using Bing to suggest field values, reducing data entry time and errors for all users.",
   "key_points": [
-    "Copilot autofill now searches the web for customer and vendor contact information using Bing Search",
-    "Administrators must enable Bing Search on the Copilot & agent capabilities page to activate the feature",
-    "The feature builds on the wave 1 autofill capability and offers better reliability and support for 20 additional languages",
-    "Users can review and select suggested values before applying them to records"
+    "Copilot autofill now searches the web via Bing to suggest customer or vendor contact details such as address, phone, email and website",
+    "Administrators must enable Bing Search on the Copilot & agent capabilities page first",
+    "Builds on the 2025 wave 1 autofill feature and is now available in production environments",
+    "Users review the suggestions and apply them with Keep selected",
+    "Reliability is improved, and support for 20 more languages is planned for later in the wave"
   ],
   "systems": [
     "copilot",

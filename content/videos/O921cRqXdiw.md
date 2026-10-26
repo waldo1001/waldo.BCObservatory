@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:15:29.697Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -256,6 +256,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/70415
+      title: "Dynamics 365 Business Central: How to run a Report in Preview Mode without the Request Page (Hide Request Page)"
+      label: possibly related
+      why: both name Table 77 "Report Selections"
+      by: code
     - to: video/Gwgpj1U1wxI
       title: Introduction to Business Central Cloud Migration (2023)
       label: possibly related
@@ -782,6 +787,7 @@ Not found in BC28-30: table "G entry", table "upgrade TXS", codeunit "4001".
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Dynamics 365 Business Central: How to run a Report in Preview Mode without the Request Page (Hide Request Page)](../posts/yzhums-com/70415.md) — possibly related: both name Table 77 "Report Selections"
 - [Introduction to Business Central Cloud Migration (2023)](../videos/Gwgpj1U1wxI.md) — possibly related: both name Table 405 "Change Log Entry"
 - [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 405 "Change Log Entry"
 - [Publish, Synchronize and Install the ‘IndiaUpgradeTables’ extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/post-india-upgrade-tables) — possibly related: names Table 9650 "Custom Report Layout"

@@ -1,0 +1,41 @@
+{
+  "item_id": "blog/yzhums-com/67592",
+  "page_id": "post/yzhums-com/67592",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Environments on preview versions can't be updated after the version becomes generally available.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "They are automatically deleted when the preview period ends.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Production environment cannot support upgrading to the Preview version.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003354,
+    "posts_in_call": 4
+  }
+}

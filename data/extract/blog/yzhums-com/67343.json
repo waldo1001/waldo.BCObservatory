@@ -7,14 +7,13 @@
   "words": 560,
   "summary": "Business Central 2025 Wave 2 introduces the new Rec.Truncate AL method for efficiently deleting large volumes of table data in a single operation. This method improves performance over row-by-row DeleteAll operations by locking the table during the transaction, with configurable AutoIncrement behavior and delete permission checks, though it has several limitations including incompatibility with temporary tables, try functions, security filters, and tables with media fields.",
   "key_points": [
-    "Truncate method deletes all matching records in a table efficiently by locking the table until the transaction commits, significantly faster than DeleteAll for bulk operations",
-    "Supports parameters to check truncation support and control whether AutoIncrement fields reset to 0 or retain previous values",
-    "Not supported for temporary tables, system tables, tables with OnBefore/OnAfterDelete event subscriptions, security filters, media fields, flow fields, or when used within try functions",
-    "When used with filters, the method copies data to a temporary table first, creating overhead - use only when deleting a significant portion of table rows"
+    "Rec.Truncate (BC27) deletes all records in the current filter range far faster than row-by-row deletion, but locks the whole table until commit, so concurrency is lower than with DeleteAll.",
+    "Optional parameters let you check whether truncation is unsupported for the table and choose whether AutoIncrement fields reset to 0 or keep their prior value; delete permissions are enforced.",
+    "Not supported for temporary, system or non-Normal tables, inside try functions, with security filters, with filters on flow fields or many marked records, when OnBeforeDelete/OnAfterDelete are subscribed, or with Media/MediaSet fields; use DeleteAll there.",
+    "With filters the platform copies data to a temporary table and back, so filtering only pays off when most rows are deleted; the author saw runtime errors when filtering or using FindSet on large deletions."
   ],
   "systems": [
     "development",
-    "administration",
     "platform"
   ],
   "topics": [
@@ -24,12 +23,7 @@
     "table management",
     "bulk operations"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "Rec.Truncate"
-    }
-  ],
+  "objects": [],
   "features": [
     "Truncate method",
     "bulk data deletion",

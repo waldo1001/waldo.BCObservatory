@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:10:47.726Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -115,6 +115,16 @@ links:
       label: possibly related
       why: both name Table 98 "General Ledger Setup"
       by: code
+    - to: post/yzhums-com/64609
+      title: "Dynamics 365 Business Central: “Hide Company Bank Account” setup in General Ledger Setup (Update Company Bank Account on posted documents)"
+      label: possibly related
+      why: both name Table 98 "General Ledger Setup"
+      by: code
+    - to: post/yzhums-com/66463
+      title: "Dynamics 365 Business Central: How to prevent users from uploading duplicate files as attachments (Duplicate file names)"
+      label: possibly related
+      why: both name Table 98 "General Ledger Setup"
+      by: code
     - to: post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9
       title: How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.
       label: possibly related
@@ -127,11 +137,6 @@ links:
       by: code
     - to: post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165
       title: "Weekly Review: Business Central AL Development – May 31–June 6, 2026"
-      label: possibly related
-      why: both name Table 98 "General Ledger Setup"
-      by: code
-    - to: video/kJfGIKor3VA
-      title: What's New:Drill-Back and Dynamic Dimension Name Support in Power BI Apps for Business Central(2025)
       label: possibly related
       why: both name Table 98 "General Ledger Setup"
       by: code
@@ -356,9 +361,10 @@ No source states these links: they share an object, a model read them, or a pers
 - [Automating Posting Periods in Business Central with Date Formulas](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [Control Deferral Posting](../videos/VIda0Ok1SSQ.md) — possibly related: both name Table 98 "General Ledger Setup"
+- [Dynamics 365 Business Central: “Hide Company Bank Account” setup in General Ledger Setup (Update Company Bank Account on posted documents)](../posts/yzhums-com/64609.md) — possibly related: both name Table 98 "General Ledger Setup"
+- [Dynamics 365 Business Central: How to prevent users from uploading duplicate files as attachments (Duplicate file names)](../posts/yzhums-com/66463.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [Understanding Business Central’s Format Address Codeunit](../posts/aardvarklabs-blog/3928.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [Weekly Review: Business Central AL Development – May 31–June 6, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165.md) — possibly related: both name Table 98 "General Ledger Setup"
-- [What's New:Drill-Back and Dynamic Dimension Name Support in Power BI Apps for Business Central(2025)](../videos/kJfGIKor3VA.md) — possibly related: both name Table 98 "General Ledger Setup"
 
 Presenters (as heard): Kenny Pidan, Yan M Peterson.

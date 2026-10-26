@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:15.797Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,7 @@ links:
   videos: []
   posts:
     - post/waldo-be/317951
+    - post/yzhums-com/65999
   guidelines: []
   changes:
     - change/bcapps/10341
@@ -69,7 +70,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 9083582aa30905f2ff5abe6e301e6444474a2b6a405b4ba6c11f646d27f97ed1
@@ -113,5 +114,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12187 Restore parent table relations for Comment Line configuration imports](../../../../changes/bcapps/12187.md) (code change): "Restored twelve conditional table relations for Comment Line records during configuration"
 - [#9635 Obsolete MLLM Payables Agent rollout scaffold](../../../../changes/bcapps/9635.md) (code change): "Obsoleted the Use MLLM Processing field and PA MLLM Setup page as the feature is fully rolled out"
 - [Obsoleted and “no longer invoked” events in v26 Business Central](../../../../posts/waldo-be/317951.md) (community post): "apps to compile across versions but potentially failing at runtime"
+- [Dynamics 365 Business Central: Remove obsolete permissions from all permission sets](../../../../posts/yzhums-com/65999.md) (community post): "When objects are marked as ObsoleteState = Removed during version updates, associated permissions must be cleaned up"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:28.466Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,9 +41,9 @@ links:
   topics:
     - topic/business-central/analytics-business-intelligence-and-repo/develop-reports
   localizations: []
-  videos:
-    - video/c3paEbmDNmM
-  posts: []
+  videos: []
+  posts:
+    - post/yzhums-com/76367
   guidelines: []
   changes:
     - change/bcquality/230
@@ -57,8 +57,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
-  blog: 0
+  video: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 5ca3e133e33abdc1442938051f313b20bcb39e9766f705756fb12e441cdfd578
@@ -99,6 +99,6 @@ Then read Performance Articles for AL Developers. It covers efficient page desig
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#230 Knowledge: report layouts and dataset contract, query join and grouping defaults](../../../../changes/bcquality/230.md) (code change): "Report dataset column names are a contract with Excel Data sheets"
-- [What's New: Server and Database - New Reporting Capabilities (2023 release wave 2)](../../../../videos/c3paEbmDNmM.md) (video): "Server-Side Analysis Views on Queries; Excel Layout Multiple Data Sheets"
+- [Business Central 2026 release wave 2 (BC29): Reduce complexity of report datasets (Company information dataitem in Word layouts)](../../../../posts/yzhums-com/76367.md) (community post): "shared Company Information dataitem across all report datasets"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

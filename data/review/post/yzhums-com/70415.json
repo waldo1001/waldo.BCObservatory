@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/70415",
+  "input_hash": "17ccc11704df715df30f27f292fe1623fc6b70ffaeb3054bfd593f1abb638110",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:47.614Z",
+  "issues": [
+    "Administration system is not supported by the post; it is about AL development and reporting.",
+    "Summary, key points, objects, features and quotes match the post; quotes are verbatim."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

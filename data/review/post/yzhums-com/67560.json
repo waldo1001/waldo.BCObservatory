@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/67560",
+  "input_hash": "ac8dffe246131afe461316a5c07b8c5f15a97be9dea24bd705724621f2f37565",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:19.411Z",
+  "issues": [
+    "Summary, key points and features match the post.",
+    "Quote 1 joins two separate list lines and uses hyphens where the post has dashes. The meaning is the same, so I kept it.",
+    "The administration system is not supported. The post is about AL development only."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034612,
+    "posts_in_call": 4
+  }
+}

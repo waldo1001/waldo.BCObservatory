@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/67392",
+  "input_hash": "54c6a1e6604bf22781957eb65a7e9b1130aa2b75c47bab8c5ab08320274f192c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:13.652Z",
+  "issues": [
+    "A key point dates rule-based profiler scheduling to BC24, but the post says BC25 (2024 wave 2).",
+    "The reporting system is not supported by the post.",
+    "The versions list also wrongly contains BC24, but no edit field exists to remove it."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025512,
+    "posts_in_call": 4
+  }
+}

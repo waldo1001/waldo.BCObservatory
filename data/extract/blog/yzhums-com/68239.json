@@ -7,11 +7,10 @@
   "words": 785,
   "summary": "Business Central 2025 release wave 2 (BC27) is now generally available with platform version 27.0.39966.0 and application 27.0.38460.39974 for cloud, along with updates for earlier waves BC26, BC25, and BC24. The post provides cumulative update information, lifecycle dates, and support policy details for all active and end-of-life versions from BC27 back to BC13.",
   "key_points": [
-    "BC27 (2025 wave 2) launched October 1, 2025 with production and sandbox environment management in Admin Center",
-    "New cloud customers auto-enroll in BC27; existing customers receive email notifications for available updates",
-    "BC25 (2024 wave 2) now allows flexible environment updates: major updates shifted from 30-60 days to 5 months, with optional minor updates",
-    "On-premises BC27 available for download with different platform build (27.0.40210.0)",
-    "Modern lifecycle policy extends BC27 support through April 6, 2027"
+    "BC27 CU00 cloud build is Platform 27.0.39966.0 with Application 27.0.38460.39974; the on-premises build is Platform 27.0.40210.0 with Application 27.0.38460.40242",
+    "New customers start on BC27; existing customers are told by email when their update is available",
+    "October 2025 updates for older versions: BC26 26.6, BC25 25.12, BC24 24.18",
+    "Under the Modern Policy, on-premises 27.x is supported from Oct 1, 2025 to Apr 6, 2027; BC23 and older are listed as end of life"
   ],
   "systems": [
     "platform",
@@ -28,7 +27,6 @@
   "objects": [],
   "features": [
     "Production and Sandbox Environment Management",
-    "Admin Center environment controls",
     "Flexible environment update scheduling",
     "Cloud deployment",
     "On-premises deployment"

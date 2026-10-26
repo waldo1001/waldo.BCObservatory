@@ -7,10 +7,11 @@
   "words": 438,
   "summary": "Business Central 2025 wave 2 (BC27) changes how date methods return values for blank Date and DateTime fields in queries. Starting with BC27, blank dates return 0 for day, month, and year instead of 1, 1, and 1753 as in earlier versions.",
   "key_points": [
-    "Date methods (Day, Month, Year) can be applied to query columns to extract specific date components",
-    "In BC27 and later, blank dates (internally 0D) now return 0 for all date method components instead of defaults",
-    "Earlier versions (BC26 and earlier) returned 1 for day/month and 1753 for year when extracting from blank dates",
-    "This behavior change affects how blank date fields in Purchase Header and other tables are handled in queries"
+    "Setting the Method property on a query column to Day, Month or Year returns only that part of a date",
+    "BC stores a blank date internally as 0D, while SQL Server stores it as 01-01-1753",
+    "In BC26 and earlier, a blank date returns 1, 1 and 1753 for day, month and year",
+    "From BC27 onward, a blank date returns 0 for day, month and year",
+    "The example query over Purchase Header, Purchase Line and Item uses these methods on the Order Date field"
   ],
   "systems": [
     "development",

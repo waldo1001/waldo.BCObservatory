@@ -5,12 +5,12 @@
   "source": "yzhums-com",
   "published_at": "2025-09-25T00:50:56.000Z",
   "words": 340,
-  "summary": "Business Central 2025 wave 2 introduces three new layout information fields in the Excel layout template's aggregated metadata sheet: object caption, local date, and UTC timezone offset. This enhancement helps developers better configure Excel report layouts by providing additional contextual information.",
+  "summary": "BC27 (2025 wave 2) adds three layout information fields to the hidden Aggregated Metadata sheet of Excel layout templates: object caption, local date and UTC timezone offset. The change is listed in the AL Language extension 16.0 changelog, not in the release plan, and Word layouts do not have these fields yet.",
   "key_points": [
-    "Three new fields added to the Aggregated Metadata sheet in Excel layouts: object caption, local date, and UTC timezone offset",
-    "These fields support Excel report layout creation and design alongside existing dataset definition tasks",
-    "The feature is available in BC27 public preview but not yet documented in the official release plan",
-    "Word layouts do not yet include these new metadata fields despite having report metadata access capability"
+    "Excel layouts contain a hidden Aggregated Metadata sheet holding ReportMetadata and ReportRequest",
+    "BC27 adds object caption, local date and UTC timezone offset fields to that sheet",
+    "The change comes from the AL Language extension 16.0 changelog and is not yet in the release plan",
+    "Word layouts gained report and request metadata access in BC26 but do not have these three new fields"
   ],
   "systems": [
     "reporting",

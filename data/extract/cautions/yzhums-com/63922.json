@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/63922",
+  "page_id": "post/yzhums-com/63922",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If the variable is temporary, the value will not be obtained.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Note that if the original table is not a temporary table, [Optional] ShareTable = true cannot be used.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

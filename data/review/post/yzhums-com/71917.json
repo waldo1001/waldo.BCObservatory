@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/71917",
+  "input_hash": "bc2441bc27f376893d2a770f11e19bdce22e132822d2af11810b7de606428340",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:29.755Z",
+  "issues": [
+    "Quote 1 is only a link title for the SaaS admin center docs, and its explanation wrongly presents it as a BC28 feature.",
+    "Features Admin Center and production and sandbox environment management are only link text in the post, not content it discusses.",
+    "Build numbers, lifecycle dates and end-of-life listings in summary and key points are correct."
+  ],
+  "applied": [
+    "dropped 1 quote(s)",
+    "dropped 2 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03021,
+    "posts_in_call": 4
+  }
+}

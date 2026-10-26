@@ -1,0 +1,34 @@
+{
+  "item_id": "blog/yzhums-com/65721",
+  "page_id": "post/yzhums-com/65721",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Please note that it is not available in all regions yet.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC26.3",
+        "2025 release wave 1"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "This agent uses generative AI – review its actions for accuracy.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC26.3",
+        "2025 release wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004534,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/yzhums-com/65522",
+  "input_hash": "386d82286c7328c4fd087e3ae54098b1b3d8768904cffd672f2e7b091f3f748a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:42:40.108Z",
+  "issues": [
+    "The page is accurate. It covers codeunit 4113 Swiss QR Code Helper, an Item Card action that saves the QR image to the item picture, and Temp Blob as used in the code.",
+    "The first key point says 2D support dates from BC 2021 wave 2. The post only links to the BC19.1 article, but the point is a fair reading of that link."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

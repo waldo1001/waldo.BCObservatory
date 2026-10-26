@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:33.423Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -113,6 +113,7 @@ links:
   posts:
     - post/olofsimren-com/3564
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf
+    - post/yzhums-com/63913
   guidelines: []
   changes:
     - change/bcapps/12152
@@ -128,7 +129,7 @@ coverage:
   learn: 8
   code: 17
   video: 3
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 107
@@ -199,6 +200,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12429 Skip enabling incomplete existing retention policies on install/upgrade](../../../../changes/bcapps/12429.md) (code change): "Skip enabling incomplete retention policies during install and upgrade"
 - [Record Deletion Tool for Business Central in AppSource](../../../../posts/olofsimren-com/3564.md) (community post): "Allows cleanup of test transactions in a company."
 - [BC Friday Tips #79 Change Log Deletion on One Field](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf.md) (community post): "Enable deletion logging on only one field in the primary key"
+- [Dynamics 365 Business Central: How to easily check who created an environment, company and record and when](../../../../posts/yzhums-com/63913.md) (community post): "System audit fields (SystemCreatedAt, SystemCreatedBy, SystemModifiedAt, SystemModifiedBy) are included in every Business Central table"
 - [Use Retention Policies to Avoid Unnecessary Database Growth](../../../../videos/564XMP2IyLM.md) (video): "Use Retention Policies to Avoid Unnecessary Database Growth; automated deletion; data governance"
 - [What's New: Customer-Managed Encryption Key (2025 release wave 1)](../../../../videos/b-ixzwDS41c.md) (video): "Customer-Managed Encryption Key; data governance; privacy; security"
 - [What's New: Customer-Managed Encryption Key & Lockbox (2024 release wave 2)](../../../../videos/DnZJ2iOgIjI.md) (video): "customer-managed encryption key; lockbox; security; data encryption; enterprise policy"

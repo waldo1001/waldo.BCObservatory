@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: de5c61fcfa2d83dbb3934adde1378b3509ab89ba4217bd4c792b451565dfde4f
@@ -42,7 +42,8 @@ links:
   localizations: []
   videos:
     - video/OnC0a5zy-oQ
-  posts: []
+  posts:
+    - post/yzhums-com/67896
   guidelines: []
 learn_toc_path:
   - Administration
@@ -55,7 +56,7 @@ coverage:
   learn: 2
   code: 0
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: de5c61fcfa2d83dbb3934adde1378b3509ab89ba4217bd4c792b451565dfde4f
@@ -77,6 +78,7 @@ Path: [Administration](../../administration.md) > [Automation API](../automation
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Business Central 2025 wave 2 (BC27): Tenant administrators can set Feature Management switches with an API (page 30092 “APIV2 – Feature Management”)](../../../../posts/yzhums-com/67896.md) (community post): "Business Central 2025 wave 2 introduces an automation API that allows tenant administrators to manage Feature Management switches programmatically"
 - [What's Cooking in Business Central: Managing Feature Management through an API](../../../../videos/OnC0a5zy-oQ.md) (video): "Feature management; api; automation; get request; activate bound action"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

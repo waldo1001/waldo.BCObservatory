@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/73865",
+  "input_hash": "8123fc466da7404608641796abf5d43ca7714ae42c4a5526ca88d57611979045",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:02.611Z",
+  "issues": [
+    "Summary, key points and quotes are accurate.",
+    "The post is about locating partner download materials, not about BC administration, so the administration system is unsupported."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043795,
+    "posts_in_call": 4
+  }
+}

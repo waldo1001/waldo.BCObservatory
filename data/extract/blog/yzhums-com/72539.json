@@ -5,16 +5,15 @@
   "source": "yzhums-com",
   "published_at": "2026-04-28T01:50:30.000Z",
   "words": 543,
-  "summary": "The Sent Emails page in Business Central does not display recipient information by default. This post explains how to add a 'Sent To' field using a page extension that retrieves recipients from the Email Message codeunit by accessing the temporary Sent Email table.",
+  "summary": "The Sent Emails page (8883) shows the sender but not the recipients. The post adds a Sent To column with a page extension that reads the internal Message Id from table Sent Email via RecordRef and FieldRef, then calls Get and GetRecipients on the public Email Message codeunit to build a semicolon-separated list of To recipients.",
   "key_points": [
-    "The Sent Emails page (8883) uses a temporary table and does not include the 'Sent To' field",
-    "Table 8889 'Sent Email' has internal access restrictions, but codeunit 8904 'Email Message' provides public methods to retrieve recipients",
-    "A page extension can add a new field that populates recipient data via the GetRecipients method on OnAfterGetRecord trigger",
-    "The solution uses RecordRef and FieldRef to access the MessageId from the temporary table and match it with the email message"
+    "Sent Emails uses a temporary source table, and table 8889 Sent Email has no Sent To field; all its fields except Id are internal.",
+    "The standard Email Viewer gets recipients through Email Message Impl., which is internal and cannot be used from an extension.",
+    "The public codeunit Email Message offers Get and GetRecipients, which can stand in for the internal implementation.",
+    "RecordRef and FieldRef on the Sent Email table get around the internal access to read the Message Id in OnAfterGetRecord."
   ],
   "systems": [
     "integration",
-    "sales",
     "administration"
   ],
   "topics": [

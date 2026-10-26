@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/70502",
+  "input_hash": "068306adba40dca6989e66f3cc549fb839c850a807b1ddee10419696d301a39b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:47.594Z",
+  "issues": [
+    "The summary leaves out that the agent designer is a public preview in BC27.4 and is turned on from the Copilot and agent capabilities page.",
+    "The summary presents the task playground as a required test step before activation; the post says it can be skipped and used later.",
+    "The post's opening line wrongly names demo analytics as its topic; the page correctly ignores this."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

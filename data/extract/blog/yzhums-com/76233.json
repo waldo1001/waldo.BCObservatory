@@ -5,12 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2026-09-21T01:17:33.000Z",
   "words": 497,
-  "summary": "Query ReadState now supports ReadCommitted isolation levels in Business Central 2026 wave 2 (BC29), allowing AL queries to read only committed data and apply row locks for safer read-modify-write operations with configurable transaction isolation modes.",
+  "summary": "BC29 lets AL queries set ReadState to ReadCommitted so they read only committed data, and it adds isolation level choice for isolated storage reads, including row locking for safer read-modify-write work. This extends to queries what the ReadIsolation method gave Records in BC22.",
   "key_points": [
-    "Queries can now use ReadState with four isolation levels: ReadUncommitted (default), ReadCommitted, ReadExclusive, and ReadShared",
-    "ReadCommitted reads only committed data without row consistency guarantees, improving performance over locked read modes",
-    "ReadExclusive and ReadShared place update or share locks on read data to prevent modification by other transactions",
-    "This feature brings query functionality in line with the ReadIsolation method introduced for Records in BC22"
+    "Query ReadState options are ReadUncommitted (default), ReadCommitted, ReadExclusive and ReadShared",
+    "ReadCommitted reads committed data only, but rows may change during the transaction",
+    "ReadExclusive places update locks and ReadShared places share locks on rows read, blocking changes by other transactions",
+    "ReadUncommitted allows dirty reads but can perform better than the locking modes",
+    "Mirrors the Record ReadIsolation method introduced in BC22"
   ],
   "systems": [
     "development",

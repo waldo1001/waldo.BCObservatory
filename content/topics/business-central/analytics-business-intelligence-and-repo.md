@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:30.284Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -637,6 +637,7 @@ links:
     - video/VuULbBjzPcs
   posts:
     - post/thinkaboutit-be/7635
+    - post/yzhums-com/68975
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -653,7 +654,7 @@ coverage:
   learn: 70
   code: 318
   video: 4
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 1
@@ -1014,6 +1015,7 @@ Developers use the report development pages for layouts (Word, Excel, RDLC, exte
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Business Central Analytics: The Technology Is Not the Hard Part](../../posts/thinkaboutit-be/7635.md) (community post): "adoption success depends more on helping users ask better business questions than on technology maturity"
+- [Business Central 2025 wave 2 (BC27.1): Demo analytics with new enhanced demo data](../../posts/yzhums-com/68975.md) (community post): "provides enhanced sample data for sales and purchasing documents"
 - [What's New: Demo Data for Analytics (2025 release wave 2)](../../videos/_1onqwZz4rA.md) (video): "Enhanced Demo Data Tool for Analytics"
 - [Introducing Spreadsheets for Business Central](../../videos/1QuV_vkbNVU.md) (video): "spreadsheets; regions; data connectivity; charts; queries"
 - [Use Data from a Report inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../../videos/6dEZQlmBlyI.md) (video): "advanced spreadsheets; report regions; live data; charting"

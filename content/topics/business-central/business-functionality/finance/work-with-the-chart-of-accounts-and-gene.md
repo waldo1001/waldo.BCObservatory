@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -199,6 +199,11 @@ links:
     - post/thedynamicsexplorer-com/10452
     - post/thedynamicsexplorer-com/37144
     - post/thedynamicsexplorer-com/8821
+    - post/yzhums-com/64874
+    - post/yzhums-com/66210
+    - post/yzhums-com/66675
+    - post/yzhums-com/67275
+    - post/yzhums-com/71645
   guidelines: []
   changes:
     - change/bcapps/10184
@@ -226,7 +231,7 @@ coverage:
   learn: 12
   code: 59
   video: 11
-  blog: 6
+  blog: 11
   guideline: 0
 bc_forms:
   - 1
@@ -359,6 +364,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central – Error Message “You have one or more documents that must be posted before you post document no….” when posting a Journal](../../../../posts/thedynamicsexplorer-com/10452.md) (community post): "journal's number series has manual numbers disabled but the user tries to enter a custom document number"
 - [Dynamics 365 Business Central – Handling the message “Only the Posting No. Series can be filled in on recurring journals” in Recurring Journals](../../../../posts/thedynamicsexplorer-com/37144.md) (community post): "Recurring journal lines remain after posting and their posting date moves forward"
 - [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../../../../posts/thedynamicsexplorer-com/8821.md) (community post): "Chart of Accounts in Business Central shows only total balances at GL code level"
+- [Dynamics 365 Business Central: Copy Sales and Purchase Line Descriptions (Type G/L Account) to G/L Entries](../../../../posts/yzhums-com/64874.md) (community post): "Copy G/L Account line descriptions from sales and purchase documents"
+- [Dynamics 365 Business Central: Set the Document No. with dynamic dates in Recurring General Journals](../../../../posts/yzhums-com/66210.md) (community post): "Recurring General Journals allow you to set document numbers with dynamic dates"
+- [Dynamics 365 Business Central: “There is nothing to post because the journal does not contain a quantity or amount” when posting Recurring Journals](../../../../posts/yzhums-com/66675.md) (community post): "Recurring General Journals fail to post with the error"
+- [Dynamics 365 Business Central: Require users to enter a more detailed description when posting a journal line of type G/L Account (Omit Default Descr. in Jnl.)](../../../../posts/yzhums-com/67275.md) (community post): "Omit Default Descr. in Jnl. field on G/L Account cards forces users to enter custom descriptions"
+- [Dynamics 365 Business Central: How to copy (synchronize) the Incoming Document to all Gen. Journal Lines](../../../../posts/yzhums-com/71645.md) (community post): "assigning incoming documents to general journal lines in Business Central"
 - [Working with Amount Fields](../../../../videos/1ugAYeEZLaU.md) (video): "amount fields; debit and credit; general ledger"
 - [What's New: Fixed and Variable G/L Allocations (2023 release wave 2)](../../../../videos/BZF4MrVfvfY.md) (video): "Fixed and Variable G/L Allocations"
 - [Comparing Correcting and Reversing Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/fIktVTGZkjE.md) (video): "correcting entries; reversing entries; journal entries; dimensions; general ledger; posting"

@@ -5,12 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2025-11-28T02:29:20.000Z",
   "words": 498,
-  "summary": "This post explains how to programmatically check if a field is part of a table's primary key in AL code. It provides standard AL methods using RecordRef and KeyRef to determine primary key membership and the field's position within the key sequence.",
+  "summary": "Explains how to check in AL whether a field belongs to a table's primary key. Besides reading the Key virtual table, you can copy two local procedures from codeunit 9800 User. They use RecordRef and KeyRef to read the first key, report the number of primary key fields, and return whether the field is one of them.",
   "key_points": [
-    "Every table has exactly one primary key that uniquely identifies records; only table objects can define primary keys, while table extensions inherit them",
-    "Secondary keys create SQL indexes and can be defined multiple times in both table objects and extensions",
-    "AL provides standard methods in codeunit 9800 that use RecordRef and KeyRef objects to check primary key membership without querying the Key table",
-    "The IsPrimaryKeyField method returns a boolean and can also determine the field's sequence number within the primary key"
+    "Each table has exactly one primary key, defined only on table objects; any key defined in a table extension is a secondary key",
+    "Secondary keys create SQL indexes and can be defined in both tables and table extensions",
+    "Table 2000000063 Key can be used to check key fields, but codeunit 9800 User contains reusable helper procedures",
+    "IsPrimaryKeyField opens the table with RecordRef, reads KeyIndex(1) and returns true if the field is in it, plus the count of primary key fields",
+    "A test page extension on Customer List checks the No. field of Sales Header"
   ],
   "systems": [
     "development"

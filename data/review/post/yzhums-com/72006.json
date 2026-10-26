@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/72006",
+  "input_hash": "82aa8619724a99dffe3d62cfac5eef0f892544d131764ab600016ca2a237b4d3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:23.365Z",
+  "issues": [
+    "The last key point gets the posting setup change backwards: the post says a setup line for the blank location is no longer needed just to post overhead.",
+    "Everything else matches the post and all quotes appear in it. Description 2 and the approval features are only mentioned as related updates, but they are listed in the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025339,
+    "posts_in_call": 4
+  }
+}

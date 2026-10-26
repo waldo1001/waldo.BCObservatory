@@ -1,0 +1,41 @@
+{
+  "item_id": "blog/yzhums-com/71425",
+  "page_id": "post/yzhums-com/71425",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "It doesn't work with orders that have prepayments, or lines of the Item Charges type.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC28"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "You can't use it with orders linked to projects, subcontracting, blanket orders, or intercompany transactions.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC28"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "You can't use auto-receive with partially received lines, or locations that use directed put away and pick.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005131,
+    "posts_in_call": 4
+  }
+}

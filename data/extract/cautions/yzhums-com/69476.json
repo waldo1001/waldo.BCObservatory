@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/yzhums-com/69476",
+  "page_id": "post/yzhums-com/69476",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "Since it is still in the preview stage, the following error may be prompted sometimes.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC25"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "There is no way to analyze fields that are only in the table but not added to the page.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC25"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "calculated fields are not computed. Also, exporting data to Excel will include just what is on screen.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    },
+    {
+      "kind": "preview-disclaimer",
+      "quote": "Autofill of contact details is now available in production environments.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005695,
+    "posts_in_call": 4
+  }
+}

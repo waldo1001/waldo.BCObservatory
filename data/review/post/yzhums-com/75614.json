@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/75614",
+  "input_hash": "4eeece6d5c412846f9b2f6cb870c6b4dbd3af74e98190df4cd5669a833401f1e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:12.655Z",
+  "issues": [
+    "Copilot is only named as one of the products in the shared roadmap; the post is not about Copilot functionality.",
+    "The key points left out the author's note that Dynamics 365 did not yet show up in the AI at Work roadmap at the time of writing.",
+    "The post says roadmap items are updated continuously, not in real time."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022967,
+    "posts_in_call": 4
+  }
+}

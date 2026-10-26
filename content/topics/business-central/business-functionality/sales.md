@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:09.155Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -482,6 +482,17 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
     - post/thedynamicsexplorer-com/10326
+    - post/yzhums-com/62368
+    - post/yzhums-com/63644
+    - post/yzhums-com/64277
+    - post/yzhums-com/66212
+    - post/yzhums-com/68428
+    - post/yzhums-com/69356
+    - post/yzhums-com/70137
+    - post/yzhums-com/71137
+    - post/yzhums-com/71304
+    - post/yzhums-com/71489
+    - post/yzhums-com/74940
   guidelines: []
   changes:
     - change/bcapps/10083
@@ -538,7 +549,7 @@ coverage:
   learn: 133
   code: 139
   video: 3
-  blog: 6
+  blog: 17
   guideline: 0
 bc_forms:
   - 7
@@ -814,6 +825,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC Friday Tips #74 Copy Document and Custom Field](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) (community post): "Custom fields added to Sales tables are automatically included when users copy documents"
 - [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) (community post): "item does not appear in the Sales Line item lookup"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../../../posts/thedynamicsexplorer-com/10326.md) (community post): "sales credit memo with an inventory item automatically creates item ledger"
+- [Dynamics 365 Business Central: How to specify the No. Series when creating a Sales Order (Make Order) from Sales Quote – Customization](../../../posts/yzhums-com/62368.md) (community post): "customize the Make Order process to specify the number series when converting a sales quote"
+- [Dynamics 365 Business Central: How to show a warning about low inventory on a sales document (Prohibit users from adding sales lines with low inventory)](../../../posts/yzhums-com/63644.md) (community post): "show a warning about low inventory on a sales document when sales document quantities exceed inventory levels"
+- [Business Central 2025 wave 1 (BC26): Edit price lists in Excel (New sales pricing experience)](../../../posts/yzhums-com/64277.md) (community post): "edit sales price lists directly in Excel using the Edit in Excel action"
+- [Dynamics 365 Business Central: Use a default quantity of 1 for all types on documents – Customization](../../../posts/yzhums-com/66212.md) (community post): "apply default quantity of 1 to other document line types"
+- [Dynamics 365 Business Central: Check posting date before posting (preview posting) in the sales and purchase documents – Customization](../../../posts/yzhums-com/68428.md) (community post): "check if the posting date on sales and purchase documents"
+- [Dynamics 365 Business Central: How to automatically archive sales orders via AL (For example, Archive on Order Release)](../../../posts/yzhums-com/69356.md) (community post): "automatically archive sales orders when they are released using AL code"
+- [Dynamics 365 Business Central: Adding comments to Factbox/Report (Displaying Comments in a FactBox/Report)](../../../posts/yzhums-com/70137.md) (community post): "display sales comments in a ListPart page extension and in reports"
+- [Business Central 2026 release wave 1 (BC28): Send by Email & Standard Document Attachment Factbox for Posted Sales Shipments and Return Receipts](../../../posts/yzhums-com/71137.md) (community post): "send posted sales shipments and return receipts by email from Business Central"
+- [Business Central 2026 release wave 1 (BC28): Create purchase orders from drop shipments](../../../posts/yzhums-com/71304.md) (community post): "drop shipment sales orders using the Create Purchase Orders action"
+- [Business Central 2026 release wave 1 (BC28): Reverse drop shipments when sales and purchase documents aren’t invoiced](../../../posts/yzhums-com/71489.md) (community post): "allows undoing a posted sales shipment from a drop shipment via the Undo Shipment action"
+- [Dynamics 365 Business Central: Searches for duplicate external document numbers in sales documents and posted documents (Standard function/procedure)](../../../posts/yzhums-com/74940.md) (community post): "searches for duplicate external document numbers in sales documents and posted documents"
 - [Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central](../../../videos/fatcqVFrTXI.md) (video): "Sales invoice entry in Business Central"
 - [Comparing entering Receivables Transactions in Dynamics GP to Dynamics 365 Business Central (2024)](../../../videos/fdP1HKBEDjA.md) (video): "Sales invoices document in Business Central"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../videos/PIWxU93eCT4.md) (video): "sales price lists; excel integration; edit prices"

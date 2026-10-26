@@ -1,0 +1,47 @@
+{
+  "item_id": "blog/yzhums-com/64775",
+  "page_id": "post/yzhums-com/64775",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If the Prefer header is not added, the following error will occur: The data does not represent a valid JSON token.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "If you forget to do this, the following error will be displayed: 400 {\"error\":{\"code\":\"0x80060888\",\"message\":\"Bad Request – Error in query syntax.\"}}",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Because there is no way to return a value after deleting data, do not try to read the response text after deleting it.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "This requires setting the DelayedInsert property of the page to true",
+      "objects": [
+        {
+          "type": "page",
+          "name": "DelayedInsert property"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

@@ -7,10 +7,11 @@
   "words": 358,
   "summary": "Business Central now provides Source Order No. and Source Description fields that allow users to display the original sales or purchase order numbers in Item Ledger Entries without custom development. These calculated fields can be added to the Item Ledger Entries page through personalization.",
   "key_points": [
-    "Source Order No. and Source Description are new calculated fields (not physical table fields) that show the original order numbers and customer/vendor names in Item Ledger Entries",
-    "These fields are added via the Personalization feature without requiring custom development",
-    "The page must be reopened after adding the fields to display the populated data",
-    "The fields automatically fetch order numbers from Posted Sales Shipments or Posted Purchase Receipts, and remain blank if no source order exists"
+    "Source Order No. and Source Description (customer or vendor name) are calculated fields, not stored in the table, and show the sales or purchase order behind an item ledger entry",
+    "The existing Order Type, Order No. and Order Line No. fields cover only production, transfer, service and assembly orders, not sales or purchase orders",
+    "Add the fields to Item Ledger Entries through personalization, with no custom code needed",
+    "Reopen the page after adding the fields to see the values",
+    "Values come from the posted sales shipment or posted purchase receipt; if the order number is blank there, the field shows nothing"
   ],
   "systems": [
     "inventory",

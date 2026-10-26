@@ -7,10 +7,11 @@
   "words": 458,
   "summary": "Business Central 2026 release wave 2 (BC29) enables administrators to turn SIFT (SumIndexField Technology) indexes on and off directly within the application. SIFT indexes optimize performance of FlowFields and query results by quickly calculating sums of numeric columns, and administrators can now manage them through Index Management or Table Information pages.",
   "key_points": [
-    "Administrators can toggle SIFT indexes on/off directly in the Business Central client without database tools",
-    "A new Index Type field distinguishes between regular database indexes and SIFT structures",
-    "Index changes are queued and applied during the next overnight maintenance window",
-    "The feature works with both standard and custom SIFT fields, including table extensions"
+    "Administrators can switch SIFT indexes on or off from the Business Central client",
+    "Index Management is reached via Tell Me or by clicking a Table No. on Table Information",
+    "A new Index Type field tells regular database indexes apart from SIFT structures",
+    "Turning an index back on is queued for the next overnight maintenance window",
+    "Custom SIFT fields can be managed the same way"
   ],
   "systems": [
     "administration",
@@ -39,8 +40,7 @@
     "SIFT index on/off toggle",
     "Index Type field",
     "Index Details view",
-    "Index Management page",
-    "Table extension key mixing"
+    "Index Management page"
   ],
   "versions": [
     "BC29",

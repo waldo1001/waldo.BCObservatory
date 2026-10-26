@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/68624",
+  "input_hash": "e35a0b0000130a914d80a909f608852d445512266ba25e17fc41d671c22d322d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:46.651Z",
+  "issues": [
+    "The 'integration' system is not supported. The post is purely about AL development for attachments.",
+    "Added a key point that Word attachments are copied into a second Temp Blob before conversion.",
+    "All listed objects are named in the post, and both quotes match it."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032312,
+    "posts_in_call": 4
+  }
+}

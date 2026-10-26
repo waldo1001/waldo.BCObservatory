@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:19:34.291Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -131,6 +131,11 @@ links:
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
+    - to: post/yzhums-com/31884
+      title: "Dynamics 365 Business Central: Quickly get next Sequence/Entry Number (without using FindLast -> Entry No. + 1)"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
     - to: video/fy96_jdL1PQ
       title: "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central"
       label: possibly related
@@ -143,11 +148,6 @@ links:
       by: code
     - to: video/1x3QyBX3swg
       title: "Microsoft presents: Index management"
-      label: possibly related
-      why: both name Table 32 "Item Ledger Entry"
-      by: code
-    - to: video/tzX0qB9tiBs
-      title: "What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)"
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
@@ -342,7 +342,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../posts/yzhums-com/75131.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries](../posts/yzhums-com/75164.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central: Quickly get next Sequence/Entry Number (without using FindLast -> Entry No. + 1)](../posts/yzhums-com/31884.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../videos/fy96_jdL1PQ.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Microsoft presents: Cloud Migration from any SQL](../videos/f_i4_BRz-oA.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)](../videos/tzX0qB9tiBs.md) — possibly related: both name Table 32 "Item Ledger Entry"

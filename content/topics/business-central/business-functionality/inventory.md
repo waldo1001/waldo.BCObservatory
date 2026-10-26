@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -432,6 +432,14 @@ links:
     - post/duiliotacconi-com/1457
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
+    - post/yzhums-com/68852
+    - post/yzhums-com/70554
+    - post/yzhums-com/70952
+    - post/yzhums-com/70986
+    - post/yzhums-com/74476
+    - post/yzhums-com/74523
+    - post/yzhums-com/75131
+    - post/yzhums-com/75164
   guidelines: []
   changes:
     - change/bcapps/10150
@@ -454,7 +462,7 @@ coverage:
   learn: 75
   code: 99
   video: 3
-  blog: 3
+  blog: 11
   guideline: 0
 bc_forms:
   - 30
@@ -644,6 +652,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../../../posts/duiliotacconi-com/1457.md) (community post): "introduces a less-locking inventory posting engine and optimizes FlowField calculations on pages"
 - [Define Item Attributes for Item Variants](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) (community post): "Define Item Attributes for Item Variants"
 - [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) (community post): "Blocked and Sales Blocked fields on the Item card"
+- [Dynamics 365 Business Central: Is it possible to change the Variant Code for an item that has already been posted?](../../../posts/yzhums-com/68852.md) (community post): "Changing a variant code for an already-posted item in Business Central"
+- [Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)](../../../posts/yzhums-com/70554.md) (community post): "Extended text allows you to expand descriptions for items, stock-keeping units, general ledger accounts"
+- [Business Central 2026 release wave 1 (BC28): Add pictures to item variants to differentiate product options](../../../posts/yzhums-com/70952.md) (community post): "Users can store images for item variants directly in the Item Variant"
+- [Business Central 2026 release wave 1 (BC28): Define item attributes for item variants](../../../posts/yzhums-com/70986.md) (community post): "Item variants can now have attribute values assigned at the variant level"
+- [Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page](../../../posts/yzhums-com/74476.md) (community post): "Item attributes allow businesses to assign and search items by characteristics"
+- [Dynamics 365 Business Central Blog Series: Item Attributes](../../../posts/yzhums-com/74523.md) (community post): "Item attributes can be displayed on various pages like Item List and Item Ledger Entries"
+- [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../../../posts/yzhums-com/75131.md) (community post): "Source Order No. and Source Description fields that allow users to display the original sales or purchase order numbers"
+- [Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries](../../../posts/yzhums-com/75164.md) (community post): "distinguish between positive and negative adjustments created from Item Journals versus Physical Inventory Journals"
 - [What's New: Reservation Worksheet and Fulfillment Suggestions (2023 release wave 2)](../../../videos/198d9piIoE0.md) (video): "Reservation Worksheet and Fulfillment Suggestions"
 - [What's New: Concurrent Inventory Posting (2025 release wave 1)](../../../videos/64_cQzp8BP4.md) (video): "Enable multiple users to post item ledger entries and value entries at the same time"
 - [What's New: Supply Chain Management - overview (2026 release wave 1)](../../../videos/sqjb_gsXqM8.md) (video): "Item Variants with Pictures and Attributes"

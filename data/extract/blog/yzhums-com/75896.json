@@ -7,10 +7,10 @@
   "words": 471,
   "summary": "Business Central 2026 release wave 2 (BC29) introduces four new system FlowFields (SystemCreatedByUserName, SystemCreatedByFullName, SystemModifiedByUserName, SystemModifiedByFullName) that display the username and full name of users who created or modified records, complementing the existing GUID-based audit fields.",
   "key_points": [
-    "Four new system FlowFields added to normal and temporary tables for auditing purposes",
-    "Fields provide readable usernames and full names instead of just GUIDs from SystemCreatedBy/SystemModifiedBy",
-    "Eliminates need for custom processing or extensions to display user names in pages",
-    "Can be exposed on UI through Customize pages for profiles, Analysis Mode, or AL customization"
+    "BC29 adds four system FlowFields to normal and temporary tables: created/modified by user name (Text[50]) and full name (Text[80])",
+    "They complement the GUID-based SystemCreatedBy and SystemModifiedBy fields, which earlier needed extra code to show a user name",
+    "Values do not appear in Page Inspection because FlowFields are only calculated when visible",
+    "The fields can be shown via profile page customization, Analysis Mode, or AL code"
   ],
   "systems": [
     "platform",

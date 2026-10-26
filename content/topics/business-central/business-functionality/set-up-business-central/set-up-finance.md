@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:46.770Z"
   flags: []
 generated:
-  at: "2026-10-25T18:23:25.719Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -325,7 +325,8 @@ links:
     - video/5zXQ_aIT03s
     - video/NPhOSQTheXw
     - video/XJ0JHHQ7GzA
-  posts: []
+  posts:
+    - post/yzhums-com/67740
   guidelines: []
   changes:
     - change/bcapps/11730
@@ -341,7 +342,7 @@ coverage:
   learn: 26
   code: 86
   video: 5
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 4
@@ -517,6 +518,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11730 Bug 649042: [Expense Agent] It would be nice if default data setup included number series for users, reports, etc.](../../../../changes/bcapps/11730.md) (code change): "Number series for spend requests added to demo data setup"
 - [#9912 Restore the IRS Forms assisted setup registration removed by the CLEAN25 sweep](../../../../changes/bcapps/9912.md) (code change): "IRS Forms setup wizard registration that was accidentally removed"
+- [Business Central 2025 wave 2 (BC27): Use alternative posting groups for employees](../../../../posts/yzhums-com/67740.md) (community post): "Allow Multiple Posting Groups toggle on the Human Resources Setup page"
 - [How to Use Posting Groups in Business Central (2025)](../../../../videos/4IumfDNN8GU.md) (video): "How to Use Posting Groups in Business Central"
 - [Comparing Posting Accounts and Posting Groups Between Dynamics GP and Dynamics Business Central](../../../../videos/5E6ikveL6N0.md) (video): "Posting groups; posting accounts; default posting accounts; business posting groups"
 - [Control When People Can Post to the General Ledger](../../../../videos/5zXQ_aIT03s.md) (video): "Control When People Can Post to the General Ledger. Topics: posting control; general ledger setup"

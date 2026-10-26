@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/66542",
+  "input_hash": "986128f07b0515b77c48951bd3267370745cd708bb0819011623594a117b8e13",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:42:21.264Z",
+  "issues": [
+    "One key point says the property has six values but then lists seven. The post shows seven option values.",
+    "Everything else is supported, including the BC23.1 note on queries and the General Ledger Entries reference."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021108,
+    "posts_in_call": 4
+  }
+}

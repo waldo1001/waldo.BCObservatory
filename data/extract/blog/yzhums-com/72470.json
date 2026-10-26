@@ -7,16 +7,15 @@
   "words": 546,
   "summary": "Business Central 2026 Wave 1 (BC28) introduces scheduled distribution of financial reports via email. Users can set up recurring financial report schedules with multiple recipients, custom filters, and automatic email delivery, eliminating the need for customization.",
   "key_points": [
-    "Financial reports can now be scheduled for recurring distribution to multiple recipients via email and report inbox",
-    "Schedule configuration includes export format (PDF, Excel, Word), recipients, recurrence rules, and custom filters",
-    "Scheduled reports are processed by job queue at specified times and automatically distributed to recipient inboxes",
-    "User email addresses must be configured in User Setup; custom date filters support dynamic date ranges",
-    "This capability was unavailable in BC27.5 and earlier versions"
+    "BC28 adds a Schedules action on the Financial Reports and Financial Report Card pages, opening a Financial Report Schedules page",
+    "A single financial report can have several schedules, each with a code, description, export option such as PDF, and an email send option",
+    "Recipients can be multiple users, but each needs an email address in User Setup or an error appears",
+    "Schedules use a next run date/time and a recurrence formula, with optional custom filters and start/end date filter formulas",
+    "Runs are handled by the Financial Report Export Job in the job queue and output reaches recipients by email and report inbox"
   ],
   "systems": [
     "finance",
-    "reporting",
-    "integration"
+    "reporting"
   ],
   "topics": [
     "financial reports",
@@ -42,7 +41,6 @@
     "Recurring Report Delivery",
     "Multiple Recipients",
     "Custom Filters",
-    "Export to PDF/Excel/Word",
     "Job Queue Processing",
     "Report Inbox"
   ],

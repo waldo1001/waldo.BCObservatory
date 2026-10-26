@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:19.086Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -121,6 +121,7 @@ links:
   videos: []
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-58-spotting-report-with-savevalues--5715116553
+    - post/yzhums-com/72933
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -134,7 +135,7 @@ coverage:
   learn: 12
   code: 6
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 9650
@@ -185,6 +186,7 @@ Start with the overview page to see how the parts connect. Then go to the datase
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [BC Friday Tips #58 Spotting Report with SaveValues](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-58-spotting-report-with-savevalues--5715116553.md) (community post): "The SaveValues property in Business Central reports remembers user-selected options on the request page"
+- [Business Central 2026 release wave 1 (BC28.1): Control the lifecycle of report layouts (Layout Status)](../../../posts/yzhums-com/72933.md) (community post): "Layout statuses control approval stages: Draft, Pending Approval, Approved, and Retired"
 
 ## Business Central pages and reports
 

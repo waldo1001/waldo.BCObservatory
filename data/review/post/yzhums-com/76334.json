@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/76334",
+  "input_hash": "ba1a1806b258fe3be0d908ae1591f388f31f357ed39dc2853f5363fab8bbf401",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:38:42.520Z",
+  "issues": [
+    "The post does not support the administration system. The topic is purely developer and translation configuration.",
+    "Everything else checks out, including SamplePage from the example ID and table 18 Customer."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025615,
+    "posts_in_call": 4
+  }
+}

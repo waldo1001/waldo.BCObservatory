@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/69290",
+  "input_hash": "7fa0f9832d0a73a3f11df275cacae79adfc0e6377e17f37568b3477723438e3b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:15.715Z",
+  "issues": [
+    "The key points leave out the workaround the post shows: an event subscriber to OnBeforeInsertGLEntryBuffer that sets Source Currency Amount back to the journal Amount.",
+    "The key points also leave out that Vendor Ledger Entry and Detailed Vendor Ledger Entry amounts are not affected.",
+    "The reporting system is not supported by the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023337,
+    "posts_in_call": 4
+  }
+}

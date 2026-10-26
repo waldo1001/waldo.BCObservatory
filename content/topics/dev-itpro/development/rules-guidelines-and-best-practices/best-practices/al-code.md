@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-10-25T18:23:25.719Z"
+  at: "2026-10-26T06:43:56.210Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -59,9 +59,9 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/nataliekarolak-com/4271
     - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f
     - post/thinkaboutit-be/8132
+    - post/yzhums-com/75344
   guidelines: []
   changes:
     - change/bcapps/11609
@@ -148,8 +148,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../../changes/bcquality/228.md) (code change): "paired good and bad code examples"
 - [#65 Add data-modeling and appsource knowledge articles (MICROSOFT layer)](../../../../../changes/bcquality/65.md) (code change): "Seven remedial BCQuality knowledge articles added to the MICROSOFT layer covering data-modeling patterns, AppSource conventions, and styling best practices"
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
-- [Get the new BCQuality plugin for VS Code!](../../../../../posts/nataliekarolak-com/4271.md) (community post): "BCQuality focuses on fixing common AI errors rather than general best practices"
 - [Introducing ALCops — LinterCop's Next Chapter](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md) (community post): "It has 30 code fixes compared with LinterCop's five or six, plus correctness fixes"
 - [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../../../../../posts/thinkaboutit-be/8132.md) (community post): "BCQuality is Microsoft's open repository of quality knowledge for AL code"
+- [Dynamics 365 Business Central: Suggested Abbreviations](../../../../../posts/yzhums-com/75344.md) (community post): "Object types have abbreviations like Page, Codeunit, Table, Query, and Report for file naming"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

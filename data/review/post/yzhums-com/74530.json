@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/74530",
+  "input_hash": "4437e7eec2797bd9c4361710fb4f1b31b5abcf5d730691a7ad4d2aabaefaf058",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:45.042Z",
+  "issues": [
+    "The summary, key points, quotes and versions all match the post.",
+    "The post says nothing about reporting, so that system is dropped."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027728,
+    "posts_in_call": 4
+  }
+}

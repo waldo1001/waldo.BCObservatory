@@ -5,13 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2026-09-04T13:23:36.000Z",
   "words": 699,
-  "summary": "The September 2026 cumulative update for Dynamics 365 Business Central announces BC28 CU05 with sandbox and production environment management in the Admin Center, BC29 in public preview, and includes version lifecycle dates and support information for all active and end-of-life versions from BC14 through BC29.",
+  "summary": "Monthly roundup of Business Central cumulative updates for September 2026: BC29 is in public preview, BC28 CU05 (28.5), BC27 CU11 (27.11) and BC26 CU17 (26.17) are released with their build numbers, and BC25 back to BC13 are end of life. It also lists lifecycle dates for on-premises Modern and Fixed policy versions.",
   "key_points": [
-    "BC28 CU05 released with platform 28.0.54016.0 and application 28.5.54151.54178 for both cloud and on-premises",
-    "BC29 (2026 release wave 2) is now available in public preview",
-    "Admin Center now supports managing production and sandbox environments",
-    "Multiple versions released: BC27 CU11, BC26 CU17, with older versions BC24-BC14 at end of life",
-    "Version lifecycle table shows support dates, with BC28 supported until October 13, 2027"
+    "BC28 CU05 is version 28.5 with platform 28.0.54016.0 and application 28.5.54151.54178 for cloud and on-premises",
+    "BC27 CU11 is 27.11 and BC26 CU17 is 26.17, each with its application and platform builds",
+    "BC29 (2026 release wave 2) is available in public preview",
+    "BC25 and all older versions down to BC13 are marked end of life",
+    "Under the Modern Lifecycle Policy, version 28.x is supported until Oct 13, 2027 and 26.x until Oct 13, 2026"
   ],
   "systems": [
     "administration",
@@ -28,8 +28,6 @@
   ],
   "objects": [],
   "features": [
-    "Production and Sandbox Environment Management",
-    "Admin Center Controls",
     "Version 28.5 (BC28)",
     "Version 27.11 (BC27)",
     "Version 26.17 (BC26)",
@@ -47,10 +45,6 @@
   ],
   "language": "en",
   "quotes": [
-    {
-      "text": "Cloud (SaaS): Managing Production and Sandbox Environments in the Admin Center",
-      "why_it_matters": "Highlights the key new capability for administrators to control their environments through the Admin Center for cloud deployments"
-    },
     {
       "text": "The public preview for Dynamics 365 Business Central 2026 release wave 2 (BC29) is available",
       "why_it_matters": "Announces the availability of the next major version for partners and customers to test new features early"

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/68230",
+  "input_hash": "25a662aad1141246b54c9a48ff8e5e9cc975599065a66c55defea541d3b618fa",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:50.571Z",
+  "issues": [
+    "Key point 4 says attributes come from an asset template. The post says they come from the fixed asset chosen on the purchase line, and it never mentions a template.",
+    "The summary, the quotes and the other key points match the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026245,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/75853",
+  "input_hash": "95a16716462fbbd835910e5cdcdab543987d572e9b87f49a3891d663b697ff52",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:39:12.578Z",
+  "issues": [
+    "Summary, objects, features and quotes are supported by the post.",
+    "Key points omitted the author's observation that ContextSensitiveHelpUrl returned nothing in the public preview test; added it."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032632,
+    "posts_in_call": 4
+  }
+}

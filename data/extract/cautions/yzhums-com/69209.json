@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/69209",
+  "page_id": "post/yzhums-com/69209",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "If application data is deleted, the only way to recover it afterwards is by performing a point-in-time restore of the environment.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "If other apps depend on the app that is being uninstalled, those dependent apps also have to be uninstalled.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003704,
+    "posts_in_call": 4
+  }
+}

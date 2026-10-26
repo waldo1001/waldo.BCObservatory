@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T22:54:34.539Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T06:21:45.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -94,6 +94,11 @@ links:
       label: possibly related
       why: both name Page 30 "Item Card"
       by: code
+    - to: post/yzhums-com/67489
+      title: "Business Central 2025 wave 2 (BC27): Add more fields and columns by personalizing pages"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
     - to: post/yzhums-com/73513
       title: "Business Central 2026 release wave 1 (BC28): Calculate excise taxes"
       label: possibly related
@@ -131,11 +136,6 @@ links:
       by: code
     - to: post/yzhums-com/70554
       title: "Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)"
-      label: possibly related
-      why: both name Page 30 "Item Card"
-      by: code
-    - to: post/yzhums-com/74476
-      title: "Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page"
       label: possibly related
       why: both name Page 30 "Item Card"
       by: code
@@ -289,6 +289,7 @@ Not found in BC28-30: page "Purchase Document".
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Allow Over Receipts of Products](../videos/8C9JmtHdExM.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2025 wave 2 (BC27): Add more fields and columns by personalizing pages](../posts/yzhums-com/67489.md) — possibly related: both name Page 30 "Item Card"
 - [Business Central 2026 release wave 1 (BC28): Calculate excise taxes](../posts/yzhums-com/73513.md) — possibly related: both name Page 30 "Item Card"
 - [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Page 30 "Item Card"
 - [Business Central 2026 release wave 1 (BC28): Define item attributes for item variants](../posts/yzhums-com/70986.md) — possibly related: both name Page 30 "Item Card"
@@ -297,4 +298,3 @@ No source states these links: they share an object, a model read them, or a pers
 - [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 30 "Item Card"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 30 "Item Card"
 - [Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)](../posts/yzhums-com/70554.md) — possibly related: both name Page 30 "Item Card"
-- [Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page](../posts/yzhums-com/74476.md) — possibly related: both name Page 30 "Item Card"

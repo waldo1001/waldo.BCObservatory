@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/70491",
+  "input_hash": "8095cadb92a70411a9c6a03038a3a2048e3a9cb43c74f401c077fffd838e78b6",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:40:47.594Z",
+  "issues": [
+    "The build numbers, lifecycle dates and resource links match the post.",
+    "The BC25 change to the update window is only referenced through a link to an earlier post, not explained here; the page's wording is still acceptable.",
+    "The post itself mislabels the on-premises 27.4 update as 2022 Release Wave 2; the page does not repeat this."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 4
+  }
+}

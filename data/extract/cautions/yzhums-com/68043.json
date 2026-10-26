@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/68043",
+  "page_id": "post/yzhums-com/68043",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "To enable Copilot to get information from the web, administrators must first Enable Bing Search on the Copilot & agent capabilities page.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC27"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004136,
+    "posts_in_call": 4
+  }
+}

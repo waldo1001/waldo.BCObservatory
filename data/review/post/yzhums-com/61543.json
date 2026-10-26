@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/yzhums-com/61543",
+  "input_hash": "8139ca10a2c5a6369a9784c58634ad2b7b1f6a8dff35dea09887b79da5a14687",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T06:42:23.084Z",
+  "issues": [
+    "Content matches the post: Image Helpers codeunit 4112, GetHTMLImgSrc, Tenant Media and the Item Card example are all present.",
+    "Item Card page extension is not listed among objects, but that cannot be added through these edits."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026549,
+    "posts_in_call": 4
+  }
+}

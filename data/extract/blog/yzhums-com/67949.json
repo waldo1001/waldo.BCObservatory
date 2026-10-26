@@ -5,17 +5,17 @@
   "source": "yzhums-com",
   "published_at": "2025-09-30T00:51:25.000Z",
   "words": 407,
-  "summary": "Business Central 2025 wave 2 (BC27) introduces the ability to make page fields defined in page customizations editable, a capability previously unavailable. This requires the AllowInCustomizations property to be set to AsReadWrite on the source table field, and it applies only to fields declared in table extensions, not base table fields.",
+  "summary": "In BC27, page fields defined in page customizations can be made editable; before this they were always read-only. This needs runtime 16.0 or later, and the source table field must have AllowInCustomizations set to AsReadWrite. Standard fields default to ToBeClassified, so they cannot be made editable, and page extensions are not affected by this property.",
   "key_points": [
-    "Page customizations can now mark fields as editable instead of always being read-only, addressing a previous limitation",
-    "The AllowInCustomizations property must be explicitly set to AsReadWrite on source table fields to enable editing in customizations",
-    "This feature requires runtime version 16.0 or greater and applies only to fields in table extensions, not base table fields",
-    "Standard fields default to ToBeClassified, which prevents making them editable in customizations unless the property is modified"
+    "Page customization fields can now be marked editable, where before they were always read-only",
+    "Runtime 16.0 or later is required, and older runtimes give error AL0666",
+    "The source field needs AllowInCustomizations set to AsReadWrite; ToBeClassified and Always behave like AsReadOnly and give error AL0808",
+    "On table extensions the property applies only to fields declared in the extension, not to base table fields",
+    "Page extensions are not controlled by this property"
   ],
   "systems": [
     "development",
-    "platform",
-    "administration"
+    "platform"
   ],
   "topics": [
     "page customizations",
@@ -25,12 +25,7 @@
     "table extensions",
     "page extensions"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "AL Language extension"
-    }
-  ],
+  "objects": [],
   "features": [
     "Editable fields in page customizations",
     "AllowInCustomizations property (AsReadWrite and AsReadOnly values)",

@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/40193",
+  "page_id": "post/yzhums-com/40193",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Version Data Type cannot be directly used as a table field.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "It also cannot be directly added to the page as a variable.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002759,
+    "posts_in_call": 4
+  }
+}

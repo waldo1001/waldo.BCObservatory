@@ -7,11 +7,11 @@
   "words": 506,
   "summary": "This blog series covers barcode functionality in Dynamics 365 Business Central, including one-dimensional and two-dimensional barcode generation in reports, barcode scanning through AL code, printing barcodes from production orders, and integrating external barcode services with Swiss QR Code and QR code capabilities.",
   "key_points": [
-    "Business Central supports both 1D and 2D barcodes (QR, Data Matrix, PDF417, Aztec, Maxi Code, Swiss QR) directly in reports without customization",
-    "Barcode scanning can be invoked programmatically from AL code to add Scan Barcode actions with continuous scanning capability",
-    "External APIs and services can generate specialized barcodes like colored QR codes, Telepen, and Swiss QR Codes",
-    "Barcode printing from production orders is available as a built-in feature without requiring customization",
-    "QR codes can embed page URLs, allowing users to link directly to Business Central records like customer cards"
+    "The series covers 1D barcodes in reports (BC18) and 2D barcode fonts such as Aztec, Data Matrix, Maxi Code, PDF417 and QR (BC19.1)",
+    "External services or APIs can produce barcodes such as Telepen, Swiss QR and colored QR codes, and Swiss QR can also be generated without external services",
+    "Barcode scanning can be started from AL to add a Scan Barcode action with continuous scanning",
+    "Print and scan barcodes (BC23) and printing barcodes from production orders (BC26) work without customization",
+    "A QR code can hold a Business Central page URL, for example a customer card link"
   ],
   "systems": [
     "reporting",

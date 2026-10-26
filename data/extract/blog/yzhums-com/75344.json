@@ -5,16 +5,15 @@
   "source": "yzhums-com",
   "published_at": "2026-08-24T00:28:01.000Z",
   "words": 634,
-  "summary": "Reference guide listing standard abbreviations for Dynamics 365 Business Central object types, word abbreviations used in naming conventions, and financial/time period abbreviations. Useful when developing or documenting AL code to follow Microsoft naming conventions.",
+  "summary": "Reference list of suggested abbreviations for Business Central. It covers the short forms for AL object types used in file names, short forms for common business words, and financial and time-period abbreviations. The author recompiled it because the original Microsoft Dynamics 365 Community post is no longer available.",
   "key_points": [
-    "Object types have abbreviations like Page, Codeunit, Table, Query, and Report for file naming",
-    "Common words in Dynamics 365 have standardized short forms such as Cust for customer, Inv for invoice, and Whse for warehouse",
-    "Financial metrics and time periods use abbreviations like YTD (Year to Date), PY (Previous Year), and FY (Fiscal Year)",
-    "Following these conventions ensures consistency across development and documentation in Business Central"
+    "Gives file-naming abbreviations for AL object types, for example PageExt, TableExt, EnumExt and PermissionSetExt",
+    "Maps common words to short forms, such as Cust for customer, Inv for invoice and Whse for warehouse",
+    "Includes period and reporting abbreviations like YTD, PY, FY, MOM and LCY",
+    "Recreates a Microsoft Community list that has since been taken down"
   ],
   "systems": [
-    "development",
-    "administration"
+    "development"
   ],
   "topics": [
     "naming conventions",

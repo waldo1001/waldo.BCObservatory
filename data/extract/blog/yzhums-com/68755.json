@@ -38,10 +38,6 @@
   "language": "en",
   "quotes": [
     {
-      "text": "DateTime - Duration = DateTime, DateTime + Duration = DateTime",
-      "why_it_matters": "Explains the fundamental operations for working with DateTime and Duration data types in AL"
-    },
-    {
       "text": "if you only need to add or subtract hours from a DateTime field, there's an even simpler method",
       "why_it_matters": "Highlights that AddHoursToDateTime is a convenient alternative to Duration calculations for hour-only adjustments"
     }

@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/yzhums-com/69019",
+  "page_id": "post/yzhums-com/69019",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "Available or changed with runtime version 15.0 – Business Central 2025 release wave 1",
+      "objects": [
+        {
+          "type": "other",
+          "name": "OnPreRendering (Report) trigger"
+        }
+      ],
+      "events": [
+        "OnPreRendering"
+      ],
+      "versions": [
+        "Business Central 2025 release wave 1"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Notice that if this element is empty, the platform will apply the user password to this field.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "protection\\admin"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002547,
+    "posts_in_call": 4
+  }
+}

@@ -7,11 +7,11 @@
   "words": 965,
   "summary": "This post explains two methods to hide or disable the New, Edit (Edit List), and Delete actions in Business Central pages: using permission sets to exclude Insert, Modify, and Delete permissions, or setting the InsertAllowed, ModifyAllowed, and DeleteAllowed properties (available in BC25 wave 2 for page extensions).",
   "key_points": [
-    "Special actions like New, Edit, and Delete are not defined in AL code but correspond directly to Insert, Modify, and Delete permissions in Table Data",
-    "Permission exclusion hides actions by graying them out for list pages, but errors occur when users click grayed-out actions in dropdown lists",
-    "InsertAllowed, ModifyAllowed, and DeleteAllowed properties can hide these actions completely on custom pages and from BC25 on standard pages via extensions",
-    "For list pages with card pages, restrict the card page properties; for list pages without card pages, modify the list page directly",
-    "Dropdown list restrictions require identifying which card page opens and modifying its properties instead"
+    "New, Edit (Edit List) and Delete are not defined in AL code; they map to Insert, Modify and Delete permissions on Table Data",
+    "Excluding those permissions in a permission set grays the actions out on list and card pages, but the New action in drop-down lists stays visible and raises a permission error when clicked",
+    "Setting InsertAllowed, ModifyAllowed and DeleteAllowed to false removes the actions; before BC25 (runtime 13) this only worked on custom pages, and from runtime 14 page extensions can change them on standard pages",
+    "For a list page with a card page, change the card page; for a list without a card page, change the list itself; for drop-down lists, change the page that opens when New is clicked",
+    "These properties cannot be set from variables, so the author suggests using profiles to give different users different behavior"
   ],
   "systems": [
     "development",
@@ -87,10 +87,6 @@
   ],
   "language": "en",
   "quotes": [
-    {
-      "text": "These three actions correspond to the following three permissions of Table Data: New: Insert Permission, Edit (Edit List): Modify Permission, Delete: Delete Permission.",
-      "why_it_matters": "It explains the fundamental mapping between UI actions and permission system, essential for understanding both control methods"
-    },
     {
       "text": "From Business Central 2024 wave 2 (BC25), we can modify these three properties in pageextension.",
       "why_it_matters": "This marks a significant capability change that enables hiding these actions on standard pages without custom code on the page itself"

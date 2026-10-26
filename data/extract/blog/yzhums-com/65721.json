@@ -5,12 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2025-07-08T00:54:23.000Z",
   "words": 504,
-  "summary": "The Payables Agent in Business Central 2025 wave 1 automates accounts payable tasks by extracting vendor invoices from email and SharePoint, creating purchase invoice drafts for review, and using purchase history to auto-fill document details. This feature reduces manual data entry and errors while freeing AP professionals for higher-value work.",
+  "summary": "The Payables Agent in Business Central 2025 wave 1 (tested in 26.3) automates accounts payable work. It picks up vendor invoice PDFs sent to a Microsoft 365 mailbox, imports them into E-Documents, and creates draft purchase invoices for review, using past purchase history to fill in details. The post walks through activating the agent, setting up the email account, and choosing which extra fields to auto-fill.",
   "key_points": [
-    "Payables Agent sources vendor invoice attachments (PDF) from Microsoft 365 email and SharePoint, then imports them into E-Documents",
-    "The agent creates purchase invoice document drafts using past purchase history and company accounting policies for auto-population",
-    "Setup involves activating the agent, configuring email accounts, and choosing which invoice fields should be auto-filled",
-    "Feature is available in BC26.3 but currently limited to United States and United Kingdom regions"
+    "In the first version, the agent reads PDF invoice attachments from a Microsoft 365 email account, imports them into E-Documents, then moves the files to an archive folder.",
+    "The agent matches senders to registered vendors and creates draft purchase documents for a person to review.",
+    "Past invoice data is used to suggest values, and you can configure extra fields to auto-fill; that page opens only after clicking Update.",
+    "Setup covers activating the agent, configuring the email account, and an optional sample invoice guide.",
+    "Regions are not fully confirmed: the author suspects US and UK only, as with the Sales Order Agent, and found it missing in the Japan (W1) region."
   ],
   "systems": [
     "copilot",

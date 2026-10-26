@@ -1,0 +1,36 @@
+{
+  "item_id": "blog/yzhums-com/71775",
+  "page_id": "post/yzhums-com/71775",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "If your customers are still using them, or if you have added customizations, please confirm this before upgrading.",
+      "objects": [
+        {
+          "type": "other",
+          "name": "Item Age Composition – Value"
+        },
+        {
+          "type": "other",
+          "name": "Item Age Composition – Quantity"
+        },
+        {
+          "type": "other",
+          "name": "Items with Negative Inventory"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC28"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.001292,
+    "posts_in_call": 4
+  }
+}

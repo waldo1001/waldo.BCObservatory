@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/64942",
+  "input_hash": "1fc26988fbd5dfacdae666e481e8cee92a761015f46c028f7d35d218de087dd8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:41:41.779Z",
+  "issues": [
+    "Key point merged version 26 limits loosely; AND/OR, NOT and negation are version 26 and later, which the original point blurred.",
+    "Feature 'code filtering' is not supported by the post.",
+    "Summary, quotes and systems are accurate."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028726,
+    "posts_in_call": 4
+  }
+}

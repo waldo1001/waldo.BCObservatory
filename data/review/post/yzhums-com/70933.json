@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/70933",
+  "input_hash": "5d90194de2d14a1e302d7aeac9996a1413c6018a659d8b219a3e9cebb8f88255",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T06:40:55.432Z",
+  "issues": [
+    "Summary, key points, quotes and versions match the post.",
+    "The development system tag rests only on link references to developer news and the AL pre-release extension; dropped as unsupported."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030116,
+    "posts_in_call": 4
+  }
+}
