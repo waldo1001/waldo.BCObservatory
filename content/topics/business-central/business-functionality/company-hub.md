@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:09.299Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -55,7 +55,8 @@ links:
     - topic/business-central/business-functionality
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/72442
   guidelines: []
   changes:
     - change/bcapps/11741
@@ -69,7 +70,7 @@ coverage:
   learn: 3
   code: 5
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 1151
@@ -114,6 +115,7 @@ The three pages follow a natural order. Start with "Add companies to your compan
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11741 [MCP] Add company and environment descriptions](../../../changes/bcapps/11741.md) (code change): "Company Description field added to Company Information table as a BLOB across all country layers"
+- [Dynamics 365 Business Central: Open the same list in a new tab when switching companies](../../../posts/yzhums-com/72442.md) (community post): "open the same list page in a new tab while keeping the original company context"
 
 ## Business Central pages and reports
 

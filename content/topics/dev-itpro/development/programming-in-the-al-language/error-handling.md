@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:03.133Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -233,7 +233,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [When “Errors” Don’t Stop the Process: A Hidden Risk in Business Central](../../../../posts/miljan-rs/966.md) (community post): "ErrorBehavior::Collect allows code to continue after errors"
 - [How to Write Error Messages That Help](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-how-to-write-error-messages-that-help--6e1cc8407f.md) (community post): "Error messages significantly impact user experience in enterprise software"
 - [BC Friday Tips #77 TestField Show Record Action](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a.md) (community post): "TestField automatically adds a Show Record button to error dialogs"
-- [Dynamics 365 Business Central: Regarding the default field name/table name in the error message thrown by Record.TestField Method](../../../../posts/yzhums-com/66277.md) (community post): "Record.TestField Method validates that a field is not empty or zero"
+- [Dynamics 365 Business Central: Regarding the default field name/table name in the error message thrown by Record.TestField Method](../../../../posts/yzhums-com/66277.md) (community post): "Record.TestField Method validates that a field is not empty"
 - [Business Central 2025 wave 2 (BC27): App version in “Copy error details”/”Share details via”](../../../../posts/yzhums-com/68174.md) (community post): "Error dialogs now display the extension version number alongside extension name"
 - [Dynamics 365 Business Central: View the last known error](../../../../posts/yzhums-com/70329.md) (community post): "Use GetLastErrorCode and GetLastErrorText methods to programmatically access error details"
 - [Dynamics 365 Business Central: GetLastErrorCode, GetLastErrorText and GetLastErrorCallStack Methods](../../../../posts/yzhums-com/75574.md) (community post): "GetLastErrorCode retrieves the error classification and is not translated to local language"

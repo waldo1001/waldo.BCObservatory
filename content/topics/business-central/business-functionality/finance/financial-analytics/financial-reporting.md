@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:20.300Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -357,11 +357,11 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central 2026 release wave 1 (BC28): Financial Reporting enhancements](../../../../../posts/yzhums-com/71744.md) (community post): "Financial Reporting enhancements that streamline report creation, distribution"
-- [Business Central 2026 release wave 1 (BC28): Financial Report Statuses and Financial Report Categories](../../../../../posts/yzhums-com/71806.md) (community post): "Financial Report Statuses and Financial Report Categories to organize"
-- [Dynamics 365 Business Central: Scheduling Financial Reports via Email (Send Regular Financial Reports to Your Inbox) – No Customization](../../../../../posts/yzhums-com/72470.md) (community post): "Financial reports can now be scheduled for recurring distribution to"
+- [Business Central 2026 release wave 1 (BC28): Financial Reporting enhancements](../../../../../posts/yzhums-com/71744.md) (community post): "Financial Reporting enhancements. Business Central 2026 wave 1 introduces enhancements to Financial Reporting"
+- [Business Central 2026 release wave 1 (BC28): Financial Report Statuses and Financial Report Categories](../../../../../posts/yzhums-com/71806.md) (community post): "Financial Report Statuses and Financial Report Categories to organize and manage the lifecycle of financial reports"
+- [Dynamics 365 Business Central: Scheduling Financial Reports via Email (Send Regular Financial Reports to Your Inbox) – No Customization](../../../../../posts/yzhums-com/72470.md) (community post): "scheduled distribution of financial reports via email. Users can set up recurring financial report schedules"
 - [Business Central 2026 release wave 2 (BC29): Run multiple financial reports and get a single PDF output (Combines multiple Financial Reports into a single PDF)](../../../../../posts/yzhums-com/75984.md) (community post): "Financial Report Packages consolidate multiple financial reports into one PDF document"
-- [Business Central 2026 release wave 2 (BC29): Financial report changes are now always logged](../../../../../posts/yzhums-com/76076.md) (community post): "Changes to financial row, column, and report definitions are automatically recorded in the change log"
+- [Business Central 2026 release wave 2 (BC29): Financial report changes are now always logged](../../../../../posts/yzhums-com/76076.md) (community post): "Financial report changes in Business Central 2026 release wave 2 are now automatically logged in the change log"
 - [What's Cooking in Business Central: Sneak Peek into New Financial Reporting Enhancements (part 1)](../../../../../videos/adsSh_dm9BY.md) (video): "financial reporting; report definitions; internal description"
 - [What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry](../../../../../videos/b54ehH4AlFA.md) (video): "telemetry; financial reporting; application insights; row definitions"
 - [What's New: Financial Analytics (2025 release wave 2)](../../../../../videos/Fs90uUdWi0M.md) (video): "Dynamic date headers in financial reporting; Additional reporting currency support"

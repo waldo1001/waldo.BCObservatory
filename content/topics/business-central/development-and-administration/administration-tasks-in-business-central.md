@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:26.819Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -382,6 +382,7 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c
     - post/yzhums-com/71559
     - post/yzhums-com/74800
+    - post/yzhums-com/75894
   guidelines: []
   changes:
     - change/bcapps/9400
@@ -400,7 +401,7 @@ coverage:
   learn: 34
   code: 93
   video: 0
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms:
   - 1
@@ -567,8 +568,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central 2026 Wave 1. What’s New in Performance.](../../../posts/duiliotacconi-com/1983.md) (community post): "enable or disable database indexes directly in the UI, available per company"
 - [Business Central 2026 Release Wave 2: Turn SIFT Indexes On or Off](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9.md) (community post): "administrators can now turn SIFT indexes on or off directly"
 - [Manage Database Index Usage in Business Central.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c.md) (community post): "Administrators can view index details (name, size, usage statistics, enabled status)"
-- [Business Central 2026 release wave 1 (BC28): New Early Access Preview Features page (1965, List)](../../../posts/yzhums-com/71559.md) (community post): "administrators and users enable new optional features in advance before they become mandatory"
+- [Business Central 2026 release wave 1 (BC28): New Early Access Preview Features page (1965, List)](../../../posts/yzhums-com/71559.md) (community post): "New optional features are initially disabled and can be individually enabled by administrators"
 - [Does Dynamics 365 Business Central support browser-based translation (e.g., Microsoft Translator in Edge browser)?](../../../posts/yzhums-com/74800.md) (community post): "Business Central supports multiple languages through installed language packs available on Marketplace"
+- [Business Central 2026 release wave 2 (BC29): Administrators can turn SIFT (SumIndexField Technology) indexes on/off](../../../posts/yzhums-com/75894.md) (community post): "administrators to turn SIFT indexes on and off directly"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:59.700Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -117,6 +117,7 @@ links:
     - video/P-7dYVfB73E
   posts:
     - post/waldo-be/318335
+    - post/yzhums-com/72288
     - post/yzhums-com/75294
   guidelines: []
   changes:
@@ -135,7 +136,7 @@ coverage:
   learn: 11
   code: 0
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: abbe2c0b8371aa379754387fd9ae9dc2c4a5b22601897dafe6d868eba89992ac
@@ -195,6 +196,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#152 knowledge(events): ChangeCompany leaves triggers and trigger-event subscribers running in the calling company](../../../../changes/bcquality/152.md) (code change): "ChangeCompany does not move trigger execution context to the target company"
 - [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../changes/bcquality/228.md) (code change): "Isolated events are only isolated outside a write transaction"
 - [Troubleshooting Series – Ep4 – Event Recorder](../../../../posts/waldo-be/318335.md) (community post): "Event Recorder captures events in order of execution with event type classification"
+- [Dynamics 365 Business Central: How to display a custom Application Version (e.g., from W1 28.0 to YUN ZHU 28.0)](../../../../posts/yzhums-com/72288.md) (community post): "Subscribe to the GetApplicationVersion event in codeunit 2000000001"
 - [Dynamics 365 Business Central: Create an extensibility request on BCApps (ALAppExtensions is being retired)](../../../../posts/yzhums-com/75294.md) (community post): "When requesting events, follow best practices like passing records rather than exposing"
 - [Business Central Under the Hood episode 6: We Have Too Many Events!](../../../../videos/P-7dYVfB73E.md) (video): "Events; extensibility; componentization; code customization; extensions; cloud migration; event telemetry"
 

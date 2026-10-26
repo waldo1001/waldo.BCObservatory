@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
-  "started_at": "2026-10-26T05:51:10.938Z",
-  "finished_at": "2026-10-26T06:46:11.497Z",
+  "started_at": "2026-10-26T08:08:59.782Z",
+  "finished_at": "2026-10-26T08:24:18.733Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -33,7 +33,7 @@
           "removed": 0
         },
         "note": "389 posts via WordPress REST",
-        "duration_ms": 7751
+        "duration_ms": 5927
       }
     ],
     "totals": {
@@ -74,112 +74,89 @@
       "post_reviews": 50000,
       "change_reviews": 50000
     },
-    "work": 204,
-    "executed": 204,
+    "work": 12,
+    "executed": 12,
     "skips": 0,
     "quota_use": {
       "posts": {
-        "selected": 204,
-        "available": 204,
+        "selected": 12,
+        "available": 12,
         "limit": 50000
       }
     },
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 381,
-    "cache_hits": 276,
+    "calls": 199,
+    "cache_hits": 9,
     "failures": 0,
     "by_model": {
-      "claude-haiku-4-5-20251001": 126,
-      "claude-opus-5-5": 254,
-      "claude-sonnet-5-5": 1
+      "claude-haiku-4-5-20251001": 53,
+      "claude-opus-5-5": 146
     },
-    "cost_usd": 20.993211099999996,
+    "cost_usd": 9.996035000000001,
     "tokens_by_model": {
       "claude-haiku-4-5-20251001": {
-        "calls": 126,
-        "input": 58240,
-        "output": 69715,
-        "cache_read": 126409,
-        "cache_creation": 984082,
-        "cost_usd": 2.3876199000000002
+        "calls": 53,
+        "input": 7801,
+        "output": 25417,
+        "cache_read": 5430,
+        "cache_creation": 599177,
+        "cost_usd": 1.333783
       },
       "claude-opus-5-5": {
-        "calls": 254,
-        "input": 508,
-        "output": 331317,
-        "cache_read": 87216,
-        "cache_creation": 1485677,
-        "cost_usd": 18.5312312
-      },
-      "claude-sonnet-5-5": {
-        "calls": 1,
-        "input": 2,
-        "output": 528,
+        "calls": 146,
+        "input": 292,
+        "output": 150543,
         "cache_read": 0,
-        "cache_creation": 17269,
-        "cost_usd": 0.07436
+        "cache_creation": 706278,
+        "cost_usd": 8.662251999999999
       }
     },
-    "day_cost_usd": 21.060175
+    "day_cost_usd": 31.05621
   },
   "spend": {
-    "today_usd": 0.066964,
+    "today_usd": 21.060175,
     "week_before_usd": 93.448098,
     "night_cap_usd": 100000,
     "week_cap_usd": 100000,
-    "allowance_usd": 99906.484938,
+    "allowance_usd": 99885.491727,
     "binding": "week",
     "exhausted": false,
     "override": true
   },
   "items_changed": 0,
   "errors": [
-    "blog/yzhums-com/70129 fetched: fetch failed",
-    "blog/yzhums-com/69366 fetched: fetch failed",
-    "blog/yzhums-com/69394 fetched: fetch failed",
-    "blog/yzhums-com/69079 fetched: fetch failed",
-    "blog/yzhums-com/67269 fetched: fetch failed",
-    "blog/yzhums-com/67024 extracted: model returned no entry for this post",
-    "content: posts/demiliani-com/12623.md: broken link ../../posts/yzhums-com/68656.md",
-    "content: posts/yzhums-com/63595.md: broken link ../../posts/yzhums-com/68656.md",
-    "content: posts/yzhums-com/63942.md: broken link ../../posts/yzhums-com/68656.md",
-    "content: posts/yzhums-com/64042.md: broken link ../../posts/yzhums-com/68656.md",
-    "content: posts/yzhums-com/65522.md: broken link ../../posts/yzhums-com/68656.md",
-    "content: posts/yzhums-com/68624.md: broken link ../../posts/yzhums-com/68656.md"
+    "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data topic review: expected 12 verdicts, got 11 for 11 refs",
+    "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry topic review: expected 13 verdicts, got 12 for 12 refs",
+    "blog/yzhums-com/73637 fetched: fetch failed"
   ],
   "captions_retried": 0,
-  "checkpoints": 17,
+  "checkpoints": 1,
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-26T11:26:00.000Z",
-    "items_touched": 204,
+    "deadline": "2026-10-26T13:43:00.000Z",
+    "items_touched": 12,
     "stages_run": {
-      "blog:extracted": 197,
-      "blog:summarized": 197,
-      "blog:linked": 197,
-      "blog:published": 197,
-      "blog:fetched": 196
+      "blog:fetched": 9,
+      "blog:extracted": 11,
+      "blog:summarized": 11,
+      "blog:linked": 11,
+      "blog:published": 11
     },
-    "advanced": 983,
-    "skipped": 1,
-    "failed_attempts": 6,
+    "advanced": 53,
+    "skipped": 0,
+    "failed_attempts": 1,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "parked": 198,
+    "parked": 7,
     "quota_charged": {
-      "posts": 204
+      "posts": 12
     },
     "regards": [],
     "errors": [
-      "blog/yzhums-com/70129 fetched: fetch failed",
-      "blog/yzhums-com/69366 fetched: fetch failed",
-      "blog/yzhums-com/69394 fetched: fetch failed",
-      "blog/yzhums-com/69079 fetched: fetch failed",
-      "blog/yzhums-com/67269 fetched: fetch failed",
-      "blog/yzhums-com/67024 extracted: model returned no entry for this post"
+      "blog/yzhums-com/73637 fetched: fetch failed"
     ],
     "parked_left": 0
   },
@@ -207,45 +184,45 @@
       "stopped": "done"
     },
     "crosslinks": {
-      "pages": 5171,
-      "rows": 9421,
+      "pages": 5250,
+      "rows": 9508,
       "certain": 2556,
       "by": {
-        "code": 5351,
+        "code": 5347,
         "override": 33,
-        "model": 4037
+        "model": 4128
       },
-      "learn_pages": 1745,
+      "learn_pages": 1760,
       "written": true,
       "errors": []
     },
     "cautions": {
-      "items": 578,
-      "cautions": 1416,
-      "objects": 44,
-      "attached": 62,
-      "written": false
+      "items": 732,
+      "cautions": 1658,
+      "objects": 60,
+      "attached": 83,
+      "written": true
     },
     "pages": {
       "objects": 25667,
-      "written": 0,
+      "written": 94,
       "removed": 0,
       "localizations": 22,
       "own_objects": 9214
     },
     "related": {
-      "pages": 10293,
-      "rows": 34774,
+      "pages": 10570,
+      "rows": 36943,
       "by_rank": {
         "1": 983,
         "2": 67,
-        "3": 20201,
-        "4": 1925,
-        "5": 4447,
+        "3": 20198,
+        "4": 1921,
+        "5": 6625,
         "6": 7016,
-        "7": 135
+        "7": 133
       },
-      "written": false
+      "written": true
     },
     "apps": {
       "apps": 96,
@@ -264,12 +241,12 @@
       "stopped": "done"
     },
     "digest": {
-      "candidates": 1,
-      "reviewed": 1,
-      "fixed": 1,
+      "candidates": 0,
+      "reviewed": 0,
+      "fixed": 0,
       "rejected": 0,
-      "calls": 1,
-      "cost_usd": 0.1946,
+      "calls": 0,
+      "cost_usd": 0,
       "stopped": "done"
     }
   },
@@ -279,15 +256,15 @@
     "held": 0,
     "pages": 1244,
     "relinked": 0,
-    "rerendered": 0,
+    "rerendered": 4,
     "api_calls": 0,
-    "narrated": 1
+    "narrated": 0
   },
   "previews": {
-    "probed": 379,
+    "probed": 11,
     "refreshed": 0,
-    "failed": 1,
-    "rerendered": 451,
+    "failed": 0,
+    "rerendered": 20,
     "flipped": [],
     "channels": 0
   },
@@ -316,70 +293,63 @@
     }
   },
   "topic_links": {
-    "units": 2906,
-    "stale": 392,
-    "calls": 75,
-    "matched": 477,
-    "rejected": 51,
+    "units": 2912,
+    "stale": 227,
+    "calls": 48,
+    "matched": 260,
+    "rejected": 48,
     "failed": 0,
-    "cost_usd": 1.1665349999999997,
+    "cost_usd": 1.2167229999999998,
     "rejections": [
-      "post/yzhums-com/41471 -> topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler: quote not verbatim: \"Performance Profiler in BC20+ allows tracking active apps and execution flow\"",
       "post/yzhums-com/64942 -> t387: not a candidate of this item",
-      "post/nataliekarolak-com/2093 -> t385: not a candidate of this item",
       "post/yzhums-com/64010 -> t389: not a candidate of this item",
-      "post/yzhums-com/64042 -> t503: not a candidate of this item",
-      "post/yzhums-com/66056 -> t387: not a candidate of this item",
-      "post/yzhums-com/66721 -> t387: not a candidate of this item",
-      "post/yzhums-com/67446 -> t387: not a candidate of this item",
+      "post/yzhums-com/70782 -> t389: not a candidate of this item",
+      "post/yzhums-com/67705 -> t392: not a candidate of this item",
       "post/yzhums-com/67791 -> t485: not a candidate of this item",
-      "post/yzhums-com/76319 -> t387: not a candidate of this item"
+      "post/yzhums-com/41471 -> topic/dev-itpro/development/extensibility/extending-al-objects: quote not verbatim: \"page extensions can change them on standard pages\"",
+      "post/yzhums-com/61561 -> topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/reading-data: quote not verbatim: \"Record.CalcSums method to calculate column totals\"",
+      "post/yzhums-com/71365 -> t464: not a candidate of this item",
+      "post/yzhums-com/76233 -> t464: not a candidate of this item",
+      "post/yzhums-com/64939 -> topic/dev-itpro/administration/understand-business-central-online: quote not verbatim: \"cumulative updates released in Business Central across multiple versions\""
     ],
     "second": {
-      "due": 3,
-      "called": 3,
-      "matched": 3
+      "due": 71,
+      "called": 71,
+      "matched": 66
     },
     "stopped": "done"
   },
   "cautions": {
-    "due": 379,
-    "posts": 379,
-    "calls": 95,
-    "cautions": 242,
+    "due": 11,
+    "posts": 11,
+    "calls": 3,
+    "cautions": 3,
     "failed": 0,
-    "cost_usd": 1.1158869000000007,
+    "cost_usd": 0.06875,
     "stopped": "done"
   },
   "learn_confirm": {
-    "units": 4082,
-    "stale": 95,
-    "called": 95,
-    "calls": 12,
-    "picks": 92,
-    "rejected": 8,
+    "units": 4084,
+    "stale": 2,
+    "called": 2,
+    "calls": 1,
+    "picks": 2,
+    "rejected": 1,
     "failed": 0,
-    "cost_usd": 0.10519799999999999,
+    "cost_usd": 0.004402,
     "rejections": [
-      "object/codeunit/11755-cz -> L6: not a candidate of this item",
-      "object/enum/9205 -> L13: not a candidate of this item",
-      "object/codeunit/10837-fr -> L16: not a candidate of this item",
-      "object/codeunit/9080 -> L28: not a candidate of this item",
-      "object/codeunit/312 -> https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/customer-contracts: more than 2 picks",
-      "object/page/7773 -> L16: not a candidate of this item",
-      "object/table/6787 -> https://learn.microsoft.com/dynamics365/business-central/finance-set-up-withholding-tax: more than 2 picks",
-      "object/table/7500 -> L26: not a candidate of this item"
+      "object/page/9216 -> L5: not a candidate of this item"
     ],
     "stopped": "done"
   },
   "topic_reviews": {
-    "candidates": 162,
-    "calls": 179,
-    "reviewed": 189,
-    "kept": 1006,
-    "dropped": 347,
-    "failed": 0,
-    "cost_usd": 9.633612000000005,
+    "candidates": 125,
+    "calls": 143,
+    "reviewed": 146,
+    "kept": 853,
+    "dropped": 261,
+    "failed": 2,
+    "cost_usd": 8.137668,
     "stopped": "done"
   },
   "reviews": {
@@ -391,27 +361,27 @@
       "cost_usd": 0
     },
     "post": {
-      "reviewed": 379,
-      "fixed": 229,
-      "rejected": 4,
-      "calls": 95,
-      "cost_usd": 1.352358,
-      "candidates": 379,
+      "reviewed": 11,
+      "fixed": 3,
+      "rejected": 2,
+      "calls": 3,
+      "cost_usd": 0.134324,
+      "candidates": 11,
       "failed": 0,
       "reset": 0,
-      "rerendered": 379,
+      "rerendered": 11,
       "stopped": "done"
     },
     "change": {
-      "reviewed": 6,
-      "fixed": 3,
+      "reviewed": 0,
+      "fixed": 0,
       "rejected": 0,
-      "calls": 1,
-      "cost_usd": 0.15872,
-      "candidates": 6,
+      "calls": 0,
+      "cost_usd": 0,
+      "candidates": 0,
       "failed": 0,
       "reset": 0,
-      "rerendered": 6,
+      "rerendered": 0,
       "stopped": "done"
     }
   },
@@ -438,13 +408,13 @@
     "review_backlog": 0
   },
   "content": {
-    "pages": 29536,
-    "errors": 6
+    "pages": 29547,
+    "errors": 0
   },
   "leak": {
     "vault": "scanned",
     "raw_docs": 1159,
-    "files_scanned": 32865,
+    "files_scanned": 32920,
     "findings": 0,
     "blocked": false
   }

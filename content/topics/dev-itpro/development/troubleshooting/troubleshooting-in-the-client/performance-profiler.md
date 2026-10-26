@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:35.052Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,10 +44,10 @@ links:
   videos:
     - video/0qt0Zy9ZsRo
     - video/B8PLDeZ73Y4
-    - video/UFLo2XGGS14
     - video/ZKq0hc04f-s
   posts:
     - post/duiliotacconi-com/1694
+    - post/yzhums-com/41471
     - post/yzhums-com/67392
     - post/yzhums-com/68765
   guidelines: []
@@ -62,8 +62,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 4
-  blog: 3
+  video: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 7e97fad0e013b2deeb8cd08b179415b8f5c9bdbfcac1548d59040e65dca47512
@@ -124,11 +124,11 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [SQL Statement in AL Profiles](../../../../../posts/duiliotacconi-com/1694.md) (community post): "SQL Statement collection in AL performance profiles available in Business Central 2025 Wave 2"
-- [Business Central 2025 wave 2 (BC27): View SQL call information in performance profiles](../../../../../posts/yzhums-com/67392.md) (community post): "Performance profiles now display actual SQL calls made during profiling"
-- [Dynamics 365 Business Central Blog Series: Performance Profiler](../../../../../posts/yzhums-com/68765.md) (community post): "performance profiling tools in Dynamics 365 Business Central across multiple"
+- [Dynamics 365 Business Central: How to check whether the current page/report is standard or customized](../../../../../posts/yzhums-com/41471.md) (community post): "The AL profiler lists active apps and the call tree"
+- [Business Central 2025 wave 2 (BC27): View SQL call information in performance profiles](../../../../../posts/yzhums-com/67392.md) (community post): "SQL call visibility to performance profiles in both the in-client profiler"
+- [Dynamics 365 Business Central Blog Series: Performance Profiler](../../../../../posts/yzhums-com/68765.md) (community post): "performance profiling tools in Dynamics 365 Business Central across multiple releases"
 - [What's New: Analyze Performance Issues with Scheduled Profiles (2024 release wave 2)](../../../../../videos/0qt0Zy9ZsRo.md) (video): "Analyze Performance Issues with Scheduled Profiles performance troubleshooting"
 - [Snapshot Debugging vs AL Profiler in Business Central — When to Use Each](../../../../../videos/B8PLDeZ73Y4.md) (video): "Snapshot Debugging vs AL Profiler in Business Central"
-- [What's new: Agentic Developer Loop (2026 release wave 2)](../../../../../videos/UFLo2XGGS14.md) (video): "Session-based profiling workflow"
 - [What's New: Capturing SQL Calls in Performance Profiles (2025 release wave 2)](../../../../../videos/ZKq0hc04f-s.md) (video): "Capturing SQL Calls in Performance Profiles performance profiler"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

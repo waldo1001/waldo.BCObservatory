@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:10.805Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-10-26T08:14:21.848Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,6 +80,11 @@ links:
   related:
     - to: post/yzhums-com/73485
       title: "Business Central 2026 release wave 1 (BC28.1): Use enhanced and faster reports for analysis of deferrals and trial balances"
+      label: possibly related
+      why: both name Report 708 "Inventory Order Details"
+      by: code
+    - to: post/yzhums-com/73030
+      title: "Business Central 2026 release wave 1 (BC28): Analyze customer loyalty and other sales scenarios"
       label: possibly related
       why: both name Report 708 "Inventory Order Details"
       by: code
@@ -383,5 +388,6 @@ Not found in BC28-30: report "Physical inventory list", table "item ledger entri
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Business Central 2026 release wave 1 (BC28.1): Use enhanced and faster reports for analysis of deferrals and trial balances](../posts/yzhums-com/73485.md) — possibly related: both name Report 708 "Inventory Order Details"
+- [Business Central 2026 release wave 1 (BC28): Analyze customer loyalty and other sales scenarios](../posts/yzhums-com/73030.md) — possibly related: both name Report 708 "Inventory Order Details"
 
 Presenters (as heard): Tanya Bickski, BB, Bert, Ron, Tanya Burkski.

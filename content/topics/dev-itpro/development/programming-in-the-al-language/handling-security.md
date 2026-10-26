@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:20.499Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -285,7 +285,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: locking down IsolatedStorage reads.](../../../../posts/demiliani-com/15914.md) (community post): "protecting sensitive data like secret keys, feature flags, and cached tokens"
 - [BC Friday Tips #37 Inherent Permissions](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-37-inherent-permissions--d71a425273.md) (community post): "Inherent Permissions in AL allow developers to grant temporary access"
 - [Dynamics 365 Business Central: Do users really need permissions for Temporary Tables? (Permissions and temporary tables)](../../../../posts/yzhums-com/22035.md) (community post): "Setting SourceTableTemporary property to true on a page"
-- [Business Central 2025 wave 1 (BC26.1): New method to add SecretText values to JSON objects – WriteWithSecretsTo](../../../../posts/yzhums-com/64057.md) (community post): "WriteWithSecretsTo is a new method on the JsonObject type that adds SecretText"
+- [Business Central 2025 wave 1 (BC26.1): New method to add SecretText values to JSON objects – WriteWithSecretsTo](../../../../posts/yzhums-com/64057.md) (community post): "WriteWithSecretsTo is a new method on the JsonObject type that adds SecretText values"
 - [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../../../../posts/yzhums-com/65762.md) (community post): "use the Record.WritePermission() method in AL to check whether a user has write permissions"
 - [Business Central 2025 wave 2 (BC27): ‘Concealed’ text field type for sensitive data (New field-level property: MaskType)](../../../../posts/yzhums-com/67761.md) (community post): "MaskType field-level property that allows developers to conceal sensitive text"
 - [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../videos/tDcT_51ktqo.md) (video): "Error Info Permission Checking; Permissions Work with Security Groups"

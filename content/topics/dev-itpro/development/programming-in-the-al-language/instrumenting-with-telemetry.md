@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:39.284Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,6 +97,7 @@ links:
     - video/tDcT_51ktqo
   posts:
     - post/waldo-be/317845
+    - post/yzhums-com/68765
   guidelines: []
   changes:
     - change/al-go/2229
@@ -117,7 +118,7 @@ coverage:
   learn: 8
   code: 0
   video: 6
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 700c86efba6976ff1f579dab7d994f43d63ff87525ee22bc8315bb5d045228dd
@@ -182,6 +183,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10897 BC IQ - Update data sensitivities for policy history](../../../../changes/bcapps/10897.md) (code change): "Data sensitivities are updated to reflect recent changes to Business Skill"
 - [#12432 [AB#647643] Retain remote files and safely retire verified local references](../../../../changes/bcapps/12432.md) (code change): "Removes unused deletion telemetry and updates the README configuration guidance"
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../../posts/waldo-be/317845.md) (community post): "extends Business Central's built-in telemetry capabilities by adding custom events"
+- [Dynamics 365 Business Central Blog Series: Performance Profiler](../../../../posts/yzhums-com/68765.md) (community post): "SessionInformation data type in BC26 allows developers to retrieve the current callstack programmatically"
 - [What's New: Telemetry (2023 release wave 2)](../../../../videos/7rIHz0zrgWU.md) (video): "telemetry; performance analysis; ai insights; error troubleshooting"
 - [What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry](../../../../videos/b54ehH4AlFA.md) (video): "telemetry; financial reporting; application insights; row definitions"
 - [What's New: Telemetry (2025 release wave 1)](../../../../videos/hS8yWS3bxWE.md) (video): "Financial Reporting Usage Telemetry; Financial Reporting Definition Changes Telemetry"

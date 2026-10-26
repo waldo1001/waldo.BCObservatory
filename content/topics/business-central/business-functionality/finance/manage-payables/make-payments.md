@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:27.835Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -293,7 +293,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11336 [master] Report 400 (Remittance Advice) Does Not Include Applied Vendor Refund Entries Resulting in Incorrect Total Calculation](../../../../../changes/bcapps/11336.md) (code change): "Report 400 now includes applied vendor refund entries that share a payment's document number"
 - [#11436 [29.X]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug 632380](../../../../../changes/bcapps/11436.md) (code change): "Purchase invoice lines of type G/L Account where enabling Prices Including VAT"
 - [#11567 [29.x]Report 400 (Remittance Advice) Does Not Include Applied Vendor Refund Entries Resulting in Incorrect Total Calculation](../../../../../changes/bcapps/11567.md) (code change): "Report 400 Remittance Advice now includes applied vendor refund"
-- [#13054 [FR] Delocalize delayed VAT and SEPA payment-slip integration](../../../../../changes/bcapps/13054.md) (code change): "SEPA direct debit payment-slip features from base layers to the Payment Management"
+- [#13054 [FR] Delocalize delayed VAT and SEPA payment-slip integration](../../../../../changes/bcapps/13054.md) (code change): "SEPA direct debit export now supports filtered and temporary entries"
 - [#9578 [E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)](../../../../../changes/bcapps/9578.md) (code change): "E-Documents now supports exporting remittance advice from payment journals and posted vendor payments"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../../../changes/bcapps/9984.md) (code change): "Error with unposted prepayment amounts on Order"
 - [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../../../../../videos/fpc_XlVEnWw.md) (video): "Payment journals; Suggest vendor payments wizard; Vendor priority functionality"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:31.746Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -47,6 +47,7 @@ links:
     - video/u1oO9MEg9kc
   posts:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362
+    - post/yzhums-com/69290
     - post/yzhums-com/74649
   guidelines: []
   changes:
@@ -81,7 +82,7 @@ coverage:
   learn: 2
   code: 2
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 5
@@ -144,7 +145,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9943 [Master]-Purchase invoice in USD with deferral shows 0 "Amount LCY" in Deferral Schedule View"](../../../../changes/bcapps/9943.md) (code change): "Purchase invoices in foreign currency now correctly display"
 - [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](../../../../changes/bcquality/223.md) (code change): "rounds it to the currency's Unit-Amount Rounding Precision"
 - [How to Add Currency Symbols to Numeric Fields in Business Central.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362.md) (community post): "configurable currency symbols on numeric fields to help finance users"
-- [Business Central 2026 release wave 1 (BC28): Show Currency Symbol/Code and Currency Symbol Position](../../../../posts/yzhums-com/74649.md) (community post): "Show Currency Symbol/Code and Currency Symbol Position settings on the General Ledger Setup"
+- [Dynamics 365 Business Central: Regarding the issue where the Source Currency Amount in G/L Entry differs from the pre-posting Amount in BC27](../../../../posts/yzhums-com/69290.md) (community post): "When posting general journal lines with foreign currencies in BC27, the Source Currency Amount field"
+- [Business Central 2026 release wave 1 (BC28): Show Currency Symbol/Code and Currency Symbol Position](../../../../posts/yzhums-com/74649.md) (community post): "Show Currency setting and a Currency Symbol Position setting to General Ledger Setup"
 - [What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)](../../../../videos/u1oO9MEg9kc.md) (video): "GL Account Revaluation; currency revaluation; exchange rate adjustments"
 
 ## Business Central pages and reports

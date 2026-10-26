@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:48.203Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,6 +99,6 @@ The architecture page explains how reports are created and viewed in Power BI De
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central 2026 release wave 1 (BC28.2): Power BI Report Deployments (Centralized Management of Power BI Apps)](../../../../../posts/yzhums-com/72067.md) (community post): "Power BI Report Deployments page centralizes management of Power BI apps"
+- [Business Central 2026 release wave 1 (BC28.2): Power BI Report Deployments (Centralized Management of Power BI Apps)](../../../../../posts/yzhums-com/72067.md) (community post): "Power BI Report Deployments page, enabling centralized management and batch deployment"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

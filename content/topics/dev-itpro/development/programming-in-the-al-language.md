@@ -12,7 +12,7 @@ review:
   at: "2026-10-22T01:12:24.802Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -369,10 +369,8 @@ links:
     - post/nataliekarolak-com/4184
     - post/yzhums-com/65768
     - post/yzhums-com/66461
-    - post/yzhums-com/70117
     - post/yzhums-com/70325
     - post/yzhums-com/70481
-    - post/yzhums-com/76518
   guidelines: []
   changes:
     - change/bcapps/11507
@@ -404,7 +402,7 @@ coverage:
   learn: 340
   code: 36
   video: 3
-  blog: 10
+  blog: 8
   guideline: 0
 bc_forms:
   - 16
@@ -508,10 +506,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Using Substring to replace CopyStr](../../../posts/nataliekarolak-com/4184.md) (community post): "Using Substring to replace CopyStr for improved code readability"
 - [Dynamics 365 Business Central: A simple Date Formula testing tool](../../../posts/yzhums-com/65768.md) (community post): "Date Formula testing tool for Dynamics 365 Business Central helps developers"
 - [Dynamics 365 Business Central: How to quickly strip not supported chars in File Name via AL](../../../posts/yzhums-com/66461.md) (community post): "demonstrates using the StripNotsupportChrInFileName method from codeunit 419"
-- [Dynamics 365 Business Central Blog Series: Date and time handling](../../../posts/yzhums-com/70117.md) (community post): "Date, time, and datetime types can be converted between each other and to text"
 - [Dynamics 365 Business Central: How to split a string on a fixed character (delimiter or separator) via AL](../../../posts/yzhums-com/70325.md) (community post): "String splitting in AL using the Text.Split method to parse delimited data"
 - [Dynamics 365 Business Central: How to convert Month Name (Text) to Month Number (Integer)](../../../posts/yzhums-com/70481.md) (community post): "converting a month name text value to its corresponding month number integer"
-- [Business Central 2026 release wave 2 (BC29): AL developers can turn indexes on/off in AL code](../../../posts/yzhums-com/76518.md) (community post): "AL developers can turn database indexes on or off directly from AL code"
 - [... but can it play DOOM? (In Business Central)](../../../videos/a8W1x0xwkv4.md) (video): "AL development; user control host; typescript; webgl rendering; javascript interop"
 - [What’s New: Data Search Improvements (For Developers) (2024 release wave 2)](../../../videos/lH2Z4xfdhmY.md) (video): "Modern search; full-text search; optimized for text search property"
 - [What's New in AL: Embedding Resources in Applications (2024 release wave 2)](../../../videos/QhHgkCe3kkk.md) (video): "Embedding resources in applications; get resource function; Multiple resource folders"

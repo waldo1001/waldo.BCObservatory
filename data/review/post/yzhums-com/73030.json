@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/73030",
+  "input_hash": "f6fdcad0b3dfbd478813b372f6a7b74546f353a2dea0e12880fbe248ff2966f2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T08:21:45.381Z",
+  "issues": [
+    "Key points present the Sales Order analysis views as available, but the author notes he could not find them in BC28.1 yet; added that caveat.",
+    "Report names, features and versions are supported by the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039719,
+    "posts_in_call": 4
+  }
+}

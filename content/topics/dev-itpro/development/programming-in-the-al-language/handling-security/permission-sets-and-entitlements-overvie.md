@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:55.702Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,6 +140,7 @@ links:
   videos: []
   posts:
     - post/aardvarklabs-blog/3348
+    - post/yzhums-com/56521
     - post/yzhums-com/65999
     - post/yzhums-com/69809
   guidelines: []
@@ -159,7 +160,7 @@ coverage:
   learn: 14
   code: 0
   video: 0
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: f33e0b05969bd241cd9a1772129a10fa1fed0a52c873f9fef18f928c6cfd523a
@@ -237,6 +238,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#8947 [Permissions] Add Where-Used and Permissions Overview navigation actions](../../../../../changes/bcapps/8947.md) (code change): "Permission Sets list gains Where-Used and Permissions Overview actions"
 - [#9599 Add event subscriber for OpenPermissionSetPage](../../../../../changes/bcapps/9599.md) (code change): "A new event subscriber codeunit enables programmatic opening of the permission set"
 - [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../../../posts/aardvarklabs-blog/3348.md) (community post): "permission sets and profiles limit which pages and fields the agent can see"
+- [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../../../../../posts/yzhums-com/56521.md) (community post): "using permission sets to exclude Insert, Modify, and Delete permissions"
 - [Dynamics 365 Business Central: Remove obsolete permissions from all permission sets](../../../../../posts/yzhums-com/65999.md) (community post): "The Remove Obsolete Permissions action on the Permission Sets page automatically removes deprecated permissions"
 - [Dynamics 365 Business Central: Make sure to generate the permission set file before installing your extension](../../../../../posts/yzhums-com/69809.md) (community post): "Permission set files must be generated for AL extensions so non-Super users"
 

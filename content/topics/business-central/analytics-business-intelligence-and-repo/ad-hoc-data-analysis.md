@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:53.461Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -129,7 +129,6 @@ links:
     - post/yzhums-com/65708
     - post/yzhums-com/69961
     - post/yzhums-com/71094
-    - post/yzhums-com/75265
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -141,7 +140,7 @@ coverage:
   learn: 7
   code: 25
   video: 12
-  blog: 10
+  blog: 9
   guideline: 0
 bc_forms:
   - 16
@@ -220,7 +219,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to prevent users from adding fields/columns from related tables in analysis mode (Disable/Enable Add Related Fields)](../../../posts/yzhums-com/65708.md) (community post): "Analysis mode allows users to add fields from related tables for advanced data analysis"
 - [Dynamics 365 Business Central: Comparing Years (Year-Over-Year) in Analysis Mode: A Simple 4-Step Guide](../../../posts/yzhums-com/69961.md) (community post): "Analysis Mode allows users to create pivot tables and analysis views on list pages"
 - [Business Central 2026 release wave 1 (BC28): Support for packaging analysis views in extensions (Create analysis views via AL)](../../../posts/yzhums-com/71094.md) (community post): "Analysis views can now be packaged in AL extensions as .analysis.json files"
-- [Dynamics 365 Business Central Blog Series: Query Object Examples & Use Cases](../../../posts/yzhums-com/75265.md) (community post): "Built-in queries provide ad hoc analysis for fixed assets, projects, and services"
 - [How Business Central Integrates with Microsoft Excel (2025)](../../../videos/6zj34hjbpGU.md) (video): "Data analysis; edit in excel; publish changes; financial data"
 - [What's New: Enhanced Analysis Mode (2026 release wave 1)](../../../videos/Afv-r-eDt90.md) (video): "analysis mode; analysis views; al extensions; page extensions"
 - [What's New: Server and Database - New Reporting Capabilities (2023 release wave 2)](../../../videos/c3paEbmDNmM.md) (video): "Data Analysis on Queries; Analysis views on queries"

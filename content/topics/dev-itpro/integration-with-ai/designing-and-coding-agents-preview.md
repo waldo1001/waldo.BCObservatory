@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -211,6 +211,7 @@ links:
     - video/nPF84Ufkn4k
     - video/Vq9Nk6_uxmQ
     - video/WFAZLsUTk20
+    - video/WjF_sESaIPo
   posts:
     - post/aardvarklabs-blog/3348
     - post/bertverbeek-nl/1219
@@ -218,7 +219,7 @@ links:
     - post/bertverbeek-nl/1290
     - post/kauffmann-nl/8436
     - post/yzhums-com/70502
-    - post/yzhums-com/74431
+    - post/yzhums-com/71363
   guidelines: []
   changes:
     - change/bcapps/10386
@@ -240,7 +241,7 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 8
+  video: 9
   blog: 7
   guideline: 0
 bc_forms: []
@@ -315,8 +316,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 2 – the prompt](../../../posts/bertverbeek-nl/1237.md) (community post): "Building effective agents in Business Central requires well-structured prompts"
 - [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "Agents in Business Central with those created in Copilot"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Agent Design Experience in Business Central v27.4 is a sandbox tool for designing, testing, and refining agent instructions"
-- [Business Central 2025 wave 2 (BC27.4): Envision and design AI agents in Business Central (Custom Agent)](../../../posts/yzhums-com/70502.md) (community post): "Custom AI agents in Business Central 2025 wave 2 enable users to design intelligent assistants"
-- [Business Central 2026 release wave 1 (BC28.2): Change AI models for agents in the UI](../../../posts/yzhums-com/74431.md) (community post): "Agents can be configured to use specific AI models or automatic default selection"
+- [Business Central 2025 wave 2 (BC27.4): Envision and design AI agents in Business Central (Custom Agent)](../../../posts/yzhums-com/70502.md) (community post): "Custom agents interpret natural language business goals and translate them into actionable steps"
+- [Business Central 2026 release wave 1 (BC28): New template for getting started with creating agents](../../../posts/yzhums-com/71363.md) (community post): "A new Agent template is available via the AL: New Project command"
 - [What's New: Exporting and Importing Agent in Business Central](../../../videos/3UcLmXqyl44.md) (video): "agent export; agent import; agent definition; xml; agent backup"
 - [Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)](../../../videos/aNRzlbxVPWE.md) (video): "How to Write Agent Evals in AL; agent testing; evals; yaml-driven tests"
 - [Introducing: Envision, Design and Code Business Central Agents](../../../videos/jWqjDTbqjeE.md) (video): "Introducing: Envision, Design and Code Business Central Agents"
@@ -325,5 +326,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central Under the Hood episode 13: Inside the Agent Runtime](../../../videos/nPF84Ufkn4k.md) (video): "Business Central Under the Hood episode 13: Inside the Agent Runtime"
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Building Agents in Business Central; custom agents; agent instructions; permissions"
 - [What's New: Business Central Agent Instruction History](../../../videos/WFAZLsUTk20.md) (video): "Agent Instruction History Autosave; Download Instructions; View Instruction History"
+- [Interfrucht GmbH](../../../videos/WjF_sESaIPo.md) (video): "Manifest Agent for Business Central; Automated purchase order creation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

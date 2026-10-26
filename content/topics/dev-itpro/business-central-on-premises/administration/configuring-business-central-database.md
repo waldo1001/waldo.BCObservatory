@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:19.662Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,7 @@ links:
   videos: []
   posts:
     - post/demiliani-com/12820
+    - post/yzhums-com/69079
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -91,7 +92,7 @@ coverage:
   learn: 6
   code: 3
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 8700
@@ -161,6 +162,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central on-premises and SQL Server 2025.](../../../../posts/demiliani-com/12820.md) (community post): "SQL Server 2025 introduces significant improvements for Dynamics 365 Business Central on-premises"
+- [Information sharing: SQL Server 2025 is now GA – Business Central to Support it in 2026 Release Wave 1 (BC28)](../../../../posts/yzhums-com/69079.md) (community post): "Business Central 2026 release wave 1 (BC28) will support it"
 
 ## Business Central pages and reports
 

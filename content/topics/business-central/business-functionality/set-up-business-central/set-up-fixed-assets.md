@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:03.141Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -101,7 +101,6 @@ links:
   videos:
     - video/CkGTSItdTbs
   posts:
-    - post/yzhums-com/68230
     - post/yzhums-com/73564
   guidelines: []
   changes:
@@ -117,7 +116,7 @@ coverage:
   learn: 6
   code: 25
   video: 1
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 5600
@@ -193,7 +192,6 @@ Insurance and maintenance pages are optional add-ons. Start with the overview pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12160 Deliverable 617319: Move French accelerated depreciation to W1 base application](../../../../changes/bcapps/12160.md) (code change): "New depreciation book setup fields, posting accounts, and calculation logic added"
-- [Business Central 2025 wave 2 (BC27): Automatically create multiple fixed asset cards](../../../../posts/yzhums-com/68230.md) (community post): "Eliminates manual card creation for bulk purchases, reducing effort and errors in asset management"
 - [Business Central 2026 release wave 1 (BC28.1): Enable Investment Boost for fixed assets (Bonus Depreciation Method)](../../../../posts/yzhums-com/73564.md) (community post): "Administrators configure the bonus depreciation percentage and effective date in Fixed Asset Setup"
 - [What's New: Create Multiple Fixed Assets (2025 release wave 2)](../../../../videos/CkGTSItdTbs.md) (video): "Automatic asset numbering with number series"
 

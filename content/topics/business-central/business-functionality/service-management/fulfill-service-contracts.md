@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:42.119Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -123,6 +123,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10345 [Main][ALL-E]Issues with Service Contract Invoicing and Retrospective Billing--when the second unposted Service Invoice is deleted the values on the Service Contract are no longer reset--The "Invoiced to Date" field does not resetInitial commit](../../../../changes/bcapps/10345.md) (code change): "Invoiced to Date field on service contracts failed to reset"
 - [#10867 [29.x][ALL-E]Issues with Service Contract Invoicing and Retrospective Billing--when the second unposted Service Invoice is deleted the values on the Service Contract are no longer reset--The "Invoiced to Date" field does not resetInitial commit- #10345Initial commit](../../../../changes/bcapps/10867.md) (code change): "Fixed Service Contract invoicing to properly reset the Invoiced to Date field"
 - [#13183 [Master]-Service Order created from Service Contract does not populate header dimensions until Dimensions action is opened](../../../../changes/bcapps/13183.md) (code change): "Service orders created from service contracts now populate header dimensions automatically"
-- [Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting](../../../../posts/yzhums-com/71836.md) (community post): "creating contract service orders in bulk, enforcing that each service order"
+- [Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting](../../../../posts/yzhums-com/71836.md) (community post): "Create Contract Service Orders batch job now follows this setting"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

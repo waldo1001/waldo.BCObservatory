@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:06.979Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -438,7 +438,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9582 636017 Move Inventory report action tooltips to report objects](../../../../../changes/bcapps/9582.md) (code change): "Report action tooltips for 11 inventory reports are moved from page actions to the report objects themselves"
 - [#9774 [Extensibility Request] issue 30378: add OnItemVariantOnAfterGetRecordOnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report](../../../../../changes/bcapps/9774.md) (code change): "Item Sales Statistics report when "Only Items with Sales" and "Breakdown By Variant" are both enabled"
 - [#9777 [Extensibility Request] issue 30377: add OnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report](../../../../../changes/bcapps/9777.md) (code change): "Item Sales Statistics report now exposes an integration event that allows extensions to override the skip decision"
-- [Business Central 2026 release wave 1 (BC28): Modernizing analytical reports for inventory](../../../../../posts/yzhums-com/71775.md) (community post): "modernizes inventory reports by replacing RDL layouts with Excel and Word formats"
+- [Business Central 2026 release wave 1 (BC28): Modernizing analytical reports for inventory](../../../../../posts/yzhums-com/71775.md) (community post): "modernizing inventory reports by replacing RDL layouts with Excel and Word formats"
 - [Business Central 2026 release wave 1 (BC28): Item – ABC Analysis (Standard report)](../../../../../posts/yzhums-com/74176.md) (community post): "classifies inventory items into A, B, and C categories based on sales value"
 
 ## Business Central pages and reports

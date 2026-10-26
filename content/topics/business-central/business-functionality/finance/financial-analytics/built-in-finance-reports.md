@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:23.519Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -488,6 +488,7 @@ links:
     - video/O2RPBlr_GiE
     - video/Of0Dw8V-4Yw
   posts:
+    - post/yzhums-com/68328
     - post/yzhums-com/68932
     - post/yzhums-com/70904
     - post/yzhums-com/73485
@@ -500,6 +501,7 @@ links:
     - change/bcapps/11574
     - change/bcapps/12262
     - change/bcapps/12304
+    - change/bcapps/12337
     - change/bcapps/12435
     - change/bcapps/9129
     - change/bcapps/9142
@@ -518,7 +520,7 @@ coverage:
   learn: 83
   code: 95
   video: 3
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 1
@@ -748,12 +750,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11574 [main] Bugs 650415 Financial Report Open in Excel fails with duplicate Excel Buffer cell when LCY Code is empty](../../../../../changes/bcapps/11574.md) (code change): "Financial Report Open in Excel fails with duplicate Excel Buffer"
 - [#12262 Financial reporting a few improvements](../../../../../changes/bcapps/12262.md) (code change): "New 'Run report' action group added to financial reporting interface"
 - [#12304 [Master]-Page cannot open because of FlowField 'Last Run By User'](../../../../../changes/bcapps/12304.md) (code change): "a financial reports page could not open because of the FlowField"
+- [#12337 [MAIN]-Bug 642602: Address AL1430 and remove exception from ruleset](../../../../../changes/bcapps/12337.md) (code change): "IN GST Stock Register for Job Work report by removing redundant sorting"
 - [#12435 [Financial Reports] Faster row/column definition entry and custom schedule email subject](../../../../../changes/bcapps/12435.md) (code change): "Row and column definition lines default type fields from previous line"
 - [#9129 [Master]-Bug 641503 Financial Reporting - Duplicate Rows in Financial Report Excel Export After Adding GL Budget Dimension](../../../../../changes/bcapps/9129.md) (code change): "financial report Excel exports. Fixes issue that occurred after adding GL budget dimensions"
 - [#9142 [638695] Add Financial Report tables to always-logged list](../../../../../changes/bcapps/9142.md) (code change): "Financial Report tables are now added to the always-logged list"
 - [#9894 Suppress zero-value rows in Trial Balance by Period](../../../../../changes/bcapps/9894.md) (code change): "Trial Balance by Period Excel report now suppresses rows with zero values"
 - [#9906 [Bug Fix] #641100: Export Acc. Sched. to Excel - log report usage in OnPostReport to avoid modal page in write transaction](../../../../../changes/bcapps/9906.md) (code change): "Export Acc. Sched. to Excel - log report usage in OnPostReport"
 - [#9958 [Main] -Detail Trial Balance - Running Balance Incorrect When "Include Closing Entries" Is Disabled](../../../../../changes/bcapps/9958.md) (code change): "Detail Trial Balance - Running Balance Incorrect When Include Closing Entries Is Disabled"
+- [Business Central 2025 wave 2 (BC27): Deferral reporting enhancements (Replacing RDL layouts with Word and Excel formats and adding three new list pages)](../../../../../posts/yzhums-com/68328.md) (community post): "Three new list pages added for Sales, Purchasing, and G/L deferral lines with analysis mode capability"
 - [Business Central 2025 wave 2 (BC27.1): Print the Audit Trail report (report 330 “Audit Trail”)](../../../../../posts/yzhums-com/68932.md) (community post): "New Audit Trail report (report 330) added in BC27.1 for improved compliance"
 - [Deprecated features in Business Central 2026 release wave 1 (BC28)](../../../../../posts/yzhums-com/70904.md) (community post): "Excel reports (Balance Sheet, Income Statement, Cash Flow, etc.) are removed from Business Manager and Accountant Role Centers"
 - [Business Central 2026 release wave 1 (BC28.1): Use enhanced and faster reports for analysis of deferrals and trial balances](../../../../../posts/yzhums-com/73485.md) (community post): "Built-in deferral report Excel layouts now include subtotals to make balance reviews easier"

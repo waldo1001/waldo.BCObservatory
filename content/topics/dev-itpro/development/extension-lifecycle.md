@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:55.872Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -283,17 +283,13 @@ links:
   videos:
     - video/dSPRY1_f1S0
     - video/Gjs00Wy0HlI
-    - video/UGmL665HtzE
     - video/vDGrVHQHLA0
-    - video/Vo5DgXnKiPo
     - video/weDf53bJOL4
     - video/WU2fLjIQSuU
   posts:
     - post/demiliani-com/12116
     - post/demiliani-com/12123
     - post/demiliani-com/12422
-    - post/yzhums-com/65533
-    - post/yzhums-com/76570
   guidelines: []
   changes:
     - change/bcapps/10675
@@ -317,8 +313,8 @@ children:
 coverage:
   learn: 35
   code: 0
-  video: 7
-  blog: 5
+  video: 5
+  blog: 3
   guideline: 0
 bc_forms:
   - 149000
@@ -387,13 +383,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: automatic PTE unpublishing after update.](../../../posts/demiliani-com/12116.md) (community post): "automatically unpublishes PTE versions that are no longer installed"
 - [Dynamics 365 Business Central on-prem: be careful when referencing .NET assemblies across versions.](../../../posts/demiliani-com/12123.md) (community post): "extensions must be compiled with .NET Standard assemblies when published to service tiers"
 - [Dynamics 365 Business Central on-premises: accessing embedded in-app resources from runtime packages.](../../../posts/demiliani-com/12422.md) (community post): "Extensions can declare resource folders using the resourceFolders property"
-- [Dynamics 365 Business Central: Automatically enable Allow HttpClient Requests after custom extension/app installation](../../../posts/yzhums-com/65533.md) (community post): "An install codeunit can automatically enable this setting by modifying the NAV App Setting table during extension installation"
-- [Business Central 2026 release wave 2 (BC29): Retained DEV extensions (DEV extensions remain installed during environment update)](../../../posts/yzhums-com/76570.md) (community post): "DEV extensions now persist after updates, similar to globally scoped Tenant Published"
 - [AL Go for GitHub February Office Hour](../../../videos/dSPRY1_f1S0.md) (video): "Private repository support in AL-Go"
 - [What's New: AL-Go for GitHub on Build and Performance (2025 release wave 1)](../../../videos/Gjs00Wy0HlI.md) (video): "What's New: AL-Go for GitHub on Build and Performance"
-- [AL-Go for Github June Office Hour](../../../videos/UGmL665HtzE.md) (video): "Custom Jobs in AL-Go Workflows"
 - [AL-Go for Github May Office Hour](../../../videos/vDGrVHQHLA0.md) (video): "AL-Go for Github May Office Hour"
-- [Microsoft presents: Large scale development with AL-Go](../../../videos/Vo5DgXnKiPo.md) (video): "Large scale development with AL-Go"
 - [What's New in AL: Go for GitHub (2024 release wave 2)](../../../videos/weDf53bJOL4.md) (video): "What's New in AL: Go for GitHub (2024 release wave 2)"
 - [What's New: AL Go for GitHub (2023 release wave 2)](../../../videos/WU2fLjIQSuU.md) (video): "Update AL Go system files workflow"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:47.235Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,7 +106,7 @@ The section has three pages and no subtopics. Start with the overview page to se
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page](../../../posts/yzhums-com/72069.md) (community post): "Marketing text differs from the Description field; it serves as rich promotional"
+- [Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page](../../../posts/yzhums-com/72069.md) (community post): "AI-generated marketing text suggestions are available through Copilot"
 - [What's New: Marketing Text Suggestions (2023 release wave 2)](../../../videos/KpQS7c6YGRo.md) (video): "Marketing Text Suggestions; Fact Box UI for Marketing Text; Prompt Customization"
 
 ## Business Central pages and reports

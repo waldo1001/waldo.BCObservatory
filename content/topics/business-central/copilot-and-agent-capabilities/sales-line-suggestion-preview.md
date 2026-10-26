@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:17.006Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,10 +43,8 @@ links:
   localizations: []
   videos:
     - video/_1LhwG2ZgFw
-    - video/bCIcq1zESKk
     - video/cZCSi6khZFo
-  posts:
-    - post/yzhums-com/68672
+  posts: []
   guidelines: []
 learn_toc_path:
   - Copilot and agent capabilities
@@ -57,8 +55,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 3
-  blog: 1
+  video: 2
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 46cbb03d7bab8b1ae0759f29ca4add2f789102fae87f9a1212b67391bd79e399
@@ -99,9 +97,7 @@ Start with the main page to understand what the feature does and how matching be
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Dynamics 365 Business Central Blog Series: Handle CSV (comma-separated values) files](../../../posts/yzhums-com/68672.md) (community post): "Copilot in Business Central 2024 wave 2 can suggest sales lines directly from CSV files"
 - [What's New: Sales Lines Suggestions with Copilot (2024 release wave 1)](../../../videos/_1LhwG2ZgFw.md) (video): "sales line suggestions; copilot; keyword extraction; context understanding"
-- [What's New: Item Substitution with Copilot (2024 release wave 2)](../../../videos/bCIcq1zESKk.md) (video): "Sales line suggestion with Copilot; Data search enhancement"
 - [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../../../videos/cZCSi6khZFo.md) (video): "Sales Line Suggestion with Copilot; Item Search via Attributes and Catalog"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

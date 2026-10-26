@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:45.537Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -349,7 +349,8 @@ links:
     - video/N8Unj6WLB6U
     - video/pEXl-POet_4
     - video/WvG4EOHQuiw
-  posts: []
+  posts:
+    - post/yzhums-com/71648
   guidelines: []
   changes:
     - change/bcapps/10126
@@ -370,7 +371,7 @@ coverage:
   learn: 56
   code: 35
   video: 3
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 5900
@@ -456,6 +457,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10735 [Slice-631381] Add Mark as Accepted in posted documents for Spanish SII](../../../changes/bcapps/10735.md) (code change): "Spanish SII posted documents now include a Mark as Accepted action"
 - [#11152 [29.x]Mark as Accepted in posted documents for Spanish SII](../../../changes/bcapps/11152.md) (code change): "Mark as Accepted action was added to posted sales purchase and service invoice"
 - [#12290 Remove CLEAN27 from Service Management](../../../changes/bcapps/12290.md) (code change): "Remove CLEAN27 from Service Management; service documents, history pages, tables and reports"
+- [Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)](../../../posts/yzhums-com/71648.md) (community post): "Get Service Shipment Lines pages to help users quickly locate"
 - [What's New: Service Management (2024 release wave 1)](../../../videos/N8Unj6WLB6U.md) (video): "Service quote; service order; service contract; service items; invoicing policy"
 - [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "service archiving; service filing; service contract filing improvements"
 - [What's New: Field Service Integration to Service Management (2024 release wave 2)](../../../videos/WvG4EOHQuiw.md) (video): "Field Service Integration to Service Management; Service Management Setup Changes"

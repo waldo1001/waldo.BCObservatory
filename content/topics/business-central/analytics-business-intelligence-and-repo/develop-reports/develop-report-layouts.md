@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:25.418Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -121,9 +121,6 @@ links:
     - post/yzhums-com/76147
     - post/yzhums-com/76205
     - post/yzhums-com/76231
-    - post/yzhums-com/76655
-    - post/yzhums-com/76696
-    - post/yzhums-com/76756
     - post/yzhums-com/76763
   guidelines: []
 learn_toc_path:
@@ -137,7 +134,7 @@ coverage:
   learn: 9
   code: 6
   video: 8
-  blog: 12
+  blog: 9
   guideline: 0
 bc_forms:
   - 9650
@@ -200,9 +197,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 2 (BC29): Brand document reports with report themes](../../../../posts/yzhums-com/76147.md) (community post): "Brand document reports with composable layout themes"
 - [Business Central 2026 release wave 2 (BC29): Report layout subtype on Word layouts](../../../../posts/yzhums-com/76205.md) (community post): "Word layout report design introduces a new Subtype property"
 - [Business Central 2026 release wave 2 (BC29): Reuse header/footer layouts across document reports](../../../../posts/yzhums-com/76231.md) (community post): "reuse and apply consistent header/footer layouts across document reports"
-- [Business Central 2026 release wave 2 (BC29): Use conditional visibility in the updated Word add-in (Hide If Empty/False in Word Layout)](../../../../posts/yzhums-com/76655.md) (community post): "conditional visibility controls in the Word add-in, allowing developers to design reports with hidden or shown content"
-- [Business Central 2026 release wave 2 (BC29): Design document reports with the updated Word add-in (New design components)](../../../../posts/yzhums-com/76696.md) (community post): "new design components in the Word add-in for document reporting"
-- [Business Central 2026 release wave 2 (BC29): Design themes, headers, and footers for document reports with the updated Word add-in](../../../../posts/yzhums-com/76756.md) (community post): "Word add-in version 3.0.0.0 includes new document samples controls for designing headers and footers"
 - [Dynamics 365 Business Central: How to quickly copy a report layout (Create a copy of the selected layout)](../../../../posts/yzhums-com/76763.md) (community post): "Copied layouts can be customized after creation"
 - [Introducing: Composite Document Layouts (2026 release wave 2)](../../../../videos/-vdhfNMNZQk.md) (video): "Composite layouts for documents; Body layout; Theme application"
 - [What's New: Excel Layouts For Developers (2024 release wave 1)](../../../../videos/BofJJPqgrTI.md) (video): "Translatable Excel Layouts; Report Metadata Worksheet; Caption Data Worksheet"

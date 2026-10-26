@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -190,6 +190,7 @@ links:
     - video/NkYNL_5Zfoc
     - video/r8HWIk5E0c0
     - video/VIda0Ok1SSQ
+    - video/WYd8Qn3wVQQ
     - video/xh63GaWwZqA
     - video/zQhtuFbxJm4
   posts:
@@ -230,7 +231,7 @@ children: []
 coverage:
   learn: 12
   code: 59
-  video: 11
+  video: 12
   blog: 11
   guideline: 0
 bc_forms:
@@ -366,9 +367,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../../../../posts/thedynamicsexplorer-com/8821.md) (community post): "Chart of Accounts in Business Central shows only total balances at GL code level"
 - [Dynamics 365 Business Central: Copy Sales and Purchase Line Descriptions (Type G/L Account) to G/L Entries](../../../../posts/yzhums-com/64874.md) (community post): "Copy G/L Account line descriptions from sales and purchase documents"
 - [Dynamics 365 Business Central: Set the Document No. with dynamic dates in Recurring General Journals](../../../../posts/yzhums-com/66210.md) (community post): "Recurring General Journals allow you to set document numbers with dynamic dates"
-- [Dynamics 365 Business Central: “There is nothing to post because the journal does not contain a quantity or amount” when posting Recurring Journals](../../../../posts/yzhums-com/66675.md) (community post): "Recurring General Journals fail to post with the error"
-- [Dynamics 365 Business Central: Require users to enter a more detailed description when posting a journal line of type G/L Account (Omit Default Descr. in Jnl.)](../../../../posts/yzhums-com/67275.md) (community post): "Omit Default Descr. in Jnl. field on G/L Account cards forces users to enter custom descriptions"
-- [Dynamics 365 Business Central: How to copy (synchronize) the Incoming Document to all Gen. Journal Lines](../../../../posts/yzhums-com/71645.md) (community post): "assigning incoming documents to general journal lines in Business Central"
+- [Dynamics 365 Business Central: “There is nothing to post because the journal does not contain a quantity or amount” when posting Recurring Journals](../../../../posts/yzhums-com/66675.md) (community post): "Recurring journals allow posting of fixed and variable amounts for repetitive transactions"
+- [Dynamics 365 Business Central: Require users to enter a more detailed description when posting a journal line of type G/L Account (Omit Default Descr. in Jnl.)](../../../../posts/yzhums-com/67275.md) (community post): "Journal descriptions carry over to G/L entries, so better descriptions improve the audit trail"
+- [Dynamics 365 Business Central: How to copy (synchronize) the Incoming Document to all Gen. Journal Lines](../../../../posts/yzhums-com/71645.md) (community post): "Incoming documents in BC can be attached to general journal lines but are limited"
 - [Working with Amount Fields](../../../../videos/1ugAYeEZLaU.md) (video): "amount fields; debit and credit; general ledger"
 - [What's New: Fixed and Variable G/L Allocations (2023 release wave 2)](../../../../videos/BZF4MrVfvfY.md) (video): "Fixed and Variable G/L Allocations"
 - [Comparing Correcting and Reversing Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/fIktVTGZkjE.md) (video): "correcting entries; reversing entries; journal entries; dimensions; general ledger; posting"
@@ -378,6 +379,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Comparing General Journal Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/NkYNL_5Zfoc.md) (video): "General journal; Journal entry; offset accounts"
 - [Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/r8HWIk5E0c0.md) (video): "Reverse journal entry in Business Central; Correct dimension in Business Central"
 - [Control Deferral Posting](../../../../videos/VIda0Ok1SSQ.md) (video): "deferral templates; deferral posting; general ledger setup; user permissions"
+- [Edit G/L Budgets in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)](../../../../videos/WYd8Qn3wVQQ.md) (video): "Edit G/L Budgets in a Spreadsheet inside Business Central"
 - [Adjust Cost Allocations Before Posting](../../../../videos/xh63GaWwZqA.md) (video): "Generate lines from allocation account"
 - [Comparing General Journal Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/zQhtuFbxJm4.md) (video): "General Journal batches; Account name auto-filter in journal entry"
 

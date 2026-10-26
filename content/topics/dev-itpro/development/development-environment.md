@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:46.729Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -318,6 +318,8 @@ links:
     - post/demiliani-com/13761
     - post/sshadows-dk/https-sshadows-dk-blog-business-central-on-linux--f313e38282
     - post/vjeko-com/https-vjeko-com-2026-03-09-al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days--fb9c8e152a
+    - post/yzhums-com/64148
+    - post/yzhums-com/76570
   guidelines: []
   changes:
     - change/bcapps/10212
@@ -340,7 +342,7 @@ coverage:
   learn: 54
   code: 0
   video: 0
-  blog: 3
+  blog: 5
   guideline: 0
 bc_forms:
   - 149000
@@ -397,6 +399,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Be careful with Visual Studio Code extensions…](../../../posts/demiliani-com/13761.md) (community post): "Be careful with Visual Studio Code extensions"
 - [Business Central on Linux? Here, hold my beer!](../../../posts/sshadows-dk/https-sshadows-dk-blog-business-central-on-linux--f313e38282.md) (community post): "Running Business Central on Linux via Wine required implementing missing Windows APIs"
 - [AL Object ID Ninja 3.2.1: A Lot Has Happened in Four Days](../../../posts/vjeko-com/https-vjeko-com-2026-03-09-al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days--fb9c8e152a.md) (community post): "App pools now display accurate pool-wide consumption in Range Explorer and Assignment Explorer"
+- [How to connect to Dynamics 365 Business Central On-Premises in VS Code (Use the On-Premises version for customization)](../../../posts/yzhums-com/64148.md) (community post): "configure VS Code to connect to a Business Central On-Premises environment for AL development"
+- [Business Central 2026 release wave 2 (BC29): Retained DEV extensions (DEV extensions remain installed during environment update)](../../../posts/yzhums-com/76570.md) (community post): "DEV extensions published from VS Code or created with Designer"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:30.673Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -167,7 +167,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central – Why when I create new users do they get full access by default](../../../../../posts/thedynamicsexplorer-com/37042.md) (community post): "New users get default permissions from their security groups and from the licence they are assigned"
 - [Dynamics 365 Business Central: Do users really need permissions for Temporary Tables? (Permissions and temporary tables)](../../../../../posts/yzhums-com/22035.md) (community post): "Temporary tables do not require Table Data permissions"
 - [Dynamics 365 Business Central: Remove obsolete permissions from all permission sets](../../../../../posts/yzhums-com/65999.md) (community post): "Permission sets contain permissions for specific database objects and must be assigned to users"
-- [Business Central 2026 release wave 1 (BC28): Audit user and group permissions across apps (new Permissions Overview page)](../../../../../posts/yzhums-com/71200.md) (community post): "centralized visibility into permission sets across all installed apps"
+- [Business Central 2026 release wave 1 (BC28): Audit user and group permissions across apps (new Permissions Overview page)](../../../../../posts/yzhums-com/71200.md) (community post): "Administrators can filter permissions by object, scope, extension, or permission set"
 - [Dynamics 365 Business Central: How to easily prevent users from adding or modifying Links and Notes (Making Links and Notes Read-Only)](../../../../../posts/yzhums-com/72087.md) (community post): "Excluding Insert, Modify, and Delete permissions on RecordLinks makes Links and Notes read-only"
 - [Dynamics 365 Business Central: Why can’t a Super User create a new Company](../../../../../posts/yzhums-com/73365.md) (community post): "Only users with the SUPER permission set can create a new company"
 - [What's Cooking in Business Central: Replace Permission Sets Upon Import](../../../../../videos/asSSBl8Cj34.md) (video): "Replace permission sets upon import; Import permission sets action"

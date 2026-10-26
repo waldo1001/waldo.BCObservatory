@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:53.718Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -65,7 +65,6 @@ links:
     - video/6zj34hjbpGU
   posts:
     - post/aardvarklabs-blog/1824
-    - post/yzhums-com/69812
   guidelines: []
 learn_toc_path:
   - Integration
@@ -78,7 +77,7 @@ coverage:
   learn: 4
   code: 3
   video: 2
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 1480
@@ -125,7 +124,6 @@ Start with the viewing and editing page if you are a user. Administrators should
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Step-by-Step Guide to Excel Reporting in Business Central](../../../../posts/aardvarklabs-blog/1824.md) (community post): "uploading the customized layout back to Business Central"
-- [Dynamics 365 Business Central: How to view excel reports (Excel Layout) directly from the web without downloading files (Excel Online)](../../../../posts/yzhums-com/69812.md) (community post): "Enabling 'Use OneDrive for system features' automatically opens Excel and Word reports"
 - [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "OneDrive integration for Excel reports; Office 365 collaboration for Excel reports"
 - [How Business Central Integrates with Microsoft Excel (2025)](../../../../videos/6zj34hjbpGU.md) (video): "Export data to Excel; Open or Edit in Excel option; Pivot table creation"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:56.635Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,7 +74,8 @@ links:
     - topic/dev-itpro/development/extension-lifecycle
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/67809
   guidelines: []
   changes:
     - change/bcquality/210
@@ -89,7 +90,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: f3e7286da03b9ac244c0a2da0047e0e967fb5517a08c592a5e38bde95aa4b2a9
@@ -136,5 +137,6 @@ For the technical side, the Upgrading Extensions page explains how to write upgr
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#210 knowledge(upgrade): upgrade code must not use ChangeCompany](../../../../changes/bcquality/210.md) (code change): "upgrade code must not use ChangeCompany. New quality rule and knowledge article prevent upgrade code from using ChangeCompany"
+- [Business Central 2025 wave 2 (BC27): UpdateAuditFields Method on DataTransfer is now in Cloud scope](../../../../posts/yzhums-com/67809.md) (community post): "UpdateAuditFields method on DataTransfer was previously OnPrem-only, now available in Cloud scope"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

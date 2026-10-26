@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:15:39.036Z"
+  at: "2026-10-26T08:10:36.547Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8eba601b05b0246dd9b4a90cd1ece809f4396afee54084289337a30694424e10
+  input_hash: 604319867a9958affdb2bb042b142f8a137f0afc594454ec67eac9cf63b583ab
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Font/BarcodeFontProvider2D.Interface.al
@@ -39,6 +39,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-add-barcodes
+      title: Adding barcodes to reports
+      label: possibly related
+      why: Interface for barcode font providers; L13 documents barcode encoding and application.
+      by: model
 object_type: interface
 object_id: null
 name: Barcode Font Provider 2D
@@ -98,6 +104,12 @@ System Application · System.Text · BC23-30 · [source at dc14cfd1](https://git
 
 - Present in: BC23-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Adding barcodes to reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-add-barcodes) — possibly related: Interface for barcode font providers; L13 documents barcode encoding and application. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

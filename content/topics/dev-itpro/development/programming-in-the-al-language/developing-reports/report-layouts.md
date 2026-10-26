@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -234,6 +234,9 @@ links:
     - post/yzhums-com/72933
     - post/yzhums-com/74638
     - post/yzhums-com/75007
+    - post/yzhums-com/76367
+    - post/yzhums-com/76655
+    - post/yzhums-com/76696
     - post/yzhums-com/76756
     - post/yzhums-com/76763
   guidelines: []
@@ -251,7 +254,7 @@ coverage:
   learn: 22
   code: 5
   video: 5
-  blog: 23
+  blog: 26
   guideline: 0
 bc_forms:
   - 21
@@ -343,12 +346,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How Do I: Use the Word Add-in for Business Central Report Layouts](../../../../../posts/thinkaboutit-be/7750.md) (community post): "The Dynamics 365 Business Central Word add-in is a free Microsoft Word extension that simplifies designing Word layouts"
 - [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../../../../../posts/thinkaboutit-be/8096.md) (community post): "Word add-in data picker provides a cleaner alternative by inserting mapped fields directly"
 - [Business Central 29: More Control Over Report Layouts and New Report Inbox APIs](../../../../../posts/thinkaboutit-be/8272.md) (community post): "Layout statuses (Draft, Pending Approval, Approved, Retired) now apply"
-- [Business Central 2025 wave 2 (BC27): New layout information fields in the aggregated metadata sheet for the Excel layout template (Object caption, Local date, and UTC timezone offset)](../../../../../posts/yzhums-com/67838.md) (community post): "new layout information fields in the aggregated metadata sheet for the Excel layout template"
+- [Business Central 2025 wave 2 (BC27): New layout information fields in the aggregated metadata sheet for the Excel layout template (Object caption, Local date, and UTC timezone offset)](../../../../../posts/yzhums-com/67838.md) (community post): "three layout information fields to the hidden Aggregated Metadata sheet of Excel layout templates"
 - [Business Central 2025 wave 2 (BC27): Add data fields to report layouts using Word add-in (new data picker)](../../../../../posts/yzhums-com/67892.md) (community post): "new data picker task pane in the Word add-in that simplifies adding data fields"
 - [Business Central 2026 release wave 1 (BC28.1): Control the lifecycle of report layouts (Layout Status)](../../../../../posts/yzhums-com/72933.md) (community post): "control the lifecycle of report layouts by assigning statuses"
 - [Dynamics 365 Business Central: Don’t Forget the Layout! Essential Steps for Publishing Report Extensions](../../../../../posts/yzhums-com/74638.md) (community post): "The rendering section allows specifying multiple named layouts in the AL object"
-- [Dynamics 365 Business Central: How to check the font of a standard report](../../../../../posts/yzhums-com/75007.md) (community post): "identify the font used in Business Central standard reports by exporting the report layout"
-- [Business Central 2026 release wave 2 (BC29): Design themes, headers, and footers for document reports with the updated Word add-in](../../../../../posts/yzhums-com/76756.md) (community post): "Design themes, headers, and footers for document reports with the updated Word add-in"
+- [Dynamics 365 Business Central: How to check the font of a standard report](../../../../../posts/yzhums-com/75007.md) (community post): "export its layout file, either from the request page's Report Layout menu"
+- [Business Central 2026 release wave 2 (BC29): Reduce complexity of report datasets (Company information dataitem in Word layouts)](../../../../../posts/yzhums-com/76367.md) (community post): "Word layouts in BC29 automatically get a Company Information dataitem shared by all report datasets"
+- [Business Central 2026 release wave 2 (BC29): Use conditional visibility in the updated Word add-in (Hide If Empty/False in Word Layout)](../../../../../posts/yzhums-com/76655.md) (community post): "BC29's updated Word add-in adds a HideIf logic control so Word layouts can show or hide content conditionally"
+- [Business Central 2026 release wave 2 (BC29): Design document reports with the updated Word add-in (New design components)](../../../../../posts/yzhums-com/76696.md) (community post): "introduces new design components in the Word add-in for document reporting, allowing developers to create report layouts faster"
+- [Business Central 2026 release wave 2 (BC29): Design themes, headers, and footers for document reports with the updated Word add-in](../../../../../posts/yzhums-com/76756.md) (community post): "Five predefined header layouts and five footer layouts can be inserted with one click"
 - [Dynamics 365 Business Central: How to quickly copy a report layout (Create a copy of the selected layout)](../../../../../posts/yzhums-com/76763.md) (community post): "Report layouts determine which fields, arrangement, and styling appear in reports"
 - [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../../videos/1ft4o9lQzsU.md) (video): "Excel report layouts; Power Query integration for refreshable reports"
 - [What's New: Server and Database (2026 release wave 1)](../../../../../videos/2u5_F9Ztt7U.md) (video): "Word Add-in for Document Reports Enhancement; Layout Lifecycle Control for Report Layouts"

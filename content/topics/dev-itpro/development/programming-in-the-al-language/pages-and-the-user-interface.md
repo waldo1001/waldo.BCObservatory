@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:34.693Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -323,13 +323,11 @@ links:
     - post/demiliani-com/12623
     - post/gerardorenteria-blog/12961
     - post/miljan-rs/866
+    - post/nataliekarolak-com/3494
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee
-    - post/yzhums-com/61902
     - post/yzhums-com/63730
     - post/yzhums-com/63942
-    - post/yzhums-com/66037
     - post/yzhums-com/68077
-    - post/yzhums-com/74335
     - post/yzhums-com/74975
   guidelines: []
   changes:
@@ -357,7 +355,7 @@ coverage:
   learn: 69
   code: 0
   video: 1
-  blog: 12
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: 4b85c5a961bfa013683b351bf15cdd48537c4ed457c3eb55957b8da3fe6729b7
@@ -420,13 +418,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: previewing PDF files in web client using the new ExtendedDataType = Document.](../../../../posts/demiliani-com/12623.md) (community post): "new ExtendedDataType called Document that enables PDF file previews in web client FactBoxes"
 - [🕐 Remember When Lists Could Sort By Any Key? 🔄](../../../../posts/gerardorenteria-blog/12961.md) (community post): "a solution to sort Business Central list pages by any predefined table key"
 - [Simple Text Editor for Business Central](../../../../posts/miljan-rs/866.md) (community post): "modal dialog for BLOB field text storage. Minimal design"
+- [How to write good tooltips as a BC developer](../../../../posts/nataliekarolak-com/3494.md) (community post): "write good tooltips as a BC developer"
 - [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee.md) (community post): "ToolTip and ToolTipML properties directly on page objects"
-- [Dynamics 365 Business Central: Why are customer pictures round and item pictures square?](../../../../posts/yzhums-com/61902.md) (community post): "Customer pictures use the Person extended data type which triggers rounded display"
 - [Dynamics 365 Business Central Blog Series: Preview files directly in the web client](../../../../posts/yzhums-com/63730.md) (community post): "preview various file types (PDF, images, Word, Excel, PowerPoint, video, and more) directly in the Business Central web client"
 - [Dynamics 365 Business Central: How to preview Word (.docx) in web client without downloading (No control add-in and APIs)](../../../../posts/yzhums-com/63942.md) (community post): "preview Word (.docx) files in Business Central 2025 wave 1 without downloading"
-- [Dynamics 365 Business Central: Can we edit data directly in FactBox?](../../../../posts/yzhums-com/66037.md) (community post): "Field triggers can perform calculations or modifications without opening a separate page"
 - [Business Central 2025 wave 2 (BC27): Support for new ExtendedDataType value: Document (display/preview a PDF as a portrait image in FactBox)](../../../../posts/yzhums-com/68077.md) (community post): "Document for Media and MediaSet fields, enabling portrait-oriented content like PDFs"
-- [Dynamics 365 Business Central: Make the same column editable or non-editable based on different conditions on the list page (Dynamic Editable Control for the Same Column)](../../../../posts/yzhums-com/74335.md) (community post): "Make a column editable or non-editable on a list page based on row-specific conditions"
 - [Dynamics 365 Business Central: Add a calculator to the sales order page](../../../../posts/yzhums-com/74975.md) (community post): "Control add-ins are inserted into pages using the usercontrol keyword"
 - [Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code](../../../../videos/ugHFHtSxTlw.md) (video): "Designing Business Central's UI, From Concept To Code"
 

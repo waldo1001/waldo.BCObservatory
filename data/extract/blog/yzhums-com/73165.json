@@ -7,16 +7,15 @@
   "words": 5454,
   "summary": "Business Central 2026 wave 1 introduces a new native Expense Management module that enables employees to create, submit, and track expense reports with support for receipts, itemization, mileage, and per diem calculations. Administrators configure expense categories, payment methods, rules, locations, and approvers to manage employee reimbursements directly within the system without external integrations.",
   "key_points": [
-    "Expense Management is a brand-new module addressing Business Central's inability to handle employee expenses natively, reducing reliance on external solutions",
-    "The feature supports comprehensive expense workflows including capture, approval, posting to general ledger, and reimbursement processing with built-in rule enforcement",
-    "Setup requires configuring expense categories with posting groups, payment methods, rules by location, mileage and per diem rates, and approver relationships",
-    "Employees can create expenses with itemization, participants, mileage details, and per diem calculations based on business rules and locations",
-    "Expense Reports group multiple expenses for submission and approval, with optional workflow enforcement and automatic posting to general ledger"
+    "Expense Management is a new native BC28.1 module for capturing, approving, posting and reimbursing employee expenses without external tools",
+    "Public preview is English and US only at first, with Australia, New Zealand and the UK following in July 2026",
+    "Expense Agent Setup acts as the global configuration, covering rules, number series, approval workflow and mileage and per diem allowance settings",
+    "Admins define payment methods, categories and subcategories, expense locations, rules, expense users linked to employees, and approvers",
+    "Expenses are released, grouped into expense reports, optionally approved, then posted; the author tested with the Expense Agent disabled"
   ],
   "systems": [
     "finance",
-    "hr",
-    "integration"
+    "hr"
   ],
   "topics": [
     "expense management",

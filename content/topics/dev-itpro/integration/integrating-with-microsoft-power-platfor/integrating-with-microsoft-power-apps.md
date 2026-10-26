@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:57.247Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,9 +57,9 @@ links:
   topics:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor
   localizations: []
-  videos:
-    - video/auoHUd24Gfw
-  posts: []
+  videos: []
+  posts:
+    - post/yzhums-com/67024
   guidelines: []
 learn_toc_path:
   - Integration
@@ -71,8 +71,8 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 1
-  blog: 0
+  video: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 1e8a92be635f0e32edf1e5b1dca470a5a06c0027dde0320e46df27410561c37c
@@ -114,6 +114,6 @@ For delivery, the application lifecycle management page explains how to keep AL 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What's New: Using Power Pages with Business Central (2024 release wave 1)](../../../../videos/auoHUd24Gfw.md) (video): "Custom Dataverse mapping plugin for company targeting; Portal ID retrieval from Power Pages URL"
+- [Regarding the recent problem I encountered when opening Power Apps with Zscaler](../../../../posts/yzhums-com/67024.md) (community post): "Power Apps customizations may fail to run on end-user machines when Zscaler security software is deployed"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

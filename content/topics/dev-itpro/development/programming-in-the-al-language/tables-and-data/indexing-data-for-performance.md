@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:50.803Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,6 +111,7 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
     - post/waldo-be/318212
+    - post/yzhums-com/76518
   guidelines: []
   changes:
     - change/bcquality/226
@@ -126,7 +127,7 @@ coverage:
   learn: 9
   code: 0
   video: 3
-  blog: 9
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: 35d16713950930e7d6df2a51e27b0d618b69b36f632ac1361932d9d0e629cddb
@@ -180,6 +181,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 29.0: Major Change to Table Extensions and SQL Storage.](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1.md) (community post): "cross-table indexes, can improve query performance"
 - [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "Clustered indexes define physical row ordering and are used by Get()"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../../../../posts/waldo-be/318212.md) (community post): "Indexes can only be added by development, through an AppSource app"
+- [Business Central 2026 release wave 2 (BC29): AL developers can turn indexes on/off in AL code](../../../../../posts/yzhums-com/76518.md) (community post): "AL developers can now programmatically enable and disable database indexes"
 - [Microsoft presents: Index management](../../../../../videos/1x3QyBX3swg.md) (video): "index management; sql server indexes; storage optimization; index usage statistics"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../../videos/qABlX4AL3GM.md) (video): "Unified table storage for extensions; Cross-field indexes spanning base and extension tables"
 - [What's new: Server and Database (2026 release wave 2)](../../../../../videos/Sh3ySQSTw-o.md) (video): "Runtime-controlled index enablement; Cross-table indexes"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:48.992Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -392,6 +392,7 @@ links:
     - video/CkGTSItdTbs
     - video/LKt0K-EdiX0
   posts:
+    - post/yzhums-com/68230
     - post/yzhums-com/73564
   guidelines: []
   changes:
@@ -411,7 +412,7 @@ coverage:
   learn: 40
   code: 75
   video: 2
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 20
@@ -532,6 +533,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12160 Deliverable 617319: Move French accelerated depreciation to W1 base application](../../../changes/bcapps/12160.md) (code change): "French accelerated depreciation functionality is now part of the standard W1 base application"
 - [#9662 [Master]-Fixed Asset: Declining-Balance method - wrong calculation when running depreciation](../../../changes/bcapps/9662.md) (code change): "Fixed incorrect depreciation calculation when using the declining-balance method"
 - [#9687 [main] bug 642230 - Enhance FA General Report logic and add tests for Tax Deprec. Group and FA Posting Group handling](../../../changes/bcapps/9687.md) (code change): "Fixed a bug where the FA General Report procedures could clear the FA Posting Group"
+- [Business Central 2025 wave 2 (BC27): Automatically create multiple fixed asset cards](../../../posts/yzhums-com/68230.md) (community post): "automatic creation of multiple fixed asset cards when posting purchase invoices"
 - [Business Central 2026 release wave 1 (BC28.1): Enable Investment Boost for fixed assets (Bonus Depreciation Method)](../../../posts/yzhums-com/73564.md) (community post): "Investment Boost for fixed assets, allowing eligible assets to deduct a configured percentage"
 - [What's New: Create Multiple Fixed Assets (2025 release wave 2)](../../../videos/CkGTSItdTbs.md) (video): "Create multiple fixed assets from purchase order; Fixed asset global availability"
 - [What's New: Fixed Assets (2026 release wave 1)](../../../videos/LKt0K-EdiX0.md) (video): "Bonus depreciation toggle on fixed asset card; Additional reporting fields"

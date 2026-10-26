@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:58.086Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -421,14 +421,13 @@ links:
     - post/thedynamicsexplorer-com/36954
     - post/thedynamicsexplorer-com/7097
     - post/yzhums-com/66212
-    - post/yzhums-com/68428
     - post/yzhums-com/69444
     - post/yzhums-com/70554
-    - post/yzhums-com/70840
     - post/yzhums-com/71008
     - post/yzhums-com/71304
-    - post/yzhums-com/71489
+    - post/yzhums-com/71425
     - post/yzhums-com/71605
+    - post/yzhums-com/71648
     - post/yzhums-com/71666
     - post/yzhums-com/76268
   guidelines: []
@@ -476,7 +475,7 @@ coverage:
   learn: 62
   code: 82
   video: 5
-  blog: 17
+  blog: 16
   guideline: 0
 bc_forms:
   - 29
@@ -670,14 +669,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../../../posts/thedynamicsexplorer-com/36954.md) (community post): "Recurring Purchase Lines automatically default General Ledger accounts and other details onto purchase invoices"
 - [Dynamics 365 Business Central – How to use the “Recurring Requisition Worksheet” for Recurring Purchase Orders](../../../posts/thedynamicsexplorer-com/7097.md) (community post): "Recurring Requisition Worksheet retains lines after generating purchase orders for reuse"
 - [Dynamics 365 Business Central: Use a default quantity of 1 for all types on documents – Customization](../../../posts/yzhums-com/66212.md) (community post): "default quantity of 1 is currently limited to Item type"
-- [Dynamics 365 Business Central: Check posting date before posting (preview posting) in the sales and purchase documents – Customization](../../../posts/yzhums-com/68428.md) (community post): "validation to check posting date on sales and purchase documents"
 - [Dynamics 365 Business Central: How to check whether External Document No./Vendor Invoice No. are unique or duplicated – Customization](../../../posts/yzhums-com/69444.md) (community post): "validate whether External Document No. and Vendor Invoice No. are unique or duplicated"
 - [Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)](../../../posts/yzhums-com/70554.md) (community post): "automatically populating extended texts on sales and purchase documents when enabled"
-- [Dynamics 365 Business Central: Copy Comments from Vendor to Purchase Document – Customization](../../../posts/yzhums-com/70840.md) (community post): "automatically copy comments from vendor cards to purchase orders"
 - [Business Central 2026 release wave 1 (BC28): Create purchase quotes for contacts (without a vendor)](../../../posts/yzhums-com/71008.md) (community post): "you can create purchase quotes for contacts without requiring a vendor"
-- [Business Central 2026 release wave 1 (BC28): Create purchase orders from drop shipments](../../../posts/yzhums-com/71304.md) (community post): "create purchase orders directly from drop shipment sales orders"
-- [Business Central 2026 release wave 1 (BC28): Reverse drop shipments when sales and purchase documents aren’t invoiced](../../../posts/yzhums-com/71489.md) (community post): "reverse posted drop shipments when neither the sales shipment nor related purchase receipt"
+- [Business Central 2026 release wave 1 (BC28): Create purchase orders from drop shipments](../../../posts/yzhums-com/71304.md) (community post): "Create purchase orders straight from sales orders marked for drop shipment"
+- [Business Central 2026 release wave 1 (BC28): Match purchase invoices to multiple order and receipt lines (new Get Order Lines action)](../../../posts/yzhums-com/71425.md) (community post): "Match purchase invoices to multiple order and receipt lines"
 - [Business Central 2026 release wave 1 (BC28): Post purchase invoices for drop shipments independently of related sales invoices](../../../posts/yzhums-com/71605.md) (community post): "post purchase invoices for drop shipments independently of related sales"
+- [Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)](../../../posts/yzhums-com/71648.md) (community post): "Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages"
 - [Business Central 2026 release wave 1 (BC28): Use self-billed invoices](../../../posts/yzhums-com/71666.md) (community post): "self-billed invoices, allowing buyers to generate invoices on behalf of suppliers"
 - [Business Central 2026 release wave 2 (BC29): Set up vendor-specific number series for self-billing invoices](../../../posts/yzhums-com/76268.md) (community post): "vendor-specific number series for self-billed purchase invoices"
 - [Allow Over Receipts of Products](../../../videos/8C9JmtHdExM.md) (video): "Over receipt codes; Over receipt code tolerance percentages; Item-level over receipt codes"

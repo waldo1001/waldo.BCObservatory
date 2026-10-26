@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:17.993Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -196,7 +196,8 @@ links:
   localizations: []
   videos:
     - video/5RJ3yZ7m1UU
-  posts: []
+  posts:
+    - post/yzhums-com/72067
   guidelines: []
   changes:
     - change/bcapps/10159
@@ -212,7 +213,7 @@ coverage:
   learn: 19
   code: 17
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 36961
@@ -295,6 +296,7 @@ The remaining pages each describe one report. They group into receivables and pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10159 Warn when missing Power BI Account Categories Mappings](../../../../../changes/bcapps/10159.md) (code change): "Detects missing Power BI Account Categories mappings. Shows a warning on the PowerBI Reports Setup page"
+- [Business Central 2026 release wave 1 (BC28.2): Power BI Report Deployments (Centralized Management of Power BI Apps)](../../../../../posts/yzhums-com/72067.md) (community post): "standard Power BI apps centrally instead of installing each app by hand"
 - [What's New: Financial Analytics (2024 release wave 2)](../../../../../videos/5RJ3yZ7m1UU.md) (video): "Power BI Finance App; Financial Reporting Templates"
 
 ## Business Central pages and reports

@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/69394",
+  "input_hash": "d1f4a8eeb2e4b1b7eb5acddbc0afdc4c6181877be9776c450c96a06d876ae9ca",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T08:21:52.676Z",
+  "issues": [
+    "Summary and first key point present Admin Center environment management as a new BC27.2 feature; the post only lists it as a linked reference under the SaaS heading.",
+    "Summary implies the flexible update policy is part of the December release; the post mentions it only as a side note about an earlier BC25 change.",
+    "Rewrote summary and key points around the actual release builds and lifecycle dates."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033581,
+    "posts_in_call": 4
+  }
+}

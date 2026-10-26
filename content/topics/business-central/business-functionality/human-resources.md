@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:19.132Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,6 +63,7 @@ links:
   posts:
     - post/gerardorenteria-blog/9061
     - post/yzhums-com/67740
+    - post/yzhums-com/73165
   guidelines: []
   changes:
     - change/bcapps/11113
@@ -77,7 +78,7 @@ coverage:
   learn: 3
   code: 10
   video: 0
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 5200
@@ -131,6 +132,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11214 [29.x][All-e][SaaS] Last name of the employee relative is not editable when customized using “Profile (Role)”](../../../changes/bcapps/11214.md) (code change): "Last Name field added to the Employee Relatives page layout"
 - [👥 Human Resources Module in Business Central🚀](../../../posts/gerardorenteria-blog/9061.md) (community post): "The Human Resources module in Business Central provides employee management, absence tracking"
 - [Business Central 2025 wave 2 (BC27): Use alternative posting groups for employees](../../../posts/yzhums-com/67740.md) (community post): "use alternative posting groups for employees"
+- [Business Central 2026 release wave 1 (BC28.1): Expense Management module (Manage employee expenses)](../../../posts/yzhums-com/73165.md) (community post): "new native Expense Management module that enables employees to create, submit, and track expense reports"
 
 ## Business Central pages and reports
 

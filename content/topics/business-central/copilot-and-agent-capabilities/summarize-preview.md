@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:48.465Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -55,6 +55,7 @@ links:
     - video/q0TxpWfm9rc
   posts:
     - post/demiliani-com/12439
+    - post/yzhums-com/67310
     - post/yzhums-com/71758
   guidelines: []
 learn_toc_path:
@@ -67,7 +68,7 @@ coverage:
   learn: 3
   code: 0
   video: 3
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 71c4bcef57d0ff9d96d575df3ae2829a8ba335040fd85c07951ccd6b0cd79108
@@ -109,6 +110,7 @@ Start with the how-to page to use the feature. Read the FAQ if you need to under
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central: controlling the Summary system part.](../../../posts/demiliani-com/12439.md) (community post): "Summary FactBox uses AI to generate role-tailored record summaries"
+- [Business Central 2025 wave 2 (BC27): Hide Copilot summaries (Summary System Part Support)](../../../posts/yzhums-com/67310.md) (community post): "Summary system part that allows developers to hide or configure Copilot summary FactBoxes"
 - [Business Central 2026 release wave 1 (BC28): Get item insights with advanced KPIs and Summary (new Item Statistics page)](../../../posts/yzhums-com/71758.md) (community post): "Copilot can summarize these insights automatically when enabled"
 - [Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot](../../../videos/fgWFOMPJd6U.md) (video): "Summarize with Copilot; Multi-Prompt Pipeline for Summarization"
 - [What's New: Summarize with Copilot (2025 release wave 1)](../../../videos/HjsOuhThGKk.md) (video): "What's New: Summarize with Copilot (2025 release wave 1)"

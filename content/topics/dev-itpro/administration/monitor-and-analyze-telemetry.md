@@ -12,7 +12,7 @@ review:
   at: "2026-10-23T01:12:47.130Z"
   flags: []
 generated:
-  at: "2026-10-25T18:23:25.719Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -330,6 +330,7 @@ links:
     - post/waldo-be/317845
     - post/waldo-be/318423
     - post/waldo-be/318571
+    - post/yzhums-com/63913
   guidelines: []
   changes:
     - change/bcapps/10573
@@ -344,7 +345,7 @@ coverage:
   learn: 70
   code: 0
   video: 6
-  blog: 7
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 6d811af42d6a134d1ed6be0e44736f3c1dff51ecfed1455cb2a4358c4de6d557
@@ -466,6 +467,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../posts/waldo-be/317845.md) (community post): "Dashboard visualization consolidates custom telemetry and daily telemetry data"
 - [BC Telemetry Buddy – 84 commits later..](../../../posts/waldo-be/318423.md) (community post): "production-ready tool for analyzing Business Central telemetry"
 - [I built the tool .. but forgot the skill..](../../../posts/waldo-be/318571.md) (community post): "BC Telemetry Buddy amplifies the quality of the input, so vague questions get vague but confident answers"
+- [Dynamics 365 Business Central: How to easily check who created an environment, company and record and when](../../../posts/yzhums-com/63913.md) (community post): "Tracking who created environments, companies, and records in Business Central can be done through telemetry"
 - [What's New: Telemetry (2023 release wave 2)](../../../videos/7rIHz0zrgWU.md) (video): "AI assisted performance analysis; Key influencers analysis; Top segments analysis"
 - [Connect Power BI Telemetry Apps to Read your Business Central Telemetry Data (2023)](../../../videos/BOY2442wHSc.md) (video): "power bi; telemetry; application insights; data connection"
 - [Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data](../../../videos/F_pssS0FtUc.md) (video): "Business Central Telemetry; Usage Report; Error Dashboard; KPI Tracking"

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/67024",
+  "input_hash": "cc412d1853dc24fb4fef3528ff9afaa0a8ef8593419c600e41271f5caff38cd5",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-26T08:21:38.630Z",
+  "issues": [
+    "The post covers custom Power Apps that Zscaler blocked on end-user PCs. It never mentions Business Central.",
+    "The features and quotes describe Zscaler products and Power Apps error logs, not Business Central functionality."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.077128,
+    "posts_in_call": 3
+  }
+}

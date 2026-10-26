@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:55.812Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -159,6 +159,7 @@ links:
     - post/olofsimren-com/3853
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26
+    - post/yzhums-com/71491
   guidelines: []
   changes:
     - change/bcapps/10096
@@ -174,7 +175,7 @@ coverage:
   learn: 13
   code: 24
   video: 0
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms:
   - 5
@@ -266,6 +267,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Allow Posting Date Formula](../../../../posts/olofsimren-com/3853.md) (community post): "supports date formulas for allowed posting dates in General Ledger Setup"
 - [How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9.md) (community post): "Business Central BC28 introduces dynamic date formulas for allowed posting periods"
 - [Automating Posting Periods in Business Central with Date Formulas](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26.md) (community post): "Date formulas enable automatic posting period adjustments in Business Central based on today's date"
+- [Business Central 2026 release wave 1 (BC28): Allow Posting From/To DateFormula (A new way to specify posting periods)](../../../../posts/yzhums-com/71491.md) (community post): "Allow Posting From/To DateFormula fields that let you define posting periods using dynamic date formulas"
 
 ## Business Central pages and reports
 

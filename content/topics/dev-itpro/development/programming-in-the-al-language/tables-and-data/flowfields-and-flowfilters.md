@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:22.410Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,8 +111,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [FlowFields with same filters and table in a single OUTER APPLY](../../../../../posts/duiliotacconi-com/1894.md) (community post): "FlowFields that use the same table and the same filters into one OUTER APPLY"
 - [Quick Tip: CalcFields vs SetAutoCalcFields in AL](../../../../../posts/thinkaboutit-be/7846.md) (community post): "FlowFields in Business Central are not stored in the database and must be calculated explicitly"
-- [Dynamics 365 Business Central: How to calculate the total (sum) of a column in a table (Four ways)](../../../../../posts/yzhums-com/61561.md) (community post): "FlowFields automatically calculate totals on pages without additional code logic"
-- [Dynamics 365 Business Central Blog Series: FlowFields](../../../../../posts/yzhums-com/63736.md) (community post): "FlowFields perform calculations sum average count min max exist lookup on related table data"
-- [Business Central 2026 release wave 2 (BC29): New system flow fields (SystemCreatedByUserName, SystemCreatedByFullName, SystemModifiedByUserName, and SystemModifiedByFullName)](../../../../../posts/yzhums-com/75896.md) (community post): "four new system FlowFields added to normal and temporary tables"
+- [Dynamics 365 Business Central: How to calculate the total (sum) of a column in a table (Four ways)](../../../../../posts/yzhums-com/61561.md) (community post): "FlowFields defined with CalcFormula show totals"
+- [Dynamics 365 Business Central Blog Series: FlowFields](../../../../../posts/yzhums-com/63736.md) (community post): "FlowFields support sum, average, exist, count, min, max and lookup calculations"
+- [Business Central 2026 release wave 2 (BC29): New system flow fields (SystemCreatedByUserName, SystemCreatedByFullName, SystemModifiedByUserName, and SystemModifiedByFullName)](../../../../../posts/yzhums-com/75896.md) (community post): "introduces four new system FlowFields (SystemCreatedByUserName, SystemCreatedByFullName"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/73165",
+  "input_hash": "ce4a0869115a5cf906e234f10465e8d56abd5bd620ae6ffa1ae8d9ecef6a94e4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-26T08:21:45.381Z",
+  "issues": [
+    "System 'integration' is not supported; the post only says the module avoids extra integrations.",
+    "Key points omitted the preview availability limits (US and English first, more countries in July 2026) and that tests were done with the Expense Agent off; rewritten.",
+    "Quote and listed pages match the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039719,
+    "posts_in_call": 4
+  }
+}

@@ -5,13 +5,13 @@
   "source": "yzhums-com",
   "published_at": "2025-12-15T00:11:10.000Z",
   "words": 786,
-  "summary": "Microsoft Dynamics 365 Business Central released cumulative updates in December 2025 across multiple versions (BC27, BC26, BC25, BC24) with new sandbox environment management features and flexible update policies. The post provides version numbers, release dates, and lifecycle support information for all active and end-of-life versions.",
+  "summary": "Roundup of the December 2025 cumulative updates for Business Central, listing build numbers for BC27 CU02 (27.2, SaaS and on-premises), BC26 CU08, BC25 CU14 and BC24 CU18. It also links release plan resources and reprints Modern and Fixed Lifecycle Policy support dates for versions back to BC13.",
   "key_points": [
-    "BC27.2 (2025 wave 2) introduces managing production and sandbox environments in the Admin Center with platform version 27.0.42930.0",
-    "BC25 (2024 wave 2) changes major update cycle from 30-60 days to 5 months and makes minor updates optional",
-    "Multiple versions released in December: BC27 CU02, BC26 CU08, BC25 CU14, and BC24 CU18 (end of life)",
-    "2025 release wave 2 (BC27) is supported until April 6, 2027 under Modern Lifecycle Policy",
-    "New customers automatically enroll in BC27.2 while existing customers receive email notifications for available updates"
+    "BC27 CU02 is version 27.2: SaaS uses platform 27.0.42930.0 and on-premises uses platform 27.0.42799.0, both with application 27.2.42879",
+    "New customers start on BC27.2 automatically, while existing customers are notified by email when the update is available to them",
+    "Other December releases are 26.8, 25.14 and 24.18, with BC24 now marked end of life",
+    "Version 27.x is supported from Oct 1, 2025 to Apr 6, 2027 under the Modern Lifecycle Policy; BC14 under the Fixed Policy reached its extended end date on Oct 14, 2025",
+    "A side note recalls the earlier BC25 change extending the major update window from 30 (60) days to five months and making minor updates optional"
   ],
   "systems": [
     "platform",
@@ -28,7 +28,6 @@
   ],
   "objects": [],
   "features": [
-    "Managing Production and Sandbox Environments in Admin Center",
     "Flexible environment update management",
     "Optional minor updates",
     "Extended update cycles"

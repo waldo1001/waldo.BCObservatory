@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/75235",
+  "input_hash": "a10ed443d9824b03f8c17d506ad8f4d622724b97b0e24944ea609c8a7e9bdef7",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-26T08:21:45.381Z",
+  "issues": [
+    "Post is about Microsoft MVP award categories and technology areas, not about Business Central; it contains no BC content."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039719,
+    "posts_in_call": 4
+  }
+}

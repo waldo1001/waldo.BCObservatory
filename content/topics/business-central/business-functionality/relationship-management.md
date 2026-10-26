@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:27.161Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -339,7 +339,6 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/yzhums-com/67058
     - post/yzhums-com/71008
   guidelines: []
 learn_toc_path:
@@ -358,7 +357,7 @@ coverage:
   learn: 43
   code: 24
   video: 0
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 1680
@@ -434,7 +433,6 @@ Two further subtopics round out the area. One covers using Dynamics 365 Sales wi
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Dynamics 365 Business Central: Merge duplicate records (customers, vendors, or contacts)](../../../posts/yzhums-com/67058.md) (community post): "Merge Duplicate feature in Business Central allows users"
 - [Business Central 2026 release wave 1 (BC28): Create purchase quotes for contacts (without a vendor)](../../../posts/yzhums-com/71008.md) (community post): "Create purchase quotes for contacts without a vendor record first"
 
 ## Business Central pages and reports

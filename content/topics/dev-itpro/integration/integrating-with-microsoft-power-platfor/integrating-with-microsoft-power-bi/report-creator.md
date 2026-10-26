@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:50.333Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,7 +42,8 @@ links:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/68178
   guidelines: []
 learn_toc_path:
   - Integration
@@ -56,7 +57,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: acba99b7a835774b9db004cb2de8d0c52c89c8b48fa9c781fec1d37fc1b9bde2
@@ -92,5 +93,11 @@ The second page focuses on reports shown in the Power BI FactBox on list pages. 
 
 - [Building reports in Power BI Desktop to display Business Central data](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi): Learn how to make your data a Power BI source and build insightful business reports.
 - [Display custom Power BI reports](https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox): Use the Power BI FactBox to display interactive Power BI reports and gain deeper insights into data on key list pages.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central 2025 wave 2 (BC27): Access open-sourced Power BI apps](../../../../../posts/yzhums-com/68178.md) (community post): "Developers can access source code through PowerBIReports in Business Central"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -2,7 +2,7 @@
 id: source/yzhums-com
 type: source
 title: Dynamics 365 Lab - Yun Zhu
-summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 374 posts in the knowledge base, 2025-04-28 to 2026-10-26, mostly about development, administration, platform."
+summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 385 posts in the knowledge base, 2025-04-28 to 2026-10-26, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-26T05:51:10.938Z"
+  at: "2026-10-26T08:08:59.782Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 02dd9eb4bca0088c8169bad11457cfe65501556009143c7aa1c97d6824f4deb7
+  input_hash: 45aece4111ad62a6aa1edc17719e9e32cbc2c0f9069e351a636ae971d221f914
 evidence:
   - kind: blog
     url: https://yzhums.com
@@ -120,6 +120,7 @@ links:
     - post/yzhums-com/66675
     - post/yzhums-com/67043
     - post/yzhums-com/61818
+    - post/yzhums-com/67024
     - post/yzhums-com/67058
     - post/yzhums-com/61543
     - post/yzhums-com/67162
@@ -177,6 +178,7 @@ links:
     - post/yzhums-com/68658
     - post/yzhums-com/68731
     - post/yzhums-com/68765
+    - post/yzhums-com/67269
     - post/yzhums-com/64942
     - post/yzhums-com/68854
     - post/yzhums-com/68861
@@ -187,6 +189,7 @@ links:
     - post/yzhums-com/68813
     - post/yzhums-com/69023
     - post/yzhums-com/69067
+    - post/yzhums-com/69079
     - post/yzhums-com/68786
     - post/yzhums-com/69110
     - post/yzhums-com/69019
@@ -197,6 +200,7 @@ links:
     - post/yzhums-com/69209
     - post/yzhums-com/69290
     - post/yzhums-com/69356
+    - post/yzhums-com/69394
     - post/yzhums-com/69405
     - post/yzhums-com/69332
     - post/yzhums-com/69444
@@ -207,6 +211,7 @@ links:
     - post/yzhums-com/69681
     - post/yzhums-com/69433
     - post/yzhums-com/69722
+    - post/yzhums-com/69366
     - post/yzhums-com/69809
     - post/yzhums-com/40193
     - post/yzhums-com/69918
@@ -217,6 +222,7 @@ links:
     - post/yzhums-com/70070
     - post/yzhums-com/68755
     - post/yzhums-com/70137
+    - post/yzhums-com/70129
     - post/yzhums-com/70117
     - post/yzhums-com/41471
     - post/yzhums-com/69120
@@ -284,6 +290,7 @@ links:
     - post/yzhums-com/72087
     - post/yzhums-com/69818
     - post/yzhums-com/72250
+    - post/yzhums-com/72288
     - post/yzhums-com/70931
     - post/yzhums-com/71914
     - post/yzhums-com/72431
@@ -294,6 +301,7 @@ links:
     - post/yzhums-com/71645
     - post/yzhums-com/72433
     - post/yzhums-com/72767
+    - post/yzhums-com/72784
     - post/yzhums-com/72806
     - post/yzhums-com/72842
     - post/yzhums-com/72906
@@ -303,6 +311,8 @@ links:
     - post/yzhums-com/73167
     - post/yzhums-com/71463
     - post/yzhums-com/73368
+    - post/yzhums-com/73165
+    - post/yzhums-com/73030
     - post/yzhums-com/73513
     - post/yzhums-com/73564
     - post/yzhums-com/73865
@@ -347,6 +357,7 @@ links:
     - post/yzhums-com/75111
     - post/yzhums-com/22035
     - post/yzhums-com/75216
+    - post/yzhums-com/75235
     - post/yzhums-com/75164
     - post/yzhums-com/75245
     - post/yzhums-com/75271
@@ -414,41 +425,41 @@ url: https://yzhums.com
 author: Yun Zhu
 mvp: true
 full_text: false
-item_count: 374
+item_count: 385
 footprint:
   systems:
     - id: development
-      weight: 277
+      weight: 280
     - id: administration
-      weight: 193
+      weight: 199
     - id: platform
-      weight: 183
+      weight: 190
     - id: sales
-      weight: 85
+      weight: 89
     - id: reporting
-      weight: 72
+      weight: 73
     - id: integration
-      weight: 64
+      weight: 66
   topics:
     - id: al development
-      weight: 64
+      weight: 65
     - id: bc28
       weight: 27
     - id: bc27
       weight: 23
     - id: customization
-      weight: 22
+      weight: 23
     - id: bc29
       weight: 19
     - id: release wave 2
       weight: 18
+    - id: admin center
+      weight: 16
     - id: al language
       weight: 16
-    - id: admin center
-      weight: 15
-    - id: copilot
-      weight: 15
     - id: on-premises
+      weight: 16
+    - id: copilot
       weight: 15
   objects:
     - id: table Customer
@@ -482,7 +493,7 @@ last_item: "2026-10-26"
 
 # Dynamics 365 Lab - Yun Zhu
 
-> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 374 posts in the knowledge base, 2025-04-28 to 2026-10-26, mostly about development, administration, platform.
+> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 385 posts in the knowledge base, 2025-04-28 to 2026-10-26, mostly about development, administration, platform.
 
 [https://yzhums.com](https://yzhums.com) · blog · tier community
 
@@ -490,16 +501,16 @@ last_item: "2026-10-26"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (277) | al development (64) | table Customer (13) |
-| administration (193) | bc28 (27) | table Sales Header (11) |
-| platform (183) | bc27 (23) | page Customer Card (10) |
-| sales (85) | customization (22) | page Item Card (9) |
-| reporting (72) | bc29 (19) | page Item List (9) |
-| integration (64) | release wave 2 (18) | page Customer List (7) |
-|  | al language (16) | page Sales Order (7) |
-|  | admin center (15) | table Sales Line (7) |
-|  | copilot (15) | page Vendor Card (6) |
-|  | on-premises (15) | codeunit Temp Blob (5) |
+| development (280) | al development (65) | table Customer (13) |
+| administration (199) | bc28 (27) | table Sales Header (11) |
+| platform (190) | bc27 (23) | page Customer Card (10) |
+| sales (89) | customization (23) | page Item Card (9) |
+| reporting (73) | bc29 (19) | page Item List (9) |
+| integration (66) | release wave 2 (18) | page Customer List (7) |
+|  | admin center (16) | page Sales Order (7) |
+|  | al language (16) | table Sales Line (7) |
+|  | on-premises (16) | page Vendor Card (6) |
+|  | copilot (15) | codeunit Temp Blob (5) |
 |  |  | codeunit Type Helper (5) |
 |  |  | page Item Ledger Entries (5) |
 
@@ -508,11 +519,11 @@ last_item: "2026-10-26"
 Items per quarter, oldest first:
 
 - 2025-Q2: **************************************** 50
-- 2025-Q3: **************************************** 67
-- 2025-Q4: **************************************** 55
-- 2026-Q1: **************************************** 66
-- 2026-Q2: **************************************** 49
-- 2026-Q3: **************************************** 69
+- 2025-Q3: **************************************** 68
+- 2025-Q4: **************************************** 58
+- 2026-Q1: **************************************** 68
+- 2026-Q2: **************************************** 53
+- 2026-Q3: **************************************** 70
 - 2026-Q4: ****************** 18
 
 ## Most recent

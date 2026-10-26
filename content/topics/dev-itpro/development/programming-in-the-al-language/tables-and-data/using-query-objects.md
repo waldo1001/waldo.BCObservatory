@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:53.992Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -214,8 +214,8 @@ Start with Query Overview, then read Data Item Links and Filtering in Query obje
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Business Central Queries: Simplifying Complex Data](../../../../../posts/aardvarklabs-blog/1822.md) (community post): "Query objects let AL developers combine and filter data from several tables"
-- [Business Central 2025 wave 2 (BC27): Date methods behavior on blank Date and DataTime fields when retrieving date data in queries](../../../../../posts/yzhums-com/68075.md) (community post): "Date methods can be applied to query columns to extract specific date components"
-- [Dynamics 365 Business Central Blog Series: Query Object Examples & Use Cases](../../../../../posts/yzhums-com/75265.md) (community post): "Business Central query objects retrieve and combine data from one or more tables"
+- [Business Central 2025 wave 2 (BC27): Date methods behavior on blank Date and DataTime fields when retrieving date data in queries](../../../../../posts/yzhums-com/68075.md) (community post): "how date methods return values for blank Date and DateTime fields in queries"
+- [Dynamics 365 Business Central Blog Series: Query Object Examples & Use Cases](../../../../../posts/yzhums-com/75265.md) (community post): "Query objects combine data from multiple tables into unified datasets"
 - [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../../videos/tDcT_51ktqo.md) (video): "Query UI and Data Analysis"
 
 ## Business Central pages and reports

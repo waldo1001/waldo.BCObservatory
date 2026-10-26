@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:42.437Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -214,6 +214,6 @@ Start with the overview page and the general processes page. Then work through t
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting](../../../../posts/yzhums-com/71836.md) (community post): "The One Service Item Line/Order setting on the Service Management Setup page"
+- [Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting](../../../../posts/yzhums-com/71836.md) (community post): "One Service Item Line/Order setting on the Service Management Setup page"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

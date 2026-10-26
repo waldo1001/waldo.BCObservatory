@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:51.814Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,7 +78,6 @@ links:
   localizations: []
   videos:
     - video/0WAOtNaKjws
-    - video/AMVAiPTfSrU
     - video/C5cmG3sNjUg
     - video/EpDIrJE0HzA
     - video/GeT5E_f9A9Q
@@ -108,7 +107,7 @@ children: []
 coverage:
   learn: 6
   code: 3
-  video: 12
+  video: 11
   blog: 8
   guideline: 0
 bc_forms:
@@ -163,10 +162,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [🤖 AboutText: Teaching AI to Understand Your APIs ✨](../../../posts/gerardorenteria-blog/12682.md) (community post): "AboutText property, added to APIV2 pages when APIs are exposed through the Model Context Protocol"
 - [Connect Any Agent to Business Central](../../../posts/katson-com/4678.md) (community post): "connect external AI agents to Business Central using the Model Context Protocol"
 - [How to Connect Business Central MCP to Claude Desktop](../../../posts/katson-com/5026.md) (community post): "enabling third-party AI agents to access BC data"
-- [Business Central 2025 wave 2 (BC27.1): Connect AI agents to Business Central through MCP server (Dynamics 365 Business Central MCP)](../../../posts/yzhums-com/68873.md) (community post): "AI agents to connect to Business Central through a standardized API"
+- [Business Central 2025 wave 2 (BC27.1): Connect AI agents to Business Central through MCP server (Dynamics 365 Business Central MCP)](../../../posts/yzhums-com/68873.md) (community post): "Business Central MCP server, which lets AI agents discover and call Business Central APIs"
 - [Business Central 2026 release wave 2 (BC29): Run data queries with MCP Server (no APIs required)](../../../posts/yzhums-com/76419.md) (community post): "Data Query Tools for the MCP Server, enabling AI agents"
 - [What's New: Enhanced MCP Server (2026 release wave 1)](../../../videos/0WAOtNaKjws.md) (video): "MCP Server configuration validation import export connection string telemetry auditing"
-- [How 3 Partners are Building Powerful Agents for Business Central](../../../videos/AMVAiPTfSrU.md) (video): "Business Central MCP server"
 - [MCP Server for Business Central - Advanced Topics (Part 3)](../../../videos/C5cmG3sNjUg.md) (video): "MCP Server for Business Central agents dynamic tools static tools"
 - [Build an Agent in Microsoft Copilot Studio for Business Central (2025)](../../../videos/EpDIrJE0HzA.md) (video): "Build an Agent in Microsoft Copilot Studio for Business Central"
 - [Introducing MCP Server Configurations for Business Central (Part 2)](../../../videos/GeT5E_f9A9Q.md) (video): "Introducing MCP Server Configurations for Business Central"

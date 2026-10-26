@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:40.130Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13054
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -103,5 +105,11 @@ Start with the FEC export page if you face a tax audit, with the XML page if you
   - In the observatory: [Table 17 "G/L Entry"](../../../../../objects/table/17.md)
 - [Requirements for Reporting Declaration of Trade in Goods [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods): Learn about the required fields and steps for reporting the Declaration of Trade in Goods (DEB) in the French version of Business Central.
   - In the observatory: [Page 4810 "Intrastat Report Setup"](../../../../../objects/page/4810.md), [Page 4811 "Intrastat Report List"](../../../../../objects/page/4811.md), [Page 4812 "Intrastat Report"](../../../../../objects/page/4812.md), [Table 4812 "Intrastat Report Line"](../../../../../objects/table/4812.md), [Table 79 "Company Information"](../../../../../objects/table/79.md)
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#13054 [FR] Delocalize delayed VAT and SEPA payment-slip integration](../../../../../changes/bcapps/13054.md) (code change): "French delayed VAT and SEPA direct debit payment-slip features"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

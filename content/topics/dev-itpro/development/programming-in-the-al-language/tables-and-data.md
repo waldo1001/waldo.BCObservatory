@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.932Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -467,7 +467,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Introducing AL Table Visualizer: An Interactive ER Diagram for Your Business Central Tables](../../../../posts/thinkaboutit-be/7609.md) (community post): "generates interactive ER diagrams from Business Central table definitions"
 - [Dynamics 365 Business Central: Quickly get next Sequence/Entry Number (without using FindLast -> Entry No. + 1)](../../../../posts/yzhums-com/31884.md) (community post): "retrieve the next sequence or entry number for ledger tables in Business Central"
 - [Business Central 2025 wave 1 (BC26.2): Implicit conversion between Record and RecordRef](../../../../posts/yzhums-com/63320.md) (community post): "Record variables can now be directly assigned to RecordRef with implicit conversion"
-- [Dynamics 365 Business Central: How to quickly check if a field is a primary key field](../../../../posts/yzhums-com/64478.md) (community post): "check if a field is a table's primary key in AL code"
+- [Dynamics 365 Business Central: How to quickly check if a field is a primary key field](../../../../posts/yzhums-com/64478.md) (community post): "how to check in AL whether a field belongs to a table's primary key"
 - [Business Central 2026 release wave 2 (BC29): New “Recent Record” virtual table (2000000174)](../../../../posts/yzhums-com/76509.md) (community post): "Recent Record virtual table that tracks records most recently accessed"
 - [What's New: Server and Database - A Faster Data Stack (2023 release wave 2)](../../../../videos/a1LQ3-SCtPE.md) (video): "New companion table schema for table extensions"
 

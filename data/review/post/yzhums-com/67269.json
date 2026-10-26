@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/yzhums-com/67269",
+  "input_hash": "6b633b93b6ca0138bad404cd861bd0e37653692c844efb1c3115207a419adc5f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-26T08:21:38.630Z",
+  "issues": [
+    "The page correctly describes the two Item Tracking Code options that create missing Lot or Serial No. Information cards during posting.",
+    "The post uses a purchase order receipt as its example and says the setting applies to any inbound document. The summary's focus on purchase orders is a little narrow but acceptable.",
+    "The objects and number assignment methods all appear in the post."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.077128,
+    "posts_in_call": 3
+  }
+}

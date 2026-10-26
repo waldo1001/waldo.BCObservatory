@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:31.665Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,6 +96,7 @@ links:
     - video/VEVo5LgCGfw
   posts:
     - post/thinkaboutit-be/7943
+    - post/yzhums-com/68178
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -108,7 +109,7 @@ coverage:
   learn: 8
   code: 1
   video: 3
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 36951
@@ -159,6 +160,7 @@ After setup, the functional-area page describes what each app reports. The back 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Quick Tip: How Can You Download the Standard Business Central Power BI Reports?](../../../../posts/thinkaboutit-be/7943.md) (community post): "Standard Power BI reports for Business Central are available through official Microsoft Power BI template apps"
+- [Business Central 2025 wave 2 (BC27): Access open-sourced Power BI apps](../../../../posts/yzhums-com/68178.md) (community post): "open-sources Power BI apps for sales, purchasing, and projects"
 - [What's New: Enhanced Subscription Billing Analytics (2026 release wave 1)](../../../../videos/cnIJZ2Ozcxs.md) (video): "Unified Power BI Subscription Billing UI"
 - [What's New:Drill-Back and Dynamic Dimension Name Support in Power BI Apps for Business Central(2025)](../../../../videos/kJfGIKor3VA.md) (video): "Drill-back from Power BI to Business Central; Dynamic dimension naming in Power BI apps"
 - [What's New: Open Sourcing Power BI Apps for Business Central (2025 release wave 2)](../../../../videos/VEVo5LgCGfw.md) (video): "Open-sourced Power BI apps for Business Central; Wave 1 Power BI apps open sourcing"

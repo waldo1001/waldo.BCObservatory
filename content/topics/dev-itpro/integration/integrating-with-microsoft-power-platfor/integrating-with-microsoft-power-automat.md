@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.316Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,6 +74,7 @@ links:
     - post/aardvarklabs-blog/3631
     - post/aardvarklabs-blog/3704
     - post/yzhums-com/61951
+    - post/yzhums-com/65857
   guidelines: []
   changes:
     - change/bcapps/10010
@@ -88,7 +89,7 @@ coverage:
   learn: 5
   code: 0
   video: 4
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: d83985e3f53052e05e48c65c878b806990be809f7b8b581f42a7ef7809a3e59f
@@ -133,6 +134,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Use Power Automate to retrieve SFTP files and post them to Business Central via the API"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "Power Automate listens for the business event, retrieves the file and metadata from the staging table"
 - [Dynamics 365 Business Central: How to disable/hide Power Automate action group for all users](../../../../posts/yzhums-com/61951.md) (community post): "Disable the Power Automate action group for all Business Central users"
+- [Dynamics 365 Business Central: How to deprecate external business events (ExternalBusinessEvent)](../../../../posts/yzhums-com/65857.md) (community post): "Business events allow Business Central to notify external systems and trigger reactions in Power Automate"
 - [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../../videos/EVntnDFE1R4.md) (video): "power automate; power apps; dataverse; virtual tables; business events"
 - [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; Power Automate Templates for Business Central"
 - [What's New: Business Central Integration with Power Platform](../../../../videos/V_ZyGeF5JXE.md) (video): "Power Automate; approval workflows; connector actions; power platform"

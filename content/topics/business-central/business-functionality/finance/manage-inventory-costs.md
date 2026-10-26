@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:33.535Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -153,6 +153,7 @@ links:
   posts:
     - post/thedynamicsexplorer-com/10326
     - post/thedynamicsexplorer-com/37371
+    - post/yzhums-com/72006
   guidelines: []
   changes:
     - change/bcapps/10094
@@ -181,7 +182,7 @@ coverage:
   learn: 14
   code: 13
   video: 3
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 40
@@ -270,6 +271,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9860 [Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)](../../../../changes/bcapps/9860.md) (code change): "Item charge lines are now correctly exported as allowances or charges in XRechnung and ZUGFeRD documents"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../../../../posts/thedynamicsexplorer-com/10326.md) (community post): "Item charges can be assigned to the original sales shipment, creating value entries"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "Changing standard cost directly on an item card has two critical side effects"
+- [Business Central 2026 release wave 1 (BC28): Experience improved usability in manufacturing](../../../../posts/yzhums-com/72006.md) (community post): "Capacity and overhead postings use the Inventory Posting Setup for the production location"
 - [What's New: Cost Adjustment (2025 release wave 1)](../../../../videos/8IOEXgk7q5I.md) (video): "cost adjustment; inventory valuation; high-volume items"
 - [Execution & Control Cost Control (2026)](../../../../videos/N30HebR5nJk.md) (video): "Costing methods; Cost shares on item card; BOM cost share distribution report"
 - [What's New: Cost Adjustment (2024 release wave 1)](../../../../videos/w0okH0v0VvY.md) (video): "Inventory Cost Adjustment Tool; Cost Adjustment Logging Options; Item Batches"

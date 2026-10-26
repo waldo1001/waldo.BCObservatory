@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:25.918Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -55,6 +55,7 @@ links:
     - post/nataliekarolak-com/3648
     - post/tine-staric-net/https-tine-staric-net-blog-2025-format-cheatsheet--8c69d461e7
     - post/yzhums-com/69978
+    - post/yzhums-com/70117
     - post/yzhums-com/74473
   guidelines: []
   changes:
@@ -70,7 +71,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 980024bd723a3011e5f11fc2464d1bb306e6a0f3d31a1c678caca9be5e61a1b0
@@ -115,7 +116,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Understanding ToText() in Business Central 2025](../../../../posts/aardvarklabs-blog/1696.md) (community post): "ToText() is a quick display helper added in BC 2025 Wave 1"
 - [Small AL quiz](../../../../posts/nataliekarolak-com/3648.md) (community post): "StrSubstNo formats decimal numbers with thousands separators in some regions"
 - [Format Cheatsheet](../../../../posts/tine-staric-net/https-tine-staric-net-blog-2025-format-cheatsheet--8c69d461e7.md) (community post): "Format() supports 9 different format codes (0-7 and 9) that produce different output styles for the same data type"
-- [Dynamics 365 Business Central: How to get the Month Name/Text from a date (Two ways)](../../../../posts/yzhums-com/69978.md) (community post): "Format() method with date format codes extracts full or abbreviated month names"
+- [Dynamics 365 Business Central: How to get the Month Name/Text from a date (Two ways)](../../../../posts/yzhums-com/69978.md) (community post): "Format(date, 0, '<Month Text>') returns the full month name"
+- [Dynamics 365 Business Central Blog Series: Date and time handling](../../../../posts/yzhums-com/70117.md) (community post): "AL provides functions to retrieve special dates like today, yesterday, tomorrow"
 - [Dynamics 365 Business Central: Formatting Boolean Values (Yes/No, true/false, and 1/0)](../../../../posts/yzhums-com/74473.md) (community post): "use ToText() and Format() functions with different parameters to display Boolean values"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

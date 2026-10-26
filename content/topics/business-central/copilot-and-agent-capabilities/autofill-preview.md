@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:10.498Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,7 +99,7 @@ Start with the usage page to understand the review workflow. Then read the FAQ i
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central 2025 wave 2 (BC27): Autofill contact details with Copilot](../../../posts/yzhums-com/68043.md) (community post): "Copilot autofill now searches the web for customer and vendor contact information"
+- [Business Central 2025 wave 2 (BC27): Autofill contact details with Copilot](../../../posts/yzhums-com/68043.md) (community post): "Copilot autofill now searches the web via Bing to suggest customer or vendor contact details"
 - [Dynamics 365 Business Central 2025 Release Wave 1 Release Highlights](../../../videos/D2KPQEbO40Q.md) (video): "Autofill; Summarize with Copilot; Scope 3 Value Chain Process Automation"
 - [What's New: Autofill Fields with Copilot (2025 release wave 1)](../../../videos/PB2ZG8fM3EE.md) (video): "Copilot autofill for card and document pages"
 - [What's New: Autofill Contact Details with Copilot (2025 release wave 2)](../../../videos/SH4Ffukj3P4.md) (video): "Autofill Contact Details with Copilot; autofill; copilot; bing search"

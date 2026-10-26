@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.963Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-26T08:22:02.554Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,7 +74,8 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/69067
   guidelines: []
 learn_toc_path:
   - Development
@@ -88,7 +89,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 4151a27c0418b7d8bb9d56eb32a4bd6a0743e423b3ad80d2d0e8fa01917c1e29
@@ -140,5 +141,11 @@ Start with Designing Role Centers for the concepts, then read the simple AL code
 - [Simple Role Center Code Example in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-simple-role-center-example): Learn from a complete AL code example that builds a simple Role Center page and a profile that assigns the Role Center to users in Business Central.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central Blog Series: Customize the Role Center](../../../../../posts/yzhums-com/69067.md) (community post): "Covers the error you get when adding an OnAction trigger to a Role Center page"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.
