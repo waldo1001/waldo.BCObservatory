@@ -1,0 +1,79 @@
+{
+  "item_id": "blog/yzhums-com/73030",
+  "url": "https://yzhums.com/73030/",
+  "title": "Business Central 2026 release wave 1 (BC28): Analyze customer loyalty and other sales scenarios",
+  "source": "yzhums-com",
+  "published_at": "2026-05-25T00:32:04.000Z",
+  "words": 330,
+  "summary": "Business Central 2026 wave 1 introduces new Power BI reports on customer loyalty and analysis views for sales orders, along with subtotals in Excel-based sales reports and enhanced demo data. These features help sales and finance teams understand customer trends and manage pipelines more effectively.",
+  "key_points": [
+    "New Power BI reports (Customer Retention Overview and Customer Retention History) track customer loyalty patterns",
+    "Built-in sales reports now include subtotals in Excel layouts to reduce manual calculation work",
+    "Analysis views on Sales Order List provide insights into expected sales volume, customer demand, and aged accounts",
+    "Enhanced demo sales data enables more realistic testing and training scenarios"
+  ],
+  "systems": [
+    "sales",
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "customer loyalty",
+    "power bi reports",
+    "sales analytics",
+    "excel layouts",
+    "demo data"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer Retention Overview"
+    },
+    {
+      "type": "report",
+      "name": "Customer Retention History"
+    },
+    {
+      "type": "report",
+      "name": "Salesperson Commission"
+    },
+    {
+      "type": "report",
+      "name": "Customer/Item Sales"
+    },
+    {
+      "type": "report",
+      "name": "Inventory Order Details"
+    },
+    {
+      "type": "report",
+      "name": "Inventory Customer Sales"
+    },
+    {
+      "type": "report",
+      "name": "Inventory – Sales Back Orders"
+    }
+  ],
+  "features": [
+    "Power BI customer loyalty reports",
+    "Excel subtotals in sales reports",
+    "Sales Order analysis views",
+    "Expected sales volume analysis",
+    "Customer sales by volume analysis",
+    "Aged accounts analysis"
+  ],
+  "versions": [
+    "BC28",
+    "BC25.1"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

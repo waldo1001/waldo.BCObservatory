@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/yzhums-com/67269",
+  "url": "https://yzhums.com/67269/",
+  "title": "Dynamics 365 Business Central: Automatically create Lot/Serial No. Information card on posting (No customization)",
+  "source": "yzhums-com",
+  "published_at": "2025-11-05T01:26:20.000Z",
+  "words": 383,
+  "summary": "Dynamics 365 Business Central can automatically create Lot and Serial Number Information cards during purchase order posting without customization. This feature uses Item Tracking Code options to generate missing cards when inbound transactions are posted, simplifying item tracking workflows for companies that need to track items from entry.",
+  "key_points": [
+    "Item Tracking Code has two standard options: Create SN Info. on posting and Create Lot No. Info. on posting",
+    "Serial or lot numbers can be assigned automatically using predefined number series or custom number series, or manually by entering vendor numbers",
+    "Information cards are automatically created during document posting if they don't already exist",
+    "No customization required; this functionality is available as a standard feature"
+  ],
+  "systems": [
+    "inventory",
+    "purchasing"
+  ],
+  "topics": [
+    "item tracking",
+    "lot numbers",
+    "serial numbers",
+    "purchasing",
+    "posting"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Item Tracking Code"
+    },
+    {
+      "type": "other",
+      "name": "Item Tracking Lines"
+    },
+    {
+      "type": "other",
+      "name": "Lot No. Information card"
+    },
+    {
+      "type": "other",
+      "name": "Serial No. Information card"
+    }
+  ],
+  "features": [
+    "Automatic Lot No. Information card creation",
+    "Automatic Serial No. Information card creation",
+    "Item Tracking Code options",
+    "Automatic number assignment",
+    "Custom number series assignment"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "After the purchase order is posted, the Lot No. Information Card has been automatically created.",
+      "why_it_matters": "Demonstrates the end result of the feature in action"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

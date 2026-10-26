@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/69394",
+  "url": "https://yzhums.com/69394/",
+  "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (December, 2025)",
+  "source": "yzhums-com",
+  "published_at": "2025-12-15T00:11:10.000Z",
+  "words": 786,
+  "summary": "Microsoft Dynamics 365 Business Central released cumulative updates in December 2025 across multiple versions (BC27, BC26, BC25, BC24) with new sandbox environment management features and flexible update policies. The post provides version numbers, release dates, and lifecycle support information for all active and end-of-life versions.",
+  "key_points": [
+    "BC27.2 (2025 wave 2) introduces managing production and sandbox environments in the Admin Center with platform version 27.0.42930.0",
+    "BC25 (2024 wave 2) changes major update cycle from 30-60 days to 5 months and makes minor updates optional",
+    "Multiple versions released in December: BC27 CU02, BC26 CU08, BC25 CU14, and BC24 CU18 (end of life)",
+    "2025 release wave 2 (BC27) is supported until April 6, 2027 under Modern Lifecycle Policy",
+    "New customers automatically enroll in BC27.2 while existing customers receive email notifications for available updates"
+  ],
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "cumulative update",
+    "release management",
+    "version lifecycle",
+    "environment management",
+    "sandbox",
+    "on-premises",
+    "saas"
+  ],
+  "objects": [],
+  "features": [
+    "Managing Production and Sandbox Environments in Admin Center",
+    "Flexible environment update management",
+    "Optional minor updates",
+    "Extended update cycles"
+  ],
+  "versions": [
+    "27.2",
+    "27.x",
+    "26.8",
+    "25.14",
+    "24.18",
+    "2025 release wave 2",
+    "2025 release wave 1",
+    "2024 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "New customers will automatically sign up for Business Central 2025 wave 2 (BC27.2).",
+      "why_it_matters": "Shows the default enrollment strategy for new organizations and the push toward latest versions"
+    },
+    {
+      "text": "Manage environment updates more flexibly - Major update: 30(60) days -> 5-month and Optional minor updates",
+      "why_it_matters": "Indicates significant policy change giving customers more control over update timing and reduces forced update pressure"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

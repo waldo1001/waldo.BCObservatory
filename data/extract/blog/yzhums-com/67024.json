@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/67024",
+  "url": "https://yzhums.com/67024/",
+  "title": "Regarding the recent problem I encountered when opening Power Apps with Zscaler",
+  "source": "yzhums-com",
+  "published_at": "2025-08-28T01:51:05.000Z",
+  "words": 2771,
+  "summary": "Power Apps customizations may fail to run on end-user machines when Zscaler security software is deployed, causing ProxyError and script loading errors during Go-Live despite working in UAT environments.",
+  "key_points": [
+    "Zscaler Client Connector can block Power Apps from running on end-user PCs",
+    "Issue does not affect all custom Power Apps, only some",
+    "Works in development and UAT but fails during Go-Live on user machines with Zscaler",
+    "ProxyError and script loading errors indicate Zscaler intervention blocking access to required resources",
+    "Zscaler provides internet security through traffic inspection and policy enforcement"
+  ],
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "power apps",
+    "zscaler",
+    "security",
+    "troubleshooting",
+    "integration",
+    "go-live"
+  ],
+  "objects": [],
+  "features": [
+    "Power Apps customization",
+    "Zscaler Internet Access",
+    "Zscaler Private Access",
+    "Zscaler Digital Experience",
+    "Zscaler Endpoint DLP"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "During Go-Live, we discovered that some customized apps (Not all) wouldn't run on the end-user PCs.",
+      "why_it_matters": "Highlights the specific environment where the problem manifests, helping implementers recognize the pattern during their own deployments."
+    },
+    {
+      "text": "We later discovered that the user had used Zscaler.",
+      "why_it_matters": "Identifies the root cause, enabling teams to check for security proxies when troubleshooting Power Apps failures."
+    },
+    {
+      "text": "Your organization has selected Zscaler to protect you from internet threats.",
+      "why_it_matters": "The actual error message shown to users, helping teams identify Zscaler involvement from error logs."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.021954,
+    "posts_in_call": 2
+  }
+}

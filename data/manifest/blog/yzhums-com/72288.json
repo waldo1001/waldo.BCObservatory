@@ -7,15 +7,39 @@
   "url": "https://yzhums.com/72288/",
   "published_at": "2026-04-17T00:52:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-25T18:50:16.289Z"
+    },
+    "fetched": {
+      "at": "2026-10-26T08:09:12.041Z",
+      "path": "vault:posts/yzhums-com/72288.md",
+      "words": 253
+    },
+    "extracted": {
+      "at": "2026-10-26T08:09:12.054Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-26T08:09:12.056Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-26T08:09:12.057Z"
+    },
+    "published": {
+      "at": "2026-10-26T08:09:12.070Z",
+      "path": "content/posts/yzhums-com/72288.md"
     }
   },
   "input_hash": "2026-04-17T00:52:40.000Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "fetch failed",
-  "retry_after": "2026-10-26T07:33:55.880Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b8fc972c0f6877acfa70ce8abac48ad09ea988f17b209a864d1f79ca4c5f2149"
 }

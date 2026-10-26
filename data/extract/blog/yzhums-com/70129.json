@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/70129",
+  "url": "https://yzhums.com/70129/",
+  "title": "Dynamics 365 Business Central: How to check if the time zone supports daylight saving time (DST) via AL",
+  "source": "yzhums-com",
+  "published_at": "2026-01-23T01:26:55.000Z",
+  "words": 346,
+  "summary": "This post explains how to check whether a time zone supports daylight saving time (DST) in Business Central using AL code. It demonstrates using the TimeZoneSupportsDaylightSavingTime method from codeunit 8720 to determine DST support and includes a practical page extension example.",
+  "key_points": [
+    "Business Central stores all DateTime fields as UTC and converts them to user-specified time zones in the UI",
+    "The standard Time Zone table does not include daylight saving time information",
+    "Use codeunit 8720 'Time Zone' method TimeZoneSupportsDaylightSavingTime to check DST support for a time zone ID",
+    "The example shows adding a DST support field to the Time Zones Lookup page using a page extension"
+  ],
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "daylight saving time",
+    "time zones",
+    "al development",
+    "datetime handling",
+    "user settings"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Time Zone"
+    },
+    {
+      "type": "codeunit",
+      "name": "Time Zone"
+    },
+    {
+      "type": "page",
+      "name": "Time Zones Lookup"
+    }
+  ],
+  "features": [
+    "daylight saving time checking",
+    "time zone management",
+    "datetime conversion",
+    "page extensions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "the standard Time Zone table does not include daylight saving time (DST). Is there a way to display it?",
+      "why_it_matters": "This identifies the problem that the solution addresses"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

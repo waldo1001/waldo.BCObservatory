@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/72288",
+  "url": "https://yzhums.com/72288/",
+  "title": "Dynamics 365 Business Central: How to display a custom Application Version (e.g., from W1 28.0 to YUN ZHU 28.0)",
+  "source": "yzhums-com",
+  "published_at": "2026-04-17T00:52:38.000Z",
+  "words": 253,
+  "summary": "Display a custom Application Version in Business Central by subscribing to the GetApplicationVersion event in codeunit 2000000001 Version Triggers. This technique allows you to modify the version string shown in Help & Support, useful for adding company names or custom identifiers to the default version display.",
+  "key_points": [
+    "Subscribe to the GetApplicationVersion event in codeunit 2000000001 Version Triggers to customize the application version text",
+    "The Help & Support page shows the standard version format like W1 28.0 with platform and application build numbers",
+    "Use codeunit 9015 Application System Constants to retrieve the original version string programmatically",
+    "Best practice is to append custom text to the original application version rather than replacing it entirely"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "version display",
+    "event subscribers",
+    "al coding",
+    "system constants",
+    "customization"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Version Triggers"
+    },
+    {
+      "type": "codeunit",
+      "name": "Application System Constants"
+    }
+  ],
+  "features": [
+    "custom application version",
+    "event subscription",
+    "version information"
+  ],
+  "versions": [
+    "28.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Did you know that we can display a custom Application Version?",
+      "why_it_matters": "Introduces the capability to modify the version string displayed to users in Business Central"
+    },
+    {
+      "text": "This is achieved by leveraging the following event. codeunit 2000000001 \"Version Triggers\" -> procedure GetApplicationVersion",
+      "why_it_matters": "Specifies the exact event and codeunit developers must use to implement custom version display"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

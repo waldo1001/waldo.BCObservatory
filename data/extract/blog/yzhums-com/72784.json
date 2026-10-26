@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/yzhums-com/72784",
+  "url": "https://yzhums.com/72784/",
+  "title": "Dynamics 365 Business Central: Microsoft now displays the full name of the Country/Region when creating a new environment",
+  "source": "yzhums-com",
+  "published_at": "2026-05-11T01:16:07.000Z",
+  "words": 299,
+  "summary": "The Business Central Admin Center now displays the full country/region name instead of abbreviations when creating new environments. This improvement simplifies environment setup by eliminating the need to reference external mapping tables to understand country codes.",
+  "key_points": [
+    "Business Central Admin Center now shows full country/region names during environment creation instead of abbreviations",
+    "The country selection determines both the localization and Azure region for the environment",
+    "Administrators can create environments for any supported country/region in any available version",
+    "Manual input is supported for country selection"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "environment management",
+    "admin center",
+    "country/region selection",
+    "localization",
+    "ui improvement"
+  ],
+  "objects": [],
+  "features": [
+    "Environment creation",
+    "Country/region selection",
+    "Full name display",
+    "Manual input support"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The specified country determines the localization for the environment and the Azure region in which the environment is created and stored",
+      "why_it_matters": "Shows the practical impact of country selection on environment configuration and infrastructure"
+    },
+    {
+      "text": "Now it finally displays the full name instead of just showing the Environment country/region abbreviation",
+      "why_it_matters": "Emphasizes the usability improvement made in the Admin Center interface"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "item_id": "blog/yzhums-com/73165",
+  "url": "https://yzhums.com/73165/",
+  "title": "Business Central 2026 release wave 1 (BC28.1): Expense Management module (Manage employee expenses)",
+  "source": "yzhums-com",
+  "published_at": "2026-05-22T04:40:23.000Z",
+  "words": 5454,
+  "summary": "Business Central 2026 wave 1 introduces a new native Expense Management module that enables employees to create, submit, and track expense reports with support for receipts, itemization, mileage, and per diem calculations. Administrators configure expense categories, payment methods, rules, locations, and approvers to manage employee reimbursements directly within the system without external integrations.",
+  "key_points": [
+    "Expense Management is a brand-new module addressing Business Central's inability to handle employee expenses natively, reducing reliance on external solutions",
+    "The feature supports comprehensive expense workflows including capture, approval, posting to general ledger, and reimbursement processing with built-in rule enforcement",
+    "Setup requires configuring expense categories with posting groups, payment methods, rules by location, mileage and per diem rates, and approver relationships",
+    "Employees can create expenses with itemization, participants, mileage details, and per diem calculations based on business rules and locations",
+    "Expense Reports group multiple expenses for submission and approval, with optional workflow enforcement and automatic posting to general ledger"
+  ],
+  "systems": [
+    "finance",
+    "hr",
+    "integration"
+  ],
+  "topics": [
+    "expense management",
+    "employee reimbursement",
+    "expense reports",
+    "approval workflows",
+    "per diem",
+    "mileage",
+    "receipt management"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Expense Reports"
+    },
+    {
+      "type": "other",
+      "name": "Expense Agent Setup"
+    },
+    {
+      "type": "other",
+      "name": "Expense Locations"
+    },
+    {
+      "type": "other",
+      "name": "Expense Management Rules"
+    },
+    {
+      "type": "other",
+      "name": "Expenses"
+    },
+    {
+      "type": "other",
+      "name": "Expense Users"
+    },
+    {
+      "type": "other",
+      "name": "Expense Categories"
+    },
+    {
+      "type": "other",
+      "name": "Expense Approval Setup"
+    }
+  ],
+  "features": [
+    "Expense Reports",
+    "Expense Categories and Subcategories",
+    "Mileage Tracking and Reimbursement",
+    "Per Diem Allowances",
+    "Expense Rules and Validation",
+    "Receipt Attachment and Processing",
+    "Expense Itemization",
+    "Approval Workflows"
+  ],
+  "versions": [
+    "2026 wave 1 (BC28.1)",
+    "May 2026"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With native expense reports, you can capture, approve, and reimburse employee expenses directly within Business Central.",
+      "why_it_matters": "Demonstrates the core value proposition of eliminating external solutions for expense management and enabling seamless integration with finance operations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

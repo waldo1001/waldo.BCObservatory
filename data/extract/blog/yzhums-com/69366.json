@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/69366",
+  "url": "https://yzhums.com/69366/",
+  "title": "Dynamics 365 Business Central: To automatically delete archived versions (For example, have 10 versions and want to keep a copy of the latest)",
+  "source": "yzhums-com",
+  "published_at": "2026-01-07T00:56:35.000Z",
+  "words": 649,
+  "summary": "Business Central allows you to automatically delete archived versions of sales, purchase, and service documents using retention policies, while optionally keeping the most recent version. Retention policies help administrators manage data cleanup by deleting archived documents past their expiration date based on the most recent archived version's date.",
+  "key_points": [
+    "Archive sales, purchase, service, and project documents automatically when documents are changed, deleted, printed, emailed, or posted",
+    "Use retention policies to automatically delete old archived versions while keeping the most recent one",
+    "Original documents must be deleted before their archived versions can expire; archived versions don't expire if the original still exists",
+    "Specify retention periods and define which archive tables to include in cleanup policies from the setup page"
+  ],
+  "systems": [
+    "sales",
+    "purchasing",
+    "projects"
+  ],
+  "topics": [
+    "archiving",
+    "document management",
+    "retention policies",
+    "data cleanup",
+    "automation"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Header Archive"
+    }
+  ],
+  "features": [
+    "Automatic document archiving",
+    "Retention policies",
+    "Manual archiving",
+    "Archive cleanup",
+    "Document restoration",
+    "Version management"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "If the original document isn't deleted, Business Central you can't delete the archived versions.",
+      "why_it_matters": "This is a critical constraint when setting up retention policies; original documents must be removed before archives can expire"
+    },
+    {
+      "text": "When you set up the retention policy, you can specify that you want the policy to delete all archived versions except the most recent.",
+      "why_it_matters": "This capability directly addresses the user requirement to keep only the latest version while cleaning up historical archives"
+    },
+    {
+      "text": "Retention policies let administrators define how long they want to store data.",
+      "why_it_matters": "Core feature that enables automated cleanup without manual intervention, reducing storage and maintaining compliance"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
