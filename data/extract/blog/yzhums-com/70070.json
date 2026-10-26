@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/70070",
+  "url": "https://yzhums.com/70070/",
+  "title": "Dynamics 365 Business Central: Analyzing performance issues using the page inspector",
+  "source": "yzhums-com",
+  "published_at": "2026-01-20T01:25:21.000Z",
+  "words": 377,
+  "summary": "The page inspector in Business Central helps diagnose performance issues by displaying details about page design, elements, and data sources. It particularly shows which extensions affect a page and how long they take to execute, accessible via Help & Support or Ctrl+Alt+F1.",
+  "key_points": [
+    "Page inspector reveals page design, elements, and data sources behind pages",
+    "Extensions tab shows installed extensions affecting the page with execution time in milliseconds and event subscriber counts",
+    "Four extension types are categorized: adds page, extends page, adds table, extends table",
+    "Performance information displays execution time and number of event subscribers per extension"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "performance",
+    "diagnostics",
+    "page inspection",
+    "extensions",
+    "troubleshooting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Help & Support"
+    },
+    {
+      "type": "other",
+      "name": "page extension"
+    },
+    {
+      "type": "other",
+      "name": "table extension"
+    }
+  ],
+  "features": [
+    "page inspector",
+    "Extensions tab",
+    "performance analysis",
+    "page design inspection",
+    "event subscriber tracking",
+    "execution time monitoring"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "If a specific page takes too long to load, it might be due to extensions that are adding expensive operations to the page triggers.",
+      "why_it_matters": "Identifies the common cause of performance issues that page inspector can help diagnose"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

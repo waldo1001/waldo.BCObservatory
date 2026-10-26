@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/69978",
+  "url": "https://yzhums.com/69978/",
+  "title": "Dynamics 365 Business Central: How to get the Month Name/Text from a date (Two ways)",
+  "source": "yzhums-com",
+  "published_at": "2026-01-16T01:37:56.000Z",
+  "words": 533,
+  "summary": "The post explains three methods to extract the month name from a date in Business Central: using the Format() method with date format codes, querying the Date virtual table (ID 2000000007), and using new Date methods available in BC25.",
+  "key_points": [
+    "Format() method with '<Month Text>' format code extracts full or abbreviated month names from any date",
+    "Date virtual table provides Period Name field containing month names based on period type",
+    "New Date/Time methods in BC25 allow simple month extraction using built-in functions",
+    "Each approach suits different scenarios: formatting for display, virtual table for complex date logic, new methods for simplicity"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "date handling",
+    "text formatting",
+    "virtual tables",
+    "al code",
+    "extension",
+    "month extraction"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Date"
+    }
+  ],
+  "features": [
+    "Format() method",
+    "Date virtual table",
+    "Date/Time methods",
+    "Period Name field",
+    "Month Text format code"
+  ],
+  "versions": [
+    "Business Central 2024 wave 2 (BC25)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The Date virtual table (ID 2000000007) in Business Central gives you easy access to days, weeks, months, quarters, and years.",
+      "why_it_matters": "Explains the core capability of the Date virtual table for date period operations"
+    },
+    {
+      "text": "we can just use Format(Rec.\"Posting Date\", 0, '<Month Text>').",
+      "why_it_matters": "Shows the simplest Format() syntax for extracting month names from dates"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

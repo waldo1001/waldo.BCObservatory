@@ -1,0 +1,75 @@
+{
+  "item_id": "blog/yzhums-com/69896",
+  "url": "https://yzhums.com/69896/",
+  "title": "Dynamics 365 Business Central: How to add Notes (System Parts) from FactBox to a report",
+  "source": "yzhums-com",
+  "published_at": "2026-01-14T01:31:45.000Z",
+  "words": 703,
+  "summary": "The post explains how to retrieve Notes stored in the Record Link system table and display them in Business Central reports. It demonstrates using the Record Link Management codeunit and AL code to read note blobs and add them to a report extension.",
+  "key_points": [
+    "Notes, Links, and Summary are system parts defined using the systempart() keyword in pages",
+    "Notes data is stored in system table 2000000068 Record Link as a Blob type associated through Record ID",
+    "Use codeunit 447 Record Link Management and its ReadNote procedure to convert note blobs to text for reporting",
+    "Report extensions can filter notes by Record ID and Type to display them in layouts"
+  ],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "notes",
+    "factbox",
+    "system parts",
+    "record links",
+    "reports",
+    "al code"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Record Link"
+    },
+    {
+      "type": "codeunit",
+      "name": "Record Link Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Type Helper"
+    },
+    {
+      "type": "report",
+      "name": "Standard Sales – Order Conf."
+    }
+  ],
+  "features": [
+    "Notes system part",
+    "FactBox",
+    "Record Link storage",
+    "Blob data handling",
+    "Report extensions",
+    "Multi-line text fields"
+  ],
+  "versions": [
+    "2025 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The note is stored in a Blob. Microsoft has prepared a standard conversion method for us in codeunit 447 Record Link Management.",
+      "why_it_matters": "Explains why you need special handling to retrieve notes and which codeunit provides the solution"
+    },
+    {
+      "text": "Please try to use the standard method for better performance.",
+      "why_it_matters": "Recommends best practice for reading note data instead of using InStream directly"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

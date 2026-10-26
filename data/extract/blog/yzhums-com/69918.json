@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/yzhums-com/69918",
+  "url": "https://yzhums.com/69918/",
+  "title": "Dynamics 365 Business Central: Cancelling a scheduled PTE update install (Next Major/Next Minor)",
+  "source": "yzhums-com",
+  "published_at": "2026-01-13T02:10:08.000Z",
+  "words": 464,
+  "summary": "The post explains how to cancel a scheduled app update when deploying to the next version in Business Central. Since the Extension Installation Status page lacks a cancel action, the solution is to upload the same app version again to overwrite the scheduled installation details.",
+  "key_points": [
+    "Re-uploading the same app version overwrites the original schedule and cancels the pending installation",
+    "Extension Management page handles app deployment with options for current, next minor, or next major version deployment",
+    "Deployment Status page shows installation progress but offers no direct cancel action",
+    "Business Central 2023 wave 2 introduced Apps Update Cadence for automatic minor updates and scheduled app updates"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "app deployment",
+    "extension management",
+    "update scheduling",
+    "pte updates",
+    "admin center"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Extension Management"
+    },
+    {
+      "type": "page",
+      "name": "Extension Installation Status"
+    }
+  ],
+  "features": [
+    "Apps Update Cadence",
+    "Extension Upload",
+    "Deployment Status",
+    "Schema Sync Mode",
+    "App Uninstall"
+  ],
+  "versions": [
+    "BC23",
+    "BC29"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "It's actually very simple, just upload same version again. This will overwrite the original schedule details.",
+      "why_it_matters": "Provides the direct solution to cancel scheduled app updates without a native cancel action"
+    },
+    {
+      "text": "Microsoft is introducing an environment-level setting that automatically updates all installed apps with every minor update, and lets you schedule individual app updates.",
+      "why_it_matters": "Explains the Apps Update Cadence feature that changed how app updates are managed starting in BC23"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

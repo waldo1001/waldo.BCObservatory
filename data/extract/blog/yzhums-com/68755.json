@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/yzhums-com/68755",
+  "url": "https://yzhums.com/68755/",
+  "title": "Dynamics 365 Business Central: How to add or subtract hours from a DateTime field",
+  "source": "yzhums-com",
+  "published_at": "2026-01-21T01:47:48.000Z",
+  "words": 269,
+  "summary": "Adding or subtracting hours from DateTime fields in Business Central can be done using the AddHoursToDateTime procedure from the Type Helper codeunit. This is useful for timezone conversions and date-time manipulations in AL code.",
+  "key_points": [
+    "The Type Helper codeunit provides an AddHoursToDateTime procedure for simple hour arithmetic on DateTime fields",
+    "Pass positive values to add hours and negative values to subtract hours",
+    "This method is simpler than working with Duration data type when you only need to adjust hours",
+    "Timezone conversions can be achieved by adding or subtracting hours based on the offset between UTC and the target timezone"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "datetime",
+    "type helper",
+    "al code",
+    "duration",
+    "timezone conversion"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Type Helper"
+    }
+  ],
+  "features": [
+    "DateTime manipulation",
+    "AddHoursToDateTime procedure",
+    "timezone conversion",
+    "Duration data type"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "DateTime - Duration = DateTime, DateTime + Duration = DateTime",
+      "why_it_matters": "Explains the fundamental operations for working with DateTime and Duration data types in AL"
+    },
+    {
+      "text": "if you only need to add or subtract hours from a DateTime field, there's an even simpler method",
+      "why_it_matters": "Highlights that AddHoursToDateTime is a convenient alternative to Duration calculations for hour-only adjustments"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

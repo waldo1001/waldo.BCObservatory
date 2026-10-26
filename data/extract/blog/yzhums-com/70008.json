@@ -1,0 +1,85 @@
+{
+  "item_id": "blog/yzhums-com/70008",
+  "url": "https://yzhums.com/70008/",
+  "title": "Dynamics 365 Business Central: Add a Scan Barcode action and scan multiple/Continious scanning (Invoke barcode scanning programmatically from AL)",
+  "source": "yzhums-com",
+  "published_at": "2026-01-15T04:38:03.000Z",
+  "words": 1312,
+  "summary": "Business Central version 24 introduced barcode scanning APIs using control add-ins to replace .NET-based APIs, enabling developers to add scan actions and continuous scanning to custom pages via the CameraBarcodeScannerProviderAddIn control add-in.",
+  "key_points": [
+    "Version 24 provides control add-in based APIs for barcode scanning, replacing deprecated .NET APIs",
+    "Use CameraBarcodeScannerProviderAddIn control add-in to add barcode scanning buttons and actions to custom pages",
+    "Implement BarcodeAvailable and BarcodeFailure event triggers to handle scan results and error cases",
+    "Call RequestBarcodeAsync() method to initiate single or continuous scanning; re-call in BarcodeAvailable trigger for continuous mode"
+  ],
+  "systems": [
+    "sales",
+    "warehouse",
+    "development"
+  ],
+  "topics": [
+    "barcode scanning",
+    "control add-ins",
+    "mobile app",
+    "al development",
+    "api"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "CameraBarcodeScannerProviderAddIn"
+    },
+    {
+      "type": "enum",
+      "name": "BarcodeFailure"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Lot No. Information"
+    }
+  ],
+  "features": [
+    "Barcode scanning via camera",
+    "Control add-in based APIs",
+    "Continuous scanning",
+    "Mobile app barcode support",
+    "RequestBarcodeAsync method",
+    "ControlAddInReady event",
+    "BarcodeAvailable event"
+  ],
+  "versions": [
+    "2023 wave 2",
+    "24"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Version 24 introduced barcode scanning APIs based on control add-ins to replace the .NET-based APIs.",
+      "why_it_matters": "Marks the shift to the recommended approach for implementing barcode scanning in custom extensions"
+    },
+    {
+      "text": "This means we can add scan barcode actions and multiple scanning functions to our own extensions.",
+      "why_it_matters": "Enables developers to create custom barcode scanning capabilities beyond standard Business Central functionality"
+    },
+    {
+      "text": "Enabling multiple scans is also very simple; just remove the comments from step 5 in the sample.",
+      "why_it_matters": "Shows that continuous scanning requires minimal code changes, making it practical for real-world scenarios"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

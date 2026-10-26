@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/yzhums-com/70137",
+  "url": "https://yzhums.com/70137/",
+  "title": "Dynamics 365 Business Central: Adding comments to Factbox/Report (Displaying Comments in a FactBox/Report)",
+  "source": "yzhums-com",
+  "published_at": "2026-01-22T02:32:53.000Z",
+  "words": 523,
+  "summary": "Adding comments to FactBox and reports in Business Central lets users attach contextual information to sales orders and other documents. The post shows how to display sales comments in a ListPart page extension and in reports using report extensions with dataitem linking.",
+  "key_points": [
+    "Comments in Business Central capture extra information on cards and documents, with a limit of 80 characters per comment field.",
+    "Comments on documents automatically transfer to related posted documents, and transfer rules can be configured in Sales & Receivables settings.",
+    "To display comments in a FactBox, create a ListPart page for Sales Comment Line and add it to the Sales Order page extension using SubPageLink.",
+    "Report extensions can add sales comment lines directly as dataitems linked to the header by Document Type and No., enabling comment display in printed reports."
+  ],
+  "systems": [
+    "sales",
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "comments",
+    "factbox",
+    "sales orders",
+    "report extension",
+    "page extension",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Comment Line"
+    },
+    {
+      "type": "page",
+      "name": "Sales Comment Sheet"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "report",
+      "name": "Standard Sales - Order Conf."
+    }
+  ],
+  "features": [
+    "comments feature",
+    "factbox display",
+    "report extensions",
+    "page extensions",
+    "comment transfer rules",
+    "document comments"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Comments on ongoing documents are transferred to the related posted document.",
+      "why_it_matters": "This shows how Business Central automatically maintains comment information throughout the document lifecycle, reducing manual re-entry work."
+    },
+    {
+      "text": "The Comment field has a length limit of 80 characters, Comment (6, Text[80]).",
+      "why_it_matters": "Understanding this constraint is critical for developers designing comment capture interfaces and validating user input."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

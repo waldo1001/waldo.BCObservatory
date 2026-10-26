@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/69809",
+  "url": "https://yzhums.com/69809/",
+  "title": "Dynamics 365 Business Central: Make sure to generate the permission set file before installing your extension",
+  "source": "yzhums-com",
+  "published_at": "2026-01-08T01:40:01.000Z",
+  "words": 428,
+  "summary": "Permission set files must be generated for AL extensions so non-Super users can access customized pages and reports. Without a permission set, only Super users see new objects, and production deployments will fail validation if permissions are missing.",
+  "key_points": [
+    "Generate permission set files explicitly using AL commands; they do not update automatically when new objects are added",
+    "UsageCategory and ApplicationArea properties alone are insufficient; a permission set must be included with extensions",
+    "Production environments enforce permission set requirements and block extension installation if permissions are missing",
+    "Code Analysis with PerTenantExtensionCop analyzer can detect missing permission sets during development"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "permission sets",
+    "al extensions",
+    "object permissions",
+    "tell me search",
+    "super user"
+  ],
+  "objects": [
+    {
+      "type": "permissionset",
+      "name": "Permission Sets"
+    }
+  ],
+  "features": [
+    "UsageCategory property",
+    "ApplicationArea property",
+    "permission set generation command",
+    "PerTenantExtensionCop analyzer",
+    "Package validation"
+  ],
+  "versions": [
+    "Business Central 2022 wave 2 (BC21)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "If you don't include a permission set with your extension, only users with the SUPER permission set will be able to use the extension.",
+      "why_it_matters": "Explains the root cause of why non-Super users cannot access customized features without explicit permissions"
+    },
+    {
+      "text": "Please make sure that the permission file has been generated.",
+      "why_it_matters": "The core directive for developers to resolve the issue of limited feature visibility"
+    },
+    {
+      "text": "This file will not update automatically. If you add new objects, please update this file using the same command.",
+      "why_it_matters": "Critical to understand that permission sets require manual updates when extensions are modified"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

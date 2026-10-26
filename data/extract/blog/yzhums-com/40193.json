@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/yzhums-com/40193",
+  "url": "https://yzhums.com/40193/",
+  "title": "Dynamics 365 Business Central: Version Data Type (Major.Minor.Build.Revision)",
+  "source": "yzhums-com",
+  "published_at": "2026-01-09T01:13:52.000Z",
+  "words": 450,
+  "summary": "The Version data type in Business Central stores version numbers in Major.Minor.Build.Revision format and provides methods to create and retrieve version components. Administrators use version information for troubleshooting and environment management, while developers use the Version data type to handle version numbers programmatically in AL code.",
+  "key_points": [
+    "Version data type stores version numbers matching Major.Minor.Build.Revision format with optional Build and Revision components",
+    "Static methods Create() allow building version objects from text strings or individual integer parameters",
+    "Instance methods Major(), Minor(), Build(), Revision() and ToText() retrieve specific version components",
+    "Version data type cannot be used directly as a table field or page variable",
+    "Version information helps administrators troubleshoot issues and manage environment updates"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "version data type",
+    "al development",
+    "version numbers",
+    "troubleshooting",
+    "administration"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Application System Constants"
+    }
+  ],
+  "features": [
+    "Version data type",
+    "Create method with text string",
+    "Create method with integer parameters",
+    "Major() method",
+    "Minor() method",
+    "Build() method",
+    "Revision() method",
+    "ToText() method"
+  ],
+  "versions": [
+    "2025 wave 2",
+    "27",
+    "27.0",
+    "27.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Version data type: Represents a version matching the format: Major.Minor.Build.Revision.",
+      "why_it_matters": "Defines the exact structure and purpose of the Version data type that developers use in AL code"
+    },
+    {
+      "text": "If you're an administrator, knowing the version numbers is important for troubleshooting, development, and on-premises upgrade scenarios.",
+      "why_it_matters": "Explains why understanding versions matters for system administrators managing Business Central environments"
+    },
+    {
+      "text": "Version Data Type cannot be directly used as a table field.",
+      "why_it_matters": "Important limitation developers need to know when designing their data structures"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
