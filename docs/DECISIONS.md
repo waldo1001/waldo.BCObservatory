@@ -1328,3 +1328,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   video's or post's own title (shown verbatim by design; counted as `title_runs`) or inside Learn's title with its
   description (`readOfficialText`); derived text around a title still counts. Verified on the blocked tree on the Mini:
   0 findings (10 title runs, 41 official runs). Tests in `tests/unit/validate.test.ts`.
+- **D121 The per-item leak guard exempts the item's own title; post leak skips are retried (2026-10-26).** Amends D55
+  and extends D120 to the guard that runs before the gate. yzhums.com 75873 ("Business Central 2026 release wave 2
+  (BC29): Developers can define indexes that span fields ...", 35 words) was skipped at `published` with `skip: leak`:
+  `policyCheckedPage` found its title on its own page, nothing was left to scrub, so no page. `repeatChecker` takes
+  the item's own strings (`own`, its title) and a run inside one is no repeat, in the render and the extract guard;
+  derived text that repeats the post still is. The nightly's D33 revival (two more chances from the last completed
+  stage) now covers `blog` as well as `video`, so posts skipped before this fix come back without a manual step.
+  Tests in `tests/unit/blog-posts.test.ts`.

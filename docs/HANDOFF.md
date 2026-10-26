@@ -41,6 +41,11 @@ questions in its section 12).
   2026-10-26 were blocked by false positives (long yzhums titles quoted in his roundups; a Learn title with its
   description). Watch the next run: the big yzhums run had 69 findings, of which only the 11 of the scheduled run's
   tree were verified gone; if another kind remains, read it on the Mini (RUNBOOK leak-gate note).
+- **A post's own title no longer gets it skipped (D121).** The per-item guard (render and extract) skipped yzhums 75873,
+  whose 35-word title is on its page. It now exempts the item's own title like the gate does (D120), and post leak
+  skips get the two retries videos had (D33): demiliani 13020, bertverbeek 1252 and two thatnavguy tips re-render on
+  the next full run. yzhums after two unlimited runs: 386 of 389 published; 73637 retries after a "fetch failed"; the
+  Japanese post stays skipped.
 
 **Shipped 2026-10-25 (sources only; readers see it after the ingest run):**
 - **yzhums.com is switched on (D119, M56, issue #51); derived mode needs no consent.** 389 posts inside the window.

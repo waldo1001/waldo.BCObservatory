@@ -255,6 +255,8 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       if (captionRetryDue(item, now)) { manifest.save(reviveForCaptions(item)); revived++; }
       else if (leakRetryDue(item)) manifest.save(reviveFromLeak(item));
     }
+    // D121: a post skipped for repeating its own title gets its retries too (no model call: it re-renders)
+    for (const item of manifest.list("blog")) if (leakRetryDue(item)) manifest.save(reviveFromLeak(item));
     if (revived) log.info(`captions: ${revived} no-captions videos retried`);
     report.captions_retried = revived;
     const quotas = capQuotas(scaleQuotas(opts.unlimited ? unlimitedQuotas(cfg.quotas) : cfg.quotas, guard), opts.quota);

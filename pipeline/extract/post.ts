@@ -138,7 +138,7 @@ export async function extractPosts(items: ManifestItem[], full: (source: string)
         // the whole extraction, quotes included, like the video guard (D25/D33): a quote's own text is already at
         // most QUOTE_MAX_WORDS so it is never trimmed, but `why_it_matters` is free text and used to slip through.
         // The re-check on the serialized whole catches runs that only appear once the fields sit next to each other.
-        const check = repeatChecker(text);
+        const check = repeatChecker(text, [u.item.title ?? ""]);
         const s = scrubRepeats(x, check);
         if (check(JSON.stringify(s.value))) { results.set(u.item.id, new StillRepeats(u.item.id)); continue; }
         x = { ...s.value, trimmed_for_policy: s.trimmed };

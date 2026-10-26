@@ -107,12 +107,16 @@ export function forEachShingle(words: string[], fn: (key: number, start: number)
 export function repeatsRun(raw: string, derived: string): string | null {
   return repeatChecker(raw)(derived);
 }
-/** repeatsRun with the raw text indexed once, for checking many strings against the same source. */
-export function repeatChecker(raw: string): (derived: string) => string | null {
+/**
+ * repeatsRun with the raw text indexed once, for checking many strings against the same source. `own`: the item's
+ * own metadata (its title), which a page names as the item, not as copied text; a run inside one is no repeat (D121).
+ */
+export function repeatChecker(raw: string, own: string[] = []): (derived: string) => string | null {
   const rw = leakWords(raw);
   const index = new Set<number>();
   forEachShingle(rw, (k) => { index.add(k); });
   const hay = ` ${rw.join(" ")} `;
+  const mine = own.map((t) => ` ${leakWords(t).join(" ")} `);
   return (derived: string) => {
     if (!index.size) return null;
     const dw = leakWords(derived);
@@ -121,6 +125,7 @@ export function repeatChecker(raw: string): (derived: string) => string | null {
       if (!index.has(k)) return;
       const run = dw.slice(start, start + SHINGLE).join(" ");
       if (!hay.includes(` ${run} `)) return;
+      if (mine.some((t) => t.includes(` ${run} `))) return;
       hit = run;
       return true;
     });

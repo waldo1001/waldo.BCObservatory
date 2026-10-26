@@ -96,7 +96,7 @@ export function policyCheckedPage(item: ManifestItem, x: PostExtraction, src: Po
   let page = renderPostPage(item, x, src, now, preview, index, xlinks, cautions);
   const rawPath = postRawPath(item);
   if (src.full_text || !exists(rawPath)) return page;
-  const check = repeatChecker(readText(rawPath));
+  const check = repeatChecker(readText(rawPath), [item.title ?? ""]);
   if (!check(page)) return page;
   // D106: cautions are quotes too; when the page repeats the post with them, it goes on without them
   if (cautions.length) { cautions = []; page = renderPostPage(item, x, src, now, preview, index, xlinks, cautions); if (!check(page)) return page; }

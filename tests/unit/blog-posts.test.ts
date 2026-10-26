@@ -154,10 +154,13 @@ test("a page that repeats the post across the title seam is scrubbed, and skippe
     assert.ok(page, "the page is published");
     assert.equal(repeatChecker(raw)(page!), null, "and it does not repeat");
     assert.match(page!, /# Business Central[\s\S]*Read the post[\s\S]*> the agent profile/, "byline between title and summary");
-    // when the title alone already carries the run there is nothing left to scrub: no page at all
+    // a title of 25+ words is the post's own name, not copied text (D121): the page is published with it
     const long = { ...x, title: `${TITLE} ${TAIL}`, summary: "Short." };
     const it2 = item({ id: it.id, source: it.source, title: `${TITLE} ${TAIL}` });
-    assert.equal(policyCheckedPage(it2, long, src, new Date()), null, "no page rather than a leaking page");
+    assert.ok(policyCheckedPage(it2, long, src, new Date()), "its own long title is no leak");
+    // derived text that repeats the post is still one, and when scrubbing cannot fix it there is no page at all
+    const copied = { ...x, summary: `${TITLE} ${TAIL}`, key_points: [`${TITLE} ${TAIL}`] };
+    assert.notEqual(repeatChecker(raw, [it.title])(JSON.stringify(copied)), null, "a summary repeating the post is caught");
     // a source that may carry full text is not checked at all
     assert.ok(policyCheckedPage(it2, long, { ...src, full_text: true }, new Date()));
   } finally {
