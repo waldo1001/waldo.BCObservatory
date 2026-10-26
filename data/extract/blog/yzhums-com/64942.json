@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/64942",
+  "url": "https://yzhums.com/64942/",
+  "title": "Dynamics 365 Business Central: How to set a condition on a breakpoint in debugging (Conditional breakpoints)",
+  "source": "yzhums-com",
+  "published_at": "2025-11-06T00:52:46.000Z",
+  "words": 698,
+  "summary": "Conditional breakpoints allow developers to pause code execution only when specified conditions are met during AL debugging in Business Central. This feature lets you filter breakpoints by variable or field values, reducing unnecessary pauses and focusing debugging efforts on specific scenarios.",
+  "key_points": [
+    "Set conditional breakpoints by right-clicking the code margin and selecting Add Conditional Breakpoint, or edit existing breakpoints to add conditions",
+    "Conditions use comparison operators and can evaluate multiple criteria with AND/OR logic, supporting simple types like Text, Integer, and complex types like Array and Record starting in version 26",
+    "Only trigger breakpoints when conditions are true, such as when a specific record number is accessed, avoiding constant stops during irrelevant code flow",
+    "Supported operators include equality, comparison (<, >, <=, >=), logical operators (AND, OR, NOT), and numeric negation"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "debugging",
+    "breakpoints",
+    "al language",
+    "visual studio code",
+    "conditional execution",
+    "development tools"
+  ],
+  "objects": [],
+  "features": [
+    "conditional breakpoints",
+    "AL debugger",
+    "code filtering",
+    "expression evaluation"
+  ],
+  "versions": [
+    "version 26",
+    "Business Central 2023 wave 2",
+    "Business Central 2023 wave 1",
+    "Business Central 2022 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "If the condition evaluates as true, then code execution breaks at the breakpoint. If the condition is false, then code execution continues.",
+      "why_it_matters": "Clarifies the fundamental behavior of conditional breakpoints and how they filter execution pauses based on true/false evaluation."
+    },
+    {
+      "text": "The condition can include any variables or fields that are currently in scope.",
+      "why_it_matters": "Defines the scope of what can be used in conditions, showing flexibility in debugging complex scenarios with multiple variables and fields."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

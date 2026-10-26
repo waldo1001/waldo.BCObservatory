@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/yzhums-com/68854",
+  "url": "https://yzhums.com/68854/",
+  "title": "Dynamics 365 Business Central Blog Series: Debugging in AL",
+  "source": "yzhums-com",
+  "published_at": "2025-11-07T04:03:46.000Z",
+  "words": 792,
+  "summary": "A blog series covering AL debugging techniques in Dynamics 365 Business Central, including snapshot debugging, conditional breakpoints, debugging from the web client, and advanced debugger features for development and troubleshooting.",
+  "key_points": [
+    "Multiple debugging approaches available: snapshot debugging in cloud, conditional breakpoints, publish/debug separation with keyboard shortcuts",
+    "Debugger enhancements include IntelliSense for variables, SQL lock visibility, and ability to exclude try functions and temporary records",
+    "Debugging can be triggered from the web client and attached to specific user sessions or phone/tablet clients",
+    "Advanced features include NonDebuggable attribute to protect methods, debugging upgrade/install code, and connecting to on-premises instances"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "debugging",
+    "al development",
+    "visual studio code",
+    "breakpoints",
+    "snapshot debugging",
+    "troubleshooting"
+  ],
+  "objects": [],
+  "features": [
+    "Snapshot Debugging",
+    "Conditional Breakpoints",
+    "IntelliSense for Variables in Debugger",
+    "SQL Locks Visibility",
+    "NonDebuggable Attribute",
+    "Exclude Try Functions",
+    "Exclude Temporary Records",
+    "Web Client Debugging"
+  ],
+  "versions": [
+    "BC21",
+    "BC22",
+    "BC23"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Debugging Upgrade and Install code in Visual Studio Code",
+      "why_it_matters": "Highlights specialized debugging capability for upgrade and install scenarios, which are critical operations in Business Central deployments"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

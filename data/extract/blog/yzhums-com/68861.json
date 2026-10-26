@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/yzhums-com/68861",
+  "url": "https://yzhums.com/68861/",
+  "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (November, 2025)",
+  "source": "yzhums-com",
+  "published_at": "2025-11-09T23:34:33.000Z",
+  "words": 786,
+  "summary": "Microsoft Dynamics 365 Business Central released November 2025 cumulative updates across multiple versions (BC27, BC26, BC25, BC24) with version 27.1 for 2025 wave 2 introducing flexible environment management in the Admin Center. The post provides version numbers, release dates, and lifecycle support information for all active and end-of-life versions.",
+  "key_points": [
+    "BC27.1 (2025 wave 2) is now available with flexible environment management capabilities in the Admin Center",
+    "BC25 (2024 wave 2) now offers flexible major updates (extended from 30/60 days to 5 months) and optional minor updates",
+    "Multiple versions released: BC27 CU01, BC26 CU07, BC25 CU13, and BC24 CU18 (end of life)",
+    "BC27 support runs from October 1, 2025 to April 6, 2027 under the Modern Lifecycle Policy",
+    "Comprehensive lifecycle information provided for versions BC14 through BC27 with specific start and retirement dates"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "updates",
+    "release notes",
+    "cumulative updates",
+    "version management",
+    "lifecycle",
+    "saas",
+    "on-premises",
+    "2025 wave 2"
+  ],
+  "objects": [],
+  "features": [
+    "Managing Production and Sandbox Environments in Admin Center",
+    "Flexible environment updates",
+    "Optional minor updates",
+    "Extended major update windows"
+  ],
+  "versions": [
+    "27.1",
+    "26.7",
+    "25.13",
+    "24.18",
+    "2025 wave 2",
+    "2025 wave 1",
+    "2024 wave 2",
+    "2024 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Managing Production and Sandbox Environments in the Admin Center",
+      "why_it_matters": "This new capability in BC27.1 allows better control over SaaS environments, improving operational flexibility"
+    },
+    {
+      "text": "Major update: 30(60) days -> 5-month and Optional minor updates",
+      "why_it_matters": "BC25 now provides extended update windows, giving customers more time to plan and test updates before mandatory deployment"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

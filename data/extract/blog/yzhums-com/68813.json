@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/68813",
+  "url": "https://yzhums.com/68813/",
+  "title": "Dynamics 365 Business Central: How to determine whether the current environment is Sandbox or Production",
+  "source": "yzhums-com",
+  "published_at": "2025-11-17T01:07:59.000Z",
+  "words": 637,
+  "summary": "Determining whether a Business Central environment is Sandbox or Production can be done through multiple methods: checking the Help & Support page, using company badges that differ by shape (round for production, square for sandbox), accessing the App Launcher, or using the Environment Information codeunit.",
+  "key_points": [
+    "Production environments are for running daily business operations on performance tiers with high availability, while Sandbox environments are for testing and development",
+    "Environment names may not reliably indicate the actual environment type, requiring verification methods",
+    "The Help & Support page's Report a Problem tab shows the environment type in the Microsoft Extra Tenant ID",
+    "Company badges automatically reflect environment type and appear round for production or square for sandbox",
+    "Alternative technical methods include using the App Launcher or codeunit 457 Environment Information"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "environment type",
+    "sandbox",
+    "production",
+    "company badge",
+    "system indicator",
+    "help and support"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "457 Environment Information"
+    }
+  ],
+  "features": [
+    "Company Badge System Indicator",
+    "Help and Support page",
+    "App Launcher environment view",
+    "Environment Information codeunit"
+  ],
+  "versions": [
+    "2022 wave 2",
+    "BC21"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A round company badge signifies a production environment, and a square badge signifies a sandbox environment.",
+      "why_it_matters": "Provides a quick visual way to identify environment type without admin access"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

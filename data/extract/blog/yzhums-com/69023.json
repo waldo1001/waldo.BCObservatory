@@ -1,0 +1,79 @@
+{
+  "item_id": "blog/yzhums-com/69023",
+  "url": "https://yzhums.com/69023/",
+  "title": "Dynamics 365 Business Central: How to show Experience Tier (Essential or Premium) on the Companies (list page)",
+  "source": "yzhums-com",
+  "published_at": "2025-11-18T01:07:48.000Z",
+  "words": 494,
+  "summary": "This post explains how to add a visible Experience Tier column (Essential or Premium) to the Companies list page, since this setting is not directly displayed by default. The solution uses AL code with a page extension to retrieve and display the experience tier for each company.",
+  "key_points": [
+    "Experience Tier is stored in the Experience Tier Setup table, not in the Company table or Company Information page",
+    "The Experience setting controls which features users can access (Essential vs Premium functionality)",
+    "A page extension on the Companies list uses the Experience Tier Setup table to retrieve and display the tier for each company",
+    "The code uses RecordRef and FieldRef to dynamically read experience tier values from the Experience Tier Setup record"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "experience tier",
+    "companies list",
+    "page extension",
+    "al customization",
+    "company information"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Company"
+    },
+    {
+      "type": "table",
+      "name": "Experience Tier Setup"
+    },
+    {
+      "type": "table",
+      "name": "Experience Tier Buffer"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Companies"
+    },
+    {
+      "type": "codeunit",
+      "name": "Application Area Mgmt. Facade"
+    }
+  ],
+  "features": [
+    "Experience Tier display",
+    "Essential experience",
+    "Premium experience",
+    "Page extension",
+    "Company management"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central is designed to help you run your business regardless of the size and complexity.",
+      "why_it_matters": "Explains the purpose of configurable experience tiers to support businesses of different sizes"
+    },
+    {
+      "text": "The Experience setting isn't directly visible in the Companies list.",
+      "why_it_matters": "Identifies the core problem this post solves"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

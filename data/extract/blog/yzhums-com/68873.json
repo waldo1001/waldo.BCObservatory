@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/68873",
+  "url": "https://yzhums.com/68873/",
+  "title": "Business Central 2025 wave 2 (BC27.1): Connect AI agents to Business Central through MCP server (Dynamics 365 Business Central MCP)",
+  "source": "yzhums-com",
+  "published_at": "2025-11-10T07:27:24.000Z",
+  "words": 729,
+  "summary": "Business Central 2025 wave 2 (BC27.1) introduces the Model Context Protocol (MCP) server, enabling AI agents to connect to Business Central through a standardized API. This allows seamless integration with intelligent agents from platforms like Azure OpenAI and Copilot Studio, automating tasks and enabling conversational interaction with ERP data.",
+  "key_points": [
+    "MCP is an open standard that lets AI agents discover and invoke operations on Business Central entities like customers, items, and sales orders in a plug-and-play way",
+    "Business Central now has a new page to manage MCP APIs, supporting standard APIs and custom APIs with configurable permissions and dynamic tool mode",
+    "Microsoft Copilot Studio includes a built-in Business Central MCP connector that allows agents to query customer lists and other data through standardized connections",
+    "The feature enables automation of repetitive tasks, streamlines workflows, and provides real-time data synchronization between AI agents and Business Central"
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "mcp server",
+    "ai agents",
+    "copilot studio",
+    "business central integration",
+    "api management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "MCP API management page"
+    }
+  ],
+  "features": [
+    "Model Context Protocol (MCP) server",
+    "AI agent integration",
+    "Dynamic tool mode",
+    "Discover Additional Objects",
+    "Standard and custom API exposure",
+    "Copilot Studio integration",
+    "Real-time data synchronization"
+  ],
+  "versions": [
+    "BC27.1",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "MCP standardizes how applications provide context to language models. This standardization helps applications integrate seamlessly with different data sources and tools.",
+      "why_it_matters": "Clarifies why MCP matters for achieving true AI-driven automation across business systems"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
