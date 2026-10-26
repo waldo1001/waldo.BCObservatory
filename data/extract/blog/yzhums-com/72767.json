@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/yzhums-com/72767",
+  "url": "https://yzhums.com/72767/",
+  "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (May, 2026)",
+  "source": "yzhums-com",
+  "published_at": "2026-05-08T22:45:35.000Z",
+  "words": 733,
+  "summary": "This post announces the May 2026 cumulative update for Microsoft Dynamics 365 Business Central, covering version 28.1 for the 2026 Release Wave 1 and updates for earlier versions, including improved environment management in the Admin Center.",
+  "key_points": [
+    "Version 28.1 released for 2026 Release Wave 1 with platform and application build numbers specified for both cloud and on-premises",
+    "Business Central Admin Center now displays full Country/Region names when creating new environments",
+    "Multiple versions actively supported: version 28 (2026 Wave 1) until Oct 2027, version 27 (2025 Wave 2) until Apr 2027, and version 26 (2025 Wave 1) until Oct 2026",
+    "On-premises versions follow Modern Lifecycle Policy with start and retirement dates published for all supported releases",
+    "End of Life status documented for versions 25 through 14, with version 14 reaching end of extended support in October 2025"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "cumulative update",
+    "release notes",
+    "version management",
+    "environment management",
+    "lifecycle policy",
+    "2026 release wave 1"
+  ],
+  "objects": [],
+  "features": [
+    "environment management in admin center",
+    "country region display",
+    "on-premises deployment",
+    "cloud saas deployment"
+  ],
+  "versions": [
+    "28.1",
+    "27.7",
+    "26.13",
+    "2026 Release Wave 1",
+    "2025 Release Wave 2",
+    "2025 Release Wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "When creating a new environment in the Business Central Admin Center, Microsoft now displays the full name of the Country/Region.",
+      "why_it_matters": "This user experience improvement makes environment creation clearer and reduces ambiguity when selecting geographic regions for deployment"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/yzhums-com/72470",
+  "url": "https://yzhums.com/72470/",
+  "title": "Dynamics 365 Business Central: Scheduling Financial Reports via Email (Send Regular Financial Reports to Your Inbox) – No Customization",
+  "source": "yzhums-com",
+  "published_at": "2026-04-24T00:57:51.000Z",
+  "words": 546,
+  "summary": "Business Central 2026 Wave 1 (BC28) introduces scheduled distribution of financial reports via email. Users can set up recurring financial report schedules with multiple recipients, custom filters, and automatic email delivery, eliminating the need for customization.",
+  "key_points": [
+    "Financial reports can now be scheduled for recurring distribution to multiple recipients via email and report inbox",
+    "Schedule configuration includes export format (PDF, Excel, Word), recipients, recurrence rules, and custom filters",
+    "Scheduled reports are processed by job queue at specified times and automatically distributed to recipient inboxes",
+    "User email addresses must be configured in User Setup; custom date filters support dynamic date ranges",
+    "This capability was unavailable in BC27.5 and earlier versions"
+  ],
+  "systems": [
+    "finance",
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "financial reports",
+    "scheduling",
+    "email distribution",
+    "job queue",
+    "reporting automation",
+    "role-based delivery"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer – Order Summary"
+    },
+    {
+      "type": "codeunit",
+      "name": "Financial Report Export Job"
+    }
+  ],
+  "features": [
+    "Financial Report Scheduling",
+    "Email Distribution",
+    "Recurring Report Delivery",
+    "Multiple Recipients",
+    "Custom Filters",
+    "Export to PDF/Excel/Word",
+    "Job Queue Processing",
+    "Report Inbox"
+  ],
+  "versions": [
+    "2026 Wave 1",
+    "BC28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Historically, Financial Reports in BC has lacked support for scheduling when generating or printing reports. But that has finally changed.",
+      "why_it_matters": "Highlights the significance of this release as addressing a long-standing gap in the product."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

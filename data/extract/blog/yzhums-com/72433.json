@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/yzhums-com/72433",
+  "url": "https://yzhums.com/72433/",
+  "title": "How to create a new Demo & Trial Business Central tenant via Microsoft Demo eXperiences (MDX) – formerly CDX",
+  "source": "yzhums-com",
+  "published_at": "2026-05-08T01:06:21.000Z",
+  "words": 473,
+  "summary": "Creating a trial Business Central tenant via Microsoft Demo eXperiences (MDX), the successor to Customer Digital Experiences (CDX), requires navigating through Experiences and claiming a new tenant since the direct Create Tenant page has been deprecated.",
+  "key_points": [
+    "MDX replaces CDX for creating trial Business Central environments with an updated process",
+    "Trial tenants are claimed through the Experiences section by selecting an experience and choosing 'Claim new tenant'",
+    "Only one trial tenant can be created at a time, with a 90-day duration, and only 3 environments can be created per month",
+    "Partners can access and manage created tenants through the MDX Dashboard"
+  ],
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "trial tenant",
+    "demo environment",
+    "mdx",
+    "cdx",
+    "tenant creation",
+    "partner access"
+  ],
+  "objects": [],
+  "features": [
+    "Microsoft Demo eXperiences (MDX)",
+    "trial tenant creation",
+    "experience claiming",
+    "tenant management dashboard"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Customer Digital Experiences (CDX) has recently been officially updated to Microsoft Demo eXperiences (MDX). The method for creating a trial version has changed.",
+      "why_it_matters": "Indicates a platform transition that partners need to be aware of for creating test environments"
+    },
+    {
+      "text": "You can only create one trial tenant (90 day).",
+      "why_it_matters": "Sets clear expectations about trial environment limitations"
+    },
+    {
+      "text": "Only 3 environments can be created per month.",
+      "why_it_matters": "Establishes rate limits that partners must plan around"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

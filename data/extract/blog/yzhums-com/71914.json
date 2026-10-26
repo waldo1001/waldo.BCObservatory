@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/yzhums-com/71914",
+  "url": "https://yzhums.com/71914/",
+  "title": "Business Central 2026 release wave 1 (BC28): Map new Dataverse fields (New and custom Dataverse tables are readily available for mapping from the lookup on Integration Table column)",
+  "source": "yzhums-com",
+  "published_at": "2026-04-21T01:31:33.000Z",
+  "words": 530,
+  "summary": "Business Central 2026 wave 1 enables administrators to map new Dataverse fields directly without writing code or creating table extensions, simplifying synchronization between Business Central and Dataverse as schemas evolve.",
+  "key_points": [
+    "New fields added to Dataverse can now be mapped through the Integration Table Mappings page in Business Central without code changes",
+    "Administrators can map fields from the Field Name and Integration Field Name lookup without creating or updating table extensions",
+    "Newly mapped fields default to Disabled status and must be manually enabled",
+    "New custom Dataverse tables still require the previous integration method and cannot be auto-discovered",
+    "This reduces configuration effort and accelerates adoption of custom fields in integrated environments"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "dataverse mapping",
+    "field integration",
+    "bc28",
+    "schema alignment",
+    "no-code configuration",
+    "dynamics 365 sales"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Integration Table Mappings"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "other",
+      "name": "Account (Dataverse)"
+    }
+  ],
+  "features": [
+    "Map new Dataverse fields",
+    "Integration Table column lookup",
+    "Field Name mapping",
+    "Integration Field Name mapping",
+    "Dataverse schema evolution support"
+  ],
+  "versions": [
+    "2026 release wave 1",
+    "BC28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "As an administrator, you can map newly added Dataverse fields without recreating table extensions or writing code, reducing configuration effort.",
+      "why_it_matters": "Shows the core benefit of eliminating code requirements for field mapping, lowering operational complexity"
+    },
+    {
+      "text": "With this wave (BC28), no code is required, the newly added field in Dataverse is already visible and can be mapped.",
+      "why_it_matters": "Demonstrates the practical implementation where Dataverse fields are auto-discovered and immediately available for mapping"
+    },
+    {
+      "text": "For new tables, we still need to use the previous method.",
+      "why_it_matters": "Clarifies the feature's scope limitation - only new fields in existing tables are auto-discovered, not new Dataverse tables"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

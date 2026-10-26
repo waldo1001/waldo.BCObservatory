@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/71645",
+  "url": "https://yzhums.com/71645/",
+  "title": "Dynamics 365 Business Central: How to copy (synchronize) the Incoming Document to all Gen. Journal Lines",
+  "source": "yzhums-com",
+  "published_at": "2026-05-07T02:00:26.000Z",
+  "words": 461,
+  "summary": "When assigning incoming documents to general journal lines in Business Central, the incoming document attachment only applies to one line at a time. This post explains the standard limitation and demonstrates a page extension customization that adds a synchronization action to copy an incoming document entry to all other journal lines in the same batch.",
+  "key_points": [
+    "Incoming documents in BC can be attached to general journal lines but are limited to a single line by default.",
+    "Standard BC does not allow the same incoming document to be assigned to multiple journal lines simultaneously.",
+    "A custom page extension on the General Journal page can copy the incoming document entry number to other lines via a new Synchronize action.",
+    "The customization uses ModifyAll to bulk-update the Incoming Document Entry No. field across multiple journal lines in one batch.",
+    "Incoming documents attached to journal lines persist and display after the journals are posted."
+  ],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "incoming documents",
+    "general journal",
+    "attachments",
+    "customization",
+    "page extension",
+    "data synchronization"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "GeneralJournalExt"
+    },
+    {
+      "type": "page",
+      "name": "General Journal"
+    }
+  ],
+  "features": [
+    "Incoming Documents",
+    "General Journal Lines",
+    "Document Attachment",
+    "Synchronization",
+    "Page Extension Action",
+    "Batch Processing"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Of course, these Incoming Documents will also be displayed after the Genral Journals are posted.",
+      "why_it_matters": "Confirms that attached incoming documents persist through to posted documents, providing an audit trail."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

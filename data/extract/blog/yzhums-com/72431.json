@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/72431",
+  "url": "https://yzhums.com/72431/",
+  "title": "Dynamics 365 Business Central: How to monitor User AI Consumption Data within BC  (Agent consumption overview)",
+  "source": "yzhums-com",
+  "published_at": "2026-04-22T01:30:23.000Z",
+  "words": 412,
+  "summary": "Business Central 27.5 allows users to track Copilot Credit consumption directly within the application through the Agent Consumption Overview page, eliminating the need to check the Power Platform Admin Center separately.",
+  "key_points": [
+    "Copilot Credits are billing units measuring AI usage for agent capabilities on a consumption basis",
+    "The Agent Consumption Overview page shows credit consumption per task step and total credits used in a period",
+    "Users can search for 'Agent' and select an agent to view its consumption data with a dedicated View consumption data option",
+    "The full consumption log is accessible by clicking on the Total task Copilot credits field for detailed tracking"
+  ],
+  "systems": [
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "copilot credits",
+    "agent consumption",
+    "billing tracking",
+    "usage monitoring",
+    "bc27.5"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Agent Consumption Overview"
+    },
+    {
+      "type": "page",
+      "name": "Agents"
+    },
+    {
+      "type": "page",
+      "name": "Agent Task"
+    }
+  ],
+  "features": [
+    "Agent consumption tracking",
+    "Copilot Credit monitoring",
+    "consumption-based billing",
+    "consumption data reporting"
+  ],
+  "versions": [
+    "BC 27.5"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This allows you to monitor each Agent's consumption status directly, eliminating the need to log into the Power Platform Admin Center.",
+      "why_it_matters": "Highlights the key advantage of the in-app feature for users managing their AI costs"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

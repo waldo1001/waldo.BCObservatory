@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/yzhums-com/72539",
+  "url": "https://yzhums.com/72539/",
+  "title": "Dynamics 365 Business Central: How to display/add “Sent To” on the Sent Emails (8883, List) page?",
+  "source": "yzhums-com",
+  "published_at": "2026-04-28T01:50:30.000Z",
+  "words": 543,
+  "summary": "The Sent Emails page in Business Central does not display recipient information by default. This post explains how to add a 'Sent To' field using a page extension that retrieves recipients from the Email Message codeunit by accessing the temporary Sent Email table.",
+  "key_points": [
+    "The Sent Emails page (8883) uses a temporary table and does not include the 'Sent To' field",
+    "Table 8889 'Sent Email' has internal access restrictions, but codeunit 8904 'Email Message' provides public methods to retrieve recipients",
+    "A page extension can add a new field that populates recipient data via the GetRecipients method on OnAfterGetRecord trigger",
+    "The solution uses RecordRef and FieldRef to access the MessageId from the temporary table and match it with the email message"
+  ],
+  "systems": [
+    "integration",
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "email",
+    "sent emails",
+    "page extension",
+    "recipients",
+    "customization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sent Emails"
+    },
+    {
+      "type": "page",
+      "name": "Email Viewer"
+    },
+    {
+      "type": "table",
+      "name": "Sent Email"
+    },
+    {
+      "type": "codeunit",
+      "name": "Email Message"
+    },
+    {
+      "type": "codeunit",
+      "name": "Email Message Impl."
+    }
+  ],
+  "features": [
+    "Email functionality",
+    "Sent Emails page",
+    "Page extensions",
+    "Email recipients",
+    "Email Message API"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

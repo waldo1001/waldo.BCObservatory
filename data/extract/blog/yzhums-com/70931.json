@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/yzhums-com/70931",
+  "url": "https://yzhums.com/70931/",
+  "title": "Dynamics 365 Business Central: How to add a “TAB” character to a string via AL",
+  "source": "yzhums-com",
+  "published_at": "2026-04-20T00:53:41.000Z",
+  "words": 399,
+  "summary": "The post explains how to add a TAB character to a string in AL code by using its ASCII character code (9) instead of trying to type it directly. This technique is useful for barcode generation and string formatting when TAB characters are needed as delimiters.",
+  "key_points": [
+    "TAB character cannot be typed directly using the keyboard TAB key; use ASCII code 9 instead",
+    "Create a Char variable and assign it the value 9 to represent the TAB character",
+    "Concatenate the TAB character with other strings using the plus operator",
+    "TAB-delimited strings can be split later using appropriate string manipulation methods"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al code",
+    "string handling",
+    "character manipulation",
+    "barcode generation",
+    "special characters"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Type Helper"
+    },
+    {
+      "type": "report",
+      "name": "Item Info"
+    },
+    {
+      "type": "enum",
+      "name": "Barcode Symbology 2D"
+    },
+    {
+      "type": "enum",
+      "name": "Barcode Font Provider 2D"
+    },
+    {
+      "type": "interface",
+      "name": "Barcode Font Provider 2D"
+    }
+  ],
+  "features": [
+    "barcode generation",
+    "QR code encoding",
+    "string concatenation",
+    "character encoding",
+    "TAB character handling"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The TAB key on the keyboard cannot actually be used to type TAB.",
+      "why_it_matters": "Explains why direct keyboard entry doesn't work and why an alternative approach is needed"
+    },
+    {
+      "text": "First, you need to find the number for the TAB character, 9.",
+      "why_it_matters": "Provides the specific ASCII code needed to represent a TAB character in AL code"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
