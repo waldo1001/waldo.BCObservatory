@@ -1319,3 +1319,12 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   `enabled: false` since the start, is switched on: 389 posts inside the 18-month window (WordPress REST). The hold-back
   wording leaves `sources.yaml` and `docs/PLAN.md`; the "11 MAYBE blogs" PLAN counts are named nowhere and stay out
   until named. Rejected: a hold-back list for derived mode. Spec `docs/specs/yzhums-enable.md`.
+- **D120 The leak gate lets item titles and Learn titles through (2026-10-26).** Amends D51's provenance rule. The
+  yzhums.com run (40223018106) and the scheduled nightly after it (40248854118) were blocked by `check:leak` (69 and 11
+  findings) and committed nothing. Read on the Mini: 10 of the 11 were yzhums manifests whose title alone is 25 words
+  ("Dynamics 365 Business Central: How to show a warning about low inventory on a sales document (Prohibit users from
+  adding sales lines with low inventory)"), quoted in his roundup posts; 1 was a topic page with Learn's "BigInteger
+  data type" running into its description, which a post quoted. A hit run is now suppressed when it lies inside a
+  video's or post's own title (shown verbatim by design; counted as `title_runs`) or inside Learn's title with its
+  description (`readOfficialText`); derived text around a title still counts. Verified on the blocked tree on the Mini:
+  0 findings (10 title runs, 41 official runs). Tests in `tests/unit/validate.test.ts`.

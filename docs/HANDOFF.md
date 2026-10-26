@@ -36,6 +36,12 @@ questions in its section 12).
 
 ## Where things stand
 
+**Shipped 2026-10-26 (pipeline only):**
+- **The leak gate lets item titles and Learn titles through (D120).** The yzhums.com run and the scheduled nightly of
+  2026-10-26 were blocked by false positives (long yzhums titles quoted in his roundups; a Learn title with its
+  description). Watch the next run: the big yzhums run had 69 findings, of which only the 11 of the scheduled run's
+  tree were verified gone; if another kind remains, read it on the Mini (RUNBOOK leak-gate note).
+
 **Shipped 2026-10-25 (sources only; readers see it after the ingest run):**
 - **yzhums.com is switched on (D119, M56, issue #51); derived mode needs no consent.** 389 posts inside the window.
   Operator step: the first ingest, `gh workflow run nightly.yml --ref main -f pillars=blog -f only=yzhums-com -f

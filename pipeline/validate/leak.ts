@@ -19,8 +19,10 @@
  * from that post. Two cases where it could not, and the scan says so:
  *   - files generated from Microsoft's code alone (data/code/, content/objects/): a blogger quoting an AL signature
  *     shares words with the extractor's output, which never reads a post.
- *   - runs that also appear in official text the repo holds (the roadmap snapshot, Learn's own page descriptions):
- *     the blogger quoted Microsoft too. Checked only when a hit occurs, so a clean run pays nothing.
+ *   - runs that also appear in official text the repo holds (the roadmap snapshot, Learn's own page titles with their
+ *     descriptions): the blogger quoted Microsoft too. Checked only when a hit occurs, so a clean run pays nothing.
+ *   - runs inside a video's or post's own title (D120): titles are shown verbatim by design, and a long one (yzhums.com
+ *     titles reach 25 words) repeats wherever the author lists earlier posts. Derived text around a title still counts.
  * The policy checks above apply to every file either way.
  *
  * Incremental mode (`changedOnly`): only files that differ from HEAD (modified, staged or untracked) are scanned and
@@ -46,6 +48,8 @@ export interface LeakReport {
   files_scanned: number; shingles: number; raw_docs: number; vault: "scanned" | "missing" | "not-needed"; findings: LeakFinding[];
   /** Hits suppressed because the run is also in official text the repo holds (the post quoted Microsoft). */
   official_runs: number;
+  /** Hits suppressed because the run lies inside a video's or post's own title (D120). */
+  title_runs: number;
 }
 
 /** Words as both sides see them: lowercase letters and digits, punctuation and markdown dropped, link text kept. */
@@ -222,8 +226,21 @@ export function readOfficialText(dataDir: string): string[] {
   }
   for (const p of listFiles(resolve(dataDir, "manifest", "docs"), ".json")) {
     try {
-      const d = JSON.parse(readFileSync(p, "utf8")).meta?.description;
-      if (typeof d === "string") out.push(d);
+      const j = JSON.parse(readFileSync(p, "utf8"));
+      // D120: Learn's title with its description, so a run from the title into the description is official too
+      if (typeof j.meta?.description === "string") out.push(`${typeof j.title === "string" ? j.title : ""} ${j.meta.description}`);
+    } catch { /* skip */ }
+  }
+  return out;
+}
+
+/** D120: the titles of the videos and posts the manifest holds; shown verbatim on every page, so never a leak alone. */
+export function readItemTitles(dataDir: string): string[] {
+  const out: string[] = [];
+  for (const pillar of ["blog", "video"]) for (const p of listFiles(resolve(dataDir, "manifest", pillar), ".json")) {
+    try {
+      const t = JSON.parse(readFileSync(p, "utf8")).title;
+      if (typeof t === "string" && t) out.push(t);
     } catch { /* skip */ }
   }
   return out;
@@ -304,7 +321,7 @@ export function checkLeak(o: { repoDir: string; dataDir?: string; contentDir?: s
   }
 
   // shingles
-  const report: LeakReport = { files_scanned: 0, shingles: 0, raw_docs: 0, vault: "not-needed", findings, official_runs: 0 };
+  const report: LeakReport = { files_scanned: 0, shingles: 0, raw_docs: 0, vault: "not-needed", findings, official_runs: 0, title_runs: 0 };
   if (o.policyOnly) return report; // PR CI: no vault there by design; the Mini's nightly gate runs the scan
   if (!existsSync(o.vaultDir)) {
     const why = communityRawExpected(dataDir, o.sources);
@@ -338,8 +355,10 @@ export function checkLeak(o: { repoDir: string; dataDir?: string; contentDir?: s
   // a run the repo also holds as official text (roadmap, Learn descriptions) came from Microsoft, not from the post
   if (hits.length) {
     const official = ` ${readOfficialText(dataDir).map((t) => leakWords(t).join(" ")).join(" | ")} `;
+    const titles = ` ${readItemTitles(dataDir).map((t) => leakWords(t).join(" ")).join(" | ")} `;
     for (const h of hits) {
       if (official.includes(` ${h.run} `)) { report.official_runs++; continue; }
+      if (titles.includes(` ${h.run} `)) { report.title_runs++; continue; }
       findings.push({ kind: "shingle", path: h.f, detail: `${SHINGLE}+ consecutive words of ${h.doc.source}/${h.doc.key}: "${h.head} ..."` });
     }
   }

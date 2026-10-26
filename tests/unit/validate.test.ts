@@ -155,6 +155,33 @@ test("check:leak provenance: a run a post shares with Microsoft's code or roadma
   assert.equal(r.official_runs, 2, "the feature page and the roadmap snapshot itself: suppressed, not dropped silently");
 });
 
+// D120: titles and URLs are shown verbatim by design; Learn's title runs into its own description
+test("check:leak provenance: a run inside a stored item's own title is not a leak; derived text still is", () => {
+  const { dir, g, vault } = gitRepo();
+  const title = words(SHINGLE + 1, 2000), url = "https://example.com/63644/"; // yzhums titles reach 25 words on their own
+  // a roundup post that lists an earlier post by its title and link, then says more
+  writeText(join(vault, "posts/yt-comm/69681.md"), `roundup ${title} ${url} ${words(30, 3000)}`);
+  writeJson(join(dir, "data/manifest/blog/yt-comm/63644.json"), { id: "blog/yt-comm/63644", title, url, stages: {} });
+  // a page that repeats the post's other words is still a leak
+  writeText(join(dir, "content/posts/yt-comm/9.md"), `# p\n\n${words(SHINGLE, 3000)}\n`);
+  g("add", "-A");
+  const r = checkLeak({ repoDir: dir, vaultDir: vault, sources: SOURCES });
+  assert.deepEqual(r.findings.map((f) => `${f.kind} ${f.path}`), ["shingle content/posts/yt-comm/9.md"]);
+  assert.equal(r.title_runs, 1, "the manifest's title: suppressed and counted");
+});
+
+test("check:leak provenance: Learn's title running into its own description is official text", () => {
+  const { dir, g, vault } = gitRepo();
+  const ltitle = "BigInteger data type", desc = words(30, 4000);
+  writeText(join(vault, "posts/yt-comm/76388.md"), `quoting learn: ${ltitle} ${desc}`);
+  writeJson(join(dir, "data/manifest/docs/learn-devitpro/x.json"), { id: "docs/learn-devitpro/x", title: ltitle, meta: { description: desc }, stages: {} });
+  writeText(join(dir, "content/topics/data-types.md"), `# Data types\n\n| ${ltitle} | ${desc} |\n`);
+  g("add", "-A");
+  const r = checkLeak({ repoDir: dir, vaultDir: vault, sources: SOURCES });
+  assert.deepEqual(r.findings, []);
+  assert.ok(r.official_runs >= 1);
+});
+
 test("shingle hashing: every window of SHINGLE words, same key for the same words", () => {
   const keys: number[] = [];
   forEachShingle(leakWords(words(SHINGLE + 2)), (k) => { keys.push(k); });
