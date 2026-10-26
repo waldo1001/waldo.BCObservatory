@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/jeremyvyska-com/1437",
+  "url": "https://jeremyvyska.com/2025/09/09/testing-github-copilot-knowledge-engineering-what-actually-works-and-what-doesnt/",
+  "title": "Testing GitHub Copilot Knowledge Engineering: What Actually Works and What Doesn\\’t",
+  "source": "jeremyvyska-com",
+  "published_at": "2025-09-09T15:24:55.000Z",
+  "words": 2118,
+  "summary": "GitHub Copilot's effectiveness for Business Central development improves significantly with domain-specific knowledge engineering, but the approach matters more than the amount of knowledge. A five-tier testing framework comparing generic programming knowledge, community documentation, atomic knowledge patterns, and Model Context Protocol delivery showed that systematic, context-aware knowledge delivery achieved 100x+ performance improvements consistently, while generic knowledge actually hurt optimization decisions.",
+  "key_points": [
+    "Generic programming knowledge made Copilot suggestions worse for Business Central by creating confusion with domain-specific patterns",
+    "Atomic, focused knowledge delivered systematically (Tier 4 with MCP) achieved 100x+ performance improvements in six of nine modules, far outperforming static documentation approaches",
+    "Knowledge engineering effectiveness depends more on structured delivery and specificity than total knowledge volume",
+    "AI assistants need knowledge about when NOT to optimize as much as when to optimize, requiring false-positive testing"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "knowledge engineering",
+    "github copilot",
+    "ai assistance",
+    "performance optimization",
+    "business central development",
+    "model context protocol",
+    "atomic knowledge"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Business logic codeunits (tier-specific, 50100-50299 ID ranges)"
+    },
+    {
+      "type": "table",
+      "name": "Common-Data-Infrastructure tables with SIFT keys and FlowFields"
+    }
+  ],
+  "features": [
+    "GitHub Copilot optimization suggestions",
+    "Model Context Protocol knowledge delivery",
+    "Performance baseline testing",
+    "Atomic knowledge pattern engineering",
+    "False positive detection and prevention",
+    "Real-time context-aware knowledge delivery"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Tier 1 (Generic Programming) was worse than no knowledge at all. About half the optimizations actually hurt performance.",
+      "why_it_matters": "Demonstrates that incorrect knowledge can actively harm AI decision-making, validating the need for domain-specific approaches"
+    },
+    {
+      "text": "The business intelligence module went from 64 seconds to 81 milliseconds - a 746x improvement.",
+      "why_it_matters": "Shows the magnitude of performance improvements possible with proper atomic knowledge engineering and systematic delivery"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.013278,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/jeremyvyska-com/1732",
+  "url": "https://jeremyvyska.com/2026/02/10/building-at-scale-long-running-ai-agents-for-real-development/",
+  "title": "Building at Scale: Long-Running AI Agents for Real Development",
+  "source": "jeremyvyska-com",
+  "published_at": "2026-02-10T05:36:12.000Z",
+  "words": 1997,
+  "summary": "A three-phase agentic orchestration system (Building, Reviewing, Improving) for developing large-scale Business Central ecosystems using AI agents. The author demonstrates the pattern by creating 38 applications across 700+ AL files while managing dependencies, quality standards, and model drift through comprehensive instructions, JSON progress tracking, pattern-based reviews, and strategic model selection.",
+  "key_points": [
+    "Use different Claude models strategically: Opus for planning and instruction creation, Sonnet or Haiku for mechanical implementation execution",
+    "Implement three-phase workflow with stateful JSON progress tracking and dependency-aware task identification to enable AI agents to self-direct and avoid rework",
+    "Pattern-based review across nine architectural dimensions (naming, data model, business logic, performance, security, error handling, extensibility, UX, sustainability) scales better than line-by-line code review",
+    "Combat model gravity through comprehensive explicit instructions, validation checkpoints, and multiple correction passes since models have behavioral tendencies that persist despite clear guidance",
+    "Leverage parallel task execution once dependencies map and instructions stabilize, achieving initial implementation in approximately two hours for 19 applications"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "ai agents",
+    "agentic orchestration",
+    "long-running conversations",
+    "code generation",
+    "architectural patterns",
+    "quality assurance",
+    "al development",
+    "scalability"
+  ],
+  "objects": [],
+  "features": [
+    "agentic orchestration system",
+    "pattern-based code review",
+    "dependency-aware task management",
+    "JSON progress tracking",
+    "architectural validation",
+    "parallel task execution",
+    "model selection strategy",
+    "instruction-driven development"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.01366,
+    "posts_in_call": 1
+  }
+}

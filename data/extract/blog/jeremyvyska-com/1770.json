@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/jeremyvyska-com/1770",
+  "url": "https://jeremyvyska.com/2026/10/25/fall-2026-agentic-development-classes/",
+  "title": "Fall 2026 Agentic Development Classes: Copilot Refresh, Claude Code, and BCQuality",
+  "source": "jeremyvyska-com",
+  "published_at": "2026-10-25T09:17:56.000Z",
+  "words": 903,
+  "summary": "Three standalone agentic development classes launching in November 2026 cover GitHub Copilot refresh for AL development, Claude Code for Business Central work, and BCQuality for consistent code standards. Classes are designed for developers already working with AI tools or exploring them for AL development.",
+  "key_points": [
+    "VS Code and GitHub Copilot class covers agent mode, custom agents, skills, and MCP servers for AL work",
+    "Claude Code class teaches setup and usage patterns specific to Business Central, including plan mode and artifacts",
+    "BCQuality class shows how to integrate quality standards into development workflows for both human and agentic developers",
+    "Three standalone classes run twice per week to accommodate different time zones, with live Q&A sessions"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "agentic development",
+    "github copilot",
+    "claude code",
+    "al development",
+    "code quality",
+    "mcp servers",
+    "bcquality"
+  ],
+  "objects": [],
+  "features": [
+    "GitHub Copilot for AL development",
+    "Claude Code",
+    "BCQuality knowledge system",
+    "Agent mode",
+    "Custom agents",
+    "Agent skills",
+    "MCP servers",
+    "Plugins"
+  ],
+  "versions": [
+    "Fall 2026"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Instructions files, prompt files, and AGENTS.md: what goes where in a BC repo",
+      "why_it_matters": "Clarifies how to organize agentic development tools and configurations in a Business Central repository structure"
+    },
+    {
+      "text": "Plan mode and the plan → build → verify loop, with the AL compiler and tests in the loop",
+      "why_it_matters": "Shows how Claude Code integrates with BC development workflows and testing processes"
+    },
+    {
+      "text": "Using BCQuality from both Copilot and Claude Code to review AL changes",
+      "why_it_matters": "Demonstrates that quality standards can be enforced consistently across different AI tools and development approaches"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005727,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/jeremyvyska-com/1428",
+  "url": "https://jeremyvyska.com/2025/08/20/building-ai-infrastructure-that-actually-works/",
+  "title": "Building AI Infrastructure That Actually Works",
+  "source": "jeremyvyska-com",
+  "published_at": "2025-08-20T14:38:30.000Z",
+  "words": 1921,
+  "summary": "Building scalable AI infrastructure for teams requires moving beyond individual productivity to address accessibility, workflow integration, and maintenance challenges. The post demonstrates how Model Context Protocol enables AI agents to participate in entire development workflows, and how a bootstrap system using git submodules distributes knowledge across repositories with zero friction setup.",
+  "key_points": [
+    "Model Context Protocol (MCP) allows AI agents to directly access tools and context like Azure DevOps work items and documentation, enabling workflow-level integration beyond individual coding tasks",
+    "The Copilot Bootstrap system uses a central knowledge repository distributed via git submodules, allowing minimal instruction files in each project while maintaining a single source of truth",
+    "Team adoption succeeded by eliminating setup friction - reducing onboarding from 2-3 hours to 30 seconds - making AI accessible to team members regardless of AI expertise level",
+    "Role-based and project-type-specific instruction sets tailored to different expertise levels proved more effective than one-size-fits-all approaches",
+    "Infrastructure and access friction matter more than individual prompt engineering skills for organizational AI scaling"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "ai agents",
+    "agentic workflows",
+    "model context protocol",
+    "team adoption",
+    "infrastructure",
+    "knowledge distribution",
+    "azure devops",
+    "copilot"
+  ],
+  "objects": [],
+  "features": [
+    "Model Context Protocol",
+    "Copilot Bootstrap system",
+    "git submodule knowledge distribution",
+    "VS Code task automation",
+    "role-based instruction sets",
+    "workflow integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012294,
+    "posts_in_call": 1
+  }
+}

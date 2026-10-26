@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/jeremyvyska-com/1405",
+  "url": "https://jeremyvyska.com/2025/07/25/creating-and-maintaining-a-shared-knowledge-source/",
+  "title": "Creating and Maintaining a Shared Knowledge Source",
+  "source": "jeremyvyska-com",
+  "published_at": "2025-07-25T10:00:00.000Z",
+  "words": 3387,
+  "summary": "Building a unified knowledge base across multiple AI tools like GitHub Copilot, Copilot Notebooks, Copilot Studio, and Azure AI Foundry by centralizing content in a GitHub repository, syncing to Azure Blob Storage via GitHub Actions, and planning to connect Azure AI Search for grounding. The post documents a real-world setup process using MCPs (model context protocol) to automate infrastructure provisioning and emphasizes iterative problem-solving when tools reach limitations.",
+  "key_points": [
+    "Centralize knowledge in a GitHub repo with structured folders (business-central, worldbuilding, industry-practices, teaching-framework, shared-assets) and use markdown with YAML frontmatter for semantic enrichment",
+    "Use Azure Blob Storage as an intermediate layer synced from GitHub via Actions, with a Service Principal and secure secrets for authentication",
+    "Azure AI Search remains pending setup to index the blob content and enable grounding across Copilot Studio and Azure AI Foundry",
+    "MCPs (Model Context Protocol tools) automate infrastructure tasks but have limitations; preflight MCP capability checking prevents wasted effort before falling back to CLI or portal",
+    "Multiple ingestion pathways exist for each tool: GitHub Copilot reads repo context directly, Copilot Notebooks require file references, and Studio and Foundry both connect through Azure services"
+  ],
+  "systems": [
+    "integration",
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "knowledge management",
+    "azure",
+    "copilot",
+    "github",
+    "infrastructure setup",
+    "mcp tools",
+    "ai search",
+    "content organization"
+  ],
+  "objects": [],
+  "features": [
+    "GitHub Copilot integration",
+    "Azure Blob Storage sync",
+    "GitHub Actions workflow",
+    "Azure AI Search planning",
+    "Copilot Studio grounding",
+    "YAML frontmatter metadata",
+    "Service Principal authentication",
+    "MCP tool automation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.017796,
+    "posts_in_call": 1
+  }
+}
