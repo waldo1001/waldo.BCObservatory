@@ -390,6 +390,12 @@ sources:
     url: https://yzhums.com
     author: { name: Yun Zhu, mvp: true }
     fetch: { feed: https://yzhums.com/feed/, rest: https://yzhums.com/wp-json/wp/v2/posts }
+  - id: jeremyvyska-com
+    kind: blog
+    name: Jeremy Vyska
+    url: https://jeremyvyska.com
+    author: { name: Jeremy Vyska, mvp: true }
+    fetch: { feed: https://jeremyvyska.com/feed/, rest: https://jeremyvyska.com/wp-json/wp/v2/posts }
   # ---------------------------------------------------------------- discovery (suggestions only, never content)
   - id: wingate-combined
     kind: discovery

@@ -468,6 +468,7 @@ blogs; all videos newest-first.
 | **M54 Looser topic review** | keep rule for tools and practice, verdicts carry the standard, drops re-reviewed (`docs/specs/topic-review-tooling.md`, D117, shipped 2026-10-25) | small | one re-review, ~$25-50 |
 | **M55 The BC Docs Librarian blog source** | one `sources.yaml` entry for Natalie Karolak's blog, derived mode, feed and REST (`docs/specs/nataliekarolak-blog-source.md`, D118, shipped 2026-10-25) | small | low: one more blog in ingest and derive |
 | **M56 yzhums.com switched on** | `yzhums-com` enabled, hold-back wording removed (`docs/specs/yzhums-enable.md`, D119, shipped 2026-10-25) | small | first ingest of 389 posts, ~$45-80 |
+| **M57 jeremyvyska.com blog source** | `jeremyvyska-com` in `sources.yaml`, derived mode, feed plus WordPress API (`docs/specs/jeremyvyska-com-blog-source.md`, D122, shipped 2026-10-26) | small | first ingest of 13 posts |
 | **v0.2+** | evidence chips + review-badge UI, 30-vNext, older versions as diffs back to 23/15, Jarvis budget handshake (shared intent file), static embeddings (model2vec potion-8M), MAYBE blogs | ongoing | per-version gating |
 
 ## 6. Verification

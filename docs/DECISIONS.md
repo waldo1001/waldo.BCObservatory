@@ -1336,3 +1336,7 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   derived text that repeats the post still is. The nightly's D33 revival (two more chances from the last completed
   stage) now covers `blog` as well as `video`, so posts skipped before this fix come back without a manual step.
   Tests in `tests/unit/blog-posts.test.ts`.
+- **D122 jeremyvyska.com is a community blog source (2026-10-26).** Jeremy Vyska's blog (Microsoft Business Central
+  MVP per his About page) is registered as `jeremyvyska-com`, derived mode, no consent block, `full_text: false`,
+  fetched from its RSS feed and the WordPress API (13 posts inside the window; the feed alone stops at 2025-08-20).
+  Rejected: full text without opt-in; feed only. Spec `docs/specs/jeremyvyska-com-blog-source.md`, issue #53.

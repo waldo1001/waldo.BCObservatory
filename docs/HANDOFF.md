@@ -36,6 +36,9 @@ questions in its section 12).
 
 ## Where things stand
 
+**Shipped 2026-10-26 (sources only; readers see it after the ingest run):**
+- **jeremyvyska.com is a blog source (D122, M57, issue #53).** 13 posts inside the window, feed plus WordPress API.
+
 **Shipped 2026-10-26 (pipeline only):**
 - **The leak gate lets item titles and Learn titles through (D120).** The yzhums.com run and the scheduled nightly of
   2026-10-26 were blocked by false positives (long yzhums titles quoted in his roundups; a Learn title with its
