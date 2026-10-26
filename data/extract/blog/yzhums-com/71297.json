@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/71297",
+  "url": "https://yzhums.com/71297/",
+  "title": "Business Central 2026 release wave 1 (BC28): Set default language for documents on the company level (Default Language Code)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-11T01:43:20.000Z",
+  "words": 401,
+  "summary": "Business Central 2026 wave 1 introduces a company-level default language code for customer-facing documents. This feature allows organizations to define a default language for documents like invoices and sales orders, ensuring multilingual teams send documents consistently in the customer's expected language regardless of the user's UI language settings.",
+  "key_points": [
+    "New Default Language Code field in Company Information sets a company-wide language for documents",
+    "Documents use the company default language instead of the user's language setting",
+    "Improves clarity and reduces confusion for customers in multilingual scenarios",
+    "Complements existing Language Code in master data and Region property from BC22"
+  ],
+  "systems": [
+    "sales",
+    "localization",
+    "administration"
+  ],
+  "topics": [
+    "documents",
+    "language settings",
+    "multi-language",
+    "company configuration",
+    "customer experience"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Company Information"
+    }
+  ],
+  "features": [
+    "Default Language Code for documents",
+    "Company-level language configuration",
+    "Sales document language control",
+    "Purchase document language control"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Local customers will consistently receive invoices and other sales documents in the expected language, regardless of the user's UI language.",
+      "why_it_matters": "This explains the core benefit: ensures consistent document language for multilingual organizations without relying on user settings"
+    },
+    {
+      "text": "This improves clarity, reduces confusion, and ensures a better customer experience, especially in multilingual teams.",
+      "why_it_matters": "Highlights the business value and the scenario where this feature is most useful"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

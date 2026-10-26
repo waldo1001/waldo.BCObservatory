@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/yzhums-com/71137",
+  "url": "https://yzhums.com/71137/",
+  "title": "Business Central 2026 release wave 1 (BC28): Send by Email & Standard Document Attachment Factbox for Posted Sales Shipments and Return Receipts",
+  "source": "yzhums-com",
+  "published_at": "2026-03-05T05:40:46.000Z",
+  "words": 389,
+  "summary": "Business Central 2026 release wave 1 introduces the ability to send posted sales shipments and return receipts by email, complementing the existing Print option. The update also adds a standard Document Attachment Factbox to these pages for storing and managing printed document versions.",
+  "key_points": [
+    "Posted sales shipments and return receipts can now be sent directly by email from Business Central, aligning with the experience of posted invoices and credit memos",
+    "The Send option includes multiple choices: Send by Email, standard sending options, or Attach as PDF",
+    "Document Attachment Factbox has been added to Posted Sales Shipment, Posted Sales Shipments, Posted Return Receipt, and Posted Return Receipts pages for managing document versions"
+  ],
+  "systems": [
+    "sales",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "email functionality",
+    "document sharing",
+    "posted documents",
+    "attachments",
+    "release wave 1",
+    "bc28"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices (143)"
+    },
+    {
+      "type": "page",
+      "name": "Posted Return Receipt (6660)"
+    },
+    {
+      "type": "page",
+      "name": "Posted Return Receipts (6662)"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Shipment (130)"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Shipments (142)"
+    }
+  ],
+  "features": [
+    "Send by Email for posted documents",
+    "Document Attachment Factbox",
+    "Attach as PDF",
+    "Email document sharing",
+    "Posted sales shipment email",
+    "Posted return receipt email"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The Attachment part allows you to store and manage printed document versions for future reference, and is now also available on the following pages",
+      "why_it_matters": "Clarifies that the Document Attachment Factbox extends document management capabilities to additional posted document pages"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

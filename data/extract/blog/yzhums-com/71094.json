@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/yzhums-com/71094",
+  "url": "https://yzhums.com/71094/",
+  "title": "Business Central 2026 release wave 1 (BC28): Support for packaging analysis views in extensions (Create analysis views via AL)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-05T00:21:32.000Z",
+  "words": 630,
+  "summary": "Analysis views can now be packaged in AL extensions as .analysis.json files and added to list pages via analysisview components. Developers can create views in the web client's Analysis Mode, export them, include them in extension projects, and reference them in page definitions to distribute standardized data analysis capabilities across Business Central environments.",
+  "key_points": [
+    "Analysis views are created and exported as .analysis.json files from Analysis Mode in the web client",
+    "The .analysis.json file is included in the AL extension project and referenced via an analysisview component in the analysisviews section",
+    "Keywords like addfirst, addlast, addbefore, and addafter control the placement of analysis views relative to other views",
+    "Analysis views can extend standard pages or be added directly to new custom pages",
+    "The targetObjectId in the definition file must match the object containing the analysis view, and missing dependencies must be resolved"
+  ],
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "analysis views",
+    "extensions",
+    "al development",
+    "data analysis",
+    "page extensions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "GeneralLedgerEntries Analysis"
+    },
+    {
+      "type": "page",
+      "name": "My Sales Analysis Page"
+    }
+  ],
+  "features": [
+    "analysis views in extensions",
+    "analysis mode",
+    "json definition files",
+    "page analysis views",
+    "extension packaging"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Analysis views can now be packaged and delivered as part of AL extensions for list pages, including extensions and customizations.",
+      "why_it_matters": "Shows the core capability that allows developers to distribute reusable analysis views across environments"
+    },
+    {
+      "text": "Prior to this release, sharing Analysis views required the 'Copy Link' function, which was incredibly cumbersome for large teams.",
+      "why_it_matters": "Demonstrates the problem this feature solves by eliminating manual sharing workarounds"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

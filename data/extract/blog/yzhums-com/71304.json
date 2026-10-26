@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/yzhums-com/71304",
+  "url": "https://yzhums.com/71304/",
+  "title": "Business Central 2026 release wave 1 (BC28): Create purchase orders from drop shipments",
+  "source": "yzhums-com",
+  "published_at": "2026-03-10T01:13:19.000Z",
+  "words": 563,
+  "summary": "BC28 introduces the ability to create purchase orders directly from drop shipment sales orders using the Create Purchase Orders action. The Order Planning and Planning Worksheet pages now include dedicated drop shipment functionality to streamline the process of vendors shipping items directly to customers.",
+  "key_points": [
+    "Purchase orders can be generated directly from drop shipment sales orders in BC28 using Create Purchase Orders action",
+    "Order Planning and Planning Worksheet pages include new dedicated drop shipment action groups",
+    "Drop shipment lines are automatically included in order planning and calculation",
+    "You can specify customer address and link sales and purchase orders to instruct vendors to ship directly to customers"
+  ],
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "drop shipment",
+    "purchase orders",
+    "sales orders",
+    "order planning",
+    "purchasing workflow"
+  ],
+  "objects": [],
+  "features": [
+    "Create Purchase Orders from drop shipments",
+    "Drop Shipment action group",
+    "Order Planning drop shipment support",
+    "Planning Worksheet drop shipment support",
+    "Customer Address Ship-to field"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can create purchase orders directly from sales orders that are set up for drop shipment by choosing the Create Purchase Orders action.",
+      "why_it_matters": "This is the core new capability introduced in BC28, streamlining the drop shipment workflow"
+    },
+    {
+      "text": "A drop shipment is the shipment of items from one of your vendors directly to one of your customers.",
+      "why_it_matters": "Defines the business scenario that the feature addresses for users unfamiliar with drop shipment terminology"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

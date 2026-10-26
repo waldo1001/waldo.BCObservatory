@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/yzhums-com/71200",
+  "url": "https://yzhums.com/71200/",
+  "title": "Business Central 2026 release wave 1 (BC28): Audit user and group permissions across apps (new Permissions Overview page)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-06T06:00:31.000Z",
+  "words": 352,
+  "summary": "Business Central 2026 release wave 1 introduces a new Permissions Overview page that provides centralized visibility into permission sets across all installed apps and extensions. This feature helps administrators audit user and group permissions, analyze permission dependencies, and manage access control more efficiently.",
+  "key_points": [
+    "The Permissions Overview page displays permission sets from Microsoft, ISV applications, and user-defined sets in a single unified view",
+    "Administrators can filter permissions by object, scope, extension, or permission set to quickly locate specific access rules",
+    "The page shows which permission sets grant access to specific objects and which security groups and users are assigned to each set",
+    "This centralized approach simplifies security audits, permission dependency analysis, and troubleshooting access issues"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "permissions",
+    "security",
+    "access control",
+    "auditing",
+    "bc28",
+    "release wave 1"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Permissions Overview"
+    },
+    {
+      "type": "page",
+      "name": "Table Information"
+    }
+  ],
+  "features": [
+    "Permissions Overview page",
+    "unified permission view across apps",
+    "permission filtering by object, scope, extension",
+    "permission set assignment visibility",
+    "security group and user assignment display"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The new Permissions Overview page provides comprehensive visibility into permission sets across all installed apps and extensions.",
+      "why_it_matters": "This explains the core functionality that centralizes permission management across multiple sources."
+    },
+    {
+      "text": "This centralized view helps administrators analyze permission dependencies, conduct security audits, and troubleshoot access issues without navigating multiple pages or extensions.",
+      "why_it_matters": "This describes the practical benefit that saves administrators time and improves security oversight."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

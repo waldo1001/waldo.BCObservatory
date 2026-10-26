@@ -1,0 +1,78 @@
+{
+  "item_id": "blog/yzhums-com/70986",
+  "url": "https://yzhums.com/70986/",
+  "title": "Business Central 2026 release wave 1 (BC28): Define item attributes for item variants",
+  "source": "yzhums-com",
+  "published_at": "2026-03-03T05:09:52.000Z",
+  "words": 464,
+  "summary": "Business Central 2026 wave 1 (BC28) adds the ability to assign attribute values to individual item variants. Variants now inherit attributes from the parent item but can have their own adjusted or removed values, and a new Update Variant Attributes action syncs attributes across variants.",
+  "key_points": [
+    "Item variants can now have attribute values assigned at the variant level, separate from the parent item's attributes",
+    "Variants inherit attributes from the item automatically but allow for adjustment or removal of inherited values",
+    "A new Update Variant Attributes action on the Item Card forces synchronization of attributes from the item to all its variants",
+    "Variant-specific attributes are managed through the Item Variant Attribute Values page, accessible from Item Variants List or Item Variant Card"
+  ],
+  "systems": [
+    "inventory",
+    "sales"
+  ],
+  "topics": [
+    "item variants",
+    "item attributes",
+    "product variants",
+    "bc28",
+    "2026 wave 1"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Variant Attribute Values"
+    },
+    {
+      "type": "page",
+      "name": "Item Variants List"
+    },
+    {
+      "type": "page",
+      "name": "Item Variant Card"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Item List"
+    }
+  ],
+  "features": [
+    "item attributes",
+    "item variants",
+    "variant attributes",
+    "attribute inheritance",
+    "update variant attributes action"
+  ],
+  "versions": [
+    "BC28",
+    "2026 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can assign attribute values that reflect the specific variant at the item variant level.",
+      "why_it_matters": "Explains the core capability that variants can now have unique attribute values independent of the parent item"
+    },
+    {
+      "text": "Item variants inherit attributes from the item, and you can adjust or remove those inherited values when the variant requires different information.",
+      "why_it_matters": "Shows that while inheritance exists, variants have flexibility to customize attributes without affecting the parent item"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

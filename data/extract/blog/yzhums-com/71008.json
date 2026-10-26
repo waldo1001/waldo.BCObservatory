@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/yzhums-com/71008",
+  "url": "https://yzhums.com/71008/",
+  "title": "Business Central 2026 release wave 1 (BC28): Create purchase quotes for contacts (without a vendor)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-04T00:15:31.000Z",
+  "words": 359,
+  "summary": "Starting with BC28 (2026 release wave 1), you can create purchase quotes for contacts without requiring a vendor record first. When converting the quote to an order, Business Central automatically creates a vendor using a template based on contact details.",
+  "key_points": [
+    "Purchase quotes can now be created for contacts not yet associated with vendors, eliminating the need for pre-setup",
+    "Team Members license users can now create sales or purchase quotes",
+    "Upon quote conversion or release, Business Central automatically generates a vendor record using a vendor template",
+    "The appropriate template is selected based on territory code, country/region code, and contact type from the contact record"
+  ],
+  "systems": [
+    "purchasing",
+    "crm",
+    "sales"
+  ],
+  "topics": [
+    "purchase quotes",
+    "contacts",
+    "vendor creation",
+    "bc28",
+    "release wave 1",
+    "purchase order conversion"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Purchase Quote"
+    }
+  ],
+  "features": [
+    "Create purchase quotes for contacts",
+    "Automatic vendor creation from template",
+    "Purchase quote to order conversion",
+    "Team Members license support for quotes"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can create purchase quotes for contacts that aren't yet associated with a vendor.",
+      "why_it_matters": "This is the core feature enabling preliminary purchasing discussion without vendor record setup"
+    },
+    {
+      "text": "When you convert the quote into an order or release the document, Business Central automatically creates the vendor using a vendor template.",
+      "why_it_matters": "Explains the workflow mechanics and how vendor records are generated from quote conversion"
+    },
+    {
+      "text": "Team Members license can also be used to create sales or purchase quotes.",
+      "why_it_matters": "Clarifies licensing eligibility for the new purchase quote capability"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

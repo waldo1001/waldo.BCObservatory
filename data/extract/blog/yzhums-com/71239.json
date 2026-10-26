@@ -1,0 +1,117 @@
+{
+  "item_id": "blog/yzhums-com/71239",
+  "url": "https://yzhums.com/71239/",
+  "title": "Business Central 2026 release wave 1 (BC28): Add the Description 2 field to various pages to gain more insight (planning, routing, production order creation, and related processes)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-09T01:01:55.000Z",
+  "words": 370,
+  "summary": "The Description 2 field is now available for personalization on multiple pages in Business Central 2026 release wave 1 (BC28), including production planning, routing, and production order creation pages. This field allows users to customize their workspace and display additional information across related manufacturing and planning processes.",
+  "key_points": [
+    "Description 2 field added at table level and supported across planning, routing, and production order workflows",
+    "Available for personalization on 17 pages including Production BOM Lines, Routing Lines, and Prod. Order Components",
+    "Continues Microsoft's pattern of adding personalizable fields in major updates to improve data visibility",
+    "Users can customize their workspace to display additional insight without page extensions"
+  ],
+  "systems": [
+    "manufacturing",
+    "development"
+  ],
+  "topics": [
+    "personalization",
+    "description 2 field",
+    "pages",
+    "bc28",
+    "2026 wave 1",
+    "manufacturing pages"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Production BOM Lines"
+    },
+    {
+      "type": "page",
+      "name": "Production BOM Version Lines"
+    },
+    {
+      "type": "page",
+      "name": "Prod. BOM Mat. per Ver. Matrix"
+    },
+    {
+      "type": "page",
+      "name": "Prod. BOM Version Comparison"
+    },
+    {
+      "type": "page",
+      "name": "Planning Component List"
+    },
+    {
+      "type": "page",
+      "name": "Planning Components"
+    },
+    {
+      "type": "page",
+      "name": "Prod. Order Comp. Lines"
+    },
+    {
+      "type": "page",
+      "name": "Prod. Order Components"
+    },
+    {
+      "type": "page",
+      "name": "Standard Tasks"
+    },
+    {
+      "type": "page",
+      "name": "Routing Lines"
+    },
+    {
+      "type": "page",
+      "name": "Routing Version Lines"
+    },
+    {
+      "type": "page",
+      "name": "Planning Routing"
+    },
+    {
+      "type": "page",
+      "name": "Prod. Order Routing"
+    },
+    {
+      "type": "page",
+      "name": "Prod. Order Routing Lines"
+    },
+    {
+      "type": "page",
+      "name": "Machine Center Task List"
+    },
+    {
+      "type": "page",
+      "name": "Work Center Task List"
+    }
+  ],
+  "features": [
+    "Description 2 field personalization",
+    "page customization",
+    "personalization feature"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The Description 2 field is added at the table level, and is fully supported in planning, routing, production order creation, and related processes.",
+      "why_it_matters": "Clarifies the scope and architectural foundation of where the new field is available, helping users understand its integration across manufacturing workflows."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

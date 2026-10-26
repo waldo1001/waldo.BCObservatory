@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/yzhums-com/71047",
+  "url": "https://yzhums.com/71047/",
+  "title": "Business Central 2026 release wave 1 (BC28): Show avatars for record creators and modifiers in lists (Created / Updated by) – Display data audit fields without customization",
+  "source": "yzhums-com",
+  "published_at": "2026-03-04T04:25:27.000Z",
+  "words": 572,
+  "summary": "Business Central 2026 wave 1 (BC28) introduces visual avatars in list pages to display which user or agent created or modified records, eliminating the need for customization to show creator and modifier identity information.",
+  "key_points": [
+    "Avatars appear in list view layouts without requiring page customization, indicating record creators and modifiers",
+    "Feature supports named users, system users, and AI agents following BC's existing identity model",
+    "Hovering over avatars shows tooltip with full display name and record timestamp",
+    "Users can toggle the Created/Updated by column on or off via view layout options",
+    "Benefits teams working with shared data by reducing verification time for ownership and responsibility"
+  ],
+  "systems": [
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "avatars",
+    "data audit",
+    "record tracking",
+    "user identification",
+    "ai agents",
+    "collaborative work"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "SystemCreatedBy"
+    },
+    {
+      "type": "other",
+      "name": "SystemModifiedBy"
+    },
+    {
+      "type": "other",
+      "name": "SystemCreatedAt"
+    },
+    {
+      "type": "other",
+      "name": "SystemModifiedAt"
+    }
+  ],
+  "features": [
+    "Avatars for record creators and modifiers",
+    "Data audit fields display",
+    "View layout options",
+    "Tooltip with display name and timestamp",
+    "AI agent identification",
+    "Excel export exclusion"
+  ],
+  "versions": [
+    "BC28",
+    "Business Central 2026 release wave 1",
+    "Business Central 2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Users can hover over the avatar to see a tooltip with the full display name and record update timestamp (if available).",
+      "why_it_matters": "Shows how users can quickly access detailed information without opening the record, improving efficiency"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

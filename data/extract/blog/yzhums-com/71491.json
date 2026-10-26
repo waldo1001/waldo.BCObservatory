@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/yzhums-com/71491",
+  "url": "https://yzhums.com/71491/",
+  "title": "Business Central 2026 release wave 1 (BC28): Allow Posting From/To DateFormula (A new way to specify posting periods)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-16T01:06:22.000Z",
+  "words": 858,
+  "summary": "Business Central 2026 wave 1 introduces Allow Posting From/To DateFormula fields that let you define posting periods using dynamic date formulas (like 'CM' for current month) instead of manually updating fixed dates. This replaces the need for constant manual updates to posting date restrictions.",
+  "key_points": [
+    "DateFormula fields calculate posting boundaries relative to the work date, eliminating manual date maintenance each period",
+    "Formulas support relative date expressions combining letters (C, D, W, M, Q, Y) and numbers (e.g., 'CM+1M' for current month plus one month)",
+    "The feature applies to both General Ledger Setup and User Setup, allowing company-wide and user-specific posting period rules",
+    "The two methods are mutually exclusive per field, but you can mix static dates and formulas across different fields for flexible control"
+  ],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "posting periods",
+    "date formulas",
+    "general ledger",
+    "bc28",
+    "release wave 1",
+    "posting restrictions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    }
+  ],
+  "features": [
+    "Allow Posting From DateFormula",
+    "Allow Posting To DateFormula",
+    "Dynamic posting period configuration",
+    "Relative date calculations",
+    "User-specific posting date ranges"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This formula is calculated based on the 'Work Date' from My Settings, not the system's 'Today' date.",
+      "why_it_matters": "Critical implementation detail ensuring consistency with existing posting period behavior and preventing date mismatches."
+    },
+    {
+      "text": "Say goodbye to manual date updates!",
+      "why_it_matters": "Summarizes the key benefit and motivation for organizations managing recurring posting period changes."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

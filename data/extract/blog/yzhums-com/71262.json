@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/yzhums-com/71262",
+  "url": "https://yzhums.com/71262/",
+  "title": "Business Central 2026 release wave 1 (BC28): Run AL objects and open record references using fully qualified names (Support for namespaces and fully qualified names)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-09T05:44:22.000Z",
+  "words": 358,
+  "summary": "Business Central 2026 release wave 1 (BC28) adds support for namespaces and fully qualified names in AL, allowing developers to run codeunits, pages, and reports and open table references using fully qualified names instead of numeric IDs. This feature helps organize code into logical groups and prevents naming conflicts when libraries are combined.",
+  "key_points": [
+    "New method overloads enable running codeunits, pages, and reports using fully qualified names like 'Microsoft.Sales.Posting.\"Sales-Post\"'",
+    "RecordRef.Open can now be invoked with the fully qualified name of a table",
+    "Record and RecordRef instances expose a new FullyQualifiedName property",
+    "Namespaces organize code into logical groups and hierarchies to prevent naming conflicts and enable name reuse across different contexts"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "namespaces",
+    "fully qualified names",
+    "al objects",
+    "record references",
+    "bc28",
+    "2026 wave 1"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Sales-Post"
+    },
+    {
+      "type": "page",
+      "name": "Payment Terms"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "Namespaces in AL",
+    "Fully qualified names for AL objects",
+    "Running codeunits by fully qualified name",
+    "Running pages by fully qualified name",
+    "Running reports by fully qualified name",
+    "Opening table references by fully qualified name",
+    "FullyQualifiedName property"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Namespaces are used to organize code into logical groups and hierarchies, which can prevent naming conflicts that can occur when libraries are combined.",
+      "why_it_matters": "Explains the core benefit of namespaces for managing code complexity and library integration in Business Central development"
+    },
+    {
+      "text": "New method overloads are introduced to support running codeunits, pages, and reports using their fully-qualified names.",
+      "why_it_matters": "Describes the practical implementation that enables developers to reference AL objects by name rather than numeric ID"
+    },
+    {
+      "text": "Record and RecordRef instances now expose a FullyQualifiedName property.",
+      "why_it_matters": "Indicates that both record types provide access to their fully qualified names for dynamic reference handling"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

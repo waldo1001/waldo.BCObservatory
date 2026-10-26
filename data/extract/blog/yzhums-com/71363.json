@@ -1,0 +1,49 @@
+{
+  "item_id": "blog/yzhums-com/71363",
+  "url": "https://yzhums.com/71363/",
+  "title": "Business Central 2026 release wave 1 (BC28): New template for getting started with creating agents",
+  "source": "yzhums-com",
+  "published_at": "2026-03-12T05:16:12.000Z",
+  "words": 261,
+  "summary": "Business Central 2026 release wave 1 introduces a new Agent template for VS Code that streamlines agent creation with built-in guidance on starting ID, object configuration, and server selection.",
+  "key_points": [
+    "A new Agent template is available via the AL: New Project command in VS Code",
+    "The template includes instructions for getting started with agent development",
+    "Users configure object ID ranges, select servers, and download symbol files through the template workflow",
+    "This builds on the AL: New Project command introduced in BC26"
+  ],
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "agents",
+    "templates",
+    "al development",
+    "vs code"
+  ],
+  "objects": [],
+  "features": [
+    "Agent template",
+    "AL: New Project command"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can easily design and code agents using this template.",
+      "why_it_matters": "Highlights the practical benefit for agent development workflows"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

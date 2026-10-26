@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/71425",
+  "url": "https://yzhums.com/71425/",
+  "title": "Business Central 2026 release wave 1 (BC28): Match purchase invoices to multiple order and receipt lines (new Get Order Lines action)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-13T01:10:03.000Z",
+  "words": 812,
+  "summary": "Business Central 2026 wave 1 introduces a new Get Order Lines action that allows matching purchase invoice lines to multiple purchase order and receipt lines flexibly, replacing the line-to-line matching of the existing Get Receipt Lines action. This feature works with received and non-received orders and includes an optional Receipt on Invoice toggle for automatic receipt posting.",
+  "key_points": [
+    "The new Get Order Lines action lets you match one invoice line to multiple purchase order lines, not just one-to-one matching",
+    "You can match invoice lines to orders whether or not receipts have been posted, providing flexibility for non-received goods",
+    "The Receipt on Invoice toggle automatically creates receipts when the invoice is posted, streamlining the workflow",
+    "The feature has limitations: no prepayments, item charges, projects, subcontracting, blanket orders, or intercompany transactions",
+    "Matched Invoice Lines field on purchase orders tracks quantities matched via invoice lines"
+  ],
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "purchase invoicing",
+    "order matching",
+    "receipt processing",
+    "procurement workflow"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Matched Order Lines"
+    }
+  ],
+  "features": [
+    "Get Order Lines action",
+    "Match purchase invoices to multiple order and receipt lines",
+    "Receipt on Invoice toggle",
+    "Matched Invoice Lines field",
+    "Flexible invoice matching"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can match each invoice line to any number of purchase order lines, regardless of whether receipts exist.",
+      "why_it_matters": "This shows the core flexibility gain: matching is decoupled from receipt status, enabling more workflows than the previous line-to-line approach"
+    },
+    {
+      "text": "When you turn on the new Receipt on Invoice toggle on the order, posting the linked invoice automatically creates the required receipts.",
+      "why_it_matters": "Describes the automation benefit that can reduce manual receipt entry steps when invoicing non-received orders"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

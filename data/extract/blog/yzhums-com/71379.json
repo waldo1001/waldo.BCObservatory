@@ -1,0 +1,89 @@
+{
+  "item_id": "blog/yzhums-com/71379",
+  "url": "https://yzhums.com/71379/",
+  "title": "Business Central 2026 release wave 1 (BC28): Manage database index usage and cost per company (View index and Turn off indexes)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-12T00:59:26.000Z",
+  "words": 585,
+  "summary": "Business Central 2026 wave 1 introduces the ability to view database index details in the UI and selectively disable non-unique indexes per company to reduce storage costs and improve write performance. This feature helps administrators and developers optimize database usage directly from the Database Index Information page.",
+  "key_points": [
+    "The new Database Index Information page shows per-index details including storage usage, SQL Server statistics, and index type",
+    "Non-unique indexes with low usage can be disabled per company to reduce storage costs and improve write performance",
+    "Unique indexes, primary keys, SIFT, and systemid indexes are protected from disabling",
+    "Disabling an index takes effect immediately while enabling is queued for the next scheduled midnight maintenance process"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database indexes",
+    "performance optimization",
+    "storage cost reduction",
+    "index management",
+    "sql server"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Database Index"
+    },
+    {
+      "type": "page",
+      "name": "Table Information"
+    },
+    {
+      "type": "page",
+      "name": "Database Index Information"
+    },
+    {
+      "type": "page",
+      "name": "Table Data Management"
+    },
+    {
+      "type": "page",
+      "name": "Database Wait Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Database Missing Indexes"
+    }
+  ],
+  "features": [
+    "View index information",
+    "Database index details UI",
+    "Turn off indexes per company",
+    "Index storage usage display",
+    "SQL Server index usage statistics",
+    "Index type classification"
+  ],
+  "versions": [
+    "2026 release wave 1",
+    "BC28",
+    "28.0 public preview",
+    "BC20"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can turn off non-unique indexes with low usage to reduce storage costs and improve write performance.",
+      "why_it_matters": "This is the core capability that helps organizations optimize their database resources by selectively disabling underutilized indexes."
+    },
+    {
+      "text": "Unique indexes, primary keys, SIFT, and systemid indexes are protected from disabling.",
+      "why_it_matters": "This explains important guardrails that prevent accidental disabling of critical indexes that maintain data integrity."
+    },
+    {
+      "text": "Disabling an index takes effect immediately. Enabling an index is queued for the next scheduled midnight process.",
+      "why_it_matters": "Understanding the timing differences between disabling and enabling indexes is crucial for operational planning."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

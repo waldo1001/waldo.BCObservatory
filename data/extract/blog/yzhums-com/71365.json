@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/71365",
+  "url": "https://yzhums.com/71365/",
+  "title": "Business Central 2026 release wave 1 (BC28): AL developers can use semantic search on data and metadata",
+  "source": "yzhums-com",
+  "published_at": "2026-03-11T06:19:04.000Z",
+  "words": 330,
+  "summary": "AL developers in Business Central 2026 release wave 1 can use semantic ranking to search both data and metadata with similarity-based queries through the new Semantic Data Search codeunit. The feature is currently restricted to on-premises environments only.",
+  "key_points": [
+    "New codeunit 2000000025 enables semantic search on metadata objects and data records with similarity ranking",
+    "Developers can query records using similarity-based syntax like TOP n by similarity to search terms",
+    "Methods include SetMaxResults, SetSearchTarget, and FindSimilarByField for controlling searches",
+    "Currently scoped to OnPrem only, unavailable for cloud extensions due to scope restrictions"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "semantic search",
+    "al development",
+    "metadata",
+    "bc28",
+    "2026 release wave 1",
+    "public preview"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Semantic Data Search"
+    },
+    {
+      "type": "codeunit",
+      "name": "Semantic Search"
+    }
+  ],
+  "features": [
+    "semantic ranking",
+    "similarity-based queries",
+    "metadata search",
+    "data search",
+    "SetMaxResults method",
+    "SetSearchTarget method",
+    "FindSimilarByField method"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The Scope attribute is currently set to OnPrem. This means it cannot be used in the cloud version.",
+      "why_it_matters": "Critical limitation explaining why the feature is unavailable for cloud extension development"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

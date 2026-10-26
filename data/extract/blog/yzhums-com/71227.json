@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/yzhums-com/71227",
+  "url": "https://yzhums.com/71227/",
+  "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (March, 2026)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-07T03:49:37.000Z",
+  "words": 937,
+  "summary": "This post summarizes cumulative updates released for Microsoft Dynamics 365 Business Central in March 2026, covering BC28 public preview for the 2026 release wave 1, current production versions BC27, BC26, BC25, and end-of-life versions. It includes version numbers, support timelines, and links to detailed release notes.",
+  "key_points": [
+    "BC28 (2026 release wave 1) is available as public preview for testing and will not support production migration",
+    "BC27.5 is current production version for 2025 wave 2, with BC26.11 available for 2025 wave 1 customers",
+    "Support dates follow Modern Lifecycle Policy for on-premises with version 27.x supported until April 2027",
+    "Preview environments may be updated or deleted without notice and cannot be upgraded to production"
+  ],
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "release management",
+    "cumulative updates",
+    "version support",
+    "preview environments",
+    "lifecycle policy"
+  ],
+  "objects": [],
+  "features": [
+    "Preview environments",
+    "Major version updates",
+    "Sandbox management",
+    "Environment updates"
+  ],
+  "versions": [
+    "28.0",
+    "27.5",
+    "27.0",
+    "26.11",
+    "25.17",
+    "24.18"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Sandboxes on a preview version are intended only for testing and review of features coming in the next release.",
+      "why_it_matters": "Clarifies that preview environments are restricted to testing and cannot become production environments"
+    },
+    {
+      "text": "The environment cannot be updated to a production version. It must remain in preview until it is deleted.",
+      "why_it_matters": "Critical limitation for organizations planning preview adoption, preventing migration paths to production"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

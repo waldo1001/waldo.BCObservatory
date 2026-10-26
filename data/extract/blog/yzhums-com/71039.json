@@ -1,0 +1,85 @@
+{
+  "item_id": "blog/yzhums-com/71039",
+  "url": "https://yzhums.com/71039/",
+  "title": "Business Central 2026 release wave 1 (BC28): Include approvals for requisition worksheets and item journals in your workflows (New standard workflows)",
+  "source": "yzhums-com",
+  "published_at": "2026-03-06T02:16:17.000Z",
+  "words": 469,
+  "summary": "Business Central 2026 release wave 1 (BC28) extends approval workflows to item journals and requisition/planning worksheets, allowing batch-level approval reviews before posting or converting documents. This prevents unauthorized modifications during pending approvals and works with Power Automate.",
+  "key_points": [
+    "Item journals, physical inventory, output, and consumption journals now support approval workflows similar to general journal batches",
+    "Requisition and planning worksheets can be sent for batch-level approval before converting lines to purchase documents or executing planning",
+    "Active approval requests lock records against editing, deletion, or posting until approval is completed or canceled",
+    "Line-level approvals are not yet supported; approvals only work at the batch level for worksheets"
+  ],
+  "systems": [
+    "purchasing",
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "workflows",
+    "approvals",
+    "requisition worksheets",
+    "item journals",
+    "automation",
+    "bc28"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Item Journal"
+    },
+    {
+      "type": "other",
+      "name": "Physical Inventory Journal"
+    },
+    {
+      "type": "other",
+      "name": "Output Journal"
+    },
+    {
+      "type": "other",
+      "name": "Consumption Journal"
+    },
+    {
+      "type": "other",
+      "name": "Requisition Worksheets"
+    },
+    {
+      "type": "other",
+      "name": "Planning Worksheets"
+    }
+  ],
+  "features": [
+    "Approval workflows for item journals",
+    "Approval workflows for requisition worksheets",
+    "Approval workflows for planning worksheets",
+    "Batch-level approval locking",
+    "Approve, Reject, Delegate approval actions",
+    "Power Automate support for workflows",
+    "Workflow status display"
+  ],
+  "versions": [
+    "2026 release wave 1 (BC28)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "When an approval request is created for a worksheet batch, you can't insert, modify, or delete requisition or planning lines.",
+      "why_it_matters": "Demonstrates how approvals prevent data changes during pending decisions, protecting planning integrity"
+    },
+    {
+      "text": "Microsoft Power Automate support is available through updated workflow events and responses.",
+      "why_it_matters": "Enables integration with cloud-based automation tools beyond Business Central's standard workflows"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

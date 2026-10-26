@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/70952",
+  "url": "https://yzhums.com/70952/",
+  "title": "Business Central 2026 release wave 1 (BC28): Add pictures to item variants to differentiate product options",
+  "source": "yzhums-com",
+  "published_at": "2026-03-03T01:21:26.000Z",
+  "words": 418,
+  "summary": "Business Central 2026 release wave 1 introduces the ability to add pictures to item variants, enabling users to visually differentiate product options like colors or sizes. This standard feature helps reduce picking errors and improves warehouse and sales workflows.",
+  "key_points": [
+    "Users can store images for item variants directly in the Item Variant Card via a Picture FactBox",
+    "Supported actions include importing files, taking photos with device camera, exporting, or deleting images",
+    "Variant pictures help quickly recognize differences and improve accuracy in warehouse picking and sales quotes",
+    "Item variants allow organizing large numbers of similar items that differ only in attributes like color"
+  ],
+  "systems": [
+    "inventory",
+    "warehouse",
+    "sales"
+  ],
+  "topics": [
+    "item variants",
+    "product images",
+    "visual differentiation",
+    "warehouse picking",
+    "sales",
+    "product variants"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Variant Card"
+    }
+  ],
+  "features": [
+    "Picture FactBox on Item Variant Card",
+    "Import images for variants",
+    "Capture photos with device camera",
+    "Export variant images",
+    "Delete variant images",
+    "Visual product differentiation"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "From streamlining warehouse picking to enhancing your customer-facing sales quotes, leveraging item images can significantly reduce errors and improve your daily workflow.",
+      "why_it_matters": "Demonstrates the practical business value of variant images across multiple operational areas."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
