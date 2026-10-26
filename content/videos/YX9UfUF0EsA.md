@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:12.529Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -113,8 +113,38 @@ links:
       label: possibly related
       why: both name Page 31 "Item List"
       by: code
+    - to: post/yzhums-com/70986
+      title: "Business Central 2026 release wave 1 (BC28): Define item attributes for item variants"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
     - to: video/Fk6kWTe3f2Y
       title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/74523
+      title: "Dynamics 365 Business Central Blog Series: Item Attributes"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/74458
+      title: "Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/74476
+      title: "Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/72069
+      title: "Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/73895
+      title: "Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one"
       label: possibly related
       why: both name Page 31 "Item List"
       by: code
@@ -127,16 +157,6 @@ links:
       title: "What's New: Data Analysis (2025 release wave 1)"
       label: possibly related
       why: both name Page 9305 "Sales Order List"
-      by: code
-    - to: video/fJGY6d-2lO8
-      title: "What's New: Enhanced Sales Analytics (2026 release wave 1)"
-      label: possibly related
-      why: both name Page 9305 "Sales Order List"
-      by: code
-    - to: video/6vHJQggN4F4
-      title: "What's New: Product Information Management in Shopify Connector (2026 release wave 1)"
-      label: possibly related
-      why: both name Page 31 "Item List"
       by: code
 video_id: YX9UfUF0EsA
 channel: yt-mibuso
@@ -540,10 +560,14 @@ Not found in BC28-30: page "customer", page "Copilot and agent capabilities page
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [20260713 - From Zero to Agent Building agents in Business Central](../videos/nbGw2g3KMXI.md) — possibly related: both name Page 31 "Item List"
+- [Business Central 2026 release wave 1 (BC28): Define item attributes for item variants](../posts/yzhums-com/70986.md) — possibly related: both name Page 31 "Item List"
 - [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central Blog Series: Item Attributes](../posts/yzhums-com/74523.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../posts/yzhums-com/74458.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page](../posts/yzhums-com/74476.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page](../posts/yzhums-com/72069.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one](../posts/yzhums-com/73895.md) — possibly related: both name Page 31 "Item List"
 - [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../videos/jqVt0hYDfz0.md) — possibly related: both name Page 9305 "Sales Order List"
 - [What's New: Data Analysis (2025 release wave 1)](../videos/Rh1AFX9A1x4.md) — possibly related: both name Page 9305 "Sales Order List"
-- [What's New: Enhanced Sales Analytics (2026 release wave 1)](../videos/fJGY6d-2lO8.md) — possibly related: both name Page 9305 "Sales Order List"
-- [What's New: Product Information Management in Shopify Connector (2026 release wave 1)](../videos/6vHJQggN4F4.md) — possibly related: both name Page 31 "Item List"
 
 Presenters (as heard): Anson, Yulia, Elia, Erdem, Julia, Poaje, Luke.

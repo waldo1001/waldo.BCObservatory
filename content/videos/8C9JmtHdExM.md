@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:08:26.640Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -67,6 +67,31 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/73513
+      title: "Business Central 2026 release wave 1 (BC28): Calculate excise taxes"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/yzhums-com/71463
+      title: "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/yzhums-com/70986
+      title: "Business Central 2026 release wave 1 (BC28): Define item attributes for item variants"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/yzhums-com/71758
+      title: "Business Central 2026 release wave 1 (BC28): Get item insights with advanced KPIs and Summary (new Item Statistics page)"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/yzhums-com/71666
+      title: "Business Central 2026 release wave 1 (BC28): Use self-billed invoices"
+      label: possibly related
+      why: both name Page 26 "Vendor Card"
+      by: code
     - to: video/fpc_XlVEnWw
       title: Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central
       label: possibly related
@@ -87,35 +112,10 @@ links:
       label: possibly related
       why: both name Page 30 "Item Card"
       by: code
-    - to: video/X3xygXmgRqU
-      title: How to Set Up Locations in Business Central (2025)
+    - to: post/yzhums-com/70554
+      title: "Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)"
       label: possibly related
       why: both name Page 30 "Item Card"
-      by: code
-    - to: post/gerardorenteria-blog/11203
-      title: New Application Ideas of Dynamics 365 Business Central (2025 MAY)
-      label: possibly related
-      why: both name Page 30 "Item Card"
-      by: code
-    - to: post/aardvarklabs-blog/3680
-      title: Step-by-Step Guide to Custom User Controls in Business Central
-      label: possibly related
-      why: both name Page 26 "Vendor Card"
-      by: code
-    - to: video/vnaySMIKnp8
-      title: "What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)"
-      label: possibly related
-      why: both name Page 30 "Item Card"
-      by: code
-    - to: video/UKVp28M5TtU
-      title: "What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)"
-      label: possibly related
-      why: both name Page 30 "Item Card"
-      by: code
-    - to: video/iHgaNJucyvI
-      title: "What's new: Add existing table fields to pages (2023 release wave 2)"
-      label: possibly related
-      why: both name Page 26 "Vendor Card"
       by: code
 video_id: 8C9JmtHdExM
 channel: yt-microsoft
@@ -249,13 +249,13 @@ Not found in BC28-30: page "over receipt codes".
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Business Central 2026 release wave 1 (BC28): Calculate excise taxes](../posts/yzhums-com/73513.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2026 release wave 1 (BC28): Define item attributes for item variants](../posts/yzhums-com/70986.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2026 release wave 1 (BC28): Get item insights with advanced KPIs and Summary (new Item Statistics page)](../posts/yzhums-com/71758.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2026 release wave 1 (BC28): Use self-billed invoices](../posts/yzhums-com/71666.md) — possibly related: both name Page 26 "Vendor Card"
 - [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../videos/fpc_XlVEnWw.md) — possibly related: both name Page 26 "Vendor Card"
 - [Define Item Attributes for Item Variants](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) — possibly related: both name Page 30 "Item Card"
 - [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 30 "Item Card"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 30 "Item Card"
-- [How to Set Up Locations in Business Central (2025)](../videos/X3xygXmgRqU.md) — possibly related: both name Page 30 "Item Card"
-- [New Application Ideas of Dynamics 365 Business Central (2025 MAY)](../posts/gerardorenteria-blog/11203.md) — possibly related: both name Page 30 "Item Card"
-- [Step-by-Step Guide to Custom User Controls in Business Central](../posts/aardvarklabs-blog/3680.md) — possibly related: both name Page 26 "Vendor Card"
-- [What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)](../videos/vnaySMIKnp8.md) — possibly related: both name Page 30 "Item Card"
-- [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../videos/UKVp28M5TtU.md) — possibly related: both name Page 30 "Item Card"
-- [What's new: Add existing table fields to pages (2023 release wave 2)](../videos/iHgaNJucyvI.md) — possibly related: both name Page 26 "Vendor Card"
+- [Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)](../posts/yzhums-com/70554.md) — possibly related: both name Page 30 "Item Card"

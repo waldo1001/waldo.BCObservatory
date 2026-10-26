@@ -2,7 +2,7 @@
 id: source/vjeko-com
 type: source
 title: Vjeko.com
-summary: "Vjeko.com (Vjekoslav Babić, MVP): 21 posts in the knowledge base, 2025-11-09 to 2026-07-22, mostly about development, platform, administration."
+summary: "Vjeko.com (Vjekoslav Babić, MVP): 22 posts in the knowledge base, 2025-11-09 to 2026-07-22, mostly about development, copilot, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-25T16:55:04.528Z"
+  at: "2026-10-26T05:30:48.114Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4e0aebd0976e08b61509a7fdfa8801f912643214e3fd2c49d49c159b50f79ab2
+  input_hash: 17b6100daa5bb4caa90f98969e5841ced97247ee4349cffa96e3e9ad76b02ea7
 evidence:
   - kind: blog
     url: https://vjeko.com
@@ -48,6 +48,7 @@ links:
     - post/vjeko-com/https-vjeko-com-2026-03-14-context-engineering-the-thing-almost-nobody-is-actually-talking-about--a5c42b9d92
     - post/vjeko-com/https-vjeko-com-2026-03-16-your-object-ids-have-no-excuse-now-ninja-comes-to-ci-cd--23a5752190
     - post/vjeko-com/https-vjeko-com-2026-05-03-the-mcp-bridge-al-language-tools-for-every-agent--0ac0db88f4
+    - post/vjeko-com/https-vjeko-com-2026-05-28-the-lump-of-labour-fallacy-fallacy--f782761543
     - post/vjeko-com/https-vjeko-com-2026-05-30-ubi-wont-save-us-and-the-nurse-will-tell-you-why--6c1afb4fe0
     - post/vjeko-com/https-vjeko-com-2026-06-07-from-beep-to-empty-seat-the-six-levels-of-self-driving-code--216cd64368
     - post/vjeko-com/https-vjeko-com-2026-07-01-what-to-do-in-the-age-of-code-printing--30e9caf25f
@@ -61,17 +62,17 @@ url: https://vjeko.com
 author: Vjekoslav Babić
 mvp: true
 full_text: false
-item_count: 21
+item_count: 22
 footprint:
   systems:
     - id: development
       weight: 40
+    - id: copilot
+      weight: 4
     - id: platform
       weight: 4
     - id: administration
       weight: 3
-    - id: copilot
-      weight: 2
     - id: integration
       weight: 1
   topics:
@@ -85,15 +86,15 @@ footprint:
       weight: 4
     - id: agentic coding
       weight: 3
+    - id: automation
+      weight: 3
     - id: vs code extension
       weight: 3
+    - id: agents
+      weight: 2
     - id: ai agents
       weight: 2
     - id: al object ids
-      weight: 2
-    - id: automation
-      weight: 2
-    - id: commercial service
       weight: 2
   objects:
     - id: codeunit Sales-Post
@@ -107,7 +108,7 @@ last_item: "2026-07-22"
 
 # Vjeko.com
 
-> Vjeko.com (Vjekoslav Babić, MVP): 21 posts in the knowledge base, 2025-11-09 to 2026-07-22, mostly about development, platform, administration.
+> Vjeko.com (Vjekoslav Babić, MVP): 22 posts in the knowledge base, 2025-11-09 to 2026-07-22, mostly about development, copilot, platform.
 
 [https://vjeko.com](https://vjeko.com) · blog · tier community
 
@@ -116,15 +117,15 @@ last_item: "2026-07-22"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (40) | al development (7) | codeunit Sales-Post (1) |
-| platform (4) | al object id ninja (5) | table VAT Entry (1) |
-| administration (3) | agentic engineering (4) |  |
-| copilot (2) | object id management (4) |  |
+| copilot (4) | al object id ninja (5) | table VAT Entry (1) |
+| platform (4) | agentic engineering (4) |  |
+| administration (3) | object id management (4) |  |
 | integration (1) | agentic coding (3) |  |
+|  | automation (3) |  |
 |  | vs code extension (3) |  |
+|  | agents (2) |  |
 |  | ai agents (2) |  |
 |  | al object ids (2) |  |
-|  | automation (2) |  |
-|  | commercial service (2) |  |
 
 ## Flight path
 
@@ -132,7 +133,7 @@ Items per quarter, oldest first:
 
 - 2025-Q4: ******* 7
 - 2026-Q1: ******* 7
-- 2026-Q2: *** 3
+- 2026-Q2: **** 4
 - 2026-Q3: **** 4
 
 ## Most recent
@@ -143,6 +144,7 @@ Items per quarter, oldest first:
 - [What to do in the age of code printing](../posts/vjeko-com/https-vjeko-com-2026-07-01-what-to-do-in-the-age-of-code-printing--30e9caf25f.md) (2026-07-01)
 - [From beep to empty seat: the six levels of self-driving code](../posts/vjeko-com/https-vjeko-com-2026-06-07-from-beep-to-empty-seat-the-six-levels-of-self-driving-code--216cd64368.md) (2026-06-07)
 - [UBI won’t save us, and the nurse will tell you why](../posts/vjeko-com/https-vjeko-com-2026-05-30-ubi-wont-save-us-and-the-nurse-will-tell-you-why--6c1afb4fe0.md) (2026-05-30)
+- [The lump of labour fallacy fallacy](../posts/vjeko-com/https-vjeko-com-2026-05-28-the-lump-of-labour-fallacy-fallacy--f782761543.md) (2026-05-28)
 - [The MCP Bridge: AL Language Tools for Every Agent](../posts/vjeko-com/https-vjeko-com-2026-05-03-the-mcp-bridge-al-language-tools-for-every-agent--0ac0db88f4.md) (2026-05-03)
 - [Your Object IDs Have No Excuse Now – Ninja Comes to CI/CD](../posts/vjeko-com/https-vjeko-com-2026-03-16-your-object-ids-have-no-excuse-now-ninja-comes-to-ci-cd--23a5752190.md) (2026-03-16)
 - [Context Engineering – The Thing Almost Nobody Is Actually Talking About](../posts/vjeko-com/https-vjeko-com-2026-03-14-context-engineering-the-thing-almost-nobody-is-actually-talking-about--a5c42b9d92.md) (2026-03-14)
@@ -156,6 +158,5 @@ Items per quarter, oldest first:
 - [AL Object ID Ninja v3.0 Platform Launching on December 15](../posts/vjeko-com/https-vjeko-com-2025-12-08-al-object-id-ninja-v3-0-platform-launching-on-december-15--248a687f29.md) (2025-12-08)
 - [A Story About Trust: Why LS Retail Moved from Private Endpoints to the Hosted Ninja Backend](../posts/vjeko-com/https-vjeko-com-2025-12-03-a-story-about-trust-why-one-team-moved-from-private-endpoints-to-the-host--2c269b6e36.md) (2025-12-03)
 - [AL Object ID Ninja: Self-Hosting vs. Hassle-Free (the data tells a curious story)](../posts/vjeko-com/https-vjeko-com-2025-11-19-al-object-id-ninja-self-hosting-vs-hassle-free-the-data-tells-a-curious-s--c583681ec9.md) (2025-11-19)
-- [AL Object ID Ninja: Please Register Your Intent](../posts/vjeko-com/https-vjeko-com-2025-11-11-al-object-id-ninja-please-register-your-intent--055ccaeff8.md) (2025-11-11)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

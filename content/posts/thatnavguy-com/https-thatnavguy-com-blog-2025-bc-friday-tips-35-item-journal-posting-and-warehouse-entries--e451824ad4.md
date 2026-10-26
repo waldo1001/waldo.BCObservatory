@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T02:00:42.586Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-10-26T05:30:48.114Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -57,6 +57,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/71605
+      title: "Business Central 2026 release wave 1 (BC28): Post purchase invoices for drop shipments independently of related sales invoices"
+      label: possibly related
+      why: both name Codeunit 22 "Item Jnl.-Post Line"
+      by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/design-details-cost-adjustment
       title: Design details - Cost adjustment
       label: possibly related
@@ -150,6 +155,7 @@ As named in the post. A name that matches one object page by exact type and name
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Business Central 2026 release wave 1 (BC28): Post purchase invoices for drop shipments independently of related sales invoices](../../posts/yzhums-com/71605.md) — possibly related: both name Codeunit 22 "Item Jnl.-Post Line"
 - [Design details - Cost adjustment](https://learn.microsoft.com/dynamics365/business-central/design-details-cost-adjustment) — possibly related: names Codeunit 22 "Item Jnl.-Post Line"
 - [Design details - Item tracking posting structure](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure) — possibly related: names Codeunit 22 "Item Jnl.-Post Line"
 - [New Application Ideas of Dynamics 365 Business Central (2025 NOV)](../../posts/gerardorenteria-blog/13043.md) — possibly related: both name Codeunit 22 "Item Jnl.-Post Line"

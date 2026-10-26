@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:59:36.338Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -111,8 +111,18 @@ links:
       label: possibly related
       why: both name Page 21 "Customer Card"
       by: code
+    - to: post/yzhums-com/70630
+      title: "Dynamics 365 Business Central: A universal method to check if a Field has a value in AL"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
     - to: post/demiliani-com/12439
       title: "Dynamics 365 Business Central: controlling the Summary system part."
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/yzhums-com/75649
+      title: "Dynamics 365 Business Central: How to quickly remove Non-Alphanumeric Characters in AL"
       label: possibly related
       why: both name Page 21 "Customer Card"
       by: code
@@ -128,16 +138,6 @@ links:
       by: code
     - to: video/X3xygXmgRqU
       title: How to Set Up Locations in Business Central (2025)
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: post/aardvarklabs-blog/1609
-      title: "Integrating AI in Business Central: A Step-by-Step Guide"
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: post/aardvarklabs-blog/3255
-      title: Navigating Namespace Changes in Business Central 28
       label: possibly related
       why: both name Page 21 "Customer Card"
       by: code
@@ -311,11 +311,11 @@ No source states these links: they share an object, a model read them, or a pers
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../posts/aardvarklabs-blog/2565.md) — possibly related: both name Page 21 "Customer Card"
 - [Business Central BC29: Control Global Symbol Versions](../videos/sIWz2yPqLpo.md) — possibly related: both name Page 21 "Customer Card"
 - [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../videos/_JkZCp64jNw.md) — possibly related: both name Page 21 "Customer Card"
+- [Dynamics 365 Business Central: A universal method to check if a Field has a value in AL](../posts/yzhums-com/70630.md) — possibly related: both name Page 21 "Customer Card"
 - [Dynamics 365 Business Central: controlling the Summary system part.](../posts/demiliani-com/12439.md) — possibly related: both name Page 21 "Customer Card"
+- [Dynamics 365 Business Central: How to quickly remove Non-Alphanumeric Characters in AL](../posts/yzhums-com/75649.md) — possibly related: both name Page 21 "Customer Card"
 - [Effortless Layout Editing in Business Central](../posts/aardvarklabs-blog/1756.md) — possibly related: both name Page 21 "Customer Card"
 - [How Business Central Integrates with Microsoft Excel (2025)](../videos/6zj34hjbpGU.md) — possibly related: both name Page 21 "Customer Card"
 - [How to Set Up Locations in Business Central (2025)](../videos/X3xygXmgRqU.md) — possibly related: both name Page 21 "Customer Card"
-- [Integrating AI in Business Central: A Step-by-Step Guide](../posts/aardvarklabs-blog/1609.md) — possibly related: both name Page 21 "Customer Card"
-- [Navigating Namespace Changes in Business Central 28](../posts/aardvarklabs-blog/3255.md) — possibly related: both name Page 21 "Customer Card"
 
 Presenters (as heard): Mike.

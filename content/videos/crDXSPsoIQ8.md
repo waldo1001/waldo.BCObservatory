@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:18:24.469Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -85,6 +85,16 @@ links:
       by: code
     - to: video/tpAh4q3h8T8
       title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/yzhums-com/74523
+      title: "Dynamics 365 Business Central Blog Series: Item Attributes"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/yzhums-com/71582
+      title: "Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page"
       label: possibly related
       why: both name Page 42 "Sales Order"
       by: code
@@ -235,6 +245,8 @@ No source states these links: they share an object, a model read them, or a pers
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../videos/Vq9Nk6_uxmQ.md) — possibly related: both name Page 42 "Sales Order"
 - [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 42 "Sales Order"
 - [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central Blog Series: Item Attributes](../posts/yzhums-com/74523.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page](../posts/yzhums-com/71582.md) — possibly related: both name Page 42 "Sales Order"
 - [Introducing: Sales Order Agent (2025 release wave 1)](../videos/XhO4oFmoh1M.md) — possibly related: both name Page 42 "Sales Order"
 - [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../videos/qP0id91bIlA.md) — possibly related: both name Page 42 "Sales Order"
 - [What's New: Drop Shipments (2026 release wave 1)](../videos/DJ3LPRxn27g.md) — possibly related: both name Page 42 "Sales Order"

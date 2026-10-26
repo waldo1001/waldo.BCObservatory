@@ -3,10 +3,15 @@
 > Merged pull requests of Microsoft's Business Central code (microsoft/BCApps) that touch AL source: what changed, in our words,
 > joined by exact file path to the AL object pages. Tier official, metadata only. Frontmatter: schemas/frontmatter.change.json.
 
-1238 changes, newest first.
+1244 changes, newest first.
 
+- [#12929 [Main]"Use GLN in Electronic Documents" on the Company Information is not respected when importing E-Docs from Inbound E-Documents page using the Import XML action.](bcapps/12929.md): Fixed an issue where the GLN setting on Company Information was ignored when importing electronic documents via the Import XML action from the Inbound E-Documents page. (main, 2026-10-25, fix)
+- [#13107 CZ Registration No. verification must do integrity and schema check of the response](bcapps/13107.md): The CZ Registration No. validation against the ARES Czech business register now includes schema, integrity, and size checks before marking responses as Valid, similar to other unauthenticated integrations. (main, 2026-10-25, fix)
+- [#12927 Add AboutTitle and AboutText to Workflow Categories page](bcapps/12927.md): Added teaching tip content to the Workflow Categories page to provide users with contextual guidance, consistent with other workflow-related pages in the system. (main, 2026-10-24, feature)
+- [#12337 [MAIN]-Bug 642602: Address AL1430 and remove exception from ruleset](bcapps/12337.md): Resolved an AL1430 analyzer warning by removing redundant sorting logic from a report, eliminating the need for a temporary ruleset exception without requiring schema changes. (main, 2026-10-24, fix)
 - [#10477 [Bug Fix] #249: Raise populated ErrorInfo for Subscription Billing failures](bcapps/10477.md): Subscription Billing error handlers now raise the fully populated ErrorInfo object instead of plain-text errors, enabling interactive users to navigate to the offending record when document creation fails. (main, 2026-10-23, fix)
 - [#13183 [Master]-Service Order created from Service Contract does not populate header dimensions until Dimensions action is opened](bcapps/13183.md): Service orders created from service contracts now populate header dimensions automatically instead of requiring the Dimensions action to be opened first. (main, 2026-10-23, fix)
+- [#2293 Add support for protectedSettings to override lower priority settings](al-go/2293.md): Introduced a protectedSettings mechanism in AL-Go that allows organizations to prevent specific settings from being overridden by lower-priority sources unless explicitly marked as protected in those sources. (main, 2026-10-23, feature)
 - [#13165 [Master]-"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.](bcapps/13165.md): Fixes a license permission error on modifying G/L Entry (table 17) that appeared when running Update Registers from the G/L Registers page for old entries whose G/L Register No. is 0. The fix is in table 45 G/L Register in the W1, ES and APAC layers. (main, 2026-10-23, fix)
 - [#11258 [GB] IdealPostcodes: fix provider selection and address retrieval through the Postcode Service Manager framework](bcapps/11258.md): The IdealPostcodes postcode provider now correctly registers with the Postcode Service Manager framework and retrieves addresses by caching search results and resolving unmapped IDs through the API's resolve endpoint instead of a non-existent fetch endpoint. (main, 2026-10-23, fix)
 - [#9880 [Bug Fix] #620132: Prevent IRS 1099 data on vendor ledger entries of non-1099 vendors](bcapps/9880.md): Added validation to prevent IRS 1099 data from being entered on vendor ledger entries for vendors not set up for 1099 reporting. The validation checks that a vendor has an IRS 1099 Vendor Form Box Setup record for the selected reporting period before allowing IRS 1099 fields to be populated. (main, 2026-10-23, fix)
@@ -15,6 +20,7 @@
 - [#10384 [Extensibility][SubscriptionBilling] Make procedures necessary for custom Usage Data Connector externally accessible](bcapps/10384.md): Subscription Billing procedures for creating custom Usage Data Connectors are now externally accessible by removing internal keyword visibility modifiers. (main, 2026-10-23, feature)
 - [#12690 [Master]-You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](bcapps/12690.md): Manufacturing item journal posting no longer requires serial numbers for reversing capacity ledger entries with zero output, fixing an error when reversing capacity entries for serial-tracked items. (main, 2026-10-23, fix)
 - [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](bcapps/12783.md): Subcontractor price calculation for time-based operations now correctly multiplies the unit cost by the operation's run time factor when creating purchase requisitions and orders. (releases/29.x, 2026-10-23, fix)
+- [#13054 [FR] Delocalize delayed VAT and SEPA payment-slip integration](bcapps/13054.md): Moved French delayed VAT and SEPA direct debit payment-slip features from base layers to the Payment Management FR app, while maintaining reusable posting and calculation engines in the base application. (main, 2026-10-23, refactor)
 - [#13174 [E-Documents] Remove the PDF reader service credit memo upgrade](bcapps/13174.md): Removed an unused upgrade procedure and internal helper method for the PDF reader e-document service that was not referenced by any active workflow. (main, 2026-10-22, refactor)
 - [#12894 [PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice](bcapps/12894.md): The Payables Agent now recognizes vendor credit notes in PDFs (EN 16931 type 381) and creates purchase credit memos instead of invoices. A credit memo is applied to the invoice printed on the document only when exactly one open posted invoice of the pay-to vendor matches; otherwise it stays unapplied with a warning. (main, 2026-10-22, feature)
 - [#11997 Clarify Expense Agent Entra app permission checks](bcapps/11997.md): Permission checks for the Expense Agent Entra app have been reordered to match the setup flow and documented to clarify why non-SUPER users need additional permissions beyond Expense Mgmt. Admin. (main, 2026-10-22, refactor)
@@ -1248,39 +1254,40 @@
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
-- [#12453 Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2777964](https://github.com/microsoft/BCApps/pull/12453) (open into main, updated 2026-10-24)
-- [#13052 [Shopify] Upgrade tax matching to GPT-5.6 Ceres](https://github.com/microsoft/BCApps/pull/13052) (open into main, updated 2026-10-24)
-- [#9045 Config. Packages with Native AL XML Data Types](https://github.com/microsoft/BCApps/pull/9045) (open into main, updated 2026-10-24)
-- [#12818 Use AllowOutboundFromHandler in API test codeunits](https://github.com/microsoft/BCApps/pull/12818) (open into main, updated 2026-10-24)
-- [#12942 Doc. Attachment List Factbox: tighten the unfiltered-delete guard (follow-up to #12609)](https://github.com/microsoft/BCApps/pull/12942) (open into main, updated 2026-10-24)
-- [#12147 Bugs/add corp card basics](https://github.com/microsoft/BCApps/pull/12147) (open into main, updated 2026-10-24)
-- [#9587 Concurrent posting for General Ledger entries](https://github.com/microsoft/BCApps/pull/9587) (open into main, updated 2026-10-24)
-- [#11104 Extract NL customization to object extensions v3](https://github.com/microsoft/BCApps/pull/11104) (open into main, updated 2026-10-24)
-- [#12603 Features/extract intercompany module](https://github.com/microsoft/BCApps/pull/12603) (open into main, updated 2026-10-24)
-- [#12929 [Main]"Use GLN in Electronic Documents" on the Company Information is not respected when importing E-Docs from Inbound E-Documents page using the Import XML action.](https://github.com/microsoft/BCApps/pull/12929) (open into main, updated 2026-10-24)
-- [#13013 Add scoped runtime placeholders for AI test inputs](https://github.com/microsoft/BCApps/pull/13013) (open into main, updated 2026-10-24)
-- [#12867 [29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](https://github.com/microsoft/BCApps/pull/12867) (open into releases/29.x, updated 2026-10-24)
-- [#12516 [master] Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.](https://github.com/microsoft/BCApps/pull/12516) (open into main, updated 2026-10-24)
-- [#13224 [29.X]-"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.](https://github.com/microsoft/BCApps/pull/13224) (open into releases/29.x, updated 2026-10-24)
-- [#12467 [Master]-Close Income Statement does not split accurately by Dimension values since 28.3](https://github.com/microsoft/BCApps/pull/12467) (open into main, updated 2026-10-24)
-- [#13203 [main] Bug 656535 Additional Reporting Currency Difference After Closing Income Statement - related to 625803](https://github.com/microsoft/BCApps/pull/13203) (open into main, updated 2026-10-24)
-- [#12882 [Master] - Bug 651169: [Expense Agent] Exchange rate date limitation](https://github.com/microsoft/BCApps/pull/12882) (open into main, updated 2026-10-24)
-- [#13055 Pause the Sales Order Agent automatically in unattended companies](https://github.com/microsoft/BCApps/pull/13055) (open into main, draft, updated 2026-10-24)
-- [#13066 Upgrade E-Documents models](https://github.com/microsoft/BCApps/pull/13066) (open into main, draft, updated 2026-10-24)
-- [#13159 [29x] Bug 652332 Issuing multiple Reminders or Finance Charge Memos with Print, produces a PDF only for the last one- #12149](https://github.com/microsoft/BCApps/pull/13159) (open into releases/29.x, updated 2026-10-24)
-- [#13213 [29x] Bug 653921 Warehouse pick fails with "Nothing to handle" when an earlier unshipped pick uses a non-default shipment bin](https://github.com/microsoft/BCApps/pull/13213) (open into releases/29.x, updated 2026-10-24)
-- [#9296 Add test stability mode to the test tool](https://github.com/microsoft/BCApps/pull/9296) (open into main, draft, updated 2026-10-23)
-- [#12610 [Report Filename Manager] New app for configurable report output file names - Slice 651696 [vendor work]](https://github.com/microsoft/BCApps/pull/12610) (open into main, updated 2026-10-23)
-- [#13172 Export structured AI eval run data](https://github.com/microsoft/BCApps/pull/13172) (open into main, draft, updated 2026-10-23)
-- [#13221 [E-Document Connector][Sharepoint] Download fails with 404 if using folder that is not Default Document folder](https://github.com/microsoft/BCApps/pull/13221) (open into main, updated 2026-10-23)
-- [#9002 Port NAV Extract-ES-Cartera changes from bugs branch](https://github.com/microsoft/BCApps/pull/9002) (open into main, updated 2026-10-23)
-- [#11156 Allow controlled changes to item tracking codes](https://github.com/microsoft/BCApps/pull/11156) (open into main, draft, updated 2026-10-23)
-- [#13220 Fix average cost adjustment overflow on same-period transfers](https://github.com/microsoft/BCApps/pull/13220) (open into main, updated 2026-10-23)
-- [#9141 Delocalize FR local trial balance and journal reports into Reports FR app](https://github.com/microsoft/BCApps/pull/9141) (open into main, updated 2026-10-23)
-- [#12947 [MCP] Provide environment and company descriptions to the platform](https://github.com/microsoft/BCApps/pull/12947) (open into main, updated 2026-10-23)
+- [#12520 [29.X]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure](https://github.com/microsoft/BCApps/pull/12520) (open into releases/29.x, updated 2026-10-26)
+- [#13235 [Master]-Close Income Statement does not split accurately by Dimension values](https://github.com/microsoft/BCApps/pull/13235) (open into main, updated 2026-10-26)
+- [#12770 [Main]-Project Ledger Entry does not get the modified amount from Purchase Order Statistics if the Purchase line is of type G/L Account in the Spanish version.](https://github.com/microsoft/BCApps/pull/12770) (open into main, updated 2026-10-26)
+- [#13112 [Main][ALL-E] Canceling a posted purchase invoice fails or misallocates item charges assigned to posted document types other than Purchase ReceiptsInitial commit](https://github.com/microsoft/BCApps/pull/13112) (open into main, updated 2026-10-26)
+- [#12867 [29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](https://github.com/microsoft/BCApps/pull/12867) (open into releases/29.x, updated 2026-10-26)
+- [#12474 [Master]-Non-Deductible Reverse-Charge VAT Correction Is Posted to Purchase VAT Account Instead of Payment Discount Account.](https://github.com/microsoft/BCApps/pull/12474) (open into main, updated 2026-10-26)
+- [#12153 [Main]-Adjust Cost Creates an Output Value Entry with Entry Type = Variance and Expected Cost = Yes After Reversing a Finished Production Order.](https://github.com/microsoft/BCApps/pull/12153) (open into main, updated 2026-10-26)
+- [#12997 [Main] [ALL-E] Error in the allocation account function](https://github.com/microsoft/BCApps/pull/12997) (open into main, updated 2026-10-26)
+- [#13160 [Main][all-e]Changing Negative Amount Format to Parentheses modifies displayed decimal precision despite unchanged rounding settings in the Financial Reports](https://github.com/microsoft/BCApps/pull/13160) (open into main, updated 2026-10-26)
+- [#13103 Main [All-E] Vendor-supplied component purchase lines use incorrect requirement and Order DatesInitial commit](https://github.com/microsoft/BCApps/pull/13103) (open into main, updated 2026-10-26)
+- [#12998 [main] Discount is not taken into account on Renewal Offer using Sales Quote for Subscription Billing report layout.](https://github.com/microsoft/BCApps/pull/12998) (open into main, updated 2026-10-26)
+- [#12430 [main] Source Currency Code and Source Currency Amount not getting updated on Contract Deferral release G/L entries.](https://github.com/microsoft/BCApps/pull/12430) (open into main, updated 2026-10-26)
+- [#12516 [master] Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.](https://github.com/microsoft/BCApps/pull/12516) (open into main, updated 2026-10-26)
+- [#12796 [29.X]-Subscription Billing: Recurring Billing (Document Per = Contract Partner) Overwrites Contract Currency with Customer Currency Without Amount Conversion.653480 initial commit](https://github.com/microsoft/BCApps/pull/12796) (open into releases/29.x, updated 2026-10-26)
+- [#12467 [Master]-Close Income Statement does not split accurately by Dimension values since 28.3](https://github.com/microsoft/BCApps/pull/12467) (open into main, updated 2026-10-26)
+- [#12518 [29.X]Page cannot open because of FlowField 'Last Run By User'- #12304](https://github.com/microsoft/BCApps/pull/12518) (open into releases/29.x, updated 2026-10-26)
+- [#12519 [29.X]- Create Documents on Recurring Billing ignores the Partner filter and fails when a vendor billing proposal exists- #11637](https://github.com/microsoft/BCApps/pull/12519) (open into releases/29.x, updated 2026-10-26)
+- [#12762 [29.X]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](https://github.com/microsoft/BCApps/pull/12762) (open into releases/29.x, updated 2026-10-26)
+- [#8577 [Shopify] Fix #7724: Resolve Option 1 Name from existing Shopify Variant records](https://github.com/microsoft/BCApps/pull/8577) (open into main, updated 2026-10-26)
+- [#8643 Fix Subcontracting feature flag handler ObsoleteReason](https://github.com/microsoft/BCApps/pull/8643) (open into main, updated 2026-10-26)
+- [#9603 fix: avoid webhook workflow to crash when processing user does not have required read permission on notifiable table](https://github.com/microsoft/BCApps/pull/9603) (open into main, updated 2026-10-26)
+- [#9879 Fixes #8869: French sales reports must ignore comment lines when evaluating GetGoodsAndServicesText](https://github.com/microsoft/BCApps/pull/9879) (open into main, updated 2026-10-26)
+- [#10063 Fix the shadowed header cache in reminder line GetCurrencyCodeFromHeader](https://github.com/microsoft/BCApps/pull/10063) (open into main, updated 2026-10-26)
+- [#10153 Add DriveId overloads for SharePoint Graph Client drive item operations](https://github.com/microsoft/BCApps/pull/10153) (open into main, updated 2026-10-26)
+- [#10534 [W1] Subscription Billing - Configurable Text for Billing Period](https://github.com/microsoft/BCApps/pull/10534) (open into main, updated 2026-10-26)
+- [#10540 [Extensibility Request] issue 29518: make document logo position extensible](https://github.com/microsoft/BCApps/pull/10540) (open into main, updated 2026-10-26)
+- [#10557 10275 subscription billing dimensions](https://github.com/microsoft/BCApps/pull/10557) (open into main, updated 2026-10-26)
+- [#10640 Replace Continia Payment Management with Continia Banking](https://github.com/microsoft/BCApps/pull/10640) (open into main, updated 2026-10-26)
+- [#11026 Service Line CalcVATAmountLines: count VAT Difference once and clear filters before OnAfterCalcVATAmountLines](https://github.com/microsoft/BCApps/pull/11026) (open into main, updated 2026-10-26)
+- [#11256 [main] Add setup option to restore Sales and Purchase Order quantities when posting returns](https://github.com/microsoft/BCApps/pull/11256) (open into main, updated 2026-10-26)
 
 Open issues:
 
+- [#13233 [Bug]: Missing Filter Information in Return URL for Item Journal Lines (BC v27+)](https://github.com/microsoft/BCApps/issues/13233) (2026-10-25, Team: SCM)
 - [#13219 I will provide a fix for a bug](https://github.com/microsoft/BCApps/issues/13219) (2026-10-23, Ownership: Needs Review, Team: Other)
 - [#13218 [Bug]: Item Lookup: Blocked items are unconditionally filtered out](https://github.com/microsoft/BCApps/issues/13218) (2026-10-23, Team: SCM)
 - [#13215 [Bug][Subscription Billing] Processing usage data overwrites the subscription line price with the price for the whole charge period](https://github.com/microsoft/BCApps/issues/13215) (2026-10-23, Team: Finance)
@@ -1293,8 +1300,6 @@ Open issues:
 - [#13178 [Bug]: [DE] XRechnung export writes the own invoice no. as buyer order reference (BT-13) and the unposted document no. as sales order reference (BT-14)](https://github.com/microsoft/BCApps/issues/13178) (2026-10-22, Team: Finance)
 - [#13176 [DE][Codeunit][13917][Export ZUGFeRD Document] Events to override buyer and delivery values and to extend ApplicableHeaderTradeDelivery](https://github.com/microsoft/BCApps/issues/13176) (2026-10-22, Approved, Team: Finance, event-request, ext-requester-pr)
 - [#13175 [DE][Codeunit][13916][Export XRechnung Document] Events to override buyer, delivery and order reference values before the XML elements are created](https://github.com/microsoft/BCApps/issues/13175) (2026-10-22, Approved, Team: Integrations, event-request, ext-requester-pr)
-- [#13173 [Bug]: [DE] XRechnung export fills the buyer's identifiers, VAT ID, legal name and contact from the Sell-to customer instead of the Bill-to customer](https://github.com/microsoft/BCApps/issues/13173) (2026-10-22, Team: Finance)
-- [#13170 [EventRequest][W1][table][7003][Price Asset] New event OnBeforeValidateVariantCode in OnValidate trigger of field "Variant Code"](https://github.com/microsoft/BCApps/issues/13170) (2026-10-22, Approved, Team: SCM, event-request, ext-requester-pr)
 
 Releases:
 
@@ -1313,9 +1318,9 @@ Releases:
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
+- [#2409 Include agentic workflows when updating system files from AL-Go or indirect templates](https://github.com/microsoft/AL-Go/pull/2409) (open into main, updated 2026-10-26)
 - [#2343 RunTests action](https://github.com/microsoft/AL-Go/pull/2343) (open into main, updated 2026-10-23)
 - [#2273 Improve file handling in Update AL-Go System Files](https://github.com/microsoft/AL-Go/pull/2273) (open into main, updated 2026-10-22)
-- [#2409 Include agentic workflows when updating system files from AL-Go or indirect templates](https://github.com/microsoft/AL-Go/pull/2409) (open into main, updated 2026-10-22)
 - [#2415 docs: add an index for AL-Go agents](https://github.com/microsoft/AL-Go/pull/2415) (open into main, updated 2026-10-22)
 - [#2384 Publish to AppSource failback to current version.](https://github.com/microsoft/AL-Go/pull/2384) (open into main, updated 2026-10-19)
 - [#2399 Fix framework-dependent AL tool invocation on Linux](https://github.com/microsoft/AL-Go/pull/2399) (open into main, draft, updated 2026-10-08)

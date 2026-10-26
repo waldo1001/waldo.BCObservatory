@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:19:10.183Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -85,6 +85,11 @@ links:
       label: possibly related
       why: both name Page 22 "Customer List"
       by: code
+    - to: post/yzhums-com/72040
+      title: "Dynamics 365 Business Central: How to quickly identify the first transaction date and the number of days since the last sale with a customer"
+      label: possibly related
+      why: both name Page 22 "Customer List"
+      by: code
     - to: post/thedynamicsexplorer-com/36822
       title: Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central
       label: possibly related
@@ -117,11 +122,6 @@ links:
       by: code
     - to: post/aardvarklabs-blog/3348
       title: Step-by-Step Guide to Secure Business Central Agent Implementations in AL
-      label: possibly related
-      why: both name Page 22 "Customer List"
-      by: code
-    - to: video/TY82NR2hGEg
-      title: "What's New: Business Central Developer Tools (2023 release wave 2)"
       label: possibly related
       why: both name Page 22 "Customer List"
       by: code
@@ -267,6 +267,7 @@ No source states these links: they share an object, a model read them, or a pers
 
 - [🕐 Remember When Lists Could Sort By Any Key? 🔄](../posts/gerardorenteria-blog/12961.md) — possibly related: both name Page 22 "Customer List"
 - [All new goodies about AL Namespace in BC 2025 wave 2](../videos/KmuTVkodRXM.md) — possibly related: both name Page 22 "Customer List"
+- [Dynamics 365 Business Central: How to quickly identify the first transaction date and the number of days since the last sale with a customer](../posts/yzhums-com/72040.md) — possibly related: both name Page 22 "Customer List"
 - [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 22 "Customer List"
 - [Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central](../posts/thedynamicsexplorer-com/36744.md) — possibly related: both name Page 22 "Customer List"
 - [Historical Snapshot (2024)](../videos/mZNfMPpxovE.md) — possibly related: both name Page 22 "Customer List"
@@ -274,6 +275,5 @@ No source states these links: they share an object, a model read them, or a pers
 - [Snapshot Debugging vs AL Profiler in Business Central — When to Use Each](../videos/B8PLDeZ73Y4.md) — possibly related: both name Page 22 "Customer List"
 - [Step-by-Step Guide to Page Customizations for Business Central in AL](../posts/aardvarklabs-blog/2523.md) — possibly related: both name Page 22 "Customer List"
 - [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../posts/aardvarklabs-blog/3348.md) — possibly related: both name Page 22 "Customer List"
-- [What's New: Business Central Developer Tools (2023 release wave 2)](../videos/TY82NR2hGEg.md) — possibly related: both name Page 22 "Customer List"
 
 Presenters (as heard): Arto Dyani.

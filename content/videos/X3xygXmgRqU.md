@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:56:28.112Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -101,6 +101,31 @@ links:
       label: possibly related
       why: both name Page 30 "Item Card"
       by: code
+    - to: post/yzhums-com/73513
+      title: "Business Central 2026 release wave 1 (BC28): Calculate excise taxes"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/yzhums-com/71463
+      title: "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/yzhums-com/71668
+      title: "Business Central 2026 release wave 1 (BC28): Copy Existing Locations to Create New Locations (Copy Location)"
+      label: possibly related
+      why: both name Page 5703 "Location Card"
+      by: code
+    - to: post/yzhums-com/70986
+      title: "Business Central 2026 release wave 1 (BC28): Define item attributes for item variants"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/yzhums-com/71758
+      title: "Business Central 2026 release wave 1 (BC28): Get item insights with advanced KPIs and Summary (new Item Statistics page)"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
     - to: post/aardvarklabs-blog/2565
       title: "Business Central 2027 release wave 1: Preparing for OData Endpoint Removal"
       label: possibly related
@@ -113,31 +138,6 @@ links:
       by: code
     - to: video/_JkZCp64jNw
       title: Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
-      label: possibly related
-      why: both name Page 21 "Customer Card"
-      by: code
-    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
-      title: Define Item Attributes for Item Variants
-      label: possibly related
-      why: both name Page 30 "Item Card"
-      by: code
-    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610
-      title: Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2
-      label: possibly related
-      why: both name Page 5703 "Location Card"
-      by: code
-    - to: video/tpAh4q3h8T8
-      title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
-      label: possibly related
-      why: both name Page 30 "Item Card"
-      by: code
-    - to: post/thedynamicsexplorer-com/37371
-      title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
-      label: possibly related
-      why: both name Page 30 "Item Card"
-      by: code
-    - to: post/demiliani-com/12439
-      title: "Dynamics 365 Business Central: controlling the Summary system part."
       label: possibly related
       why: both name Page 21 "Customer Card"
       by: code
@@ -328,11 +328,11 @@ No source states these links: they share an object, a model read them, or a pers
 
 - [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../posts/gerardorenteria-blog/11565.md) — possibly related: both name Page 21 "Customer Card"
 - [Allow Over Receipts of Products](../videos/8C9JmtHdExM.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2026 release wave 1 (BC28): Calculate excise taxes](../posts/yzhums-com/73513.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2026 release wave 1 (BC28): Copy Existing Locations to Create New Locations (Copy Location)](../posts/yzhums-com/71668.md) — possibly related: both name Page 5703 "Location Card"
+- [Business Central 2026 release wave 1 (BC28): Define item attributes for item variants](../posts/yzhums-com/70986.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2026 release wave 1 (BC28): Get item insights with advanced KPIs and Summary (new Item Statistics page)](../posts/yzhums-com/71758.md) — possibly related: both name Page 30 "Item Card"
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../posts/aardvarklabs-blog/2565.md) — possibly related: both name Page 21 "Customer Card"
 - [Business Central BC29: Control Global Symbol Versions](../videos/sIWz2yPqLpo.md) — possibly related: both name Page 21 "Customer Card"
 - [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../videos/_JkZCp64jNw.md) — possibly related: both name Page 21 "Customer Card"
-- [Define Item Attributes for Item Variants](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) — possibly related: both name Page 30 "Item Card"
-- [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610.md) — possibly related: both name Page 5703 "Location Card"
-- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 30 "Item Card"
-- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 30 "Item Card"
-- [Dynamics 365 Business Central: controlling the Summary system part.](../posts/demiliani-com/12439.md) — possibly related: both name Page 21 "Customer Card"

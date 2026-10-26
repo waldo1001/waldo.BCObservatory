@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:45:50.070Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -90,6 +90,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/74172
+      title: "Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order"
+      label: possibly related
+      why: both name Table 5405 "Production Order"
+      by: code
     - to: video/zt9_HEmPKNg
       title: Manufacturing Foundations Capacities (2026)
       label: possibly related
@@ -288,5 +293,6 @@ Not found in BC28-30: table "Item Card".
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order](../posts/yzhums-com/74172.md) — possibly related: both name Table 5405 "Production Order"
 - [Manufacturing Foundations Capacities (2026)](../videos/zt9_HEmPKNg.md) — possibly related: both name Table 5405 "Production Order"
 - [What's New: Supply Chain Management - overview (2026 release wave 1)](../videos/sqjb_gsXqM8.md) — possibly related: both name Table 5405 "Production Order"

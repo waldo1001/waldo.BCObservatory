@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:15:23.211Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -213,6 +213,11 @@ links:
       label: possibly related
       why: both name Table 27 "Item"
       by: code
+    - to: post/yzhums-com/74458
+      title: "Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers
       title: Enterprise Numbers and Branch Numbers [BE]
       label: possibly related
@@ -235,11 +240,6 @@ links:
       by: code
     - to: post/aardvarklabs-blog/3118
       title: Leveraging RecordRef and FieldRef for Dynamic Coding
-      label: possibly related
-      why: both name Table 27 "Item"
-      by: code
-    - to: post/duiliotacconi-com/2149
-      title: "Partial Record vs NST Caching : the strange case of Calculate Low Level Code"
       label: possibly related
       why: both name Table 27 "Item"
       by: code
@@ -575,11 +575,11 @@ No source states these links: they share an object, a model read them, or a pers
 - [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) — possibly related: both name Table 27 "Item"
 - [Deliver sales invoices with French specifics](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/finance-sales-invoice-specifics) — possibly related: names Table 5050 "Contact"
 - [Dynamics 365 Business Central: compressing API responses at max.](../posts/demiliani-com/11962.md) — possibly related: both name Table 27 "Item"
+- [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../posts/yzhums-com/74458.md) — possibly related: both name Table 27 "Item"
 - [Enterprise Numbers and Branch Numbers \[BE\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers) — possibly related: names Table 5050 "Contact"
 - [Importing XML into Business Central with AL](../posts/aardvarklabs-blog/2866.md) — possibly related: both name Table 23 "Vendor"
 - [Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)](../videos/mHrY_OI0qNo.md) — possibly related: both name Table 27 "Item"
 - [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../videos/cZCSi6khZFo.md) — possibly related: both name Table 27 "Item"
 - [Leveraging RecordRef and FieldRef for Dynamic Coding](../posts/aardvarklabs-blog/3118.md) — possibly related: both name Table 27 "Item"
-- [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../posts/duiliotacconi-com/2149.md) — possibly related: both name Table 27 "Item"
 
 Presenters (as heard): Sandy vinaro, Ivan kage.

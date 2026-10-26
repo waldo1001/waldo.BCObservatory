@@ -14,7 +14,7 @@ review:
   at: "2026-10-07T23:24:04.605Z"
   flags: []
 generated:
-  at: "2026-10-24T01:15:39.036Z"
+  at: "2026-10-26T05:36:58.742Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -469,7 +469,7 @@ Objects: [codeunit/11400 "Local Functionality Mgt."](../objects/codeunit/11400-n
 
 ## Other versions
 
-- BC28: 196 objects differ from W1 (81 fields, 9 events added)
+- BC28: 194 objects differ from W1 (81 fields, 9 events added)
 - BC30: 204 objects differ from W1 (81 fields, 9 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

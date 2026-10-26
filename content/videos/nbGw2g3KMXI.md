@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:19:30.893Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -114,8 +114,38 @@ links:
       label: possibly related
       why: names Codeunit 4316 "Agent Task Message Builder"
       by: code
+    - to: post/yzhums-com/70986
+      title: "Business Central 2026 release wave 1 (BC28): Define item attributes for item variants"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
     - to: video/Fk6kWTe3f2Y
       title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/74523
+      title: "Dynamics 365 Business Central Blog Series: Item Attributes"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/74458
+      title: "Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/74476
+      title: "Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/72069
+      title: "Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/73895
+      title: "Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one"
       label: possibly related
       why: both name Page 31 "Item List"
       by: code
@@ -123,16 +153,6 @@ links:
       title: "Microsoft presents: Introducing M365 Copilot Chat in Business Central"
       label: possibly related
       why: both name Page 31 "Item List"
-      by: code
-    - to: video/6vHJQggN4F4
-      title: "What's New: Product Information Management in Shopify Connector (2026 release wave 1)"
-      label: possibly related
-      why: both name Page 31 "Item List"
-      by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-agent-tests
-      title: Write agent tests
-      label: possibly related
-      why: names Codeunit 4316 "Agent Task Message Builder"
       by: code
 video_id: nbGw2g3KMXI
 channel: yt-areopa
@@ -609,9 +629,13 @@ No source states these links: they share an object, a model read them, or a pers
 
 - [Agents in Business Central – part 1 – the architecture](../posts/bertverbeek-nl/1219.md) — possibly related: both name Codeunit 4316 "Agent Task Message Builder"
 - [Attachment capabilities and limitations (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-attachments) — possibly related: names Codeunit 4316 "Agent Task Message Builder"
+- [Business Central 2026 release wave 1 (BC28): Define item attributes for item variants](../posts/yzhums-com/70986.md) — possibly related: both name Page 31 "Item List"
 - [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central Blog Series: Item Attributes](../posts/yzhums-com/74523.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../posts/yzhums-com/74458.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page](../posts/yzhums-com/74476.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page](../posts/yzhums-com/72069.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one](../posts/yzhums-com/73895.md) — possibly related: both name Page 31 "Item List"
 - [Microsoft presents: Introducing M365 Copilot Chat in Business Central](../videos/YX9UfUF0EsA.md) — possibly related: both name Page 31 "Item List"
-- [What's New: Product Information Management in Shopify Connector (2026 release wave 1)](../videos/6vHJQggN4F4.md) — possibly related: both name Page 31 "Item List"
-- [Write agent tests](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-agent-tests) — possibly related: names Codeunit 4316 "Agent Task Message Builder"
 
 Presenters (as heard): Tobias Fencler, Bat Fabake.

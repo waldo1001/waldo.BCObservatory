@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:11:09.251Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -190,6 +190,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/74091
+      title: "Dynamics 365 Business Central: How to quickly create Production Orders from Sales Orders"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
     - to: video/j5ULVClJaKU
       title: "Introducing: Chat with Copilot ( 2024 release wave 1)"
       label: possibly related
@@ -543,6 +548,7 @@ Not found in BC28-30: page "Page Inspector", page "Customer", page "Page Scripti
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Dynamics 365 Business Central: How to quickly create Production Orders from Sales Orders](../posts/yzhums-com/74091.md) — possibly related: both name Page 48 "Sales Orders"
 - [Introducing: Chat with Copilot ( 2024 release wave 1)](../videos/j5ULVClJaKU.md) — possibly related: both name Page 48 "Sales Orders"
 - [Warn Salespeople That a Product Will Soon be Out of Stock](../videos/gBB0elWQWM8.md) — possibly related: both name Page 48 "Sales Orders"
 - [What's Cooking in Business Central: Storing Document Attachments outside the Database](../videos/6sH2u4jt-ow.md) — possibly related: both name Page 48 "Sales Orders"

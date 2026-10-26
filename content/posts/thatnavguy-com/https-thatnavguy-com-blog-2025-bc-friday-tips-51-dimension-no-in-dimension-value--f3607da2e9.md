@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:58:57.907Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-26T05:30:48.114Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -62,6 +62,16 @@ links:
       label: possibly related
       why: both name Page 118 "General Ledger Setup"
       by: code
+    - to: post/yzhums-com/71491
+      title: "Business Central 2026 release wave 1 (BC28): Allow Posting From/To DateFormula (A new way to specify posting periods)"
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
+    - to: post/yzhums-com/74649
+      title: "Business Central 2026 release wave 1 (BC28): Show Currency Symbol/Code and Currency Symbol Position"
+      label: possibly related
+      why: both name Page 118 "General Ledger Setup"
+      by: code
     - to: video/V2mfuDh8Kfk
       title: Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)
       label: possibly related
@@ -94,16 +104,6 @@ links:
       by: code
     - to: video/yLKISB83KW8
       title: Set Up Your Local Currency (2024)
-      label: possibly related
-      why: both name Page 118 "General Ledger Setup"
-      by: code
-    - to: video/fIOnGEARkKs
-      title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1"
-      label: possibly related
-      why: both name Page 118 "General Ledger Setup"
-      by: code
-    - to: video/uxQRfChp96c
-      title: "What's New: Enhanced Financial Reporting (2026 release wave 1)"
       label: possibly related
       why: both name Page 118 "General Ledger Setup"
       by: code
@@ -169,6 +169,8 @@ As named in the post. A name that matches one object page by exact type and name
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Become More Efficient With Background Posting](../../videos/XN8a2zZe2a8.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Business Central 2026 release wave 1 (BC28): Allow Posting From/To DateFormula (A new way to specify posting periods)](../../posts/yzhums-com/71491.md) — possibly related: both name Page 118 "General Ledger Setup"
+- [Business Central 2026 release wave 1 (BC28): Show Currency Symbol/Code and Currency Symbol Position](../../posts/yzhums-com/74649.md) — possibly related: both name Page 118 "General Ledger Setup"
 - [Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)](../../videos/V2mfuDh8Kfk.md) — possibly related: both name Page 118 "General Ledger Setup"
 - [Control When People Can Post to the General Ledger](../../videos/5zXQ_aIT03s.md) — possibly related: both name Page 118 "General Ledger Setup"
 - [Design details - Searching for dimension combinations](https://learn.microsoft.com/dynamics365/business-central/design-details-searching-for-dimension-combinations) — possibly related: names Table 349 "Dimension Value"
@@ -176,8 +178,6 @@ No source states these links: they share an object, a model read them, or a pers
 - [Ensure Consistency in Journals With Journal Check](../../videos/kuKwjRyNcoE.md) — possibly related: both name Page 118 "General Ledger Setup"
 - [Safeguard G/L Accounts From Deletion](../../videos/lcu53ikOk7s.md) — possibly related: both name Page 118 "General Ledger Setup"
 - [Set Up Your Local Currency (2024)](../../videos/yLKISB83KW8.md) — possibly related: both name Page 118 "General Ledger Setup"
-- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../../videos/fIOnGEARkKs.md) — possibly related: both name Page 118 "General Ledger Setup"
-- [What's New: Enhanced Financial Reporting (2026 release wave 1)](../../videos/uxQRfChp96c.md) — possibly related: both name Page 118 "General Ledger Setup"
 
 ## Context
 

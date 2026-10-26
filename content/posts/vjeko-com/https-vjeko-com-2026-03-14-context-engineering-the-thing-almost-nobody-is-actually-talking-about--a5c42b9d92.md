@@ -20,7 +20,7 @@ review:
   at: "2026-10-25T17:03:54.105Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:04.528Z"
+  at: "2026-10-26T05:30:48.114Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -66,10 +66,20 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/71262
+      title: "Business Central 2026 release wave 1 (BC28): Run AL objects and open record references using fully qualified names (Support for namespaces and fully qualified names)"
+      label: possibly related
+      why: both name Codeunit 80 "Sales-Post"
+      by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure
       title: Design details - Item tracking posting structure
       label: possibly related
       why: names Codeunit 80 "Sales-Post"
+      by: code
+    - to: post/yzhums-com/69215
+      title: "Dynamics 365 Business Central: Manage credit limits (Warnings and Workflow)"
+      label: possibly related
+      why: both name Codeunit 80 "Sales-Post"
       by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging
       title: Snapshot debugging
@@ -156,7 +166,9 @@ As named in the post. A name that matches one object page by exact type and name
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Business Central 2026 release wave 1 (BC28): Run AL objects and open record references using fully qualified names (Support for namespaces and fully qualified names)](../../posts/yzhums-com/71262.md) — possibly related: both name Codeunit 80 "Sales-Post"
 - [Design details - Item tracking posting structure](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure) — possibly related: names Codeunit 80 "Sales-Post"
+- [Dynamics 365 Business Central: Manage credit limits (Warnings and Workflow)](../../posts/yzhums-com/69215.md) — possibly related: both name Codeunit 80 "Sales-Post"
 - [Snapshot debugging](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging) — possibly related: names Codeunit 80 "Sales-Post"
 - [Sorting by Type and Line No. in Sales and Purchase Postings](../../posts/duiliotacconi-com/1667.md) — possibly related: both name Codeunit 80 "Sales-Post"
 - [What's New: Server and Database - A Faster Data Stack (2023 release wave 2)](../../videos/a1LQ3-SCtPE.md) — possibly related: both name Table 254 "VAT Entry"

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:20:07.413Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -104,6 +104,16 @@ links:
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
+    - to: post/yzhums-com/75131
+      title: "Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/yzhums-com/75164
+      title: "Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries"
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
     - to: video/f_i4_BRz-oA
       title: "Microsoft presents: Cloud Migration from any SQL"
       label: possibly related
@@ -116,11 +126,6 @@ links:
       by: code
     - to: video/tzX0qB9tiBs
       title: "What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)"
-      label: possibly related
-      why: both name Table 32 "Item Ledger Entry"
-      by: code
-    - to: video/QdWPlIV3Avk
-      title: "What's new in SCM: Subcontracting (2026 release wave 2)"
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
@@ -436,9 +441,10 @@ No source states these links: they share an object, a model read them, or a pers
 - [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../posts/yzhums-com/75131.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries](../posts/yzhums-com/75164.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Microsoft presents: Cloud Migration from any SQL](../videos/f_i4_BRz-oA.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)](../videos/tzX0qB9tiBs.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Table 32 "Item Ledger Entry"
 
 Presenters (as heard): Chris, Brad, Steven Henders, Stephen, Bernie, Steven.

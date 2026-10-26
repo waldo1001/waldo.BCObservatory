@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:50:29.384Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -94,6 +94,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/yzhums-com/71463
+      title: "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)"
+      label: possibly related
+      why: both name Table 6786 "Withholding Tax Posting Setup"
+      by: code
 video_id: d4mYltz4Zwg
 channel: yt-microsoft
 source_name: Microsoft Dynamics 365 Business Central (YouTube)
@@ -310,5 +316,11 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [11:18](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=678s) other: with no localization. So regardless if you are UK, US, Germany, any countries you will get the same functionality no localization for any specific country in this moment
 - [11:52](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=712s) coming-later: in next release we will enable through feature management upgrade process for Australia and New Zealand
 - [12:35](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=755s) coming-later: In Italy we have completely different withholding tax. So it will be subject of research. And the same for India
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Table 6786 "Withholding Tax Posting Setup"
 
 Presenters (as heard): Alexander Totovich.

@@ -24,7 +24,7 @@ review:
   at: "2026-10-07T23:04:07.824Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -108,6 +108,11 @@ links:
       title: Allocation status and repair status | Microsoft Docs
       label: possibly related
       why: names Page 5906 "Service Item Worksheet"
+      by: code
+    - to: post/yzhums-com/71836
+      title: "Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting"
+      label: possibly related
+      why: both name Page 5900 "Service Order"
       by: code
     - to: post/thedynamicsexplorer-com/10326
       title: Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge
@@ -381,6 +386,7 @@ Not found in BC28-30: page "project list", page "project assembly orders", page 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Allocation status and repair status | Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-allocation-status-and-repair-status) — possibly related: names Page 5906 "Service Item Worksheet"
+- [Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting](../posts/yzhums-com/71836.md) — possibly related: both name Page 5900 "Service Order"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 5802 "Value Entry"
 - [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 5802 "Value Entry"
 - [Overview of tasks to fulfill service contracts](https://learn.microsoft.com/dynamics365/business-central/service-fulfill-service-contracts) — possibly related: names Page 6053 "Service Contract Quote"

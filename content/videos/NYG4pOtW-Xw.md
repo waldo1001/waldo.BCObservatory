@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:05:44.132Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -216,6 +216,11 @@ links:
       title: Become More Efficient With Background Posting
       label: possibly related
       why: both name Page 56 "Purchase Orders"
+      by: code
+    - to: post/yzhums-com/72842
+      title: "Business Central 2026 release wave 1 (BC28.1): Create new Purchase Invoice from PDF (Out-of-the-Box)"
+      label: possibly related
+      why: both name Page 9308 "Purchase Invoices"
       by: code
 video_id: NYG4pOtW-Xw
 channel: yt-microsoft
@@ -511,5 +516,6 @@ Not found in BC28-30: table "Sustainability Scorecards", table "Sustainability G
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Become More Efficient With Background Posting](../videos/XN8a2zZe2a8.md) — possibly related: both name Page 56 "Purchase Orders"
+- [Business Central 2026 release wave 1 (BC28.1): Create new Purchase Invoice from PDF (Out-of-the-Box)](../posts/yzhums-com/72842.md) — possibly related: both name Page 9308 "Purchase Invoices"
 
 Presenters (as heard): Alexander Toic, Unknown speaker.

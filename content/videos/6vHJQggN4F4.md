@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:49:09.066Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -102,8 +102,38 @@ links:
       label: possibly related
       why: both name Page 31 "Item List"
       by: code
+    - to: post/yzhums-com/70986
+      title: "Business Central 2026 release wave 1 (BC28): Define item attributes for item variants"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
     - to: video/Fk6kWTe3f2Y
       title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/74523
+      title: "Dynamics 365 Business Central Blog Series: Item Attributes"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/74458
+      title: "Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/74476
+      title: "Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page"
+      label: possibly related
+      why: both name Page 7500 "Item Attributes"
+      by: code
+    - to: post/yzhums-com/72069
+      title: "Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
+    - to: post/yzhums-com/73895
+      title: "Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one"
       label: possibly related
       why: both name Page 31 "Item List"
       by: code
@@ -291,6 +321,12 @@ Not found in BC28-30: page "Shopify shops", page "Shopify shop card", page "list
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [20260713 - From Zero to Agent Building agents in Business Central](../videos/nbGw2g3KMXI.md) — possibly related: both name Page 31 "Item List"
+- [Business Central 2026 release wave 1 (BC28): Define item attributes for item variants](../posts/yzhums-com/70986.md) — possibly related: both name Page 31 "Item List"
 - [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central Blog Series: Item Attributes](../posts/yzhums-com/74523.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../posts/yzhums-com/74458.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page](../posts/yzhums-com/74476.md) — possibly related: both name Page 7500 "Item Attributes"
+- [Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page](../posts/yzhums-com/72069.md) — possibly related: both name Page 31 "Item List"
+- [Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one](../posts/yzhums-com/73895.md) — possibly related: both name Page 31 "Item List"
 - [Microsoft presents: Introducing M365 Copilot Chat in Business Central](../videos/YX9UfUF0EsA.md) — possibly related: both name Page 31 "Item List"
 - [Set up item attributes and assign them to items](https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-item-attributes) — possibly related: names Page 7500 "Item Attributes"

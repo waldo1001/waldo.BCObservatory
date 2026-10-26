@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:50:39.630Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -91,6 +91,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/73513
+      title: "Business Central 2026 release wave 1 (BC28): Calculate excise taxes"
+      label: possibly related
+      why: both name Page 7414 "Excise Tax Types"
+      by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/finance-register-excise-tax
       title: Register excise tax
       label: possibly related
@@ -310,6 +315,7 @@ Not found in BC28-30: page "excise journal", table "excise transaction logs", pa
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Business Central 2026 release wave 1 (BC28): Calculate excise taxes](../posts/yzhums-com/73513.md) — possibly related: both name Page 7414 "Excise Tax Types"
 - [Register excise tax](https://learn.microsoft.com/dynamics365/business-central/finance-register-excise-tax) — possibly related: names Page 7414 "Excise Tax Types"
 - [Set up excise tax](https://learn.microsoft.com/dynamics365/business-central/finance-set-up-excise-tax) — possibly related: names Page 7414 "Excise Tax Types"
 

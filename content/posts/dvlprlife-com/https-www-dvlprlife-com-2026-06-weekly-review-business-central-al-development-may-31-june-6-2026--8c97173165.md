@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T01:54:57.218Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-26T05:30:48.114Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -88,6 +88,11 @@ links:
       label: possibly related
       why: both name Table 98 "General Ledger Setup"
       by: code
+    - to: post/yzhums-com/71463
+      title: "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)"
+      label: possibly related
+      why: both name Table 98 "General Ledger Setup"
+      by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-configuration
       title: Configure agents programmatically (preview)
       label: possibly related
@@ -112,11 +117,6 @@ links:
       title: How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.
       label: possibly related
       why: both name Table 98 "General Ledger Setup"
-      by: code
-    - to: video/MNwTt06ZxwY
-      title: "Microsoft presents: Building and shipping agents in Business Central"
-      label: possibly related
-      why: both name Codeunit 4321 "Agent"
       by: code
 post_id: https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/
 source_id: dvlprlife-com
@@ -197,12 +197,12 @@ No source states these links: they share an object, a model read them, or a pers
 - [Allow Posting Date Formula](../../posts/olofsimren-com/3853.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [Allow Posting From/To DateFormula: No More Monthly Date Updates from Business Central v28](../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8913658799123411419--5a782b6899.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [Automating Posting Periods in Business Central with Date Formulas](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26.md) — possibly related: both name Table 98 "General Ledger Setup"
+- [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../../posts/yzhums-com/71463.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [Configure agents programmatically (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-configuration) — possibly related: names Codeunit 4321 "Agent"
 - [Control Deferral Posting](../../videos/VIda0Ok1SSQ.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [Convert an agent to AL code (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-convert-agent) — possibly related: names Codeunit 4321 "Agent"
 - [Dynamics 365 Business Central: new model choice in Agent definition.](../../posts/demiliani-com/13814.md) — possibly related: both name Codeunit 4321 "Agent"
 - [How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9.md) — possibly related: both name Table 98 "General Ledger Setup"
-- [Microsoft presents: Building and shipping agents in Business Central](../../videos/MNwTt06ZxwY.md) — possibly related: both name Codeunit 4321 "Agent"
 
 ## Context
 

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:57:41.510Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -90,6 +90,31 @@ links:
       label: possibly related
       why: both name Page 30 "Item Card"
       by: code
+    - to: post/yzhums-com/73513
+      title: "Business Central 2026 release wave 1 (BC28): Calculate excise taxes"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/yzhums-com/71463
+      title: "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/yzhums-com/71668
+      title: "Business Central 2026 release wave 1 (BC28): Copy Existing Locations to Create New Locations (Copy Location)"
+      label: possibly related
+      why: both name Page 5703 "Location Card"
+      by: code
+    - to: post/yzhums-com/70986
+      title: "Business Central 2026 release wave 1 (BC28): Define item attributes for item variants"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
+    - to: post/yzhums-com/71758
+      title: "Business Central 2026 release wave 1 (BC28): Get item insights with advanced KPIs and Summary (new Item Statistics page)"
+      label: possibly related
+      why: both name Page 30 "Item Card"
+      by: code
     - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
       title: Define Item Attributes for Item Variants
       label: possibly related
@@ -107,31 +132,6 @@ links:
       by: code
     - to: post/thedynamicsexplorer-com/37371
       title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
-      label: possibly related
-      why: both name Page 30 "Item Card"
-      by: code
-    - to: video/X3xygXmgRqU
-      title: How to Set Up Locations in Business Central (2025)
-      label: possibly related
-      why: both name Page 5703 "Location Card"
-      by: code
-    - to: post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3
-      title: How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)
-      label: possibly related
-      why: both name Page 5703 "Location Card"
-      by: code
-    - to: post/gerardorenteria-blog/11203
-      title: New Application Ideas of Dynamics 365 Business Central (2025 MAY)
-      label: possibly related
-      why: both name Page 30 "Item Card"
-      by: code
-    - to: video/DHODFt_jVO4
-      title: "What's New in Manufacturing: Costing (2025 release wave 1)"
-      label: possibly related
-      why: both name Page 5510 "Production Journal"
-      by: code
-    - to: video/UKVp28M5TtU
-      title: "What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)"
       label: possibly related
       why: both name Page 30 "Item Card"
       by: code
@@ -296,14 +296,14 @@ Not found in BC28-30: page "Putaway Worksheet", page "Production Order", page "W
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Allow Over Receipts of Products](../videos/8C9JmtHdExM.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2026 release wave 1 (BC28): Calculate excise taxes](../posts/yzhums-com/73513.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2026 release wave 1 (BC28): Copy Existing Locations to Create New Locations (Copy Location)](../posts/yzhums-com/71668.md) — possibly related: both name Page 5703 "Location Card"
+- [Business Central 2026 release wave 1 (BC28): Define item attributes for item variants](../posts/yzhums-com/70986.md) — possibly related: both name Page 30 "Item Card"
+- [Business Central 2026 release wave 1 (BC28): Get item insights with advanced KPIs and Summary (new Item Statistics page)](../posts/yzhums-com/71758.md) — possibly related: both name Page 30 "Item Card"
 - [Define Item Attributes for Item Variants](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) — possibly related: both name Page 30 "Item Card"
 - [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610.md) — possibly related: both name Page 5703 "Location Card"
 - [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 30 "Item Card"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 30 "Item Card"
-- [How to Set Up Locations in Business Central (2025)](../videos/X3xygXmgRqU.md) — possibly related: both name Page 5703 "Location Card"
-- [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3.md) — possibly related: both name Page 5703 "Location Card"
-- [New Application Ideas of Dynamics 365 Business Central (2025 MAY)](../posts/gerardorenteria-blog/11203.md) — possibly related: both name Page 30 "Item Card"
-- [What's New in Manufacturing: Costing (2025 release wave 1)](../videos/DHODFt_jVO4.md) — possibly related: both name Page 5510 "Production Journal"
-- [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../videos/UKVp28M5TtU.md) — possibly related: both name Page 30 "Item Card"
 
 Presenters (as heard): Unknown Presenter.

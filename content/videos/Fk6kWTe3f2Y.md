@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:21:45.136Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -105,6 +105,11 @@ links:
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
+    - to: post/yzhums-com/70986
+      title: "Business Central 2026 release wave 1 (BC28): Define item attributes for item variants"
+      label: possibly related
+      why: both name Page 31 "Item List"
+      by: code
     - to: video/qABlX4AL3GM
       title: "Business Central 29.0: Major Change to Table Extensions & SQL."
       label: possibly related
@@ -125,25 +130,20 @@ links:
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
-    - to: video/fy96_jdL1PQ
-      title: "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central"
-      label: possibly related
-      why: both name Table 32 "Item Ledger Entry"
-      by: code
-    - to: post/thinkaboutit-be/7537
-      title: "How Do I: Replace Reports with Analysis Mode in Business Central"
+    - to: post/yzhums-com/74523
+      title: "Dynamics 365 Business Central Blog Series: Item Attributes"
       label: possibly related
       why: both name Page 38 "Item Ledger Entries"
       by: code
-    - to: video/f_i4_BRz-oA
-      title: "Microsoft presents: Cloud Migration from any SQL"
+    - to: post/yzhums-com/75131
+      title: "Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)"
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
-    - to: video/1x3QyBX3swg
-      title: "Microsoft presents: Index management"
+    - to: post/yzhums-com/74458
+      title: "Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page"
       label: possibly related
-      why: both name Table 32 "Item Ledger Entry"
+      why: both name Page 38 "Item Ledger Entries"
       by: code
 video_id: Fk6kWTe3f2Y
 channel: yt-bcmusings
@@ -367,13 +367,13 @@ No source states these links: they share an object, a model read them, or a pers
 
 - [20260713 - From Zero to Agent Building agents in Business Central](../videos/nbGw2g3KMXI.md) — possibly related: both name Page 31 "Item List"
 - [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Business Central 2026 release wave 1 (BC28): Define item attributes for item variants](../posts/yzhums-com/70986.md) — possibly related: both name Page 31 "Item List"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../videos/qABlX4AL3GM.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../videos/fy96_jdL1PQ.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [How Do I: Replace Reports with Analysis Mode in Business Central](../posts/thinkaboutit-be/7537.md) — possibly related: both name Page 38 "Item Ledger Entries"
-- [Microsoft presents: Cloud Migration from any SQL](../videos/f_i4_BRz-oA.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central Blog Series: Item Attributes](../posts/yzhums-com/74523.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../posts/yzhums-com/75131.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../posts/yzhums-com/74458.md) — possibly related: both name Page 38 "Item Ledger Entries"
 
 Presenters (as heard): Marcel Chabot, E.S. Verland.

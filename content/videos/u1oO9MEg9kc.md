@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:09:38.277Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -90,6 +90,11 @@ links:
   related:
     - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257
       title: Analysis Mode killed half the Excel exports on your client's shared drive
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
+    - to: post/yzhums-com/70554
+      title: "Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)"
       label: possibly related
       why: both name Page 16 "Chart of Accounts"
       by: code
@@ -293,6 +298,7 @@ Not found in BC28-30: table "Source currencies".
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Analysis Mode killed half the Excel exports on your client's shared drive](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)](../posts/yzhums-com/70554.md) — possibly related: both name Page 16 "Chart of Accounts"
 - [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../posts/thedynamicsexplorer-com/8821.md) — possibly related: both name Page 16 "Chart of Accounts"
 - [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 16 "Chart of Accounts"
 - [Historical Snapshot (2024)](../videos/mZNfMPpxovE.md) — possibly related: both name Page 16 "Chart of Accounts"

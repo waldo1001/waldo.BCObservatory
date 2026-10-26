@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:04:17.118Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -184,6 +184,11 @@ links:
       label: possibly related
       why: both name Table 27 "Item"
       by: code
+    - to: post/yzhums-com/74458
+      title: "Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
     - to: video/mHrY_OI0qNo
       title: "Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)"
       label: possibly related
@@ -211,11 +216,6 @@ links:
       by: code
     - to: video/8D8IFkqeTLU
       title: Use FlowFields directly inside your Spreadsheet inside Business Central  (Advanced Spreadsheets)
-      label: possibly related
-      why: both name Table 27 "Item"
-      by: code
-    - to: video/YTA8c2XyTX4
-      title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2"
       label: possibly related
       why: both name Table 27 "Item"
       by: code
@@ -502,12 +502,12 @@ No source states these links: they share an object, a model read them, or a pers
 - [BC Friday Tips #69 Item Blocked Fields](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d.md) — possibly related: both name Table 27 "Item"
 - [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) — possibly related: both name Table 27 "Item"
 - [Dynamics 365 Business Central: compressing API responses at max.](../posts/demiliani-com/11962.md) — possibly related: both name Table 27 "Item"
+- [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../posts/yzhums-com/74458.md) — possibly related: both name Table 27 "Item"
 - [Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)](../videos/mHrY_OI0qNo.md) — possibly related: both name Table 27 "Item"
 - [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../videos/cZCSi6khZFo.md) — possibly related: both name Table 27 "Item"
 - [Leveraging RecordRef and FieldRef for Dynamic Coding](../posts/aardvarklabs-blog/3118.md) — possibly related: both name Table 27 "Item"
 - [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../posts/duiliotacconi-com/2149.md) — possibly related: both name Table 27 "Item"
 - [Step by Step Guide to Importing Excel Data into Business Central](../posts/aardvarklabs-blog/2202.md) — possibly related: both name Table 27 "Item"
 - [Use FlowFields directly inside your Spreadsheet inside Business Central (Advanced Spreadsheets)](../videos/8D8IFkqeTLU.md) — possibly related: both name Table 27 "Item"
-- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../videos/YTA8c2XyTX4.md) — possibly related: both name Table 27 "Item"
 
 Presenters (as heard): Andre, Unidentified speaker.

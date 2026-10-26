@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:48:37.225Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -213,6 +213,16 @@ links:
       by: code
     - to: video/tpAh4q3h8T8
       title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/yzhums-com/74523
+      title: "Dynamics 365 Business Central Blog Series: Item Attributes"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/yzhums-com/71582
+      title: "Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page"
       label: possibly related
       why: both name Page 42 "Sales Order"
       by: code
@@ -660,6 +670,8 @@ No source states these links: they share an object, a model read them, or a pers
 
 - [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 42 "Sales Order"
 - [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central Blog Series: Item Attributes](../posts/yzhums-com/74523.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page](../posts/yzhums-com/71582.md) — possibly related: both name Page 42 "Sales Order"
 - [Edit Sales Orders in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)](../videos/crDXSPsoIQ8.md) — possibly related: both name Page 42 "Sales Order"
 - [Introducing: Sales Order Agent (2025 release wave 1)](../videos/XhO4oFmoh1M.md) — possibly related: both name Page 42 "Sales Order"
 - [Microsoft presents: Building and shipping agents in Business Central](../videos/MNwTt06ZxwY.md) — possibly related: both name Page 4316 "Agent List"

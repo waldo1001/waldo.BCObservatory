@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:11:01.701Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -109,6 +109,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/71836
+      title: "Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting"
+      label: possibly related
+      why: both name Page 5900 "Service Order"
+      by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/service-fulfill-service-contracts
       title: Overview of tasks to fulfill service contracts
       label: possibly related
@@ -326,6 +331,7 @@ Not found in BC28-30: page "Service Item".
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Business Central 2026 release wave 1 (BC28): Create contract service orders with One Service Item Line/Order setting](../posts/yzhums-com/71836.md) — possibly related: both name Page 5900 "Service Order"
 - [Overview of tasks to fulfill service contracts](https://learn.microsoft.com/dynamics365/business-central/service-fulfill-service-contracts) — possibly related: names Page 6050 "Service Contract"
 - [Service price management](https://learn.microsoft.com/dynamics365/business-central/service-service-price-management) — possibly related: names Page 5988 "Service Items"
 - [What's New: Project and Service Management (2024 release wave 1)](../videos/pEXl-POet_4.md) — possibly related: both name Page 5964 "Service Quote"

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:14:51.555Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -151,6 +151,16 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/73895
+      title: "Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one"
+      label: possibly related
+      why: both name Page 6510 "Item Tracking Lines"
+      by: code
+    - to: post/yzhums-com/68852
+      title: "Dynamics 365 Business Central: Is it possible to change the Variant Code for an item that has already been posted?"
+      label: possibly related
+      why: both name Page 902 "Assembly Orders"
+      by: code
     - to: video/W2yhU8eXT5w
       title: "What's new: Business Central Mobile App and Barcode Scanning (2024 release wave 1)"
       label: possibly related
@@ -439,6 +449,8 @@ Not found in BC28-30: page "serial number information card", page "warehouse wor
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one](../posts/yzhums-com/73895.md) — possibly related: both name Page 6510 "Item Tracking Lines"
+- [Dynamics 365 Business Central: Is it possible to change the Variant Code for an item that has already been posted?](../posts/yzhums-com/68852.md) — possibly related: both name Page 902 "Assembly Orders"
 - [What's new: Business Central Mobile App and Barcode Scanning (2024 release wave 1)](../videos/W2yhU8eXT5w.md) — possibly related: both name Page 6510 "Item Tracking Lines"
 
 Presenters (as heard): Baj Koto, Kim, Gloria, Claus, Kasim, Aim.

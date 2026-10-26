@@ -2,7 +2,7 @@
 id: source/nataliekarolak-com
 type: source
 title: The BC Docs Librarian
-summary: "The BC Docs Librarian (Natalie Karolak, MVP): 14 posts in the knowledge base, 2025-05-19 to 2026-10-02, mostly about development, platform, reporting."
+summary: "The BC Docs Librarian (Natalie Karolak, MVP): 16 posts in the knowledge base, 2025-05-19 to 2026-10-02, mostly about development, platform, reporting."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-25T18:17:26.277Z"
+  at: "2026-10-26T05:30:48.114Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 861066626addef0366ddf5e1c6dc8dd3c6a9d77c78f6dc216d3762f9f368c467
+  input_hash: a8afee29743329a4d9f8861a731677372ca2d18f6e30acc05e16d301262c29f9
 evidence:
   - kind: blog
     url: https://nataliekarolak.wordpress.com
@@ -36,11 +36,13 @@ links:
     - post/nataliekarolak-com/2152
     - post/nataliekarolak-com/2093
     - post/nataliekarolak-com/1855
+    - post/nataliekarolak-com/3377
     - post/nataliekarolak-com/3494
     - post/nataliekarolak-com/3628
     - post/nataliekarolak-com/3653
     - post/nataliekarolak-com/3648
     - post/nataliekarolak-com/3910
+    - post/nataliekarolak-com/3404
     - post/nataliekarolak-com/4034
     - post/nataliekarolak-com/3995
     - post/nataliekarolak-com/4184
@@ -54,7 +56,7 @@ url: https://nataliekarolak.wordpress.com
 author: Natalie Karolak
 mvp: true
 full_text: false
-item_count: 14
+item_count: 16
 footprint:
   systems:
     - id: development
@@ -118,7 +120,7 @@ last_item: "2026-10-02"
 
 # The BC Docs Librarian
 
-> The BC Docs Librarian (Natalie Karolak, MVP): 14 posts in the knowledge base, 2025-05-19 to 2026-10-02, mostly about development, platform, reporting.
+> The BC Docs Librarian (Natalie Karolak, MVP): 16 posts in the knowledge base, 2025-05-19 to 2026-10-02, mostly about development, platform, reporting.
 
 [https://nataliekarolak.wordpress.com](https://nataliekarolak.wordpress.com) · blog · tier community
 
@@ -144,9 +146,9 @@ last_item: "2026-10-02"
 Items per quarter, oldest first:
 
 - 2025-Q2: * 1
-- 2025-Q3: **** 4
+- 2025-Q3: ***** 5
 - 2025-Q4: ** 2
-- 2026-Q1: ** 2
+- 2026-Q1: *** 3
 - 2026-Q2: ** 2
 - 2026-Q3: ** 2
 - 2026-Q4: * 1
@@ -159,11 +161,13 @@ Items per quarter, oldest first:
 - [Using Substring to replace CopyStr](../posts/nataliekarolak-com/4184.md) (2026-04-23)
 - [Docs: What’s new in BC 28 for developers](../posts/nataliekarolak-com/3995.md) (2026-04-02)
 - [“Why it matters” drives me nuts](../posts/nataliekarolak-com/4034.md) (2026-03-17)
+- [Hello LinkedIn!](../posts/nataliekarolak-com/3404.md) (2026-02-17)
 - [DataTransfer type causing runtime errors](../posts/nataliekarolak-com/3910.md) (2026-01-09)
 - [Small AL quiz](../posts/nataliekarolak-com/3648.md) (2025-11-13)
 - [Docs: What’s new in BC 27 for developers](../posts/nataliekarolak-com/3653.md) (2025-10-02)
 - [Help, I don’t get any AL warnings in the Output tab!](../posts/nataliekarolak-com/3628.md) (2025-08-26)
 - [How to write good tooltips as a BC developer](../posts/nataliekarolak-com/3494.md) (2025-08-04)
+- [Communication weirdo](../posts/nataliekarolak-com/3377.md) (2025-07-06)
 - [Snippet: StrMenu from Enum list](../posts/nataliekarolak-com/1855.md) (2025-07-02)
 - [Search code on GitHub in the browser](../posts/nataliekarolak-com/2093.md) (2025-07-01)
 - [BC docs and the DO_NOT_EDIT area](../posts/nataliekarolak-com/2152.md) (2025-05-19)

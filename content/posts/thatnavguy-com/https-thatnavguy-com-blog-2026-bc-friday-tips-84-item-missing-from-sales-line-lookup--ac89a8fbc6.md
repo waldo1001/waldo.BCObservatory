@@ -18,7 +18,7 @@ review:
   at: "2026-10-16T01:16:52.043Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-26T05:30:48.114Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -70,6 +70,16 @@ links:
       label: possibly related
       why: both name Table 27 "Item"
       by: code
+    - to: post/yzhums-com/74458
+      title: "Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page"
+      label: possibly related
+      why: both name Table 27 "Item"
+      by: code
+    - to: post/yzhums-com/74172
+      title: "Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order"
+      label: possibly related
+      why: both name Table 37 "Sales Line"
+      by: code
     - to: post/aardvarklabs-blog/1891
       title: Implementing a Multi-Step Process for AI Recommendations in Business Central
       label: possibly related
@@ -89,16 +99,6 @@ links:
       title: "Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)"
       label: possibly related
       why: both name Table 37 "Sales Line"
-      by: code
-    - to: post/aardvarklabs-blog/3118
-      title: Leveraging RecordRef and FieldRef for Dynamic Coding
-      label: possibly related
-      why: both name Table 27 "Item"
-      by: code
-    - to: post/duiliotacconi-com/2149
-      title: "Partial Record vs NST Caching : the strange case of Calculate Low Level Code"
-      label: possibly related
-      why: both name Table 27 "Item"
       by: code
 post_id: https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/
 source_id: thatnavguy-com
@@ -161,12 +161,12 @@ No source states these links: they share an object, a model read them, or a pers
 - [BC Friday Tips #69 Item Blocked Fields](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d.md) — possibly related: both name Table 27 "Item"
 - [Business Central Development Serie - Part 2b: AI for BC Development — The Knowledge Gap That Ships to Production](../../posts/kine-cz/https-blog-kine-cz-posts-bcdevelopmentserie-02b--0078d7faba.md) — possibly related: both name Table 37 "Sales Line"
 - [Dynamics 365 Business Central: compressing API responses at max.](../../posts/demiliani-com/11962.md) — possibly related: both name Table 27 "Item"
+- [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../../posts/yzhums-com/74458.md) — possibly related: both name Table 27 "Item"
+- [Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order](../../posts/yzhums-com/74172.md) — possibly related: both name Table 37 "Sales Line"
 - [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../posts/aardvarklabs-blog/1891.md) — possibly related: both name Table 37 "Sales Line"
 - [Index Management with Dynamics 365 Business Central 2026 Wave 1](../../posts/duiliotacconi-com/2001.md) — possibly related: both name Table 37 "Sales Line"
 - [Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)](../../videos/mHrY_OI0qNo.md) — possibly related: both name Table 27 "Item"
 - [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../../videos/cZCSi6khZFo.md) — possibly related: both name Table 37 "Sales Line"
-- [Leveraging RecordRef and FieldRef for Dynamic Coding](../../posts/aardvarklabs-blog/3118.md) — possibly related: both name Table 27 "Item"
-- [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../../posts/duiliotacconi-com/2149.md) — possibly related: both name Table 27 "Item"
 
 ## Context
 

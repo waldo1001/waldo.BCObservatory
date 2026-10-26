@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:01:02.372Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -115,6 +115,11 @@ links:
       title: Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge
       label: possibly related
       why: both name Table 5802 "Value Entry"
+      by: code
+    - to: post/yzhums-com/75164
+      title: "Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries"
+      label: possibly related
+      why: both name Table 46 "Item Register"
       by: code
     - to: video/1x3QyBX3swg
       title: "Microsoft presents: Index management"
@@ -302,6 +307,7 @@ Not found in BC28-30: table "item ledger", table "project ledger", table "job le
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 5802 "Value Entry"
+- [Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries](../posts/yzhums-com/75164.md) — possibly related: both name Table 46 "Item Register"
 - [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Table 5802 "Value Entry"
 - [What's New: Project and Service Management (2024 release wave 1)](../videos/pEXl-POet_4.md) — possibly related: both name Table 5802 "Value Entry"
 

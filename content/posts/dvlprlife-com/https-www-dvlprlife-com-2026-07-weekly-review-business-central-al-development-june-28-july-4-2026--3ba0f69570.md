@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:54:32.258Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-26T05:30:48.114Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -58,6 +58,26 @@ links:
       by: code
     - to: post/thedynamicsexplorer-com/37371
       title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/yzhums-com/74523
+      title: "Dynamics 365 Business Central Blog Series: Item Attributes"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/yzhums-com/74458
+      title: "Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/yzhums-com/74476
+      title: "Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/yzhums-com/75164
+      title: "Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries"
       label: possibly related
       why: both name Page 38 "Item Ledger Entries"
       by: code
@@ -139,6 +159,10 @@ No source states these links: they share an object, a model read them, or a pers
 
 - [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../../videos/Fk6kWTe3f2Y.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central Blog Series: Item Attributes](../../posts/yzhums-com/74523.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../../posts/yzhums-com/74458.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page](../../posts/yzhums-com/74476.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries](../../posts/yzhums-com/75164.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [How Do I: Replace Reports with Analysis Mode in Business Central](../../posts/thinkaboutit-be/7537.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [What's New: Cost Adjustment (2025 release wave 1)](../../videos/8IOEXgk7q5I.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [What's New: Enhanced Analysis Mode (2026 release wave 1)](../../videos/Afv-r-eDt90.md) — possibly related: both name Page 38 "Item Ledger Entries"

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:54:51.977Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,6 +65,11 @@ links:
   related:
     - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44
       title: Approval Workflows for Item Journals and Requisition Worksheets
+      label: possibly related
+      why: both name Page 1500 "Workflows"
+      by: code
+    - to: post/yzhums-com/74599
+      title: "Dynamics 365 Business Central: How to simply back up and transfer your workflows to another environment"
       label: possibly related
       why: both name Page 1500 "Workflows"
       by: code
@@ -218,6 +223,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Approval Workflows for Item Journals and Requisition Worksheets](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md) — possibly related: both name Page 1500 "Workflows"
+- [Dynamics 365 Business Central: How to simply back up and transfer your workflows to another environment](../posts/yzhums-com/74599.md) — possibly related: both name Page 1500 "Workflows"
 - [Introducing: Sustainability in Business Central (2024 release wave 1)](../videos/_ynMUzh956w.md) — possibly related: both name Page 6219 "Sustainability Journal"
 - [Record sustainability entries](https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-journal) — possibly related: names Page 6219 "Sustainability Journal"
 - [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../videos/UKVp28M5TtU.md) — possibly related: both name Page 6219 "Sustainability Journal"

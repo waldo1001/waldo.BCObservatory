@@ -2,7 +2,7 @@
 id: app/withholdingtax
 type: app
 title: WithholdingTax
-summary: "WithholdingTax (Microsoft.WithholdingTax): 94 objects in BC29-30 (27 table extensions, 18 page extensions, 11 tables, 9 codeunits, 8 pages, ...); documented by 2 Learn hubs; 1 video."
+summary: "WithholdingTax (Microsoft.WithholdingTax): 94 objects in BC29-30 (27 table extensions, 18 page extensions, 11 tables, 9 codeunits, 8 pages, ...); documented by 2 Learn hubs; 1 video, 1 post."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-26T05:39:01.092Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 41a78882c89c386a66e705270d5cfbffaf8185fd4b9d0c6a0e8d3533da4e64ac
+  input_hash: c908dc9d212b665517ba5c9d6cb7dd84658407617f938da401a2ea8ed3ce40b7
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/WithholdingTax/app
@@ -131,7 +131,8 @@ links:
   localizations: []
   videos:
     - video/d4mYltz4Zwg
-  posts: []
+  posts:
+    - post/yzhums-com/71463
   guidelines: []
 app: WithholdingTax
 namespace_root: Microsoft.WithholdingTax
@@ -153,12 +154,12 @@ counts:
     enumextension: 1
   hubs: 2
   videos: 1
-  posts: 0
+  posts: 1
 ---
 
 # WithholdingTax
 
-> WithholdingTax (Microsoft.WithholdingTax): 94 objects in BC29-30 (27 table extensions, 18 page extensions, 11 tables, 9 codeunits, 8 pages, ...); documented by 2 Learn hubs; 1 video.
+> WithholdingTax (Microsoft.WithholdingTax): 94 objects in BC29-30 (27 table extensions, 18 page extensions, 11 tables, 9 codeunits, 8 pages, ...); documented by 2 Learn hubs; 1 video, 1 post.
 
 First-party app · folder `src/Apps/W1/WithholdingTax/app` · namespace `Microsoft.WithholdingTax` · BC29-30 · system finance · facts from the code pillar and the joins, nothing machine-written
 
@@ -321,6 +322,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 Videos and posts that name this app's objects by exact type and name.
 
+- [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) (community post, 2026-05-21): names Table 6787 "Withholding Tax Revenue Types", Table 6786 "Withholding Tax Posting Setup"
 - [Introducing: Withholding Taxes (2026 release wave 1)](../videos/d4mYltz4Zwg.md) (video, 2026-04-01): names Table 6786 "Withholding Tax Posting Setup"
 
 Source: [src/Apps/W1/WithholdingTax/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/WithholdingTax/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

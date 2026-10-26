@@ -2,7 +2,7 @@
 id: app/external-file-storage-sharepoint-connector
 type: app
 title: External File Storage - SharePoint Connector
-summary: "External File Storage - SharePoint Connector (System.ExternalFileStorage): 16 objects in BC29-30 (4 codeunits, 3 permission sets, 2 pages, 2 enums, 2 permission set extensions, ...); no Learn hub documents its objects yet."
+summary: "External File Storage - SharePoint Connector (System.ExternalFileStorage): 16 objects in BC29-30 (4 codeunits, 3 permission sets, 2 pages, 2 enums, 2 permission set extensions, ...); no Learn hub documents its objects yet; 1 post."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-26T05:39:01.092Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f5ad3936d8e19840927921bcd4ab85336a4fdecf741f1b09f59323b5b0032186
+  input_hash: 1e3cb775a6ff74f3fe31110bd603655b48f0d682470bf82938a427c1790aef91
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app
@@ -50,7 +50,8 @@ links:
   topics: []
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/69818
   guidelines: []
 app: External File Storage - SharePoint Connector
 namespace_root: System.ExternalFileStorage
@@ -70,12 +71,12 @@ counts:
     entitlement: 1
   hubs: 0
   videos: 0
-  posts: 0
+  posts: 1
 ---
 
 # External File Storage - SharePoint Connector
 
-> External File Storage - SharePoint Connector (System.ExternalFileStorage): 16 objects in BC29-30 (4 codeunits, 3 permission sets, 2 pages, 2 enums, 2 permission set extensions, ...); no Learn hub documents its objects yet.
+> External File Storage - SharePoint Connector (System.ExternalFileStorage): 16 objects in BC29-30 (4 codeunits, 3 permission sets, 2 pages, 2 enums, 2 permission set extensions, ...); no Learn hub documents its objects yet; 1 post.
 
 First-party app · folder `src/Apps/W1/External File Storage - SharePoint Connector/app` · namespace `System.ExternalFileStorage` · BC29-30 · system platform · facts from the code pillar and the joins, nothing machine-written
 
@@ -138,5 +139,11 @@ First-party app · folder `src/Apps/W1/External File Storage - SharePoint Connec
 | Id | Name | Caption |
 |---|---|---|
 |  | [Ext. SharePoint Connector](../objects/entitlement/ext-sharepoint-connector.md) |  |
+
+## Videos and posts
+
+Videos and posts that name this app's objects by exact type and name.
+
+- [Business Central 2026 release wave 1 (BC28): Storing Document Attachments outside the database (No customization) – See benefits of external storage support for document attachments](../posts/yzhums-com/69818.md) (community post, 2026-04-15): names Codeunit 4580 "Ext. SharePoint Connector Impl"
 
 Source: [src/Apps/W1/External File Storage - SharePoint Connector/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

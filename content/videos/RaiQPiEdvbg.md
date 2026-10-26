@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:59:02.659Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -84,6 +84,11 @@ links:
   related:
     - to: post/thedynamicsexplorer-com/10232
       title: Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central
+      label: possibly related
+      why: both name Page 39 "General Journal"
+      by: code
+    - to: post/yzhums-com/71645
+      title: "Dynamics 365 Business Central: How to copy (synchronize) the Incoming Document to all Gen. Journal Lines"
       label: possibly related
       why: both name Page 39 "General Journal"
       by: code
@@ -266,6 +271,7 @@ Not found in BC28-30: page "Posted General Journals".
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../posts/thedynamicsexplorer-com/10232.md) — possibly related: both name Page 39 "General Journal"
+- [Dynamics 365 Business Central: How to copy (synchronize) the Incoming Document to all Gen. Journal Lines](../posts/yzhums-com/71645.md) — possibly related: both name Page 39 "General Journal"
 - [Power BI Sustainability app semantic model](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model) — possibly related: names Table 6216 "Sustainability Ledger Entry"
 - [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../videos/qPInVj03wkY.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
 - [What's New: Financial Management - Overview (2024 release wave 1)](../videos/HI7VcPzR2OE.md) — possibly related: both name Page 39 "General Journal"

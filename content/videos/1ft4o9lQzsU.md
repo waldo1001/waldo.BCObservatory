@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:10.805Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -77,6 +77,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: post/yzhums-com/73485
+      title: "Business Central 2026 release wave 1 (BC28.1): Use enhanced and faster reports for analysis of deferrals and trial balances"
+      label: possibly related
+      why: both name Report 708 "Inventory Order Details"
+      by: code
 video_id: 1ft4o9lQzsU
 channel: yt-areopa
 source_name: Areopa webinars
@@ -371,5 +377,11 @@ Not found in BC28-30: report "Physical inventory list", table "item ledger entri
 - [40:35](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2435s) other: I can definitely though look into that and and share like on LinkedIn or something once we dive into that further
 - [40:35](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2435s) subject-to-change: I haven't necessarily dove into too much. I can definitely though look into that and and share like on LinkedIn ...
 - [41:15](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2475s) subject-to-change: I don't necessarily know that there's a way to secure it.
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Business Central 2026 release wave 1 (BC28.1): Use enhanced and faster reports for analysis of deferrals and trial balances](../posts/yzhums-com/73485.md) — possibly related: both name Report 708 "Inventory Order Details"
 
 Presenters (as heard): Tanya Bickski, BB, Bert, Ron, Tanya Burkski.

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:53:56.836Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -107,28 +107,28 @@ links:
       label: possibly related
       why: both name Page 21 "Customer Card"
       by: code
+    - to: post/yzhums-com/70630
+      title: "Dynamics 365 Business Central: A universal method to check if a Field has a value in AL"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
+    - to: post/yzhums-com/70554
+      title: "Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)"
+      label: possibly related
+      why: both name Page 16 "Chart of Accounts"
+      by: code
     - to: post/demiliani-com/12439
       title: "Dynamics 365 Business Central: controlling the Summary system part."
       label: possibly related
       why: both name Page 21 "Customer Card"
       by: code
-    - to: post/thedynamicsexplorer-com/8821
-      title: Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View
-      label: possibly related
-      why: both name Page 16 "Chart of Accounts"
-      by: code
-    - to: post/thedynamicsexplorer-com/36822
-      title: Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central
-      label: possibly related
-      why: both name Page 16 "Chart of Accounts"
-      by: code
-    - to: post/aardvarklabs-blog/1756
-      title: Effortless Layout Editing in Business Central
+    - to: post/yzhums-com/75649
+      title: "Dynamics 365 Business Central: How to quickly remove Non-Alphanumeric Characters in AL"
       label: possibly related
       why: both name Page 21 "Customer Card"
       by: code
-    - to: video/mZNfMPpxovE
-      title: Historical Snapshot (2024)
+    - to: post/thedynamicsexplorer-com/8821
+      title: Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View
       label: possibly related
       why: both name Page 16 "Chart of Accounts"
       by: code
@@ -297,10 +297,10 @@ No source states these links: they share an object, a model read them, or a pers
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../posts/aardvarklabs-blog/2565.md) — possibly related: both name Page 21 "Customer Card"
 - [Business Central BC29: Control Global Symbol Versions](../videos/sIWz2yPqLpo.md) — possibly related: both name Page 21 "Customer Card"
 - [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../videos/_JkZCp64jNw.md) — possibly related: both name Page 21 "Customer Card"
+- [Dynamics 365 Business Central: A universal method to check if a Field has a value in AL](../posts/yzhums-com/70630.md) — possibly related: both name Page 21 "Customer Card"
+- [Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)](../posts/yzhums-com/70554.md) — possibly related: both name Page 16 "Chart of Accounts"
 - [Dynamics 365 Business Central: controlling the Summary system part.](../posts/demiliani-com/12439.md) — possibly related: both name Page 21 "Customer Card"
+- [Dynamics 365 Business Central: How to quickly remove Non-Alphanumeric Characters in AL](../posts/yzhums-com/75649.md) — possibly related: both name Page 21 "Customer Card"
 - [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../posts/thedynamicsexplorer-com/8821.md) — possibly related: both name Page 16 "Chart of Accounts"
-- [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 16 "Chart of Accounts"
-- [Effortless Layout Editing in Business Central](../posts/aardvarklabs-blog/1756.md) — possibly related: both name Page 21 "Customer Card"
-- [Historical Snapshot (2024)](../videos/mZNfMPpxovE.md) — possibly related: both name Page 16 "Chart of Accounts"
 
 Presenters (as heard): Monica Aja.

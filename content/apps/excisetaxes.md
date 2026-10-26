@@ -2,7 +2,7 @@
 id: app/excisetaxes
 type: app
 title: ExciseTaxes
-summary: "ExciseTaxes (Microsoft.ExciseTaxes): 46 objects in BC29-30 (8 table extensions, 7 pages, 7 page extensions, 6 enums, 5 tables, ...); documented by 2 Learn hubs; 1 video."
+summary: "ExciseTaxes (Microsoft.ExciseTaxes): 46 objects in BC29-30 (8 table extensions, 7 pages, 7 page extensions, 6 enums, 5 tables, ...); documented by 2 Learn hubs; 1 video, 1 post."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-26T05:39:01.092Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f4d93ebcee1d270f79cc6706ed7f7fdf7ac17da9bb2f8b55c2844323e362b81c
+  input_hash: d53ef550b9b1bde0b1c8d1be62d74ba8692dca58700cd60f4ffb4b4c9920855e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ExciseTaxes/app
@@ -83,7 +83,8 @@ links:
   localizations: []
   videos:
     - video/Cj_n5x3gN_Y
-  posts: []
+  posts:
+    - post/yzhums-com/73513
   guidelines: []
 app: ExciseTaxes
 namespace_root: Microsoft.ExciseTaxes
@@ -105,12 +106,12 @@ counts:
     enumextension: 1
   hubs: 2
   videos: 1
-  posts: 0
+  posts: 1
 ---
 
 # ExciseTaxes
 
-> ExciseTaxes (Microsoft.ExciseTaxes): 46 objects in BC29-30 (8 table extensions, 7 pages, 7 page extensions, 6 enums, 5 tables, ...); documented by 2 Learn hubs; 1 video.
+> ExciseTaxes (Microsoft.ExciseTaxes): 46 objects in BC29-30 (8 table extensions, 7 pages, 7 page extensions, 6 enums, 5 tables, ...); documented by 2 Learn hubs; 1 video, 1 post.
 
 First-party app · folder `src/Apps/W1/ExciseTaxes/app` · namespace `Microsoft.ExciseTaxes` · BC29-30 · system finance · facts from the code pillar and the joins, nothing machine-written
 
@@ -225,6 +226,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 Videos and posts that name this app's objects by exact type and name.
 
+- [Business Central 2026 release wave 1 (BC28): Calculate excise taxes](../posts/yzhums-com/73513.md) (community post, 2026-05-26): names Page 7414 "Excise Tax Types"
 - [What's New: Excise Taxes (2026 release wave 1)](../videos/Cj_n5x3gN_Y.md) (video, 2026-04-01): names Page 7414 "Excise Tax Types"
 
 Source: [src/Apps/W1/ExciseTaxes/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ExciseTaxes/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:58:16.843Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-10-26T05:30:48.114Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -97,10 +97,10 @@ links:
       label: possibly related
       why: both name Table 36 "Sales Header"
       by: code
-    - to: post/aardvarklabs-blog/1891
-      title: Implementing a Multi-Step Process for AI Recommendations in Business Central
+    - to: post/yzhums-com/75131
+      title: "Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)"
       label: possibly related
-      why: both name Table 37 "Sales Line"
+      why: both name Table 112 "Sales Invoice Header"
       by: code
 post_id: https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/
 source_id: thatnavguy-com
@@ -193,7 +193,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) — possibly related: both name Table 37 "Sales Line"
 - [Business Central Development Serie - Part 2b: AI for BC Development — The Knowledge Gap That Ships to Production](../../posts/kine-cz/https-blog-kine-cz-posts-bcdevelopmentserie-02b--0078d7faba.md) — possibly related: both name Table 37 "Sales Line"
 - [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) — possibly related: both name Table 36 "Sales Header"
-- [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../posts/aardvarklabs-blog/1891.md) — possibly related: both name Table 37 "Sales Line"
+- [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../../posts/yzhums-com/75131.md) — possibly related: both name Table 112 "Sales Invoice Header"
 
 ## Heads up
 

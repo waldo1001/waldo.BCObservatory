@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T02:00:48.630Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-10-26T05:30:48.114Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -96,23 +96,23 @@ links:
       label: possibly related
       why: both name Table 36 "Sales Header"
       by: code
-    - to: post/aardvarklabs-blog/3118
-      title: Leveraging RecordRef and FieldRef for Dynamic Coding
+    - to: post/yzhums-com/75131
+      title: "Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)"
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/yzhums-com/74172
+      title: "Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order"
       label: possibly related
       why: both name Table 36 "Sales Header"
       by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade
-      title: Skip API data upgrade in cloud migration
-      label: possibly related
-      why: names Page 9994 "API Data Upgrade List"
-      by: code
-    - to: post/aardvarklabs-blog/4056
-      title: "Smarter Keys, Better Performance: Exploring Business Central v29 Index Updates"
+    - to: post/yzhums-com/71582
+      title: "Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page"
       label: possibly related
       why: both name Table 36 "Sales Header"
       by: code
-    - to: post/duiliotacconi-com/1667
-      title: Sorting by Type and Line No. in Sales and Purchase Postings
+    - to: post/yzhums-com/69215
+      title: "Dynamics 365 Business Central: Manage credit limits (Warnings and Workflow)"
       label: possibly related
       why: both name Table 36 "Sales Header"
       by: code
@@ -191,10 +191,10 @@ No source states these links: they share an object, a model read them, or a pers
 - [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) — possibly related: both name Table 36 "Sales Header"
 - [BC Friday Tips #74 Copy Document and Custom Field](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) — possibly related: both name Table 36 "Sales Header"
 - [BC Friday Tips #77 TestField Show Record Action](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a.md) — possibly related: both name Table 36 "Sales Header"
-- [Leveraging RecordRef and FieldRef for Dynamic Coding](../../posts/aardvarklabs-blog/3118.md) — possibly related: both name Table 36 "Sales Header"
-- [Skip API data upgrade in cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade) — possibly related: names Page 9994 "API Data Upgrade List"
-- [Smarter Keys, Better Performance: Exploring Business Central v29 Index Updates](../../posts/aardvarklabs-blog/4056.md) — possibly related: both name Table 36 "Sales Header"
-- [Sorting by Type and Line No. in Sales and Purchase Postings](../../posts/duiliotacconi-com/1667.md) — possibly related: both name Table 36 "Sales Header"
+- [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../../posts/yzhums-com/75131.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order](../../posts/yzhums-com/74172.md) — possibly related: both name Table 36 "Sales Header"
+- [Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page](../../posts/yzhums-com/71582.md) — possibly related: both name Table 36 "Sales Header"
+- [Dynamics 365 Business Central: Manage credit limits (Warnings and Workflow)](../../posts/yzhums-com/69215.md) — possibly related: both name Table 36 "Sales Header"
 
 ## Context
 

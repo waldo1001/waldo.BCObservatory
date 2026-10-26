@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:10:21.755Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -241,15 +241,15 @@ links:
       label: possibly related
       why: both name Table 270 "Bank Account"
       by: code
-    - to: post/thedynamicsexplorer-com/8821
-      title: Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View
+    - to: post/yzhums-com/70554
+      title: "Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)"
       label: possibly related
       why: both name Page 16 "Chart of Accounts"
       by: code
-    - to: post/thedynamicsexplorer-com/36822
-      title: Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central
+    - to: post/yzhums-com/75131
+      title: "Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)"
       label: possibly related
-      why: both name Page 16 "Chart of Accounts"
+      why: both name Table 112 "Sales Invoice Header"
       by: code
 video_id: hcu7T3qLdDA
 channel: yt-microsoft
@@ -686,7 +686,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [BC Friday Tips #74 Copy Document and Custom Field](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) — possibly related: both name Table 112 "Sales Invoice Header"
 - [D365 Business Central: How to Fix Missing Sales Invoices in the API](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) — possibly related: both name Table 112 "Sales Invoice Header"
 - [Demo or Disaster? How to build better Business Central demos?](../videos/Ug_uM59DRRE.md) — possibly related: both name Table 270 "Bank Account"
-- [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../posts/thedynamicsexplorer-com/8821.md) — possibly related: both name Page 16 "Chart of Accounts"
-- [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)](../posts/yzhums-com/70554.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../posts/yzhums-com/75131.md) — possibly related: both name Table 112 "Sales Invoice Header"
 
 Presenters (as heard): Tomas (To), Arthur, Alexander.

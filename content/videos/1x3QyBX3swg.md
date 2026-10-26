@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:18:14.341Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -107,6 +107,21 @@ links:
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
+    - to: post/yzhums-com/71200
+      title: "Business Central 2026 release wave 1 (BC28): Audit user and group permissions across apps (new Permissions Overview page)"
+      label: possibly related
+      why: both name Page 8700 "Table Information"
+      by: code
+    - to: post/yzhums-com/71379
+      title: "Business Central 2026 release wave 1 (BC28): Manage database index usage and cost per company (View index and Turn off indexes)"
+      label: possibly related
+      why: both name Page 8700 "Table Information"
+      by: code
+    - to: post/yzhums-com/75894
+      title: "Business Central 2026 release wave 2 (BC29): Administrators can turn SIFT (SumIndexField Technology) indexes on/off"
+      label: possibly related
+      why: both name Page 8700 "Table Information"
+      by: code
     - to: video/qABlX4AL3GM
       title: "Business Central 29.0: Major Change to Table Extensions & SQL."
       label: possibly related
@@ -132,23 +147,8 @@ links:
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
-    - to: video/fy96_jdL1PQ
-      title: "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central"
-      label: possibly related
-      why: both name Table 32 "Item Ledger Entry"
-      by: code
-    - to: video/Gwgpj1U1wxI
-      title: Introduction to Business Central Cloud Migration (2023)
-      label: possibly related
-      why: both name Table 405 "Change Log Entry"
-      by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/manage-indexes
-      title: Manage database index usage
-      label: possibly related
-      why: names Page 8700 "Table Information"
-      by: code
-    - to: video/f_i4_BRz-oA
-      title: "Microsoft presents: Cloud Migration from any SQL"
+    - to: post/yzhums-com/75131
+      title: "Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)"
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
@@ -485,14 +485,14 @@ Not found in BC28-30: table "GL Entry", table "Change Log", table "DAMS re-index
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Business Central 2026 release wave 1 (BC28): Audit user and group permissions across apps (new Permissions Overview page)](../posts/yzhums-com/71200.md) — possibly related: both name Page 8700 "Table Information"
+- [Business Central 2026 release wave 1 (BC28): Manage database index usage and cost per company (View index and Turn off indexes)](../posts/yzhums-com/71379.md) — possibly related: both name Page 8700 "Table Information"
+- [Business Central 2026 release wave 2 (BC29): Administrators can turn SIFT (SumIndexField Technology) indexes on/off](../posts/yzhums-com/75894.md) — possibly related: both name Page 8700 "Table Information"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../videos/qABlX4AL3GM.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Business Central: Turn SIFT Indexes on or Off](../videos/bVPFIhkvZEA.md) — possibly related: both name Page 8700 "Table Information"
 - [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 5802 "Value Entry"
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../videos/fy96_jdL1PQ.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [Introduction to Business Central Cloud Migration (2023)](../videos/Gwgpj1U1wxI.md) — possibly related: both name Table 405 "Change Log Entry"
-- [Manage database index usage](https://learn.microsoft.com/dynamics365/business-central/manage-indexes) — possibly related: names Page 8700 "Table Information"
-- [Microsoft presents: Cloud Migration from any SQL](../videos/f_i4_BRz-oA.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../posts/yzhums-com/75131.md) — possibly related: both name Table 32 "Item Ledger Entry"
 
 Presenters (as heard): Mads Gram, Preetham, Jens, Giulio, Jesper, Stefan.

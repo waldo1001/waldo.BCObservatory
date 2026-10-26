@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:53:46.954Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -74,6 +74,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/71463
+      title: "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)"
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
     - to: post/thedynamicsexplorer-com/9815
       title: Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order
       label: possibly related
@@ -228,6 +233,7 @@ Not found in BC28-30: page "Item Charge", page "Item Charge Assignment".
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../posts/thedynamicsexplorer-com/9815.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../posts/thedynamicsexplorer-com/36954.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Page 51 "Purchase Invoice"

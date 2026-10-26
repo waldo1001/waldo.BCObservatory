@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:51:08.493Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -88,6 +88,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/74091
+      title: "Dynamics 365 Business Central: How to quickly create Production Orders from Sales Orders"
+      label: possibly related
+      why: both name Page 48 "Sales Orders"
+      by: code
     - to: video/B8cWQGwajwQ
       title: "In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)"
       label: possibly related
@@ -284,6 +289,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Dynamics 365 Business Central: How to quickly create Production Orders from Sales Orders](../posts/yzhums-com/74091.md) — possibly related: both name Page 48 "Sales Orders"
 - [In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)](../videos/B8cWQGwajwQ.md) — possibly related: both name Page 48 "Sales Orders"
 - [Introducing: Chat with Copilot ( 2024 release wave 1)](../videos/j5ULVClJaKU.md) — possibly related: both name Page 48 "Sales Orders"
 - [Warn Salespeople That a Product Will Soon be Out of Stock](../videos/gBB0elWQWM8.md) — possibly related: both name Page 48 "Sales Orders"

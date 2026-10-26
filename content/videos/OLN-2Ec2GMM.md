@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:10:47.726Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -102,6 +102,11 @@ links:
       by: code
     - to: post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26
       title: Automating Posting Periods in Business Central with Date Formulas
+      label: possibly related
+      why: both name Table 98 "General Ledger Setup"
+      by: code
+    - to: post/yzhums-com/71463
+      title: "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)"
       label: possibly related
       why: both name Table 98 "General Ledger Setup"
       by: code
@@ -349,6 +354,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [Allow Posting Date Formula](../posts/olofsimren-com/3853.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [Allow Posting From/To DateFormula: No More Monthly Date Updates from Business Central v28](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8913658799123411419--5a782b6899.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [Automating Posting Periods in Business Central with Date Formulas](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26.md) — possibly related: both name Table 98 "General Ledger Setup"
+- [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [Control Deferral Posting](../videos/VIda0Ok1SSQ.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9.md) — possibly related: both name Table 98 "General Ledger Setup"
 - [Understanding Business Central’s Format Address Codeunit](../posts/aardvarklabs-blog/3928.md) — possibly related: both name Table 98 "General Ledger Setup"

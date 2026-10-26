@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:43:48.340Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -176,6 +176,11 @@ links:
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
+    - to: post/yzhums-com/71463
+      title: "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)"
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
     - to: video/qABlX4AL3GM
       title: "Business Central 29.0: Major Change to Table Extensions & SQL."
       label: possibly related
@@ -211,15 +216,10 @@ links:
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
-    - to: video/fy96_jdL1PQ
-      title: "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central"
+    - to: post/yzhums-com/75131
+      title: "Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)"
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
-      by: code
-    - to: video/X3xygXmgRqU
-      title: How to Set Up Locations in Business Central (2025)
-      label: possibly related
-      why: both name Page 5740 "Transfer Order"
       by: code
 video_id: QdWPlIV3Avk
 channel: yt-microsoft
@@ -580,6 +580,7 @@ More than one object has this name, so none is linked: page "Subcontracting Orde
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../videos/qABlX4AL3GM.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 50 "Purchase Order"
 - [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Table 32 "Item Ledger Entry"
@@ -587,5 +588,4 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../posts/thedynamicsexplorer-com/36954.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../videos/fy96_jdL1PQ.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [How to Set Up Locations in Business Central (2025)](../videos/X3xygXmgRqU.md) — possibly related: both name Page 5740 "Transfer Order"
+- [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../posts/yzhums-com/75131.md) — possibly related: both name Table 32 "Item Ledger Entry"

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:22:37.806Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,6 +73,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/74541
+      title: "Dynamics 365 Business Central: Upload, install, and manage PTEs in the admin center (Remove ability to upload and install PTEs from Extension Management page)"
+      label: possibly related
+      why: both name Page 2500 "Extension Management"
+      by: code
     - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8
       title: How I Recreated the Extension Upload Experience in Business Central
       label: possibly related
@@ -228,4 +233,5 @@ Not found in BC28-30: page "External File Accounts", page "Set Up External File 
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Dynamics 365 Business Central: Upload, install, and manage PTEs in the admin center (Remove ability to upload and install PTEs from Extension Management page)](../posts/yzhums-com/74541.md) — possibly related: both name Page 2500 "Extension Management"
 - [How I Recreated the Extension Upload Experience in Business Central](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8.md) — possibly related: both name Page 2500 "Extension Management"

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:49:03.453Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -104,6 +104,11 @@ links:
       label: possibly related
       why: both name Page 99000852 "Planning Worksheet"
       by: code
+    - to: post/yzhums-com/71463
+      title: "Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)"
+      label: possibly related
+      why: both name Page 51 "Purchase Invoice"
+      by: code
     - to: video/Vq9Nk6_uxmQ
       title: "Business Central Under the Hood episode 14: Building Agents in Business Central"
       label: possibly related
@@ -129,25 +134,20 @@ links:
       label: possibly related
       why: both name Page 51 "Purchase Invoice"
       by: code
-    - to: video/crDXSPsoIQ8
-      title: Edit Sales Orders in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)
+    - to: post/yzhums-com/74523
+      title: "Dynamics 365 Business Central Blog Series: Item Attributes"
       label: possibly related
       why: both name Page 42 "Sales Order"
       by: code
-    - to: video/XhO4oFmoh1M
-      title: "Introducing: Sales Order Agent (2025 release wave 1)"
+    - to: post/yzhums-com/74091
+      title: "Dynamics 365 Business Central: How to quickly create Production Orders from Sales Orders"
+      label: possibly related
+      why: both name Page 5522 "Order Planning"
+      by: code
+    - to: post/yzhums-com/71582
+      title: "Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page"
       label: possibly related
       why: both name Page 42 "Sales Order"
-      by: code
-    - to: video/SdQVQLNXVS0
-      title: "What's New in Manufacturing: Order Processing (2025 release wave 1)"
-      label: possibly related
-      why: both name Page 99000852 "Planning Worksheet"
-      by: code
-    - to: video/QdWPlIV3Avk
-      title: "What's new in SCM: Subcontracting (2026 release wave 2)"
-      label: possibly related
-      why: both name Page 51 "Purchase Invoice"
       by: code
 video_id: DJ3LPRxn27g
 channel: yt-microsoft
@@ -325,12 +325,12 @@ Not found in BC28-30: page "requisition worksheet", page "shipment".
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Approval Workflows in Planning Worksheet](../posts/olofsimren-com/3779.md) — possibly related: both name Page 99000852 "Planning Worksheet"
+- [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../videos/Vq9Nk6_uxmQ.md) — possibly related: both name Page 42 "Sales Order"
 - [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 99000852 "Planning Worksheet"
 - [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 42 "Sales Order"
 - [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../posts/thedynamicsexplorer-com/9815.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../posts/thedynamicsexplorer-com/36954.md) — possibly related: both name Page 51 "Purchase Invoice"
-- [Edit Sales Orders in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)](../videos/crDXSPsoIQ8.md) — possibly related: both name Page 42 "Sales Order"
-- [Introducing: Sales Order Agent (2025 release wave 1)](../videos/XhO4oFmoh1M.md) — possibly related: both name Page 42 "Sales Order"
-- [What's New in Manufacturing: Order Processing (2025 release wave 1)](../videos/SdQVQLNXVS0.md) — possibly related: both name Page 99000852 "Planning Worksheet"
-- [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Page 51 "Purchase Invoice"
+- [Dynamics 365 Business Central Blog Series: Item Attributes](../posts/yzhums-com/74523.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central: How to quickly create Production Orders from Sales Orders](../posts/yzhums-com/74091.md) — possibly related: both name Page 5522 "Order Planning"
+- [Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page](../posts/yzhums-com/71582.md) — possibly related: both name Page 42 "Sales Order"

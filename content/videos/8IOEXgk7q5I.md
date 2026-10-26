@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:00:59.981Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,6 +121,26 @@ links:
       label: possibly related
       why: both name Page 38 "Item Ledger Entries"
       by: code
+    - to: post/yzhums-com/74523
+      title: "Dynamics 365 Business Central Blog Series: Item Attributes"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/yzhums-com/74458
+      title: "Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/yzhums-com/74476
+      title: "Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
+    - to: post/yzhums-com/75164
+      title: "Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries"
+      label: possibly related
+      why: both name Page 38 "Item Ledger Entries"
+      by: code
     - to: post/thinkaboutit-be/7537
       title: "How Do I: Replace Reports with Analysis Mode in Business Central"
       label: possibly related
@@ -138,11 +158,6 @@ links:
       by: code
     - to: post/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570
       title: "Weekly Review: Business Central AL Development – June 28–July 4, 2026"
-      label: possibly related
-      why: both name Page 38 "Item Ledger Entries"
-      by: code
-    - to: video/Afv-r-eDt90
-      title: "What's New: Enhanced Analysis Mode (2026 release wave 1)"
       label: possibly related
       why: both name Page 38 "Item Ledger Entries"
       by: code
@@ -320,10 +335,13 @@ No source states these links: they share an object, a model read them, or a pers
 
 - [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central Blog Series: Item Attributes](../posts/yzhums-com/74523.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../posts/yzhums-com/74458.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central: How to add Item Attributes Factbox (9110, ListPart) to Item Ledger Entries page](../posts/yzhums-com/74476.md) — possibly related: both name Page 38 "Item Ledger Entries"
+- [Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries](../posts/yzhums-com/75164.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [How Do I: Replace Reports with Analysis Mode in Business Central](../posts/thinkaboutit-be/7537.md) — possibly related: both name Page 38 "Item Ledger Entries"
 - [Remove and reapply item entries](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-remove-and-reapply-item-entries) — possibly related: names Page 506 "Item Application Entries"
 - [Track item cost adjustments](https://learn.microsoft.com/dynamics365/business-central/finance-track-inventory-costs) — possibly related: names Page 506 "Item Application Entries"
 - [Weekly Review: Business Central AL Development – June 28–July 4, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570.md) — possibly related: both name Page 38 "Item Ledger Entries"
-- [What's New: Enhanced Analysis Mode (2026 release wave 1)](../videos/Afv-r-eDt90.md) — possibly related: both name Page 38 "Item Ledger Entries"
 
 Presenters (as heard): Alexa Driansky.

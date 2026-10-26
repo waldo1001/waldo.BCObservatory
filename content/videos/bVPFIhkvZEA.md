@@ -24,7 +24,7 @@ review:
   at: "2026-10-07T23:19:03.382Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -92,6 +92,21 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/71200
+      title: "Business Central 2026 release wave 1 (BC28): Audit user and group permissions across apps (new Permissions Overview page)"
+      label: possibly related
+      why: both name Page 8700 "Table Information"
+      by: code
+    - to: post/yzhums-com/71379
+      title: "Business Central 2026 release wave 1 (BC28): Manage database index usage and cost per company (View index and Turn off indexes)"
+      label: possibly related
+      why: both name Page 8700 "Table Information"
+      by: code
+    - to: post/yzhums-com/75894
+      title: "Business Central 2026 release wave 2 (BC29): Administrators can turn SIFT (SumIndexField Technology) indexes on/off"
+      label: possibly related
+      why: both name Page 8700 "Table Information"
+      by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/manage-indexes
       title: Manage database index usage
       label: possibly related
@@ -290,6 +305,9 @@ Not found in BC28-30: table "GL Entry", page "index management page".
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Business Central 2026 release wave 1 (BC28): Audit user and group permissions across apps (new Permissions Overview page)](../posts/yzhums-com/71200.md) — possibly related: both name Page 8700 "Table Information"
+- [Business Central 2026 release wave 1 (BC28): Manage database index usage and cost per company (View index and Turn off indexes)](../posts/yzhums-com/71379.md) — possibly related: both name Page 8700 "Table Information"
+- [Business Central 2026 release wave 2 (BC29): Administrators can turn SIFT (SumIndexField Technology) indexes on/off](../posts/yzhums-com/75894.md) — possibly related: both name Page 8700 "Table Information"
 - [Manage database index usage](https://learn.microsoft.com/dynamics365/business-central/manage-indexes) — possibly related: names Page 8700 "Table Information"
 - [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Page 8700 "Table Information"
 - [Quick Tip: Reading the Capacity Page in the Business Central Admin Center](../posts/thinkaboutit-be/8077.md) — possibly related: both name Page 8700 "Table Information"

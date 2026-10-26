@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:12:44.798Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -296,15 +296,15 @@ links:
       label: possibly related
       why: both name Codeunit 457 "Environment Information"
       by: code
+    - to: post/yzhums-com/70630
+      title: "Dynamics 365 Business Central: A universal method to check if a Field has a value in AL"
+      label: possibly related
+      why: both name Page 21 "Customer Card"
+      by: code
     - to: post/demiliani-com/12439
       title: "Dynamics 365 Business Central: controlling the Summary system part."
       label: possibly related
       why: both name Page 21 "Customer Card"
-      by: code
-    - to: post/thedynamicsexplorer-com/36822
-      title: Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central
-      label: possibly related
-      why: both name Page 22 "Customer List"
       by: code
 video_id: TY82NR2hGEg
 channel: yt-microsoft
@@ -949,7 +949,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../videos/_JkZCp64jNw.md) — possibly related: both name Page 21 "Customer Card"
 - [Business Central v29: System Audit Fields Now Available in Analysis Mode](../videos/H7R_m8Ue38g.md) — possibly related: both name Page 22 "Customer List"
 - [Creating Data Driven Text with AI in Business Central](../posts/aardvarklabs-blog/1816.md) — possibly related: both name Codeunit 457 "Environment Information"
+- [Dynamics 365 Business Central: A universal method to check if a Field has a value in AL](../posts/yzhums-com/70630.md) — possibly related: both name Page 21 "Customer Card"
 - [Dynamics 365 Business Central: controlling the Summary system part.](../posts/demiliani-com/12439.md) — possibly related: both name Page 21 "Customer Card"
-- [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 22 "Customer List"
 
 Presenters (as heard): Peter Borring, Stephen Balslev, Espen Kristoffersen, Freddy Christensen, Asbjørn, Peter, Stefan, Esben, Kurt.

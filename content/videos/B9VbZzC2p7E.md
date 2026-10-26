@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:18:17.573Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-26T05:40:07.940Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -89,6 +89,16 @@ links:
       by: code
     - to: post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9
       title: "D365 Business Central: How to Fix Missing Sales Invoices in the API"
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/yzhums-com/75131
+      title: "Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)"
+      label: possibly related
+      why: both name Table 112 "Sales Invoice Header"
+      by: code
+    - to: post/yzhums-com/74940
+      title: Dynamics 365 Business Central: Searches for duplicate external document numbers in sales documents and posted documents (Standard function/procedure)
       label: possibly related
       why: both name Table 112 "Sales Invoice Header"
       by: code
@@ -230,6 +240,8 @@ No source states these links: they share an object, a model read them, or a pers
 - [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) — possibly related: both name Table 112 "Sales Invoice Header"
 - [BC Friday Tips #74 Copy Document and Custom Field](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) — possibly related: both name Table 112 "Sales Invoice Header"
 - [D365 Business Central: How to Fix Missing Sales Invoices in the API](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [Dynamics 365 Business Central: Displaying Sales/Purchase Order No. in Item Ledger Entries (Source Order No. and Source Description)](../posts/yzhums-com/75131.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [Dynamics 365 Business Central: Searches for duplicate external document numbers in sales documents and posted documents (Standard function/procedure)](../posts/yzhums-com/74940.md) — possibly related: both name Table 112 "Sales Invoice Header"
 - [Leveraging RecordRef and FieldRef for Dynamic Coding](../posts/aardvarklabs-blog/3118.md) — possibly related: both name Table 112 "Sales Invoice Header"
 - [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../videos/hcu7T3qLdDA.md) — possibly related: both name Table 112 "Sales Invoice Header"
 
