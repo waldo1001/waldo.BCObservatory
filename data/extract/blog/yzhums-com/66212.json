@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/yzhums-com/66212",
+  "url": "https://yzhums.com/66212/",
+  "title": "Dynamics 365 Business Central: Use a default quantity of 1 for all types on documents – Customization",
+  "source": "yzhums-com",
+  "published_at": "2025-07-30T01:29:00.000Z",
+  "words": 957,
+  "summary": "Business Central by default sets quantity to 1 only for Item and G/L Account line types on sales and purchase documents, but not for Resource, Fixed Asset, or Charge types. This post shows how to customize the system to apply default quantity of 1 to other document line types using table extensions and event subscribers.",
+  "key_points": [
+    "Default quantity of 1 is currently limited to Item type in sales documents and G/L Account type in both sales and purchase documents",
+    "Resource, Fixed Asset, and Charge (Item) line types lack this default quantity feature out of the box",
+    "Two customization approaches are provided: using setup table fields with event handlers, or using field extension triggers for simpler one-time implementations",
+    "The solution uses event subscribers like OnAfterAssignResourceValues and OnAfterAssignFixedAssetValues to apply default quantities"
+  ],
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "customization",
+    "default quantities",
+    "document line types",
+    "sales documents",
+    "purchase documents",
+    "fixed assets",
+    "resources"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Line"
+    },
+    {
+      "type": "table",
+      "name": "Purchases & Payables Setup"
+    }
+  ],
+  "features": [
+    "Default Quantity setting",
+    "Line type handling",
+    "Document line defaults"
+  ],
+  "versions": [
+    "BC25"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "As of now, the default quantity setting of 1 is only valid for Item type and G/L Account type.",
+      "why_it_matters": "This explains the core limitation that drives the need for customization across different line types."
+    },
+    {
+      "text": "So if you need other types to be available as well, this will need to be customized.",
+      "why_it_matters": "Clarifies that extending default quantity to Resource, Fixed Asset, and other types requires custom development."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/yzhums-com/63913",
+  "url": "https://yzhums.com/63913/",
+  "title": "Dynamics 365 Business Central: How to easily check who created an environment, company and record and when",
+  "source": "yzhums-com",
+  "published_at": "2025-08-01T01:03:38.000Z",
+  "words": 768,
+  "summary": "Tracking who created environments, companies, and records in Business Central can be done through audit fields built into every table, the page inspection feature, change logs, telemetry, and field monitoring. These methods help administrators and users verify creation details and audit data modifications.",
+  "key_points": [
+    "System audit fields (SystemCreatedAt, SystemCreatedBy, SystemModifiedAt, SystemModifiedBy) are included in every Business Central table since 2020 release wave 2",
+    "Page inspection feature allows viewing audit fields to check who created a company and when",
+    "Change log tracks direct modifications to specified tables and fields but cannot monitor system tables like Company",
+    "Field monitoring and Azure Application Insights telemetry provide advanced tracking of field changes and create detailed reports",
+    "Environment creation logs are available in the Business Central admin center Operations section"
+  ],
+  "systems": [
+    "administration",
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "auditing",
+    "tracking",
+    "admin center",
+    "record creation",
+    "data governance",
+    "change log",
+    "telemetry"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Company (2000000006)"
+    }
+  ],
+  "features": [
+    "Audit fields",
+    "Page inspection",
+    "Change log",
+    "Field monitoring",
+    "Application Insights telemetry",
+    "Environment Operations log"
+  ],
+  "versions": [
+    "2020 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Every table in Business Central includes the following four system fields, which can be used for auditing records",
+      "why_it_matters": "These built-in audit fields are the foundation for tracking who created and modified records without custom development"
+    },
+    {
+      "text": "the companies automatically created when the environment is created, such as My Company, do not show the SystemCreatedBy",
+      "why_it_matters": "This limitation is important to know when investigating who created default companies during environment setup"
+    },
+    {
+      "text": "You can set up Business Central to send field monitoring activity to an Application Insights resource in Microsoft Azure",
+      "why_it_matters": "Advanced monitoring integrations allow comprehensive audit trails and custom reporting on all data changes"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

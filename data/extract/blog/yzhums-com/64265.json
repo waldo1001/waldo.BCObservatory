@@ -1,0 +1,75 @@
+{
+  "item_id": "blog/yzhums-com/64265",
+  "url": "https://yzhums.com/64265/",
+  "title": "Dynamics 365 Business Central: How to restrict certain tables from importing data through Configuration Package",
+  "source": "yzhums-com",
+  "published_at": "2025-07-18T01:25:30.000Z",
+  "words": 454,
+  "summary": "Configuration Packages can import data into Business Central, but posted tables, entry tables, and system tables are blocked by default. To restrict additional tables from being imported, you can use customization with the OnAfterIsSystemTable event in a codeunit to mark unwanted tables as system tables and prevent users from importing them.",
+  "key_points": [
+    "Posted and entry tables like G/L Entry cannot be inserted, modified, or deleted through Configuration Package",
+    "System tables cannot be imported or exported through Configuration Package",
+    "Security Filters alone cannot prevent access to system tables with InherentPermissions Property set",
+    "The OnAfterIsSystemTable event allows custom marking of tables as system tables to block import access",
+    "You can create a configuration table to manage prohibited tables or add user-level controls for granular restriction"
+  ],
+  "systems": [
+    "administration",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "configuration packages",
+    "data import",
+    "table restrictions",
+    "security",
+    "customization",
+    "rapidstart"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Payment Terms"
+    },
+    {
+      "type": "codeunit",
+      "name": "Config. Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "ConfigPackageHandler"
+    }
+  ],
+  "features": [
+    "Configuration Packages",
+    "data import/export",
+    "table security",
+    "event subscribers",
+    "permission control",
+    "RapidStart"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "For posted tables and entry tables, we cannot insert, modify, or delete them through the Configuration Package.",
+      "why_it_matters": "Explains the built-in restriction that protects transactional data from accidental modification during import"
+    },
+    {
+      "text": "So we can only do it through customization, there are many ways. I will mainly introduce one that uses a standard event, OnAfterIsSystemTable.",
+      "why_it_matters": "Identifies the recommended approach for extending table restrictions beyond built-in limitations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

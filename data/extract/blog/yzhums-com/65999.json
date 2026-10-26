@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/65999",
+  "url": "https://yzhums.com/65999/",
+  "title": "Dynamics 365 Business Central: Remove obsolete permissions from all permission sets",
+  "source": "yzhums-com",
+  "published_at": "2025-07-28T01:35:07.000Z",
+  "words": 380,
+  "summary": "Business Central provides a built-in feature to remove obsolete permissions from user-defined permission sets when database objects are deprecated. System permission sets cannot be edited through this feature, requiring manual cleanup in extensions instead.",
+  "key_points": [
+    "Permission sets contain permissions for specific database objects and must be assigned to users for Business Central access",
+    "When objects are marked as ObsoleteState = Removed during version updates, associated permissions must be cleaned up",
+    "The Remove Obsolete Permissions action on the Permission Sets page automatically removes deprecated permissions from user-defined sets",
+    "System permission sets are read-only and cannot use this feature, requiring manual cleanup or regeneration in extensions",
+    "This feature removes specific permissions but cannot delete entire obsolete permission sets"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "permission sets",
+    "obsolete objects",
+    "permissions management",
+    "extension development",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Permission Sets page"
+    },
+    {
+      "type": "other",
+      "name": "Remove Obsolete Permissions action"
+    }
+  ],
+  "features": [
+    "Remove Obsolete Permissions action",
+    "Permission set management",
+    "Obsolete object handling",
+    "User-defined permission sets"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "On the Permission Sets page, choose the Remove Obsolete Permissions action.",
+      "why_it_matters": "This is the standard feature for cleaning up deprecated permissions from user-defined permission sets automatically."
+    },
+    {
+      "text": "This feature removes permissions from a permission set, not the permission set itself.",
+      "why_it_matters": "Clarifies the scope of the feature to prevent misunderstanding about what gets removed."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/yzhums-com/65857",
+  "url": "https://yzhums.com/65857/",
+  "title": "Dynamics 365 Business Central: How to deprecate external business events (ExternalBusinessEvent)",
+  "source": "yzhums-com",
+  "published_at": "2025-07-23T02:54:50.000Z",
+  "words": 969,
+  "summary": "External business events enable Business Central to notify and trigger actions in external systems like Dataverse and Power Automate. This post explains how to deprecate these events predictably so that external integrations can transition to replacement events, using the Obsolete attribute and an [OBSOLETE] marker prefix in version 26 and later.",
+  "key_points": [
+    "Business events allow Business Central to notify external systems and trigger reactions in Power Automate, Dynamics 365 Sales, Customer Service, and third-party services",
+    "The catalog includes predefined events like purchase invoice posted, sales invoice posted, customer blocked, and sales order released across purchasing, accounts payable, accounts receivable, and sales categories",
+    "Deprecating an event involves marking it as obsolete pending using the [Obsolete] attribute and prefixing the DisplayName with [OBSOLETE] to inform external subscribers",
+    "External business events are available in version 22.2 and later, with deprecation capability added in Business Central 2025 release wave 1 (v26)",
+    "Events are defined in AL code using ExternalBusinessEvent attribute, subscribed to via EventSubscriber, and triggered within event handler procedures"
+  ],
+  "systems": [
+    "integration",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "external business events",
+    "business central",
+    "power automate",
+    "dataverse",
+    "deprecation",
+    "al development",
+    "event handling",
+    "integration"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "MyCodeunit"
+    },
+    {
+      "type": "enum",
+      "name": "MyEnumExtension"
+    },
+    {
+      "type": "other",
+      "name": "_Exclude_Business_Events_"
+    }
+  ],
+  "features": [
+    "External business events",
+    "Business event deprecation",
+    "Event subscription",
+    "Power Automate integration",
+    "Dataverse integration",
+    "Obsolete attribute marking",
+    "Event catalog"
+  ],
+  "versions": [
+    "22.0",
+    "22.1",
+    "22.2",
+    "24.0",
+    "26",
+    "Business Central 2025 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The approach for deprecating an external business event is similar to the standard deprecation process for procedures.",
+      "why_it_matters": "Clarifies that deprecation follows established AL patterns, making it easier for developers familiar with standard deprecation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

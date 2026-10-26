@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/66056",
+  "url": "https://yzhums.com/66056/",
+  "title": "Business Central 2025 wave 2 (BC27): Go To Symbol In Workspace (Ctrl+T) has been extended to search for a broader range of AL symbols (includes Procedures, events, global variables, and many more)",
+  "source": "yzhums-com",
+  "published_at": "2025-07-24T01:22:04.000Z",
+  "words": 436,
+  "summary": "Business Central 2025 wave 2 extends the Go To Symbol In Workspace feature (Ctrl+T) in Visual Studio Code to search for a broader range of AL symbols beyond application objects, including procedures, events, global variables, page controls, page actions, and table fields, making navigation and source code discovery easier for developers.",
+  "key_points": [
+    "Go To Symbol In Workspace (Ctrl+T) now searches procedures, events, global variables, page controls, page actions, table fields, and more beyond just application objects",
+    "The extended search can be disabled or configured via settings like al.extendGoToSymbolInWorkspace.enabled, ResultLimit, and IncludeSymbolFiles",
+    "Developers can jump directly to target code from search results, improving workflow efficiency",
+    "The feature was introduced in BC26 with searchable downloaded symbols and has been significantly expanded in BC27"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "go to symbol",
+    "visual studio code",
+    "al language",
+    "code navigation",
+    "symbol search",
+    "developer experience"
+  ],
+  "objects": [],
+  "features": [
+    "Go To Symbol In Workspace",
+    "Extended symbol search",
+    "Procedure search",
+    "Event search",
+    "Global variable search",
+    "Page control search",
+    "Page action search",
+    "Table field search"
+  ],
+  "versions": [
+    "2025 wave 2 (BC27)",
+    "2025 wave 1 (BC26)",
+    "2023 wave 1 (BC22)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The Visual Studio Code feature \"Go To Symbol In Workspace\" (Ctrl + T) has been extended to search for a broader range of AL symbols.",
+      "why_it_matters": "This core capability enables developers to find and navigate to more types of AL code elements efficiently, beyond just application objects."
+    },
+    {
+      "text": "After clicking, you can jump directly to the target code, and the same is true for the following.",
+      "why_it_matters": "Direct navigation to code improves developer productivity by eliminating manual searching through source files."
+    },
+    {
+      "text": "This new way of searching can be disabled under the setting \"al.extendGoToSymbolInWorkspace.enabled\"",
+      "why_it_matters": "Configuration options allow developers to customize the feature behavior based on their preferences and performance needs."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

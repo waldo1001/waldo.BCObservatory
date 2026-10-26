@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/66410",
+  "url": "https://yzhums.com/66410/",
+  "title": "How to open another page instead of Role Center when launching Business Central (Automatically skip the Role Center page)",
+  "source": "yzhums-com",
+  "published_at": "2025-08-05T00:42:31.000Z",
+  "words": 488,
+  "summary": "This post explains how to bypass the Role Center and open a different page automatically when users launch Business Central. It covers the limitations of Role Centers (no triggers allowed), demonstrates using the OnRoleCenterOpen event from Conf./Personalization Mgt. codeunit, and provides a code example that opens the Sales Order List instead of the default Role Center.",
+  "key_points": [
+    "Role Center pages cannot have triggers or respond to OnOpenPageEvent",
+    "The OnRoleCenterOpen event in codeunit 9170 allows code execution after Role Center opens",
+    "Users can navigate directly via URL as a workaround, but this fails for Windows and mobile apps",
+    "Performance may suffer if Role Center has heavy content; minimize or leave it empty for best results"
+  ],
+  "systems": [
+    "sales",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "role center",
+    "customization",
+    "page navigation",
+    "startup behavior",
+    "event handling"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Order List"
+    },
+    {
+      "type": "codeunit",
+      "name": "Conf./Personalization Mgt."
+    }
+  ],
+  "features": [
+    "Role Center customization",
+    "OnRoleCenterOpen event",
+    "automatic page navigation",
+    "event subscriber pattern"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A page of type Role Center cannot have triggers.",
+      "why_it_matters": "Establishes the core constraint that prevents direct Role Center manipulation and necessitates alternative approaches like event subscribers"
+    },
+    {
+      "text": "codeunit 9170 \"Conf./Personalization Mgt.\" -> OnRoleCenterOpen(): Although it cannot completely replace Role Center, you can perform some processing immediately after opening Role Center.",
+      "why_it_matters": "Identifies the only viable event-based solution for executing code at Role Center startup to achieve the page redirect goal"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

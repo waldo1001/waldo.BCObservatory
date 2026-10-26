@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/yzhums-com/65320",
+  "url": "https://yzhums.com/65320/",
+  "title": "Dynamics 365 Business Central: About the size of the value displayed on the card/document page (textbox too small to read?)",
+  "source": "yzhums-com",
+  "published_at": "2025-07-22T01:59:07.000Z",
+  "words": 962,
+  "summary": "When text fields exceed the display capacity of page textboxes in Business Central, developers can use the MultiLine property, Rich Text feature, FactBox components, or action-triggered dialogs to present the content readably. This matters for fields like Customer Name that can store long values but appear truncated on the web client.",
+  "key_points": [
+    "Text fields in Business Central support up to 2048 characters but may appear truncated on small textbox areas in the web client",
+    "The MultiLine property combined with a wrapper group and ShowCaption set to false expands the display area for long text",
+    "Rich Text feature with ExtendedDatatype set to RichContent handles multimedia content and large text blocks effectively",
+    "FactBox components positioned on the right side of pages can display related long-form content without cluttering the main layout",
+    "Developers can trigger full text display through user actions like OnAssistEdit to show content in a dialog without taking up page space"
+  ],
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "page design",
+    "text display",
+    "user interface",
+    "rich content",
+    "field layout",
+    "card pages",
+    "document pages"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order Work Description"
+    }
+  ],
+  "features": [
+    "MultiLine property",
+    "Rich Text editor",
+    "FactBox",
+    "ExtendedDatatype for RichContent",
+    "Blob data type",
+    "OnAssistEdit trigger",
+    "ShowCaption property"
+  ],
+  "versions": [
+    "Business Central 2023 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The maximum length for a field of type 'Text' is 2048 AL.",
+      "why_it_matters": "Establishes the technical limit for standard text fields, informing the choice of solution (Blob for longer content)."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

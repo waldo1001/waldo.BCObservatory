@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/66403",
+  "url": "https://yzhums.com/66403/",
+  "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (August, 2025)",
+  "source": "yzhums-com",
+  "published_at": "2025-08-04T01:22:58.000Z",
+  "words": 676,
+  "summary": "This post provides a comprehensive overview of cumulative updates released for Business Central in August 2025, covering BC26 (v26.4), BC25 (v25.10), BC24 (v24.16), and older versions, along with support lifecycle dates and environment management updates. It helps administrators stay informed about available patches and version support windows across all active and end-of-life release waves.",
+  "key_points": [
+    "Business Central 2025 Release Wave 1 (BC26) CU04 is available for both cloud and on-premises deployments with specific platform and application builds",
+    "Major updates shifted from 30-60 day cadence to 5-month intervals, while minor updates became optional for better flexibility",
+    "End-of-life versions are clearly marked, with BC23 and earlier reaching end-of-life status while BC24-BC26 remain actively supported",
+    "Support lifecycle tables show that 2025 wave 1 (v26.x) is supported until October 13, 2026, and 2024 wave 2 (v25.x) until April 4, 2026"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "cumulative updates",
+    "cloud",
+    "on-premises",
+    "version management",
+    "lifecycle",
+    "environment management",
+    "release waves"
+  ],
+  "objects": [],
+  "features": [
+    "cumulative updates",
+    "production and sandbox environment management",
+    "flexible environment updates",
+    "optional minor updates",
+    "major updates",
+    "platform builds"
+  ],
+  "versions": [
+    "26.4",
+    "25.10",
+    "24.16",
+    "2025 release wave 1",
+    "2024 release wave 2",
+    "2024 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Managing Production and Sandbox Environments in the Admin Center",
+      "why_it_matters": "Indicates new cloud environment management capabilities in BC26 for both production and sandbox deployments"
+    },
+    {
+      "text": "Manage environment updates more flexibly - Major update: 30(60) days -> 5-month and Optional minor updates",
+      "why_it_matters": "Shows significant change to update strategy allowing organizations more control over when updates are applied to their environments"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

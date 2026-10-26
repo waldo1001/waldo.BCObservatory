@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/66277",
+  "url": "https://yzhums.com/66277/",
+  "title": "Dynamics 365 Business Central: Regarding the default field name/table name in the error message thrown by Record.TestField Method",
+  "source": "yzhums-com",
+  "published_at": "2025-07-31T00:59:41.000Z",
+  "words": 425,
+  "summary": "The Record.TestField Method in Business Central automatically generates error messages when field validation fails, but customizing field or table captions through TableExtension will affect these error messages. PageExtension modifications do not affect TestField error messages since the method uses standard table and field captions.",
+  "key_points": [
+    "Record.TestField Method validates that a field is not empty or zero and automatically generates user-friendly error messages without custom code.",
+    "TableExtension modifications to field or table captions are reflected in TestField error messages, potentially affecting standard error display.",
+    "PageExtension modifications to captions do not affect TestField error messages because the method uses standard captions from the table definition.",
+    "When calling TestField without an ErrorInfo object, Business Central automatically creates navigation links to relevant card pages for error correction.",
+    "Navigation links are not generated if the error occurs on the currently open page or if the user lacks permissions to modify the record."
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "error handling",
+    "field validation",
+    "testfield method",
+    "extensions",
+    "error messages",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Record.TestField Method"
+    }
+  ],
+  "features": [
+    "Field validation with TestField",
+    "Automatic error message generation",
+    "TableExtension caption customization",
+    "PageExtension modification",
+    "Error information object",
+    "Navigation links to correction pages"
+  ],
+  "versions": [
+    "2024 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Record.TestField(Any) Method: Tests that the content of the field is not zero or blank (empty string).",
+      "why_it_matters": "Explains the core validation functionality that developers rely on for field validation without custom error code."
+    },
+    {
+      "text": "If you use TableExtension to modify the captions of tables and fields, it will also affect the Record.TestField Method.",
+      "why_it_matters": "Critical distinction showing that TableExtension changes impact standard error messages, unlike PageExtension modifications."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

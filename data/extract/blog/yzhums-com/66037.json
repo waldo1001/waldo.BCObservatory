@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/yzhums-com/66037",
+  "url": "https://yzhums.com/66037/",
+  "title": "Dynamics 365 Business Central: Can we edit data directly in FactBox?",
+  "source": "yzhums-com",
+  "published_at": "2025-07-29T01:03:28.000Z",
+  "words": 915,
+  "summary": "FactBoxes cannot be directly edited as they are display-only areas, but the post demonstrates three workaround approaches: importing external files, opening dedicated edit pages through actions or triggers, or modifying data through field triggers like OnAssistEdit.",
+  "key_points": [
+    "FactBoxes are read-only display areas on the right side of pages that show related information",
+    "Direct editing of FactBox content is not possible through customization, but workarounds exist",
+    "Data can be indirectly modified by importing files, launching edit pages via actions, or using field triggers with OnAssistEdit",
+    "The OnAssistEdit trigger allows opening a full page editor when clicking a field in a FactBox",
+    "Field triggers can perform calculations or modifications without opening a separate page"
+  ],
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "factbox",
+    "page design",
+    "data editing",
+    "customization",
+    "al development",
+    "ui patterns",
+    "workarounds"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Payment Methods"
+    },
+    {
+      "type": "page",
+      "name": "Payment Methods Factbox"
+    },
+    {
+      "type": "table",
+      "name": "Payment Method"
+    }
+  ],
+  "features": [
+    "FactBox parts",
+    "ListPart page type",
+    "OnAssistEdit trigger",
+    "field triggers",
+    "page extensions",
+    "table extensions",
+    "file import"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "the content in the Factbox is not editable. This is because Factbox is only used to display data.",
+      "why_it_matters": "Clarifies the fundamental limitation of FactBoxes as display-only controls"
+    },
+    {
+      "text": "if users want to edit, is there a way to handle that? This usually has several workaround solutions.",
+      "why_it_matters": "Establishes the practical problem that the post solves with concrete alternatives"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
