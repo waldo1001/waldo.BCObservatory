@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/yzhums-com/62368",
+  "url": "https://yzhums.com/62368/",
+  "title": "Dynamics 365 Business Central: How to specify the No. Series when creating a Sales Order (Make Order) from Sales Quote – Customization",
+  "source": "yzhums-com",
+  "published_at": "2025-05-27T01:01:29.000Z",
+  "words": 869,
+  "summary": "This post explains how to customize the Make Order process to specify the number series when converting a sales quote to a sales order, since the standard process automatically uses default numbering without allowing manual selection.",
+  "key_points": [
+    "Sales orders created from quotes normally use automatic numbering from the default no. series, but the Make Order action does not offer a choice of series like manual order creation does.",
+    "The default no. series must have Default Nos. enabled or an error prevents automatic order creation from quotes.",
+    "Customization uses the OnCreateSalesHeaderOnBeforeSalesOrderLineLockTable event in codeunit 86 Sales-Quote to Order to manipulate the order number.",
+    "The standard No. Series codeunit offers LookupRelatedNoSeries function to open a selection dialog and GetNextNo to retrieve the next number, enabling manual series selection during conversion.",
+    "Using OnBeforeInsertSalesOrderHeader event causes transaction lock errors due to Form.RunModal restrictions, so OnCreateSalesHeaderOnBeforeSalesOrderLineLockTable is the correct approach."
+  ],
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "customization",
+    "number series",
+    "sales quotes",
+    "sales orders",
+    "conversion",
+    "event subscribers"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Sales-Quote to Order"
+    },
+    {
+      "type": "codeunit",
+      "name": "No. Series"
+    },
+    {
+      "type": "codeunit",
+      "name": "DocumentNoVisibility"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales & Receivables Setup"
+    }
+  ],
+  "features": [
+    "Make Order from Sales Quote",
+    "Number Series management",
+    "No. Series lookup",
+    "Automatic document numbering",
+    "Default numbering in quotes to orders"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

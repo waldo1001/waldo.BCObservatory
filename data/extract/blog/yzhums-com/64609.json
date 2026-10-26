@@ -1,0 +1,82 @@
+{
+  "item_id": "blog/yzhums-com/64609",
+  "url": "https://yzhums.com/64609/",
+  "title": "Dynamics 365 Business Central: “Hide Company Bank Account” setup in General Ledger Setup (Update Company Bank Account on posted documents)",
+  "source": "yzhums-com",
+  "published_at": "2025-06-05T01:07:20.000Z",
+  "words": 340,
+  "summary": "Business Central 2025 wave 1 introduces a Hide Company Bank Account setting in General Ledger Setup that controls whether the Company Bank Account Code field appears when users update posted sales documents. This setting helps manage which editable fields are available on the update pages for posted documents.",
+  "key_points": [
+    "New setup field added in BC26 controls visibility of Company Bank Account on posted document updates",
+    "When enabled, hides the Company Bank Account Code field from the Posted Sales Inv. - Update page",
+    "Allows selective field editing on posted documents when information needs correction after posting",
+    "Only applies to Posted Sales Invoice updates; not used for service invoices or purchase documents"
+  ],
+  "systems": [
+    "finance",
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "general ledger setup",
+    "posted documents",
+    "sales invoices",
+    "field visibility",
+    "document editing"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Inv. – Update"
+    },
+    {
+      "type": "page",
+      "name": "Posted Service Inv. – Update"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purch. Invoice – Update"
+    }
+  ],
+  "features": [
+    "Hide Company Bank Account setting",
+    "posted document updates",
+    "field control on edit pages",
+    "company bank account management"
+  ],
+  "versions": [
+    "BC26",
+    "2025 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Specifies whether or not the Company Bank Account can be updated on posted documents.",
+      "why_it_matters": "This is the exact definition of the new setting, clarifying its purpose in controlling field access on posted document updates."
+    },
+    {
+      "text": "Sometimes you have to update a posted document because information that is relevant to the document has changed.",
+      "why_it_matters": "Explains the business need for the posted document update feature and why controlling which fields are editable matters."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

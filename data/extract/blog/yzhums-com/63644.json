@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/63644",
+  "url": "https://yzhums.com/63644/",
+  "title": "Dynamics 365 Business Central: How to show a warning about low inventory on a sales document (Prohibit users from adding sales lines with low inventory)",
+  "source": "yzhums-com",
+  "published_at": "2025-05-23T01:13:57.000Z",
+  "words": 437,
+  "summary": "Business Central offers a built-in Stockout Warning toggle to notify users when sales document quantities exceed inventory levels. For stricter control, customization using codeunit 311 event subscribers can prevent sales line creation when inventory is insufficient.",
+  "key_points": [
+    "Enable Stockout Warning in Sales & Receivables Setup to display notifications when inventory goes negative",
+    "The standard warning only informs users and does not prevent order creation or posting",
+    "Prohibit users from adding sales lines with low inventory by subscribing to the OnShowWarningOnAfterCalculate event in codeunit 311",
+    "Custom code can raise an error to block sales line entry when available inventory plus net change is negative"
+  ],
+  "systems": [
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "inventory management",
+    "sales orders",
+    "stock availability",
+    "low inventory warning",
+    "customization"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Item-Check Avail."
+    },
+    {
+      "type": "codeunit",
+      "name": "ItemAvailabilityHandler"
+    }
+  ],
+  "features": [
+    "Stockout Warning",
+    "availability check",
+    "inventory notifications",
+    "sales document validation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The notification is just to inform them of the potential problem, and doesn't prevent them from creating the order or posting the order.",
+      "why_it_matters": "Clarifies the limitation of the standard feature and the need for customization to enforce restrictions"
+    },
+    {
+      "text": "If you want to prohibit users from adding sales lines with low inventory, this can only be done through customization as of now.",
+      "why_it_matters": "Explains when and why developers need to implement custom code using event subscribers"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

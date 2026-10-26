@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/yzhums-com/63922",
+  "url": "https://yzhums.com/63922/",
+  "title": "Dynamics 365 Business Central: How to use Page.SetSelectionFilter Method in temporary records",
+  "source": "yzhums-com",
+  "published_at": "2025-06-02T01:11:28.000Z",
+  "words": 637,
+  "summary": "Page.SetSelectionFilter marks user-selected records but doesn't work directly with temporary records without additional setup. The post demonstrates two approaches: manually transferring data from source records to temporary records, or using Record.Copy with the ShareTable parameter set to true when both records are temporary.",
+  "key_points": [
+    "Page.SetSelectionFilter notes user selections and filters to marked records only, but temporary records need data assigned beforehand",
+    "For normal source tables, retrieve data using FindSet and TransferFields to populate temporary records before applying SetSelectionFilter",
+    "For pages with temporary source tables, use Record.Copy with ShareTable set to true to reference the same table and apply SetSelectionFilter",
+    "The ShareTable parameter in Record.Copy can only be true when both records are temporary"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "page methods",
+    "temporary records",
+    "record filtering",
+    "al code",
+    "selection handling"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer List"
+    }
+  ],
+  "features": [
+    "Page.SetSelectionFilter method",
+    "Record.Copy method",
+    "Temporary records",
+    "Record selection",
+    "Filtering marked records",
+    "TransferFields"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Page.SetSelectionFilter(var Record) is a very commonly used method, which can get the value currently selected by the user.",
+      "why_it_matters": "Establishes the core purpose of the method that developers need to understand"
+    },
+    {
+      "text": "If the variable is temporary, the value will not be obtained. Because we did not assign values to this temporary table in advance.",
+      "why_it_matters": "Identifies the key problem that developers encounter when working with temporary records"
+    },
+    {
+      "text": "If FromRecord and Record are both temporary and ShareTable is true, then the COPY method causes Record to reference the same table as FromRecord.",
+      "why_it_matters": "Explains the critical mechanism for handling temporary records with SetSelectionFilter"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

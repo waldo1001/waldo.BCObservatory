@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/yzhums-com/64898",
+  "url": "https://yzhums.com/64898/",
+  "title": "Dynamics 365 Business Central: How to insert a record with a specified SystemId in AL",
+  "source": "yzhums-com",
+  "published_at": "2025-06-06T01:05:30.000Z",
+  "words": 506,
+  "summary": "The post explains how to insert a record with a specified SystemId in AL using the Insert(Boolean, Boolean) method instead of the default Insert() method. It covers what SystemId is, its characteristics, and how to use the InsertWithSystemId parameter to assign a custom GUID value when creating records.",
+  "key_points": [
+    "SystemId is a read-only GUID field that uniquely identifies records and is automatically assigned by the platform unless explicitly set during insert",
+    "Use Insert(Boolean, Boolean) with the InsertWithSystemId parameter set to true to assign a custom SystemId value instead of letting the platform auto-generate it",
+    "Once a SystemId is assigned to a record, it cannot be changed",
+    "SystemId has field number 2000000000 and can be used as a binding key for APIs"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "record insertion",
+    "systemid",
+    "guid",
+    "database operations",
+    "api integration"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Record.Insert()"
+    }
+  ],
+  "features": [
+    "SystemId field",
+    "Record.Insert() method",
+    "Insert(Boolean, Boolean) method",
+    "GUID binding for APIs",
+    "Record unique identifier"
+  ],
+  "versions": [
+    "Business Central 2019 release wave 2 and later"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The SystemId field is a GUID data type field that specifies a unique, immutable (read-only) identifier for records in the table.",
+      "why_it_matters": "Defines what SystemId is and its core purpose in the system"
+    },
+    {
+      "text": "You can assign your own value when a record is inserted in the database. Otherwise, the platform will automatically generate and assign a value.",
+      "why_it_matters": "Explains the key choice developers have between manual and automatic SystemId assignment"
+    },
+    {
+      "text": "After the SystemId is set on a record, it can't be changed.",
+      "why_it_matters": "Critical immutability constraint that affects how developers must handle SystemId values"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

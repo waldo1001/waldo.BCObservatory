@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/64392",
+  "url": "https://yzhums.com/64392/",
+  "title": "Using OAuth 2.0 to connect Dataverse tables (APIs) in Postman (Using Grant type: Client Credentials, not Implicit) – Get, Patch, Post and Delete",
+  "source": "yzhums-com",
+  "published_at": "2025-06-03T00:52:00.000Z",
+  "words": 1262,
+  "summary": "This post explains how to use OAuth 2.0 with Client Credentials grant type to authenticate and interact with Dataverse APIs via Postman. It covers app registration setup, configuration of API permissions, adding the app to Power Platform environments, and performing CRUD operations (Get, Patch, Post, Delete) on Dataverse tables.",
+  "key_points": [
+    "OAuth 2.0 Client Credentials is a simpler alternative to Implicit Grant Type for accessing Dataverse APIs",
+    "App registration requires API permissions including user_impersonation, and the app must be added as an application user in Power Platform Admin Center",
+    "Dataverse tables are accessible directly via Web API endpoints without requiring special API pages or Web Service publishing",
+    "CRUD operations use standard HTTP methods with the Dataverse Web API endpoint, supporting query parameters like $select and $filter"
+  ],
+  "systems": [
+    "integration",
+    "crm",
+    "administration"
+  ],
+  "topics": [
+    "oauth 2.0",
+    "dataverse",
+    "api integration",
+    "postman",
+    "authentication",
+    "dynamics 365 sales"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "501"
+    }
+  ],
+  "features": [
+    "OAuth 2.0 authentication",
+    "Client Credentials grant type",
+    "Dataverse API access",
+    "App registration",
+    "Application users",
+    "Web API endpoint",
+    "CRUD operations on Dataverse tables"
+  ],
+  "versions": [
+    "Business Central 2024 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Unlike Business Central, tables (entities) in Dataverse are accessible by default, without the need for special API pages or publishing to Web Services.",
+      "why_it_matters": "Key difference that simplifies API access to Dataverse compared to Business Central API setup"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

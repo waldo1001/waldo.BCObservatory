@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/yzhums-com/64775",
+  "url": "https://yzhums.com/64775/",
+  "title": "Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)",
+  "source": "yzhums-com",
+  "published_at": "2025-06-04T01:39:08.000Z",
+  "words": 993,
+  "summary": "This post demonstrates how to integrate Dynamics 365 Business Central with Microsoft Dataverse using direct REST APIs instead of the standard connector. It provides step-by-step guidance on authenticating with OAuth 2.0 and implementing GET, POST, PATCH, and DELETE operations to synchronize data between Business Central and Dataverse tables.",
+  "key_points": [
+    "Use OAuth 2.0 with Client Credentials grant type to authenticate with Dataverse APIs before performing any operations",
+    "Create custom tables in Business Central to store Dataverse data, using Guid fields as primary keys for proper association",
+    "Implement CRUD operations (Get, Insert, Update, Delete) using specific API endpoints and handling response headers like Prefer: return=representation",
+    "This approach doesn't require Dataverse licenses but requires custom development for each synchronized table"
+  ],
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "dataverse integration",
+    "rest apis",
+    "oauth 2.0",
+    "custom tables",
+    "data synchronization",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "501"
+    }
+  ],
+  "features": [
+    "Dataverse API integration",
+    "OAuth 2.0 authentication",
+    "GET operation for reading Dataverse data",
+    "POST operation for inserting data",
+    "PATCH operation for updating data",
+    "DELETE operation for removing data",
+    "Table synchronization",
+    "Custom table creation"
+  ],
+  "versions": [
+    "BC24",
+    "BC26"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Using this way, users do not need a Dataverse license and can achieve real-time synchronization.",
+      "why_it_matters": "This is the main advantage of this approach over standard connectors, making it cost-effective for organizations that need Dataverse integration without additional licensing."
+    },
+    {
+      "text": "This requires setting the DelayedInsert property of the page to true",
+      "why_it_matters": "This technical detail is critical to ensure the Guid returned from Dataverse can be used as a primary key when inserting data into Business Central."
+    },
+    {
+      "text": "The disadvantage is that each synchronized table needs to be customized.",
+      "why_it_matters": "This acknowledges the trade-off of using direct APIs versus standard connectors, helping developers make informed decisions about which approach suits their needs."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/yzhums-com/64474",
+  "url": "https://yzhums.com/64474/",
+  "title": "Dynamics 365 Business Central: How to check whether the current user has only the Microsoft 365 Plan in AL",
+  "source": "yzhums-com",
+  "published_at": "2025-05-28T01:02:59.000Z",
+  "words": 710,
+  "summary": "Detect whether a Business Central user has only a Microsoft 365 license by querying the Users In Plans table and checking the Plan ID. This helps apply custom logic or UI changes based on license type, useful since Microsoft 365 plan users can access BC in Teams but encounter errors when accessing directly.",
+  "key_points": [
+    "Users with only Microsoft 365 licenses can access Business Central through Microsoft Teams but not directly",
+    "Use the Users In Plans query filtered by User Security ID to determine license type",
+    "Check if the user's Plan ID matches the Microsoft 365 Plan ID from the Plan Ids codeunit",
+    "The example page extension demonstrates how to show different messages based on license type",
+    "Licensing is important for cost optimization and data governance in multi-license scenarios"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "licensing",
+    "user access",
+    "microsoft 365",
+    "al development",
+    "teams integration",
+    "user plans"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "Users In Plans"
+    },
+    {
+      "type": "codeunit",
+      "name": "Plan Ids"
+    }
+  ],
+  "features": [
+    "Microsoft 365 plan user detection",
+    "License validation",
+    "Teams access",
+    "User plan identification",
+    "Custom logic based on licensing",
+    "Session details retrieval"
+  ],
+  "versions": [
+    "BC21",
+    "2022 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "To determine whether the current user is accessing Business Central using only a Microsoft 365 license, the following code snippet can be used",
+      "why_it_matters": "Establishes the core purpose of the technical solution for license type detection"
+    },
+    {
+      "text": "Users are entitled to access Business Central data in Microsoft Teams.",
+      "why_it_matters": "Clarifies the key difference between Microsoft 365 plan users' access capabilities across different interfaces"
+    },
+    {
+      "text": "Meet licensing budget targets by assigning licenses that progressively match employee needs",
+      "why_it_matters": "Explains the business value of distinguishing between license types for cost management"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

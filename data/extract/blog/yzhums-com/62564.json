@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/yzhums-com/62564",
+  "url": "https://yzhums.com/62564/",
+  "title": "Business Central 2025 wave 1 (BC26.2): Add fields/columns from related tables in analysis mode (No customization)",
+  "source": "yzhums-com",
+  "published_at": "2025-06-09T00:39:25.000Z",
+  "words": 744,
+  "summary": "Business Central 2025 wave 1 (BC26.2) introduces the ability to add fields from related tables directly in analysis mode without customization, enabling more advanced data analysis and grouping capabilities across table relationships.",
+  "key_points": [
+    "Users can add fields from related tables to analysis mode tabs via context menu options",
+    "Available fields must already exist on pages; the dialog shows the source table and fields",
+    "Multiple fields can be selected at once; added related fields can be removed using the Remove related columns action",
+    "Filtering, sorting, and pivoting on calculated fields is limited for performance; Excel exports show only visible data",
+    "This feature builds on analysis mode capabilities introduced in BC22 and enhanced through subsequent releases"
+  ],
+  "systems": [
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "analysis mode",
+    "data analysis",
+    "pivot tables",
+    "related tables",
+    "no-code"
+  ],
+  "objects": [],
+  "features": [
+    "Analysis mode with related table fields",
+    "Add columns from related tables",
+    "Multiselect field addition",
+    "Remove related columns action"
+  ],
+  "versions": [
+    "BC26.2",
+    "BC26.1",
+    "2025 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Analysis mode is a powerful experience that lets you create and analyze data views easily.",
+      "why_it_matters": "Explains the core value of the feature for end users creating custom data views"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

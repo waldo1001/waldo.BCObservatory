@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/yzhums-com/57334",
+  "url": "https://yzhums.com/57334/",
+  "title": "Dynamics 365 Business Central: Why are the newly added fields in drop-down not displayed? (e.g., adding item Search Description to DropDown fieldgroup)",
+  "source": "yzhums-com",
+  "published_at": "2025-05-29T01:10:22.000Z",
+  "words": 350,
+  "summary": "When adding fields to a drop-down field group in a table, newly added fields may not display if they are hidden on the underlying lookup page. To fix this, modify the page extension to set the field's Visibility property to true.",
+  "key_points": [
+    "Field groups (DropDown) define which fields appear in drop-down controls when selecting records from a list",
+    "Fields added to a DropDown field group won't show if they have Visibility = false on the lookup page",
+    "The solution requires both a table extension with the DropDown field group and a page extension to make hidden fields visible",
+    "The Item table uses the Item Lookup page as its lookup page, which hides certain fields by default"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "field groups",
+    "drop-down controls",
+    "table extensions",
+    "page extensions",
+    "lookup pages"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "page",
+      "name": "Item Lookup"
+    }
+  ],
+  "features": [
+    "DropDown field group",
+    "field visibility",
+    "lookup page customization",
+    "table extensions"
+  ],
+  "versions": [
+    "Business Central 2023 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "If the field you're adding to the DropDown has Visibility = false on the underlying lookup page, it won't show up in the drop-down.",
+      "why_it_matters": "This explains the root cause of missing fields in drop-down controls and is the key insight for troubleshooting"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

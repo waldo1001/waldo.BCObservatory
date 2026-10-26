@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/yzhums-com/63097",
+  "url": "https://yzhums.com/63097/",
+  "title": "Dynamics 365 Business Central: How to quickly change your password",
+  "source": "yzhums-com",
+  "published_at": "2025-05-26T01:15:37.000Z",
+  "words": 297,
+  "summary": "The post explains how to change your Business Central password either through Microsoft account settings or directly from the BC interface. It covers email address requirements for Business Central online and administrator password reset options.",
+  "key_points": [
+    "Business Central online requires work or school email addresses, not consumer services like Outlook, Gmail, or Hotmail",
+    "Users can change passwords via account.microsoft.com by navigating to Security and selecting Change my password",
+    "A quicker method is available directly in BC: click Settings, select View all under Microsoft 365, then choose Password and Change your password",
+    "Administrators can reset user passwords through the Microsoft 365 admin center"
+  ],
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "password management",
+    "account security",
+    "user authentication",
+    "microsoft 365 integration"
+  ],
+  "objects": [],
+  "features": [
+    "password change",
+    "user account management",
+    "microsoft 365 integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central online requires that you use a work, or school, email address to sign up.",
+      "why_it_matters": "Clarifies the email address requirement, which is essential for users setting up or troubleshooting Business Central accounts"
+    },
+    {
+      "text": "There is actually a way to open the Change your password page directly from the BC UI.",
+      "why_it_matters": "Highlights the efficient method for changing passwords without leaving Business Central, improving user experience"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
