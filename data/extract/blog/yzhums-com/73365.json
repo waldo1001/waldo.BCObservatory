@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/73365",
+  "url": "https://yzhums.com/73365/",
+  "title": "Dynamics 365 Business Central: Why can’t a Super User create a new Company",
+  "source": "yzhums-com",
+  "published_at": "2026-06-05T01:05:04.000Z",
+  "words": 512,
+  "summary": "The post explains why users with the SUPER permission set cannot create a new company in Business Central. When a specific company is designated in the SUPER permission set assignment, the user's rights become restricted to only that company, preventing them from creating new companies across the system.",
+  "key_points": [
+    "Only users with the SUPER permission set can create a new company in Business Central",
+    "When a specific company is designated during permission set assignment, access is limited to that company only",
+    "If no company is specified when assigning a permission set, it applies to all companies",
+    "Users cannot remove a company designation from their own permissions; only administrators with SUPER or SECURITY permission sets can modify this",
+    "This company restriction principle applies to all permission sets, not just SUPER"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "permission sets",
+    "super user",
+    "company access",
+    "user management",
+    "access control"
+  ],
+  "objects": [],
+  "features": [
+    "Company creation",
+    "Permission set assignment",
+    "Multi-company access control",
+    "SUPER permission set",
+    "SECURITY permission set"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Only users with the SUPER permission set can create a new company.",
+      "why_it_matters": "Clarifies the fundamental requirement for company creation in Business Central"
+    },
+    {
+      "text": "When you have multiple companies in Business Central, managing permissions across companies requires extra consideration.",
+      "why_it_matters": "Explains why company designation matters in multi-company environments"
+    },
+    {
+      "text": "If you don't specify the company when assigning a permission set, the permission set then applies to all companies.",
+      "why_it_matters": "Shows the key difference between specifying and not specifying a company during assignment"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

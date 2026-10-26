@@ -1,0 +1,102 @@
+{
+  "item_id": "blog/yzhums-com/73623",
+  "url": "https://yzhums.com/73623/",
+  "title": "Business Central 2026 release wave 1 (BC28): Quality Management module (Evaluate the quality of goods and materials)",
+  "source": "yzhums-com",
+  "published_at": "2026-06-02T01:11:43.000Z",
+  "words": 5425,
+  "summary": "Business Central 2026 wave 1 introduces a new Quality Management module that helps organizations evaluate goods and materials through automated inspection templates, generation rules, and result tracking. The feature assists with compliance, product reliability, and integrates quality checks into purchasing, production, assembly, and warehouse workflows.",
+  "key_points": [
+    "Quality Management is a new preinstalled extension in BC28 that enables inspection of goods at key points in purchasing, production, assembly, and warehouse processes",
+    "Setup involves configuring quality inspection results (Pass, Fail, In Progress), quality tests with measurable parameters, templates to group tests, and generation rules to trigger automatic inspections",
+    "Quality inspection results can be customized with codes, descriptions, evaluation sequences, visibility, categories, and styling to match organizational standards",
+    "Generation rules define when inspections create automatically based on business transactions like purchase receipts, production output, or warehouse activities",
+    "The module provides assisted setup guides, demo data with Contoso samples, and notifications to streamline implementation and user adoption"
+  ],
+  "systems": [
+    "manufacturing",
+    "purchasing",
+    "warehouse"
+  ],
+  "topics": [
+    "quality management",
+    "inspection templates",
+    "quality tests",
+    "inspection generation",
+    "product quality",
+    "compliance",
+    "warehouse processes",
+    "production"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Quality Management extension"
+    },
+    {
+      "type": "other",
+      "name": "Quality Manager Profile"
+    },
+    {
+      "type": "table",
+      "name": "Quality Inspection Results"
+    },
+    {
+      "type": "table",
+      "name": "Quality Tests"
+    },
+    {
+      "type": "table",
+      "name": "Quality Inspection Templates"
+    },
+    {
+      "type": "table",
+      "name": "Quality Inspection Generation Rules"
+    },
+    {
+      "type": "table",
+      "name": "Quality Management Setup"
+    },
+    {
+      "type": "table",
+      "name": "Quality Inspections"
+    },
+    {
+      "type": "table",
+      "name": "Quality Test Lookup Value"
+    },
+    {
+      "type": "report",
+      "name": "Certificate of Analysis"
+    }
+  ],
+  "features": [
+    "Quality inspection templates",
+    "Quality test configuration",
+    "Inspection generation rules",
+    "Automatic inspection triggering",
+    "Quality inspection results",
+    "Item tracking integration",
+    "Lot blocking and unblocking",
+    "Certificate of Analysis reporting"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The Quality Management extension is preinstalled for all new environments.",
+      "why_it_matters": "Important for implementation planning as it affects setup requirements for new vs. existing instances"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

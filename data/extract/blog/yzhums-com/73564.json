@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/yzhums-com/73564",
+  "url": "https://yzhums.com/73564/",
+  "title": "Business Central 2026 release wave 1 (BC28.1): Enable Investment Boost for fixed assets (Bonus Depreciation Method)",
+  "source": "yzhums-com",
+  "published_at": "2026-05-27T00:54:16.000Z",
+  "words": 613,
+  "summary": "Business Central 2026 wave 1 introduces Investment Boost for fixed assets, allowing eligible assets to deduct a configured percentage in the acquisition year while depreciating the remaining balance through standard methods. This feature reduces first-year tax burden and streamlines compliance with front-loaded investment incentive schemes like New Zealand's rules.",
+  "key_points": [
+    "Investment Boost lets companies deduct a set percentage (e.g., 20-60%) of an asset's cost in the purchase year, then depreciate the remainder normally",
+    "Administrators configure the bonus depreciation percentage and effective date in Fixed Asset Setup",
+    "Individual assets can be marked with 'Use Bonus Depreciation' flag in the depreciation book to enable the incentive",
+    "System maintains a clear audit trail by posting the boost deduction and adjusted depreciation as separate entries",
+    "Validation prevents double-application and ensures the asset's availability date meets the effective-date rule"
+  ],
+  "systems": [
+    "fixed-assets",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "tax depreciation",
+    "fixed assets",
+    "investment incentives",
+    "bonus depreciation",
+    "asset accounting",
+    "cash flow management"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Fixed Asset Setup"
+    },
+    {
+      "type": "table",
+      "name": "FA Depreciation Books"
+    },
+    {
+      "type": "other",
+      "name": "Fixed Asset Card"
+    },
+    {
+      "type": "table",
+      "name": "FA Ledger Entries"
+    }
+  ],
+  "features": [
+    "Investment Boost Eligible marking",
+    "Bonus Depreciation Percentage configuration",
+    "Bonus Depreciation Effective Date setting",
+    "Use Bonus Depreciation flag",
+    "Bonus Depreciation Applied Amount tracking",
+    "Adjusted depreciation base calculation"
+  ],
+  "versions": [
+    "2026 wave 1",
+    "BC28.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Validation ensures the Date Available for Use meets the effective-date rule and prevents double-application.",
+      "why_it_matters": "Highlights the system's safeguards to maintain audit integrity and prevent calculation errors"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

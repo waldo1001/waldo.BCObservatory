@@ -1,0 +1,87 @@
+{
+  "item_id": "blog/yzhums-com/73513",
+  "url": "https://yzhums.com/73513/",
+  "title": "Business Central 2026 release wave 1 (BC28): Calculate excise taxes",
+  "source": "yzhums-com",
+  "published_at": "2026-05-26T00:47:28.000Z",
+  "words": 659,
+  "summary": "Business Central 2026 wave 1 introduces automated excise tax calculation for products and services across different regions. The feature provides a flexible framework supporting various tax bases like weight, volume, and alcohol content, helping businesses comply with tax regulations and reduce calculation errors.",
+  "key_points": [
+    "Excise taxes automate complex calculations for specific goods and services based on regional regulations",
+    "Configuration requires setting up excise tax types with tax basis options including weight, volume, quantity, sugar content, and alcohol volume",
+    "Excise entry types must be configured to specify which item ledger entry types contribute to taxable quantities",
+    "Items and fixed assets are linked to excise tax types through the Item Card with unit of measure and quantity specifications",
+    "Excise Journal automatically generates tax entries based on item ledger entries and calculates amounts using configured duty rates"
+  ],
+  "systems": [
+    "finance",
+    "inventory",
+    "localization"
+  ],
+  "topics": [
+    "excise taxes",
+    "tax calculation",
+    "compliance",
+    "item configuration",
+    "regulatory requirements",
+    "tax framework"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Excise Tax Types"
+    },
+    {
+      "type": "page",
+      "name": "Excise Tax Types"
+    },
+    {
+      "type": "page",
+      "name": "Excise Journal"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "table",
+      "name": "Excise Taxes Transaction Logs"
+    }
+  ],
+  "features": [
+    "Calculate excise taxes",
+    "Excise tax types configuration",
+    "Excise entry types",
+    "Excise Journal",
+    "Excise duty rates",
+    "Item ledger entry integration",
+    "Tax basis selection"
+  ],
+  "versions": [
+    "2026 wave 1",
+    "BC28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The excise taxes feature helps businesses by automating the complex process of calculating excise tax amounts.",
+      "why_it_matters": "It shows the core business value of reducing manual work and errors in tax calculation"
+    },
+    {
+      "text": "The framework supports different calculation models and can be adapted to meet various regulatory requirements through configuration.",
+      "why_it_matters": "It explains the flexibility of the initial release to support multiple regional tax scenarios"
+    },
+    {
+      "text": "Excise Tax Journal entries will be automatically generated based on Item Ledger Entry quantities for the specified date range.",
+      "why_it_matters": "It describes the key automation mechanism that processes tax entries without manual calculation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

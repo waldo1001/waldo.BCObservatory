@@ -1,0 +1,126 @@
+{
+  "item_id": "blog/yzhums-com/73485",
+  "url": "https://yzhums.com/73485/",
+  "title": "Business Central 2026 release wave 1 (BC28.1): Use enhanced and faster reports for analysis of deferrals and trial balances",
+  "source": "yzhums-com",
+  "published_at": "2026-06-01T00:09:36.000Z",
+  "words": 363,
+  "summary": "Business Central 2026 wave 1 introduces enhanced deferral and trial balance reports with faster Excel layouts, new subtotals for easier reconciliation, and analysis views for improved financial data filtering and period-end task efficiency.",
+  "key_points": [
+    "Built-in deferral report Excel layouts now include subtotals to make balance reviews easier during reconciliation and audit processes",
+    "Multiple standard finance Excel reports run significantly faster, helping finance teams analyze data and complete period-end tasks",
+    "New analysis views on GL Registers and Fixed Assets Ledgers list pages enable improved filtering and slicing of ledger and asset activity",
+    "Several sales Excel reports also received subtotal enhancements including Salesperson Commission and Customer/Item Sales"
+  ],
+  "systems": [
+    "finance",
+    "reporting",
+    "fixed-assets"
+  ],
+  "topics": [
+    "deferral reporting",
+    "trial balance",
+    "excel layouts",
+    "financial analysis",
+    "performance",
+    "reconciliation",
+    "period-end reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Deferral Summary – G/L"
+    },
+    {
+      "type": "report",
+      "name": "Deferral Summary – Purchasing"
+    },
+    {
+      "type": "report",
+      "name": "Deferral Summary – Sales"
+    },
+    {
+      "type": "report",
+      "name": "Salesperson Commission"
+    },
+    {
+      "type": "report",
+      "name": "Customer/Item Sales"
+    },
+    {
+      "type": "report",
+      "name": "Inventory Order Details"
+    },
+    {
+      "type": "report",
+      "name": "Inventory Customer Sales"
+    },
+    {
+      "type": "report",
+      "name": "Inventory – Sales Back Orders"
+    },
+    {
+      "type": "report",
+      "name": "Trial Balance"
+    },
+    {
+      "type": "report",
+      "name": "Consolidated Trial Balance"
+    },
+    {
+      "type": "report",
+      "name": "Trial Balance/Budget"
+    },
+    {
+      "type": "report",
+      "name": "Trial Balance by Period"
+    },
+    {
+      "type": "report",
+      "name": "Trial Balance Previous Year"
+    },
+    {
+      "type": "page",
+      "name": "GL Registers"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Assets Ledgers"
+    }
+  ],
+  "features": [
+    "Enhanced deferral reports with subtotals",
+    "Faster trial balance reports",
+    "Excel layout improvements",
+    "Analysis views for ledger activity",
+    "Analysis views for asset activity",
+    "Sales report subtotals"
+  ],
+  "versions": [
+    "BC28.1",
+    "2026 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Built-in deferral report Excel layouts now include subtotals, making it easier to review balances.",
+      "why_it_matters": "Directly improves the reconciliation and audit process by reducing manual spreadsheet work and enhancing transparency"
+    },
+    {
+      "text": "Several standard finance Excel reports also run significantly faster, helping finance teams analyze data and complete period-end tasks more efficiently.",
+      "why_it_matters": "Performance improvements enable faster financial analysis and decision-making during critical period-end processes"
+    },
+    {
+      "text": "New analysis views on key finance list pages provide improved filtering and slicing of ledger and asset activity.",
+      "why_it_matters": "Enhanced filtering capabilities strengthen financial oversight and support more informed decision-making"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

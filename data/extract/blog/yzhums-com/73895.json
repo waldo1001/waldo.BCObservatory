@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/yzhums-com/73895",
+  "url": "https://yzhums.com/73895/",
+  "title": "Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one",
+  "source": "yzhums-com",
+  "published_at": "2026-06-04T01:08:57.000Z",
+  "words": 359,
+  "summary": "Merging multiple inventory lot numbers into one lot in Business Central can be done using the Item Reclassification Journal. The process involves tracking items via Item Tracking Lines, selecting lot numbers to consolidate, and posting the reclassification to update inventory records.",
+  "key_points": [
+    "Use the Item Reclassification Journal to merge lot numbers by updating lot tracking information on journal lines",
+    "Access Item Tracking Lines from the reclassification journal to change lot numbers from current to new or existing lots",
+    "Adjust quantities as needed in the Quantity (Base) field before posting the consolidation",
+    "Preview posted Item Ledger Entries to verify quantities were adjusted correctly after the merge"
+  ],
+  "systems": [
+    "inventory"
+  ],
+  "topics": [
+    "item tracking",
+    "lot management",
+    "inventory consolidation",
+    "item reclassification",
+    "warehouse operations"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Tracking Lines"
+    },
+    {
+      "type": "page",
+      "name": "Item Availability by Lot"
+    },
+    {
+      "type": "page",
+      "name": "Item List"
+    },
+    {
+      "type": "page",
+      "name": "Item Reclassification Journal"
+    }
+  ],
+  "features": [
+    "Lot number merging",
+    "Item tracking",
+    "Item reclassification",
+    "Inventory consolidation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can assign serial numbers, lot numbers, and package numbers to outbound and inbound documents.",
+      "why_it_matters": "Explains the foundational capability for tracking items with lot numbers that users need to understand before merging lots"
+    },
+    {
+      "text": "If you want, you can merge one or more lots to one new or existing lot.",
+      "why_it_matters": "Directly states the core capability of merging multiple lots, which is the main topic of the post"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

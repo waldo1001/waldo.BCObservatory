@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/73987",
+  "url": "https://yzhums.com/73987/",
+  "title": "Business Central 2026 release wave 1 (BC28): New Resize button (action)",
+  "source": "yzhums-com",
+  "published_at": "2026-06-03T00:10:18.000Z",
+  "words": 304,
+  "summary": "Business Central 2026 wave 1 (BC28) adds a new Resize button to column header menus, making it easier to adjust column widths without entering personalization mode. The feature works across all list views and shows a highlighted edge for dragging or double-clicking to auto-fit.",
+  "key_points": [
+    "New Resize button added to the drop-down menu next to column headers for easier column width adjustment",
+    "Works across all list views in Business Central, not limited to specific page types",
+    "Complements existing drag-and-drop and double-click auto-fit features from BC15",
+    "Visual feedback with blue line highlight appears when hovering over column edges"
+  ],
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "user interface",
+    "list pages",
+    "column resizing",
+    "bc28",
+    "wave 1"
+  ],
+  "objects": [],
+  "features": [
+    "Resize button",
+    "column width adjustment",
+    "auto-fit",
+    "context menu",
+    "list views"
+  ],
+  "versions": [
+    "BC28.0",
+    "BC28.1",
+    "2026 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft has added a new Resize button to the drop-down arrow menu (context menu)",
+      "why_it_matters": "Explains the core feature improvement for easier column resizing without personalizing"
+    },
+    {
+      "text": "this button is not limited to List pages, Microsoft has added this option to all list views across the BC",
+      "why_it_matters": "Shows the broad applicability of the feature across the entire system"
+    },
+    {
+      "text": "A vertical blue line will automatically highlight whenever you hover your mouse over the edge of a column",
+      "why_it_matters": "Describes the visual enhancement that makes the feature more discoverable and intuitive"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
