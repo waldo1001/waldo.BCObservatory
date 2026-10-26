@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/yzhums-com/64057",
+  "url": "https://yzhums.com/64057/",
+  "title": "Business Central 2025 wave 1 (BC26.1): New method to add SecretText values to JSON objects – WriteWithSecretsTo",
+  "source": "yzhums-com",
+  "published_at": "2025-05-13T01:34:06.000Z",
+  "words": 450,
+  "summary": "Business Central 2025 wave 1 (BC26.1) introduces WriteWithSecretsTo, a new method for adding SecretText values to JSON objects. This feature helps developers securely handle credentials and sensitive data by replacing placeholder values in JSON with encrypted secrets before serialization.",
+  "key_points": [
+    "WriteWithSecretsTo is a new method on the JsonObject type that adds SecretText values to JSON objects",
+    "Developers create a JSON object with placeholders, define paths in JSONPath format, and use the method to produce a SecretText with credentials replaced",
+    "The feature integrates with the SecretText type introduced in BC23 to protect sensitive values from exposure",
+    "Method requires runtime version 15.1 or greater; not available in 15.0"
+  ],
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "secrettext",
+    "json",
+    "al development",
+    "security",
+    "credentials",
+    "sensitive data",
+    "jsonobject"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "JsonObject"
+    }
+  ],
+  "features": [
+    "WriteWithSecretsTo method",
+    "SecretText handling in JSON",
+    "JSONPath format support",
+    "Secure credential management"
+  ],
+  "versions": [
+    "BC26",
+    "BC26.1",
+    "2025 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A new method was added to the JsonObject type, which allows developers to add SecretText values.",
+      "why_it_matters": "Introduces the core capability for securely embedding secrets in JSON structures"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

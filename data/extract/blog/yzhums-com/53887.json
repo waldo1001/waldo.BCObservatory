@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/yzhums-com/53887",
+  "url": "https://yzhums.com/53887/",
+  "title": "Dynamics 365 Business Central: How to quickly check whether the table is a system table in AL",
+  "source": "yzhums-com",
+  "published_at": "2025-05-21T01:33:13.000Z",
+  "words": 208,
+  "summary": "System tables in Business Central have IDs in the range 2,000,000,000 and above and cannot be extended. The post explains how to check if a table is a system table using the IsSystemTable procedure from the Config. Management codeunit, which is the standard method used in the Configuration Package feature.",
+  "key_points": [
+    "System tables have IDs of 2,000,000,000 and above and cannot be extended",
+    "The standard method to check if a table is a system table is the IsSystemTable procedure",
+    "This procedure is found in codeunit 8616 'Config. Management'",
+    "Configuration Package feature uses this control when system tables are added"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "al development",
+    "system tables",
+    "table extensibility",
+    "configuration package"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Config. Management"
+    }
+  ],
+  "features": [
+    "system tables",
+    "table extensibility",
+    "configuration package",
+    "virtual tables"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "System and virtual tables can't be extended. System tables are created in the ID range of 2.000.000.000 and above.",
+      "why_it_matters": "Defines the core characteristic and ID range of system tables that developers must understand"
+    },
+    {
+      "text": "codeunit 8616 \"Config. Management\" -> procedure IsSystemTable",
+      "why_it_matters": "Provides the standard built-in method for checking whether a table is a system table"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

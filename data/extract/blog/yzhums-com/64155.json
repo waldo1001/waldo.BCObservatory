@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/yzhums-com/64155",
+  "url": "https://yzhums.com/64155/",
+  "title": "Dynamics 365 Business Central: Overview of all available action (button) icons/images",
+  "source": "yzhums-com",
+  "published_at": "2025-05-19T01:06:52.000Z",
+  "words": 390,
+  "summary": "The post explains how to find and use action (button) icons from the Dynamics 365 Business Central Action icon library. It covers three methods to access icons: the web-based icon library at aka.ms/bcicons, the AZ AL Dev Tools VS Code extension, and Ctrl+Space IntelliSense in Visual Studio Code.",
+  "key_points": [
+    "Business Central includes a built-in Action icon library with images sized 16x16 pixels by default, or 32x32 pixels for promoted actions",
+    "Icons are added to actions using the Image property in AL code",
+    "Three main ways to find icons: web library at aka.ms/bcicons, AZ AL Dev Tools VS Code extension with filtering, or Ctrl+Space IntelliSense",
+    "If the Image property is not set, no icon will display on the action",
+    "Legacy methods for NAV include the Dynamics NAV Image Library tool and direct image downloads"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "action icons",
+    "button images",
+    "ribbon",
+    "command bar",
+    "al development",
+    "vs code"
+  ],
+  "objects": [],
+  "features": [
+    "action icons",
+    "Image property",
+    "promoted actions",
+    "command bar menus"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central includes images that you can use on actions in command bar menus and promoted actions on the ribbon.",
+      "why_it_matters": "Clarifies that Business Central provides built-in icons developers can leverage for UI elements"
+    },
+    {
+      "text": "If you forget to set Image property, no icon will be displayed.",
+      "why_it_matters": "Important reminder that the Image property is required to show icons on actions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/yzhums-com/63559",
+  "url": "https://yzhums.com/63559/",
+  "title": "Dynamics 365 Business Central: Save a document as a Word attachment (Attach as Word) – Customization",
+  "source": "yzhums-com",
+  "published_at": "2025-05-09T01:16:48.000Z",
+  "words": 764,
+  "summary": "This customization demonstrates two approaches to save Business Central documents as Word attachments instead of PDF files. It shows how to modify the Attach as PDF action's behavior using event subscribers or create a new Attach as Word action with custom logic.",
+  "key_points": [
+    "The standard Attach as PDF action saves documents as PDF files to the document attachments FactBox",
+    "Customization requires changing the report output format to Word and renaming the file extension to .docx",
+    "Event subscribers can hook into OnBeforeSaveReportAsPDF (Report Selections table) and OnBeforeSaveAttachment (Document Attachment table) to modify the standard behavior",
+    "A page extension approach creates a new action without modifying standard logic, using Report.SaveAs with ReportFormat::Word parameter"
+  ],
+  "systems": [
+    "sales",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "document attachment",
+    "report customization",
+    "word format",
+    "page extension",
+    "event subscriber"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "SaveAsWordHandler"
+    },
+    {
+      "type": "page",
+      "name": "PostedSalesInvoicesExt"
+    }
+  ],
+  "features": [
+    "Attach as Word action",
+    "Document attachments",
+    "Report format conversion",
+    "Posted Sales Invoices customization",
+    "Custom layout reporting"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

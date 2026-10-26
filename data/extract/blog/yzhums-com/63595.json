@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/yzhums-com/63595",
+  "url": "https://yzhums.com/63595/",
+  "title": "Dynamics 365 Business Central: Convert Word (.docx) To PDF (.pdf) within BC (No control add-in and APIs)",
+  "source": "yzhums-com",
+  "published_at": "2025-05-08T00:59:31.000Z",
+  "words": 491,
+  "summary": "Converting Word documents to PDF format within Business Central can be achieved using the built-in ConvertWordToPdf procedure from codeunit 9651 without requiring control add-ins or external APIs. The post demonstrates two practical approaches: converting attached Word documents and uploading documents for conversion, with complete source code examples.",
+  "key_points": [
+    "Use codeunit 9651 Document Report Mgt. and its ConvertWordToPdf procedure to convert DOCX files to PDF",
+    "No control add-ins or external APIs required for the conversion functionality",
+    "Can integrate conversion into page extensions to add Word-to-PDF conversion actions",
+    "The method handles document attachments through temp blob objects for streaming"
+  ],
+  "systems": [
+    "development",
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "word documents",
+    "pdf conversion",
+    "document attachment",
+    "codeunit",
+    "temp blob",
+    "file management"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Document Report Mgt."
+    },
+    {
+      "type": "codeunit",
+      "name": "Temp Blob"
+    },
+    {
+      "type": "codeunit",
+      "name": "File Management"
+    },
+    {
+      "type": "page",
+      "name": "Document Attachment Details"
+    },
+    {
+      "type": "page",
+      "name": "Customer List"
+    }
+  ],
+  "features": [
+    "Convert Word to PDF",
+    "Document attachments",
+    "Word layouts",
+    "File conversion",
+    "Stream handling"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "codeunit 9651 \"Document Report Mgt.\" -> procedure ConvertWordToPdf(var TempBlob: Codeunit \"Temp Blob\"; ReportID: Integer)",
+      "why_it_matters": "Identifies the exact system procedure developers should use for Word-to-PDF conversion without external tools"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

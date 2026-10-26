@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/yzhums-com/64042",
+  "url": "https://yzhums.com/64042/",
+  "title": "Dynamics 365 Business Central: Convert Word (.docx) To HTML (.html) within BC (No control add-in and APIs)",
+  "source": "yzhums-com",
+  "published_at": "2025-05-14T00:46:13.000Z",
+  "words": 496,
+  "summary": "Converting Word (.docx) files to HTML (.html) format within Business Central using the built-in ConvertWordToHtml procedure from codeunit 9651 without requiring control add-ins or external APIs. The post demonstrates two practical approaches: converting attachments in Document Attachment Details and uploading Word documents for conversion.",
+  "key_points": [
+    "Business Central provides a standard method via codeunit 9651 'Document Report Mgt.' with the ConvertWordToHtml procedure",
+    "The conversion can be performed on Word files stored as document attachments or uploaded directly",
+    "Implementation uses TempBlob codeunit to handle file streaming and conversion",
+    "Some Word documents with unsupported package content may fail conversion with a specific error message"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "word layout",
+    "document conversion",
+    "html",
+    "document attachment",
+    "file handling"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Document Report Mgt."
+    },
+    {
+      "type": "codeunit",
+      "name": "Temp Blob"
+    },
+    {
+      "type": "codeunit",
+      "name": "File Management"
+    },
+    {
+      "type": "table",
+      "name": "Document Attachment"
+    },
+    {
+      "type": "other",
+      "name": "DocumentAttachmentDetailsExt"
+    },
+    {
+      "type": "other",
+      "name": "CustomerListExt"
+    }
+  ],
+  "features": [
+    "Word layout conversion",
+    "HTML output",
+    "document attachment handling",
+    "file upload and conversion",
+    "stream processing"
+  ],
+  "versions": [
+    "Business Central 2023 wave 2 (BC23)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "If you encounter a file that cannot be converted, the following error message will be displayed",
+      "why_it_matters": "Alerts developers to potential conversion failures with unsupported Word document structures and helps with error handling"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

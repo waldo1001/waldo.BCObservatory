@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/yzhums-com/63803",
+  "url": "https://yzhums.com/63803/",
+  "title": "Dynamics 365 Business Central: How to disable/hide OneDrive action group for all users",
+  "source": "yzhums-com",
+  "published_at": "2025-05-15T00:57:33.000Z",
+  "words": 617,
+  "summary": "The post explains how to disable or hide OneDrive action groups in Dynamics 365 Business Central for all users. It covers three methods: using personalization on individual pages, using page customization and extensions, and using the OneDrive Setup guide or Privacy Notices Status page to manage OneDrive features globally.",
+  "key_points": [
+    "OneDrive actions (Open in OneDrive, Share, Edit in OneDrive) are available on pages with files like Report Inbox and document attachments",
+    "Page-level customization hides OneDrive actions only on specific pages, requiring modifications to multiple pages to hide them everywhere",
+    "Administrators can disable OneDrive features for all users through the OneDrive Setup assisted setup guide or by marking Disagree for Everyone on the Privacy Notices Status page",
+    "OneDrive integration is automatically configured and enabled in Business Central online, with two option categories: Use for app features and Use for system features"
+  ],
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "onedrive",
+    "file management",
+    "personalization",
+    "privacy",
+    "action groups",
+    "setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "OneDrive Setup"
+    },
+    {
+      "type": "page",
+      "name": "Privacy Notices Status"
+    },
+    {
+      "type": "page",
+      "name": "Report Inbox"
+    }
+  ],
+  "features": [
+    "Open in OneDrive",
+    "Share action",
+    "Edit in OneDrive",
+    "Open in Excel",
+    "Edit in Excel",
+    "report export to Excel",
+    "report export to Word"
+  ],
+  "versions": [
+    "2023 wave 1 (BC22)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Unlike Power Automate action groups, we can move or hide OneDrive actions using personalization.",
+      "why_it_matters": "Explains the primary UI-based method available for managing OneDrive actions without code changes"
+    },
+    {
+      "text": "In the Microsoft OneDrive row, select the Disagree for Everyone check box.",
+      "why_it_matters": "Provides the exact step to globally disable OneDrive for all users through privacy settings"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

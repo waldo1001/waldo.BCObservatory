@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/yzhums-com/64277",
+  "url": "https://yzhums.com/64277/",
+  "title": "Business Central 2025 wave 1 (BC26): Edit price lists in Excel (New sales pricing experience)",
+  "source": "yzhums-com",
+  "published_at": "2025-05-22T01:05:18.000Z",
+  "words": 461,
+  "summary": "Business Central 2025 wave 1 (BC26) adds the ability to edit sales price lists directly in Excel using the Edit in Excel action, making it easier for salespeople to manage complex pricing and calculations. This feature requires enabling the New sales pricing experience feature update.",
+  "key_points": [
+    "Edit in Excel action now available on Sales Price List page in BC26",
+    "Requires enabling the New sales pricing experience feature update on the Feature Management page",
+    "Simplifies complex pricing calculations for salespeople by leveraging Excel's capabilities",
+    "Changes made in Excel are published back to Business Central",
+    "Part of ongoing expansion of Edit in Excel support across Business Central pages"
+  ],
+  "systems": [
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "pricing",
+    "excel integration",
+    "sales price lists",
+    "bc26",
+    "feature update"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Price List"
+    },
+    {
+      "type": "page",
+      "name": "Feature Management"
+    }
+  ],
+  "features": [
+    "Edit in Excel action",
+    "New sales pricing experience",
+    "Price list management",
+    "Excel Add-in pane"
+  ],
+  "versions": [
+    "BC26",
+    "2025 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Sales price lists can be long and complex documents that require maintenance.",
+      "why_it_matters": "Explains the business problem that the new feature addresses"
+    },
+    {
+      "text": "Editing price lists in Excel makes complex calculations easier for your salespeople.",
+      "why_it_matters": "Describes the key benefit of the feature for end users"
+    },
+    {
+      "text": "With this wave (BC26), you can edit lines on the Sales Price List page in Excel by using the Edit in Excel action.",
+      "why_it_matters": "Explicitly states what's new in this release"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

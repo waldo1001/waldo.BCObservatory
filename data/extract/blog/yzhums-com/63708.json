@@ -1,0 +1,103 @@
+{
+  "item_id": "blog/yzhums-com/63708",
+  "url": "https://yzhums.com/63708/",
+  "title": "Business Central 2025 wave 1 (BC26): Experience improved usability in manufacturing",
+  "source": "yzhums-com",
+  "published_at": "2025-05-16T01:18:51.000Z",
+  "words": 874,
+  "summary": "Business Central 2025 wave 1 (BC26) enhances manufacturing usability with bulk status changes for production orders, new fields and FactBoxes for faster access to information, bulk printing of production order reports, and Edit in Excel support for the Standard Cost Worksheet page.",
+  "key_points": [
+    "Component-Item FactBox on Production Order Component page shows item availability insights when viewing or editing components",
+    "Bulk change production order status across multiple orders with confirmation dialogs to prevent errors",
+    "Print Production Order reports for multiple selected orders at once from list pages",
+    "Edit in Excel capability added to Standard Cost Worksheet for faster data entry",
+    "Multiple new fields added across production order, routing, and capacity pages for better visibility"
+  ],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "manufacturing usability",
+    "production orders",
+    "bulk operations",
+    "factboxes",
+    "excel integration",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Production Order Component"
+    },
+    {
+      "type": "page",
+      "name": "Change Production Order Status"
+    },
+    {
+      "type": "page",
+      "name": "Standard Cost Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Production routing lines"
+    },
+    {
+      "type": "page",
+      "name": "Capacity Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Prod. Order Capacity Need"
+    },
+    {
+      "type": "page",
+      "name": "Prod. Order Routing"
+    },
+    {
+      "type": "page",
+      "name": "Prod. BOM Version List"
+    },
+    {
+      "type": "page",
+      "name": "Routing Version List"
+    },
+    {
+      "type": "report",
+      "name": "Production Order – Comp. and Routing"
+    },
+    {
+      "type": "report",
+      "name": "Prod. Order – Job Card"
+    }
+  ],
+  "features": [
+    "Component-Item FactBox",
+    "Bulk production order status change",
+    "Bulk report printing",
+    "Edit in Excel on Standard Cost Worksheet",
+    "Routing link code editing",
+    "Routing link code warning",
+    "Additional columns on manufacturing pages",
+    "Confirmation dialogs for production orders"
+  ],
+  "versions": [
+    "BC26",
+    "2025 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Productivity increases when processes are easy, so we've improved the usability of several areas within manufacturing.",
+      "why_it_matters": "Establishes the core business value of the BC26 manufacturing improvements by connecting usability enhancements to productivity gains"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
