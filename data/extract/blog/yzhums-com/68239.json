@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/68239",
+  "url": "https://yzhums.com/68239/",
+  "title": "Cumulative Update Summary for Microsoft Dynamics 365 Business Central (October, 2025)",
+  "source": "yzhums-com",
+  "published_at": "2025-10-06T22:51:07.000Z",
+  "words": 785,
+  "summary": "Business Central 2025 release wave 2 (BC27) is now generally available with platform version 27.0.39966.0 and application 27.0.38460.39974 for cloud, along with updates for earlier waves BC26, BC25, and BC24. The post provides cumulative update information, lifecycle dates, and support policy details for all active and end-of-life versions from BC27 back to BC13.",
+  "key_points": [
+    "BC27 (2025 wave 2) launched October 1, 2025 with production and sandbox environment management in Admin Center",
+    "New cloud customers auto-enroll in BC27; existing customers receive email notifications for available updates",
+    "BC25 (2024 wave 2) now allows flexible environment updates: major updates shifted from 30-60 days to 5 months, with optional minor updates",
+    "On-premises BC27 available for download with different platform build (27.0.40210.0)",
+    "Modern lifecycle policy extends BC27 support through April 6, 2027"
+  ],
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "release management",
+    "cumulative update",
+    "cloud saas",
+    "on-premises",
+    "environment management",
+    "lifecycle policy"
+  ],
+  "objects": [],
+  "features": [
+    "Production and Sandbox Environment Management",
+    "Admin Center environment controls",
+    "Flexible environment update scheduling",
+    "Cloud deployment",
+    "On-premises deployment"
+  ],
+  "versions": [
+    "27.0",
+    "26.6",
+    "25.12",
+    "24.18"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "New customers will automatically sign up for Business Central 2025 wave 2 (BC27).",
+      "why_it_matters": "Clarifies default enrollment behavior for new organizations on the latest release"
+    },
+    {
+      "text": "Manage environment updates more flexibly - Major update: 30(60) days -> 5-month and Optional minor updates",
+      "why_it_matters": "Shows key improvement in BC25 giving customers control over update timing"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

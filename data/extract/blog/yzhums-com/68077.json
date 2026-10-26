@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/yzhums-com/68077",
+  "url": "https://yzhums.com/68077/",
+  "title": "Business Central 2025 wave 2 (BC27): Support for new ExtendedDataType value: Document (display/preview a PDF as a portrait image in FactBox)",
+  "source": "yzhums-com",
+  "published_at": "2025-10-09T01:11:38.000Z",
+  "words": 1036,
+  "summary": "Business Central 2025 wave 2 introduces a new ExtendedDataType value called Document for Media and MediaSet fields, enabling portrait-oriented content like PDFs to be displayed in FactBoxes on ListPart and CardPart pages. The feature requires image conversion and currently supports only the first page of multi-page PDFs due to a bug.",
+  "key_points": [
+    "Document ExtendedDataType value supports Media and MediaSet fields on ListPart and CardPart page types only",
+    "PDFs must be converted to images before storage, using codeunit 3110 PDF Document for conversion",
+    "Current limitation restricts display to the first page of multi-page PDFs (bug under Microsoft review)",
+    "Media data type provides better performance than BLOB for caching and rendering in the UI"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "extended data type",
+    "media fields",
+    "pdf preview",
+    "factbox",
+    "bc27",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "PDF Document"
+    },
+    {
+      "type": "page",
+      "name": "Customer PDF Preview"
+    },
+    {
+      "type": "other",
+      "name": "CustomerCardExt"
+    },
+    {
+      "type": "other",
+      "name": "CustomerExt"
+    }
+  ],
+  "features": [
+    "Document ExtendedDataType value",
+    "Media field rendering in FactBoxes",
+    "PDF to image conversion",
+    "Portrait image display",
+    "CardPart and ListPart page support"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2",
+    "AL Language 16.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Using the Media or MediaSet data type provides better performance than using a BLOB data type and is more flexible in its design",
+      "why_it_matters": "Justifies when to use Media over BLOB for storing and displaying content"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/yzhums-com/67552",
+  "url": "https://yzhums.com/67552/",
+  "title": "Dynamics 365 Business Central: How to quickly get User Experience/Experience Tier (Essential or Premium) in AL",
+  "source": "yzhums-com",
+  "published_at": "2025-10-16T01:21:47.000Z",
+  "words": 284,
+  "summary": "Retrieving the user experience tier (Essential or Premium) in Business Central AL code using the Application Area Management Facade codeunit. This helps determine which features and functionality are available to users based on the company's configured experience level.",
+  "key_points": [
+    "Business Central supports two experience tiers: Essential (common business functionality) and Premium (all functionality including Manufacturing and Service Management)",
+    "The experience tier is configured via the Experience setting on the Company Information page",
+    "Codeunit 9179 'Application Area Mgmt. Facade' provides the GetExperienceTierCurrentCompany method to programmatically retrieve the current tier in AL",
+    "Developers can execute different code logic based on the experience tier setting for conditional feature availability"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "al development",
+    "application area",
+    "experience tier",
+    "user interface",
+    "company configuration"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Application Area Mgmt. Facade"
+    },
+    {
+      "type": "page",
+      "name": "Customer List"
+    }
+  ],
+  "features": [
+    "Application Area Management",
+    "Experience Tier Configuration",
+    "User Interface Control",
+    "Premium Features Access"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/68178",
+  "url": "https://yzhums.com/68178/",
+  "title": "Business Central 2025 wave 2 (BC27): Access open-sourced Power BI apps",
+  "source": "yzhums-com",
+  "published_at": "2025-10-06T00:31:08.000Z",
+  "words": 380,
+  "summary": "Business Central 2025 wave 2 (BC27) open-sources Power BI apps for sales, purchasing, and projects, joining previously open-sourced finance, inventory, and manufacturing apps. Organizations can now fully customize semantic models and reports to match their business processes and KPIs without starting from scratch.",
+  "key_points": [
+    "All standard Business Central Power BI apps are now open-sourced, providing complete code access",
+    "Open-sourced apps available: Finance, Inventory, Inventory Valuation, Manufacturing, Subscription Billing, and Sustainability in BC26; Sales, Purchasing, and Projects added in BC27",
+    "Developers can access source code through PowerBIReports in Business Central or by adding dependencies in app.json, then edit and customize in Power BI",
+    "Customization saves development time by building on ready-made models rather than starting from scratch"
+  ],
+  "systems": [
+    "reporting",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "power bi",
+    "open source",
+    "customization",
+    "semantic models",
+    "bc27",
+    "analytics",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Power BI Report embeddings for Dynamics 365 Business Central"
+    }
+  ],
+  "features": [
+    "Open-sourced Power BI apps",
+    "Customizable semantic models",
+    "Report editing and export",
+    "Power BI app integration",
+    "Development flexibility"
+  ],
+  "versions": [
+    "BC27",
+    "BC26"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Instead of starting from scratch, you can build on high-quality, ready-made models and visualizations, saving significant development time and effort.",
+      "why_it_matters": "Highlights the practical business value of having pre-built, customizable templates rather than developing independently"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

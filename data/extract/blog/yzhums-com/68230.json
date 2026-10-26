@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/yzhums-com/68230",
+  "url": "https://yzhums.com/68230/",
+  "title": "Business Central 2025 wave 2 (BC27): Automatically create multiple fixed asset cards",
+  "source": "yzhums-com",
+  "published_at": "2025-10-07T04:11:09.000Z",
+  "words": 490,
+  "summary": "Business Central 2025 wave 2 (BC27) introduces automatic creation of multiple fixed asset cards when posting purchase invoices. Instead of manually creating asset cards or using bulk import methods, users can now specify a quantity on purchase lines and the system automatically generates individual fixed asset cards for each unit upon posting.",
+  "key_points": [
+    "Automatically generates multiple fixed asset cards from a single purchase invoice line based on quantity specified",
+    "Eliminates manual card creation for bulk purchases, reducing effort and errors in asset management",
+    "New field 'No. of Fixed Asset Cards' allows users to control how many asset cards are created from a purchase line",
+    "All fixed asset attributes except the asset number are copied from the asset template selected in the purchase line"
+  ],
+  "systems": [
+    "fixed-assets",
+    "purchasing"
+  ],
+  "topics": [
+    "fixed assets",
+    "asset acquisition",
+    "purchase invoices",
+    "bulk operations",
+    "automation"
+  ],
+  "objects": [],
+  "features": [
+    "automatic multiple fixed asset card creation",
+    "fixed asset acquisition from purchase invoice"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Automatically creating multiple fixed asset cards when you post a purchase invoice streamlines asset management processes.",
+      "why_it_matters": "Explains the core benefit of the feature for reducing manual work in asset management"
+    },
+    {
+      "text": "Microsoft has added a new field, No. of Fixed Asset Cards. It is hidden by default, but can be added via the Personalization feature.",
+      "why_it_matters": "Identifies the specific control mechanism for users to manage how many asset cards are created"
+    },
+    {
+      "text": "Yes, fixed asset cards will be automatically created when posting.",
+      "why_it_matters": "Confirms the automation happens at posting time, not during entry"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "item_id": "blog/yzhums-com/68328",
+  "url": "https://yzhums.com/68328/",
+  "title": "Business Central 2025 wave 2 (BC27): Deferral reporting enhancements (Replacing RDL layouts with Word and Excel formats and adding three new list pages)",
+  "source": "yzhums-com",
+  "published_at": "2025-10-10T01:26:10.000Z",
+  "words": 487,
+  "summary": "Business Central 2025 wave 2 modernizes deferral reporting by replacing RDL layouts with Word and Excel formats for three summary reports and adds three new list pages for ad hoc analysis of unposted deferral lines. This gives finance teams better flexibility, easier customization without developer support, and improved visibility into deferral data across all documents.",
+  "key_points": [
+    "RDL layouts replaced with Word and Excel formats for G/L, Sales, and Purchasing Deferral Summary reports",
+    "Three new list pages added for Sales, Purchasing, and G/L deferral lines with analysis mode capability",
+    "Controllers can analyze current and upcoming deferrals and customize report layouts without developer support",
+    "Improved discoverability and documentation help users understand report purposes",
+    "Analysis mode enables review of unposted deferral lines across all documents for better forecasting"
+  ],
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "deferral reporting",
+    "deferral enhancements",
+    "report layouts",
+    "word and excel formats",
+    "list pages",
+    "analysis mode",
+    "financial forecasting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Deferral Summary – G/L"
+    },
+    {
+      "type": "report",
+      "name": "Deferral Summary – Sales"
+    },
+    {
+      "type": "report",
+      "name": "Deferral Summary – Purchasing"
+    },
+    {
+      "type": "page",
+      "name": "Deferral Lines – Sales"
+    },
+    {
+      "type": "page",
+      "name": "Deferral Lines – Purchasing"
+    },
+    {
+      "type": "page",
+      "name": "Deferral Lines – G/L"
+    }
+  ],
+  "features": [
+    "Word and Excel deferral report layouts",
+    "Deferral analysis mode",
+    "G/L Deferral Summary report",
+    "Sales Deferral Summary report",
+    "Purchasing Deferral Summary report",
+    "Deferral lines list pages"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Replacing RDL layouts with Word and Excel formats lets you easily customize reports without developer support.",
+      "why_it_matters": "Eliminates dependency on developers for report customization, enabling finance teams to adjust formats to their needs quickly"
+    },
+    {
+      "text": "The new list pages and analysis mode enable proactive review of unposted deferral lines across all documents, improving forecasting and decision-making.",
+      "why_it_matters": "Provides better visibility into deferrals before posting, allowing controllers to make more informed financial decisions and forecasts"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

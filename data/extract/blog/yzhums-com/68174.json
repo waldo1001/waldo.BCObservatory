@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/68174",
+  "url": "https://yzhums.com/68174/",
+  "title": "Business Central 2025 wave 2 (BC27): App version in “Copy error details”/”Share details via”",
+  "source": "yzhums-com",
+  "published_at": "2025-10-08T01:52:15.000Z",
+  "words": 436,
+  "summary": "Business Central 2025 wave 2 (BC27) now includes extension version numbers in error details when users copy or share error information. This enhancement helps support staff and developers identify which extension version a customer is using without manually checking Extension Management.",
+  "key_points": [
+    "Error dialogs now display the extension version number alongside extension name and publisher in the AL call stack",
+    "This capability builds on previous improvements: BC22 introduced Copy details, BC24 replaced it with Share feature",
+    "Knowing the extension version helps troubleshoot issues, especially for AppSource extensions that may not be up to date",
+    "Version information is automatically included when users share error details via the UI"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "error handling",
+    "troubleshooting",
+    "extensions",
+    "supportability",
+    "bc27"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item"
+    }
+  ],
+  "features": [
+    "Copy error details",
+    "Share details via",
+    "App version in error messages",
+    "AL call stack information",
+    "Extension Management integration"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With this wave (BC27), Microsoft has enhanced this feature again, and we can see the version number of the extension in the error details.",
+      "why_it_matters": "Explains the core new capability that extension versions are now visible in error details."
+    },
+    {
+      "text": "The AL call stack contains the object name, function name, line number, extension name, and extension publisher.",
+      "why_it_matters": "Describes what troubleshooting information is available in the call stack for diagnostics."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

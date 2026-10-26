@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/yzhums-com/68433",
+  "url": "https://yzhums.com/68433/",
+  "title": "Business Central 2025 wave 2 (BC27): Create a new sequential unique GUID (Guid.CreateSequentialGuid Method)",
+  "source": "yzhums-com",
+  "published_at": "2025-10-15T01:00:03.000Z",
+  "words": 265,
+  "summary": "Business Central 2025 wave 2 introduces Guid.CreateSequentialGuid method which generates sequential unique GUIDs that perform better as table keys than random GUIDs. This method is useful when you need improved performance for GUID-based indexing.",
+  "key_points": [
+    "Guid.CreateSequentialGuid creates sequential unique GUIDs instead of random ones",
+    "Sequential GUIDs perform better when used as table keys due to partial sequencing",
+    "The method is available in AL Language extension version 16.0",
+    "Each execution starts from a new GUID rather than continuing the sequence"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "guid",
+    "al language",
+    "performance",
+    "table keys",
+    "bc27"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Guid.CreateSequentialGuid Method"
+    },
+    {
+      "type": "other",
+      "name": "Guid.CreateGuid Method"
+    }
+  ],
+  "features": [
+    "Guid.CreateSequentialGuid",
+    "Guid.CreateGuid",
+    "sequential GUID generation",
+    "improved key performance"
+  ],
+  "versions": [
+    "BC27",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Sequential GUIDs perform better when used as a field in a key, because they are partially sequential instead of fully random.",
+      "why_it_matters": "Explains the key benefit of the new method - improved performance for table key operations compared to random GUIDs"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

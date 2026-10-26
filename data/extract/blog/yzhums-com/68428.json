@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/yzhums-com/68428",
+  "url": "https://yzhums.com/68428/",
+  "title": "Dynamics 365 Business Central: Check posting date before posting (preview posting) in the sales and purchase documents – Customization",
+  "source": "yzhums-com",
+  "published_at": "2025-10-17T00:33:27.000Z",
+  "words": 502,
+  "summary": "This customization adds a validation to check if the posting date on sales and purchase documents matches the current month, displaying a confirmation dialog if it does not. It uses event subscribers on the Sales-Post and Purch.-Post codeunits to enforce this check before posting.",
+  "key_points": [
+    "Event subscribers are used on codeunits 81 (Sales-Post) and 91 (Purch.-Post) to intercept posting operations",
+    "The customization checks if the posting date falls within the current month using CalcDate function",
+    "Both regular posting and preview posting scenarios are covered with appropriate events",
+    "A confirmation dialog prompts the user to proceed if the posting date is outside the current month",
+    "This approach can be extended to add other custom validations like required field checks"
+  ],
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "posting date validation",
+    "event subscriber",
+    "customization",
+    "sales documents",
+    "purchase documents",
+    "date range check"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Sales-Post (Yes/No)"
+    },
+    {
+      "type": "codeunit",
+      "name": "Purch.-Post (Yes/No)"
+    },
+    {
+      "type": "codeunit",
+      "name": "ZY Posting Date Handlers"
+    }
+  ],
+  "features": [
+    "posting period validation",
+    "preview posting check",
+    "event subscriber pattern",
+    "date validation",
+    "confirmation dialog"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This is just a simple example, you can also use the same method to add other controls, such as required fields, etc.",
+      "why_it_matters": "Demonstrates that this event subscriber pattern is reusable for implementing additional business rule validations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
