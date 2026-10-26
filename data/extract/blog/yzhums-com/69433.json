@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/yzhums-com/69433",
+  "url": "https://yzhums.com/69433/",
+  "title": "Dynamics 365 Business Central: How to use Open in Excel in the browser/web (Excel Online)",
+  "source": "yzhums-com",
+  "published_at": "2026-01-05T01:28:43.000Z",
+  "words": 381,
+  "summary": "Open in Excel action lets users view and edit Business Central records in Excel. When OneDrive for system features is enabled, the Excel workbook opens directly in Excel for the web instead of downloading to the device.",
+  "key_points": [
+    "Open in Excel displays the same rows and columns visible on the Business Central page, respecting any active filters",
+    "Without OneDrive setup, the workbook downloads to your device for local or web editing",
+    "When OneDrive for system features is configured, Excel opens in the browser for immediate editing",
+    "Changes in Excel are saved to the file only; they do not automatically update Business Central records"
+  ],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "excel integration",
+    "onedrive",
+    "data editing",
+    "browser features"
+  ],
+  "objects": [],
+  "features": [
+    "Open in Excel",
+    "Excel Online",
+    "OneDrive integration",
+    "Filter synchronization"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "If your organization has configured OneDrive for system features, the Excel workbook is opened in your browser by using Excel for the web.",
+      "why_it_matters": "This is the key condition for opening Excel directly in the browser without downloading the file to the device."
+    },
+    {
+      "text": "Excel respects filters on the page that limit the records shown.",
+      "why_it_matters": "Explains that the Excel export maintains the same data visibility as the Business Central page view."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "item_id": "blog/yzhums-com/69639",
+  "url": "https://yzhums.com/69639/",
+  "title": "Dynamics 365 Business Central Blog Series: Work with dimensions",
+  "source": "yzhums-com",
+  "published_at": "2025-12-23T00:50:40.000Z",
+  "words": 930,
+  "summary": "This blog series covers dimensions in Dynamics 365 Business Central, including how to add shortcut dimensions and custom dimensions to pages, set up default dimensions at various levels, manage dimension priorities, use dimensions in financial reporting, and leverage dimension features across inventory, journals, and locations.",
+  "key_points": [
+    "Shortcut dimensions (3-8) can be added to pages for easier access alongside global dimensions",
+    "Default dimensions can be assigned to multiple records at once and set at account type or location level",
+    "Dimension corrections for general ledger entries and allowed values filtering provide better control and conflict avoidance",
+    "Dimensions are supported in standard APIs and Power Automate workflows",
+    "Dimension combinations can be imported and dimension metadata retrieved via AL code"
+  ],
+  "systems": [
+    "finance",
+    "inventory",
+    "integration"
+  ],
+  "topics": [
+    "dimensions",
+    "default dimensions",
+    "shortcut dimensions",
+    "dimension setup",
+    "financial reporting",
+    "data import",
+    "api integration",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Shortcut Dimensions 3-8"
+    },
+    {
+      "type": "other",
+      "name": "Global Dimensions"
+    },
+    {
+      "type": "other",
+      "name": "Default Dimensions"
+    },
+    {
+      "type": "other",
+      "name": "Dimension Combinations"
+    },
+    {
+      "type": "other",
+      "name": "Account Type Default Dimensions"
+    },
+    {
+      "type": "other",
+      "name": "Dimensions FactBox"
+    }
+  ],
+  "features": [
+    "shortcut dimensions",
+    "default dimensions",
+    "dimension corrections",
+    "dimension priorities",
+    "allowed values filtering",
+    "dimension FactBox",
+    "dimension API support",
+    "bulk dimension assignment"
+  ],
+  "versions": [
+    "BC18",
+    "BC19",
+    "BC20",
+    "BC22"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Dimensions are a very powerful feature in Business Central.",
+      "why_it_matters": "Establishes dimensions as core functionality for financial analysis and categorization"
+    },
+    {
+      "text": "Dimensions are values that categorize entries so you can track and analyze them on documents.",
+      "why_it_matters": "Defines the fundamental purpose of dimensions for tracking and reporting"
+    },
+    {
+      "text": "Dimension corrections (for G/L Entries)",
+      "why_it_matters": "Highlights capability to fix dimension posting errors in ledger entries"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

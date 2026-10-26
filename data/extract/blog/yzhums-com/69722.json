@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/69722",
+  "url": "https://yzhums.com/69722/",
+  "title": "Dynamics 365 Business Central: Quickly check the current filters used on the current page via Page Inspection",
+  "source": "yzhums-com",
+  "published_at": "2026-01-06T00:35:32.000Z",
+  "words": 537,
+  "summary": "Page Inspection in Business Central allows you to quickly view all current filters applied to a page, including filters from the filter pane, list views, code, and subpage links. This feature helps identify hidden filters and understand their sources, accessible via Ctrl+Alt+F1 or the Help & Support menu.",
+  "key_points": [
+    "Access page inspection using Ctrl+Alt+F1 keyboard shortcut or through Help & Support menu",
+    "Page Filters tab shows all filter types: user filters, table view filters, subform link filters, and form view filters",
+    "Identify filters that may not be visually displayed on the page and their sources",
+    "View mandatory filters created with Record.FilterGroup() method that users cannot remove",
+    "Security filters cannot be viewed using page inspection"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "page inspection",
+    "filters",
+    "filter pane",
+    "list views",
+    "debugging",
+    "page design"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item List"
+    }
+  ],
+  "features": [
+    "Page Inspection",
+    "Page Filters tab",
+    "Filter pane",
+    "List views",
+    "Record.FilterGroup() Method",
+    "Filter visibility",
+    "Mandatory filters"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This also allows you to identify filters that are not displayed on the page.",
+      "why_it_matters": "Highlights a key benefit for troubleshooting and understanding actual page filtering behavior"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

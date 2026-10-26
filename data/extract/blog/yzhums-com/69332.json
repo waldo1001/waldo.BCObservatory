@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/69332",
+  "url": "https://yzhums.com/69332/",
+  "title": "Can Dynamics 365 Business Central Online (SaaS) be used in Mainland China? (Is BC accessible from Mainland China?)",
+  "source": "yzhums-com",
+  "published_at": "2025-12-17T01:16:52.000Z",
+  "words": 479,
+  "summary": "Business Central Online (SaaS) is not officially available for purchase in Mainland China, but the post explores whether users in mainland China can access BC environments hosted in other regions through network connectivity testing. The post provides guidance on latency requirements and regional accessibility options.",
+  "key_points": [
+    "Business Central is available in 242 countries and regions as of November 2025, but mainland China is not included, so BC cannot be purchased there",
+    "Users in mainland China can potentially access Business Central environments hosted in other regions by testing network latency through AzureSpeed.com, with Asia, Japan, and Korea datacenters showing lower latency options",
+    "Business Central performs optimally with latency of 250-300 milliseconds or less from browser to Azure datacenter",
+    "Simplified Chinese language support was added in BC17.2, but requires translation packs from partners since Microsoft does not provide first-party translations for non-W1 versions",
+    "Microsoft 365 Home users in mainland China can see Business Central listed, though actual environment access depends on network connectivity and regional hosting"
+  ],
+  "systems": [
+    "platform",
+    "administration",
+    "localization"
+  ],
+  "topics": [
+    "mainland china",
+    "saas accessibility",
+    "network latency",
+    "regional availability",
+    "localization",
+    "azure datacenters"
+  ],
+  "objects": [],
+  "features": [
+    "Business Central Online (SaaS)",
+    "Regional hosting",
+    "Network connectivity",
+    "Simplified Chinese language support",
+    "Microsoft 365 integration"
+  ],
+  "versions": [
+    "BC17.2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central is designed for networks that have a latency of 250 - 300 milliseconds (ms) or less.",
+      "why_it_matters": "Establishes the performance baseline for users in mainland China to assess whether their network connectivity will support effective BC usage"
+    },
+    {
+      "text": "Microsoft has added Business Central platform support for Chinese (Simplified), Bulgarian, Greek, Romanian and Turkish languages in BC17.2",
+      "why_it_matters": "Shows language localization efforts, though translation packs still require partner sourcing rather than first-party support"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

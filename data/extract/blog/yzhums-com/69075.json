@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/yzhums-com/69075",
+  "url": "https://yzhums.com/69075/",
+  "title": "Business Central 2025 wave 2 (BC27): Cancel running environment update",
+  "source": "yzhums-com",
+  "published_at": "2025-12-19T00:44:17.000Z",
+  "words": 437,
+  "summary": "Business Central 2025 wave 2 introduces the ability to cancel running environment updates from the admin center, allowing administrators to halt in-progress updates and automatically restore the environment to its pre-update state without data loss.",
+  "key_points": [
+    "Admins can cancel ongoing environment updates from the Business Central admin center by clicking the blue 'Updating' button and selecting Cancel update",
+    "When canceled, the system automatically restores the environment to its pre-update state without requiring manual intervention or risking data loss",
+    "Updates cannot be canceled during the Enforced Update Period for the source version",
+    "After cancellation, the next update date is automatically scheduled and communicated via notification email"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "environment updates",
+    "admin center",
+    "update management",
+    "release wave 2"
+  ],
+  "objects": [],
+  "features": [
+    "Cancel running environment update",
+    "Environment update recovery",
+    "Operation status tracking"
+  ],
+  "versions": [
+    "BC27",
+    "BC27.2",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "When you cancel an update, Business Central automatically starts a recovery operation to restore the environment to its pre-update state.",
+      "why_it_matters": "This shows the key safety feature that automatic recovery eliminates manual intervention risk and prevents data loss"
+    },
+    {
+      "text": "Updates can't be canceled on environments that are in the Enforced Update Period for the source version of the environment update.",
+      "why_it_matters": "This clarifies an important limitation administrators need to know when planning update cancellations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

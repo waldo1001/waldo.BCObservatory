@@ -1,0 +1,86 @@
+{
+  "item_id": "blog/yzhums-com/69444",
+  "url": "https://yzhums.com/69444/",
+  "title": "Dynamics 365 Business Central: How to check whether External Document No./Vendor Invoice No. are unique or duplicated – Customization",
+  "source": "yzhums-com",
+  "published_at": "2025-12-18T02:24:23.000Z",
+  "words": 607,
+  "summary": "Developers can add customization to validate whether External Document No. and Vendor Invoice No. are unique or duplicated across both pre-posting and posted documents in Business Central, since the system does not perform this validation by default.",
+  "key_points": [
+    "Business Central allows external document numbers on sales and purchase orders, invoices, and credit memos, but doesn't validate uniqueness by default.",
+    "A codeunit with event subscribers on Sales Header and Purchase Header tables can check for duplicate numbers in both draft and posted documents.",
+    "The solution includes a setup flag in Sales & Receivables Setup and Purchases & Payables Setup to optionally allow duplicates.",
+    "Validation can be scoped to specific document types or check across all documents as needed."
+  ],
+  "systems": [
+    "sales",
+    "purchasing",
+    "development"
+  ],
+  "topics": [
+    "customization",
+    "validation",
+    "external document numbers",
+    "data integrity",
+    "duplicate checking"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Header"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Inv. Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "table",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "codeunit",
+      "name": "ExtDocNoHandler"
+    }
+  ],
+  "features": [
+    "external document number validation",
+    "duplicate detection",
+    "pre-posting validation",
+    "posted document checking",
+    "setup-based control",
+    "sales order validation",
+    "purchase order validation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central does not validate whether external document numbers are unique or duplicated.",
+      "why_it_matters": "Explains the gap that requires custom solution."
+    },
+    {
+      "text": "If this kind of control is required, a small customization is necessary.",
+      "why_it_matters": "Justifies the need for the codeunit-based approach."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

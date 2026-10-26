@@ -1,0 +1,113 @@
+{
+  "item_id": "blog/yzhums-com/69476",
+  "url": "https://yzhums.com/69476/",
+  "title": "Dynamics 365 Business Central: All Copilot and agent capabilities",
+  "source": "yzhums-com",
+  "published_at": "2025-12-22T00:22:27.000Z",
+  "words": 7257,
+  "summary": "Business Central offers multiple AI-powered Copilot features for productivity, including marketing text suggestions, number series generation, item substitution recommendations, sales line suggestions, analysis assist, autofill capabilities, bank reconciliation assistance, chat interface, record summaries, e-document mapping, and advanced search, plus agent capabilities for sales order automation.",
+  "key_points": [
+    "Copilot provides AI writing assistance for product marketing text with customizable tone, format, and emphasis options",
+    "Natural language prompts help generate and modify number series for documents and accounts automatically",
+    "AI suggests substitute items by analyzing product data across multiple tables, with confidence scores for validation",
+    "Sales line suggestions accept natural language input, files (CSV), or references to existing documents to populate order lines",
+    "Analysis assist uses prompts to create data analysis views with filtering, sorting, and field grouping without manual configuration"
+  ],
+  "systems": [
+    "copilot",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "copilot capabilities",
+    "ai-powered assistance",
+    "marketing automation",
+    "data analysis",
+    "number series setup",
+    "item substitution",
+    "sales automation",
+    "bank reconciliation",
+    "web search",
+    "sustainability emissions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Copilot & agent capabilities"
+    },
+    {
+      "type": "page",
+      "name": "Item Substitution Entry"
+    },
+    {
+      "type": "page",
+      "name": "Bank Acc. Reconciliation"
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order Subform"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Draft Marketing Text with Copilot"
+    },
+    {
+      "type": "page",
+      "name": "Edit Marketing Text"
+    },
+    {
+      "type": "page",
+      "name": "No. Series Proposals"
+    },
+    {
+      "type": "page",
+      "name": "Tell Me"
+    }
+  ],
+  "features": [
+    "Marketing text suggestions",
+    "Number series generation",
+    "Substitute item suggestions",
+    "Sales line suggestions",
+    "Analysis assist",
+    "Autofill fields",
+    "Web search for contact details",
+    "Bank reconciliation assist",
+    "Chat with Copilot",
+    "Summarize records"
+  ],
+  "versions": [
+    "Business Central 2023 wave 1 (BC22)",
+    "Business Central 2024 wave 1 (BC24)",
+    "Business Central 2024 wave 2 (BC25)",
+    "Business Central 2025 wave 1 (BC26)",
+    "Business Central 2025 wave 2 (BC27)"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Copilot is an AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks.",
+      "why_it_matters": "Defines the core value proposition of Copilot functionality across Business Central"
+    },
+    {
+      "text": "Copilot uses a large language model combined with embedded search to comb through this information and suggest items that might be good substitutes.",
+      "why_it_matters": "Explains the technical approach for item substitution, leveraging AI across multiple data tables"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
