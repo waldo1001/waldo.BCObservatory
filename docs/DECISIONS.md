@@ -1350,3 +1350,17 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   measured as no regression, not as a gain. Rejected: denying the search until a bc_ call (state, false blocks),
   `UserPromptSubmit` (noise), longer instructions alone. MCP 0.12.1, plugin 0.9.0. Spec
   `docs/specs/bc-question-routing.md`, issue #54.
+- **D124 The install path names Node first, the README and /mcp lead with the plugin per harness, and the site invites
+  readers to use it from an agent (2026-10-27, M59).** A user's Copilot plugin install failed on a missing Node.js
+  with no message naming it. The Node requirement is one phrase (`NODE_REQUIREMENT`, "Node.js 22 or newer (the current
+  LTS is fine)") tied by a test to the lowest major of `engines`; every guide that needs it says so first, with a
+  one-line install per OS and "restart the app", and Copilot CLI got a "Something went wrong" table. The README leads
+  with the plugin in a per-harness table. /mcp shows one tab per harness (`installTabs`) with copy buttons,
+  `vscode:mcp/install` and `cursor://.../mcp/install` one-click links and a check per tab. VS Code keeps the one-click
+  server link until the owner's check of VS Code's agent-plugin install passes (`VSCODE_PLUGIN`, still false). Object,
+  feature and code-change pages get two "Ask the Observatory" prompts. On object pages they join the existing B8
+  popover (D89) instead of a second button. An empty search points at the plugin, and a header pill invites readers
+  until dismissed for 90 days. All three are built in script: object, feature and search HTML are byte-identical, and
+  the tar grew by 20,480 bytes (the new chunks). Rejected: hosting (D105), a Node check in a hook (the hook itself
+  needs Node), a "get the plugin" footer in MCP answers (tokens on every call, aimed at people who already have it),
+  patch numbers in the docs (`npx` only warns). Spec `docs/specs/install-and-adoption.md`, issue #55.

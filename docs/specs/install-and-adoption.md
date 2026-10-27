@@ -1,12 +1,12 @@
 ---
 issue: 55
-status: draft
+status: implemented
 ---
 
 # Easier plugin installs, and the site invites you to use it from your agent
 
-Status: proposed, 2026-10-27. Decision: D124 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M59
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-27 (section 12 records what was built and where it differs). Decision: D124 (appended
+2026-10-27). Milestone: M59. Owner: waldo.
 Scope: the install path for the plugin and the MCP server in every harness, and the places that invite a reader to
 install it. Specifically:
 - one Node.js requirement, taken from `engines`, stated the same way everywhere;
@@ -569,27 +569,88 @@ Each item ends with the default the coder takes when nobody answers.
 
 ## 11. Definition of Done
 
-- [ ] Tests 1 to 12 exist and pass; `npm test` and `npm run typecheck` are green.
-- [ ] No file of test 3 names a Node version other than `NODE_REQUIREMENT`'s.
-- [ ] INSTALL.md: the Node block in the Desktop, Claude Code and Copilot CLI guides; Copilot has "Something went
+- [x] Tests 1 to 12 exist and pass; `npm test` and `npm run typecheck` are green.
+- [x] No file of test 3 names a Node version other than `NODE_REQUIREMENT`'s.
+- [x] INSTALL.md: the Node block in the Desktop, Claude Code and Copilot CLI guides; Copilot has "Something went
       wrong".
-- [ ] README.md leads with the plugin table; the server-only command comes after it.
-- [ ] /mcp: six tabs, copy buttons, the VS Code and Cursor one-click links, and a check per tab. The no-script view
+- [x] README.md leads with the plugin table; the server-only command comes after it.
+- [x] /mcp: six tabs, copy buttons, the VS Code and Cursor one-click links, and a check per tab. The no-script view
       reads in order. The twin matches.
-- [ ] The VS Code check is done, with findings (a) to (f) recorded and `VSCODE_PLUGIN` set. If it passed, the fifth
+- [ ] (operator step, open) The VS Code check is done, with findings (a) to (f) recorded and `VSCODE_PLUGIN` set. If it passed, the fifth
       INSTALL.md guide exists.
-- [ ] Ask your agent on object, feature and change pages; the empty-search hint; the header pill with its 90-day
+- [x] Ask your agent on object, feature and change pages; the empty-search hint; the header pill with its 90-day
       dismissal. All 7.2 checks pass.
-- [ ] 7.3: object, feature and search HTML are unchanged except hashed asset names; tar growth is the bundle size
+- [x] 7.3: object, feature and search HTML are unchanged except hashed asset names; tar growth is the bundle size
       only.
-- [ ] The telemetry baseline table (task 14) is in section 12.
-- [ ] D124 appended to docs/DECISIONS.md; PLAN M59 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+- [ ] (operator step, open) The telemetry baseline table (task 14) is in section 12.
+- [x] D124 appended to docs/DECISIONS.md; PLAN M59 marked shipped; HANDOFF entry moved from "Open specs" to "Where
       things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
       implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
       status lines into docs/built/install-and-adoption.md; the PR's review moves them in (sdd-build section 4,
       sdd-review section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-27)
+
+Built on branch `build/install-and-adoption` in four commits: d5373a4e72 (phase 1: the Node phrase, INSTALL.md,
+README.md, plugin/README.md), adf0063a5e (phase 2: `installTabs`, the /mcp tabs, the one-click links, `clipboard.ts`),
+09e303e2b5 (phase 3: `ask-agent-core.ts`, `ask-agent.ts`, the header pill, the empty-search hint), 90c5b1d6ea (the
+`:global()` rules for the markup the /mcp script injects). No version bump, no publish, nothing in `content/` or `data/`.
+
+**Red evidence.**
+- Phase 1, after adding the constants: four tests failed for the stated reasons:
+  - `4 guides have "Something went wrong"`;
+  - `INSTALL.md: "Node.js 20 or newer"`;
+  - `Claude Desktop: "winget install OpenJS.NodeJS.LTS"`;
+  - `the plugin before the server-only command`.
+- Phase 2: `does not provide an export named 'installTabs'`.
+- Phase 3: `Cannot find module .../ask-agent-core.js`.
+- Test 12 (the clipboard move) was written after phase 2 had already done the move, so it has no red run.
+
+**Verified.**
+- `npm run typecheck`: clean. `npm test`: 781 tests, 780 pass, 1 skipped (as before), 0 fail.
+- Site build on Node 24.22.1 with an 8 GB heap: 29,612 pages.
+- In the built-in browser, against `site/dist` served under the base path:
+  - /mcp: six tabs; arrow keys, Home and End move between them; `#install-cursor` opens Cursor; the last tab is
+    remembered.
+  - /mcp copy and links: seven copy buttons. The Cursor link's config decodes to `plugin/.mcp.json`'s command and
+    args.
+  - /mcp without script: the raw HTML has six `section.itab`, none hidden.
+  - The prompts: Table 18, Enum 5, roadmap feature 573253 and change bcquality/133 show their two prompts and the
+    install link. A video page has no button.
+  - The pill: absent on home and /mcp, present elsewhere; × hides it on every page. A stored time 91 days old shows
+    it again. At 375 px it sits in the Browse sheet.
+  - Search: an empty search shows the hint.
+  - Light theme reads.
+- `mcp.md` has six tab headings and six checks.
+
+| Measure | Spec | Measured |
+|---|---|---|
+| bytes added to an object page | 0 | 0 (`objects/table/18/index.html` 153,487 bytes on both builds, identical after masking asset hashes; the same for feature 573253, search, change bcquality/133 and home) |
+| tar growth | bundle size only | +20,480 bytes (749,649,920 to 749,670,400), +3 files (the new script chunks) |
+
+**Deviations.**
+1. **The B8 popover.** Object pages already had an "Ask your agent" button (D89 B8,
+   `site/src/scripts/object-page.ts` `mountAsk`), with the bc-code-atlas calls. 25,667 of 25,687 object pages have
+   its section. The spec did not know that. A second button with the same name would have been confusing, so on a
+   page that has the B8 popover (`#ask-pop`) the Observatory's prompts are appended to it, under "Ask the
+   Observatory". Pages without it get their own button. Same reader-visible result, one button.
+2. **The empty-search hint** is a `span.agent-hint` inside the existing status line, not a separate
+   `<p class="meta">`, so screen readers announce it with the status.
+3. **`InstallTab` has an optional `note`, and `InstallStep.lang` allows `"text"`.** These carry the Claude Desktop
+   tab (no code, a pointer to INSTALL.md) and the VS Code plugin step (a URL).
+4. **`installHref(base)`** is exported from `ask-agent-core.ts` and shared by the prompts, the pill and the hint.
+5. **One extra test:** `pickTab` (hash, then the remembered tab, then the first).
+
+**Operator steps still open.**
+- **The VS Code check** (task 6, findings a to f). On a pass: set `VSCODE_PLUGIN = true` in `site/src/lib/mcp.ts`,
+  write the fifth INSTALL.md guide (2.2), and update the README's VS Code row.
+- **Click both one-click links on a Mac:** the VS Code button and Add to Cursor. If either fails, drop that button
+  (section 9).
+- **The telemetry baseline** (task 14): the RUNBOOK "by client" query in the Azure portal, 30 days before this
+  ships, then again 30 days after.
+- Readers see the site changes after the next Pages run, which follows the push; no nightly is needed.
+
+## 13. Proposed edits to other files (applied 2026-10-27, see section 12)
 
 **`docs/DECISIONS.md`:** the D124 text of section 3, with the VS Code result and the issue number filled in.
 

@@ -28,10 +28,6 @@ one in either mode.
   choice (spec section 4, host criteria). Start with phase 1 task 1 (the tests). Until it lands, claude.ai users who add
   the plugin get the skills only; bc-code-atlas and microsoft-learn need Add on the plugin's Connectors tab, and
   nothing says so.
-- **Install and adoption, D124** (`docs/specs/install-and-adoption.md`, M59, issue #55). Status: proposed 2026-10-27,
-  nothing implemented. Start with phase 1 task 1 (tests 1 to 5); phase 2 task 6 is a manual VS Code check on the
-  owner's Mac. Until it lands, a harness without Node fails with no message that names Node, the docs disagree on
-  the Node version (20 vs 22; engines says 22.23.4+), and the site never invites a reader to use the plugin.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
@@ -39,6 +35,16 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-27 (site and docs only, no version bump; live after the next Pages run):**
+- **Easier plugin installs, and the site invites readers to use it from an agent (D124, M59, issue #55).** Every
+  install guide names Node.js 22 or newer first, with a one-line install per OS; Copilot CLI has a "Something went
+  wrong" table; the README leads with the plugin per harness. /mcp has one tab per harness with copy buttons, an
+  "Install the server in VS Code" and an "Add to Cursor" link, and a check per tab. Object, feature and code-change
+  pages offer two "Ask the Observatory" prompts (inside the B8 popover on object pages); an empty search and a header
+  pill (hidden 90 days after ×) point at /mcp. Zero bytes per page. Operator steps: the VS Code agent-plugin check
+  (spec section 6 task 6; on a pass set `VSCODE_PLUGIN` and write the fifth INSTALL.md guide), clicking both one-click
+  links on a Mac, and the telemetry baseline per client (RUNBOOK "by client", Azure portal).
 
 **Shipped 2026-10-27 (plugin 0.9.0 and MCP 0.12.1; MCP needs its publish):**
 - **The plugin reminds the agent of the Observatory before a web search (D123, M58, issue #54).** A `PreToolUse` hook
