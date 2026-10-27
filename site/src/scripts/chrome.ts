@@ -3,6 +3,29 @@
  * repeated in each of 28k+ pages (about 43 MB of the site, which pushed the Pages build over its 900 MB budget on
  * 2026-10-07). Module scripts run after the document is parsed, and everything queried here is in the static HTML.
  */
+import { PILL_KEY, installHref, pillVisible } from "./ask-agent-core";
+
+/** D124: "Use it from your agent", after the week pill; not on home or /mcp, and gone for 90 days after ×. */
+function mountAgentPill(menu: HTMLElement, base: string): void {
+  const path = location.pathname;
+  if (path === base || path === `${base}index.html` || path.startsWith(`${base}mcp/`)) return;
+  let stored: string | null = null;
+  try { stored = localStorage.getItem(PILL_KEY); } catch { /* no storage: show it */ }
+  if (!pillVisible(stored, Date.now())) return;
+  const pill = document.createElement("span");
+  pill.className = "new-pill agent-pill";
+  pill.innerHTML = '<a></a><button type="button" class="pill-x" aria-label="Hide for 90 days">×</button>';
+  const a = pill.querySelector("a")!;
+  a.href = installHref(base);
+  a.textContent = "Use it from your agent →";
+  pill.querySelector("button")!.addEventListener("click", () => {
+    pill.remove();
+    try { localStorage.setItem(PILL_KEY, String(Date.now())); } catch { /* hidden for this view only */ }
+  });
+  const week = menu.querySelector(".new-pill");
+  if (week) week.after(pill); else menu.prepend(pill);
+}
+
 export function mountChrome(): void {
   // the header's height as --hdr-h, so a page can fill the rest of the viewport (the home galaxy, D70)
   const hdr = document.querySelector<HTMLElement>(".site-header");
@@ -33,6 +56,7 @@ export function mountChrome(): void {
     tools.className = "hdr-tools";
     tools.innerHTML = '<button class="icon-btn theme-btn" type="button" data-theme-toggle aria-label="Switch light or dark theme">◐</button><button class="icon-btn pal-btn" type="button" data-palette aria-label="Find an AL object (Ctrl+K)">⌘K</button>';
     menu.append(tools);
+    mountAgentPill(menu, document.body.dataset.base ?? "/");
     // the sheet belongs to the bar: crossing 900 px closes it
     matchMedia("(min-width: 900px)").addEventListener("change", () => menu.hidePopover?.());
   }

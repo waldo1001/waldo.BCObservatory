@@ -2,7 +2,7 @@
  * D124: the install section of /mcp as one tab per harness. The markup is one section per tab, in order, so the page
  * reads top to bottom without script; this turns it into a tablist, remembers the last tab and opens #install-<id>.
  */
-import { copyButton } from "./clipboard";
+import { copyButton } from "./clipboard.js";
 
 export const TAB_KEY = "bcobs-install-tab";
 

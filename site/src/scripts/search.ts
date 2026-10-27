@@ -14,6 +14,7 @@ import {
   byDate, hints, hrefOf, parseQuery, search, symbolLine, type Hint, type Hit, type Index, type PageRecord, type ParsedQuery, type SearchRecord,
 } from "@bc-observatory/search";
 import { learnHash } from "./learn-target-core.js";
+import { emptySearchHint } from "./ask-agent-core.js";
 import { countriesNow, kindsFor, loadPages, loadSymbols } from "./index-loader.js";
 
 /** An index row: a page record of data/index/pages-*.json. */
@@ -268,6 +269,8 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
     paintTabs(new Map(groups.map((g) => [g.def.id, g.hits.length])));
     const waiting = waitingText();
     status.textContent = `${statusLine(raw, groups)}${waiting ? ` (${waiting})` : ""}`;
+    // D124: an empty search points at the plugin, which searches fields and events by meaning too
+    if (!hits.length) { const h = emptySearchHint(base); status.insertAdjacentHTML("beforeend", ` <span class="agent-hint">${esc(h.text)} <a href="${esc(h.href)}">use the Observatory from your agent →</a></span>`); }
     hintsEl.innerHTML = hintsHtml(shownHints(q, hits, hints(index, q, hits)), base);
     const html = (tab ? "" : exactHtml(q, hits, base)) + resultsHtml(groups, base, tab, sort);
     out.innerHTML = html || (tab && groups.length ? `<p class="meta">No ${esc(GROUPS.find((g) => g.id === tab)?.label.toLowerCase() ?? "results")} for "${esc(raw)}". <button type="button" class="btn" data-all>Show all types</button></p>` : "");

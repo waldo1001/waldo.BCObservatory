@@ -57,6 +57,11 @@ img { max-width: 100%; }
 .new-pill a:hover { color: var(--accent); filter: brightness(1.1); text-decoration: underline; }
 .new-pill b { font-weight: 700; }
 .new-pill .sep { opacity: .6; }
+/* D124: the "Use it from your agent" pill (chrome.ts) and its 90-day close */
+.agent-pill { font-family: var(--font-ui); padding-right: 4px; }
+.agent-pill .pill-x { min-width: 28px; min-height: 28px; border: 0; background: none; color: inherit; font-size: 16px; cursor: pointer; border-radius: 999px; }
+.agent-pill .pill-x:hover, .agent-pill .pill-x:focus-visible { background: var(--surface-raised); }
+.ask-pop code { white-space: normal; }
 .icon-btn {
   background: transparent; color: var(--text-2); border: 1px solid var(--line); border-radius: var(--r-card);
   min-width: 40px; min-height: 40px; cursor: pointer; font: 400 14px var(--font-mono);

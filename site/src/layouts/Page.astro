@@ -87,12 +87,15 @@ const g = fm.generated ?? {};
     import { mountStageDialog } from "../scripts/source-stage";
     // D89: an object page's reading aids (section list, member filters, change chips, ...), built from its own markup
     import { mountObjectPage } from "../scripts/object-page";
+    // D124: prompts for the reader's own agent, built from the type label and the h1 (after B8's popover exists)
+    import { mountAskAgent } from "../scripts/ask-agent";
     // D98: a Learn search hit lands a hub on the article's row (#learn=<path>)
     import { mountLearnTarget } from "../scripts/learn-target";
     for (const el of document.querySelectorAll<HTMLElement>("section.loc")) mountLocator(el);
     for (const el of document.querySelectorAll<HTMLElement>("section.con")) mountConnections(el);
     mountStageDialog();
     mountObjectPage();
+    mountAskAgent();
     mountLearnTarget();
   </script>
 </Base>
