@@ -9,6 +9,7 @@
  * reveals, opens and scrolls to it, on load and on `hashchange`.
  * The pure helpers are in object-page-core.ts, tested.
  */
+import { copyButton } from "./clipboard";
 import {
   agentPrompt, clampColumns, currentSection, listItemName, MEMBER_SECTIONS, ringsByNode, MIN_ROWS, orderLabel, orderOptions, parsePill, pillTitle, revealPlan, rowMatches,
   sectionCount, sortOrder, tocWanted, transitionHref, versionChips, visibleRows, type Change, type Order, type RowFacts,
@@ -266,29 +267,6 @@ function mountNeighbourhood(): void {
     li.addEventListener("focusin", light(true));
     li.addEventListener("focusout", light(false));
   }
-}
-
-/** B8: copy with the Clipboard API, else a selected textarea and execCommand (an http page has no Clipboard API). */
-async function copy(text: string): Promise<boolean> {
-  try { await navigator.clipboard.writeText(text); return true; } catch { /* fall back */ }
-  const ta = el("textarea", { readonly: "", style: "position:fixed;opacity:0" });
-  ta.value = text;
-  document.body.append(ta);
-  ta.select();
-  let ok = false;
-  try { ok = document.execCommand("copy"); } catch { /* not supported */ }
-  ta.remove();
-  return ok;
-}
-function copyButton(label: string, text: string): HTMLButtonElement {
-  const b = el("button", { type: "button", class: "pill-btn" }, label);
-  let timer = 0;
-  b.addEventListener("click", async () => {
-    b.textContent = (await copy(text)) ? "Copied" : "Copy failed";
-    clearTimeout(timer);
-    timer = window.setTimeout(() => { b.textContent = label; }, 1500);
-  });
-  return b;
 }
 
 /** B8: an "Ask your agent" button at the end of the actions row opens a copy of the closing paragraph, ready to copy. */

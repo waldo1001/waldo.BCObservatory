@@ -8,7 +8,17 @@ export interface Skill { name: string; what: string }
 /** A server the plugin connects (plugin/.mcp.json): `command` for a local stdio server, `url` for a remote one. */
 export interface PluginServer { name: string; by: string; command?: string; url?: string; for: string }
 export interface Ask { ask: string; via: string }
-export interface InstallStep { client: string; how: string; code: string; lang: "bash" | "json" }
+export interface InstallStep { client: string; how: string; code: string; lang: "bash" | "json" | "text" }
+/** D124: one tab per harness on /mcp; `more` is folded ("Server only", "Without the plugin"). */
+export interface InstallTab {
+  id: "claude-code" | "copilot-cli" | "vscode" | "cursor" | "claude-desktop" | "other";
+  label: string;
+  node: boolean;
+  note?: string;
+  steps: InstallStep[];
+  buttons: { label: string; href: string }[];
+  more?: InstallStep[];
+}
 
 export const SERVER_CMD = "claude mcp add bc-observatory -- npx -y bc-observatory@latest";
 export const PLUGIN_CMD = "claude plugin marketplace add waldo1001/waldo.BCObservatory";
@@ -88,6 +98,39 @@ export function installSteps(repo: string): InstallStep[] {
   ];
 }
 
+/** The plugin's local server (plugin/.mcp.json), the config the one-click links carry. */
+const LOCAL_SERVER = { command: "npx", args: ["-y", "bc-observatory@latest"] };
+
+/** vscode:mcp/install?<encodeURIComponent(JSON)>, https://code.visualstudio.com/api/extension-guides/ai/mcp */
+export function vscodeInstallLink(name: string, config: Record<string, unknown>): string {
+  return `vscode:mcp/install?${encodeURIComponent(JSON.stringify({ name, ...config }))}`;
+}
+
+/** cursor://anysphere.cursor-deeplink/mcp/install?name=<name>&config=<base64(JSON)>, https://cursor.com/docs/context/mcp/install-links */
+export function cursorInstallLink(name: string, config: Record<string, unknown>): string {
+  return `cursor://anysphere.cursor-deeplink/mcp/install?name=${encodeURIComponent(name)}&config=${encodeURIComponent(btoa(JSON.stringify(config)))}`;
+}
+
+/** D124: the install section of /mcp and its twin, one tab per harness, built from installSteps. */
+export function installTabs(repo: string, opts: { vscodePlugin: boolean }): InstallTab[] {
+  const [claudePlugin, copilot, serverOnly, generic, vscodeJson, checkout] = installSteps(repo);
+  const vscodeServer = { label: "Install the server in VS Code", href: vscodeInstallLink("bc-observatory", LOCAL_SERVER) };
+  const vscodePlugin: InstallStep = { client: "VS Code: the plugin (server, four skills, bc-code-atlas, Microsoft Learn MCP)", how: "With the setting chat.plugins.enabled on, open the Command Palette, run Chat: Install Plugin From Source and enter the repository URL; pick bc-observatory.", code: repo, lang: "text" };
+  const cursorJson: InstallStep = { client: "Cursor: the three servers", how: "The button adds bc-observatory. For bc-code-atlas and Microsoft Learn too, put this in .cursor/mcp.json (the project) or ~/.cursor/mcp.json (every project).", code: JSON.stringify({ mcpServers: { "bc-observatory": LOCAL_SERVER, "bc-code-atlas": { url: ATLAS_URL }, "microsoft-learn": { url: LEARN_URL } } }, null, 2), lang: "json" };
+  return [
+    { id: "claude-code", label: "Claude Code", node: true, steps: [claudePlugin], buttons: [], more: [serverOnly] },
+    { id: "copilot-cli", label: "Copilot CLI", node: true, steps: [copilot], buttons: [] },
+    opts.vscodePlugin
+      ? { id: "vscode", label: "VS Code", node: true, steps: [vscodePlugin], buttons: [vscodeServer], more: [vscodeJson] }
+      : { id: "vscode", label: "VS Code", node: true, note: "The button adds bc-observatory to VS Code; the mcp.json below adds all three servers.", steps: [vscodeJson], buttons: [vscodeServer] },
+    { id: "cursor", label: "Cursor", node: true, steps: [cursorJson], buttons: [{ label: "Add to Cursor", href: cursorInstallLink("bc-observatory", LOCAL_SERVER) }] },
+    { id: "claude-desktop", label: "Claude Desktop and chat", node: false, note: `Claude in the browser and on your phone need no Node: you add the plugin's skills and connectors in Claude itself. Claude Desktop adds the observatory's own search, which needs ${NODE_REQUIREMENT}. Step by step for both: INSTALL.md.`, steps: [], buttons: [{ label: "Open the install guide", href: installGuide(repo) }] },
+    { id: "other", label: "Other MCP clients", node: true, steps: [generic], buttons: [], more: [checkout] },
+  ];
+}
+
+const nodeLine = () => `Needs ${NODE_REQUIREMENT}. Check: \`node --version\`. Install: ${NODE_INSTALL.map((n) => `${n.os} \`${n.how}\``).join(", ")}; then restart the app you install into.`;
+
 export interface McpVersions { server: string; plugin: string }
 
 /** The markdown twin (/mcp.md). */
@@ -104,7 +147,14 @@ export function mcpMarkdown(v: McpVersions, repo: string, site: string): string 
     "Three MCP servers and four skills. Nothing needs an account or an API key.", "",
     ...PLUGIN_SERVERS.map((p) => `- \`${p.name}\` (${p.by}; ${p.command ? `\`${p.command}\`` : p.url}): ${p.for}`), "",
     `Routing: the observatory first; bc-code-atlas for procedure bodies and per-procedure edges; Microsoft Learn MCP to read a Learn page the observatory points to and for AL code samples. Switch one plugin server off with /mcp (Claude Code stops connecting to it without removing the plugin); \`claude mcp remove\` acts on servers you added yourself, so to take only some servers install them by hand instead. A Learn MCP you already have at the same URL wins over the plugin's: keep one. Details: [plugin/README.md](${repo}/blob/main/plugin/README.md).`, "",
-    "## Install", "", `Step by step for Claude in the browser, on your phone, in Claude Desktop, Claude Code and Copilot CLI: [INSTALL.md](${installGuide(repo)}).`, "", ...installSteps(repo).flatMap((s) => [`### ${s.client}`, "", s.how, "", "```" + s.lang, s.code, "```", ""]),
+    "## Install", "", `Step by step for Claude in the browser, on your phone, in Claude Desktop, Claude Code and Copilot CLI: [INSTALL.md](${installGuide(repo)}).`, "", ...installTabs(repo, { vscodePlugin: VSCODE_PLUGIN }).flatMap((t) => [
+      `### ${t.label}`, "",
+      ...(t.node ? [nodeLine(), ""] : []),
+      ...(t.note ? [t.note, ""] : []),
+      ...t.buttons.map((b) => `- [${b.label}](${b.href})`), ...(t.buttons.length ? [""] : []),
+      ...[...t.steps, ...(t.more ?? [])].flatMap((s) => [`#### ${s.client}`, "", s.how, "", "```" + s.lang, s.code, "```", ""]),
+      `Check it works. Ask: "${CHECK_ASK}" The answer says Customer. If it does not, see "Something went wrong" in [INSTALL.md](${installGuide(repo)}).`, "",
+    ]),
     "### Without any install", "",
     `[llms.txt](${site}llms.txt) lists every section; every page has a markdown twin at its URL plus \`.md\`; GitMCP and DeepWiki (badges in the [README](${repo})) read the repository directly.`, "",
     "## How it answers", "",

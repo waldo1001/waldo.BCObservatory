@@ -320,8 +320,8 @@ claude plugin marketplace remove bc-observatory
 
    You should see: **bc-observatory** in the list.
 
-A plugin installed in Copilot CLI is not available in the VS Code Copilot Chat panel. For VS Code, see
-[the MCP page](https://waldo1001.github.io/waldo.BCObservatory/mcp/#install).
+A plugin installed in Copilot CLI is not available in the VS Code Copilot Chat panel. For VS Code, see the VS Code tab
+of [the MCP page](https://waldo1001.github.io/waldo.BCObservatory/mcp/#install-vscode): one click adds the server.
 
 ### Check that it works
 

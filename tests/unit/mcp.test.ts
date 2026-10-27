@@ -8,7 +8,7 @@ import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js"
 import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { renderSearchIndex } from "../../pipeline/render/search.js";
-import { ASKS, ATLAS_URL, CHECK_ASK, COPILOT_PLUGIN_CMD, LEARN_URL, NODE_REQUIREMENT, PLUGIN_CMD, PLUGIN_INSTALL_CMD, PLUGIN_SERVERS, SERVER_CMD, SKILLS, TOOLS, VSCODE_PLUGIN, installGuide, installSteps, mcpMarkdown, nodeMajor } from "../../site/src/lib/mcp.js";
+import { ASKS, ATLAS_URL, CHECK_ASK, COPILOT_PLUGIN_CMD, LEARN_URL, NODE_REQUIREMENT, PLUGIN_CMD, PLUGIN_INSTALL_CMD, PLUGIN_SERVERS, SERVER_CMD, SKILLS, TOOLS, VSCODE_PLUGIN, installGuide, installSteps, installTabs, mcpMarkdown, nodeMajor } from "../../site/src/lib/mcp.js";
 import { toyModel } from "../helpers/toy-model.js";
 
 const root = new URL("../../", import.meta.url);
@@ -705,4 +705,40 @@ test("D124 test 5: the README leads with the plugin", () => {
   const readme = read("README.md");
   assert.ok(readme.indexOf(PLUGIN_CMD) >= 0 && readme.indexOf(PLUGIN_CMD) < readme.indexOf(SERVER_CMD), "the plugin before the server-only command");
   for (const s of [COPILOT_PLUGIN_CMD, NODE_REQUIREMENT, CHECK_ASK]) assert.ok(readme.includes(s), s);
+});
+
+test("D124 test 6: installTabs has one tab per harness, Node where npx runs, and one-click links that carry the plugin's command", () => {
+  const mcp = JSON.parse(read("plugin/.mcp.json")).mcpServers as Record<string, { command?: string; args?: string[] }>;
+  const local = mcp["bc-observatory"];
+  const tabs = installTabs("https://github.com/o/r", { vscodePlugin: false });
+  assert.deepEqual(tabs.map((t) => t.id), ["claude-code", "copilot-cli", "vscode", "cursor", "claude-desktop", "other"]);
+  for (const t of tabs) {
+    const code = [...t.steps, ...(t.more ?? [])].map((s) => s.code).join("\n");
+    if (t.node) assert.ok(/npx|plugin install/.test(code) || t.buttons.length > 0, `${t.id} needs Node, so it runs npx`);
+  }
+  assert.equal(tabs.find((t) => t.id === "claude-desktop")?.node, false, "chat needs no Node; the Desktop guide says part B does");
+  const vscode = tabs.find((t) => t.id === "vscode")!;
+  assert.equal(vscode.buttons.length, 1);
+  assert.ok(vscode.buttons[0].href.startsWith("vscode:mcp/install?"), vscode.buttons[0].href);
+  const vcfg = JSON.parse(decodeURIComponent(vscode.buttons[0].href.slice("vscode:mcp/install?".length)));
+  assert.deepEqual(vcfg, { name: "bc-observatory", command: local.command, args: local.args });
+  const cursor = tabs.find((t) => t.id === "cursor")!;
+  assert.equal(cursor.buttons.length, 1);
+  const prefix = "cursor://anysphere.cursor-deeplink/mcp/install?name=bc-observatory&config=";
+  assert.ok(cursor.buttons[0].href.startsWith(prefix), cursor.buttons[0].href);
+  const ccfg = JSON.parse(Buffer.from(decodeURIComponent(cursor.buttons[0].href.slice(prefix.length)), "base64").toString("utf8"));
+  assert.deepEqual(ccfg, { command: local.command, args: local.args });
+  const withPlugin = installTabs("https://github.com/o/r", { vscodePlugin: true }).find((t) => t.id === "vscode")!;
+  assert.ok(withPlugin.steps[0].how.includes("Install Plugin From Source") && withPlugin.steps[0].code.includes("https://github.com/o/r"), "the VS Code plugin step leads once verified");
+  assert.equal(withPlugin.buttons.length, 1, "the one-click server link stays as the fallback");
+});
+
+test("D124 test 7: the twin has one heading per tab, every tab's code, the Node phrase and the check", () => {
+  const md = mcpMarkdown({ server: "1", plugin: "1" }, "https://github.com/o/r", "https://example.test/");
+  for (const t of installTabs("https://github.com/o/r", { vscodePlugin: VSCODE_PLUGIN })) {
+    assert.ok(md.includes(`### ${t.label}`), t.label);
+    for (const s of [...t.steps, ...(t.more ?? [])]) assert.ok(md.includes(s.code), `${t.id}: ${s.client}`);
+    for (const b of t.buttons) assert.ok(md.includes(b.href), `${t.id}: ${b.label}`);
+  }
+  assert.ok(md.includes(NODE_REQUIREMENT) && md.includes(CHECK_ASK));
 });
