@@ -109,9 +109,9 @@ const tabs = installTabs(REPO, { vscodePlugin: VSCODE_PLUGIN });
   .steps p { margin: 4px 0 8px; }
   .steps pre { margin: 0; overflow-x: auto; }
   /* D124: harness tabs; without script every .itab shows, in order */
-  .itab-list { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 16px; padding: 0; }
-  .itab-list button { min-height: 36px; padding: 0 12px; border: 1px solid var(--line); border-radius: var(--r-card); background: var(--surface); color: var(--text-2); font: 500 14px var(--font-ui); cursor: pointer; }
-  .itab-list button[aria-selected="true"] { color: var(--text); border-color: var(--accent); }
+  :global(.itab-list) { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 16px; padding: 0; }
+  :global(.itab-list button) { min-height: 36px; padding: 0 12px; border: 1px solid var(--line); border-radius: var(--r-card); background: var(--surface); color: var(--text-2); font: 500 14px var(--font-ui); cursor: pointer; }
+  :global(.itab-list button[aria-selected="true"]) { color: var(--text); border-color: var(--accent); }
   .itab { max-width: 860px; margin: 0 0 24px; }
   .itabs.tabbed .itab > h3 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
   .itab .node { max-width: 760px; }
@@ -120,5 +120,5 @@ const tabs = installTabs(REPO, { vscodePlugin: VSCODE_PLUGIN });
   .itab .more summary { cursor: pointer; color: var(--text-2); }
   .itab .check { max-width: 760px; }
   .steps pre[data-copy] { position: relative; }
-  .steps pre[data-copy] .pill-btn { position: absolute; top: 6px; right: 6px; min-height: 26px; }
+  .steps pre[data-copy] :global(.pill-btn) { position: absolute; top: 6px; right: 6px; min-height: 26px; }
 </style>
