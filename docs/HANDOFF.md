@@ -28,6 +28,10 @@ one in either mode.
   choice (spec section 4, host criteria). Start with phase 1 task 1 (the tests). Until it lands, claude.ai users who add
   the plugin get the skills only; bc-code-atlas and microsoft-learn need Add on the plugin's Connectors tab, and
   nothing says so.
+- **Install and adoption, D124** (`docs/specs/install-and-adoption.md`, M59, issue #55). Status: proposed 2026-10-27,
+  nothing implemented. Start with phase 1 task 1 (tests 1 to 5); phase 2 task 6 is a manual VS Code check on the
+  owner's Mac. Until it lands, a harness without Node fails with no message that names Node, the docs disagree on
+  the Node version (20 vs 22; engines says 22.23.4+), and the site never invites a reader to use the plugin.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
