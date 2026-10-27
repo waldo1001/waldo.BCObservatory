@@ -7,7 +7,7 @@ import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import List from "../../layouts/List.astro";
 import { REPO } from "../../lib/about";
-import { ASKS, ATLAS_URL, LEARN_URL, PLUGIN_SERVERS, SKILLS, TOOLS, installGuide, installSteps } from "../../lib/mcp";
+import { ASKS, ATLAS_URL, LEARN_URL, NODE_REQUIREMENT, PLUGIN_SERVERS, SKILLS, TOOLS, installGuide, installSteps } from "../../lib/mcp";
 const base = import.meta.env.BASE_URL;
 const root = resolve(process.cwd(), "..");
 const server = JSON.parse(readFileSync(resolve(root, "packages/mcp/package.json"), "utf8")).version as string;
@@ -68,7 +68,7 @@ const steps = installSteps(REPO);
   <h2 id="privacy">Privacy</h2>
   <p><b>Privacy and usage counts.</b> The <code>bc-observatory</code> server counts its own use so its author knows how many people use it and which tools. Each tool call sends one event to Azure Application Insights (West Europe): the tool name, whether it answered, found nothing or failed, how long it took, the server version, the name and version your MCP client reports (for example <code>claude-code 2.1.4</code>), a random session id that exists only while the server runs, and a random install id the server keeps in <code>~/.cache/bc-observatory/install-id</code> (or under <code>$XDG_CACHE_HOME</code>) so repeat use counts as one user. It never sends your questions, paths, object ids or any other argument, and nothing about your machine: no hostname, user name, operating system or file path. Your IP address reaches Microsoft's ingestion endpoint, as with any HTTPS request; Application Insights derives the country, region and city from it and does not store the address. Events are kept 90 days, then deleted.</p>
   <p>Controller: Eric Wauters (waldo), contact through <a href={`${REPO}/issues`} rel="noopener">GitHub issues</a>. Purpose: knowing how many people use which tools, and from where, to decide what to build next. Legal basis: legitimate interest (GDPR Art. 6(1)(f)). Processor: Microsoft (Azure, EU). Events carry no name or address; the install id is the only link between them. To see or erase your events, send the content of your <code>install-id</code> file in an issue; to start over, delete the file. You can object at any time by turning it off: <code>BC_OBSERVATORY_TELEMETRY=0</code> or <code>DO_NOT_TRACK=1</code> in the server's environment; then no install id is created or sent. It is also off in CI and when the server reads a local checkout (<code>BC_OBSERVATORY_LOCAL</code>).</p>
-  <p class="meta">Needs Node 20 or newer. Source: <a href={`${REPO}/tree/main/packages/mcp`}>packages/mcp</a> and <a href={`${REPO}/tree/main/plugin`}>plugin</a>, MIT. The endpoints the plugin connects: <code>{ATLAS_URL}</code> (atlas), <code>{LEARN_URL}</code> (Microsoft Learn).</p>
+  <p class="meta">Needs {NODE_REQUIREMENT}. Source: <a href={`${REPO}/tree/main/packages/mcp`}>packages/mcp</a> and <a href={`${REPO}/tree/main/plugin`}>plugin</a>, MIT. The endpoints the plugin connects: <code>{ATLAS_URL}</code> (atlas), <code>{LEARN_URL}</code> (Microsoft Learn).</p>
 </List>
 <style>
   .asks { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; max-width: 760px; }

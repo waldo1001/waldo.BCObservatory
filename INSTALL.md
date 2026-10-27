@@ -122,13 +122,15 @@ You can do B without A.
 
 - **The app:** Claude Desktop on a Mac or on Windows, signed in. If it is not the newest version, update it first:
   open the **Claude** menu and choose **Check for Updates…**.
-- **Node.js:** part B needs it. To check whether you have it:
-  - Mac: open **Terminal**.
-  - Windows: open **Command Prompt**.
-  - Type `node --version` and press Enter.
-  - If you see a version of 20 or higher (for example `v22.11.0`), you have it.
-  - If you see an error, install the **LTS** version from [nodejs.org](https://nodejs.org/). Then close and reopen
-    Terminal or Command Prompt, and check again.
+- **Node.js 22 or newer (the current LTS is fine):** part B needs it: the observatory's own search runs on it. To check:
+  - Open a terminal (Mac: **Terminal**; Windows: **Command Prompt**), type `node --version` and press Enter.
+  - A version of 22 or higher (for example `v22.23.4`): you have it.
+  - "command not found", "not recognized", or a lower version: install it.
+    - Windows: `winget install OpenJS.NodeJS.LTS`
+    - Mac: `brew install node`, or the installer from [nodejs.org](https://nodejs.org/)
+    - Linux: the LTS from [nodejs.org](https://nodejs.org/en/download) (distribution packages are often older)
+  - Then quit and restart the app you install into (Claude Desktop, your terminal, VS Code), and check again. An app
+    started before the install does not see Node.
 - **Plan:** for part A, the same as for [the browser](#claude-in-the-browser-or-on-your-phone).
 - **Time:** about five minutes.
 
@@ -206,7 +208,7 @@ What is table 18 in Business Central? Use BC Observatory.
 | What you see | What to do |
 |---|---|
 | **bc-observatory** is not in the **Connectors** list | Quit Claude Desktop completely (step 5) and start it again. If it is still missing, the file has a typo: open it again (steps 1 and 2) and compare it character by character with step 3. A missing comma or quote is the usual cause. |
-| **bc-observatory** is listed but shows an error | Check Node.js: `node --version` must show 20 or higher (see "Before you start"). Install it if needed, then quit and restart Claude Desktop. |
+| **bc-observatory** is listed but shows an error | Check Node.js: `node --version` must show 22 or higher (see "Before you start"). Install it if needed, then quit and restart Claude Desktop. |
 | It still fails on Windows | Replace the two lines `"command": "npx",` and `"args": ["-y", "bc-observatory@latest"]` with `"command": "cmd",` and `"args": ["/c", "npx", "-y", "bc-observatory@latest"]`. Save, then quit and restart Claude Desktop. |
 | "Could not download" in the first answer | The observatory needs to reach `waldo1001.github.io`, `registry.npmjs.org` and `huggingface.co`. On a company network, ask IT to allow all three. |
 | Claude answers but does not use BC Observatory | In the chat, select **+**, then **Connectors**, and check that **bc-observatory** is on. Ask again. |
@@ -227,7 +229,15 @@ Updates come by themselves: every time Claude Desktop starts, it fetches the new
 ### Before you start
 
 - **Claude Code:** `claude --version` prints a version.
-- **Node.js 20 or newer:** `node --version`. If not, install the LTS version from [nodejs.org](https://nodejs.org/).
+- **Node.js 22 or newer (the current LTS is fine):** the plugin's BC Observatory server runs on it. To check:
+  - Open a terminal (Mac: **Terminal**; Windows: **Command Prompt**), type `node --version` and press Enter.
+  - A version of 22 or higher (for example `v22.23.4`): you have it.
+  - "command not found", "not recognized", or a lower version: install it.
+    - Windows: `winget install OpenJS.NodeJS.LTS`
+    - Mac: `brew install node`, or the installer from [nodejs.org](https://nodejs.org/)
+    - Linux: the LTS from [nodejs.org](https://nodejs.org/en/download) (distribution packages are often older)
+  - Then quit and restart the app you install into (Claude Desktop, your terminal, VS Code), and check again. An app
+    started before the install does not see Node.
 - **Already did the [browser guide](#claude-in-the-browser-or-on-your-phone) with the same account?** Then skip steps
   1 and 2: Claude Code picks the plugin up at its next start.
 
@@ -271,7 +281,7 @@ claude -p "What is table 18 in Business Central? Use BC Observatory."
 | What you see | What to do |
 |---|---|
 | Step 2 says the plugin is not found | Step 1 did not run, or was mistyped. `claude plugin marketplace list` shows **bc-observatory** when step 1 worked. |
-| `bc-observatory` failed in `/mcp` | Check `node --version`: 20 or newer. On a company network, `npx` must reach `registry.npmjs.org`. |
+| `bc-observatory` failed in `/mcp` | Node.js is missing or too old: Node.js 22 or newer (the current LTS is fine), see "Before you start", then restart Claude Code. An error from a `bc-first.mjs` hook before a web search means the same thing. On a company network, `npx` must reach `registry.npmjs.org`. |
 | You see an old version | Run `claude plugin marketplace update bc-observatory`, then restart Claude Code. |
 
 ### Remove it
@@ -287,7 +297,16 @@ claude plugin marketplace remove bc-observatory
 
 ### Before you start
 
-You need Node.js 22 or newer: `node --version`.
+- **Copilot CLI:** `copilot --version` prints a version.
+- **Node.js 22 or newer (the current LTS is fine):** the plugin's BC Observatory server runs on it. Copilot CLI itself does not need Node, so you may not have it yet. To check:
+  - Open a terminal (Mac: **Terminal**; Windows: **Command Prompt**), type `node --version` and press Enter.
+  - A version of 22 or higher (for example `v22.23.4`): you have it.
+  - "command not found", "not recognized", or a lower version: install it.
+    - Windows: `winget install OpenJS.NodeJS.LTS`
+    - Mac: `brew install node`, or the installer from [nodejs.org](https://nodejs.org/)
+    - Linux: the LTS from [nodejs.org](https://nodejs.org/en/download) (distribution packages are often older)
+  - Then quit and restart the app you install into (Claude Desktop, your terminal, VS Code), and check again. An app
+    started before the install does not see Node.
 
 ### Steps
 
@@ -310,6 +329,14 @@ Ask: `What is table 18 in Business Central? Use BC Observatory.`
 
 **Good:** the answer says **Customer**.
 
+### Something went wrong
+
+| What you see | What to do |
+|---|---|
+| `copilot plugin list` shows **bc-observatory**, but the agent has no `bc_` tools, or the server shows as failed | Node.js is missing or too old: see "Before you start", then restart Copilot CLI. bc-code-atlas and Microsoft Learn still work without it. |
+| The install says the plugin is not found | Check the spelling: `waldo1001/waldo.BCObservatory:plugin`, with `:plugin` at the end. |
+| On a company network the server never starts | `npx` must reach `registry.npmjs.org`; ask for it, or set `npm config set registry <your mirror>`. |
+
 ### Remove it
 
 ```bash
@@ -323,5 +350,5 @@ More detail: what each connector does, and what it sends where, is in [plugin/RE
 Something in this guide did not match what you saw? [Open an issue](https://github.com/waldo1001/waldo.BCObservatory/issues/new?title=Install%20guide)
 with the step number and what you saw instead.
 
-*Checked against Anthropic's and the Model Context Protocol's documentation on 2026-10-22. Not yet walked through
-click by click on a fresh account.*
+*Checked against Anthropic's and the Model Context Protocol's documentation on 2026-10-22; Node lines checked
+2026-10-27 (D124). Not yet walked through click by click on a fresh account.*

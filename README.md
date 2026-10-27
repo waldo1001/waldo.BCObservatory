@@ -14,20 +14,36 @@ roadmap features, videos, community posts). Machine-generated pages are badged u
 
 ## Use it from an agent
 
+**Install the plugin, not just the server.** The plugin connects three MCP servers (the Observatory, bc-code-atlas for
+AL source, Microsoft Learn) and four skills that tell your agent when to use them, plus a reminder to ask the
+Observatory before it searches the web. Only the Observatory server needs Node.js 22 or newer (the current LTS is fine):
+check with `node --version`; install with `winget install OpenJS.NodeJS.LTS` (Windows) or `brew install node` (Mac),
+then restart the app you install into.
+
+| You use | Install | Needs Node | You get |
+|---|---|---|---|
+| Claude Code | `claude plugin marketplace add waldo1001/waldo.BCObservatory` then `claude plugin install bc-observatory@bc-observatory` | yes | the plugin: 3 servers, 4 skills, the web-search reminder |
+| GitHub Copilot CLI | `copilot plugin install waldo1001/waldo.BCObservatory:plugin` | yes | the plugin: 3 servers, 4 skills |
+| VS Code (Copilot Chat) | one click on [the MCP page](https://waldo1001.github.io/waldo.BCObservatory/mcp/#install-vscode), or the `mcp.json` there | yes | the 3 servers |
+| Cursor, Windsurf, other MCP clients | [the MCP page](https://waldo1001.github.io/waldo.BCObservatory/mcp/#install-cursor) (one click for Cursor) | yes | the 3 servers |
+| Claude Desktop, claude.ai, phone | step by step for non-developers: [`INSTALL.md`](INSTALL.md) | Desktop only | skills and connectors |
+| Nothing to install | [`llms.txt`](https://waldo1001.github.io/waldo.BCObservatory/llms.txt), GitMCP and DeepWiki (badges above) | no | read-only |
+
+Then ask: *What is table 18 in Business Central? Use BC Observatory.* It should answer **Customer**. When it does not,
+INSTALL.md has a "Something went wrong" table per app.
+
 ```bash
-claude mcp add bc-observatory -- npx -y bc-observatory@latest      # MCP server (packages/mcp)
 claude plugin marketplace add waldo1001/waldo.BCObservatory          # Claude Code plugin, step 1: the marketplace
 claude plugin install bc-observatory@bc-observatory                  # step 2: the plugin (MCP + bcobs-lookup, bcobs-whats-new, bcobs-localization, bcobs-grounding)
 copilot plugin install waldo1001/waldo.BCObservatory:plugin       # the same plugin in GitHub Copilot CLI
 ```
-
-Claude in the browser, on your phone or in Claude Desktop, step by step for non-developers: [`INSTALL.md`](INSTALL.md).
 
 What the plugin installs (three MCP servers, four skills, what leaves your machine): [`plugin/README.md`](plugin/README.md).
 
 Source bodies and the call graph: [bc-code-atlas](https://github.com/StefanMaron/bc-code-atlas) by Stefan Maron (MIT),
 connected by the plugin. Learn pages and AL code samples: Microsoft's [Learn MCP](https://learn.microsoft.com/training/support/mcp), also connected by the plugin.
 
+Server only, no skills: `claude mcp add bc-observatory -- npx -y bc-observatory@latest` (packages/mcp).
 To run the server from a checkout instead:
 `claude mcp add bc-observatory -- env BC_OBSERVATORY_LOCAL=$PWD node --import tsx packages/mcp/src/server.ts`.
 Without any install: [`llms.txt`](https://waldo1001.github.io/waldo.BCObservatory/llms.txt), GitMCP and DeepWiki (badges above).

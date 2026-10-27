@@ -8,7 +8,7 @@ import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js"
 import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { renderSearchIndex } from "../../pipeline/render/search.js";
-import { ASKS, ATLAS_URL, COPILOT_PLUGIN_CMD, LEARN_URL, PLUGIN_CMD, PLUGIN_INSTALL_CMD, PLUGIN_SERVERS, SERVER_CMD, SKILLS, TOOLS, installGuide, installSteps, mcpMarkdown } from "../../site/src/lib/mcp.js";
+import { ASKS, ATLAS_URL, CHECK_ASK, COPILOT_PLUGIN_CMD, LEARN_URL, NODE_REQUIREMENT, PLUGIN_CMD, PLUGIN_INSTALL_CMD, PLUGIN_SERVERS, SERVER_CMD, SKILLS, TOOLS, VSCODE_PLUGIN, installGuide, installSteps, mcpMarkdown, nodeMajor } from "../../site/src/lib/mcp.js";
 import { toyModel } from "../helpers/toy-model.js";
 
 const root = new URL("../../", import.meta.url);
@@ -641,7 +641,9 @@ test("INSTALL.md gives the commands, the marketplace, the connectors and the Des
     const heading = [...guide.matchAll(/^#{2,3} (.+)$/gm)].map((m) => m[1].toLowerCase().replace(/[^a-z0-9 -]/g, "").replace(/ /g, "-"));
     assert.ok(heading.includes(anchor), `INSTALL.md has a heading for #${anchor}`);
   }
-  for (const part of ["Before you start", "Check that it works", "Remove it"]) assert.equal(guide.split(`### ${part}`).length - 1, 4, `four guides have "${part}"`);
+  // D124: a fifth guide (VS Code) once the owner's check passed; every guide has its own "Something went wrong"
+  const guides = VSCODE_PLUGIN ? 5 : 4;
+  for (const part of ["Before you start", "Check that it works", "Something went wrong", "Remove it"]) assert.equal(guide.split(`### ${part}`).length - 1, guides, `${guides} guides have "${part}"`);
   assert.ok(read("README.md").includes("INSTALL.md") && read("plugin/README.md").includes("INSTALL.md"), "both READMEs link INSTALL.md");
   assert.ok(mcpMarkdown({ server: "1", plugin: "1" }, "https://github.com/o/r", "https://example.test/").includes(installGuide("https://github.com/o/r")), "the MCP twin links INSTALL.md");
   for (const p of ["plugin/.claude-plugin/plugin.json", ".claude-plugin/marketplace.json"]) assert.match(read(p), /Connectors tab.*INSTALL\.md/, `${p} tells claude.ai users about the Connectors tab`);
@@ -657,4 +659,50 @@ test("D110 test 11: a server reading a local checkout prints no telemetry notice
     await client.callTool({ name: "bc_search", arguments: { query: "customer" } });
     assert.doesNotMatch(err, /counts tool calls/);
   } finally { await client.close(); }
+});
+
+// ------------------------------------------------------------------------------------- D124: Node first, plugin first
+
+const engines = () => (JSON.parse(read("packages/mcp/package.json")) as { engines: { node: string } }).engines.node;
+
+test("D124 test 1: nodeMajor is the lowest major of an engines range", () => {
+  assert.equal(nodeMajor("^22.23.4 || ^24.22.1 || >=26.12.1"), 22);
+  assert.equal(nodeMajor(">=20"), 20);
+  assert.equal(nodeMajor("^24.1.0 || ^22.5.0"), 22);
+});
+
+test("D124 test 2: NODE_REQUIREMENT names the engines floor's major", () => {
+  assert.ok(NODE_REQUIREMENT.includes(`Node.js ${nodeMajor(engines())} or newer`), NODE_REQUIREMENT);
+});
+
+test("D124 test 3: no install text names another Node version, and every one uses the same phrase", () => {
+  const major = nodeMajor(engines());
+  for (const f of ["INSTALL.md", "README.md", "plugin/README.md", "site/src/lib/mcp.ts", "site/src/pages/mcp/index.astro"]) {
+    const text = read(f);
+    for (const m of text.matchAll(/Node(?:\.js)? (\d+) or (?:newer|higher)/g)) assert.equal(Number(m[1]), major, `${f}: "${m[0]}"`);
+    assert.ok(!/\b20 or (newer|higher)\b/.test(text), `${f} still says 20 or newer`);
+    if (!f.endsWith(".astro")) assert.ok(text.includes(NODE_REQUIREMENT), `${f} uses NODE_REQUIREMENT verbatim`);
+  }
+});
+
+test("D124 test 4: every guide that needs Node says how to install it and to restart; Copilot CLI has a troubleshooting table", () => {
+  const guide = read("INSTALL.md");
+  const sections = guide.split(/^## /m).slice(1);
+  let withNode = 0;
+  for (const sec of sections) {
+    const before = sec.split("### Before you start")[1]?.split(/^### /m)[0] ?? "";
+    if (!/Node/.test(before)) continue;
+    withNode++;
+    const name = sec.split("\n")[0];
+    for (const needle of ["winget install OpenJS.NodeJS.LTS", "brew install node", "restart"]) assert.ok(before.includes(needle), `${name}: "${needle}"`);
+  }
+  assert.ok(withNode >= 3, `Desktop, Claude Code and Copilot CLI name Node (${withNode})`);
+  const copilot = sections.find((s) => s.startsWith("GitHub Copilot CLI"));
+  assert.ok(copilot?.includes("### Something went wrong"), "Copilot CLI has Something went wrong");
+});
+
+test("D124 test 5: the README leads with the plugin", () => {
+  const readme = read("README.md");
+  assert.ok(readme.indexOf(PLUGIN_CMD) >= 0 && readme.indexOf(PLUGIN_CMD) < readme.indexOf(SERVER_CMD), "the plugin before the server-only command");
+  for (const s of [COPILOT_PLUGIN_CMD, NODE_REQUIREMENT, CHECK_ASK]) assert.ok(readme.includes(s), s);
 });

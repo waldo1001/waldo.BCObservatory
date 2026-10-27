@@ -17,6 +17,20 @@ export const PLUGIN_INSTALL_CMD = "claude plugin install bc-observatory@bc-obser
 /** The step-by-step guide per Claude app, for readers who are not developers (INSTALL.md at the repository root). */
 export const installGuide = (repo: string) => `${repo}/blob/main/INSTALL.md`;
 export const COPILOT_PLUGIN_CMD = "copilot plugin install waldo1001/waldo.BCObservatory:plugin";
+/** D124: the lowest Node major in an engines range ("^22.23.4 || ^24.22.1 || >=26.12.1" -> 22). */
+export function nodeMajor(engines: string): number {
+  return Math.min(...[...engines.matchAll(/(\d+)\.?\d*\.?\d*/g)].map((m) => Number(m[1])));
+}
+/** D124: the one phrase every install text uses; tests/unit/mcp.test.ts ties the 22 to packages/mcp engines. */
+export const NODE_REQUIREMENT = "Node.js 22 or newer (the current LTS is fine)";
+export const NODE_INSTALL = [
+  { os: "Windows", how: "winget install OpenJS.NodeJS.LTS" },
+  { os: "Mac", how: "brew install node" },
+  { os: "Linux", how: "the LTS from https://nodejs.org/en/download" },
+] as const;
+export const CHECK_ASK = "What is table 18 in Business Central? Use BC Observatory.";
+/** D124 phase 2: true once the owner's VS Code agent-plugin check passed (spec install-and-adoption, task 6). */
+export const VSCODE_PLUGIN = false;
 export const ATLAS_URL = "https://bc-code-atlas.stefanmaron.dev/mcp";
 export const LEARN_URL = "https://learn.microsoft.com/api/mcp";
 
@@ -81,7 +95,7 @@ export function mcpMarkdown(v: McpVersions, repo: string, site: string): string 
   const L = [
     "# MCP: Business Central for your agent", "",
     "The knowledge base this site is built from, as an MCP server your agent can query, and a Claude Code plugin around it. Every answer carries the page, its trust tier (official is Microsoft, community is everyone else) and its evidence. No API key, no account: the server downloads the site's search index once a day and reads pages as markdown.", "",
-    `Server: \`bc-observatory\` ${v.server} on npm (Node 20 or newer). Plugin: \`bc-observatory\` ${v.plugin} from the repository's marketplace.`, "",
+    `Server: \`bc-observatory\` ${v.server} on npm (${NODE_REQUIREMENT}). Plugin: \`bc-observatory\` ${v.plugin} from the repository's marketplace.`, "",
     "## What to ask", "", ...ASKS.map((a) => `- "${a.ask}" (${a.via})`), "",
     "## The tools", "", ...TOOLS.map((t) => `- **${t.name}**: ${t.what} Example: \`${t.example}\`.`), "",
     "## The plugin (Claude Code, GitHub Copilot CLI)", "", ...SKILLS.map((s) => `- **${s.name}**: ${s.what}`), "",

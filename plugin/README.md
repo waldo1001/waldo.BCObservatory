@@ -10,6 +10,12 @@ copilot plugin install waldo1001/waldo.BCObservatory:plugin  # GitHub Copilot CL
 
 Copilot CLI reads the same manifest; verified with Copilot CLI 1.0.102.
 
+**Before you install: Node.js 22 or newer (the current LTS is fine).** The `bc-observatory` server runs through `npx`;
+bc-code-atlas and microsoft-learn are remote and need nothing. Check with `node --version`; install with
+`winget install OpenJS.NodeJS.LTS` (Windows) or `brew install node` (Mac), then restart the app you install into.
+Without Node the plugin installs, but the `bc_` tools never appear. Install the plugin, not just the server: the skills
+tell your agent when to use the servers.
+
 Claude in the browser, on your phone or in Claude Desktop: follow [`INSTALL.md`](../INSTALL.md), step by step. In the
 browser and on the phone you get the skills, bc-code-atlas and microsoft-learn (each connector needs **Add** on the
 plugin's **Connectors** tab); the `bc-observatory` server runs locally, so there it needs Claude Desktop or Claude Code.
