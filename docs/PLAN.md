@@ -469,6 +469,7 @@ blogs; all videos newest-first.
 | **M55 The BC Docs Librarian blog source** | one `sources.yaml` entry for Natalie Karolak's blog, derived mode, feed and REST (`docs/specs/nataliekarolak-blog-source.md`, D118, shipped 2026-10-25) | small | low: one more blog in ingest and derive |
 | **M56 yzhums.com switched on** | `yzhums-com` enabled, hold-back wording removed (`docs/specs/yzhums-enable.md`, D119, shipped 2026-10-25) | small | first ingest of 389 posts, ~$45-80 |
 | **M57 jeremyvyska.com blog source** | `jeremyvyska-com` in `sources.yaml`, derived mode, feed plus WordPress API (`docs/specs/jeremyvyska-com-blog-source.md`, D122, shipped 2026-10-26) | small | first ingest of 13 posts |
+| **M58 Observatory before web search** | plugin PreToolUse reminder on WebSearch/WebFetch, deferred-tools line in the instructions, bcobs-lookup "use first", four-case eval (`docs/specs/bc-question-routing.md`, D123, proposed) | small | eval: 24 agent runs, owner's subscription |
 | **v0.2+** | evidence chips + review-badge UI, 30-vNext, older versions as diffs back to 23/15, Jarvis budget handshake (shared intent file), static embeddings (model2vec potion-8M), MAYBE blogs | ongoing | per-version gating |
 
 ## 6. Verification
