@@ -1340,3 +1340,13 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   MVP per his About page) is registered as `jeremyvyska-com`, derived mode, no consent block, `full_text: false`,
   fetched from its RSS feed and the WordPress API (13 posts inside the window; the feed alone stops at 2025-08-20).
   Rejected: full text without opt-in; feed only. Spec `docs/specs/jeremyvyska-com-blog-source.md`, issue #53.
+- **D123 The plugin reminds the agent of the Observatory before a web search (2026-10-27, M58).** D108 made the tools
+  findable; agents still did not look, in long real sessions. The plugin ships a `PreToolUse` hook on WebSearch and
+  WebFetch (`plugin/hooks/bc-first.mjs`) that adds a one-paragraph reminder (call bc_search, load deferred tools with
+  ToolSearch) when the query is about Business Central; it never blocks, and `BC_OBSERVATORY_HOOK=0` turns it off. The
+  instructions say a deferred tool is available (item 3); `bcobs-lookup` says "use first, before web search". Verified
+  live: the model receives the `PreToolUse` context. A four-case `claude plugin eval` scored 35/36 before and 36/36
+  after, and a crowded A/B never web-searched in either arm: the failure did not reproduce in fresh sessions, so this is
+  measured as no regression, not as a gain. Rejected: denying the search until a bc_ call (state, false blocks),
+  `UserPromptSubmit` (noise), longer instructions alone. MCP 0.12.1, plugin 0.9.0. Spec
+  `docs/specs/bc-question-routing.md`, issue #54.

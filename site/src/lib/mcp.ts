@@ -37,7 +37,7 @@ export const TOOLS: Tool[] = [
 
 /** The plugin's skills (plugin/skills/<name>/SKILL.md), one line each, from their descriptions. */
 export const SKILLS: Skill[] = [
-  { name: "bcobs-lookup", what: "Business Central facts with evidence: AL objects, Learn documentation, roadmap features, videos and posts. For 'what is table 18', 'where is this documented'." },
+  { name: "bcobs-lookup", what: "Use first, before web search: Business Central facts with evidence: AL objects, Learn documentation, roadmap features, videos and posts. For 'what is table 18', 'where is this documented'." },
   { name: "bcobs-whats-new", what: "Recent videos, posts and roadmap features with status, and what changed in the code between versions. For 'what's new', 'what changed in BC30'." },
   { name: "bcobs-localization", what: "Which objects a country layer adds, which W1 objects it changes, added fields and events, and where Learn documents the local functionality." },
   { name: "bcobs-grounding", what: "The servers together: the observatory for ids, fields, events, versions, callers and evidence, bc-code-atlas for the procedure body and what one procedure calls, Microsoft Learn MCP for the Learn page and AL code samples." },

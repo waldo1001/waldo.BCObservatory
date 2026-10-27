@@ -41,7 +41,7 @@ import { DEFAULT_BUDGET, anchorView, budgetOf, pageView, type ViewArgs } from ".
 import { brief } from "./brief.js";
 import { createTelemetry, type Client, type ToolCall } from "./telemetry.js";
 
-const VERSION = "0.12.0";
+const VERSION = "0.12.1";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 /** D110: the Application Insights connection string, set by esbuild define in publish-mcp; tsx runs have none. */
@@ -666,16 +666,17 @@ export function answer<A>(tool: string, fn: (a: A) => Promise<string> | string, 
 /** section, offset and limit of bc_cat, bc_get_object and bc_localization (D93). */
 const VIEW = { section: z.string().optional(), offset: z.number().int().min(0).max(100000).optional(), limit: z.number().int().min(1).max(5000).optional() };
 
-/** D108: directive, short, and the coverage from the same constants the answers use. */
+/** D108: directive, short (D123: deferred is available), and the coverage from the same constants the answers use. */
 export const INSTRUCTIONS = [
   "BC Observatory: Microsoft Dynamics 365 Business Central (BC) knowledge with trust tiers and evidence.",
   "1. Use these tools FIRST for any Business Central question: features, release waves, what is new, roadmap, AL objects (tables, pages, codeunits, reports, enums), fields, events, procedures, localizations, version diffs, Learn articles, blog and video coverage.",
   "2. Start with bc_search. \"What is new\" or \"what changed in BC NN\": bc_whats_new. One AL object: bc_get_object; its changes between versions: bc_diff_object. Read a hit with bc_cat.",
-  "3. Fall back to Microsoft Learn or web search only when this server has no answer, and tell the user the Observatory had none.",
-  `4. Coverage: AL objects of W1, Microsoft's first-party apps and the country layers for BC ${SNAPSHOT_MAJORS.join(", ")} (${VNEXT} is vNext); version diffs BC ${DIFF_RANGE[0]} to ${DIFF_RANGE[1]}; Microsoft 365 roadmap features; Learn hubs and an index of Learn articles; merged pull requests of BCApps, AL-Go and BCQuality; AL Language extension releases; community posts and videos. Not included: the Learn release plan documents, and procedure bodies (bc-code-atlas has those). Updated nightly; every answer ends with its data date.`,
-  "5. Say which trust tier a claim comes from (official = Microsoft, community = everyone else). Never invent AL object ids or version numbers: look them up.",
-  `6. An answer that says "${NO_MATCH.split(".")[0]}" found nothing: say so, then fall back. An error saying "unreachable" means the Observatory is down: tell the user (bc_status checks it), never skip it silently.`,
-  "7. A Learn hit (type learn) carries a url: read it with the Learn MCP's microsoft_docs_fetch, else open it on learn.microsoft.com.",
+  "3. These tools may be deferred (only their names listed). A deferred tool is available: load it with ToolSearch (\"bc-observatory\" or \"bc_search\") and call it, before WebSearch or WebFetch.",
+  "4. Fall back to Microsoft Learn or web search only when this server has no answer, and tell the user the Observatory had none.",
+  `5. Coverage: AL objects of W1, Microsoft's first-party apps and the country layers for BC ${SNAPSHOT_MAJORS.join(", ")} (${VNEXT} is vNext); version diffs BC ${DIFF_RANGE[0]} to ${DIFF_RANGE[1]}; Microsoft 365 roadmap features; Learn hubs and an index of Learn articles; merged pull requests of BCApps, AL-Go and BCQuality; AL Language extension releases; community posts and videos. Not included: the Learn release plan documents, and procedure bodies (bc-code-atlas has those). Updated nightly; every answer ends with its data date.`,
+  "6. Say which trust tier a claim comes from (official = Microsoft, community = everyone else). Never invent AL object ids or version numbers: look them up.",
+  `7. An answer that says "${NO_MATCH.split(".")[0]}" found nothing: say so, then fall back. An error saying "unreachable" means the Observatory is down: tell the user (bc_status checks it), never skip it silently.`,
+  "8. A Learn hit (type learn) carries a url: read it with the Learn MCP's microsoft_docs_fetch, else open it on learn.microsoft.com.",
 ].join("\n");
 
 export function createServer(): McpServer {

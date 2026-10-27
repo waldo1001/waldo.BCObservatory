@@ -1,12 +1,12 @@
 ---
 issue: 54
-status: draft
+status: implemented
 ---
 
 # Agents ask the Observatory before they search the web
 
-Status: proposed, 2026-10-27. Decision: D123 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M58
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-27 (section 12 records what was built and where it differs). Decision: D123 (appended
+2026-10-27). Milestone: M58. Owner: waldo.
 Scope: a `PreToolUse` hook in the plugin that reminds the agent of `bc_search` when it is about to web-search a Business
 Central question, one more line in the MCP server's instructions about deferred tools, sharper skill descriptions, a
 small `claude plugin eval` suite that measures the change, a README note against registering the server twice, and the
@@ -284,18 +284,80 @@ Changed: `packages/mcp/src/server.ts`, `packages/mcp/package.json`, `plugin/skil
 
 ## 11. Definition of Done
 
-- [ ] Tests 1 to 10 exist and pass; `npm test` green.
-- [ ] Verification step 2 output as stated.
-- [ ] Verification step 3: the reminder reached the model, with the event used (`PreToolUse` or `PostToolUse`) recorded.
-- [ ] Eval run before and after, both score tables in section 12; `control-not-bc` calls no `bc_*` tool after.
-- [ ] Plugin 0.9.0 and MCP 0.12.1 in every place listed in task 8; MCP published with `publish-mcp.yml`.
-- [ ] D123 appended to docs/DECISIONS.md; PLAN M58 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+- [x] Tests 1 to 10 exist and pass; `npm test` green.
+- [x] Verification step 2 output as stated.
+- [x] Verification step 3: the reminder reached the model, with the event used (`PreToolUse` or `PostToolUse`) recorded.
+- [x] Eval run before and after, both score tables in section 12; `control-not-bc` calls no `bc_*` tool after.
+- [ ] Plugin 0.9.0 and MCP 0.12.1 in every place listed in task 8 (done); MCP published with `publish-mcp.yml` (operator
+  step, section 12).
+- [x] D123 appended to docs/DECISIONS.md; PLAN M58 marked shipped; HANDOFF entry moved from "Open specs" to "Where
   things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
   implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
   status lines into docs/built/bc-question-routing.md; the PR's review moves them in (sdd-build section 4, sdd-review
   section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-27)
+
+Built by hand in this session on `build/bc-question-routing`, from `22178fef8c`, one commit (phase 1 wrote no code).
+
+**What was built.** `plugin/hooks/hooks.json` and `plugin/hooks/bc-first.mjs` as in section 4; instructions item 3 on
+deferred tools, 4 to 8 renumbered (`packages/mcp/src/server.ts`); the `bcobs-lookup` description and body line;
+`plugin/README.md` "A reminder before web search" and the double-registration warning; `site/src/lib/mcp.ts` skill line
+for `bcobs-lookup` starts "Use first, before web search"; `plugin/evals/` with the four cases; `.gitignore`
+`plugin/evals/results/`; plugin 0.9.0, MCP 0.12.1.
+
+**Verified.**
+- Red: `tests/unit/plugin-hook.test.ts` failed with `ERR_MODULE_NOT_FOUND` for `plugin/hooks/bc-first.mjs`; the three
+  D123 tests in `tests/unit/mcp.test.ts` failed (28 pass, 3 fail).
+- Green: `npm run typecheck` clean; `npm test` 768 tests, 767 pass, 0 fail.
+- Step 2: the echo prints the JSON line; with `BC_OBSERVATORY_HOOK=0` nothing, exit 0.
+- Step 3 (live, `claude -p --plugin-dir plugin`, Claude Code 2.1.310): the model quoted the reminder back and named its
+  source ("This came from a PreToolUse hook on WebSearch, not from the search result itself"). `PreToolUse`
+  `additionalContext` reaches the model; no switch to `PostToolUse`.
+- Eval (`claude plugin eval`, 4 cases x 3 runs, `--ablation none --mocks off`), grader passes:
+
+| Case | Before (0.8.0, npx 0.12.0) | After (this branch, local MCP build) |
+|---|---|---|
+| clear-company-events: observatory called / first / names the event | 3/3, 2/3, 3/3 | 3/3, 3/3, 3/3 |
+| table-diff: called / first | 3/3, 3/3 | 3/3, 3/3 |
+| whats-new: called / first | 3/3, 3/3 | 3/3, 3/3 |
+| control-not-bc: no bc_* call | 3/3 | 3/3 |
+| Total, cost | 35/36, $2.92 | 36/36, $2.47 |
+
+- A crowded A/B outside the eval (every MCP server on the owner's Mac, `claude -p`, the events question, 3 runs per
+  arm): before, 3 of 3 started with `bc_search`; after, 1 of 3 started with `bc_search` and 2 of 3 with bc-code-atlas's
+  `bcatlas_search`, then `bc_brief`. No run in either arm web-searched; every after run and 2 of 3 before runs named
+  `OnClearCompanyConfig`.
+
+**What the numbers say.** The failure the spec starts from did not reproduce: fresh sessions, in the eval's sandbox and
+in the owner's crowded setup, already go to the Observatory first. The change is measured as no regression, not as an
+improvement; the hook is the safety net for long, real conversations where it was seen. Read D110 telemetry a week
+after the release (section 8).
+
+**Deviations.**
+- Phase 1 wrote the eval cases in `plugin/evals/` of the build worktree and ran them on a scratch copy of the 0.8.0
+  plugin, not a scratch-only copy: the same files ship in phase 2.
+- The eval ran with `--ablation none` (spec section 7 had the default with-without): the without arm has no `bc_*` tools
+  and is not the before (section 9 says so); this halves the cost.
+- The first eval pass graded with `regex: trace` on the bare tool name, which also matches the tool list in the trace's
+  `init` event. The after arm, whose local server connects before `init`, scored `control-not-bc` 0/3 for a run that
+  called only ToolSearch and WebSearch (trace checked). Graders now match `"name":"mcp__plugin_bc-observatory_bc-observatory__bc_`
+  (a `tool_use`), and both arms were rerun; the table holds the rerun. Eval spend in all, pilots and the first pass
+  included: about $12.
+- The after arm ran the MCP from the local build (`node packages/mcp/dist/server.js`), since 0.12.1 is not published.
+- `plugin/hooks/bc-first.d.mts` added (not in section 10) so the tests typecheck against the `.mjs`.
+- `isBcQuestion` also takes `businesscentral` written as one word (`business ?central`), and plural forms of the AL words.
+- `package-lock.json`'s `packages/mcp` entry bumped to 0.12.1, as the D111 release did (`a5cfa5a7b7`).
+- Not checked: GitHub Copilot CLI with the new `hooks/` folder (section 9); `copilot` is not installed on this Mac.
+
+**Operator steps still open.**
+1. After the push: `gh workflow run publish-mcp.yml --ref main` (D40) to publish MCP 0.12.1.
+2. On a machine with Copilot CLI: `copilot plugin install waldo1001/waldo.BCObservatory:plugin`; if it errors on
+   `hooks/hooks.json`, move the file behind `plugin.json`'s `hooks` key (section 9).
+3. Users get plugin 0.9.0 with `claude plugin marketplace update bc-observatory` and
+   `claude plugin update bc-observatory@bc-observatory`, then a restart.
+
+## 13. Proposed edits to other files (applied 2026-10-27, see section 12)
 
 `docs/DECISIONS.md`: D123 as in section 3, with the eval numbers filled in.
 

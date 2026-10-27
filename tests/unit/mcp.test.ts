@@ -37,6 +37,24 @@ test("D104: the plugin's skills are bcobs-*, each named as its folder, and none 
   }
 });
 
+test("D123: the instructions say a deferred tool is available, numbered without a gap", async () => {
+  const { INSTRUCTIONS } = await import("../../packages/mcp/src/server.js");
+  assert.ok(INSTRUCTIONS.includes("deferred") && INSTRUCTIONS.includes("ToolSearch"));
+  const items = [...INSTRUCTIONS.matchAll(/^(\d+)\. /gm)].map((m) => Number(m[1]));
+  assert.deepEqual(items, [1, 2, 3, 4, 5, 6, 7, 8]);
+});
+
+test("D123: bcobs-lookup says use it first, before web search, and how to load deferred tools", () => {
+  const description = read("plugin/skills/bcobs-lookup/SKILL.md").match(/^description: (.+)$/m)?.[1] ?? "";
+  assert.ok(description.startsWith("Use FIRST for any Microsoft Dynamics 365 Business Central"), description);
+  assert.ok(description.includes("before web search") && description.includes("ToolSearch"), description);
+});
+
+test("D123: plugin/README.md documents the hook, its switch, and the double registration", () => {
+  const readme = read("plugin/README.md");
+  for (const s of ["hooks/hooks.json", "BC_OBSERVATORY_HOOK", "registers the server twice"]) assert.ok(readme.includes(s), s);
+});
+
 test("D96: the plugin connects Microsoft's Learn MCP at LEARN_URL, and bcobs-lookup routes a Learn hit to microsoft_docs_fetch", () => {
   const mcp = JSON.parse(read("plugin/.mcp.json"));
   assert.equal(mcp.mcpServers["microsoft-learn"].url, LEARN_URL);

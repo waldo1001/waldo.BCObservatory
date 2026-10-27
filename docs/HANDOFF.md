@@ -14,10 +14,6 @@ the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`
 whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
-- **Observatory before web search, D123** (`docs/specs/bc-question-routing.md`, M58, issue #54). Status: proposed
-  2026-10-27, nothing implemented. Start with phase 1 task 1: run the four-case eval on plugin 0.8.0 before changing
-  anything, then the tests. Until it lands, agents with many MCP servers keep reaching for web search on Business
-  Central questions and leave the deferred bc_* tools unloaded.
 - **Layered answers, D106** (`docs/specs/layered-answers.md`, M44, issue #26). Status: built 2026-10-23 on stacked
   branches `build/layered-answers` and `-p1` to `-p6`, one PR per phase (#27 docs, #28 cross-links, #29 key facts, #30
   cautions, then hotfix lists, brief and search, never-less); merge in order. Not done until the first nightly ran:
@@ -39,6 +35,13 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-27 (plugin 0.9.0 and MCP 0.12.1; MCP needs its publish):**
+- **The plugin reminds the agent of the Observatory before a web search (D123, M58, issue #54).** A `PreToolUse` hook
+  on WebSearch and WebFetch adds a reminder to call bc_search on a Business Central query; the instructions say a
+  deferred tool is available; `bcobs-lookup` says "use first". Eval 35/36 before, 36/36 after: no regression, the
+  original failure did not reproduce in fresh sessions. Operator steps: `gh workflow run publish-mcp.yml --ref main`
+  (D40) for MCP 0.12.1; check Copilot CLI still installs the plugin with the `hooks/` folder (spec section 12).
 
 **Shipped 2026-10-26 (sources only; readers see it after the ingest run):**
 - **jeremyvyska.com is a blog source (D122, M57, issue #53).** 13 posts inside the window, feed plus WordPress API.

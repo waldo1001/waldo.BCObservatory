@@ -1,11 +1,11 @@
 ---
 name: bcobs-lookup
-description: Look up Microsoft Dynamics 365 Business Central facts with evidence - AL objects (tables, pages, codeunits, events, fields), Learn documentation, roadmap features, videos and community posts - through the bc-observatory MCP server, and read a Learn page or an AL code sample through Microsoft's Learn MCP. Use when a question involves Business Central objects, ids, events, procedures, setup, features or "where is this documented", "how do I set up", or a Learn page to read.
+description: Use FIRST for any Microsoft Dynamics 365 Business Central (BC) question, before web search: AL objects (tables, pages, codeunits, events, fields, procedures), ids, Learn documentation, setup, roadmap features, videos and community posts, with evidence, through the bc-observatory MCP server (load its tools with ToolSearch when they are deferred); reads a Learn page or an AL code sample through Microsoft's Learn MCP. Use when a question involves Business Central objects, ids, events, procedures, setup, features, "where is this documented" or "how do I set up".
 ---
 
 # Business Central lookup
 
-Use the `bc-observatory` MCP tools; never answer object ids, field numbers or versions from memory.
+Use the `bc-observatory` MCP tools; never answer object ids, field numbers or versions from memory. If the `bc_*` tools are deferred, load them with ToolSearch first.
 
 For a web client link (`…?company=…&page=22&filter=…`): `bc_search("Web client URL", type: "learn", mode: "keyword")` finds Microsoft's article; read its url with `microsoft_docs_fetch`. Confirm each page id with `bc_search("page 22", kind: "page")`, not `bc_get_object`.
 

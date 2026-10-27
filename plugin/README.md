@@ -1,6 +1,6 @@
 # BC Observatory plugin for Claude Code and GitHub Copilot CLI
 
-Plugin `bc-observatory` 0.8.0, with the `bc-observatory` MCP server 0.12.0. Install:
+Plugin `bc-observatory` 0.9.0, with the `bc-observatory` MCP server 0.12.1. Install:
 
 ```bash
 claude plugin marketplace add waldo1001/waldo.BCObservatory     # Claude Code, step 1: the marketplace
@@ -46,6 +46,20 @@ yourself needs changing.
 2. `bc-code-atlas` for what the observatory deliberately lacks: a procedure body and one procedure's calls and callers.
 3. `microsoft-learn` to read a Learn page the observatory points to (a how-to, setup, a concept) and for AL code samples; its search only when the observatory finds nothing.
 
+## A reminder before web search
+
+Claude Code only. With many MCP servers connected, the agent sees the observatory's tools by name only and often reaches
+for web search instead. The plugin's `hooks/hooks.json` runs `hooks/bc-first.mjs` before every `WebSearch` and
+`WebFetch`; when the query is about Business Central, it adds this to the agent's context:
+
+> This looks like a Business Central question. The bc-observatory MCP server is connected and answers these with
+> evidence: call bc_search first (bc_whats_new for what is new, bc_get_object for one AL object). If its tools are
+> deferred, load them with ToolSearch "bc-observatory": deferred means available, not missing. Use the web only for
+> what the Observatory has no answer to, and say so.
+
+It never blocks the search, writes nothing and calls no network. A fetch of a Learn page or an observatory page gets no
+reminder. Turn it off with `BC_OBSERVATORY_HOOK=0` in Claude Code's environment (the `env` block of `settings.json`).
+
 ## Privacy
 
 The `bc-observatory` server counts its tool calls (tool name, outcome, duration, client name and version, server
@@ -71,6 +85,9 @@ The other two servers are run by their owners and follow their own terms.
   ```
 
   Without the plugin you do not get the four skills; the observatory server's own instructions still tell the agent how to use it.
+
+  Not next to the plugin: that registers the server twice, and the agent sees every tool twice. Claude Desktop's own
+  `claude_desktop_config.json` also shows up in its Code tab, so keep one of the two there as well.
 - **You already have a Learn MCP.** Keep one connection. Claude Code connects a server defined in more than one place once, and
   matches a plugin's server against yours by endpoint: yours (local, project or user scope) wins over the plugin's when
   both point at `https://learn.microsoft.com/api/mcp`, whatever name you gave it. A Learn MCP under another URL is a
