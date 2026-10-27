@@ -11,7 +11,7 @@ review:
   at: "2026-10-24T00:53:43.546Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-27T00:27:43.565Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,7 +90,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-cds-company-concept
     title: Data ownership models for synchronization
-    date: "2021-04-01"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null

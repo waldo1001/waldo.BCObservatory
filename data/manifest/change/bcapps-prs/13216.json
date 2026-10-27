@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13216",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix VAT adjustment register",
+  "url": "https://github.com/microsoft/BCApps/pull/13216",
+  "published_at": "2026-10-26T13:25:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-27T00:21:39.999Z"
+    }
+  },
+  "input_hash": "672c95bb3bf830849d5281b4fd2651f7ba404685:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13216,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "672c95bb3bf830849d5281b4fd2651f7ba404685",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix vat adjustment register"
+  }
+}

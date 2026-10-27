@@ -1,0 +1,44 @@
+{
+  "id": "change/bcapps-prs/12539",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add Expense Agent consumption V2 and trial support",
+  "url": "https://github.com/microsoft/BCApps/pull/12539",
+  "published_at": "2026-10-26T22:29:26Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-27T00:21:39.999Z"
+    },
+    "fetched": {
+      "at": "2026-10-27T00:22:10.699Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 9,
+      "objects": 7,
+      "unjoined": 2
+    }
+  },
+  "input_hash": "6c85fdb57aa3ebd7566ab0269f81afb7123d1143:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12539,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6c85fdb57aa3ebd7566ab0269f81afb7123d1143",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "add expense agent consumption v2 and trial support"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "556088a5bfde9106b2e76b5519e72fba0fb5c65626570fcef73f234490097f4b"
+}

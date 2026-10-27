@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12518",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]Page cannot open because of FlowField 'Last Run By User'- #12304",
+  "url": "https://github.com/microsoft/BCApps/pull/12518",
+  "published_at": "2026-10-26T09:42:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-27T00:21:39.999Z"
+    }
+  },
+  "input_hash": "85870b0a895e84c09a83ba18413fd09c6566b293:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12518,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "85870b0a895e84c09a83ba18413fd09c6566b293",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "page cannot open because of flowfield last run by user 12304"
+  }
+}

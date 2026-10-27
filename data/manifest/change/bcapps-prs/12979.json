@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12979",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] Consistent Error Posting GST Distribution Reversal",
+  "url": "https://github.com/microsoft/BCApps/pull/12979",
+  "published_at": "2026-10-26T21:22:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-27T00:21:39.999Z"
+    }
+  },
+  "input_hash": "8281bccc700bac22cdd3a3bdf8587466d8c01d62:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12979,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8281bccc700bac22cdd3a3bdf8587466d8c01d62",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "consistent error posting gst distribution reversal"
+  }
+}

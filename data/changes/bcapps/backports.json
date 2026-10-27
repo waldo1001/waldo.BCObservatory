@@ -818,6 +818,15 @@
       "title_key": "fr delocalize delayed vat and sepa payment slip integration"
     }
   ],
+  "13140": [
+    {
+      "number": 13204,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-26T09:00:20Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13204",
+      "title_key": "fix duplicate xml audit file fr test codeunit id"
+    }
+  ],
   "unmatched": [
     {
       "number": 10674,
@@ -1868,6 +1877,34 @@
       "merged_at": "2026-10-22T14:55:27Z",
       "url": "https://github.com/microsoft/BCApps/pull/13053",
       "title_key": "move french sales specifics to the new sales fr first party app"
+    },
+    {
+      "number": 12553,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-26T13:19:48Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12553",
+      "title_key": "bug 652322 add approvals management integration to compensation payment order and cash document processing"
+    },
+    {
+      "number": 13239,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-26T14:22:16Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13239",
+      "title_key": "discount is not taken into account on renewal offer using sales quote for subscription billing report layout"
+    },
+    {
+      "number": 13226,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-26T14:56:39Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13226",
+      "title_key": "fix idealpostcodes provider selection and address retrieval"
+    },
+    {
+      "number": 13084,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-26T19:50:22Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13084",
+      "title_key": "consistent error posting gst distribution reversal"
     }
   ]
 }

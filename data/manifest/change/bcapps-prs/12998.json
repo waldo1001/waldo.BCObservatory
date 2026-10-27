@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12998",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Discount is not taken into account on Renewal Offer using Sales Quote for Subscription Billing report layout.",
+  "url": "https://github.com/microsoft/BCApps/pull/12998",
+  "published_at": "2026-10-26T10:05:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-27T00:21:39.999Z"
+    }
+  },
+  "input_hash": "d03c39293af2e4fd4ecbb0f90770d3969faf52ab:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12998,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d03c39293af2e4fd4ecbb0f90770d3969faf52ab",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "discount is not taken into account on renewal offer using sales quote for subscription billing report layout"
+  }
+}

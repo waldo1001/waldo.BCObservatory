@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13224",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-\"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify\" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.",
+  "url": "https://github.com/microsoft/BCApps/pull/13224",
+  "published_at": "2026-10-26T14:19:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-27T00:21:39.999Z"
+    }
+  },
+  "input_hash": "9dd05770b6b8604a92d3f913375b2128676053a3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13224,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "9dd05770b6b8604a92d3f913375b2128676053a3",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "your license does not grant you the following permissions on tabledata 17 g l entry modify if you update registers from g l registers page for old entries with g l register no 0"
+  }
+}
