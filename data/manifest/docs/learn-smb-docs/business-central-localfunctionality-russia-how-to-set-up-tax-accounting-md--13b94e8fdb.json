@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-tax-accounting",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.614Z",
-      "blob": "4b0e171d3b5a62d8d253b61cec03839f2ffe9f95",
+      "at": "2026-10-28T09:12:30.982Z",
+      "blob": "b037101e2b1160eda4ea932137f4e47f321413c1",
       "words": 251,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:23.896Z",
+      "at": "2026-10-28T09:12:39.673Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003704
+      "cost_usd": 0.003327
     },
     "summarized": {
-      "at": "2026-10-06T19:14:28.658Z",
+      "at": "2026-10-28T09:12:39.681Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:28.659Z",
+      "at": "2026-10-28T09:12:39.682Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:28.660Z",
+      "at": "2026-10-28T09:12:39.690Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-set-up-tax-accounting.md",
     "description": "Learn how to set up and activate tax accounting in Business Central for Russia.",
-    "ms_date": "2025-07-16",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "activate tax accounting",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 251,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3a64afcf0573be07efdb914a65a811c804343173010a44dfe8a2f7eaeaf07d8c"
+  "output_hash": "1c4ec4320a057bd91b364987c2bff783d57a6dbba13102d04040b1b6ca684aa2"
 }

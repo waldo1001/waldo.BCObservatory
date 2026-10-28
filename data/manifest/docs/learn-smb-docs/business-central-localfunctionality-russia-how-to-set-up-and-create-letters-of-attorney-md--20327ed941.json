@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.592Z",
-      "blob": "c13a8060106684a5918ab9f0112e09386e1a2bb0",
-      "words": 512,
+      "at": "2026-10-28T09:12:25.099Z",
+      "blob": "254564b55f6d0e8a35ccf070c01abbc6f4449c20",
+      "words": 558,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:23.891Z",
+      "at": "2026-10-28T09:12:31.589Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.003704
+      "objects": 5,
+      "cost_usd": 0.004374
     },
     "summarized": {
-      "at": "2026-10-06T19:14:23.899Z",
+      "at": "2026-10-28T09:12:31.590Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:23.900Z",
+      "at": "2026-10-28T09:12:31.592Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:23.901Z",
+      "at": "2026-10-28T09:12:31.594Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney.md",
     "description": "Russian localization allows you to create, print, and manage letters of attorney in Business Central.",
-    "ms_date": "2025-07-16",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "letter of attorney",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 512,
+    "ai_usage": "ai-assisted",
+    "words": 558,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5eeed1ff576ee348ad97edcefbacfb777bafcda4ede617b7294f19e33d8bcac9"
+  "output_hash": "32e0844efef43871acc5aaec5d05bdaf2875d7114c51e543eafa0ff87955e484"
 }

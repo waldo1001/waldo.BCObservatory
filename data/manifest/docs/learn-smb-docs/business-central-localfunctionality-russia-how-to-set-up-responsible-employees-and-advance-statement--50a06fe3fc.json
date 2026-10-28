@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-responsible-employees-and-advance-statements",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.610Z",
-      "blob": "93d7720c3d345ddf4b7d818779a1c9696591e38e",
-      "words": 1787,
+      "at": "2026-10-28T09:12:30.716Z",
+      "blob": "292a81281b5e0d61efe7161b8d57b0f6777b8531",
+      "words": 1834,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:23.895Z",
+      "at": "2026-10-28T09:12:39.643Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 6,
-      "cost_usd": 0.003704
+      "objects": 7,
+      "cost_usd": 0.010782
     },
     "summarized": {
-      "at": "2026-10-06T19:14:28.654Z",
+      "at": "2026-10-28T09:12:39.645Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:28.656Z",
+      "at": "2026-10-28T09:12:39.646Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:28.657Z",
+      "at": "2026-10-28T09:12:39.649Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-set-up-responsible-employees-and-advance-statements.md",
     "description": "Russian localization lets you assign users as responsible employees and manage advance statements that track payments and supporting documents by employee.",
-    "ms_date": "2025-07-16",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "advance statements",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 1787,
+    "ai_usage": "ai-assisted",
+    "words": 1834,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a3e9b6273621c822754a78fb3be903d8168ff3a5797e9a28052a4945a4012494"
+  "output_hash": "96bf5aaf70e0ded7a15dee94a5474375b0b58bded4dfbf15badcf0284cdc8400"
 }

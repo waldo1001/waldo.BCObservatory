@@ -2,18 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney",
   "title": "Set up and creating letters of attorney in Russia",
-  "blob": "c13a8060106684a5918ab9f0112e09386e1a2bb0",
-  "summary": "Letters of attorney in Russia enable creation and printing of attorney documents with automatic numbering for open and released documents. Set up number series and create letters linked to employees, vendors, and source purchase documents.",
+  "blob": "254564b55f6d0e8a35ccf070c01abbc6f4449c20",
+  "summary": "Letters of attorney in Russia enable creation and printing of authorization documents for employees. Set up numbering series for open and released letters, then create letters by specifying employee details, source documents, vendor information, and validity dates.",
   "systems": [
     "localization",
     "purchasing"
   ],
   "topics": [
-    "russia",
     "letters of attorney",
-    "document numbering",
-    "purchasing documents",
-    "employee authorization"
+    "russia",
+    "numbering setup",
+    "employee authorization",
+    "purchase documents"
   ],
   "objects": [
     {
@@ -22,16 +22,29 @@
     },
     {
       "type": "page",
+      "name": "Fixed Asset Setup"
+    },
+    {
+      "type": "page",
       "name": "Letters of Attorney"
+    },
+    {
+      "type": "page",
+      "name": "Employee Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
     }
   ],
   "features": [
     "Letter of Attorney numbering",
-    "Released document tracking",
-    "Employee authorization",
-    "Source document linking",
-    "Validity date tracking",
-    "Document status management"
+    "Released Letter of Attorney numbering",
+    "M-2A template configuration",
+    "Employee information population",
+    "Source document copying",
+    "Letter of Attorney printing",
+    "Letter of Attorney journal"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003704,
-      "pages_in_call": 8
+      "cost_usd": 0.004374,
+      "pages_in_call": 1
     }
   ]
 }

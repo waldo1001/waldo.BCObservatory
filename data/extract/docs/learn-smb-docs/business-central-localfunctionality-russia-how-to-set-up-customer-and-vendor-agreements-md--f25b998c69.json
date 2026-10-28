@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements",
   "title": "Setting up customer and vendor agreements in Russia",
-  "blob": "f748e5fb1bc9a108867a8617bb4dacdfa8e0e24c",
-  "summary": "Customer and vendor agreements in Russia provide agreement management with automatic dimension synchronization for use in reports and analyses. Set up agreement dimensions, number series, and create customer or vendor agreement cards with validity dates and blocking.",
+  "blob": "34de1b939b9cb35977820b6dc24590a4b7e54d6f",
+  "summary": "Customer and vendor agreements in Russia track contractual terms with customers and vendors, with automatic synchronization to dimensions and support for agreement-based ledger entry reporting.",
   "systems": [
     "localization",
     "sales",
@@ -14,33 +14,16 @@
     "customer agreements",
     "vendor agreements",
     "dimensions",
-    "agreement setup"
+    "setup"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Sales & Receivables Setup"
-    },
-    {
-      "type": "page",
-      "name": "Purchases & Payables Setup"
-    },
-    {
-      "type": "page",
-      "name": "Customers"
-    },
-    {
-      "type": "page",
-      "name": "Customer Agreements"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Agreement dimension mapping",
-    "Agreement synchronization",
-    "Blocked agreements",
-    "Agreement codes",
-    "Ledger entry tracking",
-    "Validity periods"
+    "Agreement list and card",
+    "Synchronization between agreements and dimensions",
+    "Agreement numbering series",
+    "Ledger entries by agreement",
+    "Dimension values for agreements",
+    "Agreement blocking options"
   ],
   "versions": [],
   "parts": 1,
@@ -49,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003704,
-      "pages_in_call": 8
+      "cost_usd": 0.003487,
+      "pages_in_call": 1
     }
   ]
 }

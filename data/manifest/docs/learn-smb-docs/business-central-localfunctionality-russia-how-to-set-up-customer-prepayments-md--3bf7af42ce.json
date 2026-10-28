@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-prepayments",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.601Z",
-      "blob": "15bb0a1ac630889728483be3d9cd29cdcc918cc3",
-      "words": 413,
+      "at": "2026-10-28T09:12:25.128Z",
+      "blob": "a4eb19dd908b6a7f69479ef42dbfd14b88e2d72d",
+      "words": 403,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:23.893Z",
+      "at": "2026-10-28T09:12:31.127Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003704
+      "cost_usd": 0.004045
     },
     "summarized": {
-      "at": "2026-10-06T19:14:28.647Z",
+      "at": "2026-10-28T09:12:31.129Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:28.648Z",
+      "at": "2026-10-28T09:12:31.133Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:28.649Z",
+      "at": "2026-10-28T09:12:31.140Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-set-up-customer-prepayments.md",
     "description": "This article describes how to set up and manage customer prepayments in Business Central for Russia.",
-    "ms_date": "2025-07-16",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "customer prepayments",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 413,
+    "ai_usage": "ai-assisted",
+    "words": 403,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6b98d9cbbb7045e611f8a5191a4ffc6a65c2fc1c9913a79f785219442895a015"
+  "output_hash": "cfc623ca90be90a92a6b570c697d66ea0e19270ba6297d81d6315a2837bc2c52"
 }

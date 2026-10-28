@@ -2,18 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-a-quantity-book.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-a-quantity-book",
   "title": "Setting up quantity books in Russia",
-  "blob": "fab628a6f26f0f0c750d5760a1f60ef64252a41e",
-  "summary": "Quantity books track fixed asset quantities at acquisition cost using a special analytical depreciation book that records repayment amounts when assets are released.",
+  "blob": "bba119a93e8aede751615811f41c56a7ead3ed4a",
+  "summary": "Setting up quantity books in Russia involves creating a depreciation book to track fixed asset quantities for repayment at original acquisition value.",
   "systems": [
-    "fixed-assets"
+    "fixed-assets",
+    "localization"
   ],
   "topics": [
-    "depreciation",
-    "book",
-    "quantity",
+    "quantity book",
+    "depreciation book",
     "fixed assets",
-    "russia",
-    "localization"
+    "russia localization",
+    "analytical posting"
   ],
   "objects": [
     {
@@ -26,10 +26,10 @@
     }
   ],
   "features": [
-    "Quantity Book",
-    "Depreciation Book",
-    "Posting Book Type",
-    "Quantitative Depr. Book"
+    "depreciation book setup",
+    "analytical posting book type",
+    "quantitative depreciation book",
+    "fixed asset tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002569,
-      "pages_in_call": 8
+      "cost_usd": 0.003078,
+      "pages_in_call": 1
     }
   ]
 }

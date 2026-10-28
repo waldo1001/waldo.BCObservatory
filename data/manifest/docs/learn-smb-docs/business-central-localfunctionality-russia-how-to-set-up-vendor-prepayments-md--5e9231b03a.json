@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-vendor-prepayments",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.627Z",
-      "blob": "d839e683f5ad06830c11fe1a1cdca9f28d314899",
-      "words": 353,
+      "at": "2026-10-28T09:12:31.665Z",
+      "blob": "6143d542a44cc5a83f8f9dc94636f91a75ec27af",
+      "words": 331,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:28.633Z",
+      "at": "2026-10-28T09:12:39.632Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.00284
+      "cost_usd": 0.003921
     },
     "summarized": {
-      "at": "2026-10-06T19:14:28.641Z",
+      "at": "2026-10-28T09:12:39.633Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:28.642Z",
+      "at": "2026-10-28T09:12:39.634Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:28.643Z",
+      "at": "2026-10-28T09:12:39.635Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-set-up-vendor-prepayments.md",
     "description": "Russian localization adds features for managing vendor prepayments.",
-    "ms_date": "2025-07-17",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "prepayments",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 353,
+    "ai_usage": "ai-assisted",
+    "words": 331,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3776c20f70f3972509545554d756e0536f7f73bf846ddb866144a3f463d14322"
+  "output_hash": "2a73b8104c598658ec1d0ef03f5615ad172507f89b7e83dfe8ab61aa7d8e693d"
 }

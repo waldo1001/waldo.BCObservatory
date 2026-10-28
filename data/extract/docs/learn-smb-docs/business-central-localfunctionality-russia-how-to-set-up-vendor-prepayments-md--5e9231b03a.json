@@ -2,18 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-vendor-prepayments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-vendor-prepayments",
   "title": "Setting up vendor prepayments in Russia",
-  "blob": "d839e683f5ad06830c11fe1a1cdca9f28d314899",
-  "summary": "Setting up vendor prepayments in Russia allows you to track advance payments on purchase orders before final invoices are issued. Configure prepayment accounts, number series, and dimension values in Purchases & Payables Setup and Vendor Posting Groups.",
+  "blob": "6143d542a44cc5a83f8f9dc94636f91a75ec27af",
+  "summary": "Setting up vendor prepayments in Russia allows you to configure advance payments on purchase orders before final invoices are issued. Configure prepayment numbering, accounts, and dimension codes in Purchases & Payables Setup and Vendor Posting Groups.",
   "systems": [
     "purchasing",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
-    "prepayments",
-    "vendor setup",
-    "purchase orders",
+    "vendor prepayments",
     "advance payments",
-    "russia"
+    "purchase orders",
+    "russia",
+    "prepayment setup",
+    "posting groups"
   ],
   "objects": [
     {
@@ -27,11 +29,11 @@
   ],
   "features": [
     "Use Prepayment Account",
-    "Posted Prepmt. Inv. Nos.",
-    "PD Doc. Nos. Type",
-    "Symbol for PD Doc.",
-    "Prepayment Account",
-    "Dimension configuration for prepayment gains and losses"
+    "Posted Prepayment Invoice Numbering",
+    "Prepayment Credit Memo Numbering",
+    "Prepayment Document Number Series",
+    "Dimension codes for prepayment gains and losses",
+    "Payment in kind prepayment tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00284,
-      "pages_in_call": 8
+      "cost_usd": 0.003921,
+      "pages_in_call": 1
     }
   ]
 }

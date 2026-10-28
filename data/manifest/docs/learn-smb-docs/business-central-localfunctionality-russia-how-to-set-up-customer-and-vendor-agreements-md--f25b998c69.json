@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.597Z",
-      "blob": "f748e5fb1bc9a108867a8617bb4dacdfa8e0e24c",
-      "words": 524,
+      "at": "2026-10-28T09:12:25.087Z",
+      "blob": "34de1b939b9cb35977820b6dc24590a4b7e54d6f",
+      "words": 482,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:23.892Z",
+      "at": "2026-10-28T09:12:30.660Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.003704
+      "objects": 0,
+      "cost_usd": 0.003487
     },
     "summarized": {
-      "at": "2026-10-06T19:14:28.644Z",
+      "at": "2026-10-28T09:12:30.661Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:28.645Z",
+      "at": "2026-10-28T09:12:30.663Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:28.646Z",
+      "at": "2026-10-28T09:12:30.664Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements.md",
     "description": "Russian localization provides features for managing customer and vendor agreements.",
-    "ms_date": "2025-07-16",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "vendor agreement",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 524,
+    "ai_usage": "ai-assisted",
+    "words": 482,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "91e5853935fc1f8ece4a05e5b3ec4e1b22d0ed28c38d058dc36ec0b7a398b3cf"
+  "output_hash": "a09cf3fb2edb9b1c6461954d226aec528d0c75fec0e41cefd9df183b1e2b683e"
 }

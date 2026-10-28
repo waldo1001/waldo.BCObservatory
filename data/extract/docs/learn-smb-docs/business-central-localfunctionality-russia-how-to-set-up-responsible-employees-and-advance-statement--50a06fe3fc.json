@@ -2,36 +2,40 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-responsible-employees-and-advance-statements.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-responsible-employees-and-advance-statements",
   "title": "Setting up responsible employees and advance statements in Russia",
-  "blob": "93d7720c3d345ddf4b7d818779a1c9696591e38e",
-  "summary": "Responsible employees and advance statements in Russia manage payments to and from employees and print expense documentation. Create responsible employee cards and advance statements with line items for expenses, purchases, and fixed assets.",
+  "blob": "292a81281b5e0d61efe7161b8d57b0f6777b8531",
+  "summary": "Setting up responsible employees in Russia involves creating responsible employee cards and advance statements to track payments and expenses for employees. The advance statement report prints and views employee expense documentation with options for different expense line types.",
   "systems": [
-    "localization",
     "hr",
-    "finance"
+    "purchasing",
+    "localization"
   ],
   "topics": [
-    "russia",
     "responsible employees",
     "advance statements",
-    "employee expenses",
-    "employee reimbursement"
+    "russia",
+    "expense tracking",
+    "employee setup"
   ],
   "objects": [
-    {
-      "type": "page",
-      "name": "Resp. Employees"
-    },
-    {
-      "type": "page",
-      "name": "Employees"
-    },
     {
       "type": "page",
       "name": "Resp. Employee Card"
     },
     {
       "type": "page",
+      "name": "Responsible Employees"
+    },
+    {
+      "type": "page",
+      "name": "Advance Statement"
+    },
+    {
+      "type": "page",
       "name": "Advance Statements"
+    },
+    {
+      "type": "page",
+      "name": "Posted Advance Statement"
     },
     {
       "type": "page",
@@ -43,12 +47,12 @@
     }
   ],
   "features": [
-    "Responsible employee cards",
-    "Advance statements",
-    "Employee expense tracking",
-    "Employee contact information",
-    "Posting groups configuration",
-    "Document release and printing"
+    "responsible employee card creation",
+    "advance statement document",
+    "expense line types",
+    "employee posting groups",
+    "advance statement printing",
+    "posted advance statement"
   ],
   "versions": [],
   "parts": 1,
@@ -57,8 +61,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003704,
-      "pages_in_call": 8
+      "cost_usd": 0.010782,
+      "pages_in_call": 1
     }
   ]
 }

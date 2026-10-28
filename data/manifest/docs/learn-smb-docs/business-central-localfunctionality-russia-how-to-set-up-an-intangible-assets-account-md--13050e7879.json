@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-an-intangible-assets-account",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.587Z",
-      "blob": "eae5a1c87695208bca5ca374a03f13e03ca0c9a1",
+      "at": "2026-10-28T09:12:25.049Z",
+      "blob": "8fb6298fdfc06360ed6f714a1588d732551a3b23",
       "words": 142,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:12.606Z",
+      "at": "2026-10-28T09:12:29.970Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002569
+      "objects": 1,
+      "cost_usd": 0.002981
     },
     "summarized": {
-      "at": "2026-10-06T19:14:19.656Z",
+      "at": "2026-10-28T09:12:29.972Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:19.656Z",
+      "at": "2026-10-28T09:12:29.973Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:19.657Z",
+      "at": "2026-10-28T09:12:29.975Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-set-up-an-intangible-assets-account.md",
     "description": "Learn how to post intangible assets to a dedicated account using local enhancements.",
-    "ms_date": "2025-07-16",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "intangible assets account",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 142,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "757047c6094e911ba02704b7b218e2fb4b684927c99d5688659d683f5e94ae52"
+  "output_hash": "72d9905c020fe142c7cce582c1f1d48b9b6ede729409cef2da619d59b805f861"
 }
