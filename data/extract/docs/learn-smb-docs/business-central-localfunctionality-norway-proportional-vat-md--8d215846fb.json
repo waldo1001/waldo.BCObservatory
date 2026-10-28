@@ -1,17 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/proportional-vat.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/proportional-vat",
-  "title": "Proportional VAT [NO]",
-  "blob": "f1308bb4b5c718fe5478c9912daa17bbce61b72f",
-  "summary": "Proportional VAT in Norway allows deduction of only a percentage of VAT on purchases when the asset is used for both deductible and non-deductible purposes using the Calc. Prop. Deduction VAT setting.",
+  "title": "Proportional VAT in Norway [NO]",
+  "blob": "e25e290c4c3dc2e91eb890fa0ff8bdd4a38317dc",
+  "summary": "Proportional VAT in Norway allows businesses to deduct only a percentage of VAT on shared expenses based on tax authority agreements, with the deductible percentage set in the VAT Posting Setup page.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "vat",
-    "proportional deduction",
     "norway",
+    "proportional deduction",
     "tax",
     "purchase invoices"
   ],
@@ -24,7 +24,8 @@
   "features": [
     "Calc. Prop. Deduction VAT",
     "Proportional Deduction VAT %",
-    "partial VAT deduction"
+    "VAT deductibility calculation",
+    "Purchase invoice posting"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002792,
-      "pages_in_call": 8
+      "cost_usd": 0.003516,
+      "pages_in_call": 1
     }
   ]
 }

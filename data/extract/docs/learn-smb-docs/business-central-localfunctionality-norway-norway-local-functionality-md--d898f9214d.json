@@ -1,31 +1,34 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/norway-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norway-local-functionality",
-  "title": "Norway local functionality [NO]",
-  "blob": "68404e2e016fab40e50c891d85a9884ce25dda9a",
-  "summary": "Norway local functionality overview covering VAT reporting, electronic banking, payments, core finance, and general business processes with planned future legislation updates.",
+  "title": "Norway Local Functionality [NO]",
+  "blob": "1bfc154474cebc56e29bbb00791c001c62a33a76",
+  "summary": "Norway local functionality covers VAT management including SAF-T reporting, VAT codes and reconciliation, banking and payments features like electronic banking and EHF invoicing, remittance payments, OCR payments, recurring orders, and payroll integration.",
   "systems": [
-    "localization",
     "finance",
-    "purchasing"
+    "purchasing",
+    "sales"
   ],
   "topics": [
     "norway",
+    "localization",
     "vat",
     "electronic banking",
-    "payments",
-    "local functionality",
-    "saf-t"
+    "ehf",
+    "remittance",
+    "ocr",
+    "recurring orders"
   ],
   "objects": [],
   "features": [
+    "SAF-T file generation",
     "Norwegian VAT reporting",
-    "SAF-T management",
     "Electronic banking",
-    "EHF invoicing",
+    "EHF electronic invoicing",
     "Remittance payments",
     "OCR payments",
-    "Recurring orders"
+    "Recurring orders",
+    "Payroll data integration"
   ],
   "versions": [
     "2026 release wave 2"
@@ -36,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004171,
-      "pages_in_call": 8
+      "cost_usd": 0.004384,
+      "pages_in_call": 1
     }
   ]
 }

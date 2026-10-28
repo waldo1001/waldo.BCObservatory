@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Remittance errors [NO]",
+  "title": "Remittance Errors in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/remittance-errors",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.167Z",
-      "blob": "0f73467c3f1a0281289a48fb1b2b2d6f0bbdb3a7",
-      "words": 261,
+      "at": "2026-10-28T09:06:12.835Z",
+      "blob": "0692fdded44c79d6f18543bfe48dc145ac0cc814",
+      "words": 262,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:25:22.527Z",
+      "at": "2026-10-28T09:06:22.591Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003699
+      "cost_usd": 0.0035
     },
     "summarized": {
-      "at": "2026-10-06T19:25:24.287Z",
+      "at": "2026-10-28T09:06:22.599Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:24.289Z",
+      "at": "2026-10-28T09:06:22.615Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:24.290Z",
+      "at": "2026-10-28T09:06:22.617Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/remittance-errors.md",
-    "description": "Learn about remittance errors can occur during data transfer or after payments are sent to the bank. These errors are displayed on the Return Error page.",
-    "ms_date": "2025-05-15",
+    "description": "Learn about remittance errors that can occur during data transfer or after payments are sent to the bank, and view them on the Return Error page.",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [
       {
@@ -87,12 +87,12 @@
       "payment errors",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 261,
+    "ai_usage": "ai-assisted",
+    "words": 262,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4bc4b6601f4756023ac2ef52c75ff3d7f3917718129dfdfd3597842aa01ecbfb"
+  "output_hash": "404378828d605f6b03fcbb6d9ad9deb332c6b8a8bc9a117988d73b023acea8c3"
 }

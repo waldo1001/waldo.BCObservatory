@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Norwegian VAT Codes",
+  "title": "Norwegian VAT Codes in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-codes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.147Z",
-      "blob": "fe8937002bbf5e2ac0fff4e2d6be3665a4a9bb0b",
-      "words": 651,
+      "at": "2026-10-28T09:06:12.114Z",
+      "blob": "044f715a7f13e608c157c9a36ba2998809269e7a",
+      "words": 646,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:25:20.903Z",
+      "at": "2026-10-28T09:06:22.559Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002792
+      "cost_usd": 0.004514
     },
     "summarized": {
-      "at": "2026-10-06T19:25:24.304Z",
+      "at": "2026-10-28T09:06:22.560Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:24.305Z",
+      "at": "2026-10-28T09:06:22.562Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:24.306Z",
+      "at": "2026-10-28T09:06:22.563Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/norwegian-vat-codes.md",
     "description": "Learn how to set up VAT processing information in the Norwegian version of Business Central by using standard Norwegian VAT codes.",
-    "ms_date": "2025-05-15",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [
       {
@@ -78,12 +78,12 @@
       "VAT codes",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 651,
+    "ai_usage": "ai-assisted",
+    "words": 646,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "415bfe0b2f3ebd01da8061ef74afad7ea83308d15497bcca38e0026d3d423178"
+  "output_hash": "dab61a75a212909f6ad3314180bb6ea925a9393dec52e26b2a6c802dbdbd8000"
 }

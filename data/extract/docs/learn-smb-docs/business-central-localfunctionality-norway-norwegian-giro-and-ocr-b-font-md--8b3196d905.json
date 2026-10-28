@@ -1,25 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font",
-  "title": "Norwegian Giro and OCR-B font",
-  "blob": "585df8c280a090c176611527f10ea7295393e84e",
-  "summary": "Norwegian giro payment system uses OCR-B font on the last line of giro documents for optical character recognition processing by Bankenes Betalingssentral when handling customer payments.",
+  "title": "Norwegian Giro Payments and the OCR-B Font",
+  "blob": "b94adc927da2ad540468e8cf6051af2f300d2726",
+  "summary": "Norwegian giro is a payment system using OCR-B font on sales documents for optical character recognition processing by Bankenes Betalingssentral (BBS). Business Central uses OCR-B-10 BT font by default, but any OCR-B font requires Microsoft Certified Partner updates if different from default.",
   "systems": [
     "localization",
-    "sales"
+    "sales",
+    "finance"
   ],
   "topics": [
-    "giro",
-    "ocr-b font",
     "norway",
-    "payment system",
-    "sales documents"
+    "giro payments",
+    "ocr-b font",
+    "sales documents",
+    "payment processing",
+    "optical character recognition"
   ],
   "objects": [],
   "features": [
-    "giro",
+    "Norwegian giro payment system",
     "OCR-B-10 BT font",
-    "optical character recognition"
+    "optical character recognition",
+    "sales document printing",
+    "Bankenes Betalingssentral (BBS) integration"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002792,
-      "pages_in_call": 8
+      "cost_usd": 0.003328,
+      "pages_in_call": 1
     }
   ]
 }

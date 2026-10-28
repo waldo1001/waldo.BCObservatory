@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Recurring orders",
+  "title": "Norwegian Recurring Sales Orders",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/recurring-orders",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.162Z",
-      "blob": "0eed0dd31aa275cf5ef3beef49620ef70a39ddc5",
+      "at": "2026-10-28T09:06:12.474Z",
+      "blob": "2b2484cfcba59d30c58eaa48d39831607e7a6b9b",
       "words": 123,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:20.906Z",
+      "at": "2026-10-28T09:06:17.487Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002792
+      "cost_usd": 0.002861
     },
     "summarized": {
-      "at": "2026-10-06T19:25:24.313Z",
+      "at": "2026-10-28T09:06:17.489Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:24.314Z",
+      "at": "2026-10-28T09:06:17.490Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:24.315Z",
+      "at": "2026-10-28T09:06:22.534Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/recurring-orders.md",
-    "description": "Create blanket order templates with recurring orders to create sales orders at defined date intervals.",
-    "ms_date": "2025-05-16",
+    "description": "Use Norwegian recurring order groups and blanket sales orders in Business Central to generate sales orders at defined intervals through periodic processing.",
+    "ms_date": "2026-10-20",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "blanket order templates",
       "Norwegian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 123,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "33cbae1707c5385d4bacc8482cf30dcf08605ca538d6ed1e748e517aa361956e"
+  "output_hash": "3a62519e84e285f52cb6661937a7d2ac585bb0bb3a2eab3255387584872f9e5d"
 }

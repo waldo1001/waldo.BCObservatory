@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Test Remittance Payments [NO]",
+  "title": "Test Remittance Payments in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-test-remittance-payments",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.132Z",
-      "blob": "850efc03f369a22b0ae923e3e86fb235b3fafa09",
-      "words": 230,
+      "at": "2026-10-28T09:06:06.311Z",
+      "blob": "aca8ccfc9bb58f5fc7ec0f161faea53ff6f697db",
+      "words": 219,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:25:20.900Z",
+      "at": "2026-10-28T09:06:12.216Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002792
+      "objects": 1,
+      "cost_usd": 0.00343
     },
     "summarized": {
-      "at": "2026-10-06T19:25:24.292Z",
+      "at": "2026-10-28T09:06:12.217Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:24.293Z",
+      "at": "2026-10-28T09:06:12.219Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:24.295Z",
+      "at": "2026-10-28T09:06:12.220Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-test-remittance-payments.md",
     "description": "Learn how to test payment journal lines for errors before posting, after setting up remittance payments and generating suggestions.",
-    "ms_date": "2025-05-14",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -86,12 +86,12 @@
       "remittance payments",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 230,
+    "ai_usage": "ai-assisted",
+    "words": 219,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1d5a845b69040ec9263da3c8ff4534d5b7adcb1fcc325897dd21ec1668453ac0"
+  "output_hash": "c2e988e611a975af4f8334ba2169fa45e67405b4e1fb444559b31b38551ea827"
 }

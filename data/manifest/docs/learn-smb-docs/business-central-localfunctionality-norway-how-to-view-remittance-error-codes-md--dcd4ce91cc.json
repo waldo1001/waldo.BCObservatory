@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "View remittance error codes [NO]",
+  "title": "View Remittance Error Codes in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-view-remittance-error-codes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.138Z",
-      "blob": "3403b39d57d00ef101b0801532fde37b29ef2fd6",
-      "words": 158,
+      "at": "2026-10-28T09:06:06.440Z",
+      "blob": "613796c8613c6d1cc15fe6ad8aadbe4057405e4c",
+      "words": 157,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:25:20.901Z",
+      "at": "2026-10-28T09:06:12.406Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002792
+      "cost_usd": 0.003491
     },
     "summarized": {
-      "at": "2026-10-06T19:25:24.297Z",
+      "at": "2026-10-28T09:06:12.408Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:24.298Z",
+      "at": "2026-10-28T09:06:12.410Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:24.299Z",
+      "at": "2026-10-28T09:06:12.411Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-view-remittance-error-codes.md",
     "description": "Learn how to view remittance error codes and their explanations for payments on the Waiting Journal page in the Norwegian version of Business Central.",
-    "ms_date": "2025-05-15",
+    "ms_date": "2026-10-20",
     "ms_topic": "troubleshooting-error-codes",
     "search_form": [
       {
@@ -85,12 +85,12 @@
       "error explanation",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 158,
+    "ai_usage": "ai-assisted",
+    "words": 157,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6e106074b68aab243029b2d36840c58a635eca5340eb1c2cf4fd6a57bff01160"
+  "output_hash": "e995a302dcd394a5e806b75b236251d122c3dd27873a06a20d226c457bb984dd"
 }

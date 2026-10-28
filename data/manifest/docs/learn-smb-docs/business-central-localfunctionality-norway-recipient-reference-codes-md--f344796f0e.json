@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Recipient reference codes [NO]",
+  "title": "Recipient Reference Codes in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/recipient-reference-codes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.157Z",
-      "blob": "33ecdcdefb18708258745a18c8f4cf0428f36ab0",
+      "at": "2026-10-28T09:06:12.269Z",
+      "blob": "7cf078187c02b3966e272277fd94f886c3277f45",
       "words": 227,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:20.905Z",
+      "at": "2026-10-28T09:06:22.572Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002792
+      "cost_usd": 0.00309
     },
     "summarized": {
-      "at": "2026-10-06T19:25:24.310Z",
+      "at": "2026-10-28T09:06:22.574Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:24.311Z",
+      "at": "2026-10-28T09:06:22.575Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:24.312Z",
+      "at": "2026-10-28T09:06:22.576Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/recipient-reference-codes.md",
     "description": "Learn about the message sent to the recipient and shown on the remittance account, based on the recipient reference code.",
-    "ms_date": "2025-05-16",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Norwegian version",
       "recipient reference code"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 227,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bfde1eaebde8dd5d727ffb57e8428e0b430bcd996d8af4ffac3a6588d72b96f1"
+  "output_hash": "ac267c6efea4193a81803e7ec9e82709bdc7999b2a6b20d7277b8e61b26fee83"
 }

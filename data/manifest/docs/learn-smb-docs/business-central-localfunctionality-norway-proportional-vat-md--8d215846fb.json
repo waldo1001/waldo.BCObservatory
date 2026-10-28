@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Proportional VAT [NO]",
+  "title": "Proportional VAT in Norway [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/proportional-vat",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.153Z",
-      "blob": "f1308bb4b5c718fe5478c9912daa17bbce61b72f",
-      "words": 332,
+      "at": "2026-10-28T09:06:12.173Z",
+      "blob": "e25e290c4c3dc2e91eb890fa0ff8bdd4a38317dc",
+      "words": 335,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:25:20.904Z",
+      "at": "2026-10-28T09:06:22.544Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002792
+      "cost_usd": 0.003516
     },
     "summarized": {
-      "at": "2026-10-06T19:25:24.307Z",
+      "at": "2026-10-28T09:06:22.546Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:24.308Z",
+      "at": "2026-10-28T09:06:22.548Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:24.309Z",
+      "at": "2026-10-28T09:06:22.549Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/proportional-vat.md",
-    "description": "Norwegian features enable calculation of VAT when both deductible and non-deductible VATs apply.",
-    "ms_date": "2025-05-15",
+    "description": "Learn how Norwegian proportional VAT in Business Central calculates deductible VAT and posts the nondeductible amount to general ledger cost accounts.",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [
       {
@@ -75,12 +75,12 @@
       "non-deductible VAT",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 332,
+    "ai_usage": "ai-assisted",
+    "words": 335,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "94d7a840fd9ff4fb7cbca6dad67698c146a826da1b042da6e2cc1e13f2b531b2"
+  "output_hash": "ba28b1af95f8324172bce27854e2c95bf843b89109ce19637a00c54e6288edcc"
 }

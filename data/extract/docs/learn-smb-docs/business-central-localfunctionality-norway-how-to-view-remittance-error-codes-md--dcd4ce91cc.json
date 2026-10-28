@@ -1,35 +1,36 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-view-remittance-error-codes.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-view-remittance-error-codes",
-  "title": "View remittance error codes [NO]",
-  "blob": "3403b39d57d00ef101b0801532fde37b29ef2fd6",
-  "summary": "View remittance error codes from bank responses in Norwegian Business Central to understand payment rejection reasons and messages on the Waiting Journal page.",
+  "title": "View Remittance Error Codes in the Norwegian Version [NO]",
+  "blob": "613796c8613c6d1cc15fe6ad8aadbe4057405e4c",
+  "summary": "View remittance error codes from bank rejections on the Waiting Journal and Return Error pages in the Norwegian version, showing error codes and explanations for failed payments.",
   "systems": [
     "purchasing",
     "localization"
   ],
   "topics": [
+    "norway",
     "remittance",
     "error codes",
-    "norway",
-    "payment errors",
-    "bank messages"
+    "electronic payments",
+    "vendors",
+    "payment returns"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Return Error"
+      "name": "Waiting Journal"
     },
     {
       "type": "page",
-      "name": "Waiting Journal"
+      "name": "Return Error"
     }
   ],
   "features": [
-    "Return Error page",
-    "error codes",
-    "message text",
-    "Waiting Journal Reference"
+    "remittance error codes",
+    "payment error messages",
+    "waiting journal reference",
+    "message text from bank"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002792,
-      "pages_in_call": 8
+      "cost_usd": 0.003491,
+      "pages_in_call": 1
     }
   ]
 }

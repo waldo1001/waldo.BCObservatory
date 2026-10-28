@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Norwegian Giro and OCR-B font",
+  "title": "Norwegian Giro Payments and the OCR-B Font",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.143Z",
-      "blob": "585df8c280a090c176611527f10ea7295393e84e",
-      "words": 126,
+      "at": "2026-10-28T09:06:06.362Z",
+      "blob": "b94adc927da2ad540468e8cf6051af2f300d2726",
+      "words": 130,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:25:20.903Z",
+      "at": "2026-10-28T09:06:12.063Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002792
+      "cost_usd": 0.003328
     },
     "summarized": {
-      "at": "2026-10-06T19:25:24.300Z",
+      "at": "2026-10-28T09:06:12.064Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:24.301Z",
+      "at": "2026-10-28T09:06:12.065Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:24.302Z",
+      "at": "2026-10-28T09:06:12.066Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font.md",
     "description": "Learn about the Norwegian Giro payment system, which functions as a credit transfer, and its use of the OCR-B font for payment processing.",
-    "ms_date": "2025-05-15",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [
       {
@@ -65,12 +65,12 @@
       "payment processing",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 126,
+    "ai_usage": "ai-assisted",
+    "words": 130,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d96b9ef3a80e2b44e71b1c3260efea701ea56c3f55f6557bf2deaa895b778811"
+  "output_hash": "1204972c7b1191f1fae7f538b480fed768955cfe225fdbb7ade5ab33cc1365de"
 }

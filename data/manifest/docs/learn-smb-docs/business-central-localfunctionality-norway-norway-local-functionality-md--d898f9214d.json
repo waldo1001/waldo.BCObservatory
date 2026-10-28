@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Norway local functionality [NO]",
+  "title": "Norway Local Functionality [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norway-local-functionality",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.117Z",
-      "blob": "68404e2e016fab40e50c891d85a9884ce25dda9a",
-      "words": 364,
+      "at": "2026-10-28T09:06:06.399Z",
+      "blob": "1bfc154474cebc56e29bbb00791c001c62a33a76",
+      "words": 354,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:56:57.580Z",
+      "at": "2026-10-28T09:06:12.719Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004171
+      "cost_usd": 0.004384
     },
     "summarized": {
-      "at": "2026-10-06T18:57:00.553Z",
+      "at": "2026-10-28T09:06:12.721Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:57:00.554Z",
+      "at": "2026-10-28T09:06:12.723Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:57:00.555Z",
+      "at": "2026-10-28T09:06:12.724Z",
       "page": false
     }
   },
@@ -44,20 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/norway-local-functionality.md",
-    "description": "These articles describe all the local functionality in the Norwegian version of Business Central.",
-    "ms_date": "2025-10-29",
+    "description": "Explore Norwegian functionality in Business Central for VAT reporting, SAF-T exports, remittance payments, OCR imports, EHF invoicing, and recurring orders.",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
       "Norwegian local functionality",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 364,
+    "ai_usage": "ai-assisted",
+    "words": 354,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "76dbeb11e5568caa73253fd69c45174ef44d05a19093c57ee6125e5796879166"
+  "output_hash": "0fb4487f9d295ffc44bb459133998fc57e3e7e8ebfd6700a1025d55ee2cdf8e2"
 }
