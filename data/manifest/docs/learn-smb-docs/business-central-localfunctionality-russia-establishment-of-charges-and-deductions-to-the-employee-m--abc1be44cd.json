@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.456Z",
-      "blob": "534268c10e19bf5b51616b41c5b3b52cd52a4f94",
+      "at": "2026-10-28T08:54:05.256Z",
+      "blob": "50192c3e4c152d2e66e325e6176a69227b8291fc",
       "words": 642,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:38.451Z",
+      "at": "2026-10-28T08:54:10.348Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002808
+      "objects": 2,
+      "cost_usd": 0.003804
     },
     "summarized": {
-      "at": "2026-10-06T19:13:47.618Z",
+      "at": "2026-10-28T08:54:10.350Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:49.437Z",
+      "at": "2026-10-28T08:54:10.351Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:49.439Z",
+      "at": "2026-10-28T08:54:10.352Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee.md",
     "description": "Russian localization provides tools for managing employee charges and deductions in Business Central.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-26",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "establishing charges",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 642,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "406be226c08ce1ab7e171f01aa59bc70d8f5a769107469f11cb45e06d91c79f9"
+  "output_hash": "46612cffc11b133f0c31c773408d5e5a0e8044c5e26a75c281ae1145937ee5d1"
 }

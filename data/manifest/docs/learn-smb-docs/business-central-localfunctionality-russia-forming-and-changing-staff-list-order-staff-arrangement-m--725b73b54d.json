@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.461Z",
-      "blob": "79c05226d1cd0fd4d501b22ea312d1a894f461a4",
+      "at": "2026-10-28T08:54:10.392Z",
+      "blob": "cbe7fd658242b214a0bd75d98ed5aeabd5e312d2",
       "words": 440,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:38.452Z",
+      "at": "2026-10-28T08:54:17.816Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.002808
+      "cost_usd": 0.003567
     },
     "summarized": {
-      "at": "2026-10-06T19:13:49.440Z",
+      "at": "2026-10-28T08:54:17.817Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:49.441Z",
+      "at": "2026-10-28T08:54:17.818Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:49.442Z",
+      "at": "2026-10-28T08:54:17.819Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement.md",
     "description": "Learn how to form and update staff lists and arrangements in Business Central for Russia.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-26",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "staff arrangement",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 440,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a01301416808396aa226d1c2ba93f613a4bd7ddbea1e2789ae4d4538756f0fe0"
+  "output_hash": "9c968d1fe3e21c2f7182501604332b0e3b164bac34760b7913fc29a0591a2832"
 }

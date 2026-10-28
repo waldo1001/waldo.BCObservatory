@@ -1,0 +1,1051 @@
+{
+  "video_id": "a3j6JjyWDv0",
+  "item_id": "video/yt-areopa/a3j6JjyWDv0",
+  "title": "20261026 - The Rollback That Wasn’t Transaction & Error Handling",
+  "duration_s": 3597,
+  "systems": [
+    "development",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "transaction handling",
+    "error handling",
+    "rollback behavior",
+    "commit semantics",
+    "try-catch patterns",
+    "atomicity",
+    "database writes",
+    "posting logic",
+    "try functions",
+    "commit behavior",
+    "rollback mechanics",
+    "external integration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Housekeeping",
+      "t_start": 0,
+      "t_end": 240
+    },
+    {
+      "title": "Speaker Introduction and Session Overview",
+      "t_start": 240,
+      "t_end": 347
+    },
+    {
+      "title": "Transaction Basics and ACID Properties",
+      "t_start": 347,
+      "t_end": 452
+    },
+    {
+      "title": "Why Transaction Atomicity Matters",
+      "t_start": 452,
+      "t_end": 555
+    },
+    {
+      "title": "Transaction Ownership and Commit Behavior",
+      "t_start": 555,
+      "t_end": 642
+    },
+    {
+      "title": "What Rollback Actually Undoes and Posting Preview",
+      "t_start": 642,
+      "t_end": 749
+    },
+    {
+      "title": "The Rollback That Wasn't - First Bug Pattern",
+      "t_start": 749,
+      "t_end": 893.9
+    },
+    {
+      "title": "Ways to Prevent Rollback in Try Functions",
+      "t_start": 893.9,
+      "t_end": 955.7
+    },
+    {
+      "title": "The Rollback You Didn't Want - Error Handling Patterns",
+      "t_start": 955.7,
+      "t_end": 1032.7
+    },
+    {
+      "title": "The Rollback That Can't Happen - External System Integration",
+      "t_start": 1032.7,
+      "t_end": 1130
+    },
+    {
+      "title": "Transaction Control Tools and Commit Fundamentals",
+      "t_start": 1130,
+      "t_end": 1253
+    },
+    {
+      "title": "Commit Anti-Patterns and Batch Checkpointing",
+      "t_start": 1253,
+      "t_end": 1387.9
+    },
+    {
+      "title": "CommitBehavior Attribute and Integration Events",
+      "t_start": 1387.9,
+      "t_end": 1506.9
+    },
+    {
+      "title": "CommitBehavior Rules and Scope",
+      "t_start": 1506.9,
+      "t_end": 1674.1
+    },
+    {
+      "title": "Commit Behavior Applications: ignore vs error",
+      "t_start": 1674.1,
+      "t_end": 1775.1
+    },
+    {
+      "title": "Scoped Undo Button: Error-scoped Code Units",
+      "t_start": 1775.1,
+      "t_end": 1902.8
+    },
+    {
+      "title": "Code Unit Transactions: Common Mistakes",
+      "t_start": 1902.8,
+      "t_end": 2090.9
+    },
+    {
+      "title": "Wrong Fixes and the Right Approach",
+      "t_start": 2090.9,
+      "t_end": 2173.7
+    },
+    {
+      "title": "Try Functions: When to Use and Not Use",
+      "t_start": 2173.7,
+      "t_end": 2279
+    },
+    {
+      "title": "Fixing Try Function Anti-patterns",
+      "t_start": 2279,
+      "t_end": 2404.2
+    },
+    {
+      "title": "Test Transaction Models",
+      "t_start": 2404.2,
+      "t_end": 2459.2
+    },
+    {
+      "title": "Testing rollback and transaction scenarios",
+      "t_start": 2459.2,
+      "t_end": 2552.8
+    },
+    {
+      "title": "Error info data type and fix-it actions",
+      "t_start": 2552.8,
+      "t_end": 2713.6
+    },
+    {
+      "title": "Collectible errors and error behavior collect",
+      "t_start": 2713.6,
+      "t_end": 2883.9
+    },
+    {
+      "title": "Real-world examples: parallel worker and batch processing",
+      "t_start": 2883.9,
+      "t_end": 3048.9
+    },
+    {
+      "title": "Decision map for transaction patterns",
+      "t_start": 3048.9,
+      "t_end": 3160.8
+    },
+    {
+      "title": "Code review checklist for transactions and errors",
+      "t_start": 3160.8,
+      "t_end": 3229.8
+    },
+    {
+      "title": "Key Principles and Best Practices Summary",
+      "t_start": 3229.8,
+      "t_end": 3283.1
+    },
+    {
+      "title": "Q&A: Commit Behavior and Default Settings",
+      "t_start": 3283.1,
+      "t_end": 3395
+    },
+    {
+      "title": "Q&A: Try-Catch Behavior in Cloud vs On-Premise",
+      "t_start": 3395,
+      "t_end": 3454.9
+    },
+    {
+      "title": "Presentation Availability and Technical Discussion",
+      "t_start": 3454.9,
+      "t_end": 3504.6
+    },
+    {
+      "title": "Closing Remarks and Upcoming Events",
+      "t_start": 3504.6,
+      "t_end": 3597
+    }
+  ],
+  "features": [
+    {
+      "name": "Transaction control in AL runtime",
+      "description": "The AL runtime automatically manages database transactions - it opens a write transaction on the first insert, modify, or delete operation and commits implicitly when code execution ends without error. Developers cannot manually start transactions like in SQL; instead, explicit commits split transactions into separate units.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 397.2,
+      "t_end": 452,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "transaction management",
+        "runtime behavior",
+        "al fundamentals"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Rollback scope limitations",
+      "description": "Rollback undoes only inserts, modifies, and deletes on normal tables since the last commit. It does not undo: variables, temporary records, single instance codeunit state, HTTP calls, sent emails, or telemetry. This asymmetry can lead to partial state inconsistencies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 642.7,
+      "t_end": 683.6,
+      "is_demoed": false,
+      "caveats": [
+        "Variables retain their values even after rollback",
+        "Temporary records are not rolled back",
+        "External system calls are not undone"
+      ],
+      "tags": [
+        "rollback limitations",
+        "state management",
+        "atomicity gaps"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Explicit commit splitting transactions",
+      "description": "When a developer places an explicit Commit in code, it finalizes all database writes up to that point into a separate transaction. Subsequent writes become part of a new transaction. This allows intentional transaction splitting but can create data consistency issues if errors occur after the commit.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 599.4,
+      "t_end": 634.2,
+      "is_demoed": false,
+      "caveats": [
+        "Commits split transactions, not create new ones",
+        "Early commits can leave data inconsistent if later code fails"
+      ],
+      "tags": [
+        "transaction splitting",
+        "explicit commits",
+        "code structure"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "The rollback that wasn't - try-catch with database writes",
+      "description": "When an error is caught inside a try-catch block, the database modifications made before the error are not automatically rolled back in online Business Central. This means a try-catch block can leave the database in a partially modified state even though an error occurred and was handled. On premises, writes inside try methods are blocked by default.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 800.7,
+      "t_end": 893.9,
+      "is_demoed": true,
+      "caveats": [
+        "Behavior differs between online and on-premises",
+        "On-premises blocks writes in try methods",
+        "Online allows writes to persist even when error is caught"
+      ],
+      "tags": [
+        "try-catch semantics",
+        "database writes",
+        "online vs on-premises",
+        "error handling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Posting preview technique",
+      "description": "Posting preview is a technique where posting code writes to temporary tables while subscribers copy entries into temporary records. An intentional error is then raised inside a try-catch block. The real posting rolls back but temporary data persists, allowing the system to show a preview of what would be posted without actually committing the changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 698,
+      "t_end": 748,
+      "is_demoed": false,
+      "caveats": [
+        "Requires intentional error to trigger rollback",
+        "Depends on temporary tables surviving rollback"
+      ],
+      "tags": [
+        "preview functionality",
+        "temporary records",
+        "posting logic"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Try function error handling",
+      "description": "Try functions catch errors but do not undo writes that occurred within the try block. Catching an error is not the same as undoing the write transaction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 790.1,
+      "t_end": 955.7,
+      "is_demoed": true,
+      "caveats": [
+        "Online Business Central allows writes in try methods; on-premises blocks them by default",
+        "Behavior differs between online and on-premises deployments"
+      ],
+      "tags": [
+        "try functions",
+        "error handling",
+        "transactions",
+        "rollback"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Commit method behavior",
+      "description": "The Commit method makes everything written since the last commit final, including writes from the current method, callers, and all subscriber rights. It releases locks and opens a new transaction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1181.7,
+      "t_end": 1224.7,
+      "is_demoed": true,
+      "caveats": [
+        "Every commit creates a state someone must be able to recover from",
+        "Defensive commits can lead to inconsistent data"
+      ],
+      "tags": [
+        "commit",
+        "transactions",
+        "final state"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "CommitBehavior procedure attribute",
+      "description": "An attribute on procedures or events that controls how commits are handled in called code. Can be set to ignore commits, raise errors on commits, or enforce commit-only mode.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1405.2,
+      "t_end": 1674.1,
+      "is_demoed": true,
+      "caveats": [
+        "The stricter CommitBehavior rule wins in parent-child scenarios",
+        "Subscribers cannot protect themselves from a publisher's commits"
+      ],
+      "tags": [
+        "commit behavior",
+        "attribute",
+        "integration events",
+        "control"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "If-Could-You-Run error handling",
+      "description": "A mechanism that catches errors and undoes one unit of work within a transaction, allowing conditional logic based on operation success.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1140.5,
+      "t_end": 1169.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "conditional logic",
+        "transactions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Outbox pattern for external integration",
+      "description": "A pattern that saves to a send queue/outbox table instead of directly posting to external systems. The outbox entries are processed after commit by job queue, making retries safe from duplicate exports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1046.6,
+      "t_end": 1103.5,
+      "is_demoed": false,
+      "caveats": [
+        "External calls cannot be undone by database rollback",
+        "HTTP calls inside write transactions hold locks on the whole call duration"
+      ],
+      "tags": [
+        "external integration",
+        "outbox pattern",
+        "job queue",
+        "idempotency"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Idempotent request IDs",
+      "description": "Using stable IDs like system ID on every request to allow external systems to ignore requests they have already seen, preventing duplicate processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1077.1,
+      "t_end": 1103.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "idempotency",
+        "external systems",
+        "request handling"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "External Business Events post-commit behavior",
+      "description": "External business events in Business Central go out only after the commit and never after rollback, ensuring consistency with database state.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1103.5,
+      "t_end": 1118.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "external events",
+        "integration",
+        "commit timing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Batch checkpoint pattern",
+      "description": "A pattern where batch processing saves progress in a table within the same transaction as the work, allowing safe recovery on failure. Progress is committed together with processed data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1327.7,
+      "t_end": 1387.9,
+      "is_demoed": true,
+      "caveats": [
+        "Progress must be tracked in a table, not in memory",
+        "Each commit needs a comment explaining why everything before it is final"
+      ],
+      "tags": [
+        "batch processing",
+        "checkpoint",
+        "progress tracking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Commit Behavior function attribute",
+      "description": "A procedure or event attribute that controls transaction commit behavior in AL code. Supports four rules: ignore does nothing, error raises an error, covers the method and all calls until exit, and stricter parent behavior overrides child ignore.",
+      "status": "ga",
+      "status_evidence_t": 1674.1,
+      "status_evidence_quote": "Microsoft ships this in base app. Sales post runs the posting lines under commit behavior ignore by default, at least in BC 29.",
+      "status_evidence_verified": true,
+      "t_start": 1591.2,
+      "t_end": 1775.1,
+      "is_demoed": true,
+      "caveats": [
+        "Attribute cannot be conditional",
+        "Applies only in scope of commit behavior procedure"
+      ],
+      "tags": [
+        "commit behavior",
+        "transaction control",
+        "attribute"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Error-scoped Code Units for clean state transactions",
+      "description": "Code units that run with their own transaction boundary using the return value pattern, creating a scoped undo mechanism. Requires clean state - no existing write transactions before calling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1775.1,
+      "t_end": 1902.8,
+      "is_demoed": true,
+      "caveats": [
+        "Must be in clean state - cannot have open write transactions",
+        "Runtime enforces this restriction",
+        "Compiler does not enforce it",
+        "Only works with return value - without it is ordinary call"
+      ],
+      "tags": [
+        "error-scoped code units",
+        "transaction boundary",
+        "scoped undo"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Try function attribute with return value",
+      "description": "Attribute for procedures that catches errors without rolling back database changes made by try methods. Changes are committed. Allows writing in online, but disabled by default on premises.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2173.7,
+      "t_end": 2279,
+      "is_demoed": true,
+      "caveats": [
+        "Only creates a boundary when return value is used",
+        "Bare calls are ordinary calls where errors propagate",
+        "Behavior might change in upcoming release per documentation",
+        "Writes are not rolled back unlike error-scoped code units"
+      ],
+      "tags": [
+        "try function",
+        "error handling",
+        "transaction"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test transaction models",
+      "description": "Test code units can specify transaction behavior via attribute: After Rollback (changes roll back, commits cause error), After Commit (changes persist, runners clean up), None (test cannot write, page interactions commit like real client).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2404.2,
+      "t_end": 2459.2,
+      "is_demoed": false,
+      "caveats": [
+        "Default is auto commit",
+        "Under auto commit and auto rollback, triggers inherit test open transactions",
+        "Should match the code under test"
+      ],
+      "tags": [
+        "test transaction model",
+        "testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test transaction model - after rollback",
+      "description": "Test transaction model option where everything rolls back at the end of the test and a call to commit causes an error. Used when code never commits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2415.3,
+      "t_end": 2437.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "test transaction model",
+        "rollback",
+        "test codeunit"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test transaction model - after commit",
+      "description": "Test transaction model option where changes persist and the runner's test isolation cleans up. Used when code commits, for posting, job queues, integrations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2437.8,
+      "t_end": 2448.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "test transaction model",
+        "commit",
+        "test codeunit"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test transaction model - none",
+      "description": "Test transaction model option where the test itself can't write and each page interaction commits on its own, like a real client. Used for UI and read-only tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2448.1,
+      "t_end": 2459.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "test transaction model",
+        "ui test",
+        "test codeunit"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Error info data type",
+      "description": "A data type that lets you build detailed errors with properties like message, detailed message, title, error type, verbosity, data classification, custom dimensions, and fix-it handler. Supports context information like record ID, system ID, table ID, field number, page number, control name.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2552.8,
+      "t_end": 2693.3,
+      "is_demoed": true,
+      "caveats": [
+        "method name in fix-it handler is plain text and type checking fails only at runtime"
+      ],
+      "tags": [
+        "error info",
+        "error handling",
+        "telemetry"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Fix-it actions in error dialog",
+      "description": "Error dialogs can carry two kinds of actions: show-it which adds navigation action with page number, record ID, and field number to open the right page on the right field; and fix-it which adds action with a codeunit and method name.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2552.8,
+      "t_end": 2713.6,
+      "is_demoed": true,
+      "caveats": [
+        "fix-it method name type checking fails at runtime only"
+      ],
+      "tags": [
+        "error handling",
+        "fix-it actions",
+        "error dialog"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Error behavior collect",
+      "description": "A tool for procedures that run and check items. Inside it, collectible errors are gathered and execution keeps going. At the end, unhandled errors become one error and transaction rolls back. Non-collectible errors stop execution at once.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2713.6,
+      "t_end": 2762.3,
+      "is_demoed": true,
+      "caveats": [
+        "get collected errors doesn't clear the list",
+        "clearing collected errors doesn't roll back database changes"
+      ],
+      "tags": [
+        "error behavior collect",
+        "collectible errors",
+        "transaction"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Collectible errors in error info",
+      "description": "Error info.create with no arguments is collectible by default. With a message, the collectible flag is optional and should be set explicitly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2750.6,
+      "t_end": 2762.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error info",
+        "collectible errors"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Free show-it feature since BC 24",
+      "description": "Available since Business Central 24 where the single parameter test field at a source action is added automatically for show-it actions, unless the test field already has a value.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2693.3,
+      "t_end": 2713.6,
+      "is_demoed": true,
+      "caveats": [
+        "if test field has a value already, it will not add it"
+      ],
+      "tags": [
+        "show-it",
+        "fix-it actions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Transaction Handling Checklist",
+      "description": "Eight-item code review checklist for transaction management including no insert/modify/delete in try functions, error logging after rollback, and proper use of if-codeunit-run.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3127.8,
+      "t_end": 3214.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "transaction handling",
+        "error handling",
+        "best practices",
+        "code review"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Commit Behavior Property",
+      "description": "Discusses the commit behavior property and whether making it ignore by default for publishers would be beneficial, noting backwards compatibility concerns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3283.1,
+      "t_end": 3367.4,
+      "is_demoed": false,
+      "caveats": [
+        "Would break backwards compatibility",
+        "Relies on existing behavior in base and system application"
+      ],
+      "tags": [
+        "commit behavior",
+        "default settings",
+        "publisher"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Try Function Behavior: On-Premise vs Online",
+      "description": "Explains that try function behavior differs between on-premise and Business Central online: on-premise throws runtime error for writes in try, while online allows writes but does not undo them on error.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3395,
+      "t_end": 3454.9,
+      "is_demoed": false,
+      "caveats": [
+        "Controlled by NST service tier settings",
+        "On-premise allows changing the setting; online does not"
+      ],
+      "tags": [
+        "try-catch",
+        "rollback",
+        "on-premise",
+        "cloud",
+        "service tier settings"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Parallel Worker",
+      "t": 335.9
+    },
+    {
+      "type": "codeunit",
+      "name": "Sales post",
+      "t": 1674.1
+    },
+    {
+      "type": "codeunit",
+      "name": "codeunit.run",
+      "t": 3380.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Luke",
+      "confidence": "high"
+    },
+    {
+      "name": "Volodymyr Vernitsky",
+      "confidence": "high"
+    },
+    {
+      "name": "Vlado",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 347.6,
+      "text": "What is a transaction itself? Well, a transaction is a group of database changes that succeed together or fail together.",
+      "why_it_matters": "Defines the fundamental concept of transaction atomicity that underpins all subsequent discussion about when changes are committed or rolled back.",
+      "check": "exact"
+    },
+    {
+      "t": 397.2,
+      "text": "In AL, the runtime does it for you. When AL code needs a transaction, the runtime starts one. And when the code finishes, the",
+      "why_it_matters": "Establishes that AL developers do not manually control transaction boundaries like in SQL, and the runtime handles transaction lifecycle automatically.",
+      "check": "exact"
+    },
+    {
+      "t": 642.7,
+      "text": "It's undoes inserts, modifies, and deletes on normal tables since the last commit. But, not undone. Your variables, temporary records, single instance could you",
+      "why_it_matters": "Clarifies the precise scope of rollback, showing what survives and what does not, which is critical for understanding partial state problems.",
+      "check": "exact"
+    },
+    {
+      "t": 840.7,
+      "text": "The error was caught, but the right inside the try function wasn't undone. That's how it works online.",
+      "why_it_matters": "Demonstrates the core bug pattern of the session where try-catch prevents rollback in online BC, leaving data modified despite error handling.",
+      "check": "exact"
+    },
+    {
+      "t": 854.4,
+      "text": "That's how it works online. So, on premises, the seller blocks any rights inside try methods by default. So, you would get an error",
+      "why_it_matters": "Reveals a significant difference in behavior between online and on-premises Business Central regarding database writes inside try blocks.",
+      "check": "exact"
+    },
+    {
+      "t": 1130,
+      "text": "You can't undo a call to another system. Make it safe to repeat.",
+      "why_it_matters": "Core principle for designing external integrations, emphasizing idempotency over rollback guarantees.",
+      "check": "exact"
+    },
+    {
+      "t": 1197.1,
+      "text": "Everything written since the last commit becomes final. Not only your rights but your callers rights and every subscriber rights.",
+      "why_it_matters": "Explains the scope and implications of the Commit method, showing it affects all writes in the call chain, not just the current method.",
+      "check": "exact"
+    },
+    {
+      "t": 1264.9,
+      "text": "Every commit creates a state someone must be able to recover.",
+      "why_it_matters": "Core principle for deciding when to use Commit, establishing that every commit must leave the database in a recoverable state.",
+      "check": "exact"
+    },
+    {
+      "t": 1278.1,
+      "text": "Every straight commit leaves less for a related error to undo and can lead to inconsistent data in your database.",
+      "why_it_matters": "Warns against defensive commits as an anti-pattern that increases risk of inconsistent data.",
+      "check": "exact"
+    },
+    {
+      "t": 1405.2,
+      "text": "is how you can control other people's commits and this is an attribute to procedures",
+      "why_it_matters": "Introduces CommitBehavior as a tool to manage commits from called code and integration event subscribers.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1591.2,
+      "text": "So, as you can see, the how commit behavior can be used to control it. And there is like four simple rules which we",
+      "why_it_matters": "Establishes commit behavior as a key control mechanism with defined rules that developers must understand.",
+      "check": "exact"
+    },
+    {
+      "t": 1631.1,
+      "text": "The stricter one wins. A parent error beats child ignore.",
+      "why_it_matters": "Key rule for understanding CommitBehavior attribute precedence in nested procedure calls.",
+      "check": "exact"
+    },
+    {
+      "t": 1631.1,
+      "text": "Also, the stricter one wins. A parent error beats child ignore. If you have several uh parent child commit behavior procedures combined.",
+      "why_it_matters": "Explains the critical rule that stricter parent behavior overrides child behavior in nested calls, affecting data integrity.",
+      "check": "exact"
+    },
+    {
+      "t": 1739.8,
+      "text": "And error, when a commit would be a correctness bug you want to hear about, like previews, dry runs, and code running inside your",
+      "why_it_matters": "Defines when to use error-scoped behavior for preventing unintended commits in sensitive operations.",
+      "check": "exact"
+    },
+    {
+      "t": 1813.9,
+      "text": "The transaction that the could you not contains is always committed due to the Boolean return value.",
+      "why_it_matters": "States that error-scoped code units always implicitly commit at the boundary when using return value, a critical semantic.",
+      "check": "exact"
+    },
+    {
+      "t": 1863.6,
+      "text": "What does a clean state mean? If you're already in transaction, you must commit first before calling Could you need run. The runtime enforces",
+      "why_it_matters": "Defines clean state requirement for error-scoped code units, showing runtime enforcement vs compiler limitations.",
+      "check": "exact"
+    },
+    {
+      "t": 2206.8,
+      "text": "Changes to the database that are made with a try method aren't rolled back. Learn says it exactly those words.",
+      "why_it_matters": "Clarifies fundamental difference between try functions and error-scoped code units - try functions do not undo writes.",
+      "check": "exact"
+    },
+    {
+      "t": 2235.4,
+      "text": "And the documentation says this behavior might change in upcoming release. And third one it's a try call only when the return value is",
+      "why_it_matters": "Indicates try function behavior subject to change and clarifies that return value is required for try semantics.",
+      "check": "exact"
+    },
+    {
+      "t": 2343.5,
+      "text": "The code unit fails. The boundary rolls back its own right and returns false. Get last error text still holds the reason and the",
+      "why_it_matters": "Explains how boundaries handle errors and return values, demonstrating transaction rollback behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 2365.2,
+      "text": "the try function attribute is there, but nobody used the return value. So, this is an ordinary call. The attribute on its own does",
+      "why_it_matters": "Clarifies that try function attribute requires checking the return value; the attribute alone has no effect.",
+      "check": "exact"
+    },
+    {
+      "t": 2415.3,
+      "text": "And the first decision in a test code unit is the transaction model. And it should match the code under the test.",
+      "why_it_matters": "Emphasizes that test transaction model selection is critical and must align with the code being tested.",
+      "check": "exact"
+    },
+    {
+      "t": 2425.4,
+      "text": "After rollback, everything rolls back at the end of the test and a call to commit cause an error. Use it when the code",
+      "why_it_matters": "Defines the after rollback test transaction model option and its use case.",
+      "check": "exact"
+    },
+    {
+      "t": 2459.2,
+      "text": "And one thing most people miss. Under auto commit and auto rollback, the triggers your test invokes inherits the test open transactions.",
+      "why_it_matters": "Highlights a common misconception about how triggers behave differently in tests versus real clients.",
+      "check": "exact"
+    },
+    {
+      "t": 2725.7,
+      "text": "There is some additional tool, it's called error behavior collect. On the procedure that run and checks it. So, inside it, collectible errors are",
+      "why_it_matters": "Introduces error behavior collect mechanism for gathering multiple errors without stopping execution.",
+      "check": "exact"
+    },
+    {
+      "t": 2845.7,
+      "text": "Lords actually said about it very clearly. If you clear the collected errors, the database changes won't be rolled back.",
+      "why_it_matters": "Explains critical difference between clearing errors and handling them - database changes persist.",
+      "check": "exact"
+    },
+    {
+      "t": 3001.5,
+      "text": "Rule one, commit first. Running has no survive a rollback and now the state is clean.",
+      "why_it_matters": "Establishes a key principle for transaction design in parallel processing patterns.",
+      "check": "exact"
+    },
+    {
+      "t": 3160.8,
+      "text": "I have eight items which I think are important. So, first, no insert, modify, or delete inside try function.",
+      "why_it_matters": "Establishes the foundational rule for safe transaction handling that prevents unwanted writes in exception contexts",
+      "check": "exact"
+    },
+    {
+      "t": 3172.4,
+      "text": "So, first, no insert, modify, or delete inside try function. Every commit has comment that says why.",
+      "why_it_matters": "First two items of code review checklist establishing best practices for transaction safety.",
+      "check": "exact"
+    },
+    {
+      "t": 3172.4,
+      "text": "Every commit has comment that says why. To skip a failed record and continue a like run each one if could you need run",
+      "why_it_matters": "Documents required documentation and proper loop handling patterns for transaction safety",
+      "check": "exact"
+    },
+    {
+      "t": 3259.8,
+      "text": "Catching is not undoing. Commit doesn't mean save my path. It means everything so far is final.",
+      "why_it_matters": "Clarifies misconceptions about error handling and commit semantics that are critical for proper transaction design",
+      "check": "exact"
+    },
+    {
+      "t": 3271,
+      "text": "If could you need run is as good as undo button and only works on a clean state",
+      "why_it_matters": "Explains the fundamental mechanism for rolling back transactions in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 3420.7,
+      "text": "By default on any on-premise installation, it will this setting will be set it to that way that if you ...",
+      "why_it_matters": "Documents the on-premise default behavior for try functions, which differs from online",
+      "check": "exact"
+    },
+    {
+      "t": 3433.2,
+      "text": "In Business Central online, it has the same settings, right? But it's set it to other way. And in online, it's allowing you to",
+      "why_it_matters": "Explains the critical difference between on-premise and online behavior regarding writes in try blocks",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 296.1,
+      "kind": "other",
+      "text": "Microsoft MVP since 2025"
+    },
+    {
+      "t": 854.4,
+      "kind": "other",
+      "text": "On premises, the seller blocks any rights inside try methods by default."
+    },
+    {
+      "t": 2235.4,
+      "kind": "subject-to-change",
+      "text": "the documentation says this behavior might change in upcoming release"
+    },
+    {
+      "t": 3328.7,
+      "kind": "other",
+      "text": "I think it will be bad because it's not how publisher works by default"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 33,
+    "quotes_dropped": 2,
+    "evidence_verified": 1,
+    "evidence_unverified": 27
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026111999999999996
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0417019
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.047572500000000004
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017960999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.07978640000000001
+    }
+  ]
+}

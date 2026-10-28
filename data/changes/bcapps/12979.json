@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12979,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12979",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-26T21:22:28Z",
+  "merge_commit_sha": "8281bccc700bac22cdd3a3bdf8587466d8c01d62",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main] Consistent Error Posting GST Distribution Reversal",
+  "body_hash": "f6a6e6c41259bf804598b43373d47f6fe6ea8d6eda75883ffc987900b9dd0ee8",
+  "fixes_issues": [],
+  "work_items": [
+    654806
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/app/GSTDistribution/src/Codeunit/GSTDistribution.Codeunit.al",
+      "status": "modified",
+      "additions": 77,
+      "deletions": 20,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 77,
+    "deletions": 20,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "objects": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTDistribution/src/Codeunit/GSTDistribution.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/18200",
+        "type": "codeunit",
+        "id": 18200,
+        "name": "GST Distribution",
+        "app": "INGST",
+        "cc": "in",
+        "page": "codeunit/18200-in"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INGST"
+  ]
+}

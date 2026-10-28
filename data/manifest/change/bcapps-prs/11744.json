@@ -6,10 +6,35 @@
   "title": "Fixes #11605 - GetCurrencyCode Error",
   "url": "https://github.com/microsoft/BCApps/pull/11744",
   "published_at": "2026-10-26T16:12:22Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-27T00:21:39.999Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:53:55.606Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-28T08:54:01.303Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003139
+    },
+    "linked": {
+      "at": "2026-10-28T08:54:01.522Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-28T08:54:01.530Z",
+      "path": "content/changes/bcapps/11744.md"
     }
   },
   "input_hash": "8f8c069b4e885f54c83c057abe920fb05d812187:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "fixes 11605 getcurrencycode error"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ccb50ca003c3646f853b79141e2c77a933b87f27c963f1c4c7c24f268778d893"
 }

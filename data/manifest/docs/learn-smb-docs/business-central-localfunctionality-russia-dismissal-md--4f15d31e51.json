@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Dismissal",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.847Z",
-      "blob": "019cb27aa6f24f3e8f3018757edf4af4d3b54b6c",
+      "at": "2026-10-28T08:53:54.475Z",
+      "blob": "40c48ee55ab09b5b929d44f9a82ce4a4539f2903",
       "words": 217,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:01.565Z",
+      "at": "2026-10-28T08:54:05.246Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00367
+      "cost_usd": 0.003068
     },
     "summarized": {
-      "at": "2026-10-06T19:16:03.316Z",
+      "at": "2026-10-28T08:54:05.248Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:03.317Z",
+      "at": "2026-10-28T08:54:05.250Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:03.318Z",
+      "at": "2026-10-28T08:54:05.251Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/Dismissal.md",
     "description": "Russian localization includes features for managing employee dismissals.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-26",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "employee dismissal",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 217,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "002fff19f73516e5e52ad84d556786b7a69f4c202dfa8ff92f4520589d58fef1"
+  "output_hash": "1dac20b93d9150b802db7c78d05d7cf7e3126caa4e64e8f189f2dd5387d012e2"
 }

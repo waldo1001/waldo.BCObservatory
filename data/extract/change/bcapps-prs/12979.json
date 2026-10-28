@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12979",
+  "number": 12979,
+  "title": "[Main] Consistent Error Posting GST Distribution Reversal",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "GST Distribution Reversal posting now correctly handles rounding differences when distributed GST amounts contain decimals, applying the rounding adjustment to the first matching component line credit amount.",
+  "key_points": [
+    "GST amounts are rounded per component line during distribution, creating rounding differences",
+    "Normal distributions apply rounding difference to the debit amount, but reversals did not",
+    "Reversals failed because total credit amounts differed from original GST amount by the rounding difference",
+    "Solution applies the same rounding logic to reversals by adding the difference to the first matching component line credit amount",
+    "Whole amount reversals were not affected and continue to work"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Posting a GST Distribution Reversal fails with an error when the distributed GST amounts have decimals.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003483,
+    "changes_in_call": 1
+  }
+}

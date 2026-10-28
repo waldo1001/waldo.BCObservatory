@@ -1,0 +1,26 @@
+{
+  "video_id": "a3j6JjyWDv0",
+  "item_id": "video/yt-areopa/a3j6JjyWDv0",
+  "summary": "AL transaction and error handling in Business Central: what rollback does and does not undo, why try functions do not undo writes online, how Commit and the CommitBehavior attribute work, and how to test and review transaction code. Includes patterns for external integration and batch processing.",
+  "overview": "The session explains how the AL runtime manages database transactions. A write transaction starts on the first insert, modify or delete and commits when code ends without error. Rollback undoes only writes to normal tables since the last commit. Variables, temporary records, single instance codeunit state, HTTP calls, emails and telemetry are not undone. The speaker uses this to explain posting preview, which relies on temporary data surviving an intentional rollback.\n\nThe talk then covers the common failure patterns and the tools to avoid them. Try functions catch errors but do not undo writes; online allows writes in try methods, while on-premises blocks them by default. Explicit commits make earlier work final. CommitBehavior can ignore or error on commits in called code. Error-scoped codeunits used with a return value act as a scoped undo. The talk also covers test transaction models, ErrorInfo with fix-it actions, collectible errors, an outbox pattern for external systems, a batch checkpoint pattern, and an eight-item code review checklist.",
+  "key_points": [
+    "Rollback undoes inserts, modifies and deletes on normal tables since the last commit. It does not undo variables, temporary records, single instance codeunit state, HTTP calls, sent emails or telemetry.",
+    "A try function catches the error but does not undo writes made inside it. Online allows writes in try methods; on-premises blocks them by default (an NST setting that can be changed on-premises but not online). The documentation says this behavior might change in an upcoming release.",
+    "A try function only forms a boundary when its return value is used. A bare call is an ordinary call and the error propagates.",
+    "Commit makes everything since the last commit final, including callers' and subscribers' writes. Each commit should have a comment saying why, and the state after it must be recoverable.",
+    "CommitBehavior on a procedure or event can ignore commits or raise an error on them. The stricter rule wins in parent-child combinations, and the attribute cannot be conditional.",
+    "Running a codeunit with its Boolean return value (if Codeunit.Run) works as a scoped undo, but only from a clean state. Commit first if a write transaction is open; the runtime enforces this, the compiler does not.",
+    "For external systems, write to an outbox table and send after commit through the job queue. Use stable request IDs such as SystemId so retries are safe. Avoid HTTP calls inside write transactions because locks are held for the whole call."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "1e2a4db847b5522a40e1edafc65a2254e2e351c8a651d4fa9aa9aff256a0acdb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0370444
+  }
+}

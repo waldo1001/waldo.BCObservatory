@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13216",
+  "number": 13216,
+  "title": "Fix VAT adjustment register",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "VAT adjustment register calculation corrected in Gen. Jnl.-Post Line codeunit across multiple localization layers with accompanying test coverage.",
+  "key_points": [
+    "Fixed VAT adjustment register posting logic in the Gen. Jnl.-Post Line codeunit",
+    "Change applied consistently across all localization layers (W1, APAC, BE, CH, ES, FI, FR, IT, NA, NO, RU, CZ)",
+    "Test cases added to verify correct VAT adjustment register behavior",
+    "Minimal code changes focused on the core issue"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004147,
+    "changes_in_call": 1
+  }
+}

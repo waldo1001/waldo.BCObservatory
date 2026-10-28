@@ -2,37 +2,36 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee",
   "title": "Establishment of charges and deductions in Russia",
-  "blob": "534268c10e19bf5b51616b41c5b3b52cd52a4f94",
-  "summary": "Establishment of charges and deductions in Russia uses Employee Journal to record bonuses, fines, benefits, deductions, and assistance for employees, with automatic inclusion in payroll based on start and end dates.",
+  "blob": "50192c3e4c152d2e66e325e6176a69227b8291fc",
+  "summary": "Employee Journal is used to establish charges and deductions for employees in Russia, including bonuses, fines, benefits, and financial assistance. The journal records payroll elements that are automatically included in payroll calculations based on start and end dates.",
   "systems": [
     "hr"
   ],
   "topics": [
+    "employee journal",
     "payroll",
-    "employee charges",
-    "deductions",
-    "russia local"
+    "charges and deductions",
+    "russia",
+    "personnel orders",
+    "payroll elements"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "other",
       "name": "Employee Journal"
     },
     {
-      "type": "page",
+      "type": "other",
       "name": "Employee Ledger Entries"
-    },
-    {
-      "type": "page",
-      "name": "Employee Card"
     }
   ],
   "features": [
-    "Charge recording",
-    "Deduction management",
+    "Employee Journal posting",
+    "Charges and deductions recording",
     "Payroll element codes",
-    "Charge closure and updates",
-    "Wage period assignment"
+    "Period code management",
+    "Close or Update operations",
+    "Employee card accrual list"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002808,
-      "pages_in_call": 8
+      "cost_usd": 0.003804,
+      "pages_in_call": 1
     }
   ]
 }

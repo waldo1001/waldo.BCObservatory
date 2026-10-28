@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11744",
+  "number": 11744,
+  "title": "Fixes #11605 - GetCurrencyCode Error",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The GetCurrencyCode procedure in the CODA Statement table now returns an empty string instead of throwing an error when the bank account is not found.",
+  "key_points": [
+    "GetCurrencyCode no longer raises an error if bank account lookup fails",
+    "The procedure returns an empty string in that case",
+    "Affects CODA statement handling in Belgium localization",
+    "Error condition previously prevented normal processing"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "The GetCurrencyCode() procedure should not throw an error if the Bank Account is not found.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003139,
+    "changes_in_call": 1
+  }
+}

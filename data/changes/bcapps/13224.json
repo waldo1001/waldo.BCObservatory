@@ -1,0 +1,94 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13224,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13224",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-26T14:19:21Z",
+  "merge_commit_sha": "9dd05770b6b8604a92d3f913375b2128676053a3",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.X]-\"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify\" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.",
+  "body_hash": "ca569241a34971ba778f0e882afeb59fdf7d31291afaa66436aa238330f4b008",
+  "fixes_issues": [],
+  "work_items": [
+    655905
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Ledger/GLRegister.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Ledger/GLRegister.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Ledger/GLRegister.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 18,
+    "deletions": 7,
+    "al": 3
+  },
+  "join": {
+    "major": "29",
+    "commit": "4c1c1638beb6d5da8540cc1f61889b80c7b3356f",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Ledger/GLRegister.Table.al",
+        "status": "modified",
+        "key": "table/45",
+        "type": "table",
+        "id": 45,
+        "name": "G/L Register",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/45"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Ledger/GLRegister.Table.al",
+        "status": "modified",
+        "key": "table/45",
+        "type": "table",
+        "id": 45,
+        "name": "G/L Register",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/45"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Ledger/GLRegister.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

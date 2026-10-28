@@ -6,10 +6,35 @@
   "title": "[29.X]-\"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify\" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.",
   "url": "https://github.com/microsoft/BCApps/pull/13224",
   "published_at": "2026-10-26T14:19:21Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-27T00:21:39.999Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:54:09.898Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-28T08:54:16.460Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.0031
+    },
+    "linked": {
+      "at": "2026-10-28T08:54:16.738Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "4c1c1638beb6d5da8540cc1f61889b80c7b3356f"
+    },
+    "published": {
+      "at": "2026-10-28T08:54:16.747Z",
+      "path": "content/changes/bcapps/13224.md"
     }
   },
   "input_hash": "9dd05770b6b8604a92d3f913375b2128676053a3:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "your license does not grant you the following permissions on tabledata 17 g l entry modify if you update registers from g l registers page for old entries with g l register no 0"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "580b0c49d00cb039ea693d768bfe06a91bef722f131d868058bf9086c54e88ae"
 }

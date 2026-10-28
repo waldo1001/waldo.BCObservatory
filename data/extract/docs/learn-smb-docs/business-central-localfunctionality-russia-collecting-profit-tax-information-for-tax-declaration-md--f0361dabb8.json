@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/collecting-profit-tax-information-for-tax-declaration.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/collecting-profit-tax-information-for-tax-declaration",
   "title": "Collecting profit tax information in Russia",
-  "blob": "086654cf835d20c832f9646e0add90511f75250d",
-  "summary": "Collecting profit tax information for tax declaration in Russia by using synthetic tax registers split into supplements according to source data.",
+  "blob": "d52a85dd5ec48d2132d7c99d7c058b6e876e46c6",
+  "summary": "Collecting profit tax information for tax declaration in Russia involves using synthetic tax registers in the tax accounting module to organize profit tax declaration data by supplement source, including profit calculation, sales income, costs, and losses.",
   "systems": [
     "finance",
     "localization",
@@ -13,18 +13,20 @@
     "tax accounting",
     "profit tax",
     "tax declaration",
+    "russia",
     "tax registers",
-    "russia"
+    "synthetic registers"
   ],
   "objects": [],
   "features": [
-    "Profit Tax Declaration Reporting",
+    "Profit Tax Declaration",
     "Sheet 02 Profit Tax Calculation",
-    "Sales Income Supplement",
-    "Production and Sales Costs Supplement",
-    "Special Production and Sales Costs Supplement",
-    "Loss Amount Calculation Supplement",
-    "Non-Sales Costs Supplement"
+    "Supplement 1 Sales Income",
+    "Supplement 2 Production and Sales Costs",
+    "Supplement 3 Special Production and Sales Costs",
+    "Supplement 4 Loss Calculation",
+    "Supplement 6 Non-Sales Costs",
+    "Supplement 7 Non-Sales Costs and Losses"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00367,
-      "pages_in_call": 8
+      "cost_usd": 0.003326,
+      "pages_in_call": 1
     }
   ]
 }

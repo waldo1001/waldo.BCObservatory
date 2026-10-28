@@ -1,0 +1,74 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11744,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11744",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-26T16:12:22Z",
+  "merge_commit_sha": "8f8c069b4e885f54c83c057abe920fb05d812187",
+  "author": "Warren-BR",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "Fixes #11605 - GetCurrencyCode Error",
+  "body_hash": "f27f7f93ecd51f5c19ea9302f509786eea9a7a0bec1c7dbca8914b99c97f2781",
+  "fixes_issues": [
+    11605
+  ],
+  "work_items": [
+    653658
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/BaseApp/Local/BankMgt/Statement/CODAStatement.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "objects": [
+      {
+        "path": "src/Layers/BE/BaseApp/Local/BankMgt/Statement/CODAStatement.Table.al",
+        "status": "modified",
+        "key": "table/2000040",
+        "type": "table",
+        "id": 2000040,
+        "name": "CODA Statement",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/2000040-be"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ],
+  "issues": [
+    {
+      "number": 11605,
+      "title": "[Bug]: [BE] GetCurrencyCode on Coda Statement throws Error",
+      "state": "closed"
+    }
+  ]
+}

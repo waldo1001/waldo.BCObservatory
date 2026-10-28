@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13255",
+  "number": 13255,
+  "title": "[Main]-Exporting vendor remittance gets stuck when a payment jour nal is sorted by Document No.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed vendor remittance export hanging when a payment journal is sorted by Document No. The export now uses primary key order instead of the current sort order to prevent lines from being processed repeatedly.",
+  "key_points": [
+    "Export loop now uses primary key order (Journal Template Name, Journal Batch Name, Line No.) instead of the journal's current sort order",
+    "Prevents lines from resorting during processing when Document No. is updated",
+    "Each line is now exported exactly once instead of repeatedly",
+    "Added regression test ExportPaymentJournalSortedByDocumentNo"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003554,
+    "changes_in_call": 1
+  }
+}

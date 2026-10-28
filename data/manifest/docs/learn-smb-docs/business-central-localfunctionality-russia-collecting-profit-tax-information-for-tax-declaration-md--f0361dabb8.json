@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/collecting-profit-tax-information-for-tax-declaration",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.842Z",
-      "blob": "086654cf835d20c832f9646e0add90511f75250d",
+      "at": "2026-10-28T08:53:38.341Z",
+      "blob": "d52a85dd5ec48d2132d7c99d7c058b6e876e46c6",
       "words": 179,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:01.564Z",
+      "at": "2026-10-28T08:53:51.551Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00367
+      "cost_usd": 0.003326
     },
     "summarized": {
-      "at": "2026-10-06T19:16:01.571Z",
+      "at": "2026-10-28T08:53:51.552Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:01.572Z",
+      "at": "2026-10-28T08:53:51.553Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:01.573Z",
+      "at": "2026-10-28T08:53:51.554Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/collecting-profit-tax-information-for-tax-declaration.md",
     "description": "Russian localization provides features for collecting and reporting profit tax information required for tax declarations.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-26",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "tax declaration",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 179,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2166cd066e82dafa2f35d12cdb5d6f259c026964810b4a97bb20a3185f8fa803"
+  "output_hash": "2b5742f79f56095271c75af3ca25f4e26a3481d0a051933e4272f8abdb4c756b"
 }

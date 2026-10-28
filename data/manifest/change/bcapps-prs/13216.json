@@ -6,10 +6,35 @@
   "title": "Fix VAT adjustment register",
   "url": "https://github.com/microsoft/BCApps/pull/13216",
   "published_at": "2026-10-26T13:25:21Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-27T00:21:39.999Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:54:10.295Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-28T08:54:17.829Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004147
+    },
+    "linked": {
+      "at": "2026-10-28T08:54:23.632Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-28T08:54:23.640Z",
+      "path": "content/changes/bcapps/13216.md"
     }
   },
   "input_hash": "672c95bb3bf830849d5281b4fd2651f7ba404685:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix vat adjustment register"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fe683a6bdda1d855f9f95d3b179699ada29b4cc053b60bed517d24abb950fdb3"
 }

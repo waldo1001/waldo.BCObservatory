@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Absence-registration",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:41:21.200Z",
+      "at": "2026-10-28T08:53:24.656Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003061
+      "cost_usd": 0.003561
     },
     "summarized": {
-      "at": "2026-10-06T18:41:22.974Z",
+      "at": "2026-10-28T08:53:24.658Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:41:22.975Z",
+      "at": "2026-10-28T08:53:24.659Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:41:22.976Z",
+      "at": "2026-10-28T08:53:24.660Z",
       "page": false
     }
   },
@@ -59,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "73f3a607dfbb72c142c0e079526b47bd37e7e835"
+  "output_hash": "46e0009b0aea18fdd801baa5574e59082aa7759ecd183bcb176138bc4835b3a0"
 }
