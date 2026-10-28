@@ -2,29 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-constant.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-constant",
   "title": "Defining Financial Report Constants in Russia",
-  "blob": "0179046369576eabb9b8833e866f13531aa17e98",
-  "summary": "Define financial report constants in Russia by selecting a constant totaling type and entering a constant value in the financial report row configuration.",
+  "blob": "b58fb11ca9b5bc47ac9b986781977793bb3397bd",
+  "summary": "Defining financial report constants in Russia involves selecting a financial report, editing row definitions, and setting the totaling type to constant with a specific value.",
   "systems": [
     "finance",
     "localization",
     "reporting"
   ],
   "topics": [
-    "financial report",
-    "account schedule",
+    "financial reports",
+    "account schedules",
     "constants",
-    "russia localization"
+    "row definitions",
+    "russia"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Financial Report"
+      "name": "Financial Reports"
     }
   ],
   "features": [
-    "Constant totaling type",
-    "Totaling field",
-    "Row configuration"
+    "constant definition",
+    "row definition editing",
+    "totaling type",
+    "financial report configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003087,
-      "pages_in_call": 7
+      "cost_usd": 0.002926,
+      "pages_in_call": 1
     }
   ]
 }

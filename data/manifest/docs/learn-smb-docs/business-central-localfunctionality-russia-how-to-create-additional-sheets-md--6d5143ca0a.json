@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-additional-sheets",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.418Z",
-      "blob": "b0df24fa04f3c48b1311f99caf7ebcfe5305e7c2",
-      "words": 635,
+      "at": "2026-10-28T09:11:54.584Z",
+      "blob": "a33220a126b60a26796a4ee63102714c3e0b9eff",
+      "words": 669,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:14.551Z",
+      "at": "2026-10-28T09:12:01.537Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003478
+      "objects": 5,
+      "cost_usd": 0.004085
     },
     "summarized": {
-      "at": "2026-10-06T19:13:22.027Z",
+      "at": "2026-10-28T09:12:01.539Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:22.028Z",
+      "at": "2026-10-28T09:12:01.540Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:22.029Z",
+      "at": "2026-10-28T09:12:01.541Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-create-additional-sheets.md",
     "description": "Russian localization provides additional sheets for VAT purchase and sales ledgers to support regulatory requirements.",
-    "ms_date": "2025-07-14",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "VAT purchase",
       "VAT sales ledgerRussia"
     ],
-    "ai_usage": null,
-    "words": 635,
+    "ai_usage": "ai-assisted",
+    "words": 669,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0c4c267370bec725e9d7e4ae4e5119189f00d8a7e41444227a6b96bca9310eb3"
+  "output_hash": "3a9f1ccbdf42e28ab712eb5a47b4606fbd80406b76c44f61e93ccde66e264fc4"
 }

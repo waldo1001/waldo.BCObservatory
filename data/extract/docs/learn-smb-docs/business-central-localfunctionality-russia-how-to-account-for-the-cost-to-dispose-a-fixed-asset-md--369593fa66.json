@@ -2,39 +2,44 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-account-for-the-cost-to-dispose-a-fixed-asset.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-account-for-the-cost-to-dispose-a-fixed-asset",
   "title": "Account for the cost to dispose fixed asset in Russia",
-  "blob": "7b41f0aaefb2f7c3e6e831fc23da8067a943354f",
-  "summary": "Accounting for fixed asset disposal costs enables posting maintenance expenses for asset disposal through fixed asset journals and purchase documents, with results printed in FA Write-Off Act reports.",
+  "blob": "f583ad07d0375264fe176fe988356311060a62d6",
+  "summary": "How to account for fixed asset disposal expenses in Russia using maintenance on disposal feature, posting from journals and documents, and printing FA Write-Off Act reports.",
   "systems": [
-    "fixed-assets",
-    "finance",
-    "localization"
+    "fixed-assets"
   ],
   "topics": [
     "fixed assets",
+    "russia",
+    "localization",
     "disposal",
-    "maintenance costs",
-    "expense posting",
-    "russia"
+    "maintenance",
+    "accounting"
   ],
   "objects": [
     {
-      "type": "table",
+      "type": "page",
+      "name": "Fixed Asset Setup"
+    },
+    {
+      "type": "page",
       "name": "Fixed Asset G/L Journal"
     },
     {
       "type": "report",
-      "name": "FA Write-off Act"
+      "name": "FA Write-off Act FA-4"
     },
     {
-      "type": "table",
-      "name": "Fixed Asset Setup"
+      "type": "report",
+      "name": "FA Write-off Act FA-4a"
     }
   ],
   "features": [
-    "Maintenance on disposal",
-    "Disposal expense posting",
-    "Maintenance code setup",
-    "FA Write-Off Act reporting"
+    "maintenance on disposal",
+    "fixed asset disposal expenses",
+    "FA posting type maintenance",
+    "maintenance code",
+    "On Disposal Maintenance Code",
+    "FA Write-Off Act reports"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003091,
-      "pages_in_call": 7
+      "cost_usd": 0.003603,
+      "pages_in_call": 1
     }
   ]
 }

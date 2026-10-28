@@ -2,18 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-create-a-fixed-asset-charge.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-a-fixed-asset-charge",
   "title": "Creating fixed asset charges in Russia",
-  "blob": "688db1be27f18dfadb851f69cdc00340827f445a",
-  "summary": "Creating fixed asset charges defines new fixed asset charge codes with posting groups, dimensions, and tax accounting settings through the FA Charge Card.",
+  "blob": "328f59ae43aae9dfe4057196b6fb17c093d244b0",
+  "summary": "Creating fixed asset charges in Russia involves filling in the FA Charge Card with fields like charge code, description, posting groups, dimensions, and GL accounts for tax accounting purposes.",
   "systems": [
     "fixed-assets",
-    "finance",
     "localization"
   ],
   "topics": [
     "fixed asset charges",
+    "russia",
     "posting groups",
     "tax accounting",
-    "russia"
+    "gl accounts"
   ],
   "objects": [
     {
@@ -22,10 +22,13 @@
     }
   ],
   "features": [
-    "Fixed asset charge setup",
-    "Posting group configuration",
-    "Tax accounting exclusion",
-    "Dimension assignment"
+    "fixed asset charge code",
+    "product posting groups",
+    "VAT posting groups",
+    "global dimensions",
+    "tax accounting exclusion",
+    "GL account posting",
+    "tax difference codes"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003091,
-      "pages_in_call": 7
+      "cost_usd": 0.003057,
+      "pages_in_call": 1
     }
   ]
 }

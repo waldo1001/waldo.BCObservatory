@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-the-torg-29-goods-report",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.516Z",
-      "blob": "25aeb7b73a766ad5a61a67c353c7bc90dba47969",
-      "words": 515,
+      "at": "2026-10-28T09:12:00.454Z",
+      "blob": "4b38b85f630b425f8e409f34e19dde501ddee070",
+      "words": 538,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:56.743Z",
+      "at": "2026-10-28T09:12:10.233Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.003087
+      "objects": 1,
+      "cost_usd": 0.003887
     },
     "summarized": {
-      "at": "2026-10-06T19:13:56.753Z",
+      "at": "2026-10-28T09:12:10.235Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:56.754Z",
+      "at": "2026-10-28T09:12:10.236Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:56.755Z",
+      "at": "2026-10-28T09:12:10.238Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-create-the-torg-29-goods-report.md",
     "description": "Russian localization provides support for generating the TORG-29 goods report.",
-    "ms_date": "2025-07-14",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "goods report",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 515,
+    "ai_usage": "ai-assisted",
+    "words": 538,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6e995c6324b95da9f7ea5d1731a96f5ccc137ce38eed8c7d137fec2736799801"
+  "output_hash": "a4d57e7409c0d5ce13c57e94d104f2753f2f435e35bf8480e473861128f70fea"
 }

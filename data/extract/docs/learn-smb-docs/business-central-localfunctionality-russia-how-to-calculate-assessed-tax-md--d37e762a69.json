@@ -2,48 +2,54 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-calculate-assessed-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-calculate-assessed-tax",
   "title": "Calculate assessed tax in Russia",
-  "blob": "81ab786b179dfef46510a8cf575dc42cd68bbb08",
-  "summary": "Calculating assessed tax for fixed assets uses configuration in Fixed Asset Setup, Tax Authorities, and fixed asset cards to compute property tax based on regional codes and tax allowances in Russian tax accounting.",
+  "blob": "de78d25519cb9dc202d1a323765eb760ea66c369",
+  "summary": "Calculate assessed tax for fixed assets in Russia based on setup configuration, tax authorities, and fixed asset cards, with results exportable to Excel.",
   "systems": [
     "fixed-assets",
-    "finance",
     "localization"
   ],
   "topics": [
     "assessed tax",
     "fixed assets",
-    "property tax",
-    "tax allowances",
-    "russia"
+    "russia",
+    "tax calculation",
+    "tax authorities"
   ],
   "objects": [
     {
-      "type": "table",
+      "type": "page",
       "name": "Assessed Tax Allowances"
     },
     {
-      "type": "table",
+      "type": "page",
       "name": "Assessed Tax Codes"
     },
     {
-      "type": "table",
+      "type": "page",
       "name": "OKATO Codes"
     },
     {
-      "type": "table",
-      "name": "Fixed Asset Setup"
+      "type": "page",
+      "name": "Fixed Assets"
+    },
+    {
+      "type": "page",
+      "name": "Calculate Assessed Tax"
     },
     {
       "type": "table",
-      "name": "Calculate Assessed Tax"
+      "name": "Assessed Tax Allowance"
     }
   ],
   "features": [
     "Assessed tax calculation",
-    "Tax authority configuration",
-    "OKATO code management",
-    "Property type classification",
-    "Tax allowance application"
+    "Fixed Asset Setup",
+    "Tax Authorities",
+    "Excel export",
+    "Tax rates and allowances",
+    "Property types",
+    "OKATO codes",
+    "Tax amount paid abroad"
   ],
   "versions": [],
   "parts": 1,
@@ -52,8 +58,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003091,
-      "pages_in_call": 7
+      "cost_usd": 0.004545,
+      "pages_in_call": 1
     }
   ]
 }

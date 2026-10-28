@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-account-for-the-cost-to-dispose-a-fixed-asset",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.478Z",
-      "blob": "7b41f0aaefb2f7c3e6e831fc23da8067a943354f",
-      "words": 421,
+      "at": "2026-10-28T09:11:54.509Z",
+      "blob": "f583ad07d0375264fe176fe988356311060a62d6",
+      "words": 426,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:55.572Z",
+      "at": "2026-10-28T09:12:00.795Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003091
+      "objects": 4,
+      "cost_usd": 0.003603
     },
     "summarized": {
-      "at": "2026-10-06T19:13:56.756Z",
+      "at": "2026-10-28T09:12:00.798Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:56.757Z",
+      "at": "2026-10-28T09:12:00.799Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:56.757Z",
+      "at": "2026-10-28T09:12:00.800Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-account-for-the-cost-to-dispose-a-fixed-asset.md",
     "description": "Russian functionality lets you record and report expenses related to the disposal of fixed assets.",
-    "ms_date": "2025-07-14",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "maintenance code",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 421,
+    "ai_usage": "ai-assisted",
+    "words": 426,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1ba63edf444b44b718d61f1c1f99916307c7d61903d68e12aa329dbae6f75b68"
+  "output_hash": "dc97becdf551f5b1a2bbb5a3bd9ce7df797f73940143df803cbf578a70fbbae0"
 }

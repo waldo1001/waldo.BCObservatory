@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-cash-account-cards",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.502Z",
-      "blob": "37133948cce4c721b836e9aec9c629dd8e33beb7",
+      "at": "2026-10-28T09:12:00.369Z",
+      "blob": "24ea58f42d2d4cd0b68c8de56af3db5489aff634",
       "words": 186,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T21:27:13.492Z",
+      "at": "2026-10-28T09:12:05.167Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002467
+      "objects": 2,
+      "cost_usd": 0.003278
     },
     "summarized": {
-      "at": "2026-10-06T21:27:37.568Z",
+      "at": "2026-10-28T09:12:05.168Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T21:27:37.569Z",
+      "at": "2026-10-28T09:12:05.170Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T21:27:37.570Z",
+      "at": "2026-10-28T09:12:10.223Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-create-cash-account-cards.md",
     "description": "Russian enhancements include cash accounts.",
-    "ms_date": "2025-07-14",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "cash accounts",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 186,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "721b64b125044e4adca53782d88a267f825a6042aa0d80b6e2b516708afaf397"
+  "output_hash": "3cfc52e535da2fa06aff713c10a078c02d6d22ac3725fd9ed26d3573938d7430"
 }

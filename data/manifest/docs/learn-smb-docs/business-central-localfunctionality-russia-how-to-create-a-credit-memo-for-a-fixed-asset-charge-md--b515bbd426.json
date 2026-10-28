@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-a-credit-memo-for-a-fixed-asset-charge",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.492Z",
-      "blob": "09402838bf9d6d755c6fff37b134d5224bb134fd",
+      "at": "2026-10-28T09:11:54.548Z",
+      "blob": "5f7e0da8c9b0883bb8ed45a8cada5ebafb944303",
       "words": 126,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:55.574Z",
+      "at": "2026-10-28T09:12:00.405Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003091
+      "cost_usd": 0.002779
     },
     "summarized": {
-      "at": "2026-10-06T19:13:56.763Z",
+      "at": "2026-10-28T09:12:00.406Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:56.765Z",
+      "at": "2026-10-28T09:12:00.407Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:56.766Z",
+      "at": "2026-10-28T09:12:00.407Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-create-a-credit-memo-for-a-fixed-asset-charge.md",
     "description": "In Russia, you can create credit memos for fixed asset charges to correct errors on posted invoices.",
-    "ms_date": "2025-07-14",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "invoice correction",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 126,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7242509548401da4e12cd2e75d765c57505dbfc9fc1c32fe4003df02fd41a6e0"
+  "output_hash": "84e6c7f52d1b8dc223a04aa219f562774094196c0917173f66b6257730afa234"
 }

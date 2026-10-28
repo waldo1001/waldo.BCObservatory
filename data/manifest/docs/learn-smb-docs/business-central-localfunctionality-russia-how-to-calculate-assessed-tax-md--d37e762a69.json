@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-calculate-assessed-tax",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.485Z",
-      "blob": "81ab786b179dfef46510a8cf575dc42cd68bbb08",
-      "words": 656,
+      "at": "2026-10-28T09:11:54.566Z",
+      "blob": "de78d25519cb9dc202d1a323765eb760ea66c369",
+      "words": 675,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:55.573Z",
+      "at": "2026-10-28T09:12:01.331Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.003091
+      "objects": 6,
+      "cost_usd": 0.004545
     },
     "summarized": {
-      "at": "2026-10-06T19:13:56.758Z",
+      "at": "2026-10-28T09:12:01.333Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:56.759Z",
+      "at": "2026-10-28T09:12:01.335Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:56.760Z",
+      "at": "2026-10-28T09:12:01.336Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-calculate-assessed-tax.md",
     "description": "The Russian localization enables calculation of assessed tax for fixed assets, supporting compliance with local tax requirements.",
-    "ms_date": "2025-07-14",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "tax calculation",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 656,
+    "ai_usage": "ai-assisted",
+    "words": 675,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f043703a8ecb2134d0166b4e0fd050de897967f00dff4fa020c03aa410b7dc56"
+  "output_hash": "49626ae2a62bb3f2345c18be0882bae7c1e1f2b25ced1dc98bb17687ad4d42d8"
 }

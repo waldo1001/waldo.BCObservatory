@@ -2,26 +2,49 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-create-additional-sheets.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-additional-sheets",
   "title": "Create additional sheets in Russia",
-  "blob": "b0df24fa04f3c48b1311f99caf7ebcfe5305e7c2",
-  "summary": "Create additional sheets in Russia describes creating additional VAT ledger sheets from VAT purchase and sales ledgers, including corrective documents and entries for Russian tax compliance.",
+  "blob": "a33220a126b60a26796a4ee63102714c3e0b9eff",
+  "summary": "Creating additional sheets in Russia for VAT purchase and sales ledgers, including procedures for generating entries, exporting to Excel, and handling corrective documents for tax compliance.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "vat ledger",
-    "russia localization",
+    "vat",
+    "tax compliance",
+    "russia",
     "additional sheets",
     "corrective documents",
-    "tax accounting"
+    "tax ledgers"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Ledger List"
+    },
+    {
+      "type": "page",
+      "name": "VAT Purchase Ledger Card"
+    },
+    {
+      "type": "page",
+      "name": "VAT Sales Ledger Card"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Credit Memo"
+    }
+  ],
   "features": [
-    "VAT purchase ledger",
-    "VAT sales ledger",
-    "corrective documents",
-    "additional VAT sheets",
-    "period types"
+    "Create Additional Sheet action",
+    "Export Add. Sheet",
+    "Period Type selection",
+    "Corrective documents",
+    "Additional VAT posting",
+    "Tax Register Setup"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003478,
-      "pages_in_call": 8
+      "cost_usd": 0.004085,
+      "pages_in_call": 1
     }
   ]
 }

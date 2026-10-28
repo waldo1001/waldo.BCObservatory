@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-create-a-credit-memo-for-a-fixed-asset-charge.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-a-credit-memo-for-a-fixed-asset-charge",
   "title": "Creating credit memos in Russia",
-  "blob": "09402838bf9d6d755c6fff37b134d5224bb134fd",
-  "summary": "Creating credit memos for fixed asset charges corrects errors on fixed asset charges in purchase invoices through the Purchase Credit Memo page.",
+  "blob": "5f7e0da8c9b0883bb8ed45a8cada5ebafb944303",
+  "summary": "Creating credit memos for fixed asset charges in Russia involves posting a credit memo through the Purchase Credit Memo page to correct errors on invoices, or copying the original invoice.",
   "systems": [
     "fixed-assets",
     "purchasing",
@@ -11,9 +11,10 @@
   ],
   "topics": [
     "credit memo",
-    "fixed assets",
-    "purchase invoices",
-    "russia"
+    "fixed asset charge",
+    "russia",
+    "error correction",
+    "invoice"
   ],
   "objects": [
     {
@@ -22,8 +23,9 @@
     }
   ],
   "features": [
-    "Credit memo creation",
-    "Fixed asset charge correction"
+    "credit memo creation",
+    "fixed asset charge correction",
+    "invoice copying"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003091,
-      "pages_in_call": 7
+      "cost_usd": 0.002779,
+      "pages_in_call": 1
     }
   ]
 }

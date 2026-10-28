@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-vat-ledgers",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.521Z",
-      "blob": "ca3a4a40a0c41d858b339d956def6e4b6b13851d",
-      "words": 264,
+      "at": "2026-10-28T09:12:00.868Z",
+      "blob": "bfe48a7574b9f27ddc423d199a0fbee0285893ff",
+      "words": 263,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:56.744Z",
+      "at": "2026-10-28T09:12:10.261Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003087
+      "cost_usd": 0.003451
     },
     "summarized": {
-      "at": "2026-10-06T19:13:56.779Z",
+      "at": "2026-10-28T09:12:10.262Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:56.781Z",
+      "at": "2026-10-28T09:12:10.264Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:56.782Z",
+      "at": "2026-10-28T09:12:10.265Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-create-vat-ledgers.md",
     "description": "Learn how to create VAT ledgers in Business Central for Russian businesses, including sales and purchase ledgers for different customer groups.",
-    "ms_date": "2025-07-14",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "purchase ledger",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 264,
+    "ai_usage": "ai-assisted",
+    "words": 263,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "14c8901d15417417e0ee77cf601dd102776d0fa6cde5b4f2cf72fc4d6823fdee"
+  "output_hash": "f00f990fce8f9e962c4cdac15897f3f4ad4d13f167842ea8acde5852c6e2fc45"
 }
