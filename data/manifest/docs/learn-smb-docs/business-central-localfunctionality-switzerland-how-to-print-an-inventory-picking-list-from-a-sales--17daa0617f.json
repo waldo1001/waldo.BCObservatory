@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print an Inventory Picking List from a Sales Order in Switzerland",
+  "title": "Print a Sales Order Picking List in Switzerland",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.934Z",
-      "blob": "d98448e8a0f419b39ed7a402eb187b3a23b398a6",
-      "words": 159,
+      "at": "2026-10-28T09:08:10.677Z",
+      "blob": "5a3b94d37589c36007d3eddb057e33aaf5d0c996",
+      "words": 148,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:55.096Z",
+      "at": "2026-10-28T09:08:16.036Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002246
+      "objects": 0,
+      "cost_usd": 0.002869
     },
     "summarized": {
-      "at": "2026-10-06T19:27:56.905Z",
+      "at": "2026-10-28T09:08:16.038Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:56.906Z",
+      "at": "2026-10-28T09:08:16.041Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:56.908Z",
+      "at": "2026-10-28T09:08:16.042Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md",
-    "description": "Learn how to print an inventory picking list directly from a sales order in the Swiss version of Business Central.",
-    "ms_date": "2025-04-29",
+    "description": "Print an inventory picking list from a sales order in the Swiss version of Business Central, with location, bin, and shipping quantity information.",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "print picking list",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 159,
+    "ai_usage": "ai-assisted",
+    "words": 148,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "05dccdf377a42a4fa0dd60602d1493e8094584f4ca224f333574f62e9c64b2e8"
+  "output_hash": "f56ef0aec048a7cd28f23cfec340124743e4f8d49b398751ca99036bcd7ceffb"
 }

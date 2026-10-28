@@ -1,17 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-",
-  "title": "How to Print Swiss VAT Statements (older version)",
-  "blob": "8f61f07a333fabef79a0c4d1946c2ac449a27d70",
-  "summary": "Swiss VAT Statement report for printing quarterly VAT tax reporting including VAT entries, adjusting entries, and accounting sheets. Use this older version for backward compatibility.",
+  "title": "Print Swiss VAT Statements (Older Version)",
+  "blob": "808951f98c26ce09e15283c330b82aa1d465dcfa",
+  "summary": "The Swiss VAT Statement report calculates VAT quarterly including VAT entries, adjusting entries, and accounting sheets. Use this older version for backward compatibility or refer to the newer Swiss VAT statement report.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "swiss vat",
+    "vat",
     "tax reporting",
-    "vat statement",
+    "switzerland",
+    "swiss vat statement",
     "quarterly reporting"
   ],
   "objects": [
@@ -21,12 +22,14 @@
     }
   ],
   "features": [
-    "VAT entry printing",
+    "VAT entry calculation",
     "VAT adjusting entries",
-    "accounting sheet",
-    "closed journal filtering",
-    "open date settlement",
-    "VAT rate selection"
+    "Accounting sheet generation",
+    "Quarterly tax reporting",
+    "VAT rate selection (normal, reduced, special)",
+    "Journal filtering by closed periods",
+    "Posting display options",
+    "Chargeback visualization"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002137,
-      "pages_in_call": 8
+      "cost_usd": 0.003722,
+      "pages_in_call": 1
     }
   ]
 }

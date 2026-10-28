@@ -1,18 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-print-esr-invoices.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-esr-invoices",
-  "title": "How to print ESR invoices [CH]",
-  "blob": "4cb70185e9a8cd1f0574b07c61ce5b13dd35ddeb",
-  "summary": "Print ESR (Einzahlungsschein mit Referenznummer) invoices as sales invoice ESR reports or separate ESR coupons with deposit slips in the Swiss version.",
+  "title": "Print ESR Invoices in the Swiss Version [CH]",
+  "blob": "9900e10be652a4d4f7ddd5ede32c736a741035e6",
+  "summary": "Print ESR (Einzahlungsschein mit Referenznummer) payment slips in the Swiss version of Business Central as part of sales invoices or as separate ESR coupons. Configure printer settings and ESR setup to generate and print deposit slips correctly.",
   "systems": [
-    "sales",
-    "localization"
+    "localization",
+    "sales"
   ],
   "topics": [
-    "esr invoices",
+    "esr",
     "payment slips",
-    "sales invoices",
-    "switzerland"
+    "invoices",
+    "switzerland",
+    "printing",
+    "swiss payments"
   ],
   "objects": [
     {
@@ -20,19 +22,18 @@
       "name": "Sales Invoice ESR"
     },
     {
-      "type": "report",
-      "name": "Sales ESR Coupon"
-    },
-    {
       "type": "table",
       "name": "Printer Selection"
     }
   ],
   "features": [
-    "ESR System selection",
-    "ESR Bank code",
-    "LogInteraction option",
-    "ESR coupon printing"
+    "ESR payment slip printing",
+    "Sales invoice ESR report",
+    "ESR coupon report",
+    "No. of copies",
+    "ESR Bank selection",
+    "LogInteraction",
+    "ESR System selection"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002246,
-      "pages_in_call": 8
+      "cost_usd": 0.003818,
+      "pages_in_call": 1
     }
   ]
 }

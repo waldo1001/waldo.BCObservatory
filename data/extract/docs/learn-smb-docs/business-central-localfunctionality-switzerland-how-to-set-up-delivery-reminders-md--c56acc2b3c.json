@@ -1,21 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders",
-  "title": "Set up delivery reminders (CH)",
-  "blob": "cddce34cb297d0e2d6928f949d48f09b9716a7af",
-  "summary": "Setup page for configuring delivery reminders in the Swiss version. Use this to establish initial delivery reminder configuration.",
+  "title": "Set Up Delivery Reminders in the Swiss Version",
+  "blob": "978d98de2ec853dfcbd5b8c6ec515d676644d800",
+  "summary": "Set up delivery reminders in the Swiss version of Business Central by configuring reminder terms, levels, text, and vendor codes to track and manage late deliveries.",
   "systems": [
-    "purchasing",
-    "localization"
+    "localization",
+    "purchasing"
   ],
   "topics": [
     "delivery reminders",
-    "swiss",
+    "swiss localization",
+    "vendor management",
     "setup"
   ],
   "objects": [],
   "features": [
-    "delivery reminder setup"
+    "Delivery Reminders",
+    "Delivery Reminder Terms",
+    "Delivery Reminder Levels",
+    "Delivery Reminder Text",
+    "Delivery Reminder Codes"
   ],
   "versions": [],
   "parts": 1,
@@ -24,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002137,
-      "pages_in_call": 8
+      "cost_usd": 0.002836,
+      "pages_in_call": 1
     }
   ]
 }

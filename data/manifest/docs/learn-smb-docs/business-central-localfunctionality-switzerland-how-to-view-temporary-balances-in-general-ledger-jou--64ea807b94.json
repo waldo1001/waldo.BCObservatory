@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "View temporary balances in GL journals [CH]",
+  "title": "View Temporary General Journal Balances in Switzerland",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.972Z",
-      "blob": "c36769188667143ed6101366e51efc5ea2606830",
-      "words": 206,
+      "at": "2026-10-28T09:08:17.340Z",
+      "blob": "cafdd938a3238efff882be8db7db6f1e3e98f329",
+      "words": 219,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:27:54.444Z",
+      "at": "2026-10-28T09:08:25.781Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002137
+      "objects": 4,
+      "cost_usd": 0.003556
     },
     "summarized": {
-      "at": "2026-10-06T19:27:54.478Z",
+      "at": "2026-10-28T09:08:25.782Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:54.480Z",
+      "at": "2026-10-28T09:08:25.784Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:54.481Z",
+      "at": "2026-10-28T09:08:25.785Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals.md",
     "description": "Learn how to view temporary balances in general ledger journals that show the impact of a new transaction on general ledger account balances.",
-    "ms_date": "2025-04-30",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -60,12 +60,12 @@
       "general ledger journals",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 206,
+    "ai_usage": "ai-assisted",
+    "words": 219,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "debb7c38861303d871b1c36a21d5cb9a0cf26b612be7b79154ec8d572b7f97b8"
+  "output_hash": "2ce5dd25dc5a5978f0b634c5b04362b75ed350415f410dd52d810eac426e67fb"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to print ESR invoices [CH]",
+  "title": "Print ESR Invoices in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-esr-invoices",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.938Z",
-      "blob": "4cb70185e9a8cd1f0574b07c61ce5b13dd35ddeb",
-      "words": 318,
+      "at": "2026-10-28T09:08:10.643Z",
+      "blob": "9900e10be652a4d4f7ddd5ede32c736a741035e6",
+      "words": 322,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:27:55.098Z",
+      "at": "2026-10-28T09:08:16.760Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002246
+      "objects": 2,
+      "cost_usd": 0.003818
     },
     "summarized": {
-      "at": "2026-10-06T19:27:56.909Z",
+      "at": "2026-10-28T09:08:16.761Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:56.910Z",
+      "at": "2026-10-28T09:08:16.763Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:56.911Z",
+      "at": "2026-10-28T09:08:16.764Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-print-esr-invoices.md",
-    "description": "Learn how to print an Einzahlungsschein mit Referenznummer (ESR) payment slip invoices and coupons.",
-    "ms_date": "2025-04-29",
+    "description": "Review the earlier Swiss ESR workflow for printing payment slips with sales invoices or as separate coupons, including bank and reference options.",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -66,12 +66,12 @@
       "payment slip coupon",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 318,
+    "ai_usage": "ai-assisted",
+    "words": 322,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ee2d9bbf80b8c67062552ba62b4dca4059ae8f196e5d14723d7b0fdf1797b9e9"
+  "output_hash": "6199a1ada591795997a0d836de5bf747cb5bc7c0fa67349f3c7e75d63509ccc7"
 }

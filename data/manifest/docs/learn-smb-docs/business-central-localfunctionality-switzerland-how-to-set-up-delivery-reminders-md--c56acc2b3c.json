@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up delivery reminders (CH)",
+  "title": "Set Up Delivery Reminders in the Swiss Version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.967Z",
-      "blob": "cddce34cb297d0e2d6928f949d48f09b9716a7af",
+      "at": "2026-10-28T09:08:16.819Z",
+      "blob": "978d98de2ec853dfcbd5b8c6ec515d676644d800",
       "words": 33,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:27:54.443Z",
+      "at": "2026-10-28T09:08:25.767Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002137
+      "cost_usd": 0.002836
     },
     "summarized": {
-      "at": "2026-10-06T19:27:54.473Z",
+      "at": "2026-10-28T09:08:25.768Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:54.475Z",
+      "at": "2026-10-28T09:08:25.770Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:54.477Z",
+      "at": "2026-10-28T09:08:25.771Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders.md",
-    "description": "Learn how to use purchase delivery reminders to remind vendors about overdue deliveries.",
-    "ms_date": "2025-04-29",
-    "ms_topic": "article",
+    "description": "Set up purchase delivery reminders in the Swiss version of Business Central, including date selection and number series for reminders and issued reminders.",
+    "ms_date": "2026-10-19",
+    "ms_topic": "how-to",
     "search_form": [
       {
         "raw": "5005270",
@@ -65,12 +65,12 @@
       "vendor reminders",
       "Swiss version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 33,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "42a7f89ef6d6c2bcede4ce78fa90da61f471df40fcfe25dc4f83753f568dcb9c"
+  "output_hash": "5d21c46d87f90fe2e7935e67fb9fdcc05b759d17a27f7b4583bc4a1d08181878"
 }

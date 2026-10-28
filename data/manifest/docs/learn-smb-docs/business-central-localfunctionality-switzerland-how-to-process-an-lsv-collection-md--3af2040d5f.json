@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Process an LSV collection [CH]",
+  "title": "Process an LSV Collection in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-process-an-lsv-collection",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.959Z",
-      "blob": "bb4c784a81d76968626179bacca196054906432f",
-      "words": 448,
+      "at": "2026-10-28T09:08:16.390Z",
+      "blob": "a4c6c08fe98f9305feb0bc1cc7b6bff491f0cb02",
+      "words": 437,
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T19:27:54.440Z",
+      "at": "2026-10-28T09:08:25.804Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.002137
+      "objects": 5,
+      "cost_usd": 0.004004
     },
     "summarized": {
-      "at": "2026-10-06T19:27:54.463Z",
+      "at": "2026-10-28T09:08:25.806Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:54.464Z",
+      "at": "2026-10-28T09:08:25.808Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:54.465Z",
+      "at": "2026-10-28T09:08:25.809Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-process-an-lsv-collection.md",
     "description": "Learn how to create and process payments using LSV journals for Lastschrift Verfahren (LSV+) customers in the Swiss version of Business Central.",
-    "ms_date": "2025-04-29",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -82,12 +82,12 @@
       "LSV",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 448,
+    "ai_usage": "ai-assisted",
+    "words": 437,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2d72fffeb634e9c7db47b3af96b2f51b244bbb55a1193b1396497cf83bc45303"
+  "output_hash": "c2161234eea291a9e03260014cba1f7c1b43bf3d60b4373f3e67272a6050536e"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print Vendor Payments List Reports [CH]",
+  "title": "Print Vendor Payments List Reports in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.955Z",
-      "blob": "49cc52917f70369251df2672c4d8866dc9bd9ab5",
-      "words": 223,
+      "at": "2026-10-28T09:08:16.096Z",
+      "blob": "f1679a3085286fcbd962074de458b7a99884ee0d",
+      "words": 212,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:54.439Z",
+      "at": "2026-10-28T09:08:20.697Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002137
+      "cost_usd": 0.003255
     },
     "summarized": {
-      "at": "2026-10-06T19:27:54.457Z",
+      "at": "2026-10-28T09:08:25.753Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:54.459Z",
+      "at": "2026-10-28T09:08:25.755Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:54.461Z",
+      "at": "2026-10-28T09:08:25.757Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports.md",
-    "description": "Learn how to generate the Vendor Payments List report, which provides a detailed overview of payments for each vendor, sorted either chronologically or by vendor grouping.",
-    "ms_date": "2025-04-29",
+    "description": "Print a vendor payments list in the Swiss version of Business Central, sorted by vendor or chronologically, with local or foreign currency amounts.",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "vendor payments report",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 223,
+    "ai_usage": "ai-assisted",
+    "words": 212,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a8fe22c922094f53e6e7f8c074b903aa0d18a4124230b302017f638bac1d0103"
+  "output_hash": "b1ece7f1fcd14abe4c486e7de978af8c30a432e48b93b84330ba5cf82fe84de2"
 }

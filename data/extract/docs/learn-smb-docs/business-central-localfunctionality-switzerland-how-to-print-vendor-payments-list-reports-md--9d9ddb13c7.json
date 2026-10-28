@@ -1,19 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports",
-  "title": "Print Vendor Payments List Reports [CH]",
-  "blob": "49cc52917f70369251df2672c4d8866dc9bd9ab5",
-  "summary": "Vendor Payments List report for Austria, Germany, and Switzerland provides payment lists sorted by vendor or chronologically with multiple layout options. Use this for vendor payment reporting and analysis.",
+  "title": "Print Vendor Payments List Reports in the Swiss Version [CH]",
+  "blob": "f1679a3085286fcbd962074de458b7a99884ee0d",
+  "summary": "The Vendor Payments List report provides a list of vendor payments in the Swiss version of Business Central, with options to sort chronologically or by vendor and choose from Standard, FCY Amounts, or Posting Info layouts.",
   "systems": [
     "purchasing",
     "localization"
   ],
   "topics": [
     "vendor payments",
-    "swiss",
-    "austrian",
-    "german",
-    "payment reporting"
+    "reporting",
+    "swiss localization",
+    "payment processing"
   ],
   "objects": [
     {
@@ -22,11 +21,12 @@
     }
   ],
   "features": [
-    "sorting by vendor or chronologically",
-    "standard layout",
-    "FCY amounts layout",
-    "posting info layout",
-    "payment count reporting"
+    "Vendor sorting",
+    "Chronological sorting",
+    "Standard layout",
+    "FCY Amounts layout",
+    "Posting Info layout",
+    "Payment status display"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002137,
-      "pages_in_call": 8
+      "cost_usd": 0.003255,
+      "pages_in_call": 1
     }
   ]
 }

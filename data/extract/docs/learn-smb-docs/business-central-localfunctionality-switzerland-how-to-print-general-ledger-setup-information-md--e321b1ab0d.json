@@ -1,19 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information",
-  "title": "Print General Ledger Setup Information [CH]",
-  "blob": "5ca7ed9907881f4fa39d50868725842d2a026bb1",
-  "summary": "Run the G/L Setup Information report to display and verify master data for general ledger setup, posting groups, VAT setup, and number series compliance in the Swiss version.",
+  "title": "Print General Ledger Setup Information in the Swiss Version [CH]",
+  "blob": "5c70796355193b5bf62bfed54b488f6888fc53d0",
+  "summary": "The G/L Setup Information report in the Swiss version displays master data for general ledger setup, posting groups, VAT setup, and number series to help verify configuration and identify data export issues.",
   "systems": [
     "finance",
-    "localization"
+    "localization",
+    "reporting"
   ],
   "topics": [
-    "general ledger setup",
+    "swiss localization",
+    "general ledger",
+    "setup information",
+    "number series",
     "posting groups",
     "vat setup",
-    "switzerland",
-    "gdpdu compliance"
+    "gdpdu"
   ],
   "objects": [
     {
@@ -23,11 +26,13 @@
   ],
   "features": [
     "G/L Setup display",
-    "Posting Groups report",
-    "Posting Matrix report",
-    "VAT Setup report",
-    "Check Number Series",
-    "GDPdU compliance"
+    "Company Data display",
+    "Consolidation display",
+    "Posting Groups display",
+    "Posting Matrix display",
+    "VAT Setup display",
+    "Source Code display",
+    "Number Series validation"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002246,
-      "pages_in_call": 8
+      "cost_usd": 0.00351,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print test reports for delivery reminders [CH]",
+  "title": "Print Delivery Reminder Test Reports in Switzerland",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.951Z",
-      "blob": "017ffeadf4bf674892f0b1c1b0b0b054315005b8",
-      "words": 145,
+      "at": "2026-10-28T09:08:10.712Z",
+      "blob": "9bcf60369b13dcfa9e67667c0003b5ce8eeb7725",
+      "words": 135,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:54.438Z",
+      "at": "2026-10-28T09:08:16.337Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002137
+      "objects": 3,
+      "cost_usd": 0.003277
     },
     "summarized": {
-      "at": "2026-10-06T19:27:54.450Z",
+      "at": "2026-10-28T09:08:16.339Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:54.454Z",
+      "at": "2026-10-28T09:08:16.340Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:54.455Z",
+      "at": "2026-10-28T09:08:16.341Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md",
-    "description": "Learn how to print test reports for delivery reminders in the Swiss version of Business Central.",
-    "ms_date": "2025-04-29",
+    "description": "Print or preview delivery reminder test reports in the Swiss version of Business Central to review the reminder details before you issue them.",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "delivery reminders",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 145,
+    "ai_usage": "ai-assisted",
+    "words": 135,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a3196d34fdcd173430cb65ef36717a30e5bb34fb4e24a9e76dd7f68f2fa16f43"
+  "output_hash": "0ac03db53a25c53e0f57c541184917828df8ee73ac84aee2854c036b61df4193"
 }

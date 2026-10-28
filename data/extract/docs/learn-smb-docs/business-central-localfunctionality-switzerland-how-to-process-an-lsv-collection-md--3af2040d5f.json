@@ -1,26 +1,33 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-process-an-lsv-collection.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-process-an-lsv-collection",
-  "title": "Process an LSV collection [CH]",
-  "blob": "bb4c784a81d76968626179bacca196054906432f",
-  "summary": "LSV Journal process for creating and processing LSV+ (Lastschrift Verfahren) collection payments from Swiss customers. Use this to register payments, create LSV files, and print collection orders.",
+  "title": "Process an LSV Collection in the Swiss Version [CH]",
+  "blob": "a4c6c08fe98f9305feb0bc1cc7b6bff491f0cb02",
+  "summary": "Process LSV+ (Lastschrift Verfahren) collections from Swiss customers using the LSV Journal page to create, manage, and export payment collections.",
   "systems": [
-    "purchasing",
+    "finance",
     "localization"
   ],
   "topics": [
-    "lsv collection",
-    "swiss electronic payments",
-    "customer payments"
+    "lsv+",
+    "swiss payments",
+    "collections",
+    "cash receipts",
+    "batch jobs",
+    "payment processing"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "LSV Journal"
+    },
     {
       "type": "page",
       "name": "LSV Journal List"
     },
     {
       "type": "page",
-      "name": "LSV Journal"
+      "name": "LSV Suggest Collection"
     },
     {
       "type": "table",
@@ -32,12 +39,12 @@
     }
   ],
   "features": [
-    "LSV journal creation",
-    "LSV suggest collection batch job",
-    "payment registration",
-    "LSV file creation",
-    "collection order printing",
-    "discount marking"
+    "LSV Suggest Collection batch job",
+    "LSV Journal",
+    "Collection order printing",
+    "LSV file export",
+    "Payment discount marking",
+    "Multiple collection batch runs"
   ],
   "versions": [],
   "parts": 1,
@@ -46,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002137,
-      "pages_in_call": 8
+      "cost_usd": 0.004004,
+      "pages_in_call": 1
     }
   ]
 }

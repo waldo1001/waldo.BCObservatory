@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print General Ledger Setup Information [CH]",
+  "title": "Print General Ledger Setup Information in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.942Z",
-      "blob": "5ca7ed9907881f4fa39d50868725842d2a026bb1",
-      "words": 296,
+      "at": "2026-10-28T09:08:10.783Z",
+      "blob": "5c70796355193b5bf62bfed54b488f6888fc53d0",
+      "words": 285,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:55.099Z",
+      "at": "2026-10-28T09:08:16.575Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002246
+      "cost_usd": 0.00351
     },
     "summarized": {
-      "at": "2026-10-06T19:27:56.912Z",
+      "at": "2026-10-28T09:08:16.576Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:56.913Z",
+      "at": "2026-10-28T09:08:16.578Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:56.913Z",
+      "at": "2026-10-28T09:08:16.580Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information.md",
     "description": "Run the G/L Setup Information report in Business Central to review and verify the master data you configured before starting daily operations.",
-    "ms_date": "2025-04-29",
-    "ms_topic": "install-set-up-deploy",
+    "ms_date": "2026-10-19",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "G/L setup information",
@@ -54,12 +54,12 @@
       "general setup information",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 296,
+    "ai_usage": "ai-assisted",
+    "words": 285,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e336a9ec06a4b359789976872c1b65e33fe791de482b9e5e04ed5b88c96bd046"
+  "output_hash": "4715b3b710e8742fe0da6528f3e4309053fec3f1f90ba37ebfe65043d0e6a4a5"
 }

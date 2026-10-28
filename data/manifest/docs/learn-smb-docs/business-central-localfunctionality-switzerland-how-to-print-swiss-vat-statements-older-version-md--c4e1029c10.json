@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Print Swiss VAT Statements (older version)",
+  "title": "Print Swiss VAT Statements (Older Version)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.946Z",
-      "blob": "8f61f07a333fabef79a0c4d1946c2ac449a27d70",
-      "words": 363,
+      "at": "2026-10-28T09:08:10.744Z",
+      "blob": "808951f98c26ce09e15283c330b82aa1d465dcfa",
+      "words": 353,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:54.437Z",
+      "at": "2026-10-28T09:08:17.260Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002137
+      "cost_usd": 0.003722
     },
     "summarized": {
-      "at": "2026-10-06T19:27:54.446Z",
+      "at": "2026-10-28T09:08:17.262Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:54.448Z",
+      "at": "2026-10-28T09:08:17.264Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:54.449Z",
+      "at": "2026-10-28T09:08:17.265Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-.md",
-    "description": "Learn how to print the Swiss VAT statement to use it for quarterly tax reporting.",
-    "ms_date": "2025-04-29",
+    "description": "Review the older Swiss VAT statement report and its options for VAT entries, adjustment entries, and accounting sheets, with a link to newer guidance.",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "VAT statement",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 363,
+    "ai_usage": "ai-assisted",
+    "words": 353,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fb758dfde80428ea00095a71eda8b2503596b7c9c40b74dccdac526d9f2f5e0d"
+  "output_hash": "49820fefbc0650fafcbe675b96b0f03806ae7f06d373d95361d0f89749e298c0"
 }
