@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Manage sales opportunities and leads",
+  "title": "Manage Sales Opportunities and Leads",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-manage-sales-opportunities",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.595Z",
-      "blob": "5e24a7639f70309bd6ca6b17625c895d488a76a3",
+      "at": "2026-10-28T08:57:19.903Z",
+      "blob": "4f2c8c726df56b668b5ece166996bc027b84c101",
       "words": 160,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:21.952Z",
+      "at": "2026-10-28T08:57:35.931Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003362
+      "cost_usd": 0.005284
     },
     "summarized": {
-      "at": "2026-10-06T19:01:23.602Z",
+      "at": "2026-10-28T08:57:35.933Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:23.603Z",
+      "at": "2026-10-28T08:57:35.935Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:23.604Z",
+      "at": "2026-10-28T08:57:35.936Z",
       "page": false
     }
   },
@@ -44,20 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/marketing-manage-sales-opportunities.md",
-    "description": "Explains how to capture and manage incoming leads and sales opportunities in Business Central, assign them to salespeople, and track expected value and likelihood of conversion.",
-    "ms_date": "2025-10-03",
+    "description": "Capture sales opportunities in Business Central, assign them to salespeople, and use sales cycles to track expected value and the chances of success.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "relationship",
       "prospect"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 160,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ff506d34d2539b58eb06e3a4a198ab591f7dba7c7053a886ddae54391683c94e"
+  "output_hash": "a7ca0dccc8e80b1864c203a12160671cadebb0b7b0de1e3a93fc9d6f335dd848"
 }

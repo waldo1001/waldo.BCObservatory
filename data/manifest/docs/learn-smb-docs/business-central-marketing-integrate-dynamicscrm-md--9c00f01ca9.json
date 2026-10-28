@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Manage customers using Dynamics 365 Sales",
+  "title": "Manage Customers Using Dynamics 365 Sales",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-integrate-dynamicscrm",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.578Z",
-      "blob": "4e4c8a052a614fc8163d8c12db355370fdc8ff2e",
-      "words": 2059,
+      "at": "2026-10-28T08:56:59.468Z",
+      "blob": "e193bd45ba2a9dd45fca7a60f9ac7eccd3c609c4",
+      "words": 2062,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:20.201Z",
+      "at": "2026-10-28T08:57:12.106Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 8,
-      "cost_usd": 0.003362
+      "objects": 11,
+      "cost_usd": 0.014411
     },
     "summarized": {
-      "at": "2026-10-06T19:01:23.589Z",
+      "at": "2026-10-28T08:57:12.108Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:23.590Z",
+      "at": "2026-10-28T08:57:12.109Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:23.592Z",
+      "at": "2026-10-28T08:57:12.110Z",
       "page": false
     }
   },
@@ -54,12 +54,12 @@
       "map",
       "Sales"
     ],
-    "ai_usage": null,
-    "words": 2059,
+    "ai_usage": "ai-assisted",
+    "words": 2062,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d939d238fbe68df07e3f1121307683055b3b9ac9b207d75542deebc324b5287f"
+  "output_hash": "a20c7e985d6d5eb4c5f37e24fd5f5e113e70ac21d78b429974ca9bef8b728c2b"
 }

@@ -1,18 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-how-create-segment.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-segment",
-  "title": "Create Segments",
-  "blob": "f3a49d342df6afd1a42b0fd104e623fd5d9ce87f",
-  "summary": "Create segments to group contacts for targeted marketing campaigns and bulk interactions such as direct mail and communications.",
+  "title": "Create Marketing Segments for Contacts",
+  "blob": "e666c59a9abad699261e01d0b57efa61ba1654f5",
+  "summary": "Create marketing segments to group contacts for targeted interactions like direct mail campaigns. Define segment numbers and add contacts to manage group communications effectively.",
   "systems": [
-    "crm"
+    "crm",
+    "sales"
   ],
   "topics": [
     "segments",
     "contacts",
     "marketing",
-    "grouping",
-    "targeting"
+    "interactions",
+    "grouping"
   ],
   "objects": [
     {
@@ -25,11 +26,10 @@
     }
   ],
   "features": [
-    "create segments",
-    "segment numbering",
-    "number series",
+    "segment creation",
     "contact grouping",
-    "marketing campaigns"
+    "number series for segments",
+    "interaction management"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003171,
-      "pages_in_call": 8
+      "cost_usd": 0.005568,
+      "pages_in_call": 1
     }
   ]
 }

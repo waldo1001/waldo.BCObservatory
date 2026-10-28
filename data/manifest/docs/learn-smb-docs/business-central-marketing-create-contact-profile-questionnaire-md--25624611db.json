@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:01:01.905Z",
+      "at": "2026-10-28T08:56:54.918Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 5,
-      "cost_usd": 0.003171
+      "cost_usd": 0.004756
     },
     "summarized": {
-      "at": "2026-10-06T19:01:01.971Z",
+      "at": "2026-10-28T08:56:54.920Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:01.972Z",
+      "at": "2026-10-28T08:56:54.921Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:01.979Z",
+      "at": "2026-10-28T08:56:54.922Z",
       "page": false
     }
   },
@@ -70,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c3cd61a7b22c097a68ed2faae4990b2fda658805"
+  "output_hash": "56c57781bfffb917152cd224943092a265c96385843e93bc3be301b8eefd52a8"
 }

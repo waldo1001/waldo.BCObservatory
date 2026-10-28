@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Keep track of segments and related interactions",
+  "title": "Track Segments and Their Contact Interactions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-segments",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.583Z",
-      "blob": "d2c986bf998d8aae6d724d6d7e7827755b4eb2f1",
-      "words": 305,
+      "at": "2026-10-28T08:57:18.201Z",
+      "blob": "61442e7abd882cb3c5c5468f1127de32eb880ef9",
+      "words": 317,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:21.948Z",
+      "at": "2026-10-28T08:57:30.127Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003362
+      "cost_usd": 0.00377
     },
     "summarized": {
-      "at": "2026-10-06T19:01:23.593Z",
+      "at": "2026-10-28T08:57:30.128Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:23.593Z",
+      "at": "2026-10-28T08:57:30.129Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:23.594Z",
+      "at": "2026-10-28T08:57:30.130Z",
       "page": false
     }
   },
@@ -44,20 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/marketing-interaction-segments.md",
-    "description": "Learn about creating segments to define groups of contacts and specifying interactions for segments.",
-    "ms_date": "2025-10-03",
+    "description": "Create contact segments in Business Central, reuse selection criteria, personalize interactions, and log segments to keep a history of communication.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "relationship",
       "prospect"
     ],
-    "ai_usage": null,
-    "words": 305,
+    "ai_usage": "ai-assisted",
+    "words": 317,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e6e70df8cbab5f0eb10bda033288a045d940702b1dc54d2da8d89d246ed5f571"
+  "output_hash": "f6e50e17b5567aeba3c40e2f157d0e07966babbd6eb1808da0b6fed8dae8e2a6"
 }

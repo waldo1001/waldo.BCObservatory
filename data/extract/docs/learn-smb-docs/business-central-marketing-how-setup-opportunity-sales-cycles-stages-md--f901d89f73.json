@@ -1,20 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-how-setup-opportunity-sales-cycles-stages.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-how-setup-opportunity-sales-cycles-stages",
-  "title": "Set up opportunity sales cycles and cycle stages",
-  "blob": "50b4bba346156612abce41b888436bfa1f112f79",
-  "summary": "Set up opportunity sales cycles and cycle stages to manage the progression of sales opportunities through defined stages, with support for activity tasks and interactions.",
+  "title": "Set Up Opportunity Sales Cycles and Cycle Stages",
+  "blob": "6bee43cc7dc0df340b21baca3eae187579d8e36f",
+  "summary": "Set up sales cycles and stages to manage opportunities from initial contact through closing, including defining stage requirements and assigning activities or tasks to opportunities.",
   "systems": [
     "crm",
     "sales"
   ],
   "topics": [
-    "sales opportunities",
     "sales cycles",
-    "stages",
+    "opportunity management",
+    "sales stages",
     "activities",
-    "tasks",
-    "contacts"
+    "tasks"
   ],
   "objects": [
     {
@@ -31,19 +30,28 @@
     },
     {
       "type": "page",
-      "name": "Activities"
+      "name": "Task List"
     },
     {
       "type": "page",
-      "name": "Task List"
+      "name": "Create Task"
+    },
+    {
+      "type": "page",
+      "name": "Assign Activity"
+    },
+    {
+      "type": "page",
+      "name": "Activities"
     }
   ],
   "features": [
-    "sales cycles",
-    "cycle stages",
-    "opportunity tracking",
-    "activities",
-    "task assignment"
+    "Sales cycle codes",
+    "Sales cycle stages",
+    "Opportunity assignment",
+    "Activity tasks",
+    "Task creation",
+    "Stage requirements"
   ],
   "versions": [],
   "parts": 1,
@@ -52,8 +60,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003362,
-      "pages_in_call": 8
+      "cost_usd": 0.004491,
+      "pages_in_call": 1
     }
   ]
 }

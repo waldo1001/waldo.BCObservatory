@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Attachments for interactions",
+  "title": "Manage Attachments for Contact Interactions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-attachments",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.612Z",
-      "blob": "0fb578c1960ff79286c8670a51af3cfa12620b92",
-      "words": 225,
+      "at": "2026-10-28T08:57:00.464Z",
+      "blob": "2ff8aab3990b006d28375e45f1822e582d3cefaf",
+      "words": 247,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:29.019Z",
+      "at": "2026-10-28T08:57:12.121Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003247
+      "cost_usd": 0.003013
     },
     "summarized": {
-      "at": "2026-10-06T19:01:29.032Z",
+      "at": "2026-10-28T08:57:12.123Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:29.033Z",
+      "at": "2026-10-28T08:57:12.124Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:29.034Z",
+      "at": "2026-10-28T08:57:12.125Z",
       "page": false
     }
   },
@@ -44,20 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/marketing-interaction-attachments.md",
-    "description": "Learn how to attach files, such as Word documents, to add details about an interaction.",
-    "ms_date": "2025-10-03",
+    "description": "Attach files to contact interactions in Business Central, view recorded attachments, and import or export files from interaction templates and segments.",
+    "ms_date": "2026-10-22",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
       "relationship",
       "prospect"
     ],
-    "ai_usage": null,
-    "words": 225,
+    "ai_usage": "ai-assisted",
+    "words": 247,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "40e9c89a5dd02ea4ef38acc0c9a6dd9f196775929797e22c839aed64d3654b35"
+  "output_hash": "f9b947ef5ae580ee06ea4b9c4f9798e37ee18b16d28d6dae781e5990e82ad585"
 }

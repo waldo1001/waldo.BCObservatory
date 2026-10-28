@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-interactions-overview",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.587Z",
-      "blob": "3f28575f07856b079e677c8084323f0696d5fc60",
-      "words": 142,
+      "at": "2026-10-28T08:57:18.137Z",
+      "blob": "8df8e5f6d1b58f200070d8c45f4be460a0928a80",
+      "words": 145,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:21.950Z",
+      "at": "2026-10-28T08:57:29.265Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003362
+      "cost_usd": 0.002896
     },
     "summarized": {
-      "at": "2026-10-06T19:01:23.596Z",
+      "at": "2026-10-28T08:57:29.266Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:23.597Z",
+      "at": "2026-10-28T08:57:29.267Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:23.598Z",
+      "at": "2026-10-28T08:57:29.268Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/marketing-interactions-overview.md",
     "description": "Learn how to manage and record interactions with your contacts in Business Central to improve sales and marketing efforts.",
-    "ms_date": "2025-10-03",
+    "ms_date": "2026-10-22",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
       "relationship",
       "prospect"
     ],
-    "ai_usage": null,
-    "words": 142,
+    "ai_usage": "ai-assisted",
+    "words": 145,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "99c8551781451b7bcea0c7d55c772c87e38ae27c079844360f328e14de14b114"
+  "output_hash": "641087bd9e6a857199960ba71f7c49c7d75263163774f02ffb41bbb121188d72"
 }

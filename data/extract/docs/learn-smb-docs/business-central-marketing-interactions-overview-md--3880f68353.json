@@ -2,23 +2,27 @@
   "item_id": "docs/learn-smb-docs/business-central/marketing-interactions-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-interactions-overview",
   "title": "Create and Manage Interactions with Contacts",
-  "blob": "3f28575f07856b079e677c8084323f0696d5fc60",
-  "summary": "Record all types of communications between the company and contacts including emails, letters, telephone calls, and meetings to track sales and marketing efforts.",
+  "blob": "8df8e5f6d1b58f200070d8c45f4be460a0928a80",
+  "summary": "Create and manage interactions with contacts to track all types of communications including email, letters, telephone calls, and meetings. Record interactions manually or automatically when sales, purchase, and service documents are created, posted, or printed.",
   "systems": [
-    "crm"
+    "crm",
+    "sales"
   ],
   "topics": [
     "interactions",
     "contacts",
     "communications",
-    "sales efforts",
-    "marketing"
+    "marketing",
+    "templates",
+    "segments"
   ],
   "objects": [],
   "features": [
-    "interaction recording",
-    "communication tracking",
-    "contact management"
+    "interaction templates",
+    "contact interactions",
+    "segment interactions",
+    "automatic interaction recording",
+    "document-triggered interactions"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003362,
-      "pages_in_call": 8
+      "cost_usd": 0.002896,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,27 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-manage-sales-opportunities.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-manage-sales-opportunities",
-  "title": "Manage sales opportunities and leads",
-  "blob": "5e24a7639f70309bd6ca6b17625c895d488a76a3",
-  "summary": "Create and manage sales opportunities by setting up sales cycles, creating opportunities linked to contacts and salespeople, and processing them through completion.",
+  "title": "Manage Sales Opportunities and Leads",
+  "blob": "4f2c8c726df56b668b5ece166996bc027b84c101",
+  "summary": "Manage sales opportunities and leads by setting up sales cycles, creating opportunities linked to contacts and salespeople, and tracking them through completion stages.",
   "systems": [
+    "sales",
     "crm",
-    "sales"
+    "administration"
   ],
   "topics": [
     "sales opportunities",
     "leads",
     "sales cycles",
     "opportunity management",
-    "sales tracking"
+    "contact management"
   ],
   "objects": [],
   "features": [
     "opportunity creation",
     "sales cycle setup",
-    "contact association",
-    "salesperson assignment",
-    "sales value estimation"
+    "sales cycle stages",
+    "sales value estimates",
+    "success probability tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003362,
-      "pages_in_call": 8
+      "cost_usd": 0.005284,
+      "pages_in_call": 1
     }
   ]
 }

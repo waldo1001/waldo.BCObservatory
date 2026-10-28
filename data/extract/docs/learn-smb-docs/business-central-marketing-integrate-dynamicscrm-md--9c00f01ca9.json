@@ -1,21 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-integrate-dynamicscrm.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-integrate-dynamicscrm",
-  "title": "Manage customers using Dynamics 365 Sales",
-  "blob": "4e4c8a052a614fc8163d8c12db355370fdc8ff2e",
-  "summary": "Integrate Dynamics 365 Sales with Business Central to synchronize customer data, handle sales orders and quotes, manage pricing, and track invoices and payments across both platforms.",
+  "title": "Manage Customers Using Dynamics 365 Sales",
+  "blob": "e193bd45ba2a9dd45fca7a60f9ac7eccd3c609c4",
+  "summary": "Integrating Dynamics 365 Sales with Business Central enables seamless customer engagement and order processing, with data synchronization for customers, contacts, items, prices, and sales orders across both systems.",
   "systems": [
     "crm",
     "sales",
     "integration"
   ],
   "topics": [
-    "dynamics 365 sales integration",
+    "dynamics 365 sales",
+    "integration",
     "data synchronization",
+    "customer management",
     "sales orders",
-    "quotes",
-    "pricing",
-    "invoices"
+    "coupling records",
+    "price synchronization"
   ],
   "objects": [
     {
@@ -24,11 +25,31 @@
     },
     {
       "type": "page",
+      "name": "Microsoft Dynamics 365 Connection Setup"
+    },
+    {
+      "type": "page",
+      "name": "Dynamics 365 Sales Full Synch Review"
+    },
+    {
+      "type": "page",
+      "name": "Integration Table Mappings"
+    },
+    {
+      "type": "page",
       "name": "Sales Orders - Dynamics 365 for Sales"
     },
     {
       "type": "page",
-      "name": "Sales Quotes - Dynamics 365 Sales"
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer Price Groups"
+    },
+    {
+      "type": "page",
+      "name": "Sales Price List"
     },
     {
       "type": "page",
@@ -40,25 +61,18 @@
     },
     {
       "type": "page",
-      "name": "Microsoft Dynamics 365 Connection Setup"
-    },
-    {
-      "type": "page",
-      "name": "Integration Table Mappings"
-    },
-    {
-      "type": "page",
-      "name": "Sales Price List"
+      "name": "Sales Quotes - Dynamics 365 Sales"
     }
   ],
   "features": [
-    "sales order synchronization",
-    "quote processing",
-    "pricing synchronization",
-    "invoice creation",
-    "customer coupling",
+    "record coupling",
     "full synchronization",
-    "job queue scheduling"
+    "automatic sales order creation",
+    "automatic quote processing",
+    "invoice transfer",
+    "customer payment tracking",
+    "sales price synchronization",
+    "write-in product handling"
   ],
   "versions": [
     "2020 release wave 2"
@@ -69,8 +83,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003362,
-      "pages_in_call": 8
+      "cost_usd": 0.014411,
+      "pages_in_call": 1
     }
   ]
 }

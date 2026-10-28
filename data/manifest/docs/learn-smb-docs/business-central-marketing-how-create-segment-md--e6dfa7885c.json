@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Create Segments",
+  "title": "Create Marketing Segments for Contacts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-segment",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.569Z",
-      "blob": "f3a49d342df6afd1a42b0fd104e623fd5d9ce87f",
+      "at": "2026-10-28T08:56:58.341Z",
+      "blob": "e666c59a9abad699261e01d0b57efa61ba1654f5",
       "words": 121,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:01:01.911Z",
+      "at": "2026-10-28T08:57:14.732Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003171
+      "cost_usd": 0.005568
     },
     "summarized": {
-      "at": "2026-10-06T19:01:01.991Z",
+      "at": "2026-10-28T08:57:14.734Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:01.992Z",
+      "at": "2026-10-28T08:57:14.735Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:01.993Z",
+      "at": "2026-10-28T08:57:14.736Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/marketing-how-create-segment.md",
-    "description": "Describes how to create a segment for a group of contacts, for example, to target several contacts with a direct mail.",
-    "ms_date": "2025-10-03",
+    "description": "Create a marketing segment in Business Central to group contacts for a campaign, assign a segment number, and prepare to add your target audience.",
+    "ms_date": "2026-10-22",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -63,12 +63,12 @@
       "relationship",
       "prospect"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 121,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "603336d4f8e70eadc45077f06056eff9a5bb1513078a1e180153bf61219597a2"
+  "output_hash": "ac308d557e31e57f7eee1753abeda561b4dc6f4a9d4dce3e6f0f34457fce76aa"
 }

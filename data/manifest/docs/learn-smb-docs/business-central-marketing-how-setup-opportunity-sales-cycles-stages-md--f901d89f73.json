@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up opportunity sales cycles and cycle stages",
+  "title": "Set Up Opportunity Sales Cycles and Cycle Stages",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-how-setup-opportunity-sales-cycles-stages",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.574Z",
-      "blob": "50b4bba346156612abce41b888436bfa1f112f79",
-      "words": 627,
+      "at": "2026-10-28T08:56:59.524Z",
+      "blob": "6bee43cc7dc0df340b21baca3eae187579d8e36f",
+      "words": 621,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:20.200Z",
+      "at": "2026-10-28T08:57:12.133Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.003362
+      "objects": 7,
+      "cost_usd": 0.004491
     },
     "summarized": {
-      "at": "2026-10-06T19:01:21.955Z",
+      "at": "2026-10-28T08:57:12.135Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:21.955Z",
+      "at": "2026-10-28T08:57:12.136Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:21.956Z",
+      "at": "2026-10-28T08:57:12.137Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/marketing-how-setup-opportunity-sales-cycles-stages.md",
     "description": "Describes how to define sales stages, from initial contact to closing, to create a sales cycle and assign it to opportunities in Business Central.",
-    "ms_date": "2025-10-03",
+    "ms_date": "2026-10-22",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "relationship",
       "prospect"
     ],
-    "ai_usage": null,
-    "words": 627,
+    "ai_usage": "ai-assisted",
+    "words": 621,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a114f12bab38c8da963fdd6592a2a6e742d392a910a56e52ee7d61e2a0264b42"
+  "output_hash": "9a430f5eb9c3913096079f19f8a73c22794a02677b1073195d062deb39a41826"
 }

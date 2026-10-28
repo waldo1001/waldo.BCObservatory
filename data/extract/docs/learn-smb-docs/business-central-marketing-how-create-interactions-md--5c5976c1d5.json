@@ -1,31 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-how-create-interactions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-interactions",
-  "title": "Create interactions on contacts and segments",
-  "blob": "c3aea68f871d67c52d7398b80a5d4a7c2400b4d7",
-  "summary": "Record communications with contacts and segments by creating interactions through an assisted setup guide, tracking email, phone calls, meetings, and other contact activities.",
+  "title": "Create Interactions for Contacts and Segments",
+  "blob": "659db7feae4dbc5ba251c5396e3a34a56830cf68",
+  "summary": "Create interactions to track communications with contacts and segments using interaction templates, with options to log, create follow-ups, or postpone and resume later.",
   "systems": [
     "crm"
   ],
   "topics": [
     "interactions",
-    "communications",
-    "contact logging",
+    "contacts",
     "segments",
-    "activity tracking"
+    "communication tracking",
+    "marketing"
   ],
   "objects": [
     {
+      "type": "table",
+      "name": "Interaction Log Entry"
+    },
+    {
       "type": "page",
       "name": "Contacts"
-    },
-    {
-      "type": "page",
-      "name": "Salesperson"
-    },
-    {
-      "type": "page",
-      "name": "Interaction Log Entry"
     },
     {
       "type": "page",
@@ -33,11 +29,7 @@
     },
     {
       "type": "page",
-      "name": "Log Segment"
-    },
-    {
-      "type": "page",
-      "name": "Logged Segment"
+      "name": "Logged Segments"
     },
     {
       "type": "page",
@@ -46,13 +38,10 @@
   ],
   "features": [
     "Create Interaction action",
-    "interaction templates",
-    "segment interactions",
-    "postponed interactions",
-    "interaction personalization",
-    "Log action",
-    "Resume action",
-    "Create Follow-up Segment checkbox"
+    "Interaction Template Code",
+    "Log Segment",
+    "Create Follow-up Segment",
+    "Resume postponed interactions"
   ],
   "versions": [],
   "parts": 1,
@@ -61,8 +50,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003171,
-      "pages_in_call": 8
+      "cost_usd": 0.003519,
+      "pages_in_call": 1
     }
   ]
 }

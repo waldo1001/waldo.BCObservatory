@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Manage interactions with your contacts",
+  "title": "Manage Interactions with Your Contacts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-interactions",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.591Z",
-      "blob": "733c1bfef6d2674268503a4bb6553d16604ee803",
-      "words": 340,
+      "at": "2026-10-28T08:57:18.007Z",
+      "blob": "68d4a53386b73b9ff3c9b357a68b1823a1b608ae",
+      "words": 354,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:21.951Z",
+      "at": "2026-10-28T08:57:29.253Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.003362
+      "objects": 5,
+      "cost_usd": 0.003918
     },
     "summarized": {
-      "at": "2026-10-06T19:01:23.599Z",
+      "at": "2026-10-28T08:57:29.256Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:23.600Z",
+      "at": "2026-10-28T08:57:29.257Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:23.601Z",
+      "at": "2026-10-28T08:57:29.257Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/marketing-interactions.md",
     "description": "Learn how to record and manage all types of interactions with your contacts—such as emails, phone calls, meetings, and letters.",
-    "ms_date": "2025-10-03",
+    "ms_date": "2026-10-22",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
       "relationship",
       "prospect"
     ],
-    "ai_usage": null,
-    "words": 340,
+    "ai_usage": "ai-assisted",
+    "words": 354,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a368dc7b1ec1903214079779fd7efe161ed5ae77a2a3837f72cf8dfb99dcb029"
+  "output_hash": "fb980d1371f7e3aac77464ec73562e98042c96ca8201065b4d4777d184e28ae4"
 }

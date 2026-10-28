@@ -1,18 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-interactions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-interactions",
-  "title": "Manage interactions with your contacts",
-  "blob": "733c1bfef6d2674268503a4bb6553d16604ee803",
-  "summary": "Record, manage, and view interactions with contacts using interaction templates, including manual creation, automatic recording for documents, and interaction log entries.",
+  "title": "Manage Interactions with Your Contacts",
+  "blob": "68d4a53386b73b9ff3c9b357a68b1823a1b608ae",
+  "summary": "Interaction templates and logs allow you to record, manage, and view business contact interactions including communication mode, initiator, and costs. Use this when setting up contact management or tracking customer communication history.",
   "systems": [
-    "crm"
+    "crm",
+    "sales"
   ],
   "topics": [
     "interactions",
-    "contacts",
-    "interaction templates",
-    "communication",
-    "logging"
+    "contact management",
+    "templates",
+    "activity tracking",
+    "communication"
   ],
   "objects": [
     {
@@ -21,15 +22,28 @@
     },
     {
       "type": "page",
+      "name": "Interaction Template Setup"
+    },
+    {
+      "type": "page",
       "name": "Interaction Log Entries"
+    },
+    {
+      "type": "page",
+      "name": "Interaction Log Entry"
+    },
+    {
+      "type": "page",
+      "name": "Delete Canceled Interaction Log Entries"
     }
   ],
   "features": [
     "interaction templates",
-    "manual interaction recording",
+    "manual interaction creation",
     "automatic interaction recording",
-    "interaction attachments",
-    "interaction management"
+    "interaction log entries",
+    "attachments for interactions",
+    "interaction status tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003362,
-      "pages_in_call": 8
+      "cost_usd": 0.003918,
+      "pages_in_call": 1
     }
   ]
 }
