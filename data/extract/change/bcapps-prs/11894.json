@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11894",
+  "number": 11894,
+  "title": "Fix mixed-currency totals in Close Income Statement",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed the Close Income Statement report to correctly process mixed-currency GL entries that were previously duplicated or omitted when source-currency groups were interleaved, and added comprehensive regression tests.",
+  "key_points": [
+    "Fixed grouped calculations to process each filtered GL entry group once instead of skipping by count",
+    "Added regression test coverage for Balance closing with and without global dimensions",
+    "Added third-close regression test for historical closing entries with blank source-currency metadata",
+    "Propagated fixes to ES and IT localized versions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Fixed grouped calculations to process each filtered G/L entry group once instead of skipping rows by count.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003468,
+    "changes_in_call": 1
+  }
+}

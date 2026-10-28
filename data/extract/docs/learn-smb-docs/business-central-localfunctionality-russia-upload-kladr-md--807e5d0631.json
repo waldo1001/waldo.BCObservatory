@@ -2,23 +2,23 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Upload-KLADR.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Upload-KLADR",
   "title": "Upload KLADR in Russia",
-  "blob": "16cd8687327006ab8640219e876f923c91bee325",
-  "summary": "Upload KLADR in Russia describes importing the KLADR address database into Business Central by specifying the file path and region code for Russian address data management.",
+  "blob": "8026b2c03143e07516aefa4d066774c2b1eb0104",
+  "summary": "Upload KLADR addresses for specific regions in Russia using the Import KLADR feature to configure regional address data.",
   "systems": [
-    "localization",
-    "administration"
+    "localization"
   ],
   "topics": [
     "kladr",
-    "russia localization",
-    "address data",
-    "import"
+    "russia",
+    "addresses",
+    "import",
+    "regions"
   ],
   "objects": [],
   "features": [
-    "KLADR import",
+    "Import KLADR",
     "region code specification",
-    "address database"
+    "address file upload"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003478,
-      "pages_in_call": 8
+      "cost_usd": 0.002536,
+      "pages_in_call": 1
     }
   ]
 }

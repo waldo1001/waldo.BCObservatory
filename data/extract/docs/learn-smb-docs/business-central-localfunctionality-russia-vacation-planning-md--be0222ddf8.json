@@ -2,16 +2,16 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Vacation-planning.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Vacation-planning",
   "title": "Vacation planning in Russia",
-  "blob": "5c1ad11f68470b83ad92a557b5df589035b6bf26",
-  "summary": "Vacation planning in Russia allows HR managers to create vacation schedules by year, add employees, and record vacation dates with automatic population of actual start dates when vacation orders are posted.",
+  "blob": "40e2473a4e5310848be6198c46e97ec254e36ebf",
+  "summary": "Vacation planning in Russia allows HR users to create vacation schedules by year, add employees, and specify vacation dates. Used to manage employee leave including start dates, end dates, and actual dates when vacation orders are posted.",
   "systems": [
     "hr"
   ],
   "topics": [
-    "vacation scheduling",
-    "russia local",
-    "employee records",
-    "schedule management"
+    "vacation planning",
+    "leave management",
+    "employee scheduling",
+    "russia"
   ],
   "objects": [
     {
@@ -20,10 +20,13 @@
     }
   ],
   "features": [
-    "Vacation schedule creation",
-    "Employee suggestion",
-    "Actual start date tracking",
-    "Leave transfer handling"
+    "vacation schedule creation",
+    "year-based planning",
+    "employee suggestion",
+    "start date specification",
+    "end date specification",
+    "actual start date tracking",
+    "leave transfer management"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002808,
-      "pages_in_call": 8
+      "cost_usd": 0.002977,
+      "pages_in_call": 1
     }
   ]
 }

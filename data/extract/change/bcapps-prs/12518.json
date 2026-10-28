@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12518",
+  "number": 12518,
+  "title": "[29.X]Page cannot open because of FlowField 'Last Run By User'- #12304",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed a page opening error caused by an invalid FlowField definition in the Financial Report table that referenced a non-existent user field.",
+  "key_points": [
+    "Corrected the FlowField 'Last Run By User' in the Financial Report table that was causing page 490 to fail opening",
+    "Added proper field definitions to support the financial report tracking functionality",
+    "Added test cases to verify the fix works across different localizations",
+    "Changes affect the Financial Reports page and Accounting Schedule Overview"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003452,
+    "changes_in_call": 1
+  }
+}

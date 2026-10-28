@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Upload-KLADR",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:14.555Z",
+      "at": "2026-10-28T08:55:27.634Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003478
+      "cost_usd": 0.002536
     },
     "summarized": {
-      "at": "2026-10-06T19:13:22.036Z",
+      "at": "2026-10-28T08:55:27.635Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:22.036Z",
+      "at": "2026-10-28T08:55:27.636Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:22.037Z",
+      "at": "2026-10-28T08:55:27.638Z",
       "page": false
     }
   },
@@ -62,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8026b2c03143e07516aefa4d066774c2b1eb0104"
+  "output_hash": "913faf98b6fd0b82efbef2e2adbdbba3c6cf68fba1c2ab252fb1c4ee973ec7ea"
 }

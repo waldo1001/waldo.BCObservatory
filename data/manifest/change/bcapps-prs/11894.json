@@ -6,7 +6,7 @@
   "title": "Fix mixed-currency totals in Close Income Statement",
   "url": "https://github.com/microsoft/BCApps/pull/11894",
   "published_at": "2026-10-22T11:32:36Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-23T00:21:26.098Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 2,
       "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-28T08:55:28.717Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003468
+    },
+    "linked": {
+      "at": "2026-10-28T08:55:28.959Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-28T08:55:28.965Z",
+      "path": "content/changes/bcapps/11894.md"
     }
   },
   "input_hash": "c7d51df077ccb347367b03404d4e924fd2b1f0f1:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0aa7a03cce3be0d9c1dc6940ffe00c729c003ac27009f22d364fc878c10206e7"
+  "output_hash": "08013cd91137c378343ff9f53f4935f5abba1840f4969d5d98d49cad6b648081"
 }

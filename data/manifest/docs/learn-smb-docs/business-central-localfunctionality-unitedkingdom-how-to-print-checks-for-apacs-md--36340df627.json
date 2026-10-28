@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print Checks for APACS",
+  "title": "Print Checks for APACS in the United Kingdom",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.029Z",
-      "blob": "d0fd92e911a57179e03b33da2fc3e8e60162fcfc",
-      "words": 184,
+      "at": "2026-10-28T08:55:45.000Z",
+      "blob": "04b5ce5f4389f878a68980df62bc7664c6e16e89",
+      "words": 173,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T23:41:13.944Z",
+      "at": "2026-10-28T08:55:56.440Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.003005
+      "objects": 3,
+      "cost_usd": 0.003259
     },
     "summarized": {
-      "at": "2026-10-06T23:41:13.993Z",
+      "at": "2026-10-28T08:55:56.441Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:14.001Z",
+      "at": "2026-10-28T08:55:56.442Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:14.008Z",
+      "at": "2026-10-28T08:55:56.443Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs.md",
     "description": "The APACS specification sets the standard layout for fields on checks in the UK. The Check report uses the APACS specification.",
-    "ms_date": "2021-02-18",
+    "ms_date": "2026-10-26",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "checks",
       "Check report"
     ],
-    "ai_usage": null,
-    "words": 184,
+    "ai_usage": "ai-assisted",
+    "words": 173,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7c60293b3a06ed7b582aba609d4aa590385de11ae6d90c96959acf697f7121fa"
+  "output_hash": "58877e43c82d9b91711a3b244872888626641de14968b9757f9a175efe695323"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Vacation-planning",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.435Z",
-      "blob": "5c1ad11f68470b83ad92a557b5df589035b6bf26",
+      "at": "2026-10-28T08:55:30.229Z",
+      "blob": "40e2473a4e5310848be6198c46e97ec254e36ebf",
       "words": 136,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:38.446Z",
+      "at": "2026-10-28T08:55:42.493Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002808
+      "cost_usd": 0.002977
     },
     "summarized": {
-      "at": "2026-10-06T19:13:38.454Z",
+      "at": "2026-10-28T08:55:42.494Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:38.455Z",
+      "at": "2026-10-28T08:55:42.495Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:38.456Z",
+      "at": "2026-10-28T08:55:42.496Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/Vacation-planning.md",
     "description": "Manage vacation schedules and planning in Russia with localized enhancements for compliance and efficiency.",
-    "ms_date": "2025-07-22",
+    "ms_date": "2026-10-26",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "vacation time",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 136,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ccf1a93f83c0c0b36101c0901871b83d7feb5798b3edb483f01ce2b6003a3915"
+  "output_hash": "aa14740b29d8f516848f9d0a5c62587e29c01864fe35fa208ee953fb724c7bcb"
 }

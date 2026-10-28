@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print Remittance Advice [GB]",
+  "title": "Print Remittance Advice in the United Kingdom",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.034Z",
-      "blob": "44bfd1d37bef189430b2280d56a177042e62be1d",
-      "words": 152,
+      "at": "2026-10-28T08:55:46.826Z",
+      "blob": "88e4627f4fa0d0d44bc08ded9c630dccdae75967",
+      "words": 141,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:28:30.045Z",
+      "at": "2026-10-28T08:55:57.689Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002834
+      "objects": 1,
+      "cost_usd": 0.002894
     },
     "summarized": {
-      "at": "2026-10-06T19:28:30.059Z",
+      "at": "2026-10-28T08:55:57.690Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:30.060Z",
+      "at": "2026-10-28T08:55:57.691Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:30.061Z",
+      "at": "2026-10-28T08:55:57.692Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice.md",
-    "description": "You can print remittance advice both before posting a payment journal and subsequent to posting a payment.",
-    "ms_date": "2025-02-19",
+    "description": "Print remittance advice before posting a payment journal or after posting a payment in the British version of Business Central, with report options.",
+    "ms_date": "2026-10-26",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -58,12 +58,12 @@
       "remittance advice",
       "payment journal"
     ],
-    "ai_usage": null,
-    "words": 152,
+    "ai_usage": "ai-assisted",
+    "words": 141,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca17a3fa8cde442ee2b324909534f25fcd5ed5fa8a61177ab647e23a34cacb40"
+  "output_hash": "7f8caaf30178db907d9f99ab256deba00921fb140845c7f409973c31d8ccf65e"
 }

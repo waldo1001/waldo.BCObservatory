@@ -1,34 +1,44 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs",
-  "title": "Print Checks for APACS",
-  "blob": "d0fd92e911a57179e03b33da2fc3e8e60162fcfc",
-  "summary": "Print Checks for APACS in the UK version uses the standard APACS specification layout when printing checks from payment journals.",
+  "title": "Print Checks for APACS in the United Kingdom",
+  "blob": "04b5ce5f4389f878a68980df62bc7664c6e16e89",
+  "summary": "How to print checks using the APACS specification for UK payment clearing services through the Payment Journals interface and Check report.",
   "systems": [
-    "finance"
+    "localization",
+    "purchasing"
   ],
   "topics": [
     "check printing",
     "apacs",
+    "payment journal",
     "united kingdom",
-    "payments"
+    "bank account",
+    "vendor payments"
   ],
   "objects": [
+    {
+      "type": "report",
+      "name": "Check"
+    },
     {
       "type": "page",
       "name": "Payment Journals"
     },
     {
-      "type": "report",
-      "name": "Check"
+      "type": "page",
+      "name": "Bank Account Card"
     }
   ],
   "features": [
-    "check printing",
-    "APACS specification",
-    "check preview",
-    "test print",
-    "preprinted stub"
+    "Preview Check action",
+    "Print Check action",
+    "Bank Account field",
+    "Last Check No. field",
+    "One Check per Vendor per Document No. option",
+    "Reprint Checks option",
+    "Test Print option",
+    "Preprinted Stub option"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003005,
-      "pages_in_call": 8
+      "cost_usd": 0.003259,
+      "pages_in_call": 1
     }
   ]
 }

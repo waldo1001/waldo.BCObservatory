@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.024Z",
-      "blob": "2a466dfbaa9b52856f23e201013fa9632dfc0e8c",
-      "words": 168,
+      "at": "2026-10-28T08:55:33.645Z",
+      "blob": "2acb17ec4725d49a9aa07aefb87727cdee471757",
+      "words": 157,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:28:30.043Z",
+      "at": "2026-10-28T08:55:43.676Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002834
+      "cost_usd": 0.003143
     },
     "summarized": {
-      "at": "2026-10-06T19:28:30.055Z",
+      "at": "2026-10-28T08:55:43.677Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:30.056Z",
+      "at": "2026-10-28T08:55:43.678Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:30.057Z",
+      "at": "2026-10-28T08:55:43.679Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md",
-    "description": "Statutory details are on the Statutory FastTab of the Company Information page.",
-    "ms_date": "2025-02-18",
+    "description": "Enter registered company details on the Statutory FastTab of Company Information in the British version of Business Central for use in reports.",
+    "ms_date": "2026-10-26",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "statutory information"
     ],
-    "ai_usage": null,
-    "words": 168,
+    "ai_usage": "ai-assisted",
+    "words": 157,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "19e719be84485340a9cd00ccfbc14e2ceeb9c37faca90f20f8b3e34a12fb800c"
+  "output_hash": "7d9a40fd943e6a40642c570cae0b0f7a4d37647a32446f9b295aa50cd844d1ae"
 }

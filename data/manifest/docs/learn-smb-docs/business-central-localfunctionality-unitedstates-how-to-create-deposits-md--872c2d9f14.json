@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-create-deposits",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.054Z",
-      "blob": "ae773aefe5270d811ebcc4324fd5ffdc9932e4b2",
+      "at": "2026-10-28T08:55:48.826Z",
+      "blob": "d3f2e6b8ed18b7d1cb820d533347352f8ad9e059",
       "words": 19,
       "forms": 9
     },
     "extracted": {
-      "at": "2026-10-06T19:28:23.514Z",
+      "at": "2026-10-28T08:55:57.700Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.0019
+      "cost_usd": 0.002634
     },
     "summarized": {
-      "at": "2026-10-06T19:28:23.522Z",
+      "at": "2026-10-28T08:55:57.701Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:23.523Z",
+      "at": "2026-10-28T08:55:57.702Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:23.524Z",
+      "at": "2026-10-28T08:55:57.703Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedStates/how-to-create-deposits.md",
     "description": "You can make deposits to maintain a transaction record. This record contains information that can be applied to outstanding invoices and credit memos in the US version.",
-    "ms_date": "2025-02-04",
+    "ms_date": "2026-10-26",
     "ms_topic": "article",
     "search_form": [
       {
@@ -99,12 +99,12 @@
       "transaction record",
       "credit memos"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 19,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3c65845d318bdec2f0ef477a55f2f4f470960a17d5fdf144ba558272cba8fbfb"
+  "output_hash": "77296528da211c1c19f0a7c65e48c1df9d6c3107d1626b50fe008223f906c23e"
 }

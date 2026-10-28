@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print VAT Reports [GB]",
+  "title": "Print VAT Reports in the United Kingdom",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-reports",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.044Z",
-      "blob": "b5141e562c90005162ce5af6fa123fbfde79a779",
-      "words": 532,
+      "at": "2026-10-28T08:55:48.885Z",
+      "blob": "bb23182de13d30c42f1ab9215344a88feb8e01ed",
+      "words": 477,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:28:30.047Z",
+      "at": "2026-10-28T08:56:01.897Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 5,
-      "cost_usd": 0.002834
+      "cost_usd": 0.004013
     },
     "summarized": {
-      "at": "2026-10-06T19:28:30.066Z",
+      "at": "2026-10-28T08:56:07.085Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:30.067Z",
+      "at": "2026-10-28T08:56:07.087Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:30.068Z",
+      "at": "2026-10-28T08:56:07.088Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md",
-    "description": "This article explains the various VAT reports and provides guidance on how to print each of them.",
-    "ms_date": "2025-02-19",
+    "description": "Print day book VAT and customer or vendor ledger reports in the British version of Business Central, and review unposted sales and purchase documents.",
+    "ms_date": "2026-10-26",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "VAT reports",
       "print VAT reports"
     ],
-    "ai_usage": null,
-    "words": 532,
+    "ai_usage": "ai-assisted",
+    "words": 477,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "67fdce32b78ded8e8ace9ccac987f38ddc17459f7497936f36af82f9e0277327"
+  "output_hash": "b86b6e098d2243b34e5d9452a9db4f3f5777fb5767a1cf244bcfa63387549846"
 }
