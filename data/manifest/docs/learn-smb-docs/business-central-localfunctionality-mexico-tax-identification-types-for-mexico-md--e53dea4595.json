@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/tax-identification-types-for-mexico",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.516Z",
-      "blob": "a6ad44ac0d134168355ec7a999099bf904578020",
-      "words": 191,
+      "at": "2026-10-28T09:03:51.015Z",
+      "blob": "5468be5b1cde956fde648faec7af8b35b954faf8",
+      "words": 201,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:08.575Z",
+      "at": "2026-10-28T09:04:00.848Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003567
+      "objects": 3,
+      "cost_usd": 0.003276
     },
     "summarized": {
-      "at": "2026-10-06T19:30:10.368Z",
+      "at": "2026-10-28T09:04:00.851Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:10.369Z",
+      "at": "2026-10-28T09:04:00.853Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:10.370Z",
+      "at": "2026-10-28T09:04:00.855Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Mexico/tax-identification-types-for-mexico.md",
     "description": "All customers and vendors must have a federal tax identification number. This article covers the tax identification types in the Mexican version.",
-    "ms_date": "2025-02-26",
-    "ms_topic": "article",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "federal tax identification number",
       "tax identification number"
     ],
-    "ai_usage": null,
-    "words": 191,
+    "ai_usage": "ai-assisted",
+    "words": 201,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c0bff65928e753d779da05e8af21b2f96d99e9b71e360c03a2ddb31766995353"
+  "output_hash": "0bafc81ba0a0c37831bf4fb85f9ce439077ca45fc39c4311e786b352c437e6ca"
 }

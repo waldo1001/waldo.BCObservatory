@@ -1,24 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/vat-recalculation.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/vat-recalculation",
-  "title": "VAT recalculation",
-  "blob": "a5de6b41c0e13cfc4f52eaed89e9d85cefadb3f4",
-  "summary": "Recalculate VAT when customers make payments in foreign currency using exchange rates at payment time in Mexico.",
+  "title": "VAT Recalculation and Cash-Basis VAT in Mexico",
+  "blob": "2ce9e0934f581d59b4e7259fa178e651f7935335",
+  "summary": "Cash-basis VAT in Mexico records VAT when invoices are paid rather than when posted, with automatic exchange-rate adjustments for foreign-currency transactions.",
   "systems": [
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "vat recalculation",
-    "mexico",
+    "vat",
+    "cash-basis",
     "foreign currency",
-    "exchange rate"
+    "mexico",
+    "unrealized vat",
+    "invoice payment"
   ],
   "objects": [],
   "features": [
-    "VAT recalculation on payment",
-    "Currency exchange adjustment",
-    "Unrealized VAT reporting"
+    "Cash Basis VAT",
+    "Unrealized VAT",
+    "Exchange-rate adjustment",
+    "VAT Posting Setup",
+    "General Ledger Setup"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003567,
-      "pages_in_call": 7
+      "cost_usd": 0.003138,
+      "pages_in_call": 1
     }
   ]
 }

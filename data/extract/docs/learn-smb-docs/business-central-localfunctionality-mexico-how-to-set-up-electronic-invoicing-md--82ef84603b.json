@@ -1,21 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing",
-  "title": "Set Up Electronic Invoicing [MX]",
-  "blob": "3d1e2d598454cd35034793f3e7ba8ab89be6562c",
-  "summary": "Set up electronic invoicing in Mexico by configuring company information, general ledger, customer and vendor tax IDs, locations, and CFDI field mappings.",
+  "title": "Set Up Electronic Invoicing - Mexico [MX]",
+  "blob": "3955f52dea5f4692228a2f58a5747ec462b0e4f7",
+  "summary": "Configure electronic invoicing in Mexico by setting up tax identification information, SAT certificates, PAC web services, and mapping CFDI fields for your company, customers, vendors, and locations.",
   "systems": [
-    "localization",
     "finance",
-    "integration"
+    "localization",
+    "administration"
   ],
   "topics": [
     "electronic invoicing",
     "mexico",
     "cfdi",
-    "tax identification",
-    "sac certificate",
-    "pac"
+    "sat certificates",
+    "tax compliance",
+    "pac web services"
   ],
   "objects": [
     {
@@ -33,6 +33,10 @@
     {
       "type": "page",
       "name": "Vendors"
+    },
+    {
+      "type": "page",
+      "name": "SAT Addresses"
     },
     {
       "type": "page",
@@ -64,16 +68,18 @@
     },
     {
       "type": "codeunit",
-      "name": "10145"
+      "name": "Codeunit 10145"
     }
   ],
   "features": [
-    "SAT certificate configuration",
-    "PAC code setup",
+    "SAT certificate upload",
+    "PAC web service configuration",
     "CFDI field mapping",
-    "PDF report inclusion",
-    "Multiple SAT certificates",
-    "Electronic invoice enabled"
+    "Electronic document signing",
+    "Multiple SAT certificates support",
+    "PDF invoice attachment",
+    "Cancellation reasons",
+    "Tax identification setup"
   ],
   "versions": [],
   "parts": 1,
@@ -82,8 +88,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003567,
-      "pages_in_call": 7
+      "cost_usd": 0.012029,
+      "pages_in_call": 1
     }
   ]
 }

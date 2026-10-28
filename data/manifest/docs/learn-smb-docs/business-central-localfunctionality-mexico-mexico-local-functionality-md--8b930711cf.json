@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Mexico local functionality",
+  "title": "Mexico Local Functionality in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/mexico-local-functionality",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.128Z",
-      "blob": "4a96c96f90ecc9ad3390bdf4c37f61150ef793e2",
-      "words": 136,
+      "at": "2026-10-28T09:03:48.978Z",
+      "blob": "f8c9f294f255c043e82f99a7454ae766c3c272ac",
+      "words": 147,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:21:28.604Z",
+      "at": "2026-10-28T09:03:53.829Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002622
+      "cost_usd": 0.00384
     },
     "summarized": {
-      "at": "2026-10-06T19:21:28.703Z",
+      "at": "2026-10-28T09:03:53.830Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:21:28.705Z",
+      "at": "2026-10-28T09:03:53.832Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:21:28.706Z",
+      "at": "2026-10-28T09:03:53.833Z",
       "page": false
     }
   },
@@ -44,21 +44,21 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Mexico/mexico-local-functionality.md",
-    "description": "The following articles provide descriptions of the local functionality in the Mexican version of Business Central.",
-    "ms_date": "2025-06-30",
-    "ms_topic": "article",
+    "description": "Learn about electronic invoicing, DIOT reports, electronic accounting, tax identification, and bank deposits in Business Central for Mexico.",
+    "ms_date": "2026-10-20",
+    "ms_topic": "overview",
     "search_form": [],
     "keywords": [
       "Mexico",
       "local functionality",
       "Mexican version"
     ],
-    "ai_usage": null,
-    "words": 136,
+    "ai_usage": "ai-assisted",
+    "words": 147,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fa94980dd155751e541745fba5816b1b3d4bb600e7b185f4308862e675204580"
+  "output_hash": "686d3b9fddd3df7fc2adafc39d5cd87b61974f674cf29542f0e0782ad8969ccd"
 }

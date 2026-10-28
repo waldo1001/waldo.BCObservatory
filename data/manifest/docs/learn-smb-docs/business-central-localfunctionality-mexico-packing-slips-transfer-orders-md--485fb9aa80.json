@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Carta de Porte packing slips and transfer orders [MX]",
+  "title": "Carta de Porte Packing Slips and Transfer Orders in Mexico",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.512Z",
-      "blob": "26c87e2cf8be2057afef209303f53e3e3f923daf",
-      "words": 971,
+      "at": "2026-10-28T09:03:49.543Z",
+      "blob": "8754d3382c912d9404078e77f9346545c41eb552",
+      "words": 838,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:08.575Z",
+      "at": "2026-10-28T09:03:55.496Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.003567
+      "objects": 3,
+      "cost_usd": 0.005004
     },
     "summarized": {
-      "at": "2026-10-06T19:30:10.366Z",
+      "at": "2026-10-28T09:03:55.498Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:10.367Z",
+      "at": "2026-10-28T09:03:55.499Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:10.367Z",
+      "at": "2026-10-28T09:04:00.837Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders.md",
     "description": "Business Central supports CFDI, allowing the printing of packing slips and transfer orders with the necessary digital signature to meet Carta de Porte requirements.",
-    "ms_date": "2025-02-26",
-    "ms_topic": "article",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "CFDI",
@@ -54,12 +54,12 @@
       "transfer orders",
       "Carta de Porte"
     ],
-    "ai_usage": null,
-    "words": 971,
+    "ai_usage": "ai-assisted",
+    "words": 838,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "14baec6b14123c40f14a5d0ce4488512ab91a8534388ce6e4a35fca49d3817d6"
+  "output_hash": "1bc943359560cc8adc946a07f34f25677859810f12073238f4b65448fb70837b"
 }

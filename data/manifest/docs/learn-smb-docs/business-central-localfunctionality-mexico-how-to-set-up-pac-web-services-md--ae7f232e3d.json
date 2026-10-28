@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up PAC Web Services",
+  "title": "Set Up PAC Web Services in Mexico",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.507Z",
-      "blob": "36b63e08e0633205b8ef7455b3a06b5043422dd7",
-      "words": 457,
+      "at": "2026-10-28T09:03:44.483Z",
+      "blob": "c9e18fdf8ffd7dc679bee937a2c00938d0d85886",
+      "words": 554,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:30:08.574Z",
+      "at": "2026-10-28T09:03:50.934Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003567
+      "cost_usd": 0.004302
     },
     "summarized": {
-      "at": "2026-10-06T19:30:10.364Z",
+      "at": "2026-10-28T09:03:50.936Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:10.365Z",
+      "at": "2026-10-28T09:03:50.938Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:10.365Z",
+      "at": "2026-10-28T09:03:50.939Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md",
     "description": "To send electronic invoices and credit memos in Mexico, you need to specify at least one provider for the required electronic stamp.",
-    "ms_date": "2025-02-25",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -66,12 +66,12 @@
       "electronic invoicing",
       "electronic stamp"
     ],
-    "ai_usage": null,
-    "words": 457,
+    "ai_usage": "ai-assisted",
+    "words": 554,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cfed5a3d3f29f018510efddb5967b32701f8074b29577ab92bf43f3cf41af50b"
+  "output_hash": "558c136cea4f15ab8f04b97963eca54968b8abc0f38c54c630f859c54ad34cf0"
 }

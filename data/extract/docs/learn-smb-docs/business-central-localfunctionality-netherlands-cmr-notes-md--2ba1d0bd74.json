@@ -1,38 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/cmr-notes.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/cmr-notes",
-  "title": "CMR Notes [NL]",
-  "blob": "2a340e0569e789b44c82614b077bde419ce794c6",
-  "summary": "Print CMR notes for sales shipments, purchase returns, and transfer shipments according to the UN CMR Convention in the Dutch version.",
+  "title": "CMR Notes in the Dutch Version [NL]",
+  "blob": "1358f5dccdf84f5b6cefb15130968bbd9e9a9b86",
+  "summary": "CMR notes are bills of lading for international road transport in countries following the 1956 UN Convention, with three types for sales shipments, return shipments, and transfer shipments in Dutch Business Central.",
   "systems": [
-    "localization",
+    "warehouse",
     "sales",
     "purchasing"
   ],
   "topics": [
     "cmr notes",
-    "netherlands",
     "bill of lading",
-    "shipment"
+    "shipping documents",
+    "netherlands",
+    "localization",
+    "international carriage"
   ],
-  "objects": [
-    {
-      "type": "report",
-      "name": "CMR - Sales Shipment"
-    },
-    {
-      "type": "report",
-      "name": "CMR - Purchase Return Shipment"
-    },
-    {
-      "type": "report",
-      "name": "CMR - Transfer Shipment"
-    }
-  ],
+  "objects": [],
   "features": [
-    "CMR sales shipment",
-    "CMR purchase return shipment",
-    "CMR transfer shipment"
+    "CMR - Sales Shipment",
+    "CMR - Return Shipment",
+    "CMR - Transfer Shipment",
+    "preprinted CMR forms"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003567,
-      "pages_in_call": 7
+      "cost_usd": 0.003203,
+      "pages_in_call": 1
     }
   ]
 }

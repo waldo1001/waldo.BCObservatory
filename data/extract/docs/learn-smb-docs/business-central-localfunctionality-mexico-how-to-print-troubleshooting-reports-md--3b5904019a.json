@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-print-troubleshooting-reports",
-  "title": "How to Print Troubleshooting Reports [MX]",
-  "blob": "c814fc50507914e37463f2eb5b251b4c9b6d37e0",
-  "summary": "Print troubleshooting reports in the Mexican version of Business Central for diagnosing finance issues.",
+  "title": "Print Troubleshooting Reports in the Mexican Version [MX]",
+  "blob": "6e32d7e6c92fb509555a20eeb8aa5d00bf8ae054",
+  "summary": "Printing troubleshooting reports in the Mexican version of Business Central using Object Designer for version 14 and earlier.",
   "systems": [
     "localization",
     "finance",
@@ -12,19 +12,27 @@
   "topics": [
     "mexico",
     "troubleshooting",
-    "reports"
+    "printing",
+    "reports",
+    "object designer"
   ],
   "objects": [],
-  "features": [],
-  "versions": [],
+  "features": [
+    "troubleshooting reports",
+    "mexican localization"
+  ],
+  "versions": [
+    "version 14",
+    "Spring 2019"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002475,
-      "pages_in_call": 8
+      "cost_usd": 0.002737,
+      "pages_in_call": 1
     }
   ]
 }

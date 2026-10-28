@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Generate electronic invoices [MX]",
+  "title": "Generate Electronic Invoices in the Mexican Version [MX]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:41.465Z",
-      "blob": "d503c00f7d13ff731d0ced95138669cfd873d166",
-      "words": 858,
+      "at": "2026-10-28T09:03:44.408Z",
+      "blob": "4074a47d937f665f696406d2162b0625726781fb",
+      "words": 774,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:43:43.698Z",
+      "at": "2026-10-28T09:03:51.763Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.004041
+      "objects": 6,
+      "cost_usd": 0.00534
     },
     "summarized": {
-      "at": "2026-10-06T19:43:43.711Z",
+      "at": "2026-10-28T09:03:51.764Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:43.712Z",
+      "at": "2026-10-28T09:03:51.765Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:43.714Z",
+      "at": "2026-10-28T09:03:51.766Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md",
     "description": "After a sales invoice is posted in the Mexican version, an electronic invoice must be generated and sent to the customer.",
-    "ms_date": "2025-02-25",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -64,12 +64,12 @@
       "sales invoice",
       "Mexican version"
     ],
-    "ai_usage": null,
-    "words": 858,
+    "ai_usage": "ai-assisted",
+    "words": 774,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "20a364270c80e1bb0b83fe3ebbbaa7f6d612544b9bf7926ae03a84a9c47ef0f5"
+  "output_hash": "d00ebedf85787c8b901b18e722d2cada48e909d459a5c369e8c063a07437cae1"
 }

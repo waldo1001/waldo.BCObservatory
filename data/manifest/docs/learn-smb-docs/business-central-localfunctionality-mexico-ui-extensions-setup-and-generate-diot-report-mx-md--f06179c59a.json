@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up and generate DIOT reports | Microsoft Docs",
+  "title": "Set Up and Generate DIOT Reports",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.138Z",
-      "blob": "94774a65f679c9196ce1711ea11810f359a6ed8c",
-      "words": 1082,
+      "at": "2026-10-28T09:03:51.817Z",
+      "blob": "1657795a32f5ec8eee8ce35518be55f907c52b73",
+      "words": 1083,
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T19:21:50.316Z",
+      "at": "2026-10-28T09:04:00.865Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003381
+      "objects": 1,
+      "cost_usd": 0.004997
     },
     "summarized": {
-      "at": "2026-10-06T19:21:53.755Z",
+      "at": "2026-10-28T09:04:00.867Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:21:53.756Z",
+      "at": "2026-10-28T09:04:00.868Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:21:53.757Z",
+      "at": "2026-10-28T09:04:00.870Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md",
-    "description": "Use this extension to set up and generate DIOT declarations in Business Central for the Mexican authorities.",
-    "ms_date": "2025-06-30",
+    "description": "Set up vendor operation types and VAT concept links, then export a 54-field DIOT declaration from Business Central for the Mexican tax authorities.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -83,12 +83,12 @@
       "DIOT declarations",
       "DIOT reports"
     ],
-    "ai_usage": null,
-    "words": 1082,
+    "ai_usage": "ai-assisted",
+    "words": 1083,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "729e877db338d15bba157a39afd693a554256d2d9ee225e459a72c7e5a2dc251"
+  "output_hash": "ae8895efcdd222ef4e62aec6686e890770dd38120dfc75c1990ac12672daaa60"
 }

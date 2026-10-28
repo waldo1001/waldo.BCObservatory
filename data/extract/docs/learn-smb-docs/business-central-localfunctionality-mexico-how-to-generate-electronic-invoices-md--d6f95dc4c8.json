@@ -1,25 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices",
-  "title": "Generate electronic invoices [MX]",
-  "blob": "d503c00f7d13ff731d0ced95138669cfd873d166",
-  "summary": "Generate electronic invoices in Mexico describes how to create and send CFDI-compliant electronic invoices for sales and service documents, including digital stamps and foreign trade complements.",
+  "title": "Generate Electronic Invoices in the Mexican Version [MX]",
+  "blob": "4074a47d937f665f696406d2162b0625726781fb",
+  "summary": "Generate electronic invoices in Business Central's Mexican version by posting sales invoices and requesting a stamp from a PAC provider, with options to send via email or export as XML. Covers CFDI 4.0 payment receipts, Pagos 2.0 complement, and Comercio Exterior Complement for export operations.",
   "systems": [
+    "localization",
     "sales",
-    "localization"
+    "finance"
   ],
   "topics": [
-    "electronic invoices",
+    "electronic invoicing",
     "mexico",
     "cfdi",
-    "invoice generation",
-    "digital stamp",
-    "foreign trade"
+    "xml export",
+    "payment receipts",
+    "export compliance",
+    "comercio exterior"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Posted Sales Invoice"
+      "name": "Posted Sales Invoices"
     },
     {
       "type": "page",
@@ -36,15 +38,21 @@
     {
       "type": "page",
       "name": "Sales Invoices"
+    },
+    {
+      "type": "table",
+      "name": "SAT Custom Units"
     }
   ],
   "features": [
-    "Electronic invoice generation",
-    "CFDI digital stamp",
-    "XML export",
+    "CFDI stamping and signing",
+    "electronic document XML export",
+    "CFDI 4.0 payment receipts",
+    "Pagos 2.0 payment complement",
     "Comercio Exterior Complement",
-    "Foreign trade invoice setup",
-    "Payment stamping"
+    "PAC digital signature",
+    "CFDI cancellation",
+    "SAT address assignment"
   ],
   "versions": [],
   "parts": 1,
@@ -53,8 +61,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004041,
-      "pages_in_call": 8
+      "cost_usd": 0.00534,
+      "pages_in_call": 1
     }
   ]
 }

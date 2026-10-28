@@ -2,22 +2,40 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/tax-identification-types-for-mexico.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/tax-identification-types-for-mexico",
   "title": "Tax Identification Types for Mexico",
-  "blob": "a6ad44ac0d134168355ec7a999099bf904578020",
-  "summary": "Use RFC and CURP tax identification types for Mexican customers and vendors based on whether they are companies or persons.",
+  "blob": "5468be5b1cde956fde648faec7af8b35b954faf8",
+  "summary": "Tax identification types for Mexico define how customers, vendors, and companies register with federal tax authorities using RFC or CURP numbers based on entity classification.",
   "systems": [
-    "localization",
-    "finance"
+    "localization"
   ],
   "topics": [
-    "tax identification",
     "mexico",
+    "tax identification",
     "rfc",
-    "curp"
+    "curp",
+    "customer card",
+    "vendor card"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    }
+  ],
   "features": [
-    "RFC identification",
-    "CURP identification"
+    "Tax Identification Type",
+    "RFC No.",
+    "CURP No.",
+    "RFC Number field",
+    "Legal Entity classification",
+    "Natural Person classification"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003567,
-      "pages_in_call": 7
+      "cost_usd": 0.003276,
+      "pages_in_call": 1
     }
   ]
 }

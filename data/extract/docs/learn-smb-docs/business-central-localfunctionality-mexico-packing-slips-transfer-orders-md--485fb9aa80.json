@@ -1,59 +1,56 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders",
-  "title": "Carta de Porte packing slips and transfer orders [MX]",
-  "blob": "26c87e2cf8be2057afef209303f53e3e3f923daf",
-  "summary": "Print and send Carta de Porte-compliant packing slips and transfer orders as CFDI files with digital signatures for Mexican shipments.",
+  "title": "Carta de Porte Packing Slips and Transfer Orders in Mexico",
+  "blob": "8754d3382c912d9404078e77f9346545c41eb552",
+  "summary": "Carta de Porte packing slips and transfer orders enable Mexican companies to print and send CFDI-compliant waybill documents electronically with digital signatures for goods transportation as required since December 1, 2021.",
   "systems": [
     "localization",
-    "inventory",
-    "sales"
+    "sales",
+    "inventory"
   ],
   "topics": [
     "carta de porte",
-    "mexico",
     "packing slips",
     "transfer orders",
+    "mexico",
     "cfdi",
-    "digital signature"
+    "electronic invoicing",
+    "waybill"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "Company Information"
-    },
-    {
-      "type": "page",
+      "type": "table",
       "name": "Locations"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Fixed Assets"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Items"
     }
   ],
   "features": [
-    "SCT permission setup",
-    "Vehicle configuration",
-    "Item classification",
-    "Hazardous material",
-    "Packaging type",
-    "Custom transit number"
+    "Carta de Porte 3.1 complements",
+    "CFDI digital signature support",
+    "PAC web services integration",
+    "SAT certificate management",
+    "Vehicle and trailer configuration",
+    "Item classification and hazardous material setup",
+    "Transport operator assignment",
+    "Foreign trade customs documentation"
   ],
-  "versions": [
-    "24.4"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003567,
-      "pages_in_call": 7
+      "cost_usd": 0.005004,
+      "pages_in_call": 1
     }
   ]
 }

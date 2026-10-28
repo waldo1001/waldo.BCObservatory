@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "CMR Notes [NL]",
+  "title": "CMR Notes in the Dutch Version [NL]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/cmr-notes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.525Z",
-      "blob": "2a340e0569e789b44c82614b077bde419ce794c6",
-      "words": 336,
+      "at": "2026-10-28T09:03:53.895Z",
+      "blob": "1358f5dccdf84f5b6cefb15130968bbd9e9a9b86",
+      "words": 320,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:08.576Z",
+      "at": "2026-10-28T09:04:00.880Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003567
+      "objects": 0,
+      "cost_usd": 0.003203
     },
     "summarized": {
-      "at": "2026-10-06T19:30:10.375Z",
+      "at": "2026-10-28T09:04:00.882Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:10.376Z",
+      "at": "2026-10-28T09:04:00.883Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:10.377Z",
+      "at": "2026-10-28T09:04:00.885Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/cmr-notes.md",
     "description": "Process claims with complete CMR note information easily. Use the Dutch feature to follow the CMR Convention with standard CMR notes.",
-    "ms_date": "2025-03-14",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "CMR convention",
       "Netherlands"
     ],
-    "ai_usage": null,
-    "words": 336,
+    "ai_usage": "ai-assisted",
+    "words": 320,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7c07d2c4bee32f21f1fc6dab748c9400a1db07319c5e15268182ee8601adf588"
+  "output_hash": "e7b37ff5f6aaa71cdf59c2599588a2c2f2ade53bda32039cfdcef61a6dd405c2"
 }

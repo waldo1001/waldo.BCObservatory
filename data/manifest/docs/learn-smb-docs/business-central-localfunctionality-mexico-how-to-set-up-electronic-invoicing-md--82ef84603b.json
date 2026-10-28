@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up Electronic Invoicing [MX]",
+  "title": "Set Up Electronic Invoicing - Mexico [MX]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.503Z",
-      "blob": "3d1e2d598454cd35034793f3e7ba8ab89be6562c",
-      "words": 2000,
+      "at": "2026-10-28T09:03:44.539Z",
+      "blob": "3955f52dea5f4692228a2f58a5747ec462b0e4f7",
+      "words": 1650,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:08.573Z",
+      "at": "2026-10-28T09:03:51.872Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 12,
-      "cost_usd": 0.003567
+      "objects": 13,
+      "cost_usd": 0.012029
     },
     "summarized": {
-      "at": "2026-10-06T19:30:08.579Z",
+      "at": "2026-10-28T09:03:51.873Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:08.580Z",
+      "at": "2026-10-28T09:03:51.875Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:08.581Z",
+      "at": "2026-10-28T09:03:51.877Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md",
     "description": "To send electronic documents in Mexico, it's necessary to set up Business Central to include the required identification numbers for CFDI.",
-    "ms_date": "2025-05-01",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "identification numbers",
       "CFDI"
     ],
-    "ai_usage": null,
-    "words": 2000,
+    "ai_usage": "ai-assisted",
+    "words": 1650,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "14e72b6c0010d180ce31e4dbfcd96f09b3fd04dc717c1ccdb3212b3e78de1b20"
+  "output_hash": "a493de730e7417196abdd32124af43bb0e3223ae9044824aa6ad2ac0321fdf8d"
 }

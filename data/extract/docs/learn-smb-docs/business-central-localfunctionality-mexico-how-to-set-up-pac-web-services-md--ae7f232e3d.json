@@ -1,28 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services",
-  "title": "Set Up PAC Web Services",
-  "blob": "36b63e08e0633205b8ef7455b3a06b5043422dd7",
-  "summary": "Set up PAC web services to enable digital stamping of electronic invoices and credit memos by uploading certificates and configuring web service details.",
+  "title": "Set Up PAC Web Services in Mexico",
+  "blob": "c9e18fdf8ffd7dc679bee937a2c00938d0d85886",
+  "summary": "Set up PAC web services for electronic invoicing in Mexico by configuring digital stamp providers, uploading certificates, and specifying web service details for stamp requests, cancellations, and status retrieval.",
   "systems": [
     "localization",
+    "finance",
     "integration"
   ],
   "topics": [
-    "pac web services",
     "mexico",
-    "digital stamp",
-    "cfdi",
-    "certificates"
+    "electronic invoicing",
+    "pac web services",
+    "digital stamps",
+    "certificates",
+    "web service configuration"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Certificates"
+      "name": "PAC Web Services"
     },
     {
       "type": "page",
-      "name": "PAC Web Services"
+      "name": "Certificates"
     },
     {
       "type": "page",
@@ -30,12 +32,14 @@
     }
   ],
   "features": [
-    "Certificate upload",
-    "PAC web service configuration",
-    "Test environment",
-    "Production environment",
-    "Digital stamp request",
-    "Document cancellation"
+    "Digital stamp provider configuration",
+    "Certificate management",
+    "Web service method specification",
+    "Environment selection (test/production)",
+    "Request stamp operation",
+    "Cancellation submission",
+    "Cancellation status retrieval",
+    "PAC provider setup"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003567,
-      "pages_in_call": 7
+      "cost_usd": 0.004302,
+      "pages_in_call": 1
     }
   ]
 }
