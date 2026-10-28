@@ -2,19 +2,16 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5061.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5061",
   "title": "Opportunity - List (report)",
-  "blob": "8c0fa7333949c86fb8425ea4da105e2dd28cf513",
-  "summary": "The Opportunity - List report shows all opportunities with descriptions, dates, sales cycles, and related contacts and campaigns. Use this report to review your sales pipeline and opportunity details.",
+  "blob": "ef829424d845bdcb403692f560d8c0896d32fc37",
+  "summary": "Opportunity - List report displays opportunities with descriptions, sales cycles, stages, salespersons, status, probability, completion percentage, and related contacts and campaigns.",
   "systems": [
-    "crm",
-    "sales"
+    "crm"
   ],
   "topics": [
-    "opportunity",
-    "list",
-    "report",
-    "sales cycle",
-    "campaigns",
-    "contacts"
+    "opportunities",
+    "reports",
+    "relationship management",
+    "sales cycles"
   ],
   "objects": [
     {
@@ -22,7 +19,13 @@
       "name": "Opportunity - List"
     }
   ],
-  "features": [],
+  "features": [
+    "opportunity filtering",
+    "sales cycle information",
+    "salesperson tracking",
+    "probability and completion data",
+    "contact and campaign relationships"
+  ],
   "versions": [],
   "parts": 1,
   "prompt_version": 1,
@@ -30,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003275,
-      "pages_in_call": 8
+      "cost_usd": 0.002811,
+      "pages_in_call": 1
     }
   ]
 }

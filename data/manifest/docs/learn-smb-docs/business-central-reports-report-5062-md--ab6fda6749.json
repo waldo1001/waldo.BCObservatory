@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5062",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.400Z",
-      "blob": "6ff02748fe09bfbaf1800cfea2fc1627c4ffbf1c",
+      "at": "2026-10-28T08:58:15.009Z",
+      "blob": "7f89369d5f0c71b021d53297531c7875ea850eb8",
       "words": 140,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:06.758Z",
+      "at": "2026-10-28T08:58:41.913Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001102
+      "cost_usd": 0.002754
     },
     "summarized": {
-      "at": "2026-10-06T18:54:06.802Z",
+      "at": "2026-10-28T08:58:41.915Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:08.572Z",
+      "at": "2026-10-28T08:58:41.916Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:08.574Z",
+      "at": "2026-10-28T08:58:41.916Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5062.md",
-    "description": "Get an overview about your sales cycles.",
-    "ms_date": "2024-11-11",
+    "description": "Review sales cycle stages, opportunity counts, estimated and calculated current values, and average days with the Sales Cycle - Analysis report in Business Central.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 140,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3eae0af409870f5d335a73c0478c921554dcc7ca2dc8d1671e1e2f1d3dee9abd"
+  "output_hash": "f5a474436605f43002c9d91e5348da2a00736773993571a04894dd490e3dc874"
 }

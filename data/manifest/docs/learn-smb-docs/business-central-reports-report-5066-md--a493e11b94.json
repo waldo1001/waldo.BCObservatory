@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5066",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.432Z",
-      "blob": "2b2187b8586a5da028ffa462abee2ab8f10d241c",
-      "words": 124,
+      "at": "2026-10-28T08:58:48.667Z",
+      "blob": "86c32736e939af6a424c5a0484d739b0281cc91c",
+      "words": 152,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:24.525Z",
+      "at": "2026-10-28T08:59:03.665Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001233
+      "cost_usd": 0.002862
     },
     "summarized": {
-      "at": "2026-10-06T18:54:26.468Z",
+      "at": "2026-10-28T08:59:03.666Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:26.469Z",
+      "at": "2026-10-28T08:59:03.667Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:26.470Z",
+      "at": "2026-10-28T08:59:03.668Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5066.md",
-    "description": "Print handouts for a profile questionnaire.",
-    "ms_date": "2024-11-11",
+    "description": "Print profile questionnaire handouts and choose whether to include automatically answered questions with the Questionnaire - Handouts report in Business Central.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 124,
+    "ai_usage": "ai-assisted",
+    "words": 152,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d658c9f75e8e0cfe49394c933865178f0e724c6e0cd139e7e22e2c3000569f28"
+  "output_hash": "3a83528b401247cbcd5a01116987906083b00993e6b0690e4b7300a958204a0c"
 }

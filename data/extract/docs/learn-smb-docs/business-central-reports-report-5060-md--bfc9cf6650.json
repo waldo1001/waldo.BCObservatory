@@ -2,15 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5060.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5060",
   "title": "Campaign - Details (report)",
-  "blob": "563da18b8081e1cb3640ddc5b4107ae718f80e29",
-  "summary": "Campaign - Details report shows campaign information including number, date, description, and related campaign entries.",
+  "blob": "7ec60b0246c664980223a864f35a6b8c70f11a8f",
+  "summary": "Campaign - Details report shows campaign information including number, date, description, entries, segments, costs, duration, and opportunity values with filtering options.",
   "systems": [
     "crm"
   ],
   "topics": [
-    "campaigns",
-    "reporting",
-    "campaign management"
+    "campaign",
+    "report",
+    "relationship management",
+    "entries",
+    "segments"
   ],
   "objects": [
     {
@@ -19,8 +21,12 @@
     }
   ],
   "features": [
-    "campaign information display",
-    "campaign entry details"
+    "campaign filtering",
+    "campaign entries",
+    "segments",
+    "campaign costs",
+    "campaign duration",
+    "opportunity values"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001102,
-      "pages_in_call": 7
+      "cost_usd": 0.002756,
+      "pages_in_call": 1
     }
   ]
 }

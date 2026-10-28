@@ -2,15 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5066.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5066",
   "title": "Questionnaire - Handouts (report)",
-  "blob": "2b2187b8586a5da028ffa462abee2ab8f10d241c",
-  "summary": "Questionnaire - Handouts report prints profile questionnaires for distribution.",
+  "blob": "86c32736e939af6a424c5a0484d739b0281cc91c",
+  "summary": "The Questionnaire - Handouts report prints profile questionnaires and their questions, with options to include auto-answered classification fields and filter by code, contact type, or business relation.",
   "systems": [
     "crm"
   ],
   "topics": [
-    "reporting",
-    "questionnaires",
-    "profile questionnaires",
+    "questionnaire",
+    "report",
+    "profile",
+    "handouts",
+    "printing",
     "marketing"
   ],
   "objects": [
@@ -20,8 +22,11 @@
     }
   ],
   "features": [
-    "questionnaire printing",
-    "profile questionnaires"
+    "print questionnaires",
+    "include classification fields",
+    "filter by code",
+    "filter by contact type",
+    "filter by business relation code"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001233,
-      "pages_in_call": 8
+      "cost_usd": 0.002862,
+      "pages_in_call": 1
     }
   ]
 }

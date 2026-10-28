@@ -2,16 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5056.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5056",
   "title": "Contact - Labels (report)",
-  "blob": "ca36b2db9cf8823c3c05047a5e7583651fc2f8af",
-  "summary": "Contact - Labels report generates mailing labels with contact names and addresses, useful for sales and marketing campaign letter preparation.",
+  "blob": "ab86e3fc78ba08bb739e4c1e7500d532f4d1bf77",
+  "summary": "Contact Labels report generates mailing labels with contact names and addresses in multiple format options for sales and marketing campaigns.",
   "systems": [
-    "crm"
+    "crm",
+    "sales"
   ],
   "topics": [
-    "contacts",
+    "contact labels",
     "mailing labels",
-    "reporting",
-    "marketing communications"
+    "report",
+    "contact information",
+    "marketing",
+    "printing"
   ],
   "objects": [
     {
@@ -20,9 +23,9 @@
     }
   ],
   "features": [
-    "customizable label size",
-    "adjustable column layout",
-    "contact information display"
+    "mailing label formats",
+    "contact address display",
+    "format presets"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001102,
-      "pages_in_call": 7
+      "cost_usd": 0.002793,
+      "pages_in_call": 1
     }
   ]
 }

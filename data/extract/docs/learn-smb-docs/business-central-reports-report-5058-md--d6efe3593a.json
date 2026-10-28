@@ -2,16 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5058.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5058",
   "title": "Salesperson - Opportunities (report)",
-  "blob": "cced10398c607fd5fafb00ab6d1fc5ca1ceedad7",
-  "summary": "Salesperson - Opportunities report displays opportunity information for one or multiple salespeople.",
+  "blob": "85e9396a04984cd4d87bc62a222071b83e8ec2b4",
+  "summary": "The Salesperson Opportunities report displays information about opportunities managed by one or more salespeople, supporting relationship management activities.",
   "systems": [
-    "crm"
+    "crm",
+    "sales"
   ],
   "topics": [
-    "opportunities",
-    "sales",
     "reporting",
-    "salespeople"
+    "opportunities",
+    "salespeople",
+    "relationship management"
   ],
   "objects": [
     {
@@ -20,8 +21,7 @@
     }
   ],
   "features": [
-    "opportunity tracking",
-    "salesperson filtering"
+    "opportunity tracking by salesperson"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001102,
-      "pages_in_call": 7
+      "cost_usd": 0.002627,
+      "pages_in_call": 1
     }
   ]
 }

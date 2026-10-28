@@ -2,15 +2,16 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5063.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5063",
   "title": "Segment - Contacts (report)",
-  "blob": "0e482930450eb4ab1b6dd02e05c8affd8c0fab1a",
-  "summary": "Segment - Contacts report displays a list of contacts selected in one or more segments.",
+  "blob": "97d87d2ba66e81416d7aa883aa2677a2f82879c0",
+  "summary": "Segment - Contacts is a report that displays a list of contacts selected in one or more segments for relationship management purposes.",
   "systems": [
     "crm"
   ],
   "topics": [
-    "segments",
+    "report",
     "contacts",
-    "reporting"
+    "segment",
+    "relationship management"
   ],
   "objects": [
     {
@@ -19,7 +20,8 @@
     }
   ],
   "features": [
-    "segment contact listing"
+    "contact listing",
+    "segment filtering"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001102,
-      "pages_in_call": 7
+      "cost_usd": 0.002659,
+      "pages_in_call": 1
     }
   ]
 }

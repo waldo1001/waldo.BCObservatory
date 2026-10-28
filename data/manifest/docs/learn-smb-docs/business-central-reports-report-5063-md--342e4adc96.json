@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5063",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.407Z",
-      "blob": "0e482930450eb4ab1b6dd02e05c8affd8c0fab1a",
+      "at": "2026-10-28T08:58:14.950Z",
+      "blob": "97d87d2ba66e81416d7aa883aa2677a2f82879c0",
       "words": 116,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:06.759Z",
+      "at": "2026-10-28T08:58:36.245Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001102
+      "cost_usd": 0.002659
     },
     "summarized": {
-      "at": "2026-10-06T18:54:08.575Z",
+      "at": "2026-10-28T08:58:36.246Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:08.576Z",
+      "at": "2026-10-28T08:58:36.247Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:08.576Z",
+      "at": "2026-10-28T08:58:36.248Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5063.md",
-    "description": "Review the distribution of contacts across segments.",
-    "ms_date": "2024-11-11",
+    "description": "Review contacts in selected segments, including addresses, salespeople, interaction counts, costs, and opportunity values, with this Business Central report.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 116,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eaf4a19d5b1f317648bb6687cbcec4c69026460ed650e9a076ffef9135f1dad9"
+  "output_hash": "f80b74f35877e4d223fce99a4445a448f7e3b811e089ebeb157255dbb7d07a39"
 }

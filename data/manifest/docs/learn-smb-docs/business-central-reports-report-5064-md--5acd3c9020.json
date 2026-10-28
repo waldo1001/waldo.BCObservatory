@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5064",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.421Z",
-      "blob": "4aab6ba59304e650a6b6d6a56ea4a20e4a52c6f4",
-      "words": 162,
+      "at": "2026-10-28T08:58:47.500Z",
+      "blob": "4759df7e0a52bdfac6d96e70a96ada5daa8acbd7",
+      "words": 205,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:06.760Z",
+      "at": "2026-10-28T08:59:03.237Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001102
+      "cost_usd": 0.002886
     },
     "summarized": {
-      "at": "2026-10-06T18:54:08.577Z",
+      "at": "2026-10-28T08:59:03.239Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:08.578Z",
+      "at": "2026-10-28T08:59:03.240Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:08.579Z",
+      "at": "2026-10-28T08:59:03.241Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5064.md",
-    "description": "Get or print cover sheets for your segments.",
-    "ms_date": "2024-11-11",
+    "description": "Create cover sheets for contacts in segments, add text and remarks, and optionally log interactions with the Segment - Cover Sheet report in Business Central.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 162,
+    "ai_usage": "ai-assisted",
+    "words": 205,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ff5717229aa106c8b42f2d23781c056d1b62bfa168b2760bdfa1dc69c51fb987"
+  "output_hash": "e60f5affa543856e6a7dd102c52d234a0406b2db2f3517b137f20c73a0b05d60"
 }

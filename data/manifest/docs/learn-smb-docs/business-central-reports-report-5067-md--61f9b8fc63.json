@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5067",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.440Z",
-      "blob": "2e51f3e33b3a19164861aa1b4dc1c60506cd9e1e",
-      "words": 121,
+      "at": "2026-10-28T08:58:49.831Z",
+      "blob": "92fc0ccb23cf2ff8259cae7b3cec42a2a41a3839",
+      "words": 147,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:24.526Z",
+      "at": "2026-10-28T08:59:11.481Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.001233
+      "objects": 1,
+      "cost_usd": 0.002667
     },
     "summarized": {
-      "at": "2026-10-06T18:54:26.472Z",
+      "at": "2026-10-28T08:59:11.482Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:26.473Z",
+      "at": "2026-10-28T08:59:11.484Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:26.475Z",
+      "at": "2026-10-28T08:59:11.485Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5067.md",
-    "description": "Show test reports of your profile questionnaires.",
-    "ms_date": "2024-11-11",
+    "description": "Find missing questions, answers, and classification settings in profile questionnaires with the Questionnaire - Test report in Business Central.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 121,
+    "ai_usage": "ai-assisted",
+    "words": 147,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "684186d0af396a72fb006314d0f3ff99f1af20e52d22b32b0b663aa40f38d0dd"
+  "output_hash": "40ca6a8cc7a5626c6337e20c69dbba02e2600ea953b392f0f8e40b5f7a06bd1e"
 }
