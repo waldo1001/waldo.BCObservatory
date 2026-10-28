@@ -2,18 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-Adjustment-Entries.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Adjustment-Entries",
   "title": "TDS Adjustments",
-  "blob": "e0b6025d6497706e3e0943ea6b844cddec19842a",
-  "summary": "TDS adjustment journal allows corrections to TDS amounts, rates, and base amounts already deducted but not paid to government authorities in India localization.",
+  "blob": "31eabcf8c635b094264346c89a498e3a61ce4c88",
+  "summary": "TDS Adjustments allows corrections to Tax Deducted at Source amounts, rates, or base amounts that were already deducted but not paid. Users adjust entries in the TDS Adjustment Journal, revise TDS percentages and amounts, and post changes to update GL accounts and vendor ledgers.",
   "systems": [
     "finance",
-    "localization"
+    "purchasing"
   ],
   "topics": [
     "tds",
-    "adjustment",
     "tax deduction",
     "india",
-    "corrections"
+    "adjustment journal",
+    "vendor accounts"
   ],
   "objects": [
     {
@@ -22,10 +22,12 @@
     }
   ],
   "features": [
-    "TDS percentage revision",
+    "TDS amount adjustment",
+    "TDS rate revision",
     "TDS base amount correction",
     "GL account updates",
-    "vendor ledger reconciliation"
+    "vendor ledger entries",
+    "unpaid TDS entries"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003451,
-      "pages_in_call": 8
+      "cost_usd": 0.003254,
+      "pages_in_call": 1
     }
   ]
 }

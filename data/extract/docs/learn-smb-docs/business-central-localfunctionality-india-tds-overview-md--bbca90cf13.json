@@ -1,34 +1,82 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-Overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Overview",
-  "title": "Setting up Tax Deducted at Source, as per the provisions of the Income Tax Act, 1961",
-  "blob": "b1c7e74871c44172276e1c099cb08be57a539973",
-  "summary": "Tax Deducted at Source (TDS) setup according to India's Income Tax Act, 1961 covers automatic and manual configuration of tax types, entities, components, rates, posting accounts, and vendor/location details.",
+  "title": "Set Up Tax Deducted at Source (TDS) as per the Income Tax Act, 1961 Provisions",
+  "blob": "a58be42e6506c9335c266304526fd4c58fa228dc",
+  "summary": "Set up Tax Deducted at Source (TDS) as per Indian Income Tax Act, 1961 provisions through automatic tax engine setup or manual configuration of TDS rates, accounting periods, T.A.N, assessee codes, sections, and related master data.",
   "systems": [
     "finance",
-    "localization"
+    "localization",
+    "administration"
   ],
   "topics": [
-    "tds",
     "tax deduction",
+    "tds setup",
+    "india localization",
     "income tax",
-    "india",
-    "vendor setup",
     "tax rates",
-    "posting accounts"
+    "vendor master",
+    "tax posting"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "TDS Rates"
+    },
+    {
+      "type": "table",
+      "name": "Tax Acc. Period Setup"
+    },
+    {
+      "type": "table",
+      "name": "T.A.N. Nos."
+    },
+    {
+      "type": "table",
+      "name": "Assessee Codes"
+    },
+    {
+      "type": "table",
+      "name": "TDS Sections"
+    },
+    {
+      "type": "table",
+      "name": "Concessional Codes"
+    },
+    {
+      "type": "table",
+      "name": "TDS Nature of Remittances"
+    },
+    {
+      "type": "table",
+      "name": "Act Applicable"
+    },
+    {
+      "type": "table",
+      "name": "TDS Posting Setup"
+    },
+    {
+      "type": "table",
+      "name": "Tax Types"
+    },
+    {
+      "type": "table",
+      "name": "Vendors"
+    }
+  ],
   "features": [
-    "TDS rate setup",
-    "Tax accounting period",
-    "TAN numbers",
-    "Assessee codes",
-    "TDS sections",
-    "Concessional codes",
-    "Nature of remittances",
-    "Act applicable",
-    "TDS posting setup",
-    "TDS rounding precision"
+    "Automatic tax engine setup",
+    "TDS rate configuration",
+    "Tax accounting periods",
+    "T.A.N registration",
+    "Assessee code management",
+    "TDS section setup",
+    "Concessional rate codes",
+    "TDS posting to general ledger",
+    "Vendor TDS sections",
+    "Non-resident payment tracking",
+    "eTDS return generation",
+    "PAN validation"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +85,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003704,
-      "pages_in_call": 8
+      "cost_usd": 0.012764,
+      "pages_in_call": 1
     }
   ]
 }

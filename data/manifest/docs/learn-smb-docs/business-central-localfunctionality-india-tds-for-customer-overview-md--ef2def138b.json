@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setting up TDS by Customer as per the Income Tax Act, 1961 provisions",
+  "title": "Set Up TDS by Customer Based on the Income Tax Act, 1961 Provisions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-for-Customer-Overview",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.073Z",
-      "blob": "99cf2920b7745bd1375fc981efb4b6e218795396",
-      "words": 1359,
+      "at": "2026-10-28T09:11:13.358Z",
+      "blob": "83915d1dc9ed51ad566f990b13dc97927207e499",
+      "words": 1258,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:55.870Z",
+      "at": "2026-10-28T09:11:22.779Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 8,
-      "cost_usd": 0.004317
+      "objects": 11,
+      "cost_usd": 0.01202
     },
     "summarized": {
-      "at": "2026-10-06T19:16:57.664Z",
+      "at": "2026-10-28T09:11:22.781Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:57.665Z",
+      "at": "2026-10-28T09:11:22.782Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:57.667Z",
+      "at": "2026-10-28T09:11:22.784Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TDS-for-Customer-Overview.md",
-    "description": "Describes the basic setups required according to the Income Tax Act, 1961.",
-    "ms_date": "2025-06-30",
+    "description": "Set up customer TDS classifications and related transaction defaults for tracking tax deductions in the India localization of Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -68,12 +68,12 @@
       "TDS rates",
       "setup types"
     ],
-    "ai_usage": null,
-    "words": 1359,
+    "ai_usage": "ai-assisted",
+    "words": 1258,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6f432b15120885cb61898e01ccb75ae9aed88d2446280ccf20cdb2c1f1af325f"
+  "output_hash": "446de141af3801f9fe817833b613bfe700ae5599644d0ed602751f50d4dddcdc"
 }

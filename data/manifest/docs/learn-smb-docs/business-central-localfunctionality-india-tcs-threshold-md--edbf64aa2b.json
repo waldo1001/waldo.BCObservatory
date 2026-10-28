@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TCS calculation considering threshold limits",
+  "title": "TCS with Threshold",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Threshold",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.128Z",
-      "blob": "934270626b21b7eefca802400284fcb19b1a3350",
-      "words": 187,
+      "at": "2026-10-28T09:11:06.979Z",
+      "blob": "fdc447b2c5488c26afa3d456188203e3e11912b0",
+      "words": 217,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:23.248Z",
+      "at": "2026-10-28T09:11:12.712Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003451
+      "cost_usd": 0.00304
     },
     "summarized": {
-      "at": "2026-10-06T19:17:26.562Z",
+      "at": "2026-10-28T09:11:12.714Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:26.564Z",
+      "at": "2026-10-28T09:11:12.715Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:26.565Z",
+      "at": "2026-10-28T09:11:12.716Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TCS-Threshold.md",
-    "description": "Explains how TCS is calculated in relation to threshold limits.",
-    "ms_date": "2025-06-27",
+    "description": "Review TCS threshold calculations and illustrative examples to understand how configured limits affect transactions in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -59,12 +59,12 @@
       "TCS calculation",
       "TCS threshold"
     ],
-    "ai_usage": null,
-    "words": 187,
+    "ai_usage": "ai-assisted",
+    "words": 217,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "03e182aaf82b9b7c2bc13c3702050209957c65d8567c2913b9d7b637b1929800"
+  "output_hash": "0760d2a0e22f5724a4215991147fbc85c3def926137b7b0b1a0a37c17e7230d8"
 }

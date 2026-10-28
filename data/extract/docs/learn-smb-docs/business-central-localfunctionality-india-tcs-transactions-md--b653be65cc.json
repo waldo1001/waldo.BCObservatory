@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TCS-Transactions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Transactions",
-  "title": "TCS calculation on Sales and Receipt Transactions",
-  "blob": "ef69c05efc8ac1a3ded34da4ff633386ef2459c1",
-  "summary": "TCS calculation on sales and receipt transactions covers applying Tax Collected at Source to various document types including sales invoices, orders, returns, and receipt journals with multiple scenarios for rates, PAN status, and foreign currency.",
+  "title": "TCS Calculation on Sales and Receipt Transactions",
+  "blob": "8f96a6b1989eccc859269c054ff85cd6461f338b",
+  "summary": "TCS calculation on sales and receipt transactions in India localization covers how to calculate tax collected at source on items and services through various documents including sales orders, invoices, return orders, and receipt vouchers, with examples of base amounts, tax rates, and GL entries.",
   "systems": [
     "sales",
     "finance",
@@ -11,10 +11,11 @@
   ],
   "topics": [
     "tcs",
-    "tax collection",
-    "sales transactions",
+    "tax collected at source",
     "india",
-    "rate certificates"
+    "sales transactions",
+    "receipt transactions",
+    "tax calculation"
   ],
   "objects": [
     {
@@ -51,14 +52,14 @@
     }
   ],
   "features": [
+    "TCS on goods and services",
     "TCS Nature of Collection",
-    "T.C.A.N number",
-    "PAN verification",
-    "lower rate certificates",
-    "zero rate application",
-    "advance payment adjustment",
-    "foreign currency conversion",
-    "multiple nature of goods"
+    "Customer advance payment adjustment",
+    "Foreign currency TCS conversion",
+    "Higher TCS rate for customers without PAN",
+    "Multiple nature of goods in single invoice",
+    "Lower rate TCS certificates",
+    "Zero rate TCS certificates"
   ],
   "versions": [],
   "parts": 1,
@@ -67,8 +68,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003451,
-      "pages_in_call": 8
+      "cost_usd": 0.006603,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setting up Tax Deducted at Source, as per the provisions of the Income Tax Act, 1961",
+  "title": "Set Up Tax Deducted at Source (TDS) as per the Income Tax Act, 1961 Provisions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Overview",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.077Z",
-      "blob": "b1c7e74871c44172276e1c099cb08be57a539973",
-      "words": 1695,
+      "at": "2026-10-28T09:11:14.883Z",
+      "blob": "a58be42e6506c9335c266304526fd4c58fa228dc",
+      "words": 1570,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:01.199Z",
+      "at": "2026-10-28T09:11:22.765Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003704
+      "objects": 11,
+      "cost_usd": 0.012764
     },
     "summarized": {
-      "at": "2026-10-06T19:17:01.208Z",
+      "at": "2026-10-28T09:11:22.766Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:01.209Z",
+      "at": "2026-10-28T09:11:22.768Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:01.210Z",
+      "at": "2026-10-28T09:11:22.769Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TDS-Overview.md",
-    "description": "Describes the basic setups that are required by the provisions of the Income Tax Act, 1961.",
-    "ms_date": "2025-06-30",
+    "description": "Set up Tax Deducted at Source classifications, posting accounts, and transaction defaults for the India localization of Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -70,12 +70,12 @@
       "accounting period",
       "TDS rates"
     ],
-    "ai_usage": null,
-    "words": 1695,
+    "ai_usage": "ai-assisted",
+    "words": 1570,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e73fb58dad01d6f3df27b0071ba199cefadcfaef61747f43a4d42f6b04494557"
+  "output_hash": "06e036bb4002879a5098abf1b889664dfb782273789db91632e8be900ddf630a"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setting Up Tax Deducted at Source (TDS) on purchase of goods under Section 194Q",
+  "title": "Set Up Tax Deducted at Source (TDS) on Purchase of Goods under Section 194Q",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-194Q-Section-Overview",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.068Z",
-      "blob": "fa9317f07db81ea2d6f82bdabcc3ce2c5b923291",
-      "words": 616,
+      "at": "2026-10-28T09:11:07.025Z",
+      "blob": "92ad47eacd55d6671a2faf3acf7a5367e8b3b42a",
+      "words": 532,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:55.869Z",
+      "at": "2026-10-28T09:11:13.253Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.004317
+      "objects": 4,
+      "cost_usd": 0.004096
     },
     "summarized": {
-      "at": "2026-10-06T19:16:57.661Z",
+      "at": "2026-10-28T09:11:13.255Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:57.662Z",
+      "at": "2026-10-28T09:11:13.256Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:57.663Z",
+      "at": "2026-10-28T09:11:13.259Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TDS-194Q-Section-Overview.md",
     "description": "Learn about the required setup steps for Tax Deducted at Source (TDS) under Section 194Q, in accordance with the Income Tax Act, 1961.",
-    "ms_date": "2025-06-30",
+    "ms_date": "2026-10-21",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "TDS",
       "section 194Q"
     ],
-    "ai_usage": null,
-    "words": 616,
+    "ai_usage": "ai-assisted",
+    "words": 532,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cdbde4f73e12f0a5aece36b45a1f80b4a6eb52ee07f9847f533c586f48fd8f71"
+  "output_hash": "a88fcb4795a5045b42d822c1258cdc3464fe929403ddeedf68a10e454e8b2d72"
 }

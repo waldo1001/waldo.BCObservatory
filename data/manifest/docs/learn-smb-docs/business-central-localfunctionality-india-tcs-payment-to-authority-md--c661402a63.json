@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Payment of TCS to the Government Authorities",
+  "title": "Payment of TCS to Government Authorities",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Payment-to-Authority",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.342Z",
-      "blob": "be40aa81b0fa15eec54a9d4869301f4619f573ea",
-      "words": 154,
+      "at": "2026-10-28T09:11:07.004Z",
+      "blob": "5c71b957a03605e391af17ce6d4d4b8429ba47cc",
+      "words": 162,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T23:41:10.594Z",
+      "at": "2026-10-28T09:11:12.975Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002263
+      "objects": 3,
+      "cost_usd": 0.003417
     },
     "summarized": {
-      "at": "2026-10-06T23:41:10.604Z",
+      "at": "2026-10-28T09:11:12.977Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:10.605Z",
+      "at": "2026-10-28T09:11:12.978Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:10.606Z",
+      "at": "2026-10-28T09:11:12.979Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TCS-Payment-to-Authority.md",
-    "description": "Learn how to deposit Tax Collected at Source (TCS) payments to government authorities in Business Central.",
-    "ms_date": "2025-06-27",
+    "description": "Select Tax Collected at Source entries for payment to government authorities and review the payment workflow in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "TCS",
       "TCS payment"
     ],
-    "ai_usage": null,
-    "words": 154,
+    "ai_usage": "ai-assisted",
+    "words": 162,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ba3f6dce5da8bc0025cfd5c41bcd9a03167a96c220a5a38115fd658aa43fbe6c"
+  "output_hash": "517186203b7743edd90058b364aec39b796f3759ef97fa8837147f92ad489aa4"
 }

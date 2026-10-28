@@ -1,36 +1,48 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-194Q-Section-Overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-194Q-Section-Overview",
-  "title": "Setting Up Tax Deducted at Source (TDS) on purchase of goods under Section 194Q",
-  "blob": "fa9317f07db81ea2d6f82bdabcc3ce2c5b923291",
-  "summary": "Tax Deducted at Source (TDS) section 194Q on purchase of goods applies when aggregate purchases from a supplier exceed Rs.50 lacs, requiring TDS deduction at 0.10%, with setup for rates and opening amounts.",
+  "title": "Set Up Tax Deducted at Source (TDS) on Purchase of Goods under Section 194Q",
+  "blob": "92ad47eacd55d6671a2faf3acf7a5367e8b3b42a",
+  "summary": "Set up Tax Deducted at Source (TDS) on purchase of goods under section 194Q in the India localization, including TDS rates, opening amounts, and customer aggregate turnover configuration.",
   "systems": [
-    "finance",
+    "localization",
     "purchasing"
   ],
   "topics": [
     "tds",
+    "tax deduction",
+    "section 194q",
     "india",
-    "194q",
     "purchase",
-    "tax deduction"
+    "threshold",
+    "vendor setup"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "TDS Section"
+      "type": "table",
+      "name": "TDS Rates"
     },
     {
-      "type": "page",
+      "type": "table",
+      "name": "TDS Entries"
+    },
+    {
+      "type": "table",
       "name": "TDS 194Q Opening"
+    },
+    {
+      "type": "table",
+      "name": "Customers"
     }
   ],
   "features": [
     "Calc. Over & Above Threshold",
+    "TDS section 194Q",
+    "Assessee Code",
+    "Allowed Sections",
+    "TDS Above Threshold Opening",
     "Aggregate Turnover",
-    "TDS Threshold Amount",
-    "TDS Rate",
-    "Threshold Overlook"
+    "TDS Threshold Amount"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +51,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004317,
-      "pages_in_call": 8
+      "cost_usd": 0.004096,
+      "pages_in_call": 1
     }
   ]
 }

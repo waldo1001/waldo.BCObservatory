@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TDS calculation and transactions as per Section 194Q",
+  "title": "TDS Calculation and Transactions as per Section 194Q",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-194Q-Transactions",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.138Z",
-      "blob": "786d6b6f098d22eeadacde71cb1a24fe33f8224e",
-      "words": 413,
+      "at": "2026-10-28T09:11:07.075Z",
+      "blob": "26dd57ad4d2a3be1ac81af40ce3703434bb3e227",
+      "words": 398,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:23.250Z",
+      "at": "2026-10-28T09:11:13.049Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.003451
+      "objects": 0,
+      "cost_usd": 0.003678
     },
     "summarized": {
-      "at": "2026-10-06T19:17:26.569Z",
+      "at": "2026-10-28T09:11:13.050Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:26.570Z",
+      "at": "2026-10-28T09:11:13.052Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:26.571Z",
+      "at": "2026-10-28T09:11:13.053Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TDS-194Q-Transactions.md",
-    "description": "Explains how TDS is calculated and processed for transactions under Section 194Q.",
-    "ms_date": "2025-06-30",
+    "description": "Review the documented section 194Q TDS purchase workflow and illustrative calculation and accounting entries in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "TDS calculation",
       "Section 194Q"
     ],
-    "ai_usage": null,
-    "words": 413,
+    "ai_usage": "ai-assisted",
+    "words": 398,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9a5904bfcbed4668e3e85d1c622297c83016a6c58a98394f01d3b044e5db43c3"
+  "output_hash": "9b8ebadacac5f4d12c12ce88ee1fc9f8eab61091fbea5fed4121083132b8202f"
 }

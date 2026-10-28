@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Certificate-Update",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.290Z",
-      "blob": "1a4ebd00ef170b4fe933d5bb975231d9d2866097",
-      "words": 441,
+      "at": "2026-10-28T09:11:13.099Z",
+      "blob": "5b82566a9e29e40a0b203f4a0feff1c3f490e73d",
+      "words": 383,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:10.644Z",
+      "at": "2026-10-28T09:11:22.815Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003796
+      "objects": 1,
+      "cost_usd": 0.003725
     },
     "summarized": {
-      "at": "2026-10-06T19:13:12.563Z",
+      "at": "2026-10-28T09:11:22.817Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:12.565Z",
+      "at": "2026-10-28T09:11:22.825Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:12.566Z",
+      "at": "2026-10-28T09:11:22.834Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TDS-Certificate-Update.md",
-    "description": "Provides guidance on tracking and updating TDS certificates for customer transactions.",
-    "ms_date": "2025-06-30",
+    "description": "Track and update TDS certificates for customer transactions, including certificate details and related actions in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "TDS certificate",
       "certificate tracking"
     ],
-    "ai_usage": null,
-    "words": 441,
+    "ai_usage": "ai-assisted",
+    "words": 383,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "09cb9ab9dc2282f1664182552e1a33c149bcd272b44d0cdf8a181753fda5aa23"
+  "output_hash": "5bb9cc32a91639e37f738f0eddd1563f3643ef898b546f75035e28a8a02630cf"
 }

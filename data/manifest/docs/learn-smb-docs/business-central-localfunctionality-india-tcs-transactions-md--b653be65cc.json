@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TCS calculation on Sales and Receipt Transactions",
+  "title": "TCS Calculation on Sales and Receipt Transactions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Transactions",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.133Z",
-      "blob": "ef69c05efc8ac1a3ded34da4ff633386ef2459c1",
-      "words": 1044,
+      "at": "2026-10-28T09:11:07.044Z",
+      "blob": "8f96a6b1989eccc859269c054ff85cd6461f338b",
+      "words": 1064,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:23.249Z",
+      "at": "2026-10-28T09:11:14.771Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 8,
-      "cost_usd": 0.003451
+      "cost_usd": 0.006603
     },
     "summarized": {
-      "at": "2026-10-06T19:17:26.566Z",
+      "at": "2026-10-28T09:11:14.776Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:26.567Z",
+      "at": "2026-10-28T09:11:14.780Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:26.568Z",
+      "at": "2026-10-28T09:11:14.784Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TCS-Transactions.md",
     "description": "Explains how TCS is calculated on sales and receipt transactions in Business Central India, including examples and journal entries.",
-    "ms_date": "2025-06-30",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "TCS calculation",
       "TCS base amount"
     ],
-    "ai_usage": null,
-    "words": 1044,
+    "ai_usage": "ai-assisted",
+    "words": 1064,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f149b32a9c85d8f0867446f7ebe5220c2b6a3a7115600027d84de17d75630ff6"
+  "output_hash": "98265300bac835de744393da2a0620d9121c98fbf1bacd91eedb07098f021e83"
 }

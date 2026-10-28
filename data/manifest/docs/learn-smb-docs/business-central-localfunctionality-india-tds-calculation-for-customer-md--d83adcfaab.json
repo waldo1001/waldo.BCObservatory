@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TDS calculation for Customer",
+  "title": "TDS for Customer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Calculation-for-Customer",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.146Z",
-      "blob": "b7bb0b35c928430d12571fce31b5b77e4243073d",
-      "words": 502,
+      "at": "2026-10-28T09:11:13.031Z",
+      "blob": "41dab6d54de2552fe5983ca6e432ba80d1b7b1b2",
+      "words": 438,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:23.252Z",
+      "at": "2026-10-28T09:11:22.793Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.003451
+      "objects": 6,
+      "cost_usd": 0.004618
     },
     "summarized": {
-      "at": "2026-10-06T19:17:26.574Z",
+      "at": "2026-10-28T09:11:22.794Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:26.574Z",
+      "at": "2026-10-28T09:11:22.796Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:26.575Z",
+      "at": "2026-10-28T09:11:22.797Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TDS-Calculation-for-Customer.md",
-    "description": "Describes the process for calculating and tracking TDS on customer transactions.",
-    "ms_date": "2025-06-30",
+    "description": "Calculate and track TDS on customer transactions, and review illustrative payment and accounting entries in the India localization of Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "TDS for customer",
       "TDS certificate"
     ],
-    "ai_usage": null,
-    "words": 502,
+    "ai_usage": "ai-assisted",
+    "words": 438,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "15c999f57506d99e44290e88e476222b2dd6d7ebb4354bc7bb264359c0f90572"
+  "output_hash": "2f459e982c7de3f49f8c6e18888855d15517bb1edc343197fcdfcbfe5b254d0c"
 }

@@ -2,25 +2,32 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-Certificate-Update.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Certificate-Update",
   "title": "TDS Certificate Tracking",
-  "blob": "1a4ebd00ef170b4fe933d5bb975231d9d2866097",
-  "summary": "TDS Certificate Tracking explains how to assign, update, and rectify TDS certificate details in customer ledger entries to track certificates receivable from customers.",
+  "blob": "5b82566a9e29e40a0b203f4a0feff1c3f490e73d",
+  "summary": "TDS Certificate Tracking explains how to assign, update, and rectify TDS certificate details for customer transactions in India localization. Use this to manage receivable and received TDS certificates against customer ledger entries.",
   "systems": [
-    "sales",
-    "finance",
-    "localization"
+    "localization",
+    "sales"
   ],
   "topics": [
     "tds certificate",
-    "tracking",
+    "india localization",
     "customer ledger",
-    "india"
+    "certificate tracking",
+    "receivable management"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Update TDS Certificate Details"
+    }
+  ],
   "features": [
-    "Assign TDS Certificate details",
-    "Update TDS Certificate details",
-    "Rectify TDS Certificate details",
-    "TDS Certificate Receivable"
+    "Assign TDS Certificate Details",
+    "Update TDS Certificate Details",
+    "Rectify TDS Certificate Details",
+    "TDS Certificate Receivable",
+    "TDS Certificate Received",
+    "Customer Ledger Entry tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003796,
-      "pages_in_call": 8
+      "cost_usd": 0.003725,
+      "pages_in_call": 1
     }
   ]
 }

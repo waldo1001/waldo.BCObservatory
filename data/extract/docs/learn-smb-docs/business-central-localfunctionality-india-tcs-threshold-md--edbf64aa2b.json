@@ -1,27 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TCS-Threshold.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Threshold",
-  "title": "TCS calculation considering threshold limits",
-  "blob": "934270626b21b7eefca802400284fcb19b1a3350",
-  "summary": "TCS threshold calculation documentation explains how Tax Collected at Source is applied only when transaction amounts exceed defined threshold limits per TCS Nature of Collection in India localization.",
+  "title": "TCS with Threshold",
+  "blob": "fdc447b2c5488c26afa3d456188203e3e11912b0",
+  "summary": "TCS with Threshold explains how to calculate Tax Collected at Source (TCS) considering threshold amounts and customer settings in India localization. Use this to understand TCS calculation with threshold limits and the Threshold Overlook feature.",
   "systems": [
-    "finance",
     "localization"
   ],
   "topics": [
     "tcs",
+    "tax",
     "threshold",
-    "tax collection",
     "india",
-    "transaction limits"
+    "tax rate",
+    "calculation"
   ],
   "objects": [],
   "features": [
-    "threshold amount",
-    "TCS Nature of Collection",
-    "financial year aggregation",
-    "TCS payable account",
-    "payment tracking"
+    "Threshold Overlook",
+    "Calc. Over & Above Threshold",
+    "Allowed NOC",
+    "tax accounting period",
+    "tax rate configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003451,
-      "pages_in_call": 8
+      "cost_usd": 0.00304,
+      "pages_in_call": 1
     }
   ]
 }

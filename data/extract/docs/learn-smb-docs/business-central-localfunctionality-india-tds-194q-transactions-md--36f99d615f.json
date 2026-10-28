@@ -1,45 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-194Q-Transactions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-194Q-Transactions",
-  "title": "TDS calculation and transactions as per Section 194Q",
-  "blob": "786d6b6f098d22eeadacde71cb1a24fe33f8224e",
-  "summary": "TDS Section 194Q calculation applies tax deduction on purchase invoices and payments exceeding 50 lakh rupees threshold with amount over threshold liable for 0.1% TDS in India.",
+  "title": "TDS Calculation and Transactions as per Section 194Q",
+  "blob": "26dd57ad4d2a3be1ac81af40ce3703434bb3e227",
+  "summary": "TDS calculation and transactions as per Section 194Q in India, showing how to calculate TDS on amounts over and above configured thresholds for vendor invoices and advance payments with examples using INR amounts.",
   "systems": [
     "purchasing",
-    "finance",
     "localization"
   ],
   "topics": [
-    "tds",
-    "tax deduction",
+    "tds calculation",
     "section 194q",
-    "india",
-    "threshold"
+    "india tax",
+    "vendor payments",
+    "threshold",
+    "advance payments"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Purchase Invoice"
-    },
-    {
-      "type": "page",
-      "name": "Purchase Order"
-    },
-    {
-      "type": "page",
-      "name": "General Journal"
-    },
-    {
-      "type": "page",
-      "name": "Payment Journal"
-    }
-  ],
+  "objects": [],
   "features": [
-    "194Q threshold",
-    "TDS rate 0.1%",
-    "opening balance tracking",
-    "cumulative value calculation",
-    "advance payment deduction"
+    "Calc. Over & Above Threshold",
+    "TDS Rates configuration",
+    "TDS calculation on invoices",
+    "TDS calculation on advance payments",
+    "Cumulative amount tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -48,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003451,
-      "pages_in_call": 8
+      "cost_usd": 0.003678,
+      "pages_in_call": 1
     }
   ]
 }

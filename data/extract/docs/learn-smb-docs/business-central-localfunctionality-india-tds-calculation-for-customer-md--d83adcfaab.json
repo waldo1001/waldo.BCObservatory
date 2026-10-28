@@ -1,20 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-Calculation-for-Customer.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Calculation-for-Customer",
-  "title": "TDS calculation for Customer",
-  "blob": "b7bb0b35c928430d12571fce31b5b77e4243073d",
-  "summary": "TDS calculation for customer documents the process of deducting Tax Deducted at Source on customer payments and tracking TDS certificates receivable from customers in India.",
+  "title": "TDS for Customer",
+  "blob": "41dab6d54de2552fe5983ca6e432ba80d1b7b1b2",
+  "summary": "TDS for Customer explains how to calculate and track Tax Deducted at Source (TDS) on customer payments and certificates receivable in India, using General Journal, Cash Receipt Voucher, Bank Receipt Voucher, Cash Receipt Journal, and Sales Invoice documents.",
   "systems": [
-    "sales",
     "finance",
+    "sales",
     "localization"
   ],
   "topics": [
-    "tds",
-    "customer",
-    "certificate receivable",
+    "tax deduction",
+    "tds calculation",
+    "tds certificate",
+    "customer payments",
     "india",
-    "tax deduction"
+    "journal entries",
+    "customer ledger"
   ],
   "objects": [
     {
@@ -23,7 +25,7 @@
     },
     {
       "type": "page",
-      "name": "Cash Receipt Voucher"
+      "name": "Cash Receipt Journal"
     },
     {
       "type": "page",
@@ -31,20 +33,24 @@
     },
     {
       "type": "page",
-      "name": "Cash Receipt Journal"
+      "name": "Cash Receipt Voucher"
     },
     {
       "type": "page",
       "name": "Sales Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Customer Ledger Entry"
     }
   ],
   "features": [
-    "TDS certificate receivable",
-    "TDS section selection",
-    "customer receipt tracking",
-    "certificate identification",
-    "customer ledger entry",
-    "location code requirement"
+    "TDS Certificate Receivable",
+    "TDS Section Code",
+    "TDS Base Amount calculation",
+    "TDS Customer Allowed Sections",
+    "Location Code",
+    "T.A.N. No."
   ],
   "versions": [],
   "parts": 1,
@@ -53,8 +59,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003451,
-      "pages_in_call": 8
+      "cost_usd": 0.004618,
+      "pages_in_call": 1
     }
   ]
 }
