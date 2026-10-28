@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Depreciation",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.941Z",
-      "blob": "a42f69d3012dc01b0970b40919e0f87870cb4229",
-      "words": 548,
+      "at": "2026-10-28T09:09:12.908Z",
+      "blob": "fa6f9dac41fb7d5d935422e54e0d6d6ca57da718",
+      "words": 588,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:41:29.523Z",
+      "at": "2026-10-28T09:09:18.936Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.009844
+      "objects": 4,
+      "cost_usd": 0.004252
     },
     "summarized": {
-      "at": "2026-10-06T18:41:41.404Z",
+      "at": "2026-10-28T09:09:18.938Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:41:41.405Z",
+      "at": "2026-10-28T09:09:18.940Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:41:41.406Z",
+      "at": "2026-10-28T09:09:18.941Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/FA_Depreciation.md",
     "description": "Learn how to calculate fixed asset depreciation, including FA block, additional depreciation, and multiple shift scenarios for India in Business Central.",
-    "ms_date": "2025-06-19",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "FA block",
       "multiple shifts"
     ],
-    "ai_usage": null,
-    "words": 548,
+    "ai_usage": "ai-assisted",
+    "words": 588,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e81b796e0d6ebad3cca59dbd3b0474c96859018b2224b17161db6bda844f1072"
+  "output_hash": "cec29b43888799ff50f818e34b01a9c754fe7f0ae1a7828c03e73373b02344df"
 }

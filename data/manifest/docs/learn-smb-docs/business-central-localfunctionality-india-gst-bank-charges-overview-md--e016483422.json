@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setting up GST for Bank Charges",
+  "title": "Set Up GST for Bank Charges",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Bank-Charges-Overview",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.904Z",
-      "blob": "47e4358fc1c90fbe6538142fcc9dd1433031633b",
-      "words": 705,
+      "at": "2026-10-28T09:09:19.264Z",
+      "blob": "aa9969965e261f0686c4ef66d9ba449ad0a77985",
+      "words": 726,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:56.553Z",
+      "at": "2026-10-28T09:09:29.499Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.005419
+      "cost_usd": 0.004252
     },
     "summarized": {
-      "at": "2026-10-06T19:16:03.298Z",
+      "at": "2026-10-28T09:09:29.501Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:03.307Z",
+      "at": "2026-10-28T09:09:29.502Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:03.309Z",
+      "at": "2026-10-28T09:09:29.503Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Bank-Charges-Overview.md",
     "description": "Learn how to configure GST for bank charges in Business Central, including setup steps for bank accounts, bank charges master, and deemed value calculations.",
-    "ms_date": "2025-06-19",
+    "ms_date": "2026-10-21",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "English",
       "GST for bank charges"
     ],
-    "ai_usage": null,
-    "words": 705,
+    "ai_usage": "ai-assisted",
+    "words": 726,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "94e815468f6cfdf4a04f5134eee9c00f86b9ddbcaddbaf518fa0f1f66dd84c5c"
+  "output_hash": "a9941e194188202ac87e172560fb794f7aa1c5b71545355ccad95f5b399ed7fe"
 }

@@ -1,33 +1,25 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form",
-  "title": "Set up and use the IRS 1099 form [US]",
-  "blob": "6314d907e5a52bdf02615e66ad98f4f3e0c008ee",
-  "summary": "IRS 1099 form setup and usage in the US localization allows tracking 1099-liable vendor payments with codes and amounts on purchase documents and vendor ledger entries, with reporting capabilities and automatic enablement from version 27.0.",
+  "title": "Legacy IRS 1099 Forms Setup and Reporting [US]",
+  "blob": "9fa32fa5dffe3cc3019ad0d8ff9e135349f18292",
+  "summary": "Legacy IRS 1099 workflow for identifying reportable vendor payments, printing forms, and exporting filing data in Business Central versions before 27.0. Set up vendors as 1099 liable, process purchase invoices with IRS codes, and generate 1099 tax forms.",
   "systems": [
-    "localization",
     "purchasing",
-    "finance"
+    "localization"
   ],
   "topics": [
-    "united states",
     "irs 1099",
+    "vendor payments",
     "tax reporting",
-    "vendors",
-    "localization"
+    "united states",
+    "legacy workflow",
+    "form setup"
   ],
   "objects": [
     {
       "type": "page",
       "name": "1099 Form Boxes"
-    },
-    {
-      "type": "page",
-      "name": "Vendors"
-    },
-    {
-      "type": "page",
-      "name": "Purchase Invoice"
     },
     {
       "type": "page",
@@ -63,16 +55,17 @@
     }
   ],
   "features": [
-    "1099 form boxes",
-    "1099 liable vendors",
-    "1099 codes",
-    "1099 amounts",
-    "1099 statistics",
-    "form updates"
+    "Update Form Boxes",
+    "IRS 1099 Code field",
+    "IRS 1099 Amount field",
+    "1099 tax form printing",
+    "Electronic form submission",
+    "Vendor 1099 statistics",
+    "Purchase invoice 1099 processing"
   ],
   "versions": [
-    "24.0",
-    "27.0"
+    "version 24.0",
+    "version 27.0"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -80,8 +73,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003271,
-      "pages_in_call": 8
+      "cost_usd": 0.00586,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setting up Gate Entry tracking",
+  "title": "Set Up Gate Entry Tracking",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-001-Basic-Setup",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.880Z",
-      "blob": "e430875e3040e093e557877f859fd6b29b763bd8",
-      "words": 331,
+      "at": "2026-10-28T09:09:12.945Z",
+      "blob": "0fd6ef88e2bc47caacabfd6209c686140f54a8dd",
+      "words": 286,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:56.547Z",
+      "at": "2026-10-28T09:09:18.462Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.005419
+      "cost_usd": 0.0037
     },
     "summarized": {
-      "at": "2026-10-06T19:15:56.556Z",
+      "at": "2026-10-28T09:09:18.463Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:56.557Z",
+      "at": "2026-10-28T09:09:18.464Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:56.558Z",
+      "at": "2026-10-28T09:09:18.464Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md",
     "description": "Specifies basic setups required to keep track of entrance and exit of materials or other entities, to and from the organization’s premises.",
-    "ms_date": "2025-06-19",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "gate entry setup",
       "gate entry types"
     ],
-    "ai_usage": null,
-    "words": 331,
+    "ai_usage": "ai-assisted",
+    "words": 286,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2e0476ee7f25573eec819b2dce5e9e99339e67a83c0aeaa4246ef2052fc8cf5f"
+  "output_hash": "b750bf88af966aeb40838a66ac45e6a882b42022b1fa7fa463773ea474c6b420"
 }

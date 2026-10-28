@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Gate Entry Inward Transactions",
+  "title": "Create and Attach Inward Gate Entries",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-Inward_Transactions",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.265Z",
-      "blob": "f6f2f9459e870847b73e586e89ecd5e7a169efe8",
-      "words": 781,
+      "at": "2026-10-28T09:09:13.026Z",
+      "blob": "14fe18a5c39fbfcab6a2ec008ac8089571b8260c",
+      "words": 683,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:12:59.308Z",
+      "at": "2026-10-28T09:09:18.637Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 9,
-      "cost_usd": 0.006497
+      "objects": 6,
+      "cost_usd": 0.004493
     },
     "summarized": {
-      "at": "2026-10-06T19:13:12.549Z",
+      "at": "2026-10-28T09:09:18.639Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:12.551Z",
+      "at": "2026-10-28T09:09:18.640Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:12.552Z",
+      "at": "2026-10-28T09:09:18.642Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/Gate-Entry-Inward_Transactions.md",
-    "description": "Gate Entry Inward Transactions.",
-    "ms_date": "2025-06-19",
+    "description": "Create, post, and attach inward gate entries to purchase receipts, transfer receipts, and sales returns in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "view posted gate entry",
       "attach inward gate entry"
     ],
-    "ai_usage": null,
-    "words": 781,
+    "ai_usage": "ai-assisted",
+    "words": 683,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "caa0a8c21403100fe9f9855bebff477c4842c87ba9891973d4135ec86e421535"
+  "output_hash": "36cbe9e31037daf7cf0170bd0a5c005cd2e97d02da0ed0a882e273c7b61aa213"
 }

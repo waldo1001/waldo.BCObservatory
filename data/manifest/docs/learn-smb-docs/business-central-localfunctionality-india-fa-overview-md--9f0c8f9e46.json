@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setting up Fixed Asset for depreciation calculation",
+  "title": "Set Up Fixed Asset for Depreciation Calculation",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Overview",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.875Z",
-      "blob": "b7909afbd528c77bc7e52636254c59f4b06201d3",
-      "words": 442,
+      "at": "2026-10-28T09:09:12.972Z",
+      "blob": "d67168b533a5a634c9677cba9cc4f85306c58f9c",
+      "words": 449,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:01.570Z",
+      "at": "2026-10-28T09:09:18.475Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.00367
+      "cost_usd": 0.00408
     },
     "summarized": {
-      "at": "2026-10-06T19:16:03.335Z",
+      "at": "2026-10-28T09:09:18.477Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:03.336Z",
+      "at": "2026-10-28T09:09:18.478Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:03.336Z",
+      "at": "2026-10-28T09:09:18.478Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/FA_Overview.md",
-    "description": "Describes the essential setup steps for calculating fixed asset depreciation.",
-    "ms_date": "2025-06-19",
+    "description": "Set up fixed asset depreciation books, accounting periods, asset blocks, and additional depreciation for the India localization of Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "depreciation calculation",
       "depreciation books"
     ],
-    "ai_usage": null,
-    "words": 442,
+    "ai_usage": "ai-assisted",
+    "words": 449,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d50384b6e4b787fd25526a9f9b6e063457f035744481e148b64920286109bf15"
+  "output_hash": "f2debf098697edbdcea6dc489d20ed2d52a03dd9c84839bd71234ba558c1cffd"
 }

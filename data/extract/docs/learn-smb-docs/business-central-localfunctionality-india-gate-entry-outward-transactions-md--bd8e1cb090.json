@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Gate-Entry-Outward_Transactions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-Outward_Transactions",
-  "title": "Gate Entry Outward Transactions",
-  "blob": "38ea3a7affd46a5588bfbe9236f34efd47976963",
-  "summary": "Creating and attaching outward gate entries to track goods exit from the organization, with integration to sales orders, transfer shipments, and purchase return orders.",
+  "title": "Create and Attach Outward Gate Entries",
+  "blob": "8c1f341e2ec2829613286586bacbf389077f33c8",
+  "summary": "Outward Gate Entry tracks the exit of goods from the organization and can be created and attached to posted sales shipments, transfer shipments, and purchase return shipments. This process is used in Indian localization to manage gate entry outbound transactions.",
   "systems": [
-    "inventory",
-    "localization"
+    "localization",
+    "sales",
+    "purchasing"
   ],
   "topics": [
-    "gate entry",
-    "outward",
+    "outward gate entry",
     "india localization",
-    "goods dispatch",
-    "tracking"
+    "goods shipment",
+    "gate management",
+    "document posting"
   ],
   "objects": [
     {
@@ -22,27 +23,30 @@
     },
     {
       "type": "page",
-      "name": "Posted Outward Gate Entry"
+      "name": "Posted Outward Gate Entry List"
     },
     {
       "type": "page",
-      "name": "Posted Sales Shipment"
+      "name": "Posted Sales Shipments"
     },
     {
       "type": "page",
-      "name": "Posted Transfer Shipment"
+      "name": "Posted Transfer Shipments"
     },
     {
       "type": "page",
-      "name": "Posted Return Shipment"
+      "name": "Posted Return Shipments"
     }
   ],
   "features": [
-    "outward gate entry creation",
-    "source document attachment",
-    "transport details",
-    "vehicle tracking",
-    "posting"
+    "Location Code",
+    "Station To",
+    "LR/RR No.",
+    "Vehicle No.",
+    "Challan No.",
+    "Source Type selection",
+    "Attached Gate Entry action",
+    "Document and Posting dates and times"
   ],
   "versions": [],
   "parts": 1,
@@ -51,8 +55,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005419,
-      "pages_in_call": 8
+      "cost_usd": 0.004808,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,20 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Gate-Entry-Inward_Transactions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-Inward_Transactions",
-  "title": "Gate Entry Inward Transactions",
-  "blob": "f6f2f9459e870847b73e586e89ecd5e7a169efe8",
-  "summary": "Create and attach inward gate entries in Business Central India localization to track goods entry for purchase orders, transfer orders, and sales return orders with complete document workflow.",
+  "title": "Create and Attach Inward Gate Entries",
+  "blob": "14fe18a5c39fbfcab6a2ec008ac8089571b8260c",
+  "summary": "Create and attach inward gate entries to track goods entering the organization from purchase orders, transfer orders, and sales returns in India localization.",
   "systems": [
-    "localization",
     "warehouse",
-    "purchasing"
+    "purchasing",
+    "localization"
   ],
   "topics": [
     "gate entry",
-    "inward transactions",
-    "india localization",
+    "inward goods",
+    "india",
     "warehouse receipt",
-    "goods tracking"
+    "purchase orders",
+    "transfer orders",
+    "sales returns"
   ],
   "objects": [
     {
@@ -23,31 +25,19 @@
     },
     {
       "type": "page",
-      "name": "Inward Gate Entry"
+      "name": "Posted Inward Gate Entry List"
     },
     {
       "type": "page",
-      "name": "Posted Inward Gate Entry"
+      "name": "Purchase Orders"
     },
     {
       "type": "page",
-      "name": "Purchase Order"
+      "name": "Transfer Orders"
     },
     {
       "type": "page",
-      "name": "Purchase Invoice"
-    },
-    {
-      "type": "page",
-      "name": "Transfer Order"
-    },
-    {
-      "type": "page",
-      "name": "Sales Return Order"
-    },
-    {
-      "type": "page",
-      "name": "Sales Credit Memo"
+      "name": "Sales Return Orders"
     },
     {
       "type": "page",
@@ -55,12 +45,13 @@
     }
   ],
   "features": [
-    "Inward gate entry creation",
-    "Source type tracking",
-    "Challan number recording",
-    "Gate entry attachment",
-    "Posted entry viewing",
-    "Warehouse receipt integration"
+    "create inward gate entry",
+    "attach gate entry to purchase order",
+    "attach gate entry to transfer receipt",
+    "attach gate entry to sales return order",
+    "posting inward gate entry",
+    "get gate entry lines",
+    "view attached gate entry"
   ],
   "versions": [],
   "parts": 1,
@@ -69,8 +60,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006497,
-      "pages_in_call": 8
+      "cost_usd": 0.004493,
+      "pages_in_call": 1
     }
   ]
 }

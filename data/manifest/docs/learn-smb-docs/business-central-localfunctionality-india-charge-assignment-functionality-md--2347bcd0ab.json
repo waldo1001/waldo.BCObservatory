@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/charge-assignment-functionality",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:57:07.649Z",
+      "at": "2026-10-28T09:09:19.136Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.008557
+      "cost_usd": 0.004226
     },
     "summarized": {
-      "at": "2026-10-06T18:57:07.663Z",
+      "at": "2026-10-28T09:09:19.138Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:57:07.664Z",
+      "at": "2026-10-28T09:09:19.141Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:57:07.665Z",
+      "at": "2026-10-28T09:09:19.144Z",
       "page": false
     }
   },
@@ -62,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "04ed2dd4c6c5a4269669b569206b1af1abaa1ba0"
+  "output_hash": "58f2a007a3d658cf22b75460cb5b3dcc0916c4bcc1dbc999acdbdf72a9111573"
 }

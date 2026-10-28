@@ -1,29 +1,33 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application",
-  "title": "GST on Advance Payment application with Purchase Invoice",
-  "blob": "62649fbf974dec9eef95cf85d2725eae738c9350",
-  "summary": "GST application of advance payments and normal payments with purchase invoices, including GL entries for both scenarios with and without input tax credit availability.",
+  "title": "GST on Advance Payment or Normal Payment Application with Purchase Invoice",
+  "blob": "6544923ef8b25d82dd94a2c7088857dd68b2021c",
+  "summary": "How to apply vendor advance payments and normal payments to purchase invoices under India's GST rules, including calculation methods and general ledger entries for both scenarios.",
   "systems": [
     "finance",
-    "purchasing",
     "localization"
   ],
   "topics": [
     "gst",
+    "india",
     "advance payment",
     "purchase invoice",
-    "tax credit",
-    "application",
-    "india localization"
+    "payment application",
+    "tax calculation",
+    "gstr-2",
+    "reverse charge"
   ],
   "objects": [],
   "features": [
-    "advance payment application",
-    "payment unapplication",
-    "input tax credit",
-    "gstr-2 reporting",
-    "interim accounts"
+    "Payment application to invoices",
+    "GST advance payment processing",
+    "Reverse charge handling",
+    "Input tax credit (ITC) eligibility",
+    "Normal payment application",
+    "Payment unapplication",
+    "Interim tax accounts",
+    "GSTR-2 reporting"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005419,
-      "pages_in_call": 8
+      "cost_usd": 0.00528,
+      "pages_in_call": 1
     }
   ]
 }

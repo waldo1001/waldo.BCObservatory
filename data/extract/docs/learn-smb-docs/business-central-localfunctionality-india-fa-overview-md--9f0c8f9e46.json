@@ -1,30 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/FA_Overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Overview",
-  "title": "Setting up Fixed Asset for depreciation calculation",
-  "blob": "b7909afbd528c77bc7e52636254c59f4b06201d3",
-  "summary": "Fixed asset depreciation calculation setup for India under Income Tax Act 1961 and Companies Act 2013, including depreciation books, accounting periods, and block codes.",
+  "title": "Set Up Fixed Asset for Depreciation Calculation",
+  "blob": "d67168b533a5a634c9677cba9cc4f85306c58f9c",
+  "summary": "Set up fixed asset depreciation calculation in Business Central for Indian localization, including depreciation books, accounting periods, block codes, and additional depreciation configuration.",
   "systems": [
     "fixed-assets",
-    "localization",
-    "finance"
+    "localization"
   ],
   "topics": [
+    "depreciation",
     "fixed assets",
-    "depreciation calculation",
+    "indian localization",
     "income tax",
-    "india",
-    "block code",
-    "accounting period"
+    "block-based depreciation",
+    "shift-based depreciation"
   ],
   "objects": [
     {
-      "type": "table",
+      "type": "page",
       "name": "Depreciation Books"
     },
     {
-      "type": "table",
-      "name": "FA Accounting Period for Inc. Tax"
+      "type": "page",
+      "name": "Fixed Asset Accounting Periods Inc. Tax"
     },
     {
       "type": "page",
@@ -36,13 +35,14 @@
     }
   ],
   "features": [
-    "Depreciation Book Setup",
+    "Block-based income tax depreciation",
+    "Shift-based depreciation",
+    "FA Depreciation Books",
     "FA Accounting Period for Income Tax",
     "FA Block Code",
-    "Additional Depreciation Setup",
-    "Seasonal and Non-Seasonal Days",
-    "Depreciation Threshold",
-    "Book Value Calculation"
+    "Additional depreciation",
+    "Non-seasonal and seasonal day configuration",
+    "Depreciation threshold and reduction settings"
   ],
   "versions": [],
   "parts": 1,
@@ -51,8 +51,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00367,
-      "pages_in_call": 8
+      "cost_usd": 0.00408,
+      "pages_in_call": 1
     }
   ]
 }

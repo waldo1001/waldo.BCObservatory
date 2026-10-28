@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Gate Entry Outward Transactions",
+  "title": "Create and Attach Outward Gate Entries",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-Outward_Transactions",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.885Z",
-      "blob": "38ea3a7affd46a5588bfbe9236f34efd47976963",
-      "words": 710,
+      "at": "2026-10-28T09:09:18.513Z",
+      "blob": "8c1f341e2ec2829613286586bacbf389077f33c8",
+      "words": 597,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:56.548Z",
+      "at": "2026-10-28T09:09:29.487Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 5,
-      "cost_usd": 0.005419
+      "cost_usd": 0.004808
     },
     "summarized": {
-      "at": "2026-10-06T19:16:01.574Z",
+      "at": "2026-10-28T09:09:29.488Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:01.575Z",
+      "at": "2026-10-28T09:09:29.489Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:01.575Z",
+      "at": "2026-10-28T09:09:29.491Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/Gate-Entry-Outward_Transactions.md",
     "description": "Learn how to create and manage outward gate entries for tracking the exit of goods from your organization in Business Central (India localization).",
-    "ms_date": "2025-06-19",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "view posted gate entry",
       "attach outward gate entry"
     ],
-    "ai_usage": null,
-    "words": 710,
+    "ai_usage": "ai-assisted",
+    "words": 597,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8da56b38bbe1c9991bcacea22aba077c4798dc224eb537823b9de7ae02352732"
+  "output_hash": "c6013e00eb82b26275d9887541db5fa4320d2af591bf0dbc85961ae6ee4b4a69"
 }

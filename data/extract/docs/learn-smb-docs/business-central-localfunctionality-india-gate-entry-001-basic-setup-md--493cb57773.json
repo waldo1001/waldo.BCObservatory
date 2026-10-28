@@ -1,38 +1,39 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-001-Basic-Setup",
-  "title": "Setting up Gate Entry tracking",
-  "blob": "e430875e3040e093e557877f859fd6b29b763bd8",
-  "summary": "Setting up gate entry tracking in India to keep records of material entrance and exit (inward/outward) and relate them to purchase, sales, transfer orders and return orders, with setup requirements for inventory and posting number series.",
+  "title": "Set Up Gate Entry Tracking",
+  "blob": "0fd6ef88e2bc47caacabfd6209c686140f54a8dd",
+  "summary": "Gate Entry Tracking in India localizations records the physical movement of goods entering and leaving organizational premises, supporting audit trails and linking to purchase, sales, and transfer documents.",
   "systems": [
     "inventory",
-    "localization"
+    "localization",
+    "purchasing"
   ],
   "topics": [
     "gate entry",
+    "inward tracking",
+    "outward tracking",
     "india localization",
-    "inward",
-    "outward",
-    "material tracking",
+    "goods movement",
     "audit trail"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "table",
       "name": "Inventory Setup"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Posting No. Series Setup"
     }
   ],
   "features": [
-    "inward gate entry",
-    "outward gate entry",
-    "number series configuration",
-    "purchase order integration",
-    "sales order integration",
-    "transfer order integration"
+    "Inward Gate Entry",
+    "Outward Gate Entry",
+    "Inward Gate Entry Nos.",
+    "Outward Gate Entry Nos.",
+    "Posted Gate Entry records",
+    "Gate Entry posting"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005419,
-      "pages_in_call": 8
+      "cost_usd": 0.0037,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST on Advance Payment application with Purchase Invoice",
+  "title": "GST on Advance Payment or Normal Payment Application with Purchase Invoice",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.894Z",
-      "blob": "62649fbf974dec9eef95cf85d2725eae738c9350",
-      "words": 810,
+      "at": "2026-10-28T09:09:18.696Z",
+      "blob": "6544923ef8b25d82dd94a2c7088857dd68b2021c",
+      "words": 924,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:56.550Z",
+      "at": "2026-10-28T09:09:24.269Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005419
+      "cost_usd": 0.00528
     },
     "summarized": {
-      "at": "2026-10-06T19:16:01.580Z",
+      "at": "2026-10-28T09:09:24.270Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:03.290Z",
+      "at": "2026-10-28T09:09:24.271Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:03.292Z",
+      "at": "2026-10-28T09:09:24.272Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application.md",
     "description": "Learn how GST is applied when advance or normal payments are made to vendors and later applied to purchase invoices in Business Central for India.",
-    "ms_date": "2025-06-19",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "GST on normal payment",
       "un-application"
     ],
-    "ai_usage": null,
-    "words": 810,
+    "ai_usage": "ai-assisted",
+    "words": 924,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f8433e18cf2d74061c7795d7f7691b52d3969996ae34b11a9d5d662ec04171a6"
+  "output_hash": "6253ca2418ba05e1475e6ff27d25adfd096c48d1c8e773c12dcb84856069ccb6"
 }

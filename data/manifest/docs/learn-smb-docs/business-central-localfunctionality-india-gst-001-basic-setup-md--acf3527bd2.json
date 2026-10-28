@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setting up Goods and Service Tax",
+  "title": "Set Up Goods and Services Tax",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-001-Basic-Setup",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.890Z",
-      "blob": "48246677c76fa5823cfe47e73bdbce251d5f644a",
-      "words": 2703,
+      "at": "2026-10-28T09:09:18.560Z",
+      "blob": "66830cbbae360d4b79b96b37925ccda9b24131cb",
+      "words": 2545,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:56.549Z",
+      "at": "2026-10-28T09:09:29.618Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 22,
-      "cost_usd": 0.005419
+      "objects": 21,
+      "cost_usd": 0.017959
     },
     "summarized": {
-      "at": "2026-10-06T19:16:01.577Z",
+      "at": "2026-10-28T09:09:29.620Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:01.578Z",
+      "at": "2026-10-28T09:09:29.621Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:01.579Z",
+      "at": "2026-10-28T09:09:29.622Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-001-Basic-Setup.md",
-    "description": "Describes the essential steps for basic GST setup in Business Central for India.",
-    "ms_date": "2025-06-19",
+    "description": "Set up GST registration, tax groups, posting accounts, and transaction defaults for the India localization of Microsoft Dynamics 365 Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -70,12 +70,12 @@
       "GST on vendor order address",
       "GST on customer"
     ],
-    "ai_usage": null,
-    "words": 2703,
+    "ai_usage": "ai-assisted",
+    "words": 2545,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "71ddd9478c536475a53c02049eca21dd32aa30ed0eb30b91c2033a034b5d3c94"
+  "output_hash": "bd6782105ff0c5ea46b3768b456002f8324c4d000025690ca17a19218433aa77"
 }

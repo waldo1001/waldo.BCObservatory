@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.899Z",
-      "blob": "e5240e61de974197a7d825d464624e572ac8d477",
-      "words": 250,
+      "at": "2026-10-28T09:09:18.995Z",
+      "blob": "bfa3b4603869b0f999fe265f6fbdb7fc121d024e",
+      "words": 234,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:56.552Z",
+      "at": "2026-10-28T09:09:29.574Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.005419
+      "cost_usd": 0.003741
     },
     "summarized": {
-      "at": "2026-10-06T19:16:03.294Z",
+      "at": "2026-10-28T09:09:29.576Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:03.296Z",
+      "at": "2026-10-28T09:09:29.584Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:03.297Z",
+      "at": "2026-10-28T09:09:29.585Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales.md",
-    "description": "Information about GST and the discontinued Kerala Flood Cess on sales transactions in India.",
-    "ms_date": "2025-06-19",
+    "description": "Review the historical Kerala Flood Cess sales example and its GST accounting context in Business Central for India, without treating old rates as current.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "Kerala flood cess",
       "create sales invoice"
     ],
-    "ai_usage": null,
-    "words": 250,
+    "ai_usage": "ai-assisted",
+    "words": 234,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7bca980e3aab5874903614df716fa8e324ab8b09745b520e04fd23650aeff7b8"
+  "output_hash": "1858a987ed58c042843e83c88e9ebfa013365de8846bfc035de1a3228e2f3645"
 }

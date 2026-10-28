@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/FA_Depreciation.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Depreciation",
   "title": "FA Depreciation Calculation",
-  "blob": "a42f69d3012dc01b0970b40919e0f87870cb4229",
-  "summary": "Calculate fixed asset depreciation in India using FA blocks, additional depreciation rules, and multiple shift depreciation for manufacturing operations.",
+  "blob": "fa6f9dac41fb7d5d935422e54e0d6d6ca57da718",
+  "summary": "FA depreciation calculation for fixed assets using FA blocks, additional depreciation, and shift-based depreciation methods tailored for India localization and manufacturing operations.",
   "systems": [
     "fixed-assets",
     "manufacturing",
@@ -12,14 +12,24 @@
   "topics": [
     "depreciation",
     "fixed assets",
-    "india",
+    "fa block",
+    "additional depreciation",
     "shift depreciation",
-    "income tax"
+    "income tax",
+    "manufacturing shifts"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Fixed Asset"
+      "name": "Fixed Asset Card"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset G/L Journal"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Journal"
     },
     {
       "type": "page",
@@ -28,11 +38,12 @@
   ],
   "features": [
     "FA block depreciation",
-    "additional depreciation",
-    "shift depreciation",
-    "multiple production shifts",
-    "depreciation book",
-    "depreciation calculation"
+    "Additional depreciation",
+    "Multiple shift depreciation",
+    "Income tax depreciation book",
+    "Straight-line depreciation",
+    "Declining-balance depreciation",
+    "Seasonal depreciation adjustment"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009844,
-      "pages_in_call": 5
+      "cost_usd": 0.004252,
+      "pages_in_call": 1
     }
   ]
 }

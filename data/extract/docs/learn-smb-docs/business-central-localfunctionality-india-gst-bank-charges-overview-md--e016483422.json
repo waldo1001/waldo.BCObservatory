@@ -1,40 +1,43 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Bank-Charges-Overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Bank-Charges-Overview",
-  "title": "Setting up GST for Bank Charges",
-  "blob": "47e4358fc1c90fbe6538142fcc9dd1433031633b",
-  "summary": "Setting up GST for bank charges including bank account configuration, bank charges master setup, and deemed value calculation for foreign exchange transactions.",
+  "title": "Set Up GST for Bank Charges",
+  "blob": "aa9969965e261f0686c4ef66d9ba449ad0a77985",
+  "summary": "Set up GST on bank charges in India by configuring bank accounts, bank charge codes, and deemed value formulas for foreign exchange transactions. Use this to enable GST calculation and ITC availment on banking services.",
   "systems": [
-    "finance",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
     "gst",
     "bank charges",
-    "india localization",
+    "india",
     "tax setup",
-    "foreign exchange"
+    "foreign exchange",
+    "itc"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "Bank Account"
+      "type": "table",
+      "name": "Bank Accounts"
     },
     {
-      "type": "page",
-      "name": "Bank Charges"
+      "type": "table",
+      "name": "Bank Charge"
     },
     {
-      "type": "page",
-      "name": "Bank Charges Deemed Value Setup"
+      "type": "table",
+      "name": "Bank Charge Deemed Value Setup"
     }
   ],
   "features": [
-    "bank charges gst",
-    "deemed value setup",
-    "tax invoice",
-    "input tax credit",
-    "foreign exchange charges"
+    "GST Registration Status",
+    "GST Group Code",
+    "GST Credit Availment",
+    "HSN/SAC Code",
+    "Deemed Value calculation",
+    "Foreign Exchange charges",
+    "State Code mapping"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005419,
-      "pages_in_call": 8
+      "cost_usd": 0.004252,
+      "pages_in_call": 1
     }
   ]
 }

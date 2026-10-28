@@ -2,21 +2,35 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/us-tax-setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/us-tax-setup",
   "title": "Basic Tax Setup in the US Version",
-  "blob": "9abbb20c13d29b700ac6d485969f62ef8c6e458e",
-  "summary": "Basic tax setup in Business Central's US version for configuring tax information, group codes, and default G/L accounts for tax posting.",
+  "blob": "331087f11dd33d591d6b6cf38b6bc913919dadc7",
+  "summary": "Configure basic tax information in Business Central for the US, including tax groups, default accounts for tax posting, tax jurisdictions, tax areas, and tax details.",
   "systems": [
-    "finance"
+    "finance",
+    "localization",
+    "administration"
   ],
   "topics": [
-    "us local functionality",
     "tax setup",
-    "gl accounts"
+    "sales tax",
+    "us version",
+    "tax groups",
+    "tax accounts",
+    "tax jurisdictions"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Tax Setup"
+    }
+  ],
   "features": [
-    "Tax Setup page",
-    "nontaxable sales group code",
-    "default accounts for tax posting"
+    "Non-Taxable Tax Group Code",
+    "Default Tax Accounts (Sales)",
+    "Default Tax Accounts (Purchases)",
+    "Reverse Charge (Purchases)",
+    "Tax Jurisdictions",
+    "Tax Areas",
+    "Tax Details"
   ],
   "versions": [],
   "parts": 1,
@@ -25,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.0019,
-      "pages_in_call": 7
+      "cost_usd": 0.003527,
+      "pages_in_call": 1
     }
   ]
 }
