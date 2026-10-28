@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Assign Delivery Reminder Codes to Vendors [CH]",
+  "title": "Assign Delivery Reminder Codes to Vendors in Switzerland",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.887Z",
-      "blob": "55e4536863239f936c303d50bdfb0b3c8effa9ce",
+      "at": "2026-10-28T09:07:49.606Z",
+      "blob": "8b57366b4513a5ed7460ede5af9414ef8543f7e9",
       "words": 39,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:27:30.040Z",
+      "at": "2026-10-28T09:07:58.123Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002054
+      "cost_usd": 0.002715
     },
     "summarized": {
-      "at": "2026-10-06T19:27:31.815Z",
+      "at": "2026-10-28T09:07:58.124Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:31.816Z",
+      "at": "2026-10-28T09:07:58.131Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:31.817Z",
+      "at": "2026-10-28T09:07:58.132Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors.md",
-    "description": "Learn how to assign delivery reminder terms to vendors in the Swiss version to enable reminders for overdue purchases.",
-    "ms_date": "2025-04-28",
-    "ms_topic": "article",
+    "description": "Assign delivery reminder terms to vendors in the Swiss version of Business Central to enable reminders for overdue purchase order deliveries.",
+    "ms_date": "2026-10-19",
+    "ms_topic": "how-to",
     "search_form": [
       {
         "raw": "5005270",
@@ -65,12 +65,12 @@
       "overdue purchases",
       "Swiss version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 39,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "64a46341fb0d0751299f2dd10a319cd3b9d9006868ca1d5dd2f63d21e45c046e"
+  "output_hash": "cb009a237f752027b245a8a4c682b2446fb5b0fbeb758482c983ce7def16865b"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Delivery Reminders [CH]",
+  "title": "Delivery Reminders in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/delivery-reminders",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.877Z",
-      "blob": "7241b6f992db661a4d86b65dd0095623a3d1978a",
+      "at": "2026-10-28T09:07:49.163Z",
+      "blob": "21e9d7faf92d69f77523fdf84db89507fc71f49b",
       "words": 45,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:27:30.037Z",
+      "at": "2026-10-28T09:07:57.983Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002054
+      "cost_usd": 0.002917
     },
     "summarized": {
-      "at": "2026-10-06T19:27:30.046Z",
+      "at": "2026-10-28T09:07:57.984Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:30.047Z",
+      "at": "2026-10-28T09:07:57.986Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:30.048Z",
+      "at": "2026-10-28T09:07:57.987Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/delivery-reminders.md",
     "description": "Learn how to use delivery reminders to track overdue vendor shipments, and to remind vendors about overdue deliveries in the Swiss version.",
-    "ms_date": "2025-04-28",
-    "ms_topic": "article",
+    "ms_date": "2026-10-19",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "5005270",
@@ -67,12 +67,12 @@
       "track vendor shipments",
       "remind vendors"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 45,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "388852e7eab65e362581da01acabb353df30398c8e2e0cfb519cec74a4024848"
+  "output_hash": "edfa33f7f52c0faba4c85e7a8a8519f1fbfdbd7eaaad3ea697bd722d899f538e"
 }

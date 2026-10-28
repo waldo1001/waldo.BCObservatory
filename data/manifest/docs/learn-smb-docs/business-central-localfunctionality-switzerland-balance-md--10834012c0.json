@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "G/L balance [CH]",
+  "title": "General Ledger Balance in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.873Z",
-      "blob": "eb5454aa5c4ac5abaca74969b3b62fae9739aa2a",
-      "words": 139,
+      "at": "2026-10-28T09:07:43.460Z",
+      "blob": "76e18dc1c339500d45cb7178230fce8e646c5a3f",
+      "words": 136,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:27:25.972Z",
+      "at": "2026-10-28T09:07:49.556Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002264
+      "cost_usd": 0.003303
     },
     "summarized": {
-      "at": "2026-10-06T19:27:30.068Z",
+      "at": "2026-10-28T09:07:49.557Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:30.069Z",
+      "at": "2026-10-28T09:07:49.559Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:30.070Z",
+      "at": "2026-10-28T09:07:49.560Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/balance.md",
-    "description": "Learn how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.",
-    "ms_date": "2025-04-28",
-    "ms_topic": "article",
+    "description": "Review posted balances and unposted journal amounts on the G/L Account temp. Balance page before posting a general journal in the Swiss version.",
+    "ms_date": "2026-10-23",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "11500",
@@ -60,12 +60,12 @@
       "G/L account balance",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 139,
+    "ai_usage": "ai-assisted",
+    "words": 136,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b716a7983488279bb5d2b2cfa3cf2e323299773bedeaae029097cc6e5237bb23"
+  "output_hash": "6e5fd2dd38c3885e8d146618ed4f50d6886f2f6cee5a864f70d8ddd129604438"
 }

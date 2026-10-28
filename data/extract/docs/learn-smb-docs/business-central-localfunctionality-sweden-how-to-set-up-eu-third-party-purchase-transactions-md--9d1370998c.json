@@ -1,35 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions",
-  "title": "EU Third-Party Purchase Transactions [SE]",
-  "blob": "347b0dda3831b076723aa86a66cc7fa11ed36e42",
-  "summary": "Set up EU third-party purchase transactions in the Swedish version for compliance with Swedish VAT reporting and VIES requirements. This feature moved to a global extension starting version 22.1.",
+  "title": "Set Up EU Third-Party Purchase Transactions in Sweden",
+  "blob": "f5ac9816577694fae3f521ac15cd67ef34c27c0b",
+  "summary": "EU third-party purchase transactions in Sweden let you identify and separately report purchases from one EU country where products are sent to another without entering Sweden, for VAT reporting compliance.",
   "systems": [
-    "purchasing",
     "finance",
     "localization"
   ],
   "topics": [
     "eu third-party trade",
-    "vat",
-    "swedish localization",
-    "purchase transactions"
+    "vat reporting",
+    "swedish vies requirements",
+    "purchase invoices",
+    "vat setup"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Purchase Invoices"
-    }
-  ],
+  "objects": [],
   "features": [
-    "EU 3-Party Trade",
-    "VAT reporting",
-    "VIES declaration",
-    "purchase transaction filtering"
+    "Enable EU 3-Party Purchase",
+    "EU 3-Party Trade marking",
+    "VAT statement filtering",
+    "VAT-VIES Declaration Tax Auth report"
   ],
   "versions": [
-    "22.1",
-    "25.0"
+    "version 25.0"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -37,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002264,
-      "pages_in_call": 8
+      "cost_usd": 0.003226,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,21 +1,32 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups",
-  "title": "Set Up Automatic Account Posting Groups [SE]",
-  "blob": "fbe56bb0db9a158aec855ac99342bfcbdc1ba54a",
-  "summary": "Set up automatic account posting groups in the Swedish version to configure how accounts are assigned automatically during general ledger transactions.",
+  "title": "Set Up Automatic Account Groups in Sweden",
+  "blob": "e8cac188d0aae87e055715caabbca2f4633e057f",
+  "summary": "Set up automatic account posting groups in the Swedish version of Business Central to define accounts and dimensions for allocating amounts. Use this when you need to automatically distribute transaction amounts across multiple accounts based on percentages.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "automatic account posting groups",
-    "swedish localization",
-    "posting groups"
+    "automatic account groups",
+    "posting groups",
+    "account allocation",
+    "dimensions",
+    "sweden localization"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Automatic Account Groups"
+    }
+  ],
   "features": [
-    "automatic account posting groups"
+    "automatic account codes",
+    "allocation percentages",
+    "G/L account assignment",
+    "dimension allocation",
+    "total balance validation"
   ],
   "versions": [],
   "parts": 1,
@@ -24,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002264,
-      "pages_in_call": 8
+      "cost_usd": 0.003246,
+      "pages_in_call": 1
     }
   ]
 }

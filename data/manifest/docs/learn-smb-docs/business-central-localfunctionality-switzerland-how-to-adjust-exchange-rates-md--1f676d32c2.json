@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Adjust Exchange Rates [CH]",
+  "title": "Adjust Exchange Rates in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.882Z",
-      "blob": "bc5088e2c2cdba2cabdeb82f768c1524b78e7a0a",
-      "words": 364,
+      "at": "2026-10-28T09:07:49.205Z",
+      "blob": "f354df4d12ac5484f4e7a43296cca069b9e88082",
+      "words": 341,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:30.038Z",
+      "at": "2026-10-28T09:07:57.995Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002054
+      "objects": 0,
+      "cost_usd": 0.003346
     },
     "summarized": {
-      "at": "2026-10-06T19:27:30.072Z",
+      "at": "2026-10-28T09:07:57.996Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:30.073Z",
+      "at": "2026-10-28T09:07:57.998Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:30.074Z",
+      "at": "2026-10-28T09:07:57.999Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates.md",
     "description": "Learn how to use the official VAT currency conversion rates set by the Federal Tax Administration for taxable sales in foreign currencies.",
-    "ms_date": "2025-04-28",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "taxable sales",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 364,
+    "ai_usage": "ai-assisted",
+    "words": 341,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6b4b54eff7f1dd85ff130d14b969c775c4bafbc819e814d2c5bddc1646667b10"
+  "output_hash": "971bf957a3d82c2d502052bdbe46c397213f46d3cfc0127a63f2c27c62831cee"
 }

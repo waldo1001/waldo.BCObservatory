@@ -1,41 +1,40 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Sweden/sweden-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/sweden-local-functionality",
-  "title": "Sweden Local Functionality [SE]",
-  "blob": "8968e2dc1bba6032b2a06f7fe74d553558517e0d",
-  "summary": "Overview of Swedish local functionality in Business Central including VAT, automatic account codes, SIE import/export, and financial reporting. Swedish localization operates as an extension on W1 BaseApp starting release 2023 wave 1.",
+  "title": "Sweden Local Functionality in the Swedish Version [SE]",
+  "blob": "ef0f985eb54fb1dc2443b29dd6610b3fcb1d91c6",
+  "summary": "Sweden local functionality in Business Central includes VAT, automatic account codes, SIE data import/export, and financial reporting features specific to Swedish regulatory requirements.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "swedish localization",
+    "sweden",
+    "local functionality",
     "vat",
-    "automatic account codes",
     "sie format",
+    "automatic account codes",
     "financial reporting"
   ],
   "objects": [],
   "features": [
-    "EU third-party purchase transactions",
-    "automatic account codes",
-    "automatic account posting groups",
-    "SIE import/export",
-    "balance sheet reports",
-    "income statement reports",
-    "payment times reporting"
+    "EU Third-Party Purchase Transactions",
+    "Automatic Account Codes",
+    "Automatic Account Posting Groups",
+    "SIE Data Import/Export",
+    "Balance Sheet Reports",
+    "Income Statement Reports",
+    "Payment Times Reporting"
   ],
-  "versions": [
-    "2023 wave 1"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002264,
-      "pages_in_call": 8
+      "cost_usd": 0.003296,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "EU Third-Party Purchase Transactions [SE]",
+  "title": "Set Up EU Third-Party Purchase Transactions in Sweden",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.863Z",
-      "blob": "347b0dda3831b076723aa86a66cc7fa11ed36e42",
-      "words": 264,
-      "forms": 0
+      "at": "2026-10-28T09:07:43.355Z",
+      "blob": "f5ac9816577694fae3f521ac15cd67ef34c27c0b",
+      "words": 243,
+      "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:27:25.970Z",
+      "at": "2026-10-28T09:07:49.140Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002264
+      "objects": 0,
+      "cost_usd": 0.003226
     },
     "summarized": {
-      "at": "2026-10-06T19:27:30.061Z",
+      "at": "2026-10-28T09:07:49.141Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:30.062Z",
+      "at": "2026-10-28T09:07:49.143Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:30.064Z",
+      "at": "2026-10-28T09:07:49.144Z",
       "page": false
     }
   },
@@ -44,21 +44,32 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md",
-    "description": "This article explains how to set up EU Third-Party Purchase Transactions with the Swedish version of Business Central.",
-    "ms_date": "2025-02-07",
+    "description": "Set up EU third-party purchase transactions in the Swedish version of Business Central, enable VAT tracking, and mark qualifying purchase invoices.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
-    "search_form": [],
+    "search_form": [
+      {
+        "raw": "51",
+        "id": 51,
+        "kind": null
+      },
+      {
+        "raw": "472",
+        "id": 472,
+        "kind": null
+      }
+    ],
     "keywords": [
       "EU",
       "third party",
       "purchase transactions"
     ],
-    "ai_usage": null,
-    "words": 264,
+    "ai_usage": "ai-assisted",
+    "words": 243,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "da678f0263cfaddbddb09a30a41fe078e3582cff7d60535705374aff92914047"
+  "output_hash": "f081872c3156bf66d33ff93200db5708879507946275a1ba9a26f2fedf19c6aa"
 }

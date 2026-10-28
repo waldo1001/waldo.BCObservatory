@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Create and print a Swiss VAT statement [CH]",
+  "title": "Create and Print a Swiss VAT Statement in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.896Z",
-      "blob": "16ade905100888c2e8acfeb7f722eb6811db14a7",
-      "words": 493,
+      "at": "2026-10-28T09:07:50.934Z",
+      "blob": "68d85e383b2977d0ded0a4d532756ed53e861c79",
+      "words": 465,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:27:30.042Z",
+      "at": "2026-10-28T09:07:58.007Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002054
+      "objects": 4,
+      "cost_usd": 0.004144
     },
     "summarized": {
-      "at": "2026-10-06T19:27:31.821Z",
+      "at": "2026-10-28T09:07:58.009Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:31.822Z",
+      "at": "2026-10-28T09:07:58.010Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:31.823Z",
+      "at": "2026-10-28T09:07:58.011Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement.md",
-    "description": "Learn the steps to create and print a Swiss VAT Statement using details configured on the VAT Posting Setup page.",
-    "ms_date": "2025-04-28",
+    "description": "Create a Swiss VAT statement template from VAT posting setup, review the statement lines, and print a report for the selected reporting period.",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -64,12 +64,12 @@
       "VAT posting setup",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 493,
+    "ai_usage": "ai-assisted",
+    "words": 465,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9482f0b4ceca91ff82d9fb1b7e7b9bf8512cd7a33493b66748c939e7f5bca02a"
+  "output_hash": "4f435af123ce1754cad7d9ea78534d275fc322baacd5add0c0e1591e07df6261"
 }

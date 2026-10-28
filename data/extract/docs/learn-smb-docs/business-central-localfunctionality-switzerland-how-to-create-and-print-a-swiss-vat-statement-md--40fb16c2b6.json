@@ -1,18 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement",
-  "title": "Create and print a Swiss VAT statement [CH]",
-  "blob": "16ade905100888c2e8acfeb7f722eb6811db14a7",
-  "summary": "Create and print a Swiss VAT statement in the Swiss version documents setting up VAT statement templates and printing VAT statements with various tax rates and reporting options.",
+  "title": "Create and Print a Swiss VAT Statement in the Swiss Version [CH]",
+  "blob": "68d85e383b2977d0ded0a4d532756ed53e861c79",
+  "summary": "How to create a Swiss VAT statement template and print the Swiss VAT statement for realized VAT reporting, including setup of VAT posting details and reporting options.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "swiss vat",
+    "vat reporting",
+    "swiss localization",
+    "tax compliance",
     "vat statement",
-    "tax reporting",
-    "swiss"
+    "vat posting setup"
   ],
   "objects": [
     {
@@ -20,19 +21,25 @@
       "name": "VAT Posting Setup"
     },
     {
-      "type": "report",
-      "name": "Update VAT Statement Template"
+      "type": "page",
+      "name": "VAT Statement"
     },
     {
-      "type": "report",
+      "type": "page",
       "name": "Swiss VAT Statement"
+    },
+    {
+      "type": "page",
+      "name": "Update VAT Statement Template"
     }
   ],
   "features": [
-    "VAT Statement",
-    "VAT Statement Cipher",
-    "VAT Rates",
-    "Additional Reporting Currency"
+    "VAT Statement Setup creation",
+    "VAT Statement Cipher field",
+    "Realized VAT reporting",
+    "VAT rate configuration",
+    "Additional reporting currency",
+    "VAT Register posting"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002054,
-      "pages_in_call": 8
+      "cost_usd": 0.004144,
+      "pages_in_call": 1
     }
   ]
 }

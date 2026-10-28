@@ -1,54 +1,60 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Sweden/how-to-use-sie-audit-files-export.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-use-sie-audit-files-export",
-  "title": "Import and export data in the standard import export (SIE) format",
-  "blob": "86cc590744111ca09f6e812cae34b092fdc9a1c4",
-  "summary": "Swedish SIE audit files export allows import and export of general ledger data in standard import export format with customizable dimensions and file types, available as preinstalled extension requiring feature enablement.",
+  "title": "Import and Export Data in the Standard Import Export (SIE) Format",
+  "blob": "5f87c77c89dad410aaa0ed4eb0b5ceaddaf6698e",
+  "summary": "Import and export general ledger data in the Swedish Standard Import Export (SIE) format using the SIE Audit File Export Setup Guide and Import SIE functions. Configure SIE dimensions, map accounts, and create audit file export documents with multiple file type options for different reporting needs.",
   "systems": [
-    "localization",
     "finance",
+    "localization",
     "reporting"
   ],
   "topics": [
-    "sweden",
     "sie format",
-    "audit files",
+    "import export",
     "general ledger",
-    "localization",
-    "dimensions"
+    "audit file export",
+    "swedish localization",
+    "dimensions mapping",
+    "account mapping"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "SIE Audit File Export Setup Guide"
+    },
     {
       "type": "page",
       "name": "Dimensions SIE"
     },
     {
       "type": "page",
-      "name": "Audit File Export Document"
+      "name": "Audit File Export Documents"
     },
     {
       "type": "page",
-      "name": "SIE Audit File Export Setup Guide"
+      "name": "Import SIE"
     }
   ],
   "features": [
-    "SIE audit files export",
-    "general ledger import",
-    "general ledger export",
-    "dimension mapping",
-    "file type selection"
+    "SIE format import and export",
+    "SIE dimensions configuration",
+    "G/L account mapping setup",
+    "Audit file export document creation",
+    "Multiple file type options",
+    "General journal import",
+    "G/L account filter",
+    "Fiscal year settings"
   ],
-  "versions": [
-    "22.1"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003271,
-      "pages_in_call": 8
+      "cost_usd": 0.005375,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up Automatic Account Posting Groups [SE]",
+  "title": "Set Up Automatic Account Groups in Sweden",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.859Z",
-      "blob": "fbe56bb0db9a158aec855ac99342bfcbdc1ba54a",
-      "words": 26,
+      "at": "2026-10-28T09:07:43.425Z",
+      "blob": "e8cac188d0aae87e055715caabbca2f4633e057f",
+      "words": 217,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:27:25.969Z",
+      "at": "2026-10-28T09:07:50.337Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002264
+      "objects": 1,
+      "cost_usd": 0.003246
     },
     "summarized": {
-      "at": "2026-10-06T19:27:30.058Z",
+      "at": "2026-10-28T09:07:50.341Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:30.059Z",
+      "at": "2026-10-28T09:07:50.343Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:30.060Z",
+      "at": "2026-10-28T09:07:50.345Z",
       "page": false
     }
   },
@@ -44,23 +44,23 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups.md",
-    "description": "To use automatic account codes, you must create an automatic account posting group in the Swedish version.",
-    "ms_date": "2025-02-07",
-    "ms_topic": "article",
+    "description": "Set up automatic account groups in the Swedish version of Business Central to allocate journal and document amounts across accounts and dimensions.",
+    "ms_date": "2026-10-23",
+    "ms_topic": "how-to",
     "search_form": [
       {
-        "raw": "11207",
-        "id": 11207,
+        "raw": "4850",
+        "id": 4850,
         "kind": null
       },
       {
-        "raw": "11208",
-        "id": 11208,
+        "raw": "4851",
+        "id": 4851,
         "kind": null
       },
       {
-        "raw": "11206",
-        "id": 11206,
+        "raw": "4852",
+        "id": 4852,
         "kind": null
       }
     ],
@@ -69,12 +69,12 @@
       "automatic account codes",
       "posting groups"
     ],
-    "ai_usage": null,
-    "words": 26,
+    "ai_usage": "ai-assisted",
+    "words": 217,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5b16e023bbe5ea0da6a02ea3ceb95b1562db86d7289f30e74984a73019854b56"
+  "output_hash": "9cd1abb0344c7ab3f5984d3c58f2ea7f000b5718bf5fa7f6224b5cee61aac9cd"
 }

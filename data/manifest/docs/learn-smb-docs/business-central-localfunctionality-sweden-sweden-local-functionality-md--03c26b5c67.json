@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sweden Local Functionality [SE]",
+  "title": "Sweden Local Functionality in the Swedish Version [SE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/sweden-local-functionality",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.868Z",
-      "blob": "8968e2dc1bba6032b2a06f7fe74d553558517e0d",
-      "words": 175,
+      "at": "2026-10-28T09:07:43.492Z",
+      "blob": "ef0f985eb54fb1dc2443b29dd6610b3fcb1d91c6",
+      "words": 182,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:25.971Z",
+      "at": "2026-10-28T09:07:49.106Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002264
+      "cost_usd": 0.003296
     },
     "summarized": {
-      "at": "2026-10-06T19:27:30.065Z",
+      "at": "2026-10-28T09:07:49.107Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:30.066Z",
+      "at": "2026-10-28T09:07:49.109Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:30.067Z",
+      "at": "2026-10-28T09:07:49.110Z",
       "page": false
     }
   },
@@ -44,21 +44,21 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Sweden/sweden-local-functionality.md",
-    "description": "The links in this article describe the different local functionality in the Swedish version of Business Central.",
-    "ms_date": "2025-02-06",
-    "ms_topic": "article",
+    "description": "Explore Swedish functionality in Business Central, including SIE import and export, automatic account groups, EU third-party purchases, and reports.",
+    "ms_date": "2026-10-20",
+    "ms_topic": "overview",
     "search_form": [],
     "keywords": [
       "Sweden localization",
       "local functionality",
       "Swedish version"
     ],
-    "ai_usage": null,
-    "words": 175,
+    "ai_usage": "ai-assisted",
+    "words": 182,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "633340ebeb2826868bbdb3f53dac44e1a7ecd4f306a07202347113ed0495cbc9"
+  "output_hash": "0315dca7714b9321bffca3896c5404359f1ea0c18955a1703c4b48a5833521c0"
 }
