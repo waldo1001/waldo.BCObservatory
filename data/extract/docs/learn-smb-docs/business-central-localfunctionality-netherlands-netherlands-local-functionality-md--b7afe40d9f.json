@@ -2,29 +2,32 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/netherlands-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/netherlands-local-functionality",
   "title": "Netherlands Local Functionality [NL]",
-  "blob": "6e48d6a51b6d34b58621d5c08310b06d536a036d",
-  "summary": "Reference guide for all Dutch local functionality in Business Central including VAT declarations, electronic banking, payments, and postal codes.",
+  "blob": "f6e00b083d6e0d07ac94e6149299d0e72b5f4059",
+  "summary": "Netherlands local functionality in Business Central provides VAT compliance, electronic banking, SEPA payments, purchase validation, and postal code management tailored for Dutch regulatory requirements.",
   "systems": [
     "finance",
     "purchasing",
-    "crm"
+    "integration"
   ],
   "topics": [
     "netherlands",
-    "local functionality",
+    "localization",
     "vat",
-    "banking",
-    "payments",
-    "postal codes"
+    "sepa payments",
+    "electronic banking",
+    "postal codes",
+    "audit"
   ],
   "objects": [],
   "features": [
-    "VAT declarations",
-    "electronic banking",
-    "telebanking",
-    "payment scenarios",
+    "VAT categories",
+    "Electronic VAT and ICP Declarations",
+    "Dutch Electronic Banking",
+    "Telebanking",
     "SEPA payments",
-    "postal code management"
+    "Payment proposals",
+    "Bank statement reconciliation",
+    "Purchase amount validation"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002815,
-      "pages_in_call": 8
+      "cost_usd": 0.003938,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,40 +1,45 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations",
-  "title": "Electronic VAT and ICP Declarations [NL]",
-  "blob": "b77bcb3ecd1fdf093615fadcf5cab5ed2a4ac61b",
-  "summary": "Setting up electronic VAT and ICP declarations for the Dutch version requires configuring Digipoort endpoints, uploading PKIoverheid and service certificates, and entering tax authority information to enable secure communication with tax offices.",
+  "title": "Set Up Dutch Electronic VAT and ICP Declarations",
+  "blob": "fb8f75ffc021333cc12fdbefa9c6b54e6652d6b6",
+  "summary": "Set up electronic VAT and ICP declarations in the Dutch version of Business Central by configuring certificates, Digipoort endpoints, and tax declaration parameters to communicate with Dutch tax authorities.",
   "systems": [
+    "finance",
     "localization",
-    "administration",
-    "finance"
+    "integration"
   ],
   "topics": [
-    "electronic tax declaration",
-    "digipoort",
-    "certificates",
+    "vat",
+    "tax declarations",
     "netherlands",
-    "setup",
-    "endpoint"
+    "digipoort",
+    "icp",
+    "certificates",
+    "electronic filing"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Certificates"
+    },
     {
       "type": "page",
       "name": "Elec. Tax Declaration Setup"
     },
     {
       "type": "page",
-      "name": "Certificates"
+      "name": "Company Information"
     }
   ],
   "features": [
-    "Digipoort setup",
-    "certificate configuration",
-    "endpoint URLs",
-    "PKIoverheid certificate",
-    "service certificate",
-    "fiscal entity setup",
-    "VAT contact type"
+    "Electronic VAT declarations",
+    "Electronic ICP declarations",
+    "Digipoort integration",
+    "Certificate management",
+    "Fiscal entity setup",
+    "Tax contact configuration",
+    "XBRL schema support"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005677,
-      "pages_in_call": 8
+      "cost_usd": 0.004773,
+      "pages_in_call": 1
     }
   ]
 }

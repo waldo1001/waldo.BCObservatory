@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to import and reconcile bank statements",
+  "title": "Import and Reconcile Bank Statements",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.575Z",
-      "blob": "ac603c307bc3926d891ebc5d4c5ea63da97534b8",
-      "words": 198,
+      "at": "2026-10-28T09:04:15.742Z",
+      "blob": "28e7e797f9d38c5b269ce5a550536a4fcd31f7df",
+      "words": 168,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:07.305Z",
+      "at": "2026-10-28T09:04:21.529Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002815
+      "objects": 0,
+      "cost_usd": 0.003151
     },
     "summarized": {
-      "at": "2026-10-06T19:30:07.316Z",
+      "at": "2026-10-28T09:04:21.531Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:07.317Z",
+      "at": "2026-10-28T09:04:21.533Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:07.319Z",
+      "at": "2026-10-28T09:04:21.534Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md",
     "description": "Banks offer electronic statements detailing all your financial transactions. These statements can be imported into the bank or giro journals.",
-    "ms_date": "2025-03-17",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "electronic statements",
       "import bank statements"
     ],
-    "ai_usage": null,
-    "words": 198,
+    "ai_usage": "ai-assisted",
+    "words": 168,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "596790845f22aaad07b69de79873a3f663f5e107e7ce62a93046c420f92c7b5d"
+  "output_hash": "d6450b8a71e86ac9dbbf5befdb1c68036bdca3012ede88fe9a752530849bf45c"
 }

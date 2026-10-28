@@ -1,22 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals",
-  "title": "How to Print the Test Reports for Cash and Bank or Giro Journals",
-  "blob": "116a944116bf83557f581a1cdcdec051f87947d0",
-  "summary": "Print test reports for cash and bank/giro journals in the Dutch version to preview posting effects and view applied entries before posting.",
+  "title": "Print the Test Reports for Cash and Bank or Giro Journals",
+  "blob": "4a8d27c5c3ac95fea345337acaecb5654a933666",
+  "summary": "The CBG Posting - Test report lets you review statement lines and balances before posting cash or bank/giro journals in the Netherlands localization without modifying the journal lines.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "test reports",
     "cash journal",
     "bank journal",
     "giro journal",
-    "netherlands",
-    "posting"
+    "test report",
+    "posting",
+    "netherlands"
   ],
   "objects": [
+    {
+      "type": "report",
+      "name": "CBG Posting - Test"
+    },
     {
       "type": "page",
       "name": "Cash Journal"
@@ -24,21 +28,14 @@
     {
       "type": "page",
       "name": "Bank/Giro Journal"
-    },
-    {
-      "type": "page",
-      "name": "General Journal Template List"
-    },
-    {
-      "type": "report",
-      "name": "CBG Posting - Test"
     }
   ],
   "features": [
-    "test report printing",
-    "applied entries display",
-    "journal preview",
-    "posting validation"
+    "Test Report action",
+    "Show Applied Entries checkbox",
+    "Journal Template Name filter",
+    "Statement lines review",
+    "Balance verification"
   ],
   "versions": [],
   "parts": 1,
@@ -47,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002815,
-      "pages_in_call": 8
+      "cost_usd": 0.003604,
+      "pages_in_call": 1
     }
   ]
 }

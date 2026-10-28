@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/netherlands-local-functionality",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.602Z",
-      "blob": "6e48d6a51b6d34b58621d5c08310b06d536a036d",
-      "words": 283,
+      "at": "2026-10-28T09:04:22.088Z",
+      "blob": "f6e00b083d6e0d07ac94e6149299d0e72b5f4059",
+      "words": 274,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:07.314Z",
+      "at": "2026-10-28T09:04:32.084Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002815
+      "cost_usd": 0.003938
     },
     "summarized": {
-      "at": "2026-10-06T19:30:08.596Z",
+      "at": "2026-10-28T09:04:32.086Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:08.597Z",
+      "at": "2026-10-28T09:04:32.087Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:08.598Z",
+      "at": "2026-10-28T09:04:32.089Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/netherlands-local-functionality.md",
-    "description": "The following articles describe the various local functionality in the Dutch version of Business Central.",
-    "ms_date": "2025-03-19",
+    "description": "Explore Dutch local functionality in Business Central for VAT and ICP declarations, telebanking, payment proposals, audit files, and post code imports.",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Dutch local functionality",
       "Netherlands local functionality"
     ],
-    "ai_usage": null,
-    "words": 283,
+    "ai_usage": "ai-assisted",
+    "words": 274,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cb7cf3181d93070f118331bce6b777b3dd9665d5d05161a4574258ecd6a5d7e4"
+  "output_hash": "02d13ee4f02f309903a7e81908d3950b8e9e15d6cc53ba3e53bc3968c6790e59"
 }

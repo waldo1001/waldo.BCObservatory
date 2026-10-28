@@ -1,21 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-",
-  "title": "Scenario 1 Domestic payments (LCY to LCY) [NL]",
-  "blob": "705edba18550e5cbee197189113ed71f5e9801e9",
-  "summary": "Walkthrough of domestic payments in local currency using telebanking in the Dutch version, covering vendor/customer setup, invoicing, proposals, and bank statement import.",
+  "title": "Dutch Payment Scenario 1 - Domestic Payments (LCY to LCY)",
+  "blob": "c3c5058662163dc0b4f6757f0a4090161458e6f9",
+  "summary": "Dutch domestic payment scenario using telebanking for local currency (LCY) payments between vendors and customers. Describes the complete workflow from creating vendor/customer records through exporting payment history and importing bank statements.",
   "systems": [
-    "finance",
     "purchasing",
-    "sales"
+    "sales",
+    "integration"
   ],
   "topics": [
-    "payments",
     "telebanking",
-    "domestic",
-    "lcy",
+    "domestic payments",
     "netherlands",
-    "bank statements"
+    "payment scenario",
+    "bank statements",
+    "vendor payments",
+    "customer payments"
   ],
   "objects": [
     {
@@ -24,11 +25,11 @@
     },
     {
       "type": "page",
-      "name": "Proposal"
+      "name": "Telebank Proposal"
     },
     {
       "type": "page",
-      "name": "Payment History Overview"
+      "name": "Payment History List"
     },
     {
       "type": "page",
@@ -36,11 +37,14 @@
     }
   ],
   "features": [
-    "vendor/customer setup",
-    "payment proposals",
-    "payment history export",
-    "bank statement import",
-    "transaction mode configuration"
+    "Telebanking",
+    "Domestic payments",
+    "Bank account setup",
+    "Payment proposals",
+    "Payment history export",
+    "Bank statement import",
+    "Transaction mode codes",
+    "Preferred bank account"
   ],
   "versions": [],
   "parts": 1,
@@ -49,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002815,
-      "pages_in_call": 8
+      "cost_usd": 0.004748,
+      "pages_in_call": 1
     }
   ]
 }

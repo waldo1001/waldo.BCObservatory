@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals",
-  "title": "How to Enter and Post Cash and Bank or Giro Journals",
-  "blob": "bb7d442974e78f6d08d5f80196a7f6623d3da5a6",
-  "summary": "Enter and post cash and bank/giro journal transactions in the Dutch version with support for electronic bank statement import, payment application, and bank reconciliation.",
+  "title": "Enter and Post Cash and Bank/Giro Journals",
+  "blob": "9d18c5e6b024267cc151edc95e038eeb7f2bfa4e",
+  "summary": "Record and post cash and bank/giro transactions using journal templates, with support for telebanking, electronic statement import, and automatic reconciliation in Dutch localization.",
   "systems": [
     "finance",
     "localization"
@@ -12,9 +12,10 @@
     "cash journal",
     "bank journal",
     "giro journal",
-    "netherlands",
+    "journal posting",
     "bank reconciliation",
-    "telebanking"
+    "telebanking",
+    "netherlands"
   ],
   "objects": [
     {
@@ -24,20 +25,17 @@
     {
       "type": "page",
       "name": "Bank/Giro Journal"
-    },
-    {
-      "type": "page",
-      "name": "General Ledger Entries"
     }
   ],
   "features": [
-    "cash journal posting",
-    "bank journal posting",
-    "giro journal posting",
-    "electronic bank statement import",
-    "automatic reconciliation",
-    "VAT codes",
-    "payment application"
+    "Cash journal transactions",
+    "Bank/giro journal transactions",
+    "Telebanking import",
+    "Electronic bank statement import",
+    "Automatic reconciliation",
+    "VAT product posting groups",
+    "Amount including VAT",
+    "Journal templates"
   ],
   "versions": [],
   "parts": 1,
@@ -46,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002269,
-      "pages_in_call": 7
+      "cost_usd": 0.0043,
+      "pages_in_call": 1
     }
   ]
 }

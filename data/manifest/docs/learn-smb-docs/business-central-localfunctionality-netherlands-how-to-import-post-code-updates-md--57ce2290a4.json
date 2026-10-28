@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to import post code updates [NL]",
+  "title": "Import Post Code Updates in the Dutch Version [NL]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-code-updates",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.579Z",
-      "blob": "234558c994a33748c2ba7dedfd958002a98d14e7",
-      "words": 236,
+      "at": "2026-10-28T09:04:15.967Z",
+      "blob": "5a2929a652e2ba440edb1fcf1eb4e1a83edb805c",
+      "words": 229,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:07.307Z",
+      "at": "2026-10-28T09:04:21.958Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.002815
+      "cost_usd": 0.003425
     },
     "summarized": {
-      "at": "2026-10-06T19:30:08.582Z",
+      "at": "2026-10-28T09:04:21.960Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:08.583Z",
+      "at": "2026-10-28T09:04:21.961Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:08.584Z",
+      "at": "2026-10-28T09:04:21.963Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/how-to-import-post-code-updates.md",
-    "description": "Import the post code file to update the relevant data in the Post Code Range table.",
-    "ms_date": "2025-03-18",
+    "description": "Import monthly Dutch post code updates in Business Central, check the update period, and review the import log for changes to the post code ranges.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "post code import",
       "post code update"
     ],
-    "ai_usage": null,
-    "words": 236,
+    "ai_usage": "ai-assisted",
+    "words": 229,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "289827c32e16da48320eb24011001c89b349864872961b595b8587c0d2335fcc"
+  "output_hash": "65f3249986efff455c87f3684cf865d5064b226941eefb2844fc59f7fd576fdd"
 }

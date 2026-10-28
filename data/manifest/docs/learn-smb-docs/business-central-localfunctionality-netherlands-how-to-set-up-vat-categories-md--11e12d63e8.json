@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Set Up VAT Categories",
+  "title": "Set Up Dutch VAT Declaration Categories",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-vat-categories",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.593Z",
-      "blob": "a4bb7a6d3c358b3a6551db4b3cf477429cb7ad4a",
-      "words": 296,
+      "at": "2026-10-28T09:04:21.897Z",
+      "blob": "9ad7ba1b2d07682cf0e78835e9242707aebb3e3c",
+      "words": 482,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:07.311Z",
+      "at": "2026-10-28T09:04:27.182Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002815
+      "cost_usd": 0.003899
     },
     "summarized": {
-      "at": "2026-10-06T19:30:08.590Z",
+      "at": "2026-10-28T09:04:27.184Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:08.592Z",
+      "at": "2026-10-28T09:04:27.185Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:08.593Z",
+      "at": "2026-10-28T09:04:32.060Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md",
-    "description": "Learn how to set up VAT category codes for all XML elements required in the electronic VAT declaration.",
-    "ms_date": "2025-03-18",
+    "description": "Map Dutch VAT statement amounts to electronic declaration categories, or use box numbers for VAT returns that use the DigitalTaxDecl reporting version.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Dutch version",
       "Netherlands"
     ],
-    "ai_usage": null,
-    "words": 296,
+    "ai_usage": "ai-assisted",
+    "words": 482,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c580f18b6827933b05fbed7691fe1116906b7c3cf6e3108ec0beded93f546930"
+  "output_hash": "53a8b1f66f0c28b1352da2ab6e6f569a89d1cda337c248e936b9f931a20225af"
 }

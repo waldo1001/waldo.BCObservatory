@@ -1,36 +1,43 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format",
-  "title": "Submit Vendor Payments Electronically in SEPA ISO 20022 Format (NL)",
-  "blob": "a708d7c7d717bda6c1bada6f2a33009ef5424b1f",
-  "summary": "Submit vendor payments electronically in SEPA ISO 20022 format in the Dutch version by creating proposals and exporting payment data through telebanking.",
+  "title": "Submit Dutch Vendor Payments in SEPA ISO 20022 Format",
+  "blob": "edae42c341fa3f1aa356d5434f01179708ad824d",
+  "summary": "Creating and submitting Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically in the Dutch version of Business Central. Use this for Dutch organizations needing to process vendor payments in SEPA format.",
   "systems": [
     "purchasing",
-    "integration",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
-    "vendor payments",
-    "sepa",
+    "sepa payments",
     "iso 20022",
+    "vendor payments",
     "netherlands",
-    "electronic payments"
+    "electronic payments",
+    "payment export"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Telebank-Bank Overview"
+      "name": "Telebank - Bank Overview"
     },
     {
       "type": "page",
       "name": "Telebank Proposal"
+    },
+    {
+      "type": "page",
+      "name": "Get Proposal Entries"
     }
   ],
   "features": [
-    "SEPA vendor payments",
-    "ISO 20022 format",
-    "payment proposals",
-    "electronic submission"
+    "SEPA payment creation",
+    "ISO 20022 format export",
+    "payment proposal",
+    "vendor bank account validation",
+    "payment history",
+    "electronic payment submission"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002815,
-      "pages_in_call": 8
+      "cost_usd": 0.0038,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,30 +1,34 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-vat-categories",
-  "title": "How to Set Up VAT Categories",
-  "blob": "a4bb7a6d3c358b3a6551db4b3cf477429cb7ad4a",
-  "summary": "Set up VAT category codes for electronic VAT declarations in the Dutch version by configuring category and subcategory combinations that map to XML elements.",
+  "title": "Set Up Dutch VAT Declaration Categories",
+  "blob": "9ad7ba1b2d07682cf0e78835e9242707aebb3e3c",
+  "summary": "Set up VAT category codes and box number mappings for Dutch electronic VAT declarations to map VAT statement data to XML elements and comply with DigitalTaxDecl format requirements.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
+    "vat declaration",
+    "dutch localization",
+    "electronic tax",
     "vat categories",
-    "electronic declarations",
-    "netherlands",
-    "tax"
+    "box numbers",
+    "xml mapping"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Elec. Tax. Decl. VAT Categories"
+      "name": "Electronic Tax Declaration VAT Categories"
     }
   ],
   "features": [
-    "VAT category setup",
-    "subcategory mapping",
-    "XML element mapping",
-    "electronic VAT declaration"
+    "VAT category codes",
+    "Category and subcategory combinations",
+    "Box number mappings",
+    "DigitalTaxDecl version support",
+    "XML element representation",
+    "Optional fields"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002815,
-      "pages_in_call": 8
+      "cost_usd": 0.003899,
+      "pages_in_call": 1
     }
   ]
 }

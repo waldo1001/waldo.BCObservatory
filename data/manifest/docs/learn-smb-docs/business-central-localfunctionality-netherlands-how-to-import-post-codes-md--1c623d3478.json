@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Import Post Codes [NL]",
+  "title": "Import Post Codes in the Dutch Version [NL]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-codes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.584Z",
-      "blob": "9411a424b617a1817730dbdf9e59f04cb77f635c",
-      "words": 138,
+      "at": "2026-10-28T09:04:15.902Z",
+      "blob": "4316f382cca0384e706c6ecdc03bfc3afc3318e5",
+      "words": 134,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:07.309Z",
+      "at": "2026-10-28T09:04:21.842Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.002815
+      "cost_usd": 0.003202
     },
     "summarized": {
-      "at": "2026-10-06T19:30:08.585Z",
+      "at": "2026-10-28T09:04:21.844Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:08.586Z",
+      "at": "2026-10-28T09:04:21.845Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:08.587Z",
+      "at": "2026-10-28T09:04:21.846Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/how-to-import-post-codes.md",
     "description": "Import a file with post codes for marketing and relationship management activities, which is saved in the Post Code Range table.",
-    "ms_date": "2025-03-18",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "Dutch version",
       "Netherlands"
     ],
-    "ai_usage": null,
-    "words": 138,
+    "ai_usage": "ai-assisted",
+    "words": 134,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "890eb151b2c0feb69fa3db0d4b3217295f454d7734217a927c86dce525de3317"
+  "output_hash": "936977e695adb451493626fa830adcebd3176b76d9c4799c8af8847fa45ad4a3"
 }

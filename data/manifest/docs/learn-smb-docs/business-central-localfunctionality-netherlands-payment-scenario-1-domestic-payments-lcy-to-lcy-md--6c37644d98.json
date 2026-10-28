@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Scenario 1 Domestic payments (LCY to LCY) [NL]",
+  "title": "Dutch Payment Scenario 1 - Domestic Payments (LCY to LCY)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.607Z",
-      "blob": "705edba18550e5cbee197189113ed71f5e9801e9",
-      "words": 846,
+      "at": "2026-10-28T09:04:22.149Z",
+      "blob": "c3c5058662163dc0b4f6757f0a4090161458e6f9",
+      "words": 784,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:07.315Z",
+      "at": "2026-10-28T09:04:32.124Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.002815
+      "cost_usd": 0.004748
     },
     "summarized": {
-      "at": "2026-10-06T19:30:08.598Z",
+      "at": "2026-10-28T09:04:32.125Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:10.361Z",
+      "at": "2026-10-28T09:04:32.133Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:10.363Z",
+      "at": "2026-10-28T09:04:32.135Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md",
     "description": "This article describes a scenario where you can use telebanking for trade with domestic and foreign customers and vendors.",
-    "ms_date": "2025-03-19",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Dutch version",
       "Netherlands"
     ],
-    "ai_usage": null,
-    "words": 846,
+    "ai_usage": "ai-assisted",
+    "words": 784,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3503e128999b6d634f500c9e404403fa3579142fac05f98678b5311958e95a3e"
+  "output_hash": "408b22ec47e44e9243b92bb855497d526db4618ac700d6061ef6834051b62f0b"
 }

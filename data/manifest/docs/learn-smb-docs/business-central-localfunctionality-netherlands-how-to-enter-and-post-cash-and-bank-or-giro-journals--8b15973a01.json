@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Enter and Post Cash and Bank or Giro Journals",
+  "title": "Enter and Post Cash and Bank/Giro Journals",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.570Z",
-      "blob": "bb7d442974e78f6d08d5f80196a7f6623d3da5a6",
-      "words": 788,
+      "at": "2026-10-28T09:04:15.801Z",
+      "blob": "9d18c5e6b024267cc151edc95e038eeb7f2bfa4e",
+      "words": 745,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:10.415Z",
+      "at": "2026-10-28T09:04:22.063Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002269
+      "objects": 2,
+      "cost_usd": 0.0043
     },
     "summarized": {
-      "at": "2026-10-06T19:30:10.475Z",
+      "at": "2026-10-28T09:04:22.064Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:10.476Z",
+      "at": "2026-10-28T09:04:22.066Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:10.477Z",
+      "at": "2026-10-28T09:04:22.067Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md",
     "description": "Learn how to use the cash and bank journals to record transactions affecting cash and bank accounts via Cash Book and Bank Book.",
-    "ms_date": "2025-04-24",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "cash and bank accounts",
       "telebanking"
     ],
-    "ai_usage": null,
-    "words": 788,
+    "ai_usage": "ai-assisted",
+    "words": 745,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "22451ce83bdd95e5ce2491f71a75402f7fa428ca01838a65472d1642c0683c85"
+  "output_hash": "3d43617d9d950d2d711e01ed2d92717516b1167e450853d22a048a15524a81e2"
 }
