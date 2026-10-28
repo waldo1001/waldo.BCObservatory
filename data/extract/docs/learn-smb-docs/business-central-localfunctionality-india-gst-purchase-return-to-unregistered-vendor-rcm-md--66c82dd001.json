@@ -2,38 +2,39 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Unregistered-Vendor-RCM.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Unregistered-Vendor-RCM",
   "title": "Purchase Return to Unregistered Vendor (Reverse Charge)",
-  "blob": "0216de286b2bdb11487727918d24f13c3828b9f9",
-  "summary": "Purchase returns and credit memos to unregistered vendors (below 40 lakh rupees turnover) in India with reverse charge mechanism where purchasers pay GST to government. Covers GL entries for intra-state and inter-state transactions with available and unavailable input tax credit.",
+  "blob": "276388fc16a58889a7463f54c1979d6613a282a4",
+  "summary": "Purchase return to unregistered vendor (reverse charge) explains how to create purchase credit memos and return orders for unregistered vendors in India under GST rules, including GL entry calculations with and without input tax credit availment.",
   "systems": [
     "purchasing",
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "gst",
-    "india",
+    "india gst",
     "purchase returns",
-    "unregistered vendor",
     "reverse charge",
-    "tax credit"
+    "unregistered vendors",
+    "credit memos",
+    "tax compliance"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Purchase Return Order"
+      "name": "Purchase Return Orders"
     },
     {
       "type": "page",
-      "name": "Purchase Credit Memo"
+      "name": "Purchase Credit Memos"
     }
   ],
   "features": [
-    "Unregistered vendor treatment",
-    "Reverse charge mechanism",
-    "Intra-state transactions",
-    "Inter-state transactions",
-    "Input tax credit options",
-    "GL entries"
+    "GST reverse charge",
+    "GST credit availment",
+    "GST group code",
+    "HSN/SAC code",
+    "CGST/SGST/IGST calculation",
+    "vendor type classification",
+    "purchase line validation"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003358,
-      "pages_in_call": 8
+      "cost_usd": 0.004222,
+      "pages_in_call": 1
     }
   ]
 }

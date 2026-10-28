@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.022Z",
-      "blob": "cc306668e8eab450e4d7268bbee283cf506bbaec",
-      "words": 324,
+      "at": "2026-10-28T09:10:07.391Z",
+      "blob": "323b810f76228e958948beb851136487e68ce14b",
+      "words": 314,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:49.951Z",
+      "at": "2026-10-28T09:10:18.086Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003358
+      "cost_usd": 0.003828
     },
     "summarized": {
-      "at": "2026-10-06T19:16:55.887Z",
+      "at": "2026-10-28T09:10:18.087Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:55.887Z",
+      "at": "2026-10-28T09:10:18.089Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:55.888Z",
+      "at": "2026-10-28T09:10:18.090Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor.md",
-    "description": "Purchase return of services for overseas place of supply to registered vendor",
-    "ms_date": "2025-06-23",
+    "description": "Process service purchase returns to registered vendors with an overseas place of supply and review GST entries in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "purchase return of services",
       "overseas place of supply"
     ],
-    "ai_usage": null,
-    "words": 324,
+    "ai_usage": "ai-assisted",
+    "words": 314,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "97e5fbc1817f00d52f11251be328b05e33afe9c142377ada599df8e6432547b0"
+  "output_hash": "aae1f204d1e40214c7cc4301cb72d53449ccd2cd6cfa784d61abf11cfc393f03"
 }

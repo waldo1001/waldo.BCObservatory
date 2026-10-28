@@ -1,31 +1,34 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS",
-  "title": "Sale of Services to Overseas Place of Supply to registered customer",
-  "blob": "ba422bb76f9d03303e554ad8bd47a822bfd1bbc9",
-  "summary": "Sale of services to overseas place of supply to registered customers under GST involves marking the POS Out of India field and charging IGST, with GL entries posted to customer, IGST payable, and services accounts.",
+  "title": "Sale of Services to Overseas Place of Supply to Registered Customer",
+  "blob": "a8e02cdfbfa7ac87eadef1eb2a604abb3d4e4f82",
+  "summary": "Process for creating sales invoices in India for services sold to registered customers with overseas place of supply, including GST calculation and ledger entries.",
   "systems": [
     "finance",
-    "sales"
+    "sales",
+    "localization"
   ],
   "topics": [
     "gst",
     "india",
-    "sales",
+    "sales invoices",
     "overseas",
+    "place of supply",
     "igst",
-    "services"
+    "registered customer"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Sales Invoice"
+      "name": "Sales Invoices"
     }
   ],
   "features": [
+    "GST Place of Supply",
     "POS Out of India",
     "IGST calculation",
-    "Registered customer type",
+    "GST Customer Type",
     "GST Group Code",
     "HSN/SAC Code"
   ],
@@ -36,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004317,
-      "pages_in_call": 8
+      "cost_usd": 0.003398,
+      "pages_in_call": 1
     }
   ]
 }

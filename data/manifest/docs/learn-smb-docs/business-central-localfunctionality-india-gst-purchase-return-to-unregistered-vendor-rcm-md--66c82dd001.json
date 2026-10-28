@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Unregistered-Vendor-RCM",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.012Z",
-      "blob": "0216de286b2bdb11487727918d24f13c3828b9f9",
-      "words": 393,
+      "at": "2026-10-28T09:10:01.671Z",
+      "blob": "276388fc16a58889a7463f54c1979d6613a282a4",
+      "words": 419,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:49.949Z",
+      "at": "2026-10-28T09:10:08.376Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003358
+      "cost_usd": 0.004222
     },
     "summarized": {
-      "at": "2026-10-06T19:16:55.880Z",
+      "at": "2026-10-28T09:10:08.378Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:55.881Z",
+      "at": "2026-10-28T09:10:08.379Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:55.882Z",
+      "at": "2026-10-28T09:10:08.380Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Purchase-Return-to-Unregistered-Vendor-RCM.md",
-    "description": "Learn how to process purchase returns to unregistered vendors under GST reverse charge in Business Central India.",
-    "ms_date": "2025-06-23",
+    "description": "Process purchase returns to unregistered vendors under GST reverse charge and review illustrative accounting entries in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "unregistered vendor",
       "reverse charge"
     ],
-    "ai_usage": null,
-    "words": 393,
+    "ai_usage": "ai-assisted",
+    "words": 419,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3e6b809383383967dd58c8eda4f701f3635aa1e198971317dc05576731e28110"
+  "output_hash": "d5c73bc7f01771a1267e7bf6fc72595a9453ac9fe8d4b21e0d3d373becb11c15"
 }

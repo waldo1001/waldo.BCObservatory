@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Reconciliation",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.017Z",
-      "blob": "695000643e8a8772e585c6606ff06e6677bc1053",
-      "words": 871,
+      "at": "2026-10-28T09:10:01.772Z",
+      "blob": "944cbcbe103ecd9ada13d9b27a367aa572f2c3a9",
+      "words": 965,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:49.950Z",
+      "at": "2026-10-28T09:10:09.452Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 5,
-      "cost_usd": 0.003358
+      "cost_usd": 0.005267
     },
     "summarized": {
-      "at": "2026-10-06T19:16:55.884Z",
+      "at": "2026-10-28T09:10:09.455Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:55.884Z",
+      "at": "2026-10-28T09:10:09.458Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:55.885Z",
+      "at": "2026-10-28T09:10:09.461Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Reconciliation.md",
-    "description": "Provides an overview and setup instructions for GST reconciliation in Business Central for India.",
-    "ms_date": "2025-06-23",
+    "description": "Set up GST reconciliation, import reconciliation data, and review matching criteria and related actions in the India localization of Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "component mapping reconciliation",
       "component mapping"
     ],
-    "ai_usage": null,
-    "words": 871,
+    "ai_usage": "ai-assisted",
+    "words": 965,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6cb241b5fc01847e1be906447801338375a1791c831c605b6db030d559586117"
+  "output_hash": "35b5cced4ea6777c59a4e43a154ff08bcd029df6e2c28f522b15f05899603acd"
 }

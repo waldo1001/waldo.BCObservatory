@@ -2,36 +2,36 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor",
   "title": "Import from Foreign Vendor",
-  "blob": "9076f2c66584036d1fe3d8d93487a39f8ac8119e",
-  "summary": "Imports from foreign vendors are subject to reverse charge with IGST calculated on GST Assessable Value plus Basic Custom Duty for goods, fixed assets, and services.",
+  "blob": "ff075c46e3cf5af8a89bc1ff46e8af4d2e4efd5e",
+  "summary": "Import from Foreign Vendor explains how to create purchase invoices for goods and services imported in India from foreign vendors, including GST calculations with reverse charge, customs duty, and input tax credit options.",
   "systems": [
+    "purchasing",
     "finance",
-    "localization",
-    "purchasing"
+    "localization"
   ],
   "topics": [
-    "gst",
     "import",
+    "gst",
+    "india",
     "reverse charge",
-    "igst",
-    "custom duty",
-    "india"
+    "purchase invoice",
+    "customs duty"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Purchase Invoice"
+      "name": "Purchase Invoices"
     }
   ],
   "features": [
-    "Import vendor",
-    "IGST calculation",
-    "Custom duty",
+    "GST vendor type Import",
     "GST Assessable Value",
-    "Reverse charge",
-    "Import of goods",
-    "Import of services",
-    "Import of fixed assets"
+    "Custom Duty Amount",
+    "Bill of Entry tracking",
+    "GST Credit Availment and Non-Availment",
+    "Associated Enterprises",
+    "IGST calculation",
+    "Foreign currency support"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004773,
-      "pages_in_call": 8
+      "cost_usd": 0.005169,
+      "pages_in_call": 1
     }
   ]
 }

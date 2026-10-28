@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sale of Services to Overseas Place of Supply to registered customer",
+  "title": "Sale of Services to Overseas Place of Supply to Registered Customer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.037Z",
-      "blob": "ba422bb76f9d03303e554ad8bd47a822bfd1bbc9",
-      "words": 246,
+      "at": "2026-10-28T09:10:09.375Z",
+      "blob": "a8e02cdfbfa7ac87eadef1eb2a604abb3d4e4f82",
+      "words": 267,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:55.862Z",
+      "at": "2026-10-28T09:10:18.122Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.004317
+      "cost_usd": 0.003398
     },
     "summarized": {
-      "at": "2026-10-06T19:16:55.871Z",
+      "at": "2026-10-28T09:10:18.123Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:55.871Z",
+      "at": "2026-10-28T09:10:18.125Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:55.872Z",
+      "at": "2026-10-28T09:10:18.127Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS.md",
     "description": "Explains how to process sales of services to registered customers when the place of supply is overseas, under GST regulations in India.",
-    "ms_date": "2025-06-23",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "sale of services",
       "overseas place of supply"
     ],
-    "ai_usage": null,
-    "words": 246,
+    "ai_usage": "ai-assisted",
+    "words": 267,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d7cc81b4a02efd3ac64b763a2ad89990e9d59d2e9b0fea1f8a3eed87f6c3b662"
+  "output_hash": "6473dd2952e127ea4bb55d532e343cb0a0b918ccdae4be94d0a48ddd424bdf04"
 }

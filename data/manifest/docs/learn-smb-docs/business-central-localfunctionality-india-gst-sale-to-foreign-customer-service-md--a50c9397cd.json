@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Export of Goods and/or Services to Foreign Customer",
+  "title": "Export of Goods and Services to Foreign Customer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.032Z",
-      "blob": "7df30a95e51389d8d26e2ca5c40bd43b31184574",
-      "words": 315,
+      "at": "2026-10-28T09:10:08.449Z",
+      "blob": "943d509846b156aa105a273ba5f0f4ad4d0442be",
+      "words": 322,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:49.953Z",
+      "at": "2026-10-28T09:10:13.170Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003358
+      "cost_usd": 0.003301
     },
     "summarized": {
-      "at": "2026-10-06T19:16:55.895Z",
+      "at": "2026-10-28T09:10:18.072Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:55.896Z",
+      "at": "2026-10-28T09:10:18.074Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:55.898Z",
+      "at": "2026-10-28T09:10:18.076Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service.md",
     "description": "Learn how to export goods and services to foreign customers in India, including GST treatment, invoice creation, and accounting entries.",
-    "ms_date": "2025-06-23",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "SEZ development",
       "IGST"
     ],
-    "ai_usage": null,
-    "words": 315,
+    "ai_usage": "ai-assisted",
+    "words": 322,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9d2f69f5105f87911a772cd3823e786f12929f043b3544c96fe4bdd75fcf547c"
+  "output_hash": "09eb09e7d17f0220415b54d93a592cda3b94bd16809d7f0fa2b003d27f836eec"
 }

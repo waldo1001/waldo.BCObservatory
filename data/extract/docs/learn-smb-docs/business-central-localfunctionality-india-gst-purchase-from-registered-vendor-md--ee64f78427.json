@@ -2,36 +2,37 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Purchase-from-Registered-Vendor.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Registered-Vendor",
   "title": "Purchase from Registered Vendors",
-  "blob": "e7deb5e2fe52eadc6b83f1bab7306952e6ce0bb2",
-  "summary": "Purchases from registered vendors with intra-state and inter-state transactions involve CGST/SGST or IGST with tax credit availment options and reverse charge for notified services.",
+  "blob": "7721d71b225d5eb9da55bc3cc27aea6ec26a78d0",
+  "summary": "Purchase from Registered Vendors explains how to process purchase invoices from GST-registered vendors in India, including GST credit treatment, reverse charge calculations, and GL entry examples for goods, services, fixed assets, and charge items.",
   "systems": [
-    "finance",
     "localization",
-    "purchasing"
+    "purchasing",
+    "finance"
   ],
   "topics": [
     "gst",
-    "registered vendor",
-    "cgst",
-    "sgst",
-    "igst",
     "india",
-    "reverse charge"
+    "purchase invoices",
+    "tax calculation",
+    "reverse charge",
+    "input tax credit",
+    "vendor setup"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Purchase Invoice"
+      "name": "Purchase Invoices"
     }
   ],
   "features": [
-    "Registered vendor",
-    "GST Credit",
-    "Intra-state transactions",
-    "Inter-state transactions",
-    "Reverse charge",
-    "Item charge",
-    "Fixed asset purchase"
+    "GST Vendor Type",
+    "GST Registration No",
+    "State Code",
+    "GST Group Code",
+    "HSN/SAC Code",
+    "GST Credit (Availment/Non-Availment)",
+    "Reverse Charge",
+    "CGST/SGST/IGST calculation"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004773,
-      "pages_in_call": 8
+      "cost_usd": 0.005269,
+      "pages_in_call": 1
     }
   ]
 }

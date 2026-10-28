@@ -2,39 +2,38 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor",
   "title": "Purchase Credit Memo or Return Order to Foreign Vendor",
-  "blob": "670838b209bbf6cffa8d6b8cd2ac2cab1856b524",
-  "summary": "Purchase credit memos and return orders for foreign vendors (imports) in India, subject to reverse charge with IGST calculation on GST assessable value plus basic customs duty. Covers GL entries for available and unavailable input tax credit scenarios.",
+  "blob": "a3eea8850626c9289ce96eec94cccbdfdbb3fb63",
+  "summary": "Process for issuing purchase credit memos and return orders to foreign vendors in India, handling reverse charge GST and import of goods or services subject to tax requirements.",
   "systems": [
     "purchasing",
-    "localization",
-    "finance"
+    "localization"
   ],
   "topics": [
     "gst",
+    "purchase returns",
+    "foreign vendors",
     "india",
-    "imports",
-    "foreign vendor",
     "reverse charge",
-    "igst",
-    "custom duty"
+    "import tax"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Purchase Return Order"
+      "name": "Purchase Return Orders"
     },
     {
       "type": "page",
-      "name": "Purchase Credit Memo"
+      "name": "Purchase Credit Memos"
     }
   ],
   "features": [
-    "Import tax treatment",
-    "Reverse charge mechanism",
-    "IGST calculation",
-    "Custom duty handling",
-    "Input tax credit options",
-    "GL entries"
+    "GST vendor type for imports",
+    "GST Group Code",
+    "HSN/SAC Code",
+    "GST Credit Availment and Non-Availment",
+    "GST Assessable Value",
+    "Custom Duty Amount",
+    "IGST calculations"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003358,
-      "pages_in_call": 8
+      "cost_usd": 0.004021,
+      "pages_in_call": 1
     }
   ]
 }

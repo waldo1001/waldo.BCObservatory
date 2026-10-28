@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.027Z",
-      "blob": "656fab0713c4255d46b8e0a9038ab4ccfd7b7adf",
-      "words": 355,
+      "at": "2026-10-28T09:10:08.065Z",
+      "blob": "48fa5a189648a4f0b0c1fd76e61e87b235f9c354",
+      "words": 337,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:49.952Z",
+      "at": "2026-10-28T09:10:13.154Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003358
+      "cost_usd": 0.00397
     },
     "summarized": {
-      "at": "2026-10-06T19:16:55.890Z",
+      "at": "2026-10-28T09:10:13.156Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:55.891Z",
+      "at": "2026-10-28T09:10:13.157Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:55.893Z",
+      "at": "2026-10-28T09:10:13.158Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer.md",
-    "description": "Learn how to process sales returns of goods from registered or unregistered customers in India.",
-    "ms_date": "2025-06-23",
+    "description": "Process sales returns from registered or unregistered customers and review illustrative GST accounting entries in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "unregistered customer",
       "sales return"
     ],
-    "ai_usage": null,
-    "words": 355,
+    "ai_usage": "ai-assisted",
+    "words": 337,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "703e37fd0391b94528c1cad50d148bef450a19c732a9da25501f931fa2d8e78e"
+  "output_hash": "494a9610a3373a924bb9951956bc3f890f21e8ce1541af54817b73b6c9cd51e4"
 }

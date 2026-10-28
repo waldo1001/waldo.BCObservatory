@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer",
   "title": "Sales Return of Goods from Registered or Unregistered Customer",
-  "blob": "656fab0713c4255d46b8e0a9038ab4ccfd7b7adf",
-  "summary": "Sales returns and credit memos to registered (B2B) and unregistered (B2C) customers in India with identical GST computation covering intra-state (CGST/SGST) and inter-state (IGST) transactions. Includes GL entries for both goods and services.",
+  "blob": "48fa5a189648a4f0b0c1fd76e61e87b235f9c354",
+  "summary": "Sales Return of Goods from Registered or Unregistered Customer explains how to create sales return orders and credit memos with GST calculations for B2B and B2C transactions in India, including GL entry examples for intra-state and inter-state transactions.",
   "systems": [
     "sales",
     "localization",
@@ -12,31 +12,30 @@
   "topics": [
     "gst",
     "india",
-    "sales returns",
+    "sales return",
+    "credit memo",
     "b2b",
-    "b2c",
-    "customer",
-    "cgst",
-    "sgst",
-    "igst"
+    "b2c"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Sales Return Order"
+      "name": "Sales Return Orders"
     },
     {
       "type": "page",
-      "name": "Sales Credit Memo"
+      "name": "Sales Credit Memos"
     }
   ],
   "features": [
-    "Registered customer handling",
-    "Unregistered customer handling",
-    "Intra-state transactions",
-    "Inter-state transactions",
-    "Service returns",
-    "GL entry generation"
+    "GST calculation",
+    "B2B sales",
+    "B2C sales",
+    "GSTR-1 reporting",
+    "intra-state transactions",
+    "inter-state transactions",
+    "CGST",
+    "SGST"
   ],
   "versions": [],
   "parts": 1,
@@ -45,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003358,
-      "pages_in_call": 8
+      "cost_usd": 0.00397,
+      "pages_in_call": 1
     }
   ]
 }

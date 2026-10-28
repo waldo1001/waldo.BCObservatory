@@ -2,20 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Reconciliation.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Reconciliation",
   "title": "GST Reconciliation",
-  "blob": "695000643e8a8772e585c6606ff06e6677bc1053",
-  "summary": "GST reconciliation process in India for matching purchase transactions with GSTR-2A (supplier-uploaded data) downloaded from GSTN portal. Includes setup of GST component mapping and reconciliation workflow to identify matched/unmatched transactions and manage provisional tax credits.",
+  "blob": "944cbcbe103ecd9ada13d9b27a367aa572f2c3a9",
+  "summary": "GST Reconciliation explains the setup and process for reconciling posted purchase transactions with GSTR-2A data downloaded from the Indian GST portal, including component mapping, import procedures, and matching workflows.",
   "systems": [
-    "purchasing",
+    "finance",
     "localization",
-    "finance"
+    "purchasing"
   ],
   "topics": [
-    "gst",
-    "india",
-    "reconciliation",
+    "gst reconciliation",
+    "india localization",
+    "purchase matching",
     "gstr-2a",
-    "tax compliance",
-    "input service distribution"
+    "tax compliance"
   ],
   "objects": [
     {
@@ -27,12 +26,12 @@
       "name": "GST Reconciliation List"
     },
     {
-      "type": "page",
-      "name": "GST Reconciliation Lines"
+      "type": "table",
+      "name": "Periodic GSTR-2A Data"
     },
     {
       "type": "table",
-      "name": "Periodic GSTR-2A Data"
+      "name": "GST Reconciliation Lines"
     },
     {
       "type": "table",
@@ -40,13 +39,12 @@
     }
   ],
   "features": [
+    "GST component mapping",
     "GSTR-2A import",
-    "Transaction reconciliation",
-    "Tolerance settings",
-    "Input service distribution",
-    "Monthly reconciliation",
-    "Unmatched transaction tracking",
-    "Multi-line invoice clubbing"
+    "purchase transaction matching",
+    "reconciliation tolerance",
+    "input service distributor",
+    "vendor registration filtering"
   ],
   "versions": [],
   "parts": 1,
@@ -55,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003358,
-      "pages_in_call": 8
+      "cost_usd": 0.005267,
+      "pages_in_call": 1
     }
   ]
 }

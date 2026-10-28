@@ -1,37 +1,40 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor",
-  "title": "Purchase Return of Goods and Services to Composite Vendor or Purchase Return of exempted goods and services with no GST Impact",
-  "blob": "6cbad243c370a6d11dc6e31ba2d38613f48b5e2c",
-  "summary": "Purchase returns and credit memos to composite vendors (small businesses under 50 lakh rupees turnover) and exempted goods/services that don't attract GST in India. No GST entries are generated for composite vendors.",
+  "title": "Purchase Return of Goods and Services to Composite Vendor or Purchase Return of Exempted Goods and Services with No GST Impact",
+  "blob": "dc189264156c6975b4062acb894d6cfa3a00bc6c",
+  "summary": "Purchase returns to composite or exempted vendors in India don't calculate GST. Set the vendor's GST Vendor Type to Composite or Exempted, then create purchase return orders or credit memos with no GST computation.",
   "systems": [
     "purchasing",
-    "localization",
-    "finance"
+    "localization"
   ],
   "topics": [
-    "gst",
-    "india",
     "purchase returns",
-    "composite vendor",
-    "exempted goods",
-    "credit memo"
+    "gst",
+    "india localization",
+    "composite vendors",
+    "credit memos",
+    "exempted goods"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Purchase Return Order"
+      "name": "Purchase Return Orders"
     },
     {
       "type": "page",
-      "name": "Purchase Credit Memo"
+      "name": "Purchase Credit Memos"
     }
   ],
   "features": [
-    "Composite vendor GST treatment",
-    "Exempted goods handling",
-    "Purchase return processing",
-    "GL entry generation"
+    "GST Vendor Type field",
+    "Composite vendor classification",
+    "Exempted vendor classification",
+    "GST Registration No.",
+    "ARN No.",
+    "State Code",
+    "PAN details",
+    "Exempted field on purchase lines"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003358,
-      "pages_in_call": 8
+      "cost_usd": 0.003835,
+      "pages_in_call": 1
     }
   ]
 }

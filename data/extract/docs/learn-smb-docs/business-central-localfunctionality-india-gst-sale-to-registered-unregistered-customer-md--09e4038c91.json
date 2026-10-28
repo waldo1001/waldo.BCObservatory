@@ -2,38 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer",
   "title": "Sales to Registered or Unregistered Customer",
-  "blob": "c7b132bd31a2c63a32f561a4e465a92b0b5885ed",
-  "summary": "Sales to registered or unregistered customers under GST are processed as B2B or B2C sales respectively, with the same tax computation but separate reporting in GSTR-1, supporting both intra-state and inter-state transactions.",
+  "blob": "6334439dc8070baaf51eb0eb2a939e63d2ba9bb0",
+  "summary": "Creating sales invoices for registered (B2B) and unregistered (B2C) customers in India with GST calculation, including CGST/SGST for intra-state or IGST for inter-state transactions with corresponding GL entries.",
   "systems": [
-    "finance",
-    "sales"
+    "sales",
+    "localization"
   ],
   "topics": [
-    "gst",
-    "india",
-    "sales",
-    "cgst",
-    "sgst",
-    "igst",
-    "b2b",
-    "b2c"
+    "india gst",
+    "sales invoices",
+    "b2b b2c sales",
+    "gst calculation",
+    "cgst sgst igst"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Sales Invoice"
+      "name": "Sales Invoices"
     }
   ],
   "features": [
-    "Registered customer",
-    "Unregistered customer",
-    "CGST",
-    "SGST",
-    "UTGST",
-    "IGST",
-    "Nature of Supply",
+    "GST customer type selection",
     "GST Group Code",
-    "HSN/SAC Code"
+    "HSN/SAC Code",
+    "CGST/SGST calculation",
+    "IGST calculation",
+    "Nature of Supply",
+    "GL entry posting"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004317,
-      "pages_in_call": 8
+      "cost_usd": 0.003826,
+      "pages_in_call": 1
     }
   ]
 }

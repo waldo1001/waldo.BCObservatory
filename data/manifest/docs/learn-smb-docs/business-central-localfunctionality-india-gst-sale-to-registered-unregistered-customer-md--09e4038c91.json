@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.042Z",
-      "blob": "c7b132bd31a2c63a32f561a4e465a92b0b5885ed",
-      "words": 333,
+      "at": "2026-10-28T09:10:09.529Z",
+      "blob": "6334439dc8070baaf51eb0eb2a939e63d2ba9bb0",
+      "words": 349,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:55.863Z",
+      "at": "2026-10-28T09:10:18.103Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.004317
+      "cost_usd": 0.003826
     },
     "summarized": {
-      "at": "2026-10-06T19:16:55.899Z",
+      "at": "2026-10-28T09:10:18.104Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:55.900Z",
+      "at": "2026-10-28T09:10:18.106Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:57.648Z",
+      "at": "2026-10-28T09:10:18.107Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer.md",
-    "description": "Learn how to process and report sales to registered (B2B) and unregistered (B2C) customers in India.",
-    "ms_date": "2025-06-23",
+    "description": "Process sales to registered and unregistered customers, and review illustrative GST calculation and ledger entries in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "registered customer",
       "unregistered customer"
     ],
-    "ai_usage": null,
-    "words": 333,
+    "ai_usage": "ai-assisted",
+    "words": 349,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ac0bca98ba164e991d180295fb8705554cad99b46b99560217769489c34cb6bd"
+  "output_hash": "eac78e847eb8f65680834ac3d0cf8922aef840328b04a9c814540141b4444a51"
 }
