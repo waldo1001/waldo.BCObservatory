@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13105",
+  "number": 13105,
+  "title": "[MCP] Warn when configurations have no tools",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The MCP configuration validation framework now warns when a configuration has no tools or agents enabled, including an 'Empty Configuration' rule that checks for enabled API/agent features and read-only discovery or Data Query Tools.",
+  "key_points": [
+    "New 'Empty Configuration' warning rule added to detect configurations with no configured APIs, agents, or discovery tools",
+    "Warning uses configuration-filtered IsEmpty() checks for API and agent features",
+    "Read-only discovery and Data Query Tools are considered when determining if configuration is non-empty",
+    "Warning is overridable and opens configuration for review without automatically enabling features",
+    "No schema, permission, or public API signature changes"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003847,
+    "changes_in_call": 1
+  }
+}

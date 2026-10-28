@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "InvokeExtensibilityMethod method",
+  "title": "InvokeExtensibilityMethod Method",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods/devenv-invokeextensibility-method",
   "published_at": "2026-10-27T14:30:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:45.472Z",
-      "blob": "e9bce8ec9ba5bf29789baf87ad0280c71e8d641c",
-      "words": 334,
+      "at": "2026-10-28T08:49:46.918Z",
+      "blob": "4457ef28905ac80e1d582c42e20658f929a970a1",
+      "words": 453,
       "forms": 0
     }
   },
@@ -25,20 +25,22 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/methods/devenv-invokeextensibility-method.md",
-    "description": "Learn about the InvokeExtensibilityMethod in control add-ins for Business Central.",
-    "ms_date": "2024-04-26",
+    "description": "Use InvokeExtensibilityMethod to raise AL control add-in events from JavaScript in Business Central and coordinate calls with completion callbacks.",
+    "ms_date": "2026-10-22",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 334,
+    "words": 453,
     "identifiers": [
       "skipIfBusy",
-      "errorCallback"
+      "successCallback",
+      "errorCallback",
+      "CustomerSelected"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e9bce8ec9ba5bf29789baf87ad0280c71e8d641c"
+  "output_hash": "4457ef28905ac80e1d582c42e20658f929a970a1"
 }

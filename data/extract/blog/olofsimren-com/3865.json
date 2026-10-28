@@ -15,7 +15,8 @@
   ],
   "systems": [
     "manufacturing",
-    "integration"
+    "integration",
+    "administration"
   ],
   "topics": [
     "automation",
@@ -54,8 +55,8 @@
   "prompt_version": 1,
   "llm": {
     "model": "claude-haiku-4-5-20251001",
-    "cached": false,
-    "cost_usd": 0.007276,
+    "cached": true,
+    "cost_usd": null,
     "posts_in_call": 1
   }
 }

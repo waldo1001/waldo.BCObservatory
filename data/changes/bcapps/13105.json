@@ -1,0 +1,102 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13105,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13105",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-27T13:04:33Z",
+  "merge_commit_sha": "6baa7bbd7526388a24108eb03ad292baa19287c8",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[MCP] Warn when configurations have no tools",
+  "body_hash": "3d99d10866efd19cfe6ad0673a32443d6a46f9026ac0fa9736f077bbf4127400",
+  "fixes_issues": [],
+  "work_items": [
+    656156
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfig.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigEmpty.Codeunit.al",
+      "status": "added",
+      "additions": 78,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Enums/MCPConfigWarningType.Enum.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/MCP/src/MCPConfigTest.Codeunit.al",
+      "status": "modified",
+      "additions": 213,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 297,
+    "deletions": 1,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "objects": [
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfig.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8350",
+        "type": "codeunit",
+        "id": 8350,
+        "name": "MCP Config",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8350"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Enums/MCPConfigWarningType.Enum.al",
+        "status": "modified",
+        "key": "enum/8350",
+        "type": "enum",
+        "id": 8350,
+        "name": "MCP Config Warning Type",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "enum/8350"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigEmpty.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

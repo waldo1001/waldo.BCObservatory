@@ -29,6 +29,10 @@
   "objects": [
     {
       "type": "other",
+      "name": "Business Central Mobile App"
+    },
+    {
+      "type": "other",
       "name": "BarcodeScannerProviderAddIn"
     }
   ],
@@ -65,8 +69,8 @@
   "prompt_version": 1,
   "llm": {
     "model": "claude-haiku-4-5-20251001",
-    "cached": false,
-    "cost_usd": 0.015247,
+    "cached": true,
+    "cost_usd": null,
     "posts_in_call": 1
   }
 }

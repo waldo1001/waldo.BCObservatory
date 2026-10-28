@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/early-preview/early-access-preview-environments",
   "published_at": "2026-10-27T07:58:13.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.762Z",
-      "blob": "dd359b997bcc022162f20d59d150336087c8c1e4",
-      "words": 228,
+      "at": "2026-10-28T08:50:38.465Z",
+      "blob": "bbc52144ba4e81e76a376777d7b51fe435877c0b",
+      "words": 140,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:45:29.159Z",
+      "at": "2026-10-28T08:51:04.259Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.006308
+      "cost_usd": 0.00289
     },
     "summarized": {
-      "at": "2026-10-06T18:45:30.259Z",
+      "at": "2026-10-28T08:51:04.261Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:45:30.260Z",
+      "at": "2026-10-28T08:51:04.262Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:45:30.263Z",
+      "at": "2026-10-28T08:51:04.263Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/early-preview/early-access-preview-environments.md",
     "description": "Learn about the early access preview environments that you can access to test features available in Business Central.",
-    "ms_date": "2026-03-13",
+    "ms_date": "2026-10-21",
     "ms_topic": "whats-new",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 228,
+    "ai_usage": "ai-assisted",
+    "words": 140,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b27cd4def4013efdbbd2c55a0a6ddc306000deebd1c21134f28f201efa7fc55a"
+  "output_hash": "f452683ababdafd30c0673badcfd8e9c3b22decd5fb54177d7a956812cb13c41"
 }

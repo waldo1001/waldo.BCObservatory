@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13052",
+  "number": 13052,
+  "title": "[Shopify] Upgrade tax matching to GPT-5.6 Ceres",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify tax matching agent upgrades from GPT-4.1 to GPT-5.6 Ceres, a newer managed model version. The change selects a different model while keeping all other components like chat completions, temperature, token limits, and validation behavior the same.",
+  "key_points": [
+    "Model selection changes from GetGPT41Latest() to GetGPT56CeresLatest()",
+    "All other parameters and validation mechanisms remain unchanged",
+    "Chat Completions, temperature, token limit, and review behavior are unaffected",
+    "Tax matching proposals may differ due to the newer model",
+    "Existing validation gates and human review process continue to protect data integrity"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "crm"
+  ],
+  "quote": "Upgrade Shopify tax matching from GPT-4.1 to the latest managed GPT-5.6 Ceres deployment by replacing `GetGPT41Latest()` with `GetGPT56CeresLatest()`.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004019,
+    "changes_in_call": 1
+  }
+}

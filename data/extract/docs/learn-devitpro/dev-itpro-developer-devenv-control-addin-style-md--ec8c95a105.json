@@ -1,29 +1,31 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-control-addin-style.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-style",
-  "title": "Control Add-in Style Guide",
-  "blob": "2c22ae49581d6f90a4688b9e864bf81a27b14fc2",
-  "summary": "Control add-in style guide provides CSS color, typography, and design principles for creating control add-ins that visually integrate with Business Central through consistent theming and accessibility.",
+  "title": "Control Add-in Styling for Business Central",
+  "blob": "a3529c5aafa75a89b9d94aa7fca57049369fed4a",
+  "summary": "Design and style control add-ins using Business Central's color palette, font families, and CSS to ensure they integrate well with the client interface and remain accessible to all users.",
   "systems": [
     "development"
   ],
   "topics": [
     "control add-ins",
     "styling",
-    "css",
     "colors",
-    "typography",
-    "design",
+    "fonts",
+    "css",
+    "user interface",
     "accessibility"
   ],
   "objects": [],
   "features": [
     "color palette",
-    "typography",
     "font families",
     "CSS styling",
-    "chart colors",
-    "design principles"
+    "contrast testing",
+    "keyboard interaction",
+    "accessibility",
+    "platform support",
+    "data visualizations"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005214,
-      "pages_in_call": 8
+      "cost_usd": 0.005012,
+      "pages_in_call": 1
     }
   ]
 }

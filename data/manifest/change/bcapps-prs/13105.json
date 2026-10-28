@@ -6,10 +6,35 @@
   "title": "[MCP] Warn when configurations have no tools",
   "url": "https://github.com/microsoft/BCApps/pull/13105",
   "published_at": "2026-10-27T13:04:33Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:50:45.338Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-28T08:51:03.960Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003847
+    },
+    "linked": {
+      "at": "2026-10-28T08:51:04.240Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-28T08:51:04.249Z",
+      "path": "content/changes/bcapps/13105.md"
     }
   },
   "input_hash": "6baa7bbd7526388a24108eb03ad292baa19287c8:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "mcp warn when configurations have no tools"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "234e80b6fb13d140c2896b29a30188b742fccbc67248559f4fd06aa339c6306e"
 }

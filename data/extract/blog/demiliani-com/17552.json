@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/demiliani-com/17552",
+  "url": "https://demiliani.com/2026/10/26/dynamics-365-business-central-matching-production-database-configuration-for-sandboxes/",
+  "title": "Dynamics 365 Business Central: matching Production database configuration for Sandboxes.",
+  "source": "demiliani-com",
+  "published_at": "2026-10-26T07:48:07.000Z",
+  "words": 283,
+  "summary": "Dynamics 365 Business Central 2026 Wave 2 introduces the ability to temporarily match a sandbox environment's database configuration to production-level performance for 72 hours, enabling realistic testing and performance validation without deploying to production.",
+  "key_points": [
+    "Sandbox environments can now temporarily match production database configuration for 72 hours through Admin Center",
+    "Configuration automatically reverts after 72 hours during the next scheduled update",
+    "Maximum of 3 operations allowed per month per tenant",
+    "Feature available via Admin Center API and supports all paid license types including Partner Sandbox environments",
+    "Useful for testing app performance, Performance Toolkit, and Cloud Migration scenarios"
+  ],
+  "systems": [
+    "administration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "sandbox environment",
+    "database configuration",
+    "performance testing",
+    "production parity",
+    "admin center"
+  ],
+  "objects": [],
+  "features": [
+    "Sandbox database configuration matching",
+    "Temporary production-level performance",
+    "Admin Center API support",
+    "Automatic configuration reversion",
+    "Environment restart capability"
+  ],
+  "versions": [
+    "2026 Wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This action temporarily matches your sandbox environment's database configuration to that of a typical production environment for 72 hours.",
+      "why_it_matters": "Explains the core functionality: sandboxes can now simulate production performance temporarily for realistic testing."
+    },
+    {
+      "text": "After the 72 hours time limit, the sandbox environment configuration will be restored during the next update window.",
+      "why_it_matters": "Important technical detail showing automatic restoration prevents permanent sandbox modifications."
+    },
+    {
+      "text": "This operation will be supported also via Admin Center API and it's available on all tenants with paid license types, including Partner Sandbox environments.",
+      "why_it_matters": "Clarifies accessibility and programmatic capability for partners and customers with various license types."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005106,
+    "posts_in_call": 1
+  }
+}
