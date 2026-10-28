@@ -2,19 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/finance-how-setup-edocuments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-edocuments",
   "title": "Set Up E-documents",
-  "blob": "bec43eb64e037d8d6d6c3ad29da2636a0a915b7d",
-  "summary": "Configure e-document services, workflows, and document sending profiles to enable electronic invoice transmission with support for clearance models and various document formats.",
+  "blob": "630342aa3a9a3529b5b3c92b22f32edd340f2dfc",
+  "summary": "Configure electronic documents (e-documents) and the E-Documents Service for e-document communications, including clearance model setup for countries like Spain, India, Mexico, and Italy.",
   "systems": [
     "finance",
     "sales",
-    "purchasing"
+    "integration"
   ],
   "topics": [
     "e-documents",
-    "e-invoicing",
+    "electronic invoicing",
     "clearance model",
+    "document format",
     "workflows",
-    "peppol"
+    "peppol",
+    "data exchange"
   ],
   "objects": [
     {
@@ -23,7 +25,7 @@
     },
     {
       "type": "page",
-      "name": "E-Documents Services Setup"
+      "name": "E-Documents Service Setup"
     },
     {
       "type": "page",
@@ -35,7 +37,7 @@
     },
     {
       "type": "page",
-      "name": "Workflows"
+      "name": "Posted Sales Invoices"
     },
     {
       "type": "page",
@@ -43,26 +45,34 @@
     },
     {
       "type": "page",
-      "name": "Posted Sales Invoices"
+      "name": "Workflows"
+    },
+    {
+      "type": "page",
+      "name": "E-Document"
     },
     {
       "type": "page",
       "name": "Contoso Demo Tool"
+    },
+    {
+      "type": "table",
+      "name": "Posted Sales Invoices"
     }
   ],
   "features": [
+    "clearance model",
     "PEPPOL BIS 3.0 format",
-    "Clearance model setup",
-    "Data Exchange format",
-    "Automatic import",
-    "Automatic processing",
-    "Service integration",
-    "Workflow configuration",
-    "Email attachments",
-    "Retention policies"
+    "data exchange",
+    "automatic import",
+    "automatic processing",
+    "document sending profiles",
+    "workflow setup",
+    "e-document retention policies",
+    "demo data"
   ],
   "versions": [
-    "24.0"
+    "version 24.0"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -70,8 +80,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00703,
-      "pages_in_call": 8
+      "cost_usd": 0.015096,
+      "pages_in_call": 1
     }
   ]
 }

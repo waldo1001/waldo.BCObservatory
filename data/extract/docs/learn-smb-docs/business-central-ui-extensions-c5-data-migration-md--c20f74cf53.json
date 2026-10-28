@@ -2,18 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/ui-extensions-c5-data-migration.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-c5-data-migration",
   "title": "Using the C5 data migration extension | Microsoft Docs",
-  "blob": "56160419743e17c1f42e1149c4c708919112a5d5",
-  "summary": "The C5 data migration extension simplifies moving customers, vendors, items, and general ledger accounts from Microsoft Dynamics C5 2012 to Business Central. It handles historical GL entries and related transaction data with options to aggregate older transactions.",
+  "blob": "09ac3cf2072d96bb91981d3a73375fc1df31b1bd",
+  "summary": "The C5 data migration extension migrates customers, vendors, items, and general ledger accounts from Microsoft Dynamics C5 2012 to Business Central, with support for historical entries and related master data like dimensions, payment terms, and pricing.",
   "systems": [
-    "finance",
-    "sales",
-    "purchasing"
+    "integration",
+    "administration"
   ],
   "topics": [
     "data migration",
-    "c5 legacy system",
-    "customer data",
-    "vendor data",
+    "c5 migration",
+    "customer migration",
+    "vendor migration",
+    "item migration",
     "general ledger",
     "historical data"
   ],
@@ -28,14 +28,14 @@
     }
   ],
   "features": [
-    "customer migration",
-    "vendor migration",
-    "item migration",
-    "chart of accounts migration",
-    "dimension migration",
-    "error correction",
-    "bulk-fix errors",
-    "migration status tracking"
+    "Export from C5 2012",
+    "Customer migration",
+    "Vendor migration",
+    "Item migration",
+    "Chart of accounts migration",
+    "Historical G/L transactions",
+    "Error handling and correction",
+    "Bulk-fix errors"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00434,
-      "pages_in_call": 8
+      "cost_usd": 0.004758,
+      "pages_in_call": 1
     }
   ]
 }

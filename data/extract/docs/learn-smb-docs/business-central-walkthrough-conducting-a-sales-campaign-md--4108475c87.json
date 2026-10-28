@@ -1,20 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/walkthrough-conducting-a-sales-campaign.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign",
-  "title": "Walkthrough conducting a sales campaign",
-  "blob": "125d2c6851e8a3765a75c350df180456f0194824",
-  "summary": "Walkthrough for planning and executing a sales and marketing campaign, including setting up campaigns, creating contact segments with filters, managing mailing interactions, and registering campaign responses.",
+  "title": "Walkthrough: Conduct a Sales Campaign",
+  "blob": "3ef01c237855c0cafd6a631db7982d7bd807ac02",
+  "summary": "Walkthrough for setting up sales campaigns, creating contact segments, and managing marketing interactions including sending letters and recording responses to prospective customers.",
   "systems": [
+    "sales",
     "crm",
-    "sales"
+    "administration"
   ],
   "topics": [
-    "campaign management",
-    "segment creation",
-    "contact filtering",
-    "marketing automation",
-    "campaign responses",
-    "data mining"
+    "campaigns",
+    "segments",
+    "contacts",
+    "marketing",
+    "interactions",
+    "correspondence",
+    "follow-up"
   ],
   "objects": [
     {
@@ -35,7 +37,7 @@
     },
     {
       "type": "page",
-      "name": "Remove Contacts – Reduce"
+      "name": "Remove Contacts - Reduce"
     },
     {
       "type": "page",
@@ -52,16 +54,21 @@
     {
       "type": "page",
       "name": "Interaction Templates"
+    },
+    {
+      "type": "page",
+      "name": "Marketing Setup"
     }
   ],
   "features": [
-    "Campaign setup",
-    "Segment filtering by job responsibility",
-    "Contact reduction",
-    "Correspondence templates",
-    "Email and hard copy delivery",
-    "Interaction logging",
-    "Campaign response tracking"
+    "campaign setup",
+    "contact segmentation",
+    "data mining",
+    "interaction logging",
+    "correspondence",
+    "email messaging",
+    "follow-up segments",
+    "campaign responses"
   ],
   "versions": [],
   "parts": 1,
@@ -70,8 +77,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.010471,
-      "pages_in_call": 6
+      "cost_usd": 0.01169,
+      "pages_in_call": 1
     }
   ]
 }

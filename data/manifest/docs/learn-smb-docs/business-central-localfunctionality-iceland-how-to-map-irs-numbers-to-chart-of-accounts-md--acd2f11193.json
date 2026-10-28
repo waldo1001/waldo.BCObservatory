@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Map IRS numbers to chart of accounts [IS]",
+  "title": "Map IRS Numbers to the Chart of Accounts in Iceland",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.461Z",
-      "blob": "fec88412abe5215a5552f0ddf246772c3e11244c",
-      "words": 207,
+      "at": "2026-10-28T09:00:16.932Z",
+      "blob": "7235b051681091b4969b07601a37aa3cda5b829c",
+      "words": 187,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:37.897Z",
+      "at": "2026-10-28T09:00:46.669Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002475
+      "objects": 0,
+      "cost_usd": 0.003004
     },
     "summarized": {
-      "at": "2026-10-06T19:29:37.905Z",
+      "at": "2026-10-28T09:00:46.670Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:37.907Z",
+      "at": "2026-10-28T09:00:46.672Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:37.908Z",
+      "at": "2026-10-28T09:00:46.673Z",
       "page": false
     }
   },
@@ -44,21 +44,21 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md",
-    "description": "This article explains how to map predefined Internal Revenue Service (IRS) account codes to general ledger accounts.",
-    "ms_date": "2025-02-06",
+    "description": "Learn how to create Icelandic IRS numbers, assign them to posting accounts, and review the mappings with IRS reports in Dynamics 365 Business Central.",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
-      "prededined IRS",
+      "predefined IRS",
       "general ledger accounts",
       "Internal Revenue Service"
     ],
-    "ai_usage": null,
-    "words": 207,
+    "ai_usage": "ai-assisted",
+    "words": 187,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7da4a497027c277e170926e96f9b6e255bf818696a8fd1df5dd40da030bb35bc"
+  "output_hash": "4db4e16ac1b53a912b82339b3608af364194d204720116c3bd71da22742c22f2"
 }

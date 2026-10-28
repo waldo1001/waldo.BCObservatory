@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Merge duplicate customer or vendor records",
+  "title": "Merge Duplicate Customers, Vendors, or Contacts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.903Z",
-      "blob": "6f475c9264148138cf7e86b8000a80984c70b5e9",
-      "words": 797,
+      "at": "2026-10-28T08:59:11.491Z",
+      "blob": "3236bdd04d82528ac7e234fbbbb580323390aeab",
+      "words": 750,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:09:43.884Z",
+      "at": "2026-10-28T08:59:28.325Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003715
+      "cost_usd": 0.004296
     },
     "summarized": {
-      "at": "2026-10-06T19:09:51.097Z",
+      "at": "2026-10-28T08:59:28.326Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:09:51.098Z",
+      "at": "2026-10-28T08:59:28.327Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:09:51.100Z",
+      "at": "2026-10-28T08:59:28.328Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-merge-duplicate-records.md",
-    "description": "Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.",
-    "ms_date": "2025-06-13",
+    "description": "Merge duplicate customer, vendor, or contact records in Business Central, choose which field values to keep, and resolve conflicts in related records.",
+    "ms_date": "2026-10-22",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "client"
     ],
-    "ai_usage": null,
-    "words": 797,
+    "ai_usage": "ai-assisted",
+    "words": 750,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "969fd7898f79ad9e4dec394c9940f652841e51b04f48f199eb63ace18fa57f16"
+  "output_hash": "6a9a41b15af065dc3719f44708e2057654d8ef27f086b858c5b3132fed17fa1d"
 }

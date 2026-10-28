@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-edocuments",
   "published_at": "2026-10-26T11:15:09.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.994Z",
-      "blob": "bec43eb64e037d8d6d6c3ad29da2636a0a915b7d",
-      "words": 2808,
+      "at": "2026-10-28T08:59:48.799Z",
+      "blob": "630342aa3a9a3529b5b3c92b22f32edd340f2dfc",
+      "words": 2906,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T17:05:38.282Z",
+      "at": "2026-10-28T09:00:10.069Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 8,
-      "cost_usd": 0.00703
+      "objects": 10,
+      "cost_usd": 0.015096
     },
     "summarized": {
-      "at": "2026-10-06T17:35:07.392Z",
+      "at": "2026-10-28T09:00:10.071Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:35:07.395Z",
+      "at": "2026-10-28T09:00:10.072Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:35:07.399Z",
+      "at": "2026-10-28T09:00:10.073Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-how-setup-edocuments.md",
     "description": "Learn how to set up e-documents in Business Central with step-by-step configuration of services, formats, workflows, and document sending profiles.",
-    "ms_date": "2025-07-17",
+    "ms_date": "2026-10-26",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -76,11 +76,11 @@
       "e-invoice"
     ],
     "ai_usage": null,
-    "words": 2808,
+    "words": 2906,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "82a8a0259ebcf983dac50f0a1b1f8d20bdd817692727310fb6148ef309de0f44"
+  "output_hash": "95da5cc0e4fa3ee5b973d39f13b44fa158c9a161c7eec0b50f379231a90591dd"
 }

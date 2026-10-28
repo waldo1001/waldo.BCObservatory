@@ -1,27 +1,37 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-opportunity-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview",
-  "title": "Opportunity Overview (Power BI report)",
-  "blob": "71c6adee32207334e3dc5223487805a147baa2c0",
-  "summary": "Opportunity Overview Power BI report provides comprehensive view of sales opportunities including opportunity counts, estimated values, sales cycle stages, and value breakdown by location.",
+  "title": "Opportunity Overview (Power BI Report)",
+  "blob": "d4b0cbf8eaf573e157af072dc30f36153b280d92",
+  "summary": "The Opportunity Overview Power BI report provides insights into sales opportunities including opportunity count, estimated values, sales cycle stages, and potential value by location for sales managers and team members to track pipeline performance.",
   "systems": [
     "sales",
-    "reporting"
+    "reporting",
+    "copilot"
   ],
   "topics": [
     "power bi",
-    "sales opportunities",
-    "pipeline management",
-    "sales performance",
-    "key performance indicators"
+    "reporting",
+    "sales analytics",
+    "opportunity management",
+    "performance tracking",
+    "kpis"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Opportunity Overview"
+    }
+  ],
   "features": [
-    "opportunity pipeline",
-    "estimated value tracking",
-    "sales cycle analysis",
-    "location breakdown",
-    "win/loss metrics"
+    "Opportunity count tracking",
+    "Estimated value analysis",
+    "Sales cycle stage breakdown",
+    "Value by location",
+    "Win/Loss percentage",
+    "Active estimated value",
+    "Calculated current value",
+    "Sales quote amount"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002277,
-      "pages_in_call": 8
+      "cost_usd": 0.0038,
+      "pages_in_call": 1
     }
   ]
 }

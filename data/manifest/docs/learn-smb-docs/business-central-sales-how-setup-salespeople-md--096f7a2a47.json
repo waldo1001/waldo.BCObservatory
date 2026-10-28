@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up a Salesperson | Microsoft Docs'",
+  "title": "Set Up Salespeople and Purchasers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-setup-salespeople",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.925Z",
-      "blob": "2394e54b472db1938b941937cd430d6ad133282b",
-      "words": 189,
+      "at": "2026-10-28T08:59:14.819Z",
+      "blob": "10c3a8e416f90872da3ab554c0910ff120709200",
+      "words": 225,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:09:43.890Z",
+      "at": "2026-10-28T08:59:38.768Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003715
+      "objects": 3,
+      "cost_usd": 0.003596
     },
     "summarized": {
-      "at": "2026-10-06T19:09:51.119Z",
+      "at": "2026-10-28T08:59:38.770Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:09:51.120Z",
+      "at": "2026-10-28T08:59:38.771Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:09:51.120Z",
+      "at": "2026-10-28T08:59:38.772Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-setup-salespeople.md",
-    "description": "You can set up a identifier for each of your salespeople, so you can track an individual's performance or assign a salesperson to a contact.",
-    "ms_date": "2021-04-01",
+    "description": "Set up salesperson and purchaser codes in Business Central to assign contacts and campaigns, track performance, and record commission information.",
+    "ms_date": "2026-10-22",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "sales rep"
     ],
-    "ai_usage": null,
-    "words": 189,
+    "ai_usage": "ai-assisted",
+    "words": 225,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "12cffdbbae047efd01a95834a40ce817f4c1ae4e5331a430b919698c389ad834"
+  "output_hash": "7e589e3da1fc293c3313b349269602298b33b0dbd6724c3f63da32bfc7f85d8e"
 }

@@ -2,16 +2,16 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5068.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5068",
   "title": "Opportunity - Details (report)",
-  "blob": "bf0be82165cf6f27c1667fe24dde3df7e233e6db",
-  "summary": "Opportunity - Details report shows sales stages, to-dos, and planned to-dos for an opportunity.",
+  "blob": "34c425b28d9c42d44dd13a2c343fea510d6c5444",
+  "summary": "The Opportunity - Details report displays sales stages, to-dos, and planned to-dos information for opportunities in relationship management.",
   "systems": [
     "crm"
   ],
   "topics": [
-    "reporting",
-    "opportunities",
+    "opportunity",
     "sales stages",
-    "marketing"
+    "tasks",
+    "reporting"
   ],
   "objects": [
     {
@@ -20,9 +20,9 @@
     }
   ],
   "features": [
-    "opportunity details",
     "sales stages",
-    "to-do tracking"
+    "to-dos",
+    "planned to-dos"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001233,
-      "pages_in_call": 8
+      "cost_usd": 0.002648,
+      "pages_in_call": 1
     }
   ]
 }

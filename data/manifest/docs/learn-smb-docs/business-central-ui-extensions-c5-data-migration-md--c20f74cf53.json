@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-c5-data-migration",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.974Z",
-      "blob": "56160419743e17c1f42e1149c4c708919112a5d5",
-      "words": 1037,
+      "at": "2026-10-28T08:59:46.510Z",
+      "blob": "09ac3cf2072d96bb91981d3a73375fc1df31b1bd",
+      "words": 1038,
       "forms": 29
     },
     "extracted": {
-      "at": "2026-10-06T19:10:46.828Z",
+      "at": "2026-10-28T09:00:04.456Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.00434
+      "cost_usd": 0.004758
     },
     "summarized": {
-      "at": "2026-10-06T19:10:51.364Z",
+      "at": "2026-10-28T09:00:04.458Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:10:51.365Z",
+      "at": "2026-10-28T09:00:04.459Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:10:51.366Z",
+      "at": "2026-10-28T09:00:04.461Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-extensions-c5-data-migration.md",
     "description": "Use this extension to migrate customers, vendors, items, and general ledger accounts from Microsoft Dynamics C5 2012 to Business Central.",
-    "ms_date": "2023-12-11",
+    "ms_date": "2026-10-22",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -201,12 +201,12 @@
       "C5",
       "import"
     ],
-    "ai_usage": null,
-    "words": 1037,
+    "ai_usage": "ai-assisted",
+    "words": 1038,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9624ca07dd0c86cf5a180e6031739743386370598c266168c7434e0834f10093"
+  "output_hash": "760ea54b138bc8ac69ace1b9e59064dabfd9ac7c051a7b9ddd309876108eed3e"
 }

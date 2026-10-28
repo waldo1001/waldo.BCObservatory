@@ -1,35 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts",
-  "title": "Map IRS numbers to chart of accounts [IS]",
-  "blob": "fec88412abe5215a5552f0ddf246772c3e11244c",
-  "summary": "Map IRS numbers to chart of accounts in Iceland's localization by creating Internal Revenue Service codes and mapping them to general ledger posting accounts for tax authority compliance.",
+  "title": "Map IRS Numbers to the Chart of Accounts in Iceland",
+  "blob": "7235b051681091b4969b07601a37aa3cda5b829c",
+  "summary": "Mapping IRS numbers to general ledger accounts in the Icelandic version of Business Central to comply with tax authority reporting requirements.",
   "systems": [
-    "localization",
     "finance",
-    "administration"
+    "localization"
   ],
   "topics": [
     "iceland",
-    "tax",
-    "irs numbers",
+    "tax reporting",
     "chart of accounts",
-    "general ledger"
+    "irs numbers",
+    "tax compliance"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "IRS Number"
-    },
-    {
-      "type": "page",
-      "name": "Chart of Accounts"
-    }
-  ],
+  "objects": [],
   "features": [
-    "IRS number creation",
-    "account mapping",
-    "reverse prefix"
+    "IRS Number mapping",
+    "Reverse Prefix",
+    "Chart of Accounts",
+    "IRS Details",
+    "Trial Balance - IRS Number"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002475,
-      "pages_in_call": 8
+      "cost_usd": 0.003004,
+      "pages_in_call": 1
     }
   ]
 }

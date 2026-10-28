@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-how-merge-duplicate-records.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records",
-  "title": "Merge duplicate customer or vendor records",
-  "blob": "6f475c9264148138cf7e86b8000a80984c70b5e9",
-  "summary": "Merging duplicate customer, vendor, or contact records by comparing field values and selecting which values to keep. Users need the MERGE DUPLICATES permission set to access this functionality.",
+  "title": "Merge Duplicate Customers, Vendors, or Contacts",
+  "blob": "3236bdd04d82528ac7e234fbbbb580323390aeab",
+  "summary": "The Merge Duplicate feature lets users combine duplicate customer, vendor, or contact records by selecting which field values to keep. Users with the MERGE DUPLICATES permission set can access the Merge Duplicate page to resolve conflicts and complete the merge.",
   "systems": [
     "sales",
-    "purchasing",
-    "crm"
+    "crm",
+    "administration"
   ],
   "topics": [
     "duplicate records",
     "data quality",
+    "merge functionality",
     "customer management",
     "vendor management",
-    "contacts"
+    "contact management"
   ],
   "objects": [
     {
@@ -23,19 +24,20 @@
     },
     {
       "type": "page",
-      "name": "Merge Duplicate Conflicts"
+      "name": "Customer Card"
     },
     {
       "type": "page",
-      "name": "Customer Card"
+      "name": "Merge Duplicate Conflicts"
     }
   ],
   "features": [
-    "merge duplicates",
+    "merge duplicate records",
     "override field values",
-    "resolve merge conflicts",
-    "remove duplicate",
-    "rename duplicate"
+    "related tables review",
+    "conflict resolution",
+    "duplicate detection",
+    "MERGE DUPLICATES permission set"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003715,
-      "pages_in_call": 8
+      "cost_usd": 0.004296,
+      "pages_in_call": 1
     }
   ]
 }

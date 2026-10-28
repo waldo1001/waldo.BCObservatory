@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print VAT Summary Information on Document [IS]",
+  "title": "Print VAT Summary Information on Documents in Iceland",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.466Z",
-      "blob": "f13ce83f96673b35cc3763e780cb28c9d1768632",
-      "words": 164,
+      "at": "2026-10-28T09:00:18.205Z",
+      "blob": "dbda2dd2e7622b506de245b5d6a98cfdab81a19d",
+      "words": 136,
       "forms": 0
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md",
-    "description": "If VAT is calculated, VAT summary information is typically printed on the sales and purchase documents.",
-    "ms_date": "2025-02-06",
+    "description": "Learn how to show VAT summary information on supported purchase and blanket sales order reports with the Icelandic IS Core app in Business Central.",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "sales document",
       "purchase document"
     ],
-    "ai_usage": null,
-    "words": 164,
+    "ai_usage": "ai-assisted",
+    "words": 136,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ccb8ee4586d18cb767831cc24d896572358102e2c060ca493739b6bc4ba8baf3"
+  "output_hash": "dbda2dd2e7622b506de245b5d6a98cfdab81a19d"
 }

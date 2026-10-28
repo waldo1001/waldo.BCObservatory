@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Walkthrough conducting a sales campaign",
+  "title": "Walkthrough: Conduct a Sales Campaign",
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.060Z",
-      "blob": "125d2c6851e8a3765a75c350df180456f0194824",
-      "words": 1874,
+      "at": "2026-10-28T08:59:46.314Z",
+      "blob": "3ef01c237855c0cafd6a631db7982d7bd807ac02",
+      "words": 1976,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:12:04.166Z",
+      "at": "2026-10-28T09:00:04.470Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 9,
-      "cost_usd": 0.010471
+      "objects": 10,
+      "cost_usd": 0.01169
     },
     "summarized": {
-      "at": "2026-10-06T19:12:25.473Z",
+      "at": "2026-10-28T09:00:04.472Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:12:25.474Z",
+      "at": "2026-10-28T09:00:04.473Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:12:25.475Z",
+      "at": "2026-10-28T09:00:04.474Z",
       "page": false
     }
   },
@@ -44,13 +44,13 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/walkthrough-conducting-a-sales-campaign.md",
-    "description": "This walkthrough gives a detailed overview of all the tasks involved in conducting a sales campaign in Business Central.",
-    "ms_date": "2024-01-31",
+    "description": "Follow a sales campaign in Business Central, from selecting contacts and saving segment criteria to sending correspondence and recording campaign responses.",
+    "ms_date": "2026-10-22",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1874,
+    "ai_usage": "ai-assisted",
+    "words": 1976,
     "identifiers": [
       "CP0001"
     ],
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f2a4c57badaaf8d9fdfeb7724489dd46419da2d92c746ec67d52281091fa0d12"
+  "output_hash": "d2901287b921b26a3626002eb17f327e71fd1f5229767159b0bbfc2862626f60"
 }

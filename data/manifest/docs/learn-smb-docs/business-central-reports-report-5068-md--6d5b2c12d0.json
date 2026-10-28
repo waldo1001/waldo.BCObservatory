@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5068",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.448Z",
-      "blob": "bf0be82165cf6f27c1667fe24dde3df7e233e6db",
+      "at": "2026-10-28T08:59:10.603Z",
+      "blob": "34c425b28d9c42d44dd13a2c343fea510d6c5444",
       "words": 117,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:24.527Z",
+      "at": "2026-10-28T08:59:28.335Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001233
+      "cost_usd": 0.002648
     },
     "summarized": {
-      "at": "2026-10-06T18:54:26.476Z",
+      "at": "2026-10-28T08:59:28.337Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:26.478Z",
+      "at": "2026-10-28T08:59:28.338Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:26.479Z",
+      "at": "2026-10-28T08:59:28.339Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5068.md",
-    "description": "Get an overview of sales stages, to-dos, and planned to-dos for an opportunity.",
-    "ms_date": "2024-11-11",
+    "description": "Review an opportunity's sales cycle stages, initial tasks, stage-related tasks, and planned activities with the Opportunity - Details report in Business Central.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 117,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "477447dc1595c6f9b1db8c3a29ad75ef6cc3b67226bac4f8d1e801115b8bf502"
+  "output_hash": "ffb7b89a66fcd280389ad5e79c16d6297efaf1b6338856b6e3d6cdd9d7fe8330"
 }

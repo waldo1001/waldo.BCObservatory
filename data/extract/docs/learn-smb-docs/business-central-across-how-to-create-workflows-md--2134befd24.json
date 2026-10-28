@@ -2,22 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/across-how-to-create-workflows.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-create-workflows",
   "title": "Create approval workflows to connect tasks",
-  "blob": "4e4acc1d6a14f07152dcfaa6cb0e3f06cb2dbe5a",
-  "summary": "Create approval workflows by defining workflow steps with events, conditions, and responses to automate business processes and connect tasks across different users.",
+  "blob": "a1b7853210a8613eaadaa1927a344cca016b90f6",
+  "summary": "Create workflows that connect business process tasks by defining triggers (events) and responses. Workflows automate approvals, notifications, and system tasks across the organization using the Workflow page.",
   "systems": [
     "administration",
-    "development"
+    "integration"
   ],
   "topics": [
-    "approval workflow",
+    "workflows",
+    "approval",
+    "automation",
+    "business processes",
+    "notifications",
     "workflow events",
-    "workflow responses",
-    "business process automation"
+    "workflow responses"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Workflow"
+    },
+    {
+      "type": "page",
+      "name": "Workflows"
+    },
+    {
+      "type": "page",
+      "name": "Workflow Templates"
     },
     {
       "type": "page",
@@ -30,14 +41,33 @@
     {
       "type": "page",
       "name": "Workflow Responses"
+    },
+    {
+      "type": "page",
+      "name": "Approval User Setup"
+    },
+    {
+      "type": "page",
+      "name": "Document Sending Profile"
+    },
+    {
+      "type": "page",
+      "name": "E-Document"
+    },
+    {
+      "type": "table",
+      "name": "Workflow – Table Relations"
     }
   ],
   "features": [
-    "Event Trigger Configuration",
-    "Condition Filtering",
-    "Approval Request",
-    "Notification",
-    "Journal Line Creation"
+    "workflow creation",
+    "approval requests",
+    "notifications",
+    "workflow categories",
+    "event conditions",
+    "workflow responses",
+    "approval user setup",
+    "e-document workflows"
   ],
   "versions": [],
   "parts": 1,
@@ -46,8 +76,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004358,
-      "pages_in_call": 8
+      "cost_usd": 0.012767,
+      "pages_in_call": 1
     }
   ]
 }
