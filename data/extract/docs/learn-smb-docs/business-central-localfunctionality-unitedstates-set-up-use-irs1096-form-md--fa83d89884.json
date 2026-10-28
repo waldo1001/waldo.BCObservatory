@@ -1,19 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1096-form",
-  "title": "Set up and use the IRS 1096 form [US]",
-  "blob": "23722d984837bcc6215ba382b3ec17057a884c9f",
-  "summary": "Set up and use the IRS Form 1096 to transmit paper 1099 tax forms to the IRS. Configure the feature through Feature Management, specify form number series, and create, correct, and print 1096 forms for each tax period.",
+  "title": "IRS 1096 Forms Setup and Reporting [US]",
+  "blob": "bf8cb2a50fcecbecdabd1fd1edea7ae12ee6422e",
+  "summary": "IRS 1096 Form setup and reporting in Business Central allows users to create, manage, and print Form 1096 to transmit paper 1099 tax forms to the IRS in the United States. The feature requires extension activation and configuration of number series, company EIN, and IRS contact information.",
   "systems": [
+    "localization",
     "finance",
-    "localization"
+    "integration"
   ],
   "topics": [
-    "irs",
-    "form 1096",
+    "irs 1096 form",
     "tax forms",
-    "paper forms",
-    "united states"
+    "us functionality",
+    "form management",
+    "reporting",
+    "vendor",
+    "tax compliance"
   ],
   "objects": [
     {
@@ -22,25 +25,26 @@
     },
     {
       "type": "page",
-      "name": "Feature management"
+      "name": "Purchases & Payables Setup"
     },
     {
       "type": "page",
       "name": "Company Information"
     },
     {
-      "type": "page",
-      "name": "Purchases & Payables Setup"
+      "type": "report",
+      "name": "Form 1096"
     }
   ],
   "features": [
-    "Enable Form 1096",
-    "IRS 1096 Form No. Series",
-    "Create forms",
-    "Replace forms",
-    "Release form",
-    "Print form",
-    "Form corrections"
+    "Form 1096 creation and management",
+    "Form 1096 printing",
+    "IRS code support",
+    "Vendor ledger entry processing",
+    "Form amount adjustment",
+    "Form status tracking",
+    "Test printing",
+    "Legacy 1099 integration"
   ],
   "versions": [],
   "parts": 1,
@@ -49,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004095,
-      "pages_in_call": 8
+      "cost_usd": 0.00551,
+      "pages_in_call": 1
     }
   ]
 }

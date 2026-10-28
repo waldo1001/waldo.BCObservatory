@@ -1,36 +1,34 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/introduction-to-the-irs-forms",
-  "title": "Introduction to the IRS 1099 tax forms [US]",
-  "blob": "e9c8d71adc7f7939fbba8546d203142d03b3499d",
-  "summary": "Introduction to IRS 1099 tax forms in Business Central for reporting various income types, supporting 1099-MISC, 1099-NEC, 1099-INT, and 1099-DIV forms with IRS integration and Copy B vendor submission.",
+  "title": "IRS 1099 Tax Forms Overview in Business Central",
+  "blob": "a965bb90f98926c50a69ae9980824365fde9b1fa",
+  "summary": "IRS 1099 tax forms enable U.S. businesses to report various types of income such as payments to independent contractors, interest, and dividends through Business Central, with support for IRIS integration for electronic IRS filing.",
   "systems": [
-    "finance",
-    "localization"
+    "localization",
+    "purchasing",
+    "integration"
   ],
   "topics": [
     "irs 1099",
     "tax reporting",
     "united states",
-    "1099-misc",
-    "1099-nec"
+    "vendor reporting",
+    "electronic filing",
+    "iris integration"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Feature Management"
-    }
-  ],
+  "objects": [],
   "features": [
-    "1099-MISC reporting",
-    "1099-NEC reporting",
-    "1099-INT reporting",
-    "1099-DIV reporting",
-    "IRS submission",
-    "Copy B vendor copies"
+    "1099-MISC form",
+    "1099-NEC form",
+    "1099-INT form",
+    "1099-DIV form",
+    "IRIS electronic filing",
+    "substitute copies printing",
+    "email delivery"
   ],
   "versions": [
-    "24.0"
+    "version 24.0"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -38,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00543,
-      "pages_in_call": 8
+      "cost_usd": 0.003995,
+      "pages_in_call": 1
     }
   ]
 }

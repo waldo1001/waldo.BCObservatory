@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up and use the IRS 1099 form [US]",
+  "title": "Legacy IRS 1099 Forms Setup and Reporting [US]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.707Z",
-      "blob": "6314d907e5a52bdf02615e66ad98f4f3e0c008ee",
-      "words": 1218,
+      "at": "2026-10-28T09:09:05.068Z",
+      "blob": "9fa32fa5dffe3cc3019ad0d8ff9e135349f18292",
+      "words": 1189,
       "forms": 8
     },
     "extracted": {
-      "at": "2026-10-06T19:27:04.657Z",
+      "at": "2026-10-28T09:09:12.893Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 11,
-      "cost_usd": 0.003271
+      "objects": 9,
+      "cost_usd": 0.00586
     },
     "summarized": {
-      "at": "2026-10-06T19:27:04.670Z",
+      "at": "2026-10-28T09:09:12.895Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:04.671Z",
+      "at": "2026-10-28T09:09:12.897Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:04.672Z",
+      "at": "2026-10-28T09:09:12.898Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md",
-    "description": "Learn how to set up the 1099 tax form boxes so that you can submit the required reports.",
-    "ms_date": "2025-02-04",
+    "description": "Learn how to use legacy IRS 1099 form boxes, vendor defaults, posted-entry corrections, printed reports, and magnetic media exports.",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -93,12 +93,12 @@
       "local",
       "1099"
     ],
-    "ai_usage": null,
-    "words": 1218,
+    "ai_usage": "ai-assisted",
+    "words": 1189,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca8b507e8f7adcb954b3a1bc307f4f2dae405e32a2966bf0065cbf1fed87a948"
+  "output_hash": "fff498503d826ee1eb1e70a8c0c7adb3123596a617a9cc6b796d88698ec8193b"
 }

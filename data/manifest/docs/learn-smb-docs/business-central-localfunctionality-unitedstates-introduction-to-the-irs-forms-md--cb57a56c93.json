@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Introduction to the IRS 1099 tax forms [US]",
+  "title": "IRS 1099 Tax Forms Overview in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/introduction-to-the-irs-forms",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.380Z",
-      "blob": "e9c8d71adc7f7939fbba8546d203142d03b3499d",
-      "words": 502,
+      "at": "2026-10-28T09:08:58.803Z",
+      "blob": "a965bb90f98926c50a69ae9980824365fde9b1fa",
+      "words": 510,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T18:49:44.232Z",
+      "at": "2026-10-28T09:09:05.011Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.00543
+      "objects": 0,
+      "cost_usd": 0.003995
     },
     "summarized": {
-      "at": "2026-10-06T18:49:51.089Z",
+      "at": "2026-10-28T09:09:05.013Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:49:51.090Z",
+      "at": "2026-10-28T09:09:05.015Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:49:51.091Z",
+      "at": "2026-10-28T09:09:05.016Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md",
-    "description": "Discover the purposes and methods for using IRS 1099 Tax Forms in the US.",
-    "ms_date": "2026-02-04",
-    "ms_topic": "concept-article",
+    "description": "Explore IRS 1099 tax forms in Business Central, including reporting setup, vendor payment calculations, electronic filing, and vendor copies.",
+    "ms_date": "2026-10-19",
+    "ms_topic": "overview",
     "search_form": [
       {
         "raw": "10030",
@@ -75,12 +75,12 @@
       "IRS",
       "tax"
     ],
-    "ai_usage": null,
-    "words": 502,
+    "ai_usage": "ai-assisted",
+    "words": 510,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2081c57dd9786e7d4b06c2c69a91c8f89d93b30f029148e46c7b29e8242318a9"
+  "output_hash": "6014973fdfeed59e4cd38a81c0dff39c0ecc9f560178ea83e4224d8aaeea551a"
 }

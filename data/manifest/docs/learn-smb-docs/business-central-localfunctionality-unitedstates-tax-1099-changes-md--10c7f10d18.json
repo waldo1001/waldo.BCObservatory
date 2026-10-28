@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Regulatory 1099 format changes and details",
+  "title": "IRS 1099 Legacy Format Changes and Details",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/tax-1099-changes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.078Z",
-      "blob": "208d9d0dc2e7a9a5642f68cabaeabbdfd519357d",
-      "words": 618,
+      "at": "2026-10-28T09:09:06.454Z",
+      "blob": "a02ef0cad753197b2bfe45bd2b1cf988dcc2bf7d",
+      "words": 575,
       "forms": 9
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedStates/tax-1099-changes.md",
-    "description": "Learn about the changes applied to the IRS 1099 tax form regarding the required codes for payments to vendors.",
-    "ms_date": "2025-02-04",
-    "ms_topic": "article",
+    "description": "Review historical IRS 1099 form box and report layout changes for the legacy Business Central workflow, with links to current setup guidance.",
+    "ms_date": "2026-10-19",
+    "ms_topic": "reference",
     "search_form": [
       {
         "raw": "10015",
@@ -98,12 +98,12 @@
       "local",
       "1099"
     ],
-    "ai_usage": null,
-    "words": 618,
+    "ai_usage": "ai-assisted",
+    "words": 575,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "da50cfaada4db698ab75c3192733292fd0371f93e4474f18e14842c3bec3e09f"
+  "output_hash": "a02ef0cad753197b2bfe45bd2b1cf988dcc2bf7d"
 }

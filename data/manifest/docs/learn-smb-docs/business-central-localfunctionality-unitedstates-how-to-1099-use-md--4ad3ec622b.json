@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Track data and use the IRS 1099 form",
+  "title": "Track and Review Vendor Data for IRS 1099 Forms",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-use",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.892Z",
-      "blob": "4e3b24fb29c149b533c2a4fa52ff6c24f1f2b22f",
-      "words": 1595,
+      "at": "2026-10-28T09:08:58.672Z",
+      "blob": "7731ab1ef12f0a4c69ca83f0bd8a21c4c9ea5627",
+      "words": 1615,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T18:40:57.183Z",
+      "at": "2026-10-28T09:09:06.392Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 8,
-      "cost_usd": 0.005911
+      "cost_usd": 0.01058
     },
     "summarized": {
-      "at": "2026-10-06T18:40:59.154Z",
+      "at": "2026-10-28T09:09:06.394Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:40:59.155Z",
+      "at": "2026-10-28T09:09:06.395Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:40:59.156Z",
+      "at": "2026-10-28T09:09:06.396Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedStates/how-to-1099-use.md",
-    "description": "Learn how to post documents to calculate information for your 1099 tax forms.",
-    "ms_date": "2026-05-06",
+    "description": "Learn how to track IRS 1099 vendor payments, review reporting amounts, make adjustments, and create form documents in Business Central.",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -86,12 +86,12 @@
       "taxes",
       "IRS"
     ],
-    "ai_usage": null,
-    "words": 1595,
+    "ai_usage": "ai-assisted",
+    "words": 1615,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a4bc4436953e7b6514df19ba73095c4718bb8984efb4f502ca038080447fd28d"
+  "output_hash": "5dde158f87b817193ad21c4e97c504e4b9db2d938daed5b0d239f9ec2d234711"
 }

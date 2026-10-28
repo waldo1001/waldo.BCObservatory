@@ -2,37 +2,36 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/united-states-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/united-states-local-functionality",
   "title": "United States local functionality",
-  "blob": "f6c24c773f993fd63709802b95a2150f98ae7363",
-  "summary": "United States local functionality in Business Central includes tax reporting, banking and payments, and general features such as 1099 form handling, deposit creation, bank reconciliation, and e-invoicing support.",
+  "blob": "6d0ed3e1bcce83426499d0a91c4cf9dc7f43c6f8",
+  "summary": "United States local functionality in Business Central covering tax reporting, banking features, and IRS form handling specific to the US version of the product.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "united states",
-    "tax reporting",
-    "1099 forms",
+    "us tax",
     "sales tax",
+    "irs 1099",
+    "1096 forms",
     "use tax",
     "purchase tax",
-    "deposits",
     "bank reconciliation",
-    "electronic payments",
-    "e-invoicing"
+    "e-documents"
   ],
   "objects": [],
   "features": [
-    "IRS 1099 form setup",
-    "1099 reporting",
-    "1099 APIs",
-    "IRS 1096 form",
-    "use tax and purchase tax",
-    "unrealized sales tax",
-    "electronic payments",
-    "e-invoicing"
+    "Basic Tax Setup",
+    "Sales Tax Reporting",
+    "Use Tax and Purchase Tax",
+    "Unrealized Sales Tax",
+    "Sales Payment Discounts",
+    "IRS 1099 Forms",
+    "IRS 1096 Forms",
+    "Bank Deposits and Reconciliation",
+    "E-documents"
   ],
   "versions": [
-    "version 27.0"
+    "2027 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -40,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005899,
-      "pages_in_call": 8
+      "cost_usd": 0.003895,
+      "pages_in_call": 1
     }
   ]
 }

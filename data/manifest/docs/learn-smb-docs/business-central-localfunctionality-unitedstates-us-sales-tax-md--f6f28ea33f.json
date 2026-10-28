@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/us-sales-tax",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.083Z",
-      "blob": "df76626b42e1639c1eb9758bab243290c24d72fc",
-      "words": 325,
+      "at": "2026-10-28T09:09:06.534Z",
+      "blob": "5cc1cf63bcc812d4e080f588adbce3fa7c7d3d8f",
+      "words": 350,
       "forms": 8
     },
     "extracted": {
-      "at": "2026-10-06T19:28:23.520Z",
+      "at": "2026-10-28T09:09:12.760Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.0019
+      "objects": 2,
+      "cost_usd": 0.00341
     },
     "summarized": {
-      "at": "2026-10-06T19:28:25.351Z",
+      "at": "2026-10-28T09:09:12.762Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:25.352Z",
+      "at": "2026-10-28T09:09:12.763Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:25.353Z",
+      "at": "2026-10-28T09:09:12.764Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedStates/us-sales-tax.md",
     "description": "Understand the setup of sales tax, including how tax groups, tax areas (such as states, counties, cities, and localities), tax jurisdictions, and tax details work.",
-    "ms_date": "2025-02-04",
+    "ms_date": "2026-10-19",
     "ms_topic": "article",
     "search_form": [
       {
@@ -94,12 +94,12 @@
       "sales tax",
       "tax group"
     ],
-    "ai_usage": null,
-    "words": 325,
+    "ai_usage": "ai-assisted",
+    "words": 350,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6fab7d585f9ccfc8389a39fa5fb59206d8df6b249b0f54dccaa668b3acef8e9e"
+  "output_hash": "b0d041d796fa71adbbbed458ec760b92bf039d302ea30d5914662bf1fdf14f3e"
 }

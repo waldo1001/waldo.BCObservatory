@@ -2,24 +2,38 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/us-sales-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/us-sales-tax",
   "title": "Sales tax in the US Version",
-  "blob": "df76626b42e1639c1eb9758bab243290c24d72fc",
-  "summary": "Sales tax configuration in Business Central's US version, including tax details setup, tax jurisdictions, and tax groups for compliance with state and local tax requirements.",
+  "blob": "5cc1cf63bcc812d4e080f588adbce3fa7c7d3d8f",
+  "summary": "Sales tax configuration in Business Central US version covers setting up tax areas, jurisdictions, rates, and tax details for multiple government authorities. Use this to establish tax rates for different jurisdictions, tax groups, and effective dates.",
   "systems": [
     "finance",
-    "sales"
+    "localization"
   ],
   "topics": [
-    "us local functionality",
     "sales tax",
     "tax setup",
-    "tax jurisdictions"
+    "us version",
+    "tax jurisdictions",
+    "tax rates",
+    "tax groups"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Tax Details"
+    },
+    {
+      "type": "page",
+      "name": "Copy Tax Setup"
+    }
+  ],
   "features": [
     "Tax Details page",
-    "tax jurisdictions",
-    "tax groups",
-    "Copy Tax Setup task"
+    "Tax Type configuration",
+    "Effective Date setup",
+    "Tax Below Maximum rates",
+    "Tax Above Maximum rates",
+    "Nontaxable tax groups",
+    "Copy Tax Setup feature"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.0019,
-      "pages_in_call": 7
+      "cost_usd": 0.00341,
+      "pages_in_call": 1
     }
   ]
 }

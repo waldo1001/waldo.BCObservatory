@@ -1,25 +1,35 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/how-to-1099-report.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-report",
-  "title": "Report and submit the IRS 1099 form [US]",
-  "blob": "f8b30ab49a5478087d64a640d0108e1c74249700",
-  "summary": "Submit and report the IRS 1099 forms describes how to register with the IRS, submit 1099 forms via IRIS or magnetic media, print and email documents, and handle corrections and rejections.",
+  "title": "IRS 1099 Forms Reporting and Submission [US]",
+  "blob": "01c9685dac473c30ab61df0a15eebe1a3512cfea",
+  "summary": "IRS 1099 Forms Reporting and Submission describes how to report and submit IRS 1099 forms in Business Central using IRIS integration, magnetic media, or manual methods, including creating form documents, releasing them, submitting transmissions, correcting errors, and emailing vendor copies.",
   "systems": [
-    "purchasing",
+    "finance",
+    "integration",
     "localization"
   ],
   "topics": [
-    "irs 1099",
-    "iris transmission",
-    "tax filing",
-    "1099 submission",
-    "corrections",
-    "united states"
+    "irs 1099 forms",
+    "tax reporting",
+    "iris integration",
+    "vendor reporting",
+    "form submission",
+    "1099 documents",
+    "us localization"
   ],
   "objects": [
     {
       "type": "page",
       "name": "IRS 1099 Form Documents"
+    },
+    {
+      "type": "page",
+      "name": "IRS 1099 Create Form Documents"
+    },
+    {
+      "type": "page",
+      "name": "Setup IRIS User ID"
     },
     {
       "type": "page",
@@ -31,25 +41,38 @@
     },
     {
       "type": "page",
-      "name": "Error Information"
-    },
-    {
-      "type": "page",
       "name": "Transmission History"
     },
     {
       "type": "page",
+      "name": "Error Information"
+    },
+    {
+      "type": "page",
       "name": "Email Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Activity Log"
+    },
+    {
+      "type": "page",
+      "name": "Email Error Log"
+    },
+    {
+      "type": "report",
+      "name": "IRS 1099 FIRE"
     }
   ],
   "features": [
     "IRIS integration",
-    "magnetic media submission",
-    "transmission status",
-    "error handling",
-    "form correction",
-    "email automation",
-    "copy submission"
+    "1099 form creation",
+    "form document release",
+    "transmission submission",
+    "error correction",
+    "rejected transmission handling",
+    "accepted transmission correction",
+    "1099 vendor copy emailing"
   ],
   "versions": [],
   "parts": 1,
@@ -58,8 +81,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005911,
-      "pages_in_call": 8
+      "cost_usd": 0.013791,
+      "pages_in_call": 1
     }
   ]
 }

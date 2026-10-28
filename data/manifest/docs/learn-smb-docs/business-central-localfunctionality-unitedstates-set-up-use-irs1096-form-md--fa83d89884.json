@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up and use the IRS 1096 form [US]",
+  "title": "IRS 1096 Forms Setup and Reporting [US]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1096-form",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.959Z",
-      "blob": "23722d984837bcc6215ba382b3ec17057a884c9f",
-      "words": 1225,
+      "at": "2026-10-28T09:08:58.775Z",
+      "blob": "bf8cb2a50fcecbecdabd1fd1edea7ae12ee6422e",
+      "words": 1162,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:43:19.018Z",
+      "at": "2026-10-28T09:09:06.526Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.004095
+      "cost_usd": 0.00551
     },
     "summarized": {
-      "at": "2026-10-06T19:43:20.850Z",
+      "at": "2026-10-28T09:09:06.528Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:20.851Z",
+      "at": "2026-10-28T09:09:06.529Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:20.852Z",
+      "at": "2026-10-28T09:09:06.529Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md",
-    "description": "Learn how to set up the 1096 tax form boxes so that you can submit the required reports.",
-    "ms_date": "2025-02-04",
+    "description": "Learn how to configure IRS 1096 form numbering, review and correct legacy form amounts, release forms, and print reports in Business Central.",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -69,12 +69,12 @@
       "1096",
       "IRS"
     ],
-    "ai_usage": null,
-    "words": 1225,
+    "ai_usage": "ai-assisted",
+    "words": 1162,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f7977853fb8b9cbf6dc56285c5c7fb753b56ae30fb9a79418c3453e749e5384f"
+  "output_hash": "d6bd9e6defe51fc970778247a0328c565ca7be720f08ef24de9fbd3a39e3bc55"
 }

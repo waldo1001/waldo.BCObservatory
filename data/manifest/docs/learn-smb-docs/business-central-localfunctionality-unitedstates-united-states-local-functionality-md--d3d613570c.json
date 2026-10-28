@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/united-states-local-functionality",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.701Z",
-      "blob": "f6c24c773f993fd63709802b95a2150f98ae7363",
-      "words": 248,
+      "at": "2026-10-28T09:09:06.472Z",
+      "blob": "6d0ed3e1bcce83426499d0a91c4cf9dc7f43c6f8",
+      "words": 264,
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T18:51:01.720Z",
+      "at": "2026-10-28T09:09:12.775Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005899
+      "cost_usd": 0.003895
     },
     "summarized": {
-      "at": "2026-10-06T18:51:03.486Z",
+      "at": "2026-10-28T09:09:12.777Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:51:03.487Z",
+      "at": "2026-10-28T09:09:12.780Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:51:03.488Z",
+      "at": "2026-10-28T09:09:12.781Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedStates/united-states-local-functionality.md",
     "description": "These articles describe the local functionality in the United States version of Business Central.",
-    "ms_date": "2025-12-30",
+    "ms_date": "2026-10-19",
     "ms_topic": "article",
     "search_form": [
       {
@@ -78,12 +78,12 @@
       "United States",
       "local functionality"
     ],
-    "ai_usage": null,
-    "words": 248,
+    "ai_usage": "ai-assisted",
+    "words": 264,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3222b63855eee341c5351a3e941e4773a51fb8694f324a1d47a0efffddf06b07"
+  "output_hash": "c11a3ee7155c38c48ed18eef1adbf951bd22c1dc510fb778ccf84b974eebb3af"
 }
