@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to issue delivery reminders [CH]",
+  "title": "Issue Delivery Reminders in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-issue-delivery-reminders",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.925Z",
-      "blob": "472de4eb3eaf43c5a5a0cd7129d4bf732ee9ee07",
+      "at": "2026-10-28T09:08:04.174Z",
+      "blob": "55a2cc9f192372912aee9c1f88b0921a0d9d6bbf",
       "words": 27,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:55.094Z",
+      "at": "2026-10-28T09:08:10.494Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002246
+      "cost_usd": 0.002611
     },
     "summarized": {
-      "at": "2026-10-06T19:27:56.899Z",
+      "at": "2026-10-28T09:08:10.495Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:56.900Z",
+      "at": "2026-10-28T09:08:10.497Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:56.901Z",
+      "at": "2026-10-28T09:08:10.498Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-issue-delivery-reminders.md",
-    "description": "Learn how to issue and print delivery reminders after creating them to notify vendors effectively.",
-    "ms_date": "2025-04-29",
+    "description": "Issue delivery reminders in the Swiss version of Business Central, print them for vendors, and review the resulting delivery reminder ledger entries.",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "print delivery reminders",
       "Swiss version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 27,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "61b793ef8f49ddf62b8ba56ffe05506b35170d032cdd49986031e40a23c7b397"
+  "output_hash": "ae2c412e311388f00d213a63465144a399b7d7022d994f80e6512040e3656321"
 }

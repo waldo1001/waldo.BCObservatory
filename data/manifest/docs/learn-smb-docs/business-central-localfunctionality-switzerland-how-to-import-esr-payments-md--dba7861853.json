@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Import ESR Payments [CH]",
+  "title": "Import ESR Payments in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-esr-payments",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.913Z",
-      "blob": "5946475bc5f270a1953c570f4540423945abff1c",
-      "words": 222,
+      "at": "2026-10-28T09:07:58.263Z",
+      "blob": "c6854a433426b31c777afc4bc1a9a3570538e6b8",
+      "words": 226,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:27:55.090Z",
+      "at": "2026-10-28T09:08:04.365Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002246
+      "objects": 1,
+      "cost_usd": 0.003358
     },
     "summarized": {
-      "at": "2026-10-06T19:27:55.100Z",
+      "at": "2026-10-28T09:08:04.367Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:55.102Z",
+      "at": "2026-10-28T09:08:04.368Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:56.892Z",
+      "at": "2026-10-28T09:08:04.369Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-import-esr-payments.md",
     "description": "Learn how to electronically import ESR files from your bank, which include details about paid invoices. You can also receive this file by mail.",
-    "ms_date": "2025-04-28",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -66,12 +66,12 @@
       "ESR invoice data",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 222,
+    "ai_usage": "ai-assisted",
+    "words": 226,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7ca7fa286b56a683dc41c25ce15d513b909c0d20bc49a47af12c11bbe2112af2"
+  "output_hash": "034726c059b21c80c6725093f9088107eb0ddc1865f6b3fe6eb20c0f837554d1"
 }

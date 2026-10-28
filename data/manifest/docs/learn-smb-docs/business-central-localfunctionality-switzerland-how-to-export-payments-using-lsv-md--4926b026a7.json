@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Export Payments Using LSV [CH]",
+  "title": "Export Payments Using LSV in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-export-payments-using-lsv",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.904Z",
-      "blob": "7a71642c2ac0ccd0142b228291d33c1a4cdbd5a5",
-      "words": 188,
+      "at": "2026-10-28T09:07:58.144Z",
+      "blob": "a0a0338969954a0ebab4434223c3c20d52c4cd0d",
+      "words": 196,
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T19:27:30.044Z",
+      "at": "2026-10-28T09:08:03.767Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002054
+      "cost_usd": 0.003312
     },
     "summarized": {
-      "at": "2026-10-06T19:27:31.827Z",
+      "at": "2026-10-28T09:08:03.768Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:31.828Z",
+      "at": "2026-10-28T09:08:03.769Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:31.829Z",
+      "at": "2026-10-28T09:08:03.771Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md",
     "description": "Learn how to export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection.",
-    "ms_date": "2025-04-28",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -80,12 +80,12 @@
       "write LSV files",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 188,
+    "ai_usage": "ai-assisted",
+    "words": 196,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7fb7e1e5500fdbee9ec6c9e6f141c6014412c4c9ff309d57978e410863df85c1"
+  "output_hash": "2180a802354a471af5e5e0b3e35551234ed097569048b59b98c4c82ef8381641"
 }

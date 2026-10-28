@@ -1,16 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-issue-delivery-reminders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-issue-delivery-reminders",
-  "title": "How to issue delivery reminders [CH]",
-  "blob": "472de4eb3eaf43c5a5a0cd7129d4bf732ee9ee07",
-  "summary": "Issue delivery reminders in the Swiss version of Business Central to follow up on overdue deliveries.",
+  "title": "Issue Delivery Reminders in the Swiss Version [CH]",
+  "blob": "55a2cc9f192372912aee9c1f88b0921a0d9d6bbf",
+  "summary": "Issuing delivery reminders in the Swiss version of Business Central for tracking and managing late supplier deliveries.",
   "systems": [
-    "sales",
+    "purchasing",
     "localization"
   ],
   "topics": [
     "delivery reminders",
-    "switzerland"
+    "swiss localization",
+    "supplier management",
+    "purchase orders"
   ],
   "objects": [],
   "features": [
@@ -23,8 +25,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002246,
-      "pages_in_call": 8
+      "cost_usd": 0.002611,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,38 +1,39 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers",
-  "title": "Import Swiss Bank Clearing Numbers [CH]",
-  "blob": "1308ae88c14c726fd1c1b4e59592b2f86b021744",
-  "summary": "Import Swiss bank clearing numbers from SIX Interbank Clearing files to update the Bank Directory table and define bank branch numbers for customers and vendors in the Swiss version.",
+  "title": "Import Swiss Bank Clearing Numbers in the Swiss Version [CH]",
+  "blob": "02026c26984ca6c2821a8a9a146af7d58cce0d38",
+  "summary": "Import Swiss bank clearing numbers from a bank directory file into Business Central to enable electronic payment identification by bank agency and branch.",
   "systems": [
-    "finance",
     "localization"
   ],
   "topics": [
+    "swiss functionality",
     "bank clearing numbers",
-    "swiss banks",
+    "electronic payments",
     "bank directory",
-    "switzerland",
-    "payment setup"
+    "customer bank accounts",
+    "vendor setup"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "table",
       "name": "Bank Directory"
     },
     {
-      "type": "table",
-      "name": "Customer Bank Account"
+      "type": "page",
+      "name": "Import Bank Directory"
     },
     {
-      "type": "table",
-      "name": "Vendor Bank Account"
+      "type": "page",
+      "name": "Customer Bank Account List"
     }
   ],
   "features": [
-    "Import Bank Directory action",
+    "Import Bank Directory",
     "Automatically Update Clearing Numbers",
-    "bank branch number definition"
+    "Bank Branch No.",
+    "Clearing No."
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002246,
-      "pages_in_call": 8
+      "cost_usd": 0.003287,
+      "pages_in_call": 1
     }
   ]
 }

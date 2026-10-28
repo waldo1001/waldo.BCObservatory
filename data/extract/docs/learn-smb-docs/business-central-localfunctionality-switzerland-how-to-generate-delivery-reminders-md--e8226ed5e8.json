@@ -1,23 +1,23 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-generate-delivery-reminders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-generate-delivery-reminders",
-  "title": "How to generate delivery reminders [CH]",
-  "blob": "18e82750ac31080013bd566db135363533fcadd9",
-  "summary": "Generate delivery reminders in the Swiss version covers automatic generation of delivery reminders to vendors based on configured criteria.",
+  "title": "Generate Delivery Reminders in the Swiss Version [CH]",
+  "blob": "06c063588f395287e767bbef4bee253a7898fe46",
+  "summary": "Generate Delivery Reminders in the Swiss Version explains how to automatically create delivery reminders for late vendor deliveries in Swiss Business Central localization.",
   "systems": [
-    "purchasing",
-    "localization"
+    "localization",
+    "purchasing"
   ],
   "topics": [
     "delivery reminders",
-    "swiss",
-    "vendors",
-    "automated"
+    "swiss localization",
+    "vendor management",
+    "late deliveries"
   ],
   "objects": [],
   "features": [
-    "Delivery Reminders",
-    "Batch Job"
+    "Generate Delivery Reminders",
+    "Swiss Delivery Reminders"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +26,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002054,
-      "pages_in_call": 8
+      "cost_usd": 0.005557,
+      "pages_in_call": 1
     }
   ]
 }

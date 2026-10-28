@@ -1,18 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-export-payments-using-lsv",
-  "title": "Export Payments Using LSV [CH]",
-  "blob": "7a71642c2ac0ccd0142b228291d33c1a4cdbd5a5",
-  "summary": "Export Payments Using LSV in the Swiss version documents how to export Lastschrift Verfahren LSV+ files containing payment information after closing LSV collections.",
+  "title": "Export Payments Using LSV in the Swiss Version [CH]",
+  "blob": "a0a0338969954a0ebab4434223c3c20d52c4cd0d",
+  "summary": "Export LSV+ (Lastschrift Verfahren) payment files from Business Central in the Swiss version for sending to banks via disk or electronic file transfer.",
   "systems": [
-    "finance",
-    "localization"
+    "localization",
+    "purchasing"
   ],
   "topics": [
     "lsv+",
-    "swiss electronic payments",
+    "swiss payments",
     "payment export",
-    "swiss"
+    "bank file",
+    "electronic payments"
   ],
   "objects": [
     {
@@ -20,14 +21,15 @@
       "name": "LSV Journal List"
     },
     {
-      "type": "report",
+      "type": "page",
       "name": "Write LSV File"
     }
   ],
   "features": [
-    "LSV File Export",
-    "LSV Journal",
-    "Test Delivery Mode"
+    "LSV file export",
+    "test mode",
+    "payment file generation",
+    "journal status tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002054,
-      "pages_in_call": 8
+      "cost_usd": 0.003312,
+      "pages_in_call": 1
     }
   ]
 }

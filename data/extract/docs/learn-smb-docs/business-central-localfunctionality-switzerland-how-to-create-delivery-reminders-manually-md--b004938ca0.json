@@ -1,22 +1,24 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-create-delivery-reminders-manually.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-delivery-reminders-manually",
-  "title": "How to create delivery reminders manually [CH]",
-  "blob": "cd9287b0360b29754aa3e4992f1d829f68cbcc7a",
-  "summary": "Create delivery reminders manually in the Swiss version covers the process for manually creating delivery reminders to vendors.",
+  "title": "Create Delivery Reminders Manually in the Swiss Version [CH]",
+  "blob": "64da8e1aacc4725de3234c411e1c3616ecf85d1d",
+  "summary": "Manual creation of delivery reminders in the Swiss version of Business Central for tracking vendor delivery performance.",
   "systems": [
     "purchasing",
     "localization"
   ],
   "topics": [
     "delivery reminders",
-    "swiss",
+    "switzerland",
     "vendors",
-    "manual process"
+    "manual",
+    "purchase orders"
   ],
   "objects": [],
   "features": [
-    "Delivery Reminders"
+    "manual delivery reminder creation",
+    "Swiss localization"
   ],
   "versions": [],
   "parts": 1,
@@ -25,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002054,
-      "pages_in_call": 8
+      "cost_usd": 0.003447,
+      "pages_in_call": 1
     }
   ]
 }

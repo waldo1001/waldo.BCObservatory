@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to import Swiss post codes [CH]",
+  "title": "Import Swiss Post Codes in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.921Z",
-      "blob": "4337e23cec30b0f9a105677b27698947a5408bf1",
-      "words": 279,
+      "at": "2026-10-28T09:08:03.827Z",
+      "blob": "3573b5cdf3884d7540b7bc7d73197ab7fecead2d",
+      "words": 288,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:55.093Z",
+      "at": "2026-10-28T09:08:10.507Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002246
+      "objects": 3,
+      "cost_usd": 0.00347
     },
     "summarized": {
-      "at": "2026-10-06T19:27:56.897Z",
+      "at": "2026-10-28T09:08:10.508Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:56.898Z",
+      "at": "2026-10-28T09:08:10.510Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:56.898Z",
+      "at": "2026-10-28T09:08:10.511Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md",
     "description": "Learn how to import the latest Swiss post code file to update the Post Code table and define post codes for customers or vendors efficiently.",
-    "ms_date": "2025-04-29",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "import post codes",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 279,
+    "ai_usage": "ai-assisted",
+    "words": 288,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c83c468d0128c79d3b7ff89bbae5cfbd7d7e2e2927004bd9a423b0991d5193be"
+  "output_hash": "1af913e9f11a1e651e417c8acefab5d78ea589961f1a7a7bca8c064c0240148d"
 }

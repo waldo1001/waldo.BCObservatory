@@ -1,33 +1,41 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes",
-  "title": "How to import Swiss post codes [CH]",
-  "blob": "4337e23cec30b0f9a105677b27698947a5408bf1",
-  "summary": "Import the latest Swiss post code file from Swiss Post to update the Post Code table and define post codes for customers and vendors in the Swiss version.",
+  "title": "Import Swiss Post Codes in the Swiss Version [CH]",
+  "blob": "3573b5cdf3884d7540b7bc7d73197ab7fecead2d",
+  "summary": "Import and manage Swiss post codes in the Swiss version of Business Central. Use this to update the Post Code table with the latest data from Swiss Post and define post codes for customers and vendors.",
   "systems": [
+    "localization",
     "sales",
-    "purchasing",
-    "localization"
+    "purchasing"
   ],
   "topics": [
+    "swiss localization",
     "post codes",
-    "switzerland",
-    "address management",
-    "postal codes"
+    "customer setup",
+    "vendor setup",
+    "address data"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "Post Codes"
-    },
-    {
       "type": "table",
       "name": "Post Code"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
     }
   ],
   "features": [
-    "Import Post Codes action",
-    "automatic city and country population"
+    "Import post codes from CSV or ZIP files",
+    "Automatic city and country/region population",
+    "Post code range validation (1000-9999)",
+    "Post code definition for customers",
+    "Post code definition for vendors"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002246,
-      "pages_in_call": 8
+      "cost_usd": 0.00347,
+      "pages_in_call": 1
     }
   ]
 }

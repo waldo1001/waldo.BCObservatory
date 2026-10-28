@@ -1,18 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-post-lsv-payments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-post-lsv-payments",
-  "title": "How to Post LSV+ payments",
-  "blob": "384e417c4b84c962b323586d7071a3b703dee21e",
-  "summary": "Post LSV+ (Lastschrift Verfahren) payment advice received from banks into cash receipt journals for payment processing in the Swiss version.",
+  "title": "Post LSV+ Payments in Switzerland",
+  "blob": "6f8133ca755d8e06850231ff34013d3509f1b642",
+  "summary": "Post LSV+ payments in Switzerland by importing Lastschrift Verfahren payment advice from bank into cash receipt journals and posting them.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "lsv+ payments",
-    "electronic payments",
+    "swiss payments",
     "cash receipt",
-    "switzerland"
+    "bank payments",
+    "payment processing"
   ],
   "objects": [
     {
@@ -22,12 +23,18 @@
     {
       "type": "page",
       "name": "LSV Journal List"
+    },
+    {
+      "type": "page",
+      "name": "Cash Receipt Journal"
     }
   ],
   "features": [
+    "LSV+ payment import",
     "Get From LSV Journal action",
-    "LSV Status tracking",
-    "File Created status"
+    "LSV Status field",
+    "Payment posting",
+    "Bank payment advice matching"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002246,
-      "pages_in_call": 8
+      "cost_usd": 0.00357,
+      "pages_in_call": 1
     }
   ]
 }

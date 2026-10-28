@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to create delivery reminders manually [CH]",
+  "title": "Create Delivery Reminders Manually in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-delivery-reminders-manually",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.900Z",
-      "blob": "cd9287b0360b29754aa3e4992f1d829f68cbcc7a",
+      "at": "2026-10-28T09:07:58.183Z",
+      "blob": "64da8e1aacc4725de3234c411e1c3616ecf85d1d",
       "words": 45,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:30.043Z",
+      "at": "2026-10-28T09:08:04.694Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002054
+      "cost_usd": 0.003447
     },
     "summarized": {
-      "at": "2026-10-06T19:27:31.824Z",
+      "at": "2026-10-28T09:08:10.465Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:31.825Z",
+      "at": "2026-10-28T09:08:10.467Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:31.826Z",
+      "at": "2026-10-28T09:08:10.468Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/how-to-create-delivery-reminders-manually.md",
-    "description": "Learn how to manually create delivery reminders in Business Central for undelivered purchases in the Swiss version.",
-    "ms_date": "2025-04-28",
+    "description": "Create a delivery reminder manually for a vendor in the Swiss version of Business Central, and suggest lines for overdue purchase deliveries.",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "manual delivery reminders",
       "Swiss version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 45,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "da5533436dad6ddb9e4d9f674e83888cf92e62110e5e14d34ac9d6e00a5a23a2"
+  "output_hash": "490bacaf8011ec2a77a031de343725c233b9941ee674ba8fc6c6642934fb5208"
 }
